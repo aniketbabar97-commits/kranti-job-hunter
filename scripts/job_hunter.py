@@ -147,6 +147,8 @@ EXCLUDE_COMPANIES = {
     "wipro", "infosys", "tcs", "cognizant technology solutions",
     "hcl technologies", "tech mahindra", "mphasis", "hexaware",
     "mindtree", "l&t technology", "niit technologies",
+    # Kranti's current employer — applying would be awkward
+    "rockwell automation",
 }
 BONUS_KEYWORDS = [
     "java", "spring", "spring boot", "groovy",
@@ -158,6 +160,15 @@ BONUS_KEYWORDS = [
     "e-commerce", "ecommerce", "digital commerce",
     "developer", "entwickler", "backend", "software engineer",
 ]
+EU_COUNTRIES = {
+    "germany", "deutschland", "austria", "österreich", "switzerland", "schweiz",
+    "netherlands", "nederland", "belgium", "belgien", "france", "frankreich",
+    "spain", "spanien", "portugal", "poland", "polska", "czech", "hungary",
+    "sweden", "denmark", "norway", "finland", "ireland", "italy", "romania",
+    "slovakia", "slovenia", "croatia", "bulgaria", "luxembourg",
+    "united kingdom", "scotland", "england", "wales", "europe",
+}
+
 BW_CITIES = {
     "karlsruhe", "stuttgart", "mannheim", "heidelberg", "freiburg",
     "ulm", "pforzheim", "heilbronn", "konstanz", "sindelfingen",
@@ -627,16 +638,6 @@ def find_hr_email(company_name: str, job_description: str) -> str:
     return ""
 
 
-# EU country names — if any of these appear, it's definitely NOT USA
-EU_COUNTRIES = {
-    "germany", "deutschland", "austria", "österreich", "switzerland", "schweiz",
-    "netherlands", "nederland", "belgium", "belgien", "france", "frankreich",
-    "spain", "spanien", "portugal", "poland", "polska", "czech", "hungary",
-    "sweden", "denmark", "norway", "finland", "ireland", "italy", "romania",
-    "slovakia", "slovenia", "croatia", "bulgaria", "luxembourg",
-    "united kingdom", "scotland", "england", "wales",
-}
-
 def is_usa_location(location: str) -> bool:
     """Return True if the job is clearly in the USA, not Europe."""
     loc = (location or "").lower()
@@ -812,9 +813,13 @@ def fetch_all_jobs() -> list[dict]:
             job = enrich_xing_job(job)
         else:
             job["description"] = fetch_description(job["url"])
-        # Second-pass location check using description (some jobs hide US location in text)
-        if is_usa_location(job["description"][:200]):
-            print(f"    🚫 USA location found in description — skipping")
+        # Second-pass: only block if description strongly suggests US-only AND job location is not EU
+        desc_start = job["description"][:300].lower()
+        loc_lower  = job["location"].lower()
+        # Only skip if it mentions a specific US city/state AND the job location is not clearly EU
+        is_eu_loc  = any(c in loc_lower for c in EU_COUNTRIES)
+        if not is_eu_loc and is_usa_location(desc_start):
+            print(f"    🚫 Non-EU job (location+desc confirm USA) — skipping")
             continue
         # Filter non-EU remote jobs (timezone mismatch, low pay)
         if "remote" in job["location"].lower() and is_non_eu_remote(job["description"]):
@@ -954,7 +959,7 @@ PARA 3 — FIT: Why THIS company, not just any company?
 If description mentions KI/AI, BTP, composable — reference it specifically.
 
 PARA 4 — CLOSE (2 sentences max):
-- Mention availability: {CANDIDATE['availability']}
+- Mention availability: {CANDIDATE['availability_en']}
 - Warm, confident interview request. No "I look forward to hearing from you".
 - NEVER mention visa, work permit, residence permit or sponsorship.
 
