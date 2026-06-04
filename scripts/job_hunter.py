@@ -100,6 +100,13 @@ NTFY_TOPIC      = os.environ.get("NTFY_TOPIC",  "kranti-sap-jobs-2024")
 GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN",    "")
 GITHUB_REPO     = os.environ.get("GITHUB_REPO",     "")
 
+# ── Extra job source APIs (optional — adds StepStone/Indeed/XING data) ──
+# Adzuna: FREE 250 calls/day — developer.adzuna.com (indexes StepStone/Indeed/Monster DE)
+ADZUNA_APP_ID   = os.environ.get("ADZUNA_APP_ID",  "")
+ADZUNA_APP_KEY  = os.environ.get("ADZUNA_APP_KEY", "")
+# JSearch: FREE 200 calls/month — rapidapi.com search "JSearch" (Google Jobs aggregator)
+JSEARCH_API_KEY = os.environ.get("JSEARCH_API_KEY", "")
+
 MAX_JOBS        = 7
 SEEN_LOG        = "tracker/seen_jobs.json"
 TRACKER_LOG     = "tracker/applications.json"
@@ -380,6 +387,90 @@ def linkedin_fetch_page(keyword, location, timeframe, start) -> list[dict]:
         return []
 
 
+def fetch_adzuna(keyword: str, location: str = "de") -> list[dict]:
+    """
+    Adzuna API — indexes StepStone, Indeed, Monster, company pages in Germany.
+    Free: 250 calls/day. Sign up at developer.adzuna.com (instant, no credit card).
+    """
+    if not ADZUNA_APP_ID or not ADZUNA_APP_KEY:
+        return []
+    try:
+        r = requests.get(
+            f"https://api.adzuna.com/v1/api/jobs/{location}/search/1",
+            params={
+                "app_id"         : ADZUNA_APP_ID,
+                "app_key"        : ADZUNA_APP_KEY,
+                "what"           : keyword,
+                "results_per_page": 20,
+                "sort_by"        : "date",
+                "max_days_old"   : 30,
+                "content-type"   : "application/json",
+            },
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return []
+        jobs = []
+        for item in r.json().get("results", []):
+            jobs.append({
+                "title"      : item.get("title", ""),
+                "company"    : item.get("company", {}).get("display_name", "–"),
+                "location"   : item.get("location", {}).get("display_name", "Germany"),
+                "url"        : item.get("redirect_url", ""),
+                "date"       : item.get("created", "")[:10],
+                "source"     : "Adzuna (StepStone/Indeed/Monster)",
+                "description": item.get("description", "")[:2000],
+                "hr_email"   : "",
+            })
+        return jobs
+    except Exception as e:
+        print(f"  [adzuna] {e}")
+        return []
+
+
+def fetch_jsearch(keyword: str, location: str = "Germany") -> list[dict]:
+    """
+    JSearch via RapidAPI — powered by Google Jobs = indexes everything:
+    StepStone, Indeed, XING, Monster, company career pages, LinkedIn.
+    Free: 200 calls/month. Sign up at rapidapi.com → search 'JSearch' → subscribe free.
+    """
+    if not JSEARCH_API_KEY:
+        return []
+    try:
+        r = requests.get(
+            "https://jsearch.p.rapidapi.com/search",
+            params={
+                "query"      : f"{keyword} in {location}",
+                "page"       : "1",
+                "num_pages"  : "3",
+                "date_posted": "month",
+            },
+            headers={
+                "X-RapidAPI-Key" : JSEARCH_API_KEY,
+                "X-RapidAPI-Host": "jsearch.p.rapidapi.com",
+            },
+            timeout=20,
+        )
+        if r.status_code != 200:
+            return []
+        jobs = []
+        for item in r.json().get("data", []):
+            jobs.append({
+                "title"      : item.get("job_title", ""),
+                "company"    : item.get("employer_name", "–"),
+                "location"   : f"{item.get('job_city','')}, {item.get('job_country','')}".strip(", "),
+                "url"        : item.get("job_apply_link") or item.get("job_google_link", ""),
+                "date"       : (item.get("job_posted_at_datetime_utc") or "")[:10],
+                "source"     : f"Google Jobs ({item.get('job_publisher','JSearch')})",
+                "description": item.get("job_description", "")[:2000],
+                "hr_email"   : item.get("employer_company_type", ""),
+            })
+        return jobs
+    except Exception as e:
+        print(f"  [jsearch] {e}")
+        return []
+
+
 def fetch_description(url, retries=2) -> str:
     for attempt in range(retries + 1):
         try:
@@ -521,6 +612,37 @@ def fetch_all_jobs() -> list[dict]:
                     seen_urls.add(j["url"])
                     all_raw.append(j)
             time.sleep(2)
+
+    # ── Adzuna (StepStone + Indeed + Monster Germany) ─────────────────
+    if ADZUNA_APP_ID:
+        print("\n    🔍 Adzuna [StepStone/Indeed/Monster DE]...")
+        for kw in ["SAP Commerce Cloud", "SAP Hybris developer", "SAP CX developer"]:
+            for country_code in ["de", "at", "nl", "pl"]:
+                az_jobs = fetch_adzuna(kw, country_code)
+                for j in az_jobs:
+                    if j["url"] and j["url"] not in seen_urls:
+                        seen_urls.add(j["url"])
+                        all_raw.append(j)
+                time.sleep(1)
+        print(f"    → Adzuna added jobs, total now: {len(all_raw)}")
+    else:
+        print("    ℹ️  Adzuna not configured (add ADZUNA_APP_ID + ADZUNA_APP_KEY secrets)")
+        print("       → Free 250 calls/day at developer.adzuna.com — covers StepStone/Indeed/Monster")
+
+    # ── JSearch / Google Jobs (covers everything) ─────────────────────
+    if JSEARCH_API_KEY:
+        print("\n    🔍 JSearch [Google Jobs — StepStone/Indeed/XING/company pages]...")
+        for kw in ["SAP Commerce Cloud Developer Germany", "SAP Hybris Developer Europe", "SAP Commerce Hybris remote"]:
+            js_jobs = fetch_jsearch(kw)
+            for j in js_jobs:
+                if j["url"] and j["url"] not in seen_urls:
+                    seen_urls.add(j["url"])
+                    all_raw.append(j)
+            time.sleep(1.5)
+        print(f"    → JSearch added jobs, total now: {len(all_raw)}")
+    else:
+        print("    ℹ️  JSearch not configured (add JSEARCH_API_KEY secret)")
+        print("       → Free 200 calls/month at rapidapi.com — Google Jobs aggregator")
 
     print(f"\n  📦 Raw unique cards: {len(all_raw)}")
     filtered = [j for j in all_raw if is_title_relevant(j["title"])]
