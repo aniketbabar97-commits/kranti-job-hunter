@@ -1,14 +1,16 @@
-name: 🎯 Daily Job Hunter v4 — Kranti
+name: 🎯 Daily Job Hunter — Kranti
 
 on:
   schedule:
     - cron: "0 6 * * 1-5"   # Mon–Fri 7:00 AM CET (6:00 AM UTC)
-  workflow_dispatch:         # manual trigger anytime
+  workflow_dispatch:         # run manually anytime from Actions tab
 
 jobs:
   hunt:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    permissions:
+      contents: write        # needed to commit tracker updates back
 
     steps:
       - uses: actions/checkout@v4
@@ -17,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Restore tracker state
+      - name: Restore tracker cache
         uses: actions/cache@v4
         with:
           path: tracker/
@@ -29,33 +31,40 @@ jobs:
 
       - name: Run Job Hunter
         env:
-          GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          SMTP_HOST:      smtp.gmail.com
-          SMTP_PORT:      "587"
-          SMTP_USER:      ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD:  ${{ secrets.SMTP_PASSWORD }}
-          TO_EMAIL:       ${{ secrets.TO_EMAIL }}
-          GITHUB_TOKEN:   ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPO:    ${{ github.repository }}
+          # ── AI (FREE — sign up at console.groq.com) ────────────────
+          GROQ_API_KEY:    ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+
+          # ── Email via Resend.com (FREE — sign up at resend.com) ────
+          RESEND_API_KEY:  ${{ secrets.RESEND_API_KEY }}
+          FROM_EMAIL:      ${{ secrets.FROM_EMAIL }}
+          TO_EMAIL:        ${{ secrets.TO_EMAIL }}
+
+          # ── Phone push via ntfy.sh (ZERO signup) ──────────────────
+          NTFY_TOPIC:      ${{ secrets.NTFY_TOPIC }}
+
+          # ── GitHub (auto-provided) ─────────────────────────────────
+          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO:     ${{ github.repository }}
+
         run: python scripts/job_hunter.py
 
-      - name: Upload artifacts
+      - name: Upload email preview & logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: results-${{ github.run_number }}
+          name: job-digest-${{ github.run_number }}
           path: |
             email_preview.html
             jobs_log.json
             tracker/
-          retention-days: 30
+          retention-days: 14
 
       - name: Commit tracker updates
         if: always()
         run: |
           git config user.name  "Job Hunter Bot"
           git config user.email "bot@job-hunter"
-          git add tracker/ jobs_log.json || true
-          git diff --staged --quiet || git commit -m "chore: tracker update $(date +%Y-%m-%d)"
+          git add tracker/ jobs_log.json email_preview.html || true
+          git diff --staged --quiet || git commit -m "📊 tracker: $(date +%Y-%m-%d)"
           git push || true

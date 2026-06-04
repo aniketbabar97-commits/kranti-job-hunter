@@ -17,9 +17,7 @@
 ╚══════════════════════════════════════════════════════════════════════╝
 """
 
-import os, re, json, time, smtplib, datetime, hashlib, urllib.parse, requests
-from email.mime.multipart import MIMEMultipart
-from email.mime.text      import MIMEText
+import os, re, json, time, datetime, hashlib, urllib.parse, requests
 from bs4                  import BeautifulSoup
 from collections          import defaultdict
 
@@ -86,13 +84,19 @@ LANGUAGES: English (professional) | German (A2, improving actively) | Hindi (nat
 # ─────────────────────────────────────────────────────────────────────
 GROQ_API_KEY    = os.environ.get("GROQ_API_KEY",    "")
 GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY",  "")
-SMTP_HOST       = os.environ.get("SMTP_HOST",       "smtp.gmail.com")
-SMTP_PORT       = int(os.environ.get("SMTP_PORT",   "587"))
-SMTP_USER       = os.environ.get("SMTP_USER",       "")
-SMTP_PASSWORD   = os.environ.get("SMTP_PASSWORD",   "")
-TO_EMAIL        = os.environ.get("TO_EMAIL",        CANDIDATE["email"])
-GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN",    "")   # for approval workflow trigger
-GITHUB_REPO     = os.environ.get("GITHUB_REPO",     "")   # e.g. "yourusername/job-hunter"
+
+# ── Email via Resend.com (FREE — 3000 emails/month, just API key) ──────
+# Sign up free at resend.com → get API key → add as GitHub Secret
+RESEND_API_KEY  = os.environ.get("RESEND_API_KEY",  "")
+FROM_EMAIL      = os.environ.get("FROM_EMAIL",       "jobs@resend.dev")   # resend default sender
+TO_EMAIL        = os.environ.get("TO_EMAIL",         CANDIDATE["email"])
+
+# ── ntfy.sh push notification (ZERO signup — just install the app) ─────
+# Install ntfy app → subscribe to your topic → instant phone alerts!
+NTFY_TOPIC      = os.environ.get("NTFY_TOPIC",  "kranti-sap-jobs-2024")
+
+GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN",    "")
+GITHUB_REPO     = os.environ.get("GITHUB_REPO",     "")
 
 MAX_JOBS        = 7
 SEEN_LOG        = "tracker/seen_jobs.json"
@@ -1141,32 +1145,70 @@ def build_email(jobs: list[dict], followup_due: list[dict]) -> tuple[str, str]:
 #  EMAIL SENDER
 # ─────────────────────────────────────────────────────────────────────
 
+def send_ntfy_alert(jobs: list[dict]):
+    """Send instant phone push notification via ntfy.sh — zero signup needed."""
+    if not NTFY_TOPIC:
+        return
+    try:
+        top_job   = jobs[0] if jobs else {}
+        excellent = sum(1 for j in jobs if j["score"] >= 16)
+        msg       = (
+            f"{len(jobs)} SAP jobs found! "
+            f"{excellent} excellent match{'es' if excellent!=1 else ''}. "
+            f"Top: {top_job.get('title','?')} @ {top_job.get('company','?')}"
+        )
+        requests.post(
+            f"https://ntfy.sh/{NTFY_TOPIC}",
+            data=msg.encode("utf-8"),
+            headers={
+                "Title"   : f"🎯 {len(jobs)} SAP Jobs Today",
+                "Priority": "high",
+                "Tags"    : "briefcase,tada",
+            },
+            timeout=10,
+        )
+        print(f"[ntfy] ✅ Push sent to topic: {NTFY_TOPIC}")
+    except Exception as e:
+        print(f"[ntfy] ⚠️  Push failed (non-critical): {e}")
+
+
 def send_email(subject: str, html: str):
-    # Always save preview artifact
+    """Send via Resend.com API (free, no SMTP/Gmail setup needed)."""
+    # Always save HTML preview as artifact
     os.makedirs("tracker", exist_ok=True)
     with open("email_preview.html", "w", encoding="utf-8") as f:
         f.write(html)
 
-    if not SMTP_USER or not SMTP_PASSWORD:
-        print("\n[email] No SMTP creds — preview saved: email_preview.html")
+    if not RESEND_API_KEY:
+        print("\n[email] No RESEND_API_KEY — preview saved: email_preview.html")
+        print("         Add RESEND_API_KEY secret (free at resend.com) to enable email")
         return
 
-    msg            = MIMEMultipart("alternative")
-    msg["Subject"] = subject
-    msg["From"]    = f"Job Hunter Bot <{SMTP_USER}>"
-    msg["To"]      = TO_EMAIL
-    msg.attach(MIMEText(html, "html", "utf-8"))
-
     try:
-        with smtplib.SMTP(SMTP_HOST, SMTP_PORT, timeout=30) as server:
-            server.ehlo(); server.starttls()
-            server.login(SMTP_USER, SMTP_PASSWORD)
-            server.sendmail(SMTP_USER, TO_EMAIL, msg.as_string())
-        print(f"\n[email] ✅ Sent to {TO_EMAIL}")
-    except smtplib.SMTPAuthenticationError as e:
-        print(f"\n[email] ❌ Auth failed — check secrets: {e}\n         Preview saved to email_preview.html")
+        payload = {
+            "from"   : f"Kranti Job Hunter <{FROM_EMAIL}>",
+            "to"     : [TO_EMAIL],
+            "subject": subject,
+            "html"   : html,
+        }
+        r = requests.post(
+            "https://api.resend.com/emails",
+            headers={
+                "Authorization": f"Bearer {RESEND_API_KEY}",
+                "Content-Type" : "application/json",
+            },
+            json=payload,
+            timeout=30,
+        )
+        if r.status_code in (200, 201):
+            data = r.json()
+            print(f"\n[email] ✅ Sent via Resend — ID: {data.get('id','?')} → {TO_EMAIL}")
+        else:
+            print(f"\n[email] ❌ Resend error {r.status_code}: {r.text[:200]}")
+            print("         Preview saved: email_preview.html")
     except Exception as e:
-        print(f"\n[email] ❌ Send error: {e}\n         Preview saved to email_preview.html")
+        print(f"\n[email] ❌ Send error: {e}")
+        print("         Preview saved: email_preview.html")
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -1202,9 +1244,10 @@ def main():
     print(f"  Follow-ups due: {len(followup_due)}")
 
     # 4. Build & send email
-    print("\n[4/4] 📧 SENDING EMAIL...")
+    print("\n[4/4] 📧 SENDING EMAIL + PUSH NOTIFICATION...")
     subject, html = build_email(jobs, followup_due)
     send_email(subject, html)
+    send_ntfy_alert(jobs)   # instant phone notification
 
     # Update tracker + seen log
     add_to_tracker(jobs)
