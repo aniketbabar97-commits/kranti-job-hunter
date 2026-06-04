@@ -1,0 +1,61 @@
+name: 🎯 Daily Job Hunter v4 — Kranti
+
+on:
+  schedule:
+    - cron: "0 6 * * 1-5"   # Mon–Fri 7:00 AM CET (6:00 AM UTC)
+  workflow_dispatch:         # manual trigger anytime
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Restore tracker state
+        uses: actions/cache@v4
+        with:
+          path: tracker/
+          key: tracker-${{ github.run_number }}
+          restore-keys: tracker-
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run Job Hunter
+        env:
+          GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMTP_HOST:      smtp.gmail.com
+          SMTP_PORT:      "587"
+          SMTP_USER:      ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:  ${{ secrets.SMTP_PASSWORD }}
+          TO_EMAIL:       ${{ secrets.TO_EMAIL }}
+          GITHUB_TOKEN:   ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO:    ${{ github.repository }}
+        run: python scripts/job_hunter.py
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-${{ github.run_number }}
+          path: |
+            email_preview.html
+            jobs_log.json
+            tracker/
+          retention-days: 30
+
+      - name: Commit tracker updates
+        if: always()
+        run: |
+          git config user.name  "Job Hunter Bot"
+          git config user.email "bot@job-hunter"
+          git add tracker/ jobs_log.json || true
+          git diff --staged --quiet || git commit -m "chore: tracker update $(date +%Y-%m-%d)"
+          git push || true
