@@ -300,31 +300,46 @@ LI_HEADERS = {
 }
 
 SEARCH_CONFIG = [
-    # ── Germany (core market) ─────────────────────────────────────────
-    ("SAP Hybris",                    "Germany",                    "r2592000", [0, 25, 50]),
-    ("SAP Commerce Cloud",            "Germany",                    "r2592000", [0, 25, 50]),
+    # ── Germany — paginated deeply (biggest market) ───────────────────
+    ("SAP Hybris",                    "Germany",                    "r2592000", [0, 25, 50, 75]),
+    ("SAP Commerce Cloud",            "Germany",                    "r2592000", [0, 25, 50, 75]),
     ("SAP Commerce developer",        "Germany",                    "r2592000", [0, 25]),
     ("SAP CX developer",              "Germany",                    "r2592000", [0, 25]),
     ("SAP Hybris Entwickler",         "Deutschland",                "r2592000", [0, 25]),
     ("SAP Commerce Cloud Entwickler", "Deutschland",                "r2592000", [0]),
+    ("SAP Commerce Berater",          "Deutschland",                "r2592000", [0]),
     ("SAP Composable Commerce",       "Germany",                    "r2592000", [0]),
     ("Spartacus SAP developer",       "Germany",                    "r2592000", [0]),
     ("SAP Hybris developer",          "Baden-Württemberg, Germany", "r2592000", [0]),
     ("SAP Commerce",                  "Karlsruhe, Germany",         "r2592000", [0]),
     ("SAP Commerce",                  "Stuttgart, Germany",         "r2592000", [0]),
-    # ── Austria (English-friendly, 1h from Karlsruhe by plane) ───────
+    # ── Austria ───────────────────────────────────────────────────────
     ("SAP Commerce Cloud",            "Austria",                    "r2592000", [0]),
     ("SAP Hybris developer",          "Vienna, Austria",            "r2592000", [0]),
-    # ── Netherlands (English dominant in tech, EU passport valid) ────
+    ("SAP Hybris",                    "Vienna, Austria",            "r2592000", [0]),
+    # ── Netherlands ───────────────────────────────────────────────────
     ("SAP Commerce Cloud",            "Netherlands",                "r2592000", [0]),
-    ("SAP CX consultant",             "Netherlands",                "r2592000", [0]),
-    # ── Portugal (KCS iT = full remote English, great SAP scene) ─────
+    ("SAP CX",                        "Netherlands",                "r2592000", [0]),
+    # ── Portugal ──────────────────────────────────────────────────────
     ("SAP Commerce Cloud",            "Portugal",                   "r2592000", [0]),
-    # ── Poland (SAP SE Gliwice + others, English fine) ────────────────
+    ("SAP Commerce",                  "Portugal",                   "r2592000", [0]),
+    # ── Poland ────────────────────────────────────────────────────────
     ("SAP Commerce Cloud",            "Poland",                     "r2592000", [0]),
-    # ── Europe-wide remote ────────────────────────────────────────────
+    ("SAP Hybris",                    "Poland",                     "r2592000", [0]),
+    # ── Romania (confirmed: Michael Page posting Hybris roles there) ──
+    ("SAP Commerce Cloud",            "Romania",                    "r2592000", [0]),
+    ("SAP Hybris",                    "Romania",                    "r2592000", [0]),
+    # ── Belgium, Czech, Hungary, Ireland ──────────────────────────────
+    ("SAP Commerce Cloud",            "Belgium",                    "r2592000", [0]),
+    ("SAP Commerce Cloud",            "Czech Republic",             "r2592000", [0]),
+    ("SAP Commerce Cloud",            "Hungary",                    "r2592000", [0]),
+    ("SAP Commerce Cloud",            "Ireland",                    "r2592000", [0]),
+    # ── Remote EU — catch everything remaining ────────────────────────
     ("SAP Hybris developer remote",   "Europe",                     "r2592000", [0, 25]),
     ("SAP Commerce Cloud developer",  "Europe",                     "r2592000", [0, 25]),
+    ("Hybris developer remote",       "Europe",                     "r2592000", [0, 25]),
+    ("SAP Commerce Cloud backend",    "Europe",                     "r2592000", [0]),
+    ("SAP Hybris Java developer",     "Europe",                     "r2592000", [0]),
 ]
 
 
@@ -1247,9 +1262,14 @@ def build_email(jobs: list[dict], followup_due: list[dict]) -> tuple[str, str]:
     <p style="color:#475569;font-size:13px;margin:0 0 8px;">
       Sorted by skill-match score. Apply to <strong>Excellent</strong> first.
     </p>
-    <div style="background:#f8fafc;border-left:3px solid #94a3b8;padding:10px 14px;margin-bottom:14px;border-radius:0 6px 6px 0;">
-      <p style="margin:0;font-size:12.5px;color:#475569;">
-        📌 <strong>SAP Commerce Cloud is a niche market</strong> — roughly 20–30 unique active jobs exist across all of Europe at any time, from ~10 companies. This bot finds all of them. Quality over quantity — every job below is a real match.
+    <div style="background:#f0f9ff;border-left:3px solid #0ea5e9;padding:10px 14px;margin-bottom:14px;border-radius:0 6px 6px 0;">
+      <p style="margin:0;font-size:12.5px;color:#0c4a6e;">
+        📌 <strong>Honest market picture (researched across all EU sources):</strong>
+        LinkedIn shows ~37 unique active EU jobs right now across ~13 companies.
+        StepStone, Indeed, Glassdoor all block automated access — so we can't confirm their numbers.
+        German company career pages (adesso, valantic, diva-e etc.) use JavaScript rendering and can't be scraped.
+        <strong>Conclusion: LinkedIn is our most complete data source, but the real market may be 20–40% larger.</strong>
+        <strong>Your best weapon: apply fast (within 48h), and contact recruiters directly (section below).</strong>
       </p>
     </div>
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;">
