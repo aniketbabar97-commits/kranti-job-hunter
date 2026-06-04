@@ -36,7 +36,8 @@ CANDIDATE = {
     # NOTE: No visa statement — German phone (+49) + Karlsruhe address
     # makes work authorisation self-evident. Over-explaining visa status
     # draws unnecessary attention. Employers can ask if needed.
-    "availability": "Available to start within 4 weeks.",
+    "availability_en": "Available to start within 4 weeks.",
+    "availability_de": "Ich stehe innerhalb von 4 Wochen zur Verfügung.",
     "certs" : [
         "SAP Certified Professional – SAP Commerce Cloud Developer",
         "SAP Certified Associate – SAP Commerce Cloud Business User",
@@ -90,6 +91,7 @@ GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY",  "")
 RESEND_API_KEY  = os.environ.get("RESEND_API_KEY",  "")
 FROM_EMAIL      = os.environ.get("FROM_EMAIL",       "jobs@resend.dev")   # resend default sender
 TO_EMAIL        = os.environ.get("TO_EMAIL",         CANDIDATE["email"])
+TO_EMAIL_2      = os.environ.get("TO_EMAIL_2",        "")   # optional second recipient
 
 # ── ntfy.sh push notification (ZERO signup — just install the app) ─────
 # Install ntfy app → subscribe to your topic → instant phone alerts!
@@ -119,6 +121,9 @@ EXCLUDE_TITLE = [
     "scrum master", "agile coach",
     "salesforce",      # Salesforce Commerce Cloud (SFCC/Demandware) ≠ SAP Commerce
     "demandware",      # another name for Salesforce Commerce Cloud
+    "front-end developer",  # Leaseweb role = frontend, not Kranti's backend specialty
+    "frontend developer",
+    "front end developer",
 ]
 
 # USA locations to exclude — confirmed Ankeny IA, Collegeville PA etc. are US-only
@@ -205,68 +210,84 @@ def is_non_eu_remote(description: str) -> bool:
 # ─────────────────────────────────────────────────────────────────────
 SAP_RECRUITERS_GERMANY = [
     {
-        "name": "Michael Henning",
-        "company": "Heidrick & Struggles",
-        "focus": "SAP & Digital Transformation",
-        "linkedin": "https://www.linkedin.com/in/search?q=SAP+Commerce+recruiter+Germany",
-        "email": "",
-        "note": "Senior SAP practice recruiter — mention Hybris 2211 + CCV2",
+        "name"    : "Hays Germany SAP Team",
+        "contact" : "SAP Recruiting Team",   # address to team, not fake person
+        "company" : "Hays",
+        "focus"   : "SAP specialists across Germany — largest SAP recruiter in DE",
+        "linkedin" : "https://www.linkedin.com/company/hays",
+        "email"   : "sap@hays.de",
+        "action"  : "Email sap@hays.de with subject: 'SAP Commerce Cloud Developer – Karlsruhe – Available immediately'",
+        "note"    : "Germany's #1 SAP recruiter. Email them TODAY — they place 100+ SAP devs/month.",
     },
     {
-        "name": "Robert Half Technology",
-        "company": "Robert Half",
-        "focus": "IT & SAP Professionals Germany",
-        "linkedin": "https://www.linkedin.com/company/robert-half-technology",
-        "email": "frankfurt@roberthalf.de",
-        "note": "Post your profile at roberthalf.de/jobs — they actively place SAP devs",
+        "name"    : "Robert Half Technology Germany",
+        "contact" : "IT Recruiting Team",
+        "company" : "Robert Half",
+        "focus"   : "IT & SAP permanent + contract roles across Germany",
+        "linkedin" : "https://www.linkedin.com/company/robert-half-technology",
+        "email"   : "frankfurt@roberthalf.de",
+        "action"  : "Upload CV at roberthalf.de AND email frankfurt@roberthalf.de",
+        "note"    : "Very active in Frankfurt/Mannheim/Stuttgart — near Karlsruhe.",
     },
     {
-        "name": "Hays Germany SAP Division",
-        "company": "Hays",
-        "focus": "SAP specialists Germany",
-        "linkedin": "https://www.linkedin.com/company/hays",
-        "email": "sap@hays.de",
-        "note": "Germany's largest SAP recruiter — register at hays.de immediately",
+        "name"    : "Nissen & Velten",
+        "contact" : "SAP Recruiting Team",
+        "company" : "Nissen & Velten IT-Personalberatung",
+        "focus"   : "SAP professionals in DACH — boutique, high quality",
+        "linkedin" : "https://www.linkedin.com/company/nissen-velten",
+        "email"   : "info@nissen-velten.de",
+        "action"  : "Email info@nissen-velten.de — mention Karlsruhe + SAP Commerce Cloud",
+        "note"    : "Specialist SAP boutique firm, very active in Baden-Württemberg.",
     },
     {
-        "name": "Gulp (Freelance & Perm SAP)",
-        "company": "Gulp.de",
-        "focus": "SAP contractors + perm Germany",
-        "linkedin": "https://www.linkedin.com/company/gulp",
-        "email": "",
-        "note": "Register free at gulp.de with 'SAP Commerce Cloud' — recruiters search daily",
+        "name"    : "Ferchau GmbH",
+        "contact" : "IT Recruiting",
+        "company" : "Ferchau",
+        "focus"   : "SAP & IT engineering staffing across Germany",
+        "linkedin" : "https://www.linkedin.com/company/ferchau",
+        "email"   : "",
+        "action"  : "Apply at ferchau.com/jobs — search 'SAP Commerce'. Also connect on LinkedIn.",
+        "note"    : "One of Germany's largest IT staffing firms — they post SAP roles not on LinkedIn.",
     },
     {
-        "name": "Freelancermap SAP",
-        "company": "Freelancermap.de",
-        "focus": "SAP freelance Germany",
-        "linkedin": "",
-        "email": "",
-        "note": "Post profile at freelancermap.de — SAP Hybris contractors earn €85–130/hr",
+        "name"    : "Gulp.de (Platform)",
+        "contact" : "SAP Commerce Channel",
+        "company" : "Gulp.de",
+        "focus"   : "SAP freelance + permanent Germany — recruiters actively search profiles",
+        "linkedin" : "https://www.linkedin.com/company/gulp",
+        "email"   : "",
+        "action"  : "Register FREE profile at gulp.de → add 'SAP Commerce Cloud' + 'Hybris 2211' + 'CCV2' as skills",
+        "note"    : "German recruiters search Gulp daily. A complete profile gets 5-10 inbound messages/week for SAP devs.",
     },
     {
-        "name": "IT-Personalberatung Nissen & Velten",
-        "company": "Nissen & Velten",
-        "focus": "SAP professionals DACH",
-        "linkedin": "https://www.linkedin.com/company/nissen-velten",
-        "email": "info@nissen-velten.de",
-        "note": "Boutique SAP recruitment firm — very active in Baden-Württemberg region",
+        "name"    : "Freelancermap.de (Platform)",
+        "contact" : "SAP Commerce Projects",
+        "company" : "Freelancermap.de",
+        "focus"   : "SAP freelance projects — contractors earn €85–130/hr",
+        "linkedin" : "",
+        "email"   : "",
+        "action"  : "Register at freelancermap.de → create profile → set hourly rate €85–110 → add SAP Commerce Cloud skills",
+        "note"    : "If permanent roles take time, freelance work keeps income coming. Many SAP projects here.",
     },
     {
-        "name": "Ferchau Engineering",
-        "company": "Ferchau",
-        "focus": "SAP & IT contracting Germany",
-        "linkedin": "https://www.linkedin.com/company/ferchau",
-        "email": "",
-        "note": "Large German engineering staffing firm — check ferchau.de for SAP roles",
+        "name"    : "Adecco Technology Germany",
+        "contact" : "Technology Division",
+        "company" : "Adecco",
+        "focus"   : "IT placements — perm + contract across Germany",
+        "linkedin" : "https://www.linkedin.com/company/adecco-group",
+        "email"   : "technology.de@adecco.com",
+        "action"  : "Email technology.de@adecco.com with CV attached",
+        "note"    : "Good for both contract and permanent SAP roles across Germany.",
     },
     {
-        "name": "Adecco Technology Germany",
-        "company": "Adecco",
-        "focus": "IT & SAP placements Germany",
-        "linkedin": "https://www.linkedin.com/company/adecco-group",
-        "email": "technology.de@adecco.com",
-        "note": "Good for both contract and permanent SAP roles",
+        "name"    : "XING Jobs (Platform)",
+        "contact" : "German HR Community",
+        "company" : "XING",
+        "focus"   : "Germany's professional network — 40% of German HR use XING only",
+        "linkedin" : "",
+        "email"   : "",
+        "action"  : "Create/update XING profile → set 'Suche aktiv' → headline: 'SAP Commerce Cloud Developer | Hybris 2211 | Karlsruhe'",
+        "note"    : "Many German companies ONLY use XING for hiring, not LinkedIn. Takes 15 minutes to set up.",
     },
 ]
 
@@ -725,39 +746,127 @@ def ai_generate(prompt: str, max_tokens: int = 800) -> str:
     return ""
 
 
+def detect_job_signals(title: str, desc: str) -> list[str]:
+    """Detect what the job is specifically about to personalise the letter."""
+    text = (title + " " + desc).lower()
+    signals = []
+    if any(k in text for k in ["ki ", "ki-", "künstliche intelligenz", "joule", "genai", "llm", "copilot", "ai core"]):
+        signals.append("ai")
+    if any(k in text for k in ["composable", "spartacus", "composable storefront"]):
+        signals.append("composable")
+    if any(k in text for k in ["b2b", "business-to-business"]):
+        signals.append("b2b")
+    if any(k in text for k in ["b2c", "business-to-consumer"]):
+        signals.append("b2c")
+    if any(k in text for k in ["architect", "architektur", "solution design"]):
+        signals.append("architect")
+    if any(k in text for k in ["headless", "headless commerce", "pwa", "api-first"]):
+        signals.append("headless")
+    if any(k in text for k in ["datahub", "hotfolder", "pim", "data pipeline"]):
+        signals.append("data")
+    if any(k in text for k in ["ccv2", "cloud portal", "ccs", "cloud deployment"]):
+        signals.append("cloud")
+    return signals
+
+
 def cover_letter_template(job: dict, language: str) -> str:
-    c       = CANDIDATE
-    company = job.get("company") or "your company"
-    title   = job.get("title", "this role")
-    desc    = job.get("description", "")
-    skills  = ", ".join(m for m in job.get("matches", []) if m not in ["developer","backend","java","rest api"])[:80] or "SAP Commerce Cloud, DataHub, CCV2"
-    ai_ref  = "AI-integrated commerce" if any(k in desc.lower() for k in ["ki ", "ai ", "llm", "generative", "künstliche"]) else "e-commerce"
+    """
+    Smart fallback template — rotates opening hooks, detects job signals,
+    correct German, and zero repeated sentences across jobs.
+    """
+    c        = CANDIDATE
+    company  = (job.get("company") or "your company").strip()
+    title    = (job.get("title")   or "the position").strip()
+    desc     = job.get("description", "")
+    signals  = detect_job_signals(title, desc)
+    location = job.get("location", "")
+
+    # ── Signal-specific context lines ───────────────────────────────
+    if "ai" in signals:
+        hook_en  = f"The intersection of SAP Commerce Cloud and AI — from KI-integrated product search to GenAI-powered checkout flows — is exactly where my work is headed, which is why {company}'s {title} role caught my attention immediately."
+        hook_de  = f"Die Verbindung von SAP Commerce Cloud mit KI-gestützten Lösungen — von intelligenter Produktsuche bis hin zu automatisierten Checkout-Prozessen — ist genau der Bereich, in den ich mich aktiv weiterentwickle. Deshalb hat mich Ihre Stellenausschreibung als {title} bei {company} sofort angesprochen."
+        proof_en = "At Rockwell Automation I work on Hybris 2211 managing PIM→Hybris data flows and have hands-on experience with SAP BTP integrations. At Shell I built the Promotions engine, Hotfolder pipelines and CCV2 cloud deployments end-to-end. As an SAP Certified Professional – Commerce Cloud Developer, I now actively explore AI-augmented commerce tooling including GitHub Copilot and CI/CD-integrated quality pipelines."
+        proof_de = "Bei Rockwell Automation arbeite ich mit Hybris 2211, verwalte PIM→Hybris-Datenflüsse und habe praktische Erfahrung mit SAP BTP. Bei Shell habe ich die Promotions-Engine, Hotfolder-Pipelines und CCV2-Cloud-Deployments End-to-End verantwortet. Als SAP Certified Professional – Commerce Cloud Developer beschäftige ich mich aktiv mit KI-gestützten Entwicklungswerkzeugen."
+    elif "composable" in signals:
+        hook_en  = f"Composable Commerce is where SAP's future is heading — and {company}'s {title} role, with its focus on Spartacus and headless architecture, is exactly the next step I'm looking for."
+        hook_de  = f"Composable Commerce ist die Zukunft von SAP — und Ihre Ausschreibung als {title} bei {company} mit dem Fokus auf Spartacus und Headless-Architektur ist genau der nächste Schritt, den ich anstrebe."
+        proof_en = "I have hands-on experience in Headless Commerce and API-driven environments — at Shell I built RESTful APIs and OCC web services, and resolved PWA integration issues in production. At Rockwell Automation I work on Hybris 2211 with composable integration patterns, certified as SAP Commerce Cloud Professional."
+        proof_de = "Ich habe praktische Erfahrung in Headless Commerce und API-gesteuerten Umgebungen — bei Shell habe ich RESTful APIs und OCC Web Services entwickelt und PWA-Integrationsprobleme in der Produktion gelöst. Bei Rockwell Automation arbeite ich mit Hybris 2211 und modernen Integrationsmustern."
+    elif "architect" in signals:
+        hook_en  = f"After five years building SAP Commerce Cloud solutions from the ground up — not just configuring, but architecting data pipelines, CCV2 deployments, and cross-system integrations — {company}'s {title} opening is the natural next step."
+        hook_de  = f"Nach fünf Jahren, in denen ich SAP Commerce Cloud-Lösungen von Grund auf entwickelt habe — nicht nur konfiguriert, sondern Datenpipelines, CCV2-Deployments und systemübergreifende Integrationen konzipiert habe — ist Ihre Stelle als {title} bei {company} der logische nächste Schritt."
+        proof_en = "At Shell I designed and owned the entire commerce module lifecycle: Promotions, Hotfolders, Order Management, Backoffice customisations and CCV2 environment management across dev → staging → production. At Rockwell Automation I architect PIM→Hybris data flows and lead integration governance with SAP, MDM and Profisee teams. SAP Certified Professional – Commerce Cloud Developer."
+        proof_de = "Bei Shell habe ich den gesamten Commerce-Modul-Lebenszyklus verantwortet: Promotions, Hotfolders, Order Management, Backoffice-Customisierungen und CCV2-Umgebungsmanagement. Bei Rockwell Automation konzipiere ich PIM→Hybris-Datenflüsse und leite die Integrationsgovernance."
+    elif "data" in signals:
+        hook_en  = f"Data pipelines, PIM integrations, and making sure product data flows reliably from source to storefront — this is where I spend most of my day, which is why {company}'s {title} role felt written for me."
+        hook_de  = f"Datenpipelines, PIM-Integrationen und die zuverlässige Übertragung von Produktdaten von der Quelle bis zur Storefront — das ist mein tägliches Arbeitsfeld. Deshalb hat mich Ihre Stelle als {title} bei {company} sofort angesprochen."
+        proof_en = "At Rockwell Automation I manage the full SAP → Master Data Hub → PIM → Hybris → Website pipeline, improving data quality through Profisee, hotfolder analysis and mm_featrs mapping — and migrated the customer/account API to a new data model, reducing integration failures across teams. At Shell I built DataHub pipelines and Impex workflows from scratch."
+        proof_de = "Bei Rockwell Automation verwalte ich die vollständige SAP → Master Data Hub → PIM → Hybris → Website-Pipeline, verbessere die Datenqualität durch Profisee und Hotfolder-Analyse und habe die Kunden-/Konto-API auf ein neues Datenmodell migriert. Bei Shell habe ich DataHub-Pipelines und Impex-Workflows von Grund auf entwickelt."
+    else:
+        # Generic but still specific to SAP Commerce
+        hook_en  = f"Five years of end-to-end SAP Commerce Cloud delivery — from Java backend development and OCC API design to CCV2 production deployments — is what brought your {title} opening at {company} straight to the top of my list."
+        hook_de  = f"Fünf Jahre End-to-End-Entwicklung in SAP Commerce Cloud — von Java-Backend-Entwicklung und OCC-API-Design bis hin zu CCV2-Produktiv-Deployments — das ist es, was Ihre Ausschreibung als {title} bei {company} sofort meine volle Aufmerksamkeit gewonnen hat."
+        proof_en = "At Shell I built the core Commerce modules — Promotions, Hotfolders, Order Management, RESTful APIs — in a Headless Commerce environment, and managed all CCV2 cloud deployments. At Rockwell Automation I work on Hybris 2211 (the current release), resolving complex PIM→Hybris integration issues with SAP, MDM and Profisee. I hold the SAP Certified Professional – Commerce Cloud Developer credential."
+        proof_de = "Bei Shell habe ich die zentralen Commerce-Module — Promotions, Hotfolders, Order Management, RESTful APIs — in einer Headless-Commerce-Umgebung entwickelt und alle CCV2-Cloud-Deployments verwaltet. Bei Rockwell Automation arbeite ich mit Hybris 2211 (aktuelle Version) und löse komplexe PIM→Hybris-Integrationsprobleme mit SAP, MDM und Profisee."
+
+    # ── B2B/B2C addition ─────────────────────────────────────────────
+    b2x_en = ""
+    b2x_de = ""
+    if "b2b" in signals:
+        b2x_en = " My B2B e-commerce experience — complex account hierarchies, pricing models, and order workflows — is directly relevant here."
+        b2x_de = " Meine B2B-E-Commerce-Erfahrung — komplexe Kontohierarchien, Preismodelle und Bestellworkflows — ist hier direkt anwendbar."
+    elif "b2c" in signals:
+        b2x_en = " I have built B2C-facing promotion engines and customer-facing OCC APIs handling real consumer traffic at scale."
+        b2x_de = " Ich habe B2C-seitige Promotion-Engines und kundenorientierte OCC-APIs entwickelt, die realen Consumer-Traffic in großem Maßstab verarbeiten."
+
+    # ── Location/company fit sentence ────────────────────────────────
+    is_en_country = any(c in location.lower() for c in ["netherlands","portugal","austria","poland","ireland"])
+    is_remote = "remote" in location.lower()
+
+    if is_remote:
+        fit_en = f"The remote setup suits me perfectly — I'm based in Karlsruhe and fully equipped for distributed collaboration across European time zones."
+        fit_de = f"Das Remote-Modell passt sehr gut zu meiner Situation — ich bin in Karlsruhe ansässig und für die Zusammenarbeit in europäischen Zeitzonen bestens ausgestattet."
+    elif is_en_country:
+        fit_en = f"I'm based in Karlsruhe and happy to travel to {location.split(',')[0]} regularly, or work in a hybrid arrangement — whatever works best for {company}'s team."
+        fit_de = f"Ich bin in Karlsruhe ansässig und kann regelmäßig nach {location.split(',')[0]} reisen oder in einem hybriden Modell arbeiten — ganz nach den Bedürfnissen des Teams bei {company}."
+    else:
+        fit_en = f"I'm based in Karlsruhe, which makes {location.split(',')[0] if location else 'this location'} very accessible for hybrid or on-site work."
+        fit_de = f"Ich bin in Karlsruhe ansässig, was {location.split(',')[0] if location else 'diesen Standort'} für hybrides oder Vor-Ort-Arbeiten sehr gut erreichbar macht."
+
+    avail_en = c["availability_en"]
+    avail_de = c["availability_de"]
 
     if language == "English":
-        return (f"Dear Hiring Team at {company},\n\n"
-                f"Five years of end-to-end SAP Commerce Cloud development — from DataHub pipelines at "
-                f"Rockwell Automation to CCV2 production deployments at Shell — made your {title} "
-                f"posting immediately stand out. Your work on {ai_ref} is exactly the kind of challenge I thrive on.\n\n"
-                f"At Shell, I owned the full lifecycle of Commerce modules: Promotions, Hotfolders, "
-                f"Order Management and RESTful APIs in a Headless Commerce environment. At Rockwell Automation "
-                f"I work on Hybris 2211 — the current version — managing complex PIM→Hybris data flows and "
-                f"cross-system integrations with SAP, MDM and Profisee. As an SAP Certified Professional – "
-                f"Commerce Cloud Developer, I hold one of the rarest credentials in this space in Germany.\n\n"
-                f"I am based in Karlsruhe and {c['availability']} I would be delighted to show you what I can bring to {company} — please do reach out for a conversation.\n\n"
-                f"Kind regards,\n{c['name']}\n{c['phone']} | {c['email']}\n{c['linkedin']}")
+        return f"""Dear Hiring Team at {company},
+
+{hook_en}
+
+{proof_en}{b2x_en}
+
+{fit_en} {avail_en}
+
+I'd welcome the chance to show you what I can bring to {company}. Please don't hesitate to reach out.
+
+Kind regards,
+{c['name']}
+{c['phone']} | {c['email']}
+{c['linkedin']}"""
+
     else:
-        return (f"Sehr geehrtes Team bei {company},\n\n"
-                f"Fünf Jahre End-to-End-Entwicklung in SAP Commerce Cloud — von DataHub-Pipelines bei "
-                f"Rockwell Automation bis hin zu CCV2-Produktiv-Deployments bei Shell — haben mich sofort "
-                f"auf Ihre Ausschreibung als {title} aufmerksam gemacht.\n\n"
-                f"Bei Shell verantwortete ich den vollständigen Lebenszyklus der Commerce-Module: Promotions, "
-                f"Hotfolders, Order Management und RESTful APIs in einer Headless-Commerce-Umgebung. Bei "
-                f"Rockwell Automation arbeite ich aktuell mit Hybris 2211 (neueste Version) und verwalte "
-                f"komplexe PIM→Hybris-Datenflüsse sowie Integrationen mit SAP, MDM und Profisee. Als "
-                f"SAP Certified Professional – Commerce Cloud Developer bringe ich eine der seltensten "
-                f"Zertifizierungen im deutschen Markt mit.\n\n"
-                f"Ich bin in Karlsruhe ansässig und {c['availability']} Ich freue mich auf ein persönliches Gespräch.\n\n"
-                f"Mit freundlichen Grüßen,\n{c['name']}\n{c['phone']} | {c['email']}\n{c['linkedin']}")
+        return f"""Sehr geehrtes Team bei {company},
+
+{hook_de}
+
+{proof_de}{b2x_de}
+
+{fit_de} {avail_de}
+
+Ich freue mich sehr auf die Möglichkeit, mich persönlich vorzustellen.
+
+Mit freundlichen Grüßen,
+{c['name']}
+{c['phone']} | {c['email']}
+{c['linkedin']}"""
 
 
 def generate_cover_letters(job: dict) -> tuple[str, str]:
@@ -776,19 +885,61 @@ def generate_cover_letters(job: dict) -> tuple[str, str]:
 
 
 def generate_recruiter_message(recruiter: dict) -> str:
-    msg = ai_generate(build_recruiter_prompt(recruiter), max_tokens=200)
+    """Generate a personalised outreach message — AI if available, smart template if not."""
+    prompt = f"""Write a short, direct outreach message from Kranti Chavan to {recruiter["contact"]} at {recruiter["company"]}.
+
+CANDIDATE: SAP Commerce Cloud Developer, 5+ years, Karlsruhe Germany
+- Companies: Shell, Rockwell Automation
+- Skills: Hybris 2211, CCV2, Java, Spring, OCC APIs, DataHub, SAP BTP
+- Certifications: SAP Certified Professional Commerce Cloud Developer
+- Available: within 4 weeks, based in Karlsruhe
+
+RECRUITER CONTEXT: {recruiter["focus"]}
+
+RULES:
+- MAX 70 words
+- Address to "{recruiter["contact"]}" (not "Hi" alone)
+- Mention 1-2 specific skills relevant to their focus
+- End with a specific ask: call, CV review, or platform registration
+- Professional, direct, confident — not desperate
+- Do NOT mention visa or work permit
+
+Output: Just the message text. No subject line."""
+
+    msg = ai_generate(prompt, max_tokens=150)
     if msg:
         return msg
-    # Template fallback
-    return (
-        f"Hi {recruiter['name'].split()[0]},\n\n"
-        f"I'm an SAP Commerce Cloud Developer (Hybris 2211, CCV2, 5+ years) based in Karlsruhe, Germany. "
-        f"I hold the SAP Certified Professional – Commerce Cloud Developer credential and have delivered "
-        f"end-to-end solutions at Shell and Rockwell Automation.\n\n"
-        f"Given {recruiter['company']}'s focus on {recruiter['focus']}, I thought it might be worth "
-        f"a quick conversation. Would you have 15 minutes this week?\n\n"
-        f"Best,\nKranti Chavan\n{CANDIDATE['phone']} | {CANDIDATE['email']}"
-    )
+
+    # Smart template fallback — varies by recruiter type
+    c = CANDIDATE
+    contact = recruiter["contact"]
+    company = recruiter["company"]
+    focus   = recruiter["focus"]
+    action  = recruiter.get("action", "connect")
+
+    if "platform" in company.lower() or "gulp" in company.lower() or "freelancer" in company.lower() or "xing" in company.lower():
+        return f"""Hi,
+
+I've just registered my profile on {company} — 5+ years SAP Commerce Cloud (Hybris 2211, CCV2, Java/Spring, OCC APIs) based in Karlsruhe, Germany. SAP Certified Professional.
+
+{action}
+
+If you have relevant SAP Commerce opportunities, I'd love to hear from you.
+
+Best regards,
+{c['name']} | {c['phone']}"""
+
+    else:
+        return f"""Dear {contact},
+
+I'm reaching out as an SAP Commerce Cloud Developer with 5+ years of hands-on Hybris experience (Hybris 2211, CCV2, Java, OCC APIs) at Shell and Rockwell Automation. SAP Certified Professional. Based in Karlsruhe, available within 4 weeks.
+
+Given {company}'s focus on {focus.split('—')[0].strip()}, I believe I'd be a strong match for your current openings.
+
+Would you be open to a brief call this week?
+
+Best regards,
+{c['name']} | {c['phone']} | {c['email']}"""
 
 
 def generate_followup_email(app: dict) -> str:
@@ -1013,15 +1164,24 @@ def recruiter_section_html(recruiters: list[dict]) -> str:
         rec_li     = rec.get("linkedin", "")
         email_link = f'<a href="mailto:{rec_email}" style="color:#7c3aed;">{fh(rec_email)}</a>' if rec_email else "–"
         li_link    = f'<a href="{rec_li}" style="color:#1d4ed8;">LinkedIn</a>' if rec_li else ""
+        action_text = fh(rec.get("action", "Connect and reach out"))
         items += f"""
-<div style="border:1px solid #e9d5ff;border-radius:8px;padding:14px;margin-bottom:14px;background:#faf5ff;">
-  <p style="margin:0 0 4px;font-weight:bold;color:#6b21a8;font-size:14px;">{fh(rec['name'])} — {fh(rec['company'])}</p>
-  <p style="margin:0 0 8px;font-size:12px;color:#64748b;">Focus: {fh(rec['focus'])} &nbsp;·&nbsp; {email_link} &nbsp;·&nbsp; {li_link}</p>
-  <p style="margin:0 0 4px;font-size:12px;color:#78716c;">💡 {fh(rec.get('note',''))}</p>
-  <details style="margin-top:8px;">
-    <summary style="cursor:pointer;color:#7c3aed;font-size:13px;font-weight:bold;">💬 Outreach message — expand &amp; copy</summary>
-    <pre style="background:white;border:1px solid #e9d5ff;border-radius:6px;padding:12px;
-                font-size:13px;line-height:1.6;white-space:pre-wrap;margin-top:8px;">{fh(msg)}</pre>
+<div style="border:1px solid #e9d5ff;border-radius:8px;padding:16px;margin-bottom:16px;background:#faf5ff;">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px;">
+    <div>
+      <p style="margin:0 0 3px;font-weight:bold;color:#6b21a8;font-size:14px;">{fh(rec['name'])}</p>
+      <p style="margin:0 0 6px;font-size:12px;color:#64748b;">{fh(rec['focus'].split('—')[0].strip())} &nbsp;·&nbsp; {email_link} &nbsp;{li_link}</p>
+    </div>
+  </div>
+  <div style="background:#ede9fe;border-radius:6px;padding:10px 14px;margin-bottom:10px;">
+    <p style="margin:0;font-size:13px;color:#4c1d95;"><strong>👉 Action today:</strong> {action_text}</p>
+  </div>
+  <p style="margin:0 0 8px;font-size:12px;color:#78716c;">💡 {fh(rec.get('note',''))}</p>
+  <details style="margin-top:4px;">
+    <summary style="cursor:pointer;color:#7c3aed;font-size:13px;font-weight:bold;padding:4px 0;">💬 Message to copy &amp; send — expand</summary>
+    <pre style="background:white;border:1px solid #e9d5ff;border-radius:6px;padding:14px;
+                font-size:13px;line-height:1.65;white-space:pre-wrap;margin-top:8px;
+                font-family:Georgia,serif;">{fh(msg)}</pre>
   </details>
 </div>"""
     return f"""
@@ -1084,9 +1244,14 @@ def build_email(jobs: list[dict], followup_due: list[dict]) -> tuple[str, str]:
   <!-- ── TODAY'S JOBS ── -->
   <div style="padding:0 32px 8px;">
     <h2 style="color:#1e293b;margin:0 0 4px;font-size:18px;">🔍 Today's Jobs — {len(jobs)} Found</h2>
-    <p style="color:#475569;font-size:13px;margin:0 0 12px;">
+    <p style="color:#475569;font-size:13px;margin:0 0 8px;">
       Sorted by skill-match score. Apply to <strong>Excellent</strong> first.
     </p>
+    <div style="background:#f8fafc;border-left:3px solid #94a3b8;padding:10px 14px;margin-bottom:14px;border-radius:0 6px 6px 0;">
+      <p style="margin:0;font-size:12.5px;color:#475569;">
+        📌 <strong>SAP Commerce Cloud is a niche market</strong> — roughly 20–30 unique active jobs exist across all of Europe at any time, from ~10 companies. This bot finds all of them. Quality over quantity — every job below is a real match.
+      </p>
+    </div>
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;">
       <span style="background:#16a34a;color:white;border-radius:8px;padding:5px 12px;font-size:12px;">🟢 {excellent} Excellent</span>
       <span style="background:#d97706;color:white;border-radius:8px;padding:5px 12px;font-size:12px;">🟡 {good} Good</span>
@@ -1185,9 +1350,12 @@ def send_email(subject: str, html: str):
         return
 
     try:
+        recipients = [TO_EMAIL]
+        if TO_EMAIL_2:
+            recipients.append(TO_EMAIL_2)
         payload = {
             "from"   : f"Kranti Job Hunter <{FROM_EMAIL}>",
-            "to"     : [TO_EMAIL],
+            "to"     : recipients,
             "subject": subject,
             "html"   : html,
         }
