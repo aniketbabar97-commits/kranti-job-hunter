@@ -387,6 +387,122 @@ def linkedin_fetch_page(keyword, location, timeframe, start) -> list[dict]:
         return []
 
 
+
+
+def _xing_decode(text: str) -> str:
+    """Fix XING's escaped unicode and encoding artifacts."""
+    try:
+        text = text.encode('utf-8').decode('unicode_escape')
+    except Exception:
+        pass
+    # Fix mojibake from XING's encoding
+    replacements = {
+        'Ã¼': 'ü', 'Ã¤': 'ä', 'Ã¶': 'ö', 'ÃŸ': 'ß',
+        'Ã©': 'é', 'Ã¨': 'è', 'Ã ': 'à', 'Ã¢': 'â',
+        'Ãœ': 'Ü', 'Ã„': 'Ä', 'Ã–': 'Ö',
+        '\u002F': '/', '\u2013': '–', '\u2014': '—',
+        '\u00e4': 'ä', '\u00fc': 'ü', '\u00f6': 'ö',
+        '\u00df': 'ß', '\u00c4': 'Ä', '\u00dc': 'Ü', '\u00d6': 'Ö',
+    }
+    for bad, good in replacements.items():
+        text = text.replace(bad, good)
+    return text.strip()
+
+
+def fetch_xing_jobs(keyword: str, location: str = "Deutschland") -> list[dict]:
+    """
+    Extract SAP Commerce jobs from XING by parsing the Apollo GraphQL cache
+    embedded in the server-rendered page HTML. No login required.
+    XING returns 200 with full job data — we crack it via regex on the JS state.
+    """
+    try:
+        url = (
+            f"https://www.xing.com/jobs/search"
+            f"?keywords={urllib.parse.quote(keyword)}"
+            f"&location={urllib.parse.quote(location)}"
+            f"&sort=date"
+        )
+        r = requests.get(url, headers=LI_HEADERS, timeout=25)
+        if r.status_code != 200:
+            return []
+
+        # XING embeds Apollo cache in a <script> tag
+        script_text = next(
+            (s for s in r.text.split("<script") if "JobSearchResult" in s and "slug" in s),
+            None
+        )
+        if not script_text:
+            return []
+
+        titles = re.findall(r'"title"\s*:\s*"((?:[^"\\]|\\.)*)"', script_text)
+        slugs  = re.findall(r'"slug"\s*:\s*"([a-z0-9-]+)"',            script_text)
+
+        jobs = []
+        for title, slug in zip(titles, slugs):
+            title_clean = _xing_decode(title)
+            # Parse city from slug (format: city-more-words-numericID)
+            parts = slug.split("-")
+            city_raw = parts[0].title() if parts else ""
+            jobs.append({
+                "title"      : title_clean,
+                "company"    : "",
+                "location"   : f"{city_raw}, Germany",
+                "url"        : f"https://www.xing.com/jobs/{slug}",
+                "date"       : "",
+                "source"     : "XING",
+                "description": "",
+                "hr_email"   : "",
+            })
+        return jobs
+
+    except Exception as e:
+        print(f"  [xing_search] {e}")
+        return []
+
+
+def enrich_xing_job(job: dict) -> dict:
+    """Fetch company name, real location, and description from a XING job detail page."""
+    try:
+        r = requests.get(job["url"], headers=LI_HEADERS, timeout=20)
+        if r.status_code != 200:
+            return job
+
+        # Company name
+        co = re.search(r'"companyName"\s*:\s*"((?:[^"\\]|\\.)+)"', r.text)
+        if co:
+            job["company"] = _xing_decode(co.group(1))
+
+        # City (first occurrence is the job's city)
+        city = re.search(r'"city"\s*:\s*"([^"]{2,50})"', r.text)
+        if city:
+            job["location"] = _xing_decode(city.group(1)) + ", Germany"
+
+        # Description
+        desc = re.search(
+            r'"(?:jobDescription|description)"\s*:\s*"((?:[^"\\]|\\.){100,})"',
+            r.text
+        )
+        if desc:
+            raw  = _xing_decode(desc.group(1))
+            job["description"] = re.sub(r"<[^>]+>", " ", re.sub(r"\s+", " ", raw)).strip()[:3000]
+
+        # Posted date
+        date = re.search(r'"(?:publishedAt|createdAt)"\s*:\s*"(\d{4}-\d{2}-\d{2})', r.text)
+        if date:
+            job["date"] = date.group(1)
+
+        # HR email (sometimes in description)
+        emails = re.findall(r"[\w.+-]+@[\w.-]+\.\w{2,}", r.text)
+        real   = [e for e in emails if not any(x in e.lower() for x in ["xing.com", "noreply", "example", "cdn"])]
+        if real:
+            job["hr_email"] = real[0]
+
+        return job
+
+    except Exception as e:
+        print(f"  [xing_detail] {e}")
+        return job
+
 def fetch_adzuna(keyword: str, location: str = "de") -> list[dict]:
     """
     Adzuna API — indexes StepStone, Indeed, Monster, company pages in Germany.
@@ -644,7 +760,27 @@ def fetch_all_jobs() -> list[dict]:
         print("    ℹ️  JSearch not configured (add JSEARCH_API_KEY secret)")
         print("       → Free 200 calls/month at rapidapi.com — Google Jobs aggregator")
 
-    print(f"\n  📦 Raw unique cards: {len(all_raw)}")
+    # ── XING (bypassed! Apollo cache extraction — no login needed) ──────
+    print("\n    🔍 XING [SAP jobs not on LinkedIn]...")
+    XING_KEYWORDS = [
+        "SAP Commerce Cloud", "SAP Hybris", "SAP Commerce Entwickler",
+        "SAP CX Developer", "SAP Commerce Berater",
+    ]
+    XING_EXCL = ["sap basis","is-u","hcm","successfactor","werkstudent","working student",
+                  "salesforce","retail architect","front-end","sales cloud","service cloud","pdi"]
+    xing_raw = []
+    for kw in XING_KEYWORDS:
+        xjobs = fetch_xing_jobs(kw, "Deutschland")
+        for j in xjobs:
+            t = j["title"].lower()
+            if j["url"] not in seen_urls and any(k in t for k in MUST_HAVE_TITLE) and not any(e in t for e in XING_EXCL):
+                seen_urls.add(j["url"])
+                xing_raw.append(j)
+        time.sleep(2)
+    print(f"    → XING: {len(xing_raw)} unique relevant jobs found (not on LinkedIn)")
+    all_raw.extend(xing_raw)
+
+    print(f"\n  📦 Raw unique cards: {len(all_raw)} (LinkedIn + XING{' + Adzuna' if ADZUNA_APP_ID else ''}{' + JSearch' if JSEARCH_API_KEY else ''})")
     filtered = [j for j in all_raw if is_title_relevant(j["title"])]
     print(f"  🎯 Title-relevant: {len(filtered)}")
 
@@ -671,7 +807,11 @@ def fetch_all_jobs() -> list[dict]:
     scored = []
     for i, job in enumerate(not_seen):
         print(f"  [{i+1:2d}/{len(not_seen)}] {job['title'][:50]} @ {job['company']}")
-        job["description"] = fetch_description(job["url"])
+        # XING jobs use different detail fetcher
+        if job.get("source") == "XING":
+            job = enrich_xing_job(job)
+        else:
+            job["description"] = fetch_description(job["url"])
         # Second-pass location check using description (some jobs hide US location in text)
         if is_usa_location(job["description"][:200]):
             print(f"    🚫 USA location found in description — skipping")
