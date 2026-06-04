@@ -89,7 +89,7 @@ GEMINI_API_KEY  = os.environ.get("GEMINI_API_KEY",  "")
 # ── Email via Resend.com (FREE — 3000 emails/month, just API key) ──────
 # Sign up free at resend.com → get API key → add as GitHub Secret
 RESEND_API_KEY  = os.environ.get("RESEND_API_KEY",  "")
-FROM_EMAIL      = os.environ.get("FROM_EMAIL",       "jobs@resend.dev")   # resend default sender
+FROM_EMAIL      = os.environ.get("FROM_EMAIL", "") or "onboarding@resend.dev"  # resend.dev works on free tier
 TO_EMAIL        = os.environ.get("TO_EMAIL",         CANDIDATE["email"])
 TO_EMAIL_2      = os.environ.get("TO_EMAIL_2",        "")   # optional second recipient
 
@@ -990,18 +990,27 @@ Output: Just the message. No subject line. No preamble.
 
 
 def call_groq(prompt: str, max_tokens: int = 800) -> str:
-    try:
-        r = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
-            json={"model": "llama-3.3-70b-versatile",
-                  "messages": [{"role": "user", "content": prompt}],
-                  "max_tokens": max_tokens, "temperature": 0.73},
-            timeout=45,
-        )
-        return r.json().get("choices", [{}])[0].get("message", {}).get("content", "").strip()
-    except Exception as e:
-        print(f"  [groq] {e}"); return ""
+    for attempt in range(3):
+        try:
+            r = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {GROQ_API_KEY}", "Content-Type": "application/json"},
+                json={"model": "llama-3.3-70b-versatile",
+                      "messages": [{"role": "user", "content": prompt}],
+                      "max_tokens": max_tokens, "temperature": 0.73},
+                timeout=45,
+            )
+            if r.status_code == 429:
+                wait = 20 * (attempt + 1)
+                print(f"  [groq] rate limited — waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            data = r.json()
+            return data.get("choices", [{}])[0].get("message", {}).get("content", "").strip()
+        except Exception as e:
+            print(f"  [groq] attempt {attempt+1}: {e}")
+            time.sleep(5)
+    return ""
 
 
 def call_gemini(prompt: str) -> str:
