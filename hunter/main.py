@@ -86,6 +86,8 @@ def main():
             new[k] = j
     jobs = list(new.values())
     log.info("raw=%d new_relevant=%d", len(raw), len(jobs))
+    for src, (n, err) in health.items():
+        log.info("source %s: %d results %s", src, n, err)
 
     score.score_jobs(jobs, cv)
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
