@@ -28,8 +28,9 @@ For each job below give:
   0-29: not relevant (warehouse, sales, customer service, accounting, non-IT)
   Subtract 10 if fluent/native German is clearly required (she has B1). Subtract 15 if the job is outside Germany and not remote.
 - why: one short sentence
+- lang: "en" if the job works in English (posting written in English and no fluent/native German required), "de" if the posting is written in German or asks for fluent/business German
 
-Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>"}}, ...]
+Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>", "lang": "en"|"de"}}, ...]
 
 Jobs:
 {jobs}"""
@@ -42,6 +43,19 @@ KEYWORD_POINTS = [
     (r"java|spring|solr|impex|occ", 10),
     (r"karlsruhe|baden|stuttgart|mannheim|heidelberg|frankfurt|remote|home ?office", 10),
 ]
+
+
+GERMAN_HINTS = re.compile(
+    r"\b(entwickler|berater|mitarbeiter|leitung|sachbearbeit\w*|kenntnisse|verhandlungssicher|fließend|"
+    r"deutschkenntnisse|wir|ihre|aufgaben|für|und|mit|bei|sie)\b", re.I)
+
+
+def _guess_lang(job):
+    """Fallback when the AI gives no answer: German wording in title/description -> 'de'."""
+    text = f"{job['title']} {job['description'][:1500]}"
+    if re.search(r"english|englisch(?!kenntnisse)", text, re.I) and not re.search(r"deutsch", text, re.I):
+        return "en"
+    return "de" if len(GERMAN_HINTS.findall(text)) >= 2 or re.search(r"(?i)entwickler|berater|deutsch", job["title"]) else "en"
 
 
 def _keyword_score(job):
@@ -157,7 +171,9 @@ def score_jobs(jobs, cv):
             if results and i in results:
                 job["score"] = int(results[i].get("score", 0))
                 job["why"] = results[i].get("why", "")
+                job["lang"] = results[i].get("lang") if results[i].get("lang") in ("en", "de") else _guess_lang(job)
             else:
                 job["score"], job["why"] = _keyword_score(job)
+                job["lang"] = _guess_lang(job)
         time.sleep(4)  # stay under free-tier rate limits
     return jobs

@@ -23,6 +23,8 @@ sales). The same job on several boards is shown once, and a job is never sent tw
 
 ## The digest
 
+Split into 🇬🇧 **English-speaking** and 🇩🇪 **German-speaking** jobs (posting in German or fluent German required), each ranked separately:
+
 - 🎯 **Strong match** (80+), 👍 **Good fit / can learn** (60–79), 👀 **Worth a look** (30–59), 🗂 **Low match** (titles only)
 - Each job: score, title, company, location, remote flag, salary if posted, and a one-line reason.
 - **Source health** at the bottom: a ⚠️ means a source returned nothing or failed, so you know if something is being missed.
