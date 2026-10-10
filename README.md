@@ -32,8 +32,8 @@ sales). The same job on several boards is shown once, and a job is never sent tw
 | Secret | Needed | Notes |
 |---|---|---|
 | `TO_EMAIL`, `TO_EMAIL_2` | yes | One address each (or comma-separated) |
-| `RESEND_API_KEY` + `FROM_EMAIL` | one email method | Without a verified domain, Resend only delivers to the Resend account's own address |
-| `GMAIL_USER` + `GMAIL_APP_PASSWORD` | one email method | Gmail App Password (Google account → Security → App passwords). Used if Resend fails |
+| `GMAIL_USER` + `GMAIL_APP_PASSWORD` | one email method | Gmail App Password (Google account → Security → App passwords). Used first |
+| `RESEND_API_KEY` + `FROM_EMAIL` | optional backup | Without a verified domain, Resend only delivers to the Resend account's own address |
 | `GEMINI_API_KEY` | recommended | AI scoring (free tier is enough) |
 | `GROQ_API_KEY` | optional | Backup AI scorer. Without any AI key, keyword scoring is used |
 

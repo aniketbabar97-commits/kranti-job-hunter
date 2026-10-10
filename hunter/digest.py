@@ -70,7 +70,7 @@ def _gmail(to, subject, body):
 
 def send(subject, body):
     """One email per recipient, so one bad address can't block the other. True if any arrived."""
-    senders = [(n, f) for n, f, k in [("resend", _resend, "RESEND_API_KEY"), ("gmail", _gmail, "GMAIL_APP_PASSWORD")]
+    senders = [(n, f) for n, f, k in [("gmail", _gmail, "GMAIL_APP_PASSWORD"), ("resend", _resend, "RESEND_API_KEY")]
                if os.getenv(k)]
     to_list = recipients()
     if not to_list or not senders:

@@ -11,7 +11,7 @@ log = logging.getLogger(__name__)
 
 # Model names get retired often, so if the preferred one is gone we pick the
 # best available one from the provider's model list at runtime.
-GEMINI_PREFS = [os.getenv("GEMINI_MODEL", ""), "gemini-2.5-flash", "gemini-flash-latest", "flash"]
+GEMINI_PREFS = [os.getenv("GEMINI_MODEL", ""), "gemini-flash-latest", "gemini-2.5-flash", "flash"]
 GROQ_PREFS = [os.getenv("GROQ_MODEL", ""), "openai/gpt-oss-120b", "llama-3.3-70b-versatile", "gpt-oss", "llama"]
 _models = {}
 BATCH = 15
@@ -60,15 +60,20 @@ def _pick(available, prefs):
     raise RuntimeError(f"no usable model among {available[:20]}")
 
 
-def _gemini_model(key):
+def _gemini_candidates(key):
+    """Usable Gemini models, preferred first. Some listed models 404 on generateContent
+    (retired/restricted), so callers try them in order and drop the ones that fail."""
     if "gemini" not in _models:
         r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": key, "pageSize": 200}, timeout=30)
         r.raise_for_status()
         names = [m["name"].removeprefix("models/") for m in r.json().get("models", [])
                  if "generateContent" in m.get("supportedGenerationMethods", []) and "gemini" in m["name"]
-                 and not any(x in m["name"] for x in ("tts", "image", "live", "audio", "embedding"))]
-        _models["gemini"] = _pick(names, GEMINI_PREFS)
-        log.info("gemini model: %s", _models["gemini"])
+                 and not any(x in m["name"] for x in ("tts", "image", "live", "audio", "embedding", "preview", "exp"))]
+        ordered = []
+        for p in filter(None, GEMINI_PREFS):
+            ordered += [n for n in sorted(names, reverse=True) if p in n and n not in ordered]
+        _models["gemini"] = ordered
+        log.info("gemini candidates: %s", ordered[:6])
     return _models["gemini"]
 
 
@@ -85,16 +90,23 @@ def _groq_model(key):
 
 def _gemini(prompt):
     key = os.environ["GEMINI_API_KEY"]
-    model = _gemini_model(key)
-    r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-        params={"key": key},
-        json={"contents": [{"parts": [{"text": prompt}]}],
-              "generationConfig": {"responseMimeType": "application/json", "temperature": 0}},
-        timeout=90,
-    )
-    r.raise_for_status()
-    return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    candidates = _gemini_candidates(key)
+    while candidates:
+        model = candidates[0]
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            params={"key": key},
+            json={"contents": [{"parts": [{"text": prompt}]}],
+                  "generationConfig": {"responseMimeType": "application/json", "temperature": 0}},
+            timeout=90,
+        )
+        if r.status_code in (400, 403, 404):  # model unavailable for this key -> try the next one
+            log.warning("gemini model %s unavailable (%s), trying next", model, r.status_code)
+            candidates.pop(0)
+            continue
+        r.raise_for_status()
+        return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    raise RuntimeError("no working Gemini model")
 
 
 def _groq(prompt):
