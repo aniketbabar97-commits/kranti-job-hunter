@@ -10,6 +10,10 @@ on:
         description: "Dry run (no email, nothing saved)"
         type: boolean
         default: false
+      posts_check:
+        description: "Quick check of LinkedIn-post search only (no email)"
+        type: boolean
+        default: false
       test_email:
         description: "Only send a test email (no search)"
         type: boolean
@@ -47,7 +51,8 @@ jobs:
           TO_EMAIL_2:         ${{ secrets.TO_EMAIL_2 }}
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          DRY_RUN:            ${{ inputs.dry_run && '1' || '' }}
+          DRY_RUN:            ${{ (inputs.dry_run || inputs.posts_check) && '1' || '' }}
+          QUERY_LIMIT:        ${{ inputs.posts_check && '0' || '' }}
           TEST_EMAIL:         ${{ inputs.test_email && '1' || '' }}
         run: python -m hunter.main
 
@@ -60,7 +65,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Save seen jobs and log
-        if: success() && !inputs.dry_run && !inputs.test_email
+        if: success() && !inputs.dry_run && !inputs.test_email && !inputs.posts_check
         run: |
           git config user.name "Job Hunter Bot"
           git config user.email "bot@job-hunter"

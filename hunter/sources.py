@@ -99,10 +99,16 @@ def linkedin_posts(query, days=7):
     """Recruiter/hiring posts on LinkedIn, found through Google via Serper.dev (needs SERPER_API_KEY)."""
     key = os.environ["SERPER_API_KEY"]
     tbs = {1: "qdr:d", 7: "qdr:w"}.get(days, "qdr:w")
-    r = requests.post("https://google.serper.dev/search", timeout=30,
-                      headers={"X-API-KEY": key, "Content-Type": "application/json"},
-                      json={"q": query, "tbs": tbs, "num": 20})
-    r.raise_for_status()
+    headers = {"X-API-KEY": key, "Content-Type": "application/json"}
+    r = None
+    # Try the full request first, then simpler ones: some plans/queries reject tbs or num with a 400.
+    for payload in ({"q": query, "tbs": tbs, "num": 20}, {"q": query, "tbs": tbs}, {"q": query}):
+        r = requests.post("https://google.serper.dev/search", timeout=30, headers=headers, json=payload)
+        if r.status_code != 400:
+            break
+        log.warning("serper 400 for %s: %s", sorted(payload), r.text[:200])
+    if not r.ok:
+        raise RuntimeError(f"serper {r.status_code}: {r.text[:200]}")
     jobs = []
     for it in r.json().get("organic", []):
         if "linkedin.com/posts" not in it.get("link", "") and "linkedin.com/feed" not in it.get("link", ""):
