@@ -2,8 +2,10 @@ name: Job hunt
 
 on:
   schedule:
-    - cron: "47 4 * * *"   # ~06:47 / 05:47 Berlin (summer / winter time)
-    - cron: "47 14 * * *"  # ~16:47 / 15:47 Berlin
+    # India time (IST = UTC+5:30, no daylight saving). Set ~15 min early because
+    # GitHub often starts scheduled runs late, and a run takes ~12 min.
+    - cron: "17 5 * * *"   # 10:47 IST -> email ~11:00 IST
+    - cron: "17 11 * * *"  # 16:47 IST -> email ~17:00 IST
   workflow_dispatch:
     inputs:
       dry_run:

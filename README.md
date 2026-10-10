@@ -1,6 +1,6 @@
 # Kranti Job Hunter
 
-Twice a day (about 06:47 and 16:47 German time) this repo searches for every new
+Twice a day (emails around 11:00 and 17:00 India time) this repo searches for every new
 SAP Commerce Cloud / Hybris / e-commerce opening in Germany and remote in the EU,
 scores each one against `cv.md`, and emails a ranked digest.
 
