@@ -10,6 +10,10 @@ on:
         description: "Dry run (no email, nothing saved)"
         type: boolean
         default: false
+      test_email:
+        description: "Only send a test email (no search)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -43,6 +47,7 @@ jobs:
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DRY_RUN:            ${{ inputs.dry_run && '1' || '' }}
+          TEST_EMAIL:         ${{ inputs.test_email && '1' || '' }}
         run: python -m hunter.main
 
       - name: Upload digest preview
@@ -54,7 +59,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Save seen jobs and log
-        if: success() && !inputs.dry_run
+        if: success() && !inputs.dry_run && !inputs.test_email
         run: |
           git config user.name "Job Hunter Bot"
           git config user.email "bot@job-hunter"

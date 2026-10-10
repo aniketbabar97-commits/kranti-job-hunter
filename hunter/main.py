@@ -62,6 +62,11 @@ def relevant(job, cfg):
 
 def main():
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
+    if os.getenv("TEST_EMAIL"):
+        label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
+        ok = digest.send(f"✅ Job hunter test email — {label}",
+                         "<p>This is a test email from the job hunter. If you can read this, email delivery works.</p>")
+        sys.exit(0 if ok else 1)
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     if os.getenv("QUERY_LIMIT"):  # for quick local tests
         cfg["queries"] = cfg["queries"][: int(os.environ["QUERY_LIMIT"])]
