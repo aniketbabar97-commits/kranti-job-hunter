@@ -12,19 +12,19 @@ log = logging.getLogger(__name__)
 SECTIONS = [(80, "🎯 Strong match"), (60, "👍 Good fit / can learn"), (30, "👀 Worth a look"), (0, "🗂 Low match (titles only)")]
 
 
-def build_html(jobs, health, run_label):
-    e = html.escape
-    out = [f"<div style='font-family:Arial,sans-serif;max-width:760px'>"
-           f"<h2>Job digest — {e(run_label)}</h2><p>{len(jobs)} new openings, ranked by fit.</p>"]
+LANGS = [("en", "🇬🇧 English-speaking jobs"), ("de", "🇩🇪 German-speaking jobs")]
+
+
+def _render_group(out, jobs, e):
     for floor, label in SECTIONS:
         group = [j for j in jobs if j.get("_section") == label]
         if not group:
             continue
         if label.startswith("🗂"):
-            out.append(f"<h3>{label} ({len(group)})</h3><p style='font-size:13px;color:#555'>" + "<br>".join(
+            out.append(f"<h4>{label} ({len(group)})</h4><p style='font-size:13px;color:#555'>" + "<br>".join(
                 f"{j['score']} · <a href='{e(j['url'])}'>{e(j['title'])}</a> — {e(j['company'])}" for j in group) + "</p>")
             continue
-        out.append(f"<h3>{label} ({len(group)})</h3><table cellpadding='6' style='border-collapse:collapse;width:100%'>")
+        out.append(f"<h4>{label} ({len(group)})</h4><table cellpadding='6' style='border-collapse:collapse;width:100%'>")
         for j in group:
             tags = " · ".join(x for x in [j["location"], "🏠 remote/hybrid" if j["remote"] else "", j["salary"], j["source"], j["posted"]] if x)
             out.append(
@@ -33,6 +33,22 @@ def build_html(jobs, health, run_label):
                 f"<b>{e(j['company'])}</b> — <span style='color:#555'>{e(tags)}</span><br>"
                 f"<i style='color:#333'>{e(j.get('why', ''))}</i></td></tr>")
         out.append("</table>")
+
+
+def build_html(jobs, health, run_label):
+    e = html.escape
+    counts = {code: sum(1 for j in jobs if j.get("lang", "de") == code) for code, _ in LANGS}
+    out = [f"<div style='font-family:Arial,sans-serif;max-width:760px'>"
+           f"<h2>Job digest — {e(run_label)}</h2>"
+           f"<p>{len(jobs)} new openings, ranked by fit: "
+           f"<a href='#en'>{counts['en']} English-speaking</a> · <a href='#de'>{counts['de']} German-speaking</a>.</p>"]
+    for code, title in LANGS:
+        group = [j for j in jobs if j.get("lang", "de") == code]
+        out.append(f"<h2 id='{code}' style='border-bottom:3px solid #333;padding-top:12px'>{title} ({len(group)})</h2>")
+        if group:
+            _render_group(out, group, e)
+        else:
+            out.append("<p style='color:#555'>None this run.</p>")
     out.append("<h4>Source health</h4><ul>")
     for src, (n, err) in health.items():
         flag = "⚠️ " if err or n == 0 else ""
