@@ -101,8 +101,8 @@ def linkedin_posts(query, days=7):
     tbs = {1: "qdr:d", 7: "qdr:w"}.get(days, "qdr:w")
     headers = {"X-API-KEY": key, "Content-Type": "application/json"}
     r = None
-    # Try the full request first, then simpler ones: some plans/queries reject tbs or num with a 400.
-    for payload in ({"q": query, "tbs": tbs, "num": 20}, {"q": query, "tbs": tbs}, {"q": query}):
+    # Free Serper accounts reject "num" ("Query pattern not allowed"); fall back to a bare query if tbs is refused too.
+    for payload in ({"q": query, "tbs": tbs}, {"q": query}):
         r = requests.post("https://google.serper.dev/search", timeout=30, headers=headers, json=payload)
         if r.status_code != 400:
             break
