@@ -55,6 +55,18 @@ def _render_group(out, jobs, e):
         out.append("</table>")
 
 
+def _record_links():
+    """Links to the full job history and this run on GitHub (env vars set by GitHub Actions)."""
+    repo = os.getenv("GITHUB_REPOSITORY")
+    if not repo:
+        return ""
+    base = f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}"
+    links = [f"<a href='{base}/blob/main/data/jobs_log.csv'>📒 Full record of every job sent (searchable)</a>"]
+    if os.getenv("GITHUB_RUN_ID"):
+        links.append(f"<a href='{base}/actions/runs/{os.environ['GITHUB_RUN_ID']}'>this run's log</a>")
+    return "<p style='background:#f3f3f3;padding:8px;border-radius:6px'>" + " · ".join(links) + "</p>"
+
+
 def build_html(jobs, health, run_label):
     e = html.escape
     counts = {code: sum(1 for j in jobs if j.get("lang", "de") == code) for code, _ in LANGS}
@@ -66,7 +78,8 @@ def build_html(jobs, health, run_label):
            f"<h2>Job digest — {e(run_label)}</h2>"
            f"<p>{len(jobs)} new openings, ranked by fit: "
            f"<a href='#en'>{counts['en']} English-speaking</a> · <a href='#de'>{counts['de']} German-speaking</a>.<br>"
-           "By age: " + " · ".join(f"{label}: {n}" for label, n in age_counts.items() if n) + "</p>"]
+           "By age: " + " · ".join(f"{label}: {n}" for label, n in age_counts.items() if n) + "</p>"
+           + _record_links()]
     for code, title in LANGS:
         group = [j for j in jobs if j.get("lang", "de") == code]
         out.append(f"<h2 id='{code}' style='border-bottom:3px solid #333;padding-top:12px'>{title} ({len(group)})</h2>")
@@ -78,7 +91,7 @@ def build_html(jobs, health, run_label):
     for src, (n, err) in health.items():
         flag = "⚠️ " if err or n == 0 else ""
         out.append(f"<li>{flag}{e(src)}: {n} results{(' — ' + e(err)) if err else ''}</li>")
-    out.append("</ul></div>")
+    out.append("</ul>" + _record_links() + "</div>")
     return "".join(out)
 
 

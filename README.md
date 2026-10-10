@@ -30,6 +30,7 @@ Split into 🇬🇧 **English-speaking** and 🇩🇪 **German-speaking** jobs (
 
 - 🎯 **Strong match** (80+), 👍 **Good fit / can learn** (60–79), 👀 **Worth a look** (30–59), 🗂 **Low match** (titles only)
 - Each job: score, title, company, location, remote flag, salary if posted, and a one-line reason.
+- A link at the top and bottom to the full record (`data/jobs_log.csv` on GitHub) of every job ever sent.
 - **Source health** at the bottom: a ⚠️ means a source returned nothing or failed, so you know if something is being missed.
 
 ## Setup (GitHub → Settings → Secrets and variables → Actions)
