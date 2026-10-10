@@ -20,8 +20,14 @@ PROMPT = """You rate job postings for one candidate. Candidate profile:
 {cv}
 
 For each job below give:
-- score: 0-100 fit (90+ = SAP Commerce/Hybris role she can do today; 60-89 = commerce/e-commerce role she could do or learn quickly; 30-59 = loosely related; <30 = not relevant)
-- why: one short sentence (mention German-language requirement if it looks stricter than B1)
+- score: 0-100 fit, using this scale:
+  90-100: SAP Commerce Cloud / Hybris / SAP CX Commerce / Spartacus role (developer, consultant, architect, lead, product owner)
+  75-89: other SAP CX roles; Salesforce Commerce Cloud, commercetools, Spryker, Intershop, Adobe Commerce roles; Java backend for e-commerce; e-commerce business analyst / functional or technical consultant
+  55-74: other e-commerce / PIM / shop roles that are technical or analytical (incl. PHP shops like Shopware/Magento)
+  30-54: loosely related (generic IT, e-commerce marketing/operations)
+  0-29: not relevant (warehouse, sales, customer service, accounting, non-IT)
+  Subtract 10 if fluent/native German is clearly required (she has B1). Subtract 15 if the job is outside Germany and not remote.
+- why: one short sentence
 
 Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>"}}, ...]
 
