@@ -1,0 +1,86 @@
+# What to search for. Every query runs on every source; results are
+# de-duplicated, filtered for relevance, then scored against cv.md.
+queries:
+  # Tier A - core SAP Commerce
+  - "SAP Commerce Cloud"
+  - "SAP Commerce"
+  - "Hybris"
+  - "SAP CX"
+  - "Spartacus"
+  - "Composable Storefront"
+  # Tier B - other commerce platforms (ready to learn)
+  - "Salesforce Commerce Cloud"
+  - "SFCC"
+  - "commercetools"
+  - "Spryker"
+  - "Intershop"
+  - "Adobe Commerce"
+  - "Shopware"
+  # Tier C - e-commerce roles
+  - "E-Commerce Business Analyst"
+  - "E-Commerce Consultant"
+  - "E-Commerce Entwickler"
+  - "E-Commerce Product Owner"
+  - "E-Commerce Projektmanager"
+  - "Commerce Consultant"
+  - "Commerce Architect"
+  - "Digital Commerce"
+  # Tier D - adjacent
+  - "Java Entwickler E-Commerce"
+  - "SAP CPQ"
+  - "PIM Consultant"
+
+# A job is kept only if its title or description contains one of these
+# (case-insensitive). Keeps noise out without dropping real openings.
+relevance_terms:
+  - hybris
+  - sap commerce
+  - commerce cloud
+  - sap cx
+  - ccv2
+  - spartacus
+  - composable storefront
+  - sfcc
+  - demandware
+  - commercetools
+  - spryker
+  - intershop
+  - adobe commerce
+  - magento
+  - shopware
+  - e-commerce
+  - ecommerce
+  - e-business
+  - onlineshop
+  - online-shop
+  - webshop
+  - digital commerce
+  - b2b commerce
+  - b2c commerce
+  - sap cpq
+  - pim
+
+# Titles containing these are dropped (sales/intern roles etc.)
+exclude_title_terms:
+  - praktik
+  - intern
+  - werkstudent
+  - working student
+  - ausbildung
+  - azubi
+  - account executive
+  - sales manager
+  - vertrieb
+  - lager
+  - schichtleit
+  - kommissionier
+  - fahrer
+  - steuer
+  - tax manager
+
+locations:
+  - "Germany"
+remote_location: "European Union"   # extra remote-only pass
+hours_old: 48          # how far back each run looks on JobSpy sources
+results_per_query: 30
+min_score_in_digest: 0  # 0 = show everything, ranked
