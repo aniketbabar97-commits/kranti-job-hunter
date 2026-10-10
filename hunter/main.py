@@ -49,6 +49,11 @@ def collect(cfg):
         run("LinkedIn/Indeed (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
             cfg["results_per_query"], True)
         time.sleep(3)
+    if os.getenv("SERPER_API_KEY"):
+        for q in cfg.get("post_queries", []):
+            run("LinkedIn posts (Google)", sources.linkedin_posts, q, days)
+    else:
+        health["LinkedIn posts (Google)"] = (0, "off - add SERPER_API_KEY secret to enable")
     return jobs, health
 
 

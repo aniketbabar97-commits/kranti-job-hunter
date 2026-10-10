@@ -30,6 +30,13 @@ queries:
   - "SAP CPQ"
   - "PIM Consultant"
 
+# Google searches for recruiter "we are hiring" posts on LinkedIn (needs SERPER_API_KEY).
+post_queries:
+  - 'site:linkedin.com/posts ("SAP Commerce" OR Hybris) (hiring OR "we are hiring" OR "looking for" OR "wir suchen")'
+  - 'site:linkedin.com/posts ("SAP CX" OR Spartacus OR "Composable Storefront" OR CCV2) (hiring OR "looking for" OR "wir suchen")'
+  - 'site:linkedin.com/posts ("Salesforce Commerce Cloud" OR SFCC OR commercetools OR Spryker) (hiring OR "looking for")'
+  - 'site:linkedin.com/posts ("SAP Commerce" OR Hybris) (Germany OR Deutschland OR remote) (job OR role OR position OR stelle)'
+
 # A job is kept only if its title or description contains one of these
 # (case-insensitive). Keeps noise out without dropping real openings.
 relevance_terms:
@@ -81,6 +88,6 @@ exclude_title_terms:
 locations:
   - "Germany"
 remote_location: "European Union"   # extra remote-only pass
-hours_old: 48          # how far back each run looks on JobSpy sources
+hours_old: 168         # how far back each run looks (7 days); jobs are still never sent twice
 results_per_query: 30
 min_score_in_digest: 0  # 0 = show everything, ranked
