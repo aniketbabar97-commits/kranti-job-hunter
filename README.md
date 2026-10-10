@@ -38,7 +38,8 @@ sales). The same job on several boards is shown once, and a job is never sent tw
 | `GROQ_API_KEY` | optional | Backup AI scorer. Without any AI key, keyword scoring is used |
 
 Test it: **Actions → Job hunt → Run workflow** (tick *Dry run* to only preview;
-the digest is attached to the run as an artifact).
+the digest is attached to the run as an artifact). Tick *Only send a test email*
+to check email delivery in under a minute.
 
 ## Files
 
