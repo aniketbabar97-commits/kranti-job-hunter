@@ -6,8 +6,9 @@ import os
 import re
 import sys
 import time
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -21,6 +22,7 @@ log = logging.getLogger("hunter")
 
 
 def key(job):
+    """Same job posted on several boards -> one key (title + company, gender tags stripped)."""
     norm = lambda s: re.sub(r"\(.*?\)|[^a-z0-9]", "", s.lower())
     return f"{norm(job['title'])}|{norm(job['company'])}"
 
@@ -35,31 +37,34 @@ def collect(cfg):
             jobs.extend(found)
             health[name] = (n + len(found), err)
         except Exception as e:
-            log.warning("%s %s failed: %s", name, args[0], e)
-            health[name] = (n, str(e)[:120])
+            log.warning("%s %r failed: %s", name, args[0], e)
+            health[name] = (n, str(e)[:150])
 
     days = max(1, cfg["hours_old"] // 24)
     for q in cfg["queries"]:
+        log.info("query: %s", q)
         run("Arbeitsagentur", sources.arbeitsagentur, q, days)
         for loc in cfg["locations"]:
-            run("LinkedIn/Indeed/Google (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"])
-        run("LinkedIn/Indeed/Google (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
+            run("LinkedIn/Indeed (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"])
+        run("LinkedIn/Indeed (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
             cfg["results_per_query"], True)
-        time.sleep(2)
+        time.sleep(3)
     return jobs, health
 
 
 def relevant(job, cfg):
     title = job["title"].lower()
-    text = f"{title} {job['description'].lower()}"
     if any(t in title for t in cfg["exclude_title_terms"]):
         return False
-    return any(t in text for t in cfg["relevance_terms"])
+    text = f"{title} {job['description'].lower()}"
+    return any(re.search(rf"\b{re.escape(t)}\b", text) for t in cfg["relevance_terms"])
 
 
 def main():
-    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    if os.getenv("QUERY_LIMIT"):  # for quick local tests
+        cfg["queries"] = cfg["queries"][: int(os.environ["QUERY_LIMIT"])]
     cv = (ROOT / "cv.md").read_text()
     seen = json.loads(SEEN.read_text()) if SEEN.exists() else {}
 
@@ -76,15 +81,18 @@ def main():
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
     digest.assign_sections(jobs)
 
-    now = datetime.now(timezone(timedelta(hours=2)))
-    label = now.strftime("%a %d %b %Y, %H:%M")
+    label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
     body = digest.build_html(jobs, health, label)
+    PREVIEW.parent.mkdir(exist_ok=True)
     PREVIEW.write_text(body)
+    if os.getenv("DRY_RUN"):
+        log.info("DRY_RUN: not emailing, not updating seen list")
+        return
     top = sum(1 for j in jobs if j["score"] >= 80)
-    if jobs and not os.getenv("DRY_RUN"):
-        if not digest.send(f"🎯 {len(jobs)} new jobs ({top} strong) — {label}", body):
-            log.error("Email not sent")
-            sys.exit(1)
+    subject = f"🎯 {len(jobs)} new jobs ({top} strong) — {label}" if jobs else f"No new jobs — {label}"
+    if not digest.send(subject, body):
+        log.error("Email not sent; seen list left unchanged so jobs show up next run")
+        sys.exit(1)
 
     today = date.today().isoformat()
     for k in new:

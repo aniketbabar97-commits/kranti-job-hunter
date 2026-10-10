@@ -1,0 +1,63 @@
+name: Job hunt
+
+on:
+  schedule:
+    - cron: "47 4 * * *"   # ~06:47 / 05:47 Berlin (summer / winter time)
+    - cron: "47 14 * * *"  # ~16:47 / 15:47 Berlin
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (no email, nothing saved)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-hunt
+  cancel-in-progress: false
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Search, score and email
+        env:
+          GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
+          RESEND_API_KEY:     ${{ secrets.RESEND_API_KEY }}
+          FROM_EMAIL:         ${{ secrets.FROM_EMAIL }}
+          TO_EMAIL:           ${{ secrets.TO_EMAIL }}
+          TO_EMAIL_2:         ${{ secrets.TO_EMAIL_2 }}
+          GMAIL_USER:         ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          DRY_RUN:            ${{ inputs.dry_run && '1' || '' }}
+        run: python -m hunter.main
+
+      - name: Upload digest preview
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest
+          path: data/last_digest.html
+          if-no-files-found: ignore
+
+      - name: Save seen jobs and log
+        if: success() && !inputs.dry_run
+        run: |
+          git config user.name "Job Hunter Bot"
+          git config user.email "bot@job-hunter"
+          git add data/seen.json data/jobs_log.csv
+          git diff --cached --quiet || git commit -m "jobs: $(date -u +%F\ %H:%M)"
+          git pull --rebase && git push

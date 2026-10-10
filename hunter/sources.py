@@ -55,13 +55,12 @@ def arbeitsagentur(query, days=2, max_pages=3):
 
 
 def jobspy(query, location, hours_old, results, remote_only=False):
-    """LinkedIn + Indeed + Google Jobs via the JobSpy library."""
+    """LinkedIn + Indeed via the JobSpy library."""
     from jobspy import scrape_jobs
 
     df = scrape_jobs(
-        site_name=["linkedin", "indeed", "google"],
+        site_name=["linkedin", "indeed"],
         search_term=query,
-        google_search_term=f"{query} jobs in {location} since yesterday",
         location=location,
         country_indeed="germany",
         is_remote=remote_only,

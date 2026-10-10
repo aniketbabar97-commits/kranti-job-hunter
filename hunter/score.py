@@ -9,8 +9,11 @@ import requests
 
 log = logging.getLogger(__name__)
 
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+# Model names get retired often, so if the preferred one is gone we pick the
+# best available one from the provider's model list at runtime.
+GEMINI_PREFS = [os.getenv("GEMINI_MODEL", ""), "gemini-2.5-flash", "gemini-flash-latest", "flash"]
+GROQ_PREFS = [os.getenv("GROQ_MODEL", ""), "openai/gpt-oss-120b", "llama-3.3-70b-versatile", "gpt-oss", "llama"]
+_models = {}
 BATCH = 15
 
 PROMPT = """You rate job postings for one candidate. Candidate profile:
@@ -41,10 +44,44 @@ def _keyword_score(job):
     return min(score, 100), "keyword match (AI scoring unavailable)"
 
 
+def _pick(available, prefs):
+    for p in filter(None, prefs):
+        if p in available:
+            return p
+        match = sorted(m for m in available if p in m)
+        if match:
+            return match[-1]
+    raise RuntimeError(f"no usable model among {available[:20]}")
+
+
+def _gemini_model(key):
+    if "gemini" not in _models:
+        r = requests.get("https://generativelanguage.googleapis.com/v1beta/models", params={"key": key, "pageSize": 200}, timeout=30)
+        r.raise_for_status()
+        names = [m["name"].removeprefix("models/") for m in r.json().get("models", [])
+                 if "generateContent" in m.get("supportedGenerationMethods", []) and "gemini" in m["name"]
+                 and not any(x in m["name"] for x in ("tts", "image", "live", "audio", "embedding"))]
+        _models["gemini"] = _pick(names, GEMINI_PREFS)
+        log.info("gemini model: %s", _models["gemini"])
+    return _models["gemini"]
+
+
+def _groq_model(key):
+    if "groq" not in _models:
+        r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": f"Bearer {key}"}, timeout=30)
+        r.raise_for_status()
+        names = [m["id"] for m in r.json()["data"] if m.get("active", True)
+                 and not any(x in m["id"] for x in ("guard", "whisper", "tts", "orpheus", "safeguard"))]
+        _models["groq"] = _pick(names, GROQ_PREFS)
+        log.info("groq model: %s", _models["groq"])
+    return _models["groq"]
+
+
 def _gemini(prompt):
     key = os.environ["GEMINI_API_KEY"]
+    model = _gemini_model(key)
     r = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
         params={"key": key},
         json={"contents": [{"parts": [{"text": prompt}]}],
               "generationConfig": {"responseMimeType": "application/json", "temperature": 0}},
@@ -56,10 +93,11 @@ def _gemini(prompt):
 
 def _groq(prompt):
     key = os.environ["GROQ_API_KEY"]
+    model = _groq_model(key)
     r = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {key}"},
-        json={"model": GROQ_MODEL, "temperature": 0,
+        json={"model": model, "temperature": 0,
               "messages": [{"role": "user", "content": prompt}]},
         timeout=90,
     )
@@ -82,11 +120,21 @@ def score_jobs(jobs, cv):
             for i, j in enumerate(batch))
         results = None
         for name, call in providers:
-            try:
-                results = _parse(call(PROMPT.format(cv=cv, jobs=listing)))
+            for attempt in range(3):
+                try:
+                    results = _parse(call(PROMPT.format(cv=cv, jobs=listing)))
+                    break
+                except requests.HTTPError as e:
+                    if e.response is not None and e.response.status_code == 429 and attempt < 2:
+                        time.sleep(30)  # free-tier rate limit, wait and retry
+                        continue
+                    log.warning("%s scoring failed: %s", name, e)
+                    break
+                except Exception as e:  # bad JSON, outage -> next provider
+                    log.warning("%s scoring failed: %s", name, e)
+                    break
+            if results:
                 break
-            except Exception as e:  # rate limit, bad JSON, outage -> next provider
-                log.warning("%s scoring failed: %s", name, e)
         for i, job in enumerate(batch):
             if results and i in results:
                 job["score"] = int(results[i].get("score", 0))

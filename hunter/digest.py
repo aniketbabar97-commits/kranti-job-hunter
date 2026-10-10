@@ -9,7 +9,7 @@ import requests
 
 log = logging.getLogger(__name__)
 
-SECTIONS = [(80, "🎯 Strong match"), (60, "👍 Good fit / can learn"), (0, "👀 Worth a look")]
+SECTIONS = [(80, "🎯 Strong match"), (60, "👍 Good fit / can learn"), (30, "👀 Worth a look"), (0, "🗂 Low match (titles only)")]
 
 
 def build_html(jobs, health, run_label):
@@ -19,6 +19,10 @@ def build_html(jobs, health, run_label):
     for floor, label in SECTIONS:
         group = [j for j in jobs if j.get("_section") == label]
         if not group:
+            continue
+        if label.startswith("🗂"):
+            out.append(f"<h3>{label} ({len(group)})</h3><p style='font-size:13px;color:#555'>" + "<br>".join(
+                f"{j['score']} · <a href='{e(j['url'])}'>{e(j['title'])}</a> — {e(j['company'])}" for j in group) + "</p>")
             continue
         out.append(f"<h3>{label} ({len(group)})</h3><table cellpadding='6' style='border-collapse:collapse;width:100%'>")
         for j in group:
@@ -46,25 +50,40 @@ def recipients():
     return [x.strip() for k in ("TO_EMAIL", "TO_EMAIL_2") for x in os.getenv(k, "").split(",") if x.strip()]
 
 
+def _resend(to, subject, body):
+    r = requests.post("https://api.resend.com/emails", timeout=30,
+                      headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"},
+                      json={"from": os.getenv("FROM_EMAIL") or "Job Hunter <onboarding@resend.dev>",
+                            "to": [to], "subject": subject, "html": body})
+    if not r.ok:
+        raise RuntimeError(f"Resend {r.status_code}: {r.text[:200]}")
+
+
+def _gmail(to, subject, body):
+    user = os.environ["GMAIL_USER"]
+    msg = MIMEText(body, "html", "utf-8")
+    msg["Subject"], msg["From"], msg["To"] = subject, user, to
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+        s.login(user, os.environ["GMAIL_APP_PASSWORD"])
+        s.send_message(msg)
+
+
 def send(subject, body):
-    to = recipients()
-    if not to:
-        log.warning("No TO_EMAIL set; skipping email")
+    """One email per recipient, so one bad address can't block the other. True if any arrived."""
+    senders = [(n, f) for n, f, k in [("resend", _resend, "RESEND_API_KEY"), ("gmail", _gmail, "GMAIL_APP_PASSWORD")]
+               if os.getenv(k)]
+    to_list = recipients()
+    if not to_list or not senders:
+        log.error("Missing TO_EMAIL or email credentials (RESEND_API_KEY / GMAIL_APP_PASSWORD)")
         return False
-    if os.getenv("RESEND_API_KEY"):
-        r = requests.post("https://api.resend.com/emails", timeout=30,
-                          headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"},
-                          json={"from": os.getenv("FROM_EMAIL", "Job Hunter <onboarding@resend.dev>"),
-                                "to": to, "subject": subject, "html": body})
-        if r.ok:
-            return True
-        log.warning("Resend failed (%s): %s", r.status_code, r.text[:300])
-    if os.getenv("GMAIL_APP_PASSWORD"):
-        user = os.environ["GMAIL_USER"]
-        msg = MIMEText(body, "html", "utf-8")
-        msg["Subject"], msg["From"], msg["To"] = subject, user, ", ".join(to)
-        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
-            s.login(user, os.environ["GMAIL_APP_PASSWORD"])
-            s.send_message(msg)
-        return True
-    return False
+    sent = 0
+    for to in to_list:
+        for name, fn in senders:
+            try:
+                fn(to, subject, body)
+                log.info("emailed %s via %s", to, name)
+                sent += 1
+                break
+            except Exception as e:
+                log.warning("%s -> %s failed: %s", name, to, e)
+    return sent > 0
