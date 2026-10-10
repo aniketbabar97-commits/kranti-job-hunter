@@ -1,6 +1,9 @@
 """Job sources. Each returns a list of normalized job dicts."""
 import logging
+import os
+import re
 import time
+from datetime import date, timedelta
 
 import requests
 
@@ -79,4 +82,39 @@ def jobspy(query, location, hours_old, results, remote_only=False):
             row["job_url"], row["date_posted"], row.get("is_remote") is True,
             row.get("description", ""), salary,
         ))
+    return jobs
+
+
+def _relative_date(text):
+    """'4 days ago' / '3 hours ago' / 'Oct 6, 2026' -> ISO date ('' if unknown)."""
+    m = re.match(r"(\d+)\s+(minute|hour|day|week|month)s?\s+ago", text or "")
+    if not m:
+        return ""
+    n, unit = int(m.group(1)), m.group(2)
+    days = {"minute": 0, "hour": 0, "day": n, "week": 7 * n, "month": 30 * n}[unit]
+    return (date.today() - timedelta(days=days)).isoformat()
+
+
+def linkedin_posts(query, days=7):
+    """Recruiter/hiring posts on LinkedIn, found through Google via Serper.dev (needs SERPER_API_KEY)."""
+    key = os.environ["SERPER_API_KEY"]
+    tbs = {1: "qdr:d", 7: "qdr:w"}.get(days, "qdr:w")
+    r = requests.post("https://google.serper.dev/search", timeout=30,
+                      headers={"X-API-KEY": key, "Content-Type": "application/json"},
+                      json={"q": query, "tbs": tbs, "num": 20})
+    r.raise_for_status()
+    jobs = []
+    for it in r.json().get("organic", []):
+        if "linkedin.com/posts" not in it.get("link", "") and "linkedin.com/feed" not in it.get("link", ""):
+            continue
+        title = it.get("title", "")
+        # Google titles look like "#hiring SAP Commerce Architect ... | Jane Doe" or "Jane Doe's Post - LinkedIn"
+        author = ""
+        m = re.search(r"\|\s*([^|]+?)\s*(?:- LinkedIn)?$", title) or re.match(r"(.+?)'s Post", title)
+        if m:
+            author = m.group(1).strip()
+        snippet = it.get("snippet", "")
+        headline = re.sub(r"\s*\|[^|]*$|'s Post.*$|\s*- LinkedIn$", "", title).strip() or snippet[:90]
+        jobs.append(_job("LinkedIn post", f"[Post] {headline}", author or "LinkedIn recruiter post", "",
+                         it["link"], _relative_date(it.get("date", "")), "remote" in snippet.lower(), snippet))
     return jobs

@@ -3,6 +3,7 @@ import html
 import logging
 import os
 import smtplib
+from datetime import date
 from email.mime.text import MIMEText
 
 import requests
@@ -12,24 +13,43 @@ log = logging.getLogger(__name__)
 SECTIONS = [(80, "🎯 Strong match"), (60, "👍 Good fit / can learn"), (30, "👀 Worth a look"), (0, "🗂 Low match (titles only)")]
 
 
+AGES = [(1, "🆕 ≤1 day"), (3, "2–3 days"), (7, "4–7 days"), (10**6, "7+ days")]
+
+
+def age_label(job):
+    try:
+        days = (date.today() - date.fromisoformat(job["posted"][:10])).days
+    except ValueError:
+        return "date unknown"
+    return next(label for limit, label in AGES if days <= limit)
+
+
+def _age_rank(job):
+    labels = [label for _, label in AGES] + ["date unknown"]
+    return labels.index(age_label(job))
+
+
 LANGS = [("en", "🇬🇧 English-speaking jobs"), ("de", "🇩🇪 German-speaking jobs")]
 
 
 def _render_group(out, jobs, e):
     for floor, label in SECTIONS:
-        group = [j for j in jobs if j.get("_section") == label]
+        group = sorted((j for j in jobs if j.get("_section") == label), key=lambda j: (_age_rank(j), -j["score"]))
         if not group:
             continue
         if label.startswith("🗂"):
             out.append(f"<h4>{label} ({len(group)})</h4><p style='font-size:13px;color:#555'>" + "<br>".join(
-                f"{j['score']} · <a href='{e(j['url'])}'>{e(j['title'])}</a> — {e(j['company'])}" for j in group) + "</p>")
+                f"{j['score']} · {age_label(j)} · <a href='{e(j['url'])}'>{e(j['title'])}</a> — {e(j['company'])}" for j in group) + "</p>")
             continue
         out.append(f"<h4>{label} ({len(group)})</h4><table cellpadding='6' style='border-collapse:collapse;width:100%'>")
         for j in group:
+            age = age_label(j)
+            badge_bg = "#d4f5d4" if age.startswith("🆕") else "#eee"
             tags = " · ".join(x for x in [j["location"], "🏠 remote/hybrid" if j["remote"] else "", j["salary"], j["source"], j["posted"]] if x)
             out.append(
                 f"<tr style='border-bottom:1px solid #ddd'><td style='width:42px;font-weight:bold;font-size:18px'>{j['score']}</td>"
-                f"<td><a href='{e(j['url'])}' style='font-weight:bold'>{e(j['title'])}</a><br>"
+                f"<td><span style='background:{badge_bg};border-radius:4px;padding:1px 6px;font-size:12px'>{age}</span> "
+                f"<a href='{e(j['url'])}' style='font-weight:bold'>{e(j['title'])}</a><br>"
                 f"<b>{e(j['company'])}</b> — <span style='color:#555'>{e(tags)}</span><br>"
                 f"<i style='color:#333'>{e(j.get('why', ''))}</i></td></tr>")
         out.append("</table>")
@@ -38,10 +58,15 @@ def _render_group(out, jobs, e):
 def build_html(jobs, health, run_label):
     e = html.escape
     counts = {code: sum(1 for j in jobs if j.get("lang", "de") == code) for code, _ in LANGS}
+    age_counts = {label: 0 for _, label in AGES}
+    age_counts["date unknown"] = 0
+    for j in jobs:
+        age_counts[age_label(j)] += 1
     out = [f"<div style='font-family:Arial,sans-serif;max-width:760px'>"
            f"<h2>Job digest — {e(run_label)}</h2>"
            f"<p>{len(jobs)} new openings, ranked by fit: "
-           f"<a href='#en'>{counts['en']} English-speaking</a> · <a href='#de'>{counts['de']} German-speaking</a>.</p>"]
+           f"<a href='#en'>{counts['en']} English-speaking</a> · <a href='#de'>{counts['de']} German-speaking</a>.<br>"
+           "By age: " + " · ".join(f"{label}: {n}" for label, n in age_counts.items() if n) + "</p>"]
     for code, title in LANGS:
         group = [j for j in jobs if j.get("lang", "de") == code]
         out.append(f"<h2 id='{code}' style='border-bottom:3px solid #333;padding-top:12px'>{title} ({len(group)})</h2>")
