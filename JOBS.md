@@ -1,13 +1,13 @@
-# Job record — every job sent (512)
+# Job record — every job sent (517)
 
 _Updated 2026-10-11. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel._
 
-- [🇬🇧 English-speaking jobs (463)](#english)
-- [🇩🇪 German-speaking jobs (49)](#german)
+- [🇬🇧 English-speaking jobs (466)](#english)
+- [🇩🇪 German-speaking jobs (51)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (463)
+## 🇬🇧 English-speaking jobs (466)
 
 ### 🎯 Strong match (36)
 
@@ -50,10 +50,11 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 80 | 🆕 ≤1 day | [[Post] React PWA & Salesforce Commerce Cloud (SFCC) ...](https://www.linkedin.com/posts/runmapglobal_react-pwa-salesforce-commerce-cloud-sfcc-activity-7513855697059643392-GC7C) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-10-10 | React PWA & Salesforce Commerce Cloud developer, relevant e‑commerce platform |
 | 80 | 🆕 ≤1 day | [[Post] Ambika Sandhil](https://www.linkedin.com/posts/sandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9) | Ambika Sandhil |  | 🏠 | LinkedIn post | 2026-10-10 | Remote SFCC React/PWA developer, good technical fit with no location penalty. |
 
-### 👍 Good fit / can learn (100)
+### 👍 Good fit / can learn (101)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 65 | 🆕 ≤1 day | [[Post] #hiring](https://www.linkedin.com/posts/woger-trading-b.v._hiring-activity-7514647272127774720-wV3v) | vidaXL |  |  | LinkedIn post | 2026-10-11 | Senior SFCC developer matches adjacent e‑commerce tech skills, but the job is in India and not remote. |
 | 78 | 🆕 ≤1 day | [Product Owner Shops & Punchout (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003629050-S) | Noerr Solutions GmbH Co. KG | Würzburg, Bayern | 🏠 | Arbeitsagentur | 2026-10-10 | Product Owner for shops & punchout, aligns with e‑commerce product ownership experience. |
 | 78 | 🆕 ≤1 day | [Senior Full Stack Developer (m/f/d) E-Commerce](https://www.linkedin.com/jobs/view/4432570494) | BIRKENSTOCK | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 | Senior full‑stack e‑commerce developer fits her Java/backend experience. |
 | 78 | 🆕 ≤1 day | [(Senior) Consultant & Project Manager (m/w/d)](https://de.indeed.com/viewjob?jk=84e7852861b5f0cf) | foobar Agency | München, BY, Germany |  | Indeed | 2026-10-10 | Consultant & Project Manager in commerce fits the 75‑89 band for functional/technical consulting. |
@@ -155,7 +156,7 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 60 | 🆕 ≤1 day | [Solution Architect – Digital eCommerce](https://www.linkedin.com/jobs/view/4475532137) | Opella | Barcelona, Catalonia, Spain |  | Linkedin | 2026-10-10 | Adjacent e-commerce solution architect position, but located in Spain without remote status (-15 penalty). |
 | 60 | 🆕 ≤1 day | [Lead Developer, eCommerce (Helsinki)](https://www.linkedin.com/jobs/view/4474679426) | Elisa | Helsinki, Southwest Finland, Finland |  | Linkedin | 2026-10-10 | Relevant e-commerce developer lead role, but located on-site in Finland. |
 
-### 👀 Worth a look (209)
+### 👀 Worth a look (210)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
@@ -368,8 +369,9 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 30 | 🆕 ≤1 day | [Head of Digital (m/f/d)](https://de.indeed.com/viewjob?jk=5d1e7e7c14e8e0fd) | VETSAK | Düsseldorf, NW, Germany |  | Indeed | 2026-10-10 | Digital leadership/marketing role rather than commerce technical engineering. |
 | 30 | 🆕 ≤1 day | [Manager E-Commerce Kijimea](https://www.linkedin.com/jobs/view/4456851591) | Kijimea (SYNformulas GmbH) | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 | Commercial e-commerce management role with no technical or development focus. |
 | 30 | 🆕 ≤1 day | [E-Commerce Junior Content Manager / Product Data Manager (d/w/m)](https://www.linkedin.com/jobs/view/4473666879) | Procommerce Group GmbH | Essen, North Rhine-Westphalia, Germany |  | Linkedin | 2026-10-10 | Junior content/product data manager, not a development role |
+| 30 | 4–7 days | [Brand Manager - House of Suntory](https://de.indeed.com/viewjob?jk=62b3bc4b1b7c9a21) | Suntory Global Spirits | Frankfurt am Main, HE, Germany |  | Indeed | 2026-10-11 | Brand manager is a marketing role with no technical e‑commerce focus. |
 
-### 🗂 Low match (titles only) (118)
+### 🗂 Low match (titles only) (119)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
@@ -491,10 +493,11 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 0 | 🆕 ≤1 day | [Servicemitarbeiter*in (m/w/d) auf der Raststätte Helmstedt Süd](https://de.indeed.com/viewjob?jk=fdc3d68e5a193072) | Höckelmann Systemgastronomiebetriebe GmbH | Helmstedt, NI, Germany |  | Indeed | 2026-10-10 | Gastronomy service staff role, completely irrelevant to software engineering. |
 | 0 | 🆕 ≤1 day | [Mitarbeiter Kundenservice & Office Management (w/m/d)](https://de.indeed.com/viewjob?jk=40e37f64d7cbffc2) | VanDeBord GmbH | Alzenau in Unterfranken, BY, Germany |  | Indeed | 2026-10-10 | Customer service and office management role, completely irrelevant. |
 | 0 | 🆕 ≤1 day | [[Post] Beitrag von Prof. Dr. Kristina Wolff](https://de.linkedin.com/posts/prof-dr-kristina-wolff_femizide-svriforum2026-endvawg-activity-7513780596935086080-quq7) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-10-10 | German‑language post about Hybris, not a job listing. |
+| 5 | 4–7 days | [E-Commerce Amazon Specialist](https://www.linkedin.com/jobs/view/4474260557) | Nected Ricerca e Selezione | Treviso, Veneto, Italy |  | Linkedin | 2026-10-11 | Amazon marketplace specialist role is unrelated to SAP Commerce development and is outside Germany. |
 
 <a id="german"></a>
 
-## 🇩🇪 German-speaking jobs (49)
+## 🇩🇪 German-speaking jobs (51)
 
 ### 🎯 Strong match (4)
 
@@ -548,10 +551,12 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 30 | 🆕 ≤1 day | [Kaufmännischer Mitarbeiter (m/w/d) im Bereich E-Commerce und Online-Marketing](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003801313-S) | JUNG since 1828 GmbH & Co. KG | Vaihingen an der Enz, Baden-Wuerttemberg | 🏠 | Arbeitsagentur | 2026-10-10 | Kaufmännischer (commercial) role with e‑commerce focus, lacking technical responsibilities. |
 | 30 | 🆕 ≤1 day | [Kundenberater m/w/d digitale Werbung in Teilzeit](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003407690-S) | FLYERALARM GmbH | Würzburg, Bayern |  | Arbeitsagentur | 2026-10-10 | Digital advertising advisory role, not a technical e‑commerce position. |
 
-### 🗂 Low match (titles only) (12)
+### 🗂 Low match (titles only) (14)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 25 | 🆕 ≤1 day | [Online Shop Betreuer/in (m/w/d) gesucht](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003837781-S) | Marcus Broszio e.K. Kappauf & Gross Juweliere | Berlin, Berlin |  | Arbeitsagentur | 2026-10-11 | Shop caretaker position in Berlin is loosely related and requires fluent German, which the candidate lacks. |
+| 25 | 🆕 ≤1 day | [Senior E-Commerce & Performance Marketing Manager (m/w/d)](https://www.linkedin.com/jobs/view/4478310049) | Storz & Bickel GmbH | Tuttlingen, Baden-Württemberg, Germany |  | Linkedin | 2026-10-11 | Performance‑marketing manager role is not technical and likely needs fluent German. |
 | 25 | 🆕 ≤1 day | [Online-Shop und Marketplace Manager mit Schwerpunkt Amazon (w/m/d)](https://de.indeed.com/viewjob?jk=59b585b54d7b14ec) | Terra Canis GmbH | München, BY, Germany |  | Indeed | 2026-10-10 | Amazon marketplace and online merchandising role, not software development. |
 | 25 | 🆕 ≤1 day | [Senior E-Commerce Consultant Deutschland (all genders)](https://www.linkedin.com/jobs/view/4318352811) | Remazing | Hamburg, Hamburg, Germany |  | Linkedin | 2026-10-10 | Amazon marketplace and advertising consulting role requiring German, not a tech role. |
 | 25 | 🆕 ≤1 day | [Junior Softwareentwickler Robotics & Automatisierung (m/w/x)](https://de.indeed.com/viewjob?jk=557de51c02dea7e4) | Arvato | Gütersloh, NW, Germany |  | Indeed | 2026-10-10 | Junior robotics and warehouse automation development role outside her e-commerce and SAP CX focus. |
