@@ -1,5 +1,4 @@
 """Run all searches, keep new relevant jobs, score them, email the digest."""
-import csv
 import json
 import logging
 import os
@@ -12,11 +11,10 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import digest, score, sources
+from . import digest, report, score, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
-LOG = ROOT / "data" / "jobs_log.csv"
 PREVIEW = ROOT / "data" / "last_digest.html"
 log = logging.getLogger("hunter")
 
@@ -111,13 +109,7 @@ def main():
         seen[k] = today
     cutoff = (date.today() - timedelta(days=90)).isoformat()
     SEEN.write_text(json.dumps({k: v for k, v in seen.items() if v >= cutoff}, indent=0, sort_keys=True))
-    write_header = not LOG.exists()
-    with LOG.open("a", newline="") as f:
-        w = csv.writer(f)
-        if write_header:
-            w.writerow(["found", "score", "title", "company", "location", "remote", "source", "url", "why"])
-        for j in jobs:
-            w.writerow([today, j["score"], j["title"], j["company"], j["location"], j["remote"], j["source"], j["url"], j["why"]])
+    report.build_report(report.append_log(jobs, today))
 
 
 if __name__ == "__main__":
