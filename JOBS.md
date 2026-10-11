@@ -1,18 +1,19 @@
-# Job record — every job sent (517)
+# Job record — every job sent (523)
 
 _Updated 2026-10-11. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel._
 
-- [🇬🇧 English-speaking jobs (466)](#english)
+- [🇬🇧 English-speaking jobs (472)](#english)
 - [🇩🇪 German-speaking jobs (51)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (466)
+## 🇬🇧 English-speaking jobs (472)
 
-### 🎯 Strong match (36)
+### 🎯 Strong match (37)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 80 | 🆕 ≤1 day | [[Post] Dimpal G.](https://www.linkedin.com/posts/dimpalg_tech-mahindra-is-hiring-junior-sap-basis-activity-7514344594596179968-BgDY) | Dimpal G. |  |  | LinkedIn post | 2026-10-11 | Post mentions SAP Hybris career opportunities matching your core skillset, though lacking full job details. |
 | 95 | 🆕 ≤1 day | [Senior SAP Commerce Cloud/Hybris Developer (all genders)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003747124-S) | Maify GmbH | Sauldorf, Baden-Wuerttemberg | 🏠 | Arbeitsagentur | 2026-10-10 | Exact SAP Commerce Cloud developer role, remote and no German fluency required. |
 | 95 | 🆕 ≤1 day | [Senior SAP CX Consultant (all genders)](https://www.linkedin.com/jobs/view/3733041021) | adesso SE | Stuttgart, Baden-Württemberg, Germany |  | Linkedin | 2026-10-10 | Senior SAP CX Consultant matches core SAP Commerce expertise. |
 | 95 | 🆕 ≤1 day | [SAP CX Developer](https://www.linkedin.com/jobs/view/4476152874) | CX Rocket | Baden-Württemberg, Germany |  | Linkedin | 2026-10-10 | Direct fit for SAP CX / Commerce Cloud developer role based in Baden-Württemberg. |
@@ -50,11 +51,13 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 80 | 🆕 ≤1 day | [[Post] React PWA & Salesforce Commerce Cloud (SFCC) ...](https://www.linkedin.com/posts/runmapglobal_react-pwa-salesforce-commerce-cloud-sfcc-activity-7513855697059643392-GC7C) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-10-10 | React PWA & Salesforce Commerce Cloud developer, relevant e‑commerce platform |
 | 80 | 🆕 ≤1 day | [[Post] Ambika Sandhil](https://www.linkedin.com/posts/sandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9) | Ambika Sandhil |  | 🏠 | LinkedIn post | 2026-10-10 | Remote SFCC React/PWA developer, good technical fit with no location penalty. |
 
-### 👍 Good fit / can learn (101)
+### 👍 Good fit / can learn (104)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 70 | 🆕 ≤1 day | [[Post] Dimpal G. - SAP Jobs](https://www.linkedin.com/posts/dimpalg_sap-jobs-activity-7514362374255071232-Th_h) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-10-11 | SAP Hybris role directly matches your domain, though targeted primarily at freshers rather than experienced developers. |
 | 65 | 🆕 ≤1 day | [[Post] #hiring](https://www.linkedin.com/posts/woger-trading-b.v._hiring-activity-7514647272127774720-wV3v) | vidaXL |  |  | LinkedIn post | 2026-10-11 | Senior SFCC developer matches adjacent e‑commerce tech skills, but the job is in India and not remote. |
+| 60 | 🆕 ≤1 day | [Senior IT Consultant eCommerce - AI solutions (Fashion)](https://www.linkedin.com/jobs/view/4440756135) | Metyis | Porto, Portugal |  | Linkedin | 2026-10-11 | Relevant e-commerce IT consultancy role, but based on-site in Portugal without remote work. |
 | 78 | 🆕 ≤1 day | [Product Owner Shops & Punchout (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003629050-S) | Noerr Solutions GmbH Co. KG | Würzburg, Bayern | 🏠 | Arbeitsagentur | 2026-10-10 | Product Owner for shops & punchout, aligns with e‑commerce product ownership experience. |
 | 78 | 🆕 ≤1 day | [Senior Full Stack Developer (m/f/d) E-Commerce](https://www.linkedin.com/jobs/view/4432570494) | BIRKENSTOCK | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 | Senior full‑stack e‑commerce developer fits her Java/backend experience. |
 | 78 | 🆕 ≤1 day | [(Senior) Consultant & Project Manager (m/w/d)](https://de.indeed.com/viewjob?jk=84e7852861b5f0cf) | foobar Agency | München, BY, Germany |  | Indeed | 2026-10-10 | Consultant & Project Manager in commerce fits the 75‑89 band for functional/technical consulting. |
@@ -123,6 +126,7 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 63 | 🆕 ≤1 day | [Senior Product Manager E-Commerce - VacanceSelect Travel - Breda](https://www.linkedin.com/jobs/view/4474710866) | VacanceSelect Travel | Breda, North Brabant, Netherlands |  | Linkedin | 2026-10-10 | Senior e‑commerce product manager fits but is outside Germany |
 | 63 | 🆕 ≤1 day | [Solution Architect – Digital & E-commerce](https://www.linkedin.com/jobs/view/4430380849) | Toyota Motor Europe | Evere, Brussels Region, Belgium |  | Linkedin | 2026-10-10 | Solution architect for digital e‑commerce at Toyota is a senior technical role but located outside Germany, reducing fit. |
 | 63 | 🆕 ≤1 day | [[Post] Muskaan Khatoon posted this](https://www.linkedin.com/posts/muskaan811_hiring-reactjs-pwa-activity-7514192251208544256-vTbU) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-10-10 | SFCC React/PWA developer in Bengaluru, relevant tech but location outside Germany. |
+| 63 | 🆕 ≤1 day | [E-commerce Solutions Lead](https://www.linkedin.com/jobs/view/4467875847) | UNIQA CZ | Praha - východ, Central Bohemia, Czech Republic |  | Linkedin | 2026-10-11 | Strong e-commerce technical leadership role, but located in Czech Republic with no remote option. |
 | 62 | 🆕 ≤1 day | [Global E-Business Operations Manager (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18847-44470704-928-S) | Innomotics GmbH | Nürnberg, Mittelfranken, Bayern |  | Arbeitsagentur | 2026-10-10 | Global e‑business operations manager, broader scope but still e‑commerce related. |
 | 62 | 🆕 ≤1 day | [SAP CPQ Business Analyst](https://www.linkedin.com/jobs/view/4361977281) | Sanoma Learning | Madrid, Community of Madrid, Spain |  | Linkedin | 2026-10-10 | SAP CX functional/analyst role aligned with SAP skills, but located on-site in Spain. |
 | 60 | 🆕 ≤1 day | [Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d)](https://de.indeed.com/viewjob?jk=32068315169fd3f2) | Severin H. | Sundern, NW, Germany |  | Indeed | 2026-10-10 | Senior IT manager for digital platforms – generic IT, not SAP‑specific, with German language requirement. |
@@ -156,10 +160,11 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 60 | 🆕 ≤1 day | [Solution Architect – Digital eCommerce](https://www.linkedin.com/jobs/view/4475532137) | Opella | Barcelona, Catalonia, Spain |  | Linkedin | 2026-10-10 | Adjacent e-commerce solution architect position, but located in Spain without remote status (-15 penalty). |
 | 60 | 🆕 ≤1 day | [Lead Developer, eCommerce (Helsinki)](https://www.linkedin.com/jobs/view/4474679426) | Elisa | Helsinki, Southwest Finland, Finland |  | Linkedin | 2026-10-10 | Relevant e-commerce developer lead role, but located on-site in Finland. |
 
-### 👀 Worth a look (210)
+### 👀 Worth a look (211)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 55 | 🆕 ≤1 day | [Product Manager Ecommerce UX & CRO](https://www.linkedin.com/jobs/view/4440264080) | Montblanc | Hamburg, Hamburg, Germany |  | Linkedin | 2026-10-11 | E-commerce product role in Germany, though focused on UX and conversion optimization rather than backend architecture. |
 | 45 | 🆕 ≤1 day | [E-Commerce Manager (m/w/d) Shopware](https://www.linkedin.com/jobs/view/4476326108) | Instaffo | Fellbach, Baden-Württemberg, Germany |  | Linkedin | 2026-10-11 | Shopware e-commerce management role in German requiring likely German fluency, loosely fitting a technical SAP developer. |
 | 45 | 🆕 ≤1 day | [Full-Stack Web/E-Commerce Developer](https://www.linkedin.com/jobs/view/4475451072) | Addendum | Vilnius, Vilniaus, Lithuania |  | Linkedin | 2026-10-11 | Generic full-stack e-commerce role located on-site in Lithuania without remote option. |
 | 40 | 🆕 ≤1 day | [E-Commerce-Manager](https://www.linkedin.com/jobs/view/4475566793) | MangiaMarc | Oberursel, Hesse, Germany |  | Linkedin | 2026-10-11 | Operational e-commerce manager role in German rather than software engineering. |
@@ -371,10 +376,11 @@ _Updated 2026-10-11. Grouped like the email: language → fit score; newest firs
 | 30 | 🆕 ≤1 day | [E-Commerce Junior Content Manager / Product Data Manager (d/w/m)](https://www.linkedin.com/jobs/view/4473666879) | Procommerce Group GmbH | Essen, North Rhine-Westphalia, Germany |  | Linkedin | 2026-10-10 | Junior content/product data manager, not a development role |
 | 30 | 4–7 days | [Brand Manager - House of Suntory](https://de.indeed.com/viewjob?jk=62b3bc4b1b7c9a21) | Suntory Global Spirits | Frankfurt am Main, HE, Germany |  | Indeed | 2026-10-11 | Brand manager is a marketing role with no technical e‑commerce focus. |
 
-### 🗂 Low match (titles only) (119)
+### 🗂 Low match (titles only) (120)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Why |
 |---:|---|---|---|---|---|---|---|---|
+| 20 | 🆕 ≤1 day | [E-commerce Manager](https://www.linkedin.com/jobs/view/4475651907) | David Naman | Rome, Latium, Italy |  | Linkedin | 2026-10-11 | Non-technical brand e-commerce operations manager role located on-site in Italy. |
 | 15 | 🆕 ≤1 day | [E-COMMERCE MERCHANDISER, SENIOR SPECIALIST](https://www.linkedin.com/jobs/view/4475811847) | MANGO | Palau-solità i Plegamans, Catalonia, Spain |  | Linkedin | 2026-10-11 | Non-technical merchandising role located on-site in Spain. |
 | 0 | 🆕 ≤1 day | [Marketing Instructor for Weiterbildung Program (Russian Speaker)](https://de.indeed.com/viewjob?jk=26e723ccf573e0ad) | ABI | Berlin, BE, Germany | 🏠 | Indeed | 2026-10-11 | Marketing instructor role requiring Russian language, completely irrelevant to SAP commerce development. |
 | 25 | 🆕 ≤1 day | [Mitarbeiter Kundenbetreuung E-Commerce (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/18384-NITMJFKGU2KNCQPZ-S) | adesta GmbH & Co. KG | Bensheim, Hessen |  | Arbeitsagentur | 2026-10-10 | Customer‑service position, no development responsibilities. |
