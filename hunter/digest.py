@@ -61,7 +61,8 @@ def _record_links():
     if not repo:
         return ""
     base = f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}"
-    links = [f"<a href='{base}/blob/main/data/jobs_log.csv'>📒 Full record of every job sent (searchable)</a>"]
+    links = [f"<a href='{base}/blob/main/JOBS.md'>📒 Full record of every job sent (sorted)</a>",
+             f"<a href='{base}/blob/main/data/jobs_log.csv'>spreadsheet</a>"]
     if os.getenv("GITHUB_RUN_ID"):
         links.append(f"<a href='{base}/actions/runs/{os.environ['GITHUB_RUN_ID']}'>this run's log</a>")
     return "<p style='background:#f3f3f3;padding:8px;border-radius:6px'>" + " · ".join(links) + "</p>"
