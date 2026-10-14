@@ -32,67 +32,80 @@ def _age_rank(job):
 LANGS = [("en", "🇬🇧 English-speaking jobs"), ("de", "🇩🇪 German-speaking jobs")]
 
 
-def _render_group(out, jobs, e):
-    for floor, label in SECTIONS:
-        group = sorted((j for j in jobs if j.get("_section") == label), key=lambda j: (_age_rank(j), -j["score"]))
-        if not group:
-            continue
-        if label.startswith("🗂"):
-            out.append(f"<h4>{label} ({len(group)})</h4><p style='font-size:13px;color:#555'>" + "<br>".join(
-                f"{j['score']} · {age_label(j)} · <a href='{e(j['url'])}'>{e(j['title'])}</a> — {e(j['company'])}" for j in group) + "</p>")
-            continue
-        out.append(f"<h4>{label} ({len(group)})</h4><table cellpadding='6' style='border-collapse:collapse;width:100%'>")
-        for j in group:
-            age = age_label(j)
-            badge_bg = "#d4f5d4" if age.startswith("🆕") else "#eee"
-            tags = " · ".join(x for x in [j["location"], "🏠 remote/hybrid" if j["remote"] else "", j["salary"], j["source"], j["posted"]] if x)
-            out.append(
-                f"<tr style='border-bottom:1px solid #ddd'><td style='width:42px;font-weight:bold;font-size:18px'>{j['score']}</td>"
-                f"<td><span style='background:{badge_bg};border-radius:4px;padding:1px 6px;font-size:12px'>{age}</span> "
-                f"<a href='{e(j['url'])}' style='font-weight:bold'>{e(j['title'])}</a><br>"
-                f"<b>{e(j['company'])}</b> — <span style='color:#555'>{e(tags)}</span><br>"
-                f"<i style='color:#333'>{e(j.get('why', ''))}</i></td></tr>")
-        out.append("</table>")
+CARD_MIN = 60  # jobs below this are only counted in the email and listed in the full record
+
+
+def _base_url():
+    repo = os.getenv("GITHUB_REPOSITORY")
+    return f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}" if repo else ""
+
+
+def _card(j, e):
+    strong = j["score"] >= 80
+    color = "#1a7f37" if strong else "#0969da"
+    age = age_label(j)
+    lang = "English OK" if j.get("lang") == "en" else "German needed"
+    meta = " · ".join(x for x in [j["location"], "🏠 Remote/hybrid" if j["remote"] else "", j["salary"]] if x)
+    badges = "".join(
+        f"<span style='display:inline-block;background:{bg};color:#24292f;border-radius:10px;padding:2px 8px;"
+        f"margin:0 4px 4px 0;font-size:12px'>{e(t)}</span>"
+        for t, bg in [(age, "#dafbe1" if age.startswith("🆕") else "#eaeef2"), (lang, "#eaeef2"), (j["source"], "#eaeef2")])
+    return (
+        "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='border:1px solid #d0d7de;"
+        "border-radius:8px;margin:0 0 12px 0;border-collapse:separate'><tr>"
+        f"<td width='56' valign='top' style='padding:14px 0 14px 14px'><div style='width:44px;height:44px;line-height:44px;"
+        f"border-radius:22px;background:{color};color:#fff;text-align:center;font-weight:bold;font-size:16px'>{j['score']}</div></td>"
+        "<td valign='top' style='padding:12px 14px 12px 10px;font-family:Arial,sans-serif'>"
+        f"<a href='{e(j['url'])}' style='font-size:16px;font-weight:bold;color:#24292f;text-decoration:none'>{e(j['title'])}</a>"
+        f"<div style='font-size:14px;color:#24292f;margin:3px 0'><b>{e(j['company'])}</b></div>"
+        f"<div style='font-size:13px;color:#57606a;margin-bottom:6px'>{e(meta)}</div>"
+        f"<div>{badges}</div>"
+        f"<div style='font-size:13px;color:#24292f;margin:4px 0 10px 0'>✔ {e(j.get('why', ''))}</div>"
+        f"<a href='{e(j['url'])}' style='display:inline-block;background:{color};color:#fff;text-decoration:none;"
+        "padding:6px 14px;border-radius:6px;font-size:13px;font-weight:bold'>Open job →</a>"
+        "</td></tr></table>")
 
 
 def _record_links():
-    """Links to the full job history and this run on GitHub (env vars set by GitHub Actions)."""
-    repo = os.getenv("GITHUB_REPOSITORY")
-    if not repo:
+    base = _base_url()
+    if not base:
         return ""
-    base = f"{os.getenv('GITHUB_SERVER_URL', 'https://github.com')}/{repo}"
-    links = [f"<a href='{base}/blob/main/JOBS.md'>📒 Full record of every job sent (sorted)</a>",
-             f"<a href='{base}/blob/main/data/jobs_log.csv'>spreadsheet</a>"]
+    links = [f"<a href='{base}/blob/main/JOBS.md' style='color:#0969da'>📒 Full record of every job (sorted)</a>",
+             f"<a href='{base}/blob/main/data/jobs_log.csv' style='color:#0969da'>spreadsheet</a>"]
     if os.getenv("GITHUB_RUN_ID"):
-        links.append(f"<a href='{base}/actions/runs/{os.environ['GITHUB_RUN_ID']}'>this run's log</a>")
-    return "<p style='background:#f3f3f3;padding:8px;border-radius:6px'>" + " · ".join(links) + "</p>"
+        links.append(f"<a href='{base}/actions/runs/{os.environ['GITHUB_RUN_ID']}' style='color:#0969da'>run log</a>")
+    return ("<p style='background:#f6f8fa;padding:10px;border-radius:6px;font-size:13px;font-family:Arial,sans-serif'>"
+            + " · ".join(links) + "</p>")
+
+
+def summary(jobs):
+    strong = sum(1 for j in jobs if j["score"] >= 80)
+    good = sum(1 for j in jobs if CARD_MIN <= j["score"] < 80)
+    return strong, good, len(jobs) - strong - good
 
 
 def build_html(jobs, health, run_label):
     e = html.escape
-    counts = {code: sum(1 for j in jobs if j.get("lang", "de") == code) for code, _ in LANGS}
-    age_counts = {label: 0 for _, label in AGES}
-    age_counts["date unknown"] = 0
-    for j in jobs:
-        age_counts[age_label(j)] += 1
-    out = [f"<div style='font-family:Arial,sans-serif;max-width:760px'>"
-           f"<h2>Job digest — {e(run_label)}</h2>"
-           f"<p>{len(jobs)} new openings, ranked by fit: "
-           f"<a href='#en'>{counts['en']} English-speaking</a> · <a href='#de'>{counts['de']} German-speaking</a>.<br>"
-           "By age: " + " · ".join(f"{label}: {n}" for label, n in age_counts.items() if n) + "</p>"
-           + _record_links()]
+    strong, good, rest = summary(jobs)
+    out = ["<div style='font-family:Arial,sans-serif;max-width:640px;margin:0 auto;color:#24292f'>",
+           f"<h2 style='margin:8px 0 4px 0'>Job digest</h2><div style='color:#57606a;font-size:13px'>{e(run_label)}</div>",
+           f"<p style='font-size:15px'>🎯 <b>{strong}</b> strong · 👍 <b>{good}</b> good fit · "
+           f"<span style='color:#57606a'>{rest} lower matches (in the full record)</span></p>",
+           _record_links()]
+    if not strong + good:
+        out.append("<p>No strong or good matches in this run. Lower matches are listed in the full record above.</p>")
     for code, title in LANGS:
-        group = [j for j in jobs if j.get("lang", "de") == code]
-        out.append(f"<h2 id='{code}' style='border-bottom:3px solid #333;padding-top:12px'>{title} ({len(group)})</h2>")
-        if group:
-            _render_group(out, group, e)
-        else:
-            out.append("<p style='color:#555'>None this run.</p>")
-    out.append("<h4>Source health</h4><ul>")
-    for src, (n, err) in health.items():
-        flag = "⚠️ " if err or n == 0 else ""
-        out.append(f"<li>{flag}{e(src)}: {n} results{(' — ' + e(err)) if err else ''}</li>")
-    out.append("</ul>" + _record_links() + "</div>")
+        cards = sorted((j for j in jobs if j.get("lang", "de") == code and j["score"] >= CARD_MIN),
+                       key=lambda j: (j["score"] < 80, _age_rank(j), -j["score"]))
+        if cards:
+            out.append(f"<h3 style='margin:22px 0 10px 0'>{title} ({len(cards)})</h3>")
+            out += [_card(j, e) for j in cards]
+    issues = [f"{e(src)}: {n} results{(' — ' + e(err)) if err else ''}" for src, (n, err) in health.items() if err or n == 0]
+    out.append("<p style='font-size:12px;color:#57606a;margin-top:24px'>Sources: "
+               + " · ".join(f"{e(src)} {n}" for src, (n, _) in health.items()) + "</p>")
+    if issues:
+        out.append("<p style='font-size:12px;color:#9a6700'>⚠️ " + "<br>⚠️ ".join(issues) + "</p>")
+    out.append(_record_links() + "</div>")
     return "".join(out)
 
 

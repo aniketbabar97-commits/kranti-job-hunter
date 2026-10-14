@@ -98,8 +98,9 @@ def main():
     if os.getenv("DRY_RUN"):
         log.info("DRY_RUN: not emailing, not updating seen list")
         return
-    top = sum(1 for j in jobs if j["score"] >= 80)
-    subject = f"🎯 {len(jobs)} new jobs ({top} strong) — {label}" if jobs else f"No new jobs — {label}"
+    strong, good, _ = digest.summary(jobs)
+    subject = (f"🎯 {strong} strong · 👍 {good} good · {len(jobs)} new jobs — {label}" if jobs
+               else f"No new jobs — {label}")
     if not digest.send(subject, body):
         log.error("Email not sent; seen list left unchanged so jobs show up next run")
         sys.exit(1)

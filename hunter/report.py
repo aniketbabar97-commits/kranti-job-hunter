@@ -4,7 +4,8 @@ import csv
 from datetime import date
 from pathlib import Path
 
-from .digest import AGES, LANGS, SECTIONS, age_label
+from . import rules
+from .digest import LANGS, SECTIONS, age_label
 from .score import _guess_lang
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -47,6 +48,10 @@ def _cell(text):
 
 def build_report(rows):
     today = date.today().isoformat()
+    # Same hard ranking rules as the email, so older rows (scored before the rules existed) sort consistently.
+    rows = [dict(r, description="") for r in rows]
+    for r in rows:
+        r["score"], _ = rules.adjust(r)
     by_lang = {code: [r for r in rows if r["lang"] == code] for code, _ in LANGS}
     out = [f"# Job record — every job sent ({len(rows)})", "",
            f"_Updated {today}. Grouped like the email: language → fit score; newest first inside each group. "
