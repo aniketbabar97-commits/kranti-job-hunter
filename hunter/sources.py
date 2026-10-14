@@ -13,8 +13,13 @@ AA_URL = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs"
 AA_HEADERS = {"X-API-Key": "jobboerse-jobsuche", "User-Agent": "Jobsuche/2.9.2"}
 
 
-def _job(source, title, company, location, url, posted="", remote=False, description="", salary=""):
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
+
+
+def _job(source, title, company, location, url, posted="", remote=False, description="", salary="", contact=""):
+    contact = contact or ", ".join(dict.fromkeys(EMAIL.findall(description or "")))[:120]
     return {
+        "contact": contact,
         "source": source,
         "title": (title or "").strip(),
         "company": (company or "").strip(),
@@ -81,6 +86,7 @@ def jobspy(query, location, hours_old, results, remote_only=False):
             row["site"].title(), row["title"], row["company"], row["location"],
             row["job_url"], row["date_posted"], row.get("is_remote") is True,
             row.get("description", ""), salary,
+            ", ".join(row["emails"]) if isinstance(row.get("emails"), list) else str(row.get("emails") or ""),
         ))
     return jobs
 

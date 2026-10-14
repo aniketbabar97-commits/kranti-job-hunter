@@ -33,9 +33,10 @@ For each job below give:
   Then subtract 10 if fluent/business German is clearly required (she has B1).
   A LinkedIn post that does not name a concrete open role: at most 45.
 - why: one short sentence
+- tip: only if score >= 80, one short sentence: which specific experience from her CV to highlight when applying (else "")
 - lang: "en" if the job works in English (posting written in English and no fluent/native German required), "de" if the posting is written in German or asks for fluent/business German
 
-Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>", "lang": "en"|"de"}}, ...]
+Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>", "tip": "<text>", "lang": "en"|"de"}}, ...]
 
 Jobs:
 {jobs}"""
@@ -176,6 +177,7 @@ def score_jobs(jobs, cv):
             if results and i in results:
                 job["score"] = int(results[i].get("score", 0))
                 job["why"] = results[i].get("why", "")
+                job["tip"] = results[i].get("tip", "") or ""
                 job["lang"] = results[i].get("lang") if results[i].get("lang") in ("en", "de") else _guess_lang(job)
             else:
                 job["score"], job["why"] = _keyword_score(job)

@@ -60,7 +60,11 @@ def _card(j, e):
         f"<div style='font-size:14px;color:#24292f;margin:3px 0'><b>{e(j['company'])}</b></div>"
         f"<div style='font-size:13px;color:#57606a;margin-bottom:6px'>{e(meta)}</div>"
         f"<div>{badges}</div>"
-        f"<div style='font-size:13px;color:#24292f;margin:4px 0 10px 0'>✔ {e(j.get('why', ''))}</div>"
+        f"<div style='font-size:13px;color:#24292f;margin:4px 0 6px 0'>✔ {e(j.get('why', ''))}</div>"
+        + (f"<div style='font-size:13px;color:#24292f;margin:0 0 6px 0'>💡 {e(j['tip'])}</div>" if j.get("tip") else "")
+        + (f"<div style='font-size:13px;margin:0 0 6px 0'>✉ <a href='mailto:{e(j['contact'].split(',')[0].strip())}'>{e(j['contact'])}</a></div>"
+           if j.get("contact") else "")
+        + "<div style='height:4px'></div>"
         f"<a href='{e(j['url'])}' style='display:inline-block;background:{color};color:#fff;text-decoration:none;"
         "padding:6px 14px;border-radius:6px;font-size:13px;font-weight:bold'>Open job →</a>"
         "</td></tr></table>")
@@ -92,6 +96,13 @@ def build_html(jobs, health, run_label):
            f"<p style='font-size:15px'>🎯 <b>{strong}</b> strong · 👍 <b>{good}</b> good fit · "
            f"<span style='color:#57606a'>{rest} lower matches (in the full record)</span></p>",
            _record_links()]
+    picks = sorted((j for j in jobs if j["score"] >= CARD_MIN), key=lambda j: (-j["score"], _age_rank(j)))[:3]
+    if picks:
+        out.append("<div style='border:2px solid #1a7f37;border-radius:8px;padding:10px 14px;margin:8px 0 4px 0'>"
+                   "<div style='font-weight:bold;margin-bottom:6px'>⭐ Apply first</div>" + "".join(
+                       f"<div style='font-size:14px;margin:4px 0'><b>{j['score']}</b> · "
+                       f"<a href='{e(j['url'])}' style='color:#0969da'>{e(j['title'])}</a> — {e(j['company'])}</div>"
+                       for j in picks) + "</div>")
     if not strong + good:
         out.append("<p>No strong or good matches in this run. Lower matches are listed in the full record above.</p>")
     for code, title in LANGS:
