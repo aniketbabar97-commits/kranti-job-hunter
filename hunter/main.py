@@ -19,8 +19,18 @@ PREVIEW = ROOT / "data" / "last_digest.html"
 log = logging.getLogger("hunter")
 
 
+LEGAL_FORMS = re.compile(r"\b(gmbh|ag|se|kg|co|mbh|ltd|inc|llc|group|gruppe|deutschland|germany|industries|holding)\b")
+
+
 def key(job):
-    """Same job posted on several boards -> one key (title + company, gender tags stripped)."""
+    """Same job posted on several boards -> one key: title (gender tags stripped) + core company name."""
+    norm = lambda s: re.sub(r"\(.*?\)|[^a-z0-9]", "", s.lower())
+    company = LEGAL_FORMS.sub("", job["company"].lower())
+    return f"{norm(job['title'])}|{norm(company)}"
+
+
+def legacy_key(job):
+    """Key format used before 2026-10-14; still checked so already-sent jobs are not re-sent."""
     norm = lambda s: re.sub(r"\(.*?\)|[^a-z0-9]", "", s.lower())
     return f"{norm(job['title'])}|{norm(job['company'])}"
 
@@ -80,7 +90,7 @@ def main():
     new = {}
     for j in raw:
         k = key(j)
-        if j["title"] and k not in seen and k not in new and relevant(j, cfg):
+        if j["title"] and k not in seen and legacy_key(j) not in seen and k not in new and relevant(j, cfg):
             new[k] = j
     jobs = list(new.values())
     log.info("raw=%d new_relevant=%d", len(raw), len(jobs))
@@ -98,8 +108,9 @@ def main():
     if os.getenv("DRY_RUN"):
         log.info("DRY_RUN: not emailing, not updating seen list")
         return
-    top = sum(1 for j in jobs if j["score"] >= 80)
-    subject = f"🎯 {len(jobs)} new jobs ({top} strong) — {label}" if jobs else f"No new jobs — {label}"
+    strong, good, _ = digest.summary(jobs)
+    subject = (f"🎯 {strong} strong · 👍 {good} good · {len(jobs)} new jobs — {label}" if jobs
+               else f"No new jobs — {label}")
     if not digest.send(subject, body):
         log.error("Email not sent; seen list left unchanged so jobs show up next run")
         sys.exit(1)

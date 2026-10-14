@@ -7,6 +7,8 @@ import time
 
 import requests
 
+from . import rules
+
 log = logging.getLogger(__name__)
 
 # Model names get retired often, so if the preferred one is gone we pick the
@@ -20,17 +22,21 @@ PROMPT = """You rate job postings for one candidate. Candidate profile:
 {cv}
 
 For each job below give:
-- score: 0-100 fit, using this scale:
-  90-100: SAP Commerce Cloud / Hybris / SAP CX Commerce / Spartacus role (developer, consultant, architect, lead, product owner)
-  75-89: other SAP CX roles; Salesforce Commerce Cloud, commercetools, Spryker, Intershop, Adobe Commerce roles; Java backend for e-commerce; e-commerce business analyst / functional or technical consultant
-  55-74: other e-commerce / PIM / shop roles that are technical or analytical (incl. PHP shops like Shopware/Magento)
-  30-54: loosely related (generic IT, e-commerce marketing/operations)
-  0-29: not relevant (warehouse, sales, customer service, accounting, non-IT)
-  Subtract 10 if fluent/native German is clearly required (she has B1). Subtract 15 if the job is outside Germany and not remote.
+- score: 0-100 fit. Use this scale strictly; most jobs should NOT be 60+:
+  90-100: SAP Commerce Cloud / Hybris role (developer, Java developer, consultant, architect, lead, product owner) in Germany or remote
+  80-89: SAP Commerce-adjacent technical role: Spartacus/Composable Storefront, SAP CX Commerce integration, Java backend in an SAP Commerce team
+  70-79: developer/architect on another commerce platform (Salesforce Commerce Cloud, commercetools, Spryker, Intershop, Adobe Commerce) or Java/Spring backend for e-commerce
+  60-69: technical e-commerce consultant / business analyst / product owner; SAP CX Sales/Service Cloud consultant; technical PIM/MDM consultant
+  40-59: other technical e-commerce work (PHP shop systems like Shopware/Magento, frontend-only, data/analytics), generic IT
+  20-39: non-technical e-commerce (e-commerce manager, marketing, pricing, operations, sales)
+  0-19: not relevant (warehouse, customer service, accounting, non-IT)
+  Then subtract 10 if fluent/business German is clearly required (she has B1).
+  A LinkedIn post that does not name a concrete open role: at most 45.
 - why: one short sentence
+- tip: only if score >= 80, one short sentence: which specific experience from her CV to highlight when applying (else "")
 - lang: "en" if the job works in English (posting written in English and no fluent/native German required), "de" if the posting is written in German or asks for fluent/business German
 
-Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>", "lang": "en"|"de"}}, ...]
+Return ONLY a JSON array: [{{"id": <id>, "score": <int>, "why": "<text>", "tip": "<text>", "lang": "en"|"de"}}, ...]
 
 Jobs:
 {jobs}"""
@@ -171,9 +177,10 @@ def score_jobs(jobs, cv):
             if results and i in results:
                 job["score"] = int(results[i].get("score", 0))
                 job["why"] = results[i].get("why", "")
+                job["tip"] = results[i].get("tip", "") or ""
                 job["lang"] = results[i].get("lang") if results[i].get("lang") in ("en", "de") else _guess_lang(job)
             else:
                 job["score"], job["why"] = _keyword_score(job)
                 job["lang"] = _guess_lang(job)
         time.sleep(4)  # stay under free-tier rate limits
-    return jobs
+    return rules.apply(jobs)

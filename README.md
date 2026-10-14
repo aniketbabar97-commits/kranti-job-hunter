@@ -24,14 +24,22 @@ sales). The same job on several boards is shown once, and a job is never sent tw
 
 ## The digest
 
-Every job shows its age (🆕 ≤1 day, 2–3 days, 4–7 days, 7+ days); newest first within each group. Each run looks back 7 days, but a job is only ever sent once.
+- Header: counts of 🎯 strong (80+), 👍 good (60–79) and lower matches, plus links to the full record.
+- Only strong and good jobs are shown, as cards, split into 🇬🇧 English-speaking and 🇩🇪 German-speaking.
+  Each card: score, title, company, location, remote, salary, age (🆕 ≤1 day …), language, source, the reason, and an **Open job** button.
+- Lower matches are not in the email; they are in the full record.
+- Sources line at the bottom; ⚠️ if a source returned nothing or failed.
 
-Split into 🇬🇧 **English-speaking** and 🇩🇪 **German-speaking** jobs (posting in German or fluent German required), each ranked separately:
+## Ranking
 
-- 🎯 **Strong match** (80+), 👍 **Good fit / can learn** (60–79), 👀 **Worth a look** (30–59), 🗂 **Low match** (titles only)
-- Each job: score, title, company, location, remote flag, salary if posted, and a one-line reason.
-- A link at the top and bottom to the full record (`data/jobs_log.csv` on GitHub) of every job ever sent.
-- **Source health** at the bottom: a ⚠️ means a source returned nothing or failed, so you know if something is being missed.
+The AI scores each job against `cv.md` on a fixed scale (SAP Commerce/Hybris 90+, other commerce platforms 70s,
+technical e-commerce consulting 60s, non-technical e-commerce 20–39). Then hard rules in `hunter/rules.py` cap:
+on-site jobs outside Germany (max 35), jobs outside Europe (max 25), LinkedIn posts that don't name a concrete role (max 45)
+or don't mention Germany/remote (max 65).
+
+## Full record
+
+[`JOBS.md`](JOBS.md) lists every job ever sent, grouped like the email, newest first. Raw data: `data/jobs_log.csv`.
 
 ## Setup (GitHub → Settings → Secrets and variables → Actions)
 

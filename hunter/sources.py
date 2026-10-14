@@ -13,8 +13,13 @@ AA_URL = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v6/jobs"
 AA_HEADERS = {"X-API-Key": "jobboerse-jobsuche", "User-Agent": "Jobsuche/2.9.2"}
 
 
-def _job(source, title, company, location, url, posted="", remote=False, description="", salary=""):
+EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
+
+
+def _job(source, title, company, location, url, posted="", remote=False, description="", salary="", contact=""):
+    contact = contact or ", ".join(dict.fromkeys(EMAIL.findall(description or "")))[:120]
     return {
+        "contact": contact,
         "source": source,
         "title": (title or "").strip(),
         "company": (company or "").strip(),
@@ -81,6 +86,7 @@ def jobspy(query, location, hours_old, results, remote_only=False):
             row["site"].title(), row["title"], row["company"], row["location"],
             row["job_url"], row["date_posted"], row.get("is_remote") is True,
             row.get("description", ""), salary,
+            ", ".join(row["emails"]) if isinstance(row.get("emails"), list) else str(row.get("emails") or ""),
         ))
     return jobs
 
@@ -120,7 +126,10 @@ def linkedin_posts(query, days=7):
         if m:
             author = m.group(1).strip()
         snippet = it.get("snippet", "")
-        headline = re.sub(r"\s*\|[^|]*$|'s Post.*$|\s*- LinkedIn$", "", title).strip() or snippet[:90]
+        headline = re.sub(r"\s*\|[^|]*$|'s Post.*$|\s*- LinkedIn$|\s*posted (on|this).*$", "", title).strip()
+        # Titles that are just a person's name or a hashtag say nothing; use the post text instead.
+        if not re.search(r"(?i)developer|engineer|consultant|architect|analyst|owner|lead|manager|entwickler|berater|hiring|sap|hybris|commerce", headline) or headline == author:
+            headline = re.sub(r"\s+", " ", snippet)[:90].rstrip(" .,") + ("…" if len(snippet) > 90 else "")
         jobs.append(_job("LinkedIn post", f"[Post] {headline}", author or "LinkedIn recruiter post", "",
                          it["link"], _relative_date(it.get("date", "")), "remote" in snippet.lower(), snippet))
     return jobs
