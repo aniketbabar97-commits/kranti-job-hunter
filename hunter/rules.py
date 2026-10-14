@@ -21,6 +21,12 @@ OUTSIDE_EU_REMOTE = re.compile(
 HIRING = re.compile(r"\b(hiring|we.?re looking|looking for|job|role|position|opening|vacanc|stelle|wir suchen|join (our|us))\b", re.I)
 COMMERCE_CORE = re.compile(r"\b(hybris|sap commerce|commerce cloud|sap cx|ccv2|spartacus|composable storefront)\b", re.I)
 
+JAVA_COMMERCE = re.compile(r"(?i)\b(java|kotlin|spring)\b.*\b(commerce|shop|onlineshop|webshop)|\b(commerce|shop|onlineshop|webshop)\b.*\b(java|kotlin|spring)\b")
+
+# Floors: a real SAP Commerce role in Germany/remote is always worth applying to, even if German is required.
+FLOOR_CORE_TITLE = 80
+FLOOR_JAVA_COMMERCE = 60
+
 CAP_ONSITE_ABROAD = 35
 CAP_FAR_AWAY = 25
 CAP_VAGUE_POST = 45
@@ -45,13 +51,20 @@ def adjust(job):
             score, notes = min(score, CAP_POST_NO_LOCATION), ["post doesn't say Germany or remote"]
     elif not in_germany and not remote and job.get("location"):
         score, notes = min(score, CAP_ONSITE_ABROAD), ["on-site outside Germany"]
+    elif not is_post and (in_germany or remote):
+        title = job.get("title", "")
+        if COMMERCE_CORE.search(title) and not re.search(r"(?i)\b(sales|vertrieb|account executive|praktik|intern|werkstudent)\b", title):
+            score = max(score, FLOOR_CORE_TITLE)
+        elif JAVA_COMMERCE.search(title):
+            score = max(score, FLOOR_JAVA_COMMERCE)
     return score, "; ".join(notes)
 
 
 def apply(jobs):
     for j in jobs:
+        old = int(j.get("score") or 0)
         new, note = adjust(j)
-        if new < int(j.get("score") or 0):
-            j["score"] = new
+        if new < old:
             j["why"] = f"{j.get('why', '')} [capped: {note}]".strip()
+        j["score"] = new
     return jobs
