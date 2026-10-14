@@ -16,6 +16,10 @@ on:
         description: "Quick check of LinkedIn-post search only (no email)"
         type: boolean
         default: false
+      weekly_now:
+        description: "Also send the weekly summary now"
+        type: boolean
+        default: false
       test_email:
         description: "Only send a test email (no search)"
         type: boolean
@@ -56,6 +60,7 @@ jobs:
           DRY_RUN:            ${{ (inputs.dry_run || inputs.posts_check) && '1' || '' }}
           QUERY_LIMIT:        ${{ inputs.posts_check && '0' || '' }}
           TEST_EMAIL:         ${{ inputs.test_email && '1' || '' }}
+          FORCE_WEEKLY:       ${{ inputs.weekly_now && '1' || '' }}
         run: python -m hunter.main
 
       - name: Upload digest preview
@@ -71,6 +76,6 @@ jobs:
         run: |
           git config user.name "Job Hunter Bot"
           git config user.email "bot@job-hunter"
-          git add data/seen.json data/jobs_log.csv JOBS.md
+          git add data/seen.json data/jobs_log.csv JOBS.md data/weekly_sent.txt
           git diff --cached --quiet || git commit -m "jobs: $(date -u +%F\ %H:%M)"
           git pull --rebase && git push

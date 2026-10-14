@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import digest, report, score, sources
+from . import applied, digest, report, score, sources, weekly
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
@@ -100,6 +100,9 @@ def main():
     score.score_jobs(jobs, cv)
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
     digest.assign_sections(jobs)
+    applied_data = applied.load()
+    for j in jobs:
+        j["applied"] = applied.status(j, applied_data)
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
     body = digest.build_html(jobs, health, label)
@@ -121,6 +124,7 @@ def main():
     cutoff = (date.today() - timedelta(days=90)).isoformat()
     SEEN.write_text(json.dumps({k: v for k, v in seen.items() if v >= cutoff}, indent=0, sort_keys=True))
     report.build_report(report.append_log(jobs, today))
+    weekly.maybe_send(datetime.now(ZoneInfo("Europe/Berlin")).date())
 
 
 if __name__ == "__main__":
