@@ -32,6 +32,7 @@ def _age_rank(job):
 LANGS = [("en", "🇬🇧 English-speaking jobs"), ("de", "🇩🇪 German-speaking jobs")]
 
 
+APPLIED_BADGES = {"applied": [("✅ Applied", "#dafbe1")], "company": [("↺ Applied at this company before", "#fff8c5")]}
 CARD_MIN = 60  # jobs below this are only counted in the email and listed in the full record
 
 
@@ -49,7 +50,8 @@ def _card(j, e):
     badges = "".join(
         f"<span style='display:inline-block;background:{bg};color:#24292f;border-radius:10px;padding:2px 8px;"
         f"margin:0 4px 4px 0;font-size:12px'>{e(t)}</span>"
-        for t, bg in [(age, "#dafbe1" if age.startswith("🆕") else "#eaeef2"), (lang, "#eaeef2"), (j["source"], "#eaeef2")])
+        for t, bg in [(age, "#dafbe1" if age.startswith("🆕") else "#eaeef2"), (lang, "#eaeef2"), (j["source"], "#eaeef2")]
+        + APPLIED_BADGES.get(j.get("applied", ""), []))
     return (
         "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='border:1px solid #d0d7de;"
         "border-radius:8px;margin:0 0 12px 0;border-collapse:separate'><tr>"
@@ -76,6 +78,7 @@ def _record_links():
         return ""
     links = [f"<a href='{base}/blob/main/JOBS.md' style='color:#0969da'>📒 Full record of every job (sorted)</a>",
              f"<a href='{base}/blob/main/data/jobs_log.csv' style='color:#0969da'>spreadsheet</a>"]
+    links.append(f"<a href='{base}/edit/main/APPLIED.md' style='color:#0969da'>✏️ mark applied</a>")
     if os.getenv("GITHUB_RUN_ID"):
         links.append(f"<a href='{base}/actions/runs/{os.environ['GITHUB_RUN_ID']}' style='color:#0969da'>run log</a>")
     return ("<p style='background:#f6f8fa;padding:10px;border-radius:6px;font-size:13px;font-family:Arial,sans-serif'>"

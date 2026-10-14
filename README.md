@@ -37,6 +37,17 @@ technical e-commerce consulting 60s, non-technical e-commerce 20–39). Then har
 on-site jobs outside Germany (max 35), jobs outside Europe (max 25), LinkedIn posts that don't name a concrete role (max 45)
 or don't mention Germany/remote (max 65).
 
+## Applied tracking
+
+Edit [`APPLIED.md`](APPLIED.md) on GitHub (pencil icon, works on the phone): one line per application — a job link
+or a company name, optionally starting with the date (`2026-10-14 https://...`). Emails and JOBS.md then mark
+**✅ Applied** or **↺ Applied at this company before**, and the weekly summary leaves applied jobs out.
+
+## Weekly summary
+
+Every Monday (first run of the day) a second email: counts for the week, the 10 best jobs you haven't applied to,
+and companies that posted 2+ openings in the last 30 days. Send it any time with **Run workflow → Also send the weekly summary now**.
+
 ## Full record
 
 [`JOBS.md`](JOBS.md) lists every job ever sent, grouped like the email, newest first. Raw data: `data/jobs_log.csv`.

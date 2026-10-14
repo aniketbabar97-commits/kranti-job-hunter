@@ -4,7 +4,7 @@ import csv
 from datetime import date
 from pathlib import Path
 
-from . import rules
+from . import applied, rules
 from .digest import LANGS, SECTIONS, age_label
 from .score import _guess_lang
 
@@ -50,12 +50,14 @@ def build_report(rows):
     today = date.today().isoformat()
     # Same hard ranking rules as the email, so older rows (scored before the rules existed) sort consistently.
     rows = [dict(r, description="") for r in rows]
+    applied_data = applied.load()
     for r in rows:
         r["score"], _ = rules.adjust(r)
     by_lang = {code: [r for r in rows if r["lang"] == code] for code, _ in LANGS}
     out = [f"# Job record — every job sent ({len(rows)})", "",
            f"_Updated {today}. Grouped like the email: language → fit score; newest first inside each group. "
-           f"Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel._", ""]
+           f"Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel. "
+           f"Mark applications in [APPLIED.md](APPLIED.md)._", ""]
     for code, title in LANGS:
         anchor = "english" if code == "en" else "german"
         out.append(f"- [{title} ({len(by_lang[code])})](#{anchor})")
@@ -69,12 +71,13 @@ def build_report(rows):
                 continue
             group.sort(key=lambda r: (r["posted"], r["score"]), reverse=True)
             out += [f"### {label} ({len(group)})", "",
-                    "| Score | Age | Job | Company | Location | Remote | Source | Found | Why |",
-                    "|---:|---|---|---|---|---|---|---|---|"]
+                    "| Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |",
+                    "|---:|---|---|---|---|---|---|---|---|---|"]
             for r in group:
                 out.append(" | ".join([
                     f"| {r['score']}", age_label(r), f"[{_cell(r['title'])}]({r['url']})", _cell(r["company"]),
                     _cell(r["location"]), "🏠" if r["remote"] == "True" else "", _cell(r["source"]),
-                    r["found"], _cell(r["why"]) + " |"]))
+                    r["found"], {"applied": "✅ Applied", "company": "↺ company"}.get(applied.status(r, applied_data), ""),
+                    _cell(r["why"]) + " |"]))
             out.append("")
     REPORT.write_text("\n".join(out))
