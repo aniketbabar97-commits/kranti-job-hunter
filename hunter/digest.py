@@ -16,17 +16,28 @@ SECTIONS = [(80, "🎯 Strong match"), (60, "👍 Good fit / can learn"), (30, "
 AGES = [(1, "🆕 ≤1 day"), (3, "2–3 days"), (7, "4–7 days"), (10**6, "7+ days")]
 
 
-def age_label(job):
+LONG_OPEN_DAYS = 30
+
+
+def days_open(job):
     try:
-        days = (date.today() - date.fromisoformat(job["posted"][:10])).days
+        return (date.today() - date.fromisoformat(str(job.get("posted", ""))[:10])).days
     except ValueError:
+        return None
+
+
+def age_label(job):
+    days = days_open(job)
+    if days is None:
         return "date unknown"
+    if days >= LONG_OPEN_DAYS:
+        return f"⏳ open {days} days"
     return next(label for limit, label in AGES if days <= limit)
 
 
 def _age_rank(job):
-    labels = [label for _, label in AGES] + ["date unknown"]
-    return labels.index(age_label(job))
+    days = days_open(job)
+    return 10**6 if days is None else days
 
 
 LANGS = [("en", "🇬🇧 English-speaking jobs"), ("de", "🇩🇪 German-speaking jobs")]
@@ -50,7 +61,7 @@ def _card(j, e):
     badges = "".join(
         f"<span style='display:inline-block;background:{bg};color:#24292f;border-radius:10px;padding:2px 8px;"
         f"margin:0 4px 4px 0;font-size:12px'>{e(t)}</span>"
-        for t, bg in [(age, "#dafbe1" if age.startswith("🆕") else "#eaeef2"), (lang, "#eaeef2"), (j["source"], "#eaeef2")]
+        for t, bg in [(age, "#dafbe1" if age.startswith("🆕") else "#ffebe9" if age.startswith("⏳") else "#eaeef2"), (lang, "#eaeef2"), (j["source"], "#eaeef2")]
         + APPLIED_BADGES.get(j.get("applied", ""), []))
     return (
         "<table role='presentation' width='100%' cellpadding='0' cellspacing='0' style='border:1px solid #d0d7de;"

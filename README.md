@@ -11,6 +11,8 @@ scores each one against `cv.md`, and emails a ranked digest.
 | Bundesagentur für Arbeit (Arbeitsagentur) | Job-search API (unofficial, used by the official app) |
 | LinkedIn | JobSpy library, Germany + remote-EU pass |
 | Indeed.de | JobSpy library |
+| Company career sites (direct) | Public job feeds (Personio, Greenhouse, Lever, SmartRecruiters) of the employers in `config.yaml` → `companies` |
+| Company career sites (Google) | Google search inside job pages hosted on Personio, Workday, SuccessFactors, SmartRecruiters, JOIN, … (`career_site_queries`, first run of each day, needs `SERPER_API_KEY`) |
 | LinkedIn recruiter posts ("#hiring SAP Commerce…") | Google search via Serper.dev (optional, `SERPER_API_KEY`) |
 
 Every keyword in `config.yaml` → `queries` runs on every source. Tiers:
@@ -47,6 +49,12 @@ or a company name, optionally starting with the date (`2026-10-14 https://...`).
 
 Every Monday (first run of the day) a second email: counts for the week, the 10 best jobs you haven't applied to,
 and companies that posted 2+ openings in the last 30 days. Send it any time with **Run workflow → Also send the weekly summary now**.
+
+## Hard-to-fill roles
+
+Jobs posted 30+ days ago show a red **⏳ open N days** badge. The weekly summary adds a fresh list of SAP Commerce
+roles that are *still open* after 30+ days (job agency + company feeds): companies struggling to hire — apply and
+message the recruiter directly.
 
 ## Full record
 
