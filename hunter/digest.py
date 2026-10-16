@@ -80,7 +80,10 @@ def _card(j, e):
         + "<div style='height:4px'></div>"
         f"<a href='{e(j['url'])}' style='display:inline-block;background:{color};color:#fff;text-decoration:none;"
         "padding:6px 14px;border-radius:6px;font-size:13px;font-weight:bold'>Open job →</a>"
-        "</td></tr></table>")
+        + (f" <a href='{_base_url()}/blob/main/{e(j['kit'])}' style='display:inline-block;border:1px solid {color};"
+           f"color:{color};text-decoration:none;padding:5px 12px;border-radius:6px;font-size:13px;font-weight:bold;"
+           "margin-left:6px'>📝 Application kit</a>" if j.get("kit") and _base_url() else "")
+        + "</td></tr></table>")
 
 
 def _record_links():
