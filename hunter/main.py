@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import applied, digest, report, score, sources, weekly
+from . import applied, digest, report, rules, score, sources, weekly
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
@@ -57,18 +57,40 @@ def collect(cfg):
         run("LinkedIn/Indeed (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
             cfg["results_per_query"], True)
         time.sleep(3)
+    for entry in cfg.get("companies", []):
+        run("Company career sites (direct)", sources.company_feed, entry)
     if os.getenv("SERPER_API_KEY"):
         for q in cfg.get("post_queries", []):
             run("LinkedIn posts (Google)", sources.linkedin_posts, q, days)
+        if first_run_today():
+            for q in cfg.get("career_site_queries", []):
+                run("Career sites (Google)", sources.career_sites, q, 30)
     else:
         health["LinkedIn posts (Google)"] = (0, "off - add SERPER_API_KEY secret to enable")
     return jobs, health
+
+
+RUN_STATE = ROOT / "data" / "last_career_search.txt"
+
+
+def first_run_today():
+    """Career-site searches cost Serper credits, so only the first run of each day does them."""
+    today = date.today().isoformat()
+    if RUN_STATE.exists() and RUN_STATE.read_text().strip() == today and not os.getenv("FORCE_CAREER_SEARCH"):
+        return False
+    RUN_STATE.write_text(today)
+    return True
 
 
 def relevant(job, cfg):
     title = job["title"].lower()
     if any(t in title for t in cfg["exclude_title_terms"]):
         return False
+    if job["source"].endswith(" careers"):
+        # Whole company feeds: e-commerce companies mention "e-commerce" in every ad, so require the
+        # term in the title, or a core SAP Commerce term anywhere.
+        return any(re.search(rf"\b{re.escape(t)}\b", title) for t in cfg["relevance_terms"]) \
+            or bool(rules.COMMERCE_CORE.search(job["description"]))
     text = f"{title} {job['description'].lower()}"
     return any(re.search(rf"\b{re.escape(t)}\b", text) for t in cfg["relevance_terms"])
 
@@ -124,7 +146,7 @@ def main():
     cutoff = (date.today() - timedelta(days=90)).isoformat()
     SEEN.write_text(json.dumps({k: v for k, v in seen.items() if v >= cutoff}, indent=0, sort_keys=True))
     report.build_report(report.append_log(jobs, today))
-    weekly.maybe_send(datetime.now(ZoneInfo("Europe/Berlin")).date())
+    weekly.maybe_send(datetime.now(ZoneInfo("Europe/Berlin")).date(), cfg)
 
 
 if __name__ == "__main__":

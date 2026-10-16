@@ -47,6 +47,44 @@ post_queries:
   - 'site:linkedin.com/posts ("Salesforce Commerce Cloud" OR SFCC OR commercetools OR Spryker) (hiring OR "looking for")'
   - 'site:linkedin.com/posts ("SAP Commerce" OR Hybris) (Germany OR Deutschland OR remote) (job OR role OR position OR stelle)'
 
+# Career sites of known SAP Commerce / e-commerce employers, read directly every run (free).
+# Add a company: find its Personio / Greenhouse / Lever / SmartRecruiters page and add a line.
+companies:
+  - {name: hmmh, ats: personio, slug: hmmh}                      # SAP Commerce Gold partner, Bremen
+  - {name: diva-e, ats: personio, slug: diva-e}                  # SAP CX partner
+  - {name: Intershop, ats: personio, slug: intershop}
+  - {name: nexum, ats: personio, slug: nexum}
+  - {name: Shopmacher, ats: personio, slug: shopmacher}
+  - {name: brandung, ats: personio, slug: brandung}
+  - {name: Laudert, ats: personio, slug: laudert}                # PIM / e-commerce
+  - {name: novomind, ats: personio, slug: novomind}
+  - {name: Mayflower, ats: personio, slug: mayflower}
+  - {name: crossbase, ats: personio, slug: crossbase}            # PIM
+  - {name: Thomann, ats: personio, slug: thomann}
+  - {name: notebooksbilliger, ats: personio, slug: notebooksbilliger}
+  - {name: Westwing, ats: personio, slug: westwing}
+  - {name: Spryker, ats: greenhouse, slug: spryker}
+  - {name: commercetools, ats: greenhouse, slug: commercetools}
+  - {name: DEPT, ats: greenhouse, slug: dept}
+  - {name: Valtech, ats: greenhouse, slug: valtech}
+  - {name: Salsify, ats: greenhouse, slug: salsify}
+  - {name: Flaconi, ats: greenhouse, slug: flaconi}
+  - {name: Phoenix Contact, ats: greenhouse, slug: phoenixcontact}
+  - {name: Reply, ats: lever, slug: reply}
+  - {name: ZEISS, ats: lever, slug: zeiss}
+  - {name: NFQ, ats: lever, slug: nfq}
+  - {name: Bosch, ats: smartrecruiters, slug: BoschGroup}
+
+# Google search inside career sites hosted on hiring systems (Personio, Workday, SuccessFactors, ...).
+# Covers thousands of company websites at once. Needs SERPER_API_KEY; runs once a day (first run) to save credits.
+career_site_queries:
+  - '(site:jobs.personio.de OR site:jobs.personio.com) ("SAP Commerce" OR Hybris)'
+  - '(site:myworkdayjobs.com OR site:successfactors.eu OR site:successfactors.com OR site:sapsf.eu) ("SAP Commerce" OR Hybris) (Germany OR Deutschland)'
+  - '(site:jobs.smartrecruiters.com OR site:join.com OR site:softgarden.io OR site:recruitee.com OR site:teamtailor.com) ("SAP Commerce" OR Hybris)'
+  - '(site:boards.greenhouse.io OR site:job-boards.greenhouse.io OR site:jobs.lever.co OR site:jobs.ashbyhq.com OR site:apply.workable.com) ("SAP Commerce" OR Hybris)'
+  - 'site:jobs.sap.com ("Commerce Cloud" OR "SAP CX") Germany'
+  - '(karriere OR careers OR stellenangebote OR jobs) ("SAP Commerce Developer" OR "Hybris Developer" OR "SAP Commerce Entwickler") (m/w/d) -linkedin -indeed -stepstone -xing'
+
 # A job is kept only if its title or description contains one of these
 # (case-insensitive). Keeps noise out without dropping real openings.
 relevance_terms:

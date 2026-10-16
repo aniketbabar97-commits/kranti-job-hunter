@@ -6,7 +6,9 @@ from collections import Counter
 from datetime import date, timedelta
 from pathlib import Path
 
-from . import applied, digest, report, rules
+import re
+
+from . import applied, digest, report, rules, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "weekly_sent.txt"
@@ -21,7 +23,39 @@ def due(today):
     return (today.weekday() == 0 or os.getenv("FORCE_WEEKLY")) and sent != week, week
 
 
-def build(today, rows, applied_data):
+LONG_OPEN_QUERIES = ["SAP Commerce", "Hybris", "SAP Commerce Cloud", "SAP CX Commerce"]
+ROLE = re.compile(r"(?i)developer|entwickler|engineer|consultant|berater|architect|lead|owner|analyst|expert")
+NOT_FOR_HER = re.compile(r"(?i)\b(sales|vertrieb|account executive|praktik|intern|werkstudent|working student|ausbildung)\b")
+
+
+def long_open(cfg, applied_data, limit=15):
+    """SAP Commerce roles still open after 30+ days: companies struggling to hire — the best targets for a direct approach."""
+    found = []
+    for q in LONG_OPEN_QUERIES:
+        try:
+            found += sources.arbeitsagentur(q, days=None)
+        except Exception as e:
+            log.warning("long-open arbeitsagentur %r failed: %s", q, e)
+    for entry in cfg.get("companies", []):
+        try:
+            found += sources.company_feed(entry)
+        except Exception as e:
+            log.warning("long-open %s failed: %s", entry["name"], e)
+    seen, out = set(), []
+    for j in found:
+        title, text = j["title"] or "", f"{j['title']} {j['description']}"
+        core = rules.COMMERCE_CORE.search(title) or (rules.COMMERCE_CORE.search(text) and ROLE.search(title))
+        days = digest.days_open(j)
+        where_ok = j["source"] == "Arbeitsagentur" or rules.GERMANY.search(j["location"] or "") or j["remote"]
+        k = re.sub(r"[^a-z0-9]", "", f"{title}|{j['company']}".lower())
+        if core and not NOT_FOR_HER.search(title) and days is not None and days >= digest.LONG_OPEN_DAYS \
+                and where_ok and k not in seen and applied.status(j, applied_data) != "applied":
+            seen.add(k)
+            out.append(dict(j, days=days))
+    return sorted(out, key=lambda j: -j["days"])[:limit]
+
+
+def build(today, rows, applied_data, hard_to_fill=()):
     e = html.escape
     week_ago, month_ago = (today - timedelta(days=7)).isoformat(), (today - timedelta(days=30)).isoformat()
     week = [dict(r, description="") for r in rows if r["found"] >= week_ago]
@@ -51,6 +85,16 @@ def build(today, rows, applied_data):
         out += [digest._card(dict(r, remote=r["remote"] == "True", salary=""), e) for r in open_top]
     else:
         out.append("<p>No strong or good matches this week.</p>")
+    if hard_to_fill:
+        out.append("<h3>⏳ Hard-to-fill SAP Commerce roles (still open after 30+ days)</h3>"
+                   "<p style='font-size:13px;color:#57606a'>These companies have been searching for a long time. "
+                   "Apply directly and also message the recruiter or team lead on LinkedIn — your chances are best here.</p>")
+        out.append("<table role='presentation' width='100%' style='font-size:14px;border-collapse:collapse'>" + "".join(
+            f"<tr style='border-bottom:1px solid #eaeef2'><td style='padding:6px 8px 6px 0;white-space:nowrap;color:#cf222e'>"
+            f"<b>{j['days']}</b> days</td><td style='padding:6px 0'><a href='{e(j['url'])}' style='color:#0969da'>{e(j['title'])}</a>"
+            f" — {e(j['company'])}{(', ' + e(j['location'])) if j['location'] else ''}"
+            f"{' · ↺ applied at company' if applied.status(j, applied_data) == 'company' else ''}</td></tr>"
+            for j in hard_to_fill) + "</table>")
     if repeat:
         out.append("<h3>🏢 Companies hiring repeatedly (last 30 days)</h3><ul>" + "".join(
             f"<li>{e(c)} — {n} openings{' · ↺ you applied here' if applied.status({'company': c}, applied_data) else ''}</li>"
@@ -60,11 +104,12 @@ def build(today, rows, applied_data):
     return "".join(out)
 
 
-def maybe_send(today):
+def maybe_send(today, cfg):
     is_due, week = due(today)
     if not is_due:
         return
-    body = build(today, report.read_log(), applied.load())
+    applied_data = applied.load()
+    body = build(today, report.read_log(), applied_data, long_open(cfg, applied_data))
     (ROOT / "data" / "last_weekly.html").write_text(body)
     if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body):
         STATE.write_text(week)
