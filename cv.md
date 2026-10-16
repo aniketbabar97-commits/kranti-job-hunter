@@ -4,8 +4,23 @@
 - Open to: anywhere in Germany (prefers Karlsruhe / Baden-Württemberg / Rhein-Neckar / Frankfurt), hybrid, or fully remote.
 - Languages: English C2, German B1 (improving), Hindi/Marathi native.
 - 5+ years SAP Commerce Cloud (Hybris 2105/2211) developer. SAP Certified Professional – SAP Commerce Cloud Developer; SAP Certified Associate – SAP Commerce Cloud Business User.
-- Rockwell Automation (2024–2026): SAP Commerce extensions for product/catalog/pricing/customer data, OCC REST, PIM (Profisee) to Hybris pipelines, Hotfolders, DataHub, Import Cockpit, Interceptors/Populators/Converters, SAP ERP & MDM integration.
-- Shell (2022–2024): Promotions Engine, Hotfolders, FlexibleSearch, Cronjobs, Impex, OMS, OCC webservices for headless/PWA, Backoffice customization, Groovy, HAC, CCV2 deployments, CI/CD, query performance tuning.
-- Cognizant (2020–2022): Java, JUnit, Solr, microservices, Hotfolders.
+- SAP Hybris Developer, Rockwell Automation (10/2024–09/2026, Pune, India), CV wording:
+  - Architected and customized core SAP Commerce (Hybris 2211) extensions for product, catalog, pricing and customer data management using Java Enterprise and OCC REST web services.
+  - Designed and optimized high-throughput PIM-to-Hybris data pipelines (Profisee & Hotfolders) for product catalog synchronization across global e-commerce channels.
+  - Configured Import Cockpit mappings, custom Interceptors, Populators, Converters and DataHub processing flows.
+  - Diagnosed and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams.
+  - Engineered API migrations for customer account structures, improving system stability and data consistency.
+- Software Engineer, Shell (05/2022–10/2024, Bangalore, India), CV wording:
+  - Managed end-to-end development and maintenance of core SAP Hybris modules: Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts, Order Management.
+  - Developed RESTful APIs and OCC web services enabling headless commerce and PWA frontends.
+  - Customized Backoffice components, wrote Groovy admin scripts, system management via HAC.
+  - Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud Portal (CCV2) in agile DevOps workflows.
+  - Led database query refactoring, improving response latency and transaction speed.
+- Programmer Analyst, Cognizant (11/2020–05/2022, Pune, India), CV wording:
+  - Built automated unit and integration test suites with JUnit.
+  - Developed Java Native Interface (JNI) bridge components and backend middleware microservices.
+  - Configured Apache Solr indexing, email notification triggers and Hotfolder file processing.
+  - Promoted from Programmer Analyst Trainee.
+- Education: B.E. Computer Engineering / IT, Savitribai Phule Pune University (2016–2020).
 - Skills: Java, Spring Boot, Groovy, JavaScript, SQL, Solr, Docker, Kubernetes, Jenkins, Git, Agile/Scrum, Jira.
 - Open to adjacent roles she can learn into: Salesforce Commerce Cloud, commercetools, Spryker, other e-commerce platforms, e-commerce business analyst / functional consultant / product owner, Java backend for commerce.

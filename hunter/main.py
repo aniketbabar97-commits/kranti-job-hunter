@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import applied, digest, report, rules, score, sources, weekly
+from . import applied, digest, kit, report, rules, score, sources, weekly
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
@@ -125,6 +125,8 @@ def main():
     applied_data = applied.load()
     for j in jobs:
         j["applied"] = applied.status(j, applied_data)
+    if not os.getenv("DRY_RUN") or os.getenv("KIT_IN_DRY_RUN"):
+        kit.make_kits(jobs, cv)
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
     body = digest.build_html(jobs, health, label)

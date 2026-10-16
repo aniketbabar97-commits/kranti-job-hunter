@@ -56,6 +56,14 @@ Jobs posted 30+ days ago show a red **⏳ open N days** badge. The weekly summar
 roles that are *still open* after 30+ days (job agency + company feeds): companies struggling to hire — apply and
 message the recruiter directly.
 
+## Application kits
+
+For every job scoring 80+, an **📝 Application kit** button on the card opens a file in [`applications/`](applications/):
+the 3 CV points to put first, a tailored cover letter in English (plus German for German postings), a LinkedIn
+message for the recruiter, and an email draft when the posting lists a recruiter email. Generated from `cv.md` with
+strict rules (only her real experience, her own verbs, German B1). **Nothing is sent or submitted automatically** —
+she reviews, adjusts and sends herself. Max 8 new kits per run.
+
 ## Full record
 
 [`JOBS.md`](JOBS.md) lists every job ever sent, grouped like the email, newest first. Raw data: `data/jobs_log.csv`.
