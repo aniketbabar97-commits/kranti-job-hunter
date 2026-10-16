@@ -129,15 +129,17 @@ def _gemini(prompt):
     raise RuntimeError("no working Gemini model")
 
 
-def _groq(prompt):
+def _groq(prompt, json_object=False):
     key = os.environ["GROQ_API_KEY"]
     model = _groq_model(key)
+    body = {"model": model, "temperature": 0, "messages": [{"role": "user", "content": prompt}]}
+    if json_object:
+        body["response_format"] = {"type": "json_object"}
     r = requests.post(
         "https://api.groq.com/openai/v1/chat/completions",
         headers={"Authorization": f"Bearer {key}"},
-        json={"model": model, "temperature": 0,
-              "messages": [{"role": "user", "content": prompt}]},
-        timeout=90,
+        json=body,
+        timeout=120,
     )
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"]

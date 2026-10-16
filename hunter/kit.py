@@ -6,8 +6,11 @@ import json
 import logging
 import os
 import re
+import time
 from datetime import date
 from pathlib import Path
+
+import requests
 
 from . import score
 
@@ -46,14 +49,27 @@ Return ONLY a JSON object with these keys:
 
 
 def _call(prompt):
-    for name, fn, key in (("gemini", score._gemini, "GEMINI_API_KEY"), ("groq", score._groq, "GROQ_API_KEY")):
+    providers = (("gemini", score._gemini, "GEMINI_API_KEY"),
+                 ("groq", lambda p: score._groq(p, json_object=True), "GROQ_API_KEY"),
+                 ("groq-plain", score._groq, "GROQ_API_KEY"))  # JSON mode can 400 on malformed output
+    for name, fn, key in providers:
         if not os.getenv(key):
             continue
-        try:
-            text = fn(prompt)
-            return json.loads(re.search(r"\{.*\}", text, re.S).group(0))
-        except Exception as e:
-            log.warning("kit via %s failed: %s", name, e)
+        for attempt in range(3):
+            try:
+                m = re.search(r"\{.*\}", fn(prompt) or "", re.S)
+                data = json.loads(m.group(0)) if m else None
+                if data and data.get("cover_letter_en"):
+                    return data
+                log.warning("kit via %s: unusable answer (attempt %d)", name, attempt + 1)
+            except requests.HTTPError as e:
+                code = e.response.status_code if e.response is not None else 0
+                log.warning("kit via %s failed: %s", name, e)
+                if code not in (429, 500, 502, 503):
+                    break
+                time.sleep(30 * (attempt + 1))  # rate limit / overload: wait and retry
+            except Exception as e:
+                log.warning("kit via %s failed: %s", name, e)
     return None
 
 
@@ -99,6 +115,7 @@ def make_kits(jobs, cv, today=None):
                 continue
             path.write_text(render(job, k))
             made += 1
+            time.sleep(8)  # long answers: stay under free-tier tokens-per-minute
         job["kit"] = str(path.relative_to(ROOT))
     log.info("application kits created: %d", made)
     return jobs
