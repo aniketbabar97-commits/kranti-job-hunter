@@ -56,13 +56,25 @@ Jobs posted 30+ days ago show a red **⏳ open N days** badge. The weekly summar
 roles that are *still open* after 30+ days (job agency + company feeds): companies struggling to hire — apply and
 message the recruiter directly.
 
-## Application kits
+## Application kits (CV + cover letter per strong job)
 
-For every job scoring 80+, an **📝 Application kit** button on the card opens a file in [`applications/`](applications/):
-the 3 CV points to put first, a tailored cover letter in English (plus German for German postings), a LinkedIn
-message for the recruiter, and an email draft when the posting lists a recruiter email. Generated from `cv.md` with
-strict rules (only her real experience, her own verbs, German B1). **Nothing is sent or submitted automatically** —
-she reviews, adjusts and sends herself. Max 8 new kits per run.
+For every job scoring 80+ (and every hard-to-fill role in the Monday summary) the run creates:
+
+- **Tailored CV (PDF)** in Kranti's own design, built from [`profile/master.yaml`](profile/master.yaml) (her CV word
+  for word). The AI may only *select and reorder* her real bullets and skills — the code rejects anything not in the
+  master CV. Headline and summary mirror the job's keywords she truly has.
+- **Cover letter PDF in English**, plus **German** for German postings (her letter structure: hook, 4 matching
+  points, honest gap paragraph, notice period until 15.12.2026).
+- **Kit note** in [`applications/`](applications/): ATS keyword match (covered / missing), copy-paste answers for
+  application forms, "why us" and motivation texts, LinkedIn message, email draft.
+
+**ATS-friendly:** one column, real selectable text, standard headings, no text in images, normalised hyphens
+(checked by extracting the PDF text). **Accuracy checks:** her own verbs, notice period, German B1, surname-only
+salutations, and any technology claimed but missing from her CV is flagged "check before sending".
+
+**Privacy:** this repository is public, so the PDFs (phone, email, photo) are **attached to the email only** and
+never committed. Secrets: `CANDIDATE_PHONE`, `CANDIDATE_EMAIL`, `CANDIDATE_PHOTO_B64` (base64 of the photo).
+Nothing is ever sent or submitted automatically.
 
 ## Full record
 

@@ -1,10 +1,10 @@
 # Kranti Chavan — candidate profile (used for job scoring)
 
-- Based in Karlsruhe, Germany. Valid German residence & work permit, no sponsorship needed. Available immediately.
+- Based in Karlsruhe, Germany. Valid German residence & work permit, no sponsorship needed. Serving notice period at Rockwell Automation; last working day 15.12.2026, earliest start 16.12.2026.
 - Open to: anywhere in Germany (prefers Karlsruhe / Baden-Württemberg / Rhein-Neckar / Frankfurt), hybrid, or fully remote.
 - Languages: English C2, German B1 (improving), Hindi/Marathi native.
 - 5+ years SAP Commerce Cloud (Hybris 2105/2211) developer. SAP Certified Professional – SAP Commerce Cloud Developer; SAP Certified Associate – SAP Commerce Cloud Business User.
-- SAP Hybris Developer, Rockwell Automation (10/2024–09/2026, Pune, India), CV wording:
+- SAP Hybris Developer, Rockwell Automation (10/2024–15/12/2026, Pune, India; serving notice), CV wording:
   - Architected and customized core SAP Commerce (Hybris 2211) extensions for product, catalog, pricing and customer data management using Java Enterprise and OCC REST web services.
   - Designed and optimized high-throughput PIM-to-Hybris data pipelines (Profisee & Hotfolders) for product catalog synchronization across global e-commerce channels.
   - Configured Import Cockpit mappings, custom Interceptors, Populators, Converters and DataHub processing flows.

@@ -8,7 +8,7 @@ from pathlib import Path
 
 import re
 
-from . import applied, digest, report, rules, sources
+from . import applied, digest, kit, report, rules, sources
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "data" / "weekly_sent.txt"
@@ -93,6 +93,7 @@ def build(today, rows, applied_data, hard_to_fill=()):
             f"<tr style='border-bottom:1px solid #eaeef2'><td style='padding:6px 8px 6px 0;white-space:nowrap;color:#cf222e'>"
             f"<b>{j['days']}</b> days</td><td style='padding:6px 0'><a href='{e(j['url'])}' style='color:#0969da'>{e(j['title'])}</a>"
             f" — {e(j['company'])}{(', ' + e(j['location'])) if j['location'] else ''}"
+            f"{' · 📎 CV + letter attached' if j.get('attachments') else ''}"
             f"{' · ↺ applied at company' if applied.status(j, applied_data) == 'company' else ''}</td></tr>"
             for j in hard_to_fill) + "</table>")
     if repeat:
@@ -109,9 +110,14 @@ def maybe_send(today, cfg):
     if not is_due:
         return
     applied_data = applied.load()
-    body = build(today, report.read_log(), applied_data, long_open(cfg, applied_data))
+    hard = long_open(cfg, applied_data)
+    for j in hard:  # hard-to-fill roles are the best targets: give each one a full kit
+        j.setdefault("score", 90)
+        j.setdefault("lang", "de" if j["source"] == "Arbeitsagentur" else "en")
+    kit.make_kits(hard)
+    body = build(today, report.read_log(), applied_data, hard)
     (ROOT / "data" / "last_weekly.html").write_text(body)
-    if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body):
+    if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body, [a for j in hard for a in j.get("attachments", [])]):
         STATE.write_text(week)
         log.info("weekly summary sent for %s", week)
     else:
