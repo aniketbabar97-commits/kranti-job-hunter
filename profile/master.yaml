@@ -1,0 +1,75 @@
+# Kranti's master CV, taken word for word from her own CVs (Kranti_CV_DE1 / Kranti_CV_EN1).
+# Tailored CVs may only REORDER and SELECT from this file; they never add facts.
+# Phone, email and photo are NOT stored here (public repo) — they come from GitHub secrets.
+name: Kranti Chavan
+location: Karlsruhe, Germany
+linkedin: linkedin.com/in/kranti-chavan-84a155191
+work_authorization: Valid German residence & work permit (no sponsorship required)
+notice: Serving notice period; last working day 15/12/2026
+earliest_start: 16/12/2026
+work_mode: Remote, hybrid or on-site anywhere in Germany
+
+headlines:
+  - SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified
+  - Senior Java Developer | Spring Boot, REST APIs & Microservices | E-Commerce Platforms
+  - E-Commerce Developer | Headless & PWA Commerce APIs | SAP Commerce Cloud (Hybris)
+
+summary: >-
+  Backend developer with 5+ years of professional experience building, extending and supporting large enterprise
+  e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java,
+  Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data
+  and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and
+  Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.
+
+skills:
+  Backend: [Java (Core & J2EE), Spring Framework, Spring Boot, Microservices, RESTful APIs, SOAP, Design Patterns, Data Modeling, JUnit, Groovy]
+  E-Commerce: [SAP Commerce Cloud (Hybris 2105 / 2211), B2B / B2C Commerce, Headless Commerce, Order Management (OMS), Promotions Engine, Product Catalog & PIM, Backoffice, Impex, Cronjobs]
+  APIs & Integration: [REST web services, OCC APIs, PIM / ERP / MDM integration (Profisee, SAP ERP), DataHub, Hotfolders, file-based data pipelines, third-party integrations]
+  Databases & Search: [SQL, query optimization and performance tuning, FlexibleSearch, Apache Solr]
+  DevOps & Cloud: [CI/CD pipelines, Jenkins, Git, Docker, Kubernetes, SAP Commerce Cloud Portal (CCv2), Hybris Admin Console (HAC), production support and troubleshooting]
+  Frontend & Web: [JavaScript, Progressive Web Application (PWA) integration, Responsive Design, storefront customization]
+  Ways of Working: [Agile / Scrum, PI Planning, Jira, Confluence, Code Reviews, Technical Mentoring, International Teams]
+
+jobs:
+  - key: rockwell
+    title: SAP Hybris Developer (Senior Level)
+    company: Rockwell Automation
+    place: Pune, India
+    dates: 10/2024 – 15/12/2026
+    note: Serving notice period; last working day 15/12/2026
+    bullets:
+      - Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management, following platform best practices and design patterns.
+      - Developed and exposed OCC REST Web Services (headless APIs) for storefront and third-party consumers, and customized Interceptors, Populators and Converters for custom data flows.
+      - Designed, built and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global e-commerce channels.
+      - Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms, working directly with international technical teams.
+      - Engineered API migrations for customer account structures, improving system stability and data consistency.
+      - Performed code reviews, supported production issues and provided technical guidance to junior developers.
+  - key: shell
+    title: Software Engineer
+    company: Shell
+    place: Bangalore, India
+    dates: 05/2022 – 10/2024
+    bullets:
+      - "Developed and maintained core SAP Hybris modules: Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts and Order Management (OMS)."
+      - Built RESTful APIs and OCC Web Services for Headless Commerce integrations and Progressive Web Application (PWA) frontends.
+      - Consumed and exposed REST and SOAP web services and integrated external services through the SAP Commerce Cloud Portal (CCv2).
+      - Customized Backoffice components, authored Groovy administrative scripts and managed the platform through the Hybris Admin Console (HAC).
+      - Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows.
+      - Led database query refactoring that reduced response latency and improved transaction speed; supported production troubleshooting and maintenance.
+  - key: cognizant
+    title: Programmer Analyst
+    company: Cognizant Technology Solutions
+    place: Pune, India
+    dates: 11/2020 – 05/2022
+    bullets:
+      - Built automated unit and integration test suites with JUnit to maintain code quality and coverage.
+      - Developed Java Native Interface (JNI) bridge components and backend middleware services.
+      - Configured Apache Solr search indexing, automated email notification triggers and Hotfolder file-processing models.
+      - Supported agile delivery; promoted from Programmer Analyst Trainee for strong performance in Java Enterprise, SQL and SAP Hybris.
+
+certifications:
+  - SAP Certified Professional – SAP Commerce Cloud Developer
+  - SAP Certified Associate – SAP Commerce Cloud Business User
+
+education: Bachelor of Engineering (B.E.) in Computer Engineering / IT — Savitribai Phule Pune University, Pune, India (06/2016 – 06/2020)
+languages: English (Full Professional, C2) | German (Working Knowledge, B1) | Hindi and Marathi (Native)

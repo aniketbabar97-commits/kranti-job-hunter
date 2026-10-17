@@ -1,10 +1,14 @@
 """Build and send the HTML digest email."""
+import base64
 import html
 import logging
 import os
 import smtplib
 from datetime import date
+from email.mime.application import MIMEApplication
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from pathlib import Path
 
 import requests
 
@@ -83,6 +87,8 @@ def _card(j, e):
         + (f" <a href='{_base_url()}/blob/main/{e(j['kit'])}' style='display:inline-block;border:1px solid {color};"
            f"color:{color};text-decoration:none;padding:5px 12px;border-radius:6px;font-size:13px;font-weight:bold;"
            "margin-left:6px'>📝 Application kit</a>" if j.get("kit") and _base_url() else "")
+        + ("<div style='font-size:12px;color:#1a7f37;margin-top:6px'>📎 Tailored CV + cover letter attached to this email</div>"
+           if j.get("attachments") else "")
         + "</td></tr></table>")
 
 
@@ -133,6 +139,8 @@ def build_html(jobs, health, run_label):
                + " · ".join(f"{e(src)} {n}" for src, (n, _) in health.items()) + "</p>")
     if issues:
         out.append("<p style='font-size:12px;color:#9a6700'>⚠️ " + "<br>⚠️ ".join(issues) + "</p>")
+    if any(j.get("attachments") for j in jobs):
+        out.append(standard_answers())
     out.append(_record_links() + "</div>")
     return "".join(out)
 
@@ -146,25 +154,57 @@ def recipients():
     return [x.strip() for k in ("TO_EMAIL", "TO_EMAIL_2") for x in os.getenv(k, "").split(",") if x.strip()]
 
 
-def _resend(to, subject, body):
-    r = requests.post("https://api.resend.com/emails", timeout=30,
-                      headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"},
-                      json={"from": os.getenv("FROM_EMAIL") or "Job Hunter <onboarding@resend.dev>",
-                            "to": [to], "subject": subject, "html": body})
+def _attachment_name(path):
+    """Unique, readable file names: <company-job folder>__<file>."""
+    p = Path(path)
+    return f"{p.parent.name[11:]}__{p.name}" if p.parent.name[:4].isdigit() else p.name
+
+
+def _resend(to, subject, body, attachments=()):
+    payload = {"from": os.getenv("FROM_EMAIL") or "Job Hunter <onboarding@resend.dev>",
+               "to": [to], "subject": subject, "html": body}
+    if attachments:
+        payload["attachments"] = [{"filename": _attachment_name(a), "content": base64.b64encode(Path(a).read_bytes()).decode()}
+                                  for a in attachments]
+    r = requests.post("https://api.resend.com/emails", timeout=60,
+                      headers={"Authorization": f"Bearer {os.environ['RESEND_API_KEY']}"}, json=payload)
     if not r.ok:
         raise RuntimeError(f"Resend {r.status_code}: {r.text[:200]}")
 
 
-def _gmail(to, subject, body):
+def _gmail(to, subject, body, attachments=()):
     user = os.environ["GMAIL_USER"]
-    msg = MIMEText(body, "html", "utf-8")
+    msg = MIMEMultipart()
     msg["Subject"], msg["From"], msg["To"] = subject, user, to
+    msg.attach(MIMEText(body, "html", "utf-8"))
+    for a in attachments:
+        part = MIMEApplication(Path(a).read_bytes(), Name=_attachment_name(a))
+        part["Content-Disposition"] = f'attachment; filename="{_attachment_name(a)}"'
+        msg.attach(part)
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(user, os.environ["GMAIL_APP_PASSWORD"])
         s.send_message(msg)
 
 
-def send(subject, body):
+def standard_answers():
+    """Copy-paste block for application forms. Personal data only ever appears in the private email."""
+    from .documents import contact_info
+    c = contact_info()
+    rows = [("Name", "Kranti Chavan"), ("Email", c["email"]), ("Phone", c["phone"]), ("City", "Karlsruhe, Germany"),
+            ("LinkedIn", "https://linkedin.com/in/kranti-chavan-84a155191"),
+            ("Work permit", "Valid German residence & work permit, no sponsorship required"),
+            ("Earliest start", "16.12.2026 (serving notice, last working day 15.12.2026)"),
+            ("Experience", "5+ years SAP Commerce Cloud (Hybris), Java, Spring"),
+            ("Languages", "English C2, German B1, Hindi & Marathi native"),
+            ("Work mode", "Remote, hybrid or on-site anywhere in Germany")]
+    return ("<h3 style='margin-top:24px'>📋 Standard answers for application forms</h3>"
+            "<table style='font-size:13px;border-collapse:collapse'>" + "".join(
+                f"<tr><td style='padding:3px 10px 3px 0;color:#57606a'>{html.escape(k)}</td><td style='padding:3px 0'>{html.escape(v)}</td></tr>"
+                for k, v in rows) + "</table><p style='font-size:12px;color:#57606a'>Job-specific answers (why this company, "
+            "motivation, LinkedIn note) are in each job's 📝 Application kit.</p>")
+
+
+def send(subject, body, attachments=()):
     """One email per recipient, so one bad address can't block the other. True if any arrived."""
     senders = [(n, f) for n, f, k in [("gmail", _gmail, "GMAIL_APP_PASSWORD"), ("resend", _resend, "RESEND_API_KEY")]
                if os.getenv(k)]
@@ -176,10 +216,10 @@ def send(subject, body):
     for to in to_list:
         for name, fn in senders:
             try:
-                fn(to, subject, body)
-                log.info("emailed %s via %s", to, name)
+                fn(to, subject, body, attachments)
+                log.info("emailed %s via %s (%d attachments)", to, name, len(attachments))
                 sent += 1
                 break
-            except Exception as e:
-                log.warning("%s -> %s failed: %s", name, to, e)
+            except Exception as ex:
+                log.warning("%s -> %s failed: %s", name, to, ex)
     return sent > 0

@@ -138,7 +138,7 @@ def main():
     strong, good, _ = digest.summary(jobs)
     subject = (f"🎯 {strong} strong · 👍 {good} good · {len(jobs)} new jobs — {label}" if jobs
                else f"No new jobs — {label}")
-    if not digest.send(subject, body):
+    if not digest.send(subject, body, [a for j in jobs for a in j.get('attachments', [])]):
         log.error("Email not sent; seen list left unchanged so jobs show up next run")
         sys.exit(1)
 

@@ -46,11 +46,17 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Install Chromium for PDF rendering
+        run: python -m playwright install --with-deps chromium
+
       - name: Search, score and email
         env:
           GEMINI_API_KEY:     ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY:       ${{ secrets.GROQ_API_KEY }}
           SERPER_API_KEY:     ${{ secrets.SERPER_API_KEY }}
+          CANDIDATE_PHONE:    ${{ secrets.CANDIDATE_PHONE }}
+          CANDIDATE_EMAIL:    ${{ secrets.CANDIDATE_EMAIL }}
+          CANDIDATE_PHOTO_B64: ${{ secrets.CANDIDATE_PHOTO_B64 }}
           RESEND_API_KEY:     ${{ secrets.RESEND_API_KEY }}
           FROM_EMAIL:         ${{ secrets.FROM_EMAIL }}
           TO_EMAIL:           ${{ secrets.TO_EMAIL }}
