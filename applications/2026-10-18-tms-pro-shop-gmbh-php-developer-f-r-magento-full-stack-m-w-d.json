@@ -1,0 +1,137 @@
+{
+ "job": {
+  "title": "PHP-Developer für Magento / Full Stack (m/w/d)",
+  "company": "TMS PRO SHOP GmbH",
+  "location": "Braunschweig, Niedersachsen",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003783182-S",
+  "apply_url": "",
+  "score": 60,
+  "source": "Arbeitsagentur",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
+  "contact": "",
+  "direct_url": "https://www.tmsproshop.de",
+  "email_subject": "Bewerbung als PHP-Developer für Magento / Full Stack",
+  "email_body": "Sehr geehrter Herr Adam, sehr geehrter Herr Stute,\n\nFür Ihren Shop brauchen Sie jemanden, der Erweiterungen, Schnittstellen und Storefront gleichermaßen beherrscht – diese Bandbreite bringe ich aus über fünf Jahren bei Rockwell Automation und Shell mit.\n\n– OCC-REST-Webservices (Headless-APIs) für Storefronts, PWA-Frontends und Drittsysteme entwickelt\n– Refaktorierung von Datenbankabfragen geleitet: kürzere Antwortzeiten, schnellere Transaktionen\n– KI-Tools (generative KI / LLMs) intensiv in Analyse, Entwicklung, Test und Dokumentation eingesetzt\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan"
+ },
+ "tailoring": {
+  "headline": "Full-Stack E-Commerce Entwicklerin | Shop-Erweiterungen, APIs & Storefront",
+  "summary": "Full-Stack-E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Entwicklung und Betrieb großer Online-Shops für Rockwell Automation und Shell. Entwickelt Backend- und Frontend-Funktionen, Shop-Erweiterungen und REST-APIs, passt Storefronts mit JavaScript und Responsive Design an und bindet PIM- und ERP-Systeme an. Stark in SQL, Abfrageoptimierung und Troubleshooting im Produktivbetrieb. Arbeitet mit Git und CI/CD, führt Code-Reviews durch und nutzt KI-gestützte Entwicklung täglich. Arbeitet eng mit Fachbereichen zusammen und denkt Kundenerlebnis und Performance immer mit.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "JUnit"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "Git",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "production support and troubleshooting"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering"
+   ],
+   "Ways of Working": [
+    "Code Reviews",
+    "Agile / Scrum",
+    "Jira",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    1,
+    0,
+    2,
+    4,
+    7,
+    5,
+    3,
+    6
+   ],
+   "shell": [
+    1,
+    0,
+    5,
+    4,
+    2,
+    3,
+    6
+   ],
+   "cognizant": [
+    2,
+    0,
+    1,
+    3
+   ]
+  },
+  "why_company": "TMS PRO SHOP betreibt einen spezialisierten Online-Shop aus Braunschweig, in dem eine Full-Stack-Entwicklerin direkten Einfluss auf Kundenerlebnis und Umsatz hat. Meine fünf Jahre Erfahrung mit Shop-Erweiterungen, Schnittstellen, Storefront-Anpassung und Performance großer Commerce-Plattformen möchte ich hier mit kurzen Wegen einbringen.",
+  "linkedin_message": "Guten Tag, Ihre Stelle Full-Stack-Developer (Magento) interessiert mich: 5+ Jahre Entwicklung großer Online-Shops bei Rockwell Automation und Shell – Erweiterungen, REST-APIs, JavaScript-Storefront, Performance. Start ab 16.12.2026. Gern kurz sprechen?"
+ },
+ "letters": {
+  "de": {
+   "subject": "Bewerbung als PHP-Developer für Magento / Full Stack",
+   "salutation": "Sehr geehrter Herr Stute,",
+   "hook": "Für Ihren Online-Shop suchen Sie eine Full-Stack-Entwicklung, die Shop-Erweiterungen, Schnittstellen und Storefront gleichermaßen beherrscht. Genau diese Bandbreite bringe ich mit: Seit über fünf Jahren entwickle ich bei Rockwell Automation und Shell Backend- und Frontend-Funktionen großer B2B- und B2C-Shops.",
+   "bullets": [
+    {
+     "label": "Full Stack: Backend & Frontend",
+     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten umgesetzt; Storefront-Anpassungen mit JavaScript und Responsive Design."
+    },
+    {
+     "label": "Erweiterungen & Schnittstellen",
+     "text": "RESTful APIs für Headless- und PWA-Frontends entwickelt, Drittsysteme über REST und SOAP angebunden und PIM-/ERP-Datenpipelines aufgebaut."
+    },
+    {
+     "label": "Performance",
+     "text": "Refaktorierung von Datenbankabfragen geleitet – kürzere Antwortzeiten, schnellere Transaktionen."
+    },
+    {
+     "label": "Qualität & Betrieb",
+     "text": "Code-Reviews, CI/CD-Deployment-Zyklen und schnelle Fehleranalyse im Produktivbetrieb; KI-Tools intensiv in Entwicklung und Test eingesetzt."
+    }
+   ],
+   "gap": "",
+   "logistics": "Meine Erfahrung mit Erweiterungsarchitekturen großer Shop-Plattformen lässt sich direkt auf Ihr System übertragen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen im Gespräch, was ich für Ihren Shop leisten kann.",
+   "closing": "",
+   "contact": "z. Hd. Herrn David Adam und Herrn Sebastian Stute, Geschäftsführung"
+  }
+ },
+ "lang": "de",
+ "created": "2026-10-18"
+}

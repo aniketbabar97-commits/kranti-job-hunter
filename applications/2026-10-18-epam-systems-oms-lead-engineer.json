@@ -1,0 +1,153 @@
+{
+ "job": {
+  "title": "OMS Lead Engineer",
+  "company": "EPAM Systems",
+  "location": "Home Office, Germany",
+  "url": "https://de.indeed.com/viewjob?jk=a51c78eddf81f2f9",
+  "apply_url": "",
+  "score": 85,
+  "source": "Indeed",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
+  "contact": "",
+  "direct_url": "https://www.epam.com/careers",
+  "email_subject": "Application: OMS Lead Engineer",
+  "email_body": "Dear Hiring Team,\n\nYou need an OMS engineer who knows the order flow and the systems around it – I developed and maintained Order Management (OMS) on SAP Commerce Cloud at Shell and drive ERP/MDM integrations at Rockwell Automation.\n\n– 5+ years SAP Commerce Cloud (Hybris 2105/2211), Java and Spring\n– Code reviews and technical guidance for junior developers\n– Query refactoring that reduced response latency\n\nI work independently and results-driven in international, agile teams – remote, hybrid or on-site. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. I would be glad to show you in a short call what I can deliver for EPAM.\n\nKind regards\nKranti Chavan"
+ },
+ "tailoring": {
+  "headline": "Order Management (OMS) Engineer | SAP Commerce Cloud, Java, Spring & Integrations",
+  "summary": "Senior SAP Commerce Cloud engineer with 5+ years building and supporting enterprise B2B and B2C commerce platforms (Hybris 2105 and 2211) for Rockwell Automation and Shell. Developed and maintained Order Management (OMS), Promotions Engine, Cronjobs and Impex; built RESTful APIs and OCC web services for headless commerce. Strong in Java, Spring and Spring Boot, PIM / ERP / MDM integrations, SQL performance tuning and production troubleshooting. Performs code reviews, mentors junior developers and executes CI/CD deployment cycles on CCv2. SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "PI Planning",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "Technical Mentoring",
+    "International Teams"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    3,
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    5,
+    4,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    1,
+    3
+   ]
+  },
+  "why_company": "EPAM delivers complex commerce transformations for global clients, and order management is where reliability matters most. I want to bring my OMS, integration and SAP Commerce depth to a remote-first engineering culture that values technical excellence, code quality and mentoring – the way I already work with international teams today.",
+  "linkedin_message": "Hi, your OMS Lead Engineer role caught my eye: I developed and maintained Order Management (OMS) on SAP Commerce Cloud at Shell and lead integration work at Rockwell Automation. SAP certified, based in Karlsruhe, start 16.12.2026. Happy to talk!"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: OMS Lead Engineer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "Order management sits at the heart of every enterprise commerce platform, and it needs an engineer who understands both the order flow and the systems around it. I have worked exactly there for more than five years: at Shell I developed and maintained Order Management (OMS) on SAP Commerce Cloud, and at Rockwell Automation I resolve integration bottlenecks between SAP ERP, MDM and the shop – as an SAP Certified Commerce Cloud Developer.",
+   "bullets": [
+    {
+     "label": "Order Management (OMS)",
+     "text": "Developed and maintained core SAP Hybris modules at Shell: Order Management (OMS), Promotions Engine, FlexibleSearch queries, Cronjobs, Impex scripts and Hotfolders."
+    },
+    {
+     "label": "Integrations & APIs",
+     "text": "Built RESTful APIs and OCC web services for headless commerce and PWA frontends; consumed and exposed REST and SOAP services and resolved bottlenecks between SAP ERP, MDM and Profisee."
+    },
+    {
+     "label": "Technical leadership",
+     "text": "Perform code reviews, support production issues and provide technical guidance to junior developers; engineered API migrations for customer account structures that improved stability and data consistency."
+    },
+    {
+     "label": "Performance & delivery",
+     "text": "Led database query refactoring that reduced response latency and improved transaction speed; executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)."
+    }
+   ],
+   "gap": "",
+   "logistics": "I live in Karlsruhe, hold a valid German residence and work permit and can start at EPAM on 16 December 2026 after my notice period. I would welcome a conversation to show you the concrete contribution I can make to your team.",
+   "closing": "",
+   "contact": "Attn. EPAM Systems, Talent Acquisition"
+  }
+ },
+ "lang": "en",
+ "created": "2026-10-18"
+}

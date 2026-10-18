@@ -1,0 +1,127 @@
+{
+ "job": {
+  "title": "Full-Stack-Developer im E-Commerce-Umfeld (m/w/d)",
+  "company": "Kugellager-Express GmbH",
+  "location": "Schloß Holte-Stukenbrock, Nordrhein-Westfalen",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S",
+  "apply_url": "",
+  "score": 70,
+  "source": "Arbeitsagentur",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
+  "contact": "karriere@kugellager-express.de",
+  "direct_url": "https://www.kugellager-express.de/karriere",
+  "email_subject": "Bewerbung als Full-Stack-Developer im E-Commerce-Umfeld",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie holen die Shop-Entwicklung ins Haus und brauchen jemanden, der Backend, Frontend und Schnittstellen verantwortet – genau das mache ich seit fünf Jahren bei Rockwell Automation und Shell.\n\n– 5+ Jahre SAP Commerce Cloud (Hybris 2105/2211) bei Rockwell Automation und Shell\n– JavaScript, PWA-Integration und Storefront-Anpassung\n– PIM-zu-Shop-Datenpipelines mit Profisee, Hotfolders und DataHub\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
+ },
+ "tailoring": {
+  "headline": "Full-Stack-Developer E-Commerce | Backend, Frontend, Schnittstellen & Features",
+  "summary": "Full-Stack-Entwicklerin im E-Commerce mit über 5 Jahren Erfahrung in Neu- und Weiterentwicklung großer B2B- und B2C-Onlineshops für Rockwell Automation und Shell. Entwickelt Features im Backend und Frontend, REST-APIs, Storefront-Anpassungen mit JavaScript sowie Anbindungen an PIM-, ERP- und Drittsysteme. Optimiert Datenbankabfragen für Performance, führt CI/CD-Deployment-Zyklen durch und unterstützt den Produktivbetrieb. Arbeitet eigenverantwortlich, eng mit Fachbereichen und nutzt KI-Tools intensiv in der Entwicklung. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
+  "skills": {
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "file-based data pipelines"
+   ],
+   "Backend": [
+    "RESTful APIs",
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "Design Patterns",
+    "JUnit"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Git",
+    "Docker",
+    "production support and troubleshooting"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    5,
+    4,
+    7
+   ],
+   "shell": [
+    1,
+    0,
+    2,
+    5,
+    4,
+    6,
+    3
+   ],
+   "cognizant": [
+    2,
+    0,
+    3,
+    1
+   ]
+  },
+  "why_company": "Kugellager-Express beliefert weltweit Privat- und Geschäftskunden und baut die Shop-Entwicklung jetzt intern auf – eine Chance, wirklich Verantwortung zu übernehmen. Meine Erfahrung mit großen B2B-Shops, Produktkatalogen und ERP-Anbindungen passt genau zu einem technischen B2B-Sortiment wie Ihrem. Von Karlsruhe aus kann ich mit gültiger Arbeitserlaubnis ab dem 16.12.2026 starten.",
+  "linkedin_message": "Guten Tag! Ihre Stelle Full-Stack-Developer E-Commerce passt gut: 5+ Jahre B2B/B2C-Shop-Entwicklung in Backend, Frontend und PIM/ERP-Schnittstellen (Rockwell Automation, Shell). Start 16.12.2026. Gern ein kurzes Gespräch?"
+ },
+ "letters": {
+  "de": {
+   "subject": "Bewerbung als Full-Stack-Developer im E-Commerce-Umfeld",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie holen die Entwicklung Ihrer Shops ins eigene Haus und suchen jemanden, der dafür Verantwortung übernimmt. Genau das bringe ich mit: Seit über fünf Jahren entwickle ich bei Rockwell Automation und Shell große B2B- und B2C-Onlineshops im Backend wie im Frontend weiter – inklusive Schnittstellen zu PIM- und ERP-Systemen.",
+   "bullets": [
+    {
+     "label": "Neu- und Weiterentwicklung im Backend",
+     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring entworfen und umgesetzt; Promotions Engine, Order Management (OMS), Cronjobs, Impex und FlexibleSearch entwickelt und gepflegt."
+    },
+    {
+     "label": "Frontend & Features",
+     "text": "APIs für Headless Commerce und PWA-Frontends entwickelt sowie Storefronts und Backoffice-Komponenten mit JavaScript und Responsive Design angepasst."
+    },
+    {
+     "label": "Schnittstellen zu Drittsystemen",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert, die Produktkataloge über globale E-Commerce-Kanäle synchron halten."
+    },
+    {
+     "label": "Stabiler Betrieb",
+     "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
+    }
+   ],
+   "gap": "",
+   "logistics": "Eigenverantwortliches Arbeiten und die enge Abstimmung mit IT und Fachbereich sind für mich selbstverständlich – ideal, um Ihre B2B-Shops intern schnell voranzubringen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Kugellager-Express konkret verstärken kann.",
+   "closing": "",
+   "contact": ""
+  }
+ },
+ "lang": "de",
+ "created": "2026-10-18"
+}

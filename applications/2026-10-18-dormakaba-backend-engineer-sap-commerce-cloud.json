@@ -1,0 +1,150 @@
+{
+ "job": {
+  "title": "Backend Engineer - SAP Commerce Cloud",
+  "company": "dormakaba",
+  "location": "Sofia, Sofia City, Bulgaria",
+  "url": "https://www.linkedin.com/jobs/view/4457102857",
+  "apply_url": "",
+  "score": 80,
+  "source": "Linkedin",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
+  "contact": "",
+  "direct_url": "https://www.dormakaba.com/careers",
+  "email_subject": "Application: Backend Engineer - SAP Commerce Cloud",
+  "email_body": "Dear Hiring Team,\n\nYou need a backend engineer who owns SAP Commerce features end-to-end with AI support – that is how I have worked on Hybris 2105/2211 at Rockwell Automation and Shell.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams\n– Used generative AI / LLM tools extensively across analysis, development, testing and documentation\n– Led database query refactoring that reduced response latency and improved transaction speed\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan"
+ },
+ "tailoring": {
+  "headline": "Backend Engineer – SAP Commerce Cloud | Java, Spring, OCC APIs & ERP Integration",
+  "summary": "Backend engineer with 5+ years building and maintaining highly customized SAP Commerce / SAP Commerce Cloud platforms (Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring, REST APIs and OCC extension work, with deep knowledge of catalog and product data, pricing, promotions, orders and customer accounts. Integrates SAP Commerce with ERP, MDM, PIM and third-party services; executed CI/CD deployment cycles on CCv2 and troubleshoots production issues. Works hands-on with AI tools and reviews, tests and hardens the output. SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering"
+   ],
+   "Ways of Working": [
+    "Code Reviews",
+    "Technical Mentoring",
+    "Agile / Scrum",
+    "International Teams",
+    "Jira"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    3,
+    2,
+    7,
+    4,
+    5,
+    6
+   ],
+   "shell": [
+    0,
+    1,
+    5,
+    4,
+    2,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    1,
+    3
+   ]
+  },
+  "why_company": "dormakaba's 100% tailor-made SAP Commerce Cloud platform with extensive ERP, payment and third-party integration, built with an AI coding agent and strong engineering ownership, matches how I work. Five years of Java/Spring on Hybris 2105/2211, OCC APIs, ERP/MDM/PIM integration and daily AI-assisted development let me take ownership of backend features quickly.",
+  "linkedin_message": "Hello, your Backend Engineer - SAP Commerce Cloud role is a strong match: 5+ years Hybris 2105/2211 at Rockwell Automation and Shell, Java/Spring, OCC APIs, ERP/MDM/PIM integration, AI-assisted development. Karlsruhe, start 16.12.2026. Open to a short call?"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Backend Engineer - SAP Commerce Cloud",
+   "salutation": "Dear Hiring Team,",
+   "hook": "You are looking for a backend engineer who owns SAP Commerce features end-to-end on a highly complex, integration-heavy platform – and uses AI coding support while staying accountable for quality. That is my daily work: for more than five years at Rockwell Automation and Shell I have built and extended SAP Commerce Cloud (Hybris 2105 and 2211) with Java and Spring, using generative AI tools throughout development and testing.",
+   "bullets": [
+    {
+     "label": "SAP Commerce services, extensions & business logic",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211) with Java and Spring; developed and maintained the Promotions Engine, OMS, Cronjobs, Impex and FlexibleSearch."
+    },
+    {
+     "label": "APIs & integration with ERP and third-party services",
+     "text": "Developed OCC REST web services and customized Interceptors, Populators and Converters; resolved integration bottlenecks between SAP ERP, MDM and Profisee and built PIM-to-Hybris pipelines with DataHub and Hotfolders."
+    },
+    {
+     "label": "Working with AI support – and owning the result",
+     "text": "Used generative AI / LLM tools extensively to accelerate analysis, development, testing and documentation – with prompt engineering and critical review of the output through code reviews."
+    },
+    {
+     "label": "Production, performance & cloud operation",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2), supported production issues and led database query refactoring that reduced response latency."
+    }
+   ],
+   "gap": "",
+   "logistics": "I translate business requirements into tested backend features and communicate easily with technical and non-technical stakeholders. I am based in Karlsruhe, hold a valid German work permit and work smoothly with distributed teams; I can start on 16 December 2026 after my notice period. I would welcome a conversation about your platform.",
+   "closing": "",
+   "contact": ""
+  }
+ },
+ "lang": "en",
+ "created": "2026-10-18"
+}

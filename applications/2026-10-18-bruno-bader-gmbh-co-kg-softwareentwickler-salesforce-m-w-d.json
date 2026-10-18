@@ -1,0 +1,141 @@
+{
+ "job": {
+  "title": "Softwareentwickler Salesforce (m/w/d)",
+  "company": "Bruno Bader GmbH + Co. KG",
+  "location": "Pforzheim, BW, Germany",
+  "url": "https://de.indeed.com/viewjob?jk=04c94bad5e75d79b",
+  "apply_url": "",
+  "score": 80,
+  "source": "Indeed",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
+  "contact": "",
+  "direct_url": "https://www.bader.de/karriere",
+  "email_subject": "Application: Softwareentwickler Salesforce – e-commerce developer from Karlsruhe",
+  "email_body": "Dear Hiring Team,\n\nYour Salesforce team needs a developer who keeps a large commerce platform integrated and fast – I have done exactly that for 5+ years on enterprise e-commerce platforms for Rockwell Automation and Shell.\n\n– Java, Spring, JavaScript and REST/SOAP APIs for headless storefronts and third-party systems\n– Integrations with ERP, PIM and order management; database query refactoring for lower latency\n– Requirements and user stories with business teams; CI/CD deployment cycles and code reviews\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
+ },
+ "tailoring": {
+  "headline": "Software Developer E-Commerce | Java, APIs & Integrations | Commerce Platforms",
+  "summary": "Software developer with 5+ years building and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris) for Rockwell Automation and Shell. Strong in Java, Spring, JavaScript, RESTful and SOAP APIs, SQL and query performance tuning, with proven integrations between commerce, ERP, PIM and order management. Works techno-functionally with business teams on requirements and user stories, executes CI/CD deployment cycles and supports production. Uses AI tools extensively in development and documentation. SAP Certified Commerce Cloud Developer, based near Pforzheim in Karlsruhe.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "Git",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "production support and troubleshooting"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira",
+    "Confluence"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    6
+   ],
+   "shell": [
+    1,
+    0,
+    2,
+    5,
+    4,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    1,
+    3
+   ]
+  },
+  "why_company": "Bader combines a long tradition in mail-order retail with a strong online business – a setting where reliable commerce technology directly shapes the customer experience. Its location in Pforzheim, close to my home in Karlsruhe, and the focus on Salesforce-based commerce make it a natural next step for my e-commerce development experience.",
+  "linkedin_message": "Hello! I applied for the Softwareentwickler Salesforce role: 5+ years developing enterprise e-commerce platforms (Java, REST APIs, ERP/PIM integration) for Rockwell Automation and Shell. Based in Karlsruhe, near Pforzheim; start 16.12.2026. Happy to have a short chat!"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Softwareentwickler Salesforce",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As a long-established mail-order and online retailer, Bader needs developers who keep a large commerce platform fast, integrated and reliable for its customers. That is exactly what I have done for more than five years: at Rockwell Automation and Shell I build and support enterprise e-commerce platforms with Java, Spring and REST APIs, connected to ERP, PIM and order management.",
+   "bullets": [
+    {
+     "label": "Commerce platform development",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data; developed and maintained the Promotions Engine and Order Management (OMS) at Shell."
+    },
+    {
+     "label": "APIs & integrations",
+     "text": "Built RESTful APIs and OCC web services for headless commerce and PWA frontends; consumed and exposed REST and SOAP services and integrated PIM, ERP and MDM systems through data pipelines."
+    },
+    {
+     "label": "Performance & stability",
+     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations that improved system stability and data consistency."
+    },
+    {
+     "label": "Agile delivery & quality",
+     "text": "Executed CI/CD deployment cycles and release builds in agile DevOps workflows, performed code reviews and turned business requirements into user stories and working solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I work closely with business teams and enjoy turning their requirements into solutions that customers notice. I live in Karlsruhe, a short commute to Pforzheim, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to discuss in a conversation how I can strengthen your Salesforce team.",
+   "closing": "",
+   "contact": ""
+  }
+ },
+ "lang": "en",
+ "created": "2026-10-18"
+}

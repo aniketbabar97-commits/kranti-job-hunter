@@ -1,0 +1,132 @@
+{
+ "job": {
+  "title": "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)",
+  "company": "dmTECH GmbH",
+  "location": "Karlsruhe, Baden, Baden-Wuerttemberg",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-270206081026-S",
+  "apply_url": "",
+  "score": 85,
+  "source": "Arbeitsagentur",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
+  "contact": "",
+  "direct_url": "https://www.dmtech.de/karriere",
+  "email_subject": "Bewerbung als Backend Developer Onlineshop & dm-App – Java / Kotlin",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen jemanden, der Produktdaten aus verschiedenen Quellsystemen per Java-Backend an Onlineshop und App ausliefert – genau das mache ich seit fünf Jahren für Rockwell Automation und Shell.\n\n– PIM-zu-Shop-Datenpipelines mit Profisee, Hotfolders und DataHub\n– Java, Spring Boot, RESTful APIs und Microservices\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n– JUnit-Testsuiten, Code-Reviews, Mentoring von Junior-Entwicklern\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
+ },
+ "tailoring": {
+  "headline": "Backend Developer Java | Spring Boot Microservices, RESTful APIs & Produktdaten",
+  "summary": "Backend-Entwicklerin mit über 5 Jahren Erfahrung in Java, Spring Boot, Microservices und RESTful APIs für große Onlineshops von Rockwell Automation und Shell. Schwerpunkt auf Aufbereitung von Produktdaten aus Quellsystemen wie PIM, ERP und MDM und deren Auslieferung an Shop, Headless- und PWA-Frontends. Sichert Codequalität durch Code-Reviews und automatisierte Tests, optimiert SQL-Abfragen für Performance und führt CI/CD-Deployment-Zyklen durch. Nutzt KI-Tools intensiv in Analyse, Entwicklung, Test und Dokumentation. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "Spring Framework",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "file-based data pipelines",
+    "OCC APIs"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "Jenkins",
+    "production support and troubleshooting"
+   ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "Product Catalog & PIM",
+    "Order Management (OMS)"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
+   "Ways of Working": [
+    "Code Reviews",
+    "Technical Mentoring",
+    "Agile / Scrum",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    1,
+    0,
+    4,
+    3,
+    2,
+    5,
+    7,
+    6
+   ],
+   "shell": [
+    1,
+    5,
+    2,
+    4,
+    0,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "why_company": "dmTECH gestaltet für 7 Millionen Kundinnen und Kunden pro Monat das Omnichannel-Shopping – und das direkt in meiner Heimatstadt Karlsruhe. Produktdaten aus Quellsystemen sauber an Shop und App auszuspielen ist genau meine Stärke. Besonders reizt mich, dass Sie KI aktiv in die Softwareentwicklung einbinden.",
+  "linkedin_message": "Guten Tag! Die Rolle Backend Developer Onlineshop & dm-App passt genau: 5+ Jahre Java/Spring Boot, REST-APIs und Produktdaten-Pipelines (PIM/ERP) für Rockwell Automation und Shell. Wohne in Karlsruhe, Start 16.12.2026. Gern ein kurzes Gespräch?"
+ },
+ "letters": {
+  "de": {
+   "subject": "Bewerbung als Backend Developer Onlineshop & dm-App – Java / Kotlin",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Backend-Entwicklerin, die Produktdaten aus verschiedenen Quellsystemen zuverlässig aufbereitet und an App und Onlineshop ausliefert. Genau das ist seit über fünf Jahren mein Kerngebiet: Bei Rockwell Automation und Shell entwickle ich mit Java und Spring Boot APIs und Datenpipelines, die Produktkataloge über globale Kanäle synchron halten.",
+   "bullets": [
+    {
+     "label": "Produktdaten aus Quellsystemen",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert, die Produktkataloge über globale E-Commerce-Kanäle synchron halten."
+    },
+    {
+     "label": "Backend-Services und APIs",
+     "text": "OCC-REST-Webservices (Headless-APIs) für Storefronts, PWA-Frontends und Drittsysteme entwickelt und bereitgestellt; Interceptors, Populators und Converters für eigene Datenflüsse angepasst."
+    },
+    {
+     "label": "Performance & Verfügbarkeit",
+     "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
+    },
+    {
+     "label": "Codequalität & KI",
+     "text": "Setze generative KI und LLM-Tools intensiv ein, um Analyse, Entwicklung, Test und Dokumentation im Projektalltag zu beschleunigen."
+    }
+   ],
+   "gap": "",
+   "logistics": "KI nutze ich nicht nur als Werkzeug, sondern verändere damit aktiv, wie ich analysiere, entwickle und teste – ein Wandel, den ich gern mit dmTECH gestalte. Als Karlsruherin bin ich zudem direkt vor Ort. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich dmTECH konkret verstärken kann.",
+   "closing": "",
+   "contact": ""
+  }
+ },
+ "lang": "de",
+ "created": "2026-10-18"
+}
