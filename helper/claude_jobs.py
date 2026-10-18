@@ -92,6 +92,9 @@ def done(job_id, status, note=""):
         note = f"{note} → email route"
     s = _state()
     s[job_id] = {"status": status, "note": note, "ts": time.strftime("%Y-%m-%d %H:%M")}
+    for site in ("linkedin", "xing"):
+        if status == "confirmed" and f"{site} easy apply" in (note or "").lower():
+            s[job_id]["via"] = site
     _save(s)
     kit = next((k for k in queue(days=365) if _id(k) == job_id), None)
     job = kit["job"] if kit else {"url": job_id, "company": "?", "title": "?"}
@@ -112,9 +115,15 @@ def main():
         res = next_jobs(int(sys.argv[2]) if len(sys.argv) > 2 else 1)
     elif cmd == "facts":
         res = facts()
-    elif cmd == "password":
+    elif cmd == "password":  # password [linkedin|xing] -> that platform's login, else the default account password
         import os
-        res = {"password": os.environ.get("ACCOUNT_PASSWORD", "")}
+        site = (sys.argv[2] if len(sys.argv) > 2 else "").upper()
+        if site in ("LINKEDIN", "XING"):
+            used = sum(1 for v in _state().values() if v.get("via") == site.lower() and v["ts"][:10] == time.strftime("%Y-%m-%d"))
+            res = {"email": os.environ.get(f"{site}_EMAIL", ""), "password": os.environ.get(f"{site}_PASSWORD", ""),
+                   "left_today": max(0, 10 - used)}
+        else:
+            res = {"password": os.environ.get("ACCOUNT_PASSWORD", "")}
     elif cmd == "code":  # code <company> [site-domain]: link first (they expire fast), then a numeric code
         from helper import mailcodes
         since, hints, res = time.time() - 600, [h for h in sys.argv[2:4] if h], {}
