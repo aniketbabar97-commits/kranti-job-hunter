@@ -58,12 +58,12 @@ def credentials():
 
 
 def load():
-    return json.loads(LEDGER.read_text()) if LEDGER.exists() else {}
+    return json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else {}
 
 
 def save(ledger):
     LEDGER.parent.mkdir(exist_ok=True)
-    LEDGER.write_text(json.dumps(ledger, indent=1, ensure_ascii=False, sort_keys=True))
+    LEDGER.write_text(json.dumps(ledger, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
 
 
 def pick_email(job):
@@ -120,7 +120,7 @@ def backfill(cfg, days=None):
     if not ready():
         log.warning("email applications off: add secrets CANDIDATE_EMAIL, CANDIDATE_PHONE, KRANTI_GMAIL_APP_PASSWORD")
         return [], []
-    master_cv = (ROOT / "cv.md").read_text()
+    master_cv = (ROOT / "cv.md").read_text(encoding="utf-8")
     data = applied.load()
     s = _settings(cfg)
     days = days or s["days"]
@@ -131,7 +131,7 @@ def backfill(cfg, days=None):
         per_co[v["company_key"]] = per_co.get(v["company_key"], 0) + 1
     since = (date.today() - timedelta(days=days)).isoformat()
     jobs, urls = [], set()
-    for r in csv.DictReader(open(ROOT / "data" / "jobs_log.csv")):
+    for r in csv.DictReader(open(ROOT / "data" / "jobs_log.csv", encoding="utf-8")):
         if r["url"] in urls:
             continue
         urls.add(r["url"])
@@ -310,9 +310,9 @@ def prepare(jobs, cfg, today=None):
 def _log_applied(entry):
     """Append to APPLIED.md so the digest marks the job as applied."""
     line = f"- {entry['sent']} {entry['url']} ({entry['company']}, emailed to {entry['to']})\n"
-    text = applied.FILE.read_text() if applied.FILE.exists() else "# Applied\n\n## My applications\n"
+    text = applied.FILE.read_text(encoding="utf-8") if applied.FILE.exists() else "# Applied\n\n## My applications\n"
     if entry["url"] not in text:
-        applied.FILE.write_text(text.rstrip("\n") + "\n" + line)
+        applied.FILE.write_text(text.rstrip("\n") + "\n" + line, encoding="utf-8")
 
 
 def sync():
@@ -383,7 +383,7 @@ if __name__ == "__main__":  # python -m hunter.outreach  (workflow input "email_
     import yaml
     from . import digest
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     made, jobs = backfill(cfg)
     if not made:
         raise SystemExit("no email applications prepared (see log)" if ready() else

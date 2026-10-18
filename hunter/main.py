@@ -76,9 +76,9 @@ RUN_STATE = ROOT / "data" / "last_career_search.txt"
 def first_run_today():
     """Career-site searches cost Serper credits, so only the first run of each day does them."""
     today = date.today().isoformat()
-    if RUN_STATE.exists() and RUN_STATE.read_text().strip() == today and not os.getenv("FORCE_CAREER_SEARCH"):
+    if RUN_STATE.exists() and RUN_STATE.read_text(encoding="utf-8").strip() == today and not os.getenv("FORCE_CAREER_SEARCH"):
         return False
-    RUN_STATE.write_text(today)
+    RUN_STATE.write_text(today, encoding="utf-8")
     return True
 
 
@@ -102,11 +102,11 @@ def main():
         ok = digest.send(f"✅ Job hunter test email — {label}",
                          "<p>This is a test email from the job hunter. If you can read this, email delivery works.</p>")
         sys.exit(0 if ok else 1)
-    cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text(encoding="utf-8"))
     if os.getenv("QUERY_LIMIT"):  # for quick local tests
         cfg["queries"] = cfg["queries"][: int(os.environ["QUERY_LIMIT"])]
-    cv = (ROOT / "cv.md").read_text()
-    seen = json.loads(SEEN.read_text()) if SEEN.exists() else {}
+    cv = (ROOT / "cv.md").read_text(encoding="utf-8")
+    seen = json.loads(SEEN.read_text(encoding="utf-8")) if SEEN.exists() else {}
 
     raw, health = collect(cfg)
     new = {}
@@ -143,7 +143,7 @@ def main():
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
     body = digest.build_html(jobs, health, label, outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
     PREVIEW.parent.mkdir(exist_ok=True)
-    PREVIEW.write_text(body)
+    PREVIEW.write_text(body, encoding="utf-8")
     if os.getenv("DRY_RUN"):
         log.info("DRY_RUN: not emailing, not updating seen list")
         return

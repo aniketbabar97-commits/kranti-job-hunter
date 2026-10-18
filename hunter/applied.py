@@ -23,7 +23,7 @@ def load():
     if not FILE.exists():
         return {"urls": urls, "companies": companies, "entries": entries}
     started = False
-    for raw in FILE.read_text().splitlines():
+    for raw in FILE.read_text(encoding="utf-8").splitlines():
         if raw.strip().lower().startswith("## my applications"):
             started = True
             continue
