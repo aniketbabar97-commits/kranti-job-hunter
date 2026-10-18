@@ -20,8 +20,8 @@ from . import documents, score
 ROOT = Path(__file__).resolve().parent.parent
 DIR = ROOT / "applications"          # kit notes (no personal contact data) — committed
 OUT = ROOT / "out"                   # PDFs with contact data/photo — git-ignored, emailed
-MIN_SCORE = 80
-MAX_PER_RUN = 6
+MIN_SCORE = 60   # we apply; rejecting is the hiring team's job
+MAX_PER_RUN = 15
 log = logging.getLogger(__name__)
 
 # Technologies worth flagging if a letter mentions them but her CV doesn't.
