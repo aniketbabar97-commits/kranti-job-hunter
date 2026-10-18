@@ -178,6 +178,7 @@ def _arbeitsagentur(job, doors):
     if r is None:
         return "unknown"
     if r.status_code in (404, 410):
+        doors.append(_door(job["url"], source_ats="arbeitsagentur"))
         return "closed"
     if r.status_code != 200:
         return "unknown"

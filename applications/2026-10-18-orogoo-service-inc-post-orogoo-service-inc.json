@@ -1,184 +1,189 @@
 {
- "job": {
-  "title": "[Post] Orogoo Service Inc",
-  "company": "Orogoo Service Inc",
-  "location": "",
-  "url": "https://www.linkedin.com/posts/orogoo_schemaorg-is-a-collaborative-community-activity-7513302710557974528-SHN-",
-  "apply_url": "",
-  "score": 85,
-  "lang": "en",
-  "source": "LinkedIn post",
-  "posted": "2026-10-10",
-  "contact": "",
-  "salary": "",
-  "channel": "maybe_closed"
- },
- "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "Design Patterns",
-    "JUnit",
-    "SOAP",
-    "Data Modeling",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "SAP ERP)",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ]
+  "job": {
+    "title": "[Post] Orogoo Service Inc",
+    "company": "Orogoo Service Inc",
+    "location": "",
+    "url": "https://www.linkedin.com/posts/orogoo_schemaorg-is-a-collaborative-community-activity-7513302710557974528-SHN-",
+    "apply_url": "",
+    "score": 85,
+    "lang": "en",
+    "source": "LinkedIn post",
+    "posted": "2026-10-10",
+    "contact": "",
+    "salary": "",
+    "channel": "maybe_closed",
+    "form_url": "https://www.linkedin.com/posts/orogoo_schemaorg-is-a-collaborative-community-activity-7513302710557974528-SHN-",
+    "ats": "linkedin",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "shell": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "cognizant": [
-    0,
-    1,
-    2,
-    3
-   ]
+  "tailoring": {
+    "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
+    "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "Microservices",
+        "RESTful APIs",
+        "Design Patterns",
+        "JUnit",
+        "SOAP",
+        "Data Modeling",
+        "Groovy"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "SAP ERP)",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "Product Catalog & PIM",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shell": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cognizant": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "keywords_matched": [
+      "Java",
+      "Spring",
+      "RESTful APIs",
+      "SAP Commerce Cloud",
+      "Hybris",
+      "SQL",
+      "Microservices",
+      "CI/CD"
+    ],
+    "keywords_missing": [
+      "specific domain tools not listed in master CV"
+    ],
+    "cover_en": {
+      "subject": "Application: [Post] Orogoo Service Inc",
+      "salutation": "Dear Hiring Team,",
+      "hook": "I am writing to express my strong interest in joining Orogoo Service Inc. With over 5 years of professional backend and e-commerce experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java technologies.",
+      "bullets": [
+        {
+          "label": "SAP Commerce & Java",
+          "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for enterprise clients."
+        },
+        {
+          "label": "REST APIs & Integrations",
+          "text": "Developed and exposed OCC REST Web Services and built PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
+        },
+        {
+          "label": "Database Optimization",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed while optimizing FlexibleSearch queries."
+        },
+        {
+          "label": "DevOps & Cloud",
+          "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+        }
+      ],
+      "gap": "",
+      "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss how my background matches your needs.",
+      "closing": ""
+    },
+    "cover_de": {},
+    "why_company": "I want to bring my 5+ years of enterprise e-commerce and SAP Commerce Cloud expertise from Rockwell Automation and Shell to Orogoo Service Inc, contributing strong Java, Spring, and API integration skills to help scale your digital platforms and deliver robust backend solutions.",
+    "motivation_short": "Leveraging 5+ years of SAP Commerce Cloud and Java experience to build scalable e-commerce solutions at Orogoo Service Inc.",
+    "linkedin_message": "Hello, I am a backend and SAP Commerce Cloud developer with 5+ years of experience at Rockwell Automation and Shell. I am interested in opportunities at Orogoo Service Inc. My German residence permit is valid, and I am available from 16.12.2026. Let's connect!",
+    "email_subject": "Application for [Post] - Kranti Chavan",
+    "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the [Post] position at Orogoo Service Inc. With over 5 years of backend experience specializing in SAP Commerce Cloud, Java, and Spring across enterprise projects at Rockwell Automation and Shell, I am well-equipped to contribute to your engineering team.\n\nI hold a valid German work permit and can start on 16.12.2026 following my notice period ending 15.12.2026.\n\nBest regards,\nKranti Chavan"
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "SAP Commerce Cloud",
-   "Hybris",
-   "SQL",
-   "Microservices",
-   "CI/CD"
-  ],
-  "keywords_missing": [
-   "specific domain tools not listed in master CV"
-  ],
-  "cover_en": {
-   "subject": "Application: [Post] Orogoo Service Inc",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in joining Orogoo Service Inc. With over 5 years of professional backend and e-commerce experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java technologies.",
-   "bullets": [
-    {
-     "label": "SAP Commerce & Java",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for enterprise clients."
-    },
-    {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services and built PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed while optimizing FlexibleSearch queries."
-    },
-    {
-     "label": "DevOps & Cloud",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+  "letters": {
+    "en": {
+      "subject": "Application: [Post] Orogoo Service Inc",
+      "salutation": "Dear Hiring Team,",
+      "hook": "I am writing to express my strong interest in joining Orogoo Service Inc. With over 5 years of professional backend and e-commerce experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java technologies.",
+      "bullets": [
+        {
+          "label": "SAP Commerce & Java",
+          "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for enterprise clients."
+        },
+        {
+          "label": "REST APIs & Integrations",
+          "text": "Developed and exposed OCC REST Web Services and built PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
+        },
+        {
+          "label": "Database Optimization",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed while optimizing FlexibleSearch queries."
+        },
+        {
+          "label": "DevOps & Cloud",
+          "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+        }
+      ],
+      "gap": "",
+      "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss how my background matches your needs.",
+      "closing": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss how my background matches your needs.",
-   "closing": ""
   },
-  "cover_de": {},
-  "why_company": "I want to bring my 5+ years of enterprise e-commerce and SAP Commerce Cloud expertise from Rockwell Automation and Shell to Orogoo Service Inc, contributing strong Java, Spring, and API integration skills to help scale your digital platforms and deliver robust backend solutions.",
-  "motivation_short": "Leveraging 5+ years of SAP Commerce Cloud and Java experience to build scalable e-commerce solutions at Orogoo Service Inc.",
-  "linkedin_message": "Hello, I am a backend and SAP Commerce Cloud developer with 5+ years of experience at Rockwell Automation and Shell. I am interested in opportunities at Orogoo Service Inc. My German residence permit is valid, and I am available from 16.12.2026. Let's connect!",
-  "email_subject": "Application for [Post] - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the [Post] position at Orogoo Service Inc. With over 5 years of backend experience specializing in SAP Commerce Cloud, Java, and Spring across enterprise projects at Rockwell Automation and Shell, I am well-equipped to contribute to your engineering team.\n\nI hold a valid German work permit and can start on 16.12.2026 following my notice period ending 15.12.2026.\n\nBest regards,\nKranti Chavan"
- },
- "letters": {
-  "en": {
-   "subject": "Application: [Post] Orogoo Service Inc",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in joining Orogoo Service Inc. With over 5 years of professional backend and e-commerce experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java technologies.",
-   "bullets": [
-    {
-     "label": "SAP Commerce & Java",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for enterprise clients."
-    },
-    {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services and built PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed while optimizing FlexibleSearch queries."
-    },
-    {
-     "label": "DevOps & Cloud",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
-    }
-   ],
-   "gap": "",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss how my background matches your needs.",
-   "closing": ""
-  }
- },
- "created": "2026-10-18"
+  "created": "2026-10-18"
 }

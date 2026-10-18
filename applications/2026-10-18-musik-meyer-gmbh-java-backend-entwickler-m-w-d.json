@@ -1,132 +1,137 @@
 {
- "job": {
-  "title": "Java Backend Entwickler (m/w/d)",
-  "company": "Musik Meyer GmbH",
-  "location": "Marburg an der Lahn, HE, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=68c2868abfb60e54",
-  "apply_url": "",
-  "score": 63,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "jobs@musik-meyer.de",
-  "direct_url": "https://www.musik-meyer.de/karriere/stellenanzeigen/details/java-backend-entwickler-m-w-d",
-  "email_subject": "Application: Java Backend Developer",
-  "email_body": "Dear Mr Lange,\n\nA distributor depends on Java backends that move product, order and stock data reliably between systems – that is what I have built for five years at Rockwell Automation and Shell.\n\n– Java, Spring Boot, RESTful APIs and microservices\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– Led query refactoring that cut response latency\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Java Backend Developer | Spring Boot, REST APIs, SQL & E-Commerce Integrations",
-  "summary": "Java backend developer with 5+ years building and running backends for large e-commerce platforms at Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful and SOAP web services, microservices and integrations with ERP, PIM and third-party systems. Proven in SQL query optimization and performance tuning, JUnit testing, code reviews and production troubleshooting. Executes CI/CD deployment cycles with Git, Jenkins and Docker and uses AI tools daily in development.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "Spring Framework",
-    "Microservices",
-    "RESTful APIs",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "third-party integrations",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines",
-    "OCC APIs"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Docker",
-    "Kubernetes",
-    "Git",
-    "Jenkins",
-    "production support and troubleshooting"
-   ],
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Product Catalog & PIM",
-    "Order Management (OMS)"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools"
-   ],
-   "Ways of Working": [
-    "Code Reviews",
-    "Technical Mentoring",
-    "Agile / Scrum",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Java Backend Entwickler (m/w/d)",
+    "company": "Musik Meyer GmbH",
+    "location": "Marburg an der Lahn, HE, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=68c2868abfb60e54",
+    "apply_url": "",
+    "score": 63,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "jobs@musik-meyer.de",
+    "direct_url": "https://www.musik-meyer.de/karriere/stellenanzeigen/details/java-backend-entwickler-m-w-d",
+    "email_subject": "Application: Java Backend Developer",
+    "email_body": "Dear Mr Lange,\n\nA distributor depends on Java backends that move product, order and stock data reliably between systems – that is what I have built for five years at Rockwell Automation and Shell.\n\n– Java, Spring Boot, RESTful APIs and microservices\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– Led query refactoring that cut response latency\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
+    "form_url": "https://www.musik-meyer.de/karriere/stellenanzeigen/details/java-backend-entwickler-m-w-d",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    1,
-    0,
-    4,
-    3,
-    2,
-    5,
-    7,
-    6
-   ],
-   "shell": [
-    1,
-    5,
-    2,
-    4,
-    0,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    1,
-    2,
-    3
-   ]
+  "tailoring": {
+    "headline": "Java Backend Developer | Spring Boot, REST APIs, SQL & E-Commerce Integrations",
+    "summary": "Java backend developer with 5+ years building and running backends for large e-commerce platforms at Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful and SOAP web services, microservices and integrations with ERP, PIM and third-party systems. Proven in SQL query optimization and performance tuning, JUnit testing, code reviews and production troubleshooting. Executes CI/CD deployment cycles with Git, Jenkins and Docker and uses AI tools daily in development.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Boot",
+        "Spring Framework",
+        "Microservices",
+        "RESTful APIs",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "third-party integrations",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "file-based data pipelines",
+        "OCC APIs"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "Jenkins",
+        "production support and troubleshooting"
+      ],
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "Product Catalog & PIM",
+        "Order Management (OMS)"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools"
+      ],
+      "Ways of Working": [
+        "Code Reviews",
+        "Technical Mentoring",
+        "Agile / Scrum",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        1,
+        0,
+        4,
+        3,
+        2,
+        5,
+        7,
+        6
+      ],
+      "shell": [
+        1,
+        5,
+        2,
+        4,
+        0,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "why_company": "MUSIK MEYER supplies music retailers across Europe, and that business runs on reliable backend systems for products, orders and partners. I want to bring five years of Java backend and integration work from large e-commerce platforms into a company where my code directly supports daily trade. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
+    "linkedin_message": "Hello Mr Lange, your Java Backend Developer role fits well: 5+ years Java/Spring Boot backends, REST/SOAP integrations and SQL tuning for e-commerce (Rockwell Automation, Shell). Start 16.12.2026. Open to a short call?"
   },
-  "why_company": "MUSIK MEYER supplies music retailers across Europe, and that business runs on reliable backend systems for products, orders and partners. I want to bring five years of Java backend and integration work from large e-commerce platforms into a company where my code directly supports daily trade. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
-  "linkedin_message": "Hello Mr Lange, your Java Backend Developer role fits well: 5+ years Java/Spring Boot backends, REST/SOAP integrations and SQL tuning for e-commerce (Rockwell Automation, Shell). Start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Java Backend Developer",
-   "salutation": "Dear Mr Lange,",
-   "hook": "A distributor like MUSIK MEYER depends on backends that move product, order and stock data reliably between systems. That is what I have built in Java for more than five years: at Rockwell Automation and Shell I develop Spring-based backends and integrations for large e-commerce platforms.",
-   "bullets": [
-    {
-     "label": "Java backend development",
-     "text": "5+ years of Java, Spring and Spring Boot: RESTful APIs, microservices, design patterns and data modeling for enterprise commerce platforms at Rockwell Automation and Shell."
-    },
-    {
-     "label": "Interfaces & integrations",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
-    },
-    {
-     "label": "Database performance",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures that improved stability and data consistency."
-    },
-    {
-     "label": "Quality",
-     "text": "Built automated unit and integration test suites with JUnit; perform code reviews, support production issues and give technical guidance to junior developers."
+  "letters": {
+    "en": {
+      "subject": "Application: Java Backend Developer",
+      "salutation": "Dear Mr Lange,",
+      "hook": "A distributor like MUSIK MEYER depends on backends that move product, order and stock data reliably between systems. That is what I have built in Java for more than five years: at Rockwell Automation and Shell I develop Spring-based backends and integrations for large e-commerce platforms.",
+      "bullets": [
+        {
+          "label": "Java backend development",
+          "text": "5+ years of Java, Spring and Spring Boot: RESTful APIs, microservices, design patterns and data modeling for enterprise commerce platforms at Rockwell Automation and Shell."
+        },
+        {
+          "label": "Interfaces & integrations",
+          "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
+        },
+        {
+          "label": "Database performance",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures that improved stability and data consistency."
+        },
+        {
+          "label": "Quality",
+          "text": "Built automated unit and integration test suites with JUnit; perform code reviews, support production issues and give technical guidance to junior developers."
+        }
+      ],
+      "gap": "",
+      "logistics": "I work independently and closely with business teams. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen MUSIK MEYER.",
+      "closing": "",
+      "contact": "Attn. Mr Michael Lange"
     }
-   ],
-   "gap": "",
-   "logistics": "I work independently and closely with business teams. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen MUSIK MEYER.",
-   "closing": "",
-   "contact": "Attn. Mr Michael Lange"
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

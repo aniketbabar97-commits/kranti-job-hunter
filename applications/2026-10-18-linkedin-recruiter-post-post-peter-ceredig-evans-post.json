@@ -1,148 +1,153 @@
 {
- "job": {
-  "title": "[Post] Peter Ceredig-Evans' Post",
-  "company": "LinkedIn recruiter post",
-  "location": "",
-  "url": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
-  "apply_url": "",
-  "score": 65,
-  "source": "LinkedIn post",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
-  "email_subject": "Senior Engineer – Kranti Chavan",
-  "email_body": "Dear Peter Ceredig-Evans,\n\nI saw your post about a senior engineer role – I bring 5+ years of building enterprise platforms in Java and Spring for Rockwell Automation and Shell.\n\n– Java, Spring Boot, RESTful APIs and microservices on large enterprise platforms\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– CI/CD deployment cycles on CCv2, query refactoring that cut response latency\n\nI am used to remote and distributed teams and take ownership from design to production. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My profile: https://www.linkedin.com/in/kranti-chavan-84a155191. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan",
-  "channel": "maybe_closed"
- },
- "tailoring": {
-  "headline": "Senior Engineer | Java, Spring Boot, REST APIs & Microservices | Enterprise Commerce",
-  "summary": "Senior backend engineer with 5+ years building, extending and supporting large enterprise platforms in Java, Spring and Spring Boot for Rockwell Automation and Shell. Strong in RESTful APIs and microservices, data modeling, SQL and query performance tuning, and complex data and API integrations between PIM, ERP and MDM systems. Executes CI/CD deployment cycles, works with Docker, Kubernetes and Git, performs code reviews, mentors junior developers and supports production in agile, international teams. Uses AI-assisted development daily.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy",
-    "SOAP"
-   ],
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ]
+  "job": {
+    "title": "[Post] Peter Ceredig-Evans' Post",
+    "company": "LinkedIn recruiter post",
+    "location": "",
+    "url": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
+    "apply_url": "",
+    "score": 65,
+    "source": "LinkedIn post",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
+    "email_subject": "Senior Engineer – Kranti Chavan",
+    "email_body": "Dear Peter Ceredig-Evans,\n\nI saw your post about a senior engineer role – I bring 5+ years of building enterprise platforms in Java and Spring for Rockwell Automation and Shell.\n\n– Java, Spring Boot, RESTful APIs and microservices on large enterprise platforms\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– CI/CD deployment cycles on CCv2, query refactoring that cut response latency\n\nI am used to remote and distributed teams and take ownership from design to production. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My profile: https://www.linkedin.com/in/kranti-chavan-84a155191. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan",
+    "channel": "maybe_closed",
+    "form_url": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
+    "ats": "linkedin",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    5,
-    4,
-    3,
-    6,
-    7
-   ],
-   "shell": [
-    0,
-    1,
-    4,
-    5,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "Senior Engineer | Java, Spring Boot, REST APIs & Microservices | Enterprise Commerce",
+    "summary": "Senior backend engineer with 5+ years building, extending and supporting large enterprise platforms in Java, Spring and Spring Boot for Rockwell Automation and Shell. Strong in RESTful APIs and microservices, data modeling, SQL and query performance tuning, and complex data and API integrations between PIM, ERP and MDM systems. Executes CI/CD deployment cycles, works with Docker, Kubernetes and Git, performs code reviews, mentors junior developers and supports production in agile, international teams. Uses AI-assisted development daily.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy",
+        "SOAP"
+      ],
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        5,
+        4,
+        3,
+        6,
+        7
+      ],
+      "shell": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "why_company": "Your post describes a senior role where engineering quality and ownership matter, which is how I work: five years of Java and Spring platforms for Rockwell Automation and Shell, with APIs, integrations, performance tuning and mentoring. I want to bring that experience to a team building something meaningful.",
+    "linkedin_message": "Hi Peter, I saw your post about the senior engineer role. I bring 5+ years of Java, Spring Boot and REST API work on enterprise platforms at Rockwell Automation and Shell, plus code reviews and mentoring. Based in Karlsruhe – happy to share my CV!"
   },
-  "why_company": "Your post describes a senior role where engineering quality and ownership matter, which is how I work: five years of Java and Spring platforms for Rockwell Automation and Shell, with APIs, integrations, performance tuning and mentoring. I want to bring that experience to a team building something meaningful.",
-  "linkedin_message": "Hi Peter, I saw your post about the senior engineer role. I bring 5+ years of Java, Spring Boot and REST API work on enterprise platforms at Rockwell Automation and Shell, plus code reviews and mentoring. Based in Karlsruhe – happy to share my CV!"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Senior Engineer",
-   "salutation": "Dear Peter Ceredig-Evans,",
-   "hook": "You are looking for a senior engineer – someone who delivers robust systems and lifts the team around them. For more than five years I have built and run large enterprise platforms in Java and Spring for Rockwell Automation and Shell, from REST APIs to complex integrations, while reviewing code and mentoring junior developers.",
-   "bullets": [
-    {
-     "label": "Backend engineering",
-     "text": "Built enterprise backends in Java and Spring following platform best practices and design patterns; built automated unit and integration test suites with JUnit and performed code reviews."
-    },
-    {
-     "label": "APIs & integrations",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
-    },
-    {
-     "label": "Performance & production",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
-    },
-    {
-     "label": "Senior ownership",
-     "text": "Performed code reviews, supported production issues and provided technical guidance to junior developers; engineered API migrations for customer account structures that improved system stability and data consistency."
+  "letters": {
+    "en": {
+      "subject": "Application: Senior Engineer",
+      "salutation": "Dear Peter Ceredig-Evans,",
+      "hook": "You are looking for a senior engineer – someone who delivers robust systems and lifts the team around them. For more than five years I have built and run large enterprise platforms in Java and Spring for Rockwell Automation and Shell, from REST APIs to complex integrations, while reviewing code and mentoring junior developers.",
+      "bullets": [
+        {
+          "label": "Backend engineering",
+          "text": "Built enterprise backends in Java and Spring following platform best practices and design patterns; built automated unit and integration test suites with JUnit and performed code reviews."
+        },
+        {
+          "label": "APIs & integrations",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
+        },
+        {
+          "label": "Performance & production",
+          "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
+        },
+        {
+          "label": "Senior ownership",
+          "text": "Performed code reviews, supported production issues and provided technical guidance to junior developers; engineered API migrations for customer account structures that improved system stability and data consistency."
+        }
+      ],
+      "gap": "",
+      "logistics": "I am used to remote and distributed teams and take ownership from design to production. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I am used to remote and distributed teams and take ownership from design to production. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

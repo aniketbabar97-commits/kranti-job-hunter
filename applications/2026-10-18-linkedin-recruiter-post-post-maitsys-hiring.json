@@ -1,149 +1,154 @@
 {
- "job": {
-  "title": "[Post] Maitsys - hiring",
-  "company": "LinkedIn recruiter post",
-  "location": "",
-  "url": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
-  "apply_url": "",
-  "score": 65,
-  "source": "LinkedIn post",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
-  "email_subject": "Application: Developer role at Maitsys – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nI saw your hiring post – I bring 5+ years of enterprise development on SAP Commerce Cloud with Java and Spring for Rockwell Automation and Shell, SAP certified. What I bring in concrete terms:\n\n– Java, Spring Boot, microservices and OCC REST APIs\n– PIM / ERP / MDM integration with international teams\n– CCv2 deployment cycles, query tuning and code reviews\n\nThis lets me take on real responsibility in your team from day one. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. My CV and cover letter are attached, and I am happy to walk you through my projects in detail. Could we set up a short 15-minute call in the next few days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
-  "channel": "maybe_closed"
- },
- "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring Boot & REST APIs | SAP Certified",
-  "summary": "SAP Certified Commerce Cloud Developer with 5+ years building, extending and supporting enterprise B2B and B2C platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and query performance tuning, with proven PIM / ERP / MDM integrations and headless OCC APIs. Executes CI/CD deployment cycles on CCv2, supports production, performs code reviews and works techno-functionally with business stakeholders in agile, international teams.",
-  "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "SAP Commerce Cloud Portal (CCv2)",
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "storefront customization",
-    "Responsive Design"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Code Reviews",
-    "Technical Mentoring",
-    "Jira",
-    "Confluence",
-    "International Teams"
-   ]
+  "job": {
+    "title": "[Post] Maitsys - hiring",
+    "company": "LinkedIn recruiter post",
+    "location": "",
+    "url": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
+    "apply_url": "",
+    "score": 65,
+    "source": "LinkedIn post",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
+    "email_subject": "Application: Developer role at Maitsys – Kranti Chavan",
+    "email_body": "Dear Hiring Team,\n\nI saw your hiring post – I bring 5+ years of enterprise development on SAP Commerce Cloud with Java and Spring for Rockwell Automation and Shell, SAP certified. What I bring in concrete terms:\n\n– Java, Spring Boot, microservices and OCC REST APIs\n– PIM / ERP / MDM integration with international teams\n– CCv2 deployment cycles, query tuning and code reviews\n\nThis lets me take on real responsibility in your team from day one. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. My CV and cover letter are attached, and I am happy to walk you through my projects in detail. Could we set up a short 15-minute call in the next few days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
+    "channel": "maybe_closed",
+    "form_url": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
+    "ats": "linkedin",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-   ],
-   "shell": [
-    0,
-    1,
-    2,
-    4,
-    5,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring Boot & REST APIs | SAP Certified",
+    "summary": "SAP Certified Commerce Cloud Developer with 5+ years building, extending and supporting enterprise B2B and B2C platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and query performance tuning, with proven PIM / ERP / MDM integrations and headless OCC APIs. Executes CI/CD deployment cycles on CCv2, supports production, performs code reviews and works techno-functionally with business stakeholders in agile, international teams.",
+    "skills": {
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "SAP Commerce Cloud Portal (CCv2)",
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "storefront customization",
+        "Responsive Design"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Code Reviews",
+        "Technical Mentoring",
+        "Jira",
+        "Confluence",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "shell": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "why_company": "Maitsys places engineers with enterprise clients where they must be productive and reliable quickly. My experience with Rockwell Automation and Shell is exactly that kind of setting, and I want to bring my SAP Commerce, Java and integration depth to your next client project in Germany. My combination of hands-on platform depth and close work with business teams is exactly what I want to put to work for you.",
+    "linkedin_message": "Hi, saw Maitsys' hiring post. SAP Certified Commerce Cloud Developer, 5+ years Java/Spring, OCC APIs and ERP/PIM integration (Rockwell Automation, Shell). Karlsruhe, work permit, start 16.12.2026. Open to a quick chat?"
   },
-  "why_company": "Maitsys places engineers with enterprise clients where they must be productive and reliable quickly. My experience with Rockwell Automation and Shell is exactly that kind of setting, and I want to bring my SAP Commerce, Java and integration depth to your next client project in Germany. My combination of hands-on platform depth and close work with business teams is exactly what I want to put to work for you.",
-  "linkedin_message": "Hi, saw Maitsys' hiring post. SAP Certified Commerce Cloud Developer, 5+ years Java/Spring, OCC APIs and ERP/PIM integration (Rockwell Automation, Shell). Karlsruhe, work permit, start 16.12.2026. Open to a quick chat?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Developer role at Maitsys",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Your hiring post looks for engineers who can deliver for demanding enterprise clients. That is my background: for more than five years I have built and extended enterprise commerce platforms on SAP Commerce Cloud with Java and Spring for Rockwell Automation and Shell – as an SAP Certified Commerce Cloud Developer.",
-   "bullets": [
-    {
-     "label": "Enterprise development",
-     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on Hybris 2211 following design patterns."
-    },
-    {
-     "label": "APIs",
-     "text": "Developed OCC REST web services (headless APIs) for storefront, PWA frontends and third-party consumers."
-    },
-    {
-     "label": "Integration",
-     "text": "Built PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub and resolved SAP ERP / MDM integration bottlenecks with international teams."
-    },
-    {
-     "label": "Delivery",
-     "text": "Executed CI/CD deployment cycles on CCv2, led query refactoring that reduced latency and performed code reviews."
+  "letters": {
+    "en": {
+      "subject": "Application: Developer role at Maitsys",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Your hiring post looks for engineers who can deliver for demanding enterprise clients. That is my background: for more than five years I have built and extended enterprise commerce platforms on SAP Commerce Cloud with Java and Spring for Rockwell Automation and Shell – as an SAP Certified Commerce Cloud Developer.",
+      "bullets": [
+        {
+          "label": "Enterprise development",
+          "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on Hybris 2211 following design patterns."
+        },
+        {
+          "label": "APIs",
+          "text": "Developed OCC REST web services (headless APIs) for storefront, PWA frontends and third-party consumers."
+        },
+        {
+          "label": "Integration",
+          "text": "Built PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub and resolved SAP ERP / MDM integration bottlenecks with international teams."
+        },
+        {
+          "label": "Delivery",
+          "text": "Executed CI/CD deployment cycles on CCv2, led query refactoring that reduced latency and performed code reviews."
+        }
+      ],
+      "gap": "",
+      "logistics": "I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a short call about your open roles.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a short call about your open roles.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

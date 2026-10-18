@@ -1,150 +1,155 @@
 {
- "job": {
-  "title": "Senior Software-Entwickler Magento E-Commerce (m/w/d)",
-  "company": "MACS HOLDING GmbH",
-  "location": "Feuchtwangen, Bayern",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002475010-S",
-  "apply_url": "",
-  "score": 70,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "info@macs-holding.de",
-  "direct_url": "https://www.macs-holding.de/stellenangebote",
-  "email_subject": "Bewerbung als Senior Software-Entwickler Magento E-Commerce",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen eine Senior-Entwicklerin, die Onlineshops weiterentwickelt und Junior-Entwickler mit Code-Reviews führt – genau das mache ich seit über 5 Jahren bei Rockwell Automation und Shell.\n\n– Neue Features und Module für große Enterprise-Shops\n– Code-Reviews und Anleitung von Junior-Entwicklern\n– Datenbank-Refaktorierung für kürzere Antwortzeiten\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der MACS HOLDING bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan",
-  "channel": "arbeitsagentur"
- },
- "tailoring": {
-  "headline": "Senior Software-Entwicklerin E-Commerce | Java, APIs, Integrationen & Code-Reviews",
-  "summary": "Senior E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Weiterentwicklung und Optimierung großer Onlineshops (SAP Commerce Cloud / Hybris 2105 und 2211) für Rockwell Automation und Shell. Konzipiert und realisiert neue Features und Module mit Java, Spring und RESTful APIs, integriert ERP-, PIM- und MDM-Systeme und optimiert Datenbankabfragen für kürzere Antwortzeiten. Führt Code-Reviews durch, unterstützt im Produktivbetrieb und leitet Junior-Entwickler technisch an. Erfahren mit JavaScript, Responsive Design, Git, CI/CD und agilen Teams.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ]
+  "job": {
+    "title": "Senior Software-Entwickler Magento E-Commerce (m/w/d)",
+    "company": "MACS HOLDING GmbH",
+    "location": "Feuchtwangen, Bayern",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002475010-S",
+    "apply_url": "",
+    "score": 70,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "info@macs-holding.de",
+    "direct_url": "https://www.macs-holding.de/stellenangebote",
+    "email_subject": "Bewerbung als Senior Software-Entwickler Magento E-Commerce",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen eine Senior-Entwicklerin, die Onlineshops weiterentwickelt und Junior-Entwickler mit Code-Reviews führt – genau das mache ich seit über 5 Jahren bei Rockwell Automation und Shell.\n\n– Neue Features und Module für große Enterprise-Shops\n– Code-Reviews und Anleitung von Junior-Entwicklern\n– Datenbank-Refaktorierung für kürzere Antwortzeiten\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der MACS HOLDING bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.macs-holding.de/stellenangebote",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    5,
-    2,
-    4,
-    7,
-    3,
-    6
-   ],
-   "shell": [
-    1,
-    5,
-    0,
-    4,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    1,
-    3
-   ]
+  "tailoring": {
+    "headline": "Senior Software-Entwicklerin E-Commerce | Java, APIs, Integrationen & Code-Reviews",
+    "summary": "Senior E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Weiterentwicklung und Optimierung großer Onlineshops (SAP Commerce Cloud / Hybris 2105 und 2211) für Rockwell Automation und Shell. Konzipiert und realisiert neue Features und Module mit Java, Spring und RESTful APIs, integriert ERP-, PIM- und MDM-Systeme und optimiert Datenbankabfragen für kürzere Antwortzeiten. Führt Code-Reviews durch, unterstützt im Produktivbetrieb und leitet Junior-Entwickler technisch an. Erfahren mit JavaScript, Responsive Design, Git, CI/CD und agilen Teams.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Product Catalog & PIM"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        7,
+        3,
+        6
+      ],
+      "shell": [
+        1,
+        5,
+        0,
+        4,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "why_company": "Die MACS HOLDING verbindet die Innovationskraft einer wachsenden Firmengruppe mit den Werten eines Familienunternehmens. Mehrere Onlineshops für Tochterfirmen technisch weiterzuentwickeln und interne Teams zu beraten, ist genau die Aufgabe, in der ich meine Shop-, Integrations- und Mentoring-Erfahrung voll einbringen kann.",
+    "linkedin_message": "Guten Tag, Ihre Position als Senior-Entwickler E-Commerce hat mich angesprochen: 5+ Jahre Weiterentwicklung großer Onlineshops bei Rockwell Automation und Shell, inkl. Code-Reviews und Mentoring. Start ab 16.12.2026. Ich freue mich auf einen Austausch!"
   },
-  "why_company": "Die MACS HOLDING verbindet die Innovationskraft einer wachsenden Firmengruppe mit den Werten eines Familienunternehmens. Mehrere Onlineshops für Tochterfirmen technisch weiterzuentwickeln und interne Teams zu beraten, ist genau die Aufgabe, in der ich meine Shop-, Integrations- und Mentoring-Erfahrung voll einbringen kann.",
-  "linkedin_message": "Guten Tag, Ihre Position als Senior-Entwickler E-Commerce hat mich angesprochen: 5+ Jahre Weiterentwicklung großer Onlineshops bei Rockwell Automation und Shell, inkl. Code-Reviews und Mentoring. Start ab 16.12.2026. Ich freue mich auf einen Austausch!"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Senior Software-Entwickler Magento E-Commerce",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Sie suchen eine erfahrene Entwicklerin, die bestehende Onlineshops weiterentwickelt, neue Features konzipiert und ein Team von Junior-Entwicklern mit Code-Reviews führt. Genau das gehört seit über fünf Jahren zu meinem Alltag: Bei Rockwell Automation und Shell entwickle und optimiere ich große Enterprise-Onlineshops und gebe Junior-Entwicklern technische Anleitung.",
-   "bullets": [
-    {
-     "label": "Weiterentwicklung von Onlineshops",
-     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten konzipiert und umgesetzt, nach Best Practices und Design Patterns."
-    },
-    {
-     "label": "Neue Features & Module",
-     "text": "Promotions Engine, Order Management, Cronjobs und Backoffice-Komponenten entwickelt und gepflegt; RESTful APIs für Headless- und PWA-Frontends gebaut."
-    },
-    {
-     "label": "Team-Coaching & Code-Reviews",
-     "text": "Code-Reviews durchgeführt, Produktionsvorfälle unterstützt und Junior-Entwickler technisch angeleitet."
-    },
-    {
-     "label": "Qualität & Performance",
-     "text": "Refaktorierung von Datenbankabfragen geleitet – mit kürzeren Antwortzeiten und schnelleren Transaktionen; automatisierte Unit- und Integrationstests mit JUnit aufgebaut."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Senior Software-Entwickler Magento E-Commerce",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Sie suchen eine erfahrene Entwicklerin, die bestehende Onlineshops weiterentwickelt, neue Features konzipiert und ein Team von Junior-Entwicklern mit Code-Reviews führt. Genau das gehört seit über fünf Jahren zu meinem Alltag: Bei Rockwell Automation und Shell entwickle und optimiere ich große Enterprise-Onlineshops und gebe Junior-Entwicklern technische Anleitung.",
+      "bullets": [
+        {
+          "label": "Weiterentwicklung von Onlineshops",
+          "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten konzipiert und umgesetzt, nach Best Practices und Design Patterns."
+        },
+        {
+          "label": "Neue Features & Module",
+          "text": "Promotions Engine, Order Management, Cronjobs und Backoffice-Komponenten entwickelt und gepflegt; RESTful APIs für Headless- und PWA-Frontends gebaut."
+        },
+        {
+          "label": "Team-Coaching & Code-Reviews",
+          "text": "Code-Reviews durchgeführt, Produktionsvorfälle unterstützt und Junior-Entwickler technisch angeleitet."
+        },
+        {
+          "label": "Qualität & Performance",
+          "text": "Refaktorierung von Datenbankabfragen geleitet – mit kürzeren Antwortzeiten und schnelleren Transaktionen; automatisierte Unit- und Integrationstests mit JUnit aufgebaut."
+        }
+      ],
+      "gap": "",
+      "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der MACS HOLDING starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
+      "closing": "",
+      "contact": "z. Hd. MACS HOLDING GmbH, Personalabteilung"
     }
-   ],
-   "gap": "",
-   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der MACS HOLDING starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
-   "closing": "",
-   "contact": "z. Hd. MACS HOLDING GmbH, Personalabteilung"
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }
