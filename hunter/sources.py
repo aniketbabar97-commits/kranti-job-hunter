@@ -175,9 +175,11 @@ def _strip_html(text):
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text or "")).strip()
 
 
-def personio(slug, company):
+def personio(slug, company, query=None):
     import xml.etree.ElementTree as ET
     r = requests.get(f"https://{slug}.jobs.personio.de/xml", timeout=30)
+    if r.status_code == 404:
+        r = requests.get(f"https://{slug}.jobs.personio.com/xml", timeout=30)
     r.raise_for_status()
     jobs = []
     for p in ET.fromstring(r.content).iter("position"):
@@ -189,7 +191,7 @@ def personio(slug, company):
     return jobs
 
 
-def greenhouse(slug, company):
+def greenhouse(slug, company, query=None):
     r = requests.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs", params={"content": "true"}, timeout=30)
     r.raise_for_status()
     return [_job(f"{company} careers", j["title"], company, (j.get("location") or {}).get("name", ""),
@@ -198,7 +200,7 @@ def greenhouse(slug, company):
             for j in r.json().get("jobs", [])]
 
 
-def lever(slug, company):
+def lever(slug, company, query=None):
     r = requests.get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"}, timeout=30)
     r.raise_for_status()
     out = []
@@ -218,9 +220,11 @@ SEARCH_TERMS = ["hybris", "SAP Commerce", "e-commerce"]
 
 
 def company_feed(entry):
-    """One configured employer -> its open jobs. Big ATSes are searched, small ones downloaded whole."""
+    """One configured employer -> its open jobs. Big ATSes are searched, the rest downloaded whole
+    (every opening; relevance filtering happens in main). ats own/unknown with a url -> career_page()."""
     ats, name = entry["ats"], entry["name"]
     terms = entry.get("search", SEARCH_TERMS)
+    target = entry.get("slug") or entry.get("url")
     searched = {"smartrecruiters": lambda q: smartrecruiters(entry["slug"], name, q),
                 "workday": lambda q: workday_search(entry["url"], q, name),
                 "successfactors": lambda q: successfactors_search(entry["url"], q, name)}
@@ -229,13 +233,12 @@ def company_feed(entry):
         for q in terms:
             jobs += searched[ats](q)
         return list({j["url"]: j for j in jobs}.values())
-    if ats == "softgarden":
-        return softgarden(entry["slug"], name)
-    if ats == "join":
-        return join_com(entry["slug"], name)
-    if ats not in COMPANY_FEEDS:  # own / unknown careers page: covered by the Google career-site searches
-        return []
-    return COMPANY_FEEDS[ats](entry["slug"], name)
+    reader = ATS_READERS.get(ats)
+    if reader and target:
+        return reader(target, name)
+    if entry.get("url"):  # own / unknown careers page
+        return career_page(entry["url"], name)
+    return []
 
 
 # Google "X-ray" search across career sites hosted on common hiring systems (needs SERPER_API_KEY).
