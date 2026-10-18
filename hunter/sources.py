@@ -42,6 +42,8 @@ def arbeitsagentur_details(job):
     r.raise_for_status()
     d = r.json()
     text = d.get("stellenangebotsBeschreibung") or ""
+    if d.get("externeUrl"):
+        job["apply_url"] = d["externeUrl"]
     if text:
         job["description"] = text[:4000]
     emails = [e for e in EMAIL.findall(r.text) if "arbeitsagentur" not in e.lower()]
