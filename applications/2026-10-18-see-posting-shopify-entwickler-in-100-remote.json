@@ -6,79 +6,61 @@
   "url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
   "apply_url": "",
   "score": 95,
-  "lang": "de",
   "source": "Career site (company site)",
-  "posted": "2026-10-11",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
+  "email_subject": "Application: Shopify Developer (100% Remote)",
+  "email_body": "Dear Hiring Team,\n\nYou need a developer who makes online shops faster, better integrated and easier to run – that is what I have delivered for five years on enterprise commerce platforms.\n\n– 5+ years SAP Commerce Cloud (Hybris 2105/2211) at Rockwell Automation and Shell\n– JavaScript, PWA integration and storefront customization\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "E-Commerce Developer | Storefronts, Headless Commerce & REST APIs",
+  "summary": "E-commerce developer with 5+ years building and extending large B2B and B2C commerce platforms for Rockwell Automation and Shell. Strong in storefront customization, JavaScript, PWA integration, headless commerce and REST APIs, plus product catalog, promotions and order management. Delivers PIM and ERP data integrations, executes CI/CD deployment cycles and supports production. Works fully remote in international agile teams and uses AI tools daily to speed up development, testing and documentation. SAP Certified Commerce Cloud Developer.",
   "skills": {
    "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
     "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
     "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs",
-    "B2B / B2C Commerce"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "JUnit",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "SAP ERP)",
-    "third-party integrations"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "PI Planning",
-    "Technical Mentoring",
-    "International Teams"
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)"
    ],
    "Frontend & Web": [
     "JavaScript",
     "Progressive Web Application (PWA) integration",
     "Responsive Design",
     "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "file-based data pipelines"
+   ],
+   "Backend": [
+    "RESTful APIs",
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "Design Patterns",
+    "JUnit"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Git",
+    "Docker",
+    "production support and troubleshooting"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira"
    ]
   },
   "bullet_order": {
@@ -87,147 +69,59 @@
     1,
     2,
     3,
+    6,
+    5,
     4,
-    5
+    7
    ],
    "shell": [
-    0,
     1,
+    0,
     2,
-    3,
+    5,
     4,
-    5
+    6,
+    3
    ],
    "cognizant": [
-    0,
-    1,
     2,
-    3
+    0,
+    3,
+    1
    ]
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "REST APIs",
-   "E-Commerce",
-   "CI/CD"
-  ],
-  "keywords_missing": [
-   "Shopify",
-   "Liquid",
-   "Shopify Apps"
-  ],
-  "cover_en": {
-   "subject": "Application: Shopify Entwickler/in (100% Remote)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my interest in the Shopify Entwickler/in position. With over 5 years of professional backend and e-commerce experience building and maintaining enterprise platforms at Rockwell Automation and Shell, I bring strong expertise in Java, Spring, and API integrations.",
-   "bullets": [
-    {
-     "label": "Enterprise E-Commerce",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud using Java and Spring, covering product, catalog, pricing, and customer data management."
-    },
-    {
-     "label": "API Development",
-     "text": "Developed and exposed OCC REST Web Services and built RESTful APIs for headless commerce integrations and progressive web application frontends."
-    },
-    {
-     "label": "Integrations & Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "Platform Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on cloud portals within agile DevOps workflows, supported by production troubleshooting."
-    }
-   ],
-   "gap": "While my professional background is built on SAP Commerce Cloud rather than Shopify, I am a fast learner with deep e-commerce and backend development foundations and am very keen to learn Shopify development.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I look forward to discussing how my experience can benefit your team.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als Shopify Entwickler/in (100% Remote)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "mit großem Interesse bewerbe ich mich auf die Position als Shopify Entwickler/in. Als Backend-Entwicklerin bringe ich über 5 Jahre professionelle Erfahrung in der Entwicklung und Betreuung großer Enterprise-E-Commerce-Plattformen bei Rockwell Automation und Shell mit.",
-   "bullets": [
-    {
-     "label": "E-Commerce-Entwicklung",
-     "text": "Entwickelt und implementiert habe ich Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud unter Verwendung von Java und Spring."
-    },
-    {
-     "label": "REST-APIs & Schnittstellen",
-     "text": "Ausgearbeitet habe ich OCC-REST-Webdienste sowie RESTful APIs für Headless-Commerce-Integrationen und PWA-Frontends."
-    },
-    {
-     "label": "Datenintegrationen",
-     "text": "Konzipiert und optimiert habe ich PIM-zu-Hybris-Datenpipeline-Prozesse mittels Profisee, Hotfoldern und DataHub."
-    },
-    {
-     "label": "CI/CD & DevOps",
-     "text": "Ausgeführt habe ich CI/CD-Deployment-Zyklen sowie Release-Builds auf Cloud-Portalen im Rahmen agiler Workflows."
-    }
-   ],
-   "gap": "Mein Schwerpunkt liegt bisher auf SAP Commerce Cloud, weshalb ich mich gerne in die spezifischen Anforderungen von Shopify einarbeiten möchte.",
-   "logistics": "Ich wohne in Karlsruhe und verfüge über eine gültige deutsche Aufenthalts- und Arbeitserlaubnis. Mein letzter Arbeitstag ist der 15.12.2026, sodass ich ab dem 16.12.2026 verfügbar bin. Ich freue mich auf ein Gespräch.",
-   "closing": ""
-  },
-  "why_company": "I am motivated to join your remote e-commerce team because of your focus on modern digital platforms. My 5+ years of enterprise e-commerce experience at Rockwell Automation and Shell have equipped me with strong skills in backend development, REST APIs, and system integrations that align with ambitious online retail projects.",
-  "motivation_short": "I am eager to contribute my 5+ years of enterprise e-commerce and backend development expertise to your team while expanding my technical skill set.",
-  "linkedin_message": "Hello, I am an experienced backend and e-commerce developer with 5+ years at Rockwell Automation and Shell, skilled in Java, Spring, and REST APIs. My last working day is Dec 15, 2026, and I am available from Dec 16. I would love to discuss your remote Shopify role.",
-  "email_subject": "Application: Shopify Entwickler/in - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Shopify Entwickler/in position. With over 5 years of professional e-commerce development experience building enterprise platforms at Rockwell Automation and Shell, I bring strong expertise in Java, Spring, REST APIs, and system integrations.\n\nI am based in Karlsruhe with a valid German work permit, serving notice until December 15, 2026, and available from December 16, 2026. I look forward to discussing my application with you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Shopify shops win on speed of change: new features, better storefronts and clean data flows. I want to bring five years of enterprise commerce engineering – storefronts, headless APIs, catalogs, promotions and integrations – into a fully remote team where my work directly lifts conversion and day-to-day shop operations.",
+  "linkedin_message": "Hi! I saw your Shopify Developer (100% remote) role. 5+ years of e-commerce development (storefronts, headless APIs, catalogs, PIM/ERP integrations) for Rockwell Automation and Shell. Based in Karlsruhe, work permit, start 16.12.2026. Open to a short call?"
  },
  "letters": {
   "en": {
-   "subject": "Application: Shopify Entwickler/in (100% Remote)",
+   "subject": "Application: Shopify Developer (100% Remote)",
    "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my interest in the Shopify Entwickler/in position. With over 5 years of professional backend and e-commerce experience building and maintaining enterprise platforms at Rockwell Automation and Shell, I bring strong expertise in Java, Spring, and API integrations.",
+   "hook": "A Shopify shop grows with the developer behind it: fast storefronts, clean integrations and reliable releases. That is exactly what I have delivered for more than five years on large enterprise commerce platforms for Rockwell Automation and Shell – storefronts, headless APIs, catalogs, promotions and checkout-relevant order flows.",
    "bullets": [
     {
-     "label": "Enterprise E-Commerce",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud using Java and Spring, covering product, catalog, pricing, and customer data management."
+     "label": "Storefront & frontend",
+     "text": "Built APIs for headless commerce and PWA frontends and customized storefronts and Backoffice components with JavaScript and responsive design."
     },
     {
-     "label": "API Development",
-     "text": "Developed and exposed OCC REST Web Services and built RESTful APIs for headless commerce integrations and progressive web application frontends."
+     "label": "Headless commerce & APIs",
+     "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; customized Interceptors, Populators and Converters for custom data flows."
     },
     {
-     "label": "Integrations & Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
+     "label": "Product data & integrations",
+     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
     },
     {
-     "label": "Platform Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on cloud portals within agile DevOps workflows, supported by production troubleshooting."
+     "label": "Reliable releases",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; supported production troubleshooting through the Hybris Admin Console (HAC) and Groovy scripts."
     }
    ],
-   "gap": "While my professional background is built on SAP Commerce Cloud rather than Shopify, I am a fast learner with deep e-commerce and backend development foundations and am very keen to learn Shopify development.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I look forward to discussing how my experience can benefit your team.",
-   "closing": ""
-  },
-  "de": {
-   "subject": "Bewerbung als Shopify Entwickler/in (100% Remote)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "mit großem Interesse bewerbe ich mich auf die Position als Shopify Entwickler/in. Als Backend-Entwicklerin bringe ich über 5 Jahre professionelle Erfahrung in der Entwicklung und Betreuung großer Enterprise-E-Commerce-Plattformen bei Rockwell Automation und Shell mit.",
-   "bullets": [
-    {
-     "label": "E-Commerce-Entwicklung",
-     "text": "Entwickelt und implementiert habe ich Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud unter Verwendung von Java und Spring."
-    },
-    {
-     "label": "REST-APIs & Schnittstellen",
-     "text": "Ausgearbeitet habe ich OCC-REST-Webdienste sowie RESTful APIs für Headless-Commerce-Integrationen und PWA-Frontends."
-    },
-    {
-     "label": "Datenintegrationen",
-     "text": "Konzipiert und optimiert habe ich PIM-zu-Hybris-Datenpipeline-Prozesse mittels Profisee, Hotfoldern und DataHub."
-    },
-    {
-     "label": "CI/CD & DevOps",
-     "text": "Ausgeführt habe ich CI/CD-Deployment-Zyklen sowie Release-Builds auf Cloud-Portalen im Rahmen agiler Workflows."
-    }
-   ],
-   "gap": "Mein Schwerpunkt liegt bisher auf SAP Commerce Cloud, weshalb ich mich gerne in die spezifischen Anforderungen von Shopify einarbeiten möchte.",
-   "logistics": "Ich wohne in Karlsruhe und verfüge über eine gültige deutsche Aufenthalts- und Arbeitserlaubnis. Mein letzter Arbeitstag ist der 15.12.2026, sodass ich ab dem 16.12.2026 verfügbar bin. Ich freue mich auf ein Gespräch.",
-   "closing": ""
+   "gap": "",
+   "logistics": "I work independently in fully remote, international agile teams and bring the commerce depth to move your shops forward from day one. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen your team.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

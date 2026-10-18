@@ -6,97 +6,87 @@
   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003580959-S",
   "apply_url": "",
   "score": 80,
-  "lang": "en",
   "source": "Arbeitsagentur",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003580959-S",
+  "email_subject": "Bewerbung als Lead Backend Engineer E-Commerce",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nIhr Kunde sucht jemanden, der E-Commerce-Backends skalierbar macht und das Team technisch mitzieht – genau das mache ich seit fünf Jahren bei Rockwell Automation und Shell.\n\n– Java, Spring Boot, RESTful APIs und Microservices\n– Query-Refactoring geleitet, das Antwortzeiten verkürzt hat\n– Code-Reviews und technische Anleitung von Junior-Entwicklern\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "Lead Backend & E-Commerce Developer | SAP Commerce Cloud & Java Spring",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud for Rockwell Automation and Shell. Strong in Java, Spring, RESTful APIs, microservices, SQL, database performance tuning, CI/CD pipelines, Docker, Kubernetes, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer holding a valid German residence and work permit, currently serving notice.",
+  "headline": "Senior Backend Engineer E-Commerce | APIs, Datenbank-Performance & Mentoring",
+  "summary": "Backend-Engineer mit über 5 Jahren Erfahrung in skalierbaren E-Commerce-Backends für Rockwell Automation und Shell. Stark in Architektur und Implementierung von REST-APIs und Microservices, Optimierung von Datenbankstrukturen und -abfragen in SQL sowie Integration externer Systeme. Führt CI/CD-Deployment-Zyklen in Cloud-Umgebungen mit Docker und Kubernetes durch, arbeitet eng mit Frontend-Teams zusammen und übernimmt Code-Reviews und technische Anleitung von Junior-Entwicklern in agilen Teams. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence. Bachelor of Engineering in Computer Engineering, SAP Certified Commerce Cloud Developer.",
   "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Headless Commerce",
-    "Promotions Engine",
-    "Cronjobs"
-   ],
    "Backend": [
     "Java (Core & J2EE)",
-    "Spring Framework",
     "Spring Boot",
+    "Spring Framework",
     "Microservices",
     "RESTful APIs",
-    "JUnit",
     "SOAP",
     "Design Patterns",
     "Data Modeling",
-    "Groovy"
+    "JUnit"
    ],
    "APIs & Integration": [
     "REST web services",
-    "OCC APIs",
-    "DataHub",
-    "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "file-based data pipelines",
-    "third-party integrations"
+    "OCC APIs"
    ],
    "Databases & Search": [
     "SQL",
     "query optimization and performance tuning",
-    "FlexibleSearch",
     "Apache Solr"
    ],
    "DevOps & Cloud": [
     "CI/CD pipelines",
-    "Jenkins",
-    "Git",
     "Docker",
     "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
+    "Git",
+    "Jenkins",
     "production support and troubleshooting"
    ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "Product Catalog & PIM",
+    "Order Management (OMS)"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
    "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
     "Code Reviews",
     "Technical Mentoring",
+    "Agile / Scrum",
     "International Teams"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    5,
-    0,
     1,
-    2,
+    0,
+    4,
     3,
-    4
+    2,
+    5,
+    7,
+    6
    ],
    "shell": [
-    4,
-    5,
-    0,
     1,
+    5,
     2,
-    3
+    4,
+    0,
+    3,
+    6
    ],
    "cognizant": [
     0,
@@ -105,82 +95,38 @@
     3
    ]
   },
-  "keywords_matched": [
-   "E-Commerce",
-   "backend-team",
-   "CI/CD-Pipelines",
-   "agilen Prozessen",
-   "Cloud-Technologien",
-   "Mentoring"
-  ],
-  "keywords_missing": [
-   "PHP",
-   "Symfony",
-   "Laravel",
-   "MySQL",
-   "Redis",
-   "AWS"
-  ],
-  "cover_en": {
-   "subject": "Application: Lead Backend Engineer E-Commerce [m/w/d] - Hamburg / Berlin",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Lead Backend Engineer E-Commerce position at Die Tech Recruiter GmbH. With over 5 years of professional experience building and scaling enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in backend architectures, API development, and agile team leadership.",
-   "bullets": [
-    {
-     "label": "E-Commerce Backend Leadership",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud covering product, catalog, pricing, and customer data management following platform best practices."
-    },
-    {
-     "label": "CI/CD & DevOps Execution",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, supported by strong SQL and performance tuning skills."
-    },
-    {
-     "label": "Team Mentorship",
-     "text": "Performed code reviews, supported production issues, and provided technical guidance to junior developers while collaborating in international agile teams."
-    }
-   ],
-   "gap": "While my core expertise is rooted in Java, Spring, and SAP Commerce Cloud rather than PHP, Symfony, and Laravel, I am keen to leverage my strong backend engineering foundations to learn and adapt quickly to your stack.",
-   "logistics": "I am based in Karlsruhe, hold a valid German work permit, and am currently serving a notice period with my last working day on 15 December 2026 (earliest start 16 December 2026). I welcome the opportunity to discuss how my background aligns with your team.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I want to work for Die Tech Recruiter GmbH because of your focus on cutting-edge e-commerce technology and innovative projects. My 5+ years of backend experience scaling enterprise platforms at Rockwell Automation and Shell match your need for engineering leadership and robust backend solutions.",
-  "motivation_short": "I am motivated to bring my 5+ years of enterprise e-commerce backend experience, CI/CD execution skills, and technical mentoring background to lead and support your engineering team.",
-  "linkedin_message": "Hello, I am interested in the Lead Backend Engineer E-Commerce role at Die Tech Recruiter GmbH. With 5+ years of backend e-commerce experience at Rockwell Automation and Shell, I bring strong Java/Spring and CI/CD execution skills. Based in Karlsruhe with a valid work permit. Let's connect!",
-  "email_subject": "Application for Lead Backend Engineer E-Commerce - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the Lead Backend Engineer E-Commerce position at Die Tech Recruiter GmbH. With over 5 years of backend e-commerce experience building enterprise platforms at Rockwell Automation and Shell, I bring strong expertise in backend development, database optimization, CI/CD execution, and technical mentoring.\n\nI am based in Karlsruhe, hold a valid German work permit, and am available to start from 16 December 2026 following my notice period.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Die Rolle verbindet, was mich antreibt: Architekturentscheidungen im E-Commerce, messbar schnellere Datenbankabfragen und die Verantwortung, ein Team fachlich weiterzubringen. Fünf Jahre Backend-Arbeit an großen Commerce-Plattformen geben mir genau das Fundament dafür. Von Karlsruhe aus kann ich mit gültiger Arbeitserlaubnis ab dem 16.12.2026 starten.",
+  "linkedin_message": "Guten Tag! Zur Rolle Lead Backend Engineer E-Commerce: 5+ Jahre E-Commerce-Backends (APIs, SQL-Optimierung, CI/CD, Kubernetes) für Rockwell Automation und Shell, Mentoring von Juniors. Karlsruhe, Start 16.12.2026. Gern ein kurzes Gespräch?"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Lead Backend Engineer E-Commerce [m/w/d] - Hamburg / Berlin",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Lead Backend Engineer E-Commerce position at Die Tech Recruiter GmbH. With over 5 years of professional experience building and scaling enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in backend architectures, API development, and agile team leadership.",
+  "de": {
+   "subject": "Bewerbung als Lead Backend Engineer E-Commerce",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Ihr Kunde sucht jemanden, der ein E-Commerce-Backend skalierbar macht, Datenbankabfragen beschleunigt und ein Team technisch mitzieht. Genau das ist seit über fünf Jahren mein Alltag: Bei Rockwell Automation und Shell entwickle ich Backends und APIs für große Commerce-Plattformen, optimiere Abfragen für kürzere Antwortzeiten und begleite Junior-Entwickler.",
    "bullets": [
     {
-     "label": "E-Commerce Backend Leadership",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud covering product, catalog, pricing, and customer data management following platform best practices."
+     "label": "Skalierbare Backend-Lösungen",
+     "text": "Über 5 Jahre Java, Spring und Spring Boot: RESTful APIs, Microservices, Design Patterns und Datenmodellierung für Enterprise-Commerce-Plattformen bei Rockwell Automation und Shell."
     },
     {
-     "label": "CI/CD & DevOps Execution",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+     "label": "Datenbankstrukturen & -abfragen optimieren",
+     "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
     },
     {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, supported by strong SQL and performance tuning skills."
+     "label": "CI/CD & Container",
+     "text": "CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) in agilen DevOps-Workflows durchgeführt; Fehleranalyse im Produktivbetrieb über die Hybris Admin Console (HAC) und Groovy-Skripte unterstützt."
     },
     {
-     "label": "Team Mentorship",
-     "text": "Performed code reviews, supported production issues, and provided technical guidance to junior developers while collaborating in international agile teams."
+     "label": "Mentoring des Engineering-Teams",
+     "text": "Code-Reviews, technische Anleitung von Junior-Entwicklern und Zusammenarbeit mit internationalen Teams in Scrum und PI Planning."
     }
    ],
-   "gap": "While my core expertise is rooted in Java, Spring, and SAP Commerce Cloud rather than PHP, Symfony, and Laravel, I am keen to leverage my strong backend engineering foundations to learn and adapt quickly to your stack.",
-   "logistics": "I am based in Karlsruhe, hold a valid German work permit, and am currently serving a notice period with my last working day on 15 December 2026 (earliest start 16 December 2026). I welcome the opportunity to discuss how my background aligns with your team.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Komplexe technische Konzepte verständlich zu machen – für Entwickler wie für Fachbereiche – gehört für mich selbstverständlich dazu. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihren Kunden konkret verstärken kann.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

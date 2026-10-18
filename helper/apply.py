@@ -60,13 +60,14 @@ def build_pdfs(kit):
     from hunter import documents
     master = yaml.safe_load((ROOT / "profile" / "master.yaml").read_text(encoding="utf-8"))
     j, t = kit["job"], kit["tailoring"]
-    lang = "de" if j.get("lang") == "de" and "de" in kit["letters"] else "en"
+    lang = kit.get("lang") or ("de" if j.get("lang") == "de" and "de" in kit["letters"] else "en")
+    lang = lang if lang in kit["letters"] else next(iter(kit["letters"]))
     slug = re.sub(r"[^a-z0-9]+", "-", f"{j['company']}-{j['title']}".lower())[:60]
     out = OUT / slug
     out.mkdir(parents=True, exist_ok=True)
-    names = ("Lebenslauf", "Anschreiben") if lang == "de" else ("CV", "Cover_Letter")
-    cv, cl = out / f"Kranti_Chavan_{names[0]}.html", out / f"Kranti_Chavan_{names[1]}.html"
-    cv.write_text(documents.render_cv(master, t), encoding="utf-8")
+    cv = out / documents.file_name("cv", j, lang).replace(".pdf", ".html")
+    cl = out / documents.file_name("cl", j, lang).replace(".pdf", ".html")
+    cv.write_text(documents.render_cv(master, t, lang if kit.get("lang") else "en"), encoding="utf-8")
     cl.write_text(documents.render_cover(master, kit["letters"][lang], j, lang,
                                          t.get("headline") or master["headlines"][0]), encoding="utf-8")
     pdfs = documents.to_pdf([cv, cl])
@@ -215,7 +216,7 @@ def main():
             cv, letter, text, lang = build_pdfs(kit)
             page = ctx.new_page()
             try:
-                page.goto(j.get("apply_url") or j["url"], timeout=60000)
+                page.goto(j.get("direct_url") or j.get("apply_url") or j["url"], timeout=60000)
             except Exception as ex:
                 print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
             print("   Click 'Apply / Bewerben' if needed (log in if the site asks), then press f to fill.")

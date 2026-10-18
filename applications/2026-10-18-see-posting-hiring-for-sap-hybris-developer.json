@@ -6,23 +6,26 @@
   "url": "https://www.placementindia.com/job-detail/sap-hybris-developer-in-talent-zone-consultant-at-bangalore-1465065.htm",
   "apply_url": "",
   "score": 90,
-  "lang": "en",
   "source": "Career site (company site)",
-  "posted": "2026-10-17",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.placementindia.com/job-detail/sap-hybris-developer-in-talent-zone-consultant-at-bangalore-1465065.htm",
+  "email_subject": "Application: SAP Hybris Developer – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nYou need an SAP Hybris Developer who knows the platform inside out – I have built on SAP Commerce Cloud for more than five years at Rockwell Automation and Shell.\n\n– 5+ years on SAP Commerce Cloud (Hybris 2105 / 2211) for Rockwell Automation and Shell\n– OCC REST web services (headless APIs) for storefronts, PWA frontends and third parties\n– CI/CD deployment cycles on CCv2, query refactoring that cut response latency\n\nI am used to working with distributed teams across India and Europe and to taking ownership of production quality. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "SAP Hybris Developer | SAP Commerce Cloud 2105 / 2211, Java, Spring & OCC APIs",
+  "summary": "SAP Certified Commerce Cloud Developer with 5+ years building, extending and supporting enterprise B2B and B2C commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, OCC REST APIs for headless storefronts, Promotions Engine, OMS, Impex, Cronjobs and FlexibleSearch, plus PIM / ERP / MDM integrations with Profisee, DataHub and Hotfolders. Executes CI/CD deployment cycles on CCv2, performs code reviews, mentors junior developers and supports production in agile, international teams.",
   "skills": {
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
     "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
     "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
     "Backoffice",
     "Impex",
     "Cronjobs"
@@ -31,23 +34,32 @@
     "Java (Core & J2EE)",
     "Spring Framework",
     "Spring Boot",
-    "Microservices",
     "RESTful APIs",
+    "Microservices",
     "Design Patterns",
-    "SOAP",
     "Data Modeling",
     "JUnit",
-    "Groovy"
+    "Groovy",
+    "SOAP"
    ],
    "APIs & Integration": [
-    "REST web services",
     "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "DataHub",
     "Hotfolders",
-    "SAP ERP)",
     "file-based data pipelines",
     "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
    ],
    "Databases & Search": [
     "SQL",
@@ -55,30 +67,20 @@
     "FlexibleSearch",
     "Apache Solr"
    ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "Docker",
-    "Kubernetes",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "PI Planning",
-    "International Teams"
-   ],
    "Frontend & Web": [
     "JavaScript",
     "Progressive Web Application (PWA) integration",
     "Responsive Design",
     "storefront customization"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "PI Planning",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "Technical Mentoring",
+    "International Teams"
    ]
   },
   "bullet_order": {
@@ -86,97 +88,60 @@
     0,
     1,
     2,
-    3,
+    5,
     4,
-    5
+    3,
+    6,
+    7
    ],
    "shell": [
     0,
     1,
+    4,
+    5,
     2,
     3,
-    4,
-    5
+    6
    ],
    "cognizant": [
     0,
-    1,
     2,
-    3
+    3,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce Cloud",
-   "Hybris",
-   "Java",
-   "Spring",
-   "OCC REST APIs",
-   "Order Management",
-   "Backoffice",
-   "Impex",
-   "Cronjobs"
-  ],
-  "keywords_missing": [],
-  "cover_en": {
-   "subject": "Application: Hiring For SAP Hybris Developer",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the SAP Hybris Developer position. With over 5 years of professional experience building, extending, and supporting large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep hands-on expertise in SAP Commerce Cloud.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Cloud & Spring",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
-    },
-    {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services (headless APIs) for storefront and third-party consumers, and customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "Platform Operations & OMS",
-     "text": "Developed and maintained core SAP Hybris modules including the Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts, and Order Management (OMS)."
-    },
-    {
-     "label": "Data & CI/CD Pipelines",
-     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub, and executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)."
-    }
-   ],
-   "gap": "",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026, enabling me to start on 16.12.2026. I look forward to discussing how my SAP Commerce background aligns with your needs.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I want to bring my 5+ years of hands-on SAP Commerce Cloud and Java experience to your team, contributing to robust enterprise e-commerce architectures, seamless third-party integrations, and optimized backend performance.",
-  "motivation_short": "Motivated to deliver scalable SAP Commerce Cloud solutions leveraging strong Java and Spring expertise.",
-  "linkedin_message": "Hello, I am an SAP Certified Commerce Cloud Developer with 5+ years of experience at Rockwell Automation and Shell. I am currently based in Karlsruhe and available from 16.12.2026. I would love to discuss your SAP Hybris Developer opening.",
-  "email_subject": "Application for SAP Hybris Developer - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents, including my CV and cover letter, for the SAP Hybris Developer position. With over 5 years of experience in SAP Commerce Cloud, Java, and Spring across Rockwell Automation and Shell, I am well-prepared to contribute to your engineering team. I hold a valid German work permit and can start on 16.12.2026 following my notice period. I look forward to your response.\n\nBest regards,\nKranti Chavan"
+  "why_company": "This role is pure SAP Hybris development, which is exactly where my strengths lie: Promotions Engine, OMS, Impex, Cronjobs, FlexibleSearch and OCC APIs on Hybris 2105 and 2211 for Rockwell Automation and Shell. I want to bring that platform depth to a team that delivers demanding commerce projects for its clients.",
+  "linkedin_message": "Hello, I am applying for your SAP Hybris Developer role: SAP Certified Commerce Cloud Developer, 5+ years on Hybris 2105/2211 at Rockwell Automation and Shell (Java, Spring, OCC APIs, PIM/ERP integration). I would be glad to talk!"
  },
  "letters": {
   "en": {
-   "subject": "Application: Hiring For SAP Hybris Developer",
+   "subject": "Application: SAP Hybris Developer",
    "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the SAP Hybris Developer position. With over 5 years of professional experience building, extending, and supporting large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep hands-on expertise in SAP Commerce Cloud.",
+   "hook": "You are looking for an SAP Hybris Developer who can deliver on a live enterprise platform from day one. That is my daily work: for more than five years I have built and extended SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell with Java and Spring – as an SAP Certified Commerce Cloud Developer.",
    "bullets": [
     {
-     "label": "SAP Commerce Cloud & Spring",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
+     "label": "Core Hybris modules",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211); developed and maintained the Promotions Engine, Order Management (OMS), Cronjobs, Impex and FlexibleSearch."
     },
     {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services (headless APIs) for storefront and third-party consumers, and customized Interceptors, Populators and Converters for custom data flows."
+     "label": "OCC REST & headless",
+     "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; consumed and exposed REST and SOAP web services and customized Interceptors, Populators and Converters."
     },
     {
-     "label": "Platform Operations & OMS",
-     "text": "Developed and maintained core SAP Hybris modules including the Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts, and Order Management (OMS)."
+     "label": "Data integration",
+     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
     },
     {
-     "label": "Data & CI/CD Pipelines",
-     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub, and executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)."
+     "label": "Code quality & mentoring",
+     "text": "Performed code reviews, supported production issues and provided technical guidance to junior developers; engineered API migrations for customer account structures that improved system stability and data consistency."
     }
    ],
    "gap": "",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026, enabling me to start on 16.12.2026. I look forward to discussing how my SAP Commerce background aligns with your needs.",
-   "closing": ""
+   "logistics": "I am used to working with distributed teams across India and Europe and to taking ownership of production quality. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

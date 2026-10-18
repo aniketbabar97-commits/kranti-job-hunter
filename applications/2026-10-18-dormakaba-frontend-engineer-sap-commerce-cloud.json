@@ -6,79 +6,63 @@
   "url": "https://www.linkedin.com/jobs/view/4457486010",
   "apply_url": "",
   "score": 80,
-  "lang": "en",
   "source": "Linkedin",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://jobs.dormakaba.com/job/Frontend-Engineer-SAP-Commerce-Cloud/12180-en_US/",
+  "email_subject": "Application: Frontend Engineer - SAP Commerce Cloud",
+  "email_body": "Dear Hiring Team,\n\nYour storefront needs an engineer who knows SAP Commerce Cloud from the API to the screen – I have delivered both sides for Rockwell Automation and Shell for 5+ years.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Used generative AI / LLM tools extensively across analysis, development, testing and documentation\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n\nI am fully set up for remote collaboration with your Sofia team. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "E-Commerce Developer | Headless & PWA Commerce APIs | SAP Commerce Cloud",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "Frontend & Storefront Engineer – SAP Commerce Cloud | PWA, OCC APIs, JavaScript",
+  "summary": "SAP Commerce Cloud engineer with 5+ years on enterprise B2B and B2C platforms (Hybris 2105 and 2211) for Rockwell Automation and Shell, delivering both backend and frontend functionality. Builds OCC REST web services for headless storefronts and Progressive Web Application (PWA) frontends, customizes storefronts with JavaScript and responsive design, and connects them to product, catalog, pricing and customer data. Works hands-on with AI-assisted development, code reviews and CI/CD deployment cycles on CCv2 in agile, international teams. SAP Certified Commerce Cloud Developer.",
   "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs",
-    "B2B / B2C Commerce"
-   ],
    "Frontend & Web": [
-    "Progressive Web Application (PWA) integration",
     "JavaScript",
+    "Progressive Web Application (PWA) integration",
     "Responsive Design",
     "storefront customization"
    ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
    "APIs & Integration": [
-    "REST web services",
     "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
+    "REST web services",
     "third-party integrations"
    ],
    "Backend": [
     "Java (Core & J2EE)",
     "Spring Framework",
-    "Spring Boot",
-    "Microservices",
     "RESTful APIs",
-    "JUnit",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "Groovy"
+    "Design Patterns"
    ],
    "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
     "Git",
-    "Docker",
-    "Kubernetes",
+    "CI/CD pipelines",
     "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
     "production support and troubleshooting"
    ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering"
    ],
    "Ways of Working": [
     "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
     "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
+    "International Teams",
+    "Jira"
    ]
   },
   "bullet_order": {
@@ -86,17 +70,20 @@
     1,
     0,
     2,
-    3,
     4,
-    5
+    7,
+    5,
+    3,
+    6
    ],
    "shell": [
     1,
     0,
+    5,
+    4,
     2,
     3,
-    4,
-    5
+    6
    ],
    "cognizant": [
     2,
@@ -105,81 +92,38 @@
     3
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce Cloud",
-   "Hybris",
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "OCC APIs",
-   "Headless Commerce",
-   "PWA",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "Frontend Frameworks (React/Angular/Vue)",
-   "Spartacus storefront development"
-  ],
-  "cover_en": {
-   "subject": "Application: Frontend Engineer - SAP Commerce Cloud",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Frontend Engineer - SAP Commerce Cloud role at dormakaba. With over 5 years of professional experience building enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in SAP Commerce Cloud.",
-   "bullets": [
-    {
-     "label": "Headless & OCC APIs",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "PWA Integration",
-     "text": "Built RESTful APIs and OCC Web Services for Headless Commerce integrations and Progressive Web Application (PWA) frontends."
-    },
-    {
-     "label": "Platform Customization",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
-    },
-    {
-     "label": "CCv2 Deployments",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
-    }
-   ],
-   "gap": "While my background is primarily focused on backend and API integration for SAP Commerce platforms rather than dedicated frontend framework development, I am very keen to learn and expand my skill set in this area.",
-   "logistics": "I am based in Karlsruhe, Germany, hold a valid residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026 (earliest start 16.12.2026). I would welcome the opportunity to discuss my application further.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I am eager to contribute my 5+ years of SAP Commerce Cloud experience to dormakaba, supporting robust e-commerce architectures and integration workflows for a globally recognized enterprise.",
-  "motivation_short": "Bringing 5+ years of SAP Commerce Cloud, Java, and API integration expertise to support dormakaba's e-commerce initiatives.",
-  "linkedin_message": "Hello! I applied for the Frontend Engineer - SAP Commerce Cloud role. With 5+ years of SAP Commerce Cloud experience across Rockwell Automation and Shell, I bring strong expertise in OCC APIs, headless commerce, and Java. Based in Germany with valid work authorization.",
-  "email_subject": "Application: Frontend Engineer - SAP Commerce Cloud - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Frontend Engineer - SAP Commerce Cloud position at dormakaba.\n\nWith over 5 years of professional experience working on enterprise SAP Commerce Cloud (Hybris) implementations for Rockwell Automation and Shell, I bring strong expertise in Java, Spring, OCC REST APIs, and headless integrations.\n\nI am based in Karlsruhe with a valid work permit and am available to start from 16.12.2026. I look forward to discussing how my background matches your team's needs.\n\nBest regards,\nKranti Chavan"
+  "why_company": "dormakaba's SAP Commerce Cloud platform is 100% tailor-made and deeply integrated – the kind of system where storefront work has real business impact. With 5+ years delivering frontend and backend functionality on Hybris 2105/2211, OCC APIs for PWA frontends and daily AI-assisted development, I can contribute quickly to your digital customer experience.",
+  "linkedin_message": "Hello, your Frontend Engineer - SAP Commerce Cloud role fits my profile: 5+ years on Hybris 2105/2211 for Rockwell Automation and Shell, OCC APIs for PWA storefronts, JavaScript, AI-assisted development. Karlsruhe-based, start 16.12.2026. Open to a short call?"
  },
  "letters": {
   "en": {
    "subject": "Application: Frontend Engineer - SAP Commerce Cloud",
    "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Frontend Engineer - SAP Commerce Cloud role at dormakaba. With over 5 years of professional experience building enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in SAP Commerce Cloud.",
+   "hook": "dormakaba runs a tailor-made SAP Commerce Cloud platform where the storefront has to work seamlessly with complex backend services. That is exactly where I work: for more than five years at Rockwell Automation and Shell I have delivered frontend and backend functionality on SAP Commerce Cloud (Hybris 2105 and 2211), including the headless APIs that PWA storefronts consume.",
    "bullets": [
     {
-     "label": "Headless & OCC APIs",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators and Converters for custom data flows."
+     "label": "Storefront & frontend development",
+     "text": "Designed and implemented backend and frontend functionality on Hybris 2211 for product, catalog, pricing and customer data; storefront customization with JavaScript and responsive design."
     },
     {
-     "label": "PWA Integration",
-     "text": "Built RESTful APIs and OCC Web Services for Headless Commerce integrations and Progressive Web Application (PWA) frontends."
+     "label": "Headless & PWA integration",
+     "text": "Built RESTful APIs and OCC web services for headless commerce integrations and Progressive Web Application (PWA) frontends."
     },
     {
-     "label": "Platform Customization",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
+     "label": "AI-supported delivery",
+     "text": "Used generative AI / LLM tools extensively to accelerate analysis, development, testing and documentation – with prompt engineering and critical review of the output through code reviews."
     },
     {
-     "label": "CCv2 Deployments",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+     "label": "Quality & teamwork",
+     "text": "Performed code reviews, executed CI/CD deployment cycles on CCv2 and collaborated with backend engineers, business stakeholders and international teams."
     }
    ],
-   "gap": "While my background is primarily focused on backend and API integration for SAP Commerce platforms rather than dedicated frontend framework development, I am very keen to learn and expand my skill set in this area.",
-   "logistics": "I am based in Karlsruhe, Germany, hold a valid residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026 (earliest start 16.12.2026). I would welcome the opportunity to discuss my application further.",
-   "closing": ""
+   "gap": "",
+   "logistics": "I am based in Karlsruhe, hold a valid German work permit and am fully set up for remote collaboration with your Sofia team; I can start on 16 December 2026 after my notice period. I would be glad to discuss how I can strengthen your storefront team.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

@@ -6,26 +6,44 @@
   "url": "https://www.linkedin.com/posts/sandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9",
   "apply_url": "",
   "score": 80,
-  "lang": "en",
   "source": "LinkedIn post",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.linkedin.com/posts/sandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9",
+  "email_subject": "PWA / Headless Commerce Developer – Kranti Chavan",
+  "email_body": "Dear Ambika Sandhil,\n\nI saw your post on PWA development – I have built the headless APIs behind PWA storefronts for more than five years at Shell and Rockwell Automation.\n\n– OCC REST web services (headless APIs) for storefronts, PWA frontends and third parties\n– JavaScript, storefront customization and responsive design\n– CI/CD deployment cycles on CCv2, query refactoring that cut response latency\n\nI bridge frontend and backend teams and keep APIs fast and stable in production. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My profile: https://www.linkedin.com/in/kranti-chavan-84a155191. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams.",
+  "headline": "E-Commerce Developer | Headless & PWA Commerce APIs | SAP Commerce Cloud (Hybris)",
+  "summary": "E-commerce developer with 5+ years building headless commerce backends and APIs for Progressive Web Application (PWA) frontends on SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in OCC REST web services, JavaScript, storefront customization and responsive design, backed by Java, Spring and Spring Boot. Experienced with third-party integrations, CI/CD deployment cycles, Git and code reviews in agile, international teams, and uses AI-assisted development daily. SAP Certified Commerce Cloud Developer.",
   "skills": {
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
-    "Order Management (OMS)",
+    "Headless Commerce",
     "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
     "Backoffice",
     "Impex",
-    "Cronjobs",
-    "Headless Commerce",
-    "Promotions Engine"
+    "Cronjobs"
    ],
    "Backend": [
     "Java (Core & J2EE)",
@@ -33,43 +51,21 @@
     "Spring Boot",
     "RESTful APIs",
     "Microservices",
-    "JUnit",
-    "SOAP",
     "Design Patterns",
     "Data Modeling",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "DataHub",
-    "Hotfolders",
-    "SAP ERP)",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
+    "JUnit",
+    "Groovy",
+    "SOAP"
    ],
    "DevOps & Cloud": [
     "CI/CD pipelines",
     "Jenkins",
     "Git",
+    "Docker",
+    "Kubernetes",
     "SAP Commerce Cloud Portal (CCv2)",
     "Hybris Admin Console (HAC)",
-    "production support and troubleshooting",
-    "Docker",
-    "Kubernetes"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+    "production support and troubleshooting"
    ],
    "Ways of Working": [
     "Agile / Scrum",
@@ -83,98 +79,63 @@
   },
   "bullet_order": {
    "rockwell": [
-    0,
     1,
+    0,
     2,
-    3,
+    6,
+    5,
     4,
-    5
+    3,
+    7
    ],
    "shell": [
-    0,
     1,
+    0,
+    2,
     4,
     5,
-    2,
-    3
+    3,
+    6
    ],
    "cognizant": [
-    0,
     2,
-    1,
-    3
+    0,
+    3,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce Cloud",
-   "Hybris",
-   "Java",
-   "Spring",
-   "REST APIs",
-   "Microservices",
-   "SQL"
-  ],
-  "keywords_missing": [],
-  "cover_en": {
-   "subject": "Application: [Post] Ambika Sandhil",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the [Post] Ambika Sandhil role. With over 5 years of professional experience building and supporting enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java backend development.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Cloud & Java",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for Rockwell Automation."
-    },
-    {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "Platform & DevOps",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows at Shell."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed during my work at Shell."
-    }
-   ],
-   "gap": "",
-   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving my notice period with a last working day on 15/12/2026, and I am available to start on 16/12/2026. I would welcome the opportunity to discuss how my background aligns with your team.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I am eager to contribute my 5+ years of SAP Commerce Cloud and Java backend expertise to Ambika Sandhil. Having built and supported large-scale enterprise e-commerce platforms for global clients like Rockwell Automation and Shell, I am well-equipped to deliver robust APIs, optimize database performance, and support seamless integrations within your agile team.",
-  "motivation_short": "Bringing 5+ years of SAP Commerce Cloud and Java backend expertise to build, scale, and optimize enterprise e-commerce platforms.",
-  "linkedin_message": "Hello, I am an SAP Commerce Cloud Developer with 5+ years of experience at Rockwell Automation and Shell. I noticed your opening for [Post] Ambika Sandhil and would love to connect. I hold a valid German work permit and am available starting December 16, 2026.",
-  "email_subject": "Application for [Post] Ambika Sandhil – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the [Post] Ambika Sandhil position. With over 5 years of professional experience as an SAP Commerce Cloud and Java Developer at Rockwell Automation and Shell, I bring strong expertise in enterprise e-commerce, OCC REST APIs, and platform optimization. I am based in Karlsruhe with a valid German work permit and am available to start on December 16, 2026. I look forward to the possibility of discussing my application with you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Your focus on Progressive Web Apps matches the part of commerce I enjoy most: making storefronts fast through clean headless APIs. I have delivered OCC REST services for PWA frontends at Shell and Rockwell Automation and want to bring that end-to-end view – from API design to stable production releases – to your team and its clients.",
+  "linkedin_message": "Hi Ambika, I saw your PWA post. I build headless commerce APIs for PWA frontends (OCC REST, JavaScript, Java/Spring) – 5+ years at Shell and Rockwell Automation, based in Karlsruhe with work permit. Happy to share my CV!"
  },
  "letters": {
   "en": {
-   "subject": "Application: [Post] Ambika Sandhil",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the [Post] Ambika Sandhil role. With over 5 years of professional experience building and supporting enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep expertise in SAP Commerce Cloud and Java backend development.",
+   "subject": "Application: PWA / Headless Commerce Developer",
+   "salutation": "Dear Ambika Sandhil,",
+   "hook": "Your post is about Progressive Web Apps – and the APIs that power PWA storefronts are exactly what I build. At Shell and Rockwell Automation I have developed OCC REST web services for headless commerce and PWA frontends on SAP Commerce Cloud for more than five years.",
    "bullets": [
     {
-     "label": "SAP Commerce Cloud & Java",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring for Rockwell Automation."
+     "label": "PWA & headless commerce",
+     "text": "Built RESTful APIs and OCC web services for headless commerce integrations and Progressive Web Application (PWA) frontends, and delivered backend and frontend functionality on SAP Commerce Cloud with JavaScript and storefront customization."
     },
     {
-     "label": "REST APIs & Integrations",
-     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators and Converters for custom data flows."
+     "label": "APIs for frontends",
+     "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; consumed and exposed REST and SOAP web services and customized Interceptors, Populators and Converters."
     },
     {
-     "label": "Platform & DevOps",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows at Shell."
+     "label": "Storefront functionality",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211); developed and maintained the Promotions Engine, Order Management (OMS), Cronjobs, Impex and FlexibleSearch."
     },
     {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed during my work at Shell."
+     "label": "Delivery & quality",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
     }
    ],
    "gap": "",
-   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving my notice period with a last working day on 15/12/2026, and I am available to start on 16/12/2026. I would welcome the opportunity to discuss how my background aligns with your team.",
-   "closing": ""
+   "logistics": "I bridge frontend and backend teams and keep APIs fast and stable in production. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

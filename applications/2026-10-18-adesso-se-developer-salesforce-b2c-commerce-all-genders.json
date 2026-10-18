@@ -6,179 +6,136 @@
   "url": "https://www.linkedin.com/jobs/view/4380444640",
   "apply_url": "",
   "score": 82,
-  "lang": "en",
   "source": "Linkedin",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.adesso.de/de/jobs-karriere/",
+  "email_subject": "Bewerbung: Developer B2C Commerce (Karlsruhe) – Java, JavaScript, REST/SOAP",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen E-Commerce-Entwicklung mit Web Services und Integration von ERP, PIM und OMS – genau das liefere ich seit über fünf Jahren auf großen Commerce-Plattformen für Rockwell Automation und Shell.\n\n– Java, JavaScript und Headless-APIs (REST/SOAP/OCC) für PWA-Frontends und Storefronts\n– Integration von PIM, ERP und MDM sowie Order Management und Promotions Engine\n– KI-Tools souverän im Entwicklungsalltag; SAP Certified Commerce Cloud Developer\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist am 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Mein Profil verbindet technische Tiefe mit enger Abstimmung mit Fachbereichen, und genau diese Erfahrung bringe ich gern in Ihr Team ein. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat?\n\nMit freundlichen Grüßen\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
  },
  "tailoring": {
-  "headline": "E-Commerce Developer | SAP Commerce Cloud & Java Backend | Headless & PWA APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud (Hybris). Strong in Java, Spring, RESTful APIs, microservices, SQL, and database performance tuning, with proven delivery of integrations between PIM, ERP, and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, and agile teamwork. SAP Certified Commerce Cloud Developer.",
+  "headline": "E-Commerce Developer | Java, JavaScript & REST/SOAP APIs | B2C Commerce Integration",
+  "summary": "E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung auf großen B2C- und B2B-Plattformen (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Stark in Java, JavaScript, Web Services (REST/SOAP) und Datenbanken; entwickelt Headless-APIs für PWA-Frontends und Storefronts und integriert Drittsysteme wie ERP, PIM und Order Management (OMS). Analysiert Kundenanforderungen techno-funktional und begleitet sie durch den gesamten Entwicklungszyklus bis in den Betrieb. Setzt KI-Tools souverän in Entwicklung, Tests und Dokumentation ein. SAP Certified Commerce Cloud Developer.",
   "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "B2B / B2C Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
    "Backend": [
     "Java (Core & J2EE)",
     "Spring Framework",
     "Spring Boot",
-    "Microservices",
     "RESTful APIs",
+    "Microservices",
+    "SOAP",
     "Design Patterns",
     "Data Modeling",
     "JUnit",
-    "Groovy",
-    "SOAP"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams",
-    "PI Planning"
+    "Groovy"
    ],
    "Frontend & Web": [
     "JavaScript",
     "Progressive Web Application (PWA) integration",
     "Responsive Design",
     "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "Git",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "production support and troubleshooting"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira",
+    "Confluence"
    ]
   },
   "bullet_order": {
    "rockwell": [
     1,
     0,
+    6,
     2,
     3,
     4,
-    5
+    5,
+    7
    ],
    "shell": [
     1,
     0,
+    6,
     2,
-    3,
     4,
-    5
+    5,
+    3
    ],
    "cognizant": [
     2,
     0,
-    1,
-    3
+    3,
+    1
    ]
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "REST",
-   "APIs",
-   "E-Commerce",
-   "Agile",
-   "CI/CD"
-  ],
-  "keywords_missing": [
-   "Salesforce B2C Commerce",
-   "SFCC",
-   "Demandware"
-  ],
-  "cover_en": {
-   "subject": "Application: Developer - Salesforce B2C Commerce (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my interest in joining adesso SE as a Developer in Karlsruhe. With over five years of professional backend e-commerce experience building and maintaining enterprise platforms at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and RESTful web services.",
-   "bullets": [
-    {
-     "label": "E-Commerce Development",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
-    },
-    {
-     "label": "APIs and Headless Commerce",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for custom data flows."
-    },
-    {
-     "label": "Integrations and Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "Cloud and Platform Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while supporting production troubleshooting and maintenance."
-    }
-   ],
-   "gap": "While my professional expertise is focused on SAP Commerce Cloud rather than Salesforce B2C Commerce, my robust foundation in enterprise e-commerce architectures, Java, and RESTful integrations allows me to adapt quickly, and I am very keen to learn Salesforce B2C Commerce.",
-   "logistics": "I am based in Karlsruhe and hold a valid German residence and work permit. I am currently serving a notice period with my last working day on 15 December 2026, and I will be available to start from 16 December 2026. I would welcome the opportunity to discuss my background with you in an interview.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I want to bring my 5+ years of enterprise e-commerce backend expertise in Java, Spring, and RESTful integrations to adesso SE in Karlsruhe. I am drawn to your collaborative environment, strong technical standards, and the opportunity to build robust digital solutions within an agile team.",
-  "motivation_short": "Bringing 5+ years of enterprise e-commerce, Java, and REST API experience from Rockwell Automation and Shell to build scalable solutions at adesso SE.",
-  "linkedin_message": "Hello, I am an experienced e-commerce developer with 5+ years building enterprise platforms using Java, Spring, and REST APIs at Rockwell Automation and Shell. Based in Karlsruhe and available from Dec 2026, I would love to connect regarding the Developer role at adesso SE.",
-  "email_subject": "Application: Developer - Salesforce B2C Commerce (all genders) - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Developer - Salesforce B2C Commerce position at adesso SE. With over five years of professional experience building enterprise e-commerce platforms using Java, Spring, and REST APIs at Rockwell Automation and Shell, I am well-equipped to contribute effectively to your team.\n\nI am based in Karlsruhe, hold a valid German work permit, and am available to start on 16 December 2026.\n\nBest regards,\nKranti Chavan"
+  "why_company": "adesso verbindet E-Commerce-Entwicklung mit Kundennähe und einem klaren Karrierepfad in die technische Projektleitung – und das an meinem Wohnort Karlsruhe. Die Integration von Payment, ERP, PIM, OMS und CMS ist genau das Umfeld, in dem ich seit Jahren auf großen Commerce-Plattformen arbeite, und der Anspruch an KI-Kompetenz entspricht meinem Arbeitsalltag.",
+  "linkedin_message": "Guten Tag! Ich habe mich als Developer B2C Commerce in Karlsruhe beworben: 5+ Jahre E-Commerce-Entwicklung (Java, JavaScript, REST/SOAP) mit ERP-/PIM-/OMS-Integration bei Rockwell Automation und Shell. Wohnhaft in Karlsruhe, Start 16.12.2026. Kurzer Austausch?"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Developer - Salesforce B2C Commerce (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my interest in joining adesso SE as a Developer in Karlsruhe. With over five years of professional backend e-commerce experience building and maintaining enterprise platforms at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and RESTful web services.",
+  "de": {
+   "subject": "Bewerbung als Developer - Salesforce B2C Commerce",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Entwicklerin, die E-Commerce-Lösungen versteht – vom Frontend mit Business-Logik bis zur Integration von ERP, PIM und OMS. Genau darin arbeite ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich große Commerce-Plattformen mit Java und JavaScript, Headless-APIs für PWA-Frontends und Schnittstellen zu Unternehmenssoftware – und das direkt hier in Karlsruhe.",
    "bullets": [
     {
-     "label": "E-Commerce Development",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
+     "label": "Technologiewissen",
+     "text": "Backend- und Frontend-Funktionen mit Java, Spring und JavaScript entworfen und umgesetzt, nach Best Practices und Design Patterns; Storefronts angepasst und Progressive Web Apps (PWA) angebunden."
     },
     {
-     "label": "APIs and Headless Commerce",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for custom data flows."
+     "label": "Web Services (REST/SOAP)",
+     "text": "RESTful APIs und OCC-Webservices für Headless Commerce und PWA-Frontends gebaut sowie REST- und SOAP-Services konsumiert und bereitgestellt."
     },
     {
-     "label": "Integrations and Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
+     "label": "E-Commerce-Erfahrung & Integration",
+     "text": "PIM-, ERP- und MDM-Systeme (Profisee, SAP ERP) per Datenpipelines an den Shop angebunden, Order Management (OMS) und Promotions Engine entwickelt und Datenbankabfragen für kürzere Antwortzeiten refaktoriert."
     },
     {
-     "label": "Cloud and Platform Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while supporting production troubleshooting and maintenance."
+     "label": "KI-Kompetenz",
+     "text": "Generative KI und LLM-Tools intensiv eingesetzt, um Analyse, Entwicklung, Tests und Dokumentation zu beschleunigen – mit kritischer Bewertung der Ergebnisse."
     }
    ],
-   "gap": "While my professional expertise is focused on SAP Commerce Cloud rather than Salesforce B2C Commerce, my robust foundation in enterprise e-commerce architectures, Java, and RESTful integrations allows me to adapt quickly, and I am very keen to learn Salesforce B2C Commerce.",
-   "logistics": "I am based in Karlsruhe and hold a valid German residence and work permit. I am currently serving a notice period with my last working day on 15 December 2026, and I will be available to start from 16 December 2026. I would welcome the opportunity to discuss my background with you in an interview.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Kundenanforderungen analysiere ich gern direkt mit den Fachbereichen und begleite sie bis in den Betrieb – eine gute Basis für den Weg in die technische Projektleitung, den adesso anbietet. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, was ich in Ihre Commerce-Projekte einbringe.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

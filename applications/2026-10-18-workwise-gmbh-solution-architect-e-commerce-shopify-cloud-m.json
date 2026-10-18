@@ -6,16 +6,28 @@
   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4950466045-S",
   "apply_url": "",
   "score": 80,
-  "lang": "en",
   "source": "Arbeitsagentur",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://abriogmbh.recruitee.com/",
+  "email_subject": "Bewerbung als Solution Architect – E-Commerce / Shopify / Cloud",
+  "email_body": "Guten Tag Imke Noormann,\n\nSie suchen jemanden, der fachliche Ziele in skalierbare Commerce-Architekturen übersetzt – ich entwickle seit über 5 Jahren Enterprise-Commerce-Plattformen mit komplexen Integrationen bei Rockwell Automation und Shell.\n\n– Integrationen von PIM, ERP und MDM konzipiert und optimiert\n– Headless-APIs (OCC/REST) für Storefronts und Drittsysteme\n– Code-Reviews und Anleitung von Junior-Entwicklern\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für ABRIO bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud Developer & E-Commerce Expert | Java & REST APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud for Rockwell Automation and Shell. Strong in Java, Spring, RESTful APIs, microservices, SQL, and database performance tuning. Proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker, and Kubernetes. SAP Certified Commerce Cloud Developer with a Bachelor of Engineering in Computer Engineering / IT.",
+  "headline": "Solution Architect E-Commerce | Commerce-Architekturen, Integrationen & Cloud",
+  "summary": "E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in komplexen Anwendungs-, Integrations- und Service-Architekturen für Enterprise-Commerce-Plattformen (SAP Commerce Cloud / Hybris 2105 und 2211) bei Rockwell Automation und Shell. Übersetzt fachliche Ziele in technische Konzepte: Anforderungsanalyse, Lösungsdesign, Headless-Commerce mit OCC-REST-APIs und PIM- / ERP- / MDM-Integrationen. Erfahren in Code-Reviews, technischer Anleitung von Junior-Entwicklern, CI/CD-Deployment-Zyklen in der Cloud und direkter Abstimmung mit Stakeholdern im Konzernumfeld. SAP Certified Commerce Cloud Developer mit Erfahrung in internationalen, agilen Teams.",
   "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
@@ -27,33 +39,29 @@
     "Impex",
     "Cronjobs"
    ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
    "Backend": [
     "Java (Core & J2EE)",
     "Spring Framework",
     "Spring Boot",
-    "Microservices",
     "RESTful APIs",
-    "JUnit",
+    "Microservices",
     "SOAP",
     "Design Patterns",
     "Data Modeling",
+    "JUnit",
     "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "DataHub",
-    "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
    ],
    "DevOps & Cloud": [
     "CI/CD pipelines",
@@ -65,6 +73,12 @@
     "Hybris Admin Console (HAC)",
     "production support and troubleshooting"
    ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
    "Ways of Working": [
     "Agile / Scrum",
     "PI Planning",
@@ -74,137 +88,72 @@
     "Technical Mentoring",
     "International Teams"
    ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
     1,
     2,
     3,
     4,
-    5
+    0,
+    5,
+    6,
+    7
    ],
    "shell": [
-    0,
     1,
     2,
-    3,
     4,
-    5
+    5,
+    0,
+    3,
+    6
    ],
    "cognizant": [
+    2,
     0,
     1,
-    2,
     3
    ]
   },
-  "keywords_matched": [
-   "Developer",
-   "Integrations",
-   "APIs",
-   "Architecture",
-   "Agile",
-   "Scalability",
-   "Quality"
-  ],
-  "keywords_missing": [
-   "Shopify",
-   "Shopify Plus",
-   "Solution Architecture",
-   "Conversion-Optimierung"
-  ],
-  "cover_en": {
-   "subject": "Application: Solution Architect - E-Commerce / Shopify / Cloud (m/w/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Solution Architect role at ABRIO GmbH, bringing over 5 years of solid backend and e-commerce platform engineering experience. My background includes building, extending, and supporting enterprise platforms for global brands such as Rockwell Automation and Shell.",
-   "bullets": [
-    {
-     "label": "Enterprise E-Commerce Platforms",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud covering product, catalog, pricing, and customer data management following platform best practices."
-    },
-    {
-     "label": "APIs and Integrations",
-     "text": "Developed and exposed OCC REST Web Services and designed PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to synchronize product catalogs."
-    },
-    {
-     "label": "Technical Leadership & Reviews",
-     "text": "Performed code reviews, supported production issues, and provided technical guidance to junior developers while working within agile international teams."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, ensuring high performance and stability."
-    }
-   ],
-   "gap": "While my core expertise is rooted in Java and SAP Commerce Cloud rather than Shopify, I have strong experience in complex application and integration architectures and am very keen to learn and expand into new e-commerce ecosystems.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period until 15 December 2026, with an earliest start date of 16 December 2026. I would welcome the opportunity to discuss how my technical background aligns with your engineering standards.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung: Solution Architect - E-Commerce / Shopify / Cloud (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse habe ich Ihre Ausschreibung für den Solution Architect bei ABRIO GmbH gelesen. Als erfahrene Backend-Entwicklerin bringe ich über 5 Jahre fundierte Praxis in der Umsetzung großer E-Commerce-Plattformen für Unternehmen wie Rockwell Automation und Shell mit.",
-   "bullets": [
-    {
-     "label": "E-Commerce Entwicklung",
-     "text": "Entwicklung und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud unter Einsatz von Java und Spring."
-    },
-    {
-     "label": "APIs und Datenintegration",
-     "text": "Bereitstellung von OCC REST Web Services sowie Konzeption und Optimierung von Datapipelines zwischen PIM- und E-Commerce-Systemen."
-    },
-    {
-     "label": "Qualität und Code Reviews",
-     "text": "Durchführung von Code Reviews, Unterstützung bei der Fehlerbehebung im Betrieb und technische Anleitung von Nachwuchsentwicklern."
-    },
-    {
-     "label": "Performance-Optimierung",
-     "text": "Führung von Datenbankabfrage-Refaktorisierungen zur Reduzierung der Antwortlatenz und Steigerung der Transaktionsgeschwindigkeit."
-    }
-   ],
-   "gap": "Da mein bisheriger Schwerpunkt auf SAP Commerce Cloud und Java liegt, bringe ich Shopify-Erfahrung derzeit noch nicht mit, bin jedoch hochmotiviert, mich in diesen Bereich einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe, verfüge über eine gültige Arbeitserlaubnis und befinde mich in einer Kündigungsfrist bis zum 15.12.2026. Mein frühester Eintrittstermin ist der 16.12.2026. Ich freue mich auf ein persönliches Gespräch.",
-   "closing": ""
-  },
-  "why_company": "I am eager to join ABRIO GmbH because of your position as a leading Shopify partner and fast-growing e-commerce consultancy working with diverse clients from startups to large enterprises. I am drawn to your dynamic environment, focus on modern technologies, and commitment to personal growth and high engineering standards.",
-  "motivation_short": "I want to apply my 5+ years of enterprise e-commerce backend expertise, API integration skills, and technical leadership experience to help scale robust commerce platforms at ABRIO GmbH.",
-  "linkedin_message": "Hello! I saw your Solution Architect opening at ABRIO GmbH. With 5+ years of backend e-commerce experience at Rockwell Automation and Shell, building scalable APIs and integrating platforms, I would love to connect and discuss how I can contribute to your engineering standards.",
-  "email_subject": "Application: Solution Architect - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application for the Solution Architect position. With over 5 years of professional experience building enterprise e-commerce platforms using Java, Spring, and RESTful APIs at Rockwell Automation and Shell, I bring strong technical foundations in integrations, performance tuning, and agile teamwork. \n\nI hold a valid German work permit and am available starting 16.12.2026 following my notice period. I look forward to discussing my profile with you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "ABRIO wächst als führender Shopify-Partner in der DACH-Region mit Kunden von D2C-Startups bis zu DAX-40-Konzernen. Gerade Enterprise-Kunden brauchen saubere Integrationsarchitekturen zu ERP, PIM und Middleware – genau dort liegt meine Stärke. Eigenverantwortung, flache Hierarchien und der Weg in Richtung Solution Architecture passen sehr gut zu mir.",
+  "linkedin_message": "Guten Tag Imke Noormann, Ihre Position Solution Architect E-Commerce hat mich angesprochen: 5+ Jahre Enterprise-Commerce mit komplexen Integrationen (PIM, ERP, MDM, Headless-APIs) bei Rockwell Automation und Shell. Start ab 16.12.2026. Ich freue mich auf einen Austausch!"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Solution Architect - E-Commerce / Shopify / Cloud (m/w/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Solution Architect role at ABRIO GmbH, bringing over 5 years of solid backend and e-commerce platform engineering experience. My background includes building, extending, and supporting enterprise platforms for global brands such as Rockwell Automation and Shell.",
+  "de": {
+   "subject": "Bewerbung als Solution Architect – E-Commerce / Shopify / Cloud",
+   "salutation": "Guten Tag Imke Noormann,",
+   "hook": "Sie suchen jemanden, der Kundenanforderungen in skalierbare Commerce- und Integrationsarchitekturen übersetzt und Entwicklerteams fachlich führt. Genau in diesem Umfeld arbeite ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich Enterprise-Commerce-Plattformen mit komplexen Service- und Integrationsarchitekturen – von Headless-APIs bis zur Anbindung von PIM, ERP und MDM.",
    "bullets": [
     {
-     "label": "Enterprise E-Commerce Platforms",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud covering product, catalog, pricing, and customer data management following platform best practices."
+     "label": "Integrationsarchitekturen",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub konzipiert, aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst."
     },
     {
-     "label": "APIs and Integrations",
-     "text": "Developed and exposed OCC REST Web Services and designed PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to synchronize product catalogs."
+     "label": "Headless & Middleware",
+     "text": "OCC-REST-Webservices (Headless-APIs) für Storefront und Drittsysteme bereitgestellt, RESTful APIs für PWA-Frontends entwickelt und Interceptors, Populators und Converters für eigene Datenflüsse angepasst."
     },
     {
-     "label": "Technical Leadership & Reviews",
-     "text": "Performed code reviews, supported production issues, and provided technical guidance to junior developers while working within agile international teams."
+     "label": "Anforderungen in Konzepte übersetzen",
+     "text": "Anforderungen mit Fachbereichen analysiert, User Stories und Fachkonzepte erstellt und in Lösungen umgesetzt; API-Migrationen für Kundenkontostrukturen umgesetzt."
     },
     {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, ensuring high performance and stability."
+     "label": "Engineering-Standards & Reviews",
+     "text": "Code-Reviews und technische Anleitung von Junior-Entwicklern; Datenbankabfragen für kürzere Antwortzeiten refaktoriert und CI/CD-Deployment-Zyklen in der Cloud durchgeführt."
     }
    ],
-   "gap": "While my core expertise is rooted in Java and SAP Commerce Cloud rather than Shopify, I have strong experience in complex application and integration architectures and am very keen to learn and expand into new e-commerce ecosystems.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period until 15 December 2026, with an earliest start date of 16 December 2026. I would welcome the opportunity to discuss how my technical background aligns with your engineering standards.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei ABRIO starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
+   "closing": "",
+   "contact": "z. Hd. Imke Noormann, People & Culture"
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

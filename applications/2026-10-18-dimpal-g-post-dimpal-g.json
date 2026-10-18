@@ -6,23 +6,26 @@
   "url": "https://www.linkedin.com/posts/dimpalg_tech-mahindra-is-hiring-junior-sap-basis-activity-7514344594596179968-BgDY",
   "apply_url": "",
   "score": 80,
-  "lang": "en",
   "source": "LinkedIn post",
-  "posted": "2026-10-11",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.linkedin.com/posts/dimpalg_tech-mahindra-is-hiring-junior-sap-basis-activity-7514344594596179968-BgDY",
+  "email_subject": "Application: SAP role at Tech Mahindra",
+  "email_body": "Dear Dimpal G.,\n\nYour post on SAP hiring at Tech Mahindra caught my eye: I have kept SAP Commerce Cloud platforms running for Rockwell Automation and Shell for five years.\n\n– Executed CI/CD deployment cycles on CCv2, production support\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– 5+ years SAP Commerce Cloud (Hybris 2105/2211) at Rockwell Automation and Shell\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "SAP Commerce Cloud Engineer | CCv2 Operations, HAC & Production Support",
+  "summary": "SAP engineer with 5+ years on SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell, with a strong focus on platform operations. Executes CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2), manages the platform through the Hybris Admin Console (HAC), supports production troubleshooting and resolves integration issues between SAP ERP, MDM and PIM. Experienced with Docker, Kubernetes, Jenkins and Git in agile DevOps teams. SAP Certified Commerce Cloud Developer.",
   "skills": {
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
     "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
     "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
     "Backoffice",
     "Impex",
     "Cronjobs"
@@ -31,54 +34,44 @@
     "Java (Core & J2EE)",
     "Spring Framework",
     "Spring Boot",
-    "Microservices",
     "RESTful APIs",
-    "Design Patterns",
-    "Data Modeling",
     "JUnit",
-    "Groovy",
-    "SOAP"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
+    "Groovy"
    ],
    "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
     "CI/CD pipelines",
     "Jenkins",
     "Git",
     "Docker",
     "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
     "Hybris Admin Console (HAC)",
     "production support and troubleshooting"
    ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders"
+   ],
+   "Databases & Search": [
+    "FlexibleSearch",
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
    ],
    "Frontend & Web": [
     "JavaScript",
     "Progressive Web Application (PWA) integration",
-    "Responsive Design",
     "storefront customization"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira",
+    "Confluence",
+    "International Teams"
    ]
   },
   "bullet_order": {
@@ -87,93 +80,59 @@
     1,
     2,
     3,
+    5,
     4,
-    5
+    6,
+    7
    ],
    "shell": [
     0,
+    4,
     1,
     2,
+    5,
     3,
-    4,
-    5
+    6
    ],
    "cognizant": [
     0,
-    1,
     2,
-    3
+    3,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce Cloud",
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "SQL",
-   "Agile"
-  ],
-  "keywords_missing": [],
-  "cover_en": {
-   "subject": "Application: [Post] Dimpal G.",
-   "salutation": "Dear Ms Dimpal,",
-   "hook": "I am writing to express my strong interest in joining your team. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development at Rockwell Automation and Shell, I bring deep expertise in Java, Spring, and enterprise e-commerce solutions.",
-   "bullets": [
-    {
-     "label": "SAP Commerce & Java",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
-    },
-    {
-     "label": "REST APIs & Headless",
-     "text": "Developed and exposed OCC REST Web Services and built RESTful APIs for Headless Commerce integrations and PWA frontends."
-    },
-    {
-     "label": "Integrations & Data",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized."
-    },
-    {
-     "label": "Database & DevOps",
-     "text": "Led database query refactoring that reduced response latency and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2)."
-    }
-   ],
-   "gap": "",
-   "logistics": "I am based in Karlsruhe and hold a valid German residence and work permit with no sponsorship required. I am currently serving my notice period with a last working day on 15 December 2026, and I will be available to start on 16 December 2026. I would welcome the opportunity to discuss how my backend and e-commerce background aligns with your needs.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I am eager to contribute my 5+ years of SAP Commerce Cloud and Java backend expertise to your dynamic projects. My experience building robust e-commerce architectures, managing complex integrations, and optimizing system performance at companies like Rockwell Automation and Shell makes me well-prepared to add immediate value to your engineering initiatives.",
-  "motivation_short": "Leveraging 5+ years of SAP Commerce Cloud and Java expertise to build scalable e-commerce solutions.",
-  "linkedin_message": "Hello, I am an SAP Certified Commerce Cloud Developer with 5+ years of experience in Java, Spring, and enterprise e-commerce platforms. I am based in Karlsruhe, hold a valid work permit, and am available from 16.12.2026. I would love to connect and discuss potential opportunities.",
-  "email_subject": "Application for [Post] Dimpal G. - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the [Post] Dimpal G. role. With over 5 years of hands-on experience building enterprise e-commerce platforms using SAP Commerce Cloud, Java, and Spring at Rockwell Automation and Shell, I am well-equipped to contribute to your team. I am based in Karlsruhe, hold a valid German work permit, and am available to start on 16.12.2026 following my notice period. I look forward to discussing my application with you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Tech Mahindra runs SAP landscapes for global clients at scale. I want to bring five years of SAP Commerce Cloud operations – CCv2 deployments, HAC, production support and SAP ERP integrations – into a delivery team in Germany where stable platforms matter every day. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
+  "linkedin_message": "Hi Dimpal, saw your post on SAP hiring at Tech Mahindra. 5+ years SAP Commerce Cloud (CCv2 deployments, HAC, production support, SAP ERP integration). Karlsruhe, work permit, start 16.12.2026. Could we have a short call?"
  },
  "letters": {
   "en": {
-   "subject": "Application: [Post] Dimpal G.",
-   "salutation": "Dear Ms Dimpal,",
-   "hook": "I am writing to express my strong interest in joining your team. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development at Rockwell Automation and Shell, I bring deep expertise in Java, Spring, and enterprise e-commerce solutions.",
+   "subject": "Application: SAP role at Tech Mahindra",
+   "salutation": "Dear Dimpal G.,",
+   "hook": "Your post about SAP hiring at Tech Mahindra caught my eye. SAP landscapes need people who keep systems running, releases clean and incidents short – and that is what I have done for more than five years on SAP Commerce Cloud for Rockwell Automation and Shell.",
    "bullets": [
     {
-     "label": "SAP Commerce & Java",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
+     "label": "Platform operations",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; supported production troubleshooting through the Hybris Admin Console (HAC) and Groovy scripts."
     },
     {
-     "label": "REST APIs & Headless",
-     "text": "Developed and exposed OCC REST Web Services and built RESTful APIs for Headless Commerce integrations and PWA frontends."
+     "label": "Integration troubleshooting",
+     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
     },
     {
-     "label": "Integrations & Data",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized."
+     "label": "Performance",
+     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures that improved stability and data consistency."
     },
     {
-     "label": "Database & DevOps",
-     "text": "Led database query refactoring that reduced response latency and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2)."
+     "label": "Production support",
+     "text": "Built automated unit and integration test suites with JUnit; perform code reviews, support production issues and give technical guidance to junior developers."
     }
    ],
    "gap": "",
-   "logistics": "I am based in Karlsruhe and hold a valid German residence and work permit with no sponsorship required. I am currently serving my notice period with a last working day on 15 December 2026, and I will be available to start on 16 December 2026. I would welcome the opportunity to discuss how my backend and e-commerce background aligns with your needs.",
-   "closing": ""
+   "logistics": "I work smoothly with international delivery teams and clients across time zones. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen Tech Mahindra.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

@@ -6,46 +6,45 @@
   "url": "https://job-boards.greenhouse.io/sanmaremployeeopenings/jobs/5254348007",
   "apply_url": "",
   "score": 85,
-  "lang": "en",
   "source": "Career site (Greenhouse)",
-  "posted": "2026-10-17",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://job-boards.greenhouse.io/sanmaremployeeopenings/jobs/5254348007",
+  "email_subject": "Application: Associate Software Developer",
+  "email_body": "Dear Hiring Team,\n\nYou need a developer who delivers clean, tested code from day one – I bring 5+ years of Java and Spring development on enterprise e-commerce platforms for Rockwell Automation and Shell.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Led database query refactoring that reduced response latency and improved transaction speed\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n– Used generative AI / LLM tools extensively across analysis, development, testing and documentation\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "Software Developer | Java, Spring Boot & REST APIs | Enterprise E-Commerce",
+  "summary": "Software developer with 5+ years of professional experience building and supporting enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and query performance tuning. Builds automated unit and integration tests with JUnit, works with Git and CI/CD pipelines, Docker and Kubernetes, and supports production troubleshooting. Uses AI-assisted development daily. Collaborates closely with business stakeholders in agile, international teams. SAP Certified Commerce Cloud Developer.",
   "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs",
-    "Headless Commerce",
-    "Promotions Engine",
-    "Product Catalog & PIM"
-   ],
    "Backend": [
     "Java (Core & J2EE)",
     "Spring Framework",
     "Spring Boot",
     "RESTful APIs",
     "Microservices",
-    "JUnit",
-    "SOAP",
     "Design Patterns",
-    "Data Modeling",
-    "Groovy"
+    "JUnit"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
    ],
    "APIs & Integration": [
     "REST web services",
-    "OCC APIs",
-    "DataHub",
-    "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "file-based data pipelines",
     "third-party integrations"
    ],
@@ -56,47 +55,43 @@
     "Apache Solr"
    ],
    "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
     "Git",
+    "CI/CD pipelines",
     "Docker",
-    "SAP Commerce Cloud Portal (CCv2)",
     "Kubernetes",
-    "Hybris Admin Console (HAC)",
     "production support and troubleshooting"
    ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering"
+   ],
    "Ways of Working": [
+    "Code Reviews",
     "Agile / Scrum",
     "Jira",
-    "Confluence",
-    "Code Reviews",
-    "PI Planning",
-    "Technical Mentoring",
     "International Teams"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
    ]
   },
   "bullet_order": {
    "rockwell": [
     0,
     1,
+    5,
+    4,
     2,
     3,
-    4,
-    5
+    7,
+    6
    ],
    "shell": [
-    0,
     1,
+    5,
+    4,
+    0,
     2,
     3,
-    4,
-    5
+    6
    ],
    "cognizant": [
     0,
@@ -105,77 +100,38 @@
     3
    ]
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "SAP Commerce Cloud",
-   "SQL",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "specific proprietary internal frameworks mentioned in the posting"
-  ],
-  "cover_en": {
-   "subject": "Application: Associate Software Developer",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Associate Software Developer position at Sanmaremployeeopenings. With over 5 years of professional backend experience specializing in SAP Commerce Cloud at Rockwell Automation and Shell, I bring deep expertise in Java, Spring, and enterprise e-commerce solutions.",
-   "bullets": [
-    {
-     "label": "SAP Commerce & Java Development",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
-    },
-    {
-     "label": "REST APIs & Integration",
-     "text": "Developed and exposed OCC REST Web Services (headless APIs) for storefront and third-party consumers, and customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "Database & Query Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; supported production troubleshooting and maintenance."
-    },
-    {
-     "label": "CI/CD & Deployment",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
-    }
-   ],
-   "gap": "While the role may involve specific internal tools or supplementary technologies not yet in my direct background, my solid foundation in Java and enterprise platforms enables me to quickly adapt and learn new systems.",
-   "logistics": "I am based in Karlsruhe, Germany, holding a valid residence and work permit. I am currently serving a notice period with my last working day on 15.12.2026, and I am available to start from 16.12.2026. I would welcome the opportunity to discuss my application further in an interview.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I am eager to contribute my 5+ years of enterprise e-commerce and backend development expertise to Sanmaremployeeopenings. Working on robust Java and SAP Commerce platforms has equipped me to deliver scalable, high-performance solutions within collaborative agile teams.",
-  "motivation_short": "Bringing 5+ years of SAP Commerce Cloud and Java backend expertise to build scalable solutions and drive high-performance e-commerce platforms.",
-  "linkedin_message": "Hello, I am an SAP Commerce Cloud and Java Developer with 5+ years of experience at Rockwell Automation and Shell. My background covers REST APIs, Spring, and database performance tuning. I have a valid German work permit and am available from 16.12.2026. Let's connect!",
-  "email_subject": "Application for Associate Software Developer - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Associate Software Developer position. With over 5 years of professional experience building enterprise e-commerce platforms using Java, Spring, and SAP Commerce Cloud (Hybris), I am confident in my ability to add value to your team. I am based in Karlsruhe with a valid German work permit and can start on 16.12.2026 following my notice period. I look forward to discussing my application with you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Your Associate Software Developer role is a chance to apply solid engineering fundamentals in a team that values quality. I bring five years of professional Java, Spring and REST API work on enterprise platforms for Rockwell Automation and Shell, plus testing with JUnit and CI/CD delivery, and I want to put that experience to work on your products.",
+  "linkedin_message": "Hello, I am interested in your Associate Software Developer role: 5+ years of Java/Spring, REST APIs, SQL and JUnit testing on enterprise e-commerce platforms for Rockwell Automation and Shell. Based in Karlsruhe, start 16.12.2026. Open to a short call?"
  },
  "letters": {
   "en": {
    "subject": "Application: Associate Software Developer",
    "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Associate Software Developer position at Sanmaremployeeopenings. With over 5 years of professional backend experience specializing in SAP Commerce Cloud at Rockwell Automation and Shell, I bring deep expertise in Java, Spring, and enterprise e-commerce solutions.",
+   "hook": "You are looking for a software developer who writes clean, reliable code and grows quickly into your systems. I bring more than five years of professional Java development on large enterprise e-commerce platforms for Rockwell Automation and Shell – from REST APIs and data integrations to tests, deployments and production support.",
    "bullets": [
     {
-     "label": "SAP Commerce & Java Development",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
+     "label": "Software development",
+     "text": "Designed and implemented backend and frontend functionality with Java and Spring on SAP Commerce Cloud (Hybris 2211), following design patterns and platform best practices."
     },
     {
-     "label": "REST APIs & Integration",
-     "text": "Developed and exposed OCC REST Web Services (headless APIs) for storefront and third-party consumers, and customized Interceptors, Populators and Converters for custom data flows."
+     "label": "APIs & integrations",
+     "text": "Built RESTful APIs and OCC web services for headless and PWA frontends; consumed and exposed REST and SOAP web services for third-party systems."
     },
     {
-     "label": "Database & Query Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; supported production troubleshooting and maintenance."
+     "label": "Code quality & testing",
+     "text": "Built automated unit and integration test suites with JUnit, performed code reviews and led database query refactoring that reduced response latency."
     },
     {
-     "label": "CI/CD & Deployment",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows."
+     "label": "Delivery & support",
+     "text": "Executed CI/CD deployment cycles and release builds within agile DevOps workflows and supported production troubleshooting and maintenance."
     }
    ],
-   "gap": "While the role may involve specific internal tools or supplementary technologies not yet in my direct background, my solid foundation in Java and enterprise platforms enables me to quickly adapt and learn new systems.",
-   "logistics": "I am based in Karlsruhe, Germany, holding a valid residence and work permit. I am currently serving a notice period with my last working day on 15.12.2026, and I am available to start from 16.12.2026. I would welcome the opportunity to discuss my application further in an interview.",
-   "closing": ""
+   "gap": "",
+   "logistics": "I work well in agile, international teams and use AI tools daily to speed up analysis, development and testing. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation about how I can contribute to your development team.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

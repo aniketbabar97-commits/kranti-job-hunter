@@ -1,0 +1,135 @@
+{
+ "job": {
+  "title": "Senior Odoo Engineer ERP & E-Commerce (all genders)",
+  "company": "ValueNet Group",
+  "location": "Munich, Bavaria, Germany",
+  "url": "https://www.linkedin.com/jobs/view/4477689063",
+  "apply_url": "",
+  "score": 60,
+  "source": "Linkedin",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
+  "contact": "",
+  "direct_url": "https://www.linkedin.com/jobs/view/4477689063",
+  "email_subject": "Application: Senior Engineer ERP & E-Commerce – integrations, migrations, code quality",
+  "email_body": "Dear Hiring Team,\n\nYour Odoo roadmap depends on clean ERP and e-commerce interfaces – I have developed e-commerce platforms and their ERP integrations for 5+ years at Rockwell Automation and Shell.\n\n– ERP, PIM and MDM integrations; REST and SOAP services to adjacent systems\n– API and data migrations across platform versions for stability\n– Refactoring, code reviews and technical guidance for developers\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
+ },
+ "tailoring": {
+  "headline": "Senior Engineer ERP & E-Commerce | Integrations, Payments & Data Migrations",
+  "summary": "Senior engineer with 5+ years developing enterprise e-commerce platforms and their ERP integrations for Rockwell Automation and Shell. Builds custom modules from requirements to go-live, integrates ERP, PIM, MDM and third-party services via REST and SOAP, engineers API and data migrations, and develops cron jobs and order management. Analyses and refactors existing software for quality, maintainability and stability, documents clearly and provides technical guidance to developers. Git, CI/CD deployment cycles, AI-assisted development.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Cronjobs",
+    "Product Catalog & PIM",
+    "Promotions Engine"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "Git",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Requirements engineering",
+    "Functional specifications",
+    "Solution design",
+    "Stakeholder management"
+   ],
+   "Ways of Working": [
+    "Code Reviews",
+    "Technical Mentoring",
+    "Agile / Scrum"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    2,
+    3,
+    1,
+    4,
+    0,
+    5,
+    7,
+    6
+   ],
+   "shell": [
+    2,
+    1,
+    5,
+    4,
+    0,
+    3,
+    6
+   ],
+   "cognizant": [
+    2,
+    1,
+    0,
+    3
+   ]
+  },
+  "why_company": "ValueNet runs its whole business – sales, orders, logistics and accounting – on one platform and is now upgrading it, expanding to new countries and building a new online store. That combination of ERP, e-commerce and integrations, with a focus on upgradeable architecture, matches my experience exactly.",
+  "linkedin_message": "Hello! I applied for Senior Engineer ERP & E-Commerce: 5+ years building e-commerce platforms with ERP integrations, data migrations and order management at Rockwell Automation and Shell. Open to Munich, start 16.12.2026. Happy to have a short call!"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Senior Odoo Engineer ERP & E-Commerce",
+   "salutation": "Dear Hiring Team,",
+   "hook": "Your Odoo platform powers sales, order processing, logistics and accounting, and the next steps – upgrades, new countries, payment integrations and a new online store – all depend on clean interfaces and maintainable code. That is the core of my last five years: at Rockwell Automation and Shell I have developed enterprise e-commerce platforms and their ERP integrations from requirements to go-live.",
+   "bullets": [
+    {
+     "label": "ERP & e-commerce integration",
+     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and PIM and built data pipelines that keep product catalogs synchronized across global channels."
+    },
+    {
+     "label": "Interfaces with adjacent systems",
+     "text": "Consumed and exposed REST and SOAP web services and integrated external services; developed Order Management (OMS), Cronjobs and Promotions Engine modules."
+    },
+    {
+     "label": "Upgrades & data migrations",
+     "text": "Engineered API migrations for customer account structures that improved system stability and data consistency, and worked across platform versions 2105 and 2211."
+    },
+    {
+     "label": "Code quality & technical guidance",
+     "text": "Led database query refactoring for lower latency, performed code reviews and provided technical guidance to junior developers; documented functional specifications."
+    }
+   ],
+   "gap": "",
+   "logistics": "I enjoy analysing an existing system, refactoring it with a clear strategy and keeping it upgradeable. I live in Karlsruhe, hold a valid German work permit, am open to relocating to Munich for your office-based team and can start on 16 December 2026 after my notice period. I would be glad to discuss your Odoo roadmap in a conversation.",
+   "closing": "",
+   "contact": ""
+  }
+ },
+ "lang": "en",
+ "created": "2026-10-18"
+}

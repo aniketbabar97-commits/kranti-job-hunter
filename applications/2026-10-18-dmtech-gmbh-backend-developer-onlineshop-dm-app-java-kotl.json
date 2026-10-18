@@ -6,186 +6,127 @@
   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-270206081026-S",
   "apply_url": "",
   "score": 85,
-  "lang": "en",
   "source": "Arbeitsagentur",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.dmtech.de/karriere",
+  "email_subject": "Bewerbung als Backend Developer Onlineshop & dm-App – Java / Kotlin",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen jemanden, der Produktdaten aus verschiedenen Quellsystemen per Java-Backend an Onlineshop und App ausliefert – genau das mache ich seit fünf Jahren für Rockwell Automation und Shell.\n\n– PIM-zu-Shop-Datenpipelines mit Profisee, Hotfolders und DataHub\n– Java, Spring Boot, RESTful APIs und Microservices\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n– JUnit-Testsuiten, Code-Reviews, Mentoring von Junior-Entwicklern\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "Backend Developer | Java, Spring Boot & REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms for Rockwell Automation and Shell. Strong in Java, Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker, Kubernetes and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "Backend Developer Java | Spring Boot Microservices, RESTful APIs & Produktdaten",
+  "summary": "Backend-Entwicklerin mit über 5 Jahren Erfahrung in Java, Spring Boot, Microservices und RESTful APIs für große Onlineshops von Rockwell Automation und Shell. Schwerpunkt auf Aufbereitung von Produktdaten aus Quellsystemen wie PIM, ERP und MDM und deren Auslieferung an Shop, Headless- und PWA-Frontends. Sichert Codequalität durch Code-Reviews und automatisierte Tests, optimiert SQL-Abfragen für Performance und führt CI/CD-Deployment-Zyklen durch. Nutzt KI-Tools intensiv in Analyse, Entwicklung, Test und Dokumentation. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
   "skills": {
    "Backend": [
     "Java (Core & J2EE)",
-    "Spring Framework",
     "Spring Boot",
+    "Spring Framework",
     "Microservices",
     "RESTful APIs",
-    "JUnit",
+    "SOAP",
     "Design Patterns",
     "Data Modeling",
-    "Groovy",
-    "SOAP"
+    "JUnit"
    ],
    "APIs & Integration": [
     "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "DataHub",
-    "Hotfolders",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "file-based data pipelines",
-    "third-party integrations"
+    "OCC APIs"
    ],
    "Databases & Search": [
     "SQL",
     "query optimization and performance tuning",
-    "FlexibleSearch",
     "Apache Solr"
    ],
    "DevOps & Cloud": [
     "CI/CD pipelines",
-    "Jenkins",
-    "Git",
     "Docker",
     "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
+    "Git",
+    "Jenkins",
     "production support and troubleshooting"
    ],
    "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
     "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
+    "Order Management (OMS)"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
    ],
    "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
     "Code Reviews",
     "Technical Mentoring",
+    "Agile / Scrum",
     "International Teams"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
     1,
-    2,
-    3,
+    0,
     4,
-    5
+    3,
+    2,
+    5,
+    7,
+    6
    ],
    "shell": [
     1,
-    0,
+    5,
     2,
     4,
+    0,
     3,
-    5
+    6
    ],
    "cognizant": [
-    1,
     0,
+    1,
     2,
     3
    ]
   },
-  "keywords_matched": [
-   "Java",
-   "Spring Boot",
-   "Microservices",
-   "RESTful APIs",
-   "CI/CD-Pipelines",
-   "Backend-Entwicklung",
-   "Code-Reviews",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "Kotlin",
-   "TypeScript",
-   "React",
-   "Kafka",
-   "PostgreSQL",
-   "GCP",
-   "VMware Tanzu",
-   "Datadog",
-   "C1 German"
-  ],
-  "cover_en": {
-   "subject": "Application: Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Backend Developer Onlineshop & dm-App position at dmTECH GmbH in Karlsruhe. With over 5 years of professional experience as a backend developer building enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in Java, Spring Boot, RESTful APIs, and microservices.",
-   "bullets": [
-    {
-     "label": "Backend Services & APIs",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, developing and exposing OCC REST Web Services and custom data flows."
-    },
-    {
-     "label": "Product Data Processing",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "System Performance & CI/CD",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2)."
-    },
-    {
-     "label": "Agile Collaboration",
-     "text": "Collaborated within agile DevOps workflows, performed code reviews, supported production issues, and worked closely with international technical teams."
-    }
-   ],
-   "gap": "While my primary backend expertise is rooted in Java and Spring Boot rather than Kotlin, and my German language proficiency is at the B1 level rather than C1, I am very keen to learn Kotlin and further develop my skills to support your team effectively.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving a notice period with my last working day on 15 December 2026, making me available to start on 16 December 2026. I would welcome the opportunity to discuss my application with you.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I want to work at dmTECH because I am inspired by how digital services shape the shopping experience for millions of customers across thousands of branches. Contributing to the backend systems that power the dm app and online shop in agile teams aligns closely with my background in enterprise e-commerce platforms and my desire to build robust digital touchpoints.",
-  "motivation_short": "I am motivated to apply my 5+ years of backend Java and microservices experience to help scale dmTECH's digital commerce touchpoints and ensure high system performance.",
-  "linkedin_message": "Hello, I applied for the Backend Developer position at dmTECH. With 5+ years of backend experience in Java, Spring Boot, and REST APIs, plus my location in Karlsruhe and availability from Dec 16, 2026, I'd love to connect and discuss how I can contribute.",
-  "email_subject": "Application: Backend Developer Onlineshop & dm-App - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the Backend Developer Onlineshop & dm-App position at dmTECH GmbH. With over 5 years of professional experience in backend development, Java, Spring Boot, and RESTful APIs, I am eager to contribute to your digital commerce platforms. My CV and cover letter provide further details on my background in building enterprise systems and data pipelines. I am based in Karlsruhe and available to start on 16 December 2026.\n\nBest regards,\nKranti Chavan"
+  "why_company": "dmTECH gestaltet für 7 Millionen Kundinnen und Kunden pro Monat das Omnichannel-Shopping – und das direkt in meiner Heimatstadt Karlsruhe. Produktdaten aus Quellsystemen sauber an Shop und App auszuspielen ist genau meine Stärke. Besonders reizt mich, dass Sie KI aktiv in die Softwareentwicklung einbinden.",
+  "linkedin_message": "Guten Tag! Die Rolle Backend Developer Onlineshop & dm-App passt genau: 5+ Jahre Java/Spring Boot, REST-APIs und Produktdaten-Pipelines (PIM/ERP) für Rockwell Automation und Shell. Wohne in Karlsruhe, Start 16.12.2026. Gern ein kurzes Gespräch?"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Backend Developer Onlineshop & dm-App position at dmTECH GmbH in Karlsruhe. With over 5 years of professional experience as a backend developer building enterprise platforms at Rockwell Automation and Shell, I bring deep expertise in Java, Spring Boot, RESTful APIs, and microservices.",
+  "de": {
+   "subject": "Bewerbung als Backend Developer Onlineshop & dm-App – Java / Kotlin",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Backend-Entwicklerin, die Produktdaten aus verschiedenen Quellsystemen zuverlässig aufbereitet und an App und Onlineshop ausliefert. Genau das ist seit über fünf Jahren mein Kerngebiet: Bei Rockwell Automation und Shell entwickle ich mit Java und Spring Boot APIs und Datenpipelines, die Produktkataloge über globale Kanäle synchron halten.",
    "bullets": [
     {
-     "label": "Backend Services & APIs",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, developing and exposing OCC REST Web Services and custom data flows."
+     "label": "Produktdaten aus Quellsystemen",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert, die Produktkataloge über globale E-Commerce-Kanäle synchron halten."
     },
     {
-     "label": "Product Data Processing",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global e-commerce channels."
+     "label": "Backend-Services und APIs",
+     "text": "OCC-REST-Webservices (Headless-APIs) für Storefronts, PWA-Frontends und Drittsysteme entwickelt und bereitgestellt; Interceptors, Populators und Converters für eigene Datenflüsse angepasst."
     },
     {
-     "label": "System Performance & CI/CD",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2)."
+     "label": "Performance & Verfügbarkeit",
+     "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
     },
     {
-     "label": "Agile Collaboration",
-     "text": "Collaborated within agile DevOps workflows, performed code reviews, supported production issues, and worked closely with international technical teams."
+     "label": "Codequalität & KI",
+     "text": "Setze generative KI und LLM-Tools intensiv ein, um Analyse, Entwicklung, Test und Dokumentation im Projektalltag zu beschleunigen."
     }
    ],
-   "gap": "While my primary backend expertise is rooted in Java and Spring Boot rather than Kotlin, and my German language proficiency is at the B1 level rather than C1, I am very keen to learn Kotlin and further develop my skills to support your team effectively.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving a notice period with my last working day on 15 December 2026, making me available to start on 16 December 2026. I would welcome the opportunity to discuss my application with you.",
-   "closing": ""
+   "gap": "",
+   "logistics": "KI nutze ich nicht nur als Werkzeug, sondern verändere damit aktiv, wie ich analysiere, entwickle und teste – ein Wandel, den ich gern mit dmTECH gestalte. Als Karlsruherin bin ich zudem direkt vor Ort. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich dmTECH konkret verstärken kann.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

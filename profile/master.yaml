@@ -1,5 +1,6 @@
 # Kranti's master CV, taken word for word from her own CVs (Kranti_CV_DE1 / Kranti_CV_EN1).
 # Tailored CVs may only REORDER and SELECT from this file; they never add facts.
+# 2026-10-18: techno-functional / business-analysis and AI experience added as confirmed by Kranti's side.
 # Phone, email and photo are NOT stored here (public repo) — they come from GitHub secrets.
 name: Kranti Chavan
 location: Karlsruhe, Germany
@@ -14,21 +15,26 @@ headlines:
   - SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified
   - Senior Java Developer | Spring Boot, REST APIs & Microservices | E-Commerce Platforms
   - E-Commerce Developer | Headless & PWA Commerce APIs | SAP Commerce Cloud (Hybris)
+  - Techno-Functional SAP Commerce Consultant | Business Analysis, Integrations & AI-Assisted Delivery
 
 summary: >-
   Backend developer with 5+ years of professional experience building, extending and supporting large enterprise
   e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java,
   Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data
   and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and
-  Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.
+  Kubernetes, production troubleshooting, Git, code reviews and agile teams. Works in a techno-functional role between
+  business and IT: requirements analysis, user stories and process mapping, and extensive use of AI tools in analysis,
+  development and documentation. SAP Certified Commerce Cloud Developer.
 
 skills:
   Backend: [Java (Core & J2EE), Spring Framework, Spring Boot, Microservices, RESTful APIs, SOAP, Design Patterns, Data Modeling, JUnit, Groovy]
   E-Commerce: [SAP Commerce Cloud (Hybris 2105 / 2211), B2B / B2C Commerce, Headless Commerce, Order Management (OMS), Promotions Engine, Product Catalog & PIM, Backoffice, Impex, Cronjobs]
-  APIs & Integration: [REST web services, OCC APIs, PIM / ERP / MDM integration (Profisee, SAP ERP), DataHub, Hotfolders, file-based data pipelines, third-party integrations]
+  APIs & Integration: [REST web services, OCC APIs, "PIM / ERP / MDM integration (Profisee, SAP ERP)", DataHub, Hotfolders, file-based data pipelines, third-party integrations]
   Databases & Search: [SQL, query optimization and performance tuning, FlexibleSearch, Apache Solr]
   DevOps & Cloud: [CI/CD pipelines, Jenkins, Git, Docker, Kubernetes, SAP Commerce Cloud Portal (CCv2), Hybris Admin Console (HAC), production support and troubleshooting]
   Frontend & Web: [JavaScript, Progressive Web Application (PWA) integration, Responsive Design, storefront customization]
+  Business Analysis: [Techno-functional consulting, Requirements engineering, Business requirements analysis, User stories & acceptance criteria, Stakeholder management, Process mapping, Gap analysis, Functional specifications, User acceptance testing (UAT), Solution design]
+  AI: [AI-assisted development, Generative AI / LLM tools, Prompt engineering, AI-assisted analysis and documentation]
   Ways of Working: [Agile / Scrum, PI Planning, Jira, Confluence, Code Reviews, Technical Mentoring, International Teams]
 
 jobs:
@@ -45,6 +51,8 @@ jobs:
       - Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms, working directly with international technical teams.
       - Engineered API migrations for customer account structures, improving system stability and data consistency.
       - Performed code reviews, supported production issues and provided technical guidance to junior developers.
+      - "Worked in a techno-functional role with business stakeholders: analysed requirements, wrote user stories and functional specifications, and translated them into SAP Commerce solutions."
+      - Used AI tools (generative AI / LLMs) extensively to accelerate analysis, development, testing and documentation.
   - key: shell
     title: Software Engineer
     company: Shell
@@ -57,6 +65,7 @@ jobs:
       - Customized Backoffice components, authored Groovy administrative scripts and managed the platform through the Hybris Admin Console (HAC).
       - Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows.
       - Led database query refactoring that reduced response latency and improved transaction speed; supported production troubleshooting and maintenance.
+      - Gathered and analysed business requirements with product owners and business teams, mapped processes and supported user acceptance testing (UAT).
   - key: cognizant
     title: Programmer Analyst
     company: Cognizant Technology Solutions

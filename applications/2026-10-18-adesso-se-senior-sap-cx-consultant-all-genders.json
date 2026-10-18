@@ -6,48 +6,68 @@
   "url": "https://www.linkedin.com/jobs/view/3733041021",
   "apply_url": "",
   "score": 95,
-  "lang": "en",
   "source": "Linkedin",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.adesso.de/de/jobs-karriere/index.jsp",
+  "email_subject": "Bewerbung: Senior SAP CX Consultant – SAP Certified Commerce Cloud Developer",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen Beratungskompetenz und Entwicklungsstärke in SAP-CX-Lösungen – ich bringe beides aus über fünf Jahren SAP Commerce Cloud (Hybris 2105/2211) für Rockwell Automation und Shell mit.\n\n– Anforderungen mit Fachbereichen analysiert und in User Stories, Spezifikationen und SAP-Commerce-Lösungen übersetzt\n– Systemintegration zwischen SAP Commerce, SAP ERP, MDM und PIM (Profisee, DataHub, Hotfolders)\n– KI-Tools souverän in Analyse, Entwicklung und Dokumentation eingesetzt; SAP-zertifiziert als Developer und Business User\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist am 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Mein Profil verbindet technische Tiefe mit enger Abstimmung mit Fachbereichen, und genau diese Erfahrung bringe ich gern in Ihr Team ein. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat?\n\nMit freundlichen Grüßen\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
  },
  "tailoring": {
-  "headline": "Senior SAP Commerce Cloud (Hybris) Developer | Java & OCC REST APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms using SAP Commerce Cloud (Hybris) 2105 and 2211 for Rockwell Automation and Shell. Strong in Java, Spring, RESTful APIs, microservices, SQL, database performance tuning, and PIM/ERP integrations. Hands-on with CI/CD pipelines, Docker, Kubernetes, and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "SAP CX Consultant | SAP Commerce Cloud (Hybris) · Integration · KI | SAP Certified",
+  "summary": "Techno-funktionale SAP-CX-Beraterin mit über 5 Jahren Erfahrung in Analyse, Customizing und Entwicklung von SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Verbindet Beratungskompetenz – Anforderungsanalyse, User Stories, funktionale Spezifikationen, Abstimmung mit Fachbereichen – mit technischer Tiefe in Java, Spring, OCC-REST-APIs sowie Systemintegration zu SAP ERP, MDM und PIM. Setzt KI-Tools souverän in Analyse, Entwicklung und Dokumentation ein. SAP Certified Commerce Cloud Developer und Business User. Wohnhaft in Karlsruhe mit gültiger Arbeitserlaubnis, Start ab 16.12.2026.",
   "skills": {
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
+    "Headless Commerce",
     "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
     "Backoffice",
     "Impex",
-    "Cronjobs",
-    "Headless Commerce"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "JUnit",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "Groovy"
+    "Cronjobs"
    ],
    "APIs & Integration": [
     "REST web services",
     "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "DataHub",
     "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
     "file-based data pipelines",
     "third-party integrations"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "Data Modeling"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Git",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
    ],
    "Databases & Search": [
     "SQL",
@@ -55,15 +75,11 @@
     "FlexibleSearch",
     "Apache Solr"
    ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
    ],
    "Ways of Working": [
     "Agile / Scrum",
@@ -71,14 +87,7 @@
     "Confluence",
     "Code Reviews",
     "Technical Mentoring",
-    "PI Planning",
     "International Teams"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
    ]
   },
   "bullet_order": {
@@ -87,96 +96,59 @@
     1,
     2,
     3,
+    6,
     4,
-    5
+    5,
+    7
    ],
    "shell": [
     0,
-    1,
     2,
+    1,
     3,
     4,
+    6,
     5
    ],
    "cognizant": [
-    0,
-    1,
     2,
-    3
+    3,
+    0,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce Cloud",
-   "Hybris",
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "SAP CX suite consulting leadership",
-   "Salesforce or other non-SAP CX platforms"
-  ],
-  "cover_en": {
-   "subject": "Application: Senior SAP CX Consultant (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Senior SAP CX Consultant position at adesso SE. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development at Rockwell Automation and Shell, I bring deep technical expertise in enterprise e-commerce solutions.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Expertise",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
-    },
-    {
-     "label": "API & Integration",
-     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators, and Converters for custom data flows and headless integrations."
-    },
-    {
-     "label": "Enterprise Data Flows",
-     "text": "Designed, built, and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global channels."
-    },
-    {
-     "label": "DevOps & Delivery",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while supporting production troubleshooting."
-    }
-   ],
-   "gap": "While my primary focus is deep technical back-end delivery and SAP Commerce Cloud implementation rather than broader cross-module CX suite consulting, I am highly motivated to expand my consulting and advisory capabilities within your team.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit without requiring sponsorship, and am currently serving a notice period with my last working day on 15 December 2026, enabling an earliest start date of 16 December 2026. I look forward to discussing how my background aligns with your projects.",
-   "closing": ""
-  },
-  "cover_de": {},
-  "why_company": "I want to work at adesso SE because of its strong reputation for delivering complex digital business solutions and enterprise consulting in the DACH region. I am eager to apply my 5+ years of SAP Commerce Cloud expertise in challenging customer projects while collaborating with international agile teams.",
-  "motivation_short": "Bringing 5+ years of SAP Commerce Cloud expertise, robust Java backend skills, and enterprise integration experience to drive successful e-commerce delivery at adesso SE.",
-  "linkedin_message": "Hello, I am a Senior SAP Commerce Cloud Developer with 5+ years of experience at Rockwell Automation and Shell. I noticed your opening for a Senior SAP CX Consultant at adesso SE and would love to connect to discuss how my Java and Hybris background can add value.",
-  "email_subject": "Application: Senior SAP CX Consultant (all genders) - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents, including my CV and cover letter, for the Senior SAP CX Consultant position at adesso SE. With over 5 years of SAP Commerce Cloud experience across Rockwell Automation and Shell, I bring strong expertise in Java, Spring, and enterprise integrations. I hold a valid German work permit and can join starting 16.12.2026. I look forward to hearing from you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "adesso verbindet SAP-CX-Beratung mit echter Umsetzung – von Workshops über technische Konzepte bis zum Customizing in SAP Commerce Cloud. Genau diese Kombination aus Fachbereichsnähe und Entwicklung lebe ich seit Jahren. Dazu passt der klare Anspruch an KI-Kompetenz, den ich täglich in Analyse und Entwicklung umsetze.",
+  "linkedin_message": "Guten Tag! Ich habe mich als Senior SAP CX Consultant beworben: 5+ Jahre SAP Commerce Cloud (Hybris 2105/2211) bei Rockwell Automation und Shell, SAP-zertifiziert, techno-funktional mit SAP-ERP-/PIM-Integration und KI im Alltag. Karlsruhe, Start 16.12.2026. Kurzer Austausch?"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Senior SAP CX Consultant (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Senior SAP CX Consultant position at adesso SE. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development at Rockwell Automation and Shell, I bring deep technical expertise in enterprise e-commerce solutions.",
+  "de": {
+   "subject": "Bewerbung als Senior SAP CX Consultant",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Beraterin, die SAP-CX-Lösungen gemeinsam mit Kunden analysiert und sie anschließend selbst customizt und entwickelt. Genau an dieser Schnittstelle arbeite ich seit über fünf Jahren: Für Rockwell Automation und Shell setze ich Anforderungen aus Vertrieb und Service auf SAP Commerce Cloud (Hybris 2105 und 2211) um – als SAP Certified Commerce Cloud Developer und SAP Certified Commerce Cloud Business User.",
    "bullets": [
     {
-     "label": "SAP Commerce Expertise",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
+     "label": "Beratungskompetenz",
+     "text": "Mit Fachbereichen Anforderungen analysiert, User Stories und funktionale Spezifikationen geschrieben und in SAP-Commerce-Lösungen übersetzt; bei Shell Prozesse gemeinsam mit Product Ownern modelliert und User Acceptance Tests begleitet."
     },
     {
-     "label": "API & Integration",
-     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators, and Converters for custom data flows and headless integrations."
+     "label": "Customizing und Entwicklung in SAP Commerce Cloud",
+     "text": "Produkt-, Katalog-, Preis- und Kundendaten auf Hybris 2211 mit Java und Spring umgesetzt; Promotions Engine, Order Management (OMS), Backoffice, Impex und Cronjobs entwickelt und angepasst."
     },
     {
-     "label": "Enterprise Data Flows",
-     "text": "Designed, built, and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global channels."
+     "label": "Systemintegration",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut, Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst sowie externe Services über das SAP Commerce Cloud Portal (CCv2) integriert."
     },
     {
-     "label": "DevOps & Delivery",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while supporting production troubleshooting."
+     "label": "KI-Kompetenz",
+     "text": "Generative KI und LLM-Tools intensiv in Analyse, Entwicklung, Tests und Dokumentation eingesetzt – mit kritischer Prüfung der Ergebnisse und klarem Blick dafür, wo KI Projekte wirklich beschleunigt."
     }
    ],
-   "gap": "While my primary focus is deep technical back-end delivery and SAP Commerce Cloud implementation rather than broader cross-module CX suite consulting, I am highly motivated to expand my consulting and advisory capabilities within your team.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit without requiring sponsorship, and am currently serving a notice period with my last working day on 15 December 2026, enabling an earliest start date of 16 December 2026. I look forward to discussing how my background aligns with your projects.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Workshops mit Kunden, technische Konzepte und der Austausch im Team gehören für mich selbstverständlich dazu – deshalb passt das Beratungsmodell von adesso sehr gut zu mir. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihre SAP-CX-Projekte verstärke.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

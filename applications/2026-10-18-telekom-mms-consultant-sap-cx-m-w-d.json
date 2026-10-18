@@ -6,202 +6,132 @@
   "url": "https://www.linkedin.com/jobs/view/4385054721",
   "apply_url": "",
   "score": 92,
-  "lang": "en",
   "source": "Linkedin",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.telekom-mms.com/karriere/stellenboerse",
+  "email_subject": "Bewerbung als Consultant SAP CX – Kranti Chavan",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen fachliche und technische Beratung für SAP-Customer-Experience-Projekte – ich bringe über fünf Jahre SAP Commerce Cloud bei Rockwell Automation und Shell mit, techno-funktional zwischen Fachbereich und IT. Was ich konkret mitbringe:\n\n– Anforderungsanalyse, User Stories, Fachkonzepte und UAT mit Fachbereichen\n– PIM- / ERP- / MDM-Integrationen (Profisee, SAP ERP) mit internationalen Teams\n– SAP Certified Commerce Cloud Developer und Business User\n\nDamit kann ich vom ersten Tag an Verantwortung in Ihrem Team übernehmen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 bei Ihnen starten. Lebenslauf und Anschreiben finden Sie im Anhang; gern erläutere ich Ihnen meine Projekte im Detail. Haben Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud (Hybris) for Rockwell Automation and Shell. Strong in Java, Spring, RESTful APIs, microservices, database performance tuning, and cloud deployments. Certified SAP Commerce Cloud Developer bringing a hands-on mentality and solid technical expertise for digital transformation projects.",
+  "headline": "Consultant SAP CX | SAP Commerce Cloud, Integrationen & Techno-funktionale Beratung",
+  "summary": "Techno-funktionale SAP-CX-Beraterin mit über 5 Jahren Erfahrung mit SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Verbindet Fachbereich und IT: Anforderungsanalyse, User Stories, Fachkonzepte, Prozessmodellierung und UAT, dazu fundiertes technisches Know-how in Commerce, Cloud (CCv2), Datenhaltung und PIM- / ERP- / MDM-Integration (Profisee, SAP ERP). Stimmt Lösungen mit Stakeholdern in internationalen, agilen Teams ab und nutzt KI-Tools intensiv in Analyse und Dokumentation. SAP Certified Commerce Cloud Developer und SAP Certified Commerce Cloud Business User.",
   "skills": {
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "Stakeholder management",
+    "Solution design",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User stories & acceptance criteria",
+    "User acceptance testing (UAT)"
+   ],
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs",
     "B2B / B2C Commerce",
-    "Promotions Engine"
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Backoffice"
+   ],
+   "APIs & Integration": [
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "OCC APIs",
+    "REST web services",
+    "DataHub",
+    "Hotfolders",
+    "third-party integrations"
    ],
    "Backend": [
     "Java (Core & J2EE)",
     "Spring Framework",
-    "Spring Boot",
     "RESTful APIs",
-    "Microservices",
-    "JUnit",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "DataHub",
-    "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
+    "Data Modeling"
    ],
    "DevOps & Cloud": [
-    "CI/CD pipelines",
     "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "Docker",
-    "Kubernetes",
-    "Jenkins",
-    "Git",
-    "production support and troubleshooting"
+    "production support and troubleshooting",
+    "CI/CD pipelines"
+   ],
+   "AI": [
+    "AI-assisted analysis and documentation",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted development"
    ],
    "Ways of Working": [
     "Agile / Scrum",
+    "PI Planning",
     "Jira",
     "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams",
-    "PI Planning"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+    "International Teams"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
-    1,
-    2,
+    6,
     3,
+    2,
     4,
+    1,
+    0,
+    7,
     5
    ],
    "shell": [
+    6,
+    2,
     0,
     1,
-    2,
-    3,
     4,
-    5
+    5,
+    3
    ],
    "cognizant": [
-    0,
-    1,
+    3,
     2,
-    3
+    0,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce",
-   "Digitalisierung",
-   "APIs",
-   "Cloud",
-   "Consulting",
-   "Hands-on-Mentalität"
-  ],
-  "keywords_missing": [
-   "SAP Sales- und Service-Cloud V.2",
-   "SAP BTP"
-  ],
-  "cover_en": {
-   "subject": "Application: Consultant SAP CX (m/w/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Consultant SAP CX position at Telekom MMS. With over 5 years of professional experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring a solid technical foundation in enterprise solutions and customer-centric digital projects.",
-   "bullets": [
-    {
-     "label": "Enterprise E-Commerce & Backend",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
-    },
-    {
-     "label": "API Development & Integration",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for custom data flows."
-    },
-    {
-     "label": "Cloud & Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, ensuring stable platform operations."
-    },
-    {
-     "label": "Cross-Functional Collaboration",
-     "text": "Worked directly with international technical teams to investigate and resolve integration bottlenecks between ERP, MDM, and PIM platforms."
-    }
-   ],
-   "gap": "While my core expertise is rooted deeply in SAP Commerce Cloud rather than SAP Sales- and Service-Cloud V.2 or SAP BTP, I possess strong foundational knowledge in cloud applications and am very keen to learn these additional enterprise platforms.",
-   "logistics": "I am based in Karlsruhe with a valid German work permit. I am currently serving a notice period until 15 December 2026, and I will be available to start from 16 December 2026. I look forward to discussing how my technical background can support your customer projects.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als Consultant SAP CX (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse habe ich Ihre Ausschreibung für die Position als Consultant SAP CX bei der Telekom MMS gelesen. Als erfahrene Entwicklerin mit über 5 Jahren Praxis im Bereich großer Enterprise-Plattformen bei Rockwell Automation und Shell bringe ich fundierte technologische Kenntnisse und eine strukturierte Hands-on-Mentalität mit.",
-   "bullets": [
-    {
-     "label": "Plattform-Entwicklung",
-     "text": "Entwicklung und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris) unter Verwendung von Java und Spring."
-    },
-    {
-     "label": "API & Integration",
-     "text": "Bereitstellung von OCC REST Web Services sowie Integration von PIM-, ERP- und MDM-Systemen über Hotfolders, DataHub und Profisee."
-    },
-    {
-     "label": "Cloud-Prozesse",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen und Release-Builds auf dem SAP Commerce Cloud Portal (CCv2)."
-    },
-    {
-     "label": "Agile Zusammenarbeit",
-     "text": "Erfolgreiche Zusammenarbeit mit internationalen technischen Teams und Durchführung von Code Reviews in agilen Umgebungen."
-    }
-   ],
-   "gap": "Spezifische Vorkenntnisse in SAP Sales- und Service-Cloud V.2 bringe ich aktuell noch nicht mit, bin jedoch hoch motiviert, mich in diese Bereiche schnell und engagiert einzuarbeiten.",
-   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und befinde mich in einer Kündigungsfrist bis zum 15.12.2026. Mein frühester Eintrittstermin ist der 16.12.2026. Über ein persönliches Gespräch freue ich mich sehr.",
-   "closing": ""
-  },
-  "why_company": "I want to work at Telekom MMS to contribute my technical expertise in enterprise platforms to over 3,000 diverse customer projects. The opportunity to shape digital transformations for corporations and mid-sized companies in an interdisciplinary team with modern methodologies closely aligns with my professional background.",
-  "motivation_short": "Motivated backend and e-commerce developer with 5+ years of experience in SAP platforms, eager to bring my technical skills and hands-on mentality to innovative customer projects at Telekom MMS.",
-  "linkedin_message": "Hello! I am an SAP Commerce Cloud Developer with 5+ years of experience at Rockwell Automation and Shell. I saw your Consultant SAP CX opening at Telekom MMS and would love to connect. I hold a valid German work permit and am available starting December 2026.",
-  "email_subject": "Application: Consultant SAP CX (m/w/d) - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the Consultant SAP CX position at Telekom MMS. With over 5 years of professional experience in SAP Commerce Cloud development, Java, and API integrations gained at Rockwell Automation and Shell, I am eager to support your digital projects.\n\nI am based in Karlsruhe with a valid work permit, serving a notice period until 15 December 2026, and available from 16 December 2026.\n\nBest regards,\nKranti Chavan"
+  "why_company": "Telekom MMS verbindet über 3.000 Kundenprojekte im Jahr mit echter SAP-CX-Expertise – genau das Umfeld, in dem ich meine Erfahrung aus SAP Commerce Cloud, Integrationen und Fachbereichsarbeit am wirkungsvollsten einbringe. Mich reizt die Kombination aus Beratung, Workshops und technischer Tiefe für Konzerne, Mittelstand und Start-ups sowie das interdisziplinäre Team.",
+  "linkedin_message": "Guten Tag, Ihre Stelle Consultant SAP CX passt genau zu mir: 5+ Jahre SAP Commerce Cloud bei Rockwell Automation und Shell, techno-funktional zwischen Fachbereich und IT, SAP-zertifiziert. Wohnort Karlsruhe, Start 16.12.2026. Gern kurz sprechen?"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Consultant SAP CX (m/w/d)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Consultant SAP CX position at Telekom MMS. With over 5 years of professional experience building and supporting large enterprise platforms at Rockwell Automation and Shell, I bring a solid technical foundation in enterprise solutions and customer-centric digital projects.",
+  "de": {
+   "subject": "Bewerbung als Consultant SAP CX",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Beraterin, die digitale Lösungen im Bereich SAP Customer Experience fachlich und technisch gestaltet und sich dabei sicher zwischen Stakeholdern, Commerce und Cloud bewegt. Genau an dieser Schnittstelle arbeite ich seit über fünf Jahren: Bei Rockwell Automation und Shell gestalte ich B2B- und B2C-Lösungen auf SAP Commerce Cloud (Hybris 2105 und 2211) – von der Anforderung bis zum Produktivbetrieb, zertifiziert als SAP Commerce Cloud Developer und Business User.",
    "bullets": [
     {
-     "label": "Enterprise E-Commerce & Backend",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
+     "label": "Fachliche und technische Beratung",
+     "text": "In einer techno-funktionalen Rolle mit Fachbereichen Anforderungen analysiert, User Stories und Fachkonzepte erstellt und in SAP-Commerce-Lösungen umgesetzt."
     },
     {
-     "label": "API Development & Integration",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for custom data flows."
+     "label": "Austausch mit allen Stakeholdern",
+     "text": "Mit Product Ownern und Fachbereichen Geschäftsanforderungen erhoben, Prozesse modelliert und User Acceptance Tests begleitet; Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams gelöst."
     },
     {
-     "label": "Cloud & Operations",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, ensuring stable platform operations."
+     "label": "Commerce, Datenhaltung & Cloud",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut, API-Migrationen für Kundenkontostrukturen umgesetzt und CI/CD-Deployment-Zyklen auf SAP Commerce Cloud (CCv2) durchgeführt."
     },
     {
-     "label": "Cross-Functional Collaboration",
-     "text": "Worked directly with international technical teams to investigate and resolve integration bottlenecks between ERP, MDM, and PIM platforms."
+     "label": "Lösungsübergreifende Denkweise",
+     "text": "OCC-REST-Webservices für Storefront, PWA-Frontends und Drittsysteme bereitgestellt und KI-Tools intensiv in Analyse, Entwicklung und Dokumentation eingesetzt."
     }
    ],
-   "gap": "While my core expertise is rooted deeply in SAP Commerce Cloud rather than SAP Sales- and Service-Cloud V.2 or SAP BTP, I possess strong foundational knowledge in cloud applications and am very keen to learn these additional enterprise platforms.",
-   "logistics": "I am based in Karlsruhe with a valid German work permit. I am currently serving a notice period until 15 December 2026, and I will be available to start from 16 December 2026. I look forward to discussing how my technical background can support your customer projects.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Workshops, Präsentationen vor Fach- und IT-Entscheidern und die Verantwortung für Kundenprojekte passen genau zu meiner Arbeitsweise; Ihr deutschlandweites Mobile-Working-Modell kommt mir sehr entgegen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen im persönlichen Gespräch, wie ich Ihre SAP-CX-Kundenprojekte voranbringen kann.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }

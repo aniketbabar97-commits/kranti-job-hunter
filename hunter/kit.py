@@ -30,13 +30,23 @@ TECH = ["Kafka", "Kotlin", "TypeScript", "React", "Angular", "Vue", "Node.js", "
         "commercetools", "Magento", "Shopware", "Intershop", "Spartacus", "Composable Storefront", "Next.js", "PHP",
         "Kubernetes", "Docker", "Hybris", "S/4HANA", "SAP CPI", "Integration Suite", "BTP", "Akeneo", "Salsify"]
 
-PROMPT = """You tailor job applications for this candidate. ACCURACY RULES (most important, never break):
+PROMPT = """You write job applications that win interviews. A CV and cover letter are SALES documents: their only job
+is to make the recruiter think "we must talk to her". Lead with her strongest, most relevant proof; be confident,
+concrete and specific to this company. NEVER mention weaknesses, missing skills, language level, "keen to learn",
+"not yet", "no experience with" — screening is the recruiter's job, not ours. Where the job wants something she lacks,
+say nothing about it; instead stress the closest real strength she has (e.g. Java/Spring/API depth, hands-on work across
+SAP Commerce 2105 and 2211, PIM/ERP/MDM integration) without claiming the missing skill.
+For business-analyst, consultant, product-owner or project roles, frame her real work in techno-functional language:
+analysing integration problems with business and technical teams, designing data flows between PIM/ERP/MDM and the
+shop, planning API migrations, supporting the business in production, working with international stakeholders.
+Mirror the posting's keywords everywhere they truthfully fit (ATS and AI screening must score her high).
+TRUTH RULES (never break — selling is not inventing):
 - Use ONLY facts from her master CV below. Never invent employers, numbers, projects, tools or certificates.
 - Keep her own verbs ("developed", "configured", "executed", "led database query refactoring" ...). Do not upgrade.
   Example: she EXECUTED CI/CD deployment cycles on CCv2 — never write that she set up / built / introduced CI/CD pipelines.
-- If the job asks for something she lacks, do NOT claim it; mention honestly that she is keen to learn it (gap paragraph).
+- Never claim a skill, tool or role she does not have in the master CV.
 - She is SERVING NOTICE; last working day 15.12.2026, earliest start 16.12.2026. Never say "available immediately".
-- German level B1. Never claim more, and never invent goals or plans (no "aiming for C1", no courses she didn't name).
+- Do not mention her German level in letters or messages (it is on the CV). Never claim more than B1 anywhere.
 - German letters: salutation "Sehr geehrte Damen und Herren," unless the posting names a contact person
   ("Sehr geehrte Frau <Nachname>," / "Sehr geehrter Herr <Nachname>," — surname only). English letters: "Dear Hiring Team,"
   unless a person is named ("Dear Ms <Surname>,"). The "closing" field must NOT contain a sign-off or her name.
@@ -62,7 +72,7 @@ Return ONLY a JSON object:
  "cover_en": {{"subject": "Application: <exact job title>", "salutation": "Dear Hiring Team, (or named person from posting)",
    "hook": "2-3 sentences: why this company/role specifically + 5+ years SAP Commerce at Rockwell Automation and Shell",
    "bullets": [{{"label": "short bold label", "text": "1-2 sentences mapping her real experience to a job requirement"}} x4],
-   "gap": "honest 1-2 sentences about missing items + willingness to learn (empty string if none)",
+   "gap": "",
    "logistics": "Karlsruhe, valid work permit, serving notice until 15 December 2026, invitation to talk",
    "closing": ""}},
  "cover_de": {de_rule},
@@ -148,7 +158,7 @@ def complete_letter(cl, lang, job):
         return None
     return {"subject": cl.get("subject") or (f"Bewerbung als {job['title']}" if lang == "de" else f"Application: {job['title']}"),
             "salutation": _salutation(cl.get("salutation") or ("Sehr geehrte Damen und Herren," if lang == "de" else "Dear Hiring Team,"), lang),
-            "hook": cl["hook"], "bullets": bullets[:4], "gap": cl.get("gap", ""),
+            "hook": cl["hook"], "bullets": bullets[:4], "gap": "",  # never volunteer weaknesses
             "logistics": cl.get("logistics") or LOGISTICS[lang],
             "closing": "" if SIGN_OFF.search(cl.get("closing", "")) else cl.get("closing", "")}
 
@@ -160,10 +170,10 @@ def validate(master, t):
     for label, items in (t.get("skills") or {}).items():
         if label in allowed:
             kept = [allowed[label][i.lower()] for i in items if isinstance(i, str) and i.lower() in allowed[label]]
-            kept += [s for s in master["skills"][label] if s not in kept]  # never lose real skills
-            skills[label] = kept
-    for label, items in master["skills"].items():
-        skills.setdefault(label, items)
+            if kept:  # the tailored selection only: a focused skills block reads better than a keyword dump
+                skills[label] = kept
+    if len(skills) < 4:  # too little chosen: fall back to the full master list
+        skills = dict(master["skills"])
     t["skills"] = skills
     order = {}
     for job in master["jobs"]:

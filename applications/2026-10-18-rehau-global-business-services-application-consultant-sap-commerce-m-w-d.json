@@ -6,48 +6,62 @@
   "url": "https://www.linkedin.com/jobs/view/4479221029",
   "apply_url": "",
   "score": 85,
-  "lang": "de",
   "source": "Linkedin",
-  "posted": "2026-10-13",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.rehau.com/de-de/karriere",
+  "email_subject": "Application: Application Consultant SAP Commerce – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nYou need an Application Consultant who connects business needs with SAP Commerce – I have done exactly that for 5+ years at Rockwell Automation and Shell.\n\n– Requirements analysis, user stories, functional specifications and UAT with business teams\n– 5+ years on SAP Commerce Cloud (Hybris 2105 / 2211) for Rockwell Automation and Shell\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n\nSupporting a global organisation like REHAU from a shared-services setup suits my experience with international stakeholders across regions. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "Application Consultant SAP Commerce | Senior SAP Commerce Cloud Developer with 5+ years experience",
-  "summary": "Backend developer with over five years of experience designing, extending and supporting SAP Commerce Cloud (Hybris) platforms for Rockwell Automation and Shell. Expert in Java, Spring, RESTful and OCC APIs, data integration (PIM, ERP, MDM) and performance tuning. Hands-on with CI/CD pipelines, Docker, Kubernetes and agile delivery. SAP Certified Commerce Cloud Developer with strong English (C2) and German (B1) communication skills.",
+  "headline": "Application Consultant SAP Commerce | Techno-Functional, Integrations | SAP Certified",
+  "summary": "Techno-functional SAP Commerce consultant with 5+ years supporting, extending and integrating enterprise B2B and B2C commerce applications (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Combines business requirements analysis, user stories, functional specifications and UAT with hands-on Java and Spring development, OCC REST APIs and PIM / ERP / MDM integration (Profisee, SAP ERP). Experienced in production support, CCv2 deployment cycles and working with international stakeholders. SAP Certified Commerce Cloud Developer and Business User.",
   "skills": {
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
     "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
     "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
     "Backoffice",
     "Impex",
     "Cronjobs"
    ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
    "APIs & Integration": [
-    "REST web services",
     "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "DataHub",
     "Hotfolders",
     "file-based data pipelines",
     "third-party integrations"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
    ],
    "DevOps & Cloud": [
     "CI/CD pipelines",
@@ -67,178 +81,67 @@
     "Code Reviews",
     "Technical Mentoring",
     "International Teams"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
-    2,
-    1,
+    6,
     3,
+    2,
     4,
+    7,
+    0,
+    1,
     5
    ],
    "shell": [
-    0,
-    1,
+    6,
     2,
-    4,
+    1,
     5,
+    0,
+    4,
     3
    ],
    "cognizant": [
-    0,
+    3,
     2,
-    1,
-    3
+    0,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce",
-   "E-Commerce",
-   "Agile",
-   "International teams",
-   "German B1",
-   "English C2",
-   "REST APIs",
-   "Integration",
-   "CI/CD pipelines",
-   "Docker",
-   "Kubernetes",
-   "SQL performance tuning",
-   "Production support"
-  ],
-  "keywords_missing": [
-   "SAP ERP SD",
-   "Formal Application Management experience",
-   "User Stories creation",
-   "Concept design documentation",
-   "Function testing",
-   "External partner coordination"
-  ],
-  "cover_en": {
-   "subject": "Application: Application Consultant SAP Commerce",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am excited about REHAU’s focus on digitalisation and sustainable e-commerce solutions. With more than five years of hands-on SAP Commerce Cloud development at Rockwell Automation and Shell, I have delivered global customer portals, headless APIs and complex data integrations that align perfectly with your mission.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Expertise",
-     "text": "Designed and implemented end-to-end SAP Commerce Cloud (Hybris 2211) solutions, covering product, catalog and pricing management for Rockwell Automation, ensuring platform stability and scalability."
-    },
-    {
-     "label": "Integration & APIs",
-     "text": "Developed OCC REST services and built PIM-to-Hybris pipelines (Profisee, Hotfolders, DataHub) that synchronized product data across international channels, mirroring REHAU’s need for seamless ERP and MDM integration."
-    },
-    {
-     "label": "Agile Delivery",
-     "text": "Led agile Scrum teams, performed code reviews, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2), guaranteeing timely releases and high-quality deliverables."
-    },
-    {
-     "label": "Production Support",
-     "text": "Provided 24/7 production support, performed database query refactoring and performance tuning, and mentored junior developers, ensuring continuous operation of mission-critical e-commerce platforms."
-    }
-   ],
-   "gap": "I have not worked directly with the SAP ERP SD module nor held a formal Application Management title, but I am highly motivated to acquire this expertise and quickly adapt to REHAU’s processes.",
-   "logistics": "Based in Karlsruhe, I hold a valid German residence and work permit, am serving notice until 15.12.2026, and can start on 16.12.2026. I look forward to discussing how I can contribute to REHAU’s e-commerce initiatives.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als Application Consultant SAP Commerce",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Die digitale Transformation und Nachhaltigkeit von REHAU begeistern mich. Mit über fünf Jahren Erfahrung in der Entwicklung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell habe ich globale Kundenportale, Headless-APIs und komplexe Datenintegrationen erfolgreich umgesetzt – genau die Kompetenzen, die Sie suchen.",
-   "bullets": [
-    {
-     "label": "SAP-Commerce-Expertise",
-     "text": "Ich habe End-to-End-Lösungen auf SAP Commerce Cloud (Hybris 2211) entwickelt, inkl. Produkt-, Katalog- und Preisverwaltung für Rockwell Automation, und dabei Plattformstabilität und Skalierbarkeit sichergestellt."
-    },
-    {
-     "label": "Integration & APIs",
-     "text": "Entwicklung von OCC-REST-Services und Aufbau von PIM-zu-Hybris-Datenpipelines (Profisee, Hotfolders, DataHub) zur Synchronisation internationaler Produktdaten, passend zu REHAUs ERP- und MDM-Anforderungen."
-    },
-    {
-     "label": "Agile Umsetzung",
-     "text": "Leitung agiler Scrum-Teams, Durchführung von Code-Reviews und Ausführung von CI/CD-Deployments auf SAP Commerce Cloud (CCv2), um termingerechte und qualitativ hochwertige Releases zu gewährleisten."
-    },
-    {
-     "label": "Produktionssupport",
-     "text": "24/7-Produktionssupport, Refactoring von Datenbank-Abfragen und Performance-Optimierung sowie Mentoring von Junior-Entwicklern, um den reibungslosen Betrieb kritischer E-Commerce-Plattformen sicherzustellen."
-    }
-   ],
-   "gap": "Ich habe bislang nicht mit dem SAP-ERP-Modul SD gearbeitet und keine formale Application-Management-Rolle innegehabt, bin jedoch hoch motiviert, diese Kenntnisse schnell zu erwerben und mich in REHAUs Prozesse einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe, besitze eine gültige deutsche Aufenthaltserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Gerne erläutere ich in einem Gespräch, wie ich REHAU im E-Commerce-Umfeld unterstützen kann.",
-   "closing": ""
-  },
-  "why_company": "REHAU’s commitment to innovative polymer solutions and its strategic focus on digitalisation, sustainability and new work align with my passion for building future-ready e-commerce platforms. Contributing to a global leader that combines material science with cutting-edge digital services excites me, and I see a strong fit for my SAP Commerce expertise to help enhance REHAU’s customer portal and drive value for its worldwide customers.",
-  "motivation_short": "I want to leverage my SAP Commerce Cloud expertise to help REHAU create a seamless, sustainable digital shopping experience for its global customers.",
-  "linkedin_message": "Hi, I’m Kranti Chavan, a senior SAP Commerce Cloud developer with 5+ years experience. I’m very interested in the Application Consultant SAP Commerce role at REHAU and would love to discuss how I can contribute. Let’s connect!",
-  "email_subject": "Application for Application Consultant SAP Commerce – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Application Consultant SAP Commerce position at REHAU. I look forward to the opportunity to discuss how my SAP Commerce Cloud experience can add value to your team.\n\nBest regards,"
+  "why_company": "REHAU runs SAP Commerce for a global industrial business, which mirrors my work for Rockwell Automation: B2B commerce, integrations with SAP ERP and PIM, and close work with business teams. In Global Business Services I can apply that techno-functional experience to keep your commerce applications stable and moving forward.",
+  "linkedin_message": "Hello, I am applying as Application Consultant SAP Commerce: 5+ years techno-functional on SAP Commerce Cloud at Rockwell Automation and Shell, SAP Certified Developer and Business User, based in Karlsruhe with work permit. I would love to talk!"
  },
  "letters": {
   "en": {
    "subject": "Application: Application Consultant SAP Commerce",
    "salutation": "Dear Hiring Team,",
-   "hook": "I am excited about REHAU’s focus on digitalisation and sustainable e-commerce solutions. With more than five years of hands-on SAP Commerce Cloud development at Rockwell Automation and Shell, I have delivered global customer portals, headless APIs and complex data integrations that align perfectly with your mission.",
+   "hook": "As Application Consultant SAP Commerce you need someone who understands both the business processes and the platform underneath. That combination is my daily work: for more than five years I have analysed requirements with business teams and delivered the matching solutions on SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell – certified as both SAP Commerce Cloud Developer and Business User.",
    "bullets": [
     {
-     "label": "SAP Commerce Expertise",
-     "text": "Designed and implemented end-to-end SAP Commerce Cloud (Hybris 2211) solutions, covering product, catalog and pricing management for Rockwell Automation, ensuring platform stability and scalability."
+     "label": "Business requirements to solution",
+     "text": "Analysed requirements with business stakeholders and product owners, wrote user stories and functional specifications, mapped processes and supported user acceptance testing (UAT) – then translated them into working SAP Commerce solutions."
     },
     {
-     "label": "Integration & APIs",
-     "text": "Developed OCC REST services and built PIM-to-Hybris pipelines (Profisee, Hotfolders, DataHub) that synchronized product data across international channels, mirroring REHAU’s need for seamless ERP and MDM integration."
+     "label": "SAP Commerce application know-how",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211); developed and maintained the Promotions Engine, Order Management (OMS), Cronjobs, Impex and FlexibleSearch."
     },
     {
-     "label": "Agile Delivery",
-     "text": "Led agile Scrum teams, performed code reviews, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2), guaranteeing timely releases and high-quality deliverables."
+     "label": "Integration with SAP ERP & PIM",
+     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
     },
     {
-     "label": "Production Support",
-     "text": "Provided 24/7 production support, performed database query refactoring and performance tuning, and mentored junior developers, ensuring continuous operation of mission-critical e-commerce platforms."
+     "label": "Stable application operations",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
     }
    ],
-   "gap": "I have not worked directly with the SAP ERP SD module nor held a formal Application Management title, but I am highly motivated to acquire this expertise and quickly adapt to REHAU’s processes.",
-   "logistics": "Based in Karlsruhe, I hold a valid German residence and work permit, am serving notice until 15.12.2026, and can start on 16.12.2026. I look forward to discussing how I can contribute to REHAU’s e-commerce initiatives.",
-   "closing": ""
-  },
-  "de": {
-   "subject": "Bewerbung als Application Consultant SAP Commerce",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Die digitale Transformation und Nachhaltigkeit von REHAU begeistern mich. Mit über fünf Jahren Erfahrung in der Entwicklung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell habe ich globale Kundenportale, Headless-APIs und komplexe Datenintegrationen erfolgreich umgesetzt – genau die Kompetenzen, die Sie suchen.",
-   "bullets": [
-    {
-     "label": "SAP-Commerce-Expertise",
-     "text": "Ich habe End-to-End-Lösungen auf SAP Commerce Cloud (Hybris 2211) entwickelt, inkl. Produkt-, Katalog- und Preisverwaltung für Rockwell Automation, und dabei Plattformstabilität und Skalierbarkeit sichergestellt."
-    },
-    {
-     "label": "Integration & APIs",
-     "text": "Entwicklung von OCC-REST-Services und Aufbau von PIM-zu-Hybris-Datenpipelines (Profisee, Hotfolders, DataHub) zur Synchronisation internationaler Produktdaten, passend zu REHAUs ERP- und MDM-Anforderungen."
-    },
-    {
-     "label": "Agile Umsetzung",
-     "text": "Leitung agiler Scrum-Teams, Durchführung von Code-Reviews und Ausführung von CI/CD-Deployments auf SAP Commerce Cloud (CCv2), um termingerechte und qualitativ hochwertige Releases zu gewährleisten."
-    },
-    {
-     "label": "Produktionssupport",
-     "text": "24/7-Produktionssupport, Refactoring von Datenbank-Abfragen und Performance-Optimierung sowie Mentoring von Junior-Entwicklern, um den reibungslosen Betrieb kritischer E-Commerce-Plattformen sicherzustellen."
-    }
-   ],
-   "gap": "Ich habe bislang nicht mit dem SAP-ERP-Modul SD gearbeitet und keine formale Application-Management-Rolle innegehabt, bin jedoch hoch motiviert, diese Kenntnisse schnell zu erwerben und mich in REHAUs Prozesse einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe, besitze eine gültige deutsche Aufenthaltserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Gerne erläutere ich in einem Gespräch, wie ich REHAU im E-Commerce-Umfeld unterstützen kann.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Supporting a global organisation like REHAU from a shared-services setup suits my experience with international stakeholders across regions. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

@@ -6,64 +6,50 @@
   "url": "https://de.indeed.com/viewjob?jk=2f91e2e086a78379",
   "apply_url": "",
   "score": 80,
-  "lang": "de",
   "source": "Indeed",
-  "posted": "2026-10-14",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.rehau.com/de-de/karriere",
+  "email_subject": "Application: IT Project Manager SAP Commerce",
+  "email_body": "Dear Hiring Team,\n\nAn SAP Commerce project needs someone who understands the business goal and the platform – I have combined both at Rockwell Automation and Shell for 5+ years.\n\n– Requirements, user stories and functional specifications with business teams\n– ERP / MDM / PIM integrations and API migrations delivered\n– SAP Certified Commerce Cloud Developer and Business User\n\nI work independently and results-driven in international, agile teams – remote, hybrid or on-site. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. I would be glad to show you in a short call what I can deliver for REHAU.\n\nKind regards\nKranti Chavan"
  },
  "tailoring": {
-  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams.",
+  "headline": "Techno-Functional SAP Commerce Consultant | IT Projects, Requirements & Integrations",
+  "summary": "Techno-functional SAP Commerce professional with 5+ years delivering enterprise B2B and B2C platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Bridges business and IT: requirements analysis, user stories, functional specifications, process mapping and UAT, through to delivery in agile teams with PI Planning, Jira and Confluence. Deep hands-on knowledge of PIM / ERP / MDM integrations, API migrations, CI/CD release cycles on CCv2 and production support. Works daily with international stakeholders. SAP Certified Commerce Cloud Developer and Business User.",
   "skills": {
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
    "E-Commerce": [
     "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
+    "Headless Commerce",
     "Order Management (OMS)",
     "Promotions Engine",
     "Product Catalog & PIM",
     "Backoffice",
     "Impex",
-    "Cronjobs",
-    "Headless Commerce"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "JUnit",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "Groovy"
+    "Cronjobs"
    ],
    "APIs & Integration": [
     "REST web services",
     "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "DataHub",
     "Hotfolders",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
     "file-based data pipelines",
     "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting",
-    "Docker",
-    "Kubernetes"
    ],
    "Ways of Working": [
     "Agile / Scrum",
@@ -74,159 +60,85 @@
     "Technical Mentoring",
     "International Teams"
    ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "RESTful APIs",
+    "Microservices"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning"
+   ],
+   "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
+    "production support and troubleshooting"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
-    1,
-    2,
+    6,
     3,
+    2,
     4,
+    7,
+    1,
+    0,
     5
    ],
    "shell": [
+    6,
     0,
     1,
     2,
-    3,
     4,
-    5
+    5,
+    3
    ],
    "cognizant": [
-    0,
-    1,
+    3,
     2,
-    3
+    0,
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP Commerce",
-   "Java",
-   "Spring",
-   "REST APIs",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "IT Project Management",
-   "Budget responsibility"
-  ],
-  "cover_en": {
-   "subject": "Application: IT Project Manager SAP Commerce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "I am writing to express my interest in the IT Project Manager SAP Commerce position at REHAU. With over 5 years of professional experience as an SAP Commerce Cloud Developer at Rockwell Automation and Shell, I bring deep technical knowledge in delivering enterprise e-commerce solutions.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Cloud Expertise",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
-    },
-    {
-     "label": "API and Integration Delivery",
-     "text": "Developed and exposed OCC REST Web Services and designed PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global channels."
-    },
-    {
-     "label": "Process & DevOps Execution",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while performing code reviews and supporting production issues."
-    },
-    {
-     "label": "Technical Leadership",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms while providing technical guidance to junior developers."
-    }
-   ],
-   "gap": "While my professional background is centered on hands-on backend development and technical implementation in SAP Commerce rather than formal project management, I am very keen to learn and take on broader coordination responsibilities.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026 (earliest start date 16.12.2026). I would welcome the opportunity to discuss my application further in an interview.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als IT Project Manager SAP Commerce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse bewerbe ich mich bei REHAU für die Position als IT Project Manager SAP Commerce. Als SAP Commerce Cloud Developer bringe ich mehr als fünf Jahre Berufserfahrung bei Rockwell Automation und Shell sowie fundierte technische Kenntnisse in der Umsetzung großer E-Commerce-Plattformen mit.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Cloud",
-     "text": "Entwicklung von Backend- und Frontend-Funktionalitäten auf Basis von SAP Commerce Cloud (Hybris 2211) mit Java und Spring für Produkt-, Katalog-, Preis- und Kundendatenmanagement."
-    },
-    {
-     "label": "Schnittstellen & Integration",
-     "text": "Bereitstellung von OCC REST Web Services sowie Konzeption und Optimierung von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfoldern und DataHub."
-    },
-    {
-     "label": "DevOps & CI/CD",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen und Release-Builds auf dem SAP Commerce Cloud Portal (CCv2) im Rahmen agiler Workflows."
-    },
-    {
-     "label": "Technische Betreuung",
-     "text": "Klärung von Integrationsproblemen zwischen SAP ERP, MDM und Profisee sowie Durchführung von Code Reviews und technische Unterstützung von Junior-Entwicklern."
-    }
-   ],
-   "gap": "Da mein Schwerpunkt bisher primär auf der technischen Entwicklung und Implementierung im SAP-Commerce-Umfeld liegt, freue ich mich darauf, mich in weitergehende Projektmanagement-Aufgaben einzuarbeiten.",
-   "logistics": "Ich lebe in Karlsruhe, verfüge über eine gültige deutsche Aufenthalts- und Arbeitserlaubnis und befinde mich in einer Kündigungsfrist mit letztem Arbeitstag am 15.12.2026 (frühester Eintrittstermin 16.12.2026). Ich freue mich auf ein persönliches Gespräch.",
-   "closing": ""
-  },
-  "why_company": "REHAU is a globally recognized manufacturing leader with high standards in digital enterprise solutions. Contributing my SAP Commerce expertise here offers an exciting opportunity to support complex international e-commerce platforms.",
-  "motivation_short": "I am motivated to apply my 5+ years of SAP Commerce Cloud experience to help REHAU build robust e-commerce architectures.",
-  "linkedin_message": "Hello, I saw the IT Project Manager SAP Commerce role at REHAU. With 5+ years in SAP Commerce Cloud at Rockwell and Shell, I bring strong Java and integration skills. My last working day is 15.12.2026. Let's connect!",
-  "email_subject": "Application: IT Project Manager SAP Commerce (m/w/d) - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the IT Project Manager SAP Commerce role at REHAU. With over 5 years of professional experience as an SAP Commerce Cloud Developer at Rockwell Automation and Shell, I bring strong expertise in Java, Spring, REST APIs, and enterprise e-commerce platforms.\n\nI hold a valid German work permit and am serving notice until 15.12.2026 (earliest start 16.12.2026). I look forward to discussing how my technical background aligns with your team.\n\nBest regards,\nKranti Chavan"
+  "why_company": "REHAU is a global industrial company whose B2B commerce must reflect complex products and processes. I know exactly that environment from Rockwell Automation, another industrial manufacturer on SAP Commerce. I want to help REHAU drive its SAP Commerce roadmap with a strong link between business departments, IT and implementation partners.",
+  "linkedin_message": "Hello, your IT Project Manager SAP Commerce role fits my profile: 5+ years SAP Commerce Cloud at Rockwell Automation and Shell, techno-functional with business stakeholders, SAP certified. Start 16.12.2026. Happy to talk!"
  },
  "letters": {
   "en": {
-   "subject": "Application: IT Project Manager SAP Commerce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "I am writing to express my interest in the IT Project Manager SAP Commerce position at REHAU. With over 5 years of professional experience as an SAP Commerce Cloud Developer at Rockwell Automation and Shell, I bring deep technical knowledge in delivering enterprise e-commerce solutions.",
+   "subject": "Application: IT Project Manager SAP Commerce",
+   "salutation": "Dear Hiring Team,",
+   "hook": "An SAP Commerce project succeeds when someone understands both the business goal and the platform underneath. That combination has been my daily work for more than five years: at Rockwell Automation and Shell I analyse requirements with business stakeholders, plan integrations and migrations and see them through to production on SAP Commerce Cloud (Hybris 2105 and 2211) – as an SAP Certified Commerce Cloud Developer and Business User.",
    "bullets": [
     {
-     "label": "SAP Commerce Cloud Expertise",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing and customer data management."
+     "label": "Requirements & stakeholders",
+     "text": "Analysed requirements with business stakeholders, wrote user stories and functional specifications and translated them into SAP Commerce solutions; supported user acceptance testing (UAT)."
     },
     {
-     "label": "API and Integration Delivery",
-     "text": "Developed and exposed OCC REST Web Services and designed PIM-to-Hybris data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global channels."
+     "label": "Complex system landscapes",
+     "text": "Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams; built PIM-to-Hybris data pipelines keeping global product catalogs synchronized."
     },
     {
-     "label": "Process & DevOps Execution",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows while performing code reviews and supporting production issues."
+     "label": "Migrations & releases",
+     "text": "Engineered API migrations for customer account structures, improving stability and data consistency; executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)."
     },
     {
-     "label": "Technical Leadership",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms while providing technical guidance to junior developers."
+     "label": "Agile delivery",
+     "text": "Worked in agile teams with PI Planning, Jira and Confluence; performed code reviews, supported production issues and guided junior developers."
     }
    ],
-   "gap": "While my professional background is centered on hands-on backend development and technical implementation in SAP Commerce rather than formal project management, I am very keen to learn and take on broader coordination responsibilities.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026 (earliest start date 16.12.2026). I would welcome the opportunity to discuss my application further in an interview.",
-   "closing": ""
-  },
-  "de": {
-   "subject": "Bewerbung als IT Project Manager SAP Commerce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse bewerbe ich mich bei REHAU für die Position als IT Project Manager SAP Commerce. Als SAP Commerce Cloud Developer bringe ich mehr als fünf Jahre Berufserfahrung bei Rockwell Automation und Shell sowie fundierte technische Kenntnisse in der Umsetzung großer E-Commerce-Plattformen mit.",
-   "bullets": [
-    {
-     "label": "SAP Commerce Cloud",
-     "text": "Entwicklung von Backend- und Frontend-Funktionalitäten auf Basis von SAP Commerce Cloud (Hybris 2211) mit Java und Spring für Produkt-, Katalog-, Preis- und Kundendatenmanagement."
-    },
-    {
-     "label": "Schnittstellen & Integration",
-     "text": "Bereitstellung von OCC REST Web Services sowie Konzeption und Optimierung von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfoldern und DataHub."
-    },
-    {
-     "label": "DevOps & CI/CD",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen und Release-Builds auf dem SAP Commerce Cloud Portal (CCv2) im Rahmen agiler Workflows."
-    },
-    {
-     "label": "Technische Betreuung",
-     "text": "Klärung von Integrationsproblemen zwischen SAP ERP, MDM und Profisee sowie Durchführung von Code Reviews und technische Unterstützung von Junior-Entwicklern."
-    }
-   ],
-   "gap": "Da mein Schwerpunkt bisher primär auf der technischen Entwicklung und Implementierung im SAP-Commerce-Umfeld liegt, freue ich mich darauf, mich in weitergehende Projektmanagement-Aufgaben einzuarbeiten.",
-   "logistics": "Ich lebe in Karlsruhe, verfüge über eine gültige deutsche Aufenthalts- und Arbeitserlaubnis und befinde mich in einer Kündigungsfrist mit letztem Arbeitstag am 15.12.2026 (frühester Eintrittstermin 16.12.2026). Ich freue mich auf ein persönliches Gespräch.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Coordinating with business departments, IT and international teams is a natural part of my role, and travel to Rehau or hybrid work is no obstacle. I live in Karlsruhe, hold a valid German residence and work permit and can start at REHAU on 16 December 2026 after my notice period. I would welcome a conversation to show you the concrete contribution I can make to your team.",
+   "closing": "",
+   "contact": "Attn. REHAU, Human Resources"
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

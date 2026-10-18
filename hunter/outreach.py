@@ -204,13 +204,18 @@ def build_message(job, to, lang, letter, files, sender):
     msg = EmailMessage()
     msg["From"] = formataddr(("Kranti Chavan", sender))
     msg["To"] = to
-    msg["Subject"] = (f"Bewerbung als {clean_title(job['title'])} – Kranti Chavan" if lang == "de"
-                      else f"Application: {clean_title(job['title'])} – Kranti Chavan")
+    msg["Subject"] = job.get("email_subject") or (
+        f"Bewerbung als {clean_title(job['title'])} – Kranti Chavan" if lang == "de"
+        else f"Application: {clean_title(job['title'])} – Kranti Chavan")
     msg["Date"] = formatdate(localtime=True)
     msg["Message-ID"] = make_msgid(domain=sender.split("@")[1])
-    msg.set_content(compose_body(job, letter, lang))
-    names = ({"cv": "Kranti_Chavan_Lebenslauf.pdf", "cl": "Kranti_Chavan_Anschreiben.pdf"} if lang == "de"
-             else {"cv": "Kranti_Chavan_CV.pdf", "cl": "Kranti_Chavan_Cover_Letter.pdf"})
+    body = job.get("email_body")  # hand-tailored selling email, if the kit has one
+    if body:
+        c = contact_info()
+        body = body.rstrip() + f"\n{c['phone']} · {c['email']}\nlinkedin.com/in/kranti-chavan-84a155191\n"
+    msg.set_content(body or compose_body(job, letter, lang))
+    from .documents import file_name
+    names = {"cv": file_name("cv", job, lang), "cl": file_name("cl", job, lang)}
     for kind, path in files:
         msg.add_attachment(Path(path).read_bytes(), maintype="application", subtype="pdf", filename=names[kind])
     return msg
@@ -219,8 +224,11 @@ def build_message(job, to, lang, letter, files, sender):
 def _files(job, lang):
     """(kind, path) for the CV and the letter in the posting's language; None unless all are real PDFs."""
     pdfs = [a for a in job.get("attachments", []) if a.endswith(".pdf")]
-    cv = next((a for a in pdfs if a.endswith("_CV.pdf")), None)
-    cl = next((a for a in pdfs if a.endswith(f"_Cover_Letter_{lang.upper()}.pdf")), None)
+    name = lambda a: Path(a).name
+    cv = next((a for a in pdfs if "_Lebenslauf" in name(a) or "_CV" in name(a)), None)
+    marks = ("_Anschreiben", "_Cover_Letter") if lang == "de" else ("_Cover_Letter",)
+    cl = next((a for a in pdfs if any(m in name(a) for m in marks)
+               and (name(a).endswith(f"_{lang.upper()}.pdf") or not name(a).endswith(("_EN.pdf", "_DE.pdf")))), None)
     return [("cv", cv), ("cl", cl)] if cv and cl else None
 
 

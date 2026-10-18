@@ -6,15 +6,18 @@
   "url": "https://de.indeed.com/viewjob?jk=04c94bad5e75d79b",
   "apply_url": "",
   "score": 80,
-  "lang": "de",
   "source": "Indeed",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "en",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.bader.de/karriere",
+  "email_subject": "Application: Softwareentwickler Salesforce – e-commerce developer from Karlsruhe",
+  "email_body": "Dear Hiring Team,\n\nYour Salesforce team needs a developer who keeps a large commerce platform integrated and fast – I have done exactly that for 5+ years on enterprise e-commerce platforms for Rockwell Automation and Shell.\n\n– Java, Spring, JavaScript and REST/SOAP APIs for headless storefronts and third-party systems\n– Integrations with ERP, PIM and order management; database query refactoring for lower latency\n– Requirements and user stories with business teams; CI/CD deployment cycles and code reviews\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
  },
  "tailoring": {
-  "headline": "Software Developer | Java, Spring & E-Commerce Platforms",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms using Java, Spring, Spring Boot, and RESTful APIs. Certified SAP Commerce Cloud Developer with hands-on experience in data modeling, SQL, database performance tuning, CI/CD pipelines, and microservices. Proven delivery of backend services and integrations within agile international teams.",
+  "headline": "Software Developer E-Commerce | Java, APIs & Integrations | Commerce Platforms",
+  "summary": "Software developer with 5+ years building and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris) for Rockwell Automation and Shell. Strong in Java, Spring, JavaScript, RESTful and SOAP APIs, SQL and query performance tuning, with proven integrations between commerce, ERP, PIM and order management. Works techno-functionally with business teams on requirements and user stories, executes CI/CD deployment cycles and supports production. Uses AI tools extensively in development and documentation. SAP Certified Commerce Cloud Developer, based near Pforzheim in Karlsruhe.",
   "skills": {
    "Backend": [
     "Java (Core & J2EE)",
@@ -22,63 +25,56 @@
     "Spring Boot",
     "RESTful APIs",
     "Microservices",
-    "JUnit",
-    "Groovy",
     "SOAP",
     "Design Patterns",
-    "Data Modeling"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Headless Commerce",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Cronjobs"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "PI Planning",
-    "International Teams"
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
    ],
    "Frontend & Web": [
     "JavaScript",
     "Progressive Web Application (PWA) integration",
     "Responsive Design",
     "storefront customization"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "SAP Commerce Cloud (Hybris 2105 / 2211)"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "Git",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "production support and troubleshooting"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Code Reviews",
+    "Jira",
+    "Confluence"
    ]
   },
   "bullet_order": {
@@ -88,148 +84,58 @@
     2,
     3,
     4,
-    5
+    5,
+    7,
+    6
    ],
    "shell": [
-    0,
     1,
+    0,
     2,
-    3,
+    5,
     4,
-    5
+    3,
+    6
    ],
    "cognizant": [
     0,
-    1,
     2,
+    1,
     3
    ]
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "RESTful APIs",
-   "Microservices",
-   "Agile",
-   "SQL"
-  ],
-  "keywords_missing": [
-   "Salesforce",
-   "Apex",
-   "Visualforce",
-   "Lightning Web Components"
-  ],
-  "cover_en": {
-   "subject": "Application: Softwareentwickler Salesforce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "I am writing to express my strong interest in joining Bruno Bader GmbH + Co. KG as a Softwareentwickler. With over 5 years of professional backend development experience specializing in enterprise platforms at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and database management.",
-   "bullets": [
-    {
-     "label": "Backend Development",
-     "text": "Designed and implemented backend functionality using Java and Spring, covering product, catalog, pricing, and customer data management."
-    },
-    {
-     "label": "API Integration",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers."
-    },
-    {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed."
-    },
-    {
-     "label": "Agile Delivery",
-     "text": "Executed CI/CD deployment cycles and release builds within agile DevOps workflows, performing code reviews and supporting production."
-    }
-   ],
-   "gap": "Although my core professional background is in Java and SAP Commerce Cloud rather than Salesforce, my strong foundation in enterprise software development, APIs, and database structures allows me to quickly adapt to new technologies, and I am very keen to learn Salesforce development.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving a notice period with my last working day on 15.12.2026 and can start on 16.12.2026. I look forward to discussing how my backend experience aligns with your team.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als Softwareentwickler Salesforce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse habe ich Ihre Ausschreibung für die Position als Softwareentwickler bei der Bruno Bader GmbH + Co. KG gelesen. Durch meine über 5-jährige berufliche Erfahrung in der Backend-Entwicklung bei Unternehmen wie Rockwell Automation und Shell bringe ich fundierte Kenntnisse in Java, Spring und datenbankbasierten Systemen mit.",
-   "bullets": [
-    {
-     "label": "Backend-Entwicklung",
-     "text": "Entwicklung und Implementierung von Backend-Funktionalitäten mit Java und Spring unter Berücksichtigung von Plattform-Best-Practices."
-    },
-    {
-     "label": "API-Schnittstellen",
-     "text": "Entwicklung und Bereitstellung von OCC REST-Webservices und Headless-APIs für Storefront- und Drittanbietersysteme."
-    },
-    {
-     "label": "Datenbankoptimierung",
-     "text": "Durchführung von Datenbankabfrage-Refatorings zur Reduzierung der Latenz und Verbesserung der Transaktionsgeschwindigkeit."
-    },
-    {
-     "label": "Agile Arbeitsweise",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen in agilen DevOps-Workflows sowie Durchführung von Code-Reviews und Unterstützung im Produktionsbetrieb."
-    }
-   ],
-   "gap": "Da mein bisheriger Schwerpunkt auf Java und E-Commerce-Plattformen liegt, bringe ich keine direkte Salesforce-Erfahrung mit, bin jedoch hoch motiviert, mich in diese Technologien einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe und verfüge über eine gültige deutsche Arbeits- und Aufenthaltserlaubnis. Mein Vertrag befindet sich in der Kündigungsfrist mit letztem Arbeitstag am 15.12.2026, sodass ich ab dem 16.12.2026 verfügbar bin. Ich freue mich auf ein persönliches Gespräch.",
-   "closing": ""
-  },
-  "why_company": "I am eager to contribute my backend development and integration expertise to Bruno Bader GmbH + Co. KG, supporting your digital commerce operations with robust Java, Spring, and database optimization skills gained through my work on large enterprise platforms.",
-  "motivation_short": "Software developer with 5+ years of enterprise experience in Java, Spring, and backend integrations, eager to bring solid engineering practices to your team.",
-  "linkedin_message": "Hello, I am a backend developer with 5+ years of experience in Java, Spring, and enterprise platforms. Based in Karlsruhe with a valid work permit, I am available from 16.12.2026. I would love to connect regarding your Softwareentwickler role.",
-  "email_subject": "Bewerbung als Softwareentwickler - Kranti Chavan",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nmit großem Interesse bewerbe ich mich auf die Position als Softwareentwickler bei der Bruno Bader GmbH + Co. KG. Als Backend-Entwicklerin mit über 5 Jahren Erfahrung in Java, Spring und enterprise Systemen bringe ich fundierte Kenntnisse in Softwarearchitektur und Integrationen mit.\n\nMeine vollständigen Bewerbungsunterlagen inklusive Lebenslauf und Zeugnissen sind dieser E-Mail beigefügt. Ich stehe Ihnen ab dem 16.12.2026 zur Verfügung.\n\nMit freundlichen Grüßen,\nKranti Chavan"
+  "why_company": "Bader combines a long tradition in mail-order retail with a strong online business – a setting where reliable commerce technology directly shapes the customer experience. Its location in Pforzheim, close to my home in Karlsruhe, and the focus on Salesforce-based commerce make it a natural next step for my e-commerce development experience.",
+  "linkedin_message": "Hello! I applied for the Softwareentwickler Salesforce role: 5+ years developing enterprise e-commerce platforms (Java, REST APIs, ERP/PIM integration) for Rockwell Automation and Shell. Based in Karlsruhe, near Pforzheim; start 16.12.2026. Happy to have a short chat!"
  },
  "letters": {
   "en": {
-   "subject": "Application: Softwareentwickler Salesforce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "I am writing to express my strong interest in joining Bruno Bader GmbH + Co. KG as a Softwareentwickler. With over 5 years of professional backend development experience specializing in enterprise platforms at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and database management.",
+   "subject": "Application: Softwareentwickler Salesforce",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As a long-established mail-order and online retailer, Bader needs developers who keep a large commerce platform fast, integrated and reliable for its customers. That is exactly what I have done for more than five years: at Rockwell Automation and Shell I build and support enterprise e-commerce platforms with Java, Spring and REST APIs, connected to ERP, PIM and order management.",
    "bullets": [
     {
-     "label": "Backend Development",
-     "text": "Designed and implemented backend functionality using Java and Spring, covering product, catalog, pricing, and customer data management."
+     "label": "Commerce platform development",
+     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data; developed and maintained the Promotions Engine and Order Management (OMS) at Shell."
     },
     {
-     "label": "API Integration",
-     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers."
+     "label": "APIs & integrations",
+     "text": "Built RESTful APIs and OCC web services for headless commerce and PWA frontends; consumed and exposed REST and SOAP services and integrated PIM, ERP and MDM systems through data pipelines."
     },
     {
-     "label": "Database Optimization",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed."
+     "label": "Performance & stability",
+     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations that improved system stability and data consistency."
     },
     {
-     "label": "Agile Delivery",
-     "text": "Executed CI/CD deployment cycles and release builds within agile DevOps workflows, performing code reviews and supporting production."
+     "label": "Agile delivery & quality",
+     "text": "Executed CI/CD deployment cycles and release builds in agile DevOps workflows, performed code reviews and turned business requirements into user stories and working solutions."
     }
    ],
-   "gap": "Although my core professional background is in Java and SAP Commerce Cloud rather than Salesforce, my strong foundation in enterprise software development, APIs, and database structures allows me to quickly adapt to new technologies, and I am very keen to learn Salesforce development.",
-   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving a notice period with my last working day on 15.12.2026 and can start on 16.12.2026. I look forward to discussing how my backend experience aligns with your team.",
-   "closing": ""
-  },
-  "de": {
-   "subject": "Bewerbung als Softwareentwickler Salesforce (m/w/d)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse habe ich Ihre Ausschreibung für die Position als Softwareentwickler bei der Bruno Bader GmbH + Co. KG gelesen. Durch meine über 5-jährige berufliche Erfahrung in der Backend-Entwicklung bei Unternehmen wie Rockwell Automation und Shell bringe ich fundierte Kenntnisse in Java, Spring und datenbankbasierten Systemen mit.",
-   "bullets": [
-    {
-     "label": "Backend-Entwicklung",
-     "text": "Entwicklung und Implementierung von Backend-Funktionalitäten mit Java und Spring unter Berücksichtigung von Plattform-Best-Practices."
-    },
-    {
-     "label": "API-Schnittstellen",
-     "text": "Entwicklung und Bereitstellung von OCC REST-Webservices und Headless-APIs für Storefront- und Drittanbietersysteme."
-    },
-    {
-     "label": "Datenbankoptimierung",
-     "text": "Durchführung von Datenbankabfrage-Refatorings zur Reduzierung der Latenz und Verbesserung der Transaktionsgeschwindigkeit."
-    },
-    {
-     "label": "Agile Arbeitsweise",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen in agilen DevOps-Workflows sowie Durchführung von Code-Reviews und Unterstützung im Produktionsbetrieb."
-    }
-   ],
-   "gap": "Da mein bisheriger Schwerpunkt auf Java und E-Commerce-Plattformen liegt, bringe ich keine direkte Salesforce-Erfahrung mit, bin jedoch hoch motiviert, mich in diese Technologien einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe und verfüge über eine gültige deutsche Arbeits- und Aufenthaltserlaubnis. Mein Vertrag befindet sich in der Kündigungsfrist mit letztem Arbeitstag am 15.12.2026, sodass ich ab dem 16.12.2026 verfügbar bin. Ich freue mich auf ein persönliches Gespräch.",
-   "closing": ""
+   "gap": "",
+   "logistics": "I work closely with business teams and enjoy turning their requirements into solutions that customers notice. I live in Karlsruhe, a short commute to Pforzheim, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to discuss in a conversation how I can strengthen your Salesforce team.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "en",
  "created": "2026-10-18"
 }

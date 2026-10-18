@@ -6,37 +6,68 @@
   "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003808902-S",
   "apply_url": "",
   "score": 92,
-  "lang": "en",
   "source": "Arbeitsagentur",
-  "posted": "2026-10-10",
+  "posted": "",
+  "salary": "",
+  "lang": "de",
   "contact": "",
-  "salary": ""
+  "direct_url": "https://www.cronos.de/karriere",
+  "email_subject": "Bewerbung: Senior Consultant SAP CX – SAP Commerce Cloud & Integration",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nFür die Einführung von SAP-CX-Lösungen suchen Sie jemanden, der Schnittstellen sauber baut – genau das mache ich seit über fünf Jahren mit SAP Commerce Cloud bei Rockwell Automation und Shell.\n\n– Datenpipelines und Schnittstellen zwischen SAP Commerce, SAP ERP, MDM und PIM (Profisee, DataHub) entwickelt\n– REST-, SOAP- und OCC-Webservices für Storefronts und Drittsysteme bereitgestellt\n– Techno-funktional: Anforderungsanalyse mit Fachbereichen, Code-Reviews, Mentoring; SAP Certified Commerce Cloud Developer\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist am 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Mein Profil verbindet technische Tiefe mit enger Abstimmung mit Fachbereichen, und genau diese Erfahrung bringe ich gern in Ihr Team ein. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat?\n\nMit freundlichen Grüßen\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
  },
  "tailoring": {
-  "headline": "Senior SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud (Hybris). Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
+  "headline": "Senior Consultant SAP CX | SAP Commerce Cloud · Schnittstellen · Integration",
+  "summary": "Senior SAP-CX-Beraterin und Entwicklerin mit über 5 Jahren Projekterfahrung in der Einführung und Weiterentwicklung von SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Erstellt und implementiert Schnittstellen für eine reibungslose Datenübertragung zwischen SAP Commerce, SAP ERP, MDM und PIM und integriert SAP-Lösungen in bestehende IT-Landschaften. Arbeitet techno-funktional mit Fachbereichen: Anforderungsanalyse, User Stories, Prozessmodellierung, UAT. Code-Reviews und technische Anleitung von Junior-Entwicklern. SAP Certified Commerce Cloud Developer. Wohnhaft in Karlsruhe mit gültiger Arbeitserlaubnis, Start ab 16.12.2026.",
   "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "SOAP",
-    "Groovy"
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
    ],
    "APIs & Integration": [
     "REST web services",
     "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
     "DataHub",
     "Hotfolders",
-    "SAP ERP)",
     "file-based data pipelines",
     "third-party integrations"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "Data Modeling"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Git",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
    ],
    "Databases & Search": [
     "SQL",
@@ -44,15 +75,11 @@
     "FlexibleSearch",
     "Apache Solr"
    ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
    ],
    "Ways of Working": [
     "Agile / Scrum",
@@ -60,154 +87,68 @@
     "Confluence",
     "Code Reviews",
     "Technical Mentoring",
-    "International Teams",
-    "PI Planning"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+    "International Teams"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    1,
     0,
+    1,
     2,
     3,
+    6,
     4,
-    5
+    5,
+    7
    ],
    "shell": [
-    1,
-    2,
     0,
+    2,
+    1,
     3,
     4,
+    6,
     5
    ],
    "cognizant": [
     2,
+    3,
     0,
-    1,
-    3
+    1
    ]
   },
-  "keywords_matched": [
-   "SAP",
-   "Java",
-   "RESTful APIs",
-   "Microservices",
-   "Agile",
-   "Integration",
-   "German B1"
-  ],
-  "keywords_missing": [
-   "SAP Sales Cloud",
-   "SAP Service Cloud",
-   "SAP CI (BTP)",
-   "SAP S/4HANA Customer Engagement",
-   "SAP CRM",
-   "SAP Emarsys",
-   "SAP BTP web applications"
-  ],
-  "cover_en": {
-   "subject": "Application: Senior Consultant | SAP CX (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Senior Consultant | SAP CX position at cronos Unternehmensberatung GmbH. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development and enterprise integrations at Rockwell Automation and Shell, I am eager to bring my technical expertise to your customer experience projects.",
-   "bullets": [
-    {
-     "label": "Enterprise SAP & Integration Experience",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) and developed OCC REST Web Services for headless architectures and third-party consumers."
-    },
-    {
-     "label": "System & Data Integration",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms, and built data pipelines using Hotfolders and DataHub to keep product catalogs synchronized."
-    },
-    {
-     "label": "Consultative & Technical Leadership",
-     "text": "Acted in international technical environments, performing code reviews, supporting production issues, and providing technical guidance to junior developers."
-    },
-    {
-     "label": "Agile Delivery & Quality Assurance",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, maintaining high code quality standards."
-    }
-   ],
-   "gap": "While my core expertise lies heavily in SAP Commerce Cloud rather than SAP Sales Cloud, SAP Service Cloud, or custom SAP BTP web applications, I am very keen to learn these specific platforms and expand my skill set into new areas.",
-   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving a notice period ending on 15 December 2026, and will be available to start on 16 December 2026. I look forward to discussing how my background aligns with your needs in an interview.",
-   "closing": ""
-  },
-  "cover_de": {
-   "subject": "Bewerbung als Senior Consultant | SAP CX (all genders)",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Mit großem Interesse habe ich Ihre Ausschreibung für die Position als Senior Consultant | SAP CX bei der cronos Unternehmensberatung GmbH gelesen. Als Backend-Entwicklerin mit über 5 Jahren Berufserfahrung im Aufbau und der Betreuung von SAP Commerce Cloud Plattformen (Hybris) bei Rockwell Automation und Shell bringe ich fundierte SAP- und Integrationserfahrung mit.",
-   "bullets": [
-    {
-     "label": "SAP-Plattformen & Webdienste",
-     "text": "Entwicklung und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) sowie Erstellung von OCC REST Web Services."
-    },
-    {
-     "label": "Schnittstellen & Datenintegration",
-     "text": "Investigation und Behebung von Integrationsengpässen zwischen SAP ERP, MDM und Profisee Plattformen sowie Aufbau von PIM-zu-Hybris Datenpipelines."
-    },
-    {
-     "label": "DevOps & Deployment",
-     "text": "Ausführung von CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) in agilen DevOps-Workflows."
-    },
-    {
-     "label": "Technische Führung",
-     "text": "Durchführung von Code Reviews, Unterstützung bei der Fehlerbehebung in der Produktion und technische Anleitung von Nachwuchsentwicklern."
-    }
-   ],
-   "gap": "Zwar liegt mein Schwerpunkt auf SAP Commerce Cloud und nicht auf SAP Sales Cloud, SAP Service Cloud oder der SAP BTP, jedoch verfüge ich über fundierte SAP-Erfahrung und bin hochmotiviert, mich in diese neuen Themenbereiche einzuarbeiten.",
-   "logistics": "Ich wohne in Karlsruhe, besitze eine gültige deutsche Aufenthalts- und Arbeitserlaubnis und befinde mich in einer Kündigungsfrist bis zum 15.12.2026, sodass ich ab dem 16.12.2026 zur Verfügung stehe. Über ein Gespräch freue ich mich sehr.",
-   "closing": ""
-  },
-  "why_company": "I want to work at cronos Unternehmensberatung GmbH because of your 30-year leadership in digital innovation and IT consulting for the energy sector and beyond. I am eager to apply my 5+ years of enterprise SAP Commerce experience to your Customer Experience projects while growing into new SAP solution areas.",
-  "motivation_short": "I am motivated to contribute my 5+ years of SAP Commerce Cloud expertise to cronos's CX projects, support digital transformations, and continuously learn new SAP technologies.",
-  "linkedin_message": "Hello! With 5+ years of SAP Commerce Cloud experience at Rockwell Automation and Shell, I am very interested in the Senior Consultant SAP CX role at cronos. I hold a valid work permit and can start on 16.12.2026. Let's connect!",
-  "email_subject": "Application for Senior Consultant | SAP CX - Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents, including my CV and cover letter, for the Senior Consultant | SAP CX position at cronos Unternehmensberatung GmbH.\n\nWith over 5 years of professional experience in SAP Commerce Cloud development, REST APIs, and enterprise system integrations, I am eager to bring my technical background to your team. I am based in Karlsruhe, hold a valid work permit, and am available starting 16 December 2026.\n\nI look forward to hearing from you.\n\nBest regards,\nKranti Chavan"
+  "why_company": "cronos verbindet SAP-CX-Beratung mit echter technischer Umsetzung – von der BTP-Webapplikation bis zur Schnittstelle in bestehende IT-Landschaften. Das entspricht genau meinem Profil aus SAP Commerce Cloud und ERP-/PIM-Integration. Die Rollen als Teilprojektleitung oder Entwicklungsverantwortliche bieten mir den richtigen Rahmen, meine techno-funktionale Erfahrung einzubringen.",
+  "linkedin_message": "Guten Tag! Ich habe mich als Senior Consultant SAP CX beworben: 5+ Jahre SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell, Schwerpunkt Schnittstellen zu SAP ERP, MDM und PIM, SAP-zertifiziert. Karlsruhe, Start 16.12.2026. Ich freue mich auf einen kurzen Austausch!"
  },
  "letters": {
-  "en": {
-   "subject": "Application: Senior Consultant | SAP CX (all genders)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in the Senior Consultant | SAP CX position at cronos Unternehmensberatung GmbH. With over 5 years of professional experience specializing in SAP Commerce Cloud (Hybris) development and enterprise integrations at Rockwell Automation and Shell, I am eager to bring my technical expertise to your customer experience projects.",
+  "de": {
+   "subject": "Bewerbung als Senior Consultant | SAP CX",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sie suchen eine Senior Consultant, die SAP-CX-Lösungen einführt und dafür Schnittstellen baut, über die Daten zuverlässig zwischen Systemen fließen. Das ist seit über fünf Jahren mein Kerngebiet: Bei Rockwell Automation und Shell integriere ich SAP Commerce Cloud (Hybris 2105 und 2211) in gewachsene IT-Landschaften mit SAP ERP, MDM und PIM – als SAP Certified Commerce Cloud Developer.",
    "bullets": [
     {
-     "label": "Enterprise SAP & Integration Experience",
-     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) and developed OCC REST Web Services for headless architectures and third-party consumers."
+     "label": "Einführung von SAP-CX-Lösungen",
+     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud (Hybris 2211) entworfen und umgesetzt; Kernmodule wie Promotions Engine und Order Management (OMS) bei Shell entwickelt und gepflegt."
     },
     {
-     "label": "System & Data Integration",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee platforms, and built data pipelines using Hotfolders and DataHub to keep product catalogs synchronized."
+     "label": "Schnittstellen & Datenübertragung",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert; REST- und SOAP-Webservices bereitgestellt und konsumiert, OCC-APIs für Storefronts und Drittsysteme entwickelt."
     },
     {
-     "label": "Consultative & Technical Leadership",
-     "text": "Acted in international technical environments, performing code reviews, supporting production issues, and providing technical guidance to junior developers."
+     "label": "Integration in bestehende IT-Landschaften",
+     "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee analysiert und gelöst und API-Migrationen für Kundenkontostrukturen umgesetzt – für stabilere Systeme und konsistente Daten."
     },
     {
-     "label": "Agile Delivery & Quality Assurance",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, maintaining high code quality standards."
+     "label": "Technische Entwicklungsverantwortung & Beratung",
+     "text": "Code-Reviews, Produktionssupport und technische Anleitung von Junior-Entwicklern; Anforderungen direkt mit Fachbereichen analysiert und in User Stories und funktionale Spezifikationen übersetzt."
     }
    ],
-   "gap": "While my core expertise lies heavily in SAP Commerce Cloud rather than SAP Sales Cloud, SAP Service Cloud, or custom SAP BTP web applications, I am very keen to learn these specific platforms and expand my skill set into new areas.",
-   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving a notice period ending on 15 December 2026, and will be available to start on 16 December 2026. I look forward to discussing how my background aligns with your needs in an interview.",
-   "closing": ""
+   "gap": "",
+   "logistics": "Kundenorientierung und Beratung auf Augenhöhe sind für mich der Kern guter Projekte, und neue SAP-Themenfelder erschließe ich mir schnell und strukturiert. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten – das Mobile-Office-Modell von cronos passt dazu sehr gut. Gern stelle ich mich Ihnen in einem persönlichen Gespräch vor.",
+   "closing": "",
+   "contact": ""
   }
  },
+ "lang": "de",
  "created": "2026-10-18"
 }
