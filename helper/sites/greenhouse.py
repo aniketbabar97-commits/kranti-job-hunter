@@ -4,6 +4,7 @@ classic ids #first_name #last_name #email #phone #resume, #job_application_locat
 `.select__container` on new boards, submit input[type=submit][data-trackingid=job-application-submit] /
 button[type=submit].submit-step / #submit_app, confirmation `.confirmation__content` or URL /confirmation.
 Fixture = Celonis board (Munich)."""
+import os
 import re
 
 from helper.sites.base import Site
@@ -81,7 +82,7 @@ class Greenhouse(Site):
                 label = (el.evaluate("e => { const l = document.getElementById(e.id + '-label') || "
                                      "e.closest('.select__container')?.querySelector('label'); return l ? l.innerText : ''; }") or "").strip()
                 if re.match(r"school|university|universität|hochschule", label, re.I):
-                    for typed, rx in ((uni, r"savitribai|phule"), ("University of Pune", r"pune"), ("Pune", r"pune"),
+                    for typed, rx in ((uni, r"savitribai|phule"), ("University of Pune", r"^\s*(university of pune|pune university)\b"),
                                       ("Other", r"^\s*other\b")):
                         if self._rs_pick(page, el, typed, rx):
                             done.append(f"{label[:30]} = {self._rs_text(el)[:40]}")
@@ -124,6 +125,8 @@ class Greenhouse(Site):
             if any(re.search(r"loading|wird geladen", t, re.I) for t in texts):
                 continue
             hit = [o for o, t in zip(opts, texts) if rx.search(t)]
+            if typed and os.environ.get("HELPER_DEBUG"):
+                print("      options for", typed, texts[:8])
             if not hit and only_one_ok and len(opts) == 1 and not re.search(r"no options|no results", texts[0], re.I):
                 hit = opts
             if hit:
