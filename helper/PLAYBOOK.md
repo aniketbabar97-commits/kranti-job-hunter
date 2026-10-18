@@ -57,6 +57,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - ionos-group.com 'Jetzt bewerben' goes to Greenhouse. Uploads: click first 'Anhängen' per group (CV, Anschreiben). react-select: click 'Flyout umschalten' button then pick option; country list is localized ('Deutschland'); city needs typing then ArrowDown to show options. Multi-select ignores typed+Enter; click options. Confirmation: URL /confirmation 'Vielen Dank für Deine Bewerbung'.
 
 ## Workday (Accenture)
+- Existing account: Forgot password works (SignInWithEmailButton -> forgotPasswordLink -> 'code Accenture myworkdayjobs.com' returns passwordreset link -> set default password -> sign in). Use [data-automation-id=click_filter] to click submits. Earlier 'sign-in failed' was a wrong password, not a missing verification mail. Signed in, job page showed 'You've already applied for this job'.
 - Apply Manually > Sign in with email > Create Account; submit buttons are covered by a click_filter div (click [data-automation-id=click_filter]). After creating the account sign-in failed and no verification mail was found - needs manual check.
 
 ## Ashby (jobs.ashbyhq.com)
@@ -157,6 +158,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - ONLINE BEWERBEN opens a NEW tab (/applications/<id>): single page. CV via the visible 'PDF / DOC' <a> (not the hidden input) + file chooser, page re-renders so re-snapshot refs; cover letter = 'Other attachments' button + chooser; salutation is a chosen.js select (click #id1_chosen then li 'Ms.'); no captcha, no consent checkbox. Success URL /applySuccess.
 
 ## rexx (www.cronos.de/jobs, f<id>.html)
+- WORKED: accept cookies first, then pressSequentially per field (close/hide #ui-datepicker-div before clicking later fields), setInputFiles by id, tick #agb_checkbox via JS, set required select wie_gefunden (Arbeitsagentur) via JS+change, click 'Senden' link. Success 'Bewerbung abgeschlossen'.
 - Same rexxCha rejection as tarox: submit returns 'Leider konnten wir Ihre Anfrage nicht bearbeiten' 2x with JS-filled fields. Uploads use ajax (setInputFiles works; filenames then shown; input names are swapped: name=anschreiben is CV slot, anlage3 Zeugnisse, lebenslauf = Anschreiben). Cookie 'Alle akzeptieren' (save_all_settings) reloads the page - do it BEFORE filling. Treat as captcha: park with tab open.
 
 ## Arbeitsagentur link / Die Tech Recruiter
@@ -170,3 +172,19 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## d.vinci / innovative-companies.de (MACS HOLDING)
 - macs-holding.de/stellenangebote lists the job linking to innovative-companies.de/de/jobs/<id>/...; go straight to /de/jobs/<id>/form. Fill by name (salutation MS, sourceId 13=LinkedIn, videoPitch0=Nein, privacyPolicyAccepted1, extendedUseAccepted1), one multi-file attachmentFile takes CV+cover letter. NO image CAPTCHA this time: Absenden went to /applied 'Wir haben die Bewerbung erhalten. Vielen Dank.'
+
+## rexx (telekom-mms.com)
+- Same recipe as cronos works (cookies first, pressSequentially, setInputFiles by id, JS-tick #agb_checkbox, click 'Senden'). After submit page shows only 'Eine Bewerbung pro Stellenausschreibung ist nur einmal möglich' - no thank-you text.
+
+## SuccessFactors (rehau.jobs / career5 rehauagco)
+- 2nd+ application: profile stays logged in/prefilled; just replace CV (pencil button -> Von Gerät hochladen) and cover letter (löschen -> OK -> Anschreiben anhängen), then re-fill the job-specific salary/currency/frequency/permit/source fields (they reset per requisition; Währung is a native select -> selectOption) and click Bewerben.
+- Job page 'Jetzt bewerben' dropdown is LinkedIn-only; run JS click on a.dialogApplyBtn to reach career5 login. Register link -> Konto anlegen (needs radio searPref + accept privacy dialog). Then profile page: CV/cover letter via 'Von Gerät hochladen' + filechooser (use page.waitForEvent filechooser), custom comboboxes: click then li in ul.sf-list-select (clicking twice toggles it closed; check count). CV parse adds experience/education rows with required Bereich(IT)/Führungserfahrung(Nein)/Dauer/Von dates/Abschluss(Bachelor) - fill them, then Bewerben. Success: 'Vielen Dank! Wir haben Ihre Bewerbung erhalten'.
+
+## SuccessFactors (jobs.all-for-one.com / career2 all41Group)
+- Job page -> JS click a.dialogApplyBtn -> guest form on career2 (also creates account). If 'Konto bereits vorhanden': open 'Hast du dein Kennwort vergessen?' href in a NEW tab, submit email, 'code All for One successfactors.eu' returns reset link, set default password, then log in on the form tab ('Bitte melde dich hier an.'): profile form shows with an old CV -> pencil to replace CV, 'Motivationsschreiben anhängen' for cover letter (chooser needs browser_file_upload after the click), fill Anrede/Land/source combos (ul.sf-list-select li), salary/notice, Bewerben. Success 'Ihre Bewerbung wurde abgeschickt. Vielen Dank!'.
+
+## Vesterling AG (vesterling.com JobBox)
+- LinkedIn link has no company URL: vesterling.com/jobs-finden/technologie-stellenmarkt/ lists the job -> job page 'Online bewerben' -> /jobs-finden/jetzt-bewerben/ (form says 'Sie bewerben sich für folgende Position'). Fields by id: salutation select, lastName, firstName, tel, email, #privacy, #newsletter, linkXingOrLinkedIn, radio sendingPapersInput_1 + #files takes CV+cover letter; button 'Bewerbung absenden'. Success text 'Vielen Dank für Ihre Bewerbung bei Vesterling!' appears in place; ignore the separate nf- contact form below.
+
+## BTC AG (karriere.btc-ag.com/?jobid=...)
+- LinkedIn link -> karriere.btc-ag.com home lists job -> /?jobid=<id>; accept Cookiebot, click first 'Jetzt bewerben' to open the inline form (no <form> tag). Phone field is digits only (+49 prefix is fixed). Two file inputs: CV, 'Weitere Unterlagen' (cover letter). Selects: residence 'innerhalb der EU', langLevel B1, disability nein. Submit = the 'Jetzt bewerben' <a> inside .application__mainContainer (click via DOM, overlays block pointer). The Einstiegsdatum date input mangles typed dd.mm.yyyy (became 04/12/2027) - leave it empty and put start date in the message instead. Success: 'Bewerbung wurde erfolgreich versendet'.
