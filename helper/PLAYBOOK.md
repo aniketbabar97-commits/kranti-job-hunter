@@ -35,6 +35,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - Notice field: "Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026".
 
 ## dm-jobs / dmTECH
+- Apply wizard: fill step 1 with ISO date (type=date) via locators; Weiter link is covered by an error overlay - click via JS .dm-apply-page__btn-next. Existing profile for the email -> send magic link, 'code dm-jobs', open link immediately; profile prefill has wrong birth year/address, re-fill them. Old CV and 'Weitere Dokumente' carry over: Datei entfernen, then Dokument hochladen > tab 'Von meinem Gerät' (scope #cv / #coverLetter) > file chooser. Success text only shown after scrolling to bottom: 'Deine Bewerbung ist erfolgreich bei uns eingegangen'.
 - Login mail comes from dm-jobs and contains a LINK that expires in ~5 min → call `code dm-jobs` and open the link at once.
 
 ## XING / LinkedIn Easy Apply
@@ -142,3 +143,30 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Heizungsdiscount24 (own site)
 - Homepage link -> /jobs.html -> 'Zur Stellenbeschreibung'; posting page has no form, only a mailto for PDFs. Park as email-only.
+
+## Ensinger (jobs.ensingerplastics.com, Persis engage)
+- Cookies > Jetzt bewerben x2 > page1 privacy+pool checkboxes > page2 form. File inputs overlaid: click input[type=file] by class (fieldMandatory = CV; .multiuploadFile = extra, pick category Anschreiben first, then Hinzufügen). Free-text Kündigungsfrist/Eintritt. Confirm: title 'Danke'.
+
+## Concludis (cbr.concludis.de) CBR 2
+- LinkedIn link has no external URL: use www.cbr.de/career/job-search?searchTerm=<title> > job page > 'Jetzt online bewerben' (landingpage.php?prj=115P<id>) > formapply. Filled all via one evaluate (set value+change); Verfügbarkeit radio value 1 'Ab dem...' reveals start date; after setInputFiles set each .file-row select by its .filename (Cover->Anschreiben, CV->Lebenslauf). 1st submit worked.
+
+## Personio (brandung.jobs.personio.de)
+- /apply?display=en; fill_form by #field-*; setInputFiles #doc-input-cv and #doc-input-other (cover letter); no consent checkbox; screening 'C1 German?' answered Nein (B1, truthful) and was accepted. Confirmation 'VIELEN DANK'.
+
+## softgarden (ampelmann.softgarden.io)
+- ONLINE BEWERBEN opens a NEW tab (/applications/<id>): single page. CV via the visible 'PDF / DOC' <a> (not the hidden input) + file chooser, page re-renders so re-snapshot refs; cover letter = 'Other attachments' button + chooser; salutation is a chosen.js select (click #id1_chosen then li 'Ms.'); no captcha, no consent checkbox. Success URL /applySuccess.
+
+## rexx (www.cronos.de/jobs, f<id>.html)
+- Same rexxCha rejection as tarox: submit returns 'Leider konnten wir Ihre Anfrage nicht bearbeiten' 2x with JS-filled fields. Uploads use ajax (setInputFiles works; filenames then shown; input names are swapped: name=anschreiben is CV slot, anlage3 Zeugnisse, lebenslauf = Anschreiben). Cookie 'Alle akzeptieren' (save_all_settings) reloads the page - do it BEFORE filling. Treat as captcha: park with tab open.
+
+## Arbeitsagentur link / Die Tech Recruiter
+- arbeitsagentur.de hides the employer contact behind a Sicherheitsabfrage (captcha) - don't use it; search the employer's own site instead. dietechrecruiter.de/jobs/ is paginated with ?paged=2 (fetch it); job page /jobs/<slug>-vac-<id>/ has firstName/lastName/email/phone, single CV file input name=cv, dataprivacycheck; Cookiebot accept first. Success /thank-you-cv/.
+
+## Noerr Solutions (noerr-solutions.de, WP AWSM job form)
+- Link was homepage: Cookies (cmplz) > /jobs/ > /job/<slug>/. Form fields awsm_*; date is type=date ISO; one multi-file input takes CV+cover letter; privacy awsm_form_privacy_policy; invisible reCAPTCHA v3 passed. Success text 'Vielen Dank für Deine Bewerbung' shown inline.
+
+## QUIS AG (quis.ag)
+- Real site is quis.ag (quis.de is an unrelated Hamburg proptech). Jobs at /stellenangebote/; absent from list + wp-sitemap.xml = closed.
+
+## d.vinci / innovative-companies.de (MACS HOLDING)
+- macs-holding.de/stellenangebote lists the job linking to innovative-companies.de/de/jobs/<id>/...; go straight to /de/jobs/<id>/form. Fill by name (salutation MS, sourceId 13=LinkedIn, videoPitch0=Nein, privacyPolicyAccepted1, extendedUseAccepted1), one multi-file attachmentFile takes CV+cover letter. NO image CAPTCHA this time: Absenden went to /applied 'Wir haben die Bewerbung erhalten. Vielen Dank.'
