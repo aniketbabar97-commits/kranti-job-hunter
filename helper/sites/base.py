@@ -128,7 +128,7 @@ class Site:
     def problems(self, page, uploads_needed, uploaded):
         from helper import apply
         why = apply.problems(page, uploads_needed, uploaded)
-        if self.needs_account and self.account_step(page):
+        if self.needs_account and self.account_step(page) and "account/password" not in why:
             why.append("account/password")
         return why
 

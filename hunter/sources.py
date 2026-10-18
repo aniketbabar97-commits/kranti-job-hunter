@@ -213,7 +213,6 @@ def lever(slug, company, query=None):
     return out
 
 
-COMPANY_FEEDS = {"personio": personio, "greenhouse": greenhouse, "lever": lever}
 
 
 SEARCH_TERMS = ["hybris", "SAP Commerce", "e-commerce"]
@@ -521,3 +520,471 @@ def join_com(slug, company, query=""):
                  f"https://join.com/companies/{slug}/{j['idParam']}", (j.get("createdAt") or "")[:10],
                  j.get("workplaceType") == "REMOTE", "")
             for j in found if not query or query.lower() in j["title"].lower()]
+
+
+# ---- Direct career-portal readers ------------------------------------------------------
+# Each takes (slug_or_url, company, query=None) and returns EVERY opening (optionally title-filtered by query).
+# Notes: helper/knowledge/scrapers.md ("Career portals").
+
+JOBISH_HREF = re.compile(r"(?i)stellenangebot|stellen|/jobs?/|/job[-_]|jobdetail|jobposting|karriere/|career|position|vacanc|"
+                         r"offer|ausschreibung|/j/|requisition|opening")
+JOBISH_TITLE = re.compile(r"(?i)\(\s*[mwfdx]\s*/\s*[mwfdx]|\b(m/w/d|w/m/d|f/m/d|m/f/d|all genders?)\b|developer|entwickler|"
+                          r"engineer|manager|consultant|berater|architekt|architect|specialist|spezialist|referent|"
+                          r"analyst|lead|leiter|werkstudent|praktik|intern|sachbearbeiter|techniker|ingenieur|expert|"
+                          r"administrator|designer|scientist|kaufm|mitarbeiter|head of|owner|tester|trainee|azubi|ausbildung")
+NOT_JOB = re.compile(r"(?i)^(jobs?|karriere|career|careers|stellenangebote|alle jobs|all jobs|offene stellen|mehr|more|"
+                     r"apply|bewerben|jetzt bewerben|details|weiterlesen|read more|job alert|jobs? finden)$")
+
+
+def _q(jobs, query):
+    jobs = list({j["url"]: j for j in jobs if j.get("url") and j.get("title")}.values())
+    return [j for j in jobs if not query or query.lower() in j["title"].lower()]
+
+
+def _get(url, **kw):
+    kw.setdefault("timeout", 30)
+    kw.setdefault("headers", {"User-Agent": BROWSER_UA, "Accept-Language": "de-DE,de;q=0.9,en;q=0.8"})
+    r = requests.get(url, **kw)
+    r.raise_for_status()
+    return r
+
+
+def _base(slug_or_url, pattern):
+    """slug -> pattern.format(slug); a full URL is used as is (scheme+host, or the whole URL if pattern is None)."""
+    s = slug_or_url.strip().rstrip("/")
+    return s if s.startswith("http") else pattern.format(s)
+
+
+def _walk(o, pred, out):
+    if isinstance(o, dict):
+        if pred(o):
+            out.append(o)
+        for v in o.values():
+            _walk(v, pred, out)
+    elif isinstance(o, list):
+        for v in o:
+            _walk(v, pred, out)
+    return out
+
+
+def _loc(v):
+    if isinstance(v, list):
+        return ", ".join(filter(None, (_loc(x) for x in v)))[:150]
+    if isinstance(v, dict):
+        return ", ".join(str(v[k]) for k in ("city", "name", "addressLocality", "region", "country") if v.get(k) and isinstance(v[k], str))
+    return str(v or "")
+
+
+def _html_jobs(url, company, query=None, href=JOBISH_HREF, source=None, html_text=None):
+    """Server-rendered job list: anchors whose href looks like a job detail and text like a job title."""
+    from bs4 import BeautifulSoup
+    from urllib.parse import urljoin
+    text = html_text if html_text is not None else _get(url).text
+    soup = BeautifulSoup(text, "html.parser")
+    out = _jsonld_jobs(soup, url, company)
+    for a in soup.find_all("a", href=True):
+        h = a["href"]
+        if h.startswith(("mailto:", "tel:", "javascript:", "#")) or not href.search(h):
+            continue
+        t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
+        if not (8 <= len(t) <= 160) or NOT_JOB.match(t) or not JOBISH_TITLE.search(t):
+            continue
+        out.append(_job(source or f"{company} careers", t, company, "", urljoin(url, h).split("#")[0], "",
+                        "remote" in t.lower(), ""))
+    return _q(out, query)
+
+
+def _jsonld_jobs(soup, url, company):
+    import json
+    out = []
+    for s in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(s.string or s.get_text() or "")
+        except ValueError:
+            continue
+        for p in _walk(data, lambda o: o.get("@type") == "JobPosting", []):
+            org = p.get("hiringOrganization")
+            out.append(_job(f"{company} careers", p.get("title"), (org or {}).get("name", company) if isinstance(org, dict) else company,
+                            _loc([x.get("address", x) for x in (p.get("jobLocation") if isinstance(p.get("jobLocation"), list) else [p.get("jobLocation") or {}])]),
+                            p.get("url") or url, (p.get("datePosted") or "")[:10],
+                            p.get("jobLocationType") == "TELECOMMUTE", _strip_html(html.unescape(p.get("description") or ""))))
+    return out
+
+
+def recruitee(slug_or_url, company, query=None):
+    base = _base(slug_or_url, "https://{}.recruitee.com")
+    out = []
+    for o in _get(f"{base}/api/offers/").json().get("offers", []):
+        loc = o.get("location") or ", ".join(x for x in [o.get("city"), o.get("country")] if x)
+        out.append(_job(f"{company} careers", o.get("title"), company, loc, o.get("careers_url") or f"{base}/o/{o.get('slug')}",
+                        (o.get("published_at") or o.get("created_at") or "")[:10], bool(o.get("remote")),
+                        _strip_html(html.unescape((o.get("description") or "") + " " + (o.get("requirements") or "")))))
+    return _q(out, query)
+
+
+def workable(slug_or_url, company, query=None):
+    slug = slug_or_url.rstrip("/").split("/")[-1]
+    out, token = [], None
+    for _ in range(20):
+        body = {"query": query or "", "location": [], "department": [], "worktype": [], "remote": []}
+        if token:
+            body["token"] = token
+        r = requests.post(f"https://apply.workable.com/api/v3/accounts/{slug}/jobs", json=body, timeout=30,
+                          headers={"User-Agent": BROWSER_UA, "Accept": "application/json"})
+        if r.status_code == 429:  # rate limited: fall back to the widget feed
+            r = _get(f"https://apply.workable.com/api/v1/widget/accounts/{slug}")
+            for j in r.json().get("jobs", []):
+                out.append(_job(f"{company} careers", j.get("title"), company,
+                                ", ".join(x for x in [j.get("city"), j.get("country")] if x), j.get("url") or j.get("shortlink"),
+                                (j.get("published_on") or j.get("created_at") or "")[:10], bool(j.get("telecommuting")), ""))
+            break
+        r.raise_for_status()
+        d = r.json()
+        for j in d.get("results", []):
+            loc = j.get("location") or {}
+            out.append(_job(f"{company} careers", j.get("title"), company,
+                            ", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
+                            f"https://apply.workable.com/{slug}/j/{j.get('shortcode')}/", (j.get("published") or "")[:10],
+                            bool(j.get("remote")) or j.get("workplace") == "remote", ""))
+        token = d.get("nextPage")
+        if not token:
+            break
+    return _q(out, query)
+
+
+def teamtailor(slug_or_url, company, query=None):
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+    base = _base(slug_or_url, "https://{}.teamtailor.com")
+    base = re.sub(r"/jobs(\.rss)?$", "", base)
+    root = ET.fromstring(_get(f"{base}/jobs.rss").content)
+    out = []
+    for it in root.iter("item"):
+        locs = [e.text or "" for e in it.iter() if e.tag.endswith("city") or e.tag.endswith("location") and e.text]
+        posted = ""
+        try:
+            posted = parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
+        except Exception:  # noqa: BLE001
+            pass
+        desc = _strip_html(html.unescape(it.findtext("description") or ""))
+        out.append(_job(f"{company} careers", it.findtext("title"), company, ", ".join(dict.fromkeys(filter(None, locs))),
+                        it.findtext("link"), posted, "remote" in (it.findtext("remoteStatus") or desc[:300]).lower(), desc))
+    return _q(out, query)
+
+
+def onlyfy(slug_or_url, company, query=None):
+    """onlyfy (ex Prescreen) career page https://<slug>.onlyfy.jobs (server-rendered list)."""
+    base = _base(slug_or_url, "https://{}.onlyfy.jobs")
+    return _html_jobs(base, company, query, href=re.compile(r"/job/|/candidate/job"))
+
+
+def dvinci(slug_or_url, company, query=None):
+    """d.vinci: <base>/jobPublication/list.json (base like https://x.dvinci-hr.com or https://x.dvinci-easy.com)."""
+    base = _base(slug_or_url, "https://{}.dvinci-hr.com")
+    base = re.sub(r"(/jobPublication.*|/de/jobs.*|/jobs.*)$", "", base)
+    data = None
+    for path in ("/jobPublication/list.json", "/jobs.json"):
+        try:
+            data = _get(base + path).json()
+            break
+        except Exception:  # noqa: BLE001
+            continue
+    if data is None:
+        return _html_jobs(base + "/de/jobs", company, query)
+    out = []
+    for j in _walk(data, lambda o: (o.get("position") or o.get("title") or o.get("name")) and
+                   (o.get("jobPublicationURL") or o.get("url") or o.get("id")), []):
+        title = j.get("position") or j.get("title") or j.get("name")
+        if not isinstance(title, str):
+            continue
+        url = j.get("jobPublicationURL") or j.get("url") or f"{base}/de/jobPublication/{j.get('id')}"
+        out.append(_job(f"{company} careers", title, company, _loc(j.get("locations") or j.get("location")), url,
+                        (j.get("publicationStartDate") or j.get("startDate") or j.get("createdDate") or "")[:10],
+                        "remote" in title.lower(), ""))
+    return _q(out, query)
+
+
+def rexx(slug_or_url, company, query=None):
+    """rexx systems: https://<x>.rexx-systems.com/stellenangebote.html (detail pages ...-<id>.html / job_*.html)."""
+    url = _base(slug_or_url, "https://{}.rexx-systems.com/stellenangebote.html")
+    if not re.search(r"\.html?$|\?", url):
+        url += "/stellenangebote.html"
+    return _html_jobs(url, company, query, href=re.compile(r"(?i)stellenangebot|job|-\d+(-de)?\.html|/[\w-]+-de-[\w-]+\.html"))
+
+
+def concludis(slug_or_url, company, query=None):
+    """concludis job list (URL of the list page, e.g. https://<x>.concludis.de/prj/lst/<hash>/...)."""
+    return _html_jobs(_base(slug_or_url, "https://{}.concludis.de"), company, query,
+                      href=re.compile(r"(?i)/prj/(shw|show)|jobposting|stellen"))
+
+
+def umantis(slug_or_url, company, query=None):
+    """Abacus umantis: https://recruitingapp-XXXX.umantis.com/Jobs/All?lang=ger (slug = the XXXX number)."""
+    s = slug_or_url.strip().rstrip("/")
+    url = s if s.startswith("http") else f"https://recruitingapp-{s}.umantis.com/Jobs/All?lang=ger"
+    if "/Jobs/" not in url and "Vacancies" not in url:
+        url += "/Jobs/All?lang=ger"
+    return _html_jobs(url, company, query, href=re.compile(r"(?i)/Vacancies/\d+|/Jobs/\d+|Description"))
+
+
+def bite(slug_or_url, company, query=None):
+    """BITE: slug_or_url = listing key, or a page embedding data-bite-jobs-api-listing="<key>"."""
+    key, origin = slug_or_url, "https://jobs.b-ite.com"
+    if slug_or_url.startswith("http"):
+        origin = slug_or_url
+        page = _get(slug_or_url).text
+        m = re.search(r'data-bite-jobs-api-listing\s*=\s*["\']([^"\']+)', page) or re.search(r'listing["\']?\s*[:=]\s*["\']([\w-]{20,})', page)
+        if not m:
+            return _html_jobs(slug_or_url, company, query, href=re.compile(r"b-ite\.(com|net)|/jobposting/"), html_text=page)
+        key = m.group(1)
+    body = {"key": key, "channel": 0, "locale": "de", "sort": {"by": "title", "order": "asc"},
+            "origin": origin, "page": {"num": 500, "offset": 0}, "filter": {}}
+    r = requests.post("https://jobs.b-ite.com/api/v1/postings/search", json=body, timeout=30,
+                      headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json"})
+    r.raise_for_status()
+    out = []
+    for j in r.json().get("jobPostings", []):
+        out.append(_job(f"{company} careers", j.get("title"), company, _loc(j.get("jobSite") or j.get("locations") or j.get("location")),
+                        j.get("url") or j.get("link"), (j.get("createdOn") or j.get("startsOn") or "")[:10],
+                        "remote" in str(j).lower()[:2000], ""))
+    return _q(out, query)
+
+
+def avature(slug_or_url, company, query=None):
+    """Avature: <portal>/SearchJobs RSS feed (<portal>/SearchJobs/feed/), else the HTML list (JobDetail links)."""
+    import xml.etree.ElementTree as ET
+    base = re.sub(r"/SearchJobs.*$", "", slug_or_url.rstrip("/"))
+    out = []
+    try:
+        r = _get(f"{base}/SearchJobs/feed/", params={"jobRecordsPerPage": 500})
+        for it in ET.fromstring(r.content).iter("item"):
+            out.append(_job(f"{company} careers", it.findtext("title"), company, "", it.findtext("link"),
+                            "", False, _strip_html(it.findtext("description") or "")))
+    except Exception as e:  # noqa: BLE001
+        log.info("avature feed %s: %s", base, e)
+    if not out:
+        for off in range(0, 600, 50):
+            page = _html_jobs(f"{base}/SearchJobs/?jobOffset={off}&jobRecordsPerPage=50", company, None,
+                              href=re.compile(r"(?i)JobDetail"))
+            if not page or all(j["url"] in {o["url"] for o in out} for j in page):
+                break
+            out += page
+    return _q(out, query)
+
+
+def taleo(slug_or_url, company, query=None):
+    """Oracle Taleo career section (JS-rendered): REST jobboard search, else the generic browser reader."""
+    m = re.match(r"(https://[\w.-]+\.taleo\.net)/careersection/([\w-]+)", slug_or_url)
+    if m:
+        host, section = m.groups()
+        try:
+            r = requests.post(f"{host}/careersection/rest/jobboard/searchjobs", params={"lang": "de", "portal": section},
+                              json={"multilineEnabled": False, "sortingSelection": {"sortBySelectionParam": "3", "ascendingSortingOrder": "false"},
+                                    "fieldData": {"fields": {"KEYWORD": query or "", "LOCATION": ""}, "valid": True},
+                                    "filterSelectionParam": {"searchFilterSelections": []}, "advancedSearchFiltersSelectionParam": {"searchFilterSelections": []},
+                                    "pageNo": 1},
+                              headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json", "tz": "GMT+02:00"}, timeout=30)
+            r.raise_for_status()
+            out = []
+            for req in r.json().get("requisitionList", []):
+                cols = req.get("column") or []
+                out.append(_job(f"{company} careers", cols[0] if cols else "", company, cols[1] if len(cols) > 1 else "",
+                                f"{host}/careersection/{section}/jobdetail.ftl?job={req.get('contestNo') or req.get('jobId')}",
+                                "", False, ""))
+            if out:
+                return _q(out, query)
+        except Exception as e:  # noqa: BLE001
+            log.info("taleo rest %s: %s", slug_or_url, e)
+    return career_page(slug_or_url, company, query)
+
+
+def eightfold(slug_or_url, company, query=None):
+    """Eightfold: https://<host>/api/apply/v2/jobs?domain=<domain>. slug_or_url = careers URL (host) with
+    ?domain=... or 'host|domain'."""
+    from urllib.parse import urlparse, parse_qs
+    if "|" in slug_or_url:
+        host, domain = slug_or_url.split("|", 1)
+    else:
+        u = urlparse(slug_or_url if slug_or_url.startswith("http") else f"https://{slug_or_url}.eightfold.ai")
+        host = f"{u.scheme}://{u.netloc}"
+        domain = (parse_qs(u.query).get("domain") or [u.netloc.split(".")[0] + ".com"])[0]
+    host = host if host.startswith("http") else f"https://{host}"
+    out = []
+    for start in range(0, 2000, 100):
+        d = _get(f"{host}/api/apply/v2/jobs", params={"domain": domain, "start": start, "num": 100, "query": query or ""}).json()
+        ps = d.get("positions", [])
+        for p in ps:
+            posted = date.fromtimestamp(p["t_create"]).isoformat() if p.get("t_create") else ""
+            out.append(_job(f"{company} careers", p.get("name"), company, p.get("location", ""),
+                            p.get("canonicalPositionUrl") or f"{host}/careers?pid={p.get('id')}&domain={domain}", posted,
+                            "remote" in str(p.get("work_location_option", "")).lower(), _strip_html(p.get("job_description", ""))))
+        if len(ps) < 100 or len(out) >= d.get("count", 0):
+            break
+    return _q(out, query)
+
+
+def phenom(slug_or_url, company, query=None):
+    """Phenom People career site: POST <site>/widgets (refineSearch) with the refNum found in the page."""
+    import json
+    from urllib.parse import urlparse
+    u = urlparse(slug_or_url)
+    host = f"{u.scheme}://{u.netloc}"
+    page = _get(slug_or_url).text
+    ref = re.search(r'"refNum"\s*:\s*"([^"]+)"', page)
+    lang = (re.search(r'"locale"\s*:\s*"([^"]+)"', page) or re.search(r"/([a-z]{2}/[a-z]{2})/", slug_or_url))
+    locale = lang.group(1).replace("/", "_") if lang else "en_us"
+    prefix = re.search(r"^(/[a-z]{2}/[a-z]{2})", u.path)
+    if not ref:
+        return career_page(slug_or_url, company, query)
+    out = []
+    for frm in range(0, 2000, 100):
+        body = {"lang": locale, "deviceType": "desktop", "country": locale.split("_")[-1], "pageName": "search-results",
+                "ddoKey": "refineSearch", "sortBy": "", "subsearch": "", "from": frm, "jobs": True, "counts": True,
+                "all_fields": [], "size": 100, "clearAll": False, "jdsource": "facets", "isSliderEnable": False,
+                "pageId": "page20", "siteType": "external", "keywords": query or "", "global": True,
+                "selected_fields": {}, "locationData": {}, "refNum": ref.group(1)}
+        r = requests.post(f"{host}/widgets", json=body, timeout=30, headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json"})
+        r.raise_for_status()
+        jobs = (((r.json().get("refineSearch") or {}).get("data") or {}).get("jobs")) or []
+        for j in jobs:
+            url = f"{host}{prefix.group(1) if prefix else ''}/job/{j.get('jobId') or j.get('jobSeqNo')}"
+            out.append(_job(f"{company} careers", j.get("title"), company,
+                            j.get("cityStateCountry") or j.get("location") or j.get("city", ""), url,
+                            (j.get("postedDate") or j.get("dateCreated") or "")[:10], "remote" in json.dumps(j).lower()[:3000],
+                            j.get("descriptionTeaser", "")))
+        if len(jobs) < 100:
+            break
+    return _q(out, query)
+
+
+def ashby(slug_or_url, company, query=None):
+    slug = slug_or_url.rstrip("/").split("/")[-1]
+    out = []
+    for j in _get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}").json().get("jobs", []):
+        if j.get("isListed") is False:
+            continue
+        loc = ", ".join(filter(None, [j.get("location")] + [x.get("location") for x in j.get("secondaryLocations") or []]))
+        out.append(_job(f"{company} careers", j.get("title"), company, loc, j.get("jobUrl"), (j.get("publishedAt") or "")[:10],
+                        bool(j.get("isRemote")), j.get("descriptionPlain", "")))
+    return _q(out, query)
+
+
+def jobylon(slug_or_url, company, query=None):
+    """Jobylon company page (https://emp.jobylon.com/companies/<slug>/ or the company's jobylon URL)."""
+    url = _base(slug_or_url, "https://emp.jobylon.com/companies/{}/")
+    return _html_jobs(url, company, query, href=re.compile(r"/jobs/\d+"))
+
+
+def softgarden_all(slug_or_url, company, query=None):
+    """softgarden: the vacancies page, falling back to the jobs widget."""
+    if slug_or_url.startswith("http"):
+        return _html_jobs(slug_or_url, company, query, href=re.compile(r"/job/"))
+    jobs = softgarden(slug_or_url, company, query or "")
+    if not jobs:
+        jobs = _html_jobs(f"https://{slug_or_url}.softgarden.io/de/widgets/jobs", company, query, href=re.compile(r"/job/"))
+    return jobs
+
+
+def join_all(slug_or_url, company, query=None):
+    """JOIN: public API for a numeric company id, else the company page's __NEXT_DATA__."""
+    s = str(slug_or_url)
+    if s.isdigit():
+        d = _get(f"https://join.com/api/public/companies/{s}/jobs", params={"page": 1, "pageSize": 100}).json()
+        items = d.get("items", d if isinstance(d, list) else [])
+        out = [_job(f"{company} careers", j.get("title"), company, _loc(j.get("city")),
+                    f"https://join.com/companies/{(j.get('company') or {}).get('domain') or s}/{j.get('idParam') or j.get('id')}",
+                    (j.get("createdAt") or "")[:10], j.get("workplaceType") == "REMOTE", "") for j in items]
+        return _q(out, query)
+    return join_com(s.rstrip("/").split("/")[-1], company, query or "")
+
+
+def career_page(url, company, query=None, timeout=30):
+    """Generic career page (own site / unknown ATS): headless Chromium loads the job list, scrolls, and collects
+    job-detail anchors, JSON-LD JobPostings and job arrays from XHR JSON responses. [] on failure."""
+    from urllib.parse import urljoin
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        log.warning("career_page: playwright not installed")
+        return []
+    xhr_jobs = []
+
+    def on_response(resp):
+        try:
+            if "json" not in (resp.headers.get("content-type") or "") or resp.request.resource_type not in ("xhr", "fetch"):
+                return
+            data = resp.json()
+        except Exception:  # noqa: BLE001
+            return
+        title_keys = ("title", "jobTitle", "name", "position", "positionTitle", "job_title")
+        for o in _walk(data, lambda o: any(isinstance(o.get(k), str) and JOBISH_TITLE.search(o.get(k)) for k in title_keys), []):
+            title = next(o[k] for k in title_keys if isinstance(o.get(k), str) and JOBISH_TITLE.search(o[k]))
+            link = next((o[k] for k in ("url", "absolute_url", "jobUrl", "applyUrl", "detailUrl", "link", "href",
+                                        "canonicalPositionUrl", "externalPath", "jobPublicationURL") if isinstance(o.get(k), str)), "")
+            if not link:
+                continue
+            xhr_jobs.append(_job(f"{company} careers", title, company,
+                                 _loc(o.get("location") or o.get("locations") or o.get("city") or o.get("locationsText")),
+                                 urljoin(resp.url, link), str(o.get("postedDate") or o.get("datePosted") or o.get("published") or "")[:10],
+                                 "remote" in title.lower(), ""))
+
+    jobs = []
+    try:
+        with sync_playwright() as p:
+            kw = {"headless": True}
+            if os.path.exists(CHROMIUM):
+                kw["executable_path"] = CHROMIUM
+            browser = p.chromium.launch(**kw)
+            try:
+                page = browser.new_page(user_agent=BROWSER_UA, locale="de-DE")
+                page.set_default_timeout(timeout * 1000)
+                page.on("response", on_response)
+                page.goto(url, timeout=timeout * 1000, wait_until="domcontentloaded")
+                try:
+                    page.wait_for_load_state("networkidle", timeout=10000)
+                except Exception:  # noqa: BLE001
+                    pass
+                for sel in ("#onetrust-accept-btn-handler", "button:has-text('Alle akzeptieren')", "button:has-text('Accept all')",
+                            "button:has-text('Akzeptieren')", "button:has-text('Zustimmen')"):
+                    try:
+                        if page.locator(sel).first.is_visible(timeout=500):
+                            page.locator(sel).first.click(timeout=2000)
+                            break
+                    except Exception:  # noqa: BLE001
+                        pass
+                for _ in range(8):
+                    page.mouse.wheel(0, 4000)
+                    page.wait_for_timeout(700)
+                    for sel in ("button:has-text('Mehr laden')", "button:has-text('Load more')", "button:has-text('Weitere')",
+                                "button:has-text('Mehr anzeigen')", "button:has-text('Show more')"):
+                        try:
+                            if page.locator(sel).first.is_visible(timeout=300):
+                                page.locator(sel).first.click(timeout=2000)
+                                page.wait_for_timeout(1200)
+                        except Exception:  # noqa: BLE001
+                            pass
+                html_text = page.content()
+                for fr in page.frames[1:]:  # embedded ATS widgets (iframes)
+                    try:
+                        jobs += _html_jobs(fr.url, company, None, html_text=fr.content())
+                    except Exception:  # noqa: BLE001
+                        pass
+                final_url = page.url
+            finally:
+                browser.close()
+        jobs += _html_jobs(final_url, company, None, html_text=html_text)
+    except Exception as e:  # noqa: BLE001
+        log.warning("career_page %s failed: %s", url, e)
+    jobs += xhr_jobs
+    if not jobs:
+        log.info("career_page %s: no jobs found", url)
+    return _q(jobs, query)
+
+
+ATS_READERS = {
+    "personio": personio, "greenhouse": greenhouse, "lever": lever, "recruitee": recruitee, "workable": workable,
+    "teamtailor": teamtailor, "onlyfy": onlyfy, "prescreen": onlyfy, "dvinci": dvinci, "rexx": rexx,
+    "concludis": concludis, "umantis": umantis, "bite": bite, "avature": avature, "taleo": taleo,
+    "eightfold": eightfold, "phenom": phenom, "ashby": ashby, "jobylon": jobylon, "softgarden": softgarden_all,
+    "join": join_all, "own": career_page, "unknown": career_page,
+}

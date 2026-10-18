@@ -69,7 +69,7 @@ def collect(cfg):
     entries = list(cfg.get("companies", []))
     if extra.get("companies_bw"):
         names = {e["name"].lower() for e in entries}
-        entries += [e for e in cfg.get("companies_bw", []) if e["ats"] != "unknown" and e["name"].lower() not in names]
+        entries += [e for e in cfg.get("companies_bw", []) if e["name"].lower() not in names]
     for entry in entries:
         run("Company career sites (direct)", sources.company_feed, entry)
     if os.getenv("SERPER_API_KEY"):

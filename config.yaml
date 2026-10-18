@@ -79,168 +79,639 @@ companies:
 # sources.companies_bw is on). ats: personio/greenhouse/lever/smartrecruiters (slug) or workday/successfactors (url) were
 # checked live on 2026-10-18; ats: unknown = careers URL only (covered by career_site_queries + gapcheck).
 companies_bw:
-  - {name: "Chrono24", ats: personio, slug: chrono24}
-  - {name: "Cinemo", ats: personio, slug: cinemo}
-  - {name: "Shopmacher", ats: personio, slug: shopmacher}
-  - {name: "nexum", ats: personio, slug: nexum}
-  - {name: "diva-e", ats: personio, slug: diva-e}
-  - {name: "commercetools", ats: greenhouse, slug: commercetools}
-  - {name: "Flaconi", ats: greenhouse, slug: flaconi}
-  - {name: "Continental", ats: smartrecruiters, slug: Continental}
-  - {name: "Home24", ats: smartrecruiters, slug: Home24}
-  - {name: "Endava", ats: smartrecruiters, slug: Endava}
-  - {name: "Nagarro", ats: smartrecruiters, slug: Nagarro1}
-  - {name: "ZEISS", ats: workday, url: "https://zeissgroup.wd3.myworkdayjobs.com/External"}
-  - {name: "Accenture / Accenture Song", ats: workday, url: "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"}
-  - {name: "Salesforce", ats: workday, url: "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site"}
-  - {name: "Schaeffler", ats: successfactors, url: "https://jobs.schaeffler.com"}
-  - {name: "Festo", ats: successfactors, url: "https://jobs.festo.com"}
-  - {name: "Atos", ats: successfactors, url: "https://jobs.atos.net"}
-  - {name: "Capgemini", ats: successfactors, url: "https://careers.capgemini.com"}
-  - {name: "Kaufland", ats: successfactors, url: "https://jobs.kaufland.com"}
-  - {name: "ZF", ats: successfactors, url: "https://jobs.zf.com"}
-  - {name: "Sybit (Radolfzell)", ats: unknown, url: "https://www.sybit.de/karriere"}
-  - {name: "inovex (Karlsruhe)", ats: unknown, url: "https://www.inovex.de/de/karriere/"}
-  - {name: "adesso", ats: unknown, url: "https://www.adesso.de/de/jobs-karriere/"}
-  - {name: "Reply", ats: unknown, url: "https://www.reply.com/de/careers"}
-  - {name: "Deloitte Digital", ats: unknown, url: "https://www.deloitte.com/de/de/careers.html"}
-  - {name: "NTT DATA", ats: unknown, url: "https://de.nttdata.com/karriere"}
-  - {name: "Arvato Systems", ats: unknown, url: "https://www.arvato-systems.de/karriere"}
-  - {name: "CBS Corporate Business Solutions", ats: unknown, url: "https://www.cbs-consulting.com/karriere/"}
-  - {name: "KPS", ats: unknown, url: "https://kps.com/de/karriere.html"}
-  - {name: "Merkle", ats: unknown, url: "https://www.merkle.com/de/de/careers"}
-  - {name: "valantic", ats: unknown, url: "https://www.valantic.com/de/karriere/"}
-  - {name: "hmmh", ats: unknown, url: "https://www.hmmh.de/karriere"}
-  - {name: "novomind", ats: unknown, url: "https://www.novomind.com/de/karriere/"}
-  - {name: "Netcentric", ats: unknown, url: "https://www.netcentric.biz/careers"}
-  - {name: "Merkle DACH (ex Namics)", ats: unknown, url: "https://www.merkle.com/de/de/careers"}
-  - {name: "Cocomore", ats: unknown, url: "https://www.cocomore.com/karriere"}
-  - {name: "SQLI", ats: unknown, url: "https://www.sqli.com/de-de/karriere"}
-  - {name: "dotSource", ats: unknown, url: "https://www.dotsource.de/karriere/"}
-  - {name: "Intershop", ats: unknown, url: "https://www.intershop.com/de/karriere"}
-  - {name: "Spryker", ats: unknown, url: "https://spryker.com/careers/"}
-  - {name: "Mindcurv", ats: unknown, url: "https://www.mindcurv.com/careers"}
-  - {name: "Kernpunkt", ats: unknown, url: "https://www.kernpunkt.de/karriere"}
-  - {name: "FACTOR-E", ats: unknown, url: "https://www.factor-e.de/karriere"}
-  - {name: "SAP (Walldorf)", ats: unknown, url: "https://jobs.sap.com"}
-  - {name: "Bosch", ats: unknown, url: "https://www.bosch.de/karriere/"}
-  - {name: "Bosch Digital", ats: unknown, url: "https://www.bosch-digital.com/careers/"}
-  - {name: "Mercedes-Benz", ats: unknown, url: "https://group.mercedes-benz.com/karriere/"}
-  - {name: "Mercedes-Benz Tech Innovation (Ulm)", ats: unknown, url: "https://www.mbtechinnovation.com/karriere/"}
-  - {name: "Porsche", ats: unknown, url: "https://jobs.porsche.com"}
-  - {name: "Porsche Digital", ats: unknown, url: "https://www.porsche.digital/careers/"}
-  - {name: "MHP (Ludwigsburg)", ats: unknown, url: "https://www.mhp.com/de/karriere"}
-  - {name: "Schwarz IT", ats: unknown, url: "https://jobs.schwarz"}
-  - {name: "Lidl", ats: unknown, url: "https://jobs.lidl.de"}
-  - {name: "dm-drogerie markt (Karlsruhe)", ats: unknown, url: "https://www.dm-jobs.com"}
-  - {name: "EnBW", ats: unknown, url: "https://www.enbw.com/karriere/"}
-  - {name: "Netze BW", ats: unknown, url: "https://www.netze-bw.de/karriere"}
-  - {name: "Würth", ats: unknown, url: "https://www.wuerth.de/karriere"}
-  - {name: "TRUMPF", ats: unknown, url: "https://www.trumpf.com/de_DE/karriere/"}
-  - {name: "Breuninger", ats: unknown, url: "https://www.breuninger.com/karriere/"}
-  - {name: "HUGO BOSS", ats: unknown, url: "https://careers.hugoboss.com"}
-  - {name: "Liebherr", ats: unknown, url: "https://www.liebherr.com/de/deu/karriere/"}
-  - {name: "STIHL", ats: unknown, url: "https://www.stihl.de/de/karriere"}
-  - {name: "Kärcher", ats: unknown, url: "https://www.kaercher.com/de/karriere.html"}
-  - {name: "Hansgrohe", ats: unknown, url: "https://www.hansgrohe-group.com/karriere"}
-  - {name: "fischer", ats: unknown, url: "https://www.fischer.group/de/karriere"}
-  - {name: "Herrenknecht", ats: unknown, url: "https://www.herrenknecht.com/de/karriere/"}
-  - {name: "SICK", ats: unknown, url: "https://www.sick.com/de/de/karriere"}
-  - {name: "Testo", ats: unknown, url: "https://www.testo.com/de-DE/karriere"}
-  - {name: "Ensinger", ats: unknown, url: "https://www.ensingerplastics.com/de-de/karriere"}
-  - {name: "Vector Informatik", ats: unknown, url: "https://www.vector.com/de/de/karriere/"}
-  - {name: "Heidelberger Druckmaschinen", ats: unknown, url: "https://www.heidelberg.com/global/de/about_heidelberg/careers/"}
-  - {name: "Heidelberg Materials", ats: unknown, url: "https://www.heidelbergmaterials.com/de/karriere"}
-  - {name: "Freudenberg", ats: unknown, url: "https://www.freudenberg.com/de/karriere"}
-  - {name: "Roche (Mannheim)", ats: unknown, url: "https://careers.roche.com"}
-  - {name: "Bilfinger", ats: unknown, url: "https://www.bilfinger.com/karriere/"}
-  - {name: "MANN+HUMMEL", ats: unknown, url: "https://www.mann-hummel.com/de/karriere"}
-  - {name: "MAHLE", ats: unknown, url: "https://jobs.mahle.com"}
-  - {name: "Dürr", ats: unknown, url: "https://www.durr.com/de/karriere"}
-  - {name: "Voith", ats: unknown, url: "https://www.voith.com/corp-de/karriere.html"}
-  - {name: "Hirschmann Automotive", ats: unknown, url: "https://www.hirschmann-automotive.com/de/karriere"}
-  - {name: "Pilz", ats: unknown, url: "https://www.pilz.com/de-DE/karriere"}
-  - {name: "Balluff", ats: unknown, url: "https://www.balluff.com/de-de/karriere"}
-  - {name: "ifm", ats: unknown, url: "https://www.ifm.com/de/de/shared/karriere"}
-  - {name: "Wüstenrot & Württembergische", ats: unknown, url: "https://www.ww-ag.com/karriere"}
-  - {name: "L-Bank", ats: unknown, url: "https://www.l-bank.de/karriere"}
-  - {name: "1&1 / IONOS (Karlsruhe)", ats: unknown, url: "https://www.ionos-group.com/de/karriere.html"}
-  - {name: "Atruvia (Karlsruhe)", ats: unknown, url: "https://www.atruvia.de/karriere"}
-  - {name: "PTV Group (Karlsruhe)", ats: unknown, url: "https://company.ptvgroup.com/de/karriere"}
-  - {name: "Blue Yonder (Karlsruhe)", ats: unknown, url: "https://blueyonder.com/careers"}
-  - {name: "Kaufland e-commerce (Köln)", ats: unknown, url: "https://kaufland-ecommerce.com/karriere/"}
-  - {name: "Zalando", ats: unknown, url: "https://jobs.zalando.com"}
-  - {name: "Otto", ats: unknown, url: "https://www.otto.de/jobs/"}
-  - {name: "About You", ats: unknown, url: "https://corporate.aboutyou.de/de/karriere"}
-  - {name: "Douglas", ats: unknown, url: "https://www.douglas.group/de/karriere"}
-  - {name: "Lampenwelt", ats: unknown, url: "https://www.lampenwelt.de/karriere"}
-  - {name: "Thalia", ats: unknown, url: "https://www.thalia.de/karriere"}
-  - {name: "Hugendubel", ats: unknown, url: "https://www.hugendubel.info/karriere"}
-  - {name: "Deichmann", ats: unknown, url: "https://www.deichmann.com/karriere"}
-  - {name: "C&A", ats: unknown, url: "https://career.c-and-a.com"}
-  - {name: "Tchibo", ats: unknown, url: "https://www.tchibo-karriere.de"}
-  - {name: "Rossmann", ats: unknown, url: "https://jobs.rossmann.de"}
-  - {name: "Fressnapf", ats: unknown, url: "https://karriere.fressnapf.de"}
-  - {name: "Hornbach", ats: unknown, url: "https://www.hornbach.de/karriere/"}
-  - {name: "OBI", ats: unknown, url: "https://www.obi.de/karriere"}
-  - {name: "Bauhaus (Mannheim)", ats: unknown, url: "https://jobs.bauhaus.info"}
-  - {name: "Globus", ats: unknown, url: "https://www.globus.de/karriere"}
-  - {name: "EDEKA Südwest", ats: unknown, url: "https://karriere.edeka.de/suedwest"}
-  - {name: "MediaMarktSaturn", ats: unknown, url: "https://www.mediamarktsaturn.com/karriere"}
-  - {name: "Conrad Electronic", ats: unknown, url: "https://www.conrad.de/de/ueber-conrad/karriere.html"}
-  - {name: "reichelt elektronik", ats: unknown, url: "https://www.reichelt.de/karriere"}
-  - {name: "Cyberport", ats: unknown, url: "https://www.cyberport.de/karriere"}
-  - {name: "notebooksbilliger", ats: unknown, url: "https://www.notebooksbilliger.de/karriere"}
-  - {name: "Westwing", ats: unknown, url: "https://www.westwing.com/careers/"}
-  - {name: "Mister Spex", ats: unknown, url: "https://corporate.misterspex.com/de/karriere/"}
-  - {name: "Redcare Pharmacy (Shop Apotheke)", ats: unknown, url: "https://www.redcare-pharmacy.com/careers"}
-  - {name: "DocMorris", ats: unknown, url: "https://corporate.docmorris.com/karriere"}
-  - {name: "zooplus", ats: unknown, url: "https://www.zooplus.com/careers"}
-  - {name: "Bechtle", ats: unknown, url: "https://www.bechtle.com/karriere"}
-  - {name: "CANCOM", ats: unknown, url: "https://www.cancom.com/karriere"}
-  - {name: "Computacenter", ats: unknown, url: "https://www.computacenter.com/de/karriere"}
-  - {name: "msg systems", ats: unknown, url: "https://www.msg.group/karriere"}
-  - {name: "Materna", ats: unknown, url: "https://www.materna.de/karriere"}
-  - {name: "All for One Group", ats: unknown, url: "https://www.all-for-one.com/de/karriere/"}
-  - {name: "Telekom MMS", ats: unknown, url: "https://www.telekom-mms.com/karriere"}
-  - {name: "T-Systems", ats: unknown, url: "https://www.t-systems.com/de/de/karriere"}
-  - {name: "DXC Technology", ats: unknown, url: "https://dxc.com/careers"}
-  - {name: "Cognizant", ats: unknown, url: "https://careers.cognizant.com"}
-  - {name: "Infosys", ats: unknown, url: "https://www.infosys.com/careers/"}
-  - {name: "TCS", ats: unknown, url: "https://www.tcs.com/careers"}
-  - {name: "Wipro", ats: unknown, url: "https://careers.wipro.com"}
-  - {name: "HCLTech", ats: unknown, url: "https://www.hcltech.com/careers"}
-  - {name: "LTIMindtree", ats: unknown, url: "https://www.ltimindtree.com/careers/"}
-  - {name: "Tech Mahindra", ats: unknown, url: "https://careers.techmahindra.com"}
-  - {name: "Birlasoft", ats: unknown, url: "https://www.birlasoft.com/careers"}
-  - {name: "Mphasis", ats: unknown, url: "https://careers.mphasis.com"}
-  - {name: "EPAM", ats: unknown, url: "https://www.epam.com/careers"}
-  - {name: "GlobalLogic", ats: unknown, url: "https://www.globallogic.com/de/careers/"}
-  - {name: "Ciklum", ats: unknown, url: "https://www.ciklum.com/careers"}
-  - {name: "Publicis Sapient", ats: unknown, url: "https://careers.publicissapient.com"}
-  - {name: "VML (ex Wunderman Thompson)", ats: unknown, url: "https://www.vml.com/careers"}
-  - {name: "Ogilvy", ats: unknown, url: "https://www.ogilvy.com/careers"}
-  - {name: "Serviceplan / Plan.Net", ats: unknown, url: "https://www.serviceplan.com/de/karriere.html"}
-  - {name: "Jung von Matt", ats: unknown, url: "https://www.jvm.com/karriere"}
-  - {name: "TWT Digital Group", ats: unknown, url: "https://www.twt.de/karriere"}
-  - {name: "Elbkind", ats: unknown, url: "https://www.elbkind.de/karriere"}
-  - {name: "Fork Unstable Media", ats: unknown, url: "https://www.fork.de/karriere"}
-  - {name: "mediawave", ats: unknown, url: "https://www.mediawave.de/karriere"}
-  - {name: "Blackbit", ats: unknown, url: "https://www.blackbit.de/karriere"}
-  - {name: "Digitas Pixelpark", ats: unknown, url: "https://www.digitaspixelpark.com/karriere"}
-  - {name: "Deloitte", ats: unknown, url: "https://www.deloitte.com/de/de/careers.html"}
-  - {name: "PwC", ats: unknown, url: "https://www.pwc.de/de/karriere.html"}
-  - {name: "EY", ats: unknown, url: "https://www.ey.com/de_de/careers"}
-  - {name: "KPMG", ats: unknown, url: "https://kpmg.com/de/de/home/karriere.html"}
-  - {name: "BearingPoint", ats: unknown, url: "https://www.bearingpoint.com/de-de/karriere/"}
-  - {name: "Horváth", ats: unknown, url: "https://www.horvath-partners.com/de/karriere"}
-  - {name: "CARIAD", ats: unknown, url: "https://cariad.technology/de/de/careers.html"}
-  - {name: "ETAS", ats: unknown, url: "https://www.etas.com/de/karriere.php"}
-  - {name: "Daimler Truck", ats: unknown, url: "https://www.daimlertruck.com/karriere"}
-  - {name: "HELLA (FORVIA)", ats: unknown, url: "https://www.forvia.com/careers"}
-  - {name: "Brose", ats: unknown, url: "https://www.brose.com/de-de/karriere/"}
-
-# Extra sources (each off = false). StepStone needs Playwright + Chromium.
+- name: Chrono24
+  ats: personio
+  slug: chrono24
+- name: Cinemo
+  ats: personio
+  slug: cinemo
+- name: Shopmacher
+  ats: personio
+  slug: shopmacher
+- name: nexum
+  ats: personio
+  slug: nexum
+- name: diva-e
+  ats: personio
+  slug: diva-e
+- name: commercetools
+  ats: greenhouse
+  slug: commercetools
+- name: Flaconi
+  ats: greenhouse
+  slug: flaconi
+- name: Continental
+  ats: smartrecruiters
+  slug: Continental
+- name: Home24
+  ats: smartrecruiters
+  slug: Home24
+- name: Endava
+  ats: smartrecruiters
+  slug: Endava
+- name: Nagarro
+  ats: smartrecruiters
+  slug: Nagarro1
+- name: ZEISS
+  ats: workday
+  url: https://zeissgroup.wd3.myworkdayjobs.com/External
+- name: Accenture / Accenture Song
+  ats: workday
+  url: https://accenture.wd103.myworkdayjobs.com/AccentureCareers
+- name: Salesforce
+  ats: workday
+  url: https://salesforce.wd12.myworkdayjobs.com/External_Career_Site
+- name: Schaeffler
+  ats: successfactors
+  url: https://jobs.schaeffler.com
+- name: Festo
+  ats: successfactors
+  url: https://jobs.festo.com
+- name: Atos
+  ats: successfactors
+  url: https://jobs.atos.net
+- name: Capgemini
+  ats: successfactors
+  url: https://careers.capgemini.com
+- name: Kaufland
+  ats: successfactors
+  url: https://jobs.kaufland.com
+- name: ZF
+  ats: successfactors
+  url: https://jobs.zf.com
+- name: Sybit (Radolfzell)
+  ats: unknown
+  url: https://www.sybit.de/karriere
+- name: inovex (Karlsruhe)
+  ats: recruitee
+  url: https://www.inovex.de/de/karriere/
+  slug: inovex
+  feed: https://inovex.recruitee.com/api/offers/
+  verified: true
+- name: adesso
+  ats: own
+  url: https://www.adesso.de/de/jobs-karriere/
+  verified: false
+- name: Reply
+  ats: own
+  url: https://www.reply.com/de/careers
+  verified: false
+- name: Deloitte Digital
+  ats: own
+  url: https://job.deloitte.com
+  verified: false
+- name: NTT DATA
+  ats: own
+  url: https://www.nttdata.com/de-de/careers
+  verified: false
+- name: Arvato Systems
+  ats: successfactors
+  url: https://jobsearch.createyourowncareer.com/Arvato_Systems/?locale=de_DE
+  feed: https://jobsearch.createyourowncareer.com/Arvato_Systems/?locale=de_DE
+  verified: false
+- name: CBS Corporate Business Solutions
+  ats: unknown
+  url: https://www.cbs-consulting.com/karriere/
+- name: KPS
+  ats: unknown
+  url: https://kps.com/de/karriere.html
+- name: Merkle
+  ats: workday
+  url: https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL
+  feed: https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs
+  verified: true
+- name: valantic
+  ats: unknown
+  url: https://www.valantic.com/de/karriere/
+- name: hmmh
+  ats: personio
+  url: https://www.hmmh.de/karriere
+  slug: hmmh
+  feed: https://hmmh.jobs.personio.de/xml
+  verified: true
+- name: novomind
+  ats: personio
+  url: https://www.novomind.com/de/karriere/
+  slug: novomind
+  feed: https://novomind.jobs.personio.de/xml
+  verified: true
+- name: Netcentric
+  ats: unknown
+  url: https://www.netcentric.biz/careers
+- name: Merkle DACH (ex Namics)
+  ats: workday
+  url: https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL
+  feed: https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs
+  verified: true
+- name: Cocomore
+  ats: own
+  url: https://www.cocomore.com/jobs-and-more
+  verified: false
+- name: SQLI
+  ats: softgarden
+  url: https://www.sqli.com/de-de/karriere
+  slug: sqli
+  feed: https://sqli.softgarden.io/de/vacancies
+  verified: true
+- name: dotSource
+  ats: own
+  url: https://www.dotsource.de/karriere/
+  verified: false
+- name: Intershop
+  ats: own
+  url: https://www.intershop.com/en/careers
+  verified: false
+- name: Spryker
+  ats: greenhouse
+  url: https://spryker.com/careers/
+  slug: spryker
+  feed: https://boards-api.greenhouse.io/v1/boards/spryker/jobs
+  verified: true
+- name: Mindcurv
+  ats: own
+  url: https://www.accenture.com/de-de/careers
+  verified: false
+- name: Kernpunkt
+  ats: own
+  url: https://www.kernpunkt.de/jobs
+  feed: https://www.kernpunkt.de/jobs
+  verified: false
+- name: FACTOR-E
+  ats: unknown
+  url: https://www.factor-e.de/karriere
+- name: SAP (Walldorf)
+  ats: successfactors
+  url: https://jobs.sap.com
+  feed: https://jobs.sap.com/search/?q=&locationsearch=Walldorf
+  verified: false
+- name: Bosch
+  ats: smartrecruiters
+  url: https://www.bosch.de/karriere/
+  slug: BoschGroup
+  feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
+  verified: false
+- name: Bosch Digital
+  ats: smartrecruiters
+  url: https://www.bosch-digital.com/careers/
+  slug: BoschGroup
+  feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
+  verified: true
+- name: Mercedes-Benz
+  ats: own
+  url: https://jobs.mercedes-benz.com
+  verified: false
+- name: Mercedes-Benz Tech Innovation (Ulm)
+  ats: own
+  url: https://jobs.mercedes-benz.com
+  verified: false
+- name: Porsche
+  ats: own
+  url: https://jobs.porsche.com/index.php?ac=search_result
+  verified: false
+- name: Porsche Digital
+  ats: unknown
+  url: https://www.porsche.digital/careers/
+- name: MHP (Ludwigsburg)
+  ats: own
+  url: https://jobs.mhp.com
+  verified: false
+- name: Schwarz IT
+  ats: own
+  url: https://jobs.schwarz/jobsearch
+  verified: false
+- name: Lidl
+  ats: successfactors
+  url: https://jobs.lidl.de
+  feed: https://jobs.lidl.de/suche
+  verified: false
+- name: dm-drogerie markt (Karlsruhe)
+  ats: own
+  url: https://www.dm-jobs.de/
+  verified: false
+- name: EnBW
+  ats: phenom
+  url: https://careers.enbw.com/de/de
+  feed: https://careers.enbw.com/de/de/search-results
+  verified: true
+- name: Netze BW
+  ats: phenom
+  url: https://careers.netze-bw.de/de/de
+  feed: https://careers.netze-bw.de/de/de/search-results
+  verified: false
+- name: Würth
+  ats: unknown
+  url: https://www.wuerth.de/karriere
+- name: TRUMPF
+  ats: unknown
+  url: https://www.trumpf.com/de_DE/karriere/
+- name: Breuninger
+  ats: unknown
+  url: https://www.breuninger.com/karriere/
+- name: HUGO BOSS
+  ats: phenom
+  url: https://careers.hugoboss.com/global/en/search-results
+  feed: https://careers.hugoboss.com/widgets
+  verified: false
+- name: Liebherr
+  ats: own
+  url: https://www.liebherr.com/de-de/karriere/karriere-3364204
+  verified: false
+- name: STIHL
+  ats: unknown
+  url: https://www.stihl.de/de/karriere
+- name: Kärcher
+  ats: unknown
+  url: https://www.kaercher.com/de/karriere.html
+- name: Hansgrohe
+  ats: unknown
+  url: https://www.hansgrohe-group.com/karriere
+- name: fischer
+  ats: unknown
+  url: https://www.fischer.group/de/karriere
+- name: Herrenknecht
+  ats: rexx
+  url: https://jobs.herrenknecht.com/
+  feed: https://jobs.herrenknecht.com/
+  verified: false
+- name: SICK
+  ats: unknown
+  url: https://www.sick.com/de/de/karriere
+- name: Testo
+  ats: unknown
+  url: https://www.testo.com/de-DE/karriere
+- name: Ensinger
+  ats: own
+  url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do?j=jobexchange
+  feed: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do?j=jobexchange
+  verified: false
+- name: Vector Informatik
+  ats: unknown
+  url: https://www.vector.com/de/de/karriere/
+- name: Heidelberger Druckmaschinen
+  ats: workday
+  url: https://heidelberg.wd502.myworkdayjobs.com/careersheidelberg
+  feed: https://heidelberg.wd502.myworkdayjobs.com/wday/cxs/heidelberg/careersheidelberg/jobs
+  verified: true
+- name: Heidelberg Materials
+  ats: workday
+  url: https://heidelbergmaterials.wd3.myworkdayjobs.com
+  verified: false
+- name: Freudenberg
+  ats: own
+  url: https://jobs.freudenberg.com/freudenberg/de/
+  verified: false
+- name: Roche (Mannheim)
+  ats: workday
+  url: https://roche.wd3.myworkdayjobs.com/roche-ext
+  feed: https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs
+  verified: true
+- name: Bilfinger
+  ats: successfactors
+  url: https://jobs.bilfinger.com/
+  feed: https://jobs.bilfinger.com/
+  verified: false
+- name: MANN+HUMMEL
+  ats: successfactors
+  url: https://careers.mann-hummel.com/search/?locale=de_DE
+  feed: https://careers.mann-hummel.com/search/?locale=de_DE
+  verified: true
+- name: MAHLE
+  ats: successfactors
+  url: https://www.jobs.mahle.com
+  verified: false
+- name: Dürr
+  ats: unknown
+  url: https://www.durr.com/de/karriere
+- name: Voith
+  ats: successfactors
+  url: https://jobs.voith.com/search/
+  feed: https://jobs.voith.com/search/
+  verified: true
+- name: Hirschmann Automotive
+  ats: successfactors
+  url: https://career.hirschmann-automotive.com/de/
+  verified: false
+- name: Pilz
+  ats: unknown
+  url: https://www.pilz.com/de-DE/karriere
+- name: Balluff
+  ats: unknown
+  url: https://www.balluff.com/de-de/karriere
+- name: ifm
+  ats: unknown
+  url: https://www.ifm.com/de/de/shared/karriere
+- name: Wüstenrot & Württembergische
+  ats: successfactors
+  url: https://career2.successfactors.eu/career?company=wwinformat&lang=de_DE
+  feed: https://career2.successfactors.eu/career?company=wwinformat&lang=de_DE
+  verified: false
+- name: L-Bank
+  ats: softgarden
+  url: https://www.l-bank.de/karriere
+  slug: lbank
+  feed: https://lbank.softgarden.io/de/vacancies
+  verified: true
+- name: 1&1 / IONOS (Karlsruhe)
+  ats: unknown
+  url: https://www.ionos-group.com/de/karriere.html
+- name: Atruvia (Karlsruhe)
+  ats: own
+  url: https://karriere.atruvia.de/
+  verified: false
+- name: PTV Group (Karlsruhe)
+  ats: own
+  url: https://careers.ptvgroup.com/en/jobs/
+  verified: false
+- name: Blue Yonder (Karlsruhe)
+  ats: phenom
+  url: https://careers.blueyonder.com/us/en
+  feed: https://careers.blueyonder.com/us/en/search-results
+  verified: false
+- name: Kaufland e-commerce (Köln)
+  ats: own
+  url: https://kaufland-ecommerce.com/karriere/
+  verified: false
+- name: Zalando
+  ats: own
+  url: https://jobs.zalando.com/en/jobs
+  verified: false
+- name: Otto
+  ats: own
+  url: https://www.otto.de/jobs/de/
+  verified: false
+- name: About You
+  ats: own
+  url: https://corporate.aboutyou.de/de/career/jobs
+  verified: false
+- name: Douglas
+  ats: successfactors
+  url: https://careers.douglas.group/de/en/
+  verified: true
+- name: Lampenwelt
+  ats: unknown
+  url: https://www.lampenwelt.de/karriere
+- name: Thalia
+  ats: unknown
+  url: https://www.thalia.de/karriere
+- name: Hugendubel
+  ats: unknown
+  url: https://www.hugendubel.info/karriere
+- name: Deichmann
+  ats: unknown
+  url: https://www.deichmann.com/karriere
+- name: C&A
+  ats: unknown
+  url: https://career.c-and-a.com
+- name: Tchibo
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=tchibogmbhP
+  feed: https://career5.successfactors.eu/career?company=tchibogmbhP
+  verified: true
+- name: Rossmann
+  ats: rexx
+  url: https://bewerben.rossmann.de
+  feed: https://bewerben.rossmann.de/index.php?ac=search_result
+  verified: false
+- name: Fressnapf
+  ats: unknown
+  url: https://karriere.fressnapf.de
+- name: Hornbach
+  ats: unknown
+  url: https://www.hornbach.de/karriere/
+- name: OBI
+  ats: unknown
+  url: https://www.obi.de/karriere
+- name: Bauhaus (Mannheim)
+  ats: own
+  url: https://jobs.bauhaus.info/search
+  feed: https://jobs.bauhaus.info/search
+  verified: false
+- name: Globus
+  ats: unknown
+  url: https://www.globus.de/karriere
+- name: EDEKA Südwest
+  ats: own
+  url: https://verbund.edeka/karriere/stellenboerse/
+  verified: false
+- name: MediaMarktSaturn
+  ats: successfactors
+  url: https://careers.mediamarktsaturn.com/MediaMarktSaturn/?locale=de_DE&addresses%2Fcountry=DEU
+  feed: https://careers.mediamarktsaturn.com/MediaMarktSaturn/?locale=de_DE&addresses%2Fcountry=DEU
+  verified: false
+- name: Conrad Electronic
+  ats: unknown
+  url: https://www.conrad.de/de/ueber-conrad/karriere.html
+- name: reichelt elektronik
+  ats: unknown
+  url: https://www.reichelt.de/karriere
+- name: Cyberport
+  ats: unknown
+  url: https://www.cyberport.de/karriere
+- name: notebooksbilliger
+  ats: personio
+  url: https://www.notebooksbilliger.de/karriere
+  slug: notebooksbilliger
+  feed: https://notebooksbilliger.jobs.personio.de/xml
+  verified: true
+- name: Westwing
+  ats: personio
+  url: https://www.westwing.com/careers/
+  slug: westwing
+  feed: https://westwing.jobs.personio.de/xml
+  verified: true
+- name: Mister Spex
+  ats: workday
+  url: https://misterspex.wd103.myworkdayjobs.com/Mister_Spex_Careers
+  feed: https://misterspex.wd103.myworkdayjobs.com/wday/cxs/misterspex/Mister_Spex_Careers/jobs
+  verified: true
+- name: Redcare Pharmacy (Shop Apotheke)
+  ats: smartrecruiters
+  url: https://www.redcare-pharmacy.com/careers
+  slug: RedcarePharmacy
+  feed: https://api.smartrecruiters.com/v1/companies/RedcarePharmacy/postings
+  verified: true
+- name: DocMorris
+  ats: unknown
+  url: https://corporate.docmorris.com/karriere
+- name: zooplus
+  ats: own
+  url: https://www.zooplus.com/jobs/search
+  verified: false
+- name: Bechtle
+  ats: successfactors
+  url: https://jobs.bechtle.com
+  feed: https://jobs.bechtle.com/default/content/search/?locale=de_DE
+  verified: true
+- name: CANCOM
+  ats: unknown
+  url: https://www.cancom.com/karriere
+- name: Computacenter
+  ats: own
+  url: https://www.computacenter.com/careers
+  verified: false
+- name: msg systems
+  ats: unknown
+  url: https://www.msg.group/karriere
+- name: Materna
+  ats: own
+  url: https://karriere.materna.de/stellenmarkt
+  verified: false
+- name: All for One Group
+  ats: own
+  url: https://careers.all-for-one.com/de/jobs/index.html
+  verified: false
+- name: Telekom MMS
+  ats: unknown
+  url: https://www.telekom-mms.com/karriere
+- name: T-Systems
+  ats: own
+  url: https://careers.telekom.com/de/jobs?search=T-Systems
+  verified: false
+- name: DXC Technology
+  ats: workday
+  url: https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs
+  feed: https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/DXCJobs/jobs
+  verified: true
+- name: Cognizant
+  ats: unknown
+  url: https://careers.cognizant.com
+- name: Infosys
+  ats: own
+  url: https://career.infosys.com
+  verified: false
+- name: TCS
+  ats: unknown
+  url: https://www.tcs.com/careers
+- name: Wipro
+  ats: successfactors
+  url: https://careers.wipro.com
+  feed: https://careers.wipro.com/search/?locale=en_US
+  verified: true
+- name: HCLTech
+  ats: successfactors
+  url: https://careers.hcltech.com
+  verified: false
+- name: LTIMindtree
+  ats: successfactors
+  url: https://careers.ltm.com/search/
+  feed: https://careers.ltm.com/search/
+  verified: false
+- name: Tech Mahindra
+  ats: unknown
+  url: https://careers.techmahindra.com
+- name: Birlasoft
+  ats: own
+  url: https://jobs.birlasoft.com/
+  verified: false
+- name: Mphasis
+  ats: own
+  url: https://careers.mphasis.com
+  verified: false
+- name: EPAM
+  ats: own
+  url: https://careers.epam.com
+  verified: false
+- name: GlobalLogic
+  ats: own
+  url: https://www.globallogic.com/de/careers/
+  verified: false
+- name: Ciklum
+  ats: oracle
+  url: https://ialmme.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/ciklum-career
+  feed: https://ialmme.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?finder=findReqs;siteNumber=ciklum-career
+  verified: false
+- name: Publicis Sapient
+  ats: own
+  url: https://careers.publicissapient.com
+  verified: false
+- name: VML (ex Wunderman Thompson)
+  ats: unknown
+  url: https://www.vml.com/careers
+- name: Ogilvy
+  ats: unknown
+  url: https://www.ogilvy.com/careers
+- name: Serviceplan / Plan.Net
+  ats: softgarden
+  url: https://www.serviceplan.com/de/karriere.html
+  slug: serviceplan
+  feed: https://serviceplan.softgarden.io/de/vacancies
+  verified: true
+- name: Jung von Matt
+  ats: unknown
+  url: https://www.jvm.com/karriere
+- name: TWT Digital Group
+  ats: personio
+  url: https://www.twt.de/karriere
+  slug: greven-twt-gruppe
+  feed: https://greven-twt-gruppe.jobs.personio.de/xml
+  verified: false
+- name: Elbkind
+  ats: unknown
+  url: https://www.elbkind.de/karriere
+- name: Fork Unstable Media
+  ats: own
+  url: https://www.fork.de/karriere/
+  verified: false
+- name: mediawave
+  ats: unknown
+  url: https://www.mediawave.de/karriere
+- name: Blackbit
+  ats: unknown
+  url: https://www.blackbit.de/karriere
+- name: Digitas Pixelpark
+  ats: unknown
+  url: https://www.digitaspixelpark.com/karriere
+- name: Deloitte
+  ats: own
+  url: https://job.deloitte.com
+  verified: false
+- name: PwC
+  ats: workday
+  url: https://pwc.wd3.myworkdayjobs.com/Global_Experienced_Careers
+  feed: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs
+  verified: true
+- name: EY
+  ats: own
+  url: https://jobsgermany.ey.com
+  verified: false
+- name: KPMG
+  ats: successfactors
+  url: https://jobs.kpmg.de/
+  feed: https://jobs.kpmg.de/
+  verified: false
+- name: BearingPoint
+  ats: greenhouse
+  url: https://www.bearingpoint.com/de-de/karriere/
+  slug: bearingpoint
+  feed: https://boards-api.greenhouse.io/v1/boards/bearingpoint/jobs
+  verified: true
+- name: Horváth
+  ats: unknown
+  url: https://www.horvath-partners.com/de/karriere
+- name: CARIAD
+  ats: successfactors
+  url: https://jobs.volkswagen-group.com/cariad/search/
+  feed: https://jobs.volkswagen-group.com/cariad/search/
+  verified: false
+- name: ETAS
+  ats: smartrecruiters
+  url: https://www.etas.com/de/karriere.php
+  slug: BoschGroup
+  feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
+  verified: false
+- name: Daimler Truck
+  ats: rexx
+  url: https://jobsearch.daimlertruck.com
+  feed: https://jobsearch.daimlertruck.com/index.php?ac=search_result
+  verified: false
+- name: HELLA (FORVIA)
+  ats: unknown
+  url: https://www.forvia.com/careers
+- name: Brose
+  ats: successfactors
+  url: https://career2.successfactors.eu/career?company=brosefahrz
+  feed: https://career2.successfactors.eu/career?company=brosefahrz
+  verified: true
 sources:
   stepstone: true
   xing: true
