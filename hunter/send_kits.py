@@ -33,10 +33,11 @@ def build(kit, master):
     j, t = kit["job"], kit["tailoring"]
     out = OUT / kit["slug"]
     out.mkdir(parents=True, exist_ok=True)
-    htmls = [out / "Kranti_Chavan_CV.html"]
-    htmls[0].write_text(documents.render_cv(master, t), encoding="utf-8")
+    cv_lang = kit.get("lang") or "en"  # final kits: whole package in the posting's language
+    htmls = [out / documents.file_name("cv", j, cv_lang).replace(".pdf", ".html")]
+    htmls[0].write_text(documents.render_cv(master, t, cv_lang), encoding="utf-8")
     for lang, cl in kit["letters"].items():
-        f = out / f"Kranti_Chavan_Cover_Letter_{lang.upper()}.html"
+        f = out / documents.file_name("cl", j, lang).replace(".pdf", ".html")
         f.write_text(documents.render_cover(master, cl, j, lang, t.get("headline") or master["headlines"][0]),
                      encoding="utf-8")
         htmls.append(f)
@@ -62,6 +63,8 @@ def run(limit=60):
             log.warning("PDF for %s failed: %s", j["title"], ex)
             continue
         j["letters"], j["description"], j["applied"] = k["letters"], "", ""
+        if k.get("lang"):
+            j["lang"] = k["lang"]
         jobs.append(j)
     log.info("kits with an application address: %d", len(jobs))
     made = outreach.prepare(jobs, cfg)
