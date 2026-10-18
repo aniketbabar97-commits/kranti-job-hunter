@@ -24,6 +24,24 @@ HERE = Path(__file__).resolve().parent
 OUT = ROOT / "out" / "helper"
 SKIPPED = HERE / "skipped.txt"
 AUTO = False  # AUTO_SUBMIT=1 in me.env: submit by itself when the form is complete and safe
+BRAIN = os.environ.get("BRAIN", "1") == "1"  # BRAIN=0 in me.env: rules only, no AI agent (helper/brain.py)
+BRAIN_AFTER = ("NO_FORM", "PARK_QUESTION", "PARK_ACCOUNT", "ERROR")  # fast-path outcomes the agent retries
+CDP_URL = None  # the browser's DevTools endpoint, shared with the AI agent
+
+
+def free_port():
+    import socket
+    with socket.socket() as s:
+        s.bind(("127.0.0.1", 0))
+        return s.getsockname()[1]
+
+
+def cdp_args():
+    """Launch args that open a DevTools port so helper/brain.py drives the SAME browser (sets CDP_URL)."""
+    global CDP_URL
+    port = free_port()
+    CDP_URL = f"http://127.0.0.1:{port}"
+    return [f"--remote-debugging-port={port}"]
 
 
 def load_env():
@@ -642,6 +660,17 @@ def confirmed(ctx, site=None):
     return False
 
 
+WAIT_FOR_ME = os.environ.get("WAIT_FOR_ME", "1") == "1"  # she is at the PC: ask instead of parking
+
+
+def beep():
+    try:
+        import winsound
+        winsound.MessageBeep()
+    except Exception:
+        print("\a", end="", flush=True)
+
+
 def key_pressed():
     """Non-blocking key read (Windows); returns '' when no key was pressed."""
     try:
@@ -725,10 +754,29 @@ def run_job(ctx, kit, n, total, parked, rec=None):
         rec["notes"].append(f"open_form failed: {str(ex)[:100]}")
     print("   AUTO: filling + uploading" + (" and submitting" if AUTO else ". Check and click Submit") + ".  keys: f a s q")
     seen, last_fill, nxt, uploads, tries, steps = {}, 0.0, None, {}, 0, 0
+    announced = False
     ats = trust.detect(ctx.pages[-1].url or j["url"])
     if ats == "own" and site.name != "own":
         ats = site.name
     assisted = trust.mode(ats) == trust.ASSISTED and not DRY_RUN  # first job per ATS: fill, stop at Submit, she clicks
+    brain_tried = False
+
+    def use_brain(active):
+        """Fast path did not get there: the AI agent takes over on the current tab. Returns its result dict."""
+        nonlocal brain_tried
+        brain_tried = True
+        if not BRAIN:
+            return None
+        from helper import brain
+        print("   🧠 fast path stuck → the AI agent takes over")
+        try:
+            res = brain.apply_with_brain(active, kit, {"cv": cv, "cover": letter}, dry_run=DRY_RUN, no_submit=assisted,
+                                         cdp_url=CDP_URL)
+        except Exception as ex:
+            res = {"status": "failed", "reason": f"{type(ex).__name__}: {ex}"[:200], "steps": 0}
+        print(f"   🧠 brain: {res.get('status')} after {res.get('steps')} steps, {res.get('seconds')}s — {res.get('reason', '')[:120]}")
+        rec["brain"] = {k: res.get(k) for k in ("status", "reason", "steps", "seconds", "final_url", "models")}
+        return res
     if AUTO and assisted:
         print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")
     while nxt is None:
@@ -763,7 +811,23 @@ def run_job(ctx, kit, n, total, parked, rec=None):
             files_here = active.query_selector("input[type=file]") is not None
             why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
             rec["problems"] = why
-            if why:
+            if why and not DRY_RUN and not brain_tried and BRAIN and "CAPTCHA" not in " ".join(why):
+                res = use_brain(active)
+                if res and res["status"] == "submitted":
+                    log_applied(kit, ats, ctx.pages[-1], True, "auto")
+                    print("   ✅ the AI agent submitted it (thank-you page seen) → logged, next job")
+                    nxt = "next"
+                    continue
+                seen.pop(id(active), None)
+                tries = 0
+            elif why and WAIT_FOR_ME and not DRY_RUN:
+                if not announced:  # she is at the PC: never skip, ask once and keep watching the page
+                    announced = True
+                    beep()
+                    print("   🙋 please do this in the browser, I continue by myself afterwards: " + "; ".join(why[:4]))
+                    print("      (press  s  to skip this job)")
+                tries = 0  # keep checking; key handling (s/q) below still runs
+            elif why:
                 if tries >= 3:
                     parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
                     print("   ⏸ parked for you: " + ", ".join(why[:3]))
@@ -795,6 +859,20 @@ def run_job(ctx, kit, n, total, parked, rec=None):
                 print("   → next step")
                 active.wait_for_timeout(3500)
                 seen.pop(id(active), None)
+        if not AUTO and not DRY_RUN and last_fill and not announced and time.time() - last_fill > 4:
+            announced = True
+            files_here = active.query_selector("input[type=file]") is not None
+            why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
+            beep()
+            print("   🙋 " + ("still needed: " + "; ".join(why[:4]) + " — then " if why else "") +
+                  "check and click Submit; I log it and open the next job when the thank-you page shows.")
+        if AUTO and not DRY_RUN and not brain_tried and BRAIN and nxt is None and tries >= 4:
+            res = use_brain(active)  # no Submit, no Next, no known problem: stuck → the agent looks at the page
+            if res and res["status"] == "submitted":
+                log_applied(kit, ats, ctx.pages[-1], True, "auto")
+                print("   ✅ the AI agent submitted it (thank-you page seen) → logged, next job")
+                nxt = "next"
+                continue
         if DRY_RUN and nxt is None and tries >= 4:
             nxt = "next"  # nothing left to do on this page: no problem, no Submit, no Next
             rec["notes"].append("no submit/next button found")
@@ -824,6 +902,13 @@ def run_job(ctx, kit, n, total, parked, rec=None):
             rec["outcome"] = classify(rec, active)
     except Exception:
         pass
+    if DRY_RUN and BRAIN and rec.get("outcome") in BRAIN_AFTER and not brain_tried:
+        rec["fast_outcome"] = rec["outcome"]
+        res = use_brain(ctx.pages[-1])
+        if res:
+            rec["outcome"] = {"would_submit": "WOULD_SUBMIT", "captcha": "PARK_CAPTCHA", "closed": "CLOSED",
+                              "account_needed": "PARK_ACCOUNT"}.get(res["status"], rec["outcome"])
+            rec["final_url"] = res.get("final_url") or rec.get("final_url")
     if not DRY_RUN:
         for p in ctx.pages[:-1] if len(ctx.pages) > 1 else []:
             p.close()
@@ -908,7 +993,8 @@ def dry_one(args):
     from playwright.sync_api import sync_playwright
     try:
         with sync_playwright() as pw:
-            b = pw.chromium.launch(executable_path=os.environ.get("PW_CHROMIUM", "/opt/pw-browsers/chromium"), headless=True)
+            b = pw.chromium.launch(executable_path=os.environ.get("PW_CHROMIUM", "/opt/pw-browsers/chromium"), headless=True,
+                                  args=cdp_args() if BRAIN else [])
             ctx = b.new_context(viewport={"width": 1366, "height": 900}, locale="de-DE", accept_downloads=True)
             try:
                 run_job(ctx, kit, n, total, [], rec)
@@ -941,8 +1027,12 @@ def dry_main(only=None, workers=4, timeout=240):
     import multiprocessing as mp
     os.environ.setdefault("CANDIDATE_EMAIL", "test@example.com")
     os.environ.setdefault("CANDIDATE_PHONE", "+49 000 0000000")
-    for k in ("GEMINI_API_KEY", "GROQ_API_KEY"):
+    for k in ("GEMINI_API_KEY", "GEMINI_API_KEY2", "GROQ_API_KEY"):  # the fast path's ai_answer stays offline;
+        if os.environ.get(k):                                        # the brain still gets its keys
+            os.environ.setdefault("BRAIN_" + k.rstrip("2"), os.environ[k])
         os.environ.pop(k, None)
+    if BRAIN:
+        timeout += int(os.environ.get("BRAIN_MAX_SECONDS", "360")) + 60
     kits = queue()
     jobs = [(n, len(kits), k, timeout) for n, k in enumerate(kits, 1) if not only or n in only]
     DRY_OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -994,7 +1084,8 @@ def main():
     if not kits:
         return
     with sync_playwright() as pw:
-        kwargs = dict(user_data_dir=str(HERE / ".browser"), headless=False, viewport=None, accept_downloads=True)
+        kwargs = dict(user_data_dir=str(HERE / ".browser"), headless=False, viewport=None, accept_downloads=True,
+                      args=cdp_args() if BRAIN else [])
         try:  # her installed Chrome looks like a normal person to job sites
             ctx = pw.chromium.launch_persistent_context(channel="chrome", **kwargs)
         except Exception:

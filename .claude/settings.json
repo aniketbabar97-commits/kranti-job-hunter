@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m helper.claude_jobs:*)",
+      "mcp__playwright__*"
+    ]
+  }
+}
