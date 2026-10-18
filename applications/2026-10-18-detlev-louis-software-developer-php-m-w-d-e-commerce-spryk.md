@@ -1,13 +1,15 @@
-# Application kit — Software Developer PHP (m/w/d) – E-Commerce & Spryker
+# Application kit — Software Developer PHP (m/w/d) - E-Commerce & Spryker in Hamburg, Hamburg Zentrale
 
-**Detlev Louis** · Hamburg, Hamburg · score 78 · [open the job posting](https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-302721-S)
+**Detlev Louis** · Hamburg, Hamburg · score 78 · [open the job posting](https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2023692-S)
 
 > The tailored **CV and cover letter PDFs are attached to the digest email** (they contain your phone/photo, so they are not stored in this public repository). Read them once before sending.
 
+> ⚠️ **Check before sending:** the letter mentions Spryker, which is not in your CV. Make sure it is phrased as *willing to learn*, not as experience.
+
 ## ATS keyword match
 
-- ✅ Covered: E-Commerce, Integration, ERP, PIM, CI/CD, Unit, Docker, Kubernetes, Software-Architektur, Design Patterns, Scrum, Jira, Git
-- ⚠️ Missing (don't claim; mention willingness to learn): PHP 8, Symfony, Spryker, PhpStorm, EKS, RDS, SQS, RabbitMQ, ElastiCache
+- ✅ Covered: CI/CD, Docker, Kubernetes, Agile, Scrum, Design Patterns, RESTful APIs, Integration, Microservices, Java, Spring, SQL, Git, Jira
+- ⚠️ Missing (don't claim; mention willingness to learn): PHP, Symfony, Spryker, AJAX, EKS, RDS, SQS, RabbitMQ, ElastiCache, PhpStorm, GitLab, Clean Code
 
 ## Copy-paste answers for the application form
 
@@ -29,19 +31,19 @@
 **Why do you want to work for us?**
 
 ```
-Detlev Louis stands for innovation, quality, and a strong collaborative culture in the e-commerce space. I am eager to bring my 5+ years of enterprise e-commerce development and integration experience to your Scrum teams, contributing to robust architecture, seamless third-party integrations, and scalable online platforms.
+Detlev Louis is Europe’s leading motorcycle apparel and tech retailer, operating a fast-growing network of stores and online shops. Your commitment to innovation, continuous learning and a strong Duz-culture resonates with my passion for building high-quality e-commerce platforms. I want to help shape the Spryker-based shop, bring my integration and architecture experience, and grow within a company that values both technology and community.
 ```
 
 **Short motivation**
 
 ```
-Bringing 5+ years of enterprise e-commerce integration, API development, and agile delivery experience to scale Detlev Louis's digital platforms.
+I want to join Detlev Louis to apply my e-commerce integration expertise, drive innovative features on the Spryker platform, and grow in a collaborative, learning-focused environment.
 ```
 
 ## LinkedIn message to the recruiter / team lead
 
 ```
-Hello, I noticed your opening for the Software Developer E-Commerce role at Detlev Louis. With 5+ years of backend engineering and integration experience at Rockwell Automation and Shell, I would love to discuss how I can contribute to your Scrum teams. Best regards, Kranti Chavan
+Hi, I’m Kranti, a senior SAP Commerce Cloud developer with 5+ years of e-commerce integration experience. I’m eager to bring my expertise to Detlev Louis’ Spryker team. Could we discuss the Software Developer PHP role? Thanks!
 ```
 
 ## Files in the email
