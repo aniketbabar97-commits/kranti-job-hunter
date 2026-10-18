@@ -165,6 +165,11 @@ class Site:
                 page.wait_for_timeout(3000)
                 rep["form"] = self.open_form(page)
                 page = ctx.pages[-1]
+                try:
+                    page.wait_for_load_state("networkidle", timeout=10000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(1500)
                 uploads = set()
                 for step in range(4):
                     rep["steps"] = step + 1

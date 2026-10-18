@@ -1,133 +1,138 @@
 {
- "job": {
-  "title": "Professional Software Developer m/w/d Kotlin/Java",
-  "company": "flyeralarm GmbH",
-  "location": "Würzburg, BY, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=ba7513a2e371bbac",
-  "apply_url": "",
-  "score": 65,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://de.indeed.com/viewjob?jk=ba7513a2e371bbac",
-  "email_subject": "Application: Professional Software Developer Kotlin/Java",
-  "email_body": "Dear Hiring Team,\n\nYour high-volume online printing business needs robust JVM backends – I have built Java and Spring backends for large e-commerce platforms at Rockwell Automation and Shell for 5+ years.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Led database query refactoring that reduced response latency and improved transaction speed\n– Engineered API migrations for customer account structures, improving stability and data consistency\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan",
-  "channel": "indeed"
- },
- "tailoring": {
-  "headline": "Professional Software Developer | Java, Spring Boot, REST APIs & Microservices",
-  "summary": "Professional software developer with 5+ years of Java development on large enterprise e-commerce platforms for Rockwell Automation and Shell. Strong in Java (Core & J2EE), Spring and Spring Boot, microservices, RESTful APIs, SQL and query performance tuning. Builds automated tests with JUnit, works with Git, CI/CD pipelines, Docker and Kubernetes and supports production troubleshooting. Experienced with product, catalog, pricing and order logic in high-volume online commerce. Performs code reviews, uses AI-assisted development daily and works in agile, international teams.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "Git",
-    "CI/CD pipelines",
-    "Jenkins",
-    "Docker",
-    "Kubernetes",
-    "production support and troubleshooting"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "third-party integrations",
-    "file-based data pipelines"
-   ],
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering"
-   ],
-   "Ways of Working": [
-    "Code Reviews",
-    "Agile / Scrum",
-    "Technical Mentoring",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Professional Software Developer m/w/d Kotlin/Java",
+    "company": "flyeralarm GmbH",
+    "location": "Würzburg, BY, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=ba7513a2e371bbac",
+    "apply_url": "",
+    "score": 65,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://de.indeed.com/viewjob?jk=ba7513a2e371bbac",
+    "email_subject": "Application: Professional Software Developer Kotlin/Java",
+    "email_body": "Dear Hiring Team,\n\nYour high-volume online printing business needs robust JVM backends – I have built Java and Spring backends for large e-commerce platforms at Rockwell Automation and Shell for 5+ years.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Led database query refactoring that reduced response latency and improved transaction speed\n– Engineered API migrations for customer account structures, improving stability and data consistency\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://de.indeed.com/viewjob?jk=ba7513a2e371bbac",
+    "ats": "indeed",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    4,
-    5,
-    2,
-    3,
-    7,
-    6
-   ],
-   "shell": [
-    1,
-    5,
-    0,
-    4,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    1,
-    2,
-    3
-   ]
+  "tailoring": {
+    "headline": "Professional Software Developer | Java, Spring Boot, REST APIs & Microservices",
+    "summary": "Professional software developer with 5+ years of Java development on large enterprise e-commerce platforms for Rockwell Automation and Shell. Strong in Java (Core & J2EE), Spring and Spring Boot, microservices, RESTful APIs, SQL and query performance tuning. Builds automated tests with JUnit, works with Git, CI/CD pipelines, Docker and Kubernetes and supports production troubleshooting. Experienced with product, catalog, pricing and order logic in high-volume online commerce. Performs code reviews, uses AI-assisted development daily and works in agile, international teams.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "Git",
+        "CI/CD pipelines",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "production support and troubleshooting"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "third-party integrations",
+        "file-based data pipelines"
+      ],
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Order Management (OMS)",
+        "Product Catalog & PIM",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering"
+      ],
+      "Ways of Working": [
+        "Code Reviews",
+        "Agile / Scrum",
+        "Technical Mentoring",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3,
+        7,
+        6
+      ],
+      "shell": [
+        1,
+        5,
+        0,
+        4,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "why_company": "flyeralarm is one of Europe's leading online printers, with a self-built e-commerce and production platform handling huge order volumes. I want to apply five years of Java and Spring backend work on large e-commerce platforms for Rockwell Automation and Shell – APIs, performance tuning, testing – to software that drives such a large online business.",
+    "linkedin_message": "Hello, your Professional Software Developer Kotlin/Java role interests me: 5+ years Java/Spring backends for large e-commerce platforms at Rockwell Automation and Shell – REST APIs, SQL performance, JUnit, CI/CD. Start 16.12.2026. Open to a short call?"
   },
-  "why_company": "flyeralarm is one of Europe's leading online printers, with a self-built e-commerce and production platform handling huge order volumes. I want to apply five years of Java and Spring backend work on large e-commerce platforms for Rockwell Automation and Shell – APIs, performance tuning, testing – to software that drives such a large online business.",
-  "linkedin_message": "Hello, your Professional Software Developer Kotlin/Java role interests me: 5+ years Java/Spring backends for large e-commerce platforms at Rockwell Automation and Shell – REST APIs, SQL performance, JUnit, CI/CD. Start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Professional Software Developer Kotlin/Java",
-   "salutation": "Dear Hiring Team,",
-   "hook": "flyeralarm runs one of Europe's largest online printing businesses, where robust JVM backends carry high order volumes every day. For more than five years I have built exactly that kind of software: Java and Spring backends for large enterprise e-commerce platforms at Rockwell Automation and Shell.",
-   "bullets": [
-    {
-     "label": "Java & Spring backend development",
-     "text": "Designed and implemented backend functionality with Java and Spring for product, catalog, pricing and customer data, following design patterns and best practices."
-    },
-    {
-     "label": "APIs & services",
-     "text": "Built RESTful APIs and web services for headless and PWA frontends; consumed and exposed REST and SOAP services and engineered API migrations for customer account structures."
-    },
-    {
-     "label": "Performance & quality",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; built automated unit and integration tests with JUnit and performed code reviews."
-    },
-    {
-     "label": "Delivery",
-     "text": "Executed CI/CD deployment cycles and release builds within agile DevOps workflows and supported production troubleshooting."
+  "letters": {
+    "en": {
+      "subject": "Application: Professional Software Developer Kotlin/Java",
+      "salutation": "Dear Hiring Team,",
+      "hook": "flyeralarm runs one of Europe's largest online printing businesses, where robust JVM backends carry high order volumes every day. For more than five years I have built exactly that kind of software: Java and Spring backends for large enterprise e-commerce platforms at Rockwell Automation and Shell.",
+      "bullets": [
+        {
+          "label": "Java & Spring backend development",
+          "text": "Designed and implemented backend functionality with Java and Spring for product, catalog, pricing and customer data, following design patterns and best practices."
+        },
+        {
+          "label": "APIs & services",
+          "text": "Built RESTful APIs and web services for headless and PWA frontends; consumed and exposed REST and SOAP services and engineered API migrations for customer account structures."
+        },
+        {
+          "label": "Performance & quality",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed; built automated unit and integration tests with JUnit and performed code reviews."
+        },
+        {
+          "label": "Delivery",
+          "text": "Executed CI/CD deployment cycles and release builds within agile DevOps workflows and supported production troubleshooting."
+        }
+      ],
+      "gap": "",
+      "logistics": "My JVM foundation makes me productive in a Kotlin/Java codebase, and I use AI tools daily to move faster. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation with your team in Würzburg.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "My JVM foundation makes me productive in a Kotlin/Java codebase, and I use AI tools daily to move faster. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation with your team in Würzburg.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

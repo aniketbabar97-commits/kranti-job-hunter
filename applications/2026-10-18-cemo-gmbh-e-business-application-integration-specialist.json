@@ -1,131 +1,136 @@
 {
- "job": {
-  "title": "E-Business Application & Integration Specialist (m/w/d)",
-  "company": "CEMO GmbH",
-  "location": "Weinstadt, Baden-Wuerttemberg",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17043-0066858160-S",
-  "apply_url": "",
-  "score": 78,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.cemo.de",
-  "email_subject": "Bewerbung als E-Business Application & Integration Specialist",
-  "email_body": "Sehr geehrter Herr Reichenauer,\n\nFür Ihre Systemlandschaft aus Shop, CRM und PIM brauchen Sie jemanden, der Schnittstellen und Prozesse gleichermaßen beherrscht – das mache ich seit über fünf Jahren für Rockwell Automation und Shell.\n\n– PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams gelöst\n– Anforderungen mit Fachbereichen analysiert, User Stories und Fachkonzepte erstellt, UAT begleitet\n\nWeinstadt ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "E-Business Application & Integration Specialist | Shop, PIM, ERP & Schnittstellen",
-  "summary": "E-Business- und Integrationsspezialistin mit über 5 Jahren Erfahrung auf Online-Shop-Plattformen (SAP Commerce Cloud / Hybris 2105 und 2211) für Rockwell Automation und Shell. Plant, implementiert und optimiert Schnittstellen und Datenflüsse zwischen Shop, PIM, ERP und MDM, inklusive REST-/SOAP-Webservices, DataHub, Hotfolders und dateibasierten Datenpipelines. Analysiert Anforderungen mit Fachbereichen, erstellt Fachkonzepte und User Stories, führt Fehleranalysen durch und begleitet User Acceptance Tests bis zum Go-Live. SAP Certified Commerce Cloud Developer und Business User.",
-  "skills": {
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Business Analysis": [
-    "Business requirements analysis",
-    "Functional specifications",
-    "User stories & acceptance criteria",
-    "Process mapping",
-    "User acceptance testing (UAT)",
-    "Requirements engineering",
-    "Stakeholder management"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Product Catalog & PIM",
-    "Order Management (OMS)",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch"
-   ],
-   "DevOps & Cloud": [
-    "production support and troubleshooting",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)"
-   ],
-   "Backend": [
-    "RESTful APIs",
-    "SOAP",
-    "Java (Core & J2EE)",
-    "Groovy"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "AI-assisted analysis and documentation"
-   ]
+  "job": {
+    "title": "E-Business Application & Integration Specialist (m/w/d)",
+    "company": "CEMO GmbH",
+    "location": "Weinstadt, Baden-Wuerttemberg",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/17043-0066858160-S",
+    "apply_url": "",
+    "score": 78,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.cemo.de",
+    "email_subject": "Bewerbung als E-Business Application & Integration Specialist",
+    "email_body": "Sehr geehrter Herr Reichenauer,\n\nFür Ihre Systemlandschaft aus Shop, CRM und PIM brauchen Sie jemanden, der Schnittstellen und Prozesse gleichermaßen beherrscht – das mache ich seit über fünf Jahren für Rockwell Automation und Shell.\n\n– PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams gelöst\n– Anforderungen mit Fachbereichen analysiert, User Stories und Fachkonzepte erstellt, UAT begleitet\n\nWeinstadt ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "form_url": "https://www.cemo-group.com/",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    2,
-    3,
-    1,
-    4,
-    6,
-    0,
-    5,
-    7
-   ],
-   "shell": [
-    2,
-    1,
-    6,
-    5,
-    4,
-    0,
-    3
-   ],
-   "cognizant": [
-    2,
-    0,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "E-Business Application & Integration Specialist | Shop, PIM, ERP & Schnittstellen",
+    "summary": "E-Business- und Integrationsspezialistin mit über 5 Jahren Erfahrung auf Online-Shop-Plattformen (SAP Commerce Cloud / Hybris 2105 und 2211) für Rockwell Automation und Shell. Plant, implementiert und optimiert Schnittstellen und Datenflüsse zwischen Shop, PIM, ERP und MDM, inklusive REST-/SOAP-Webservices, DataHub, Hotfolders und dateibasierten Datenpipelines. Analysiert Anforderungen mit Fachbereichen, erstellt Fachkonzepte und User Stories, führt Fehleranalysen durch und begleitet User Acceptance Tests bis zum Go-Live. SAP Certified Commerce Cloud Developer und Business User.",
+    "skills": {
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Business Analysis": [
+        "Business requirements analysis",
+        "Functional specifications",
+        "User stories & acceptance criteria",
+        "Process mapping",
+        "User acceptance testing (UAT)",
+        "Requirements engineering",
+        "Stakeholder management"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Product Catalog & PIM",
+        "Order Management (OMS)",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch"
+      ],
+      "DevOps & Cloud": [
+        "production support and troubleshooting",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)"
+      ],
+      "Backend": [
+        "RESTful APIs",
+        "SOAP",
+        "Java (Core & J2EE)",
+        "Groovy"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "AI-assisted analysis and documentation"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        2,
+        3,
+        1,
+        4,
+        6,
+        0,
+        5,
+        7
+      ],
+      "shell": [
+        2,
+        1,
+        6,
+        5,
+        4,
+        0,
+        3
+      ],
+      "cognizant": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "why_company": "CEMO verbindet schwäbischen Erfindergeist mit einer wachsenden digitalen Systemlandschaft aus Online-Shop, CRM, PIM und EDI. Genau dort liegt meine Stärke: über fünf Jahre Shop-Integrationen mit PIM, ERP und MDM, Fachkonzepte und Fehleranalyse. In einem mittelständischen Unternehmen mit kurzen Wegen kann ich diese Erfahrung direkt wirksam machen.",
+    "linkedin_message": "Guten Tag Herr Reichenauer, Ihre Stelle E-Business Application & Integration Specialist passt sehr gut: 5+ Jahre Shop-Integrationen (SAP Commerce, PIM, ERP, MDM) bei Rockwell Automation und Shell, Fachkonzepte, UAT. Karlsruhe, Start ab 16.12.2026. Gern kurz sprechen?"
   },
-  "why_company": "CEMO verbindet schwäbischen Erfindergeist mit einer wachsenden digitalen Systemlandschaft aus Online-Shop, CRM, PIM und EDI. Genau dort liegt meine Stärke: über fünf Jahre Shop-Integrationen mit PIM, ERP und MDM, Fachkonzepte und Fehleranalyse. In einem mittelständischen Unternehmen mit kurzen Wegen kann ich diese Erfahrung direkt wirksam machen.",
-  "linkedin_message": "Guten Tag Herr Reichenauer, Ihre Stelle E-Business Application & Integration Specialist passt sehr gut: 5+ Jahre Shop-Integrationen (SAP Commerce, PIM, ERP, MDM) bei Rockwell Automation und Shell, Fachkonzepte, UAT. Karlsruhe, Start ab 16.12.2026. Gern kurz sprechen?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als E-Business Application & Integration Specialist",
-   "salutation": "Sehr geehrter Herr Reichenauer,",
-   "hook": "Sie suchen jemanden, der Ihre digitale Systemlandschaft aus Online-Shop, CRM und PIM betreut, Schnittstellen optimiert und Anforderungen aus Vertrieb und E-Business von der Konzeption bis zum Go-Live begleitet. Genau das ist mein Schwerpunkt: Seit über fünf Jahren verbinde ich bei Rockwell Automation und Shell Online-Shops auf SAP Commerce Cloud mit PIM-, ERP- und MDM-Systemen.",
-   "bullets": [
-    {
-     "label": "Schnittstellen planen, implementieren und optimieren",
-     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams analysiert und behoben."
-    },
-    {
-     "label": "Datenflüsse & Datenqualität",
-     "text": "Datenimporte über Hotfolders, Impex und DataHub umgesetzt, Produktkataloge über globale Kanäle synchronisiert und API-Migrationen für Kundenkontostrukturen für mehr Datenkonsistenz umgesetzt."
-    },
-    {
-     "label": "Fachkonzepte, Spezifikationen & User Stories",
-     "text": "In techno-funktionaler Rolle Anforderungen mit Fachbereichen analysiert, User Stories und Fachkonzepte erstellt und in SAP-Commerce-Lösungen umgesetzt; bei Shell Prozesse modelliert und User Acceptance Tests begleitet."
-    },
-    {
-     "label": "Fehleranalyse & Störungsbehebung",
-     "text": "Produktionsvorfälle in Anwendungen und Schnittstellen analysiert und behoben, die Refaktorierung von Datenbankabfragen für kürzere Antwortzeiten geleitet und REST- und SOAP-Webservices integriert."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als E-Business Application & Integration Specialist",
+      "salutation": "Sehr geehrter Herr Reichenauer,",
+      "hook": "Sie suchen jemanden, der Ihre digitale Systemlandschaft aus Online-Shop, CRM und PIM betreut, Schnittstellen optimiert und Anforderungen aus Vertrieb und E-Business von der Konzeption bis zum Go-Live begleitet. Genau das ist mein Schwerpunkt: Seit über fünf Jahren verbinde ich bei Rockwell Automation und Shell Online-Shops auf SAP Commerce Cloud mit PIM-, ERP- und MDM-Systemen.",
+      "bullets": [
+        {
+          "label": "Schnittstellen planen, implementieren und optimieren",
+          "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams analysiert und behoben."
+        },
+        {
+          "label": "Datenflüsse & Datenqualität",
+          "text": "Datenimporte über Hotfolders, Impex und DataHub umgesetzt, Produktkataloge über globale Kanäle synchronisiert und API-Migrationen für Kundenkontostrukturen für mehr Datenkonsistenz umgesetzt."
+        },
+        {
+          "label": "Fachkonzepte, Spezifikationen & User Stories",
+          "text": "In techno-funktionaler Rolle Anforderungen mit Fachbereichen analysiert, User Stories und Fachkonzepte erstellt und in SAP-Commerce-Lösungen umgesetzt; bei Shell Prozesse modelliert und User Acceptance Tests begleitet."
+        },
+        {
+          "label": "Fehleranalyse & Störungsbehebung",
+          "text": "Produktionsvorfälle in Anwendungen und Schnittstellen analysiert und behoben, die Refaktorierung von Datenbankabfragen für kürzere Antwortzeiten geleitet und REST- und SOAP-Webservices integriert."
+        }
+      ],
+      "gap": "",
+      "logistics": "Die enge Zusammenarbeit mit Fachbereichen und externen Dienstleistern ist für mich Alltag. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Weinstadt ist von Karlsruhe gut erreichbar. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihre E-Business-Landschaft voranbringe.",
+      "closing": "",
+      "contact": "z. Hd. Herrn Reichenauer, Leitung Organisation"
     }
-   ],
-   "gap": "",
-   "logistics": "Die enge Zusammenarbeit mit Fachbereichen und externen Dienstleistern ist für mich Alltag. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Weinstadt ist von Karlsruhe gut erreichbar. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihre E-Business-Landschaft voranbringe.",
-   "closing": "",
-   "contact": "z. Hd. Herrn Reichenauer, Leitung Organisation"
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

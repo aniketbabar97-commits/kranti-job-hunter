@@ -1,141 +1,146 @@
 {
- "job": {
-  "title": "Systembetreuer/Programmierer: Shopware-6 und myfactory (m/w/d)",
-  "company": "FAHMODA GmbH Akademie für Mode & Design",
-  "location": "Hannover, Niedersachsen",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S",
-  "apply_url": "",
-  "score": 65,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "info@fahmoda.de",
-  "direct_url": "https://www.fahmoda.de/",
-  "email_subject": "Bewerbung als Systembetreuerin/Programmiererin Webshop",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen jemanden, der Ihren Webshop betreut, weiterentwickelt und an die Warenwirtschaft anbindet – das mache ich seit über fünf Jahren für große Webshops. Was ich konkret mitbringe:\n\n– Shop-Betrieb, Fehleranalyse und Backoffice-Verwaltung\n– Produktkatalog, Promotions und Bestellprozesse\n– Schnittstellen zu ERP und PIM über Datenpipelines\n\nDamit kann ich vom ersten Tag an Verantwortung in Ihrem Team übernehmen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 bei Ihnen starten. Lebenslauf und Anschreiben finden Sie im Anhang; gern erläutere ich Ihnen meine Projekte im Detail. Haben Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan",
-  "channel": "arbeitsagentur"
- },
- "tailoring": {
-  "headline": "Systembetreuerin & Entwicklerin Webshop | E-Commerce-Plattformen & Schnittstellen",
-  "summary": "E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Aufbau, Betreuung und Weiterentwicklung großer Webshops (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Betreut Shops im laufenden Betrieb: Produktkatalog und PIM, Promotions, Bestellprozesse, Backoffice, Fehleranalyse und Performance-Tuning. Verbindet Shop und Warenwirtschaft über Schnittstellen und dateibasierte Datenpipelines (ERP, PIM). Programmiert in Java und JavaScript, passt Storefronts an und arbeitet kundenorientiert mit Fachbereichen. Abgeschlossenes Informatik-Studium (B.E.). Zertifiziert als SAP Commerce Cloud Developer, eingespielt in internationalen, agilen Teams.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "Spring Framework",
-    "RESTful APIs",
-    "SOAP",
-    "Microservices",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit"
-   ],
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM",
-    "Promotions Engine"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "third-party integrations",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines",
-    "OCC APIs"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "storefront customization",
-    "Responsive Design"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "Git",
-    "CI/CD pipelines",
-    "Docker",
-    "Kubernetes",
-    "Jenkins",
-    "production support and troubleshooting"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Code Reviews",
-    "Jira",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Systembetreuer/Programmierer: Shopware-6 und myfactory (m/w/d)",
+    "company": "FAHMODA GmbH Akademie für Mode & Design",
+    "location": "Hannover, Niedersachsen",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S",
+    "apply_url": "",
+    "score": 65,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "info@fahmoda.de",
+    "direct_url": "https://www.fahmoda.de/",
+    "email_subject": "Bewerbung als Systembetreuerin/Programmiererin Webshop",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen jemanden, der Ihren Webshop betreut, weiterentwickelt und an die Warenwirtschaft anbindet – das mache ich seit über fünf Jahren für große Webshops. Was ich konkret mitbringe:\n\n– Shop-Betrieb, Fehleranalyse und Backoffice-Verwaltung\n– Produktkatalog, Promotions und Bestellprozesse\n– Schnittstellen zu ERP und PIM über Datenpipelines\n\nDamit kann ich vom ersten Tag an Verantwortung in Ihrem Team übernehmen. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 bei Ihnen starten. Lebenslauf und Anschreiben finden Sie im Anhang; gern erläutere ich Ihnen meine Projekte im Detail. Haben Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.fahmoda.de/",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    4,
-    7,
-    5,
-    3,
-    6
-   ],
-   "shell": [
-    1,
-    2,
-    5,
-    0,
-    4,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    1,
-    3
-   ]
+  "tailoring": {
+    "headline": "Systembetreuerin & Entwicklerin Webshop | E-Commerce-Plattformen & Schnittstellen",
+    "summary": "E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Aufbau, Betreuung und Weiterentwicklung großer Webshops (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Betreut Shops im laufenden Betrieb: Produktkatalog und PIM, Promotions, Bestellprozesse, Backoffice, Fehleranalyse und Performance-Tuning. Verbindet Shop und Warenwirtschaft über Schnittstellen und dateibasierte Datenpipelines (ERP, PIM). Programmiert in Java und JavaScript, passt Storefronts an und arbeitet kundenorientiert mit Fachbereichen. Abgeschlossenes Informatik-Studium (B.E.). Zertifiziert als SAP Commerce Cloud Developer, eingespielt in internationalen, agilen Teams.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Boot",
+        "Spring Framework",
+        "RESTful APIs",
+        "SOAP",
+        "Microservices",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit"
+      ],
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Product Catalog & PIM",
+        "Promotions Engine"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "third-party integrations",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "file-based data pipelines",
+        "OCC APIs"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "storefront customization",
+        "Responsive Design"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "Git",
+        "CI/CD pipelines",
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "production support and troubleshooting"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Code Reviews",
+        "Jira",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        5,
+        3,
+        6
+      ],
+      "shell": [
+        1,
+        2,
+        5,
+        0,
+        4,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "why_company": "FAHMODA verbindet eigenes Stoffdesign aus Hannover mit einem Webshop für Hobbynäher – ein Shop, der direkt Endkunden begeistern soll. Mich reizt, meine Erfahrung aus großen Plattformen in einen Shop einzubringen, bei dem ich Betrieb, Weiterentwicklung und Warenwirtschaft aus einer Hand verantworte. Meine Verbindung aus technischer Tiefe und enger Zusammenarbeit mit Fachbereichen möchte ich genau hier einbringen.",
+    "linkedin_message": "Guten Tag, Ihre Stelle Systembetreuer/Programmierer Webshop spricht mich an: 5+ Jahre Entwicklung und Betreuung großer Webshops inkl. ERP-/PIM-Schnittstellen. Karlsruhe, Start 16.12.2026. Gern kurz sprechen?"
   },
-  "why_company": "FAHMODA verbindet eigenes Stoffdesign aus Hannover mit einem Webshop für Hobbynäher – ein Shop, der direkt Endkunden begeistern soll. Mich reizt, meine Erfahrung aus großen Plattformen in einen Shop einzubringen, bei dem ich Betrieb, Weiterentwicklung und Warenwirtschaft aus einer Hand verantworte. Meine Verbindung aus technischer Tiefe und enger Zusammenarbeit mit Fachbereichen möchte ich genau hier einbringen.",
-  "linkedin_message": "Guten Tag, Ihre Stelle Systembetreuer/Programmierer Webshop spricht mich an: 5+ Jahre Entwicklung und Betreuung großer Webshops inkl. ERP-/PIM-Schnittstellen. Karlsruhe, Start 16.12.2026. Gern kurz sprechen?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Systembetreuerin/Programmiererin Shopware 6 und myfactory",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Sie suchen jemanden, der Ihren Webshop sicher betreut, weiterentwickelt und mit Ihrer Warenwirtschaft verbindet. Genau das ist seit über fünf Jahren meine Arbeit: Bei Rockwell Automation und Shell entwickle und betreue ich große Webshops – vom Produktkatalog bis zum Bestellprozess, inklusive Schnittstellen zu ERP- und PIM-Systemen.",
-   "bullets": [
-    {
-     "label": "Betreuung eines bestehenden Webshops",
-     "text": "Shops im Produktivbetrieb unterstützt, Fehler analysiert und behoben, Backoffice-Komponenten angepasst und die Plattform über die Admin-Konsole verwaltet."
-    },
-    {
-     "label": "Technisches Wissen in E-Commerce-Plattformen",
-     "text": "Funktionen für Produkt-, Katalog- und Preisdaten umgesetzt sowie Promotions Engine, Order Management und Impex-Skripte entwickelt."
-    },
-    {
-     "label": "Anbindung der Warenwirtschaft",
-     "text": "PIM-zu-Shop-Datenpipelines mit Hotfolders und DataHub aufgebaut und Integrationsengpässe mit SAP ERP gelöst."
-    },
-    {
-     "label": "Kundenorientierung",
-     "text": "Anforderungen mit Fachbereichen aufgenommen, Prozesse modelliert und Tests begleitet – immer mit Blick auf das Einkaufserlebnis der Endkunden."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Systembetreuerin/Programmiererin Shopware 6 und myfactory",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Sie suchen jemanden, der Ihren Webshop sicher betreut, weiterentwickelt und mit Ihrer Warenwirtschaft verbindet. Genau das ist seit über fünf Jahren meine Arbeit: Bei Rockwell Automation und Shell entwickle und betreue ich große Webshops – vom Produktkatalog bis zum Bestellprozess, inklusive Schnittstellen zu ERP- und PIM-Systemen.",
+      "bullets": [
+        {
+          "label": "Betreuung eines bestehenden Webshops",
+          "text": "Shops im Produktivbetrieb unterstützt, Fehler analysiert und behoben, Backoffice-Komponenten angepasst und die Plattform über die Admin-Konsole verwaltet."
+        },
+        {
+          "label": "Technisches Wissen in E-Commerce-Plattformen",
+          "text": "Funktionen für Produkt-, Katalog- und Preisdaten umgesetzt sowie Promotions Engine, Order Management und Impex-Skripte entwickelt."
+        },
+        {
+          "label": "Anbindung der Warenwirtschaft",
+          "text": "PIM-zu-Shop-Datenpipelines mit Hotfolders und DataHub aufgebaut und Integrationsengpässe mit SAP ERP gelöst."
+        },
+        {
+          "label": "Kundenorientierung",
+          "text": "Anforderungen mit Fachbereichen aufgenommen, Prozesse modelliert und Tests begleitet – immer mit Blick auf das Einkaufserlebnis der Endkunden."
+        }
+      ],
+      "gap": "",
+      "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihren Stoff-Webshop technisch stabil und erfolgreich mache.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Ihren Stoff-Webshop technisch stabil und erfolgreich mache.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

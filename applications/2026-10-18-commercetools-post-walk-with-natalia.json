@@ -1,183 +1,188 @@
 {
- "job": {
-  "title": "[Post] Walk with Natalia!",
-  "company": "commercetools",
-  "location": "",
-  "url": "https://www.linkedin.com/posts/commercetools_walk-with-natalia-activity-7513644568916127744-HgEh",
-  "apply_url": "",
-  "score": 82,
-  "lang": "en",
-  "source": "LinkedIn post",
-  "posted": "2026-10-10",
-  "contact": "",
-  "salary": "",
-  "channel": "maybe_closed"
- },
- "tailoring": {
-  "headline": "SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs | SAP Certified",
-  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations. SAP Certified Commerce Cloud Developer holding a valid German residence and work permit, currently based in Karlsruhe.",
-  "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Headless Commerce",
-    "B2B / B2C Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "Microservices",
-    "RESTful APIs",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee",
-    "SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ]
+  "job": {
+    "title": "[Post] Walk with Natalia!",
+    "company": "commercetools",
+    "location": "",
+    "url": "https://www.linkedin.com/posts/commercetools_walk-with-natalia-activity-7513644568916127744-HgEh",
+    "apply_url": "",
+    "score": 82,
+    "lang": "en",
+    "source": "LinkedIn post",
+    "posted": "2026-10-10",
+    "contact": "",
+    "salary": "",
+    "channel": "maybe_closed",
+    "form_url": "https://www.linkedin.com/posts/commercetools_walk-with-natalia-activity-7513644568916127744-HgEh",
+    "ats": "linkedin",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5
-   ],
-   "shell": [
-    1,
-    0,
-    2,
-    3,
-    4,
-    5
-   ],
-   "cognizant": [
-    0,
-    2,
-    1,
-    3
-   ]
+  "tailoring": {
+    "headline": "SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs | SAP Certified",
+    "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms like SAP Commerce Cloud for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations. SAP Certified Commerce Cloud Developer holding a valid German residence and work permit, currently based in Karlsruhe.",
+    "skills": {
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "Headless Commerce",
+        "B2B / B2C Commerce",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "Product Catalog & PIM",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "Microservices",
+        "RESTful APIs",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee",
+        "SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shell": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cognizant": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "keywords_matched": [
+      "Java",
+      "Spring",
+      "REST APIs",
+      "Microservices",
+      "E-Commerce",
+      "Agile"
+    ],
+    "keywords_missing": [
+      "commercetools specific APIs",
+      "headless cloud-native microservices architecture"
+    ],
+    "cover_en": {
+      "subject": "Application: [Post] Walk with Natalia!",
+      "salutation": "Dear Hiring Team,",
+      "hook": "I am writing to express my strong interest in joining commercetools. With over 5 years of professional experience building and extending large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and RESTful APIs.",
+      "bullets": [
+        {
+          "label": "Backend & API Development",
+          "text": "Designed and implemented backend functionality on SAP Commerce Cloud using Java and Spring, developing and exposing OCC REST Web Services and headless APIs."
+        },
+        {
+          "label": "E-Commerce Architecture",
+          "text": "Maintained core e-commerce modules including Promotions Engine, Product Catalog, and Order Management (OMS) for high-traffic enterprise platforms."
+        },
+        {
+          "label": "Integrations & Data Pipelines",
+          "text": "Designed, built, and optimized data pipelines using Hotfolders, DataHub, and custom integrations to synchronize product catalogs across global channels."
+        },
+        {
+          "label": "Performance & Quality",
+          "text": "Led database query refactoring that reduced response latency, performed code reviews, and supported production troubleshooting within agile teams."
+        }
+      ],
+      "gap": "While my background is centered on SAP Commerce Cloud rather than native commercetools infrastructure, I am very keen to learn new headless e-commerce architectures and platform tools quickly.",
+      "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss my application with you.",
+      "closing": ""
+    },
+    "cover_de": {},
+    "why_company": "I am eager to join commercetools to apply my 5+ years of enterprise e-commerce backend experience in Java, Spring, and API integrations to your innovative digital commerce solutions, while growing my expertise in modern cloud-native architectures.",
+    "motivation_short": "Looking to leverage 5+ years of e-commerce backend and API development experience in a dynamic team at commercetools.",
+    "linkedin_message": "Hello, I am a backend developer with 5+ years of enterprise e-commerce experience in Java, Spring, and REST APIs at Rockwell Automation and Shell. I am very interested in commercetools and available from Dec 16, 2026. Let's connect!",
+    "email_subject": "Application for [Post] Walk with Natalia! – Kranti Chavan",
+    "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the [Post] Walk with Natalia! position. With over 5 years of backend e-commerce experience in Java, Spring, and REST APIs at Rockwell Automation and Shell, I am eager to contribute to your team.\n\nI hold a valid German work permit, am based in Karlsruhe, and can start on 16 December 2026 following my notice period.\n\nBest regards,\nKranti Chavan"
   },
-  "keywords_matched": [
-   "Java",
-   "Spring",
-   "REST APIs",
-   "Microservices",
-   "E-Commerce",
-   "Agile"
-  ],
-  "keywords_missing": [
-   "commercetools specific APIs",
-   "headless cloud-native microservices architecture"
-  ],
-  "cover_en": {
-   "subject": "Application: [Post] Walk with Natalia!",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in joining commercetools. With over 5 years of professional experience building and extending large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and RESTful APIs.",
-   "bullets": [
-    {
-     "label": "Backend & API Development",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud using Java and Spring, developing and exposing OCC REST Web Services and headless APIs."
-    },
-    {
-     "label": "E-Commerce Architecture",
-     "text": "Maintained core e-commerce modules including Promotions Engine, Product Catalog, and Order Management (OMS) for high-traffic enterprise platforms."
-    },
-    {
-     "label": "Integrations & Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Hotfolders, DataHub, and custom integrations to synchronize product catalogs across global channels."
-    },
-    {
-     "label": "Performance & Quality",
-     "text": "Led database query refactoring that reduced response latency, performed code reviews, and supported production troubleshooting within agile teams."
+  "letters": {
+    "en": {
+      "subject": "Application: [Post] Walk with Natalia!",
+      "salutation": "Dear Hiring Team,",
+      "hook": "I am writing to express my strong interest in joining commercetools. With over 5 years of professional experience building and extending large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and RESTful APIs.",
+      "bullets": [
+        {
+          "label": "Backend & API Development",
+          "text": "Designed and implemented backend functionality on SAP Commerce Cloud using Java and Spring, developing and exposing OCC REST Web Services and headless APIs."
+        },
+        {
+          "label": "E-Commerce Architecture",
+          "text": "Maintained core e-commerce modules including Promotions Engine, Product Catalog, and Order Management (OMS) for high-traffic enterprise platforms."
+        },
+        {
+          "label": "Integrations & Data Pipelines",
+          "text": "Designed, built, and optimized data pipelines using Hotfolders, DataHub, and custom integrations to synchronize product catalogs across global channels."
+        },
+        {
+          "label": "Performance & Quality",
+          "text": "Led database query refactoring that reduced response latency, performed code reviews, and supported production troubleshooting within agile teams."
+        }
+      ],
+      "gap": "While my background is centered on SAP Commerce Cloud rather than native commercetools infrastructure, I am very keen to learn new headless e-commerce architectures and platform tools quickly.",
+      "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss my application with you.",
+      "closing": ""
     }
-   ],
-   "gap": "While my background is centered on SAP Commerce Cloud rather than native commercetools infrastructure, I am very keen to learn new headless e-commerce architectures and platform tools quickly.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss my application with you.",
-   "closing": ""
   },
-  "cover_de": {},
-  "why_company": "I am eager to join commercetools to apply my 5+ years of enterprise e-commerce backend experience in Java, Spring, and API integrations to your innovative digital commerce solutions, while growing my expertise in modern cloud-native architectures.",
-  "motivation_short": "Looking to leverage 5+ years of e-commerce backend and API development experience in a dynamic team at commercetools.",
-  "linkedin_message": "Hello, I am a backend developer with 5+ years of enterprise e-commerce experience in Java, Spring, and REST APIs at Rockwell Automation and Shell. I am very interested in commercetools and available from Dec 16, 2026. Let's connect!",
-  "email_subject": "Application for [Post] Walk with Natalia! – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the [Post] Walk with Natalia! position. With over 5 years of backend e-commerce experience in Java, Spring, and REST APIs at Rockwell Automation and Shell, I am eager to contribute to your team.\n\nI hold a valid German work permit, am based in Karlsruhe, and can start on 16 December 2026 following my notice period.\n\nBest regards,\nKranti Chavan"
- },
- "letters": {
-  "en": {
-   "subject": "Application: [Post] Walk with Natalia!",
-   "salutation": "Dear Hiring Team,",
-   "hook": "I am writing to express my strong interest in joining commercetools. With over 5 years of professional experience building and extending large enterprise e-commerce platforms at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and RESTful APIs.",
-   "bullets": [
-    {
-     "label": "Backend & API Development",
-     "text": "Designed and implemented backend functionality on SAP Commerce Cloud using Java and Spring, developing and exposing OCC REST Web Services and headless APIs."
-    },
-    {
-     "label": "E-Commerce Architecture",
-     "text": "Maintained core e-commerce modules including Promotions Engine, Product Catalog, and Order Management (OMS) for high-traffic enterprise platforms."
-    },
-    {
-     "label": "Integrations & Data Pipelines",
-     "text": "Designed, built, and optimized data pipelines using Hotfolders, DataHub, and custom integrations to synchronize product catalogs across global channels."
-    },
-    {
-     "label": "Performance & Quality",
-     "text": "Led database query refactoring that reduced response latency, performed code reviews, and supported production troubleshooting within agile teams."
-    }
-   ],
-   "gap": "While my background is centered on SAP Commerce Cloud rather than native commercetools infrastructure, I am very keen to learn new headless e-commerce architectures and platform tools quickly.",
-   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15 December 2026, making me available to start from 16 December 2026. I would welcome the opportunity to discuss my application with you.",
-   "closing": ""
-  }
- },
- "created": "2026-10-18"
+  "created": "2026-10-18"
 }

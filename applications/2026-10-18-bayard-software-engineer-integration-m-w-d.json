@@ -1,135 +1,140 @@
 {
- "job": {
-  "title": "Software Engineer - Integration (m/w/d)",
-  "company": "Bayard",
-  "location": "Köln, NW, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=55dfa4d949c17778",
-  "apply_url": "",
-  "score": 78,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "info@bayard-consulting.com",
-  "direct_url": "https://www.bayard-consulting.com/karriere",
-  "email_subject": "Application: Software Engineer – Integration (Java, REST/SOAP, ERP/PIM/MDM)",
-  "email_body": "Dear Hiring Team,\n\nYou need an engineer who makes systems talk reliably – I have built and optimized integrations between PIM, ERP, MDM and commerce platforms for 5+ years at Rockwell Automation and Shell.\n\n– Data pipelines with Profisee, Hotfolders and DataHub synchronizing global product catalogs\n– REST and SOAP web services in Java/Spring for storefronts and third-party consumers\n– Integration bottlenecks resolved with international teams; API migrations for stability\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191",
-  "channel": "indeed"
- },
- "tailoring": {
-  "headline": "Software Engineer – Integration | Java, Spring & REST/SOAP APIs | ERP · PIM · MDM",
-  "summary": "Integration-focused software engineer with 5+ years connecting enterprise systems for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful and SOAP web services, microservices and SQL; designed, built and optimized data pipelines between PIM, ERP and MDM platforms (Profisee, SAP ERP) and SAP Commerce Cloud using Hotfolders and DataHub. Resolves integration bottlenecks with international teams, engineers API migrations, executes CI/CD deployment cycles and supports production. Uses AI tools extensively in analysis and development.",
-  "skills": {
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "Git",
-    "CI/CD pipelines",
-    "Docker",
-    "Kubernetes",
-    "production support and troubleshooting"
-   ],
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Code Reviews",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Software Engineer - Integration (m/w/d)",
+    "company": "Bayard",
+    "location": "Köln, NW, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=55dfa4d949c17778",
+    "apply_url": "",
+    "score": 78,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "info@bayard-consulting.com",
+    "direct_url": "https://www.bayard-consulting.com/karriere",
+    "email_subject": "Application: Software Engineer – Integration (Java, REST/SOAP, ERP/PIM/MDM)",
+    "email_body": "Dear Hiring Team,\n\nYou need an engineer who makes systems talk reliably – I have built and optimized integrations between PIM, ERP, MDM and commerce platforms for 5+ years at Rockwell Automation and Shell.\n\n– Data pipelines with Profisee, Hotfolders and DataHub synchronizing global product catalogs\n– REST and SOAP web services in Java/Spring for storefronts and third-party consumers\n– Integration bottlenecks resolved with international teams; API migrations for stability\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191",
+    "channel": "indeed",
+    "form_url": "https://www.bayard-consulting.com/karriere",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    2,
-    3,
-    1,
-    4,
-    0,
-    5,
-    7,
-    6
-   ],
-   "shell": [
-    2,
-    1,
-    5,
-    4,
-    0,
-    3,
-    6
-   ],
-   "cognizant": [
-    2,
-    1,
-    0,
-    3
-   ]
+  "tailoring": {
+    "headline": "Software Engineer – Integration | Java, Spring & REST/SOAP APIs | ERP · PIM · MDM",
+    "summary": "Integration-focused software engineer with 5+ years connecting enterprise systems for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful and SOAP web services, microservices and SQL; designed, built and optimized data pipelines between PIM, ERP and MDM platforms (Profisee, SAP ERP) and SAP Commerce Cloud using Hotfolders and DataHub. Resolves integration bottlenecks with international teams, engineers API migrations, executes CI/CD deployment cycles and supports production. Uses AI tools extensively in analysis and development.",
+    "skills": {
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "Git",
+        "CI/CD pipelines",
+        "Docker",
+        "Kubernetes",
+        "production support and troubleshooting"
+      ],
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Code Reviews",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        2,
+        3,
+        1,
+        4,
+        0,
+        5,
+        7,
+        6
+      ],
+      "shell": [
+        2,
+        1,
+        5,
+        4,
+        0,
+        3,
+        6
+      ],
+      "cognizant": [
+        2,
+        1,
+        0,
+        3
+      ]
+    },
+    "why_company": "Bayard focuses on integration and software engineering for its clients – exactly where I have built my strongest work: data pipelines and APIs between PIM, ERP, MDM and commerce systems. A consulting setting with direct client contact and a broad range of integration challenges is the right next step for me.",
+    "linkedin_message": "Hello! I applied for Software Engineer – Integration: 5+ years building integrations between PIM, ERP, MDM and commerce platforms with Java, Spring and REST/SOAP at Rockwell Automation and Shell. Karlsruhe, start 16.12.2026. Open to a short call?"
   },
-  "why_company": "Bayard focuses on integration and software engineering for its clients – exactly where I have built my strongest work: data pipelines and APIs between PIM, ERP, MDM and commerce systems. A consulting setting with direct client contact and a broad range of integration challenges is the right next step for me.",
-  "linkedin_message": "Hello! I applied for Software Engineer – Integration: 5+ years building integrations between PIM, ERP, MDM and commerce platforms with Java, Spring and REST/SOAP at Rockwell Automation and Shell. Karlsruhe, start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Software Engineer - Integration",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Integration work succeeds when data flows reliably between systems that were never designed to talk to each other. That is the core of my last five years: at Rockwell Automation and Shell I have built and optimized integrations between PIM, ERP, MDM and enterprise commerce platforms with Java, Spring and REST/SOAP APIs – and resolved the bottlenecks when they did not flow.",
-   "bullets": [
-    {
-     "label": "System integration",
-     "text": "Designed, built and optimized PIM-to-commerce data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global channels."
-    },
-    {
-     "label": "APIs & web services",
-     "text": "Developed and exposed REST web services for storefronts and third-party consumers; consumed and exposed REST and SOAP services and integrated external services via the cloud portal."
-    },
-    {
-     "label": "Troubleshooting integrations",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams; supported production issues."
-    },
-    {
-     "label": "Stability & data consistency",
-     "text": "Engineered API migrations for customer account structures that improved system stability and data consistency; led database query refactoring that reduced response latency."
+  "letters": {
+    "en": {
+      "subject": "Application: Software Engineer - Integration",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Integration work succeeds when data flows reliably between systems that were never designed to talk to each other. That is the core of my last five years: at Rockwell Automation and Shell I have built and optimized integrations between PIM, ERP, MDM and enterprise commerce platforms with Java, Spring and REST/SOAP APIs – and resolved the bottlenecks when they did not flow.",
+      "bullets": [
+        {
+          "label": "System integration",
+          "text": "Designed, built and optimized PIM-to-commerce data pipelines using Profisee, Hotfolders and DataHub to keep product catalogs synchronized across global channels."
+        },
+        {
+          "label": "APIs & web services",
+          "text": "Developed and exposed REST web services for storefronts and third-party consumers; consumed and exposed REST and SOAP services and integrated external services via the cloud portal."
+        },
+        {
+          "label": "Troubleshooting integrations",
+          "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams; supported production issues."
+        },
+        {
+          "label": "Stability & data consistency",
+          "text": "Engineered API migrations for customer account structures that improved system stability and data consistency; led database query refactoring that reduced response latency."
+        }
+      ],
+      "gap": "",
+      "logistics": "I enjoy working directly with consultants and client teams to understand the business process behind each interface. I live in Karlsruhe, hold a valid German work permit, am open to Cologne or remote/hybrid setups and can start on 16 December 2026 after my notice period. I would welcome a conversation about the integration projects Bayard is delivering.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I enjoy working directly with consultants and client teams to understand the business process behind each interface. I live in Karlsruhe, hold a valid German work permit, am open to Cologne or remote/hybrid setups and can start on 16 December 2026 after my notice period. I would welcome a conversation about the integration projects Bayard is delivering.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

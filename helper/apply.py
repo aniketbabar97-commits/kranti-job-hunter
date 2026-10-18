@@ -433,6 +433,9 @@ BLOCKER = re.compile(r"i'?m not a robot|ich bin kein roboter|anti-roboter|verify
 CAPTCHA_FRAME = "iframe[src*=captcha], iframe[src*=turnstile], iframe[src*=captcha-delivery], .g-recaptcha, .h-captcha, .cf-turnstile"
 
 
+MY_LANGS = re.compile(r"^\s*(english|englisch|german|deutsch|hindi|marathi)\b", re.I)
+
+
 def tick_consent(page):
     """Tick every visible, unticked checkbox (privacy, terms, talent pool, keep my data, newsletter: all yes)."""
     n = 0
@@ -443,8 +446,11 @@ def tick_consent(page):
             try:
                 label = el.evaluate(LABEL_JS)
                 name = (el.get_attribute("name") or el.get_attribute("id") or "")
-                if name and names.count(name) > 2:
-                    continue  # a multi-choice question ("which languages do you speak"), not a consent box
+                if name and names.count(name) > 2:  # a multi-choice question, not a consent box
+                    if MY_LANGS.search(label.split(" | ")[0]) and not el.is_checked():
+                        el.check(timeout=2000)  # "which languages do you speak": hers only
+                        n += 1
+                    continue
                 if NEVER_TICK.search(label.split(" | ")[0]) or NEVER_TICK.search(name) or not el.is_visible():
                     continue
                 if el.evaluate("e => e.tagName") == "INPUT" and el.is_checked():
@@ -481,12 +487,33 @@ def problems(page, uploads_needed, uploaded):
     if captcha_visible(page):
         why.append("CAPTCHA")
     for frame in page.frames:
-        for el in frame.query_selector_all("input, textarea, select"):
+        all_els = frame.query_selector_all("input, textarea, select")
+        groups = {}
+        for el in all_els:
+            try:
+                if el.get_attribute("type") == "checkbox" and el.get_attribute("name"):
+                    groups.setdefault(el.get_attribute("name"), []).append(el)
+            except Exception:
+                pass
+        for el in all_els:
             try:
                 kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
                 if kind in ("hidden", "submit", "button", "file") or not el.is_visible():
                     continue
+                if el.evaluate("e => e.matches(%s)" % json.dumps(REACT_SELECT_INPUT)) or \
+                        "requiredInput" in (el.get_attribute("class") or ""):
+                    # react-select: the search box is always empty; a chosen value shows as single-value
+                    if not el.evaluate("e => { const c = e.closest('[class*=container], [class*=select-shell]'); "
+                                       "return !!(c && c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')); }") \
+                            and is_required(el, el.evaluate(LABEL_JS)) and "requiredInput" not in (el.get_attribute("class") or ""):
+                        why.append("empty: " + el.evaluate(LABEL_JS)[:40])
+                    continue
                 label = el.evaluate(LABEL_JS)
+                grp = groups.get(el.get_attribute("name") or "", [])
+                if kind == "checkbox" and len(grp) > 2:
+                    if el is grp[0] and is_required(el, label) and not any(g.is_checked() for g in grp):
+                        why.append("unanswered choice: " + label[:40])
+                    continue
                 if not is_required(el, label) or SKIP_LABEL.search(label):
                     continue
                 if kind in ("checkbox", "radio"):
@@ -631,6 +658,7 @@ def main():
                 if key == "f" or (sig and seen.get(id(active)) != sig and time.time() - last_fill > 2):
                     seen[id(active)] = sig
                     last_fill = time.time()
+                    accept_cookies(active)
                     filled, unknown = site.fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
                     tick_consent(active)
                     if filled or key == "f":

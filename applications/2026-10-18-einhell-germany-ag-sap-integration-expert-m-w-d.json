@@ -1,139 +1,144 @@
 {
- "job": {
-  "title": "SAP Integration Expert (m/w/d)",
-  "company": "Einhell Germany AG",
-  "location": "Landau an der Isar, BY, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=da7d76316ad811f8",
-  "apply_url": "",
-  "score": 70,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "karriere@einhell.com",
-  "direct_url": "https://www.einhell.com/karriere",
-  "email_subject": "Application: SAP Integration Expert",
-  "email_body": "Dear Hiring Team,\n\nSAP landscapes are only as strong as their interfaces – integrating SAP Commerce Cloud with SAP ERP, MDM and PIM has been my core job for five years at Rockwell Automation and Shell.\n\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– OCC REST / headless APIs for storefronts, PWA and third parties\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
-  "channel": "indeed"
- },
- "tailoring": {
-  "headline": "SAP Integration Expert | SAP ERP, MDM & PIM Integration, REST/SOAP & CCv2",
-  "summary": "SAP integration specialist with 5+ years connecting SAP Commerce Cloud (Hybris 2105 and 2211) with SAP ERP, MDM and PIM systems for Rockwell Automation and Shell. Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, built PIM-to-commerce pipelines with DataHub and Hotfolders, and consumed and exposed REST and SOAP web services. Executes CI/CD deployment cycles on CCv2, supports production troubleshooting and analyses requirements with business stakeholders. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "JUnit",
-    "Groovy"
-   ],
-   "DevOps & Cloud": [
-    "SAP Commerce Cloud Portal (CCv2)",
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders"
-   ],
-   "Databases & Search": [
-    "FlexibleSearch",
-    "SQL",
-    "query optimization and performance tuning",
-    "Apache Solr"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "storefront customization"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Code Reviews",
-    "Jira",
-    "Confluence",
-    "International Teams"
-   ]
+  "job": {
+    "title": "SAP Integration Expert (m/w/d)",
+    "company": "Einhell Germany AG",
+    "location": "Landau an der Isar, BY, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=da7d76316ad811f8",
+    "apply_url": "",
+    "score": 70,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "karriere@einhell.com",
+    "direct_url": "https://www.einhell.com/karriere",
+    "email_subject": "Application: SAP Integration Expert",
+    "email_body": "Dear Hiring Team,\n\nSAP landscapes are only as strong as their interfaces – integrating SAP Commerce Cloud with SAP ERP, MDM and PIM has been my core job for five years at Rockwell Automation and Shell.\n\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– OCC REST / headless APIs for storefronts, PWA and third parties\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://www.einhell.com/karriere",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    3,
-    5,
-    4,
-    6,
-    7
-   ],
-   "shell": [
-    0,
-    4,
-    1,
-    2,
-    5,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "SAP Integration Expert | SAP ERP, MDM & PIM Integration, REST/SOAP & CCv2",
+    "summary": "SAP integration specialist with 5+ years connecting SAP Commerce Cloud (Hybris 2105 and 2211) with SAP ERP, MDM and PIM systems for Rockwell Automation and Shell. Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, built PIM-to-commerce pipelines with DataHub and Hotfolders, and consumed and exposed REST and SOAP web services. Executes CI/CD deployment cycles on CCv2, supports production troubleshooting and analyses requirements with business stakeholders. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "JUnit",
+        "Groovy"
+      ],
+      "DevOps & Cloud": [
+        "SAP Commerce Cloud Portal (CCv2)",
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders"
+      ],
+      "Databases & Search": [
+        "FlexibleSearch",
+        "SQL",
+        "query optimization and performance tuning",
+        "Apache Solr"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "storefront customization"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Code Reviews",
+        "Jira",
+        "Confluence",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6,
+        7
+      ],
+      "shell": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    "why_company": "Einhell sells tools and garden products in many countries, and every channel depends on clean SAP integration. Integrating SAP Commerce with SAP ERP, MDM and PIM is exactly my core expertise, and I want to bring it into a company where those data flows drive the business every day. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
+    "linkedin_message": "Hello! Your SAP Integration Expert role matches my core work: 5+ years integrating SAP Commerce Cloud with SAP ERP, MDM and PIM (REST/SOAP, DataHub) for Rockwell Automation and Shell. Start 16.12.2026. Open to a short call?"
   },
-  "why_company": "Einhell sells tools and garden products in many countries, and every channel depends on clean SAP integration. Integrating SAP Commerce with SAP ERP, MDM and PIM is exactly my core expertise, and I want to bring it into a company where those data flows drive the business every day. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
-  "linkedin_message": "Hello! Your SAP Integration Expert role matches my core work: 5+ years integrating SAP Commerce Cloud with SAP ERP, MDM and PIM (REST/SOAP, DataHub) for Rockwell Automation and Shell. Start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: SAP Integration Expert",
-   "salutation": "Dear Hiring Team,",
-   "hook": "SAP landscapes are only as strong as the interfaces between them. Making those interfaces work has been my core job for more than five years: at Rockwell Automation and Shell I integrate SAP Commerce Cloud with SAP ERP, MDM and PIM, and resolve the bottlenecks when data stops flowing.",
-   "bullets": [
-    {
-     "label": "SAP ERP & MDM integration",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
-    },
-    {
-     "label": "Data pipelines",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "Web services & APIs",
-     "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "Requirements & stakeholders",
-     "text": "In a techno-functional role I analyse requirements with business stakeholders and product owners, write user stories and functional specifications, map processes, support UAT and translate it all into SAP Commerce solutions."
+  "letters": {
+    "en": {
+      "subject": "Application: SAP Integration Expert",
+      "salutation": "Dear Hiring Team,",
+      "hook": "SAP landscapes are only as strong as the interfaces between them. Making those interfaces work has been my core job for more than five years: at Rockwell Automation and Shell I integrate SAP Commerce Cloud with SAP ERP, MDM and PIM, and resolve the bottlenecks when data stops flowing.",
+      "bullets": [
+        {
+          "label": "SAP ERP & MDM integration",
+          "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
+        },
+        {
+          "label": "Data pipelines",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
+        },
+        {
+          "label": "Web services & APIs",
+          "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; customized Interceptors, Populators and Converters for custom data flows."
+        },
+        {
+          "label": "Requirements & stakeholders",
+          "text": "In a techno-functional role I analyse requirements with business stakeholders and product owners, write user stories and functional specifications, map processes, support UAT and translate it all into SAP Commerce solutions."
+        }
+      ],
+      "gap": "",
+      "logistics": "I work directly with business and technical teams across countries – a good fit for an internationally active company like Einhell. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen Einhell.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I work directly with business and technical teams across countries – a good fit for an internationally active company like Einhell. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen Einhell.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

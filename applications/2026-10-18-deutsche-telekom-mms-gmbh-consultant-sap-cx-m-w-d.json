@@ -1,144 +1,149 @@
 {
- "job": {
-  "title": "Consultant SAP CX (m/w/d)",
-  "company": "Deutsche Telekom MMS GmbH",
-  "location": "München, Bayern",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2203624-S",
-  "apply_url": "",
-  "score": 85,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.telekom-mms.com",
-  "email_subject": "Bewerbung als Consultant SAP CX",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen SAP-CX-Consultants mit breitem technischem Know-how – ich verbinde seit über 5 Jahren Beratung der Fachbereiche mit eigener Umsetzung auf SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell.\n\n– Anforderungen, User Stories und Fachkonzepte mit Fachbereichen erstellt\n– PIM- / ERP- / MDM-Integrationen und OCC-REST-APIs umgesetzt\n– SAP Certified Commerce Cloud Developer und Business User\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der Telekom MMS bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Consultant SAP CX | SAP Commerce Cloud, Integrationen & techno-funktionale Beratung",
-  "summary": "Techno-funktionale SAP-CX-Beraterin mit über 5 Jahren Erfahrung auf SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Berät Fachbereiche von der Anforderungsanalyse über User Stories und Fachkonzepte bis zur Lösung und arbeitet direkt mit Stakeholdern in internationalen Teams. Breites technisches Know-how in Commerce, Cloud (CCv2), Datenhaltung und Integrationen von PIM, ERP und MDM über REST- und OCC-APIs. Nutzt KI-Tools intensiv in Analyse und Dokumentation. SAP Certified Commerce Cloud Developer und Business User.",
-  "skills": {
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Product Catalog & PIM",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "RESTful APIs",
-    "Microservices"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning"
-   ],
-   "DevOps & Cloud": [
-    "SAP Commerce Cloud Portal (CCv2)",
-    "production support and troubleshooting"
-   ]
+  "job": {
+    "title": "Consultant SAP CX (m/w/d)",
+    "company": "Deutsche Telekom MMS GmbH",
+    "location": "München, Bayern",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/20478-2203624-S",
+    "apply_url": "",
+    "score": 85,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.telekom-mms.com",
+    "email_subject": "Bewerbung als Consultant SAP CX",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nSie suchen SAP-CX-Consultants mit breitem technischem Know-how – ich verbinde seit über 5 Jahren Beratung der Fachbereiche mit eigener Umsetzung auf SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell.\n\n– Anforderungen, User Stories und Fachkonzepte mit Fachbereichen erstellt\n– PIM- / ERP- / MDM-Integrationen und OCC-REST-APIs umgesetzt\n– SAP Certified Commerce Cloud Developer und Business User\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der Telekom MMS bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "form_url": "https://www.telekom-mms.com/",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    4,
-    7,
-    1,
-    0,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    1,
-    2,
-    4,
-    5,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "Consultant SAP CX | SAP Commerce Cloud, Integrationen & techno-funktionale Beratung",
+    "summary": "Techno-funktionale SAP-CX-Beraterin mit über 5 Jahren Erfahrung auf SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Berät Fachbereiche von der Anforderungsanalyse über User Stories und Fachkonzepte bis zur Lösung und arbeitet direkt mit Stakeholdern in internationalen Teams. Breites technisches Know-how in Commerce, Cloud (CCv2), Datenhaltung und Integrationen von PIM, ERP und MDM über REST- und OCC-APIs. Nutzt KI-Tools intensiv in Analyse und Dokumentation. SAP Certified Commerce Cloud Developer und Business User.",
+    "skills": {
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "Product Catalog & PIM",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "RESTful APIs",
+        "Microservices"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning"
+      ],
+      "DevOps & Cloud": [
+        "SAP Commerce Cloud Portal (CCv2)",
+        "production support and troubleshooting"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        4,
+        7,
+        1,
+        0,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "Die Telekom MMS digitalisiert Sales und Service für Konzerne, Mittelstand und Start-ups – mit über 3.000 Kundenprojekten im Jahr. Genau in dieser Vielfalt kann ich meine Erfahrung aus SAP Commerce Cloud, Integrationen und techno-funktionaler Beratung wirksam einsetzen. Das interdisziplinäre Team und mobiles Arbeiten deutschlandweit, etwa vom Standort Mannheim aus, passen sehr gut zu mir.",
+    "linkedin_message": "Guten Tag, als techno-funktionale SAP-Commerce-Expertin (5+ Jahre, Rockwell Automation, Shell, SAP-zertifiziert) interessiere ich mich für Ihre Position Consultant SAP CX. Start ab 16.12.2026 – ich freue mich auf einen Austausch!"
   },
-  "why_company": "Die Telekom MMS digitalisiert Sales und Service für Konzerne, Mittelstand und Start-ups – mit über 3.000 Kundenprojekten im Jahr. Genau in dieser Vielfalt kann ich meine Erfahrung aus SAP Commerce Cloud, Integrationen und techno-funktionaler Beratung wirksam einsetzen. Das interdisziplinäre Team und mobiles Arbeiten deutschlandweit, etwa vom Standort Mannheim aus, passen sehr gut zu mir.",
-  "linkedin_message": "Guten Tag, als techno-funktionale SAP-Commerce-Expertin (5+ Jahre, Rockwell Automation, Shell, SAP-zertifiziert) interessiere ich mich für Ihre Position Consultant SAP CX. Start ab 16.12.2026 – ich freue mich auf einen Austausch!"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Consultant SAP CX",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Sie suchen Consultants, die SAP-Customer-Experience-Lösungen fachlich und technisch beraten und mit breitem technischem Know-how gestalten. Genau das verbinde ich seit über fünf Jahren: Bei Rockwell Automation und Shell habe ich auf SAP Commerce Cloud (Hybris 2105 und 2211) Anforderungen mit Fachbereichen erarbeitet und selbst in produktive Lösungen umgesetzt – als SAP Certified Commerce Cloud Developer und Business User.",
-   "bullets": [
-    {
-     "label": "Fachliche und technische Beratung",
-     "text": "Techno-funktionale Rolle mit Fachbereichen: Anforderungen analysiert, User Stories und Fachkonzepte erstellt und in SAP-Commerce-Lösungen übersetzt."
-    },
-    {
-     "label": "Stakeholder-Austausch",
-     "text": "Geschäftsanforderungen mit Product Ownern und Fachbereichen erhoben, Prozesse modelliert und User Acceptance Tests (UAT) begleitet; enge Zusammenarbeit mit internationalen Teams."
-    },
-    {
-     "label": "Commerce, Cloud & Datenhaltung",
-     "text": "Produkt-, Katalog-, Preis- und Kundendaten auf Hybris 2211 umgesetzt; CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) durchgeführt."
-    },
-    {
-     "label": "Lösungsübergreifendes Denken",
-     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst; OCC-REST-Webservices für Storefront und Drittsysteme bereitgestellt."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Consultant SAP CX",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Sie suchen Consultants, die SAP-Customer-Experience-Lösungen fachlich und technisch beraten und mit breitem technischem Know-how gestalten. Genau das verbinde ich seit über fünf Jahren: Bei Rockwell Automation und Shell habe ich auf SAP Commerce Cloud (Hybris 2105 und 2211) Anforderungen mit Fachbereichen erarbeitet und selbst in produktive Lösungen umgesetzt – als SAP Certified Commerce Cloud Developer und Business User.",
+      "bullets": [
+        {
+          "label": "Fachliche und technische Beratung",
+          "text": "Techno-funktionale Rolle mit Fachbereichen: Anforderungen analysiert, User Stories und Fachkonzepte erstellt und in SAP-Commerce-Lösungen übersetzt."
+        },
+        {
+          "label": "Stakeholder-Austausch",
+          "text": "Geschäftsanforderungen mit Product Ownern und Fachbereichen erhoben, Prozesse modelliert und User Acceptance Tests (UAT) begleitet; enge Zusammenarbeit mit internationalen Teams."
+        },
+        {
+          "label": "Commerce, Cloud & Datenhaltung",
+          "text": "Produkt-, Katalog-, Preis- und Kundendaten auf Hybris 2211 umgesetzt; CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) durchgeführt."
+        },
+        {
+          "label": "Lösungsübergreifendes Denken",
+          "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst; OCC-REST-Webservices für Storefront und Drittsysteme bereitgestellt."
+        }
+      ],
+      "gap": "",
+      "logistics": "Workshops mit Fach- und IT-Ansprechpartnern und die Arbeit in internationalen, agilen Teams gehören für mich selbstverständlich dazu; ein Standort wie Mannheim oder Leinfelden-Echterdingen ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der Telekom MMS starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
+      "closing": "",
+      "contact": "z. Hd. Telekom MMS, Recruiting"
     }
-   ],
-   "gap": "",
-   "logistics": "Workshops mit Fach- und IT-Ansprechpartnern und die Arbeit in internationalen, agilen Teams gehören für mich selbstverständlich dazu; ein Standort wie Mannheim oder Leinfelden-Echterdingen ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der Telekom MMS starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
-   "closing": "",
-   "contact": "z. Hd. Telekom MMS, Recruiting"
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }
