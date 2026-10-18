@@ -77,6 +77,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Use /jobs/<id>/form (manual form). Fields by id: salutation(MS), firstName, lastName, email, telephone, screeningQuestion.* ; one multi-file attachmentFile (CV + cover letter); privacyPolicyAccepted1 = Ja. Ends with an image CAPTCHA -> always parks with tab open.
 
 ## Deichmann (deichmann-karriere.de)
+- Google '<title> deichmann-karriere.de' finds /jobs/<year>-<id>/; a 404 there means the posting is closed (this CRM Business Analyst was a 2024 ad).
 - Accept cookies, go to /jobs/<id>/application-form/. 4-step wizard (files, personal, more, preview). Required: CV, cover letter, Zeugnisse (= cover letter again). File inputs index order is unreliable: use the dropzone button + file chooser per slot. Invisible reCAPTCHA passes without challenge. Submit shows a spinner ~10s then /success page; do not click twice.
 
 ## SmartRecruiters (Bertelsmann/Arvato oneclick-ui)
@@ -87,3 +88,30 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## rexx (karriere.tarox.de)
 - Form is /<Job>-f<id>.html. Custom selects hide native <select>; fields set via JS value+change are kept, files via setInputFiles show up. Senden with JS-filled form returned 'Leider konnten wir Ihre Anfrage nicht bearbeiten' (rexxCha bot check); accept cookies FIRST, type fields with real keystrokes, datepicker popup must be closed (Escape) before clicking Senden. Unresolved.
+
+## Provitex (own Vue form /karriere/bewerben)
+- Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
+
+## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Homepage link useless; Google the title -> liebherr.com/de-de/j/karriere/offene-stellen/<id>; accept Usercentrics, JETZT BEWERBEN opens SuccessFactors login with reCAPTCHA checkbox -> always parks.
+
+## d.vinci / innovative-companies.de
+- Link jobs/27 is only the Initiativbewerbung; check the company's own /Jobs list to see if the real posting still exists.
+
+## dormakaba (jobs.dormakaba.com, SAP SF career site)
+- Guest form, no account. Date input needs ISO; file inputs via setInputFiles (1st=Resume, last=Additional docs); privacy checkbox opens dialog -> click 'I accept'. Submit hung on 'Save applicationâ€¦' with no confirmation in run 1.
+
+## gc-gruppe.de (Drupal webform, FriendlyCaptcha)
+- Accept Usercentrics FIRST (shadow DOM: #usercentrics-cmp-ui button#accept) before filling. Fields #edit-vorname/name/telefon/e-mail, one multi-file upload (CV+cover letter), #edit-datenschutz via JS. Submitting after the banner reload gave 'Antwort war nicht passend' and wiped the form - fill AFTER cookies, wait for captcha 'Ich bin ein Mensch', then submit.
+
+## clicks.digital (WordPress CF7 + FriendlyCaptcha)
+- Fill by input name via run_code; one multi-file input takes CV+cover letter; pick job in job_position_id select; wait ~6s for FriendlyCaptcha to self-solve; success text in .wpcf7-response-output 'Vielen Dank fÃ¼r Ihre Bewerbung'.
+
+## Concludis (cbr.concludis.de)
+- Landing link redirects straight to /candidate/formapply. Set doc-type selects BY FILENAME (my first loop set both to Anschreiben), then toggle each select via jQuery trigger('change') (blank then value) and re-set the start date (datepicker clears it); 3rd Submit worked. Success: 'Die Bewerbung wurde erfolgreich versendet'.
+
+## Bartels-Langness (bela-karriere.de)
+- bela.de/karriere -> 'Zum Stellenportal' bela-karriere.de; list at /karriere/stellenangebote.html?reset_search=1 with a text search; posting jobs there only (no Shopware ad = closed).
+
+## JOIN (join.com) Ares
+- Login-link flow again: 'code join' returns link; CV preloaded from a previous job -> 'Datei entfernen' then setInputFiles; cover letter dropzone input; start date calendar cell-trigger; salary numeric; review page -> button 'Bewerbung senden'; success URL /apply/success.
