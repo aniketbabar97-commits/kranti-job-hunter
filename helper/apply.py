@@ -121,7 +121,8 @@ def answers(kit, lang):
 
 SALUTATION = re.compile(r"anrede|salutation|\btitle\b|prefix", re.I)
 SKIP_LABEL = re.compile(r"captcha|password|passwort|search|suche|anrede|salutation|\btitle\b|titel|"
-                        r"birth|geburt|confirm.?e-?mail|e-?mail.*(wiederhol|bestätig)|^website$|honeypot", re.I)
+                        r"birth|geburt|confirm.?e-?mail|e-?mail.*(wiederhol|bestätig)|^website$|honeypot|for robots|if you.?re (a )?human|"
+                        r"leave (this )?(field )?(blank|empty)", re.I)
 WHY_LABEL = re.compile(r"\bwhy\b|warum|wieso|interest in|interesse", re.I)
 LETTER_LABEL = re.compile(r"cover|anschreiben|motivation|message|nachricht|additional information|zusätzliche", re.I)
 PHOTO_LABEL = re.compile(r"photo|foto|\bbild\b|picture|portrait", re.I)
@@ -165,6 +166,11 @@ def pick_option(el, want, label=""):
     hits = [o for o in opts if rx.search(o[0] or "") and not PLACEHOLDER_OPT.match(o[0] or "")]
     if not hits:
         hits = [o for o in opts if (o[0] or "").lower() in str(want).lower() and len(o[0] or "") > 2]
+    if not hits and "/" in str(want):  # "Job board / LinkedIn": try each part
+        for part in str(want).split("/"):
+            part = part.strip()
+            if part and pick_option(el, part, label):
+                return True
     if len({h[0] for h in hits}) != 1:
         return False
     el.select_option(value=hits[0][1])

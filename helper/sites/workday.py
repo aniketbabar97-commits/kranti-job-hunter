@@ -304,6 +304,8 @@ class Workday(Site):
     def ensure_account(self, page):
         """Known account -> sign in (reset on failure). Unknown -> create (reset when it already exists)."""
         from helper import vault
+        if os.environ.get("HELPER_READONLY") == "1":
+            return False  # fixture test: stop at the account step, never create / sign in
         if self._has(page, "SignInWithEmailButton"):
             self._click(page, "SignInWithEmailButton")
             page.wait_for_timeout(2500)
@@ -319,6 +321,27 @@ class Workday(Site):
             page.wait_for_timeout(2000)
             return self._reset_password(page, self._email())
         return bool(res)
+
+    # ---------------------------------------------------------------- test
+    def test_fixture(self, headless=True, url=None):
+        """Read-only run up to the account step: a throw-away VAULT_KEY + vault file, no account is created."""
+        import tempfile
+        from helper import vault
+        keep = {k: os.environ.get(k) for k in ("VAULT_KEY", "HELPER_READONLY")}
+        keep_vault = vault.VAULT
+        with tempfile.TemporaryDirectory() as tmp:
+            os.environ["VAULT_KEY"] = "fixture-test-only-" + os.urandom(8).hex()
+            os.environ["HELPER_READONLY"] = "1"
+            vault.VAULT = Path(tmp) / "vault.enc"
+            try:
+                return super().test_fixture(headless, url)
+            finally:
+                vault.VAULT = keep_vault
+                for k, v in keep.items():
+                    if v is None:
+                        os.environ.pop(k, None)
+                    else:
+                        os.environ[k] = v
 
     # ---------------------------------------------------------------- flow
     def open_form(self, page, ctx=None):

@@ -1200,6 +1200,130 @@ def oracle_orc(slug_or_url, company, query=None):
     return _q(out, query)
 
 
+def beesite(slug_or_url, company, query=None):
+    """BeeSite / Milch & Zucker job board search API (Porsche, MHP, Mercedes-Benz): GET <api>/search?data=<json>.
+    slug_or_url = API search URL, optionally 'url|org filter' (substring of ParentOrganizationName)."""
+    import json
+    api, _, org = slug_or_url.partition("|")
+    out, first = [], 1
+    while first < 20000:
+        d = {"LanguageCode": "DE", "SearchParameters": {"FirstItem": first, "CountItem": 500, "MatchedObjectDescriptor": [
+            "PositionTitle", "PositionURI", "PositionLocation.CityName", "PublicationStartDate", "ParentOrganizationName"]},
+            "SearchCriteria": []}
+        res = _get(api, params={"data": json.dumps(d)}).json().get("SearchResult") or {}
+        items = res.get("SearchResultItems") or []
+        for i in items:
+            m = i.get("MatchedObjectDescriptor") or {}
+            if org and org.lower() not in str(m.get("ParentOrganizationName", "")).lower():
+                continue
+            out.append(_job(f"{company} careers", m.get("PositionTitle"), company,
+                            ", ".join(c.get("CityName", "") for c in m.get("PositionLocation") or [] if isinstance(c, dict)),
+                            m.get("PositionURI"), (m.get("PublicationStartDate") or "")[:10],
+                            "remote" in str(m.get("PositionTitle", "")).lower(), ""))
+        first += len(items)
+        if not items or first > res.get("SearchResultCountAll", 0):
+            break
+    return _q(out, query)
+
+
+JSON_TITLE_KEYS = ("title", "name", "postingTitle", "PositionTitle", "jobTitle", "positionTitle")
+JSON_URL_KEYS = ("jobDetailUrl", "jobUrl", "url", "link", "applyUrl", "jobApplyUrl", "PositionURI", "absolute_url", "href")
+JSON_LOC_KEYS = ("displayLocation", "location", "city", "locationsText", "CityName", "locationName")
+JSON_DATE_KEYS = ("releasedDate", "datePosted", "postedDate", "onlineFrom", "publishedAt", "createdOn", "created_at")
+
+
+def json_feed(url, company, query=None):
+    """Any JSON endpoint a job-search page calls: walks the response for objects with a title-ish and a URL-ish key.
+    '{page}' in the url is paged 1..50 until a page adds nothing new."""
+    from urllib.parse import urljoin
+    def pick(o, keys):
+        for k in keys:
+            v = o.get(k)
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+        return ""
+    out, seen = [], set()
+    for page in range(1, 51 if "{page}" in url else 2):
+        found = []
+        _walk(_get(url.replace("{page}", str(page)), headers={"User-Agent": BROWSER_UA, "Accept": "application/json"}).json(),
+              lambda o: pick(o, JSON_TITLE_KEYS) and pick(o, JSON_URL_KEYS).startswith(("http", "/")), found)
+        new = 0
+        for o in found:
+            link = urljoin(url, pick(o, JSON_URL_KEYS))
+            if link in seen:
+                continue
+            seen.add(link)
+            new += 1
+            loc = next((o[k] for k in JSON_LOC_KEYS if o.get(k)), "")
+            out.append(_job(f"{company} careers", pick(o, JSON_TITLE_KEYS), company, _loc(loc) if not isinstance(loc, str) else loc,
+                            link, pick(o, JSON_DATE_KEYS)[:10], "remote" in str(o.get("remote", "")).lower() or
+                            "remote" in pick(o, JSON_TITLE_KEYS).lower(), ""))
+        if not new:
+            break
+    return _q(out, query)
+
+
+def sitemap_feed(slug_or_url, company, query=None):
+    """Job URLs from an XML sitemap: 'sitemap_url|regex' (regex picks job URLs; default /job|stelle|karriere/).
+    Title from the URL slug; numeric-only slugs get the page <title> (first 60)."""
+    from urllib.parse import unquote
+    sm, _, rx = slug_or_url.partition("|")
+    rx = re.compile(rx or r"/(jobs?|stellen\w*|karriere|career)/[^/]+/?", re.I)
+    maps, out = [sm], []
+    for m in maps[:20]:
+        for link in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", _get(m).text):
+            link = link.replace("&amp;", "&")
+            if re.search(r"\.xml(\?|$)", link):
+                maps.append(link)
+            elif rx.search(link):
+                parts = [x for x in link.rstrip("/").split("/") if x]
+                slug = next((x for x in reversed(parts) if not x.isdigit()), "") if not parts[-1].isdigit() or len(parts) > 3 else ""
+                title = unquote(slug).replace("-", " ").strip()
+                if (not title or title.lower() in ("career", "karriere", "jobs", "job")) and len(out) < 60:
+                    try:
+                        t = re.search(r"<title[^>]*>([^<]+)", _get(link).text)
+                        title = re.split(r"\s+[|\u2013-]\s+", t.group(1).strip())[0] if t else ""
+                    except Exception:  # noqa: BLE001
+                        title = ""
+                out.append(_job(f"{company} careers", title, company, "", link, "", "remote" in title.lower(), ""))
+    return _q(out, query)
+
+
+def job_shop(slug_or_url, company, query=None):
+    """my-job-shop.com / jobshop.services career sites (EY, OBI, Hornbach): the page embeds scoped Typesense keys
+    (base64 '{"filter_by"...}', expire ~1h) -> POST api.my-job-shop.com/api/typesense/multi_search over 'offers'."""
+    from urllib.parse import urljoin
+    url = slug_or_url if slug_or_url.startswith("http") else f"https://{slug_or_url}"
+    keys = list(dict.fromkeys(re.findall(r"[A-Za-z0-9+/]{20,}eyJmaWx0ZXJfYnki[A-Za-z0-9+/=]+", _get(url).text)))
+    if not keys and not url.rstrip("/").endswith("/search"):
+        keys = list(dict.fromkeys(re.findall(r"[A-Za-z0-9+/]{20,}eyJmaWx0ZXJfYnki[A-Za-z0-9+/=]+",
+                                             _get(url.rstrip("/") + "/search").text)))
+    api = "https://api.my-job-shop.com/api/typesense/multi_search"
+    def page(key, n, per=250):
+        body = {"searches": [{"collection": "offers", "q": query or "*", "query_by": "title", "per_page": per, "page": n,
+                              "exclude_fields": "title_embed,description,expectation,introduction,about,offering,"
+                                                "contact_text,additional,benefits"}]}
+        r = requests.post(api, params={"x-typesense-api-key": key}, json=body, timeout=30, headers={"User-Agent": BROWSER_UA})
+        r.raise_for_status()
+        return r.json()["results"][0]
+    best = max(keys, key=lambda k: page(k, 1, 1).get("found", 0), default=None)
+    if not best:
+        return career_page(url, company, query)
+    out = []
+    for n in range(1, 41):
+        hits = page(best, n).get("hits") or []
+        for h in hits:
+            d = h.get("document") or {}
+            link = d.get("url") or urljoin(url, f"/jobs/{d.get('title_slug', '')}")
+            ts = d.get("create_date_timestamp")
+            out.append(_job(f"{company} careers", d.get("title"), company, _loc(d.get("location")), link,
+                            date.fromtimestamp(int(ts)).isoformat() if str(ts or "").isdigit() else "",
+                            "remote" in str(d.get("work_mode", "")).lower(), ""))
+        if len(hits) < 250:
+            break
+    return _q(out, query)
+
+
 ATS_READERS = {
     "personio": personio, "greenhouse": greenhouse, "lever": lever, "recruitee": recruitee, "workable": workable,
     "teamtailor": teamtailor, "onlyfy": onlyfy, "prescreen": onlyfy, "dvinci": dvinci, "rexx": rexx,
@@ -1207,5 +1331,5 @@ ATS_READERS = {
     "eightfold": eightfold, "phenom": phenom, "ashby": ashby, "jobylon": jobylon, "softgarden": softgarden_all,
     "join": join_all, "own": career_page, "unknown": career_page, "custom": career_page,
     "successfactors_rmk": successfactors_rmk, "oracle_orc": oracle_orc, "oracle": oracle_orc, "b-ite": bite,
-    "job-shop": career_page, "mhm_erecruiter": career_page, "icims": career_page, "cornerstone": career_page,
+    "job-shop": job_shop, "beesite": beesite, "json": json_feed, "sitemap": sitemap_feed, "mhm_erecruiter": career_page, "icims": career_page, "cornerstone": career_page,
 }

@@ -49,8 +49,9 @@ def de_date(iso):
 RULES = [
     (r"disab|behinder|handicap|gleichgestellt", lambda f, l: yes_no(f["disability"], l)),
     (r"nationalit|staatsangehörigkeit|staatsbürgerschaft|citizenship", lambda f, l: "Indisch" if l == "de" else f["nationality"]),
+    (r"security clearance|sicherheitsüberprüfung|sicherheitsfreigabe|\bsü ?[123]\b", lambda f, l: yes_no(f.get("security_clearance", False), l)),
     (r"criminal|vorstrafe|polizeiliche|führungszeugnis|convict|background check", lambda f, l: yes_no(f["criminal_record"], l)),
-    (r"referr|empfohlen|empfehlung|referred by|mitarbeiterempfehlung", lambda f, l: yes_no(f["referral"], l)),
+    (r"\breferr|empfohlen|empfehlung|referred by|mitarbeiterempfehlung", lambda f, l: yes_no(f["referral"], l)),
     (r"travel|reise|dienstreise|reisebereit", lambda f, l: yes_no(f["travel"], l)),
     # relocation: yes within Germany, no when the question names another country / city abroad
     (r"(reloca|umzug|umzieh|umzugsbereit).{0,60}\b(to|nach)\b(?!.{0,40}(germany|deutschland|berlin|m[üu]nchen|munich|hamburg|"
@@ -70,7 +71,8 @@ RULES = [
     (r"^degree|abschluss|highest (level of )?education", lambda f, l: "Bachelor"),
     (r"discipline|field of study|major|studienrichtung|studienfach|fachrichtung", lambda f, l: "Computer Engineering"),
     (r"campus event|career fair|karrieremesse|which event", lambda f, l: "None"),
-    (r"pronoun", lambda f, l: "she/her"),
+    (r"\bpronouns?\b", lambda f, l: "she/her"),
+    (r"preferred (first )?name|rufname|what would you like us to call you", lambda f, l: f["name"]["first"]),
     (r"i confirm|ich bestätige|hereby confirm|is true and correct|wahrheitsgemäß", lambda f, l: "Ja" if l == "de" else "Yes"),
     (r"remote|hybrid|home.?office|mobiles arbeiten|on.?site|vor ort", lambda f, l: yes_no(f["remote_or_hybrid"], l)),
     (r"previously (worked|employed|applied)|ever (worked|been employed)|former employee|schon einmal|bereits (bei|für) uns|"
@@ -112,7 +114,7 @@ RULES = [
     (r"postal|postleitzahl|\bplz\b|zip", lambda f, l: f["location"]["postal_code"]),
     (r"\b(city|ort|stadt|wohnort|location|standort)\b", lambda f, l: f["location"]["city"]),
     (r"\bcountry\b|\bland\b", lambda f, l: "Deutschland" if l == "de" else f["location"]["country"]),
-    (r"how did you (hear|find)|wie (sind sie|bist du|hast du|haben sie).*(aufmerksam|gefunden)|quelle|source|woher",
+    (r"how (did )?you (hear|heard|find|found|learn)|wie (sind sie|bist du|hast du|haben sie).*(aufmerksam|gefunden)|quelle|source|woher",
      lambda f, l: f["source"]),
     (r"privacy|datenschutz|consent|einwillig|terms|bedingungen|talent ?pool|keep .*data|daten .*speichern|newsletter",
      lambda f, l: "Ja" if l == "de" else "Yes"),

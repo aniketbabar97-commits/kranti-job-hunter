@@ -37,9 +37,10 @@ class Lever(Site):
     def confirmed(self, page):
         return page.url.rstrip("/").endswith("/thanks")
 
-    def after_fill(self, page, lang):
-        """Location typeahead: must be typed (key events) and a suggestion clicked, else Lever clears it."""
+    def after_fill(self, page, lang, kit=None):
+        """Location typeahead (typed + suggestion clicked, else Lever clears it), then the custom-question cards."""
         from helper import answers
+        done = []
         try:
             loc = page.query_selector("input.location-input[name=location]")
             chosen = page.evaluate("() => { const h = document.querySelector('input[name=selectedLocation]'); return !!(h && h.value); }")
@@ -55,6 +56,96 @@ class Lever(Site):
                     page.wait_for_timeout(500)
         except Exception:
             pass
+        done += self._cards(page, lang, kit)
+        return done
+
+    QUESTION_JS = """e => { const li = e.closest('li.application-question') || e.closest('.application-question');
+      const t = li && li.querySelector('.application-label .text, .application-label');
+      return t ? t.innerText.trim() : ''; }"""
+
+    def _cards(self, page, lang, kit):
+        """Custom questions cards[<uuid>][fieldN]: answers.answer() first; free text -> AI; uncovered yes/no -> park."""
+        from helper import answers, apply
+        done, radios = [], {}
+        for el in page.query_selector_all("[name^='cards[']"):
+            try:
+                if not el.is_visible():
+                    continue
+                kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
+                name = el.get_attribute("name")
+                q = re.sub(r"\s*✱\s*$", "", el.evaluate(self.QUESTION_JS) or "").strip()
+                required = el.get_attribute("required") is not None or "✱" in (el.evaluate(self.QUESTION_JS) or "")
+                if not q:
+                    continue
+                if kind == "radio":
+                    radios.setdefault(name, (q, []))[1].append(el)
+                    continue
+                if kind == "checkbox":
+                    continue  # multi-choice (languages): apply.tick_consent ticks hers only
+                if kind in ("select", "select-one"):
+                    if el.evaluate("e => e.selectedIndex > 0 && e.value !== ''"):
+                        continue
+                    if re.search(r"universit|school|college|hochschule", q, re.I):
+                        uni = answers.facts()["education"]["university"]
+                        for want in (uni, "University of Pune", "Pune University", "Other"):
+                            if apply.pick_option(el, want, q):
+                                done.append(f"{q[:30]} = {want}")
+                                break
+                        continue
+                    want = answers.answer(q, lang)
+                    if want and apply.pick_option(el, want, q):
+                        done.append(f"{q[:30]} = {want[:20]}")
+                    continue
+                if el.input_value().strip():
+                    continue
+                a = answers.answer(q, lang)
+                if not a:
+                    a = apply.ai_for(q, kit or {}, lang, required, "textarea" if kind == "textarea" else "text")
+                if a:
+                    el.fill(a)
+                    done.append(f"{q[:30]} = {a[:30]}")
+            except Exception:
+                continue
+        for name, (q, els) in radios.items():
+            try:
+                if any(e.is_checked() for e in els):
+                    continue
+                want = answers.answer(q, lang)
+                if not want:
+                    continue  # a yes/no question facts.yaml does not cover: parked (problems() reports it)
+                rx = re.compile(r"^\s*(yes|ja)\b" if answers.is_yes(want) else r"^\s*(no|nein)\b" if answers.is_no(want)
+                                else re.escape(want[:20]), re.I)
+                hits = [e for e in els if rx.search(e.get_attribute("value") or e.evaluate("e => e.parentElement.innerText") or "")]
+                if len(hits) == 1:
+                    hits[0].check(timeout=2000)
+                    done.append(f"{q[:30]} = {hits[0].get_attribute('value')[:15]}")
+            except Exception:
+                continue
+        return done
+
+    def problems(self, page, uploads_needed, uploaded):
+        """Generic problems use bad labels on cards; report required unanswered cards by their question text."""
+        why = [w for w in super().problems(page, uploads_needed, uploaded) if not w.startswith("empty: | |")]
+        seen = set()
+        for el in page.query_selector_all("[name^='cards['][required]"):
+            try:
+                name = el.get_attribute("name")
+                if name in seen or not el.is_visible():
+                    continue
+                seen.add(name)
+                kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
+                group = page.query_selector_all(f"[name=\"{name}\"]")
+                if kind in ("radio", "checkbox"):
+                    ok = any(g.is_checked() for g in group)
+                elif kind in ("select", "select-one"):
+                    ok = el.evaluate("e => e.selectedIndex > 0 && e.value !== ''")
+                else:
+                    ok = bool(el.input_value().strip())
+                if not ok:
+                    why.append("unanswered: " + (el.evaluate(self.QUESTION_JS) or name)[:50])
+            except Exception:
+                continue
+        return why
 
 
 SITE = Lever()

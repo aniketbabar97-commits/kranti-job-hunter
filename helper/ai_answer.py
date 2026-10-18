@@ -24,7 +24,7 @@ URL_Q = re.compile(r"\burl\b|github|gitlab|portfolio|website|webseite|homepage|\
 YES_NO_Q = re.compile(r"^\s*(are|do|did|have|has|will|would|can|could|is|were|bist|sind|haben|hast|können|kannst|würden|"
                       r"wärst|waren|darf|dürfen)\b|\b(yes|no|ja|nein)\s*/\s*(no|yes|nein|ja)\b", re.I)
 FACTUAL_Q = re.compile(r"\b(github|gitlab|portfolio|website|webseite|homepage|blog|twitter|xing|stack ?overflow|"
-                       r"address|adresse|straße|street|birth|geburt|reference|referenz)\b", re.I)
+                       r"address|adresse|straße|street|birth|geburt|reference|referenz|pronounc\w*|aussprache)\b", re.I)
 
 
 def _llm(prompt):
@@ -53,7 +53,7 @@ def prompt_for(question, job, lang):
     job = job or {}
     j = job.get("job", job)
     why = (job.get("tailoring") or {}).get("why_company", "")
-    language = "German (Sie-form, natural business German)" if lang == "de" else "English"
+    language = "German (natural business German; use du or Sie exactly as the question does)" if lang == "de" else "English"
     return f"""You fill in a job application form as the candidate Kranti Chavan (first person, "I").
 Answer this form question in {language}, 2-4 sentences, confident and selling, specific to the role.
 
