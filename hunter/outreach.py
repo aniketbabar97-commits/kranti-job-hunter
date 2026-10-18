@@ -42,8 +42,13 @@ GOOD_LOCAL = re.compile(r"(bewerb|career|karriere|jobs?|recruit|talent|hr|person
 
 def _settings(cfg):
     a = (cfg or {}).get("applications", {})
-    return {"mode": a.get("mode", "draft"), "max_per_day": int(a.get("max_per_day", 8)),
-            "min_score": int(a.get("min_score", 80))}
+    return {"mode": a.get("mode", "draft"), "max_per_day": int(a.get("max_per_day", 15)),
+            "min_score": int(a.get("min_score", 60)), "per_company": int(a.get("per_company", 2)),
+            "days": int(a.get("catch_up_days", 45))}
+
+
+def _job_key(job):
+    return f"{_company_key(job)}|{re.sub(r'[^a-z0-9]', '', clean_title(job.get('title', '')).lower())}"
 
 
 def credentials():
@@ -89,7 +94,7 @@ def ready():
     return bool(user and os.getenv("CANDIDATE_PHONE", "").strip())
 
 
-def backfill(cfg, days=21):
+def backfill(cfg, days=None):
     """Catch-up: email applications for strong jobs already in the record that have none yet. Runs every time,
     so jobs from earlier digests (or found before the secrets were set) are never left out."""
     import csv
@@ -99,7 +104,13 @@ def backfill(cfg, days=21):
         return [], []
     master_cv = (ROOT / "cv.md").read_text()
     data = applied.load()
-    done = {v["company_key"] for v in load().values()}
+    s = _settings(cfg)
+    days = days or s["days"]
+    led = load().values()
+    done = {v.get("job_key") for v in led}
+    per_co = {}
+    for v in led:
+        per_co[v["company_key"]] = per_co.get(v["company_key"], 0) + 1
     since = (date.today() - timedelta(days=days)).isoformat()
     jobs, urls = [], set()
     for r in csv.DictReader(open(ROOT / "data" / "jobs_log.csv")):
@@ -110,7 +121,8 @@ def backfill(cfg, days=21):
             continue
         job = {**r, "score": int(r["score"]), "remote": r["remote"] == "True", "contact": "", "description": "",
                "salary": ""}
-        if _company_key(job) in done or applied.status(job, data):
+        if _job_key(job) in done or per_co.get(_company_key(job), 0) >= s["per_company"] \
+                or applied.status(job, data) == "applied":
             continue
         try:
             sources.arbeitsagentur_details(job)  # 404 / empty -> posting closed
@@ -215,17 +227,23 @@ def prepare(jobs, cfg, today=None):
         return []
     today = today or date.today().isoformat()
     ledger = load()
-    done_companies = {v["company_key"] for v in ledger.values()}
+    done_jobs = {v.get("job_key") for v in ledger.values()}
+    per_co, today_co = {}, set()
+    for v in ledger.values():
+        per_co[v["company_key"]] = per_co.get(v["company_key"], 0) + 1
+        if v["created"] == today:
+            today_co.add(v["company_key"])
     left = s["max_per_day"] - sum(1 for v in ledger.values() if v["created"] == today)
     made, imap, drafts = [], None, None
     for job in sorted(jobs, key=lambda j: -j["score"]):
         if left <= 0:
             break
-        if job["score"] < s["min_score"] or job.get("applied") or not job.get("letters"):
+        if job["score"] < s["min_score"] or job.get("applied") == "applied" or not job.get("letters"):
             continue
         ck = _company_key(job)
         to = pick_email(job)
-        if not to or ck in done_companies:
+        # same job never twice; max 2 roles per company, and never two on the same day (looks like spam)
+        if not to or _job_key(job) in done_jobs or per_co.get(ck, 0) >= s["per_company"] or ck in today_co:
             continue
         lang = "de" if job.get("lang") == "de" else "en"
         letter = job["letters"].get(lang)
@@ -252,11 +270,13 @@ def prepare(jobs, cfg, today=None):
         except Exception as ex:
             log.warning("email application for %s failed: %s", job["title"], ex)
             continue
-        entry = {"company": job["company"], "company_key": ck, "title": job["title"], "url": job["url"],
+        entry = {"company": job["company"], "company_key": ck, "job_key": _job_key(job), "title": job["title"], "url": job["url"],
                  "to": to, "lang": lang, "score": job["score"], "subject": msg["Subject"],
                  "status": status, "created": today, "sent": today if status == "sent" else ""}
         ledger[msg["Message-ID"]] = entry
-        done_companies.add(ck)
+        done_jobs.add(_job_key(job))
+        per_co[ck] = per_co.get(ck, 0) + 1
+        today_co.add(ck)
         job["email_application"] = entry
         made.append(entry)
         left -= 1

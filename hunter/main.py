@@ -150,7 +150,10 @@ def main():
     strong, good, _ = digest.summary(jobs)
     subject = (f"🎯 {strong} strong · 👍 {good} good · {len(jobs)} new jobs — {label}" if jobs
                else f"No new jobs — {label}")
-    if not digest.send(subject, body, [a for j in jobs for a in j.get('attachments', [])]):
+    # Emailed applications are already in her Gmail Drafts; attach PDFs only for the top 5 form-based jobs
+    # (Gmail rejects mails over 25 MB).
+    form_jobs = [j for j in jobs if j.get("attachments") and not j.get("email_application")][:5]
+    if not digest.send(subject, body, [a for j in form_jobs for a in j["attachments"]]):
         log.error("Email not sent; seen list left unchanged so jobs show up next run")
         sys.exit(1)
 

@@ -142,7 +142,10 @@ min_score_in_digest: 0  # 0 = show everything, ranked
 
 # Email applications from Kranti's Gmail (needs CANDIDATE_EMAIL + KRANTI_GMAIL_APP_PASSWORD secrets).
 # mode "draft": saved in her Gmail Drafts, she presses Send. Switch to "send" once the drafts are trusted.
+# We apply; rejecting is the hiring team's job. Scores 60+ are realistic fits (letters stay honest about gaps).
 applications:
   mode: draft
-  max_per_day: 8
-  min_score: 80
+  max_per_day: 15
+  min_score: 60
+  per_company: 2       # different roles at one company, never two on the same day
+  catch_up_days: 45    # strong jobs from earlier digests still get an application
