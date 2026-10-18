@@ -642,6 +642,17 @@ def confirmed(ctx, site=None):
     return False
 
 
+WAIT_FOR_ME = os.environ.get("WAIT_FOR_ME", "1") == "1"  # she is at the PC: ask instead of parking
+
+
+def beep():
+    try:
+        import winsound
+        winsound.MessageBeep()
+    except Exception:
+        print("\a", end="", flush=True)
+
+
 def key_pressed():
     """Non-blocking key read (Windows); returns '' when no key was pressed."""
     try:
@@ -725,6 +736,7 @@ def run_job(ctx, kit, n, total, parked, rec=None):
         rec["notes"].append(f"open_form failed: {str(ex)[:100]}")
     print("   AUTO: filling + uploading" + (" and submitting" if AUTO else ". Check and click Submit") + ".  keys: f a s q")
     seen, last_fill, nxt, uploads, tries, steps = {}, 0.0, None, {}, 0, 0
+    announced = False
     ats = trust.detect(ctx.pages[-1].url or j["url"])
     if ats == "own" and site.name != "own":
         ats = site.name
@@ -763,7 +775,14 @@ def run_job(ctx, kit, n, total, parked, rec=None):
             files_here = active.query_selector("input[type=file]") is not None
             why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
             rec["problems"] = why
-            if why:
+            if why and WAIT_FOR_ME and not DRY_RUN:
+                if not announced:  # she is at the PC: never skip, ask once and keep watching the page
+                    announced = True
+                    beep()
+                    print("   🙋 please do this in the browser, I continue by myself afterwards: " + "; ".join(why[:4]))
+                    print("      (press  s  to skip this job)")
+                tries = 0  # keep checking; key handling (s/q) below still runs
+            elif why:
                 if tries >= 3:
                     parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
                     print("   ⏸ parked for you: " + ", ".join(why[:3]))
@@ -795,6 +814,13 @@ def run_job(ctx, kit, n, total, parked, rec=None):
                 print("   → next step")
                 active.wait_for_timeout(3500)
                 seen.pop(id(active), None)
+        if not AUTO and not DRY_RUN and last_fill and not announced and time.time() - last_fill > 4:
+            announced = True
+            files_here = active.query_selector("input[type=file]") is not None
+            why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
+            beep()
+            print("   🙋 " + ("still needed: " + "; ".join(why[:4]) + " — then " if why else "") +
+                  "check and click Submit; I log it and open the next job when the thank-you page shows.")
         if DRY_RUN and nxt is None and tries >= 4:
             nxt = "next"  # nothing left to do on this page: no problem, no Submit, no Next
             rec["notes"].append("no submit/next button found")
