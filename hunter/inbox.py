@@ -131,6 +131,11 @@ def scan(days=60):
     FILE.parent.mkdir(exist_ok=True)
     FILE.write_text(json.dumps(known, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
     log.info("inbox: %d new company replies", len(new))
+    try:  # receipt mails prove pending helper submissions; older ones without mail go to data/check.json
+        from . import submissions
+        submissions.reconcile([r for r in known.values() if r.get("category") == "received"])
+    except Exception as ex:
+        log.warning("submission reconcile failed: %s", ex)
     return new
 
 

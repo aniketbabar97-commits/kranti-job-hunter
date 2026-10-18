@@ -1,0 +1,24 @@
+# Fixed answers for application forms. The AI picks from these; it never invents a fact.
+# A question not covered here is parked and reported so it can be added once.
+# No personal contact data here (email/phone live in helper/me.env on her PC).
+name: {first: Kranti, last: Chavan, salutation: Frau, gender: female}
+location: {city: Karlsruhe, postal_code: "76131", country: Germany}
+linkedin: https://www.linkedin.com/in/kranti-chavan-84a155191
+work_permit: "Valid German residence and work permit, no visa sponsorship needed"
+nationality: Indian
+notice: {status: "serving notice", last_day: "2026-12-15", earliest_start: "2026-12-16"}
+salary: {default_eur: 60000, note: "upper part of a posted range; otherwise 60.000 € brutto/Jahr, verhandelbar"}
+languages: {english: C2, german: B1, hindi: native, marathi: native}
+education: {degree: "B.E. Computer Engineering / IT", university: "Savitribai Phule Pune University", year: 2020}
+experience_years: {total: 5, sap_commerce: 5, java: 5, spring: 5}
+driving_licence: no
+disability: no            # "none" / "no" / "prefer not to say" if that is the only neutral option
+travel: "yes, up to 50 %"
+relocation_within_germany: yes
+remote_or_hybrid: yes
+previous_employment_at_company: no
+criminal_record: no
+referral: no
+source: "Job board / LinkedIn"
+consent: tick_all          # privacy, terms, talent pool, keep data, newsletter: all yes
+captcha: park              # the only thing that stops a job

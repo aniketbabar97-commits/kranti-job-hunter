@@ -147,8 +147,11 @@ def main():
     ledger = outreach.load()
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
+    from . import funnel, submissions
     body = digest.build_html(jobs, health, label, inbox.digest_block(replies)
-                             + outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
+                             + submissions.check_block()
+                             + outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"])
+                             + funnel.html_block())
     PREVIEW.parent.mkdir(exist_ok=True)
     PREVIEW.write_text(body, encoding="utf-8")
     if os.getenv("DRY_RUN"):

@@ -342,20 +342,15 @@ def key_pressed():
         return input("   [f]ill [a]pplied [s]kip [q]uit > ").strip().lower()[:1]
 
 
-def log_applied(kit):
+def log_applied(kit, ats="own", page=None, proof_seen=True, mode="auto"):
+    """Proof page seen -> screenshot, submissions.json 'confirmed', APPLIED.md line '(Company, website via helper – confirmed)'.
+    No proof -> 'pending' in submissions.json only (hunter/inbox.py confirms it from the receipt mail, or lists it under
+    'Please check' after 24 h). Also updates the per-ATS trust store. Returns 'confirmed' or 'pending'."""
+    from helper import proof, trust
     j = kit["job"]
-    f = ROOT / "APPLIED.md"
-    line = f"- {date.today().isoformat()} {j['url']} ({j['company']}, applied via form)\n"
-    text = f.read_text(encoding="utf-8")
-    if j["url"] not in text:
-        f.write_text(text.rstrip("\n") + "\n" + line, encoding="utf-8")
-    try:  # share with the daily hunter so it stops suggesting this job
-        subprocess.run(["git", "-C", str(ROOT), "add", "APPLIED.md"], check=True, capture_output=True)
-        subprocess.run(["git", "-C", str(ROOT), "commit", "-m", f"applied: {j['company']}"], capture_output=True)
-        subprocess.run(["git", "-C", str(ROOT), "pull", "--rebase", "-q"], capture_output=True, timeout=60)
-        subprocess.run(["git", "-C", str(ROOT), "push", "-q"], capture_output=True, timeout=60)
-    except Exception:
-        print("   (saved locally; could not push to GitHub — that's fine)")
+    state = proof.log_submission(j, ats, page, proof_seen, mode)
+    trust.record(ats, state == "confirmed")
+    return state
 
 
 def main():
@@ -393,6 +388,11 @@ def main():
             print("   AUTO: filling + uploading. Check, tick the privacy box, click Submit.  keys: f a s q")
             seen, last_fill, nxt, uploads, tries = {}, 0.0, None, {}, 0
             already = confirmed(ctx)  # a thank-you text on the job page itself must not count
+            from helper import trust
+            ats = trust.detect(ctx.pages[-1].url or j["url"])
+            assisted = trust.mode(ats) == trust.ASSISTED  # first job per ATS: fill, stop at Submit, she clicks
+            if AUTO and assisted:
+                print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")
             while nxt is None:
                 active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
                 try:
@@ -408,8 +408,9 @@ def main():
                         print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
                         for x in unknown:
                             print(f"     ✗ please fill yourself: {x}")
-                if AUTO and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
+                if AUTO and not assisted and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
                     tries += 1
+                    ats = trust.detect(active.url) if trust.detect(active.url) != "own" else ats
                     tick_consent(active)
                     files_here = active.query_selector("input[type=file]") is not None
                     why = problems(active, files_here, uploads.get(active.url.split("?")[0]))
@@ -424,8 +425,10 @@ def main():
                         active.wait_for_timeout(4000)
                         seen.pop(id(active), None)
                 if key == "a" or (last_fill and not already and confirmed(ctx)):
-                    log_applied(kit)
-                    print("   ✅ confirmation seen → logged as applied, next job")
+                    seen_page = not already and confirmed(ctx)
+                    state = log_applied(kit, ats, active, seen_page, "assisted" if assisted else "auto")
+                    print("   ✅ confirmation page seen → logged as applied (screenshot in out/proof), next job" if state == "confirmed"
+                          else "   ⏳ no confirmation page → pending; the hunter confirms it from the receipt mail (or asks you to check)")
                     nxt = "next"
                 elif key == "s":
                     with open(SKIPPED, "a", encoding="utf-8") as f:

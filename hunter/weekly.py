@@ -80,6 +80,11 @@ def build(today, rows, applied_data, hard_to_fill=()):
                for n, label in [(len(week), "new jobs"), (strong, "strong"), (good, "good fit"), (sent_week, "applied (dated)")])
            + "</tr></table>",
            digest._record_links()]
+    try:
+        from . import funnel
+        out.append(funnel.html_block(week_ago, "📈 Funnel this week") + funnel.html_block(title="📈 Funnel overall"))
+    except Exception as ex:
+        log.warning("funnel block failed: %s", ex)
     out.append(f"<h3>⭐ Best jobs this week you haven't applied to ({len(open_top)})</h3>")
     if open_top:
         out += [digest._card(dict(r, remote=r["remote"] == "True", salary=""), e) for r in open_top]
