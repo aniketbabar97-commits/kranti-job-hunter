@@ -121,7 +121,13 @@ def maybe_send(today, cfg):
         j.setdefault("lang", "de" if j["source"] == "Arbeitsagentur" else "en")
     kit.make_kits(hard)
     from . import inbox
-    body = build(today, report.read_log(), applied_data, hard).replace("</div>", inbox.weekly_stats() + "</div>", 1)
+    from . import gapcheck
+    try:
+        gaps = gapcheck.html_block(gapcheck.find_gaps())
+    except Exception as e:  # noqa: BLE001 - the summary must go out even if the check fails
+        log.warning("gapcheck failed: %s", e)
+        gaps = ""
+    body = build(today, report.read_log(), applied_data, hard).replace("</div>", inbox.weekly_stats() + gaps + "</div>", 1)
     (ROOT / "data" / "last_weekly.html").write_text(body, encoding="utf-8")
     if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body, [a for j in hard for a in j.get("attachments", [])]):
         STATE.write_text(week, encoding="utf-8")

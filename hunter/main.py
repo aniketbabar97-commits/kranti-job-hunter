@@ -49,15 +49,28 @@ def collect(cfg):
             health[name] = (n, str(e)[:150])
 
     days = max(1, cfg["hours_old"] // 24)
+    extra = cfg.get("sources", {})
+    sites = extra.get("jobspy_sites") or ["linkedin", "indeed"]
     for q in cfg["queries"]:
         log.info("query: %s", q)
         run("Arbeitsagentur", sources.arbeitsagentur, q, days)
         for loc in cfg["locations"]:
-            run("LinkedIn/Indeed (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"])
+            run("JobSpy (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"], False, sites)
+        # Remote pass: Google/Glassdoor add little for "European Union", keep it to LinkedIn/Indeed.
         run("LinkedIn/Indeed (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
-            cfg["results_per_query"], True)
+            cfg["results_per_query"], True, ["linkedin", "indeed"])
         time.sleep(3)
-    for entry in cfg.get("companies", []):
+    # Boards without an API: a short query list (each StepStone call starts a browser, XING fetches pages).
+    for q in extra.get("board_queries", []):
+        if extra.get("stepstone"):
+            run("StepStone", sources.stepstone, q, "Deutschland", days)
+        if extra.get("xing"):
+            run("XING", sources.xing, q, max(days, 7))
+    entries = list(cfg.get("companies", []))
+    if extra.get("companies_bw"):
+        names = {e["name"].lower() for e in entries}
+        entries += [e for e in cfg.get("companies_bw", []) if e["ats"] != "unknown" and e["name"].lower() not in names]
+    for entry in entries:
         run("Company career sites (direct)", sources.company_feed, entry)
     if os.getenv("SERPER_API_KEY"):
         for q in cfg.get("post_queries", []):
@@ -127,6 +140,15 @@ def main():
                 log.warning("Arbeitsagentur details for %s failed: %s", j["title"], ex)
     score.score_jobs(jobs, cv)
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
+    for j in jobs:  # best effort: real application form + ATS for strong jobs
+        if j["score"] >= 60:
+            try:
+                from . import resolve
+                r = resolve.resolve(j)
+                j.update({"form_url": r["form_url"], "ats": r["ats"], "needs_login": r["needs_login"],
+                          "captcha": r["captcha"], "resolve_status": r["status"]})
+            except Exception as ex:
+                log.warning("resolve %s failed: %s", j["title"], ex)
     digest.assign_sections(jobs)
     ledger = outreach.sync() if not os.getenv("DRY_RUN") else outreach.load()  # sent drafts -> APPLIED.md
     replies = inbox.scan() if not os.getenv("DRY_RUN") else []  # interviews / rejections in her Gmail
