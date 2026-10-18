@@ -24,6 +24,13 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
      travel up to 50 %; earliest start 16.12.2026; location preference **Karlsruhe**, else nearest, else remote.
    - motivation / message / "why us" box → `why_us`. Other free-text questions → 2–4 selling sentences from her CV
      facts. Dropdowns → strongest true option.
+   - **Sell, never self-reject.** You are her advocate. Every answer must keep her in the race: pick the answer
+     that shows fit and willingness (yes to relocation within Germany, overtime, on-call, learning new tools,
+     hybrid/onsite, travel ≤ 50 %). Missing skill → "familiar with / ready to learn quickly", never "no experience".
+     Knock-out questions → the true answer that passes. Never volunteer weaknesses. Stay truthful to facts
+     (B1 German, no driving licence, no disability stay as they are).
+   - **Log every answer you write yourself** (anything not copied 1:1 from facts / `why_us`):
+     `python -m helper.claude_jobs answer "<id>" "<question>" "<your answer>"` — we review these to improve.
    - upload `files.cv` as CV/Lebenslauf and `files.cover_letter` as cover letter/Anschreiben (browser_file_upload).
    - tick every checkbox (privacy, terms, talent pool, keep data, newsletter). Cookie banners: **accept all** (her explicit preference).
    - date of birth → `contact.birthdate` from facts.
