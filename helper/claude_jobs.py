@@ -166,6 +166,11 @@ def main():
             text = text.replace(head, head + "\n" + line, 1) if head in text else text.rstrip() + f"\n\n{head}\n{line}\n"
             pb.write_text(text, encoding="utf-8")
         res = {"learned": True}
+    elif cmd == "answer":  # answer <id> <question> <answer>: self-written answers, reviewed later to improve
+        with open(ROOT / "data" / "answers.jsonl", "a", encoding="utf-8") as fh:
+            fh.write(json.dumps({"ts": time.strftime("%Y-%m-%d %H:%M"), "id": sys.argv[2], "q": sys.argv[3],
+                                 "a": sys.argv[4]}, ensure_ascii=False) + "\n")
+        res = {"logged": True}
     elif cmd == "done":
         res = done(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else "")
     else:
