@@ -38,13 +38,21 @@ class Lever(Site):
         return page.url.rstrip("/").endswith("/thanks")
 
     def after_fill(self, page, lang):
-        try:  # location typeahead -> first result
+        """Location typeahead: must be typed (key events) and a suggestion clicked, else Lever clears it."""
+        from helper import answers
+        try:
             loc = page.query_selector("input.location-input[name=location]")
-            if loc and loc.is_visible() and loc.input_value().strip() and not page.query_selector("input[name=selectedLocation][value]:not([value=''])"):
-                page.wait_for_timeout(1200)
-                item = page.query_selector(".dropdown-location .dropdown-results div")
-                if item:
+            chosen = page.evaluate("() => { const h = document.querySelector('input[name=selectedLocation]'); return !!(h && h.value); }")
+            if loc and loc.is_visible() and not chosen:
+                city = answers.facts()["location"]["city"]
+                loc.click()
+                loc.fill("")
+                loc.type(city, delay=60)
+                page.wait_for_timeout(1500)
+                item = page.query_selector("div.dropdown-location, .dropdown-results div")
+                if item and item.is_visible():
                     item.click()
+                    page.wait_for_timeout(500)
         except Exception:
             pass
 

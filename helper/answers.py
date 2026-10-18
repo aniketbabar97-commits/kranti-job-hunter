@@ -21,6 +21,16 @@ def facts():
     return _FACTS
 
 
+def master_job(key):
+    """Current / most recent position from profile/master.yaml (jobs[0])."""
+    try:
+        import yaml
+        m = yaml.safe_load((ROOT / "profile" / "master.yaml").read_text(encoding="utf-8"))
+        return m["jobs"][0][key]
+    except Exception:
+        return None
+
+
 def yes_no(value, lang):
     if isinstance(value, str) and not re.fullmatch(r"(yes|no|ja|nein)", value.strip(), re.I):
         return value  # a sentence such as "yes, up to 50 %"
@@ -42,7 +52,26 @@ RULES = [
     (r"criminal|vorstrafe|polizeiliche|führungszeugnis|convict|background check", lambda f, l: yes_no(f["criminal_record"], l)),
     (r"referr|empfohlen|empfehlung|referred by|mitarbeiterempfehlung", lambda f, l: yes_no(f["referral"], l)),
     (r"travel|reise|dienstreise|reisebereit", lambda f, l: yes_no(f["travel"], l)),
+    # relocation: yes within Germany, no when the question names another country / city abroad
+    (r"(reloca|umzug|umzieh|umzugsbereit).{0,60}\b(to|nach)\b(?!.{0,40}(germany|deutschland|berlin|m[üu]nchen|munich|hamburg|"
+     r"frankfurt|k[öo]ln|cologne|stuttgart|d[üu]sseldorf|karlsruhe|leipzig|n[üu]rnberg|hannover|bremen|dresden))",
+     lambda f, l: yes_no("no", l)),
     (r"reloca|umzug|umzieh|umzugsbereit|wohnortwechsel", lambda f, l: yes_no(f["relocation_within_germany"], l)),
+    # language-level yes/no questions: German C1/C2 / fluent -> no (B1); English fluent -> yes
+    (r"(german|deutsch).{0,60}\b(c1|c2|fluent|fließend|verhandlungssicher|native|muttersprach)|"
+     r"\b(c1|c2|fluent|fließend|verhandlungssicher).{0,40}(german|deutsch)", lambda f, l: yes_no("no", l)),
+    (r"(english|englisch).{0,60}\b(c1|c2|fluent|fließend|verhandlungssicher|business)|"
+     r"\b(c1|c2|fluent|fließend|verhandlungssicher).{0,40}(english|englisch)", lambda f, l: yes_no("yes", l)),
+    (r"most recent (job )?title|current (job )?title|(aktuelle|letzte) position|jobtitel|job title",
+     lambda f, l: master_job("title")),
+    (r"most recent employer|current (employer|company)|(aktueller|letzter) arbeitgeber|\bemployer\b|\barbeitgeber\b|^company\b|^org\b",
+     lambda f, l: master_job("company")),
+    (r"^school|universit|hochschule|college", lambda f, l: f["education"]["university"]),
+    (r"^degree|abschluss|highest (level of )?education", lambda f, l: "Bachelor"),
+    (r"discipline|field of study|major|studienrichtung|studienfach|fachrichtung", lambda f, l: "Computer Engineering"),
+    (r"campus event|career fair|karrieremesse|which event", lambda f, l: "None"),
+    (r"pronoun", lambda f, l: "she/her"),
+    (r"i confirm|ich bestätige|hereby confirm|is true and correct|wahrheitsgemäß", lambda f, l: "Ja" if l == "de" else "Yes"),
     (r"remote|hybrid|home.?office|mobiles arbeiten|on.?site|vor ort", lambda f, l: yes_no(f["remote_or_hybrid"], l)),
     (r"previously (worked|employed|applied)|ever (worked|been employed)|former employee|schon einmal|bereits (bei|für) uns|"
      r"zuvor (bei|für)|früher (bei|für)|ehemalige", lambda f, l: yes_no(f["previous_employment_at_company"], l)),
@@ -73,9 +102,9 @@ RULES = [
                                               else f"Serving notice, last working day {de_date(f['notice']['last_day'])}")),
     (r"earliest|start|eintritt|verfügbar|available|availab|beginn|antritt", lambda f, l: de_date(f["notice"]["earliest_start"])),
     (r"linkedin", lambda f, l: f["linkedin"]),
+    (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", lambda f, l: f"{f['name']['first']} {f['name']['last']}"),
     (r"first.?name|vorname|given.?name|^first\b", lambda f, l: f["name"]["first"]),
     (r"last.?name|nachname|surname|family.?name|^last\b", lambda f, l: f["name"]["last"]),
-    (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", lambda f, l: f"{f['name']['first']} {f['name']['last']}"),
     (r"e-?mail", lambda f, l: os.environ.get("CANDIDATE_EMAIL")),
     (r"phone|telefon|mobil|handy|tel\.?\b", lambda f, l: os.environ.get("CANDIDATE_PHONE")),
     (r"gender|geschlecht", lambda f, l: ("Weiblich" if l == "de" else "Female")),

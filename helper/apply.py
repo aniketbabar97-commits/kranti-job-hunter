@@ -101,9 +101,9 @@ def answers(kit, lang):
     phone = os.environ["CANDIDATE_PHONE"]
     # (label pattern, value). First match wins; patterns are checked against the field's label text.
     return [
+        (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", "Kranti Chavan"),
         (r"first.?name|vorname|given.?name|^first\b", "Kranti"),
         (r"last.?name|nachname|surname|family.?name|^last\b", "Chavan"),
-        (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", "Kranti Chavan"),
         (r"e-?mail", os.environ["CANDIDATE_EMAIL"]),
         (r"phone|telefon|mobil|handy|tel\.?\b", phone),
         (r"linkedin", "https://www.linkedin.com/in/kranti-chavan-84a155191"),
@@ -170,11 +170,18 @@ LABEL_JS = """e => {
   t.push(e.getAttribute('aria-label') || '', e.placeholder || '');
   const lb = e.getAttribute('aria-labelledby');
   if (lb) for (const id of lb.split(' ')) { const x = document.getElementById(id); if (x) t.push(x.innerText); }
+  if (t.join('').trim().length < 3) {  // no label: the question wrapper's first text line (Lever, Workday, custom forms)
+    const q = e.closest('.application-question, .field, .form-group, .question, [class*=question], [class*=field], fieldset, li, label');
+    const lab = q && (q.querySelector('.application-label, legend, label, [class*=label]'));
+    const txt = (lab ? lab.innerText : (q ? q.innerText : '')).trim().split('\\n')[0];
+    if (txt) t.push(txt.slice(0, 160));
+  }
   if (t.join('').trim().length < 3) t.push((e.name || '').replace(/[_\\-\\[\\]]/g, ' '), e.id || '');
   let p = e.closest('div,fieldset,li,label');
   for (let i = 0; i < 2 && p && t.join('').trim().length < 3; i++) { t.push(p.innerText.slice(0, 120)); p = p.parentElement; }
   return t.join(' | ').replace(/\\s+/g, ' ').trim();
 }"""
+PHONE_PREFIX_ONLY = re.compile(r"^\s*\+?\d{1,4}\s*$")  # "+49": the widget's country code, not a number
 
 
 def fill(page, kit, cv, letter, text, lang, uploaded=None):
@@ -218,6 +225,8 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                     continue
                 if not el.is_visible() or SKIP_LABEL.search(label):
                     continue
+                if el.evaluate("e => e.matches(%s)" % json.dumps(REACT_SELECT_INPUT)):
+                    continue  # react-select search box: handled by fill_react_selects
                 if kind == "select":
                     if el.evaluate("e => e.selectedIndex > 0 && e.value !== ''") and \
                             not PLACEHOLDER_OPT.match(el.evaluate("e => e.options[e.selectedIndex].text") or ""):
@@ -237,7 +246,7 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                     elif is_required(el, label):
                         unknown.append(label[:60])
                     continue
-                if el.input_value().strip():
+                if el.input_value().strip() and not (kind == "tel" and PHONE_PREFIX_ONLY.match(el.input_value())):
                     continue
                 if kind == "textarea" and WHY_LABEL.search(label) and kit["tailoring"].get("why_company"):
                     el.fill(kit["tailoring"]["why_company"])
@@ -263,7 +272,68 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
             except Exception:
                 continue
     filled += fill_radios(page, lang)
+    filled += fill_react_selects(page, lang, unknown)
     return filled, unknown
+
+
+REACT_SELECT_INPUT = "input.select__input, input[id^=react-select][id$='-input'], input[role=combobox][aria-autocomplete=list]"
+REACT_SELECT_OPTION = "[class*=select__option], [class*=-option], [role=option]"
+
+
+def fill_react_selects(page, lang, unknown):
+    """react-select style dropdowns (Greenhouse new boards, softgarden, many custom forms): open, type, pick.
+    Answer from facts; typeahead fields (school, country) take the first suggestion for the typed answer."""
+    from helper import answers as _answers
+    done = []
+    for frame in page.frames:
+        for el in frame.query_selector_all(REACT_SELECT_INPUT):
+            try:
+                if not el.is_visible():
+                    continue
+                has_value = el.evaluate("e => { const c = e.closest('[class*=container], [class*=select]'); "
+                                        "return !!(c && c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')); }")
+                if has_value:
+                    continue
+                label = el.evaluate(LABEL_JS)
+                if SKIP_LABEL.search(label) or re.search(r"language.?select|sprache wählen|ccm-", label, re.I):
+                    continue
+                want = _answers.answer(label, lang)
+                if not want:
+                    if is_required(el, label):
+                        unknown.append(label[:60])
+                    continue
+                if _answers.is_yes(want):
+                    typed, rx = ("Ja" if lang == "de" else "Yes"), re.compile(r"^\s*(yes|ja)\b", re.I)
+                elif _answers.is_no(want):
+                    typed, rx = ("Nein" if lang == "de" else "No"), re.compile(r"^\s*(no|nein|none|keine?)\b", re.I)
+                else:
+                    typed = str(want).split(",")[0].strip()[:30]
+                    rx = re.compile(re.escape(typed[:12]), re.I)
+                el.click()
+                frame.wait_for_timeout(300)
+                opts = [o for o in frame.query_selector_all(REACT_SELECT_OPTION) if o.is_visible()]
+                hit = [o for o in opts if rx.search(o.inner_text() or "") and not PLACEHOLDER_OPT.match(o.inner_text() or "")]
+                if not hit:
+                    el.type(typed, delay=40)
+                    frame.wait_for_timeout(1200)
+                    opts = [o for o in frame.query_selector_all(REACT_SELECT_OPTION) if o.is_visible()]
+                    hit = [o for o in opts if rx.search(o.inner_text() or "")] or opts[:1]
+                if hit and not re.search(r"no (options|results)|keine (optionen|ergebnisse)", hit[0].inner_text() or "", re.I):
+                    chosen = hit[0].inner_text().strip()
+                    hit[0].click()
+                    frame.wait_for_timeout(300)
+                    done.append(f"{label.split(' | ')[0][:30]} = {chosen[:20]}")
+                else:
+                    frame.keyboard.press("Escape")
+                    if is_required(el, label):
+                        unknown.append(label[:60])
+            except Exception:
+                try:
+                    frame.keyboard.press("Escape")
+                except Exception:
+                    pass
+                continue
+    return done
 
 
 RADIO_GROUP_JS = """e => { const g = e.closest('fieldset, [role=radiogroup], .form-group, .field, .question, div');
@@ -367,10 +437,14 @@ def tick_consent(page):
     """Tick every visible, unticked checkbox (privacy, terms, talent pool, keep my data, newsletter: all yes)."""
     n = 0
     for frame in page.frames:
-        for el in frame.query_selector_all("input[type=checkbox], [role=checkbox][aria-checked=false]"):
+        boxes = frame.query_selector_all("input[type=checkbox], [role=checkbox][aria-checked=false]")
+        names = [b.get_attribute("name") or "" for b in boxes]
+        for el in boxes:
             try:
                 label = el.evaluate(LABEL_JS)
                 name = (el.get_attribute("name") or el.get_attribute("id") or "")
+                if name and names.count(name) > 2:
+                    continue  # a multi-choice question ("which languages do you speak"), not a consent box
                 if NEVER_TICK.search(label.split(" | ")[0]) or NEVER_TICK.search(name) or not el.is_visible():
                     continue
                 if el.evaluate("e => e.tagName") == "INPUT" and el.is_checked():
@@ -391,7 +465,8 @@ def captcha_visible(page):
         try:
             for el in frame.query_selector_all(CAPTCHA_FRAME):
                 box = el.bounding_box()
-                if box and box["height"] >= 50 and box["width"] >= 50 and el.is_visible():
+                badge = el.evaluate("e => !!e.closest('.grecaptcha-badge')")  # invisible reCAPTCHA's corner badge
+                if box and box["height"] >= 70 and box["width"] >= 70 and el.is_visible() and not badge:
                     return True
             if "captcha-delivery.com" in frame.url or BLOCKER.search(frame.inner_text("body", timeout=1000)[:20000]):
                 return True

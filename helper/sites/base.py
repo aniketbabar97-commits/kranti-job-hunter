@@ -53,12 +53,24 @@ class Site:
         apply.accept_cookies(page)
         if not self.has_form(page) and apply.click_apply(page):
             page.wait_for_timeout(3000)
+            page = page.context.pages[-1]  # some sites open the form in a new tab
             apply.accept_cookies(page)
         return self.has_form(page)
 
     def has_form(self, page):
+        """A real application form: a file input, or at least two visible fields that are not a site search."""
         try:
-            return page.locator("input:not([type=hidden]), textarea, select").count() > 0
+            for f in page.query_selector_all("input[type=file]"):
+                if f.evaluate("e => (e.closest('form') || e.parentElement).getClientRects().length > 0"):
+                    return True  # the file input itself is often hidden behind a styled button
+            n = 0
+            for el in page.query_selector_all("input:not([type=hidden]):not([type=search]), textarea, select"):
+                try:
+                    if el.is_visible() and not re.search(r"search|suche|ccm-|cookie", el.get_attribute("name") or el.get_attribute("id") or "", re.I):
+                        n += 1
+                except Exception:
+                    continue
+            return n >= 2
         except Exception:
             return False
 
@@ -156,8 +168,10 @@ class Site:
                 uploads = set()
                 for step in range(4):
                     rep["steps"] = step + 1
+                    apply.accept_cookies(page)
                     filled, unknown = self.fill(page, kit, TEST_CV, TEST_CL, "Sehr geehrte Damen und Herren, ...", "de", uploads)
                     apply.tick_consent(page)
+                    page.wait_for_timeout(2000)  # React forms enable Submit a moment after the last field
                     rep["filled"] += len([x for x in filled if not x.startswith("upload")])
                     rep["detail"] += filled
                     rep["unknown"] = unknown

@@ -84,21 +84,32 @@ def arbeitsagentur(query, days=2, max_pages=3):
     return jobs
 
 
-def jobspy(query, location, hours_old, results, remote_only=False):
-    """LinkedIn + Indeed via the JobSpy library."""
+JOBSPY_SITES = ["linkedin", "indeed", "glassdoor", "google"]
+
+
+def jobspy(query, location, hours_old, results, remote_only=False, sites=None):
+    """LinkedIn, Indeed, Glassdoor and Google Jobs via the JobSpy library. Each site is scraped on its
+    own so one blocked site (Glassdoor often answers 403 from data-center IPs) does not lose the others."""
     from jobspy import scrape_jobs
 
-    df = scrape_jobs(
-        site_name=["linkedin", "indeed"],
-        search_term=query,
-        location=location,
-        country_indeed="germany",
-        is_remote=remote_only,
-        results_wanted=results,
-        hours_old=hours_old,
-        linkedin_fetch_description=False,
-        verbose=0,
-    )
+    frames = []
+    for site in sites or JOBSPY_SITES:
+        kwargs = dict(site_name=[site], search_term=query, location=location, country_indeed="germany",
+                      is_remote=remote_only, results_wanted=results, hours_old=hours_old,
+                      linkedin_fetch_description=False, verbose=0)
+        if site == "google":
+            kwargs["google_search_term"] = f"{query} jobs {location}" + (" remote" if remote_only else "")
+        try:
+            df = scrape_jobs(**kwargs)
+        except Exception as e:  # noqa: BLE001 - per-site failures must not kill the run
+            log.warning("jobspy %s %r failed: %s", site, query, e)
+            continue
+        if df is not None and len(df):
+            frames.append(df)
+    if not frames:
+        return []
+    import pandas as pd
+    df = pd.concat(frames, ignore_index=True)
     jobs = []
     for row in df.fillna("").to_dict("records"):
         salary = ""

@@ -28,7 +28,7 @@ class Softgarden(Site):
                                r"versendet)|thank you for (your )?appl|application (has been )?(submitted|received)", re.I)
 
     def has_form(self, page):
-        return "/application/" in page.url or super().has_form(page)
+        return "/application/" in page.url  # the job page has a search box; the form lives on career.softgarden.de
 
     def after_fill(self, page, lang):
         """Step 3: free-text questions ("Eintrittstermin") get answers from facts; choice buttons we know are clicked."""
