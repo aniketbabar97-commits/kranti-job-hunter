@@ -99,9 +99,9 @@ def answers(kit, lang):
     phone = os.environ["CANDIDATE_PHONE"]
     # (label pattern, value). First match wins; patterns are checked against the field's label text.
     return [
-        (r"first.?name|vorname|given.?name", "Kranti"),
-        (r"last.?name|nachname|surname|family.?name", "Chavan"),
-        (r"^(full.?)?name\b|^ihr name|vollständiger name|^name\s*\*?$", "Kranti Chavan"),
+        (r"first.?name|vorname|given.?name|^first\b", "Kranti"),
+        (r"last.?name|nachname|surname|family.?name|^last\b", "Chavan"),
+        (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", "Kranti Chavan"),
         (r"e-?mail", os.environ["CANDIDATE_EMAIL"]),
         (r"phone|telefon|mobil|handy|tel\.?\b", phone),
         (r"linkedin", "https://www.linkedin.com/in/kranti-chavan-84a155191"),
