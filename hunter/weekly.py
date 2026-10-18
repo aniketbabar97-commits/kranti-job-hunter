@@ -115,7 +115,8 @@ def maybe_send(today, cfg):
         j.setdefault("score", 90)
         j.setdefault("lang", "de" if j["source"] == "Arbeitsagentur" else "en")
     kit.make_kits(hard)
-    body = build(today, report.read_log(), applied_data, hard)
+    from . import inbox
+    body = build(today, report.read_log(), applied_data, hard).replace("</div>", inbox.weekly_stats() + "</div>", 1)
     (ROOT / "data" / "last_weekly.html").write_text(body, encoding="utf-8")
     if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body, [a for j in hard for a in j.get("attachments", [])]):
         STATE.write_text(week, encoding="utf-8")

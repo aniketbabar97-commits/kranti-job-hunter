@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import applied, digest, kit, outreach, report, rules, score, sources, weekly
+from . import applied, digest, inbox, kit, outreach, report, rules, score, sources, weekly
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
@@ -129,6 +129,7 @@ def main():
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
     digest.assign_sections(jobs)
     ledger = outreach.sync() if not os.getenv("DRY_RUN") else outreach.load()  # sent drafts -> APPLIED.md
+    replies = inbox.scan() if not os.getenv("DRY_RUN") else []  # interviews / rejections in her Gmail
     applied_data = applied.load()
     for j in jobs:
         j["applied"] = applied.status(j, applied_data)
@@ -146,7 +147,8 @@ def main():
     ledger = outreach.load()
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
-    body = digest.build_html(jobs, health, label, outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
+    body = digest.build_html(jobs, health, label, inbox.digest_block(replies)
+                             + outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
     PREVIEW.parent.mkdir(exist_ok=True)
     PREVIEW.write_text(body, encoding="utf-8")
     if os.getenv("DRY_RUN"):

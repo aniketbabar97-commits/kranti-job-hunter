@@ -40,18 +40,24 @@ def queue(days=45):
     ledger = json.loads((ROOT / "data" / "applications.json").read_text()) if (ROOT / "data" / "applications.json").exists() else {}
     emailed = {v["url"] for v in ledger.values()}
     skipped = set(SKIPPED.read_text().split()) if SKIPPED.exists() else set()
+    applied_md = (ROOT / "APPLIED.md").read_text(encoding="utf-8") if (ROOT / "APPLIED.md").exists() else ""
+    via_form = {m.group(1) for m in re.finditer(r"(\S+) \([^)]*applied via form\)", applied_md)}
     since = (date.today() - timedelta(days=days)).isoformat()
     kits, seen = [], set()
     for f in sorted((ROOT / "applications").glob("*.json"), reverse=True):  # newest kit per job wins
         k = json.loads(f.read_text(encoding="utf-8"))
+        if not k.get("lang"):
+            continue  # older kit, written before the final selling standard
         j = k["job"]
         if j["url"] in seen or k.get("created", "") < since:
             continue
         seen.add(j["url"])
-        if j["url"] in emailed or j["url"] in skipped or applied.status(j, data) == "applied":
+        # emailed jobs stay in the list: every job is ALSO applied to on the company website
+        if j["url"] in skipped or j["url"] in via_form or (applied.status(j, data) == "applied" and j["url"] not in emailed):
             continue
         kits.append(k)
-    return sorted(kits, key=lambda k: -int(k["job"].get("score") or 0))
+    # LinkedIn recruiter posts (no form: message the recruiter) go last
+    return sorted(kits, key=lambda k: (k["job"]["title"].startswith("[Post]"), -int(k["job"].get("score") or 0)))
 
 
 def build_pdfs(kit):
