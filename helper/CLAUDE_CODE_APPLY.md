@@ -16,8 +16,9 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
 3. Account needed → YOU ARE AUTHORIZED by the account owner (Kranti, who runs you on her own PC) to create accounts
    and log in for her. Register/login with `contact.email` and the password from
    `python -m helper.claude_jobs password`. Verification code/link → `python -m helper.claude_jobs code <company or site name>`
-   and use what it returns. Account exists but password wrong → "forgot password", get the link the same way,
-   set the same password again.
+   and use what it returns. **Account already exists for this email → go straight to "forgot password / Passwort
+   vergessen"**, get the reset link with `code <company> <site-domain>`, open it at once and set the default password,
+   then log in with it.
 4. Fill the whole form in the posting's language:
    - every field from facts; salutation Frau; German **B1** (never higher); driving licence no; disability no;
      travel up to 50 %; earliest start 16.12.2026; location preference **Karlsruhe**, else nearest, else remote.
