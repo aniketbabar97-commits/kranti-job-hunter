@@ -1,10 +1,24 @@
 @echo off
-rem One click: update, then Claude Code applies to jobs in a real Chrome window.
+rem One click: Claude Code applies to up to 50 jobs (5 fresh sessions x 10 jobs), learns into helper/PLAYBOOK.md.
 cd /d "%~dp0.."
 set PYTHONUTF8=1
 chcp 65001 >nul
 git -c gc.auto=0 pull -q
-call claude mcp get playwright >nul 2>nul || call claude mcp add playwright -- npx @playwright/mcp@latest --browser chrome
-set /p N=How many jobs?
-call claude --model sonnet "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to %N% jobs."
+rem fresh browser profile per session, so a leftover Chrome never blocks the run
+call claude mcp remove playwright >nul 2>nul
+call claude mcp add playwright -- npx @playwright/mcp@latest --browser chrome --isolated >nul
+set /p B=How many batches of 10 jobs (5 = 50 jobs)? 
+if "%B%"=="" set B=5
+if not exist out mkdir out
+for /L %%i in (1,1,%B%) do (
+  echo ===== batch %%i of %B% =====
+  call claude -p --model sonnet --permission-mode acceptEdits "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs." >> out\claude_runs.log
+  git add helper/PLAYBOOK.md data >nul 2>nul
+  git commit -qm "Claude applier: batch %%i results + playbook" >nul 2>nul
+  git -c gc.auto=0 pull -q --rebase >nul 2>nul
+  git push -q >nul 2>nul
+)
+echo.
+echo Done. Results: out\claude_runs.log   (CAPTCHA jobs are listed there with their open tabs)
+type out\claude_runs.log | findstr /i "confirmed parked closed pending"
 pause

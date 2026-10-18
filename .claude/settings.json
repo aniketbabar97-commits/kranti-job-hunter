@@ -2,6 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python -m helper.claude_jobs:*)",
+      "Bash(python:*)",
+      "Read(**)",
+      "Write(.playwright-mcp/**)",
       "mcp__playwright__*"
     ]
   }
