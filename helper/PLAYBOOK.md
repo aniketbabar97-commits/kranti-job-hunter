@@ -115,3 +115,30 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## JOIN (join.com) Ares
 - Login-link flow again: 'code join' returns link; CV preloaded from a previous job -> 'Datei entfernen' then setInputFiles; cover letter dropzone input; start date calendar cell-trigger; salary numeric; review page -> button 'Bewerbung senden'; success URL /apply/success.
+
+## Musik Meyer (TYPO3 powermail)
+- Form /bewerbungsformular: name, email, ONE single-file upload (merge cover letter+CV with pypdf), consent; Absenden then a confirm page -> click 'Weiter'. Success: 'Vielen Dank. Wir haben Ihre Nachricht erhalten'.
+
+## SuccessFactors (jobs.innomotics.com / career5)
+- No CAPTCHA seen. Accept Usercentrics (shadow DOM button[data-testid=uc-accept-all-button]) first; Jetzt bewerben > Konto anlegen > emailed passcode ('code innomotics') > profile page. Upload CV/cover via 'Von Gerät hochladen' then file chooser. CV parse prefills; delete empty education row, set Degree/Major comboboxes via click + role=option, DOB TT.MM.JJJJ. Disability combobox has no 'Nein' - left blank. Bewerben -> title 'Erfolgreich angewendet'.
+
+## JOIN (join.com) Holz-Richter
+- Company /karriere/casando page links to JOIN. Direct URL join.com/companies/<co>/<id>/apply works; email > 'code join' link > remove preloaded CV, dropzone button name 'dropzone' + file chooser > cover letter > start-date calendar (2x next month, cell-trigger) > screening questions (salary number, city textarea, on-site Ja) > 'Bestätigen & bewerben'.
+
+## Personio (*.jobs.personio.de) ValueNet
+- Direct /job/<id>/apply?display=en works. Fill by #field-<name> ids via fill_form (selects by option text); 'Add file' click opens chooser, a 2nd file lands in the same CV slot (fine). Screening selects may ask skills not in CV (Odoo/Python) - answer truthfully. Confirmation 'THANK YOU'.
+
+## Personio (amplio.jobs.personio.de)
+- Direct /job/<id>/apply?display=de; fill_form by #field-* ids (birthday is type=date ISO, experience select '5–6 Jahre'); each 'Datei hinzufügen' (nth 0 cover, 1 CV) opens chooser. No CAPTCHA. Confirmation 'Wir haben deine Bewerbung erhalten'.
+
+## Piazza Blu (piazzablu.com contact form)
+- Job page has a form (position select #position-contact, name, email, phone, message, multi-file label[for=job-contact-input]). Click 'Alle akzeptieren' cookie modal first. Success = Senden button text becomes 'Gesendet' (no thank-you page); Turnstile is invisible.
+
+## Workday (Philips)
+- Guest 'Apply Manually' works, no account/CAPTCHA. Open <job>/apply then Apply Manually. 'How did you hear' multiselect: click box, TYPE 'LinkedIn', Enter (clicking an option then Enter picks a wrong item). Step2 'Select files' accepts CV+cover letter in one file_upload. Questionnaire dropdowns: click button by id then role=option. Terms checkbox #termsAndConditions--acceptTermsAndAgreements, Submit = pageFooterNextButton. Title 'Congratulations'.
+
+## JOIN (join.com) Nordason
+- Already logged in: /apply lands on /apply/cv with previous CV -> Datei entfernen, dropzone, upload; same flow. German-level question options A-F: B1 = 'Gute Kenntnisse'; optional multi-checkbox question can be skipped.
+
+## Heizungsdiscount24 (own site)
+- Homepage link -> /jobs.html -> 'Zur Stellenbeschreibung'; posting page has no form, only a mailto for PDFs. Park as email-only.
