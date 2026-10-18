@@ -145,7 +145,7 @@ min_score_in_digest: 0  # 0 = show everything, ranked
 # We apply; rejecting is the hiring team's job. Scores 60+ are realistic fits (letters stay honest about gaps).
 applications:
   mode: send
-  max_per_day: 0        # PAUSED (set back to 15 to resume email applications)
+  max_per_day: 15
   min_score: 60
   per_company: 2       # different roles at one company, never two on the same day
   catch_up_days: 45    # strong jobs from earlier digests still get an application
