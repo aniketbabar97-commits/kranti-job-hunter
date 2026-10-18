@@ -35,11 +35,24 @@ def _id(kit):
     return kit["job"]["url"]
 
 
+def _dup_key(kit):
+    import re as _re
+    norm = lambda x: _re.sub(r"\(.*?\)|gmbh|se|ag|deutsche|[^a-z]", "", (x or "").lower())
+    return norm(kit["job"]["company"])[:12] + "|" + norm(kit["job"]["title"])[:30]
+
+
 def next_jobs(n=1):
     from hunter.kit import salary_answer
     done = _state()
     out = []
+    applied_keys = set()  # same company + title already applied via another portal -> skip the duplicate
     for kit in queue():
+        if done.get(_id(kit), {}).get("status") == "confirmed":
+            applied_keys.add(_dup_key(kit))
+    # Claude handles every channel, so best fit first (score), not the old helper's channel order
+    for kit in sorted(queue(), key=lambda k: (k["job"]["title"].startswith("[Post]"), -int(k["job"].get("score") or 0))):
+        if _dup_key(kit) in applied_keys:
+            continue
         j = kit["job"]
         # finished ones never again; parked ones only in a later run (not again within 6 h)
         d = done.get(_id(kit), {})
