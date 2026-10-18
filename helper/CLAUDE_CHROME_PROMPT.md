@@ -19,7 +19,7 @@ Work permit: yes (valid). Notice: serving, earliest start 16.12.2026. Salary + "
 Files: the two PDFs named in the job block, all in ONE folder: C:\Kranti\pdfs\ (full path = C:\Kranti\pdfs\<file name>). In the upload dialog type/paste that full path into the "File name" box and press Enter — do not browse folders. If the site's upload button won't open a dialog you can use → park as UPLOAD.
 
 Be smart and decide yourself — act like an experienced applicant applying for her:
-- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: "verhandlungssicher / C1"; English: fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 25 %; driving licence: yes).
+- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: "verhandlungssicher / C1"; English: fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 50 %; driving licence: answer "no" truthfully — never claim one, and if it is a hard requirement still apply).
 - Dropdowns/ratings → pick the strongest truthful option. Free text required with no data → 1–2 short selling sentences from "Why us".
 - Several similar positions → pick the one closest to the job title. Ugly or multi-step portal → push through.
 - Ask me ONLY for: passwords, CAPTCHAs, verification codes, or a legal declaration you cannot know (e.g. criminal record, previous employment at this company). Everything else: decide and continue.
