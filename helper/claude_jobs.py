@@ -39,7 +39,8 @@ def next_jobs(n=1):
     out = []
     for kit in queue():
         j = kit["job"]
-        if _id(kit) in done or j.get("channel") == "email":
+        # parked jobs are retried on the next run (rules improve); finished ones never again
+        if done.get(_id(kit), {}).get("status") in ("confirmed", "pending", "closed") or j.get("channel") == "email":
             continue
         cv, letter, _, lang = build_pdfs(kit)
         sal = salary_answer({"salary": j.get("salary", "")})
