@@ -21,6 +21,7 @@ sys.path.insert(0, str(ROOT))
 HERE = Path(__file__).resolve().parent
 OUT = ROOT / "out" / "helper"
 SKIPPED = HERE / "skipped.txt"
+AUTO = False  # AUTO_SUBMIT=1 in me.env: submit by itself when the form is complete and safe
 
 
 def load_env():
@@ -221,6 +222,85 @@ def click_apply(page):
     return False
 
 
+SUBMIT_BTN = re.compile(r"^\s*(bewerbung )?(jetzt )?(absenden|abschicken|senden|einreichen|übermitteln)|"
+                        r"^\s*(submit|send)( (my |your )?application)?\s*$|^\s*apply( now)?\s*$|"
+                        r"^\s*(jetzt )?bewerben\s*$", re.I)
+NEXT_BTN = re.compile(r"^\s*(weiter|next|continue|fortfahren|nächster schritt)\s*$", re.I)
+CONSENT = re.compile(r"datenschutz|privacy|data protection|einwillig|consent|zustimm|agree|akzeptier|"
+                     r"terms|bedingungen|dsgvo|gdpr", re.I)
+NO_TICK = re.compile(r"newsletter|talent ?pool|talentpool|marketing|werbung|future (jobs|opportunit)|"
+                     r"weitere (stellen|angebote)|job alert", re.I)
+BLOCKER = re.compile(r"captcha|recaptcha|hcaptcha|turnstile|i'?m not a robot|ich bin kein roboter", re.I)
+
+
+def tick_consent(page):
+    """Tick required privacy/terms boxes only (never newsletter / talent pool)."""
+    n = 0
+    for frame in page.frames:
+        for el in frame.query_selector_all("input[type=checkbox]"):
+            try:
+                label = el.evaluate(LABEL_JS)
+                required = el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true"
+                if not el.is_checked() and CONSENT.search(label) and not NO_TICK.search(label) and \
+                        (required or re.search(r"datenschutz|privacy|data protection|dsgvo|gdpr", label, re.I)):
+                    try:
+                        el.check(timeout=2000)
+                    except Exception:
+                        el.evaluate("e => e.click()")
+                    n += 1
+            except Exception:
+                continue
+    return n
+
+
+def problems(page, uploads_needed, uploaded):
+    """Reasons not to submit automatically ([] = safe)."""
+    why = []
+    for frame in page.frames:
+        try:
+            if frame.query_selector("iframe[src*=captcha], iframe[src*=turnstile], .g-recaptcha, .h-captcha") or \
+                    BLOCKER.search(frame.inner_text("body", timeout=1000)[:20000]):
+                why.append("CAPTCHA")
+                break
+        except Exception:
+            pass
+    for frame in page.frames:
+        for el in frame.query_selector_all("input, textarea, select"):
+            try:
+                kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
+                req = el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true"
+                if not req or kind in ("hidden", "submit", "button", "file") or not el.is_visible():
+                    continue
+                if kind in ("checkbox", "radio"):
+                    if kind == "checkbox" and not el.is_checked():
+                        why.append("unticked: " + el.evaluate(LABEL_JS)[:40])
+                    continue
+                if not el.input_value().strip():
+                    why.append("empty: " + el.evaluate(LABEL_JS)[:40])
+            except Exception:
+                continue
+    if uploads_needed and not uploaded:
+        why.append("files not attached")
+    if page.query_selector("input[type=password]"):
+        why.append("account/password")
+    return why
+
+
+def click_button(page, rx):
+    for frame in page.frames:
+        for loc in (frame.get_by_role("button"), frame.locator("input[type=submit]")):
+            try:
+                for i in range(min(loc.count(), 60)):
+                    el = loc.nth(i)
+                    text = el.inner_text(timeout=500) if el.evaluate("e => e.tagName") != "INPUT" else el.get_attribute("value")
+                    if el.is_visible() and el.is_enabled() and rx.search(text or ""):
+                        el.click(timeout=5000)
+                        return True
+            except Exception:
+                continue
+    return False
+
+
 def confirmed(ctx):
     for p in ctx.pages:
         try:
@@ -257,7 +337,10 @@ def log_applied(kit):
 
 
 def main():
+    global AUTO
     load_env()
+    AUTO = os.environ.get("AUTO_SUBMIT") == "1"
+    print("AUTO SUBMIT is ON" if AUTO else "Review mode (AUTO_SUBMIT=1 in me.env submits by itself)")
     from playwright.sync_api import sync_playwright
     kits = queue()
     print(f"\n{len(kits)} jobs waiting for an application (best first).\n")
@@ -269,6 +352,7 @@ def main():
             ctx = pw.chromium.launch_persistent_context(channel="chrome", **kwargs)
         except Exception:
             ctx = pw.chromium.launch_persistent_context(**kwargs)
+        parked = []
         for n, kit in enumerate(kits, 1):
             j = kit["job"]
             print("=" * 70)
@@ -284,7 +368,7 @@ def main():
             if click_apply(page):
                 page.wait_for_timeout(2500)
             print("   AUTO: filling + uploading. Check, tick the privacy box, click Submit.  keys: f a s q")
-            seen, last_fill, nxt, uploads = {}, 0.0, None, {}
+            seen, last_fill, nxt, uploads, tries = {}, 0.0, None, {}, 0
             already = confirmed(ctx)  # a thank-you text on the job page itself must not count
             while nxt is None:
                 active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
@@ -301,6 +385,21 @@ def main():
                         print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
                         for x in unknown:
                             print(f"     ✗ please fill yourself: {x}")
+                if AUTO and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
+                    tries += 1
+                    tick_consent(active)
+                    files_here = active.query_selector("input[type=file]") is not None
+                    why = problems(active, files_here, uploads.get(active.url.split("?")[0]))
+                    if why:
+                        if tries >= 3:
+                            parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
+                            print("   ⏸ parked for you: " + ", ".join(why[:3]))
+                            nxt = "next"
+                            continue
+                    elif click_button(active, SUBMIT_BTN) or click_button(active, NEXT_BTN):
+                        print("   → clicked submit/next")
+                        active.wait_for_timeout(4000)
+                        seen.pop(id(active), None)
                 if key == "a" or (last_fill and not already and confirmed(ctx)):
                     log_applied(kit)
                     print("   ✅ confirmation seen → logged as applied, next job")
@@ -317,6 +416,11 @@ def main():
             for p in ctx.pages[:-1] if len(ctx.pages) > 1 else []:
                 p.close()
         ctx.close()
+    if parked:
+        (HERE / "parked.txt").write_text("\n".join(parked) + "\n", encoding="utf-8")
+        print(f"\n⏸ {len(parked)} jobs need you (also in helper/parked.txt):")
+        for x in parked:
+            print("   " + x)
     print("\nAll done for today. 🎉")
 
 
