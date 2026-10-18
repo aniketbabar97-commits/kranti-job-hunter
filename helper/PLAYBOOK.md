@@ -41,6 +41,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - Never log in. Park as xing-only / linkedin-only (they go out by email).
 
 ## JOIN (join.com)
+- If the CV step is skipped on Weiter, navigate to /apply/cv to replace the preloaded previous CV. Questions: start date calendar, salary spinbutton; then review > confirm.
+- Login-link flow: email > 'code join' link > CV (remove preloaded, upload) > cover letter > review > Confirm & apply; no screening questions for Gauder; success URL /apply/success.
 - Second+ application: already logged in, steps are skipped/prefilled. JOIN auto-loads the PREVIOUS job's CV - click 'Datei entfernen' and upload this job's CV (and check cover letter). Date question is a calendar: click inner [id$=cell-trigger:YYYY-MM-DD] (not the gridcell) after 'next month'. Success: 'Bewerbung gesendet' / 'Application sent'.
 - Apply now > email > CV upload (dropzone click then file chooser) > personal info (city combobox: type, pick option) > screening questions one per page > review > Confirm & apply > verify email link (use 'code join') > success page. Salary field numeric; use upper part of range.
 
@@ -64,3 +66,24 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Personio (*.jobs.personio.com)
 - remotely.de job page has the real Personio link. Apply URL /job/<id>/apply?display=de. Fast via run_code: fill by name (first_name,last_name,email,phone,available_from,salary_expectations,custom_attribute_*), setInputFiles on documents.cv / documents.cover-letter. No CAPTCHA seen. Confirmation 'VIELEN DANK'.
+
+## Concludis (careers.<company>.com/candidate/formapply)
+- Link was company homepage; found the form via Google search of the job title. Upload via run_code setInputFiles on input[name=uploadfile] (both files), then set doc-type selects (Lebenslauf/Anschreiben). Final step has hidden-offscreen checkboxes: set via JS (checked + change event); also a required 'how did you hear' select (LinkedIn) appears after first submit attempt. Confirmation: 'Vielen Dank für Ihre Bewerbung'.
+
+## onlyfy (*.onlyfy.jobs)
+- Company careers page (Jobs list) paginated; find posting via Google, its 'Jetzt bewerben' goes to onlyfy. Phone must be +49 without spaces, salary numeric only (60000), start date is type=date (ISO). Salutation/source are comboboxes: click then pick role=option. File inputs: setInputFiles index 0 = CV, 1 = extra doc (cover letter). Confirmation: 'You've submitted your application'.
+
+## d.vinci (*.dvinci-hr.com)
+- Use /jobs/<id>/form (manual form). Fields by id: salutation(MS), firstName, lastName, email, telephone, screeningQuestion.* ; one multi-file attachmentFile (CV + cover letter); privacyPolicyAccepted1 = Ja. Ends with an image CAPTCHA -> always parks with tab open.
+
+## Deichmann (deichmann-karriere.de)
+- Accept cookies, go to /jobs/<id>/application-form/. 4-step wizard (files, personal, more, preview). Required: CV, cover letter, Zeugnisse (= cover letter again). File inputs index order is unreliable: use the dropzone button + file chooser per slot. Invisible reCAPTCHA passes without challenge. Submit shows a spinner ~10s then /success page; do not click twice.
+
+## SmartRecruiters (Bertelsmann/Arvato oneclick-ui)
+- createyourowncareer.com 'Jetzt bewerben' goes to jobs.smartrecruiters.com. Page 1: name/email x2/postcode combobox (type '76185 Karlsruhe', pick option)/phone/CV via file chooser. Page 2 screening: cover letter in 'Zusätzliche Anhänge', comboboxes via click+role=option; nationality list is only citizenship groups -> 'Keine der genannten'; start date TT.MM.JJJJ; salary '60000 EUR' + 'Jährlich'; 'Alles auswählen' ticks consents. Confirmation 'Bewerbung eingereicht!'.
+
+## VI-ARISE (vi-arise.com)
+- Job page has no form, only 'per Mail' (CV, project samples, salary, start date). Park as email-only.
+
+## rexx (karriere.tarox.de)
+- Form is /<Job>-f<id>.html. Custom selects hide native <select>; fields set via JS value+change are kept, files via setInputFiles show up. Senden with JS-filled form returned 'Leider konnten wir Ihre Anfrage nicht bearbeiten' (rexxCha bot check); accept cookies FIRST, type fields with real keystrokes, datepicker popup must be closed (Escape) before clicking Senden. Unresolved.
