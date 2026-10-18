@@ -18,13 +18,19 @@ Email + phone: take them from the CV PDF header. LinkedIn: https://www.linkedin.
 Work permit: yes (valid). Notice: serving, earliest start 16.12.2026. Salary + "Why us": from the job block.
 Files: the two PDFs named in the job block, all in ONE folder: C:\Kranti\pdfs\ (full path = C:\Kranti\pdfs\<file name>). In the upload dialog type/paste that full path into the "File name" box and press Enter — do not browse folders. If the site's upload button won't open a dialog you can use → park as UPLOAD.
 
+Be smart and decide yourself — act like an experienced applicant applying for her:
+- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: "verhandlungssicher / C1"; English: fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 25 %; driving licence: yes).
+- Dropdowns/ratings → pick the strongest truthful option. Free text required with no data → 1–2 short selling sentences from "Why us".
+- Several similar positions → pick the one closest to the job title. Ugly or multi-step portal → push through.
+- Ask me ONLY for: passwords, CAPTCHAs, verification codes, or a legal declaration you cannot know (e.g. criminal record, previous employment at this company). Everything else: decide and continue.
+
 Per job:
 1. Open Link. Find the matching position on the employer's own career page (search the title). If the job is gone, try the Original posting's apply button; else report CLOSED.
 2. Prefer "apply without account"/quick apply. If an account is needed: register with her email, password needed → park as ACCOUNT (never invent or store a password).
 3. Fill every required field; optional fields only if the data is above. Upload CV + Anschreiben/Cover letter. Motivation field → "Why us". Language of answers = language of the posting.
 4. Only a contact form, no upload → message = "Why us" + "Lebenslauf und Anschreiben sende ich Ihnen zusätzlich per E-Mail." (EN: "I am sending my CV and cover letter by email as well.") and report NOUPLOAD.
 5. Tick only mandatory consent boxes (privacy). Never tick newsletter/talent pool unless required.
-6. CAPTCHA, verification code, unknown required question, or unclear → park the job (tab open, form filled as far as possible), continue. Max 3 min per job.
+6. CAPTCHA, verification code, password → park the job (tab open, form filled as far as possible), continue. Max 3 min per job.
 7. Submit. Wait for the confirmation text.
 
 At the end:
