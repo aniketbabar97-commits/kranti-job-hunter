@@ -1,127 +1,185 @@
 {
  "job": {
-  "title": "Software Developer PHP (m/w/d) - E-Commerce & Spryker in Hamburg, Hamburg Zentrale",
+  "title": "Software Developer PHP (m/w/d) – E-Commerce & Spryker",
   "company": "Detlev Louis",
   "location": "Hamburg, Hamburg",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2023692-S",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-302721-S",
   "apply_url": "",
   "score": 78,
+  "lang": "en",
   "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
+  "posted": "2026-10-10",
   "contact": "",
-  "direct_url": "https://jobs.louis.de/Software-Developer-PHP-mwd-E-Commerce-Spryker-in-Hamburg-de-j1266.html",
-  "email_subject": "Bewerbung als Software Developer – E-Commerce & Spryker",
-  "email_body": "Guten Tag Julia Dammaß,\n\nSie suchen jemanden, der Ihren Spryker-Shop mit ERP, PIM und weiteren Drittsystemen verbindet – genau diese Integrationen baue ich seit fünf Jahren für Rockwell Automation und Shell.\n\n– PIM-zu-Shop-Datenpipelines mit Profisee, Hotfolders und DataHub\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst\n– CI/CD-Deployment-Zyklen auf CCv2, Support im Produktivbetrieb\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
+  "salary": ""
  },
  "tailoring": {
-  "headline": "E-Commerce Software Developer | ERP-/PIM-Integration, REST APIs & CI/CD",
-  "summary": "E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in der Weiterentwicklung großer Onlineshops für Rockwell Automation und Shell. Integriert Drittsysteme wie ERP, PIM und externe Services über REST- und SOAP-Schnittstellen in die Shop-Plattform, sichert Qualität durch automatisierte Unit- und Integrationstests und führt CI/CD-Deployment-Zyklen durch. Arbeitet in Scrum-Teams, bringt sich in Architekturfragen ein und folgt Design Patterns und sauberen Konzepten. Nutzt KI-Tools intensiv in Entwicklung und Dokumentation. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
+  "headline": "E-Commerce Developer | REST APIs & Enterprise Integrations | SAP Certified",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms for Rockwell Automation and Shell. Strong in Java, Spring, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams. SAP Certified Commerce Cloud Developer.",
   "skills": {
    "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
     "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
     "Order Management (OMS)",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)"
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
    ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit"
    ],
    "APIs & Integration": [
     "REST web services",
-    "third-party integrations",
+    "OCC APIs",
     "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines"
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
    ],
-   "Backend": [
-    "RESTful APIs",
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "Design Patterns",
-    "JUnit"
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "production support and troubleshooting"
    ],
    "Databases & Search": [
     "SQL",
     "query optimization and performance tuning",
+    "FlexibleSearch",
     "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Git",
-    "Docker",
-    "production support and troubleshooting"
    ],
    "Ways of Working": [
     "Agile / Scrum",
+    "Jira",
+    "Confluence",
     "Code Reviews",
-    "Jira"
+    "International Teams"
    ]
   },
   "bullet_order": {
    "rockwell": [
-    0,
+    3,
     1,
     2,
-    3,
+    0,
+    4,
     6,
     5,
-    4,
     7
    ],
    "shell": [
     1,
-    0,
     2,
-    5,
     4,
+    5,
+    0,
     6,
     3
    ],
    "cognizant": [
     2,
     0,
-    3,
-    1
+    1,
+    3
    ]
   },
-  "why_company": "Louis ist Europas Marke für Motorradbedarf mit starkem Onlinegeschäft – und Ihr Spryker-Shop lebt von sauberen Anbindungen an ERP, PIM, CMS und PSP. Genau diese Integrationen sind seit fünf Jahren mein Schwerpunkt. Ich möchte sie in einem Scrum-Team einbringen, das Qualität und Architektur ernst nimmt.",
-  "linkedin_message": "Guten Tag Julia Dammaß, Ihre Stelle Software Developer E-Commerce & Spryker passt gut: 5+ Jahre Onlineshop-Entwicklung mit ERP-/PIM-Integration, REST, CI/CD (Rockwell Automation, Shell). Start 16.12.2026. Gern ein kurzes Gespräch?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Software Developer – E-Commerce & Spryker",
-   "salutation": "Guten Tag Julia Dammaß,",
-   "hook": "Sie suchen Verstärkung, die Ihren Onlineshop mit ERP, PIM und weiteren Drittsystemen verbindet und dabei hohe Softwarequalität sichert. Genau das mache ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich große Commerce-Plattformen weiter und baue die Integrationen zu PIM-, ERP- und MDM-Systemen.",
+  "keywords_matched": [
+   "E-Commerce",
+   "Integration",
+   "ERP",
+   "PIM",
+   "CI/CD",
+   "Unit",
+   "Docker",
+   "Kubernetes",
+   "Software-Architektur",
+   "Design Patterns",
+   "Scrum",
+   "Jira",
+   "Git"
+  ],
+  "keywords_missing": [
+   "PHP 8",
+   "Symfony",
+   "Spryker",
+   "PhpStorm",
+   "EKS",
+   "RDS",
+   "SQS",
+   "RabbitMQ",
+   "ElastiCache"
+  ],
+  "cover_en": {
+   "subject": "Application: Software Developer PHP (m/w/d) – E-Commerce & Spryker",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in joining Detlev Louis to help advance your enterprise e-commerce platform. With over 5 years of backend engineering experience building and integrating high-traffic e-commerce systems at Rockwell Automation and Shell, I bring deep expertise in API integrations, scalable architectures, and agile delivery.",
    "bullets": [
     {
-     "label": "Drittsysteme wie ERP und PIM integrieren",
-     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert, die Produktkataloge über globale E-Commerce-Kanäle synchron halten."
+     "label": "Enterprise Integrations",
+     "text": "Designed, built, and optimized complex data pipelines and RESTful APIs connecting PIM, ERP, and MDM systems to ensure seamless multi-system synchronization."
     },
     {
-     "label": "REST-Schnittstellen",
-     "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee analysiert und behoben – in direkter Zusammenarbeit mit internationalen Teams; REST- und SOAP-Services genutzt und bereitgestellt sowie externe Services über CCv2 angebunden."
+     "label": "Architecture & Clean Code",
+     "text": "Applied robust design patterns, clean code principles, and database performance tuning to maintain high system stability and low response latency."
     },
     {
-     "label": "CI/CD & automatisierte Tests",
-     "text": "CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) in agilen DevOps-Workflows durchgeführt; Fehleranalyse im Produktivbetrieb über die Hybris Admin Console (HAC) und Groovy-Skripte unterstützt."
+     "label": "CI/CD & Quality Assurance",
+     "text": "Executed CI/CD deployment cycles, release builds, and automated unit testing suites to guarantee rigorous software quality and reliable platform updates."
     },
     {
-     "label": "Solide Architekturprinzipien",
-     "text": "Automatisierte Unit- und Integrationstests mit JUnit aufgebaut; Code-Reviews, Unterstützung bei Produktionsvorfällen und technische Anleitung von Junior-Entwicklern."
+     "label": "Agile Scrum Delivery",
+     "text": "Collaborated closely with cross-functional Scrum teams, product owners, and international stakeholders to analyse requirements and drive feature delivery."
     }
    ],
    "gap": "",
-   "logistics": "Die Arbeit in Scrum-Teams und Architekturrunden kenne ich gut, und Louis als Marke mit treuer Community reizt mich besonders. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Louis konkret verstärken kann.",
-   "closing": "",
-   "contact": "z. Hd. Julia Dammaß, Recruiting"
+   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am serving a notice period ending 15 December 2026, with an earliest start date of 16 December 2026. I look forward to discussing how my enterprise e-commerce background aligns with your goals.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "Detlev Louis stands for innovation, quality, and a strong collaborative culture in the e-commerce space. I am eager to bring my 5+ years of enterprise e-commerce development and integration experience to your Scrum teams, contributing to robust architecture, seamless third-party integrations, and scalable online platforms.",
+  "motivation_short": "Bringing 5+ years of enterprise e-commerce integration, API development, and agile delivery experience to scale Detlev Louis's digital platforms.",
+  "linkedin_message": "Hello, I noticed your opening for the Software Developer E-Commerce role at Detlev Louis. With 5+ years of backend engineering and integration experience at Rockwell Automation and Shell, I would love to discuss how I can contribute to your Scrum teams. Best regards, Kranti Chavan",
+  "email_subject": "Application: Software Developer PHP (m/w/d) – E-Commerce & Spryker – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Software Developer E-Commerce & Spryker position at Detlev Louis. With over 5 years of enterprise e-commerce backend development, robust API integration experience, and a strong background in agile Scrum environments, I am excited about the opportunity to contribute to your technical team.\n\nI look forward to discussing my application with you.\n\nBest regards,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Software Developer PHP (m/w/d) – E-Commerce & Spryker",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in joining Detlev Louis to help advance your enterprise e-commerce platform. With over 5 years of backend engineering experience building and integrating high-traffic e-commerce systems at Rockwell Automation and Shell, I bring deep expertise in API integrations, scalable architectures, and agile delivery.",
+   "bullets": [
+    {
+     "label": "Enterprise Integrations",
+     "text": "Designed, built, and optimized complex data pipelines and RESTful APIs connecting PIM, ERP, and MDM systems to ensure seamless multi-system synchronization."
+    },
+    {
+     "label": "Architecture & Clean Code",
+     "text": "Applied robust design patterns, clean code principles, and database performance tuning to maintain high system stability and low response latency."
+    },
+    {
+     "label": "CI/CD & Quality Assurance",
+     "text": "Executed CI/CD deployment cycles, release builds, and automated unit testing suites to guarantee rigorous software quality and reliable platform updates."
+    },
+    {
+     "label": "Agile Scrum Delivery",
+     "text": "Collaborated closely with cross-functional Scrum teams, product owners, and international stakeholders to analyse requirements and drive feature delivery."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am serving a notice period ending 15 December 2026, with an earliest start date of 16 December 2026. I look forward to discussing how my enterprise e-commerce background aligns with your goals.",
+   "closing": ""
   }
  },
- "lang": "de",
  "created": "2026-10-18"
 }
