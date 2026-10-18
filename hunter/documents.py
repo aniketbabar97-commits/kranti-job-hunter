@@ -193,7 +193,20 @@ def file_name(kind, job, lang):
 
 
 def to_pdf(html_files):
-    """Print HTML files to PDF with headless Chromium (Playwright). Returns list of PDF paths."""
+    """Print HTML files to PDF with headless Chromium (Playwright). Returns list of PDF paths.
+    Works even while another Playwright browser is open in this program (the Windows helper): Playwright's
+    sync API refuses to start inside a running event loop, so then it runs in a separate thread."""
+    import asyncio
+    try:
+        asyncio.get_running_loop()
+    except RuntimeError:
+        return _to_pdf(html_files)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(1) as pool:
+        return pool.submit(_to_pdf, html_files).result()
+
+
+def _to_pdf(html_files):
     from playwright.sync_api import sync_playwright
     exe = os.getenv("CHROMIUM_PATH") or ("/opt/pw-browsers/chromium" if Path("/opt/pw-browsers/chromium").exists() else None)
     pdfs = []
