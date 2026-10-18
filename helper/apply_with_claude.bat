@@ -13,9 +13,9 @@ if not exist out mkdir out
 for /L %%i in (1,1,%B%) do (
   echo ===== batch %%i of %B% =====
   call claude -p --model sonnet --permission-mode acceptEdits "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs." >> out\claude_runs.log
-  git add helper/PLAYBOOK.md data >nul 2>nul
+  git add APPLIED.md helper/PLAYBOOK.md data >nul 2>nul
   git commit -qm "Claude applier: batch %%i results + playbook" >nul 2>nul
-  git -c gc.auto=0 pull -q --rebase >nul 2>nul
+  git -c gc.auto=0 pull -q --rebase --autostash >nul 2>nul
   git push -q >nul 2>nul
 )
 echo.

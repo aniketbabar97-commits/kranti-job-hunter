@@ -34,6 +34,13 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
    - upload `files.cv` as CV/Lebenslauf and `files.cover_letter` as cover letter/Anschreiben (browser_file_upload).
    - tick every checkbox (privacy, terms, talent pool, keep data, newsletter). Cookie banners: **accept all** (her explicit preference).
    - date of birth → `contact.birthdate` from facts.
+   - date fields / date pickers: type in the format the field shows (TT.MM.JJJJ, MM/DD/YYYY, …), then **read the
+     value back** before submit; wrong → clear and retype or use the picker (earlier run sent 04/12/2027 instead of 16.12.2026).
+   - language level demanded higher than B1 (C1, fluent): never answer "Nein"/"no" — select B1 and write
+     "German B1, actively improving; working language English" in any free-text box.
+   - never answer "no experience" — say "familiar with it from related work, ramp up fast" (Odoo, Python, …).
+   - magic link / code mail: call `code <sender-name> <site-domain>` right after requesting it (the sender is often a
+     different brand, e.g. dmTECH mails come from "dm-jobs") and open the link at once — links expire in ~5 min.
    - extra required uploads (Zeugnisse, Anlagen, certificates, other documents) → upload `files.cover_letter` again
      (or `files.cv` if the cover letter is already used there).
    - only a contact form, no upload field → send it with `why_us` and the line that CV and cover letter follow by email; status `confirmed`.
@@ -43,6 +50,9 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
    `confirmed` (thank-you seen) · `pending` (submitted, no thank-you) · `closed` · `parked` (anything you could not do).
    **When you park a job and the page offers an application email** ("per E-Mail bewerben", "send your documents to …"),
    put that address in the note (e.g. `"captcha; email: jobs@company.de"`) — the job then goes out by email automatically.
+   **Email-only jobs: always open the page/mailto and write the full exact address in the note** — "the bewerbung@
+   address on the page" is useless, the email route needs `bewerbung@heizungsdiscount24.de`.
+   Never reuse a tab that holds a parked/unconfirmed job.
    Then add what you learned: `python -m helper.claude_jobs learn "<system or company>" "<1 line>"` (no personal data).
    Then the next job.
 
