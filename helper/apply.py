@@ -59,7 +59,10 @@ def queue(days=45):
             continue
         kits.append(k)
     # LinkedIn recruiter posts (no form: message the recruiter) go last
-    return sorted(kits, key=lambda k: (k["job"]["title"].startswith("[Post]"), -int(k["job"].get("score") or 0)))
+    # company-site forms first (fully automatic), then portals that need her login, then likely closed ones
+    order = {"": 0, "arbeitsagentur": 1, "indeed": 2, "linkedin_easy": 3, "maybe_closed": 4}
+    return sorted(kits, key=lambda k: (order.get(k["job"].get("channel", ""), 0), k["job"]["title"].startswith("[Post]"),
+                                       -int(k["job"].get("score") or 0)))
 
 
 def build_pdfs(kit):
