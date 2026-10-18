@@ -9,6 +9,7 @@
 Builds the job's PDFs on first use (out/helper/...). Logging goes through the same proof/APPLIED.md path as the helper.
 """
 import json
+import os
 import re
 import sys
 import time
@@ -56,8 +57,11 @@ def next_jobs(n=1):
         j = kit["job"]
         # finished ones never again; parked ones only in a later run (not again within 6 h)
         d = done.get(_id(kit), {})
+        only = os.environ.get("APPLY_ONLY")  # e.g. "sap commerce|hybris|sap cx": focus run on these titles
+        if only and not re.search(only, j["title"], re.I):
+            continue
         recent = d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 6 * 3600))
-        if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent) \
+        if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
             continue
         cv, letter, _, lang = build_pdfs(kit)

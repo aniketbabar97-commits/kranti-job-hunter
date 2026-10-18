@@ -14,7 +14,11 @@ def _company(name):
 
 
 def _url(u):
-    return re.sub(r"[?#].*$", "", (u or "").strip().lower()).rstrip("/")
+    """Normalized link: no fragment, no tracking parameters — but job ids in the query (Indeed ?jk=…) stay."""
+    u = re.sub(r"#.*$", "", (u or "").strip().lower())
+    base, _, query = u.partition("?")
+    keep = [p for p in query.split("&") if p and not re.match(r"(utm_|trk|ref|src|source|from)", p)]
+    return base.rstrip("/") + ("?" + "&".join(keep) if keep else "")
 
 # an APPLIED.md line counts as a website application when it says so ("website", "via form", "via Claude")
 WEBSITE = re.compile(r"website|webseite|via form|via claude|online", re.I)
