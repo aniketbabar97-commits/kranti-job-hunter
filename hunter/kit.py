@@ -244,7 +244,7 @@ def salary_answer(job, target=TARGET_SALARY):
 def make_kits(jobs, cv_text=None, today=None, force=False):
     """Create kits for strong new jobs. Sets job['kit'] (repo note) and job['attachments'] (PDF paths)."""
     today = today or date.today().isoformat()
-    master = yaml.safe_load((ROOT / "profile" / "master.yaml").read_text())
+    master = yaml.safe_load((ROOT / "profile" / "master.yaml").read_text(encoding="utf-8"))
     DIR.mkdir(exist_ok=True)
     made = 0
     for job in sorted(jobs, key=lambda j: -j["score"]):
@@ -278,7 +278,7 @@ def _make_one(job, master, today, force, made):
     out = OUT / slug
     out.mkdir(parents=True, exist_ok=True)
     htmls = [out / "Kranti_Chavan_CV.html"]
-    htmls[0].write_text(documents.render_cv(master, t))
+    htmls[0].write_text(documents.render_cv(master, t), encoding="utf-8")
     letters = [(lang, complete_letter(t.get(f"cover_{lang}"), lang, job)) for lang in (["en", "de"] if german else ["en"])]
     letters = [(lang, cl) for lang, cl in letters if cl]
     if not letters:
@@ -295,7 +295,7 @@ def _make_one(job, master, today, force, made):
         files = [str(h) for h in htmls]
     flags = unverified_tech(master, [_cover_text(cl) for _, cl in letters])
     note = DIR / f"{slug}.md"
-    note.write_text(render_note(job, t, files, flags))
+    note.write_text(render_note(job, t, files, flags), encoding="utf-8")
     # Tailoring data (no personal contact data) so the Windows helper can rebuild the PDFs locally.
     keep = ("title", "company", "location", "url", "apply_url", "score", "lang", "source", "posted", "contact", "salary")
     (DIR / f"{slug}.json").write_text(json.dumps(

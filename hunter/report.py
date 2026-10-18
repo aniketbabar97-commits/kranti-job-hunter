@@ -17,7 +17,7 @@ FIELDS = ["found", "score", "title", "company", "location", "remote", "source", 
 def read_log():
     if not LOG.exists():
         return []
-    with LOG.open(newline="") as f:
+    with LOG.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     for r in rows:  # rows written before lang/posted existed
         r.setdefault("description", "")
@@ -35,7 +35,7 @@ def append_log(jobs, today):
     rows += [{"found": today, "score": j["score"], "title": j["title"], "company": j["company"],
               "location": j["location"], "remote": j["remote"], "source": j["source"], "url": j["url"],
               "why": j.get("why", ""), "lang": j.get("lang", ""), "posted": j.get("posted") or today} for j in jobs]
-    with LOG.open("w", newline="") as f:
+    with LOG.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
         w.writeheader()
         w.writerows(rows)
@@ -80,4 +80,4 @@ def build_report(rows):
                     r["found"], {"applied": "✅ Applied", "company": "↺ company"}.get(applied.status(r, applied_data), ""),
                     _cell(r["why"]) + " |"]))
             out.append("")
-    REPORT.write_text("\n".join(out))
+    REPORT.write_text("\n".join(out), encoding="utf-8")

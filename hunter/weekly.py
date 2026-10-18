@@ -19,7 +19,7 @@ TOP_N = 10
 def due(today):
     """Monday (or forced), and not already sent this ISO week."""
     week = f"{today.isocalendar()[0]}-W{today.isocalendar()[1]:02d}"
-    sent = STATE.read_text().strip() if STATE.exists() else ""
+    sent = STATE.read_text(encoding="utf-8").strip() if STATE.exists() else ""
     return (today.weekday() == 0 or os.getenv("FORCE_WEEKLY")) and sent != week, week
 
 
@@ -116,9 +116,9 @@ def maybe_send(today, cfg):
         j.setdefault("lang", "de" if j["source"] == "Arbeitsagentur" else "en")
     kit.make_kits(hard)
     body = build(today, report.read_log(), applied_data, hard)
-    (ROOT / "data" / "last_weekly.html").write_text(body)
+    (ROOT / "data" / "last_weekly.html").write_text(body, encoding="utf-8")
     if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body, [a for j in hard for a in j.get("attachments", [])]):
-        STATE.write_text(week)
+        STATE.write_text(week, encoding="utf-8")
         log.info("weekly summary sent for %s", week)
     else:
         log.warning("weekly summary not sent")

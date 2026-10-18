@@ -1,5 +1,7 @@
 @echo off
 cd /d "%~dp0.."
+set PYTHONUTF8=1
+chcp 65001 >nul
 echo Installing the application helper (one time, about 3 minutes)...
 where python >nul 2>nul || (echo Python is missing. Install it from https://www.python.org/downloads/ and tick "Add python.exe to PATH". Then run setup.bat again. & pause & exit /b 1)
 python -m pip install --upgrade pip
