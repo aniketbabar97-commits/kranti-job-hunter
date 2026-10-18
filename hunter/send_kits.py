@@ -2,7 +2,7 @@
 
 python -m hunter.send_kits [max]   (workflow input "send_kits")
 Builds the CV + cover letter PDFs with her real contact data, then drafts or sends via outreach.prepare
-(same rules: one job never twice, max 2 roles per company and never two on the same day).
+(only after the website application is logged in APPLIED.md; same rules: one job never twice, max 2 roles per company and never two on the same day).
 """
 import json
 import logging
@@ -54,7 +54,7 @@ def run(limit=60):
     jobs = []
     for k in sorted(kits(), key=lambda k: -int(k["job"].get("score") or 0)):
         j = dict(k["job"])
-        if not outreach.pick_email(j) or applied.status(j, data) == "applied":
+        if not outreach.pick_email(j) or not applied.website_done(j, data):
             continue
         k["slug"] = f"{outreach._company_key(j)}-{abs(hash(j['url'])) % 10000}"
         try:

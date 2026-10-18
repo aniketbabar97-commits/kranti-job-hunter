@@ -143,7 +143,7 @@ def backfill(cfg, days=None):
         job = {**r, "score": int(r["score"]), "remote": r["remote"] == "True", "contact": "", "description": "",
                "salary": ""}
         if _job_key(job) in done or per_co.get(_company_key(job), 0) >= s["per_company"] \
-                or applied.status(job, data) == "applied":
+                or not applied.website_done(job, data):
             continue
         try:
             sources.arbeitsagentur_details(job)  # 404 / empty -> posting closed
@@ -264,10 +264,12 @@ def prepare(jobs, cfg, today=None):
             today_co.add(v["company_key"])
     left = s["max_per_day"] - sum(1 for v in ledger.values() if v["created"] == today)
     made, imap, drafts = [], None, None
+    web = applied.load()
     for job in sorted(jobs, key=lambda j: -j["score"]):
         if left <= 0:
             break
-        if job["score"] < s["min_score"] or job.get("applied") == "applied" or not job.get("letters"):
+        # website first, email after: HR must find the application in their system when the email arrives
+        if job["score"] < s["min_score"] or not applied.website_done(job, web) or not job.get("letters"):
             continue
         ck = _company_key(job)
         to = pick_email(job)

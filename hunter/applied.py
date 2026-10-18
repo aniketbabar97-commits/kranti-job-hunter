@@ -16,12 +16,15 @@ def _company(name):
 def _url(u):
     return re.sub(r"[?#].*$", "", (u or "").strip().lower()).rstrip("/")
 
+# an APPLIED.md line counts as a website application when it says so ("website", "via form", "via Claude")
+WEBSITE = re.compile(r"website|webseite|via form|via claude|online", re.I)
+
 
 def load():
     """Return {'urls': set, 'companies': set, 'entries': [(date|None, text)]}."""
-    urls, companies, entries = set(), set(), []
+    urls, companies, entries, web = set(), set(), [], set()
     if not FILE.exists():
-        return {"urls": urls, "companies": companies, "entries": entries}
+        return {"urls": urls, "companies": companies, "entries": entries, "web": web}
     started = False
     for raw in FILE.read_text(encoding="utf-8").splitlines():
         if raw.strip().lower().startswith("## my applications"):
@@ -38,9 +41,16 @@ def load():
         link = re.search(r"https?://\S+", line)
         if link:
             urls.add(_url(link.group(0)))
+            if WEBSITE.search(line):
+                web.add(_url(link.group(0)))
         elif _company(line):
             companies.add(_company(line))
-    return {"urls": urls, "companies": companies, "entries": entries}
+    return {"urls": urls, "companies": companies, "entries": entries, "web": web}
+
+
+def website_done(job, data):
+    """True once the website application for this job is logged — only then may the HR email go out."""
+    return bool({_url(job.get("url")), _url(job.get("direct_url"))} & data["web"])
 
 
 def status(job, data):

@@ -8,3 +8,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 
 ## My applications
 
+- 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003747124-S (Maify GmbH, website via Claude – contact form, CV by email)
