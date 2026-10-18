@@ -138,6 +138,11 @@ def main():
     made = outreach.prepare(jobs, cfg) if not os.getenv("DRY_RUN") else []
     if not os.getenv("DRY_RUN"):  # strong jobs from earlier digests that still have no application
         made += outreach.backfill(cfg)[0]
+        try:  # a few more form-based jobs for the Windows helper each run
+            from . import formkits
+            formkits.run(5)
+        except Exception as ex:
+            log.warning("form kits failed: %s", ex)
     ledger = outreach.load()
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")

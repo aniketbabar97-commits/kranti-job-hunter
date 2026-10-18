@@ -24,6 +24,10 @@ on:
         description: "Only prepare email applications for strong jobs already found"
         type: boolean
         default: false
+      form_kits:
+        description: "Only build application kits for form-based jobs (for the Windows helper)"
+        type: boolean
+        default: false
       test_email:
         description: "Only send a test email (no search)"
         type: boolean
@@ -72,7 +76,7 @@ jobs:
           QUERY_LIMIT:        ${{ inputs.posts_check && '0' || '' }}
           TEST_EMAIL:         ${{ inputs.test_email && '1' || '' }}
           FORCE_WEEKLY:       ${{ inputs.weekly_now && '1' || '' }}
-        run: python -m hunter.${{ inputs.email_backfill && 'outreach' || 'main' }}
+        run: python -m hunter.${{ inputs.form_kits && 'formkits 45' || (inputs.email_backfill && 'outreach' || 'main') }}
 
       - name: Upload digest preview
         if: always()
