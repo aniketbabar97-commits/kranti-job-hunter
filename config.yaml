@@ -221,9 +221,10 @@ companies_bw:
   feed: https://sqli.softgarden.io/de/vacancies
   verified: true
 - name: dotSource
-  ats: own
-  url: https://www.dotsource.de/karriere/
-  verified: false
+  ats: sitemap
+  url: https://www.dotsource.de/karriere/jobs/
+  feed: 'https://www.dotsource.de/sitemap.xml?sitemap=news-job&cHash=00de1b86ee3085c3bdc1b99a247f4e2d|/karriere/[^/]+/$'
+  verified: true
 - name: Intershop
   ats: own
   url: https://www.intershop.com/en/careers
@@ -255,39 +256,44 @@ companies_bw:
   feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
   verified: false
 - name: Mercedes-Benz
-  ats: own
+  ats: beesite
   url: https://jobs.mercedes-benz.com
-  verified: false
+  feed: 'https://jobs.api.mercedes-benz.com/search'
+  verified: true
 - name: Mercedes-Benz Tech Innovation (Ulm)
-  ats: own
+  ats: beesite
   url: https://jobs.mercedes-benz.com
-  verified: false
+  feed: 'https://jobs.api.mercedes-benz.com/search|Tech Innovation'
+  verified: true
 - name: Porsche
-  ats: own
+  ats: beesite
   url: https://jobs.porsche.com/index.php?ac=search_result
-  verified: false
+  feed: 'https://porsche-beesite-production-gjb.app.beesite.de/search/'
+  verified: true
 - name: Porsche Digital
-  ats: custom
+  ats: sitemap
   url: https://www.porsche.digital/de/career
-  feed: https://www.porsche.digital/de/career
-  verified: false
+  feed: 'https://www.porsche.digital/sitemap.xml|/career/\d+'
+  verified: true
 - name: MHP (Ludwigsburg)
-  ats: own
+  ats: beesite
   url: https://jobs.mhp.com/
-  verified: false
+  feed: 'https://porsche-beesite-production-gjb-mhp.app.beesite.de/search/'
+  verified: true
 - name: Schwarz IT
   ats: own
   url: https://jobs.schwarz/jobsearch
   verified: false
 - name: Lidl
-  ats: successfactors
-  url: https://jobs.lidl.de
-  feed: https://jobs.lidl.de/suche
-  verified: false
+  ats: json
+  url: https://jobs.lidl.de/suche
+  feed: 'https://jobs.lidl.de/api/v1/search?general=%7B%22page%22%3A{page}%2C%22resultsPerPage%22%3A200%7D&filter=%7B%22employment_area%22%3A%5B%22IT%22%2C%22eCommerce%22%2C%22Analytics%2C%20Data%20Science%22%2C%22Project%20Management%22%2C%22Administration%22%2C%22Supply%20Chain%20Management%22%2C%22Controlling%22%2C%22Sales%22%2C%22PR%20%26%20Marketing%22%5D%7D'
+  verified: true
 - name: dm-drogerie markt (Karlsruhe)
-  ats: own
+  ats: sitemap
   url: https://www.dm-jobs.de/
-  verified: false
+  feed: 'https://www.dm-jobs.de/sitemap/jobs.xml|/job/[^/]+/\d+/'
+  verified: true
 - name: EnBW
   ats: phenom
   url: https://careers.enbw.com/de/de
@@ -450,9 +456,10 @@ companies_bw:
   feed: https://boards-api.eu.greenhouse.io/v1/boards/ionos/jobs
   verified: false
 - name: Atruvia (Karlsruhe)
-  ats: own
+  ats: sitemap
   url: https://karriere.atruvia.de/
-  verified: false
+  feed: 'https://karriere.atruvia.de/sitemap.xml|/offer/|fetch'
+  verified: true
 - name: PTV Group (Karlsruhe)
   ats: own
   url: https://careers.ptvgroup.com/en/jobs/
@@ -597,9 +604,10 @@ companies_bw:
   feed: https://join.com/companies/docmorris
   verified: true
 - name: zooplus
-  ats: own
-  url: https://www.zooplus.com/jobs/search
-  verified: false
+  ats: smartrecruiters
+  url: https://jobs.smartrecruiters.com/zooplusSE
+  slug: zooplusSE
+  verified: true
 - name: Bechtle
   ats: successfactors
   url: https://jobs.bechtle.com
@@ -612,9 +620,10 @@ companies_bw:
   feed: https://cancom-portal-xml.rexx-systems.com/stellenangebote.html
   verified: true
 - name: Computacenter
-  ats: own
-  url: https://www.computacenter.com/careers
-  verified: false
+  ats: successfactors_rmk
+  url: https://jobs.computacenter.com
+  feed: 'https://jobs.computacenter.com/sitemap.xml'
+  verified: true
 - name: msg systems
   ats: dvinci
   url: https://www.msg.group/karriere
@@ -636,9 +645,10 @@ companies_bw:
   feed: https://careers.telekom.com/de/jobs
   verified: false
 - name: T-Systems
-  ats: own
+  ats: eightfold
   url: https://careers.telekom.com/de/jobs?search=T-Systems
-  verified: false
+  slug: growthhub.telekom.com|telekom-growthhub.com
+  verified: true
 - name: DXC Technology
   ats: workday
   url: https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs
@@ -700,9 +710,10 @@ companies_bw:
   feed: https://ialmme.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?finder=findReqs;siteNumber=ciklum-career
   verified: false
 - name: Publicis Sapient
-  ats: own
-  url: https://careers.publicissapient.com
-  verified: false
+  ats: json
+  url: https://careers.publicissapient.com/job-search
+  feed: 'https://careers.publicissapient.com/bin/ps-redesign/careersJobsearch?searchType=%2Fsearch&lang=en&q=&start=0&rows=2000&country=Germany'
+  verified: true
 - name: VML (ex Wunderman Thompson)
   ats: greenhouse
   url: https://www.vml.com/careers
@@ -734,11 +745,10 @@ companies_bw:
   feed: https://greven-twt-gruppe.jobs.personio.de/xml
   verified: false
 - name: Elbkind
-  ats: personio
-  url: https://www.elbkind.de/karriere
-  slug: elbkind
-  feed: https://elbkind.jobs.personio.de/xml
-  verified: false
+  ats: json
+  url: https://www.elbkind.de/jobs/
+  feed: 'https://www.elbkind.de/wp-json/wp/v2/posts?categories=40&per_page=100'
+  verified: true
 - name: Fork Unstable Media
   ats: own
   url: https://www.fork.de/karriere/
@@ -771,9 +781,10 @@ companies_bw:
   feed: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs
   verified: true
 - name: EY
-  ats: own
-  url: https://jobsgermany.ey.com
-  verified: false
+  ats: job-shop
+  url: https://jobsgermany.ey.com/search
+  feed: 'https://api.my-job-shop.com'
+  verified: true
 - name: KPMG
   ats: successfactors
   url: https://jobs.kpmg.de/
