@@ -108,11 +108,13 @@ def _groq_model(key):
     return _models["groq"]
 
 
+_EXHAUSTED = set()  # models whose free quota ran out this run (quota is per model)
+
+
 def _gemini(prompt):
     key = os.environ["GEMINI_API_KEY"]
     candidates = _gemini_candidates(key)
-    while candidates:
-        model = candidates[0]
+    for model in [m for m in list(candidates) if m not in _EXHAUSTED]:
         r = requests.post(
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
             params={"key": key},
@@ -122,17 +124,27 @@ def _gemini(prompt):
         )
         if r.status_code in (400, 403, 404):  # model unavailable for this key -> try the next one
             log.warning("gemini model %s unavailable (%s), trying next", model, r.status_code)
-            candidates.pop(0)
+            candidates.remove(model)
+            continue
+        if r.status_code == 429:  # this model's quota is used up; others have their own quota
+            log.warning("gemini model %s rate-limited, trying next model", model)
+            _EXHAUSTED.add(model)
             continue
         r.raise_for_status()
         return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+    if _EXHAUSTED:  # all limited: let callers back off and retry
+        _EXHAUSTED.clear()
+        r = requests.Response()
+        r.status_code = 429
+        raise requests.HTTPError("all Gemini models rate-limited", response=r)
     raise RuntimeError("no working Gemini model")
 
 
 def _groq(prompt, json_object=False):
     key = os.environ["GROQ_API_KEY"]
     model = _groq_model(key)
-    body = {"model": model, "temperature": 0, "messages": [{"role": "user", "content": prompt}]}
+    body = {"model": model, "temperature": 0, "max_completion_tokens": 8000,  # long kits got cut off mid-JSON
+            "messages": [{"role": "user", "content": prompt}]}
     if json_object:
         body["response_format"] = {"type": "json_object"}
     r = requests.post(
