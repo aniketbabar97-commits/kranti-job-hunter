@@ -39,8 +39,12 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
    Then add what you learned: `python -m helper.claude_jobs learn "<system or company>" "<1 line>"` (no personal data).
    Then the next job.
 
-## XING / LinkedIn Easy Apply
-Don't log in to XING or LinkedIn. Log `parked` with note "xing-only" / "linkedin-only"; these go out by email.
+## XING / LinkedIn Easy Apply (only if there is no company website form and no application email)
+Kranti authorizes you to log in to her own XING / LinkedIn accounts: `python -m helper.claude_jobs password xing`
+(or `linkedin`) gives email, password and `left_today`. If `left_today` is 0 or the login is empty → `parked` "xing-only" /
+"linkedin-only". Otherwise log in, use Easy Apply with her CV, answer from facts, submit, and log `confirmed` with the
+note "XING easy apply" / "LinkedIn easy apply". Work at a normal human pace; never more than 10 per platform per day.
+Security check / CAPTCHA / "verify it's you" → `parked`, never try to get around it.
 
 ## CAPTCHA: park, keep the tab, go on
 reCAPTCHA / hCaptcha / Turnstile / "I'm not a robot" / image text: never try to solve or bypass it, and never wait.
