@@ -139,3 +139,10 @@ remote_location: "European Union"   # extra remote-only pass
 hours_old: 168         # how far back each run looks (7 days); jobs are still never sent twice
 results_per_query: 30
 min_score_in_digest: 0  # 0 = show everything, ranked
+
+# Email applications from Kranti's Gmail (needs CANDIDATE_EMAIL + KRANTI_GMAIL_APP_PASSWORD secrets).
+# mode "draft": saved in her Gmail Drafts, she presses Send. Switch to "send" once the drafts are trusted.
+applications:
+  mode: draft
+  max_per_day: 8
+  min_score: 80

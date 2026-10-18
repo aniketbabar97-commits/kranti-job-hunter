@@ -33,6 +33,23 @@ def _job(source, title, company, location, url, posted="", remote=False, descrip
     }
 
 
+def arbeitsagentur_details(job):
+    """Full posting text + application email for an Arbeitsagentur job (the search API returns neither)."""
+    import base64
+    ref = job["url"].rstrip("/").split("/")[-1]
+    r = requests.get("https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc/v4/jobdetails/"
+                     + base64.b64encode(ref.encode()).decode(), headers=AA_HEADERS, timeout=30)
+    r.raise_for_status()
+    d = r.json()
+    text = d.get("stellenangebotsBeschreibung") or ""
+    if text:
+        job["description"] = text[:4000]
+    emails = [e for e in EMAIL.findall(r.text) if "arbeitsagentur" not in e.lower()]
+    if emails:
+        job["contact"] = ", ".join(dict.fromkeys(emails))[:200]
+    return job
+
+
 def arbeitsagentur(query, days=2, max_pages=3):
     """Federal employment agency (Bundesagentur für Arbeit) - all of Germany."""
     jobs = []

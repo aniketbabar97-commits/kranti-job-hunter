@@ -20,6 +20,10 @@ on:
         description: "Also send the weekly summary now"
         type: boolean
         default: false
+      email_backfill:
+        description: "Only prepare email applications for strong jobs already found"
+        type: boolean
+        default: false
       test_email:
         description: "Only send a test email (no search)"
         type: boolean
@@ -63,11 +67,12 @@ jobs:
           TO_EMAIL_2:         ${{ secrets.TO_EMAIL_2 }}
           GMAIL_USER:         ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          KRANTI_GMAIL_APP_PASSWORD: ${{ secrets.KRANTI_GMAIL_APP_PASSWORD }}
           DRY_RUN:            ${{ (inputs.dry_run || inputs.posts_check) && '1' || '' }}
           QUERY_LIMIT:        ${{ inputs.posts_check && '0' || '' }}
           TEST_EMAIL:         ${{ inputs.test_email && '1' || '' }}
           FORCE_WEEKLY:       ${{ inputs.weekly_now && '1' || '' }}
-        run: python -m hunter.main
+        run: python -m hunter.${{ inputs.email_backfill && 'outreach' || 'main' }}
 
       - name: Upload digest preview
         if: always()
@@ -82,6 +87,6 @@ jobs:
         run: |
           git config user.name "Job Hunter Bot"
           git config user.email "bot@job-hunter"
-          git add data/seen.json data/jobs_log.csv JOBS.md data/weekly_sent.txt data/last_career_search.txt applications
+          git add data/seen.json data/jobs_log.csv JOBS.md data/weekly_sent.txt data/last_career_search.txt applications data/applications.json APPLIED.md
           git diff --cached --quiet || git commit -m "jobs: $(date -u +%F\ %H:%M)"
           git pull --rebase && git push

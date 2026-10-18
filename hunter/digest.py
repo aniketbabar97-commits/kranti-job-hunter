@@ -111,14 +111,14 @@ def summary(jobs):
     return strong, good, len(jobs) - strong - good
 
 
-def build_html(jobs, health, run_label):
+def build_html(jobs, health, run_label, extra=""):
     e = html.escape
     strong, good, rest = summary(jobs)
     out = ["<div style='font-family:Arial,sans-serif;max-width:640px;margin:0 auto;color:#24292f'>",
            f"<h2 style='margin:8px 0 4px 0'>Job digest</h2><div style='color:#57606a;font-size:13px'>{e(run_label)}</div>",
            f"<p style='font-size:15px'>🎯 <b>{strong}</b> strong · 👍 <b>{good}</b> good fit · "
            f"<span style='color:#57606a'>{rest} lower matches (in the full record)</span></p>",
-           _record_links()]
+           _record_links(), extra]
     picks = sorted((j for j in jobs if j["score"] >= CARD_MIN), key=lambda j: (-j["score"], _age_rank(j)))[:3]
     if picks:
         out.append("<div style='border:2px solid #1a7f37;border-radius:8px;padding:10px 14px;margin:8px 0 4px 0'>"

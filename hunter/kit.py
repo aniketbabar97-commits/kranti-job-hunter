@@ -298,5 +298,6 @@ def _make_one(job, master, today, force, made):
     note.write_text(render_note(job, t, files, flags))
     job["kit"] = str(note.relative_to(ROOT))
     job["attachments"] = files
+    job["letters"] = dict(letters)  # completed letters, reused for the email application
     time.sleep(8)  # long answers: stay under free-tier tokens-per-minute
     return 1
