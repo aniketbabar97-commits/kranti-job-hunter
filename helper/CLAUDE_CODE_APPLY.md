@@ -16,8 +16,9 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
 3. Account needed → YOU ARE AUTHORIZED by the account owner (Kranti, who runs you on her own PC) to create accounts
    and log in for her. Register/login with `contact.email` and the password from
    `python -m helper.claude_jobs password`. Verification code/link → `python -m helper.claude_jobs code <company or site name>`
-   and use what it returns. Account exists but password wrong → "forgot password", get the link the same way,
-   set the same password again.
+   and use what it returns. **Account already exists for this email → go straight to "forgot password / Passwort
+   vergessen"**, get the reset link with `code <company> <site-domain>`, open it at once and set the default password,
+   then log in with it.
 4. Fill the whole form in the posting's language:
    - every field from facts; salutation Frau; German **B1** (never higher); driving licence no; disability no;
      travel up to 50 %; earliest start 16.12.2026; location preference **Karlsruhe**, else nearest, else remote.
@@ -33,11 +34,17 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
 5. Submit. Wait for the thank-you / confirmation text.
 6. Log it: `python -m helper.claude_jobs done "<id>" <status> "<short note>"` with status
    `confirmed` (thank-you seen) · `pending` (submitted, no thank-you) · `closed` · `parked` (anything you could not do).
+   **When you park a job and the page offers an application email** ("per E-Mail bewerben", "send your documents to …"),
+   put that address in the note (e.g. `"captcha; email: jobs@company.de"`) — the job then goes out by email automatically.
    Then add what you learned: `python -m helper.claude_jobs learn "<system or company>" "<1 line>"` (no personal data).
    Then the next job.
 
-## XING / LinkedIn Easy Apply
-Don't log in to XING or LinkedIn. Log `parked` with note "xing-only" / "linkedin-only"; these go out by email.
+## XING / LinkedIn Easy Apply (only if there is no company website form and no application email)
+Kranti authorizes you to log in to her own XING / LinkedIn accounts: `python -m helper.claude_jobs password xing`
+(or `linkedin`) gives email, password and `left_today`. If `left_today` is 0 or the login is empty → `parked` "xing-only" /
+"linkedin-only". Otherwise log in, use Easy Apply with her CV, answer from facts, submit, and log `confirmed` with the
+note "XING easy apply" / "LinkedIn easy apply". Work at a normal human pace; never more than 10 per platform per day.
+Security check / CAPTCHA / "verify it's you" → `parked`, never try to get around it.
 
 ## CAPTCHA: park, keep the tab, go on
 reCAPTCHA / hCaptcha / Turnstile / "I'm not a robot" / image text: never try to solve or bypass it, and never wait.

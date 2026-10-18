@@ -9,6 +9,8 @@
 Builds the job's PDFs on first use (out/helper/...). Logging goes through the same proof/APPLIED.md path as the helper.
 """
 import json
+import os
+import re
 import sys
 import time
 from pathlib import Path
@@ -34,16 +36,32 @@ def _id(kit):
     return kit["job"]["url"]
 
 
+def _dup_key(kit):
+    import re as _re
+    norm = lambda x: _re.sub(r"\(.*?\)|gmbh|se|ag|deutsche|[^a-z]", "", (x or "").lower())
+    return norm(kit["job"]["company"])[:12] + "|" + norm(kit["job"]["title"])[:30]
+
+
 def next_jobs(n=1):
     from hunter.kit import salary_answer
     done = _state()
     out = []
+    applied_keys = set()  # same company + title already applied via another portal -> skip the duplicate
     for kit in queue():
+        if done.get(_id(kit), {}).get("status") == "confirmed":
+            applied_keys.add(_dup_key(kit))
+    # Claude handles every channel, so best fit first (score), not the old helper's channel order
+    for kit in sorted(queue(), key=lambda k: (k["job"]["title"].startswith("[Post]"), -int(k["job"].get("score") or 0))):
+        if _dup_key(kit) in applied_keys:
+            continue
         j = kit["job"]
         # finished ones never again; parked ones only in a later run (not again within 6 h)
         d = done.get(_id(kit), {})
+        only = os.environ.get("APPLY_ONLY")  # e.g. "sap commerce|hybris|sap cx": focus run on these titles
+        if only and not re.search(only, j["title"], re.I):
+            continue
         recent = d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 6 * 3600))
-        if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent) \
+        if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
             continue
         cv, letter, _, lang = build_pdfs(kit)
@@ -70,10 +88,30 @@ def facts():
     return f
 
 
+EMAIL_IN_NOTE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
+
+
+def to_email_route(job_id, address):
+    """A job whose page offers an application email moves to the email route (sent by the daily run)."""
+    for f in (ROOT / "applications").glob("*.json"):
+        k = json.loads(f.read_text(encoding="utf-8"))
+        if k["job"]["url"] == job_id:
+            k["job"]["channel"], k["job"]["contact"] = "email", address
+            f.write_text(json.dumps(k, ensure_ascii=False, indent=1), encoding="utf-8")
+            return True
+    return False
+
+
 def done(job_id, status, note=""):
     from helper import proof
+    m = EMAIL_IN_NOTE.search(note or "")
+    if status == "parked" and m and to_email_route(job_id, m.group(0).rstrip(".")):
+        note = f"{note} → email route"
     s = _state()
     s[job_id] = {"status": status, "note": note, "ts": time.strftime("%Y-%m-%d %H:%M")}
+    for site in ("linkedin", "xing"):
+        if status == "confirmed" and f"{site} easy apply" in (note or "").lower():
+            s[job_id]["via"] = site
     _save(s)
     kit = next((k for k in queue(days=365) if _id(k) == job_id), None)
     job = kit["job"] if kit else {"url": job_id, "company": "?", "title": "?"}
@@ -94,12 +132,19 @@ def main():
         res = next_jobs(int(sys.argv[2]) if len(sys.argv) > 2 else 1)
     elif cmd == "facts":
         res = facts()
-    elif cmd == "password":
+    elif cmd == "password":  # password [linkedin|xing] -> that platform's login, else the default account password
         import os
-        res = {"password": os.environ.get("ACCOUNT_PASSWORD", "")}
+        site = (sys.argv[2] if len(sys.argv) > 2 else "").upper()
+        if site in ("LINKEDIN", "XING"):
+            used = sum(1 for v in _state().values() if v.get("via") == site.lower() and v["ts"][:10] == time.strftime("%Y-%m-%d"))
+            res = {"email": os.environ.get(f"{site}_EMAIL", ""), "password": os.environ.get(f"{site}_PASSWORD", ""),
+                   "left_today": max(0, 10 - used)}
+        else:
+            res = {"password": os.environ.get("ACCOUNT_PASSWORD", "")}
     elif cmd == "code":  # code <company> [site-domain]: link first (they expire fast), then a numeric code
         from helper import mailcodes
         since, hints, res = time.time() - 600, [h for h in sys.argv[2:4] if h], {}
+        hints += [h for h in ("myworkday", "workday", "successfactors", "noreply", "no-reply") if h not in hints]
         for _ in range(12):
             for h in hints:
                 link = mailcodes.wait_for_link(h, LINK_RX, since_ts=since, timeout=5)
@@ -110,6 +155,9 @@ def main():
             if res:
                 break
         res = res or {"link": None, "code": None, "note": "nothing yet: request a new mail and call again"}
+    elif cmd == "parked":  # list everything she can still finish by hand (CAPTCHA, unclear submit, …)
+        st = _state()
+        res = [{"link": k, "note": v["note"]} for k, v in st.items() if v["status"] == "parked"]
     elif cmd == "learn":  # learn <system> <lesson>: appended to helper/PLAYBOOK.md (public: no personal data)
         pb = ROOT / "helper" / "PLAYBOOK.md"
         text = pb.read_text(encoding="utf-8")
