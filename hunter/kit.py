@@ -170,10 +170,10 @@ def validate(master, t):
     for label, items in (t.get("skills") or {}).items():
         if label in allowed:
             kept = [allowed[label][i.lower()] for i in items if isinstance(i, str) and i.lower() in allowed[label]]
-            kept += [s for s in master["skills"][label] if s not in kept]  # never lose real skills
-            skills[label] = kept
-    for label, items in master["skills"].items():
-        skills.setdefault(label, items)
+            if kept:  # the tailored selection only: a focused skills block reads better than a keyword dump
+                skills[label] = kept
+    if len(skills) < 4:  # too little chosen: fall back to the full master list
+        skills = dict(master["skills"])
     t["skills"] = skills
     order = {}
     for job in master["jobs"]:
