@@ -1,6 +1,6 @@
 # Claude in Chrome — batch prompt (Sonnet / Haiku)
 
-**Once, before the first batch** — put all PDFs in one folder. Open PowerShell and paste (adjust the ZIP path if it is not in Downloads):
+**Once, before the first batch** — double-click `helper\make_pdfs.bat` (builds all PDFs into C:\Kranti\pdfs). Or, if you have the ZIP:
 
 ```
 Expand-Archive "$HOME\Downloads\Kranti_Applications_166.zip" C:\Kranti\unzip -Force; mkdir C:\Kranti\pdfs -Force; Get-ChildItem C:\Kranti\unzip -Recurse -Filter *.pdf | Copy-Item -Destination C:\Kranti\pdfs -Force
