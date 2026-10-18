@@ -50,7 +50,10 @@ def load():
 
 
 def website_done(job, data):
-    """True once the website application for this job is logged — only then may the HR email go out."""
+    """True once the website application for this job is logged — only then may the HR email go out.
+    Jobs that can only be applied to by email (no web form anywhere) are always ready."""
+    if job.get("channel") == "email":
+        return True
     return bool({_url(job.get("url")), _url(job.get("direct_url"))} & data["web"])
 
 
