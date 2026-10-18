@@ -108,3 +108,23 @@ to check email delivery in under a minute.
 LinkedIn and Indeed sometimes block automated searches; the health section shows
 when that happens. StepStone and XING aren't scraped (they block bots). For full
 coverage also keep email alerts on StepStone, XING and LinkedIn for "SAP Commerce" / "Hybris".
+
+## Email applications (from Kranti's Gmail)
+
+For jobs scoring 80+ whose posting names an application email address (most often Arbeitsagentur postings and
+smaller SAP partners), the hunter prepares a complete email application in Kranti's own Gmail:
+
+- a short cover note in the posting's language, the tailored CV and the cover letter (PDF, `Lebenslauf` / `Anschreiben` names for German postings)
+- the best address from the posting (application/HR address or a named recruiter; never privacy/no-reply addresses)
+- **never two applications to the same company**, at most 8 per day, and never where you already applied (`APPLIED.md`)
+
+`config.yaml → applications.mode`:
+- `draft` (default): saved in her **Gmail Drafts**. She reads it and presses Send.
+- `send`: sent automatically. Switch only after the first ~10 drafts looked right.
+
+Each run checks her Gmail: a sent draft is logged in `APPLIED.md`, a reply from the company shows up in the digest
+("📬 Replies"). Ledger: `data/applications.json`. Needs secrets `CANDIDATE_EMAIL`, `CANDIDATE_PHONE` and
+`KRANTI_GMAIL_APP_PASSWORD` (a Gmail *app password* of her account).
+
+To prepare applications for strong jobs found before this feature existed: Actions → Job hunt → Run workflow →
+tick **"Only prepare email applications for strong jobs already found"**.

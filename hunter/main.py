@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 import yaml
 
-from . import applied, digest, kit, report, rules, score, sources, weekly
+from . import applied, digest, kit, outreach, report, rules, score, sources, weekly
 
 ROOT = Path(__file__).resolve().parent.parent
 SEEN = ROOT / "data" / "seen.json"
@@ -119,17 +119,27 @@ def main():
     for src, (n, err) in health.items():
         log.info("source %s: %d results %s", src, n, err)
 
+    for j in jobs:  # full text + application email; the search API only returns occupation names
+        if j["source"] == "Arbeitsagentur":
+            try:
+                sources.arbeitsagentur_details(j)
+            except Exception as ex:
+                log.warning("Arbeitsagentur details for %s failed: %s", j["title"], ex)
     score.score_jobs(jobs, cv)
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
     digest.assign_sections(jobs)
+    ledger = outreach.sync() if not os.getenv("DRY_RUN") else outreach.load()  # sent drafts -> APPLIED.md
     applied_data = applied.load()
     for j in jobs:
         j["applied"] = applied.status(j, applied_data)
     if not os.getenv("DRY_RUN") or os.getenv("KIT_IN_DRY_RUN"):
         kit.make_kits(jobs, cv)
 
+    made = outreach.prepare(jobs, cfg) if not os.getenv("DRY_RUN") else []
+    ledger = outreach.load()
+
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
-    body = digest.build_html(jobs, health, label)
+    body = digest.build_html(jobs, health, label, outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
     PREVIEW.parent.mkdir(exist_ok=True)
     PREVIEW.write_text(body)
     if os.getenv("DRY_RUN"):
