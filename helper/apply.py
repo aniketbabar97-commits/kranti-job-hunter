@@ -101,20 +101,21 @@ def answers(kit, lang):
     phone = os.environ["CANDIDATE_PHONE"]
     # (label pattern, value). First match wins; patterns are checked against the field's label text.
     return [
-        (r"^(full.?)?name\b|^ihr name|vollständiger name|vor-? und nachname|^name\s*\*?", "Kranti Chavan"),
+        (r"^(full.?)?name\b|^(ihr|dein|your) name|vollständiger name|vor-? und nachname|^name\s*\*?", "Kranti Chavan"),
         (r"first.?name|vorname|given.?name|^first\b", "Kranti"),
         (r"last.?name|nachname|surname|family.?name|^last\b", "Chavan"),
-        (r"e-?mail", os.environ["CANDIDATE_EMAIL"]),
-        (r"phone|telefon|mobil|handy|tel\.?\b", phone),
+        (r"e-?mail|mailadresse|^mail\b", os.environ["CANDIDATE_EMAIL"]),
+        (r"phone|telefon|rufnummer|mobil|handy|tel\.?\b", phone),
         (r"linkedin", "https://www.linkedin.com/in/kranti-chavan-84a155191"),
         (r"\b(city|ort|stadt|wohnort|location|standort)\b", "Karlsruhe"),
         (r"postal|postleitzahl|\bplz\b|zip", "76131"),
         (r"\bcountry\b|\bland\b", "Germany" if lang == "en" else "Deutschland"),
         (r"salary|gehalt|vergütung|compensation", sal_num),
-        (r"earliest|start.?date|eintritt|verfügbar|available|availability|starttermin", "16.12.2026"),
+        (r"earliest|start.?date|eintritt|verfügbar|available|availability|starttermin|ab wann|when can you start|"
+         r"frühest|(kannst|können|könnten) (du|sie) (bei uns )?(starten|anfangen|beginnen)", "16.12.2026"),
         (r"notice|kündigungsfrist", "Serving notice, last working day 15.12.2026" if lang == "en"
          else "Gekündigt, letzter Arbeitstag 15.12.2026"),
-        (r"how did you hear|wie (sind sie|bist du).*aufmerksam|quelle|source", "Job board / LinkedIn"),
+        (r"how did you hear|wie (sind sie|bist du).*aufmerksam|aufmerksam geworden|quelle|source|herkunft\\b", "Job board / LinkedIn"),
         (r"work.?permit|arbeitserlaubnis|visa|sponsorship", "Valid German residence & work permit, no sponsorship needed"),
     ]
 
@@ -194,6 +195,14 @@ LABEL_JS = """e => {
   for (let i = 0; i < 2 && p && t.join('').trim().length < 3; i++) { t.push(p.innerText.slice(0, 120)); p = p.parentElement; }
   return t.join(' | ').replace(/\\s+/g, ' ').trim();
 }"""
+def qsa(frame, sel):
+    """frame.query_selector_all that survives a frame detaching mid-fill (consent / tracking iframes reload)."""
+    try:
+        return frame.query_selector_all(sel)
+    except Exception:
+        return []
+
+
 PHONE_PREFIX_ONLY = re.compile(r"^\s*\+?\d{1,4}\s*$")  # "+49": the widget's country code, not a number
 
 
@@ -203,7 +212,7 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
     filled, unknown = [], []
     files_done = uploaded if uploaded is not None else set()  # kept per page: upload each file once
     for frame in page.frames:
-        for el in frame.query_selector_all("input, textarea, select"):
+        for el in qsa(frame, "input, textarea, select"):
             try:
                 kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
                 if kind in ("hidden", "submit", "button", "checkbox", "radio", "image", "reset"):
@@ -254,8 +263,12 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                                 pass
                         continue
                     want = answer_for(label, lang) if is_required(el, label) or len(label) > 3 else None
+                    if not want:
+                        want = next((v for rx, v in rules if rx.search(label.split(" | ")[0])), None)
                     if want and pick_option(el, want, label):
                         filled.append(f"{label.split(' | ')[0][:30]} = {want[:20]}")
+                    elif POSITION_LABEL.search(label.split(" | ")[0]) and (opt := pick_position(el, kit["job"].get("title", ""))):
+                        filled.append(f"{label.split(' | ')[0][:30]} = {opt[:30]}")
                     elif is_required(el, label):
                         unknown.append(label[:60])
                     continue
@@ -293,6 +306,23 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
     return filled, unknown
 
 
+POSITION_LABEL = re.compile(r"position|stelle|bereich|vacancy|job\b|ausschreibung|role|abteilung", re.I)
+
+
+def pick_position(el, title):
+    """"Which position / area are you applying for" dropdown: the option closest to the job title (or the only one)."""
+    from helper.sites.own import overlap
+    opts = [o for o in el.evaluate("e => [...e.options].map(o => [o.label || o.text, o.value])")
+            if o[1] and not PLACEHOLDER_OPT.match(o[0] or "")]
+    if not opts:
+        return None
+    best = max(opts, key=lambda o: overlap(title, o[0]))
+    if len(opts) > 1 and overlap(title, best[0]) < 0.34:
+        return None
+    el.select_option(value=best[1])
+    return best[0]
+
+
 REACT_SELECT_INPUT = "input.select__input, input[id^=react-select][id$='-input'], input[role=combobox][aria-autocomplete=list]"
 REACT_SELECT_OPTION = "[class*=select__option], [class*=-option], [role=option]"
 
@@ -303,7 +333,7 @@ def fill_react_selects(page, lang, unknown):
     from helper import answers as _answers
     done = []
     for frame in page.frames:
-        for el in frame.query_selector_all(REACT_SELECT_INPUT):
+        for el in qsa(frame, REACT_SELECT_INPUT):
             try:
                 if not el.is_visible():
                     continue
@@ -363,7 +393,7 @@ def fill_radios(page, lang):
     from helper import answers as _answers
     done, groups = [], {}
     for frame in page.frames:
-        for el in frame.query_selector_all("input[type=radio]"):
+        for el in qsa(frame, "input[type=radio]"):
             try:
                 if not el.is_visible():
                     continue
@@ -457,7 +487,7 @@ def tick_consent(page):
     """Tick every visible, unticked checkbox (privacy, terms, talent pool, keep my data, newsletter: all yes)."""
     n = 0
     for frame in page.frames:
-        boxes = frame.query_selector_all("input[type=checkbox], [role=checkbox][aria-checked=false]")
+        boxes = qsa(frame, "input[type=checkbox], [role=checkbox][aria-checked=false]")
         names = [b.get_attribute("name") or "" for b in boxes]
         for el in boxes:
             try:
@@ -504,7 +534,7 @@ def problems(page, uploads_needed, uploaded):
     if captcha_visible(page):
         why.append("CAPTCHA")
     for frame in page.frames:
-        all_els = frame.query_selector_all("input, textarea, select")
+        all_els = qsa(frame, "input, textarea, select")
         groups = {}
         for el in all_els:
             try:
@@ -545,11 +575,29 @@ def problems(page, uploads_needed, uploaded):
                     why.append("empty: " + label[:40])
             except Exception:
                 continue
+    from helper.sites.base import Site
+    if not why and find_button(page, SUBMIT_BTN) is None and Site.has_form(Site, page) and (dis := disabled_submit(page)):
+        why.append("CAPTCHA (invisible check keeps Submit disabled)" if dis == "captcha" else "Submit stays disabled")
     if uploads_needed and not uploaded:
         why.append("files not attached")
     if page.query_selector("input[type=password]"):
         why.append("account/password")
     return why
+
+
+def disabled_submit(page):
+    """'captcha' / 'disabled' when the only Submit on screen is disabled (a Turnstile / hCaptcha check that did not
+    pass, or a field the filler cannot see), else None."""
+    for frame in page.frames:
+        for el in qsa(frame, "button, input[type=submit]"):
+            try:
+                text = el.inner_text() if el.evaluate("e => e.tagName") != "INPUT" else el.get_attribute("value")
+                if el.is_visible() and not el.is_enabled() and SUBMIT_BTN.search(text or ""):
+                    turnstile = any(re.search(r"turnstile|hcaptcha|recaptcha|friendlycaptcha", f.url or "") for f in page.frames)
+                    return "captcha" if turnstile else "disabled"
+            except Exception:
+                continue
+    return None
 
 
 def find_button(page, rx):
@@ -792,6 +840,10 @@ def classify(rec, page):
         return "PARK_QUESTION"
     if page_closed(page):
         return "CLOSED"
+    if not rec["filled"] and not rec["uploads"]:
+        return "NO_FORM"
+    if page_closed(page):
+        return "CLOSED"
     if not rec["reached_form"] and not rec["filled"]:
         return "NO_FORM"
     return "PARK_QUESTION"
@@ -895,11 +947,38 @@ def dry_main(only=None, workers=4, timeout=240):
     jobs = [(n, len(kits), k, timeout) for n, k in enumerate(kits, 1) if not only or n in only]
     DRY_OUT.parent.mkdir(parents=True, exist_ok=True)
     mode = "a" if only else "w"
+    import time
     with open(DRY_OUT, mode, encoding="utf-8") as out, mp.get_context("spawn").Pool(workers, maxtasksperchild=1) as pool:
-        for rec in pool.imap_unordered(dry_one, jobs):
-            out.write(json.dumps(rec, ensure_ascii=False) + "\n")
-            out.flush()
-            print(f"## {rec['n']:>3} {rec['outcome']:<13} {rec.get('ats')} {rec['seconds']}s {rec['company']}", flush=True)
+        pending = {a[0]: (a, pool.apply_async(dry_one, (a,)), None) for a in jobs}
+        while pending:  # a hung browser can swallow SIGALRM: the parent enforces the limit too
+            for n, (a, res, t0) in list(pending.items()):
+                if t0 is None and not res.ready():
+                    continue
+                if res.ready():
+                    try:
+                        rec = res.get()
+                    except Exception as ex:
+                        rec = {"n": n, "company": a[2]["job"].get("company"), "title": a[2]["job"].get("title"),
+                               "outcome": "ERROR", "error": str(ex)[:200], "seconds": None}
+                    pending.pop(n)
+                    out.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                    out.flush()
+                    print(f"## {rec['n']:>3} {rec['outcome']:<13} {rec.get('ats')} {rec['seconds']}s {rec['company']}", flush=True)
+            time.sleep(2)
+            if len(pending) <= workers:  # only the last jobs are left: give each its timeout + 90 s from now
+                for n, (a, res, t0) in list(pending.items()):
+                    if t0 is None:
+                        pending[n] = (a, res, time.time())
+                    elif time.time() - t0 > timeout + 90 and not res.ready():
+                        pending.pop(n)
+                        j = a[2]["job"]
+                        rec = {"n": n, "company": j.get("company"), "title": j.get("title"), "channel": j.get("channel", ""),
+                               "start_url": j.get("direct_url") or j.get("apply_url") or j["url"], "outcome": "ERROR",
+                               "error": "hung past the job timeout", "seconds": timeout + 90}
+                        out.write(json.dumps(rec, ensure_ascii=False) + "\n")
+                        out.flush()
+                        print(f"## {n:>3} ERROR (hung) {j.get('company')}", flush=True)
+        pool.terminate()
 
 
 def main():

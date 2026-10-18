@@ -85,10 +85,45 @@ def _open(page, link):
     return page if href else page
 
 
+JOB_BOARD = re.compile(r"arbeitsagentur\.de|remotely\.de|stepstone\.|indeed\.|deutschland-stellenmarkt|fashionunited|"
+                       r"jobware|stellenanzeigen\.de|kimeta|jooble", re.I)
+EXTERNAL_LINK = re.compile(r"^\s*(externe seite öffnen|zur (externen )?(stellenanzeige|stellenbeschreibung|bewerbung|"
+                           r"original-?anzeige)|zum (original|stellenangebot|arbeitgeber)|original-?anzeige|"
+                           r"(jetzt )?(extern )?bewerben|apply( now)?( on company (website|site))?|"
+                           r"(auf|zur) (der )?(unternehmens|firmen|arbeitgeber)-?(webseite|website|seite)( bewerben)?|"
+                           r"weiter zur bewerbung|vollständige stellenbeschreibung)\s*$", re.I)
+
+
+def follow_board(page):
+    """A job-board posting (Arbeitsagentur, remotely, ...): open its link to the employer's own posting / form.
+    Returns the new page or None."""
+    if not JOB_BOARD.search(page.url or ""):
+        return None
+    host = page.url.split("://", 1)[-1].split("/", 1)[0]
+    for frame in page.frames:
+        try:
+            for a in frame.query_selector_all("a[href]"):
+                t = (a.inner_text() or "").strip()
+                href = a.get_attribute("href") or ""
+                if EXTERNAL_LINK.match(t) and a.is_visible() and href.startswith("http") and host not in href:
+                    return _open(page, a)
+        except Exception:
+            continue
+    return None
+
+
 def find_job(page, title, company="", min_score=0.5, _depth=0):
     """Returns (page, found: bool, note). page may be a new tab."""
     from helper import apply
     apply.accept_cookies(page)
+    if _depth < 2:  # job-board posting: hop to the employer's page first (at most twice: board -> board -> employer)
+        nxt = follow_board(page)
+        if nxt is not None:
+            nxt.wait_for_timeout(1500)
+            apply.accept_cookies(nxt)
+            if JOB_BOARD.search(nxt.url):
+                return find_job(nxt, title, company, min_score, _depth + 1)
+            return nxt, True, f"followed job board -> {nxt.url[:60]}"
     # 0) the job may already be listed on this page
     link, score = best_link(page, title)
     if link is not None and score >= 0.75:
