@@ -25,7 +25,7 @@ MAX_PER_RUN = 6
 log = logging.getLogger(__name__)
 
 # Technologies worth flagging if a letter mentions them but her CV doesn't.
-TECH = ["Kafka", "Kotlin", "TypeScript", "React", "Angular", "Vue", "Node.js", "Python", "Go ", "AWS", "Azure", "GCP",
+TECH = ["Kafka", "Kotlin", "TypeScript", "React", "Angular", "Vue", "Node.js", "Python", "Golang", "AWS", "Azure", "GCP",
         "Terraform", "GraphQL", "MongoDB", "PostgreSQL", "Elasticsearch", "Spryker", "Salesforce", "SFCC",
         "commercetools", "Magento", "Shopware", "Intershop", "Spartacus", "Composable Storefront", "Next.js", "PHP",
         "Kubernetes", "Docker", "Hybris", "S/4HANA", "SAP CPI", "Integration Suite", "BTP", "Akeneo", "Salsify"]
@@ -297,7 +297,8 @@ def _make_one(job, master, today, force, made):
     note = DIR / f"{slug}.md"
     note.write_text(render_note(job, t, files, flags))
     job["kit"] = str(note.relative_to(ROOT))
-    job["attachments"] = files
+    # PDFs without her phone/email would look unfinished: only attach them once the secrets are set
+    job["attachments"] = files if os.getenv("CANDIDATE_PHONE") and os.getenv("CANDIDATE_EMAIL") else []
     job["letters"] = dict(letters)  # completed letters, reused for the email application
     time.sleep(8)  # long answers: stay under free-tier tokens-per-minute
     return 1

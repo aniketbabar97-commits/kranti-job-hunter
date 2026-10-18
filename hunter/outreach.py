@@ -83,12 +83,23 @@ def clean_title(title):
     return re.sub(r"\s{2,}", " ", title).strip(" -–|")
 
 
+def ready():
+    """Applications need her Gmail login and full contact data (phone in signature and PDFs)."""
+    user, _ = credentials()
+    return bool(user and os.getenv("CANDIDATE_PHONE", "").strip())
+
+
 def backfill(cfg, days=21):
-    """One-off: email applications for strong jobs already in the record (found before this feature existed)."""
+    """Catch-up: email applications for strong jobs already in the record that have none yet. Runs every time,
+    so jobs from earlier digests (or found before the secrets were set) are never left out."""
     import csv
     from . import sources
+    if not ready():
+        log.warning("email applications off: add secrets CANDIDATE_EMAIL, CANDIDATE_PHONE, KRANTI_GMAIL_APP_PASSWORD")
+        return [], []
     master_cv = (ROOT / "cv.md").read_text()
     data = applied.load()
+    done = {v["company_key"] for v in load().values()}
     since = (date.today() - timedelta(days=days)).isoformat()
     jobs, urls = [], set()
     for r in csv.DictReader(open(ROOT / "data" / "jobs_log.csv")):
@@ -99,6 +110,8 @@ def backfill(cfg, days=21):
             continue
         job = {**r, "score": int(r["score"]), "remote": r["remote"] == "True", "contact": "", "description": "",
                "salary": ""}
+        if _company_key(job) in done or applied.status(job, data):
+            continue
         try:
             sources.arbeitsagentur_details(job)  # 404 / empty -> posting closed
         except Exception as ex:
@@ -106,10 +119,12 @@ def backfill(cfg, days=21):
             continue
         if not job["description"] or not pick_email(job):
             continue
-        job["applied"] = applied.status(job, data)
+        job["applied"] = ""
         jobs.append(job)
-    log.info("backfill: %d strong open jobs with an application email", len(jobs))
-    kit.make_kits(jobs, master_cv)
+    log.info("catch-up: %d strong open jobs with an application email and no application yet", len(jobs))
+    if not jobs:
+        return [], []
+    kit.make_kits(jobs, master_cv, force=True)  # fresh PDFs: kits made earlier may lack contact data
     return prepare(jobs, cfg), jobs
 
 
@@ -195,11 +210,8 @@ def prepare(jobs, cfg, today=None):
     """Draft (or send) email applications for eligible jobs. Returns list of ledger entries made this run."""
     s = _settings(cfg)
     user, pw = credentials()
-    if not user:
-        log.info("email applications off: CANDIDATE_EMAIL / KRANTI_GMAIL_APP_PASSWORD not set")
-        return []
-    if "[phone]" in compose_body({"title": ""}, {"salutation": "", "hook": ""}, "en"):
-        log.warning("email applications skipped: CANDIDATE_PHONE secret missing (signature would be incomplete)")
+    if not ready():
+        log.warning("email applications off: add secrets CANDIDATE_EMAIL, CANDIDATE_PHONE, KRANTI_GMAIL_APP_PASSWORD")
         return []
     today = today or date.today().isoformat()
     ledger = load()
@@ -330,6 +342,9 @@ if __name__ == "__main__":  # python -m hunter.outreach  (workflow input "email_
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s %(message)s")
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text())
     made, jobs = backfill(cfg)
+    if not made:
+        raise SystemExit("no email applications prepared (see log)" if ready() else
+                         "secrets CANDIDATE_EMAIL / CANDIDATE_PHONE / KRANTI_GMAIL_APP_PASSWORD missing")
     body = ("<div style='font-family:Arial,sans-serif;max-width:640px;margin:0 auto'>"
             f"<h2>Email applications for jobs already found</h2>"
             f"<p>{len(jobs)} strong open jobs name an application email address.</p>"
