@@ -140,6 +140,17 @@ class Site:
         from helper import apply
         return apply.find_button(page, rx)
 
+    def click_next(self, page):
+        """Click this step's Next button (site find_button: some ATS keep earlier steps' buttons on screen)."""
+        el = self.find_button(page, self.rx("next"))
+        if el is None:
+            return False
+        try:
+            el.click(timeout=5000)
+            return True
+        except Exception:
+            return False
+
     def rx(self, which):
         from helper import apply
         return getattr(self, which + "_regex") or {"submit": apply.SUBMIT_BTN, "next": apply.NEXT_BTN,
@@ -171,7 +182,7 @@ class Site:
                     pass
                 page.wait_for_timeout(1500)
                 uploads = set()
-                for step in range(4):
+                for step in range(8):
                     rep["steps"] = step + 1
                     apply.accept_cookies(page)
                     filled, unknown = self.fill(page, kit, TEST_CV, TEST_CL, "Sehr geehrte Damen und Herren, ...", "de", uploads)
@@ -184,7 +195,7 @@ class Site:
                     rep["submit"] = self.find_button(page, self.rx("submit")) is not None
                     if rep["submit"] or rep["problems"] and "CAPTCHA" in rep["problems"]:
                         break
-                    if self.find_button(page, self.rx("next")) is not None and apply.click_button(page, self.rx("next")):
+                    if self.click_next(page):
                         page.wait_for_timeout(3500)
                         continue
                     break

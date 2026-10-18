@@ -145,6 +145,13 @@ def answer_for(label, lang):
     return _answers.answer(label, lang)
 
 
+def ai_for(label, kit, lang, required=False, kind="text"):
+    """Free-text / motivation answer (helper/ai_answer.py, cached per question, logged). "" = leave empty, None = park."""
+    from helper import ai_answer
+    return ai_answer.answer_free(label, kit, lang, required, "textarea" if kind == "textarea" else
+                                 ("url" if kind == "url" else "text"))
+
+
 def pick_option(el, want, label=""):
     """Choose the <select> option matching a wanted answer (yes/no, Germany, Female, ...). True when chosen."""
     from helper import answers as _answers
@@ -264,6 +271,10 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                 else:
                     required = is_required(el, label)
                     value = answer_for(label, lang) if (required or len(label.split(' | ')[0]) > 6) else None
+                    if not value and (kind in ("textarea", "url") or required or "?" in label.split(" | ")[0]):
+                        value = ai_for(label, kit, lang, required, kind)  # free text: AI from cv.md + facts only
+                        if value == "":
+                            continue  # optional fact we do not have (GitHub, portfolio): leave empty
                     if value:
                         el.fill(value)
                         filled.append(f"{label.split(' | ')[0][:40]} = {value[:30]}")
@@ -685,12 +696,17 @@ def main():
                             print("   ⏸ parked for you: " + ", ".join(why[:3]))
                             nxt = "next"
                             continue
-                    elif find_button(active, site.rx("submit")) is not None:
-                        if click_button(active, site.rx("submit")):
+                    elif (btn := site.find_button(active, site.rx("submit"))) is not None:
+                        try:
+                            btn.click(timeout=5000)
+                            clicked = True
+                        except Exception:
+                            clicked = False
+                        if clicked:
                             print("   → clicked submit")
                             active.wait_for_timeout(5000)
                             seen.pop(id(active), None)
-                    elif steps < 6 and click_button(active, site.rx("next")):  # multi-step form: next page, re-fill
+                    elif steps < 8 and site.click_next(active):  # multi-step form: next page, re-fill
                         steps, tries = steps + 1, 0
                         print("   → next step")
                         active.wait_for_timeout(3500)

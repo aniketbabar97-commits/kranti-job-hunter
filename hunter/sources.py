@@ -491,7 +491,8 @@ def softgarden(slug, company, query=""):
     for a in BeautifulSoup(r.text, "html.parser").select("a[href*='/job/']"):
         title = a.get_text(" ", strip=True)
         if title and (not query or query.lower() in title.lower()):
-            href = a["href"] if a["href"].startswith("http") else f"https://{slug}.softgarden.io{a['href']}"
+            from urllib.parse import urljoin
+            href = urljoin(f"https://{slug}.softgarden.io/de/vacancies", a["href"])
             out.append(_job(f"{company} careers", title, company, "", href, "", "remote" in title.lower(), ""))
     return list({j["url"]: j for j in out}.values())
 
@@ -575,19 +576,20 @@ def _loc(v):
     return str(v or "")
 
 
-def _html_jobs(url, company, query=None, href=JOBISH_HREF, source=None, html_text=None):
+def _html_jobs(url, company, query=None, href=JOBISH_HREF, source=None, html_text=None, strict=None):
     """Server-rendered job list: anchors whose href looks like a job detail and text like a job title."""
     from bs4 import BeautifulSoup
     from urllib.parse import urljoin
     text = html_text if html_text is not None else _get(url).text
     soup = BeautifulSoup(text, "html.parser")
+    strict = (href is JOBISH_HREF) if strict is None else strict  # ATS-specific href pattern: trust the link
     out = _jsonld_jobs(soup, url, company)
     for a in soup.find_all("a", href=True):
         h = a["href"]
         if h.startswith(("mailto:", "tel:", "javascript:", "#")) or not href.search(h):
             continue
         t = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
-        if not (8 <= len(t) <= 160) or NOT_JOB.match(t) or not JOBISH_TITLE.search(t):
+        if not (4 <= len(t) <= 160) or NOT_JOB.match(t) or (strict and not JOBISH_TITLE.search(t)):
             continue
         out.append(_job(source or f"{company} careers", t, company, "", urljoin(url, h).split("#")[0], "",
                         "remote" in t.lower(), ""))
@@ -660,7 +662,7 @@ def teamtailor(slug_or_url, company, query=None):
     root = ET.fromstring(_get(f"{base}/jobs.rss").content)
     out = []
     for it in root.iter("item"):
-        locs = [e.text or "" for e in it.iter() if e.tag.endswith("city") or e.tag.endswith("location") and e.text]
+        locs = [(e.text or "").strip() for e in it.iter() if e.tag.endswith(("}city", "}name", "}country")) and (e.text or "").strip()]
         posted = ""
         try:
             posted = parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
@@ -691,16 +693,16 @@ def dvinci(slug_or_url, company, query=None):
             continue
     if data is None:
         return _html_jobs(base + "/de/jobs", company, query)
+    items = data if isinstance(data, list) else _walk(data, lambda o: o.get("position") and o.get("jobPublicationURL"), [])
     out = []
-    for j in _walk(data, lambda o: (o.get("position") or o.get("title") or o.get("name")) and
-                   (o.get("jobPublicationURL") or o.get("url") or o.get("id")), []):
-        title = j.get("position") or j.get("title") or j.get("name")
-        if not isinstance(title, str):
-            continue
-        url = j.get("jobPublicationURL") or j.get("url") or f"{base}/de/jobPublication/{j.get('id')}"
-        out.append(_job(f"{company} careers", title, company, _loc(j.get("locations") or j.get("location")), url,
-                        (j.get("publicationStartDate") or j.get("startDate") or j.get("createdDate") or "")[:10],
-                        "remote" in title.lower(), ""))
+    for j in items:
+        title = j.get("position") or j.get("pageTitle")
+        url = j.get("jobPublicationURL") or f"{base}/de/jobs/{j.get('id')}"
+        op = j.get("jobOpening") if isinstance(j.get("jobOpening"), dict) else {}
+        loc = _loc([x.get("name") for x in op.get("locations") or []]) or op.get("location") or ""
+        desc = _strip_html(" ".join(str(j.get(k) or "") for k in ("introduction", "tasks", "profile")))
+        out.append(_job(f"{company} careers", title, company, loc, url,
+                        (j.get("startDate") or op.get("createdDate") or "")[:10], "remote" in f"{title} {loc}".lower(), desc))
     return _q(out, query)
 
 
@@ -713,9 +715,26 @@ def rexx(slug_or_url, company, query=None):
 
 
 def concludis(slug_or_url, company, query=None):
-    """concludis job list (URL of the list page, e.g. https://<x>.concludis.de/prj/lst/<hash>/...)."""
-    return _html_jobs(_base(slug_or_url, "https://{}.concludis.de"), company, query,
-                      href=re.compile(r"(?i)/prj/(shw|show)|jobposting|stellen"))
+    """concludis job list https://<x>.concludis.de/prj/lst/ (rows are onclick="cJobboard.openJob('<detail url>')", paged)."""
+    base = _base(slug_or_url, "https://{}.concludis.de/prj/lst/")
+    if "/prj/" not in base:
+        base += "/prj/lst/"
+    out, seen = [], set()
+    for page in range(1, 30):
+        text = _get(base, params={"b": 0, "page": page}).text if "?" not in base else _get(base).text
+        from bs4 import BeautifulSoup
+        rows = []
+        for el in BeautifulSoup(text, "html.parser").select("[onclick*=openJob]"):
+            m = re.search(r"openJob\('([^']+)'", el["onclick"])
+            t = el.select_one(".stellenlink, .headerlink, a, span")
+            rows.append((m.group(1), (t or el).get_text(" ", strip=True)))
+        new = [(u, t) for u, t in rows if u not in seen]
+        for u, title in new:
+            seen.add(u)
+            out.append(_job(f"{company} careers", title, company, "", u.split("?")[0], "", "remote" in title.lower(), ""))
+        if not new or "?" in base or f"page={page + 1}" not in text:
+            break
+    return _q(out, query)
 
 
 def umantis(slug_or_url, company, query=None):
@@ -727,26 +746,50 @@ def umantis(slug_or_url, company, query=None):
     return _html_jobs(url, company, query, href=re.compile(r"(?i)/Vacancies/\d+|/Jobs/\d+|Description"))
 
 
+def _bite_key(spec):
+    """'customer:listing' (data-bite-jobs-api-listing) -> API key from the listing definition on cs-assets.b-ite.com."""
+    customer, listing = spec.split("#")[0].split(":", 1)
+    js = _get(f"https://cs-assets.b-ite.com/{customer}/jobs-api/{listing}.min.js").text
+    m = re.search(r'key\s*:\s*"([0-9a-f]{20,})"', js)
+    return m.group(1) if m else None
+
+
 def bite(slug_or_url, company, query=None):
-    """BITE: slug_or_url = listing key, or a page embedding data-bite-jobs-api-listing="<key>"."""
-    key, origin = slug_or_url, "https://jobs.b-ite.com"
-    if slug_or_url.startswith("http"):
-        origin = slug_or_url
-        page = _get(slug_or_url).text
-        m = re.search(r'data-bite-jobs-api-listing\s*=\s*["\']([^"\']+)', page) or re.search(r'listing["\']?\s*[:=]\s*["\']([\w-]{20,})', page)
+    """BITE: slug_or_url = API key, 'customer:listing', or a page embedding data-bite-jobs-api-listing="customer:listing"
+    (or linking server-rendered .../jobposting/<hash> pages)."""
+    spec = slug_or_url.strip()
+    if spec.startswith("http"):
+        page = _get(spec).text
+        m = re.search(r'data-bite-jobs-api-listing\s*=\s*["\']([^"\']+)', page)
         if not m:
-            return _html_jobs(slug_or_url, company, query, href=re.compile(r"b-ite\.(com|net)|/jobposting/"), html_text=page)
-        key = m.group(1)
-    body = {"key": key, "channel": 0, "locale": "de", "sort": {"by": "title", "order": "asc"},
-            "origin": origin, "page": {"num": 500, "offset": 0}, "filter": {}}
-    r = requests.post("https://jobs.b-ite.com/api/v1/postings/search", json=body, timeout=30,
-                      headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json"})
-    r.raise_for_status()
+            jobs = _html_jobs(spec, company, query, href=re.compile(r"b-ite\.(com|net)|/jobposting/"), html_text=page)
+            return jobs or career_page(spec, company, query)
+        specs = list(dict.fromkeys(re.findall(r'data-bite-jobs-api-listing\s*=\s*["\']([^"\']+)', page)))
+    else:
+        specs = [spec]
+    keys = []
+    for sp in specs:
+        try:
+            k = _bite_key(sp) if ":" in sp else sp
+            if k:
+                keys.append(k)
+        except Exception as e:  # noqa: BLE001
+            log.info("bite listing %s: %s", sp, e)
     out = []
-    for j in r.json().get("jobPostings", []):
-        out.append(_job(f"{company} careers", j.get("title"), company, _loc(j.get("jobSite") or j.get("locations") or j.get("location")),
-                        j.get("url") or j.get("link"), (j.get("createdOn") or j.get("startsOn") or "")[:10],
-                        "remote" in str(j).lower()[:2000], ""))
+    for key in dict.fromkeys(keys):
+        for off in range(0, 5000, 500):
+            body = {"key": key, "channel": 0, "locale": "de", "sort": {"by": "title", "order": "asc"},
+                    "page": {"num": 500, "offset": off}}
+            r = requests.post("https://jobs.b-ite.com/api/v1/postings/search", json=body, timeout=30,
+                              headers={"User-Agent": BROWSER_UA, "Content-Type": "application/json"})
+            r.raise_for_status()
+            ps = r.json().get("jobPostings", [])
+            for j in ps:
+                out.append(_job(f"{company} careers", j.get("title"), company, _loc(j.get("jobSite") or j.get("locations")),
+                                j.get("url"), (j.get("activatedOn") or j.get("startsOn") or j.get("createdOn") or "")[:10],
+                                "remote" in str(j.get("jobSite", "")).lower() or "remote" in (j.get("title") or "").lower(), ""))
+            if len(ps) < 500:
+                break
     return _q(out, query)
 
 
@@ -762,13 +805,19 @@ def avature(slug_or_url, company, query=None):
                             "", False, _strip_html(it.findtext("description") or "")))
     except Exception as e:  # noqa: BLE001
         log.info("avature feed %s: %s", base, e)
-    if not out:
-        for off in range(0, 600, 50):
+    seen = {o["url"] for o in out}
+    for off in range(0, 3000, 50):  # the feed is capped (~20 items): page through the HTML list too
+        try:
             page = _html_jobs(f"{base}/SearchJobs/?jobOffset={off}&jobRecordsPerPage=50", company, None,
                               href=re.compile(r"(?i)JobDetail"))
-            if not page or all(j["url"] in {o["url"] for o in out} for j in page):
-                break
-            out += page
+        except Exception as e:  # noqa: BLE001
+            log.info("avature list %s: %s", base, e)
+            break
+        new = [j for j in page if j["url"] not in seen]
+        if not new:
+            break
+        seen.update(j["url"] for j in new)
+        out += new
     return _q(out, query)
 
 
@@ -810,6 +859,21 @@ def eightfold(slug_or_url, company, query=None):
         domain = (parse_qs(u.query).get("domain") or [u.netloc.split(".")[0] + ".com"])[0]
     host = host if host.startswith("http") else f"https://{host}"
     out = []
+    probe = requests.get(f"{host}/api/apply/v2/jobs", params={"domain": domain, "num": 1}, timeout=30, headers={"User-Agent": BROWSER_UA})
+    if probe.status_code in (403, 404):  # newer tenants: PCSX search API, 10 per page
+        for start in range(0, 2000, 10):
+            d = (_get(f"{host}/api/pcsx/search", params={"domain": domain, "query": query or "", "location": "", "start": start})
+                 .json().get("data") or {})
+            ps = d.get("positions", [])
+            for p in ps:
+                posted = date.fromtimestamp(p["postedTs"]).isoformat() if p.get("postedTs") else ""
+                url = p.get("positionUrl") or f"/careers/job/{p.get('id')}"
+                out.append(_job(f"{company} careers", p.get("name"), company, _loc(p.get("standardizedLocations") or p.get("locations")),
+                                (host + url if url.startswith("/") else url) + ("" if "domain=" in url else f"?domain={domain}"),
+                                posted, p.get("workLocationOption") == "remote", ""))
+            if len(ps) < 10 or len(out) >= d.get("count", 10 ** 6):
+                break
+        return _q(out, query)
     for start in range(0, 2000, 100):
         d = _get(f"{host}/api/apply/v2/jobs", params={"domain": domain, "start": start, "num": 100, "query": query or ""}).json()
         ps = d.get("positions", [])
@@ -833,7 +897,7 @@ def phenom(slug_or_url, company, query=None):
     ref = re.search(r'"refNum"\s*:\s*"([^"]+)"', page)
     lang = (re.search(r'"locale"\s*:\s*"([^"]+)"', page) or re.search(r"/([a-z]{2}/[a-z]{2})/", slug_or_url))
     locale = lang.group(1).replace("/", "_") if lang else "en_us"
-    prefix = re.search(r"^(/[a-z]{2}/[a-z]{2})", u.path)
+    prefix = re.search(r"^(/[\w-]+/[a-z]{2})(?=/)", u.path)
     if not ref:
         return career_page(slug_or_url, company, query)
     out = []
@@ -898,10 +962,48 @@ def join_all(slug_or_url, company, query=None):
     return join_com(s.rstrip("/").split("/")[-1], company, query or "")
 
 
-def career_page(url, company, query=None, timeout=30):
-    """Generic career page (own site / unknown ATS): headless Chromium loads the job list, scrolls, and collects
-    job-detail anchors, JSON-LD JobPostings and job arrays from XHR JSON responses. [] on failure."""
-    from urllib.parse import urljoin
+# A career page that links/embeds a known ATS -> read that ATS directly (complete + structured).
+ATS_LINKS = [
+    (re.compile(r"https?://([\w-]+)\.jobs\.personio\.(?:de|com)"), "personio"),
+    (re.compile(r"https?://(?:boards|job-boards)(?:\.eu)?\.greenhouse\.io/(?:embed/job_board\?for=)?([\w-]+)"), "greenhouse"),
+    (re.compile(r"https?://jobs\.(?:eu\.)?lever\.co/([\w-]+)"), "lever"),
+    (re.compile(r"https?://([\w-]+)\.recruitee\.com"), "recruitee"),
+    (re.compile(r"https?://apply\.workable\.com/([\w-]+)"), "workable"),
+    (re.compile(r"https?://((?!www\.|app\.)[\w-]+)\.teamtailor\.com"), "teamtailor"),
+    (re.compile(r"https?://([\w-]+)\.onlyfy\.jobs"), "onlyfy"),
+    (re.compile(r"(https?://[\w-]+\.dvinci-(?:hr|easy)\.com)"), "dvinci"),
+    (re.compile(r"(https?://[\w-]+\.rexx-systems\.com)"), "rexx"),
+    (re.compile(r"(https?://[\w-]+\.concludis\.de/prj/lst/[^\"'\s<>]*)"), "concludis"),
+    (re.compile(r"https?://recruitingapp-(\d+)(?:\.de)?\.umantis\.com"), "umantis"),
+    (re.compile(r"(https?://[\w-]+\.avature\.net/(?:[a-z]{2}_[A-Z]{2}/)?\w+)/"), "avature"),
+    (re.compile(r"https?://jobs\.ashbyhq\.com/([\w.-]+)"), "ashby"),
+    (re.compile(r"https?://((?!www\.)[\w-]+)\.softgarden\.io"), "softgarden"),
+    (re.compile(r"https?://join\.com/companies/([\w-]+)"), "join"),
+    (re.compile(r"https?://(?:jobs|careers)\.smartrecruiters\.com/([\w-]+)"), "smartrecruiters"),
+    (re.compile(r"(https?://[\w-]+\.wd\d+\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?[\w-]+)"), "workday"),
+]
+LIST_LINK = re.compile(r"(?i)^(jobs?|stellen|karriereportal|jobportal)$|\b(offenen? stellen|stellenangebote|stellenanzeigen|"
+                       r"stellenbörse|job-?börse|alle jobs|alle stellen|jobs? (finden|suchen|entdecken|ansehen)|jobsuche|"
+                       r"zu den (jobs|stellen)|open (positions|jobs)|vacancies|job openings|search jobs|find jobs|view jobs|"
+                       r"all jobs|see jobs|current openings|jobangebote|freie stellen|job ?finder)\b")
+
+
+def _ats_from_html(text):
+    found = {}
+    for rx, ats in ATS_LINKS:
+        for m in rx.finditer(text):
+            v = m.group(1)
+            if v.lower() not in ("api", "static", "assets", "cdn", "www", "embed", "app"):
+                found.setdefault((ats, v), None)
+    return list(found)
+
+
+def career_page(url, company, query=None, timeout=30, _follow_ats=True):
+    """Generic career page (own site / unknown ATS): headless Chromium loads the page, scrolls, and collects
+    job-detail anchors, JSON-LD JobPostings and job arrays from XHR JSON responses. If the page links/embeds a known
+    ATS, that ATS is read directly; if it only links to a job list ("Stellenangebote", "Alle Jobs"), that is followed
+    once. Graceful: [] on failure."""
+    from urllib.parse import urljoin, urlparse
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
@@ -920,15 +1022,52 @@ def career_page(url, company, query=None, timeout=30):
         for o in _walk(data, lambda o: any(isinstance(o.get(k), str) and JOBISH_TITLE.search(o.get(k)) for k in title_keys), []):
             title = next(o[k] for k in title_keys if isinstance(o.get(k), str) and JOBISH_TITLE.search(o[k]))
             link = next((o[k] for k in ("url", "absolute_url", "jobUrl", "applyUrl", "detailUrl", "link", "href",
-                                        "canonicalPositionUrl", "externalPath", "jobPublicationURL") if isinstance(o.get(k), str)), "")
-            if not link:
+                                        "canonicalPositionUrl", "externalPath", "jobPublicationURL", "slug") if isinstance(o.get(k), str)), "")
+            if not link or len(title) > 160:
                 continue
             xhr_jobs.append(_job(f"{company} careers", title, company,
                                  _loc(o.get("location") or o.get("locations") or o.get("city") or o.get("locationsText")),
-                                 urljoin(resp.url, link), str(o.get("postedDate") or o.get("datePosted") or o.get("published") or "")[:10],
+                                 urljoin(page_url[0], link), str(o.get("postedDate") or o.get("datePosted") or o.get("published") or "")[:10],
                                  "remote" in title.lower(), ""))
 
-    jobs = []
+    def settle(page):
+        try:
+            page.wait_for_load_state("networkidle", timeout=8000)
+        except Exception:  # noqa: BLE001
+            pass
+        for sel in ("#onetrust-accept-btn-handler", "#uc-btn-accept-banner", "button:has-text('Alle akzeptieren')",
+                    "button:has-text('Accept all')", "button:has-text('Akzeptieren')", "button:has-text('Zustimmen')"):
+            try:
+                if page.locator(sel).first.is_visible(timeout=300):
+                    page.locator(sel).first.click(timeout=2000)
+                    break
+            except Exception:  # noqa: BLE001
+                pass
+        for _ in range(6):
+            page.mouse.wheel(0, 4000)
+            page.wait_for_timeout(600)
+            for sel in ("button:has-text('Mehr laden')", "button:has-text('Load more')", "button:has-text('Weitere Jobs')",
+                        "button:has-text('Mehr anzeigen')", "button:has-text('Show more')", "a:has-text('Mehr laden')"):
+                try:
+                    if page.locator(sel).first.is_visible(timeout=200):
+                        page.locator(sel).first.click(timeout=2000)
+                        page.wait_for_timeout(1000)
+                except Exception:  # noqa: BLE001
+                    pass
+
+    def harvest(page):
+        jobs, texts = [], [page.content()]
+        for fr in page.frames[1:]:  # embedded ATS widgets (iframes)
+            try:
+                t = fr.content()
+                texts.append(fr.url + " " + t)
+                jobs += _html_jobs(fr.url, company, None, html_text=t)
+            except Exception:  # noqa: BLE001
+                pass
+        jobs += _html_jobs(page.url, company, None, html_text=texts[0])
+        return jobs, " ".join(texts)
+
+    jobs, blob, page_url = [], "", [url]
     try:
         with sync_playwright() as p:
             kw = {"headless": True}
@@ -940,41 +1079,48 @@ def career_page(url, company, query=None, timeout=30):
                 page.set_default_timeout(timeout * 1000)
                 page.on("response", on_response)
                 page.goto(url, timeout=timeout * 1000, wait_until="domcontentloaded")
-                try:
-                    page.wait_for_load_state("networkidle", timeout=10000)
-                except Exception:  # noqa: BLE001
-                    pass
-                for sel in ("#onetrust-accept-btn-handler", "button:has-text('Alle akzeptieren')", "button:has-text('Accept all')",
-                            "button:has-text('Akzeptieren')", "button:has-text('Zustimmen')"):
-                    try:
-                        if page.locator(sel).first.is_visible(timeout=500):
-                            page.locator(sel).first.click(timeout=2000)
-                            break
-                    except Exception:  # noqa: BLE001
-                        pass
-                for _ in range(8):
-                    page.mouse.wheel(0, 4000)
-                    page.wait_for_timeout(700)
-                    for sel in ("button:has-text('Mehr laden')", "button:has-text('Load more')", "button:has-text('Weitere')",
-                                "button:has-text('Mehr anzeigen')", "button:has-text('Show more')"):
+                settle(page)
+                page_url[0] = page.url
+                jobs, blob = harvest(page)
+                if len(jobs) + len(xhr_jobs) < 5 and not _ats_from_html(blob):  # landing page: follow "Stellenangebote"
+                    host = urlparse(page.url).netloc.split(".")[-2:]
+                    best = None
+                    for a in page.locator("a[href]").all()[:400]:
                         try:
-                            if page.locator(sel).first.is_visible(timeout=300):
-                                page.locator(sel).first.click(timeout=2000)
-                                page.wait_for_timeout(1200)
+                            t = re.sub(r"\s+", " ", a.inner_text(timeout=300)).strip()
+                            h = urljoin(page.url, a.get_attribute("href") or "")
                         except Exception:  # noqa: BLE001
-                            pass
-                html_text = page.content()
-                for fr in page.frames[1:]:  # embedded ATS widgets (iframes)
-                    try:
-                        jobs += _html_jobs(fr.url, company, None, html_text=fr.content())
-                    except Exception:  # noqa: BLE001
-                        pass
-                final_url = page.url
+                            continue
+                        if len(t) <= 45 and LIST_LINK.search(t) and h.startswith("http") and h.rstrip("/") != page.url.rstrip("/") \
+                                and not re.search(r"(?i)apply|bewerb|initiativ|login", h):
+                            score = (urlparse(h).netloc.split(".")[-2:] == host) + bool(re.search(r"(?i)stellen|jobs|vacanc|position", h))
+                            if best is None or score > best[0]:
+                                best = (score, h)
+                    if best:
+                        log.info("career_page %s -> %s", url, best[1])
+                        page.goto(best[1], timeout=timeout * 1000, wait_until="domcontentloaded")
+                        settle(page)
+                        page_url[0] = page.url
+                        j2, b2 = harvest(page)
+                        jobs += j2
+                        blob += " " + page.url + " " + b2
             finally:
                 browser.close()
-        jobs += _html_jobs(final_url, company, None, html_text=html_text)
     except Exception as e:  # noqa: BLE001
         log.warning("career_page %s failed: %s", url, e)
+    if _follow_ats:
+        for ats, target in _ats_from_html(blob)[:3]:
+            try:
+                reader = ATS_READERS.get(ats)
+                if ats == "smartrecruiters":
+                    jobs += smartrecruiters(target, company, query or "")
+                elif ats == "workday":
+                    for q in SEARCH_TERMS:
+                        jobs += workday_search(target, q, company)
+                elif reader and reader is not career_page:
+                    jobs += reader(target, company)
+            except Exception as e:  # noqa: BLE001
+                log.info("career_page %s: %s %s failed: %s", url, ats, target, e)
     jobs += xhr_jobs
     if not jobs:
         log.info("career_page %s: no jobs found", url)

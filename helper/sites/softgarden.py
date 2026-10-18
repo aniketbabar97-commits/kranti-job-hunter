@@ -27,6 +27,33 @@ class Softgarden(Site):
     confirm_regex = re.compile(r"vielen dank für (ihre|deine) bewerbung|bewerbung (ist|wurde) (erfolgreich )?(eingegangen|übermittelt|"
                                r"versendet)|thank you for (your )?appl|application (has been )?(submitted|received)", re.I)
 
+    def find_button(self, page, rx):
+        """Steps stack on one page and earlier steps keep their buttons ("zum nächsten Schritt" stays visible on
+        step 2): the current step's button is the LAST visible match."""
+        last = None
+        try:
+            loc = page.get_by_role("button")
+            for i in range(min(loc.count(), 80)):
+                el = loc.nth(i)
+                try:
+                    if el.is_visible() and el.is_enabled() and rx.search(el.inner_text(timeout=500) or ""):
+                        last = el
+                except Exception:
+                    continue
+        except Exception:
+            pass
+        return last if last is not None else super().find_button(page, rx)
+
+    def click_next(self, page):
+        el = self.find_button(page, self.rx("next"))
+        if el is None:
+            return False
+        try:
+            el.click(timeout=5000)
+            return True
+        except Exception:
+            return False
+
     def has_form(self, page):
         return "/application/" in page.url  # the job page has a search box; the form lives on career.softgarden.de
 
