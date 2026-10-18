@@ -39,7 +39,8 @@ def next_jobs(n=1):
     out = []
     for kit in queue():
         j = kit["job"]
-        if _id(kit) in done or j.get("channel") == "email":
+        # parked jobs are retried on the next run (rules improve); finished ones never again
+        if done.get(_id(kit), {}).get("status") in ("confirmed", "pending", "closed") or j.get("channel") == "email":
             continue
         cv, letter, _, lang = build_pdfs(kit)
         sal = salary_answer({"salary": j.get("salary", "")})
@@ -60,7 +61,7 @@ def facts():
     import os
     f = yaml.safe_load((ROOT / "profile" / "facts.yaml").read_text(encoding="utf-8"))
     f["contact"] = {"email": os.environ.get("CANDIDATE_EMAIL", ""), "phone": os.environ.get("CANDIDATE_PHONE", ""),
-                    "street": os.environ.get("CANDIDATE_STREET", ""),
+                    "street": os.environ.get("CANDIDATE_STREET", ""), "birthdate": os.environ.get("CANDIDATE_BIRTHDATE", ""),
                     "postcode": os.environ.get("CANDIDATE_POSTCODE", "") or f["location"]["postal_code"]}
     return f
 
