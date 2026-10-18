@@ -201,8 +201,26 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
     return filled, unknown
 
 
-APPLY_BTN = re.compile(r"^\s*(jetzt |direkt |online |schnell)?(bewerben|apply( now| for this job| here)?|"
-                       r"zur bewerbung|bewerbung starten|ich bin interessiert|i'?m interested)\s*$", re.I)
+APPLY_BTN = re.compile(r"bewerben|bewerbung starten|zur bewerbung|apply|ich bin interessiert|i'?m interested", re.I)
+NOT_APPLY = re.compile(r"initiativ|unsolicited|linkedin|xing|indeed|später|later|merken|save|teilen|share", re.I)
+COOKIE_BTN = re.compile(r"^\s*(alle )?(akzeptieren|zustimmen|einverstanden|accept( all)?( cookies)?|allow all|"
+                        r"alle cookies akzeptieren|ok|verstanden|agree)\s*!?\s*$", re.I)
+
+
+def accept_cookies(page):
+    for frame in page.frames:
+        try:
+            loc = frame.get_by_role("button")
+            for i in range(min(loc.count(), 40)):
+                el = loc.nth(i)
+                if el.is_visible() and COOKIE_BTN.search(el.inner_text(timeout=500) or ""):
+                    el.click(timeout=2000)
+                    return True
+        except Exception:
+            continue
+    return False
+
+
 CONFIRM = re.compile(r"(vielen )?dank für ihre bewerbung|bewerbung (wurde |ist )?(erfolgreich )?(eingegangen|"
                      r"übermittelt|versendet|abgeschickt)|thank you for (your )?appl|application (has been )?"
                      r"(submitted|received|sent)|we have received your application|successfully (submitted|applied)", re.I)
@@ -214,7 +232,8 @@ def click_apply(page):
         try:
             for i in range(min(loc.count(), 80)):
                 el = loc.nth(i)
-                if el.is_visible() and APPLY_BTN.search(el.inner_text(timeout=500) or ""):
+                t = (el.inner_text(timeout=500) or "").strip()
+                if len(t) <= 40 and el.is_visible() and APPLY_BTN.search(t) and not NOT_APPLY.search(t):
                     el.click(timeout=3000)
                     return True
         except Exception:
@@ -365,6 +384,7 @@ def main():
                 print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
             import time
             page.wait_for_timeout(2500)
+            accept_cookies(page)
             if click_apply(page):
                 page.wait_for_timeout(2500)
             print("   AUTO: filling + uploading. Check, tick the privacy box, click Submit.  keys: f a s q")
