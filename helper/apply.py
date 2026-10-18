@@ -775,7 +775,7 @@ def run_job(ctx, kit, n, total, parked, rec=None):
         except Exception as ex:
             res = {"status": "failed", "reason": f"{type(ex).__name__}: {ex}"[:200], "steps": 0}
         print(f"   🧠 brain: {res.get('status')} after {res.get('steps')} steps, {res.get('seconds')}s — {res.get('reason', '')[:120]}")
-        rec["brain"] = {k: res.get(k) for k in ("status", "reason", "steps", "seconds", "final_url")}
+        rec["brain"] = {k: res.get(k) for k in ("status", "reason", "steps", "seconds", "final_url", "models")}
         return res
     if AUTO and assisted:
         print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")

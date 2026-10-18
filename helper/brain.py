@@ -46,15 +46,86 @@ def _key(*names):
     return None
 
 
+GEMINI_POOL = [m.strip() for m in os.environ.get("BRAIN_MODELS", (
+    "gemini-flash-latest,gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-3-flash-preview,"
+    "gemini-flash-lite-latest,gemini-3.5-flash-lite")).split(",") if m.strip()]
+QUOTA_FILE = ROOT / "out" / "helper" / "brain_quota.json"  # models whose free daily quota is used up today
+
+
+def _spent():
+    try:
+        d = json.loads(QUOTA_FILE.read_text())
+        return set(d.get(time.strftime("%Y-%m-%d"), []))
+    except Exception:
+        return set()
+
+
+def _mark_spent(model):
+    try:
+        QUOTA_FILE.parent.mkdir(parents=True, exist_ok=True)
+        today = time.strftime("%Y-%m-%d")
+        QUOTA_FILE.write_text(json.dumps({today: sorted(_spent() | {model})}))
+    except Exception:
+        pass
+
+
+class RotatingGemini:
+    """Gemini's free tier allows only ~20 requests per model per day for the big Flash models, an agent needs ~15-30
+    per job: so every call goes to the first model of GEMINI_POOL that still has quota (newest first), and a model
+    that answers 'per day quota exceeded' is skipped for the rest of the day (remembered in out/helper/brain_quota.json).
+    Per-minute limits / 503 overload: the next model is tried right away."""
+    _verified_api_keys = True
+
+    def __init__(self, api_key, models):
+        from browser_use.llm.google.chat import ChatGoogle
+        self.pool = [(m, ChatGoogle(model=m, api_key=api_key, temperature=0.2, max_retries=1)) for m in models]
+        self.model = models[0]
+        self.used = {}
+
+    @property
+    def provider(self):
+        return "google"
+
+    @property
+    def name(self):
+        return self.model
+
+    @property
+    def model_name(self):
+        return self.model
+
+    async def ainvoke(self, messages, output_format=None, **kw):
+        from browser_use.llm.exceptions import ModelProviderError
+        spent, last = _spent(), None
+        for m, llm in self.pool:
+            if m in spent:
+                continue
+            try:
+                r = await llm.ainvoke(messages, output_format, **kw)
+                self.model = m
+                self.used[m] = self.used.get(m, 0) + 1
+                return r
+            except ModelProviderError as ex:
+                last, msg = ex, str(ex)
+                if "PerDay" in msg:
+                    _mark_spent(m)
+                elif not any(x in msg for x in ("429", "503", "500", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "404")):
+                    raise
+        raise last or ModelProviderError("all Gemini models of BRAIN_MODELS are out of free quota today", 429)
+
+    @classmethod
+    def __get_pydantic_core_schema__(cls, source_type, handler):
+        from pydantic_core import core_schema
+        return core_schema.any_schema()
+
+
 def _llms():
-    """(primary, fallback): Gemini first, Groq when Gemini is rate-limited / down. Either may be missing."""
-    from browser_use.llm.google.chat import ChatGoogle
+    """(primary, fallback): Gemini (rotating over the free models) first, Groq when all of Gemini is out."""
     from browser_use.llm.groq.chat import ChatGroq
     g = _key("GEMINI_API_KEY", "GEMINI_API_KEY2", "BRAIN_GEMINI_API_KEY", "GOOGLE_API_KEY")
     q = _key("GROQ_API_KEY", "BRAIN_GROQ_API_KEY")
-    gem = ChatGoogle(model=os.environ.get("BRAIN_MODEL", "gemini-flash-latest"), api_key=g, temperature=0.2) if g else None
-    groq = ChatGroq(model=os.environ.get("BRAIN_GROQ_MODEL", "meta-llama/llama-4-maverick-17b-128e-instruct"),
-                    api_key=q, temperature=0.2) if q else None
+    gem = RotatingGemini(g, GEMINI_POOL) if g else None
+    groq = ChatGroq(model=os.environ.get("BRAIN_GROQ_MODEL", "openai/gpt-oss-120b"), api_key=q, temperature=0.2) if q else None
     if gem:
         return gem, groq
     if groq:
@@ -112,6 +183,9 @@ HOW:
 1. Accept cookie banners. If this is a job board / careers overview / company homepage, find THIS job (search the
    careers page by title, follow 'Apply on company website', 'Jetzt bewerben', 'Zur Bewerbung', 'Apply'). Ignore
    LinkedIn/XING/Indeed 'easy apply' and 'apply with profile' buttons; use the normal form (manual entry).
+   Use the job's real application form (one that takes a CV upload). A general contact / newsletter form is NOT an
+   application unless the posting itself says to apply through it. If the posting only offers applying by email,
+   call done with status failed and reason "email: <address>".
 2. If the job says it is closed / no longer available / 404 and you cannot find it → done with status closed.
 3. Fill every field of the form from the CANDIDATE facts. Multi-step forms: fill each step, then 'Weiter'/'Next'.
    Upload the CV to the CV/Lebenslauf/resume field and the cover letter to Anschreiben/cover letter/motivation fields
@@ -289,7 +363,7 @@ async def _run(start_url, kit, files, dry_run, cdp_url, headless, log, no_submit
     except Exception:
         pass
     return {"status": status, "reason": reason, "steps": steps, "final_url": final_url,
-            "seconds": round(time.time() - t0), "accounts": sites}
+            "seconds": round(time.time() - t0), "accounts": sites, "models": dict(getattr(primary, "used", {}))}
 
 
 def apply_with_brain(page_or_url, kit, files, dry_run=False, cdp_url=None, headless=None, log=print, no_submit=False):
