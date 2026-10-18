@@ -117,6 +117,9 @@ def backfill(cfg, days=None):
     so jobs from earlier digests (or found before the secrets were set) are never left out."""
     import csv
     from . import sources
+    if _settings(cfg)["max_per_day"] <= 0:
+        log.info("email applications paused (config.yaml applications.max_per_day = 0)")
+        return [], []
     if not ready():
         log.warning("email applications off: add secrets CANDIDATE_EMAIL, CANDIDATE_PHONE, KRANTI_GMAIL_APP_PASSWORD")
         return [], []
