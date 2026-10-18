@@ -9,6 +9,7 @@
 Builds the job's PDFs on first use (out/helper/...). Logging goes through the same proof/APPLIED.md path as the helper.
 """
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -70,8 +71,25 @@ def facts():
     return f
 
 
+EMAIL_IN_NOTE = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
+
+
+def to_email_route(job_id, address):
+    """A job whose page offers an application email moves to the email route (sent by the daily run)."""
+    for f in (ROOT / "applications").glob("*.json"):
+        k = json.loads(f.read_text(encoding="utf-8"))
+        if k["job"]["url"] == job_id:
+            k["job"]["channel"], k["job"]["contact"] = "email", address
+            f.write_text(json.dumps(k, ensure_ascii=False, indent=1), encoding="utf-8")
+            return True
+    return False
+
+
 def done(job_id, status, note=""):
     from helper import proof
+    m = EMAIL_IN_NOTE.search(note or "")
+    if status == "parked" and m and to_email_route(job_id, m.group(0).rstrip(".")):
+        note = f"{note} → email route"
     s = _state()
     s[job_id] = {"status": status, "note": note, "ts": time.strftime("%Y-%m-%d %H:%M")}
     _save(s)
@@ -100,6 +118,7 @@ def main():
     elif cmd == "code":  # code <company> [site-domain]: link first (they expire fast), then a numeric code
         from helper import mailcodes
         since, hints, res = time.time() - 600, [h for h in sys.argv[2:4] if h], {}
+        hints += [h for h in ("myworkday", "workday", "successfactors", "noreply", "no-reply") if h not in hints]
         for _ in range(12):
             for h in hints:
                 link = mailcodes.wait_for_link(h, LINK_RX, since_ts=since, timeout=5)
@@ -110,6 +129,9 @@ def main():
             if res:
                 break
         res = res or {"link": None, "code": None, "note": "nothing yet: request a new mail and call again"}
+    elif cmd == "parked":  # list everything she can still finish by hand (CAPTCHA, unclear submit, …)
+        st = _state()
+        res = [{"link": k, "note": v["note"]} for k, v in st.items() if v["status"] == "parked"]
     elif cmd == "learn":  # learn <system> <lesson>: appended to helper/PLAYBOOK.md (public: no personal data)
         pb = ROOT / "helper" / "PLAYBOOK.md"
         text = pb.read_text(encoding="utf-8")
