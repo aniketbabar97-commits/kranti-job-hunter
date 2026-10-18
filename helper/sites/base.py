@@ -1,64 +1,180 @@
-"""Site adapters for the application helper: one module per ATS that needs more than apply.fill().
-
-An adapter is a module in helper/sites/ exposing a `Site` subclass (or instance) with:
-    match(url) -> bool                      this adapter handles the page
-    needs_account                           True: the portal needs a candidate login (vault + mail codes)
-    open_form(page, ctx) -> bool            Apply -> ... until the first form page is visible
-    fill(page, kit, cv, letter, text, lang, uploaded) -> (filled, unknown)   fill the current page (never Submit)
-    submit_regex / next_regex / confirm_regex    button / confirmation text patterns for the generic loop
-Everything a specific adapter does not override falls back to helper/apply.py's generic behaviour.
-"""
+"""Site adapters: one small class per applicant-tracking system (ATS). The generic filler in helper/apply.py does
+most of the work; a Site adds how to detect the ATS, how to reach the form, site-specific selectors, and the
+button / confirmation texts. Rules (from the owner): tick every checkbox, accept all cookies, disability = no.
+The only reasons to park a job: a CAPTCHA challenge, or an account / password step."""
+import os
 import re
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
+CHROMIUM = os.environ.get("PW_CHROMIUM", "/opt/pw-browsers/chromium")
+TEST_CV = os.environ.get("TEST_CV", "/tmp/claude-0/t/cv.pdf")
+TEST_CL = os.environ.get("TEST_CL", "/tmp/claude-0/t/cl.pdf")
+ALREADY_APPLIED = re.compile(r"already applied|you('ve| have) already applied|bereits beworben|sie haben sich bereits|"
+                             r"bewerbung liegt bereits vor", re.I)
 
 
 class Site:
-    name = "generic"
-    needs_account = False
-    submit_regex = re.compile(r"^\s*(submit|send)( (my |your )?application)?\s*$|^\s*(bewerbung )?(jetzt )?"
-                              r"(absenden|abschicken|senden|einreichen|übermitteln)\s*$", re.I)
-    next_regex = re.compile(r"^\s*(weiter|next|continue|fortfahren|save and continue|nächster schritt)\s*$", re.I)
-    confirm_regex = re.compile(r"thank you for (your )?appl|application (has been )?(submitted|received|sent)|"
-                               r"(vielen )?dank für ihre bewerbung|bewerbung (wurde |ist )?(erfolgreich )?"
-                               r"(eingegangen|übermittelt|versendet)|successfully (submitted|applied)|"
-                               r"you have successfully|congratulations", re.I)
+    """Base adapter = generic behaviour ("own" career sites)."""
+    name = "own"
+    FIXTURE = None            # a live job URL used by test_fixture()
+    needs_account = False     # True: the ATS forces a login / password step -> park
+    HOST = None               # regex on the URL
+    MARKER = None             # regex on the page HTML (custom domains)
+    # css selectors for fields the generic label matcher may miss: key -> css (see VALUES in fill)
+    selectors = {}
+    submit_regex = None       # default: apply.SUBMIT_BTN
+    next_regex = None         # default: apply.NEXT_BTN
+    confirm_regex = None      # default: apply.CONFIRM
+    form_url = None           # f(url) -> url of the form page (skip the job page), or None
 
-    def match(self, url):
+    # ------------------------------------------------------------------ detection
+    def match(self, url, page=None):
+        if self.HOST and re.search(self.HOST, url or "", re.I):
+            return True
+        if self.MARKER and page is not None:
+            try:
+                return re.search(self.MARKER, page.content()[:400000], re.I) is not None
+            except Exception:
+                return False
         return False
 
+    # ------------------------------------------------------------------ flow
     def open_form(self, page, ctx=None):
-        """Go from the job posting to the first form page. Returns True when a form is on screen."""
+        """From the job page to the form. Returns True when a form seems to be on screen."""
         from helper import apply
-        return apply.click_apply(page)
+        if self.form_url:
+            try:
+                target = self.form_url(page.url)
+                if target and target != page.url:
+                    page.goto(target, timeout=60000)
+                    page.wait_for_timeout(2500)
+            except Exception:
+                pass
+        apply.accept_cookies(page)
+        if not self.has_form(page) and apply.click_apply(page):
+            page.wait_for_timeout(3000)
+            apply.accept_cookies(page)
+        return self.has_form(page)
+
+    def has_form(self, page):
+        try:
+            return page.locator("input:not([type=hidden]), textarea, select").count() > 0
+        except Exception:
+            return False
+
+    def values(self, kit, cv, letter, text, lang):
+        from helper import answers
+        f = answers.facts()
+        return {
+            "first_name": f["name"]["first"], "last_name": f["name"]["last"],
+            "name": f"{f['name']['first']} {f['name']['last']}",
+            "email": os.environ.get("CANDIDATE_EMAIL", ""), "phone": os.environ.get("CANDIDATE_PHONE", ""),
+            "linkedin": f["linkedin"], "city": f["location"]["city"], "postal": f["location"]["postal_code"],
+            "country": "Deutschland" if lang == "de" else f["location"]["country"],
+            "salary": str(f["salary"]["default_eur"]), "start": answers.de_date(f["notice"]["earliest_start"]),
+            "letter_text": text or "", "cv": cv, "letter": letter,
+        }
 
     def fill(self, page, kit, cv, letter, text, lang, uploaded=None):
+        """Generic filler first, then the site's own selectors for whatever is still empty."""
         from helper import apply
-        return apply.fill(page, kit, cv, letter, text, lang, uploaded)
+        files_done = uploaded if uploaded is not None else set()
+        filled, unknown = apply.fill(page, kit, cv, letter, text, lang, files_done)
+        vals = self.values(kit, cv, letter, text, lang)
+        for key, css in self.selectors.items():
+            v = vals.get(key)
+            if not v:
+                continue
+            for frame in page.frames:
+                try:
+                    el = frame.query_selector(css)
+                    if el is None:
+                        continue
+                    if key in ("cv", "letter"):
+                        if v not in files_done:
+                            el.set_input_files(v)
+                            files_done.add(v)
+                            filled.append(f"upload {Path(v).name}")
+                    elif el.is_visible() and not el.input_value().strip():
+                        el.fill(v)
+                        filled.append(f"{key} = {v}")
+                    break
+                except Exception:
+                    continue
+        self.after_fill(page, lang)
+        return filled, unknown
 
+    def after_fill(self, page, lang):
+        """Hook for site-specific widgets (custom dropdowns, yes/no buttons)."""
 
-def all_sites():
-    """Instances of every Site subclass found in helper/sites/*.py (except this file)."""
-    import importlib
-    out = []
-    for f in sorted(HERE.glob("*.py")):
-        if f.stem in ("base", "__init__"):
-            continue
-        mod = importlib.import_module(f"helper.sites.{f.stem}")
-        site = getattr(mod, "SITE", None) or getattr(mod, "Site", None)
-        if isinstance(site, type):
-            site = site()
-        if site is not None:
-            out.append(site)
-    return out
-
-
-def for_url(url):
-    for s in all_sites():
+    def already_applied(self, page):
         try:
-            if s.match(url):
-                return s
+            return ALREADY_APPLIED.search(page.inner_text("body", timeout=1000)[:20000]) is not None
         except Exception:
-            continue
-    return None
+            return False
+
+    def problems(self, page, uploads_needed, uploaded):
+        from helper import apply
+        why = apply.problems(page, uploads_needed, uploaded)
+        if self.needs_account and self.account_step(page):
+            why.append("account/password")
+        return why
+
+    def account_step(self, page):
+        return page.query_selector("input[type=password]") is not None
+
+    def find_button(self, page, rx):
+        """Visible+enabled button matching rx (no click), or None."""
+        from helper import apply
+        return apply.find_button(page, rx)
+
+    def rx(self, which):
+        from helper import apply
+        return getattr(self, which + "_regex") or {"submit": apply.SUBMIT_BTN, "next": apply.NEXT_BTN,
+                                                   "confirm": apply.CONFIRM}[which]
+
+    # ------------------------------------------------------------------ test
+    def test_fixture(self, headless=True, url=None):
+        """Open the fixture, fill up to the Submit button, never click it. Returns a report dict."""
+        from playwright.sync_api import sync_playwright
+        from helper import apply
+        os.environ.setdefault("CANDIDATE_EMAIL", "test@example.com")
+        os.environ.setdefault("CANDIDATE_PHONE", "+49 000")
+        url = url or self.FIXTURE
+        kit = {"job": {"salary": "", "url": url, "company": "test", "title": "test"}, "tailoring": {}, "lang": "de"}
+        rep = {"ats": self.name, "fixture": url, "filled": 0, "uploads": 0, "problems": [], "submit": False,
+               "steps": 0, "detail": []}
+        with sync_playwright() as pw:
+            b = pw.chromium.launch(executable_path=CHROMIUM, headless=headless)
+            ctx = b.new_context(viewport={"width": 1280, "height": 900}, locale="de-DE")
+            page = ctx.new_page()
+            try:
+                page.goto(url, timeout=60000)
+                page.wait_for_timeout(3000)
+                rep["form"] = self.open_form(page)
+                page = ctx.pages[-1]
+                uploads = set()
+                for step in range(4):
+                    rep["steps"] = step + 1
+                    filled, unknown = self.fill(page, kit, TEST_CV, TEST_CL, "Sehr geehrte Damen und Herren, ...", "de", uploads)
+                    apply.tick_consent(page)
+                    rep["filled"] += len([x for x in filled if not x.startswith("upload")])
+                    rep["detail"] += filled
+                    rep["unknown"] = unknown
+                    rep["problems"] = self.problems(page, page.query_selector("input[type=file]") is not None, uploads)
+                    rep["submit"] = self.find_button(page, self.rx("submit")) is not None
+                    if rep["submit"] or rep["problems"] and "CAPTCHA" in rep["problems"]:
+                        break
+                    if self.find_button(page, self.rx("next")) is not None and apply.click_button(page, self.rx("next")):
+                        page.wait_for_timeout(3500)
+                        continue
+                    break
+                rep["uploads"] = len(uploads)
+                rep["url"] = page.url
+                if self.needs_account and self.account_step(page) and "account/password" not in rep["problems"]:
+                    rep["problems"].append("account/password")
+            except Exception as ex:
+                rep["error"] = f"{type(ex).__name__}: {str(ex)[:120]}"
+            finally:
+                b.close()
+        return rep

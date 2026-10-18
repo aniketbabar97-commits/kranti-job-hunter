@@ -1,9 +1,11 @@
 """Windows application helper: opens each job in a real Chrome window, fills the application form, uploads the
 tailored CV and cover letter, and waits. You check the form and click Submit yourself.
 
-Start with start.bat (or: python -m helper.apply). AUTO mode: it clicks "Apply/Bewerben", fills every field it
-knows and uploads both PDFs by itself (again after each page change), and when the site shows its thank-you /
-confirmation page it logs the job in APPLIED.md and opens the next one. You only check and click Submit.
+Start with start.bat (or: python -m helper.apply). AUTO mode: it detects the ATS (helper/sites), clicks
+"Apply/Bewerben", fills every field it knows (fixed answers: profile/facts.yaml via helper/answers.py), ticks every
+checkbox, uploads both PDFs, walks "Next" steps, clicks Submit when nothing is missing, and when the site shows its
+thank-you page it logs the job in APPLIED.md and opens the next one. Parked only for a CAPTCHA, an account/password
+step, or a question with no fixed answer (then logged to helper/questions.txt).
 Keys in this window (no Enter needed):
   f  fill again now          a  I submitted it (if no confirmation was detected) -> log, next job
   s  skip this job           q  quit
@@ -118,10 +120,48 @@ def answers(kit, lang):
 
 
 SALUTATION = re.compile(r"anrede|salutation|\btitle\b|prefix", re.I)
-SKIP_LABEL = re.compile(r"captcha|password|passwort|search|suche|gender|geschlecht|anrede|salutation|title|titel|"
-                        r"birth|geburt|newsletter", re.I)
+SKIP_LABEL = re.compile(r"captcha|password|passwort|search|suche|anrede|salutation|\btitle\b|titel|"
+                        r"birth|geburt|confirm.?e-?mail|e-?mail.*(wiederhol|bestätig)|^website$|honeypot", re.I)
 WHY_LABEL = re.compile(r"\bwhy\b|warum|wieso|interest in|interesse", re.I)
 LETTER_LABEL = re.compile(r"cover|anschreiben|motivation|message|nachricht|additional information|zusätzliche", re.I)
+PHOTO_LABEL = re.compile(r"photo|foto|\bbild\b|picture|portrait", re.I)
+REQUIRED_LABEL = re.compile(r"\*|\(required\)|\(pflichtfeld\)|\brequired\b|\bpflicht", re.I)
+PLACEHOLDER_OPT = re.compile(r"^(-+\s*)?((please )?(select|choose|pick)\b.{0,30}|bitte (aus)?wählen.{0,20}|-+|none selected|"
+                             r"keine auswahl|)(\s*-+)?$", re.I)
+
+
+def is_required(el, label=""):
+    try:
+        if el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true":
+            return True
+    except Exception:
+        pass
+    return REQUIRED_LABEL.search((label or "").split(" | ")[0]) is not None
+
+
+def answer_for(label, lang):
+    """A fixed answer from profile/facts.yaml (helper/answers.py); None = unknown (logged)."""
+    from helper import answers as _answers
+    return _answers.answer(label, lang)
+
+
+def pick_option(el, want, label=""):
+    """Choose the <select> option matching a wanted answer (yes/no, Germany, Female, ...). True when chosen."""
+    from helper import answers as _answers
+    opts = el.evaluate("e => [...e.options].map(o => [o.label || o.text, o.value])")
+    if _answers.is_yes(want):
+        rx = re.compile(r"^\s*(yes|ja)\b", re.I)
+    elif _answers.is_no(want):
+        rx = re.compile(r"^\s*(no|nein|keine?)\b", re.I)
+    else:
+        rx = re.compile(re.escape(str(want).split(",")[0].strip()[:25]), re.I)
+    hits = [o for o in opts if rx.search(o[0] or "") and not PLACEHOLDER_OPT.match(o[0] or "")]
+    if not hits:
+        hits = [o for o in opts if (o[0] or "").lower() in str(want).lower() and len(o[0] or "") > 2]
+    if len({h[0] for h in hits}) != 1:
+        return False
+    el.select_option(value=hits[0][1])
+    return True
 
 
 LABEL_JS = """e => {
@@ -150,6 +190,13 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                     continue
                 label = el.evaluate(LABEL_JS)
                 if kind == "file":
+                    if PHOTO_LABEL.search(label):
+                        photo = ROOT / "profile" / "photo.jpg"
+                        if photo.exists() and str(photo) not in files_done and is_required(el, label):
+                            el.set_input_files(str(photo))
+                            files_done.add(str(photo))
+                            filled.append("upload photo.jpg")
+                        continue
                     target = letter if LETTER_LABEL.search(label) else cv
                     if target in files_done and target == cv and letter not in files_done:
                         target = letter  # second upload field without a clear label -> cover letter
@@ -172,7 +219,10 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                 if not el.is_visible() or SKIP_LABEL.search(label):
                     continue
                 if kind == "select":
-                    if re.search(r"country|land", label, re.I):
+                    if el.evaluate("e => e.selectedIndex > 0 && e.value !== ''") and \
+                            not PLACEHOLDER_OPT.match(el.evaluate("e => e.options[e.selectedIndex].text") or ""):
+                        continue  # already chosen
+                    if re.search(r"country|land", label, re.I) and not re.search(r"code|vorwahl", label, re.I):
                         for opt in ("Germany", "Deutschland", "DE"):
                             try:
                                 el.select_option(label=opt)
@@ -180,6 +230,12 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                                 break
                             except Exception:
                                 pass
+                        continue
+                    want = answer_for(label, lang) if is_required(el, label) or len(label) > 3 else None
+                    if want and pick_option(el, want, label):
+                        filled.append(f"{label.split(' | ')[0][:30]} = {want[:20]}")
+                    elif is_required(el, label):
+                        unknown.append(label[:60])
                     continue
                 if el.input_value().strip():
                     continue
@@ -197,16 +253,65 @@ def fill(page, kit, cv, letter, text, lang, uploaded=None):
                         filled.append(f"{label.split(' | ')[0][:40]} = {value}")
                         break
                 else:
-                    if el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true":
+                    required = is_required(el, label)
+                    value = answer_for(label, lang) if (required or len(label.split(' | ')[0]) > 6) else None
+                    if value:
+                        el.fill(value)
+                        filled.append(f"{label.split(' | ')[0][:40]} = {value[:30]}")
+                    elif required:
                         unknown.append(label[:60])
             except Exception:
                 continue
+    filled += fill_radios(page, lang)
     return filled, unknown
+
+
+RADIO_GROUP_JS = """e => { const g = e.closest('fieldset, [role=radiogroup], .form-group, .field, .question, div');
+  const l = g && (g.querySelector('legend') || g.querySelector('label:not(:has(input))') || g);
+  return (l ? l.innerText : '').split('\\n')[0].slice(0, 160); }"""
+
+
+def fill_radios(page, lang):
+    """Radio groups: pick the option matching the fixed answer (disability no, relocation yes, ...)."""
+    from helper import answers as _answers
+    done, groups = [], {}
+    for frame in page.frames:
+        for el in frame.query_selector_all("input[type=radio]"):
+            try:
+                if not el.is_visible():
+                    continue
+                groups.setdefault((id(frame), el.get_attribute("name") or el.evaluate(RADIO_GROUP_JS)), []).append(el)
+            except Exception:
+                continue
+    for _, els in groups.items():
+        try:
+            if any(e.is_checked() for e in els):
+                continue
+            question = els[0].evaluate(RADIO_GROUP_JS)
+            want = _answers.answer(question, lang)
+            if not want:
+                continue
+            if _answers.is_yes(want):
+                rx = re.compile(r"^\s*(yes|ja)\b", re.I)
+            elif _answers.is_no(want):
+                rx = re.compile(r"^\s*(no|nein|keine?)\b", re.I)
+            else:
+                rx = re.compile(re.escape(str(want)[:25]), re.I)
+            hits = [e for e in els if rx.search(e.evaluate(LABEL_JS).split(" | ")[0] or e.get_attribute("value") or "")]
+            if len(hits) == 1:
+                try:
+                    hits[0].check(timeout=2000)
+                except Exception:
+                    hits[0].evaluate("e => e.click()")
+                done.append(f"{question[:30]} = {want[:15]}")
+        except Exception:
+            continue
+    return done
 
 
 APPLY_BTN = re.compile(r"bewerben|bewerbung starten|zur bewerbung|apply|ich bin interessiert|i'?m interested", re.I)
 NOT_APPLY = re.compile(r"initiativ|unsolicited|linkedin|xing|indeed|später|later|merken|save|teilen|share", re.I)
-COOKIE_BTN = re.compile(r"^\s*(alle )?(akzeptieren|zustimmen|einverstanden|accept( all)?( cookies)?|allow all|"
+COOKIE_BTN = re.compile(r"^\s*(alles? |alle cookies )?(akzeptieren|zustimmen|einverstanden|accept( all)?( cookies)?|allow all|"
                         r"alle cookies akzeptieren|ok|verstanden|agree)\s*!?\s*$", re.I)
 
 
@@ -250,55 +355,75 @@ SUBMIT_BTN = re.compile(r"^\s*(bewerbung )?(jetzt )?(absenden|abschicken|senden|
 NEXT_BTN = re.compile(r"^\s*(weiter|next|continue|fortfahren|nächster schritt)\s*$", re.I)
 CONSENT = re.compile(r"datenschutz|privacy|data protection|einwillig|consent|zustimm|agree|akzeptier|"
                      r"terms|bedingungen|dsgvo|gdpr", re.I)
-NO_TICK = re.compile(r"newsletter|talent ?pool|talentpool|marketing|werbung|future (jobs|opportunit)|"
-                     r"weitere (stellen|angebote)|job alert", re.I)
-BLOCKER = re.compile(r"captcha|recaptcha|hcaptcha|turnstile|i'?m not a robot|ich bin kein roboter", re.I)
+# her rule: every box is a yes (privacy, terms, talent pool, keep my data, newsletter) - except a box that would
+# claim a disability, and the cookie banner's own purpose boxes (accept_cookies handles those)
+NEVER_TICK = re.compile(r"disab|behinder|schwerbehind|handicap|^ccm-|cookie|analyse|statistik|social media", re.I)
+BLOCKER = re.compile(r"i'?m not a robot|ich bin kein roboter|anti-roboter|verify you are human|bestätigen sie, dass sie "
+                     r"ein mensch sind|security check|sicherheitsüberprüfung", re.I)
+CAPTCHA_FRAME = "iframe[src*=captcha], iframe[src*=turnstile], iframe[src*=captcha-delivery], .g-recaptcha, .h-captcha, .cf-turnstile"
 
 
 def tick_consent(page):
-    """Tick required privacy/terms boxes only (never newsletter / talent pool)."""
+    """Tick every visible, unticked checkbox (privacy, terms, talent pool, keep my data, newsletter: all yes)."""
     n = 0
     for frame in page.frames:
-        for el in frame.query_selector_all("input[type=checkbox]"):
+        for el in frame.query_selector_all("input[type=checkbox], [role=checkbox][aria-checked=false]"):
             try:
                 label = el.evaluate(LABEL_JS)
-                required = el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true"
-                if not el.is_checked() and CONSENT.search(label) and not NO_TICK.search(label) and \
-                        (required or re.search(r"datenschutz|privacy|data protection|dsgvo|gdpr", label, re.I)):
-                    try:
-                        el.check(timeout=2000)
-                    except Exception:
-                        el.evaluate("e => e.click()")
-                    n += 1
+                name = (el.get_attribute("name") or el.get_attribute("id") or "")
+                if NEVER_TICK.search(label.split(" | ")[0]) or NEVER_TICK.search(name) or not el.is_visible():
+                    continue
+                if el.evaluate("e => e.tagName") == "INPUT" and el.is_checked():
+                    continue
+                try:
+                    el.check(timeout=2000)
+                except Exception:
+                    el.evaluate("e => e.click()")
+                n += 1
             except Exception:
                 continue
     return n
 
 
+def captcha_visible(page):
+    """A CAPTCHA that actually challenges (visible widget / interstitial), not a passive invisible script."""
+    for frame in page.frames:
+        try:
+            for el in frame.query_selector_all(CAPTCHA_FRAME):
+                box = el.bounding_box()
+                if box and box["height"] >= 50 and box["width"] >= 50 and el.is_visible():
+                    return True
+            if "captcha-delivery.com" in frame.url or BLOCKER.search(frame.inner_text("body", timeout=1000)[:20000]):
+                return True
+        except Exception:
+            continue
+    return False
+
+
 def problems(page, uploads_needed, uploaded):
     """Reasons not to submit automatically ([] = safe)."""
     why = []
-    for frame in page.frames:
-        try:
-            if frame.query_selector("iframe[src*=captcha], iframe[src*=turnstile], .g-recaptcha, .h-captcha") or \
-                    BLOCKER.search(frame.inner_text("body", timeout=1000)[:20000]):
-                why.append("CAPTCHA")
-                break
-        except Exception:
-            pass
+    if captcha_visible(page):
+        why.append("CAPTCHA")
     for frame in page.frames:
         for el in frame.query_selector_all("input, textarea, select"):
             try:
                 kind = (el.get_attribute("type") or el.evaluate("e => e.tagName")).lower()
-                req = el.get_attribute("required") is not None or el.get_attribute("aria-required") == "true"
-                if not req or kind in ("hidden", "submit", "button", "file") or not el.is_visible():
+                if kind in ("hidden", "submit", "button", "file") or not el.is_visible():
+                    continue
+                label = el.evaluate(LABEL_JS)
+                if not is_required(el, label) or SKIP_LABEL.search(label):
                     continue
                 if kind in ("checkbox", "radio"):
                     if kind == "checkbox" and not el.is_checked():
-                        why.append("unticked: " + el.evaluate(LABEL_JS)[:40])
+                        why.append("unticked: " + label[:40])
+                    continue
+                if kind == "select":
+                    if not el.evaluate("e => e.selectedIndex > 0 && e.value !== ''"):
+                        why.append("empty: " + label[:40])
                     continue
                 if not el.input_value().strip():
-                    why.append("empty: " + el.evaluate(LABEL_JS)[:40])
+                    why.append("empty: " + label[:40])
             except Exception:
                 continue
     if uploads_needed and not uploaded:
@@ -308,7 +433,8 @@ def problems(page, uploads_needed, uploaded):
     return why
 
 
-def click_button(page, rx):
+def find_button(page, rx):
+    """The first visible, enabled button (or input[type=submit]) whose text matches rx - without clicking."""
     for frame in page.frames:
         for loc in (frame.get_by_role("button"), frame.locator("input[type=submit]")):
             try:
@@ -316,17 +442,31 @@ def click_button(page, rx):
                     el = loc.nth(i)
                     text = el.inner_text(timeout=500) if el.evaluate("e => e.tagName") != "INPUT" else el.get_attribute("value")
                     if el.is_visible() and el.is_enabled() and rx.search(text or ""):
-                        el.click(timeout=5000)
-                        return True
+                        return el
             except Exception:
                 continue
-    return False
+    return None
 
 
-def confirmed(ctx):
+def click_button(page, rx):
+    el = find_button(page, rx)
+    if el is None:
+        return False
+    try:
+        el.click(timeout=5000)
+        return True
+    except Exception:
+        return False
+
+
+def confirmed(ctx, site=None):
+    rx = (site.confirm_regex if site is not None and site.confirm_regex else None) or CONFIRM
     for p in ctx.pages:
         try:
-            if CONFIRM.search(p.inner_text("body", timeout=1000)[:20000]):
+            if site is not None and hasattr(site, "confirmed") and site.confirmed(p):
+                return True
+            text = p.inner_text("body", timeout=1000)[:20000]
+            if rx.search(text) or (rx is not CONFIRM and CONFIRM.search(text)):
                 return True
         except Exception:
             continue
@@ -381,20 +521,33 @@ def main():
             except Exception as ex:
                 print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
             import time
+            from helper import sites
             page.wait_for_timeout(2500)
             accept_cookies(page)
-            if click_apply(page):
-                page.wait_for_timeout(2500)
-            print("   AUTO: filling + uploading. Check, tick the privacy box, click Submit.  keys: f a s q")
-            seen, last_fill, nxt, uploads, tries = {}, 0.0, None, {}, 0
-            already = confirmed(ctx)  # a thank-you text on the job page itself must not count
+            site = sites.detect(page.url, page)
+            print(f"   ATS: {site.name}")
+            already = confirmed(ctx, site)  # a thank-you text on the job page itself must not count
+            if site.already_applied(page):
+                print("   already applied here earlier → logged, next job")
+                log_applied(kit, site.name, page, False, "auto")
+                continue
+            try:
+                site.open_form(page)
+            except Exception as ex:
+                print(f"   could not reach the form by itself ({ex}); click Apply yourself")
+            print("   AUTO: filling + uploading" + (" and submitting" if AUTO else ". Check and click Submit") + ".  keys: f a s q")
+            seen, last_fill, nxt, uploads, tries, steps = {}, 0.0, None, {}, 0, 0
             from helper import trust
             ats = trust.detect(ctx.pages[-1].url or j["url"])
+            if ats == "own" and site.name != "own":
+                ats = site.name
             assisted = trust.mode(ats) == trust.ASSISTED  # first job per ATS: fill, stop at Submit, she clicks
             if AUTO and assisted:
                 print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")
             while nxt is None:
                 active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
+                if active is not page and site.name == "own":
+                    site = sites.detect(active.url, active)  # the form opened in a new tab on another host
                 try:
                     sig = (active.url, len(active.frames), active.locator("input, textarea, select").count())
                 except Exception:
@@ -403,29 +556,36 @@ def main():
                 if key == "f" or (sig and seen.get(id(active)) != sig and time.time() - last_fill > 2):
                     seen[id(active)] = sig
                     last_fill = time.time()
-                    filled, unknown = fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
+                    filled, unknown = site.fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
+                    tick_consent(active)
                     if filled or key == "f":
                         print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
-                        for x in unknown:
-                            print(f"     ✗ please fill yourself: {x}")
+                        for x in unknown:  # no fixed answer in profile/facts.yaml -> logged in helper/questions.txt
+                            print(f"     ✗ no answer known (see helper/questions.txt): {x}")
                 if AUTO and not assisted and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
                     tries += 1
                     ats = trust.detect(active.url) if trust.detect(active.url) != "own" else ats
                     tick_consent(active)
                     files_here = active.query_selector("input[type=file]") is not None
-                    why = problems(active, files_here, uploads.get(active.url.split("?")[0]))
+                    why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
                     if why:
                         if tries >= 3:
                             parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
                             print("   ⏸ parked for you: " + ", ".join(why[:3]))
                             nxt = "next"
                             continue
-                    elif click_button(active, SUBMIT_BTN) or click_button(active, NEXT_BTN):
-                        print("   → clicked submit/next")
-                        active.wait_for_timeout(4000)
+                    elif find_button(active, site.rx("submit")) is not None:
+                        if click_button(active, site.rx("submit")):
+                            print("   → clicked submit")
+                            active.wait_for_timeout(5000)
+                            seen.pop(id(active), None)
+                    elif steps < 6 and click_button(active, site.rx("next")):  # multi-step form: next page, re-fill
+                        steps, tries = steps + 1, 0
+                        print("   → next step")
+                        active.wait_for_timeout(3500)
                         seen.pop(id(active), None)
-                if key == "a" or (last_fill and not already and confirmed(ctx)):
-                    seen_page = not already and confirmed(ctx)
+                if key == "a" or (last_fill and not already and confirmed(ctx, site)):
+                    seen_page = not already and confirmed(ctx, site)
                     state = log_applied(kit, ats, active, seen_page, "assisted" if assisted else "auto")
                     print("   ✅ confirmation page seen → logged as applied (screenshot in out/proof), next job" if state == "confirmed"
                           else "   ⏳ no confirmation page → pending; the hunter confirms it from the receipt mail (or asks you to check)")

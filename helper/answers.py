@@ -47,6 +47,11 @@ RULES = [
     (r"previously (worked|employed|applied)|ever (worked|been employed)|former employee|schon einmal|bereits (bei|für) uns|"
      r"zuvor (bei|für)|früher (bei|für)|ehemalige", lambda f, l: yes_no(f["previous_employment_at_company"], l)),
     (r"driv(ing|er'?s?) licen[cs]e|führerschein|fahrerlaubnis", lambda f, l: yes_no(f["driving_licence"], l)),
+    # yes/no phrasings first: "do you need sponsorship" -> No, "are you authorised to work" -> Yes
+    (r"(need|require|benötig|erforderlich|brauch).{0,40}(sponsor|visa|visum|arbeitserlaubnis)|"
+     r"(sponsor|visa|visum).{0,40}(need|require|benötig|erforderlich)", lambda f, l: yes_no("no", l)),
+    (r"(authori[sz]ed|eligible|permitted|legally (able|allowed|entitled)|berechtigt|erlaubt).{0,30}(to work|work|arbeit)|"
+     r"right to work|work authori[sz]ation|(besitzen|haben) sie .*arbeitserlaubnis", lambda f, l: yes_no("yes", l)),
     (r"work.?permit|arbeitserlaubnis|arbeitsgenehmigung|visa|sponsorship|aufenthaltstitel|right to work|"
      r"authori[sz]ed to work|legally (allowed|entitled)|eligible to work",
      lambda f, l: ("Gültige Aufenthalts- und Arbeitserlaubnis für Deutschland, kein Visa-Sponsoring nötig" if l == "de"

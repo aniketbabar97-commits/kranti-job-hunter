@@ -155,8 +155,9 @@ def _candidates(imap, since_ts, folder):
 
 def _poll(sender_hint, since_ts, timeout, pick, folders=("INBOX", "[Gmail]/Spam")):
     user, pw = _credentials()
-    if not user:
-        raise RuntimeError("Gmail IMAP not configured: CANDIDATE_EMAIL and KRANTI_GMAIL_APP_PASSWORD in helper/me.env")
+    if not user:  # no crash: the adapter parks the job instead
+        print("   mailcodes: Gmail IMAP not configured (CANDIDATE_EMAIL + KRANTI_GMAIL_APP_PASSWORD in helper/me.env)")
+        return None
     deadline = time.time() + timeout
     while True:
         imap = None
