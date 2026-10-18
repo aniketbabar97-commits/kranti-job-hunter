@@ -88,10 +88,28 @@ def clean_title(title):
     return re.sub(r"\s{2,}", " ", title).strip(" -–|")
 
 
+_LOGIN_OK = None
+
+
+def login_ok():
+    """Check the Gmail login once per run, before spending AI calls on kits that could not be delivered."""
+    global _LOGIN_OK
+    if _LOGIN_OK is None:
+        user, pw = credentials()
+        try:
+            _imap(user, pw).logout()
+            _LOGIN_OK = True
+        except Exception as ex:
+            log.error("Gmail login for %s failed (%s). The KRANTI_GMAIL_APP_PASSWORD secret must be a 16-letter "
+                      "app password created while signed in to that account.", user, ex)
+            _LOGIN_OK = False
+    return _LOGIN_OK
+
+
 def ready():
     """Applications need her Gmail login and full contact data (phone in signature and PDFs)."""
     user, _ = credentials()
-    return bool(user and os.getenv("CANDIDATE_PHONE", "").strip())
+    return bool(user and os.getenv("CANDIDATE_PHONE", "").strip()) and login_ok()
 
 
 def backfill(cfg, days=None):
@@ -336,6 +354,11 @@ def digest_block(made, ledger, mode):
     """HTML block for the digest email."""
     import html
     e = html.escape
+    if _LOGIN_OK is False:
+        return ("<div style='border:2px solid #cf222e;border-radius:8px;padding:10px 14px;margin:14px 0'>"
+                "⚠️ <b>Email applications paused:</b> Gmail refused the login for Kranti's account. Create a new app "
+                "password at myaccount.google.com/apppasswords <i>while signed in as Kranti</i> and save it as the "
+                "KRANTI_GMAIL_APP_PASSWORD secret.</div>")
     if not made and not ledger:
         return ""
     waiting = [v for v in ledger.values() if v["status"] == "draft"]
@@ -364,7 +387,7 @@ if __name__ == "__main__":  # python -m hunter.outreach  (workflow input "email_
     made, jobs = backfill(cfg)
     if not made:
         raise SystemExit("no email applications prepared (see log)" if ready() else
-                         "secrets CANDIDATE_EMAIL / CANDIDATE_PHONE / KRANTI_GMAIL_APP_PASSWORD missing")
+                         "Gmail login failed or secrets missing: check KRANTI_GMAIL_APP_PASSWORD, CANDIDATE_EMAIL, CANDIDATE_PHONE")
     body = ("<div style='font-family:Arial,sans-serif;max-width:640px;margin:0 auto'>"
             f"<h2>Email applications for jobs already found</h2>"
             f"<p>{len(jobs)} strong open jobs name an application email address.</p>"
