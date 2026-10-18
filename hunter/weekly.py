@@ -80,6 +80,11 @@ def build(today, rows, applied_data, hard_to_fill=()):
                for n, label in [(len(week), "new jobs"), (strong, "strong"), (good, "good fit"), (sent_week, "applied (dated)")])
            + "</tr></table>",
            digest._record_links()]
+    try:
+        from . import funnel
+        out.append(funnel.html_block(week_ago, "📈 Funnel this week") + funnel.html_block(title="📈 Funnel overall"))
+    except Exception as ex:
+        log.warning("funnel block failed: %s", ex)
     out.append(f"<h3>⭐ Best jobs this week you haven't applied to ({len(open_top)})</h3>")
     if open_top:
         out += [digest._card(dict(r, remote=r["remote"] == "True", salary=""), e) for r in open_top]
@@ -116,7 +121,13 @@ def maybe_send(today, cfg):
         j.setdefault("lang", "de" if j["source"] == "Arbeitsagentur" else "en")
     kit.make_kits(hard)
     from . import inbox
-    body = build(today, report.read_log(), applied_data, hard).replace("</div>", inbox.weekly_stats() + "</div>", 1)
+    from . import gapcheck
+    try:
+        gaps = gapcheck.html_block(gapcheck.find_gaps())
+    except Exception as e:  # noqa: BLE001 - the summary must go out even if the check fails
+        log.warning("gapcheck failed: %s", e)
+        gaps = ""
+    body = build(today, report.read_log(), applied_data, hard).replace("</div>", inbox.weekly_stats() + gaps + "</div>", 1)
     (ROOT / "data" / "last_weekly.html").write_text(body, encoding="utf-8")
     if digest.send(f"📊 Weekly job summary — week {week[-2:]}", body, [a for j in hard for a in j.get("attachments", [])]):
         STATE.write_text(week, encoding="utf-8")

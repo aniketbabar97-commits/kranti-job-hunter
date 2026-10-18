@@ -1,137 +1,144 @@
 {
- "job": {
-  "title": "Senior Software Engineer (m/w/d) PHP und Shopware, Berlin, hybrid",
-  "company": "iT-Recs",
-  "location": "Berlin, Berlin",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4932801536-S",
-  "apply_url": "",
-  "score": 70,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4932801536-S",
-  "email_subject": "Bewerbung als Senior Software Engineer E-Commerce, Berlin hybrid",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nFür die Shop-Plattform Ihres Kunden brauchen Sie einen Senior Engineer, der E-Commerce-Erweiterungen, Schnittstellen und Performance beherrscht – das mache ich seit über fünf Jahren für Rockwell Automation und Shell.\n\n– OCC-REST-Webservices (Headless-APIs) für Storefronts, PWA-Frontends und Drittsysteme entwickelt\n– Refaktorierung von Datenbankabfragen geleitet: kürzere Antwortzeiten, schnellere Transaktionen\n– KI-Tools (generative KI / LLMs) intensiv in Analyse, Entwicklung, Test und Dokumentation eingesetzt\n\nCode-Reviews und die Anleitung von Junior-Entwicklern gehören für mich dazu. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Senior Software Engineer E-Commerce | APIs, Integrationen & Shop-Plattformen",
-  "summary": "Senior Software Engineer mit über 5 Jahren Erfahrung in Entwicklung, Erweiterung und Betrieb großer E-Commerce-Plattformen für Rockwell Automation und Shell. Stark in Backend-Entwicklung, RESTful APIs, Headless-Commerce-Schnittstellen für PWA-Frontends, JavaScript und Storefront-Anpassung sowie SQL und Performance-Tuning. Integriert Shops mit PIM-, ERP- und MDM-Systemen, arbeitet mit Git, CI/CD, Docker und Kubernetes und unterstützt den Produktivbetrieb. Führt Code-Reviews durch, nutzt KI-gestützte Entwicklung täglich und arbeitet agil in internationalen Teams. Erfahrung mit Promotions Engine, Order Management und großen Produktkatalogen.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "Design Patterns",
-    "JUnit"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "Git",
-    "CI/CD pipelines",
-    "Docker",
-    "Kubernetes",
-    "production support and troubleshooting"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering"
-   ],
-   "Ways of Working": [
-    "Code Reviews",
-    "Agile / Scrum",
-    "Jira",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Senior Software Engineer (m/w/d) PHP und Shopware, Berlin, hybrid",
+    "company": "iT-Recs",
+    "location": "Berlin, Berlin",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4932801536-S",
+    "apply_url": "",
+    "score": 70,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4932801536-S",
+    "email_subject": "Bewerbung als Senior Software Engineer E-Commerce, Berlin hybrid",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nFür die Shop-Plattform Ihres Kunden brauchen Sie einen Senior Engineer, der E-Commerce-Erweiterungen, Schnittstellen und Performance beherrscht – das mache ich seit über fünf Jahren für Rockwell Automation und Shell.\n\n– OCC-REST-Webservices (Headless-APIs) für Storefronts, PWA-Frontends und Drittsysteme entwickelt\n– Refaktorierung von Datenbankabfragen geleitet: kürzere Antwortzeiten, schnellere Transaktionen\n– KI-Tools (generative KI / LLMs) intensiv in Analyse, Entwicklung, Test und Dokumentation eingesetzt\n\nCode-Reviews und die Anleitung von Junior-Entwicklern gehören für mich dazu. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "maybe_closed",
+    "form_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4932801536-S",
+    "ats": "arbeitsagentur",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "closed"
   },
-  "bullet_order": {
-   "rockwell": [
-    1,
-    0,
-    2,
-    4,
-    7,
-    5,
-    3,
-    6
-   ],
-   "shell": [
-    1,
-    0,
-    5,
-    4,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    2,
-    0,
-    1,
-    3
-   ]
+  "tailoring": {
+    "headline": "Senior Software Engineer E-Commerce | APIs, Integrationen & Shop-Plattformen",
+    "summary": "Senior Software Engineer mit über 5 Jahren Erfahrung in Entwicklung, Erweiterung und Betrieb großer E-Commerce-Plattformen für Rockwell Automation und Shell. Stark in Backend-Entwicklung, RESTful APIs, Headless-Commerce-Schnittstellen für PWA-Frontends, JavaScript und Storefront-Anpassung sowie SQL und Performance-Tuning. Integriert Shops mit PIM-, ERP- und MDM-Systemen, arbeitet mit Git, CI/CD, Docker und Kubernetes und unterstützt den Produktivbetrieb. Führt Code-Reviews durch, nutzt KI-gestützte Entwicklung täglich und arbeitet agil in internationalen Teams. Erfahrung mit Promotions Engine, Order Management und großen Produktkatalogen.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "Design Patterns",
+        "JUnit"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "Git",
+        "CI/CD pipelines",
+        "Docker",
+        "Kubernetes",
+        "production support and troubleshooting"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering"
+      ],
+      "Ways of Working": [
+        "Code Reviews",
+        "Agile / Scrum",
+        "Jira",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        1,
+        0,
+        2,
+        4,
+        7,
+        5,
+        3,
+        6
+      ],
+      "shell": [
+        1,
+        0,
+        5,
+        4,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        2,
+        0,
+        1,
+        3
+      ]
+    },
+    "why_company": "Die Stelle bietet Senior-Verantwortung für eine produktive E-Commerce-Plattform in einem hybriden Berliner Team. Mit über fünf Jahren Erfahrung in Shop-Erweiterungen, API-Schnittstellen, Datenintegration und Performance-Optimierung großer Commerce-Systeme für Rockwell Automation und Shell kann ich dort schnell Verantwortung übernehmen und das Team stärken.",
+    "linkedin_message": "Guten Tag, die Stelle Senior Software Engineer E-Commerce (Berlin, hybrid) interessiert mich: 5+ Jahre große Commerce-Plattformen bei Rockwell Automation und Shell, REST-APIs, Integrationen, SQL-Performance, JavaScript. Start ab 16.12.2026. Gern kurz sprechen?"
   },
-  "why_company": "Die Stelle bietet Senior-Verantwortung für eine produktive E-Commerce-Plattform in einem hybriden Berliner Team. Mit über fünf Jahren Erfahrung in Shop-Erweiterungen, API-Schnittstellen, Datenintegration und Performance-Optimierung großer Commerce-Systeme für Rockwell Automation und Shell kann ich dort schnell Verantwortung übernehmen und das Team stärken.",
-  "linkedin_message": "Guten Tag, die Stelle Senior Software Engineer E-Commerce (Berlin, hybrid) interessiert mich: 5+ Jahre große Commerce-Plattformen bei Rockwell Automation und Shell, REST-APIs, Integrationen, SQL-Performance, JavaScript. Start ab 16.12.2026. Gern kurz sprechen?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Senior Software Engineer E-Commerce, Berlin hybrid",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Für eine anspruchsvolle Shop-Plattform braucht es Senior-Entwickler, die E-Commerce-Prozesse verstehen und Erweiterungen, Schnittstellen und Performance souverän beherrschen. Genau das bringe ich mit: Seit über fünf Jahren entwickle und betreibe ich bei Rockwell Automation und Shell große B2B- und B2C-Commerce-Plattformen – von APIs über Datenintegration bis zum Produktivbetrieb.",
-   "bullets": [
-    {
-     "label": "Shop-Erweiterungen & E-Commerce-Logik",
-     "text": "Promotions Engine, Order Management (OMS), Cronjobs und Produkt-, Katalog- und Preisfunktionen entwickelt und gepflegt – nach Best Practices und Design Patterns."
-    },
-    {
-     "label": "Schnittstellen & APIs",
-     "text": "RESTful APIs für Headless-Commerce und PWA-Frontends entwickelt, REST- und SOAP-Webservices integriert und PIM-/ERP-Datenpipelines aufgebaut."
-    },
-    {
-     "label": "Performance & Datenbanken",
-     "text": "Refaktorierung von Datenbankabfragen geleitet – mit kürzeren Antwortzeiten und schnelleren Transaktionen; Produktionsvorfälle analysiert und behoben."
-    },
-    {
-     "label": "Code-Qualität & Teamarbeit",
-     "text": "Code-Reviews durchgeführt, Junior-Entwickler angeleitet, CI/CD-Deployment-Zyklen durchgeführt und KI-Tools intensiv in Entwicklung und Test eingesetzt."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Senior Software Engineer E-Commerce, Berlin hybrid",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Für eine anspruchsvolle Shop-Plattform braucht es Senior-Entwickler, die E-Commerce-Prozesse verstehen und Erweiterungen, Schnittstellen und Performance souverän beherrschen. Genau das bringe ich mit: Seit über fünf Jahren entwickle und betreibe ich bei Rockwell Automation und Shell große B2B- und B2C-Commerce-Plattformen – von APIs über Datenintegration bis zum Produktivbetrieb.",
+      "bullets": [
+        {
+          "label": "Shop-Erweiterungen & E-Commerce-Logik",
+          "text": "Promotions Engine, Order Management (OMS), Cronjobs und Produkt-, Katalog- und Preisfunktionen entwickelt und gepflegt – nach Best Practices und Design Patterns."
+        },
+        {
+          "label": "Schnittstellen & APIs",
+          "text": "RESTful APIs für Headless-Commerce und PWA-Frontends entwickelt, REST- und SOAP-Webservices integriert und PIM-/ERP-Datenpipelines aufgebaut."
+        },
+        {
+          "label": "Performance & Datenbanken",
+          "text": "Refaktorierung von Datenbankabfragen geleitet – mit kürzeren Antwortzeiten und schnelleren Transaktionen; Produktionsvorfälle analysiert und behoben."
+        },
+        {
+          "label": "Code-Qualität & Teamarbeit",
+          "text": "Code-Reviews durchgeführt, Junior-Entwickler angeleitet, CI/CD-Deployment-Zyklen durchgeführt und KI-Tools intensiv in Entwicklung und Test eingesetzt."
+        }
+      ],
+      "gap": "",
+      "logistics": "Meine Erfahrung mit Erweiterungs- und Schnittstellenarchitekturen großer Shop-Systeme ist plattformübergreifend wertvoll. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Das hybride Modell in Berlin passt gut. Gern zeige ich Ihnen im Gespräch, was ich in das Team Ihres Kunden einbringe.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Meine Erfahrung mit Erweiterungs- und Schnittstellenarchitekturen großer Shop-Systeme ist plattformübergreifend wertvoll. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Das hybride Modell in Berlin passt gut. Gern zeige ich Ihnen im Gespräch, was ich in das Team Ihres Kunden einbringe.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18",
+  "skip": "closed"
 }

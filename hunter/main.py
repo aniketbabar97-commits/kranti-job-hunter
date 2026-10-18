@@ -38,27 +38,45 @@ def legacy_key(job):
 def collect(cfg):
     jobs, health = [], {}
 
+    import threading
+    lock = threading.Lock()
+
     def run(name, fn, *args):
-        n, err = health.get(name, (0, ""))
         try:
-            found = fn(*args)
-            jobs.extend(found)
-            health[name] = (n + len(found), err)
+            found, err = fn(*args), None
         except Exception as e:
             log.warning("%s %r failed: %s", name, args[0], e)
-            health[name] = (n, str(e)[:150])
+            found, err = [], str(e)[:150]
+        with lock:  # company feeds run in parallel threads
+            n, old = health.get(name, (0, ""))
+            jobs.extend(found)
+            health[name] = (n + len(found), err or old)
 
     days = max(1, cfg["hours_old"] // 24)
+    extra = cfg.get("sources", {})
+    sites = extra.get("jobspy_sites") or ["linkedin", "indeed"]
     for q in cfg["queries"]:
         log.info("query: %s", q)
         run("Arbeitsagentur", sources.arbeitsagentur, q, days)
         for loc in cfg["locations"]:
-            run("LinkedIn/Indeed (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"])
+            run("JobSpy (Germany)", sources.jobspy, q, loc, cfg["hours_old"], cfg["results_per_query"], False, sites)
+        # Remote pass: Google/Glassdoor add little for "European Union", keep it to LinkedIn/Indeed.
         run("LinkedIn/Indeed (remote EU)", sources.jobspy, q, cfg["remote_location"], cfg["hours_old"],
-            cfg["results_per_query"], True)
+            cfg["results_per_query"], True, ["linkedin", "indeed"])
         time.sleep(3)
-    for entry in cfg.get("companies", []):
-        run("Company career sites (direct)", sources.company_feed, entry)
+    # Boards without an API: a short query list (each StepStone call starts a browser, XING fetches pages).
+    for q in extra.get("board_queries", []):
+        if extra.get("stepstone"):
+            run("StepStone", sources.stepstone, q, "Deutschland", days)
+        if extra.get("xing"):
+            run("XING", sources.xing, q, max(days, 7))
+    entries = list(cfg.get("companies", []))
+    if extra.get("companies_bw"):
+        names = {e["name"].lower() for e in entries}
+        entries += [e for e in cfg.get("companies_bw", []) if e["name"].lower() not in names]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(6) as pool:  # ~60 portals need a browser; in parallel the run stays short
+        list(pool.map(lambda e: run("Company career sites (direct)", sources.company_feed, e), entries))
     if os.getenv("SERPER_API_KEY"):
         for q in cfg.get("post_queries", []):
             run("LinkedIn posts (Google)", sources.linkedin_posts, q, days)
@@ -127,6 +145,15 @@ def main():
                 log.warning("Arbeitsagentur details for %s failed: %s", j["title"], ex)
     score.score_jobs(jobs, cv)
     jobs = sorted((j for j in jobs if j["score"] >= cfg["min_score_in_digest"]), key=lambda j: -j["score"])
+    for j in jobs:  # best effort: real application form + ATS for strong jobs
+        if j["score"] >= 60:
+            try:
+                from . import resolve
+                r = resolve.resolve(j)
+                j.update({"form_url": r["form_url"], "ats": r["ats"], "needs_login": r["needs_login"],
+                          "captcha": r["captcha"], "resolve_status": r["status"]})
+            except Exception as ex:
+                log.warning("resolve %s failed: %s", j["title"], ex)
     digest.assign_sections(jobs)
     ledger = outreach.sync() if not os.getenv("DRY_RUN") else outreach.load()  # sent drafts -> APPLIED.md
     replies = inbox.scan() if not os.getenv("DRY_RUN") else []  # interviews / rejections in her Gmail
@@ -147,8 +174,11 @@ def main():
     ledger = outreach.load()
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
+    from . import funnel, submissions
     body = digest.build_html(jobs, health, label, inbox.digest_block(replies)
-                             + outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"]))
+                             + submissions.check_block()
+                             + outreach.digest_block(made, ledger, outreach._settings(cfg)["mode"])
+                             + funnel.html_block())
     PREVIEW.parent.mkdir(exist_ok=True)
     PREVIEW.write_text(body, encoding="utf-8")
     if os.getenv("DRY_RUN"):

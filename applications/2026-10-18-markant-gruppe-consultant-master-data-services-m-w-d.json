@@ -1,149 +1,155 @@
 {
- "job": {
-  "title": "Consultant Master Data Services (m/w/d)",
-  "company": "MARKANT Gruppe",
-  "location": "Offenburg, BW, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=e2c62136d72810e0",
-  "apply_url": "",
-  "score": 70,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://jobs.markant.com/",
-  "email_subject": "Application: Consultant Master Data Services – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nYou need a consultant who keeps master data consistent across systems – I built and optimized MDM / PIM data pipelines with Profisee and SAP ERP at Rockwell Automation.\n\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– API migrations for customer account structures that improved data consistency\n– Requirements analysis, user stories, functional specifications and UAT with business teams\n\nMARKANT's role as data hub for retail and industry partners fits the cross-company data flows I am used to. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Consultant Master Data Services | MDM, PIM & Data Integration | Techno-Functional",
-  "summary": "Techno-functional consultant with 5+ years designing and optimizing PIM / MDM data integrations for enterprise commerce platforms (SAP Commerce Cloud / Hybris) at Rockwell Automation and Shell. Built PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams. Strong in requirements engineering, data modeling, process mapping, functional specifications, solution design and UAT, backed by Java, SQL and REST APIs. Uses generative AI tools for analysis and documentation.",
-  "skills": {
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy",
-    "SOAP"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Consultant Master Data Services (m/w/d)",
+    "company": "MARKANT Gruppe",
+    "location": "Offenburg, BW, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=e2c62136d72810e0",
+    "apply_url": "",
+    "score": 70,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://jobs.markant.com/",
+    "email_subject": "Application: Consultant Master Data Services – Kranti Chavan",
+    "email_body": "Dear Hiring Team,\n\nYou need a consultant who keeps master data consistent across systems – I built and optimized MDM / PIM data pipelines with Profisee and SAP ERP at Rockwell Automation.\n\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– API migrations for customer account structures that improved data consistency\n– Requirements analysis, user stories, functional specifications and UAT with business teams\n\nMARKANT's role as data hub for retail and industry partners fits the cross-company data flows I am used to. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://jobs.markant.com/",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    2,
-    3,
-    6,
-    4,
-    0,
-    1,
-    7,
-    5
-   ],
-   "shell": [
-    6,
-    1,
-    2,
-    0,
-    5,
-    4,
-    3
-   ],
-   "cognizant": [
-    2,
-    3,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "Consultant Master Data Services | MDM, PIM & Data Integration | Techno-Functional",
+    "summary": "Techno-functional consultant with 5+ years designing and optimizing PIM / MDM data integrations for enterprise commerce platforms (SAP Commerce Cloud / Hybris) at Rockwell Automation and Shell. Built PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams. Strong in requirements engineering, data modeling, process mapping, functional specifications, solution design and UAT, backed by Java, SQL and REST APIs. Uses generative AI tools for analysis and documentation.",
+    "skills": {
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy",
+        "SOAP"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        2,
+        3,
+        6,
+        4,
+        0,
+        1,
+        7,
+        5
+      ],
+      "shell": [
+        6,
+        1,
+        2,
+        0,
+        5,
+        4,
+        3
+      ],
+      "cognizant": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "why_company": "MARKANT connects retailers and suppliers through reliable data services, and master data quality is the topic I have worked on most closely: MDM, PIM and ERP integration at Rockwell Automation. Offenburg is also close to my home in Karlsruhe, and I want to bring this experience to your partners to keep their data reliable and ready for every channel.",
+    "linkedin_message": "Hello, I am applying for Consultant Master Data Services at MARKANT: MDM/PIM integration with Profisee and SAP ERP at Rockwell Automation, 5+ years techno-functional, based in Karlsruhe near Offenburg. Glad to talk!"
   },
-  "why_company": "MARKANT connects retailers and suppliers through reliable data services, and master data quality is the topic I have worked on most closely: MDM, PIM and ERP integration at Rockwell Automation. Offenburg is also close to my home in Karlsruhe, and I want to bring this experience to your partners to keep their data reliable and ready for every channel.",
-  "linkedin_message": "Hello, I am applying for Consultant Master Data Services at MARKANT: MDM/PIM integration with Profisee and SAP ERP at Rockwell Automation, 5+ years techno-functional, based in Karlsruhe near Offenburg. Glad to talk!"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Consultant Master Data Services",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Master data services only add value when product and partner data stays consistent across every connected system. That is precisely what I have worked on at Rockwell Automation: designing, building and optimizing data pipelines between the Profisee MDM platform, SAP ERP and SAP Commerce Cloud, and resolving integration bottlenecks together with international teams.",
-   "bullets": [
-    {
-     "label": "Master data integration",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
-    },
-    {
-     "label": "Data consistency",
-     "text": "Engineered API migrations for customer account structures, improving system stability and data consistency, and resolved integration bottlenecks between SAP ERP, MDM and Profisee."
-    },
-    {
-     "label": "Consulting & requirements",
-     "text": "Analysed requirements with business stakeholders and product owners, wrote user stories and functional specifications, mapped processes and supported user acceptance testing (UAT) – then translated them into working SAP Commerce solutions."
-    },
-    {
-     "label": "Efficient data processes",
-     "text": "Used generative AI / LLM tools extensively to accelerate analysis, development, testing and documentation in day-to-day delivery."
+  "letters": {
+    "en": {
+      "subject": "Application: Consultant Master Data Services",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Master data services only add value when product and partner data stays consistent across every connected system. That is precisely what I have worked on at Rockwell Automation: designing, building and optimizing data pipelines between the Profisee MDM platform, SAP ERP and SAP Commerce Cloud, and resolving integration bottlenecks together with international teams.",
+      "bullets": [
+        {
+          "label": "Master data integration",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
+        },
+        {
+          "label": "Data consistency",
+          "text": "Engineered API migrations for customer account structures, improving system stability and data consistency, and resolved integration bottlenecks between SAP ERP, MDM and Profisee."
+        },
+        {
+          "label": "Consulting & requirements",
+          "text": "Analysed requirements with business stakeholders and product owners, wrote user stories and functional specifications, mapped processes and supported user acceptance testing (UAT) – then translated them into working SAP Commerce solutions."
+        },
+        {
+          "label": "Efficient data processes",
+          "text": "Used generative AI / LLM tools extensively to accelerate analysis, development, testing and documentation in day-to-day delivery."
+        }
+      ],
+      "gap": "",
+      "logistics": "MARKANT's role as data hub for retail and industry partners fits the cross-company data flows I am used to. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "MARKANT's role as data hub for retail and industry partners fits the cross-company data flows I am used to. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

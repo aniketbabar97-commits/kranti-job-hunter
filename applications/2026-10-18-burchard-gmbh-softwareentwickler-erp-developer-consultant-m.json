@@ -1,132 +1,138 @@
 {
- "job": {
-  "title": "Softwareentwickler / ERP Developer & Consultant (m/w/d)",
-  "company": "Burchard GmbH",
-  "location": "Lemgo, Nordrhein-Westfalen",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207617768-S",
-  "apply_url": "",
-  "score": 65,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "info@burchard-gmbh.de",
-  "direct_url": "https://www.burchard-gmbh.de/karriere",
-  "email_subject": "Bewerbung als Softwareentwickler / ERP Developer & Consultant",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nIhre Stelle verbindet Entwicklung, ERP-Anbindung, E-Commerce und KI – genau diese Kombination prägt meine fünf Jahre bei Rockwell Automation und Shell.\n\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst\n– Anforderungen, User Stories, Prozessmodellierung und UAT mit Fachbereichen\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n– JUnit-Testsuiten, Code-Reviews, Mentoring von Junior-Entwicklern\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Software Developer & Consultant | ERP-Schnittstellen, E-Commerce & KI-gestützt",
-  "summary": "Techno-funktionale Entwicklerin und Beraterin mit über 5 Jahren Erfahrung an der Schnittstelle von E-Commerce und ERP für Rockwell Automation und Shell. Entwickelt und bindet APIs und Schnittstellen an, verbindet Shop-, ERP-, PIM- und Drittsysteme, setzt API-Migrationen für Datenkonsistenz um und analysiert Geschäftsprozesse gemeinsam mit Fachbereichen. Schreibt User Stories und Fachkonzepte und nutzt KI-gestützte Entwicklung intensiv in Analyse, Entwicklung, Test und Dokumentation. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
-  "skills": {
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM"
-   ],
-   "APIs & Integration": [
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "OCC APIs",
-    "REST web services",
-    "DataHub",
-    "third-party integrations"
-   ],
-   "AI": [
-    "AI-assisted analysis and documentation",
-    "Generative AI / LLM tools",
-    "Prompt engineering"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "RESTful APIs",
-    "Data Modeling"
-   ],
-   "DevOps & Cloud": [
-    "SAP Commerce Cloud Portal (CCv2)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Softwareentwickler / ERP Developer & Consultant (m/w/d)",
+    "company": "Burchard GmbH",
+    "location": "Lemgo, Nordrhein-Westfalen",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207617768-S",
+    "apply_url": "",
+    "score": 65,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "info@burchard-gmbh.de",
+    "direct_url": "https://www.burchard-gmbh.de/karriere",
+    "email_subject": "Bewerbung als Softwareentwickler / ERP Developer & Consultant",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nIhre Stelle verbindet Entwicklung, ERP-Anbindung, E-Commerce und KI – genau diese Kombination prägt meine fünf Jahre bei Rockwell Automation und Shell.\n\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst\n– Anforderungen, User Stories, Prozessmodellierung und UAT mit Fachbereichen\n– Täglicher Einsatz von generativer KI / LLMs in Analyse, Code und Doku\n– JUnit-Testsuiten, Code-Reviews, Mentoring von Junior-Entwicklern\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann ab dem 16.12.2026 starten. Zudem bin ich SAP Certified Commerce Cloud Developer und Business User. Lebenslauf und Anschreiben finden Sie im Anhang. Haben Sie in den nächsten Tagen Zeit für ein kurzes Telefonat? Ich freue mich auf Ihre Rückmeldung.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.burchard-gmbh.de/karriere",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    1,
-    0,
-    4,
-    7,
-    5
-   ],
-   "shell": [
-    6,
-    2,
-    1,
-    0,
-    4,
-    5,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "Software Developer & Consultant | ERP-Schnittstellen, E-Commerce & KI-gestützt",
+    "summary": "Techno-funktionale Entwicklerin und Beraterin mit über 5 Jahren Erfahrung an der Schnittstelle von E-Commerce und ERP für Rockwell Automation und Shell. Entwickelt und bindet APIs und Schnittstellen an, verbindet Shop-, ERP-, PIM- und Drittsysteme, setzt API-Migrationen für Datenkonsistenz um und analysiert Geschäftsprozesse gemeinsam mit Fachbereichen. Schreibt User Stories und Fachkonzepte und nutzt KI-gestützte Entwicklung intensiv in Analyse, Entwicklung, Test und Dokumentation. Arbeitet in internationalen, agilen Teams mit Scrum, Jira und Confluence.",
+    "skills": {
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Product Catalog & PIM"
+      ],
+      "APIs & Integration": [
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "OCC APIs",
+        "REST web services",
+        "DataHub",
+        "third-party integrations"
+      ],
+      "AI": [
+        "AI-assisted analysis and documentation",
+        "Generative AI / LLM tools",
+        "Prompt engineering"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "RESTful APIs",
+        "Data Modeling"
+      ],
+      "DevOps & Cloud": [
+        "SAP Commerce Cloud Portal (CCv2)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        1,
+        0,
+        4,
+        7,
+        5
+      ],
+      "shell": [
+        6,
+        2,
+        1,
+        0,
+        4,
+        5,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "Burchard verbindet Handel, E-Commerce, Logistik und Beratung unter einem Dach und setzt bewusst auf KI-gestützte Entwicklung. Genau dieses Zusammenspiel aus Shop, ERP und Prozessen ist mein Schwerpunkt. Ich möchte es sowohl in Ihre eigenen Prozesse als auch in Kundenprojekte einbringen. Von Karlsruhe aus kann ich mit gültiger Arbeitserlaubnis ab dem 16.12.2026 starten.",
+    "linkedin_message": "Guten Tag! Ihre Stelle ERP Developer & Consultant passt gut: 5+ Jahre Shop-ERP-Integration (SAP ERP, MDM, PIM), Prozessanalyse und KI-gestützte Entwicklung bei Rockwell Automation und Shell. Start 16.12.2026. Gern ein kurzes Gespräch?"
   },
-  "why_company": "Burchard verbindet Handel, E-Commerce, Logistik und Beratung unter einem Dach und setzt bewusst auf KI-gestützte Entwicklung. Genau dieses Zusammenspiel aus Shop, ERP und Prozessen ist mein Schwerpunkt. Ich möchte es sowohl in Ihre eigenen Prozesse als auch in Kundenprojekte einbringen. Von Karlsruhe aus kann ich mit gültiger Arbeitserlaubnis ab dem 16.12.2026 starten.",
-  "linkedin_message": "Guten Tag! Ihre Stelle ERP Developer & Consultant passt gut: 5+ Jahre Shop-ERP-Integration (SAP ERP, MDM, PIM), Prozessanalyse und KI-gestützte Entwicklung bei Rockwell Automation und Shell. Start 16.12.2026. Gern ein kurzes Gespräch?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Softwareentwickler / ERP Developer & Consultant",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Ihre Stelle verbindet Softwareentwicklung, ERP-Anbindung, E-Commerce und KI-gestützte Entwicklung – genau diese Kombination prägt meine letzten fünf Jahre. Bei Rockwell Automation und Shell verbinde ich Commerce-Plattformen mit SAP ERP, MDM und PIM und analysiere die Prozesse dahinter direkt mit den Fachbereichen.",
-   "bullets": [
-    {
-     "label": "Anbindung von ERP-, Shop- und Drittsystemen",
-     "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee analysiert und behoben – in direkter Zusammenarbeit mit internationalen Teams; REST- und SOAP-Services genutzt und bereitgestellt sowie externe Services über CCv2 angebunden."
-    },
-    {
-     "label": "Datenmigration & Datenkonsistenz",
-     "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
-    },
-    {
-     "label": "Prozessanalyse & Beratung",
-     "text": "In einer techno-funktionalen Rolle analysiere ich Anforderungen mit Fachbereichen und Product Ownern, schreibe User Stories und Fachkonzepte, modelliere Prozesse, begleite UAT und setze alles in SAP-Commerce-Lösungen um."
-    },
-    {
-     "label": "KI-gestützte Entwicklung",
-     "text": "Setze generative KI und LLM-Tools intensiv ein, um Analyse, Entwicklung, Test und Dokumentation im Projektalltag zu beschleunigen."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Softwareentwickler / ERP Developer & Consultant",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Ihre Stelle verbindet Softwareentwicklung, ERP-Anbindung, E-Commerce und KI-gestützte Entwicklung – genau diese Kombination prägt meine letzten fünf Jahre. Bei Rockwell Automation und Shell verbinde ich Commerce-Plattformen mit SAP ERP, MDM und PIM und analysiere die Prozesse dahinter direkt mit den Fachbereichen.",
+      "bullets": [
+        {
+          "label": "Anbindung von ERP-, Shop- und Drittsystemen",
+          "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee analysiert und behoben – in direkter Zusammenarbeit mit internationalen Teams; REST- und SOAP-Services genutzt und bereitgestellt sowie externe Services über CCv2 angebunden."
+        },
+        {
+          "label": "Datenmigration & Datenkonsistenz",
+          "text": "Refactoring von Datenbankabfragen geleitet, das Antwortzeiten verkürzt und Transaktionen beschleunigt hat; API-Migrationen für Kundenkontostrukturen umgesetzt, die Stabilität und Datenkonsistenz verbessert haben."
+        },
+        {
+          "label": "Prozessanalyse & Beratung",
+          "text": "In einer techno-funktionalen Rolle analysiere ich Anforderungen mit Fachbereichen und Product Ownern, schreibe User Stories und Fachkonzepte, modelliere Prozesse, begleite UAT und setze alles in SAP-Commerce-Lösungen um."
+        },
+        {
+          "label": "KI-gestützte Entwicklung",
+          "text": "Setze generative KI und LLM-Tools intensiv ein, um Analyse, Entwicklung, Test und Dokumentation im Projektalltag zu beschleunigen."
+        }
+      ],
+      "gap": "",
+      "logistics": "Beratung und Entwicklung in einer Person zu verbinden ist genau meine Arbeitsweise – ideal für Ihre ERP-Einführungen bei Kunden. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Burchard konkret verstärken kann.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Beratung und Entwicklung in einer Person zu verbinden ist genau meine Arbeitsweise – ideal für Ihre ERP-Einführungen bei Kunden. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Burchard konkret verstärken kann.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

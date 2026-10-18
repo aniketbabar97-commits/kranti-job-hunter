@@ -1,131 +1,137 @@
 {
- "job": {
-  "title": "Senior E-Commerce Entwickler (m/w/d)",
-  "company": "Pro-Discount Import Export e.K.",
-  "location": "Hildesheim, Niedersachsen",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
-  "apply_url": "",
-  "score": 60,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
-  "email_subject": "Bewerbung als Senior E-Commerce Entwickler",
-  "email_body": "Sehr geehrte Damen und Herren,\n\nFür Ihr produktives B2B-System mit über 100.000 Artikeln brauchen Sie Senior-Erfahrung mit Live-Systemen und Schnittstellen – genau das bringe ich aus über fünf Jahren bei Rockwell Automation und Shell mit.\n\n– PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams gelöst\n– Refaktorierung von Datenbankabfragen geleitet: kürzere Antwortzeiten, schnellere Transaktionen\n– KI-Tools (generative KI / LLMs) intensiv in Analyse, Entwicklung, Test und Dokumentation eingesetzt\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Senior E-Commerce Entwicklerin | B2B-Shops, APIs, PIM-/ERP-Schnittstellen",
-  "summary": "Senior E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung an produktiv betriebenen B2B- und B2C-Systemen für Rockwell Automation und Shell. Bindet externe Systeme an: REST-APIs, CSV-/dateibasierte Datenimporte, ERP- und PIM-Schnittstellen, Produktkataloge mit globaler Synchronisierung. Stark in JavaScript-Storefronts, relationalen Datenbanken, SQL-Performance und Git im Team. Sichert Code-Qualität durch Reviews und Tests und nutzt KI-Tools wie generative LLMs kritisch und täglich. Arbeitet im direkten Austausch mit IT, Marketing und Fachbereichen und übernimmt Verantwortung für Features, Performance und Stabilität.",
-  "skills": {
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Product Catalog & PIM",
-    "Order Management (OMS)",
-    "Headless Commerce",
-    "Promotions Engine"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines",
-    "Hotfolders",
-    "third-party integrations"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "Backend": [
-    "RESTful APIs",
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "JUnit",
-    "Design Patterns"
-   ],
-   "DevOps & Cloud": [
-    "Git",
-    "CI/CD pipelines",
-    "production support and troubleshooting"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering"
-   ],
-   "Ways of Working": [
-    "Code Reviews",
-    "Agile / Scrum"
-   ]
+  "job": {
+    "title": "Senior E-Commerce Entwickler (m/w/d)",
+    "company": "Pro-Discount Import Export e.K.",
+    "location": "Hildesheim, Niedersachsen",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
+    "apply_url": "",
+    "score": 60,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
+    "email_subject": "Bewerbung als Senior E-Commerce Entwickler",
+    "email_body": "Sehr geehrte Damen und Herren,\n\nFür Ihr produktives B2B-System mit über 100.000 Artikeln brauchen Sie Senior-Erfahrung mit Live-Systemen und Schnittstellen – genau das bringe ich aus über fünf Jahren bei Rockwell Automation und Shell mit.\n\n– PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert\n– Integrationsengpässe zwischen SAP ERP, MDM und Profisee mit internationalen Teams gelöst\n– Refaktorierung von Datenbankabfragen geleitet: kürzere Antwortzeiten, schnellere Transaktionen\n– KI-Tools (generative KI / LLMs) intensiv in Analyse, Entwicklung, Test und Dokumentation eingesetzt\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und stehe nach meiner Kündigungsfrist ab dem 16.12.2026 zur Verfügung. Hätten Sie in den nächsten Tagen 15 Minuten für ein kurzes Telefonat? Lebenslauf und Anschreiben finden Sie im Anhang.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
+    "ats": "arbeitsagentur",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    2,
-    3,
-    1,
-    4,
-    6,
-    0,
-    5,
-    7
-   ],
-   "shell": [
-    2,
-    1,
-    6,
-    5,
-    4,
-    0,
-    3
-   ],
-   "cognizant": [
-    2,
-    0,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "Senior E-Commerce Entwicklerin | B2B-Shops, APIs, PIM-/ERP-Schnittstellen",
+    "summary": "Senior E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung an produktiv betriebenen B2B- und B2C-Systemen für Rockwell Automation und Shell. Bindet externe Systeme an: REST-APIs, CSV-/dateibasierte Datenimporte, ERP- und PIM-Schnittstellen, Produktkataloge mit globaler Synchronisierung. Stark in JavaScript-Storefronts, relationalen Datenbanken, SQL-Performance und Git im Team. Sichert Code-Qualität durch Reviews und Tests und nutzt KI-Tools wie generative LLMs kritisch und täglich. Arbeitet im direkten Austausch mit IT, Marketing und Fachbereichen und übernimmt Verantwortung für Features, Performance und Stabilität.",
+    "skills": {
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Product Catalog & PIM",
+        "Order Management (OMS)",
+        "Headless Commerce",
+        "Promotions Engine"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "file-based data pipelines",
+        "Hotfolders",
+        "third-party integrations"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "Backend": [
+        "RESTful APIs",
+        "Java (Core & J2EE)",
+        "Spring Boot",
+        "JUnit",
+        "Design Patterns"
+      ],
+      "DevOps & Cloud": [
+        "Git",
+        "CI/CD pipelines",
+        "production support and troubleshooting"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering"
+      ],
+      "Ways of Working": [
+        "Code Reviews",
+        "Agile / Scrum"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        2,
+        3,
+        1,
+        4,
+        6,
+        0,
+        5,
+        7
+      ],
+      "shell": [
+        2,
+        1,
+        6,
+        5,
+        4,
+        0,
+        3
+      ],
+      "cognizant": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "why_company": "Pro-Discount verkauft seit über 27 Jahren im B2B-E-Commerce und betreibt ein System mit über 100.000 Artikeln und vielen Lieferantenanbindungen – keine Spielprojekte, sondern echte Verantwortung. Genau dort liegt meine Erfahrung aus großen Live-Commerce-Systemen bei Rockwell Automation und Shell, inklusive PIM-/ERP-Schnittstellen und Performance-Tuning.",
+    "linkedin_message": "Guten Tag, Ihre Stelle Senior E-Commerce Entwickler interessiert mich: 5+ Jahre produktive B2B-Commerce-Systeme bei Rockwell Automation und Shell – API-/PIM-/ERP-Anbindungen, große Kataloge, Performance, KI-Tools. Start ab 16.12.2026. Gern kurz sprechen?"
   },
-  "why_company": "Pro-Discount verkauft seit über 27 Jahren im B2B-E-Commerce und betreibt ein System mit über 100.000 Artikeln und vielen Lieferantenanbindungen – keine Spielprojekte, sondern echte Verantwortung. Genau dort liegt meine Erfahrung aus großen Live-Commerce-Systemen bei Rockwell Automation und Shell, inklusive PIM-/ERP-Schnittstellen und Performance-Tuning.",
-  "linkedin_message": "Guten Tag, Ihre Stelle Senior E-Commerce Entwickler interessiert mich: 5+ Jahre produktive B2B-Commerce-Systeme bei Rockwell Automation und Shell – API-/PIM-/ERP-Anbindungen, große Kataloge, Performance, KI-Tools. Start ab 16.12.2026. Gern kurz sprechen?"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Senior E-Commerce Entwickler",
-   "salutation": "Sehr geehrte Damen und Herren,",
-   "hook": "Sie suchen Senior-Erfahrung an einem echten B2B-E-Commerce-System im Live-Betrieb, bei dem jede Architekturentscheidung Bestellprozess und Performance trifft. Genau dort arbeite ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich produktive Commerce-Plattformen mit großen Produktkatalogen und zahlreichen angebundenen Systemen.",
-   "bullets": [
-    {
-     "label": "Anbindung externer Systeme",
-     "text": "PIM-zu-Shop-Datenpipelines mit dateibasierten Importen (Hotfolders, DataHub) aufgebaut; ERP-, MDM- und PIM-Schnittstellen analysiert und Engpässe behoben."
-    },
-    {
-     "label": "Große Produktkataloge",
-     "text": "Produkt-, Katalog- und Preisfunktionen umgesetzt und Kataloge über globale E-Commerce-Kanäle synchron gehalten."
-    },
-    {
-     "label": "Performance & Stabilität",
-     "text": "Refaktorierung von Datenbankabfragen für kürzere Antwortzeiten geleitet; API-Migrationen für mehr Systemstabilität umgesetzt."
-    },
-    {
-     "label": "Code-Qualität & KI-Tools",
-     "text": "Code-Reviews durchgeführt, Tests mit JUnit aufgebaut, Git im Team genutzt und KI-Tools kritisch und täglich in Entwicklung und Test eingesetzt."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Senior E-Commerce Entwickler",
+      "salutation": "Sehr geehrte Damen und Herren,",
+      "hook": "Sie suchen Senior-Erfahrung an einem echten B2B-E-Commerce-System im Live-Betrieb, bei dem jede Architekturentscheidung Bestellprozess und Performance trifft. Genau dort arbeite ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich produktive Commerce-Plattformen mit großen Produktkatalogen und zahlreichen angebundenen Systemen.",
+      "bullets": [
+        {
+          "label": "Anbindung externer Systeme",
+          "text": "PIM-zu-Shop-Datenpipelines mit dateibasierten Importen (Hotfolders, DataHub) aufgebaut; ERP-, MDM- und PIM-Schnittstellen analysiert und Engpässe behoben."
+        },
+        {
+          "label": "Große Produktkataloge",
+          "text": "Produkt-, Katalog- und Preisfunktionen umgesetzt und Kataloge über globale E-Commerce-Kanäle synchron gehalten."
+        },
+        {
+          "label": "Performance & Stabilität",
+          "text": "Refaktorierung von Datenbankabfragen für kürzere Antwortzeiten geleitet; API-Migrationen für mehr Systemstabilität umgesetzt."
+        },
+        {
+          "label": "Code-Qualität & KI-Tools",
+          "text": "Code-Reviews durchgeführt, Tests mit JUnit aufgebaut, Git im Team genutzt und KI-Tools kritisch und täglich in Entwicklung und Test eingesetzt."
+        }
+      ],
+      "gap": "",
+      "logistics": "Den direkten Draht zu IT-Leitung und Fachabteilungen schätze ich sehr. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in Hildesheim im persönlichen Gespräch, wie ich Ihr System voranbringe.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Den direkten Draht zu IT-Leitung und Fachabteilungen schätze ich sehr. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in Hildesheim im persönlichen Gespräch, wie ich Ihr System voranbringe.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

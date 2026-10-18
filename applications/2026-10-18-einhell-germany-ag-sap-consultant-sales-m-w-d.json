@@ -1,147 +1,153 @@
 {
- "job": {
-  "title": "SAP Consultant Sales (m/w/d)",
-  "company": "Einhell Germany AG",
-  "location": "Landau an der Isar, BY, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=9cfffd3c783c7b01",
-  "apply_url": "",
-  "score": 68,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://karriere.einhell.com",
-  "email_subject": "Application: SAP Consultant Sales – Kranti Chavan",
-  "email_body": "Dear Hiring Team,\n\nYou need an SAP consultant who understands sales processes and the systems behind them – I support digital sales on SAP Commerce Cloud with SAP ERP integration for 5+ years.\n\n– Order management, pricing and promotions on SAP Commerce Cloud\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– Requirements analysis, user stories, functional specifications and UAT with business teams\n\nEinhell's international sales organisation matches my experience working with business teams across countries. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "SAP Consultant Sales | SAP Commerce, Order Management & SAP ERP Integration",
-  "summary": "Techno-functional SAP consultant with 5+ years supporting digital sales processes on SAP Commerce Cloud (Hybris) for Rockwell Automation and Shell. Experienced in order management (OMS), pricing, promotions, product catalog and customer data, and in integrating commerce with SAP ERP, PIM and MDM. Analyses business requirements with sales and business teams, writes user stories and functional specifications, maps processes and supports UAT and production. SAP Certified Commerce Cloud Developer and Business User.",
-  "skills": {
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ]
+  "job": {
+    "title": "SAP Consultant Sales (m/w/d)",
+    "company": "Einhell Germany AG",
+    "location": "Landau an der Isar, BY, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=9cfffd3c783c7b01",
+    "apply_url": "",
+    "score": 68,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://karriere.einhell.com",
+    "email_subject": "Application: SAP Consultant Sales – Kranti Chavan",
+    "email_body": "Dear Hiring Team,\n\nYou need an SAP consultant who understands sales processes and the systems behind them – I support digital sales on SAP Commerce Cloud with SAP ERP integration for 5+ years.\n\n– Order management, pricing and promotions on SAP Commerce Cloud\n– PIM-to-Hybris pipelines with Profisee, Hotfolders and DataHub; SAP ERP / MDM integration\n– Requirements analysis, user stories, functional specifications and UAT with business teams\n\nEinhell's international sales organisation matches my experience working with business teams across countries. My CV and cover letter are attached. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Could we arrange a short call this week or next?\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://karriere.einhell.com",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    4,
-    7,
-    0,
-    1,
-    5
-   ],
-   "shell": [
-    6,
-    2,
-    1,
-    5,
-    0,
-    4,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "SAP Consultant Sales | SAP Commerce, Order Management & SAP ERP Integration",
+    "summary": "Techno-functional SAP consultant with 5+ years supporting digital sales processes on SAP Commerce Cloud (Hybris) for Rockwell Automation and Shell. Experienced in order management (OMS), pricing, promotions, product catalog and customer data, and in integrating commerce with SAP ERP, PIM and MDM. Analyses business requirements with sales and business teams, writes user stories and functional specifications, maps processes and supports UAT and production. SAP Certified Commerce Cloud Developer and Business User.",
+    "skills": {
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        4,
+        7,
+        0,
+        1,
+        5
+      ],
+      "shell": [
+        6,
+        2,
+        1,
+        5,
+        0,
+        4,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "Einhell sells tools and garden equipment through a strong international network, and efficient SAP sales processes are key to that growth. My experience with order management, pricing and SAP ERP integration at Rockwell Automation and Shell lets me support your sales teams with practical, stable solutions.",
+    "linkedin_message": "Hello, I am applying for SAP Consultant Sales at Einhell: 5+ years techno-functional on SAP Commerce Cloud (order management, pricing, SAP ERP integration) at Rockwell Automation and Shell. Based in Germany with work permit – glad to connect!"
   },
-  "why_company": "Einhell sells tools and garden equipment through a strong international network, and efficient SAP sales processes are key to that growth. My experience with order management, pricing and SAP ERP integration at Rockwell Automation and Shell lets me support your sales teams with practical, stable solutions.",
-  "linkedin_message": "Hello, I am applying for SAP Consultant Sales at Einhell: 5+ years techno-functional on SAP Commerce Cloud (order management, pricing, SAP ERP integration) at Rockwell Automation and Shell. Based in Germany with work permit – glad to connect!"
- },
- "letters": {
-  "en": {
-   "subject": "Application: SAP Consultant Sales",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Sales processes in SAP only run well when orders, prices and customer data flow cleanly between the systems. That is the area I have worked in for more than five years: at Rockwell Automation and Shell I support digital sales on SAP Commerce Cloud – order management, pricing and promotions – integrated with SAP ERP, PIM and MDM.",
-   "bullets": [
-    {
-     "label": "Sales & order processes",
-     "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211); developed and maintained the Promotions Engine, Order Management (OMS), Cronjobs, Impex and FlexibleSearch."
-    },
-    {
-     "label": "Business requirements",
-     "text": "Analysed requirements with business stakeholders and product owners, wrote user stories and functional specifications, mapped processes and supported user acceptance testing (UAT) – then translated them into working SAP Commerce solutions."
-    },
-    {
-     "label": "SAP ERP integration",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
-    },
-    {
-     "label": "Support & optimization",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
+  "letters": {
+    "en": {
+      "subject": "Application: SAP Consultant Sales",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Sales processes in SAP only run well when orders, prices and customer data flow cleanly between the systems. That is the area I have worked in for more than five years: at Rockwell Automation and Shell I support digital sales on SAP Commerce Cloud – order management, pricing and promotions – integrated with SAP ERP, PIM and MDM.",
+      "bullets": [
+        {
+          "label": "Sales & order processes",
+          "text": "Designed and implemented backend and frontend functionality for product, catalog, pricing and customer data on SAP Commerce Cloud (Hybris 2211); developed and maintained the Promotions Engine, Order Management (OMS), Cronjobs, Impex and FlexibleSearch."
+        },
+        {
+          "label": "Business requirements",
+          "text": "Analysed requirements with business stakeholders and product owners, wrote user stories and functional specifications, mapped processes and supported user acceptance testing (UAT) – then translated them into working SAP Commerce solutions."
+        },
+        {
+          "label": "SAP ERP integration",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub; investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee with international technical teams."
+        },
+        {
+          "label": "Support & optimization",
+          "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; led database query refactoring that reduced response latency and supported production troubleshooting."
+        }
+      ],
+      "gap": "",
+      "logistics": "Einhell's international sales organisation matches my experience working with business teams across countries. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Einhell's international sales organisation matches my experience working with business teams across countries. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can contribute from day one.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

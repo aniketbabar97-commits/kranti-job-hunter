@@ -1,124 +1,130 @@
 {
- "job": {
-  "title": "Senior Architect (m/w/d) - PIM / MDM",
-  "company": "Hiveway GmbH",
-  "location": "Heidelberg, BW, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=9a5f12999531930d",
-  "apply_url": "",
-  "score": 70,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "info@hiveway.de",
-  "direct_url": "https://www.hiveway.de/karriere/",
-  "email_subject": "Application: Senior Architect PIM / MDM",
-  "email_body": "Dear Hiring Team,\n\nPIM/MDM architectures pay off only when master data reaches every channel consistently – exactly what I deliver for global e-commerce at Rockwell Automation with Profisee, Hotfolders and DataHub.\n\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– Requirements, user stories, process mapping and UAT with business teams\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "PIM / MDM Integration Specialist | Profisee, SAP ERP & Commerce Data Pipelines",
-  "summary": "PIM and MDM integration specialist with 5+ years on enterprise commerce platforms for Rockwell Automation and Shell. Designed, built and optimized PIM-to-commerce data pipelines with Profisee, Hotfolders and DataHub, and resolved integration bottlenecks between SAP ERP, MDM and Profisee. Combines solution design and data modeling with requirements analysis, process mapping and functional specifications together with business stakeholders. Works in international agile teams and uses AI tools in analysis and documentation. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "Business Analysis": [
-    "Requirements engineering",
-    "Business requirements analysis",
-    "Stakeholder management",
-    "User stories & acceptance criteria",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Product Catalog & PIM",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "Order Management (OMS)",
-    "Promotions Engine",
-    "Backoffice",
-    "Impex"
-   ],
-   "APIs & Integration": [
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "third-party integrations",
-    "file-based data pipelines",
-    "Hotfolders"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "FlexibleSearch"
-   ],
-   "AI": [
-    "AI-assisted analysis and documentation",
-    "Generative AI / LLM tools"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "International Teams"
-   ]
+  "job": {
+    "title": "Senior Architect (m/w/d) - PIM / MDM",
+    "company": "Hiveway GmbH",
+    "location": "Heidelberg, BW, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=9a5f12999531930d",
+    "apply_url": "",
+    "score": 70,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "info@hiveway.de",
+    "direct_url": "https://www.hiveway.de/karriere/",
+    "email_subject": "Application: Senior Architect PIM / MDM",
+    "email_body": "Dear Hiring Team,\n\nPIM/MDM architectures pay off only when master data reaches every channel consistently – exactly what I deliver for global e-commerce at Rockwell Automation with Profisee, Hotfolders and DataHub.\n\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– Resolved SAP ERP / MDM / Profisee integration bottlenecks\n– Requirements, user stories, process mapping and UAT with business teams\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://www.hiveway.de/karriere/",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    2,
-    3,
-    7,
-    0,
-    1,
-    4,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    2,
-    1,
-    5,
-    4,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "PIM / MDM Integration Specialist | Profisee, SAP ERP & Commerce Data Pipelines",
+    "summary": "PIM and MDM integration specialist with 5+ years on enterprise commerce platforms for Rockwell Automation and Shell. Designed, built and optimized PIM-to-commerce data pipelines with Profisee, Hotfolders and DataHub, and resolved integration bottlenecks between SAP ERP, MDM and Profisee. Combines solution design and data modeling with requirements analysis, process mapping and functional specifications together with business stakeholders. Works in international agile teams and uses AI tools in analysis and documentation. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "Business Analysis": [
+        "Requirements engineering",
+        "Business requirements analysis",
+        "Stakeholder management",
+        "User stories & acceptance criteria",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Product Catalog & PIM",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "Order Management (OMS)",
+        "Promotions Engine",
+        "Backoffice",
+        "Impex"
+      ],
+      "APIs & Integration": [
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "third-party integrations",
+        "file-based data pipelines",
+        "Hotfolders"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "FlexibleSearch"
+      ],
+      "AI": [
+        "AI-assisted analysis and documentation",
+        "Generative AI / LLM tools"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Jira",
+        "Confluence",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        2,
+        3,
+        7,
+        0,
+        1,
+        4,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        2,
+        1,
+        5,
+        4,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "Hiveway focuses on PIM and MDM – the data foundation that my daily work depends on. Having built Profisee-to-commerce pipelines and solved SAP ERP/MDM integration bottlenecks, I want to apply that experience across client projects, close to home in the Rhine-Neckar region. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
+    "linkedin_message": "Hello! Your Senior Architect PIM/MDM role matches my work: PIM-to-commerce pipelines with Profisee, Hotfolders, DataHub and SAP ERP/MDM integration for Rockwell Automation. Karlsruhe, start 16.12.2026. Open to a short call?"
   },
-  "why_company": "Hiveway focuses on PIM and MDM – the data foundation that my daily work depends on. Having built Profisee-to-commerce pipelines and solved SAP ERP/MDM integration bottlenecks, I want to apply that experience across client projects, close to home in the Rhine-Neckar region. From Karlsruhe, with a valid work permit, I can start on 16 December 2026.",
-  "linkedin_message": "Hello! Your Senior Architect PIM/MDM role matches my work: PIM-to-commerce pipelines with Profisee, Hotfolders, DataHub and SAP ERP/MDM integration for Rockwell Automation. Karlsruhe, start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Senior Architect PIM / MDM",
-   "salutation": "Dear Hiring Team,",
-   "hook": "PIM and MDM architectures only pay off when product and master data reach every channel complete and consistent. That is exactly what I have delivered for global e-commerce at Rockwell Automation: PIM-to-shop pipelines with Profisee, Hotfolders and DataHub, and resolved bottlenecks between SAP ERP, MDM and Profisee.",
-   "bullets": [
-    {
-     "label": "PIM data pipelines",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "MDM & ERP integration",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
-    },
-    {
-     "label": "Data consistency",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures that improved stability and data consistency."
-    },
-    {
-     "label": "Business requirements & solution design",
-     "text": "In a techno-functional role I analyse requirements with business stakeholders and product owners, write user stories and functional specifications, map processes, support UAT and translate it all into SAP Commerce solutions."
+  "letters": {
+    "en": {
+      "subject": "Application: Senior Architect PIM / MDM",
+      "salutation": "Dear Hiring Team,",
+      "hook": "PIM and MDM architectures only pay off when product and master data reach every channel complete and consistent. That is exactly what I have delivered for global e-commerce at Rockwell Automation: PIM-to-shop pipelines with Profisee, Hotfolders and DataHub, and resolved bottlenecks between SAP ERP, MDM and Profisee.",
+      "bullets": [
+        {
+          "label": "PIM data pipelines",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
+        },
+        {
+          "label": "MDM & ERP integration",
+          "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee, working directly with international technical teams; consumed and exposed REST and SOAP services and integrated external services via CCv2."
+        },
+        {
+          "label": "Data consistency",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures that improved stability and data consistency."
+        },
+        {
+          "label": "Business requirements & solution design",
+          "text": "In a techno-functional role I analyse requirements with business stakeholders and product owners, write user stories and functional specifications, map processes, support UAT and translate it all into SAP Commerce solutions."
+        }
+      ],
+      "gap": "",
+      "logistics": "Heidelberg is close to my home in Karlsruhe, and I enjoy working with clients and international teams on data-driven solutions. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen Hiveway.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Heidelberg is close to my home in Karlsruhe, and I enjoy working with clients and international teams on data-driven solutions. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen Hiveway.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

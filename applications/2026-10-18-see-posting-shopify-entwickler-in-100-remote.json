@@ -1,127 +1,133 @@
 {
- "job": {
-  "title": "Shopify Entwickler/in (100% Remote)",
-  "company": "see posting",
-  "location": "",
-  "url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
-  "apply_url": "",
-  "score": 95,
-  "source": "Career site (company site)",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
-  "email_subject": "Application: Shopify Developer (100% Remote)",
-  "email_body": "Dear Hiring Team,\n\nYou need a developer who makes online shops faster, better integrated and easier to run – that is what I have delivered for five years on enterprise commerce platforms.\n\n– 5+ years SAP Commerce Cloud (Hybris 2105/2211) at Rockwell Automation and Shell\n– JavaScript, PWA integration and storefront customization\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "E-Commerce Developer | Storefronts, Headless Commerce & REST APIs",
-  "summary": "E-commerce developer with 5+ years building and extending large B2B and B2C commerce platforms for Rockwell Automation and Shell. Strong in storefront customization, JavaScript, PWA integration, headless commerce and REST APIs, plus product catalog, promotions and order management. Delivers PIM and ERP data integrations, executes CI/CD deployment cycles and supports production. Works fully remote in international agile teams and uses AI tools daily to speed up development, testing and documentation. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "E-Commerce": [
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "third-party integrations",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "file-based data pipelines"
-   ],
-   "Backend": [
-    "RESTful APIs",
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "Design Patterns",
-    "JUnit"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "Apache Solr"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Git",
-    "Docker",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Code Reviews",
-    "Jira"
-   ]
+  "job": {
+    "title": "Shopify Entwickler/in (100% Remote)",
+    "company": "see posting",
+    "location": "",
+    "url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
+    "apply_url": "",
+    "score": 95,
+    "source": "Career site (company site)",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
+    "email_subject": "Application: Shopify Developer (100% Remote)",
+    "email_body": "Dear Hiring Team,\n\nYou need a developer who makes online shops faster, better integrated and easier to run – that is what I have delivered for five years on enterprise commerce platforms.\n\n– 5+ years SAP Commerce Cloud (Hybris 2105/2211) at Rockwell Automation and Shell\n– JavaScript, PWA integration and storefront customization\n– PIM-to-shop data pipelines with Profisee, Hotfolders and DataHub\n– Daily use of generative AI / LLM tools in analysis, coding and docs\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026. I am also an SAP Certified Commerce Cloud Developer and Business User. My CV and cover letter are attached. Do you have time for a short call in the coming days? I look forward to hearing from you.\n\nKind regards\nKranti Chavan",
+    "form_url": "https://www.remotely.de/job/jobriver-it-jobborse-shopify-entwicklerin-100-remote",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "closed"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    2,
-    3,
-    6,
-    5,
-    4,
-    7
-   ],
-   "shell": [
-    1,
-    0,
-    2,
-    5,
-    4,
-    6,
-    3
-   ],
-   "cognizant": [
-    2,
-    0,
-    3,
-    1
-   ]
+  "tailoring": {
+    "headline": "E-Commerce Developer | Storefronts, Headless Commerce & REST APIs",
+    "summary": "E-commerce developer with 5+ years building and extending large B2B and B2C commerce platforms for Rockwell Automation and Shell. Strong in storefront customization, JavaScript, PWA integration, headless commerce and REST APIs, plus product catalog, promotions and order management. Delivers PIM and ERP data integrations, executes CI/CD deployment cycles and supports production. Works fully remote in international agile teams and uses AI tools daily to speed up development, testing and documentation. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "E-Commerce": [
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "third-party integrations",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "file-based data pipelines"
+      ],
+      "Backend": [
+        "RESTful APIs",
+        "Java (Core & J2EE)",
+        "Spring Boot",
+        "Design Patterns",
+        "JUnit"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "Apache Solr"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Git",
+        "Docker",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Code Reviews",
+        "Jira"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        5,
+        4,
+        7
+      ],
+      "shell": [
+        1,
+        0,
+        2,
+        5,
+        4,
+        6,
+        3
+      ],
+      "cognizant": [
+        2,
+        0,
+        3,
+        1
+      ]
+    },
+    "why_company": "Shopify shops win on speed of change: new features, better storefronts and clean data flows. I want to bring five years of enterprise commerce engineering – storefronts, headless APIs, catalogs, promotions and integrations – into a fully remote team where my work directly lifts conversion and day-to-day shop operations.",
+    "linkedin_message": "Hi! I saw your Shopify Developer (100% remote) role. 5+ years of e-commerce development (storefronts, headless APIs, catalogs, PIM/ERP integrations) for Rockwell Automation and Shell. Based in Karlsruhe, work permit, start 16.12.2026. Open to a short call?"
   },
-  "why_company": "Shopify shops win on speed of change: new features, better storefronts and clean data flows. I want to bring five years of enterprise commerce engineering – storefronts, headless APIs, catalogs, promotions and integrations – into a fully remote team where my work directly lifts conversion and day-to-day shop operations.",
-  "linkedin_message": "Hi! I saw your Shopify Developer (100% remote) role. 5+ years of e-commerce development (storefronts, headless APIs, catalogs, PIM/ERP integrations) for Rockwell Automation and Shell. Based in Karlsruhe, work permit, start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Shopify Developer (100% Remote)",
-   "salutation": "Dear Hiring Team,",
-   "hook": "A Shopify shop grows with the developer behind it: fast storefronts, clean integrations and reliable releases. That is exactly what I have delivered for more than five years on large enterprise commerce platforms for Rockwell Automation and Shell – storefronts, headless APIs, catalogs, promotions and checkout-relevant order flows.",
-   "bullets": [
-    {
-     "label": "Storefront & frontend",
-     "text": "Built APIs for headless commerce and PWA frontends and customized storefronts and Backoffice components with JavaScript and responsive design."
-    },
-    {
-     "label": "Headless commerce & APIs",
-     "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "Product data & integrations",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
-    },
-    {
-     "label": "Reliable releases",
-     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; supported production troubleshooting through the Hybris Admin Console (HAC) and Groovy scripts."
+  "letters": {
+    "en": {
+      "subject": "Application: Shopify Developer (100% Remote)",
+      "salutation": "Dear Hiring Team,",
+      "hook": "A Shopify shop grows with the developer behind it: fast storefronts, clean integrations and reliable releases. That is exactly what I have delivered for more than five years on large enterprise commerce platforms for Rockwell Automation and Shell – storefronts, headless APIs, catalogs, promotions and checkout-relevant order flows.",
+      "bullets": [
+        {
+          "label": "Storefront & frontend",
+          "text": "Built APIs for headless commerce and PWA frontends and customized storefronts and Backoffice components with JavaScript and responsive design."
+        },
+        {
+          "label": "Headless commerce & APIs",
+          "text": "Developed and exposed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers; customized Interceptors, Populators and Converters for custom data flows."
+        },
+        {
+          "label": "Product data & integrations",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub that keep product catalogs synchronized across global e-commerce channels."
+        },
+        {
+          "label": "Reliable releases",
+          "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) in agile DevOps workflows; supported production troubleshooting through the Hybris Admin Console (HAC) and Groovy scripts."
+        }
+      ],
+      "gap": "",
+      "logistics": "I work independently in fully remote, international agile teams and bring the commerce depth to move your shops forward from day one. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen your team.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I work independently in fully remote, international agile teams and bring the commerce depth to move your shops forward from day one. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to show you in a conversation how I can strengthen your team.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18",
+  "skip": "closed"
 }

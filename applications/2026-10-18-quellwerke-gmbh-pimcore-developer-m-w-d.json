@@ -1,149 +1,155 @@
 {
- "job": {
-  "title": "Pimcore Developer (m/w/d)",
-  "company": "Quellwerke GmbH",
-  "location": "Eberbach, BW, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=b3fcd478cc018ae4",
-  "apply_url": "",
-  "score": 63,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "info@quellwerke.de",
-  "direct_url": "https://quellwerke.de/karriere",
-  "email_subject": "Application: Pimcore Developer",
-  "email_body": "Dear Hiring Team,\n\nA PIM platform is only as good as the data flows around it – I designed and optimized PIM-to-commerce pipelines with Profisee for global catalogs at Rockwell Automation.\n\n– PIM / ERP / MDM integrations\n– REST and SOAP web services\n– Query refactoring that reduced response latency\n\nI work independently and results-driven in international, agile teams – remote, hybrid or on-site. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. I would be glad to show you in a short call what I can deliver for Quellwerke.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "PIM & E-Commerce Developer | Product Data Pipelines, APIs & Integrations",
-  "summary": "E-commerce developer with 5+ years building product information and commerce solutions for global platforms (SAP Commerce Cloud / Hybris 2105 and 2211) at Rockwell Automation and Shell. Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub, keeping product catalogs synchronized across global channels. Strong in REST and SOAP web services, data modeling, SQL performance tuning, Java and Spring, JavaScript and third-party integrations with ERP and MDM. Experienced with Git, Docker, CI/CD, code reviews and agile teams.",
-  "skills": {
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "E-Commerce": [
-    "Product Catalog & PIM",
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Impex"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ]
+  "job": {
+    "title": "Pimcore Developer (m/w/d)",
+    "company": "Quellwerke GmbH",
+    "location": "Eberbach, BW, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=b3fcd478cc018ae4",
+    "apply_url": "",
+    "score": 63,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "info@quellwerke.de",
+    "direct_url": "https://quellwerke.de/karriere",
+    "email_subject": "Application: Pimcore Developer",
+    "email_body": "Dear Hiring Team,\n\nA PIM platform is only as good as the data flows around it – I designed and optimized PIM-to-commerce pipelines with Profisee for global catalogs at Rockwell Automation.\n\n– PIM / ERP / MDM integrations\n– REST and SOAP web services\n– Query refactoring that reduced response latency\n\nI work independently and results-driven in international, agile teams – remote, hybrid or on-site. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. I would be glad to show you in a short call what I can deliver for Quellwerke.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://quellwerke.de/karriere",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    2,
-    3,
-    6,
-    4,
-    1,
-    7,
-    0,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    1,
-    2,
-    5,
-    4,
-    3
-   ],
-   "cognizant": [
-    2,
-    3,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "PIM & E-Commerce Developer | Product Data Pipelines, APIs & Integrations",
+    "summary": "E-commerce developer with 5+ years building product information and commerce solutions for global platforms (SAP Commerce Cloud / Hybris 2105 and 2211) at Rockwell Automation and Shell. Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub, keeping product catalogs synchronized across global channels. Strong in REST and SOAP web services, data modeling, SQL performance tuning, Java and Spring, JavaScript and third-party integrations with ERP and MDM. Experienced with Git, Docker, CI/CD, code reviews and agile teams.",
+    "skills": {
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "E-Commerce": [
+        "Product Catalog & PIM",
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Impex"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        2,
+        3,
+        6,
+        4,
+        1,
+        7,
+        0,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        1,
+        2,
+        5,
+        4,
+        3
+      ],
+      "cognizant": [
+        2,
+        3,
+        0,
+        1
+      ]
+    },
+    "why_company": "Quellwerke builds PIM and product data solutions for manufacturers and retailers – the exact problem space I have worked in from the integration side. I want to bring my experience with product data pipelines, ERP/MDM integration and commerce to Quellwerke's projects, close to my home in Karlsruhe. I look forward to contributing.",
+    "linkedin_message": "Hello, your Pimcore Developer role fits my background: 5+ years of PIM-to-commerce data pipelines, ERP/MDM integration and APIs at Rockwell Automation and Shell. Based in Karlsruhe, start 16.12.2026. Happy to talk!"
   },
-  "why_company": "Quellwerke builds PIM and product data solutions for manufacturers and retailers – the exact problem space I have worked in from the integration side. I want to bring my experience with product data pipelines, ERP/MDM integration and commerce to Quellwerke's projects, close to my home in Karlsruhe. I look forward to contributing.",
-  "linkedin_message": "Hello, your Pimcore Developer role fits my background: 5+ years of PIM-to-commerce data pipelines, ERP/MDM integration and APIs at Rockwell Automation and Shell. Based in Karlsruhe, start 16.12.2026. Happy to talk!"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Pimcore Developer",
-   "salutation": "Dear Hiring Team,",
-   "hook": "A PIM platform is only as good as the data flows around it. Building those flows has been at the core of my work for more than five years: at Rockwell Automation I designed and optimized PIM-to-commerce data pipelines with Profisee that keep product catalogs synchronized across global e-commerce channels, and I integrate PIM with ERP and MDM systems.",
-   "bullets": [
-    {
-     "label": "Product information management",
-     "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub for global product catalogs."
-    },
-    {
-     "label": "Data modeling & integration",
-     "text": "Resolved integration bottlenecks between SAP ERP, MDM and Profisee; customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "APIs",
-     "text": "Developed OCC REST web services for storefronts and third-party consumers and consumed and exposed REST and SOAP services."
-    },
-    {
-     "label": "Quality & performance",
-     "text": "Led database query refactoring that reduced response latency; performed code reviews and built JUnit test suites."
+  "letters": {
+    "en": {
+      "subject": "Application: Pimcore Developer",
+      "salutation": "Dear Hiring Team,",
+      "hook": "A PIM platform is only as good as the data flows around it. Building those flows has been at the core of my work for more than five years: at Rockwell Automation I designed and optimized PIM-to-commerce data pipelines with Profisee that keep product catalogs synchronized across global e-commerce channels, and I integrate PIM with ERP and MDM systems.",
+      "bullets": [
+        {
+          "label": "Product information management",
+          "text": "Designed, built and optimized PIM-to-Hybris data pipelines with Profisee, Hotfolders and DataHub for global product catalogs."
+        },
+        {
+          "label": "Data modeling & integration",
+          "text": "Resolved integration bottlenecks between SAP ERP, MDM and Profisee; customized Interceptors, Populators and Converters for custom data flows."
+        },
+        {
+          "label": "APIs",
+          "text": "Developed OCC REST web services for storefronts and third-party consumers and consumed and exposed REST and SOAP services."
+        },
+        {
+          "label": "Quality & performance",
+          "text": "Led database query refactoring that reduced response latency; performed code reviews and built JUnit test suites."
+        }
+      ],
+      "gap": "",
+      "logistics": "Eberbach is within easy reach of Karlsruhe. I live in Karlsruhe, hold a valid German residence and work permit and can start at Quellwerke on 16 December 2026 after my notice period. I would welcome a conversation to show you the concrete contribution I can make to your team.",
+      "closing": "",
+      "contact": "Attn. Quellwerke GmbH, Recruiting"
     }
-   ],
-   "gap": "",
-   "logistics": "Eberbach is within easy reach of Karlsruhe. I live in Karlsruhe, hold a valid German residence and work permit and can start at Quellwerke on 16 December 2026 after my notice period. I would welcome a conversation to show you the concrete contribution I can make to your team.",
-   "closing": "",
-   "contact": "Attn. Quellwerke GmbH, Recruiting"
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

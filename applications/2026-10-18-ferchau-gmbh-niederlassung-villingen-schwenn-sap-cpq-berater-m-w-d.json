@@ -1,131 +1,137 @@
 {
- "job": {
-  "title": "SAP CPQ Berater (m/w/d)",
-  "company": "FERCHAU GmbH Niederlassung Villingen-Schwenn.",
-  "location": "Stühlingen, Baden-Wuerttemberg",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003761170-S",
-  "apply_url": "",
-  "score": 60,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.ferchau.com/de/de/jobs",
-  "email_subject": "Bewerbung SAP CPQ Berater – Kennziffer VA90-70316-FR",
-  "email_body": "Sehr geehrter Herr Albiez,\n\nFür SAP CPQ suchen Sie Anforderungsanalyse, Datenmodell-Anpassung und Schnittstellen per Scripting und API – genau das liefere ich seit über fünf Jahren in SAP Commerce Cloud für Rockwell Automation und Shell.\n\n– Preis-, Promotions- und Bestellprozesse im digitalen Vertrieb umgesetzt\n– Logiken per Groovy-Scripting, REST/SOAP-APIs und Integration zu SAP ERP\n– Anforderungsanalysen, technische Konzepte und Doku; SAP Certified Commerce Cloud Developer\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist am 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Mein Profil verbindet technische Tiefe mit enger Abstimmung mit Fachbereichen, und genau diese Erfahrung bringe ich gern in Ihr Team ein. Hätten Sie in den nächsten Tagen Zeit für ein kurzes Telefonat?\n\nMit freundlichen Grüßen\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
- },
- "tailoring": {
-  "headline": "SAP Beraterin | Anforderungsanalyse, Datenmodell & Schnittstellen | SAP Certified",
-  "summary": "Techno-funktionale SAP-Beraterin mit über 5 Jahren Erfahrung in Weiterentwicklung und Integration von SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Führt Anforderungsanalysen mit Fachbereichen durch, passt Datenmodelle an, setzt Workflows, Regelwerke und Logiken per Scripting (Groovy, JavaScript) und APIs um und integriert SAP ERP, MDM und PIM. Erstellt technische Konzepte und Dokumentation, kennt digitale Vertriebsprozesse rund um Preise, Promotions und Bestellungen. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Product Catalog & PIM"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Data Modeling",
-    "Groovy",
-    "RESTful APIs",
-    "SOAP"
-   ],
-   "Frontend & Web": [
-    "JavaScript"
-   ],
-   "AI": [
-    "AI-assisted analysis and documentation",
-    "Generative AI / LLM tools"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence"
-   ]
+  "job": {
+    "title": "SAP CPQ Berater (m/w/d)",
+    "company": "FERCHAU GmbH Niederlassung Villingen-Schwenn.",
+    "location": "Stühlingen, Baden-Wuerttemberg",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003761170-S",
+    "apply_url": "",
+    "score": 60,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.ferchau.com/de/de/jobs",
+    "email_subject": "Bewerbung SAP CPQ Berater – Kennziffer VA90-70316-FR",
+    "email_body": "Sehr geehrter Herr Albiez,\n\nFür SAP CPQ suchen Sie Anforderungsanalyse, Datenmodell-Anpassung und Schnittstellen per Scripting und API – genau das liefere ich seit über fünf Jahren in SAP Commerce Cloud für Rockwell Automation und Shell.\n\n– Preis-, Promotions- und Bestellprozesse im digitalen Vertrieb umgesetzt\n– Logiken per Groovy-Scripting, REST/SOAP-APIs und Integration zu SAP ERP\n– Anforderungsanalysen, technische Konzepte und Doku; SAP Certified Commerce Cloud Developer\n\nIch lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist am 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Mein Profil verbindet technische Tiefe mit enger Abstimmung mit Fachbereichen, und genau diese Erfahrung bringe ich gern in Ihr Team ein. Hätten Sie in den nächsten Tagen Zeit für ein kurzes Telefonat?\n\nMit freundlichen Grüßen\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.ferchau.com/de/de/jobs",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    4,
-    7,
-    0,
-    1,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    1,
-    2,
-    4,
-    5,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "SAP Beraterin | Anforderungsanalyse, Datenmodell & Schnittstellen | SAP Certified",
+    "summary": "Techno-funktionale SAP-Beraterin mit über 5 Jahren Erfahrung in Weiterentwicklung und Integration von SAP Commerce Cloud (Hybris 2105 und 2211) für Rockwell Automation und Shell. Führt Anforderungsanalysen mit Fachbereichen durch, passt Datenmodelle an, setzt Workflows, Regelwerke und Logiken per Scripting (Groovy, JavaScript) und APIs um und integriert SAP ERP, MDM und PIM. Erstellt technische Konzepte und Dokumentation, kennt digitale Vertriebsprozesse rund um Preise, Promotions und Bestellungen. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Product Catalog & PIM"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Data Modeling",
+        "Groovy",
+        "RESTful APIs",
+        "SOAP"
+      ],
+      "Frontend & Web": [
+        "JavaScript"
+      ],
+      "AI": [
+        "AI-assisted analysis and documentation",
+        "Generative AI / LLM tools"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        4,
+        7,
+        0,
+        1,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "FERCHAU realisiert SAP- und Salesforce-Projekte für namhafte Kunden und bietet Berater:innen abwechslungsreiche Einsätze mit echter Verantwortung. SAP CPQ verbindet Preislogik, Regelwerke und Integration zu SAP S/4HANA – eng verwandt mit meiner Erfahrung aus Preis- und Promotions-Prozessen in SAP Commerce Cloud.",
+    "linkedin_message": "Guten Tag Herr Albiez, ich habe mich als SAP CPQ Berater (VA90-70316-FR) beworben: 5+ Jahre SAP Commerce Cloud bei Rockwell Automation und Shell – Anforderungsanalyse, Preislogik, Scripting, SAP-ERP-Integration, SAP-zertifiziert. Start 16.12.2026."
   },
-  "why_company": "FERCHAU realisiert SAP- und Salesforce-Projekte für namhafte Kunden und bietet Berater:innen abwechslungsreiche Einsätze mit echter Verantwortung. SAP CPQ verbindet Preislogik, Regelwerke und Integration zu SAP S/4HANA – eng verwandt mit meiner Erfahrung aus Preis- und Promotions-Prozessen in SAP Commerce Cloud.",
-  "linkedin_message": "Guten Tag Herr Albiez, ich habe mich als SAP CPQ Berater (VA90-70316-FR) beworben: 5+ Jahre SAP Commerce Cloud bei Rockwell Automation und Shell – Anforderungsanalyse, Preislogik, Scripting, SAP-ERP-Integration, SAP-zertifiziert. Start 16.12.2026."
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als SAP CPQ Berater – Kennziffer VA90-70316-FR",
-   "salutation": "Sehr geehrter Herr Albiez,",
-   "hook": "Für die Einführung und Weiterentwicklung von SAP-CPQ-Lösungen suchen Sie jemanden, der Anforderungen analysiert, das Datenmodell anpasst und Logiken sowie Schnittstellen per Scripting und API umsetzt. Genau diese Arbeit kenne ich aus über fünf Jahren SAP Commerce Cloud bei Rockwell Automation und Shell – mit Preis-, Promotions- und Bestellprozessen im digitalen Vertrieb und Integrationen zu SAP ERP.",
-   "bullets": [
-    {
-     "label": "Anforderungsanalysen & Datenmodell",
-     "text": "Anforderungen mit Fachbereichen analysiert, funktionale Spezifikationen geschrieben und Datenmodelle für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud umgesetzt."
-    },
-    {
-     "label": "Workflows, Regelwerke & Logiken per Scripting",
-     "text": "Promotions Engine, Cronjobs und Impex entwickelt, Groovy-Administrationsskripte geschrieben und Interceptors, Populators und Converters für eigene Datenflüsse angepasst."
-    },
-    {
-     "label": "Schnittstellen & Integration",
-     "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst, REST- und SOAP-Webservices bereitgestellt und externe Services über das SAP Commerce Cloud Portal (CCv2) integriert."
-    },
-    {
-     "label": "Technische Konzepte & Dokumentation",
-     "text": "Technische Konzepte und Dokumentation erstellt, API-Migrationen für Kundenkontostrukturen umgesetzt und Prozesse im digitalen Vertrieb mit Product Ownern modelliert."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als SAP CPQ Berater – Kennziffer VA90-70316-FR",
+      "salutation": "Sehr geehrter Herr Albiez,",
+      "hook": "Für die Einführung und Weiterentwicklung von SAP-CPQ-Lösungen suchen Sie jemanden, der Anforderungen analysiert, das Datenmodell anpasst und Logiken sowie Schnittstellen per Scripting und API umsetzt. Genau diese Arbeit kenne ich aus über fünf Jahren SAP Commerce Cloud bei Rockwell Automation und Shell – mit Preis-, Promotions- und Bestellprozessen im digitalen Vertrieb und Integrationen zu SAP ERP.",
+      "bullets": [
+        {
+          "label": "Anforderungsanalysen & Datenmodell",
+          "text": "Anforderungen mit Fachbereichen analysiert, funktionale Spezifikationen geschrieben und Datenmodelle für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud umgesetzt."
+        },
+        {
+          "label": "Workflows, Regelwerke & Logiken per Scripting",
+          "text": "Promotions Engine, Cronjobs und Impex entwickelt, Groovy-Administrationsskripte geschrieben und Interceptors, Populators und Converters für eigene Datenflüsse angepasst."
+        },
+        {
+          "label": "Schnittstellen & Integration",
+          "text": "Integrationsengpässe zwischen SAP ERP, MDM und Profisee gelöst, REST- und SOAP-Webservices bereitgestellt und externe Services über das SAP Commerce Cloud Portal (CCv2) integriert."
+        },
+        {
+          "label": "Technische Konzepte & Dokumentation",
+          "text": "Technische Konzepte und Dokumentation erstellt, API-Migrationen für Kundenkontostrukturen umgesetzt und Prozesse im digitalen Vertrieb mit Product Ownern modelliert."
+        }
+      ],
+      "gap": "",
+      "logistics": "Die Verbindung aus Beratung, Prozessanalyse im Vertrieb und technischer Umsetzung in SAP ist genau mein Profil. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis, bin für Kundeneinsätze in Baden-Württemberg flexibel und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, was ich Ihren Kunden bieten kann.",
+      "closing": "",
+      "contact": "z. Hd. Herrn Rolf Albiez, FERCHAU Management GmbH, Zentrales Recruiting"
     }
-   ],
-   "gap": "",
-   "logistics": "Die Verbindung aus Beratung, Prozessanalyse im Vertrieb und technischer Umsetzung in SAP ist genau mein Profil. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis, bin für Kundeneinsätze in Baden-Württemberg flexibel und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, was ich Ihren Kunden bieten kann.",
-   "closing": "",
-   "contact": "z. Hd. Herrn Rolf Albiez, FERCHAU Management GmbH, Zentrales Recruiting"
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

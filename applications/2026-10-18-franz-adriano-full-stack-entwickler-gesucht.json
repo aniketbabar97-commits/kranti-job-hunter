@@ -1,149 +1,155 @@
 {
- "job": {
-  "title": "Full Stack Entwickler gesucht",
-  "company": "Franz Adriano",
-  "location": "Saarbrücken, Saarland",
-  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S",
-  "apply_url": "",
-  "score": 65,
-  "source": "Arbeitsagentur",
-  "posted": "",
-  "salary": "",
-  "lang": "de",
-  "contact": "",
-  "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S",
-  "email_subject": "Bewerbung als Full-Stack-Entwickler – Web, E-Commerce & IT",
-  "email_body": "Guten Tag Franz Adriano,\n\nSie suchen jemanden, der technische Projekte eigenständig umsetzt – ich entwickle seit über 5 Jahren Backend und Frontend großer Onlineshops bei Rockwell Automation und Shell.\n\n– Java/Spring, RESTful APIs und JavaScript\n– CI/CD, Cloud-Deployments und Produktionssupport\n– Direkte Abstimmung mit Fachbereichen und Kunden\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der AF-mediaGROUP bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Full-Stack-Entwicklerin | Web, E-Commerce, APIs & Cloud",
-  "summary": "Full-Stack-Entwicklerin mit über 5 Jahren Erfahrung in Entwicklung, Betreuung und Optimierung großer Onlineshops und digitaler Anwendungen (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Setzt Backend und Frontend um: Java, Spring, RESTful APIs, JavaScript, Responsive Design und Storefront-Anpassung. Erfahren mit Integrationen von Drittsystemen, SQL-Performance, Docker, Kubernetes, CI/CD und Produktionssupport. Arbeitet eng mit Fachbereichen und Kunden, setzt Projekte eigenständig um und nutzt KI-gestützte Entwicklung und Automatisierung im Alltag. SAP Certified Commerce Cloud Developer mit Erfahrung in internationalen, agilen Teams.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling",
-    "JUnit",
-    "Groovy"
-   ],
-   "Frontend & Web": [
-    "JavaScript",
-    "Progressive Web Application (PWA) integration",
-    "Responsive Design",
-    "storefront customization"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Order Management (OMS)",
-    "Product Catalog & PIM"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ]
+  "job": {
+    "title": "Full Stack Entwickler gesucht",
+    "company": "Franz Adriano",
+    "location": "Saarbrücken, Saarland",
+    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S",
+    "apply_url": "",
+    "score": 65,
+    "source": "Arbeitsagentur",
+    "posted": "",
+    "salary": "",
+    "lang": "de",
+    "contact": "",
+    "direct_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S",
+    "email_subject": "Bewerbung als Full-Stack-Entwickler – Web, E-Commerce & IT",
+    "email_body": "Guten Tag Franz Adriano,\n\nSie suchen jemanden, der technische Projekte eigenständig umsetzt – ich entwickle seit über 5 Jahren Backend und Frontend großer Onlineshops bei Rockwell Automation und Shell.\n\n– Java/Spring, RESTful APIs und JavaScript\n– CI/CD, Cloud-Deployments und Produktionssupport\n– Direkte Abstimmung mit Fachbereichen und Kunden\n\nIn internationalen, agilen Teams arbeite ich eigenständig und ergebnisorientiert – remote, hybrid oder vor Ort. Ich lebe in Karlsruhe, habe eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Lebenslauf und Anschreiben finden Sie im Anhang. Über ein kurzes Telefonat, in dem ich Ihnen zeige, was ich für der AF-mediaGROUP bewegen kann, freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan",
+    "channel": "arbeitsagentur",
+    "form_url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S",
+    "ats": "arbeitsagentur",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    5,
-    2,
-    4,
-    7,
-    3,
-    6
-   ],
-   "shell": [
-    1,
-    5,
-    0,
-    4,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    0,
-    2,
-    1,
-    3
-   ]
+  "tailoring": {
+    "headline": "Full-Stack-Entwicklerin | Web, E-Commerce, APIs & Cloud",
+    "summary": "Full-Stack-Entwicklerin mit über 5 Jahren Erfahrung in Entwicklung, Betreuung und Optimierung großer Onlineshops und digitaler Anwendungen (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Setzt Backend und Frontend um: Java, Spring, RESTful APIs, JavaScript, Responsive Design und Storefront-Anpassung. Erfahren mit Integrationen von Drittsystemen, SQL-Performance, Docker, Kubernetes, CI/CD und Produktionssupport. Arbeitet eng mit Fachbereichen und Kunden, setzt Projekte eigenständig um und nutzt KI-gestützte Entwicklung und Automatisierung im Alltag. SAP Certified Commerce Cloud Developer mit Erfahrung in internationalen, agilen Teams.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling",
+        "JUnit",
+        "Groovy"
+      ],
+      "Frontend & Web": [
+        "JavaScript",
+        "Progressive Web Application (PWA) integration",
+        "Responsive Design",
+        "storefront customization"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Order Management (OMS)",
+        "Product Catalog & PIM"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        5,
+        2,
+        4,
+        7,
+        3,
+        6
+      ],
+      "shell": [
+        1,
+        5,
+        0,
+        4,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "why_company": "Die AF-mediaGROUP verbindet Marketing, IT, E-Commerce und Automationen unter einem Dach – inhabergeführt und mit direktem Kundenkontakt. Gerade diese Breite reizt mich: Ich möchte meine Erfahrung aus großen Onlineshops, Schnittstellen und Cloud-Betrieb in vielfältige Kundenprojekte einbringen und den wachsenden IT-Bereich mitgestalten.",
+    "linkedin_message": "Guten Tag Franz Adriano, Ihre Stelle als Full-Stack-Entwickler hat mich angesprochen: 5+ Jahre Backend und Frontend großer Onlineshops bei Rockwell Automation und Shell. Start ab 16.12.2026. Ich freue mich auf einen Austausch!"
   },
-  "why_company": "Die AF-mediaGROUP verbindet Marketing, IT, E-Commerce und Automationen unter einem Dach – inhabergeführt und mit direktem Kundenkontakt. Gerade diese Breite reizt mich: Ich möchte meine Erfahrung aus großen Onlineshops, Schnittstellen und Cloud-Betrieb in vielfältige Kundenprojekte einbringen und den wachsenden IT-Bereich mitgestalten.",
-  "linkedin_message": "Guten Tag Franz Adriano, Ihre Stelle als Full-Stack-Entwickler hat mich angesprochen: 5+ Jahre Backend und Frontend großer Onlineshops bei Rockwell Automation und Shell. Start ab 16.12.2026. Ich freue mich auf einen Austausch!"
- },
- "letters": {
-  "de": {
-   "subject": "Bewerbung als Full-Stack-Entwickler – Web, E-Commerce & IT",
-   "salutation": "Guten Tag Franz Adriano,",
-   "hook": "Sie suchen jemanden, der technische Projekte eigenständig umsetzt, bestehende Systeme weiterentwickelt und mit Ihnen neue digitale Lösungen aufbaut. Genau das mache ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich Backend und Frontend großer Onlineshops, binde Drittsysteme an und betreue sie im Produktivbetrieb.",
-   "bullets": [
-    {
-     "label": "Onlineshops & Anwendungen",
-     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten mit Java und Spring konzipiert und umgesetzt; Storefronts angepasst."
-    },
-    {
-     "label": "Schnittstellen & Automationen",
-     "text": "RESTful APIs und Webservices für Headless- und PWA-Frontends entwickelt; Datenpipelines und Cronjobs für automatisierte Abläufe aufgebaut."
-    },
-    {
-     "label": "Infrastruktur & Betrieb",
-     "text": "CI/CD-Deployment-Zyklen und Release-Builds in der Cloud durchgeführt; Produktionsvorfälle unterstützt und Datenbankabfragen für kürzere Antwortzeiten refaktoriert."
-    },
-    {
-     "label": "Eigenständig mit Kunden",
-     "text": "Anforderungen direkt mit Fachbereichen analysiert und in Lösungen übersetzt; KI-Tools intensiv für Entwicklung, Test und Dokumentation eingesetzt."
+  "letters": {
+    "de": {
+      "subject": "Bewerbung als Full-Stack-Entwickler – Web, E-Commerce & IT",
+      "salutation": "Guten Tag Franz Adriano,",
+      "hook": "Sie suchen jemanden, der technische Projekte eigenständig umsetzt, bestehende Systeme weiterentwickelt und mit Ihnen neue digitale Lösungen aufbaut. Genau das mache ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich Backend und Frontend großer Onlineshops, binde Drittsysteme an und betreue sie im Produktivbetrieb.",
+      "bullets": [
+        {
+          "label": "Onlineshops & Anwendungen",
+          "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten mit Java und Spring konzipiert und umgesetzt; Storefronts angepasst."
+        },
+        {
+          "label": "Schnittstellen & Automationen",
+          "text": "RESTful APIs und Webservices für Headless- und PWA-Frontends entwickelt; Datenpipelines und Cronjobs für automatisierte Abläufe aufgebaut."
+        },
+        {
+          "label": "Infrastruktur & Betrieb",
+          "text": "CI/CD-Deployment-Zyklen und Release-Builds in der Cloud durchgeführt; Produktionsvorfälle unterstützt und Datenbankabfragen für kürzere Antwortzeiten refaktoriert."
+        },
+        {
+          "label": "Eigenständig mit Kunden",
+          "text": "Anforderungen direkt mit Fachbereichen analysiert und in Lösungen übersetzt; KI-Tools intensiv für Entwicklung, Test und Dokumentation eingesetzt."
+        }
+      ],
+      "gap": "",
+      "logistics": "Saarbrücken ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der AF-mediaGROUP starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
+      "closing": "",
+      "contact": "z. Hd. Franz Adriano, AF-mediaGROUP"
     }
-   ],
-   "gap": "",
-   "logistics": "Saarbrücken ist von Karlsruhe aus gut erreichbar. Ich lebe in Karlsruhe, besitze eine gültige Aufenthalts- und Arbeitserlaubnis für Deutschland und kann nach meiner Kündigungsfrist ab dem 16.12.2026 bei der AF-mediaGROUP starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, welchen konkreten Beitrag ich für Ihr Team leisten kann.",
-   "closing": "",
-   "contact": "z. Hd. Franz Adriano, AF-mediaGROUP"
-  }
- },
- "lang": "de",
- "created": "2026-10-18"
+  },
+  "lang": "de",
+  "created": "2026-10-18"
 }

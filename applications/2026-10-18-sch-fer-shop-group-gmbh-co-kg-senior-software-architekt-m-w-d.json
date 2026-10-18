@@ -1,142 +1,148 @@
 {
- "job": {
-  "title": "(Senior) Software-Architekt (m/w/d)",
-  "company": "Schäfer Shop Group GmbH & Co. KG",
-  "location": "Home Office, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0",
-  "apply_url": "",
-  "score": 70,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://schaefer-shop.de/karriere",
-  "email_subject": "Application: (Senior) Software Architect",
-  "email_body": "Dear Hiring Team,\n\nYour B2B commerce platform needs architecture that keeps ordering fast and integrations stable – that is what I have worked on for 5+ years at Rockwell Automation and Shell.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams\n– Led database query refactoring that reduced response latency and improved transaction speed\n– Engineered API migrations for customer account structures, improving stability and data consistency\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Senior Software Engineer – Commerce Architecture | Java, Microservices & APIs",
-  "summary": "Senior software engineer with 5+ years designing and extending enterprise B2B and B2C commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring Boot, microservices, RESTful and headless APIs, design patterns and data modeling. Designs data flows and integrations between shop, PIM, ERP and MDM, led database query refactoring for faster response times and engineered API migrations for customer account structures. Performs code reviews, mentors junior developers and works in agile, international teams. SAP Certified Commerce Cloud Developer.",
-  "skills": {
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Framework",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "SOAP",
-    "Design Patterns",
-    "Data Modeling"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)"
-   ],
-   "APIs & Integration": [
-    "OCC APIs",
-    "REST web services",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Jenkins",
-    "Git",
-    "Docker",
-    "Kubernetes",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "Business Analysis": [
-    "Solution design",
-    "Requirements engineering",
-    "Stakeholder management"
-   ],
-   "Ways of Working": [
-    "Code Reviews",
-    "Technical Mentoring",
-    "Agile / Scrum",
-    "International Teams"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools"
-   ]
+  "job": {
+    "title": "(Senior) Software-Architekt (m/w/d)",
+    "company": "Schäfer Shop Group GmbH & Co. KG",
+    "location": "Home Office, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0",
+    "apply_url": "",
+    "score": 70,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://schaefer-shop.de/karriere",
+    "email_subject": "Application: (Senior) Software Architect",
+    "email_body": "Dear Hiring Team,\n\nYour B2B commerce platform needs architecture that keeps ordering fast and integrations stable – that is what I have worked on for 5+ years at Rockwell Automation and Shell.\n\n– Developed OCC REST web services (headless APIs) for storefronts, PWA frontends and third-party consumers\n– Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams\n– Led database query refactoring that reduced response latency and improved transaction speed\n– Engineered API migrations for customer account structures, improving stability and data consistency\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://schaefer-shop.de/karriere",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    0,
-    1,
-    4,
-    2,
-    3,
-    5,
-    6,
-    7
-   ],
-   "shell": [
-    5,
-    1,
-    0,
-    4,
-    2,
-    3,
-    6
-   ],
-   "cognizant": [
-    1,
-    0,
-    2,
-    3
-   ]
+  "tailoring": {
+    "headline": "Senior Software Engineer – Commerce Architecture | Java, Microservices & APIs",
+    "summary": "Senior software engineer with 5+ years designing and extending enterprise B2B and B2C commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring Boot, microservices, RESTful and headless APIs, design patterns and data modeling. Designs data flows and integrations between shop, PIM, ERP and MDM, led database query refactoring for faster response times and engineered API migrations for customer account structures. Performs code reviews, mentors junior developers and works in agile, international teams. SAP Certified Commerce Cloud Developer.",
+    "skills": {
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "SOAP",
+        "Design Patterns",
+        "Data Modeling"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)"
+      ],
+      "APIs & Integration": [
+        "OCC APIs",
+        "REST web services",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Jenkins",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "Business Analysis": [
+        "Solution design",
+        "Requirements engineering",
+        "Stakeholder management"
+      ],
+      "Ways of Working": [
+        "Code Reviews",
+        "Technical Mentoring",
+        "Agile / Scrum",
+        "International Teams"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "shell": [
+        5,
+        1,
+        0,
+        4,
+        2,
+        3,
+        6
+      ],
+      "cognizant": [
+        1,
+        0,
+        2,
+        3
+      ]
+    },
+    "why_company": "Schäfer Shop is one of Europe's leading B2B office suppliers, with a commerce platform at the heart of the business and a home-office set-up. I want to bring five years of enterprise commerce engineering – Java, microservices, APIs, PIM/ERP integration and performance tuning for Rockwell Automation and Shell – to shaping its architecture.",
+    "linkedin_message": "Hello, your (Senior) Software Architect role caught my eye: 5+ years designing and extending enterprise B2B commerce platforms for Rockwell Automation and Shell – Java, microservices, APIs, ERP/PIM integration, performance. Karlsruhe, start 16.12.2026. Open to a call?"
   },
-  "why_company": "Schäfer Shop is one of Europe's leading B2B office suppliers, with a commerce platform at the heart of the business and a home-office set-up. I want to bring five years of enterprise commerce engineering – Java, microservices, APIs, PIM/ERP integration and performance tuning for Rockwell Automation and Shell – to shaping its architecture.",
-  "linkedin_message": "Hello, your (Senior) Software Architect role caught my eye: 5+ years designing and extending enterprise B2B commerce platforms for Rockwell Automation and Shell – Java, microservices, APIs, ERP/PIM integration, performance. Karlsruhe, start 16.12.2026. Open to a call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: (Senior) Software Architect",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Schäfer Shop runs a large B2B commerce business where the software architecture directly shapes ordering, performance and scalability. For more than five years I have worked inside exactly such systems: at Rockwell Automation and Shell I design and extend enterprise commerce platforms on SAP Commerce Cloud with Java and Spring – including the APIs, data flows and integrations around them.",
-   "bullets": [
-    {
-     "label": "Architecture & design patterns",
-     "text": "Designed and implemented backend functionality for product, catalog, pricing and customer data following platform best practices and design patterns; customized Interceptors, Populators and Converters for custom data flows."
-    },
-    {
-     "label": "APIs & system integration",
-     "text": "Built OCC REST web services (headless APIs) for storefronts and third-party consumers; designed and optimized PIM-to-Hybris pipelines and resolved integration bottlenecks between SAP ERP, MDM and Profisee."
-    },
-    {
-     "label": "Performance & stability",
-     "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures, improving stability and data consistency."
-    },
-    {
-     "label": "Technical leadership",
-     "text": "Performed code reviews, provided technical guidance to junior developers and executed CI/CD deployment cycles within agile DevOps workflows."
+  "letters": {
+    "en": {
+      "subject": "Application: (Senior) Software Architect",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Schäfer Shop runs a large B2B commerce business where the software architecture directly shapes ordering, performance and scalability. For more than five years I have worked inside exactly such systems: at Rockwell Automation and Shell I design and extend enterprise commerce platforms on SAP Commerce Cloud with Java and Spring – including the APIs, data flows and integrations around them.",
+      "bullets": [
+        {
+          "label": "Architecture & design patterns",
+          "text": "Designed and implemented backend functionality for product, catalog, pricing and customer data following platform best practices and design patterns; customized Interceptors, Populators and Converters for custom data flows."
+        },
+        {
+          "label": "APIs & system integration",
+          "text": "Built OCC REST web services (headless APIs) for storefronts and third-party consumers; designed and optimized PIM-to-Hybris pipelines and resolved integration bottlenecks between SAP ERP, MDM and Profisee."
+        },
+        {
+          "label": "Performance & stability",
+          "text": "Led database query refactoring that reduced response latency and improved transaction speed; engineered API migrations for customer account structures, improving stability and data consistency."
+        },
+        {
+          "label": "Technical leadership",
+          "text": "Performed code reviews, provided technical guidance to junior developers and executed CI/CD deployment cycles within agile DevOps workflows."
+        }
+      ],
+      "gap": "",
+      "logistics": "I enjoy working remotely in distributed teams and aligning technical decisions with business stakeholders. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation about your architecture roadmap.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "I enjoy working remotely in distributed teams and aligning technical decisions with business stakeholders. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation about your architecture roadmap.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

@@ -1,126 +1,132 @@
 {
- "job": {
-  "title": "Digital Product Owner (m/w/d)",
-  "company": "HUBER SE",
-  "location": "Berching, BY, Germany",
-  "url": "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d",
-  "apply_url": "",
-  "score": 68,
-  "source": "Indeed",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "",
-  "direct_url": "https://karriere.huber.de/stellenangebote.html",
-  "email_subject": "Application: Digital Product Owner",
-  "email_body": "Dear Hiring Team,\n\nYou need a product owner who turns business needs into a clear backlog and talks to IT on equal terms – I have done that on enterprise digital platforms for Rockwell Automation and Shell for 5+ years.\n\n– Analysed requirements with business stakeholders, wrote user stories and functional specifications, supported UAT\n– Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan"
- },
- "tailoring": {
-  "headline": "Digital Product Owner | Requirements, User Stories & Digital Platforms (SAP Commerce)",
-  "summary": "Techno-functional digital product professional with 5+ years on enterprise digital commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Translates business requirements into user stories, acceptance criteria and functional specifications, maps processes, prioritises with product owners and supports UAT through to production. Understands the technology deeply, from APIs and PIM/ERP integration to releases, so she speaks credibly with business, IT and partners. Agile with PI Planning, Jira and Confluence; uses generative AI tools daily.",
-  "skills": {
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "PI Planning",
-    "Jira",
-    "Confluence",
-    "International Teams"
-   ],
-   "APIs & Integration": [
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "OCC APIs",
-    "third-party integrations"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "DevOps & Cloud": [
-    "production support and troubleshooting",
-    "CI/CD pipelines"
-   ]
+  "job": {
+    "title": "Digital Product Owner (m/w/d)",
+    "company": "HUBER SE",
+    "location": "Berching, BY, Germany",
+    "url": "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d",
+    "apply_url": "",
+    "score": 68,
+    "source": "Indeed",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "",
+    "direct_url": "https://karriere.huber.de/stellenangebote.html",
+    "email_subject": "Application: Digital Product Owner",
+    "email_body": "Dear Hiring Team,\n\nYou need a product owner who turns business needs into a clear backlog and talks to IT on equal terms – I have done that on enterprise digital platforms for Rockwell Automation and Shell for 5+ years.\n\n– Analysed requirements with business stakeholders, wrote user stories and functional specifications, supported UAT\n– Resolved integration bottlenecks between SAP ERP, MDM and Profisee with international teams\n– Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2)\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. Would you have 15 minutes for a short call in the coming days? My CV and cover letter are attached.\n\nKind regards\nKranti Chavan",
+    "channel": "indeed",
+    "form_url": "https://karriere.huber.de/stellenangebote.html",
+    "ats": "own",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "unknown"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    4,
-    7,
-    1,
-    0,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    2,
-    5,
-    4,
-    1,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "Digital Product Owner | Requirements, User Stories & Digital Platforms (SAP Commerce)",
+    "summary": "Techno-functional digital product professional with 5+ years on enterprise digital commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Translates business requirements into user stories, acceptance criteria and functional specifications, maps processes, prioritises with product owners and supports UAT through to production. Understands the technology deeply, from APIs and PIM/ERP integration to releases, so she speaks credibly with business, IT and partners. Agile with PI Planning, Jira and Confluence; uses generative AI tools daily.",
+    "skills": {
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "PI Planning",
+        "Jira",
+        "Confluence",
+        "International Teams"
+      ],
+      "APIs & Integration": [
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "OCC APIs",
+        "third-party integrations"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "DevOps & Cloud": [
+        "production support and troubleshooting",
+        "CI/CD pipelines"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        4,
+        7,
+        1,
+        0,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        2,
+        5,
+        4,
+        1,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "HUBER is a global leader in water and wastewater technology, and its digital products help customers run critical infrastructure. As a family-owned engineering company it combines long-term thinking with innovation. I want to bring five years of techno-functional work on digital platforms – requirements, user stories, integrations and releases – to its digital journey.",
+    "linkedin_message": "Hello, your Digital Product Owner role at HUBER interests me: 5+ years techno-functional on digital commerce platforms for Rockwell Automation and Shell – user stories, stakeholder alignment, integrations, releases. Start 16.12.2026. Open to a short call?"
   },
-  "why_company": "HUBER is a global leader in water and wastewater technology, and its digital products help customers run critical infrastructure. As a family-owned engineering company it combines long-term thinking with innovation. I want to bring five years of techno-functional work on digital platforms – requirements, user stories, integrations and releases – to its digital journey.",
-  "linkedin_message": "Hello, your Digital Product Owner role at HUBER interests me: 5+ years techno-functional on digital commerce platforms for Rockwell Automation and Shell – user stories, stakeholder alignment, integrations, releases. Start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: Digital Product Owner",
-   "salutation": "Dear Hiring Team,",
-   "hook": "A digital product owner at HUBER needs to turn business and customer needs into a clear backlog and work with IT on equal terms. That has been my role for more than five years: at Rockwell Automation and Shell I work between business stakeholders and development on enterprise digital platforms built on SAP Commerce Cloud.",
-   "bullets": [
-    {
-     "label": "Backlog & user stories",
-     "text": "In a techno-functional role, analysed requirements with business stakeholders, wrote user stories and functional specifications and translated them into SAP Commerce solutions; at Shell, mapped processes and supported UAT."
-    },
-    {
-     "label": "Stakeholder alignment",
-     "text": "Worked directly with product owners, business teams and international technical teams in agile setups with PI Planning, Jira and Confluence."
-    },
-    {
-     "label": "Technical depth",
-     "text": "Delivered APIs and data integrations between PIM, ERP and MDM and the shop; engineered API migrations for customer account structures."
-    },
-    {
-     "label": "Releases & quality",
-     "text": "Executed CI/CD deployment cycles and release builds, supported UAT and resolved production issues."
+  "letters": {
+    "en": {
+      "subject": "Application: Digital Product Owner",
+      "salutation": "Dear Hiring Team,",
+      "hook": "A digital product owner at HUBER needs to turn business and customer needs into a clear backlog and work with IT on equal terms. That has been my role for more than five years: at Rockwell Automation and Shell I work between business stakeholders and development on enterprise digital platforms built on SAP Commerce Cloud.",
+      "bullets": [
+        {
+          "label": "Backlog & user stories",
+          "text": "In a techno-functional role, analysed requirements with business stakeholders, wrote user stories and functional specifications and translated them into SAP Commerce solutions; at Shell, mapped processes and supported UAT."
+        },
+        {
+          "label": "Stakeholder alignment",
+          "text": "Worked directly with product owners, business teams and international technical teams in agile setups with PI Planning, Jira and Confluence."
+        },
+        {
+          "label": "Technical depth",
+          "text": "Delivered APIs and data integrations between PIM, ERP and MDM and the shop; engineered API migrations for customer account structures."
+        },
+        {
+          "label": "Releases & quality",
+          "text": "Executed CI/CD deployment cycles and release builds, supported UAT and resolved production issues."
+        }
+      ],
+      "gap": "",
+      "logistics": "Combining product thinking with hands-on platform knowledge lets me make realistic, fast decisions. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation about your digital products.",
+      "closing": "",
+      "contact": ""
     }
-   ],
-   "gap": "",
-   "logistics": "Combining product thinking with hands-on platform knowledge lets me make realistic, fast decisions. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would welcome a conversation about your digital products.",
-   "closing": "",
-   "contact": ""
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }

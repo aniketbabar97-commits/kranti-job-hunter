@@ -1,154 +1,160 @@
 {
- "job": {
-  "title": "SAP CX Spezialist | BW/4HANA, SAP BTP, SAP CRM, Projektleitung | Inhouse, bis 95.000 € (mwd)",
-  "company": "Vesterling AG",
-  "location": "Munich, Bavaria, Germany",
-  "url": "https://www.linkedin.com/jobs/view/4470968045",
-  "apply_url": "",
-  "score": 80,
-  "source": "Linkedin",
-  "posted": "",
-  "salary": "",
-  "lang": "en",
-  "contact": "welcome@vesterling.com",
-  "direct_url": "https://www.linkedin.com/jobs/view/4470968045",
-  "email_subject": "Application: SAP CX Spezialist (Inhouse) – SAP Commerce Cloud & SAP ERP integration",
-  "email_body": "Dear Hiring Team,\n\nYour client needs an inhouse SAP CX specialist who links customer-facing SAP with the SAP backend – I have done that for 5+ years on SAP Commerce Cloud at Rockwell Automation and Shell.\n\n– Integrations between SAP Commerce, SAP ERP, MDM and PIM, including bottleneck analysis\n– Requirements, user stories, functional specs and UAT with business stakeholders\n– API migrations, release cycles and production support; SAP Certified Developer and Business User\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191"
- },
- "tailoring": {
-  "headline": "SAP CX Specialist | SAP Commerce Cloud · SAP ERP Integration · Techno-Functional",
-  "summary": "Techno-functional SAP CX specialist with 5+ years on SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell. Combines business requirements analysis, user stories, functional specifications and stakeholder management with hands-on delivery of integrations between SAP Commerce, SAP ERP, MDM and PIM. Coordinates with international technical teams, plans API migrations, supports UAT and production and mentors junior developers. Uses generative AI tools in analysis and documentation. SAP Certified Commerce Cloud Developer and Business User.",
-  "skills": {
-   "E-Commerce": [
-    "SAP Commerce Cloud (Hybris 2105 / 2211)",
-    "B2B / B2C Commerce",
-    "Headless Commerce",
-    "Product Catalog & PIM",
-    "Promotions Engine",
-    "Order Management (OMS)",
-    "Backoffice",
-    "Impex",
-    "Cronjobs"
-   ],
-   "APIs & Integration": [
-    "REST web services",
-    "OCC APIs",
-    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-    "DataHub",
-    "Hotfolders",
-    "file-based data pipelines",
-    "third-party integrations"
-   ],
-   "Backend": [
-    "Java (Core & J2EE)",
-    "Spring Boot",
-    "RESTful APIs",
-    "Microservices",
-    "Design Patterns",
-    "Data Modeling"
-   ],
-   "Business Analysis": [
-    "Techno-functional consulting",
-    "Requirements engineering",
-    "Business requirements analysis",
-    "User stories & acceptance criteria",
-    "Stakeholder management",
-    "Process mapping",
-    "Gap analysis",
-    "Functional specifications",
-    "User acceptance testing (UAT)",
-    "Solution design"
-   ],
-   "DevOps & Cloud": [
-    "CI/CD pipelines",
-    "Git",
-    "Jenkins",
-    "Docker",
-    "Kubernetes",
-    "SAP Commerce Cloud Portal (CCv2)",
-    "Hybris Admin Console (HAC)",
-    "production support and troubleshooting"
-   ],
-   "Databases & Search": [
-    "SQL",
-    "query optimization and performance tuning",
-    "FlexibleSearch",
-    "Apache Solr"
-   ],
-   "AI": [
-    "AI-assisted development",
-    "Generative AI / LLM tools",
-    "Prompt engineering",
-    "AI-assisted analysis and documentation"
-   ],
-   "Ways of Working": [
-    "Agile / Scrum",
-    "Jira",
-    "Confluence",
-    "Code Reviews",
-    "Technical Mentoring",
-    "International Teams"
-   ]
+  "job": {
+    "title": "SAP CX Spezialist | BW/4HANA, SAP BTP, SAP CRM, Projektleitung | Inhouse, bis 95.000 € (mwd)",
+    "company": "Vesterling AG",
+    "location": "Munich, Bavaria, Germany",
+    "url": "https://www.linkedin.com/jobs/view/4470968045",
+    "apply_url": "",
+    "score": 80,
+    "source": "Linkedin",
+    "posted": "",
+    "salary": "",
+    "lang": "en",
+    "contact": "welcome@vesterling.com",
+    "direct_url": "https://www.linkedin.com/jobs/view/4470968045",
+    "email_subject": "Application: SAP CX Spezialist (Inhouse) – SAP Commerce Cloud & SAP ERP integration",
+    "email_body": "Dear Hiring Team,\n\nYour client needs an inhouse SAP CX specialist who links customer-facing SAP with the SAP backend – I have done that for 5+ years on SAP Commerce Cloud at Rockwell Automation and Shell.\n\n– Integrations between SAP Commerce, SAP ERP, MDM and PIM, including bottleneck analysis\n– Requirements, user stories, functional specs and UAT with business stakeholders\n– API migrations, release cycles and production support; SAP Certified Developer and Business User\n\nI live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. My CV and cover letter are attached. My profile combines technical depth with close work alongside business teams, and I would bring exactly this experience to your team. Could we schedule a short call in the coming days?\n\nKind regards\nKranti Chavan\nhttps://www.linkedin.com/in/kranti-chavan-84a155191",
+    "channel": "linkedin_easy",
+    "form_url": "https://www.linkedin.com/jobs/view/4470968045",
+    "ats": "linkedin",
+    "needs_login": false,
+    "captcha": false,
+    "resolve_status": "ok"
   },
-  "bullet_order": {
-   "rockwell": [
-    6,
-    3,
-    2,
-    4,
-    7,
-    0,
-    1,
-    5
-   ],
-   "shell": [
-    6,
-    0,
-    1,
-    2,
-    4,
-    5,
-    3
-   ],
-   "cognizant": [
-    3,
-    2,
-    0,
-    1
-   ]
+  "tailoring": {
+    "headline": "SAP CX Specialist | SAP Commerce Cloud · SAP ERP Integration · Techno-Functional",
+    "summary": "Techno-functional SAP CX specialist with 5+ years on SAP Commerce Cloud (Hybris 2105 and 2211) for Rockwell Automation and Shell. Combines business requirements analysis, user stories, functional specifications and stakeholder management with hands-on delivery of integrations between SAP Commerce, SAP ERP, MDM and PIM. Coordinates with international technical teams, plans API migrations, supports UAT and production and mentors junior developers. Uses generative AI tools in analysis and documentation. SAP Certified Commerce Cloud Developer and Business User.",
+    "skills": {
+      "E-Commerce": [
+        "SAP Commerce Cloud (Hybris 2105 / 2211)",
+        "B2B / B2C Commerce",
+        "Headless Commerce",
+        "Product Catalog & PIM",
+        "Promotions Engine",
+        "Order Management (OMS)",
+        "Backoffice",
+        "Impex",
+        "Cronjobs"
+      ],
+      "APIs & Integration": [
+        "REST web services",
+        "OCC APIs",
+        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+        "DataHub",
+        "Hotfolders",
+        "file-based data pipelines",
+        "third-party integrations"
+      ],
+      "Backend": [
+        "Java (Core & J2EE)",
+        "Spring Boot",
+        "RESTful APIs",
+        "Microservices",
+        "Design Patterns",
+        "Data Modeling"
+      ],
+      "Business Analysis": [
+        "Techno-functional consulting",
+        "Requirements engineering",
+        "Business requirements analysis",
+        "User stories & acceptance criteria",
+        "Stakeholder management",
+        "Process mapping",
+        "Gap analysis",
+        "Functional specifications",
+        "User acceptance testing (UAT)",
+        "Solution design"
+      ],
+      "DevOps & Cloud": [
+        "CI/CD pipelines",
+        "Git",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "SAP Commerce Cloud Portal (CCv2)",
+        "Hybris Admin Console (HAC)",
+        "production support and troubleshooting"
+      ],
+      "Databases & Search": [
+        "SQL",
+        "query optimization and performance tuning",
+        "FlexibleSearch",
+        "Apache Solr"
+      ],
+      "AI": [
+        "AI-assisted development",
+        "Generative AI / LLM tools",
+        "Prompt engineering",
+        "AI-assisted analysis and documentation"
+      ],
+      "Ways of Working": [
+        "Agile / Scrum",
+        "Jira",
+        "Confluence",
+        "Code Reviews",
+        "Technical Mentoring",
+        "International Teams"
+      ]
+    },
+    "bullet_order": {
+      "rockwell": [
+        6,
+        3,
+        2,
+        4,
+        7,
+        0,
+        1,
+        5
+      ],
+      "shell": [
+        6,
+        0,
+        1,
+        2,
+        4,
+        5,
+        3
+      ],
+      "cognizant": [
+        3,
+        2,
+        0,
+        1
+      ]
+    },
+    "why_company": "This inhouse SAP CX role brings together customer experience, SAP CRM-side processes and the SAP backend – the techno-functional space where I have worked for over five years. Owning these topics inside one company, close to the business and with project responsibility, is exactly the next step I want to take.",
+    "linkedin_message": "Hello! I applied for the inhouse SAP CX Spezialist role: 5+ years SAP Commerce Cloud at Rockwell Automation and Shell, integration with SAP ERP/MDM/PIM, techno-functional with business teams, SAP certified. Karlsruhe, start 16.12.2026. Open to a short call?"
   },
-  "why_company": "This inhouse SAP CX role brings together customer experience, SAP CRM-side processes and the SAP backend – the techno-functional space where I have worked for over five years. Owning these topics inside one company, close to the business and with project responsibility, is exactly the next step I want to take.",
-  "linkedin_message": "Hello! I applied for the inhouse SAP CX Spezialist role: 5+ years SAP Commerce Cloud at Rockwell Automation and Shell, integration with SAP ERP/MDM/PIM, techno-functional with business teams, SAP certified. Karlsruhe, start 16.12.2026. Open to a short call?"
- },
- "letters": {
-  "en": {
-   "subject": "Application: SAP CX Spezialist – Inhouse",
-   "salutation": "Dear Hiring Team,",
-   "hook": "Your client is looking for an inhouse SAP CX specialist who connects customer-facing SAP solutions with the SAP backend and drives projects with the business. That is my daily work: for more than five years at Rockwell Automation and Shell I have delivered SAP Commerce Cloud solutions integrated with SAP ERP, MDM and PIM – working between business stakeholders and IT, as an SAP Certified Commerce Cloud Developer and Business User.",
-   "bullets": [
-    {
-     "label": "SAP CX expertise",
-     "text": "Designed and implemented product, catalog, pricing and customer data management on SAP Commerce Cloud (Hybris 2211); developed the Promotions Engine and Order Management (OMS) at Shell."
-    },
-    {
-     "label": "SAP integration landscape",
-     "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee and built PIM-to-Hybris data pipelines that keep product catalogs synchronized across global channels."
-    },
-    {
-     "label": "Project responsibility",
-     "text": "Planned and engineered API migrations for customer account structures, executed CI/CD deployment cycles and release builds, and supported production issues end to end."
-    },
-    {
-     "label": "Inhouse business partnering",
-     "text": "Analysed requirements with business stakeholders, wrote user stories and functional specifications, mapped processes with product owners and supported user acceptance testing (UAT)."
+  "letters": {
+    "en": {
+      "subject": "Application: SAP CX Spezialist – Inhouse",
+      "salutation": "Dear Hiring Team,",
+      "hook": "Your client is looking for an inhouse SAP CX specialist who connects customer-facing SAP solutions with the SAP backend and drives projects with the business. That is my daily work: for more than five years at Rockwell Automation and Shell I have delivered SAP Commerce Cloud solutions integrated with SAP ERP, MDM and PIM – working between business stakeholders and IT, as an SAP Certified Commerce Cloud Developer and Business User.",
+      "bullets": [
+        {
+          "label": "SAP CX expertise",
+          "text": "Designed and implemented product, catalog, pricing and customer data management on SAP Commerce Cloud (Hybris 2211); developed the Promotions Engine and Order Management (OMS) at Shell."
+        },
+        {
+          "label": "SAP integration landscape",
+          "text": "Investigated and resolved integration bottlenecks between SAP ERP, MDM and Profisee and built PIM-to-Hybris data pipelines that keep product catalogs synchronized across global channels."
+        },
+        {
+          "label": "Project responsibility",
+          "text": "Planned and engineered API migrations for customer account structures, executed CI/CD deployment cycles and release builds, and supported production issues end to end."
+        },
+        {
+          "label": "Inhouse business partnering",
+          "text": "Analysed requirements with business stakeholders, wrote user stories and functional specifications, mapped processes with product owners and supported user acceptance testing (UAT)."
+        }
+      ],
+      "gap": "",
+      "logistics": "An inhouse role, where I can own SAP CX topics long-term together with the business, is exactly the environment I am looking for. I live in Karlsruhe, hold a valid German work permit, am open to relocating for the right inhouse position and can start on 16 December 2026 after my notice period. I look forward to a conversation about how I can move your client's SAP CX landscape forward.",
+      "closing": "",
+      "contact": "Attn. Vesterling AG, Recruiting"
     }
-   ],
-   "gap": "",
-   "logistics": "An inhouse role, where I can own SAP CX topics long-term together with the business, is exactly the environment I am looking for. I live in Karlsruhe, hold a valid German work permit, am open to relocating for the right inhouse position and can start on 16 December 2026 after my notice period. I look forward to a conversation about how I can move your client's SAP CX landscape forward.",
-   "closing": "",
-   "contact": "Attn. Vesterling AG, Recruiting"
-  }
- },
- "lang": "en",
- "created": "2026-10-18"
+  },
+  "lang": "en",
+  "created": "2026-10-18"
 }
