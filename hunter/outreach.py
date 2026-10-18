@@ -204,13 +204,18 @@ def build_message(job, to, lang, letter, files, sender):
     msg = EmailMessage()
     msg["From"] = formataddr(("Kranti Chavan", sender))
     msg["To"] = to
-    msg["Subject"] = (f"Bewerbung als {clean_title(job['title'])} – Kranti Chavan" if lang == "de"
-                      else f"Application: {clean_title(job['title'])} – Kranti Chavan")
+    msg["Subject"] = job.get("email_subject") or (
+        f"Bewerbung als {clean_title(job['title'])} – Kranti Chavan" if lang == "de"
+        else f"Application: {clean_title(job['title'])} – Kranti Chavan")
     msg["Date"] = formatdate(localtime=True)
     msg["Message-ID"] = make_msgid(domain=sender.split("@")[1])
-    msg.set_content(compose_body(job, letter, lang))
-    names = ({"cv": "Kranti_Chavan_Lebenslauf.pdf", "cl": "Kranti_Chavan_Anschreiben.pdf"} if lang == "de"
-             else {"cv": "Kranti_Chavan_CV.pdf", "cl": "Kranti_Chavan_Cover_Letter.pdf"})
+    body = job.get("email_body")  # hand-tailored selling email, if the kit has one
+    if body:
+        c = contact_info()
+        body = body.rstrip() + f"\n{c['phone']} · {c['email']}\nlinkedin.com/in/kranti-chavan-84a155191\n"
+    msg.set_content(body or compose_body(job, letter, lang))
+    from .documents import file_name
+    names = {"cv": file_name("cv", job, lang), "cl": file_name("cl", job, lang)}
     for kind, path in files:
         msg.add_attachment(Path(path).read_bytes(), maintype="application", subtype="pdf", filename=names[kind])
     return msg

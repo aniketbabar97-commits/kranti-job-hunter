@@ -35,7 +35,7 @@ h2 { font-size: 11.5pt; font-weight: 700; color: #0b4f8a; text-transform: upperc
 .contact { font-size: 10pt; color: #374151; line-height: 1.42; }
 a { color: #0b4f8a; text-decoration: none; }
 p { margin: 0 0 5px 0; }
-.job { margin-bottom: 8px; }
+.job { margin-bottom: 8px; break-inside: avoid; }  /* title + bullets never split across pages */
 .job-title { font-weight: 700; color: #0f172a; font-size: 11pt; }
 .job-dates { font-weight: 700; color: #4b5563; font-size: 10pt; float: right; }
 .job-company { font-weight: 700; color: #0b4f8a; font-size: 10.3pt; margin-bottom: 1px; }
