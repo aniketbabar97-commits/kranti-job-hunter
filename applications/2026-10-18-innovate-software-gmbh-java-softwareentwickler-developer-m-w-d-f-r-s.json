@@ -1,0 +1,236 @@
+{
+ "job": {
+  "title": "Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)",
+  "company": "INNOVATE Software GmbH",
+  "location": "Wildberg, Württemberg, Baden-Wuerttemberg",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003338470-S",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "Arbeitsagentur",
+  "posted": "2026-10-10",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning. SAP Certified Commerce Cloud Developer with a valid German work permit.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "JUnit",
+    "Groovy",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs",
+    "Headless Commerce"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "DataHub",
+    "Hotfolders",
+    "PIM / ERP / MDM integration (Profisee",
+    "SAP ERP)",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "Technical Mentoring",
+    "International Teams",
+    "PI Planning"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    3,
+    5
+   ],
+   "cognizant": [
+    2,
+    0,
+    1,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "Java",
+   "Spring",
+   "SQL",
+   "SAP ERP",
+   "E-Commerce",
+   "Jira",
+   "Agile"
+  ],
+  "keywords_missing": [
+   "Angular",
+   "TypeScript",
+   "Node.js",
+   "SonarQube"
+  ],
+  "cover_en": {
+   "subject": "Application: Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in the Java Softwareentwickler role at INNOVATE Software GmbH. With over 5 years of professional experience building and supporting enterprise SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and database management.",
+   "bullets": [
+    {
+     "label": "Backend & SAP Systems",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
+    },
+    {
+     "label": "Data & API Integration",
+     "text": "Developed and exposed OCC REST Web Services and investigated integration bottlenecks between SAP ERP, MDM, and Profisee platforms."
+    },
+    {
+     "label": "Code Quality & Testing",
+     "text": "Built automated unit and integration test suites with JUnit to maintain code quality, and performed code reviews while supporting production issues."
+    },
+    {
+     "label": "Agile Collaboration",
+     "text": "Worked closely with international technical teams within Agile and Scrum frameworks, utilizing Jira and Confluence for project delivery."
+    }
+   ],
+   "gap": "While my core expertise is centered on backend Java and SAP Commerce development rather than frontend frameworks like Angular or Node.js, I am very keen to learn and expand my skill set in these areas.",
+   "logistics": "I am currently based in Karlsruhe with a valid German residence and work permit. I am serving my notice period with my last working day on 15.12.2026, and I am available to start on 16.12.2026. I would welcome the opportunity to discuss my application further in an interview.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "mit großem Interesse habe ich Ihre Ausschreibung für die Position als Java Softwareentwickler für SAP E-Commerce bei der INNOVATE Software GmbH gelesen. Als Backend-Entwicklerin mit über 5 Jahren Berufserfahrung in der Implementierung und Betreuung großer Enterprise-E-Commerce-Plattformen für Rockwell Automation und Shell bringe ich fundierte Kenntnisse in Java, Spring und Datenintegration mit.",
+   "bullets": [
+    {
+     "label": "Backend-Entwicklung",
+     "text": "Ich habe Backend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring entwickelt und dabei Plattform-Best-Practices angewendet."
+    },
+    {
+     "label": "Schnittstellen & Daten",
+     "text": "Ich entwickelte und exposierte OCC REST Web Services und optimierte PIM-zu-Hybris-Datenpipelines unter Verwendung von Profisee, Hotfolders und DataHub."
+    },
+    {
+     "label": "Codequalität & Tests",
+     "text": "Ich erstellte automatisierte Unit- und Integrationstests mit JUnit zur Sicherung der Codequalität und führte Code-Reviews durch."
+    },
+    {
+     "label": "Agile Zusammenarbeit",
+     "text": "Ich arbeitete eng mit internationalen Teams in agilen Umfeldern zusammen und unterstützte die Anforderungs- und Projektumsetzung."
+    }
+   ],
+   "gap": "Da mein Schwerpunkt im Backend und in der SAP Commerce Cloud liegt, bringe ich weniger praktische Erfahrung mit Front-End-Technologien wie Angular oder Node.js mit, bin jedoch hochmotiviert, mich in diesen Bereichen schnell einzuarbeiten.",
+   "logistics": "Ich verfüge über eine gültige deutsche Arbeits- und Aufenthaltserlaubnis und wohne in Karlsruhe. Mein letzter Arbeitstag im aktuellen Unternehmen ist der 15.12.2026, sodass ich ab dem 16.12.2026 für Sie tätig sein kann. Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+   "closing": ""
+  },
+  "why_company": "I am eager to join INNOVATE Software GmbH because of your specialized focus on SAP consulting and enterprise e-commerce solutions. Your commitment to combining strategic consulting with hands-on development in an international B2B environment aligns perfectly with my 5+ years of backend and SAP Commerce Cloud experience at Rockwell Automation and Shell.",
+  "motivation_short": "I want to contribute my 5+ years of SAP Commerce Cloud and Java backend expertise to INNOVATE Software GmbH to help build robust, high-performing e-commerce solutions for international clients.",
+  "linkedin_message": "Hello! I am an SAP Certified Commerce Cloud Developer with 5+ years of experience in Java, Spring, and enterprise e-commerce platforms. With my notice ending Dec 15, 2026, I am looking for my next role in Germany and would love to connect regarding your Java developer opening.",
+  "email_subject": "Application: Java Softwareentwickler – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the Java Softwareentwickler position at INNOVATE Software GmbH.\n\nWith over 5 years of professional experience in Java, Spring, and SAP Commerce Cloud (Hybris) development for major enterprise clients, I bring strong technical skills in backend implementation and API integration.\n\nI am based in Karlsruhe with a valid German work permit. My notice period ends on 15.12.2026, and I am available to start on 16.12.2026.\n\nBest regards,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in the Java Softwareentwickler role at INNOVATE Software GmbH. With over 5 years of professional experience building and supporting enterprise SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep backend expertise in Java, Spring, and database management.",
+   "bullets": [
+    {
+     "label": "Backend & SAP Systems",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management."
+    },
+    {
+     "label": "Data & API Integration",
+     "text": "Developed and exposed OCC REST Web Services and investigated integration bottlenecks between SAP ERP, MDM, and Profisee platforms."
+    },
+    {
+     "label": "Code Quality & Testing",
+     "text": "Built automated unit and integration test suites with JUnit to maintain code quality, and performed code reviews while supporting production issues."
+    },
+    {
+     "label": "Agile Collaboration",
+     "text": "Worked closely with international technical teams within Agile and Scrum frameworks, utilizing Jira and Confluence for project delivery."
+    }
+   ],
+   "gap": "While my core expertise is centered on backend Java and SAP Commerce development rather than frontend frameworks like Angular or Node.js, I am very keen to learn and expand my skill set in these areas.",
+   "logistics": "I am currently based in Karlsruhe with a valid German residence and work permit. I am serving my notice period with my last working day on 15.12.2026, and I am available to start on 16.12.2026. I would welcome the opportunity to discuss my application further in an interview.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "mit großem Interesse habe ich Ihre Ausschreibung für die Position als Java Softwareentwickler für SAP E-Commerce bei der INNOVATE Software GmbH gelesen. Als Backend-Entwicklerin mit über 5 Jahren Berufserfahrung in der Implementierung und Betreuung großer Enterprise-E-Commerce-Plattformen für Rockwell Automation und Shell bringe ich fundierte Kenntnisse in Java, Spring und Datenintegration mit.",
+   "bullets": [
+    {
+     "label": "Backend-Entwicklung",
+     "text": "Ich habe Backend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring entwickelt und dabei Plattform-Best-Practices angewendet."
+    },
+    {
+     "label": "Schnittstellen & Daten",
+     "text": "Ich entwickelte und exposierte OCC REST Web Services und optimierte PIM-zu-Hybris-Datenpipelines unter Verwendung von Profisee, Hotfolders und DataHub."
+    },
+    {
+     "label": "Codequalität & Tests",
+     "text": "Ich erstellte automatisierte Unit- und Integrationstests mit JUnit zur Sicherung der Codequalität und führte Code-Reviews durch."
+    },
+    {
+     "label": "Agile Zusammenarbeit",
+     "text": "Ich arbeitete eng mit internationalen Teams in agilen Umfeldern zusammen und unterstützte die Anforderungs- und Projektumsetzung."
+    }
+   ],
+   "gap": "Da mein Schwerpunkt im Backend und in der SAP Commerce Cloud liegt, bringe ich weniger praktische Erfahrung mit Front-End-Technologien wie Angular oder Node.js mit, bin jedoch hochmotiviert, mich in diesen Bereichen schnell einzuarbeiten.",
+   "logistics": "Ich verfüge über eine gültige deutsche Arbeits- und Aufenthaltserlaubnis und wohne in Karlsruhe. Mein letzter Arbeitstag im aktuellen Unternehmen ist der 15.12.2026, sodass ich ab dem 16.12.2026 für Sie tätig sein kann. Über eine Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-18"
+}
