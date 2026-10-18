@@ -136,6 +136,8 @@ def main():
         kit.make_kits(jobs, cv)
 
     made = outreach.prepare(jobs, cfg) if not os.getenv("DRY_RUN") else []
+    if not os.getenv("DRY_RUN"):  # strong jobs from earlier digests that still have no application
+        made += outreach.backfill(cfg)[0]
     ledger = outreach.load()
 
     label = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%a %d %b %Y, %H:%M")
