@@ -36,6 +36,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 5. K4S GmbH — SAP CX Consultant (m/w/d) | 100% Remote/ Hybrid
 - **Score:** 92 · **Language:** German · **Job ID:** https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957128169-S
+- **Direct apply:** https://www.remotely.de/job/k4s-gmbh-sap-cx-consultant-mwd-100-remote-hybrid-crm-consultant
 - **Link:** https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957128169-S
 - **Original posting:** https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4957128169-S
 - **Files:** `Kranti_Chavan_Lebenslauf_K4S_SAP-CX-Consultant-100-Remote-Hybrid.pdf` + `Kranti_Chavan_Anschreiben_K4S_SAP-CX-Consultant-100-Remote-Hybrid.pdf`
@@ -52,6 +53,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 7. Sanmaremployeeopenings — Associate Software Developer
 - **Score:** 85 · **Language:** English · **Job ID:** https://job-boards.greenhouse.io/sanmaremployeeopenings/jobs/5254348007
+- **Status:** probably CLOSED (posting gone) — check once, then report CLOSED
 - **Link:** https://job-boards.greenhouse.io/sanmaremployeeopenings/jobs/5254348007
 - **Original posting:** https://job-boards.greenhouse.io/sanmaremployeeopenings/jobs/5254348007
 - **Files:** `Kranti_Chavan_CV_Sanmaremployeeopenings_Associate-Software-Developer.pdf` + `Kranti_Chavan_Cover_Letter_Sanmaremployeeopenings_Associate-Software-Developer.pdf`
@@ -84,6 +86,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 11. INNOVATE Software GmbH — (Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP) (m/w/d)
 - **Score:** 85 · **Language:** German · **Job ID:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003338525-S
+- **Direct apply:** https://www.innovate-gmbh.de/de/karriere/alle-stellenangebote/festanstellung/senior-softwareentwickler-sap-ecommerce-java-abap-mwd
 - **Link:** https://www.innovate-gmbh.de/de/karriere/alle-stellenangebote/festanstellung/senior-softwareentwickler-sap-ecommerce-java-abap-mwd
 - **Original posting:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003338525-S
 - **Files:** `Kranti_Chavan_Lebenslauf_INNOVATE-Software_Softwareentwickler-Developer-für-SAP-E-Commerce.pdf` + `Kranti_Chavan_Anschreiben_INNOVATE-Software_Softwareentwickler-Developer-für-SAP-E-Commerce.pdf`
@@ -92,6 +95,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 12. INNOVATE Software GmbH — Java Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (m/w/d)
 - **Score:** 85 · **Language:** German · **Job ID:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003338470-S
+- **Direct apply:** https://www.innovate-gmbh.de/de/karriere/alle-stellenangebote/festanstellung/java-softwareentwickler-sap-ecommerce-mwd
 - **Link:** https://www.stepstone.de/cmp/de/innovate-software-gmbh-5002214/jobs
 - **Original posting:** https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003338470-S
 - **Files:** `Kranti_Chavan_Lebenslauf_INNOVATE-Software_Java-Softwareentwickler-Developer-für-SAP-E.pdf` + `Kranti_Chavan_Anschreiben_INNOVATE-Software_Java-Softwareentwickler-Developer-für-SAP-E.pdf`
@@ -100,6 +104,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 13. hmmh — Java Developer | SAP Commerce (m/w/d)
 - **Score:** 85 · **Language:** English · **Job ID:** https://hmmh.jobs.personio.de/job/2573113
+- **Direct apply:** https://hmmh.jobs.personio.de/job/2573113
 - **Link:** https://hmmh.jobs.personio.de/job/2573113
 - **Original posting:** https://hmmh.jobs.personio.de/job/2573113
 - **Files:** `Kranti_Chavan_CV_hmmh_Java-Developer-SAP-Commerce.pdf` + `Kranti_Chavan_Cover_Letter_hmmh_Java-Developer-SAP-Commerce.pdf`
@@ -108,6 +113,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 14. hmmh AG — Senior Consultant/Architect | SAP CX (m/w/d)
 - **Score:** 85 · **Language:** German · **Job ID:** https://www.linkedin.com/jobs/view/4479798782
+- **Direct apply:** https://hmmh.jobs.personio.de/job/2619229
 - **Link:** https://hmmh.jobs.personio.de/job/2619229
 - **Original posting:** https://www.linkedin.com/jobs/view/4479798782
 - **Files:** `Kranti_Chavan_Lebenslauf_hmmh_Senior-Consultant-Architect-SAP-CX.pdf` + `Kranti_Chavan_Anschreiben_hmmh_Senior-Consultant-Architect-SAP-CX.pdf`
@@ -140,6 +146,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 18. CANCOM SE — Developer SAP Commerce (m/w/d)
 - **Score:** 85 · **Language:** German · **Job ID:** https://www.arbeitsagentur.de/jobsuche/jobdetail/18935-2115497-S
+- **Direct apply:** https://www.arbeitsagentur.de/jobsuche/jobdetail/18935-2115497-S
 - **Link:** https://www.cancom.com/karriere
 - **Original posting:** https://www.arbeitsagentur.de/jobsuche/jobdetail/18935-2115497-S
 - **Files:** `Kranti_Chavan_Lebenslauf_CANCOM_Developer-SAP-Commerce.pdf` + `Kranti_Chavan_Anschreiben_CANCOM_Developer-SAP-Commerce.pdf`
@@ -164,6 +171,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 21. pathway solutions — Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU
 - **Score:** 82 · **Language:** English · **Job ID:** https://www.linkedin.com/jobs/view/4474072236
+- **Direct apply:** https://join.com/companies/pathway-solutions550/16793888-senior-java-developer-e-commerce-accounting-and-marketplaces-remote-in-eu
 - **Link:** https://join.com/companies/pathway-solutions550/16793888-senior-java-developer-e-commerce-accounting-and-marketplaces-remote-in-eu
 - **Original posting:** https://www.linkedin.com/jobs/view/4474072236
 - **Files:** `Kranti_Chavan_CV_pathway-solutions_Senior-Java-Developer-E-Commerce-Accounting.pdf` + `Kranti_Chavan_Cover_Letter_pathway-solutions_Senior-Java-Developer-E-Commerce-Accounting.pdf`
@@ -236,6 +244,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 30. dormakaba — Frontend Engineer - SAP Commerce Cloud
 - **Score:** 80 · **Language:** English · **Job ID:** https://www.linkedin.com/jobs/view/4457486010
+- **Direct apply:** https://jobs.dormakaba.com/job/Frontend-Engineer-SAP-Commerce-Cloud/12180-en_US/ — job is in Sofia (Bulgaria): SKIP
 - **Link:** https://jobs.dormakaba.com/job/Frontend-Engineer-SAP-Commerce-Cloud/12180-en_US/
 - **Original posting:** https://www.linkedin.com/jobs/view/4457486010
 - **Files:** `Kranti_Chavan_CV_dormakaba_Frontend-Engineer-SAP-Commerce-Cloud.pdf` + `Kranti_Chavan_Cover_Letter_dormakaba_Frontend-Engineer-SAP-Commerce-Cloud.pdf`
@@ -244,6 +253,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 31. dormakaba — Backend Engineer - SAP Commerce Cloud
 - **Score:** 80 · **Language:** English · **Job ID:** https://www.linkedin.com/jobs/view/4457102857
+- **Direct apply:** https://jobs.dormakaba.com/job/Backend-Engineer-SAP-Commerce-Cloud/12177-en_US/ — job is in Sofia (Bulgaria): SKIP
 - **Link:** https://www.dormakaba.com/careers
 - **Original posting:** https://www.linkedin.com/jobs/view/4457102857
 - **Files:** `Kranti_Chavan_CV_dormakaba_Backend-Engineer-SAP-Commerce-Cloud.pdf` + `Kranti_Chavan_Cover_Letter_dormakaba_Backend-Engineer-SAP-Commerce-Cloud.pdf`
@@ -316,6 +326,7 @@ Each job: open **Link** → reach the employer's own application form → fill w
 
 ## 40. Detlev Louis — Software Developer PHP (m/w/d) - E-Commerce & Spryker in Hamburg, Hamburg Zentrale
 - **Score:** 78 · **Language:** German · **Job ID:** https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2023692-S
+- **Direct apply:** https://jobs.louis.de/Software-Developer-PHP-mwd-E-Commerce-Spryker-in-Hamburg-de-j1266.html
 - **Link:** https://jobs.louis.de/Software-Developer-PHP-mwd-E-Commerce-Spryker-in-Hamburg-de-j1266.html
 - **Original posting:** https://www.arbeitsagentur.de/jobsuche/jobdetail/12811-2023692-S
 - **Files:** `Kranti_Chavan_Lebenslauf_Detlev-Louis_Software-Developer-PHP-E-Commerce-Spryker-in.pdf` + `Kranti_Chavan_Anschreiben_Detlev-Louis_Software-Developer-PHP-E-Commerce-Spryker-in.pdf`

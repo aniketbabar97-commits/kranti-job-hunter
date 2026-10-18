@@ -6,41 +6,48 @@
 Expand-Archive "$HOME\Downloads\Kranti_Applications_166.zip" C:\Kranti\unzip -Force; mkdir C:\Kranti\pdfs -Force; Get-ChildItem C:\Kranti\unzip -Recurse -Filter *.pdf | Copy-Item -Destination C:\Kranti\pdfs -Force
 ```
 
-Paste everything between the lines into Claude in Chrome. Change `JOBS 2-21` for the next batch (20 jobs).
+Paste everything between the lines into Claude in Chrome (replace <EMAIL> and <PHONE> with hers). Change `JOBS 2-21` for the next batch (20 jobs).
 It never waits for you: blocked jobs are parked, and all questions come together at the end. Done: #1 Maify.
 
 ---
-Apply for Kranti Chavan to JOBS 2-21 of https://github.com/aniketbabar97-commits/kranti-job-hunter/blob/main/helper/CLAUDE_CHROME_LIST.md
-Read only those job blocks. Be brief: no explanations, no screenshots unless stuck. NEVER wait for me during the batch: anything needing me → park the job (leave its tab open), note why, go on with the next job.
+Apply for Kranti Chavan to JOBS 2-21 of https://github.com/aniketbabar97-commits/kranti-job-hunter/blob/main/helper/CLAUDE_CHROME_LIST.md (read only those blocks).
+Work alone: NEVER wait for me. Anything needing me → park it (tab open), go on. Max 4 min per job. No explanations, no screenshots unless stuck.
 
-Candidate: Kranti Chavan, Frau (salutation; if only neutral wanted: "Ohne/keine Angabe"), Karlsruhe, Germany.
-Email + phone: take them from the CV PDF header. LinkedIn: https://www.linkedin.com/in/kranti-chavan-84a155191
-Work permit: yes (valid). Notice: serving, earliest start 16.12.2026. Salary + "Why us": from the job block.
-Files: you cannot open the Windows file dialog. Fill the whole form, leave the upload fields and the final Submit for me, keep the tab open, and list the job under UPLOAD with the two file names (they are in C:\Kranti\pdfs). I attach and submit all of them together at the end.
+CANDIDATE: Frau Kranti Chavan · <EMAIL> · <PHONE> · Karlsruhe, Germany · LinkedIn https://www.linkedin.com/in/kranti-chavan-84a155191
+Work permit: valid German residence + work permit, no sponsorship · Notice: last day 15.12.2026, start 16.12.2026
+Languages: English C2, German B1 (never higher), Hindi + Marathi native · Education: B.E. Computer Engineering/IT, Savitribai Phule Pune University, 2020
+Experience: 5+ years SAP Commerce Cloud/Hybris, Java, Spring, OCC/REST, PIM/ERP integrations, techno-functional/BA, AI tools
+Driving licence: no · Travel: yes, up to 50 % · Hybrid/remote/relocation in Germany: yes · Salary + "Why us": from the job block
 
-Be smart and decide yourself — act like an experienced applicant applying for her:
-- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: B1 (never higher); English: C2 / fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 50 %; driving licence: answer "no" truthfully — never claim one, and if it is a hard requirement still apply).
-- Dropdowns/ratings → pick the strongest truthful option. Free text required with no data → 1–2 short selling sentences from "Why us".
-- Several similar positions → pick the one closest to the job title. Ugly or multi-step portal → push through.
-- Ask me ONLY for: passwords, CAPTCHAs, verification codes, or a legal declaration you cannot know (e.g. criminal record, previous employment at this company). Everything else: decide and continue.
+FIND THE FORM (smart, in this order, stop at the first that works):
+1. "Direct apply" link in the block (if present), else "Link".
+2. LinkedIn / job board → click "Apply" / "Apply on company website" / "Bewerben" and follow it.
+3. Company careers page → use its job search for 2–3 key words of the title (e.g. "SAP Commerce", "Hybris", "SAP CX").
+4. Google: "<company> <job title> bewerben" — take the company's own page or its ATS (personio, softgarden, join.com, smartrecruiters, workday, successfactors, greenhouse, lever, recruitee).
+5. Recruiting agency (Ratbacher, K4S, Hays, Workwise, …) → apply on the agency's own job page; that counts.
+6. Same company has a near-identical role → apply to that one and say so.
+Only if all fail → CLOSED.
 
-Per job:
-1. Open Link. Find the matching position on the employer's own career page (search the title). If the job is gone, try the Original posting's apply button; else report CLOSED.
-2. Prefer "apply without account"/quick apply. If an account is needed: register with her email, password needed → park as ACCOUNT (never invent or store a password).
-3. Fill every required field; optional fields only if the data is above. Upload CV + Anschreiben/Cover letter. Motivation field → "Why us". Language of answers = language of the posting.
-4. Only a contact form, no upload → message = "Why us" + "Lebenslauf und Anschreiben sende ich Ihnen zusätzlich per E-Mail." (EN: "I am sending my CV and cover letter by email as well.") and report NOUPLOAD.
-5. Tick only mandatory consent boxes (privacy). Never tick newsletter/talent pool unless required.
-6. CAPTCHA, verification code, password → park the job (tab open, form filled as far as possible), continue. Max 3 min per job.
-7. No upload needed (or files already attached) → Submit and wait for the confirmation text. Otherwise → UPLOAD list.
+FILL:
+- Every required field; answers in the form's language; motivation/message/cover-letter text box → "Why us".
+- Unknown questions → decide yourself from the data above, in her favour but true. Dropdowns → strongest true option. Free text with no data → 1–2 selling sentences from "Why us".
+- Salutation: Frau. Gender/birth date/nationality only if required: gender female; otherwise leave empty.
+- Consent: only mandatory privacy boxes; no newsletter/talent pool unless required.
+- Account required → register with <EMAIL>; when it asks for the password → park as ACCOUNT (I type it).
+- CAPTCHA / emailed code → park as CODE.
+- Uploads: you can't use the Windows file dialog. Fill everything else, leave the tab open → park as UPLOAD (I attach the two files from C:\Kranti\pdfs and submit).
+- Form without any upload (contact form) → message = "Why us" + "Lebenslauf und Anschreiben sende ich Ihnen zusätzlich per E-Mail." (EN: "My CV and cover letter follow by email.") → submit → NOUPLOAD.
+- No upload required at all → submit, wait for the confirmation → OK.
 
-At the end:
-A) QUESTIONS — one numbered list of everything parked, each: `<n> <Company>: <what you need from me>`. After I answer, finish those jobs in their open tabs.
-B) Then print ONLY these lines (one per job), so I can paste them into APPLIED.md:
-- 2026-MM-DD <Original posting URL> (<Company>, website via Claude – OK|NOUPLOAD)  ← ONLY for jobs really submitted (confirmation seen). UPLOAD jobs: I add the line after I submit.
-For failures instead: `SKIP <n> <Company>: CLOSED|CAPTCHA|ERROR <5 words>`
+FINAL REPORT (only this):
+A) TO DO FOR ME — one line per parked tab: `<n> <Company> · UPLOAD|ACCOUNT|CODE · <file names or what's needed>`
+B) DONE — only jobs with a confirmation seen:
+- 2026-MM-DD <Original posting URL> (<Company>, website via Claude – OK|NOUPLOAD)
+C) CLOSED — `<n> <Company>: <5 words>`
 ---
 
 ## After the batch
 
-1. Paste the `- 2026…` lines under "## My applications" in `APPLIED.md` on GitHub (pencil icon).
-2. That's it: the next run (11:00 / 17:00 IST) emails HR **only for jobs logged here** — website first, email after.
+1. Do list A in the open tabs (attach files / password / code → Submit). Then add a `- 2026-MM-DD <Original posting URL> (<Company>, website via Claude – OK)` line for each.
+2. Paste all B lines (and yours) under "## My applications" in `APPLIED.md` on GitHub.
+3. The next run (11:00 / 17:00 IST) emails HR **only for jobs logged there** — website first, email after.
