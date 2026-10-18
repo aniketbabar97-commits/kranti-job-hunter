@@ -1239,6 +1239,7 @@ def json_feed(url, company, query=None):
     def pick(o, keys):
         for k in keys:
             v = o.get(k)
+            v = v.get("rendered") if isinstance(v, dict) else v  # WordPress REST: {"title": {"rendered": ...}}
             if isinstance(v, str) and v.strip():
                 return v.strip()
         return ""
@@ -1264,11 +1265,13 @@ def json_feed(url, company, query=None):
 
 
 def sitemap_feed(slug_or_url, company, query=None):
-    """Job URLs from an XML sitemap: 'sitemap_url|regex' (regex picks job URLs; default /job|stelle|karriere/).
-    Title from the URL slug; numeric-only slugs get the page <title> (first 60)."""
+    """Job URLs from an XML sitemap: 'sitemap_url|regex[|fetch]' (regex picks job URLs; default /job|stelle|karriere/).
+    Title from the URL slug; id-only/'fetch' entries get the page <title> (first 80)."""
     from urllib.parse import unquote
-    sm, _, rx = slug_or_url.partition("|")
+    sm, _, rest = slug_or_url.partition("|")
+    rx, _, mode = rest.partition("|")
     rx = re.compile(rx or r"/(jobs?|stellen\w*|karriere|career)/[^/]+/?", re.I)
+    idlike = re.compile(r"^(\d+|[0-9a-f]{8}-[0-9a-f-]{27,}|[0-9a-f]{16,})$", re.I)
     maps, out = [sm], []
     for m in maps[:20]:
         for link in re.findall(r"<loc>\s*([^<]+?)\s*</loc>", _get(m).text):
@@ -1276,15 +1279,16 @@ def sitemap_feed(slug_or_url, company, query=None):
             if re.search(r"\.xml(\?|$)", link):
                 maps.append(link)
             elif rx.search(link):
-                parts = [x for x in link.rstrip("/").split("/") if x]
-                slug = next((x for x in reversed(parts) if not x.isdigit()), "") if not parts[-1].isdigit() or len(parts) > 3 else ""
+                parts = [x for x in link.split("?")[0].rstrip("/").split("/")[3:] if x]
+                slug = next((x for x in reversed(parts) if not idlike.match(x)), "")
                 title = unquote(slug).replace("-", " ").strip()
-                if (not title or title.lower() in ("career", "karriere", "jobs", "job")) and len(out) < 60:
+                if (mode == "fetch" or not title or title.lower() in ("career", "karriere", "jobs", "job", "offer")) \
+                        and len(out) < 80:
                     try:
                         t = re.search(r"<title[^>]*>([^<]+)", _get(link).text)
-                        title = re.split(r"\s+[|\u2013-]\s+", t.group(1).strip())[0] if t else ""
+                        title = re.split(r"\s+[|\u2013-]\s+", t.group(1).strip())[0] if t else title
                     except Exception:  # noqa: BLE001
-                        title = ""
+                        pass
                 out.append(_job(f"{company} careers", title, company, "", link, "", "remote" in title.lower(), ""))
     return _q(out, query)
 

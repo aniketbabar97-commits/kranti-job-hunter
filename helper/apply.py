@@ -614,8 +614,298 @@ def log_applied(kit, ats="own", page=None, proof_seen=True, mode="auto"):
     return state
 
 
+CLOSED_TEXT = re.compile(r"no longer (available|accepting|active|open)|nicht mehr (verfügbar|aktiv|online|ausgeschrieben)|"
+                         r"(stelle|position|anzeige|stellenanzeige|job) (ist |wurde )?(bereits )?(besetzt|geschlossen|deaktiviert)|"
+                         r"job (has been |is )?(closed|expired|filled)|position has been filled|has expired|abgelaufen|"
+                         r"seite (wurde )?nicht gefunden|page (was )?not found|\b404\b.{0,40}(not found|nicht gefunden)|"
+                         r"job (is )?not (found|available)|stellenangebot existiert nicht", re.I)
+
+
+def page_closed(page):
+    try:
+        return CLOSED_TEXT.search(page.inner_text("body", timeout=1500)[:6000]) is not None
+    except Exception:
+        return False
+
+
+def run_job(ctx, kit, n, total, parked, rec=None):
+    """One job, start to end (the loop start.bat runs). rec: DRY_RUN record dict (filled in place).
+    Returns 'next' or 'quit'."""
+    import time
+    from helper import sites, trust
+    rec = rec if rec is not None else {}
+    j = kit["job"]
+    print("=" * 70)
+    print(f"[{n}/{total}]  score {j['score']}  {j['title']}\n           {j['company']} · {j['location']}")
+    cv, letter, text, lang = build_pdfs(kit)
+    page = ctx.new_page()
+    start = j.get("direct_url") or j.get("apply_url") or j["url"]
+    rec.update(start_url=start, reached_form=False, filled=0, uploads=[], unanswered=[], problems=[], steps=0,
+               notes=[], outcome=None)
+    try:
+        page.goto(start, timeout=60000)
+    except Exception as ex:
+        print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
+        rec["notes"].append(f"goto failed: {str(ex)[:100]}")
+    page.wait_for_timeout(2500)
+    accept_cookies(page)
+    site = sites.detect(page.url, page)
+    rec["ats"] = site.name
+    print(f"   ATS: {site.name}")
+    already = confirmed(ctx, site)  # a thank-you text on the job page itself must not count
+    if site.already_applied(page):
+        print("   already applied here earlier → logged, next job")
+        rec["outcome"] = "ALREADY_APPLIED"
+        if not DRY_RUN:
+            log_applied(kit, site.name, page, False, "auto")
+        return "next"
+    if site.name == "own" and not site.has_form(page):  # generic careers page: search the job there first
+        from helper.sites.own import find_job
+        try:
+            page, found, note = find_job(page, j["title"], j.get("company", ""))
+            print(f"   job search on the careers page: {note}")
+            rec["notes"].append("find_job: " + note)
+            site = sites.detect(page.url, page)
+            rec["ats"] = site.name
+        except Exception as ex:
+            print(f"   job search on the careers page failed ({ex})")
+            rec["notes"].append(f"find_job failed: {str(ex)[:100]}")
+    try:
+        rec["reached_form"] = bool(site.open_form(page))
+    except Exception as ex:
+        print(f"   could not reach the form by itself ({ex}); click Apply yourself")
+        rec["notes"].append(f"open_form failed: {str(ex)[:100]}")
+    print("   AUTO: filling + uploading" + (" and submitting" if AUTO else ". Check and click Submit") + ".  keys: f a s q")
+    seen, last_fill, nxt, uploads, tries, steps = {}, 0.0, None, {}, 0, 0
+    ats = trust.detect(ctx.pages[-1].url or j["url"])
+    if ats == "own" and site.name != "own":
+        ats = site.name
+    assisted = trust.mode(ats) == trust.ASSISTED and not DRY_RUN  # first job per ATS: fill, stop at Submit, she clicks
+    if AUTO and assisted:
+        print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")
+    while nxt is None:
+        active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
+        if active is not page and site.name == "own":
+            site = sites.detect(active.url, active)  # the form opened in a new tab on another host
+            rec["ats"] = site.name
+        try:
+            sig = (active.url, len(active.frames), active.locator("input, textarea, select").count())
+        except Exception:
+            sig = None
+        key = "" if DRY_RUN else key_pressed()
+        if key == "f" or (sig and seen.get(id(active)) != sig and time.time() - last_fill > 2):
+            seen[id(active)] = sig
+            last_fill = time.time()
+            accept_cookies(active)
+            filled, unknown = site.fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
+            tick_consent(active)
+            rec["filled"] += len([x for x in filled if not x.startswith("upload")])
+            rec["uploads"] += [x[7:] for x in filled if x.startswith("upload")]
+            rec["unanswered"] = sorted(set(rec["unanswered"]) | set(unknown))
+            if filled and not rec["reached_form"] and site.has_form(active):
+                rec["reached_form"] = True
+            if filled or key == "f":
+                print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
+                for x in unknown:  # no fixed answer in profile/facts.yaml -> logged in helper/questions.txt
+                    print(f"     ✗ no answer known (see helper/questions.txt): {x}")
+        if AUTO and not assisted and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
+            tries += 1
+            ats = trust.detect(active.url) if trust.detect(active.url) != "own" else ats
+            tick_consent(active)
+            files_here = active.query_selector("input[type=file]") is not None
+            why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
+            rec["problems"] = why
+            if why:
+                if tries >= 3:
+                    parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
+                    print("   ⏸ parked for you: " + ", ".join(why[:3]))
+                    nxt = "next"
+                    continue
+            elif (btn := site.find_button(active, site.rx("submit"))) is not None:
+                if DRY_RUN:
+                    try:
+                        label = (btn.inner_text(timeout=500) or btn.get_attribute("value") or "").strip()
+                    except Exception:
+                        label = "?"
+                    print(f"   DRY_RUN: would submit ('{label[:30]}')")
+                    rec["notes"].append(f"would submit: {label[:30]}")
+                    rec["outcome"] = "WOULD_SUBMIT"
+                    nxt = "next"
+                    continue
+                try:
+                    btn.click(timeout=5000)
+                    clicked = True
+                except Exception:
+                    clicked = False
+                if clicked:
+                    print("   → clicked submit")
+                    active.wait_for_timeout(5000)
+                    seen.pop(id(active), None)
+            elif steps < 8 and site.click_next(active):  # multi-step form: next page, re-fill
+                steps, tries = steps + 1, 0
+                rec["steps"] = steps
+                print("   → next step")
+                active.wait_for_timeout(3500)
+                seen.pop(id(active), None)
+        if DRY_RUN and nxt is None and tries >= 4:
+            nxt = "next"  # nothing left to do on this page: no problem, no Submit, no Next
+            rec["notes"].append("no submit/next button found")
+            continue
+        if key == "a" or (last_fill and not already and confirmed(ctx, site)):
+            if DRY_RUN:
+                rec["notes"].append("confirmation text seen without submitting")
+                nxt = "next"
+                continue
+            seen_page = not already and confirmed(ctx, site)
+            state = log_applied(kit, ats, active, seen_page, "assisted" if assisted else "auto")
+            print("   ✅ confirmation page seen → logged as applied (screenshot in out/proof), next job" if state == "confirmed"
+                  else "   ⏳ no confirmation page → pending; the hunter confirms it from the receipt mail (or asks you to check)")
+            nxt = "next"
+        elif key == "s":
+            with open(SKIPPED, "a", encoding="utf-8") as f:
+                f.write(j["url"] + "\n")
+            nxt = "next"
+        elif key == "q":
+            return "quit"
+        else:
+            time.sleep(1)
+    try:
+        active = ctx.pages[-1]
+        rec["final_url"] = active.url
+        if rec["outcome"] is None:
+            rec["outcome"] = classify(rec, active)
+    except Exception:
+        pass
+    if not DRY_RUN:
+        for p in ctx.pages[:-1] if len(ctx.pages) > 1 else []:
+            p.close()
+    return "next"
+
+
+def classify(rec, page):
+    why = " ".join(rec["problems"])
+    if "CAPTCHA" in why:
+        return "PARK_CAPTCHA"
+    if "account/password" in why or any("would create account" in x for x in rec["notes"]):
+        return "PARK_ACCOUNT"
+    if rec["problems"]:
+        return "PARK_QUESTION"
+    if page_closed(page):
+        return "CLOSED"
+    if not rec["reached_form"] and not rec["filled"]:
+        return "NO_FORM"
+    return "PARK_QUESTION"
+
+
+# ---------------------------------------------------------------------- DRY RUN (DRY_RUN=1)
+DRY_RUN = os.environ.get("DRY_RUN") == "1"
+DRY_OUT = Path(os.environ.get("DRY_OUT", "/tmp/claude-0/s/batch/dryrun.jsonl"))
+DRY_NOTES = []  # "would create account at <site>" etc., collected by the patched side-effects
+
+
+def dry_patch():
+    """Every side effect becomes a no-op: no vault account, no Gmail polling, no APPLIED.md/submissions/trust/proof,
+    no questions/answers log. PDFs: the test pair (TEST_CV / TEST_CL)."""
+    import tempfile
+    from helper import answers as _answers, ai_answer, mailcodes, proof, trust, vault
+    from helper.sites import base
+    tmp = Path(tempfile.mkdtemp(prefix="dryrun-"))
+    _answers.QUESTIONS = tmp / "questions.txt"
+    ai_answer.LOG = tmp / "answers.txt"
+    os.environ["VAULT_KEY"] = "dry-run-only"
+    vault.VAULT = tmp / "vault.enc"
+    vault.get = lambda site: None
+
+    def no_vault_set(site, email, password):
+        DRY_NOTES.append(f"would create account at {site}")
+        raise RuntimeError(f"DRY_RUN: would create account at {site}")
+    vault.set = no_vault_set
+    mailcodes._poll = lambda *a, **k: None
+    proof.log_submission = lambda *a, **k: "dry"
+    trust.record = lambda *a, **k: None
+    from helper.sites import all_sites
+    for s in all_sites():
+        if hasattr(s, "ensure_account"):
+            def ensure(page, _s=s):
+                host = page.url.split("://", 1)[-1].split("/", 1)[0]
+                DRY_NOTES.append(f"would create account at {host}")
+                return False
+            s.ensure_account = ensure
+    global build_pdfs
+    build_pdfs = lambda kit: (base.TEST_CV, base.TEST_CL, letter_text(
+        kit["letters"].get(kit.get("lang")) or next(iter(kit["letters"].values())), kit.get("lang") or "en"),
+        kit.get("lang") if kit.get("lang") in kit["letters"] else next(iter(kit["letters"])))
+
+
+def dry_one(args):
+    """Worker process: own headless browser, one job, hard timeout. Returns the record."""
+    n, total, kit, timeout = args
+    import signal
+    import time
+    global AUTO
+    AUTO = True
+    dry_patch()
+    j = kit["job"]
+    rec = {"n": n, "company": j.get("company"), "title": j.get("title"), "channel": j.get("channel", ""), "ats": None}
+    t0 = time.time()
+
+    def boom(*_):
+        raise TimeoutError(f"job timeout {timeout}s")
+    signal.signal(signal.SIGALRM, boom)
+    signal.alarm(timeout)
+    from playwright.sync_api import sync_playwright
+    try:
+        with sync_playwright() as pw:
+            b = pw.chromium.launch(executable_path=os.environ.get("PW_CHROMIUM", "/opt/pw-browsers/chromium"), headless=True)
+            ctx = b.new_context(viewport={"width": 1366, "height": 900}, locale="de-DE", accept_downloads=True)
+            try:
+                run_job(ctx, kit, n, total, [], rec)
+                if rec.get("outcome") is None:
+                    rec["outcome"] = classify(rec, ctx.pages[-1])
+            finally:
+                try:
+                    rec.setdefault("final_url", ctx.pages[-1].url)
+                except Exception:
+                    pass
+                signal.alarm(0)
+                try:
+                    b.close()
+                except Exception:
+                    pass
+    except Exception as ex:
+        rec["error"] = f"{type(ex).__name__}: {str(ex)[:200]}"
+        if rec.get("outcome") is None:
+            rec["outcome"] = "ERROR"
+    signal.alarm(0)
+    rec["notes"] = rec.get("notes", []) + DRY_NOTES
+    if any("would create account" in x for x in DRY_NOTES) and rec["outcome"] in ("NO_FORM", "PARK_QUESTION", "ERROR"):
+        rec["outcome"] = "PARK_ACCOUNT"
+    rec["seconds"] = round(time.time() - t0)
+    return rec
+
+
+def dry_main(only=None, workers=4, timeout=240):
+    """DRY_RUN=1 python -m helper.apply [n ...]: the whole queue (or jobs n...), 4 browsers in parallel."""
+    import multiprocessing as mp
+    os.environ.setdefault("CANDIDATE_EMAIL", "test@example.com")
+    os.environ.setdefault("CANDIDATE_PHONE", "+49 000 0000000")
+    for k in ("GEMINI_API_KEY", "GROQ_API_KEY"):
+        os.environ.pop(k, None)
+    kits = queue()
+    jobs = [(n, len(kits), k, timeout) for n, k in enumerate(kits, 1) if not only or n in only]
+    DRY_OUT.parent.mkdir(parents=True, exist_ok=True)
+    mode = "a" if only else "w"
+    with open(DRY_OUT, mode, encoding="utf-8") as out, mp.get_context("spawn").Pool(workers, maxtasksperchild=1) as pool:
+        for rec in pool.imap_unordered(dry_one, jobs):
+            out.write(json.dumps(rec, ensure_ascii=False) + "\n")
+            out.flush()
+            print(f"## {rec['n']:>3} {rec['outcome']:<13} {rec.get('ats')} {rec['seconds']}s {rec['company']}", flush=True)
+
+
 def main():
     global AUTO
+    if DRY_RUN:
+        return dry_main([int(a) for a in sys.argv[1:] if a.isdigit()] or None)
     load_env()
     AUTO = os.environ.get("AUTO_SUBMIT") == "1"
     print("AUTO SUBMIT is ON" if AUTO else "Review mode (AUTO_SUBMIT=1 in me.env submits by itself)")
@@ -632,110 +922,9 @@ def main():
             ctx = pw.chromium.launch_persistent_context(**kwargs)
         parked = []
         for n, kit in enumerate(kits, 1):
-            j = kit["job"]
-            print("=" * 70)
-            print(f"[{n}/{len(kits)}]  score {j['score']}  {j['title']}\n           {j['company']} · {j['location']}")
-            cv, letter, text, lang = build_pdfs(kit)
-            page = ctx.new_page()
-            try:
-                page.goto(j.get("direct_url") or j.get("apply_url") or j["url"], timeout=60000)
-            except Exception as ex:
-                print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
-            import time
-            from helper import sites
-            page.wait_for_timeout(2500)
-            accept_cookies(page)
-            site = sites.detect(page.url, page)
-            print(f"   ATS: {site.name}")
-            already = confirmed(ctx, site)  # a thank-you text on the job page itself must not count
-            if site.already_applied(page):
-                print("   already applied here earlier → logged, next job")
-                log_applied(kit, site.name, page, False, "auto")
-                continue
-            if site.name == "own" and not site.has_form(page):  # generic careers page: search the job there first
-                from helper.sites.own import find_job
-                try:
-                    page, found, note = find_job(page, j["title"], j.get("company", ""))
-                    print(f"   job search on the careers page: {note}")
-                    site = sites.detect(page.url, page)
-                except Exception as ex:
-                    print(f"   job search on the careers page failed ({ex})")
-            try:
-                site.open_form(page)
-            except Exception as ex:
-                print(f"   could not reach the form by itself ({ex}); click Apply yourself")
-            print("   AUTO: filling + uploading" + (" and submitting" if AUTO else ". Check and click Submit") + ".  keys: f a s q")
-            seen, last_fill, nxt, uploads, tries, steps = {}, 0.0, None, {}, 0, 0
-            from helper import trust
-            ats = trust.detect(ctx.pages[-1].url or j["url"])
-            if ats == "own" and site.name != "own":
-                ats = site.name
-            assisted = trust.mode(ats) == trust.ASSISTED  # first job per ATS: fill, stop at Submit, she clicks
-            if AUTO and assisted:
-                print(f"   ASSISTED ({ats}): I fill everything and stop at Submit. Press  a  after you clicked Submit.")
-            while nxt is None:
-                active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
-                if active is not page and site.name == "own":
-                    site = sites.detect(active.url, active)  # the form opened in a new tab on another host
-                try:
-                    sig = (active.url, len(active.frames), active.locator("input, textarea, select").count())
-                except Exception:
-                    sig = None
-                key = key_pressed()
-                if key == "f" or (sig and seen.get(id(active)) != sig and time.time() - last_fill > 2):
-                    seen[id(active)] = sig
-                    last_fill = time.time()
-                    accept_cookies(active)
-                    filled, unknown = site.fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
-                    tick_consent(active)
-                    if filled or key == "f":
-                        print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
-                        for x in unknown:  # no fixed answer in profile/facts.yaml -> logged in helper/questions.txt
-                            print(f"     ✗ no answer known (see helper/questions.txt): {x}")
-                if AUTO and not assisted and last_fill and not key and time.time() - last_fill > 3 and tries < 4:
-                    tries += 1
-                    ats = trust.detect(active.url) if trust.detect(active.url) != "own" else ats
-                    tick_consent(active)
-                    files_here = active.query_selector("input[type=file]") is not None
-                    why = site.problems(active, files_here, uploads.get(active.url.split("?")[0]))
-                    if why:
-                        if tries >= 3:
-                            parked.append(f"{j['company']} · {j['title'][:40]} · {', '.join(why[:3])} · {active.url}")
-                            print("   ⏸ parked for you: " + ", ".join(why[:3]))
-                            nxt = "next"
-                            continue
-                    elif (btn := site.find_button(active, site.rx("submit"))) is not None:
-                        try:
-                            btn.click(timeout=5000)
-                            clicked = True
-                        except Exception:
-                            clicked = False
-                        if clicked:
-                            print("   → clicked submit")
-                            active.wait_for_timeout(5000)
-                            seen.pop(id(active), None)
-                    elif steps < 8 and site.click_next(active):  # multi-step form: next page, re-fill
-                        steps, tries = steps + 1, 0
-                        print("   → next step")
-                        active.wait_for_timeout(3500)
-                        seen.pop(id(active), None)
-                if key == "a" or (last_fill and not already and confirmed(ctx, site)):
-                    seen_page = not already and confirmed(ctx, site)
-                    state = log_applied(kit, ats, active, seen_page, "assisted" if assisted else "auto")
-                    print("   ✅ confirmation page seen → logged as applied (screenshot in out/proof), next job" if state == "confirmed"
-                          else "   ⏳ no confirmation page → pending; the hunter confirms it from the receipt mail (or asks you to check)")
-                    nxt = "next"
-                elif key == "s":
-                    with open(SKIPPED, "a", encoding="utf-8") as f:
-                        f.write(j["url"] + "\n")
-                    nxt = "next"
-                elif key == "q":
-                    ctx.close()
-                    return
-                else:
-                    time.sleep(1)
-            for p in ctx.pages[:-1] if len(ctx.pages) > 1 else []:
-                p.close()
+            if run_job(ctx, kit, n, len(kits), parked) == "quit":
+                ctx.close()
+                return
         ctx.close()
     if parked:
         (HERE / "parked.txt").write_text("\n".join(parked) + "\n", encoding="utf-8")
