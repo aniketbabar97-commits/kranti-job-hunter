@@ -444,7 +444,8 @@ def xing(query, days=7, max_pages=40):
 
 def workday_search(tenant_url, query, company="", limit=20):
     """Workday CXS JSON: tenant_url like https://zeissgroup.wd3.myworkdayjobs.com/External."""
-    m = re.match(r"(https://([\w-]+)\.wd\d+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?([\w-]+)", tenant_url)
+    cxs = re.match(r"(https://[\w.-]+\.myworkdayjobs\.com)/wday/cxs/([\w-]+)/([\w-]+)", tenant_url)
+    m = cxs or re.match(r"(https://([\w-]+)\.wd\d+\.myworkdayjobs\.com)/(?:[a-z]{2}-[A-Z]{2}/)?([\w-]+)", tenant_url)
     if not m:
         raise ValueError(f"not a Workday site URL: {tenant_url}")
     host, tenant, site = m.groups()
