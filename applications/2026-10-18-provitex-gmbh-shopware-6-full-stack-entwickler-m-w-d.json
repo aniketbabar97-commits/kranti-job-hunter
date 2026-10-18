@@ -1,152 +1,153 @@
 {
-  "job": {
-    "title": "Shopware 6 Full-Stack Entwickler (m/w/d)",
-    "company": "Provitex GmbH",
-    "location": "Reutlingen, Baden-Wuerttemberg",
-    "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003348137-S",
-    "apply_url": "",
-    "score": 65,
-    "source": "Arbeitsagentur",
-    "posted": "",
-    "salary": "",
-    "lang": "de",
-    "contact": "info@provitex.de",
-    "direct_url": "https://www.provitex.de/karriere/shopware-6-full-stack-entwickler-m/w/d",
-    "email_subject": "Bewerbung: Shopware 6 Full-Stack Entwickler – Kranti Chavan",
-    "email_body": "Sehr geehrter Herr Schulz,\n\nSie suchen eine Full-Stack-Entwicklerin, die Shops weiterentwickelt und externe Systeme anbindet – genau das mache ich seit über fünf Jahren auf großen Commerce-Plattformen.\n\n– PIM-zu-Hybris-Pipelines mit Profisee, Hotfolders und DataHub; SAP-ERP-/MDM-Anbindung\n– Storefront-Anpassungen mit JavaScript, Responsive Design, Backend-Erweiterungen und REST-APIs für externe Systeme\n– CI/CD-Deployment-Zyklen auf CCv2, Abfrage-Refactoring für kürzere Antwortzeiten\n\nVieles aus Ihrer Liste der Vorteile – ERP- und PIM-Anbindungen, Docker, Performance-Optimierung und Deployments – gehört seit Jahren zu meinem Alltag. Lebenslauf und Anschreiben finden Sie im Anhang. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Ich freue mich auf ein kurzes Telefonat, um die Details zu besprechen.\n\nMit freundlichen Grüßen\nKranti Chavan",
-    "form_url": "https://www.provitex.de/karriere/shopware-6-full-stack-entwickler-m/w/d",
-    "ats": "own",
-    "needs_login": false,
-    "captcha": false,
-    "resolve_status": "ok"
-  },
-  "tailoring": {
-    "headline": "Full-Stack E-Commerce-Entwicklerin | Storefronts, REST-APIs & ERP/PIM-Anbindung",
-    "summary": "Full-Stack-E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Entwicklung und Weiterentwicklung von Onlineshops (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Setzt Storefront-Anpassungen mit JavaScript und Responsive Design um, entwickelt Backend-Erweiterungen und bindet externe Systeme über REST-APIs an – darunter ERP-, PIM- und MDM-Systeme. Erfahrung mit SQL, Git, Docker, Performance-Optimierung, Deployments, Shop-Konfiguration (Promotions, Katalog, Cronjobs) und Fehleranalyse bestehender Shops. Arbeitet strukturiert, lösungsorientiert und eigenverantwortlich in agilen, internationalen Teams; SAP Certified Commerce Cloud Developer.",
-    "skills": {
-      "Backend": [
-        "Java (Core & J2EE)",
-        "Spring Framework",
-        "Spring Boot",
-        "RESTful APIs",
-        "Microservices",
-        "Design Patterns",
-        "Data Modeling",
-        "JUnit",
-        "Groovy",
-        "SOAP"
-      ],
-      "APIs & Integration": [
-        "OCC APIs",
-        "REST web services",
-        "PIM / ERP / MDM integration (Profisee, SAP ERP)",
-        "DataHub",
-        "Hotfolders",
-        "file-based data pipelines",
-        "third-party integrations"
-      ],
-      "E-Commerce": [
-        "SAP Commerce Cloud (Hybris 2105 / 2211)",
-        "B2B / B2C Commerce",
-        "Headless Commerce",
-        "Product Catalog & PIM",
-        "Promotions Engine",
-        "Order Management (OMS)",
-        "Backoffice",
-        "Impex",
-        "Cronjobs"
-      ],
-      "Frontend & Web": [
-        "JavaScript",
-        "Progressive Web Application (PWA) integration",
-        "Responsive Design",
-        "storefront customization"
-      ],
-      "Databases & Search": [
-        "SQL",
-        "query optimization and performance tuning",
-        "FlexibleSearch",
-        "Apache Solr"
-      ],
-      "DevOps & Cloud": [
-        "CI/CD pipelines",
-        "Jenkins",
-        "Git",
-        "Docker",
-        "Kubernetes",
-        "SAP Commerce Cloud Portal (CCv2)",
-        "Hybris Admin Console (HAC)",
-        "production support and troubleshooting"
-      ],
-      "Ways of Working": [
-        "Agile / Scrum",
-        "PI Planning",
-        "Jira",
-        "Confluence",
-        "Code Reviews",
-        "Technical Mentoring",
-        "International Teams"
-      ]
-    },
-    "bullet_order": {
-      "rockwell": [
-        0,
-        1,
-        2,
-        5,
-        4,
-        3,
-        6,
-        7
-      ],
-      "shell": [
-        0,
-        1,
-        4,
-        5,
-        2,
-        3,
-        6
-      ],
-      "cognizant": [
-        0,
-        2,
-        3,
-        1
-      ]
-    },
-    "why_company": "Provitex bietet als kleines Team direkte Verantwortung für vollständige Shop-Projekte, von Storefront bis Schnittstelle. Genau diese Breite kenne ich aus meiner Arbeit für Rockwell Automation und Shell, und Reutlingen ist von Karlsruhe aus gut erreichbar. Ich möchte meine Erfahrung mit ERP- und PIM-Anbindungen in Ihre Projekte einbringen.",
-    "linkedin_message": "Guten Tag Herr Schulz, ich interessiere mich für die Stelle Full-Stack Entwickler: 5+ Jahre E-Commerce-Entwicklung (Rockwell Automation, Shell), Storefront, REST-APIs, ERP/PIM-Anbindung, Docker. Ich freue mich auf Ihre Rückmeldung!"
-  },
-  "letters": {
-    "de": {
-      "subject": "Bewerbung als Shopware 6 Full-Stack Entwickler",
-      "salutation": "Sehr geehrter Herr Schulz,",
-      "hook": "Sie suchen eine Full-Stack-Entwicklerin, die Shops weiterentwickelt, externe Systeme über APIs anbindet und technische Probleme zuverlässig löst. Genau das mache ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich große Onlineshops in Backend und Storefront weiter und verbinde sie mit ERP-, PIM- und MDM-Systemen.",
-      "bullets": [
-        {
-          "label": "Storefront & Backend",
-          "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud (Hybris 2211) entworfen und umgesetzt; Promotions Engine, Order Management (OMS), Cronjobs, Impex und FlexibleSearch entwickelt und gepflegt."
-        },
-        {
-          "label": "Integration externer Systeme",
-          "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee gemeinsam mit internationalen Teams analysiert und gelöst."
-        },
-        {
-          "label": "Shop-Konfiguration & Administration",
-          "text": "Shop-Funktionen wie Promotions Engine, Katalog, Cronjobs und Impex konfiguriert und gepflegt, Backoffice-Komponenten angepasst und die Plattform über die Hybris Admin Console (HAC) administriert."
-        },
-        {
-          "label": "Fehleranalyse & Performance",
-          "text": "CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) in agilen DevOps-Workflows durchgeführt; Refactoring von Datenbankabfragen geleitet, das die Antwortzeiten verkürzte, und Produktionsstörungen behoben."
-        }
-      ],
-      "gap": "",
-      "logistics": "Vieles aus Ihrer Liste der Vorteile – ERP- und PIM-Anbindungen, Docker, Performance-Optimierung und Deployments – gehört seit Jahren zu meinem Alltag. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern überzeuge ich Sie in einem persönlichen Gespräch davon, was ich für Ihr Team leisten kann.",
-      "closing": "",
-      "contact": "z. Hd. Herrn Jan Schulz, Geschäftsführer"
-    }
-  },
+ "job": {
+  "title": "Shopware 6 Full-Stack Entwickler (m/w/d)",
+  "company": "Provitex GmbH",
+  "location": "Reutlingen, Baden-Wuerttemberg",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003348137-S",
+  "apply_url": "",
+  "score": 65,
+  "source": "Arbeitsagentur",
+  "posted": "",
+  "salary": "",
   "lang": "de",
-  "created": "2026-10-18"
+  "contact": "jobs@provitex.de",
+  "direct_url": "https://www.provitex.de/karriere/shopware-6-full-stack-entwickler-m/w/d",
+  "email_subject": "Bewerbung: Shopware 6 Full-Stack Entwickler – Kranti Chavan",
+  "email_body": "Sehr geehrter Herr Schulz,\n\nSie suchen eine Full-Stack-Entwicklerin, die Shops weiterentwickelt und externe Systeme anbindet – genau das mache ich seit über fünf Jahren auf großen Commerce-Plattformen.\n\n– PIM-zu-Hybris-Pipelines mit Profisee, Hotfolders und DataHub; SAP-ERP-/MDM-Anbindung\n– Storefront-Anpassungen mit JavaScript, Responsive Design, Backend-Erweiterungen und REST-APIs für externe Systeme\n– CI/CD-Deployment-Zyklen auf CCv2, Abfrage-Refactoring für kürzere Antwortzeiten\n\nVieles aus Ihrer Liste der Vorteile – ERP- und PIM-Anbindungen, Docker, Performance-Optimierung und Deployments – gehört seit Jahren zu meinem Alltag. Lebenslauf und Anschreiben finden Sie im Anhang. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Ich freue mich auf ein kurzes Telefonat, um die Details zu besprechen.\n\nMit freundlichen Grüßen\nKranti Chavan",
+  "form_url": "https://www.provitex.de/karriere/shopware-6-full-stack-entwickler-m/w/d",
+  "ats": "own",
+  "needs_login": false,
+  "captcha": false,
+  "resolve_status": "ok",
+  "channel": "email"
+ },
+ "tailoring": {
+  "headline": "Full-Stack E-Commerce-Entwicklerin | Storefronts, REST-APIs & ERP/PIM-Anbindung",
+  "summary": "Full-Stack-E-Commerce-Entwicklerin mit über 5 Jahren Erfahrung in Entwicklung und Weiterentwicklung von Onlineshops (SAP Commerce Cloud / Hybris) für Rockwell Automation und Shell. Setzt Storefront-Anpassungen mit JavaScript und Responsive Design um, entwickelt Backend-Erweiterungen und bindet externe Systeme über REST-APIs an – darunter ERP-, PIM- und MDM-Systeme. Erfahrung mit SQL, Git, Docker, Performance-Optimierung, Deployments, Shop-Konfiguration (Promotions, Katalog, Cronjobs) und Fehleranalyse bestehender Shops. Arbeitet strukturiert, lösungsorientiert und eigenverantwortlich in agilen, internationalen Teams; SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy",
+    "SOAP"
+   ],
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "PI Planning",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "Technical Mentoring",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    5,
+    4,
+    3,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  "why_company": "Provitex bietet als kleines Team direkte Verantwortung für vollständige Shop-Projekte, von Storefront bis Schnittstelle. Genau diese Breite kenne ich aus meiner Arbeit für Rockwell Automation und Shell, und Reutlingen ist von Karlsruhe aus gut erreichbar. Ich möchte meine Erfahrung mit ERP- und PIM-Anbindungen in Ihre Projekte einbringen.",
+  "linkedin_message": "Guten Tag Herr Schulz, ich interessiere mich für die Stelle Full-Stack Entwickler: 5+ Jahre E-Commerce-Entwicklung (Rockwell Automation, Shell), Storefront, REST-APIs, ERP/PIM-Anbindung, Docker. Ich freue mich auf Ihre Rückmeldung!"
+ },
+ "letters": {
+  "de": {
+   "subject": "Bewerbung als Shopware 6 Full-Stack Entwickler",
+   "salutation": "Sehr geehrter Herr Schulz,",
+   "hook": "Sie suchen eine Full-Stack-Entwicklerin, die Shops weiterentwickelt, externe Systeme über APIs anbindet und technische Probleme zuverlässig löst. Genau das mache ich seit über fünf Jahren: Bei Rockwell Automation und Shell entwickle ich große Onlineshops in Backend und Storefront weiter und verbinde sie mit ERP-, PIM- und MDM-Systemen.",
+   "bullets": [
+    {
+     "label": "Storefront & Backend",
+     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten auf SAP Commerce Cloud (Hybris 2211) entworfen und umgesetzt; Promotions Engine, Order Management (OMS), Cronjobs, Impex und FlexibleSearch entwickelt und gepflegt."
+    },
+    {
+     "label": "Integration externer Systeme",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub entworfen, aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee gemeinsam mit internationalen Teams analysiert und gelöst."
+    },
+    {
+     "label": "Shop-Konfiguration & Administration",
+     "text": "Shop-Funktionen wie Promotions Engine, Katalog, Cronjobs und Impex konfiguriert und gepflegt, Backoffice-Komponenten angepasst und die Plattform über die Hybris Admin Console (HAC) administriert."
+    },
+    {
+     "label": "Fehleranalyse & Performance",
+     "text": "CI/CD-Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) in agilen DevOps-Workflows durchgeführt; Refactoring von Datenbankabfragen geleitet, das die Antwortzeiten verkürzte, und Produktionsstörungen behoben."
+    }
+   ],
+   "gap": "",
+   "logistics": "Vieles aus Ihrer Liste der Vorteile – ERP- und PIM-Anbindungen, Docker, Performance-Optimierung und Deployments – gehört seit Jahren zu meinem Alltag. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern überzeuge ich Sie in einem persönlichen Gespräch davon, was ich für Ihr Team leisten kann.",
+   "closing": "",
+   "contact": "z. Hd. Herrn Jan Schulz, Geschäftsführer"
+  }
+ },
+ "lang": "de",
+ "created": "2026-10-18"
 }

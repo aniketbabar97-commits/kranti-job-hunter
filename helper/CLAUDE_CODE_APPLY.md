@@ -34,6 +34,8 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
 5. Submit. Wait for the thank-you / confirmation text.
 6. Log it: `python -m helper.claude_jobs done "<id>" <status> "<short note>"` with status
    `confirmed` (thank-you seen) · `pending` (submitted, no thank-you) · `closed` · `parked` (anything you could not do).
+   **When you park a job and the page offers an application email** ("per E-Mail bewerben", "send your documents to …"),
+   put that address in the note (e.g. `"captcha; email: jobs@company.de"`) — the job then goes out by email automatically.
    Then add what you learned: `python -m helper.claude_jobs learn "<system or company>" "<1 line>"` (no personal data).
    Then the next job.
 
