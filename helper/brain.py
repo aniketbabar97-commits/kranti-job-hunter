@@ -237,7 +237,7 @@ async def _run(start_url, kit, files, dry_run, cdp_url, headless, log, no_submit
     if cdp_url:
         session = BrowserSession(cdp_url=cdp_url, keep_alive=True)
     else:
-        session = BrowserSession(headless=headless, keep_alive=False,
+        session = BrowserSession(headless=headless, keep_alive=False, chromium_sandbox=os.name == "nt",
                                  executable_path=os.environ.get("PW_CHROMIUM") or None)
     sites = []
     t0 = time.time()

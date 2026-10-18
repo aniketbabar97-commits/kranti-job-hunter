@@ -770,7 +770,8 @@ def run_job(ctx, kit, n, total, parked, rec=None):
         from helper import brain
         print("   🧠 fast path stuck → the AI agent takes over")
         try:
-            res = brain.apply_with_brain(active, kit, {"cv": cv, "cover": letter}, dry_run=DRY_RUN, no_submit=assisted)
+            res = brain.apply_with_brain(active, kit, {"cv": cv, "cover": letter}, dry_run=DRY_RUN, no_submit=assisted,
+                                         cdp_url=CDP_URL)
         except Exception as ex:
             res = {"status": "failed", "reason": f"{type(ex).__name__}: {ex}"[:200], "steps": 0}
         print(f"   🧠 brain: {res.get('status')} after {res.get('steps')} steps, {res.get('seconds')}s — {res.get('reason', '')[:120]}")
