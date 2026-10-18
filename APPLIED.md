@@ -34,3 +34,5 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1002408507-S (MHW Bike-House GmbH, emailed to bewerbung@mhw-bike.de)
 - 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-294809-S (Piazza Blu, emailed to bewerbung@piazzablu.com)
 - 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1198016735-S (POLSTER AKTUELL HESSEN GmbH & Co. KG, emailed to karriere@polsteraktuell.de)
+- 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003348137-S (Provitex GmbH, emailed to jobs@provitex.de)
+- 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-64785-S (VI-ARISE, emailed to mail@vi-arise.com)
