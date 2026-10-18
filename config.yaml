@@ -140,8 +140,8 @@ companies_bw:
   ats: successfactors
   url: https://jobs.zf.com
 - name: Sybit (Radolfzell)
-  ats: custom
-  url: https://www.sybit.de/karriere
+  ats: own
+  url: https://www.sybit.com/de/karriere/offene-stellen
   verified: false
 - name: inovex (Karlsruhe)
   ats: recruitee
@@ -210,11 +210,6 @@ companies_bw:
   slug: Netcentric
   feed: https://api.smartrecruiters.com/v1/companies/Netcentric/postings
   verified: false
-- name: Merkle DACH (ex Namics)
-  ats: workday
-  url: https://dentsuaegis.wd3.myworkdayjobs.com/DAN_GLOBAL
-  feed: https://dentsuaegis.wd3.myworkdayjobs.com/wday/cxs/dentsuaegis/DAN_GLOBAL/jobs
-  verified: true
 - name: Cocomore
   ats: own
   url: https://www.cocomore.com/jobs-and-more
@@ -239,10 +234,6 @@ companies_bw:
   slug: spryker
   feed: https://boards-api.greenhouse.io/v1/boards/spryker/jobs
   verified: true
-- name: Mindcurv
-  ats: own
-  url: https://www.accenture.com/de-de/careers
-  verified: false
 - name: Kernpunkt
   ats: own
   url: https://www.kernpunkt.de/jobs
@@ -263,12 +254,6 @@ companies_bw:
   slug: BoschGroup
   feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
   verified: false
-- name: Bosch Digital
-  ats: smartrecruiters
-  url: https://www.bosch-digital.com/careers/
-  slug: BoschGroup
-  feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
-  verified: true
 - name: Mercedes-Benz
   ats: own
   url: https://jobs.mercedes-benz.com
@@ -288,7 +273,7 @@ companies_bw:
   verified: false
 - name: MHP (Ludwigsburg)
   ats: own
-  url: https://jobs.mhp.com
+  url: https://jobs.mhp.com/
   verified: false
 - name: Schwarz IT
   ats: own
@@ -390,10 +375,8 @@ companies_bw:
   verified: true
 - name: Heidelberg Materials
   ats: workday
-  url: https://heidelbergmaterials.wd3.myworkdayjobs.com
+  url: https://heidelbergmaterials.wd3.myworkdayjobs.com/Global_HM_Career_Site
   verified: true
-  slug: heidelbergmaterials.wd3 / Global_HM_Career_Site
-  feed: https://heidelbergmaterials.wd3.myworkdayjobs.com/wday/cxs/heidelbergmaterials/Global_HM_Career_Site/jobs
 - name: Freudenberg
   ats: own
   url: https://jobs.freudenberg.com/freudenberg/de/
@@ -804,20 +787,13 @@ companies_bw:
   verified: true
 - name: Horváth
   ats: workday
-  url: https://www.horvath-partners.com/de/karriere
-  slug: horvath.wd3 / Horvath_Careers
+  url: https://horvath.wd3.myworkdayjobs.com/Horvath_Careers
   feed: https://horvath.wd3.myworkdayjobs.com/wday/cxs/horvath/Horvath_Careers/jobs
   verified: false
 - name: CARIAD
   ats: successfactors
   url: https://jobs.volkswagen-group.com/cariad/search/
   feed: https://jobs.volkswagen-group.com/cariad/search/
-  verified: false
-- name: ETAS
-  ats: smartrecruiters
-  url: https://www.etas.com/de/karriere.php
-  slug: BoschGroup
-  feed: https://api.smartrecruiters.com/v1/companies/BoschGroup/postings
   verified: false
 - name: Daimler Truck
   ats: rexx

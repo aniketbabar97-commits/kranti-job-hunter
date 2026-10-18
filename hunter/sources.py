@@ -223,21 +223,35 @@ def company_feed(entry):
     (every opening; relevance filtering happens in main). ats own/unknown with a url -> career_page()."""
     ats, name = entry["ats"], entry["name"]
     terms = entry.get("search", SEARCH_TERMS)
-    target = entry.get("slug") or entry.get("url")
+    feed = entry.get("feed") if str(entry.get("feed", "")).startswith("http") else None
+    if ats in ("phenom", "job-shop"):  # their 'feed' is an API host, the reader needs the site
+        feed = None
+    site = feed if feed and ats in ("workday", "successfactors") and "/sitemap" not in feed else entry.get("url")
     searched = {"smartrecruiters": lambda q: smartrecruiters(entry["slug"], name, q),
-                "workday": lambda q: workday_search(entry["url"], q, name),
-                "successfactors": lambda q: successfactors_search(entry["url"], q, name)}
-    if ats in searched:  # huge companies: search their feed instead of downloading all of it
-        jobs = []
-        for q in terms:
-            jobs += searched[ats](q)
-        return list({j["url"]: j for j in jobs}.values())
+                "workday": lambda q: workday_search(site, q, name),
+                "successfactors": lambda q: successfactors_search(site, q, name)}
+    slug_first = ("personio", "greenhouse", "lever", "smartrecruiters", "join", "ashby", "workable", "recruitee")
+    target = (entry.get("slug") if ats in slug_first else None) or feed or entry.get("slug") or entry.get("url")
     reader = ATS_READERS.get(ats)
-    if reader and target:
-        return reader(target, name)
-    if entry.get("url"):  # own / unknown careers page
-        return career_page(entry["url"], name)
-    return []
+    dedicated = ats in searched or (reader is not None and reader is not career_page)
+    jobs, err = [], None
+    try:
+        if ats in searched and (entry.get("slug") or site):  # huge companies: search their feed
+            for q in terms:
+                jobs += searched[ats](q)
+            jobs = list({j["url"]: j for j in jobs}.values())
+        elif dedicated and target:
+            jobs = reader(target, name)
+    except Exception as e:  # noqa: BLE001
+        err = e
+        log.info("%s reader for %s failed (%s), trying the career page", ats, name, e)
+    if not jobs and (entry.get("url") or feed) and (err or not dedicated or ats not in searched):
+        # own/custom/unknown ATS, or the dedicated reader failed / came back empty
+        page = (entry.get("url") or feed) if dedicated else (feed or entry.get("url"))
+        jobs = career_page(page, name)
+    if not jobs and err:
+        raise err
+    return jobs
 
 
 # Google "X-ray" search across career sites hosted on common hiring systems (needs SERPER_API_KEY).
@@ -553,7 +567,9 @@ def _get(url, **kw):
 def _base(slug_or_url, pattern):
     """slug -> pattern.format(slug); a full URL is used as is (scheme+host, or the whole URL if pattern is None)."""
     s = slug_or_url.strip().rstrip("/")
-    return s if s.startswith("http") else pattern.format(s)
+    if s.startswith("http"):
+        return s
+    return f"https://{s}" if "." in s else pattern.format(s)
 
 
 def _walk(o, pred, out):
@@ -614,7 +630,7 @@ def _jsonld_jobs(soup, url, company):
 
 
 def recruitee(slug_or_url, company, query=None):
-    base = _base(slug_or_url, "https://{}.recruitee.com")
+    base = re.sub(r"/api/offers.*$", "", _base(slug_or_url, "https://{}.recruitee.com"))
     out = []
     for o in _get(f"{base}/api/offers/").json().get("offers", []):
         loc = o.get("location") or ", ".join(x for x in [o.get("city"), o.get("country")] if x)
@@ -854,7 +870,8 @@ def eightfold(slug_or_url, company, query=None):
     if "|" in slug_or_url:
         host, domain = slug_or_url.split("|", 1)
     else:
-        u = urlparse(slug_or_url if slug_or_url.startswith("http") else f"https://{slug_or_url}.eightfold.ai")
+        u = urlparse(slug_or_url if slug_or_url.startswith("http") else
+                     f"https://{slug_or_url}" if "." in slug_or_url else f"https://{slug_or_url}.eightfold.ai")
         host = f"{u.scheme}://{u.netloc}"
         domain = (parse_qs(u.query).get("domain") or [u.netloc.split(".")[0] + ".com"])[0]
     host = host if host.startswith("http") else f"https://{host}"
@@ -1127,10 +1144,68 @@ def career_page(url, company, query=None, timeout=30, _follow_ats=True):
     return _q(jobs, query)
 
 
+def successfactors_rmk(slug_or_url, company, query=None):
+    """SAP SuccessFactors Recruiting Marketing (RMK) site: every job URL from /sitemap.xml (title from the URL),
+    falling back to the server-rendered /search/ list."""
+    import xml.etree.ElementTree as ET
+    from urllib.parse import unquote, urlparse
+    base = re.sub(r"/sitemap\.xml$", "", slug_or_url.rstrip("/"))
+    u = urlparse(base if base.startswith("http") else f"https://{base}")
+    base = f"{u.scheme}://{u.netloc}"
+    out, maps = [], [f"{base}/sitemap.xml"]
+    for sm in maps[:10]:
+        try:
+            root = ET.fromstring(_get(sm).content)
+        except Exception as e:  # noqa: BLE001
+            log.info("rmk sitemap %s: %s", sm, e)
+            continue
+        for loc in root.iter():
+            if not loc.tag.endswith("loc") or not loc.text:
+                continue
+            link = loc.text.strip()
+            if link.endswith(".xml") and len(maps) < 10:
+                maps.append(link)
+                continue
+            m = re.search(r"/job/([^/]+)/(\d+)/?$", link)
+            if m:
+                title = unquote(m.group(1)).replace("-", " ")
+                out.append(_job(f"{company} careers", title, company, "", link, "", "remote" in title.lower(), ""))
+    if not out:
+        out = successfactors_search(base, "", company)
+    return _q(out, query)
+
+
+def oracle_orc(slug_or_url, company, query=None):
+    """Oracle Recruiting Cloud (CandidateExperience): REST recruitingCEJobRequisitions; needs siteNumber in the URL
+    (.../sites/<siteNumber> or siteNumber=<x>), otherwise the generic browser reader."""
+    m = re.search(r"(https://[\w.-]+oraclecloud\.com)", slug_or_url)
+    site = re.search(r"siteNumber=([\w-]+)|/sites/([\w-]+)", slug_or_url)
+    if not (m and site):
+        return career_page(slug_or_url, company, query)
+    host, site = m.group(1), site.group(1) or site.group(2)
+    out = []
+    for off in range(0, 2000, 200):
+        r = _get(f"{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+                 params={"onlyData": "true", "expand": "requisitionList",
+                         "finder": f"findReqs;siteNumber={site},limit=200,offset={off},sortBy=POSTING_DATES_DESC"})
+        items = r.json().get("items") or [{}]
+        reqs = items[0].get("requisitionList") or []
+        for j in reqs:
+            out.append(_job(f"{company} careers", j.get("Title"), company, j.get("PrimaryLocation", ""),
+                            f"{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{j.get('Id')}",
+                            (j.get("PostedDate") or "")[:10], "remote" in str(j.get("WorkplaceType", "")).lower(),
+                            j.get("ShortDescriptionStr") or ""))
+        if len(reqs) < 200:
+            break
+    return _q(out, query)
+
+
 ATS_READERS = {
     "personio": personio, "greenhouse": greenhouse, "lever": lever, "recruitee": recruitee, "workable": workable,
     "teamtailor": teamtailor, "onlyfy": onlyfy, "prescreen": onlyfy, "dvinci": dvinci, "rexx": rexx,
     "concludis": concludis, "umantis": umantis, "bite": bite, "avature": avature, "taleo": taleo,
     "eightfold": eightfold, "phenom": phenom, "ashby": ashby, "jobylon": jobylon, "softgarden": softgarden_all,
-    "join": join_all, "own": career_page, "unknown": career_page,
+    "join": join_all, "own": career_page, "unknown": career_page, "custom": career_page,
+    "successfactors_rmk": successfactors_rmk, "oracle_orc": oracle_orc, "oracle": oracle_orc, "b-ite": bite,
+    "job-shop": career_page, "mhm_erecruiter": career_page, "icims": career_page, "cornerstone": career_page,
 }

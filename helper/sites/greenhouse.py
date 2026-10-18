@@ -59,8 +59,9 @@ class Greenhouse(Site):
     def confirmed(self, page):
         return "/confirmation" in page.url or page.query_selector(".confirmation__content") is not None
 
-    def after_fill(self, page, lang):
-        """Greenhouse location typeahead: pick the first suggestion so the hidden fields get set."""
+    def after_fill(self, page, lang, kit=None):
+        """Location typeahead (first suggestion), School typeahead (her university -> University of Pune -> Other),
+        required "I confirm ..." selects (-> Yes / I confirm), campus-event selects (-> Not applicable / None)."""
         try:
             loc = page.query_selector("#job_application_location, input[name*=location]")
             if loc and loc.is_visible() and loc.input_value().strip():
@@ -70,6 +71,70 @@ class Greenhouse(Site):
                     item.click()
         except Exception:
             pass
+        from helper import answers
+        uni = answers.facts()["education"]["university"]
+        done = []
+        for el in page.query_selector_all("input.select__input, input[id^=school--]"):
+            try:
+                if not el.is_visible() or self._rs_value(el):
+                    continue
+                label = (el.evaluate("e => { const l = document.getElementById(e.id + '-label') || "
+                                     "e.closest('.select__container')?.querySelector('label'); return l ? l.innerText : ''; }") or "").strip()
+                if re.match(r"school|university|universität|hochschule", label, re.I):
+                    for typed, rx in ((uni, r"savitribai|phule"), ("University of Pune", r"pune"), ("Pune", r"pune"),
+                                      ("Other", r"^\s*other\b")):
+                        if self._rs_pick(page, el, typed, rx):
+                            done.append(f"{label[:30]} = {self._rs_text(el)[:40]}")
+                            break
+                elif re.search(r"\bi (hereby )?confirm|i (have read|acknowledge|agree|understand)|true and correct|ich bestätige", label, re.I):
+                    if self._rs_pick(page, el, "", r"^\s*(yes|ja|i confirm|confirm|i agree|agree|acknowledge|i acknowledge|"
+                                                   r"i have read|accept|true)\b", only_one_ok=True):
+                        done.append(f"{label[:30]} = {self._rs_text(el)[:20]}")
+                elif re.search(r"campus event|career fair|karrieremesse|which event", label, re.I):
+                    if self._rs_pick(page, el, "", r"not applicable|^\s*none\b|^\s*n/?a\b|keine|did not attend|haven'?t attended"):
+                        done.append(f"{label[:30]} = {self._rs_text(el)[:20]}")
+            except Exception:
+                try:
+                    page.keyboard.press("Escape")
+                except Exception:
+                    pass
+        return done
+
+    @staticmethod
+    def _rs_text(el):
+        return el.evaluate("e => { const c = e.closest('.select__container, .select-shell'); "
+                           "const v = c && c.querySelector('[class*=single-value], [class*=singleValue]'); return v ? v.innerText : ''; }") or ""
+
+    @staticmethod
+    def _rs_value(el):
+        return el.evaluate("e => { const c = e.closest('.select__container, .select-shell'); "
+                           "return !!(c && c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')); }")
+
+    def _rs_pick(self, page, el, typed, rx, only_one_ok=False):
+        """Open a react-select, optionally type (async typeahead), click the first option matching rx."""
+        rx = re.compile(rx, re.I)
+        el.click()
+        el.fill("")
+        if typed:
+            el.type(typed, delay=30)
+        for _ in range(8):  # async options (school list) arrive late
+            page.wait_for_timeout(500)
+            opts = [o for o in page.query_selector_all(".select__option, [role=option]") if o.is_visible()]
+            texts = [(o.inner_text() or "").strip() for o in opts]
+            if any(re.search(r"loading|wird geladen", t, re.I) for t in texts):
+                continue
+            hit = [o for o, t in zip(opts, texts) if rx.search(t)]
+            if not hit and only_one_ok and len(opts) == 1 and not re.search(r"no options|no results", texts[0], re.I):
+                hit = opts
+            if hit:
+                hit[0].click()
+                page.wait_for_timeout(300)
+                return True
+            if opts:
+                break
+        el.fill("")
+        page.keyboard.press("Escape")
+        return False
 
 
 SITE = Greenhouse()

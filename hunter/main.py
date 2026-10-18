@@ -38,15 +38,19 @@ def legacy_key(job):
 def collect(cfg):
     jobs, health = [], {}
 
+    import threading
+    lock = threading.Lock()
+
     def run(name, fn, *args):
-        n, err = health.get(name, (0, ""))
         try:
-            found = fn(*args)
-            jobs.extend(found)
-            health[name] = (n + len(found), err)
+            found, err = fn(*args), None
         except Exception as e:
             log.warning("%s %r failed: %s", name, args[0], e)
-            health[name] = (n, str(e)[:150])
+            found, err = [], str(e)[:150]
+        with lock:  # company feeds run in parallel threads
+            n, old = health.get(name, (0, ""))
+            jobs.extend(found)
+            health[name] = (n + len(found), err or old)
 
     days = max(1, cfg["hours_old"] // 24)
     extra = cfg.get("sources", {})
@@ -70,8 +74,9 @@ def collect(cfg):
     if extra.get("companies_bw"):
         names = {e["name"].lower() for e in entries}
         entries += [e for e in cfg.get("companies_bw", []) if e["name"].lower() not in names]
-    for entry in entries:
-        run("Company career sites (direct)", sources.company_feed, entry)
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(6) as pool:  # ~60 portals need a browser; in parallel the run stays short
+        list(pool.map(lambda e: run("Company career sites (direct)", sources.company_feed, e), entries))
     if os.getenv("SERPER_API_KEY"):
         for q in cfg.get("post_queries", []):
             run("LinkedIn posts (Google)", sources.linkedin_posts, q, days)

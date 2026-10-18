@@ -113,10 +113,16 @@ class Site:
                     break
                 except Exception:
                     continue
-        self.after_fill(page, lang)
+        import inspect
+        if "kit" in inspect.signature(self.after_fill).parameters:
+            extra = self.after_fill(page, lang, kit)
+        else:
+            extra = self.after_fill(page, lang)
+        if isinstance(extra, list):
+            filled += extra
         return filled, unknown
 
-    def after_fill(self, page, lang):
+    def after_fill(self, page, lang, kit=None):
         """Hook for site-specific widgets (custom dropdowns, yes/no buttons)."""
 
     def already_applied(self, page):

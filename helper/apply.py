@@ -578,6 +578,8 @@ def confirmed(ctx, site=None):
         try:
             if site is not None and hasattr(site, "confirmed") and site.confirmed(p):
                 return True
+            if site is not None and getattr(site, "confirm_by_text", True) is False:
+                continue  # the site keeps its thank-you text in the DOM all the time: only site.confirmed() counts
             text = p.inner_text("body", timeout=1000)[:20000]
             if rx.search(text) or (rx is not CONFIRM and CONFIRM.search(text)):
                 return True
