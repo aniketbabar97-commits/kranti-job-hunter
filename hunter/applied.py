@@ -18,6 +18,7 @@ def _url(u):
 
 # an APPLIED.md line counts as a website application when it says so ("website", "via form", "via Claude")
 WEBSITE = re.compile(r"website|webseite|via form|via claude|online", re.I)
+NOT_DONE = re.compile(r"not submitted|nicht gesendet|parked|skip|pending|closed|error", re.I)
 
 
 def load():
@@ -41,7 +42,7 @@ def load():
         link = re.search(r"https?://\S+", line)
         if link:
             urls.add(_url(link.group(0)))
-            if WEBSITE.search(line):
+            if WEBSITE.search(line) and not NOT_DONE.search(line):
                 web.add(_url(link.group(0)))
         elif _company(line):
             companies.add(_company(line))

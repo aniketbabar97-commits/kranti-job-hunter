@@ -16,10 +16,10 @@ Read only those job blocks. Be brief: no explanations, no screenshots unless stu
 Candidate: Kranti Chavan, Frau (salutation; if only neutral wanted: "Ohne/keine Angabe"), Karlsruhe, Germany.
 Email + phone: take them from the CV PDF header. LinkedIn: https://www.linkedin.com/in/kranti-chavan-84a155191
 Work permit: yes (valid). Notice: serving, earliest start 16.12.2026. Salary + "Why us": from the job block.
-Files: the two PDFs named in the job block, all in ONE folder: C:\Kranti\pdfs\ (full path = C:\Kranti\pdfs\<file name>). In the upload dialog type/paste that full path into the "File name" box and press Enter — do not browse folders. If the site's upload button won't open a dialog you can use → park as UPLOAD.
+Files: you cannot open the Windows file dialog. Fill the whole form, leave the upload fields and the final Submit for me, keep the tab open, and list the job under UPLOAD with the two file names (they are in C:\Kranti\pdfs). I attach and submit all of them together at the end.
 
 Be smart and decide yourself — act like an experienced applicant applying for her:
-- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: "verhandlungssicher / C1"; English: fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 50 %; driving licence: answer "no" truthfully — never claim one, and if it is a hard requirement still apply).
+- Unknown question → answer it from the CV/cover letter PDFs and the data above, in her favour (e.g. "yes" to SAP Commerce/Hybris, Java, Spring, REST/OCC, integrations, agile, AI; German: B1 (never higher); English: C2 / fluent; relocation within Germany / hybrid / remote: yes; travel: yes, up to 50 %; driving licence: answer "no" truthfully — never claim one, and if it is a hard requirement still apply).
 - Dropdowns/ratings → pick the strongest truthful option. Free text required with no data → 1–2 short selling sentences from "Why us".
 - Several similar positions → pick the one closest to the job title. Ugly or multi-step portal → push through.
 - Ask me ONLY for: passwords, CAPTCHAs, verification codes, or a legal declaration you cannot know (e.g. criminal record, previous employment at this company). Everything else: decide and continue.
@@ -31,12 +31,12 @@ Per job:
 4. Only a contact form, no upload → message = "Why us" + "Lebenslauf und Anschreiben sende ich Ihnen zusätzlich per E-Mail." (EN: "I am sending my CV and cover letter by email as well.") and report NOUPLOAD.
 5. Tick only mandatory consent boxes (privacy). Never tick newsletter/talent pool unless required.
 6. CAPTCHA, verification code, password → park the job (tab open, form filled as far as possible), continue. Max 3 min per job.
-7. Submit. Wait for the confirmation text.
+7. No upload needed (or files already attached) → Submit and wait for the confirmation text. Otherwise → UPLOAD list.
 
 At the end:
 A) QUESTIONS — one numbered list of everything parked, each: `<n> <Company>: <what you need from me>`. After I answer, finish those jobs in their open tabs.
 B) Then print ONLY these lines (one per job), so I can paste them into APPLIED.md:
-- 2026-MM-DD <Original posting URL> (<Company>, website via Claude – OK|NOUPLOAD|ACCOUNT)
+- 2026-MM-DD <Original posting URL> (<Company>, website via Claude – OK|NOUPLOAD)  ← ONLY for jobs really submitted (confirmation seen). UPLOAD jobs: I add the line after I submit.
 For failures instead: `SKIP <n> <Company>: CLOSED|CAPTCHA|ERROR <5 words>`
 ---
 
