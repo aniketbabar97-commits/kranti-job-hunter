@@ -196,7 +196,8 @@ def standard_answers():
             ("Earliest start", "16.12.2026 (serving notice, last working day 15.12.2026)"),
             ("Experience", "5+ years SAP Commerce Cloud (Hybris), Java, Spring"),
             ("Languages", "English C2, German B1, Hindi & Marathi native"),
-            ("Work mode", "Remote, hybrid or on-site anywhere in Germany")]
+            ("Work mode", "Remote, hybrid or on-site anywhere in Germany"),
+            ("Salary expectation", "€60.000 gross/year, negotiable (each kit adapts it to the posted range)")]
     return ("<h3 style='margin-top:24px'>📋 Standard answers for application forms</h3>"
             "<table style='font-size:13px;border-collapse:collapse'>" + "".join(
                 f"<tr><td style='padding:3px 10px 3px 0;color:#57606a'>{html.escape(k)}</td><td style='padding:3px 0'>{html.escape(v)}</td></tr>"

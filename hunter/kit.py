@@ -212,7 +212,7 @@ def render_note(job, t, files, flags):
               "| Years of experience | 5+ years (SAP Commerce Cloud / Hybris since 2020) |",
               "| Languages | English C2, German B1 (improving), Hindi & Marathi native |",
               "| Willing to relocate / work mode | Remote, hybrid or on-site anywhere in Germany |",
-              "| Salary expectation | [fill in] |",
+              f"| Salary expectation | {salary_answer(job)} |",
               f"| How did you hear about us? | {job['source'].replace(' careers', ' careers page')} |", "",
               "**Why do you want to work for us?**", "", "```", t.get("why_company", "").strip(), "```", "",
               "**Short motivation**", "", "```", t.get("motivation_short", "").strip(), "```", "",
@@ -222,6 +222,23 @@ def render_note(job, t, files, flags):
                   f"**Subject:** {t.get('email_subject', '').strip()}", "", "```", t.get("email_body", "").strip(), "```"]
     lines += ["", "## Files in the email", ""] + [f"- {Path(f).name}" for f in files]
     return "\n".join(lines) + "\n"
+
+
+TARGET_SALARY = 60000
+
+
+def salary_answer(job, target=TARGET_SALARY):
+    """Her target (60k) unless the posting gives a yearly range; then ask in its upper part, never below 60k
+    unless the whole range is lower."""
+    nums = [int(n.replace(",", "").replace(".", "")) for n in re.findall(r"\d[\d.,]{3,}", job.get("salary") or "")]
+    nums = [n for n in nums if 20000 <= n <= 300000]  # yearly figures only; hourly/monthly ignored
+    ask = target
+    if nums:
+        lo, hi = min(nums), max(nums)
+        ask = hi if hi < target else max(target, lo + (hi - lo) * 3 // 4)
+    ask = round(ask / 1000) * 1000
+    de = f"{ask:,}".replace(",", ".")
+    return f"€{ask:,} gross per year (negotiable) · DE: {de} € brutto/Jahr (verhandelbar)"
 
 
 def make_kits(jobs, cv_text=None, today=None, force=False):
