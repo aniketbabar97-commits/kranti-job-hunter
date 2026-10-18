@@ -290,8 +290,8 @@ def fill_react_selects(page, lang, unknown):
             try:
                 if not el.is_visible():
                     continue
-                has_value = el.evaluate("e => { const c = e.closest('[class*=container], [class*=select]'); "
-                                        "return !!(c && c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')); }")
+                has_value = el.evaluate("e => { let c = e; for (let i = 0; i < 6 && c; i++) { if (c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')) return true; "
+            "if (c.matches('[class*=select__container], [class*=select-shell]') && i > 2) break; c = c.parentElement; } return false; }")
                 if has_value:
                     continue
                 label = el.evaluate(LABEL_JS)
@@ -503,8 +503,8 @@ def problems(page, uploads_needed, uploaded):
                 if el.evaluate("e => e.matches(%s)" % json.dumps(REACT_SELECT_INPUT)) or \
                         "requiredInput" in (el.get_attribute("class") or ""):
                     # react-select: the search box is always empty; a chosen value shows as single-value
-                    if not el.evaluate("e => { const c = e.closest('[class*=container], [class*=select-shell]'); "
-                                       "return !!(c && c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')); }") \
+                    if not el.evaluate("e => { let c = e; for (let i = 0; i < 6 && c; i++) { if (c.querySelector('[class*=single-value], [class*=singleValue], [class*=multi-value]')) return true; "
+            "if (c.matches('[class*=select__container], [class*=select-shell]') && i > 2) break; c = c.parentElement; } return false; }") \
                             and is_required(el, el.evaluate(LABEL_JS)) and "requiredInput" not in (el.get_attribute("class") or ""):
                         why.append("empty: " + el.evaluate(LABEL_JS)[:40])
                     continue
@@ -633,6 +633,14 @@ def main():
                 print("   already applied here earlier → logged, next job")
                 log_applied(kit, site.name, page, False, "auto")
                 continue
+            if site.name == "own" and not site.has_form(page):  # generic careers page: search the job there first
+                from helper.sites.own import find_job
+                try:
+                    page, found, note = find_job(page, j["title"], j.get("company", ""))
+                    print(f"   job search on the careers page: {note}")
+                    site = sites.detect(page.url, page)
+                except Exception as ex:
+                    print(f"   job search on the careers page failed ({ex})")
             try:
                 site.open_form(page)
             except Exception as ex:
