@@ -1,11 +1,12 @@
 """Windows application helper: opens each job in a real Chrome window, fills the application form, uploads the
 tailored CV and cover letter, and waits. You check the form and click Submit yourself.
 
-Start with start.bat (or: python -m helper.apply). Keys in this window:
-  f  fill the form in the browser tab you are looking at (press again after a page change)
-  a  I submitted it -> logged in APPLIED.md, next job
-  s  skip this job (not interested / closed), next job
-  q  quit
+Start with start.bat (or: python -m helper.apply). AUTO mode: it clicks "Apply/Bewerben", fills every field it
+knows and uploads both PDFs by itself (again after each page change), and when the site shows its thank-you /
+confirmation page it logs the job in APPLIED.md and opens the next one. You only check and click Submit.
+Keys in this window (no Enter needed):
+  f  fill again now          a  I submitted it (if no confirmation was detected) -> log, next job
+  s  skip this job           q  quit
 """
 import json
 import os
@@ -46,8 +47,8 @@ def queue(days=45):
     kits, seen = [], set()
     for f in sorted((ROOT / "applications").glob("*.json"), reverse=True):  # newest kit per job wins
         k = json.loads(f.read_text(encoding="utf-8"))
-        if not k.get("lang"):
-            continue  # older kit, written before the final selling standard
+        if not k.get("lang") or k.get("skip"):
+            continue  # older kit, or job closed / not in Germany  # older kit, written before the final selling standard
         j = k["job"]
         if j["url"] in seen or k.get("created", "") < since:
             continue
@@ -112,6 +113,7 @@ def answers(kit, lang):
     ]
 
 
+SALUTATION = re.compile(r"anrede|salutation|\btitle\b|prefix", re.I)
 SKIP_LABEL = re.compile(r"captcha|password|passwort|search|suche|gender|geschlecht|anrede|salutation|title|titel|"
                         r"birth|geburt|newsletter", re.I)
 WHY_LABEL = re.compile(r"\bwhy\b|warum|wieso|interest in|interesse", re.I)
@@ -131,10 +133,11 @@ LABEL_JS = """e => {
 }"""
 
 
-def fill(page, kit, cv, letter, text, lang):
+def fill(page, kit, cv, letter, text, lang, uploaded=None):
     """Fill every empty, visible field we have a confident answer for. Never clicks Submit."""
     rules = [(re.compile(p, re.I), v) for p, v in answers(kit, lang)]
-    filled, files_done, unknown = [], set(), []
+    filled, unknown = [], []
+    files_done = uploaded if uploaded is not None else set()  # kept per page: upload each file once
     for frame in page.frames:
         for el in frame.query_selector_all("input, textarea, select"):
             try:
@@ -150,6 +153,17 @@ def fill(page, kit, cv, letter, text, lang):
                         el.set_input_files(target)
                         files_done.add(target)
                         filled.append(f"upload {Path(target).name}")
+                    continue
+                if kind == "select" and el.is_visible() and SALUTATION.search(label):
+                    if el.evaluate("e => e.selectedIndex > 0 && e.value !== ''"):
+                        continue  # already chosen
+                    for opt in ("Frau", "Ms.", "Ms", "Mrs.", "Mrs"):
+                        try:
+                            el.select_option(label=opt)
+                            filled.append(f"{label[:30]} = {opt}")
+                            break
+                        except Exception:
+                            pass
                     continue
                 if not el.is_visible() or SKIP_LABEL.search(label):
                     continue
@@ -184,6 +198,46 @@ def fill(page, kit, cv, letter, text, lang):
             except Exception:
                 continue
     return filled, unknown
+
+
+APPLY_BTN = re.compile(r"^\s*(jetzt |direkt |online |schnell)?(bewerben|apply( now| for this job| here)?|"
+                       r"zur bewerbung|bewerbung starten|ich bin interessiert|i'?m interested)\s*$", re.I)
+CONFIRM = re.compile(r"(vielen )?dank für ihre bewerbung|bewerbung (wurde |ist )?(erfolgreich )?(eingegangen|"
+                     r"übermittelt|versendet|abgeschickt)|thank you for (your )?appl|application (has been )?"
+                     r"(submitted|received|sent)|we have received your application|successfully (submitted|applied)", re.I)
+
+
+def click_apply(page):
+    """Click an obvious Apply / Bewerben button once (job pages that show the form only after it)."""
+    for loc in (page.get_by_role("link"), page.get_by_role("button")):
+        try:
+            for i in range(min(loc.count(), 80)):
+                el = loc.nth(i)
+                if el.is_visible() and APPLY_BTN.search(el.inner_text(timeout=500) or ""):
+                    el.click(timeout=3000)
+                    return True
+        except Exception:
+            continue
+    return False
+
+
+def confirmed(ctx):
+    for p in ctx.pages:
+        try:
+            if CONFIRM.search(p.inner_text("body", timeout=1000)[:20000]):
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def key_pressed():
+    """Non-blocking key read (Windows); returns '' when no key was pressed."""
+    try:
+        import msvcrt
+        return msvcrt.getwch().lower() if msvcrt.kbhit() else ""
+    except ImportError:  # not Windows: fall back to a blocking prompt
+        return input("   [f]ill [a]pplied [s]kip [q]uit > ").strip().lower()[:1]
 
 
 def log_applied(kit):
@@ -225,30 +279,41 @@ def main():
                 page.goto(j.get("direct_url") or j.get("apply_url") or j["url"], timeout=60000)
             except Exception as ex:
                 print(f"   could not open the page ({ex}); open it by hand: {j['url']}")
-            print("   Click 'Apply / Bewerben' if needed (log in if the site asks), then press f to fill.")
-            while True:
-                key = input("   [f]ill  [a]pplied  [s]kip  [q]uit > ").strip().lower()
-                if key == "f":
-                    active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
-                    active.bring_to_front()
-                    filled, unknown = fill(active, kit, cv, letter, text, lang)
-                    print(f"   filled {len(filled)} fields:")
-                    for x in filled:
-                        print(f"     ✓ {x}")
-                    for x in unknown:
-                        print(f"     ✗ please fill yourself: {x}")
-                    print("   Check consent boxes and anything marked ✗, review, then click Submit in the browser.")
-                elif key == "a":
+            import time
+            page.wait_for_timeout(2500)
+            if click_apply(page):
+                page.wait_for_timeout(2500)
+            print("   AUTO: filling + uploading. Check, tick the privacy box, click Submit.  keys: f a s q")
+            seen, last_fill, nxt, uploads = {}, 0.0, None, {}
+            already = confirmed(ctx)  # a thank-you text on the job page itself must not count
+            while nxt is None:
+                active = ctx.pages[-1]  # the newest tab: job sites often open the form in a new tab
+                try:
+                    sig = (active.url, len(active.frames), active.locator("input, textarea, select").count())
+                except Exception:
+                    sig = None
+                key = key_pressed()
+                if key == "f" or (sig and seen.get(id(active)) != sig and time.time() - last_fill > 2):
+                    seen[id(active)] = sig
+                    last_fill = time.time()
+                    filled, unknown = fill(active, kit, cv, letter, text, lang, uploads.setdefault(active.url.split("?")[0], set()))
+                    if filled or key == "f":
+                        print(f"   filled {len(filled)} fields" + (": " + ", ".join(x[:25] for x in filled[:8]) if filled else ""))
+                        for x in unknown:
+                            print(f"     ✗ please fill yourself: {x}")
+                if key == "a" or (last_fill and not already and confirmed(ctx)):
                     log_applied(kit)
-                    print("   ✅ logged as applied")
-                    break
+                    print("   ✅ confirmation seen → logged as applied, next job")
+                    nxt = "next"
                 elif key == "s":
                     with open(SKIPPED, "a", encoding="utf-8") as f:
                         f.write(j["url"] + "\n")
-                    break
+                    nxt = "next"
                 elif key == "q":
                     ctx.close()
                     return
+                else:
+                    time.sleep(1)
             for p in ctx.pages[:-1] if len(ctx.pages) > 1 else []:
                 p.close()
         ctx.close()
