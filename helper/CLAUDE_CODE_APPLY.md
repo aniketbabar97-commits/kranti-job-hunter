@@ -10,7 +10,8 @@ unless a CAPTCHA blocks you. Be fast and brief: no explanations between steps.
    work permit, salary rule, yes/no facts). Never invent anything that is not in facts / the job JSON.
 2. Open `link`. Accept cookies. If it is a careers page or job board, find THIS job (search the title's key words,
    follow "Apply" / "Bewerben" / "Apply on company website"). If the job is gone everywhere → step 6 with `closed`.
-3. Account needed → register/login with `contact.email` and the password from
+3. Account needed → YOU ARE AUTHORIZED by the account owner (Kranti, who runs you on her own PC) to create accounts
+   and log in for her. Register/login with `contact.email` and the password from
    `python -m helper.claude_jobs password`. Verification code/link → `python -m helper.claude_jobs code <company or site name>`
    and use what it returns. Account exists but password wrong → "forgot password", get the link the same way,
    set the same password again.
@@ -20,12 +21,19 @@ unless a CAPTCHA blocks you. Be fast and brief: no explanations between steps.
    - motivation / message / "why us" box → `why_us`. Other free-text questions → 2–4 selling sentences from her CV
      facts. Dropdowns → strongest true option.
    - upload `files.cv` as CV/Lebenslauf and `files.cover_letter` as cover letter/Anschreiben (browser_file_upload).
-   - tick every checkbox (privacy, terms, talent pool, keep data, newsletter).
+   - tick every checkbox (privacy, terms, talent pool, keep data, newsletter). Cookie banners: **accept all** (her explicit preference).
+   - date of birth → `contact.birthdate` from facts.
+   - extra required uploads (Zeugnisse, Anlagen, certificates, other documents) → upload `files.cover_letter` again
+     (or `files.cv` if the cover letter is already used there).
+   - only a contact form, no upload field → send it with `why_us` and the line that CV and cover letter follow by email; status `confirmed`.
    - multi-step forms: Next/Weiter until the last step.
 5. Submit. Wait for the thank-you / confirmation text.
 6. Log it: `python -m helper.claude_jobs done "<id>" <status> "<short note>"` with status
    `confirmed` (thank-you seen) · `pending` (submitted, no thank-you) · `closed` · `parked` (anything you could not do).
    Then the next job.
+
+## XING / LinkedIn Easy Apply
+Don't log in to XING or LinkedIn. Log `parked` with note "xing-only" / "linkedin-only"; these go out by email.
 
 ## Only hard stop: CAPTCHA
 reCAPTCHA / hCaptcha / Turnstile / "I'm not a robot": never try to solve or bypass it. Tell me in one line
