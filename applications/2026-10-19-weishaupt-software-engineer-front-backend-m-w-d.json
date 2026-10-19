@@ -1,0 +1,242 @@
+{
+ "job": {
+  "title": "Software Engineer Front-/Backend (m/w/d)",
+  "company": "Weishaupt",
+  "location": "Schwendi, BW, Germany",
+  "url": "https://de.indeed.com/viewjob?jk=cdd385ce5459a72c",
+  "apply_url": "",
+  "score": 82,
+  "lang": "de",
+  "source": "Indeed",
+  "posted": "2026-10-19",
+  "contact": "sibylle.werner-nagl@weishaupt.de",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Software Engineer Front-/Backend | SAP Commerce Cloud, Headless Commerce, Java, Spring Boot & REST APIs",
+  "summary": "Backend and headless e-commerce developer with 5+ years of experience delivering enterprise applications on SAP Commerce Cloud (2105/2211) for Rockwell Automation and Shell. Strong background in Java, Spring Boot, RESTful APIs, microservices, and data modeling. Proven record designing OCC REST web services, headless integrations, and storefront connections while collaborating closely with business stakeholders. Experienced in performance tuning, production troubleshooting, and agile delivery. SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "Headless Commerce",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs",
+    "Promotions Engine"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Boot",
+    "Spring Framework",
+    "RESTful APIs",
+    "Microservices",
+    "Data Modeling",
+    "Design Patterns",
+    "JUnit",
+    "SOAP",
+    "Groovy"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "third-party integrations",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines"
+   ],
+   "Frontend & Web": [
+    "Progressive Web Application (PWA) integration",
+    "storefront customization",
+    "JavaScript",
+    "Responsive Design"
+   ],
+   "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
+    "production support and troubleshooting",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "Git",
+    "Hybris Admin Console (HAC)"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Process mapping",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    1,
+    0,
+    4,
+    3,
+    6,
+    2,
+    5,
+    7
+   ],
+   "shell": [
+    1,
+    0,
+    2,
+    4,
+    5,
+    3,
+    6
+   ],
+   "cognizant": [
+    1,
+    0,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Headless-Architektur",
+   "REST-APIs",
+   "Backend-Services",
+   "Datenmodelle",
+   "Schnittstellen im Backend",
+   "Microservices",
+   "Storefront",
+   "Monitoring",
+   "kontinuierliche Verbesserung",
+   "Applikations-Entwickler"
+  ],
+  "keywords_missing": [
+   "Angular",
+   "Azure App Services",
+   "Azure IoT",
+   "Fabrics"
+  ],
+  "cover_en": {
+   "subject": "Application: Software Engineer Front-/Backend (m/w/d) – Ref. 1409",
+   "salutation": "Dear Ms Werner-Nagl,",
+   "hook": "Weishaupt's reputation for premium energy systems and state-of-the-art digital services like the Weishaupt Anlagenportal requires resilient, high-performing software architecture. With over five years of enterprise experience building robust backend services, headless architectures, and data integrations on SAP Commerce Cloud for Rockwell Automation and Shell, I am eager to contribute to your engineering team in Schwendi.",
+   "bullets": [
+    {
+     "label": "Headless Architecture & REST APIs",
+     "text": "Developed and exposed OCC REST Web Services and RESTful APIs for headless commerce and storefront applications, configuring interceptors, populators, and converters for seamless data delivery."
+    },
+    {
+     "label": "Backend Services & Data Modeling",
+     "text": "Implemented core backend functionality in Java and Spring, managing complex data models, pricing, catalog structures, and system migrations to ensure platform stability and data consistency."
+    },
+    {
+     "label": "Integration & Production Support",
+     "text": "Investigated and resolved integration bottlenecks across ERP and third-party systems, refactored database queries to boost transaction speed, and provided reliable production support."
+    },
+    {
+     "label": "Collaboration with Business Experts",
+     "text": "Worked in techno-functional settings with business stakeholders and product teams, translating functional requirements into clear user stories, technical specifications, and robust solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I reside in Karlsruhe and hold a valid German residence and work permit requiring no visa sponsorship. I am currently serving my notice period with a final working day of 15 December 2026, making me available to start on 16 December 2026. I welcome the opportunity to discuss my qualifications in an interview.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Software Engineer Front-/Backend (m/w/d) – Kenn-Nr. 1409",
+   "salutation": "Sehr geehrte Frau Werner-Nagl,",
+   "hook": "Die erstklassigen Heiz- und Energiesysteme von Weishaupt und innovative digitale Angebote wie das Weishaupt Anlagenportal erfordern leistungsfähige, zukunftssichere Softwarelösungen. Mit über fünf Jahren Erfahrung in der Backend- und Schnittstellenentwicklung auf Basis von SAP Commerce Cloud bei Rockwell Automation und Shell möchte ich Ihre Anwendungslandschaft am Stammhaus Schwendi wirkungsvoll verstärken.",
+   "bullets": [
+    {
+     "label": "Headless-Architektur & REST-APIs",
+     "text": "Ich habe OCC REST Web Services und RESTful APIs für Headless-Szenarien und Storefront-Anbindungen entwickelt und Interceptors, Populators sowie Converters für passgenaue Datenflüsse implementiert."
+    },
+    {
+     "label": "Backend-Entwicklung & Datenmodellierung",
+     "text": "Mit Java und Spring habe ich Backend-Funktionalitäten und Datenmodelle auf SAP Commerce Cloud umgesetzt sowie API-Migrationen für Kundenstrukturen erfolgreich durchgeführt."
+    },
+    {
+     "label": "Schnittstellen & Performance-Optimierung",
+     "text": "Ich habe Integrationsengpässe zwischen ERP- und Umsystemen behoben, Datenbankabfragen zur Reduzierung von Latenzen refaktoriert und den zuverlässigen Produktionsbetrieb sichergestellt."
+    },
+    {
+     "label": "Zusammenarbeit mit Business-Experten",
+     "text": "In enger Abstimmung mit Product Ownern und Fachbereichen habe ich Anforderungen analysiert, User Stories sowie funktionale Spezifikationen verfasst und die Umsetzung bis zum UAT begleitet."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe und verfüge über einen gültigen Aufenthaltstitel mit uneingeschränkter Arbeitserlaubnis. Da ich mich in ungekündigter Anstellung befinde und mein letzter Arbeitstag der 15.12.2026 ist, stehe ich Ihnen ab dem 16.12.2026 zur Verfügung. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+   "closing": ""
+  },
+  "why_company": "Weishaupt is synonymous with premium engineering, reliability, and technological leadership in heating and energy technology. Advancing digital platforms like the Weishaupt Anlagenportal requires resilient backend architectures, clean API design, and seamless integrations. I want to bring my SAP Commerce Cloud and REST API experience to an industry leader where solid software craftsmanship directly supports world-class industrial products.",
+  "motivation_short": "Motivated to bring 5+ years of enterprise SAP Commerce Cloud, Java, and REST API experience to Weishaupt, delivering scalable backend services and headless architectures for the Weishaupt Anlagenportal.",
+  "linkedin_message": "Dear Ms Werner-Nagl, with 5+ years in SAP Commerce Cloud, Java, and headless REST APIs at Rockwell Automation and Shell, I would love to support Weishaupt's digital portal solutions. I have submitted my application for the Software Engineer role (Ref. 1409).",
+  "email_subject": "Bewerbung als Software Engineer Front-/Backend (m/w/d) – Kenn-Nr. 1409 – Kranti Chavan",
+  "email_body": "Sehr geehrte Frau Werner-Nagl,\n\nmit großem Interesse bewerbe ich mich auf die Position als Software Engineer Front-/Backend (Kenn-Nr. 1409) am Standort Schwendi. Als SAP-zertifizierte Entwicklerin mit über fünf Jahren Erfahrung in Java, SAP Commerce Cloud und RESTful APIs möchte ich die Weiterentwicklung Ihrer Portal- und Backend-Services engagiert unterstützen. Meine vollständigen Bewerbungsunterlagen habe ich dieser Nachricht beigefügt.\n\nÜber die Gelegenheit zu einem persönlichen Gespräch freue ich mich sehr.\n\nMit freundlichen Grüßen\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Software Engineer Front-/Backend (m/w/d) – Ref. 1409",
+   "salutation": "Dear Ms Werner-Nagl,",
+   "hook": "Weishaupt's reputation for premium energy systems and state-of-the-art digital services like the Weishaupt Anlagenportal requires resilient, high-performing software architecture. With over five years of enterprise experience building robust backend services, headless architectures, and data integrations on SAP Commerce Cloud for Rockwell Automation and Shell, I am eager to contribute to your engineering team in Schwendi.",
+   "bullets": [
+    {
+     "label": "Headless Architecture & REST APIs",
+     "text": "Developed and exposed OCC REST Web Services and RESTful APIs for headless commerce and storefront applications, configuring interceptors, populators, and converters for seamless data delivery."
+    },
+    {
+     "label": "Backend Services & Data Modeling",
+     "text": "Implemented core backend functionality in Java and Spring, managing complex data models, pricing, catalog structures, and system migrations to ensure platform stability and data consistency."
+    },
+    {
+     "label": "Integration & Production Support",
+     "text": "Investigated and resolved integration bottlenecks across ERP and third-party systems, refactored database queries to boost transaction speed, and provided reliable production support."
+    },
+    {
+     "label": "Collaboration with Business Experts",
+     "text": "Worked in techno-functional settings with business stakeholders and product teams, translating functional requirements into clear user stories, technical specifications, and robust solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I reside in Karlsruhe and hold a valid German residence and work permit requiring no visa sponsorship. I am currently serving my notice period with a final working day of 15 December 2026, making me available to start on 16 December 2026. I welcome the opportunity to discuss my qualifications in an interview.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Software Engineer Front-/Backend (m/w/d) – Kenn-Nr. 1409",
+   "salutation": "Sehr geehrte Frau Werner-Nagl,",
+   "hook": "Die erstklassigen Heiz- und Energiesysteme von Weishaupt und innovative digitale Angebote wie das Weishaupt Anlagenportal erfordern leistungsfähige, zukunftssichere Softwarelösungen. Mit über fünf Jahren Erfahrung in der Backend- und Schnittstellenentwicklung auf Basis von SAP Commerce Cloud bei Rockwell Automation und Shell möchte ich Ihre Anwendungslandschaft am Stammhaus Schwendi wirkungsvoll verstärken.",
+   "bullets": [
+    {
+     "label": "Headless-Architektur & REST-APIs",
+     "text": "Ich habe OCC REST Web Services und RESTful APIs für Headless-Szenarien und Storefront-Anbindungen entwickelt und Interceptors, Populators sowie Converters für passgenaue Datenflüsse implementiert."
+    },
+    {
+     "label": "Backend-Entwicklung & Datenmodellierung",
+     "text": "Mit Java und Spring habe ich Backend-Funktionalitäten und Datenmodelle auf SAP Commerce Cloud umgesetzt sowie API-Migrationen für Kundenstrukturen erfolgreich durchgeführt."
+    },
+    {
+     "label": "Schnittstellen & Performance-Optimierung",
+     "text": "Ich habe Integrationsengpässe zwischen ERP- und Umsystemen behoben, Datenbankabfragen zur Reduzierung von Latenzen refaktoriert und den zuverlässigen Produktionsbetrieb sichergestellt."
+    },
+    {
+     "label": "Zusammenarbeit mit Business-Experten",
+     "text": "In enger Abstimmung mit Product Ownern und Fachbereichen habe ich Anforderungen analysiert, User Stories sowie funktionale Spezifikationen verfasst und die Umsetzung bis zum UAT begleitet."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe und verfüge über einen gültigen Aufenthaltstitel mit uneingeschränkter Arbeitserlaubnis. Da ich mich in ungekündigter Anstellung befinde und mein letzter Arbeitstag der 15.12.2026 ist, stehe ich Ihnen ab dem 16.12.2026 zur Verfügung. Über die Einladung zu einem persönlichen Gespräch freue ich mich sehr.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-19"
+}
