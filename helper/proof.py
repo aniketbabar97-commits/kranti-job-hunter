@@ -70,10 +70,11 @@ def applied_line(job, how="confirmed"):
 def push(job):
     """Share APPLIED.md with the daily hunter (best effort)."""
     try:
-        subprocess.run(["git", "-C", str(ROOT), "add", "APPLIED.md", "data/submissions.json", "data/ats_trust.json"],
-                       check=True, capture_output=True)
+        files = [p for p in ("APPLIED.md", "data/submissions.json", "data/ats_trust.json", "data/claude_runs.json",
+                             "helper/PLAYBOOK.md") if (ROOT / p).exists()]  # a missing path makes git add fail
+        subprocess.run(["git", "-C", str(ROOT), "add", *files], check=True, capture_output=True)
         subprocess.run(["git", "-C", str(ROOT), "commit", "-m", f"applied: {job['company']}"], capture_output=True)
-        subprocess.run(["git", "-C", str(ROOT), "pull", "--rebase", "-q"], capture_output=True, timeout=60)
+        subprocess.run(["git", "-C", str(ROOT), "pull", "--rebase", "--autostash", "-q"], capture_output=True, timeout=60)
         subprocess.run(["git", "-C", str(ROOT), "push", "-q"], capture_output=True, timeout=60)
     except Exception:
         print("   (saved locally; could not push to GitHub — that's fine)")

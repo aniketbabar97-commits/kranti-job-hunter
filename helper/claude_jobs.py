@@ -42,6 +42,29 @@ def _dup_key(kit):
     return norm(kit["job"]["company"])[:12] + "|" + norm(kit["job"]["title"])[:30]
 
 
+GONE_RX = re.compile(r"(no longer (available|accepting|active)|position (has been )?(filled|closed)|job (is )?(closed|expired)|"
+                     r"nicht mehr (verfügbar|aktiv|besetzt|online)|bereits besetzt|stelle (ist )?(leider )?besetzt|"
+                     r"(anzeige|stellenanzeige|ausschreibung) (ist )?abgelaufen|existiert nicht mehr|seite nicht gefunden)", re.I)
+
+
+def is_gone(kit):
+    """Cheap check before spending ~5 min on a job: posting deleted (404/410) or says it's filled/expired."""
+    import requests
+    j = kit["job"]
+    try:
+        if "arbeitsagentur.de/jobsuche" in j["url"] and not (j.get("form_url") or j.get("direct_url")):
+            from hunter import sources
+            sources.arbeitsagentur_details(dict(j))  # 404 when the BA posting was taken down
+            return False
+        r = requests.get(j.get("form_url") or j.get("direct_url") or j.get("apply_url") or j["url"], timeout=12,
+                         headers={"User-Agent": "Mozilla/5.0"}, allow_redirects=True)
+        return r.status_code in (404, 410) or bool(GONE_RX.search(r.text[:200000]))
+    except requests.HTTPError as ex:
+        return ex.response is not None and ex.response.status_code in (404, 410)
+    except Exception:
+        return False  # unreachable / blocked: let Claude look at it
+
+
 def next_jobs(n=1):
     from hunter.kit import salary_answer
     done = _state()
@@ -60,9 +83,15 @@ def next_jobs(n=1):
         only = os.environ.get("APPLY_ONLY")  # e.g. "sap commerce|hybris|sap cx": focus run on these titles
         if only and not re.search(only, j["title"], re.I):
             continue
+        if int(j.get("score") or 0) < int(os.environ.get("MIN_SCORE") or 0) \
+                or kit.get("created", "") < os.environ.get("APPLY_SINCE", ""):  # focus run: best fit, recent only
+            continue
         recent = d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 6 * 3600))
         if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
+            continue
+        if is_gone(kit):
+            done(_id(kit), "closed", "auto: posting gone (404 or 'no longer available')")
             continue
         cv, letter, _, lang = build_pdfs(kit)
         sal = salary_answer({"salary": j.get("salary", "")})
@@ -166,6 +195,11 @@ def main():
             text = text.replace(head, head + "\n" + line, 1) if head in text else text.rstrip() + f"\n\n{head}\n{line}\n"
             pb.write_text(text, encoding="utf-8")
         res = {"learned": True}
+    elif cmd == "answer":  # answer <id> <question> <answer>: self-written answers, reviewed later to improve
+        with open(ROOT / "data" / "answers.jsonl", "a", encoding="utf-8") as fh:
+            fh.write(json.dumps({"ts": time.strftime("%Y-%m-%d %H:%M"), "id": sys.argv[2], "q": sys.argv[3],
+                                 "a": sys.argv[4]}, ensure_ascii=False) + "\n")
+        res = {"logged": True}
     elif cmd == "done":
         res = done(sys.argv[2], sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else "")
     else:

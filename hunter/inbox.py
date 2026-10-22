@@ -25,8 +25,17 @@ INTERVIEW = re.compile(r"vorstellungsgespräch|kennenlern|einladung|interview|te
 REJECT = re.compile(r"leider|absage|nicht berücksichtig|nicht weiter berücksichtig|anderen? (kandidat|bewerber)|"
                     r"entschieden,? (uns )?für|unfortunately|regret|not (to )?(move|proceed)|other candidates?|"
                     r"decided to (pursue|move forward with)|position has been filled|stelle (ist )?bereits besetzt", re.I)
-RECEIPT = re.compile(r"eingangsbestätigung|eingang ihrer bewerbung|bewerbung erhalten|received your application|"
+RECEIPT = re.compile(r"eingangsbestätigung|^(ihre|deine) bewerbung\b|^bewerbung bei|your application (at|to)\b|"
+                     r"eingang deiner bewerbung|eingetroffen|automati(c|sche) (reply|antwort)|vielen dank für deine bewerbung|"
+                     r"^[\w .-]+: (deine|ihre) bewerbung|(deine|ihre) bewerbung .{0,80}(erhalten|eingegangen)|bei uns eingegangen|eingang ihrer bewerbung|bewerbung erhalten|received your application|"
                      r"thank you for (your )?appl|vielen dank für ihre bewerbung|application (has been )?received", re.I)
+# a real invitation, even inside a receipt-style mail ("we would like to invite you ...")
+INVITE = re.compile(r"einladung (zu|zum)|vorstellungsgespräch|lade[nt]? (sie|dich) .{0,40}ein|invite you|invitation to|"
+                    r"calendly|terminvorschl|schedule (a|an) (call|interview|chat)|interview (on|am)\b", re.I)
+ALERT = re.compile(r"jobs? matching your|saved search|job ?alert|neue jobs|neue stellen|neue .{0,40}veröffentlichte stellen|"
+                   r"stellenangebote für sie|recommended jobs|sucht bewerber wie dich|: €\d+k|und weitere jobs|"
+                   r"job preferences|benutzerkonto|profil wurde erstellt|passwort|password|verify your account|"
+                   r"sign in and continue|ausbildungsplatz", re.I)
 SKIP_FROM = re.compile(r"linkedin\.com|indeed\.|xing\.com|stepstone|glassdoor|noreply@github|google\.com|"
                        r"arbeitsagentur|newsletter|marketing", re.I)
 LEGAL = re.compile(r"\b(gmbh|ag|se|kg|co|mbh|ltd|inc|llc|group|gruppe|deutschland|germany|holding|& co)\b", re.I)
@@ -75,6 +84,10 @@ def _text(msg):
 
 def classify(subject, body):
     text = f"{subject}\n{body[:3000]}"
+    if ALERT.search(subject):
+        return "alert"
+    if RECEIPT.search(text) and not INVITE.search(text):  # receipts often say "next steps" / "Termin" in passing
+        return "rejection" if REJECT.search(text) and not RECEIPT.search(subject) else "received"
     if INTERVIEW.search(text) and not REJECT.search(text):
         return "interview"
     if REJECT.search(text):
@@ -122,7 +135,10 @@ def scan(days=60):
                 when = parsedate_to_datetime(h.get("Date")).date().isoformat()
             except Exception:
                 when = date.today().isoformat()
-            rec = {"date": when, "company": company, "category": classify(subject, body), "subject": subject[:140]}
+            cat = classify(subject, body)
+            if cat == "alert":  # job-alert newsletters are not company replies
+                continue
+            rec = {"date": when, "company": company, "category": cat, "subject": subject[:140]}
             known[mid] = rec
             new.append(rec)
         imap.logout()

@@ -1,0 +1,238 @@
+{
+ "job": {
+  "title": "Senior Fullstack Developer dm-App & Onlineshop - Kotlin, Spring Boot, React, TypeScript (w/m/d)",
+  "company": "dmTECH GmbH",
+  "location": "Karlsruhe, Baden, Baden-Wuerttemberg",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12787-267525221026-S",
+  "apply_url": "",
+  "score": 63,
+  "lang": "de",
+  "source": "Arbeitsagentur",
+  "posted": "2026-10-22",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior Fullstack & SAP Commerce Developer | Java, Spring Boot & REST APIs | SAP Certified",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms and web applications for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL, search indexing, and performance tuning. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews, and cross-functional agile teams. SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "JUnit",
+    "Groovy",
+    "Design Patterns"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "third-party integrations"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "Responsive Design",
+    "storefront customization"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "Technical Mentoring",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    5,
+    6,
+    7,
+    2,
+    3,
+    4
+   ],
+   "shell": [
+    1,
+    0,
+    5,
+    4,
+    6,
+    2,
+    3
+   ],
+   "cognizant": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  "keywords_matched": [
+   "Spring Boot",
+   "RESTful APIs",
+   "Microservices",
+   "agilen Teams",
+   "Software-Architektur",
+   "Skalierbarkeit",
+   "Wartbarkeit"
+  ],
+  "keywords_missing": [
+   "Kotlin",
+   "React",
+   "TypeScript",
+   "Kafka",
+   "Elasticsearch",
+   "Cloud Foundry",
+   "Terraform",
+   "GitLab CI",
+   "Datadog"
+  ],
+  "cover_en": {
+   "subject": "Application: Senior Fullstack Developer dm-App & Onlineshop - Kotlin, Spring Boot, React, TypeScript (w/m/d)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As an experienced software developer based in Karlsruhe with over 5 years of enterprise platform engineering experience at Rockwell Automation and Shell, I am thrilled by dmTECH's mission to shape the future of omnichannel shopping for 8 million monthly customers. My background delivering robust backend architectures and high-performance RESTful APIs aligns directly with your scaling goals for the dm-App and Onlineshop.",
+   "bullets": [
+    {
+     "label": "Spring Boot Backend Architecture",
+     "text": "Designed and implemented robust backend functionality using Java and Spring, ensuring high scalability, reliability, and maintainability across enterprise e-commerce platforms."
+    },
+    {
+     "label": "RESTful APIs & Headless Services",
+     "text": "Developed and exposed OCC REST Web Services and microservice-oriented endpoints to power seamless storefront and third-party consumer integrations."
+    },
+    {
+     "label": "Search Indexing & Performance Tuning",
+     "text": "Configured Apache Solr search indexing and led database query refactoring that reduced response latency and optimized transaction speed for complex product catalogs."
+    },
+    {
+     "label": "Cross-Functional Agile Delivery",
+     "text": "Collaborated closely with business stakeholders, product owners, and international technical teams in agile environments to translate requirements into scalable software solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am located in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on December 15, 2026. I am available to start on December 16, 2026, and would welcome the opportunity to discuss how my expertise can contribute to dmTECH.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Senior Fullstack Developer dm-App & Onlineshop - Kotlin, Spring Boot, React, TypeScript (w/m/d)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Als erfahrene Softwareentwicklerin mit Wohnsitz in Karlsruhe und über fünf Jahren fundierter Praxis in der Entwicklung großer Enterprise-Plattformen bei Rockwell Automation und Shell begeistert mich dmTECHs Vision, das Omnichannel-Shopping für monatlich 8 Millionen Kundinnen und Kunden maßgeblich mitzugestalten. Meine tiefgehende Expertise in der Backend-Entwicklung mit Spring Boot und RESTful APIs passt perfekt zu Ihren Anforderungen an skalierbare und wartbare Architekturen.",
+   "bullets": [
+    {
+     "label": "Spring Boot & Backend-Architektur",
+     "text": "Konzeption und Implementierung robuster Backend-Komponenten mit Java und Spring unter strenger Berücksichtigung von Skalierbarkeit, Zuverlässigkeit und Wartbarkeit."
+    },
+    {
+     "label": "RESTful APIs & Integrationen",
+     "text": "Entwicklung und Bereitstellung von OCC REST Web Services und headless Schnittstellen für performante Web- und Drittanbietersysteme."
+    },
+    {
+     "label": "Suche & Performance-Optimierung",
+     "text": "Konfiguration der Apache Solr Suchindizierung sowie erfolgreiche Durchführung von Datenbank-Query-Refactorings zur Reduzierung von Latenzen und Erhöhung der Transaktionsgeschwindigkeit."
+    },
+    {
+     "label": "Agile Zusammenarbeit",
+     "text": "Erfolgreiche Mitarbeit in crossfunktionalen, agilen Teams, enge Abstimmung mit Fachbereichen sowie professionelle Anforderungsanalyse und Prozessabbildung."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich wohne in Karlsruhe, verfüge über eine unbeschränkte deutsche Arbeitserlaubnis und stehe nach Ablauf meiner Kündigungsfrist ab dem 16.12.2026 (letzter Arbeitstag 15.12.2026) zur Verfügung. Ich freue mich sehr auf ein persönliches Gespräch.",
+   "closing": ""
+  },
+  "why_company": "I want to work at dmTECH because shaping the digital touchpoints, search experiences, and omnichannel services for 8 million monthly customers at dm-drogerie markt is a uniquely impactful engineering challenge. I am inspired by your focus on sustainable, long-term software architecture and cross-functional product teams in Karlsruhe.",
+  "motivation_short": "With 5+ years building robust enterprise backends and REST APIs, I bring strong Spring Boot expertise, architectural rigor, and agile delivery experience to dmTECH's product teams.",
+  "linkedin_message": "Hello! I am a senior backend developer based in Karlsruhe with 5+ years of experience building enterprise Spring platforms, REST APIs, and search indexing solutions at Rockwell and Shell. I am very excited about dmTECH's work on the dm-App and Onlineshop. Let's connect!",
+  "email_subject": "Bewerbung: Senior Fullstack Developer dm-App & Onlineshop - Kranti Chavan",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nals in Karlsruhe ansässige Softwareentwicklerin mit über 5 Jahren Erfahrung in der Enterprise-Softwareentwicklung bewerbe ich mich für die Position als Senior Fullstack Developer für die dm-App und den Onlineshop.\n\nMeine detaillierten Unterlagen (Lebenslauf und Anschreiben) finden Sie im Anhang dieser E-Mail.\n\nIch freue mich über die Gelegenheit zu einem persönlichen Gespräch.\n\nMit freundlichen Grüßen,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Senior Fullstack Developer dm-App & Onlineshop - Kotlin, Spring Boot, React, TypeScript (w/m/d)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As an experienced software developer based in Karlsruhe with over 5 years of enterprise platform engineering experience at Rockwell Automation and Shell, I am thrilled by dmTECH's mission to shape the future of omnichannel shopping for 8 million monthly customers. My background delivering robust backend architectures and high-performance RESTful APIs aligns directly with your scaling goals for the dm-App and Onlineshop.",
+   "bullets": [
+    {
+     "label": "Spring Boot Backend Architecture",
+     "text": "Designed and implemented robust backend functionality using Java and Spring, ensuring high scalability, reliability, and maintainability across enterprise e-commerce platforms."
+    },
+    {
+     "label": "RESTful APIs & Headless Services",
+     "text": "Developed and exposed OCC REST Web Services and microservice-oriented endpoints to power seamless storefront and third-party consumer integrations."
+    },
+    {
+     "label": "Search Indexing & Performance Tuning",
+     "text": "Configured Apache Solr search indexing and led database query refactoring that reduced response latency and optimized transaction speed for complex product catalogs."
+    },
+    {
+     "label": "Cross-Functional Agile Delivery",
+     "text": "Collaborated closely with business stakeholders, product owners, and international technical teams in agile environments to translate requirements into scalable software solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am located in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on December 15, 2026. I am available to start on December 16, 2026, and would welcome the opportunity to discuss how my expertise can contribute to dmTECH.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Senior Fullstack Developer dm-App & Onlineshop - Kotlin, Spring Boot, React, TypeScript (w/m/d)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Als erfahrene Softwareentwicklerin mit Wohnsitz in Karlsruhe und über fünf Jahren fundierter Praxis in der Entwicklung großer Enterprise-Plattformen bei Rockwell Automation und Shell begeistert mich dmTECHs Vision, das Omnichannel-Shopping für monatlich 8 Millionen Kundinnen und Kunden maßgeblich mitzugestalten. Meine tiefgehende Expertise in der Backend-Entwicklung mit Spring Boot und RESTful APIs passt perfekt zu Ihren Anforderungen an skalierbare und wartbare Architekturen.",
+   "bullets": [
+    {
+     "label": "Spring Boot & Backend-Architektur",
+     "text": "Konzeption und Implementierung robuster Backend-Komponenten mit Java und Spring unter strenger Berücksichtigung von Skalierbarkeit, Zuverlässigkeit und Wartbarkeit."
+    },
+    {
+     "label": "RESTful APIs & Integrationen",
+     "text": "Entwicklung und Bereitstellung von OCC REST Web Services und headless Schnittstellen für performante Web- und Drittanbietersysteme."
+    },
+    {
+     "label": "Suche & Performance-Optimierung",
+     "text": "Konfiguration der Apache Solr Suchindizierung sowie erfolgreiche Durchführung von Datenbank-Query-Refactorings zur Reduzierung von Latenzen und Erhöhung der Transaktionsgeschwindigkeit."
+    },
+    {
+     "label": "Agile Zusammenarbeit",
+     "text": "Erfolgreiche Mitarbeit in crossfunktionalen, agilen Teams, enge Abstimmung mit Fachbereichen sowie professionelle Anforderungsanalyse und Prozessabbildung."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich wohne in Karlsruhe, verfüge über eine unbeschränkte deutsche Arbeitserlaubnis und stehe nach Ablauf meiner Kündigungsfrist ab dem 16.12.2026 (letzter Arbeitstag 15.12.2026) zur Verfügung. Ich freue mich sehr auf ein persönliches Gespräch.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-22"
+}

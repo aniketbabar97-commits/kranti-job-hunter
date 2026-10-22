@@ -40,6 +40,9 @@ For business-analyst, consultant, product-owner or project roles, frame her real
 analysing integration problems with business and technical teams, designing data flows between PIM/ERP/MDM and the
 shop, planning API migrations, supporting the business in production, working with international stakeholders.
 Mirror the posting's keywords everywhere they truthfully fit (ATS and AI screening must score her high).
+Keyword gaps: for every important posting keyword she lacks, find her nearest REAL experience and describe it in the
+posting's wording (e.g. "API integration" for her OCC/REST work, "data migration" for her PIM/ERP pipelines) — never
+claim the missing tool itself.
 TRUTH RULES (never break — selling is not inventing):
 - Use ONLY facts from her master CV below. Never invent employers, numbers, projects, tools or certificates.
 - Keep her own verbs ("developed", "configured", "executed", "led database query refactoring" ...). Do not upgrade.
@@ -192,6 +195,23 @@ def unverified_tech(master, texts):
     return [t.strip() for t in TECH if t.strip().lower() in blob.lower() and t.strip().lower() not in cv]
 
 
+WEAK = re.compile(r"[^.!?]*\b(keen to learn|eager to learn|not yet|no experience|limited experience|lack|"
+                  r"although I have not|noch keine|keine Erfahrung|wenig Erfahrung|bisher nicht)\b[^.!?]*[.!?]\s*", re.I)
+
+
+def review(master, cl):
+    """Second check before rendering: drop sentences naming tech the master CV lacks, or volunteering weaknesses."""
+    def clean(text):
+        text = WEAK.sub("", text or "")
+        for tech in unverified_tech(master, [text]):
+            text = re.sub(r"[^.!?]*\b" + re.escape(tech) + r"\b[^.!?]*[.!?]\s*", "", text, flags=re.I)
+        return text.strip()
+    cl["hook"] = clean(cl.get("hook")) or cl.get("hook", "")
+    cl["bullets"] = [b for b in ({**b, "text": clean(b.get("text"))} for b in cl.get("bullets", [])) if b["text"]] \
+        or cl.get("bullets", [])
+    return cl
+
+
 def _cover_text(cl):
     """Claims of experience — the honest 'gap' paragraph (missing skills) is deliberately excluded."""
     return " ".join([cl.get("hook", ""), cl.get("logistics", "")]
@@ -290,7 +310,7 @@ def _make_one(job, master, today, force, made):
     htmls = [out / "Kranti_Chavan_CV.html"]
     htmls[0].write_text(documents.render_cv(master, t), encoding="utf-8")
     letters = [(lang, complete_letter(t.get(f"cover_{lang}"), lang, job)) for lang in (["en", "de"] if german else ["en"])]
-    letters = [(lang, cl) for lang, cl in letters if cl]
+    letters = [(lang, review(master, cl)) for lang, cl in letters if cl]
     if not letters:
         log.warning("kit for %s skipped: incomplete letters", job["title"])
         return 0

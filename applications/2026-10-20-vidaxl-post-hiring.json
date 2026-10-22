@@ -1,0 +1,170 @@
+{
+ "job": {
+  "title": "[Post] #hiring",
+  "company": "vidaXL",
+  "location": "",
+  "url": "https://www.linkedin.com/posts/woger-trading-b.v._hiring-activity-7514647272127774720-wV3v",
+  "apply_url": "",
+  "score": 65,
+  "lang": "en",
+  "source": "LinkedIn post",
+  "posted": "2026-10-11",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, and agile teams.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "Design Patterns",
+    "JUnit"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    3
+   ],
+   "cognizant": [
+    0,
+    2,
+    1,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Java",
+   "Spring",
+   "RESTful APIs",
+   "Microservices",
+   "CI/CD",
+   "Agile",
+   "SQL"
+  ],
+  "keywords_missing": [
+   "vidaXL internal systems"
+  ],
+  "cover_en": {
+   "subject": "Application: SAP Commerce Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in joining the e-commerce engineering team at vidaXL. With over 5 years of professional experience building, extending, and supporting large-scale enterprise platforms on SAP Commerce Cloud (Hybris) at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and headless API architectures.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "API & Integration Delivery",
+     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators, and Converters for seamless data flows across enterprise channels."
+    },
+    {
+     "label": "Data Pipelines & PIM",
+     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
+    },
+    {
+     "label": "Cloud & DevOps Operations",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, supported by robust database query optimization."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving my notice period with a last working day on 15.12.2026 and am available to start on 16.12.2026. I would welcome the opportunity to discuss how my SAP Commerce background aligns with vidaXL's technology goals.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "vidaXL operates a massive, dynamic international e-commerce platform that demands robust, high-performance backend architecture. My extensive hands-on experience scaling SAP Commerce Cloud solutions, optimizing data pipelines, and delivering resilient microservices and APIs at enterprise scale aligns directly with your technical environment and growth ambitions.",
+  "motivation_short": "Bringing 5+ years of enterprise SAP Commerce Cloud, Java, and API integration expertise to scale and optimize e-commerce platforms at vidaXL.",
+  "linkedin_message": "Hello! With 5+ years building enterprise SAP Commerce Cloud platforms at Rockwell Automation and Shell (Java, Spring, OCC REST APIs, CI/CD), I am very interested in the SAP Commerce Developer role at vidaXL. My CV and cover letter are attached. I'd love to connect!",
+  "email_subject": "Application: SAP Commerce Developer - Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my application documents for the SAP Commerce Developer position at vidaXL. With over 5 years of hands-on experience building and scaling enterprise e-commerce platforms using SAP Commerce Cloud, Java, Spring, and REST APIs at Rockwell Automation and Shell, I am well-equipped to contribute effectively to your technical team.\n\nI am based in Karlsruhe with a valid work permit and am available starting 16.12.2026.\n\nBest regards,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Commerce Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am writing to express my strong interest in joining the e-commerce engineering team at vidaXL. With over 5 years of professional experience building, extending, and supporting large-scale enterprise platforms on SAP Commerce Cloud (Hybris) at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and headless API architectures.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "API & Integration Delivery",
+     "text": "Developed and exposed OCC REST Web Services and customized Interceptors, Populators, and Converters for seamless data flows across enterprise channels."
+    },
+    {
+     "label": "Data Pipelines & PIM",
+     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub to keep product catalogs synchronized across global e-commerce channels."
+    },
+    {
+     "label": "Cloud & DevOps Operations",
+     "text": "Executed CI/CD deployment cycles and release builds on SAP Commerce Cloud (CCv2) within agile DevOps workflows, supported by robust database query optimization."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German residence and work permit, I am currently serving my notice period with a last working day on 15.12.2026 and am available to start on 16.12.2026. I would welcome the opportunity to discuss how my SAP Commerce background aligns with vidaXL's technology goals.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-20"
+}
