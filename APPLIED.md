@@ -37,3 +37,6 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003348137-S (Provitex GmbH, emailed to jobs@provitex.de)
 - 2026-10-18 https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-64785-S (VI-ARISE, emailed to mail@vi-arise.com)
 - 2026-10-18 https://techjogulas.com/#api-integration-architect-2026-10-18 (Tech Jogulas, emailed to info@techjogulas.com)
+- 2026-10-22 https://www.xing.com/jobs/hohenlohekreis-senior-projektmanager-sap-commerce-cloud-cx-158502545 (Biber & Associates, emailed to de@biber-associates.com)
+- 2026-10-22 https://www.arbeitsagentur.de/jobsuche/jobdetail/18088-k60163.1086-S (Heizungsdiscount 24 GmbH, emailed to bewerbung@heizungsdiscount24.de)
+- 2026-10-22 https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205867177-S (Hermedia Verlag GmbH, emailed to bewerbung@timetex.de)
