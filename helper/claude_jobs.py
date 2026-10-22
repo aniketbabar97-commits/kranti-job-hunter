@@ -83,6 +83,9 @@ def next_jobs(n=1):
         only = os.environ.get("APPLY_ONLY")  # e.g. "sap commerce|hybris|sap cx": focus run on these titles
         if only and not re.search(only, j["title"], re.I):
             continue
+        if int(j.get("score") or 0) < int(os.environ.get("MIN_SCORE") or 0) \
+                or kit.get("created", "") < os.environ.get("APPLY_SINCE", ""):  # focus run: best fit, recent only
+            continue
         recent = d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 6 * 3600))
         if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
