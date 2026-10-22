@@ -35,6 +35,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - Notice field: "Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026".
 
 ## dm-jobs / dmTECH
+- Cookie banner: shadow DOM button#accept via JS. Mail-Login field is a web component - real mouse clicks by coordinates (scroll with mouse.wheel), then 'code dm-jobs'. Wizard fields by id; final button is 'Bewerbung absenden' (getByRole, JS click) - NOT button[type=submit] (that is the header search and discards the form). 409 ALREADY_EXISTS = application already on file. Logout timer 15 min; each slow tool call burns it.
 - Apply wizard: fill step 1 with ISO date (type=date) via locators; Weiter link is covered by an error overlay - click via JS .dm-apply-page__btn-next. Existing profile for the email -> send magic link, 'code dm-jobs', open link immediately; profile prefill has wrong birth year/address, re-fill them. Old CV and 'Weitere Dokumente' carry over: Datei entfernen, then Dokument hochladen > tab 'Von meinem Gerät' (scope #cv / #coverLetter) > file chooser. Success text only shown after scrolling to bottom: 'Deine Bewerbung ist erfolgreich bei uns eingegangen'.
 - Login mail comes from dm-jobs and contains a LINK that expires in ~5 min → call `code dm-jobs` and open the link at once.
 
@@ -188,3 +189,36 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## BTC AG (karriere.btc-ag.com/?jobid=...)
 - LinkedIn link -> karriere.btc-ag.com home lists job -> /?jobid=<id>; accept Cookiebot, click first 'Jetzt bewerben' to open the inline form (no <form> tag). Phone field is digits only (+49 prefix is fixed). Two file inputs: CV, 'Weitere Unterlagen' (cover letter). Selects: residence 'innerhalb der EU', langLevel B1, disability nein. Submit = the 'Jetzt bewerben' <a> inside .application__mainContainer (click via DOM, overlays block pointer). The Einstiegsdatum date input mangles typed dd.mm.yyyy (became 04/12/2027) - leave it empty and put start date in the message instead. Success: 'Bewerbung wurde erfolgreich versendet'.
+
+## EPAM (careers.epam.com)
+- epam.com/careers link is useless: use careers.epam.com/en/jobs/germany?query=<title> (default geo is India), open /en/vacancy/<slug>, click APPLY (JS) -> modal. Fields #name,#surname,#email, country react-select (focus #react-select-4-input, type Germany, Enter), 'Experience*' = CV file input, #coverLetter is a single-line text (paste why_us), tick both checkboxes via getByRole+JS click, SUBMIT; invisible reCAPTCHA passes. Success modal 'Thank you! Your application has been submitted'.
+
+## Bader (bader-karriere.de, WordPress)
+- bader.de/karriere -> bader-karriere.de/stellenmarkt lists jobs; job page 'Jetzt online bewerben' -> /bewerbung/?job-titel=<title>. Fields #vorname #nachname #email #bewerbungstext, setInputFiles on #bader-verstecktes-datei-input (both PDFs), #datenschutz-checkbox, click #bader-absenden-button; bader_website is honeypot (leave empty). No captcha. Success 'Vielen Dank! Ihre Bewerbung wurde erfolgreich versendet'.
+
+## foobar Agency (foobar.agency)
+- foobar-agency.com does not resolve; real site foobar.agency/en/team lists jobs -> /en/jobs/<slug>. Apply Now opens a HubSpot contact form (iframe, needs Cookiebot accept-all) that blocks gmail.com addresses and requires a company name, no file upload -> park as email-only (recruiter address on the team page).
+
+## eBakery (ebakery.de/karriere)
+- Job listed in accordion on /karriere/; 'JETZT BEWERBEN' is only mailto:kontakt@ebakery.de, no form -> email-only.
+
+## Bayard GmbH (Köln)
+- bayard-consulting.com times out and bayard.de is an unrelated placeholder; the Indeed ad only offers Indeed Schnellbewerbung -> park.
+
+## Birkenstock (careers.birkenstock-group.com)
+- jobs.birkenstock-group.com redirects to careers.birkenstock-group.com/us/en; search-results?keywords=<x> and /c/ecommerce-digital-jobs list all openings; absent = closed.
+
+## GetYourGuide (getyourguide.careers, Greenhouse embed)
+- careers.getyourguide.com -> getyourguide.careers/open-roles; job /jobs/<id> embeds greenhouse iframe (job-boards.greenhouse.io/embed/job_app). Work in that frame: #first_name #last_name #email #phone (country react-select: focus, ArrowDown, type Germany, click option; phone national digits), setInputFiles on input[type=file] resume then #cover_letter (the cover input stays after CV upload); select questions are react-selects: focus, ArrowDown, click role=option by name; submit button[type=submit]. Success: frame URL /confirmation 'And...sent!'. reCAPTCHA enterprise is invisible.
+
+## ABOUT YOU (corporate.aboutyou.de)
+- Jobs list at /en/career/jobs has a text search (type + Enter); job pages are /en/career/jobs/<slug>; title absent from list and slug 404 = closed.
+
+## SoftServe (career.softserveinc.com)
+- Search via #vacancies-search or URL /en-us/vacancies/q-<keywords>; role absent from results = closed.
+
+## Cegeka (jobs.cegeka.de, JobCenter iframe)
+- LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank für Ihre Bewerbung!'.
+
+## LinkedIn recruiter posts
+- Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
