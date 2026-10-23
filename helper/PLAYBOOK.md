@@ -222,3 +222,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## LinkedIn recruiter posts
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
+
+## Personio (hmmh.jobs.personio.de)
+- Form has Cloudflare Turnstile gating 'Bewerbung senden'; from a headless cloud/datacenter browser no token is issued and the button stays disabled -> park; works from home PC. Fields by #field-*, address is one text custom_attribute.
