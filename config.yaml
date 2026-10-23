@@ -922,6 +922,45 @@ companies_de:
 - name: Adyen
   ats: greenhouse
   slug: adyen
+- name: Siemens Healthineers
+  ats: workday
+  url: https://onehealthineers.wd3.myworkdayjobs.com/SHSJB
+- name: Diconium
+  ats: workday
+  url: https://diconium.wd3.myworkdayjobs.com/diconium
+- name: Zühlke
+  ats: workday
+  url: https://zuehlke.wd3.myworkdayjobs.com/Zuhlke-Careers
+- name: Stibo Systems
+  ats: workday
+  url: https://stibosystems.wd3.myworkdayjobs.com/careers-at-stibo-systems
+- name: Allianz
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=AZGROUPPROD
+- name: REWE Group / REWE digital
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=rewePROD
+- name: BASF
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=C0000159936P
+- name: DKB
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=dkbservice
+- name: Vaillant
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=Vaillant
+- name: Sopra Steria
+  ats: smartrecruiters
+  slug: SopraSteria1
+- name: Shopware
+  ats: recruitee
+  slug: shopwareag
+- name: Siemens
+  ats: own
+  url: https://jobs.siemens.com/careers
+- name: Infineon
+  ats: eightfold
+  url: https://jobs.infineon.com/careers
 sources:
   stepstone: true
   xing: true
