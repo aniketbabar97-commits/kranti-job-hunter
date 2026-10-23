@@ -13,10 +13,8 @@ git -c gc.auto=0 pull -q >nul 2>nul
 git stash pop -q >nul 2>nul
 set MIN_SCORE=75
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).AddDays(-14).ToString('yyyy-MM-dd')"') do set APPLY_SINCE=%%d
-for %%p in (9222 9223) do (
-  start "" chrome --remote-debugging-port=%%p --user-data-dir="%CD%\out\chrome-apply-%%p" about:blank
-  > out\mcp-%%p.json echo {"mcpServers":{"playwright":{"command":"cmd","args":["/c","npx","@playwright/mcp@latest","--cdp-endpoint","http://localhost:%%p"]}}}
-)
+call helper\browser.bat 9222 out\mcp-9222.json
+call helper\browser.bat 9223 out\mcp-9223.json
 timeout /t 5 >nul
 start "worker 1" /min cmd /c helper\worker.bat 9222
 call helper\worker.bat 9223
