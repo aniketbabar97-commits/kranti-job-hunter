@@ -65,7 +65,7 @@ Security check / CAPTCHA / "verify it's you" → `parked`, never try to get arou
 
 ## CAPTCHA: park, keep the tab, go on
 reCAPTCHA / hCaptcha / Turnstile / "I'm not a robot" / image text: never try to solve or bypass it, and never wait.
-Fill everything else, leave that tab open, log `parked` with note "captcha – tab open", and continue with the
+Fill everything else, leave that tab open, log `parked` with note "captcha – <exact form URL>" (unattended runs close the browser at the end, so the URL is how she finishes it), and continue with the
 next job in a NEW tab. At the end list the open CAPTCHA tabs; she solves them and clicks Submit herself. Never close the browser or its tabs (no browser_close).
 
 ## Speed rules
