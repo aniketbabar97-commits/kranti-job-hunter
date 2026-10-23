@@ -1,5 +1,11 @@
 # Apply from the phone
 
+## Fully automatic (recommended): every night at 23:00
+Once: double-click `helper\setup_nightly.bat` (answer `y` to also start a run now).
+From then on the PC applies to the best-fit jobs every night, even from sleep: up to 50 jobs, score 75+, last 14 days.
+In the morning: CAPTCHA tabs are open in Chrome, `out\parked_tonight.txt` lists what is left, and results are on GitHub.
+
+
 ## Once per evening, on the PC
 1. Double-click `helper\start_remote.bat`. Chrome opens, and the window says "Ready". Leave both open and keep the PC awake.
 2. The first time only, log in if Claude asks you to.
