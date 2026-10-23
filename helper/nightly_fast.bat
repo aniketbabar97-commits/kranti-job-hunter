@@ -4,6 +4,9 @@ cd /d "%~dp0.."
 set PYTHONUTF8=1
 chcp 65001 >nul
 if not exist out mkdir out
+rem diagnostics: a scheduled task has a thinner PATH than a normal window
+(echo [%date% %time%] start, user %USERNAME%, dir %CD% & where claude & where python & where git & where npx & where chrome) >> out\nightly_diag.log 2>&1
+call claude --version >> out\nightly_diag.log 2>&1
 echo ===== nightly fast run %date% %time% ===== >> out\claude_runs.log
 git stash -q >nul 2>nul
 git -c gc.auto=0 pull -q >nul 2>nul
