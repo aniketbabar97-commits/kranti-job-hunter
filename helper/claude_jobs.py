@@ -27,6 +27,31 @@ def _state():
     return json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
 
 
+from contextlib import contextmanager
+
+
+@contextmanager
+def _locked():
+    """Two workers run in parallel: read-modify-write of the state file one at a time."""
+    lock = STATE.with_suffix(".lock")
+    for _ in range(300):
+        try:
+            fd = os.open(lock, os.O_CREAT | os.O_EXCL)
+            break
+        except FileExistsError:
+            if time.time() - lock.stat().st_mtime > 60:  # stale lock from a crashed worker
+                lock.unlink(missing_ok=True)
+            time.sleep(0.2)
+    else:
+        fd = None
+    try:
+        yield
+    finally:
+        if fd is not None:
+            os.close(fd)
+            lock.unlink(missing_ok=True)
+
+
 def _save(s):
     STATE.parent.mkdir(exist_ok=True)
     STATE.write_text(json.dumps(s, indent=1, ensure_ascii=False), encoding="utf-8")
@@ -87,12 +112,20 @@ def next_jobs(n=1):
                 or kit.get("created", "") < os.environ.get("APPLY_SINCE", ""):  # focus run: best fit, recent only
             continue
         recent = d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 6 * 3600))
+        if d.get("status") == "working" and d.get("ts", "") >= time.strftime("%Y-%m-%d %H:%M", time.localtime(time.time() - 2700)):
+            continue  # another worker is on it right now
         if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
             continue
         if is_gone(kit):
             done(_id(kit), "closed", "auto: posting gone (404 or 'no longer available')")
             continue
+        with _locked():  # claim it, so a parallel worker takes the next one
+            s = _state()
+            if s.get(_id(kit), {}).get("status") == "working" and _id(kit) not in done:
+                continue
+            s[_id(kit)] = {"status": "working", "note": "claimed", "ts": time.strftime("%Y-%m-%d %H:%M")}
+            _save(s)
         cv, letter, _, lang = build_pdfs(kit)
         sal = salary_answer({"salary": j.get("salary", "")})
         out.append({
@@ -136,12 +169,13 @@ def done(job_id, status, note=""):
     m = EMAIL_IN_NOTE.search(note or "")
     if status == "parked" and m and to_email_route(job_id, m.group(0).rstrip(".")):
         note = f"{note} → email route"
-    s = _state()
-    s[job_id] = {"status": status, "note": note, "ts": time.strftime("%Y-%m-%d %H:%M")}
-    for site in ("linkedin", "xing"):
-        if status == "confirmed" and f"{site} easy apply" in (note or "").lower():
-            s[job_id]["via"] = site
-    _save(s)
+    with _locked():
+        s = _state()
+        s[job_id] = {"status": status, "note": note, "ts": time.strftime("%Y-%m-%d %H:%M")}
+        for site in ("linkedin", "xing"):
+            if status == "confirmed" and f"{site} easy apply" in (note or "").lower():
+                s[job_id]["via"] = site
+        _save(s)
     kit = next((k for k in queue(days=365) if _id(k) == job_id), None)
     job = kit["job"] if kit else {"url": job_id, "company": "?", "title": "?"}
     if status == "confirmed":
