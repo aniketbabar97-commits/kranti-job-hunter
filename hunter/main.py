@@ -74,6 +74,9 @@ def collect(cfg):
     if extra.get("companies_bw"):
         names = {e["name"].lower() for e in entries}
         entries += [e for e in cfg.get("companies_bw", []) if e["name"].lower() not in names]
+    if extra.get("companies_de"):  # Germany-wide employers beyond BW
+        names = {e["name"].lower() for e in entries}
+        entries += [e for e in cfg.get("companies_de", []) if e["name"].lower() not in names]
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(6) as pool:  # ~60 portals need a browser; in parallel the run stays short
         list(pool.map(lambda e: run("Company career sites (direct)", sources.company_feed, e), entries))

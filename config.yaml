@@ -822,11 +822,112 @@ companies_bw:
   url: https://career2.successfactors.eu/career?company=brosefahrz
   feed: https://career2.successfactors.eu/career?company=brosefahrz
   verified: true
+
+# Germany-wide employers outside BW (e-commerce, platforms, SAP CX / digital partners). Hiring-system feeds
+# found by probing Personio / Greenhouse / SmartRecruiters / Recruitee / Lever on 2026-10-23 (only boards with open jobs).
+companies_de:
+- name: Delivery Hero
+  ats: smartrecruiters
+  slug: deliveryhero
+- name: HelloFresh
+  ats: greenhouse
+  slug: hellofresh
+- name: N26
+  ats: greenhouse
+  slug: n26
+- name: Celonis
+  ats: greenhouse
+  slug: celonis
+- name: SumUp
+  ats: greenhouse
+  slug: sumup
+- name: GetYourGuide
+  ats: greenhouse
+  slug: getyourguide
+- name: Flix
+  ats: greenhouse
+  slug: flix
+- name: Auto1
+  ats: smartrecruiters
+  slug: auto1
+- name: Sixt
+  ats: smartrecruiters
+  slug: sixt
+- name: Raisin
+  ats: greenhouse
+  slug: raisin
+- name: Contentful
+  ats: greenhouse
+  slug: contentful
+- name: Grover
+  ats: greenhouse
+  slug: grover
+- name: Kion
+  ats: recruitee
+  slug: kion
+- name: Jungheinrich
+  ats: greenhouse
+  slug: jungheinrich
+- name: Thomann
+  ats: personio
+  slug: thomann
+- name: Snocks
+  ats: personio
+  slug: snocks
+- name: Ankerkraut
+  ats: personio
+  slug: ankerkraut
+- name: Coolblue
+  ats: smartrecruiters
+  slug: coolblue
+- name: Netlight
+  ats: lever
+  slug: netlight
+- name: Thoughtworks
+  ats: greenhouse
+  slug: thoughtworks
+- name: Valtech
+  ats: greenhouse
+  slug: valtech
+- name: Alten
+  ats: smartrecruiters
+  slug: alten
+- name: Netconomy
+  ats: recruitee
+  slug: netconomy
+- name: Neoshare
+  ats: personio
+  slug: neoshare
+- name: Porsche Consulting
+  ats: personio
+  slug: porsche-consulting
+- name: codecentric
+  ats: personio
+  slug: codecentric
+- name: Dept
+  ats: greenhouse
+  slug: dept
+- name: Netformic
+  ats: personio
+  slug: netformic
+- name: Brandung
+  ats: personio
+  slug: brandung
+- name: Lemundo
+  ats: personio
+  slug: lemundo
+- name: Mirakl
+  ats: greenhouse
+  slug: mirakl
+- name: Adyen
+  ats: greenhouse
+  slug: adyen
 sources:
   stepstone: true
   xing: true
   jobspy_sites: [linkedin, indeed, glassdoor, google]
   companies_bw: true
+  companies_de: true
   board_queries: ["SAP Commerce", "Hybris", "SAP Commerce Cloud", "Spartacus", "commercetools", "Spryker"]
 
 # Google search inside career sites hosted on hiring systems (Personio, Workday, SuccessFactors, ...).
