@@ -961,6 +961,58 @@ companies_de:
 - name: Infineon
   ats: eightfold
   url: https://jobs.infineon.com/careers
+# SAP Commerce / Hybris users and SAP CX partners (case studies, partner finder, past job ads), verified 2026-10-23
+- name: Sartorius
+  ats: workday
+  url: https://sartorius.wd3.myworkdayjobs.com/wday/cxs/sartorius/sartoriuscareers/jobs
+- name: Wacker Chemie
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=wackerc
+- name: B. Braun
+  ats: successfactors_rmk
+  url: https://jobs.bbraun.com/
+- name: Vorwerk
+  ats: successfactors_rmk
+  url: https://jobs.vorwerkgroup.com/
+- name: Miele
+  ats: own
+  url: https://karriere.miele.de/
+- name: Krones
+  ats: successfactors
+  url: https://career5.successfactors.eu/career?company=kronesag
+- name: Salzgitter
+  ats: successfactors_rmk
+  url: https://jobs.salzgitter-ag.com/
+- name: Gebr. Heinemann
+  ats: own
+  url: https://www.gebr-heinemann.com/heu/de/karriere
+- name: HANSA-FLEX
+  ats: own
+  url: https://www.hansa-flex.de/karriere/
+- name: Hanwha Q CELLS
+  ats: own
+  url: https://www.q-cells.de/1/ueber-uns/jobs
+- name: Evonik
+  ats: workday
+  url: https://evonik.wd3.myworkdayjobs.com/wday/cxs/evonik/External_Careers/jobs
+- name: ORBIS
+  ats: successfactors_rmk
+  url: https://jobs.orbis.de/
+- name: Arineo
+  ats: own
+  url: https://jobs.arineo.com/jobs
+- name: CONET (incl. Babiel)
+  ats: own
+  url: https://www.conet.de/de/karriere/stellenangebote/
+- name: FIS Group (incl. Medienwerft)
+  ats: own
+  url: https://www.fis-gmbh.de/de/karriere/stellenangebote/
+- name: Axians Deutschland
+  ats: smartrecruiters
+  slug: axians
+- name: REHAU
+  ats: successfactors_rmk
+  url: https://www.rehau.jobs/
 sources:
   stepstone: true
   xing: true
