@@ -5,7 +5,12 @@
       "Bash(python:*)",
       "Read(**)",
       "Edit(.playwright-mcp/**)",
-      "mcp__playwright__*"
+      "mcp__playwright__*",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)",
+      "Bash(git status:*)"
     ]
   }
 }
