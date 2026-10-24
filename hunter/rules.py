@@ -17,7 +17,14 @@ GERMANY = re.compile(
 REMOTE = re.compile(r"\b(remote|home ?office|homeoffice|mobiles arbeiten|work from home|wfh|100 ?% remote|fully remote)\b", re.I)
 OUTSIDE_EU_REMOTE = re.compile(
     r"\b(india|bangalore|bengaluru|pune|hyderabad|chennai|noida|gurgaon|gurugram|mumbai|delhi|kolkata|"
-    r"usa|united states|canada|philippines|vietnam|brazil|mexico|uae|dubai|singapore|australia)\b", re.I)
+    r"usa|united states|canada|philippines|vietnam|brazil|mexico|uae|dubai|singapore|australia|"
+    r"colombia|bogota|argentina|buenos aires|chile|santiago|peru|lima|sao paulo|são paulo|latam|latin america|"
+    r"china|shanghai|japan|malaysia|kuala lumpur|south africa|egypt|cairo|morocco)\b", re.I)
+# her current employer (serving notice there): never recommend its own openings
+CURRENT_EMPLOYER = re.compile(r"rockwell", re.I)
+# Workday-style "5 Locations": we can't tell where, so it is not a sure best fit
+UNKNOWN_PLACES = re.compile(r"^\s*\d+\s+(locations|standorte)\s*$", re.I)
+CAP_UNKNOWN_PLACE = 65
 HIRING = re.compile(r"\b(hiring|we.?re looking|looking for|job|role|position|opening|vacanc|stelle|wir suchen|join (our|us))\b", re.I)
 COMMERCE_CORE = re.compile(r"\b(hybris|sap commerce|commerce cloud|sap cx|ccv2|spartacus|composable storefront)\b", re.I)
 
@@ -42,6 +49,8 @@ def adjust(job):
     remote = str(job.get("remote")) == "True" or bool(REMOTE.search(text))
     notes = []
 
+    if CURRENT_EMPLOYER.search(job.get("company", "")):
+        return 0, "her current employer"
     if OUTSIDE_EU_REMOTE.search(text) and not in_germany:
         score, notes = min(score, CAP_FAR_AWAY), ["outside Europe"]
     elif is_post:
@@ -49,6 +58,8 @@ def adjust(job):
             score, notes = min(score, CAP_VAGUE_POST), ["post doesn't clearly name an open role"]
         elif not (in_germany or remote):
             score, notes = min(score, CAP_POST_NO_LOCATION), ["post doesn't say Germany or remote"]
+    elif not in_germany and UNKNOWN_PLACES.search(job.get("location", "")):
+        score, notes = min(score, CAP_UNKNOWN_PLACE), ["location not stated (several sites)"]
     elif not in_germany and not remote and job.get("location"):
         score, notes = min(score, CAP_ONSITE_ABROAD), ["on-site outside Germany"]
     elif not is_post and (in_germany or remote):
