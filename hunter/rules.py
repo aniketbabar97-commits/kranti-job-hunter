@@ -20,8 +20,6 @@ OUTSIDE_EU_REMOTE = re.compile(
     r"usa|united states|canada|philippines|vietnam|brazil|mexico|uae|dubai|singapore|australia|"
     r"colombia|bogota|argentina|buenos aires|chile|santiago|peru|lima|sao paulo|são paulo|latam|latin america|"
     r"china|shanghai|japan|malaysia|kuala lumpur|south africa|egypt|cairo|morocco)\b", re.I)
-# her current employer (serving notice there): never recommend its own openings
-CURRENT_EMPLOYER = re.compile(r"rockwell", re.I)
 # Workday-style "5 Locations": we can't tell where, so it is not a sure best fit
 UNKNOWN_PLACES = re.compile(r"^\s*\d+\s+(locations|standorte)\s*$", re.I)
 CAP_UNKNOWN_PLACE = 65
@@ -49,8 +47,6 @@ def adjust(job):
     remote = str(job.get("remote")) == "True" or bool(REMOTE.search(text))
     notes = []
 
-    if CURRENT_EMPLOYER.search(job.get("company", "")):
-        return 0, "her current employer"
     if OUTSIDE_EU_REMOTE.search(text) and not in_germany:
         score, notes = min(score, CAP_FAR_AWAY), ["outside Europe"]
     elif is_post:
