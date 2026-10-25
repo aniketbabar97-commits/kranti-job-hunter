@@ -220,3 +220,6 @@ If you expected jobs in the queue, check whether the nightly batches already too
 `next 1` returned an empty list, so the queue is empty and I stopped without applying to anyone.
 
 No jobs were applied to, parked or logged, and no CAPTCHA tabs were opened.
+`python -m helper.claude_jobs next 1` returned an empty list, so there are no jobs to apply to. As instructed, I stopped without applying to any.
+
+I made no browser changes and logged no jobs. I read the playbook through line 432 of 544 and didn't need the rest.
