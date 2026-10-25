@@ -433,6 +433,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - hilti.de -> careers.hilti.group/de-de/jobs/?search=<kw> (fuzzy); no initiative form, no Hybris/SAP Commerce postings; consent 'Annehmen und Schließen'.
 
 ## Umantis (karriere.hansa-flex.de)
+- Initiative form worked again: fill by role textbox name; file buttons open choosers (run_code waitForEvent hung, use browser_file_upload per chooser in click order: Anschreiben then Lebenslauf); Datenfreigabe Yes radio, privacy checkbox via JS click, submit button name form_submit via JS click -> Bestätigung page.
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> Bestätigung page.
 
 ## Würth group apply.witglobal.net (Hahn+Kolb)
@@ -506,3 +507,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## rexx (career.hoffmann-group.com)
 - hoffmann-group.com/DE careers -> career.hoffmann-group.com/initiativstelle-de-f11.html. Cronos recipe via run_code worked first try; datepicker mangled eintrittsdatum (04.12) -> Ctrl+A, Delete, retype slowly, Escape, re-read before submit. Erfahrung select '3-5 Jahre', wie_gefunden 'andere Jobboerse'. Submit: JS click last 'Senden' link. Title 'Bewerbung abgeschlossen'.
+
+## clicks.digital (2nd run)
+- Magento Entwickler renamed 'Software-Entwickler PHP (m/w/d) in Dresden' at clicks.digital/software-entwickler-php-m-w-d-in-dresden; 'JETZT BEWERBEN' anchors to #contact-form which now only holds an image (no CF7 form rendered, document.forms=0) even after Usercentrics accept + reload; parked. Retry later.
