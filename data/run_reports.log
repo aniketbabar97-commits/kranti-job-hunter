@@ -158,3 +158,9 @@ The 0 of 10 jobs came from an empty queue, not an error. If you expected more jo
 I read `helper/CLAUDE_CODE_APPLY.md` and `helper/PLAYBOOK.md`, and pulled her facts. I didn't open the browser, log any jobs or add any playbook notes. The PLAYBOOK read was cut off at line 430 of 522, and I didn't read the rest because no job needed it.
 
 The queue may be empty because all jobs have been handled or parked. The last commits, "Claude applier: nightly batch 2" and "parked list", suggest earlier runs worked through it.
+`next 1` returned an empty list (`[]`), so I stopped before applying to anyone. That was the stop condition you gave.
+
+- **Applications made:** 0 of the 10 requested.
+- **Open CAPTCHA tabs:** none, because no browser work was done.
+
+I did not log any job or add any PLAYBOOK lessons, since nothing ran.
