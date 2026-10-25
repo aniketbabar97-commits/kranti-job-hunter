@@ -342,3 +342,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 
 ## Tchibo (tchibo-karriere.de)
 - FAQ says Initiativbewerbung not possible; job list /jobsuche/suche (243 jobs, only first ~12 render); contact recruiting@tchibo.de
+
+## Sybit (sybit.com)
+- sybit.de->sybit.com; /de/karriere/offene-stellen has 'Schnellbewerbung' iframe form (Anrede dropdown, fields as text inputs, source dropdown; Usercentrics Alles Akzeptieren). Single file input: setInputFiles one file at a time (CV, then cover letter); chooser never opens. Submit then wait ~10s: 'Vielen Dank f√ºr deine Bewerbung'.
