@@ -455,3 +455,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Evora IT Solutions (evorait.com)
 - evora.de has an SSL error; real site evorait.com/careers/jobs-in-europe/ (Walldorf): unsolicited applications by mail only, careers-de@EvoraIT.com, no form.
+
+## Mayer & Cie (mayercie.com)
+- Karriere > /karriere/wen-wir-suchen/ has no form; Initialbewerbung by email only (HR address on that page).
+
+## Elbkind Reply (elbkind.de)
+- /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
+
+## Douglas (careers.douglas.group)
+- douglas.de/de/karriere 404; careers.douglas.group/de/jobs/?search=<kw> works; no initiative form, only a SuccessFactors candidate login; no SAP Commerce roles (Shopify, Full Stack only).

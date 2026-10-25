@@ -805,9 +805,9 @@
   "ts": "2026-10-25 06:33"
  },
  "https://www.mayercie.com/#initiativbewerbung": {
-  "status": "working",
-  "note": "claimed",
-  "ts": "2026-10-25 06:33"
+  "status": "parked",
+  "note": "no form, Initialbewerbung by email only; email: personal@mayercie.com → email route",
+  "ts": "2026-10-25 07:20"
  },
  "https://www.liebherr.com/#initiativbewerbung": {
   "status": "parked",
@@ -923,5 +923,20 @@
   "status": "working",
   "note": "claimed",
   "ts": "2026-10-25 07:04"
+ },
+ "https://www.elbkind.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "elbkind.de /jobs and /en/career pages have no postings, form or email",
+  "ts": "2026-10-25 07:21"
+ },
+ "https://www.douglas.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option, no SAP Commerce/Hybris posting (only Shopify, Full Stack fixed-term); no HR email found",
+  "ts": "2026-10-25 07:22"
+ },
+ "https://www.dotsource.de/#initiativbewerbung": {
+  "status": "confirmed",
+  "note": "dotsource.de/karriere/initiativbewerbung form, thank-you page seen",
+  "ts": "2026-10-25 07:24"
  }
 }
