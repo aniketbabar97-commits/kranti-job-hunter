@@ -119,4 +119,16 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.spryker.com/#initiativbewerbung (Spryker, emailed to talent@spryker.com)
 - 2026-10-25 https://www.weidmueller.de/#initiativbewerbung (Weidmüller, website via helper – confirmed)
 - 2026-10-25 https://www.sybit.de/#initiativbewerbung (Sybit, website via helper – confirmed)
+<<<<<<< HEAD
 - 2026-10-25 https://www.linkedin.com/jobs/view/4385054721 (Telekom MMS, website via helper – confirmed)
+=======
+- 2026-10-25 https://www.stihl.de/#initiativbewerbung (STIHL, website via helper – confirmed)
+- 2026-10-25 https://www.pikon.com/#initiativbewerbung (PIKON, website via helper – confirmed)
+- 2026-10-25 https://www.netformic.de/#initiativbewerbung (Netformic, website via helper – confirmed)
+- 2026-10-25 https://www.orbis.de/#initiativbewerbung (ORBIS, website via helper – confirmed)
+- 2026-10-25 https://www.mindsquare.de/#initiativbewerbung (mindsquare, website via helper – confirmed)
+- 2026-10-25 https://www.mindcurv.com/#initiativbewerbung (Mindcurv, website via helper – confirmed)
+- 2026-10-25 https://www.melitta.de/#initiativbewerbung (Melitta, website via helper – confirmed)
+- 2026-10-25 https://www.lemundo.de/#initiativbewerbung (Lemundo, website via helper – confirmed)
+>>>>>>> cf72299 (applied: Lemundo)
+- 2026-10-25 https://www.lapp.com/#initiativbewerbung (Lapp, website via helper – confirmed)
