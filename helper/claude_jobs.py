@@ -90,7 +90,8 @@ def is_gone(kit):
         return False  # unreachable / blocked: let Claude look at it
 
 
-def next_jobs(n=1):
+def next_jobs(n=1, peek=False):
+    """peek=True: only count what is waiting (no claim, no PDFs, no network) - used by autorun.bat."""
     from hunter.kit import salary_answer
     done = _state()
     out = []
@@ -116,6 +117,9 @@ def next_jobs(n=1):
             continue  # another worker is on it right now
         if d.get("status") in ("confirmed", "pending", "closed") or (d.get("status") == "parked" and recent and not only) \
                 or j.get("channel") == "email":
+            continue
+        if peek:
+            out.append(_id(kit))
             continue
         if is_gone(kit):
             done(_id(kit), "closed", "auto: posting gone (404 or 'no longer available')")
@@ -193,6 +197,8 @@ def main():
     cmd = sys.argv[1] if len(sys.argv) > 1 else "next"
     if cmd == "next":
         res = next_jobs(int(sys.argv[2]) if len(sys.argv) > 2 else 1)
+    elif cmd == "count":  # how many jobs are waiting (autorun.bat starts Claude only if > 0)
+        res = len(next_jobs(10 ** 6, peek=True))
     elif cmd == "facts":
         res = facts()
     elif cmd == "password":  # password [linkedin|xing] -> that platform's login, else the default account password
