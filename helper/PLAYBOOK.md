@@ -336,3 +336,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Thalia (jobs.thalia.de)
 - thalia.de/karriere is 404; jobs at jobs.thalia.de (talents-connect), IT list at /it-digitalisierung; ?q= search param is ignored; no initiative form
+
+## team neusta
+- karriere portal (HR Works) has no initiative form; offene-stellen lists only SAP Finance/FI-CO roles; no HR email on site; www homepage returned 500 once
+
+## Tchibo (tchibo-karriere.de)
+- FAQ says Initiativbewerbung not possible; job list /jobsuche/suche (243 jobs, only first ~12 render); contact recruiting@tchibo.de
