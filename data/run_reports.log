@@ -317,3 +317,16 @@ Nothing was logged, no browser tabs were opened, and there are no open CAPTCHA t
 Nothing needed logging, and I opened no browser tabs, so there are no CAPTCHA tabs waiting for you.
 
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 428 of 564 lines of `helper/PLAYBOOK.md`. I also loaded Kranti's facts. I didn't need the rest of the playbook, since there was no job to apply to.
+`next 1` returned an empty list after 7 jobs, so I stopped early. None were submitted: all 7 are `parked`.
+
+- **Cyberport** — parked. Cloudflare security check (403), treated as a captcha. The tab is open at https://www.cyberport.de/.
+- **CX Rocket** — parked. The domain is parked at GoDaddy and has no application route.
+- **CBS Corporate Business Solutions** — parked. I filled the whole form (CV, cover letter, Zeugnisse, LinkedIn as source, Heidelberg as location, privacy consent). It then showed an hCaptcha, so it still needs a manual Senden. The logged URL is https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new.
+  - **Lost tab:** I reused that tab to check Breuninger, so the filled form is gone. Re-open the URL above and re-enter the form.
+- **Camelot ITLab** — parked. The site redirects to accenture.com, and the playbook says there is no initiative form or Commerce posting. I did not re-check it in the browser.
+- **Breuninger** — parked. No initiative form, no SAP Commerce or Hybris role, and no email on digital.breuninger.com/jobs.
+- **Bechtle** — parked. The jobs portal shows an empty list and the job URL from the playbook gives a 404.
+- **B. Braun** — parked. The only initiative posting is for Austria.
+- **clicks digital (Magento Entwickler)** — parked. The posting is live at https://clicks.digital/software-entwickler-php-m-w-d-in-dresden. Its application form never appears in the page, even after accepting cookies and scrolling. I found no email address.
+
+I logged each job and added a playbook note for each one. I asked for 10 and got 7. I did not log any free-text answers, because I only used values from her data.

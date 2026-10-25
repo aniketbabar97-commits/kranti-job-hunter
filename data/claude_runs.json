@@ -521,8 +521,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
   "status": "parked",
-  "note": "clicks.digital posting now 'Software-Entwickler PHP' (clicks.digital/software-entwickler-php-m-w-d-in-dresden, Magento/Shopware); application form does not render (no form/iframe in DOM even after cookie consent), no email on page",
-  "ts": "2026-10-25 07:43"
+  "note": "posting open at https://clicks.digital/software-entwickler-php-m-w-d-in-dresden but the CF7 application form never renders in automated browser (no inputs after cookies/scroll); no email found",
+  "ts": "2026-10-25 13:56"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207617768-S": {
   "status": "closed",
@@ -941,13 +941,13 @@
  },
  "https://www.cyberport.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – Cloudflare security verification on https://www.cyberport.de/jobs (403), no form reachable",
-  "ts": "2026-10-25 07:24"
+  "note": "captcha – https://www.cyberport.de/ (Cloudflare security verification, 403)",
+  "ts": "2026-10-25 13:50"
  },
  "https://www.cxrocket.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "cxrocket.com is a GoDaddy parked domain, no company site/form/email found",
-  "ts": "2026-10-25 07:24"
+  "note": "domain parked at GoDaddy, no application route or email",
+  "ts": "2026-10-25 13:50"
  },
  "https://www.conrad.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -956,8 +956,8 @@
  },
  "https://www.cbs-consulting.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (all filled, hCaptcha before Senden)",
-  "ts": "2026-10-25 07:28"
+  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (hCaptcha; form filled)",
+  "ts": "2026-10-25 13:52"
  },
  "https://www.cancom.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -966,13 +966,13 @@
  },
  "https://www.camelot-itlab.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "camelot-itlab.com redirects to accenture.com/de-de (Workday); no initiative form, no SAP Commerce posting (hybris search only fuzzy hits); no HR email",
-  "ts": "2026-10-25 07:30"
+  "note": "camelot-itlab.com redirects to accenture.com/de-de; no initiative form or SAP Commerce posting (per playbook)",
+  "ts": "2026-10-25 13:52"
  },
  "https://www.breuninger.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "digital.breuninger.com/jobs: no initiative option, no SAP Commerce/developer posting (only ops/IT-admin/PM roles); no HR email found",
-  "ts": "2026-10-25 07:31"
+  "note": "no initiative form, no SAP Commerce/Hybris role on digital.breuninger.com/jobs, no email",
+  "ts": "2026-10-25 13:52"
  },
  "https://www.berner.eu/#initiativbewerbung": {
   "status": "confirmed",
@@ -981,8 +981,8 @@
  },
  "https://www.bechtle.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "SAP QuickApply form (jobs.bechtle.com/default/job/Initiativbewerbung-bei-Bechtle/42719-de_DE) rejects filenames >64 chars; short-named copies of CV/cover letter needed (copy blocked by permissions); portal-only, no email accepted",
-  "ts": "2026-10-25 07:33"
+  "note": "jobs.bechtle.com renders empty list in automated browser, job 42719 URL 404s; portal-only (p78quickapply), no email",
+  "ts": "2026-10-25 13:53"
  },
  "https://www.babiel.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -991,8 +991,8 @@
  },
  "https://www.bbraun.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no German initiative option (jobs.bbraun.com only has Initiativbewerbung Österreich); no Commerce/Hybris postings; no HR email found",
-  "ts": "2026-10-25 07:35"
+  "note": "only initiative posting is Österreich; no Germany initiative or Commerce role; no email",
+  "ts": "2026-10-25 13:53"
  },
  "https://www.axians.de/#initiativbewerbung": {
   "status": "confirmed",

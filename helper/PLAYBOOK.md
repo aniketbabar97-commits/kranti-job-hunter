@@ -110,7 +110,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## gc-gruppe.de (Drupal webform, FriendlyCaptcha)
 - Accept Usercentrics FIRST (shadow DOM: #usercentrics-cmp-ui button#accept) before filling. Fields #edit-vorname/name/telefon/e-mail, one multi-file upload (CV+cover letter), #edit-datenschutz via JS. Submitting after the banner reload gave 'Antwort war nicht passend' and wiped the form - fill AFTER cookies, wait for captcha 'Ich bin ein Mensch', then submit.
 
-## clicks.digital (WordPress CF7 + FriendlyCaptcha)
+## clicks.digital
+- Run 2: careers lists 'Software-Entwickler PHP (Magento & Shopware)' at /software-entwickler-php-m-w-d-in-dresden; JETZT BEWERBEN anchor #contact-form but no form inputs render (0 forms in DOM, even after Usercentrics accept + scroll). Newsletter popup in HubSpot iframe has Close button. (WordPress CF7 + FriendlyCaptcha)
 - Fill by input name via run_code; one multi-file input takes CV+cover letter; pick job in job_position_id select; wait ~6s for FriendlyCaptcha to self-solve; success text in .wpcf7-response-output 'Vielen Dank fÃ¼r Ihre Bewerbung'.
 
 ## Concludis (cbr.concludis.de)
@@ -499,9 +500,11 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport (cyberport.de)
+- Run 2: still Cloudflare 'Just a moment' 403; parked.
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket (cxrocket.com)
+- Run 2: domain still parked at GoDaddy; parked.
 - Domain is parked at GoDaddy; Google finds only unrelated Rocket Consulting (India). No application route -> park.
 
 ## rexx/finest jobs (career.conrad.com)
@@ -513,19 +516,23 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## rexx (cancom-portal-xml.rexx-systems.com)
 - karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
 
-## Camelot ITLab (Accenture)
+## Camelot ITLab
+- Run 2: parked per playbook, not re-checked in browser. (Accenture)
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
-## Breuninger (digital.breuninger.com)
+## Breuninger
+- Run 2: digital.breuninger.com/jobs still no Commerce role, no initiative form or email. (digital.breuninger.com)
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
-## Bechtle (SAP p78 QuickApply)
+## Bechtle
+- Run 2: jobs.bechtle.com search page renders empty (no results) and /job/42719 404s; could not reach the initiative posting. (SAP p78 QuickApply)
 - jobs.bechtle.com Initiativbewerbung job 42719 -> Jetzt bewerben opens bechtle-production.p78quickapply.com; max 64-char filenames, so upload short-named copies (same as Geberit). Recruiting accepts portal only.
 
 ## conet / Babiel (conet.de)
 - babiel.com now conet.de; /de/karriere/initiativbewerbung/ form (TYPO3): fields by id _Vorname,_Name,_Strasse,_Plz,_Ort,_Land,_Mobil,_Email,_Geburtsdatum(date ISO),_Nationality,_Eintrittsdatum(date ISO),_Gehaltsvorstellung,_Suchweg,_Bemerkungen; accept cookies first; upload via role=button Lebenslauf/Anschreiben/Zeugnisse(=cover letter) + file chooser; consents via JS; FriendlyCaptcha self-solves after clicking 'Hier klicken'; success page /bestaetigung/ 'Vielen Dank fuer deine Bewerbung'.
 
-## B. Braun (jobs.bbraun.com, SuccessFactors)
+## B. Braun
+- Run 2: jobs.bbraun.com q=Initiativbewerbung still only 'Initiativbewerbung Ã–sterreich'. (jobs.bbraun.com, SuccessFactors)
 - bbraun.de/karriere -> jobs.bbraun.com/search/?q=<kw>&locale=de_DE (accept 'Alle Cookies akzeptieren' first); only initiative posting is Ã–sterreich; 'Commerce' and 'SAP Hybris' return 0 hits.
 
 ## softgarden (jobs.axians.de, new React form)
@@ -561,3 +568,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Liebherr (SuccessFactors)
 - Run 2: guessed stellenangebote search URL just redirects to /de-de/karriere/karriere-3364204; parked per known reCAPTCHA without opening the posting.
+
+## CBS (Recruitee)
+- Run 2: custom selects: open button, then click role=option (refs go stale, use label:has-text); privacy is last checkbox; hCaptcha on Senden -> parks.
