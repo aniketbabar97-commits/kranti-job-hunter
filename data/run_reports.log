@@ -77,3 +77,21 @@ I logged a PLAYBOOK lesson for each company. Free-text answers I wrote myself ar
 - `.playwright-mcp/kaercher2.yml`, a snapshot file I saved.
 - An untracked `kaercher1.yml` was meant to be removed, but my `rm` was blocked. I didn't check whether it exists.
 - Nothing is committed.
+That was 10 jobs, which is the number you asked for, so I'm stopping here. 'next 1' did not return an empty list, so more jobs are still queued (Endress+Hauser is next).
+
+Results:
+
+- Hilti — parked — no initiative form and no Hybris/SAP Commerce posting on the careers site; no HR email found
+- Hansgrohe — parked — captcha – https://hansgrohe.dvinci-hr.com/de/jobs/52115/form. I filled in the open "Channel Developer eCommerce" posting instead; only the image captcha is left, and that tab is still open
+- HANSA-FLEX — confirmed — initiative form, confirmation page shown
+- Hahn+Kolb — parked — captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE. The form is filled and both files uploaded; only the "I am human" check and the final submit are left, and that tab is still open
+- Grohe — confirmed — softgarden initiative form, success page shown
+- Geberit — confirmed — "Deine Bewerbung wurde erfolgreich versendet"
+- Festo — parked — no German initiative option, and the e-commerce roles are all in Barcelona; no HR email found
+- Factor-E — parked — no open jobs and no initiative form; email: info@faktor-e.de
+- Exxeta — confirmed — "Bewerbung abgeschlossen"
+- Evora — parked — email-only, no web form; email: careers-de@EvoraIT.com
+
+Open captcha tabs for you to finish: Hansgrohe (tab 1) and Hahn+Kolb (the witglobal form; its tab was replaced when I moved on, so reopen that URL and re-upload).
+
+I also logged one free-text answer I wrote for Geberit (the business-area question). I left a scratch folder, `out/helper/tmp-short/`, with short-named copies of the Geberit PDFs. It is safe to delete.

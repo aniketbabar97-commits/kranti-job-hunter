@@ -449,3 +449,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Faktor E (faktor-e.de, Bonn agency)
 - faktor-e.de/agentur/karriere shows 'keine offenen Stellen', no initiative form; only general mail info@faktor-e.de.
+
+## rexx (career.exxeta.com)
+- jobs.exxeta.com (talentsconnect) -> Initiativbewerbung (all genders) lists Karlsruhe -> career.exxeta.com/initiativbewerbung-all-genders-de-f697.html?agid=25. Worked first try: accept cookies, run_code pressSequentially by id (vorname,nachname,geburtsdatum,mail,handy digits,eintrittsdatum,freifeld2_txt), selects via JS (gender,country,freifeld1_sb LinkedIn Stellenanzeige, multi freifeld4_ms Karlsruhe), #agb_checkbox JS, setInputFiles on lebenslauf+anschreiben ids, hide datepicker, JS click last 'Senden'. Title 'Bewerbung abgeschlossen'.
+
+## Evora IT Solutions (evorait.com)
+- evora.de has an SSL error; real site evorait.com/careers/jobs-in-europe/ (Walldorf): unsolicited applications by mail only, careers-de@EvoraIT.com, no form.
