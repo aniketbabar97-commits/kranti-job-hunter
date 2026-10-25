@@ -473,3 +473,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## CX Rocket (cxrocket.com)
 - Domain is parked at GoDaddy; Google finds only unrelated Rocket Consulting (India). No application route -> park.
+
+## rexx/finest jobs (career.conrad.com)
+- Google 'Conrad Electronic Karriere' -> career.conrad.com/stellenangebote.html lists Initiativbewerbung Deutschland f122. Cronos recipe worked; submit with a[aria-label='Bewerbung absenden'] via evaluate click (text click hits a myVeeta link instead). Title 'Bewerbung abgeschlossen'.
+
+## Recruitee (cbsconsulting.recruitee.com)
+- cbs-consulting.com/career/initiativbewerbung-fuer-professionals 'Jetzt bewerben' -> recruitee /c/new. Checkboxes are covered by labels: click label text; privacy via getByRole checkbox evaluate click. Senden shows hCaptcha -> parks with tab open.

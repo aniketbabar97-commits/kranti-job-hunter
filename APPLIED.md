@@ -143,3 +143,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.exxeta.com/#initiativbewerbung (Exxeta, website via helper – confirmed)
 - 2026-10-25 https://www.dotsource.de/#initiativbewerbung (dotSource, website via helper – confirmed)
 - 2026-10-25 https://www.conrad.de/#initiativbewerbung (Conrad, website via helper – confirmed)
+- 2026-10-25 https://www.cancom.de/#initiativbewerbung (CANCOM, website via helper – confirmed)
