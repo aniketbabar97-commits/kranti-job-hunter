@@ -426,3 +426,7 @@ I read `helper/CLAUDE_CODE_APPLY.md`, most of `helper/PLAYBOOK.md` (the first 43
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of 556 lines of `helper/PLAYBOOK.md` (the rest was truncated), and pulled `facts`.
 
 The queue may be empty because the nightly batches (1â€“3) already took everything. If you expected more jobs, the next jobs file probably needs refreshing.
+[Sun 10/25/2026 12:29:01.34] batch 5 exit 0 
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped, as the instructions say to do.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 lines of `helper/PLAYBOOK.md` (of 556), and Kranti's facts. I never opened a browser, so there are no open CAPTCHA tabs and nothing was logged with `done`, `learn` or `answer`.
