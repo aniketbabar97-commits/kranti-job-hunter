@@ -375,3 +375,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## ORBIS (jobs.orbis.de, SuccessFactors career5 orbisag)
 - Initiativbewerbung posting on jobs.orbis.de/job/...-66115/1026893001/ -> Jetzt bewerben needs a career5 account; Konto anlegen has a reCAPTCHA ('kein Roboter') -> always parks. HR mail infohr@orbis.de
+
+## Netformic (netformic.com, Personio)
+- netformic.de -> netformic.com/de/karriere lists 2 Personio jobs (no initiative form); applied to Shopify Developer via netformic.jobs.personio.de/job/288131/apply?display=de. Fill #field-*; 'Datei hinzufügen' buttons nth0=cover, nth1=CV; 'VIELEN DANK' confirmation
+
+## Netconomy (Recruitee general application)
+- netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
+
+## Merkle / Namics (merkle.com)
+- Jobs search at merkle.com/en/careers/jobs.html (keyword+location boxes, invisible reCAPTCHA); 'SAP Commerce' returns no results; only German role was Principal Consultant DXP (München); no initiative form or HR email

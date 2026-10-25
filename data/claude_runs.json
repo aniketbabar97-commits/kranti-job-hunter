@@ -760,9 +760,9 @@
   "ts": "2026-10-25 06:16"
  },
  "https://www.orbis.de/#initiativbewerbung": {
-  "status": "parked",
-  "note": "captcha – account registration at https://jobs.orbis.de/job/Saarbr%C3%BCcken-Initiativbewerbung-%28mwd%29-66115/1026893001/ (Jetzt bewerben); email: infohr@orbis.de → email route",
-  "ts": "2026-10-25 06:18"
+  "status": "confirmed",
+  "note": "SuccessFactors career5 orbisag initiative 2948; account was created after the captcha prompt, form finished later",
+  "ts": "2026-10-25 06:25"
  },
  "https://www.nexum.de/#initiativbewerbung": {
   "status": "closed",
@@ -773,5 +773,15 @@
   "status": "confirmed",
   "note": "no initiative form; applied to open Shopify Developer (Personio job 288131)",
   "ts": "2026-10-25 06:20"
+ },
+ "https://www.netconomy.net/#initiativbewerbung": {
+  "status": "parked",
+  "note": "captcha – form fully filled, tab open: https://netconomy.recruitee.com/o/general-application/c/new ; email: office@netconomy.net → email route",
+  "ts": "2026-10-25 06:22"
+ },
+ "https://www.merkle.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative form, no SAP Commerce roles in Germany (merkle.com/en/careers/jobs.html search); no HR email found",
+  "ts": "2026-10-25 06:23"
  }
 }
