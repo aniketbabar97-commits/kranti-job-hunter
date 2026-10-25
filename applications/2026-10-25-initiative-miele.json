@@ -1,0 +1,146 @@
+{
+ "job": {
+  "title": "Initiativbewerbung – SAP Commerce Cloud (Hybris) Developer / Consultant",
+  "company": "Miele",
+  "location": "Deutschland",
+  "url": "https://www.miele.de/#initiativbewerbung",
+  "apply_url": "",
+  "score": 78,
+  "source": "Initiative (SAP Commerce user/partner)",
+  "posted": "2026-10-25",
+  "lang": "de",
+  "salary": "",
+  "initiative": true,
+  "contact": "",
+  "direct_url": "https://www.miele.de/"
+ },
+ "tailoring": {
+  "headline": "Senior SAP Commerce Cloud (Hybris) Developer | Java · Spring · OCC-REST-APIs",
+  "summary": "Senior SAP Commerce Cloud Developer mit über 5 Jahren Erfahrung in Entwicklung, Erweiterung und Betrieb von B2B- und B2C-Commerce-Plattformen (SAP Commerce Cloud / Hybris 2105 und 2211) für Rockwell Automation und Shell. Stark in Java, Spring und Spring Boot, OCC-REST-Webservices für Headless-Storefronts sowie komplexen PIM- / ERP- / MDM-Integrationen. Übernimmt technische Verantwortung von der Anforderung bis zum Produktivbetrieb: direkte Abstimmung mit Fachbereichen, Code-Reviews, Mentoring von Junior-Entwicklern und CI/CD-Deployment-Zyklen auf SAP Commerce Cloud (CCv2). SAP Certified Commerce Cloud Developer.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Product Catalog & PIM",
+    "Promotions Engine",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
+    "CI/CD pipelines",
+    "Git",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Databases & Search": [
+    "FlexibleSearch",
+    "SQL",
+    "query optimization and performance tuning",
+    "Apache Solr"
+   ],
+   "Frontend & Web": [
+    "JavaScript",
+    "Progressive Web Application (PWA) integration",
+    "storefront customization"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools"
+   ],
+   "Ways of Working": [
+    "Code Reviews",
+    "Technical Mentoring",
+    "Agile / Scrum",
+    "International Teams",
+    "Jira",
+    "Confluence"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    4,
+    7,
+    3
+   ],
+   "shell": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  "why_company": "Maify ist auf SAP Commerce Cloud spezialisiert und gibt Senior-Entwicklern echte technische Verantwortung im direkten Kundenkontext. Genau dort liegt meine Stärke: über fünf Jahre Hybris 2105/2211, OCC-APIs und PIM-/ERP-Integrationen für Rockwell Automation und Shell. Das 100-%-Remote-Modell innerhalb Deutschlands passt ideal zu meinem Standort Karlsruhe.",
+  "linkedin_message": "Guten Tag Leda Toneva-Voigt, Ihre Stelle als Senior SAP Commerce Cloud/Hybris Developer passt genau: 5+ Jahre Hybris 2105/2211 bei Rockwell Automation und Shell, OCC-APIs, PIM-/ERP-Integrationen, SAP-zertifiziert. Start ab 16.12.2026, Karlsruhe. Gern kurz sprechen?"
+ },
+ "letters": {
+  "de": {
+   "subject": "Initiativbewerbung: SAP Commerce Cloud (Hybris) Developer / Consultant – Kranti Chavan",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Miele setzt auf SAP Commerce Cloud – und genau dort bringe ich über fünf Jahre Praxis mit. Bei Rockwell Automation und Shell entwickle und erweitere ich B2B- und B2C-Plattformen auf SAP Commerce Cloud (Hybris 2105 und 2211) mit Java und Spring – als SAP Certified Commerce Cloud Developer. Deshalb bewerbe ich mich initiativ als SAP Commerce Developer oder Consultant.",
+   "bullets": [
+    {
+     "label": "Komplexe SAP-Commerce-Cloud-Lösungen",
+     "text": "Backend- und Frontend-Funktionen für Produkt-, Katalog-, Preis- und Kundendaten auf Hybris 2211 entworfen und umgesetzt; Promotions Engine, Order Management (OMS), Cronjobs, Impex und FlexibleSearch entwickelt und gepflegt."
+    },
+    {
+     "label": "Architektur & technische Ownership",
+     "text": "OCC-REST-Webservices (Headless) für Storefronts, PWA-Frontends und Drittsysteme bereitgestellt; Interceptors, Populators und Converters für eigene Datenflüsse nach Best Practices und Design Patterns angepasst."
+    },
+    {
+     "label": "Komplexe Anforderungen lösen",
+     "text": "PIM-zu-Hybris-Datenpipelines mit Profisee, Hotfolders und DataHub aufgebaut und optimiert; Integrationsengpässe zwischen SAP ERP, MDM und Profisee gemeinsam mit internationalen Teams und Fachbereichen gelöst."
+    },
+    {
+     "label": "Cloud, Modernisierung & Engineering-Standards",
+     "text": "Deployment-Zyklen und Release-Builds auf SAP Commerce Cloud (CCv2) durchgeführt, API-Migrationen für Kundenkontostrukturen umgesetzt und Datenbankabfragen für kürzere Antwortzeiten refaktoriert; Code-Reviews und Mentoring von Junior-Entwicklern."
+    }
+   ],
+   "gap": "",
+   "logistics": "Die direkte Abstimmung mit Fachbereichen und Kunden gehört für mich selbstverständlich dazu, und in internationalen, agilen Remote-Teams arbeite ich eigenständig und ergebnisorientiert – passend zu Ihrem 100-%-Remote-Setup. Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und kann nach meiner Kündigungsfrist ab dem 16.12.2026 starten. Gern zeige ich Ihnen in einem persönlichen Gespräch, wie ich Maify technisch voranbringen kann.",
+   "closing": "",
+   "contact": "z. Hd. Leda Toneva-Voigt, People & Culture"
+  }
+ },
+ "lang": "de",
+ "created": "2026-10-25"
+}

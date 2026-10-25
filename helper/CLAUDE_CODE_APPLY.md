@@ -56,6 +56,14 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
    Then add what you learned: `python -m helper.claude_jobs learn "<system or company>" "<1 line>"` (no personal data).
    Then the next job.
 
+## Initiativbewerbung (job title starts with "Initiativbewerbung")
+No specific posting: open the company's careers site (`link`), look for "Initiativbewerbung", "Initiativ bewerben",
+"Speculative/Unsolicited application", "Open application" or a general talent-pool form, and apply there with the CV
+and cover letter (desired role: SAP Commerce Cloud (Hybris) Developer / Consultant, Karlsruhe or remote, start 16.12.2026).
+If the site only lists postings: apply to an open SAP Commerce / Hybris / SAP CX / e-commerce posting there instead
+(that is even better). No initiative option and no fitting posting → `parked` with any jobs/HR email you find
+(e.g. "no initiative option; email: karriere@company.de") — it then goes out by email. Log it like any other job.
+
 ## XING / LinkedIn Easy Apply (only if there is no company website form and no application email)
 Kranti authorizes you to log in to her own XING / LinkedIn accounts: `python -m helper.claude_jobs password xing`
 (or `linkedin`) gives email, password and `left_today`. If `left_today` is 0 or the login is empty → `parked` "xing-only" /
