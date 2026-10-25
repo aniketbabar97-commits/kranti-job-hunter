@@ -491,3 +491,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Bechtle (SAP p78 QuickApply)
 - jobs.bechtle.com Initiativbewerbung job 42719 -> Jetzt bewerben opens bechtle-production.p78quickapply.com; max 64-char filenames, so upload short-named copies (same as Geberit). Recruiting accepts portal only.
+
+## conet / Babiel (conet.de)
+- babiel.com now conet.de; /de/karriere/initiativbewerbung/ form (TYPO3): fields by id _Vorname,_Name,_Strasse,_Plz,_Ort,_Land,_Mobil,_Email,_Geburtsdatum(date ISO),_Nationality,_Eintrittsdatum(date ISO),_Gehaltsvorstellung,_Suchweg,_Bemerkungen; accept cookies first; upload via role=button Lebenslauf/Anschreiben/Zeugnisse(=cover letter) + file chooser; consents via JS; FriendlyCaptcha self-solves after clicking 'Hier klicken'; success page /bestaetigung/ 'Vielen Dank fuer deine Bewerbung'.
+
+## B. Braun (jobs.bbraun.com, SuccessFactors)
+- bbraun.de/karriere -> jobs.bbraun.com/search/?q=<kw>&locale=de_DE (accept 'Alle Cookies akzeptieren' first); only initiative posting is Ã–sterreich; 'Commerce' and 'SAP Hybris' return 0 hits.

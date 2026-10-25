@@ -145,3 +145,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.conrad.de/#initiativbewerbung (Conrad, website via helper – confirmed)
 - 2026-10-25 https://www.cancom.de/#initiativbewerbung (CANCOM, website via helper – confirmed)
 - 2026-10-25 https://www.babiel.com/#initiativbewerbung (Babiel, website via helper – confirmed)
+- 2026-10-25 https://www.axians.de/#initiativbewerbung (Axians, website via helper – confirmed)
