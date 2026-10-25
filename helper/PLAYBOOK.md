@@ -415,3 +415,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Kärcher (careers.kaercher.com, SuccessFactors career55)
 - Google 'Kärcher Karriere Initiativbewerbung' -> careers.kaercher.com/job/Winnenden-Initiativbewerbung-Festanstellung-71364/1143583055/; JS click a.dialogApplyBtn -> sign in/Create account (searPref radio value 1, #dataPrivacyId then Accept button id dlgButton_21:, then JS click #fbclc_createAccountButton); no captcha; form loads ~20s; resume via button 'Resume/CV Upload a Resume' + setInputFiles input[type=file], cover letter same; City field only; Apply -> 'Your application has been sent'.
+
+## Intershop (intershop.com/de/initiativbewerbung, Contao)
+- Use the .com/de URL (Google gives intershop.ch Swiss form). Accept hofff cookie banner first (page reload), then fill by #ctrl_* ids, locator input[type=file] nth0=CV nth1=cover letter (hidden upload_cv/upload_cl get set), #opt_confirm_privacy_0 click, channel 329414=LinkedIn. Message field rejects characters #<>()\= (no parentheses!). Stale token error 'Ungültiges Anfrage-Token' if banner reload happens after filling. Success 'Vielen Dank für Deine Bewerbung'.
