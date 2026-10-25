@@ -497,3 +497,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## B. Braun (jobs.bbraun.com, SuccessFactors)
 - bbraun.de/karriere -> jobs.bbraun.com/search/?q=<kw>&locale=de_DE (accept 'Alle Cookies akzeptieren' first); only initiative posting is Ã–sterreich; 'Commerce' and 'SAP Hybris' return 0 hits.
+
+## softgarden (jobs.axians.de, new React form)
+- axians.de/karriere -> jobs.axians.de has Initiativbewerbung (axians.softgarden.io/job/40181417) -> Online bewerben opens NEW tab jobs.axians.de/application/?jobId=. CCM19 cookies 'Alles akzeptieren'. Step1: click 'Lebenslauf hochladen' label + chooser; cover letter via JS input[name=attachments].click() + chooser, plus why_us in Anschreiben textbox. Step2: Anrede react-select (click 'Keine Angabe', option Frau), name, email. Step3: salary/start text inputs by name applicationData.answers.N.answer, source buttons (LinkedIn), FriendlyCaptcha self-solves, Bestaetigen -> 'Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen'.
