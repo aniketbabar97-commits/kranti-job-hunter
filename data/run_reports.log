@@ -153,3 +153,8 @@ I stopped without applying to anyone. `python -m helper.claude_jobs next 1` retu
 I read `helper/CLAUDE_CODE_APPLY.md` and the playbook, though only the first 430 of the playbook's 522 lines, since nothing needed the rest. I also pulled `facts` and loaded the browser tools. Nothing was submitted, logged, or opened in a tab, and there are no open CAPTCHA tabs.
 
 The 0 of 10 jobs came from an empty queue, not an error. If you expected more jobs, check the queue source or the parked/closed filters.
+`next 1` returned an empty list (`[]`), so there were no jobs to apply to. I stopped at 0 of 10 applications, as the instructions say to do in that case.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and `helper/PLAYBOOK.md`, and pulled her facts. I didn't open the browser, log any jobs or add any playbook notes. The PLAYBOOK read was cut off at line 430 of 522, and I didn't read the rest because no job needed it.
+
+The queue may be empty because all jobs have been handled or parked. The last commits, "Claude applier: nightly batch 2" and "parked list", suggest earlier runs worked through it.
