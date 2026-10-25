@@ -123,3 +123,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.pikon.com/#initiativbewerbung (PIKON, website via helper – confirmed)
 - 2026-10-25 https://www.netformic.de/#initiativbewerbung (Netformic, website via helper – confirmed)
 - 2026-10-25 https://www.orbis.de/#initiativbewerbung (ORBIS, website via helper – confirmed)
+- 2026-10-25 https://www.mindsquare.de/#initiativbewerbung (mindsquare, website via helper – confirmed)

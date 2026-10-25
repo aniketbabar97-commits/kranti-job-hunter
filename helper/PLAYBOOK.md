@@ -374,6 +374,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - Jobs at jobboerse.phoenixcontact.com (d.vinci, 45 jobs, ?q ignored; 'Weitere' loads more); no initiative form, no SAP Commerce roles (only SAP SD/integration); HR mail recruitingservice@phoenixcontact.com
 
 ## ORBIS (jobs.orbis.de, SuccessFactors career5 orbisag)
+- CORRECTION: the 'kein Roboter' message on Konto anlegen cleared by itself (invisible captcha); a few seconds later the tab was logged in on the apply form - re-check the tab before parking. Form: CV via 'Lebenslauf' button > Von Gerät hochladen; cover letter via 'Weitere Dokumente' button; expand sections; fill phone/street/zip/city by id prefix, Kündigungsfrist/Eintritt text, salary; DOB is a ui5 date widget (type TT.MM.JJJJ, Tab). Success title 'Erfolgreich angewendet'.
 - Initiativbewerbung posting on jobs.orbis.de/job/...-66115/1026893001/ -> Jetzt bewerben needs a career5 account; Konto anlegen has a reCAPTCHA ('kein Roboter') -> always parks. HR mail infohr@orbis.de
 
 ## Netformic (netformic.com, Personio)
