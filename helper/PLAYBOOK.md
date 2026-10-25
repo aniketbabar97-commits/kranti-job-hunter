@@ -405,6 +405,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics (merkle.com)
+- Run 2: jobs.html search 'Commerce'+'Germany' = No result found; still no initiative form or HR email.
 - Jobs search at merkle.com/en/careers/jobs.html (keyword+location boxes, invisible reCAPTCHA); 'SAP Commerce' returns no results; only German role was Principal Consultant DXP (MÃ¼nchen); no initiative form or HR email
 
 ## mindsquare (Greenhouse job-boards.eu)
