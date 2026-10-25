@@ -418,3 +418,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Intershop (intershop.com/de/initiativbewerbung, Contao)
 - Use the .com/de URL (Google gives intershop.ch Swiss form). Accept hofff cookie banner first (page reload), then fill by #ctrl_* ids, locator input[type=file] nth0=CV nth1=cover letter (hidden upload_cv/upload_cl get set), #opt_confirm_privacy_0 click, channel 329414=LinkedIn. Message field rejects characters #<>()\= (no parentheses!). Stale token error 'Ungültiges Anfrage-Token' if banner reload happens after filling. Success 'Vielen Dank für Deine Bewerbung'.
+
+## Inforsacom Logicalis (Workday logicalis.wd3, karriere.logicalis.de)
+- inforsacom.com does not resolve; Google -> karriere.logicalis.de -> Initiativbewerbung JR00824 Workday; accept cookies, Manuell bewerben, creates account (7 steps: email/pw, Meine Daten, CV via filechooser, 2 question pages, Freiwillige Angaben, Prüfen, Übermitteln). Date widgets: mouse.click on the TT.MM.JJJJ box then keyboard.type digits only. Country first (wipes), phone type Personal Mobile, nationality Indien (scroll option).
+
+## Hugo Boss (careers.hugoboss.com, Phenom)
+- Initiative = Talent Community form /global/en/jointalentcommunity: ACCEPT ALL, UPLOAD RESUME (filechooser) shows alert 'File name is too long' for the long generated filenames - use a short-named copy of the CV (e.g. CV_Kranti_Chavan.pdf); fields firstName,lastName,email,phoneNumber,category,city,country,willingToRelocate. Not completed.
