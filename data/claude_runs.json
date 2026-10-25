@@ -938,5 +938,20 @@
   "status": "confirmed",
   "note": "dotsource.de/karriere/initiativbewerbung form, thank-you page seen",
   "ts": "2026-10-25 07:24"
+ },
+ "https://www.cyberport.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "captcha – Cloudflare security verification on https://www.cyberport.de/jobs (403), no form reachable",
+  "ts": "2026-10-25 07:24"
+ },
+ "https://www.cxrocket.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "cxrocket.com is a GoDaddy parked domain, no company site/form/email found",
+  "ts": "2026-10-25 07:24"
+ },
+ "https://www.conrad.de/#initiativbewerbung": {
+  "status": "confirmed",
+  "note": "career.conrad.com initiative form Deutschland, 'Bewerbung abgeschlossen'",
+  "ts": "2026-10-25 07:25"
  }
 }

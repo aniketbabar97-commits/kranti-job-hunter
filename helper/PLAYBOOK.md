@@ -464,3 +464,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Douglas (careers.douglas.group)
 - douglas.de/de/karriere 404; careers.douglas.group/de/jobs/?search=<kw> works; no initiative form, only a SuccessFactors candidate login; no SAP Commerce roles (Shopify, Full Stack only).
+
+## dotSource (dotsource.de TYPO3 form)
+- /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
+
+## Cyberport (cyberport.de)
+- Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
+
+## CX Rocket (cxrocket.com)
+- Domain is parked at GoDaddy; Google finds only unrelated Rocket Consulting (India). No application route -> park.
