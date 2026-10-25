@@ -437,3 +437,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## WÃ¼rth group apply.witglobal.net (Hahn+Kolb)
 - hahn-kolb.de karriere page links initiative form apply.witglobal.net/jobapplication?job_id=820&lang=de_DE; fill_form works for selects/text, radio/checkbox/file inputs are covered by labels -> JS click on input, click label.upload-dropzone[for=uploadCV] / for=otherDocuments + file chooser; ends with captcha.eu 'I am human' checkbox -> parks.
+
+## softgarden (grohe.softgarden.io)
+- grohe.softgarden.io/en/vacancies lists Initiativbewerbung (job/2876269); Jetzt bewerben opens NEW tab /applications/<id>: click visible a#idd for CV chooser, salutation #id1_chosen li Ms., cover letter textarea = why_us + 'Other attachments' button for cover PDF, FriendlyCaptcha self-solves, Submit -> /applySuccess.

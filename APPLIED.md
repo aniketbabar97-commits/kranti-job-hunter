@@ -139,3 +139,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.hugendubel.de/#initiativbewerbung (Hugendubel, website via helper – confirmed)
 - 2026-10-25 https://www.hansa-flex.de/#initiativbewerbung (?, website via helper – confirmed)
 - 2026-10-25 https://www.grohe.de/#initiativbewerbung (Grohe, website via helper – confirmed)
+- 2026-10-25 https://www.geberit.de/#initiativbewerbung (Geberit, website via helper – confirmed)
