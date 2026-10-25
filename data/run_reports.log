@@ -203,3 +203,12 @@ New jobs need to be queued before I can apply to anything.
 `python -m helper.claude_jobs next 1` returned an empty list, so there was nothing to apply to. I stopped as instructed.
 
 I applied to 0 of the 10 jobs and logged nothing with `done` or `learn`. No browser tabs were opened, so there are no open CAPTCHA tabs.
+The queue is empty after 5 jobs, so I stopped early as instructed. No applications were submitted. Four jobs are parked and one is closed.
+
+- FAHMODA: parked. fahmoda.de has no careers page or application email.
+- Ernsting's family: parked. The careers page still returns a CloudFront 403 in the browser.
+- CHECK24 (Teamleiter Produktmanagement): closed. The posting is no longer on jobs.check24.de.
+- Vantage (LinkedIn post): parked. The role is in Toronto, Canada, and the post has no application email.
+- Maitsys (LinkedIn post): parked. The role is in Frisco, Texas, and the post has no application email.
+
+No CAPTCHA tabs are left open for you to finish. Tab 1 (FAHMODA) and the LinkedIn tab are just leftover tabs. Each job is logged and the playbook has a new line for each system.
