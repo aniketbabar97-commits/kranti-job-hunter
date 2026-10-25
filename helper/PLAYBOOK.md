@@ -318,21 +318,25 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - wmf.com is only the shop; careers at aboutwmf.com/de/karriere/ -> groupeseb.taleo.net jobsearch; no initiative form, contact karriere@groupeseb.com
 
 ## Westernacher
+- Run 2: jobs.eu.lever.co/westernacher still has no SAP Commerce/Hybris role and no initiative form; westernacher.com/join shows no email.
 - westernacher.com/join lists jobs on jobs.eu.lever.co/westernacher; only Asia roles + a Japanese general application, no German initiative form
 
 ## WeidmÃ¼ller (weidmueller.de jobboard, finest jobs)
 - Initiative form at /de/jobboard/bewerben-sie-sich-initiativ-de-f3213.html, inline; fill by name bewerbung_form[...] via JS; Einsatzort select required; uploads via JS input.click()+file chooser (anschreiben, lebenslauf); click 'Senden' link; title 'Bewerbung abgeschlossen'
 
-## Wacker (jobs.wacker.com)
+## Wacker
+- Run 2: jobs.wacker.com/search/?q=Initiativ returns nothing; still no initiative form. (jobs.wacker.com)
 - SuccessFactors career site; search?q=Commerce returned no jobs; wacker.com careers overview has no initiative form or email
 
 ## WÃ¼rth (wuerth.de)
 - Initiativbewerbung link goes to career.wuerth.com (dead); jobs now on career5.successfactors.eu wrthitinteP2 -> career.witglobal.net/search?q=<kw>; Commerce search only Italy/India
 
-## Vorwerk (jobs.vorwerkgroup.com)
+## Vorwerk
+- Run 2: jobs.vorwerkgroup.com search Commerce still 0 hits. (jobs.vorwerkgroup.com)
 - vorwerk.com -> Karriere -> career-vorwerkgroups.com -> jobs.vorwerkgroup.com (SuccessFactors, search?q=<kw>&locale=de_DE); 'Commerce' = 0 hits, 'SAP' only unrelated fuzzy hits; no initiative form
 
 ## Villeroy & Boch (Workday)
+- Run 2: q=Initiativ still only Treuchtlingen-bound initiative posting JR_3111.
 - villeroyboch.wd3.myworkdayjobs.com/de-DE/careers?q=<kw>; only initiative posting is site-bound (Treuchtlingen); Commerce hits are UK sales/trainee roles
 
 ## valantic (valantic.com WP form -> SuccessFactors)
@@ -342,12 +346,14 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - careers at /unternehmen/karriere/, jobs apply via greven-twt-gruppe.jobs.personio.de; only 2 non-dev postings, no initiative form; HR address on job page
 
 ## TRUMPF (Workday)
+- Run 2: q=Commerce gives only sales/service roles, no initiative posting.
 - trumpf.com/de_DE/karriere/stellenangebote -> trumpf.wd3.myworkdayjobs.com/de-DE/TRUMPF_Graduates_and_Professionals?q=<kw>; initiative applications exist only as postings titled 'Initiativbewerbung ...' for some areas; none found for IT/Commerce
 
 ## Thalia (jobs.thalia.de)
 - thalia.de/karriere is 404; jobs at jobs.thalia.de (talents-connect), IT list at /it-digitalisierung; ?q= search param is ignored; no initiative form
 
 ## team neusta
+- Run 2: offene-stellen (JS-loaded, wait ~4s) lists SAP Finance + DXP roles only; jobs at karriere.team-neusta.de/?id=<id>.
 - karriere portal (HR Works) has no initiative form; offene-stellen lists only SAP Finance/FI-CO roles; no HR email on site; www homepage returned 500 once
 
 ## Tchibo (tchibo-karriere.de)
@@ -359,22 +365,27 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## STIHL (SuccessFactors career5 STIHLPROD)
 - corporate.stihl.de initiativbewerbung page -> Jetzt initiativ bewerben (jobId=53380 Waiblingen). Apply -> Create account (privacy dialog link #dataPrivacyId, then Accept button). Profile page: click Upload a Resume / Attach a Cover Letter then setInputFiles on the file input. Job-Specific section: source=Job Posting, Detail=Job Posting: LinkedIn, previously employed=No; address and phone via pressSequentially. Success: Thank you for applying to STIHL.
 
-## SQLI (sqli.com)
+## SQLI
+- Run 2: form filled via fill_form (country Germany), file chooser via 'File *' button, #edit-rgpd already ticks; reCAPTCHA v2 checkbox still the only blocker. (sqli.com)
 - Spontaneous application form at /int-en/spontaneous-application (Drupal): country select Germany, one file only (merge cover letter+CV with pypdf, 2MB limit), #edit-rgpd via JS; visible reCAPTCHA v2 -> always parks.
 
 ## Sartorius (Workday)
+- Initiativbewerbung R27843 exists (search q=Initiativ). Apply Manually > Create Account (email+pw+checkbox via JS click) logs straight in. Step1: Country Germany first, then fill by id (name--legalName--firstName, address--*, phoneNumber--phoneNumber), phone type Mobile, code Germany(+49) type+Enter, source LinkedIn type+Enter. Step2 one chooser takes CV+cover. Step3 4 Yes dropdowns + date month/day/year inputs via pressSequentially. Step4 tick terms only. Submit lands on Candidate Home with application listed.
 - Careers at sartorius.com/en/company/careers -> sartorius.wd3.myworkdayjobs.com/sartoriuscareers?q=<kw>; fuzzy search, 'SAP Hybris' gives unrelated hits; no initiative application posting.
 
 ## Salzgitter AG
+- Run 2: stellenangebote page again shows no initiative link or mailto.
 - jobs at salzgitter-ag.com/de/jobs-karriere/stellenangebote.html (SuccessFactors gesisgesel); no initiative form, no SAP Commerce roles (only SAP SD / FI-CO inhouse).
 
-## Rittal / Friedhelm Loh Group
+## Rittal / Friedhelm Loh
+- Run 2: 101 jobs listed, still no Commerce/Hybris or initiative posting. Group
 - rittal.com/de-de/Unternehmen/karriere -> career.friedhelm-loh-group.com (talentsconnect), /search?q=<kw>; no initiative form, no SAP Commerce roles.
 
 ## Q_PERIOR / Wavestone
 - q-perior.com redirects to wavestone.com; jobs on germany-career.wavestone.com (softgarden), no initiative form, only SAP S/4/Finance/Security roles; contact recruiting@wavestone.com.
 
-## Q CELLS (q-cells.de)
+## Q CELLS
+- Run 2: /1/ueber-uns/jobs unchanged; no initiative route or email. (q-cells.de)
 - Jobs at q-cells.de/1/ueber-uns/jobs (Leiter IT + PV/solar roles); careers.qcells.com is the US site; no initiative form.
 
 ## PIKON (pikon.com)

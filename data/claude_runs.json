@@ -651,8 +651,8 @@
  },
  "https://www.westernacher.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option, no SAP Commerce/Germany posting (Lever list is India/Japan/Malaysia only); no email found",
-  "ts": "2026-10-25 05:51"
+  "note": "no initiative form; Lever lists only SAP FI/CO/MDM/architect roles, no Commerce; no HR email on site",
+  "ts": "2026-10-25 12:20"
  },
  "https://www.weidmueller.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -661,8 +661,8 @@
  },
  "https://www.wacker.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option, no Commerce/SAP posting on jobs.wacker.com (SuccessFactors, login flow); no HR email found",
-  "ts": "2026-10-25 05:53"
+  "note": "no initiative option on jobs.wacker.com, no Commerce posting; no HR email found",
+  "ts": "2026-10-25 12:20"
  },
  "https://www.wuerth.de/#initiativbewerbung": {
   "status": "parked",
@@ -671,13 +671,13 @@
  },
  "https://www.vorwerk.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option, no SAP Commerce/Hybris posting on jobs.vorwerkgroup.com; no HR email found",
-  "ts": "2026-10-25 05:55"
+  "note": "no initiative form; 0 Commerce hits on jobs.vorwerkgroup.com; no HR email",
+  "ts": "2026-10-25 12:21"
  },
  "https://www.villeroy-boch.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no fitting posting: Workday only has Initiativbewerbung for Treuchtlingen plant site (not IT) and no SAP Commerce role; no email found",
-  "ts": "2026-10-25 05:56"
+  "note": "only initiative posting is site-bound (Treuchtlingen); no IT/Commerce role; no HR email",
+  "ts": "2026-10-25 12:21"
  },
  "https://www.valantic.com/#initiativbewerbung": {
   "status": "pending",
@@ -691,8 +691,8 @@
  },
  "https://www.trumpf.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative posting and no SAP Commerce/Hybris role on TRUMPF Workday; no HR email on site",
-  "ts": "2026-10-25 05:59"
+  "note": "no initiative posting for IT/Commerce; no Commerce/Hybris role on Workday; no HR email",
+  "ts": "2026-10-25 12:21"
  },
  "https://www.thalia.de/#initiativbewerbung": {
   "status": "parked",
@@ -701,8 +701,8 @@
  },
  "https://www.team-neusta.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option; portal lists only SAP Finance roles in Bremen; no email found",
-  "ts": "2026-10-25 06:01"
+  "note": "no initiative form; open roles are SAP Finance/DXP (Magnolia/Liferay, C1 German), no Commerce; no HR email on site",
+  "ts": "2026-10-25 12:22"
  },
  "https://www.tchibo.de/#initiativbewerbung": {
   "status": "parked",
@@ -721,23 +721,23 @@
  },
  "https://www.sqli.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (form filled, tab open; merged CV+cover letter file out/helper/sqli-.../Kranti_Chavan_Bewerbung_SQLI.pdf)",
-  "ts": "2026-10-25 06:09"
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (form filled, merged PDF uploaded; tick I'm not a robot + Submit)",
+  "ts": "2026-10-25 12:22"
  },
  "https://www.sartorius.com/#initiativbewerbung": {
-  "status": "parked",
-  "note": "no initiative option on Workday portal; no SAP Commerce/Hybris posting; no HR email found",
-  "ts": "2026-10-25 06:10"
+  "status": "confirmed",
+  "note": "Workday Initiativbewerbung R27843, appears under My Applications (Active 1)",
+  "ts": "2026-10-25 12:25"
  },
  "https://www.salzgitter-ag.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option; postings only SAP SD / FI-CO inhouse consultants, no Commerce/Hybris; no HR email found",
-  "ts": "2026-10-25 06:10"
+  "note": "no initiative option, no SAP Commerce role (only SAP SD/FI-CO inhouse); no HR email found",
+  "ts": "2026-10-25 12:25"
  },
  "https://www.rittal.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option on career.friedhelm-loh-group.com; no SAP Commerce/IT roles (101 jobs: sales, Ausbildung); no HR email found",
-  "ts": "2026-10-25 06:11"
+  "note": "no initiative form, no SAP Commerce role (SAP PLM/SD/dev only); no HR email",
+  "ts": "2026-10-25 12:26"
  },
  "https://www.q-perior.com/#initiativbewerbung": {
   "status": "parked",
@@ -746,8 +746,8 @@
  },
  "https://www.q-cells.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option; q-cells.de/1/ueber-uns/jobs lists only Leiter IT + solar R&D roles; no HR email found",
-  "ts": "2026-10-25 06:12"
+  "note": "no initiative form, no Commerce role (only Leiter IT + PV/lab roles); no HR email on jobs page",
+  "ts": "2026-10-25 12:26"
  },
  "https://www.pikon.com/#initiativbewerbung": {
   "status": "confirmed",

@@ -385,3 +385,28 @@ I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 of the 544 lines of `help
 The queue is empty, so the earlier nightly batches (1â€“4) have probably already worked through everything. If you expected more jobs, the queue needs refilling or the job source needs a look.
 
 There are no open CAPTCHA tabs to list.
+[Sun 10/25/2026 11:19:50.53] autorun: 0 jobs waiting 
+[Sun 10/25/2026 11:49:51.40] autorun: 0 jobs waiting 
+[Sun 10/25/2026 12:19:50.55] autorun: 11 jobs waiting 
+[Sun 10/25/2026 12:19:50.59] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sun 10/25/2026 12:26:47.03] batch 1 exit 0 
+- team neusta â€” parked â€” only SAP Finance and DXP (Magnolia/Liferay, C1 German) roles
+- SQLI â€” parked â€” `captcha â€“ https://www.sqli.com/int-en/spontaneous-application`. The form is filled, the merged CV and cover letter PDF is uploaded, and the consent box is ticked. Only the reCAPTCHA and Submit are left, and that tab is still open.
+- Sartorius â€” confirmed â€” Workday "Initiativbewerbung" R27843. I created an account, filled all 5 steps and submitted. It now shows under My Applications as Active (1). There was no thank-you page, so this rests on that listing.
+- Salzgitter â€” parked â€” no initiative option, no Commerce role
+- Rittal â€” parked â€” 101 jobs listed, none for Commerce
+- Q CELLS â€” parked â€” only a "Leiter IT" post plus solar and lab roles, no email
+
+For the SQLI form I wrote my own message and logged it with `answer`. Every job also got a `learn` note in the playbook.

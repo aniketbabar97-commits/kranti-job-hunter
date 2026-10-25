@@ -230,3 +230,18 @@ I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 of the 544 lines of `help
 The queue is empty, so the earlier nightly batches (1–4) have probably already worked through everything. If you expected more jobs, the queue needs refilling or the job source needs a look.
 
 There are no open CAPTCHA tabs to list.
+I worked through 10 jobs: 1 confirmed, 9 parked. None came back empty from `next 1`, so I didn't stop early.
+
+- Westernacher — parked — no Commerce role or initiative form on Lever, no email
+- Wacker — parked — no initiative option, no HR email
+- Vorwerk — parked — 0 Commerce hits, no initiative form
+- Villeroy & Boch — parked — the only initiative posting is for the Treuchtlingen site
+- Trumpf — parked — no IT or Commerce initiative posting
+- team neusta — parked — only SAP Finance and DXP (Magnolia/Liferay, C1 German) roles
+- SQLI — parked — `captcha – https://www.sqli.com/int-en/spontaneous-application`. The form is filled, the merged CV and cover letter PDF is uploaded, and the consent box is ticked. Only the reCAPTCHA and Submit are left, and that tab is still open.
+- Sartorius — confirmed — Workday "Initiativbewerbung" R27843. I created an account, filled all 5 steps and submitted. It now shows under My Applications as Active (1). There was no thank-you page, so this rests on that listing.
+- Salzgitter — parked — no initiative option, no Commerce role
+- Rittal — parked — 101 jobs listed, none for Commerce
+- Q CELLS — parked — only a "Leiter IT" post plus solar and lab roles, no email
+
+For the SQLI form I wrote my own message and logged it with `answer`. Every job also got a `learn` note in the playbook.
