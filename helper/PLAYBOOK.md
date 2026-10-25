@@ -431,3 +431,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Hilti (careers.hilti.group)
 - hilti.de -> careers.hilti.group/de-de/jobs/?search=<kw> (fuzzy); no initiative form, no Hybris/SAP Commerce postings; consent 'Annehmen und Schließen'.
+
+## Umantis (karriere.hansa-flex.de)
+- hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> Bestätigung page.
+
+## Würth group apply.witglobal.net (Hahn+Kolb)
+- hahn-kolb.de karriere page links initiative form apply.witglobal.net/jobapplication?job_id=820&lang=de_DE; fill_form works for selects/text, radio/checkbox/file inputs are covered by labels -> JS click on input, click label.upload-dropzone[for=uploadCV] / for=otherDocuments + file chooser; ends with captcha.eu 'I am human' checkbox -> parks.
