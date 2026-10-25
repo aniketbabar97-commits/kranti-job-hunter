@@ -342,3 +342,58 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Tchibo (tchibo-karriere.de)
 - FAQ says Initiativbewerbung not possible; job list /jobsuche/suche (243 jobs, only first ~12 render); contact recruiting@tchibo.de
+
+## Sybit (sybit.com)
+- sybit.de->sybit.com; /de/karriere/offene-stellen has 'Schnellbewerbung' iframe form (Anrede dropdown, fields as text inputs, source dropdown; Usercentrics Alles Akzeptieren). Single file input: setInputFiles one file at a time (CV, then cover letter); chooser never opens. Submit then wait ~10s: 'Vielen Dank für deine Bewerbung'.
+
+## STIHL (SuccessFactors career5 STIHLPROD)
+- corporate.stihl.de initiativbewerbung page -> Jetzt initiativ bewerben (jobId=53380 Waiblingen). Apply -> Create account (privacy dialog link #dataPrivacyId, then Accept button). Profile page: click Upload a Resume / Attach a Cover Letter then setInputFiles on the file input. Job-Specific section: source=Job Posting, Detail=Job Posting: LinkedIn, previously employed=No; address and phone via pressSequentially. Success: Thank you for applying to STIHL.
+
+## SQLI (sqli.com)
+- Spontaneous application form at /int-en/spontaneous-application (Drupal): country select Germany, one file only (merge cover letter+CV with pypdf, 2MB limit), #edit-rgpd via JS; visible reCAPTCHA v2 -> always parks.
+
+## Sartorius (Workday)
+- Careers at sartorius.com/en/company/careers -> sartorius.wd3.myworkdayjobs.com/sartoriuscareers?q=<kw>; fuzzy search, 'SAP Hybris' gives unrelated hits; no initiative application posting.
+
+## Salzgitter AG
+- jobs at salzgitter-ag.com/de/jobs-karriere/stellenangebote.html (SuccessFactors gesisgesel); no initiative form, no SAP Commerce roles (only SAP SD / FI-CO inhouse).
+
+## Rittal / Friedhelm Loh Group
+- rittal.com/de-de/Unternehmen/karriere -> career.friedhelm-loh-group.com (talentsconnect), /search?q=<kw>; no initiative form, no SAP Commerce roles.
+
+## Q_PERIOR / Wavestone
+- q-perior.com redirects to wavestone.com; jobs on germany-career.wavestone.com (softgarden), no initiative form, only SAP S/4/Finance/Security roles; contact recruiting@wavestone.com.
+
+## Q CELLS (q-cells.de)
+- Jobs at q-cells.de/1/ueber-uns/jobs (Leiter IT + PV/solar roles); careers.qcells.com is the US site; no initiative form.
+
+## PIKON (pikon.com)
+- Initiative form at /de/job/initiativbewerbung/: modal hidden until button.jp-apply-button is clicked (the 'Jetzt bewerben!' link opens a contact popup instead). Fill by #input-* ids, 'Datei hinzufügen' label + chooser twice (cover letter, CV); Borlabs 'Cookies akzeptieren' first. Success inline: 'Vielen Dank für Deine Bewerbung!'
+
+## Phoenix Contact
+- Jobs at jobboerse.phoenixcontact.com (d.vinci, 45 jobs, ?q ignored; 'Weitere' loads more); no initiative form, no SAP Commerce roles (only SAP SD/integration); HR mail recruitingservice@phoenixcontact.com
+
+## ORBIS (jobs.orbis.de, SuccessFactors career5 orbisag)
+- CORRECTION: the 'kein Roboter' message on Konto anlegen cleared by itself (invisible captcha); a few seconds later the tab was logged in on the apply form - re-check the tab before parking. Form: CV via 'Lebenslauf' button > Von Gerät hochladen; cover letter via 'Weitere Dokumente' button; expand sections; fill phone/street/zip/city by id prefix, Kündigungsfrist/Eintritt text, salary; DOB is a ui5 date widget (type TT.MM.JJJJ, Tab). Success title 'Erfolgreich angewendet'.
+- Initiativbewerbung posting on jobs.orbis.de/job/...-66115/1026893001/ -> Jetzt bewerben needs a career5 account; Konto anlegen has a reCAPTCHA ('kein Roboter') -> always parks. HR mail infohr@orbis.de
+
+## Netformic (netformic.com, Personio)
+- netformic.de -> netformic.com/de/karriere lists 2 Personio jobs (no initiative form); applied to Shopify Developer via netformic.jobs.personio.de/job/288131/apply?display=de. Fill #field-*; 'Datei hinzufügen' buttons nth0=cover, nth1=CV; 'VIELEN DANK' confirmation
+
+## Netconomy (Recruitee general application)
+- netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
+
+## Merkle / Namics (merkle.com)
+- Jobs search at merkle.com/en/careers/jobs.html (keyword+location boxes, invisible reCAPTCHA); 'SAP Commerce' returns no results; only German role was Principal Consultant DXP (München); no initiative form or HR email
+
+## mindsquare (Greenhouse job-boards.eu)
+- mindsquare.de/karriere has Initiativbewerbung link grnh.se/57bb5772teu -> job-boards.eu.greenhouse.io/mindsquareag/jobs/4592446101. Only one CV slot (merge cover+CV with pypdf); react-selects via click combobox then role=option; country Deutschland +49; German level options A1-A2/B1-B2/C1/C2 (B1-B2). Success /confirmation 'Vielen Dank für deine Bewerbung'.
+
+## Mindcurv / Accenture
+- mindcurv.com redirects to accenture.com; jobs search accenture.com/de-de/careers/jobsearch?jk=hybris. Workday apply: accept cookies > Apply Manually > Sign in with email works with the default password (JS-click [data-automation-id=click_filter]); job R00278881 SAP CX/CRM Consultant already applied.
+
+## Miele (karriere.miele.de, talentsconnect)
+- miele.de footer -> karriere.miele.de/deutschland; /search ignores ?q= and lists 10 jobs at a time; no initiative form seen; contact recruiting-operations@miele.de
+
+## Melitta (Workday wd3.myworkdaysite.com melittagroup)
+- melitta.de is Cloudflare-blocked; use melitta-group.com/de/karriere/melittajobportal. Workday search ?q=initiativ finds Initiativbewerbung R100164; /apply > Apply Manually is GUEST (no account, 5 steps). Pick country Germany FIRST (it wipes address fields), then fill; phone code auto +49; source LinkedIn (type+Enter); upload CV+cover in one chooser; questions: locations/fields checkboxes, termination text, talent-pool consent Yes, disability No; terms checkbox; Submit -> 'Congratulations'.
