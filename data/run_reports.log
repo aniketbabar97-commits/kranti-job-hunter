@@ -138,3 +138,13 @@ I applied to 0 of 10 jobs and logged nothing. I opened no browser tabs, so there
 `next 1` returned an empty list, so I stopped at 0 of 10 jobs. I didn't open the browser or log anything.
 
 I read `helper/CLAUDE_CODE_APPLY.md`, read most of `helper/PLAYBOOK.md` (lines 1–432 of 516; the rest didn't matter once the queue was empty), and fetched her facts.
+`next 1` returned an empty list after two jobs, so I stopped early, as instructed.
+
+- **Endress+Hauser** — parked. Their careers portal has no initiative form and no SAP Commerce posting. The only Hybris hit was a customer-success role asking for 6–8 years of experience. I found no HR email, and the portal says email applications aren't accepted.
+- **Berner** — confirmed. They have no initiative option either, so I applied to their open "IT Consultant Product Owner E-Commerce" posting (JR00005124, Köln, partly remote) on Workday. I created an account with her email and the default password. The submission landed on `/jobTasks/completed/application`. Workday has no cover-letter slot, so only the CV went in.
+
+For Berner, I took her current employer, Rockwell Automation (since 10/2024), from her CV. I wrote two free-text answers myself (salary range "60.000 - 65.000 € brutto/Jahr (verhandelbar)", and a notice-period/availability note) and logged both with `answer`. The Product Owner role is a stretch from her developer profile. I applied because the instructions say to prefer an open e-commerce posting when there's no initiative option.
+
+No CAPTCHA tabs are open. I left all browser tabs open. I added a playbook line for each company.
+
+That background task was the `code Berner myworkdayjobs.com` lookup I started while checking whether the Berner account needed email verification. It hit its time limit and was stopped. I don't need to restart it. The account worked without a verification code, and the application is already submitted and logged as confirmed.

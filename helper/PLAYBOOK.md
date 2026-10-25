@@ -516,3 +516,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Endress+Hauser (careers.endress.com)
 - endress.com/de/endress-hauser-gruppe/de-karriere/stellenangebote -> careers.endress.com (SuccessFactors-style, results render late; use /content/Search/?locale=de_com&keyword=<kw> then snapshot to file). No initiative form, no SAP Commerce roles; email applications not accepted.
+
+## Workday (Berner Group)
+- bernergroup.wd3.myworkdayjobs.com: ?q=<kw> search; /apply > Manuell bewerben > Anmelden mit E-Mail > Konto erstellen (default password login failed first, creation worked, no mail verification). Pick country Deutschland first (wipes address); phone +49 auto; source LinkedIn via type+Enter; experience needs employer (current job checkbox hides Bis), month/year spinbuttons via type; language Englisch + level '4 - Business Sprache fließend' (re-tick fluent checkbox after dropdowns); CV via Dateien auswählen chooser; no cover-letter slot. Submit lands on /jobTasks/completed/application. Pages render slowly - wait 5-10s and re-snapshot.
