@@ -5,7 +5,7 @@
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4478765999",
-  "note": "captcha – image text CAPTCHA, form filled and uploaded: https://hansgrohe.dvinci-hr.com/de/jobs/52115/form"
+  "note": "captcha - https://hansgrohe.dvinci-hr.com/de/jobs/52115/form (all fields filled, image captcha text only)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-64785-S",
@@ -13,7 +13,7 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S",
-  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (known); posting not opened, find it via https://www.liebherr.com/de-de/karriere/karriere-3364204"
+  "note": "Liebherr SuccessFactors apply login has reCAPTCHA checkbox (per playbook); no email; Arbeitsagentur page behind captcha"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18088-k60163.1086-S",
@@ -45,7 +45,7 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S",
-  "note": "captcha – Cloudflare security check, https://www.kugellager-express.de/karriere"
+  "note": "Cloudflare challenge (403) on kugellager-express.de/karriere, run 3; no email found"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=e2c62136d72810e0",
@@ -53,27 +53,27 @@
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4459647609",
-  "note": "captcha – hCaptcha on https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new"
+  "note": "captcha - https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (form filled, hCaptcha after Senden)"
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4477870309",
-  "note": "cgi njoyn: no account for email; registration (privacy > EEO > CV/cover upload > profile) hit SessionExpired on save, login form always alerts Pflichtfelder; job page https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4"
+  "note": "CGI njoyn: posting not found in job list (3036 rows, keyword search not applied); registration chain unreliable per playbook; no email"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=451afb600bf9e95d",
-  "note": "captcha – visible reCAPTCHA before form: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (same title also id=745)"
+  "note": "captcha - https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (visible reCAPTCHA before form; alt id=745)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=bed693216eda8783",
-  "note": "captcha – Cloudflare check on Indeed ad, no company apply page found (Bayard site unreachable): https://de.indeed.com/viewjob?jk=bed693216eda8783"
+  "note": "Indeed-only posting, Cloudflare 403, no employer apply route or email (per playbook, run 3)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S",
-  "note": "no employer apply route; BA page hides contact behind captcha, no employer site found"
+  "note": "No employer site/email found; Arbeitsagentur hides contact behind captcha, aggregator behind Cloudflare (run 3, per playbook)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S",
-  "note": "no careers/job page on fahmoda.de, no application email found"
+  "note": "fahmoda.de has no karriere/jobs page or application email (run 3, per playbook)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S",
@@ -81,7 +81,7 @@
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=12e4856518e0f67d",
-  "note": "CloudFront 403 on ernstings-family.com/karriere; no email found"
+  "note": "CloudFront 403 on ernstings-family.com/karriere; Indeed is Cloudflare-blocked"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
@@ -97,7 +97,7 @@
  },
  {
   "link": "https://www.linkedin.com/posts/vantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s",
-  "note": "Toronto, Canada role; only LinkedIn job link, no email in post"
+  "note": "LinkedIn post, no email, only linkedin.com/jobs link (login needed); Canada-based"
  },
  {
   "link": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
@@ -105,7 +105,7 @@
  },
  {
   "link": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
-  "note": "Frisco, Texas role (Salesforce Commerce Cloud); no email in post"
+  "note": "US (Frisco, Texas) Salesforce Commerce Cloud role, no email on post"
  },
  {
   "link": "https://www.wmf.com/#initiativbewerbung",
