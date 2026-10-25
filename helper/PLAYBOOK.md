@@ -403,3 +403,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Lemundo (Personio)
 - lemundo.de/uber-uns/jobs -> 'Jetzt initiativ bewerben' = lemundo.jobs.personio.de/job/714658/apply?display=de; fields Verfügbar ab (text TT.MM.JJJJ), Stunden, Gehalt; CV + Anschreiben via Datei hinzufügen chooser; no captcha; 'VIELEN DANK'.
+
+## Lapp (lappcareer.com, rexx/finest jobs)
+- lapp.com->Google 'Lapp Karriere Initiativbewerbung' -> lappcareer.com/Initiativbewerbung-de-f60.html; accept cookies, native selects hidden: set via JS value+change; pressSequentially text; setInputFiles cv_lebenslauf + anschreiben (UI shows only one filename at a time); #agb_checkbox click; JS click 'Senden'. Title 'Bewerbung abgeschlossen'.
