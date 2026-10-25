@@ -105,3 +105,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003790133-S (FLYERALARM GmbH, website via helper – confirmed)
 - 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207063400-S (D- I- S Design Internet Systems ecommerce, website via helper – confirmed)
 - 2026-10-25 https://de.indeed.com/viewjob?jk=32068315169fd3f2 (Severin H., website via helper – confirmed)
+- 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S (Pro-Discount Import Export e.K., emailed to jobs@pro-discount.one)
