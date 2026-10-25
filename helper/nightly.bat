@@ -23,6 +23,9 @@ for /L %%i in (1,1,5) do (
   type out\batch.txt >> out\claude_runs.log
   echo [!date! !time!] batch %%i exit !RC! >> out\nightly_diag.log
   powershell -NoProfile -Command "Get-Content out\batch.txt -Tail 8" >> out\nightly_diag.log
+  rem share the run report with GitHub (so the cloud side can follow every run)
+  type out\batch.txt >> data\run_reports.log
+  copy /y out\nightly_diag.log data\nightly_diag.log >nul 2>nul
   git add APPLIED.md helper/PLAYBOOK.md data >nul 2>nul
   git commit -qm "Claude applier: nightly batch %%i" >nul 2>nul
   git -c gc.auto=0 pull -q --rebase --autostash >nul 2>nul
