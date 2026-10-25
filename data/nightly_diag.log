@@ -456,3 +456,9 @@ I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an
 I made no applications and wrote nothing to the log. I also didn't add any `learn` lines to the playbook. There are no open CAPTCHA tabs from this run.
 
 I read only the first 430 of the playbook's 557 lines. The rest covers per-system notes that only matter once there is a job to apply to.
+[Sun 10/25/2026 12:51:29.22] batch 3 exit 0 
+I applied to no jobs. The first `python -m helper.claude_jobs next 1` returned an empty list, so the queue has nothing for Kranti right now. Your instructions say to stop early in that case, so I stopped before opening the browser.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of 557 lines of `helper/PLAYBOOK.md`, and ran `facts`. I didn't read the rest of the playbook because no job needed it. Nothing was logged, so there are no `done` or `learn` entries and no open CAPTCHA tabs.
+
+If you expected jobs to be waiting, the queue may not have been refilled since the last nightly batch. Run the apply again once new jobs are queued.
