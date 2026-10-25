@@ -492,6 +492,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
 ## Douglas (careers.douglas.group)
+- Run 2: search=commerce still only e-commerce ops/sales roles (Milan, DÃ¼sseldorf, Warsaw); no initiative form or email.
 - douglas.de/de/karriere 404; careers.douglas.group/de/jobs/?search=<kw> works; no initiative form, only a SuccessFactors candidate login; no SAP Commerce roles (Shopify, Full Stack only).
 
 ## dotSource (dotsource.de TYPO3 form)

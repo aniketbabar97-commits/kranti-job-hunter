@@ -498,3 +498,9 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - **Elbkind** â€” parked. The site has no initiative form or HR email, and the Reply career page returns 404.
 
 I logged each answer I wrote myself, and added a line to the PLAYBOOK for each system. Hansgrohe and Hahn+Kolb are the two tabs that need you to solve the CAPTCHA and click Submit.
+[Sun 10/25/2026 13:23:44.68] batch 2 exit 0 
+`next 1` returned an empty list, so I stopped after one job instead of ten.
+
+- Douglas (Initiativbewerbung, SAP Commerce Cloud) â€” parked â€” Douglas has no initiative form and no SAP Commerce or Hybris posting on careers.douglas.group. A search for "commerce" returns only e-commerce ops and sales roles in Milan, DÃ¼sseldorf and Warsaw. The only apply route is a SuccessFactors candidate login, and I found no HR email, so nothing can go out by email. I added a line to the playbook under Douglas.
+
+No CAPTCHA tabs are left open.
