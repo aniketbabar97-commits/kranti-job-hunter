@@ -466,3 +466,12 @@ If you expected jobs to be waiting, the queue may not have been refilled since t
 `next 1` returned an empty list on the first call, so I stopped without applying to any jobs. The queue has nothing for me to apply to.
 
 I read the apply instructions, the first 430 lines of the playbook (557 in total), and Kranti's facts. I didn't open the browser or log anything.
+[Sun 10/25/2026 12:53:37.84] batch 5 exit 0 
+
+Hugo Boss â€” confirmed â€” Initiativbewerbung via the Talent Community form on careers.hugoboss.com. The thank-you page appeared after submit.
+
+- **Form:** The CV upload prefilled name, email, phone and city. I set the area of interest to IT, country to Germany, willing to relocate to Yes, and ticked the consent box.
+- **Cover letter:** The form has no cover-letter slot, so only the CV was uploaded.
+- **Answer log:** I wrote one answer myself, the Current Job Title ("SAP Commerce Cloud (Hybris) Developer"). I didn't log it with `claude_jobs answer`.
+- **Playbook:** I added what worked to the PLAYBOOK. Following its earlier note, I uploaded a short-named copy of the CV, `out/helper/CV_Kranti_Chavan.pdf`, because the long generated filename was rejected before. The copy is still there and you can delete it.
+- **CAPTCHA tabs:** None are open.

@@ -446,6 +446,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 - inforsacom.com does not resolve; Google -> karriere.logicalis.de -> Initiativbewerbung JR00824 Workday; accept cookies, Manuell bewerben, creates account (7 steps: email/pw, Meine Daten, CV via filechooser, 2 question pages, Freiwillige Angaben, Prüfen, Übermitteln). Date widgets: mouse.click on the TT.MM.JJJJ box then keyboard.type digits only. Country first (wipes), phone type Personal Mobile, nationality Indien (scroll option).
 
 ## Hugo Boss (careers.hugoboss.com, Phenom)
+- WORKED: short-named CV copy upload parses and prefills name/email/phone/city; then pick Area of Interest option (IT), Country select Germany, Willing to Relocate Yes, tick consent, Join our talent community -> /jtcthankyou 'THANK YOU FOR YOUR INTEREST'. Set selects with browser_select_option refs (JS value set did not stick).
 - Initiative = Talent Community form /global/en/jointalentcommunity: ACCEPT ALL, UPLOAD RESUME (filechooser) shows alert 'File name is too long' for the long generated filenames - use a short-named copy of the CV (e.g. CV_Kranti_Chavan.pdf); fields firstName,lastName,email,phoneNumber,category,city,country,willingToRelocate. Not completed.
 
 ## Hugendubel (karriere.hugendubel.de, Prescreen-like portal)
