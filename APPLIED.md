@@ -90,3 +90,7 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.linkedin.com/posts/runmapglobal_react-pwa-salesforce-commerce-cloud-sfcc-activity-7513855697059643392-GC7C (LinkedIn recruiter post, emailed to hr@runmapglobal.com)
 - 2026-10-25 https://de.indeed.com/viewjob?jk=1369822fed6f897e (eBakery, emailed to kontakt@ebakery.de)
 - 2026-10-25 https://de.indeed.com/viewjob?jk=84e7852861b5f0cf (foobar Agency, emailed to kerstin.dietrich@foobar.agency)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=31b24d06868f3fb0 (Schäfer Shop Group GmbH & Co. KG, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=7dc6224000c76197 (Ensinger LTD, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=790f7a5f2ffc0cc2 (Deichmann, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d (HUBER SE, website via helper – confirmed)

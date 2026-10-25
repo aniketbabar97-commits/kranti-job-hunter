@@ -80,6 +80,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Use /jobs/<id>/form (manual form). Fields by id: salutation(MS), firstName, lastName, email, telephone, screeningQuestion.* ; one multi-file attachmentFile (CV + cover letter); privacyPolicyAccepted1 = Ja. Ends with an image CAPTCHA -> always parks with tab open.
 
 ## Deichmann (deichmann-karriere.de)
+- Site search and /jobs/ are unreliable. Open the department page (e.g. /omnichannelcommerce/) and read a[href*='/jobs/20'] hrefs, verify title by fetching /jobs/<id>/ and reading <title>, then go to /jobs/<id>/application-form/. Wizard: 3 dropzones + Zeugnisse(=cover letter), personal (Telefon = digits only, Geburtsjahr only), more (date is ISO), Datenschutz #invalidCheck via JS, submit via #submit-btn_zent_berf; spinner ~25s then /success.
 - Google '<title> deichmann-karriere.de' finds /jobs/<year>-<id>/; a 404 there means the posting is closed (this CRM Business Analyst was a 2024 ad).
 - Accept cookies, go to /jobs/<id>/application-form/. 4-step wizard (files, personal, more, preview). Required: CV, cover letter, Zeugnisse (= cover letter again). File inputs index order is unreliable: use the dropzone button + file chooser per slot. Invisible reCAPTCHA passes without challenge. Submit shows a spinner ~10s then /success page; do not click twice.
 
@@ -222,3 +223,27 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## LinkedIn recruiter posts
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
+
+## Kugellager-Express (kugellager-express.de)
+- Site sits behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
+
+## softgarden (karriere.schaefer-shop.de)
+- Job page Jetzt-bewerben href goes to /application/<guid>/<id>/. Step 1: click Lebenslauf-hochladen label + file chooser; Weitere-Anhaenge zone = cover letter. Step 3 questions are text inputs + button lists; FriendlyCaptcha self-solves; Bestaetigen shows the thank-you.
+
+## Markant (jobs.markant.com, Rexx-like own portal)
+- jobad id -> Jetzt online bewerben -> Apply without registration -> applicationform_privacy page already has a visible reCAPTCHA checkbox before the form; always parks.
+
+## Ensinger (Persis engage)
+- Job list at jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do?j=jobexchange (30 hits, homepage shows only some). Page 1 = two checkboxes then submit; page 2 fill by name suffix via JS (name01=Vorname, name02=Nachname, offerKnownBy select, intOrExternAgency radio Nein); click input[type=file].fieldMandatory for CV, select category Anschreiben then click input[type=file].multiuploadFile + Hinzufuegen for cover letter; Bewerbung absenden -> title Danke.
+
+## Recruitee (abriogmbh.recruitee.com)
+- Job list via /api/offers/ (JSON, careers_url); apply at <careers_url>/c/new. Fill by name (candidate.name etc.), file inputs need JS input.click() then file chooser (sticky logo blocks real clicks); phone: type with +49 prefix, digits alone are read as +1; Senden triggers a puzzle captcha -> parks.
+
+## CGI (cgi.njoyn.com, njoyn)
+- Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
+
+## d.vinci (hansgrohe.dvinci-hr.com)
+- Form /de/jobs/<id>/form: ids salutation(MS), firstName, lastName, email, telephone, screeningQuestion.*, privacyPolicyAccepted1, attachmentFile (click then one file_upload with CV+cover letter); image captcha text field #captcha -> always parks. Cookie btn is div.btn-cookie-light.
+
+## HUBER SE (karriere.huber.de, finest jobs)
+- Job list /stellenangebote.html -> job page ...-j<id>.html -> apply form ...-f<id>.html. Fill by id (gender, vorname, ..., berufsausbildung_m_sb=German level, wie_gefunden, whatsapp_opt), #agb_checkbox, leave 'website' honeypot empty; upload by JS-clicking fld_ file inputs (anschreiben, lebenslauf) + file chooser; 'Senden' link; no captcha; success title 'Bewerbung abgeschlossen'.
