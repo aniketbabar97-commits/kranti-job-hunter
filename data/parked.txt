@@ -76,6 +76,10 @@
   "note": "no employer apply page/email: fahmoda.de only has student applications; job only on aggregators (stepstone, xing, it-jobs.de, jobs-für-langenhagen.de) and Arbeitsagentur (captcha)"
  },
  {
+  "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S",
+  "note": "clicks.digital posting now 'Software-Entwickler PHP' (clicks.digital/software-entwickler-php-m-w-d-in-dresden, Magento/Shopware); application form does not render (no form/iframe in DOM even after cookie consent), no email on page"
+ },
+ {
   "link": "https://de.indeed.com/viewjob?jk=12e4856518e0f67d",
   "note": "ernstings-family.com/career.* return CloudFront 403 to automated browser; Indeed and jobs.de behind bot challenge"
  },
@@ -192,6 +196,10 @@
   "note": "no initiative form found on karriere.miele.de (talentsconnect, 137 jobs, no Commerce role seen); email: recruiting-operations@miele.de → email route"
  },
  {
+  "link": "https://www.mayercie.com/#initiativbewerbung",
+  "note": "no form, Initialbewerbung by email only; email: personal@mayercie.com → email route"
+ },
+ {
   "link": "https://www.liebherr.com/#initiativbewerbung",
   "note": "no initiative form on liebherr.com careers; SuccessFactors apply has reCAPTCHA; no HR email found"
  },
@@ -226,5 +234,41 @@
  {
   "link": "https://www.evora.de/#initiativbewerbung",
   "note": "email-only, no web form; email: careers-de@EvoraIT.com → email route"
+ },
+ {
+  "link": "https://www.elbkind.de/#initiativbewerbung",
+  "note": "elbkind.de /jobs and /en/career pages have no postings, form or email"
+ },
+ {
+  "link": "https://www.douglas.de/#initiativbewerbung",
+  "note": "no initiative option, no SAP Commerce/Hybris posting (only Shopify, Full Stack fixed-term); no HR email found"
+ },
+ {
+  "link": "https://www.cyberport.de/#initiativbewerbung",
+  "note": "captcha – Cloudflare security verification on https://www.cyberport.de/jobs (403), no form reachable"
+ },
+ {
+  "link": "https://www.cxrocket.com/#initiativbewerbung",
+  "note": "cxrocket.com is a GoDaddy parked domain, no company site/form/email found"
+ },
+ {
+  "link": "https://www.cbs-consulting.com/#initiativbewerbung",
+  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (all filled, hCaptcha before Senden)"
+ },
+ {
+  "link": "https://www.camelot-itlab.com/#initiativbewerbung",
+  "note": "camelot-itlab.com redirects to accenture.com/de-de (Workday); no initiative form, no SAP Commerce posting (hybris search only fuzzy hits); no HR email"
+ },
+ {
+  "link": "https://www.breuninger.com/#initiativbewerbung",
+  "note": "digital.breuninger.com/jobs: no initiative option, no SAP Commerce/developer posting (only ops/IT-admin/PM roles); no HR email found"
+ },
+ {
+  "link": "https://www.bechtle.com/#initiativbewerbung",
+  "note": "SAP QuickApply form (jobs.bechtle.com/default/job/Initiativbewerbung-bei-Bechtle/42719-de_DE) rejects filenames >64 chars; short-named copies of CV/cover letter needed (copy blocked by permissions); portal-only, no email accepted"
+ },
+ {
+  "link": "https://www.bbraun.de/#initiativbewerbung",
+  "note": "no German initiative option (jobs.bbraun.com only has Initiativbewerbung Österreich); no Commerce/Hybris postings; no HR email found"
  }
 ]
