@@ -500,3 +500,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## softgarden (jobs.axians.de, new React form)
 - axians.de/karriere -> jobs.axians.de has Initiativbewerbung (axians.softgarden.io/job/40181417) -> Online bewerben opens NEW tab jobs.axians.de/application/?jobId=. CCM19 cookies 'Alles akzeptieren'. Step1: click 'Lebenslauf hochladen' label + chooser; cover letter via JS input[name=attachments].click() + chooser, plus why_us in Anschreiben textbox. Step2: Anrede react-select (click 'Keine Angabe', option Frau), name, email. Step3: salary/start text inputs by name applicationData.answers.N.answer, source buttons (LinkedIn), FriendlyCaptcha self-solves, Bestaetigen -> 'Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen'.
+
+## Arineo (jobs.arineo.com, rexx-like portal)
+- arineo.com -> jobs.arineo.com/jobs lists 'Unsolicited application' = /jobs/jobdetails/1253816/application (no captcha). Accept Usercentrics 'Accept All'; fill_form works (radio Mrs, selects by label: German B1, English C2, applying as Employee, heard Online Job Markets); uploads by clicking Cover Letter / Resume cards + file chooser; submit -> /application/success 'Bewerbung erfolgreich'.
