@@ -95,3 +95,24 @@ Results:
 Open captcha tabs for you to finish: Hansgrohe (tab 1) and Hahn+Kolb (the witglobal form; its tab was replaced when I moved on, so reopen that URL and re-upload).
 
 I also logged one free-text answer I wrote for Geberit (the business-area question). I left a scratch folder, `out/helper/tmp-short/`, with short-named copies of the Geberit PDFs. It is safe to delete.
+I've processed 10 jobs, so I'm stopping here. The list wasn't empty; Berner is next in the queue.
+
+| Company | Status | Note |
+|---|---|---|
+| Mayer & Cie — parked | email-only; email: personal@mayercie.com |
+| Elbkind — parked | no postings, form or email on the site |
+| Douglas — parked | no initiative option, no SAP Commerce posting |
+| dotSource — **confirmed** | initiative form, thank-you page seen |
+| Cyberport — parked | captcha – Cloudflare check blocks https://www.cyberport.de/jobs |
+| CX Rocket — parked | domain is parked at GoDaddy |
+| Conrad — **confirmed** | initiative form, "Bewerbung abgeschlossen" |
+| CBS Corporate Business Solutions — parked | captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new |
+| CANCOM — **confirmed** | rexx initiative form, "Bewerbung abgeschlossen" |
+| Camelot ITLab — parked | redirects to Accenture, no initiative form or fitting posting |
+| Breuninger — parked | no initiative option, no SAP Commerce posting |
+
+Three confirmed (dotSource, Conrad, CANCOM) and eight parked.
+
+**Open CAPTCHA tab:** CBS is the only one. Everything is filled in on that tab and an hCaptcha blocks Senden. Kranti needs to solve it and click Senden herself.
+
+I wrote a playbook lesson after each job, and logged the answers I picked myself for dotSource, CBS and CANCOM (work location, source, experience bracket).

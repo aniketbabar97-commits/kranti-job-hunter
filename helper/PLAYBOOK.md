@@ -479,3 +479,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Recruitee (cbsconsulting.recruitee.com)
 - cbs-consulting.com/career/initiativbewerbung-fuer-professionals 'Jetzt bewerben' -> recruitee /c/new. Checkboxes are covered by labels: click label text; privacy via getByRole checkbox evaluate click. Senden shows hCaptcha -> parks with tab open.
+
+## rexx (cancom-portal-xml.rexx-systems.com)
+- karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
+
+## Camelot ITLab (Accenture)
+- camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
+
+## Breuninger (digital.breuninger.com)
+- Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
