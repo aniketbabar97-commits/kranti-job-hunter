@@ -424,3 +424,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Hugo Boss (careers.hugoboss.com, Phenom)
 - Initiative = Talent Community form /global/en/jointalentcommunity: ACCEPT ALL, UPLOAD RESUME (filechooser) shows alert 'File name is too long' for the long generated filenames - use a short-named copy of the CV (e.g. CV_Kranti_Chavan.pdf); fields firstName,lastName,email,phoneNumber,category,city,country,willingToRelocate. Not completed.
+
+## Hugendubel (karriere.hugendubel.de, Prescreen-like portal)
+- Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, Überprüfen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.

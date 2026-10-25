@@ -178,3 +178,12 @@ Free-text answers are logged for Netconomy, mindsquare and Melitta. A few steps 
 Playbook lessons were added for every system.
 
 I also created merged cover-letter-plus-CV PDFs for PIKON and mindsquare in their `out/helper/` folders. They are untracked leftovers you can delete.
+[Sun 10/25/2026  6:53:07.78] batch 4 exit 0 
+- Hugendubel â€” confirmed â€” `karriere.hugendubel.de` initiative form
+
+I logged a PLAYBOOK lesson for each company. Free-text answers I wrote myself are logged through `answer`.
+
+**Left in the repo:**
+- `.playwright-mcp/kaercher2.yml`, a snapshot file I saved.
+- An untracked `kaercher1.yml` was meant to be removed, but my `rm` was blocked. I didn't check whether it exists.
+- Nothing is committed.
