@@ -336,3 +336,7 @@ There was nothing to apply to, so I applied to 0 of the 10 jobs. `python -m help
 I opened no browser tabs and logged nothing with `done`, `learn` or `answer`. There are also no open CAPTCHA tabs to finish.
 
 New jobs need to be queued before I can apply to anything.
+[Sun 10/25/2026 10:31:36.34] batch 5 exit 0 
+`python -m helper.claude_jobs next 1` returned an empty list, so there was nothing to apply to. I stopped as instructed.
+
+I applied to 0 of the 10 jobs and logged nothing with `done` or `learn`. No browser tabs were opened, so there are no open CAPTCHA tabs.
