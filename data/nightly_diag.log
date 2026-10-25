@@ -232,3 +232,7 @@ That makes 6 confirmed and 3 parked. There are no open CAPTCHA tabs. Each job's 
 I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there as instructed.
 
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 lines of `helper/PLAYBOOK.md`. I didn't read the rest of the playbook (lines 433â€“516), since there was no job to apply to. I also loaded her data with `facts`. I didn't open any browser tabs or log anything with `done`, `answer` or `learn`.
+[Sun 10/25/2026  7:44:59.61] batch 4 exit 0 
+There was nothing to apply to. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped under your early-stop rule.
+
+I applied to 0 of 10 jobs and logged nothing. I opened no browser tabs, so there are no open CAPTCHA tabs. I read `PLAYBOOK.md` only up to line 432 of 516, since no job needed it.
