@@ -121,3 +121,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.sybit.de/#initiativbewerbung (Sybit, website via helper – confirmed)
 - 2026-10-25 https://www.stihl.de/#initiativbewerbung (STIHL, website via helper – confirmed)
 - 2026-10-25 https://www.pikon.com/#initiativbewerbung (PIKON, website via helper – confirmed)
+- 2026-10-25 https://www.netformic.de/#initiativbewerbung (Netformic, website via helper – confirmed)

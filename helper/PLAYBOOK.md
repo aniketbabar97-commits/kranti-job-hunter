@@ -366,3 +366,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Q CELLS (q-cells.de)
 - Jobs at q-cells.de/1/ueber-uns/jobs (Leiter IT + PV/solar roles); careers.qcells.com is the US site; no initiative form.
+
+## PIKON (pikon.com)
+- Initiative form at /de/job/initiativbewerbung/: modal hidden until button.jp-apply-button is clicked (the 'Jetzt bewerben!' link opens a contact popup instead). Fill by #input-* ids, 'Datei hinzufügen' label + chooser twice (cover letter, CV); Borlabs 'Cookies akzeptieren' first. Success inline: 'Vielen Dank für Deine Bewerbung!'
+
+## Phoenix Contact
+- Jobs at jobboerse.phoenixcontact.com (d.vinci, 45 jobs, ?q ignored; 'Weitere' loads more); no initiative form, no SAP Commerce roles (only SAP SD/integration); HR mail recruitingservice@phoenixcontact.com
+
+## ORBIS (jobs.orbis.de, SuccessFactors career5 orbisag)
+- Initiativbewerbung posting on jobs.orbis.de/job/...-66115/1026893001/ -> Jetzt bewerben needs a career5 account; Konto anlegen has a reCAPTCHA ('kein Roboter') -> always parks. HR mail infohr@orbis.de
