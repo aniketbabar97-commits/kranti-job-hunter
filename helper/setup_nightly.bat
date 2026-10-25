@@ -6,7 +6,7 @@ cd /d "%~dp0.."
 powershell -NoProfile -ExecutionPolicy Bypass -Command ^
  "$a = New-ScheduledTaskAction -Execute '%CD%\helper\autorun.bat' -WorkingDirectory '%CD%';" ^
  "$t1 = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(1) -RepetitionInterval (New-TimeSpan -Minutes 30);" ^
- "$t2 = New-ScheduledTaskTrigger -AtLogOn;" ^
+ "$t2 = New-ScheduledTaskTrigger -AtLogOn -User $env:USERNAME;" ^
  "$s = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 8);" ^
  "Register-ScheduledTask -TaskName 'Kranti job applications' -Action $a -Trigger @($t1,$t2) -Settings $s -Force | Out-Null"
 if errorlevel 1 (echo Setup failed. & pause & exit /b 1)
