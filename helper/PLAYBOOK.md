@@ -250,6 +250,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 2: jobs/140 form: Anrede combobox option Frau, Arbeitsort combobox (Offenburg nearest Karlsruhe), one chooser takes CV+cover letter, Datenschutz radio Ja; image captcha still parks.
 - Initiativbewerbung jobs/140 exists but better fit: jobs/52115 Channel Developer eCommerce; form ids as before, image captcha parks.
 - Form /de/jobs/<id>/form: ids salutation(MS), firstName, lastName, email, telephone, screeningQuestion.*, privacyPolicyAccepted1, attachmentFile (click then one file_upload with CV+cover letter); image captcha text field #captcha -> always parks. Cookie btn is div.btn-cookie-light.
 
@@ -453,6 +454,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, √úberpr√ºfen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti (careers.hilti.group)
+- Run 2: search Initiativ/Commerce still only sales/unrelated roles; no initiative form or email.
 - hilti.de -> careers.hilti.group/de-de/jobs/?search=<kw> (fuzzy); no initiative form, no Hybris/SAP Commerce postings; consent 'Annehmen und Schlie√üen'.
 
 ## Umantis (karriere.hansa-flex.de)
@@ -460,6 +462,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> Best√§tigung page.
 
 ## W√ºrth group apply.witglobal.net (Hahn+Kolb)
+- Run 2: form loads ~5s; fill_form selects OK; label.upload-dropzone[for=uploadCV]/[for=otherDocuments] + chooser; JS click on checkbox/radio inputs works; captcha.eu still parks.
 - hahn-kolb.de karriere page links initiative form apply.witglobal.net/jobapplication?job_id=820&lang=de_DE; fill_form works for selects/text, radio/checkbox/file inputs are covered by labels -> JS click on input, click label.upload-dropzone[for=uploadCV] / for=otherDocuments + file chooser; ends with captcha.eu 'I am human' checkbox -> parks.
 
 ## softgarden (grohe.softgarden.io)
@@ -469,6 +472,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Google 'Geberit Karriere Deutschland Initiativbewerbung' -> jobs.geberit.com/job/Initiativbewerbung/178-de_DE/; 'Jetzt bewerben' opens NEW tab geberit-production.p78quickapply.com (direct URL is blank). File names max 64 chars -> upload short-named copies (CV_x.pdf, Anschreiben_x.pdf), tag each with Lebenslauf/Anschreiben buttons, Weiter. Page 2 prefilled from CV; fill street/PLZ/city, country combobox type+Enter, UI5 selects: click [id$=input] container then li in #__listN (Anrede Frau, source LinkedIn, Standort 1 DE - Pfullendorf, 2 DE - Ibbenb√ºren), area textbox, privacy checkbox, Bewerbung absenden. Success strip + #/Completion.
 
 ## Festo (jobs.festo.com, SuccessFactors)
+- Run 2: q=Initiativ gives 10 unrelated hits (apprenticeships, Barcelona Java); still nothing for Commerce.
 - jobs.festo.com/search/?q=<kw>&locale=de_DE is fuzzy; only initiative is Festo Gewindetriebe AG (Burg); E-Commerce/Backend roles are Barcelona (08908); no German initiative form, no HR mail on festo.com karriere pages.
 
 ## Faktor E (faktor-e.de, Bonn agency)
@@ -484,6 +488,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Karriere > /karriere/wen-wir-suchen/ has no form; Initialbewerbung by email only (HR address on that page).
 
 ## Elbkind Reply (elbkind.de)
+- Run 2: homepage has no career/mail links; reply.com/elbkind/de/career 404.
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
 ## Douglas (careers.douglas.group)

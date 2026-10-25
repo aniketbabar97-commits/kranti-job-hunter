@@ -288,3 +288,12 @@ Hugo Boss — confirmed — Initiativbewerbung via the Talent Community form on 
 - **Answer log:** I wrote one answer myself, the Current Job Title ("SAP Commerce Cloud (Hybris) Developer"). I didn't log it with `claude_jobs answer`.
 - **Playbook:** I added what worked to the PLAYBOOK. Following its earlier note, I uploaded a short-named copy of the CV, `out/helper/CV_Kranti_Chavan.pdf`, because the long generated filename was rejected before. The copy is still there and you can delete it.
 - **CAPTCHA tabs:** None are open.
+`next 1` returned an empty list after 5 of the 10 jobs, so I stopped there. None of the five was submitted.
+
+- **Hilti** — parked. Hilti has no initiative form and no Hybris or SAP Commerce posting, and I found no HR email.
+- **Hansgrohe** — parked at an image CAPTCHA. I filled in the form (Offenburg as the work location, CV and cover letter uploaded, privacy consent given). The tab is open for you to finish at https://hansgrohe.dvinci-hr.com/de/jobs/140/form.
+- **Hahn+Kolb** — parked at the "I am human" captcha. I filled in the form, uploaded both files and ticked the consents. The tab is open at https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE.
+- **Festo** — parked. The only open roles that match are in Barcelona and there is no German initiative form or HR email.
+- **Elbkind** — parked. The site has no initiative form or HR email, and the Reply career page returns 404.
+
+I logged each answer I wrote myself, and added a line to the PLAYBOOK for each system. Hansgrohe and Hahn+Kolb are the two tabs that need you to solve the CAPTCHA and click Submit.
