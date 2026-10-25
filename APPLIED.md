@@ -150,3 +150,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.hoffmann-group.com/#initiativbewerbung (Hoffmann Group, website via helper – confirmed)
 - 2026-10-25 https://www.hansa-flex.com/#initiativbewerbung (HANSA-FLEX, website via helper – confirmed)
 - 2026-10-25 https://de.indeed.com/viewjob?jk=5c1d1f0fe80eebb0 (HÖRMANN, website via helper – confirmed)
+- 2026-10-25 https://www.berner.eu/#initiativbewerbung (Berner, website via helper – confirmed)
