@@ -129,3 +129,6 @@ The queue is empty after 9 jobs, so I stopped before the 10th.
 - HÖRMANN — confirmed — Product Owner:in Digitale Kundenlösungen via their rexx portal.
 
 That makes 6 confirmed and 3 parked. There are no open CAPTCHA tabs. Each job's answers, notes and playbook lessons are logged, and the two Bechtle and clicks digital blockers are in the notes for a retry.
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there as instructed.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 lines of `helper/PLAYBOOK.md`. I didn't read the rest of the playbook (lines 433–516), since there was no job to apply to. I also loaded her data with `facts`. I didn't open any browser tabs or log anything with `done`, `answer` or `learn`.
