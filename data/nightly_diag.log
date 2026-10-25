@@ -642,3 +642,9 @@ I logged each result with `done` and added a one-line note to the playbook for e
 `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so there was nothing to apply to. I stopped there, as instructed, with 0 of 10 jobs applied.
 
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 of 585 lines of `helper/PLAYBOOK.md`, and pulled `facts`. I didn't read the rest of the playbook, since no job came up. I opened no browser tabs, created no accounts, and logged nothing with `done`, `learn` or `answer`.
+[Sun 10/25/2026 16:59:54.59] batch 4 exit 0 
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped there as you instructed.
+
+I opened no browser tabs, logged nothing and left no CAPTCHA tabs open. I did run `facts` and read the playbook, but changed nothing.
+
+If you expected jobs in the queue, the nightly batches or the parked list may have emptied it, or new jobs haven't been loaded yet. Say if you want me to check the queue another way.
