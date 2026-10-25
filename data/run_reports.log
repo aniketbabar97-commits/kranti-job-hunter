@@ -302,3 +302,8 @@ I logged each answer I wrote myself, and added a line to the PLAYBOOK for each s
 - Douglas (Initiativbewerbung, SAP Commerce Cloud) — parked — Douglas has no initiative form and no SAP Commerce or Hybris posting on careers.douglas.group. A search for "commerce" returns only e-commerce ops and sales roles in Milan, Düsseldorf and Warsaw. The only apply route is a SuccessFactors candidate login, and I found no HR email, so nothing can go out by email. I added a line to the playbook under Douglas.
 
 No CAPTCHA tabs are left open.
+I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), and your instructions say to stop when that happens.
+
+I didn't open the browser, log anything with `done`, or add any `learn` notes. There are also no open CAPTCHA tabs from this run.
+
+I read `helper/PLAYBOOK.md` only up to line 428 of 564, because the file was cut off. That doesn't matter here, since there was nothing to apply to.
