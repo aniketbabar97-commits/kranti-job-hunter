@@ -77,7 +77,7 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S",
-  "note": "clicks.digital posting now 'Software-Entwickler PHP' (clicks.digital/software-entwickler-php-m-w-d-in-dresden, Magento/Shopware); application form does not render (no form/iframe in DOM even after cookie consent), no email on page"
+  "note": "posting open at https://clicks.digital/software-entwickler-php-m-w-d-in-dresden but the CF7 application form never renders in automated browser (no inputs after cookies/scroll); no email found"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=12e4856518e0f67d",
@@ -237,30 +237,30 @@
  },
  {
   "link": "https://www.cyberport.de/#initiativbewerbung",
-  "note": "captcha – Cloudflare security verification on https://www.cyberport.de/jobs (403), no form reachable"
+  "note": "captcha – https://www.cyberport.de/ (Cloudflare security verification, 403)"
  },
  {
   "link": "https://www.cxrocket.com/#initiativbewerbung",
-  "note": "cxrocket.com is a GoDaddy parked domain, no company site/form/email found"
+  "note": "domain parked at GoDaddy, no application route or email"
  },
  {
   "link": "https://www.cbs-consulting.com/#initiativbewerbung",
-  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (all filled, hCaptcha before Senden)"
+  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (hCaptcha; form filled)"
  },
  {
   "link": "https://www.camelot-itlab.com/#initiativbewerbung",
-  "note": "camelot-itlab.com redirects to accenture.com/de-de (Workday); no initiative form, no SAP Commerce posting (hybris search only fuzzy hits); no HR email"
+  "note": "camelot-itlab.com redirects to accenture.com/de-de; no initiative form or SAP Commerce posting (per playbook)"
  },
  {
   "link": "https://www.breuninger.com/#initiativbewerbung",
-  "note": "digital.breuninger.com/jobs: no initiative option, no SAP Commerce/developer posting (only ops/IT-admin/PM roles); no HR email found"
+  "note": "no initiative form, no SAP Commerce/Hybris role on digital.breuninger.com/jobs, no email"
  },
  {
   "link": "https://www.bechtle.com/#initiativbewerbung",
-  "note": "SAP QuickApply form (jobs.bechtle.com/default/job/Initiativbewerbung-bei-Bechtle/42719-de_DE) rejects filenames >64 chars; short-named copies of CV/cover letter needed (copy blocked by permissions); portal-only, no email accepted"
+  "note": "jobs.bechtle.com renders empty list in automated browser, job 42719 URL 404s; portal-only (p78quickapply), no email"
  },
  {
   "link": "https://www.bbraun.de/#initiativbewerbung",
-  "note": "no German initiative option (jobs.bbraun.com only has Initiativbewerbung Österreich); no Commerce/Hybris postings; no HR email found"
+  "note": "only initiative posting is Österreich; no Germany initiative or Commerce role; no email"
  }
 ]
