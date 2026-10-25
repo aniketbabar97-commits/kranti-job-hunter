@@ -32,3 +32,8 @@ for /L %%i in (1,1,5) do (
   git push -q >nul 2>nul
 )
 python -m helper.claude_jobs parked > out\parked_tonight.txt 2>&1
+copy /y out\parked_tonight.txt data\parked.txt >nul 2>nul
+git add data >nul 2>nul
+git commit -qm "Claude applier: parked list" >nul 2>nul
+git -c gc.auto=0 pull -q --rebase --autostash >nul 2>nul
+git push -q >nul 2>nul
