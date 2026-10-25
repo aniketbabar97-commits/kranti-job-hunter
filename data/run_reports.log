@@ -398,3 +398,8 @@ I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty lis
 I opened no browser tabs, logged nothing and left no CAPTCHA tabs open. I did run `facts` and read the playbook, but changed nothing.
 
 If you expected jobs in the queue, the nightly batches or the parked list may have emptied it, or new jobs haven't been loaded yet. Say if you want me to check the queue another way.
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped there, as the instructions say to.
+
+I read the playbook (the first 432 of its 585 lines) and ran `facts`, but I didn't open a browser, submit anything or log anything. I didn't read the rest of the playbook because there was no job to apply to.
+
+There are no open CAPTCHA tabs to list.
