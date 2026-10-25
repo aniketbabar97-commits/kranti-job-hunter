@@ -266,3 +266,8 @@ I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 lines of `helper/PLAYBOOK.md
 - **Liebherr** (Initiativbewerbung, SAP Commerce Cloud Developer / Consultant) — parked. The careers page has no initiative-application link and no email address. The playbook says their SuccessFactors apply flow always hits a reCAPTCHA, so I didn't try to go through it. I logged it as parked and added a line to the playbook for Liebherr.
 
 No CAPTCHA tabs are left open. The 10-job target wasn't reached because the queue ran out.
+I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped there, as the instructions say.
+
+I made no applications and wrote nothing to the log. I also didn't add any `learn` lines to the playbook. There are no open CAPTCHA tabs from this run.
+
+I read only the first 430 of the playbook's 557 lines. The rest covers per-system notes that only matter once there is a job to apply to.
