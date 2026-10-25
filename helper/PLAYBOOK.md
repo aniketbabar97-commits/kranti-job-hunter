@@ -488,3 +488,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Breuninger (digital.breuninger.com)
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
+
+## Bechtle (SAP p78 QuickApply)
+- jobs.bechtle.com Initiativbewerbung job 42719 -> Jetzt bewerben opens bechtle-production.p78quickapply.com; max 64-char filenames, so upload short-named copies (same as Geberit). Recruiting accepts portal only.

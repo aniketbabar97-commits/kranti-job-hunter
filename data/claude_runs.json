@@ -978,5 +978,15 @@
   "status": "working",
   "note": "claimed",
   "ts": "2026-10-25 07:31"
+ },
+ "https://www.bechtle.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "SAP QuickApply form (jobs.bechtle.com/default/job/Initiativbewerbung-bei-Bechtle/42719-de_DE) rejects filenames >64 chars; short-named copies of CV/cover letter needed (copy blocked by permissions); portal-only, no email accepted",
+  "ts": "2026-10-25 07:33"
+ },
+ "https://www.babiel.com/#initiativbewerbung": {
+  "status": "confirmed",
+  "note": "conet initiative form (Babiel is part of conet); thank-you seen",
+  "ts": "2026-10-25 07:34"
  }
 }
