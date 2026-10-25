@@ -231,6 +231,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express (kugellager-express.de)
+- Run 3: /karriere still 403 behind Cloudflare 'Just a moment'; parked again.
 - Run 2: /karriere still 403 behind Cloudflare 'Just a moment' challenge; parked again.
 - Site sits behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
@@ -244,6 +245,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job list at jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do?j=jobexchange (30 hits, homepage shows only some). Page 1 = two checkboxes then submit; page 2 fill by name suffix via JS (name01=Vorname, name02=Nachname, offerKnownBy select, intOrExternAgency radio Nein); click input[type=file].fieldMandatory for CV, select category Anschreiben then click input[type=file].multiuploadFile + Hinzufuegen for cover letter; Bewerbung absenden -> title Danke.
 
 ## Recruitee (abriogmbh.recruitee.com)
+- Run 2: /c/new form filled fine (date input ISO, radios via JS click by name, uploads via chooser); Senden then hCaptcha image challenge -> parks.
 - Job list via /api/offers/ (JSON, careers_url); apply at <careers_url>/c/new. Fill by name (candidate.name etc.), file inputs need JS input.click() then file chooser (sticky logo blocks real clicks); phone: type with +49 prefix, digits alone are read as +1; Senden triggers a puzzle captcha -> parks.
 
 ## CGI (cgi.njoyn.com, njoyn)
@@ -251,6 +253,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 3: jobs/52115/form fills fully via run_code (salutation MS, screeningQuestion.24 salary, .37-1 Nein, .103 =170 LinkedIn, one attachmentFile with both PDFs, privacyPolicyAccepted1); image captcha still blocks.
 - Run 2: jobs/140 form: Anrede combobox option Frau, Arbeitsort combobox (Offenburg nearest Karlsruhe), one chooser takes CV+cover letter, Datenschutz radio Ja; image captcha still parks.
 - Initiativbewerbung jobs/140 exists but better fit: jobs/52115 Channel Developer eCommerce; form ids as before, image captcha parks.
 - Form /de/jobs/<id>/form: ids salutation(MS), firstName, lastName, email, telephone, screeningQuestion.*, privacyPolicyAccepted1, attachmentFile (click then one file_upload with CV+cover letter); image captcha text field #captcha -> always parks. Cookie btn is div.btn-cookie-light.
@@ -558,6 +561,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - bernergroup.wd3.myworkdayjobs.com: ?q=<kw> search; /apply > Manuell bewerben > Anmelden mit E-Mail > Konto erstellen (default password login failed first, creation worked, no mail verification). Pick country Deutschland first (wipes address); phone +49 auto; source LinkedIn via type+Enter; experience needs employer (current job checkbox hides Bis), month/year spinbuttons via type; language Englisch + level '4 - Business Sprache flie√üend' (re-tick fluent checkbox after dropdowns); CV via Dateien ausw√§hlen chooser; no cover-letter slot. Submit lands on /jobTasks/completed/application. Pages render slowly - wait 5-10s and re-snapshot.
 
 ## Markant (jobs.markant.com)
+- Run 2: job id=751 still has visible reCAPTCHA on applicationform_privacy page before the form; parked.
 - Business Analyst (m/w/d) exists twice (id=754 and 745); privacy page applicationform_privacy&jobad_id=<id> has the reCAPTCHA, so go straight to that URL.
 - Run 2: jobad id=751 -> Jetzt online bewerben -> Apply now; privacy page has visible reCAPTCHA before any form; parked again.
 
@@ -572,3 +576,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 
 ## CBS (Recruitee)
 - Run 2: custom selects: open button, then click role=option (refs go stale, use label:has-text); privacy is last checkbox; hCaptcha on Senden -> parks.
+
+## CGI (cgi.njoyn.com)
+- Run 3: Infra/DevOps Lead eCommerce not in default DE listing, header keyword box does not filter via Enter; parked.

@@ -131,8 +131,8 @@
  },
  "https://www.linkedin.com/jobs/view/4478765999": {
   "status": "parked",
-  "note": "captcha – image text CAPTCHA, form filled and uploaded: https://hansgrohe.dvinci-hr.com/de/jobs/52115/form",
-  "ts": "2026-10-25 10:28"
+  "note": "captcha - https://hansgrohe.dvinci-hr.com/de/jobs/52115/form (all fields filled, image captcha text only)",
+  "ts": "2026-10-25 16:55"
  },
  "https://de.indeed.com/viewjob?jk=75b145edf216f2f8": {
   "status": "confirmed",
@@ -166,8 +166,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S": {
   "status": "parked",
-  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (known); posting not opened, find it via https://www.liebherr.com/de-de/karriere/karriere-3364204",
-  "ts": "2026-10-25 10:29"
+  "note": "Liebherr SuccessFactors apply login has reCAPTCHA checkbox (per playbook); no email; Arbeitsagentur page behind captcha",
+  "ts": "2026-10-25 16:56"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206302371-S": {
   "status": "closed",
@@ -421,8 +421,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S": {
   "status": "parked",
-  "note": "captcha – Cloudflare security check, https://www.kugellager-express.de/karriere",
-  "ts": "2026-10-25 10:20"
+  "note": "Cloudflare challenge (403) on kugellager-express.de/karriere, run 3; no email found",
+  "ts": "2026-10-25 16:50"
  },
  "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0": {
   "status": "confirmed",
@@ -432,7 +432,7 @@
  "https://de.indeed.com/viewjob?jk=e2c62136d72810e0": {
   "status": "parked",
   "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751",
-  "ts": "2026-10-25 10:21"
+  "ts": "2026-10-25 16:51"
  },
  "https://de.indeed.com/viewjob?jk=5eeb86a96359cdbb": {
   "status": "closed",
@@ -461,18 +461,18 @@
  },
  "https://www.linkedin.com/jobs/view/4459647609": {
   "status": "parked",
-  "note": "captcha – hCaptcha on https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new",
-  "ts": "2026-10-25 10:22"
+  "note": "captcha - https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (form filled, hCaptcha after Senden)",
+  "ts": "2026-10-25 16:53"
  },
  "https://www.linkedin.com/jobs/view/4477870309": {
   "status": "parked",
-  "note": "cgi njoyn: no account for email; registration (privacy > EEO > CV/cover upload > profile) hit SessionExpired on save, login form always alerts Pflichtfelder; job page https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4",
-  "ts": "2026-10-25 10:27"
+  "note": "CGI njoyn: posting not found in job list (3036 rows, keyword search not applied); registration chain unreliable per playbook; no email",
+  "ts": "2026-10-25 16:54"
  },
  "https://de.indeed.com/viewjob?jk=451afb600bf9e95d": {
   "status": "parked",
-  "note": "captcha – visible reCAPTCHA before form: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (same title also id=745)",
-  "ts": "2026-10-25 10:28"
+  "note": "captcha - https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (visible reCAPTCHA before form; alt id=745)",
+  "ts": "2026-10-25 16:55"
  },
  "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d": {
   "status": "confirmed",
@@ -486,8 +486,8 @@
  },
  "https://de.indeed.com/viewjob?jk=bed693216eda8783": {
   "status": "parked",
-  "note": "captcha – Cloudflare check on Indeed ad, no company apply page found (Bayard site unreachable): https://de.indeed.com/viewjob?jk=bed693216eda8783",
-  "ts": "2026-10-25 10:28"
+  "note": "Indeed-only posting, Cloudflare 403, no employer apply route or email (per playbook, run 3)",
+  "ts": "2026-10-25 16:55"
  },
  "https://www.linkedin.com/jobs/view/4475771885": {
   "status": "closed",
@@ -501,8 +501,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S": {
   "status": "parked",
-  "note": "no employer apply route; BA page hides contact behind captcha, no employer site found",
-  "ts": "2026-10-25 10:30"
+  "note": "No employer site/email found; Arbeitsagentur hides contact behind captcha, aggregator behind Cloudflare (run 3, per playbook)",
+  "ts": "2026-10-25 16:56"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003787924-S": {
   "status": "confirmed",
@@ -516,8 +516,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S": {
   "status": "parked",
-  "note": "no careers/job page on fahmoda.de, no application email found",
-  "ts": "2026-10-25 10:50"
+  "note": "fahmoda.de has no karriere/jobs page or application email (run 3, per playbook)",
+  "ts": "2026-10-25 16:56"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
   "status": "parked",
