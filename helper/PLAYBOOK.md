@@ -421,6 +421,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - melitta.de is Cloudflare-blocked; use melitta-group.com/de/karriere/melittajobportal. Workday search ?q=initiativ finds Initiativbewerbung R100164; /apply > Apply Manually is GUEST (no account, 5 steps). Pick country Germany FIRST (it wipes address fields), then fill; phone code auto +49; source LinkedIn (type+Enter); upload CV+cover in one chooser; questions: locations/fields checkboxes, termination text, talent-pool consent Yes, disability No; terms checkbox; Submit -> 'Congratulations'.
 
 ## Liebherr
+- Run 3: /de-de/karriere/karriere-3364204 has no initiative link or mailto; park.
 - liebherr.com/de-de/karriere has no Initiativbewerbung link in snapshot; guessed initiative URLs 404; park.
 
 ## Lemundo (Personio)
