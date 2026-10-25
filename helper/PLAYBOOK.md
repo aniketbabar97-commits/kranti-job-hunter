@@ -91,6 +91,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Job page has no form, only 'per Mail' (CV, project samples, salary, start date). Park as email-only.
 
 ## rexx (karriere.tarox.de)
+- WORKED with cronos recipe: pressSequentially per field by id, native selects via JS value+change, setInputFiles on #fld_ ids for anschreiben+lebenslauf, #agb_checkbox via JS, then JS/force click on last a:has-text('Senden') (role link lookup fails). Title 'Bewerbung abgeschlossen'.
 - Form is /<Job>-f<id>.html. Custom selects hide native <select>; fields set via JS value+change are kept, files via setInputFiles show up. Senden with JS-filled form returned 'Leider konnten wir Ihre Anfrage nicht bearbeiten' (rexxCha bot check); accept cookies FIRST, type fields with real keystrokes, datepicker popup must be closed (Escape) before clicking Senden. Unresolved.
 
 ## Provitex (own Vue form /karriere/bewerben)
@@ -103,6 +104,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Link jobs/27 is only the Initiativbewerbung; check the company's own /Jobs list to see if the real posting still exists.
 
 ## dormakaba (jobs.dormakaba.com, SAP SF career site)
+- WORKED: form is in shadow DOM (page.locator pierces; frame refs prefixed f12e..). Dropdowns = button + li (referral list: use .last()); date input ISO; file inputs: setInputFiles on input[type=file] nth0=Resume nth1=Additional docs (chooser never opens); a required salary textarea appears after first Apply attempt; consent radio via label text, checkbox via JS click. Success = full-page modal 'Thank you for your application!'.
 - Guest form, no account. Date input needs ISO; file inputs via setInputFiles (1st=Resume, last=Additional docs); privacy checkbox opens dialog -> click 'I accept'. Submit hung on 'Save applicationâ€¦' with no confirmation in run 1.
 
 ## gc-gruppe.de (Drupal webform, FriendlyCaptcha)
@@ -247,3 +249,21 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## HUBER SE (karriere.huber.de, finest jobs)
 - Job list /stellenangebote.html -> job page ...-j<id>.html -> apply form ...-f<id>.html. Fill by id (gender, vorname, ..., berufsausbildung_m_sb=German level, wie_gefunden, whatsapp_opt), #agb_checkbox, leave 'website' honeypot empty; upload by JS-clicking fld_ file inputs (anschreiben, lebenslauf) + file chooser; 'Senden' link; no captcha; success title 'Bewerbung abgeschlossen'.
+
+## softgarden (einhell.softgarden.io)
+- karriere.einhell.com dead; einhell.softgarden.io/en/vacancies lists job -> 'Online bewerben' opens NEW tab einhell.career.softgarden.de/application. Cookie modal .ccm-root: buttons are ALLES ABLEHNEN then ALLES AKZEPTIEREN (pick the 2nd). Salutation react-select: click the visible 'Keine Angabe' text then role=option. Extra questions: salary textarea, start text, ja/nein radio, source buttons; FriendlyCaptcha self-solves; BestÃ¤tigen shows full-page thank-you.
+
+## gc-gruppe.de (Drupal webform)
+- Worked 2nd time: open job URL, JS-click Usercentrics #accept, wait 2s, fill by #edit-* ids, setInputFiles with both PDFs on #edit-bewerbungsunterlagen-upload (ajax), tick #edit-bestaetigung + #edit-datenschutz via JS, wait ~6s for captcha, click #edit-actions-submit force. Success text 'Vielen Dank fÃ¼r deine Bewerbung.' (form disappears).
+
+## Tabris UG (Magento, Berlin)
+- No employer site found via Google; aggregator php-entwickler.de/job/...-166305/extern redirects to learn4good.com behind Cloudflare -> park.
+
+## Stroetmann (karriere.stroetmann.de, talentsconnect)
+- Homepage link ok: /search?q=<kw> lists job -> job page has inline form (click 'Jetzt bewerben!' to reveal). Fill by type (select Anrede, text x2, email, tel, start select by KÃ¼ndigungsfrist, salary number), one multi-file input takes CV+cover letter, tick both consent checkboxes via JS click, button 'Jetzt bewerben!' force click -> /success. No captcha.
+
+## AF-mediaGROUP (af-mediagroup.it/karriere)
+- Arbeitsagentur-only link: Google 'AF-mediaGROUP Full Stack Entwickler' finds af-mediagroup.it/karriere with Elementor contact form (name,email,message, no upload) -> sent why_us; success 'Deine Ãœbermittlung war erfolgreich.' Docs address karriere@af-mediagroup.com.
+
+## FAHMODA (fahmoda.de)
+- Site has no careers/job page (only student admission); the Shopware/myfactory job exists only on aggregators -> park.
