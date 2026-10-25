@@ -321,3 +321,12 @@ I logged the answers I wrote myself (travel, home-office days, German/English le
 `next 1` returned an empty list (`[]`), so I stopped before applying to any jobs, as you instructed. No applications were submitted, no jobs were logged, and I made no changes.
 
 I read `helper/PLAYBOOK.md`, but only lines 1â€“430 of 538. I didn't read the rest because there was no job to apply to.
+[Sun 10/25/2026 10:30:41.49] batch 3 exit 0 
+I made no applications this run. Only one job was queued, and I parked it.
+
+- **Tabris UG â€” parked.** The job was "E-Commerce Programmierer (m/w/d) Magento 2.x". The Bundesagentur fÃ¼r Arbeit page has no apply link or email. It hides the employer contact behind a captcha, and the PLAYBOOK says no employer site exists for this company. I logged it as `parked` and added a line to the playbook.
+- **Queue empty.** `next 1` then returned an empty list, so I stopped early as instructed. That is 1 job handled out of the 10 you asked for.
+
+I only read the first 430 of the PLAYBOOK's 538 lines. I didn't need the rest for this job.
+
+No CAPTCHA tabs are open.

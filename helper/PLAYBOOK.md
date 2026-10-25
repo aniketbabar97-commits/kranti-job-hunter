@@ -261,6 +261,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Worked 2nd time: open job URL, JS-click Usercentrics #accept, wait 2s, fill by #edit-* ids, setInputFiles with both PDFs on #edit-bewerbungsunterlagen-upload (ajax), tick #edit-bestaetigung + #edit-datenschutz via JS, wait ~6s for captcha, click #edit-actions-submit force. Success text 'Vielen Dank fÃ¼r deine Bewerbung.' (form disappears).
 
 ## Tabris UG (Magento, Berlin)
+- Run 2: BA page again offers no apply link or email; parked.
 - No employer site found via Google; aggregator php-entwickler.de/job/...-166305/extern redirects to learn4good.com behind Cloudflare -> park.
 
 ## Stroetmann (karriere.stroetmann.de, talentsconnect)
