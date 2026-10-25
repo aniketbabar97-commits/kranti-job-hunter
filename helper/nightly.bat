@@ -14,9 +14,11 @@ git -c gc.auto=0 pull -q >nul 2>nul
 git stash pop -q >nul 2>nul
 set MIN_SCORE=75
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).AddDays(-14).ToString('yyyy-MM-dd')"') do set APPLY_SINCE=%%d
-call helper\browser.bat 9222 out\mcp-9222.json
+rem same browser setup as the runs that worked (registered MCP server, Playwright starts its own Chrome)
+call claude mcp remove playwright >nul 2>nul
+call claude mcp add playwright -- npx @playwright/mcp@latest --browser chrome --user-data-dir "%CD%\out\pw-profile" >> out\nightly_diag.log 2>&1
 for /L %%i in (1,1,5) do (
-  call claude -p --model sonnet --permission-mode acceptEdits --mcp-config out\mcp-9222.json --strict-mcp-config "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs; stop early when 'next 1' returns an empty list." > out\batch.txt 2>&1
+  call claude -p --model sonnet --permission-mode acceptEdits "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs; stop early when 'next 1' returns an empty list." > out\batch.txt 2>&1 < nul
   set RC=!errorlevel!
   type out\batch.txt >> out\claude_runs.log
   echo [!date! !time!] batch %%i exit !RC! >> out\nightly_diag.log
