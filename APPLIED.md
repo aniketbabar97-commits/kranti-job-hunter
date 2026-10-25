@@ -100,3 +100,8 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.linkedin.com/jobs/view/4474290921 (dormakaba, website via helper – confirmed)
 - 2026-10-25 https://www.linkedin.com/jobs/view/4476048319 (Cordes & Graefe KG, website via helper – confirmed)
 - 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003381631-S (Franz Adriano, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=ba7513a2e371bbac (flyeralarm GmbH, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=b3fcd478cc018ae4 (Quellwerke GmbH, website via helper – confirmed)
+- 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003790133-S (FLYERALARM GmbH, website via helper – confirmed)
+- 2026-10-25 https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207063400-S (D- I- S Design Internet Systems ecommerce, website via helper – confirmed)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=32068315169fd3f2 (Severin H., website via helper – confirmed)

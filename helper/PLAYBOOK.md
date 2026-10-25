@@ -267,3 +267,36 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## FAHMODA (fahmoda.de)
 - Site has no careers/job page (only student admission); the Shopware/myfactory job exists only on aggregators -> park.
+
+## Umantis (recruitingapp-*.de.umantis.com)
+- Indeed link is Cloudflare-blocked; google title -> company career page -> Jetzt bewerben -> /Application/New. Fill by role; DOB mm/dd/yyyy; upload via button + file chooser (check input[type=file].files); privacy checkbox; 'Bewerbung definitiv einreichen' -> /Confirmation.
+
+## Ernsting's family
+- ernstings-family.com/karriere and career.ernstings-family.com give CloudFront 403 in the automated browser; jobs.de mirror has botchallenge -> park.
+
+## Quellwerke (karriere.quellwerke.de, TYPO3 form)
+- Indeed->quellwerke.de->karriere portal; /standard-bewerbung form takes ONE archive upload (ZIP CV+cover letter via python zipfile); cookie panel needs locator click on [data-omcookie-panel-save=all]; success URL /danke.
+
+## Pro-Discount (pro-discount-werbeartikel.de)
+- pro-discount.de redirects to pro-discount-werbeartikel.de/Jobs; posting titled 'E-Commerce Developer / Projektleiter', no form, apply by email jobs@pro-discount.one -> park email-only.
+
+## MHW Bike-House (jobs.mhw-bike.de, WP CF7)
+- Link was shop homepage: shop footer 'Karriere' -> jobs.mhw-bike.de -> /marketing -> job page has inline form; ONE PDF upload (merge cover letter+CV with pypdf); no captcha; success in .wpcf7-response-output.
+
+## Leogra (leogra.de/karriere, Elementor form)
+- Form on /karriere page: accept Borlabs 'Zustimmen und schließen'; fields by form_fields[...]; phone must be +49 digits without spaces (spaces -> 'nur Zahlen' error, submit fails); lebenslauf + zeugnisse[] (= cover letter) file inputs via click + chooser; success message 'Danke für deine Bewerbung!'.
+
+## Umantis (flyeralarm)
+- 2nd+ application: account persists in session; /Vacancies/<id>/Application/CheckLogin/1 goes to short FurtherApplication form: one merged PDF (cover letter+CV via pypdf) in 'Bewerbungsschreiben / Lebenslauf', source select, submit. Job titles on flyeralarm.com/karriere/de/alle-jobs may differ slightly from Arbeitsagentur (no 'E-Commerce' suffix).
+
+## D-I-S (d-i-s.de/kontakt-bewerbung)
+- Karriere page 'Jetzt bewerben' -> CF7 contact form, no upload, Firma* required (Privatperson), invisible reCAPTCHA v3 passes; success 'Vielen Dank für Ihre Nachricht'. Docs address jobs@d-i-s.de.
+
+## apvento (apvento.de/career)
+- Staffing firm; /career lists only a few roles (Framer site); absent Magento Entwickler = closed.
+
+## AEET (aeet-energy.com / aeet24.com)
+- Career pages list only office/sales/digital-marketing roles, no E-Commerce Manager and no form; apply address bewerbung@aeet24.com -> park with email.
+
+## talentstorm (severin-elektrogeraete.talentstorm.de)
+- Indeed->severin.com/de-de/karriere->blogazine/vacancies/<slug>->'Jetzt bewerben' -> /bewerbung/<slug>-<id>. 2 steps (Daten with ISO DOB; Unterlagen: CV, Anschreiben via chooser), then 'Bewerbung senden' opens dialog -> click 'Senden'. No thank-you page (redirects to /stellenangebote); confirmation = PIN mail (code Severin talentstorm.de).
