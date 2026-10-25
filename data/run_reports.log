@@ -330,3 +330,8 @@ I read `helper/CLAUDE_CODE_APPLY.md` and the first 428 of 564 lines of `helper/P
 - **clicks digital (Magento Entwickler)** — parked. The posting is live at https://clicks.digital/software-entwickler-php-m-w-d-in-dresden. Its application form never appears in the page, even after accepting cookies and scrolling. I found no email address.
 
 I logged each job and added a playbook note for each one. I asked for 10 and got 7. I did not log any free-text answers, because I only used values from her data.
+I stopped without applying to anyone. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, and your instructions say to stop early in that case.
+
+I read the apply instructions and the playbook, then loaded Kranti's facts. I opened no browser tabs, logged nothing, and created no accounts. The run is on `main` and I made no commits.
+
+The queue is empty, so the recent "nightly batch" commits may have cleared everything. Parked jobs also don't come back through `next`. If you expected jobs to be waiting, check the queue source.
