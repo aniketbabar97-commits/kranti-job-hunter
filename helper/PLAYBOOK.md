@@ -309,3 +309,30 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Westernacher
 - westernacher.com/join lists jobs on jobs.eu.lever.co/westernacher; only Asia roles + a Japanese general application, no German initiative form
+
+## Weidmüller (weidmueller.de jobboard, finest jobs)
+- Initiative form at /de/jobboard/bewerben-sie-sich-initiativ-de-f3213.html, inline; fill by name bewerbung_form[...] via JS; Einsatzort select required; uploads via JS input.click()+file chooser (anschreiben, lebenslauf); click 'Senden' link; title 'Bewerbung abgeschlossen'
+
+## Wacker (jobs.wacker.com)
+- SuccessFactors career site; search?q=Commerce returned no jobs; wacker.com careers overview has no initiative form or email
+
+## Würth (wuerth.de)
+- Initiativbewerbung link goes to career.wuerth.com (dead); jobs now on career5.successfactors.eu wrthitinteP2 -> career.witglobal.net/search?q=<kw>; Commerce search only Italy/India
+
+## Vorwerk (jobs.vorwerkgroup.com)
+- vorwerk.com -> Karriere -> career-vorwerkgroups.com -> jobs.vorwerkgroup.com (SuccessFactors, search?q=<kw>&locale=de_DE); 'Commerce' = 0 hits, 'SAP' only unrelated fuzzy hits; no initiative form
+
+## Villeroy & Boch (Workday)
+- villeroyboch.wd3.myworkdayjobs.com/de-DE/careers?q=<kw>; only initiative posting is site-bound (Treuchtlingen); Commerce hits are UK sales/trainee roles
+
+## valantic (valantic.com WP form -> SuccessFactors)
+- Initiative form inline at /de/karriere/stellenangebote/initiativbewerbung-217/; no captcha; fill by name (cust_REC_*, firstName...), uploads via JS input.click()+chooser (resume, coverletter), range slider id field-salary, privacy #field-privacy-policy; submit reloads page with no visible thank-you (pending)
+
+## TWT Digital (twt.de)
+- careers at /unternehmen/karriere/, jobs apply via greven-twt-gruppe.jobs.personio.de; only 2 non-dev postings, no initiative form; HR address on job page
+
+## TRUMPF (Workday)
+- trumpf.com/de_DE/karriere/stellenangebote -> trumpf.wd3.myworkdayjobs.com/de-DE/TRUMPF_Graduates_and_Professionals?q=<kw>; initiative applications exist only as postings titled 'Initiativbewerbung ...' for some areas; none found for IT/Commerce
+
+## Thalia (jobs.thalia.de)
+- thalia.de/karriere is 404; jobs at jobs.thalia.de (talents-connect), IT list at /it-digitalisierung; ?q= search param is ignored; no initiative form

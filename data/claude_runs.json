@@ -658,5 +658,45 @@
   "status": "confirmed",
   "note": "Bewerbung abgeschlossen - Vielen Dank für Ihre Bewerbung",
   "ts": "2026-10-25 05:52"
+ },
+ "https://www.wacker.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option, no Commerce/SAP posting on jobs.wacker.com (SuccessFactors, login flow); no HR email found",
+  "ts": "2026-10-25 05:53"
+ },
+ "https://www.wuerth.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "initiative portal career.wuerth.com dead (connection refused); career.witglobal.net has no German Commerce/SAP posting; only general info@wuerth.com found → email route",
+  "ts": "2026-10-25 05:54"
+ },
+ "https://www.vorwerk.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option, no SAP Commerce/Hybris posting on jobs.vorwerkgroup.com; no HR email found",
+  "ts": "2026-10-25 05:55"
+ },
+ "https://www.villeroy-boch.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no fitting posting: Workday only has Initiativbewerbung for Treuchtlingen plant site (not IT) and no SAP Commerce role; no email found",
+  "ts": "2026-10-25 05:56"
+ },
+ "https://www.valantic.com/#initiativbewerbung": {
+  "status": "pending",
+  "note": "submitted on valantic.com/de/karriere/stellenangebote/initiativbewerbung-217/; form reset, no visible thank-you (only hidden modal)",
+  "ts": "2026-10-25 05:57"
+ },
+ "https://www.twt.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option, only Projectmanager/SEO postings (Personio greven-twt-gruppe); email: karriere@twt.de → email route",
+  "ts": "2026-10-25 05:58"
+ },
+ "https://www.trumpf.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative posting and no SAP Commerce/Hybris role on TRUMPF Workday; no HR email on site",
+  "ts": "2026-10-25 05:59"
+ },
+ "https://www.thalia.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option, no SAP Commerce/Hybris role on jobs.thalia.de (IT jobs are SAP S/4/EWM/FI only); only info@thalia.de found → email route",
+  "ts": "2026-10-25 05:59"
  }
 }

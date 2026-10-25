@@ -1,0 +1,19 @@
+I worked through all 10 jobs. Weidmüller is confirmed, valantic is pending, and the other 8 are parked. `next 1` never came back empty, so there was no early stop. No CAPTCHA tabs are open, and I didn't close the browser.
+
+- **Weidmüller:** confirmed. The page showed "Bewerbung abgeschlossen – Vielen Dank für Ihre Bewerbung!"
+- **valantic:** pending. The form submitted and reset, but the only thank-you text sits in a hidden modal, so I couldn't confirm it.
+- **WMF:** parked, email `karriere@groupeseb.com`. No initiative form or SAP posting on the Groupe SEB Taleo portal.
+- **TWT Digital:** parked, email `karriere@twt.de`. Only project manager and SEO postings, no initiative form.
+- **Westernacher:** parked. Its Lever list is only India, Japan and Malaysia roles, and I found no email.
+- **Wacker:** parked. No Commerce or initiative option, and no email.
+- **Würth:** parked. The initiative portal link refuses connections, and the group job site has no German Commerce role. Only `info@wuerth.com` is listed, so I didn't pass that on as an application address.
+- **Vorwerk:** parked. No Commerce posting and no initiative form.
+- **Villeroy & Boch:** parked. The only initiative posting is for the Treuchtlingen plant site, and there is no SAP Commerce role.
+- **Trumpf:** parked. No initiative posting for IT or Commerce, and no email.
+- **Thalia:** parked. The IT roles are SAP S/4, EWM and FI only, and no initiative option. Only `info@thalia.de` is listed, so no email was passed on.
+
+- **`why_us` text:** every job's `why_us` starts "Maify ist auf SAP Commerce Cloud spezialisiert…", which names the wrong company. Neither filled form had a free-text box, so I didn't paste it anywhere, but it needs fixing in the generator before it reaches a form that does.
+- **Weidmüller work permit:** the form had no plain "work permit" choice, so I picked "Nicht EU mit befristeter Arbeitserlaubnis". If her permit is unbefristet, that answer is wrong. I logged it for review.
+- **Weidmüller location:** the form required a preferred location, with no Karlsruhe option, so I chose Detmold.
+
+I logged each result, the self-written answers and the playbook lessons with `claude_jobs`.
