@@ -412,3 +412,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## KPS (career.kps.com, Teamtailor)
 - kps.com/de/karriere -> career.kps.com/jobs lists ~16 SAP/freelance roles, no initiative form, no Commerce roles; contact info@kps.com.
+
+## Kärcher (careers.kaercher.com, SuccessFactors career55)
+- Google 'Kärcher Karriere Initiativbewerbung' -> careers.kaercher.com/job/Winnenden-Initiativbewerbung-Festanstellung-71364/1143583055/; JS click a.dialogApplyBtn -> sign in/Create account (searPref radio value 1, #dataPrivacyId then Accept button id dlgButton_21:, then JS click #fbclc_createAccountButton); no captcha; form loads ~20s; resume via button 'Resume/CV Upload a Resume' + setInputFiles input[type=file], cover letter same; City field only; Apply -> 'Your application has been sent'.
