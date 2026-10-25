@@ -11,7 +11,7 @@ echo ===== nightly fast run %date% %time% ===== >> out\claude_runs.log
 git stash -q >nul 2>nul
 git -c gc.auto=0 pull -q >nul 2>nul
 git stash pop -q >nul 2>nul
-set MIN_SCORE=75
+set MIN_SCORE=60
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).AddDays(-14).ToString('yyyy-MM-dd')"') do set APPLY_SINCE=%%d
 call helper\browser.bat 9222 out\mcp-9222.json
 call helper\browser.bat 9223 out\mcp-9223.json
