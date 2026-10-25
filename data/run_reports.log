@@ -135,3 +135,6 @@ I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 lines of `helper/PLAYBOOK
 There was nothing to apply to. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped under your early-stop rule.
 
 I applied to 0 of 10 jobs and logged nothing. I opened no browser tabs, so there are no open CAPTCHA tabs. I read `PLAYBOOK.md` only up to line 432 of 516, since no job needed it.
+`next 1` returned an empty list, so I stopped at 0 of 10 jobs. I didn't open the browser or log anything.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, read most of `helper/PLAYBOOK.md` (lines 1–432 of 516; the rest didn't matter once the queue was empty), and fetched her facts.
