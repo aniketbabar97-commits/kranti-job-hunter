@@ -245,6 +245,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Initiativbewerbung jobs/140 exists but better fit: jobs/52115 Channel Developer eCommerce; form ids as before, image captcha parks.
 - Form /de/jobs/<id>/form: ids salutation(MS), firstName, lastName, email, telephone, screeningQuestion.*, privacyPolicyAccepted1, attachmentFile (click then one file_upload with CV+cover letter); image captcha text field #captcha -> always parks. Cookie btn is div.btn-cookie-light.
 
 ## HUBER SE (karriere.huber.de, finest jobs)
@@ -427,3 +428,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 
 ## Hugendubel (karriere.hugendubel.de, Prescreen-like portal)
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, √úberpr√ºfen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
+
+## Hilti (careers.hilti.group)
+- hilti.de -> careers.hilti.group/de-de/jobs/?search=<kw> (fuzzy); no initiative form, no Hybris/SAP Commerce postings; consent 'Annehmen und Schlie√üen'.
