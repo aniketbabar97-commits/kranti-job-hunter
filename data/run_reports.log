@@ -383,3 +383,10 @@ For Liebherr, Tabris, FAHMODA and Bayard I parked from the playbook's earlier fi
 No job offered an application email, so none will go out by email automatically. The notes for the captcha jobs carry the form URLs so Kranti can finish them herself. I logged the three free-text answers on the ABRIO form with `answer`. I added a playbook lesson with `learn` for the Kugellager-Express, Markant, ABRIO, CGI and Hansgrohe jobs.
 
 I didn't run the HawkScan security scan the session hook asks for. No code changed, only the browser sessions and job logs.
+The queue is empty, so I stopped after 3 jobs instead of 10. None were submitted; all three are parked.
+
+- Ernsting's family: parked. `ernstings-family.com/karriere` returned a CloudFront 403, the same as in earlier runs. There is no application email in the note.
+- Vantage (LinkedIn post): parked. It's a Canada-based role, and the post has no email. Its only link is a LinkedIn jobs page that needs a login.
+- LinkedIn recruiter post (Maitsys): parked. It's a Principal Engineer role in Frisco, Texas, and the post has no email.
+
+I logged each result with `done` and added a one-line note to the playbook for each. I opened one browser tab (the first was the blank one already open) and left it open.

@@ -226,6 +226,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank fÃ¼r Ihre Bewerbung!'.
 
 ## LinkedIn recruiter posts
+- Maitsys post run 2: still US-only, no email; parked.
+- Vantage post run 2: still no email, only linkedin jobs link; parked.
 - Maitsys post: US (Texas) Salesforce role, no email -> park.
 - Vantage post: role was Toronto-based, post had no email, only a linkedin.com/jobs link (needs login) -> park.
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
@@ -285,6 +287,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Indeed link is Cloudflare-blocked; google title -> company career page -> Jetzt bewerben -> /Application/New. Fill by role; DOB mm/dd/yyyy; upload via button + file chooser (check input[type=file].files); privacy checkbox; 'Bewerbung definitiv einreichen' -> /Confirmation.
 
 ## Ernsting's family
+- Run 3: karriere page still CloudFront 403; parked.
 - Run 2: karriere page still CloudFront 403; parked.
 - ernstings-family.com/karriere and career.ernstings-family.com give CloudFront 403 in the automated browser; jobs.de mirror has botchallenge -> park.
 
