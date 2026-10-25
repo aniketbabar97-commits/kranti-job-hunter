@@ -152,3 +152,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://de.indeed.com/viewjob?jk=5c1d1f0fe80eebb0 (HÖRMANN, website via helper – confirmed)
 - 2026-10-25 https://www.berner.eu/#initiativbewerbung (Berner, website via helper – confirmed)
 - 2026-10-25 https://www.sartorius.com/#initiativbewerbung (Sartorius, website via helper – confirmed)
+- 2026-10-25 https://www.hugoboss.com/#initiativbewerbung (Hugo Boss, website via helper – confirmed)
