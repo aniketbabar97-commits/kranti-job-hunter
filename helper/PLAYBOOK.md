@@ -388,3 +388,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## mindsquare (Greenhouse job-boards.eu)
 - mindsquare.de/karriere has Initiativbewerbung link grnh.se/57bb5772teu -> job-boards.eu.greenhouse.io/mindsquareag/jobs/4592446101. Only one CV slot (merge cover+CV with pypdf); react-selects via click combobox then role=option; country Deutschland +49; German level options A1-A2/B1-B2/C1/C2 (B1-B2). Success /confirmation 'Vielen Dank fÃ¼r deine Bewerbung'.
+
+## Mindcurv / Accenture
+- mindcurv.com redirects to accenture.com; jobs search accenture.com/de-de/careers/jobsearch?jk=hybris. Workday apply: accept cookies > Apply Manually > Sign in with email works with the default password (JS-click [data-automation-id=click_filter]); job R00278881 SAP CX/CRM Consultant already applied.
+
+## Miele (karriere.miele.de, talentsconnect)
+- miele.de footer -> karriere.miele.de/deutschland; /search ignores ?q= and lists 10 jobs at a time; no initiative form seen; contact recruiting-operations@miele.de
