@@ -289,3 +289,31 @@ I stopped without applying to anyone. `python -m helper.claude_jobs next 1` retu
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of the 522 lines of `helper/PLAYBOOK.md`, and Kranti's facts. I didn't read the rest of the playbook because there was no job to use it on.
 
 No CAPTCHA tabs are open from this run.
+[Sun 10/25/2026  8:49:50.44] autorun: 0 jobs waiting 
+[Sun 10/25/2026  9:19:50.33] autorun: 0 jobs waiting 
+[Sun 10/25/2026  9:32:22.79] autorun: 0 jobs waiting 
+[Sun 10/25/2026  9:36:18.88] autorun: 0 jobs waiting 
+[Sun 10/25/2026  9:49:49.53] autorun: 0 jobs waiting 
+[Sun 10/25/2026 10:19:52.69] autorun: 6 jobs waiting 
+[Sun 10/25/2026 10:19:52.75] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sun 10/25/2026 10:29:17.99] batch 1 exit 0 
+- **Bayard, Business Analyst Media Assets** â€” parked, Cloudflare check on the Indeed ad and no employer apply page.
+
+The other three:
+- **Markant, Business Analyst** â€” parked, same reCAPTCHA gate. The title matches two postings, ids 754 and 745; I logged 754, so check which one was meant.
+- **CGI, Infra / DevOps Lead eCommerce** â€” parked. The email had no CGI account, so I started registering one. The save timed out ("SessionExpired") before the profile and password were stored. The login form also keeps throwing a "Pflichtfelder" alert. CV and cover letter were uploaded to that unsaved session only.
+- **Liebherr, Product Manager Kundenportal E-Commerce** â€” parked without opening the posting. The playbook says its apply step always hits a reCAPTCHA, and I couldn't reach a direct posting link.
+
+I logged the answers I wrote myself (travel, home-office days, German/English level, referral, salary) and added playbook lessons for each system. The CGI note records the working registration order so the next run can do it in one fast pass.

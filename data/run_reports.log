@@ -169,3 +169,18 @@ I stopped without applying to anyone. `python -m helper.claude_jobs next 1` retu
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of the 522 lines of `helper/PLAYBOOK.md`, and Kranti's facts. I didn't read the rest of the playbook because there was no job to use it on.
 
 No CAPTCHA tabs are open from this run.
+`next 1` now returns an empty list, so I stopped after 8 of the 10 jobs. I submitted none of them: all 8 are parked, five of them with a CAPTCHA tab open.
+
+Open CAPTCHA tabs, ready for Kranti to solve and submit:
+- **Markant, Consultant Master Data Services** — parked, reCAPTCHA on the privacy page before the form: `jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751`
+- **Instaffo/ABRIO, Senior E-Commerce Consultant** — parked, hCaptcha after the form was fully filled: `abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new`
+- **Hansgrohe, Channel Developer eCommerce** — parked, form filled with CV and cover letter uploaded; only the image CAPTCHA text is missing: `hansgrohe.dvinci-hr.com/de/jobs/52115/form`
+- **Kugellager-Express, Full-Stack-Developer** — parked, Cloudflare check blocks the site: `kugellager-express.de/karriere`
+- **Bayard, Business Analyst Media Assets** — parked, Cloudflare check on the Indeed ad and no employer apply page.
+
+The other three:
+- **Markant, Business Analyst** — parked, same reCAPTCHA gate. The title matches two postings, ids 754 and 745; I logged 754, so check which one was meant.
+- **CGI, Infra / DevOps Lead eCommerce** — parked. The email had no CGI account, so I started registering one. The save timed out ("SessionExpired") before the profile and password were stored. The login form also keeps throwing a "Pflichtfelder" alert. CV and cover letter were uploaded to that unsaved session only.
+- **Liebherr, Product Manager Kundenportal E-Commerce** — parked without opening the posting. The playbook says its apply step always hits a reCAPTCHA, and I couldn't reach a direct posting link.
+
+I logged the answers I wrote myself (travel, home-office days, German/English level, referral, salary) and added playbook lessons for each system. The CGI note records the working registration order so the next run can do it in one fast pass.

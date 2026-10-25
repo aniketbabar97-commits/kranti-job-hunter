@@ -206,6 +206,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job listed in accordion on /karriere/; 'JETZT BEWERBEN' is only mailto:kontakt@ebakery.de, no form -> email-only.
 
 ## Bayard GmbH (K√∂ln)
+- Run 2: Indeed viewjob is a Cloudflare 'Just a moment' 403 in the automated browser; no employer apply route; parked.
 - bayard-consulting.com times out and bayard.de is an unrelated placeholder; the Indeed ad only offers Indeed Schnellbewerbung -> park.
 
 ## Birkenstock (careers.birkenstock-group.com)
@@ -227,6 +228,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express (kugellager-express.de)
+- Run 2: /karriere still 403 behind Cloudflare 'Just a moment' challenge; parked again.
 - Site sits behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## softgarden (karriere.schaefer-shop.de)
@@ -242,6 +244,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job list via /api/offers/ (JSON, careers_url); apply at <careers_url>/c/new. Fill by name (candidate.name etc.), file inputs need JS input.click() then file chooser (sticky logo blocks real clicks); phone: type with +49 prefix, digits alone are read as +1; Senden triggers a puzzle captcha -> parks.
 
 ## CGI (cgi.njoyn.com, njoyn)
+- Run 2: job J1026-0889 found in list rows. No profile exists for the email (forgot-password says not found). Register flow after #BTN_ApplyNow: NewEmail+country select DE > Registrieren > #chkdataprivacy + #BT_data_privacy > gender select + Weiter > #MyDocument setInputFiles + file type select (36 CV, 37 cover) + #BTN_Upload > #BT_Save_Profile > QuickInput profile (profilepassword, confirmpassword, email_confirm, Zip, IsUnsubscribed_0, Disclaimer_Germany). Final save returned SessionExpired - do the whole chain in ONE fast run_code call; login form always shows a Pflichtfelder alert (use JS click on the real Anmelden submit).
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
@@ -519,3 +522,16 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 
 ## Workday (Berner Group)
 - bernergroup.wd3.myworkdayjobs.com: ?q=<kw> search; /apply > Manuell bewerben > Anmelden mit E-Mail > Konto erstellen (default password login failed first, creation worked, no mail verification). Pick country Deutschland first (wipes address); phone +49 auto; source LinkedIn via type+Enter; experience needs employer (current job checkbox hides Bis), month/year spinbuttons via type; language Englisch + level '4 - Business Sprache flie√üend' (re-tick fluent checkbox after dropdowns); CV via Dateien ausw√§hlen chooser; no cover-letter slot. Submit lands on /jobTasks/completed/application. Pages render slowly - wait 5-10s and re-snapshot.
+
+## Markant (jobs.markant.com)
+- Business Analyst (m/w/d) exists twice (id=754 and 745); privacy page applicationform_privacy&jobad_id=<id> has the reCAPTCHA, so go straight to that URL.
+- Run 2: jobad id=751 -> Jetzt online bewerben -> Apply now; privacy page has visible reCAPTCHA before any form; parked again.
+
+## Recruitee (abriogmbh)
+- Run 2: form fills via frame evaluate (radios .click() by value, file inputs setInputFiles nth0 CV nth1 cover, start date type=date ISO); Senden shows hCaptcha image puzzle -> parked with tab open.
+
+## d.vinci (hansgrohe)
+- Run 2: attachmentFile setInputFiles with 2 files uploads via ajax (input.files shows 0 afterwards, filenames appear in list); screening 37-0 = Nein; source select value 170 = LinkedIn; image captcha still parks.
+
+## Liebherr (SuccessFactors)
+- Run 2: guessed stellenangebote search URL just redirects to /de-de/karriere/karriere-3364204; parked per known reCAPTCHA without opening the posting.

@@ -93,11 +93,11 @@ def is_gone(kit):
 def next_jobs(n=1, peek=False):
     """peek=True: only count what is waiting (no claim, no PDFs, no network) - used by autorun.bat."""
     from hunter.kit import salary_answer
-    done = _state()
+    state = _state()
     out = []
     applied_keys = set()  # same company + title already applied via another portal -> skip the duplicate
     for kit in queue():
-        if done.get(_id(kit), {}).get("status") == "confirmed":
+        if state.get(_id(kit), {}).get("status") == "confirmed":
             applied_keys.add(_dup_key(kit))
     # Claude handles every channel, so best fit first (score), not the old helper's channel order
     for kit in sorted(queue(), key=lambda k: (k["job"]["title"].startswith("[Post]"), -int(k["job"].get("score") or 0))):
@@ -105,7 +105,7 @@ def next_jobs(n=1, peek=False):
             continue
         j = kit["job"]
         # finished ones never again; parked ones only in a later run (not again within 6 h)
-        d = done.get(_id(kit), {})
+        d = state.get(_id(kit), {})
         only = os.environ.get("APPLY_ONLY")  # e.g. "sap commerce|hybris|sap cx": focus run on these titles
         if only and not re.search(only, j["title"], re.I):
             continue
