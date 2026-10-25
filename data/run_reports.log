@@ -276,3 +276,6 @@ I applied to no jobs. The first `python -m helper.claude_jobs next 1` returned a
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of 557 lines of `helper/PLAYBOOK.md`, and ran `facts`. I didn't read the rest of the playbook because no job needed it. Nothing was logged, so there are no `done` or `learn` entries and no open CAPTCHA tabs.
 
 If you expected jobs to be waiting, the queue may not have been refilled since the last nightly batch. Run the apply again once new jobs are queued.
+`next 1` returned an empty list on the first call, so I stopped without applying to any jobs. The queue has nothing for me to apply to.
+
+I read the apply instructions, the first 430 lines of the playbook (557 in total), and Kranti's facts. I didn't open the browser or log anything.
