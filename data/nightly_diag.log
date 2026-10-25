@@ -169,3 +169,12 @@ I logged each result, the self-written answers and the playbook lessons with `cl
 The `why_us` text for team neusta, Tchibo, Sybit and STIHL starts with "Maify ist auf SAP Commerce Cloud spezialisiertâ€¦". That is a wrong-company template. I did not paste it anywhere; no Sybit or STIHL field needed it. It looks like a bug in the job generator.
 
 Each job's lessons are logged for the playbook. I logged the two STIHL answers I wrote myself. Playwright did not need to be closed.
+[Sun 10/25/2026  6:33:32.13] batch 3 exit 0 
+Free-text answers are logged for Netconomy, mindsquare and Melitta. A few steps in the Netconomy form used judgment, all within her facts:
+- **Locations:** Berlin and Dortmund.
+- **Hybrid policy:** "would relocate".
+- **Work permit:** valid visa/work permit.
+
+Playbook lessons were added for every system.
+
+I also created merged cover-letter-plus-CV PDFs for PIKON and mindsquare in their `out/helper/` folders. They are untracked leftovers you can delete.
