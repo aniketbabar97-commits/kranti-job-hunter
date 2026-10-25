@@ -5,7 +5,7 @@
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4478765999",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/52115/form (image captcha; all fields + files filled)"
+  "note": "captcha – image text CAPTCHA, form filled and uploaded: https://hansgrohe.dvinci-hr.com/de/jobs/52115/form"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/13644-64785-S",
@@ -13,7 +13,7 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S",
-  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (per playbook); posting also on stepstone.de; no form URL found"
+  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (known); posting not opened, find it via https://www.liebherr.com/de-de/karriere/karriere-3364204"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18088-k60163.1086-S",
@@ -45,31 +45,31 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S",
-  "note": "captcha – Cloudflare security check at https://www.kugellager-express.de/karriere"
+  "note": "captcha – Cloudflare security check, https://www.kugellager-express.de/karriere"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=e2c62136d72810e0",
-  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751 (privacy step has reCAPTCHA checkbox, privacy ticked)"
+  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751"
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4459647609",
-  "note": "captcha – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (form filled, uploads done, puzzle captcha on Senden)"
+  "note": "captcha – hCaptcha on https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new"
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4477870309",
-  "note": "CGI njoyn portal: login with default password gives invalid credentials, registration form bounces back (account may exist; needs password reset). Job J1026-0889 https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4"
+  "note": "cgi njoyn: no account for email; registration (privacy > EEO > CV/cover upload > profile) hit SessionExpired on save, login form always alerts Pflichtfelder; job page https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=451afb600bf9e95d",
-  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (same Markant portal, reCAPTCHA on first step; job id 754 is the exact title match, 747/745 are similar Business Analyst ads)"
+  "note": "captcha – visible reCAPTCHA before form: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (same title also id=745)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=bed693216eda8783",
-  "note": "indeed-only; company site bayard-consulting.com unreachable (per playbook)"
+  "note": "captcha – Cloudflare check on Indeed ad, no company apply page found (Bayard site unreachable): https://de.indeed.com/viewjob?jk=bed693216eda8783"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S",
-  "note": "no employer apply page found: arbeitsagentur contact is behind captcha, php-entwickler.de /extern redirects to learn4good.com (Cloudflare challenge); no email found"
+  "note": "no employer apply route; BA page hides contact behind captcha, no employer site found"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S",
