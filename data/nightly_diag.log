@@ -264,3 +264,9 @@ For Berner, I took her current employer, Rockwell Automation (since 10/2024), fr
 No CAPTCHA tabs are open. I left all browser tabs open. I added a playbook line for each company.
 
 That background task was the `code Berner myworkdayjobs.com` lookup I started while checking whether the Berner account needed email verification. It hit its time limit and was stopped. I don't need to restart it. The account worked without a verification code, and the application is already submitted and logged as confirmed.
+[Sun 10/25/2026  8:36:17.04] batch 2 exit 0 
+I stopped without applying to anyone. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), which is your stop condition, so there were no jobs in the queue.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the playbook, though only the first 430 of the playbook's 522 lines, since nothing needed the rest. I also pulled `facts` and loaded the browser tools. Nothing was submitted, logged, or opened in a tab, and there are no open CAPTCHA tabs.
+
+The 0 of 10 jobs came from an empty queue, not an error. If you expected more jobs, check the queue source or the parked/closed filters.
