@@ -440,3 +440,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 
 ## softgarden (grohe.softgarden.io)
 - grohe.softgarden.io/en/vacancies lists Initiativbewerbung (job/2876269); Jetzt bewerben opens NEW tab /applications/<id>: click visible a#idd for CV chooser, salutation #id1_chosen li Ms., cover letter textarea = why_us + 'Other attachments' button for cover PDF, FriendlyCaptcha self-solves, Submit -> /applySuccess.
+
+## Geberit (jobs.geberit.com, SAP p78 QuickApply)
+- Google 'Geberit Karriere Deutschland Initiativbewerbung' -> jobs.geberit.com/job/Initiativbewerbung/178-de_DE/; 'Jetzt bewerben' opens NEW tab geberit-production.p78quickapply.com (direct URL is blank). File names max 64 chars -> upload short-named copies (CV_x.pdf, Anschreiben_x.pdf), tag each with Lebenslauf/Anschreiben buttons, Weiter. Page 2 prefilled from CV; fill street/PLZ/city, country combobox type+Enter, UI5 selects: click [id$=input] container then li in #__listN (Anrede Frau, source LinkedIn, Standort 1 DE - Pfullendorf, 2 DE - Ibbenb√ºren), area textbox, privacy checkbox, Bewerbung absenden. Success strip + #/Completion.
+
+## Festo (jobs.festo.com, SuccessFactors)
+- jobs.festo.com/search/?q=<kw>&locale=de_DE is fuzzy; only initiative is Festo Gewindetriebe AG (Burg); E-Commerce/Backend roles are Barcelona (08908); no German initiative form, no HR mail on festo.com karriere pages.
+
+## Faktor E (faktor-e.de, Bonn agency)
+- faktor-e.de/agentur/karriere shows 'keine offenen Stellen', no initiative form; only general mail info@faktor-e.de.

@@ -898,5 +898,20 @@
   "status": "confirmed",
   "note": "p78 QuickApply initiative, 'Deine Bewerbung wurde erfolgreich versendet'",
   "ts": "2026-10-25 07:00"
+ },
+ "https://www.festo.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option in Germany (only Festo Gewindetriebe AG Burg); e-commerce/Hybris roles only in Barcelona; no HR email found",
+  "ts": "2026-10-25 07:01"
+ },
+ "https://www.faktor-e.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no open jobs, no initiative form on faktor-e.de/agentur/karriere; email: info@faktor-e.de → email route",
+  "ts": "2026-10-25 07:02"
+ },
+ "https://www.exxeta.com/#initiativbewerbung": {
+  "status": "confirmed",
+  "note": "rexx initiative form, Bewerbung abgeschlossen",
+  "ts": "2026-10-25 07:03"
  }
 }
