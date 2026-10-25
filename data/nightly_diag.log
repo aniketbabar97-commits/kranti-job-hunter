@@ -516,3 +516,9 @@ No applications were submitted. `python -m helper.claude_jobs next 1` returned a
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 428 of 564 lines of `helper/PLAYBOOK.md`, and pulled `facts`. I didn't read the rest of the playbook, since there was no job to apply to.
 
 Nothing was logged, no browser tabs were opened, and there are no open CAPTCHA tabs. There are 0 jobs in the queue, so there are no per-job lines to list.
+[Sun 10/25/2026 13:25:02.03] batch 5 exit 0 
+`next 1` came back empty on the first call, so I stopped there and applied to 0 of the 10 jobs.
+
+Nothing needed logging, and I opened no browser tabs, so there are no CAPTCHA tabs waiting for you.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 428 of 564 lines of `helper/PLAYBOOK.md`. I also loaded Kranti's facts. I didn't need the rest of the playbook, since there was no job to apply to.
