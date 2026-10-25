@@ -503,3 +503,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Arineo (jobs.arineo.com, rexx-like portal)
 - arineo.com -> jobs.arineo.com/jobs lists 'Unsolicited application' = /jobs/jobdetails/1253816/application (no captcha). Accept Usercentrics 'Accept All'; fill_form works (radio Mrs, selects by label: German B1, English C2, applying as Employee, heard Online Job Markets); uploads by clicking Cover Letter / Resume cards + file chooser; submit -> /application/success 'Bewerbung erfolgreich'.
+
+## rexx (career.hoffmann-group.com)
+- hoffmann-group.com/DE careers -> career.hoffmann-group.com/initiativstelle-de-f11.html. Cronos recipe via run_code worked first try; datepicker mangled eintrittsdatum (04.12) -> Ctrl+A, Delete, retype slowly, Escape, re-read before submit. Erfahrung select '3-5 Jahre', wie_gefunden 'andere Jobboerse'. Submit: JS click last 'Senden' link. Title 'Bewerbung abgeschlossen'.

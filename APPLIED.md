@@ -148,3 +148,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.axians.de/#initiativbewerbung (Axians, website via helper – confirmed)
 - 2026-10-25 https://www.arineo.com/#initiativbewerbung (Arineo, website via helper – confirmed)
 - 2026-10-25 https://www.hoffmann-group.com/#initiativbewerbung (Hoffmann Group, website via helper – confirmed)
+- 2026-10-25 https://www.hansa-flex.com/#initiativbewerbung (HANSA-FLEX, website via helper – confirmed)
