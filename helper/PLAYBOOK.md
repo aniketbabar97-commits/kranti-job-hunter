@@ -385,3 +385,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## Merkle / Namics (merkle.com)
 - Jobs search at merkle.com/en/careers/jobs.html (keyword+location boxes, invisible reCAPTCHA); 'SAP Commerce' returns no results; only German role was Principal Consultant DXP (München); no initiative form or HR email
+
+## mindsquare (Greenhouse job-boards.eu)
+- mindsquare.de/karriere has Initiativbewerbung link grnh.se/57bb5772teu -> job-boards.eu.greenhouse.io/mindsquareag/jobs/4592446101. Only one CV slot (merge cover+CV with pypdf); react-selects via click combobox then role=option; country Deutschland +49; German level options A1-A2/B1-B2/C1/C2 (B1-B2). Success /confirmation 'Vielen Dank für deine Bewerbung'.
