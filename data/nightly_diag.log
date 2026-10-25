@@ -160,3 +160,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - **WeidmÃ¼ller location:** the form required a preferred location, with no Karlsruhe option, so I chose Detmold.
 
 I logged each result, the self-written answers and the playbook lessons with `claude_jobs`.
+[Sun 10/25/2026  6:12:59.57] batch 2 exit 0 
+- Salzgitter â€” parked â€” no initiative option; the only SAP roles are SD and FI/CO consultants; no email found
+- Rittal â€” parked â€” no initiative option; the portal has no SAP Commerce or IT roles; no email found
+- Q_PERIOR â€” parked â€” now Wavestone; no initiative form and no Commerce roles; email: recruiting@wavestone.com
+- Q CELLS â€” parked â€” no initiative option; the IT-lead role and solar R&D roles don't fit; no email found
+
+The `why_us` text for team neusta, Tchibo, Sybit and STIHL starts with "Maify ist auf SAP Commerce Cloud spezialisiertâ€¦". That is a wrong-company template. I did not paste it anywhere; no Sybit or STIHL field needed it. It looks like a bug in the job generator.
+
+Each job's lessons are logged for the playbook. I logged the two STIHL answers I wrote myself. Playwright did not need to be closed.

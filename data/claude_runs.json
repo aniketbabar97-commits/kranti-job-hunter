@@ -718,5 +718,35 @@
   "status": "confirmed",
   "note": "SuccessFactors initiative requisition 53380 (Waiblingen), account created",
   "ts": "2026-10-25 06:08"
+ },
+ "https://www.sqli.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (form filled, tab open; merged CV+cover letter file out/helper/sqli-.../Kranti_Chavan_Bewerbung_SQLI.pdf)",
+  "ts": "2026-10-25 06:09"
+ },
+ "https://www.sartorius.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option on Workday portal; no SAP Commerce/Hybris posting; no HR email found",
+  "ts": "2026-10-25 06:10"
+ },
+ "https://www.salzgitter-ag.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option; postings only SAP SD / FI-CO inhouse consultants, no Commerce/Hybris; no HR email found",
+  "ts": "2026-10-25 06:10"
+ },
+ "https://www.rittal.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option on career.friedhelm-loh-group.com; no SAP Commerce/IT roles (101 jobs: sales, Ausbildung); no HR email found",
+  "ts": "2026-10-25 06:11"
+ },
+ "https://www.q-perior.com/#initiativbewerbung": {
+  "status": "parked",
+  "note": "Q_PERIOR is now Wavestone; no initiative form, no SAP Commerce roles on germany-career.wavestone.com; email: recruiting@wavestone.com → email route",
+  "ts": "2026-10-25 06:12"
+ },
+ "https://www.q-cells.de/#initiativbewerbung": {
+  "status": "parked",
+  "note": "no initiative option; q-cells.de/1/ueber-uns/jobs lists only Leiter IT + solar R&D roles; no HR email found",
+  "ts": "2026-10-25 06:12"
  }
 }

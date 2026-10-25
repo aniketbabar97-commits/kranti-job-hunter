@@ -345,3 +345,24 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Sybit (sybit.com)
 - sybit.de->sybit.com; /de/karriere/offene-stellen has 'Schnellbewerbung' iframe form (Anrede dropdown, fields as text inputs, source dropdown; Usercentrics Alles Akzeptieren). Single file input: setInputFiles one file at a time (CV, then cover letter); chooser never opens. Submit then wait ~10s: 'Vielen Dank fÃ¼r deine Bewerbung'.
+
+## STIHL (SuccessFactors career5 STIHLPROD)
+- corporate.stihl.de initiativbewerbung page -> Jetzt initiativ bewerben (jobId=53380 Waiblingen). Apply -> Create account (privacy dialog link #dataPrivacyId, then Accept button). Profile page: click Upload a Resume / Attach a Cover Letter then setInputFiles on the file input. Job-Specific section: source=Job Posting, Detail=Job Posting: LinkedIn, previously employed=No; address and phone via pressSequentially. Success: Thank you for applying to STIHL.
+
+## SQLI (sqli.com)
+- Spontaneous application form at /int-en/spontaneous-application (Drupal): country select Germany, one file only (merge cover letter+CV with pypdf, 2MB limit), #edit-rgpd via JS; visible reCAPTCHA v2 -> always parks.
+
+## Sartorius (Workday)
+- Careers at sartorius.com/en/company/careers -> sartorius.wd3.myworkdayjobs.com/sartoriuscareers?q=<kw>; fuzzy search, 'SAP Hybris' gives unrelated hits; no initiative application posting.
+
+## Salzgitter AG
+- jobs at salzgitter-ag.com/de/jobs-karriere/stellenangebote.html (SuccessFactors gesisgesel); no initiative form, no SAP Commerce roles (only SAP SD / FI-CO inhouse).
+
+## Rittal / Friedhelm Loh Group
+- rittal.com/de-de/Unternehmen/karriere -> career.friedhelm-loh-group.com (talentsconnect), /search?q=<kw>; no initiative form, no SAP Commerce roles.
+
+## Q_PERIOR / Wavestone
+- q-perior.com redirects to wavestone.com; jobs on germany-career.wavestone.com (softgarden), no initiative form, only SAP S/4/Finance/Security roles; contact recruiting@wavestone.com.
+
+## Q CELLS (q-cells.de)
+- Jobs at q-cells.de/1/ueber-uns/jobs (Leiter IT + PV/solar roles); careers.qcells.com is the US site; no initiative form.
