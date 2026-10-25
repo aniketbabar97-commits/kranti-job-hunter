@@ -551,6 +551,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hoermann.de/karriere -> jobs.hoermann.de; job form /stellenangebot-formular.html?yid=<id> (list has all yids). Cronos recipe via run_code worked first try (pressSequentially by id, selects via JS, #agb_checkbox JS, setInputFiles #...lebenslauf/anschreiben, JS click last 'Senden'); required free text vordef_bew_feld_09 = Verfuegbarkeit/Kuendigungsfrist; wie_gefunden indeed.com. Title 'Vielen Dank fuer Ihre Bewerbung!'.
 
 ## Endress+Hauser (careers.endress.com)
+- Run 2: keyword=Commerce search still empty; no initiative route.
 - endress.com/de/endress-hauser-gruppe/de-karriere/stellenangebote -> careers.endress.com (SuccessFactors-style, results render late; use /content/Search/?locale=de_com&keyword=<kw> then snapshot to file). No initiative form, no SAP Commerce roles; email applications not accepted.
 
 ## Workday (Berner Group)
