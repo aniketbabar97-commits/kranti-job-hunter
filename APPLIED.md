@@ -85,3 +85,8 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-22 https://de.indeed.com/viewjob?jk=04c94bad5e75d79b (Bruno Bader GmbH + Co. KG, website via helper – confirmed)
 - 2026-10-22 https://de.indeed.com/viewjob?jk=df5f01c454f94298 (GetYourGuide, website via helper – confirmed)
 - 2026-10-22 https://www.linkedin.com/jobs/view/4458428047 (Cegeka, website via helper – confirmed)
+- 2026-10-25 https://www.linkedin.com/posts/kalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC (Kalyan Raavi (He/Him/His), emailed to kalyan.ravi@bs.nttdata.com)
+- 2026-10-25 https://www.linkedin.com/posts/sandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9 (Ambika Sandhil, emailed to fatima@allyted.com)
+- 2026-10-25 https://www.linkedin.com/posts/runmapglobal_react-pwa-salesforce-commerce-cloud-sfcc-activity-7513855697059643392-GC7C (LinkedIn recruiter post, emailed to hr@runmapglobal.com)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=1369822fed6f897e (eBakery, emailed to kontakt@ebakery.de)
+- 2026-10-25 https://de.indeed.com/viewjob?jk=84e7852861b5f0cf (foobar Agency, emailed to kerstin.dietrich@foobar.agency)
