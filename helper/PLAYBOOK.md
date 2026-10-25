@@ -406,3 +406,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Lapp (lappcareer.com, rexx/finest jobs)
 - lapp.com->Google 'Lapp Karriere Initiativbewerbung' -> lappcareer.com/Initiativbewerbung-de-f60.html; accept cookies, native selects hidden: set via JS value+change; pressSequentially text; setInputFiles cv_lebenslauf + anschreiben (UI shows only one filename at a time); #agb_checkbox click; JS click 'Senden'. Title 'Bewerbung abgeschlossen'.
+
+## Krones (jobs.krones.group, d.vinci)
+- krones.com/de/karriere/faq.php 'initiativ' link -> jobs.krones.group/de/jobs/16/form; set fields by id via JS (dateOfBirth TT.MM.JJJJ, multiselects by option value), radios 56-0/193-0 Nein, consents *Accepted1, one attachmentFile takes CV+cover; no captcha; success /applied.
+
+## KPS (career.kps.com, Teamtailor)
+- kps.com/de/karriere -> career.kps.com/jobs lists ~16 SAP/freelance roles, no initiative form, no Commerce roles; contact info@kps.com.

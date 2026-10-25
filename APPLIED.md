@@ -133,3 +133,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 >>>>>>> cf72299 (applied: Lemundo)
 - 2026-10-25 https://www.lapp.com/#initiativbewerbung (Lapp, website via helper – confirmed)
 - 2026-10-25 https://www.krones.com/#initiativbewerbung (Krones, website via helper – confirmed)
+- 2026-10-25 https://www.kaercher.com/#initiativbewerbung (Kärcher, website via helper – confirmed)
