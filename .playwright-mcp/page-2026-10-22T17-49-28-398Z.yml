@@ -1,0 +1,464 @@
+- generic [active] [ref=f39e1]:
+  - link "Skip to main content" [ref=f39e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f39e3]:
+    - navigation "Primary" [ref=f39e4]:
+      - link "LinkedIn" [ref=f39e5] [cursor=pointer]:
+        - /url: /?trk=public_jobs_nav-header-logo
+      - generic [ref=f39e19]:
+        - button "Jobs" [ref=f39e21] [cursor=pointer]
+        - tabpanel "Jobs" [ref=f39e23]:
+          - search [ref=f39e24]:
+            - generic [ref=f39e25]:
+              - combobox "Search job titles or companies" [ref=f39e26]: "Architect* im Bereich E-Commerce #11246"
+              - button "Clear text" [ref=f39e27] [cursor=pointer]
+            - generic [ref=f39e34]:
+              - combobox "Location" [ref=f39e35]: Bengaluru
+              - button "Clear text" [ref=f39e36] [cursor=pointer]
+            - button "Search" [ref=f39e43] [cursor=pointer]
+        - status [ref=f39e47]
+      - generic [ref=f39e48]:
+        - link "Sign in" [ref=f39e49] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Farchitect-im-bereich-e-commerce-%252311246-at-cegeka-4458428047&trk=public_jobs_nav-header-signin
+        - link "Join now" [ref=f39e50] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Farchitect-im-bereich-e-commerce-%252311246-at-cegeka-4458428047&trk=public_jobs_nav-header-join
+  - main [ref=f39e51]:
+    - generic [ref=f39e53]:
+      - generic [ref=f39e55]:
+        - link [ref=f39e56] [cursor=pointer]:
+          - /url: https://be.linkedin.com/company/cegeka?trk=public_jobs_topcard_logo
+          - img "Cegeka" [ref=f39e57]
+        - generic [ref=f39e59]:
+          - 'heading "Architect* im Bereich E-Commerce #11246" [level=1] [ref=f39e60]'
+          - heading [level=4] [ref=f39e61]:
+            - generic [ref=f39e62]:
+              - link "Cegeka" [ref=f39e64] [cursor=pointer]:
+                - /url: https://be.linkedin.com/company/cegeka?trk=public_jobs_topcard-org-name
+              - text: · Ruhr Region
+            - generic [ref=f39e65]:
+              - text: 1 week ago
+              - figure "Be among the first 25 applicants" [ref=f39e66]: · Be among the first 25 applicants
+            - link "See who Cegeka has hired for this role" [ref=f39e68] [cursor=pointer]:
+              - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D6521%26title%3DArchitect&emailAddress=&fromSignIn=&trk=public_jobs_see-who-was-hired_people-search-link_face-pile-cta
+              - paragraph [ref=f39e71]: See who Cegeka has hired for this role
+          - generic [ref=f39e72]:
+            - button "Apply" [ref=f39e73] [cursor=pointer]
+            - button "Save" [ref=f39e77] [cursor=pointer]
+        - button "Open menu" [ref=f39e80] [cursor=pointer]
+        - generic [ref=f39e85]:
+          - heading "Use AI to assess how you fit" [level=3] [ref=f39e91]
+          - paragraph [ref=f39e92]: Get AI-powered advice on this job and more exclusive features.
+          - generic [ref=f39e93]:
+            - button "AI powered advice" [ref=f39e94] [cursor=pointer]
+            - button "Am I a good fit for this job?" [ref=f39e96] [cursor=pointer]
+            - button "Tailor my resume" [ref=f39e99] [cursor=pointer]
+      - generic [ref=f39e102]:
+        - generic [ref=f39e104]:
+          - generic [ref=f39e106]:
+            - generic [ref=f39e107]:
+              - text: "Start: ab sofortUnbefristete FestanstellungDas bieten wir"
+              - strong [ref=f39e108]:
+                - emphasis [ref=f39e109]: Das bietet dir unser Kunde
+              - text: Rolle mit echtem Einfluss
+              - list [ref=f39e110]:
+                - listitem [ref=f39e111]: Direkte Arbeit an geschäftskritischen E-Commerce-Systemen
+                - listitem [ref=f39e112]: Hohe Relevanz deiner Arbeit im Tagesgeschäft
+                - listitem [ref=f39e113]: Mitarbeit in einer komplexen, vielseitigen IT-Landschaft
+              - text: Entwicklung & Perspektive
+              - list [ref=f39e114]:
+                - listitem [ref=f39e115]: Gestaltungsspielraum für eigene Ideen
+                - listitem [ref=f39e116]: Interdisziplinäre Zusammenarbeit
+                - listitem [ref=f39e117]: Individuelle Weiterbildungs- und Entwicklungsmöglichkeiten
+              - text: Rahmenbedingungen
+              - list [ref=f39e118]:
+                - listitem [ref=f39e119]: Unbefristeter Arbeitsvertrag beim Kundenunternehmen
+                - listitem [ref=f39e120]: Flexible Arbeitszeiten im Projektkontext
+                - listitem [ref=f39e121]: 30 Tage Urlaub
+              - text: Zusatzleistungen
+              - list [ref=f39e122]:
+                - listitem [ref=f39e123]: Betriebliche Altersvorsorge (Zuschuss)
+                - listitem [ref=f39e124]: JobRad & Gesundheitsangebote (EGYM Wellpass)
+                - listitem [ref=f39e125]: Mitarbeitervorteile bei zahlreichen Marken
+                - listitem [ref=f39e126]: Möglichkeit zu Sabbaticals
+              - text: Arbeitsumfeld
+              - list [ref=f39e127]:
+                - listitem [ref=f39e128]: Moderne Arbeitsumgebung
+                - listitem [ref=f39e129]: Team- und Networking-Events
+                - listitem [ref=f39e130]: Engagement in gesellschaftlichen Initiativen
+              - text: Das sind Deine Aufgaben
+              - list [ref=f39e131]:
+                - listitem [ref=f39e132]: Analyse von Anforderungen aus Fachbereichen wie Einkauf, Category Management oder Kundenservice und Entwicklung von technischen Lösungskonzepten.
+                - listitem [ref=f39e133]: Modellierung von Architekturdiagrammen, Prozessen, Datenflüssen und Datenmodellen.
+                - listitem [ref=f39e134]: Begleitung der Umsetzung in den IT-Teams fachlich und Sicherstelleung, dass Anforderungen gemäß Lösungskonzept umgesetzt werden.
+                - listitem [ref=f39e135]: Untersuchug der End-to-End-Geschäftsprozesse und gezielte Identifizierung von Schwachstellen sowie Automatisierungspotenzialen.
+                - listitem [ref=f39e136]: Fungieren als Schnittstelle zwischen Fachbereich, IT, Projektleitung und externen Partnern.
+              - text: Das bringst Du mit
+              - list [ref=f39e137]:
+                - listitem [ref=f39e138]: Mehrere Jahre Erfahrung als Architect* oder in einer vergleichbaren Rolle im E-Commerce.
+                - listitem [ref=f39e139]: Verständnis einer modernen E-Commerce-Landschaft, wie etwa Webshop, ERP, CRM und BI.
+                - listitem [ref=f39e140]: Ein technischer Hintergrund, beispielsweise aus der Softwareentwicklung, Systemintegration oder Architektur.
+                - listitem [ref=f39e141]: Erfahrung mit Schnittstellen und Datenstrukturen wie REST, XML, JSON und idealerwise mit TOGAF oder Archimate.
+                - listitem [ref=f39e142]: Ein sichere Kommunikation miit Fachbereichen, IT-Teams, Projektverantwortlichen und Management auf Deutsch und Englisch.
+              - text: "Ort / BrancheBundesweit - HandelDas sind wirWir sind ein europäischer IT-Solutions Provider. Unser Ziel: Durch passgenaue IT-Dienstleistungen unterstützen wir unsere Kunden dabei effizienter zu werden. Wir setzen auf modernste Technologien und maßgeschneiderte Lösungen. Ganz wichtig: Höchste Qualität auf Augenhöhe – wir arbeiten stets partnerschaftlich und respektvoll mit unseren Kunden und im Team. Das Ergebnis – wir agieren international, sind aber auf dem Boden geblieben! Als Familienunternehmen mit mehr als 9.000 MitarbeiterInnen in 17 europäischen Ländern verbinden wir globale Reichweite mit familiären Werten. Wenn unsere Stellenausschreibung Dein Interesse weckt, dann melde Dich einfach. Wir freuen uns! Noch ein kurzer Hinweis zum obligatorischen Sternchen (*): Wir suchen M/E/N/S/C/H/E/N – Deine Stärken und Deine Persönlichkeit zählen. Alles andere ist super, wenn es Dich glücklich macht. Wir leben Vielfalt und Chancengleichheit schon lange, das ist nichts Neues für uns. Come as you are! FAQ – Transparenz im VermittlungsprozessBei wem bin ich angestellt?"
+              - list [ref=f39e143]:
+                - listitem [ref=f39e144]: Du bist direkt beim Kundenunternehmen angestellt. Wir begleiten dich ausschließlich im Bewerbungsprozess.
+              - text: Wie läuft der Bewerbungsprozess ab?
+              - list [ref=f39e145]:
+                - listitem [ref=f39e146]: Bewerbung über uns
+                - listitem [ref=f39e147]: Erstes Kennenlernen
+                - listitem [ref=f39e148]: Vorstellungsgespräche direkt beim Kundenunternehmen
+              - text: KontaktCegeka Deutschland GmbHMaximilian KamphausenKaiser-Wilhelm-Ring 1350672 KölnTel +49 221 160 20 18E-Mail maximilian.kamphausen@cegeka.com
+            - button "Show more" [ref=f39e149] [cursor=pointer]
+          - list [ref=f39e151]:
+            - listitem [ref=f39e152]:
+              - heading "Seniority level" [level=3] [ref=f39e153]
+              - text: Mid-Senior level
+            - listitem [ref=f39e154]:
+              - heading "Employment type" [level=3] [ref=f39e155]
+              - text: Full-time
+            - listitem [ref=f39e156]:
+              - heading "Industries" [level=3] [ref=f39e157]
+              - text: IT Services and IT Consulting
+        - generic [ref=f39e162]:
+          - paragraph [ref=f39e163]: Referrals increase your chances of interviewing at Cegeka by 2x
+          - link "See who you know" [ref=f39e164] [cursor=pointer]:
+            - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D6521&emailAddress=&fromSignIn=&trk=public_jobs_find-a-referral-cta
+      - generic [ref=f39e166]:
+        - generic [ref=f39e167]: Get notified when a new job is posted.
+        - generic [ref=f39e170]:
+          - button "Set alert" [ref=f39e171]
+          - generic [ref=f39e172]: Set alert
+      - navigation "Breadcrumb" [ref=f39e173]:
+        - list [ref=f39e174]:
+          - listitem [ref=f39e175]:
+            - link "Jobs" [ref=f39e176] [cursor=pointer]:
+              - /url: https://de.linkedin.com/jobs/
+            - text: /
+          - listitem [ref=f39e177]:
+            - link "Architect jobs" [ref=f39e178] [cursor=pointer]:
+              - /url: https://de.linkedin.com/jobs/architekt-stellen
+            - text: /
+          - listitem [ref=f39e179]:
+            - generic [ref=f39e180]: "Architect* im Bereich E-Commerce #11246"
+      - generic [ref=f39e181]:
+        - heading "Similar jobs" [level=2] [ref=f39e182]
+        - generic [ref=f39e184]:
+          - list [ref=f39e185]:
+            - listitem [ref=f39e186]:
+              - generic [ref=f39e187]:
+                - link "Head of Omnichannel Commerce Germany & Greater Europe (m/w/d)" [ref=f39e188] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/head-of-omnichannel-commerce-germany-greater-europe-m-w-d-at-deichmann-4436514398?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=vLKtlGjmQuASyMzeV0SKtA%3D%3D
+                - generic [ref=f39e190]:
+                  - heading "Head of Omnichannel Commerce Germany & Greater Europe (m/w/d)" [level=3] [ref=f39e191]
+                  - heading [level=4] [ref=f39e192]:
+                    - link "Deichmann" [ref=f39e193] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/deichmann?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e194]:
+                    - generic [ref=f39e195]: Essen, North Rhine-Westphalia, Germany
+                    - time [ref=f39e196]: 5 days ago
+            - listitem [ref=f39e197]:
+              - generic [ref=f39e198]:
+                - link "Head of E-Commerce (m/w/d)" [ref=f39e199] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/head-of-e-commerce-m-w-d-at-instaffo-4410996255?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=cC7xjiYdV0gmmSZVEAKRFg%3D%3D
+                - generic [ref=f39e201]:
+                  - heading "Head of E-Commerce (m/w/d)" [level=3] [ref=f39e202]
+                  - heading [level=4] [ref=f39e203]:
+                    - link "Instaffo" [ref=f39e204] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/instaffo-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e205]:
+                    - generic [ref=f39e206]: Essen, North Rhine-Westphalia, Germany
+                    - generic [ref=f39e207]: €65,000 - €90,000
+                    - time [ref=f39e208]: 2 weeks ago
+            - listitem [ref=f39e209]:
+              - generic [ref=f39e210]:
+                - link "Team Lead eCommerce Platforms & Configurators (m/w/d)" [ref=f39e211] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/team-lead-ecommerce-platforms-configurators-m-w-d-at-dormakaba-4474290921?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=YL%2BhVGBb1W3Tb%2FVZ8ZtIsQ%3D%3D
+                - generic [ref=f39e213]:
+                  - heading "Team Lead eCommerce Platforms & Configurators (m/w/d)" [level=3] [ref=f39e214]
+                  - heading [level=4] [ref=f39e215]:
+                    - link "dormakaba" [ref=f39e216] [cursor=pointer]:
+                      - /url: https://ch.linkedin.com/company/dormakaba?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e217]:
+                    - generic [ref=f39e218]: Ennepetal, North Rhine-Westphalia, Germany
+                    - time [ref=f39e219]: 2 weeks ago
+            - listitem [ref=f39e220]:
+              - generic [ref=f39e221]:
+                - link "E-Commerce Manager B2B / Digital Sales (m/w/d)" [ref=f39e222] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/e-commerce-manager-b2b-digital-sales-m-w-d-at-friedrich-picard-gmbh-co-kg-4469502148?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=Rr4RLoPTGJIQw9mQgrQ%2BXQ%3D%3D
+                - generic [ref=f39e224]:
+                  - heading "E-Commerce Manager B2B / Digital Sales (m/w/d)" [level=3] [ref=f39e225]
+                  - heading [level=4] [ref=f39e226]:
+                    - link "Friedrich PICARD GmbH & Co. KG" [ref=f39e227] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/friedrich-picard-gmbh-co-kg?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e228]:
+                    - generic [ref=f39e229]: Bochum, North Rhine-Westphalia, Germany
+                    - time [ref=f39e230]: 1 month ago
+            - listitem [ref=f39e231]:
+              - generic [ref=f39e232]:
+                - link "Domain Architect (m/w/d)" [ref=f39e233] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/domain-architect-m-w-d-at-aldi-nord-group-4476286553?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=tu4HxCJvbbbaNhS%2FsoYi%2FQ%3D%3D
+                - generic [ref=f39e235]:
+                  - heading "Domain Architect (m/w/d)" [level=3] [ref=f39e236]
+                  - heading [level=4] [ref=f39e237]:
+                    - link "ALDI Nord Group" [ref=f39e238] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/aldinord?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e239]:
+                    - generic [ref=f39e240]: Essen, North Rhine-Westphalia, Germany
+                    - time [ref=f39e241]: 1 week ago
+            - listitem [ref=f39e242]:
+              - generic [ref=f39e243]:
+                - link "Junior eShop Specialist – Category Structure (m/w/d)" [ref=f39e244] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/junior-eshop-specialist-%E2%80%93-category-structure-m-w-d-at-deichmann-4475169451?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=dRopJn%2FkcbGWf%2B8IHIIVHQ%3D%3D
+                - generic [ref=f39e246]:
+                  - heading "Junior eShop Specialist – Category Structure (m/w/d)" [level=3] [ref=f39e247]
+                  - heading [level=4] [ref=f39e248]:
+                    - link "Deichmann" [ref=f39e249] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/deichmann?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=f39e250]:
+                    - generic [ref=f39e251]: Essen, North Rhine-Westphalia, Germany
+                    - time [ref=f39e252]: 2 weeks ago
+          - button "Show more jobs like this" [ref=f39e253] [cursor=pointer]
+    - generic [ref=f39e255]:
+      - generic [ref=f39e256]:
+        - heading "People also viewed" [level=2] [ref=f39e257]
+        - list [ref=f39e259]:
+          - listitem [ref=f39e260]:
+            - generic [ref=f39e261]:
+              - link "Manager Online Auctions (m/w/d) TS24" [ref=f39e262] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/manager-online-auctions-m-w-d-ts24-at-truckscout24-4477706518?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=kReYp0%2B0sFSM20TJzph50g%3D%3D
+              - generic [ref=f39e264]:
+                - heading "Manager Online Auctions (m/w/d) TS24" [level=3] [ref=f39e265]
+                - paragraph [ref=f39e266]:
+                  - link "TruckScout24" [ref=f39e267] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/truckscout24?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e268]:
+                  - generic [ref=f39e269]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e270]: 6 days ago
+          - listitem [ref=f39e271]:
+            - generic [ref=f39e272]:
+              - link "Frontend Developer E-Commerce (m/w/d)" [ref=f39e273] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/frontend-developer-e-commerce-m-w-d-at-ifm-4410175113?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=0%2BusL6ais%2F9lBxgE0rTX1w%3D%3D
+              - generic [ref=f39e275]:
+                - heading "Frontend Developer E-Commerce (m/w/d)" [level=3] [ref=f39e276]
+                - paragraph [ref=f39e277]:
+                  - link "ifm" [ref=f39e278] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/ifm?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e279]:
+                  - generic [ref=f39e280]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e281]: 1 week ago
+          - listitem [ref=f39e282]:
+            - generic [ref=f39e283]:
+              - link "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [ref=f39e284] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/senior-frontend-product-owner-omnichannel-platform-m-w-d-at-deichmann-4476253617?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=KYSuF00YFcQ4FWAZewC%2BdQ%3D%3D
+              - generic [ref=f39e286]:
+                - heading "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [level=3] [ref=f39e287]
+                - paragraph [ref=f39e288]:
+                  - link "Deichmann" [ref=f39e289] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/deichmann?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e290]:
+                  - generic [ref=f39e291]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e292]: 2 days ago
+          - listitem [ref=f39e293]:
+            - generic [ref=f39e294]:
+              - link "Consultant Handel und Omni-Channel Commerce (all genders)" [ref=f39e295] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/consultant-handel-und-omni-channel-commerce-all-genders-at-adesso-se-4317167537?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=GGzJQTauHjwDm1WgAETESA%3D%3D
+              - generic [ref=f39e297]:
+                - heading "Consultant Handel und Omni-Channel Commerce (all genders)" [level=3] [ref=f39e298]
+                - paragraph [ref=f39e299]:
+                  - link "adesso SE" [ref=f39e300] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/adesso-se?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e301]:
+                  - generic [ref=f39e302]: Dortmund, North Rhine-Westphalia, Germany
+                  - time [ref=f39e303]: 1 week ago
+          - listitem [ref=f39e304]:
+            - generic [ref=f39e305]:
+              - link "Mitarbeiter E-Commerce Fotohandel (m/w/d)" [ref=f39e306] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/mitarbeiter-e-commerce-fotohandel-m-w-d-at-foto-hamer-4476028832?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=x%2Bh5Pe3JPQSSHjhkW95CNg%3D%3D
+              - generic [ref=f39e308]:
+                - heading "Mitarbeiter E-Commerce Fotohandel (m/w/d)" [level=3] [ref=f39e309]
+                - paragraph [ref=f39e310]:
+                  - link "Foto Hamer" [ref=f39e311] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/fotohamer?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e312]:
+                  - generic [ref=f39e313]: Bochum, North Rhine-Westphalia, Germany
+                  - time [ref=f39e314]: 1 week ago
+          - listitem [ref=f39e315]:
+            - generic [ref=f39e316]:
+              - link "Consultant Handel und Omni-Channel Commerce (all genders)" [ref=f39e317] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/consultant-handel-und-omni-channel-commerce-all-genders-at-adesso-se-4317175355?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=0VpkmpcBC7RHzyp%2F2FfU5g%3D%3D
+              - generic [ref=f39e319]:
+                - heading "Consultant Handel und Omni-Channel Commerce (all genders)" [level=3] [ref=f39e320]
+                - paragraph [ref=f39e321]:
+                  - link "adesso SE" [ref=f39e322] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/adesso-se?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e323]:
+                  - generic [ref=f39e324]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e325]: 1 week ago
+          - listitem [ref=f39e326]:
+            - generic [ref=f39e327]:
+              - link "Marketing Technology Engineer (m/w/d)" [ref=f39e328] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/marketing-technology-engineer-m-w-d-at-deichmann-4450952333?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=fv0V0HRTgkzduksCWntrWA%3D%3D
+              - generic [ref=f39e330]:
+                - heading "Marketing Technology Engineer (m/w/d)" [level=3] [ref=f39e331]
+                - paragraph [ref=f39e332]:
+                  - link "Deichmann" [ref=f39e333] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/deichmann?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e334]:
+                  - generic [ref=f39e335]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e336]: 5 days ago
+          - listitem [ref=f39e337]:
+            - generic [ref=f39e338]:
+              - link "Junior eCom Strategy & Growth Manager (m/w/d) befristet auf 2 Jahre" [ref=f39e339] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/junior-ecom-strategy-growth-manager-m-w-d-befristet-auf-2-jahre-at-deichmann-4444822390?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=%2Fc7LMn0GHPgZkETh1AxWtQ%3D%3D
+              - generic [ref=f39e341]:
+                - heading "Junior eCom Strategy & Growth Manager (m/w/d) befristet auf 2 Jahre" [level=3] [ref=f39e342]
+                - paragraph [ref=f39e343]:
+                  - link "Deichmann" [ref=f39e344] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/deichmann?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e345]:
+                  - generic [ref=f39e346]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e347]: 5 days ago
+          - listitem [ref=f39e348]:
+            - generic [ref=f39e349]:
+              - link "SAP Commerce Cloud (Hybris) Developer (all genders)" [ref=f39e350] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/sap-commerce-cloud-hybris-developer-all-genders-at-adesso-se-3733038900?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=gQB6Ba5aR6FRVK3qHt%2BHBg%3D%3D
+              - generic [ref=f39e352]:
+                - heading "SAP Commerce Cloud (Hybris) Developer (all genders)" [level=3] [ref=f39e353]
+                - paragraph [ref=f39e354]:
+                  - link "adesso SE" [ref=f39e355] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/adesso-se?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e356]:
+                  - generic [ref=f39e357]: Dortmund, North Rhine-Westphalia, Germany
+                  - time [ref=f39e358]: 1 week ago
+          - listitem [ref=f39e359]:
+            - generic [ref=f39e360]:
+              - link "SAP Commerce Cloud (Hybris) Developer (all genders)" [ref=f39e361] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/sap-commerce-cloud-hybris-developer-all-genders-at-adesso-se-3733039705?refId=n%2BtRQjUskQgSI3thb8XTlg%3D%3D&trackingId=Ub98v7CipmF1Ls9xcO6jag%3D%3D
+              - generic [ref=f39e363]:
+                - heading "SAP Commerce Cloud (Hybris) Developer (all genders)" [level=3] [ref=f39e364]
+                - paragraph [ref=f39e365]:
+                  - link "adesso SE" [ref=f39e366] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/adesso-se?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=f39e367]:
+                  - generic [ref=f39e368]: Essen, North Rhine-Westphalia, Germany
+                  - time [ref=f39e369]: 1 week ago
+      - generic [ref=f39e370]:
+        - heading "Similar Searches" [level=2] [ref=f39e371]
+        - generic [ref=f39e373]:
+          - list [ref=f39e374]:
+            - listitem [ref=f39e375]:
+              - link "Architect jobs 7,483 open jobs" [ref=f39e376] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/architekt-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e377]:
+                  - heading "Architect jobs" [level=3] [ref=f39e378]
+                  - generic [ref=f39e379]: 7,483 open jobs
+            - listitem [ref=f39e380]:
+              - link "Analyst jobs 54,870 open jobs" [ref=f39e381] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/analyst-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e382]:
+                  - heading "Analyst jobs" [level=3] [ref=f39e383]
+                  - generic [ref=f39e384]: 54,870 open jobs
+            - listitem [ref=f39e385]:
+              - link "Architectural Drafter jobs 1,604 open jobs" [ref=f39e386] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/bauzeichner-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e387]:
+                  - heading "Architectural Drafter jobs" [level=3] [ref=f39e388]
+                  - generic [ref=f39e389]: 1,604 open jobs
+            - listitem [ref=f39e390]:
+              - link "Interior Architect jobs 244 open jobs" [ref=f39e391] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/innenarchitekt-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e392]:
+                  - heading "Interior Architect jobs" [level=3] [ref=f39e393]
+                  - generic [ref=f39e394]: 244 open jobs
+            - listitem [ref=f39e395]:
+              - link "Architectural Engineer jobs 5,821 open jobs" [ref=f39e396] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/bauingenieur-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e397]:
+                  - heading "Architectural Engineer jobs" [level=3] [ref=f39e398]
+                  - generic [ref=f39e399]: 5,821 open jobs
+            - listitem [ref=f39e400]:
+              - link "Landscape Architect jobs 1,942 open jobs" [ref=f39e401] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/landschaftsarchitekt-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e402]:
+                  - heading "Landscape Architect jobs" [level=3] [ref=f39e403]
+                  - generic [ref=f39e404]: 1,942 open jobs
+            - listitem [ref=f39e405]:
+              - link "Urban Planner jobs 1,809 open jobs" [ref=f39e406] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/stadtplaner-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e407]:
+                  - heading "Urban Planner jobs" [level=3] [ref=f39e408]
+                  - generic [ref=f39e409]: 1,809 open jobs
+            - listitem [ref=f39e410]:
+              - link "Drawer jobs 1,819 open jobs" [ref=f39e411] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/zeichner-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e412]:
+                  - heading "Drawer jobs" [level=3] [ref=f39e413]
+                  - generic [ref=f39e414]: 1,819 open jobs
+            - listitem [ref=f39e415]:
+              - link "3D Designer jobs 381 open jobs" [ref=f39e416] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/3d-designer-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e417]:
+                  - heading "3D Designer jobs" [level=3] [ref=f39e418]
+                  - generic [ref=f39e419]: 381 open jobs
+            - listitem [ref=f39e420]:
+              - link "Space Planner jobs 12 open jobs" [ref=f39e421] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/raumplaner-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e422]:
+                  - heading "Space Planner jobs" [level=3] [ref=f39e423]
+                  - generic [ref=f39e424]: 12 open jobs
+            - listitem [ref=f39e425]:
+              - link "Project Director jobs 16,284 open jobs" [ref=f39e426] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/projektleiter-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e427]:
+                  - heading "Project Director jobs" [level=3] [ref=f39e428]
+                  - generic [ref=f39e429]: 16,284 open jobs
+            - listitem [ref=f39e430]:
+              - link "Construction Administrator jobs 974 open jobs" [ref=f39e431] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/baukaufmann-stellen?trk=public_jobs_full-click
+                - generic [ref=f39e432]:
+                  - heading "Construction Administrator jobs" [level=3] [ref=f39e433]
+                  - generic [ref=f39e434]: 974 open jobs
+          - button "Show more similar searches" [ref=f39e435] [cursor=pointer]: Show more
+  - generic [ref=f39e440]:
+    - button "More searches" [ref=f39e441] [cursor=pointer]
+    - list
+  - contentinfo [ref=f39e443]:
+    - list [ref=f39e444]:
+      - generic [ref=f39e445]: LinkedIn
+      - generic [ref=f39e447]: © 2026
+      - listitem [ref=f39e448]:
+        - link "About" [ref=f39e449] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_jobs_guest_details_footer-about
+      - listitem [ref=f39e450]:
+        - link "Accessibility" [ref=f39e451] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_jobs_guest_details_footer-accessibility
+      - listitem [ref=f39e452]:
+        - link "User Agreement" [ref=f39e453] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_jobs_guest_details_footer-user-agreement
+      - listitem [ref=f39e454]:
+        - link "Privacy Policy" [ref=f39e455] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_jobs_guest_details_footer-privacy-policy
+      - listitem [ref=f39e456]:
+        - link "Cookie Policy" [ref=f39e457] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_jobs_guest_details_footer-cookie-policy
+      - listitem [ref=f39e458]:
+        - link "Copyright Policy" [ref=f39e459] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_jobs_guest_details_footer-copyright-policy
+      - listitem [ref=f39e460]:
+        - link "Brand Policy" [ref=f39e461] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_jobs_guest_details_footer-brand-policy
+      - listitem [ref=f39e462]:
+        - link "Guest Controls" [ref=f39e463] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_jobs_guest_details_footer-guest-controls
+      - listitem [ref=f39e464]:
+        - link "Community Guidelines" [ref=f39e465] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_jobs_guest_details_footer-community-guide
+      - listitem [ref=f39e466]:
+        - button "Language" [ref=f39e468]
+  - dialog [ref=f39e470]:
+    - paragraph [ref=f39e476]: LinkedIn
+    - paragraph [ref=f39e477]: Know when new jobs open up
+    - paragraph [ref=f39e478]: Never miss a job alert with the new LinkedIn app for Windows.
+    - link "Get the app" [ref=f39e479] [cursor=pointer]:
+      - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_desktop_upsell_job2
+    - button "Dismiss" [ref=f39e480]

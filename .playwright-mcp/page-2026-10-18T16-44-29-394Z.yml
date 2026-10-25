@@ -1,0 +1,367 @@
+- generic [active] [ref=f9e1]:
+  - link [aria-hidden] [ref=f9e2] [cursor=pointer]:
+    - /url: "#"
+    - text: ___
+  - region [ref=f9e4]:
+    - generic [ref=f9e5]:
+      - generic [ref=f9e7]:
+        - img "Logo" [ref=f9e9]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster":
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f9e11]:
+        - tab "Zustimmung" [selected] [ref=f9e12] [cursor=pointer]
+        - tab "Details" [ref=f9e13] [cursor=pointer]
+        - tab "Über Cookies" [ref=f9e14] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=f9e16]:
+        - generic [ref=f9e18]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=f9e19]
+          - generic [ref=f9e20]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
+      - generic [ref=f9e24]:
+        - button "Einstellungen" [ref=f9e25] [cursor=pointer]
+        - button "OK" [ref=f9e27] [cursor=pointer]
+  - navigation [ref=f9e28]:
+    - list [ref=f9e29]:
+      - listitem [ref=f9e30]:
+        - link "Brauchwasserwärmepumpen" [ref=f9e31] [cursor=pointer]:
+          - /url: /brauchwasserwaermepumpen/
+      - listitem [ref=f9e32]:
+        - link "Wärmepumpen" [ref=f9e33] [cursor=pointer]:
+          - /url: /waermepumpen/
+      - listitem [ref=f9e34]:
+        - link "Gas-Heizung" [ref=f9e35] [cursor=pointer]:
+          - /url: /gas-heizung/
+      - listitem [ref=f9e36]:
+        - link "Öl-Heizung" [ref=f9e37] [cursor=pointer]:
+          - /url: /oel-heizung/
+      - listitem [ref=f9e38]:
+        - link "Elektro-Heizung" [ref=f9e39] [cursor=pointer]:
+          - /url: /elektro-heizung/
+      - listitem [ref=f9e40]:
+        - link "Holz-Heizung" [ref=f9e41] [cursor=pointer]:
+          - /url: /holz-heizung/
+      - listitem [ref=f9e42]:
+        - link "Heizkörper" [ref=f9e43] [cursor=pointer]:
+          - /url: /heizkoerper/
+      - listitem [ref=f9e44]:
+        - link "Fussbodenheizung" [ref=f9e45] [cursor=pointer]:
+          - /url: /fussbodenheizung/
+      - listitem [ref=f9e46]:
+        - link "Durchlauferhitzer" [ref=f9e47] [cursor=pointer]:
+          - /url: /durchlauferhitzer/
+      - listitem [ref=f9e48]:
+        - link "Klimaanlagen" [ref=f9e49] [cursor=pointer]:
+          - /url: /klimaanlagen/
+      - listitem [ref=f9e50]:
+        - link "Photovoltaik" [ref=f9e51] [cursor=pointer]:
+          - /url: /photovoltaik/
+      - listitem [ref=f9e52]:
+        - link "Pumpen" [ref=f9e53] [cursor=pointer]:
+          - /url: /pumpen/
+      - listitem [ref=f9e54]:
+        - link "Rohrsysteme" [ref=f9e55] [cursor=pointer]:
+          - /url: /rohrsysteme/
+      - listitem [ref=f9e56]:
+        - link "Solartechnik" [ref=f9e57] [cursor=pointer]:
+          - /url: /solartechnik/
+      - listitem [ref=f9e58]:
+        - link "Speichertechnik" [ref=f9e59] [cursor=pointer]:
+          - /url: /speichertechnik/
+      - listitem [ref=f9e60]:
+        - link "Wasseraufbereitung" [ref=f9e61] [cursor=pointer]:
+          - /url: /wasseraufbereitung/
+      - listitem [ref=f9e62]:
+        - link "Wohnungslüftung" [ref=f9e63] [cursor=pointer]:
+          - /url: /wohnungslueftung/
+      - listitem [ref=f9e64]:
+        - link "Abgassysteme" [ref=f9e65] [cursor=pointer]:
+          - /url: /abgassysteme/
+      - listitem [ref=f9e66]:
+        - link "Ausdehnungsgefäße" [ref=f9e67] [cursor=pointer]:
+          - /url: /ausdehnungsgefaesse/
+      - listitem [ref=f9e68]:
+        - link "Bad & Sanitär" [ref=f9e69] [cursor=pointer]:
+          - /url: /bad-sanitaer/
+      - listitem [ref=f9e70]:
+        - link "Befestigungstechnik" [ref=f9e71] [cursor=pointer]:
+          - /url: /befestigungstechnik/
+      - listitem [ref=f9e72]:
+        - link "Elektro-Installation" [ref=f9e73] [cursor=pointer]:
+          - /url: /elektro-installation/
+      - listitem [ref=f9e74]:
+        - link "Luftheizer" [ref=f9e75] [cursor=pointer]:
+          - /url: /luftheizer/
+      - listitem [ref=f9e76]:
+        - link "Öltanks" [ref=f9e77] [cursor=pointer]:
+          - /url: /oeltanks/
+      - listitem [ref=f9e78]:
+        - link "Regelungstechnik" [ref=f9e79] [cursor=pointer]:
+          - /url: /regelungstechnik/
+      - listitem [ref=f9e80]:
+        - link "Smart Home" [ref=f9e81] [cursor=pointer]:
+          - /url: /smart-home/
+      - listitem [ref=f9e82]:
+        - link "Solarflüssigkeit" [ref=f9e83] [cursor=pointer]:
+          - /url: /solarfluessigkeit/
+      - listitem [ref=f9e84]:
+        - link "Solarrohr" [ref=f9e85] [cursor=pointer]:
+          - /url: /solarrohr/
+      - listitem [ref=f9e86]:
+        - link "Wallboxen" [ref=f9e87] [cursor=pointer]:
+          - /url: /wallboxen/
+      - listitem [ref=f9e88]:
+        - link "Wohnungsstationen" [ref=f9e89] [cursor=pointer]:
+          - /url: /wohnungsstationen/
+      - listitem [ref=f9e90]:
+        - link "Zubehör" [ref=f9e91] [cursor=pointer]:
+          - /url: /zubehoer/
+      - listitem [ref=f9e92]:
+        - link "Marken" [ref=f9e93] [cursor=pointer]:
+          - /url: /marken/
+      - listitem [ref=f9e94]:
+        - link "Sonderposten" [ref=f9e95] [cursor=pointer]:
+          - /url: /sonderposten/
+      - listitem [ref=f9e96]:
+        - link "Dienstleistungen" [ref=f9e97] [cursor=pointer]:
+          - /url: /dienstleistungen/
+  - banner [ref=f9e98]:
+    - text:   
+    - generic [ref=f9e100]:
+      - generic [ref=f9e101]:
+        - link [ref=f9e103] [cursor=pointer]:
+          - /url: /
+          - img "Heizung und Solar zu Discountpreisen" [ref=f9e104]
+        - list [ref=f9e106]:
+          - listitem [ref=f9e107]:
+            - link [ref=f9e108] [cursor=pointer]:
+              - /url: tel:004964194825200
+              - img "Telefon" [ref=f9e109]
+          - listitem [ref=f9e110]:
+            - link [ref=f9e111] [cursor=pointer]:
+              - /url: /shop/system/?func=customer&action=homelist&
+              - img "Kundencenter" [ref=f9e112]
+          - listitem [ref=f9e113]:
+            - link "Warenkorb 0" [ref=f9e114] [cursor=pointer]:
+              - /url: /shop/system/?func=scartshow&
+              - img "Warenkorb" [ref=f9e115]
+              - generic [ref=f9e116]: "0"
+      - generic [ref=f9e119]:
+        - generic [ref=f9e120]:
+          - link "Kategorien":
+            - /url: "#"
+            - img "Kategorien" [ref=f9e121] [cursor=pointer]
+        - textbox "Ihre Suchbegriff" [ref=f9e122]:
+          - /placeholder: Ihre Suchbegriff(e) ...
+        - generic [ref=f9e123]: Ihre Suchbegriff
+        - button [ref=f9e125] [cursor=pointer]:
+          - img "Suchen" [ref=f9e126]
+  - generic [ref=f9e130]:
+    - text:                                  
+    - generic [ref=f9e132]:
+      - paragraph [ref=f9e134]: Oh nein... Die gesuchte Seite konnte leider nicht gefunden werden
+      - generic [ref=f9e135]:
+        - img "Die gesuchte Seite konnte leider nicht gefunden werden" [ref=f9e137]
+        - generic [ref=f9e140]:
+          - paragraph [ref=f9e141]: "Nach dem gewünschten Artikel suchen:"
+          - generic [ref=f9e142]:
+            - textbox "Ihr gesuchter Artikel" [ref=f9e143]
+            - button "Suchen" [ref=f9e144] [cursor=pointer]
+          - paragraph [ref=f9e145]:
+            - text: "Weitere Themen über die Startseite entdecken:"
+            - link "Zur Startseite" [ref=f9e146] [cursor=pointer]:
+              - /url: /
+          - paragraph [ref=f9e147]:
+            - text: "Kontaktieren Sie uns gerne, um Heizungsdiscount24.de zu optimieren:"
+            - link "Kontakt" [ref=f9e148] [cursor=pointer]:
+              - /url: /kontakt.html
+          - paragraph [ref=f9e149]:
+            - text: Ihr Team von
+            - strong [ref=f9e150]: HeizungsDiscount24
+  - contentinfo [ref=f9e151]:
+    - generic [ref=f9e153]:
+      - text: 
+      - generic [ref=f9e154]:
+        - generic [ref=f9e155]:
+          - paragraph [ref=f9e156]: Fachberatung
+          - list [ref=f9e157]:
+            - listitem [ref=f9e158]:
+              - link "0641 / 948 252 00" [ref=f9e159] [cursor=pointer]:
+                - /url: tel:064194825200
+                - generic [aria-hidden] [ref=f9e160]: 
+                - text: 0641 / 948 252 00
+            - listitem [ref=f9e161]:
+              - generic [aria-hidden] [ref=f9e162]: 
+              - text: 0641 / 948 252 01
+            - listitem [ref=f9e163]:
+              - link "info@heizungsdiscount24.de" [ref=f9e164] [cursor=pointer]:
+                - /url: /kontakt.html
+                - generic [aria-hidden] [ref=f9e165]: 
+                - text: info@heizungsdiscount24.de
+            - listitem [ref=f9e166]:
+              - generic [ref=f9e167]: "Mo. - Fr.:"
+              - text: 08:00 - 17:00 Uhr
+        - generic [ref=f9e168]:
+          - paragraph [ref=f9e169]: Informationen
+          - list [ref=f9e170]:
+            - listitem [ref=f9e171]:
+              - text: 
+              - link "Anschlussgarantie" [ref=f9e172] [cursor=pointer]:
+                - /url: /anschlussgarantie.html
+            - listitem [ref=f9e173]:
+              - text: 
+              - link "Herstellergarantie" [ref=f9e174] [cursor=pointer]:
+                - /url: /herstellergarantie.html
+            - listitem [ref=f9e175]:
+              - text: 
+              - link "Versandkosten" [ref=f9e176] [cursor=pointer]:
+                - /url: /versandkosten.html
+            - listitem [ref=f9e177]:
+              - text: 
+              - link "Zahlungsarten" [ref=f9e178] [cursor=pointer]:
+                - /url: /zahlungsarten.html
+            - listitem [ref=f9e179]:
+              - text: 
+              - link "Aktuelles" [ref=f9e180] [cursor=pointer]:
+                - /url: /aktuelles
+            - listitem [ref=f9e181]:
+              - text: 
+              - link "Stellenangebote" [ref=f9e182] [cursor=pointer]:
+                - /url: /jobs.html
+            - listitem [ref=f9e183]:
+              - text: 
+              - link "Grounding Page" [ref=f9e184] [cursor=pointer]:
+                - /url: /facts.html
+        - generic [ref=f9e185]:
+          - paragraph [ref=f9e186]: Rechtliches
+          - list [ref=f9e187]:
+            - listitem [ref=f9e188]:
+              - text: 
+              - link "AGB" [ref=f9e189] [cursor=pointer]:
+                - /url: /agb.html
+            - listitem [ref=f9e190]:
+              - text: 
+              - link "Datenschutz" [ref=f9e191] [cursor=pointer]:
+                - /url: /datenschutz.html
+            - listitem [ref=f9e192]:
+              - text: 
+              - link "Datenschutzeinstellungen" [ref=f9e193] [cursor=pointer]:
+                - /url: "javascript: Cookiebot.renew()"
+            - listitem [ref=f9e194]:
+              - text: 
+              - link "Impressum" [ref=f9e195] [cursor=pointer]:
+                - /url: /impressum.html
+            - listitem [ref=f9e196]:
+              - text: 
+              - link "Widerrufsrecht" [ref=f9e197] [cursor=pointer]:
+                - /url: /widerrufsrecht.html
+            - listitem [ref=f9e198]:
+              - text: 
+              - link "Batterieverordnung" [ref=f9e199] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+            - listitem [ref=f9e200]:
+              - text: 
+              - link "Entsorgung von Elektroaltgeräten" [ref=f9e201] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+        - generic [ref=f9e202]:
+          - paragraph [ref=f9e203]: Service
+          - list [ref=f9e204]:
+            - listitem [ref=f9e205]:
+              - text: 
+              - link "Kontakt" [ref=f9e206] [cursor=pointer]:
+                - /url: /kontakt.html
+            - listitem [ref=f9e207]:
+              - text: 
+              - link "Login Kundenkonto" [ref=f9e208] [cursor=pointer]:
+                - /url: /shop/system/?func=customer&action=homelist&
+            - listitem [ref=f9e209]:
+              - text: 
+              - link "Montage-Partner finden" [ref=f9e210] [cursor=pointer]:
+                - /url: /heizung-montage-partner-finden.html
+            - listitem [ref=f9e211]:
+              - text: 
+              - link "Montage-Partner werden" [ref=f9e212] [cursor=pointer]:
+                - /url: /heizung-montage-partner-werden.html
+            - listitem [ref=f9e213]:
+              - text: 
+              - link "Retourenservice" [ref=f9e214] [cursor=pointer]:
+                - /url: /retourenservice.html
+            - listitem [ref=f9e215]:
+              - text: 
+              - link "Treuhandservice" [ref=f9e216] [cursor=pointer]:
+                - /url: /treuhandservice.html
+            - listitem [ref=f9e217]:
+              - text: 
+              - link "Vertrag widerrufen" [ref=f9e218] [cursor=pointer]:
+                - /url: /widerrufsrecht.html#os_form_widerruf
+    - generic [ref=f9e220]:
+      - generic [ref=f9e221]:
+        - generic [ref=f9e222]:
+          - generic [ref=f9e223]:
+            - strong [ref=f9e224]: © Heizungsdiscount 24 GmbH
+            - link "* Sämtliche Preise verstehen sich inkl. der gesetzlichen MwSt. und ggf. zzgl. Versandkosten." [ref=f9e225] [cursor=pointer]:
+              - /url: /versandkosten.html
+            - generic [aria-hidden] [ref=f9e226]: 
+            - text: Versandkostenfrei ab 500 EUR Bestellwert
+          - generic [ref=f9e227]:
+            - link [ref=f9e228] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Heizungsdiscount24
+              - generic [aria-hidden] [ref=f9e229]: 
+            - link [ref=f9e230] [cursor=pointer]:
+              - /url: https://www.instagram.com/heizungsdiscount24.de/
+              - generic [aria-hidden] [ref=f9e231]: 
+            - link [ref=f9e232] [cursor=pointer]:
+              - /url: https://www.facebook.com/heizungsdiscount24
+              - generic [aria-hidden] [ref=f9e233]: 
+            - link [ref=f9e234] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/heizungsdiscount24-de/
+              - generic [aria-hidden] [ref=f9e235]: 
+        - link [ref=f9e237] [cursor=pointer]:
+          - /url: /zahlungsarten.html
+          - img "Vorkasse" [ref=f9e238]
+          - img "Treuhand" [ref=f9e239]
+          - img "Rechnung" [ref=f9e240]
+          - img "Amazon Pay" [ref=f9e241]
+          - img "PayPal" [ref=f9e242]
+          - img "PayPal Kreditkarte" [ref=f9e243]
+          - img "PayPal Ratenkauf" [ref=f9e244]
+          - img "PayPal später zahlen" [ref=f9e245]
+          - img "Easy Credit" [ref=f9e246]
+        - generic [ref=f9e248]:
+          - generic [ref=f9e249]: ★★★★★
+          - link "Die Bestellung wurde sofort bearbeitet und geliefert. Super zufrieden!" [ref=f9e251] [cursor=pointer]:
+            - /url: https://www.trustedshops.de/bewertung/info_X233E0FDF51FF959BBB268A8053AE964C.html
+          - separator [ref=f9e252]
+          - strong [ref=f9e254]: Anonym
+          - link "Über die Echtheit der Trusted Shops Bewertungen." [ref=f9e256] [cursor=pointer]:
+            - /url: https://help.etrusted.com/hc/de/articles/23970864566162-Informationen-zum-Trusted-Shops-G%C3%BCtesiegel-und-zu-den-Trusted-Shops-Bewertungen
+        - link [ref=f9e258] [cursor=pointer]:
+          - /url: /ueber-uns.html
+          - img "Deutschlands beste Online Portale 2026" [ref=f9e259]
+      - generic [ref=f9e260]: Zur Erstellung einzelner Texte, Bilder und Serviceinhalte werden KI-gestützte Werkzeuge eingesetzt. Sämtliche Inhalte werden vor Veröffentlichung redaktionell geprüft.
+  - generic [ref=f9e262] [cursor=pointer]
+  - generic [ref=f9e264]:
+    - generic [ref=f9e265]:
+      - link [ref=f9e267] [cursor=pointer]:
+        - /url: https://www.trustami.com/erfahrung/heizungsdiscount24-d-bewertung
+        - img "trustami.com" [ref=f9e268]
+      - link [ref=f9e270] [cursor=pointer]:
+        - /url: /unsere-bewertungen.html
+        - img "Bewertungen" [ref=f9e271]
+    - generic [ref=f9e273]:
+      - generic [ref=f9e275]:
+        - generic [ref=f9e276]: "91.665"
+        - generic [ref=f9e277]: BEWERTUNGEN
+      - generic [ref=f9e278]: 4,9/5.0
+  - text:  
+  - iframe [aria-hidden] [ref=f9e281]
+  - generic [ref=f9e282]:
+    - button "Trusted Shops Gütesiegel Käuferschutz 4,78 (39,8k) Hervorragend Trstd Login" [ref=f9e283] [cursor=pointer]:
+      - generic [ref=f9e284]:
+        - img "Trusted Shops Gütesiegel" [ref=f9e285]
+        - generic [ref=f9e286]: Käuferschutz
+      - generic [ref=f9e288]:
+        - generic [ref=f9e289]:
+          - generic [ref=f9e290]: 4,78
+          - generic [ref=f9e292]: (39,8k)
+        - generic [ref=f9e293]: Hervorragend
+      - switch "Trstd Login" [ref=f9e295]
+    - button "Menü" [ref=f9e297] [cursor=pointer]

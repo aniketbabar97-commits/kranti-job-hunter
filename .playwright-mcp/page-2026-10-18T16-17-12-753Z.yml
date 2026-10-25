@@ -1,0 +1,54 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [active]:
+      - generic [ref=f8e3]:
+        - link [ref=f8e4] [cursor=pointer]:
+          - /url: /default/?locale=en_US
+        - link "Job Search" [ref=f8e19] [cursor=pointer]:
+          - /url: https://jobs.dormakaba.com/search/
+        - generic [ref=f8e20]:
+          - button [ref=f8e21] [cursor=pointer]
+          - button "US" [ref=f8e26] [cursor=pointer]
+      - dialog [ref=f8e32]:
+        - heading "Bitte warten..." [level=3] [ref=f8e47]
+    - text: 
+    - main [ref=f8e49]
+    - generic [ref=f8e50]:
+      - generic [ref=f8e53]:
+        - generic [ref=f8e54]:
+          - generic [ref=f8e55]:
+            - textbox "Search" [ref=f8e56]
+            - button [ref=f8e57] [cursor=pointer]
+          - generic [ref=f8e61]:
+            - link "News" [ref=f8e62] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Blog" [ref=f8e63] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Events" [ref=f8e64] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Webinars" [ref=f8e65] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+        - generic [ref=f8e66]:
+          - heading "Contact" [level=5] [ref=f8e67]
+          - generic [ref=f8e68]:
+            - link "Contact" [ref=f8e69] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Support" [ref=f8e70] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Documentation" [ref=f8e71] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+      - generic [ref=f8e74]:
+        - generic [ref=f8e75]:
+          - link "Contact" [ref=f8e76] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/contact
+          - link "Disclaimer" [ref=f8e77] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/disclaimer
+          - link "Privacy Policy" [ref=f8e78] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/privacy-policy
+          - link "Imprint" [ref=f8e79] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/imprint
+          - link "FAQ" [ref=f8e80] [cursor=pointer]:
+            - /url: https://jobs.dormakaba.com/content/FAQ/?locale=en_US
+          - button "Cookies" [ref=f8e81] [cursor=pointer]
+        - generic [ref=f8e82]: © dormakaba Holding, 2019, all rights reserved
+  - generic: Cookies Settings

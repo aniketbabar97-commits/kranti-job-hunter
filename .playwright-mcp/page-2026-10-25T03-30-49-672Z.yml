@@ -1,0 +1,261 @@
+- generic [active] [ref=f72e1]:
+  - link "Zum Inhalt springen" [ref=f72e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f72e3]:
+    - generic [ref=f72e6]:
+      - link "Jump to Home" [ref=f72e9] [cursor=pointer]:
+        - /url: https://www.af-mediagroup.it/
+      - generic [ref=f72e12]:
+        - text: 視
+        - generic [ref=f72e13]:
+          - list [ref=f72e15]:
+            - listitem [ref=f72e16]:
+              - link "Digitalinvest" [ref=f72e17] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/digitalinvest/
+            - listitem [ref=f72e18]:
+              - link "Hosting & Co." [ref=f72e19] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/hosting/
+            - listitem [ref=f72e20]:
+              - link "WordPress" [ref=f72e21] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/wordpress/
+            - listitem [ref=f72e22]:
+              - link "SLA" [ref=f72e23] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/sla/
+            - listitem [ref=f72e24]:
+              - link "Monitoring" [ref=f72e25] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/monitoring/
+            - listitem [ref=f72e26]:
+              - link "E-Commerce" [ref=f72e27] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/e-commerce/
+            - listitem [ref=f72e28]:
+              - link "CHECK-UP" [ref=f72e29] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/check-up/
+          - generic: 
+      - link "ANFRAGE STELLEN" [ref=f72e33] [cursor=pointer]:
+        - /url: https://www.af-mediagroup.it/?page_id=126
+  - main [ref=f72e34]:
+    - generic [ref=f72e36]:
+      - generic [ref=f72e38]:
+        - heading "Das könnten Sie sein" [level=2] [ref=f72e41]
+        - heading "Karriere" [level=2] [ref=f72e44]
+      - generic [ref=f72e46]:
+        - generic [ref=f72e48]:
+          - generic [ref=f72e49]:
+            - heading "Karriere bei AF-mediaGROUP.IT" [level=1] [ref=f72e52]
+            - heading "Werde Teil unseres IT-Teams – egal ob festangestellt, Freelancer oder Student." [level=2] [ref=f72e55]
+            - paragraph [ref=f72e58]:
+              - text: Die
+              - strong [ref=f72e59]: AF-mediaGROUP.IT
+              - text: mit Sitz im Saarland betreut Unternehmen regional und international – von performanten Hosting-Lösungen über SLA-Support bis hin zu maßgeschneiderten IT-Projekten.
+            - generic [ref=f72e61]:
+              - paragraph [ref=f72e62]:
+                - text: Wir sind immer auf der Suche nach
+                - strong [ref=f72e63]: engagierten Köpfen
+                - text: ", die unsere Leidenschaft für Technik teilen:"
+              - list [ref=f72e64]:
+                - listitem [ref=f72e65]:
+                  - paragraph [ref=f72e66]:
+                    - strong [ref=f72e67]: "Festanstellung:"
+                    - text: Werde Teil unseres Teams und wachse gemeinsam mit uns.
+                - listitem [ref=f72e68]:
+                  - paragraph [ref=f72e69]:
+                    - strong [ref=f72e70]: "Freelancer:"
+                    - text: Arbeite flexibel an spannenden Projekten und bring dein Spezialwissen ein.
+                - listitem [ref=f72e71]:
+                  - paragraph [ref=f72e72]:
+                    - strong [ref=f72e73]: "Studenten & IT-Nerds:"
+                    - text: Sammle praktische Erfahrungen, verdiene dir etwas dazu und wachse in einem echten IT-Umfeld.
+                - listitem [ref=f72e74]:
+                  - paragraph [ref=f72e75]:
+                    - strong [ref=f72e76]: "SLA-Betreuung & Support:"
+                    - text: Perfekt für alle, die zuverlässig sind und Unternehmen mit technischer Expertise unterstützen wollen.
+            - heading "Warum AF-mediaGROUP.IT?" [level=3] [ref=f72e79]
+            - paragraph [ref=f72e82]: ✅ Spannende Projekte mit modernen Technologien✅ Flexible Arbeitsmodelle – remote, hybrid oder vor Ort im Saarland✅ Die Möglichkeit, Verantwortung zu übernehmen und Ideen einzubringen✅ Ein Team, das Technik liebt und zusammenhält✅ Faire Bezahlung und langfristige Perspektiven
+            - heading "Jetzt initiativ bewerben." [level=3] [ref=f72e85]
+            - generic [ref=f72e87]:
+              - paragraph [ref=f72e88]:
+                - text: Egal ob du bereits Berufserfahrung hast oder noch mitten im Studium bist – wenn du
+                - strong [ref=f72e89]: IT im Blut hast
+                - text: ", freuen wir uns auf deine Bewerbung. Schick uns einfach deine Unterlagen an"
+                - strong [ref=f72e90]: karriere@af-mediagroup.com
+                - text: und erzähl uns, wie du unser Team bereichern kannst.
+              - paragraph [ref=f72e91]:
+                - strong [ref=f72e92]: Gestalte mit uns die digitale Zukunft – wir freuen uns auf dich!
+            - form "Karriere" [ref=f72e95]:
+              - generic [ref=f72e96]:
+                - generic [ref=f72e97]:
+                  - generic [ref=f72e98] [cursor=pointer]: Name
+                  - textbox "Name" [ref=f72e99]
+                - generic [ref=f72e100]:
+                  - generic [ref=f72e101] [cursor=pointer]: E-Mail
+                  - textbox "E-Mail" [ref=f72e102]
+                - generic [ref=f72e103]:
+                  - generic [ref=f72e104] [cursor=pointer]: Nachricht
+                  - textbox "Nachricht" [ref=f72e105]
+                - button "Bewerben" [ref=f72e107]
+          - heading "Aktuelles Team" [level=2] [ref=f72e112]
+          - heading "Experts in Tech, Leaders in Transformation" [level=2] [ref=f72e115]
+          - generic [ref=f72e116]: We are engineers, product thinkers, data scientists, and creatives
+        - generic [ref=f72e119]:
+          - generic [ref=f72e122]:
+            - generic [ref=f72e127]:
+              - heading "Wilbur Twitty" [level=2] [ref=f72e129]
+              - heading "Chief Technology Officer" [level=3] [ref=f72e131]
+            - list [ref=f72e134]:
+              - listitem [ref=f72e135]:
+                - generic [ref=f72e136] [cursor=pointer]:
+                  - generic [ref=f72e137]: Jki-facebook-f
+                  - generic [aria-hidden] [ref=f72e138]: 
+              - listitem [ref=f72e139]:
+                - generic [ref=f72e140] [cursor=pointer]:
+                  - generic [ref=f72e141]: Jki-twitter
+                  - generic [aria-hidden] [ref=f72e142]: 
+              - listitem [ref=f72e143]:
+                - generic [ref=f72e144] [cursor=pointer]:
+                  - generic [ref=f72e145]: Jki-youtube-v-light
+                  - generic [aria-hidden] [ref=f72e146]: וֹ
+          - generic [ref=f72e149]:
+            - generic [ref=f72e154]:
+              - heading "Sadie Joseph" [level=2] [ref=f72e156]
+              - heading "AI/ML Engineer" [level=3] [ref=f72e158]
+            - list [ref=f72e161]:
+              - listitem [ref=f72e162]:
+                - generic [ref=f72e163] [cursor=pointer]:
+                  - generic [ref=f72e164]: Jki-facebook-f
+                  - generic [aria-hidden] [ref=f72e165]: 
+              - listitem [ref=f72e166]:
+                - generic [ref=f72e167] [cursor=pointer]:
+                  - generic [ref=f72e168]: Jki-twitter
+                  - generic [aria-hidden] [ref=f72e169]: 
+              - listitem [ref=f72e170]:
+                - generic [ref=f72e171] [cursor=pointer]:
+                  - generic [ref=f72e172]: Jki-youtube-v-light
+                  - generic [aria-hidden] [ref=f72e173]: וֹ
+          - generic [ref=f72e176]:
+            - generic [ref=f72e181]:
+              - heading "Clay Greenwood" [level=2] [ref=f72e183]
+              - heading "Data Scientist" [level=3] [ref=f72e185]
+            - list [ref=f72e188]:
+              - listitem [ref=f72e189]:
+                - generic [ref=f72e190] [cursor=pointer]:
+                  - generic [ref=f72e191]: Jki-facebook-f
+                  - generic [aria-hidden] [ref=f72e192]: 
+              - listitem [ref=f72e193]:
+                - generic [ref=f72e194] [cursor=pointer]:
+                  - generic [ref=f72e195]: Jki-twitter
+                  - generic [aria-hidden] [ref=f72e196]: 
+              - listitem [ref=f72e197]:
+                - generic [ref=f72e198] [cursor=pointer]:
+                  - generic [ref=f72e199]: Jki-youtube-v-light
+                  - generic [aria-hidden] [ref=f72e200]: וֹ
+  - contentinfo [ref=f72e201]:
+    - generic [ref=f72e203]:
+      - generic [ref=f72e205]:
+        - heading "Sie möchten unsere professionelle Hilfe?" [level=2] [ref=f72e208]
+        - paragraph [ref=f72e211]: Sie können eine Email schreiben oder direkt einen Termin vereinbaren.
+        - link "E-Mail" [ref=f72e215] [cursor=pointer]:
+          - /url: http://info@af-mediagroup.com
+        - link "Termin vereinbaren." [ref=f72e219] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=f72e220]:
+        - heading "Nie wieder Wichtiges verpassen. - Newsletter abonnieren." [level=2] [ref=f72e223]
+        - generic [ref=f72e231]:
+          - generic [ref=f72e232]:
+            - text: "*"
+            - textbox "E-Mail-Adresse *" [ref=f72e234]:
+              - /placeholder: E-Mail
+          - button "Anmelden" [ref=f72e236] [cursor=pointer]
+      - generic [ref=f72e238]:
+        - generic [ref=f72e239]:
+          - link "Home" [ref=f72e242] [cursor=pointer]:
+            - /url: http://af-mediagroup.it
+          - paragraph [ref=f72e245]: „Wir verbinden IT, Marketing und Menschen.“
+          - link [ref=f72e248] [cursor=pointer]:
+            - /url: https://profile.dicis.org/af-media-consulting-ims
+        - generic [ref=f72e249]:
+          - heading "Unternehmen" [level=2] [ref=f72e252]
+          - list [ref=f72e255]:
+            - listitem [ref=f72e256]:
+              - link "Werbeagentur" [ref=f72e257] [cursor=pointer]:
+                - /url: http://af-mediagroup.com
+            - listitem [ref=f72e259]:
+              - link "Social Media Agentur" [ref=f72e260] [cursor=pointer]:
+                - /url: http://socialmedia-marketing.saarland
+            - listitem [ref=f72e262]:
+              - link "Podcast Studio" [ref=f72e263] [cursor=pointer]:
+                - /url: http://www.af-mediagroup.studio
+            - listitem [ref=f72e265]:
+              - link "Addressable TV" [ref=f72e266] [cursor=pointer]:
+                - /url: http://www.af-mediagroup.tv
+            - listitem [ref=f72e268]:
+              - link "Karriere" [ref=f72e269] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/karriere/
+            - listitem [ref=f72e271]:
+              - link "Kunden" [ref=f72e272] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/kunden/
+        - generic [ref=f72e274]:
+          - heading "Support" [level=2] [ref=f72e277]
+          - list [ref=f72e280]:
+            - listitem [ref=f72e281]:
+              - link "Glossar" [ref=f72e282] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/?page_id=221
+            - listitem [ref=f72e284]:
+              - link "Datenschutz" [ref=f72e285] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/?page_id=185
+            - listitem [ref=f72e287]:
+              - link "AGB" [ref=f72e288] [cursor=pointer]:
+                - /url: mailto:info@af-mediagroup.com
+            - listitem [ref=f72e290]:
+              - link "Impressum" [ref=f72e291] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/?page_id=180
+            - listitem [ref=f72e293]:
+              - link "Online Support - coming soon" [ref=f72e294] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=f72e297]:
+        - generic [ref=f72e298]:
+          - heading "Folgen Sie uns:" [level=2] [ref=f72e301]
+          - list [ref=f72e304]:
+            - listitem [ref=f72e305]:
+              - link "WhatsApp" [ref=f72e306] [cursor=pointer]:
+                - /url: https://api.whatsapp.com/send/?phone=491726665431&text&type=phone_number&app_absent=0
+            - listitem [ref=f72e308]:
+              - link "Instagram" [ref=f72e309] [cursor=pointer]:
+                - /url: https://www.instagram.com/af.media.group
+            - listitem [ref=f72e311]:
+              - link "Facebook" [ref=f72e312] [cursor=pointer]:
+                - /url: https://www.facebook.com/profile.php?id=61562379501425
+            - listitem [ref=f72e314]:
+              - link "LinkedIn" [ref=f72e315] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/104364641/admin/dashboard/
+            - listitem [ref=f72e317]:
+              - link "TikTok" [ref=f72e318] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@af.media.group
+        - generic [ref=f72e320]:
+          - heading "Quick Links" [level=2] [ref=f72e323]
+          - list [ref=f72e326]:
+            - listitem [ref=f72e327]:
+              - link "Empfehlung" [ref=f72e328] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/empfehlung/
+            - listitem [ref=f72e330]:
+              - link "Preise" [ref=f72e331] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/preise/
+            - listitem [ref=f72e333]:
+              - link "Blog" [ref=f72e334] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/blog/
+            - listitem [ref=f72e336]:
+              - link "FAQ" [ref=f72e337] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/faq/
+            - listitem [ref=f72e339]:
+              - link "Kontakt" [ref=f72e340] [cursor=pointer]:
+                - /url: https://www.af-mediagroup.it/kontakt/
+      - generic [ref=f72e343]:
+        - link [ref=f72e346] [cursor=pointer]:
+          - /url: http://af-mediagroup.com
+        - link [ref=f72e349] [cursor=pointer]:
+          - /url: http://socialmedia-marketing.saarland
+      - paragraph [ref=f72e358]:
+        - text: ©
+        - link "AF-media Consulting GmbH." [ref=f72e359] [cursor=pointer]:
+          - /url: http://www.af-mediagroup.com
+        - text: All Right Reserved 2025.
+  - generic [ref=f72e360]: desktop

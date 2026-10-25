@@ -1,0 +1,49 @@
+- generic [active] [ref=f12e1]:
+  - generic:
+    - alert
+    - alert
+  - generic [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - banner [ref=f12e5]:
+        - generic:
+          - link "Zum Hauptinhalt":
+            - /url: "#skipContent"
+        - generic [ref=f12e6]:
+          - link [ref=f12e16] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+            - img "Innomotics Logo" [ref=f12e17]
+          - generic [ref=f12e19]:
+            - button "Menü" [ref=f12e26] [cursor=pointer]:
+              - generic [ref=f12e27]: 
+            - generic [ref=f12e29]:
+              - generic:
+                - list:
+                  - listitem
+      - main [ref=f12e31]:
+        - generic [ref=f12e32]:
+          - region "Zum Hauptinhalt"
+          - region "Stellenbewerbungsformular" [ref=f12e62]:
+            - generic [ref=f12e1165]: Ihre Bewerbung wurde abgeschickt. Vielen Dank!
+            - generic [ref=f12e1166]:
+              - button "Zurück zu den Stellenauflistungen" [ref=f12e1167] [cursor=pointer]
+              - button "Profil anzeigen" [ref=f12e1168] [cursor=pointer]
+    - contentinfo [ref=f12e34]:
+      - generic [ref=f12e37]:
+        - list [ref=f12e38]:
+          - listitem [ref=f12e39]:
+            - link "Impressum" [ref=f12e40] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+          - listitem [ref=f12e41]:
+            - button "Cookie Consent Manager" [ref=f12e42] [cursor=pointer]
+          - listitem [ref=f12e43]:
+            - link "View All Jobs" [ref=f12e44] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/viewalljobs/
+          - listitem [ref=f12e45]:
+            - link "Contact Us" [ref=f12e46] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/
+        - list [ref=f12e48]:
+          - listitem [ref=f12e49]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f12e50] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/innomotics
+              - generic [ref=f12e51]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=f12e56]: Copyright © Innomotics

@@ -1,0 +1,366 @@
+- generic [ref=f12e1]:
+  - generic:
+    - alert
+    - alert
+  - generic [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - banner [ref=f12e5]:
+        - generic:
+          - link "Zum Hauptinhalt":
+            - /url: "#skipContent"
+        - generic [ref=f12e6]:
+          - link [ref=f12e16] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+            - img "Innomotics Logo" [ref=f12e17]
+          - generic [ref=f12e19]:
+            - button "Menü" [ref=f12e26] [cursor=pointer]:
+              - generic [ref=f12e27]: 
+            - generic [ref=f12e29]:
+              - generic:
+                - list:
+                  - listitem
+      - main [ref=f12e31]:
+        - generic [ref=f12e32]:
+          - region "Zum Hauptinhalt"
+          - region "Stellenbewerbungsformular" [ref=f12e62]:
+            - list [ref=f12e194]:
+              - listitem [ref=f12e195]:
+                - link "Abmelden" [ref=f12e196] [cursor=pointer]:
+                  - /url: javascript:logoutUrl('/portalcareer?company=InnoProd&site=&lang=de_DE&login_ns=logout&loginFlowRequired=true&_s.crb=TRVoPZezUIrzvL%252bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%253d&showLogOutMsg=true&brandUrl=','https://jobs.innomotics.com/services/security/logoutp?callback=callback&locale=de_DE');
+              - listitem [ref=f12e197]:
+                - button "Optionen" [ref=f12e199] [cursor=pointer]:
+                  - text: Optionen
+                  - button ""
+              - listitem [ref=f12e200]:
+                - combobox "Sprache" [ref=f12e201] [cursor=pointer]:
+                  - text: Deutsch ‎(German)‎
+                  - button ""
+            - heading "Global E-Business Operations Manager (m/w/d) (7005)" [level=1] [ref=f12e203]
+            - note [ref=f12e205]:
+              - paragraph [ref=f12e208]: Hallo und willkommen auf deinem Bewerbungsprofil!
+            - generic [ref=f12e209]:
+              - button "Alle Abschnitte einblenden" [ref=f12e210] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f12e211]: +
+                - text: Alle Abschnitte einblenden
+              - button "Alle Abschnitte ausblenden" [ref=f12e212] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f12e213]: −
+                - text: Alle Abschnitte ausblenden
+            - alert
+            - generic [ref=f12e215]:
+              - heading "Meine Dokumente" [level=2]:
+                - button "Meine Dokumente" [expanded] [ref=f12e216] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e217]: 
+                  - text: Meine Dokumente  
+              - group "Meine Dokumente" [ref=f12e219]:
+                - generic [ref=f12e220]: "Zulässige Dateiformate: DOCX, PDF, Bild und Text (Dateiformate MSG, PPT und XLS sind für Lebensläufe oder Anschreiben nicht zulässig)"
+                - generic [ref=f12e223]:
+                  - generic [ref=f12e224]:
+                    - generic [ref=f12e226]:
+                      - generic [ref=f12e227]:
+                        - generic [aria-hidden] [ref=f12e228]: "*"
+                        - text: Lebenslauf/CV
+                      - generic [ref=f12e232] [cursor=pointer]:
+                        - text: 
+                        - 'tooltip "Dokument herunterladen Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf Zuletzt geändert: 18.10.2026 Erforderlich" [ref=f12e233]'
+                        - 'button "Lebenslauf/CV Dokument herunterladen Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf Zuletzt geändert: 18.10.2026 Erforderlich" [ref=f12e234]':
+                          - text: Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf
+                          - generic [ref=f12e235]: (18.10.2026)
+                        - generic [ref=f12e236]:
+                          - button "Lebenslauf/CV Dokument Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf bearbeiten Öffnet ein Dialogfeld" [ref=f12e237]: ✏
+                          - tooltip "Dokument Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf bearbeiten Öffnet ein Dialogfeld" [ref=f12e238]
+                    - generic [ref=f12e241]:
+                      - text: Anschreiben
+                      - generic [ref=f12e245] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Laden Sie das Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf herunter. ZULETZT GEÄNDERT:18.10.2026" [ref=f12e678]
+                        - button "Anschreiben Laden Sie das Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf herunter. ZULETZT GEÄNDERT:18.10.2026" [ref=f12e679]:
+                          - text: Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf
+                          - generic [ref=f12e680]: (18.10.2026)
+                        - generic [ref=f12e248]:
+                          - button "Anschreiben Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf löschen" [ref=f12e682]: 
+                          - tooltip "Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf löschen" [ref=f12e681]
+                  - generic [ref=f12e253]:
+                    - text: Zusätzliche Dokumente (Zeugnisse, etc.)
+                    - generic [ref=f12e257] [cursor=pointer]:
+                      - text: 
+                      - tooltip "Dokument hinzufügen" [ref=f12e258]
+                      - generic [ref=f12e259]: Dokument hinzufügen
+                      - generic [ref=f12e260]:
+                        - button "Zusätzliche Dokumente (Zeugnisse, etc.) Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f12e261]: 
+                        - tooltip "Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f12e262]
+            - generic [ref=f12e265]:
+              - heading "Profilinformationen" [level=2]:
+                - button "Profilinformationen" [expanded] [ref=f12e266] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e267]: 
+                  - text: Profilinformationen  
+              - group "Profilinformationen" [ref=f12e269]:
+                - generic [ref=f12e270]: Bitte vervollständigen Sie Ihre persönlichen Informationen.
+                - generic [ref=f12e273]:
+                  - generic [ref=f12e275]:
+                    - generic [ref=f12e276]:
+                      - generic [aria-hidden] [ref=f12e277]: "*"
+                      - text: Vorname
+                    - textbox "Vorname" [ref=f12e279]: Kranti
+                  - generic [ref=f12e281]:
+                    - generic [ref=f12e282]:
+                      - generic [aria-hidden] [ref=f12e283]: "*"
+                      - text: Nachname
+                    - textbox "Nachname" [ref=f12e285]: Chavan
+                  - generic [ref=f12e287]:
+                    - text: Rufname
+                    - textbox "Rufname" [ref=f12e289]
+                  - generic [ref=f12e292]:
+                    - generic [ref=f12e293]:
+                      - generic [aria-hidden] [ref=f12e294]: "*"
+                      - text: E-Mail Adresse
+                    - textbox "E-Mail Adresse" [ref=f12e296]: krantichavan198@gmail.com
+                  - generic [ref=f12e298]:
+                    - generic [ref=f12e299]:
+                      - generic [aria-hidden] [ref=f12e300]: "*"
+                      - text: Telefonnummer (mobil)
+                    - textbox "Telefonnummer (mobil)" [ref=f12e302]: +49 15750174177
+                  - generic [ref=f12e304]:
+                    - generic [ref=f12e305]:
+                      - generic [aria-hidden] [ref=f12e306]: "*"
+                      - text: Land
+                    - generic [ref=f12e307]:
+                      - generic [ref=f12e308]:
+                        - status
+                      - combobox "Land" [ref=f12e309]: Deutschland
+                      - button "Land" [ref=f12e310] [cursor=pointer]:
+                        - generic [ref=f12e311]: 
+                  - generic [ref=f12e314]:
+                    - generic [ref=f12e315]:
+                      - generic [aria-hidden] [ref=f12e316]: "*"
+                      - text: Wohnort
+                    - textbox "Wohnort" [ref=f12e318]: Karlsruhe
+                  - generic [ref=f12e320]:
+                    - text: Straße/Hausnummer
+                    - textbox "Straße/Hausnummer" [ref=f12e322]: Blücherstraße 6
+                  - generic [ref=f12e324]:
+                    - generic [ref=f12e325]:
+                      - generic [aria-hidden] [ref=f12e326]: "*"
+                      - text: Postleitzahl
+                    - textbox "Postleitzahl" [ref=f12e328]: "76185"
+                  - generic [ref=f12e331]:
+                    - text: Staat/Region (für Bewerber aus den USA oder Kanada)
+                    - generic [ref=f12e332]:
+                      - generic [ref=f12e333]:
+                        - status
+                      - combobox "Staat/Region (für Bewerber aus den USA oder Kanada)" [ref=f12e334]
+                      - button "Staat/Region (für Bewerber aus den USA oder Kanada)" [ref=f12e335] [cursor=pointer]:
+                        - generic [ref=f12e336]: 
+            - generic [ref=f12e338]:
+              - heading "Previous Employment" [level=2]:
+                - button "Previous Employment" [expanded] [ref=f12e339] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e340]: 
+                  - text: Previous Employment  
+              - group "Previous Employment" [ref=f12e342]:
+                - generic [ref=f12e343]:
+                  - generic [ref=f12e344]:
+                    - text: Zeilennummer 1
+                    - generic [ref=f12e347]:
+                      - generic [ref=f12e349]:
+                        - generic [ref=f12e350]:
+                          - generic [aria-hidden] [ref=f12e351]: "*"
+                          - text: Start Date
+                        - generic "Start Date" [ref=f12e354]:
+                          - generic [ref=f12e358]:
+                            - textbox "Start Date" [ref=f12e359]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 01.10.2024
+                            - generic [ref=f12e361] [cursor=pointer]
+                      - generic [ref=f12e365]:
+                        - generic [ref=f12e366]:
+                          - generic [aria-hidden] [ref=f12e367]: "*"
+                          - text: End Date
+                        - generic "End Date" [ref=f12e370]:
+                          - generic [ref=f12e374]:
+                            - textbox "End Date" [ref=f12e375]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 15.12.2026
+                            - generic [ref=f12e377] [cursor=pointer]
+                      - generic [ref=f12e381]:
+                        - generic [ref=f12e382]:
+                          - generic [aria-hidden] [ref=f12e383]: "*"
+                          - text: Company Name
+                        - textbox "Company Name" [ref=f12e385]: Rockwell Automation
+                      - generic [ref=f12e388]:
+                        - text: Type of Business
+                        - generic [ref=f12e389]:
+                          - generic [ref=f12e390]:
+                            - status
+                          - combobox "Type of Business" [ref=f12e391]
+                          - button "Type of Business" [ref=f12e392] [cursor=pointer]:
+                            - generic [ref=f12e393]: 
+                      - generic [ref=f12e395]:
+                        - generic [ref=f12e396]:
+                          - generic [aria-hidden] [ref=f12e397]: "*"
+                          - text: Title
+                        - textbox "Title" [ref=f12e399]: Software Engineer
+                      - button " Entfernen Previous Employment" [ref=f12e401] [cursor=pointer]:
+                        - text:  Entfernen
+                        - generic "Previous Employment" [ref=f12e402]: 
+                  - generic [ref=f12e403]: Abschnitt Previous Employment mit 1 Zeilen
+                - button " Hinzufügen Previous Employment" [ref=f12e405] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Previous Employment" [ref=f12e406]
+            - generic [ref=f12e408]:
+              - heading "Formal Education" [level=2]:
+                - button "Formal Education" [expanded] [ref=f12e409] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e410]: 
+                  - text: Formal Education  
+              - group "Formal Education" [ref=f12e412]:
+                - generic [ref=f12e413]:
+                  - generic [ref=f12e479]:
+                    - text: Zeilennummer 1
+                    - generic [ref=f12e482]:
+                      - generic [ref=f12e484]:
+                        - generic [ref=f12e485]:
+                          - generic [aria-hidden] [ref=f12e486]: "*"
+                          - text: School
+                        - textbox "School" [ref=f12e488]: Savitribai Phule Pune University, Indien
+                      - generic [ref=f12e490]:
+                        - generic [ref=f12e491]:
+                          - generic [aria-hidden] [ref=f12e492]: "*"
+                          - text: Degree
+                        - generic [ref=f12e493]:
+                          - status [ref=f12e683]: Ein oder mehrere Ergebnisse verfügbar. Drücken Sie die Pfeiltasten nach oben oder unten, um in der Auswahlliste zu navigieren. Drücken Sie Alt + Pfeiltasten, um die Größe der Auswahlliste zu ändern.
+                          - combobox "Degree" [expanded] [ref=f12e495]: Bachelor
+                          - button "Degree" [ref=f12e496] [cursor=pointer]:
+                            - generic [ref=f12e497]: 
+                      - generic [ref=f12e499]:
+                        - generic [ref=f12e500]:
+                          - generic [aria-hidden] [ref=f12e501]: "*"
+                          - text: Major
+                        - generic [ref=f12e502]:
+                          - status [ref=f12e711]: Ein oder mehrere Ergebnisse verfügbar. Drücken Sie die Pfeiltasten nach oben oder unten, um in der Auswahlliste zu navigieren. Drücken Sie Alt + Pfeiltasten, um die Größe der Auswahlliste zu ändern.
+                          - combobox "Major" [expanded] [ref=f12e504]: Computer Engineering
+                          - button "Major" [ref=f12e505] [cursor=pointer]:
+                            - generic [ref=f12e506]: 
+                      - generic [ref=f12e509]:
+                        - text: Start Date
+                        - generic "Start Date" [ref=f12e512]:
+                          - generic [ref=f12e516]:
+                            - textbox "Start Date" [ref=f12e517]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 01.06.2016
+                            - generic [ref=f12e519] [cursor=pointer]
+                      - generic [ref=f12e523]:
+                        - text: End Date
+                        - generic "End Date" [ref=f12e526]:
+                          - generic [ref=f12e530]:
+                            - textbox "End Date" [ref=f12e531]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 30.06.2020
+                            - generic [ref=f12e533] [cursor=pointer]
+                      - generic [ref=f12e537]:
+                        - text: Description
+                        - textbox "Description" [ref=f12e539]
+                      - button " Entfernen Formal Education" [ref=f12e542] [cursor=pointer]:
+                        - text:  Entfernen
+                        - generic "Formal Education" [ref=f12e543]: 
+                  - generic [ref=f12e544]: Abschnitt Formal Education mit 1 Zeilen
+                - button " Hinzufügen Formal Education" [ref=f12e546] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Formal Education" [ref=f12e547]
+            - generic [ref=f12e549]:
+              - heading "Language" [level=2]:
+                - button "Language" [expanded] [ref=f12e550] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e551]: 
+                  - text: Language  
+              - group "Language" [ref=f12e553]:
+                - generic [ref=f12e554]:
+                  - generic [ref=f12e555]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e556]: Abschnitt Language mit 0 Zeilen
+                - button " Hinzufügen Language" [ref=f12e558] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Language" [ref=f12e559]
+            - generic [ref=f12e561]:
+              - heading "Certification Name" [level=2]:
+                - button "Certification Name" [expanded] [ref=f12e562] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e563]: 
+                  - text: Certification Name  
+              - group "Certification Name" [ref=f12e565]:
+                - generic [ref=f12e566]:
+                  - generic [ref=f12e567]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e568]: Abschnitt Certification Name mit 0 Zeilen
+                - button " Hinzufügen Certification Name" [ref=f12e570] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Certification Name" [ref=f12e571]
+            - generic [ref=f12e573]:
+              - heading "Honors/Awards" [level=2]:
+                - button "Honors/Awards" [expanded] [ref=f12e574] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e575]: 
+                  - text: Honors/Awards  
+              - group "Honors/Awards" [ref=f12e577]:
+                - generic [ref=f12e578]:
+                  - generic [ref=f12e579]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e580]: Abschnitt Honors/Awards mit 0 Zeilen
+                - button " Hinzufügen Honors/Awards" [ref=f12e582] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Honors/Awards" [ref=f12e583]
+            - generic [ref=f12e585]:
+              - heading "Stellenspezifische Informationen" [level=2]:
+                - button "Stellenspezifische Informationen" [expanded] [ref=f12e586] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e587]: 
+                  - text: Stellenspezifische Informationen  
+              - group "Stellenspezifische Informationen" [ref=f12e589]:
+                - generic [ref=f12e592]:
+                  - generic [ref=f12e594]:
+                    - generic [ref=f12e595]:
+                      - generic [aria-hidden] [ref=f12e596]: "*"
+                      - text: Wie hast du von uns erfahren?
+                    - generic [ref=f12e597]:
+                      - status [ref=f12e1089]: Ein oder mehrere Ergebnisse verfügbar. Drücken Sie die Pfeiltasten nach oben oder unten, um in der Auswahlliste zu navigieren. Drücken Sie Alt + Pfeiltasten, um die Größe der Auswahlliste zu ändern.
+                      - combobox "Wie hast du von uns erfahren?" [expanded] [active] [ref=f12e599]: Linkedin
+                      - button "Wie hast du von uns erfahren?" [ref=f12e600] [cursor=pointer]:
+                        - generic [ref=f12e601]: 
+                  - generic [ref=f12e603]:
+                    - text: Falls "keine der genannten" trage es bitte hier ein
+                    - textbox "Falls \"keine der genannten\" trage es bitte hier ein" [ref=f12e605]
+                  - generic [ref=f12e607]:
+                    - text: Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?
+                    - generic [ref=f12e608]:
+                      - generic [ref=f12e609]:
+                        - status
+                      - combobox "Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?" [ref=f12e610]
+                      - button "Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?" [ref=f12e611] [cursor=pointer]:
+                        - generic [ref=f12e612]: 
+                  - generic [ref=f12e615]:
+                    - text: Geburtsdatum (TT-MM-JJJJ)
+                    - generic "Geburtsdatum (TT-MM-JJJJ)" [ref=f12e618]:
+                      - generic [ref=f12e622]:
+                        - textbox "Geburtsdatum (TT-MM-JJJJ)" [ref=f12e623]:
+                          - /placeholder: TT.MM.JJJJ
+                          - text: 14.10.1997
+                        - generic [ref=f12e625] [cursor=pointer]
+                  - generic [ref=f12e629]:
+                    - text: Salary Expectations
+                    - textbox "Salary Expectations" [ref=f12e631]: "60000"
+            - note
+            - generic:
+              - button "Profil anzeigen" [ref=f12e633] [cursor=pointer]
+              - generic [ref=f12e634]:
+                - button "Speichern" [ref=f12e635] [cursor=pointer]
+                - button "Bewerben" [ref=f12e636] [cursor=pointer]
+    - contentinfo [ref=f12e34]:
+      - generic [ref=f12e37]:
+        - list [ref=f12e38]:
+          - listitem [ref=f12e39]:
+            - link "Impressum" [ref=f12e40] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+          - listitem [ref=f12e41]:
+            - button "Cookie Consent Manager" [ref=f12e42] [cursor=pointer]
+          - listitem [ref=f12e43]:
+            - link "View All Jobs" [ref=f12e44] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/viewalljobs/
+          - listitem [ref=f12e45]:
+            - link "Contact Us" [ref=f12e46] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/
+        - list [ref=f12e48]:
+          - listitem [ref=f12e49]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f12e50] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/innomotics
+              - generic [ref=f12e51]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=f12e56]: Copyright © Innomotics

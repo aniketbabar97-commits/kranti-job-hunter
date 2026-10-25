@@ -1,0 +1,58 @@
+- generic [ref=f23e10]:
+  - generic [ref=f23e11]:
+    - link "Skip to main content" [ref=f23e12] [cursor=pointer]:
+      - /url: ""
+    - banner [ref=f23e15]:
+      - generic [ref=f23e17]:
+        - link [ref=f23e20] [cursor=pointer]:
+          - /url: https://www.accenture.com/jobsearch
+          - img "careers home" [ref=f23e21]
+        - generic [ref=f23e22]:
+          - heading [level=1]
+        - generic [ref=f23e24]:
+          - button "English" [ref=f23e27] [cursor=pointer]
+          - navigation [ref=f23e32]:
+            - button "Search Careers" [ref=f23e33] [cursor=pointer]
+            - button "Introduce Yourself" [ref=f23e34] [cursor=pointer]
+  - generic [ref=f23e37]:
+    - main [ref=f23e38]:
+      - generic [ref=f23e45]:
+        - generic [ref=f23e48]:
+          - generic [ref=f23e51]:
+            - heading "Sign In" [active] [level=3] [ref=f23e123]
+            - generic [ref=f23e124]:
+              - generic [ref=f23e125]:
+                - generic [ref=f23e126]: Email Address*
+                - textbox "Email Address" [ref=f23e130]
+              - generic [ref=f23e132]:
+                - generic [ref=f23e133]: Password*
+                - textbox "Password" [ref=f23e137]
+              - generic [ref=f23e142]:
+                - button "Submit" [ref=f23e143] [cursor=pointer]
+                - button [aria-hidden] [ref=f23e144] [cursor=pointer]: Sign In
+            - generic [ref=f23e145]:
+              - text: Don't have an account yet?
+              - button "Create Account" [ref=f23e146] [cursor=pointer]
+            - button "Forgot your password?" [ref=f23e148] [cursor=pointer]
+          - generic:
+            - generic:
+              - generic [ref=f23e149]: Enter website. This input is for robots only, do not enter if you're human.
+              - textbox "Enter website. This input is for robots only, do not enter if you're human." [ref=f23e150]
+        - generic [ref=f23e83]:
+          - generic [ref=f23e84]: Follow Us
+          - list [ref=f23e86]:
+            - listitem [ref=f23e87]:
+              - button "YouTube" [ref=f23e88] [cursor=pointer]
+            - listitem [ref=f23e94]:
+              - button "Facebook" [ref=f23e95] [cursor=pointer]
+            - listitem [ref=f23e99]:
+              - button "X" [ref=f23e100] [cursor=pointer]
+            - listitem [ref=f23e104]:
+              - button "LinkedIn" [ref=f23e105] [cursor=pointer]
+          - list [ref=f23e111]:
+            - generic "Accenture Privacy Policy" [ref=f23e112]:
+              - generic [ref=f23e114]:
+                - link "Accenture Privacy Policy opens new window" [ref=f23e115] [cursor=pointer]: Accenture Privacy Policy
+                - link "Accenture Privacy Policy opens new window" [ref=f23e116] [cursor=pointer]
+    - contentinfo [ref=f23e120]:
+      - generic "© 2026 Workday, Inc. All rights reserved." [ref=f23e122]

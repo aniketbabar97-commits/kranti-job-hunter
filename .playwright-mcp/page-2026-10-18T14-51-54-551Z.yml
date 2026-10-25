@@ -1,0 +1,21 @@
+- generic [ref=f17e4]:
+  - link "Zum Hauptinhalt springen" [ref=f17e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f17e8]:
+    - generic [ref=f17e10]:
+      - link [ref=f17e13] [cursor=pointer]:
+        - /url: https://www.cgm.com/corp_en
+        - img "Karriere - Home" [ref=f17e14]
+      - heading "CGM Career" [level=1] [ref=f17e16]
+      - generic [ref=f17e18]:
+        - generic [ref=f17e19]:
+          - button "Deutsch (‏Deutschland)" [ref=f17e21] [cursor=pointer]
+          - button "Anmelden" [ref=f17e27] [cursor=pointer]
+        - navigation [ref=f17e33]:
+          - button "Homepage" [ref=f17e34] [cursor=pointer]
+          - button "Stellen suchen" [ref=f17e35] [cursor=pointer]
+          - button "Initiativbewerbung" [ref=f17e36] [cursor=pointer]
+  - generic [ref=f17e42]:
+    - link "CGM Datenschutzerklärung" [ref=f17e44] [cursor=pointer]:
+      - /url: https://www.cgm.com/corp_en/career/data-protection-declaration-cgm-applicant-portal-wd.html
+    - generic [ref=f17e45]: © 2026 Workday, Inc. Alle Rechte vorbehalten.

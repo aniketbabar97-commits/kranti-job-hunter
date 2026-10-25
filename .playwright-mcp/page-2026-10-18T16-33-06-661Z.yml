@@ -1,0 +1,62 @@
+- generic [ref=f9e4]:
+  - banner [ref=f9e5]:
+    - generic:
+      - link "Zum Hauptinhalt":
+        - /url: "#skipContent"
+    - generic [ref=f9e6]:
+      - link [ref=f9e405] [cursor=pointer]:
+        - /url: https://jobs.innomotics.com/
+        - img "Innomotics Logo" [ref=f9e406]
+      - generic [ref=f9e19]:
+        - button "Menü" [ref=f9e407] [cursor=pointer]:
+          - generic [ref=f9e27]: 
+        - generic [ref=f9e29]:
+          - generic:
+            - list:
+              - listitem
+  - main [ref=f9e31]:
+    - generic [ref=f9e32]:
+      - region "Zum Hauptinhalt"
+      - region "Karrierechancen:Konto anlegen" [ref=f9e408]:
+        - generic [ref=f9e37]:
+          - 'heading "Karrierechancen: Konto anlegen" [level=1] [ref=f9e409]'
+          - generic [ref=f9e42]:
+            - paragraph
+            - generic [ref=f9e43]:
+              - text: Sie sind bereits als Benutzer registriert?
+              - link "Bitte melden Sie sich hier an." [ref=f9e410] [cursor=pointer]:
+                - /url: /career?company=InnoProd&site=&lang=de_DE&requestParams=Zw5sYHhUqdKHgML%2fn6uxuM8jIYN42m1R3UpCQRCe%2fElNKSXorleQo2ESXZRk1oECIeqmi9N6zqQb%0a2%2b5xdkwj6InqIaInqMteILroHVotyEMt7LLM983M9808fELWElSuxI2ojliq6qGwg2MRZ3NvT89r%0aFy9pSHVgSRkRdUTIhnwo8IDQDoyKJvHOLkxPaZx3b9ndIkPGSsYRwer50ayqErpfPWGSur%2f9%2bHr2%0a%2frF%2bd5ACmMSOvsAADPlQSdTsR6Mh3EP6O56%2fMj1bH2OPoRIKQqTARQLCYSATxEzT8xoMRWtCKVQr%0ajtXtPJy9FMqiw112V8aopMZ5fLEtCUNmWA4NESrB0uggqaVU29iq1xpes7np1RxTWl8zkhbq1CL9%0a1y0XmutY6F8lKefI19p0yUSJb%2bHHnLbzdVamXoXzIsOZIGdzOsdEqwiD9j5D2e1i3FJIvEcoGKO%2f%0aeiZfn9iKFA%3d%3d&career_ns=job%5fapplication&career_job_req_id=7005&jobPipeline=Direct&clientId=jobs2web&_s.crb=TRVoPZezUIrzvL%2bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%3d
+              - generic [ref=f9e45]: "*weist auf ein erforderliches Feld hin."
+            - paragraph
+            - generic [ref=f9e46]:
+              - strong [ref=f9e441]: "E-Mail-Adresse:"
+              - text: krantichavan198@gmail.com
+              - region "Wir haben ein Einmalkennwort an Ihre E-Mail-Adresse geschickt. Falls Sie diese E-Mail nicht in Ihrem Haupt-E-Mail-Eingang finden, überprüfen Sie bitte Ihre Spam- oder Bulk-E-Mail-Ordner." [active] [ref=f9e442]
+              - generic "Erforderlich" [ref=f9e443]:
+                - text: "*"
+                - strong [ref=f9e444]: "Passcode:"
+              - generic [ref=f9e445]:
+                - textbox "Passcode:" [ref=f9e446]
+                - generic [ref=f9e447] [cursor=pointer]: Anzeigen
+              - button "Weiter" [ref=f9e450] [cursor=pointer]
+              - timer [ref=f9e451]: Sie können in 01:58 Minuten einen neuen Passcode anfordern.
+  - contentinfo [ref=f9e101]:
+    - generic [ref=f9e104]:
+      - list [ref=f9e105]:
+        - listitem [ref=f9e106]:
+          - link "Impressum" [ref=f9e435] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+        - listitem [ref=f9e108]:
+          - button "Cookie Consent Manager" [ref=f9e436] [cursor=pointer]
+        - listitem [ref=f9e110]:
+          - link "View All Jobs" [ref=f9e437] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/viewalljobs/
+        - listitem [ref=f9e112]:
+          - link "Contact Us" [ref=f9e438] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+      - list [ref=f9e115]:
+        - listitem [ref=f9e116]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=f9e439] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/innomotics
+            - generic [ref=f9e118]: Wird auf einer neuen Registerkarte geöffnet.
+    - paragraph [ref=f9e123]: Copyright © Innomotics

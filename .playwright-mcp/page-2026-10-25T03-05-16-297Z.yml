@@ -1,0 +1,50 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e9]:
+    - complementary [ref=f2e10]:
+      - generic [ref=f2e11]:
+        - button "Zum Hauptinhalt springen"
+        - img "Schäfer Shop Group GmbH & Co. KG" [ref=f2e17]
+      - generic [ref=f2e18]:
+        - heading "In zwei einfachen Schritten zum Traumjob" [level=2] [ref=f2e19]
+        - list [ref=f2e20]:
+          - listitem [ref=f2e21]:
+            - button "1 Lebenslauf" [ref=f2e22] [cursor=pointer]:
+              - generic [ref=f2e23]: "1"
+              - generic [ref=f2e24]: Lebenslauf
+          - listitem [ref=f2e25]:
+            - button "2 Persönliche Angaben" [ref=f2e26] [cursor=pointer]:
+              - generic [ref=f2e27]: "2"
+              - generic [ref=f2e28]: Persönliche Angaben
+    - main [ref=f2e29]:
+      - generic [ref=f2e31]:
+        - generic [ref=f2e32]:
+          - generic [ref=f2e34]:
+            - generic [ref=f2e35]:
+              - heading "Lebenslauf und Anhänge" [level=2] [ref=f2e36]
+              - paragraph [ref=f2e37]: "Bitte eine Option wählen und Lebenslauf hochladen:"
+            - generic [ref=f2e39]:
+              - generic "Lebenslauf hochladen" [ref=f2e40]: Dokument
+              - generic [ref=f2e49] [cursor=pointer]
+              - button "Mit XING-Profil bewerben" [ref=f2e53] [cursor=pointer]:
+                - generic [ref=f2e54]: XING
+          - generic [ref=f2e60]: Weitere Anhänge (z.B. Zeugnisse oder Zertifikate)
+        - generic [ref=f2e72]:
+          - generic [ref=f2e74]:
+            - generic [ref=f2e75]:
+              - textbox "Anschreiben (optional)" [ref=f2e76]
+              - generic: Anschreiben (optional)
+            - generic [ref=f2e77]: Alternativ kann das Anschreiben als Anhang hochgeladen werden.
+          - button "zum nächsten Schritt" [ref=f2e79] [cursor=pointer]
+    - generic [ref=f2e83]:
+      - link "Machine-readable job feed (JSON)" [ref=f2e86] [cursor=pointer]:
+        - /url: ../../jobs.feed.json
+      - link "powered by softgarden" [ref=f2e88] [cursor=pointer]:
+        - /url: https://softgarden.com/
+    - status [ref=f2e91]:
+      - generic [ref=f2e92]: Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen!
+      - paragraph [ref=f2e93]: Eine Bestätigungs-E-Mail wird in Kürze versendet.
+  - complementary "Zustimmung ändern" [ref=f2e94]:
+    - button "Zustimmung ändern" [ref=f2e95] [cursor=pointer]:
+      - img "Zustimmung ändern" [ref=f2e96]
+  - alert [ref=f2e97]
+  - 'tooltip "Folgenden Dateitypen sind zulässig: .pdf, .doc, .docx, .svg. Die Größe der hochgeladenen Datei sollte 10 MB nicht überschreiten."'

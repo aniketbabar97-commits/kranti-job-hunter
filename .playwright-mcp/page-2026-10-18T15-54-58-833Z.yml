@@ -1,0 +1,127 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e9]:
+    - 'heading "Bewerbung auf die Position: SAP CPQ Expert Consultant Sto Group (w/m/d)" [level=1] [ref=f5e10]'
+    - generic [ref=f5e11]:
+      - navigation [ref=f5e12]:
+        - list:
+          - listitem [ref=f5e13]:
+            - link "Pers. Angaben" [ref=f5e14]:
+              - /url: javascript:void(0)
+          - listitem [ref=f5e15]:
+            - link "Dokumente" [ref=f5e16]:
+              - /url: javascript:void(0)
+          - listitem [ref=f5e17]:
+            - link "Absenden" [ref=f5e18]:
+              - /url: javascript:void(0)
+      - generic [ref=f5e20]:
+        - text:           
+        - generic [ref=f5e106]:
+          - heading "Bewerbung absenden" [level=3] [ref=f5e107]
+          - generic [ref=f5e108]:
+            - generic [ref=f5e109]: "Diese Stelle wurde mir durch eine Mitarbeiterin oder einen Mitarbeiter empfohlen:"
+            - combobox "Diese Stelle wurde mir durch eine Mitarbeiterin oder einen Mitarbeiter empfohlen:" [ref=f5e110]:
+              - option "Bitte wählen..."
+              - option "Ja"
+              - option "Nein" [selected]
+            - generic [ref=f5e111] [cursor=pointer]: 
+          - text: 
+          - generic [ref=f5e177]:
+            - generic [ref=f5e178]: "Ich wurde auf die Stelle aufmerksam über:"
+            - generic [ref=f5e180]:
+              - combobox "Ich wurde auf die Stelle aufmerksam über:" [ref=f5e181]:
+                - option [selected]
+                - option "StepStone DE"
+                - option "Indeed"
+                - option "Bundesagentur für Arbeit"
+                - option "Zeitung / Printmedien"
+                - option "Unternehmenshomepage"
+                - option "Intranet (StoInside)"
+                - option "Bekanntenkreis / Empfehlung"
+                - option "Indeed"
+                - option "Jobware"
+                - option "Monster.de"
+                - option "Yourfirm"
+                - option "sonstige Stellenportale"
+                - option "Job-Benachrichtigung"
+                - option "LinkedIn"
+                - option "Instagram"
+                - option "Facebook"
+                - option "TikTok"
+                - option "XING.de"
+                - option "Twitter"
+                - option "Messen"
+                - option "Berufsorientierungstag"
+              - combobox "Bitte wählen..." [ref=f5e182] [cursor=pointer]
+            - generic [ref=f5e187] [cursor=pointer]: 
+          - generic [ref=f5e114]:
+            - generic [ref=f5e115]: Datenschutzhinweise
+            - generic [ref=f5e117]:
+              - paragraph [ref=f5e118]:
+                - strong [ref=f5e120]: Welche Informationen werden von uns erfasst?
+              - paragraph [ref=f5e121]: Mit Ihrer Entscheidung, sich auf diese Stelle zu bewerben, übermitteln Sie neben Ihren persönlichen Daten auch Informationen über Ihren schulischen und beruflichen Werdegang.
+              - paragraph [ref=f5e122]: Sie wurden gebeten, Ihren Lebenslauf in einem Bewerbungsformular hochzuladen. Ihr Lebenslauf wird anschließend automatisiert verarbeitet und die Daten in der Bewerberdatenbank gespeichert. Ihre Anlagen werden mit einer Texterkennungssoftware bearbeitet und die erkannten Inhalte zu Ihrem Datensatz gespeichert. Ihre Originaldokumente werden zu PDF-Dokumenten konvertiert und ebenfalls zu Ihrem Datensatz gespeichert. Ihre Originaldateien werden gelöscht.
+              - paragraph [ref=f5e123]: Mit der Übermittlung Ihrer Bewerbungsunterlagen per E-Mail werden diese automatisch ausgelesen und in unserem Bewerbermanagementsystem erfasst. Hierbei werden alle mitgesendeten Dokumente (Anschreiben, Lebenslauf, Zeugnisse und sonstige Nachweise) sowie die darin enthaltenen Informationen gespeichert.
+              - paragraph [ref=f5e124]: Sollten Sie uns Ihre Bewerbungsunterlagen noch persönlich oder auf dem Postweg übermitteln, digitalisieren wir diese zunächst und erfassen sie anschließend ebenfalls in unserem Bewerbermanagementsystem. Die Originalunterlagen senden wir Ihnen umgehend wieder zurück.
+              - paragraph [ref=f5e125]:
+                - strong [ref=f5e126]: Unzulässige Inhalte
+              - paragraph [ref=f5e127]: "Sie sind allein für den Inhalt der eingestellten Texte verantwortlich. Bitte stellen Sie sicher, dass Sie uns keine Dateianhänge mit Viren oder Würmern zusenden. Persönliche Daten, die Sie an uns übermitteln, sollten in der Regel folgendes nicht enthalten:"
+              - paragraph [ref=f5e128]: Informationen über Krankheiten,Informationen über eine eventuelle Schwangerschaft,Informationen über ethnische Herkunft,politische, religiöse oder philosophische Überzeugungen,Gewerkschaftszugehörigkeit und sexuelle Ausrichtung,diffamierende oder entwürdigende Informationen,Informationen, die in keinem konkreten Zusammenhang mit Ihrer Bewerbung stehen.Die Informationen, die Sie uns übermitteln, müssen der Wahrheit entsprechen, dürfen keine Rechte Dritter, öffentlich-rechtliche Vorschriften oder die guten Sitten verletzen ("Unzulässige Inhalte"). Beachten sie bitte auch, dass Sie uns gegen sämtliche Forderungen schadlos halten, die uns aufgrund von Informationen mit Unzulässigen Inhalten entstehen und die uns von Ihnen übermittelt wurden.
+              - paragraph [ref=f5e129]:
+                - strong [ref=f5e130]: Wer verarbeitet Ihre Daten?
+              - paragraph [ref=f5e131]: Die Firma Sto & SE Co. KGaA ist für die Verarbeitung Ihrer Bewerbungsdaten verantwortlich. Das Bewerberportal wird von concludis mbH Frankfurter Str. 561, 51145 Köln betrieben und auf Servern der Firma Hetzner Online GmbH, Industriestr. 25 in 91710 Gunzenhausen gehostet.
+              - paragraph [ref=f5e132]: Ihr Lebenslauf wird automatisiert von dem Parsing-Tool der Firma Textkernel bearbeitet. Das Parsing findet auf einem Server in Deutschland statt. Ihre Daten werden nach dem Parsing-Vorgang bei Textkernel gelöscht.
+              - paragraph [ref=f5e133]:
+                - strong [ref=f5e134]: Zu welchem Zweck werden meine persönlichen Daten verarbeitet und an wen werden diese weitergeleitet?
+              - paragraph [ref=f5e135]: Ihre Bewerbungsdaten werden ausschließlich im Unternehmen Sto SE & Co. KGaA zu Bewerbungszwecken verarbeitet. Die Weitergabe der Daten an Dritte erfolgt nicht.
+              - paragraph [ref=f5e136]:
+                - strong [ref=f5e137]: Bearbeitung und Löschung Ihrer Lebenslauf-Daten
+              - paragraph [ref=f5e138]: Sie haben das Recht, auf Ihre Daten zuzugreifen, Informationen über Ihre Daten zu erhalten und diese zu korrigieren. Wenn Sie Ihre Daten bzw. Ihren Lebenslauf ändern oder löschen möchten, dann loggen Sie sich einfach in dem Bewerberportal mit Ihrem Benutzernamen und Passwort ein und benutzen Sie die entsprechenden Funktionen unter dem Menüpunkt EXTRAS. Ihre Bewerbungsdaten werden anschließend physisch gelöscht und können nicht mehr wiederhergestellt werden.
+              - paragraph [ref=f5e139]: Nehmen Sie keine manuelle Löschung Ihrerseits vor, werden Ihre Bewerbungsdaten 90 Tagen nach Abschluss des Bewerbungsprozesses automatisch in dem System gelöscht.
+              - paragraph [ref=f5e140]: Wir sind jederzeit berechtigt, diesen Dienst einzustellen oder Ihre Daten ganz oder teilweise ohne Angabe von Gründen zu löschen.
+              - paragraph [ref=f5e141]: Weiterhin können Sie jederzeit Ihre Einwilligung in die Verarbeitung der Daten widerrufen, ohne dass Ihnen dadurch nachteilige Folgen entstehen. Richten Sie Ihren Widerruf an c.verolet@sto.com. Im Falle des Widerrufs werden nach Eingang der Widerrufserklärung sämtliche Daten physisch gelöscht und können nicht wiederhergestellt werden.
+              - paragraph [ref=f5e142]:
+                - strong [ref=f5e143]: Datensicherheit
+              - paragraph [ref=f5e144]: Wir treffen Vorkehrungen zum Schutz Ihrer Daten und um Missbrauch von außen zu verhindern. Dabei werden Maßnahmen wie Verschlüsselung (SSL-Verschlüsselung), Firewalls, Hacker-Abwehr-Programme und manuelle Sicherheitsvorkehrungen angewendet. Die SSL-Verschlüsselung ist aktiv, wenn das Schlüsselsymbol am unteren Ende Ihres Browsers geschlossen ist und wenn die Adresse mit "httpS://" beginnt. Bitte beachten Sie, dass auf unseren Seiten die Technologie JavaScript™ zum Einsatz kommt.
+              - paragraph [ref=f5e145]: Störungen des Service, Einstellung oder Änderung des Service oder Löschen von Daten
+              - paragraph [ref=f5e146]: Wir gewährleistet nicht, dass das Angebot zu bestimmten Zeiten zur Verfügung steht. Störungen, Unterbrechungen oder einen etwaigen Ausfall des Online-Angebots schließen wir nicht aus. Die Server werden regelmäßig sorgfältig gesichert. Soweit Daten an und - gleich in welcher Form - übermittelt werden, wird Ihnen jedoch empfohlen, Sicherheitskopien zu fertigen. Wir behalten uns vor, diesen Service jederzeit zu ändern, zu erweitern, zu beschränken oder ganz einzustellen. Eine Haftung von uns für gelöschte Daten oder Datenverluste ist deshalb ausgeschlossen.
+              - paragraph [ref=f5e147]:
+                - strong [ref=f5e148]: Datenschutzbeauftragter
+              - paragraph [ref=f5e149]: Für alle datenschutzrelevanten Anfragen wenden Sie sich bitte an unseren Datenschutzbeauftragten unter datenschutzbeauftragter@sto.com.
+              - paragraph [ref=f5e150]:
+                - strong [ref=f5e151]: Beschwerderecht
+              - paragraph [ref=f5e152]: Sie haben unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat Ihres Aufenthaltsorts, Ihres Arbeitsplatzes oder des Ortes des mutmaßlichen Verstoßes, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen geltendes Gesetz verstößt.
+              - paragraph [ref=f5e153]: Die zuständigen Aufsichtsbehörde können Sie hier finden:https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html
+              - paragraph [ref=f5e154]: Bekanntmachung von Änderungen
+              - paragraph [ref=f5e155]: Sollten wir unsere Vorgehensweise zum Datenschutz ändern, so werden diese Änderungen auf dem Startbildschirm des Bewerberportals angezeigt.
+              - paragraph [ref=f5e156]:
+                - strong [ref=f5e157]: Kosten des Bewerberportals
+              - paragraph [ref=f5e158]: Das Bewerberportal ist für Bewerber kostenlos.
+          - generic [ref=f5e159]:
+            - generic [ref=f5e160] [cursor=pointer]:
+              - checkbox "Ich habe die Datenschutzbestimmungen gelesen und stimme zu." [ref=f5e161]
+              - text: Ich habe die Datenschutzbestimmungen gelesen und stimme zu.
+            - generic [ref=f5e163] [cursor=pointer]: 
+          - generic [ref=f5e165]:
+            - generic [ref=f5e166]: Hiermit bestätige ich, dass ich das 16. Lebensjahr vollendet habe.
+            - combobox "Hiermit bestätige ich, dass ich das 16. Lebensjahr vollendet habe." [ref=f5e167]:
+              - option "Bitte wählen..." [selected]
+              - option "Ja, ich bin 16 Jahre oder älter"
+              - option "Nein, ich bin jünger als 16 Jahre"
+            - generic [ref=f5e168] [cursor=pointer]: 
+          - text: 
+          - generic [ref=f5e171] [cursor=pointer]:
+            - checkbox "Ich bin damit einverstanden, ggf. auch für andere passende Stellenausschreibungen berücksichtigt zu werden und entsprechende Angebote zu erhalten." [ref=f5e172]
+            - text: Ich bin damit einverstanden, ggf. auch für andere passende Stellenausschreibungen berücksichtigt zu werden und entsprechende Angebote zu erhalten.
+          - text: 
+        - generic:
+          - button "Bewerbung absenden " [ref=f5e175] [cursor=pointer]:
+            - text: Bewerbung absenden
+            - generic [ref=f5e176]: 
+          - text: 
+          - button " Zurück" [ref=f5e79] [cursor=pointer]:
+            - generic [ref=f5e80]: 
+            - text: Zurück
+      - link [ref=f5e61] [cursor=pointer]:
+        - /url: https://www.concludis.com?reff=https%3A%2F%2Fcareers.sto.com%2Fcandidate%2Fformapply%3Fapply_id%3D16167_57711de3-c9f8-4002-a949-0d0b6a583594%26prj%3D16167%26lang%3Dde_DE%26ie%3D1
+        - img "powered by concludis.com - Online Bewerbermanagement seit 2007" [ref=f5e62]
+  - generic [ref=f5e63]: "Hinweis: Bei erfolgreicher Übermittlung Ihrer Unterlagen erhalten Sie per E-Mail eine automatische Empfangsbestätigung von uns."

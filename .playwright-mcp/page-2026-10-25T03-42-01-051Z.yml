@@ -1,0 +1,596 @@
+- generic [active] [ref=f122e1]:
+  - region [ref=f122e2]:
+    - generic [ref=f122e3]:
+      - generic [ref=f122e5]:
+        - img "logo" [ref=f122e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f122e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f122e36]:
+        - tab "Consent" [selected] [ref=f122e37] [cursor=pointer]
+        - tab "Details" [ref=f122e38] [cursor=pointer]
+        - tab "About" [ref=f122e39] [cursor=pointer]
+      - tabpanel "Consent" [ref=f122e41]:
+        - generic [ref=f122e43]:
+          - heading "This website uses cookies" [level=2] [ref=f122e44]
+          - generic [ref=f122e45]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+      - generic [ref=f122e49]:
+        - button "Decline" [ref=f122e50] [cursor=pointer]
+        - button "Customize" [ref=f122e51] [cursor=pointer]
+        - button "Allow all cookies" [ref=f122e53] [cursor=pointer]
+  - banner [ref=f122e55]:
+    - generic [ref=f122e58]:
+      - link [ref=f122e60] [cursor=pointer]:
+        - /url: https://severin.com/de-de
+        - img "severin-logo" [ref=f122e61]
+      - list [ref=f122e63]:
+        - listitem [ref=f122e64]:
+          - button [ref=f122e65] [cursor=pointer]
+        - listitem [ref=f122e67]:
+          - button [ref=f122e68] [cursor=pointer]
+        - listitem [ref=f122e70] [cursor=pointer]
+        - listitem [ref=f122e72] [cursor=pointer]
+        - listitem [ref=f122e74]:
+          - button [ref=f122e75] [cursor=pointer]
+  - navigation [ref=f122e79]:
+    - link "Home" [ref=f122e81] [cursor=pointer]:
+      - /url: https://severin.com/de-de
+  - main [ref=f122e82]:
+    - paragraph [ref=f122e89]: Wir bei Severin glauben daran, dass echte Veränderung mit Menschen beginnt, die Lust haben, etwas zu bewegen. Wir suchen keine Lebensläufe, wir suchen Menschen mit Ideen. Menschen, die Dinge vorantreiben. Die ausprobieren, umdenken, mitgestalten wollen - in einem als Great Place to Work® ausgezeichneten Umfeld. Sag Hallo zu neuen Möglichkeiten. Und hallo zu uns.
+    - generic [ref=f122e91]:
+      - generic [ref=f122e93]:
+        - heading "Das sind unsere Werte." [level=3] [ref=f122e94]
+        - paragraph [ref=f122e95]: Bei Severin machen wir Premium für Alle möglich, mit Haltung, Herz und Hands-on-Mentalität. Unsere Werte sind dabei kein Beiwerk, sondern das, was uns antreibt. Du willst wissen, woran wir glauben? Sag Hallo zu unseren Möglichkeiten und einem kleinen Vorgeschmack darauf, was uns wichtig ist.
+      - generic [ref=f122e96]:
+        - generic [ref=f122e99]:
+          - generic [ref=f122e100]:
+            - img "Icons_Webseite_240x240px" [ref=f122e102]
+            - heading "Zuverlässig" [level=6] [ref=f122e103]
+            - paragraph [ref=f122e104]: "Bei uns kannst du dich nicht nur auf die Kaffeemaschine verlassen. Du willst wissen, woran du bist. Im Job, im Team, im Alltag? Bei Severin bekommst du genau das: echte Verlässlichkeit. Wir stehen zu dem, was wir sagen. In Meetings, im Miteinander, im Macher-Modus. Hallo Möglichkeiten heißt für dich: ein Umfeld, das dir Sicherheit gibt, um mutig zu sein."
+          - generic [ref=f122e105]:
+            - img "Icons_Webseite_240x240px2" [ref=f122e107]
+            - heading "Passioniert" [level=6] [ref=f122e108]
+            - paragraph [ref=f122e109]: "Wir lieben, was wir tun und lassen dich das jeden Tag spüren. Wenn du Energie mitbringst, geben wir dir Raum, sie zu entfalten. Bei Severin wirst du nicht ausgebremst, sondern bestärkt. Denn hier zählt, wie sehr du dich einbringst, nicht nur, was im Lebenslauf steht. Hallo Möglichkeiten heißt für dich: Deine Leidenschaft wird hier zur Wirkung."
+          - generic [aria-hidden] [ref=f122e110]:
+            - heading [level=6] [ref=f122e113]: Mutig
+            - paragraph [ref=f122e114]: "Mut ist, wenn du bei uns auch mal 'Warum nicht?' sagen darfst. Hier darfst du ausprobieren, mitdenken, hinterfragen. Weil wir überzeugt sind: Innovation entsteht nicht durch Zustimmung, sondern durch neue Perspektiven. Hallo Möglichkeiten heißt für dich: Wir hören nicht nur zu, wir lassen machen."
+          - generic [aria-hidden] [ref=f122e115]:
+            - heading [level=6] [ref=f122e118]: Verantwortungsvoll
+            - paragraph [ref=f122e119]: "Wir übernehmen Verantwortung. Nicht nur fürs Produkt, sondern auch füreinander. Bei Severin bist du nicht nur Teil eines Unternehmens, sondern Teil eines Teams, das aufeinander achtet. Nachhaltigkeit, Fairness, Haltung. Hallo Möglichkeiten heißt für dich: Du kannst hier nicht nur Karriere machen, sondern auch Sinn stiften."
+        - generic [ref=f122e120]:
+          - button "Previous" [disabled] [ref=f122e121]
+          - button "Next" [ref=f122e122] [cursor=pointer]
+      - iframe [ref=f122e124]:
+        - generic [ref=f124e1]:
+          - generic "YouTube Video Player" [ref=f124e3]
+          - generic [ref=f124e5]:
+            - generic:
+              - generic:
+                - generic [ref=f124e6] [cursor=pointer]
+                - button "Play video" [ref=f124e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f124e12] [cursor=pointer]
+                - generic [ref=f124e14]:
+                  - generic [ref=f124e21]:
+                    - generic [ref=f124e22]:
+                      - link "Hallo Möglichkeiten - Arbeiten bei Severin" [ref=f124e23] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=tKyShD3Ofpc
+                      - link "Severin Elektrogeräte GmbH" [ref=f124e24] [cursor=pointer]:
+                        - /url: /channel/UCno4fSIWuKpRDCRlVlyVR1Q
+                    - generic [ref=f124e26]:
+                      - button [ref=f124e27] [cursor=pointer]
+                      - generic [ref=f124e29]:
+                        - generic: Severin Elektrogeräte GmbH
+                        - generic: 1.28K subscribers
+                  - generic [ref=f124e30]:
+                    - button "Share" [ref=f124e33] [cursor=pointer]
+                    - link "Watch on YouTube" [ref=f124e44] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=tKyShD3Ofpc
+                      - generic [ref=f124e45]: Watch on
+    - generic [ref=f122e126]:
+      - generic [ref=f122e128]:
+        - heading "Deine Benefits" [level=3] [ref=f122e129]
+        - paragraph [ref=f122e130]: Okay, der Kaffee ist kostenlos - aber das ist längst nicht alles.
+      - generic [ref=f122e131]:
+        - generic [ref=f122e134]:
+          - generic [ref=f122e135]:
+            - img "Great Place to Work Siegel" [ref=f122e137]
+            - heading "Arbeiten, wo Kultur ausgezeichnet ist." [level=6] [ref=f122e138]
+            - paragraph [ref=f122e139]: Great Place to Work® zertifiziert – weil Vertrauen, Mitgestalten und Zusammenhalt bei uns Alltag sind.
+          - generic [ref=f122e140]:
+            - img "Icons_Webseite_240x240px5" [ref=f122e142]
+            - heading "Purpose - und du mittendrin" [level=6] [ref=f122e143]
+            - paragraph [ref=f122e144]: Wir glauben daran, dass Qualität kein Luxus sein muss. Bei Severin arbeitest du an der Vision, Premium für Alle möglich zu machen - mit Herz, Anspruch und Sinn.
+          - generic [aria-hidden] [ref=f122e145]:
+            - heading [level=6] [ref=f122e148]: Gesundheit fördern wir aktiv
+            - paragraph [ref=f122e149]: Ob Fitnessstudio oder Sportangebot – mit unseren EGYM Wellpass Firmenfitness-Partnerschaften bleibst du in Bewegung.
+          - generic [aria-hidden] [ref=f122e150]:
+            - heading [level=6] [ref=f122e153]: Du statt Sie - bei uns gelebter Alltag
+            - paragraph [ref=f122e154]: "Bei Severin begegnest du jedem auf Augenhöhe - vom Praktikanten bis zur Geschäftsführung. Wir sind echter deutscher Mittelstand: direkt, nahbar, anpackend. Hier zählt Persönlichkeit statt Titel."
+          - generic [aria-hidden] [ref=f122e155]:
+            - heading [level=6] [ref=f122e158]: Leckere Snacks für zwischendurch
+            - paragraph [ref=f122e159]: Greif zu! Bei uns gibt’s frisches Obst, einen Snackautomaten & Vielhabers Brot@Work direkt im Büro. Für den schnellen Energieschub zwischendurch. Manchmal einfach besser als der vierte Kaffee.
+          - generic [aria-hidden] [ref=f122e160]:
+            - heading [level=6] [ref=f122e163]: Wissensdurst?
+            - paragraph [ref=f122e164]: Du hast Lust dich weiterzuentwickeln? Dann nutze unsere Entwicklungsangebote, wie individuelle Sprachkurse oder bezahlte Weiterbildungskurse.
+          - generic [aria-hidden] [ref=f122e165]:
+            - heading [level=6] [ref=f122e168]: Gut versorgt - jeden Tag
+            - paragraph [ref=f122e169]: Kaffee, Tee oder Wasser? Bei uns bleibst du im Arbeitsalltag kostenfrei gut versorgt.
+          - generic [aria-hidden] [ref=f122e170]:
+            - heading [level=6] [ref=f122e173]: Gönn dir – aber günstiger
+            - paragraph [ref=f122e174]: Als Teil des Teams profitierst du von attraktiven Mitarbeiterrabatten, egal ob Severin oder über Corporate Benefits.
+          - generic [aria-hidden] [ref=f122e175]:
+            - heading [level=6] [ref=f122e178]: Lust auf’s Radeln?
+            - paragraph [ref=f122e179]: Severin macht’s möglich. Mit deinem eigenen Business Bike kommst du nachhaltig und fit zur Arbeit.
+          - generic [aria-hidden] [ref=f122e180]:
+            - heading [level=6] [ref=f122e183]: Arbeitszeit, die zu dir passt
+            - paragraph [ref=f122e184]: Ob früh, spät oder mobil – wir ermöglichen dir flexible Arbeitszeiten und Homeoffice an 2 Tagen die Woche.
+          - generic [aria-hidden] [ref=f122e185]:
+            - heading [level=6] [ref=f122e188]: Hund im Büro
+            - paragraph [ref=f122e189]: Dogsitting? Brauchst du nicht! Bring deinen Hund gerne mit ins Office.
+          - generic [aria-hidden] [ref=f122e190]:
+            - heading [level=6] [ref=f122e193]: Heute durchstarten, morgen abgesichert.
+            - paragraph [ref=f122e194]: Mit unserer betrieblichen Altersvorsorge sicherst du dir heute schon ein Stück von morgen.
+          - generic [aria-hidden] [ref=f122e195]:
+            - heading [level=6] [ref=f122e198]: Energie für dein E-Auto
+            - paragraph [ref=f122e199]: Dein E-Auto tankt bei uns direkt am Arbeitsplatz Strom – bequem, kostenbewusst und umweltfreundlich. Nachhaltige Mobilität? Severin macht’s möglich
+          - generic [aria-hidden] [ref=f122e200]:
+            - heading [level=6] [ref=f122e203]: Frisch gebackener Papa?
+            - paragraph [ref=f122e204]: Bei uns bekommst du 10 Tage Vaterschaftsurlaub, die du flexibel innerhalb der ersten zwei Monate nach der Geburt nehmen kannst
+        - generic [ref=f122e205]:
+          - button "Previous" [disabled] [ref=f122e206]
+          - button "Next" [ref=f122e207] [cursor=pointer]
+    - generic [ref=f122e209]:
+      - heading "Möglichkeitsgeschichten bei Severin" [level=3] [ref=f122e210]
+      - generic [ref=f122e212]:
+        - button "Previous" [ref=f122e213] [cursor=pointer]
+        - generic [ref=f122e215]:
+          - generic [ref=f122e217]:
+            - generic [ref=f122e220]: Auszubildender
+            - generic [ref=f122e221]: Daniel
+            - paragraph [ref=f122e222]: „Was ich bei Severin gelernt habe? Dass man auch als Azubi was bewegen kann.“
+            - link [ref=f122e223] [cursor=pointer]:
+              - /url: https://severin.com/de-de/karriere/daniel/
+              - text: Daniels Story
+          - generic [ref=f122e225]:
+            - generic [ref=f122e228]: Quality & R&D
+            - generic [ref=f122e229]: Friedrich
+            - paragraph [ref=f122e230]: „Bei Severin bekommst du keine Karriere geschenkt. Aber du bekommst die Chance, sie dir zu erarbeiten.“
+            - link [ref=f122e231] [cursor=pointer]:
+              - /url: https://severin.com/de-de/?page_id=18250&preview=true
+              - text: Friedrichs Story
+          - tabpanel [ref=f122e232]:
+            - generic [ref=f122e233]:
+              - img "Vanessa_Hegemann" [ref=f122e235]
+              - generic [ref=f122e236]: Head of People & Culture
+              - generic [ref=f122e237]: Vanessa
+              - paragraph [ref=f122e238]: "\"Eigentlich wollte ich ins Produktmanagement, heute gestalte ich im HR die Zukunft von Severin.\""
+              - link "Vanessas Story" [ref=f122e239] [cursor=pointer]:
+                - /url: https://severin.com/de-de/karriere/vanessa/
+          - tabpanel [ref=f122e240]:
+            - generic [ref=f122e241]:
+              - img "Janine_Eckert (12)" [ref=f122e243]
+              - generic [ref=f122e244]: Logistik
+              - generic [ref=f122e245]: Janine
+              - paragraph [ref=f122e246]: „Vom Lager ins Leadership und das mit Rückhalt, Respekt und echten Möglichkeiten.“
+              - link "Janines Story" [ref=f122e247] [cursor=pointer]:
+                - /url: https://severin.com/de-de/?page_id=18241&preview=true
+          - tabpanel [aria-hidden] [ref=f122e248]:
+            - generic [ref=f122e249]:
+              - generic [ref=f122e252]: Auszubildender
+              - generic [ref=f122e253]: Mojtaba
+              - paragraph [ref=f122e254]: „Ich bin Mojtaba – Azubi bei Severin. Mein Weg hierher war nicht der einfachste. Aber einer, der sich gelohnt hat.“
+              - link [ref=f122e255] [cursor=pointer]:
+                - /url: https://severin.com/de-de/karriere/testimonial/
+                - text: Mojtabas Story
+          - tabpanel [aria-hidden] [ref=f122e256]:
+            - generic [ref=f122e257]:
+              - generic [ref=f122e260]: Marketing
+              - generic [ref=f122e261]: Livgrete
+              - paragraph [ref=f122e262]: „Ich hatte nie das Gefühl, mich verbiegen zu müssen. Bei Severin wurde auf jeden meiner Wünsche Rücksicht genommen.“
+              - link [ref=f122e263] [cursor=pointer]:
+                - /url: https://severin.com/de-de/?page_id=18206&preview=true
+                - text: Livis Story
+          - tabpanel [aria-hidden] [ref=f122e264]:
+            - generic [ref=f122e265]:
+              - generic [ref=f122e268]: Marketing
+              - generic [ref=f122e269]: Ina
+              - paragraph [ref=f122e270]: „Teamlead in Teilzeit? Klar geht das – wenn man bei Severin ist.“
+              - link [ref=f122e271] [cursor=pointer]:
+                - /url: https://severin.com/de-de/karriere/ina/
+                - text: Inas Story
+          - tabpanel [aria-hidden] [ref=f122e272]:
+            - generic [ref=f122e273]:
+              - generic [ref=f122e276]: Betriebstechnik
+              - generic [ref=f122e277]: Jonas
+              - paragraph [ref=f122e278]: „Manchmal muss man gehen, um zu merken, wo man wirklich hinwill.“
+              - link [ref=f122e279] [cursor=pointer]:
+                - /url: https://severin.com/de-de/?page_id=18246&preview=true
+                - text: Jonas Story
+          - tabpanel [aria-hidden] [ref=f122e280]:
+            - generic [ref=f122e281]:
+              - generic [ref=f122e284]: Auszubildender
+              - generic [ref=f122e285]: Daniel
+              - paragraph [ref=f122e286]: „Was ich bei Severin gelernt habe? Dass man auch als Azubi was bewegen kann.“
+              - link [ref=f122e287] [cursor=pointer]:
+                - /url: https://severin.com/de-de/karriere/daniel/
+                - text: Daniels Story
+          - tabpanel [aria-hidden] [ref=f122e288]:
+            - generic [ref=f122e289]:
+              - generic [ref=f122e292]: Quality & R&D
+              - generic [ref=f122e293]: Friedrich
+              - paragraph [ref=f122e294]: „Bei Severin bekommst du keine Karriere geschenkt. Aber du bekommst die Chance, sie dir zu erarbeiten.“
+              - link [ref=f122e295] [cursor=pointer]:
+                - /url: https://severin.com/de-de/?page_id=18250&preview=true
+                - text: Friedrichs Story
+          - generic [ref=f122e297]:
+            - generic [ref=f122e300]: Head of People & Culture
+            - generic [ref=f122e301]: Vanessa
+            - paragraph [ref=f122e302]: "\"Eigentlich wollte ich ins Produktmanagement, heute gestalte ich im HR die Zukunft von Severin.\""
+            - link [ref=f122e303] [cursor=pointer]:
+              - /url: https://severin.com/de-de/karriere/vanessa/
+              - text: Vanessas Story
+          - generic [ref=f122e305]:
+            - generic [ref=f122e308]: Logistik
+            - generic [ref=f122e309]: Janine
+            - paragraph [ref=f122e310]: „Vom Lager ins Leadership und das mit Rückhalt, Respekt und echten Möglichkeiten.“
+            - link [ref=f122e311] [cursor=pointer]:
+              - /url: https://severin.com/de-de/?page_id=18241&preview=true
+              - text: Janines Story
+          - generic [ref=f122e313]:
+            - generic [ref=f122e316]: Auszubildender
+            - generic [ref=f122e317]: Mojtaba
+            - paragraph [ref=f122e318]: „Ich bin Mojtaba – Azubi bei Severin. Mein Weg hierher war nicht der einfachste. Aber einer, der sich gelohnt hat.“
+            - link [ref=f122e319] [cursor=pointer]:
+              - /url: https://severin.com/de-de/karriere/testimonial/
+              - text: Mojtabas Story
+          - generic [ref=f122e321]:
+            - generic [ref=f122e324]: Marketing
+            - generic [ref=f122e325]: Livgrete
+            - paragraph [ref=f122e326]: „Ich hatte nie das Gefühl, mich verbiegen zu müssen. Bei Severin wurde auf jeden meiner Wünsche Rücksicht genommen.“
+            - link [ref=f122e327] [cursor=pointer]:
+              - /url: https://severin.com/de-de/?page_id=18206&preview=true
+              - text: Livis Story
+          - generic [ref=f122e329]:
+            - generic [ref=f122e332]: Marketing
+            - generic [ref=f122e333]: Ina
+            - paragraph [ref=f122e334]: „Teamlead in Teilzeit? Klar geht das – wenn man bei Severin ist.“
+            - link [ref=f122e335] [cursor=pointer]:
+              - /url: https://severin.com/de-de/karriere/ina/
+              - text: Inas Story
+          - generic [ref=f122e337]:
+            - generic [ref=f122e340]: Betriebstechnik
+            - generic [ref=f122e341]: Jonas
+            - paragraph [ref=f122e342]: „Manchmal muss man gehen, um zu merken, wo man wirklich hinwill.“
+            - link [ref=f122e343] [cursor=pointer]:
+              - /url: https://severin.com/de-de/?page_id=18246&preview=true
+              - text: Jonas Story
+          - generic [ref=f122e345]:
+            - generic [ref=f122e348]: Auszubildender
+            - generic [ref=f122e349]: Daniel
+            - paragraph [ref=f122e350]: „Was ich bei Severin gelernt habe? Dass man auch als Azubi was bewegen kann.“
+            - link [ref=f122e351] [cursor=pointer]:
+              - /url: https://severin.com/de-de/karriere/daniel/
+              - text: Daniels Story
+          - generic [ref=f122e353]:
+            - generic [ref=f122e356]: Quality & R&D
+            - generic [ref=f122e357]: Friedrich
+            - paragraph [ref=f122e358]: „Bei Severin bekommst du keine Karriere geschenkt. Aber du bekommst die Chance, sie dir zu erarbeiten.“
+            - link [ref=f122e359] [cursor=pointer]:
+              - /url: https://severin.com/de-de/?page_id=18250&preview=true
+              - text: Friedrichs Story
+        - button "Next" [ref=f122e360] [cursor=pointer]
+        - tablist [ref=f122e361]:
+          - tab "1 of 8" [selected] [ref=f122e362] [cursor=pointer]: "1"
+          - tab "2 of 8" [ref=f122e363] [cursor=pointer]: "2"
+          - tab "3 of 8" [ref=f122e364] [cursor=pointer]: "3"
+          - tab "4 of 8" [ref=f122e365] [cursor=pointer]: "4"
+          - tab "5 of 8" [ref=f122e366] [cursor=pointer]: "5"
+          - tab "6 of 8" [ref=f122e367] [cursor=pointer]: "6"
+          - tab "7 of 8" [ref=f122e368] [cursor=pointer]: "7"
+          - tab "8 of 8" [ref=f122e369] [cursor=pointer]: "8"
+    - generic [ref=f122e371]:
+      - img "DB_Severin_260127_007_INET" [ref=f122e373]
+      - generic [ref=f122e376]:
+        - heading "Lerne unsere Teams kennen." [level=2] [ref=f122e377]
+        - paragraph [ref=f122e378]: Bei Severin arbeiten Menschen mit Leidenschaft, Teamgeist und dem Antrieb, gemeinsam etwas zu bewegen. Ob Marketing, IT oder Vertrieb. Jede Abteilung trägt mit ihrem Know-how und Engagement zum Erfolg unserer Produkte bei.
+        - link "Teams entdecken" [ref=f122e380] [cursor=pointer]:
+          - /url: https://severin.com/severin-teams/
+    - generic [ref=f122e382]:
+      - generic [ref=f122e383]:
+        - heading "Alle offenen Möglichkeiten bei Severin" [level=3] [ref=f122e384]
+        - generic [ref=f122e385]: 7 Stellen
+      - generic [ref=f122e387]:
+        - generic [ref=f122e389]:
+          - generic [ref=f122e390]: Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d)
+          - generic [ref=f122e391]: IT
+          - generic [ref=f122e392]: "Standort: Sundern"
+          - generic [ref=f122e393]: Vollzeit
+          - generic [ref=f122e394]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e397] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/senior-it-manager/
+        - generic [ref=f122e401]:
+          - generic [ref=f122e402]: E-Commerce Growth Manager – MENAT (m/f/d) (Middle East, North Africa, Turkey)
+          - generic [ref=f122e403]: ECommerce
+          - generic [ref=f122e404]: "Standort: Worldwide"
+          - generic [ref=f122e405]: Fulltime
+          - generic [ref=f122e406]: Experienced
+          - link "Weiterlesen" [ref=f122e409] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/ecommerce-growth-manager/
+        - generic [ref=f122e413]:
+          - generic [ref=f122e414]: Elektroniker / Mechatroniker für Anlagenbetreuung & Instandhaltung (m/w/d) unseres vollautomatischen Hochregallagers
+          - generic [ref=f122e415]: Elektroniker für Betriebstechnik (m/w/d)
+          - generic [ref=f122e416]: "Standort: Sundern"
+          - generic [ref=f122e417]: Vollzeit
+          - generic [ref=f122e418]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e421] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/elektroniker-fur-betriebstechnik-m-w-d-in-vollzeit/
+        - generic [ref=f122e425]:
+          - generic [ref=f122e426]: Sales Controller (m/w/d)
+          - generic [ref=f122e427]: Controlling
+          - generic [ref=f122e428]: "Standort: Sundern"
+          - generic [ref=f122e429]: Vollzeit
+          - generic [ref=f122e430]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e433] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/sales-controller-m-w-d/
+        - generic [ref=f122e437]:
+          - generic [ref=f122e438]: Logistikmitarbeiter (m/w/d)
+          - generic [ref=f122e439]: Logistikmitarbeiter
+          - generic [ref=f122e440]: "Standort: Sundern"
+          - generic [ref=f122e441]: Vollzeit
+          - generic [ref=f122e442]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e445] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/logistikmitarbeiter-m-w-d-in-vollzeit/
+        - generic [ref=f122e449]:
+          - generic [ref=f122e450]: BI Data Engineer (m/w/d)
+          - generic [ref=f122e451]: IT
+          - generic [ref=f122e452]: "Standort: Sundern"
+          - generic [ref=f122e453]: Vollzeit
+          - generic [ref=f122e454]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e457] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/bi-data-engineer-m-w-d/
+        - generic [ref=f122e461]:
+          - generic [ref=f122e462]: IT System Administrator (m/w/d)
+          - generic [ref=f122e463]: IT
+          - generic [ref=f122e464]: "Standort: Sundern"
+          - generic [ref=f122e465]: Vollzeit
+          - generic [ref=f122e466]: Berufserfahren
+          - link "Weiterlesen" [ref=f122e469] [cursor=pointer]:
+            - /url: https://severin.com/blogazine/vacancies/it-system-administrator-m-w-d/
+    - generic [ref=f122e472]:
+      - generic [ref=f122e473]:
+        - heading "Der Auswahlprozess" [level=3] [ref=f122e474]
+        - paragraph [ref=f122e475]: "Du hast den ersten Schritt gemacht - wir übernehmen den nächsten. Bei Severin glauben wir daran, dass jede Karriere mit einer Möglichkeit beginnt. Deshalb ist unser Bewerbungsprozess transparent, menschlich und klar strukturiert. Von der Bewerbung bis zum Vertragsangebot: So machen wir‘s dir möglich."
+      - 'button "Schritt 1: Deine Bewerbung" [ref=f122e479] [cursor=pointer]'
+      - 'button "Schritt 2: Eingangsbestätigung" [ref=f122e484] [cursor=pointer]'
+      - 'button "Schritt 3: Erstes Kennenlernen" [ref=f122e489] [cursor=pointer]'
+      - 'button "Schritt 4: Zweites Kennenlernen" [ref=f122e494] [cursor=pointer]'
+      - 'button "Schritt 5: Dein Vertragsangebot" [ref=f122e499] [cursor=pointer]'
+    - generic [ref=f122e503]:
+      - heading "Hallo Möglichkeiten, die noch geschrieben werden." [level=4] [ref=f122e504]
+      - paragraph [ref=f122e505]: "Du hast ein Talent, das bei uns noch fehlt? Eine Idee, wo und wie du Severin weiterbringen könntest? Dann zeig Initiative: Wir freuen uns auf Menschen, die mitdenken, mitgestalten und mit uns „Premium für alle“ möglich machen wollen. Auch ohne Stellenanzeige, aber mit klarer Haltung."
+      - link "Jetzt initiativ bewerben" [ref=f122e507] [cursor=pointer]:
+        - /url: https://severin-elektrogeraete.talentstorm.de/stellenangebote/initiativbewerbung-4759
+    - generic [ref=f122e510]:
+      - heading "Weil gute Fragen der Anfang von Möglichkeiten sind." [level=2] [ref=f122e511]
+      - generic [ref=f122e512]:
+        - generic [ref=f122e513]:
+          - button "Wie lange dauert der Recruiting-Prozess in der Regel?" [expanded] [ref=f122e514] [cursor=pointer]
+          - paragraph [ref=f122e516]: Nicht lange! Wir melden uns in der Regel innerhalb von 72 Stunden nach Bewerbungseingang bei dir zurück. Wenn alles passt, geht es direkt weiter mit einem ersten digitalen Kennenlernen. Überzeugst du uns auch da, laden wir dich zeitnah zu einem persönlichen Gespräch bei uns vor Ort ein. Unser Prozess ist schnell, klar und vor allem auf Augenhöhe!
+        - button "Ich habe mich vor einiger Zeit bei euch beworben und noch nichts von euch gehört. Warum?" [ref=f122e518] [cursor=pointer]
+        - button "Wie wird meine erste Woche bei Severin aussehen?" [ref=f122e520] [cursor=pointer]
+        - button "Gibt es Werkstudentenstellen oder Praktikumsangebote?" [ref=f122e522] [cursor=pointer]
+        - button "Ich habe noch nie remote gearbeitet. Wie funktioniert das bei Severin?" [ref=f122e524] [cursor=pointer]
+        - button "Worauf achtet ihr bei Bewerbungen besonders?" [ref=f122e526] [cursor=pointer]
+        - button "Welche Voraussetzungen sollte ich mitbringen?" [ref=f122e528] [cursor=pointer]
+        - button "Wie kann ich mich auf ein Bewerbungsgespräch vorbereiten?" [ref=f122e530] [cursor=pointer]
+        - button "Kann ich mich nach einer Absage erneut bewerben?" [ref=f122e532] [cursor=pointer]
+    - generic [ref=f122e534]:
+      - img "Vanessa_Hegemann_high" [ref=f122e536]
+      - generic [ref=f122e539]:
+        - heading "Komm wie du bist und entdecke, was bei uns alles machbar ist." [level=2] [ref=f122e540]
+        - paragraph [ref=f122e541]: „Bei Severin findest du nicht nur einen Job, sondern einen Ort, an dem du dich einbringen und deine eigene ‚Möglichkeitsgeschichte‘ schreiben kannst. Wir glauben an Flexibilität und Authentizität, egal ob in Voll- oder Teilzeit. Komm wie du bist und entdecke, was bei uns alles machbar ist. Gemeinsam machen wir es möglich!!“ Vanessa Hegemann - Head of People & Culture
+  - contentinfo [ref=f122e542]:
+    - generic [ref=f122e543]:
+      - link [ref=f122e545] [cursor=pointer]:
+        - /url: https://severin.com/de-de
+        - img "severin logo light" [ref=f122e546]
+      - generic [ref=f122e548]:
+        - generic [ref=f122e549]:
+          - heading "Newsletter" [level=6] [ref=f122e550]
+          - paragraph [ref=f122e551]: Melde Dich jetzt an und erhalte einen 15% Gutschein für Deinen nächsten Einkauf.
+          - generic [ref=f122e553]:
+            - textbox "Deine E-Mail Adresse *" [ref=f122e554]:
+              - /placeholder: email@example.com
+            - button [ref=f122e555] [cursor=pointer]
+            - generic [ref=f122e557] [cursor=pointer]: Deine E-Mail Adresse *
+        - navigation [ref=f122e558]:
+          - generic [ref=f122e559]:
+            - button "Kategorien":
+              - heading "Kategorien" [level=6]
+            - list [ref=f122e561]:
+              - listitem [ref=f122e562]:
+                - link "Wohlbefinden & Komfort" [ref=f122e563] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/wohlbefinden-komfort/
+              - listitem [ref=f122e564]:
+                - link "Reinigung & Ordnung" [ref=f122e565] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/reinigung-und-ordnung/
+              - listitem [ref=f122e566]:
+                - link "Ernährung & Zubereitung" [ref=f122e567] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ernaehrung-und-zubereitung/
+              - listitem [ref=f122e568]:
+                - link "Grillen & Geselligkeit" [ref=f122e569] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/grillen-geselligkeit/
+              - listitem [ref=f122e570]:
+                - link "Angebote" [ref=f122e571] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/angebote/sale/
+          - generic [ref=f122e572]:
+            - button "Hilfe & Kontakt":
+              - heading "Hilfe & Kontakt" [level=6]
+            - list [ref=f122e574]:
+              - listitem [ref=f122e575]:
+                - link "AGB Onlineshop" [ref=f122e576] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/agb/
+              - listitem [ref=f122e577]:
+                - link "AGB Handelskunden" [ref=f122e578] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/agb-handelskunden/
+              - listitem [ref=f122e579]:
+                - link "Versandinformationen" [ref=f122e580] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/versandinformationen/
+              - listitem [ref=f122e581]:
+                - link "Zahlungsmöglichkeiten" [ref=f122e582] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/zahlungsmethoden/
+              - listitem [ref=f122e583]:
+                - link "Widerrufsbelehrung" [ref=f122e584] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/widerrufsbelehrung/
+              - listitem [ref=f122e585]:
+                - link "Kontakt" [ref=f122e586] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/contacts/
+              - listitem [ref=f122e587]:
+                - link "Downloads" [ref=f122e588] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/downloads/
+              - listitem [ref=f122e589]:
+                - link "Rücknahme und Entsorgung von Altgeräten" [ref=f122e590] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ruecknahme-und-entsorgung-von-altgeraeten/
+              - listitem [ref=f122e591]:
+                - link "Vertrag widerrufen" [ref=f122e592] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/vertrag-widerrufen/
+          - generic [ref=f122e593]:
+            - button "Unternehmen":
+              - heading "Unternehmen" [level=6]
+            - list [ref=f122e595]:
+              - listitem [ref=f122e596]:
+                - link "Unser Unternehmen" [ref=f122e597] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/about-us/
+              - listitem [ref=f122e598]:
+                - link "Pressemitteilung" [ref=f122e599] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/pressemitteilungen/
+              - listitem [ref=f122e600]:
+                - link "Karriere" [ref=f122e601] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/karriere/
+              - listitem [ref=f122e602]:
+                - link "Blogazine" [ref=f122e603] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/blogazine/
+              - listitem [ref=f122e604]:
+                - link "Ersatzteilshop" [ref=f122e605] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ersatzteile/
+              - listitem [ref=f122e606]:
+                - link "Ökodesign-Verordnung" [ref=f122e607] [cursor=pointer]:
+                  - /url: https://severin.com/wp-content/uploads/2026/06/ErP-Overview_DE.pdf
+              - listitem [ref=f122e608]:
+                - link "Barrierefreiheitserklärung" [ref=f122e609] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/barrierefreiheit/
+    - generic [ref=f122e612]:
+      - img "german-quality-image" [ref=f122e614]
+      - generic [ref=f122e616]:
+        - heading "Bezahlarten" [level=6] [ref=f122e617]
+        - list [ref=f122e618]:
+          - listitem [ref=f122e619]:
+            - img "payment-klarna" [ref=f122e620]
+          - listitem [ref=f122e621]:
+            - img "payment-mastercard" [ref=f122e622]
+          - listitem [ref=f122e623]:
+            - img "payment-apple-pay" [ref=f122e624]
+          - listitem [ref=f122e625]:
+            - img "payment-visa" [ref=f122e626]
+          - listitem [ref=f122e627]:
+            - img "paument-google-pay" [ref=f122e628]
+          - listitem [ref=f122e629]:
+            - img "payment-paypal" [ref=f122e630]
+      - link [ref=f122e631] [cursor=pointer]:
+        - /url: https://severin.com/about-us
+        - img "Greate place to work" [ref=f122e632]
+    - generic [ref=f122e634]:
+      - list [ref=f122e635]:
+        - listitem [ref=f122e636]:
+          - link [ref=f122e637] [cursor=pointer]:
+            - /url: https://www.facebook.com/my.severin
+        - listitem [ref=f122e638]:
+          - link [ref=f122e639] [cursor=pointer]:
+            - /url: https://www.instagram.com/severin_de/
+        - listitem [ref=f122e640]:
+          - link [ref=f122e641] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@severin_de
+        - listitem [ref=f122e642]:
+          - link [ref=f122e643] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/SeverinDE
+        - listitem [ref=f122e644]:
+          - link [ref=f122e645] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/severin-elektroger-te-gmbh
+      - navigation [ref=f122e646]:
+        - generic [ref=f122e647] [cursor=pointer]: DE
+        - list [ref=f122e652]:
+          - listitem [ref=f122e653]:
+            - link "Impressum" [ref=f122e654] [cursor=pointer]:
+              - /url: https://severin.com/de-de/impressum/
+          - listitem [ref=f122e655]:
+            - link "Datenschutzerklärung" [ref=f122e656] [cursor=pointer]:
+              - /url: https://severin.com/de-de/datenschutzerklarung/
+          - listitem [ref=f122e657]:
+            - link "AGB" [ref=f122e658] [cursor=pointer]:
+              - /url: https://severin.com/de-de/agb/
+          - listitem [ref=f122e659]:
+            - link "Cookie-Einstellungen" [ref=f122e660] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f122e661]:
+            - generic [ref=f122e662]: ©Severin
+  - button "Toggle Accessibility Toolbar" [ref=f122e663] [cursor=pointer]
+  - navigation "Accessibility Options" [ref=f122e664]:
+    - generic [ref=f122e666]:
+      - generic [ref=f122e667]:
+        - combobox "Select language" [ref=f122e668] [cursor=pointer]:
+          - img "Vereinigte Staaten" [ref=f122e670]
+          - paragraph [ref=f122e671]:
+            - generic [ref=f122e672]: English
+        - button "Close toolbar" [ref=f122e673] [cursor=pointer]
+        - generic [ref=f122e677]:
+          - generic [ref=f122e681]: Accessibility Adjustments
+          - generic [ref=f122e683]:
+            - paragraph [ref=f122e685]:
+              - generic [ref=f122e686]: Powered by
+              - link "OneTap" [ref=f122e687] [cursor=pointer]:
+                - /url: https://wponetap.com/?utm_source=frontend-link&utm_medium=link&utm_campaign=ref-link-toolbar
+            - button "Setting toolbar" [ref=f122e691] [cursor=pointer]: Hide Toolbar
+      - generic [ref=f122e693]:
+        - generic [ref=f122e694]: Content Modules
+        - generic [ref=f122e696]:
+          - generic [ref=f122e699]:
+            - generic [ref=f122e700]: Font Size
+            - generic [ref=f122e701]:
+              - button "Schriftgröße erhöhen" [ref=f122e702] [cursor=pointer]
+              - paragraph [ref=f122e705]: Default
+              - button "Schriftgröße verringern" [ref=f122e706] [cursor=pointer]
+          - button "Readable Font" [ref=f122e708] [cursor=pointer]
+          - generic [ref=f122e717]:
+            - generic [ref=f122e718]: Line Height
+            - generic [ref=f122e719]:
+              - button "Zeilenhöhe erhöhen" [ref=f122e720] [cursor=pointer]
+              - paragraph [ref=f122e723]: Default
+              - button "Zeilenhöhe verringern" [ref=f122e724] [cursor=pointer]
+          - button "Big Cursor" [ref=f122e726] [cursor=pointer]
+          - button "Letter Spacing" [ref=f122e733] [cursor=pointer]
+          - button "Align Text" [ref=f122e740] [cursor=pointer]
+          - button "Font Weight" [ref=f122e748] [cursor=pointer]
+      - generic [ref=f122e756]:
+        - generic [ref=f122e757]: Color Modules
+        - generic [ref=f122e759]:
+          - button "Light Contrast" [ref=f122e760] [cursor=pointer]
+          - button "High Contrast" [ref=f122e767] [cursor=pointer]
+          - button "Monochrome" [ref=f122e774] [cursor=pointer]
+      - generic [ref=f122e782]:
+        - generic [ref=f122e783]: Orientation Modules
+        - generic [ref=f122e785]:
+          - button "Reading Line" [ref=f122e786] [cursor=pointer]
+          - button "Reading Mask" [ref=f122e793] [cursor=pointer]
+          - button "Hide Images" [ref=f122e800] [cursor=pointer]
+          - button "Highlight Content" [ref=f122e807] [cursor=pointer]
+          - button "Stop Animations" [ref=f122e814] [cursor=pointer]
+          - button "Highlight Links" [ref=f122e821] [cursor=pointer]
+      - generic [ref=f122e830]:
+        - generic [ref=f122e831]: Skip To Content
+        - combobox "Skip To Content" [ref=f122e832] [cursor=pointer]:
+          - option "Choose..." [selected]
+          - option "Main Content"
+          - option "Navigation"
+          - option "Footer"
+      - button "Reset all settings" [ref=f122e834] [cursor=pointer]: Reset Settings
+  - iframe [aria-hidden] [ref=f122e835]
+  - status [ref=f122e836]

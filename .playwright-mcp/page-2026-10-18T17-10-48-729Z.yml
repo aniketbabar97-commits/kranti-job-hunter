@@ -1,0 +1,436 @@
+- generic [ref=f29e1]:
+  - generic:
+    - alert
+    - alert
+  - generic [ref=f29e3]:
+    - generic [ref=f29e4]:
+      - banner [ref=f29e5]:
+        - generic:
+          - link "Zum Hauptinhalt":
+            - /url: "#skipContent"
+        - navigation "Header Menü" [ref=f29e9]:
+          - link [ref=f29e10] [cursor=pointer]:
+            - /url: https://www.rehau.com/de-de
+          - list [ref=f29e12]:
+            - listitem [ref=f29e13]:
+              - link "Startseite" [ref=f29e14] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/
+            - listitem [ref=f29e15]:
+              - link "Stellenmarkt" [ref=f29e16] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/search/?searchby=location&q=&locationsearch=&geolocation=
+            - listitem [ref=f29e17]:
+              - link "Karriereseite" [ref=f29e18] [cursor=pointer]:
+                - /url: https://www.rehau.com/de-de/karriere
+            - listitem [ref=f29e19]:
+              - link "FAQ" [ref=f29e20] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+      - main [ref=f29e23]:
+        - generic [ref=f29e24]:
+          - region "Zum Hauptinhalt"
+          - region "Stellenbewerbungsformular" [ref=f29e27]:
+            - list [ref=f29e28]:
+              - listitem [ref=f29e29]:
+                - link "Abmelden" [ref=f29e30] [cursor=pointer]:
+                  - /url: javascript:logoutUrl('/portalcareer?company=rehauagco&site=&lang=de_DE&login_ns=logout&loginFlowRequired=true&_s.crb=B3BUbw9Qu1NyTnpfNMS5U5rPzKbhi0%252bNBbkMfFwx72Q%253d&showLogOutMsg=true&brandUrl=default','https://www.rehau.jobs/services/security/logoutp?callback=callback&locale=de_DE');
+              - listitem [ref=f29e31]:
+                - button "Optionen" [ref=f29e33] [cursor=pointer]:
+                  - text: Optionen
+                  - button ""
+              - listitem [ref=f29e34]:
+                - combobox "Sprache" [ref=f29e35] [cursor=pointer]:
+                  - text: Deutsch ‎(German)‎
+                  - button ""
+            - heading "Application Consultant SAP Commerce (m/w/d) (20265)" [level=1] [ref=f29e37]
+            - note [ref=f29e39]:
+              - paragraph [ref=f29e40]: Wir freuen uns sehr über dein Interesse an einer Karriere bei der REHAU Group.
+              - paragraph [ref=f29e41]
+              - paragraph [ref=f29e42]: In deinem Profil hast du die Möglichkeit wichtige Details zu deiner Person anzugeben. Bitte fülle die Pflichtfelder aus und lade deinen Lebenslauf hoch. Das Ausfüllen aller weiteren Felder ist optional, könnte aber die Wahrscheinlichkeit erhöhen, dass du für eine offene Stelle berücksichtigt wirst.
+              - paragraph [ref=f29e43]
+              - paragraph [ref=f29e44]: Unter dem Menü-Punkt „Stellenbewerbungen“ kannst du deine Bewerbung jederzeit zurückzuziehen. Falls du dein Profil löschen möchtest, findest du dies unter dem Punkt „Optionen“ und „Einstellungen“.
+              - paragraph [ref=f29e45]
+              - paragraph [ref=f29e46]: Dein Recruiting Team der REHAU Group
+            - generic [ref=f29e47]:
+              - button "Alle Abschnitte einblenden" [active] [ref=f29e48] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f29e49]: +
+                - text: Alle Abschnitte einblenden
+              - button "Alle Abschnitte ausblenden" [ref=f29e50] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f29e51]: −
+                - text: Alle Abschnitte ausblenden
+            - alert
+            - generic [ref=f29e53]:
+              - heading "Meine Dokumente" [level=2]:
+                - button "Meine Dokumente" [expanded] [ref=f29e54] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e55]: 
+                  - text: Meine Dokumente  
+              - group "Meine Dokumente" [ref=f29e57]:
+                - generic [ref=f29e58]: "Zulässige Dateiformate: DOCX, PDF, Bild und Text (Dateiformate MSG, PPT und XLS sind für Lebensläufe oder Anschreiben nicht zulässig)"
+                - generic [ref=f29e61]:
+                  - generic [ref=f29e62]:
+                    - generic [ref=f29e64]:
+                      - generic [ref=f29e65]:
+                        - generic [aria-hidden] [ref=f29e66]: "*"
+                        - text: Lebenslauf
+                      - generic [ref=f29e70] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Lebenslauf hochladen Erforderlich" [ref=f29e71]
+                        - generic [ref=f29e72]: Lebenslauf hochladen
+                        - generic [ref=f29e73]:
+                          - button "Lebenslauf Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f29e74]: 
+                          - tooltip "Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f29e75]
+                    - generic [ref=f29e78]:
+                      - text: Motivationsschreiben
+                      - generic [ref=f29e82] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Anschreiben anhängen" [ref=f29e83]
+                        - generic [ref=f29e84]: Anschreiben anhängen
+                        - generic [ref=f29e85]:
+                          - button "Motivationsschreiben Anschreiben anhängen Öffnet ein Dialogfeld" [ref=f29e86]: 
+                          - tooltip "Anschreiben anhängen Öffnet ein Dialogfeld" [ref=f29e87]
+                  - generic [ref=f29e90]:
+                    - text: Weitere Anlagen
+                    - generic [ref=f29e94] [cursor=pointer]:
+                      - text: 
+                      - tooltip "Dokument hinzufügen" [ref=f29e95]
+                      - generic [ref=f29e96]: Dokument hinzufügen
+                      - generic [ref=f29e97]:
+                        - button "Weitere Anlagen Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f29e98]: 
+                        - tooltip "Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f29e99]
+            - generic [ref=f29e102]:
+              - heading "Profilinformationen" [level=2]:
+                - button "Profilinformationen" [expanded] [ref=f29e103] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e104]: 
+                  - text: Profilinformationen  
+              - group "Profilinformationen" [ref=f29e189]:
+                - generic [ref=f29e190]: Bitte vervollständigen Sie Ihre persönlichen Informationen.
+                - generic [ref=f29e193]:
+                  - generic [ref=f29e195]:
+                    - generic [ref=f29e196]:
+                      - generic [aria-hidden] [ref=f29e197]: "*"
+                      - text: Vorname
+                    - textbox "Vorname" [ref=f29e199]: Kranti
+                  - generic [ref=f29e201]:
+                    - generic [ref=f29e202]:
+                      - generic [aria-hidden] [ref=f29e203]: "*"
+                      - text: Nachname
+                    - textbox "Nachname" [ref=f29e205]: Chavan
+                  - generic [ref=f29e207]:
+                    - generic [ref=f29e208]:
+                      - generic [aria-hidden] [ref=f29e209]: "*"
+                      - text: E-Mail Adresse
+                    - textbox "E-Mail Adresse" [ref=f29e211]: krantichavan198@gmail.com
+                  - generic [ref=f29e214]:
+                    - generic [ref=f29e215]:
+                      - generic [aria-hidden] [ref=f29e216]: "*"
+                      - text: Telefonnummer
+                    - textbox "Telefonnummer" [ref=f29e218]
+                  - generic [ref=f29e220]:
+                    - text: Anrede
+                    - generic [ref=f29e221]:
+                      - generic [ref=f29e222]:
+                        - status
+                      - combobox "Anrede" [ref=f29e223]
+                      - button "Anrede" [ref=f29e224] [cursor=pointer]:
+                        - generic [ref=f29e225]: 
+                  - generic [ref=f29e227]:
+                    - text: Titel
+                    - generic [ref=f29e228]:
+                      - generic [ref=f29e229]:
+                        - status
+                      - combobox "Titel" [ref=f29e230]
+                      - button "Titel" [ref=f29e231] [cursor=pointer]:
+                        - generic [ref=f29e232]: 
+                  - generic [ref=f29e235]:
+                    - text: Geburtsdatum
+                    - generic "Geburtsdatum" [ref=f29e238]:
+                      - generic [ref=f29e242]:
+                        - textbox "Geburtsdatum" [ref=f29e243]:
+                          - /placeholder: TT.MM.JJJJ
+                        - generic [ref=f29e245] [cursor=pointer]
+                  - generic [ref=f29e249]:
+                    - text: Alternative Telefonnummer
+                    - textbox "Alternative Telefonnummer" [ref=f29e251]
+                  - generic [ref=f29e253]:
+                    - text: Alternative E-Mail Adresse
+                    - textbox "Alternative E-Mail Adresse" [ref=f29e255]
+                  - generic [ref=f29e258]:
+                    - text: Adresse
+                    - textbox "Adresse" [ref=f29e260]
+                  - generic [ref=f29e262]:
+                    - text: Stadt
+                    - textbox "Stadt" [ref=f29e264]
+                  - generic [ref=f29e266]:
+                    - text: Postleitzahl
+                    - textbox "Postleitzahl" [ref=f29e268]
+                  - generic [ref=f29e271]:
+                    - generic [ref=f29e272]:
+                      - generic [aria-hidden] [ref=f29e273]: "*"
+                      - text: Land
+                    - generic [ref=f29e274]:
+                      - generic [ref=f29e275]:
+                        - status
+                      - combobox "Land" [ref=f29e276]: Deutschland
+                      - button "Land" [ref=f29e277] [cursor=pointer]:
+                        - generic [ref=f29e278]: 
+                  - generic [ref=f29e280]:
+                    - text: Kündigungsfrist
+                    - textbox "Kündigungsfrist" [ref=f29e282]
+                  - generic [ref=f29e284]:
+                    - text: Kommentare
+                    - generic [ref=f29e285]:
+                      - generic [aria-hidden] [ref=f29e286]: Kommentare
+                      - textbox "Kommentare" [ref=f29e288]
+                      - tooltip "Die Antwort sollte höchstens 1024 Zeichen enthalten." [ref=f29e289]
+            - generic [ref=f29e106]:
+              - heading "Vorherige Berufserfahrung" [level=2]:
+                - button "Vorherige Berufserfahrung" [expanded] [ref=f29e107] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e108]: 
+                  - text: Vorherige Berufserfahrung  
+              - group "Vorherige Berufserfahrung" [ref=f29e292]:
+                - generic [ref=f29e293]:
+                  - generic [ref=f29e294]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e295]: Abschnitt Vorherige Berufserfahrung mit 0 Zeilen
+                - button " Hinzufügen Vorherige Berufserfahrung" [ref=f29e297] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Vorherige Berufserfahrung" [ref=f29e298]
+            - generic [ref=f29e110]:
+              - heading "Bildungsabschlüsse" [level=2]:
+                - button "Bildungsabschlüsse" [expanded] [ref=f29e111] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e112]: 
+                  - text: Bildungsabschlüsse  
+              - group "Bildungsabschlüsse" [ref=f29e300]:
+                - generic [ref=f29e301]:
+                  - generic [ref=f29e302]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e303]: Abschnitt Bildungsabschlüsse mit 0 Zeilen
+                - button " Hinzufügen Bildungsabschlüsse" [ref=f29e305] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Bildungsabschlüsse" [ref=f29e306]
+            - generic [ref=f29e114]:
+              - heading "Sonstige Abschlüsse" [level=2]:
+                - button "Sonstige Abschlüsse" [expanded] [ref=f29e115] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e116]: 
+                  - text: Sonstige Abschlüsse  
+              - group "Sonstige Abschlüsse" [ref=f29e308]:
+                - generic [ref=f29e309]:
+                  - generic [ref=f29e310]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e311]: Abschnitt Sonstige Abschlüsse mit 0 Zeilen
+                - button " Hinzufügen Sonstige Abschlüsse" [ref=f29e313] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Sonstige Abschlüsse" [ref=f29e314]
+            - generic [ref=f29e118]:
+              - heading "Zertifikate" [level=2]:
+                - button "Zertifikate" [expanded] [ref=f29e119] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e120]: 
+                  - text: Zertifikate  
+              - group "Zertifikate" [ref=f29e316]:
+                - generic [ref=f29e317]:
+                  - generic [ref=f29e318]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e319]: Abschnitt Zertifikate mit 0 Zeilen
+                - button " Hinzufügen Zertifikate" [ref=f29e321] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Zertifikate" [ref=f29e322]
+            - generic [ref=f29e122]:
+              - heading "IT-Kenntnisse" [level=2]:
+                - button "IT-Kenntnisse" [expanded] [ref=f29e123] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e124]: 
+                  - text: IT-Kenntnisse  
+              - group "IT-Kenntnisse" [ref=f29e324]:
+                - generic [ref=f29e325]:
+                  - generic [ref=f29e326]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e327]: Abschnitt IT-Kenntnisse mit 0 Zeilen
+                - button " Hinzufügen IT-Kenntnisse" [ref=f29e329] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "IT-Kenntnisse" [ref=f29e330]
+            - generic [ref=f29e126]:
+              - heading "Sprachkenntnisse" [level=2]:
+                - button "Sprachkenntnisse" [expanded] [ref=f29e127] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e128]: 
+                  - text: Sprachkenntnisse  
+              - group "Sprachkenntnisse" [ref=f29e332]:
+                - generic [ref=f29e333]:
+                  - generic [ref=f29e334]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e335]: Abschnitt Sprachkenntnisse mit 0 Zeilen
+                - button " Hinzufügen Sprachkenntnisse" [ref=f29e337] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Sprachkenntnisse" [ref=f29e338]
+            - generic [ref=f29e130]:
+              - heading "Mobilität" [level=2]:
+                - button "Mobilität" [expanded] [ref=f29e131] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e132]: 
+                  - text: Mobilität  
+              - group "Mobilität" [ref=f29e340]:
+                - generic [ref=f29e341]:
+                  - generic [ref=f29e342]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f29e343]: Abschnitt Mobilität mit 0 Zeilen
+                - button " Hinzufügen Mobilität" [ref=f29e345] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Mobilität" [ref=f29e346]
+            - generic [ref=f29e134]:
+              - heading "Stellenspezifische Informationen" [level=2]:
+                - button "Stellenspezifische Informationen" [expanded] [ref=f29e135] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e136]: 
+                  - text: Stellenspezifische Informationen  
+              - group "Stellenspezifische Informationen" [ref=f29e348]:
+                - generic [ref=f29e351]:
+                  - note [ref=f29e353]:
+                    - generic [ref=f29e354]: Gehaltsinformationen
+                  - generic [ref=f29e359]:
+                    - text: Gehaltswunsch (Jahresgehalt)
+                    - textbox "Gehaltswunsch (Jahresgehalt)" [ref=f29e361]
+                  - generic [ref=f29e365]:
+                    - text: Währung
+                    - generic:
+                      - combobox "Währung" [ref=f29e366]:
+                        - option "Keine Auswahl" [selected]
+                        - option "EUR"
+                        - option "GBP"
+                        - option "USD"
+                        - option "RUB"
+                        - option "ZAR"
+                        - option "AUD"
+                        - option "BRL"
+                        - option "CAD"
+                        - option "CNY"
+                        - option "CZK"
+                        - option "HUF"
+                        - option "CHF"
+                      - text: 
+                  - generic [ref=f29e370]:
+                    - text: Zahlungshäufigkeit
+                    - generic [ref=f29e371]:
+                      - generic [ref=f29e372]:
+                        - status
+                      - combobox "Zahlungshäufigkeit" [ref=f29e373]
+                      - button "Zahlungshäufigkeit" [ref=f29e374] [cursor=pointer]:
+                        - generic [ref=f29e375]: 
+                  - note [ref=f29e378]:
+                    - generic [ref=f29e379]: Arbeitserlaubnis
+                  - generic [ref=f29e385]:
+                    - text: Bist du im Besitz einer gültigen Arbeitserlaubnis für den Einsatzort?
+                    - generic [ref=f29e386]:
+                      - generic [ref=f29e387]:
+                        - status
+                      - combobox "Bist du im Besitz einer gültigen Arbeitserlaubnis für den Einsatzort?" [ref=f29e388]
+                      - button "Bist du im Besitz einer gültigen Arbeitserlaubnis für den Einsatzort?" [ref=f29e389] [cursor=pointer]:
+                        - generic [ref=f29e390]: 
+                  - generic [ref=f29e394]:
+                    - text: Bitte erläutern
+                    - generic [ref=f29e395]:
+                      - generic [aria-hidden] [ref=f29e396]: Bitte erläutern
+                      - textbox "Bitte erläutern" [ref=f29e398]
+                      - tooltip "Die Antwort sollte höchstens 4000 Zeichen enthalten." [ref=f29e399]
+                  - note [ref=f29e401]:
+                    - generic [ref=f29e402]: Empfehlung
+                  - generic [ref=f29e410]:
+                    - text: Wie bist Du auf diese Stelle aufmerksam geworden?
+                    - generic [ref=f29e411]:
+                      - generic [ref=f29e412]:
+                        - status
+                      - combobox "Wie bist Du auf diese Stelle aufmerksam geworden?" [ref=f29e413]
+                      - button "Wie bist Du auf diese Stelle aufmerksam geworden?" [ref=f29e414] [cursor=pointer]:
+                        - generic [ref=f29e415]: 
+                  - generic [ref=f29e420]:
+                    - text: Bei Sonstiges oder Mitarbeiterempfehlung bitte präzisieren
+                    - generic [ref=f29e421]:
+                      - generic [aria-hidden] [ref=f29e422]: Bei Sonstiges oder Mitarbeiterempfehlung bitte präzisieren
+                      - textbox "Bei Sonstiges oder Mitarbeiterempfehlung bitte präzisieren" [ref=f29e424]
+                      - tooltip "Die Antwort sollte höchstens 4000 Zeichen enthalten." [ref=f29e425]
+                  - note [ref=f29e427]:
+                    - generic [ref=f29e428]: ReferenzenIn diesem Feld kannst Du eine Person angeben, die uns genauere Informationen zu Deinen Fähigkeiten, Arbeitserfahrung und anderen Qualifikationen geben kann. Wenn Du dieses Feld ausfüllst, erklärst Du Dich einverstanden, dass wir diese Personen während des Bewerbungsprozesses kontaktieren können. Wir kontaktieren Referenzgeber für gewöhnlich nur nach erfolgreichem Bewerbungsgespräch.
+                  - note [ref=f29e433]:
+                    - generic [ref=f29e434]: Referenzperson 1 (aktueller oder vorheriger Arbeitgeber)
+                  - generic [ref=f29e440]:
+                    - text: Name
+                    - textbox "Name" [ref=f29e442]
+                  - generic [ref=f29e446]:
+                    - text: Tätigkeit
+                    - textbox "Tätigkeit" [ref=f29e448]
+                  - generic [ref=f29e452]:
+                    - text: Unternehmen
+                    - textbox "Unternehmen" [ref=f29e454]
+                  - generic [ref=f29e459]:
+                    - text: Verbindung zu Dir
+                    - generic [ref=f29e460]:
+                      - generic [ref=f29e461]:
+                        - status
+                      - combobox "Verbindung zu Dir" [ref=f29e462]
+                      - button "Verbindung zu Dir" [ref=f29e463] [cursor=pointer]:
+                        - generic [ref=f29e464]: 
+                  - generic [ref=f29e468]:
+                    - text: Telefonnummer
+                    - textbox "Telefonnummer" [ref=f29e470]
+                  - generic [ref=f29e474]:
+                    - text: E-Mail Adresse
+                    - textbox "E-Mail Adresse" [ref=f29e476]
+                  - note [ref=f29e479]:
+                    - generic [ref=f29e480]: Referenzperson 2
+                  - generic [ref=f29e486]:
+                    - text: Name
+                    - textbox "Name" [ref=f29e488]
+                  - generic [ref=f29e492]:
+                    - text: Tätigkeit
+                    - textbox "Tätigkeit" [ref=f29e494]
+                  - generic [ref=f29e498]:
+                    - text: Unternehmen
+                    - textbox "Unternehmen" [ref=f29e500]
+                  - generic [ref=f29e505]:
+                    - text: Verbindung zu Dir
+                    - generic [ref=f29e506]:
+                      - generic [ref=f29e507]:
+                        - status
+                      - combobox "Verbindung zu Dir" [ref=f29e508]
+                      - button "Verbindung zu Dir" [ref=f29e509] [cursor=pointer]:
+                        - generic [ref=f29e510]: 
+                  - generic [ref=f29e514]:
+                    - text: Telefonnummer
+                    - textbox "Telefonnummer" [ref=f29e516]
+                  - generic [ref=f29e520]:
+                    - text: E-Mail Adresse
+                    - textbox "E-Mail Adresse" [ref=f29e522]
+            - note
+            - generic:
+              - generic:
+                - generic:
+                  - button "Profil anzeigen" [ref=f29e138] [cursor=pointer]
+                  - generic [ref=f29e139]:
+                    - button "Speichern" [ref=f29e140] [cursor=pointer]
+                    - button "Bewerben" [ref=f29e141] [cursor=pointer]
+    - contentinfo [ref=f29e142]:
+      - generic [ref=f29e145]:
+        - list [ref=f29e146]:
+          - listitem [ref=f29e147]:
+            - button "Manager für Cookie-Einwilligungen" [ref=f29e148] [cursor=pointer]
+          - listitem [ref=f29e149]:
+            - link "FAQ" [ref=f29e150] [cursor=pointer]:
+              - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+          - listitem [ref=f29e151]:
+            - link "Impressum" [ref=f29e152] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+          - listitem [ref=f29e153]:
+            - link "Datenschutz" [ref=f29e154] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+        - list [ref=f29e156]:
+          - listitem [ref=f29e157]:
+            - link "Folgen Sie uns auf X" [ref=f29e158] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+              - generic [ref=f29e159]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e162]:
+            - link "Finden Sie uns auf Xing" [ref=f29e163] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/rehau-group
+              - generic [ref=f29e164]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e167]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=f29e168] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+              - generic [ref=f29e169]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e172]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=f29e173] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/rehautv
+              - generic [ref=f29e174]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e177]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f29e178] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rehau/
+              - generic [ref=f29e179]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e182]:
+            - link "Folgen Sie uns auf Instagram" [ref=f29e183] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland/
+              - generic [ref=f29e184]: Wird auf einer neuen Registerkarte geöffnet.
+    - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein

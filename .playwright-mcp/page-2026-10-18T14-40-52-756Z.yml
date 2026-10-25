@@ -1,0 +1,318 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e2]:
+    - img "Ratbacher" [ref=f7e4]
+    - generic [ref=f7e6]:
+      - heading "SAP CX Berater (m/w/d) - SAP CX Consultant" [level=1] [ref=f7e7]
+      - generic [ref=f7e8]:
+        - generic [ref=f7e9]:
+          - heading "Persönliche Daten" [level=4] [ref=f7e11]
+          - generic [ref=f7e13]:
+            - generic [ref=f7e16]:
+              - combobox [ref=f7e17] [cursor=pointer]:
+                - option "-- Anrede auswählen --" [selected]
+                - option "Herr"
+                - option "Frau"
+                - option "divers"
+              - generic [ref=f7e19]: 
+            - generic [ref=f7e21]:
+              - generic [ref=f7e23]:
+                - textbox "Vorname*" [ref=f7e24]
+                - generic [ref=f7e26]: 
+              - generic [ref=f7e29]:
+                - textbox "Nachname*" [ref=f7e30]
+                - generic [ref=f7e32]: 
+            - generic [ref=f7e34]:
+              - generic [ref=f7e36]:
+                - textbox "Telefon*" [ref=f7e37]
+                - generic [ref=f7e39]: 
+              - generic [ref=f7e42]:
+                - textbox "Geburtsdatum*" [ref=f7e43]
+                - generic [ref=f7e45]: 
+            - generic [ref=f7e49]:
+              - textbox "Strasse und Hausnummer*" [ref=f7e50]
+              - generic [ref=f7e52]: 
+            - generic [ref=f7e54]:
+              - generic [ref=f7e56]:
+                - combobox [ref=f7e57] [cursor=pointer]:
+                  - option "-- Land wählen --" [selected]
+                  - option "Afghanistan"
+                  - option "Ägypten"
+                  - option "Albanien"
+                  - option "Algerien"
+                  - option "Andorra"
+                  - option "Angola"
+                  - option "Antigua und Barbuda"
+                  - option "Äquatorialguinea"
+                  - option "Argentinien"
+                  - option "Armenien"
+                  - option "Aserbaidschan"
+                  - option "Äthiopien"
+                  - option "Australien"
+                  - option "Bahamas"
+                  - option "Bahrain"
+                  - option "Bangladesch"
+                  - option "Barbados"
+                  - option "Belarus"
+                  - option "Belgien"
+                  - option "Belize"
+                  - option "Benin"
+                  - option "Bhutan"
+                  - option "Bolivien"
+                  - option "Bosnien und Herzegowina"
+                  - option "Botsuana"
+                  - option "Brasilien"
+                  - option "Brunei"
+                  - option "Bulgarien"
+                  - option "Burkina Faso"
+                  - option "Burundi"
+                  - option "Chile"
+                  - option "China"
+                  - option "Cook-Inseln"
+                  - option "Costa Rica"
+                  - option "Dänemark"
+                  - option "Deutschland"
+                  - option "Dominica"
+                  - option "Dominikanische Republik"
+                  - option "Dschibuti"
+                  - option "Ecuador"
+                  - option "El Salvador"
+                  - option "Elfenbeinküste"
+                  - option "Eritrea"
+                  - option "Estland"
+                  - option "Fidschi"
+                  - option "Finnland"
+                  - option "Föderierte Staaten von Mikronesien"
+                  - option "Frankreich"
+                  - option "Gabun"
+                  - option "Gambia"
+                  - option "Georgien"
+                  - option "Ghana"
+                  - option "Grenada"
+                  - option "Griechenland"
+                  - option "Großbritannien"
+                  - option "Guatemala"
+                  - option "Guinea"
+                  - option "Guinea-Bissau"
+                  - option "Guyana"
+                  - option "Haiti"
+                  - option "Honduras"
+                  - option "Indien"
+                  - option "Indonesien"
+                  - option "Irak"
+                  - option "Iran"
+                  - option "Irland"
+                  - option "Island"
+                  - option "Israel"
+                  - option "Italien"
+                  - option "Jamaika"
+                  - option "Japan"
+                  - option "Jemen"
+                  - option "Jordanien"
+                  - option "Kambodscha"
+                  - option "Kamerun"
+                  - option "Kanada"
+                  - option "Kap Verde"
+                  - option "Kasachstan"
+                  - option "Katar"
+                  - option "Kenia"
+                  - option "Kirgisistan"
+                  - option "Kiribati"
+                  - option "Kolumbien"
+                  - option "Komoren"
+                  - option "Kongo, Demokratische Republik"
+                  - option "Kosovo"
+                  - option "Kroatien"
+                  - option "Kuba"
+                  - option "Kuwait"
+                  - option "Laos"
+                  - option "Lesotho"
+                  - option "Lettland"
+                  - option "Libanon"
+                  - option "LIBERIA"
+                  - option "Libysch-Arabische Dschamahirija"
+                  - option "Liechtenstein"
+                  - option "Litauen"
+                  - option "Luxemburg"
+                  - option "Madagaskar"
+                  - option "Malawi"
+                  - option "Malaysia"
+                  - option "Malediven"
+                  - option "Mali"
+                  - option "Malta"
+                  - option "Marokko"
+                  - option "Marshall-Inseln"
+                  - option "Mauretanien"
+                  - option "Mauritius"
+                  - option "Mazedonien"
+                  - option "Mexiko"
+                  - option "Moldawien"
+                  - option "Monaco"
+                  - option "Mongolei"
+                  - option "Montenegro"
+                  - option "Mosambik"
+                  - option "Myanmar"
+                  - option "Namibia"
+                  - option "Nauru"
+                  - option "Nepal"
+                  - option "Neuseeland"
+                  - option "Nicaragua"
+                  - option "Niederlande"
+                  - option "Niger"
+                  - option "Nigeria"
+                  - option "Niue"
+                  - option "Nordkorea"
+                  - option "Norwegen"
+                  - option "Oman"
+                  - option "Österreich"
+                  - option "Pakistan"
+                  - option "Palau"
+                  - option "Panama"
+                  - option "Papua-Neuguinea"
+                  - option "Paraguay"
+                  - option "Peru"
+                  - option "Philippinen"
+                  - option "Polen"
+                  - option "Portugal"
+                  - option "Republik Kongo"
+                  - option "Ruanda"
+                  - option "Rumänien"
+                  - option "Russland"
+                  - option "Salomonen"
+                  - option "Sambia"
+                  - option "Samoa"
+                  - option "San Marino"
+                  - option "São Tomé und Príncipe"
+                  - option "Saudi-Arabien"
+                  - option "Schweden"
+                  - option "Schweiz"
+                  - option "Senegal"
+                  - option "Serbien"
+                  - option "Seychellen"
+                  - option "Sierra Leone"
+                  - option "Simbabwe"
+                  - option "Singapur"
+                  - option "Slowakei"
+                  - option "Slowenien"
+                  - option "Somalia"
+                  - option "Spanien"
+                  - option "Sri Lanka"
+                  - option "St. Kitts und Nevis"
+                  - option "St. Lucia"
+                  - option "St. Vincent und die Grenadinen"
+                  - option "Staatenlos"
+                  - option "Südafrika"
+                  - option "Sudan"
+                  - option "Südkorea"
+                  - option "Surinam"
+                  - option "Swasiland"
+                  - option "Syrien"
+                  - option "Tadschikistan"
+                  - option "Tansania"
+                  - option "Thailand"
+                  - option "Timor-Leste"
+                  - option "Togo"
+                  - option "Tonga"
+                  - option "Trinidad und Tobago"
+                  - option "Tschad"
+                  - option "Tschechische Republik"
+                  - option "Tunesien"
+                  - option "Türkei"
+                  - option "Turkmenistan"
+                  - option "Tuvalu"
+                  - option "Uganda"
+                  - option "Ukraine"
+                  - option "Ungarn"
+                  - option "Uruguay"
+                  - option "USA"
+                  - option "Usbekistan"
+                  - option "Vanuatu"
+                  - option "Vatikanstadt"
+                  - option "Venezuela"
+                  - option "Vereinigte Arabische Emirate"
+                  - option "Vietnam"
+                  - option "Zentralafrikanische Republik"
+                  - option "Zypern"
+                - generic [ref=f7e59]: 
+              - generic [ref=f7e62]:
+                - textbox "PLZ*" [ref=f7e63]
+                - generic [ref=f7e65]: 
+            - generic [ref=f7e69]:
+              - textbox "Ort*" [ref=f7e70]
+              - generic [ref=f7e72]: 
+            - generic [ref=f7e76]:
+              - textbox "E-Mail Adresse*" [ref=f7e77]
+              - generic [ref=f7e79]: 
+        - generic [ref=f7e81]:
+          - heading "Upload Bewerbungsunterlagen" [level=4] [ref=f7e83]
+          - generic [ref=f7e85]:
+            - generic [ref=f7e87]:
+              - generic [ref=f7e88]: Lebenslaufdokument
+              - text: "*"
+              - generic [ref=f7e90]:
+                - generic [ref=f7e93] [cursor=pointer]:
+                  - generic [ref=f7e94]: 
+                  - paragraph [ref=f7e95]:
+                    - strong [ref=f7e96]: Hier klicken
+                    - text: oder die Datei per Drag-and-Drop hinzufügen
+                  - generic [ref=f7e97]: "(max. Größe der Datei: 5 MB, erlaubte Dateitypen: pdf, jpg, jpeg, png, doc, docx, rtf, txt, odt)"
+                  - generic [ref=f7e98]: Durchsuchen ...
+                - button "Choose File" [ref=f7e99]
+                - list [ref=f7e101]
+            - generic [ref=f7e103]:
+              - generic [ref=f7e104]: Weitere Dokumente
+              - generic [ref=f7e106]:
+                - generic [ref=f7e109] [cursor=pointer]:
+                  - generic [ref=f7e110]: 
+                  - paragraph [ref=f7e111]:
+                    - strong [ref=f7e112]: Hier klicken
+                    - text: oder die Datei per Drag-and-Drop hinzufügen (maximal 5 Dateien)
+                  - generic [ref=f7e113]: "(max. Größe pro Datei: 5 MB, erlaubte Dateitypen: pdf, jpg, jpeg, png, doc, docx, rtf, txt, odt, ods, xls, xlsx)"
+                  - generic [ref=f7e114]: Durchsuchen ...
+                - button "Choose File" [ref=f7e115]
+                - list [ref=f7e117]
+        - generic [ref=f7e118]:
+          - heading "Absenden" [level=4] [ref=f7e120]
+          - generic [ref=f7e122]:
+            - generic [ref=f7e125]:
+              - checkbox "Hiermit erkläre ich mich mit der Verarbeitung meiner Daten gemäß der Datenschutzerklärung einverstanden*"
+              - generic [ref=f7e127]:
+                - text: Hiermit erkläre ich mich mit der Verarbeitung meiner Daten gemäß der
+                - link "Datenschutzerklärung" [ref=f7e128] [cursor=pointer]:
+                  - /url: https://www.ratbacher.com/de/datenschutz/
+                - text: einverstanden*
+            - generic [ref=f7e130]:
+              - generic [ref=f7e131]: Captcha
+              - button "Captcha" [ref=f7e132] [cursor=pointer]
+              - textbox "Captcha" [ref=f7e133]
+      - button "Bewerbung absenden" [ref=f7e135] [cursor=pointer]
+  - status
+  - status
+  - generic:
+    - generic:
+      - generic:
+        - button "Öffnen Privatsphäre-Einstellungen" [ref=f7e136] [cursor=pointer]
+        - dialog [ref=f7e143]:
+          - generic [ref=f7e149]:
+            - heading "Privatsphäre-Einstellungen" [level=1] [ref=f7e152]
+            - generic [ref=f7e154]:
+              - generic [ref=f7e155]: Hinweis zu Cookies
+              - text: "Unsere Seite verwendet Cookies. Diese haben zwei Funktionen: Zum einen sind sie erforderlich für die grundlegende Funktionalität unserer Website. Zum anderen können wir mit Hilfe der Cookies Marketing- und Websiteinhalte optimieren und so unsere Angebote für Sie immer weiter verbessern. Hierzu werden pseudonymisierte Daten von Website-Besuchern gesammelt und ausgewertet. Indem Sie \"Alles akzeptieren\" klicken, stimmen Sie dieser Verwendung zu.Dies umfasst auch Ihre Einwilligung in die Übermittlung bestimmter personenbezogener Daten in Drittländer, u.a. die USA, nach Art. 49 (1) (a) DSGVO. Bitte beachten Sie, dass für derartige Übermittlungen von personenbezogenen Daten derzeit (noch) kein entsprechendes Datenschutzniveau wie innerhalb der EU/des EWR besteht. Insbesondere können Regierungsbehörden in den USA die Möglichkeit haben, Zugang zu Ihren Daten zu erhalten, ohne dass es effektive Abhilfemaßnahmen gibt. Auch Auskünfte zum Umgang mit Ihren Daten bei den US-Behörden sind nur sehr eingeschränkt bis gar nicht möglich. Wir haben auf diese behördlichen Maßnahmen keinen Einfluss. Bitte berücksichtigen Sie diese Informationen für Ihre Entscheidung."
+              - generic [ref=f7e158]:
+                - generic [ref=f7e159]: Sie können Ihre Einwilligung jederzeit widerrufen.
+                - text: Weitere Informationen zu Cookies auf dieser Website sowie die Widerrufsmöglichkeit finden Sie in unserer
+                - link "Datenschutzerklärung" [ref=f7e160] [cursor=pointer]:
+                  - /url: https://www.ratbacher.com/de/datenschutz/
+                - text: und zu uns im
+                - link "Impressum" [ref=f7e161] [cursor=pointer]:
+                  - /url: https://www.ratbacher.com/de/impressum/
+                - text: .
+              - text: Unter "Mehr" können Sie Ihre Einstellungen ändern oder die Datenverarbeitung für Statistik- und Marketingzwecke ablehnen.
+            - generic [ref=f7e163]:
+              - link "Datenschutzerklärung" [ref=f7e164] [cursor=pointer]:
+                - /url: https://www.ratbacher.com/de/datenschutz/
+              - link "Impressum" [ref=f7e165] [cursor=pointer]:
+                - /url: https://www.ratbacher.com/de/impressum/
+          - generic [ref=f7e169]:
+            - button "Mehr" [ref=f7e170] [cursor=pointer]
+            - button "Ablehnen" [ref=f7e171] [cursor=pointer]
+            - button "Alles akzeptieren" [ref=f7e172] [cursor=pointer]

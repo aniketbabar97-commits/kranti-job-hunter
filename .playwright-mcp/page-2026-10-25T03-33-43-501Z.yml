@@ -1,0 +1,46 @@
+- generic [active] [ref=f27e1]:
+  - link "Zum Hauptinhalt springen" [ref=f27e3] [cursor=pointer]:
+    - /url: "#maincontent"
+  - generic [ref=f27e4]:
+    - iframe [ref=f27e6]: <p>Ihr Browser kann leider keine eingebetteten Frames anzeigen</p>
+    - generic [ref=f27e7]:
+      - list [ref=f27e10]:
+        - listitem [ref=f27e11]:
+          - link "Lesezeichen" [ref=f27e12] [cursor=pointer]:
+            - /url: "?nosavetokens=true&nojs=true"
+        - listitem [ref=f27e13]:
+          - link "Logout" [ref=f27e14] [cursor=pointer]:
+            - /url: /SelfService?Logout=6
+            - text:  Logout
+        - listitem [ref=f27e15]:
+          - link "DE-CH - Lokale Einstellungen DE-CH - Lokale Einstellungen" [ref=f27e16] [cursor=pointer]:
+            - /url: /ChangeLocalSettings?ContentOnly=true&SkipContentOnlySession=true
+            - text: 
+            - generic [ref=f27e17]: DE-CH - Lokale Einstellungen
+            - img "DE-CH - Lokale Einstellungen" [ref=f27e19]
+      - list [ref=f27e21]:
+        - listitem [ref=f27e22]:
+          - link "Hauptseite" [ref=f27e23] [cursor=pointer]:
+            - /url: /SelfService
+        - listitem [ref=f27e24]:
+          - link "Mein Profil" [ref=f27e25] [cursor=pointer]:
+            - /url: /SelfService/MyProfile
+        - listitem [ref=f27e26]:
+          - link "Stellenmarkt" [ref=f27e27] [cursor=pointer]:
+            - /url: /Jobs
+      - generic [ref=f27e29]:
+        - heading "Professional Software Developer m/w/d Kotlin/Java - Bestätigung" [level=1] [ref=f27e31]
+        - generic [ref=f27e34]:
+          - generic [ref=f27e35]: "Bestätigung für:"
+          - generic [ref=f27e39]: Kranti Chavan
+          - generic [ref=f27e47]:
+            - generic [ref=f27e48]: Du hast Dich in unserer Datenbank registriert. Über den Link "Profil bearbeiten" gelangst Du in Dein persönliches Profil, das Du jederzeit bearbeiten kannst.Bitte ergänze die fehlenden Angaben (z.B. Persönliche Daten, Foto).
+            - generic [ref=f27e49]: Du hast Dich in unserer Datenbank registriert. Ueber den Link "Profil bearbeiten" gelangst Du zu Deinem persoenlichen Profil, dass Du jederzeit bearbeiten kannst.Bitte ergaenze die fehlenden Angaben (z.B. Persoenliche Daten, Foto).
+          - link "Profil bearbeiten" [ref=f27e56] [cursor=pointer]:
+            - /url: /SelfService/MyProfile
+    - text: 
+    - generic "recruitingapp stable | 2026.32.0 (stable)" [ref=f27e57]:
+      - generic [ref=f27e59]:
+        - text: Umantis
+        - link "" [ref=f27e61] [cursor=pointer]:
+          - /url: "#top"

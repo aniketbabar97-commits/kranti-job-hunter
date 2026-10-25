@@ -1,0 +1,111 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e2]:
+    - document [ref=e3]:
+      - generic [ref=e5]:
+        - heading "Einwilligung zu Cookies & Datenverarbeitung" [level=1] [ref=e6]
+        - generic [ref=e7]:
+          - text: Auf dieser Website werden zur Verbesserung der Funktionalität und des Leistungsverhaltens Cookies eingesetzt. Durch den Einsatz von Cookies soll die Verwendung bestimmter Funktionen, das Teilen auf sozialen Netzwerken und das Anpassen von Nachrichten an den Nutzer ermöglicht werden. Durch Klicken auf den "Alles akzeptieren"-Button stimmen Sie der Verwendung von optionalen Cookies auf dieser Website zu. Diese Einwilligung ist freiwillig, für die Nutzung unserer Website nicht erforderlich und kann jederzeit über einen Link in unserer
+          - link "Datenschutzerklärung" [ref=e8] [cursor=pointer]:
+            - /url: "#"
+          - text: "> widerrufen werden."
+      - form [ref=e9]:
+        - button "Alles ablehnen" [ref=e11] [cursor=pointer]
+        - button "Einstellungen" [ref=e14] [cursor=pointer]
+        - button "Alles akzeptieren" [ref=e16] [cursor=pointer]
+  - generic [ref=e18]:
+    - navigation [ref=e22]:
+      - generic [ref=e23]:
+        - link [ref=e24] [cursor=pointer]:
+          - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+          - img "Company Logo" [ref=e25]
+        - button "Toggle navigation" [ref=e26] [cursor=pointer]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Digital Product Manager (m/f/d) Webshop & Digital Tools" [level=1] [ref=e34]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic:
+              - generic [ref=e42]: 71154 Nufringen bei Stuttgart
+              - generic [ref=e43]: Teilzeit / Mobiles Arbeiten möglich
+              - generic [ref=e44]: ab sofort
+              - generic [ref=e45]: Sales VAR & Regions Markets
+              - generic [ref=e46]: Digital Sales
+          - paragraph [ref=e47]: Der Name Ensinger steht für Hochleistungskunststoffe, die im wahrsten Sinne des Wortes die Welt erobert haben. Unsere Kunststoffe fliegen ins Weltall, sind unverzichtbar beim Bauen, sie retten Menschenleben und – ja, unsere Kunststoffe sind viel nachhaltiger als man denkt. Aus einem Familienbetrieb ist ein weltweit erfolgreiches Unternehmen geworden – und ein richtig starker Arbeitgeber, der viel zu bieten hat. Darauf sind wir stolz. Mindestens genauso stolz sind wir auf die Werte, die uns ausmachen. Weil sie uns zu dem gemacht haben, was wir heute sind. Dazu zählen zum Beispiel Verbindlichkeit, Vertrauen, Sicherheit und Verlässlichkeit. Man könnte sagen, wir sind die dynamischste Form von Beständigkeit und davon überzeugt, dass Tradition und Moderne kein Widerspruch sein müssen.
+          - heading "Ihre Aufgaben umfassen:" [level=2] [ref=e48]
+          - list [ref=e50]:
+            - listitem [ref=e51]: Verantwortung für die Produktvision, die Ziele, die Roadmap und das Backlog des Webshops und der Kalkulatoren
+            - listitem [ref=e52]: Anforderungen von Kundinnen und Kunden, aus dem Vertrieb, den Märkten und den Tochtergesellschaften bündeln, bewerten und priorisieren
+            - listitem [ref=e53]: Das Kundenerlebnis kontinuierlich verbessern und dabei die Integration in die Vertriebsprozesse sicherstellen
+            - listitem [ref=e54]: Umsetzung neuer Funktionen fachlich begleiten und Abnahmetests aus Nutzersicht (User Acceptance Tests, UAT) durchführen
+            - listitem [ref=e55]: Releases und Go-Lives steuern sowie Fehler von der Priorisierung bis zur Prüfung der umgesetzten Lösungen nachverfolgen
+            - listitem [ref=e56]: Zentrale Kennzahlen (KPIs) überwachen, daraus Verbesserungsmaßnahmen ableiten und Go-to-Market-Konzepte entwickeln
+            - listitem [ref=e57]: Internationalisierung und Rollouts in der EMEA-Region koordinieren und dabei globale Standards sowie lokale Anforderungen berücksichtigen
+          - heading "Das bringen Sie mit:" [level=2] [ref=e58]
+          - list [ref=e60]:
+            - listitem [ref=e61]: Mehrjährige Berufserfahrung im E-Commerce oder digitalen Produktmanagement, idealerweise im B2B-Umfeld
+            - listitem [ref=e62]: Fundierte Kenntnisse in der Optimierung des Kundenerlebnisses (Customer Experience) sowie in der strukturierten Aufnahme, Bewertung und Priorisierung von Anforderungen aus Markt, Kundschaft und Vertrieb
+            - listitem [ref=e63]: Praktische Erfahrung in der Entwicklung und Umsetzung von Markteinführungsstrategien sowie in internationalen Projekten und im Management relevanter Anspruchsgruppen, idealerweise auch in der Vorbereitung oder Begleitung internationaler Rollouts
+            - listitem [ref=e64]: Technisches Grundverständnis für Webshops, Kalkulatoren und Schnittstellen sowie die Fähigkeit, auf Augenhöhe mit Fachbereichen, IT und Umsetzungspartnern zusammenzuarbeiten
+            - listitem [ref=e65]: Strukturierte, lösungsorientierte und eigenverantwortliche Arbeitsweise mit hohem Umsetzungsfokus sowie sehr gute Kommunikations- und Teamfähigkeit
+            - listitem [ref=e66]: Sehr gute Englischkenntnisse in Wort und Schrift sowie die Bereitschaft, in einem internationalen Umfeld zu arbeiten
+          - heading "Ihr/e Ansprechpartner/in:" [level=2] [ref=e67]
+          - generic [ref=e68]: Frank Hermle Tel. +49 7032 819 607
+          - heading [level=2]
+          - generic [ref=e70]:
+            - heading "Unsere Benefits:" [level=2] [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e77]:
+                - img "..." [ref=e79]
+                - paragraph [ref=e81]: IT Bundle fürs mobile Arbeiten
+              - generic [ref=e84]:
+                - img "..." [ref=e86]
+                - paragraph [ref=e88]: Arbeits- und Schutzkleidung (inkl. Reinigung)
+              - generic [ref=e91]:
+                - img "..." [ref=e93]
+                - paragraph [ref=e95]: Urlaubs- und Weihnachtsgeld
+              - generic [ref=e98]:
+                - img "..." [ref=e100]
+                - paragraph [ref=e102]: Fahrtkostenzuschuss & Kostenlose Parkplätze
+              - generic [ref=e105]:
+                - img "..." [ref=e107]
+                - paragraph [ref=e109]: Kantine vor Ort und Bezuschussung des Essens
+              - generic [ref=e112]:
+                - img "..." [ref=e114]
+                - paragraph [ref=e116]: Betriebliche Altersvorsorge
+              - generic [ref=e119]:
+                - img "..." [ref=e121]
+                - paragraph [ref=e123]: Mitarbeiterrabatte für viele Marken
+              - generic [ref=e126]:
+                - img "..." [ref=e128]
+                - paragraph [ref=e130]: Jobrad
+              - generic [ref=e133]:
+                - img "..." [ref=e135]
+                - paragraph [ref=e137]: Diverse Sportgruppen
+              - generic [ref=e140]:
+                - img "..." [ref=e142]
+                - paragraph [ref=e144]: Firmenevents
+              - generic [ref=e147]:
+                - img "..." [ref=e149]
+                - paragraph [ref=e151]: Ensinger Assistenz Programm (kostenlose externe Beratungsstelle für unterschiedlichste Lebenslagen)
+      - paragraph [ref=e152]:
+        - text: "Wir legen Wert auf Diversität und Chancengleichheit und freuen uns über Bewerbungen mit vielfältigen Hintergründen. Weitere Informationen zu unseren Produkten und wofür wir als Unternehmen stehen, finden Sie auf unserer Website:"
+        - link "Ensinger als Arbeitgeber | Ensinger" [ref=e153] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/karriere/ensinger-als-arbeitgeber
+      - generic [ref=e155]:
+        - button "Zurück" [ref=e156] [cursor=pointer]
+        - button "Jetzt bewerben" [ref=e157] [cursor=pointer]
+    - contentinfo [ref=e159]:
+      - paragraph [ref=e161]: © Ensinger
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - link "Datenschutzerklärung" [ref=e165] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+        - listitem [ref=e166]:
+          - link "Impressum" [ref=e167] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/impressum
+        - listitem [ref=e168]:
+          - link "Allgemeine Geschäftsbedingungen" [ref=e169] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+        - listitem [ref=e170]:
+          - link "Cookie-Einstellungen" [ref=e171] [cursor=pointer]:
+            - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

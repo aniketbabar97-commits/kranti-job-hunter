@@ -1,0 +1,147 @@
+- generic [active] [ref=f26e1]:
+  - banner [ref=f26e2]:
+    - generic [ref=f26e4]:
+      - link [ref=f26e5] [cursor=pointer]:
+        - /url: /
+      - button [ref=f26e23] [cursor=pointer]
+  - generic [ref=f26e27]:
+    - button "Zurück" [ref=f26e29] [cursor=pointer]
+    - generic [ref=f26e33]:
+      - heading "Join our Team." [level=1] [ref=f26e34]
+      - generic [ref=f26e35]:
+        - generic [ref=f26e36]:
+          - generic [ref=f26e37]:
+            - generic [ref=f26e38]: Stellentitel oder Ort eingeben
+            - textbox "Suche" [ref=f26e43]: Domain Lead
+          - generic [ref=f26e44]:
+            - generic [ref=f26e45]:
+              - generic [ref=f26e46]: Unit
+              - combobox [ref=f26e48]:
+                - option "Option auswählen" [selected]
+                - option "CBR eCommerce"
+                - option "CBR Fashion Group"
+                - option "CECIL"
+                - option "Sales"
+                - option "Stores"
+                - option "Street One"
+                - option "Street One Men"
+            - generic [ref=f26e49]:
+              - generic [ref=f26e50]: Funktionsbereich
+              - combobox [ref=f26e52]:
+                - option "Option auswählen" [selected]
+                - option "Design"
+                - option "Grafikdesign"
+                - option "Bekleidungstechnik"
+                - option "Qualitätssicherung"
+                - option "Traineeship - Design, Product & Creative"
+                - option "Praktikum - Design, Product & Creative"
+                - option "Brandmarketing"
+                - option "Produktmarketing"
+                - option "Weitere Jobs in Design, Product & Creative"
+                - option "Foto- und Videoproduktion"
+                - option "Performance Marketing"
+                - option "Marktplätze"
+                - option "Content & CRM"
+                - option "Online Grafik"
+                - option "Weitere Jobs im eCommerce"
+                - option "District Management Sales"
+                - option "Gebietsmanagement Sales"
+                - option "Stores Retail & Outlet"
+                - option "Area Management Retail & Outlet"
+                - option "Weitere Jobs in Sales, Retail & Outlet"
+                - option "People & Culture"
+                - option "Controlling | Finance"
+                - option "IT"
+                - option "Weitere Jobs in den Central Functions"
+                - option "Sales, Retail & Outlet International"
+                - option "Office International"
+                - option "Duales Studium - Business Administration"
+                - option "Duales Studium - Wirtschaftsinformatik"
+                - option "Ausbildung - Mediengestaltung Digital und Print"
+                - option "Ausbildung - Groß- und Außenhandel"
+                - option "Ausbildung - eCommerce"
+                - option "Ausbildung - Büromanagement"
+                - option "Ausbildung - IT Fachinformatik Anwendungsentwicklung"
+                - option "Ausbildung - IT Fachinformatik Systemintegration"
+                - option "Traineeship - Sales"
+                - option "Praktikum"
+                - option "Werkstudent (m/w/d)"
+          - generic [ref=f26e54]:
+            - button "Suchen" [ref=f26e55] [cursor=pointer]
+            - button "Auswahl zurücksetzen" [ref=f26e56] [cursor=pointer]
+        - navigation [ref=f26e57]:
+          - list [ref=f26e58]:
+            - listitem [ref=f26e59]:
+              - link "CBR Fashion Group / Isernhagen bei Hannover Domain Lead (m/w/d) E-Commerce IT" [ref=f26e60] [cursor=pointer]:
+                - /url: /career/job-search/34310
+                - generic [ref=f26e61]:
+                  - generic [ref=f26e62]: CBR Fashion Group / Isernhagen bei Hannover
+                  - heading "Domain Lead (m/w/d) E-Commerce IT" [level=3] [ref=f26e64]
+  - contentinfo [ref=f26e67]:
+    - generic [ref=f26e69]:
+      - heading "Du möchtest uns kontaktieren?" [level=3] [ref=f26e70]
+      - link "Schreib Uns" [ref=f26e71] [cursor=pointer]:
+        - /url: mailto:recruiting@cbr.de
+    - generic [ref=f26e75]:
+      - generic [ref=f26e76]:
+        - heading "Marken" [level=4] [ref=f26e77]
+        - generic [ref=f26e78]:
+          - generic [ref=f26e79]:
+            - generic [ref=f26e80]: Cecil
+            - generic [ref=f26e81]:
+              - link [ref=f26e82] [cursor=pointer]:
+                - /url: https://www.facebook.com/MeinCECIL/
+              - link [ref=f26e85] [cursor=pointer]:
+                - /url: https://www.instagram.com/meincecil/
+          - generic [ref=f26e88]:
+            - generic [ref=f26e89]: Street One
+            - generic [ref=f26e90]:
+              - link [ref=f26e91] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f26e94] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+          - generic [ref=f26e97]:
+            - generic [ref=f26e98]: Street One Men
+            - generic [ref=f26e99]:
+              - link [ref=f26e100] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f26e103] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+      - generic [ref=f26e106]:
+        - heading "Adresse" [level=4] [ref=f26e107]
+        - generic [ref=f26e108]:
+          - generic [ref=f26e109]:
+            - generic [ref=f26e110]: CBR Service GmbH
+            - generic [ref=f26e111]: People & Culture
+            - generic [ref=f26e112]: Imkerstraße 4
+            - generic [ref=f26e113]: 30916 Isernhagen
+            - generic [ref=f26e114]: Germany
+          - link "recruiting@cbr.de" [ref=f26e116] [cursor=pointer]:
+            - /url: mailto:recruiting@cbr.de
+          - generic [ref=f26e117]:
+            - link [ref=f26e118] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/cbrfashiongroup
+            - link [ref=f26e121] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/cbr-fashion
+      - navigation [ref=f26e124]:
+        - heading "Links" [level=4] [ref=f26e125]
+        - list [ref=f26e126]:
+          - listitem [ref=f26e127]:
+            - link "Impressum" [ref=f26e128] [cursor=pointer]:
+              - /url: /imprint
+          - listitem [ref=f26e129]:
+            - link "Datenschutz" [ref=f26e130] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f26e131]:
+            - link "Partner" [ref=f26e132] [cursor=pointer]:
+              - /url: /partner
+          - listitem [ref=f26e133]:
+            - link "Investor Relations" [ref=f26e134] [cursor=pointer]:
+              - /url: /investor-relations
+          - listitem [ref=f26e135]:
+            - link "Presse" [ref=f26e136] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=f26e137]:
+            - link "Compliance" [ref=f26e138] [cursor=pointer]:
+              - /url: /compliance
+  - alert [ref=f26e139]

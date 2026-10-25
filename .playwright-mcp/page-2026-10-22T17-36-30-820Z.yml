@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip To Main Content" [ref=e4] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e6]:
+      - generic [ref=e8]:
+        - link "epam-logo-black.svg" [ref=e10] [cursor=pointer]:
+          - /url: https://www.epam.com/careers
+          - generic:
+            - generic:
+              - generic:
+                - img "epam-logo-black.svg"
+        - navigation [ref=e11]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Careers" [ref=e14] [cursor=pointer]:
+                - /url: https://www.epam.com/careers
+            - listitem [ref=e15]:
+              - link "Jobs" [ref=e16] [cursor=pointer]:
+                - /url: /en/jobs
+            - listitem [ref=e17]:
+              - link "Hiring Locations" [ref=e18] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/locations
+            - listitem [ref=e19]:
+              - link "Referral Program" [ref=e20] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/external-referral-program
+            - listitem [ref=e21]:
+              - link "Relocate with EPAM" [ref=e22] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/epam-without-borders
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - button "sign in" [ref=e27] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "sign in"
+    - main [ref=e29]:
+      - generic [ref=e30]:
+        - heading [level=1] [ref=e34]:
+          - text: Join our
+          - emphasis [ref=e35]: Team
+        - img "Blured background" [ref=e38]
+    - region "Notifications Alt+T"
+    - contentinfo [ref=e271]:
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - generic [ref=e275]:
+              - generic [ref=e276]: OUR BRANDS
+              - list [ref=e278]:
+                - listitem [ref=e279]:
+                  - link "EPAM CONTINUUM" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.epam.com/services/epam-continuum
+                - listitem [ref=e281]:
+                  - link "TEST IO" [ref=e282] [cursor=pointer]:
+                    - /url: https://test.io/
+                - listitem [ref=e283]:
+                  - link "RELIABLE AI LAB" [ref=e284] [cursor=pointer]:
+                    - /url: https://epam-rail.com/about-us
+            - generic [ref=e285]:
+              - generic [ref=e286]: SOLUTIONSHUB
+              - paragraph [ref=e288]:
+                - text: Explore our enterprise software products, open source solutions and accelerators on
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: https://solutionshub.epam.com/
+                  - strong [ref=e290]: EPAM SolutionsHub
+                - text: .
+          - generic [ref=e291]:
+            - generic [ref=e292]: POLICIES
+            - list [ref=e294]:
+              - listitem [ref=e295]:
+                - link "INVESTORS" [ref=e296] [cursor=pointer]:
+                  - /url: https://investors.epam.com/
+              - listitem [ref=e297]:
+                - link "OPEN SOURCE" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.epam.com/services/engineering/open-source
+              - listitem [ref=e299]:
+                - link "PRIVACY POLICY" [ref=e300] [cursor=pointer]:
+                  - /url: https://privacy.epam.com/core/interaction/showpolicy?type=CommonPrivacyPolicy
+              - listitem [ref=e301]:
+                - link "CONTACT US" [ref=e302] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=e303]:
+                - link "COOKIE POLICY" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.epam.com/cookie-policy
+              - listitem [ref=e305]:
+                - link "APPLICANT PRIVACY NOTICE" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.epam.com/applicant-privacy-notice#row
+              - listitem [ref=e307]:
+                - link "WEB ACCESSIBILITY" [ref=e308] [cursor=pointer]:
+                  - /url: https://www.epam.com/web-accessibility-statement
+              - listitem [ref=e309]:
+                - link "UK MODERN SLAVERY STATEMENT" [ref=e310] [cursor=pointer]:
+                  - /url: https://www.epam.com/content/dam/epam/ethics-and-compliance/UK_Modern_Slavery_Statement_2023.pdf
+              - listitem [ref=e311]:
+                - link "RECRUITMENT FRAUD DISCLAIMER" [ref=e312] [cursor=pointer]:
+                  - /url: https://www.epam.com/careers/recruitment-fraud-disclaimer
+          - generic [ref=e313]:
+            - generic [ref=e314]: SOCIAL
+            - list [ref=e316]:
+              - listitem:
+                - link "LINKEDIN":
+                  - /url: https://www.linkedin.com/company/epam-systems/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "linkedin-light.svg"
+              - listitem:
+                - link "FACEBOOK":
+                  - /url: https://www.facebook.com/EPAM.Global
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "facebook-light.svg"
+              - listitem:
+                - link "INSTAGRAM":
+                  - /url: https://www.instagram.com/epamsystems/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "instagram-light.svg"
+              - listitem:
+                - link "YOUTUBE":
+                  - /url: https://www.youtube.com/c/EPAMSystemsGlobal
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "yt-light.svg"
+        - paragraph [ref=e319]: © 2025 EPAM Systems, Inc. All rights reserved.
+  - alert [ref=e320]

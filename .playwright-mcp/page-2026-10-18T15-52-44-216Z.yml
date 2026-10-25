@@ -1,0 +1,33 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e7]:
+    - generic [ref=f1e9]:
+      - generic [ref=f1e10]:
+        - img "Active Nutrition International GmbH logo" [ref=f1e11]
+        - generic [ref=f1e12]:
+          - link [ref=f1e13] [cursor=pointer]:
+            - /url: https://join.com/companies/active-nutrition-international
+            - paragraph [ref=f1e14]: Active Nutrition International GmbH
+          - link [ref=f1e15] [cursor=pointer]:
+            - /url: https://join.com/companies/active-nutrition-international/16797502-developer-m-w-d-e-commerce
+            - paragraph [ref=f1e16]: Developer (m/w/d) E-Commerce
+      - button "Kranti Chavan Kranti Chavan" [ref=f1e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f1e20]: KC
+        - generic [ref=f1e21]: Kranti Chavan
+    - generic [ref=f1e43]:
+      - heading "Laden Sie Ihr Anschreiben hoch" [level=2] [ref=f1e44]
+      - generic [ref=f1e47]:
+        - button "dropzone" [ref=f1e48] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Datei hochladen
+              - generic:
+                - paragraph: Wählen Sie eine Datei aus oder ziehen Sie sie hierher.
+                - paragraph: Die Dateigröße ist auf 10 MB begrenzt.
+        - button [aria-hidden] [ref=f1e49]
+    - generic [ref=f1e26]:
+      - progressbar "40%" [ref=f1e50]
+      - generic [ref=f1e30]:
+        - button "Zurück" [ref=f1e52] [cursor=pointer]
+        - button "Weiter" [active] [ref=f1e37] [cursor=pointer]
+  - alert [ref=f1e4]: "Active Nutrition International (Munich): Developer (m/w/d) E-Commerce"
+  - region "Notifications, bottom-end (alt+T)"

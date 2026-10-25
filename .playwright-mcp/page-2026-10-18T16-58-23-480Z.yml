@@ -1,0 +1,103 @@
+- generic [active] [ref=f3e1]:
+  - link [ref=f3e5] [cursor=pointer]:
+    - /url: https://macs-holding.de/stellenangebote
+    - img "Logo" [ref=f3e6]
+  - main [ref=f3e7]:
+    - generic [ref=f3e9]:
+      - region "Bilderkarussell" [ref=f3e10]:
+        - button "vorheriges Bild" [ref=f3e11] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e12]: 
+        - group "Bild 1 von 8" [ref=f3e14]
+        - button "nächstes Bild" [ref=f3e16] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f3e17]: 
+        - generic [ref=f3e18]:
+          - button "abspielen / pausieren" [ref=f3e19] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f3e20]: 
+          - list [ref=f3e21]:
+            - listitem [ref=f3e22] [cursor=pointer]:
+              - button "Bild 1 von 8" [ref=f3e23]
+            - listitem [ref=f3e24] [cursor=pointer]:
+              - button "Bild 2 von 8" [ref=f3e25]
+            - listitem [ref=f3e26] [cursor=pointer]:
+              - button "Bild 3 von 8" [ref=f3e27]
+            - listitem [ref=f3e28] [cursor=pointer]:
+              - button "Bild 4 von 8" [ref=f3e29]
+            - listitem [ref=f3e30] [cursor=pointer]:
+              - button "Bild 5 von 8" [ref=f3e31]
+            - listitem [ref=f3e32] [cursor=pointer]:
+              - button "Bild 6 von 8" [ref=f3e33]
+            - listitem [ref=f3e34] [cursor=pointer]:
+              - button "Bild 7 von 8" [ref=f3e35]
+            - listitem [ref=f3e36] [cursor=pointer]:
+              - button "Bild 8 von 8" [ref=f3e37]
+      - generic [ref=f3e38]:
+        - heading "Senior Software-Entwickler Magento E-Commerce (m/w/d)" [level=1] [ref=f3e40]
+        - list [ref=f3e42]:
+          - listitem [ref=f3e43]:
+            - generic [aria-hidden] [ref=f3e44]: 
+            - text: Feuchtwangen, Mobile-Office
+          - listitem [ref=f3e45]:
+            - generic [aria-hidden] [ref=f3e46]: 
+            - text: Vollzeit, Teilzeit
+        - generic [ref=f3e47]:
+          - heading "Über uns" [level=3] [ref=f3e48]
+          - paragraph [ref=f3e49]: Die MACS HOLDING GmbH ist eine erfolgreiche Firmengruppe mit innovativen Produkt- und Vertriebskonzepten. Basis für unser starkes Wachstum ist die ausgeprägte Innovationskultur in Kombination mit den Werten und der Schlagkraft eines Familienunternehmens. Unsere rund 600 Mitarbeiterinnen und Mitarbeiter arbeiten jeden Tag an 10 Standorten mit Leidenschaft daran, für unsere Kunden die bestmöglichen Produkte & Lösungen zu entwickeln.
+      - generic [ref=f3e50]:
+        - heading "DAS ERWARTET DICH BEI UNS" [level=3] [ref=f3e51]
+        - list [ref=f3e53]:
+          - listitem [ref=f3e54]: Du bist verantwortlich für die Weiterentwicklung / Optimierung unserer bestehender Magento 2 Onlineshops
+          - listitem [ref=f3e55]: Du konzipierst und realisierst neue Features und Module für unsere Magento 2 Systeme
+          - listitem [ref=f3e56]: Du berätst unsere Tochterfirmen und interne Teams in technischen Fragen
+          - listitem [ref=f3e57]: Du koordinierst die Qualitätssicherung und dokumentierst die Ergebnisse
+          - listitem [ref=f3e58]: Du führst und coachst ein Team von Junior-Entwicklern inkl. Code-Reviews und arbeitest mit Projektleitern, UX-Designern und anderen Entwicklern zusammen
+      - generic [ref=f3e59]:
+        - heading "DAS BRINGST DU MIT" [level=3] [ref=f3e60]
+        - list [ref=f3e62]:
+          - listitem [ref=f3e63]: Abgeschlossenes Studium im Bereich Informatik oder Softwareentwicklung, alternativ eine Berufsausbildung als Fachinformatiker (m/w/d)
+          - listitem [ref=f3e64]: Mindestens 5 Jahre Berufserfahrung in der Entwicklung von Magento 2 Onlineshops sowie Erfahrung mit Web-Services und API-Integrationen in einem agilen Umfeld (Scrum, Kanban)
+          - listitem [ref=f3e65]: Sehr gute Kenntnisse in PHP, MySQL, HTML, CSS und JavaScript sowie ein sicherer Umgang mit Versionierungstools wie GIT
+          - listitem [ref=f3e66]: Hervorragende Problemlösungsfähigkeit und agiles Mindset
+          - listitem [ref=f3e67]: Deutschkenntnisse in Wort und Schrift auf C1 Niveau, sowie gute Englischkenntnisse
+      - generic [ref=f3e68]:
+        - heading "DAS BIETEN WIR" [level=3] [ref=f3e69]
+        - generic [ref=f3e71]:
+          - heading "Neues Bürogebäude, hochwertige Ausstattung" [level=4] [ref=f3e73]:
+            - generic [aria-hidden] [ref=f3e74]: 
+          - heading "Eine wirklich gelebte Work-Life-Balance, Mobile-Office" [level=4] [ref=f3e77]:
+            - generic [aria-hidden] [ref=f3e78]: 
+          - heading "Unbefristeter Arbeitsvertrag mit langfristiger Perspektive" [level=4] [ref=f3e82]:
+            - generic [aria-hidden] [ref=f3e83]: 
+          - heading "Leistungsgerechte, attraktive Bezahlung" [level=4] [ref=f3e86]:
+            - generic [aria-hidden] [ref=f3e87]: 
+          - heading "Hoher Freiraum für Verantwortung und Kreativität" [level=4] [ref=f3e91]:
+            - generic [aria-hidden] [ref=f3e92]: 
+          - heading "Weiterbildungsmöglichkeiten und Entwicklungsperspektiven" [level=4] [ref=f3e95]:
+            - generic [aria-hidden] [ref=f3e96]: 
+          - heading "Wertekultur im Familienunternehmen, flache Hierarchien" [level=4] [ref=f3e100]:
+            - generic [aria-hidden] [ref=f3e101]: 
+          - heading "Fitnessraum, Getränke und Obst kostenfrei, VWL, bAV, E-Bike Leasing, kostenfreies Laden von E-KFZ, Teamevents" [level=4] [ref=f3e104]:
+            - generic [aria-hidden] [ref=f3e105]: 
+          - heading "30 Tage Urlaub, Gleitzeit" [level=4] [ref=f3e109]:
+            - generic [aria-hidden] [ref=f3e110]: 
+          - heading "Kostenfreie Gesundheitsmassagen" [level=4] [ref=f3e113]:
+            - generic [aria-hidden] [ref=f3e114]: 
+      - generic [ref=f3e117]:
+        - heading [level=3]
+        - generic [ref=f3e118]: Menschen machen uns aus und bilden die Basis unseres Erfolgs. Möchtest du Teil dieses Erfolges werden? Dann bewirb dich jetzt!
+        - generic [ref=f3e119]: Jetzt bewerben
+        - generic [ref=f3e121]:
+          - heading "Dein Kontakt" [level=3] [ref=f3e123]
+          - paragraph [ref=f3e125]:
+            - strong [ref=f3e126]: MACS HOLDING GmbH
+            - text: Storchennest 6 91555 Feuchtwangen
+          - paragraph [ref=f3e128]:
+            - text: Jonathan Wagner Teamleiter Recruiting & Personalentwicklung Tel.
+            - link "+49 (0)9852 61366-1205" [ref=f3e129] [cursor=pointer]:
+              - /url: tel:+49 (0)9852 61366-1205
+      - link "Zurück" [ref=f3e135] [cursor=pointer]:
+        - /url: /de/jobs
+  - contentinfo [ref=f3e136]:
+    - paragraph [ref=f3e140]:
+      - text: powered by
+      - link "d.vinci" [ref=f3e141] [cursor=pointer]:
+        - /url: https://www.dvinci.de

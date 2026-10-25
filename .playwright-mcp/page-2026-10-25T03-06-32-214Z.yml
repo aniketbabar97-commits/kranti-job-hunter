@@ -1,0 +1,198 @@
+- generic [active] [ref=f7e1]:
+  - region [ref=f7e2]:
+    - list:
+      - listitem:
+        - link [ref=f7e3] [cursor=pointer]:
+          - /url: "#skip-to-main-heading"
+      - listitem:
+        - button "Login" [ref=f7e4] [cursor=pointer]
+      - listitem:
+        - link [ref=f7e5] [cursor=pointer]:
+          - /url: "#skip-to-mainnav-heading"
+  - list [ref=f7e7]:
+    - listitem [ref=f7e8]:
+      - button "en - English - Language" [ref=f7e9] [cursor=pointer]:
+        - generic "English - Language" [ref=f7e11]:
+          - text: en
+          - generic [ref=f7e12]: "- English - Language"
+    - listitem [ref=f7e14]:
+      - link "markant.com" [ref=f7e15] [cursor=pointer]:
+        - /url: https://www.markant.com/en
+  - banner [ref=f7e16]:
+    - generic [ref=f7e18]:
+      - banner [ref=f7e19]:
+        - link "Markant - Go to homepage" [ref=f7e20] [cursor=pointer]:
+          - /url: index.php
+      - button "Menu" [ref=f7e23] [cursor=pointer]
+      - navigation:     
+  - main [ref=f7e31]:
+    - generic [ref=f7e32]:
+      - navigation "You are here":
+        - list [ref=f7e33]:
+          - listitem [ref=f7e34]:
+            - link "Home" [ref=f7e35] [cursor=pointer]:
+              - /url: /index.php
+          - listitem [ref=f7e36]:
+            - text: ›
+            - link "Job offers" [ref=f7e37] [cursor=pointer]:
+              - /url: /index.php?ac=search_result&restoreLastSearch=1
+          - listitem [ref=f7e38]:
+            - text: ›
+            - generic "Consultant Master Data Services (m/w/d)" [ref=f7e39]
+    - generic [ref=f7e41]:
+      - link "« previous jobad" [ref=f7e42] [cursor=pointer]:
+        - /url: index.php?ac=jobad&id=726
+      - link "next jobad »" [ref=f7e43] [cursor=pointer]:
+        - /url: index.php?ac=jobad&id=750
+    - article [ref=f7e46]:
+      - generic [ref=f7e47]:
+        - heading "Consultant Master Data Services (m/w/d)" [level=1] [ref=f7e50]
+        - generic [ref=f7e51]:
+          - list:
+            - listitem [ref=f7e52]:
+              - strong [ref=f7e56]: "Gesellschaft:"
+              - text: Markant Deutschland GmbH
+            - listitem [ref=f7e57]:
+              - strong [ref=f7e61]: "Einsatzort:"
+              - text: Offenburg
+            - listitem [ref=f7e62]:
+              - strong [ref=f7e66]: "Arbeitszeit:"
+              - text: Vollzeit
+            - listitem [ref=f7e67]:
+              - strong [ref=f7e71]: "Zu besetzen ab:"
+              - text: 01.10.2026
+        - generic [ref=f7e72]:
+          - generic [ref=f7e73]:
+            - generic [ref=f7e75]:
+              - generic [ref=f7e76] [cursor=pointer]:
+                - heading "Unser Aufgabenprofil" [level=3] [ref=f7e77]
+                - generic: 
+              - list [ref=f7e79]:
+                - listitem [ref=f7e80]: Sie bearbeiten, begleiten und koordinieren die Anforderungen Ihrer Fachabteilung sowie externer Geschäftspartner für unsere Dienstleistungen rund um das Produktinformationsmanagement (PIM). Dies beinhaltet sowohl die Aufnahme von Anforderungen als auch die Analyse, Bewertung, Konzeption und Spezifikation.
+                - listitem [ref=f7e81]: Sie unterstützen die fachliche Abnahme der umgesetzten Lösungen im Rahmen des Testmanagements und begleiten den Roll-out sowie die Weiterentwicklung.
+                - listitem [ref=f7e82]: Sie entwickeln in enger Abstimmung mit den jeweiligen Fachbereichen optimale Lösungen für unsere Vertragslieferanten und Handelspartner.
+                - listitem [ref=f7e83]: Sie überwachen Vereinbarungen sowie Termine und kommunizieren diese zu den internen und externen Kunden.
+                - listitem [ref=f7e84]: Sie vertreten unsere Interessen sowie die unserer Handelspartner in externen Fachgruppen (GS1) und wirken an der Ausarbeitung von standardisierten Anwendungsempfehlungen in unserer Branche mit.
+                - listitem [ref=f7e85]: Sie wirken als Bindeglied zwischen unseren Kunden und unserem Entwicklungsteam aktiv an der Weiterentwicklung der Dienstleistung mit.
+            - generic [ref=f7e87]:
+              - generic [ref=f7e88] [cursor=pointer]:
+                - heading "Ihr Bewerberprofil" [level=3] [ref=f7e89]
+                - generic: 
+              - list [ref=f7e91]:
+                - listitem [ref=f7e92]: Sie haben ein Studium im Bereich der Betriebswirtschaftslehre abgeschlossen oder nach einer kaufmännischen Ausbildung Berufserfahrung im Anforderungs- und Projektmanagement gesammelt.
+                - listitem [ref=f7e93]: Sie kennen sich idealerweise in agilem Projektmanagement, Data-Management oder Category-Management aus.
+                - listitem [ref=f7e94]: Sie besitzen ein sicheres Auftreten, eine gute Kommunikationsfähigkeit und Präsentationskompetenz.
+                - listitem [ref=f7e95]: Sie können auch komplexe Sachverhalte verständlich vermitteln.
+                - listitem [ref=f7e96]: Sie haben sehr gute MS-Office-Kenntnisse.
+                - listitem [ref=f7e97]: Sie haben gute Englischkenntnisse in Wort und Schrift.
+                - listitem [ref=f7e98]: Sie denken konzeptionell und prozessorientiert.
+                - listitem [ref=f7e99]: Sie sind hochmotiviert und dienstleistungsorientiert.
+                - listitem [ref=f7e100]: Sie sind kooperationsbereit und teamfähig.
+          - generic [ref=f7e101]:
+            - generic [ref=f7e102] [cursor=pointer]:
+              - heading "Wir bieten" [level=3] [ref=f7e103]
+              - generic: 
+            - generic [ref=f7e108]:
+              - list:
+                - listitem [ref=f7e109]:
+                  - generic [ref=f7e110]:
+                    - generic [aria-hidden] [ref=f7e111]: 
+                    - generic [ref=f7e112]: Arbeitgeberfinanzierte betriebliche Altersvorsorge
+                - listitem [ref=f7e113]:
+                  - generic [ref=f7e114]:
+                    - generic [aria-hidden] [ref=f7e115]: 
+                    - generic [ref=f7e116]: Corporate Benefits Partner
+                - listitem [ref=f7e117]:
+                  - generic [ref=f7e118]:
+                    - generic [aria-hidden] [ref=f7e119]: 
+                    - generic [ref=f7e120]: Einladendes, arbeitgebergefördertes Betriebsrestaurant
+                - listitem [ref=f7e121]:
+                  - generic [ref=f7e122]:
+                    - generic [aria-hidden] [ref=f7e123]: 
+                    - generic [ref=f7e124]: Gleitzeitmodell zur flexiblen Arbeitszeitgestaltung
+                - listitem [ref=f7e125]:
+                  - generic [ref=f7e126]:
+                    - generic [aria-hidden] [ref=f7e127]: 
+                    - generic [ref=f7e128]: Hansefit
+                - listitem [ref=f7e129]:
+                  - generic [ref=f7e130]:
+                    - generic [aria-hidden] [ref=f7e131]: 
+                    - generic [ref=f7e132]: Kostenfreie Getränke (Wasser, Kaffee, Tee)
+                - listitem [ref=f7e133]:
+                  - generic [ref=f7e134]:
+                    - generic [aria-hidden] [ref=f7e135]: 
+                    - generic [ref=f7e136]: Mobiles Arbeiten
+                - listitem [ref=f7e137]:
+                  - generic [ref=f7e138]:
+                    - generic [aria-hidden] [ref=f7e139]: 
+                    - generic [ref=f7e140]: Netto-Entgelt-Optimierungsprogramm
+          - generic [ref=f7e144]:
+            - generic [ref=f7e145] [cursor=pointer]:
+              - heading "Der erste Schritt" [level=3] [ref=f7e146]
+              - generic: 
+            - paragraph [ref=f7e148]: Verwandeln Sie Ihre Neugier in Aufbruch. Und Interesse in echte Initiative. Machen Sie Ihren ersten Schritt in Richtung eines Arbeitgebers, bei dem Sie auf nachhaltiges Handeln und ein kollegiales Umfeld zählen können. Wir freuen uns auf Ihre Online-Bewerbung!
+          - generic [ref=f7e151]:
+            - generic [ref=f7e152] [cursor=pointer]:
+              - heading "Kontakt" [level=3] [ref=f7e153]
+              - generic: 
+            - generic [ref=f7e154]:
+              - paragraph [ref=f7e155]:
+                - strong [ref=f7e156]: Markant Services International GmbH
+              - paragraph [ref=f7e157]: Frau Vibeke Wernberg-MoellerBereich Personal
+              - paragraph [ref=f7e158]: "Telefon: +49 781 616-5744"
+        - button "Jetzt online bewerben" [ref=f7e163] [cursor=pointer]
+    - generic [ref=f7e165]:
+      - link "« previous jobad" [ref=f7e166] [cursor=pointer]:
+        - /url: index.php?ac=jobad&id=726
+      - link "next jobad »" [ref=f7e167] [cursor=pointer]:
+        - /url: index.php?ac=jobad&id=750
+    - link "Back" [ref=f7e170] [cursor=pointer]:
+      - /url: "?ac=search_result&restoreLastSearch=1"
+    - text:    
+  - contentinfo [ref=f7e171]:
+    - navigation [ref=f7e176]:
+      - list [ref=f7e177]:
+        - listitem [ref=f7e178]:
+          - button "Print page" [ref=f7e179] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f7e180]: 
+        - listitem [ref=f7e182]:
+          - link " Bookmark job ad" [ref=f7e183] [cursor=pointer]:
+            - /url: "#js-mark-jobad"
+            - generic [ref=f7e184]: 
+            - generic [ref=f7e185]: Bookmark job ad
+        - listitem [ref=f7e186]:
+          - link " Share job ad" [ref=f7e187] [cursor=pointer]:
+            - /url: "#js-share-jobad"
+            - generic [ref=f7e188]: 
+            - generic [ref=f7e189]: Share job ad
+    - separator [ref=f7e190]
+    - generic [ref=f7e193]:
+      - navigation [ref=f7e195]:
+        - list [ref=f7e196]:
+          - listitem [ref=f7e197]:
+            - link "Imprint" [ref=f7e198] [cursor=pointer]:
+              - /url: index.php?ac=imprint
+            - text: "|"
+          - listitem [ref=f7e199]:
+            - link "Data privacy statement" [ref=f7e200] [cursor=pointer]:
+              - /url: index.php?ac=privacy_policy
+            - text: "|"
+          - listitem [ref=f7e201]:
+            - link "Contact" [ref=f7e202] [cursor=pointer]:
+              - /url: index.php?ac=contact
+            - text: "|"
+          - listitem [ref=f7e203]:
+            - link "Cookie Settings" [ref=f7e204] [cursor=pointer]:
+              - /url: "#"
+      - banner [ref=f7e205]
+    - region [ref=f7e207]:
+      - list:
+        - listitem:
+          - link [ref=f7e208] [cursor=pointer]:
+            - /url: "#skip-to-main-heading"
+        - listitem:
+          - button "Login" [ref=f7e209] [cursor=pointer]
+          - button "Login" [ref=f7e210] [cursor=pointer]
+        - listitem:
+          - link [ref=f7e211] [cursor=pointer]:
+            - /url: "#skip-to-mainnav-heading"

@@ -1,0 +1,31 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e7]:
+    - generic [ref=f14e9]:
+      - generic [ref=f14e10]:
+        - img "Holz-Richter GmbH logo" [ref=f14e11]
+        - generic [ref=f14e12]:
+          - link [ref=f14e13] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter
+            - paragraph [ref=f14e14]: Holz-Richter GmbH
+          - link [ref=f14e15] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter/16831928-shopify-e-commerce-manager-product-owner-m-w-d
+            - paragraph [ref=f14e16]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f14e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f14e20]: KC
+        - generic [ref=f14e21]: Kranti Chavan
+    - generic [ref=f14e27]:
+      - heading "Laden Sie Ihren CV hoch" [level=2] [ref=f14e51]
+      - generic [ref=f14e53]:
+        - button "dropzone" [ref=f14e54] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Datei hochladen
+              - generic:
+                - paragraph: Wählen Sie eine Datei aus oder ziehen Sie sie hierher.
+                - paragraph: Die Dateigröße ist auf 10 MB begrenzt.
+        - button [aria-hidden] [ref=f14e55]
+    - generic [ref=f14e36]:
+      - progressbar "14%" [ref=f14e38]
+      - button "Weiter" [disabled] [ref=f14e49]
+  - alert [ref=f14e4]: "Holz-Richter (Lindlar): Shopify E-Commerce Manager / Product Owner (m/w/d)"
+  - region "Notifications, bottom-end (alt+T)"

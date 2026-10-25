@@ -1,0 +1,133 @@
+- generic [ref=f8e6]:
+  - banner:
+    - generic [ref=f8e7]:
+      - link "Direkt zum Inhalt springen" [ref=f8e8] [cursor=pointer]:
+        - /url: "#main"
+      - link "Direkt zur Fußzeile springen" [ref=f8e14] [cursor=pointer]:
+        - /url: "#footer"
+      - generic [ref=f8e21]:
+        - generic [ref=f8e22]:
+          - link "Logo dmTECH, zurück zur Startseite dmTECH Logo" [ref=f8e23] [cursor=pointer]:
+            - /url: /de/
+            - generic [ref=f8e24]: Logo dmTECH, zurück zur Startseite
+            - img "dmTECH Logo"
+          - navigation "Haupt" [ref=f8e25]:
+            - list [ref=f8e26]:
+              - listitem [ref=f8e27]:
+                - button "Öffne das Menu für Über uns" [ref=f8e29] [cursor=pointer]: Über uns
+              - listitem [ref=f8e36]:
+                - button "Öffne das Menu für Deine Möglichkeiten" [ref=f8e38] [cursor=pointer]: Deine Möglichkeiten
+              - listitem [ref=f8e45]:
+                - link "Blog" [ref=f8e47] [cursor=pointer]:
+                  - /url: /de/insights-stories/
+              - listitem [ref=f8e49]:
+                - link "Events" [ref=f8e51] [cursor=pointer]:
+                  - /url: /de/events-meetups/events/
+        - generic [ref=f8e53]:
+          - button [ref=f8e54] [cursor=pointer]
+          - link "Jobs" [ref=f8e60] [cursor=pointer]:
+            - /url: /de/job-listing/
+  - main [ref=f8e63]:
+    - generic [ref=f8e69]:
+      - heading "Dein Bewerberprofil" [level=1] [ref=f8e70]
+      - generic:
+        - alert [ref=f8e74]
+        - generic:
+          - generic "Login ungültig"
+  - contentinfo [ref=f8e78]:
+    - generic [ref=f8e79]:
+      - generic [ref=f8e80]: Fußzeile
+      - generic [ref=f8e82]:
+        - link "Nach oben scrollen" [ref=f8e84] [cursor=pointer]:
+          - /url: "#main"
+        - generic [ref=f8e91]:
+          - generic [ref=f8e92]:
+            - img "dmTECH Logo" [ref=f8e93]
+            - generic [ref=f8e94]: 2026 © dmTECH GmbH
+          - generic [ref=f8e95]:
+            - generic [ref=f8e96]:
+              - generic [ref=f8e97]: dmTECH
+              - navigation "dmTECH" [ref=f8e98]:
+                - list [ref=f8e99]:
+                  - listitem [ref=f8e100]:
+                    - link "Über uns" [ref=f8e101] [cursor=pointer]:
+                      - /url: /de/ueber-uns/
+                  - listitem [ref=f8e102]:
+                    - link "Unsere Kultur" [ref=f8e103] [cursor=pointer]:
+                      - /url: /de/ueber-uns/unternehmenskultur/
+                  - listitem [ref=f8e104]:
+                    - link "Blog" [ref=f8e105] [cursor=pointer]:
+                      - /url: /de/insights-stories/
+                  - listitem [ref=f8e106]:
+                    - link "Events" [ref=f8e107] [cursor=pointer]:
+                      - /url: /de/events-meetups/events/
+            - generic [ref=f8e108]:
+              - generic [ref=f8e109]: Dein Einstieg
+              - navigation "Dein Einstieg" [ref=f8e110]:
+                - list [ref=f8e111]:
+                  - listitem [ref=f8e112]:
+                    - link "Ausbildung" [ref=f8e113] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/ausbildung/
+                  - listitem [ref=f8e114]:
+                    - link "Duales Studium" [ref=f8e115] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/duales-studium/
+                  - listitem [ref=f8e116]:
+                    - link "Werkstudium & Praktikum" [ref=f8e117] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/praktikum-werkstudium/
+                  - listitem [ref=f8e118]:
+                    - link "StudiumPLUS" [ref=f8e119] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/studiumplus/
+                  - listitem [ref=f8e120]:
+                    - link "(Young) Professionals/Berufseinsteiger & Berufserfahrene" [ref=f8e121] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/young-professionals/
+                  - listitem [ref=f8e122]:
+                    - link "Schulkooperationen & Schülerpraktikum" [ref=f8e123] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/schulkooperationen-schuelerpraktikum/
+            - generic [ref=f8e124]:
+              - generic [ref=f8e125]: Bewerben
+              - navigation "Bewerben" [ref=f8e126]:
+                - list [ref=f8e127]:
+                  - listitem [ref=f8e128]:
+                    - link "Offene Stellen" [ref=f8e129] [cursor=pointer]:
+                      - /url: /de/job-listing/
+                  - listitem [ref=f8e130]:
+                    - link "Dein Bewerberprofil" [ref=f8e131] [cursor=pointer]:
+                      - /url: /de/profile
+                  - listitem [ref=f8e132]:
+                    - link "Bewerbungstipps" [ref=f8e133] [cursor=pointer]:
+                      - /url: /de/bewerbungstipps/
+      - generic [ref=f8e135]:
+        - navigation "Social Media Links" [ref=f8e136]:
+          - list [ref=f8e137]:
+            - listitem [ref=f8e138]:
+              - link "Zum github-Profil vom dmTECH" [ref=f8e139] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f8e145]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f8e146] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f8e152]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f8e153] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f8e159]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f8e160] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f8e167]:
+          - list [ref=f8e169]:
+            - listitem [ref=f8e170]:
+              - button "DE" [ref=f8e171] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f8e179]:
+          - list [ref=f8e181]:
+            - listitem [ref=f8e182]:
+              - link "Kontakt" [ref=f8e183] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f8e184]:
+              - link "Impressum" [ref=f8e185] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f8e186]:
+              - link "Datenschutz" [ref=f8e187] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f8e188]:
+              - link "Information zur Barrierefreiheit" [ref=f8e189] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f8e190]:
+              - button "Cookie-Einstellungen" [ref=f8e191] [cursor=pointer]

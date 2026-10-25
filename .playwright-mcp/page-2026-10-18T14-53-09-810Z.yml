@@ -1,0 +1,77 @@
+- generic [ref=f17e4]:
+  - link "Zum Hauptinhalt springen" [ref=f17e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f17e8]:
+    - generic [ref=f17e10]:
+      - link [ref=f17e13] [cursor=pointer]:
+        - /url: https://www.cgm.com/corp_en
+        - img "Karriere - Home" [ref=f17e14]
+      - heading "CGM Career" [level=1] [ref=f17e16]
+      - generic [ref=f17e18]:
+        - generic [ref=f17e19]:
+          - button "Deutsch (‏Deutschland)" [ref=f17e21] [cursor=pointer]
+          - button "Anmelden" [ref=f17e27] [cursor=pointer]
+        - navigation [ref=f17e33]:
+          - button "Homepage" [ref=f17e34] [cursor=pointer]
+          - button "Stellen suchen" [ref=f17e35] [cursor=pointer]
+          - button "Initiativbewerbung" [ref=f17e36] [cursor=pointer]
+  - main [ref=f17e71]:
+    - generic [ref=f17e72]:
+      - generic [ref=f17e73]:
+        - link "Zurück zur Stellenausschreibung" [ref=f17e75] [cursor=pointer]
+        - heading "Product Owner – SAP Commerce Cloud (m/w/d)" [level=2] [ref=f17e80]
+      - generic "Application Progress" [ref=f17e81]:
+        - list [ref=f17e82]:
+          - listitem [ref=f17e83]:
+            - generic: completed step 1 of 6
+            - generic [ref=f17e89]: Meine Daten
+          - listitem [ref=f17e90]:
+            - generic: completed step 2 of 6
+            - generic [ref=f17e96]: Meine Erfahrung
+          - listitem [ref=f17e97]:
+            - generic: current step 3 of 6
+            - generic [ref=f17e103]: Bewerbungsfragen 1 von 2
+          - listitem [ref=f17e104]:
+            - generic: step 4 of 6
+            - generic [ref=f17e110]: Bewerbungsfragen 2 von 2
+          - listitem [ref=f17e111]:
+            - generic: step 5 of 6
+            - generic [ref=f17e117]: Freiwillige Angaben
+          - listitem [ref=f17e118]:
+            - generic: step 6 of 6
+            - generic [ref=f17e124]: Prüfen
+      - generic [ref=f17e125]:
+        - generic [ref=f17e126]:
+          - heading "Bewerbungsfragen 1 von 2" [level=3] [ref=f17e1329]
+          - generic [ref=f17e128]: "* Erforderliches Feld"
+          - generic [ref=f17e1358]:
+            - heading [level=3] [ref=f17e1359]:
+              - button "Fehler gefunden" [expanded] [active] [ref=f17e1360] [cursor=pointer]
+            - list [ref=f17e1372]:
+              - listitem [ref=f17e1373]:
+                - generic [ref=f17e1374]:
+                  - button "Fehler Einverständniserklärung Talent Pool Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung." [ref=f17e1375] [cursor=pointer]:
+                    - text: Fehler
+                    - generic [aria-hidden] [ref=f17e1376]: "-"
+                    - text: Einverständniserklärung Talent Pool Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung.
+                  - generic [ref=f17e1377]: Das Feld " Einverständniserklärung Talent Pool Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung. " ist erforderlich und muss einen Wert enthalten.
+          - group [ref=f17e1331]:
+            - group "Einverständniserklärung Talent Pool Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung.*" [ref=f17e1334]:
+              - generic [ref=f17e1337]:
+                - paragraph [ref=f17e1338]:
+                  - generic [ref=f17e1339]: Einverständniserklärung Talent Pool
+                - paragraph [ref=f17e1341]
+                - paragraph [ref=f17e1342]:
+                  - generic [ref=f17e1343]: Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung.*
+              - generic [ref=f17e1344]:
+                - button "Wert auswählen Erforderlich" [ref=f17e1347]: Wert auswählen
+                - paragraph [ref=f17e1379]:
+                  - generic [ref=f17e1380]: "Fehler:"
+                  - text: Das Feld " Einverständniserklärung Talent Pool Bist Du damit einverstanden, in unseren internen Talentpool aufgenommen zu werden? Wenn Du mit „Ja“ antwortest, erteilst Du uns die Erlaubnis, Deine Daten für 12 Monate zu speichern und Dich im Falle einer interessanten Karrieremöglichkeit kontaktieren zu dürfen. Du kannst dieser Einwilligung jederzeit widersprechen. Weitere Informationen findest Du auch in unserer Datenschutzerklärung. " ist erforderlich und muss einen Wert enthalten.
+        - generic [ref=f17e212]:
+          - button "Zurück" [ref=f17e1031] [cursor=pointer]
+          - button "Weiter" [ref=f17e215] [cursor=pointer]
+  - generic [ref=f17e42]:
+    - link "CGM Datenschutzerklärung" [ref=f17e44] [cursor=pointer]:
+      - /url: https://www.cgm.com/corp_en/career/data-protection-declaration-cgm-applicant-portal-wd.html
+    - generic [ref=f17e45]: © 2026 Workday, Inc. Alle Rechte vorbehalten.

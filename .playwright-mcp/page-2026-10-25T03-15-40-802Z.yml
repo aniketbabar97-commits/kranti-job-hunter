@@ -1,0 +1,178 @@
+- generic [active] [ref=f10e1]:
+  - banner "Top bar menu" [ref=f10e2]:
+    - generic:
+      - link "Skip to main content" [ref=f10e3] [cursor=pointer]:
+        - /url: "#start-content"
+      - link [ref=f10e6] [cursor=pointer]:
+        - /url: https://www.cgi.com/en
+        - img "CGI official logo" [ref=f10e7]
+      - button "Access to main navigation" [ref=f10e14] [cursor=pointer]
+  - generic [ref=f10e17]:
+    - banner [ref=f10e18]:
+      - generic [ref=f10e19]:
+        - generic [ref=f10e20]:
+          - heading "Suche" [level=1] [ref=f10e21]
+          - heading "Mein Profil" [level=2] [ref=f10e22]
+        - img "Careers" [ref=f10e24]
+    - region "Main content" [ref=f10e27]:
+      - generic [ref=f10e36]:
+        - list [ref=f10e38]:
+          - listitem [ref=f10e39]:
+            - link "Profil anlegen | Anmelden" [ref=f10e40] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=login
+          - listitem [ref=f10e41]:
+            - link "Karriere-Newsletter aktivieren" [ref=f10e42] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=JobMatchSubscription
+        - generic [ref=f10e46]:
+          - generic [ref=f10e47]:
+            - generic [ref=f10e48]:
+              - strong [ref=f10e50]: "Stellen-ID:"
+              - generic [ref=f10e51]: J1026-0889
+            - generic [ref=f10e52]:
+              - strong [ref=f10e54]: "Title:"
+              - generic [ref=f10e55]: Infra / DevOps Lead - eCommerce (m/w/d)
+            - separator [ref=f10e57]
+          - paragraph [ref=f10e60]: Wenn Sie sich zum ersten Mal anmelden, erstellen Sie zunächst ein Karriereprofil, das Sie bei jeder Bewerbung bei CGI wiederverwenden können. Als wiederkehrender Nutzer können Sie sich auch jederzeit in Ihr Profil einloggen und es aktualisieren. Wenn Sie bei uns ein Karriereprofil anlegen, müssen Sie daher nicht jedes Mal ein Bewerbungsformular ausfüllen, wenn Sie sich um eine neue Stelle bewerben möchten.
+          - generic [ref=f10e61]:
+            - generic [ref=f10e62]:
+              - generic [ref=f10e63]:
+                - heading "Legen Sie ein neues Profil an" [level=3] [ref=f10e64]
+                - paragraph [ref=f10e65]: Geben Sie ihre E-mail Adresse mit dem gewünschten Land ein.
+              - generic [ref=f10e66]:
+                - generic [ref=f10e67]:
+                  - generic [ref=f10e68] [cursor=pointer]: "E-Mail-Adresse:"
+                  - textbox "E-Mail-Adresse:" [ref=f10e69]:
+                    - /placeholder: E-Mail Adresse
+                - generic [ref=f10e70]:
+                  - generic [ref=f10e71] [cursor=pointer]: "Bevorzugtes Land:"
+                  - combobox [aria-hidden] [ref=f10e72]
+                  - combobox "-- bitte auswählen --" [ref=f10e75] [cursor=pointer]
+                - generic [ref=f10e77]:
+                  - button "Registrieren" [ref=f10e78] [cursor=pointer]
+                  - generic [ref=f10e79]:
+                    - iframe [ref=f10e82]:
+                      - main [ref=f12e2]:
+                        - button "Apply With LinkedIn" [ref=f12e3] [cursor=pointer]
+                    - img "Use the Apply with LinkedIn option to initiate the CGI profile creation process. Applying with LinkedIn will allow CGI to pull basic information and employment history directly from LinkedIn." [ref=f10e84] [cursor=pointer]
+            - generic [ref=f10e85]:
+              - generic [ref=f10e86]:
+                - heading "Loggen Sie sich in ihrem bestehenden Bewerberprofil ein" [level=3] [ref=f10e87]
+                - paragraph [ref=f10e88]: Geben Sie Ihre E-Mail und Ihr Passwort ein, um sich auf diese position zu bewerben.
+              - generic [ref=f10e89]:
+                - generic [ref=f10e90]:
+                  - generic [ref=f10e91] [cursor=pointer]: "E-Mail-Adresse:"
+                  - textbox "E-Mail-Adresse:" [ref=f10e92]:
+                    - /placeholder: E-Mail Adresse
+                - generic [ref=f10e93]:
+                  - generic [ref=f10e94] [cursor=pointer]: "Password:"
+                  - textbox "Password:" [ref=f10e95]
+                - link "Passwort vergessen?" [ref=f10e97] [cursor=pointer]:
+                  - /url: xweb.asp?NTKN=c&page=forgotpassword
+                - button "Bewerben" [ref=f10e99] [cursor=pointer]
+    - contentinfo [ref=f10e100]:
+      - generic [ref=f10e102]:
+        - generic [ref=f10e105]:
+          - heading "Fragen? Gerne helfen wir weiter." [level=2] [ref=f10e106]
+          - link "Kontakt" [ref=f10e108] [cursor=pointer]:
+            - /url: https://www.cgi.com/de/de/kontakt
+        - generic [ref=f10e111]:
+          - generic [ref=f10e113]:
+            - img "CGI official logo" [ref=f10e115]
+            - heading "Insights you can act on" [level=2] [ref=f10e121]
+            - paragraph [ref=f10e122]: CGI wurde 1976 gegründet und gehört zu den größten Unternehmen für IT und Business Consulting weltweit. Wir kennen Ihre Branche, handeln ergebnisorientiert und helfen Ihnen so, den ROI zu steigern.
+            - paragraph [ref=f10e123]: © 2026 CGI Inc.
+          - generic [ref=f10e124]:
+            - heading "Unternehmen" [level=2] [ref=f10e125]
+            - navigation [ref=f10e127]:
+              - heading "Useful links GERMANY" [level=2] [ref=f10e128]
+              - list [ref=f10e129]:
+                - listitem [ref=f10e130]:
+                  - link "Über uns" [ref=f10e131] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/unternehmen
+                - listitem [ref=f10e132]:
+                  - link "Verantwortung" [ref=f10e133] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung
+                - listitem [ref=f10e134]:
+                  - link "Management" [ref=f10e135] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/management-team-deutschland
+                - listitem [ref=f10e136]:
+                  - link "Standorte" [ref=f10e137] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/Lokationen
+                - listitem [ref=f10e138]:
+                  - link "Allianzen" [ref=f10e139] [cursor=pointer]:
+                    - /url: https://www.cgi.com/en/alliances
+                - listitem [ref=f10e140]:
+                  - link "Merger" [ref=f10e141] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/merger
+          - generic [ref=f10e142]:
+            - heading "Mediathek" [level=2] [ref=f10e143]
+            - navigation [ref=f10e145]:
+              - heading "Library Links GERMANY" [level=2] [ref=f10e146]
+              - list [ref=f10e147]:
+                - listitem [ref=f10e148]:
+                  - link "Aktuelles" [ref=f10e149] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter
+                - listitem [ref=f10e150]:
+                  - link "Artikel" [ref=f10e151] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/articles
+                - listitem [ref=f10e152]:
+                  - link "Blogs" [ref=f10e153] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/blogs
+                - listitem [ref=f10e154]:
+                  - link "Events" [ref=f10e155] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/events
+                - listitem [ref=f10e156]:
+                  - link "Podcasts" [ref=f10e157] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/podcasts
+                - listitem [ref=f10e158]:
+                  - link "Presse" [ref=f10e159] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/press-releases
+                - listitem [ref=f10e160]:
+                  - link "Standpunkt" [ref=f10e161] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/standpunkte
+          - generic [ref=f10e162]:
+            - heading "Rechtliches" [level=2] [ref=f10e163]
+            - navigation [ref=f10e165]:
+              - heading "Legal GERMANY" [level=2] [ref=f10e166]
+              - list [ref=f10e167]:
+                - listitem [ref=f10e168]:
+                  - link "Beschwerden/Hinweise" [ref=f10e169] [cursor=pointer]:
+                    - /url: https://app.convercent.com/de-de/Anonymous/IssueIntake/LandingPage/c430ea19-76ad-e911-a96a-000d3ab9f062?_=1571951870663
+                - listitem [ref=f10e170]:
+                  - link "Compliance" [ref=f10e171] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung/unternehmensfuehrung
+                - listitem [ref=f10e172]:
+                  - link "Datenschutz" [ref=f10e173] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/datenschutz
+                - listitem [ref=f10e174]:
+                  - link "Impressum" [ref=f10e175] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/impressum
+                - listitem [ref=f10e176]:
+                  - link "Cookie-Einstellungen" [ref=f10e177] [cursor=pointer]
+          - generic [ref=f10e178]:
+            - generic [ref=f10e182]:
+              - heading "CGI abonnieren" [level=2] [ref=f10e183]
+              - heading "Wir informieren Sie" [level=3] [ref=f10e184]
+              - link "Abonnieren" [ref=f10e185] [cursor=pointer]:
+                - /url: https://www.cgi.com/de/de/content-subscription
+            - generic [ref=f10e186]:
+              - heading "Folgen Sie uns" [level=2] [ref=f10e187]
+              - navigation [ref=f10e189]:
+                - heading "Social Media GERMANY" [level=2] [ref=f10e190]
+                - generic [ref=f10e191]:
+                  - list:
+                    - listitem [ref=f10e192]:
+                      - link " Xing" [ref=f10e193] [cursor=pointer]:
+                        - /url: https://www.xing.com/companies/cgi
+                    - listitem [ref=f10e194]:
+                      - link " LinkedIn" [ref=f10e195] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/cgi/?originalSubdomain=de
+                    - listitem [ref=f10e196]:
+                      - link " Twitter" [ref=f10e197] [cursor=pointer]:
+                        - /url: https://twitter.com/cgi_de?lang=de
+                    - listitem [ref=f10e198]:
+                      - link " Facebook" [ref=f10e199] [cursor=pointer]:
+                        - /url: https://www.facebook.com/CGIDeutschland/
+                    - listitem [ref=f10e200]:
+                      - link " Youtube" [ref=f10e201] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCGQHK_7t782ivIcar8PIsTw

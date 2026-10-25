@@ -117,3 +117,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.scheer-group.com/#initiativbewerbung (Scheer, emailed to career@scheer-group.com)
 - 2026-10-25 https://www.shopmacher.de/#initiativbewerbung (Shopmacher, emailed to bewerbung@shopmacher.de)
 - 2026-10-25 https://www.spryker.com/#initiativbewerbung (Spryker, emailed to talent@spryker.com)
+- 2026-10-25 https://www.weidmueller.de/#initiativbewerbung (Weidmüller, website via helper – confirmed)

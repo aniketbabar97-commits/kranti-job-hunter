@@ -1,0 +1,129 @@
+- generic [active] [ref=f1e1]:
+  - list [ref=f1e2]:
+    - listitem:
+      - link [ref=f1e3] [cursor=pointer]:
+        - /url: https://www.musik-meyer.de/en/career/jobs/application-form
+    - listitem:
+      - button "Nachricht ausblenden" [ref=f1e7] [cursor=pointer]
+  - button "Toggle navigation" [ref=f1e11] [cursor=pointer]
+  - banner [ref=f1e14]:
+    - navigation [ref=f1e15]:
+      - link "MUSIK MEYER GmbH" [ref=f1e16] [cursor=pointer]:
+        - /url: /
+  - heading "Stellenausschreibungen" [level=2] [ref=f1e39]
+  - navigation "Breadcrumb" [ref=f1e40]:
+    - generic [ref=f1e41]:
+      - paragraph [ref=f1e42]: "You are here:"
+      - list [ref=f1e43]:
+        - listitem [ref=f1e44]:
+          - link "MUSIK MEYER GmbH" [ref=f1e45] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f1e46]:
+          - text: //
+          - link "Karriere" [ref=f1e47] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f1e48]:
+          - text: //
+          - link "Stellenanzeigen" [ref=f1e49] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f1e50]: // Bewerbungsformular
+  - generic [ref=f1e54]:
+    - heading "Bewerbung" [level=2] [ref=f1e56]
+    - paragraph [ref=f1e57]: Wir freuen uns auf Sie und Ihre aussagekräftigen Bewerbungsunterlagen!
+    - generic [ref=f1e59]:
+      - heading "Bewerbungsformular" [level=3] [ref=f1e60]
+      - group [ref=f1e61]:
+        - generic [ref=f1e62]:
+          - generic [ref=f1e63]:
+            - generic [ref=f1e64]: Vorname*
+            - textbox "Vorname*" [ref=f1e66]
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]: Nachname*
+            - textbox "Nachname*" [ref=f1e70]
+        - generic [ref=f1e72]:
+          - generic [ref=f1e73]: E-Mail*
+          - textbox "E-Mail*" [ref=f1e75]
+        - generic [ref=f1e77]:
+          - generic [ref=f1e78]: Stellenanzeige
+          - textbox "Stellenanzeige" [ref=f1e80]: Java Backend Entwickler (m/w/d)
+        - generic [ref=f1e82]:
+          - generic [ref=f1e83]: Upload Bewerbungsunterlagen
+          - button "Upload Bewerbungsunterlagen" [ref=f1e85]
+        - generic [ref=f1e87]:
+          - generic [ref=f1e88]: Einverständniserklärung*
+          - generic [ref=f1e91]:
+            - checkbox "Ja, ich erkläre mich einverstanden, dass meine Nachricht zur weiteren Bearbeitung gespeichert und genutzt werden darf. Gleichzeitig stimme ich einer Datenverarbeitung gemäß der Datenschutzerklärung zu." [ref=f1e92]
+            - text: Ja, ich erkläre mich einverstanden, dass meine Nachricht zur weiteren Bearbeitung gespeichert und genutzt werden darf. Gleichzeitig stimme ich einer Datenverarbeitung gemäß der Datenschutzerklärung zu.
+        - button "Absenden" [ref=f1e96] [cursor=pointer]
+      - generic [ref=f1e97]:
+        - generic [ref=f1e98]: Bitte dieses Feld NICHT ausfüllen!
+        - textbox "Bitte dieses Feld NICHT ausfüllen!" [ref=f1e99]
+    - paragraph [ref=f1e100]:
+      - link "Datenschutzerklärung anzeigen" [ref=f1e102] [cursor=pointer]:
+        - /url: /datenschutz
+    - paragraph [ref=f1e103]: "*) Pflichtfelder"
+  - contentinfo [ref=f1e104]:
+    - generic [ref=f1e106]:
+      - generic [ref=f1e107]:
+        - paragraph [ref=f1e109]:
+          - strong [ref=f1e110]: MUSIK MEYER GmbH
+          - text: Industriestraße 2035041 MarburgGermany
+        - paragraph [ref=f1e111]
+        - paragraph [ref=f1e112]
+        - paragraph [ref=f1e113]:
+          - text: Tel. +49 6421 989 0
+          - link "info@ musik-meyer.de" [ref=f1e114] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=f1e116]:
+        - listitem [ref=f1e117]:
+          - link "Brands" [ref=f1e118] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=f1e119]:
+          - link "News" [ref=f1e120] [cursor=pointer]:
+            - /url: /news-events
+        - listitem [ref=f1e121]:
+          - link "Team" [ref=f1e122] [cursor=pointer]:
+            - /url: /team
+        - listitem [ref=f1e123]:
+          - link "Stellenanzeigen" [ref=f1e124] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f1e125]:
+          - link "Unternehmen" [ref=f1e126] [cursor=pointer]:
+            - /url: /unternehmen
+        - listitem [ref=f1e127]:
+          - link "Kontakt" [ref=f1e128] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f1e129]:
+          - link "B2B Login" [ref=f1e130] [cursor=pointer]:
+            - /url: https://extra.musik-meyer.net/fos/Static/Login?PostBack=/fos/
+    - generic [ref=f1e134]:
+      - list [ref=f1e136]:
+        - listitem [ref=f1e137]:
+          - link "Impressum" [ref=f1e138] [cursor=pointer]:
+            - /url: /impressum
+        - listitem [ref=f1e139]:
+          - link "Datenschutz" [ref=f1e140] [cursor=pointer]:
+            - /url: /datenschutz
+        - listitem [ref=f1e141]:
+          - link "Kontakt" [ref=f1e142] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f1e143]:
+          - link "Cookie-Setup" [ref=f1e144] [cursor=pointer]:
+            - /url: /cookie-setup
+        - listitem [ref=f1e145]:
+          - link "Hinweisgeberschutz" [ref=f1e146] [cursor=pointer]:
+            - /url: /kontakt-corporate/hinweisgeberschutzgesetz
+        - listitem
+      - list [ref=f1e148]:
+        - listitem [ref=f1e149]:
+          - link "MUSIK MEYER on LinkedIn" [ref=f1e150] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/musik-meyer/
+        - listitem [ref=f1e153]:
+          - link "MUSIK MEYER on XING" [ref=f1e154] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/musikmeyergmbh
+        - listitem [ref=f1e157]:
+          - link "MUSIK MEYER on Facebook" [ref=f1e158] [cursor=pointer]:
+            - /url: https://www.facebook.com/musikmeyer/
+        - listitem [ref=f1e161]:
+          - link "MUSIK MEYER on Instagram" [ref=f1e162] [cursor=pointer]:
+            - /url: https://www.instagram.com/musik_meyer/

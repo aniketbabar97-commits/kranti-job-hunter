@@ -1,0 +1,190 @@
+- generic [ref=f89e3]:
+  - generic [ref=f89e9]:
+    - link [ref=f89e10] [cursor=pointer]:
+      - /url: https://www.apvento.de
+    - generic:
+      - navigation:
+        - generic:
+          - link "Stellenangebote":
+            - /url: ./career
+            - generic:
+              - paragraph: Stellenangebote
+        - generic:
+          - link "Über uns":
+            - /url: ./about
+            - generic:
+              - paragraph: Über uns
+        - generic:
+          - link "Leistungen":
+            - /url: ./service
+            - generic:
+              - paragraph: Leistungen
+        - generic:
+          - link "Fallstudie":
+            - /url: ./case-study
+            - generic:
+              - paragraph: Fallstudie
+    - generic [ref=f89e12]:
+      - link [ref=f89e14] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=f89e16]: Kontakt
+      - generic [ref=f89e18] [cursor=pointer]
+  - generic [ref=f89e27]:
+    - generic [ref=f89e28]:
+      - generic [ref=f89e29]:
+        - paragraph [ref=f89e34]: TOP CHANCEN
+        - generic [ref=f89e35]:
+          - heading "Wir bringen dich dorthin, wo du hingehörst – ganz nach oben." [level=1] [ref=f89e38]
+          - paragraph [ref=f89e41]: Bei apvento geht es nicht um irgendeinen Job. Es geht um deine Zukunft. Wir öffnen dir die Türen zu Top-Unternehmen.
+      - generic [ref=f89e42]:
+        - button [ref=f89e43]:
+          - paragraph [ref=f89e45]: Search
+        - button "Search Icon" [ref=f89e48] [cursor=pointer]
+    - generic [ref=f89e58]:
+      - generic [ref=f89e59]:
+        - paragraph [ref=f89e63] [cursor=pointer]: All
+        - paragraph [ref=f89e67] [cursor=pointer]: Lager & Logistik
+        - paragraph [ref=f89e71] [cursor=pointer]: Kaufmännische Stellen
+        - paragraph [ref=f89e75] [cursor=pointer]: IT & Tech
+        - paragraph [ref=f89e79] [cursor=pointer]: Finance & Controlling
+        - paragraph [ref=f89e83] [cursor=pointer]: Fach- und Führungskräfte
+      - generic [ref=f89e84]:
+        - link "m/w/d Steuerfachangestellte je nach Qualifikation Vollzeit Teilzeit ab sofort" [ref=f89e86] [cursor=pointer]:
+          - /url: ./career/steuerfachangestellte
+          - generic [ref=f89e87]:
+            - generic [ref=f89e88]:
+              - paragraph [ref=f89e93]: m/w/d
+              - heading "Steuerfachangestellte" [level=6] [ref=f89e95]
+            - generic [ref=f89e96]:
+              - paragraph [ref=f89e100]: je nach Qualifikation
+              - paragraph [ref=f89e104]: Vollzeit
+              - paragraph [ref=f89e108]: Teilzeit
+              - paragraph [ref=f89e112]: ab sofort
+        - link "m/w/d IT Administrator +5 Jahre Erfahrung IT-ADMIN Vollzeit" [ref=f89e115] [cursor=pointer]:
+          - /url: ./career/it-administrator
+          - generic [ref=f89e116]:
+            - generic [ref=f89e117]:
+              - paragraph [ref=f89e122]: m/w/d
+              - heading "IT Administrator" [level=6] [ref=f89e124]
+            - generic [ref=f89e125]:
+              - paragraph [ref=f89e129]: +5 Jahre Erfahrung
+              - paragraph [ref=f89e133]: IT-ADMIN
+              - paragraph [ref=f89e137]: Vollzeit
+              - generic [ref=f89e139]:
+                - generic:
+                  - paragraph
+        - link [ref=f89e142] [cursor=pointer]:
+          - /url: ./career/fachkraft-lagerlogistik
+          - generic [ref=f89e143]:
+            - generic [ref=f89e144]:
+              - generic [ref=f89e145]:
+                - img "Company Icon" [ref=f89e148]
+                - paragraph [ref=f89e150]: M/W/D
+              - heading "Fachkraft Lagerlogistik" [level=6] [ref=f89e152]
+            - generic [ref=f89e153]:
+              - paragraph [ref=f89e157]: 5 Jahre Erfahrung
+              - paragraph [ref=f89e161]: Vollzeit
+              - paragraph [ref=f89e165]: ab sofort
+              - paragraph [ref=f89e169]: SAP
+        - link [ref=f89e172] [cursor=pointer]:
+          - /url: ./career/php-entwickler
+          - generic [ref=f89e173]:
+            - generic [ref=f89e174]:
+              - generic [ref=f89e175]:
+                - img "Company Icon" [ref=f89e178]
+                - paragraph [ref=f89e180]: M/W/D
+              - heading "PHP - Entwickler" [level=6] [ref=f89e182]
+            - generic [ref=f89e183]:
+              - paragraph [ref=f89e187]: 6 Jahre Erfahrung
+              - paragraph [ref=f89e191]: Vollzeit
+              - paragraph [ref=f89e195]: Experte
+              - paragraph [ref=f89e199]: PHP Experte
+        - paragraph [ref=f89e204] [cursor=pointer]: Load More
+  - generic [ref=f89e207]:
+    - generic [ref=f89e208]:
+      - paragraph [ref=f89e213]: Jetzt lesen, später überzeugen – apvento Blog
+      - generic [ref=f89e214]:
+        - heading "Hol dir professionelle Einblicke & Tipps in unserem Blog" [level=3] [ref=f89e217]
+        - paragraph [ref=f89e220]: Unser Blog begleitet dich mit wertvollen Impulsen durch jede Phase deiner Jobsuche.
+    - generic [ref=f89e221]:
+      - link "🧠 Wie bereite ich mich auf ein Vorstellungsgespräch vor? 02.05.2026 5 min read" [ref=f89e225] [cursor=pointer]:
+        - /url: ./blog/wie-bereite-ich-mich-auf-ein-vorstellungsgespraech-vor
+        - generic [ref=f89e229]:
+          - heading "🧠 Wie bereite ich mich auf ein Vorstellungsgespräch vor?" [level=6] [ref=f89e231]
+          - generic [ref=f89e232]:
+            - paragraph [ref=f89e234]: 02.05.2026
+            - paragraph [ref=f89e237]: 5 min read
+      - generic [ref=f89e238]:
+        - link [ref=f89e241] [cursor=pointer]:
+          - /url: ./blog/wie-erstelle-ich-ein-linkedin-profil
+          - img "Blog Image" [ref=f89e245]
+          - generic [ref=f89e246]:
+            - heading "🚀 Wie du ein überzeugendes LinkedIn-Profil erstellst und warum es wichtig ist." [level=6] [ref=f89e248]
+            - generic [ref=f89e249]:
+              - paragraph [ref=f89e251]: 29.04.2026
+              - paragraph [ref=f89e254]: 5 min read
+        - link [ref=f89e257] [cursor=pointer]:
+          - /url: ./blog/dein-apvento-ratgeber-bewerbungsgespraeche
+          - img "Blog Image" [ref=f89e261]
+          - generic [ref=f89e262]:
+            - heading "🎯 Dein Apvento-Ratgeber für erfolgreiche Bewerbungsgespräche – besonders online!" [level=6] [ref=f89e264]
+            - generic [ref=f89e265]:
+              - paragraph [ref=f89e267]: 14.04.2025
+              - paragraph [ref=f89e270]: 5 min read
+  - generic [ref=f89e275]:
+    - img "Cta Image" [ref=f89e278]
+    - generic [ref=f89e279]:
+      - heading "Abonnieren Sie unseren Newsletter, um aktuelle Stellenangebote zu erhalten." [level=4] [ref=f89e281]
+      - generic [ref=f89e282]:
+        - textbox [ref=f89e285]:
+          - /placeholder: Geben Sie Ihre E-Mail ein
+        - button "Abonnieren" [ref=f89e287] [cursor=pointer]:
+          - paragraph [ref=f89e289]: Abonnieren
+  - contentinfo [ref=f89e294]:
+    - generic [ref=f89e296]:
+      - generic [ref=f89e297]:
+        - paragraph [ref=f89e300]: apvento ist dein verlässlicher Partner für moderne Jobsuche und professionelle Personalberatung – wir bringen Menschen und Unternehmen zusammen, die wirklich zueinander passen. Ob du einen neuen Job suchst oder die passenden Talente für dein Team – bei apvento bist du richtig!
+        - generic [ref=f89e301]:
+          - generic [ref=f89e302]:
+            - paragraph [ref=f89e304]: Unternehmen
+            - generic [ref=f89e305]:
+              - paragraph [ref=f89e307]:
+                - link "Stellenangebote" [ref=f89e308] [cursor=pointer]:
+                  - /url: ./career
+              - paragraph [ref=f89e310]:
+                - link "Über uns" [ref=f89e311] [cursor=pointer]:
+                  - /url: ./about
+              - paragraph [ref=f89e313]:
+                - link "Leistungen" [ref=f89e314] [cursor=pointer]:
+                  - /url: ./service
+              - paragraph [ref=f89e316]:
+                - link "Erfolge" [ref=f89e317] [cursor=pointer]:
+                  - /url: ./case-study
+              - paragraph [ref=f89e319]:
+                - link "DSGVO" [ref=f89e320] [cursor=pointer]:
+                  - /url: ./dsgvo
+              - paragraph [ref=f89e322]:
+                - link "Impressum" [ref=f89e323] [cursor=pointer]:
+                  - /url: ./impressum
+          - generic [ref=f89e325]:
+            - paragraph [ref=f89e327]: Social
+            - generic [ref=f89e328]:
+              - paragraph [ref=f89e330]:
+                - link "Facebook" [ref=f89e331] [cursor=pointer]:
+                  - /url: https://www.facebook.com/
+              - paragraph [ref=f89e333]:
+                - link "Instagram" [ref=f89e334] [cursor=pointer]:
+                  - /url: https://www.instagram.com/
+              - paragraph [ref=f89e336]:
+                - link "LinkedIn" [ref=f89e337] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/kazierfan/
+              - paragraph [ref=f89e339]:
+                - link "Twitter" [ref=f89e340] [cursor=pointer]:
+                  - /url: https://x.com/pentaclay
+      - generic [ref=f89e342]:
+        - paragraph [ref=f89e344]: Gronau, Germany
+        - paragraph [ref=f89e346]:
+          - link "info@apvento." [ref=f89e347] [cursor=pointer]:
+            - /url: "mailto: hello@pentaclay.com"
+          - text: de
+        - paragraph [ref=f89e349]: © 2026 all rights reserved.

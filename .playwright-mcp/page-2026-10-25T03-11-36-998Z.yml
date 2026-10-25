@@ -1,0 +1,124 @@
+- generic [ref=f29e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f29e2] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f29e16] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f29e33] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f29e80] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f29e45]:
+      - generic [ref=f29e46]:
+        - link "Zur Startseite" [ref=f29e48] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f29e139]
+        - list [ref=f29e52]:
+          - listitem [ref=f29e53]:
+            - link "Jobsuche" [ref=f29e54] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f29e55]:
+            - link "Arbeitgeber" [ref=f29e56] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f29e57]:
+            - link "Schüler" [ref=f29e58] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f29e59]:
+            - link "Studierende" [ref=f29e60] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f29e61]:
+            - link "Direkteinstieg" [ref=f29e62] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f29e65] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - generic [ref=f29e68]:
+    - generic [ref=f29e70]:
+      - application "Zent-Berf Bewerbungsformular Wizard" [ref=f29e83]:
+        - text: ✓ ✓ ✓ ✓
+        - generic [ref=f29e84]:
+          - heading "Dateianhänge" [level=2] [ref=f29e85]
+          - heading "Persönliche Angaben" [level=2] [ref=f29e119]
+          - heading "Weitere Angaben" [level=2] [ref=f29e120]
+          - tabpanel "Weitere Angaben" [ref=f29e209]:
+            - generic [ref=f29e210]:
+              - generic [ref=f29e211]:
+                - heading "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [level=3] [ref=f29e212]
+                - progressbar "Fortschritt Schritt 3 von 4" [ref=f29e214]: 3 von 4
+              - generic [ref=f29e217]:
+                - generic [ref=f29e218]:
+                  - generic [ref=f29e219]: Deutschkenntnisse*
+                  - combobox "Deutschkenntnisse*" [ref=f29e220] [cursor=pointer]:
+                    - option [selected]
+                    - option "Keine Kenntnisse"
+                    - option "A1"
+                    - option "A2"
+                    - option "B1"
+                    - option "B2"
+                    - option "C1"
+                    - option "C2 (Muttersprache)"
+                - generic [ref=f29e221]:
+                  - generic [ref=f29e222]: Weitere Sprachen und Niveaus
+                  - generic [ref=f29e223]: Max 80 Zeichen
+                  - textbox "Weitere Sprachen und Niveaus" [ref=f29e224]
+                - generic [ref=f29e225]:
+                  - generic [ref=f29e226]: Relevante Berufserfahrung*
+                  - combobox "Relevante Berufserfahrung*" [ref=f29e227] [cursor=pointer]:
+                    - option [selected]
+                    - option "Weniger als 2 Jahre"
+                    - option "2- 5 Jahre"
+                    - option "6-10 Jahre"
+                    - option "Mehr als 10 Jahre"
+                - generic [ref=f29e228]:
+                  - generic [ref=f29e229]: Gehaltsvorstellung (brutto in Euro/ Jahr)*
+                  - spinbutton "Gehaltsvorstellung (brutto in Euro/ Jahr)*" [ref=f29e230]
+                - generic [ref=f29e231]:
+                  - generic [ref=f29e232]: frühestmöglicher Eintrittstermin*
+                  - textbox "frühestmöglicher Eintrittstermin*" [ref=f29e233]
+                - generic [ref=f29e234]:
+                  - generic [ref=f29e235]: Kündigungsfrist
+                  - generic [ref=f29e236]: Max 80 Zeichen
+                  - textbox "Kündigungsfrist" [ref=f29e237]
+                - generic [ref=f29e238]:
+                  - generic [ref=f29e239]: Wie bist du auf uns aufmerksam geworden?*
+                  - combobox "Wie bist du auf uns aufmerksam geworden?*" [ref=f29e240] [cursor=pointer]:
+                    - option [selected]
+                    - option "Deichmann-Karriere"
+                    - option "Agentur für Arbeit"
+                    - option "ausbildung.de"
+                    - option "azubiyo.de"
+                    - option "Facebook"
+                    - option "IHK Lehrstellenbörse"
+                    - option "Instagram"
+                    - option "Messe"
+                    - option "über einen Bekannten/ Mitarbeiter"
+                    - option "Werbemittel In der Filiale"
+                    - option "Youtube"
+                    - option "TikTok"
+                    - option "Werbebanner auf einer Internetseite"
+                    - option "Werbemittel Filiale"
+                    - option "Schule/Lehrer"
+                    - option "Bewerbertag"
+                    - option "Instaffo"
+                    - option "Linkedin basic jobs posting"
+                    - option "Linkedin internal only job posting"
+                    - option "JTMO (Je Transfère Mes Offres)"
+          - heading "Vorschau" [level=2] [ref=f29e121]
+          - alert
+        - menu "Pagination" [ref=f29e123]:
+          - listitem [ref=f29e207]:
+            - menuitem "Zurück" [ref=f29e208] [cursor=pointer]
+          - listitem [ref=f29e124]:
+            - menuitem "Vorschau" [active] [ref=f29e241] [cursor=pointer]
+      - region "Speichern und Laden Bereich" [ref=f29e71]:
+        - separator [ref=f29e72]
+        - paragraph [ref=f29e73]: Wenn du deine Bewerbung zwischenspeichern möchtest, um sie zu einem späteren Zeitpunkt weiter zu bearbeiten, dann klicke unten auf "Bewerbung speichern". Um die Bewerbung dann anschließend weiter zu bearbeiten, klicke auf "Bewerbung laden".
+        - button "Bewerbung speichern" [ref=f29e74] [cursor=pointer]
+    - link "Nach oben scrollen" [ref=f29e148] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [aria-hidden] [ref=f29e150]: 
+  - iframe [ref=f29e78]:
+    - generic [ref=f32e6]:
+      - text: protected by
+      - strong [ref=f32e7]: reCAPTCHA
+  - button "Gracie" [ref=f29e127] [cursor=pointer]

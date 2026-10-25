@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link "Direkt zum Hauptinhalt springen" [ref=e5] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e6]:
+      - generic [ref=e8]:
+        - link "Provitex – Startseite" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - button "Menü öffnen" [ref=e15]
+    - main [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e23]:
+          - navigation "Brotkrümelnavigation" [ref=e24]:
+            - list [ref=e25]:
+              - listitem [ref=e26]:
+                - link "www.provitex.de" [ref=e27] [cursor=pointer]:
+                  - /url: /
+                - generic [aria-hidden] [ref=e28]: ›
+              - listitem [ref=e29]:
+                - link "Karriere" [ref=e30] [cursor=pointer]:
+                  - /url: /karriere
+          - generic [ref=e33]:
+            - paragraph [ref=e34]:
+              - generic [ref=e35]: Reutlingen (Innenstadt)
+              - generic [aria-hidden] [ref=e36]: ·
+              - generic [ref=e37]: Hybrid (min. 1 Tag/Woche in der Agentur)
+              - generic [aria-hidden] [ref=e38]: ·
+              - generic [ref=e39]: ab sofort
+            - heading "Shopware 6 Full-Stack Entwickler (m/w/d)" [level=1] [ref=e41]
+        - generic [ref=e49]:
+          - heading "Warum Provitex?" [level=2] [ref=e51]:
+            - generic [ref=e52]: Warum
+            - generic [ref=e53]: Provitex?
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: Wir glauben, dass moderne Softwareentwicklung mehr ist als nur Code schreiben. Deshalb setzen wir auf aktuelle Technologien, kurze Entscheidungswege und einen pragmatischen Entwicklungsprozess.
+            - paragraph [ref=e58]
+            - paragraph [ref=e59]: KI gehört für uns inzwischen selbstverständlich zum Werkzeugkasten. Claude und ChatGPT unterstützen uns bei der Analyse, Konzeption und Entwicklung – nicht als Ersatz für Entwickler, sondern als intelligente Werkzeuge, die uns schneller und effizienter machen.
+            - paragraph [ref=e60]
+            - paragraph [ref=e61]: Bei uns arbeitest du an anspruchsvollen Shopware- und Webprojekten, bringst eigene Ideen ein und entwickelst dich gemeinsam mit einem motivierten Team kontinuierlich weiter.
+        - generic [ref=e67]:
+          - heading "Deine Aufgaben" [level=2] [ref=e69]:
+            - generic [ref=e70]:
+              - text: Deine
+              - generic [ref=e71]: Aufgaben
+          - list [ref=e74]:
+            - listitem [ref=e75]: Entwicklung und Weiterentwicklung von Shopware-6-Projekten
+            - listitem [ref=e76]: Umsetzung individueller Storefronts und Themes
+            - listitem [ref=e77]: Entwicklung und Pflege von Shopware-Plugins für Backend und Storefront
+            - listitem [ref=e78]: Integration und Anbindung externer Systeme über APIs und Schnittstellen
+            - listitem [ref=e79]: Konfiguration und Administration von Shopware-Shops (Sales Channels, Rule Builder, Versand- und Zahlungsarten, Erlebniswelten, SEO, Caching etc.)
+            - listitem [ref=e80]: Analyse und Behebung technischer Probleme sowie Optimierung bestehender Shops
+            - listitem [ref=e81]: Unterstützung bei der technischen Konzeption neuer Projekte
+            - listitem [ref=e82]: Zusammenarbeit mit Projektmanagement, Design und Entwicklung
+        - generic [ref=e88]:
+          - heading "Das bringst du mit" [level=2] [ref=e90]:
+            - generic [ref=e91]:
+              - text: Das bringst
+              - generic [ref=e92]: du mit
+          - list [ref=e95]:
+            - listitem [ref=e96]: Erste bis mehrjährige praktische Erfahrung mit Shopware 6
+            - listitem [ref=e97]: Gute Kenntnisse in PHP und Symfony
+            - listitem [ref=e98]: Erfahrung in der Entwicklung von Shopware-Plugins
+            - listitem [ref=e99]: Sicherer Umgang mit Twig, HTML, CSS/SCSS und JavaScript
+            - listitem [ref=e100]: Grundkenntnisse in der Shopware Administration und Konfiguration
+            - listitem [ref=e101]: Erfahrung mit MySQL sowie REST-APIs
+            - listitem [ref=e102]: Kenntnisse im Umgang mit Git und Composer
+            - listitem [ref=e103]: Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
+            - listitem [ref=e104]: Freude an Teamarbeit und Interesse an modernen E-Commerce-Technologien
+        - generic [ref=e110]:
+          - heading "Von Vorteil" [level=2] [ref=e112]:
+            - generic [ref=e113]:
+              - text: Von
+              - generic [ref=e114]: Vorteil
+          - list [ref=e117]:
+            - listitem [ref=e118]: Kenntnisse in Vue.js (Shopware Administration)
+            - listitem [ref=e119]: Erfahrung mit Docker oder DDEV
+            - listitem [ref=e120]: Linux-Grundkenntnisse
+            - listitem [ref=e121]: Erfahrung mit ERP-, PIM- oder CRM-Anbindungen
+            - listitem [ref=e122]: Interesse an Performance-Optimierung und Deployment
+        - generic [ref=e128]:
+          - heading "Das bieten wir dir" [level=2] [ref=e130]:
+            - generic [ref=e131]:
+              - text: Das bieten
+              - generic [ref=e132]: wir dir
+          - list [ref=e135]:
+            - listitem [ref=e136]: Spannende und abwechslungsreiche Shopware-Projekte
+            - listitem [ref=e137]: Moderne Entwicklungsumgebung und aktuelle Technologien
+            - listitem [ref=e138]: Flexible Arbeitszeiten und die Möglichkeit zum mobilen Arbeiten
+            - listitem [ref=e139]: Eigenverantwortliches Arbeiten mit viel Gestaltungsspielraum
+            - listitem [ref=e140]: Kurze Entscheidungswege und ein kollegiales Team
+            - listitem [ref=e141]: Individuelle Weiterbildungs- und Entwicklungsmöglichkeiten
+            - listitem [ref=e142]: Attraktive Vergütung und langfristige Perspektive
+        - generic [ref=e145]:
+          - generic:
+            - generic:
+              - img "Jan Schulz"
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - paragraph [ref=e150]: Deine Bewerbung
+                - heading "Lass uns den Rest persönlich besprechen." [level=2] [ref=e152]:
+                  - generic [ref=e153]: Lass uns den Rest
+                  - generic [ref=e154]:
+                    - text: persönlich
+                    - generic [ref=e155]: besprechen.
+              - paragraph [ref=e156]: "Egal ob Remote oder vor Ort: Bei einem ungezwungenen Gespräch können wir uns am Besten ein Bild voneinander machen. Unverbindlich und ungezwungen. Wir können es kaum erwarten Dich und Deine Geschichte kennenzulernen!"
+            - link "Jetzt Bewerben" [ref=e160] [cursor=pointer]:
+              - /url: /karriere/bewerben
+            - generic [ref=e169]:
+              - paragraph [ref=e170]: Jan Schulz
+              - paragraph [ref=e171]: Geschäftsführer
+              - 'link "Telefon: +49 (7121) 696 88-00" [ref=e172] [cursor=pointer]':
+                - /url: tel:+4971216968800
+                - generic [ref=e175]: +49 (7121) 696 88-00
+    - contentinfo [ref=e176]:
+      - generic [ref=e178]:
+        - generic [ref=e179]:
+          - generic [ref=e181]:
+            - link "Provitex – Startseite" [ref=e182] [cursor=pointer]:
+              - /url: /
+              - img "Provitex Logo" [ref=e183]
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - paragraph [ref=e194]: Digitalagentur seit 2009
+                - paragraph [ref=e195]: 3-fach ISO-zertifiziert
+                - paragraph [ref=e196]: Reutlingen, Baden-Württemberg
+              - generic [ref=e197]:
+                - paragraph [ref=e198]: RIPE NCC Full Member
+                - paragraph [ref=e199]: Eigener IP-Adressraum
+          - generic [ref=e201]:
+            - navigation "Leistungen-Navigation" [ref=e202]:
+              - button "Leistungen" [ref=e203]
+              - generic:
+                - list:
+                  - listitem [ref=e207]:
+                    - link "TYPO3-Websites" [ref=e208] [cursor=pointer]:
+                      - /url: /leistungen/typo3-agentur
+                  - listitem [ref=e210]:
+                    - link "Shopware-Shops" [ref=e211] [cursor=pointer]:
+                      - /url: /leistungen/shopware-agentur
+                  - listitem [ref=e213]:
+                    - link "PIM mit Pimcore" [ref=e214] [cursor=pointer]:
+                      - /url: /leistungen/pimcore-agentur
+                  - listitem [ref=e216]:
+                    - link "ERP mit weclapp" [ref=e217] [cursor=pointer]:
+                      - /url: /leistungen/weclapp-partner
+                  - listitem [ref=e219]:
+                    - link "Individualsoftware" [ref=e220] [cursor=pointer]:
+                      - /url: /leistungen/individualsoftware-systemintegrator-mittelstand
+                  - listitem [ref=e222]:
+                    - link "Online-Marketing" [ref=e223] [cursor=pointer]:
+                      - /url: /leistungen/online-marketing
+                  - listitem [ref=e225]:
+                    - link "Hosting & Infrastruktur" [ref=e226] [cursor=pointer]:
+                      - /url: /leistungen/hosting-infrastruktur
+            - navigation "Unternehmen-Navigation" [ref=e228]:
+              - button "Unternehmen" [ref=e229]
+              - generic:
+                - list:
+                  - listitem [ref=e233]:
+                    - link "Warum Provitex" [ref=e234] [cursor=pointer]:
+                      - /url: /warum-provitex
+                  - listitem [ref=e236]:
+                    - link "Fakten zu Provitex" [ref=e237] [cursor=pointer]:
+                      - /url: /fakten-provitex
+          - region "Kontakt" [ref=e239]:
+            - button "Kontakt" [ref=e240]
+            - generic:
+              - generic:
+                - paragraph [ref=e244]: Provitex GmbH
+                - paragraph [ref=e245]:
+                  - link "+49 (7121) 696 88-00" [ref=e246] [cursor=pointer]:
+                    - /url: tel:+49(7121)69688-00
+                - paragraph [ref=e247]:
+                  - link "info@provitex.de" [ref=e248] [cursor=pointer]:
+                    - /url: mailto:info@provitex.de
+                - paragraph [ref=e249]: Eberhardstr. 1
+                - paragraph [ref=e250]: 72764 Reutlingen
+        - separator [ref=e251]
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: © 2009–2026 Provitex GmbH. Alle Rechte vorbehalten.
+          - list [ref=e255]:
+            - listitem [ref=e256]:
+              - link "LinkedIn" [ref=e257] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/provitex-gmbh/
+            - listitem [ref=e260]:
+              - link "Facebook" [ref=e261] [cursor=pointer]:
+                - /url: https://www.facebook.com/provitex/
+            - listitem [ref=e264]:
+              - link "Xing" [ref=e265] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/provitexgmbh
+          - navigation "Rechtliche Hinweise" [ref=e268]:
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - link "Impressum" [ref=e271] [cursor=pointer]:
+                  - /url: /impressum
+              - listitem [ref=e273]:
+                - text: ·
+                - link "Datenschutz" [ref=e274] [cursor=pointer]:
+                  - /url: /datenschutz
+              - listitem [ref=e276]:
+                - text: ·
+                - link "AGB" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.provitex.de/fileadmin/user_upload/provitex/agb.pdf
+              - listitem [ref=e279]:
+                - text: ·
+                - button "Cookie-Einstellungen" [ref=e280] [cursor=pointer]
+  - iframe [aria-hidden] [ref=e334]
+  - region "Notifications (F8)":
+    - list
+  - button "Widget für Cookie-Einstellungen öffnen" [ref=e336] [cursor=pointer]

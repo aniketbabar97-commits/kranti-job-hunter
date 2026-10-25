@@ -1,0 +1,359 @@
+- generic [active] [ref=f23e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f23e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f23e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f23e8]:
+    - search [ref=f23e9]:
+      - generic [ref=f23e11]:
+        - link "Go to Google Home" [ref=f23e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8QPHoECAYQBA
+        - generic [ref=f23e22]:
+          - combobox "Search" [ref=f23e24]: Tabris UG Berlin E-Commerce Programmierer Magento 2.x Stellenangebot Tabris UG Berlin E-Commerce Programmierer Magento 2.x Stellenangebot
+          - generic [ref=f23e25]:
+            - button "Clear" [ref=f23e29] [cursor=pointer]
+            - generic [ref=f23e34]:
+              - button "Search by voice" [ref=f23e37] [cursor=pointer]
+              - button "Search by image" [ref=f23e42] [cursor=pointer]
+    - generic [ref=f23e45]:
+      - button "Settings" [ref=f23e47] [cursor=pointer]
+      - button "Share" [ref=f23e52] [cursor=pointer]
+      - generic [ref=f23e58]:
+        - button "Google apps" [ref=f23e60] [cursor=pointer]
+        - link "Sign in" [ref=f23e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DTabris%2BUG%2BBerlin%2BE-Commerce%2BProgrammierer%2BMagento%2B2.x%2BStellenangebot&ec=futura_srp_og_si_72236_p
+  - generic [ref=f23e67]:
+    - navigation [ref=f23e73]:
+      - generic [ref=f23e79]:
+        - list [ref=f23e80]:
+          - listitem [ref=f23e81]:
+            - link "AI Mode" [ref=f23e84] [cursor=pointer]:
+              - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q2J8OegQIERAD
+          - listitem [ref=f23e88]:
+            - link "All" [disabled] [ref=f23e89]
+          - listitem [ref=f23e92]:
+            - link "Forums" [ref=f23e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Qs6gLegQIFRAB
+          - listitem [ref=f23e96]:
+            - link "News" [ref=f23e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q0pQJegQIExAB
+          - listitem [ref=f23e100]:
+            - link "Images" [ref=f23e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8QtKgLegQIFxAB
+          - listitem [ref=f23e104]:
+            - link "Shopping" [ref=f23e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&ved=1t:220175&ictx=111
+          - listitem [ref=f23e108]:
+            - link "Short videos" [ref=f23e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fLsl3krEwBU0wYF7SHwf9KXZREbbwv_1ul_vTBSqz0r5Ur5bcatsHWqZiVOeyfDXYtqvE6Xljy6Jqg1HcuARcdSIrTRaPfm0XM3esd99N2rINRpDABsG9GfGH1WA0D-EuapYi7tKNAHr7jJbJ0pFSHRhT5x9A&q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sa=X&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Qs6gLegQIFBAB
+          - listitem [ref=f23e112]:
+            - button [ref=f23e113] [cursor=pointer]:
+              - generic "More filters" [ref=f23e114]: More
+        - button "Tools" [ref=f23e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f23e128]
+    - generic [ref=f23e133]:
+      - generic [ref=f23e152]:
+        - generic [ref=f23e155]:
+          - generic [ref=f23e157]:
+            - heading "AI Overview" [level=2] [ref=f23e161]
+            - button "Listen" [ref=f23e165]:
+              - generic [ref=f23e169] [cursor=pointer]
+          - generic [ref=f23e197]:
+            - generic [ref=f23e198]:
+              - mark [ref=f23e199]:
+                - text: Die
+                - link "Tabris UG (haftungsbeschränkt)" [ref=f23e203] [cursor=pointer]:
+                  - /url: /goto?url=CAESywEB6zswFZK5ArfXmo-YLimT7ivH2bCgoLsjG6MtC8mCm1EIg9cPrMlzKBrYs_eJZ1PZ2PbD9f52SVh55qDtsW-tHmNVGbBAw_7EphLyOX_Ql3n6JYhRwbk8gtLNwxZ9eIkh6fOWRKTGGRmJMUm_QjEIXhgsRBAbLbFkj_f7lzzWW7Lf7c6QEEwvAzmsrgR4h7WwF6KDGXScA7fDqnf1HF91qAzv0v6gY-HkqjChftCNPldq-JwHB4Zw6nmz35PKKQHRr3STe93tgHdVLQ
+                - text: sucht einen
+                - strong [ref=f23e204]: E-Commerce Programmierer (m/w/d) Magento 2.x
+                - text: in
+                - strong [ref=f23e205]: Berlin
+              - text: .
+              - generic [ref=f23e209]:
+                - link "www.stepstone.de" [ref=f23e210] [cursor=pointer]:
+                  - /url: /goto?url=CAESywEB6zswFZK5ArfXmo-YLimT7ivH2bCgoLsjG6MtC8mCm1EIg9cPrMlzKBrYs_eJZ1PZ2PbD9f52SVh55qDtsW-tHmNVGbBAw_7EphLyOX_Ql3n6JYhRwbk8gtLNwxZ9eIkh6fOWRKTGGRmJMUm_QjEIXhgsRBAbLbFkj_f7lzzWW7Lf7c6QEEwvAzmsrgR4h7WwF6KDGXScA7fDqnf1HF91qAzv0v6gY-HkqjChftCNPldq-JwHB4Zw6nmz35PKKQHRr3STe93tgHdVLQ
+                - button "www.stepstone.de (+1) – related results" [ref=f23e211] [cursor=pointer]:
+                  - generic [ref=f23e213]:
+                    - generic [ref=f23e214]: www.stepstone.de
+                    - generic [ref=f23e215]: "+1"
+            - heading "Eckdaten zur Stelle" [level=3] [ref=f23e216]
+            - list [ref=f23e217]:
+              - listitem [ref=f23e219]:
+                - generic [ref=f23e220]:
+                  - strong [ref=f23e221]: "Unternehmen:"
+                  - text: Tabris UG (haftungsbeschränkt)
+              - listitem [ref=f23e223]:
+                - generic [ref=f23e224]:
+                  - strong [ref=f23e225]: "Position:"
+                  - text: E-Commerce Programmierer (m/w/d) Magento 2.x (Inhouse)
+              - listitem [ref=f23e227]:
+                - generic [ref=f23e228]:
+                  - strong [ref=f23e229]: "Arbeitsort:"
+                  - text: Berlin (Feste Vor-Ort-Präsenz, kein Remote-Anteil vorgesehen)
+              - listitem [ref=f23e231]:
+                - generic [ref=f23e232]:
+                  - strong [ref=f23e233]: "Arbeitszeit:"
+                  - text: Vollzeit (Optionen laut Arbeitsagentur auch Teilzeit möglich)
+              - listitem [ref=f23e235]:
+                - generic [ref=f23e236]:
+                  - strong [ref=f23e237]: "Gehalt:"
+                  - text: In der Ausschreibung nicht beziffert (direkt mit dem Arbeitgeber zu klären)
+                - generic [ref=f23e241]:
+                  - link "Bundesagentur für Arbeit" [ref=f23e242] [cursor=pointer]:
+                    - /url: /goto?url=CAESfgHrOzAVlKdEW6nsz-CHH85_TCs2HGfcsTvG7xW2h7V8r1bW-SFpl6VZkczKYr_VvvnSmHAHneg2o835xPiYxq-HGEbMYcoS4y9MsfjMzjIOkXOVAJxsAuHMlm3LgsFwbX2AhZ4lugxg1BWq2U3x4ZUUalx9A8sB8Wcav1FrGA
+                  - button "Bundesagentur für Arbeit (+4) – related results" [ref=f23e243] [cursor=pointer]:
+                    - generic [ref=f23e245]:
+                      - generic [ref=f23e246]: Bundesagentur für Arbeit
+                      - generic [ref=f23e247]: "+4"
+            - heading "Aufgabenbereich" [level=3] [ref=f23e249]
+            - list [ref=f23e250]:
+              - listitem [ref=f23e252]:
+                - generic [ref=f23e253]: Entwicklung, Wartung und Optimierung des Magento 2.x-Onlineshops
+              - listitem [ref=f23e255]:
+                - generic [ref=f23e256]: Konfiguration, Erweiterung und Anpassung von Modulen und Schnittstellen
+              - listitem [ref=f23e258]:
+                - generic [ref=f23e259]: Implementierung neuer Features sowie Fehlerbehebung (Bugfixing)
+              - listitem [ref=f23e261]:
+                - generic [ref=f23e262]: Enge Zusammenarbeit mit den Bereichen Marketing und Produkt
+                - generic [ref=f23e266]:
+                  - link "Trabajo.org" [ref=f23e267] [cursor=pointer]:
+                    - /url: /goto?url=CAEShgEB6zswFcCHCDop8OZH9eVAaVBoYrkBfyBxbvgTz6EpZe6I2nL5oE8-dztC3C-L5Vz3QafiZbycvOcCId_bnNG_VElBJKd9hdubb1T3xQhyNN7cUYk7yF9zIf8_KuKiA-BrD0xnQ7B7NMrAa70zoC2pM02zHUkmieqiukzk8IPmoCHSj6MpwQ
+                  - button "Trabajo.org (+2) – related results" [ref=f23e268] [cursor=pointer]:
+                    - generic [ref=f23e270]:
+                      - generic [ref=f23e271]: Trabajo.org
+                      - generic [ref=f23e272]: "+2"
+        - generic [ref=f23e283]:
+          - generic [ref=f23e284]: Loading...
+          - button "Show more AI Overview" [ref=f23e288]:
+            - generic [ref=f23e289] [cursor=pointer]: Show more
+      - main [ref=f23e296]:
+        - generic [ref=f23e300]:
+          - generic [ref=f23e303]:
+            - heading "Webergebnisse" [level=2] [ref=f23e304]
+            - generic [ref=f23e305]:
+              - generic [ref=f23e308]:
+                - link "E-Commerce Programmierer (m/w/d) Magento 2.x www.stepstone.de https://www.stepstone.de › stellenan..." [ref=f23e310] [cursor=pointer]:
+                  - /url: /goto?url=CAESywEB6zswFZWKT3-jo2KdD86tk_hUgI0ERgAKAb3l3aQ2t2SUUk3o2UaSQdSHyfQvqTbkV8jqhw1gvDYE_TRt5hGd5ojo8m4szNAkusmOo9Yjxqw2AYr58k14BclF7Ne-6qpwL_r-3z7xPzJXHpHf9f3UgPF8sRitog2XbTLlEze_iLZa_irWue1UuNRGJnlQdo2cyWJgKOOolQcAwSJUSDctvdpwRdY2Zj42TXthOAR2aft6CvTxdQY-Wcr4bGi2wjNJxlz6GokeFcPt8A
+                  - heading "E-Commerce Programmierer (m/w/d) Magento 2.x" [level=3] [ref=f23e311]
+                  - generic [ref=f23e317]:
+                    - generic [ref=f23e318]: www.stepstone.de
+                    - generic [ref=f23e320]: https://www.stepstone.de › stellenan...
+                - generic [ref=f23e322]:
+                  - generic [ref=f23e323]: ·
+                  - link "Translate this page" [ref=f23e324] [cursor=pointer]:
+                    - /url: /goto?url=CAESlAIB6zswFfeuT7NAtoYcUc8BuxT9Jd5iDwLSBFu0bY9pRgsy2KdC6dppEYYZDBSPUaNA7_8g9AJIAZlSIg91B8SviWBAWUYTKvjDijdvVEr5_Jj-K1smcq1Q1nJHZGrp5dY-bmISkABztZjifLj8v63s2irauVXYPjEEX-Xp3_jOq9E5lQdBoukykTCLnrS5Ti4qLhHqb8fu3-rcLeDMgVtblNh756PA4rtiySsqslqArFNMXmalGPPewZu3_IKyo8faegMEDAUqeRFkPQJ2VmcGZYUUsuqqHzl4gWv-wsaLiGAIkLKckS1LOqWSwXdc_FiFyf6LxZknKfqj3OV9fiMgmhDky6coSdi3rWqKdnx6x79Rwdw
+                - button "About this result" [ref=f23e329] [cursor=pointer]
+              - generic [ref=f23e336]:
+                - emphasis [ref=f23e337]: Stellenangebot als E-Commerce Programmierer (m/w/d) Magento 2.x in
+                - text: Berlin bei der Firma Tabris UG (haftungsbeschränkt) gute Kenntnisse in PHP, HTML, CSS, ...
+          - generic [ref=f23e341]:
+            - generic [ref=f23e344]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f23e346] [cursor=pointer]:
+                - /url: /goto?url=CAESfgHrOzAVTZG8806359WGUsuSGtwqqpWE71ANdywDiIIcU-TrCAV6ZFlNXomTziteuqFO6whl6jYLd9OZ1zG661lu6-Mveh1WFpgFdGEteogS6eEjN0QDvwbBrBAQI-F9ImmFRLvWH2FDfMWPwC1ZSuSaKVQNCKFWnPfhxnQnEQ
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x" [level=3] [ref=f23e347]
+                - generic [ref=f23e353]:
+                  - generic [ref=f23e354]: Bundesagentur für Arbeit
+                  - generic [ref=f23e356]: https://www.arbeitsagentur.de › jo...
+              - generic [ref=f23e358]:
+                - generic [ref=f23e359]: ·
+                - link "Translate this page" [ref=f23e360] [cursor=pointer]:
+                  - /url: /goto?url=CAESyAEB6zswFaf0b0gPN8t1xUWUCVs_j2It2P6BArB9NOZTGsYOmK_QUYfG0SF3gryvKAsM-Xk7McmTU71bZz9jRoZrh3qRDKqkjDYrRmIbPCZm_E6yMt8MdV32PFNyhvgCQOudB2kXNNj_swqBANGzlskoqzMSEUiVCuh4cmH0_gFzKqmvWWDoM7nRba8bKIPnnwor-Wqzdty4xk8aRVih2PbSIjeVv1GboWTeyrJHYClQ7Hzj8_tErCR6elQ5IyBAPBaK0JOENgrcMQ
+              - button "About this result" [ref=f23e365] [cursor=pointer]
+            - generic [ref=f23e372]:
+              - text: Stellenangebot für »
+              - emphasis [ref=f23e373]: E-Commerce Programmierer (m/w/d) Magento 2.x
+              - text: bei Tabris UG (haftungsbeschränkt) » in Berlin ✓ Vollzeit, Teilzeit ✓ unbefristet ✓ ab ...
+          - generic [ref=f23e377]:
+            - generic [ref=f23e380]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x php-entwickler.de https://www.php-entwickler.de › job" [ref=f23e382] [cursor=pointer]:
+                - /url: /goto?url=CAESlQEB6zswFe_vmj7IwDoO4Qi3tfc7K0rS2M5i4YqXAdcPb6S8NcGHATUaoe4RVTY6wamMOKXVYoJTEWG7ObA6d44QkX7HYcZSEXPJwdVEy5e9kpXfHE65fPvXDtQF7lGytAbX7Fj20dmIAOWhxDfkT9mwkE_AWSrs_uJCsyf3FFmy1dF9DpXA9rSsr-JnmmhSmjYKo2j_6w
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x" [level=3] [ref=f23e383]
+                - generic [ref=f23e389]:
+                  - generic [ref=f23e390]: php-entwickler.de
+                  - generic [ref=f23e392]: https://www.php-entwickler.de › job
+              - generic [ref=f23e394]:
+                - generic [ref=f23e395]: ·
+                - link "Translate this page" [ref=f23e396] [cursor=pointer]:
+                  - /url: /goto?url=CAES3wEB6zswFZ8K0Yy1YoDbQ9GSZD-7MNUYXNVHSnRMmkBaucmHmQxN8HT5rvG_G5TIWIcLR5zcibmbTefZZ0At49YYsHswl2HT5ZMqxNmUCxNVOx58KOs1oE_6MpcYs9yOxBcu8ayo71cWT8AtCrgxuTgF8jVURCyhV16J9OOs7QoyC6AsnOa7yWvorC7fSd85S7KmHa6IJR93NjZ-ZyPQuPoX8eEdQuTS-i3OIQD6m8t5WS75munqnu8-1QySV4hJNB_QHf4nzS3DEMKKE4VT-C8tt6H9Glx3mIa68ZTcYfMG
+              - button "About this result" [ref=f23e401] [cursor=pointer]
+            - generic [ref=f23e407]:
+              - generic [ref=f23e408]: 28 Sept 2026 —
+              - generic [ref=f23e409]:
+                - emphasis [ref=f23e410]: Tabris UG
+                - text: (haftungsbeschränkt) sucht
+                - emphasis [ref=f23e411]: E
+                - text: "-"
+                - emphasis [ref=f23e412]: Commerce Programmierer
+                - text: (m/w/d)
+                - emphasis [ref=f23e413]: Magento 2
+                - text: .
+                - emphasis [ref=f23e414]: x
+                - text: mit
+                - emphasis [ref=f23e415]: Magento
+                - text: "-Schwerpunkt in"
+                - emphasis [ref=f23e416]: Berlin
+                - text: . Vollzeit, vor Ort. // ...
+              - link "Read more" [ref=f23e417] [cursor=pointer]:
+                - /url: /goto?url=CAES7QEB6zswFUBw356UN19FRwFFogRQzhLzhmroSp8ukEMVA6an86CSxQHd8aOBjBI370LXhIFXIFhxuZUB-4HA1VsQJZxKnFvh6w8dj_Dq-nQpcBjavvbOlTfExvB4eWbZdvvWbj1bZY7mV71jpIuyNZq3ilM-z1J6EQvyJ1aOMx6Pu96CT4KH2adVdf6lYiRBX7bhvYItweJZbmuvC1HNGjjPXz0sEkeutrNQJhMud8-R5s1k0r432VR1wkmTEi1OYaI21wOhhBpeO1gA_sXvpSEhagNdwJVjSPIz8drd_dOTLhgn4BmOyfAONs99Xb4
+          - generic [ref=f23e421]:
+            - generic [ref=f23e424]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x, Berlin SaluteMyJob https://salutemyjob.com › jobs › e..." [ref=f23e426] [cursor=pointer]:
+                - /url: /goto?url=CAESlwEB6zswFSEC2To9SmuJTz9RwBpYFDdcLCCdUgucoG5VrO-1MM9yCCCrtvCEHgJGJZ0burt4ypCtx90zBjG-l4Jc0gHYZdTdLZV_nooESx9DOeCqIIpoE8rDwx5iIj_WI6i15jzNGIFNlT_KRI38iFETB3gVdc_xTg1PtZepHlXCJYsxjsNSWuKSiG7W6m4IbJ1z4CKLNETM
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x, Berlin" [level=3] [ref=f23e427]
+                - generic [ref=f23e433]:
+                  - generic [ref=f23e434]: SaluteMyJob
+                  - generic [ref=f23e436]: https://salutemyjob.com › jobs › e...
+              - generic [ref=f23e438]:
+                - generic [ref=f23e439]: ·
+                - link "Translate this page" [ref=f23e440] [cursor=pointer]:
+                  - /url: /goto?url=CAES4QEB6zswFSJtFTv2_594sP_PhLB0Tf38cRV3OgoBTjaWxy4VkAGXkAJZ6jMREnY_QmLmKwtGrf7hOBHTHdyO38W9NuOCQW946fu0EPK2rBF-VnGFiyMPx6-jtQ_vCxODwaAyqiVVXgagUHDbfJUnVSPQNgHoAIVEF80En1qIRS9SiCxYjyUFKi1hhCr2b9GwopTXXMSCt6fmT29Eo53UjS1hgXUXdBaCslGQYp94UDvLYhZhc18zQkFb9Je3-uK75flgHhpqn8lyedlBtWU7Nq-Bvx4kcgJAhZXM6jC2Wox4mcI
+              - button "About this result" [ref=f23e445] [cursor=pointer]
+            - generic [ref=f23e452]:
+              - emphasis [ref=f23e453]: E-Commerce Programmierer (m/w/d) Magento 2.x
+              - text: "· Job Reference: 2954539303-2 · Date Posted: 4 September 2026 · Recruiter: Tabris UG (haftungsbeschränkt) · Location: ..."
+          - generic [ref=f23e457]:
+            - generic [ref=f23e460]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x in Berlin XING https://www.xing.com › jobs › ber..." [ref=f23e462] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFQ1EpDFn_C6lLiuy2hY3EXy6xYbvE5Q9C3QO51iFM_utE_PdjOT79Y9b0rl4r6zi4vO8x4g_41tTzQgFZ5eDpTLIq9mnNt4ajN4PDOKyDjTMGon4Gg4QD-3CGwz5OeWyq3DdU8yrNJyWEJ4GgYEzC6WKLxIYjlmBkoj6bOoWsDSFfQ
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x in Berlin" [level=3] [ref=f23e463]
+                - generic [ref=f23e469]:
+                  - generic [ref=f23e470]: XING
+                  - generic [ref=f23e472]: https://www.xing.com › jobs › ber...
+              - generic [ref=f23e474]:
+                - generic [ref=f23e475]: ·
+                - link "Translate this page" [ref=f23e476] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFeX0F1tsOPOYnC5UHqBLSJq0HLj2zBMfkZfa8zbmzcis9VprzK8zrI5WFPpiwWp7nqyjc_plvK2e15nXFJaBM4aruJSJ7d9AeMn_Uh2hsq4LegVrNd2lx5GCtg8pcaxPNW_Z4OWJHqV0CPU2-XvDuNzNGUwVhGpobz-FaaTR2KP4-8D9C_g4ISdALHsA2FSXJVbcS0EtQyPXShEuErCWr2vurGjBNCgMkZj5oXQz_b2Jf0zccv3VkkJMa2J5KLA34iqWq6MCcgpwlfA8
+              - button "About this result" [ref=f23e481] [cursor=pointer]
+            - generic [ref=f23e488]:
+              - text: Über diesen
+              - emphasis [ref=f23e489]: Job
+              - text: "; Ihre Aufgaben: Entwicklung, Wartung und Optimierung unseres"
+              - emphasis [ref=f23e490]: Magento 2
+              - text: .
+              - emphasis [ref=f23e491]: x
+              - text: "Onlineshops ; Ihr Profil: Mindestens 3 Jahre Berufserfahrung in der ..."
+          - generic [ref=f23e495]:
+            - generic [ref=f23e498]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x | Berlin JobLeads https://www.jobleads.com › job › e-commerce-program..." [ref=f23e500] [cursor=pointer]:
+                - /url: /goto?url=CAESsAEB6zswFTZ-cBKYCMROYTgwmxqfbF8MC8lLgTdg8gTtTKcchsLZI_RgQaBfYl7x8OqETh47y7I9sGWk41IWX0gSXJbpd7kKbpThLZWygYJoKz2jq3PznywBFJk-XHF7uYCWBeLy0O1570NG2YbkRNb49LZS5S6zzsFdo9sQ7Vi5ZvVK2guoLSKUvii7AsjmeLoRDOLEixMr_cyfMDr2FO3qhkzzNvYjdSiNoHKvTCRqug
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x | Berlin" [level=3] [ref=f23e501]
+                - generic [ref=f23e507]:
+                  - generic [ref=f23e508]: JobLeads
+                  - generic [ref=f23e510]: https://www.jobleads.com › job › e-commerce-program...
+              - button "About this result" [ref=f23e516] [cursor=pointer]
+            - generic [ref=f23e523]:
+              - emphasis [ref=f23e524]: Tabris UG (haftungsbeschränkt) sucht E-Commerce Programmierer (m/w/d) Magento 2.x in Berlin
+              - text: . Ort EUR 55.000 - 75.000 Vollzeit. Sie betreuen Magento 2.x Shops, ...
+          - generic [ref=f23e528]:
+            - generic [ref=f23e531]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x StudySmarter https://talents.studysmarter.de › e-c..." [ref=f23e533] [cursor=pointer]:
+                - /url: /goto?url=CAEStwEB6zswFaOp_puXH2xj0-9xZQFv0EE_iSBD7jBlI79T4l4CZAoxVHv1OCURJ7x4IpZkMpDYm8HmuLxliicrWtR643fQC2fkGEd1luSWJduk-c-B9sn3F1yEaI4lCX4x-ovjQFd17jVJDWTk5-pP4FlohagsSflzg3Uo-Gsi4NAKlBKKVrAtNy8HxZN0o63laGQxfLWkEtDMw3RWEwLt7ug7MjCboRSQJqQLeUJhx7eR8zQGNpcXT7g
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x" [level=3] [ref=f23e534]
+                - generic [ref=f23e540]:
+                  - generic [ref=f23e541]: StudySmarter
+                  - generic [ref=f23e543]: https://talents.studysmarter.de › e-c...
+              - generic [ref=f23e545]:
+                - generic [ref=f23e546]: ·
+                - link "Translate this page" [ref=f23e547] [cursor=pointer]:
+                  - /url: /goto?url=CAESgQIB6zswFW2ikh5LFpMFN1FkGfzW25eLADCDyzHjwG4sa_zFJtvMMyuqqnwCnBIBBVOQplm07xw73XUhf8piUwkdVIiylY01oemx0WDAolpGsqrgG3t5FCms-C6Z_fUCPDWHssOLTBqLe-W9rGQChLjQDhw6bFtd4ig3_ovYONDY1CBlSjTRwNLI6ZPoMujMJlOBOqanLe7klET4AAfQ39HFSw1q-EDmcWFrS-dswN6LC28lSI4lcb--FX99clvgIyHUky66NHKBLJEA6kDy_2o6iWUo2IuVNV7HRrKBebtkw-u5Go6XGX0n806E-5AgymBzn_Yu66rjwnkwN8crziqrQw
+              - button "About this result" [ref=f23e552] [cursor=pointer]
+            - generic [ref=f23e558]:
+              - generic [ref=f23e559]:
+                - text: Wir suchen einen erfahrenen Inhouse
+                - emphasis [ref=f23e560]: E
+                - text: "-"
+                - emphasis [ref=f23e561]: Commerce Programmierer
+                - text: (m/w/d) zur Verstärkung unseres Teams. Sie sind verantwortlich für dedizierte Bereiche der ...
+              - link "Read more" [ref=f23e562] [cursor=pointer]:
+                - /url: /goto?url=CAESwwIB6zswFS0_a_mhvc8i9aClDLIzLEI6CW1FBYPurQoeW3sqgm3H-kkaaB8hGF3IZHVkUS1tHHd4FSNpqXGM5jcddJt4BZRnLj69kBmPpYsz5nP9X9qpXsa9u6rwuwht6gxTSYmqvzhaxW2L5nMgFSoUXBR_idORyq3fJkJ0BwkeoxyYfi2QX7RQBTmRGWy9ofsggNynjZVjRVA-YGvJgoGEIhAwjUwSEZaqoKbkoo5U_d3XcaCk-Btc_SzI2wBHF7Sz41h2X4ry6q748nDeUZiIZUtBYftZ4-DT6aw9PFwYTu6aNGk0LmFHmh0CtWzbwO5jnpWTIWceAez0b1oiqKbweF9T3qQaF4L1AQbOASiLIQ3boI7P2HN6deJFYhb9kcwngdrq31qWpIRASZ0qnfHcojS4-9sTItUCKYUxUqa1WEdcdg
+          - generic [ref=f23e566]:
+            - generic [ref=f23e569]:
+              - link "Jobs für Magento in Berlin Jobware, da hab' ich den Job her! https://www.jobware.de › jobs--fuer..." [ref=f23e571] [cursor=pointer]:
+                - /url: /goto?url=CAESbwHrOzAV5YF_cKaRVEnsQx7Q0edkeKqnvOB3_sw_8ty7UckIheENCnIA8BWrigREchbh2TS_iJaaXtK_wa2JJTuvZWSq5e8FW5C1CzoQtX9ZcNrI7YZNA716ccGfz9pAdy-eQ69wLmqvzK0sitNilg
+                - heading "Jobs für Magento in Berlin" [level=3] [ref=f23e572]
+                - generic [ref=f23e581]:
+                  - generic [ref=f23e582]: Jobware, da hab' ich den Job her!
+                  - generic [ref=f23e584]: https://www.jobware.de › jobs--fuer...
+              - generic [ref=f23e586]:
+                - generic [ref=f23e587]: ·
+                - link "Translate this page" [ref=f23e588] [cursor=pointer]:
+                  - /url: /goto?url=CAESuAEB6zswFTHYt3PysF-8d2auQGhja3SceL3zXz78N47MbKsdY5tR01TYvB__TyrTrylB_92UuSjZlp4_nj1vuNy8GErvcwZj4bS88NHuN4RS3uGXbEZOCRl2NgYsVX3iOhCcHB5gNp1kXlmbtWn_Vq7uDDoBEdBMwe1HKtYaD-Dr0xgKY8RXk_MDqAMOO15Z7FivR9Th3jDBRq6FiPU_1bNIXFrQTWNOUOjVvSnxyDBJeWEIrpDnumZ5
+              - button "About this result" [ref=f23e593] [cursor=pointer]
+            - generic [ref=f23e599]:
+              - generic [ref=f23e600]: 23 Sept 2026 —
+              - generic [ref=f23e601]:
+                - emphasis [ref=f23e602]: E-Commerce Programmierer (m/w/d) Magento 2.x
+                - text: . Tabris UG (haftungsbeschränkt). Vollzeit. inBerlin (DE). 18.04.2026 veröffentlicht. inBerlin (DE).
+              - link "Read more" [ref=f23e603] [cursor=pointer]:
+                - /url: /goto?url=CAESvgEB6zswFVhhWm9pyJN21FSQxkPiaXTe_25Vw7OSIUMENBDefbJcZTl15lPMn5_w9YldQySyueUW_wLwOq23_SL4w0tXWQB-d6_NiGO21BQXPhGAEzoUbRnjqYYnzC2oYTT8gUU_ngwm4jKQXwxLNu1nZiNfO9F24HQxl2Fu3oGF9ld3-p062I6KTwNcnBszLkXF_nG4oboi06iUw3K15HGQsFKEFuReFRIGIIEB7KEKUNWeSLaoE4vE7C16_nab
+          - generic [ref=f23e607]:
+            - generic [ref=f23e610]:
+              - link "E-Commerce Programmierer (m/w/d) Magento 2.x php-entwickler.de https://www.php-entwickler.de › job" [ref=f23e612] [cursor=pointer]:
+                - /url: /goto?url=CAESlQEB6zswFTFQTQGaFmVs2UR9_1QsvWyCo38dpwhSRP0modpItLQw5P99Sko_yuAU74x4RaKINsC90AAZW0h60X1zBC1GQYrlayOnhtbakKltgGwq8tE0gp3sTuI9ZXOiyy26R95O2dTZJCef_nl-mQWm_2cEmeXzp2U45bmBrhXRYS_0LJGp96jeUs3zTYXJ6zpsFC0ZUw
+                - heading "E-Commerce Programmierer (m/w/d) Magento 2.x" [level=3] [ref=f23e613]
+                - generic [ref=f23e619]:
+                  - generic [ref=f23e620]: php-entwickler.de
+                  - generic [ref=f23e622]: https://www.php-entwickler.de › job
+              - generic [ref=f23e624]:
+                - generic [ref=f23e625]: ·
+                - link "Translate this page" [ref=f23e626] [cursor=pointer]:
+                  - /url: /goto?url=CAES3wEB6zswFakCDh-VhiV5ngB1N3FiIDeGaujPau56SBrAB7ZYT2vqMFLonaNTEe8338zhzGekf5KUfkdKG5_94EQMCiWhVSMrg3y6BKc3XmaQAIH6t-9cdgMJ0cG-txCv93NvesVYfc4Dm2PkQK1FWnGjPa2c0TcGTLld09grd7vOqQEul6Lu5QzrOQ9V_Zki9Pkxahg3bv_n_Vyt_vLOkCi65L13sl5FuKhdn3zHcy2gLp808jreavUIBdHNQdppwt8QDAVQEbtWWZNWcvL2Z5FdmHJRGQ6M-yM7Py__keNN
+              - button "About this result" [ref=f23e631] [cursor=pointer]
+            - generic [ref=f23e638]:
+              - text: Die Tabris UG (haftungsbeschränkt)
+              - emphasis [ref=f23e639]: sucht einen E-Commerce Programmierer (m/w/d
+              - text: ) mit Mittleres-Erfahrungsniveau für die Arbeit mit Magento 2.x.
+        - navigation [ref=f23e642]:
+          - heading "Page navigation" [level=1] [ref=f23e643]
+          - text: "1"
+          - link "Page 2" [ref=f23e646] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=10&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAE
+            - text: "2"
+          - link "Page 3" [ref=f23e648] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=20&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAG
+            - text: "3"
+          - link "Page 4" [ref=f23e650] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=30&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAI
+            - text: "4"
+          - link "Page 5" [ref=f23e652] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=40&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAK
+            - text: "5"
+          - link "Page 6" [ref=f23e654] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=50&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAM
+            - text: "6"
+          - link "Page 7" [ref=f23e656] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=60&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAO
+            - text: "7"
+          - link "Page 8" [ref=f23e658] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=70&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAQ
+            - text: "8"
+          - link "Page 9" [ref=f23e660] [cursor=pointer]:
+            - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=80&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8tMDegQINBAS
+            - text: "9"
+          - heading [level=2] [ref=f23e662]:
+            - link "Next" [ref=f23e663] [cursor=pointer]:
+              - /url: /search?q=Tabris+UG+Berlin+E-Commerce+Programmierer+Magento+2.x+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnttfCC8bPunIQLXv2vhM7CZU_fG2Q:1792898912278&ei=YHfdapG8EMGghvcPtaiveA&start=10&sa=N&sstk=AS6-VmLYHjOuaKz5HNiW_JM0RH_YKd16658M7qetuyNGCk5kW0pte5-4PtU0qip_qQdabWk2aFtvYf5YVqK7wH5wt2WHOATkQFQ_iQ&ved=2ahUKEwiR7KL2nNSXAxVBkOEIHTXUCw8Q8NMDegQINBAU
+        - navigation
+    - contentinfo [ref=f23e666]:
+      - heading "Footer links" [level=1] [ref=f23e667]
+      - generic [ref=f23e671]:
+        - generic [ref=f23e673]:
+          - text: India
+          - generic [ref=f23e675]:
+            - button "Doddathoguru, Electronic City, Doddathoguru, Karnataka - Based on your past activity" [ref=f23e677] [cursor=pointer]:
+              - generic [ref=f23e678]: Doddathoguru, Electronic City, Doddathoguru, Karnataka
+              - generic [ref=f23e680]:
+                - text: "-"
+                - generic [ref=f23e681]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f23e683] [cursor=pointer]
+        - generic [ref=f23e686]:
+          - link "Help" [ref=f23e687] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f23e688] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f23e689] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f23e690] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

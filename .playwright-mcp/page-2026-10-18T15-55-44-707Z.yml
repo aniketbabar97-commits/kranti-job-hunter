@@ -1,0 +1,571 @@
+- generic [ref=f1e2]:
+  - banner:
+    - generic [ref=f1e3]:
+      - dialog "Suche":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Suchfeld
+              - searchbox "Suchfeld"
+            - button "Suchen"
+      - generic [ref=f1e5]:
+        - link "Zur Startseite" [ref=f1e6] [cursor=pointer]:
+          - /url: https://karriere.lekkerland.de
+          - img "Lekkerland - Karriere Logo" [ref=f1e7]
+        - generic [ref=f1e8]:
+          - generic [ref=f1e9]:
+            - link "Jobs" [ref=f1e10] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/jobs/
+            - search [ref=f1e11]:
+              - button "Suche umschalten" [ref=f1e12] [cursor=pointer]
+          - generic [ref=f1e15]:
+            - button "Menü umschalten" [ref=f1e16] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Header":
+                    - list "Header":
+                      - listitem:
+                        - button "Wir als Arbeitgeber"
+                        - generic "Wir als Arbeitgeber":
+                          - list "Wir als Arbeitgeber":
+                            - listitem:
+                              - link "Über uns":
+                                - /url: https://karriere.lekkerland.de/ueber-uns/
+                            - listitem:
+                              - link "Standorte":
+                                - /url: https://karriere.lekkerland.de/standorte/
+                            - listitem:
+                              - link "Weiterkommen mit Lekkerland":
+                                - /url: https://karriere.lekkerland.de/weiterkommen/
+                      - listitem:
+                        - button "Tätigkeitsbereiche"
+                        - generic "Tätigkeitsbereiche":
+                          - list "Tätigkeitsbereiche":
+                            - listitem:
+                              - link "Übersicht der Bereiche":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/
+                            - listitem:
+                              - link "Vertrieb":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/vertrieb/
+                            - listitem:
+                              - link "Kaufmännische Bereiche":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/kaufmaennische-bereiche/
+                            - listitem:
+                              - link "IT & E-Commerce":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/it-digital/
+                            - listitem:
+                              - link "Category Management":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/category-management/
+                            - listitem:
+                              - link "Business Development":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/business-development/
+                            - listitem:
+                              - link "Logistik & Supply-Chain-Management":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/logistik-supply-chain-management/
+                            - listitem:
+                              - link "Logistik":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-logistik/
+                              - list "Logistik":
+                                - listitem:
+                                  - link "Lust auf Logistik":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-logistik/
+                                - listitem:
+                                  - link "Lust auf Lager":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-lager/
+                                - listitem:
+                                  - link "Lust auf Laster":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-laster/
+                      - listitem:
+                        - button "Dein Einstieg"
+                        - generic "Dein Einstieg":
+                          - list "Dein Einstieg":
+                            - listitem:
+                              - link "Schüler:innen":
+                                - /url: https://karriere.lekkerland.de/schuelerinnen/
+                            - listitem:
+                              - link "Studierende":
+                                - /url: https://karriere.lekkerland.de/studierende/
+                            - listitem:
+                              - link "Berufseinsteigende":
+                                - /url: https://karriere.lekkerland.de/berufseinsteigende/
+                            - listitem:
+                              - link "Berufserfahrene":
+                                - /url: https://karriere.lekkerland.de/berufserfahrene/
+                      - listitem:
+                        - link "Rund um die Bewerbung":
+                          - /url: https://karriere.lekkerland.de/bewerbung/
+                      - listitem:
+                        - link "Kontakt":
+                          - /url: https://karriere.lekkerland.de/kontakt/
+              - generic:
+                - generic:
+                  - link "Jobs":
+                    - /url: https://karriere.lekkerland.de/jobs/
+                  - search:
+                    - button "Suche umschalten"
+                - link "Favoriten":
+                  - /url: https://karriere.lekkerland.de/jobs/favoriten/#favoriten
+                - link "Log-in":
+                  - /url: https://lekkerland-career.onlyfy.jobs/login
+  - main [ref=f1e19]:
+    - generic [ref=f1e20]:
+      - generic [ref=f1e22]:
+        - heading [level=1] [ref=f1e23]:
+          - strong [ref=f1e24]: Jobs in der IT
+          - strong [ref=f1e25]: "& E-Commerce bei Lekkerland"
+        - paragraph [ref=f1e26]: Damit dein beruflicher Erfolg vorprogrammiert ist!
+        - paragraph [ref=f1e27]
+        - paragraph [ref=f1e28]:
+          - link "Zu den offenen IT-Jobs" [ref=f1e29] [cursor=pointer]:
+            - /url: "#jobs"
+      - figure "Lekkerland / Mark Feuerstake" [ref=f1e33]:
+        - img "Mitarbeitende Gruppensituation am Tisch" [ref=f1e34]
+    - generic [ref=f1e37]:
+      - generic [ref=f1e38] [cursor=pointer]: Breadcrumb-Navigation
+      - navigation "Breadcrumb-Navigation" [ref=f1e39]:
+        - list [ref=f1e40]:
+          - listitem [ref=f1e41]:
+            - link "Home" [ref=f1e42] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/
+          - listitem [ref=f1e43]:
+            - link "IT & E-Commerce" [ref=f1e47] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/it-digital/
+    - generic [ref=f1e52]:
+      - 'heading "Dank eigenem Entwicklungsteam: Bei uns gestaltest du die digitale Zukunft" [level=2] [ref=f1e53]'
+      - paragraph [ref=f1e54]: "Auch bei der digitalen Weiterentwicklung von Serviceleistungen wollen wir „Your most convenient partner“ sein. Den Rahmen bildet eine System- und Softwarelandschaft, die in der Branche Standards setzt – verantwortet von Corporate IT. Hier entwickeln wir unsere moderne, zunehmend cloudbasierte Infrastruktur kontinuierlich weiter. Ob digitale Lagerlogistik, E-Commerce-Lösungen, Datenmanagement oder viele weitere spannende Herausforderungen: Die außergewöhnliche Kombination aus dem Start-up-Spirit eines agilen Tätigkeitsbereichs und der Sicherheit eines leistungsstarken Konzerns wird dich überzeugen."
+      - paragraph [ref=f1e55]
+      - paragraph [ref=f1e56]:
+        - link "Mehr über unsere Arbeitsweise erfahren" [ref=f1e57] [cursor=pointer]:
+          - /url: "#arbeitsweise"
+    - generic [ref=f1e62]:
+      - figure [ref=f1e65]:
+        - img "Flagge mit Lekkerland Logo" [ref=f1e67]
+      - generic [ref=f1e68]:
+        - heading [level=2] [ref=f1e69]:
+          - generic [ref=f1e70]: "State-of-the-Art-Technologien:"
+          - text: Corporate IT
+        - paragraph [ref=f1e71]: "Das IT-Team: Die Spezialistinnen und Spezialisten verantworten die gesamte, europaweite System- und Softwarelandschaft von Lekkerland. Automatisierung, Security, DevOps: Dies sind nur einige der Themen, mit denen sich unsere IT intensiv beschäftigt. Sie konzipieren und betreiben eine hochmoderne IT-Infrastruktur, um die hohen Anforderungen von Lekkerland schnell umzusetzen und die Nutzer an jedem Standort bestmöglich zu unterstützen – mit neuesten Entwicklungsmethoden und Cloud-Technologien. Darüber hinaus unterstützt die IT in enger Zusammenarbeit die Fachbereiche – für eine effiziente Lagerlogistik, für einen produktiven Vertrieb und für den Erfolg vieler anderer Kolleginnen und Kollegen."
+    - generic [ref=f1e76]:
+      - heading "Unsere IT-Bereiche" [level=2] [ref=f1e78]
+      - list [ref=f1e79]:
+        - listitem [ref=f1e80]:
+          - generic [ref=f1e81]:
+            - figure "Lekkerland / Mark Feuerstake" [ref=f1e83]:
+              - img "Lekkerland Mitarbeiterinnen gemeinsam vor dem Laptop" [ref=f1e85]
+            - generic [ref=f1e87]:
+              - heading "Geschäftsprozesse" [level=3] [ref=f1e88]
+              - paragraph [ref=f1e89]: "Eng verzahnt und immer gemeinsam am Ball entwickeln und unterstützen wir unsere Fachbereiche. Ob Lagerlogistik, Vertrieb oder Controlling: Wir haben das Know-how, die Motivation und den technischen Background dazu."
+        - listitem [ref=f1e90]:
+          - generic [ref=f1e91]:
+            - figure "Lekkerland / Mark Feuerstake" [ref=f1e93]:
+              - img "Lekkerland Mitarbeiterinnen Unterhaltung vor dem Laptop" [ref=f1e95]
+            - generic [ref=f1e97]:
+              - heading "Entwicklung & Design" [level=3] [ref=f1e98]
+              - paragraph [ref=f1e99]: Unsere agilen Teams konzipieren maßgeschneiderte IT-Lösungen in allen Geschäftsfeldern – vom Cloud- und Inhouse-Hosting über JAVA bis zum Advanced Business Application Programming. In Abstimmung mit unseren Stakeholdern entwickeln und verbessern wir kontinuierlich unsere IT-Produkte, um zügig und flexibel auf neue Anforderungen reagieren zu können.
+        - listitem [ref=f1e100]:
+          - generic [ref=f1e101]:
+            - figure "Lekkerland / Mark Feuerstake" [ref=f1e103]:
+              - img "Lekkerland Mitarbeiter vor dem Laptop" [ref=f1e105]
+            - generic [ref=f1e107]:
+              - heading "Technische IT" [level=3] [ref=f1e108]
+              - paragraph [ref=f1e109]: In einer dynamischen Geschäftswelt gewährleistet unser Workplace-Management die Bereitstellung eines effizienten und leistungsstarken Arbeitsumfelds. Zudem sorgt das Platform- und Operations-Management mit der Verwaltung und Optimierung der technischen Infrastruktur für reibungslos funktionierende IT-Systeme.
+    - generic [ref=f1e114]:
+      - heading "Unter den Top 5 im E-Commerce" [level=2] [ref=f1e115]
+      - paragraph [ref=f1e116]: "Das E-Commerce-Team: Hier ist das Ziel, den Kund:innen durch einen hohen Digitalisierungsgrad in der Kommunikation und Interaktion die bestmögliche Erfahrung in der Zusammenarbeit mit Lekkerland zu bieten. Mit dem digitalen Kundenportal und einem der umsatzstärksten B2B-Onlineshops in Deutschland wurde bereits ein erfolgreiches Fundament geschaffen. In der weiteren Entwicklung setzt der Bereich auf eine hochmoderne, cloudbasierte und skalierbare IT-Architektur. Agilität und Eigenverantwortung werden dabei großgeschrieben. In diesem Team wirkst du mit beim Ausbau der zentralen Plattform für Bestellung, Beratung, Serviceangebote und Kommunikation. So begeisterst du unsere Kund:innen für neue Online-Formate."
+    - generic [ref=f1e119]:
+      - heading "Unsere E-Commerce Bereiche" [level=2] [ref=f1e121]
+      - list [ref=f1e122]:
+        - listitem [ref=f1e123]:
+          - generic [ref=f1e124]:
+            - figure "Lekkerland / Studio2B GmbH" [ref=f1e126]:
+              - img "Lekkerland Mitarbeiter telefoniert am Schreibtisch" [ref=f1e128]
+            - generic [ref=f1e130]:
+              - heading "Digitales Produktmanagement" [level=3] [ref=f1e131]
+              - paragraph [ref=f1e132]: Unser Ziel ist, den größtmöglichen Mehrwert für unsere Kund:innen zu schaffen und die Zusammenarbeit komfortabel zu gestalten. Wir konzipieren, entwickeln und betreiben digitale Produkte in Zusammenarbeit mit Software Engineering und Digitalem Marketing & Operations, basierend auf Benutzeranalysen und Kundenfeedback. Der Austausch in cross-funktionalen Teams und die Kommunikation mit Stakeholdern sind dabei entscheidend.
+        - listitem [ref=f1e133]:
+          - generic [ref=f1e134]:
+            - figure "Lekkerland / Mark Feuerstake" [ref=f1e136]:
+              - img "Unterhaltung Lekkerland Mitarbeitende" [ref=f1e138]
+            - generic [ref=f1e140]:
+              - heading "Software Engineering" [level=3] [ref=f1e141]
+              - paragraph [ref=f1e142]: Wir entwickeln und warten die System- und Softwarelandschaft, inklusive einer modernen, cloudbasierten Infrastruktur. Durch enge Zusammenarbeit mit Fachbereichen schaffen wir effiziente Lösungen für Vertrieb, Kundenservice und Logistik. Wir setzen hohe Standards in Architektur, Qualität, Sicherheit und Performance und unterstützen die Digitalisierung und Automatisierung von Geschäftsprozessen für eine optimale Kund:innen-Erfahrung.
+        - listitem [ref=f1e143]:
+          - generic [ref=f1e144]:
+            - figure "Lekkerland / Eileen Schlüter" [ref=f1e146]:
+              - img "Nahaufnahme Tastatur am Schreibtisch" [ref=f1e148]
+            - generic [ref=f1e150]:
+              - heading "Digitales Marketing & Operations" [level=3] [ref=f1e151]
+              - paragraph [ref=f1e152]: Wir präsentieren kreativ Sortimente, Angebote und Aktionen in unserem Webshop und in der App, um Kund:innen über verschiedene Kanäle zu begeistern. Mit innovativen Lösungen schaffen wir kommerzielles Potenzial für unsere digitalen Touchpoints. Unsere Operations Manager und der Helpdesk sorgen für optimalen Kundenservice und einen reibungslosen Betrieb der digitalen Produkte.
+    - generic [ref=f1e157]:
+      - heading "Zahlen, Daten & Fakten" [level=2] [ref=f1e159]
+      - list [ref=f1e160]:
+        - listitem [ref=f1e161]:
+          - generic [ref=f1e162]: rund0
+          - generic [ref=f1e163]: Mitarbeitende IT
+        - listitem [ref=f1e164]:
+          - generic [ref=f1e165]: rund0
+          - generic [ref=f1e166]: Mitarbeitende E-Commerce
+    - generic [ref=f1e170]:
+      - generic [ref=f1e171]:
+        - heading "Was wir dir bieten" [level=2] [ref=f1e172]
+        - paragraph
+      - list [ref=f1e173]:
+        - listitem [ref=f1e174]:
+          - generic [ref=f1e182]:
+            - heading "Wertschätzende Vergütung" [level=3] [ref=f1e183]
+            - paragraph [ref=f1e184]: Im Bereich IT/E-Commerce erhältst du ein attraktives Fixgehalt – im Vertrauen auf deine Fähigkeiten und in der Erwartung nachhaltiger Erfolge.
+        - listitem [ref=f1e185]:
+          - generic [ref=f1e190]:
+            - heading "Gelebte Work-Life-Balance" [level=3] [ref=f1e191]
+            - paragraph [ref=f1e192]: Die Ausgewogenheit von Berufs- und Privatleben wird großgeschrieben, u. a. durch eine hohe Flexibilität hinsichtlich Arbeitszeit- und ort.
+        - listitem [ref=f1e193]:
+          - generic [ref=f1e199]:
+            - heading "Vielversprechende Karriere" [level=3] [ref=f1e200]
+            - paragraph [ref=f1e201]: Lekkerland und die REWE Group bieten dir vielfältige Entwicklungsmöglichkeiten, die auf deine Pläne und Anforderungen ausgerichtet sind.
+        - listitem [ref=f1e202]:
+          - generic [ref=f1e207]:
+            - heading "Hoher Wohlfühlfaktor" [level=3] [ref=f1e208]
+            - paragraph [ref=f1e209]: Gesundheitsprogramme, Sportmöglichkeiten und Angebote für deine mentale Stärkung sorgen dafür, dass du dich gut aufgehoben fühlst.
+        - listitem [ref=f1e210]:
+          - generic [ref=f1e215]:
+            - heading "Aktives Miteinander" [level=3] [ref=f1e216]
+            - paragraph [ref=f1e217]: "Vom intensiven Onboarding über regelmäßige Team-Events und Unternehmensfeiern bis zur Mitarbeitenden-App: Wir sind (d)ein Team!"
+    - generic [ref=f1e221]:
+      - generic [ref=f1e222]:
+        - heading "Wen wir suchen?" [level=2] [ref=f1e223]
+        - paragraph [ref=f1e224]: "Du passt zu uns, wenn du dich in diesen Punkten widererkennst:"
+      - list [ref=f1e225]:
+        - listitem [ref=f1e226]:
+          - heading "Digitales Mindset" [level=3] [ref=f1e233]
+        - listitem [ref=f1e234]:
+          - heading "Leidenschaft für IT-Themen" [level=3] [ref=f1e240]
+        - listitem [ref=f1e241]:
+          - heading "Ziel- und lösungsorientierte Arbeitsweise" [level=3] [ref=f1e248]
+        - listitem [ref=f1e249]:
+          - heading "Bereitschaft, von Beginn an Verantwortung zu übernehmen" [level=3] [ref=f1e258]
+        - listitem [ref=f1e259]:
+          - heading "Arbeiten in agilen Projektorganisationen & Flexibilität" [level=3] [ref=f1e265]
+        - listitem [ref=f1e266]:
+          - heading "Kommunikations- und Präsentationsfähigkeiten" [level=3] [ref=f1e274]
+    - generic [ref=f1e277]:
+      - generic [ref=f1e279]:
+        - heading "Klicke auf den ultimativen Karriere-Button!" [level=2] [ref=f1e280]
+        - paragraph [ref=f1e281]: Bei Lekkerland bringst du deine IT-Leidenschaft in spannende Projekte ein, die für dich und uns eine erstrebenswerte Zukunft bedeuten.
+        - link "Jetzt Stellen entdecken" [ref=f1e283] [cursor=pointer]:
+          - /url: https://karriere.lekkerland.de/jobs/
+      - figure [ref=f1e286]:
+        - img "Bunte Collage von Lekkerland Mitarbeitenden" [ref=f1e288]
+    - generic [ref=f1e290]:
+      - generic [ref=f1e291]:
+        - 'heading "Infos und Insights: Film ab!" [level=2] [ref=f1e292]'
+        - paragraph [ref=f1e293]: Entdecke die Arbeitswelt von IT/E-Commerce anhand der Erfahrungen deines künftigen Teams!
+      - generic [ref=f1e294]:
+        - figure "Lekkerland / Mark Feuerstake" [ref=f1e297]:
+          - img "Lekkerland Mitarbeitende blicken in die Kamera" [ref=f1e299]
+        - button "Video starten" [ref=f1e301] [cursor=pointer]
+    - article "1 / 1" [ref=f1e312]:
+      - generic [ref=f1e313]:
+        - figure [ref=f1e316]:
+          - img "Lekkerland Mitarbeiter vor lila Hintergrund" [ref=f1e318]
+        - generic [ref=f1e319]:
+          - paragraph [ref=f1e321]: "„…Als IT-ler kann ich mich voll entfalten – mit viel ‚Beinfreit‘. … Dabei genieße ich das Vertrauen meines Vorgesetzten. … Insbesondere aber schätze ich verlässliche Strukturen – im Sinne einer Arbeit, die Spaß macht, Sicherheit gibt und inhaltlich ausfüllt. Außerdem ist mir meine Aufgabe als junger Familienvater mindestens genauso wichtig. … Ich konnte beispielsweisevöllig problemlos eine zweimonatige Elternzeit nehmen. Auch bei der Arbeitszeitgestaltung bin ich sehr flexibel. So kann ich aus voller Überzeugung sagen: Mein Job passt zu meinem Leben.“"
+          - generic [ref=f1e322]: Pablo Hunger
+          - generic [ref=f1e323]: IT Senior Engineer Applications
+    - generic [ref=f1e326]:
+      - heading "Wie wir arbeiten" [level=2] [ref=f1e328]
+      - list [ref=f1e329]:
+        - listitem [ref=f1e330]:
+          - generic [ref=f1e335]:
+            - heading "Wir geben Sicherheit" [level=3] [ref=f1e336]
+            - paragraph [ref=f1e337]: Unsere Teams verschaffen den Menschen Vertrauen, Orientierung und Unterstützung bei der Bewältigung der digitalen Transformation.
+        - listitem [ref=f1e338]:
+          - generic [ref=f1e343]:
+            - heading "Wir lieben Abwechslung" [level=3] [ref=f1e344]
+            - paragraph [ref=f1e345]: Etwa die Hälfte unserer Arbeit ist vom Tagesgeschäft geprägt. In der verbleibenden Zeit befassen wir uns mit neuen, spannenden Projekten.
+        - listitem [ref=f1e346]:
+          - generic [ref=f1e352]:
+            - heading "Wir setzen auf Verantwortung" [level=3] [ref=f1e353]
+            - paragraph [ref=f1e354]: "Die Strukturen sind „durchlässig“: Durch große Gestaltungsspielräume und Möglichkeiten, sich auszuprobieren, baust du deine Stärken aus."
+        - listitem [ref=f1e355]:
+          - generic [ref=f1e361]:
+            - heading "Wir lernen nie aus" [level=3] [ref=f1e362]
+            - paragraph [ref=f1e363]: Getreu dem Motto „Fordern und Fördern“ gewähren wir viel Zeit für die Weiterbildung. Darüber hinaus leben wir eine positive Fehlerkultur.
+    - generic [ref=f1e368]:
+      - figure [ref=f1e371]:
+        - img "Bunte Collage von Lekkerland Mitarbeitenden" [ref=f1e373]
+      - generic [ref=f1e374]:
+        - heading "Was uns ausmacht" [level=2] [ref=f1e375]
+        - list [ref=f1e376]:
+          - listitem [ref=f1e377]: Unser Full-Service IT-Angebot bietet spannende Chancen und Potenziale
+          - listitem [ref=f1e378]: Zusammenführung von hoher Professionalität, Flexibilität und Kreativität
+          - listitem [ref=f1e379]: Engagiertes Team mit Macher-Qualitäten und großem Veränderungswillen
+          - listitem [ref=f1e380]: Wegweisende Technologien treffen auf vielversprechende Innovationen
+          - listitem [ref=f1e381]: Regelmäßige Trainings zur Gewährleistung bestmöglicher Qualifikationen
+          - listitem [ref=f1e382]: Geringe Fluktuation unter den Mitarbeitenden garantiert Kontinuität
+    - generic [ref=f1e384]:
+      - generic [ref=f1e385]:
+        - heading [level=2] [ref=f1e386]:
+          - strong [ref=f1e387]: Einstieg für IT- / E-Commerce-Begeisterte
+        - paragraph [ref=f1e388]: Bei uns stehen dir vielfältige Karriereoptionen offen. In welchem Bereich dürfen wir dich kennenlernen?
+      - search "Jobs filtern" [ref=f1e389]:
+        - generic [ref=f1e390]:
+          - generic: Nach Titel suchen
+          - combobox "Nach Titel suchen" [ref=f1e394]
+        - generic [ref=f1e395]:
+          - generic [ref=f1e396]:
+            - generic [ref=f1e397]:
+              - generic [ref=f1e398] [cursor=pointer]: Großraum
+              - listbox "Großraum" [ref=f1e399] [cursor=pointer]:
+                - option "Köln" [ref=f1e400]
+                - option "Vertriebsgebiet" [ref=f1e401]
+                - option "Teltow-Fläming" [ref=f1e402]
+                - option "Hannover" [ref=f1e403]
+                - option "Mannheim" [ref=f1e404]
+                - option "Erlangen" [ref=f1e405]
+                - option "Hamburg" [ref=f1e406]
+                - option "Schwäbisch Gmünd" [ref=f1e407]
+                - option "Freising" [ref=f1e408]
+                - option "Leverkusen" [ref=f1e409]
+                - option "Leipzig" [ref=f1e410]
+                - option "Oberhausen" [ref=f1e411]
+                - option "Region Ost" [ref=f1e412]
+                - option "Region Süd-Ost" [ref=f1e413]
+                - option "Limburg an der Lahn" [ref=f1e414]
+              - combobox "Großraum" [ref=f1e417]
+            - generic [ref=f1e418]:
+              - generic [ref=f1e419] [cursor=pointer]: Standort
+              - listbox "Standort" [ref=f1e420] [cursor=pointer]:
+                - option "Frechen" [ref=f1e421]
+                - option "Höchstadt" [ref=f1e422]
+                - option "Großbeeren" [ref=f1e423]
+                - option "Wedemark" [ref=f1e424]
+                - option "Bobenheim-Roxheim" [ref=f1e425]
+                - option "Ulm" [ref=f1e426]
+                - option "Braak" [ref=f1e427]
+                - option "Mögglingen" [ref=f1e428]
+                - option "Kerpen" [ref=f1e429]
+                - option "Weingarten" [ref=f1e430]
+                - option "Regensburg" [ref=f1e431]
+                - option "Koblenz" [ref=f1e432]
+                - option "Allershausen" [ref=f1e433]
+                - option "Leverkusen" [ref=f1e434]
+                - option "Frankfurt am Main" [ref=f1e435]
+                - option "Münster" [ref=f1e436]
+                - option "Bucha" [ref=f1e437]
+                - option "Oberhausen" [ref=f1e438]
+                - option "Berlin" [ref=f1e439]
+                - option "Hannover" [ref=f1e440]
+                - option "Elz" [ref=f1e441]
+                - option "Kaiserslautern" [ref=f1e442]
+                - option "Köln" [ref=f1e443]
+                - option "Ravensburg" [ref=f1e444]
+              - combobox "Standort" [ref=f1e447]
+            - generic [ref=f1e448]:
+              - generic [ref=f1e449] [cursor=pointer]: Bereich
+              - listbox "Bereich" [ref=f1e450] [cursor=pointer]:
+                - option "Transport / Fuhrpark" [ref=f1e451]
+                - option "Vertrieb" [ref=f1e452]
+                - option "Einkauf / Category Management" [ref=f1e453]
+                - option "E-Commerce" [ref=f1e454]
+                - option "Lagerlogistik" [ref=f1e455]
+                - option "Merchandising" [ref=f1e456]
+                - option "Ausbildung / Studentenpraktika / Nachwuchsprogramme" [ref=f1e457]
+                - option "Administration / Finanzen / Recht" [ref=f1e458]
+                - option "Business Development" [ref=f1e459]
+                - option "Strategisches Logistik- und Supply Chain Management" [ref=f1e460]
+                - option "Operative Logistiksteuerung" [ref=f1e461]
+                - option "Initiativ" [ref=f1e462]
+                - option "IT" [selected] [ref=f1e463]
+              - generic [ref=f1e464]:
+                - combobox "Bereich" [ref=f1e466]
+                - 'button "Bereich: 1 ausgewählt. Klicken zum Zurücksetzen." [ref=f1e467] [cursor=pointer]': "1"
+            - generic [ref=f1e468]:
+              - generic [ref=f1e469] [cursor=pointer]: Einstieg
+              - listbox "Einstieg" [ref=f1e470] [cursor=pointer]:
+                - option "mit Berufserfahrung" [ref=f1e471]
+                - option "ohne Berufserfahrung" [ref=f1e472]
+                - option "mit Personalverantwortung" [ref=f1e473]
+              - combobox "Einstieg" [ref=f1e476]
+            - generic [ref=f1e477]:
+              - generic [ref=f1e478] [cursor=pointer]: Beschäftigung
+              - listbox "Beschäftigung" [ref=f1e479] [cursor=pointer]:
+                - option "Vollzeit" [ref=f1e480]
+                - option "Geringfügig" [ref=f1e481]
+                - option "Teilzeit" [ref=f1e482]
+                - option "Traineeship" [ref=f1e483]
+                - option "Werkstudent" [ref=f1e484]
+                - option "Teilzeit / Vollzeit" [ref=f1e485]
+                - option "Praktikum" [ref=f1e486]
+              - combobox "Beschäftigung" [ref=f1e489]
+          - generic [ref=f1e490]:
+            - checkbox "Nach Favoriten filtern"
+            - generic "Nach Favoriten filtern" [ref=f1e491] [cursor=pointer]
+          - button "Filter zurücksetzen" [ref=f1e497] [cursor=pointer]
+      - list "Gefundene Treffer" [ref=f1e504]:
+        - listitem [ref=f1e505]:
+          - heading "(Senior) SAP Solution Consultant (m/w/d) - Schwerpunkt SD/MM" [level=3] [ref=f1e506]
+          - generic [ref=f1e507]:
+            - term [ref=f1e508]: Standort
+            - definition [ref=f1e509]: Köln · Frechen ·
+            - term [ref=f1e510]: Bereich
+            - definition [ref=f1e511]: IT ·
+            - term [ref=f1e512]: Einstieg
+            - definition [ref=f1e513]: mit Berufserfahrung ·
+            - term [ref=f1e514]: Beschäftigung
+            - definition [ref=f1e515]: Vollzeit
+          - button "Als Favorit hinzufügen" [ref=f1e517] [cursor=pointer]
+          - link "Mehr erfahren" [ref=f1e522] [cursor=pointer]:
+            - /url: https://karriere.lekkerland.de/jobs/job/senior-sap-solution-consultant-m-w-d-schwerpunkt-sd-mm/q86whhr3/
+        - listitem [ref=f1e523]:
+          - heading "(Senior) IT Consultant – Schwerpunkt Transport (m/w/d)" [level=3] [ref=f1e524]
+          - generic [ref=f1e525]:
+            - term [ref=f1e526]: Standort
+            - definition [ref=f1e527]: Köln · Frechen ·
+            - term [ref=f1e528]: Bereich
+            - definition [ref=f1e529]: IT ·
+            - term [ref=f1e530]: Einstieg
+            - definition [ref=f1e531]: mit Berufserfahrung ·
+            - term [ref=f1e532]: Beschäftigung
+            - definition [ref=f1e533]: Vollzeit
+          - button "Als Favorit hinzufügen" [ref=f1e535] [cursor=pointer]
+          - link "Mehr erfahren" [ref=f1e540] [cursor=pointer]:
+            - /url: https://karriere.lekkerland.de/jobs/job/senior-it-consultant-schwerpunkt-transport-m-w-d/evw5fnvb/
+      - link "Alle Jobs ansehen" [ref=f1e542] [cursor=pointer]:
+        - /url: https://karriere.lekkerland.de/jobs/?department%5B%5D=548464553&department%5B%5D=548464562#jobs
+    - generic [ref=f1e545]:
+      - generic [ref=f1e547]:
+        - heading "Nicht das Richtige dabei?" [level=2] [ref=f1e548]
+        - paragraph [ref=f1e549]: Bei uns erwarten dich in allen Jobs anspruchsvolle Aufgaben, interessante Herausforderungen und attraktive Entwicklungsmöglichkeiten.
+        - paragraph [ref=f1e550]: Bringe deine Stärken ein und schaffe perfekte Einkaufserlebnisse in jedem Bereich. Wir freuen uns darauf, dich kennenzulernen!
+        - paragraph [ref=f1e551]:
+          - link "Jetzt alle Stellen entdecken" [ref=f1e552] [cursor=pointer]:
+            - /url: https://karriere.lekkerland.de/jobs/
+        - paragraph [ref=f1e553]:
+          - link "Mehr Jobs in der REWE Group" [ref=f1e554] [cursor=pointer]:
+            - /url: https://jobs.rewe-group.com/jobs/suchen
+      - figure [ref=f1e557]:
+        - img "Bunte Collage von Lekkerland Mitarbeitenden" [ref=f1e559]
+    - generic [ref=f1e561]:
+      - generic [ref=f1e562]:
+        - heading "Noch Fragen? Melde dich bei uns." [level=2] [ref=f1e563]
+        - paragraph [ref=f1e564]: Fragen zu unseren offenen Stellen oder zu unserem Bewerbungsprozess beantworten wir dir gern.
+      - generic [ref=f1e565]:
+        - generic [ref=f1e569]:
+          - generic [ref=f1e570]:
+            - generic [ref=f1e571]:
+              - generic: Name
+              - textbox "Name" [ref=f1e572]
+            - generic [ref=f1e573]:
+              - generic: Firma
+              - textbox "Firma" [ref=f1e574]
+            - generic [ref=f1e575]:
+              - generic: E-Mail-Adresse *
+              - textbox "E-Mail-Adresse" [ref=f1e576]
+            - generic [ref=f1e577]:
+              - generic [ref=f1e578] [cursor=pointer]: Deine Nachricht
+              - textbox "Deine Nachricht" [ref=f1e579]
+            - generic [ref=f1e581]:
+              - text: Ihre personenbezogenen Daten werden ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage verarbeitet. Rechtsgrundlage bzgl. der Pflichtangaben ist Art. 6 Abs. 1 lit. b bzw. lit . f DSGVO. Ihre freiwilligen Angaben erheben wir auf Basis Ihrer Einwilligung. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufe. Bitte wenden Sie sich hierfür an die in der Datenschutzerklärung genannte Stelle. Nähere Informationen zu der Datenverarbeitung finden Sie in unserer
+              - link "Datenschutzerklärung" [ref=f1e582] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/datenschutz/
+              - text: .
+            - generic [aria-hidden] [ref=f1e585]: "* Pflichtfeld"
+          - button "Absenden" [ref=f1e587] [cursor=pointer]
+          - generic [ref=f1e588]:
+            - generic [ref=f1e589] [cursor=pointer]: "Alternative:"
+            - textbox "Alternative:" [ref=f1e590]
+        - generic [ref=f1e592]:
+          - figure [ref=f1e594]:
+            - img "Lekkerland Mitarbeiter aus dem Recruiting Team vor türkisen Hintergrund" [ref=f1e596]
+          - generic [ref=f1e597]:
+            - heading "Torben Sieburg" [level=3] [ref=f1e598]
+            - paragraph [ref=f1e599]: Recruiting IT / E-Commerce / Communications
+          - list [ref=f1e600]:
+            - listitem [ref=f1e601]:
+              - link "recruiting@lekkerland.com" [ref=f1e602] [cursor=pointer]:
+                - /url: mailto:recruiting@l%65k%6berlan%64.com
+  - contentinfo [ref=f1e610]:
+    - generic [ref=f1e611]:
+      - generic [ref=f1e614]:
+        - generic [ref=f1e615]:
+          - paragraph [ref=f1e617]: Wir als Arbeitgeber
+          - navigation "Wir als Arbeitgeber" [ref=f1e618]:
+            - list [ref=f1e619]:
+              - listitem [ref=f1e620]:
+                - link "Über uns" [ref=f1e621] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/ueber-uns/
+              - listitem [ref=f1e622]:
+                - link "Standorte" [ref=f1e623] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/standorte/
+              - listitem [ref=f1e624]:
+                - link "Weiterkommen mit Lekkerland" [ref=f1e625] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/weiterkommen/
+              - listitem [ref=f1e626]:
+                - link "Kontakt" [ref=f1e627] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/kontakt/
+              - listitem [ref=f1e628]:
+                - link "Infos rund um die Bewerbung" [ref=f1e629] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/bewerbung/
+              - listitem [ref=f1e630]:
+                - link "Lekkerland Unternehmensseite" [ref=f1e631] [cursor=pointer]:
+                  - /url: https://www.lekkerland.de/
+        - generic [ref=f1e632]:
+          - paragraph [ref=f1e634]: Dein Einstieg
+          - navigation "Dein Einstieg" [ref=f1e635]:
+            - list [ref=f1e636]:
+              - listitem [ref=f1e637]:
+                - link "Übersicht der Bereiche" [ref=f1e638] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/
+              - listitem [ref=f1e639]:
+                - link "Schüler:innen" [ref=f1e640] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/schuelerinnen/
+              - listitem [ref=f1e641]:
+                - link "Studierende" [ref=f1e642] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/studierende/
+              - listitem [ref=f1e643]:
+                - link "Berufseinsteigende" [ref=f1e644] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/berufseinsteigende/
+              - listitem [ref=f1e645]:
+                - link "Berufserfahrene" [ref=f1e646] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/berufserfahrene/
+              - listitem [ref=f1e647]:
+                - link "Weitere Jobs bei der Rewe Group" [ref=f1e648] [cursor=pointer]:
+                  - /url: https://jobs.rewe-group.com/jobs/suchen
+        - generic [ref=f1e649]:
+          - paragraph [ref=f1e651]: Social Media
+          - list "Social Media" [ref=f1e652]:
+            - listitem [ref=f1e653]:
+              - link "Facebook" [ref=f1e654] [cursor=pointer]:
+                - /url: https://www.facebook.com/LekkerlandDeutschland
+            - listitem [ref=f1e658]:
+              - link "Linkedin" [ref=f1e659] [cursor=pointer]:
+                - /url: https://de.linkedin.com/company/lekkerland
+            - listitem [ref=f1e663]:
+              - link "Xing" [ref=f1e664] [cursor=pointer]:
+                - /url: https://www.xing.com/companies/lekkerland
+            - listitem [ref=f1e668]:
+              - link "Youtube" [ref=f1e669] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC99AtyK9_Iq79qHRPQrh97A
+        - generic [ref=f1e673]:
+          - paragraph [ref=f1e674]: Weiteres
+          - link "REWE Group" [ref=f1e675] [cursor=pointer]:
+            - /url: https://www.rewe-group.com/de/
+            - figure [ref=f1e678]:
+              - img "Logo Teil der REWE Group" [ref=f1e680]
+          - figure [ref=f1e682]
+      - generic [ref=f1e687]:
+        - paragraph [ref=f1e689]: © 2026 Lekkerland
+        - link "Website by Friendventure" [ref=f1e691] [cursor=pointer]:
+          - /url: https://www.friendventure.de/
+        - navigation [ref=f1e696]:
+          - list [ref=f1e697]:
+            - listitem [ref=f1e698]:
+              - link "Datenschutz" [ref=f1e699] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/datenschutz/
+            - listitem [ref=f1e700]:
+              - link "Impressum" [ref=f1e701] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/impressum/
+            - listitem [ref=f1e702]:
+              - link "Privatsphäre-Einstellungen" [ref=f1e703] [cursor=pointer]:
+                - /url: "#"

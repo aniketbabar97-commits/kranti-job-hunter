@@ -1,0 +1,85 @@
+- generic [active] [ref=f3e1]:
+  - link "Zum Inhalt springen" [ref=f3e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f3e3]:
+    - banner:
+      - navigation [ref=f3e5]:
+        - generic [ref=f3e6]:
+          - link [ref=f3e7] [cursor=pointer]:
+            - /url: /
+            - figure [ref=f3e8]:
+              - img "Bader_Logo" [ref=f3e9]
+          - generic [ref=f3e11] [cursor=pointer]
+    - main [ref=f3e15]:
+      - generic [ref=f3e17]:
+        - img "Bewerben Sie sich bei uns" [ref=f3e19]
+        - generic [ref=f3e21]:
+          - generic [aria-hidden] [ref=f3e22]:
+            - generic [ref=f3e23]: Website
+            - textbox [ref=f3e24]
+          - heading "Bewerbungsformular" [level=1] [ref=f3e25]
+          - paragraph [ref=f3e26]:
+            - generic [ref=f3e27]: Jobtitel*
+            - textbox "Jobtitel*" [ref=f3e28]: Softwareentwickler Salesforce (m/w/d)
+          - paragraph [ref=f3e29]:
+            - generic [ref=f3e30]: Vorname*
+            - textbox "Vorname*" [ref=f3e31]
+          - paragraph [ref=f3e32]:
+            - generic [ref=f3e33]: Nachname*
+            - textbox "Nachname*" [ref=f3e34]
+          - paragraph [ref=f3e35]:
+            - generic [ref=f3e36]: E-Mail-Adresse*
+            - textbox "E-Mail-Adresse*" [ref=f3e37]
+          - paragraph [ref=f3e38]:
+            - generic [ref=f3e39]: Zusätzliche Mitteilung
+            - textbox "Zusätzliche Mitteilung" [ref=f3e40]
+          - paragraph [ref=f3e41]:
+            - generic [ref=f3e42]: Dateiupload* (pdf, doc, docx, jpg, png, max. 5 Dateien à 25 MB)
+            - button "Dateien auswählen…" [ref=f3e43] [cursor=pointer]
+          - paragraph
+          - generic [ref=f3e44]:
+            - paragraph [ref=f3e45]: Datenschutz
+            - paragraph [ref=f3e46]:
+              - text: Mit dem Absenden Ihrer Bewerbung stimmen Sie der Verarbeitung Ihrer Daten gemäß unserer
+              - link "Datenschutzerklärung" [ref=f3e47] [cursor=pointer]:
+                - /url: https://www.bader-karriere.de/datenschutz
+              - text: zu.
+          - paragraph [ref=f3e48]:
+            - generic [ref=f3e49]:
+              - checkbox "Ich stimme der Datenschutzerklärung zu.*" [ref=f3e50]
+              - text: Ich stimme der Datenschutzerklärung zu.*
+          - paragraph [ref=f3e51]:
+            - button "Bewerbung absenden" [disabled] [ref=f3e52]
+          - paragraph [ref=f3e53]:
+            - text: Alle Angaben mit einem
+            - strong [ref=f3e54]: "*"
+            - text: sind Pflichtfelder.
+    - contentinfo [ref=f3e56]:
+      - generic [ref=f3e57]:
+        - generic [ref=f3e58]:
+          - generic [ref=f3e59]:
+            - figure [ref=f3e60]
+            - paragraph [ref=f3e61]: Seit 1929 steht BADER für Qualität und erstklassigen Service. Werden Sie Teil unserer Erfolgsgeschichte und gestalten Sie die Zukunft des Versandhandels mit uns.
+          - generic [ref=f3e62]:
+            - generic [ref=f3e63]:
+              - heading [level=2] [ref=f3e64]:
+                - strong [ref=f3e65]: Karriere
+              - paragraph [ref=f3e66]:
+                - link "Stellenmarkt" [ref=f3e67] [cursor=pointer]:
+                  - /url: /stellenmarkt
+                - link "Unsere Benefits" [ref=f3e68] [cursor=pointer]:
+                  - /url: /benefits
+                - link "Ausbildung/Studium" [ref=f3e69] [cursor=pointer]:
+                  - /url: /ausbildung-studium/
+            - generic [ref=f3e70]:
+              - heading [level=2] [ref=f3e71]:
+                - strong [ref=f3e72]: Rechtliches
+              - paragraph [ref=f3e73]:
+                - link "Impressum" [ref=f3e74] [cursor=pointer]:
+                  - /url: /impressum
+                - link "Datenschutz" [ref=f3e75] [cursor=pointer]:
+                  - /url: /datenschutz
+        - paragraph [ref=f3e77]:
+          - text: "Ein Klick zum Webshop:"
+          - link "www.bader.de" [ref=f3e78] [cursor=pointer]:
+            - /url: https://www.bader.de

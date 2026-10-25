@@ -1,0 +1,30 @@
+- generic [active] [ref=f23e1]:
+  - banner:
+    - navigation "Hauptnavigation" [ref=f23e2]:
+      - generic [ref=f23e3]:
+        - link "Zur Startseite" [ref=f23e5] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f23e6]
+        - generic [ref=f23e7]:
+          - button "Navigation umschalten" [ref=f23e8] [cursor=pointer]
+          - text:      
+  - generic [ref=f23e14]:
+    - generic [ref=f23e16]:
+      - option [selected]
+      - option [selected]
+      - option [selected]
+      - option "Nein"
+      - option "Ja"
+      - option [selected]
+      - option [selected]
+      - option [selected]
+      - region "Speichern und Laden Bereich" [ref=f23e17]:
+        - separator [ref=f23e18]
+        - paragraph [ref=f23e19]: Wenn du deine Bewerbung zwischenspeichern möchtest, um sie zu einem späteren Zeitpunkt weiter zu bearbeiten, dann klicke unten auf "Bewerbung speichern". Um die Bewerbung dann anschließend weiter zu bearbeiten, klicke auf "Bewerbung laden".
+        - button "Bewerbung speichern" [ref=f23e20] [cursor=pointer]
+        - button "Bewerbung laden" [ref=f23e21] [cursor=pointer]
+    - text: 
+  - iframe [ref=f23e24]:
+    - generic [ref=f24e6]:
+      - text: protected by
+      - strong [ref=f24e7]: reCAPTCHA

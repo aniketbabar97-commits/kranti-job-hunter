@@ -1,0 +1,173 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Primary" [ref=e4]:
+      - link "LinkedIn" [ref=e5] [cursor=pointer]:
+        - /url: /?trk=public_post_nav-header-logo
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Top Content" [ref=e21] [cursor=pointer]:
+            - /url: https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent
+        - listitem [ref=e24]:
+          - link "People" [ref=e25] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people
+        - listitem [ref=e28]:
+          - link "Learning" [ref=e29] [cursor=pointer]:
+            - /url: https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning
+        - listitem [ref=e32]:
+          - link "Jobs" [ref=e33] [cursor=pointer]:
+            - /url: https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs
+        - listitem [ref=e36]:
+          - link "Games" [ref=e37] [cursor=pointer]:
+            - /url: https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games
+        - listitem [ref=e40]:
+          - link "Get the app" [ref=e41] [cursor=pointer]:
+            - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=public_post_guest_nav_menu_windows
+      - generic [ref=e44]:
+        - link "Sign in" [ref=e45] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&fromSignIn=true&trk=public_post_nav-header-signin
+        - link "Join now" [ref=e46] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_nav-header-join
+  - main [ref=e47]:
+    - generic [ref=e50]:
+      - heading "Vantage’s Post" [level=1] [ref=e51]
+      - article [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e55]:
+            - link [ref=e56] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/company/vantage-retail-media?trk=public_post_feed-actor-image
+              - img "View organization page for Vantage" [ref=e57]
+            - generic [ref=e58]:
+              - link "View organization page for Vantage" [ref=e60] [cursor=pointer]:
+                - /url: https://ca.linkedin.com/company/vantage-retail-media?trk=public_post_feed-actor-name
+                - text: Vantage
+              - paragraph [ref=e61]: 6,703 followers
+              - time [ref=e63]: 1w
+          - button "Open menu" [ref=e66] [cursor=pointer]
+        - paragraph [ref=e68]:
+          - text: Join
+          - link "Vantage" [ref=e69] [cursor=pointer]:
+            - /url: https://ca.linkedin.com/company/vantage-retail-media?trk=public_post-text
+          - text: ’s Product Development Team as a Full Stack Engineer! 🚀 We’re looking for someone who’s passionate about retail media and motivated by the role great software plays in the user journey. In this role, you'll work across the stack to build the technology powering modern retail media. Partnering with engineers and product managers, you'll create scalable, user-focused experiences and deliver thoughtful features to help retailers and brands succeed. Interested or know someone who's a great fit? Learn more 👇
+          - link "#Hiring" [ref=e70] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhiring&trk=public_post-text
+          - link "#NowHiring" [ref=e71] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fnowhiring&trk=public_post-text
+          - link "#TechJobs" [ref=e72] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ftechjobs&trk=public_post-text
+          - link "#RemoteWork" [ref=e73] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fremotework&trk=public_post-text
+        - link [ref=e75] [cursor=pointer]:
+          - /url: https://ca.linkedin.com/jobs/view/full-stack-engineer-at-vantage-4461525228?trk=public_post_feed-job-posting-content
+          - img "Vantage" [ref=e76]
+          - generic [ref=e77]:
+            - heading "Full Stack Engineer" [level=2] [ref=e78]
+            - heading "Vantage, Toronto, Ontario, Canada" [level=3] [ref=e79]
+        - generic [ref=e80]:
+          - link "5 Reactions" [ref=e81] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_social-actions-reactions
+            - generic [aria-hidden] [ref=e82]: "5"
+          - link "· 2 Comments" [ref=e83] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_social-actions-comments
+        - generic [ref=e84]:
+          - link "Like" [ref=e85] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_like-cta
+          - link "Comment" [ref=e88] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_comment-cta
+          - button "Share" [ref=e92] [cursor=pointer]
+        - generic [ref=e94]:
+          - link [ref=e96] [cursor=pointer]:
+            - /url: https://pk.linkedin.com/in/talha-malik-engineer?trk=public_post_comment_actor-image
+            - img "Talha Malik, graphic" [ref=e97]
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - link "Talha Malik" [ref=e101] [cursor=pointer]:
+                  - /url: https://pk.linkedin.com/in/talha-malik-engineer?trk=public_post_comment_actor-name
+                - generic [ref=e102]: 1w
+                - button "Open menu" [ref=e105] [cursor=pointer]
+              - paragraph [ref=e107]:
+                - text: This sounds like a great fit for me! I’m a Senior Full Stack Engineer (React/
+                - link "Next.js" [ref=e108] [cursor=pointer]:
+                  - /url: http://Next.js?trk=public_post_comment-text
+                - text: ", Python/FastAPI, AWS) with 10+ years building commerce platforms for US retail clients, including storefront performance work that cut load times by 45%, Shopify and Salesforce Commerce Cloud integrations, and analytics dashboards. Retail media is an exciting space. I applied through the link and would love to connect with the team. 🚀"
+                - link "https://github.com/Talha313" [ref=e109] [cursor=pointer]:
+                  - /url: https://github.com/Talha313?trk=public_post_comment-text
+            - generic "Comment Controls" [ref=e110]:
+              - link "Like" [ref=e111] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_comment_like
+              - generic [ref=e114]: ·
+              - link "Reply" [ref=e115] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_comment_reply
+        - paragraph [ref=e118]:
+          - text: To view or add a comment,
+          - link "To view or add a comment, sign in" [ref=e119] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fvantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s&trk=public_post_feed-cta-banner-cta
+            - text: sign in
+    - generic [ref=e120]:
+      - generic [ref=e122]:
+        - figure [ref=e123]
+        - img "Vantage" [ref=e126]
+        - paragraph [ref=e127]: 6,703 followers
+        - generic [ref=e128]:
+          - link "View Profile" [ref=e129] [cursor=pointer]:
+            - /url: https://ca.linkedin.com/company/vantage-retail-media?trk=public_post_follow-view-profile
+          - link "Connect" [ref=e130] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7515491726791442432&trk=public_post_follow
+      - generic [ref=e132]:
+        - heading "Explore content categories" [level=2] [ref=e133]
+        - generic [ref=e135]:
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "Career" [ref=e138] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/career/
+            - listitem [ref=e139]:
+              - link "Productivity" [ref=e140] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/productivity/
+            - listitem [ref=e141]:
+              - link "Finance" [ref=e142] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/finance/
+            - listitem [ref=e143]:
+              - link "Soft Skills & Emotional Intelligence" [ref=e144] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/
+            - listitem [ref=e145]:
+              - link "Project Management" [ref=e146] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/project-management/
+            - listitem [ref=e147]:
+              - link "Education" [ref=e148] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/education/
+          - button "Show more" [ref=e149] [cursor=pointer]
+  - contentinfo [ref=e151]:
+    - list [ref=e152]:
+      - generic [ref=e153]: LinkedIn
+      - generic [ref=e155]: © 2026
+      - listitem [ref=e156]:
+        - link "About" [ref=e157] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_public_post_footer-about
+      - listitem [ref=e158]:
+        - link "Accessibility" [ref=e159] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility
+      - listitem [ref=e160]:
+        - link "User Agreement" [ref=e161] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement
+      - listitem [ref=e162]:
+        - link "Privacy Policy" [ref=e163] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy
+      - listitem [ref=e164]:
+        - link "Cookie Policy" [ref=e165] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy
+      - listitem [ref=e166]:
+        - link "Copyright Policy" [ref=e167] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy
+      - listitem [ref=e168]:
+        - link "Brand Policy" [ref=e169] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy
+      - listitem [ref=e170]:
+        - link "Guest Controls" [ref=e171] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls
+      - listitem [ref=e172]:
+        - link "Community Guidelines" [ref=e173] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide
+      - listitem [ref=e174]:
+        - button "Language" [ref=e176]

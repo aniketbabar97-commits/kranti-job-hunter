@@ -1,0 +1,203 @@
+- generic [ref=f58e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f58e2] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f58e16] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f58e33] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f58e46] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f58e49]:
+      - generic [ref=f58e50]:
+        - link "Zur Startseite" [ref=f58e52] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f58e53]
+        - list [ref=f58e56]:
+          - listitem [ref=f58e57]:
+            - link "Jobsuche" [ref=f58e58] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f58e59]:
+            - link "Arbeitgeber" [ref=f58e60] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f58e61]:
+            - link "Schüler" [ref=f58e62] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f58e63]:
+            - link "Studierende" [ref=f58e64] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f58e65]:
+            - link "Direkteinstieg" [ref=f58e66] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f58e69] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - banner [ref=f58e71]:
+    - generic [ref=f58e75]:
+      - heading "Vielen Dank für deine Bewerbung. Wir setzen uns bald mit dir in Verbindung." [level=3] [ref=f58e76]
+      - heading "Du möchtest mehr über uns erfahren?" [level=1] [ref=f58e77]
+      - group "Hero call to action buttons" [ref=f58e78]:
+        - link "Hier geht´s zum DEICHMANN-Podcast" [ref=f58e81] [cursor=pointer]:
+          - /url: https://lnk.to/von-kopf-bis-schuh?utm_source=linktree2025&utm_medium=dankesseite&utm_id=podcast-kampagne-2025
+  - button "Mehr anzeigen" [ref=f58e82] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e84] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e86] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e88] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e90] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e92] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e94] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e96] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e98] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e100] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f58e102] [cursor=pointer]: mehr
+  - dialog "Umfrage" [ref=f58e104]:
+    - generic [ref=f58e105]:
+      - button "Umfrage schließen" [active] [ref=f58e106] [cursor=pointer]: ×
+      - iframe [ref=f58e107]:
+        - main [ref=f59e7]:
+          - generic [ref=f59e8]:
+            - generic [ref=f59e11]:
+              - img "Survey coversheet" [ref=f59e13]
+              - generic [ref=f59e14]:
+                - paragraph [ref=f59e15]:
+                  - strong [ref=f59e16]: Deine Meinung zählt!
+                  - text: 5 Fragen, ca. 1 Minute.
+                - paragraph [ref=f59e17]:
+                  - generic [ref=f59e18]: "Bevor du gehst:"
+                  - strong [ref=f59e19]:
+                    - generic [ref=f59e20]: Wie bist du auf uns aufmerksam geworden?
+                - paragraph [ref=f59e21]:
+                  - generic [ref=f59e22]: Die Teilnahme an dieser Befragung ist
+                  - strong [ref=f59e23]:
+                    - generic [ref=f59e24]: freiwillig und anonym
+                  - generic [ref=f59e25]: . Sie hat keinerlei Auswirkungen auf dein Bewerbungsverfahren oder deine Chancen im Bewerbungsprozess.
+                - paragraph [ref=f59e26]:
+                  - generic [ref=f59e27]: "Die Antworten werden ausschließlich zur statistischen Auswertung und zur Optimierung unseres Bewerbungsprozesses genutzt. Es werden keine personenbezogenen Daten erhoben. Bitte gib in Freitextfeldern keine Informationen an, durch die du selbst oder andere Personen identifiziert werden könnten, insbesondere keine Namen, Kontaktdaten oder persönlichen Details. Antworten mit solchen Angaben werden gelöscht. Die Auswertung erfolgt über die Befragungssoftware quantilope. Ergebnisse werden ausschließlich in zusammengefasster Form ausgewertet. Weitere Informationen zur Datenverarbeitung findest du in den Datenschutzhinweisen zur Befragung:"
+                  - link "Datenschutzhinweis" [ref=f59e28] [cursor=pointer]:
+                    - /url: https://www.deichmann-karriere.de/datenschutz-fragebogen/
+                - paragraph [ref=f59e30]:
+                  - generic [ref=f59e31]: Vielen Dank für deine Unterstützung!
+            - button "Los geht's!" [ref=f59e35] [cursor=pointer]
+  - contentinfo [ref=f58e108]:
+    - generic [ref=f58e111]:
+      - generic [ref=f58e112]:
+        - generic [ref=f58e113]: Einstieg im Verkauf
+        - list [ref=f58e114]:
+          - listitem [ref=f58e115]:
+            - link "Gehe zu Ausbildung im Verkauf" [ref=f58e116] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=f58e117]:
+            - link "Gehe zu Teilzeit, Minijob & Werkstudierende" [ref=f58e118] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=f58e119]:
+            - link "Gehe zu Filialführungsnachwuchs" [ref=f58e120] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=f58e121]:
+            - link "Gehe zu Duales Studium" [ref=f58e122] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=f58e123]:
+        - generic [ref=f58e124]: Einstieg in der Zentrale und Logistik
+        - list [ref=f58e125]:
+          - listitem [ref=f58e126]:
+            - link "Gehe zu Ausbildung in der Zentrale" [ref=f58e127] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=f58e128]:
+            - link "Gehe zu Ausbildung in der Logistik" [ref=f58e129] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=f58e130]:
+            - link "Gehe zu Duales Studium" [ref=f58e131] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=f58e132]:
+            - link "Gehe zu Einstieg für Studierende" [ref=f58e133] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=f58e134]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Zentrale)" [ref=f58e135] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=f58e136]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Logistik)" [ref=f58e137] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=f58e138]:
+        - generic [ref=f58e139]: Dein Weg zu Deichmann
+        - list [ref=f58e140]:
+          - listitem [ref=f58e141]:
+            - link "Gehe zu Deichmann als Arbeitgeber" [ref=f58e142] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=f58e143]:
+            - link "Gehe zu Schüler" [ref=f58e144] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=f58e145]:
+            - link "Gehe zu Studierende" [ref=f58e146] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=f58e147]:
+            - link "Gehe zu Direkteinstieg" [ref=f58e148] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=f58e151]:
+      - list [ref=f58e153]:
+        - listitem [ref=f58e154]:
+          - link "Gehe zu Kontakt" [ref=f58e155] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=f58e156]:
+          - link "Gehe zu Impressum" [ref=f58e157] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=f58e158]:
+          - link "Gehe zu Datenschutz" [ref=f58e159] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=f58e160]:
+          - link "Gehe zu Zum Shop" [ref=f58e161] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=f58e162]:
+          - link "Gehe zu Filialfinder" [ref=f58e163] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=f58e164]:
+          - link "Gehe zu Cookie-Einstellungen" [ref=f58e165] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=f58e168]:
+        - listitem [ref=f58e169]:
+          - link "Tiktok - wird in einem neuen Tab geöffnet" [ref=f58e170] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=f58e171]: 
+            - generic [ref=f58e172]: Tiktok
+        - listitem [ref=f58e173]:
+          - link "Instagram - wird in einem neuen Tab geöffnet" [ref=f58e174] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=f58e175]: 
+            - generic [ref=f58e176]: Instagram
+        - listitem [ref=f58e177]:
+          - link "Youtube - wird in einem neuen Tab geöffnet" [ref=f58e178] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=f58e179]: 
+            - generic [ref=f58e180]: Youtube
+        - listitem [ref=f58e181]:
+          - link "Linkedin - wird in einem neuen Tab geöffnet" [ref=f58e182] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=f58e183]: 
+            - generic [ref=f58e184]: Linkedin
+        - listitem [ref=f58e185]:
+          - link "Xing - wird in einem neuen Tab geöffnet" [ref=f58e186] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=f58e187]: 
+            - generic [ref=f58e188]: Xing
+  - text: 
+  - generic [ref=f58e189]:
+    - generic [ref=f58e190]: Fragen zu Bewerbung, unseren Jobs oder Ausbildungsmöglichkeiten? Frag Gracie!
+    - button "Gracie" [ref=f58e192] [cursor=pointer]

@@ -1,0 +1,273 @@
+- generic [active] [ref=f94e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f94e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f94e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f94e8]:
+    - search [ref=f94e9]:
+      - generic [ref=f94e11]:
+        - link "Go to Google Home" [ref=f94e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8QPHoECAYQBA
+        - generic [ref=f94e22]:
+          - combobox "Search" [ref=f94e24]: AEET renewable energy GmbH E-Commerce Manager Shopware Karriere Bad Gandersheim AEET renewable energy GmbH E-Commerce Manager Shopware Karriere Bad Gandersheim
+          - generic [ref=f94e25]:
+            - button "Clear" [ref=f94e29] [cursor=pointer]
+            - generic [ref=f94e34]:
+              - button "Search by voice" [ref=f94e37] [cursor=pointer]
+              - button "Search by image" [ref=f94e42] [cursor=pointer]
+    - generic [ref=f94e45]:
+      - button "Settings" [ref=f94e47] [cursor=pointer]
+      - button "Share" [ref=f94e52] [cursor=pointer]
+      - generic [ref=f94e58]:
+        - button "Google apps" [ref=f94e60] [cursor=pointer]
+        - link "Sign in" [ref=f94e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DAEET%2Brenewable%2Benergy%2BGmbH%2BE-Commerce%2BManager%2BShopware%2BKarriere%2BBad%2BGandersheim&ec=futura_srp_og_si_72236_p
+  - generic [ref=f94e67]:
+    - navigation [ref=f94e73]:
+      - generic [ref=f94e79]:
+        - list [ref=f94e80]:
+          - listitem [ref=f94e81]:
+            - link "AI Mode" [ref=f94e84] [cursor=pointer]:
+              - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q2J8OegQIERAD
+          - listitem [ref=f94e88]:
+            - link "All" [disabled] [ref=f94e89]
+          - listitem [ref=f94e92]:
+            - link "News" [ref=f94e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q0pQJegQIFxAB
+          - listitem [ref=f94e96]:
+            - link "Forums" [ref=f94e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Qs6gLegQIExAB
+          - listitem [ref=f94e100]:
+            - link "Short videos" [ref=f94e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Qs6gLegQIFhAB
+          - listitem [ref=f94e104]:
+            - link "Shopping" [ref=f94e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&ved=1t:220175&ictx=111
+          - listitem [ref=f94e108]:
+            - link "Images" [ref=f94e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPbCcla09FudmARqWDYGbrKFgPNSKI1LAJw8Dj4timWS7jZ0qDhF3vUgwizGrNSKbt8PsZgB7uQ3njlocpL_kAsjiVSbep9TP_LvbnZH1ifMM5j_EZf_BmlZLjSbuT7u-zMZNHJw5K5s7uZhWWJGEvGQEz8ZA&q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sa=X&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8QtKgLegQIFBAB
+          - listitem [ref=f94e112]:
+            - button [ref=f94e113] [cursor=pointer]:
+              - generic "More filters" [ref=f94e114]: More
+        - button "Tools" [ref=f94e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f94e128]
+    - generic [ref=f94e133]:
+      - generic [ref=f94e152]:
+        - heading "Thinking" [level=2] [ref=f94e156]
+        - progressbar "Generating" [ref=f94e159]
+      - main [ref=f94e161]:
+        - generic [ref=f94e165]:
+          - generic [ref=f94e168]:
+            - heading "Webergebnisse" [level=2] [ref=f94e169]
+            - generic [ref=f94e170]:
+              - generic [ref=f94e173]:
+                - link "E-Commerce Manager (m/w/d) – Shopware 6.5, Online- ... Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f94e175] [cursor=pointer]:
+                  - /url: /goto?url=CAESfgHrOzAVw8x3o6zI_lG-Ui1PiguHUkN0bUhBdjiFIC3_LDcyQeEh6UpOht69UUcA2EhkWBR3RXaEPVDrsZB2qyl6gBo_HB6tiqJGI2lJh8REQxFKcXs-v1kQfhUtQhwjEzn_-soXCFLpNcfifOx5OIHNnTeXr1ePIWJbxQjPtQ
+                  - heading "E-Commerce Manager (m/w/d) – Shopware 6.5, Online- ..." [level=3] [ref=f94e176]
+                  - generic [ref=f94e182]:
+                    - generic [ref=f94e183]: Bundesagentur für Arbeit
+                    - generic [ref=f94e185]: https://www.arbeitsagentur.de › jo...
+                - generic [ref=f94e187]:
+                  - generic [ref=f94e188]: ·
+                  - link "Translate this page" [ref=f94e189] [cursor=pointer]:
+                    - /url: /goto?url=CAESyAEB6zswFcV6hZqYNz1FiHzPUjnttGGu-HraF2INoq9bzDq7HX1T4mvw2rbasWEWpk9rtzPHBR9YZwssKKfiHFiKmsbLeIUiawjlUYiFdTdfcnMBCO7531QqvUwS3_9WlRVkfVS3TckvR3V6Wxw5hFoA0E7X5cwVcah5eyuM5KG84OiiXo2q5AgboUpystMQVKT-8IGOiR3Pkz_4H4mgRdJ6QkCueTTnfOM0Xee58O9WzOFKYDtXw84OppWEOQQ_9o6Y0U2SzZDuLg
+                - button "About this result" [ref=f94e194] [cursor=pointer]
+              - generic [ref=f94e200]:
+                - generic [ref=f94e201]: 3 Oct 2026 —
+                - generic [ref=f94e202]:
+                  - text: "Stellenangebot:"
+                  - emphasis [ref=f94e203]: E-Commerce Manager (m/w/d) – Shopware 6.5
+                  - text: ", Online-Shop & Social Media bei AEET renewable energy GmbH ... Standort: Bad Gandersheim ..."
+                - link "Read more" [ref=f94e204] [cursor=pointer]:
+                  - /url: /goto?url=CAESrAIB6zswFbj8gjWKHIbcgVfHGcMaEunWKX2VrQCoNaXmRocwvxfDhhmSrEQPvyUQ-ZEkgjJ-CpvRJIvseouxtfLQpQqpj7BmrKtkBz7UhT-JqNeJxsMpsZ1EOMKOqpd4QvqCRZA4knZmJ7Fb9AYzQPYI2ZK10s4jgGYypMCfbGWeUe3NBwb7BT_B_Je0nJCVgmXmxDWVgLlhUFuIAirY9vGX-r01Z5rnRIE79xsWxmYdVdHb3QUPMvVAwf25zSkJPIGS1vwkO0zUpobGzBhrA1GBeR92zri-uw5jgnAslOADhM6oEr7e4CRa7iqYUKECJ0I5ynsYe_nuDGtwl5oFNWAr0lhr1uvKSjv_YZVL01JCh6BVK2GOaw5SRAx8j1SfH2WkeDdvaF-BZayT-qg
+          - generic [ref=f94e208]:
+            - generic [ref=f94e211]:
+              - link "E-Commerce Manager (m/w/d) – Shopware 6.5, Online- ... JobLeads https://www.jobleads.com › job › e-commerce-manager..." [ref=f94e213] [cursor=pointer]:
+                - /url: /goto?url=CAESzgEB6zswFdGGdfasGCeI2DqpLG3arT4j0jB8JI6USZqHzwPN-QetXi81MHYTIfvNRgEi574LHhzz_AThLlG8ggUwpmRUZ6CNE-1Fe8mKY-EhWC4SWOAmOchFGT--ON3MXbUQ8-j7QHdUDYsOrXniS7Vw1qYDf35603T7dPPPbNfyQPEWAXFRYR5Ph5ph4aO8gWlCiOMjHy58ljsb_WHx1CGm-zXC6k7NUdTo2b-Pp7LmRTpWdHg9lNXXj7_PU3rFEF1rIu74uuCpzDaGR61Yww
+                - heading "E-Commerce Manager (m/w/d) – Shopware 6.5, Online- ..." [level=3] [ref=f94e214]
+                - generic [ref=f94e220]:
+                  - generic [ref=f94e221]: JobLeads
+                  - generic [ref=f94e223]: https://www.jobleads.com › job › e-commerce-manager...
+              - button "About this result" [ref=f94e229] [cursor=pointer]
+            - generic [ref=f94e235]:
+              - generic [ref=f94e236]:
+                - emphasis [ref=f94e237]: AEET r.e. GmbH in Bad Gandersheim sucht eine/n E-Commerce Manager (m/w/d
+                - text: ) zur aktiven Begleitung des Startup-Projekts. Du verantwortest Aufbau, Pflege und ...
+              - link "Read more" [ref=f94e238] [cursor=pointer]:
+                - /url: /goto?url=CAESuQIB6zswFaXNNhKzdgbc_tPlpJdFbWchgx3fp6V722Zgu-RTFH9etHBvqBO43i14Ge4M9Aj3kbmNkyK6IJPGT5oQwuLFZe4xjeM_CJcEc7Agg1AhrLZokv8asS0tnyL8ljBkYKs6x2XrOh-UeMtu_O8hmubtTh6CX8CUTAwB0FawdTVon-WrLC1lIVBFsQBjFADVRu3mF_d74a4TfQJy-My0ZYmSbaIEXfy9jHf1l5I3sYYUJJlpjmafjB7q6EgFDDIZObRjB26HlglpioRZWBALh2jTnXdrwaVUCBry-0-hoduDdHT55wQmKOHPvoM3d8bR80BHvVkkqDxDBNj_5Wn-JvE8yZ2s4CdUXU4guF1Cj1NIXptjVqjbA_gsYapsbkpuAO1O3uKMOS7qyTXKCrUiFwyxQMOpENHY
+          - generic [ref=f94e242]:
+            - generic [ref=f94e245]:
+              - link "Career | AEET Energy Group GmbH | Your photovoltaic ... aeet-energy.com https://aeet-energy.com › page › karriere" [ref=f94e247] [cursor=pointer]:
+                - /url: /goto?url=CAESZwHrOzAVTiay4NoqE2LlHCKOtgXlzz1H3PvCjnPiAzVb8YnNM9fHHNviZq4JacEbvwY_cai7Oj1WUF3i_ItVosq2kR1GvqlKMG9oO0bQcIlBrZZNssbNr4YCASqz8BFNW06QxgG5dQM
+                - heading "Career | AEET Energy Group GmbH | Your photovoltaic ..." [level=3] [ref=f94e248]
+                - generic [ref=f94e254]:
+                  - generic [ref=f94e255]: aeet-energy.com
+                  - generic [ref=f94e257]: https://aeet-energy.com › page › karriere
+              - button "About this result" [ref=f94e263] [cursor=pointer]
+            - generic [ref=f94e269]:
+              - text: We guarantee the absolutely discrete handling of your application. Send us your detailed application including your salary expectations and your earliest ...
+              - link "Read more" [ref=f94e270] [cursor=pointer]:
+                - /url: /goto?url=CAESwQEB6zswFWY79rO_LhCXaUWvB_a3vhLxA0ONbTe0R1p11tSVINImow47ZUybeWaymTiUOAU6RHkaZA1guvwIqjn6SO2TjKIW3nBpqEpS5wX0xtD5wpDEa07RzX3FD79HHdCy7HLX345IIiYlzaxm65OjCZbyq1QhNkUqh2vyrPkbcJt-zQrTXtf-Q22J2aK6PhPfW2wAoA8E3t3e1QpHNEi7OERsW269hEhuXlvXfgQBRLsDsQ629aIZU_THksfb7KwP
+            - generic [ref=f94e271]: "Missing: Commerce ‎Shopware"
+          - generic [ref=f94e276]:
+            - generic [ref=f94e279]:
+              - link "E-Commerce Manager in Bad Gandersheim ... Trabajo.org https://de.trabajo.org › ..." [ref=f94e281] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFabAP0ox5NGXwZf50cP51WEA_R844taSNOgidPy3g1hUnBYGh0KqI8XpcukAOW9xS5BNJm3wJqg6ZKuIgeV_TOiubX4--GJ4w3qZBL01312udB5sS-P_e7iitJnZqw56tfzE8RYbbOrF3GG4INIhw0uv-VpjBJQdYUp_siE77Clxqg
+                - heading "E-Commerce Manager in Bad Gandersheim ..." [level=3] [ref=f94e282]
+                - generic [ref=f94e288]:
+                  - generic [ref=f94e289]: Trabajo.org
+                  - generic [ref=f94e291]: https://de.trabajo.org › ...
+              - generic [ref=f94e293]:
+                - generic [ref=f94e294]: ·
+                - link "Translate this page" [ref=f94e295] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFXIxh9yKQF7sYdqcniglZ88SrofhHJ6f0QCyUnIeT2YLz6bFZxGLcG5v_YFvNtKqM2tQpGTN0cCVFuTcEUc2aGdZzUIPkvnDfoOfo3-nqmKUgEalbC6CAb24YyTe0Btw3WixG64tKw6sZrR76EEMLOcxMtXi04ywHFdWP54LUe5ugav_D42gfFTQLMRRJYgs1yMkGb4rmec2fcXGxrih_1ek6SNQmx5oVvGqU4L-EzQQRYkpAjFmbMt0_spSFndMm33Xb1U-7-oM6_2w
+              - button "About this result" [ref=f94e300] [cursor=pointer]
+            - generic [ref=f94e306]:
+              - generic [ref=f94e307]:
+                - emphasis [ref=f94e308]: E-Commerce Manager (m/w/d) – Shopware 6.5
+                - text: ", Online-Shop & Social Media. Standort: Bad Gandersheim | Vollzeit | ab sofort. Wir sind die AEET r.e. GmbH, ..."
+              - link "Read more" [ref=f94e309] [cursor=pointer]:
+                - /url: /goto?url=CAESggIB6zswFaJsF2yIdqPvJ5cpRlo9cq7lvBwjXavtuXVvaVThXA_P4xfI9tBPgze-Zgqb1npcliHKfMa-Pcgyid8FTsIBesSgK6kSTkzCVaCAXMrCjkVx3ilCG3pKTFKir8zZpDkjdlYaS83CWtAvZx1JA4hdyQJSY6d8klI4WMmbEmr3xldhxTONtnbQm5HgpLYZNcB74UbvoqjNVXLPfkvWlvhh8mE4FGtCJBTh8V28VG1yT39qNLDNTNfjG4r7JEZudEDzPropVx9By3hVJtsX4sk0J1ddmMlBnzcMXKo9KXbEJgzMB3xR08BWFd_Poq9i09GQ9fO_txtqiUxUwkotI_k
+          - generic [ref=f94e313]:
+            - generic [ref=f94e316]:
+              - link "E Commerce Manager Jobs & Stellen - Okt 2026 XING https://www.xing.com › jobs › t-e-..." [ref=f94e318] [cursor=pointer]:
+                - /url: /goto?url=CAEScAHrOzAVv9l4sYNwf9sfZVWsjnlq7DNwVoAJPtuOwUbb67SEorJdbpw-XoFeD1y838vP3QwV-BGTYt_5E1PFIk06SsJ5tqYlfrRGvORFvh0LqgVov_-uFGO7hXo957YStTTSnlbRwXWy8qDNtoA7QBs
+                - heading "E Commerce Manager Jobs & Stellen - Okt 2026" [level=3] [ref=f94e319]
+                - generic [ref=f94e325]:
+                  - generic [ref=f94e326]: XING
+                  - generic [ref=f94e328]: https://www.xing.com › jobs › t-e-...
+              - generic [ref=f94e330]:
+                - generic [ref=f94e331]: ·
+                - link "Translate this page" [ref=f94e332] [cursor=pointer]:
+                  - /url: /goto?url=CAESvAEB6zswFUs17jGCWHiAAr8lSJx6Gj4R69RL_6wgOOmsU3QguZ-L3pbdks65Qr2pB3SGgQvKCfnkJhUi3ajFqjXmdca-67oKu-cZ7gwM2xYOvaTCqL7ldw_CV351Yeru8quThslv7h0FgEhTHEIlHTXJG26lI59nmWHrpHgXangNSq16OWfR_biqjcnHEmXh_bmb3GFseTzIrxr_TFvN4k6Fp2IMkLJaFXhO7msPjdn4fYs80plvYPOYguKhZA
+              - button "About this result" [ref=f94e337] [cursor=pointer]
+            - generic [ref=f94e343]:
+              - generic [ref=f94e344]: 4 days ago —
+              - generic [ref=f94e345]:
+                - emphasis [ref=f94e346]: E-Commerce Manager (m/w/d) – Shopware 6.5
+                - text: ", Online-Shop & Social Media. AEET renewable energy GmbH. Bad Gandersheim + 0 weitere. Vollzeit39.000 ..."
+              - link "Read more" [ref=f94e347] [cursor=pointer]:
+                - /url: /goto?url=CAES8QEB6zswFXEfVR5Gz2TeB3VAFio3ACwFqHkmIdlSoIaIZbsf9alPhkoraBzm20MfqGf09gr0aIgGeZSv_Bxd3yOKZCEIXnAngAe9TgROBQBlufjDEQZFP4jCbNdPlOJFyXAZZkgtPhPF5YIwIkwP2ygXY4-hKFBw7NNK-cE9WGQAkeskwV4UffiQqTK8YhIolkzZ3DhIpwOW9Xu9me-lq4cYo3TYbDYfzlkNj4Z1v_wxCVl5_IcR25CrI1kAVJAkH-cVLYFVE8nthBWuOz_C84QQdtvolXi9t9Pq0WhGztCWEGyYkjuJnhk5BSS9Pt6J5MMi
+          - generic [ref=f94e351]:
+            - generic [ref=f94e354]:
+              - link "E-Commerce Manager (m/w/d) – Shopware 6.5, Online ... JobLeads https://www.jobleads.com › job › e-commerce-manager..." [ref=f94e356] [cursor=pointer]:
+                - /url: /goto?url=CAESzgEB6zswFeJ0RFTIL5hnJULy18-8umGIdaPFRLuTT2ctVubBNfXvamQsJpBTdpWOhTiIQyRpt7HpRmJLkSoq1XhDhhOckQN19bXUt1MUFwPDiBuSmh6jX2UChm_qHHdhekzKQTG5eHYjjIW9keeOiif3ZD3CtpI229dnkzEaqPgBrHVkOlV_euvC_1tAMZHehw31ZA2bao8pa0-sPkBiubTofPxZREsEBzz2mQnaHPCPnah7IbOiJRC3HSSVoTfd48nVDG2_HDWDyds_cQ1hWw
+                - heading "E-Commerce Manager (m/w/d) – Shopware 6.5, Online ..." [level=3] [ref=f94e357]
+                - generic [ref=f94e363]:
+                  - generic [ref=f94e364]: JobLeads
+                  - generic [ref=f94e366]: https://www.jobleads.com › job › e-commerce-manager...
+              - button "About this result" [ref=f94e372] [cursor=pointer]
+            - generic [ref=f94e378]:
+              - generic [ref=f94e379]: 3 days ago —
+              - generic [ref=f94e380]:
+                - emphasis [ref=f94e381]: AEET renewable energy GmbH sucht E-Commerce Manager
+                - text: ". Telefon: 05382-955979-0 E-Mail: Bad Gandersheim Vor Ort EUR 52.000 - 70.000"
+          - generic [ref=f94e385]:
+            - generic [ref=f94e388]:
+              - link "Jobs für Renewable Jobware, da hab' ich den Job her! https://www.jobware.de › jobs--fuer..." [ref=f94e390] [cursor=pointer]:
+                - /url: /goto?url=CAESZgHrOzAVCmdaFla5No9FQ0MohThcWef4nH0RbcY9fCQuyaW6Xu-lTkVJpyRA6AjBeMOMGwDVxYOqK8ZDQiq8kOXmo0eqw4OHU_JGBdlt59TpHsoueYptSyU8UQUe6h0x8eIdOThTjw
+                - heading "Jobs für Renewable" [level=3] [ref=f94e391]
+                - generic [ref=f94e400]:
+                  - generic [ref=f94e401]: Jobware, da hab' ich den Job her!
+                  - generic [ref=f94e403]: https://www.jobware.de › jobs--fuer...
+              - generic [ref=f94e405]:
+                - generic [ref=f94e406]: ·
+                - link "Translate this page" [ref=f94e407] [cursor=pointer]:
+                  - /url: /goto?url=CAESrwEB6zswFZ8JapxfrQxSjopB8tZTXoasIVYXgoo76Nfq-GjEF7aCKk8dbauzdq7ChAm8z_02hkuWIBQq0whSZHy6hXH8uKl2EshT7CfEGFveR6IdHVFdEYeiwFjixyseGpJp0KSRHmGVFcBeiZl6iZ7RNz__s1DsWZv1WO2Yz_m84G-Yqd_oJaXsy8wTOx6Vu9v0NMAp4ZUmoErDu8OqLfpJCC4pjPunmNUkm5df9cGV
+              - button "About this result" [ref=f94e412] [cursor=pointer]
+            - generic [ref=f94e419]:
+              - emphasis [ref=f94e420]: A E-Commerce Manager (m/w/d) - Shopware 6.5
+              - text: ", Online-Shop & Social Media AEET renewable energy GmbH Vollzeit Home-Office inBad Gandersheim (DE)"
+          - generic [ref=f94e424]:
+            - generic [ref=f94e427]:
+              - link "14 Social Media Manager Jobs & Stellenangebote Jobs für Niedersachsen https://www.jobsfuerniedersachsen.de › ..." [ref=f94e429] [cursor=pointer]:
+                - /url: /goto?url=CAESeQHrOzAVzUJsKp8KrHkTDDs4_XHAi5hYNmocKst4uR0yHfTBUST_0il8cz1vvGBZJUQ-BEzA5b_KZSCgSvHI3OroNKIPKH5bWmwDCPqJ4KrNtJP2xQrbtYsdmQFYm2EhaV92M5HENBqptYBY3nY-ZOwa9fVBCT7Sdtg
+                - heading "14 Social Media Manager Jobs & Stellenangebote" [level=3] [ref=f94e430]
+                - generic [ref=f94e436]:
+                  - generic [ref=f94e437]: Jobs für Niedersachsen
+                  - generic [ref=f94e439]: https://www.jobsfuerniedersachsen.de › ...
+              - generic [ref=f94e441]:
+                - generic [ref=f94e442]: ·
+                - link "Translate this page" [ref=f94e443] [cursor=pointer]:
+                  - /url: /goto?url=CAESwwEB6zswFS6C3lKtoUpktHzlK0fcdMpvvBlYNc-EzVovIsJo9tYeCHQ6CKy9jWgecXRgYznWtJMSLlu-jsGvBqFPeNfvzfBIS0fkAeymj0iWNiVozotujRqEVcVr_rS5a-U48N8BCNlgSZ4ujC0rPrpOx9ecLYbxKixRdAJmnjVcAbJtc92ZIZHFFvjUvKTNgybpuVSVql6OAQXWwhkVqJxskUWV3xFm8qalfhaLPfoXAY4kku-wZWLxAJ1DKjjayVsdvx0
+              - button "About this result" [ref=f94e448] [cursor=pointer]
+            - generic [ref=f94e455]:
+              - text: AEET renewable energy GmbH 37581 Bad Gandersheim.
+              - emphasis [ref=f94e456]: E-Commerce Manager (m/w/d) – Shopware 6.5
+              - text: ", Online-Shop & Social Media (Homeoffice möglich) 14.10.2026,"
+          - generic [ref=f94e460]:
+            - generic [ref=f94e463]:
+              - link "Jobs AEET renewable energy GmbH in Bad Gandersheim ONLINE Stellenmarkt https://www.online-stellenmarkt.net › ..." [ref=f94e465] [cursor=pointer]:
+                - /url: /goto?url=CAESgwEB6zswFW98BJM1sysd3A6X5czVlV0Klt5WgHMozlnKl1ZWRdpsgTyjDSYYSg_v5w8C1qBgmErY4Evm-p5RIHjh5tWyRCtvN5Mcnkqk6g5GrgLD5o1FEdihXpQ7wDFyKaJyig7CO1pVqCqBZzu6D2iMS8ETpBYy-0ZbQrFyxyuLaCOKFw
+                - heading "Jobs AEET renewable energy GmbH in Bad Gandersheim" [level=3] [ref=f94e466]
+                - generic [ref=f94e472]:
+                  - generic [ref=f94e473]: ONLINE Stellenmarkt
+                  - generic [ref=f94e475]: https://www.online-stellenmarkt.net › ...
+              - generic [ref=f94e477]:
+                - generic [ref=f94e478]: ·
+                - link "Translate this page" [ref=f94e479] [cursor=pointer]:
+                  - /url: /goto?url=CAESzQEB6zswFYcY3vsGrU77oLLrrDHWq2J0Hlng-0RpjJEiZG38anVmThRyq8wK0prwgKZUVNdLUaZd3jKerxWCW4mjqLgEb-cVJmGRU5j59dErc4pe5bUiRdN83udIv4FLcLjAXR6lvMrZAKOqMC1gx81P2RCjPRpJGw1967KzaGR1NfeI0e_X6vm1S0_NEgvn77ktXAcdL8zs7omPeDVvfryQKgIfrMtalDCZmoruWHehYptfI-qDXwtczgW00IXQLVN7oR2V2zyogCTPP1EB
+              - button "About this result" [ref=f94e484] [cursor=pointer]
+            - generic [ref=f94e490]:
+              - generic [ref=f94e491]:
+                - emphasis [ref=f94e492]: E-Commerce Manager m/w/d Shopware
+                - text: 6. 5, Online-Shop Social Media Standort Bad Gandersheim Vollzeit ab sofort Wir sind die AEET r. e. GmbH, ein seit 2004 ...
+              - link "Read more" [ref=f94e493] [cursor=pointer]:
+                - /url: /goto?url=CAES9gEB6zswFVSnuJm3mRrA12DuRVKN4sJMeCCERJCx2gRRgd7f7CAgLkGeeGFIXbUNy1pG_wbAwpQQbPzip-ege5gUkWduEZHal0Jy7A0I3aqQlHjo5wM9t1fMoBCrz7yG5ndMN2C2WWxOwke1zfnfrcbMKZYFBeQRYt6cIsbKpBavMPA9UG_ngkSNB4Prbsf1XQCrVoCH5F6KzNzc_A71xgqYcb4UtItIPfOkne5PP9AWB5I8WEAbStRpc5NTBjvY6tgm0vXivpvFvILjiTZhFlrKgzBrEhiVQZSba04GcgF2_mmhKO-DR6lJ0MwyOG37wFH4E7j1B_Q
+        - navigation [ref=f94e496]:
+          - heading "Page navigation" [level=1] [ref=f94e497]
+          - text: "1"
+          - link "Page 2" [ref=f94e500] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=10&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=f94e502] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=20&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=f94e504] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=30&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=f94e506] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=40&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=f94e508] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=50&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=f94e510] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=60&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=f94e512] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=70&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=f94e514] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=80&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=f94e516] [cursor=pointer]:
+            - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=90&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8tMDegQINRAU
+            - text: "10"
+          - heading [level=2] [ref=f94e518]:
+            - link "Next" [ref=f94e519] [cursor=pointer]:
+              - /url: /search?q=AEET+renewable+energy+GmbH+E-Commerce+Manager+Shopware+Karriere+Bad+Gandersheim&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnsnYCaugCVozc3a3izSFfLL5Q3SVQ:1792899648744&ei=QHrdarz5LN29juMPrarj-AQ&start=10&sa=N&sstk=AS6-VmLUnK_8yVmYULbw9Eyk4l2x9Lrw5P58kQoII7wvMR_gq_CfvRMaM-azlY-ipEQ3EptegQP5vuolL7mOgUhYCTS2-BIIjjqfPA&ved=2ahUKEwi8mbnVn9SXAxXdnmMGHS3VGE8Q8NMDegQINRAW
+        - navigation
+    - contentinfo [ref=f94e522]:
+      - heading "Footer links" [level=1] [ref=f94e523]
+      - generic [ref=f94e527]:
+        - generic [ref=f94e529]:
+          - text: India
+          - generic [ref=f94e531]:
+            - button "Konappana Agrahara, Karnataka - Based on your past activity" [ref=f94e533] [cursor=pointer]:
+              - generic [ref=f94e534]: Konappana Agrahara, Karnataka
+              - generic [ref=f94e536]:
+                - text: "-"
+                - generic [ref=f94e537]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f94e539] [cursor=pointer]
+        - generic [ref=f94e542]:
+          - link "Help" [ref=f94e543] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f94e544] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f94e545] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f94e546] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

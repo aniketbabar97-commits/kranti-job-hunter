@@ -1,0 +1,196 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - banner [ref=f15e3]:
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#content"
+      - navigation "Header Menü" [ref=f15e7]:
+        - link [ref=f15e8] [cursor=pointer]:
+          - /url: https://www.rehau.com/de-de
+        - list [ref=f15e10]:
+          - listitem [ref=f15e11]:
+            - link "Startseite" [ref=f15e12] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f15e13]:
+            - link "Stellenmarkt" [ref=f15e14] [cursor=pointer]:
+              - /url: https://www.rehau.jobs/search/?searchby=location&q=&locationsearch=&geolocation=
+          - listitem [ref=f15e15]:
+            - link "Karriereseite" [ref=f15e16] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/karriere
+          - listitem [ref=f15e17]:
+            - link "FAQ" [ref=f15e18] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+      - generic [ref=f15e20]:
+        - button "Sprache" [ref=f15e22] [cursor=pointer]
+        - link "Profil anzeigen" [ref=f15e26] [cursor=pointer]:
+          - /url: "#"
+    - main [ref=f15e28]:
+      - generic [ref=f15e29]:
+        - generic [ref=f15e30]:
+          - search [ref=f15e32]:
+            - generic [ref=f15e34]:
+              - generic [ref=f15e35]:
+                - generic [ref=f15e37]:
+                  - generic [aria-hidden] [ref=f15e38]: "Nach Jobtitel oder Standort suchen:"
+                  - textbox "Nach Jobtitel oder Standort suchen:" [ref=f15e39]
+                - button "Klicke hier, für mehr Auswahlmöglichkeiten bzw. Suchfilter" [ref=f15e42] [cursor=pointer]
+              - generic [ref=f15e44]:
+                - button "Stellen suchen" [ref=f15e46] [cursor=pointer]
+                - button "Löschen" [ref=f15e48] [cursor=pointer]
+          - generic [ref=f15e53]:
+            - text: 
+            - generic [ref=f15e54]:
+              - generic [aria-hidden] [ref=f15e55]: "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:"
+              - spinbutton "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:" [ref=f15e56]: "7"
+            - button "Benachrichtigung erstellen" [ref=f15e58] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f15e59]: ✉
+              - text: Benachrichtigung erstellen
+        - generic [ref=f15e61]:
+          - button "Jetzt bewerben" [ref=f15e65] [cursor=pointer]
+          - generic [ref=f15e67]:
+            - generic [ref=f15e69]:
+              - paragraph [ref=f15e70]: "Diesen Job teilen:"
+              - generic [ref=f15e71]:
+                - link "Facebook" [ref=f15e72] [cursor=pointer]:
+                  - /url: /#facebook
+                - link "Twitter" [ref=f15e74] [cursor=pointer]:
+                  - /url: /#twitter
+                - link "WhatsApp" [ref=f15e76] [cursor=pointer]:
+                  - /url: /#whatsapp
+                - link "LinkedIn" [ref=f15e78] [cursor=pointer]:
+                  - /url: /#linkedin
+                - link "XING" [ref=f15e80] [cursor=pointer]:
+                  - /url: /#xing
+                - link "Email" [ref=f15e82] [cursor=pointer]:
+                  - /url: /#email
+                - paragraph
+            - generic [ref=f15e89]:
+              - paragraph [ref=f15e90]: Job-ID:20265
+              - generic [ref=f15e91]:
+                - paragraph [ref=f15e93]
+                - heading "Als ein weltweit führender Polymerspezialist entwickelt REHAU moderne Materialien, Technologien und Services für die Zukunft. Unsere Kerntreiber sind die fünf Megatrends Digitalisierung, Individualisierung, Nachhaltigkeit, Mobilität und New Work. Wir gestalten Fortschritt für mehr Lebensqualität – gestalte mit!" [level=3] [ref=f15e94]
+                - paragraph [ref=f15e95]
+                - heading [level=1] [ref=f15e96]:
+                  - strong [ref=f15e97]: Application Consultant SAP Commerce (m/w/d)
+                - paragraph [ref=f15e98]: am Standort Rehau oder Erlangen | ab Januar 2027 | Vollzeit | unbefristet | bis zu 50% mobiles Arbeiten möglich
+              - generic [ref=f15e100]:
+                - generic [ref=f15e101]:
+                  - heading "Deine Mission:" [level=2] [ref=f15e103]
+                  - generic [ref=f15e104]: Du machst digitales Einkaufen für unsere Kunden noch einfacher, effizienter und erfolgreicher. Gemeinsam mit internationalen Fachbereichen und IT-Teams entwickelst Du unser globales Kundenportal weiter und bringst innovative E-Commerce-Lösungen auf den Weg.
+                - generic [ref=f15e106]:
+                  - heading "Deine Aufgaben:" [level=2] [ref=f15e108]
+                  - list [ref=f15e110]:
+                    - listitem [ref=f15e111]:
+                      - paragraph [ref=f15e112]: Du betreust den Betrieb und die Weiterentwicklung unseres globalen Kundenportals auf Basis von SAP Commerce.
+                    - listitem [ref=f15e113]:
+                      - paragraph [ref=f15e114]: Du übersetzt Business-Anforderungen in innovative digitale Lösungen, erstellst Konzepte, User Stories und die Umsetzungsvorgaben für die Entwicklung.
+                    - listitem [ref=f15e115]: Du steuerst unsere internen und externen Entwicklungspartner und sorgst für Qualität, Effizienz und Termintreue.
+                    - listitem [ref=f15e116]: Du stellst den reibungslosen Betrieb der Plattform sicher, führst Funktionstests durch und treibst Optimierungen voran.
+                    - listitem [ref=f15e117]: Du arbeitest eng mit den internationalen Stakeholdern und IT-Teams zusammen und betreust unsere internationalen Key User im E-Commerce-Umfeld.
+                    - listitem [ref=f15e118]:
+                      - generic [ref=f15e119]: Du beobachtest Markt- und Technologietrends, leitest daraus innovative Lösungsansätze ab und gestaltest deren Umsetzung aktiv mit.
+                - generic [ref=f15e120]:
+                  - heading "Dein Profil:" [level=2] [ref=f15e122]
+                  - list [ref=f15e124]:
+                    - listitem [ref=f15e125]: Du verfügst über ein erfolgreich abgeschlossenes Studium der (Wirtschafts-)Informatik, Betriebswirtschaft oder vergleichbare Qualifikation. Alternativ verfügst Du über eine IT-Ausbildung mit mehrjähriger Erfahrung im Application Management.
+                    - listitem [ref=f15e126]: Du bringst Erfahrung im Umfeld von E-Commerce-, Web- oder ERP-Anwendungen mit und kennst idealerweise die SAP-Module SAP Commerce sowie SAP ERP SD.
+                    - listitem [ref=f15e127]: Du verstehst moderne Webarchitekturen, digitale Geschäftsprozesse und deren technische Umsetzung.
+                    - listitem [ref=f15e128]: Du arbeitest souverän mit Fachbereichen, internationalen Stakeholdern und externen Partnern zusammen.
+                    - listitem [ref=f15e129]: Agile Arbeitsweisen sind dir vertraut und du bewegst dich sicher in dynamischen Projektumgebungen.
+                    - listitem [ref=f15e130]: Du überzeugst durch eine strukturierte, analytische und eigenverantwortliche Arbeitsweise sowie ausgeprägte Kommunikations- und Teamfähigkeit.
+                    - listitem [ref=f15e131]: Sehr gute Deutsch- und Englischkenntnisse runden Dein Profil ab.
+                - generic [ref=f15e132]:
+                  - heading "Das kannst Du von uns erwarten:" [level=2] [ref=f15e134]
+                  - list [ref=f15e136]:
+                    - listitem [ref=f15e137]:
+                      - generic [ref=f15e138]:
+                        - text: 📦
+                        - strong [ref=f15e139]: Ein attraktives Gesamtpaket
+                        - text: ", bestehend aus wettbewerbsfähigem Gehalt, einem unbefristeten Arbeitsvertrag, systematischen Leistungs- und Talententwicklungsprozessen, betrieblicher Altersvorsorge, Flexzeitkonten, vermögenswirksamen Leistungen, Leasingangeboten, unserem Corporate Benefit Programm und Vielem mehr."
+                    - listitem [ref=f15e140]:
+                      - generic [ref=f15e141]:
+                        - text: ⏰ Du arbeitest bei uns
+                        - strong [ref=f15e142]: 38,6 Stunden/Woche in Vollzeit
+                        - text: und hast Die Möglichkeit, Deinen Arbeitsort durch
+                        - strong [ref=f15e143]: hybrides Arbeiten
+                        - text: (bis zu 50% Remote Work möglich) äußerst flexibel zu gestalten. Gleichzeitig freuen wir uns, wenn Du Dich persönlich am Unternehmensstandort vernetzt und aktiv am Teamleben teilnimmst.
+                    - listitem [ref=f15e144]:
+                      - generic [ref=f15e145]:
+                        - text: 🏖️
+                        - strong [ref=f15e146]: 30 Tage Urlaub,
+                        - text: flexible Arbeitszeiten plus Zeiterfassung sorgen für eine ausgezeichnete Work-Life-Balance.
+                    - listitem [ref=f15e147]:
+                      - generic [ref=f15e148]:
+                        - text: 🚀 Ein innovatives und kreatives Umfeld, das Deine
+                        - strong [ref=f15e149]: persönliche
+                        - text: und
+                        - strong [ref=f15e150]: berufliche Weiterentwicklung
+                        - text: aktiv unterstützt.
+                    - listitem [ref=f15e151]:
+                      - generic [ref=f15e152]:
+                        - text: 🤝Eine Unternehmenskultur, die durch ein
+                        - strong [ref=f15e153]: familiäres Klima
+                        - text: und
+                        - strong [ref=f15e154]: flache Hierarchien
+                        - text: geprägt ist.
+                    - listitem [ref=f15e155]:
+                      - generic [ref=f15e156]:
+                        - text: 👥 + 🌍 Ein sympathisches und
+                        - strong [ref=f15e157]: international agierendes Team
+                        - text: ", mit hilfsbereiten Ansprechpartnern für Fragen und Probleme, aber auch viel"
+                        - strong [ref=f15e158]: Freiraum
+                        - text: für die
+                        - strong [ref=f15e159]: eigenverantwortliche Gestaltung
+                        - text: Deiner Aufgaben.
+              - generic [ref=f15e161]:
+                - paragraph [ref=f15e162]
+                - separator [ref=f15e163]
+                - paragraph [ref=f15e164]: Wir freuen uns auf Deine Bewerbung. Nutze hierfür unser Online-Bewerbungsformular auf www.rehau.jobs.
+                - paragraph [ref=f15e165]
+                - paragraph [ref=f15e166]: "#GBS"
+            - paragraph
+          - button "Jetzt bewerben" [ref=f15e169] [cursor=pointer]
+        - complementary "Ähnliche Stellen suchen" [ref=f15e172]:
+          - generic [ref=f15e173]: "Ähnliche Stellen suchen:"
+          - link "Berufserfahrene/Berufseinsteiger" [ref=f15e175] [cursor=pointer]:
+            - /url: /go/BerufserfahreneBerufseinsteiger/2852001/
+    - contentinfo [ref=f15e176]:
+      - generic [ref=f15e179]:
+        - list [ref=f15e180]:
+          - listitem [ref=f15e181]:
+            - button "Manager für Cookie-Einwilligungen" [ref=f15e182] [cursor=pointer]
+          - listitem [ref=f15e183]:
+            - link "FAQ" [ref=f15e184] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+          - listitem [ref=f15e185]:
+            - link "Impressum" [ref=f15e186] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+          - listitem [ref=f15e187]:
+            - link "Datenschutz" [ref=f15e188] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+        - list [ref=f15e190]:
+          - listitem [ref=f15e191]:
+            - link "Folgen Sie uns auf X" [ref=f15e192] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+              - generic [ref=f15e193]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f15e196]:
+            - link "Finden Sie uns auf Xing" [ref=f15e197] [cursor=pointer]:
+              - /url: "https://www.xing.com/pages/rehau-group "
+              - generic [ref=f15e198]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f15e201]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=f15e202] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+              - generic [ref=f15e203]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f15e206]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=f15e207] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/rehautv
+              - generic [ref=f15e208]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f15e211]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f15e212] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rehau/
+              - generic [ref=f15e213]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f15e216]:
+            - link "Folgen Sie uns auf Instagram" [ref=f15e217] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland/
+              - generic [ref=f15e218]: Wird auf einer neuen Registerkarte geöffnet.
+  - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein

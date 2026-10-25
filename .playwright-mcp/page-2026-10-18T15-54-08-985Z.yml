@@ -1,0 +1,605 @@
+- document [ref=e1]:
+  - generic [ref=e3]:
+    - main [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - button "toggle menu" [ref=e10] [cursor=pointer]
+          - generic [ref=e12]:
+            - list [ref=e13]:
+              - listitem [ref=e14]:
+                - link "Go local" [ref=e15] [cursor=pointer]:
+                  - /url: en/sto-in-your-country.html
+              - listitem [ref=e16]:
+                - link "Contact" [ref=e17] [cursor=pointer]:
+                  - /url: en/contact.html
+            - list
+          - link [ref=e19] [cursor=pointer]:
+            - /url: /
+            - img "Sto Logo" [ref=e20]
+        - text:  
+      - article [ref=e21]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - list:
+              - listitem [aria-hidden] [ref=e27]:
+                - figure [ref=e28]
+                - generic [ref=e34]:
+                  - heading [level=2] [ref=e35]: Global presence, local knowledge
+                  - paragraph [ref=e36]:
+                    - text: We aim to support your work with specifications, details and advice that are bespoke to your project's geographical location, and environmental demands.
+                    - link [ref=e37] [cursor=pointer]:
+                      - /url: en/contact.html
+                      - text: Contact us
+              - listitem [ref=e38]:
+                - link [ref=e39] [cursor=pointer]:
+                  - /url: en/portfolio/facade-finishes/building-in-colour---film/building-in-colour.html
+                  - figure [ref=e40]:
+                    - img "Building in Colour - film & exhibition" [ref=e42]
+                - generic [ref=e46]:
+                  - heading "Building in Colour - watch the film" [level=2] [ref=e47]
+                  - paragraph [ref=e48]: A short documentary exploring the role of materiality and colour in architecture, taking the work of Stirling Prize winning architect Michael Wilford CBE (1938–2023) as it's starting point.
+                  - paragraph [ref=e49]:
+                    - link "Find out more - Building in Colour" [ref=e50] [cursor=pointer]:
+                      - /url: en/portfolio/facade-finishes/building-in-colour---film/building-in-colour.html
+              - listitem [aria-hidden] [ref=e51]:
+                - figure [ref=e52]
+                - generic [ref=e58]:
+                  - heading [level=2] [ref=e59]: Inspirational facades
+                  - paragraph [ref=e60]:
+                    - text: "A complete range of systems and surfaces for creative possibilities: Render, glass, ceramic tiles, stone and 3D elements allow a wide variety of design options."
+                    - link [ref=e61] [cursor=pointer]:
+                      - /url: en/portfolio/facade-finishes/inspiration/inspiration.html
+                      - text:  Be inspired
+              - listitem [aria-hidden] [ref=e62]:
+                - figure [ref=e63]
+                - generic [ref=e69]:
+                  - heading [level=2] [ref=e70]: Aesthetics and thermal performance
+                  - paragraph [ref=e71]: The combination of a façade insulation system and intelligent technology finishes help retain the aesthetics whilst saving energy.
+                  - paragraph [ref=e72]:
+                    - link [ref=e73] [cursor=pointer]:
+                      - /url: en/portfolio/facade-systems/why-insulate-the-exterior-/why-insulate-the-exterior.html
+                      - text: Learn more
+              - listitem [aria-hidden] [ref=e74]:
+                - figure [ref=e75]
+                - generic [ref=e81]:
+                  - heading [level=2] [ref=e82]: Global presence, local knowledge
+                  - paragraph [ref=e83]:
+                    - text: We aim to support your work with specifications, details and advice that are bespoke to your project's geographical location, and environmental demands.
+                    - link [ref=e84] [cursor=pointer]:
+                      - /url: en/contact.html
+                      - text: Contact us
+              - listitem [aria-hidden] [ref=e85]:
+                - link [ref=e86] [cursor=pointer]:
+                  - /url: en/portfolio/facade-finishes/building-in-colour---film/building-in-colour.html
+                  - figure [ref=e87]
+                - generic [ref=e93]:
+                  - heading [level=2] [ref=e94]: Building in Colour - watch the film
+                  - paragraph [ref=e95]: A short documentary exploring the role of materiality and colour in architecture, taking the work of Stirling Prize winning architect Michael Wilford CBE (1938–2023) as it's starting point.
+                  - paragraph [ref=e96]:
+                    - link [ref=e97] [cursor=pointer]:
+                      - /url: en/portfolio/facade-finishes/building-in-colour---film/building-in-colour.html
+                      - text: Find out more - Building in Colour
+          - generic [ref=e99]:
+            - link "1" [ref=e101] [cursor=pointer]:
+              - /url: ""
+            - link "2" [ref=e103] [cursor=pointer]:
+              - /url: ""
+            - link "3" [ref=e105] [cursor=pointer]:
+              - /url: ""
+            - link "4" [ref=e107] [cursor=pointer]:
+              - /url: ""
+        - article [ref=e110]:
+          - generic [ref=e112]:
+            - heading "Sto News & Events" [level=2] [ref=e113]
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - heading "We remain the global market leader for EWIS" [level=3] [ref=e116]
+                - generic [ref=e117]: January 14, 2026
+                - paragraph [ref=e118]:
+                  - text: "Once again, we are the global market leader for external wall insulation systems (EWIS): In 2026, WirtschaftsWoche once again recognizes us for our international strength and innovative power. With pride and gratitude, we carry the champion title for the seventh time."
+                  - link "More" [ref=e119] [cursor=pointer]:
+                    - /url: en/news-detail_34496.html
+              - listitem [ref=e120]:
+                - heading "Sto participates in World Cleanup Day worldwide" [level=3] [ref=e121]
+                - generic [ref=e122]: September 25, 2025
+                - paragraph [ref=e123]:
+                  - text: Working together for a clean environment
+                  - link "More" [ref=e124] [cursor=pointer]:
+                    - /url: en/news-detail_34432.html
+              - listitem [ref=e125]:
+                - heading "New production facility - Dandenong South, Melbourne, Australia" [level=3] [ref=e126]
+                - generic [ref=e127]: July 16, 2025
+                - paragraph [ref=e128]:
+                  - text: A significant milestone for Sto in Australia!
+                  - link "More" [ref=e129] [cursor=pointer]:
+                    - /url: en/news-detail_34368.html
+            - link "Find all Sto News & Events" [ref=e130] [cursor=pointer]:
+              - /url: en/news-overview.html
+          - figure [ref=e132]:
+            - img "We remain the global market leader for EWIS" [ref=e134]
+        - heading "Unique facades, acoustic surfaces and more" [level=1] [ref=e137]
+        - generic [ref=e140]:
+          - 'heading "Insulated Façade Systems: the ideal solution for the residential sector" [level=2] [ref=e141]'
+          - paragraph [ref=e142]: As one of the pioneers of external wall insulation systems, (EWI) sometimes referred to as insulated render or ETICs, we can look back on over 50 years of experience. We offer a variety of solutions for the insulation of new build housing and the upgrading/ refurbishment of existing building alike. Our systems offer an excellent solution for the reduction of heating or cooling cost and can make a considerable contribution to, for example, the EU’s goals of climate neutrality by 2050. When applied to our thermal insulation systems the choice of render, brick slips, veneers as well as portfolio of tiles and façade profiles are ideal for every kind of residential project.Whether small scale, domestic, single family housing, terraced housing or high rise apartments, we have a system for all technical demands and budget whilst simultaneously helping to reduce carbon emission.
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link [ref=e148] [cursor=pointer]:
+              - /url: en/gallery_24832.html?anchor=item1&back=/en/home/home.html
+              - figure [ref=e149]:
+                - img "passive house, insulated render" [ref=e151]
+          - listitem [ref=e152]:
+            - link [ref=e153] [cursor=pointer]:
+              - /url: en/gallery_24832.html?anchor=item2&back=/en/home/home.html
+              - figure [ref=e154]:
+                - img "Signature, Stolit Milano" [ref=e156]
+          - listitem [ref=e157]:
+            - link [ref=e158] [cursor=pointer]:
+              - /url: en/gallery_24832.html?anchor=item3&back=/en/home/home.html
+              - figure [ref=e159]:
+                - img "StoTherm Classic," [ref=e161]
+          - listitem [ref=e162]:
+            - link [ref=e163] [cursor=pointer]:
+              - /url: en/gallery_24832.html?anchor=item4&back=/en/home/home.html
+              - figure [ref=e164]:
+                - img "high rise insulation" [ref=e166]
+          - listitem [ref=e167]:
+            - link [ref=e168] [cursor=pointer]:
+              - /url: en/gallery_24832.html?anchor=item5&back=/en/home/home.html
+              - figure [ref=e169]:
+                - img "passive house standard" [ref=e171]
+        - generic [ref=e174]:
+          - heading "StoSignature - bespoke façade surfaces" [level=2] [ref=e175]
+          - paragraph [ref=e176]:
+            - text: Historically façade surfaces have always been a composite of the material available and the skill of tradesmen involved. With our new Signature range we have developed and formalised a logical, structured approach to specifying rendered surfaces.
+            - strong [ref=e177]: "Texture + Effects = unlimited combinations:"
+            - text: Using state of the art through-coloured materials with additional effects such as metallic sheen coating, washes and glazes or applied granulates give you almost unlimited design scope.
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - link [ref=e183] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item1&back=/en/home/home.html
+              - figure [ref=e184]:
+                - img "Coal Drops Yard at London's King's Cross" [ref=e186]
+          - listitem [ref=e187]:
+            - link [ref=e188] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item2&back=/en/home/home.html
+              - figure [ref=e189]:
+                - img "StoSignature texture Linear 10, Stolit Effect" [ref=e191]
+          - listitem [ref=e192]:
+            - link [ref=e193] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item3&back=/en/home/home.html
+              - figure [ref=e194]:
+                - img "StoSignature texture Rough 10" [ref=e196]
+          - listitem [ref=e197]:
+            - link [ref=e198] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item4&back=/en/home/home.html
+              - figure [ref=e199]:
+                - img "StoSignature texture Standard K" [ref=e201]
+          - listitem [ref=e202]:
+            - link [ref=e203] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item5&back=/en/home/home.html
+              - figure [ref=e204]:
+                - img "StoSignature impression Concrete 20" [ref=e206]
+            - link "More Images" [ref=e207] [cursor=pointer]:
+              - /url: en/gallery_4992.html?anchor=item5&back=/en/home/home.html
+        - generic [ref=e210]:
+          - 'heading "Coloured Facade Possibilities: Playing with hues and shades" [level=2] [ref=e211]'
+          - paragraph [ref=e212]: Our wide range of materials includes fade-resistant through-coloured render, modular glass panels, ceramic tiles and cladding to provide you with an inspiring, comprehensive and versatile toolkit for your creative ambitions. The juxtaposition of these surfaces while using the same substrate allows for the easy implementation of design ideas.
+        - list [ref=e216]:
+          - listitem [ref=e217]:
+            - link [ref=e218] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item1&back=/en/home/home.html
+              - figure [ref=e219]:
+                - img "sheen, vibrant yellow, vibrant green, gradiant colour, coloured facade, colored facade, saturated colours, pastel colours" [ref=e221]
+          - listitem [ref=e222]:
+            - link [ref=e223] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item2&back=/en/home/home.html
+              - figure [ref=e224]:
+                - img "Maggie’s Centre London - Stolit K1,5 available in 800 standard colours, Vivid red, Sto Through coloured render, Fade resistant, Bright colours, Richard Rogers, Stirling prize winner, Intense radiant colors, Luminous paint, Architecture, Colorful hue, Exterior finish, Stippled finish, Smooth finish, Textured finish" [ref=e226]
+          - listitem [ref=e227]:
+            - link [ref=e228] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item3&back=/en/home/home.html
+              - figure [ref=e229]:
+                - img "Stolit K 1,0Vivid red Sto Through coloured render Fade resistant Bright colours Richard Rogers Maggies centre London Stirling prize winner Intense radiant colors Luminous paint Architecture Colorful Hue Exterior finish Stippled finish Smooth finish Textured finish" [ref=e231]
+          - listitem [ref=e232]:
+            - link [ref=e233] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item4&back=/en/home/home.html
+              - figure [ref=e234]:
+                - img "StoVentec Glass Rainscreen Cladding System, Bright red orange and yellow glass Radiance reflections reflective shiny Smooth" [ref=e236]
+          - listitem [ref=e237]:
+            - link [ref=e238] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item5&back=/en/home/home.html
+              - figure [ref=e239]:
+                - img "Stolit MP, StoTherm Classic Facade Insulation System, Vivid red Artistic design Sto Through coloured render Fade resistant Bright colours Intense radiant colors Luminous paint Architecture Colorful Hue Exterior finish Interesting technique Stippled finish Smooth finish Textured finish" [ref=e241]
+            - link "More Images" [ref=e242] [cursor=pointer]:
+              - /url: en/gallery_5952.html?anchor=item5&back=/en/home/home.html
+        - generic [ref=e245]:
+          - heading "Creative possibilities with seamless and modular acoustic systems" [level=2] [ref=e246]
+          - paragraph [ref=e247]: Seamless, suspended or modular acoustic systems increase the quality of sound in a room, but they also leave room for the creative ideas of the designer. Acoustic board systems, acoustic sails and acoustic plaster finishes allow experimentation with a variety of different textures, shapes and colours.
+        - list [ref=e251]:
+          - listitem [ref=e252]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: en/gallery_5120.html?anchor=item1&back=/en/home/home.html
+              - figure [ref=e254]:
+                - img "Suspended acoustic systems - StoSilent Distance - large, seamless acoustic surfaces" [ref=e256]
+          - listitem [ref=e257]:
+            - link [ref=e258] [cursor=pointer]:
+              - /url: en/gallery_5120.html?anchor=item2&back=/en/home/home.html
+              - figure [ref=e259]:
+                - img "Suspended acoustic systems - StoSilent Distance - large, seamless acoustic surfaces" [ref=e261]
+          - listitem [ref=e262]:
+            - link [ref=e263] [cursor=pointer]:
+              - /url: en/gallery_5120.html?anchor=item3&back=/en/home/home.html
+              - figure [ref=e264]:
+                - img "V&A Dundee" [ref=e266]
+          - listitem [ref=e267]:
+            - link [ref=e268] [cursor=pointer]:
+              - /url: en/gallery_5120.html?anchor=item4&back=/en/home/home.html
+              - figure [ref=e269]:
+                - img "Seamless, space saving acoustics - StoSilent Direct" [ref=e271]
+          - listitem [ref=e272]:
+            - link [ref=e273] [cursor=pointer]:
+              - /url: en/gallery_5120.html?anchor=item5&back=/en/home/home.html
+              - figure [ref=e274]:
+                - img "Modular acoustic elements - Pre-manufactured acoustic elements" [ref=e276]
+        - generic [ref=e279]:
+          - text: 
+          - generic [ref=e280]:
+            - heading "We are Sto, how can we help you?" [level=2] [ref=e281]
+            - generic [ref=e282]:
+              - list [ref=e283]:
+                - listitem [ref=e284]:
+                  - figure [ref=e285]:
+                    - img "Audra Lee" [ref=e287]
+                - listitem [ref=e288]:
+                  - figure [ref=e289]:
+                    - img "Javier Alvarez" [ref=e291]
+                - listitem [ref=e292]:
+                  - figure [ref=e293]:
+                    - img "Jenny Zhang" [ref=e295]
+                - listitem [ref=e296]:
+                  - figure [ref=e297]:
+                    - img "Riccardo Rossi" [ref=e299]
+                - listitem [ref=e300]:
+                  - figure [ref=e301]:
+                    - img "Thomas Gebhart" [ref=e303]
+                - listitem [ref=e304]:
+                  - figure [ref=e305]:
+                    - img "Murat Yarar" [ref=e307]
+              - generic [ref=e308]:
+                - heading "Global presence. Local knowledge. Feel free to contact us." [level=2] [ref=e309]
+                - generic [ref=e310]:
+                  - text: 
+                  - combobox [ref=e311]:
+                    - option "Please select your project location" [disabled] [selected]
+                    - option "Afghanistan"
+                    - option "Albania"
+                    - option "Algeria"
+                    - option "American Samoa"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antigua and Barbuda"
+                    - option "Argentina"
+                    - option "Armenia"
+                    - option "Aruba"
+                    - option "Australia"
+                    - option "Austria"
+                    - option "Azerbaijan"
+                    - option "Bahamas"
+                    - option "Bahrain"
+                    - option "Bangladesh"
+                    - option "Barbados"
+                    - option "Belgium"
+                    - option "Belize"
+                    - option "Benin"
+                    - option "Bermuda"
+                    - option "Bhutan"
+                    - option "Bolivia"
+                    - option "Bonaire"
+                    - option "Bosnia and Herzegovina"
+                    - option "Botswana"
+                    - option "Bouvet Islands"
+                    - option "Brazil"
+                    - option "British Indian Ocean Territory"
+                    - option "British Virgin Islands"
+                    - option "Brunei"
+                    - option "Bulgaria"
+                    - option "Burkina Faso"
+                    - option "Burundi"
+                    - option "Cambodia"
+                    - option "Cameroon"
+                    - option "Canada"
+                    - option "Cape Verde"
+                    - option "Cayman Islands"
+                    - option "Central African Republic"
+                    - option "Chad"
+                    - option "Chile"
+                    - option "China"
+                    - option "Christmas Island"
+                    - option "Cocos Islands"
+                    - option "Colombia"
+                    - option "Congo"
+                    - option "Cook Islands"
+                    - option "Costa Rica"
+                    - option "Croatia"
+                    - option "Curaçao"
+                    - option "Cyprus"
+                    - option "Czech Republic"
+                    - option "Democratic Republic of Congo"
+                    - option "Denmark"
+                    - option "Djibouti"
+                    - option "Dominica"
+                    - option "Dominican Republic"
+                    - option "East Timor"
+                    - option "Ecuador"
+                    - option "Egypt"
+                    - option "El Salvador"
+                    - option "Equatorial Guinea"
+                    - option "Eritrea"
+                    - option "Estonia"
+                    - option "Ethiopia"
+                    - option "Falkland Islands"
+                    - option "Faroe Islands"
+                    - option "Fiji"
+                    - option "Finland"
+                    - option "France"
+                    - option "French Guiana"
+                    - option "French Polynesia"
+                    - option "French Southern and Antarctic Territories"
+                    - option "Gabon"
+                    - option "Gambia"
+                    - option "Georgia"
+                    - option "Germany"
+                    - option "Ghana"
+                    - option "Gibraltar"
+                    - option "Great Britain"
+                    - option "Greece"
+                    - option "Greenland"
+                    - option "Grenada"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guernsey"
+                    - option "Guinea"
+                    - option "Guinea-Bissau"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Heard and McDonald Islands"
+                    - option "Honduras"
+                    - option "Hong Kong"
+                    - option "Hungary"
+                    - option "Iceland"
+                    - option "India"
+                    - option "Indonesia"
+                    - option "Iraq"
+                    - option "Ireland"
+                    - option "Isle of Man"
+                    - option "Israel"
+                    - option "Italy"
+                    - option "Ivory Coast"
+                    - option "Jamaica"
+                    - option "Japan"
+                    - option "Jersey"
+                    - option "Jordan"
+                    - option "Kazakhstan"
+                    - option "Kenya"
+                    - option "Kiribati"
+                    - option "Kosovo"
+                    - option "Kuwait"
+                    - option "Kyrgyzstan"
+                    - option "Laos"
+                    - option "Latvia"
+                    - option "Lebanon"
+                    - option "Lesotho"
+                    - option "Liberia"
+                    - option "Libya"
+                    - option "Liechtenstein"
+                    - option "Lithuania"
+                    - option "Luxembourg"
+                    - option "Macau"
+                    - option "Macedonia"
+                    - option "Madagascar"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Maldives"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Marshall Islands"
+                    - option "Martinique"
+                    - option "Mauritania"
+                    - option "Mauritius"
+                    - option "Mayotte"
+                    - option "Mexico"
+                    - option "Micronesia"
+                    - option "Monaco"
+                    - option "Mongolia"
+                    - option "Montenegro"
+                    - option "Montserrat"
+                    - option "Morocco"
+                    - option "Mozambique"
+                    - option "Namibia"
+                    - option "Nauru"
+                    - option "Nepal"
+                    - option "Netherlands"
+                    - option "New Caledonia"
+                    - option "New Zealand"
+                    - option "Nicaragua"
+                    - option "Niger"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "Norfolk Island"
+                    - option "Northern Mariana Islands"
+                    - option "Norway"
+                    - option "Oman"
+                    - option "Pakistan"
+                    - option "Palau"
+                    - option "Palestinian territories"
+                    - option "Panama"
+                    - option "Papua New Guinea"
+                    - option "Paraguay"
+                    - option "Peru"
+                    - option "Pitcairn"
+                    - option "Poland"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Qatar"
+                    - option "Republic of Korea"
+                    - option "Republic of Moldova"
+                    - option "Reunion"
+                    - option "Romania"
+                    - option "Rwanda"
+                    - option "Saint Martin"
+                    - option "Saint Vincent and the Grenadines"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "Sao Tome and Principe"
+                    - option "Saudi Arabia"
+                    - option "Senegal"
+                    - option "Serbia"
+                    - option "Seychelles"
+                    - option "Sierra Leone"
+                    - option "Singapore"
+                    - option "Sint Maarten"
+                    - option "Slovakia"
+                    - option "Slovenia"
+                    - option "Solomon Islands"
+                    - option "Somalia"
+                    - option "South Africa"
+                    - option "South Georgia and the South Sandwich Islands"
+                    - option "South Sudan"
+                    - option "Spain"
+                    - option "Sri Lanka"
+                    - option "St. Barthélemy"
+                    - option "St. Helena"
+                    - option "St. Kitts and Nevis"
+                    - option "St. Lucia"
+                    - option "St. Pierre and Miquelon"
+                    - option "Sudan"
+                    - option "Suriname"
+                    - option "Swaziland"
+                    - option "Sweden"
+                    - option "Switzerland"
+                    - option "Taiwan"
+                    - option "Tajikistan"
+                    - option "Tanzania"
+                    - option "Thailand"
+                    - option "The Comoros"
+                    - option "The Philippines"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad and Tobago"
+                    - option "Tunisia"
+                    - option "Turkey"
+                    - option "Turkmenistan"
+                    - option "Turks and Caicos Islands"
+                    - option "Tuvalu"
+                    - option "UAE"
+                    - option "Uganda"
+                    - option "Ukraine"
+                    - option "United States Minor Outlying Islands"
+                    - option "Uruguay"
+                    - option "USA"
+                    - option "US Virgin Islands"
+                    - option "Uzbekistan"
+                    - option "Vanuatu"
+                    - option "Vatican City"
+                    - option "Vietnam"
+                    - option "Wallis and Futuna"
+                    - option "Western Sahara"
+                    - option "Yemen"
+                    - option "Zambia"
+                    - option "Zimbabwe"
+      - generic [ref=e312]:
+        - text:         
+        - generic [ref=e315]:
+          - generic [ref=e316]: © 2025 Sto SE & Co. KGaA - All Rights Reserved.
+          - list [ref=e317]:
+            - listitem [ref=e318]:
+              - link "Contact" [ref=e319] [cursor=pointer]:
+                - /url: en/contact.html
+            - listitem [ref=e320]:
+              - link "Imprint" [ref=e321] [cursor=pointer]:
+                - /url: en/imprint.html
+            - listitem [ref=e322]:
+              - link "Data Protection" [ref=e323] [cursor=pointer]:
+                - /url: en/data-protection.html
+            - listitem [ref=e324]:
+              - link "Disclaimer" [ref=e325] [cursor=pointer]:
+                - /url: en/disclaimer.html
+            - listitem [ref=e326]:
+              - link "Investor Relations" [ref=e327] [cursor=pointer]:
+                - /url: https://www.sto.de/s/investor-relations
+            - listitem [ref=e328]:
+              - link "Whistleblower system" [ref=e329] [cursor=pointer]:
+                - /url: https://sto.whistleblowernetwork.net/
+            - listitem [ref=e330]:
+              - link "Data Privacy Settings" [ref=e331] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e332] [cursor=pointer]: 
+    - generic [ref=e333]:
+      - banner [ref=e334]:
+        - link "Home" [ref=e335] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - generic [ref=e337]:
+        - list [ref=e338]:
+          - listitem [ref=e339]:
+            - link " Products & Services" [ref=e340] [cursor=pointer]:
+              - /url: //www.sto.com/en/portfolio/portfolio.html
+            - text:      
+          - listitem [ref=e341]:
+            - link "Material Overview" [ref=e342] [cursor=pointer]:
+              - /url: https://ark.sto.com/en/material-overview
+          - listitem [ref=e343]:
+            - link "References" [ref=e344] [cursor=pointer]:
+              - /url: //www.sto.com/en/references/reference-list-map.html
+          - listitem [ref=e345]:
+            - link "Sustainability" [ref=e346] [cursor=pointer]:
+              - /url: //www.sto.com/en/sustainability/sustainability.html
+          - listitem [ref=e347]:
+            - link " About us" [ref=e348] [cursor=pointer]:
+              - /url: //www.sto.com/en/about-us/about-us.html
+          - listitem [ref=e349]:
+            - link "Go local" [ref=e350] [cursor=pointer]:
+              - /url: //www.sto.com/en/sto-in-your-country.html
+          - listitem [ref=e351]:
+            - link "Contact" [ref=e352] [cursor=pointer]:
+              - /url: //www.sto.com/en/contact.html
+        - text: 
+        - contentinfo [ref=e353]:
+          - generic [ref=e355]:
+            - paragraph [ref=e356]: Follow us
+            - generic [ref=e357]:
+              - link "" [ref=e358] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/sto-ag
+              - link "" [ref=e359] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/StoAGgermany/
+              - link "" [ref=e360] [cursor=pointer]:
+                - /url: https://www.pinterest.com/sto_global/_saved/
+    - generic [ref=e361]: RIGHT OFFCANVAS AREA
+  - complementary [active]:
+    - group "Consent Management Platform Interface":
+      - dialog [ref=e365]:
+        - generic [ref=e367]:
+          - combobox "Select language" [ref=e370] [cursor=pointer]:
+            - option "English" [selected]
+            - option "Deutsch"
+          - img "Sto Logo" [ref=e371]
+          - generic [ref=e372]:
+            - heading "Privacy Settings" [level=2] [ref=e373]
+            - generic: With the aim of optimising the use of our website, we use cookies and other online technologies to show personalised content, offer convenient functions, and perform analyses for measuring reach. By clicking “Accept All”, you give us permission to process your data in this way and to share your data with third-party providers (including those in third countries where applicable) in accordance with our privacy statement. You can decline cookies or amend the cookie settings at any time. Our privacy statement explains how we use your data and when we share it with others.
+          - navigation "Header including language selection and external links" [ref=e374]:
+            - link "Open Privacy Policy" [ref=e375] [cursor=pointer]:
+              - /url: https://www.sto.com/en/data-protection.html
+              - text: Privacy Policy
+            - link "Open Legal Notice" [ref=e376] [cursor=pointer]:
+              - /url: https://www.sto.com/en/imprint.html
+              - text: Legal Notice
+        - generic [ref=e377]:
+          - generic [ref=e379]:
+            - button "more" [ref=e380] [cursor=pointer]
+            - button "Deny" [ref=e381] [cursor=pointer]
+            - button "Accept All" [ref=e382] [cursor=pointer]
+          - link "Powered by Usercentrics Consent Management" [ref=e384] [cursor=pointer]:
+            - /url: https://usercentrics.com/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v3

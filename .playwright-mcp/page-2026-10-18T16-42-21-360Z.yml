@@ -1,0 +1,402 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e4]:
+    - link [ref=f5e1197] [cursor=pointer]:
+      - /url: ""
+      - text: Skip to main content
+    - banner [ref=f5e1200]:
+      - generic [ref=f5e1202]:
+        - link [ref=f5e1205] [cursor=pointer]:
+          - /url: https://www.careers.philips.com
+        - heading [level=1] [ref=f5e1208]: Careers
+        - generic [ref=f5e1210]:
+          - generic [ref=f5e1211]:
+            - button [ref=f5e1213] [cursor=pointer]:
+              - generic [ref=f5e1217]: English
+            - button [ref=f5e1219] [cursor=pointer]:
+              - generic [ref=f5e1224]: Sign In
+          - navigation [ref=f5e1225]:
+            - button [ref=f5e1226] [cursor=pointer]: Careers Home
+            - button [ref=f5e1227] [cursor=pointer]: Search for Jobs
+    - generic [ref=f5e1232]:
+      - generic [ref=f5e1233]:
+        - search [ref=f5e1234]:
+          - generic [ref=f5e1235]:
+            - textbox [ref=f5e1241]:
+              - /placeholder: Search for jobs or keywords
+            - status [ref=f5e1242]
+          - button [ref=f5e1245] [cursor=pointer]: Search
+        - group [ref=f5e1246]:
+          - generic [ref=f5e1247]: Filters
+          - button [ref=f5e1249] [cursor=pointer]: Location
+          - button [ref=f5e1254] [cursor=pointer]: Time Type
+          - button [ref=f5e1259] [cursor=pointer]: Function
+      - generic [ref=f5e1263]:
+        - alert [ref=f5e1264]: Search for Jobs page is loaded
+        - region [ref=f5e1265]:
+          - paragraph [ref=f5e1266]: 781 JOBS FOUND
+          - list [ref=f5e1267]:
+            - listitem [ref=f5e1268]:
+              - heading [level=3] [ref=f5e1272]:
+                - link [ref=f5e1273] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Haifa/Physicist_586919-1?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Physicist
+              - generic [ref=f5e1282]:
+                - term [ref=f5e1283]: locations
+                - definition [ref=f5e1284]: Haifa
+              - generic [ref=f5e1294]:
+                - term [ref=f5e1295]: posted on
+                - definition [ref=f5e1296]: Posted Today
+              - list [ref=f5e1297]:
+                - listitem [ref=f5e1298]: "586919"
+            - listitem [ref=f5e1299]:
+              - heading [level=3] [ref=f5e1303]:
+                - link [ref=f5e1304] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Plymouth-Minnesota-United-States/Assembler-2_593725?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Assembler 2
+              - generic [ref=f5e1313]:
+                - term [ref=f5e1314]: locations
+                - definition [ref=f5e1315]: Plymouth, Minnesota, United States
+              - generic [ref=f5e1325]:
+                - term [ref=f5e1326]: posted on
+                - definition [ref=f5e1327]: Posted Yesterday
+              - list [ref=f5e1328]:
+                - listitem [ref=f5e1329]: "593725"
+            - listitem [ref=f5e1330]:
+              - heading [level=3] [ref=f5e1334]:
+                - link [ref=f5e1335] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Ciudad-de-Panama/Customer-Order-Specialist_592856?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Customer Order Specialist
+              - generic [ref=f5e1344]:
+                - term [ref=f5e1345]: locations
+                - definition [ref=f5e1346]: Ciudad de Panama
+              - generic [ref=f5e1356]:
+                - term [ref=f5e1357]: posted on
+                - definition [ref=f5e1358]: Posted 2 Days Ago
+              - list [ref=f5e1359]:
+                - listitem [ref=f5e1360]: "592856"
+            - listitem [ref=f5e1361]:
+              - heading [level=3] [ref=f5e1365]:
+                - link [ref=f5e1366] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Madrid/Field-Service-Engineer_589667-1?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Field Service Engineer
+              - generic [ref=f5e1375]:
+                - term [ref=f5e1376]: locations
+                - definition [ref=f5e1377]: Madrid
+              - generic [ref=f5e1387]:
+                - term [ref=f5e1388]: posted on
+                - definition [ref=f5e1389]: Posted 2 Days Ago
+              - list [ref=f5e1390]:
+                - listitem [ref=f5e1391]: "589667"
+            - listitem [ref=f5e1392]:
+              - heading [level=3] [ref=f5e1396]:
+                - link [ref=f5e1397] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Ciudad-de-Panama/Customer-Order-Specialist_592061?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Customer Order Specialist
+              - generic [ref=f5e1406]:
+                - term [ref=f5e1407]: locations
+                - definition [ref=f5e1408]: Ciudad de Panama
+              - generic [ref=f5e1418]:
+                - term [ref=f5e1419]: posted on
+                - definition [ref=f5e1420]: Posted 2 Days Ago
+              - list [ref=f5e1421]:
+                - listitem [ref=f5e1422]: "592061"
+            - listitem [ref=f5e1423]:
+              - heading [level=3] [ref=f5e1427]:
+                - link [ref=f5e1428] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/London/Field-Service-Employee---Imaging-Systems--Field--London--ON-_591906?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: "Field Service Employee - Imaging Systems (Field: London, ON)"
+              - generic [ref=f5e1437]:
+                - term [ref=f5e1438]: locations
+                - definition [ref=f5e1439]: London
+              - generic [ref=f5e1449]:
+                - term [ref=f5e1450]: posted on
+                - definition [ref=f5e1451]: Posted 2 Days Ago
+              - list [ref=f5e1452]:
+                - listitem [ref=f5e1453]: "591906"
+            - listitem [ref=f5e1454]:
+              - heading [level=3] [ref=f5e1458]:
+                - link [ref=f5e1459] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Colorado-Springs-Colorado-United-States/Intern--Design-Assurance-Engineer---Colorado-Springs--CO---Summer-2027_591948?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Intern– Design Assurance Engineer – Colorado Springs, CO – Summer 2027
+              - generic [ref=f5e1468]:
+                - term [ref=f5e1469]: locations
+                - definition [ref=f5e1470]: Colorado Springs, Colorado, United States
+              - generic [ref=f5e1480]:
+                - term [ref=f5e1481]: posted on
+                - definition [ref=f5e1482]: Posted 2 Days Ago
+              - list [ref=f5e1483]:
+                - listitem [ref=f5e1484]: "591948"
+            - listitem [ref=f5e1485]:
+              - heading [level=3] [ref=f5e1489]:
+                - link [ref=f5e1490] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Ciudad-de-Panama/Cash-Accountant---North-America_591782?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Cash Accountant - North America
+              - generic [ref=f5e1499]:
+                - term [ref=f5e1500]: locations
+                - definition [ref=f5e1501]: Ciudad de Panama
+              - generic [ref=f5e1511]:
+                - term [ref=f5e1512]: posted on
+                - definition [ref=f5e1513]: Posted 2 Days Ago
+              - list [ref=f5e1514]:
+                - listitem [ref=f5e1515]: "591782"
+            - listitem [ref=f5e1516]:
+              - heading [level=3] [ref=f5e1520]:
+                - link [ref=f5e1521] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Nashville-Tennessee-United-States/Government-Contract-Portfolio-Manager--Office--Nashville--TN-or-Bothell--WA-_592418-1?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: "Government Contract Portfolio Manager (Office: Nashville, TN or Bothell, WA)"
+              - generic [ref=f5e1530]:
+                - term [ref=f5e1531]: locations
+                - definition [ref=f5e1532]: 2 Locations
+              - generic [ref=f5e1542]:
+                - term [ref=f5e1543]: posted on
+                - definition [ref=f5e1544]: Posted 2 Days Ago
+              - list [ref=f5e1545]:
+                - listitem [ref=f5e1546]: "592418"
+            - listitem [ref=f5e1547]:
+              - heading [level=3] [ref=f5e1551]:
+                - link [ref=f5e1552] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Cleveland-Ohio-United-States/Sales--Territory-Manager---RespirTech--Cleveland-Toledo-_592849?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Sales, Territory Manager - RespirTech (Cleveland/Toledo)
+              - generic [ref=f5e1561]:
+                - term [ref=f5e1562]: locations
+                - definition [ref=f5e1563]: 2 Locations
+              - generic [ref=f5e1573]:
+                - term [ref=f5e1574]: posted on
+                - definition [ref=f5e1575]: Posted 2 Days Ago
+              - list [ref=f5e1576]:
+                - listitem [ref=f5e1577]: "592849"
+            - listitem [ref=f5e1578]:
+              - heading [level=3] [ref=f5e1582]:
+                - link [ref=f5e1583] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Reedsville-Pennsylvania-United-States/Assembler-1_592126?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Assembler 1
+              - generic [ref=f5e1592]:
+                - term [ref=f5e1593]: locations
+                - definition [ref=f5e1594]: Reedsville, Pennsylvania, United States
+              - generic [ref=f5e1604]:
+                - term [ref=f5e1605]: posted on
+                - definition [ref=f5e1606]: Posted 2 Days Ago
+              - list [ref=f5e1607]:
+                - listitem [ref=f5e1608]: "592126"
+            - listitem [ref=f5e1609]:
+              - heading [level=3] [ref=f5e1613]:
+                - link [ref=f5e1614] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Manhattan-New-York-United-States/Sales--Territory-Manager---RespirTech--Manhattan-Brooklyn-Bronx-_592698?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Sales, Territory Manager - RespirTech (Manhattan/Brooklyn/Bronx)
+              - generic [ref=f5e1623]:
+                - term [ref=f5e1624]: locations
+                - definition [ref=f5e1625]: 3 Locations
+              - generic [ref=f5e1635]:
+                - term [ref=f5e1636]: posted on
+                - definition [ref=f5e1637]: Posted 2 Days Ago
+              - list [ref=f5e1638]:
+                - listitem [ref=f5e1639]: "592698"
+            - listitem [ref=f5e1640]:
+              - heading [level=3] [ref=f5e1644]:
+                - link [ref=f5e1645] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Program-Manager--Exploratory-Innovation-Teams--Cambridge--MA-_593566?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Program Manager, Exploratory Innovation Teams (Cambridge, MA)
+              - generic [ref=f5e1654]:
+                - term [ref=f5e1655]: locations
+                - definition [ref=f5e1656]: Cambridge (US), Massachusetts, United States
+              - generic [ref=f5e1666]:
+                - term [ref=f5e1667]: posted on
+                - definition [ref=f5e1668]: Posted 2 Days Ago
+              - list [ref=f5e1669]:
+                - listitem [ref=f5e1670]: "593566"
+            - listitem [ref=f5e1671]:
+              - heading [level=3] [ref=f5e1675]:
+                - link [ref=f5e1676] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Atlanta-Georgia-United-States/Critical-Care-Nurse---Clinical-Solution-Specialist--Patient-Monitoring--Atlanta--GA-_590292?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Critical Care Nurse - Clinical Solution Specialist, Patient Monitoring (Atlanta, GA)
+              - generic [ref=f5e1685]:
+                - term [ref=f5e1686]: locations
+                - definition [ref=f5e1687]: Atlanta, Georgia, United States
+              - generic [ref=f5e1697]:
+                - term [ref=f5e1698]: posted on
+                - definition [ref=f5e1699]: Posted 2 Days Ago
+              - list [ref=f5e1700]:
+                - listitem [ref=f5e1701]: "590292"
+            - listitem [ref=f5e1702]:
+              - heading [level=3] [ref=f5e1706]:
+                - link [ref=f5e1707] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Bedford-Massachusetts-United-States/Logistics-and-Warehouse-Operations-Manager--Bedford--MA-_593370?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Logistics and Warehouse Operations Manager (Bedford, MA)
+              - generic [ref=f5e1716]:
+                - term [ref=f5e1717]: locations
+                - definition [ref=f5e1718]: Bedford, Massachusetts, United States
+              - generic [ref=f5e1728]:
+                - term [ref=f5e1729]: posted on
+                - definition [ref=f5e1730]: Posted 2 Days Ago
+              - list [ref=f5e1731]:
+                - listitem [ref=f5e1732]: "593370"
+            - listitem [ref=f5e1733]:
+              - heading [level=3] [ref=f5e1737]:
+                - link [ref=f5e1738] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Canada---Remote-Based-Ontario-Canada---Canada----distance-Ontario-Canada/Sales--Clinical-Business-Manager---CT-and-DXR--Western-Canada-_571473?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Clinical Sales Specialist - CT and DXR (Western Canada)
+              - generic [ref=f5e1747]:
+                - term [ref=f5e1748]: locations
+                - definition [ref=f5e1749]: 2 Locations
+              - generic [ref=f5e1759]:
+                - term [ref=f5e1760]: posted on
+                - definition [ref=f5e1761]: Posted 2 Days Ago
+              - list [ref=f5e1762]:
+                - listitem [ref=f5e1763]: "571473"
+            - listitem [ref=f5e1764]:
+              - heading [level=3] [ref=f5e1768]:
+                - link [ref=f5e1769] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Toronto/Sales--Clinical-Business-Manager--Magnetic-Resonance-Imaging--Eastern-Canada--ON-QC-NB-NS-_585454-1?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Clinical Sales Specialist- Magnetic Resonance Imaging (ON/QC/Maritimes)
+              - generic [ref=f5e1778]:
+                - term [ref=f5e1779]: locations
+                - definition [ref=f5e1780]: 4 Locations
+              - generic [ref=f5e1790]:
+                - term [ref=f5e1791]: posted on
+                - definition [ref=f5e1792]: Posted 2 Days Ago
+              - list [ref=f5e1793]:
+                - listitem [ref=f5e1794]: "585454"
+            - listitem [ref=f5e1795]:
+              - heading [level=3] [ref=f5e1799]:
+                - link [ref=f5e1800] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Colorado-Springs-Colorado-United-States/Process-Quality-Engineer_589515?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Quality Engineer 1
+              - generic [ref=f5e1809]:
+                - term [ref=f5e1810]: locations
+                - definition [ref=f5e1811]: Colorado Springs, Colorado, United States
+              - generic [ref=f5e1821]:
+                - term [ref=f5e1822]: posted on
+                - definition [ref=f5e1823]: Posted 2 Days Ago
+              - list [ref=f5e1824]:
+                - listitem [ref=f5e1825]: "589515"
+            - listitem [ref=f5e1826]:
+              - heading [level=3] [ref=f5e1830]:
+                - link [ref=f5e1831] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Fairfax-Virginia-United-States/Sales--Territory-Business-Manager--Dental-Professionals--Chantilly--VA_592733?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Sales, Territory Business Manager, Dental Professionals (Northern VA)
+              - generic [ref=f5e1840]:
+                - term [ref=f5e1841]: locations
+                - definition [ref=f5e1842]: Fairfax, Virginia, United States
+              - generic [ref=f5e1852]:
+                - term [ref=f5e1853]: posted on
+                - definition [ref=f5e1854]: Posted 2 Days Ago
+              - list [ref=f5e1855]:
+                - listitem [ref=f5e1856]: "592733"
+            - listitem [ref=f5e1857]:
+              - heading [level=3] [ref=f5e1861]:
+                - link [ref=f5e1862] [cursor=pointer]:
+                  - /url: /en-US/jobs-and-careers/job/Bedford-Massachusetts-United-States/Production-Planner---Integrated-Planning--Bedford--MA-_593394?Job_Application_ID=dd18421b502590006abc5d3d9f8e0000
+                  - text: Production Planner - Integrated Planning (Bedford, MA)
+              - generic [ref=f5e1871]:
+                - term [ref=f5e1872]: locations
+                - definition [ref=f5e1873]: Bedford, Massachusetts, United States
+              - generic [ref=f5e1883]:
+                - term [ref=f5e1884]: posted on
+                - definition [ref=f5e1885]: Posted 2 Days Ago
+              - list [ref=f5e1886]:
+                - listitem [ref=f5e1887]: "593394"
+          - generic [ref=f5e1888]:
+            - navigation [ref=f5e1889]:
+              - generic [ref=f5e1890]:
+                - list [ref=f5e1892]:
+                  - listitem [ref=f5e1893]:
+                    - button [ref=f5e1894] [cursor=pointer]: "1"
+                  - listitem [ref=f5e1895]:
+                    - button [ref=f5e1896] [cursor=pointer]: "2"
+                  - listitem [ref=f5e1897]:
+                    - button [ref=f5e1898] [cursor=pointer]: "3"
+                  - listitem [ref=f5e1899]:
+                    - button [ref=f5e1900] [cursor=pointer]: "4"
+                  - listitem [ref=f5e1901]:
+                    - button [ref=f5e1902] [cursor=pointer]: "5"
+                - button [ref=f5e1903] [cursor=pointer]
+            - paragraph [ref=f5e1907]: 1 - 20 of 781 jobs
+        - generic [ref=f5e1910]:
+          - heading [level=3] [ref=f5e1911]: About Us
+          - generic [ref=f5e1914]:
+            - generic [aria-hidden] [ref=f5e1916]:
+              - paragraph [ref=f5e1917]: At Philips, we believe that every human matters. As a global health-tech leader, we focus on improving people’s health and wellbeing through meaningful innovation. The people who work here share our passion and are motivated to bring this purpose to life.
+              - paragraph [ref=f5e1918]
+              - paragraph [aria-hidden] [ref=f5e1919]: For more than 130 years, we have been creating technologies and innovations that improve people's lives and support healthcare practitioners. Headquartered in the Netherlands and operating in more than 100 countries globally, we focus our advanced technology and deep clinical and consumer insights on Precision Diagnosis, Image Guided Therapy, Enterprise Informatics, Monitoring/ Connected Care, Sleep & Respiratory Care and Personal Health.
+              - paragraph [aria-hidden] [ref=f5e1920]
+              - paragraph [aria-hidden] [ref=f5e1921]: Together, we deliver better care for more people because we believe that every human matters. That's why we're taking steps to create an environment where we acknowledge and embrace our differences and uniqueness and listen to and value each other's views. When people feel cared for and listened to, they bring their best qualities to work, leading to better collaboration, communication, innovation and success.
+              - paragraph [aria-hidden] [ref=f5e1922]: It is the policy of Philips to provide equal employment and advancement opportunities to all qualified employees and applicants for employment without regard to race, color, religion, sex, pregnancy/childbirth or related medical conditions, age, ethnic or national origin, sexual orientation, gender identity or expression, physical or mental disability, genetic information, citizenship status, veteran or military status, marital or domestic partner status or any other characteristic protected by law. As an equal opportunity employer, Philips is committed to fostering a culture where all are treated with respect and professionalism.
+              - paragraph [aria-hidden] [ref=f5e1923]
+              - paragraph [aria-hidden] [ref=f5e1924]: To ensure reasonable accommodations for individuals protected by Section 503 of the Rehabilitation Act of 1973, the Vietnam Veterans' Readjustment Act of 1974 and Title I of the Americans with Disabilities Act of 1990, applicants that require accommodation in the job application process may contact 888-367-7223, option 5, for assistance.
+              - paragraph [aria-hidden] [ref=f5e1925]
+              - paragraph [aria-hidden] [ref=f5e1926]: Philips is an Equal Employment and Opportunity Employer including Disability/Vets and maintains a drug-free workplace.
+              - paragraph [aria-hidden] [ref=f5e1927]
+              - paragraph [aria-hidden] [ref=f5e1928]:
+                - link [aria-hidden] [ref=f5e1929] [cursor=pointer]:
+                  - /url: https://www.careers.philips.com/na/en/know-your-rights
+                  - text: Know Your Rights
+              - paragraph [aria-hidden] [ref=f5e1930]
+            - generic [ref=f5e1931] [cursor=pointer]
+            - button [ref=f5e1933] [cursor=pointer]:
+              - generic [ref=f5e1934]: Read More
+    - generic [ref=f5e1938]:
+      - heading [level=4] [ref=f5e1939]: Follow Us
+      - list [ref=f5e1940]:
+        - listitem [ref=f5e1941] [cursor=pointer]:
+          - link [ref=f5e1942]:
+            - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+        - listitem [ref=f5e1947] [cursor=pointer]:
+          - link [ref=f5e1948]:
+            - /url: https://www.facebook.com/philips/
+        - listitem [ref=f5e1952] [cursor=pointer]:
+          - link [ref=f5e1953]:
+            - /url: https://www.youtube.com/user/Philips
+        - listitem [ref=f5e1959] [cursor=pointer]:
+          - link [ref=f5e1960]:
+            - /url: https://plus.google.com/+Philips
+        - listitem [ref=f5e1964] [cursor=pointer]:
+          - link [ref=f5e1965]:
+            - /url: https://www.linkedin.com/company/philips
+        - listitem [ref=f5e1969] [cursor=pointer]:
+          - link [ref=f5e1970]:
+            - /url: https://www.twitter.com/philips
+      - generic [ref=f5e1974]: © 2026 Workday, Inc. All rights reserved.
+  - dialog [ref=f5e2001]:
+    - button "Close" [active] [ref=f5e2002] [cursor=pointer]
+    - generic [ref=f5e2007]:
+      - generic [ref=f5e2010]:
+        - generic [ref=f5e2017]:
+          - heading "Congratulations!" [level=1] [ref=f5e2018]
+          - generic [ref=f5e2020]:
+            - paragraph [ref=f5e2021]: Thank you for applying to Philips!
+            - paragraph [ref=f5e2022]: You are one step closer to delivering meaningful health technology innovations with passionate, collaborative colleagues.
+            - paragraph [ref=f5e2023]
+            - paragraph [ref=f5e2024]:
+              - link "Click here" [ref=f5e2025] [cursor=pointer]:
+                - /url: https://www.careers.philips.com/global/en/recruitmentprocess
+              - text: to learn more about Philips recruitment process, including next steps.
+            - paragraph [ref=f5e2026]
+        - generic [ref=f5e2030]:
+          - paragraph [ref=f5e2031]: "Password Requirements:"
+          - list [ref=f5e2032]:
+            - listitem [ref=f5e2033]: A minimum of 8 characters
+            - listitem [ref=f5e2034]: A lowercase character
+            - listitem [ref=f5e2035]: An uppercase character
+            - listitem [ref=f5e2036]: A numeric character
+            - listitem [ref=f5e2037]: A maximum of 75 characters
+        - generic [ref=f5e2038]:
+          - generic [ref=f5e2039]:
+            - generic [ref=f5e2040]: Email Address*
+            - textbox "Email Address" [disabled] [ref=f5e2044]: krantichavan198@gmail.com
+          - generic [ref=f5e2046]:
+            - generic [ref=f5e2047]: Password*
+            - textbox "Password" [ref=f5e2051]
+          - generic [ref=f5e2052]:
+            - generic [ref=f5e2053]: Verify New Password*
+            - textbox "Verify New Password" [ref=f5e2057]
+          - generic [ref=f5e2062]:
+            - button "Submit" [ref=f5e2063] [cursor=pointer]
+            - button [aria-hidden] [ref=f5e2064] [cursor=pointer]: Create Account
+        - generic [ref=f5e2065]:
+          - text: Already have an account?
+          - button "Sign In" [ref=f5e2066] [cursor=pointer]
+        - button "Forgot your password?" [ref=f5e2068] [cursor=pointer]
+      - generic:
+        - generic:
+          - generic [ref=f5e2069]: Enter website. This input is for robots only, do not enter if you're human.
+          - textbox "Enter website. This input is for robots only, do not enter if you're human." [ref=f5e2070]

@@ -1,0 +1,606 @@
+- generic [ref=f14e2]:
+  - navigation [ref=f14e6]:
+    - generic [ref=f14e7]:
+      - link [ref=f14e8] [cursor=pointer]:
+        - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+        - img "Company Logo" [ref=f14e9]
+      - button "Toggle navigation" [ref=f14e10] [cursor=pointer]
+  - generic [ref=f14e20]:
+    - generic [ref=f14e21]:
+      - paragraph [ref=f14e23]: Digital Product Manager (m/f/d) Webshop & Digital Tools
+      - paragraph [ref=f14e25]: Die mit * gekennzeichneten Felder sind Pflichtfelder.
+      - generic [ref=f14e26]:
+        - paragraph [ref=f14e28]: Persönliche Daten
+        - generic [ref=f14e29]:
+          - generic [ref=f14e30]: Geschlecht
+          - generic:
+            - generic:
+              - generic:
+                - generic [ref=f14e33]:
+                  - radio "männlich" [ref=f14e34]
+                  - text: männlich
+                - generic [ref=f14e36]:
+                  - radio "weiblich" [checked] [ref=f14e37]
+                  - text: weiblich
+                - generic [ref=f14e39]:
+                  - radio "divers" [ref=f14e40]
+                  - text: divers
+        - generic [ref=f14e41]:
+          - generic [ref=f14e42]: Titel
+          - combobox "Titel" [ref=f14e46]:
+            - option [selected]
+            - option "Dr."
+            - option "Prof."
+            - option "Prof. Dr."
+            - option "Dr. Ing."
+        - generic [ref=f14e47]:
+          - generic [ref=f14e48]: Vorname*
+          - textbox "Vorname" [ref=f14e52]: Kranti
+        - generic [ref=f14e53]:
+          - generic [ref=f14e54]: Nachname*
+          - textbox "Nachname" [ref=f14e58]: Chavan
+        - generic [ref=f14e59]:
+          - generic [ref=f14e60]: Strasse und Hausnummer*
+          - textbox "Strasse und Hausnummer" [ref=f14e64]: Blücherstraße 6
+        - generic [ref=f14e65]:
+          - generic [ref=f14e66]: PLZ*
+          - textbox "PLZ" [ref=f14e70]: "76185"
+        - generic [ref=f14e71]:
+          - generic [ref=f14e72]: Ort*
+          - textbox "Ort" [ref=f14e76]: Karlsruhe
+        - generic [ref=f14e77]:
+          - generic [ref=f14e78]: Land*
+          - combobox "Land" [ref=f14e82]:
+            - option
+            - option "Deutschland" [selected]
+            - option "Afghanistan"
+            - option "Aland Inseln"
+            - option "Albanien"
+            - option "Algerien"
+            - option "Amerikanisch Samoa"
+            - option "Andorra"
+            - option "Angola"
+            - option "Anguilla"
+            - option "Antarktis"
+            - option "Antigua und Barbuda"
+            - option "Antillen"
+            - option "Äquatorial Guinea"
+            - option "Argentinien"
+            - option "Armenien"
+            - option "Aruba"
+            - option "Aserbaidschan"
+            - option "Äthiopien"
+            - option "Australien"
+            - option "Bahamas"
+            - option "Bahrain"
+            - option "Bangladesch"
+            - option "Barbados"
+            - option "Belarus"
+            - option "Belgien"
+            - option "Belize"
+            - option "Benin"
+            - option "Bermuda"
+            - option "Bhutan"
+            - option "Bolivia"
+            - option "Bosnien-Herzegowina"
+            - option "Botswana"
+            - option "Bouvet Island"
+            - option "Brasilien"
+            - option "Brunei"
+            - option "Bulgarien"
+            - option "Burkina Faso"
+            - option "Burundi"
+            - option "Chile"
+            - option "China"
+            - option "Cook Inseln"
+            - option "Costa Rica"
+            - option "Dänemark"
+            - option "Demokratische Republik Kongo"
+            - option "Dominica"
+            - option "Dominikanische Republik"
+            - option "Dschibuti"
+            - option "Ekuador"
+            - option "Elfenbeinküste"
+            - option "Eritrea"
+            - option "Estland"
+            - option "Falklandinseln"
+            - option "Färöer"
+            - option "Fidschi"
+            - option "Finnland"
+            - option "Frankreich"
+            - option "Französisch-Guayana"
+            - option "Französisch-Polynesien"
+            - option "Gabun"
+            - option "Gambia"
+            - option "Georgien"
+            - option "Ghana"
+            - option "Gibraltar"
+            - option "Grenada"
+            - option "Griechenland"
+            - option "Grönland"
+            - option "Großbritannien"
+            - option "Guadeloupe"
+            - option "Guam"
+            - option "Guatemala"
+            - option "Guernsey"
+            - option "Guinea"
+            - option "Guinea-Bissau"
+            - option "Guyana"
+            - option "Haiti"
+            - option "Heard und McDonaldinseln"
+            - option "Honduras"
+            - option "Hong Kong"
+            - option "Indien"
+            - option "Indonesia"
+            - option "Insel Mann"
+            - option "Irak"
+            - option "Iran"
+            - option "Irland"
+            - option "Island"
+            - option "Israel"
+            - option "Italien"
+            - option "Jamaika"
+            - option "Japan"
+            - option "Jemen"
+            - option "Jersey"
+            - option "Jordanien"
+            - option "Jungferninseln, Britisch"
+            - option "Jungferninseln, US"
+            - option "Kaimaninsel"
+            - option "Kambodscha"
+            - option "Kamerun"
+            - option "Kanada"
+            - option "Kap Verde"
+            - option "Kasachstan"
+            - option "Kenia"
+            - option "Kirgistan"
+            - option "Kiribati"
+            - option "Kokosinseln"
+            - option "Kolumbien"
+            - option "Komoren"
+            - option "Kongo"
+            - option "Korea, Rebublik (Südkorea)"
+            - option "Korea, Volksrepublik (Nordkorea)"
+            - option "Kroatien"
+            - option "Kuba"
+            - option "Kuwait"
+            - option "Laos"
+            - option "Lesotho"
+            - option "Lettland"
+            - option "Libanon"
+            - option "Liberia"
+            - option "Liechtenstein"
+            - option "Litauen"
+            - option "Luxemburg"
+            - option "Lybien"
+            - option "Macau"
+            - option "Madagaskar"
+            - option "Malawi"
+            - option "Malaysia"
+            - option "Malediven"
+            - option "Mali"
+            - option "Malta"
+            - option "Marokko"
+            - option "Marshall Inseln"
+            - option "Martinique"
+            - option "Mauretanien"
+            - option "Mauritius"
+            - option "Mayotte"
+            - option "Mazedonien"
+            - option "Mexiko"
+            - option "Mikronesien"
+            - option "Moldawien"
+            - option "Monaco"
+            - option "Mongolei"
+            - option "Montenegro"
+            - option "Montserrat"
+            - option "Mosambik"
+            - option "Myanmar"
+            - option "Namibia"
+            - option "Nauru"
+            - option "Nepal"
+            - option "Neukaledonien"
+            - option "Neuseeland"
+            - option "Niederlande"
+            - option "Niger"
+            - option "Nigeria"
+            - option "Nikaragua"
+            - option "Niue"
+            - option "Nördliche Marianen"
+            - option "Norfolkinsel"
+            - option "Norwegen"
+            - option "Oman"
+            - option "Österreich"
+            - option "Pakistan"
+            - option "Palästina"
+            - option "Palau"
+            - option "Panama"
+            - option "Papua-Neuguinea"
+            - option "Paraguay"
+            - option "Peru"
+            - option "Philippinen"
+            - option "Pitcairn"
+            - option "Polen"
+            - option "Portugal"
+            - option "Puerto Rico"
+            - option "Qatar"
+            - option "Reunion"
+            - option "Ruanda"
+            - option "Rumänien"
+            - option "Russland"
+            - option "Saint Barthelemy"
+            - option "Saint-Pierre und Miquelon"
+            - option "Salomonen"
+            - option "Sambia"
+            - option "Samoa"
+            - option "San Marino"
+            - option "Sao Tome und Principe"
+            - option "Saudi-Arabien"
+            - option "Schweden"
+            - option "Schweiz"
+            - option "Senegal"
+            - option "Seychellen"
+            - option "Simbabwe"
+            - option "Singapur"
+            - option "Slowakei"
+            - option "Slowenien"
+            - option "Somalia"
+            - option "Sonstige"
+            - option "Spanien"
+            - option "Sri Lanka"
+            - option "St. Helena"
+            - option "St. Kitts und Nevis"
+            - option "St. Lucia"
+            - option "St. Martin"
+            - option "St. Vincent und die Grenadinen"
+            - option "Südafrika"
+            - option "Sudan"
+            - option "Südgeorgien und die Südlichen Sandwichinseln"
+            - option "Surinam"
+            - option "SV"
+            - option "Svalbard und Jan Mayen"
+            - option "Swasiland"
+            - option "Syrien"
+            - option "Tadschikistan"
+            - option "Taiwan"
+            - option "Tansania"
+            - option "Thailand"
+            - option "Timor-Leste"
+            - option "Togo"
+            - option "Tokelau"
+            - option "Tonga"
+            - option "Trinidad und Tobago"
+            - option "Tschad"
+            - option "Tschechien"
+            - option "Tunesien"
+            - option "Türkei"
+            - option "Turkmenistan"
+            - option "Turk- und Ciacosinseln"
+            - option "Tuvalu"
+            - option "Uganda"
+            - option "Ukraine"
+            - option "Ungarn"
+            - option "Uruguay"
+            - option "USA"
+            - option "Usbekistan"
+            - option "Vanuatu"
+            - option "Vatikanstadt"
+            - option "Venezuela"
+            - option "Vereinigte Arabische Emirate"
+            - option "Vietnam"
+            - option "Wallis und Futuna"
+            - option "Weihnachtsinsel"
+            - option "Westsahara"
+            - option "Zentralafrikanische Republik"
+            - option "Zypern"
+        - generic [ref=f14e83]:
+          - generic [ref=f14e84]: Staatsangehörigkeit*
+          - combobox "Staatsangehörigkeit" [ref=f14e88]:
+            - option
+            - option "deutsch"
+            - option "afghanisch"
+            - option "ägyptisch"
+            - option "albanisch"
+            - option "algerisch"
+            - option "amerikanisch"
+            - option "angolanisch"
+            - option "antiguanisch"
+            - option "äquatorial guineisch"
+            - option "argentinisch"
+            - option "armenisch"
+            - option "aserbaidschanisch"
+            - option "äthiopisch"
+            - option "australisch"
+            - option "bahamaisch"
+            - option "bahrainisch"
+            - option "bangladeschisch"
+            - option "barbadisch"
+            - option "belarussisch"
+            - option "belgisch"
+            - option "belizisch"
+            - option "beninisch"
+            - option "bhutanisch"
+            - option "bosnisch-herzegowinisch"
+            - option "botswanisch"
+            - option "brasilianisch"
+            - option "britisch"
+            - option "britisch"
+            - option "bruneiisch"
+            - option "bulgarisch"
+            - option "burkinisch"
+            - option "burundisch"
+            - option "chilenisch"
+            - option "chinesisch"
+            - option "Cookinseln"
+            - option "costa-ricanisch"
+            - option "dänisch"
+            - option "der Vereinigten Arabischen Emirate"
+            - option "dominicanisch"
+            - option "dominikanisch"
+            - option "dschibutisch"
+            - option "ekuadorianisch"
+            - option "eritreisch"
+            - option "estnisch"
+            - option "fidschianisch"
+            - option "finnisch"
+            - option "finnisch"
+            - option "französisch"
+            - option "gabunisch"
+            - option "gambisch"
+            - option "georgisch"
+            - option "ghanaisch"
+            - option "grenadisch"
+            - option "griechisch"
+            - option "guatemaltekisch"
+            - option "guinea-bissauisch"
+            - option "guineisch"
+            - option "guyanisch"
+            - option "haitianisch"
+            - option "Heiliger Stuhl"
+            - option "honduranisch"
+            - option "indisch" [selected]
+            - option "indonesisch"
+            - option "irakisch"
+            - option "iranisch"
+            - option "irisch"
+            - option "isländisch"
+            - option "israelisch"
+            - option "italienisch"
+            - option "ivorisch"
+            - option "jamaikanisch"
+            - option "japanisch"
+            - option "jemenitisch"
+            - option "jordanisch"
+            - option "kambodschanisch"
+            - option "kamerunisch"
+            - option "kanadisch"
+            - option "kap-verdisch"
+            - option "kasachisch"
+            - option "kenianisch"
+            - option "kirgisisch"
+            - option "kiribatisch"
+            - option "kolumbianisch"
+            - option "komorisch"
+            - option "kongolesisch"
+            - option "koreanisch"
+            - option "koreanisch"
+            - option "kroatisch"
+            - option "kubanisch"
+            - option "kuwaitisch"
+            - option "laotisch"
+            - option "lesothisch"
+            - option "lettisch"
+            - option "libanesisch"
+            - option "liberianisch"
+            - option "liechtensteinisch"
+            - option "litauisch"
+            - option "lucianisch"
+            - option "luxemburgisch"
+            - option "lybisch"
+            - option "madagassisch"
+            - option "malawisch"
+            - option "malaysisch"
+            - option "maledivisch"
+            - option "malisch"
+            - option "maltesisch"
+            - option "marokkanisch"
+            - option "marshallisch"
+            - option "mauretanisch"
+            - option "mauritisch"
+            - option "mazedonisch"
+            - option "mexikanisch"
+            - option "mikronesisch"
+            - option "moldawisch"
+            - option "monegassisch"
+            - option "mongolisch"
+            - option "montenegrinisch"
+            - option "mosambikanisch"
+            - option "myanmarisch"
+            - option "namibisch"
+            - option "nauruisch"
+            - option "nepalesisch"
+            - option "neuseeländisch"
+            - option "nicaraguanisch"
+            - option "niederländisch"
+            - option "nigerianisch"
+            - option "nigrisch"
+            - option "niueanisch"
+            - option "norwegisch"
+            - option "omanisch"
+            - option "österreichisch"
+            - option "pakistanisch"
+            - option "palauisch"
+            - option "panamaisch"
+            - option "philippinisch"
+            - option "polnisch"
+            - option "portugiesisch"
+            - option "qatarisch"
+            - option "ruandisch"
+            - option "rumänisch"
+            - option "russisch"
+            - option "salomonisch"
+            - option "salvadorianisch"
+            - option "sambisch"
+            - option "samoanisch"
+            - option "samoanisch"
+            - option "san-marinesisch"
+            - option "sao-tomeisch"
+            - option "saudi-arabisch"
+            - option "schwedisch"
+            - option "schweizerisch"
+            - option "senegalesisch"
+            - option "serbisch"
+            - option "seychellisch"
+            - option "sierra-leonisch"
+            - option "simbabwisch"
+            - option "singapurisch"
+            - option "slowakisch"
+            - option "slowenisch"
+            - option "somalisch"
+            - option "sonstiges"
+            - option "spanisch"
+            - option "sri-lankisch"
+            - option "St. Kitts und Nevis"
+            - option "südafrikanisch"
+            - option "sudanesisch"
+            - option "surinamisch"
+            - option "swasiländisch"
+            - option "syrisch"
+            - option "tadschikisch"
+            - option "tansanisch"
+            - option "thailändisch"
+            - option "togoisch"
+            - option "tongaisch"
+            - option "tschadisch"
+            - option "tschechisch"
+            - option "tunesisch"
+            - option "türkisch"
+            - option "turkmenisch"
+            - option "tuvaluisch"
+            - option "ugandisch"
+            - option "ukrainisch"
+            - option "ungarisch"
+            - option "uruguayisch"
+            - option "usbekisch"
+            - option "vanuatuisch"
+            - option "venezolanisch"
+            - option "vietnamesisch"
+            - option "vincentisch"
+            - option "zentralafrikanisch"
+            - option "zyprisch"
+        - generic [ref=f14e89]:
+          - generic [ref=f14e90]: Geburtstag (TT.MM.JJJJ)
+          - textbox "Geburtstag (TT.MM.JJJJ)" [ref=f14e94]: 14.10.1997
+        - generic [ref=f14e95]:
+          - generic [ref=f14e96]: Telefonnummer
+          - textbox "Telefonnummer" [ref=f14e100]: +49 15750174177
+        - generic [ref=f14e101]:
+          - generic [ref=f14e102]: E-Mail*
+          - textbox "E-Mail" [ref=f14e106]: krantichavan198@gmail.com
+        - generic [ref=f14e107]:
+          - generic [ref=f14e108]: E-Mail (Wiederholung)*
+          - textbox "E-Mail (Wiederholung)" [ref=f14e112]: krantichavan198@gmail.com
+      - generic [ref=f14e113]:
+        - paragraph [ref=f14e115]: Bewerbungsdaten
+        - generic [ref=f14e116]:
+          - generic [ref=f14e117]: Entgeltvorstellung (brutto pro Jahr)
+          - textbox "Entgeltvorstellung (brutto pro Jahr)" [ref=f14e121]: "60000"
+        - generic [ref=f14e122]:
+          - generic [ref=f14e123]: Kündigungsfrist
+          - textbox "Kündigungsfrist" [ref=f14e127]: Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026
+        - generic [ref=f14e128]:
+          - generic [ref=f14e129]: Früh. Eintrittsdatum (TT.MM.JJJJ)
+          - textbox "Früh. Eintrittsdatum (TT.MM.JJJJ)" [ref=f14e133]: 16.12.2026
+        - generic [ref=f14e134]:
+          - generic [ref=f14e135]: Von Stelle erfahren durch*
+          - combobox "Von Stelle erfahren durch" [ref=f14e139]:
+            - option
+            - option "Homepage"
+            - option "Stepstone"
+            - option "Jobbörse der Agentur für Arbeit"
+            - option "Regio-Jobanzeiger"
+            - option "Empfehlung von Ensinger Mitarbeiter"
+            - option "Empfehlung von Freunden oder Bekannten"
+            - option "Print-Medien"
+            - option "Karrieremesse"
+            - option "Social Media" [selected]
+            - option "Intranet"
+            - option "Interner Aushang"
+        - generic [ref=f14e140]:
+          - generic [ref=f14e141]: Name des Mitarbeiters
+          - textbox "Name des Mitarbeiters" [ref=f14e145]
+        - generic [ref=f14e146]:
+          - generic [ref=f14e147]: Bereits Mitarbeiter bei Ensinger?*
+          - generic:
+            - generic:
+              - generic:
+                - generic [ref=f14e150]:
+                  - radio "Ja" [ref=f14e151]
+                  - text: Ja
+                - generic [ref=f14e153]:
+                  - radio "Nein" [checked] [ref=f14e154]
+                  - text: Nein
+        - generic [ref=f14e155]:
+          - generic [ref=f14e156]: Ihre Personalnummer
+          - textbox "Ihre Personalnummer" [ref=f14e160]
+      - generic [ref=f14e161]:
+        - paragraph [ref=f14e163]: Anhänge
+        - paragraph [ref=f14e165]:
+          - text: Hier können Sie Ihrer Bewerbung Dateien hinzufügen. Zulässig sind die Dateiformate PDF, JPG und PNG, die maximale Größe beträgt 15 MB. Wenn Sie unter 18 Jahre alt sind, fügen Sie bitte außerdem die
+          - link "HIER" [ref=f14e166] [cursor=pointer]:
+            - /url: /Dokumente/Einverstaendniserklaerung.pdf
+          - text: hinterlegte Einverständniserklärung ausgefüllt an.
+        - generic [ref=f14e167]:
+          - generic [ref=f14e168]: Foto
+          - generic [ref=f14e171]:
+            - generic [ref=f14e172]:
+              - button "Choose File" [ref=f14e173]
+              - button "Auswählen..." [ref=f14e174] [cursor=pointer]
+              - textbox "Foto" [ref=f14e175]
+            - button "Löschen" [ref=f14e176] [cursor=pointer]
+        - generic [ref=f14e177]:
+          - generic [ref=f14e178]: Unterlagen komplett oder Lebenslauf*
+          - generic [ref=f14e181]:
+            - generic [ref=f14e182]:
+              - button "Choose File" [active] [ref=f14e183] [cursor=pointer]
+              - button "Auswählen..." [ref=f14e184] [cursor=pointer]
+              - textbox "Unterlagen komplett oder Lebenslauf" [ref=f14e185]: Kranti_Chavan_Lebenslauf_Ensinger_Digital-Product-Manager-Webshop-Digital-Tools.pdf
+            - button "Löschen" [ref=f14e186] [cursor=pointer]
+        - generic [ref=f14e187]:
+          - generic [ref=f14e188]: Einwilligungserklärung (unter 18 Jahre)
+          - generic [ref=f14e191]:
+            - generic [ref=f14e192]:
+              - button "Choose File" [ref=f14e193]
+              - button "Auswählen..." [ref=f14e194] [cursor=pointer]
+              - textbox "Einwilligungserklärung (unter 18 Jahre)" [ref=f14e195]
+            - button "Löschen" [ref=f14e196] [cursor=pointer]
+        - generic [ref=f14e197]:
+          - combobox "[Kategorie wählen]" [ref=f14e200]:
+            - option "[Kategorie wählen]"
+            - option "Anschreiben" [selected]
+            - option "Sonstige Unterlagen"
+            - option "Zertifikat"
+            - option "Zeugnis"
+          - generic [ref=f14e202]:
+            - generic [ref=f14e203]:
+              - button "Choose File" [ref=f14e204]
+              - button "Auswählen..." [ref=f14e205] [cursor=pointer]
+              - textbox "Dynamische Anhänge" [ref=f14e206]
+            - button "Hinzufügen" [ref=f14e207] [cursor=pointer]
+    - button "Bewerbung absenden" [ref=f14e211] [cursor=pointer]
+    - generic [ref=f14e212]: Seite 2 von 2
+  - contentinfo [ref=f14e215]:
+    - paragraph [ref=f14e217]: © Ensinger
+    - list [ref=f14e219]:
+      - listitem [ref=f14e220]:
+        - link "Datenschutzerklärung" [ref=f14e221] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+      - listitem [ref=f14e222]:
+        - link "Impressum" [ref=f14e223] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/impressum
+      - listitem [ref=f14e224]:
+        - link "Allgemeine Geschäftsbedingungen" [ref=f14e225] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+      - listitem [ref=f14e226]:
+        - link "Cookie-Einstellungen" [ref=f14e227] [cursor=pointer]:
+          - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

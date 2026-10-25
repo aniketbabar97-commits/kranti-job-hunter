@@ -1,0 +1,124 @@
+- document [ref=f1e1]:
+  - generic [ref=f1e3]:
+    - main [ref=f1e4]:
+      - generic [ref=f1e6]:
+        - generic [ref=f1e8]:
+          - button "toggle menu" [ref=f1e10] [cursor=pointer]
+          - generic [ref=f1e12]:
+            - list [ref=f1e13]:
+              - listitem [ref=f1e14]:
+                - link "Go local" [ref=f1e15] [cursor=pointer]:
+                  - /url: en/sto-in-your-country.html
+              - listitem [ref=f1e16]:
+                - link "Contact" [ref=f1e17] [cursor=pointer]:
+                  - /url: en/contact.html
+            - list
+          - link [ref=f1e19] [cursor=pointer]:
+            - /url: /
+            - img "Sto Logo" [ref=f1e20]
+        - text:  
+      - article [ref=f1e21]:
+        - heading "404 - Error" [level=1] [ref=f1e24]
+        - article [ref=f1e27]:
+          - generic [ref=f1e29]:
+            - heading "This page could not be found!" [level=2] [ref=f1e30]
+            - paragraph [ref=f1e31]: You may have been directed to an incorrect or obsolete URL. Or we may have archived, moved, or renamed the page in question.
+            - paragraph [ref=f1e32]:
+              - text: You may be able to find the information you require via the home page.
+              - link "Go to home page" [ref=f1e33] [cursor=pointer]:
+                - /url: en/home/home.html
+          - figure [ref=f1e35]:
+            - img "26224_jpg" [ref=f1e37]
+      - generic [ref=f1e38]:
+        - text:         
+        - generic [ref=f1e41]:
+          - generic [ref=f1e42]: © 2025 Sto SE & Co. KGaA - All Rights Reserved.
+          - list [ref=f1e43]:
+            - listitem [ref=f1e44]:
+              - link "Contact" [ref=f1e45] [cursor=pointer]:
+                - /url: en/contact.html
+            - listitem [ref=f1e46]:
+              - link "Imprint" [ref=f1e47] [cursor=pointer]:
+                - /url: en/imprint.html
+            - listitem [ref=f1e48]:
+              - link "Data Protection" [ref=f1e49] [cursor=pointer]:
+                - /url: en/data-protection.html
+            - listitem [ref=f1e50]:
+              - link "Disclaimer" [ref=f1e51] [cursor=pointer]:
+                - /url: en/disclaimer.html
+            - listitem [ref=f1e52]:
+              - link "Investor Relations" [ref=f1e53] [cursor=pointer]:
+                - /url: https://www.sto.de/s/investor-relations
+            - listitem [ref=f1e54]:
+              - link "Whistleblower system" [ref=f1e55] [cursor=pointer]:
+                - /url: https://sto.whistleblowernetwork.net/
+            - listitem [ref=f1e56]:
+              - link "Data Privacy Settings" [ref=f1e57] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=f1e58] [cursor=pointer]: 
+    - generic [ref=f1e59]:
+      - banner [ref=f1e60]:
+        - link "Home" [ref=f1e61] [cursor=pointer]:
+          - /url: /
+        - text: 
+      - generic [ref=f1e63]:
+        - list [ref=f1e64]:
+          - listitem [ref=f1e65]:
+            - link " Products & Services" [ref=f1e66] [cursor=pointer]:
+              - /url: //www.sto.com/en/portfolio/portfolio.html
+            - text:      
+          - listitem [ref=f1e67]:
+            - link "Material Overview" [ref=f1e68] [cursor=pointer]:
+              - /url: https://ark.sto.com/en/material-overview
+          - listitem [ref=f1e69]:
+            - link "References" [ref=f1e70] [cursor=pointer]:
+              - /url: //www.sto.com/en/references/reference-list-map.html
+          - listitem [ref=f1e71]:
+            - link "Sustainability" [ref=f1e72] [cursor=pointer]:
+              - /url: //www.sto.com/en/sustainability/sustainability.html
+          - listitem [ref=f1e73]:
+            - link " About us" [ref=f1e74] [cursor=pointer]:
+              - /url: //www.sto.com/en/about-us/about-us.html
+          - listitem [ref=f1e75]:
+            - link "Go local" [ref=f1e76] [cursor=pointer]:
+              - /url: //www.sto.com/en/sto-in-your-country.html
+          - listitem [ref=f1e77]:
+            - link "Contact" [ref=f1e78] [cursor=pointer]:
+              - /url: //www.sto.com/en/contact.html
+        - text: 
+        - contentinfo [ref=f1e79]:
+          - generic [ref=f1e81]:
+            - paragraph [ref=f1e82]: Follow us
+            - generic [ref=f1e83]:
+              - link "" [ref=f1e84] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/sto-ag
+              - link "" [ref=f1e85] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/StoAGgermany/
+              - link "" [ref=f1e86] [cursor=pointer]:
+                - /url: https://www.pinterest.com/sto_global/_saved/
+    - generic [ref=f1e87]: RIGHT OFFCANVAS AREA
+  - complementary [active]:
+    - group "Consent Management Platform Interface":
+      - dialog [ref=f1e91]:
+        - generic [ref=f1e93]:
+          - combobox "Select language" [ref=f1e96] [cursor=pointer]:
+            - option "English" [selected]
+            - option "Deutsch"
+          - img "Sto Logo" [ref=f1e97]
+          - generic [ref=f1e98]:
+            - heading "Privacy Settings" [level=2] [ref=f1e99]
+            - generic: With the aim of optimising the use of our website, we use cookies and other online technologies to show personalised content, offer convenient functions, and perform analyses for measuring reach. By clicking “Accept All”, you give us permission to process your data in this way and to share your data with third-party providers (including those in third countries where applicable) in accordance with our privacy statement. You can decline cookies or amend the cookie settings at any time. Our privacy statement explains how we use your data and when we share it with others.
+          - navigation "Header including language selection and external links" [ref=f1e100]:
+            - link "Open Privacy Policy" [ref=f1e101] [cursor=pointer]:
+              - /url: https://www.sto.com/en/data-protection.html
+              - text: Privacy Policy
+            - link "Open Legal Notice" [ref=f1e102] [cursor=pointer]:
+              - /url: https://www.sto.com/en/imprint.html
+              - text: Legal Notice
+        - generic [ref=f1e103]:
+          - generic [ref=f1e105]:
+            - button "more" [ref=f1e106] [cursor=pointer]
+            - button "Deny" [ref=f1e107] [cursor=pointer]
+            - button "Accept All" [ref=f1e108] [cursor=pointer]
+          - link "Powered by Usercentrics Consent Management" [ref=f1e110] [cursor=pointer]:
+            - /url: https://usercentrics.com/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v3

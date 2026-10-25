@@ -1,0 +1,587 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link [ref=f8e4] [cursor=pointer]:
+        - /url: /default/?locale=en_US
+      - link "Job Search" [ref=f8e19] [cursor=pointer]:
+        - /url: https://jobs.dormakaba.com/search/
+      - generic [ref=f8e20]:
+        - button [ref=f8e21] [cursor=pointer]
+        - button "US" [ref=f8e26] [cursor=pointer]
+    - text: 
+    - main [ref=f8e49]:
+      - generic [ref=f8e87]:
+        - generic [ref=f8e89]:
+          - img "Image" [ref=f8e91]
+          - generic [ref=f8e94]:
+            - heading "Team Lead eCommerce Platforms & Configurators (m/w/d)" [level=1] [ref=f8e95]
+            - button "Have an account? Log in" [ref=f8e98] [cursor=pointer]
+        - generic [ref=f8e100]:
+          - generic [ref=f8e101]:
+            - heading "Your data" [level=3] [ref=f8e102]
+            - generic [ref=f8e103]:
+              - generic [ref=f8e105]:
+                - generic [ref=f8e106]:
+                  - generic [ref=f8e107]: Salutation*
+                  - button "Salutation*" [ref=f8e108] [cursor=pointer]:
+                    - generic [ref=f8e109]: Ms.
+                - generic:
+                  - list:
+                    - listitem [ref=f8e112] [cursor=pointer]: divers
+                    - listitem [ref=f8e113] [cursor=pointer]: I choose not to identify
+                    - listitem [ref=f8e114] [cursor=pointer]: Mr.
+                    - listitem [ref=f8e115] [cursor=pointer]: Ms.
+              - textbox "Title" [ref=f8e120]
+              - generic [ref=f8e123]:
+                - generic [ref=f8e124]:
+                  - text: First name
+                  - generic [ref=f8e125]: "*"
+                - textbox "First name *" [ref=f8e126]: Kranti
+              - generic [ref=f8e129]:
+                - generic [ref=f8e130]:
+                  - text: Last name
+                  - generic [ref=f8e131]: "*"
+                - textbox "Last name *" [ref=f8e132]: Chavan
+              - generic [ref=f8e134]:
+                - generic [ref=f8e135]:
+                  - generic [ref=f8e136]: Country*
+                  - button "Country*" [ref=f8e137] [cursor=pointer]:
+                    - generic [ref=f8e138]: Germany
+                - generic:
+                  - list:
+                    - listitem [ref=f8e141] [cursor=pointer]: Afghanistan
+                    - listitem [ref=f8e142] [cursor=pointer]: Åland Islands
+                    - listitem [ref=f8e143] [cursor=pointer]: Albania
+                    - listitem [ref=f8e144] [cursor=pointer]: Algeria
+                    - listitem [ref=f8e145] [cursor=pointer]: American Samoa
+                    - listitem [ref=f8e146] [cursor=pointer]: Andorra
+                    - listitem [ref=f8e147] [cursor=pointer]: Angola
+                    - listitem [ref=f8e148] [cursor=pointer]: Anguilla
+                    - listitem [ref=f8e149] [cursor=pointer]: Antarctica
+                    - listitem [ref=f8e150] [cursor=pointer]: Antigua and Barbuda
+                    - listitem [ref=f8e151] [cursor=pointer]: Argentina
+                    - listitem [ref=f8e152] [cursor=pointer]: Armenia
+                    - listitem [ref=f8e153] [cursor=pointer]: Aruba
+                    - listitem [ref=f8e154] [cursor=pointer]: Australia
+                    - listitem [ref=f8e155] [cursor=pointer]: Austria
+                    - listitem [ref=f8e156] [cursor=pointer]: Azerbaijan
+                    - listitem [ref=f8e157] [cursor=pointer]: Bahamas
+                    - listitem [ref=f8e158] [cursor=pointer]: Bahrain
+                    - listitem [ref=f8e159] [cursor=pointer]: Bangladesh
+                    - listitem [ref=f8e160] [cursor=pointer]: Barbados
+                    - listitem [ref=f8e161] [cursor=pointer]: Belarus
+                    - listitem [ref=f8e162] [cursor=pointer]: Belgium
+                    - listitem [ref=f8e163] [cursor=pointer]: Belize
+                    - listitem [ref=f8e164] [cursor=pointer]: Benin
+                    - listitem [ref=f8e165] [cursor=pointer]: Bermuda
+                    - listitem [ref=f8e166] [cursor=pointer]: Bhutan
+                    - listitem [ref=f8e167] [cursor=pointer]: Bolivia, Plurinational State of
+                    - listitem [ref=f8e168] [cursor=pointer]: Bosnia and Herzegovina
+                    - listitem [ref=f8e169] [cursor=pointer]: Botswana
+                    - listitem [ref=f8e170] [cursor=pointer]: Bouvet Island
+                    - listitem [ref=f8e171] [cursor=pointer]: Brazil
+                    - listitem [ref=f8e172] [cursor=pointer]: British Indian Ocean Territory
+                    - listitem [ref=f8e173] [cursor=pointer]: Brunei Darussalam
+                    - listitem [ref=f8e174] [cursor=pointer]: Bulgaria
+                    - listitem [ref=f8e175] [cursor=pointer]: Burkina Faso
+                    - listitem [ref=f8e176] [cursor=pointer]: Burundi
+                    - listitem [ref=f8e177] [cursor=pointer]: Cambodia
+                    - listitem [ref=f8e178] [cursor=pointer]: Cameroon
+                    - listitem [ref=f8e179] [cursor=pointer]: Canada
+                    - listitem [ref=f8e180] [cursor=pointer]: Cape Verde
+                    - listitem [ref=f8e181] [cursor=pointer]: Cayman Islands
+                    - listitem [ref=f8e182] [cursor=pointer]: Central African Republic
+                    - listitem [ref=f8e183] [cursor=pointer]: Chad
+                    - listitem [ref=f8e184] [cursor=pointer]: Chile
+                    - listitem [ref=f8e185] [cursor=pointer]: China
+                    - listitem [ref=f8e186] [cursor=pointer]: Christmas Island
+                    - listitem [ref=f8e187] [cursor=pointer]: Cocos (Keeling) Islands
+                    - listitem [ref=f8e188] [cursor=pointer]: Colombia
+                    - listitem [ref=f8e189] [cursor=pointer]: Comoros
+                    - listitem [ref=f8e190] [cursor=pointer]: Congo
+                    - listitem [ref=f8e191] [cursor=pointer]: Congo, the Democratic Republic of the
+                    - listitem [ref=f8e192] [cursor=pointer]: Cook Islands
+                    - listitem [ref=f8e193] [cursor=pointer]: Costa Rica
+                    - listitem [ref=f8e194] [cursor=pointer]: Côte d’Ivoire
+                    - listitem [ref=f8e195] [cursor=pointer]: Croatia
+                    - listitem [ref=f8e196] [cursor=pointer]: Cuba
+                    - listitem [ref=f8e197] [cursor=pointer]: Curacao
+                    - listitem [ref=f8e198] [cursor=pointer]: Cyprus
+                    - listitem [ref=f8e199] [cursor=pointer]: Czech Republic
+                    - listitem [ref=f8e200] [cursor=pointer]: Denmark
+                    - listitem [ref=f8e201] [cursor=pointer]: Djibouti
+                    - listitem [ref=f8e202] [cursor=pointer]: Dominica
+                    - listitem [ref=f8e203] [cursor=pointer]: Dominican Republic
+                    - listitem [ref=f8e204] [cursor=pointer]: Ecuador
+                    - listitem [ref=f8e205] [cursor=pointer]: Egypt
+                    - listitem [ref=f8e206] [cursor=pointer]: El Salvador
+                    - listitem [ref=f8e207] [cursor=pointer]: Equatorial Guinea
+                    - listitem [ref=f8e208] [cursor=pointer]: Eritrea
+                    - listitem [ref=f8e209] [cursor=pointer]: Estonia
+                    - listitem [ref=f8e210] [cursor=pointer]: Eswatini
+                    - listitem [ref=f8e211] [cursor=pointer]: Ethiopia
+                    - listitem [ref=f8e212] [cursor=pointer]: Falkland Islands (Malvinas)
+                    - listitem [ref=f8e213] [cursor=pointer]: Faroe Islands
+                    - listitem [ref=f8e214] [cursor=pointer]: Fiji
+                    - listitem [ref=f8e215] [cursor=pointer]: Finland
+                    - listitem [ref=f8e216] [cursor=pointer]: France
+                    - listitem [ref=f8e217] [cursor=pointer]: French Guiana
+                    - listitem [ref=f8e218] [cursor=pointer]: French Polynesia
+                    - listitem [ref=f8e219] [cursor=pointer]: French Southern Territories
+                    - listitem [ref=f8e220] [cursor=pointer]: Gabon
+                    - listitem [ref=f8e221] [cursor=pointer]: Gambia
+                    - listitem [ref=f8e222] [cursor=pointer]: Georgia
+                    - listitem [ref=f8e223] [cursor=pointer]: Germany
+                    - listitem [ref=f8e224] [cursor=pointer]: Ghana
+                    - listitem [ref=f8e225] [cursor=pointer]: Gibraltar
+                    - listitem [ref=f8e226] [cursor=pointer]: Greece
+                    - listitem [ref=f8e227] [cursor=pointer]: Greenland
+                    - listitem [ref=f8e228] [cursor=pointer]: Grenada
+                    - listitem [ref=f8e229] [cursor=pointer]: Guadeloupe
+                    - listitem [ref=f8e230] [cursor=pointer]: Guam
+                    - listitem [ref=f8e231] [cursor=pointer]: Guatemala
+                    - listitem [ref=f8e232] [cursor=pointer]: Guernsey
+                    - listitem [ref=f8e233] [cursor=pointer]: Guinea
+                    - listitem [ref=f8e234] [cursor=pointer]: Guinea-Bissau
+                    - listitem [ref=f8e235] [cursor=pointer]: Guyana
+                    - listitem [ref=f8e236] [cursor=pointer]: Haiti
+                    - listitem [ref=f8e237] [cursor=pointer]: Heard Island and McDonald Islands
+                    - listitem [ref=f8e238] [cursor=pointer]: Holy See (Vatican City State)
+                    - listitem [ref=f8e239] [cursor=pointer]: Honduras
+                    - listitem [ref=f8e240] [cursor=pointer]: Hong Kong SAR of China
+                    - listitem [ref=f8e241] [cursor=pointer]: Hungary
+                    - listitem [ref=f8e242] [cursor=pointer]: Iceland
+                    - listitem [ref=f8e243] [cursor=pointer]: India
+                    - listitem [ref=f8e244] [cursor=pointer]: Indonesia
+                    - listitem [ref=f8e245] [cursor=pointer]: Iran, Islamic Republic of
+                    - listitem [ref=f8e246] [cursor=pointer]: Iraq
+                    - listitem [ref=f8e247] [cursor=pointer]: Ireland
+                    - listitem [ref=f8e248] [cursor=pointer]: Isle of Man
+                    - listitem [ref=f8e249] [cursor=pointer]: Israel
+                    - listitem [ref=f8e250] [cursor=pointer]: Italy
+                    - listitem [ref=f8e251] [cursor=pointer]: Jamaica
+                    - listitem [ref=f8e252] [cursor=pointer]: Japan
+                    - listitem [ref=f8e253] [cursor=pointer]: Jersey
+                    - listitem [ref=f8e254] [cursor=pointer]: Jordan
+                    - listitem [ref=f8e255] [cursor=pointer]: Kazakhstan
+                    - listitem [ref=f8e256] [cursor=pointer]: Kenya
+                    - listitem [ref=f8e257] [cursor=pointer]: Kiribati
+                    - listitem [ref=f8e258] [cursor=pointer]: Korea, Democratic People's Republic of
+                    - listitem [ref=f8e259] [cursor=pointer]: Korea, Republic of
+                    - listitem [ref=f8e260] [cursor=pointer]: Kosovo
+                    - listitem [ref=f8e261] [cursor=pointer]: Kuwait
+                    - listitem [ref=f8e262] [cursor=pointer]: Kyrgyzstan
+                    - listitem [ref=f8e263] [cursor=pointer]: Lao People's Democratic Republic
+                    - listitem [ref=f8e264] [cursor=pointer]: Latvia
+                    - listitem [ref=f8e265] [cursor=pointer]: Lebanon
+                    - listitem [ref=f8e266] [cursor=pointer]: Lesotho
+                    - listitem [ref=f8e267] [cursor=pointer]: Liberia
+                    - listitem [ref=f8e268] [cursor=pointer]: Libyan Arab Jamahiriya
+                    - listitem [ref=f8e269] [cursor=pointer]: Liechtenstein
+                    - listitem [ref=f8e270] [cursor=pointer]: Lithuania
+                    - listitem [ref=f8e271] [cursor=pointer]: Luxembourg
+                    - listitem [ref=f8e272] [cursor=pointer]: Macau SAR of China
+                    - listitem [ref=f8e273] [cursor=pointer]: Macedonia, the former Yugoslav Republic of
+                    - listitem [ref=f8e274] [cursor=pointer]: Madagascar
+                    - listitem [ref=f8e275] [cursor=pointer]: Malawi
+                    - listitem [ref=f8e276] [cursor=pointer]: Malaysia
+                    - listitem [ref=f8e277] [cursor=pointer]: Maldives
+                    - listitem [ref=f8e278] [cursor=pointer]: Mali
+                    - listitem [ref=f8e279] [cursor=pointer]: Malta
+                    - listitem [ref=f8e280] [cursor=pointer]: Marshall Islands
+                    - listitem [ref=f8e281] [cursor=pointer]: Martinique
+                    - listitem [ref=f8e282] [cursor=pointer]: Mauritania
+                    - listitem [ref=f8e283] [cursor=pointer]: Mauritius
+                    - listitem [ref=f8e284] [cursor=pointer]: Mayotte
+                    - listitem [ref=f8e285] [cursor=pointer]: Mexico
+                    - listitem [ref=f8e286] [cursor=pointer]: Micronesia, Federated States of
+                    - listitem [ref=f8e287] [cursor=pointer]: Moldova, Republic of
+                    - listitem [ref=f8e288] [cursor=pointer]: Monaco
+                    - listitem [ref=f8e289] [cursor=pointer]: Mongolia
+                    - listitem [ref=f8e290] [cursor=pointer]: Montenegro
+                    - listitem [ref=f8e291] [cursor=pointer]: Montserrat
+                    - listitem [ref=f8e292] [cursor=pointer]: Morocco
+                    - listitem [ref=f8e293] [cursor=pointer]: Mozambique
+                    - listitem [ref=f8e294] [cursor=pointer]: Myanmar
+                    - listitem [ref=f8e295] [cursor=pointer]: Namibia
+                    - listitem [ref=f8e296] [cursor=pointer]: Nauru
+                    - listitem [ref=f8e297] [cursor=pointer]: Nepal
+                    - listitem [ref=f8e298] [cursor=pointer]: Netherlands
+                    - listitem [ref=f8e299] [cursor=pointer]: Netherlands Antilles
+                    - listitem [ref=f8e300] [cursor=pointer]: New Caledonia
+                    - listitem [ref=f8e301] [cursor=pointer]: New Zealand
+                    - listitem [ref=f8e302] [cursor=pointer]: Nicaragua
+                    - listitem [ref=f8e303] [cursor=pointer]: Niger
+                    - listitem [ref=f8e304] [cursor=pointer]: Nigeria
+                    - listitem [ref=f8e305] [cursor=pointer]: Niue
+                    - listitem [ref=f8e306] [cursor=pointer]: Norfolk Island
+                    - listitem [ref=f8e307] [cursor=pointer]: Northern Mariana Islands
+                    - listitem [ref=f8e308] [cursor=pointer]: Norway
+                    - listitem [ref=f8e309] [cursor=pointer]: Oman
+                    - listitem [ref=f8e310] [cursor=pointer]: Pakistan
+                    - listitem [ref=f8e311] [cursor=pointer]: Palau
+                    - listitem [ref=f8e312] [cursor=pointer]: Palestinian Territory, Occupied
+                    - listitem [ref=f8e313] [cursor=pointer]: Panama
+                    - listitem [ref=f8e314] [cursor=pointer]: Papua New Guinea
+                    - listitem [ref=f8e315] [cursor=pointer]: Paraguay
+                    - listitem [ref=f8e316] [cursor=pointer]: Peru
+                    - listitem [ref=f8e317] [cursor=pointer]: Philippines
+                    - listitem [ref=f8e318] [cursor=pointer]: Pitcairn
+                    - listitem [ref=f8e319] [cursor=pointer]: Poland
+                    - listitem [ref=f8e320] [cursor=pointer]: Portugal
+                    - listitem [ref=f8e321] [cursor=pointer]: Puerto Rico
+                    - listitem [ref=f8e322] [cursor=pointer]: Qatar
+                    - listitem [ref=f8e323] [cursor=pointer]: Réunion
+                    - listitem [ref=f8e324] [cursor=pointer]: Romania
+                    - listitem [ref=f8e325] [cursor=pointer]: Russian Federation
+                    - listitem [ref=f8e326] [cursor=pointer]: Rwanda
+                    - listitem [ref=f8e327] [cursor=pointer]: Saint Helena, Ascension and Tristan da Cunha
+                    - listitem [ref=f8e328] [cursor=pointer]: Saint Kitts and Nevis
+                    - listitem [ref=f8e329] [cursor=pointer]: Saint Lucia
+                    - listitem [ref=f8e330] [cursor=pointer]: Saint Martin (French part)
+                    - listitem [ref=f8e331] [cursor=pointer]: Saint Pierre and Miquelon
+                    - listitem [ref=f8e332] [cursor=pointer]: Saint Vincent and the Grenadines
+                    - listitem [ref=f8e333] [cursor=pointer]: Saint-Barthélemy
+                    - listitem [ref=f8e334] [cursor=pointer]: Samoa
+                    - listitem [ref=f8e335] [cursor=pointer]: San Marino
+                    - listitem [ref=f8e336] [cursor=pointer]: Sao Tome and Principe
+                    - listitem [ref=f8e337] [cursor=pointer]: Saudi Arabia
+                    - listitem [ref=f8e338] [cursor=pointer]: Senegal
+                    - listitem [ref=f8e339] [cursor=pointer]: Serbia
+                    - listitem [ref=f8e340] [cursor=pointer]: Seychelles
+                    - listitem [ref=f8e341] [cursor=pointer]: Sierra Leone
+                    - listitem [ref=f8e342] [cursor=pointer]: Singapore
+                    - listitem [ref=f8e343] [cursor=pointer]: Slovakia
+                    - listitem [ref=f8e344] [cursor=pointer]: Slovenia
+                    - listitem [ref=f8e345] [cursor=pointer]: Solomon Islands
+                    - listitem [ref=f8e346] [cursor=pointer]: Somalia
+                    - listitem [ref=f8e347] [cursor=pointer]: South Africa
+                    - listitem [ref=f8e348] [cursor=pointer]: South Georgia and the South Sandwich Islands
+                    - listitem [ref=f8e349] [cursor=pointer]: South Sudan
+                    - listitem [ref=f8e350] [cursor=pointer]: Spain
+                    - listitem [ref=f8e351] [cursor=pointer]: Sri Lanka
+                    - listitem [ref=f8e352] [cursor=pointer]: Sudan
+                    - listitem [ref=f8e353] [cursor=pointer]: Suriname
+                    - listitem [ref=f8e354] [cursor=pointer]: Svalbard and Jan Mayen
+                    - listitem [ref=f8e355] [cursor=pointer]: Sweden
+                    - listitem [ref=f8e356] [cursor=pointer]: Switzerland
+                    - listitem [ref=f8e357] [cursor=pointer]: Syrian Arab Republic
+                    - listitem [ref=f8e358] [cursor=pointer]: Taiwan (Region)
+                    - listitem [ref=f8e359] [cursor=pointer]: Tajikistan
+                    - listitem [ref=f8e360] [cursor=pointer]: Tanzania, United Republic of
+                    - listitem [ref=f8e361] [cursor=pointer]: Thailand
+                    - listitem [ref=f8e362] [cursor=pointer]: Timor-Leste
+                    - listitem [ref=f8e363] [cursor=pointer]: Togo
+                    - listitem [ref=f8e364] [cursor=pointer]: Tokelau
+                    - listitem [ref=f8e365] [cursor=pointer]: Tonga
+                    - listitem [ref=f8e366] [cursor=pointer]: Trinidad and Tobago
+                    - listitem [ref=f8e367] [cursor=pointer]: Tunisia
+                    - listitem [ref=f8e368] [cursor=pointer]: TÜRKIYE
+                    - listitem [ref=f8e369] [cursor=pointer]: Turkmenistan
+                    - listitem [ref=f8e370] [cursor=pointer]: Turks and Caicos Islands
+                    - listitem [ref=f8e371] [cursor=pointer]: Tuvalu
+                    - listitem [ref=f8e372] [cursor=pointer]: Uganda
+                    - listitem [ref=f8e373] [cursor=pointer]: Ukraine
+                    - listitem [ref=f8e374] [cursor=pointer]: United Arab Emirates
+                    - listitem [ref=f8e375] [cursor=pointer]: United Kingdom
+                    - listitem [ref=f8e376] [cursor=pointer]: United States
+                    - listitem [ref=f8e377] [cursor=pointer]: United States Minor Outlying Islands
+                    - listitem [ref=f8e378] [cursor=pointer]: Uruguay
+                    - listitem [ref=f8e379] [cursor=pointer]: Uzbekistan
+                    - listitem [ref=f8e380] [cursor=pointer]: Vanuatu
+                    - listitem [ref=f8e381] [cursor=pointer]: Venezuela, Bolivarian Republic of
+                    - listitem [ref=f8e382] [cursor=pointer]: Viet Nam
+                    - listitem [ref=f8e383] [cursor=pointer]: Virgin Islands, British
+                    - listitem [ref=f8e384] [cursor=pointer]: Virgin Islands, U.S.
+                    - listitem [ref=f8e385] [cursor=pointer]: Wallis and Futuna
+                    - listitem [ref=f8e386] [cursor=pointer]: Western Sahara
+                    - listitem [ref=f8e387] [cursor=pointer]: Yemen
+                    - listitem [ref=f8e388] [cursor=pointer]: Zambia
+                    - listitem [ref=f8e389] [cursor=pointer]: Zimbabwe
+              - textbox "Federal state" [ref=f8e394]: Baden-Württemberg
+              - textbox "Address" [ref=f8e399]: Blücherstraße 6
+              - textbox "Postal code" [ref=f8e404]: "76185"
+              - generic [ref=f8e407]:
+                - generic [ref=f8e408]:
+                  - text: City
+                  - generic [ref=f8e409]: "*"
+                - textbox "City *" [ref=f8e410]: Karlsruhe
+              - generic [ref=f8e413]:
+                - generic [ref=f8e414]:
+                  - text: E-mail
+                  - generic [ref=f8e415]: "*"
+                - textbox "E-mail *" [ref=f8e416]: krantichavan198@gmail.com
+              - textbox "Phone number" [ref=f8e421]: +49 15750174177
+              - textbox "Online profile (e.g. LinkedIn)" [ref=f8e426]: https://www.linkedin.com/in/kranti-chavan-84a155191
+              - generic "Additional information" [ref=f8e430]:
+                - textbox [ref=f8e433]
+          - generic [ref=f8e434]:
+            - heading "Additional information" [level=3] [ref=f8e435]
+            - generic [ref=f8e436]:
+              - generic [ref=f8e437]:
+                - generic [ref=f8e439]:
+                  - generic [ref=f8e440]:
+                    - generic [ref=f8e441]: Are you currently employed by us?
+                    - button "Are you currently employed by us?" [ref=f8e442] [cursor=pointer]:
+                      - generic [ref=f8e443]: "No"
+                  - generic:
+                    - list:
+                      - listitem [ref=f8e446] [cursor=pointer]: "No"
+                      - listitem [ref=f8e447] [cursor=pointer]: "Yes"
+                - textbox "Earliest possible start date:" [ref=f8e452]: 2026-12-16
+              - generic [ref=f8e453]:
+                - generic [ref=f8e455]:
+                  - generic [ref=f8e456]:
+                    - generic [ref=f8e457]: Have you been referred by an employee?
+                    - button "Have you been referred by an employee?" [ref=f8e458] [cursor=pointer]:
+                      - generic [ref=f8e459]: "No"
+                  - generic:
+                    - list:
+                      - listitem [ref=f8e462] [cursor=pointer]: "No"
+                      - listitem [ref=f8e463] [cursor=pointer]: "Yes"
+                - textbox "If yes, please provide the name of the employee" [ref=f8e468]
+          - generic [ref=f8e469]:
+            - heading "Your documents" [level=3] [ref=f8e470]
+            - generic [ref=f8e472]:
+              - paragraph [ref=f8e473]: "Please upload your application documents such as your CV. Additional documents, such as cover letter, certificates or references, are welcome and help us gain a better understanding of your skills and experience. Accepted file types: DOCX, PDF, Image, and Text (MSG, PPT and XLS file types are not accepted for resume or cover letters)"
+              - generic [ref=f8e477]:
+                - generic [ref=f8e478]:
+                  - text: Resume
+                  - generic [ref=f8e479]: "*"
+                - button "Upload" [ref=f8e483] [cursor=pointer]
+              - generic [ref=f8e487]:
+                - generic [ref=f8e488]: Additional documents
+                - button "Upload" [ref=f8e492] [cursor=pointer]
+          - generic [ref=f8e493]:
+            - heading "Additional information" [level=3] [ref=f8e494]
+            - group "My data can be used:*" [ref=f8e499]:
+              - generic [ref=f8e501]:
+                - radio "to also consider me for other open positions (I consent that my personal data may be processed for this purpose as described in more details in the Data Privacy Statement)." [checked]
+                - generic [ref=f8e503]: to also consider me for other open positions (I consent that my personal data may be processed for this purpose as described in more details in the Data Privacy Statement).
+              - generic [ref=f8e504]:
+                - radio "to only consider me for the positions I have applied for."
+                - generic [ref=f8e506]: to only consider me for the positions I have applied for.
+          - generic [ref=f8e507]:
+            - heading "Data protection" [level=3] [ref=f8e508]
+            - button "Read and accept the data privacy statement.**" [ref=f8e511] [cursor=pointer]:
+              - generic [ref=f8e515]:
+                - checkbox "Read and accept the data privacy statement.**"
+                - generic [ref=f8e517]: Read and accept the data privacy statement.**
+          - button "Apply now" [ref=f8e520] [cursor=pointer]
+    - generic [ref=f8e50]:
+      - generic [ref=f8e53]:
+        - generic [ref=f8e54]:
+          - generic [ref=f8e55]:
+            - textbox "Search" [ref=f8e56]
+            - button [ref=f8e57] [cursor=pointer]
+          - generic [ref=f8e61]:
+            - link "News" [ref=f8e62] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Blog" [ref=f8e63] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Events" [ref=f8e64] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Webinars" [ref=f8e65] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+        - generic [ref=f8e66]:
+          - heading "Contact" [level=5] [ref=f8e67]
+          - generic [ref=f8e68]:
+            - link "Contact" [ref=f8e69] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Support" [ref=f8e70] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Documentation" [ref=f8e71] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+      - generic [ref=f8e74]:
+        - generic [ref=f8e75]:
+          - link "Contact" [ref=f8e76] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/contact
+          - link "Disclaimer" [ref=f8e77] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/disclaimer
+          - link "Privacy Policy" [ref=f8e78] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/privacy-policy
+          - link "Imprint" [ref=f8e79] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/imprint
+          - link "FAQ" [ref=f8e80] [cursor=pointer]:
+            - /url: https://jobs.dormakaba.com/content/FAQ/?locale=en_US
+          - button "Cookies" [ref=f8e81] [cursor=pointer]
+        - generic [ref=f8e82]: © dormakaba Holding, 2019, all rights reserved
+  - generic: Cookies Settings
+  - dialog [ref=f8e536]:
+    - generic:
+      - button [ref=f8e538] [cursor=pointer]
+      - generic [ref=f8e541]:
+        - heading "Privacy policy" [level=3] [ref=f8e542]
+        - paragraph [ref=f8e543]:
+          - generic [ref=f8e544]:
+            - generic [ref=f8e546]:
+              - paragraph [ref=f8e547]
+              - paragraph [ref=f8e548]
+              - paragraph [ref=f8e549]:
+                - generic [ref=f8e550]: Data Protection Information for Applicants (m/f/d)*
+              - paragraph [ref=f8e551]:
+                - text: Version 4 from 01.07.2024 Dear Sir or Madam, At the dormakaba Group, we take the protection of your personal data very seriously and always process your personal data in accordance with the legal data protection regulations. In accordance with Articles 13, 14, and 21 of the EU General Data Protection Regulation (EU-GDPR), we would like to give you, regardless of whether you are an applicant or already an employee, an overview of the processing of your personal data by us and your related rights. The term employee in this context also includes trainees, company pensioners, interns, graduates, working students, holiday helpers, and temporary workers or agency workers.
+                - generic [ref=f8e552]: A. Controller and Data Protection Officer
+              - paragraph [ref=f8e553]:
+                - generic [ref=f8e554]: a. The controller responsible for processing your personal data is
+                - text: "dormakaba International Holding GmbH DORMA Platz 1 58256 Ennepetal Germany Phone: +49 2333 793 0 E-Mail: info.de@dormakaba.com"
+              - paragraph [ref=f8e555]:
+                - generic [ref=f8e556]: b. You can reach our Data Protection Officer at
+                - text: "dormakaba International Holding GmbH Attn. Data Protection Officer DORMA Platz 1 58256 Ennepetal Germany E-Mail: data.protection@dormakaba.com"
+              - paragraph [ref=f8e557]:
+                - text: Depending on any employment relationship established with another dormakaba company other than the one mentioned above, the responsibility for processing your personal data may change. Detailed information can be found in the appendix "Controllers and Data Protection Officers". Please also refer to the appendix "Controllers and Data Protection Officers" for the respective responsible Data Protection Officer.
+                - generic [ref=f8e558]: B. How do we collect your personal data?
+                - text: "We collect your data in the context of an application process in various ways: - Online application via our applicant management system, where we may collect the following:"
+              - paragraph [ref=f8e559]: Your private contact details, e.g. name, telephone number, address, email address, proof of employment in the form of a CV and cover letter or by manually
+              - paragraph [ref=f8e560]: entering your experience and skills into the system qualifications, either by entering them into the system or by uploading certificates, diplomas
+              - paragraph [ref=f8e561]: etc. Further documents may be requested during the recruitment process if they are required for the
+              - paragraph [ref=f8e562]: The position (e.g. driving license, etc.)
+            - generic [ref=f8e564]:
+              - paragraph [ref=f8e565]
+              - paragraph [ref=f8e566]
+              - paragraph [ref=f8e567]
+              - paragraph [ref=f8e568]:
+                - text: "- Recruitment agency / Headhunter: If we commission an external recruiter, your application data will be transmitted to us by them - Paper or email application: If you choose to send us your data by email or in paper form"
+                - generic [ref=f8e569]: Visibility of your data within the organization
+                - text: "If you apply online, you have the option to make your data available:"
+              - paragraph [ref=f8e570]: 1. "to also be considered for other open positions (I consent to my personal data being processed for this purpose as described in more detail in the privacy policy)." In this case, all authorized recruiters within the dormakaba Group worldwide may come across your data during a search. In this case, you will be informed about a suitable job offer and asked to apply if interested.
+              - paragraph [ref=f8e571]: 2. "I only want to be considered for positions I have applied for." In this case, your data is only visible and accessible to the HR manager responsible for the position you have applied for.
+              - paragraph [ref=f8e572]:
+                - generic [ref=f8e573]: C. Purpose and legal basis of processing
+                - text: We process your personal data in accordance with the EU-GDPR and for the establishment, execution, and termination of your employment relationship as well as for the handling of company pension schemes in accordance with Art. 88 EU-GDPR in conjunction with Section 26 BDSG-New and, if applicable, Art. 6 (1) EU-GDPR.
+                - generic [ref=f8e574]: 1. To fulfill contractual obligations (Art. 6 para. 1 lit. b EU-GDPR)
+                - text: Processing is necessary for the performance of a contract to which the data subject is a party or to carry out pre-contractual measures taken at the request of the data subject.
+                - generic [ref=f8e575]: 2. To fulfill legal obligations (Art. 6 para. 1 lit. c EU-GDPR)
+                - text: We may also process your personal data if this is necessary to fulfill legal obligations or to defend and assert legal claims arising from the employment relationship. The legal basis is Art. 6 para. 1 lit. f EU-GDPR. The legitimate interest is, for example, an obligation to provide evidence in proceedings under the General Equal Treatment Act (AGG).
+                - generic [ref=f8e576]: 3. Processing based on your consent (Art. 6 para. 1 lit. a EU-GDPR)
+                - text: If you give us explicit consent to process personal data for specific purposes, the lawfulness of this processing is based on your consent in accordance with Art. 6 para.1 lit. a EU- GDPR. Consent given can be revoked at any time with effect for the future (see Chapter I of this data protection information).
+                - generic [ref=f8e577]: 4. Establishment, execution, and termination of the contract (Section 26 I S1 BDSG-New)
+                - text: The purpose of data processing is initially the selection of suitable applicants. Even in the pre-contractual phase, we are legally obliged in some countries to subject your data to an "anti-terror screening". Depending on your individual role, it may be necessary to carry out a reliability or security check of your background before we can assign you to certain customers or areas (e.g. aviation security).
+            - generic [ref=f8e579]:
+              - paragraph [ref=f8e580]
+              - paragraph [ref=f8e581]
+              - paragraph [ref=f8e582]:
+                - text: If required for the security of the task, a medical examination may be organized and requested, as permitted by law in the country of employment.
+                - generic [ref=f8e583]: 5. For the detection of criminal offenses
+                - text: We reserve the right to process personal data of employees for the purpose of investigating criminal offenses in accordance with local laws. This requires that documented actual indications give rise to the suspicion that the data subject has committed a criminal offense in the employment relationship and that processing is necessary for detection and withstands a balancing of interests.
+                - generic [ref=f8e584]: D. Recipients of personal data
+                - text: "Within our company, those departments that need your data to fulfill their respective function in the company or to fulfill our contractual or legal obligations will have access to your data:"
+              - paragraph [ref=f8e585]: The works council or the spokesperson committee for senior executives, if applicable, the representative for severely disabled persons receives the data required for the performance of their statutory duties and rights under the Works Constitution Act (BetrVG).
+              - paragraph [ref=f8e586]: We may transfer your personal data to affiliated companies to the extent that this is permissible within the framework of the purposes and legal bases set out in Chapter C of this data protection information.
+              - paragraph [ref=f8e587]: Under certain circumstances, personal data may also be passed on to public authorities (e.g. tax authorities, job centers, integration offices), social security agencies, judicial and law enforcement authorities (e.g. police, public prosecutors, courts), lawyers and notaries as well as auditors.
+              - paragraph [ref=f8e588]: Hiring department management and interviewers within the dormakaba Group who are assigned to participate in the assessments for the requested role.
+              - paragraph [ref=f8e589]: In the case of travel expense reimbursement, the data will be forwarded to the responsible internal or external accounting departments.
+              - paragraph [ref=f8e590]: Internal Audit receives data for internal audit purposes. The HR administration for the preparation of contracts and other
+              - paragraph [ref=f8e591]: administrative formalities.
+              - paragraph [ref=f8e592]: "Specifically, the following recipients receive your personal data from us: Professional associations; Tax authorities; Social security agencies such as health insurance companies, pension insurance companies, etc.; Banks (e.g. for your salary transfer); Aviation security authority; Integration office; Insurance companies; Auditors; Social security and tax auditors; ISO auditors; Authorities (within the scope of assignments); Chambers of industry and commerce, universities of applied sciences, training workshops (for trainees); Company medical services; Leasing companies"
+            - generic [ref=f8e594]:
+              - paragraph [ref=f8e595]
+              - paragraph [ref=f8e596]
+              - paragraph [ref=f8e597]: If applicable, transfer companies
+              - paragraph [ref=f8e598]:
+                - generic [ref=f8e599]: E. Transfer to third countries or international organizations
+                - text: Your data will be stored within the EU in accordance with the GDPR data protection standard and made available to recipients in the country of your application. If your personal data is transferred to third countries outside the European Economic Area that may not provide an adequate level of data protection, we will take all necessary measures for such data transfers in accordance with EU-GDPR. We use appropriate technical and organizational measures to protect your personal data from unauthorized access or use as well as from accidental, unintentional loss or destruction.
+                - generic [ref=f8e600]: F. Duration of storage
+                - text: We generally delete your personal data when the purpose of processing has been fulfilled, all mutual claims have been settled, and there are no other legal retention obligations or legal grounds for storage. The data is stored according to the principle of storage limitation. This means that the data is only stored for as long as is necessary for the respective purpose. Legal deletion and retention periods according to country requirements are also observed. See Appendix C for an overview of country-specific retention periods.
+                - generic [ref=f8e601]: G. Your data protection rights
+                - text: "You have the following data protection rights in accordance with the statutory provisions:"
+              - paragraph [ref=f8e602]: 1. the right to information about the personal data stored by the respective dormakaba company (Article 15 EU-GDPR) as well as
+              - paragraph [ref=f8e603]: 2. the right to rectification of your data (Article 16 EU-GDPR), 3. the right to erasure of your data (Article 17 EU-GDPR), 4. the right to restriction of processing of your data (Article 18 EU-GDPR), 5. the right to data portability of your data (Article 20 EU-GDPR), 6. and the right to object (Article 21 EU-GDPR)
+              - paragraph [ref=f8e604]:
+                - text: In addition, you have the right to contact the respective responsible national data protection authority with a request or complaint. For North Rhine-Westphalia, for example, this would be the State Commissioner for Data Protection and Freedom of Information North Rhine-Westphalia (LDI NRW) (https://www.ldi.nrw.de).
+                - generic [ref=f8e605]: H. Is there an obligation to provide data?
+                - text: In the context of the employment relationship, you must provide the personal data that is necessary for the establishment, execution, and termination of the employment relationship and for the fulfillment of the associated contractual obligations or that we are legally obliged to process. Without this data, we will generally not be able to conclude or execute an employment contract with you. In addition, our contract forms and our websites transparently indicate which information is voluntary and which is mandatory.
+                - generic [ref=f8e606]: I. Right to object 1. Case-specific right to object
+                - text: You have the right to object at any time to the processing of your personal data for reasons arising from your particular personal situation, if the processing is based on the legal basis regulated in Art. 6 para.
+            - generic [ref=f8e608]:
+              - paragraph [ref=f8e609]
+              - paragraph [ref=f8e610]
+              - paragraph [ref=f8e611]:
+                - text: 1 letter e EU-GDPR (processing in the public interest) and Art. 6 para. 1 letter f EU-GDPR (data processing based on a balancing of interests). This also applies to profiling based on this provision. If you object, we will stop processing your personal data unless we can demonstrate compelling legitimate grounds for the necessity of processing that override your interests, rights, and freedoms, or if the processing serves the assertion, exercise, or defense of legal claims.
+                - generic [ref=f8e612]: 2. Recipient of the objection
+                - text: You can submit your objection informally with the subject "Objection" stating your name, address, and date of birth to us (see appendix).
+                - generic [ref=f8e613]: J. Video conferences, online meetings, webinars, and screen sharing
+                - text: "We use platforms and applications of other providers (hereinafter referred to as \"third-party providers\") for the purpose of conducting video and audio conferences, webinars, and other types of video and audio meetings. When selecting third-party providers and their services, we observe the legal requirements. See Appendix B for an overview of the third-party providers used. In this context, data of communication participants is processed and stored on the servers of the third-party providers, insofar as they are part of communication processes with us. This data may include in particular registration and contact data, visual and audio contributions, as well as entries in chats and shared screen content. If users are referred to third-party providers or their software or platforms in the context of communication, business, or other relationships with us, the third-party providers may process usage data and metadata for security purposes, service optimization, or marketing purposes. We therefore ask you to observe the privacy notices of the respective third-party providers. Notes on legal bases: If we ask users for their consent to the use of third-party providers or certain functions (e.g. consent to the recording of conversations), the legal basis for processing is consent. Furthermore, their use may be part of our (pre-)contractual services, provided the use of third-party providers has been agreed in this context. Otherwise, user data is processed on the basis of our legitimate interests in efficient and secure communication with our communication partners. In this context, we would also like to draw your attention to the information on the use of cookies in this privacy policy."
+              - paragraph [ref=f8e614]: "Types of data processed: Inventory data (e.g. names, addresses), contact data (e.g. email, telephone numbers), content data (e.g. text entries, photographs, videos), usage data (e.g. visited websites, interest in content, access times), meta/communication data (e.g. device information, IP addresses)."
+              - paragraph [ref=f8e615]: "Data subjects: Communication partners, users (e.g. website visitors, users of online services)."
+              - paragraph [ref=f8e616]: "Purposes of processing: Contractual services and service, contact requests and communication, office and organizational procedures."
+              - paragraph [ref=f8e617]: "Legal bases: Consent (Art. 6 para. 1 sentence 1 lit. a GDPR), contract fulfillment and pre-contractual requests (Art. 6 para. 1 sentence 1 lit. b. GDPR), legitimate interests (Art. 6 para. 1 sentence 1 lit. f. GDPR)."
+              - paragraph [ref=f8e618]: The above declaration of consent to the privacy policy applies to all companies listed below. For some countries, there is additional country-specific information. Please follow this link for further country-specific information. For Great Britain and Ireland, there are separate
+            - generic [ref=f8e620]:
+              - paragraph [ref=f8e621]
+              - paragraph [ref=f8e622]
+              - paragraph [ref=f8e623]:
+                - text: declarations of consent to the privacy policy. Please follow this link to read the declaration of consent to the privacy policy for Great Britain and this link to read the declaration of consent to the privacy policy for Ireland. Thank you very much for taking the time to read our data protection information for applicants and employees.
+                - generic [ref=f8e624]: "Appendices: Appendix A: Controllers and Data Protection Officers A1. General Data Protection Officers"
+                - text: "For inquiries in local countries, coordination and dispatch are carried out by our global Data Protection Officer, who can be contacted here:"
+                - generic [ref=f8e625]: dormakaba International Holding GmbH
+                - text: "attn. Data Protection Officer DORMA Platz 1 58256 Ennepetal Germany Mail: data.protection@dormakaba.com"
+                - generic [ref=f8e626]: "A2. For the following subgroups, inquiries can be sent directly to the following structures: Austria dormakaba Austria GmbH"
+                - text: Urbanek Lind Schmied Reisch Rechtsanwälte OG Domgasse 2 3100 St. Pölten dsgvo.at@dormakaba.com
+                - generic [ref=f8e627]: Bulgaria dormakaba Bulgaria EOOD
+                - text: r.d. Druzhba 2, Heidelberg 15 Str. Sofia, 1582 personaldata.BG@dormakaba.com
+              - paragraph [ref=f8e628]
+              - paragraph [ref=f8e629]:
+                - generic [ref=f8e630]: dormakaba business services Bulgaria EOOD
+                - text: bul. Tsarigradsko shose 90, Capital fort, vh B, et 5, Sofia, 1582 personaldata.BG@dormakaba.com
+                - generic [ref=f8e631]: France dormakaba France
+                - text: attn. Data Protection Officer 3 rue Descartes 78320 Le Mesnil Saint-Denis data.protection.fr@dormakaba.com
+                - generic [ref=f8e632]: Germany DORMA-Glas GmbH
+                - text: attn. Data Protection Officer Max-Planck-Str. 33-45 32107 Bad Salzuflen claus.frohwitter@dormakaba.com
+            - generic [ref=f8e634]:
+              - paragraph [ref=f8e635]
+              - paragraph [ref=f8e636]
+              - paragraph [ref=f8e637]:
+                - generic [ref=f8e638]: DORMA Hüppe Raumtrennsysteme GmbH + Co. KG
+                - text: Industriestraße 5 26655 Westerstede / Ocholt
+                - generic [ref=f8e639]: "External Data Protection Officer:"
+                - text: MERENTIS DataSec GmbH Data Protection Department Lawyer Tobias K. Eicke Kurfuerstenallee 130 28211 Bremen teicke@merentis.com
+                - generic [ref=f8e640]: Japan dormakaba Japan co.,ltd
+                - text: "Address: 2F Omori Prime Building 6-21-12 Minamioi, Shinagawa-ku 140-0013 Tokyo, Japan"
+                - generic [ref=f8e641]: Hr.jp@dormakaba.com Norway dormakaba Norge AS
+                - text: Graterudveien 16 3036 Drammen anders.birkeland@dormakaba.com
+                - generic [ref=f8e642]: The Netherlands dormakaba Nederland B.V.
+                - text: Dalwagen 45 6669 CB Dodewaard Netherlands info.nl@dormakaba.com
+                - generic [ref=f8e643]: Spain dormakaba España S.A.U
+                - text: Maria Tubau, 4 28050 Madrid protecciondedatos@dormakaba.com
+                - generic [ref=f8e644]: Sweden dormakaba Sverige AB
+                - text: FO Petersons gata 28 421 31 Vastra Frolanda anders.birkeland@dormakaba.com
+                - generic [ref=f8e645]: "Appendix B: Services and third-party providers used"
+                - text: "Microsoft Teams and Skype: Messenger and conference software; Service provider: Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399 USA; Website Skype: https://www.skype.com/en/; Website Teams: https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software/ Privacy policy: https://privacy.microsoft.com/en-us/privacystatement, Security information: https://www.microsoft.com/en-us/trustcenter."
+            - generic [ref=f8e647]:
+              - paragraph [ref=f8e648]
+              - paragraph [ref=f8e649]
+              - paragraph [ref=f8e650]:
+                - generic [ref=f8e651]: "Appendix C: Country-specific retention periods"
+              - paragraph [ref=f8e652]:
+                - generic [ref=f8e653]: Country Candidate profile Application profile
+              - paragraph [ref=f8e654]: Austria 6 months 6 months Australia 6 months 6 months Belgium 2 years 3 months Brazil 6 months 6 months
+              - paragraph [ref=f8e655]: Bulgaria 6 months 6 months China
+              - paragraph [ref=f8e656]: Hong Kong Taiwan
+              - paragraph [ref=f8e657]
+              - paragraph [ref=f8e658]: 6 months
+              - paragraph [ref=f8e659]
+              - paragraph [ref=f8e660]: 6 months Canada 3 years 3 years
+              - paragraph [ref=f8e661]: Denmark 12 months 12 months Finland 12 months 12 months
+              - paragraph [ref=f8e662]: France 2 years 2 years Germany 6 months 6 months
+              - paragraph [ref=f8e663]: India 6 months 6 months Indonesia 6 months 6 months
+              - paragraph [ref=f8e664]: Italy 6 months 6 months Japan 6 months 6 months
+              - paragraph [ref=f8e665]: Croatia 6 months 6 months Kuwait 5 years 5 years
+              - paragraph [ref=f8e666]: Luxembourg 2 years 6 months Malaysia 2 years 2 years
+              - paragraph [ref=f8e667]: Mexico 6 months 6 months Morocco 6 months 6 months
+              - paragraph [ref=f8e668]: New Zealand 6 months 6 months Netherlands 12 months 1 month Norway 12 months 12 months Philippines 6 months 6 months
+              - paragraph [ref=f8e669]: Poland 6 months 6 months Portugal 6 months 6 months Qatar 5 years 5 years
+              - paragraph [ref=f8e670]: Romania 6 months 6 months Russian Federation 6 months 6 months
+              - paragraph [ref=f8e671]: Saudi Arabia 5 years 5 years Serbia 6 months 6 months Singapore 2 years 2 years Slovakia 6 months 6 months Spain 12 months 12 months Switzerland 2 years 2 years South Africa 5 years 5 years Sweden 12 months 12 months
+              - paragraph [ref=f8e672]: Czech Republic 6 months 6 months Thailand 6 months 6 months Turkey 6 months 6 months Hungary 6 months 6 months
+              - paragraph [ref=f8e673]: United Arab Emirates 5 years 5 years USA 4 years 4 years
+              - paragraph [ref=f8e674]: Other countries 6 months 6 months
+            - generic [ref=f8e676]:
+              - paragraph [ref=f8e677]
+              - paragraph [ref=f8e678]
+              - paragraph [ref=f8e679]:
+                - text: "* Terms such as \"applicant\", \"employee\", etc. are generally used in a gender-neutral manner."
+                - generic [ref=f8e680]: "Appendix D: Links to all data protection information for applicants in certain countries Austria - Appendix_to_the_Privacy_Policy Brazil & Mexico – Data Protection information LatAm France – Data Privacy appendix Ireland - Data Privacy Statement IE United Kingdom – Data Protection information AE UK"
+        - generic [ref=f8e681]:
+          - button "I accept" [ref=f8e683] [cursor=pointer]
+          - button "Cancel" [ref=f8e685] [cursor=pointer]

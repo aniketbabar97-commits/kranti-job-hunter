@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - list:
+      - listitem:
+        - link [ref=e3] [cursor=pointer]:
+          - /url: "#skip-to-main-heading"
+      - listitem:
+        - button "Login" [ref=e4] [cursor=pointer]
+      - listitem:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: "#skip-to-mainnav-heading"
+  - list [ref=e7]:
+    - listitem [ref=e8]:
+      - button "en - English - Language" [ref=e9] [cursor=pointer]:
+        - generic "English - Language" [ref=e11]:
+          - text: en
+          - generic [ref=e12]: "- English - Language"
+    - listitem [ref=e14]:
+      - link "markant.com" [ref=e15] [cursor=pointer]:
+        - /url: https://www.markant.com/en
+  - banner [ref=e16]:
+    - generic [ref=e18]:
+      - banner [ref=e19]:
+        - link "Markant - Go to homepage" [ref=e20] [cursor=pointer]:
+          - /url: index.php
+      - button "Menu" [ref=e23] [cursor=pointer]
+      - navigation:     
+  - generic [ref=e30]:
+    - generic [ref=e32]:
+      - heading "Consent for cookies & data" [level=1] [ref=e34]
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: "Our website uses cookies. They have two functions: on the one hand, they are required for the basic functionality of our website. On the other hand, we can use cookies to continue to improve our content for you. Pseudonymised data is collected from website visitors and evaluated for this purpose. You can revoke the consent for the use of cookies at any time. You can find more information on cookies on the website in the data privacy statement. Information on the publisher, liability and copyright can be found in the publishing details."
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - checkbox "Necessary cookies" [checked] [disabled] [ref=e40]
+              - text: Necessary cookies
+            - generic [ref=e41] [cursor=pointer]: More details 
+          - generic [ref=e42]:
+            - generic [ref=e43] [cursor=pointer]:
+              - checkbox "Statistics" [ref=e44]
+              - text: Statistics
+            - generic [ref=e45] [cursor=pointer]: More details 
+        - generic [ref=e46]:
+          - button "Accept all" [ref=e47] [cursor=pointer]
+          - button "Save settings" [ref=e48] [cursor=pointer]
+      - generic [ref=e50]:
+        - link "Data privacy notices" [ref=e51] [cursor=pointer]:
+          - /url: index.php?ac=privacy_policy
+        - link "Publishing details" [ref=e52] [cursor=pointer]:
+          - /url: index.php?ac=imprint
+    - main [ref=e53]:
+      - generic [ref=e54]:
+        - navigation "You are here":
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "Home" [ref=e57] [cursor=pointer]:
+                - /url: /index.php
+            - listitem [ref=e58]:
+              - text: ›
+              - generic "Job offers" [ref=e59]
+      - heading "Search result" [level=1] [ref=e61]
+      - generic [ref=e63]:
+        - complementary [ref=e64]:
+          - link "Skip to the search results" [ref=e65] [cursor=pointer]:
+            - /url: "#skip-to-search-result-heading"
+          - generic [ref=e66]:
+            - heading "Search criteria" [level=2] [ref=e67]
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]: Keywords
+                - textbox "Keywords" [ref=e77]:
+                  - /placeholder: Keyword, activity, job ad no.
+              - generic [ref=e78]:
+                - generic [ref=e79]: Country
+                - generic [ref=e81]:
+                  - listbox "Country" [ref=e82]
+                  - button "All countries " [ref=e84] [cursor=pointer]
+              - generic [ref=e85]:
+                - generic [ref=e86]: Division
+                - generic [ref=e88]:
+                  - listbox "Division" [ref=e89]
+                  - button "All divisions " [ref=e91] [cursor=pointer]
+              - generic [ref=e92]:
+                - generic [ref=e93]: Entry level
+                - generic [ref=e95]:
+                  - listbox "Entry level" [ref=e96]
+                  - button "All entry levels " [ref=e98] [cursor=pointer]
+              - generic [ref=e99]:
+                - generic [ref=e100]: Function
+                - generic [ref=e102]:
+                  - listbox "Function" [ref=e103]
+                  - button "All functions " [ref=e105] [cursor=pointer]
+              - generic [ref=e106]:
+                - generic [ref=e107]: Working hour
+                - generic [ref=e109]:
+                  - listbox "Working hour" [ref=e110]
+                  - button "All working hours " [ref=e112] [cursor=pointer]
+              - button "Search for jobs" [ref=e115] [cursor=pointer]
+              - button "Reset" [ref=e118] [cursor=pointer]
+        - generic [ref=e119]:
+          - heading "Search results" [level=2] [ref=e120]
+          - generic [ref=e122]:
+            - generic [aria-hidden] [ref=e123]: 
+            - generic [ref=e124]: Please wait...
+      - button "Create job subscription" [ref=e126] [cursor=pointer]
+      - text:    
+  - contentinfo [ref=e127]:
+    - generic [ref=e131]:
+      - navigation:
+        - list
+    - separator [ref=e132]
+    - generic [ref=e135]:
+      - navigation [ref=e137]:
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Imprint" [ref=e140] [cursor=pointer]:
+              - /url: index.php?ac=imprint
+            - text: "|"
+          - listitem [ref=e141]:
+            - link "Data privacy statement" [ref=e142] [cursor=pointer]:
+              - /url: index.php?ac=privacy_policy
+            - text: "|"
+          - listitem [ref=e143]:
+            - link "Contact" [ref=e144] [cursor=pointer]:
+              - /url: index.php?ac=contact
+            - text: "|"
+          - listitem [ref=e145]:
+            - link "Cookie Settings" [ref=e146] [cursor=pointer]:
+              - /url: "#"
+      - banner [ref=e147]
+    - region [ref=e149]:
+      - list:
+        - listitem:
+          - link [ref=e150] [cursor=pointer]:
+            - /url: "#skip-to-main-heading"
+        - listitem:
+          - button "Login" [ref=e151] [cursor=pointer]
+          - button "Login" [ref=e152] [cursor=pointer]
+        - listitem:
+          - link [ref=e153] [cursor=pointer]:
+            - /url: "#skip-to-mainnav-heading"
+  - status [ref=e154]

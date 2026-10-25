@@ -1,0 +1,293 @@
+- generic [active] [ref=f35e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f35e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f35e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f35e8]:
+    - search [ref=f35e9]:
+      - generic [ref=f35e11]:
+        - link "Go to Google Home" [ref=f35e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQPHoECAYQBA
+        - generic [ref=f35e22]:
+          - combobox "Search" [ref=f35e24]: Cegeka Architect im Bereich E-Commerce 11246 Cegeka Architect im Bereich E-Commerce 11246
+          - generic [ref=f35e25]:
+            - button "Clear" [ref=f35e29] [cursor=pointer]
+            - generic [ref=f35e34]:
+              - button "Search by voice" [ref=f35e37] [cursor=pointer]
+              - button "Search by image" [ref=f35e42] [cursor=pointer]
+    - generic [ref=f35e45]:
+      - button "Settings" [ref=f35e47] [cursor=pointer]
+      - button "Share" [ref=f35e52] [cursor=pointer]
+      - generic [ref=f35e58]:
+        - button "Google apps" [ref=f35e60] [cursor=pointer]
+        - link "Sign in" [ref=f35e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DCegeka%2BArchitect%2Bim%2BBereich%2BE-Commerce%2B11246%26sei%3DnUzaasrGH66SseMP44LQ8AQ&ec=futura_srp_og_si_72236_p
+  - generic [ref=f35e67]:
+    - navigation [ref=f35e73]:
+      - generic [ref=f35e79]:
+        - list [ref=f35e80]:
+          - listitem [ref=f35e81]:
+            - link "AI Mode" [ref=f35e84] [cursor=pointer]:
+              - /url: /search?q=Cegeka+Architect+im+Bereich+E-Commerce+11246&sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQ2J8OegQIExAD
+          - listitem [ref=f35e88]:
+            - link "All" [disabled] [ref=f35e89]
+          - listitem [ref=f35e92]:
+            - link "Jobs" [ref=f35e93] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&udm=jobs&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&q=Cegeka+Architect+im+Bereich+E-Commerce+11246&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQs6gLegQIGRAB
+          - listitem [ref=f35e96]:
+            - link "Images" [ref=f35e97] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&q=Cegeka+Architect+im+Bereich+E-Commerce+11246&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQtKgLegQIGBAB
+          - listitem [ref=f35e100]:
+            - link "Forums" [ref=f35e101] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&q=Cegeka+Architect+im+Bereich+E-Commerce+11246&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQs6gLegQIGhAB
+          - listitem [ref=f35e104]:
+            - link "Shopping" [ref=f35e105] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&q=Cegeka+Architect+im+Bereich+E-Commerce+11246&ved=1t:220175&ictx=111
+          - listitem [ref=f35e108]:
+            - link "News" [ref=f35e109] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&q=Cegeka+Architect+im+Bereich+E-Commerce+11246&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYeVpGV-z9ff8Ky7YwKAocIqKN5myIDy0svmnDZTYS_IrJgWCKTCjILX-U2zs9oA2EV0i5oyp52TVGExoNYvf4QDlTZ2cpLp7LGbmPfr_ttyFjv5oxQUd2qAU_fZowOKKL3i25IDIHVrMD8OUEGH6HrxNHAhxI5CnLgWvRqt7TBdgUJU2w&sa=X&ved=2ahUKEwjSkMzcl86XAxUTb2wGHdjXHywQ0pQJegQIFRAB
+          - listitem [ref=f35e112]:
+            - button [ref=f35e113] [cursor=pointer]:
+              - generic "More filters" [ref=f35e114]: More
+        - button "Tools" [ref=f35e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f35e128]
+    - generic [ref=f35e133]:
+      - generic [ref=f35e152]:
+        - generic [ref=f35e155]:
+          - generic [ref=f35e157]:
+            - heading "AI Overview" [level=2] [ref=f35e161]
+            - button "Listen" [ref=f35e165]:
+              - generic [ref=f35e169] [cursor=pointer]
+          - generic [ref=f35e197]:
+            - generic [ref=f35e198]:
+              - text: You can apply for the
+              - 'link "Architect* im Bereich E-Commerce #11246" [ref=f35e201] [cursor=pointer]':
+                - /url: /goto?url=CAESmgEB6zswFd5ZMgaPMUFA70sOZlFyrPoRj_yVLH7feH1vvauhVc0D8GE2aUCine4BQ_47tYNVRxUDJ0FRFdw92MZ13rwvhuVdZbukEiZ5s4ZCyy_2bC1EqUOK0OmRAKkIngMxf1GPBMHQdrTuAHOElDio7CTDMpDiVoVdulW2FKVd15JJJ4CaYyF94t2Kiu7EmwMZHSL2KjVLQxQc
+              - text: role at Cegeka Deutschland GmbH, which offers a
+              - mark [ref=f35e202]: salary range of 90,000 € to 120,000 € per year in locations like Berlin or the Ruhr area
+              - text: .
+              - generic [ref=f35e206]:
+                - link "LinkedIn" [ref=f35e207] [cursor=pointer]:
+                  - /url: /goto?url=CAESmgEB6zswFd5ZMgaPMUFA70sOZlFyrPoRj_yVLH7feH1vvauhVc0D8GE2aUCine4BQ_47tYNVRxUDJ0FRFdw92MZ13rwvhuVdZbukEiZ5s4ZCyy_2bC1EqUOK0OmRAKkIngMxf1GPBMHQdrTuAHOElDio7CTDMpDiVoVdulW2FKVd15JJJ4CaYyF94t2Kiu7EmwMZHSL2KjVLQxQc
+                - button "LinkedIn (+1) – related results" [ref=f35e208] [cursor=pointer]:
+                  - generic [ref=f35e210]:
+                    - generic [ref=f35e211]: LinkedIn
+                    - generic [ref=f35e212]: "+1"
+            - heading "Role Overview" [level=3] [ref=f35e217]
+            - list [ref=f35e218]:
+              - listitem [ref=f35e220]:
+                - generic [ref=f35e221]:
+                  - strong [ref=f35e222]: "Position:"
+                  - text: "Architect* im Bereich E-Commerce #11246"
+              - listitem [ref=f35e224]:
+                - generic [ref=f35e225]:
+                  - strong [ref=f35e226]: "Company:"
+                  - text: Cegeka Deutschland GmbH
+              - listitem [ref=f35e228]:
+                - generic [ref=f35e229]:
+                  - strong [ref=f35e230]: "Location:"
+                  - text: Berlin, Metropole Ruhr, or nationwide (Bundesweit)
+              - listitem [ref=f35e232]:
+                - generic [ref=f35e233]:
+                  - strong [ref=f35e234]: "Salary:"
+                  - text: 90,000 € – 120,000 € per year
+              - listitem [ref=f35e236]:
+                - generic [ref=f35e237]:
+                  - strong [ref=f35e238]: "Key Tasks:"
+                  - text: Analyzing requirements from departments like purchasing, category management, or customer service and designing technical E-Commerce solutions.
+                - generic [ref=f35e242]:
+                  - link [ref=f35e243] [cursor=pointer]:
+                    - /url: /goto?url=CAESWQHrOzAVFk19qzzIJQDkLGdEx9t9lnXD8_nNA8bMFieTZMdQqqAKtY1j3y_5MW9kKECme8ll7eMALy5_Apjbe1vGwu6ziraBi0cIEEeeV1WU_nSgAVDLB2qQ
+                  - button [ref=f35e244] [cursor=pointer]:
+                    - generic [ref=f35e246]:
+                      - generic [ref=f35e247]: Cegeka
+                      - generic [ref=f35e248]: "+3"
+            - generic [ref=f35e254]:
+              - generic [ref=f35e255]: "If you want, I can help you with:"
+              - list [ref=f35e256]:
+                - listitem [ref=f35e257]:
+                  - generic [ref=f35e258]:
+                    - strong [ref=f35e259]: Preparing application materials
+                    - text: tailored to this architecture role
+                - listitem [ref=f35e260]:
+                  - generic [ref=f35e261]:
+                    - strong [ref=f35e262]: Key technical skills
+                    - text: and qualifications typically required by Cegeka
+        - button "Show more AI Overview" [ref=f35e267]:
+          - generic [ref=f35e268] [cursor=pointer]: Show more
+      - main [ref=f35e275]:
+        - generic [ref=f35e279]:
+          - generic [ref=f35e282]:
+            - heading "Webergebnisse" [level=2] [ref=f35e283]
+            - generic [ref=f35e284]:
+              - generic [ref=f35e287]:
+                - 'link "Architect* im Bereich E-Commerce #11246 bei Cegeka LinkedIn https://de.linkedin.com › jobs › view" [ref=f35e289] [cursor=pointer]':
+                  - /url: /goto?url=CAESmgEB6zswFSTuTyoK9mCdv5jNzFUvceaLgQ1coFe-khmxgonFdIAUDW-ZbIwhoP7PC1ZIf7BKIOTy91POmGyKDhWaTzG0UXz6tAkvP-qFemeW2gLC2XiQ6iMsPOP9xYAq3_LKdrtO_5XcHxEXyh5nijngi6-vQehBsDJgEuHhbvK9bCA57Q46ZdztuMkGFqmOx0-ToktF4pKRgplB
+                  - 'heading "Architect* im Bereich E-Commerce #11246 bei Cegeka" [level=3] [ref=f35e290]'
+                  - generic [ref=f35e296]:
+                    - generic [ref=f35e297]: LinkedIn
+                    - generic [ref=f35e299]: https://de.linkedin.com › jobs › view
+                - generic [ref=f35e301]:
+                  - generic [ref=f35e302]: ·
+                  - link "Translate this page" [ref=f35e303] [cursor=pointer]:
+                    - /url: /goto?url=CAES5gEB6zswFTHIFrwN431oifetQ_URuT63bfxnzYqh4qhplzXGb_AqnraDh7Njgg7VNBM9RsceSqJgEbxuXLie-A8OUTrzBEAaSboTsQSYfmotEhpaPWIBYNvr4H87TNoxov5SDApqEpa45aV8KsIFqTBz6bcXBa-FilClsjx66jtKTChhTLEBMceKVDBAjrQxyx68alBLO74BDxIqL-0_vY_6h649ahCtaGaab_mkGkP62TrVi-T3w-BM-Kp0nv3Eg3DGijXyD9yuZFNH3HWpPdIx-gFJS0hAgjYlqCbramWSzmKPafImrg
+                - button "About this result" [ref=f35e308] [cursor=pointer]
+              - generic [ref=f35e315]:
+                - emphasis [ref=f35e316]: "Architect* im Bereich E-Commerce #11246 bei Cegeka"
+                - text: in Metropole Ruhr. Tel +49 221 160 20 18 E-Mail maximilian.kamphausen@cegeka.com
+          - generic [ref=f35e320]:
+            - generic [ref=f35e323]:
+              - 'link "Architect* im bereich e-commerce #11246 - Berlin Jobijoba https://www.jobijoba.de › detailan..." [ref=f35e325] [cursor=pointer]':
+                - /url: /goto?url=CAESgwEB6zswFcPJT2e83E5odvKNGsb8JbEAJD_PgqLHPuYOuQ3fOz_BoRi9j7BsbWi2gLeUfr60GJ6bOD8HnLZVnYR-bGwHktRPbMDaNepc9Sd9Filn81HJK7RqYJAa7xcZG0TLoUP3scJnK3k61jR6U11S74zRHorZwPaI6wRL9STPFspWvg
+                - 'heading "Architect* im bereich e-commerce #11246 - Berlin" [level=3] [ref=f35e326]'
+                - generic [ref=f35e332]:
+                  - generic [ref=f35e333]: Jobijoba
+                  - generic [ref=f35e335]: https://www.jobijoba.de › detailan...
+              - generic [ref=f35e337]:
+                - generic [ref=f35e338]: ·
+                - link "Translate this page" [ref=f35e339] [cursor=pointer]:
+                  - /url: /goto?url=CAESzQEB6zswFcjGiNfRIsV4kMPcYy2YuojucTMzsnodkxHcJhgzeaV78iWqs3lg1-RFQa5wtOic2pIumEWCnrOPhPj_xNBTunKdZTAOYQnlAQ-YyOeMbU-EmfjNF-OzoZFkmT5WscNr4yjv3GRPWw0puS5wKCJcVfOaPyDUQ0WQR6f13e26yFWbcpIYFOcv8wjnseazV1QVnKAiONO0d8ksPD3pXCLAW-ORgDNmO3mup4xM425LiPNSI2TbTtlDLz2WejPuVX78GhksCT77Oei6
+              - button "About this result" [ref=f35e344] [cursor=pointer]
+            - generic [ref=f35e350]:
+              - generic [ref=f35e351]:
+                - emphasis [ref=f35e352]: "Architect* im bereich e-commerce #11246"
+                - text: ". Berlin. Cegeka Deutschland GmbH. 90.000 € - 120.000 € pro Jahr. Inserat online seit: 1 September. Aufgaben der Stelle."
+              - link "Read more" [ref=f35e353] [cursor=pointer]:
+                - /url: /goto?url=CAES2AEB6zswFVHYdDyXUCrdwgeghMt4RqfSdNUWlGz-pX2XZtirbHWUaog69aLlhJuQ8ab61-0HvvxICV5wruOogUHhMwJ40mdGxqy9aJM13pJXoUW4TN1DPlwo1eSAMBRqc9S0XjirnYEyfIK4yrLFWL1K_ShHJW499M1HPGNmZzj6xi4x0TmWvROWaey3Wz97D53kLNI8lWbvYqo9LkpLXKrq0ApzLfjPF3ysBYuqw3HS0I4P4Vo2y6WW1igpoyVCg7N93yD_G72-hyzxDFgokxPgcm_eTyyWSvQ
+          - generic [ref=f35e357]:
+            - generic [ref=f35e360]:
+              - 'link "Architect* im Bereich E-Commerce #11246 Trabajo.org https://de.trabajo.org › ... › Berlin" [ref=f35e362] [cursor=pointer]':
+                - /url: /goto?url=CAEShgEB6zswFXUw_ubg5aYG-YZnBBIxKhMw5cKEHNTO29ZrODVVQir3tgmhw1ft2B9Wut6KaNnk_2UCiaWAIJVWYSRnBTfQwVA6LeUi_5qolY7Hztt1i2HaL1AQFipd5FTpYposUvrt1-rwG-rAyrZYQGlXVO86yWnhR9ozFt8Ma20bOlXaHuhzsw
+                - 'heading "Architect* im Bereich E-Commerce #11246" [level=3] [ref=f35e363]'
+                - generic [ref=f35e369]:
+                  - generic [ref=f35e370]: Trabajo.org
+                  - generic [ref=f35e372]: https://de.trabajo.org › ... › Berlin
+              - generic [ref=f35e374]:
+                - generic [ref=f35e375]: ·
+                - link "Translate this page" [ref=f35e376] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFSttqoGtJFgxdY1TnrtpHSg_Mfk2-kin-_WtyIm_7_Hv2jvIcJU5TVR3PPMQ6CeG49ELuQRTsWAk0vkXROCm_QNnPvhbKTHQJ3Jl6z7vUa5Xj7OV8Uh9aoOGmHl2rn4U4Z-WPBduZp94b2OJlHxTQTIkhbBoZBY8-tp7vI_vXAzEN6NtOv838RCtqMv2upA129yoN_W2LRMKw_Kg2OX3FZWl9BJRxskkA3xTOoG7XThiNrbswBwfQmO0JjVXUmYP0wPo8Svu01t1fuRg
+              - button "About this result" [ref=f35e381] [cursor=pointer]
+            - generic [ref=f35e387]:
+              - generic [ref=f35e388]: 4 days ago —
+              - text: Aufgaben. Analyse von Anforderungen aus Fachbereichen wie Einkauf, Category Management oder Kundenservice und Entwicklung von technischen ...
+              - link "Read more" [ref=f35e389] [cursor=pointer]:
+                - /url: /goto?url=CAESzgEB6zswFe-jljgBSIu4wIATqfQsSJyS6BCGS8aPwbVvs0o9lQarB7fOFvSt3ymG78wVBt2USyls2VmQ2gfCe-f2hKOReQRNvZSbFlomPVU5AIg5Ds6uJXXla177g0mQRm14CXfZANCu8aKg6KiOLyGaLTY6xw7p90QV2ACWe0s70ICEF-tloNnuMNPdMQA2NPG3BUaFfHitGRde0KXS6druNQwurW9cwIO8-STpA2b-Q75TvV1L4qA-VzXLVzNiYFOfvc1EzEy1z24ZZsOW9w
+          - generic [ref=f35e393]:
+            - generic [ref=f35e396]:
+              - 'link "Cegeka: Job LinkedIn Danmark https://dk.linkedin.com › jobs" [ref=f35e398] [cursor=pointer]':
+                - /url: /goto?url=CAESZgHrOzAVadkw55hXVs4sJFiBZJubL0a0bTa1WTR12ndE_LNcTFqlEUZKr6GAuB1BSReQD2wwgr57dry0yimM5M2NNSRqUeea2Sr8gjMwxT2UAJeTPVecF8F_XDc9-s3-uyuyRukA6A
+                - 'heading "Cegeka: Job" [level=3] [ref=f35e399]'
+                - generic [ref=f35e405]:
+                  - generic [ref=f35e406]: LinkedIn Danmark
+                  - generic [ref=f35e408]: https://dk.linkedin.com › jobs
+              - generic [ref=f35e410]:
+                - generic [ref=f35e411]: ·
+                - link "Translate this page" [ref=f35e412] [cursor=pointer]:
+                  - /url: /goto?url=CAESrwEB6zswFQEG5sgUMlazTvsnGW_-wB5QYghXSwqwXkNQdl85uEaJAm7fCALzXIAwmv7R5Lsv6NOFn69wc_cgnSfHATo3FCSwx5koR8v861JXua-MqhDnp0oxuEQ3VHe3yWXt48ECujc1cHw47w8T_713vZqrwj3evlu_B_Qpa-lsm2TvLjpe2Qvdw_wKLHB7fEEwh4DByxFgNXn-gxrdo-p5LFZkbQTGH_ZCizsN5KPj
+              - button "About this result" [ref=f35e417] [cursor=pointer]
+            - generic [ref=f35e423]:
+              - generic [ref=f35e424]:
+                - text: Project Manager D365 FO.
+                - emphasis [ref=f35e425]: Cegeka
+                - text: . Flandern, Belgien 1 dag siden.
+                - emphasis [ref=f35e426]: Architect
+                - text: "*"
+                - emphasis [ref=f35e427]: im Bereich E
+                - text: "-"
+                - emphasis [ref=f35e428]: Commerce
+                - text: "#"
+                - emphasis [ref=f35e429]: "11246"
+                - text: .
+                - emphasis [ref=f35e430]: Architect
+                - text: "*"
+                - emphasis [ref=f35e431]: im Bereich E
+                - text: "-"
+                - emphasis [ref=f35e432]: Commerce
+                - text: "#"
+                - emphasis [ref=f35e433]: "11246"
+                - text: .
+                - emphasis [ref=f35e434]: Cegeka
+                - text: . Ruhr ...
+              - link "Read more" [ref=f35e435] [cursor=pointer]:
+                - /url: /goto?url=CAESngEB6zswFRStaBCSJG0TvpOJRAre6s_Ohpr0OThnAMEU_Nd0J9p24Qq1dbus1bqebZqNUE4jFR0joHmYe1DflfkDdDDCD4IVy5Kk0WG7A96icWYER-zGu8gjlVHJcVVa0PxueaS_LxNt0rk3-LBhHq8FAJh04t9b4wpCtTI-LAUdzEXCF9zjVLjK5-8hyJ_jpjrE8dEDsSdqN9m52eWwGw
+          - generic [ref=f35e439]:
+            - generic [ref=f35e442]:
+              - link "Starte jetzt Deine Karriere! - CEGEKA Deutschland Cegeka https://jobs.cegeka.de › vacancy" [ref=f35e444] [cursor=pointer]:
+                - /url: /goto?url=CAESWQHrOzAVUhi1M9bqMABL4TsybNzGoNVtoA4YSrGsEGLQJCXFsYJI1_ZVk5nnFDV1v1ZNn6g3eyo6sqQzqzH1p65HUGnlKpTIxIGHttP_-dlxlYkRBtSC_FM9
+                - heading "Starte jetzt Deine Karriere! - CEGEKA Deutschland" [level=3] [ref=f35e445]
+                - generic [ref=f35e451]:
+                  - generic [ref=f35e452]: Cegeka
+                  - generic [ref=f35e454]: https://jobs.cegeka.de › vacancy
+              - generic [ref=f35e456]:
+                - generic [ref=f35e457]: ·
+                - link "Translate this page" [ref=f35e458] [cursor=pointer]:
+                  - /url: /goto?url=CAESogEB6zswFf9MMnkvFK_jHLeAdIG8IXn1xQC6Kl3sWKQ9u-Ucvd0BM9tMtkvcQXYrJR9__BQGB9A4nOfDbmiQ4ACtwvY9N1bFMaWINw2W_3f0PWEhI2j8fAwbb0kjTqEEz_coKWzJFOINoNzBwdKviE1EbGOtCV8-QHDHlgue_HbgIFPJ1_ZwivtC1rLu2_hb1eFAWcEc4pKAVDlFFa0X5mifpeA
+              - button "About this result" [ref=f35e463] [cursor=pointer]
+            - generic [ref=f35e469]:
+              - generic [ref=f35e470]:
+                - emphasis [ref=f35e471]: Architect
+                - text: "*"
+                - emphasis [ref=f35e472]: im Bereich E
+                - text: "-"
+                - emphasis [ref=f35e473]: Commerce
+                - text: "#"
+                - emphasis [ref=f35e474]: "11246"
+                - text: ". Bundesweit. Business Analyst* #11131. Nürnberg. Sicherheitsarchitekt* #11132. Nürnberg. Senior DevOps & Cloud Engineer ..."
+              - link "Read more" [ref=f35e475] [cursor=pointer]:
+                - /url: /goto?url=CAESwgEB6zswFe6jpC0ohwiEgIXm7meEK0L6q6Wl3Ibts6-lQH6bbD-C9Qofp1e2VZLONK_SMb48D1eHT73dWk619qiFe6CN-hCfTIGVn_bQnTIRWEoaKl-fqEi4DdE5zcG1uRdwu7w3Yh5y_FQEdWknIUMH7Yd5vDFyInAujibaWPuH7IcaRn4Pzk4ulzPjvBcqus7cQjgUG481aRHAGD_t_VXlT4PMSl0PLE_wymR642xfcPSnT-Y2EUIOv68tbUY71u6jdQ
+          - generic [ref=f35e479]:
+            - generic [ref=f35e482]:
+              - 'link "Cegeka sucht Solution Architekt* #11297 in Metropole Ruhr LinkedIn https://de.linkedin.com › jobs › view" [ref=f35e484] [cursor=pointer]':
+                - /url: /goto?url=CAESjQEB6zswFcDVtsafv7r9ea9YTePROh1Kf6ql8NL4ct2QIJn7sbej_RVpDLglzfVHeFLZ_bBOXdnG6yKBQavZzHWuUAGpiXVvAPbTWSj3hbqGyjNV_0Wn4_-UXjuv8cQuz6Ca7vjH868Wf38doxTLGQpLH84OXS7YYmtJ831yLzLAGXJmBE8nIwux7uYnJ7U
+                - 'heading "Cegeka sucht Solution Architekt* #11297 in Metropole Ruhr" [level=3] [ref=f35e485]'
+                - generic [ref=f35e491]:
+                  - generic [ref=f35e492]: LinkedIn
+                  - generic [ref=f35e494]: https://de.linkedin.com › jobs › view
+              - generic [ref=f35e496]:
+                - generic [ref=f35e497]: ·
+                - link "Translate this page" [ref=f35e498] [cursor=pointer]:
+                  - /url: /goto?url=CAES2QEB6zswFbfqDz0WlWK4vQxyEw_ISQ3Zym8jbemDKWDC-AZGwt9zAYuCMOpANl_tlnEXitwfhceKWAaE07OjoQ9wRcYPzfuLZbVSXdptioYtojxWlNfvmH0O_r1k1eS0nVSHmVy5GqSWVxXLDQeGn19fn7zS81TQqX1pn8ROnNPM8CT8ybF10AlfIUkYxOysfCi6P0AXJg0QmlZhUDYGXwPf8nstK3cObQ25zFlmLnAsYkQsm8U8V1jGtmz5-b2DXTrPBosWtl8gyLBA7QQDG1NXOUuo5KTqYTby
+              - button "About this result" [ref=f35e503] [cursor=pointer]
+            - generic [ref=f35e509]:
+              - generic [ref=f35e510]: 1 day ago —
+              - generic [ref=f35e511]:
+                - text: Kontakt
+                - emphasis [ref=f35e512]: Cegeka
+                - text: Deutschland GmbH Susanne Karopka Martin-Behaim-Straße 22 63263 Neu-Isenburg Tel +49 6102 8235 832
+                - emphasis [ref=f35e513]: E
+                - text: "-Mail susanne.karopka@"
+                - emphasis [ref=f35e514]: cegeka
+                - text: . ...
+        - generic [ref=f35e516]:
+          - generic [ref=f35e517]:
+            - heading "Notices about Filtered Results" [level=2] [ref=f35e518]
+            - paragraph [ref=f35e520]:
+              - generic [ref=f35e521]:
+                - text: In order to show you the most relevant results, we have omitted some entries very similar to the 6 already displayed.If you like, you can
+                - link "repeat the search with the omitted results included" [ref=f35e522] [cursor=pointer]:
+                  - /url: /search?q=Cegeka+Architect+im+Bereich+E-Commerce+11246&sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvH71yQHAcYERuZtSJlIYQaZi6dUA:1792691357819&filter=0
+                - text: .
+          - navigation
+        - navigation
+    - contentinfo [ref=f35e523]:
+      - heading "Footer links" [level=1] [ref=f35e524]
+      - generic [ref=f35e528]:
+        - generic [ref=f35e530]:
+          - text: India
+          - generic [ref=f35e532]:
+            - button "Doddathoguru, Electronic City, Doddathoguru, Karnataka - From your IP address" [ref=f35e534] [cursor=pointer]:
+              - generic [ref=f35e535]: Doddathoguru, Electronic City, Doddathoguru, Karnataka
+              - generic [ref=f35e537]:
+                - text: "-"
+                - generic [ref=f35e538]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f35e540] [cursor=pointer]
+        - generic [ref=f35e543]:
+          - link "Help" [ref=f35e544] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f35e546] [cursor=pointer]
+          - link "Privacy" [ref=f35e548] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f35e549] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

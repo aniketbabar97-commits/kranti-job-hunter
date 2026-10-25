@@ -1,0 +1,554 @@
+- generic [active] [ref=f26e1]:
+  - region [ref=f26e2]:
+    - generic [ref=f26e3]:
+      - generic [ref=f26e5]:
+        - img "Logo" [ref=f26e7]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster" [ref=f26e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f26e36]:
+        - tab "Zustimmung" [selected] [ref=f26e37] [cursor=pointer]
+        - tab "Details" [ref=f26e38] [cursor=pointer]
+        - tab "Über Cookies" [ref=f26e39] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=f26e41]:
+        - generic [ref=f26e43]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=f26e44]
+          - generic [ref=f26e45]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
+      - generic [ref=f26e49]:
+        - button "Ablehnen oder Einstellungen" [ref=f26e50] [cursor=pointer]
+        - button "Alle zulassen" [ref=f26e52] [cursor=pointer]
+  - generic [ref=f26e54]:
+    - banner [ref=f26e55]:
+      - generic [ref=f26e57]:
+        - list [ref=f26e59]:
+          - listitem [ref=f26e60]:
+            - strong [ref=f26e64]: Über 200.000 Werbeartikel
+            - text: mit Logo
+          - listitem [ref=f26e65]:
+            - strong [ref=f26e69]: Persönliche Beratung
+        - menubar [ref=f26e70]:
+          - menuitem "Unternehmen" [ref=f26e71] [cursor=pointer]
+          - menuitem "Service" [ref=f26e72] [cursor=pointer]
+      - generic [ref=f26e73]:
+        - banner [ref=f26e76]:
+          - link [ref=f26e78] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/
+            - img "Pro-Discount Werbeartikel - zur Startseite wechseln" [ref=f26e80]
+        - link "Persönliche Beratung 05121 69707-0" [ref=f26e81] [cursor=pointer]:
+          - /url: tel:+495121697070
+          - generic [ref=f26e85]:
+            - generic [ref=f26e86]: Persönliche Beratung
+            - generic [ref=f26e87]: 05121 69707-0
+        - navigation [ref=f26e88]:
+          - menubar [ref=f26e89]:
+            - menuitem [ref=f26e90]:
+              - generic [ref=f26e91]:
+                - searchbox "Suchbegriff eingeben" [ref=f26e92]
+                - button [ref=f26e93] [cursor=pointer]
+            - menuitem [ref=f26e98]:
+              - link "Merkliste" [ref=f26e99] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/note
+            - menuitem [ref=f26e103]:
+              - link "Kontakt" [ref=f26e104] [cursor=pointer]:
+                - /url: /Kontakt-und-Beratung
+            - menuitem [ref=f26e109]:
+              - link "Konto" [ref=f26e110] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/account
+              - text: 
+            - menuitem [ref=f26e116]:
+              - link "Warenkorb" [ref=f26e117] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/checkout/cart
+        - iframe [ref=f26e127]:
+          - generic [ref=f28e2]:
+            - link "Trustpilot-Bewertungen" [ref=f28e3] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/review/www.pro-discount-werbeartikel.de?utm_medium=trustbox&utm_source=Mini
+              - img "Trustpilot" [ref=f28e7]
+              - img "4.6 von 5 Sternen auf Trustpilot" [ref=f28e15]
+              - generic [ref=f28e35]:
+                - generic [aria-hidden] [ref=f28e36]:
+                  - text: TrustScore
+                  - strong [ref=f28e37]: "4.6"
+                - generic [ref=f28e38]:
+                  - strong [ref=f28e39]: "808"
+                  - text: Bewertungen
+            - generic [ref=f28e40]: Bewertet mit 4.6 von 5. 808 Bewertungen auf Trustpilot
+            - generic [ref=f28e41]: Klicken Sie hier, um das Trustpilot-Profil des Unternehmens anzuzeigen
+    - navigation [ref=f26e128]:
+      - generic [ref=f26e129]:
+        - menubar [ref=f26e131]:
+          - menuitem [ref=f26e132]:
+            - link "Sortiment" [ref=f26e133] [cursor=pointer]:
+              - /url: https://www.pro-discount-werbeartikel.de/Sortiment
+          - menuitem [ref=f26e136]:
+            - link "Werbeartikel Blog" [ref=f26e137] [cursor=pointer]:
+              - /url: https://www.pro-discount-werbeartikel.de/Werbeartikel-Blog
+        - text:                                                            
+  - generic [ref=f26e138]:
+    - navigation [ref=f26e139]:
+      - menu [ref=f26e140]:
+        - menuitem [ref=f26e141]:
+          - link "Aktuelle Stellenangebote 2025" [ref=f26e142] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Jobs
+    - generic [ref=f26e144]:
+      - complementary [ref=f26e145]:
+        - text: 
+        - generic [ref=f26e146]:
+          - text: 
+          - generic [ref=f26e147]:
+            - generic [ref=f26e148]: Stellenanzeigen
+            - menu [ref=f26e149]:
+              - menuitem [ref=f26e150]:
+                - link "Jobs" [ref=f26e151] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Jobs
+              - menuitem [ref=f26e152]:
+                - link "E-Commerce Developer / Projektleiter (m/w/d) in Festanstellung" [ref=f26e153] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/E-Commerce-Developer/Projektleiter-m/w/d-in-Festanstellung
+              - menuitem [ref=f26e154]:
+                - link "Senior Online Marketing Manager SEO/SEA/AIO (m/w/d)" [ref=f26e155] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Senior-Online-Marketing-Manager-SEO/SEA/AIO-m/w/d
+              - menuitem [ref=f26e156]:
+                - link "Webshop Product Data & Content Manager*in (m/w/d)" [ref=f26e157] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Webshop-Product-Data-Content-Manager-in-m/w/d
+              - menuitem [ref=f26e158]:
+                - link "Produktioner*in / Grafiker*in / Medienproduktioner*in" [ref=f26e159] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Produktioner-in/Grafiker-in/Medienproduktioner-in
+              - menuitem [ref=f26e160]:
+                - link "Mitarbeiter für die Buchhaltung (m/w/d)" [ref=f26e161] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Mitarbeiter-fuer-die-Buchhaltung-m/w/d
+              - menuitem [ref=f26e162]:
+                - link "Mitarbeiter für unsere Grafik-Abteilung (m/w/d)" [ref=f26e163] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Mitarbeiter-fuer-unsere-Grafik-Abteilung-m/w/d
+              - menuitem [ref=f26e164]:
+                - link "Ausbildungsplatz Kaufmann / Kauffrau im Groß- u. Außenhandel" [ref=f26e165] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Ausbildungsplatz-Kaufmann/Kauffrau-im-Gross-u.-Aussenhandel
+              - menuitem [ref=f26e166]:
+                - link "Duales Studium BWL - Accounting & Controlling (B.A.)" [ref=f26e167] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Duales-Studium-BWL-Accounting-Controlling-B.A.
+              - menuitem [ref=f26e168]:
+                - link "Koch / Köchin (m/w/d)" [ref=f26e169] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Koch/Koechin-m/w/d
+              - menuitem [ref=f26e170]:
+                - link "Reinigungskraft für Büroräume (m/w/d)" [ref=f26e171] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Reinigungskraft-fuer-Bueroraeume-m/w/d
+      - generic [ref=f26e174]:
+        - heading "Jobs" [level=1] [ref=f26e175]
+        - generic [ref=f26e176]:
+          - heading "Aktuelle Stellenangebote 2025" [level=2] [ref=f26e177]
+          - list [ref=f26e178]:
+            - listitem [ref=f26e179]:
+              - link "E-Commerce Developer / Projektleiter (m/w/d)" [ref=f26e180] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/E-Commerce-Developer/Projektleiter-m/w/d-in-Festanstellung
+            - listitem [ref=f26e181]:
+              - link "Senior Online Marketing Manager SEO/SEA/AIO (m/w/d)" [ref=f26e182] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Senior-Online-Marketing-Manager-SEO/SEA/AIO-m/w/d
+            - listitem [ref=f26e183]:
+              - link "Webshop Product Data & Content Manager*in (m/w/d)" [ref=f26e184] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Webshop-Product-Data-Content-Manager-in-m/w/d
+            - listitem [ref=f26e185]:
+              - link "Produktioner*in / Grafiker*in / Medienproduktioner*in" [ref=f26e186] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Produktioner-in/Grafiker-in/Medienproduktioner-in
+            - listitem [ref=f26e187]:
+              - link "Mitarbeiter für die Buchhaltung (m/w/d)" [ref=f26e188] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Mitarbeiter-fuer-die-Buchhaltung-m/w/d
+            - listitem [ref=f26e189]:
+              - link "Mitarbeiter für unsere Grafik-Abteilung (m/w/d)" [ref=f26e190] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Mitarbeiter-fuer-unsere-Grafik-Abteilung-m/w/d
+            - listitem [ref=f26e191]:
+              - link "Ausbildungsplatz Kaufmann / Kauffrau im Groß- u. Außenhandel" [ref=f26e192] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Ausbildungsplatz-Kaufmann/Kauffrau-im-Gross-u.-Aussenhandel
+            - listitem [ref=f26e193]:
+              - link "Duales Studium BWL - Accounting & Controlling (B.A.)" [ref=f26e194] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Duales-Studium-BWL-Accounting-Controlling-B.A.
+            - listitem [ref=f26e195]:
+              - link "Koch / Köchin (m/w/d)" [ref=f26e196] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Koch/Koechin-m/w/d
+            - listitem [ref=f26e197]:
+              - link "Reinigungskraft für Büroräume (m/w/d)" [ref=f26e198] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Reinigungskraft-fuer-Bueroraeume-m/w/d
+        - generic [ref=f26e199]:
+          - heading "Eine Oase in der Arbeitswelt" [level=2] [ref=f26e200]
+          - 'heading "Unsere Kultur: Innovation, Eigenverantwortung & Teamgeist" [level=2] [ref=f26e201]'
+          - paragraph [ref=f26e202]: Unser Unternehmen ist mehr als nur ein Arbeitsplatz – es ist ein Ort, an dem Innovation auf Gemeinschaft trifft und Mitarbeiter nicht nur Kollegen, sondern Teil eines harmonischen Teams sind. Mit flachen Hierarchien, einem kollegialen Miteinander und einer modernen, technikaffinen Arbeitsweise schaffen wir ein Umfeld, in dem sich jeder wohlfühlen und aktiv einbringen kann.
+          - heading "Wohlfühlatmosphäre & Benefits, die wirklich zählen" [level=2] [ref=f26e203]
+          - paragraph [ref=f26e204]: "Wir legen großen Wert darauf, dass sich unsere Mitarbeiter nicht nur beruflich, sondern auch persönlich entfalten können. Das beginnt beim frisch gekochten Mittagessen und reicht über kostenfreie Getränke, Obst und Fitness-Snacks bis hin zu einer Hansefit-Mitgliedschaft. Unser Standort im Grünen lädt zu kleinen Pausen-Walks ein, und wer seinen Hund mitbringen möchte – herzlich willkommen! Zwei Tage Homeoffice pro Woche bieten zusätzliche Flexibilität. Und das Beste: Jeder darf seine eigene Playlist hören und seinen Arbeitsplatz so gestalten, wie es am besten passt."
+          - heading "Karriere & Entwicklungsmöglichkeiten" [level=2] [ref=f26e205]
+          - paragraph [ref=f26e206]: Egal ob in Verkauf, Grafik, Programmierung, Produktion oder Import – bei uns gibt es vielseitige Entwicklungsperspektiven. Wir fördern unsere Mitarbeiter durch Mentoring, Weiterbildungsbudgets und die Möglichkeit, z. B. einen Ausbilderschein oder sonstige Fortbildungen zu machen. Wer sich engagiert, hat die Chance, Verantwortung zu übernehmen und seine eigene Karriere aktiv zu gestalten.
+          - heading "Unsere Vision & deine Rolle darin" [level=2] [ref=f26e207]
+          - paragraph [ref=f26e208]: Wir wachsen stetig und haben große Pläne für die Zukunft. Um unsere Position weiter auszubauen, setzen wir auf ein starkes Team, das Innovation lebt und Herausforderungen mit Begeisterung annimmt. Unsere Mitarbeiter spielen dabei eine zentrale Rolle – denn unser Erfolg entsteht durch ihre Ideen, ihr Engagement und ihre Leidenschaft.
+          - heading "Dein perfekter Arbeitsplatz?" [level=2] [ref=f26e209]
+          - blockquote [ref=f26e210]: „Ich bin zufrieden und will nichts ändern.“
+          - paragraph [ref=f26e211]: Wenn du in einem Jahr zurückblickst und das sagen kannst, dann wissen wir, dass wir unser Ziel erreicht haben.
+          - paragraph [ref=f26e212]:
+            - strong [ref=f26e213]: Willst du Teil dieser besonderen Unternehmenskultur werden?
+            - text: Dann freuen wir uns darauf, dich kennenzulernen!
+          - generic [ref=f26e215]:
+            - paragraph [ref=f26e216]: "✉️ Bewirb dich jetzt per E-Mail:"
+            - paragraph [ref=f26e217]:
+              - link "jobs@pro-discount.one" [ref=f26e218] [cursor=pointer]:
+                - /url: mailto:jobs@pro-discount.one
+  - iframe [ref=f26e221]:
+    - generic [ref=f29e2]:
+      - link "Trustpilot-Bewertungen. Bewertet mit Hervorragend. 4.6 von 5. Basierend auf 808 Bewertungen auf Trustpilot. Klicken Sie, um das Trustpilot-Profil anzuzeigen." [ref=f29e4] [cursor=pointer]:
+        - /url: https://de.trustpilot.com/review/www.pro-discount-werbeartikel.de?utm_medium=trustbox&utm_source=Carousel
+        - generic [ref=f29e5]: Hervorragend
+        - img "4.6 von 5 Sternen auf Trustpilot" [ref=f29e10]
+        - generic [ref=f29e30]:
+          - text: Basierend auf
+          - strong [ref=f29e31]: 808 Bewertungen
+        - img "Trustpilot" [ref=f29e35]
+      - generic [ref=f29e39]:
+        - generic:
+          - button "Karussell nach links scrollen" [disabled]
+        - button "Karussell nach rechts scrollen" [ref=f29e41] [cursor=pointer]
+        - list "Einige unserer 4- & 5-Sterne-Bewertungen" [ref=f29e48]:
+          - listitem [ref=f29e49]:
+            - generic [ref=f29e50]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e55]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e77] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e84]: Auf Einladung
+            - link "Bewertung von Anja Gerhold, vor 3 Tagen Sehr freundlich und hilfsbereit. Sehr freundlich und hilfsbereit. Top-Produkt Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e85] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ad9e211ad8f48b0914c90ae?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e86]:
+                - generic [ref=f29e87]:
+                  - generic [ref=f29e88]: Bewertung von
+                  - generic [ref=f29e89]: Anja Gerhold,
+                  - generic [ref=f29e90]: vor 3 Tagen
+                - generic [ref=f29e91]: Sehr freundlich und hilfsbereit.
+                - generic [ref=f29e92]: Sehr freundlich und hilfsbereit. Top-Produkt
+                - generic [ref=f29e93]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e94]:
+            - generic [ref=f29e95]:
+              - img "4 von 5 Sternen auf Trustpilot" [ref=f29e100]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e122] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e129]: Auf Einladung
+            - link "Bewertung von Monika Breuning, 15 Oktober Bestellen Bestellen, kaufen aber leider sofort bezahlen Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e130] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ad0dbbb2b4a4d1bb7eacd49?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e131]:
+                - generic [ref=f29e132]:
+                  - generic [ref=f29e133]: Bewertung von
+                  - generic [ref=f29e134]: Monika Breuning,
+                  - generic [ref=f29e135]: 15 Oktober
+                - generic [ref=f29e136]: Bestellen
+                - generic [ref=f29e137]: Bestellen, kaufen aber leider sofort bezahlen
+                - generic [ref=f29e138]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e139]:
+            - generic [ref=f29e140]:
+              - img "4 von 5 Sternen auf Trustpilot" [ref=f29e145]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e167] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e174]: Auf Einladung
+            - link "Bewertung von Doris Halba, 14 Oktober Das Produkt ist einfach aber effektiv. Das Produkt ist einfach aber effektiv. Lieferung hat etwa lange gedauert. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e175] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acf3d621ca3a6a5ad923b20?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e176]:
+                - generic [ref=f29e177]:
+                  - generic [ref=f29e178]: Bewertung von
+                  - generic [ref=f29e179]: Doris Halba,
+                  - generic [ref=f29e180]: 14 Oktober
+                - generic [ref=f29e181]: Das Produkt ist einfach aber effektiv.
+                - generic [ref=f29e182]: Das Produkt ist einfach aber effektiv. Lieferung hat etwa lange gedauert.
+                - generic [ref=f29e183]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e184]:
+            - generic [ref=f29e185]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e190]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e212] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e219]: Auf Einladung
+            - link "Bewertung von Petra Morawietz, 13 Oktober Die Aufträge werden zügig und präzise… Die Aufträge werden zügig und präzise abgewickelt, während die Ware stets durch... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e220] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acde29b5bf74b15346402ba?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e221]:
+                - generic [ref=f29e222]:
+                  - generic [ref=f29e223]: Bewertung von
+                  - generic [ref=f29e224]: Petra Morawietz,
+                  - generic [ref=f29e225]: 13 Oktober
+                - generic [ref=f29e226]: Die Aufträge werden zügig und präzise…
+                - generic [ref=f29e227]: Die Aufträge werden zügig und präzise abgewickelt, während die Ware stets durch...
+                - generic [ref=f29e228]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e229]:
+            - generic [ref=f29e230]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e235]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e257] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e264]: Auf Einladung
+            - link "Bewertung von horefe by Sonja Kloos, 13 Oktober Anti-Stresswürfel ohne Stress bestellt Wir arbeiten seit zwei Jahren bei unserer Messevorbereitung mit Pro-Discount. To... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e265] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acddddf3052c545a7b41176?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e266]:
+                - generic [ref=f29e267]:
+                  - generic [ref=f29e268]: Bewertung von
+                  - generic [ref=f29e269]: horefe by Sonja Kloos,
+                  - generic [ref=f29e270]: 13 Oktober
+                - generic [ref=f29e271]: Anti-Stresswürfel ohne Stress bestellt
+                - generic [ref=f29e272]: Wir arbeiten seit zwei Jahren bei unserer Messevorbereitung mit Pro-Discount. To...
+                - generic [ref=f29e273]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e274]:
+            - generic [ref=f29e275]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e280]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e302] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e309]: Auf Einladung
+            - link "Bewertung von Claas Pantaenius, 29 September Schnelle Produktion und Lieferung trotz… Schnelle Produktion und Lieferung trotz sehr engem Timing. Termin vorab zugesagt... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e310] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6abbde0163e2e368ddc091bd?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e311]:
+                - generic [ref=f29e312]:
+                  - generic [ref=f29e313]: Bewertung von
+                  - generic [ref=f29e314]: Claas Pantaenius,
+                  - generic [ref=f29e315]: 29 September
+                - generic [ref=f29e316]: Schnelle Produktion und Lieferung trotz…
+                - generic [ref=f29e317]: Schnelle Produktion und Lieferung trotz sehr engem Timing. Termin vorab zugesagt...
+                - generic [ref=f29e318]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e319]:
+            - generic [ref=f29e320]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e325]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e347] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e354]: Auf Einladung
+            - link "Bewertung von Elisabete da Silva, 22 September Sehr guter und professioneller Service Sehr guter und professioneller Service! Besonders bedanken möchten wir uns bei H... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e355] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ab246398de20cb24b7f649b?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e356]:
+                - generic [ref=f29e357]:
+                  - generic [ref=f29e358]: Bewertung von
+                  - generic [ref=f29e359]: Elisabete da Silva,
+                  - generic [ref=f29e360]: 22 September
+                - generic [ref=f29e361]: Sehr guter und professioneller Service
+                - generic [ref=f29e362]: Sehr guter und professioneller Service! Besonders bedanken möchten wir uns bei H...
+                - generic [ref=f29e363]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e364]:
+            - generic [ref=f29e365]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e370]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e392] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e399]: Auf Einladung
+            - link "Bewertung von Stiftung Standortsicherung, 22 September Gerne wieder Zuverlässig, schnell, jederzeit auf dem Laufenden über den Status der Bestellung... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e400] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ab2383478fb38616db99637?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e401]:
+                - generic [ref=f29e402]:
+                  - generic [ref=f29e403]: Bewertung von
+                  - generic [ref=f29e404]: Stiftung Standortsicherung,
+                  - generic [ref=f29e405]: 22 September
+                - generic [ref=f29e406]: Gerne wieder
+                - generic [ref=f29e407]: Zuverlässig, schnell, jederzeit auf dem Laufenden über den Status der Bestellung...
+                - generic [ref=f29e408]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e409]:
+            - generic [ref=f29e410]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e415]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e437] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e444]: Auf Einladung
+            - link "Bewertung von TKV Stuttgart, 20 September Empfehlenswert Es lief soweit reibungslos und sehr zügig. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e445] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aaf972693785b038af74ca5?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e446]:
+                - generic [ref=f29e447]:
+                  - generic [ref=f29e448]: Bewertung von
+                  - generic [ref=f29e449]: TKV Stuttgart,
+                  - generic [ref=f29e450]: 20 September
+                - generic [ref=f29e451]: Empfehlenswert
+                - generic [ref=f29e452]: Es lief soweit reibungslos und sehr zügig.
+                - generic [ref=f29e453]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e454]:
+            - generic [ref=f29e455]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e460]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e482] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e489]: Auf Einladung
+            - link "Bewertung von Florian, 18 September Alles gut gelaufen Alles gut gelaufen! Freundliches Team. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e490] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aad3687d6c1fe092bf63a2b?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e491]:
+                - generic [ref=f29e492]:
+                  - generic [ref=f29e493]: Bewertung von
+                  - generic [ref=f29e494]: Florian,
+                  - generic [ref=f29e495]: 18 September
+                - generic [ref=f29e496]: Alles gut gelaufen
+                - generic [ref=f29e497]: Alles gut gelaufen! Freundliches Team.
+                - generic [ref=f29e498]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e499]:
+            - img "5 von 5 Sternen auf Trustpilot" [ref=f29e505]
+            - link "Bewertung von Sghairi Maria, 15 September Ich war sehr zufrieden top Qualität … Ich war sehr zufrieden top Qualität kann ich nur Weiterempfehlen Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e525] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa9574d6b476eecfb172e97?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e526]:
+                - generic [ref=f29e527]:
+                  - generic [ref=f29e528]: Bewertung von
+                  - generic [ref=f29e529]: Sghairi Maria,
+                  - generic [ref=f29e530]: 15 September
+                - generic [ref=f29e531]: Ich war sehr zufrieden top Qualität …
+                - generic [ref=f29e532]: Ich war sehr zufrieden top Qualität kann ich nur Weiterempfehlen
+                - generic [ref=f29e533]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e534]:
+            - generic [ref=f29e535]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e540]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e562] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e569]: Auf Einladung
+            - link "Bewertung von Hambsch Petra, 11 September Tolle Produkte Tolle Produkte - von Bestellung bis Auslieferung und Empfang der Ware alles Top... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e570] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa3df4799296009542635bb?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e571]:
+                - generic [ref=f29e572]:
+                  - generic [ref=f29e573]: Bewertung von
+                  - generic [ref=f29e574]: Hambsch Petra,
+                  - generic [ref=f29e575]: 11 September
+                - generic [ref=f29e576]: Tolle Produkte
+                - generic [ref=f29e577]: Tolle Produkte - von Bestellung bis Auslieferung und Empfang der Ware alles Top...
+                - generic [ref=f29e578]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e579]:
+            - generic [ref=f29e580]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e585]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e607] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e614]: Auf Einladung
+            - link "Bewertung von Hartmut Petersen, 10 September Top Qualität und Betreuung im Prozess der Bestellung Sehr netter Kontakt, hilfreich und zuvorkommend. Gute Information und Erreichbar... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e615] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa287883b031d972db63e2a?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e616]:
+                - generic [ref=f29e617]:
+                  - generic [ref=f29e618]: Bewertung von
+                  - generic [ref=f29e619]: Hartmut Petersen,
+                  - generic [ref=f29e620]: 10 September
+                - generic [ref=f29e621]: Top Qualität und Betreuung im Prozess der Bestellung
+                - generic [ref=f29e622]: Sehr netter Kontakt, hilfreich und zuvorkommend. Gute Information und Erreichbar...
+                - generic [ref=f29e623]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e624]:
+            - img "5 von 5 Sternen auf Trustpilot" [ref=f29e630]
+            - link "Bewertung von Hambsch Petra, 28 August TOP - hier bestelle ich gerne vielen Dank für die ultraschnelle Bearbeitung – so macht die Arbeit Spaß! 😊 Ult... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e650] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6a914e4ff5c8a5f53a8e72b8?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e651]:
+                - generic [ref=f29e652]:
+                  - generic [ref=f29e653]: Bewertung von
+                  - generic [ref=f29e654]: Hambsch Petra,
+                  - generic [ref=f29e655]: 28 August
+                - generic [ref=f29e656]: TOP - hier bestelle ich gerne
+                - generic [ref=f29e657]: vielen Dank für die ultraschnelle Bearbeitung – so macht die Arbeit Spaß! 😊 Ult...
+                - generic [ref=f29e658]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f29e659]:
+            - generic [ref=f29e660]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f29e665]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f29e687] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f29e694]: Auf Einladung
+            - link "Bewertung von Martina Ter Smitten, 17 August zuverlässig und pünktliche Lieferung… zuverlässig und pünktliche Lieferung des Musterartikels Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f29e695] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6a82afa446c5706e76176aaa?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f29e696]:
+                - generic [ref=f29e697]:
+                  - generic [ref=f29e698]: Bewertung von
+                  - generic [ref=f29e699]: Martina Ter Smitten,
+                  - generic [ref=f29e700]: 17 August
+                - generic [ref=f29e701]: zuverlässig und pünktliche Lieferung…
+                - generic [ref=f29e702]: zuverlässig und pünktliche Lieferung des Musterartikels
+                - generic [ref=f29e703]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+        - generic [aria-hidden] [ref=f29e704]: Einige unserer 4- & 5-Sterne-Bewertungen
+  - contentinfo [ref=f26e222]:
+    - generic [ref=f26e223]:
+      - generic [ref=f26e224]:
+        - generic [ref=f26e225]:
+          - generic [ref=f26e226]: Beratung
+          - paragraph [ref=f26e228]:
+            - text: "Online:"
+            - link "Kontaktformular" [ref=f26e229] [cursor=pointer]:
+              - /url: /Kontakt-und-Beratung
+            - text: "E-Mail:"
+            - link "kontakt@pro-discount.de" [ref=f26e230] [cursor=pointer]:
+              - /url: mailto:kontakt@pro-discount.de
+            - text: "Telefon:"
+            - link "0049 5121 69707 0" [ref=f26e231] [cursor=pointer]:
+              - /url: tel:00495121697070
+            - strong [ref=f26e232]: "Unser Team ist erreichbar:"
+            - text: "Mo - Do: 9:00 - 17:45 Uhr Fr: 9:00 - 15:45 Uhr"
+        - generic [ref=f26e233]:
+          - generic [ref=f26e234]: Unternehmen
+          - navigation [ref=f26e235]:
+            - menu [ref=f26e236]:
+              - menuitem [ref=f26e237]:
+                - link "Über Pro-Discount®" [ref=f26e238] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/UEber-Pro-Discount
+              - menuitem [ref=f26e239]:
+                - link "Presse" [ref=f26e240] [cursor=pointer]:
+                  - /url: https://www.openpr.de/pressemitteilungen/pro-discount-import-export-werbeartikel-0228571/
+              - menuitem [ref=f26e241]:
+                - link "Referenzen" [ref=f26e242] [cursor=pointer]:
+                  - /url: https://www.werbemittel-werbeartikel.com/galerie?q=Referenz01
+              - menuitem [ref=f26e243]:
+                - link "Impressum" [ref=f26e244] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Impressum
+              - menuitem [ref=f26e245]:
+                - link "Jobs" [ref=f26e246] [cursor=pointer]:
+                  - /url: /Jobs
+              - menuitem [ref=f26e247]:
+                - link "AGB" [ref=f26e248] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/AGB
+              - menuitem [ref=f26e249]:
+                - link "Datenschutz" [ref=f26e250] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Datenschutz
+              - menuitem [ref=f26e251]:
+                - link "Widerruf" [ref=f26e252] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Widerruf
+              - menuitem [ref=f26e253]:
+                - link "Widerrufs-Formular" [ref=f26e254] [cursor=pointer]:
+                  - /url: /Widerrufsformular
+              - menuitem [ref=f26e255]:
+                - link "Bio-Bescheinigung" [ref=f26e256] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Bio-Bescheinigung.pdf
+        - generic [ref=f26e257]:
+          - generic [ref=f26e258]:
+            - generic [ref=f26e259]: Service
+            - navigation [ref=f26e260]:
+              - menu [ref=f26e261]:
+                - menuitem [ref=f26e262]:
+                  - link "FAQ" [ref=f26e263] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/faq
+                - menuitem [ref=f26e264]:
+                  - link "Werbeanbringung" [ref=f26e265] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Werbeanbringung
+                - menuitem [ref=f26e266]:
+                  - link "Datenanlieferung" [ref=f26e267] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Datenanlieferung
+                - menuitem [ref=f26e268]:
+                  - link "Grafik-Service" [ref=f26e269] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Grafik-Service
+                - menuitem [ref=f26e270]:
+                  - link "Vertrag widerrufen" [ref=f26e271] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Widerrufsformular
+          - generic [ref=f26e272]:
+            - generic [ref=f26e273]: Social
+            - navigation [ref=f26e274]:
+              - menu [ref=f26e275]:
+                - menuitem [ref=f26e276]:
+                  - link "Instagram" [ref=f26e277] [cursor=pointer]:
+                    - /url: https://www.instagram.com/prodiscountwerbeartikel/
+                - menuitem [ref=f26e280]:
+                  - link "Facebook" [ref=f26e281] [cursor=pointer]:
+                    - /url: https://www.facebook.com/ProDiscounter/
+        - generic [ref=f26e284]:
+          - generic [ref=f26e285]: Top-Kategorien
+          - navigation [ref=f26e286]:
+            - menu [ref=f26e287]:
+              - menuitem [ref=f26e288]:
+                - link "Kaffeebecher & Tassen" [ref=f26e289] [cursor=pointer]:
+                  - /url: /Kaffeebecher-Tassen
+              - menuitem [ref=f26e290]:
+                - link "Trinkflaschen" [ref=f26e291] [cursor=pointer]:
+                  - /url: /Trinkflaschen
+              - menuitem [ref=f26e292]:
+                - link "Schirme" [ref=f26e293] [cursor=pointer]:
+                  - /url: /Schirme
+              - menuitem [ref=f26e294]:
+                - link "Feuerzeuge" [ref=f26e295] [cursor=pointer]:
+                  - /url: /Feuerzeuge
+              - menuitem [ref=f26e296]:
+                - link "Baumwolltaschen" [ref=f26e297] [cursor=pointer]:
+                  - /url: /Baumwolltaschen
+              - menuitem [ref=f26e298]:
+                - link "Kugelschreiber" [ref=f26e299] [cursor=pointer]:
+                  - /url: /Kugelschreiber
+              - menuitem [ref=f26e300]:
+                - link "Kühltaschen" [ref=f26e301] [cursor=pointer]:
+                  - /url: /Kuehltaschen
+              - menuitem [ref=f26e302]:
+                - link "Rucksäcke" [ref=f26e303] [cursor=pointer]:
+                  - /url: /Rucksaecke
+              - menuitem [ref=f26e304]:
+                - link "Powerbanks" [ref=f26e305] [cursor=pointer]:
+                  - /url: /Powerbanks
+      - generic [ref=f26e306]:
+        - img "26 Jahre Werbeartikel-Experte" [ref=f26e308]
+        - generic [ref=f26e309]:
+          - paragraph [ref=f26e311]: Alle Preise verstehen sich zzgl. Mehrwertsteuer und Versandkosten, wenn nicht anders beschrieben.Wir liefern Werbeartikel, Werbemittel, Werbegeschenke Streuartikel und Giveaways mit Ihrem Logo.
+          - paragraph [ref=f26e312]: © 2026 Pro-Discount Werbeartikel
+  - button "Accessibility Tool ausklappen" [ref=f26e313] [cursor=pointer]
+  - iframe [aria-hidden] [ref=f26e314]

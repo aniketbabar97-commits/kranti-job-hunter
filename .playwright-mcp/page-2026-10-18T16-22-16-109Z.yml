@@ -1,0 +1,282 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Zu den Hauptinhalten springen" [ref=f1e2] [cursor=pointer]
+      - link "Hilfe zur Barrierefreiheit" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=de
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e12]:
+        - link [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=de&ictx=0&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQpYkNegQIBhAG
+          - img "Weiter zur Google‑Startseite" [ref=f1e14]
+        - generic [ref=f1e19]:
+          - combobox "Suche" [ref=f1e21]: Deichmann "CRM Business Analyst" deichmann-karriere.de Deichmann "CRM Business Analyst" deichmann-karriere.de
+          - generic [ref=f1e22]:
+            - button "Löschen" [ref=f1e26] [cursor=pointer]
+            - generic [ref=f1e31]:
+              - button "Sprachsuche" [ref=f1e34] [cursor=pointer]
+              - button "Suche anhand von Bildern" [ref=f1e39] [cursor=pointer]
+    - generic [ref=f1e42]:
+      - button "Einstellungen" [ref=f1e44] [cursor=pointer]
+      - button "Teilen" [ref=f1e49] [cursor=pointer]
+      - generic [ref=f1e55]:
+        - button "Google-Apps" [ref=f1e57] [cursor=pointer]
+        - link "Anmelden" [ref=f1e62] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=de&passive=true&continue=https://www.google.com/search%3Fq%3DDeichmann%2B%2522CRM%2BBusiness%2BAnalyst%2522%2Bdeichmann-karriere.de&ec=futura_srp_og_si_72236_p
+  - generic [ref=f1e64]:
+    - navigation [ref=f1e70]:
+      - generic [ref=f1e76]:
+        - list [ref=f1e77]:
+          - listitem [ref=f1e78]:
+            - link "KI‑Modus" [ref=f1e81] [cursor=pointer]:
+              - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&udm=50&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ2J8OegQIExAD
+          - listitem [ref=f1e85]:
+            - link "Alle" [disabled] [ref=f1e86]
+          - listitem [ref=f1e89]:
+            - link "News" [ref=f1e90] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&tbm=nws&source=lnms&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ0pQJegQIGRAB
+          - listitem [ref=f1e93]:
+            - link "Kurze Videos" [ref=f1e94] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&udm=39&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQs6gLegQIGBAB
+          - listitem [ref=f1e97]:
+            - link "Bilder" [ref=f1e98] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&udm=2&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQtKgLegQIFxAB
+          - listitem [ref=f1e101]:
+            - link "Videos" [ref=f1e102] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&udm=vids&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQtKgLegQIFRAB
+          - listitem [ref=f1e105]:
+            - link "Web" [ref=f1e106] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&udm=web&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKItNWHuk6AyfPtI3gVM3SdHTDy737MQvU-YrbFzgKFQWcGDwo1k2aoFNF8jXR6f2rWJkRkUw9fXjGzORBvU7ISwZI0w3Dm-5BCiSl1F3d0nwNjE_F_3s80rvZlaiE8r-ulzS_YVsZz9QkymYooTPFi9iHC3R97ISGpP9XcYKCCLejKr4b&q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQs6gLegQIFhAB
+          - listitem [ref=f1e109]:
+            - button [ref=f1e110] [cursor=pointer]:
+              - generic "Weitere Filter" [ref=f1e111]: Mehr
+        - button "Suchfilter" [ref=f1e118] [cursor=pointer]
+    - heading "Suchergebnisse" [level=1] [ref=f1e125]
+    - generic [ref=f1e131]:
+      - generic [ref=f1e132]: Looking for results in English?
+      - link [ref=f1e133] [cursor=pointer]:
+        - /url: "#"
+      - link "Change to English" [ref=f1e137] [cursor=pointer]:
+        - /url: /setprefs?sig=0__0hGB318gf35EgkPJi2v9L8673Q%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DDeichmann%2B%2522CRM%2BBusiness%2BAnalyst%2522%2Bdeichmann-karriere.de&hl=en&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQhoQCKAF6BAgREAQ
+      - link "Weiter auf Deutsch anzeigen" [ref=f1e138] [cursor=pointer]:
+        - /url: "#"
+      - link "Spracheinstellungen" [ref=f1e140] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=de&sa=X&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQiIQCKAN6BAgREAY#languages
+    - generic [ref=f1e141]:
+      - generic [ref=f1e160]:
+        - heading "Denkprozess läuft" [level=2] [ref=f1e164]
+        - progressbar "Generieren" [ref=f1e167]
+      - main [ref=f1e169]:
+        - generic [ref=f1e173]:
+          - generic [ref=f1e176]:
+            - heading "Webergebnisse" [level=2] [ref=f1e177]
+            - generic [ref=f1e178]:
+              - generic [ref=f1e181]:
+                - link "CRM Business Analyst (m/w/d) Deichmann Karriere https://www.deichmann-karriere.de › jobs" [ref=f1e183] [cursor=pointer]:
+                  - /url: /goto?url=CAESdgHrOzAVaBxYE7fwApKtv-MRbaggJM3u_2m0BJlv1OHUsMLobkwSrtWJVRZliMMdwpPlzx8-G1JXnxJN0MlndDEBGVYTPHvWEbyAv-WNMq5gwKZsfMcJKAKNKS5ZNknGM3v6by4utkqj_woEy2QdToFkvyrnwC4
+                  - heading "CRM Business Analyst (m/w/d)" [level=3] [ref=f1e184]
+                  - generic [ref=f1e190]:
+                    - generic [ref=f1e191]: Deichmann Karriere
+                    - generic [ref=f1e193]: https://www.deichmann-karriere.de › jobs
+                - button "Informationen zu diesem Ergebnis" [ref=f1e199] [cursor=pointer]
+              - generic [ref=f1e206]:
+                - text: Für den Aufbau unserer Abteilung Omnichannel Commerce suchen wir ab sofort Dich als Senior.
+                - emphasis [ref=f1e207]: CRM Business Analyst
+                - text: "(m/w/d). Aufgaben: Konzeption und ..."
+          - generic [ref=f1e211]:
+            - generic [ref=f1e214]:
+              - link "CRM Business Analyst (m/w/d) | Deichmann LinkedIn · Deichmann 7 Reaktionen · vor 1 Jahr" [ref=f1e216] [cursor=pointer]:
+                - /url: /goto?url=CAESnQEB6zswFXHZzXoCz0emiXPjbKlX40xpLz6-uvAaDYusGeGWjPsglBbZrGC3iULsBVLF4W9cfbEd9K_HLMMSos7mXrmNQMvinjjF-b3WMdZi9hNeB2BtEz1wPTN6hqk16ClPGNMq4i6FC_z4Js8ur2eVdzWjoNa0TJ55MUupE7W3hPwAZnQou2RUTgryRSJRF7noQkKwQaHjPzUaPfom
+                - heading "CRM Business Analyst (m/w/d) | Deichmann" [level=3] [ref=f1e217]
+                - generic [ref=f1e223]:
+                  - generic [ref=f1e224]: LinkedIn · Deichmann
+                  - generic [ref=f1e226]: 7 Reaktionen · vor 1 Jahr
+              - button "Informationen zu diesem Ergebnis" [ref=f1e232] [cursor=pointer]
+            - generic [ref=f1e239]:
+              - text: "Bring CRM auf das nächste Level: Werde Business Analyst (m/w/d) bei"
+              - emphasis [ref=f1e240]: Deichmann
+              - text: und gestalte smarte Customer Journeys. Jetzt bewerben!
+          - generic [ref=f1e244]:
+            - generic [ref=f1e247]:
+              - link "CRM Business Analyst (m/w/d) bei Deichmann StudySmarter https://talents.studysmarter.de › ... › Deichmann" [ref=f1e249] [cursor=pointer]:
+                - /url: /goto?url=CAESkwEB6zswFW_QtloZrnOEKSlI355fMP0PCJqrJKEsovghhMOlShOZR_HHvQ_SPvJZ8baGo_yddbIEF9rlxzlDkT0DFYXnRltQUeOJXKGIRVJpQR4F_vXnsiP2ZZ2w0GkoCT6AyQrYMmCikypCPeXnUSR3borFABPsUbOwEV0XVOMdv_Ork1Sz7u21fr_qJls34_o0YUM
+                - heading "CRM Business Analyst (m/w/d) bei Deichmann" [level=3] [ref=f1e250]
+                - generic [ref=f1e256]:
+                  - generic [ref=f1e257]: StudySmarter
+                  - generic [ref=f1e259]: https://talents.studysmarter.de › ... › Deichmann
+              - button "Informationen zu diesem Ergebnis" [ref=f1e265] [cursor=pointer]
+            - generic [ref=f1e272]:
+              - text: Starte durch als
+              - emphasis [ref=f1e273]: CRM Business Analyst
+              - text: (m/w/d) bei
+              - emphasis [ref=f1e274]: Deichmann
+              - text: Jetzt einfach bewerben auf Europas größter Gen-Z Job-Plattform!
+          - generic [ref=f1e278]:
+            - generic [ref=f1e281]:
+              - link "CRM Business Analyst (m/w/d) Job in Mülheim GermanTechJobs https://germantechjobs.de › jobs › Deichmann-SE-CRM-..." [ref=f1e283] [cursor=pointer]:
+                - /url: /goto?url=CAESggEB6zswFSJwbtBsRG0hsmIzjUBwoSoaeuooAAPEC2jYWHLmNGhaGz4oIx7n26ozhZVcsUKgYlW4JKr0evka0pY6UPe4WmpyUe-2OsL3Er7tdSdtlieZ0LZUlXM7c904wq8Uz7B88gtgVd04WzYOXDQ1_WbgMhmh3WD4kuCFTB-fAfFv
+                - heading "CRM Business Analyst (m/w/d) Job in Mülheim" [level=3] [ref=f1e284]
+                - generic [ref=f1e290]:
+                  - generic [ref=f1e291]: GermanTechJobs
+                  - generic [ref=f1e293]: https://germantechjobs.de › jobs › Deichmann-SE-CRM-...
+              - button "Informationen zu diesem Ergebnis" [ref=f1e299] [cursor=pointer]
+            - generic [ref=f1e306]:
+              - emphasis [ref=f1e307]: CRM Business Analyst
+              - text: (m/w/d) Stelle bei
+              - emphasis [ref=f1e308]: Deichmann
+              - text: "SE in Mülheim. 45.000 - 75.000 € pro Jahr. Technologien: CRM, SQL, Business."
+          - generic [ref=f1e312]:
+            - heading "Gesponsertes Ergebnis" [level=2] [ref=f1e319]
+            - generic [ref=f1e320]:
+              - generic [ref=f1e332]:
+                - generic [ref=f1e333]:
+                  - link "Teilzeit-Jobs mit Perspektive - deichmann-karriere.de DEICHMANN https://www.deichmann-karriere.de › teilzeit › verkauf" [ref=f1e334] [cursor=pointer]:
+                    - /url: /goto?url=CAESZgHrOzAVSrfC_3QZmuldMgtp2wLpmLgRDO9rx5NC49e3idbJTQlVP4YQxorHYHjMwVgO77puDNFJqMWMntEA_wwD-PCixQGhbWJ8GIOMxsqsWT64qAApoEeyxJqRkwcvAYoCjMioPg
+                    - heading "Teilzeit-Jobs mit Perspektive - deichmann-karriere.de" [level=3] [ref=f1e335]
+                    - generic [ref=f1e341]:
+                      - generic [ref=f1e342]: DEICHMANN
+                      - generic [ref=f1e344]: https://www.deichmann-karriere.de › teilzeit › verkauf
+                  - button "Warum sehe ich diese Werbung?" [ref=f1e347] [cursor=pointer]
+                - generic [ref=f1e351]: "Jetzt bewerben: Kundenservice & Verkauf – deutschlandweit gesucht! Werde Teil unseres Teams – Gute Bezahlung & Prämien warten auf Dich! Gesundheitswochen. Altersvorsorge. Weiterbildung."
+              - button "Gesponsertes Ergebnis ausblenden" [ref=f1e355] [cursor=pointer]:
+                - separator [aria-hidden] [ref=f1e356]
+          - generic [ref=f1e365]:
+            - generic [ref=f1e368]:
+              - link "CRM Business Analyst (m/w/d) bei Deichmann SE StudySmarter https://talents.studysmarter.de › ... › Deichmann SE" [ref=f1e370] [cursor=pointer]:
+                - /url: /goto?url=CAESlgEB6zswFXzuX_X-HpyyC9RuueFNySSWdEexQTRziAf3NZE9jz7IlEpCu5cFDkO2yQIlCAHHEntX8M10cu82ylN4mLwwQFQjgkdLeVx0Lf0hXmsas-QpbXtOkIZqBy_1MzeNLZgvDFRCEIu5RLQiPmUvy2OU5VWhcl37FPiqRpWgjXVCeFrOLHqE3VFdKA5rOIlGwCh1KDY
+                - heading "CRM Business Analyst (m/w/d) bei Deichmann SE" [level=3] [ref=f1e371]
+                - generic [ref=f1e377]:
+                  - generic [ref=f1e378]: StudySmarter
+                  - generic [ref=f1e380]: https://talents.studysmarter.de › ... › Deichmann SE
+              - button "Informationen zu diesem Ergebnis" [ref=f1e386] [cursor=pointer]
+            - generic [ref=f1e393]:
+              - text: Als
+              - emphasis [ref=f1e394]: CRM Business Analyst
+              - text: (m/w/d) verstärkst Du unser Team in Essen. Wenn Du Einsatz zeigst und etwas bewegen willst, dann bist Du bei uns genau richtig. Lerne ...
+          - generic [ref=f1e398]:
+            - generic [ref=f1e401]:
+              - link "Jobs für Deichmann in Vollzeit in Bochum | Jobsuche der BA Bundesagentur für Arbeit https://www.arbeitsagentur.de › ... › Ihre Suche" [ref=f1e403] [cursor=pointer]:
+                - /url: /goto?url=CAESnwEB6zswFeRrImcgkrgbCoWchZSfkYwHHWFXg_SZoqtTPdnIrISWnMlf8Aiyr9co1JMYzMLim6BZ3b_QPL7sHkjMUjBLGNU_zalHCmls0KhOIhLEL6Y9w62vW5PJPHohIjHo7b1sFnJ6hP7F7XfnebXMTdLWsWaEop4iq9vfCWxfHTagfagKZ0urnQvJu4eRcUzUJUEgVCFfpmovyjUgsDI
+                - heading "Jobs für Deichmann in Vollzeit in Bochum | Jobsuche der BA" [level=3] [ref=f1e404]
+                - generic [ref=f1e410]:
+                  - generic [ref=f1e411]: Bundesagentur für Arbeit
+                  - generic [ref=f1e413]: https://www.arbeitsagentur.de › ... › Ihre Suche
+              - button "Informationen zu diesem Ergebnis" [ref=f1e419] [cursor=pointer]
+            - generic [ref=f1e425]:
+              - generic [ref=f1e426]: vor 4 Tagen —
+              - generic [ref=f1e427]:
+                - text: "21:"
+                - emphasis [ref=f1e428]: CRM Business Analyst
+                - text: (m/w/d) bei
+                - emphasis [ref=f1e429]: Deichmann
+                - text: "SE. Kennzeichnungen: Logo des Arbeitgebers. 21."
+                - emphasis [ref=f1e430]: CRM Business Analyst
+                - text: (m/w/d).
+                - emphasis [ref=f1e431]: Deichmann
+                - text: SE.
+          - generic [ref=f1e435]:
+            - generic [ref=f1e438]:
+              - link "CRM Business Analyst - Deichmann SE Trabajo.org https://de.trabajo.org › ... › Business Analyst › Essen" [ref=f1e440] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFQkepv4LXtj0xraXdP4c7f6PyCEpqCT72OCR9F7RtDTpE7z79euVSgN7A8KWUXe1OZaYsXyaPmVkax1H239lZic7u9oLfGasgpr2jjo67n0fb7oyTmM_5EGXhEKxrZ7rqKbjUhV47pM8GZ1b0Ssbe_lkX9WJm6tFMZhlAMg09bwqqg
+                - heading "CRM Business Analyst - Deichmann SE" [level=3] [ref=f1e441]
+                - generic [ref=f1e447]:
+                  - generic [ref=f1e448]: Trabajo.org
+                  - generic [ref=f1e450]: https://de.trabajo.org › ... › Business Analyst › Essen
+              - button "Informationen zu diesem Ergebnis" [ref=f1e456] [cursor=pointer]
+            - generic [ref=f1e462]:
+              - generic [ref=f1e463]: vor 4 Tagen —
+              - generic [ref=f1e464]:
+                - text: Betriebliches Gesundheitsmanagement; Firmenevents. Als
+                - emphasis [ref=f1e465]: CRM Business Analyst
+                - text: (m/w/d) verstärkst Du unser Team in Essen. Wenn Du Einsatz zeigst ...
+          - generic [ref=f1e469]:
+            - generic [ref=f1e472]:
+              - link "Deichmann Jobs und Stellenangebote wir-lieben-Jobs.de https://www.wir-lieben-jobs.de › jobs-bei-deichmann" [ref=f1e474] [cursor=pointer]:
+                - /url: /goto?url=CAESbQHrOzAVAsZ8oqqfWG7A9vahdhzIPO1CPVs9yTw3bKlGDAXJb90QnvoCVTJcF8xDZM0d2bjYSwr55tMmBmmT6Ifvy1EsF4Nn8kHM0EHKpVXS4h9WlkPG_X5mIK_rAih4P4lu0FaoL-VQYp0PmL0
+                - heading "Deichmann Jobs und Stellenangebote" [level=3] [ref=f1e475]
+                - generic [ref=f1e481]:
+                  - generic [ref=f1e482]: wir-lieben-Jobs.de
+                  - generic [ref=f1e484]: https://www.wir-lieben-jobs.de › jobs-bei-deichmann
+              - button "Informationen zu diesem Ergebnis" [ref=f1e490] [cursor=pointer]
+            - generic [ref=f1e497]:
+              - emphasis [ref=f1e498]: Deichmann
+              - text: SE ·
+              - emphasis [ref=f1e499]: CRM Business Analyst
+              - text: (m/w/d) merken
+              - emphasis [ref=f1e500]: CRM Business Analyst
+              - text: (m/w/d).
+              - emphasis [ref=f1e501]: Deichmann
+              - text: SE | Mülheim an der Ruhr. Die Definition relevanter CRM-KPIs ist ...
+          - generic [ref=f1e505]:
+            - generic [ref=f1e508]:
+              - 'link "Deichmann Karriere: 157 Jobs Jobted https://de.jobted.com › deichmann-jobs" [ref=f1e510] [cursor=pointer]':
+                - /url: /goto?url=CAESXwHrOzAVQnnt9Br2VSix3K64mTaxL2zyDP4fLnY5O7zQlXunXsmtNB6P5u6IeLH2wKkpUSJko9THH3NXWvdkryk-Up6MmWXlpkMB3ZGz4VhPcC6aN-wNfdDPuQVpJ7WQ
+                - 'heading "Deichmann Karriere: 157 Jobs" [level=3] [ref=f1e511]'
+                - generic [ref=f1e517]:
+                  - generic [ref=f1e518]: Jobted
+                  - generic [ref=f1e520]: https://de.jobted.com › deichmann-jobs
+              - button "Informationen zu diesem Ergebnis" [ref=f1e526] [cursor=pointer]
+            - generic [ref=f1e533]:
+              - emphasis [ref=f1e534]: CRM Business Analyst
+              - text: (m/w/d).
+              - emphasis [ref=f1e535]: Deichmann
+              - text: SE-Mülheim an der Ruhr.
+              - emphasis [ref=f1e536]: Deichmann
+              - text: ist Wegbereiter, Förderer und Arbeitgeber von ca. 50.000 engagierten ...
+        - navigation [ref=f1e539]:
+          - heading "Seitennavigation" [level=1] [ref=f1e540]
+          - text: "1"
+          - link "Page 2" [ref=f1e543] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=10&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAE
+            - text: "2"
+          - link "Page 3" [ref=f1e545] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=20&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAG
+            - text: "3"
+          - link "Page 4" [ref=f1e547] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=30&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAI
+            - text: "4"
+          - link "Page 5" [ref=f1e549] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=40&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAK
+            - text: "5"
+          - link "Page 6" [ref=f1e551] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=50&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAM
+            - text: "6"
+          - link "Page 7" [ref=f1e553] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=60&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAO
+            - text: "7"
+          - link "Page 8" [ref=f1e555] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=70&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAQ
+            - text: "8"
+          - link "Page 9" [ref=f1e557] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=80&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAS
+            - text: "9"
+          - link "Page 10" [ref=f1e559] [cursor=pointer]:
+            - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=90&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8tMDegQIJhAU
+            - text: "10"
+          - heading [level=2] [ref=f1e561]:
+            - link "Weiter" [ref=f1e562] [cursor=pointer]:
+              - /url: /search?q=Deichmann+%22CRM+Business+Analyst%22+deichmann-karriere.de&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsjckmgCyf5qnUxGexcSY-RisyKuw:1792340534461&ei=NvLUaundG9qfhbIPzNnyyAk&start=10&sa=N&sstk=AS6-VmLiSbinjz9okh7i7eDCvcb-C1MWRPMXiJFqfcKR2IaM917pHR-lY9gc_a0KpzjwmD0MINEUmX5Xg0aVWefLClfF2tURXFh7xg&ved=2ahUKEwjp0P3m_MOXAxXaT0EAHcysHJkQ8NMDegQIJhAW
+        - navigation
+    - contentinfo [ref=f1e565]:
+      - heading "Fußzeilenlinks" [level=1] [ref=f1e566]
+      - generic [ref=f1e570]:
+        - generic [ref=f1e572]:
+          - text: Deutschland
+          - generic [ref=f1e574]:
+            - button "Beiertheim - Bulach, Karlsruhe - Laut deiner IP-Adresse" [ref=f1e576] [cursor=pointer]:
+              - generic [ref=f1e577]: Beiertheim - Bulach, Karlsruhe
+              - generic [ref=f1e579]:
+                - text: "-"
+                - generic [ref=f1e580]: Laut deiner IP-Adresse
+            - text: "-"
+            - button "Standort aktualisieren" [ref=f1e582] [cursor=pointer]
+        - generic [ref=f1e585]:
+          - link "Hilfe" [ref=f1e586] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=de&fg=1
+          - link "Feedback geben" [ref=f1e587] [cursor=pointer]:
+            - /url: "#"
+          - link "Datenschutzerklärung" [ref=f1e588] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=de&fg=1
+          - link "Nutzungsbedingungen" [ref=f1e589] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=de&fg=1

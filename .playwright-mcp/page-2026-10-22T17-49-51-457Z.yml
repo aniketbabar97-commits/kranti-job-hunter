@@ -1,0 +1,230 @@
+- generic [active] [ref=f74e1]:
+  - list [ref=f74e3]:
+    - listitem [ref=f74e4]:
+      - link "Standorte" [ref=f74e5] [cursor=pointer]:
+        - /url: /standorte
+    - listitem [ref=f74e6]:
+      - link "Karriere & Weiterbildung" [ref=f74e7] [cursor=pointer]:
+        - /url: "#"
+    - listitem [ref=f74e8]:
+      - link "Ausbildung & Studium" [ref=f74e9] [cursor=pointer]:
+        - /url: /ausbildung_studium
+    - listitem [ref=f74e10]:
+      - link "Events" [ref=f74e11] [cursor=pointer]:
+        - /url: https://www.cegeka.com/de-de/events
+    - listitem [ref=f74e12]:
+      - link "Kontakt & Bewerbungsprozess" [ref=f74e13] [cursor=pointer]:
+        - /url: /kontakt
+    - listitem [ref=f74e14]:
+      - link "Jobs" [ref=f74e15] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=f74e17]:
+    - generic [ref=f74e23]:
+      - heading "Starte jetzt Deine Karriere!" [level=1] [ref=f74e24]
+      - paragraph [ref=f74e25]:
+        - textbox "Suche nach einzeln, mehreren oder \"zusammengesetzten Begriffen\"" [ref=f74e26]:
+          - /placeholder: Jobsuche...
+        - generic [ref=f74e27] [cursor=pointer]: 
+    - generic [ref=f74e33]:
+      - generic [ref=f74e35]:
+        - heading "Geschäftsbereich" [level=3] [ref=f74e36] [cursor=pointer]
+        - heading "Standort" [level=3] [ref=f74e37] [cursor=pointer]
+        - text: 
+        - heading "Karrierelevel" [level=3] [ref=f74e38] [cursor=pointer]
+        - heading "Beschäftigungsart" [level=3] [ref=f74e39] [cursor=pointer]
+        - button "Filter zurücksetzen" [ref=f74e40] [cursor=pointer]
+        - paragraph [ref=f74e41]
+      - generic [ref=f74e42]:
+        - generic [ref=f74e43]:
+          - paragraph [ref=f74e44]: "14 Stellenausschreibungen und 4 Projekte wurden gefunden:"
+          - generic [ref=f74e45]:
+            - heading [level=2] [ref=f74e46]:
+              - 'link "Product Owner* - Medical Devices #11239" [ref=f74e47] [cursor=pointer]':
+                - /url: /vacancy/11239/product-owner-medical-devices-11239
+            - paragraph [ref=f74e48]:
+              - generic [ref=f74e49]: 
+              - text: Homeoffice
+          - generic [ref=f74e50]:
+            - heading [level=2] [ref=f74e51]:
+              - 'link "Service Desk Agent* #11198" [ref=f74e52] [cursor=pointer]':
+                - /url: /vacancy/11198/service-desk-agent-11198
+            - paragraph [ref=f74e53]:
+              - generic [ref=f74e54]: 
+              - text: Flughafen Frankfurt am Main
+          - generic [ref=f74e55]:
+            - heading [level=2] [ref=f74e56]:
+              - 'link "Architect* im Bereich E-Commerce #11246" [ref=f74e57] [cursor=pointer]':
+                - /url: /vacancy/11246/architect-im-bereich-e-commerce-11246
+            - paragraph [ref=f74e58]:
+              - generic [ref=f74e59]: 
+              - text: Bundesweit
+          - generic [ref=f74e60]:
+            - heading [level=2] [ref=f74e61]:
+              - 'link "Business Analyst* #11131" [ref=f74e62] [cursor=pointer]':
+                - /url: /vacancy/11131/business-analyst-11131
+            - paragraph [ref=f74e63]:
+              - generic [ref=f74e64]: 
+              - text: Nürnberg
+          - generic [ref=f74e65]:
+            - heading [level=2] [ref=f74e66]:
+              - 'link "Sicherheitsarchitekt* #11132" [ref=f74e67] [cursor=pointer]':
+                - /url: /vacancy/11132/sicherheitsarchitekt-11132
+            - paragraph [ref=f74e68]:
+              - generic [ref=f74e69]: 
+              - text: Nürnberg
+          - generic [ref=f74e70]:
+            - heading [level=2] [ref=f74e71]:
+              - 'link "Senior DevOps & Cloud Engineer* #11130" [ref=f74e72] [cursor=pointer]':
+                - /url: /vacancy/11130/senior-devops-amp-cloud-engineer-11130
+            - paragraph [ref=f74e73]:
+              - generic [ref=f74e74]: 
+              - text: Nürnberg
+          - generic [ref=f74e75]:
+            - heading [level=2] [ref=f74e76]:
+              - 'link "Senior Java Developer* #11129" [ref=f74e77] [cursor=pointer]':
+                - /url: /vacancy/11129/senior-java-developer-11129
+            - paragraph [ref=f74e78]:
+              - generic [ref=f74e79]: 
+              - text: Nürnberg
+          - generic [ref=f74e80]:
+            - heading [level=2] [ref=f74e81]:
+              - 'link "Senior Software Architect* Java #11128" [ref=f74e82] [cursor=pointer]':
+                - /url: /vacancy/11128/senior-software-architect-java-11128
+            - paragraph [ref=f74e83]:
+              - generic [ref=f74e84]: 
+              - text: Nürnberg
+          - generic [ref=f74e85]:
+            - heading [level=2] [ref=f74e86]:
+              - 'link "DevSecOps Experte / Architect* #11260" [ref=f74e87] [cursor=pointer]':
+                - /url: /vacancy/11260/devsecops-experte-architect-11260
+            - paragraph [ref=f74e88]:
+              - generic [ref=f74e89]: 
+              - text: München
+          - generic [ref=f74e90]:
+            - heading [level=2] [ref=f74e91]:
+              - 'link "Android Entwickler* #11264" [ref=f74e92] [cursor=pointer]':
+                - /url: /vacancy/11264/android-entwickler-11264
+            - paragraph [ref=f74e93]:
+              - generic [ref=f74e94]: 
+              - text: Nürnberg
+          - generic [ref=f74e95]:
+            - heading [level=2] [ref=f74e96]:
+              - 'link "iOS Entwickler* #11263" [ref=f74e97] [cursor=pointer]':
+                - /url: /vacancy/11263/ios-entwickler-11263
+            - paragraph [ref=f74e98]:
+              - generic [ref=f74e99]: 
+              - text: Nürnberg
+          - generic [ref=f74e100]:
+            - heading [level=2] [ref=f74e101]:
+              - 'link "DevOps Engineer* #11288" [ref=f74e102] [cursor=pointer]':
+                - /url: /vacancy/11288/devops-engineer-11288
+            - paragraph [ref=f74e103]:
+              - generic [ref=f74e104]: 
+              - text: Köln
+          - generic [ref=f74e105]:
+            - heading [level=2] [ref=f74e106]:
+              - 'link "Fullstack Developer* #11293" [ref=f74e107] [cursor=pointer]':
+                - /url: /vacancy/11293/fullstack-developer-11293
+            - paragraph [ref=f74e108]:
+              - generic [ref=f74e109]: 
+              - text: Köln
+          - generic [ref=f74e110]:
+            - heading [level=2] [ref=f74e111]:
+              - 'link "Service Desk Agent* #11172" [ref=f74e112] [cursor=pointer]':
+                - /url: /vacancy/11172/service-desk-agent-11172
+            - paragraph [ref=f74e113]:
+              - generic [ref=f74e114]: 
+              - text: München-Flughafen
+          - generic [ref=f74e115]:
+            - heading [level=2] [ref=f74e116]:
+              - 'link "Solution Architekt* #11297" [ref=f74e117] [cursor=pointer]':
+                - /url: /vacancy/11297/solution-architekt-11297
+            - paragraph [ref=f74e118]:
+              - generic [ref=f74e119]: 
+              - text: Homeoffice
+          - generic [ref=f74e120]:
+            - heading [level=2] [ref=f74e121]:
+              - 'link "Senior Dateningenieur* Databricks & Lakehouse #11296" [ref=f74e122] [cursor=pointer]':
+                - /url: /vacancy/11296/senior-dateningenieur-databricks-amp-lakehouse-11296
+            - paragraph [ref=f74e123]:
+              - generic [ref=f74e124]: 
+              - text: Köln / Remote
+          - generic [ref=f74e125]:
+            - heading [level=2] [ref=f74e126]:
+              - 'link "Solution Architect* - Microsoft Dynamics 365 #10878" [ref=f74e127] [cursor=pointer]':
+                - /url: /vacancy/10878/solution-architect-microsoft-dynamics-365-10878
+            - paragraph [ref=f74e128]:
+              - generic [ref=f74e129]: 
+              - text: Homeoffice / Deutschland
+          - generic [ref=f74e130]:
+            - heading [level=2] [ref=f74e131]:
+              - 'link "Business Analyst* #11286" [ref=f74e132] [cursor=pointer]':
+                - /url: /vacancy/11286/business-analyst-11286
+            - paragraph [ref=f74e133]:
+              - generic [ref=f74e134]: 
+              - text: Frankfurt am Main
+        - heading [level=3] [ref=f74e135]:
+          - text: Nichts Passendes gefunden? Registriere Dich einfach für unseren
+          - link "Job Alert (CEGEKA Deutschland)" [ref=f74e136] [cursor=pointer]:
+            - /url: /jobalert-anmelden
+          - text: oder sende uns eine
+          - link "Initiativbewerbung (CEGEKA Deutschland) " [ref=f74e137] [cursor=pointer]:
+            - /url: https://jobs.cegeka.de/initiativbewerbung
+          - text: .
+    - contentinfo [ref=f74e138]:
+      - generic [ref=f74e139]:
+        - generic [ref=f74e140]:
+          - generic [ref=f74e141]:
+            - heading "Findest Du alles, was Du suchst?" [level=1] [ref=f74e142]
+            - paragraph [ref=f74e143]: Oder hast Du Fragen zur Arbeit bei Cegeka?
+            - paragraph [ref=f74e144]:
+              - link "Kontaktiere uns >" [ref=f74e145] [cursor=pointer]:
+                - /url: /kontakt
+          - paragraph [ref=f74e147]
+          - list [ref=f74e149]:
+            - listitem [ref=f74e150]:
+              - link "Jobangebote" [ref=f74e151] [cursor=pointer]:
+                - /url: /vacancy/?employment_type[]=4951288
+            - listitem [ref=f74e152]:
+              - link "Über Cegeka" [ref=f74e153] [cursor=pointer]:
+                - /url: /ueber-uns
+            - listitem [ref=f74e154]:
+              - link "Job Alert" [ref=f74e155] [cursor=pointer]:
+                - /url: /jobalert-anmelden
+        - generic [ref=f74e156]: "*Hinweis zur Sprache auf unserer Jobseite: Bei uns zählt, wer Du bist – Deine Stärken, Deine Haltung und das, was Dich besonders macht. Vielfalt und Chancengleichheit gehören für uns selbstverständlich dazu und werden an all unseren Standorten gelebt. Um unsere Texte leichter lesbar zu machen, verzichten wir auf dieser Seite bewusst auf Gendersternchen. Wir meinen immer alle Menschen. Come as you are!"
+        - generic [ref=f74e159]:
+          - generic [ref=f74e161]:
+            - text: © Cegeka
+            - link "Impressum" [ref=f74e162] [cursor=pointer]:
+              - /url: https://www.cegeka.com/de-de/impressum?hsLang=de-de
+            - link "Nutzungsbestimmungen" [ref=f74e163] [cursor=pointer]:
+              - /url: https://www.cegeka.com/de-de/nutzungsbestimmungen?hsLang=de-de
+            - link "Datenschutz" [ref=f74e164] [cursor=pointer]:
+              - /url: https://www.cegeka.com/de-de/datenschutz?hsLang=de-de
+            - link "Cookie Statement" [ref=f74e165] [cursor=pointer]:
+              - /url: https://www.cegeka.com/de-de/cookie-richtlinien?hsLang=de-de
+            - button "Manage Cookies" [ref=f74e166] [cursor=pointer]
+          - list [ref=f74e168]:
+            - listitem [ref=f74e169]:
+              - link "" [ref=f74e170] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/6521/
+            - listitem [ref=f74e171]:
+              - link "" [ref=f74e172] [cursor=pointer]:
+                - /url: https://www.facebook.com/Cegeka
+            - listitem [ref=f74e173]:
+              - link "" [ref=f74e174] [cursor=pointer]:
+                - /url: https://www.youtube.com/@cegeka
+            - listitem [ref=f74e175]:
+              - link "" [ref=f74e176] [cursor=pointer]:
+                - /url: https://www.instagram.com/cegeka_de/
+            - listitem [ref=f74e177]:
+              - link "" [ref=f74e178] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/cegekadeutschlandgmbh
+    - generic [ref=f74e180]:
+      - generic:
+        - link [ref=f74e182] [cursor=pointer]:
+          - /url: /
+        - link [ref=f74e185] [cursor=pointer]:
+          - /url: /
+      - navigation:
+        - button "Germany" [ref=f74e189]

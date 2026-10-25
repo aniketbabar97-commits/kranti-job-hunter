@@ -1,0 +1,369 @@
+- generic [ref=f8e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f8e565] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f8e579] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f8e596] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f8e609] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f8e2]:
+      - generic [ref=f8e3]:
+        - link "Zur Startseite" [ref=f8e5] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f8e6]
+        - list [ref=f8e9]:
+          - listitem [ref=f8e10]:
+            - link "Jobsuche" [ref=f8e11] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f8e12]:
+            - link "Arbeitgeber" [ref=f8e13] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f8e14]:
+            - link "Schüler" [ref=f8e15] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f8e16]:
+            - link "Studierende" [ref=f8e17] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f8e18]:
+            - link "Direkteinstieg" [ref=f8e19] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f8e22] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - region "Stellenangebote Headerbild" [ref=f8e24]:
+    - generic [ref=f8e28]:
+      - heading "Deinen Traumjob Finden!" [level=1] [ref=f8e30]
+      - search "job-search-form-title" [ref=f8e32]:
+        - generic [ref=f8e33]:
+          - textbox "Suchbegriff" [ref=f8e35]: Senior Frontend Product Owner Omnichannel Platform (m/w/d)
+          - textbox "Wunschort" [ref=f8e37]
+          - combobox "Radius" [ref=f8e39] [cursor=pointer]:
+            - option "Radius"
+            - option "5km"
+            - option "10km"
+            - option "20km" [selected]
+            - option "50km"
+            - option "100km"
+            - option "250km"
+          - link "Start job search" [active] [ref=f8e42] [cursor=pointer]:
+            - /url: "#"
+            - text: Jobs Finden
+  - heading "Filter Options" [level=2] [ref=f8e44]
+  - dialog "Filter Options" [ref=f8e45]:
+    - link "Close filters menu" [ref=f8e46] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [aria-hidden] [ref=f8e47]: 
+    - generic [ref=f8e49]:
+      - generic [ref=f8e50]:
+        - generic [ref=f8e51]: Filtern nach Karrierelevel
+        - list "Filter by career level" [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - 'link "Filter by career level: Berufserfahrene" [ref=f8e54] [cursor=pointer]':
+              - /url: "#"
+              - text: Direkteinstieg
+          - listitem [ref=f8e56]:
+            - 'link "Filter by career level: Schüler" [ref=f8e57] [cursor=pointer]':
+              - /url: "#"
+              - text: Schüler
+          - listitem [ref=f8e59]:
+            - 'link "Filter by career level: Studierende" [ref=f8e60] [cursor=pointer]':
+              - /url: "#"
+              - text: Studierende
+      - generic [ref=f8e62]:
+        - generic [ref=f8e63]: Filtern nach Bereich
+        - list "Filter by department" [ref=f8e64]:
+          - paragraph [ref=f8e65]: Verkauf
+          - list "Verkauf job groups" [ref=f8e66]:
+            - listitem [ref=f8e67]:
+              - 'link "Filter by job group: Store Manager" [ref=f8e68] [cursor=pointer]':
+                - /url: "#"
+                - text: Store Manager
+            - listitem [ref=f8e70]:
+              - 'link "Filter by job group: Deputy Store Manager" [ref=f8e71] [cursor=pointer]':
+                - /url: "#"
+                - text: Deputy Store Manager
+            - listitem [ref=f8e73]:
+              - 'link "Filter by job group: Junior Store Manager" [ref=f8e74] [cursor=pointer]':
+                - /url: "#"
+                - text: Junior Store Manager
+            - listitem [ref=f8e76]:
+              - 'link "Filter by job group: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement" [ref=f8e77] [cursor=pointer]':
+                - /url: "#"
+                - text: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement
+            - listitem [ref=f8e79]:
+              - 'link "Filter by job group: Reinigungskraft" [ref=f8e80] [cursor=pointer]':
+                - /url: "#"
+                - text: Reinigungskraft
+            - listitem [ref=f8e82]:
+              - 'link "Filter by job group: Praktikant im Verkauf" [ref=f8e83] [cursor=pointer]':
+                - /url: "#"
+                - text: Praktikant im Verkauf
+            - listitem [ref=f8e85]:
+              - 'link "Filter by job group: Werkstudent" [ref=f8e86] [cursor=pointer]':
+                - /url: "#"
+                - text: Werkstudent
+            - listitem [ref=f8e88]:
+              - 'link "Filter by job group: Filialmitarbeiter Minijob" [ref=f8e89] [cursor=pointer]':
+                - /url: "#"
+                - text: Filialmitarbeiter Minijob
+            - listitem [ref=f8e91]:
+              - 'link "Filter by job group: Lagerist in Teilzeit" [ref=f8e92] [cursor=pointer]':
+                - /url: "#"
+                - text: Lagerist in Teilzeit
+            - listitem [ref=f8e94]:
+              - 'link "Filter by job group: Verkäufer in Vollzeit" [ref=f8e95] [cursor=pointer]':
+                - /url: "#"
+                - text: Verkäufer in Vollzeit
+            - listitem [ref=f8e97]:
+              - 'link "Filter by job group: Verkäufer in Teilzeit" [ref=f8e98] [cursor=pointer]':
+                - /url: "#"
+                - text: Verkäufer in Teilzeit
+            - listitem [ref=f8e100]:
+              - 'link "Filter by job group: Ausbildung zum Handelsfachwirt" [ref=f8e101] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Handelsfachwirt
+            - listitem [ref=f8e103]:
+              - 'link "Filter by job group: Ausbildung zum Kaufmann im Einzelhandel" [ref=f8e104] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Kaufmann im Einzelhandel
+            - listitem [ref=f8e106]:
+              - 'link "Filter by job group: Ausbildung zum Verkäufer" [ref=f8e107] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Verkäufer
+          - paragraph [ref=f8e109]: Zentrale
+          - list "Zentrale offer families" [ref=f8e110]:
+            - listitem [ref=f8e111]:
+              - 'link "Filter by offer family: Allgemein" [ref=f8e112] [cursor=pointer]':
+                - /url: "#"
+                - text: Allgemein
+            - listitem [ref=f8e114]:
+              - 'link "Filter by offer family: Architecture & Design" [ref=f8e115] [cursor=pointer]':
+                - /url: "#"
+                - text: Architecture & Design
+            - listitem [ref=f8e117]:
+              - 'link "Filter by offer family: Controlling" [ref=f8e118] [cursor=pointer]':
+                - /url: "#"
+                - text: Controlling
+            - listitem [ref=f8e120]:
+              - 'link "Filter by offer family: Corporate Communications" [ref=f8e121] [cursor=pointer]':
+                - /url: "#"
+                - text: Corporate Communications
+            - listitem [ref=f8e123]:
+              - 'link "Filter by offer family: Digital" [ref=f8e124] [cursor=pointer]':
+                - /url: "#"
+                - text: Digital
+            - listitem [ref=f8e126]:
+              - 'link "Filter by offer family: Finance" [ref=f8e127] [cursor=pointer]':
+                - /url: "#"
+                - text: Finance
+            - listitem [ref=f8e129]:
+              - 'link "Filter by offer family: IT" [ref=f8e130] [cursor=pointer]':
+                - /url: "#"
+                - text: IT
+            - listitem [ref=f8e132]:
+              - 'link "Filter by offer family: Law & Integrity" [ref=f8e133] [cursor=pointer]':
+                - /url: "#"
+                - text: Law & Integrity
+            - listitem [ref=f8e135]:
+              - 'link "Filter by offer family: Logistic" [ref=f8e136] [cursor=pointer]':
+                - /url: "#"
+                - text: Logistic
+            - listitem [ref=f8e138]:
+              - 'link "Filter by offer family: Marketing" [ref=f8e139] [cursor=pointer]':
+                - /url: "#"
+                - text: Marketing
+            - listitem [ref=f8e141]:
+              - 'link "Filter by offer family: Omnichannel Commerce" [ref=f8e142] [cursor=pointer]':
+                - /url: "#"
+                - text: Omnichannel Commerce
+            - listitem [ref=f8e144]:
+              - 'link "Filter by offer family: People & Culture" [ref=f8e145] [cursor=pointer]':
+                - /url: "#"
+                - text: People & Culture
+            - listitem [ref=f8e147]:
+              - 'link "Filter by offer family: Purchasing" [ref=f8e148] [cursor=pointer]':
+                - /url: "#"
+                - text: Purchasing
+            - listitem [ref=f8e150]:
+              - 'link "Filter by offer family: Strategy & Corporate Development" [ref=f8e151] [cursor=pointer]':
+                - /url: "#"
+                - text: Strategy & Corporate Development
+          - paragraph [ref=f8e153]: Logistik
+          - list "Logistik job groups" [ref=f8e154]:
+            - listitem [ref=f8e155]:
+              - 'link "Filter by job group: Beschaffungslogistik" [ref=f8e156] [cursor=pointer]':
+                - /url: "#"
+                - text: Beschaffungslogistik
+            - listitem [ref=f8e158]:
+              - 'link "Filter by job group: Distributionslogistik" [ref=f8e159] [cursor=pointer]':
+                - /url: "#"
+                - text: Distributionslogistik
+            - listitem [ref=f8e161]:
+              - 'link "Filter by job group: Lagermitarbeiter" [ref=f8e162] [cursor=pointer]':
+                - /url: "#"
+                - text: Lagermitarbeiter
+  - generic [ref=f8e166]:
+    - generic [ref=f8e167]:
+      - link "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [ref=f8e638] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=f8e639]:
+          - text: Senior Frontend Product Owner Omnichannel Platform (m/w/d)
+          - generic [ref=f8e640]: 
+      - heading [level=2] [ref=f8e168]:
+        - text: 2833 Ergebnisse für dich.
+        - link "Merkliste" [ref=f8e169] [cursor=pointer]:
+          - /url: "#favourites-modal"
+          - text: Merkliste
+          - generic [aria-hidden] [ref=f8e170]: 
+        - link "Job News abonnieren" [ref=f8e171] [cursor=pointer]:
+          - /url: "#job-alert-modal"
+      - text: 
+      - list "Jobangebote Liste"
+      - generic [ref=f8e457]:
+        - generic:
+          - button "Vorherige Ergebnisse" [disabled]:
+            - generic [aria-hidden]: 
+          - button "Nächste Ergebnisse" [ref=f8e458] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e459]: 
+        - generic [ref=f8e460]: 1-20 von 2833
+    - complementary "Job Search Filters" [ref=f8e461]:
+      - link "Expand to filter by career level" [ref=f8e465] [cursor=pointer]:
+        - /url: "#collapseThree"
+        - generic [ref=f8e466]:
+          - generic [ref=f8e467]: Filtern nach Karrierelevel
+          - generic [aria-hidden] [ref=f8e468]: 
+      - link "Expand to filter by department" [ref=f8e472] [cursor=pointer]:
+        - /url: "#collapseFive"
+        - generic [ref=f8e473]:
+          - generic [ref=f8e474]: Filtern nach Bereich
+          - generic [aria-hidden] [ref=f8e475]: 
+      - link "Expand to filter by contract type" [ref=f8e479] [cursor=pointer]:
+        - /url: "#collapseSix"
+        - generic [ref=f8e480]:
+          - generic [ref=f8e481]: Filtern nach Vertragsart
+          - generic [aria-hidden] [ref=f8e482]: 
+  - contentinfo [ref=f8e483]:
+    - generic [ref=f8e486]:
+      - generic [ref=f8e487]:
+        - generic [ref=f8e488]: Einstieg im Verkauf
+        - list [ref=f8e489]:
+          - listitem [ref=f8e490]:
+            - link "Gehe zu Ausbildung im Verkauf" [ref=f8e491] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=f8e492]:
+            - link "Gehe zu Teilzeit, Minijob & Werkstudierende" [ref=f8e493] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=f8e494]:
+            - link "Gehe zu Filialführungsnachwuchs" [ref=f8e495] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=f8e496]:
+            - link "Gehe zu Duales Studium" [ref=f8e497] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=f8e498]:
+        - generic [ref=f8e499]: Einstieg in der Zentrale und Logistik
+        - list [ref=f8e500]:
+          - listitem [ref=f8e501]:
+            - link "Gehe zu Ausbildung in der Zentrale" [ref=f8e502] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=f8e503]:
+            - link "Gehe zu Ausbildung in der Logistik" [ref=f8e504] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=f8e505]:
+            - link "Gehe zu Duales Studium" [ref=f8e506] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=f8e507]:
+            - link "Gehe zu Einstieg für Studierende" [ref=f8e508] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=f8e509]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Zentrale)" [ref=f8e510] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=f8e511]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Logistik)" [ref=f8e512] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=f8e513]:
+        - generic [ref=f8e514]: Dein Weg zu Deichmann
+        - list [ref=f8e515]:
+          - listitem [ref=f8e516]:
+            - link "Gehe zu Deichmann als Arbeitgeber" [ref=f8e517] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=f8e518]:
+            - link "Gehe zu Schüler" [ref=f8e519] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=f8e520]:
+            - link "Gehe zu Studierende" [ref=f8e521] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=f8e522]:
+            - link "Gehe zu Direkteinstieg" [ref=f8e523] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=f8e526]:
+      - list [ref=f8e528]:
+        - listitem [ref=f8e529]:
+          - link "Gehe zu Kontakt" [ref=f8e530] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=f8e531]:
+          - link "Gehe zu Impressum" [ref=f8e532] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=f8e533]:
+          - link "Gehe zu Datenschutz" [ref=f8e534] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=f8e535]:
+          - link "Gehe zu Zum Shop" [ref=f8e536] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=f8e537]:
+          - link "Gehe zu Filialfinder" [ref=f8e538] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=f8e539]:
+          - link "Gehe zu Cookie-Einstellungen" [ref=f8e540] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=f8e543]:
+        - listitem [ref=f8e544]:
+          - link "Tiktok - wird in einem neuen Tab geöffnet" [ref=f8e612] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=f8e546]: 
+            - generic [ref=f8e547]: Tiktok
+        - listitem [ref=f8e548]:
+          - link "Instagram - wird in einem neuen Tab geöffnet" [ref=f8e613] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=f8e550]: 
+            - generic [ref=f8e551]: Instagram
+        - listitem [ref=f8e552]:
+          - link "Youtube - wird in einem neuen Tab geöffnet" [ref=f8e614] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=f8e554]: 
+            - generic [ref=f8e555]: Youtube
+        - listitem [ref=f8e556]:
+          - link "Linkedin - wird in einem neuen Tab geöffnet" [ref=f8e615] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=f8e558]: 
+            - generic [ref=f8e559]: Linkedin
+        - listitem [ref=f8e560]:
+          - link "Xing - wird in einem neuen Tab geöffnet" [ref=f8e616] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=f8e562]: 
+            - generic [ref=f8e563]: Xing
+  - text: 
+  - status [ref=f8e564]:
+    - generic [ref=f8e633]: Senior Frontend Product Owner Omnichannel Platform (m/w/d)
+  - button "Gracie" [ref=f8e618] [cursor=pointer]

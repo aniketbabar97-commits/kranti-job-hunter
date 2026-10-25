@@ -1,0 +1,228 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - navigation [ref=e9]:
+          - list [ref=e11]:
+            - listitem [ref=e12]:
+              - link "About Us" [ref=e13] [cursor=pointer]:
+                - /url: /en/about-us
+            - listitem [ref=e15]:
+              - link "Career" [ref=e16] [cursor=pointer]:
+                - /url: /en/career
+            - listitem [ref=e19]:
+              - link "Partners" [ref=e20] [cursor=pointer]:
+                - /url: /en/partners
+            - listitem [ref=e23]:
+              - link "Newsroom" [ref=e24] [cursor=pointer]:
+                - /url: /en/newsroom
+            - listitem [ref=e27]:
+              - link "SCAYLE" [ref=e28] [cursor=pointer]:
+                - /url: https://www.scayle.com/
+        - generic [ref=e32]:
+          - button "de" [ref=e36] [cursor=pointer]
+          - generic [ref=e37]:
+            - text: /
+            - button "en" [ref=e38] [cursor=pointer]
+      - link "Home" [ref=e40] [cursor=pointer]:
+        - /url: /en
+  - main [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - generic:
+          - heading "A Day at ABOUT YOU" [level=1]
+      - generic [ref=e64]:
+        - generic [ref=e65]: friends, not colleagues
+        - generic [ref=e66]: you
+        - generic [ref=e67]: international talent
+        - generic [ref=e68]: diversity
+        - generic [ref=e69]: honest feedback
+        - generic [ref=e70]: teamwork
+        - generic [ref=e71]: moving fast and thinking ahead
+        - generic [ref=e72]: afterworks
+        - generic [ref=e73]: inspiration, and the tech behind it
+        - generic [ref=e74]: start-up speed, with stability
+        - generic [ref=e75]: friends, not colleagues
+        - generic [ref=e76]: you
+        - generic [ref=e77]: international talent
+      - generic [ref=e80]:
+        - heading "Who We Are" [level=2] [ref=e81]
+        - generic:
+          - paragraph
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - paragraph [ref=e86]: ">1,300"
+          - paragraph [ref=e87]: employees
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: "112"
+          - paragraph [ref=e90]: office dogs
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: "80"
+          - paragraph [ref=e93]: nationalities
+        - generic [ref=e94]:
+          - paragraph [ref=e95]: 43%
+          - paragraph [ref=e96]: international workforce
+      - generic [ref=e98]:
+        - heading "See if This Is Where You Would Like to Work" [level=2] [ref=e99]
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - button "Video abspielen" [ref=e106] [cursor=pointer]
+            - paragraph [ref=e111]: Let us give you a tour through our office in Hamburg
+          - generic [ref=e112]:
+            - button "Video abspielen" [ref=e116] [cursor=pointer]
+            - paragraph [ref=e121]: Watch how a new feature almost didn’t make it live
+          - generic [ref=e122]:
+            - button "Video abspielen" [ref=e126] [cursor=pointer]
+            - paragraph [ref=e131]: Step into one minute at ABOUT YOU
+          - generic [ref=e132]:
+            - button "Video abspielen" [ref=e136] [cursor=pointer]
+            - paragraph [ref=e141]: Take a look at a career path from Working Student to Tech Vice President Commerce Product & Tech
+      - generic [ref=e145]:
+        - generic [ref=e147]:
+          - heading "Our Culture" [level=2] [ref=e148]
+          - paragraph [ref=e150]: Our culture sits at the heart of ABOUT YOU. It carries the energy and drive of our early days in 2014, combined with a clear vision for the future, shaping how we collaborate, decide, and grow together.
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - button "Put yourself in our customer's shoes" [ref=e155] [cursor=pointer]
+            - button "Score results" [ref=e161] [cursor=pointer]
+            - button "Put purpose first, ego second" [ref=e167] [cursor=pointer]
+            - button "Think big, act fast" [ref=e173] [cursor=pointer]
+            - generic:
+              - generic:
+                - button "Find a solution" [ref=e179] [cursor=pointer]
+                - button "Disagree and commit" [ref=e185] [cursor=pointer]
+                - button "Play to win, dare to fail" [ref=e191] [cursor=pointer]
+                - button "Make us better" [ref=e197] [cursor=pointer]
+                - button "Act like an owner, play as a team" [ref=e203] [cursor=pointer]
+                - button "Fly high and dive deep" [ref=e209] [cursor=pointer]
+                - button "Be your team's biggest fan" [ref=e215] [cursor=pointer]
+                - button "Live high challenge and high support" [ref=e221] [cursor=pointer]
+                - button "Seek the difference" [ref=e227] [cursor=pointer]
+                - button "Default to transparency" [ref=e233] [cursor=pointer]
+          - button "Show more" [ref=e237] [cursor=pointer]
+      - generic [ref=e241]:
+        - paragraph [ref=e243]:
+          - generic [ref=e244]: Want to Dive Deeper Into Our Culture?
+          - generic [ref=e245]: Discover our values, mindset, and how we work in our ABOUT YOU Culture Booklet.
+        - button "ABOUT YOU Culture Booklet" [ref=e246] [cursor=pointer]
+      - generic [ref=e251]:
+        - generic [ref=e253]:
+          - heading "Our Networks" [level=2] [ref=e254]
+          - paragraph [ref=e256]: Strong networks build a strong culture. At ABOUT YOU, our employee initiatives connect people across teams and create exchange throughout the company. Our networks strengthen our sense of belonging and give different communities a voice. Through open dialogue and active engagement, they help build a workplace where diverse perspectives are valued and collaboration grows naturally.
+        - generic [ref=e258]:
+          - button "ABOUT YOU Pride" [ref=e261] [cursor=pointer]
+          - button "International Get-Together" [ref=e267] [cursor=pointer]
+          - button "Sports Clubs" [ref=e273] [cursor=pointer]
+      - generic [ref=e278]:
+        - heading "Our Departments" [level=2] [ref=e281]
+        - generic [ref=e282]:
+          - generic [ref=e286]:
+            - generic [ref=e287]:
+              - paragraph [ref=e288]: Product & Tech
+              - paragraph [ref=e290]: Own services end to end, ship new features, maintain high-performance systems, strengthen security, or shape ABOUT YOU’s technical core.
+            - link "Discover our teams" [ref=e292] [cursor=pointer]:
+              - /url: /en/career/product-tech
+          - generic [ref=e297]:
+            - generic [ref=e298]:
+              - paragraph [ref=e299]: Marketing
+              - paragraph [ref=e301]: Be part of brand campaigns, social content and events, performance initiatives, media planning across markets, or data-driven CRM communication.
+            - link "Discover our teams" [ref=e303] [cursor=pointer]:
+              - /url: /en/career/marketing
+          - generic [ref=e308]:
+            - generic [ref=e309]:
+              - paragraph [ref=e310]: Business
+              - paragraph [ref=e312]: Build strong teams, expand into new markets, steer financial performance, optimize logistics, or advance our business model.
+            - link "Discover our teams" [ref=e314] [cursor=pointer]:
+              - /url: /en/career/business
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - paragraph [ref=e321]: Fashion
+              - paragraph [ref=e323]: Scout trends, negotiate brands, manage assortments or design in-house collections – combining fashion instinct with smart planning and pricing.
+            - link "Discover our teams" [ref=e325] [cursor=pointer]:
+              - /url: /en/career/fashion
+      - generic [ref=e328]:
+        - heading "Your Benefits at ABOUT YOU" [level=2] [ref=e329]
+        - paragraph [ref=e330]: Yes, we've thought about that too.
+        - link "Discover our benefits" [ref=e332] [cursor=pointer]:
+          - /url: /en/career/benefits
+  - contentinfo [ref=e334]:
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - link "Compliance" [ref=e338] [cursor=pointer]:
+          - /url: /en/footer/compliance
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - link "Business Code of Conduct" [ref=e341] [cursor=pointer]:
+              - /url: /en/footer/compliance/business-code-of-conduct
+          - listitem [ref=e342]:
+            - link "Business Code of Ethics" [ref=e343] [cursor=pointer]:
+              - /url: /en/footer/compliance/business-code-of-ethics
+          - listitem [ref=e344]:
+            - link "Human Rights & Environmental Policy" [ref=e345] [cursor=pointer]:
+              - /url: /en/footer/compliance/human-rights-environmental-policy
+          - listitem [ref=e346]:
+            - link "Whistleblowing" [ref=e347] [cursor=pointer]:
+              - /url: /en/footer/compliance/whistleblowing
+          - listitem [ref=e348]:
+            - link "Complaints Procedure (Rules of Procedure)" [ref=e349] [cursor=pointer]:
+              - /url: /en/footer/compliance/complaints-procedure-rules-of-procedure
+          - listitem [ref=e350]:
+            - link "Sustainable Sourcing Policies" [ref=e351] [cursor=pointer]:
+              - /url: /en/footer/compliance/sustainable-sourcing-policies
+      - generic [ref=e352]:
+        - link "COUPA" [ref=e353] [cursor=pointer]:
+          - /url: /en/footer/coupa
+        - list [ref=e354]:
+          - listitem [ref=e355]:
+            - link "Orders" [ref=e356] [cursor=pointer]:
+              - /url: /en/footer/coupa/orders
+          - listitem [ref=e357]:
+            - link "Invoicing" [ref=e358] [cursor=pointer]:
+              - /url: /en/footer/coupa/invoicing
+          - listitem [ref=e359]:
+            - link "FAQ" [ref=e360] [cursor=pointer]:
+              - /url: /en/footer/coupa/faq
+      - generic [ref=e361]:
+        - link [ref=e362] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - link "Sustainability" [ref=e365] [cursor=pointer]:
+              - /url: https://en.aboutyou.de/cp/planet-100748
+          - listitem [ref=e366]:
+            - link "IT Security" [ref=e367] [cursor=pointer]:
+              - /url: /en/footer/it-security
+          - listitem [ref=e368]:
+            - link "Service & Contacts" [ref=e369] [cursor=pointer]:
+              - /url: /en/footer/service-and-contacts
+          - listitem [ref=e370]:
+            - link "ABOUT YOU Online Fashion Store" [ref=e371] [cursor=pointer]:
+              - /url: https://en.aboutyou.de
+          - listitem [ref=e372]:
+            - link "App Store" [ref=e373] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/id985244644
+          - listitem [ref=e374]:
+            - link "Play Store" [ref=e375] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.aboutyou.mobile.app
+      - generic [ref=e376]:
+        - paragraph [ref=e377]: Social Media
+        - list [ref=e378]:
+          - listitem [ref=e379]:
+            - link "TikTok" [ref=e380] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aboutyou
+          - listitem [ref=e381]:
+            - link "LinkedIn" [ref=e382] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/about-you
+          - listitem [ref=e383]:
+            - link "Instagram" [ref=e384] [cursor=pointer]:
+              - /url: https://www.instagram.com/aboutyou/
+    - separator [ref=e386]
+    - generic [ref=e388]:
+      - generic [ref=e389]: © 2026 ABOUT YOU. ALL RIGHTS RESERVED.
+      - generic [ref=e390]:
+        - link "Privacy Policy" [ref=e391] [cursor=pointer]:
+          - /url: /en/privacy-policy
+        - link "Privacy Policy for Business Partners & Suppliers" [ref=e392] [cursor=pointer]:
+          - /url: /en/privacy-policy-for-business-partners-and-suppliers
+        - link "Legal Notice" [ref=e393] [cursor=pointer]:
+          - /url: /en/legal-notice

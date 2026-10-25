@@ -1,0 +1,234 @@
+- generic [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - link "Zum Inhalt springen" [ref=f6e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=f6e5]:
+      - generic [ref=f6e12]:
+        - generic [ref=f6e13]:
+          - link "ABRIO GmbH Logo Link zur ABRIO Homepage Karrierebereich" [ref=f6e14] [cursor=pointer]:
+            - /url: https://abrio.de/pages/karriere
+            - img "ABRIO GmbH Logo" [ref=f6e15]
+            - generic [ref=f6e16]: Link zur ABRIO Homepage Karrierebereich
+          - link "ABRIO GmbH Logo Link zur ABRIO Homepage Karrierebereich" [ref=f6e17] [cursor=pointer]:
+            - /url: https://abrio.de/pages/karriere
+            - img "ABRIO GmbH Logo" [ref=f6e18]
+            - generic [ref=f6e19]: Link zur ABRIO Homepage Karrierebereich
+        - navigation [ref=f6e21]:
+          - list [ref=f6e22]:
+            - listitem [ref=f6e23]:
+              - link "instagram" [ref=f6e24] [cursor=pointer]:
+                - /url: https://www.instagram.com/abrio.de/
+            - listitem [ref=f6e25]:
+              - link "linkedin" [ref=f6e26] [cursor=pointer]:
+                - /url: https://de.linkedin.com/company/abrio-consulting
+            - listitem [ref=f6e27]:
+              - link "kununu" [ref=f6e28] [cursor=pointer]:
+                - /url: https://www.kununu.com/de/abrio
+      - main [ref=f6e29]:
+        - generic [ref=f6e39]:
+          - heading "Senior E-Commerce Consultant (m/w/d)" [level=1] [ref=f6e40]
+          - list [ref=f6e41]:
+            - listitem [ref=f6e42]: Hybrid
+            - listitem [ref=f6e44]:
+              - list [ref=f6e47]:
+                - listitem [ref=f6e48]:
+                  - text: Frankfurt
+                  - generic [ref=f6e49]: ","
+                  - text: Hessen
+                  - generic [ref=f6e50]: ","
+                  - text: Deutschland
+            - listitem [ref=f6e51]: Consulting
+        - generic [ref=f6e61]:
+          - tablist [ref=f6e64]:
+            - tab "Jobdetails" [ref=f6e65] [cursor=pointer]
+            - tab "Bewerbung" [selected] [ref=f6e66] [cursor=pointer]
+          - text: • • • • • • • • • • • • • • • • • • • • •
+          - tabpanel "Bewerbung" [ref=f6e67]:
+            - generic [ref=f6e68]:
+              - group "Meine Daten" [ref=f6e70]:
+                - paragraph [ref=f6e72]: Bitte gebe hier deine Kontaktdaten an
+                - generic [ref=f6e74]:
+                  - generic [ref=f6e75]:
+                    - text: Allgemeine Anrede
+                    - generic [aria-hidden] [ref=f6e76]: "*"
+                  - 'button "Allgemeine Anrede: Frau" [active] [ref=f6e344] [cursor=pointer]':
+                    - generic [ref=f6e78]: Frau
+                  - 'listbox "Allgemeine Anrede: Frau"'
+                  - alert [ref=f6e81]
+                - generic [ref=f6e83]:
+                  - generic [ref=f6e84]:
+                    - text: Vor- und Nachname
+                    - generic [aria-hidden] [ref=f6e85]: "*"
+                  - textbox "Vor- und Nachname" [ref=f6e86]: Kranti Chavan
+                  - alert [ref=f6e87]
+                - generic [ref=f6e89]:
+                  - generic [ref=f6e90]:
+                    - text: E-Mail-Adresse
+                    - generic [aria-hidden] [ref=f6e91]: "*"
+                  - textbox "E-Mail-Adresse" [ref=f6e92]:
+                    - /placeholder: Ihre E-Mail-Adresse
+                    - text: krantichavan198@gmail.com
+                  - alert [ref=f6e93]
+                - generic [ref=f6e94]:
+                  - generic [ref=f6e95]:
+                    - text: Telefonnummer
+                    - generic [aria-hidden] [ref=f6e96]: "*"
+                  - generic [ref=f6e97]:
+                    - generic [ref=f6e98]:
+                      - 'button "Ländervorwahl auswählen: International" [ref=f6e342] [cursor=pointer]':
+                        - generic [ref=f6e100]: International
+                      - 'listbox "Ländervorwahl auswählen: International"'
+                    - textbox "Telefonnummer" [ref=f6e110]: +1 575 017 4177
+                  - alert [ref=f6e111]
+              - generic [ref=f6e112]:
+                - generic [ref=f6e113]:
+                  - text: Lebenslauf
+                  - generic [aria-hidden] [ref=f6e114]: "*"
+                - paragraph [ref=f6e115]: Lebenslauf hochladen
+                - generic [ref=f6e117]:
+                  - generic [ref=f6e118] [cursor=pointer]:
+                    - button "Lebenslauf" [ref=f6e119]
+                    - generic "Kranti_Chavan_Lebenslauf_Instaffo_Senior-E-Commerce-Consultant.pdf" [ref=f6e346]
+                    - generic [ref=f6e347]:
+                      - button "Datei ändern" [ref=f6e348]
+                      - button "Entfernen" [ref=f6e349]
+                  - alert [ref=f6e123]
+              - generic [ref=f6e124]:
+                - generic [ref=f6e125]: Anschreiben
+                - paragraph [ref=f6e126]: Lade hier dein Anschreiben hoch
+                - generic [ref=f6e127]:
+                  - generic [ref=f6e128] [cursor=pointer]:
+                    - button "Anschreiben" [ref=f6e129]
+                    - generic "Kranti_Chavan_Anschreiben_Instaffo_Senior-E-Commerce-Consultant.pdf" [ref=f6e350]
+                    - generic [ref=f6e351]:
+                      - button "Datei ändern" [ref=f6e352]
+                      - button "Entfernen" [ref=f6e353]
+                  - alert [ref=f6e133]
+                - button "Stattdessen hier schreiben" [ref=f6e134] [cursor=pointer]
+              - group "Fragen" [ref=f6e137]:
+                - paragraph [ref=f6e139]: Fast fertig! Wir haben ein paar weitere Fragen für dich
+                - generic [ref=f6e140]:
+                  - generic [ref=f6e141]:
+                    - generic [ref=f6e142]:
+                      - generic [ref=f6e143]:
+                        - text: Wann wäre dein frühestmögliches Startdatum?
+                        - generic [aria-hidden] [ref=f6e144]: "*"
+                      - generic [ref=f6e145]:
+                        - textbox "Wann wäre dein frühestmögliches Startdatum?" [ref=f6e146]: 2026-12-16
+                        - button "Löschen" [ref=f6e147] [cursor=pointer]
+                    - alert [ref=f6e148]
+                  - generic [ref=f6e149]:
+                    - generic [ref=f6e150]:
+                      - text: Was ist deine jährliche Gehaltsvorstellung (brutto)?
+                      - generic [aria-hidden] [ref=f6e151]: "*"
+                    - generic [ref=f6e152]:
+                      - spinbutton "Was ist deine jährliche Gehaltsvorstellung (brutto)?" [ref=f6e153]: "60000"
+                      - generic [ref=f6e154]: EUR
+                    - alert [ref=f6e155]
+                  - generic [ref=f6e157]:
+                    - group [ref=f6e158]:
+                      - generic [ref=f6e159]:
+                        - text: Wie hoch ist deine Reisebereitschaft?
+                        - generic [aria-hidden] [ref=f6e160]: "*"
+                      - generic [ref=f6e161]:
+                        - generic [ref=f6e162]:
+                          - radio "mehr als 80%" [ref=f6e163]
+                          - generic [ref=f6e164] [cursor=pointer]: mehr als 80%
+                        - generic [ref=f6e166]:
+                          - radio "60% bis 80%" [ref=f6e167]
+                          - generic [ref=f6e168] [cursor=pointer]: 60% bis 80%
+                        - generic [ref=f6e170]:
+                          - radio "40% bis 60%" [checked] [ref=f6e171]
+                          - generic [ref=f6e172] [cursor=pointer]: 40% bis 60%
+                        - generic [ref=f6e174]:
+                          - radio "20% bis 40%" [ref=f6e175]
+                          - generic [ref=f6e176] [cursor=pointer]: 20% bis 40%
+                        - generic [ref=f6e178]:
+                          - radio "weniger als 20%" [ref=f6e179]
+                          - generic [ref=f6e180] [cursor=pointer]: weniger als 20%
+                    - alert [ref=f6e182]
+                  - generic [ref=f6e184]:
+                    - group [ref=f6e185]:
+                      - generic [ref=f6e186]:
+                        - text: Wie gut sind deine Deutschkenntnisse?
+                        - generic [aria-hidden] [ref=f6e187]: "*"
+                      - generic [ref=f6e188]:
+                        - generic [ref=f6e189]:
+                          - radio "Muttersprache (C2)" [ref=f6e190]
+                          - generic [ref=f6e191] [cursor=pointer]: Muttersprache (C2)
+                        - generic [ref=f6e193]:
+                          - radio "Sehr gut bis verhandlungssicher (C1 bis C2)" [ref=f6e194]
+                          - generic [ref=f6e195] [cursor=pointer]: Sehr gut bis verhandlungssicher (C1 bis C2)
+                        - generic [ref=f6e197]:
+                          - radio "Gute Kenntnisse (B1 bis B2)" [checked] [ref=f6e198]
+                          - generic [ref=f6e199] [cursor=pointer]: Gute Kenntnisse (B1 bis B2)
+                        - generic [ref=f6e201]:
+                          - radio "Grundkenntnisse (A1 bis A2)" [ref=f6e202]
+                          - generic [ref=f6e203] [cursor=pointer]: Grundkenntnisse (A1 bis A2)
+                    - alert [ref=f6e205]
+                  - generic [ref=f6e207]:
+                    - group [ref=f6e208]:
+                      - generic [ref=f6e209]:
+                        - text: Wie gut sind deine Englischkenntnisse?
+                        - generic [aria-hidden] [ref=f6e210]: "*"
+                      - generic [ref=f6e211]:
+                        - generic [ref=f6e212]:
+                          - radio "Muttersprache (C2)" [ref=f6e213]
+                          - generic [ref=f6e214] [cursor=pointer]: Muttersprache (C2)
+                        - generic [ref=f6e216]:
+                          - radio "Sehr gut bis verhandlungssicher (C1 bis C2)" [checked] [ref=f6e217]
+                          - generic [ref=f6e218] [cursor=pointer]: Sehr gut bis verhandlungssicher (C1 bis C2)
+                        - generic [ref=f6e220]:
+                          - radio "Gute Kenntnisse (B1 bis B2)" [ref=f6e221]
+                          - generic [ref=f6e222] [cursor=pointer]: Gute Kenntnisse (B1 bis B2)
+                        - generic [ref=f6e224]:
+                          - radio "Grundkenntnisse (A1 bis A2)" [ref=f6e225]
+                          - generic [ref=f6e226] [cursor=pointer]: Grundkenntnisse (A1 bis A2)
+                    - alert [ref=f6e228]
+                  - generic [ref=f6e230]:
+                    - group [ref=f6e231]:
+                      - generic [ref=f6e232]:
+                        - text: Wie viele Tage pro Woche würdest du aus dem Homeoffice arbeiten wollen?
+                        - generic [aria-hidden] [ref=f6e233]: "*"
+                      - generic [ref=f6e234]:
+                        - generic [ref=f6e235]:
+                          - radio "Immer" [ref=f6e236]
+                          - generic [ref=f6e237] [cursor=pointer]: Immer
+                        - generic [ref=f6e239]:
+                          - radio "An 3 bis 4 Tagen pro Woche" [ref=f6e240]
+                          - generic [ref=f6e241] [cursor=pointer]: An 3 bis 4 Tagen pro Woche
+                        - generic [ref=f6e243]:
+                          - radio "An 2 bis 3 Tagen pro Woche" [checked] [ref=f6e244]
+                          - generic [ref=f6e245] [cursor=pointer]: An 2 bis 3 Tagen pro Woche
+                        - generic [ref=f6e247]:
+                          - radio "An 1 bis 2 Tagen pro Woche" [ref=f6e248]
+                          - generic [ref=f6e249] [cursor=pointer]: An 1 bis 2 Tagen pro Woche
+                        - generic [ref=f6e251]:
+                          - radio "Gelegentlich" [ref=f6e252]
+                          - generic [ref=f6e253] [cursor=pointer]: Gelegentlich
+                    - alert [ref=f6e255]
+              - group "Rechtliche Vereinbarungen" [ref=f6e257]:
+                - generic [ref=f6e260]:
+                  - checkbox "Einwilligung zur Verarbeitung meiner Bewerbungsdaten Ich willige ein, dass die von mir im Rahmen meiner Bewerbung übermittelten personenbezogenen Daten von der ABRIO GmbH zum Zwecke der Durchführung des Bewerbungsverfahrens verarbeitet werden. Ich habe die Datenschutzerklärung unter https://www.abrio.de/datenschutz zur Kenntnis genommen und stimme dieser zu. Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. b DSGVO sowie § 26 BDSG. Meine Daten werden ausschließlich für das Bewerbungsverfahren verwendet und nach Abschluss des Verfahrens gemäß den gesetzlichen Vorgaben gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen. Mir ist bekannt, dass ich meine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen kann. *" [checked] [ref=f6e261]
+                  - generic [ref=f6e264] [cursor=pointer]:
+                    - paragraph [ref=f6e265]:
+                      - strong [ref=f6e268]: Einwilligung zur Verarbeitung meiner Bewerbungsdaten
+                      - generic [ref=f6e269]: Ich willige ein, dass die von mir im Rahmen meiner Bewerbung übermittelten personenbezogenen Daten von der ABRIO GmbH zum Zwecke der Durchführung des Bewerbungsverfahrens verarbeitet werden.
+                    - paragraph [ref=f6e271]:
+                      - generic [ref=f6e272]: Ich habe die Datenschutzerklärung unter
+                      - link "https://www.abrio.de/datenschutz" [ref=f6e274]:
+                        - /url: https://www.abrio.de/datenschutz
+                      - generic [ref=f6e277]: zur Kenntnis genommen und stimme dieser zu.
+                    - paragraph [ref=f6e279]:
+                      - generic [ref=f6e280]: Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. b DSGVO sowie § 26 BDSG. Meine Daten werden ausschließlich für das Bewerbungsverfahren verwendet und nach Abschluss des Verfahrens gemäß den gesetzlichen Vorgaben gelöscht, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
+                    - paragraph [ref=f6e282]:
+                      - generic [ref=f6e283]:
+                        - generic [ref=f6e284]: Mir ist bekannt, dass ich meine Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen kann.
+                        - text: "*"
+                  - alert [ref=f6e285]
+              - alert [ref=f6e286]
+              - paragraph [ref=f6e288]: Alle mit * gekennzeichneten Felder sind Pflichtfelder.
+              - button "Senden" [ref=f6e290] [cursor=pointer]
+      - link "Hiring with Recruitee" [ref=f6e292] [cursor=pointer]:
+        - /url: https://recruitee.com
+  - status [ref=f6e343]: Frau has been selected.

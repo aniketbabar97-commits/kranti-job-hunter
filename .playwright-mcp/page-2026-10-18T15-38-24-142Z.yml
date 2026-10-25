@@ -1,0 +1,54 @@
+- generic [active] [ref=f23e10]:
+  - generic [ref=f23e11]:
+    - link "Skip to main content" [ref=f23e12] [cursor=pointer]:
+      - /url: ""
+    - banner [ref=f23e15]:
+      - generic [ref=f23e17]:
+        - link [ref=f23e20] [cursor=pointer]:
+          - /url: https://www.accenture.com/jobsearch
+          - img "careers home" [ref=f23e21]
+        - generic [ref=f23e22]:
+          - heading [level=1]
+        - generic [ref=f23e24]:
+          - button "English" [ref=f23e27] [cursor=pointer]
+          - navigation [ref=f23e32]:
+            - button "Search Careers" [ref=f23e33] [cursor=pointer]
+            - button "Introduce Yourself" [ref=f23e34] [cursor=pointer]
+  - generic [ref=f23e37]:
+    - main [ref=f23e38]:
+      - generic [ref=f23e45]:
+        - generic [ref=f23e52]:
+          - heading "Sign In" [level=2] [ref=f23e53]
+          - generic [ref=f23e55]:
+            - paragraph [ref=f23e56]: You may choose to sign in using your Google account as an alternative authentication method. Where selected, authentication is handled by the respective provider (Google) in accordance with their own security measures. You may alternatively sign in using a Workday username and password.
+            - paragraph [ref=f23e57]:
+              - text: Accenture receives only the information necessary to enable account access and does not access your Google account content. The processing of your candidate data within Accenture’s recruitment systems is carried out in accordance with
+              - link "Accenture’s privacy policy" [ref=f23e58] [cursor=pointer]:
+                - /url: https://www.accenture.com/us-en/support/privacy-policy
+              - text: and Accenture
+              - link "Recruitment and Hiring Privacy Statement" [ref=f23e60] [cursor=pointer]:
+                - /url: https://www.accenture.com/us-en/careers/support/privacy-statement#process
+              - text: .
+            - paragraph [ref=f23e62]: Security features such as multi-factor authentication is strongly encouraged to be enabled, however are governed by the respective provider and may vary depending on the authentication method chosen.
+          - button "Sign in with Google" [ref=f23e67] [cursor=pointer]
+          - generic [ref=f23e76]:
+            - generic [ref=f23e77]: OR
+            - button "Sign in with email" [ref=f23e81] [cursor=pointer]
+        - generic [ref=f23e83]:
+          - generic [ref=f23e84]: Follow Us
+          - list [ref=f23e86]:
+            - listitem [ref=f23e87]:
+              - button "YouTube" [ref=f23e88] [cursor=pointer]
+            - listitem [ref=f23e94]:
+              - button "Facebook" [ref=f23e95] [cursor=pointer]
+            - listitem [ref=f23e99]:
+              - button "X" [ref=f23e100] [cursor=pointer]
+            - listitem [ref=f23e104]:
+              - button "LinkedIn" [ref=f23e105] [cursor=pointer]
+          - list [ref=f23e111]:
+            - generic "Accenture Privacy Policy" [ref=f23e112]:
+              - generic [ref=f23e114]:
+                - link "Accenture Privacy Policy opens new window" [ref=f23e115] [cursor=pointer]: Accenture Privacy Policy
+                - link "Accenture Privacy Policy opens new window" [ref=f23e116] [cursor=pointer]
+    - contentinfo [ref=f23e120]:
+      - generic "© 2026 Workday, Inc. All rights reserved." [ref=f23e122]

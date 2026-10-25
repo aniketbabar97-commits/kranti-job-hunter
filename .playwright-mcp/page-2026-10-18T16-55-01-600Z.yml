@@ -1,0 +1,382 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - generic [ref=f27e4]:
+      - generic [ref=f27e6]:
+        - generic [ref=f27e7]:
+          - generic [ref=f27e9]:
+            - generic [ref=f27e10]:
+              - generic [ref=f27e11]: 
+              - paragraph [ref=f27e14]:
+                - link "cronos@cronos.de" [ref=f27e15] [cursor=pointer]:
+                  - /url: mailto:cronos@cronos.de
+            - generic [ref=f27e16]:
+              - generic [ref=f27e17]: 
+              - paragraph [ref=f27e20]:
+                - link "+49 251 39966-0" [ref=f27e21] [cursor=pointer]:
+                  - /url: tel:+49 251 39966-0
+          - generic [ref=f27e23]:
+            - generic:
+              - generic:
+                - heading "Login" [level=4]
+                - generic:
+                  - textbox "E-Mail-Adresse"
+                  - textbox "Passwort"
+                  - generic:
+                    - checkbox "Angemeldet bleiben"
+                    - generic: Angemeldet bleiben
+                  - generic:
+                    - button "Anmelden"
+                  - generic:
+                    - link "Passwort Vergessen?":
+                      - /url: /passwort-vergessen
+                  - generic:
+                    - link "Noch keinen Login? Jetzt registrieren!":
+                      - /url: registration
+            - generic [ref=f27e24]:
+              - link "" [ref=f27e25] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cronosgmbh/
+              - link "" [ref=f27e27] [cursor=pointer]:
+                - /url: https://de-de.facebook.com/cronosgmbh
+              - link "" [ref=f27e29] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/cronosunternehmensberatunggmbh
+              - link "" [ref=f27e31] [cursor=pointer]:
+                - /url: https://www.instagram.com/cronologen
+              - link [ref=f27e33] [cursor=pointer]:
+                - /url: https://www.youtube.com/@cronosTV
+                - generic [aria-hidden] [ref=f27e34]: 
+        - separator [ref=f27e35]
+      - banner [ref=f27e36]:
+        - generic [ref=f27e37]:
+          - link [ref=f27e39] [cursor=pointer]:
+            - /url: https://cronos.de
+          - text:      
+          - button:
+            - generic [ref=f27e40] [cursor=pointer]
+    - generic [ref=f27e44]:
+      - generic [ref=f27e46]:
+        - figure [ref=f27e48]
+        - heading "cronologe werden Jobs" [level=1] [ref=f27e51]
+      - paragraph [ref=f27e54]:
+        - link "cronos" [ref=f27e55] [cursor=pointer]:
+          - /url: /cub
+        - text: "> Jobs"
+    - main [ref=f27e57]:
+      - generic [ref=f27e60]:
+        - generic [ref=f27e62]:
+          - heading "Senior Consultant | SAP CX (all genders)" [level=1] [ref=f27e63]
+          - generic [ref=f27e64]:
+            - separator [ref=f27e66]
+            - generic [ref=f27e67]:
+              - text: Wir möchten für dich den Eingabeaufwand reduzieren und empfehlen zunächst über einen der Buttons deinen CV hochzuladen. Unser Programm selektiert passende Angaben automatisch und fügt diese in die Formularfelder ein, so dass dein Eingabeaufwand reduziert wird. Bitte überprüfe
+              - strong [ref=f27e68]: vor dem Absenden
+              - text: nochmal alle Daten, da systemtechnisch nicht immer alles eindeutig zugeordnet werden kann. Hinweis:Bei den mit * markierten Feldern handelt es sich um Pflichtfelder.
+          - generic [ref=f27e70]:
+            - generic [ref=f27e71]:
+              - generic [ref=f27e74] [cursor=pointer]:
+                - button "Choose File" [ref=f27e75]
+                - link "Button namens Lebenslauf hochladen ausführen" [ref=f27e76]:
+                  - /url: "javascript: void(0);"
+                  - text: Lebenslauf hochladen
+              - link "Button namens Mit finest jobs-Profil bewerben ausführen" [ref=f27e79] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - text: Mit finest jobs-Profil bewerben
+            - text: 
+          - generic [ref=f27e81]:
+            - generic [ref=f27e83]:
+              - checkbox " Für Personalberatung" [ref=f27e84]
+              - generic [ref=f27e85] [cursor=pointer]:
+                - generic [ref=f27e86]: 
+                - generic [ref=f27e87]: Für Personalberatung
+            - group "Stammdaten" [ref=f27e89]:
+              - generic [ref=f27e92]:
+                - generic [ref=f27e93]:
+                  - generic [ref=f27e94]:
+                    - generic [ref=f27e95]: Anrede
+                    - combobox "Geschlecht" [ref=f27e97] [cursor=pointer]:
+                      - generic [ref=f27e99]: Frau
+                  - generic [ref=f27e100]:
+                    - generic [ref=f27e101]: Anredetitel
+                    - combobox "Anredetitel" [ref=f27e103] [cursor=pointer]:
+                      - generic [ref=f27e105]: "---"
+                - generic [ref=f27e106]:
+                  - generic [ref=f27e107]:
+                    - generic [ref=f27e108]: Vorname *
+                    - textbox "Vorname *" [ref=f27e110]: Kranti
+                  - generic [ref=f27e111]:
+                    - generic [ref=f27e112]: Nachname *
+                    - textbox "Nachname *" [ref=f27e114]: Chavan
+                - generic [ref=f27e115]:
+                  - generic [ref=f27e116]:
+                    - generic [ref=f27e117]: Straße
+                    - textbox "Straße" [ref=f27e119]: Blücherstraße 6
+                  - generic [ref=f27e120]:
+                    - generic [ref=f27e121]: PLZ
+                    - textbox "PLZ" [ref=f27e123]: "76185"
+                - generic [ref=f27e124]:
+                  - generic [ref=f27e125]:
+                    - generic [ref=f27e126]: Ort *
+                    - textbox "Ort *" [ref=f27e128]: Karlsruhe
+                  - generic [ref=f27e129]:
+                    - generic [ref=f27e130]: Land
+                    - combobox "Land" [ref=f27e132] [cursor=pointer]:
+                      - generic [ref=f27e134]: Deutschland
+                - generic [ref=f27e135]:
+                  - generic [ref=f27e136]:
+                    - generic [ref=f27e137]: Telefon
+                    - textbox "Telefon" [ref=f27e139]: +49 15750174177
+                  - generic [ref=f27e140]:
+                    - generic [ref=f27e141]: Mobil *
+                    - textbox "Mobil *" [ref=f27e143]: +49 15750174177
+                - generic [ref=f27e144]:
+                  - generic [ref=f27e145]:
+                    - generic [ref=f27e146]: E-Mail
+                    - textbox "E-Mail" [ref=f27e148]: krantichavan198@gmail.com
+                  - generic [ref=f27e149]:
+                    - generic [ref=f27e150]: E-Mail (2)
+                    - textbox "E-Mail (2)" [ref=f27e152]: krantichavan198@gmail.com
+                - generic [ref=f27e153]:
+                  - generic [ref=f27e154]:
+                    - generic [ref=f27e155]: Geburtsdatum (TT.MM.JJJJ)
+                    - textbox "Geburtsdatum (TT.MM.JJJJ)" [ref=f27e157]: 14.10.1997
+                  - generic [ref=f27e158]:
+                    - generic [ref=f27e159]: Geburtsort
+                    - textbox "Geburtsort" [ref=f27e161]
+                - generic [ref=f27e162]:
+                  - generic [ref=f27e163]:
+                    - generic [ref=f27e164]: Geburtsname
+                    - textbox "Geburtsname" [ref=f27e166]
+                  - generic [ref=f27e167]:
+                    - generic [ref=f27e168]: Familienstand
+                    - combobox "Familienstand" [ref=f27e170] [cursor=pointer]:
+                      - generic [ref=f27e172]: "---"
+                - generic [ref=f27e174]:
+                  - generic [ref=f27e175]: Staatsangehörigkeit
+                  - textbox "Staatsangehörigkeit" [ref=f27e177]: indisch
+            - group "Rahmendaten" [ref=f27e179]:
+              - generic [ref=f27e184]:
+                - generic [ref=f27e185]: Wie haben Sie uns gefunden? *
+                - combobox "Wie haben Sie uns gefunden?" [ref=f27e187] [cursor=pointer]:
+                  - generic [ref=f27e189]: LinkedIn
+            - group "Schule, Ausbildung, Beruf" [ref=f27e191]:
+              - generic [ref=f27e194]:
+                - generic [ref=f27e195]:
+                  - generic [ref=f27e196]:
+                    - generic [ref=f27e197]: Studienabschluss
+                    - textbox "Studienabschluss" [ref=f27e199]: B.E. Computer Engineering / IT
+                  - generic [ref=f27e200]:
+                    - generic [ref=f27e201]: Studium (Fachrichtung)
+                    - textbox "Studium (Fachrichtung)" [ref=f27e203]: Computer Engineering / IT
+                - generic [ref=f27e204]:
+                  - generic [ref=f27e205]:
+                    - generic [ref=f27e206]: Hochschulart
+                    - combobox "Hochschulart" [ref=f27e208] [cursor=pointer]:
+                      - generic [ref=f27e210]: Universität
+                  - generic [ref=f27e211]:
+                    - generic [ref=f27e212]: Anzahl Semester
+                    - combobox "Anzahl Semester" [ref=f27e214] [cursor=pointer]:
+                      - generic [ref=f27e216]: unter 10
+                - generic [ref=f27e217]:
+                  - generic [ref=f27e218]:
+                    - generic [ref=f27e219]: Berufsausbildung (Bezeichnung)
+                    - textbox "Berufsausbildung (Bezeichnung)" [ref=f27e221]
+                  - generic [ref=f27e222]:
+                    - generic [ref=f27e223]: Schulabschluss
+                    - combobox "Schulabschluss" [ref=f27e225] [cursor=pointer]:
+                      - generic [ref=f27e227]: "---"
+                - generic [ref=f27e229]:
+                  - generic [ref=f27e230]: Berufserfahrung
+                  - combobox "Berufserfahrung" [ref=f27e232] [cursor=pointer]:
+                    - generic [ref=f27e234]: 3-5 Jahre
+            - group "Sonstiges" [ref=f27e236]:
+              - generic [ref=f27e239]:
+                - generic [ref=f27e240]:
+                  - generic [ref=f27e241]:
+                    - generic [ref=f27e242]: Frühester Eintritt (TT.MM.JJJJ)
+                    - textbox "Frühester Eintritt (TT.MM.JJJJ)" [ref=f27e244]: 16.12.2026
+                  - generic [ref=f27e245]:
+                    - generic [ref=f27e246]: Kündigungsfrist
+                    - combobox "Kündigungsfrist" [ref=f27e248] [cursor=pointer]:
+                      - generic [ref=f27e250]: nach Rücksprache
+                - generic [ref=f27e251]:
+                  - generic [ref=f27e252]:
+                    - generic [ref=f27e253]: Gehaltswunsch p.a. (nur Zahl)
+                    - textbox "Gehaltswunsch p.a. (nur Zahl)" [ref=f27e255]: "60000"
+                  - generic [ref=f27e256]:
+                    - generic [ref=f27e257]: Reisebereitschaft
+                    - combobox "Reisebereitschaft" [ref=f27e259] [cursor=pointer]:
+                      - generic [ref=f27e261]: 50%
+                - generic [ref=f27e263]:
+                  - generic [ref=f27e264]:
+                    - text: Wunscheinsatzgebiet
+                    - img "z.B. ERP, RPA, ..." [ref=f27e266]
+                  - textbox "Wunscheinsatzgebiet z.B. ERP, RPA, ..." [ref=f27e268]: Karlsruhe
+                - generic [ref=f27e269]:
+                  - generic [ref=f27e270]:
+                    - generic [ref=f27e271]: Führungsverantwortung
+                    - combobox "Führungsverantwortung" [ref=f27e273] [cursor=pointer]:
+                      - generic [ref=f27e275]: "---"
+                  - generic [ref=f27e276]:
+                    - generic [ref=f27e277]: umzugsbereit
+                    - combobox "umzugsbereit" [ref=f27e279] [cursor=pointer]:
+                      - generic [ref=f27e281]: Ja
+                - generic [ref=f27e283]:
+                  - generic [ref=f27e284]: Ergänzende Infos
+                  - textbox "Ergänzende Infos" [ref=f27e286]: Kündigungsfrist läuft, letzter Arbeitstag 15.12.2026. Gehaltswunsch 60.000 € brutto/Jahr (verhandelbar). cronos verbindet SAP-CX-Beratung mit echter technischer Umsetzung – das entspricht genau meinem Profil aus SAP Commerce Cloud und ERP-/PIM-Integration.
+            - generic [ref=f27e287]:
+              - generic [ref=f27e288]: Anlagen
+              - generic [ref=f27e290]:
+                - paragraph [ref=f27e292]: "Bitte lade hier die Bewerbungs-Dokumente hoch. Du hast dabei die Möglichkeit die Dokumente einzeln oder als ein Gesamt-Dokument hochzuladen. Wir empfehlen ein Gesamt-Dokument.Folgende Dateiformate sind möglich: PDF, JPG, PNG, GIF. Ein Einzeldokument darf die Größe von 15 MB nicht überschreiten.Bitte lade keine Dokumente hoch, die mit einem Passwort- oder Schreibschutz versehen sind."
+                - generic [ref=f27e293]:
+                  - generic [ref=f27e294]:
+                    - generic [ref=f27e295]: Lebenslauf *
+                    - generic [ref=f27e296]:
+                      - text: 
+                      - generic [ref=f27e298]:
+                        - link "" [ref=f27e299] [cursor=pointer]:
+                          - /url: javascript:del.delatt('anschreiben','239','0');void(0);
+                        - link "Kranti_Chavan_Lebe...CX.pdf" [ref=f27e302] [cursor=pointer]:
+                          - /url: https://www.cronos.de/jobs/Anlage-ansehen-dsa0.php?type=anschreiben&joboffer_id=239&application_id=0&atthash=9227ed79392c0eceb07f33344fd6c4b1
+                  - generic [ref=f27e304]:
+                    - generic [ref=f27e305]: Zeugnisse *
+                    - generic [ref=f27e306]:
+                      - text:  
+                      - generic [ref=f27e308]:
+                        - link "" [ref=f27e309] [cursor=pointer]:
+                          - /url: javascript:del.delatt('anlage3','239','0');void(0);
+                        - link "Kranti_Chavan_Ansc...CX.pdf" [ref=f27e312] [cursor=pointer]:
+                          - /url: https://www.cronos.de/jobs/Anlage-ansehen-dsa0.php?type=anlage3&joboffer_id=239&application_id=0&atthash=4332b84a46d1be563f6bc6dac1722a6b
+                - generic [ref=f27e314]:
+                  - generic [ref=f27e315]:
+                    - generic [ref=f27e316]: Anschreiben
+                    - generic [ref=f27e317]:
+                      - text: 
+                      - generic [ref=f27e319]:
+                        - link "" [ref=f27e320] [cursor=pointer]:
+                          - /url: javascript:del.delatt('lebenslauf','239','0');void(0);
+                        - link "Kranti_Chavan_Ansc...CX.pdf" [ref=f27e323] [cursor=pointer]:
+                          - /url: https://www.cronos.de/jobs/Anlage-ansehen-dsa0.php?type=lebenslauf&joboffer_id=239&application_id=0&atthash=778a883de65ccc449b11c426899c6650
+                  - generic [ref=f27e325]:
+                    - generic [ref=f27e326]: Foto
+                    - generic [ref=f27e327]:
+                      - generic "Foto hochladen" [ref=f27e329]:
+                        - generic [ref=f27e330]:
+                          - button "Foto" [ref=f27e331] [cursor=pointer]
+                          - generic [ref=f27e332]:
+                            - generic [ref=f27e333]: 
+                            - generic [ref=f27e335]: Datei hochladen
+                      - text: 
+                - generic [ref=f27e337]:
+                  - generic [ref=f27e338]:
+                    - generic [ref=f27e339]: Weitere Anlagen
+                    - generic [ref=f27e340]:
+                      - generic "Weitere Anlagen hochladen" [ref=f27e342]:
+                        - generic [ref=f27e343]:
+                          - button "Weitere Anlagen" [ref=f27e344] [cursor=pointer]
+                          - generic [ref=f27e345]:
+                            - generic [ref=f27e346]: 
+                            - generic [ref=f27e348]: Datei hochladen
+                      - text: 
+                  - generic [ref=f27e350]:
+                    - generic [ref=f27e351]: Arbeitserlaubnis
+                    - generic [ref=f27e352]:
+                      - generic "Arbeitserlaubnis hochladen" [ref=f27e354]:
+                        - generic [ref=f27e355]:
+                          - button "Arbeitserlaubnis" [ref=f27e356] [cursor=pointer]
+                          - generic [ref=f27e357]:
+                            - generic [ref=f27e358]: 
+                            - generic [ref=f27e360]: Datei hochladen
+                      - text: 
+          - generic [ref=f27e363]:
+            - checkbox " Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der Datenschutzrichtlinien.*" [checked] [ref=f27e364]
+            - generic [ref=f27e365] [cursor=pointer]:
+              - generic [ref=f27e366]: 
+              - generic [ref=f27e367]:
+                - text: Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der
+                - link "Datenschutzrichtlinien" [ref=f27e368]:
+                  - /url: https://www.cronos.de/legal/dsv-cronos
+                - text: .*
+              - text: "*"
+          - generic [ref=f27e369]: Leider konnten wir Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es erneut.
+        - generic [ref=f27e372]:
+          - link "Button namens Zur Anzeige ausführen" [ref=f27e374] [cursor=pointer]:
+            - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-CX-all-genders-de-j239.html
+            - text: Zur Anzeige
+          - link "Button namens Senden ausführen" [ref=f27e376] [cursor=pointer]:
+            - /url: "#"
+            - text: Senden
+        - generic [aria-hidden] [ref=f27e377]:
+          - text: Website
+          - textbox [ref=f27e378]
+    - contentinfo [ref=f27e380]:
+      - generic [ref=f27e382]:
+        - generic [ref=f27e384]:
+          - generic [ref=f27e385]:
+            - heading "Über Uns" [level=4] [ref=f27e386]
+            - paragraph [ref=f27e387]:
+              - link "Über cronos" [ref=f27e388] [cursor=pointer]:
+                - /url: /about
+              - link "Kontakt" [ref=f27e389] [cursor=pointer]:
+                - /url: /kontakt
+          - generic [ref=f27e390]:
+            - heading "Dienstleistungen" [level=4] [ref=f27e391]
+            - paragraph [ref=f27e392]:
+              - strong [ref=f27e393]:
+                - link "SAP und Cloud Lösungen" [ref=f27e394] [cursor=pointer]:
+                  - /url: https://digital.cronos.de
+            - paragraph [ref=f27e395]:
+              - strong [ref=f27e396]:
+                - link "Customer Experience Lösungen" [ref=f27e397] [cursor=pointer]:
+                  - /url: https://cx.cronos.de
+            - paragraph [ref=f27e398]:
+              - strong [ref=f27e399]:
+                - link "Business Process Automation" [ref=f27e400] [cursor=pointer]:
+                  - /url: https://automation.cronos.de
+            - paragraph [ref=f27e401]:
+              - strong [ref=f27e402]:
+                - link "Services, Support und BPO" [ref=f27e403] [cursor=pointer]:
+                  - /url: https://services.cronos.de
+            - paragraph [ref=f27e404]:
+              - strong [ref=f27e405]:
+                - link "IT-Management" [ref=f27e406] [cursor=pointer]:
+                  - /url: https://itmc.cronos.de
+        - generic [ref=f27e407]: Unsere Socials
+        - generic [ref=f27e411]:
+          - generic [ref=f27e412]: Bester Arbeitgeber
+          - link [ref=f27e414] [cursor=pointer]:
+            - /url: https://kununu.com/de/cronos-unternehmensberatung?rfr=affiliate_widget&utm_content=widget_score_review_count_logo_small&utm_medium=affiliate&utm_source=widget
+            - img "kununu widget" [ref=f27e415]
+    - generic [ref=f27e417]:
+      - generic:
+        - generic [ref=f27e418]: Copyright 2026. All Rights Reserved.
+        - generic [ref=f27e419]:
+          - link "Impressum" [ref=f27e420] [cursor=pointer]:
+            - /url: /legal/imprint
+          - link "Datenschutz" [ref=f27e421] [cursor=pointer]:
+            - /url: /legal/privacy
+          - link "Hinweisgeberschutz" [ref=f27e422] [cursor=pointer]:
+            - /url: https://cronos-hr.rexx-systems.com/whistleblowing
+          - link "AGB" [ref=f27e423] [cursor=pointer]:
+            - /url: /legal/agb
+          - link "Allgemeine Mitwirkungspflichten" [ref=f27e424] [cursor=pointer]:
+            - /url: /allgemeine-mitwirkungspflichten
+          - link "Software-AGB" [ref=f27e425] [cursor=pointer]:
+            - /url: /legal/software-agb
+  - generic [ref=f27e428]:
+    - link [ref=f27e430] [cursor=pointer]:
+      - /url: https://cronos.de
+    - text:      
+    - generic [ref=f27e431] [cursor=pointer]: 
+    - generic [ref=f27e435] [cursor=pointer]
+  - text:        
+  - generic:
+    - generic [ref=f27e438]:
+      - generic [ref=f27e439]:
+        - generic [ref=f27e440]:
+          - generic: Suchbegriffe
+          - searchbox "Suchbegriffe" [ref=f27e441]
+        - generic [ref=f27e442] [cursor=pointer]: 
+      - paragraph [ref=f27e444]: Drücken Sie die Eingabetaste um zu suchen
+    - generic [ref=f27e445] [cursor=pointer]:
+      - generic "Datenschutzeinstellungen neu wählen"
+  - link "" [ref=f27e447] [cursor=pointer]:
+    - /url: /jobs/Senior-Consultant-SAP-CX-all-genders-de-f239.html#contentwrapper

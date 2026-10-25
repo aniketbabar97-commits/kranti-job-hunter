@@ -1,0 +1,180 @@
+- generic [active] [ref=f2e1]:
+  - img "Logo" [ref=f2e6]
+  - main [ref=f2e7]:
+    - generic [ref=f2e10]:
+      - heading "Channel Developer (m/w/d) eCommerce" [level=1] [ref=f2e12]
+      - generic [ref=f2e13]:
+        - generic [ref=f2e14]:
+          - generic [ref=f2e15]: "Anrede:"
+          - generic [ref=f2e16]:
+            - combobox [aria-hidden] [ref=f2e17]
+            - combobox "Anrede, Bitte wählen" [ref=f2e20] [cursor=pointer]:
+              - textbox "Bitte wählen" [ref=f2e21]
+        - generic [ref=f2e23]:
+          - generic [ref=f2e24]: Vorname:*
+          - textbox "Vorname:" [ref=f2e26]
+        - generic [ref=f2e28]:
+          - generic [ref=f2e29]: Nachname:*
+          - textbox "Nachname:" [ref=f2e31]
+        - generic [ref=f2e33]:
+          - generic [ref=f2e34]: E-Mail-Adresse:*
+          - textbox "E-Mail-Adresse:" [ref=f2e36]
+        - generic [ref=f2e38]:
+          - generic [ref=f2e39]: Telefon:*
+          - textbox "Telefon:" [ref=f2e41]
+        - generic [ref=f2e43]:
+          - generic [ref=f2e44]: "Entgeltvorstellung (Brutto/Jahr):"
+          - textbox "Entgeltvorstellung (Brutto/Jahr):" [ref=f2e47]
+        - generic [ref=f2e49]:
+          - generic [ref=f2e50]: "Wurde Ihnen die Stelle durch eine/n Hansgrohe Mitarbeiter/in empfohlen:"
+          - radiogroup "Wurde Ihnen die Stelle durch eine/n Hansgrohe Mitarbeiter/in empfohlen:" [ref=f2e51]:
+            - generic [ref=f2e52] [cursor=pointer]:
+              - radio "Ja" [ref=f2e53]
+              - text: Ja
+            - generic [ref=f2e54] [cursor=pointer]:
+              - radio "Nein" [ref=f2e55]
+              - text: Nein
+        - generic [ref=f2e57]:
+          - generic [ref=f2e58]: "Wenn ja, bitte Angabe des/der Mitarbeiters/Mitarbeiterin:"
+          - textbox "Wenn ja, bitte Angabe des/der Mitarbeiters/Mitarbeiterin:" [ref=f2e61]
+        - generic [ref=f2e63]:
+          - generic [ref=f2e64]: "Wie sind Sie auf uns aufmerksam geworden?:"
+          - generic [ref=f2e65]:
+            - combobox [aria-hidden] [ref=f2e66]
+            - combobox "Wie sind Sie auf uns aufmerksam geworden?, Bitte wählen" [ref=f2e69] [cursor=pointer]:
+              - textbox "Bitte wählen" [ref=f2e70]
+        - generic [ref=f2e72]:
+          - generic [ref=f2e73]: Vollständige Bewerbungsunterlagen:*
+          - generic [ref=f2e74]:
+            - generic [ref=f2e75] [cursor=pointer]:
+              - 'button "Vollständige Bewerbungsunterlagen: Klicken oder Dateien hier ablegen" [ref=f2e76]'
+              - generic [ref=f2e77]:
+                - generic [aria-hidden] [ref=f2e78]: 
+                - text: Klicken oder Dateien hier ablegen
+            - generic [ref=f2e79]: "Dokumente zur Bewerbung hinzufügen. Unterstützte Formate: Word, PDF, PPT, jpg, gif, png. Maximal 10 MB pro Datei und 20 MB insgesamt."
+        - generic [ref=f2e82]:
+          - generic [ref=f2e83]: Einwilligungserklärung Datenschutz:*
+          - radiogroup "Einwilligungserklärung Datenschutz:" [ref=f2e84]:
+            - generic [ref=f2e87]:
+              - paragraph [ref=f2e88]:
+                - strong [ref=f2e89]: Hinweis zum Datenschutz im Bewerbungsverfahren
+              - paragraph [ref=f2e90]: "Die Hansgrohe SE und ihre Tochtergesellschaften (\"Hansgrohe\") wissen Ihr Vertrauen zu schätzen und verpflichten sich zum verantwortungsvollen Umgang mit personenbezogenen Daten und deren Schutz. Diese Datenschutzrichtlinie für Bewerber (\"Richtlinie\") beschreibt unsere Praktiken im Zusammenhang mit allen Informationen, die wir über Sie sammeln:"
+              - list [ref=f2e91]:
+                - listitem [ref=f2e92]: Die Karriereseite unserer Website (zu finden unter https://www.hansgrohe-group.com/de/karriere ("Karriereseite"); und
+                - listitem [ref=f2e93]: Personenbezogene Daten, die an anderer Stelle auf den Websites von Hansgrohe und den mit ihr verbundenen Unternehmen (zu anderen Zwecken als der Bewerbung um eine Stelle) übermittelt werden, werden in Übereinstimmung mit unserer allgemeinen Online-Datenschutzrichtlinie verwendet.
+              - paragraph [ref=f2e94]:
+                - strong [ref=f2e95]: Von Ihnen bereitgestellte Informationen
+              - paragraph [ref=f2e96]: "Im Zusammenhang mit Ihrer Bewerbung erheben wir personenbezogene Daten von Ihnen:"
+              - list [ref=f2e97]:
+                - listitem [ref=f2e98]: Name, Adresse, Telefonnummer, E-Mail-Adresse und andere Kontaktinformationen;
+                - listitem [ref=f2e99]: Status der Arbeitsgenehmigung;
+                - listitem [ref=f2e100]: Lebenslauf, Anschreiben, frühere Berufserfahrung und Ausbildungsinformationen;
+                - listitem [ref=f2e101]: Qualifikationen;
+                - listitem [ref=f2e102]: Berufliche und andere arbeitsbezogene Lizenzen, Genehmigungen und Zertifizierungen;
+                - listitem [ref=f2e103]: Informationen über Referenzen; und
+                - listitem [ref=f2e104]: Alle anderen Informationen, die Sie uns zur Verfügung stellen möchten (z. B. Beschäftigungspräferenzen, Bereitschaft zum Umzug, aktuelles Gehalt, Gehaltsvorstellungen, Auszeichnungen oder berufliche Mitgliedschaften).
+              - paragraph [ref=f2e105]: Alle Informationen, die Sie über die Karriereseite übermitteln, müssen wahrheitsgemäß, vollständig und nicht irreführend sein. Die Übermittlung ungenauer, unvollständiger oder irreführender Informationen kann zur Ablehnung Ihrer Bewerbung während des Bewerbungsverfahrens oder zu disziplinarischen Maßnahmen bis hin zur fristlosen Kündigung des Arbeitsverhältnisses führen. Darüber hinaus sind Sie dafür verantwortlich, dass die von Ihnen übermittelten Informationen nicht die Rechte Dritter verletzen.
+              - paragraph [ref=f2e106]: Wenn Sie uns im Rahmen Ihrer Bewerbung personenbezogene Daten einer Referenzperson oder einer anderen Person zur Verfügung stellen, liegt es in Ihrer Verantwortung, die Zustimmung dieser Person einzuholen, bevor Sie die Informationen an uns weitergeben.
+              - paragraph [ref=f2e107]:
+                - strong [ref=f2e108]: Informationen aus anderen Quellen
+              - paragraph [ref=f2e109]: In Fällen, in denen im Zusammenhang mit Ihrer Bewerbung eine Zuverlässigkeitsüberprüfung erforderlich ist, holt Hansgrohe, soweit gesetzlich zulässig, Informationen über Sie von Ihren Referenzen ein.
+              - paragraph [ref=f2e110]:
+                - strong [ref=f2e111]: Verwendung von Informationen
+              - paragraph [ref=f2e112]: "Wir sammeln und verarbeiten Informationen über Sie aus einem oder mehreren der folgenden Gründe:"
+              - list [ref=f2e113]:
+                - listitem [ref=f2e114]: Weil Sie uns diese Informationen freiwillig zur Verfügung stellen und uns die Erlaubnis erteilen, sie zu verarbeiten;
+                - listitem [ref=f2e115]: Weil diese Informationen notwendig sind, um auf Ihren Wunsch hin Maßnahmen zu ergreifen, bevor wir ein Arbeits- oder Praktikumsverhältnis eingehen;
+                - listitem [ref=f2e116]: Weil diese Informationen für uns von besonderer Bedeutung sind und wir ein besonderes berechtigtes Interesse an ihrer Verarbeitung haben;
+                - listitem [ref=f2e117]: um einer gesetzlichen Verpflichtung nachzukommen; oder
+                - listitem [ref=f2e118]: wenn dies zur Wahrung lebenswichtiger Interessen einer Person erforderlich ist.
+                - listitem [ref=f2e119]: Beruht die Erhebung oder Verarbeitung auf Ihrer Einwilligung, können Sie diese jederzeit widerrufen, soweit dies nach geltendem Recht zulässig ist.
+              - paragraph [ref=f2e120]: "Die Informationen, die Sie auf der Karriereseite eingeben, werden für die weltweite Personalrekrutierung, -verwaltung und -planung von Hansgrohe verwendet, soweit dies nach geltendem Recht zulässig ist:"
+              - list [ref=f2e121]:
+                - listitem [ref=f2e122]: Um Ihre Bewerbung zu bearbeiten. Wir werden diese Aktivitäten durchführen, um unser zukünftiges Vertragsverhältnis mit Ihnen zu verwalten;
+                - listitem [ref=f2e123]: Um Ihre Fähigkeiten und Qualifikationen für eine Stelle zu beurteilen. Wir werden diese Aktivitäten durchführen, um unsere zukünftige vertragliche Beziehung mit Ihnen zu verwalten;
+                - listitem [ref=f2e124]: Zur Durchführung von Referenzprüfungen. Wir führen diese Aktivitäten durch, um einer gesetzlichen Verpflichtung nachzukommen oder auf der Grundlage unserer berechtigten Interessen;
+                - listitem [ref=f2e125]: Um Ihre Anfragen zu beantworten und mit Ihnen über Ihre Bewerbung zu kommunizieren sowie um Ihnen Informationen über die Karriereseite und Änderungen unserer Bedingungen und Richtlinien zuzusenden. Wir führen diese Aktivitäten durch, um unsere künftige Vertragsbeziehung mit Ihnen zu verwalten;
+                - listitem [ref=f2e126]: Zur Einhaltung oder Überwachung der Einhaltung geltender Gesetze oder Vorschriften. Wir führen diese Aktivitäten durch, um einer gesetzlichen Verpflichtung nachzukommen oder auf der Grundlage unserer berechtigten Interessen;
+                - listitem [ref=f2e127]: Zur Durchführung von Hintergrundprüfungen, wenn wir Ihnen eine Stelle anbieten. Wir werden diese Aktivitäten durchführen, um einer rechtlichen Verpflichtung nachzukommen oder auf der Grundlage unserer berechtigten Interessen; und
+                - listitem [ref=f2e128]: zur Wahrung unserer sonstigen berechtigten Interessen, z. B. für Verwaltungszwecke von Hansgrohe, aggregierte Managementberichte, interne Schulungen und wie allgemein erforderlich, um unsere Geschäfte innerhalb von Hansgrohe und den mit uns verbundenen Unternehmen zu führen.
+              - paragraph [ref=f2e129]: Wenn wir Sie einstellen, können personenbezogene Daten, die wir im Zusammenhang mit Ihrer Bewerbung erheben, in unser Personalsystem aufgenommen und zur Verwaltung des Neueinstellungsprozesses verwendet werden; alle diese Daten können Teil Ihrer Mitarbeiterakte werden und für andere beschäftigungsbezogene Zwecke verwendet werden.
+              - paragraph [ref=f2e130]: Die Bereitstellung persönlicher Daten über die Karriereseite ist freiwillig. Wenn Sie jedoch keine ausreichenden Informationen zur Verfügung stellen, kann Hansgrohe Ihre Bewerbung oder, falls Sie eingestellt werden, Ihre spätere Beförderung, Versetzung oder Standortwechsel nicht berücksichtigen.
+              - paragraph [ref=f2e131]:
+                - strong [ref=f2e132]: Löschfristen
+              - paragraph [ref=f2e133]: Bewerbungen abgelehnter Bewerber werden nach erfolgter Absage nach Ablauf von sechs Monaten unwiderruflich aus unserem Bewerbersystem gelöscht.
+              - paragraph [ref=f2e134]: Bewerbungen, für die einer Speicherung für ggf. später zu besetzende Stellen zugestimmt wurde, werden nach Ablauf von zwei Jahren nach Aufnahme in unseren Bewerberpool gelöscht, bzw. bei Widerruf der Einwilligung gelöscht.
+              - paragraph [ref=f2e135]:
+                - strong [ref=f2e136]: Unser Bewerberpool
+              - paragraph [ref=f2e137]: Sollten wir für Sie zum Zeitpunkt Ihrer Bewerbung keine passende Stelle vakant haben, wir aber aufgrund Ihres Profils zu der Auffassung gelangen, dass Ihre Bewerbung auch für andere Bereiche der Hansgrohe Group interessant sein könnte, speichern wir Ihre Bewerbungsdaten für maximal 24 Monate in unserem Bewerberpool, damit wir auch zu einem späteren Zeitpunkt nochmals Kontakt mit Ihnen aufnehmen können. Sollten wir uns für eine Aufnahme Ihrer Daten in unseren Bewerberpool entschließen, werden wir hierzu in einer gesonderten E-Mail Ihre Zustimmung einholen. Nach maximal 24 Monaten werden Ihre persönlichen Daten ohne besondere Benachrichtigung bzw. weitere Archivierung automatisch aus dem Bewerberpool gelöscht.
+              - paragraph [ref=f2e138]:
+                - strong [ref=f2e139]: "Passive Informationssammlung: Cookies und ähnliche Technologien"
+              - paragraph [ref=f2e140]: Wir und unsere Dienstanbieter verwenden "Cookies" und ähnliche Technologien auf der Karriereseite. Weitere Informationen finden Sie in unserer Richtlinie über Cookies und ähnliche Technologien.
+              - paragraph [ref=f2e141]:
+                - strong [ref=f2e142]: Wahlmöglichkeiten und Zugang
+              - paragraph [ref=f2e143]: Wenn Sie die Berichtigung, Aktualisierung, Unterdrückung, Einschränkung oder Löschung personenbezogener Daten beantragen, der Verarbeitung personenbezogener Daten widersprechen oder eine elektronische Kopie Ihrer personenbezogenen Daten zum Zwecke der Übermittlung an ein anderes Unternehmen anfordern möchten (soweit Ihnen dieses Recht auf Datenübertragbarkeit nach geltendem Recht zusteht), können Sie uns über die Adresse im Abschnitt "Kontakt" unten kontaktieren. Wir werden Ihre Anfrage im Einklang mit dem geltenden Recht beantworten.
+              - paragraph [ref=f2e144]: Bitte geben Sie in Ihrer Anfrage an, auf welche personenbezogenen Daten Sie zugreifen oder diese ändern möchten und ob Sie möchten, dass die von Ihnen bereitgestellten personenbezogenen Daten aus unserer Datenbank gelöscht werden.
+              - paragraph [ref=f2e145]: Zu Ihrem Schutz führen wir nur Anfragen durch, die sich auf die Informationen beziehen, die mit der E-Mail-Adresse verknüpft sind, die Sie für die Übermittlung Ihrer Anfrage an uns verwenden. Bitte beachten Sie, dass bestimmte personenbezogene Daten gemäß den geltenden Datenschutzgesetzen oder anderen Gesetzen und Vorschriften von solchen Anfragen ausgenommen sein können.
+              - paragraph [ref=f2e146]:
+                - text: Sie können eine Beschwerde bei einer Datenschutzbehörde in Ihrem Land oder Ihrer Region oder am Ort des mutmaßlichen Fehlverhaltens einreichen
+                - link "https://edpb.europa.eu/about-edpb/board/members_en" [ref=f2e147] [cursor=pointer]:
+                  - /url: https://edpb.europa.eu/about-edpb/board/members_en
+                - text: .
+              - paragraph [ref=f2e148]:
+                - strong [ref=f2e149]: Schutz Ihrer Daten
+              - paragraph [ref=f2e150]: Die Hansgrohe Group gewährleistet durch technische und organisatorische Maßnahmen den Schutz der Daten gemäß Bundesdatenschutzgesetz (BDSG) und der EU-Datenschutzgrundverordnung (EU-DSGVO).
+              - paragraph [ref=f2e151]: Ihre persönlichen Daten werden vertraulich behandelt und ausschließlich für das Bewerbungsverfahren verwendet. Eine Verarbeitung Ihrer persönlichen Daten erfolgt nur innerhalb der Europäischen Union (EU).
+              - paragraph [ref=f2e152]:
+                - strong [ref=f2e153]: Links zu Websites Dritter
+              - paragraph [ref=f2e154]: Diese Richtlinie befasst sich nicht mit den Datenschutz-, Informations- oder anderen Praktiken Dritter, einschließlich Dritter, die eine Website oder einen Dienst betreiben, zu dem die Karriereseite verlinkt ist, und wir sind nicht für diese verantwortlich. Die Aufnahme eines Links auf der Karriereseite bedeutet nicht, dass Hansgrohe oder unsere verbundenen Unternehmen die verlinkte Website oder Dienstleistung unterstützen.
+              - paragraph [ref=f2e155]:
+                - strong [ref=f2e156]: Diversität
+              - paragraph [ref=f2e157]: "Hansgrohe ist ein Arbeitgeber der Chancengleichheit, das heißt, wir bieten allen Bewerbern die gleiche Behandlung. Hansgrohe diskriminiert weder direkt noch indirekt aus geschützten Gründen: Rasse, Hautfarbe, Geschlecht, Geschlechtsidentität, sexuelle Orientierung, Nationalität, nationale Herkunft, ethnische Herkunft, Religion, Glaube oder Weltanschauung, Alter, Behinderung, Familienstand, Veteranenstatus oder genetische Informationen in allen Bereichen der Personalbeschaffung."
+              - paragraph [ref=f2e158]:
+                - strong [ref=f2e159]: Für die Bewerbung geltendes Recht
+              - paragraph [ref=f2e160]: Die Karriereseite bietet Ihnen die Möglichkeit, sich weltweit auf Stellen zu bewerben. Dies ist ein Vorteil der zentralen globalen Rekrutierungsfunktion von Hansgrohe. Diese Karriereseite wird von der Hansgrohe SE - Deutschland aus betrieben. Dementsprechend werden alle personenbezogenen Daten, die Sie auf der Karriereseite eingeben, in Deutschland erfasst und unterliegen den dort geltenden Gesetzen.
+              - paragraph [ref=f2e161]: Wenn wir Ihre personenbezogenen Daten an eine in einem anderen Land ansässige Tochtergesellschaft in ihrer Eigenschaft als potenzieller Arbeitgeber weitergeben, wird die Tochtergesellschaft Ihre personenbezogenen Daten in Übereinstimmung mit dieser Richtlinie behandeln. Jegliche Einstellungs- oder andere beschäftigungsbezogene Entscheidungen werden von der einstellenden Tochtergesellschaft in Übereinstimmung mit den Gesetzen des Landes getroffen, in dem die Stelle zu besetzen ist.
+              - paragraph [ref=f2e162]:
+                - strong [ref=f2e163]: Daten Minderjähriger
+              - paragraph [ref=f2e164]: Die Karriereseite ist nicht für Minderjährige unter 18 Jahren bestimmt.
+              - paragraph [ref=f2e165]:
+                - strong [ref=f2e166]: Aktuelle Mitarbeiter von Hansgrohe
+              - paragraph [ref=f2e167]: Wenn Sie derzeit für Hansgrohe oder eines unserer verbundenen Unternehmen arbeiten, müssen Sie berechtigt sein, sich auf eine andere Position innerhalb von Hansgrohe zu bewerben, um die Karriereseite nutzen zu können. Wenn Sie eine solche Stelle annehmen, können sich Ihre Leistungsprogramme und Personalrichtlinien ändern. Bitte wenden Sie sich an den Personalverantwortlichen für die neue Position, um sich über die Bewerbungsberechtigung, die Leistungsprogramme und die für diese Position geltenden Personalrichtlinien zu informieren.
+              - paragraph [ref=f2e168]: Die Karriereseite ist nicht für die Verbreitung an oder die Nutzung durch Personen oder Organisationen in Ländern bestimmt, in denen eine solche Verbreitung oder Nutzung gegen lokale Gesetze oder Vorschriften verstoßen würde.
+              - paragraph [ref=f2e169]:
+                - strong [ref=f2e170]: Änderungen der Richtlinie
+              - paragraph [ref=f2e171]: Wir behalten uns das Recht vor, diese Richtlinie jederzeit zu ändern, um zukünftigen Entwicklungen von Hansgrohe, der Karriereseite oder Änderungen in der Branche oder rechtlichen Trends Rechnung zu tragen. Die Legende "Zuletzt aktualisiert" am oberen Rand dieser Richtlinie zeigt an, wann diese Richtlinie zuletzt überarbeitet wurde. Änderungen treten in Kraft, wenn wir die überarbeitete Richtlinie auf der Karriereseite veröffentlichen.
+              - paragraph [ref=f2e172]:
+                - strong [ref=f2e173]: Kontakt
+              - paragraph [ref=f2e174]: Wenn Sie Fragen oder Wünsche haben, kontaktieren Sie uns bitte unter privacy@hansgrohe.com oder
+              - paragraph [ref=f2e175]: Hansgrohe SE
+              - paragraph [ref=f2e176]: Konzerndatenschutzbeauftragter
+              - paragraph [ref=f2e177]: Auestraße 5-9
+              - paragraph [ref=f2e178]: 77761 Schiltach - Deutschland
+              - paragraph [ref=f2e179]: Da die Kommunikation per E-Mail nicht immer sicher ist, bitten wir Sie, keine sensiblen Informationen in Ihre E-Mails an uns aufzunehmen.
+              - paragraph [ref=f2e180]:
+                - strong [ref=f2e181]: Allgemeiner Datenschutzhinweis
+              - paragraph [ref=f2e182]:
+                - text: Bitte beachten Sie für weitere Informationen auch unsere allgemeinen
+                - link "Datenschutzhinweise" [ref=f2e183] [cursor=pointer]:
+                  - /url: http://www.hansgrohe-group.com/de/datenschutz
+                - text: .
+            - paragraph [ref=f2e185]:
+              - strong [ref=f2e186]: Ich habe die Datenschutzerklärung zur Kenntnis genommen und erteile die Einwilligung in die Erhebung und Nutzung meiner vorstehend eingegebenen Daten.
+            - generic [ref=f2e187] [cursor=pointer]:
+              - radio "Ja" [ref=f2e188]
+              - text: Ja
+            - generic [ref=f2e189] [cursor=pointer]:
+              - radio "Nein" [ref=f2e190]
+              - text: Nein
+        - generic [ref=f2e192]:
+          - generic [ref=f2e193]: Bitte die abgebildeten Zeichen eingeben, um Datenmissbrauch zu vermeiden:*
+          - generic [ref=f2e194]:
+            - img "captcha" [ref=f2e195]
+            - textbox "Bitte die abgebildeten Zeichen eingeben, um Datenmissbrauch zu vermeiden:*" [ref=f2e196]
+        - separator [aria-hidden] [ref=f2e198]
+        - button "Absenden" [ref=f2e201] [cursor=pointer]
+  - contentinfo [ref=f2e202]:
+    - paragraph [ref=f2e206]:
+      - text: powered by
+      - link "d.vinci" [ref=f2e207] [cursor=pointer]:
+        - /url: https://www.dvinci.de

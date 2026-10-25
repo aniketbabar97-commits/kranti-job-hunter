@@ -1,0 +1,433 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation "Main navigation" [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - link [ref=f1e6] [cursor=pointer]:
+          - /url: /en
+          - img "foobar Agency" [ref=f1e7]
+        - list [ref=f1e8]:
+          - listitem [ref=f1e9]:
+            - button "Services" [ref=f1e10]
+          - listitem [ref=f1e13]:
+            - button "Partners" [ref=f1e14]
+          - listitem [ref=f1e17]:
+            - link "References" [ref=f1e18] [cursor=pointer]:
+              - /url: /en/success-cases
+          - listitem [ref=f1e19]:
+            - button "Company" [ref=f1e20]
+        - generic [ref=f1e23]:
+          - generic [ref=f1e24]:
+            - link "DE" [ref=f1e25] [cursor=pointer]:
+              - /url: /de
+            - generic [ref=f1e26]: "|"
+            - link "EN" [ref=f1e27] [cursor=pointer]:
+              - /url: /en
+          - link "Contact" [ref=f1e28] [cursor=pointer]:
+            - /url: /en/contact
+  - main [ref=f1e31]:
+    - generic [ref=f1e37]:
+      - heading "We shape digital future." [level=1] [ref=f1e38]
+      - paragraph [ref=f1e40]: We help market leaders and ambitious brands succeed. In digital commerce, data-driven experiences, and AI that creates real business value. Integrated into your processes. Connected to your data. Designed with your growth in mind.
+      - generic [ref=f1e41]:
+        - link "Our Services" [ref=f1e42] [cursor=pointer]:
+          - /url: "#leistungen"
+        - link "Contact us now" [ref=f1e46] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f1e57]:
+      - heading "We look forward to welcoming you on November 17" [level=2] [ref=f1e59]
+      - link [ref=f1e61] [cursor=pointer]:
+        - /url: /en/events/ki-im-b2b-handel-muenchen-2026
+        - article [ref=f1e62]:
+          - img "KI im B2B-Handel" [ref=f1e64]
+          - generic [ref=f1e65]:
+            - generic [ref=f1e66]:
+              - time [ref=f1e67]: 17 November 2026
+              - generic [ref=f1e68]: Own Event
+            - 'heading "AI in B2B Commerce: Roadshow for AI-ready Commerce" [level=3] [ref=f1e69]'
+            - paragraph [ref=f1e70]: How B2B companies use AI and agents in customer interactions and internal processes. With a practice case from ABUS, keynote, panel and networking at foobar Agency.
+    - generic [ref=f1e74]:
+      - img "ABUS" [ref=f1e76]
+      - img "AIDA Cruises" [ref=f1e78]
+      - img "Cyberport" [ref=f1e80]
+      - img "Fegime" [ref=f1e82]
+      - img "HARTING" [ref=f1e84]
+      - img "Heel" [ref=f1e86]
+      - img "HSE" [ref=f1e88]
+      - img "HUK Autoservice" [ref=f1e90]
+      - img "Kardex Remstar" [ref=f1e92]
+      - img "Lavazza" [ref=f1e94]
+      - img "Lekker Energie" [ref=f1e96]
+      - img "Möbel Boss" [ref=f1e98]
+      - img "NKD" [ref=f1e100]
+      - img "porta Möbel" [ref=f1e102]
+      - img "Segmüller" [ref=f1e104]
+      - img "SOKA-BAU" [ref=f1e106]
+      - img "Witt Gruppe" [ref=f1e108]
+      - img "ABUS" [ref=f1e110]
+      - img "AIDA Cruises" [ref=f1e112]
+      - img "Cyberport" [ref=f1e114]
+      - img "Fegime" [ref=f1e116]
+      - img "HARTING" [ref=f1e118]
+      - img "Heel" [ref=f1e120]
+      - img "HSE" [ref=f1e122]
+      - img "HUK Autoservice" [ref=f1e124]
+      - img "Kardex Remstar" [ref=f1e126]
+      - img "Lavazza" [ref=f1e128]
+      - img "Lekker Energie" [ref=f1e130]
+      - img "Möbel Boss" [ref=f1e132]
+      - img "NKD" [ref=f1e134]
+      - img "porta Möbel" [ref=f1e136]
+      - img "Segmüller" [ref=f1e138]
+      - img "SOKA-BAU" [ref=f1e140]
+      - img "Witt Gruppe" [ref=f1e142]
+    - generic [ref=f1e149]:
+      - generic [ref=f1e150]:
+        - generic [ref=f1e151]: Our Services
+        - heading "Growth happens where commerce, data and experience meet" [level=2] [ref=f1e154]
+      - list [ref=f1e156]:
+        - listitem [ref=f1e157]:
+          - link "Learn more" [ref=f1e158] [cursor=pointer]:
+            - /url: /en/leistungen/data-science-ai
+            - generic [ref=f1e159]:
+              - generic [aria-hidden] [ref=f1e160]: "01"
+              - heading "Data & AI" [level=3] [ref=f1e161]
+              - paragraph [ref=f1e162]: Snowflake data architecture, predictive analytics, LLM integration, and agentic commerce – across all commerce domains. We make your data the foundation of autonomous decisions and lasting competitive advantages.
+              - generic [aria-hidden] [ref=f1e163]: Learn more
+        - listitem [ref=f1e167]:
+          - link "How Commerce Impact is built" [ref=f1e168] [cursor=pointer]:
+            - /url: /en/leistungen/commerce
+            - generic [ref=f1e169]:
+              - generic [aria-hidden] [ref=f1e170]: "02"
+              - heading "Commerce Impact" [level=3] [ref=f1e171]
+              - paragraph [ref=f1e172]: eCommerce is a given today. How does digital selling become a growth driver for your company? We develop commerce strategies that bring your channels together. So your company grows without your cost base growing with it.
+              - generic [aria-hidden] [ref=f1e173]: How Commerce Impact is built
+        - listitem [ref=f1e177]:
+          - link "Learn more" [ref=f1e178] [cursor=pointer]:
+            - /url: /en/leistungen/digital-experience
+            - generic [ref=f1e179]:
+              - generic [aria-hidden] [ref=f1e180]: "03"
+              - heading "Digital Experience" [level=3] [ref=f1e181]
+              - paragraph [ref=f1e182]: Headless CMS, personalization and customer journey optimization – for brands that think commerce and content as one.
+              - generic [aria-hidden] [ref=f1e183]: Learn more
+    - generic [ref=f1e188]:
+      - heading "Our Success Stories" [level=2] [ref=f1e190]
+      - paragraph [ref=f1e193]: "Different starting points, the same question: How can digital sales become a driver of growth? Here’s what came of it—from retailers and manufacturers we’ve often been working with for years."
+      - generic [ref=f1e194]:
+        - link [ref=f1e195] [cursor=pointer]:
+          - /url: /en/success-cases/d2c-strategie-lavazza
+          - article [ref=f1e196]:
+            - img "Lavazza" [ref=f1e198]
+            - generic [ref=f1e199]: Lavazza
+            - heading "A Clear Course for the Direct Channel" [level=3] [ref=f1e200]
+            - paragraph [ref=f1e203]: "The goal: to turn a leading international coffee brand’s own D2C channel into a true growth driver—with customer loyalty that extends beyond established marketplaces. foobar Agency analyzed the entire e-commerce journey, identified action items, prioritized them for implementation, and established structures that enable the company to independently manage and expand its direct-to-consumer business."
+        - link [ref=f1e204] [cursor=pointer]:
+          - /url: /en/success-cases/porta-moebel
+          - article [ref=f1e205]:
+            - img "From Legacy to Composable Commerce" [ref=f1e207]
+            - generic [ref=f1e208]: porta Möbel
+            - heading "From Legacy to Composable Commerce" [level=3] [ref=f1e209]
+            - paragraph [ref=f1e212]: "Since 2019, foobar Agency has accompanied porta Möbel on its path to digital market leadership: from legacy analysis via incremental headless commerce to a full composable commerce architecture on MACH principles."
+        - link [ref=f1e213] [cursor=pointer]:
+          - /url: /en/success-cases/omnichannel-shop-heimtierbedarf
+          - article [ref=f1e214]:
+            - img "Hund" [ref=f1e216]
+            - 'heading "Store Strength Becomes Online Strength: Omnichannel as a Growth Driver" [level=3] [ref=f1e217]'
+            - paragraph [ref=f1e220]: "The goal: turn a leading pet supplies retailer's previously isolated online business into a profitable growth driver. After joint strategy work, foobar Agency built the platform from the ground up – live in six months, with expanded Click & Collect and a loyalty program that works everywhere."
+      - generic [ref=f1e221]:
+        - link "View all success stories" [ref=f1e222] [cursor=pointer]:
+          - /url: /en/success-cases
+        - link "Contact us now" [ref=f1e223] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f1e228]:
+      - heading "Your partner for Commerce Impact" [level=2] [ref=f1e230]
+      - paragraph [ref=f1e233]: "foobar Agency enables retail and industry in the DACH region to sell digitally and profitably. Advice and delivery sit in one team: whoever makes the recommendation is also accountable for making it work. That is why our assessments hold up in reality, and why clients keep working with us for years."
+      - list [ref=f1e234]:
+        - listitem [ref=f1e235]:
+          - generic [ref=f1e240]:
+            - generic [ref=f1e241]: As partners
+            - generic [ref=f1e242]: "We work with our clients as equals: we bring our view to the table openly and adapt to how your company decides and works."
+        - listitem [ref=f1e243]:
+          - generic [ref=f1e248]:
+            - generic [ref=f1e249]: Long-standing
+            - generic [ref=f1e250]: porta Möbel, Segmüller, HUK Autoservice and ABUS have worked with foobar Agency for years. The relationship lasts because it pays off.
+        - listitem [ref=f1e251]:
+          - generic [ref=f1e256]:
+            - generic [ref=f1e257]: Tailored to you
+            - generic [ref=f1e258]: "We bring experience and proven approaches from many projects and fit them to your company: your processes, your assortment, your customers."
+        - listitem [ref=f1e259]:
+          - generic [ref=f1e264]:
+            - generic [ref=f1e265]: Specialised
+            - generic [ref=f1e266]: "We work where your company meets its customers: in digital selling. Because we stay in that field, we can take responsibility for every stage of it — advice, development and operations, commerce, experience and AI, retail as well as industry."
+    - generic [ref=f1e275]:
+      - generic [ref=f1e276]: First conversation
+      - heading "Let's talk." [level=2] [ref=f1e279]
+      - paragraph [ref=f1e280]: We enable your company to grow through digital selling — and to profit from it.
+      - link "Schedule a Call" [ref=f1e282] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=f1e286]:
+      - heading "Newest insights from the foobar Universe" [level=2] [ref=f1e288]
+      - generic [ref=f1e290]:
+        - link [ref=f1e291] [cursor=pointer]:
+          - /url: /en/blog/snowflake-ki-llm-commerce-datenmodell-predictions
+          - article [ref=f1e292]:
+            - 'img "From Snowflake to AI: Predictions and LLMs on the Commerce Data Model" [ref=f1e294]'
+            - generic [ref=f1e296]:
+              - time [ref=f1e297]: 25 June 2026
+              - 'heading "From Snowflake to AI: Predictions and LLMs on the Commerce Data Model" [level=3] [ref=f1e298]'
+              - paragraph [ref=f1e299]: Three maturity stages — from deterministic calculation through probabilistic prediction to LLM-driven service co-pilots. What Snowflake Cortex delivers today and which prerequisites need to be in place first.
+        - link [ref=f1e300] [cursor=pointer]:
+          - /url: /en/blog/semantic-search-agentic-search-b2b-vektor-embeddings-llm-agenten
+          - article [ref=f1e301]:
+            - 'img "Semantic Search and Agentic Search in B2B: When Vector Embeddings, When LLM Agents?" [ref=f1e303]'
+            - generic [ref=f1e305]:
+              - time [ref=f1e306]: 22 June 2026
+              - 'heading "Semantic Search and Agentic Search in B2B: When Vector Embeddings, When LLM Agents?" [level=3] [ref=f1e307]'
+              - paragraph [ref=f1e308]: "Vector embeddings, hybrid search, agentic LLMs: which AI search stage actually delivers in B2B — and which becomes an expensive pilot. Four decision questions, architecture options, honest limits."
+        - link [ref=f1e309] [cursor=pointer]:
+          - /url: /en/blog/daten-foundation-b2b-industrie-forecasting-after-sales
+          - article [ref=f1e310]:
+            - 'img "Data Foundation for B2B Industry: Forecasting, After-Sales, Service Data Flows" [ref=f1e312]'
+            - generic [ref=f1e314]:
+              - time [ref=f1e315]: 18 June 2026
+              - 'heading "Data Foundation for B2B Industry: Forecasting, After-Sales, Service Data Flows" [level=3] [ref=f1e316]'
+              - paragraph [ref=f1e317]: If your forecast accuracy hangs on the gut feeling of your head of sales, and your field-service technician collects a spreadsheet of wear-parts at the end of the day, you do not need the next platform — you need a foundation that brings ERP, service tickets and IoT signals onto a common state.
+      - generic [ref=f1e318]:
+        - link "View all articles" [ref=f1e319] [cursor=pointer]:
+          - /url: /en/blog
+        - link "Get in contact" [ref=f1e320] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f1e324]:
+      - heading "Our Technology Partners" [level=2] [ref=f1e326]
+      - generic [ref=f1e328]: "Which platform is right follows from your business model. What makes the difference is how the systems work together: your processes only run efficiently once shop, ERP, data and service interlock. As certified partners of the leading commerce and content platforms, we know the systems from our own delivery — and the connections between them. That shows in shorter project timelines and in solutions that still hold up later."
+      - generic [ref=f1e329]:
+        - link "Commercetools" [ref=f1e330] [cursor=pointer]:
+          - /url: /en/partners/commercetools
+          - img "Logo von commercetools" [ref=f1e332]
+        - link "Snowflake" [ref=f1e333] [cursor=pointer]:
+          - /url: /en/partners/snowflake
+          - img "Snowflake Logo" [ref=f1e335]
+        - link "Vercel" [ref=f1e336] [cursor=pointer]:
+          - /url: /en/partners/vercel
+        - link "Hygraph" [ref=f1e338] [cursor=pointer]:
+          - /url: /en/partners/hygraph
+        - link "Algolia" [ref=f1e340] [cursor=pointer]:
+          - /url: /en/partners/algolia
+          - img "Logo von Algolia" [ref=f1e342]
+        - img "Logo von Contentful" [ref=f1e345]
+      - generic [ref=f1e346]:
+        - link "View all partners" [ref=f1e347] [cursor=pointer]:
+          - /url: /en/partners
+        - link "Contact us now" [ref=f1e348] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f1e350]:
+      - generic [ref=f1e351]:
+        - heading "Get in touch" [level=2] [ref=f1e352]
+        - paragraph [ref=f1e353]: We look forward to your enquiry.
+        - generic [ref=f1e355]:
+          - paragraph [ref=f1e356]: Please accept marketing cookies to load the registration form.
+          - button "Manage cookie settings" [ref=f1e357]
+      - generic [ref=f1e358]:
+        - img "Matthias Dietrich" [ref=f1e360]
+        - generic [ref=f1e361]:
+          - paragraph [ref=f1e362]: Matthias Dietrich
+          - paragraph [ref=f1e363]: Co-CEO
+        - generic [ref=f1e364]:
+          - link "+49 89 244 174 840" [ref=f1e365] [cursor=pointer]:
+            - /url: tel:+4989244174840
+          - link "matthias.dietrich@foobar.agency" [ref=f1e366] [cursor=pointer]:
+            - /url: mailto:matthias.dietrich@foobar.agency
+  - contentinfo [ref=f1e367]:
+    - generic [ref=f1e372]:
+      - generic [ref=f1e373]:
+        - generic [ref=f1e374]:
+          - link [ref=f1e375] [cursor=pointer]:
+            - /url: /en
+            - img "foobar Agency" [ref=f1e376]
+          - paragraph [ref=f1e377]: Enterprise eCommerce agency specializing in composable commerce and customized solutions for discerning brands.
+          - generic [ref=f1e378]:
+            - link "foobar Agency auf LinkedIn" [ref=f1e379] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/foobar-agency
+            - link "foobar Agency auf Instagram" [ref=f1e382] [cursor=pointer]:
+              - /url: https://www.instagram.com/foobar.agency/
+            - link "foobar Agency auf X" [ref=f1e385] [cursor=pointer]:
+              - /url: https://x.com/foobar_agency
+          - generic [ref=f1e388]:
+            - link [ref=f1e389] [cursor=pointer]:
+              - /url: /en/partners/commercetools
+              - img "Commercetools Partner" [ref=f1e390]
+              - text: Commercetools Partner
+            - link [ref=f1e391] [cursor=pointer]:
+              - /url: /en/partners/snowflake
+              - img "Snowflake Logo" [ref=f1e392]
+              - text: Snowflake Partner
+            - link [ref=f1e393] [cursor=pointer]:
+              - /url: /en/partners/hygraph
+              - img "Hygraph Partner" [ref=f1e394]
+              - text: Hygraph Partner
+          - generic [ref=f1e395]:
+            - 'link "E-Commerce Germany Award, 1. Platz Beste Agentur Award-winning: 1st place at the E-Commerce Germany Award" [ref=f1e396] [cursor=pointer]':
+              - /url: /en/e-commerce-germany-award-2024
+              - img "E-Commerce Germany Award, 1. Platz Beste Agentur" [ref=f1e397]
+              - generic [ref=f1e398]: "Award-winning: 1st place at the E-Commerce Germany Award"
+            - link "foobar Agency ist Top Agentur 2026 Top Agency 2026" [ref=f1e399] [cursor=pointer]:
+              - /url: https://www.ibusiness.de/internetagentur-ranking/
+              - img "foobar Agency ist Top Agentur 2026" [ref=f1e400]
+              - generic [ref=f1e401]: Top Agency 2026
+            - link "We are member of BVDW We are member of BVDW" [ref=f1e402] [cursor=pointer]:
+              - /url: /en/blog/stimme-in-der-digitalen-wirtschaft-foobar-agency-wird-mitglied-im-bvdw
+              - img "We are member of BVDW" [ref=f1e403]
+              - generic [ref=f1e404]: We are member of BVDW
+            - link "We support the IHK's \"Pack ma's digital\" initiative We support the IHK's \"Pack ma's digital\" initiative" [ref=f1e405] [cursor=pointer]:
+              - /url: https://www.ihk-muenchen.de/initiativen/pack-mas-digital/
+              - img "We support the IHK's \"Pack ma's digital\" initiative" [ref=f1e406]
+              - generic [ref=f1e407]: We support the IHK's "Pack ma's digital" initiative
+          - generic [ref=f1e408]:
+            - heading "Our Office" [level=3] [ref=f1e409]
+            - generic [ref=f1e410]:
+              - link "‍foobar Agency GmbH Ria-Burkei-Straße 25 81249 München" [ref=f1e411] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Ria-Burkei-Stra%C3%9Fe+25,+81249+M%C3%BCnchen/@48.1363904,11.4176733,17z/data=!3m1!4b1!4m5!3m4!1s0x479dd7e99e4875d5:0xa18877457f442ddd!8m2!3d48.1363904!4d11.419862
+              - 'link "Tel: +49 89 244174840" [ref=f1e412] [cursor=pointer]':
+                - /url: tel:+4989244174840
+              - 'link "Email: contact@foobar.agency" [ref=f1e413] [cursor=pointer]':
+                - /url: mailto:contact@foobar.agency
+        - navigation "Footer Navigation" [ref=f1e415]:
+          - generic [ref=f1e416]:
+            - generic [ref=f1e417]:
+              - generic [ref=f1e418]: Services
+              - list [ref=f1e419]:
+                - listitem [ref=f1e420]:
+                  - link "All Services" [ref=f1e421] [cursor=pointer]:
+                    - /url: /en#leistungen
+              - generic [ref=f1e423]:
+                - generic [ref=f1e424]:
+                  - link "Commerce Impact" [ref=f1e426] [cursor=pointer]:
+                    - /url: /en/leistungen/commerce
+                  - list [ref=f1e427]:
+                    - listitem [ref=f1e428]:
+                      - link "B2B Commerce, Sales Portals" [ref=f1e429] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2b-commerce
+                    - listitem [ref=f1e431]:
+                      - link "B2C and D2C Commerce" [ref=f1e432] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2c-d2c-commerce
+                    - listitem [ref=f1e434]:
+                      - link "Omnichannel" [ref=f1e435] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/omnichannel
+                - generic [ref=f1e437]:
+                  - link "Digital Experience" [ref=f1e439] [cursor=pointer]:
+                    - /url: /en/leistungen/digital-experience
+                  - list [ref=f1e440]:
+                    - listitem [ref=f1e441]:
+                      - link "Headless CMS" [ref=f1e442] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/headless-cms
+                    - listitem [ref=f1e444]:
+                      - link "Personalization" [ref=f1e445] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/personalisierung
+                    - listitem [ref=f1e447]:
+                      - link "Customer Journey Optimization" [ref=f1e448] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/customer-journey-optimierung
+                - generic [ref=f1e450]:
+                  - link "Data & AI" [ref=f1e452] [cursor=pointer]:
+                    - /url: /en/leistungen/data-science-ai
+                  - list [ref=f1e453]:
+                    - listitem [ref=f1e454]:
+                      - link "Snowflake & Data Architecture" [ref=f1e455] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/snowflake-datenarchitektur
+                    - listitem [ref=f1e457]:
+                      - link "Predictive Analytics" [ref=f1e458] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/predictive-analytics
+                    - listitem [ref=f1e460]:
+                      - link "LLM-Integration" [ref=f1e461] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/llm-integration
+                    - listitem [ref=f1e463]:
+                      - link "Agentic Commerce" [ref=f1e464] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/agentic-commerce
+            - generic [ref=f1e466]:
+              - generic [ref=f1e467]: Partners
+              - list [ref=f1e468]:
+                - listitem [ref=f1e469]:
+                  - link "All partners" [ref=f1e470] [cursor=pointer]:
+                    - /url: /en/partners
+              - generic [ref=f1e472]:
+                - generic [ref=f1e473]:
+                  - generic [ref=f1e474]: eCommerce
+                  - list [ref=f1e476]:
+                    - listitem [ref=f1e477]:
+                      - link "commercetools" [ref=f1e478] [cursor=pointer]:
+                        - /url: /en/partners/commercetools
+                    - listitem [ref=f1e480]:
+                      - link "Shopify Plus" [ref=f1e481] [cursor=pointer]:
+                        - /url: /en/partners/shopify
+                - generic [ref=f1e483]:
+                  - generic [ref=f1e484]: Content Management
+                  - list [ref=f1e486]:
+                    - listitem [ref=f1e487]:
+                      - link "Hygraph" [ref=f1e488] [cursor=pointer]:
+                        - /url: /en/partners/hygraph
+                    - listitem [ref=f1e490]:
+                      - link "Storyblok" [ref=f1e491] [cursor=pointer]:
+                        - /url: /en/partners/storyblok
+                    - listitem [ref=f1e493]:
+                      - link "Contentful" [ref=f1e494] [cursor=pointer]:
+                        - /url: /en/partners/contentful
+                - generic [ref=f1e496]:
+                  - generic [ref=f1e497]: Commerce Ecosystem
+                  - list [ref=f1e499]:
+                    - listitem [ref=f1e500]:
+                      - link "Algolia" [ref=f1e501] [cursor=pointer]:
+                        - /url: /en/partners/algolia
+                    - listitem [ref=f1e503]:
+                      - link "FactFinder" [ref=f1e504] [cursor=pointer]:
+                        - /url: /en/partners/factfinder
+                    - listitem [ref=f1e506]:
+                      - link "Vercel" [ref=f1e507] [cursor=pointer]:
+                        - /url: /en/partners/vercel
+                    - listitem [ref=f1e509]:
+                      - link "Fastly" [ref=f1e510] [cursor=pointer]:
+                        - /url: /en/partners/fastly
+                - generic [ref=f1e512]:
+                  - generic [ref=f1e513]: Data & AI
+                  - list [ref=f1e515]:
+                    - listitem [ref=f1e516]:
+                      - link "Snowflake" [ref=f1e517] [cursor=pointer]:
+                        - /url: /en/partners/snowflake
+                    - listitem [ref=f1e519]:
+                      - link "dbt" [ref=f1e520] [cursor=pointer]:
+                        - /url: /en/partners/dbt
+                    - listitem [ref=f1e522]:
+                      - link "Power BI" [ref=f1e523] [cursor=pointer]:
+                        - /url: /en/partners/power-bi
+            - link "References" [ref=f1e527] [cursor=pointer]:
+              - /url: /en/success-cases
+            - generic [ref=f1e528]:
+              - generic [ref=f1e529]: Company
+              - list [ref=f1e530]:
+                - listitem [ref=f1e531]:
+                  - link "Commerce Impact Forum" [ref=f1e532] [cursor=pointer]:
+                    - /url: https://commerce-impact-forum.de
+                - listitem [ref=f1e534]:
+                  - link "Blog" [ref=f1e535] [cursor=pointer]:
+                    - /url: /en/blog
+                - listitem [ref=f1e537]:
+                  - link "Newsroom" [ref=f1e538] [cursor=pointer]:
+                    - /url: /en/blog?tag=NEWSROOM
+                - listitem [ref=f1e540]:
+                  - link "Team & Careers" [ref=f1e541] [cursor=pointer]:
+                    - /url: /en/team
+                - listitem [ref=f1e543]:
+                  - link "Events" [ref=f1e544] [cursor=pointer]:
+                    - /url: /en/events
+      - generic [ref=f1e546]:
+        - paragraph [ref=f1e547]: © 2026 foobar Agency GmbH. All rights reserved.
+        - list [ref=f1e548]:
+          - listitem [ref=f1e549]:
+            - link "Privacy Policy" [ref=f1e550] [cursor=pointer]:
+              - /url: /en/datenschutz
+          - listitem [ref=f1e551]:
+            - link "Imprint" [ref=f1e552] [cursor=pointer]:
+              - /url: /en/impressum
+        - generic [ref=f1e553]:
+          - link "DE" [ref=f1e554] [cursor=pointer]:
+            - /url: /de
+          - generic [ref=f1e555]: "|"
+          - link "EN" [ref=f1e556] [cursor=pointer]:
+            - /url: /en

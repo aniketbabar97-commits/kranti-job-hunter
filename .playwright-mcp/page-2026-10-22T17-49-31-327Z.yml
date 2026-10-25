@@ -1,0 +1,262 @@
+- generic [active] [ref=f66e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f66e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f66e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f66e8]:
+    - search [ref=f66e9]:
+      - generic [ref=f66e11]:
+        - link "Go to Google Home" [ref=f66e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQPHoECAYQBA
+        - generic [ref=f66e22]:
+          - combobox "Search" [ref=f66e24]: Cegeka Deutschland Karriere Architect E-Commerce 11246 -linkedin Cegeka Deutschland Karriere Architect E-Commerce 11246 -linkedin
+          - generic [ref=f66e25]:
+            - button "Clear" [ref=f66e29] [cursor=pointer]
+            - generic [ref=f66e34]:
+              - button "Search by voice" [ref=f66e37] [cursor=pointer]
+              - button "Search by image" [ref=f66e42] [cursor=pointer]
+    - generic [ref=f66e45]:
+      - button "Settings" [ref=f66e47] [cursor=pointer]
+      - button "Share" [ref=f66e52] [cursor=pointer]
+      - generic [ref=f66e58]:
+        - button "Google apps" [ref=f66e60] [cursor=pointer]
+        - link "Sign in" [ref=f66e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DCegeka%2BDeutschland%2BKarriere%2BArchitect%2BE-Commerce%2B11246%2B-linkedin&ec=futura_srp_og_si_72236_p
+  - generic [ref=f66e67]:
+    - navigation [ref=f66e73]:
+      - generic [ref=f66e79]:
+        - list [ref=f66e80]:
+          - listitem [ref=f66e81]:
+            - link "AI Mode" [ref=f66e84] [cursor=pointer]:
+              - /url: /search?q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ2J8OegQIExAD
+          - listitem [ref=f66e88]:
+            - link "All" [disabled] [ref=f66e89]
+          - listitem [ref=f66e92]:
+            - link "Forums" [ref=f66e93] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQs6gLegQIGRAB
+          - listitem [ref=f66e96]:
+            - link "News" [ref=f66e97] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ0pQJegQIGBAB
+          - listitem [ref=f66e100]:
+            - link "Images" [ref=f66e101] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQtKgLegQIFxAB
+          - listitem [ref=f66e104]:
+            - link "Short videos" [ref=f66e105] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQs6gLegQIFRAB
+          - listitem [ref=f66e108]:
+            - link "Shopping" [ref=f66e109] [cursor=pointer]:
+              - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtaXvPgM4vGGwP5_RrROn0fIUGiQ-xY5y5gUUrKtIkwi8UItSyesZuHMMb6fNgKknwIPJzfaFsiF_iK0-XEpgc0DeyuX6cCyE0s8-xqCmxL_ITWqcs7exmmWtCi7EQCrGsc4e0eBDjrvjruWwjUkYN6O5mT0zXjZxvirIs0yocW-VmmzCwg&q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&ved=1t:220175&ictx=111
+          - listitem [ref=f66e112]:
+            - button [ref=f66e113] [cursor=pointer]:
+              - generic "More filters" [ref=f66e114]: More
+        - button "Tools" [ref=f66e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f66e128]
+    - main [ref=f66e134]:
+      - generic [ref=f66e138]:
+        - generic [ref=f66e141]:
+          - heading "Webergebnisse" [level=2] [ref=f66e142]
+          - generic [ref=f66e143]:
+            - generic [ref=f66e146]:
+              - 'link "Architect* im Bereich E-Commerce #11246 in Deutschland XING https://www.xing.com › jobs › de..." [ref=f66e148] [cursor=pointer]':
+                - /url: /goto?url=CAESiwEB6zswFfSS2_y4MLJm4n-TecTkyE1dUIGd12AdonDtIKlV9Ot7tTJ4JfYHkgHSqJZZnb7RUny5d6IlKtKYQ6cfA0qbQtsdnsq6jYauFSEiySO2yiaw-0RN1MHLiI3HgRFUKMhh-2wsoFmBE-BPwEckvGp_8EE3l0RF2b6Mipe1LJnksFJkzMQbRUwY
+                - 'heading "Architect* im Bereich E-Commerce #11246 in Deutschland" [level=3] [ref=f66e149]'
+                - generic [ref=f66e155]:
+                  - generic [ref=f66e156]: XING
+                  - generic [ref=f66e158]: https://www.xing.com › jobs › de...
+              - generic [ref=f66e160]:
+                - generic [ref=f66e161]: ·
+                - link "Translate this page" [ref=f66e162] [cursor=pointer]:
+                  - /url: /goto?url=CAES1QEB6zswFQgouKovmUDYcj3IU8OACaRy2YIDV2HTvQfFi-aZ1NJ_jo-E_qhs8ObHG335kUz7uElAYID80IbpqOI7XgPN_n2wRK2MeHwYE2nDXXaR1tsONRZpErITxOEYfpkd1JSoj7mvEpf28Sl9BTkTGsL7wRZXmE0IUT0oIK-8BlMT94YMRREzYulHWqg29lEFTtySO-E9LegxxqKqoIjKKYX3EZIrwtrNE_jbw70b00HEyJMt6VUvpFBlCTK5UfErWRhnei_KbqnLjcYURf4bfL2NDPs
+              - button "About this result" [ref=f66e167] [cursor=pointer]
+            - generic [ref=f66e174]:
+              - emphasis [ref=f66e175]: "Bewirb Dich als 'Architect* im Bereich E-Commerce #11246' bei Cegeka Deutschland GmbH"
+              - text: "in Deutschland. Branche: IT-Dienstleister / Beschäftigungsart: ..."
+        - generic [ref=f66e179]:
+          - generic [ref=f66e182]:
+            - link "Starte jetzt Deine Karriere! - CEGEKA Deutschland Cegeka https://jobs.cegeka.de › vacancy" [ref=f66e184] [cursor=pointer]:
+              - /url: /goto?url=CAESWQHrOzAVrNcFOFwX9oh2M4GGOLq-f9d9gF_5hVbPU58p2MPYBT15TIeU7YgQjxp-us6bOF7s0Tc8ndjUFu2UYmdibryQq5lMMniIkMdoqvPfrdLg7iAnzqYz
+              - heading "Starte jetzt Deine Karriere! - CEGEKA Deutschland" [level=3] [ref=f66e185]
+              - generic [ref=f66e191]:
+                - generic [ref=f66e192]: Cegeka
+                - generic [ref=f66e194]: https://jobs.cegeka.de › vacancy
+            - generic [ref=f66e196]:
+              - generic [ref=f66e197]: ·
+              - link "Translate this page" [ref=f66e198] [cursor=pointer]:
+                - /url: /goto?url=CAESogEB6zswFTHYFsrq0Pat-gBEpj5Klmci7fUcq_cARzM2YLHGXgH4v1QtCbJpBwxqcNqtrw3DWB4JAdopAuv6nWUwP4DFva2nxFQ8qTwG1YM-lvlj2p_j_a8svCiznWy45gyGXGbXBAgaZs2ajx808z5sRzQfYzR7Pn9dqGwL-jXY9fODohVKW0mIisCJhihwe-Hbpckn2d3_QjqRHzSsfGGvP8M
+            - button "About this result" [ref=f66e203] [cursor=pointer]
+          - generic [ref=f66e209]:
+            - generic [ref=f66e210]:
+              - emphasis [ref=f66e211]: Architect
+              - text: "* im Bereich"
+              - emphasis [ref=f66e212]: E
+              - text: "-"
+              - emphasis [ref=f66e213]: Commerce
+              - text: "#"
+              - emphasis [ref=f66e214]: "11246"
+              - text: ". Bundesweit. Business Analyst* #11131. Nürnberg. Sicherheitsarchitekt* #11132. Nürnberg. Senior DevOps & Cloud Engineer ..."
+            - link "Read more" [ref=f66e215] [cursor=pointer]:
+              - /url: /goto?url=CAESwgEB6zswFWnnLkbFW_9hScJ5WbM9Kwv5dHl7pYK5F85jiWNP0oz9oLSxW0Wqgz2vqJoHgUSq4icZPXFxriO1XVHeYGt8FTJZN8lsO_-1HmWCThEC87gsXmXDYcazbzbnfRSbUtpIxFc8NsEc8vQdxXWGdzXrr4Ixptos3Fm8HHG1k8HFK-kYXACzgwmQJZDmsQncsw4zl12NQ7PgGlPnxr6DGKg_q0mYmsaSvcJdYJsC6tn3puBlNXSly2dGDRTPIr5l2w
+        - generic [ref=f66e219]:
+          - generic [ref=f66e222]:
+            - link "Job Architect* im Bereich E-Commerce,Jobs Bremen ... Learn4Good https://www.learn4good.com › jobs" [ref=f66e224] [cursor=pointer]:
+              - /url: /goto?url=CAESlgEB6zswFXta9a0k7LmvO5mVpommqY89imntyqVVc-9rTbzs_mfbtfclvsOQsUtLb76OKM3XDKdAI9g0iMeZ0NBLs1CRV7D_apR9I57MwxVqhuGPge4UEmOruRO4epFVmXJDWLWN2DzTDG-JVQYGBzxbKUbxVvIbfjW-UKMO_H3YyQy1otc_AQk4VY37wrXPzsC9qxyoIwo
+              - heading "Job Architect* im Bereich E-Commerce,Jobs Bremen ..." [level=3] [ref=f66e225]
+              - generic [ref=f66e231]:
+                - generic [ref=f66e232]: Learn4Good
+                - generic [ref=f66e234]: https://www.learn4good.com › jobs
+            - generic [ref=f66e236]:
+              - generic [ref=f66e237]: ·
+              - link "Translate this page" [ref=f66e238] [cursor=pointer]:
+                - /url: /goto?url=CAES4AEB6zswFaZoOadSAZRiRaSEYUjHB9TkBHW5W41tG97HkzpxxCeN5v7xPMROm0qVhTd2ipkDafrqDN3jjEFtZM1e8u_Z3oWlVEbsR5-nqRojH7uZA1iep1unNb2hqPsS7ohokTqP3tpK7MHGj2z6OgG6_XfHRfUSQ9kE5815OkslMwFDUE2mPDWe98cpJAnmvbG8860rlO54qTvqPCqNdPNSGe21FKXqZITwXFXVh5h8ktq7pc2x4AXBfT8qvUkDAwAjZZxUtpoaXT8ktblg2UKSafToPQmyrTFTSQ8h6kEbyA
+            - button "About this result" [ref=f66e243] [cursor=pointer]
+          - generic [ref=f66e250]:
+            - emphasis [ref=f66e251]: Architect
+            - text: "* im Bereich"
+            - emphasis [ref=f66e252]: E
+            - text: "-"
+            - emphasis [ref=f66e253]: Commerce
+            - text: · Unbefristeter Arbeitsvertrag beim Kundenunternehmen · Flexible Arbeitszeiten im Projektkontext · 30 Tage Urlaub.
+        - generic [ref=f66e257]:
+          - generic [ref=f66e260]:
+            - 'link "Cegeka Deutschland: Informationen und Neuigkeiten XING https://www.xing.com › pages › c..." [ref=f66e262] [cursor=pointer]':
+              - /url: /goto?url=CAESawHrOzAVPlWSFr6E-BuIqoCKKWn-ownTnAFl1DNCkTn7fiMgoZFqpgJLa_3vvvI0OmzPQz_aeYUfeFuTk35MXwHXShevjUspLjuu4XoJE-Y77lrKwq8H64JhYNcVOFiSpKPgFNmef9G2aUn1
+              - 'heading "Cegeka Deutschland: Informationen und Neuigkeiten" [level=3] [ref=f66e263]'
+              - generic [ref=f66e269]:
+                - generic [ref=f66e270]: XING
+                - generic [ref=f66e272]: https://www.xing.com › pages › c...
+            - generic [ref=f66e274]:
+              - generic [ref=f66e275]: ·
+              - link "Translate this page" [ref=f66e276] [cursor=pointer]:
+                - /url: /goto?url=CAEStAEB6zswFegaHnSaAJH5GZibGAJFNpFbnuQLU2DLl3_fyrtWXC_fJoPMa4OLLcLOteqhysqti4RyGKS-6imy1eIXM96pd7QnIzbFHXKceNX-McOhGlz1cffuGGlwjqhGRqIw8QD6WDyYnckkno7rLAIfj0QPJCS_zXUYkxCN9aMOFk_sUe_ZBE8kyjYl9MvsR9QAez-RiNysFcqWwg8azGnoG_4bpOkgv_5YqYZDawN-t8ZIp0I
+            - button "About this result" [ref=f66e281] [cursor=pointer]
+          - generic [ref=f66e287]:
+            - generic [ref=f66e288]:
+              - text: Wir suchen Verstärkung im Bereich DevSecOps
+              - emphasis [ref=f66e289]: Architecture
+              - text: (m/w/x)! Du willst Cloud‑Architekturen gestalten, Security mitdenken und komplexe Azure‑Umgebungen ...
+            - link "Read more" [ref=f66e290] [cursor=pointer]:
+              - /url: /goto?url=CAES1AEB6zswFdXW96fldVBDX6-sGm4xllI7Fv2lqrWmz7FfCqf8dhtUoHAee1rFCLEJQzVS7BDKE_IZbhqNZpsMBq-HUCPfYgebHZtY4PTbyx9tBT1MwDoK9JOPkZIXAITjmVnBPv9e_p3vnVlgMdhpgJWB2arY10VrisKOpeKLZZUizzGeNwGOModJ3xHY4Dsvxvcw4-iC7arz59fi-_uHGyKECXbsOXkEOV9HBZd1RWdBclXVgdfEZ_v8tuEriWSogSutk2mGPCeJNZo04Tvg8liXRDE4hQ
+        - generic [ref=f66e294]:
+          - generic [ref=f66e297]:
+            - link "Cegeka - Stellen & Gehaltsdaten BeBee https://bebee.com › companies › c..." [ref=f66e299] [cursor=pointer]:
+              - /url: /goto?url=CAESYAHrOzAVp1y5lmInlaTxW9jKvKMeborVh3yxyLPWmlLqtaN1XgZfG9f_zELmbx19jnOCqN7OeN1sL1guVEarrA7Tl5fGumxPtLrKMNSFBsWuXYe2JFpBRL-ZD3Gy-kvOPA
+              - heading "Cegeka - Stellen & Gehaltsdaten" [level=3] [ref=f66e300]
+              - generic [ref=f66e306]:
+                - generic [ref=f66e307]: BeBee
+                - generic [ref=f66e309]: https://bebee.com › companies › c...
+            - generic [ref=f66e311]:
+              - generic [ref=f66e312]: ·
+              - link "Translate this page" [ref=f66e313] [cursor=pointer]:
+                - /url: /goto?url=CAESqQEB6zswFVjK13lscs4s9wfNbEPsSPHRJIX0HqwbJgKQyrPIegGIFW2gw2h8fZd11vddOj-iXs8ORrXbh1boCqJbkYOGB8WQ7-_1oIL1ZocblKSUhh1CMTYMWSK9b9R29JysDBrW1NRlax1S2R_Dre8etT10uyXNoed3tY8URjGNQXvooUlbN6XRqv2LVx4pddFS_3EWIhZSycH08LnK9mu1vV-Pix6x4pLj
+            - button "About this result" [ref=f66e318] [cursor=pointer]
+          - generic [ref=f66e325]:
+            - text: Aktuelle Stellenangebote ;
+            - emphasis [ref=f66e326]: Architect
+            - text: "* im Bereich"
+            - emphasis [ref=f66e327]: E
+            - text: "-"
+            - emphasis [ref=f66e328]: Commerce
+            - text: "#"
+            - emphasis [ref=f66e329]: "11246"
+            - text: . Ruhr Region ; Berater* Workforce Management Systeme. Regensburg ; Berater* Workforce Management ...
+        - generic [ref=f66e333]:
+          - generic [ref=f66e336]:
+            - link "Lista contribuabililor mijlocii care vor fi administraţi de către ... ANAF https://static.anaf.ro › static › Anaf › listesubunitati" [ref=f66e338] [cursor=pointer]:
+              - /url: /goto?url=CAESfwHrOzAV9L8sHrEwzip5JiQsFIlxIPjL-bnKCQaZdW_c-eBg71aOTLo6p54kl3eVAHUF6h9dpICljjZ6r2yqnFU9HnqPxM_F1EZll4s2oLMJdCcY9tvvVj_DPWxPkq5x37GekZ0RdjwuMRpPUx1uTlXRu6b3JEI0wAZbAil3PyU
+              - heading "Lista contribuabililor mijlocii care vor fi administraţi de către ..." [level=3] [ref=f66e339]
+              - generic [ref=f66e348]:
+                - generic [ref=f66e349]: ANAF
+                - generic [ref=f66e351]: https://static.anaf.ro › static › Anaf › listesubunitati
+            - generic [ref=f66e353]: PDF
+            - button "About this result" [ref=f66e358] [cursor=pointer]
+          - generic [ref=f66e363]:
+            - generic [ref=f66e364]:
+              - generic [ref=f66e365]: 1 Jan 2014 —
+              - generic [ref=f66e366]:
+                - text: Lista contribuabililor mijlocii care vor fi administraţi. DIEGO CLUJ S.R.L. DUO DESIGN BRAŞOV 4100 22428246 DAB. DATABASE FOR
+                - emphasis [ref=f66e367]: COMMERCE
+                - text: AND ...
+            - generic [ref=f66e368]: 176 pages
+        - generic [ref=f66e372]:
+          - generic [ref=f66e375]:
+            - link "Lista contribuabililor mijlocii care vor fi administraţi de către Avocatnet.ro https://www.avocatnet.ro › UserFiles › articleFiles" [ref=f66e377] [cursor=pointer]:
+              - /url: /goto?url=CAESpAEB6zswFfkvbr4eGfGcHfCX4TLtvFgdhtJEn2zrjQto0v8wkLRuFae_oUvxe-HqA3rkyE5FfIidKkKEB4zCmRmvWFce5CAkRhLWgeHJtQq4POKr3luxkZK7Mj95Qjfaj9W6yVk90xVLJTN6wKr04SFE0xl_NzCHnTgh1wH4VBNrdnfwduSb4cGikfVsYNULOC6-lP5OL35kaupxeyBDN8WaNWORxQ
+              - heading "Lista contribuabililor mijlocii care vor fi administraţi de către" [level=3] [ref=f66e378]
+              - generic [ref=f66e384]:
+                - generic [ref=f66e385]: Avocatnet.ro
+                - generic [ref=f66e387]: https://www.avocatnet.ro › UserFiles › articleFiles
+            - generic [ref=f66e389]: PDF
+            - button "About this result" [ref=f66e394] [cursor=pointer]
+          - generic [ref=f66e399]:
+            - generic [ref=f66e400]:
+              - generic [ref=f66e401]: 29 Nov 2013 —
+              - generic [ref=f66e402]:
+                - text: Lista contribuabililor mijlocii care vor fi. DCI DATABASE FOR
+                - emphasis [ref=f66e403]: COMMERCE
+                - text: AND INDUSTRY ROMANIA S.R.L.
+            - generic [ref=f66e404]: 678 pages
+        - generic [ref=f66e408]:
+          - generic [ref=f66e411]:
+            - link "Medium Taxpayer List - Alba County | PDF Scribd https://www.scribd.com › document" [ref=f66e413] [cursor=pointer]:
+              - /url: /goto?url=CAESdQHrOzAVD5j2tFW1oJjwLoXn4leQ7vhrs-AMDfKB_C12BEfwnZ1eC-Eh643GoYdw-Bo3FRz4KMun_hWHZ0_31Opsqx3d5G8FUyfsEdfadXbJ4caVji8i_m4sqBr--o2BG3Vg6Uay1mHkJ5XX66zgswnMOvrc_A
+              - heading "Medium Taxpayer List - Alba County | PDF" [level=3] [ref=f66e414]
+              - generic [ref=f66e420]:
+                - generic [ref=f66e421]: Scribd
+                - generic [ref=f66e423]: https://www.scribd.com › document
+            - generic [ref=f66e425]:
+              - generic [ref=f66e426]: ·
+              - link "Translate this page" [ref=f66e427] [cursor=pointer]:
+                - /url: /goto?url=CAESvwEB6zswFfM8EMsSFMrsjCQV1GWj44jf56MOI2pC9s5oOLhYDz2PbzjTQjBv3Rf7ME_I6t-ARqhyGSP6y5daqNe381N2xo6yBB7rhQR2ljGvJKtR0yJeyx2TnO8kkHpimDlGrYiAgF_ljif6QoOSEi3QZWRZA3DbNUBsPxBxCKYFqkcurONi2_HSQfCxtBf6zb8W0l41D6eln0PV83yw79iYQCiuhbtd34hVIl93KcIuzIa--ql-vRjwv7Z-q5rNRw
+            - button "About this result" [ref=f66e432] [cursor=pointer]
+          - generic [ref=f66e438]:
+            - text: This document is a list of medium-sized taxpayers that will be administered by the tax administration for medium taxpayers, namely the tax administration ...
+            - link "Read more" [ref=f66e439] [cursor=pointer]:
+              - /url: /goto?url=CAESxQEB6zswFdHLLOYxNQBDfxqEx8b3ERQ7obqXBuCOojKHz9mtKBsye6OVbtDiS7n5UWbTtGEcln_6SwQ60P2Z5Yelr3u7tsiirFApTltwrbM7FotqW0vz5rwh4EIcveMS3nZoc9QBYeirkPoac-9Kb9i93Gx65cj0KW4lGcNZThMgxAg9IsiTgtVFTFTWMnVt4Q4lCWBaxj-P6ZZwJrek74El4PrcgScP4iLCmCvvBH2jn6qCK5bPEi1_Kor6P_qbh9YzoGBirQ
+      - generic [ref=f66e441]:
+        - generic [ref=f66e446]:
+          - heading "People also search for" [level=2] [ref=f66e448]
+          - generic [ref=f66e450]:
+            - generic [ref=f66e451]:
+              - link "Cegeka jobs" [ref=f66e455] [cursor=pointer]:
+                - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Cegeka+jobs&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ1QJ6BAgsEAE
+              - link "Cegeka Deutschland GmbH" [ref=f66e469] [cursor=pointer]:
+                - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Cegeka+Deutschland+GmbH&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ1QJ6BAgvEAE
+              - link "Cegeka München" [ref=f66e483] [cursor=pointer]:
+                - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Cegeka+M%C3%BCnchen&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ1QJ6BAguEAE
+            - generic [ref=f66e494]:
+              - link "Cegeka kununu" [ref=f66e498] [cursor=pointer]:
+                - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Cegeka+kununu&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ1QJ6BAgrEAE
+              - link "Ghc solutions GmbH" [ref=f66e512] [cursor=pointer]:
+                - /url: /search?sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&q=Ghc+solutions+GmbH&sa=X&ved=2ahUKEwjG-aHil86XAxWmUGwGHYmfGfkQ1QJ6BAgtEAE
+        - generic [ref=f66e523]:
+          - heading "Notices about Filtered Results" [level=2] [ref=f66e524]
+          - paragraph [ref=f66e526]:
+            - generic [ref=f66e527]:
+              - text: In order to show you the most relevant results, we have omitted some entries very similar to the 8 already displayed.If you like, you can
+              - link "repeat the search with the omitted results included" [ref=f66e528] [cursor=pointer]:
+                - /url: /search?q=Cegeka+Deutschland+Karriere+Architect+E-Commerce+11246+-linkedin&sca_esv=2f9f07909ff77a7d&sxsrf=APpeQnvyQE-E8j494IZbA0Zimja_OAtohw:1792691369711&filter=0
+              - text: .
+        - navigation
+      - navigation
+    - contentinfo [ref=f66e529]:
+      - heading "Footer links" [level=1] [ref=f66e530]
+      - generic [ref=f66e534]:
+        - generic [ref=f66e536]:
+          - text: India
+          - generic [ref=f66e538]:
+            - button "Doddathoguru, Electronic City, Doddathoguru, Karnataka - From your IP address" [ref=f66e540] [cursor=pointer]:
+              - generic [ref=f66e541]: Doddathoguru, Electronic City, Doddathoguru, Karnataka
+              - generic [ref=f66e543]:
+                - text: "-"
+                - generic [ref=f66e544]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f66e546] [cursor=pointer]
+        - generic [ref=f66e549]:
+          - link "Help" [ref=f66e550] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f66e552] [cursor=pointer]
+          - link "Privacy" [ref=f66e554] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f66e555] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

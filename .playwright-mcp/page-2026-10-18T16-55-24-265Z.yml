@@ -1,0 +1,374 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e5]:
+      - link [ref=e7] [cursor=pointer]:
+        - /url: https://www.arbeitsagentur.de/
+        - img "Bundesagentur für Arbeit bringt weiter" [ref=e8]
+      - navigation "Metanavigation" [ref=e9]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Gebärdensprache" [ref=e13] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/gebaerdensprache
+          - listitem [ref=e14]:
+            - link "Leichte Sprache" [ref=e15] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/leichte-sprache
+      - navigation [ref=e16]:
+        - heading "Hauptnavigation" [level=1] [ref=e17]
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - button "Suche" [ref=e20] [cursor=pointer]
+          - listitem
+          - listitem
+          - listitem
+          - listitem
+          - listitem [ref=e22]:
+            - button "Anmelden" [ref=e23] [cursor=pointer]
+          - listitem [ref=e25]:
+            - button "Menü" [ref=e27] [cursor=pointer]
+    - main [ref=e30]:
+      - generic [ref=e32]:
+        - link "Zur Jobsuche Startseite" [ref=e34] [cursor=pointer]:
+          - /url: /jobsuche/
+        - generic [ref=e35]:
+          - region [ref=e36]:
+            - article [ref=e37]:
+              - region [ref=e40]:
+                - generic [ref=e41]:
+                  - img "Logo des Arbeitgebers" [ref=e42]
+                  - 'heading "Stellenangebot: Lead Backend Engineer E-Commerce [m/w/d] - Hamburg / Berlin bei Die Tech Recruiter GmbH" [level=1] [ref=e43]':
+                    - generic [ref=e44]: "Stellenangebot:"
+                    - generic [ref=e45]: Lead Backend Engineer E-Commerce [m/w/d] - Hamburg / Berlin
+                    - generic [ref=e46]: bei
+                    - generic [ref=e47]: Die Tech Recruiter GmbH
+                  - heading "Das Wichtigste im Überblick" [level=2] [ref=e48]
+                  - heading "Besondere Merkmale" [level=3] [ref=e49]
+                  - list [ref=e50]:
+                    - listitem [ref=e51]: 85.000 € – 100.000 €/Jahr
+                    - listitem [ref=e52]: Stelle im Rahmen der Personalvermittlung
+                  - generic [ref=e53]:
+                    - generic [ref=e56]:
+                      - heading "Arbeitsort" [level=3] [ref=e57]
+                      - generic [ref=e58]: verschiedene Arbeitsorte
+                    - generic [ref=e59]:
+                      - generic [ref=e60]: 
+                      - generic [ref=e61]:
+                        - heading "Angebotsart" [level=3] [ref=e62]
+                        - generic [ref=e63]: Arbeit
+                    - generic [ref=e66]:
+                      - heading "Anstellungsart" [level=3] [ref=e67]
+                      - generic [ref=e68]: Vollzeit
+                    - generic [ref=e71]:
+                      - heading "Befristung" [level=3] [ref=e72]
+                      - generic [ref=e73]: unbefristet
+                    - generic [ref=e74]:
+                      - generic [ref=e75]: 
+                      - generic [ref=e76]:
+                        - heading "Beginn" [level=3] [ref=e77]
+                        - generic [ref=e78]: ab sofort
+                  - generic [ref=e80]:
+                    - generic [ref=e81]: 
+                    - generic [ref=e82]:
+                      - heading "Berufsbezeichnung" [level=3] [ref=e83]
+                      - list [ref=e84]:
+                        - listitem [ref=e85]: Backend-Entwickler/in
+                        - listitem [ref=e86]: Anwendungsprogrammierer/in
+                  - generic [ref=e87]:
+                    - button " Info zur Bewerbung" [ref=e88] [cursor=pointer]
+                    - button "Vormerken" [ref=e89] [cursor=pointer]:  Vormerken
+                    - button "Aktionen für das Stellenangebot 10001-1003580959-S" [ref=e92] [cursor=pointer]:  Notiz / Status
+                    - button "PDF / Drucken" [ref=e93] [cursor=pointer]
+                    - button "Teilen" [ref=e94] [cursor=pointer]
+                  - 'generic "Veröffentlichungsdatum: 21.08.2026" [ref=e99]':
+                    - generic [ref=e100]: "Veröffentlichungsdatum:"
+                    - text: Vor 30+ Tagen veröffentlicht
+              - region [ref=e103]:
+                - generic [ref=e104]:
+                  - heading "Stellenbeschreibung" [level=2] [ref=e105]
+                  - generic [ref=e108]:
+                    - paragraph [ref=e109]: Job Beschreibung
+                    - paragraph [ref=e110]: In dieser Position übernimmst Du die Leitung und Weiterentwicklung eines Backend-Teams. Zu den Hauptaufgaben gehören die Architektur und Implementierung skalierbarer Backend-Lösungen mit PHP, Symfony und Laravel, die Optimierung von Datenbankstrukturen in MySQL sowie die Integration von Redis. Zudem arbeitest Du eng mit Frontend-Entwicklern zusammen, führst CI/CD-Pipelines ein und kümmerst Dich um das Mentoring des Engineering-Teams.
+                    - heading "Deine Mission" [level=4] [ref=e111]
+                    - list [ref=e112]:
+                      - listitem [ref=e113]: Leitung und Weiterentwicklung eines Backend-Teams im E-Commerce-Bereich.
+                      - listitem [ref=e114]: Architektur und Implementierung von skalierbaren Backend-Lösungen mit PHP, Symfony und Laravel.
+                      - listitem [ref=e115]: Optimierung der Datenbankstrukturen und -abfragen in MySQL sowie Integration von Redis für verbesserte Performance.
+                      - listitem [ref=e116]: Zusammenarbeit mit Frontend-Entwicklern zur Gewährleistung einer nahtlosen User Experience.
+                      - listitem [ref=e117]: Einführung und Pflege von CI/CD-Pipelines sowie Containerisierung mit Kubernetes und AWS.
+                      - listitem [ref=e118]: Du triffst Entscheidungen zur Architektur der Systeme.
+                      - listitem [ref=e119]: Du bist verantwortlich für das Mentoring des Engineering-Teams.
+                    - heading "Dein Skillset" [level=4] [ref=e120]
+                    - list [ref=e121]:
+                      - listitem [ref=e122]: Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation.
+                      - listitem [ref=e123]: Mehrjährige Erfahrung in der Backend-Entwicklung, insbesondere mit PHP, Symfony und Laravel.
+                      - listitem [ref=e124]: Fundierte Kenntnisse in MySQL und Redis sowie Erfahrung in Cloud-Technologien wie AWS.
+                      - listitem [ref=e125]: Erfahrung mit modernen Software-Entwicklungsmethoden und agilen Prozessen.
+                      - listitem [ref=e126]: Fähigkeit, komplexe technische Konzepte verständlich zu kommunizieren und das Team zu führen.
+                    - heading "Benefits" [level=4] [ref=e127]
+                    - list [ref=e128]:
+                      - listitem [ref=e129]: Attraktives Gehaltspaket zwischen 85.000 und 100.000 Euro.
+                      - listitem [ref=e130]: Flexible Arbeitszeiten und die Möglichkeit, remote zu arbeiten.
+                      - listitem [ref=e131]: Fort- und Weiterbildungsmöglichkeiten zur persönlichen und beruflichen Entwicklung.
+                      - listitem [ref=e132]: Ein modernes Arbeitsumfeld mit neuester Technologie und innovativen Projekten.
+                      - listitem [ref=e133]: Teamorientierte Unternehmenskultur mit regelmäßigen Teamevents.
+                    - paragraph [ref=e134]: Bewirb Dich jetzt als Lead Backend Engineer E-Commerce [m/w/d] in Hamburg oder Berlin!
+                  - generic [ref=e135]:
+                    - heading "Arbeitsorte" [level=3] [ref=e136]
+                    - generic [ref=e137]:
+                      - button "Karte anzeigen" [ref=e139] [cursor=pointer]
+                      - list [ref=e140]:
+                        - listitem [ref=e141]:
+                          - link "Hamburg" [ref=e142] [cursor=pointer]:
+                            - /url: "javascript:"
+                          - generic "Arbeitsort kopieren" [ref=e144]:
+                            - button "Arbeitsort kopieren" [ref=e147] [cursor=pointer]
+                        - listitem [ref=e153]:
+                          - link "Berlin" [ref=e154] [cursor=pointer]:
+                            - /url: "javascript:"
+                          - generic "Arbeitsort kopieren" [ref=e156]:
+                            - button "Arbeitsort kopieren" [ref=e159] [cursor=pointer]
+              - region [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]:
+                    - img "Logo des Arbeitgebers" [ref=e170]
+                    - 'heading "Unternehmensdarstellung: Die Tech Recruiter GmbH" [level=2] [ref=e172]':
+                      - generic [ref=e173]: "Unternehmensdarstellung:"
+                      - text: Die Tech Recruiter GmbH
+                    - generic [ref=e174]:
+                      - generic [ref=e177]:
+                        - generic [ref=e178]: Hauptsitz
+                        - text: Escheburg
+                      - generic [ref=e179]:
+                        - generic [ref=e180]: 
+                        - generic [ref=e181]:
+                          - generic [ref=e182]: Gründung
+                          - text: "2024"
+                    - generic [ref=e183]:
+                      - generic [ref=e184]: Tätigkeitsfelder und Schlagworte
+                      - list [ref=e185]:
+                        - listitem [ref=e186]: IT Personalberatung
+                        - listitem [ref=e187]: IT Recruiting
+                        - listitem [ref=e188]: IT Karriereberatung
+                        - listitem [ref=e189]: Vermittlung IT Fach- und Führungskräfte
+                  - generic [ref=e192]:
+                    - paragraph [ref=e193]:
+                      - strong [ref=e194]: Die Tech Recruiter GmbH
+                    - paragraph [ref=e195]: IT Personalberatung für Tech & Digital aus Hamburg
+                    - paragraph [ref=e196]: Wir sind die Tech Recruiter - euer Partner für die Vermittlung von festangestellten und freiberuflichen IT-Experten.
+                    - paragraph [ref=e197]: IT Personalberatung und Tech Recruiting Service
+                  - generic [ref=e198]:
+                    - link " Alle Stellen anzeigen" [ref=e199] [cursor=pointer]:
+                      - /url: https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=UGNjjelprnrybcxVzI4w4wVEgumdgf3B_Xq5XuMP_mk=__del__Die%20Tech%20Recruiter%20GmbH&suchbereich=jobs
+                    - link "In neuem Tab öffnen" [ref=e200] [cursor=pointer]:
+                      - /url: https://web.arbeitsagentur.de/vermittlung/ag-darstellung-ui/anzeigen/UGNjjelprnrybcxVzI4w4wVEgumdgf3B_Xq5XuMP_mk=
+                  - generic [ref=e202]:
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: Webseiten
+                      - list [ref=e205]:
+                        - listitem [ref=e206]:
+                          - link "Homepage" [ref=e207] [cursor=pointer]:
+                            - /url: https://dietechrecruiter.de/
+                        - listitem [ref=e208]:
+                          - link "Über uns" [ref=e209] [cursor=pointer]:
+                            - /url: https://dietechrecruiter.de/ueber-uns
+                        - listitem [ref=e210]:
+                          - link "Karriereseite" [ref=e211] [cursor=pointer]:
+                            - /url: https://dietechrecruiter.de/jobs/
+                        - listitem [ref=e212]:
+                          - link "Blog - die Tech Recruiter" [ref=e213] [cursor=pointer]:
+                            - /url: https://dietechrecruiter.de/posts
+                        - listitem [ref=e214]:
+                          - link "Lebenslauf erstellen - Tool" [ref=e215] [cursor=pointer]:
+                            - /url: https://dietechrecruiter.de/lebenslauf-erstellen
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: Social Media Seiten
+                      - list [ref=e218]:
+                        - listitem [ref=e219]:
+                          - link "zur LinkedIn-Seite des Arbeitgebers" [ref=e220] [cursor=pointer]:
+                            - /url: https://www.linkedin.com/company/die-tech-recruiter-gmbh
+                        - listitem [ref=e221]:
+                          - link "zur YouTube-Seite des Arbeitgebers" [ref=e222] [cursor=pointer]:
+                            - /url: https://www.youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA
+              - region [ref=e224]:
+                - heading "Informationen zur Bewerbung" [level=2] [ref=e225]
+                - generic [ref=e227]:
+                  - heading "Sicherheitsabfrage" [level=3] [ref=e228]
+                  - generic [ref=e230]:
+                    - paragraph [ref=e231]: Wir schützen die Kontaktdaten des Arbeitgebers vor unerlaubten Zugriffen. Bitte geben Sie die dargestellten Zeichen in das Textfeld ein, um die Kontaktdaten des Arbeitgebers anzuzeigen.
+                    - generic [ref=e232]:
+                      - img "Sicherheitsabfrage" [ref=e234]
+                      - generic [ref=e235]:
+                        - button "Anderes Bild laden" [ref=e236] [cursor=pointer]
+                        - button "Audioversion abspielen" [ref=e237] [cursor=pointer]
+                    - paragraph [ref=e238]: "Hinweis: Die dargestellten Zeichen enthalten keine Umlaute (ä, ö, ü oder ß), Sonderzeichen oder Leerzeichen."
+                    - generic [ref=e239]:
+                      - generic [ref=e240]:
+                        - generic [ref=e241]: Dargestellte Zeichen
+                        - textbox "Dargestellte Zeichen" [ref=e242]
+                      - button "Absenden" [disabled] [ref=e243]
+              - region [ref=e247]:
+                - generic [ref=e248]:
+                  - heading "Fußbereich" [level=2] [ref=e249]
+                  - generic [ref=e250]:
+                    - generic [ref=e251]:
+                      - generic [ref=e252]:
+                        - generic [ref=e253]: Stelle betreut durch Arbeitgeber
+                        - button "Hinweis zur Betreuung öffnen" [ref=e256] [cursor=pointer]
+                      - generic [ref=e258]:
+                        - text: "Referenz-Nr.: 10001-1003580959-S"
+                        - generic "In Zwischenablage kopieren" [ref=e260]:
+                          - button "kopieren" [ref=e263] [cursor=pointer]
+                    - link "Verstoß melden" [ref=e270] [cursor=pointer]:
+                      - /url: "javascript:"
+          - generic:
+            - button [aria-hidden]
+    - contentinfo [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - heading "Folgen Sie uns in den sozialen Medien" [level=2] [ref=e277]
+            - list [ref=e279]:
+              - listitem [ref=e280]:
+                - link "zur Xing-Seite der BA" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.xing.com/pages/bundesagentur
+              - listitem [ref=e282]:
+                - link "zur Kununu-Seite der BA" [ref=e283] [cursor=pointer]:
+                  - /url: https://www.kununu.com/de/bundesagentur-fuer-arbeit
+              - listitem [ref=e284]:
+                - link "zur LinkedIn-Seite der BA" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/bundesagentur-fuer-arbeit
+              - listitem [ref=e286]:
+                - link "zur Instagram-Seite der BA" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bundesagenturfuerarbeit
+              - listitem [ref=e288]:
+                - link "zur Facebook-Seite der BA" [ref=e289] [cursor=pointer]:
+                  - /url: https://www.facebook.com/bundesagenturfuerarbeit
+              - listitem [ref=e290]:
+                - link "zur YouTube-Seite der BA" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/Arbeitsagentur
+          - navigation [ref=e292]:
+            - generic [ref=e294]:
+              - heading "Über die Bundesagentur für Arbeit" [level=2] [ref=e295]
+              - list "Über die Bundesagentur für Arbeit" [ref=e297]:
+                - listitem [ref=e298]:
+                  - link "Kontakt" [ref=e299] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/service-bereich/so-erreichen-sie-uns
+                - listitem [ref=e301]:
+                  - link "Karriere bei der BA" [ref=e302] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/bakarriere
+                - listitem [ref=e304]:
+                  - link "Über uns" [ref=e305] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/ueber-uns
+                - listitem [ref=e307]:
+                  - link "Veröffentlichungen" [ref=e308] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/ueber-uns/veroeffentlichungen
+                - listitem [ref=e310]:
+                  - link "Presse" [ref=e311] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/presse
+            - generic [ref=e314]:
+              - heading "Themenbereiche" [level=2] [ref=e315]
+              - list "Themenbereiche" [ref=e317]:
+                - listitem [ref=e318]:
+                  - link "Arbeitslos und Arbeit finden" [ref=e319] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/arbeitslos-arbeit-finden
+                - listitem [ref=e321]:
+                  - link "Schule, Ausbildung und Studium" [ref=e322] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/bildung
+                - listitem [ref=e324]:
+                  - link "Familie und Kinder" [ref=e325] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/familie-und-kinder
+                - listitem [ref=e327]:
+                  - link "Menschen mit Behinderungen" [ref=e328] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/menschen-mit-behinderungen
+                - listitem [ref=e330]:
+                  - link "Karriere und Weiterbildung" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/karriere-und-weiterbildung
+                - listitem [ref=e333]:
+                  - link "Zum Arbeiten nach Deutschland" [ref=e334] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/int/de/menschen-aus-dem-ausland
+            - generic [ref=e337]:
+              - heading "Services" [level=2] [ref=e338]
+              - list "Services" [ref=e340]:
+                - listitem [ref=e341]:
+                  - link "eServices im Überblick" [ref=e342] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/eservices
+                - listitem [ref=e344]:
+                  - link "Dienststelle finden" [ref=e345] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/portal/dienststellensuche
+                - listitem [ref=e347]:
+                  - link "Newsletter" [ref=e348] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/newsletter
+                - listitem [ref=e350]:
+                  - link "Apps" [ref=e351] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/apps
+            - generic [ref=e354]:
+              - heading "Weitere Internetauftritte" [level=2] [ref=e355]
+              - list "Weitere Internetauftritte" [ref=e357]:
+                - listitem [ref=e358]:
+                  - link "Arbeitsmarktmonitor" [ref=e359] [cursor=pointer]:
+                    - /url: https://arbeitsmarktmonitor.arbeitsagentur.de/
+                - listitem [ref=e361]:
+                  - link "Berufsinformationen BERUFENET" [ref=e362] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/berufenet/
+                - listitem [ref=e364]:
+                  - link "Berufsvideos BERUFE.TV" [ref=e365] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/berufetv/start
+                - listitem [ref=e367]:
+                  - link "mein NOW" [ref=e368] [cursor=pointer]:
+                    - /url: https://mein-now.de/
+                - listitem [ref=e370]:
+                  - link "Statistik" [ref=e371] [cursor=pointer]:
+                    - /url: https://statistik.arbeitsagentur.de/
+        - separator [ref=e373]
+        - navigation "Informationen über die Seite" [ref=e374]:
+          - list [ref=e376]:
+            - listitem [ref=e377]:
+              - link "Impressum" [ref=e378] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/impressum
+            - listitem [ref=e380]:
+              - link "Datenschutz" [ref=e381] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/datenschutz
+            - listitem [ref=e383]:
+              - button "Cookie-Einstellungen" [ref=e384] [cursor=pointer]
+            - listitem [ref=e386]:
+              - link "Rechtliche Hinweise" [ref=e387] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/rechtliche-hinweise
+            - listitem [ref=e389]:
+              - link "Barrieren melden" [ref=e390] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/link/kontakt-barrierefreiheit
+            - listitem [ref=e392]:
+              - link "Fehler melden" [ref=e394] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e395]:
+              - link "Erklärung zur Barrierefreiheit" [ref=e396] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/erklaerung-barrierefreiheit
+            - listitem [ref=e398]: © Bundesagentur für Arbeit 2026
+  - dialog "Cookie-Einstellungen" [ref=e400]:
+    - generic [ref=e401]:
+      - heading [level=1] [ref=e403]:
+        - button "Cookie-Einstellungen schließen" [ref=e404] [cursor=pointer]
+        - text: Verwendung von Cookies und anderen Technologien
+      - generic [ref=e405]:
+        - generic [ref=e406]:
+          - text: "Unsere Webseite verwendet Cookies und ähnliche Technologien (im Folgenden: Cookies), um Informationen von Ihrem Gerät zu erfassen und zu speichern. Dies ermöglicht unter anderem die Funktionalität der Webseite, Interaktionen mit sozialen Medien, die Bereitstellung relevanter Inhalte, Nachrichten, Werbung und Analysen. Zur Wiedererkennung bei unseren Werbepartnern verwenden wir pseudonymisierte Identifier (z.B. eine gehashte E-Mailadresse, sofern vorhanden), ohne dabei auslesbare persönliche Daten zu teilen. Um dem zuzustimmen, wählen Sie bitte \"Alle Cookies akzeptieren\". Ihre Einwilligung können Sie jederzeit unter"
+          - link "Cookie-Erklärung" [ref=e407] [cursor=pointer]:
+            - /url: https://www.arbeitsagentur.de/datenschutz/cookies
+          - text: widerrufen. Weitere Informationen finden Sie in unserer
+          - link "Datenschutzerklärung" [ref=e408] [cursor=pointer]:
+            - /url: https://www.arbeitsagentur.de/datenschutzerklaerung
+          - text: .
+        - group "Bitte wählen Sie aus:" [ref=e410]:
+          - generic [ref=e412]:
+            - generic [ref=e415]:
+              - checkbox "Webanalyse" [ref=e416]
+              - generic [ref=e417] [cursor=pointer]: Webanalyse
+            - generic [ref=e420]:
+              - checkbox "Personalisierung" [ref=e421]
+              - generic [ref=e422] [cursor=pointer]: Personalisierung
+            - generic [ref=e425]:
+              - checkbox "Werbung" [ref=e426]
+              - generic [ref=e427] [cursor=pointer]: Werbung
+        - button "Details anzeigen zum Thema Cookies – ausklappen" [ref=e432] [cursor=pointer]: Details anzeigen
+      - generic [ref=e433]:
+        - button "Alle Cookies ablehnen – Alle Cookies werden abgelehnt" [ref=e434] [cursor=pointer]: Alle Cookies ablehnen
+        - button "Auswahl bestätigen – Ausgewählte Cookies werden akzeptiert" [ref=e435] [cursor=pointer]: Auswahl bestätigen
+        - button "Alle Cookies akzeptieren – Alle Cookies werden akzeptiert" [ref=e436] [cursor=pointer]: Alle Cookies akzeptieren

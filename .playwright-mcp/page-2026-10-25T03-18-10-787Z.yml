@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e3]:
+      - text: Um Ihnen einen bestmöglichen Service zu bieten und die Verwendung mancher Funktionen zu erleichtern, verwenden wir Cookies. Mit der Nutzung dieser Seite erklären Sie sich mit der Verwendung von Cookies einverstanden. Die Einwilligung kann jeder Zeit mit Wirkung für die Zukunft widerrufen werden. Mehr Informationen darüber, welche Daten gespeichert werden, erhalten Sie
+      - button "hier." [ref=e4] [cursor=pointer]
+    - generic [ref=e5]:
+      - button "allow cookies" [ref=e6] [cursor=pointer]: Ja, ich bin einverstanden
+      - generic [ref=e7]:
+        - button "choose cookies" [ref=e8] [cursor=pointer]: Cookies anpassen
+        - button "deny cookies" [ref=e9] [cursor=pointer]: Ablehnen
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /de
+        - img "Logo" [ref=e14]
+      - generic [ref=e15]:
+        - list [ref=e17]:
+          - listitem [ref=e18]: Deutsch|
+          - listitem [ref=e19]:
+            - link "Englisch" [ref=e20] [cursor=pointer]:
+              - /url: job-offers.html
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - link "Stellenangebote" [ref=e25] [cursor=pointer]:
+              - /url: https://karriere.huber.de/stellenangebote.html
+          - listitem [ref=e26]:
+            - link "Perspektiven" [ref=e27] [cursor=pointer]:
+              - /url: https://karriere.huber.de/arbeitgeber.html
+          - listitem [ref=e28]:
+            - link "Ausbildung & Praktikum" [ref=e29] [cursor=pointer]:
+              - /url: https://karriere.huber.de/ausbildung-and-praktikum.html
+          - listitem [ref=e30]:
+            - link "FAQ" [ref=e31] [cursor=pointer]:
+              - /url: https://karriere.huber.de/faq.html
+    - generic [ref=e32]: Als Individuen sind wir vielleicht stark - aber zusammen sind wir unbesiegbar
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - heading "Aktuelle Stellenangebote" [level=1] [ref=e39]
+        - paragraph [ref=e40]: Bewerben Sie sich bequem online für Ihre bevorzugte Stelle. Ihre Anlagen laden Sie in allen gängigen Formaten hoch. Die Stellenangebote können Sie mit Hilfe der Filterfunktion nach Ihren Bedürfnissen eingrenzen.
+        - paragraph [ref=e41]:
+          - text: Sollten Sie keine passende Stelle gefunden haben, freuen wir uns über Ihre
+          - strong [ref=e42]:
+            - link "»Initiativbewerbung«" [ref=e43] [cursor=pointer]:
+              - /url: stellenangebot-formular.html?yid=11
+          - text: oder aktivieren Sie unseren
+          - link [ref=e44] [cursor=pointer]:
+            - /url: https://karriere.huber.de/jobalert.html
+            - text: »
+            - strong [ref=e45]: JOB-
+            - text: ALERT«
+          - text: "!"
+        - paragraph [ref=e46]
+        - generic [ref=e47]:
+          - generic "Video anzeigen von YouTube" [ref=e49]:
+            - generic [ref=e52]:
+              - heading "Redaktionell empfohlener externer Inhalt" [level=2] [ref=e53]
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - checkbox "Video anzeigen" [ref=e56]
+                  - generic [ref=e57] [cursor=pointer]
+                - generic [ref=e58]:
+                  - text: Ich bin damit einverstanden, dass mir externe Inhalte angezeigt werden. Damit werden personenbezogene Daten an Drittplattformen übermittelt. HUBER SE Jobportal hat darauf keinen Einfluss. Näheres dazu lesen Sie in unserer
+                  - link "»Datenschutzerklärung«" [ref=e59] [cursor=pointer]:
+                    - /url: datenschutz.html
+                  - text: . Sie können die Anzeige jederzeit wieder deaktivieren.
+          - text: »«
+        - paragraph
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - textbox "Stichwort" [ref=e71]
+          - link "Aktualisieren" [ref=e74] [cursor=pointer]:
+            - /url: https://karriere.huber.de/stellenangebote.html
+        - generic [ref=e75]:
+          - generic [ref=e76]: erweiterte Suche
+          - separator [ref=e77]
+          - generic [ref=e78]: 
+        - text:   
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - link "Ausbildung Anlagenmechaniker für unseren Standort in Berlin Kläranlage Waßmannsdorf (m/w/d) - Start 2027" [ref=e83] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Ausbildung-Anlagenmechaniker-fuer-unseren-Standort-in-Berl-de-j1016.html
+            - generic [ref=e84]: Schönefeld
+          - generic [ref=e85]:
+            - link "Ausbildung Feinwerkmechaniker Fachrichtung Maschinenbau (m/w/d) - Start 2027" [ref=e87] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Ausbildung-Feinwerkmechaniker-Fachrichtung-Maschinenbau-mw-de-j1018.html
+            - generic [ref=e88]: Berching
+          - generic [ref=e89]:
+            - link "Ausbildung Metallbauer Fachrichtung Konstruktionstechnik (m/w/d) - Start 2027" [ref=e91] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Ausbildung-Metallbauer-Fachrichtung-Konstruktionstechnik-m-de-j1017.html
+            - generic [ref=e92]: Berching
+          - generic [ref=e93]:
+            - link "Ausbildung Umwelttechnologe für Abwasserbewirtschaftung (m/w/d) - Start 2027" [ref=e95] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Ausbildung-Umwelttechnologe-fuer-Abwasserbewirtschaftung-m-de-j1014.html
+            - generic [ref=e96]: Berching
+          - generic [ref=e97]:
+            - link "Backend Engineer (m/w/d)" [ref=e99] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Backend-Engineer-mwd-de-j1050.html
+            - generic [ref=e100]: Berching
+          - generic [ref=e101]:
+            - link "Berufserkundungstag bei HUBER - 18.11.2026" [ref=e103] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Berufserkundungstag-bei-HUBER-18112026-de-j1049.html
+            - generic [ref=e104]: Berching
+          - generic [ref=e105]:
+            - link "Business Development Manager Industrieanwendungen (m/w/d)" [ref=e107] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Business-Development-Manager-Industrieanwendungen-mwd-de-j991.html
+            - generic [ref=e108]: Berching
+          - generic [ref=e109]:
+            - link "Digital Product Owner (m/w/d)" [ref=e111] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Digital-Product-Owner-mwd-de-j1051.html
+            - generic [ref=e112]: Berching
+          - generic [ref=e113]:
+            - link "Duales Studium Bio- und Umweltverfahrenstechnik (m/w/d) - Start 2027" [ref=e115] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Duales-Studium-Bio-und-Umweltverfahrenstechnik-mwd-Start-2-de-j1012.html
+            - generic [ref=e116]: Berching
+          - generic [ref=e117]:
+            - link "Einkäufer (m/w/d)" [ref=e119] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Einkaeufer-mwd-de-j1020.html
+            - generic [ref=e120]: Berching
+          - generic [ref=e121]:
+            - link "Elektriker / Elektroinstallateur als Servicetechniker (m/w/d)" [ref=e123] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Elektriker-Elektroinstallateur-als-Servicetechniker-mwd-de-j982.html
+            - generic [ref=e124]: Berching
+          - generic [ref=e125]:
+            - link "Elektriker / Mechatroniker für Maschinenprobelauf (m/w/d)" [ref=e127] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Elektriker-Mechatroniker-fuer-Maschinenprobelauf-mwd-de-j937.html
+            - generic [ref=e128]: Berching
+          - generic [ref=e129]:
+            - link "Environment Health Safety (EHS) Manager (m/w/d)" [ref=e131] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Environment-Health-Safety-EHS-Manager-mwd-de-j964.html
+            - generic [ref=e132]: Berching
+          - generic [ref=e133]:
+            - link "Facharbeiter Zerspanung (m/w/d)" [ref=e135] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Facharbeiter-Zerspanung-mwd-de-j413.html
+            - generic [ref=e136]: Berching
+          - generic [ref=e137]:
+            - link "Facharbeiter Zerspanung Bereich Bohrmaschinen (m/w/d)" [ref=e139] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Facharbeiter-Zerspanung-Bereich-Bohrmaschinen-mwd-de-j764.html
+            - generic [ref=e140]: Berching
+          - generic [ref=e141]:
+            - link "Facharbeiter Zuschnitt Bereich Abkantpresse (m/w/d)" [ref=e143] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Facharbeiter-Zuschnitt-Bereich-Abkantpresse-mwd-de-j619.html
+            - generic [ref=e144]: Berching
+          - generic [ref=e145]:
+            - link "Facharbeiter Zuschnitt Bereich Laser (m/w/d)" [ref=e147] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Facharbeiter-Zuschnitt-Bereich-Laser-mwd-de-j1035.html
+            - generic [ref=e148]: Berching
+          - generic [ref=e149]:
+            - link "Fullstack Developer (m/w/d)" [ref=e151] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Fullstack-Developer-mwd-de-j1052.html
+            - generic [ref=e152]: Berching
+          - generic [ref=e153]:
+            - link "Kreditorenbuchhalter - Sachbearbeiter Kreditorenbuchhaltung (m/w/d)" [ref=e155] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Kreditorenbuchhalter-Sachbearbeiter-Kreditorenbuchhaltung--de-j1042.html
+            - generic [ref=e156]: Berching
+          - generic [ref=e157]:
+            - link "Lagermitarbeiter Bereich Zuschnitt (m/w/d)" [ref=e159] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Lagermitarbeiter-Bereich-Zuschnitt-mwd-de-j1027.html
+            - generic [ref=e160]: Berching
+          - generic [ref=e161]:
+            - link "Leiter Einkauf / Head of Purchasing (m/w/d)" [ref=e163] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Leiter-Einkauf-Head-of-Purchasing-mwd-de-j1037.html
+            - generic [ref=e164]: Berching
+          - generic [ref=e165]:
+            - link "Metallbauer/Schweißer im Bereich Rohbau (m/w/d)" [ref=e167] [cursor=pointer]:
+              - /url: https://karriere.huber.de/MetallbauerSchweisser-im-Bereich-Rohbau-mwd-de-j416.html
+            - generic [ref=e168]: Berching
+          - generic [ref=e169]:
+            - link "Projekteinkäufer Elektrotechnik (m/w/d)" [ref=e171] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Projekteinkaeufer-Elektrotechnik-mwd-de-j915.html
+            - generic [ref=e172]: Berching
+          - generic [ref=e173]:
+            - link "Projektkoordinator international (m/w/d)" [ref=e175] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Projektkoordinator-international-mwd-de-j1000.html
+            - generic [ref=e176]: Berching
+          - generic [ref=e177]:
+            - link "Projektmanager – Team International (m/w/d)" [ref=e179] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Projektmanager-Team-International-mwd-de-j1039.html
+            - generic [ref=e180]: Berching
+          - generic [ref=e181]:
+            - link "Qualifizierter Roboterbediener im Bereich Rohbau (m/w/d)" [ref=e183] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Qualifizierter-Roboterbediener-im-Bereich-Rohbau-mwd-de-j583.html
+            - generic [ref=e184]: Berching
+          - generic [ref=e185]:
+            - link "Regionalmanager Europa Süd-Ost (m/w/d)" [ref=e187] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Regionalmanager-Europa-Sued-Ost-mwd-de-j863.html
+            - generic [ref=e188]: Berching
+          - generic [ref=e189]:
+            - link "Reinigungskraft (m/w/d)" [ref=e191] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Reinigungskraft-mwd-de-j1031.html
+            - generic [ref=e192]: Berching
+          - generic [ref=e193]:
+            - link "Schnupperpraktikum" [ref=e195] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Schnupperpraktikum-de-j67.html
+            - generic [ref=e196]: Berching
+          - generic [ref=e197]:
+            - link "Service-Vertriebstechniker Team DAL (m/w/d)" [ref=e199] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Service-Vertriebstechniker-Team-DAL-mwd-de-j1032.html
+            - generic [ref=e200]: Berching
+          - generic [ref=e201]:
+            - link "Servicetechniker Großanlagen International (m/w/d)" [ref=e203] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Servicetechniker-Grossanlagen-International-mwd-de-j811.html
+            - generic [ref=e204]: Berching
+          - generic [ref=e205]:
+            - link "Servicetechniker Großraum Berlin / Norddeutschland (m/w/d)" [ref=e207] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Servicetechniker-Grossraum-Berlin-Norddeutschland-mwd-de-j603.html
+            - generic [ref=e208]: Schönefeld
+          - generic [ref=e209]:
+            - link "Servicetechniker Großraum Westdeutschland (m/w/d)" [ref=e211] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Servicetechniker-Grossraum-Westdeutschland-mwd-de-j597.html
+            - generic [ref=e212]: Neustadt (Wied)
+          - generic [ref=e213]:
+            - link "Servicetechniker Inbetriebnahme- und Verfahrenstechnik (m/w/d)" [ref=e215] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Servicetechniker-Inbetriebnahme-und-Verfahrenstechnik-mwd-de-j983.html
+            - generic [ref=e216]: Berching
+          - generic [ref=e217]:
+            - link "Servicetechniker Mechanik (m/w/d)" [ref=e219] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Servicetechniker-Mechanik-mwd-de-j981.html
+            - generic [ref=e220]: Berching
+          - generic [ref=e221]:
+            - link "Studentisches Praktikum / Abschlussarbeit / Werkstudententätigkeit" [ref=e223] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Studentisches-Praktikum-Abschlussarbeit-Werkstudententaeti-de-j655.html
+            - generic [ref=e224]: Berching
+          - generic [ref=e225]:
+            - link "Vertriebsassistenz / Auftragserfassung - Vertrieb Ausland (m/w/d)" [ref=e227] [cursor=pointer]:
+              - /url: https://karriere.huber.de/Vertriebsassistenz-Auftragserfassung-Vertrieb-Ausland-mwd-de-j1048.html
+            - generic [ref=e228]: Berching
+        - link [ref=e232] [cursor=pointer]:
+          - /url: https://www.rexx-systems.com
+          - img "Rexx Systems - software for success" [ref=e233]
+      - link "zum Job-Alert" [ref=e236] [cursor=pointer]:
+        - /url: https://karriere.huber.de/jobalert.html
+        - text: JOBALERT
+    - generic [ref=e239]:
+      - link "Datenschutz" [ref=e240] [cursor=pointer]:
+        - /url: https://karriere.huber.de/datenschutz.html
+      - link "Impressum" [ref=e241] [cursor=pointer]:
+        - /url: https://karriere.huber.de/impressum.html
+      - generic [ref=e242]:
+        - link "" [ref=e243] [cursor=pointer]:
+          - /url: https://www.facebook.com/huber.de
+        - link "" [ref=e244] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/HuberTechnology

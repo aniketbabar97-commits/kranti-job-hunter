@@ -1,0 +1,19 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - img "Ares GmbH" [ref=f1e7]
+      - paragraph [ref=f1e8]: Ares GmbH
+      - heading "IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung" [level=2] [ref=f1e9]
+    - generic [ref=f1e11]:
+      - group [ref=f1e12]:
+        - generic [ref=f1e13]: E-Mail
+        - textbox "E-Mail" [ref=f1e15]:
+          - /placeholder: Ihre E-Mail-Adresse
+      - button "Weiter" [disabled] [ref=f1e16]
+      - generic [ref=f1e18]:
+        - separator [ref=f1e19]
+        - paragraph [ref=f1e20]: oder
+        - separator [ref=f1e21]
+      - button "Weiter mit Google" [ref=f1e23] [cursor=pointer]
+  - alert [ref=f1e26]
+  - region "Notifications, bottom-end (alt+T)"

@@ -1,0 +1,15 @@
+[    1188ms] Error: Invalid data when retrieving referrer information.
+    at getMSId (https://karriere.schaefer-shop.de/application/1adb87f9-448a-47b3-9541-cea863da0c92/67961482/?version=1&timestamp=1792897509080&locale=de&msid=MTgwMA:2:171)
+    at https://karriere.schaefer-shop.de/application/1adb87f9-448a-47b3-9541-cea863da0c92/67961482/?version=1&timestamp=1792897509080&locale=de&msid=MTgwMA:2:333
+[    1841ms] [LOG] {REACT_APP_ADD_PIPE_CSS_URL: undefined, STORYBOOK_ADD_PIPE_CSS_URL: undefined, NEXT_PUBLIC_ADD_PIPE_CSS_URL: https://static.softgarden.de/thirdparty/pcw/addpipe/2.3/pipe.css} @ https://karriere.schaefer-shop.de/application/1adb87f9-448a-47b3-9541-cea863da0c92/67961482/_next/static/chunks/2719.a16551356ead738b.js:0
+[    1841ms] [LOG] {REACT_APP_ADD_PIPE_JS_URL: undefined, STORYBOOK_ADD_PIPE_JS_URL: undefined, NEXT_PUBLIC_ADD_PIPE_JS_URL: https://static.softgarden.de/thirdparty/pcw/addpipe/2.3/pipe.js} @ https://karriere.schaefer-shop.de/application/1adb87f9-448a-47b3-9541-cea863da0c92/67961482/_next/static/chunks/2719.a16551356ead738b.js:0
+[    3566ms] [ERROR] Error code: 'error.origin.not.in.api.domains' @ https://static.licdn.com/aero-v1/sc/h/9lzvf5ol68mr3ezn65cnyzf74:0
+[    3636ms] Uncaught (in promise) InvalidStateError: Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts.
+    at getInstalledApps (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:291899)
+    at <anonymous> (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:322166)
+[    4065ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.linkedin.com/li/track:0
+[  248637ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://www.linkedin.com/li/track:0
+[  268767ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://www.linkedin.com/li/track:0
+[  333092ms] [ERROR] Failed to load resource: the server responded with a status of 520 () @ https://www.linkedin.com/li/track:0
+[  462745ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://www.linkedin.com/li/track:0
+[  641809ms] [ERROR] Failed to load resource: the server responded with a status of 520 () @ https://www.linkedin.com/li/track:0

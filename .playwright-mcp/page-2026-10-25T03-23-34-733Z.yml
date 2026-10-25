@@ -1,0 +1,273 @@
+- generic [active] [ref=f3e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f3e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f3e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f3e8]:
+    - search [ref=f3e9]:
+      - generic [ref=f3e11]:
+        - link "Go to Google Home" [ref=f3e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQPHoECAYQBA
+        - generic [ref=f3e22]:
+          - combobox "Search" [ref=f3e24]: Liebherr Product Manager Kundenportal E-Commerce Biberach liebherr.com karriere Liebherr Product Manager Kundenportal E-Commerce Biberach liebherr.com karriere
+          - generic [ref=f3e25]:
+            - button "Clear" [ref=f3e29] [cursor=pointer]
+            - generic [ref=f3e34]:
+              - button "Search by voice" [ref=f3e37] [cursor=pointer]
+              - button "Search by image" [ref=f3e42] [cursor=pointer]
+    - generic [ref=f3e45]:
+      - button "Settings" [ref=f3e47] [cursor=pointer]
+      - button "Share" [ref=f3e52] [cursor=pointer]
+      - generic [ref=f3e58]:
+        - button "Google apps" [ref=f3e60] [cursor=pointer]
+        - link "Sign in" [ref=f3e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DLiebherr%2BProduct%2BManager%2BKundenportal%2BE-Commerce%2BBiberach%2Bliebherr.com%2Bkarriere&ec=futura_srp_og_si_72236_p
+  - generic [ref=f3e67]:
+    - navigation [ref=f3e73]:
+      - generic [ref=f3e79]:
+        - list [ref=f3e80]:
+          - listitem [ref=f3e81]:
+            - link "AI Mode" [ref=f3e84] [cursor=pointer]:
+              - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ2J8OegQIExAD
+          - listitem [ref=f3e88]:
+            - link "All" [disabled] [ref=f3e89]
+          - listitem [ref=f3e92]:
+            - link "Forums" [ref=f3e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQs6gLegQIFhAB
+          - listitem [ref=f3e96]:
+            - link "News" [ref=f3e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ0pQJegQIFRAB
+          - listitem [ref=f3e100]:
+            - link "Shopping" [ref=f3e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&ved=1t:220175&ictx=111
+          - listitem [ref=f3e104]:
+            - link "Images" [ref=f3e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQtKgLegQIGBAB
+          - listitem [ref=f3e108]:
+            - link "Short videos" [ref=f3e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cn05EoNqnRUpRtqDK_L3JtY5835jvPAHOwoHA-WZCnj-5yjm1LYMKMBufHsmIIhUzVXyNkg2vAsyi196ZZLvWXlcWz8bE-N94SDBMjvusGoEZGmPnFrDOjZsq499E8rNEbc5e42jnZyE7f3YgT0hyN-J5BHylgOSPx1knBldPG8sWDhCfHDEGqoEfoUJacqA9FVCRuA&q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQs6gLegQIGRAB
+          - listitem [ref=f3e112]:
+            - button [ref=f3e113] [cursor=pointer]:
+              - generic "More filters" [ref=f3e114]: More
+        - button "Tools" [ref=f3e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f3e128]
+    - main [ref=f3e134]:
+      - generic [ref=f3e138]:
+        - generic [ref=f3e141]:
+          - heading "Webergebnisse" [level=2] [ref=f3e142]
+          - generic [ref=f3e143]:
+            - generic [ref=f3e146]:
+              - link "Product Manager Kundenportal E-Commerce (m/w/d) Liebherr https://www.liebherr.com › karriere" [ref=f3e148] [cursor=pointer]:
+                - /url: /goto?url=CAEShAEB6zswFRjd27wcA0tpGuk1Rx6kNQaHl2W1EJkNgWaBv0d-TYsV5t7GnVVGrQl-vab9YDciowOoloF8ZmsGw3MZSddifcsidesWX6GYBXQFElROwNtWiXHQVBHQdpRtSBwORBcFwOC7aeigRkQhqlThMM4SytDwKIFp5kZOmRymNxUTb_A
+                - heading "Product Manager Kundenportal E-Commerce (m/w/d)" [level=3] [ref=f3e149]
+                - generic [ref=f3e155]:
+                  - generic [ref=f3e156]: Liebherr
+                  - generic [ref=f3e158]: https://www.liebherr.com › karriere
+              - generic [ref=f3e160]:
+                - generic [ref=f3e161]: ·
+                - link "Translate this page" [ref=f3e162] [cursor=pointer]:
+                  - /url: /goto?url=CAESzgEB6zswFY_j3eDbDBD0PuOxo74D8Jo629lVWoMkbJXvy9V9K5blN6AaU0IJPZIRD1kRNmKv5dEL09MnrhyTjPwQP99LM7Iy8D4o1j5_xv3ClBC67J0juh7jk8zE5b56G0lqKqyfLTWNDnTPOW3nNtkKzvA00JI9XERQ1Z9QyOMNBjJuUjG6jl9vfa-weMIZDUQlpZaADDAHY3rimmflQnCeWons-nxTg6g4sg_bw-suAP7uq2EFXgCZpHK0bkneFiku7HuyXGXLk_O55u8dVQ
+              - button "About this result" [ref=f3e167] [cursor=pointer]
+            - generic [ref=f3e173]:
+              - generic [ref=f3e174]:
+                - emphasis [ref=f3e175]: Product Manager Kundenportal E-Commerce (m/w/d)Biberach
+                - text: ". Faszinierendes schaffen: Ihre Aufgaben. Analyse von Markt-, Technologie- und Kundenanforderungen sowie ..."
+              - link "Read more" [ref=f3e176] [cursor=pointer]:
+                - /url: /goto?url=CAESqAIB6zswFeJQ-hmyETW4ZRUQ9sLaoXWxJO7AVDEQtqJ1T7hwQ2BceU4U5gdXR_1h-_RI9GgA352n44MooB8USMBS-MWJINCjRMAR_qQYMD4audxVESiRXDgdh7fpMcarBYXA47I3-euyZ_JIoz1FiX6hXTjxka9VEVZtRji6lbajUAOCoacgtrmx5CXnb2x7OA4HCgmPoq0x-zWqiSE-ewMhRMnwYsEp0f_jASEin58zGU1hGzTj1uR_GxX8GOW4L1-yM6cGuSSY39HLncmh8G14sw1ZUgpCDbSMvEQUBd7N8JH0Q3VMc19TDmyMvh_PSknl0QNuRPkXW4bQt1TK_cD4aSqJN5L_OGx0HUoHTaPbyQHG8tJH5WhBeulFW2qjhRY5Lj0rgDmxZA
+        - generic [ref=f3e187]:
+          - heading "Thinking" [level=2] [ref=f3e191]
+          - progressbar "Generating" [ref=f3e194]
+        - generic [ref=f3e198]:
+          - heading "Web results" [level=2] [ref=f3e199]
+          - generic [ref=f3e200]:
+            - generic [ref=f3e203]:
+              - link "Job vacancies at Liebherr Liebherr https://www.liebherr.com › job-vacancies-4197876" [ref=f3e205] [cursor=pointer]:
+                - /url: /goto?url=CAESdwHrOzAVEcx9RWhrvk4BukBI-0BKJyYTLq-uLYCoiTQWMlz2SIJ2GWlGoVKB7kyBDuN6MxN5miIKkZVlO_Q9R6Pw43d9VIYwBVnjotli_36PvrBquZrrPizEkLEm3iy7_bho5-Njm6PR501iuxTXveGZPO08LZ0x
+                - heading "Job vacancies at Liebherr" [level=3] [ref=f3e206]
+                - generic [ref=f3e212]:
+                  - generic [ref=f3e213]: Liebherr
+                  - generic [ref=f3e215]: https://www.liebherr.com › job-vacancies-4197876
+              - button "About this result" [ref=f3e221] [cursor=pointer]
+            - generic [ref=f3e228]:
+              - text: Here you can find all vacancies
+              - emphasis [ref=f3e229]: currently available at Liebherr
+              - text: "in your region or worldwide. Filter job vacancies: Biberach GmbH 0"
+            - generic [ref=f3e230]: "Missing: Kundenportal ‎E-"
+        - generic [ref=f3e235]:
+          - generic [ref=f3e238]:
+            - link "Product Manager Digital Customer Platform (m/w/d) - Apiva apiva.ai https://apiva.ai › Companies › careers.liebherr.com" [ref=f3e240] [cursor=pointer]:
+              - /url: /goto?url=CAESowEB6zswFcErtw3Omzb45NbkQOl4CV86TO_pDiB5gAYxMWMQQnaeU1NwdwYri5RdvXJqSZUJkvUVim9zdAQbxLXIVGS5c3U4Bxrf0J8Il2FZx0UOJqzclbd6e7oAfHowkn2sIJS55sHkqw4aFeVC7tkPC_1fnZnt9mr95WMWENiENZEzxWPHvuopjToD56sd6tVpN8cIcXi08WUQWFUcO-00eM3U
+              - heading "Product Manager Digital Customer Platform (m/w/d) - Apiva" [level=3] [ref=f3e241]
+              - generic [ref=f3e247]:
+                - generic [ref=f3e248]: apiva.ai
+                - generic [ref=f3e250]: https://apiva.ai › Companies › careers.liebherr.com
+            - button "About this result" [ref=f3e256] [cursor=pointer]
+          - generic [ref=f3e262]:
+            - generic [ref=f3e263]: 29 Sept 2026 —
+            - generic [ref=f3e264]:
+              - emphasis [ref=f3e265]: Product Manager Digital Customer Platform (m/w/d
+              - text: "). careers.liebherr.com · Biberach, DE. The role. Location: Biberach, DE."
+            - link "Read more" [ref=f3e266] [cursor=pointer]:
+              - /url: /goto?url=CAES7wEB6zswFUln1PfgKwmVO96LMngr0FssxqTsCU8KviubQdff5rCerk6tevrsVWRwWosPvi4LeXj4HeaplkwfYEypm45rLQ24rbRedWGjN2vTMtaFAnUzWU9tPhPNrhI-_mhihXOfnyVbcuTIX3_DPUzFg9z0KrmWkILWnhdk9ofpdAr_MSOyKfgb0opCPR_BNMQk40KyJxL8VVHYW7i6nXFA5UjRoWoQ0myVbTzaz8ppca0mgh09NVCaCQFhoNv933j0CMgNyrg1utCKw8fgX9prbSSSvRcqH8kU_GE7OOWVM4kPQs1eO9HKSE4GJeR1JQ
+        - generic [ref=f3e270]:
+          - generic [ref=f3e273]:
+            - link "Product Manager Kundenportal E-Commerce (m/w/d) Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f3e275] [cursor=pointer]:
+              - /url: /goto?url=CAESfgHrOzAVMRuFQiKsW9VZ7RlgsQD3PSy6pyOCMAiDWOrPT6-nqsLsRpFo3uMaqxtSHqt-siyrWmnDu6cNYocBUx-KsuZWxF0aCuHdweNY8hkTqHUfRo_hxkHgvyM7DyNkKJ5G6HEB51jGIVV3BhAJLuiXol1ZZK_PJblfvWR4ig
+              - heading "Product Manager Kundenportal E-Commerce (m/w/d)" [level=3] [ref=f3e276]
+              - generic [ref=f3e282]:
+                - generic [ref=f3e283]: Bundesagentur für Arbeit
+                - generic [ref=f3e285]: https://www.arbeitsagentur.de › jo...
+            - generic [ref=f3e287]:
+              - generic [ref=f3e288]: ·
+              - link "Translate this page" [ref=f3e289] [cursor=pointer]:
+                - /url: /goto?url=CAESyAEB6zswFbC2y6bteDHrr_wy2bP3B4nxMGHubO2ZQFvnOgIEAyX1dcr_GDKHinEP_G3UzrOUExlxGS3Xm7PhMOyLku2opsXH6pbx2w_Z5g9LeGVN5Ix78q-6uSThVrfQKSQC3I4Id93lpzDbunIqzNYz5TyFMBgfnUnwAGbcS4-ktOYeyvSCd5Tg78lNfZ36O8hc13RyTU8F4te09rdANFI8uNjfIyDwS2u_Q8m0KecOYb1p4ShKElmonHHFkR62nTMezGyJDEfswQ
+            - button "About this result" [ref=f3e294] [cursor=pointer]
+          - generic [ref=f3e301]:
+            - text: Stellenangebot für »
+            - emphasis [ref=f3e302]: Product Manager Kundenportal E-Commerce (m/w/d
+            - text: ) bei Liebherr-International Deutschland GmbH » in Biberach an der Riß ✓ Vollzeit ...
+        - generic [ref=f3e306]:
+          - generic [ref=f3e309]:
+            - link "Product Manager, Customer Portal E-Commerce (m/f/d) Metaintro https://www.metaintro.com › Jobs › Product Manager" [ref=f3e311] [cursor=pointer]:
+              - /url: /goto?url=CAESugEB6zswFTLLCEKf9yaXKkNjxK4oNBcl6iU4E8cNLK3htrFMVRP-WhgFnRiPYtHXJQs1ANnVwT09UIbPwCMGKDva6FuP4EfiOP8d3937hKejUkWonAJHZEugzPpi7eZVempGlvWQOXxoSoWqPkS7YHVLEvnwKNE4zw88TmZmI8eGA2CccrJOnrT59krDpci9OAWDbYXVJEmAxHzWSOiesmd6Ayq0kw1XfhkfOduA_Swb0dGG7rfrWTph1x4
+              - heading "Product Manager, Customer Portal E-Commerce (m/f/d)" [level=3] [ref=f3e312]
+              - generic [ref=f3e318]:
+                - generic [ref=f3e319]: Metaintro
+                - generic [ref=f3e321]: https://www.metaintro.com › Jobs › Product Manager
+            - button "About this result" [ref=f3e327] [cursor=pointer]
+          - generic [ref=f3e333]:
+            - generic [ref=f3e334]: 25 Aug 2026 —
+            - generic [ref=f3e335]:
+              - text: Find
+              - emphasis [ref=f3e336]: Product Manager, Customer Portal E-Commerce jobs in Biberach an der Riß
+              - text: ", Baden-Württemberg, Germany. Find roles similar to Product Manager ..."
+            - link "Read more" [ref=f3e337] [cursor=pointer]:
+              - /url: /goto?url=CAESsgIB6zswFTkThzSQddYl4CkH5PKwRuwRkERIxUxK0v3ydoqC-YsNC0PdelFFBeR_-dPpdL2XJM2ljkUgir9CZ4aGWEjkPNiFMuORdK_SXtk5xdFPa2THa-tSXfN5F1oVx4ljcyN6CfXd-SPUk_b0alactaRvNFppMYcheDz9AhUzWbkzsLlaP_1UqO1oRC8ieQMqZNAHWGXT1UtAOm-uU-9D3LNiPqH73AkIAWxXTzjhC61119hrWYZeENMPmT7AzD-YmkRp-VOE4K5FM7O8-v9AfRAu8sVV-t8ZpdnfhrFhWlmRs4-y4cEbd14zefrfOR9AFJKZNr1P_XsAIobJ34fMKUMJe1zeZHG6l_DOHqIMGIjOQbpKSnJ2zQGyW3OgVoL0qHtY4StmO9Dujqm_evuDPfE
+          - generic [ref=f3e339]:
+            - text: "Missing: Kundenportal ‎| Show results with:"
+            - link "Kundenportal" [ref=f3e340] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+Product+Manager+%22Kundenportal%22+E-Commerce+Biberach+liebherr.com+karriere&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ5t4CegQIRhAB
+        - generic [ref=f3e344]:
+          - generic [ref=f3e347]:
+            - link "Product Manager Kundenportal E-Commerce (m/w/d) www.stepstone.de https://www.stepstone.de › stellenan..." [ref=f3e349] [cursor=pointer]:
+              - /url: /goto?url=CAES2gEB6zswFfSyVQ1bzSqn5SV4tcLiIZ4TKsQERvmgangTWqTPKq5IpjBzNlNtMtTW82UVs-QQ7A3QohVDFSkhsEcp647t5Hq6mCt83LUirC-oL4lmMQlcfw5CYnE0XyGXqbrb40HPTcNgUES2_CwB4DtfW9MOxp23einI3Q_hDMFr-TITzqdGZ_f6PjrhqwEbnlQ8ZTZecSqoT9NIOx-URUhF--SGytUPrWJLqBoztRUPL-JV_LxSpn3S_VRezW91KDxsPX7arBSkKLeUe037ww7iYBjBrNbDFtxd5A
+              - heading "Product Manager Kundenportal E-Commerce (m/w/d)" [level=3] [ref=f3e350]
+              - generic [ref=f3e356]:
+                - generic [ref=f3e357]: www.stepstone.de
+                - generic [ref=f3e359]: https://www.stepstone.de › stellenan...
+            - generic [ref=f3e361]:
+              - generic [ref=f3e362]: ·
+              - link "Translate this page" [ref=f3e363] [cursor=pointer]:
+                - /url: /goto?url=CAESowIB6zswFbJ-G5Q3uAcVyaPqDNkUFERKZPPR0oW04z6waJPJhBVi5TCoIzKLy3TlIJXrOl8GB2qsDxDLDs_nM0OTAcUgaDl2a3dQYwivC4bHK-S3rc2X79f_vtL5ES3GiOT4lSIEwVickytIoIsfwQlDYRq_TcRH_p9G8q9lkI-8PLpnz9PZoxrSAxpCdPVHehT0xLWTKZFH8CNAwrfmkx2ldSg9KO4zU1zjB9DHgB_uhf0keWVUCzQ9H7WYy7ZbuoNxCHEfnLW6UxS9tiPO7e1_Qxo8iP0ChPvlG1NDNPxtyD-63fJk8h1GHTq0gkmw2qr-Vmxv3GOqrvHoRV5k5lRRY7BDHkiq2KjctksgTchKy2oQT-c1R3lzBM_n5ZpVKyBNO8c
+            - button "About this result" [ref=f3e368] [cursor=pointer]
+          - generic [ref=f3e375]:
+            - emphasis [ref=f3e376]: Aktuelles Stellenangebot als Product Manager Kundenportal E-Commerce (m/w/d
+            - text: ) in Biberach bei der Firma Liebherr-International Deutschland GmbH.
+        - generic [ref=f3e380]:
+          - generic [ref=f3e383]:
+            - link "Careers at Liebherr. Liebherr https://www.liebherr.com › careers › careers-5370600" [ref=f3e385] [cursor=pointer]:
+              - /url: /goto?url=CAEScgHrOzAV2gi_zsD-nwO4DJwp-CYlO36J5oUxClTb7gU4EOsCtDshQ6CN9XMYBufXnLvRUPuJAJ89OPw2pfYmQFU7llmIo7PmVZzb9nCEB-vCofRG60tvAicRZSKmVPP8ukEsR1OLbFeKA4kBTCsJJh0bug
+              - heading "Careers at Liebherr." [level=3] [ref=f3e386]
+              - generic [ref=f3e392]:
+                - generic [ref=f3e393]: Liebherr
+                - generic [ref=f3e395]: https://www.liebherr.com › careers › careers-5370600
+            - button "About this result" [ref=f3e401] [cursor=pointer]
+          - generic [ref=f3e408]:
+            - text: Discover the wide variety of
+            - emphasis [ref=f3e409]: career opportunities at Liebherr
+            - text: . Whether as a school or university student, recent graduate, or experienced professional.
+          - generic [ref=f3e410]: "Missing: Kundenportal ‎E-"
+        - generic [ref=f3e415]:
+          - generic [ref=f3e418]:
+            - link "YourLiebherrCareer - the portal for your career at the Liebherr ... Liebherr https://careers.liebherr.com" [ref=f3e420] [cursor=pointer]:
+              - /url: /goto?url=CAESWAHrOzAVzPTtGtZTYVoS5E0jaIou0tDU5bLDLvXgWOrN9AXqediLGBaIswlcP8zrlaRGVQc6ifJFzOtH_4-_zYbYx7PMcRrqNWOwMw6pOPfZplg2D92fwRs
+              - heading "YourLiebherrCareer - the portal for your career at the Liebherr ..." [level=3] [ref=f3e421]
+              - generic [ref=f3e427]:
+                - generic [ref=f3e428]: Liebherr
+                - generic [ref=f3e430]: https://careers.liebherr.com
+            - button "About this result" [ref=f3e436] [cursor=pointer]
+          - generic [ref=f3e442]:
+            - generic [ref=f3e443]:
+              - text: Maintain and change your personal
+              - emphasis [ref=f3e444]: career
+              - text: account. · Set up and change your job alerts. · Prepare, edit and send your job applications.
+            - link "Read more" [ref=f3e445] [cursor=pointer]:
+              - /url: /goto?url=CAESjgIB6zswFTDpDTZl7zeKL4GWqoaw3KZIa884VxFQgCG-P4HmwvaUkc6bCwVMnQwiBEp6E89eFXD9qz2rJ3FuLvKCVv2KjK1a5LmHBS_YwPCpqXudA6I7vIJIsasFXhgJCWrxUhz8_QsOhgNGlLVJLFkVaH7wYrzIkX-0fJGk-on9OIYHZjyJ7xuQXlV-4eOa8PPBJH69rr2MZKpHBIKSo9sA3DYrE5cz-iONX7YhrAdPuWMR7kOjwuYOBmxc6GmFwM99yAxok-x1m9hj9bHbJwDaMmo_AKxTruwvR9WhfgdcSIC8SPi8hm4TNCK2bHGTu2wTVBkvWJevnBzxGuBwhu45wvpyXjX0E4MI0SWh0UI
+          - generic [ref=f3e446]: "Missing: Product ‎Manager ‎Kundenportal ‎E- ‎Commerce ‎Biberach"
+        - generic [ref=f3e451]:
+          - generic [ref=f3e454]:
+            - link "Product Manager Kundenportal E-Commerce (m/w/d) Indeed https://de.indeed.com › viewjob" [ref=f3e456] [cursor=pointer]:
+              - /url: /goto?url=CAESbAHrOzAVYYfGHvUFLlw0IkTNEuE10t4XX6dECVZY6uLCvLyD3uEiw1_RNge9U0WPVRAZ6j07p5toQJ_TCUDoKhBIF9S2s4QI-INpxxfA74SCE5-tGfpXRjIDSbug4erWigJuW10kYpNn70ps1g
+              - heading "Product Manager Kundenportal E-Commerce (m/w/d)" [level=3] [ref=f3e457]
+              - generic [ref=f3e463]:
+                - generic [ref=f3e464]: Indeed
+                - generic [ref=f3e466]: https://de.indeed.com › viewjob
+            - button "About this result" [ref=f3e472] [cursor=pointer]
+          - generic [ref=f3e478]:
+            - text: "Faszinierendes schaffen: Ihre Aufgaben · Analyse von Markt-, Technologie- und Kundenanforderungen sowie deren Überführung in die kontinuierliche ..."
+            - link "Read more" [ref=f3e479] [cursor=pointer]:
+              - /url: /goto?url=CAESsQIB6zswFcrfOPgxs2bbl9ue5X6UsqqNGv6AjUlOblRAV-JFvTJH3axepx5ElbkXm3Vw85S_kEz5KZ1xjB5BlXRPIzBajiXIRpeTxHohOYRF-Qqi85oY_BhL29YZVCl4oHT_QMCGTSF7RLZ8kN04zKEKw-KI1tqCRMYcoQ2hmbScGz65fWSffl556_O80rwiQ2l_6eeSMjuvCvsYZmi2GwAAZpGmvzV2rY_6w8xMsFAriAS8nygcyWLoSeclFseZTnsvJv0KaKZ_XL6_qPqJm6fZkvfzaV_yweXCV9uUUjp9WJFDvlFoqgyjZnO4NcYy_l1GC9QNkMWp6ObcYf25Lj17dwRTznN33b8Z1qzlCjUS1VCcyLHjTSeJK6ctGPnEm-HJdQOwiWh_3QyydGnuJwfksQ
+      - generic [ref=f3e481]:
+        - generic [ref=f3e486]:
+          - heading "People also search for" [level=2] [ref=f3e488]
+          - generic [ref=f3e490]:
+            - generic [ref=f3e491]:
+              - link "Liebherr product manager kundenportal e commerce biberach liebherr com karriere login" [ref=f3e495] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+product+manager+kundenportal+e+commerce+biberach+liebherr+com+karriere+login&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAguEAE
+              - link "Liebherr jobs" [ref=f3e509] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+jobs&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAg7EAE
+              - link "Liebherr engineering jobs" [ref=f3e523] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+engineering+jobs&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAg6EAE
+              - link "Liebherr sales jobs" [ref=f3e537] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+sales+jobs&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAg5EAE
+            - generic [ref=f3e548]:
+              - link "Liebherr Welder job" [ref=f3e552] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+Welder+job&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAg0EAE
+              - link "Liebherr internship" [ref=f3e566] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+internship&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAgxEAE
+              - link "Liebherr Indonesia Career" [ref=f3e580] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+Indonesia+Career&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAgwEAE
+              - link "Liebherr data engineer" [ref=f3e594] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&q=Liebherr+data+engineer&sa=X&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ1QJ6BAgvEAE
+        - navigation [ref=f3e605]:
+          - heading "Page navigation" [level=1] [ref=f3e606]
+          - text: "1"
+          - link "Page 2" [ref=f3e609] [cursor=pointer]:
+            - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&ei=NHbdaqadNeeWhvcP9KHFwQw&start=10&sa=N&sstk=AS6-VmISUH8a7su2_hvjdCnnX72IZZCRegrAB3Szhlf6Jg7_akc62PdJ1bHI9owh3Bk3q5J9y0UUagLsJCJnpUqZjKk0YUnPJrubwg&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ8tMDegQIRRAE
+            - text: "2"
+          - link "Page 3" [ref=f3e611] [cursor=pointer]:
+            - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&ei=NHbdaqadNeeWhvcP9KHFwQw&start=20&sa=N&sstk=AS6-VmISUH8a7su2_hvjdCnnX72IZZCRegrAB3Szhlf6Jg7_akc62PdJ1bHI9owh3Bk3q5J9y0UUagLsJCJnpUqZjKk0YUnPJrubwg&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ8tMDegQIRRAG
+            - text: "3"
+          - link "Page 4" [ref=f3e613] [cursor=pointer]:
+            - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&ei=NHbdaqadNeeWhvcP9KHFwQw&start=30&sa=N&sstk=AS6-VmISUH8a7su2_hvjdCnnX72IZZCRegrAB3Szhlf6Jg7_akc62PdJ1bHI9owh3Bk3q5J9y0UUagLsJCJnpUqZjKk0YUnPJrubwg&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ8tMDegQIRRAI
+            - text: "4"
+          - link "Page 5" [ref=f3e615] [cursor=pointer]:
+            - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&ei=NHbdaqadNeeWhvcP9KHFwQw&start=40&sa=N&sstk=AS6-VmISUH8a7su2_hvjdCnnX72IZZCRegrAB3Szhlf6Jg7_akc62PdJ1bHI9owh3Bk3q5J9y0UUagLsJCJnpUqZjKk0YUnPJrubwg&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ8tMDegQIRRAK
+            - text: "5"
+          - heading [level=2] [ref=f3e617]:
+            - link "Next" [ref=f3e618] [cursor=pointer]:
+              - /url: /search?q=Liebherr+Product+Manager+Kundenportal+E-Commerce+Biberach+liebherr.com+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntXBf8njQBNExet6hovlFw7pZfoGQ:1792898612880&ei=NHbdaqadNeeWhvcP9KHFwQw&start=10&sa=N&sstk=AS6-VmISUH8a7su2_hvjdCnnX72IZZCRegrAB3Szhlf6Jg7_akc62PdJ1bHI9owh3Bk3q5J9y0UUagLsJCJnpUqZjKk0YUnPJrubwg&ved=2ahUKEwimh8Hnm9SXAxVni-EIHfRQMcgQ8NMDegQIRRAM
+      - navigation
+    - contentinfo [ref=f3e621]:
+      - heading "Footer links" [level=1] [ref=f3e622]
+      - generic [ref=f3e626]:
+        - generic [ref=f3e628]:
+          - text: India
+          - generic [ref=f3e630]:
+            - button "560100, Karnataka - From your IP address" [ref=f3e632] [cursor=pointer]:
+              - generic [ref=f3e633]: 560100, Karnataka
+              - generic [ref=f3e635]:
+                - text: "-"
+                - generic [ref=f3e636]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f3e638] [cursor=pointer]
+        - generic [ref=f3e641]:
+          - link "Help" [ref=f3e642] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f3e643] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f3e644] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f3e645] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

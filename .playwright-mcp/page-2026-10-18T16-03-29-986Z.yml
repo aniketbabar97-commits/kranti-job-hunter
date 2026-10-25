@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Karriere | Talente gesucht – jetzt bewerben!" [ref=e7] [cursor=pointer]:
+        - /url: /unternehmen/karriere
+      - generic [ref=e9]:
+        - link [ref=e12] [cursor=pointer]:
+          - /url: /
+          - img "VI-ARISE Communication" [ref=e13]
+        - generic [ref=e14] [cursor=pointer]
+      - navigation [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link " Startseite" [ref=e21] [cursor=pointer]:
+              - /url: /
+              - text: 
+              - generic [ref=e22]: Startseite
+          - listitem [ref=e23]:
+            - link " Leistungen" [ref=e24] [cursor=pointer]:
+              - /url: /leistungen/
+              - text: 
+              - generic [ref=e25]: Leistungen
+          - listitem [ref=e26]:
+            - link " Projekte" [ref=e27] [cursor=pointer]:
+              - /url: /projekte/
+              - text: 
+              - generic [ref=e28]: Projekte
+          - listitem [ref=e29]:
+            - link " Aktuelles" [ref=e30] [cursor=pointer]:
+              - /url: /aktuelles/
+              - text: 
+              - generic [ref=e31]: Aktuelles
+          - listitem [ref=e32]:
+            - link " Unternehmen" [ref=e33] [cursor=pointer]:
+              - /url: /unternehmen/
+              - text: 
+              - generic [ref=e34]: Unternehmen
+          - listitem [ref=e35]:
+            - link " Kontakt" [ref=e36] [cursor=pointer]:
+              - /url: /kontakt/
+              - text: 
+              - generic [ref=e37]: Kontakt
+      - text:                            
+    - main [ref=e38]:
+      - generic [ref=e40]:
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link "Startseite" [ref=e43] [cursor=pointer]:
+              - /url: /
+            - text: 
+          - listitem [ref=e44]:
+            - link "Unternehmen" [ref=e45] [cursor=pointer]:
+              - /url: /unternehmen
+            - text: 
+          - listitem [ref=e46]:
+            - link "Karriere" [ref=e47] [cursor=pointer]:
+              - /url: /unternehmen/karriere
+            - text: 
+          - listitem [ref=e48]: Shopware Developer (m/w/d)
+        - generic [ref=e51]:
+          - heading "Shopware Developer (m/w/d)" [level=1] [ref=e52]
+          - navigation [ref=e53]:
+            - link " Senior Web Developer (m/w/d)" [ref=e54] [cursor=pointer]:
+              - /url: /unternehmen/karriere/senior-web-developer
+            - link "SEA Experte (m/w/d) " [ref=e55] [cursor=pointer]:
+              - /url: /unternehmen/karriere/sea-experte
+        - generic [ref=e59]:
+          - article [ref=e60]:
+            - heading "Shopware Developer (m/w/d) Vollzeit, in Ludwigsburg, ab sofort" [level=2] [ref=e61]:
+              - generic [ref=e62]: Shopware Developer (m/w/d)
+              - text: Vollzeit, in Ludwigsburg, ab sofort
+            - heading "Deine Aufgaben" [level=3] [ref=e63]
+            - paragraph [ref=e64]: Als Shopware Developer konzipierst und entwickelst du Online Shops auf Basis von Shopware. Deine Referenzen sollten zeigen, dass Du Dein Handwerk verstehst und dies schon mehrfach unter Beweis gestellt hast.
+            - heading "Dein Profil" [level=3] [ref=e65]
+            - list [ref=e66]:
+              - listitem [ref=e67]:  Du hast ein abgeschlossenes (Informatik-)Studium oder eine vergleichbare Ausbildung.
+              - listitem [ref=e68]:  Du verfügst über mind. 2 Jahre Berufserfahrung in der Entwicklung von E-Commerce-Anwendungen mit Shopware (Shopware-Zertifizierung wünschenswert, aber kein Muss).
+              - listitem [ref=e69]:  Du verfügst über sehr gute Kenntnisse mit allgemeinen Web- und Internet-Technologien, wie HTML, PHP, CSS und JS sowie Datenbanken, wie z.B. MySQL.
+              - listitem [ref=e70]:  Du bist motiviert, kommunikativ und in der Lage, Projekte eigenständig zu realisieren.
+              - listitem [ref=e71]:  Du hast ein schnelles Auffassungsvermögen und ein hohes Interesse an neuen Techniken und Systemen.
+            - paragraph [ref=e72]: Wir freuen uns auf das gegenseitige Kennenlernen. Schicke Deine Bewerbung mit Lebenslauf, umfangreichen Projektbeispielen, Angaben zum Gehaltswunsch und Deinem frühsten Eintrittstermin per Mail an uns.
+          - complementary [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - heading "Offene Stellen" [level=3] [ref=e76]
+                - list [ref=e77]:
+                  - listitem [ref=e78]:
+                    - link " Praktikant Design | UI / UX (m/w/d)" [ref=e79] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/praktikant-design-ui-ux
+                      - text: 
+                      - generic [ref=e80]: Praktikant Design | UI / UX (m/w/d)
+                  - listitem [ref=e81]:
+                    - link " Junior Art Director (m/w/d)" [ref=e82] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/junior-art-director
+                      - text: 
+                      - generic [ref=e83]: Junior Art Director (m/w/d)
+                  - listitem [ref=e84]:
+                    - link " Senior Web Developer (m/w/d)" [ref=e85] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/senior-web-developer
+                      - text: 
+                      - generic [ref=e86]: Senior Web Developer (m/w/d)
+                  - listitem [ref=e87]:
+                    - link " Shopware Developer (m/w/d)" [ref=e88] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/shopware-developer
+                      - text: 
+                      - generic [ref=e89]: Shopware Developer (m/w/d)
+                  - listitem [ref=e90]:
+                    - link " SEA Experte (m/w/d)" [ref=e91] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/sea-experte
+                      - text: 
+                      - generic [ref=e92]: SEA Experte (m/w/d)
+                  - listitem [ref=e93]:
+                    - link " Initiativbewerbung" [ref=e94] [cursor=pointer]:
+                      - /url: /unternehmen/karriere/initiativbewerbung
+                      - text: 
+                      - generic [ref=e95]: Initiativbewerbung
+              - generic [ref=e96]:
+                - heading "Details" [level=3] [ref=e97]
+                - list [ref=e98]:
+                  - listitem [ref=e99]:
+                    - generic [ref=e100]: Ausbildung
+                    - generic [ref=e101]: Abgeschlossenes (Informatik-)Studium oder vergleichbare Ausbildung
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]: Berufserfahrung
+                    - generic [ref=e104]: min. 2 Jahre
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]: Skills
+                    - generic [ref=e107]: Shopware, HTML, CSS, PHP, JS, MySQL
+      - text: "Warning: include(/var/www/html/components../header.php): Failed to open stream: No such file or directory in /var/www/html/components/contact-job.php on line 2Warning: include(): Failed opening '/var/www/html/components../header.php' for inclusion (include_path='.:/usr/local/lib/php') in /var/www/html/components/contact-job.php on line 2"
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - heading "Karriere" [level=2] [ref=e114]
+          - heading "Bewirb Dich jetzt!" [level=1] [ref=e115]
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading "Ansprechpartner" [level=3] [ref=e119]
+            - paragraph [ref=e120]: Robin Figuli Senior Project Manager
+          - generic [ref=e121]:
+            - heading "Kontakt" [level=3] [ref=e122]
+            - paragraph [ref=e123]:
+              - text: "E-Mail:"
+              - link "mail@vi-arise.com" [ref=e124] [cursor=pointer]:
+                - /url: mailto:mail@vi-arise.com
+              - text: "Tel.:"
+              - link "+49 (0) 7141 488 74 00" [ref=e125] [cursor=pointer]:
+                - /url: tel:+4971414887400
+          - generic [ref=e126]:
+            - heading "Adresse" [level=3] [ref=e127]
+            - paragraph [ref=e128]: VI-ARISE Osterholzallee 144/2 71636 Ludwigsburg
+    - heading "VI-ARISE Partner" [level=6] [ref=e130]
+    - contentinfo [ref=e135]:
+      - text: 
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: "Get connected:"
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - link "" [ref=e142] [cursor=pointer]:
+                - /url: https://www.facebook.com/Vi-Arise-296708944465270/
+            - listitem [ref=e143]:
+              - link "" [ref=e144] [cursor=pointer]:
+                - /url: https://www.instagram.com/vi_arise/
+        - generic [ref=e146]:
+          - link "Kontakt" [ref=e147] [cursor=pointer]:
+            - /url: /kontakt/
+          - link "Impressum" [ref=e148] [cursor=pointer]:
+            - /url: /impressum/
+          - link "Datenschutz" [ref=e149] [cursor=pointer]:
+            - /url: /datenschutz/
+          - button "Cookie-Einstellungen" [ref=e150] [cursor=pointer]
+  - dialog [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - heading "Wir verwenden Cookies!" [level=2] [ref=e154]
+        - generic [ref=e155]:
+          - text: Diese Website verwendet essenzielle Cookies, um ihren ordnungsgemäßen Betrieb zu gewährleisten, und Tracking-Cookies, um zu verstehen, wie Sie mit ihr interagieren. Letztere werden nur nach Zustimmung gesetzt.
+          - button "Lass mich wählen" [ref=e156] [cursor=pointer]
+      - generic [ref=e157]:
+        - button "Alle akzeptieren" [ref=e158] [cursor=pointer]
+        - button "Alle ablehnen" [ref=e159] [cursor=pointer]

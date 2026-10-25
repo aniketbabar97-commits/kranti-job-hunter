@@ -1,0 +1,250 @@
+- generic [ref=f9e4]:
+  - banner [ref=f9e5]:
+    - generic:
+      - link "Zum Hauptinhalt":
+        - /url: "#skipContent"
+    - generic [ref=f9e6]:
+      - link [ref=f9e405] [cursor=pointer]:
+        - /url: https://jobs.innomotics.com/
+        - img "Innomotics Logo" [ref=f9e406]
+      - generic [ref=f9e19]:
+        - button "Menü" [ref=f9e407] [cursor=pointer]:
+          - generic [ref=f9e27]: 
+        - generic [ref=f9e29]:
+          - generic:
+            - list:
+              - listitem
+  - main [ref=f9e31]:
+    - generic [ref=f9e32]:
+      - region "Zum Hauptinhalt"
+      - region "Karrierechancen:Konto anlegen" [ref=f9e408]:
+        - generic [ref=f9e37]:
+          - 'heading "Karrierechancen: Konto anlegen" [level=1] [ref=f9e409]'
+          - generic [ref=f9e42]:
+            - paragraph
+            - generic [ref=f9e43]:
+              - text: Sie sind bereits als Benutzer registriert?
+              - link "Bitte melden Sie sich hier an." [ref=f9e410] [cursor=pointer]:
+                - /url: /career?company=InnoProd&site=&lang=de_DE&requestParams=Zw5sYHhUqdKHgML%2fn6uxuM8jIYN42m1R3UpCQRCe%2fElNKSXorleQo2ESXZRk1oECIeqmi9N6zqQb%0a2%2b5xdkwj6InqIaInqMteILroHVotyEMt7LLM983M9808fELWElSuxI2ojliq6qGwg2MRZ3NvT89r%0aFy9pSHVgSRkRdUTIhnwo8IDQDoyKJvHOLkxPaZx3b9ndIkPGSsYRwer50ayqErpfPWGSur%2f9%2bHr2%0a%2frF%2bd5ACmMSOvsAADPlQSdTsR6Mh3EP6O56%2fMj1bH2OPoRIKQqTARQLCYSATxEzT8xoMRWtCKVQr%0ajtXtPJy9FMqiw112V8aopMZ5fLEtCUNmWA4NESrB0uggqaVU29iq1xpes7np1RxTWl8zkhbq1CL9%0a1y0XmutY6F8lKefI19p0yUSJb%2bHHnLbzdVamXoXzIsOZIGdzOsdEqwiD9j5D2e1i3FJIvEcoGKO%2f%0aeiZfn9iKFA%3d%3d&career_ns=job%5fapplication&career_job_req_id=7005&jobPipeline=Direct&clientId=jobs2web&_s.crb=TRVoPZezUIrzvL%2bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%3d
+              - text: Bei den Anmeldedaten wird zwischen Groß- und Kleinschreibung unterschieden
+              - generic [ref=f9e45]: "*weist auf ein erforderliches Feld hin."
+            - paragraph
+            - generic "Erforderlich" [ref=f9e411]: "E-Mail-Adresse: *"
+            - 'textbox "E-Mail-Adresse: *" [ref=f9e412]': krantichavan198@gmail.com
+            - generic "Erforderlich" [ref=f9e413]: "E-Mail-Adresse erneut eingeben: *"
+            - 'textbox "E-Mail-Adresse erneut eingeben: *" [ref=f9e414]': krantichavan198@gmail.com
+            - generic "Erforderlich" [ref=f9e415]: "Wählen Sie ein Kennwort: *"
+            - generic [ref=f9e52]:
+              - 'textbox "Wählen Sie ein Kennwort: *" [ref=f9e416]': Kranti97h@
+              - button "Anzeigen" [ref=f9e417] [cursor=pointer]
+            - generic [ref=f9e124]:
+              - text: 
+              - generic [ref=f9e125]: Kennwort akzeptiert
+            - list [ref=f9e57]:
+              - listitem [ref=f9e58]: Das Kennwort muss mindestens 8 Zeichen enthalten.
+              - listitem [ref=f9e59]: Das Kennwort darf nicht mehr als 18 Zeichen enthalten.
+              - listitem [ref=f9e60]: Das Kennwort muss mindestens einen Großbuchstaben und einen Kleinbuchstaben enthalten.
+              - listitem [ref=f9e61]: Das Kennwort muss mindestens eine Ziffer oder ein Satzzeichen enthalten.
+              - listitem [ref=f9e62]: Das Kennwort darf keine Leerzeichen oder Unicode-Zeichen enthalten.
+            - generic "Erforderlich" [ref=f9e418]: "Kennwort erneut eingeben: *"
+            - generic [ref=f9e64]:
+              - 'textbox "Kennwort erneut eingeben: *" [ref=f9e419]': Kranti97h@
+              - button "Anzeigen" [ref=f9e420] [cursor=pointer]
+            - generic [ref=f9e126]:
+              - generic [ref=f9e127]: 
+              - generic [ref=f9e128]: Kennwort stimmt überein
+            - generic "Erforderlich" [ref=f9e421]: "Vorname: *"
+            - 'textbox "Vorname: *" [ref=f9e422]': Kranti
+            - generic "Erforderlich" [ref=f9e423]: "Nachname: *"
+            - 'textbox "Nachname: *" [ref=f9e424]': Chavan
+            - generic "Erforderlich" [ref=f9e425]: Land/Region des Wohnorts:*
+            - combobox "Land/Region des Wohnorts" [ref=f9e426]:
+              - option "- Bitte auswählen -"
+              - option "Afghanistan"
+              - option "Ägypten"
+              - option "Albanien"
+              - option "Algerien"
+              - option "Andorra"
+              - option "Arabische Republik Syrien"
+              - option "Argentinien"
+              - option "Armenien"
+              - option "Aserbaidschan"
+              - option "Äthiopien"
+              - option "Australien"
+              - option "Bahamas"
+              - option "Bahrein"
+              - option "Bangladesch"
+              - option "Belarus"
+              - option "Belgien"
+              - option "Bermuda"
+              - option "Bolivien (Plurinationaler Staat)"
+              - option "Bosnien und Herzegowina"
+              - option "Brasilien"
+              - option "Bulgarien"
+              - option "Burundi"
+              - option "Chile"
+              - option "China"
+              - option "Costa Rica"
+              - option "Dänemark"
+              - option "Demokratische Volksrepublik Laos"
+              - option "Deutschland" [selected]
+              - option "Dominikanische Republik"
+              - option "Ecuador"
+              - option "El Salvador"
+              - option "Eritrea"
+              - option "Estland"
+              - option "Färöer Inseln"
+              - option "Finnland"
+              - option "Frankreich"
+              - option "Georgien"
+              - option "Ghana"
+              - option "Gibraltar"
+              - option "Grenada"
+              - option "Griechenland"
+              - option "Guatemala"
+              - option "Guernsey"
+              - option "Honduras"
+              - option "Hong Kong"
+              - option "Indien"
+              - option "Indonesien"
+              - option "Irak"
+              - option "Iran, Islamische Republik"
+              - option "Irland"
+              - option "Island"
+              - option "Isle of Man"
+              - option "Israel"
+              - option "Italien"
+              - option "Japan"
+              - option "Jemen"
+              - option "Jersey"
+              - option "Jordan"
+              - option "Kambodscha"
+              - option "Kamerun"
+              - option "Kanada"
+              - option "Kasachstan"
+              - option "Katar"
+              - option "Kenia"
+              - option "Kirgisistan"
+              - option "Kleinere Amerikanische Überseeinseln"
+              - option "Kolumbien"
+              - option "Kongo"
+              - option "Kongo, die Demokratische Republik"
+              - option "Kosovo"
+              - option "Kroatien"
+              - option "Kuba"
+              - option "Kuwait"
+              - option "Lettland"
+              - option "Libanon"
+              - option "Libyen"
+              - option "Liechtenstein"
+              - option "Litauen"
+              - option "Luxemburg"
+              - option "Malaysia"
+              - option "Mali"
+              - option "Malta"
+              - option "Marokko"
+              - option "Mexiko"
+              - option "Moldawien, Republik"
+              - option "Monaco"
+              - option "Mongolei"
+              - option "Montenegro"
+              - option "Mosambik"
+              - option "Myanmar"
+              - option "Namibia"
+              - option "Nepal"
+              - option "Neuseeland"
+              - option "Nicaragua"
+              - option "Niederlande"
+              - option "Niger"
+              - option "Nigeria"
+              - option "Nordkorea"
+              - option "Norwegen"
+              - option "Oman"
+              - option "Österreich"
+              - option "Pakistan"
+              - option "Panama"
+              - option "Paraguay"
+              - option "Peru"
+              - option "Philippinen"
+              - option "Polen"
+              - option "Portugal"
+              - option "Puerto Rico"
+              - option "Republik Nordmazedonien"
+              - option "Republik Zypern"
+              - option "RUMÄNIEN"
+              - option "Russische Föderation"
+              - option "Sambia"
+              - option "San Marino"
+              - option "Saudi Arabien"
+              - option "Schweden"
+              - option "Schweiz"
+              - option "Senegal"
+              - option "Serbien"
+              - option "Seychellen"
+              - option "Simbabwe"
+              - option "Singapur"
+              - option "Slowakei"
+              - option "Slowenien"
+              - option "Somalia"
+              - option "Spanien"
+              - option "Sri Lanka"
+              - option "Südafrika"
+              - option "Sudan"
+              - option "Südkorea"
+              - option "Tadschikistan"
+              - option "Taiwan"
+              - option "Tansania, Vereinigte Republik"
+              - option "Thailand"
+              - option "Tschechische Republik"
+              - option "Tunesien"
+              - option "Türkei"
+              - option "Turkmenistan"
+              - option "Uganda"
+              - option "Ukraine"
+              - option "Ungarn"
+              - option "United States"
+              - option "Uruguay"
+              - option "Usbekistan"
+              - option "Venezuela (Bolivarische Republik)"
+              - option "Vereinigte Arabische Emirate"
+              - option "Vereinigtes Königreich Großbritannien"
+              - option "Vietnam"
+            - generic [ref=f9e76]: Eigenes Profil sichtbar machen für:*
+            - radiogroup "Eigenes Profil sichtbar machen für:*" [ref=f9e427]:
+              - generic [ref=f9e78]:
+                - radio "Meine Bewerbungsdaten sollen allen relevanten Innomotics-Konzerngesellschaften zugänglich gemacht werden, um mir zu meinem Profil passende, offene Positionen anzubieten. Mit ist bekannt, dass ich diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen." [checked] [ref=f9e428]
+                - generic [ref=f9e81]: Meine Bewerbungsdaten sollen allen relevanten Innomotics-Konzerngesellschaften zugänglich gemacht werden, um mir zu meinem Profil passende, offene Positionen anzubieten. Mit ist bekannt, dass ich diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
+              - generic [ref=f9e82]:
+                - radio "Nur Recruiter, die Stellen betreuen, auf die ich mich bewerbe" [ref=f9e429]
+                - generic [ref=f9e85]: Nur Recruiter, die Stellen betreuen, auf die ich mich bewerbe
+            - text: "Benachrichtigung:"
+            - generic [ref=f9e87]:
+              - checkbox "Benachrichtigung:" [checked] [ref=f9e430]
+              - generic [ref=f9e89]: Benachrichtigungen über neue Stellenausschreibungen erhalten
+            - generic [ref=f9e90]:
+              - checkbox "Mehr über Karrierechancen erfahren" [checked] [ref=f9e431]
+              - generic [ref=f9e92]: Mehr über Karrierechancen erfahren
+            - generic [ref=f9e93]: Nutzungsbedingungen:*
+            - button "Nutzungsbedingungen Lesen und akzeptieren Sie die Datenschutzerklärung. Erforderlich" [ref=f9e432] [cursor=pointer]: Lesen und akzeptieren Sie die Datenschutzerklärung.
+            - status [active] [ref=f9e433]: Die Datenschutzerklärung wurde akzeptiert.
+            - button "Konto anlegen" [ref=f9e434] [cursor=pointer]
+  - contentinfo [ref=f9e101]:
+    - generic [ref=f9e104]:
+      - list [ref=f9e105]:
+        - listitem [ref=f9e106]:
+          - link "Impressum" [ref=f9e435] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+        - listitem [ref=f9e108]:
+          - button "Cookie Consent Manager" [ref=f9e436] [cursor=pointer]
+        - listitem [ref=f9e110]:
+          - link "View All Jobs" [ref=f9e437] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/viewalljobs/
+        - listitem [ref=f9e112]:
+          - link "Contact Us" [ref=f9e438] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+      - list [ref=f9e115]:
+        - listitem [ref=f9e116]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=f9e439] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/innomotics
+            - generic [ref=f9e118]: Wird auf einer neuen Registerkarte geöffnet.
+    - paragraph [ref=f9e123]: Copyright © Innomotics

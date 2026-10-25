@@ -1,0 +1,96 @@
+- generic [active] [ref=f15e1]:
+  - generic [ref=f15e2]:
+    - navigation [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - link [ref=f15e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f15e56]:
+          - generic [ref=f15e57]:
+            - list [ref=f15e59]:
+              - listitem [ref=f15e60]:
+                - link "☎ 06271 / 960 9000" [ref=f15e61] [cursor=pointer]:
+                  - /url: tel:004962719609000
+            - list [ref=f15e63]:
+              - listitem [ref=f15e64]:
+                - link "Übersicht" [ref=f15e65] [cursor=pointer]:
+                  - /url: /uebersicht
+              - listitem [ref=f15e66]:
+                - link "Arbeitgeber" [ref=f15e67] [cursor=pointer]:
+                  - /url: /arbeitgeber
+              - listitem [ref=f15e68]:
+                - link "Arbeitsumgebung" [ref=f15e69] [cursor=pointer]:
+                  - /url: /arbeitsumgebung
+              - listitem [ref=f15e70]:
+                - link "Kollegen" [ref=f15e71] [cursor=pointer]:
+                  - /url: /kollegen
+              - listitem [ref=f15e72]:
+                - link "Zukunft" [ref=f15e73] [cursor=pointer]:
+                  - /url: /zukunft
+              - listitem [ref=f15e74]:
+                - link "Benefits" [ref=f15e75] [cursor=pointer]:
+                  - /url: /benefits
+              - listitem [ref=f15e76]:
+                - link "Offene Stellen" [ref=f15e77] [cursor=pointer]:
+                  - /url: /offene-stellen
+          - generic [ref=f15e78]:
+            - link [ref=f15e79] [cursor=pointer]:
+              - /url: /schnell-bewerbung
+              - generic "Schnell-Bewerbung" [ref=f15e81]
+            - generic "Suche" [ref=f15e89] [cursor=pointer]
+    - list [ref=f15e97]:
+      - listitem [ref=f15e98]:
+        - link [ref=f15e99] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=f15e100]
+      - listitem [ref=f15e101]:
+        - text: /
+        - link "standard_bewerbung" [ref=f15e102] [cursor=pointer]:
+          - /url: /standard-bewerbung
+      - listitem [ref=f15e103]: / Danke
+      - listitem
+  - banner [ref=f15e104]:
+    - img "Danke für Deine Bewerbung" [ref=f15e105]
+    - generic [ref=f15e109]:
+      - heading [level=1] [ref=f15e110]:
+        - strong [ref=f15e111]: Vielen Dank! ✓
+      - heading "Deine Bewerbung wurde erfolgreich übermittelt!" [level=2] [ref=f15e112]
+      - paragraph [ref=f15e113]
+      - heading [level=3] [ref=f15e114]:
+        - strong [ref=f15e115]: Wie geht es weiter?
+      - paragraph [ref=f15e116]: Wir werden Deine Bewerbung umgehend prüfen und Dir dann schnellst möglich eine Rückmeldung geben. Hierzu wird sich entweder Timo oder Christian bei Dir melden. Solltest Du innerhalb von 24h keine Antwort erhalten, gib denen beiden bitte noch einen Tag Zeit, vielleicht sind sie gerade unterwegs. Sofern Du nach 48h noch immer kein Feedback bekommen haben solltest, melde Dich bitte noch einmal bei uns!
+      - paragraph [ref=f15e117]: Wir freuen uns darauf Dich kennenzulernen!
+      - paragraph [ref=f15e118]: Viele Grüße
+      - paragraph [ref=f15e119]: Deine Quellwerke GmbH
+  - contentinfo [ref=f15e120]:
+    - generic [ref=f15e124]:
+      - paragraph [ref=f15e127]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f15e129]:
+        - list [ref=f15e130]:
+          - listitem [ref=f15e131]:
+            - link "Datenschutz" [ref=f15e132] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/datenschutz
+          - listitem [ref=f15e133]:
+            - link "Impressum" [ref=f15e134] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/impressum
+        - generic [ref=f15e135]:
+          - link [ref=f15e136] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f15e138]
+          - link [ref=f15e139] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f15e141]
+          - link [ref=f15e142] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f15e144]
+  - generic [ref=f15e145]:
+    - heading "Cookie Manager" [level=3] [ref=f15e146]
+    - generic [ref=f15e148]:
+      - generic [ref=f15e149]: Essentials
+      - generic [ref=f15e151]: Analyse
+    - paragraph [ref=f15e154]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f15e155]:
+      - button "Alle akzeptieren" [ref=f15e156] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f15e157] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f15e158] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f15e160] [cursor=pointer]:
+      - /url: https://www.quellwerke.de/datenschutz

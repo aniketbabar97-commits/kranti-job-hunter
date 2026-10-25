@@ -1,0 +1,149 @@
+- generic [ref=f6e6]:
+  - main [ref=f6e7]:
+    - generic [ref=f6e8]:
+      - 'status "min bis zum Logout!: 15:00" [ref=f6e503]':
+        - generic [aria-hidden] [ref=f6e177]: 15:00
+        - generic [aria-hidden] [ref=f6e178]: min bis zum Logout!
+      - navigation "Haupt" [ref=f6e10]:
+        - generic [ref=f6e11]:
+          - link "Zurück zu den Jobdetails" [ref=f6e13] [cursor=pointer]:
+            - /url: /de/job/it-consultant-dm-app-onlineshop-und-gesundheitsdienstleistungen-w-m-d/271559/
+          - button "Kontakt aufnehmen" [ref=f6e21] [cursor=pointer]
+      - generic [ref=f6e27]:
+        - generic [ref=f6e28]:
+          - generic:
+            - link "Logo dmTECH, zurück zur Startseite dmTECH Logo":
+              - /url: /de/
+              - generic [ref=f6e29] [cursor=pointer]: Logo dmTECH, zurück zur Startseite
+              - img "dmTECH Logo"
+        - navigation "wizzard.aria_title" [ref=f6e31]:
+          - list [ref=f6e32]:
+            - listitem [ref=f6e33]:
+              - link "Persönliche Angaben" [ref=f6e34] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f6e35]: Persönliche Angaben
+            - listitem [ref=f6e37]:
+              - link "Fragen" [ref=f6e38] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f6e39]: Fragen
+            - listitem [ref=f6e41]:
+              - link "Dokumente" [ref=f6e42] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f6e43]: Dokumente
+            - listitem [ref=f6e45]:
+              - link "Zusammenfassung" [ref=f6e46] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f6e47]: Zusammenfassung
+        - group [ref=f6e49]:
+          - paragraph [ref=f6e51]: Details zu Deiner Bewerbung
+          - generic [ref=f6e55]:
+            - heading "IT Consultant dm-App, Onlineshop und Gesundheitsdienstleistungen (w/m/d)" [level=1] [ref=f6e56]
+            - generic [ref=f6e57]:
+              - generic [ref=f6e58]:
+                - term [ref=f6e59]:
+                  - generic [ref=f6e60]: Ort der Stelle
+                - definition [ref=f6e64]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=f6e65]:
+                - term [ref=f6e66]:
+                  - generic [ref=f6e67]: Art der Stelle
+                - definition [ref=f6e72]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=f6e73]:
+                - term [ref=f6e74]:
+                  - generic [ref=f6e75]: Art der Stelle
+                - definition [ref=f6e79]: unbefristet
+              - generic [ref=f6e80]:
+                - term [ref=f6e81]:
+                  - generic [ref=f6e82]: vor Ort
+                - definition [ref=f6e87]: vor Ort
+              - generic [ref=f6e88]:
+                - term [ref=f6e89]:
+                  - generic [ref=f6e90]: Ort der Stelle
+                - definition [ref=f6e94]: "Job ID: 271559"
+        - generic [ref=f6e160]:
+          - generic [ref=f6e162]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Zur Datenschutzerklärung
+                  - generic: Zu Deinem Profil
+                  - generic: Go Back
+            - generic [ref=f6e181]:
+              - generic:
+                - group [ref=f6e346]:
+                  - heading "Raum für Deine Dokumente" [level=2] [ref=f6e348]
+                  - generic [ref=f6e354]:
+                    - paragraph [ref=f6e355]: Bitte beachte folgende Punkte, damit Deine Unterlagen sicher bei uns ankommen.
+                    - list [ref=f6e356]:
+                      - listitem [ref=f6e357]: •Zulässige Dateiformate sind pdf, doc, docx, jpeg, jpg oder png.
+                      - listitem [ref=f6e358]: •Eine zusammengefasste Bewerbermappe kannst Du unter „Lebenslauf“ hochladen.
+                      - listitem [ref=f6e359]: •Deine Dokumente dürfen insgesamt 8 MB nicht überschreiten.
+                    - generic [ref=f6e361]:
+                      - generic [ref=f6e363]:
+                        - text: Lebenslauf
+                        - generic: (Pflichtfeld)
+                      - generic [ref=f6e498] [cursor=pointer]:
+                        - generic [ref=f6e499]: Kranti_Chavan_Lebenslauf_dmTECH_IT-Consultant-dm-App-Onlineshop-und.pdf
+                        - button "Datei entfernen" [ref=f6e500]
+                    - generic [ref=f6e379]:
+                      - generic [ref=f6e380]:
+                        - generic [ref=f6e381]: Anschreiben
+                        - button "Dokument hochladen" [ref=f6e383] [cursor=pointer]
+                      - generic [ref=f6e504]:
+                        - tab "Von meinem Gerät" [ref=f6e505] [cursor=pointer]
+                        - tab "DropBox" [ref=f6e524] [cursor=pointer]
+                        - tab "OneDrive" [ref=f6e532] [cursor=pointer]
+                        - tab "Google Drive" [ref=f6e542] [cursor=pointer]
+                    - group "Kein Anschreiben zur Hand? Nutze einfach das folgende Freitextfeld für Dein Motivationsschreiben." [ref=f6e391]:
+                      - generic [ref=f6e395]:
+                        - generic [ref=f6e396]: Motivationsschreiben
+                        - textbox "Motivationsschreiben" [ref=f6e398]:
+                          - /placeholder: Freitext
+                    - generic [ref=f6e401]:
+                      - generic [ref=f6e402]: Weitere Dokumente
+                      - button "Dokument hochladen" [ref=f6e404] [cursor=pointer]
+                - generic [ref=f6e249]:
+                  - link "Zurück" [ref=f6e342] [cursor=pointer]:
+                    - /url: "#apply-page"
+                  - link "Weiter" [ref=f6e251] [cursor=pointer]:
+                    - /url: "#apply-page"
+            - generic: Zu Deinem Profil
+          - generic:
+            - generic "Login ungültig"
+  - contentinfo [ref=f6e98]:
+    - generic [ref=f6e99]:
+      - generic [ref=f6e100]: Fußzeile
+      - generic [ref=f6e102]:
+        - navigation "Social Media Links" [ref=f6e103]:
+          - list [ref=f6e104]:
+            - listitem [ref=f6e105]:
+              - link "Zum github-Profil vom dmTECH" [ref=f6e106] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f6e112]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f6e113] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f6e119]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f6e120] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f6e126]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f6e127] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f6e133]:
+          - list [ref=f6e135]:
+            - listitem [ref=f6e136]:
+              - button "DE" [ref=f6e137] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f6e145]:
+          - list [ref=f6e147]:
+            - listitem [ref=f6e148]:
+              - link "Kontakt" [ref=f6e149] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f6e150]:
+              - link "Impressum" [ref=f6e151] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f6e152]:
+              - link "Datenschutz" [ref=f6e153] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f6e154]:
+              - link "Information zur Barrierefreiheit" [ref=f6e155] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f6e156]:
+              - button "Cookie-Einstellungen" [ref=f6e157] [cursor=pointer]

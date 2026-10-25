@@ -1,0 +1,278 @@
+- generic [ref=e1]:
+  - list:
+    - listitem:
+      - link [ref=e2] [cursor=pointer]:
+        - /url: "#"
+    - listitem:
+      - button "Nachricht ausblenden" [ref=e6] [cursor=pointer]
+  - button "Toggle navigation" [ref=e10] [cursor=pointer]
+  - banner [ref=e13]:
+    - navigation [ref=e14]:
+      - link "MUSIK MEYER GmbH" [ref=e15] [cursor=pointer]:
+        - /url: /
+  - heading "Stellenanzeigen" [level=2] [ref=e38]
+  - navigation "Breadcrumb" [ref=e39]:
+    - generic [ref=e40]:
+      - paragraph [ref=e41]: "You are here:"
+      - list [ref=e42]:
+        - listitem [ref=e43]:
+          - link "MUSIK MEYER GmbH" [ref=e44] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e45]:
+          - text: //
+          - link "Karriere" [ref=e46] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=e47]:
+          - text: //
+          - link "Stellenanzeigen" [ref=e48] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=e49]: // Java Backend Entwickler (m/w/d)
+  - generic [ref=e55]:
+    - heading "Java Backend Entwickler (m/w/d)" [level=2] [ref=e57]
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]:
+          - text: Seit über 75 Jahren ist MUSIK MEYER die Top-Adresse für den Exklusivvertrieb von Musikinstrumenten und Zubehör in Europa. Mit Leidenschaft entwickeln wir starke Marken und vertreiben hochwertige Produkte weltweit führender Hersteller. Als familiengeführtes Unternehmen mit rund 170 Mitarbeitenden im schönen Marburg an der Lahn verbinden wir die Sicherheit eines erfolgreichen Mittelstandsunternehmens mit der Dynamik der Musikbranche.
+          - strong [ref=e62]: Zur Verstärkung unseres Teams im Bereich E-Commerce suchen wir zum nächstmöglichen Zeitpunkt einen erfahrenen und engagierten Java-Backend-Entwickler (m/w/d).
+          - text: Kernaufgabe sind dabei unsere digitalen Prozesse, die die Warenwirtschaft, den E-Commerce und die internen sowie externen Systeme verbinden und somit die Grundlage für unsere täglichen Geschäftsabläufe bilden.Dabei setzen wir nicht auf starre Strukturen und vorgegebene Lösungswege. Unser Umfeld ist kreativ, dynamisch und geprägt von kurzen Entscheidungswegen. Wir suchen daher einen Java-Entwickler, der nicht nur Software entwickelt, sondern auch unsere Servicelandschaft aktiv mitgestaltet und weiterentwickelt.
+        - heading [level=3] [ref=e63]:
+          - strong [ref=e64]: Java Backend Entwickler (m/w/d)
+        - heading "Deine Aufgaben:" [level=5] [ref=e65]
+        - list [ref=e66]:
+          - listitem [ref=e67]: Betreuung und Wartung unserer bestehenden Java-Backend-Anwendungen
+          - listitem [ref=e68]: Konzeption und Implementierung neuer Backend-Funktionen und Services
+          - listitem [ref=e69]: Entwicklung und Pflege von REST- und SOAP-Webservices sowie APIs
+          - listitem [ref=e70]: Anbindung und Integration interner und externer Systeme
+          - listitem [ref=e71]: Analyse und Optimierung bestehender Anwendungen, Schnittstellen und Geschäftsprozesse
+          - listitem [ref=e72]: Aktive Mitgestaltung unserer Backend- und Service-Architektur
+          - listitem [ref=e73]: Sicherstellung der Softwarequalität durch Code-Reviews und Unit-Tests.
+        - heading "Das bringst Du mit:" [level=5] [ref=e74]
+        - list [ref=e75]:
+          - listitem [ref=e76]: Abgeschlossenes IT-Studium oder eine vergleichbare Ausbildung, z. B. als Fachinformatiker für Anwendungsentwicklung
+          - listitem [ref=e77]: Mindestens 4 Jahre praktische Erfahrung in der Java-Backend-Entwicklung
+          - listitem [ref=e78]: Sehr gute Java-Kenntnisse sowie Erfahrung mit Apache Tomcat und Maven
+          - listitem [ref=e79]: Fundierte Erfahrung mit RESTful APIs und Kenntnisse in SOAP-Webservices
+          - listitem [ref=e80]: Sicherer Umgang mit Git und Erfahrung mit Unit-Testing
+          - listitem [ref=e81]: Erfahrung mit Eclipse, IntelliJ IDEA oder einer vergleichbaren Entwicklungsumgebung
+          - listitem [ref=e82]: Idealerweise Kenntnisse in Spring / Spring Boot sowie SQL und relationalen Datenbanken
+          - listitem [ref=e83]: Eigeninitiative, analytisches Denken und Freude daran, bestehende Lösungen weiterzuentwickeln
+          - listitem [ref=e84]: Teamgeist, Kommunikationsstärke und die Bereitschaft, technische Verantwortung zu übernehmen
+        - heading "Das erwartet dich:" [level=5] [ref=e85]
+        - list [ref=e86]:
+          - listitem [ref=e87]: "Gestaltungsspielraum: Du bringst eigene Ideen ein und wirkst an technischen Entscheidungen und deren Umsetzung mit"
+          - listitem [ref=e88]: "Abwechslungsreiche Projekte: Anspruchsvolle Aufgaben rund um Java, E-Commerce und die Anbindung unserer Warenwirtschaft"
+          - listitem [ref=e89]: "Eigenverantwortung: Du übernimmst Verantwortung für deine Lösungen und entwickelst unsere Systemlandschaft gemeinsam mit dem Team weiter"
+          - listitem [ref=e90]: "Einarbeitung und Wissenstransfer: Ein erfahrenes und motiviertes Team unterstützt dich beim Einstieg in unsere Anwendungen und Prozesse"
+          - listitem [ref=e91]: "Flexible Arbeitsgestaltung: Ein flexibles Arbeitszeitmodell und hybrides Arbeiten am Standort Marburg"
+          - listitem [ref=e92]: "Fachliche Weiterentwicklung: Unterstützung bei Fortbildungen und Zertifizierungen"
+          - listitem [ref=e93]: 30 Urlaubstage pro Jahr
+          - listitem [ref=e94]: "Zusätzliche Leistungen: Betriebliche Altersvorsorge, Fahrrad- und E-Bike-Leasing, E-Ladestationen für Pkw und kostenlose Parkplätze"
+          - listitem [ref=e95]: "Stabilität und kurze Wege: Ein etabliertes, inhabergeführtes Unternehmen mit offener Kommunikation und kurzen Entscheidungswegen"
+          - listitem [ref=e96]: "Klare Zukunftsperspektive: Im Rahmen einer strukturierten Nachfolgeregelung übernimmst du schrittweise die technische Gesamtverantwortung für unsere Backend- und Servicelandschaft"
+        - heading "Eckdaten:" [level=5] [ref=e97]
+        - list [ref=e98]:
+          - listitem [ref=e99]: "Position: Java Backend Entwickler (m/w/d)"
+          - listitem [ref=e100]: "Standort: Marburg an der Lahn (Hessen), Hybrid"
+          - listitem [ref=e101]: "Arbeitszeit: Vollzeit"
+          - listitem [ref=e102]: "Besetzung: frühestmöglich"
+        - paragraph [ref=e103]:
+          - text: Das klingt nach Deinem nächsten beruflichen Schritt? Dann freuen wir uns auf Deine Bewerbung und darauf, dich persönlich kennenzulernen!Bitte nutze vorzugsweise unser
+          - link "Bewerbungsformular" [ref=e104] [cursor=pointer]:
+            - /url: https://www.musik-meyer.de/bewerbungsformular
+          - text: "oder sende Deine Unterlagen an:"
+        - paragraph [ref=e105]:
+          - strong [ref=e106]: MUSIK MEYER GmbH
+          - text: Michael LangeIndustriestr. 2035041 Marburg
+        - paragraph [ref=e107]:
+          - text: "E-Mail:"
+          - link "jobs@ musik-meyer.de" [ref=e108] [cursor=pointer]:
+            - /url: "#"
+        - paragraph [ref=e109]
+      - link "Jetzt bewerben" [ref=e110] [cursor=pointer]:
+        - /url: /bewerbungsformular?tx_powermail_pi1%5Bfield%5D%5Bstellenanzeige%5D=Java%20Backend%20Entwickler%20%28m%2Fw%2Fd%29&cHash=1e1be9fefe177f2998dada8be5b46794
+    - link "Zurück" [ref=e112] [cursor=pointer]:
+      - /url: javascript:history.back();
+  - contentinfo [ref=e113]:
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - paragraph [ref=e118]:
+          - strong [ref=e119]: MUSIK MEYER GmbH
+          - text: Industriestraße 2035041 MarburgGermany
+        - paragraph [ref=e120]
+        - paragraph [ref=e121]
+        - paragraph [ref=e122]:
+          - text: Tel. +49 6421 989 0
+          - link "info@ musik-meyer.de" [ref=e123] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e125]:
+        - listitem [ref=e126]:
+          - link "Brands" [ref=e127] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=e128]:
+          - link "News" [ref=e129] [cursor=pointer]:
+            - /url: /news-events
+        - listitem [ref=e130]:
+          - link "Team" [ref=e131] [cursor=pointer]:
+            - /url: /team
+        - listitem [ref=e132]:
+          - link "Stellenanzeigen" [ref=e133] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=e134]:
+          - link "Unternehmen" [ref=e135] [cursor=pointer]:
+            - /url: /unternehmen
+        - listitem [ref=e136]:
+          - link "Kontakt" [ref=e137] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=e138]:
+          - link "B2B Login" [ref=e139] [cursor=pointer]:
+            - /url: https://extra.musik-meyer.net/fos/Static/Login?PostBack=/fos/
+    - generic [ref=e143]:
+      - list [ref=e145]:
+        - listitem [ref=e146]:
+          - link "Impressum" [ref=e147] [cursor=pointer]:
+            - /url: /impressum
+        - listitem [ref=e148]:
+          - link "Datenschutz" [ref=e149] [cursor=pointer]:
+            - /url: /datenschutz
+        - listitem [ref=e150]:
+          - link "Kontakt" [ref=e151] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=e152]:
+          - link "Cookie-Setup" [ref=e153] [cursor=pointer]:
+            - /url: /cookie-setup
+        - listitem [ref=e154]:
+          - link "Hinweisgeberschutz" [ref=e155] [cursor=pointer]:
+            - /url: /kontakt-corporate/hinweisgeberschutzgesetz
+        - listitem
+      - list [ref=e157]:
+        - listitem [ref=e158]:
+          - link "MUSIK MEYER on LinkedIn" [ref=e159] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/musik-meyer/
+        - listitem [ref=e162]:
+          - link "MUSIK MEYER on XING" [ref=e163] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/musikmeyergmbh
+        - listitem [ref=e166]:
+          - link "MUSIK MEYER on Facebook" [ref=e167] [cursor=pointer]:
+            - /url: https://www.facebook.com/musikmeyer/
+        - listitem [ref=e170]:
+          - link "MUSIK MEYER on Instagram" [ref=e171] [cursor=pointer]:
+            - /url: https://www.instagram.com/musik_meyer/
+  - dialog [ref=e175]:
+    - generic [ref=e176]:
+      - generic:
+        - generic [ref=e177]:
+          - generic "Sprache auswählen" [ref=e178]:
+            - img "Sprache auswählen"
+          - combobox "Sprache auswählen" [ref=e179] [cursor=pointer]:
+            - option "Tschechisch (Čeština)"
+            - option "Deutsch" [selected]
+            - option "Englisch (English)"
+            - option "Französisch (Français)"
+            - option "Kroatisch (Hrvatski jezik)"
+            - option "Ungarisch (Magyar)"
+            - option "Niederländisch (Nederlands)"
+            - option "Polnisch (Język polski)"
+        - button "Schließen" [ref=e180] [cursor=pointer]: x
+      - generic [ref=e181]:
+        - document [active] [ref=e183]:
+          - heading "Wir nutzen Cookies und andere Technologien." [level=2] [ref=e184]
+          - paragraph [ref=e186]:
+            - generic [ref=e187]: Diese
+            - generic [ref=e188]: Website
+            - generic [ref=e189]: nutzt
+            - generic [ref=e190]: Cookies
+            - generic [ref=e191]: und
+            - generic [ref=e192]: vergleichbare
+            - generic [ref=e193]: Funktionen
+            - generic [ref=e194]: zur
+            - generic [ref=e195]: Verarbeitung
+            - generic [ref=e196]: von
+            - generic [ref=e197]: Endgeräteinformationen
+            - generic [ref=e198]: und
+            - generic [ref=e199]: personenbezogenen
+            - generic [ref=e200]: Daten.
+            - generic [ref=e201]: Die
+            - generic [ref=e202]: Verarbeitung
+            - generic [ref=e203]: dient
+            - generic [ref=e204]: der
+            - generic [ref=e205]: Einbindung
+            - generic [ref=e206]: von
+            - generic [ref=e207]: Inhalten,
+            - generic [ref=e208]: externen
+            - generic [ref=e209]: Diensten
+            - generic [ref=e210]: und
+            - generic [ref=e211]: Elementen
+            - generic [ref=e212]: Dritter,
+            - generic [ref=e213]: der
+            - generic [ref=e214]: statistischen
+            - generic [ref=e215]: Analyse/Messung,
+            - generic [ref=e216]: der
+            - generic [ref=e217]: personalisierten
+            - generic [ref=e218]: Werbung
+            - generic [ref=e219]: sowie
+            - generic [ref=e220]: der
+            - generic [ref=e221]: Einbindung
+            - generic [ref=e222]: sozialer
+            - generic [ref=e223]: Medien.
+            - generic [ref=e224]: Je
+            - generic [ref=e225]: nach
+            - generic [ref=e226]: Funktion
+            - generic [ref=e227]: werden
+            - generic [ref=e228]: dabei
+            - generic [ref=e229]: Daten
+            - generic [ref=e230]: an
+            - generic [ref=e231]: Dritte
+            - generic [ref=e232]: weitergegeben
+            - generic [ref=e233]: und
+            - generic [ref=e234]: an
+            - generic [ref=e235]: Dritte
+            - generic [ref=e236]: in
+            - generic [ref=e237]: Ländern,
+            - generic [ref=e238]: in
+            - generic [ref=e239]: denen
+            - generic [ref=e240]: kein
+            - generic [ref=e241]: angemessenes
+            - generic [ref=e242]: Datenschutzniveau
+            - generic [ref=e243]: vorliegt
+            - generic [ref=e244]: und
+            - generic [ref=e245]: von
+            - generic [ref=e246]: diesen
+            - generic [ref=e247]: verarbeitet
+            - generic [ref=e248]: wird,
+            - text: z. B.
+            - generic [ref=e249]: die
+            - generic [ref=e250]: USA.
+            - generic [ref=e251]: Ihre
+            - generic [ref=e252]: Einwilligung
+            - generic [ref=e253]: ist
+            - generic [ref=e254]: stets
+            - generic [ref=e255]: freiwillig,
+            - generic [ref=e256]: für
+            - generic [ref=e257]: die
+            - generic [ref=e258]: Nutzung
+            - generic [ref=e259]: unserer
+            - generic [ref=e260]: Website
+            - generic [ref=e261]: nicht
+            - generic [ref=e262]: erforderlich
+            - generic [ref=e263]: und
+            - generic [ref=e264]: kann
+            - generic [ref=e265]: jederzeit
+            - generic [ref=e266]: auf
+            - generic [ref=e267]: unserer
+            - generic [ref=e268]: Seite
+            - generic [ref=e269]: abgelehnt
+            - generic [ref=e270]: oder
+            - generic [ref=e271]: widerrufen
+            - generic [ref=e272]: werden.
+        - group [ref=e273]:
+          - button "Ablehnen" [ref=e274] [cursor=pointer]
+          - button "Einstellungen" [ref=e275] [cursor=pointer]
+          - button "Alles akzeptieren" [ref=e276] [cursor=pointer]
+      - group [ref=e277]:
+        - generic [ref=e278]:
+          - link "Impressum" [ref=e279] [cursor=pointer]:
+            - /url: https://www.musik-meyer.de/impressum
+          - link "Datenschutzhinweis" [ref=e280] [cursor=pointer]:
+            - /url: https://www.musik-meyer.de/datenschutz
+        - link "Powered by consens" [ref=e281] [cursor=pointer]:
+          - /url: https://consens.conlabz.de/

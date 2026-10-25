@@ -1,0 +1,242 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e6]:
+    - button "Zum Hauptinhalt springen"
+    - generic [ref=f1e7]:
+      - img "Alt" [ref=f1e12]
+      - generic [ref=f1e23]:
+        - generic [ref=f1e25]:
+          - link "Ein Link öffnet sich" [ref=f1e29] [cursor=pointer]:
+            - /url: ../../../
+            - img "Schäfer Shop Group GmbH & Co. KG" [ref=f1e31]
+          - generic [ref=f1e32]:
+            - generic [ref=f1e34]:
+              - button "Diese Stellenanzeige drucken" [ref=f1e35] [cursor=pointer]
+              - button "Diese Stellenanzeige als PDF speichern" [ref=f1e39] [cursor=pointer]
+            - generic [ref=f1e44]:
+              - generic [ref=f1e45]:
+                - link "Diese Stellenanzeige über X (Twitter) teilen" [ref=f1e46] [cursor=pointer]:
+                  - /url: http://twitter.com/share?url=https://karriere.schaefer-shop.de/jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+                - link "Diese Stellenanzeige über Facebook teilen" [ref=f1e50] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https://karriere.schaefer-shop.de/jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+                - link "Diese Stellenanzeige über LinkedIn teilen" [ref=f1e54] [cursor=pointer]:
+                  - /url: http://www.linkedin.com/shareArticle?mini=true&url=https://karriere.schaefer-shop.de/jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+                - link "Diese Stellenanzeige über XING teilen" [ref=f1e58] [cursor=pointer]:
+                  - /url: https://www.xing.com/spi/shares/new?url=https://karriere.schaefer-shop.de/jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+              - button "Link zu dieser Stellenanzeige kopieren teilen" [ref=f1e62] [cursor=pointer]
+        - main [ref=f1e68]:
+          - generic [ref=f1e69]:
+            - heading "(Senior) Software-Architekt (m/w/d)" [level=1] [ref=f1e71]
+            - generic [ref=f1e72]:
+              - generic [ref=f1e73]:
+                - generic [ref=f1e74]: Vollzeit
+                - generic [ref=f1e79]: Deutschland
+                - generic [ref=f1e84]: Berufserfahrene
+                - generic [ref=f1e89]: 08. Oktober 2026
+                - generic [ref=f1e94]: Remote
+              - generic [ref=f1e100]:
+                - text: "Wer wir sind:"
+                - paragraph [ref=f1e101]:
+                  - strong [ref=f1e102]: "#einfach.erstklassig.arbeiten"
+                - paragraph [ref=f1e103]: "Willkommen bei Schäfer Shop, wo wir seit 1975 Arbeitsumfelder gestalten, die dich inspirieren. Als führender Anbieter von Büro- und Betriebsausstattungen in Europa sind unsere 1.000 Teammitglieder stolz auf unsere Mission:"
+                - paragraph [ref=f1e104]: Wir schaffen positive Arbeitsumfelder, die unsere Kunden erfolgreicher machen.
+                - paragraph [ref=f1e105]: Bei Schäfer Shop sind wir eine Gemeinschaft von Machern und Visionären. Unsere Kultur ist geprägt von Zusammenarbeit, Innovation und Exzellenz. Wir suchen ständig nach talentierten Menschen, die unsere Leidenschaft teilen und unsere Mission vorantreiben.
+                - paragraph [ref=f1e106]: Komm zu uns und hilf uns, die Zukunft der Arbeitswelt zu gestalten und werde Teil unserer Mission, dich erfolgreicher zu machen.
+                - paragraph [ref=f1e107]:
+                  - text: Ab sofort suchen wir einen
+                  - strong [ref=f1e108]:
+                    - emphasis [ref=f1e109]: (Senior) Software-Architekt (m/w/d)
+                  - text: für unser
+                  - emphasis
+                  - strong [ref=f1e110]:
+                    - emphasis [ref=f1e111]: Remote Team
+                  - emphasis [ref=f1e112]: ":"
+                - text: "Was dich erwartet:"
+                - list [ref=f1e113]:
+                  - listitem [ref=f1e114]:
+                    - text: •
+                    - strong [ref=f1e115]: "Softwarearchitektur weiterentwickeln:"
+                    - text: Du gestaltest die Architektur unserer digitalen Plattformen und entwickelst gemeinsam mit den Squads technische Leitplanken weiter.
+                  - listitem [ref=f1e116]:
+                    - text: •
+                    - strong [ref=f1e117]: "Engineering Excellence stärken:"
+                    - text: Gemeinsam mit den Entwicklern verbesserst du Codequalität, Reviewkultur, Testing und Wartbarkeit.
+                  - listitem [ref=f1e118]:
+                    - text: •
+                    - strong [ref=f1e119]: "Software aktiv entwickeln:"
+                    - text: Du übernimmst konkrete Entwicklungsaufgaben und arbeitest flexibel in den Squads mit. Du bringst Dich in fachliche und technische Analysen, Lösungsdiskussionen und Reviews von Merge Requests ein.
+                  - listitem [ref=f1e120]:
+                    - text: •
+                    - strong [ref=f1e121]: "Entwickler begleiten:"
+                    - text: Du unterstützt die Entwickler durch Coaching und Mentoring und bist fachlicher Sparringspartner bei Architektur, Design und Implementierung.
+                  - listitem [ref=f1e122]:
+                    - text: •
+                    - strong [ref=f1e123]: "Technische Entscheidungen führen:"
+                    - text: Du führst wesentliche technische Entscheidungsprozesse über Teamgrenzen und Systeme hinweg. Du dokumentierst die Ergebnisse nachvollziehbar in Architecture Decision Records und vertrittst belastbare Entscheidungen.
+                  - listitem [ref=f1e124]:
+                    - text: •
+                    - strong [ref=f1e125]: "Technische Orientierung geben:"
+                    - text: Du berätst den Director, den Lead Software Engineering sowie angrenzende Rollen und Teams. Du ordnest technische Auswirkungen, Risiken und Handlungsbedarfe verständlich ein
+                  - listitem [ref=f1e126]:
+                    - text: •
+                    - strong [ref=f1e127]: "Risiken und technische Schulden adressieren:"
+                    - text: Du erkennst und bewertest wesentliche technische Risiken und technische Schulden. Du machst sie transparent, sorgst für klare Verantwortlichkeiten und stellst sicher, dass sie angemessen bearbeitet oder zur Entscheidung vorgelegt werden.
+                - paragraph [ref=f1e128]
+                - text: "Was du mitbringst:"
+                - list [ref=f1e129]:
+                  - listitem [ref=f1e130]: • Mehrjährige, fundierte Erfahrung in der Entwicklung komplexer Web-Anwendungen und verteilter Softwaresysteme auf Basis von Java und Spring Boot
+                  - listitem [ref=f1e131]: • Nachweisbare Erfahrung in Softwarearchitektur, Solution Design und der Weiterentwicklung bestehender Systemlandschaften
+                  - listitem [ref=f1e132]: • Die Fähigkeit, technische Fragestellungen strukturiert zu analysieren, Lösungsoptionen und deren Konsequenzen abzuwägen und belastbare Entscheidungen herbeizuführen
+                  - listitem [ref=f1e133]: • Eine eigenverantwortliche Arbeitsweise sowie die Fähigkeit, technische Entscheidungen verständlich zu begründen, zu dokumentieren und gegenüber unterschiedlichen Stakeholdern zu vertreten
+                  - listitem [ref=f1e134]: • Praktische Erfahrung mit Architekturprinzipien, Modularisierung, HTTP, REST und API-Contract-Design sowie verteilten Architekturen wie Microservices oder Self-Contained Systems
+                  - listitem [ref=f1e135]: • Sehr gutes Verständnis von Engineering Excellence, insbesondere Code-Qualität, Review-Kultur, Wartbarkeit und nachhaltigem Umgang mit technischen Schulden
+                  - listitem [ref=f1e136]: • Ausgeprägte Hands-on-Mentalität und die Bereitschaft, weiterhin aktiv Software zu entwickeln und technische Lösungen gemeinsam mit den Squads umzusetzen
+                  - listitem [ref=f1e137]: • Freude daran, Entwickler fachlich zu coachen, Wissen zu vermitteln und technische Diskussionen auch bei unterschiedlichen Positionen konstruktiv zu führen
+                - list [ref=f1e138]:
+                  - listitem [ref=f1e139]:
+                    - text: "• Vorerfahrung von Vorteil:"
+                    - list [ref=f1e140]:
+                      - listitem [ref=f1e141]: • E-Commerce und hochverfügbaren Web-Plattformen
+                      - listitem [ref=f1e142]: • modernen Frontend-Architekturen und der Integration von Frontend und Backend, z.B. mit Next.js
+                      - listitem [ref=f1e143]: • asynchroner Kommunikation und Event-driven Architecture, z. B. mit Kafka
+                      - listitem [ref=f1e144]: • Kubernetes, Docker und modernen DevOps-Umgebungen
+                      - listitem [ref=f1e145]: • GitLab, Git sowie einer professionellen Merge-Request- und Review-Kultur
+                      - listitem [ref=f1e146]: • (Architecture) Decision Records bzw. vergleichbaren Methoden zur nachvollziehbaren Dokumentation technischer Entscheidungen
+                      - listitem [ref=f1e147]: • KI-gestützter Softwareentwicklung und ggf. Spec-Driven Development
+                - paragraph [ref=f1e148]
+                - text: "Was wir dir bieten:"
+                - list [ref=f1e149]:
+                  - listitem [ref=f1e150]: • Die Möglichkeit zur völlig flexiblen und eigenverantwortlichen Remote-Arbeit
+                  - listitem [ref=f1e151]: • Ausgewogene Arbeitszeiten für eine gesunde Work-Life-Balance
+                  - listitem [ref=f1e152]: "• CYOD: Choose Your Own Device → Apple & Linux oder wenn es sein muss auch Windows"
+                  - listitem [ref=f1e153]: • Unterstützung für die Einrichtung eines effizienten Homeoffice-Arbeitsplatzes
+                  - listitem [ref=f1e154]: • Eine mehrwöchige Einarbeitungsphase, um optimal in die Aufgaben einzusteigen
+                  - listitem [ref=f1e155]: • Individuelle Schulungen und Weiterbildungsmöglichkeiten (intern & extern)
+                  - listitem [ref=f1e156]: • Eine offene Kommunikationskultur und die Möglichkeit, Ideen einzubringen
+                  - listitem [ref=f1e157]: • Eine 39-Stunden-Woche und 30 Urlaubstage pro Jahr
+                  - listitem [ref=f1e158]: • Regelmäßige Teamevents, um den Teamgeist zu fördern
+                  - listitem [ref=f1e159]: • Betriebliche Altersvorsorge für eine sichere Zukunft
+                  - listitem [ref=f1e160]: • Job Bike, attraktive Mitarbeiterrabatte, Urban Sports Mitgliedschaft uvm.
+              - link "Jetzt bewerben" [ref=f1e165] [cursor=pointer]:
+                - /url: https://karriere.schaefer-shop.de/application/1adb87f9-448a-47b3-9541-cea863da0c92/67961482/?version=1&timestamp=1792897509080&locale=de&msid=MTgwMA
+          - link "softgarden Arbeitgeberbewertungs-Siegel Exzellent Unternehmensbewertung – 4.69 von 5 Sternen 4.69/5 (531)" [ref=f1e169] [cursor=pointer]:
+            - /url: https://certificate.softgarden.io/schaefer-shop
+            - generic [ref=f1e170]:
+              - img "softgarden Arbeitgeberbewertungs-Siegel" [ref=f1e172]
+              - generic [ref=f1e173]:
+                - generic [ref=f1e174]: Exzellent
+                - generic "Unternehmensbewertung – 4.69 von 5 Sternen" [ref=f1e175]
+                - generic [ref=f1e196]:
+                  - text: "4.69"
+                  - emphasis [ref=f1e197]: /5 (531)
+        - generic [ref=f1e199]:
+          - generic [ref=f1e200]:
+            - link "Impressum" [ref=f1e202] [cursor=pointer]:
+              - /url: https://schaefer-shop.softgarden.io/imprint
+            - link "Datenschutz" [ref=f1e204] [cursor=pointer]:
+              - /url: https://schaefer-shop.softgarden.io/data-security
+            - link "Machine-readable job feed (JSON)" [ref=f1e206] [cursor=pointer]:
+              - /url: ../../jobs.feed.json
+          - link "powered by softgarden" [ref=f1e208] [cursor=pointer]:
+            - /url: https://softgarden.com/
+    - img "Tracker image" [ref=f1e209]
+  - complementary "Zustimmung ändern" [ref=f1e334]:
+    - button "Zustimmung ändern" [ref=f1e335] [cursor=pointer]:
+      - img "Zustimmung ändern" [ref=f1e336]
+  - alert [ref=f1e234]
+  - generic [ref=f1e236]:
+    - generic [ref=f1e237]:
+      - generic [ref=f1e238]:
+        - img "Logo" [ref=f1e240]
+        - img "QR Code" [ref=f1e241]
+      - generic [ref=f1e242]: https://karriere.schaefer-shop.de/jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+    - generic [ref=f1e243]:
+      - generic [ref=f1e244]: (Senior) Software-Architekt (m/w/d)
+      - generic [ref=f1e245]:
+        - generic [ref=f1e246]: Deutschland
+        - generic [ref=f1e251]: Vollzeit
+        - generic [ref=f1e256]: Berufserfahrene
+        - generic [ref=f1e261]: 08. Oktober 2026
+        - generic [ref=f1e266]: Remote
+      - generic [ref=f1e272]:
+        - text: "Wer wir sind:"
+        - paragraph [ref=f1e273]:
+          - strong [ref=f1e274]: "#einfach.erstklassig.arbeiten"
+        - paragraph [ref=f1e275]: "Willkommen bei Schäfer Shop, wo wir seit 1975 Arbeitsumfelder gestalten, die dich inspirieren. Als führender Anbieter von Büro- und Betriebsausstattungen in Europa sind unsere 1.000 Teammitglieder stolz auf unsere Mission:"
+        - paragraph [ref=f1e276]: Wir schaffen positive Arbeitsumfelder, die unsere Kunden erfolgreicher machen.
+        - paragraph [ref=f1e277]: Bei Schäfer Shop sind wir eine Gemeinschaft von Machern und Visionären. Unsere Kultur ist geprägt von Zusammenarbeit, Innovation und Exzellenz. Wir suchen ständig nach talentierten Menschen, die unsere Leidenschaft teilen und unsere Mission vorantreiben.
+        - paragraph [ref=f1e278]: Komm zu uns und hilf uns, die Zukunft der Arbeitswelt zu gestalten und werde Teil unserer Mission, dich erfolgreicher zu machen.
+        - paragraph [ref=f1e279]:
+          - text: Ab sofort suchen wir einen
+          - strong [ref=f1e280]:
+            - emphasis [ref=f1e281]: (Senior) Software-Architekt (m/w/d)
+          - text: für unser
+          - emphasis [ref=f1e282]
+          - strong [ref=f1e283]:
+            - emphasis [ref=f1e284]: Remote Team
+          - emphasis [ref=f1e285]: ":"
+        - text: "Was dich erwartet:"
+        - list [ref=f1e286]:
+          - listitem [ref=f1e287]:
+            - text: •
+            - strong [ref=f1e288]: "Softwarearchitektur weiterentwickeln:"
+            - text: Du gestaltest die Architektur unserer digitalen Plattformen und entwickelst gemeinsam mit den Squads technische Leitplanken weiter.
+          - listitem [ref=f1e289]:
+            - text: •
+            - strong [ref=f1e290]: "Engineering Excellence stärken:"
+            - text: Gemeinsam mit den Entwicklern verbesserst du Codequalität, Reviewkultur, Testing und Wartbarkeit.
+          - listitem [ref=f1e291]:
+            - text: •
+            - strong [ref=f1e292]: "Software aktiv entwickeln:"
+            - text: Du übernimmst konkrete Entwicklungsaufgaben und arbeitest flexibel in den Squads mit. Du bringst Dich in fachliche und technische Analysen, Lösungsdiskussionen und Reviews von Merge Requests ein.
+          - listitem [ref=f1e293]:
+            - text: •
+            - strong [ref=f1e294]: "Entwickler begleiten:"
+            - text: Du unterstützt die Entwickler durch Coaching und Mentoring und bist fachlicher Sparringspartner bei Architektur, Design und Implementierung.
+          - listitem [ref=f1e295]:
+            - text: •
+            - strong [ref=f1e296]: "Technische Entscheidungen führen:"
+            - text: Du führst wesentliche technische Entscheidungsprozesse über Teamgrenzen und Systeme hinweg. Du dokumentierst die Ergebnisse nachvollziehbar in Architecture Decision Records und vertrittst belastbare Entscheidungen.
+          - listitem [ref=f1e297]:
+            - text: •
+            - strong [ref=f1e298]: "Technische Orientierung geben:"
+            - text: Du berätst den Director, den Lead Software Engineering sowie angrenzende Rollen und Teams. Du ordnest technische Auswirkungen, Risiken und Handlungsbedarfe verständlich ein
+          - listitem [ref=f1e299]:
+            - text: •
+            - strong [ref=f1e300]: "Risiken und technische Schulden adressieren:"
+            - text: Du erkennst und bewertest wesentliche technische Risiken und technische Schulden. Du machst sie transparent, sorgst für klare Verantwortlichkeiten und stellst sicher, dass sie angemessen bearbeitet oder zur Entscheidung vorgelegt werden.
+        - paragraph [ref=f1e301]
+        - text: "Was du mitbringst:"
+        - list [ref=f1e302]:
+          - listitem [ref=f1e303]: • Mehrjährige, fundierte Erfahrung in der Entwicklung komplexer Web-Anwendungen und verteilter Softwaresysteme auf Basis von Java und Spring Boot
+          - listitem [ref=f1e304]: • Nachweisbare Erfahrung in Softwarearchitektur, Solution Design und der Weiterentwicklung bestehender Systemlandschaften
+          - listitem [ref=f1e305]: • Die Fähigkeit, technische Fragestellungen strukturiert zu analysieren, Lösungsoptionen und deren Konsequenzen abzuwägen und belastbare Entscheidungen herbeizuführen
+          - listitem [ref=f1e306]: • Eine eigenverantwortliche Arbeitsweise sowie die Fähigkeit, technische Entscheidungen verständlich zu begründen, zu dokumentieren und gegenüber unterschiedlichen Stakeholdern zu vertreten
+          - listitem [ref=f1e307]: • Praktische Erfahrung mit Architekturprinzipien, Modularisierung, HTTP, REST und API-Contract-Design sowie verteilten Architekturen wie Microservices oder Self-Contained Systems
+          - listitem [ref=f1e308]: • Sehr gutes Verständnis von Engineering Excellence, insbesondere Code-Qualität, Review-Kultur, Wartbarkeit und nachhaltigem Umgang mit technischen Schulden
+          - listitem [ref=f1e309]: • Ausgeprägte Hands-on-Mentalität und die Bereitschaft, weiterhin aktiv Software zu entwickeln und technische Lösungen gemeinsam mit den Squads umzusetzen
+          - listitem [ref=f1e310]: • Freude daran, Entwickler fachlich zu coachen, Wissen zu vermitteln und technische Diskussionen auch bei unterschiedlichen Positionen konstruktiv zu führen
+        - list [ref=f1e311]:
+          - listitem [ref=f1e312]:
+            - text: "• Vorerfahrung von Vorteil:"
+            - list [ref=f1e313]:
+              - listitem [ref=f1e314]: • E-Commerce und hochverfügbaren Web-Plattformen
+              - listitem [ref=f1e315]: • modernen Frontend-Architekturen und der Integration von Frontend und Backend, z.B. mit Next.js
+              - listitem [ref=f1e316]: • asynchroner Kommunikation und Event-driven Architecture, z. B. mit Kafka
+              - listitem [ref=f1e317]: • Kubernetes, Docker und modernen DevOps-Umgebungen
+              - listitem [ref=f1e318]: • GitLab, Git sowie einer professionellen Merge-Request- und Review-Kultur
+              - listitem [ref=f1e319]: • (Architecture) Decision Records bzw. vergleichbaren Methoden zur nachvollziehbaren Dokumentation technischer Entscheidungen
+              - listitem [ref=f1e320]: • KI-gestützter Softwareentwicklung und ggf. Spec-Driven Development
+        - paragraph [ref=f1e321]
+        - text: "Was wir dir bieten:"
+        - list [ref=f1e322]:
+          - listitem [ref=f1e323]: • Die Möglichkeit zur völlig flexiblen und eigenverantwortlichen Remote-Arbeit
+          - listitem [ref=f1e324]: • Ausgewogene Arbeitszeiten für eine gesunde Work-Life-Balance
+          - listitem [ref=f1e325]: "• CYOD: Choose Your Own Device → Apple & Linux oder wenn es sein muss auch Windows"
+          - listitem [ref=f1e326]: • Unterstützung für die Einrichtung eines effizienten Homeoffice-Arbeitsplatzes
+          - listitem [ref=f1e327]: • Eine mehrwöchige Einarbeitungsphase, um optimal in die Aufgaben einzusteigen
+          - listitem [ref=f1e328]: • Individuelle Schulungen und Weiterbildungsmöglichkeiten (intern & extern)
+          - listitem [ref=f1e329]: • Eine offene Kommunikationskultur und die Möglichkeit, Ideen einzubringen
+          - listitem [ref=f1e330]: • Eine 39-Stunden-Woche und 30 Urlaubstage pro Jahr
+          - listitem [ref=f1e331]: • Regelmäßige Teamevents, um den Teamgeist zu fördern
+          - listitem [ref=f1e332]: • Betriebliche Altersvorsorge für eine sichere Zukunft
+          - listitem [ref=f1e333]: • Job Bike, attraktive Mitarbeiterrabatte, Urban Sports Mitgliedschaft uvm.

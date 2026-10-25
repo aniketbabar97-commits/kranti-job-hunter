@@ -1,0 +1,278 @@
+- generic [ref=f91e3]:
+  - generic [ref=f91e9]:
+    - link [ref=f91e10] [cursor=pointer]:
+      - /url: https://www.apvento.de
+    - generic:
+      - navigation:
+        - generic:
+          - link "Stellenangebote":
+            - /url: ../career
+            - generic:
+              - paragraph: Stellenangebote
+        - generic:
+          - link "Über uns":
+            - /url: ../about
+            - generic:
+              - paragraph: Über uns
+        - generic:
+          - link "Leistungen":
+            - /url: ../service
+            - generic:
+              - paragraph: Leistungen
+        - generic:
+          - link "Fallstudie":
+            - /url: ../case-study
+            - generic:
+              - paragraph: Fallstudie
+    - generic [ref=f91e12]:
+      - link [ref=f91e14] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f91e16]: Kontakt
+      - generic [ref=f91e18] [cursor=pointer]
+  - generic [ref=f91e26]:
+    - generic [ref=f91e27]:
+      - generic [ref=f91e28]:
+        - generic [ref=f91e29]:
+          - generic [ref=f91e30]:
+            - generic [ref=f91e31]:
+              - generic [ref=f91e32]:
+                - img "Company Icon" [ref=f91e35]
+                - paragraph [ref=f91e37]: M/W/D
+              - heading "PHP - Entwickler" [level=6] [ref=f91e39]
+            - generic [ref=f91e40]:
+              - paragraph [ref=f91e44]: Vollzeit
+              - paragraph [ref=f91e48]: PHP Experte
+          - generic [ref=f91e49]:
+            - generic [ref=f91e50]:
+              - heading "bis zu 100.000€ p.A | je nach Qualfikation" [level=6] [ref=f91e52]
+              - heading "/pro Stunde" [level=6] [ref=f91e54]
+            - paragraph [ref=f91e56]: 48607 Ochtrup
+        - generic [ref=f91e58]:
+          - generic [ref=f91e59]:
+            - generic [ref=f91e60]:
+              - paragraph [ref=f91e62]: "Gepostet:"
+              - generic:
+                - paragraph
+            - generic [ref=f91e64]:
+              - paragraph [ref=f91e66]: "Bewerber:"
+              - generic:
+                - paragraph
+            - generic [ref=f91e68]:
+              - paragraph [ref=f91e70]: "Öffnungen:"
+              - generic:
+                - paragraph
+          - link [ref=f91e73] [cursor=pointer]:
+            - /url: ../contact
+            - paragraph [ref=f91e75]: Bewirb dich
+      - generic [ref=f91e76]:
+        - generic [ref=f91e77]:
+          - heading "💼 PHP Entwickler (m/w/d) – bis zu 100.000 € Jahresgehalt" [level=3] [ref=f91e78]
+          - paragraph [ref=f91e79]:
+            - text: 📍
+            - strong [ref=f91e80]: "Standort: Ochtrup"
+            - text: "| 🕓"
+            - strong [ref=f91e81]: Vollzeit
+            - text: "| 💰"
+            - strong [ref=f91e82]: Attraktives Gehalt bis zu 100.000 €
+          - paragraph [ref=f91e83]:
+            - text: Unser Kunde ist ein innovatives und etabliertes Unternehmen im Raum Ochtrup. Zur Verstärkung des bestehenden Entwicklerteams suchen wir einen erfahrenen
+            - strong [ref=f91e84]: PHP Entwickler (m/w/d)
+            - text: mit Leidenschaft für moderne Webtechnologien und sauberem Code.
+          - heading "Das bietet Dir unser Kunde:" [level=3] [ref=f91e85]
+          - list [ref=f91e86]:
+            - listitem [ref=f91e87]:
+              - text: •
+              - paragraph [ref=f91e88]:
+                - strong [ref=f91e89]: Top-Gehalt
+                - text: von bis zu 100.000 € jährlich (je nach Erfahrung)
+            - listitem [ref=f91e90]:
+              - text: •
+              - paragraph [ref=f91e91]: Unbefristeter Arbeitsvertrag in einem zukunftssicheren Unternehmen
+            - listitem [ref=f91e92]:
+              - text: •
+              - paragraph [ref=f91e93]: Flexible Arbeitszeiten & Möglichkeit auf Homeoffice
+            - listitem [ref=f91e94]:
+              - text: •
+              - paragraph [ref=f91e95]: Moderne Technologien & professionelle Entwicklungsumgebung
+            - listitem [ref=f91e96]:
+              - text: •
+              - paragraph [ref=f91e97]: Flache Hierarchien & ein kollegiales Team
+          - heading "Was Dich erwartet:" [level=3] [ref=f91e98]
+          - list [ref=f91e99]:
+            - listitem [ref=f91e100]:
+              - text: •
+              - paragraph [ref=f91e101]: Entwicklung und Optimierung komplexer PHP-basierter Anwendungen
+            - listitem [ref=f91e102]:
+              - text: •
+              - paragraph [ref=f91e103]: Weiterentwicklung bestehender Systeme und Schnittstellen
+            - listitem [ref=f91e104]:
+              - text: •
+              - paragraph [ref=f91e105]: Umsetzung individueller Kundenanforderungen im Backend
+            - listitem [ref=f91e106]:
+              - text: •
+              - paragraph [ref=f91e107]: Zusammenarbeit mit Frontend- und UX-Teams
+            - listitem [ref=f91e108]:
+              - text: •
+              - paragraph [ref=f91e109]: Aktive Mitgestaltung von Architekturentscheidungen
+          - heading "Dein Profil:" [level=3] [ref=f91e110]
+          - list [ref=f91e111]:
+            - listitem [ref=f91e112]:
+              - text: •
+              - paragraph [ref=f91e113]: Mehrjährige Berufserfahrung in der PHP-Entwicklung
+            - listitem [ref=f91e114]:
+              - text: •
+              - paragraph [ref=f91e115]: Sehr gute Kenntnisse in modernen Frameworks wie Laravel oder Symfony
+            - listitem [ref=f91e116]:
+              - text: •
+              - paragraph [ref=f91e117]: Sicherer Umgang mit MySQL/PostgreSQL sowie Versionsverwaltung (z. B. Git)
+            - listitem [ref=f91e118]:
+              - text: •
+              - paragraph [ref=f91e119]: Erfahrung mit REST-APIs und idealerweise Docker, CI/CD
+            - listitem [ref=f91e120]:
+              - text: •
+              - paragraph [ref=f91e121]: Selbstständige, strukturierte und lösungsorientierte Arbeitsweise
+            - listitem [ref=f91e122]:
+              - text: •
+              - paragraph [ref=f91e123]: Gute Deutschkenntnisse in Wort und Schrift
+          - heading "Jetzt bewerben!" [level=3] [ref=f91e124]
+          - paragraph [ref=f91e125]: Du möchtest Teil eines erfolgreichen Unternehmens werden, das Deine Stärken schätzt und fördert? Dann freuen wir uns auf Deine Bewerbung!
+          - paragraph [ref=f91e126]: 📧 Bewirb Dich jetzt mit Deinem Lebenslauf per E-Mail oder direkt über apvento.Für Rückfragen stehen wir Dir gerne persönlich zur Verfügung.
+        - generic [ref=f91e127]:
+          - heading "Share Job :" [level=6] [ref=f91e129]
+          - generic [ref=f91e130]:
+            - link [ref=f91e132] [cursor=pointer]:
+              - /url: https://www.facebook.com
+              - img "facebook" [ref=f91e134]
+            - link [ref=f91e136] [cursor=pointer]:
+              - /url: https://www.twitter.com
+              - img "twitter" [ref=f91e138]
+            - link [ref=f91e140] [cursor=pointer]:
+              - /url: https://www.linkedin.com
+              - img "linkedin" [ref=f91e142]
+    - generic [ref=f91e143]:
+      - generic [ref=f91e144]:
+        - paragraph [ref=f91e146]: Jobübersicht
+        - generic [ref=f91e155]:
+          - paragraph [ref=f91e157]: Jobtitel
+          - paragraph [ref=f91e159]: PHP - Entwickler
+        - generic [ref=f91e168]:
+          - paragraph [ref=f91e170]: Anstellung
+          - paragraph [ref=f91e172]: Vollzeit
+        - generic [ref=f91e181]:
+          - paragraph [ref=f91e183]: Job Kategorie
+          - paragraph [ref=f91e185]: IT & Tech
+        - generic [ref=f91e190]:
+          - paragraph [ref=f91e192]: Gender
+          - paragraph [ref=f91e194]: All
+        - generic [ref=f91e203]:
+          - paragraph [ref=f91e205]: Arbeitsort
+          - paragraph [ref=f91e207]: 48607 Ochtrup
+        - iframe [ref=f91e210]:
+          - link "Open in Maps (opens in new tab)" [ref=f92e4] [cursor=pointer]:
+            - /url: about:invalid#zClosurez
+            - text: Open in Maps
+      - generic [ref=f91e211]:
+        - paragraph [ref=f91e213]: Senden Sie uns eine Nachricht
+        - generic [ref=f91e214]:
+          - textbox [ref=f91e222]:
+            - /placeholder: Vor- und Nachname
+          - textbox [ref=f91e230]:
+            - /placeholder: Email Adresse
+          - textbox [ref=f91e238]:
+            - /placeholder: Telefonnummer
+          - textbox [ref=f91e246]:
+            - /placeholder: Ihre Nachricht
+          - button [ref=f91e249] [cursor=pointer]:
+            - paragraph [ref=f91e251]: Nachricht senden
+  - generic [ref=f91e254]:
+    - generic [ref=f91e255]:
+      - paragraph [ref=f91e260]: TOP VAKANZEN
+      - generic [ref=f91e261]:
+        - heading "Interessante Jobs" [level=1] [ref=f91e264]
+        - paragraph [ref=f91e267]: Bringen Sie Ihre Karriere zum nächsten Label eines der besten Unternehmen der Welt.
+    - generic [ref=f91e268]:
+      - link "m/w/d Steuerfachangestellte je nach Qualifikation Vollzeit Teilzeit ab sofort" [ref=f91e271] [cursor=pointer]:
+        - /url: ./steuerfachangestellte
+        - generic [ref=f91e272]:
+          - generic [ref=f91e273]:
+            - paragraph [ref=f91e278]: m/w/d
+            - heading "Steuerfachangestellte" [level=6] [ref=f91e280]
+          - generic [ref=f91e281]:
+            - paragraph [ref=f91e285]: je nach Qualifikation
+            - paragraph [ref=f91e289]: Vollzeit
+            - paragraph [ref=f91e293]: Teilzeit
+            - paragraph [ref=f91e297]: ab sofort
+      - link "m/w/d IT Administrator +5 Jahre Erfahrung IT-ADMIN Vollzeit" [ref=f91e300] [cursor=pointer]:
+        - /url: ./it-administrator
+        - generic [ref=f91e301]:
+          - generic [ref=f91e302]:
+            - paragraph [ref=f91e307]: m/w/d
+            - heading "IT Administrator" [level=6] [ref=f91e309]
+          - generic [ref=f91e310]:
+            - paragraph [ref=f91e314]: +5 Jahre Erfahrung
+            - paragraph [ref=f91e318]: IT-ADMIN
+            - paragraph [ref=f91e322]: Vollzeit
+            - generic [ref=f91e324]:
+              - generic:
+                - paragraph
+      - link [ref=f91e327] [cursor=pointer]:
+        - /url: ./fachkraft-lagerlogistik
+        - generic [ref=f91e328]:
+          - generic [ref=f91e329]:
+            - generic [ref=f91e330]:
+              - img "Company Icon" [ref=f91e333]
+              - paragraph [ref=f91e335]: M/W/D
+            - heading "Fachkraft Lagerlogistik" [level=6] [ref=f91e337]
+          - generic [ref=f91e338]:
+            - paragraph [ref=f91e342]: 5 Jahre Erfahrung
+            - paragraph [ref=f91e346]: Vollzeit
+            - paragraph [ref=f91e350]: ab sofort
+            - paragraph [ref=f91e354]: SAP
+  - contentinfo [ref=f91e357]:
+    - generic [ref=f91e359]:
+      - generic [ref=f91e360]:
+        - paragraph [ref=f91e363]: apvento ist dein verlässlicher Partner für moderne Jobsuche und professionelle Personalberatung – wir bringen Menschen und Unternehmen zusammen, die wirklich zueinander passen. Ob du einen neuen Job suchst oder die passenden Talente für dein Team – bei apvento bist du richtig!
+        - generic [ref=f91e364]:
+          - generic [ref=f91e365]:
+            - paragraph [ref=f91e367]: Unternehmen
+            - generic [ref=f91e368]:
+              - paragraph [ref=f91e370]:
+                - link "Stellenangebote" [ref=f91e371] [cursor=pointer]:
+                  - /url: ../career
+              - paragraph [ref=f91e373]:
+                - link "Über uns" [ref=f91e374] [cursor=pointer]:
+                  - /url: ../about
+              - paragraph [ref=f91e376]:
+                - link "Leistungen" [ref=f91e377] [cursor=pointer]:
+                  - /url: ../service
+              - paragraph [ref=f91e379]:
+                - link "Erfolge" [ref=f91e380] [cursor=pointer]:
+                  - /url: ../case-study
+              - paragraph [ref=f91e382]:
+                - link "DSGVO" [ref=f91e383] [cursor=pointer]:
+                  - /url: ../dsgvo
+              - paragraph [ref=f91e385]:
+                - link "Impressum" [ref=f91e386] [cursor=pointer]:
+                  - /url: ../impressum
+          - generic [ref=f91e388]:
+            - paragraph [ref=f91e390]: Social
+            - generic [ref=f91e391]:
+              - paragraph [ref=f91e393]:
+                - link "Facebook" [ref=f91e394] [cursor=pointer]:
+                  - /url: https://www.facebook.com/
+              - paragraph [ref=f91e396]:
+                - link "Instagram" [ref=f91e397] [cursor=pointer]:
+                  - /url: https://www.instagram.com/
+              - paragraph [ref=f91e399]:
+                - link "LinkedIn" [ref=f91e400] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/kazierfan/
+              - paragraph [ref=f91e402]:
+                - link "Twitter" [ref=f91e403] [cursor=pointer]:
+                  - /url: https://x.com/pentaclay
+      - generic [ref=f91e405]:
+        - paragraph [ref=f91e407]: Gronau, Germany
+        - paragraph [ref=f91e409]:
+          - link "info@apvento." [ref=f91e410] [cursor=pointer]:
+            - /url: "mailto: hello@pentaclay.com"
+          - text: de
+        - paragraph [ref=f91e412]: © 2026 all rights reserved.

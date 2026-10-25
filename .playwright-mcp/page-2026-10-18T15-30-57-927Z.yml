@@ -1,0 +1,27 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e28]:
+    - generic [ref=f1e31]:
+      - img "pathway solutions gmbh logo" [ref=f1e32]
+      - generic [ref=f1e33]:
+        - link [ref=f1e34] [cursor=pointer]:
+          - /url: https://join.com/companies/pathway-solutions550
+          - paragraph [ref=f1e35]: pathway solutions gmbh
+        - link [ref=f1e36] [cursor=pointer]:
+          - /url: https://join.com/companies/pathway-solutions550/16844394-senior-java-developer-e-commerce-accounting-and-marketplaces-remote-in-eu
+          - paragraph [ref=f1e37]: Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU
+    - generic [ref=f1e40]:
+      - heading "Upload your CV" [level=2] [ref=f1e41]
+      - generic [ref=f1e44]:
+        - button "dropzone" [ref=f1e45] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Upload file
+              - generic:
+                - paragraph: Choose a file or drag and drop it here.
+                - paragraph: The file size limit is 10 MB.
+        - button [aria-hidden] [ref=f1e46]
+    - generic [ref=f1e47]:
+      - progressbar "7%" [ref=f1e49]
+      - button "Continue" [disabled] [ref=f1e55]
+  - alert [ref=f1e26]: "pathway solutions (Remote): Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU"
+  - region "Notifications, bottom-end (alt+T)"

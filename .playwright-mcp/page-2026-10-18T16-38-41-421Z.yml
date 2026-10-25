@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Zum Hauptinhalt springen" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic:
+            - link "TMC Amplio GmbH":
+              - /url: https://tmc-amplio.de/karriere
+              - img "TMC Amplio GmbH"
+          - 'combobox "Select language, current: Deutsch" [ref=e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=e14]:
+        - link "Zurück zur Stelle" [ref=e18] [cursor=pointer]:
+          - /url: /job/2800470?display=de
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - 'heading "Web Developer — Fokus: Shopware (all genders)" [level=1] [ref=e25]'
+            - generic [ref=e26]:
+              - generic [ref=e27]: Bielefeld, Paderborn
+              - generic [ref=e32]: Voll- oder Teilzeit
+              - generic [ref=e36]: Festanstellung
+          - generic [ref=e40]: Wir haben deine Bewerbung erhalten und werden uns in Kürze bei dir melden!
+      - contentinfo [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e152]:
+            - img "Powered by Personio" [ref=e153]
+            - generic [ref=e154]:
+              - text: Powered by
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=e156]: Personio
+          - generic [ref=e157]:
+            - link "Datenschutzerklärung" [ref=e158] [cursor=pointer]:
+              - /url: /privacy-policy?language=de
+            - link "Impressum" [ref=e159] [cursor=pointer]:
+              - /url: https://tmc-amplio.de/impressum/
+  - alert [ref=e160]

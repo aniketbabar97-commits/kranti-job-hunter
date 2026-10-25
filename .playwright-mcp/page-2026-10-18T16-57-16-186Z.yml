@@ -1,0 +1,232 @@
+- generic [active] [ref=f4e1]:
+  - region [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e5]:
+        - img "Logo" [ref=f4e7]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster" [ref=f4e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f4e36]:
+        - tab "Zustimmung" [selected] [ref=f4e37] [cursor=pointer]
+        - tab "Details" [ref=f4e38] [cursor=pointer]
+        - tab "Anzeigeneinstellungen" [ref=f4e39] [cursor=pointer]
+        - tab "Über Cookies" [ref=f4e40] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=f4e42]:
+        - generic [ref=f4e44]:
+          - heading "Verantwortungsvoller Umgang mit Ihren Daten" [level=2] [ref=f4e45]
+          - generic [ref=f4e46]:
+            - text: Wir und
+            - link "unsere 1087 Partner" [ref=f4e47] [cursor=pointer]:
+              - /url: "#"
+            - text: verarbeiten Ihre persönlichen Daten, wie z. B. Ihre IP-Adresse, mithilfe von Technologien wie Cookies, um Informationen auf Ihrem Gerät zu speichern und darauf zuzugreifen und so personalisierte Werbung und Inhalte, Messungen von Werbung und Inhalten, Zielgruppenforschung sowie Entwicklung von Angeboten zu ermöglichen. Sie entscheiden darüber, wer Ihre Daten für welche Zwecke nutzt. Sie können Ihre Einwilligung jederzeit über die Cookie-Erklärung oder durch Klicken auf das Privacy Trigger Symbol ändern oder widerrufen
+            - generic [ref=f4e48]:
+              - text: "Wenn Sie es erlauben, würden wir auch gerne:"
+              - list [ref=f4e49]:
+                - listitem [ref=f4e50]: Informationen über Ihre geografische Lage erfassen, welche bis auf einige Meter genau sein können
+                - listitem [ref=f4e51]: Ihr Gerät durch aktives Scannen nach bestimmten Merkmalen (Fingerprinting) identifizieren
+            - text: Erfahren Sie mehr darüber, wie Ihre persönlichen Daten verarbeitet werden, und legen Sie Ihre Präferenzen im
+            - link "Abschnitt Einzelheiten" [ref=f4e52] [cursor=pointer]:
+              - /url: "#"
+            - text: fest.Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Weitere Informationen finden Sie in unserem
+            - link "Impressum" [ref=f4e53] [cursor=pointer]:
+              - /url: https://quis.de/legal_notice
+            - text: oder in unser
+            - link "Datenschutzerklärung" [ref=f4e54] [cursor=pointer]:
+              - /url: https://quis.de/privacy
+            - text: .
+        - group "Einwilligungsauswahl" [ref=f4e61]:
+          - generic [ref=f4e63]:
+            - generic [ref=f4e64]:
+              - strong [ref=f4e66]: Notwendig
+              - generic [ref=f4e67]:
+                - checkbox "Notwendig" [checked] [disabled]
+            - generic [ref=f4e68]:
+              - strong [ref=f4e70] [cursor=pointer]: Präferenzen
+              - switch "Präferenzen" [ref=f4e72] [cursor=pointer]
+            - generic [ref=f4e73]:
+              - strong [ref=f4e75] [cursor=pointer]: Statistiken
+              - switch "Statistiken" [ref=f4e77] [cursor=pointer]
+            - generic [ref=f4e78]:
+              - strong [ref=f4e80] [cursor=pointer]: Marketing
+              - switch "Marketing" [ref=f4e82] [cursor=pointer]
+      - generic [ref=f4e86]:
+        - button "Notwendige Cookies verwenden" [ref=f4e87] [cursor=pointer]
+        - button "Cookies zulassen" [ref=f4e88] [cursor=pointer]
+  - group [ref=f4e91]:
+    - generic [ref=f4e92] [cursor=pointer]
+  - generic [ref=f4e97]:
+    - link [ref=f4e98] [cursor=pointer]:
+      - /url: /
+      - img "QUIS logo" [ref=f4e99]
+    - list [ref=f4e101]:
+      - listitem [ref=f4e102]:
+        - group [ref=f4e103]:
+          - generic "Lösungen" [ref=f4e104]
+      - listitem [ref=f4e105]:
+        - link "Know how meets KI" [ref=f4e106] [cursor=pointer]:
+          - /url: /ai
+    - generic [ref=f4e108]:
+      - link "Anmelden" [ref=f4e109] [cursor=pointer]:
+        - /url: /users/sign_in
+      - link "Demo vereinbaren" [ref=f4e111] [cursor=pointer]:
+        - /url: https://demo.quis.de
+  - generic [ref=f4e117]:
+    - generic [ref=f4e121]:
+      - heading "Werte. Mieten. Verantwortung." [level=1] [ref=f4e122]
+      - heading "Wir helfen Wohnungen marktgerecht und zukunftsfähig zu entwickeln." [level=2] [ref=f4e124]
+    - generic [ref=f4e126]:
+      - heading "Unternehmen, die wir begleiten" [level=2] [ref=f4e127]
+      - generic [ref=f4e129]:
+        - link "Baugenossenschaft Langen eG":
+          - /url: https://www.baugenossenschaft-langen.de
+          - img "Baugenossenschaft Langen eG"
+        - link [ref=f4e130] [cursor=pointer]:
+          - /url: https://conversio-gruppe.de
+          - img "CONVERSIO | WAHRE WERTE GmbH & Co. KG" [ref=f4e131]
+        - link [ref=f4e132] [cursor=pointer]:
+          - /url: https://ev-liquidhome.de/
+          - img "Engel&Völkers Liquid Home" [ref=f4e133]
+        - link [ref=f4e134] [cursor=pointer]:
+          - /url: https://www.gebag.de/
+          - img "GEBAG Duisburger Baugesellschaft mbH" [ref=f4e135]
+        - link [ref=f4e136] [cursor=pointer]:
+          - /url: https://conversio-gruppe.de
+          - img "INP Holding AG" [ref=f4e137]
+        - link [ref=f4e138] [cursor=pointer]:
+          - /url: https://www.oh-zuhause.de/
+          - img "Oberbayerische Heimstätte Gemeinnützige Siedlungsgesellschaft mbH" [ref=f4e139]
+        - link [ref=f4e140] [cursor=pointer]:
+          - /url: http://pestlinco.de/de/
+          - img "Pestlin & Co." [ref=f4e141]
+        - link [ref=f4e142] [cursor=pointer]:
+          - /url: https://www.wertgrund.de
+          - img "WERTGRUND Immobilien AG" [ref=f4e143]
+        - link [ref=f4e144] [cursor=pointer]:
+          - /url: https://www.wankendorfer.de
+          - img "Wankendorfer Baugenossenschaft für Schleswig-Holstein eG" [ref=f4e145]
+        - link [ref=f4e146] [cursor=pointer]:
+          - /url: https://hanova.de/
+          - img "hanova Hannover" [ref=f4e147]
+    - generic [ref=f4e148]:
+      - generic [ref=f4e149]:
+        - heading "Lösungen für" [level=2] [ref=f4e150]
+        - generic [ref=f4e152]:
+          - generic [ref=f4e153]:
+            - img "Deutschlandkarte mit Standorten und Marktdaten zur Standortanalyse für Wohnungsbestand" [ref=f4e154]
+            - heading "Wohnungsunternehmen, Investoren, Fonds" [level=3] [ref=f4e155]
+            - paragraph [ref=f4e156]: QUIS Portfolio gibt Ihnen einen Überblick über Ihr gesamtes Portfolio, mit topaktuellen Mieten und Preisen, Modernisierungspotenzial und Wertentwicklung sowie Handlungsschwerpunkten.
+            - link "Mehr erfahren" [ref=f4e157] [cursor=pointer]:
+              - /url: /portfolio
+          - generic [ref=f4e158]:
+            - img "Lupe über QUIS Investmentcheck für den Wohnungsmarkt mit grafischer Auswertung von Preisen, Standorten und Infrastruktur" [ref=f4e159]
+            - heading "Projektentwickler" [level=3] [ref=f4e160]
+            - paragraph [ref=f4e161]: QUIS Standortanalyse ermöglicht es Ihnen, Standorte präzise zu analysieren und Nachfrage, Marktentwicklung sowie Mieten und Preise im Blick zu behalten.
+            - link "Mehr erfahren" [ref=f4e162] [cursor=pointer]:
+              - /url: /location_analysis
+      - heading "Intelligentes Portfolio" [level=2] [ref=f4e164]
+      - generic [ref=f4e167]:
+        - heading "Zahlen und Fakten" [level=2] [ref=f4e168]
+        - heading "Umfassende Daten für jedes Wohnquartier in Deutschland" [level=4] [ref=f4e169]
+        - generic [ref=f4e170]:
+          - generic [ref=f4e171]:
+            - generic [ref=f4e174]:
+              - generic [ref=f4e175]: 1,9 Mio.
+              - generic [ref=f4e179]: Wohnquartiere
+            - generic [ref=f4e182]:
+              - generic [ref=f4e183]: 14,3 Mio.
+              - generic [ref=f4e187]: Objekte & Preise
+            - generic [ref=f4e190]:
+              - generic [ref=f4e191]: 30+ Jahre
+              - generic [ref=f4e195]: Erfahrung
+          - link "Demo vereinbaren" [ref=f4e196] [cursor=pointer]:
+            - /url: https://demo.quis.de
+      - generic [ref=f4e198]:
+        - heading "Unsere strategischen Partnerunternehmen" [level=2] [ref=f4e199]
+        - generic [ref=f4e201]:
+          - img "BBT GmbH" [ref=f4e202]
+          - img "iwb Immobilienwirtschaftliche Beratung GmbH" [ref=f4e203]
+      - generic [ref=f4e204]:
+        - heading "Neuigkeiten zu QUIS" [level=2] [ref=f4e205]
+        - generic [ref=f4e206]:
+          - generic [ref=f4e207]:
+            - generic [ref=f4e208]:
+              - figure [ref=f4e209]:
+                - img "Deutschlandkarte mit Standortmarken, im Fokus Heidelberg und Ingolstadt" [ref=f4e211]
+              - generic [ref=f4e212]:
+                - generic [ref=f4e213]: "Wohnungsmarktreport Oktober 2026: Der Wohnimmobilienmarkt kommt in Bewegung"
+                - paragraph [ref=f4e218]: Zum 1. September 2026 wurden deutschlandweit 377.918 Wohnimmobilien angeboten und damit 20,9 % mehr als zum Vorjahreszeitpunkt. Der QUIS Wohnungsmarktreport Oktober 2026 fasst die wichtigsten Entwicklungen zusammen und wirft diesmal einen besonderen Blick auf Heidelberg und Ingolstadt. Den vollständigen QUIS-Wohnungsmarktreport können Sie hier als PDF herunterladen.
+                - link "Weiterlesen" [ref=f4e220] [cursor=pointer]:
+                  - /url: https://blog.quis.de/wohnungsmarktreport-oktober-2026
+            - generic [ref=f4e223]:
+              - figure [ref=f4e224]:
+                - 'img "Workshop Zukunftssichere Modernisierung: CO₂-Reduktion und Refinanzierung durch Mieten, 16. März 2027" [ref=f4e226]'
+              - generic [ref=f4e227]:
+                - generic [ref=f4e228]: "Zukunftssichere Modernisierung: Intelligente Investitionen für CO₂-Reduktion, refinanziert durch Mieten"
+                - paragraph [ref=f4e233]: "Die Anforderungen an die Wohnungswirtschaft werden komplexer: Klimaziele, Wirtschaftlichkeit, Mieterzufriedenheit. Doch wer hier intelligent plant, gewinnt."
+                - link "Weiterlesen" [ref=f4e235] [cursor=pointer]:
+                  - /url: https://blog.quis.de/events/workshop-zukunftssichere-modernisierung-2026
+            - generic [ref=f4e238]:
+              - figure [ref=f4e239]:
+                - img "Luftbild des Duisburger Stadtgebiets mit Wohnvierteln" [ref=f4e241]
+              - generic [ref=f4e242]:
+                - generic [ref=f4e243]: "Immobilienmarkt Duisburg 2026: Mieten steigen, Wohnungen auf Rekordniveau, Häuser stabilisieren sich"
+                - paragraph [ref=f4e248]: "Der Duisburger Immobilienmarkt zeigt sich im Herbst 2026 in robuster Verfassung, entwickelt sich aber nicht in allen Segmenten gleich. Die Mieten steigen seit 2018 ohne Unterbrechung, Eigentumswohnungen haben ihre kurze Preisdelle nach 2022 überwunden und erreichen neue Höchststände. Bestandshäuser liegen dagegen weiterhin unter ihrem Rekordniveau von 2022. Gemeinsam ist allen Segmenten: Objekte finden deutlich schneller einen Mieter oder Käufer als noch vor zwei Jahren. Wir haben die Angebotsdaten von Januar 2018 bis Oktober 2026 ausgewertet und ordnen die Prognosen bis Oktober 2027 ein."
+                - link "Weiterlesen" [ref=f4e250] [cursor=pointer]:
+                  - /url: https://blog.quis.de/immobilienmarkt-duisburg-2026-preise-mieten-prognose
+          - link "Weitere Blogartikel" [ref=f4e253] [cursor=pointer]:
+            - /url: https://blog.quis.de/
+    - generic [ref=f4e257]:
+      - heading "Kommen Sie mit uns ins Gespräch" [level=2] [ref=f4e258]
+      - generic [ref=f4e260]:
+        - paragraph [ref=f4e261]:
+          - link "+49 (40) - 60 77 09-00" [ref=f4e262] [cursor=pointer]:
+            - /url: tel:+494060770900
+          - link "info@quis.de" [ref=f4e264] [cursor=pointer]:
+            - /url: mailto:info@quis.de
+        - link "Demo vereinbaren" [ref=f4e266] [cursor=pointer]:
+          - /url: https://demo.quis.de
+  - contentinfo [ref=f4e268]:
+    - generic [ref=f4e269]:
+      - img "QUIS logo" [ref=f4e271]
+      - contentinfo [ref=f4e272]:
+        - generic [ref=f4e273]:
+          - generic [ref=f4e274]: Lösungen
+          - link "QUIS Portfolio" [ref=f4e275] [cursor=pointer]:
+            - /url: /portfolio
+          - link "QUIS Standortanalyse" [ref=f4e276] [cursor=pointer]:
+            - /url: /location_analysis?developer=
+          - link "QUIS Marktpreis-Exposé" [ref=f4e277] [cursor=pointer]:
+            - /url: /exposes
+        - generic [ref=f4e278]:
+          - generic [ref=f4e279]: Unternehmen
+          - link "Über uns" [ref=f4e280] [cursor=pointer]:
+            - /url: /about
+          - link "Karriere" [ref=f4e281] [cursor=pointer]:
+            - /url: /career
+          - link "Blog" [ref=f4e282] [cursor=pointer]:
+            - /url: https://blog.quis.de
+          - link "Events" [ref=f4e283] [cursor=pointer]:
+            - /url: https://blog.quis.de/events
+        - generic [ref=f4e284]:
+          - generic [ref=f4e285]: Rechtliches
+          - link "Impressum" [ref=f4e286] [cursor=pointer]:
+            - /url: /legal_notice
+          - link "AGB" [ref=f4e287] [cursor=pointer]:
+            - /url: /tos
+          - link "Datenschutz" [ref=f4e288] [cursor=pointer]:
+            - /url: /privacy
+        - generic [ref=f4e289]:
+          - generic [ref=f4e290]: Software
+          - link "Demo vereinbaren" [ref=f4e291] [cursor=pointer]:
+            - /url: https://demo.quis.de
+          - link "API" [ref=f4e292] [cursor=pointer]:
+            - /url: https://developer.quis.de
+      - generic [ref=f4e293]:
+        - link [ref=f4e294] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/quisde
+        - link [ref=f4e296] [cursor=pointer]:
+          - /url: https://www.facebook.com/quis.de
+        - link [ref=f4e298] [cursor=pointer]:
+          - /url: https://www.instagram.com/quis.immo
+    - contentinfo [ref=f4e300]:
+      - generic [ref=f4e301]: © 2020-2026 QUIS® ist ein Service der QUIS immo.analytics GmbH
+  - iframe [aria-hidden] [ref=f4e303]

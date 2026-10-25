@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - heading "Jobs - All for One Group" [level=1]
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#content"
+      - navigation "Header Menü" [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: https://www.all-for-one.com/
+          - img "All For One Group Logo" [ref=e9]
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Kontakt" [ref=e12] [cursor=pointer]:
+              - /url: /content/Kontakt/?locale=de_DE
+          - listitem [ref=e13]:
+            - link "Stellenangebote" [ref=e14] [cursor=pointer]:
+              - /url: https://www.all-for-one.com/de/karriere/stellenangebote/
+      - generic [ref=e16]:
+        - button "Sprache" [ref=e18] [cursor=pointer]
+        - link "Profil anzeigen" [ref=e22] [cursor=pointer]:
+          - /url: "#"
+    - main [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - heading [level=1] [ref=e29]:
+              - strong [ref=e30]: Vielen Dank für Dein Interesse an der All for One!
+            - heading "Du willst mehr über uns erfahren?" [level=6] [ref=e31]
+          - link "Zur Karriereseite" [ref=e34] [cursor=pointer]:
+            - /url: https://www.all-for-one.com/de/karriere/
+        - generic [ref=e35]:
+          - heading "Ein Blick hinter die Kulissen" [level=2] [ref=e36]
+          - region "Bild-Carousel" [ref=e39]:
+            - button "Vorige Folie" [ref=e40] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e41]: 
+            - generic [ref=e43]:
+              - group [aria-hidden] [ref=e44]:
+                - listitem [ref=e46]
+              - group [aria-hidden] [ref=e49]:
+                - listitem [ref=e51]
+              - group [aria-hidden] [ref=e54]:
+                - listitem [ref=e56]
+              - group "slide 1" [ref=e59]:
+                - listitem [ref=e61]
+              - group "slide 2" [ref=e64]:
+                - listitem [ref=e66]
+              - group "slide 3" [ref=e69]:
+                - listitem [ref=e71]
+              - group [aria-hidden] [ref=e74]:
+                - listitem [ref=e76]
+              - group [aria-hidden] [ref=e79]:
+                - listitem [ref=e81]
+              - group [aria-hidden] [ref=e84]:
+                - listitem [ref=e86]
+              - group [aria-hidden] [ref=e89]:
+                - listitem [ref=e91]
+              - group [aria-hidden] [ref=e94]:
+                - listitem [ref=e96]
+            - button "Nächste Folie" [ref=e99] [cursor=pointer]:
+              - generic [aria-hidden] [ref=e100]: 
+        - text:  
+    - contentinfo [ref=e101]:
+      - generic [ref=e104]:
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Datenschutz" [ref=e107] [cursor=pointer]:
+              - /url: https://www.all-for-one.com/de/datenschutz.html
+          - listitem [ref=e108]:
+            - link "Impressum" [ref=e109] [cursor=pointer]:
+              - /url: https://www.all-for-one.com/de/impressum.html
+          - listitem [ref=e110]:
+            - link "Cookie Policy" [ref=e111] [cursor=pointer]:
+              - /url: https://jobs.all-for-one.com/content/Cookie-Pro/?locale=de_DE
+          - listitem [ref=e112]:
+            - link "Top-Stellen" [ref=e113] [cursor=pointer]:
+              - /url: /topjobs/
+          - listitem [ref=e114]:
+            - link "Alle Stellen anzeigen" [ref=e115] [cursor=pointer]:
+              - /url: /go/Offene-Stellen/8574102/
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "Folgen Sie uns auf Instagram" [ref=e119] [cursor=pointer]:
+              - /url: https://www.instagram.com/lifeat.all.for.one/
+              - generic [ref=e120]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e124]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=e125] [cursor=pointer]:
+              - /url: https://www.facebook.com/AllforOneGroupSE/
+              - generic [ref=e126]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e129]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=e130] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/all-for-one-group-ag/
+              - generic [ref=e131]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e134]:
+            - link "Finden Sie uns auf Xing" [ref=e135] [cursor=pointer]:
+              - /url: https://www.xing.com/company/all-for-one
+              - generic [ref=e136]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e139]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=e140] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCOZrXPMbrEql2deZ6Uv_kyA
+              - generic [ref=e141]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=e146]: Copyright © 2026 All for One – Alle Rechte vorbehalten
+  - dialog "<em>Cookies</em><br/>We Need Your Permission" [ref=e149]:
+    - generic [ref=e150]:
+      - generic [ref=e152]:
+        - heading [level=2] [ref=e153]:
+          - emphasis [ref=e154]: Cookies
+          - text: We Need Your Permission
+        - generic [ref=e155]:
+          - paragraph [ref=e156]: We use cookies on our website. Some of them are strictly necessary, while others are not, but help us to improve our online offering and to operate it economically. You can consent to the use of cookies that are not strictly necessary by clicking on the "Accept all cookies" button, or you can decide otherwise by clicking on "Reject unnecessary cookies ". In addition, you can individually consent to the use of certain cookie categories by clicking on the "Manage cookie settings" button. If you consent to the use of cookies that are not strictly necessary, you also consent in accordance with Art. 49 Para. 1 S. 1 lit. a GDPR to your data being processed in the USA. The USA is assessed by the European Court of Justice as a country with an insufficient level of data protection according to EU standards. In particular, there is a risk that your data may be processed by US authorities, for control and for monitoring purposes, possibly without the possibility of legal redress. If you click on " Reject unnecessary cookies ", the transmission described above will not take place.
+          - paragraph [ref=e157]: You can call up the settings you have made via the cookie policy at any time and thus also subsequently deselect cookies at any time. There and in our privacy policy you will also find further information about the cookies used.
+          - paragraph [ref=e158]:
+            - link "Imprint" [ref=e159] [cursor=pointer]:
+              - /url: /en/cookiebanner-imprintlink.html
+            - text: "|"
+            - link "Privacy Policy" [ref=e160] [cursor=pointer]:
+              - /url: /en/cookiebanner-privacylink.html
+            - text: "|"
+            - link "Cookie Policy" [ref=e161] [cursor=pointer]:
+              - /url: /en/cookiebanner-cookiepolicylink.html
+      - generic [ref=e163]:
+        - button "Cookie Settings, Opens the preference center dialog" [ref=e164] [cursor=pointer]: Cookie Settings
+        - generic [ref=e165]:
+          - button "Reject unnecessary cookies" [ref=e166] [cursor=pointer]
+          - button "Accept all cookies" [ref=e167] [cursor=pointer]

@@ -1,0 +1,92 @@
+- generic [ref=f33e2]:
+  - link "Skip to main content" [ref=f33e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f33e4]:
+    - banner [ref=f33e6]:
+      - link "BRANDUNG" [ref=f33e9] [cursor=pointer]:
+        - /url: https://brandung.jobs.personio.de
+        - img "BRANDUNG" [ref=f33e10]
+    - main [ref=f33e11]:
+      - link "Back to job" [ref=f33e15] [cursor=pointer]:
+        - /url: /job/2546562?display=en
+      - generic [ref=f33e20]:
+        - generic [ref=f33e21]:
+          - heading "Digital Business Consultant eCommerce (m/w/d)" [level=1] [ref=f33e22]
+          - generic [ref=f33e23]:
+            - generic [ref=f33e24]: Berlin, Köln
+            - generic [ref=f33e29]: Vollzeit
+            - generic [ref=f33e33]: Festanstellung
+        - generic [ref=f33e37]:
+          - heading "Deine Bewerbung" [level=2] [ref=f33e38]
+          - generic [ref=f33e39]: Wir freuen uns über Dein Interesse an brandung GmbH. Bitte fülle das folgende kurze Formular aus. Solltest Du Schwierigkeiten mit dem Upload Deiner Daten haben, wende dich gerne per Email an career@brandung.de.
+          - group [ref=f33e42]:
+            - generic [ref=f33e43]:
+              - group "Name (required)" [ref=f33e44]:
+                - generic [ref=f33e45]:
+                  - text: Name*
+                  - generic [ref=f33e46]: (required)
+                - generic [ref=f33e47]:
+                  - generic [ref=f33e48]:
+                    - generic [ref=f33e49]: First
+                    - textbox "First" [ref=f33e50]
+                  - generic [ref=f33e52]:
+                    - generic [ref=f33e53]: Last
+                    - textbox "Last" [ref=f33e54]
+              - generic [ref=f33e57]:
+                - generic [ref=f33e58]:
+                  - text: Email*
+                  - generic [ref=f33e59]: (required)
+                - textbox "Email (required)" [ref=f33e61]:
+                  - /placeholder: yourmail@domain.com
+              - generic [ref=f33e64]:
+                - generic [ref=f33e65]:
+                  - text: Phone*
+                  - generic [ref=f33e66]: (required)
+                - textbox "Phone (required)" [ref=f33e68]:
+                  - /placeholder: +49 176 123 4455
+              - generic [ref=f33e71]:
+                - generic [ref=f33e72]:
+                  - text: Expected salary*
+                  - generic [ref=f33e73]: (required)
+                - textbox "Expected salary (required)" [ref=f33e75]:
+                  - /placeholder: Expected salary
+              - generic [ref=f33e78]:
+                - generic [ref=f33e79]: Xing/LinkedIn
+                - textbox "Xing/LinkedIn" [ref=f33e81]
+              - generic [ref=f33e84]:
+                - generic [ref=f33e85]:
+                  - text: Hast du mindestens das C1 Level deutsch und traust dir zu, im Arbeitsalltag komplett auf deutsch zu kommunizieren?*
+                  - generic [ref=f33e86]: (required)
+                - combobox "Hast du mindestens das C1 Level deutsch und traust dir zu, im Arbeitsalltag komplett auf deutsch zu kommunizieren? (required)" [ref=f33e88] [cursor=pointer]:
+                  - option "Please select" [selected]
+                  - option "Ja"
+                  - option "Nein"
+            - generic [ref=f33e89]:
+              - generic [ref=f33e90]:
+                - heading "Documents" [level=3] [ref=f33e91]
+                - generic [ref=f33e92]: Bitte lade hier die für die Stelle benötigten Bewerbungsunterlagen hoch (z.B. Lebenslauf, Anschreiben, Zeugnisse, Gehaltsvorstellung etc.).
+              - group "CV (required)" [ref=f33e93]:
+                - generic [ref=f33e94]:
+                  - text: CV*
+                  - generic [ref=f33e95]: (required)
+                - button "Add file" [ref=f33e97] [cursor=pointer]
+              - group "Other (Optional)" [ref=f33e100]:
+                - generic [ref=f33e101]:
+                  - text: Other
+                  - generic [ref=f33e102]: (Optional)
+                - button "Add file" [ref=f33e104] [cursor=pointer]
+            - button "Submit Application" [ref=f33e108] [cursor=pointer]
+    - contentinfo [ref=f33e109]:
+      - generic [ref=f33e110]:
+        - generic [ref=f33e113]:
+          - img "Powered by Personio" [ref=f33e114]
+          - generic [ref=f33e115]:
+            - text: Powered by
+            - link [ref=f33e116] [cursor=pointer]:
+              - /url: https://www.personio.com
+              - strong [ref=f33e117]: Personio
+        - generic [ref=f33e118]:
+          - link "Data privacy statement" [ref=f33e119] [cursor=pointer]:
+            - /url: /privacy-policy?language=en
+          - link "Legal Notice" [ref=f33e120] [cursor=pointer]:
+            - /url: https://www.agentur-brandung.de/impressum/

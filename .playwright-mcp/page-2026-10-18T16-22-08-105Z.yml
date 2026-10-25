@@ -1,0 +1,165 @@
+- generic [active] [ref=f11e1]:
+  - navigation [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - link [ref=f11e5] [cursor=pointer]:
+        - /url: https://www.deichmann-karriere.de
+      - generic [ref=f11e7]:
+        - button [ref=f11e8] [cursor=pointer]
+        - text:      
+  - contentinfo [aria-hidden] [ref=f11e13]:
+    - generic [ref=f11e16]:
+      - generic [ref=f11e17]:
+        - generic [ref=f11e18]: Einstieg im Verkauf
+        - list [ref=f11e19]:
+          - listitem [ref=f11e20]:
+            - link [ref=f11e21] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=f11e22]:
+            - link [ref=f11e23] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=f11e24]:
+            - link [ref=f11e25] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=f11e26]:
+            - link [ref=f11e27] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=f11e28]:
+        - generic [ref=f11e29]: Einstieg in der Zentrale und Logistik
+        - list [ref=f11e30]:
+          - listitem [ref=f11e31]:
+            - link [ref=f11e32] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=f11e33]:
+            - link [ref=f11e34] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=f11e35]:
+            - link [ref=f11e36] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=f11e37]:
+            - link [ref=f11e38] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=f11e39]:
+            - link [ref=f11e40] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=f11e41]:
+            - link [ref=f11e42] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=f11e43]:
+        - generic [ref=f11e44]: Dein Weg zu Deichmann
+        - list [ref=f11e45]:
+          - listitem [ref=f11e46]:
+            - link [ref=f11e47] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=f11e48]:
+            - link [ref=f11e49] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=f11e50]:
+            - link [ref=f11e51] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=f11e52]:
+            - link [ref=f11e53] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=f11e56]:
+      - list [ref=f11e58]:
+        - listitem [ref=f11e59]:
+          - link [ref=f11e60] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=f11e61]:
+          - link [ref=f11e62] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=f11e63]:
+          - link [ref=f11e64] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=f11e65]:
+          - link [ref=f11e66] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=f11e67]:
+          - link [ref=f11e68] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=f11e69]:
+          - link [ref=f11e70] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=f11e73]:
+        - listitem [ref=f11e74]:
+          - link [ref=f11e75] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=f11e76]: 
+            - generic [ref=f11e77]: Tiktok
+        - listitem [ref=f11e78]:
+          - link [ref=f11e79] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=f11e80]: 
+            - generic [ref=f11e81]: Instagram
+        - listitem [ref=f11e82]:
+          - link [ref=f11e83] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=f11e84]: 
+            - generic [ref=f11e85]: Youtube
+        - listitem [ref=f11e86]:
+          - link [ref=f11e87] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=f11e88]: 
+            - generic [ref=f11e89]: Linkedin
+        - listitem [ref=f11e90]:
+          - link [ref=f11e91] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=f11e92]: 
+            - generic [ref=f11e93]: Xing
+  - text: 
+  - alertdialog [ref=f11e100]:
+    - button "Dialog schließen" [ref=f11e101] [cursor=pointer]:
+      - generic [ref=f11e102]: Mit diesem Button wird der Dialog geschlossen. Seine Funktionalität ist identisch mit der des Buttons Alle Cookies ablehnen.
+    - document [ref=f11e105]:
+      - generic [ref=f11e106]:
+        - heading "Datenschutzeinstellungen" [level=2] [ref=f11e109]
+        - generic [ref=f11e110]:
+          - paragraph [ref=f11e112]: Wir nutzen Cookies auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Mit Klick auf 'Alle akzeptieren' stimmst du der Verwendung der oben genannten Cookies und Technologien sowie der Verarbeitung deiner Daten zu, einschließlich der Übermittlung an unsere Marketingpartner (Dritte). Unter 'Einstellungen' kannst du selbst bestimmen, welche Cookies du zulassen möchtest. Diese Einstellungen kannst du jederzeit ändern. Weitere Informationen findest du in unserer <a href="https://www.deichmann-karriere.de/datenschutz/" target="_blank">Datenschutzerklärung</a>.
+          - group "Es folgt eine Liste der Service-Gruppen, für die eine Einwilligung erteilt werden kann. Die erste Service-Gruppe ist essenziell und kann nicht abgewählt werden." [ref=f11e114]:
+            - list [ref=f11e116]:
+              - listitem [ref=f11e117]:
+                - generic [ref=f11e118]:
+                  - checkbox "Essenziell" [checked] [disabled] [ref=f11e119] [cursor=pointer]
+                  - generic [ref=f11e120]: Essenziell
+              - listitem [ref=f11e123]:
+                - generic [ref=f11e124]:
+                  - checkbox "Statistiken" [ref=f11e125] [cursor=pointer]
+                  - generic [ref=f11e126]: Statistiken
+              - listitem [ref=f11e129]:
+                - generic [ref=f11e130]:
+                  - checkbox "Marketing" [ref=f11e131] [cursor=pointer]
+                  - generic [ref=f11e132]: Marketing
+              - listitem [ref=f11e135]:
+                - generic [ref=f11e136]:
+                  - checkbox "Externe Medien" [ref=f11e137] [cursor=pointer]
+                  - generic [ref=f11e138]: Externe Medien
+        - generic [ref=f11e142]:
+          - button "Speichern" [ref=f11e144] [cursor=pointer]
+          - button "Allen Cookies zustimmen" [ref=f11e146] [cursor=pointer]
+          - button "Alle Cookies ablehnen" [ref=f11e148] [cursor=pointer]
+          - button "Einstellungen" [ref=f11e150] [cursor=pointer]
+      - generic [ref=f11e151]:
+        - button "Cookie-Details" [ref=f11e152] [cursor=pointer]
+        - link "Datenschutzerklärung" [ref=f11e153] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de/datenschutz/
+        - link "Impressum" [ref=f11e154] [cursor=pointer]:
+          - /url: https://www.deichmann.com/de-de/impressum/

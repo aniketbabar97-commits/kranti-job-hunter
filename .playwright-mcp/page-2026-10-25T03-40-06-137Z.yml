@@ -1,0 +1,180 @@
+- generic [active] [ref=f80e1]:
+  - text:     
+  - generic [ref=f80e19]:
+    - generic [ref=f80e20]:
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link [ref=f80e22] [cursor=pointer]:
+                    - /url: https://www.d-i-s.de/
+                    - img "D-I-S commerce engineering" [ref=f80e23]
+                  - generic:
+                    - text: 
+                    - generic [ref=f80e24] [cursor=pointer]
+      - article [ref=f80e32]:
+        - generic [ref=f80e33]:
+          - heading "Dein Weg zur D•I•S" [level=1] [ref=f80e39]
+          - generic [ref=f80e42]:
+            - generic [ref=f80e49]:
+              - heading "Du willst Teil unseres Teams werden?" [level=1] [ref=f80e51]
+              - heading "Bewirb dich jetzt!" [level=1] [ref=f80e54]
+              - paragraph [ref=f80e59]:
+                - text: "Sende uns deine Bewerbungsunterlagen gerne per E-Mail an:"
+                - strong [ref=f80e60]:
+                  - link "jobs@d-i-s.de" [ref=f80e61] [cursor=pointer]:
+                    - /url: mailto:jobs@d-i-s.de
+              - paragraph [ref=f80e65]: Du willst mehr über D-I-S und unser Team erfahren? Vernetze dich mit uns auf Social Media
+              - list [ref=f80e68]:
+                - listitem [ref=f80e69]:
+                  - link "Facebook" [ref=f80e70] [cursor=pointer]:
+                    - /url: https://www.facebook.com/dis.commerce.engineering
+                    - generic [ref=f80e71]: 
+                - listitem [ref=f80e72]:
+                  - link "Instagram" [ref=f80e73] [cursor=pointer]:
+                    - /url: https://www.instagram.com/dis_stuttgart/
+                    - generic [ref=f80e74]: 
+                - listitem [ref=f80e75]:
+                  - link "TikTok" [ref=f80e76] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@dis_stuttgart
+                    - generic [ref=f80e77]: 糧
+                - listitem [ref=f80e78]:
+                  - link "LinkedIn" [ref=f80e79] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/d-i-s-commerce-engineering
+                    - generic [ref=f80e80]: 
+                - listitem [ref=f80e81]:
+                  - link "Xing" [ref=f80e82] [cursor=pointer]:
+                    - /url: https://www.xing.com/pages/d-i-scommerceengineering
+                    - generic [ref=f80e83]: 
+            - generic [ref=f80e86]:
+              - heading "Oder fülle dieses Kontakformular aus." [level=1] [ref=f80e88]
+              - generic [ref=f80e91]:
+                - generic [ref=f80e92]:
+                  - status [ref=f80e299]: Vielen Dank für Ihre Nachricht! Wir haben Ihre Anfrage erhalten und melden uns schnellstmöglich bei Ihnen.
+                  - list
+                - form "Contact form" [ref=f80e93]:
+                  - generic [ref=f80e94]:
+                    - paragraph [ref=f80e97]:
+                      - textbox "Name *" [ref=f80e99]
+                    - paragraph [ref=f80e102]:
+                      - textbox "E-Mail *" [ref=f80e104]
+                    - paragraph [ref=f80e107]:
+                      - textbox "Telefonnummer" [ref=f80e109]
+                    - paragraph [ref=f80e112]:
+                      - textbox "Firma *" [ref=f80e114]
+                    - paragraph [ref=f80e117]:
+                      - textbox "Website" [ref=f80e119]
+                    - paragraph [ref=f80e121]:
+                      - textbox "Nachricht" [ref=f80e123]
+                    - paragraph [ref=f80e125]:
+                      - generic [ref=f80e129]:
+                        - checkbox "* Ich stimme der Datenschutzerklärung zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden." [ref=f80e130] [cursor=pointer]: 
+                        - generic [ref=f80e131]:
+                          - text: "* Ich stimme der"
+                          - link "Datenschutzerklärung" [ref=f80e132] [cursor=pointer]:
+                            - /url: /datenschutz
+                          - text: zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden.
+                    - paragraph [ref=f80e136]:
+                      - button "Senden" [disabled] [ref=f80e137]
+                  - generic [aria-hidden] [ref=f80e300]: Vielen Dank für Ihre Nachricht! Wir haben Ihre Anfrage erhalten und melden uns schnellstmöglich bei Ihnen.
+    - generic [ref=f80e150]:
+      - generic [ref=f80e151]:
+        - generic [ref=f80e154]:
+          - link [ref=f80e156] [cursor=pointer]:
+            - /url: https://www.d-i-s.de/
+            - img "Logo-weiss-V5" [ref=f80e158]
+          - generic [ref=f80e160]: Friedrichstr. 37 70174 Stuttgart
+          - generic [ref=f80e163]: info@d-i-s.de
+          - generic [ref=f80e165]: "Tel.: +49 (0)711–3511803"
+          - list [ref=f80e169]:
+            - listitem [ref=f80e170]:
+              - link "Facebook" [ref=f80e171] [cursor=pointer]:
+                - /url: https://www.facebook.com/dis.commerce.engineering
+                - generic [ref=f80e172]: 
+            - listitem [ref=f80e173]:
+              - link "Instagram" [ref=f80e174] [cursor=pointer]:
+                - /url: https://www.instagram.com/dis_stuttgart/
+                - generic [ref=f80e175]: 
+            - listitem [ref=f80e176]:
+              - link "TikTok" [ref=f80e177] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@dis_stuttgart
+                - generic [ref=f80e178]: 糧
+            - listitem [ref=f80e179]:
+              - link "LinkedIn" [ref=f80e180] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/d-i-s-commerce-engineering
+                - generic [ref=f80e181]: 
+            - listitem [ref=f80e182]:
+              - link "Xing" [ref=f80e183] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/d-i-scommerceengineering
+                - generic [ref=f80e184]: 
+        - generic [ref=f80e187]:
+          - link "Leistungen" [ref=f80e189] [cursor=pointer]:
+            - /url: https://d-i-s.de/leistungen/
+          - list [ref=f80e194]:
+            - listitem [ref=f80e195]:
+              - link "E-Commerce Beratung" [ref=f80e196] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-beratung/
+            - listitem [ref=f80e199]:
+              - link "E-Commerce Entwicklung" [ref=f80e200] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-entwicklung/
+            - listitem [ref=f80e203]:
+              - link "E-Commerce Support" [ref=f80e204] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-support/
+            - listitem [ref=f80e207]:
+              - link "Shopware" [ref=f80e208] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/shopware/
+        - generic [ref=f80e214]:
+          - link "Marketing" [ref=f80e216] [cursor=pointer]:
+            - /url: https://d-i-s.de/leistungen/e-commerce-marketing/
+          - list [ref=f80e221]:
+            - listitem [ref=f80e222]:
+              - link "SEO" [ref=f80e223] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/seo/
+            - listitem [ref=f80e226]:
+              - link "SEA" [ref=f80e227] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/sea/
+            - listitem [ref=f80e230]:
+              - link "E-Mail Marketing" [ref=f80e231] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/e-mail-marketing/
+            - listitem [ref=f80e234]:
+              - link "KI-Optimierung" [ref=f80e235] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/ki-optimierung/
+        - generic [ref=f80e241]:
+          - link "Agentur" [ref=f80e243] [cursor=pointer]:
+            - /url: https://d-i-s.de/agentur/
+          - list [ref=f80e248]:
+            - listitem [ref=f80e249]:
+              - link "Das Team" [ref=f80e250] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f80e253]:
+              - link "Karriere" [ref=f80e254] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f80e257]:
+              - link "Kontakt" [ref=f80e258] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f80e261]:
+              - link "Glossar" [ref=f80e262] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/glossar/
+            - listitem [ref=f80e265]:
+              - link "Magazin" [ref=f80e266] [cursor=pointer]:
+                - /url: https://www.d-i-s.de/magazin/
+      - generic [ref=f80e271]:
+        - list [ref=f80e278]:
+          - listitem [ref=f80e279]:
+            - link "Impressum" [ref=f80e280] [cursor=pointer]:
+              - /url: https://www.d-i-s.de/impressum/
+          - listitem [ref=f80e283]:
+            - link "Datenschutz" [ref=f80e284] [cursor=pointer]:
+              - /url: https://www.d-i-s.de/datenschutz/
+          - listitem [ref=f80e287]:
+            - link "AGB" [ref=f80e288] [cursor=pointer]:
+              - /url: https://www.d-i-s.de/agb/
+        - generic [ref=f80e291]: 2026, All rights reserved.
+  - button "Einwilligung verwalten" [ref=f80e296] [cursor=pointer]
+  - tooltip "Tooltip content"
+  - iframe [ref=f80e18]:
+    - generic [ref=f81e6]:
+      - text: protected by
+      - strong [ref=f81e7]: reCAPTCHA

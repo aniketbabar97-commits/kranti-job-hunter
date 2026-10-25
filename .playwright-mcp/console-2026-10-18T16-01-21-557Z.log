@@ -1,0 +1,22 @@
+[     470ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[     475ms] [LOG] JQMIGRATE: Migrate plugin loaded multiple times @ https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js:1
+[     475ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js:1
+[     478ms] [LOG] JQMIGRATE: Migrate is installed, version 1.4.1 @ https://jobsearch.createyourowncareer.com/platform/js/jquery/jquery-migrate-1.4.1.js:22
+[     669ms] [WARNING] Talent Connect not found on window.j2w.TC. Cannot apply profile login override. @ https://csbep-srbertelsmann-prod.web.app/init.js:281
+[     804ms] [WARNING] Talent Connect not found on window.j2w.TC. Cannot apply profile login override. @ https://csbep-srbertelsmann-prod.web.app/init.js:281
+[     813ms] [LOG] href: https://jobsearch.createyourowncareer.com/Arvato_Systems/job/G%C3%BCtersloh-Lead-Consultant-SAP-CX-CRM-%28mwd%29/1412072733/ @ https://jobsearch.createyourowncareer.com/Arvato_Systems/job/G%C3%BCtersloh-Lead-Consultant-SAP-CX-CRM-%28mwd%29/1412072733/:1235
+[     814ms] [LOG] found: https://jobsearch.createyourowncareer.com @ https://jobsearch.createyourowncareer.com/Arvato_Systems/job/G%C3%BCtersloh-Lead-Consultant-SAP-CX-CRM-%28mwd%29/1412072733/:864
+[     833ms] [LOG] DOM fully loaded and parsed. @ https://csbep-srbertelsmann-prod.web.app/init.js:314
+[     834ms] [LOG] Looking for apply link with selector "div.applylink > a.apply": [a.btn.btn-primary.btn-large.btn-lg.apply.dialogApplyBtn, a.btn.btn-primary.btn-large.btn-lg.apply.dialogApplyBtn] @ https://csbep-srbertelsmann-prod.web.app/init.js:319
+[     887ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://jobsearch.createyourowncareer.com/platform/js/j2w/j2w.bootstrap.dropdown.js:49:67)
+    at e (https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:1:30004)
+    at t (https://performancemanager5.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:1:30306)
+[     888ms] Uncaught NotSupportedError: Failed to execute 'define' on 'CustomElementRegistry': the name "csb-loader" has already been used with this registry
+    at injectLoader (https://csbep-srarvsys-prod.web.app/assets/init.js:253:27)
+    at loadCustomScripts (https://csbep-srarvsys-prod.web.app/assets/init.js:182:8)
+    at <anonymous> (https://csbep-srarvsys-prod.web.app/assets/init.js:269:8)
+    at <anonymous> (https://csbep-srarvsys-prod.web.app/assets/init.js:273:2)
+[     873ms] [LOG] Profile login override applied with URL: https://jobs.smartrecruiters.com/my-applications/Bertelsmann-Jobs/input-email?dcr_ci=Bertelsmann-Jobs @ https://csbep-srbertelsmann-prod.web.app/init.js:290
+[    1782ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://csbep-srarvsys-prod.web.app/build/p-62baf02a.entry.js:3
+[    1832ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://csbep-srarvsys-prod.web.app/build/p-62baf02a.entry.js:3

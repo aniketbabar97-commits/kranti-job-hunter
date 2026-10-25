@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - link "Zum Inhalt springen" [ref=e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=e3]:
+    - banner:
+      - navigation [ref=e5]:
+        - generic [ref=e6]:
+          - link [ref=e7] [cursor=pointer]:
+            - /url: /
+            - figure [ref=e8]:
+              - img "Bader_Logo" [ref=e9]
+          - generic [ref=e11] [cursor=pointer]
+    - main [ref=e15]:
+      - generic [ref=e18]:
+        - generic [ref=e21]:
+          - 'heading "BADER Karriere Pforzheim: Arbeiten mit Perspektive" [level=1] [ref=e22]'
+          - paragraph [ref=e23]:
+            - strong [ref=e24]: Tradition trifft Moderne – Wir als inhabergeführtes Familienunternehmen wachsen und wir suchen neue Mitarbeiter, die uns dabei unterstützen.
+          - paragraph
+          - paragraph [ref=e25]: Sind Sie auf der Suche nach einem sicheren Arbeitsplatz in einem stabilen, familiengeführten Unternehmen, das Werte wie Zusammenhalt und Vertrauen hochhält? Möchten Sie in einem Umfeld arbeiten, das sowohl neue Herausforderungen als auch vielfältige Entwicklungsmöglichkeiten bietet? Wenn Sie motiviert, teamfähig und kreativ sind, dann sind Sie bei uns genau richtig! Bei BADER erwarten Sie nicht nur spannende Aufgaben, sondern auch flache Hierarchien, die eine enge Zusammenarbeit und einen familiären Umgang fördern. Werden Sie Teil unserer Geschichte und gestalten Sie die Zukunft mit uns!Wir freuen uns auf die Zusammenarbeit mit Ihnen!
+          - paragraph [ref=e27]:
+            - emphasis [ref=e28]: Ihre Familie Bader
+        - generic [ref=e30]:
+          - heading "Wir freuen uns auf Sie!" [level=2] [ref=e31]
+          - figure [ref=e32]:
+            - img "Das BADER Team" [ref=e33]
+          - paragraph [ref=e35]: BADER ist ein Multichannel-Distanzhändler mit über 95-jähriger Geschichte. Familiengeführt in dritter Generation gehört BADER zu den attraktivsten Arbeitgebern der Region. Eine Kultur des Miteinanders sichert den wirtschaftlichen Erfolg in einem Unternehmen mit flachen Hierarchien und kurzen Wegen. BADER wächst und entwickelt sich stetig weiter – deshalb freuen wir uns, wenn auch Sie bald unser BADER-Team unterstützen.
+          - paragraph [ref=e36]:
+            - text: Jetzt einfach und schnell in einer Minute über unsere Bewerberseite online über unseren
+            - link "Stellenmarkt" [ref=e37] [cursor=pointer]:
+              - /url: /stellenmarkt
+            - text: oder eine
+            - link "Initiativbewerbung" [ref=e38] [cursor=pointer]:
+              - /url: /initiativbewerbung
+            - text: bewerben.
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - link [ref=e42] [cursor=pointer]:
+              - /url: /stellenmarkt
+              - img "Gruppenbild der Mitarbeiter" [ref=e43]
+            - link "Stellenmarkt" [ref=e44] [cursor=pointer]:
+              - /url: /stellenmarkt
+          - generic [ref=e45]:
+            - link [ref=e46] [cursor=pointer]:
+              - /url: /benefits
+              - img "4 junge Damen sitzen zusammen" [ref=e47]
+            - link "Unsere Benefits" [ref=e48] [cursor=pointer]:
+              - /url: /benefits
+          - generic [ref=e49]:
+            - link [ref=e50] [cursor=pointer]:
+              - /url: /initiativbewerbung
+              - img "Glücklicher Mitarbeiter am Laptop" [ref=e51]
+            - link "Initiativbewerbung" [ref=e52] [cursor=pointer]:
+              - /url: /initiativbewerbung
+          - generic [ref=e53]:
+            - link [ref=e54] [cursor=pointer]:
+              - /url: /ausbildung-studium
+              - img "Gruppenbild von Azubis und Studenten" [ref=e55]
+            - link "Ausbildung/Duales Studium" [ref=e56] [cursor=pointer]:
+              - /url: /ausbildung-studium
+    - contentinfo [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - figure [ref=e61]
+            - paragraph [ref=e62]: Seit 1929 steht BADER für Qualität und erstklassigen Service. Werden Sie Teil unserer Erfolgsgeschichte und gestalten Sie die Zukunft des Versandhandels mit uns.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - heading [level=2] [ref=e65]:
+                - strong [ref=e66]: Karriere
+              - paragraph [ref=e67]:
+                - link "Stellenmarkt" [ref=e68] [cursor=pointer]:
+                  - /url: /stellenmarkt
+                - link "Unsere Benefits" [ref=e69] [cursor=pointer]:
+                  - /url: /benefits
+                - link "Ausbildung/Studium" [ref=e70] [cursor=pointer]:
+                  - /url: /ausbildung-studium/
+            - generic [ref=e71]:
+              - heading [level=2] [ref=e72]:
+                - strong [ref=e73]: Rechtliches
+              - paragraph [ref=e74]:
+                - link "Impressum" [ref=e75] [cursor=pointer]:
+                  - /url: /impressum
+                - link "Datenschutz" [ref=e76] [cursor=pointer]:
+                  - /url: /datenschutz
+        - paragraph [ref=e78]:
+          - text: "Ein Klick zum Webshop:"
+          - link "www.bader.de" [ref=e79] [cursor=pointer]:
+            - /url: https://www.bader.de

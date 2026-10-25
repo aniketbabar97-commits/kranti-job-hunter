@@ -1,0 +1,19 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e27]:
+    - banner [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - img "Ares GmbH" [ref=f1e31]
+        - generic [ref=f1e32]:
+          - link [ref=f1e33] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21
+            - paragraph [ref=f1e34]: Ares GmbH
+          - link [ref=f1e35] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21/16307949
+            - paragraph [ref=f1e36]: IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung
+    - generic [ref=f1e38]:
+      - generic [ref=f1e44]:
+        - paragraph [ref=f1e45]: Wir haben Ihnen einen sicheren Anmeldelink gesendet
+        - heading "Prüfen Sie Ihren Posteingang" [level=2] [ref=f1e46]
+      - button "Link erneut senden" [disabled] [ref=f1e47]
+  - alert [ref=f1e26]
+  - region "Notifications, bottom-end (alt+T)"

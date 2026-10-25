@@ -1,0 +1,126 @@
+- generic [active] [ref=f24e1]:
+  - banner [ref=f24e2]:
+    - generic [ref=f24e4]:
+      - link [ref=f24e5] [cursor=pointer]:
+        - /url: /
+      - button [ref=f24e23] [cursor=pointer]
+  - generic [ref=f24e27]:
+    - generic [ref=f24e28]:
+      - link "Karriere" [ref=f24e29] [cursor=pointer]:
+        - /url: /career
+      - navigation [ref=f24e34]:
+        - link "Design, Product & Creative" [ref=f24e35] [cursor=pointer]:
+          - /url: /career/categories/design-product-creative
+        - link "E-Commerce" [ref=f24e36] [cursor=pointer]:
+          - /url: /career/categories/ecommerce
+        - link "Sales, Retail & Outlet" [ref=f24e37] [cursor=pointer]:
+          - /url: /career/categories/sales-retail-outlet
+        - link "Central Functions" [ref=f24e38] [cursor=pointer]:
+          - /url: /career/categories/central-functions
+        - link "Internationale Jobs" [ref=f24e39] [cursor=pointer]:
+          - /url: /career/categories/international
+        - link "Ausbildung, Studium & Praktikum" [ref=f24e40] [cursor=pointer]:
+          - /url: /career/categories/ausbildung-studium-praktikum
+        - link "Alle Jobs" [ref=f24e41] [cursor=pointer]:
+          - /url: /career/job-search
+    - heading "E-Commerce" [level=1] [ref=f24e43]
+    - generic [ref=f24e45]:
+      - generic [ref=f24e46]:
+        - heading "Foto- und Videoproduktion" [level=3] [ref=f24e47]
+        - paragraph [ref=f24e48]: Du hast Lust darauf, Teil unserer eigenen Foto- und Videoproduktionen von CECIL, Street One und Street One MEN zu werden? Starte deine eigene Bewerbungskampagne bei der CBR.
+        - link "Zu den Jobs" [ref=f24e50] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=120
+      - generic [ref=f24e51]:
+        - heading "Performance Marketing" [level=3] [ref=f24e52]
+        - paragraph [ref=f24e53]: "It´s all about the right slash! Digitale Werbekampagnen, Influencer Marketing, Clickrates, Conversion Rates, Digital Impressions, Hashtags & Key Words auf Instagram, Facebook und Co. Du weißt, wie es läuft? #hiergehtszudeinerpromotion"
+        - link "Zu den Jobs" [ref=f24e55] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=126
+      - generic [ref=f24e56]:
+        - heading "Marktplätze" [level=3] [ref=f24e57]
+        - paragraph [ref=f24e58]: Du hast Lust auf die Betreuung unserer externen Marktplätze und Partner wie beispielsweise About You, Amazon, Otto und Zalando? Dann platziere dich als erstes direkt bei uns.
+        - link "Zu den Jobs" [ref=f24e60] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=132
+      - generic [ref=f24e61]:
+        - heading "Content & CRM" [level=3] [ref=f24e62]
+        - paragraph [ref=f24e63]: Du weißt, dass es regelmäßig neuen Contents bedarf, um dein Netzwerk im Loop zu halten? Du kreierst regelmäßig neuen Content, informierst unsere Kundinnen und Kunden über Newsletter sowie Printmailings zu neuen Kampagnen und Aktionen. Hier geht es zu unserem Stellenticker.
+        - link "Zu den Jobs" [ref=f24e65] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=174
+      - generic [ref=f24e66]:
+        - heading "Online Grafik" [level=3] [ref=f24e67]
+        - paragraph [ref=f24e68]: Du hast Lust, dich kreativ in den Look unserer Online-Shops einzubringen? Dann setz dich bei uns in Szene.
+        - link "Zu den Jobs" [ref=f24e70] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=180
+      - paragraph [ref=f24e71]
+    - link [ref=f24e73] [cursor=pointer]:
+      - /url: /career/job-search?selectedDepartment=186
+      - button "Weitere Jobs im E-Commerce" [ref=f24e74]
+  - contentinfo [ref=f24e75]:
+    - generic [ref=f24e76]:
+      - heading "Du möchtest uns kontaktieren?" [level=3] [ref=f24e78]
+      - generic [ref=f24e79]:
+        - generic [ref=f24e80]: Julia Stirnberg
+        - link:
+          - /url: "mailto: "
+    - generic [ref=f24e81]:
+      - generic [ref=f24e82]:
+        - heading "Marken" [level=4] [ref=f24e83]
+        - generic [ref=f24e84]:
+          - generic [ref=f24e85]:
+            - generic [ref=f24e86]: Cecil
+            - generic [ref=f24e87]:
+              - link [ref=f24e88] [cursor=pointer]:
+                - /url: https://www.facebook.com/MeinCECIL/
+              - link [ref=f24e91] [cursor=pointer]:
+                - /url: https://www.instagram.com/meincecil/
+          - generic [ref=f24e94]:
+            - generic [ref=f24e95]: Street One
+            - generic [ref=f24e96]:
+              - link [ref=f24e97] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f24e100] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+          - generic [ref=f24e103]:
+            - generic [ref=f24e104]: Street One Men
+            - generic [ref=f24e105]:
+              - link [ref=f24e106] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f24e109] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+      - generic [ref=f24e112]:
+        - heading "Adresse" [level=4] [ref=f24e113]
+        - generic [ref=f24e114]:
+          - generic [ref=f24e115]:
+            - generic [ref=f24e116]: CBR Service GmbH
+            - generic [ref=f24e117]: People & Culture
+            - generic [ref=f24e118]: Imkerstraße 4
+            - generic [ref=f24e119]: 30916 Isernhagen
+            - generic [ref=f24e120]: Germany
+          - link "recruiting@cbr.de" [ref=f24e122] [cursor=pointer]:
+            - /url: mailto:recruiting@cbr.de
+          - generic [ref=f24e123]:
+            - link [ref=f24e124] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/cbrfashiongroup
+            - link [ref=f24e127] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/cbr-fashion
+      - navigation [ref=f24e130]:
+        - heading "Links" [level=4] [ref=f24e131]
+        - list [ref=f24e132]:
+          - listitem [ref=f24e133]:
+            - link "Impressum" [ref=f24e134] [cursor=pointer]:
+              - /url: /imprint
+          - listitem [ref=f24e135]:
+            - link "Datenschutz" [ref=f24e136] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f24e137]:
+            - link "Partner" [ref=f24e138] [cursor=pointer]:
+              - /url: /partner
+          - listitem [ref=f24e139]:
+            - link "Investor Relations" [ref=f24e140] [cursor=pointer]:
+              - /url: /investor-relations
+          - listitem [ref=f24e141]:
+            - link "Presse" [ref=f24e142] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=f24e143]:
+            - link "Compliance" [ref=f24e144] [cursor=pointer]:
+              - /url: /compliance
+  - alert [ref=f24e145]

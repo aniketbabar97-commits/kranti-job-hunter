@@ -1,0 +1,773 @@
+- generic [ref=f28e6]:
+  - 'heading "Bewerbung auf die Position: Domain Lead (m/w/d) E-Commerce IT" [level=1] [ref=f28e7]'
+  - generic [ref=f28e8]:
+    - generic [ref=f28e10]:
+      - generic [ref=f28e11]:
+        - heading "Persönliche Angaben  Pflichtangaben" [level=3] [ref=f28e12]:
+          - text: Persönliche Angaben
+          - generic [ref=f28e13]:
+            - generic [ref=f28e14]: 
+            - text: Pflichtangaben
+        - generic [ref=f28e15]:
+          - generic [ref=f28e16]: Anrede
+          - combobox "Anrede" [ref=f28e17]:
+            - option [selected]
+            - option "Herr"
+            - option "Frau"
+            - option "Neutrale Anrede"
+        - generic [ref=f28e18]:
+          - generic [ref=f28e19]: Titel
+          - textbox "Titel" [ref=f28e20]
+        - generic [ref=f28e21]:
+          - generic [ref=f28e22]: Vorname
+          - textbox "Vorname" [ref=f28e23]
+          - generic [ref=f28e24] [cursor=pointer]: 
+        - generic [ref=f28e25]:
+          - generic [ref=f28e26]: Nachname
+          - textbox "Nachname" [ref=f28e27]
+          - generic [ref=f28e28] [cursor=pointer]: 
+        - generic [ref=f28e29]:
+          - generic [ref=f28e30]: Straße, Hausnr.
+          - textbox "Straße, Hausnr." [ref=f28e31]
+          - generic [ref=f28e32] [cursor=pointer]: 
+        - generic [ref=f28e33]:
+          - generic [ref=f28e34]: PLZ, Ort
+          - textbox "PLZ, Ort" [ref=f28e35]
+          - textbox "Ort" [ref=f28e36]
+          - generic [ref=f28e37] [cursor=pointer]: 
+        - generic [ref=f28e38]:
+          - generic [ref=f28e39]: Land
+          - combobox "Land" [ref=f28e40]:
+            - option "Bitte wählen..."
+            - option "Belgien"
+            - option "Dänemark"
+            - option "Deutschland" [selected]
+            - option "Frankreich"
+            - option "Italien"
+            - option "Liechtenstein"
+            - option "Luxemburg"
+            - option "Niederlande"
+            - option "Norwegen"
+            - option "Österreich"
+            - option "Polen"
+            - option "Schweden"
+            - option "Schweiz"
+            - option "Slowakei"
+            - option "Slowenien"
+            - option "Spanien"
+            - option "Tschechien"
+            - option "Ungarn"
+            - option "Vereinigtes Königreich"
+            - option "Afghanistan"
+            - option "Ägypten"
+            - option "Ålandinseln"
+            - option "Albanien"
+            - option "Algerien"
+            - option "Amerikanische Jungferninseln"
+            - option "Amerikanische Überseeinseln"
+            - option "Amerikanisch-Samoa"
+            - option "Andorra"
+            - option "Angola"
+            - option "Anguilla"
+            - option "Antarktis"
+            - option "Antigua und Barbuda"
+            - option "Äquatorialguinea"
+            - option "Argentinien"
+            - option "Armenien"
+            - option "Aruba"
+            - option "Aserbaidschan"
+            - option "Äthiopien"
+            - option "Australien"
+            - option "Bahamas"
+            - option "Bahrain"
+            - option "Bangladesch"
+            - option "Barbados"
+            - option "Belarus"
+            - option "Belize"
+            - option "Benin"
+            - option "Bermuda"
+            - option "Bhutan"
+            - option "Bolivien"
+            - option "Bosnien und Herzegowina"
+            - option "Botsuana"
+            - option "Bouvetinsel"
+            - option "Brasilien"
+            - option "Britische Jungferninseln"
+            - option "Britisches Territorium im Indischen Ozean"
+            - option "Brunei Darussalam"
+            - option "Bulgarien"
+            - option "Burkina Faso"
+            - option "Burundi"
+            - option "Cabo Verde"
+            - option "Chile"
+            - option "China"
+            - option "Cookinseln"
+            - option "Costa Rica"
+            - option "Côte d’Ivoire"
+            - option "Curaçao"
+            - option "Dominica"
+            - option "Dominikanische Republik"
+            - option "Dschibuti"
+            - option "Ecuador"
+            - option "El Salvador"
+            - option "Eritrea"
+            - option "Estland"
+            - option "Eswatini"
+            - option "Falklandinseln"
+            - option "Färöer"
+            - option "Fidschi"
+            - option "Finnland"
+            - option "Französische Süd- und Antarktisgebiete"
+            - option "Französisch-Guayana"
+            - option "Französisch-Polynesien"
+            - option "Gabun"
+            - option "Gambia"
+            - option "Georgien"
+            - option "Ghana"
+            - option "Gibraltar"
+            - option "Grenada"
+            - option "Griechenland"
+            - option "Grönland"
+            - option "Guadeloupe"
+            - option "Guam"
+            - option "Guatemala"
+            - option "Guernsey"
+            - option "Guinea"
+            - option "Guinea-Bissau"
+            - option "Guyana"
+            - option "Haiti"
+            - option "Heard und McDonaldinseln"
+            - option "Honduras"
+            - option "Indien"
+            - option "Indonesien"
+            - option "Irak"
+            - option "Iran"
+            - option "Irland"
+            - option "Island"
+            - option "Isle of Man"
+            - option "Israel"
+            - option "Jamaika"
+            - option "Japan"
+            - option "Jemen"
+            - option "Jersey"
+            - option "Jordanien"
+            - option "Kaimaninseln"
+            - option "Kambodscha"
+            - option "Kamerun"
+            - option "Kanada"
+            - option "Kasachstan"
+            - option "Katar"
+            - option "Kenia"
+            - option "Kirgisistan"
+            - option "Kiribati"
+            - option "Kokosinseln"
+            - option "Kolumbien"
+            - option "Komoren"
+            - option "Kongo-Brazzaville"
+            - option "Kongo-Kinshasa"
+            - option "Kosovo"
+            - option "Kroatien"
+            - option "Kuba"
+            - option "Kuwait"
+            - option "Laos"
+            - option "Lesotho"
+            - option "Lettland"
+            - option "Libanon"
+            - option "Liberia"
+            - option "Libyen"
+            - option "Litauen"
+            - option "Madagaskar"
+            - option "Malawi"
+            - option "Malaysia"
+            - option "Malediven"
+            - option "Mali"
+            - option "Malta"
+            - option "Marokko"
+            - option "Marshallinseln"
+            - option "Martinique"
+            - option "Mauretanien"
+            - option "Mauritius"
+            - option "Mayotte"
+            - option "Mexiko"
+            - option "Mikronesien"
+            - option "Monaco"
+            - option "Mongolei"
+            - option "Montenegro"
+            - option "Montserrat"
+            - option "Mosambik"
+            - option "Myanmar"
+            - option "Namibia"
+            - option "Nauru"
+            - option "Nepal"
+            - option "Neukaledonien"
+            - option "Neuseeland"
+            - option "Nicaragua"
+            - option "Niger"
+            - option "Nigeria"
+            - option "Niue"
+            - option "Nördliche Marianen"
+            - option "Nordmazedonien"
+            - option "Norfolkinsel"
+            - option "Oman"
+            - option "Pakistan"
+            - option "Palästinensische Autonomiegebiete"
+            - option "Palau"
+            - option "Panama"
+            - option "Papua-Neuguinea"
+            - option "Paraguay"
+            - option "Peru"
+            - option "Philippinen"
+            - option "Pitcairninseln"
+            - option "Portugal"
+            - option "Puerto Rico"
+            - option "Republik Moldau"
+            - option "Réunion"
+            - option "Ruanda"
+            - option "Rumänien"
+            - option "Russland"
+            - option "Salomonen"
+            - option "Sambia"
+            - option "Samoa"
+            - option "San Marino"
+            - option "São Tomé und Príncipe"
+            - option "Saudi-Arabien"
+            - option "Senegal"
+            - option "Serbien"
+            - option "Seychellen"
+            - option "Sierra Leone"
+            - option "Simbabwe"
+            - option "Singapur"
+            - option "Somalia"
+            - option "Sonderverwaltungsregion Hongkong"
+            - option "Sonderverwaltungsregion Macau"
+            - option "Spitzbergen und Jan Mayen"
+            - option "Sri Lanka"
+            - option "St. Barthélemy"
+            - option "St. Helena"
+            - option "St. Kitts und Nevis"
+            - option "St. Lucia"
+            - option "St. Martin"
+            - option "St. Pierre und Miquelon"
+            - option "St. Vincent und die Grenadinen"
+            - option "Südafrika"
+            - option "Sudan"
+            - option "Südgeorgien und die Südlichen Sandwichinseln"
+            - option "Südkorea"
+            - option "Suriname"
+            - option "Syrien"
+            - option "Tadschikistan"
+            - option "Taiwan"
+            - option "Tansania"
+            - option "Thailand"
+            - option "Timor-Leste"
+            - option "Togo"
+            - option "Tokelau"
+            - option "Tonga"
+            - option "Trinidad und Tobago"
+            - option "Tschad"
+            - option "Tunesien"
+            - option "Türkei"
+            - option "Turkmenistan"
+            - option "Turks- und Caicosinseln"
+            - option "Tuvalu"
+            - option "Uganda"
+            - option "Ukraine"
+            - option "Uruguay"
+            - option "Usbekistan"
+            - option "Vanuatu"
+            - option "Vatikanstadt"
+            - option "Venezuela"
+            - option "Vereinigte Arabische Emirate"
+            - option "Vereinigte Staaten"
+            - option "Vietnam"
+            - option "Wallis und Futuna"
+            - option "Weihnachtsinsel"
+            - option "Westsahara"
+            - option "Zentralafrikanische Republik"
+            - option "Zypern"
+          - generic [ref=f28e41] [cursor=pointer]: 
+        - generic [ref=f28e42]:
+          - generic [ref=f28e43]: Geburtsdatum
+          - textbox "Geburtsdatum" [ref=f28e44]:
+            - /placeholder: Datum
+        - generic [ref=f28e45]:
+          - generic [ref=f28e46]: Staatsangehörigkeit
+          - combobox "Staatsangehörigkeit" [ref=f28e47]:
+            - option "Bitte wählen..."
+            - option "Belgien"
+            - option "Dänemark"
+            - option "Deutschland" [selected]
+            - option "Frankreich"
+            - option "Italien"
+            - option "Liechtenstein"
+            - option "Luxemburg"
+            - option "Niederlande"
+            - option "Norwegen"
+            - option "Österreich"
+            - option "Polen"
+            - option "Schweden"
+            - option "Schweiz"
+            - option "Slowakei"
+            - option "Slowenien"
+            - option "Spanien"
+            - option "Tschechien"
+            - option "Ungarn"
+            - option "Vereinigtes Königreich"
+            - option "Afghanistan"
+            - option "Ägypten"
+            - option "Ålandinseln"
+            - option "Albanien"
+            - option "Algerien"
+            - option "Amerikanische Jungferninseln"
+            - option "Amerikanische Überseeinseln"
+            - option "Amerikanisch-Samoa"
+            - option "Andorra"
+            - option "Angola"
+            - option "Anguilla"
+            - option "Antarktis"
+            - option "Antigua und Barbuda"
+            - option "Äquatorialguinea"
+            - option "Argentinien"
+            - option "Armenien"
+            - option "Aruba"
+            - option "Aserbaidschan"
+            - option "Äthiopien"
+            - option "Australien"
+            - option "Bahamas"
+            - option "Bahrain"
+            - option "Bangladesch"
+            - option "Barbados"
+            - option "Belarus"
+            - option "Belize"
+            - option "Benin"
+            - option "Bermuda"
+            - option "Bhutan"
+            - option "Bolivien"
+            - option "Bosnien und Herzegowina"
+            - option "Botsuana"
+            - option "Bouvetinsel"
+            - option "Brasilien"
+            - option "Britische Jungferninseln"
+            - option "Britisches Territorium im Indischen Ozean"
+            - option "Brunei Darussalam"
+            - option "Bulgarien"
+            - option "Burkina Faso"
+            - option "Burundi"
+            - option "Cabo Verde"
+            - option "Chile"
+            - option "China"
+            - option "Cookinseln"
+            - option "Costa Rica"
+            - option "Côte d’Ivoire"
+            - option "Curaçao"
+            - option "Dominica"
+            - option "Dominikanische Republik"
+            - option "Dschibuti"
+            - option "Ecuador"
+            - option "El Salvador"
+            - option "Eritrea"
+            - option "Estland"
+            - option "Eswatini"
+            - option "Falklandinseln"
+            - option "Färöer"
+            - option "Fidschi"
+            - option "Finnland"
+            - option "Französische Süd- und Antarktisgebiete"
+            - option "Französisch-Guayana"
+            - option "Französisch-Polynesien"
+            - option "Gabun"
+            - option "Gambia"
+            - option "Georgien"
+            - option "Ghana"
+            - option "Gibraltar"
+            - option "Grenada"
+            - option "Griechenland"
+            - option "Grönland"
+            - option "Guadeloupe"
+            - option "Guam"
+            - option "Guatemala"
+            - option "Guernsey"
+            - option "Guinea"
+            - option "Guinea-Bissau"
+            - option "Guyana"
+            - option "Haiti"
+            - option "Heard und McDonaldinseln"
+            - option "Honduras"
+            - option "Indien"
+            - option "Indonesien"
+            - option "Irak"
+            - option "Iran"
+            - option "Irland"
+            - option "Island"
+            - option "Isle of Man"
+            - option "Israel"
+            - option "Jamaika"
+            - option "Japan"
+            - option "Jemen"
+            - option "Jersey"
+            - option "Jordanien"
+            - option "Kaimaninseln"
+            - option "Kambodscha"
+            - option "Kamerun"
+            - option "Kanada"
+            - option "Kasachstan"
+            - option "Katar"
+            - option "Kenia"
+            - option "Kirgisistan"
+            - option "Kiribati"
+            - option "Kokosinseln"
+            - option "Kolumbien"
+            - option "Komoren"
+            - option "Kongo-Brazzaville"
+            - option "Kongo-Kinshasa"
+            - option "Kosovo"
+            - option "Kroatien"
+            - option "Kuba"
+            - option "Kuwait"
+            - option "Laos"
+            - option "Lesotho"
+            - option "Lettland"
+            - option "Libanon"
+            - option "Liberia"
+            - option "Libyen"
+            - option "Litauen"
+            - option "Madagaskar"
+            - option "Malawi"
+            - option "Malaysia"
+            - option "Malediven"
+            - option "Mali"
+            - option "Malta"
+            - option "Marokko"
+            - option "Marshallinseln"
+            - option "Martinique"
+            - option "Mauretanien"
+            - option "Mauritius"
+            - option "Mayotte"
+            - option "Mexiko"
+            - option "Mikronesien"
+            - option "Monaco"
+            - option "Mongolei"
+            - option "Montenegro"
+            - option "Montserrat"
+            - option "Mosambik"
+            - option "Myanmar"
+            - option "Namibia"
+            - option "Nauru"
+            - option "Nepal"
+            - option "Neukaledonien"
+            - option "Neuseeland"
+            - option "Nicaragua"
+            - option "Niger"
+            - option "Nigeria"
+            - option "Niue"
+            - option "Nördliche Marianen"
+            - option "Nordmazedonien"
+            - option "Norfolkinsel"
+            - option "Oman"
+            - option "Pakistan"
+            - option "Palästinensische Autonomiegebiete"
+            - option "Palau"
+            - option "Panama"
+            - option "Papua-Neuguinea"
+            - option "Paraguay"
+            - option "Peru"
+            - option "Philippinen"
+            - option "Pitcairninseln"
+            - option "Portugal"
+            - option "Puerto Rico"
+            - option "Republik Moldau"
+            - option "Réunion"
+            - option "Ruanda"
+            - option "Rumänien"
+            - option "Russland"
+            - option "Salomonen"
+            - option "Sambia"
+            - option "Samoa"
+            - option "San Marino"
+            - option "São Tomé und Príncipe"
+            - option "Saudi-Arabien"
+            - option "Senegal"
+            - option "Serbien"
+            - option "Seychellen"
+            - option "Sierra Leone"
+            - option "Simbabwe"
+            - option "Singapur"
+            - option "Somalia"
+            - option "Sonderverwaltungsregion Hongkong"
+            - option "Sonderverwaltungsregion Macau"
+            - option "Spitzbergen und Jan Mayen"
+            - option "Sri Lanka"
+            - option "St. Barthélemy"
+            - option "St. Helena"
+            - option "St. Kitts und Nevis"
+            - option "St. Lucia"
+            - option "St. Martin"
+            - option "St. Pierre und Miquelon"
+            - option "St. Vincent und die Grenadinen"
+            - option "Südafrika"
+            - option "Sudan"
+            - option "Südgeorgien und die Südlichen Sandwichinseln"
+            - option "Südkorea"
+            - option "Suriname"
+            - option "Syrien"
+            - option "Tadschikistan"
+            - option "Taiwan"
+            - option "Tansania"
+            - option "Thailand"
+            - option "Timor-Leste"
+            - option "Togo"
+            - option "Tokelau"
+            - option "Tonga"
+            - option "Trinidad und Tobago"
+            - option "Tschad"
+            - option "Tunesien"
+            - option "Türkei"
+            - option "Turkmenistan"
+            - option "Turks- und Caicosinseln"
+            - option "Tuvalu"
+            - option "Uganda"
+            - option "Ukraine"
+            - option "Uruguay"
+            - option "Usbekistan"
+            - option "Vanuatu"
+            - option "Vatikanstadt"
+            - option "Venezuela"
+            - option "Vereinigte Arabische Emirate"
+            - option "Vereinigte Staaten"
+            - option "Vietnam"
+            - option "Wallis und Futuna"
+            - option "Weihnachtsinsel"
+            - option "Westsahara"
+            - option "Zentralafrikanische Republik"
+            - option "Zypern"
+          - generic [ref=f28e48] [cursor=pointer]: 
+        - heading "Kontakt" [level=3] [ref=f28e50]
+        - generic [ref=f28e51]:
+          - generic [ref=f28e52]: E-Mail
+          - textbox "E-Mail" [ref=f28e53]
+          - generic [ref=f28e54] [cursor=pointer]: 
+        - generic [ref=f28e55]:
+          - generic [ref=f28e56]: Telefon
+          - textbox "Telefon" [ref=f28e57]
+        - heading "Zusätzliche Angaben" [level=3] [ref=f28e59]
+        - generic [ref=f28e60]:
+          - generic [ref=f28e61]:
+            - text: Gehaltsvorstellung
+            - generic [ref=f28e62]: (brutto)
+          - spinbutton "Gehaltsvorstellung (brutto)" [ref=f28e63]
+          - combobox [ref=f28e64]:
+            - option "EUR" [selected]
+            - option "USD"
+            - option "CAD"
+            - option "CHF"
+            - option "CZK"
+            - option "GBP"
+            - option "INR"
+            - option "MXN"
+            - option "PLN"
+            - option "RUB"
+          - combobox [ref=f28e65]:
+            - option "pro Jahr" [selected]
+            - option "pro Monat"
+            - option "pro Tag"
+            - option "pro Stunde"
+          - generic [ref=f28e66] [cursor=pointer]: 
+        - heading "Verfügbarkeit" [level=3] [ref=f28e68]
+        - generic [ref=f28e69]:
+          - generic [ref=f28e70]:
+            - generic [ref=f28e71]:
+              - radio "Ab sofort" [ref=f28e72]
+              - generic [ref=f28e73]: Ab sofort
+            - generic [ref=f28e75]:
+              - radio "Ab dem..." [ref=f28e76]
+              - generic [ref=f28e77]: Ab dem...
+            - generic [ref=f28e79]:
+              - radio "Kündigungsfrist" [ref=f28e80]
+              - generic [ref=f28e81]: Kündigungsfrist
+            - generic [ref=f28e83]:
+              - radio "Keine Angabe" [ref=f28e84]
+              - generic [ref=f28e85]: Keine Angabe
+          - generic [ref=f28e88] [cursor=pointer]: 
+      - generic [ref=f28e89]:
+        - heading "Dokumente" [level=3] [ref=f28e91]
+        - paragraph [ref=f28e92]: Hier besteht die Möglichkeit, Bewerbungsunterlagen hochzuladen, z. B. Anschreiben, Lebenslauf, Zeugnisse etc.
+        - generic [ref=f28e93]:
+          - generic [ref=f28e94]:
+            - text: "Folgendes Dokument ist erforderlich:"
+            - strong [ref=f28e95]: Lebenslauf
+            - text: ". Folgende Dateitypen werden unterstützt: PDF, DOC, DOCX, RTF, TXT, ODT, JPG, JPEG, PNG."
+          - generic [ref=f28e97]:
+            - generic [ref=f28e98]: 
+            - generic [ref=f28e100]:
+              - paragraph [ref=f28e101]: Dateien einfach in diesen Bereich ziehen oder...
+              - button "hier auswählen, um sie hochzuladen" [ref=f28e102] [cursor=pointer]
+      - generic [ref=f28e103]:
+        - generic [ref=f28e104]:
+          - generic [ref=f28e105]: "Diese Stelle wurde mir durch eine Mitarbeiterin oder einen Mitarbeiter empfohlen:"
+          - combobox "Diese Stelle wurde mir durch eine Mitarbeiterin oder einen Mitarbeiter empfohlen:" [ref=f28e106]:
+            - option "Bitte wählen..." [selected]
+            - option "Ja"
+            - option "Nein"
+          - generic [ref=f28e107] [cursor=pointer]: 
+        - text: 
+        - generic [ref=f28e108]: 
+        - generic [ref=f28e110]:
+          - generic [ref=f28e111]: Datenschutzhinweise
+          - generic [ref=f28e113]:
+            - paragraph [ref=f28e114]:
+              - strong [ref=f28e116]:
+                - generic [ref=f28e117]: Datenerhebung, - speicherung und – nutzung bei Registrierung im Bewerberportal
+            - paragraph [ref=f28e118]: Wir bieten Ihnen die Möglichkeit, sich über unser Bewerberportal bei der CBR Service GmbH und den mit der CBR Service GmbH verbundenen Unternehmen zu bewerben.
+            - paragraph [ref=f28e119]: Der Schutz Ihrer persönlichen Daten ist uns besonders wichtig. Wir möchten Sie deshalb im Folgenden über die Verarbeitung Ihrer Daten im Rahmen der Nutzung des Bewerbungsportals informieren.
+            - paragraph [ref=f28e120]: Verantwortlich für die nachfolgend dargestellte Datenerhebung und -verarbeitung ist das Unternehmen der CBR Fashion Group, an das sich Ihre Bewerbung richtet.
+            - paragraph [ref=f28e121]:
+              - strong [ref=f28e122]:
+                - generic [ref=f28e123]: Welche Informationen werden von uns erfasst?
+            - paragraph [ref=f28e124]:
+              - strong [ref=f28e125]:
+                - generic [ref=f28e126]: "Datenverarbeitung bei Besuch des Bewerbungsportals:"
+            - paragraph [ref=f28e127]:
+              - generic [ref=f28e128]: Nutzungsdaten
+            - paragraph [ref=f28e129]: "Die folgenden Kategorien von technischen Daten werden beim Besuch des Bewerberportals vom Webserver erhoben:"
+            - paragraph [ref=f28e130]:
+              - generic [ref=f28e131]: "IP-Adresse: Die IP-Adresse des Geräts, von dem aus die Webseite besucht wird.User-Agent: Der User-Agent des Browsers, der zum Besuch der Webseite verwendet wird.URL: Die URL der aufgerufenen Webseite.HTTP-Statuscode: Der HTTP-Statuscode, der als Antwort auf die Anfrage zurückgegeben wird.Größe der Antwort: Die Größe der Antwort, die vom Server an den Client zurückgegeben wird.Referer: Der Referer der Webseite, von der aus die aktuelle Webseite aufgerufen wurde.Zeitstempel: Der Zeitstempel, zu dem die Anfrage verarbeitet wurde.Dauer: Die Dauer, die benötigt wurde, um die Anfrage zu verarbeiten."
+            - paragraph [ref=f28e132]:
+              - generic [ref=f28e133]: Rechtsgrundlage der Verarbeitung der Nutzungsdaten ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Die Verarbeitung erfolgt in dem berechtigten Interesse, die Inhalte des Portals bereitzustellen und eine Geräte- sowie browseroptimierte Darstellung sicherzustellen.
+            - paragraph [ref=f28e134]
+            - paragraph [ref=f28e135]:
+              - generic [ref=f28e136]: Erforderliche Cookies
+            - paragraph [ref=f28e137]: Auf unseren Webseiten setzen wir Cookies ein, die zur Nutzung des Portals erforderlich sind. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert und ausgelesen werden können. Man unterscheidet zwischen Session-Cookies, die wieder gelöscht werden, sobald Sie ihren Browser schließen und permanenten Cookies, die über die einzelne Sitzung hinaus gespeichert werden.
+            - paragraph [ref=f28e138]: Wir nutzen diese erforderlichen Cookies nicht für Analyse-, Tracking- oder Werbezwecke.
+            - paragraph [ref=f28e139]: Teilweise enthalten diese Cookies lediglich Informationen zu bestimmten Einstellungen und sind nicht personenbeziehbar. Sie können auch notwendig sein, um die Benutzerführung, Sicherheit und Umsetzung der Seite zu ermöglichen.
+            - paragraph [ref=f28e140]:
+              - generic [ref=f28e141]: Wir nutzen diese Cookies auf Grundlage unseres berechtigten Interesses nach Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+            - paragraph [ref=f28e142]: Sie können Ihren Browser so einstellen, dass er Sie über die Platzierung von Cookies informiert. Zudem können Sie diese jederzeit über die entsprechende Browsereinstellung löschen und das Setzen neuer Cookies verhindern. Bitte beachten Sie, dass unsere Webseiten dann gegebenenfalls nicht vollständig angezeigt werden können und einige Funktionen technisch nicht mehr zur Verfügung stehen.
+            - paragraph [ref=f28e143]: "Wir verwenden folgende erforderliche Cookies:"
+            - table [ref=f28e144]:
+              - rowgroup [ref=f28e145]:
+                - row [ref=f28e146]:
+                  - cell "Name" [ref=f28e147]:
+                    - paragraph [ref=f28e148]:
+                      - generic [ref=f28e149]: Name
+                  - cell "Zweck" [ref=f28e150]:
+                    - paragraph [ref=f28e151]:
+                      - generic [ref=f28e152]: Zweck
+                  - cell "Speicherdauer" [ref=f28e153]:
+                    - paragraph [ref=f28e154]:
+                      - generic [ref=f28e155]: Speicherdauer
+                  - cell [ref=f28e156]:
+                    - paragraph [ref=f28e157]:
+                      - generic [ref=f28e158]: AngemessenesDatenschutzniveau
+              - rowgroup [ref=f28e160]:
+                - row [ref=f28e161]:
+                  - cell "CsrfToken" [ref=f28e162]:
+                    - paragraph [ref=f28e163]:
+                      - generic [ref=f28e164]: CsrfToken
+                  - cell "Dient der Verhinderung sogenannter Cross-Site-Request Forgery-Angriffe, indem es sicherstellt, dass nur legitime Anfragen vom selben Urspruch akzeptiert werden" [ref=f28e165]:
+                    - paragraph [ref=f28e166]:
+                      - generic [ref=f28e167]: Dient der Verhinderung sogenannter Cross-Site-Request Forgery-Angriffe, indem es sicherstellt, dass nur legitime Anfragen vom selben Urspruch akzeptiert werden
+                  - cell [ref=f28e168]:
+                    - paragraph [ref=f28e169]: Sitzung
+                  - cell [ref=f28e170]:
+                    - paragraph [ref=f28e171]: Datenverarbeitung innerhalb EU/EWR
+                - row [ref=f28e172]:
+                  - cell [ref=f28e173]:
+                    - paragraph [ref=f28e174]: PHPSESSID
+                  - cell [ref=f28e175]:
+                    - paragraph [ref=f28e176]: Dient der eindeutigen Sitzungskennung zur Aufrechterhaltung der Sitzung über verschiedene Seitenanfragen hinweg
+                  - cell [ref=f28e177]:
+                    - paragraph [ref=f28e178]: Sitzung
+                  - cell [ref=f28e179]:
+                    - paragraph [ref=f28e180]: Datenverarbeitung innerhalb EU/EWR
+            - paragraph [ref=f28e181]
+            - paragraph [ref=f28e182]
+            - paragraph [ref=f28e183]:
+              - strong [ref=f28e184]:
+                - generic [ref=f28e185]: Datenverarbeitung beim Bewerbungsprozess
+            - paragraph [ref=f28e186]:
+              - generic [ref=f28e187]: Im Rahmen des Bewerbungsverfahrens benötigen wir von Ihnen die Angaben, die als Pflichtfelder in unserem Bewerbungsformular gekennzeichnet sind. Rechtsgrundlage für die Verarbeitung dieser Daten ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten für die Entscheidung über die Begründung eines Beschäftigungsverhältnisses erforderlich sind. Eine Datenverarbeitung zu anderen Zwecken erfolgt nicht.
+            - paragraph [ref=f28e188]:
+              - generic [ref=f28e189]: Darüber hinaus können Sie selbst entscheiden, ob Sie uns weitere Informationen mitteilen, die im Bewerbungsportal als nicht verpflichtend markiert sind. Die Bereitstellung dieser Daten erfolgt freiwillig und ist für die Bewerbung nicht zwingend erforderlich. Sofern Sie uns Daten zu Ihrer Person freiwillig mitteilen, verarbeiten wir diese Daten auf der Grundlage Ihrer jederzeit widerrufbaren Einwilligung gemäß Art. 6 Abs. 1 S.1 lit. a DSGVO. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Bitte wenden Sie sich hierfür an recruiting@cbr.de.
+            - paragraph [ref=f28e190]: Mit der Übermittlung Ihrer Bewerbungsunterlagen werden diese automatisch ausgelesen und in unserem Bewerbermanagementsystem erfasst. Hierbei werden alle mitgesendeten Dokumente (Anschreiben, Lebenslauf, Zeugnisse und sonstige Nachweise) sowie die darin enthaltenen Informationen gespeichert.
+            - paragraph [ref=f28e191]: Sollten Sie uns Ihre Bewerbungsunterlagen noch persönlich oder auf dem Postweg übermitteln, digitalisieren wir diese zunächst und erfassen sie anschließend ebenfalls in unserem Bewerbermanagementsystem. Die Originalunterlagen senden wir Ihnen umgehend wieder zurück.
+            - paragraph [ref=f28e192]:
+              - generic [ref=f28e193]: Sofern nach dem Bewerbungsverfahren ein Arbeitsvertrag geschlossen wird, speichern wir die Daten aus Ihrer Bewerbung, die für die Durchführung Ihres Beschäftigungsverhältnisses benötigt werden. Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO. Bei erfolgloser Bewerbung werden Ihre Unterlagen nach Ablauf von 6 Monaten gelöscht. Rechtsgrundlage dieser Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO. Die Verarbeitung bis zur Löschung erfolgt in unserem berechtigten Interesse, uns gegen etwaige die Bewerbung betreffende Klagen zur Wehr setzen zu können. Wir verarbeiten nur die personenbezogenen Daten, die Sie uns im Rahmen des Bewerbungsverfahrens zur Verfügung stellen.
+            - paragraph [ref=f28e194]:
+              - generic [ref=f28e195]: Dies gilt nicht, wenn Sie ausdrücklich in eine längere Speicherung Ihrer Daten einwilligen, damit Ihre Bewerbung, sofern Sie für eine andere zu besetzende Stelle der CBR Fashion Group in Frage kommen, an den jeweiligen Fachbereich weitergeleitet und Sie ggf. anschließend per E-Mail kontaktiert werden. Auf Basis Ihrer Einwilligung werden Ihre Daten sodann für die Dauer von 1 Jahr weiterverarbeitet, um Ihre Bewerbung auch bei anderen oder zukünftigen Stellenausschreibungen berücksichtigen zu können. Rechtsgrundlage für die Speicherung der Bewerbungsunterlagen und die Kontaktaufnahme zu Ihnen im Fall einer passenden Stelle ist Art. 6 Abs. 1 lit. a DSGVO. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen. Bitte wenden Sie sich hierfür an recruiting@cbr.de.
+            - paragraph [ref=f28e196]:
+              - strong [ref=f28e197]:
+                - generic [ref=f28e198]: Wer verarbeitet Ihre Daten?
+            - paragraph [ref=f28e199]:
+              - generic [ref=f28e200]: Die Bewerbungsverfahren werden von der CBR Service GmbH (Imkerstraße 4, Isernhagen, Germany) übernommen. Sofern sich ihre Bewerbung nicht an die CBR Service GmbH selbst richtet, agiert dieses Unternehmen als Auftragsverarbeiter, der zur streng weisungsgebundenen Datenverarbeitung verpflichtet ist.
+            - paragraph [ref=f28e201]:
+              - generic [ref=f28e202]: Das Bewerberportal wird von der concludis GmbH, Auenweg 3, 50679 Köln betrieben. Die Webseite wird auf Servern der Hetzner Online AG, Stuttgarter Str. 1 in 91710 Gunzenhausen gehostet. Ihr Lebenslauf wird automatisiert von dem Parsing-Tool der Firma Textkernel BV bearbeitet. Das Parsing findet auf einem Server in Deutschland statt. Ihre Daten werden nach dem Parsing-Vorgang bei Textkernel BV gelöscht. Die Verarbeitung der von Ihnen gesendeten Daten findet daher auch durch diese Firmen statt. Mit der concludis GmbH besteht ein Vertrag zur Auftragsverarbeitung gemäß Artikel 28 DSGVO.
+            - paragraph [ref=f28e203]
+            - paragraph [ref=f28e204]:
+              - strong [ref=f28e205]:
+                - generic [ref=f28e206]: Datensicherheit
+              - generic [ref=f28e208]: Wir treffen Vorkehrungen zum Schutz Ihrer Daten und um Missbrauch von außen zu verhindern. Dabei werden Maßnahmen wie Verschlüsselung (SSL-Verschlüsselung), Firewalls, Hacker-Abwehr-Programme und manuelle Sicherheitsvorkehrungen angewendet. Die SSL-Verschlüsselung ist aktiv, wenn die Adresse mit "https://" beginnt. Bitte beachten Sie, dass auf unseren Seiten die Technologie JavaScript™ zum Einsatz kommt.
+            - paragraph [ref=f28e209]:
+              - generic [ref=f28e210]: Störungen des Service, Einstellung oder Änderung des Service oder Löschen von DatenWir gewährleisten nicht, dass das Angebot zu bestimmten Zeiten zur Verfügung steht. Störungen, Unterbrechungen oder einen etwaigen Ausfall des Online-Angebots schließen wir nicht aus. Die Server werden regelmäßig sorgfältig gesichert. Soweit Daten an uns - gleich in welcher Form - übermittelt werden, wird Ihnen jedoch empfohlen, Sicherheitskopien zu fertigen. Wir behalten uns vor, diesen Service jederzeit zu ändern, zu erweitern, zu beschränken oder ganz einzustellen. Eine Haftung von uns für gelöschte Daten oder Datenverluste ist deshalb ausgeschlossen.
+            - paragraph [ref=f28e211]:
+              - generic [ref=f28e212]: Ihre Rechte als betroffene Person
+            - paragraph [ref=f28e214]: "Bei der Verarbeitung Ihrer personenbezogenen Daten gewährt die DSGVO Ihnen als betroffene Person bestimmte Rechte:"
+            - paragraph [ref=f28e215]:
+              - generic [ref=f28e216]: Auskunftsrecht (Art. 15 DSGVO)
+            - paragraph [ref=f28e217]: Sie haben das Recht eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden; ist dies der Fall, so haben Sie ein Recht auf Auskunft über diese personenbezogenen Daten und auf die in Art. 15 DSGVO im Einzelnen aufgeführten Informationen.
+            - paragraph [ref=f28e218]:
+              - generic [ref=f28e219]: Recht auf Berichtigung (Art. 16 DSGVO)
+            - paragraph [ref=f28e220]: Sie haben das Recht, unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten und ggf. die Vervollständigung unvollständiger Daten zu verlangen.
+            - paragraph [ref=f28e221]:
+              - generic [ref=f28e222]: Recht auf Löschung (Art. 17 DSGVO)
+            - paragraph [ref=f28e223]: Sie haben das Recht, zu verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden, sofern einer der in Art. 17 DSGVO im Einzelnen aufgeführten Gründe zutrifft.
+            - paragraph [ref=f28e224]:
+              - generic [ref=f28e225]: Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)
+            - paragraph [ref=f28e226]: Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen, wenn eine der in Art. 18 DSGVO aufgeführten Voraussetzungen gegeben ist, z. B. wenn Sie Widerspruch gegen die Verarbeitung eingelegt haben, für die Dauer der Prüfung durch den Verantwortlichen.
+            - paragraph [ref=f28e227]:
+              - generic [ref=f28e228]: Recht auf Datenübertragbarkeit (Art. 20 DSGVO)
+            - paragraph [ref=f28e229]: In bestimmten Fällen, die in Art. 20 DSGVO im Einzelnen aufgeführt sind, haben Sie das Recht, die Sie betreffenden personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten bzw. die Übermittlung dieser Daten an einen Dritten zu verlangen.
+            - paragraph [ref=f28e230]:
+              - generic [ref=f28e231]: Widerrufsrecht (Art. 7 DSGVO)
+            - paragraph [ref=f28e232]: Sofern die Verarbeitung von Daten auf Grundlage Ihrer Einwilligung erfolgt, sind Sie nach Art. 7 Abs. 3 DSGVO berechtigt, die Einwilligung in die Verwendung Ihrer personenbezogenen Daten jederzeit zu widerrufen. Bitte beachten Sie, dass der Widerruf erst für die Zukunft wirkt. Verarbeitungen, die vor dem Widerruf erfolgt sind, sind davon nicht betroffen.
+            - paragraph [ref=f28e233]:
+              - generic [ref=f28e234]: Widerspruchsrecht (Art. 21 DSGVO)
+            - paragraph [ref=f28e235]:
+              - generic [ref=f28e236]: Werden Daten auf Grundlage von Art. 6 Abs. 1 S. 1 lit. f DSGVO (Datenverarbeitung zur Wahrung berechtigter Interessen) oder auf Grundlage von Art. 6 Abs. 1 S. 1 lit. e DSGVO (Datenverarbeitung zur Wahrung öffentlichen Interesse oder in Ausübung öffentlicher Gewalt) erhoben, steht Ihnen das Recht zu, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Widerspruch einzulegen. Wir verarbeiten die personenbezogenen Daten dann nicht mehr, es sei denn, es liegen nachweisbar zwingende schutzwürdige Gründe für die Verarbeitung vor, die gegenüber Ihren Interessen, Rechten und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+            - paragraph [ref=f28e237]:
+              - generic [ref=f28e238]: Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)
+            - paragraph [ref=f28e239]: Sie haben gem. Art. 77 DSGVO das Recht auf Beschwerde bei einer Aufsichtsbehörde, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden Daten gegen datenschutzrechtliche Bestimmungen verstößt. Das Beschwerderecht kann insbesondere bei einer Aufsichtsbehörde in dem Mitgliedstaat Ihres gewöhnlichen Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes geltend gemacht werden.
+            - paragraph [ref=f28e240]:
+              - generic [ref=f28e241]: Geltendmachung Ihrer Rechte
+            - paragraph [ref=f28e242]: Sofern vorstehend nichts anderes beschrieben wurde, wenden Sie sich zur Geltendmachung Ihrer Betroffenenrechte bitte an die im Impressum genannte Stelle.
+            - paragraph [ref=f28e243]:
+              - generic [ref=f28e244]: Kontaktdaten des Datenschutzbeauftragten
+            - paragraph [ref=f28e246]: "Unser externer Datenschutzbeauftragter steht Ihnen gerne für Auskünfte zum Thema Datenschutz unter folgenden Kontaktdaten zur Verfügung:"
+            - paragraph [ref=f28e247]:
+              - generic [ref=f28e248]: datenschutz
+              - generic [ref=f28e249]: "nord GmbHKonsul-Smidt-Straße 8828217 BremenE-Mail:"
+              - link "office@datenschutz-nord.de" [ref=f28e250] [cursor=pointer]:
+                - /url: mailto:office@datenschutz-nord.de
+            - paragraph [ref=f28e251]: Wenn Sie sich an unseren Datenschutzbeauftragten wenden, geben Sie hierbei bitte auch das Unternehmen an, auf das sich Ihre Anfrage bezieht.
+            - paragraph [ref=f28e252]
+            - paragraph [ref=f28e253]
+        - generic [ref=f28e254]:
+          - generic [ref=f28e255] [cursor=pointer]:
+            - checkbox "Ich hatte die Möglichkeit, die Datenschutzhinweise zur Kenntnis zu nehmen." [ref=f28e256]
+            - text: Ich hatte die Möglichkeit, die Datenschutzhinweise zur Kenntnis zu nehmen.
+          - generic [ref=f28e258] [cursor=pointer]: 
+        - generic [ref=f28e260]:
+          - generic [ref=f28e261] [cursor=pointer]:
+            - checkbox "Ich bin damit einverstanden, dass meine Bewerbung, sofern ich für eine andere zu besetzende Stelle der CBR Fashion Group (Übersicht der zur CBR Fashion Group gehörenden Unternehmen siehe unten) in Frage komme, an den jeweiligen Fachbereich weitergeleitet und ich ggf. anschließend per E-Mail kontaktiert werde. Meine Bewerbung darf zu diesem Zweck für die Dauer von 12 Monaten weitergespeichert werden. Ich kann meine Einwilligung jederzeit per E-Mail an recruiting@cbr.de widerrufen." [ref=f28e262]
+            - text: Ich bin damit einverstanden, dass meine Bewerbung, sofern ich für eine andere zu besetzende Stelle der CBR Fashion Group (Übersicht der zur CBR Fashion Group gehörenden Unternehmen siehe unten) in Frage komme, an den jeweiligen Fachbereich weitergeleitet und ich ggf. anschließend per E-Mail kontaktiert werde. Meine Bewerbung darf zu diesem Zweck für die Dauer von 12 Monaten weitergespeichert werden. Ich kann meine Einwilligung jederzeit per E-Mail an recruiting@cbr.de widerrufen.
+          - link " Alle weiteren Unternehmen anzeigen" [ref=f28e265] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=f28e266]: 
+            - text: Alle weiteren Unternehmen anzeigen
+      - generic:
+        - button "Bewerbung absenden " [ref=f28e268] [cursor=pointer]:
+          - text: Bewerbung absenden
+          - generic [ref=f28e269]: 
+        - text:  
+    - link [ref=f28e271] [cursor=pointer]:
+      - /url: https://www.concludis.com?reff=https%3A%2F%2Fcbr.concludis.de%2Fcandidate%2Fformapply%3Fapply_id%3D34310_5bdba0f8-ab5f-4920-95e9-219497ea49d8%26prj%3D34310%26lang%3Dde_DE%26ie%3D1
+      - img "powered by concludis.com - Online Bewerbermanagement seit 2007" [ref=f28e272]

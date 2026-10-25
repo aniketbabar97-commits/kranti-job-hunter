@@ -1,0 +1,251 @@
+- generic [active] [ref=f2e1]:
+  - dialog [ref=f2e342]:
+    - generic [ref=f2e162]:
+      - heading [level=1] [ref=f2e343]:
+        - button [ref=f2e344] [cursor=pointer]
+        - text: Verwendung von Cookies und anderen Technologien
+      - generic [ref=f2e166]:
+        - generic [ref=f2e167]:
+          - text: "Unsere Webseite verwendet Cookies und ähnliche Technologien (im Folgenden: Cookies), um Informationen von Ihrem Gerät zu erfassen und zu speichern. Dies ermöglicht unter anderem die Funktionalität der Webseite, Interaktionen mit sozialen Medien, die Bereitstellung relevanter Inhalte, Nachrichten, Werbung und Analysen. Zur Wiedererkennung bei unseren Werbepartnern verwenden wir pseudonymisierte Identifier (z.B. eine gehashte E-Mailadresse, sofern vorhanden), ohne dabei auslesbare persönliche Daten zu teilen. Um dem zuzustimmen, wählen Sie bitte \"Alle Cookies akzeptieren\". Ihre Einwilligung können Sie jederzeit unter"
+          - link [ref=f2e345] [cursor=pointer]:
+            - /url: https://www.arbeitsagentur.de/datenschutz/cookies
+            - text: Cookie-Erklärung
+          - text: widerrufen. Weitere Informationen finden Sie in unserer
+          - link [ref=f2e346] [cursor=pointer]:
+            - /url: https://www.arbeitsagentur.de/datenschutzerklaerung
+            - text: Datenschutzerklärung
+          - text: .
+        - group [ref=f2e347]:
+          - generic [ref=f2e172]: "Bitte wählen Sie aus:"
+          - generic [ref=f2e173]:
+            - generic [ref=f2e176]:
+              - checkbox [ref=f2e348]
+              - generic [ref=f2e178] [cursor=pointer]: Webanalyse
+            - generic [ref=f2e181]:
+              - checkbox [ref=f2e349]
+              - generic [ref=f2e183] [cursor=pointer]: Personalisierung
+            - generic [ref=f2e186]:
+              - checkbox [ref=f2e350]
+              - generic [ref=f2e188] [cursor=pointer]: Werbung
+        - button [ref=f2e351] [cursor=pointer]: Details anzeigen
+      - generic [ref=f2e194]:
+        - button [ref=f2e352] [cursor=pointer]: Alle Cookies ablehnen
+        - button [ref=f2e353] [cursor=pointer]: Auswahl bestätigen
+        - button [ref=f2e354] [cursor=pointer]: Alle Cookies akzeptieren
+  - generic [ref=f2e2]:
+    - banner [ref=f2e198]:
+      - link [ref=f2e200] [cursor=pointer]:
+        - /url: https://www.arbeitsagentur.de/
+        - img "Bundesagentur für Arbeit bringt weiter" [ref=f2e201]
+      - navigation [ref=f2e202]:
+        - heading "Hauptnavigation" [level=1] [ref=f2e203]
+        - list [ref=f2e204]:
+          - listitem [ref=f2e205]:
+            - button "Suche" [ref=f2e206] [cursor=pointer]
+          - listitem
+          - listitem
+          - listitem
+          - listitem
+          - listitem [ref=f2e208]:
+            - button "Anmelden" [ref=f2e209] [cursor=pointer]
+          - listitem [ref=f2e211]:
+            - button "Menü" [ref=f2e213] [cursor=pointer]
+    - main [ref=f2e55]:
+      - generic [ref=f2e57]:
+        - link "Zur Jobsuche Startseite" [ref=f2e59] [cursor=pointer]:
+          - /url: /jobsuche/
+        - generic [ref=f2e60]:
+          - region [ref=f2e61]:
+            - article [ref=f2e62]:
+              - region [ref=f2e65]:
+                - generic [ref=f2e66]:
+                  - 'heading "Stellenangebot: SAP CX Berater (m/w/d) - SAP CX Consultant bei Ratbacher GmbH" [level=1] [ref=f2e67]':
+                    - generic [ref=f2e68]: "Stellenangebot:"
+                    - generic [ref=f2e69]: SAP CX Berater (m/w/d) - SAP CX Consultant
+                    - generic [ref=f2e70]: bei
+                    - generic [ref=f2e71]: Ratbacher GmbH
+                  - heading "Das Wichtigste im Überblick" [level=2] [ref=f2e72]
+                  - heading "Besondere Merkmale" [level=3] [ref=f2e73]
+                  - list [ref=f2e74]:
+                    - listitem [ref=f2e75]: Stelle im Rahmen der Personalvermittlung
+                  - generic [ref=f2e76]:
+                    - generic [ref=f2e79]:
+                      - heading "Arbeitsort" [level=3] [ref=f2e80]
+                      - generic [ref=f2e81]: München
+                    - generic [ref=f2e82]:
+                      - generic [ref=f2e83]: 
+                      - generic [ref=f2e84]:
+                        - heading "Angebotsart" [level=3] [ref=f2e85]
+                        - generic [ref=f2e86]: Arbeit
+                    - generic [ref=f2e89]:
+                      - heading "Anstellungsart" [level=3] [ref=f2e90]
+                      - generic [ref=f2e91]: Vollzeit
+                    - generic [ref=f2e94]:
+                      - heading "Befristung" [level=3] [ref=f2e95]
+                      - generic [ref=f2e96]: unbefristet
+                    - generic [ref=f2e97]:
+                      - generic [ref=f2e98]: 
+                      - generic [ref=f2e99]:
+                        - heading "Beginn" [level=3] [ref=f2e100]
+                        - generic [ref=f2e101]: ab sofort
+                  - generic [ref=f2e103]:
+                    - generic [ref=f2e104]: 
+                    - generic [ref=f2e105]:
+                      - heading "Berufsbezeichnung" [level=3] [ref=f2e106]
+                      - list [ref=f2e107]:
+                        - listitem [ref=f2e108]: ERP-Berater/in - ERP-Consultant
+                  - generic [ref=f2e109]:
+                    - button "Vormerken" [ref=f2e110] [cursor=pointer]:  Vormerken
+                    - button "Aktionen für das Stellenangebot 11112-46582-1797606-0-S" [ref=f2e113] [cursor=pointer]:  Notiz / Status
+                    - button "Teilen" [ref=f2e114] [cursor=pointer]
+                  - 'generic "Veröffentlichungsdatum: 25.09.2026" [ref=f2e119]':
+                    - generic [ref=f2e120]: "Veröffentlichungsdatum:"
+                    - text: Vor 23 Tagen veröffentlicht
+              - region [ref=f2e123]:
+                - generic [ref=f2e124]:
+                  - heading "Stellenbeschreibung" [level=2] [ref=f2e125]
+                  - generic [ref=f2e126]:
+                    - heading "Vollständige Stellenbeschreibung bei unserem Kooperationspartner einsehen:" [level=3] [ref=f2e127]
+                    - link "Externe Seite öffnen" [ref=f2e128] [cursor=pointer]:
+                      - /url: https://deutschland-stellenmarkt.de/job_show.php?id=bfa$bfa_11112-46582-1797606-0-S
+                    - paragraph [ref=f2e129]:
+                      - text: "Quelle:"
+                      - link "Deutschland-Stellenmarkt.de HR4YOU" [ref=f2e130] [cursor=pointer]:
+                        - /url: http://www.deutschland-stellenmarkt.de
+              - region [ref=f2e134]:
+                - generic [ref=f2e135]:
+                  - heading "Fußbereich" [level=2] [ref=f2e136]
+                  - generic [ref=f2e137]:
+                    - generic [ref=f2e138]:
+                      - generic [ref=f2e139]:
+                        - generic [ref=f2e140]: Stelle betreut durch Arbeitgeber
+                        - button "Hinweis zur Betreuung öffnen" [ref=f2e143] [cursor=pointer]
+                      - generic [ref=f2e145]:
+                        - text: "Referenz-Nr.: 11112-46582-1797606-0-S"
+                        - generic "In Zwischenablage kopieren" [ref=f2e147]:
+                          - button "kopieren" [ref=f2e150] [cursor=pointer]
+                    - link "Verstoß melden" [ref=f2e157] [cursor=pointer]:
+                      - /url: "javascript:"
+          - generic:
+            - button [aria-hidden]
+    - contentinfo [ref=f2e160]:
+      - generic [ref=f2e216]:
+        - generic [ref=f2e217]:
+          - generic [ref=f2e218]:
+            - heading "Folgen Sie uns in den sozialen Medien" [level=2] [ref=f2e219]
+            - list [ref=f2e221]:
+              - listitem [ref=f2e222]:
+                - link "zur Xing-Seite der BA" [ref=f2e223] [cursor=pointer]:
+                  - /url: https://www.xing.com/pages/bundesagentur
+              - listitem [ref=f2e224]:
+                - link "zur Kununu-Seite der BA" [ref=f2e225] [cursor=pointer]:
+                  - /url: https://www.kununu.com/de/bundesagentur-fuer-arbeit
+              - listitem [ref=f2e226]:
+                - link "zur LinkedIn-Seite der BA" [ref=f2e227] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/bundesagentur-fuer-arbeit
+              - listitem [ref=f2e228]:
+                - link "zur Instagram-Seite der BA" [ref=f2e229] [cursor=pointer]:
+                  - /url: https://www.instagram.com/bundesagenturfuerarbeit
+              - listitem [ref=f2e230]:
+                - link "zur Facebook-Seite der BA" [ref=f2e231] [cursor=pointer]:
+                  - /url: https://www.facebook.com/bundesagenturfuerarbeit
+              - listitem [ref=f2e232]:
+                - link "zur YouTube-Seite der BA" [ref=f2e233] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/Arbeitsagentur
+          - navigation [ref=f2e234]:
+            - generic [ref=f2e236]:
+              - heading "Über die Bundesagentur für Arbeit" [level=2] [ref=f2e237]
+              - list "Über die Bundesagentur für Arbeit" [ref=f2e239]:
+                - listitem [ref=f2e240]:
+                  - link "Kontakt" [ref=f2e241] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/service-bereich/so-erreichen-sie-uns
+                - listitem [ref=f2e243]:
+                  - link "Karriere bei der BA" [ref=f2e244] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/bakarriere
+                - listitem [ref=f2e246]:
+                  - link "Über uns" [ref=f2e247] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/ueber-uns
+                - listitem [ref=f2e249]:
+                  - link "Veröffentlichungen" [ref=f2e250] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/ueber-uns/veroeffentlichungen
+                - listitem [ref=f2e252]:
+                  - link "Presse" [ref=f2e253] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/presse
+            - generic [ref=f2e256]:
+              - heading "Themenbereiche" [level=2] [ref=f2e257]
+              - list "Themenbereiche" [ref=f2e259]:
+                - listitem [ref=f2e260]:
+                  - link "Arbeitslos und Arbeit finden" [ref=f2e261] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/arbeitslos-arbeit-finden
+                - listitem [ref=f2e263]:
+                  - link "Schule, Ausbildung und Studium" [ref=f2e264] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/bildung
+                - listitem [ref=f2e266]:
+                  - link "Familie und Kinder" [ref=f2e267] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/familie-und-kinder
+                - listitem [ref=f2e269]:
+                  - link "Menschen mit Behinderungen" [ref=f2e270] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/menschen-mit-behinderungen
+                - listitem [ref=f2e272]:
+                  - link "Karriere und Weiterbildung" [ref=f2e273] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/karriere-und-weiterbildung
+                - listitem [ref=f2e275]:
+                  - link "Zum Arbeiten nach Deutschland" [ref=f2e276] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/int/de/menschen-aus-dem-ausland
+            - generic [ref=f2e279]:
+              - heading "Services" [level=2] [ref=f2e280]
+              - list "Services" [ref=f2e282]:
+                - listitem [ref=f2e283]:
+                  - link "eServices im Überblick" [ref=f2e284] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/eservices
+                - listitem [ref=f2e286]:
+                  - link "Dienststelle finden" [ref=f2e287] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/portal/dienststellensuche
+                - listitem [ref=f2e289]:
+                  - link "Newsletter" [ref=f2e290] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/newsletter
+                - listitem [ref=f2e292]:
+                  - link "Apps" [ref=f2e293] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/apps
+            - generic [ref=f2e296]:
+              - heading "Weitere Internetauftritte" [level=2] [ref=f2e297]
+              - list "Weitere Internetauftritte" [ref=f2e299]:
+                - listitem [ref=f2e300]:
+                  - link "Arbeitsmarktmonitor" [ref=f2e301] [cursor=pointer]:
+                    - /url: https://arbeitsmarktmonitor.arbeitsagentur.de/
+                - listitem [ref=f2e303]:
+                  - link "Berufsinformationen BERUFENET" [ref=f2e304] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/berufenet/
+                - listitem [ref=f2e306]:
+                  - link "Berufsvideos BERUFE.TV" [ref=f2e307] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/berufetv/start
+                - listitem [ref=f2e309]:
+                  - link "mein NOW" [ref=f2e310] [cursor=pointer]:
+                    - /url: https://mein-now.de/
+                - listitem [ref=f2e312]:
+                  - link "Statistik" [ref=f2e313] [cursor=pointer]:
+                    - /url: https://statistik.arbeitsagentur.de/
+        - separator [ref=f2e315]
+        - navigation "Informationen über die Seite" [ref=f2e316]:
+          - list [ref=f2e318]:
+            - listitem [ref=f2e319]:
+              - link "Impressum" [ref=f2e320] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/impressum
+            - listitem [ref=f2e322]:
+              - link "Datenschutz" [ref=f2e323] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/datenschutz
+            - listitem [ref=f2e325]:
+              - button "Cookie-Einstellungen" [ref=f2e326] [cursor=pointer]
+            - listitem [ref=f2e328]:
+              - link "Rechtliche Hinweise" [ref=f2e329] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/rechtliche-hinweise
+            - listitem [ref=f2e331]:
+              - link "Barrieren melden" [ref=f2e332] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/link/kontakt-barrierefreiheit
+            - listitem [ref=f2e334]:
+              - link "Fehler melden" [ref=f2e336] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f2e337]:
+              - link "Erklärung zur Barrierefreiheit" [ref=f2e338] [cursor=pointer]:
+                - /url: https://www.arbeitsagentur.de/erklaerung-barrierefreiheit
+            - listitem [ref=f2e340]: © Bundesagentur für Arbeit 2026

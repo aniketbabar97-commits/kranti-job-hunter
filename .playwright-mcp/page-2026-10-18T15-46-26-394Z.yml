@@ -1,0 +1,150 @@
+- generic [ref=f40e1]:
+  - generic [ref=f40e4]:
+    - generic [ref=f40e6]:
+      - generic [ref=f40e7]:
+        - img "SHEKO GmbH logo" [ref=f40e8]
+        - generic [ref=f40e9]:
+          - link [ref=f40e10] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko
+            - paragraph [ref=f40e11]: SHEKO GmbH
+          - link [ref=f40e12] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko/16822362-senior-full-stack-developer-m-w-d-e-commerce-und-shopify
+            - paragraph [ref=f40e13]: Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify
+      - button "Kranti Chavan Kranti Chavan" [ref=f40e14] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f40e17]: KC
+        - generic [ref=f40e18]: Kranti Chavan
+    - generic [ref=f40e93]:
+      - heading "Wann wäre Ihr frühestmögliches Startdatum?" [level=2] [ref=f40e94]
+      - application "calendar" [ref=f40e98]:
+        - generic [ref=f40e99]:
+          - generic [ref=f40e100]:
+            - button "Switch to previous month" [ref=f40e101]:
+              - generic "IconButton" [ref=f40e102] [cursor=pointer]
+            - generic [ref=f40e105]:
+              - generic [ref=f40e106]:
+                - log [ref=f40e108]
+                - generic [ref=f40e110] [cursor=pointer]:
+                  - paragraph [ref=f40e112]: November
+                  - combobox [ref=f40e114]
+              - generic [ref=f40e115]:
+                - log [ref=f40e117]
+                - generic [ref=f40e119] [cursor=pointer]:
+                  - paragraph [ref=f40e121]: "2026"
+                  - combobox [ref=f40e123]
+            - button "Switch to next month" [active] [ref=f40e124]:
+              - generic "IconButton" [ref=f40e125] [cursor=pointer]
+          - grid [ref=f40e129]:
+            - rowgroup [aria-hidden] [ref=f40e130]:
+              - row [ref=f40e131]:
+                - columnheader [ref=f40e132]:
+                  - generic [ref=f40e133]: Mo
+                - columnheader [ref=f40e134]:
+                  - generic [ref=f40e135]: Di
+                - columnheader [ref=f40e136]:
+                  - generic [ref=f40e137]: Mi
+                - columnheader [ref=f40e138]:
+                  - generic [ref=f40e139]: Do
+                - columnheader [ref=f40e140]:
+                  - generic [ref=f40e141]: Fr
+                - columnheader [ref=f40e142]:
+                  - generic [ref=f40e143]: Sa
+                - columnheader [ref=f40e144]:
+                  - generic [ref=f40e145]: So
+            - rowgroup [ref=f40e146]:
+              - row [ref=f40e259]:
+                - gridcell [ref=f40e260]:
+                  - button "Choose Montag, 26. Oktober 2026" [ref=f40e262] [cursor=pointer]: "26"
+                - gridcell [ref=f40e263]:
+                  - button "Choose Dienstag, 27. Oktober 2026" [ref=f40e265] [cursor=pointer]: "27"
+                - gridcell [ref=f40e266]:
+                  - button "Choose Mittwoch, 28. Oktober 2026" [ref=f40e268] [cursor=pointer]: "28"
+                - gridcell [ref=f40e269]:
+                  - button "Choose Donnerstag, 29. Oktober 2026" [ref=f40e271] [cursor=pointer]: "29"
+                - gridcell [ref=f40e272]:
+                  - button "Choose Freitag, 30. Oktober 2026" [ref=f40e274] [cursor=pointer]: "30"
+                - gridcell [ref=f40e275]:
+                  - button "Choose Samstag, 31. Oktober 2026" [ref=f40e277] [cursor=pointer]: "31"
+                - gridcell [ref=f40e278]:
+                  - button "Choose Sonntag, 1. November 2026" [ref=f40e280] [cursor=pointer]: "1"
+              - row [ref=f40e281]:
+                - gridcell [ref=f40e282]:
+                  - button "Choose Montag, 2. November 2026" [ref=f40e284] [cursor=pointer]: "2"
+                - gridcell [ref=f40e285]:
+                  - button "Choose Dienstag, 3. November 2026" [ref=f40e287] [cursor=pointer]: "3"
+                - gridcell [ref=f40e288]:
+                  - button "Choose Mittwoch, 4. November 2026" [ref=f40e290] [cursor=pointer]: "4"
+                - gridcell [ref=f40e291]:
+                  - button "Choose Donnerstag, 5. November 2026" [ref=f40e293] [cursor=pointer]: "5"
+                - gridcell [ref=f40e294]:
+                  - button "Choose Freitag, 6. November 2026" [ref=f40e296] [cursor=pointer]: "6"
+                - gridcell [ref=f40e297]:
+                  - button "Choose Samstag, 7. November 2026" [ref=f40e299] [cursor=pointer]: "7"
+                - gridcell [ref=f40e300]:
+                  - button "Choose Sonntag, 8. November 2026" [ref=f40e302] [cursor=pointer]: "8"
+              - row [ref=f40e303]:
+                - gridcell [ref=f40e304]:
+                  - button "Choose Montag, 9. November 2026" [ref=f40e306] [cursor=pointer]: "9"
+                - gridcell [ref=f40e307]:
+                  - button "Choose Dienstag, 10. November 2026" [ref=f40e309] [cursor=pointer]: "10"
+                - gridcell [ref=f40e310]:
+                  - button "Choose Mittwoch, 11. November 2026" [ref=f40e312] [cursor=pointer]: "11"
+                - gridcell [ref=f40e313]:
+                  - button "Choose Donnerstag, 12. November 2026" [ref=f40e315] [cursor=pointer]: "12"
+                - gridcell [ref=f40e316]:
+                  - button "Choose Freitag, 13. November 2026" [ref=f40e318] [cursor=pointer]: "13"
+                - gridcell [ref=f40e319]:
+                  - button "Choose Samstag, 14. November 2026" [ref=f40e321] [cursor=pointer]: "14"
+                - gridcell [ref=f40e322]:
+                  - button "Choose Sonntag, 15. November 2026" [ref=f40e324] [cursor=pointer]: "15"
+              - row [ref=f40e325]:
+                - gridcell [ref=f40e326]:
+                  - button "Choose Montag, 16. November 2026" [ref=f40e328] [cursor=pointer]: "16"
+                - gridcell [ref=f40e329]:
+                  - button "Choose Dienstag, 17. November 2026" [ref=f40e331] [cursor=pointer]: "17"
+                - gridcell [ref=f40e332]:
+                  - button "Choose Mittwoch, 18. November 2026" [ref=f40e334] [cursor=pointer]: "18"
+                - gridcell [ref=f40e335]:
+                  - button "Choose Donnerstag, 19. November 2026" [ref=f40e337] [cursor=pointer]: "19"
+                - gridcell [ref=f40e338]:
+                  - button "Choose Freitag, 20. November 2026" [ref=f40e340] [cursor=pointer]: "20"
+                - gridcell [ref=f40e341]:
+                  - button "Choose Samstag, 21. November 2026" [ref=f40e343] [cursor=pointer]: "21"
+                - gridcell [ref=f40e344]:
+                  - button "Choose Sonntag, 22. November 2026" [ref=f40e346] [cursor=pointer]: "22"
+              - row [ref=f40e347]:
+                - gridcell [ref=f40e348]:
+                  - button "Choose Montag, 23. November 2026" [ref=f40e350] [cursor=pointer]: "23"
+                - gridcell [ref=f40e351]:
+                  - button "Choose Dienstag, 24. November 2026" [ref=f40e353] [cursor=pointer]: "24"
+                - gridcell [ref=f40e354]:
+                  - button "Choose Mittwoch, 25. November 2026" [ref=f40e356] [cursor=pointer]: "25"
+                - gridcell [ref=f40e357]:
+                  - button "Choose Donnerstag, 26. November 2026" [ref=f40e359] [cursor=pointer]: "26"
+                - gridcell [ref=f40e360]:
+                  - button "Choose Freitag, 27. November 2026" [ref=f40e362] [cursor=pointer]: "27"
+                - gridcell [ref=f40e363]:
+                  - button "Choose Samstag, 28. November 2026" [ref=f40e365] [cursor=pointer]: "28"
+                - gridcell [ref=f40e366]:
+                  - button "Choose Sonntag, 29. November 2026" [ref=f40e368] [cursor=pointer]: "29"
+              - row [ref=f40e369]:
+                - gridcell [ref=f40e370]:
+                  - button "Choose Montag, 30. November 2026" [ref=f40e372] [cursor=pointer]: "30"
+                - gridcell [ref=f40e373]:
+                  - button "Choose Dienstag, 1. Dezember 2026" [ref=f40e375] [cursor=pointer]: "1"
+                - gridcell [ref=f40e376]:
+                  - button "Choose Mittwoch, 2. Dezember 2026" [ref=f40e378] [cursor=pointer]: "2"
+                - gridcell [ref=f40e379]:
+                  - button "Choose Donnerstag, 3. Dezember 2026" [ref=f40e381] [cursor=pointer]: "3"
+                - gridcell [ref=f40e382]:
+                  - button "Choose Freitag, 4. Dezember 2026" [ref=f40e384] [cursor=pointer]: "4"
+                - gridcell [ref=f40e385]:
+                  - button "Choose Samstag, 5. Dezember 2026" [ref=f40e387] [cursor=pointer]: "5"
+                - gridcell [ref=f40e388]:
+                  - button "Choose Sonntag, 6. Dezember 2026" [ref=f40e390] [cursor=pointer]: "6"
+    - generic [ref=f40e40]:
+      - progressbar "60%" [ref=f40e257]
+      - generic [ref=f40e45]:
+        - button "Zurück" [ref=f40e89] [cursor=pointer]
+        - button "Weiter" [ref=f40e53] [cursor=pointer]
+  - alert [ref=f40e55]: "SHEKO (Hamburg): Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify"
+  - region "Notifications, bottom-end (alt+T)"

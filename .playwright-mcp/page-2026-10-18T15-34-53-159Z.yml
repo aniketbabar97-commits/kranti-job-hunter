@@ -1,0 +1,131 @@
+- generic [active] [ref=f6e1]:
+  - banner:
+    - generic [ref=f6e3]:
+      - link "PS-Direkt" [ref=f6e5] [cursor=pointer]:
+        - /url: /
+      - link "Menu öffnen" [ref=f6e10] [cursor=pointer]:
+        - /url: "#0"
+  - main [ref=f6e13]:
+    - generic [ref=f6e16]:
+      - generic [ref=f6e17]:
+        - heading "Bewerbung" [level=1] [ref=f6e18]
+        - heading "Business Analyst Digitale Plattformen & E-Commerce (m/w/d)" [level=2] [ref=f6e19]
+        - list [ref=f6e20]:
+          - listitem [ref=f6e21]:
+            - img "Arbeitsort" [ref=f6e22]
+            - text: Köln
+        - generic [ref=f6e24]:
+          - generic [ref=f6e260]:
+            - heading "Vielen Dank für Ihre Bewerbung!" [level=3] [ref=f6e261]
+            - paragraph [ref=f6e262]: Wir nehmen zeitnah persönlich mit Ihnen Kontakt auf.
+          - text: "* * * * * * * * *"
+      - generic [ref=f6e158]:
+        - heading "Ihr Ansprechpartner" [level=3] [ref=f6e159]
+        - paragraph [ref=f6e160]:
+          - img "Foto Niklas Niebes" [ref=f6e161]
+        - heading "Niklas Niebes" [level=4] [ref=f6e162]
+        - list [ref=f6e164]:
+          - listitem [ref=f6e165]:
+            - link "bewerbung@ps-direkt.com" [ref=f6e166] [cursor=pointer]:
+              - /url: mailto:bewerbung@ps-direkt.com
+          - listitem [ref=f6e167]:
+            - link "+49 (0) 221 / 8469090" [ref=f6e168] [cursor=pointer]:
+              - /url: tel:+492218469090
+        - separator [ref=f6e170]
+        - heading "Unterstützt durch unsere virtuelle Recruitingassistentin CLARA" [level=3] [ref=f6e171]
+        - paragraph [ref=f6e172]:
+          - link [ref=f6e173] [cursor=pointer]:
+            - /url: "#"
+            - img "CLARA, virtuelle Recruitingassistentin" [ref=f6e174]
+        - paragraph [ref=f6e175]:
+          - link "Video ansehen" [ref=f6e176] [cursor=pointer]:
+            - /url: "#"
+        - separator [ref=f6e178]
+        - heading "Datenschutz" [level=4] [ref=f6e179]
+        - paragraph [ref=f6e180]:
+          - link "Datenschutzerklärung" [ref=f6e181] [cursor=pointer]:
+            - /url: /datenschutz/
+  - contentinfo [ref=f6e182]:
+    - generic [ref=f6e183]:
+      - link "PS-Direkt" [ref=f6e185] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f6e189]:
+        - generic [ref=f6e190]:
+          - list [ref=f6e192]:
+            - listitem [ref=f6e193]:
+              - link "Job finden" [ref=f6e194] [cursor=pointer]:
+                - /url: /stellenangebote/
+            - listitem [ref=f6e195]:
+              - link "Für Bewerber" [ref=f6e196] [cursor=pointer]:
+                - /url: /bewerber/
+            - listitem [ref=f6e197]:
+              - link "Für Unternehmen" [ref=f6e198] [cursor=pointer]:
+                - /url: /unternehmen/
+            - listitem [ref=f6e199]:
+              - link "Über uns" [ref=f6e200] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f6e201]:
+              - link "Kontakt" [ref=f6e202] [cursor=pointer]:
+                - /url: /kontakt/
+          - list [ref=f6e204]:
+            - listitem [ref=f6e205]:
+              - link "Impressum" [ref=f6e206] [cursor=pointer]:
+                - /url: /impressum/
+            - listitem [ref=f6e207]:
+              - link "Datenschutz" [ref=f6e208] [cursor=pointer]:
+                - /url: /datenschutz/
+            - listitem [ref=f6e209]:
+              - link "Hinweisgebersystem" [ref=f6e210] [cursor=pointer]:
+                - /url: https://psdirekt.integrityline.app/
+            - listitem [ref=f6e211]:
+              - link "Cookie Einstellungen" [ref=f6e212] [cursor=pointer]:
+                - /url: "#0"
+          - list [ref=f6e214]:
+            - listitem [ref=f6e215]:
+              - link [ref=f6e216] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/psdirektgmbh-co-kg
+                - img "Xing" [ref=f6e217]
+            - listitem [ref=f6e219]:
+              - link [ref=f6e220] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/ps-direkt
+                - img "LinkedIn" [ref=f6e221]
+  - link "Nach oben" [ref=f6e256] [cursor=pointer]:
+    - /url: "#totop"
+  - generic [ref=f6e223]:
+    - link "Menu schließen" [ref=f6e224] [cursor=pointer]:
+      - /url: "#0"
+    - navigation [ref=f6e227]:
+      - list [ref=f6e228]:
+        - listitem [ref=f6e229]:
+          - link "Job finden" [ref=f6e230] [cursor=pointer]:
+            - /url: /stellenangebote/
+        - listitem [ref=f6e231]:
+          - link "Für Bewerber" [ref=f6e232] [cursor=pointer]:
+            - /url: /bewerber/
+        - listitem [ref=f6e233]:
+          - link "Für Unternehmen" [ref=f6e234] [cursor=pointer]:
+            - /url: /unternehmen/
+        - listitem [ref=f6e235]:
+          - link "Über uns" [ref=f6e236] [cursor=pointer]:
+            - /url: /ueber-uns/
+        - listitem [ref=f6e237]:
+          - link "Kontakt" [ref=f6e238] [cursor=pointer]:
+            - /url: /kontakt/
+      - separator [ref=f6e239]
+      - list [ref=f6e240]:
+        - listitem [ref=f6e241]:
+          - link "Impressum" [ref=f6e242] [cursor=pointer]:
+            - /url: /impressum/
+        - listitem [ref=f6e243]:
+          - link "Datenschutz" [ref=f6e244] [cursor=pointer]:
+            - /url: /datenschutz/
+      - separator [ref=f6e245]
+      - list [ref=f6e246]:
+        - listitem [ref=f6e247]:
+          - link [ref=f6e248] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/psdirektgmbh-co-kg
+            - img "Xing" [ref=f6e249]
+        - listitem [ref=f6e251]:
+          - link [ref=f6e252] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/ps-direkt
+            - img "LinkedIn" [ref=f6e253]

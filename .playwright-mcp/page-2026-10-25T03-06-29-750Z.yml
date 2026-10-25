@@ -1,0 +1,738 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - list:
+      - listitem:
+        - link [ref=e3] [cursor=pointer]:
+          - /url: "#skip-to-main-heading"
+      - listitem:
+        - button "Login" [ref=e4] [cursor=pointer]
+      - listitem:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: "#skip-to-mainnav-heading"
+  - list [ref=e7]:
+    - listitem [ref=e8]:
+      - button "en - English - Language" [ref=e9] [cursor=pointer]:
+        - generic "English - Language" [ref=e11]:
+          - text: en
+          - generic [ref=e12]: "- English - Language"
+    - listitem [ref=e14]:
+      - link "markant.com" [ref=e15] [cursor=pointer]:
+        - /url: https://www.markant.com/en
+  - banner [ref=e16]:
+    - generic [ref=e18]:
+      - banner [ref=e19]:
+        - link "Markant - Go to homepage" [ref=e20] [cursor=pointer]:
+          - /url: index.php
+      - button "Menu" [ref=e23] [cursor=pointer]
+      - navigation:     
+  - main [ref=e53]:
+    - generic [ref=e54]:
+      - navigation "You are here":
+        - list [ref=e55]:
+          - listitem [ref=e56]:
+            - link "Home" [ref=e57] [cursor=pointer]:
+              - /url: /index.php
+          - listitem [ref=e58]:
+            - text: ›
+            - generic "Job offers" [ref=e59]
+    - 'heading "Search result: 44 hits" [level=1] [ref=e155]':
+      - text: Search result
+      - generic [ref=e156]: ": 44 hits"
+    - generic [ref=e63]:
+      - complementary [ref=e64]:
+        - link "Skip to the search results" [ref=e65] [cursor=pointer]:
+          - /url: "#skip-to-search-result-heading"
+        - generic [ref=e66]:
+          - heading "Search criteria" [level=2] [ref=e67]
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]: Keywords
+              - textbox "Keywords" [ref=e77]:
+                - /placeholder: Keyword, activity, job ad no.
+            - generic [ref=e78]:
+              - generic [ref=e79]: Country
+              - generic [ref=e81]:
+                - listbox "Country" [ref=e82]:
+                  - option "Germany" [ref=e157]
+                  - option "Poland" [ref=e158]
+                  - option "Portugal" [ref=e159]
+                - button "All countries " [ref=e84] [cursor=pointer]
+            - generic [ref=e85]:
+              - generic [ref=e86]: Division
+              - generic [ref=e88]:
+                - listbox "Division" [ref=e89]:
+                  - option "Handelsmarken GmbH" [ref=e826]
+                  - option "INTERGAST Grossverbraucher-Service Handelsgesellschaft mbH" [ref=e827]
+                  - option "Markant Deutschland GmbH" [ref=e828]
+                  - option "Markant European Payment Services GmbH" [ref=e829]
+                  - option "Markant Polska Sp. z o.o." [ref=e830]
+                  - option "Markant Services International GmbH" [ref=e831]
+                  - option "Markant Services International GmbH Portugal" [ref=e832]
+                  - option "Markant Services International Polska Sp. z o.o." [ref=e833]
+                  - option "Retail AI GmbH" [ref=e834]
+                  - option "Zentrale Handelsgesellschaft mbH" [ref=e835]
+                - button "All divisions " [ref=e91] [cursor=pointer]
+            - generic [ref=e92]:
+              - generic [ref=e93]: Entry level
+              - generic [ref=e95]:
+                - listbox "Entry level" [ref=e96]:
+                  - option "Apprenticeship" [ref=e170]
+                  - option "Professionals" [ref=e171]
+                  - option "pupil" [ref=e172]
+                  - option "Young Professionals" [ref=e173]
+                - button "All entry levels " [ref=e98] [cursor=pointer]
+            - generic [ref=e99]:
+              - generic [ref=e100]: Function
+              - generic [ref=e102]:
+                - listbox "Function" [ref=e103]:
+                  - option "Administration" [ref=e174]
+                  - option "Catering" [ref=e175]
+                  - option "Consulting" [ref=e176]
+                  - option "Finance" [ref=e177]
+                  - option "Finance / Accounting / Taxes" [ref=e178]
+                  - option "IT" [ref=e179]
+                  - option "Logistics / Material Management" [ref=e180]
+                  - option "Purchasing" [ref=e181]
+                  - option "Quality Management" [ref=e182]
+                  - option "Sales / CRM" [ref=e183]
+                  - option "Other" [ref=e184]
+                - button "All functions " [ref=e105] [cursor=pointer]
+            - generic [ref=e106]:
+              - generic [ref=e107]: Working hour
+              - generic [ref=e109]:
+                - listbox "Working hour" [ref=e110]:
+                  - option "Full time" [ref=e836]
+                  - option "Full-time (part time possible)" [ref=e837]
+                - button "All working hours " [ref=e112] [cursor=pointer]
+            - button "44 jobs" [ref=e187] [cursor=pointer]
+            - button "Reset" [ref=e118] [cursor=pointer]
+      - generic [ref=e119]:
+        - heading "Search results" [level=2] [ref=e120]
+        - generic [ref=e189]:
+          - generic [ref=e190]:
+            - paragraph [ref=e192]: Page 1 of 1
+            - generic [ref=e193]:
+              - generic [ref=e194]: per page
+              - generic [ref=e195]:
+                - combobox "per page" [ref=e196]:
+                  - option "50" [selected]
+                  - option "100"
+                  - option "250"
+                - button "50 " [ref=e198] [cursor=pointer]
+            - navigation "gjbDatatable.datatablePagination.general_pages" [ref=e200]:
+              - text: gjbDatatable.datatablePagination.general_pages
+              - list [ref=e201]:
+                - listitem:
+                  - button "Previous page" [disabled] [ref=e202]:
+                    - generic [aria-hidden] [ref=e203]: «
+                - listitem:
+                  - button "1 - gjbDatatable.datatablePagination.general_current_page 1" [disabled] [ref=e205]:
+                    - text: "1"
+                    - generic [ref=e206]: "- gjbDatatable.datatablePagination.general_current_page 1"
+                - listitem:
+                  - button "Next page" [disabled] [ref=e207]:
+                    - generic [aria-hidden] [ref=e208]: »
+          - generic [ref=e211]:
+            - generic: sortable sortable sortable sortable
+            - table [ref=e212]:
+              - rowgroup [ref=e213]:
+                - row [ref=e214]:
+                  - columnheader [ref=e215]:
+                    - button "Job title" [ref=e216] [cursor=pointer]
+                  - columnheader [ref=e219]:
+                    - button "Company" [ref=e220] [cursor=pointer]
+                  - columnheader [ref=e223]:
+                    - button "Location" [ref=e224] [cursor=pointer]
+                  - columnheader [ref=e227]:
+                    - button "Start from" [ref=e228] [cursor=pointer]
+                  - columnheader "Actions" [ref=e231]
+              - rowgroup [ref=e232]:
+                - row [ref=e233]:
+                  - cell [ref=e234]:
+                    - link "Küchenmeister und Fachberater Food (m/w/d)" [ref=e235] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=693
+                  - cell "INTERGAST Grossverbraucher-Service Handelsgesellschaft mbH" [ref=e236]
+                  - cell "Offenburg" [ref=e237]
+                  - cell "01.09.2026" [ref=e238]
+                  - cell [ref=e239]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e240] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e241]: 
+                    - button "Share job ad" [ref=e243] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e244]: 
+                - row [ref=e246]:
+                  - cell [ref=e247]:
+                    - link "Duales Studium zum Bachelor of Arts BWL Foodmanagement 2028 (m/w/d)" [ref=e248] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=755
+                  - cell "Markant Services International GmbH" [ref=e249]
+                  - cell "Offenburg" [ref=e250]
+                  - cell "01.10.2028" [ref=e251]
+                  - cell [ref=e252]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e253] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e254]: 
+                    - button "Share job ad" [ref=e256] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e257]: 
+                - row [ref=e259]:
+                  - cell [ref=e260]:
+                    - link "Duales Studium zum Bachelor of Arts BWL Handel 2028 (m/w/d)" [ref=e261] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=758
+                  - cell "Markant Services International GmbH" [ref=e262]
+                  - cell "Offenburg" [ref=e263]
+                  - cell "01.10.2028" [ref=e264]
+                  - cell [ref=e265]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e266] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e267]: 
+                    - button "Share job ad" [ref=e269] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e270]: 
+                - row [ref=e272]:
+                  - cell [ref=e273]:
+                    - link "Ausbildung zum Kaufmann für Gross- und Aussenhandelsmanagement 2028 (m/w/d)" [ref=e274] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=757
+                  - cell "Markant Services International GmbH" [ref=e275]
+                  - cell "Offenburg" [ref=e276]
+                  - cell "01.09.2028" [ref=e277]
+                  - cell [ref=e278]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e279] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e280]: 
+                    - button "Share job ad" [ref=e282] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e283]: 
+                - row [ref=e285]:
+                  - cell [ref=e286]:
+                    - link "Duales Studium zum Bachelor of Arts Digital Commerce Management 2028 (m/w/d)" [ref=e287] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=756
+                  - cell "Markant Services International GmbH" [ref=e288]
+                  - cell "Offenburg" [ref=e289]
+                  - cell "01.10.2028" [ref=e290]
+                  - cell [ref=e291]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e292] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e293]: 
+                    - button "Share job ad" [ref=e295] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e296]: 
+                - row [ref=e298]:
+                  - cell [ref=e299]:
+                    - link "IT-Ausbildung zum Fachinformatiker 2028 (m/w/d)" [ref=e300] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=759
+                  - cell "Markant Services International GmbH" [ref=e301]
+                  - cell "Offenburg" [ref=e302]
+                  - cell "01.09.2028" [ref=e303]
+                  - cell [ref=e304]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e305] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e306]: 
+                    - button "Share job ad" [ref=e308] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e309]: 
+                - row [ref=e311]:
+                  - cell [ref=e312]:
+                    - link "IT Service Manager (m/w/d)" [ref=e313] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=689
+                  - cell "Markant Services International GmbH" [ref=e314]
+                  - cell "Offenburg" [ref=e315]
+                  - cell "sofort" [ref=e316]
+                  - cell [ref=e317]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e318] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e319]: 
+                    - button "Share job ad" [ref=e321] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e322]: 
+                - row [ref=e324]:
+                  - cell [ref=e325]:
+                    - link "Business Analyst (m/w/d)" [ref=e326] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=754
+                  - cell "Markant Services International GmbH" [ref=e327]
+                  - cell "Offenburg" [ref=e328]
+                  - cell "sofort" [ref=e329]
+                  - cell [ref=e330]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e331] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e332]: 
+                    - button "Share job ad" [ref=e334] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e335]: 
+                - row [ref=e337]:
+                  - cell [ref=e338]:
+                    - link "Assistenz Einkauf (m/w/d)" [ref=e339] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=651
+                  - cell "INTERGAST Grossverbraucher-Service Handelsgesellschaft mbH" [ref=e340]
+                  - cell "Offenburg" [ref=e341]
+                  - cell "01.11.2026" [ref=e342]
+                  - cell [ref=e343]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e344] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e345]: 
+                    - button "Share job ad" [ref=e347] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e348]: 
+                - row [ref=e350]:
+                  - cell [ref=e351]:
+                    - link "Consultant (m/w/d)" [ref=e352] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=753
+                  - cell "Markant Deutschland GmbH" [ref=e353]
+                  - cell "Offenburg" [ref=e354]
+                  - cell "01.11.2026" [ref=e355]
+                  - cell [ref=e356]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e357] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e358]: 
+                    - button "Share job ad" [ref=e360] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e361]: 
+                - row [ref=e363]:
+                  - cell [ref=e364]:
+                    - link "Teamleiter EDI Finanzen (m/w/d)" [ref=e365] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=752
+                  - cell "Markant Deutschland GmbH" [ref=e366]
+                  - cell "Offenburg" [ref=e367]
+                  - cell "01.11.2026" [ref=e368]
+                  - cell [ref=e369]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e370] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e371]: 
+                    - button "Share job ad" [ref=e373] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e374]: 
+                - row [ref=e376]:
+                  - cell [ref=e377]:
+                    - link "Facility Manager (m/w/d)" [ref=e378] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=726
+                  - cell "Markant Services International GmbH" [ref=e379]
+                  - cell "Offenburg" [ref=e380]
+                  - cell "sofort" [ref=e381]
+                  - cell [ref=e382]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e383] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e384]: 
+                    - button "Share job ad" [ref=e386] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e387]: 
+                - row [ref=e389]:
+                  - cell [ref=e390]:
+                    - link "Consultant Master Data Services (m/w/d)" [ref=e391] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=751
+                  - cell "Markant Deutschland GmbH" [ref=e392]
+                  - cell "Offenburg" [ref=e393]
+                  - cell "01.10.2026" [ref=e394]
+                  - cell [ref=e395]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e396] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e397]: 
+                    - button "Share job ad" [ref=e399] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e400]: 
+                - row [ref=e402]:
+                  - cell [ref=e403]:
+                    - link "Product Owner – Digitale Vorgangsakte (m/w/d)" [ref=e404] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=750
+                  - cell "Markant Services International GmbH" [ref=e405]
+                  - cell "Offenburg" [ref=e406]
+                  - cell "sofort" [ref=e407]
+                  - cell [ref=e408]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e409] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e410]: 
+                    - button "Share job ad" [ref=e412] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e413]: 
+                - row [ref=e415]:
+                  - cell [ref=e416]:
+                    - link "Junior Referent Finanzbuchhaltung mit Schwerpunkt Steuern (m/w/d)" [ref=e417] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=749
+                  - cell "Markant Services International GmbH" [ref=e418]
+                  - cell "Offenburg" [ref=e419]
+                  - cell "sofort" [ref=e420]
+                  - cell [ref=e421]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e422] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e423]: 
+                    - button "Share job ad" [ref=e425] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e426]: 
+                - row [ref=e428]:
+                  - cell [ref=e429]:
+                    - link "Einkäufer (m/w/d)" [ref=e430] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=748
+                  - cell "INTERGAST Grossverbraucher-Service Handelsgesellschaft mbH" [ref=e431]
+                  - cell "Offenburg" [ref=e432]
+                  - cell "01.10.2026" [ref=e433]
+                  - cell [ref=e434]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e435] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e436]: 
+                    - button "Share job ad" [ref=e438] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e439]: 
+                - row [ref=e441]:
+                  - cell [ref=e442]:
+                    - link "Business-Analyst (m/w/d)" [ref=e443] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=747
+                  - cell "Markant Services International GmbH" [ref=e444]
+                  - cell "Offenburg" [ref=e445]
+                  - cell "sofort" [ref=e446]
+                  - cell [ref=e447]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e448] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e449]: 
+                    - button "Share job ad" [ref=e451] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e452]: 
+                - row [ref=e454]:
+                  - cell [ref=e455]:
+                    - link "Business Consultant (m/w/d) für unsere Industriepartner" [ref=e456] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=565
+                  - cell "Handelsmarken GmbH" [ref=e457]
+                  - cell "Offenburg" [ref=e458]
+                  - cell "sofort" [ref=e459]
+                  - cell [ref=e460]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e461] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e462]: 
+                    - button "Share job ad" [ref=e464] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e465]: 
+                - row [ref=e467]:
+                  - cell [ref=e468]:
+                    - link "Business Analyst (m/w/d)" [ref=e469] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=745
+                  - cell "Markant Services International GmbH" [ref=e470]
+                  - cell "Offenburg" [ref=e471]
+                  - cell "sofort" [ref=e472]
+                  - cell [ref=e473]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e474] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e475]: 
+                    - button "Share job ad" [ref=e477] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e478]: 
+                - row [ref=e480]:
+                  - cell [ref=e481]:
+                    - link "Software Engineer (m/w/d)" [ref=e482] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=746
+                  - cell "Markant Services International GmbH" [ref=e483]
+                  - cell "Offenburg" [ref=e484]
+                  - cell "sofort" [ref=e485]
+                  - cell [ref=e486]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e487] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e488]: 
+                    - button "Share job ad" [ref=e490] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e491]: 
+                - row [ref=e493]:
+                  - cell [ref=e494]:
+                    - link "Engineering Lead Marketplace (m/f/d)" [ref=e495] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=744
+                  - cell "Markant Services International GmbH Portugal" [ref=e496]
+                  - cell "Porto, Portugal" [ref=e497]
+                  - cell "01.09.2026" [ref=e498]
+                  - cell [ref=e499]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e500] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e501]: 
+                    - button "Share job ad" [ref=e503] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e504]: 
+                - row [ref=e506]:
+                  - cell [ref=e507]:
+                    - link "(Senior) Software Engineer (m/w/d)" [ref=e508] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=743
+                  - cell "Markant Services International GmbH" [ref=e509]
+                  - cell "Offenburg" [ref=e510]
+                  - cell "sofort" [ref=e511]
+                  - cell [ref=e512]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e513] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e514]: 
+                    - button "Share job ad" [ref=e516] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e517]: 
+                - row [ref=e519]:
+                  - cell [ref=e520]:
+                    - link "DevOps Engineer (m/w/d) für Daten- und KI-Plattformen" [ref=e521] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=739
+                  - cell "Markant Services International GmbH" [ref=e522]
+                  - cell "Offenburg" [ref=e523]
+                  - cell "sofort" [ref=e524]
+                  - cell [ref=e525]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e526] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e527]: 
+                    - button "Share job ad" [ref=e529] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e530]: 
+                - row [ref=e532]:
+                  - cell [ref=e533]:
+                    - link "Cloud Platform Engineer (m/w/d)" [ref=e534] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=738
+                  - cell "Markant Services International GmbH" [ref=e535]
+                  - cell "Offenburg" [ref=e536]
+                  - cell "sofort" [ref=e537]
+                  - cell [ref=e538]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e539] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e540]: 
+                    - button "Share job ad" [ref=e542] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e543]: 
+                - row [ref=e545]:
+                  - cell [ref=e546]:
+                    - link "Site Reliability Engineer (m/w/d)" [ref=e547] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=737
+                  - cell "Markant Services International GmbH" [ref=e548]
+                  - cell "Offenburg" [ref=e549]
+                  - cell "sofort" [ref=e550]
+                  - cell [ref=e551]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e552] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e553]: 
+                    - button "Share job ad" [ref=e555] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e556]: 
+                - row [ref=e558]:
+                  - cell [ref=e559]:
+                    - link "Senior AI Business Analyst / AI Product Engineer (m/w/n)" [ref=e560] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=736
+                  - cell "Markant Services International Polska Sp. z o.o." [ref=e561]
+                  - cell "Warsaw" [ref=e562]
+                  - cell "01.09.2026" [ref=e563]
+                  - cell [ref=e564]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e565] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e566]: 
+                    - button "Share job ad" [ref=e568] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e569]: 
+                - row [ref=e571]:
+                  - cell [ref=e572]:
+                    - link "Senior AI Learning Experience Designer / Senior AI Enablement Manager (m/w/d)" [ref=e573] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=735
+                  - cell "Retail AI GmbH" [ref=e574]
+                  - cell "Frankfurt am Main" [ref=e575]
+                  - cell "sofort" [ref=e576]
+                  - cell [ref=e577]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e578] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e579]: 
+                    - button "Share job ad" [ref=e581] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e582]: 
+                - row [ref=e584]:
+                  - cell [ref=e585]:
+                    - link "Consultant Produktrecht Food & Nonfood / Lebensmittelchemiker (m/w/d)" [ref=e586] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=686
+                  - cell "Handelsmarken GmbH" [ref=e587]
+                  - cell "Offenburg" [ref=e588]
+                  - cell "sofort" [ref=e589]
+                  - cell [ref=e590]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e591] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e592]: 
+                    - button "Share job ad" [ref=e594] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e595]: 
+                - row [ref=e597]:
+                  - cell [ref=e598]:
+                    - link "Business Analyst Customer Care (m/w/d)" [ref=e599] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=733
+                  - cell "Markant Services International GmbH" [ref=e600]
+                  - cell "Offenburg" [ref=e601]
+                  - cell "sofort" [ref=e602]
+                  - cell [ref=e603]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e604] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e605]: 
+                    - button "Share job ad" [ref=e607] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e608]: 
+                - row [ref=e610]:
+                  - cell [ref=e611]:
+                    - link "Datenbankadministrator (m/w/d)" [ref=e612] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=511
+                  - cell "Markant Services International GmbH" [ref=e613]
+                  - cell "Offenburg" [ref=e614]
+                  - cell "sofort" [ref=e615]
+                  - cell [ref=e616]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e617] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e618]: 
+                    - button "Share job ad" [ref=e620] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e621]: 
+                - row [ref=e623]:
+                  - cell [ref=e624]:
+                    - link "Teamlead Infrastructure Services (m/w/d)" [ref=e625] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=732
+                  - cell "Markant Services International GmbH" [ref=e626]
+                  - cell "Offenburg" [ref=e627]
+                  - cell "sofort" [ref=e628]
+                  - cell [ref=e629]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e630] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e631]: 
+                    - button "Share job ad" [ref=e633] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e634]: 
+                - row [ref=e636]:
+                  - cell [ref=e637]:
+                    - link "Junior Business Consultant (m/w/d) für unsere Handelspartner" [ref=e638] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=730
+                  - cell "Handelsmarken GmbH" [ref=e639]
+                  - cell "Offenburg" [ref=e640]
+                  - cell "sofort" [ref=e641]
+                  - cell [ref=e642]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e643] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e644]: 
+                    - button "Share job ad" [ref=e646] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e647]: 
+                - row [ref=e649]:
+                  - cell [ref=e650]:
+                    - link "Customer Service (m/w/d)" [ref=e651] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=731
+                  - cell "Markant Polska Sp. z o.o." [ref=e652]
+                  - cell "Warsaw" [ref=e653]
+                  - cell "01.08.2026" [ref=e654]
+                  - cell [ref=e655]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e656] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e657]: 
+                    - button "Share job ad" [ref=e659] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e660]: 
+                - row [ref=e662]:
+                  - cell [ref=e663]:
+                    - link "Business Analyst CRM (m/w/d)" [ref=e664] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=385
+                  - cell "Markant Services International GmbH" [ref=e665]
+                  - cell "Offenburg" [ref=e666]
+                  - cell "sofort" [ref=e667]
+                  - cell [ref=e668]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e669] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e670]: 
+                    - button "Share job ad" [ref=e672] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e673]: 
+                - row [ref=e675]:
+                  - cell [ref=e676]:
+                    - link "KYC-Analyst (m/w/d)" [ref=e677] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=585
+                  - cell "Markant European Payment Services GmbH" [ref=e678]
+                  - cell "Offenburg" [ref=e679]
+                  - cell "sofort" [ref=e680]
+                  - cell [ref=e681]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e682] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e683]: 
+                    - button "Share job ad" [ref=e685] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e686]: 
+                - row [ref=e688]:
+                  - cell [ref=e689]:
+                    - link "Volljurist (m/w/d)" [ref=e690] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=720
+                  - cell "Handelsmarken GmbH" [ref=e691]
+                  - cell "Offenburg" [ref=e692]
+                  - cell "sofort" [ref=e693]
+                  - cell [ref=e694]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e695] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e696]: 
+                    - button "Share job ad" [ref=e698] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e699]: 
+                - row [ref=e701]:
+                  - cell [ref=e702]:
+                    - link "Leitung Einkauf Drogerie (m/w/d)" [ref=e703] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=721
+                  - cell "Zentrale Handelsgesellschaft mbH" [ref=e704]
+                  - cell "Offenburg" [ref=e705]
+                  - cell [ref=e706]
+                  - cell [ref=e707]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e708] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e709]: 
+                    - button "Share job ad" [ref=e711] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e712]: 
+                - row [ref=e714]:
+                  - cell [ref=e715]:
+                    - link "Software Engineer (m/w/d)" [ref=e716] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=719
+                  - cell "Markant Services International GmbH" [ref=e717]
+                  - cell "Offenburg" [ref=e718]
+                  - cell "sofort" [ref=e719]
+                  - cell [ref=e720]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e721] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e722]: 
+                    - button "Share job ad" [ref=e724] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e725]: 
+                - row [ref=e727]:
+                  - cell [ref=e728]:
+                    - link "System Engineer mit Schwerpunkt IAM (m/w/d)" [ref=e729] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=712
+                  - cell "Markant Services International GmbH" [ref=e730]
+                  - cell "Offenburg" [ref=e731]
+                  - cell "sofort" [ref=e732]
+                  - cell [ref=e733]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e734] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e735]: 
+                    - button "Share job ad" [ref=e737] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e738]: 
+                - row [ref=e740]:
+                  - cell [ref=e741]:
+                    - link "Enterprise Architect Data (m/w/d)" [ref=e742] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=713
+                  - cell "Markant Services International GmbH" [ref=e743]
+                  - cell "Offenburg" [ref=e744]
+                  - cell "sofort" [ref=e745]
+                  - cell [ref=e746]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e747] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e748]: 
+                    - button "Share job ad" [ref=e750] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e751]: 
+                - row [ref=e753]:
+                  - cell [ref=e754]:
+                    - link "Business Intelligence Engineer mit Schwerpunkt Qlik Sense (m/w/d)" [ref=e755] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=709
+                  - cell "Markant Services International GmbH" [ref=e756]
+                  - cell "Offenburg" [ref=e757]
+                  - cell "sofort" [ref=e758]
+                  - cell [ref=e759]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e760] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e761]: 
+                    - button "Share job ad" [ref=e763] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e764]: 
+                - row [ref=e766]:
+                  - cell [ref=e767]:
+                    - link "Software Quality Engineer (m/w/d)" [ref=e768] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=494
+                  - cell "Markant Services International GmbH" [ref=e769]
+                  - cell "Offenburg" [ref=e770]
+                  - cell "sofort" [ref=e771]
+                  - cell [ref=e772]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e773] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e774]: 
+                    - button "Share job ad" [ref=e776] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e777]: 
+                - row [ref=e779]:
+                  - cell [ref=e780]:
+                    - link "Senior Cloud Devops Engineer (m/w/d)" [ref=e781] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=587
+                  - cell "Markant Services International GmbH" [ref=e782]
+                  - cell "Offenburg" [ref=e783]
+                  - cell "sofort" [ref=e784]
+                  - cell [ref=e785]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e786] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e787]: 
+                    - button "Share job ad" [ref=e789] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e790]: 
+                - row [ref=e792]:
+                  - cell [ref=e793]:
+                    - link "Schulpraktikum/BOGY/BORS (m/w/d)" [ref=e794] [cursor=pointer]:
+                      - /url: index.php?ac=jobad&id=368
+                  - cell "Markant Services International GmbH" [ref=e795]
+                  - cell "Offenburg" [ref=e796]
+                  - cell "sofort" [ref=e797]
+                  - cell [ref=e798]:
+                    - button "Please log in to add a job advertisement to your saved jobs list." [ref=e799] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e800]: 
+                    - button "Share job ad" [ref=e802] [cursor=pointer]:
+                      - generic [aria-hidden] [ref=e803]: 
+          - generic [ref=e805]:
+            - paragraph [ref=e807]: Page 1 of 1
+            - generic [ref=e808]:
+              - generic [ref=e809]: per page
+              - generic [ref=e810]:
+                - combobox "per page" [ref=e811]:
+                  - option "50" [selected]
+                  - option "100"
+                  - option "250"
+                - button "50 " [ref=e813] [cursor=pointer]
+            - navigation "gjbDatatable.datatablePagination.general_pages" [ref=e815]:
+              - text: gjbDatatable.datatablePagination.general_pages
+              - list [ref=e816]:
+                - listitem:
+                  - button "Previous page" [disabled] [ref=e817]:
+                    - generic [aria-hidden] [ref=e818]: «
+                - listitem:
+                  - button "1 - gjbDatatable.datatablePagination.general_current_page 1" [disabled] [ref=e820]:
+                    - text: "1"
+                    - generic [ref=e821]: "- gjbDatatable.datatablePagination.general_current_page 1"
+                - listitem:
+                  - button "Next page" [disabled] [ref=e822]:
+                    - generic [aria-hidden] [ref=e823]: »
+    - button "Create job subscription" [ref=e126] [cursor=pointer]
+    - text:    
+  - contentinfo [ref=e127]:
+    - generic [ref=e131]:
+      - navigation:
+        - list
+    - separator [ref=e132]
+    - generic [ref=e135]:
+      - navigation [ref=e137]:
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Imprint" [ref=e140] [cursor=pointer]:
+              - /url: index.php?ac=imprint
+            - text: "|"
+          - listitem [ref=e141]:
+            - link "Data privacy statement" [ref=e142] [cursor=pointer]:
+              - /url: index.php?ac=privacy_policy
+            - text: "|"
+          - listitem [ref=e143]:
+            - link "Contact" [ref=e144] [cursor=pointer]:
+              - /url: index.php?ac=contact
+            - text: "|"
+          - listitem [ref=e145]:
+            - link "Cookie Settings" [ref=e146] [cursor=pointer]:
+              - /url: "#"
+      - banner [ref=e147]
+    - region [ref=e149]:
+      - list:
+        - listitem:
+          - link [ref=e150] [cursor=pointer]:
+            - /url: "#skip-to-main-heading"
+        - listitem:
+          - button "Login" [ref=e151] [cursor=pointer]
+          - button "Login" [ref=e152] [cursor=pointer]
+        - listitem:
+          - link [ref=e153] [cursor=pointer]:
+            - /url: "#skip-to-mainnav-heading"
+  - status [ref=e154]

@@ -1,0 +1,538 @@
+- generic [ref=f60e1]:
+  - banner [ref=f60e3]:
+    - generic [ref=f60e4]:
+      - link "Custom" [ref=f60e11] [cursor=pointer]:
+        - /url: /
+      - navigation "top" [ref=f60e14]:
+        - generic [ref=f60e15]:
+          - link "Telekom Logo" [ref=f60e18] [cursor=pointer]:
+            - /url: /
+          - list [ref=f60e24]:
+            - listitem [ref=f60e25] [cursor=pointer]:
+              - button "Suche öffnen" [ref=f60e26]:
+                - generic [ref=f60e32]: Suche
+            - listitem [ref=f60e33] [cursor=pointer]:
+              - link "Menü" [ref=f60e34]:
+                - /url: javascript:void(0);
+  - navigation "Breadcrumb" [ref=f60e42]:
+    - list [ref=f60e43]:
+      - listitem [ref=f60e44]:
+        - link "Karriere" [ref=f60e45] [cursor=pointer]:
+          - /url: /karriere
+      - listitem [ref=f60e51]: Stellenbörse
+  - main [ref=f60e52]:
+    - generic [ref=f60e58]:
+      - generic [ref=f60e59]:
+        - generic [ref=f60e61]:
+          - heading "Consultant SAP CX (m/w/d)" [level=2] [ref=f60e62]
+          - paragraph [ref=f60e63]: Vielen Dank für das Interesse an einer Bewerbung! Um das Ausfüllen des Bewerbungsformulars zu beschleunigen, bieten wir die Möglichkeit an den vorhandenen Lebenslauf mit unserem CV-Parser scannen zu lassen. Die Felder werden dann vorausgefüllt. Die mit * gekennzeichneten Felder, sind Pflichtfelder.
+          - paragraph
+          - paragraph [ref=f60e64]: "Standorte: Hamburg, Dresden, Berlin, Bonn, Jena, München, Rostock, Stuttgart, Leipzig, Mannheim"
+          - generic [ref=f60e65]:
+            - generic [ref=f60e69] [cursor=pointer]:
+              - button "Choose File" [ref=f60e70]
+              - link "CV-Upload" [ref=f60e71]:
+                - /url: "javascript: void(0);"
+            - status [ref=f60e413]:
+              - generic [ref=f60e414]:  Es wurden 3 Felder automatisch erkannt und gesetzt!
+          - generic [ref=f60e73]:
+            - group "Persönliche Daten" [ref=f60e75]:
+              - generic [ref=f60e78]:
+                - generic [ref=f60e79]:
+                  - generic [ref=f60e80]:
+                    - generic [ref=f60e81]:
+                      - text: Vorname *
+                      - img "gemäß Personalausweis" [ref=f60e83]
+                    - textbox "Vorname * gemäß Personalausweis" [ref=f60e85]: Kranti
+                  - generic [ref=f60e86]:
+                    - generic [ref=f60e87]:
+                      - text: Nachname *
+                      - img "gemäß Personalausweis" [ref=f60e89]
+                    - textbox "Nachname * gemäß Personalausweis" [ref=f60e91]: Chavan
+                - generic [ref=f60e92]:
+                  - generic [ref=f60e93]:
+                    - generic [ref=f60e94]: Geschlecht
+                    - combobox "Weiblich" [ref=f60e415] [cursor=pointer]:
+                      - generic [ref=f60e97]: 
+                  - generic [ref=f60e99]:
+                    - generic [ref=f60e100]: Bist du wegen eines Deliktes, das für deine Tätigkeit von Bedeutung ist, vorbestraft? *
+                    - combobox "Nein" [ref=f60e417] [cursor=pointer]:
+                      - generic [ref=f60e103]: 
+                - generic [ref=f60e105]:
+                  - generic [ref=f60e106]:
+                    - generic [ref=f60e107]: Straße, Hausnummer *
+                    - textbox "Straße, Hausnummer *" [ref=f60e109]: Blücherstraße 6
+                  - generic [ref=f60e110]:
+                    - generic [ref=f60e111]: PLZ *
+                    - textbox "PLZ *" [ref=f60e113]: "76185"
+                - generic [ref=f60e114]:
+                  - generic [ref=f60e115]:
+                    - generic [ref=f60e116]: Ort *
+                    - textbox "Ort *" [ref=f60e118]: Karlsruhe
+                  - generic [ref=f60e119]:
+                    - generic [ref=f60e120]: Land *
+                    - combobox "Deutschland" [ref=f60e419] [cursor=pointer]:
+                      - generic [ref=f60e123]: 
+                - generic [ref=f60e125]:
+                  - generic [ref=f60e126]:
+                    - generic [ref=f60e127]: Telefon / Mobil *
+                    - generic [ref=f60e129]:
+                      - button "Ländervorwahl auswählen" [ref=f60e131] [cursor=pointer]:
+                        - img "DE" [ref=f60e132]
+                        - generic [ref=f60e133]: "+49"
+                        - generic [ref=f60e134]:
+                          - generic [ref=f60e135]: 
+                          - text: 
+                      - textbox "Telefon / Mobil *" [ref=f60e136]: "15750174177"
+                  - generic [ref=f60e137]:
+                    - generic [ref=f60e138]: E-Mail *
+                    - textbox "E-Mail *" [ref=f60e140]: krantichavan198@gmail.com
+            - group "Rahmendaten" [ref=f60e142]:
+              - generic [ref=f60e145]:
+                - generic [ref=f60e146]:
+                  - generic [ref=f60e147]:
+                    - generic [ref=f60e148]: Frühester Eintritt (TT.MM.JJJJ) *
+                    - textbox "Frühester Eintritt (TT.MM.JJJJ) *" [ref=f60e150]: 16.12.2026
+                  - generic [ref=f60e151]:
+                    - generic [ref=f60e152]: Gewünschter Standort (Mehrfachauswahl möglich) *
+                    - button "Gewünschter Standort (Mehrfachauswahl möglich) *" [ref=f60e154] [cursor=pointer]:
+                      - generic [ref=f60e155]: 
+                      - generic [ref=f60e156]: Mannheim
+                - generic [ref=f60e157]:
+                  - generic [ref=f60e158]:
+                    - generic [ref=f60e159]:
+                      - text: Gehaltswunsch p. a. in € (nur Zahl) *
+                      - img "Gemäß der EU-Entgelttransparenzrichtlinie (EU) 2023/970 orientiert sich die Gehaltsfindung ausschließlich an den Anforderungen der ausgeschriebenen Position und den stellenbezogenen Qualifikationen." [ref=f60e161]
+                    - textbox "Gehaltswunsch p. a. in € (nur Zahl) * Gemäß der EU-Entgelttransparenzrichtlinie (EU) 2023/970 orientiert sich die Gehaltsfindung ausschließlich an den Anforderungen der ausgeschriebenen Position und den stellenbezogenen Qualifikationen." [ref=f60e163]: "60000"
+                  - generic [ref=f60e164]:
+                    - generic [ref=f60e165]: Reisebereitschaft (in Tagen pro Woche) *
+                    - textbox "Reisebereitschaft (in Tagen pro Woche) *" [active] [ref=f60e167]: 2,5
+                - generic [ref=f60e168]:
+                  - generic [ref=f60e169]:
+                    - generic [ref=f60e170]:
+                      - text: Deutschkenntnisse *
+                      - img "Entsprechend dem Gemeinsamen Europäischen Referenzrahmen für Sprachen" [ref=f60e172]
+                    - combobox "B1 - Fortgeschrittenes Niveau / Intermediate" [ref=f60e421] [cursor=pointer]:
+                      - generic [ref=f60e175]: 
+                  - generic [ref=f60e177]:
+                    - generic [ref=f60e178]:
+                      - text: Englischkenntnisse
+                      - img "Entsprechend dem Gemeinsamen Europäischen Referenzrahmen für Sprachen" [ref=f60e180]
+                    - combobox "C2 - Muttersprachliches Niveau / Proficiency" [ref=f60e423] [cursor=pointer]:
+                      - generic [ref=f60e183]: 
+            - group "Optionale Angaben" [ref=f60e186]:
+              - generic [ref=f60e189]:
+                - generic [ref=f60e191]:
+                  - generic [ref=f60e192]:
+                    - text: Welche weiteren Stellen sind für dich interessant?
+                    - img "Hast du weitere Stellen auf der Jobbörse gefunden, die Sie interessieren? Dann geben Sie diese bitte hier an." [ref=f60e194]
+                  - textbox "Welche weiteren Stellen sind für dich interessant? Hast du weitere Stellen auf der Jobbörse gefunden, die Sie interessieren? Dann geben Sie diese bitte hier an." [ref=f60e196]
+                - generic [ref=f60e197]:
+                  - generic [ref=f60e198]:
+                    - generic [ref=f60e199]: Wie bist du auf uns aufmerksam geworden?
+                    - button "Wie bist du auf uns aufmerksam geworden?" [ref=f60e201] [cursor=pointer]:
+                      - generic [ref=f60e202]: 
+                      - generic [ref=f60e203]: Agentur für Arbeit
+                  - generic [ref=f60e204]:
+                    - generic [ref=f60e205]:
+                      - text: Wurdest du durch einen unserer Mitarbeitenden geworben?
+                      - img "Wenn ja, gib bitte dessen Namen ein." [ref=f60e207]
+                    - textbox "Wurdest du durch einen unserer Mitarbeitenden geworben? Wenn ja, gib bitte dessen Namen ein." [ref=f60e209]
+                - generic [ref=f60e210]:
+                  - generic [ref=f60e211]:
+                    - generic [ref=f60e212]:
+                      - text: Schwerbehinderung / Gleichstellung
+                      - img "Die MMS legt großen Wert auf Chancengleichheit und die Teilhabe von Menschen mit Behinderung. Bewerbungen von Schwerbehinderten und Gleichgestellten sind ausdrücklich erwünscht. Diese Angabe ist freiwillig. Wenn bei einer Bewerbung eine Schwerbehinderung oder Gleichstellung bekannt ist, informieren wir selbstverständlich die Schwerbehindertenvertretung." [ref=f60e214]
+                    - combobox "Nein" [ref=f60e425] [cursor=pointer]:
+                      - generic [ref=f60e217]: 
+                  - generic [ref=f60e219]:
+                    - generic [ref=f60e220]: Grad der Behinderung
+                    - textbox "Grad der Behinderung" [ref=f60e222]
+            - generic [ref=f60e223]:
+              - generic [ref=f60e224]: Anlagen
+              - generic [ref=f60e226]:
+                - generic [ref=f60e227]: "Du kannst hier entweder ein gesamtes Bewerbungs-Dokument oder einzelne Dokumente hochladen. Folgende Dateiformate sind möglich: Word (doc, docx), PDF, JPG, PNG, GIF. Ein Einzeldokument darf die Größe von 15 MB nicht überschreiten. Bitte lade keine PDF- und Word-Dokumente hoch, die mit einem Passwort- oder Schreibschutz versehen sind."
+                - generic [ref=f60e229]:
+                  - generic [ref=f60e230]:
+                    - generic [ref=f60e231]: Lebenslauf (oder vollständige Unterlagen) *
+                    - generic [ref=f60e232]:
+                      - text:  
+                      - generic [ref=f60e428]:
+                        - link "" [ref=f60e429] [cursor=pointer]:
+                          - /url: javascript:del.delatt('lebenslauf','4349','0');void(0);
+                        - link "Kranti_Chavan_Lebe...CX.pdf" [ref=f60e432] [cursor=pointer]:
+                          - /url: https://www.telekom-mms.com/karriere/stellenboerse/Anlage-ansehen-dsa0.php?type=lebenslauf&joboffer_id=4349&application_id=0&atthash=4ec2ecdb1a70a7518c5c1fee48a9c2e1
+                  - generic [ref=f60e244]:
+                    - generic [ref=f60e245]: Schul- bzw. Hochschulzeugnisse
+                    - generic [ref=f60e246]:
+                      - text: 
+                      - generic [ref=f60e435]:
+                        - link "" [ref=f60e436] [cursor=pointer]:
+                          - /url: javascript:del.delatt('anlage5','4349','0');void(0);
+                        - link "Kranti_Chavan_Ansc...CX.pdf" [ref=f60e439] [cursor=pointer]:
+                          - /url: https://www.telekom-mms.com/karriere/stellenboerse/Anlage-ansehen-dsa0.php?type=anlage5&joboffer_id=4349&application_id=0&atthash=cfec6b9ad935d54412ccdeba5c941a41
+                - generic [ref=f60e256]:
+                  - generic [ref=f60e257]:
+                    - generic [ref=f60e258]: Motivationsschreiben
+                    - generic [ref=f60e259]:
+                      - text: 
+                      - generic [ref=f60e442]:
+                        - link "" [ref=f60e443] [cursor=pointer]:
+                          - /url: javascript:del.delatt('anlage2','4349','0');void(0);
+                        - link "Kranti_Chavan_Ansc...CX.pdf" [ref=f60e446] [cursor=pointer]:
+                          - /url: https://www.telekom-mms.com/karriere/stellenboerse/Anlage-ansehen-dsa0.php?type=anlage2&joboffer_id=4349&application_id=0&atthash=e9e8eb1afa252261e6e12001ba4494aa
+                  - generic [ref=f60e269]:
+                    - generic [ref=f60e270]: Sonstige Anlagen z.B. Arbeitszeugnisse, Arbeitsproben
+                    - generic [ref=f60e271]:
+                      - generic "Sonstige Anlagen z.B. Arbeitszeugnisse, Arbeitsproben hochladen" [ref=f60e273]:
+                        - generic [ref=f60e274]:
+                          - button "Sonstige Anlagen z.B. Arbeitszeugnisse, Arbeitsproben" [ref=f60e275] [cursor=pointer]
+                          - generic [ref=f60e276]:
+                            - generic [ref=f60e277]: 
+                            - generic [ref=f60e279]: Datei hochladen
+                      - text: 
+          - generic [ref=f60e282]:
+            - checkbox "Ich habe die Datenschutzerklärung zur Kenntnis genommen und stimme der Datenverarbeitung zu.*" [checked] [ref=f60e283]
+            - generic [ref=f60e284] [cursor=pointer]:
+              - text: Ich habe die
+              - link "Datenschutzerklärung" [ref=f60e285]:
+                - /url: https://www.telekom-mms.com/datenschutz
+              - text: zur Kenntnis genommen und stimme der Datenverarbeitung zu.*
+        - generic [ref=f60e286]:
+          - link "Zurück zur Stellenanzeige" [ref=f60e288] [cursor=pointer]:
+            - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-SAP-CX-mwd-de-j4349.html
+          - link "Senden" [ref=f60e290] [cursor=pointer]:
+            - /url: "#"
+        - generic [aria-hidden] [ref=f60e291]:
+          - generic [ref=f60e292]: Website
+          - textbox [ref=f60e293]
+      - link [ref=f60e296] [cursor=pointer]:
+        - /url: https://www.rexx-systems.com
+        - img "Rexx Systems - software for success" [ref=f60e297]
+    - generic [ref=f60e300]:
+      - paragraph [ref=f60e302]: Für morgen. Und übermorgen.
+      - generic [ref=f60e303]:
+        - paragraph [ref=f60e304]:
+          - strong [ref=f60e305]: Themen
+        - list [ref=f60e306]:
+          - listitem [ref=f60e307]:
+            - link "Künstliche Intelligenz" [ref=f60e308] [cursor=pointer]:
+              - /url: /kuenstliche-intelligenz
+          - listitem [ref=f60e309]:
+            - link "Barrierefreiheit" [ref=f60e310] [cursor=pointer]:
+              - /url: /barrierefreiheit
+      - generic [ref=f60e311]:
+        - paragraph [ref=f60e312]:
+          - strong [ref=f60e313]: Medien
+        - list [ref=f60e314]:
+          - listitem [ref=f60e315]:
+            - link "Newsletter" [ref=f60e316] [cursor=pointer]:
+              - /url: /newsletter
+          - listitem [ref=f60e317]:
+            - link "Corporate Blog" [ref=f60e318] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=f60e319]:
+            - link "Podcast" [ref=f60e320] [cursor=pointer]:
+              - /url: /ueber-uns/impulse/podcast
+          - listitem [ref=f60e321]:
+            - link "Whitepaper & Studien" [ref=f60e322] [cursor=pointer]:
+              - /url: /whitepaper
+          - listitem [ref=f60e323]:
+            - link "Technologie-Radar open link in new tab" [ref=f60e324] [cursor=pointer]:
+              - /url: https://www.telekom-mms.com/tech-radar/
+              - text: Technologie-Radar
+              - img "open link in new tab" [ref=f60e325]
+      - generic [ref=f60e329]:
+        - paragraph [ref=f60e330]:
+          - strong [ref=f60e331]: Kanäle
+        - generic [ref=f60e332]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=f60e334] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/telekom-mms
+            - img "Folgen Sie uns auf LinkedIn" [ref=f60e335]
+          - link "Folgen Sie uns auf YouTube" [ref=f60e340] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UC7DlWLfYCKCs6VnGVl4efvg
+            - img "Folgen Sie uns auf YouTube" [ref=f60e341]
+          - link "Podcast auf Spotify" [ref=f60e346] [cursor=pointer]:
+            - /url: https://open.spotify.com/show/13DgArNM0wkPPSpjzqX2HJ
+            - img "Podcast auf Spotify" [ref=f60e347]
+          - link "Podcast auf Apple Podcasts" [ref=f60e352] [cursor=pointer]:
+            - /url: https://podcasts.apple.com/de/podcast/ausgesprochen-digital-der-podcast-f%C3%BCr-digitale-trends/id1433459466
+            - img "Podcast auf Apple Podcasts" [ref=f60e353]
+    - button "Zum Seitenanfang" [ref=f60e360] [cursor=pointer]:
+      - img "Zum Seitenanfang" [ref=f60e361]
+  - button [ref=f60e366] [cursor=pointer]:
+    - generic "Menü öffnen" [ref=f60e367]:
+      - img "Menü öffnen" [ref=f60e369]
+  - contentinfo [ref=f60e375]:
+    - generic [ref=f60e376]:
+      - generic [ref=f60e380]: © Deutsche Telekom MMS GmbH
+      - navigation "bottom" [ref=f60e381]:
+        - list [ref=f60e382]:
+          - listitem [ref=f60e383]:
+            - link "Kontakt" [ref=f60e384] [cursor=pointer]:
+              - /url: /kontakt
+          - listitem [ref=f60e385]:
+            - link "Impressum" [ref=f60e386] [cursor=pointer]:
+              - /url: /impressum
+          - listitem [ref=f60e387]:
+            - link "Datenschutz" [ref=f60e388] [cursor=pointer]:
+              - /url: /datenschutz
+          - listitem [ref=f60e394]:
+            - link "AGB" [ref=f60e395] [cursor=pointer]:
+              - /url: /agb
+          - listitem [ref=f60e396]:
+            - link "Sitemap" [ref=f60e397] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=f60e398]:
+            - link "Cookieeinstellungen" [ref=f60e399] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=f60e400]:
+            - link "Compliance/Lieferkette" [ref=f60e401] [cursor=pointer]:
+              - /url: /hinweise-lieferkettensorgfaltspflichten
+  - generic [ref=f60e448]:
+    - generic [ref=f60e449]:
+      - generic "zurück" [ref=f60e450] [cursor=pointer]
+      - generic "vor" [ref=f60e452] [cursor=pointer]
+      - generic [ref=f60e454]:
+        - combobox "Select month" [ref=f60e455]:
+          - option "Januar"
+          - option "Februar"
+          - option "März"
+          - option "April"
+          - option "Mai"
+          - option "Juni"
+          - option "Juli"
+          - option "August"
+          - option "September"
+          - option "Oktober" [selected]
+          - option "November"
+          - option "Dezember"
+        - combobox "Select year" [ref=f60e456]:
+          - option "1946"
+          - option "1947"
+          - option "1948"
+          - option "1949"
+          - option "1950"
+          - option "1951"
+          - option "1952"
+          - option "1953"
+          - option "1954"
+          - option "1955"
+          - option "1956"
+          - option "1957"
+          - option "1958"
+          - option "1959"
+          - option "1960"
+          - option "1961"
+          - option "1962"
+          - option "1963"
+          - option "1964"
+          - option "1965"
+          - option "1966"
+          - option "1967"
+          - option "1968"
+          - option "1969"
+          - option "1970"
+          - option "1971"
+          - option "1972"
+          - option "1973"
+          - option "1974"
+          - option "1975"
+          - option "1976"
+          - option "1977"
+          - option "1978"
+          - option "1979"
+          - option "1980"
+          - option "1981"
+          - option "1982"
+          - option "1983"
+          - option "1984"
+          - option "1985"
+          - option "1986"
+          - option "1987"
+          - option "1988"
+          - option "1989"
+          - option "1990"
+          - option "1991"
+          - option "1992"
+          - option "1993"
+          - option "1994"
+          - option "1995"
+          - option "1996"
+          - option "1997"
+          - option "1998"
+          - option "1999"
+          - option "2000"
+          - option "2001"
+          - option "2002"
+          - option "2003"
+          - option "2004"
+          - option "2005"
+          - option "2006"
+          - option "2007"
+          - option "2008"
+          - option "2009"
+          - option "2010"
+          - option "2011"
+          - option "2012"
+          - option "2013"
+          - option "2014"
+          - option "2015"
+          - option "2016"
+          - option "2017"
+          - option "2018"
+          - option "2019"
+          - option "2020"
+          - option "2021"
+          - option "2022"
+          - option "2023"
+          - option "2024"
+          - option "2025"
+          - option "2026" [selected]
+          - option "2027"
+          - option "2028"
+          - option "2029"
+          - option "2030"
+          - option "2031"
+          - option "2032"
+          - option "2033"
+          - option "2034"
+          - option "2035"
+          - option "2036"
+    - table [ref=f60e457]:
+      - rowgroup [ref=f60e458]:
+        - row [ref=f60e459]:
+          - columnheader "Mo" [ref=f60e460]
+          - columnheader "Di" [ref=f60e461]
+          - columnheader "Mi" [ref=f60e462]
+          - columnheader "Do" [ref=f60e463]
+          - columnheader "Fr" [ref=f60e464]
+          - columnheader "Sa" [ref=f60e465]
+          - columnheader "So" [ref=f60e466]
+      - rowgroup [ref=f60e467]:
+        - row [ref=f60e468]:
+          - cell [ref=f60e469]:
+            - link "28" [ref=f60e470] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e471]:
+            - link "29" [ref=f60e472] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e473]:
+            - link "30" [ref=f60e474] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e475]:
+            - link "1" [ref=f60e476] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e477]:
+            - link "2" [ref=f60e478] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e479]:
+            - link "3" [ref=f60e480] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e481]:
+            - link "4" [ref=f60e482] [cursor=pointer]:
+              - /url: "#"
+        - row [ref=f60e483]:
+          - cell [ref=f60e484]:
+            - link "5" [ref=f60e485] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e486]:
+            - link "6" [ref=f60e487] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e488]:
+            - link "7" [ref=f60e489] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e490]:
+            - link "8" [ref=f60e491] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e492]:
+            - link "9" [ref=f60e493] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e494]:
+            - link "10" [ref=f60e495] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e496]:
+            - link "11" [ref=f60e497] [cursor=pointer]:
+              - /url: "#"
+        - row [ref=f60e498]:
+          - cell [ref=f60e499]:
+            - link "12" [ref=f60e500] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e501]:
+            - link "13" [ref=f60e502] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e503]:
+            - link "14" [ref=f60e504] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e505]:
+            - link "15" [ref=f60e506] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e507]:
+            - link "16" [ref=f60e508] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e509]:
+            - link "17" [ref=f60e510] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e511]:
+            - link "18" [ref=f60e512] [cursor=pointer]:
+              - /url: "#"
+        - row [ref=f60e513]:
+          - cell [ref=f60e514]:
+            - link "19" [ref=f60e515] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e516]:
+            - link "20" [ref=f60e517] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e518]:
+            - link "21" [ref=f60e519] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e520]:
+            - link "22" [ref=f60e521] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e522]:
+            - link "23" [ref=f60e523] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e524]:
+            - link "24" [ref=f60e525] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e526]:
+            - link "25" [ref=f60e527] [cursor=pointer]:
+              - /url: "#"
+        - row [ref=f60e528]:
+          - cell [ref=f60e529]:
+            - link "26" [ref=f60e530] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e531]:
+            - link "27" [ref=f60e532] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e533]:
+            - link "28" [ref=f60e534] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e535]:
+            - link "29" [ref=f60e536] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e537]:
+            - link "30" [ref=f60e538] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e539]:
+            - link "31" [ref=f60e540] [cursor=pointer]:
+              - /url: "#"
+          - cell [ref=f60e541]:
+            - link "1" [ref=f60e542] [cursor=pointer]:
+              - /url: "#"
+  - log [ref=f60e402]
+  - log [ref=f60e403]
+  - log [ref=f60e404]
+  - log [ref=f60e405]
+  - log [ref=f60e406]
+  - log [ref=f60e407]
+  - log [ref=f60e408]
+  - log [ref=f60e409]
+  - log [ref=f60e410]
+  - iframe [aria-hidden] [ref=f60e543]
+  - generic:
+    - complementary "Chat":
+      - iframe [ref=f60e545]:
+        - button "Chat öffnen" [ref=f62e2] [cursor=pointer]
+    - status [ref=f60e546]
+    - status [ref=f60e547]

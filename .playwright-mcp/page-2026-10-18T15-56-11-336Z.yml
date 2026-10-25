@@ -1,0 +1,240 @@
+- generic:
+  - generic [aria-hidden]:
+    - main:
+      - generic:
+        - navigation:
+          - generic:
+            - generic:
+              - combobox:
+                - generic: EN
+        - generic:
+          - heading [level=1]: Apply for this job
+          - generic:
+            - generic: Still open for applications
+            - generic:
+              - generic:
+                - link:
+                  - /url: https://lekkerland-career.onlyfy.jobs/job/7l8u2iov5q8la9r8tplxp9806s35o1
+                  - text: (Senior) Consultant E-Commerce (m/w/d)
+              - generic: Lekkerland Kandidatenmanagement
+            - generic:
+              - generic: Frechen
+              - generic: On-site & Remote
+      - generic:
+        - generic:
+          - paragraph [aria-hidden]: "* Required field"
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic: Personal info
+                - heading [level=2]: Introduce yourself
+              - generic:
+                - generic:
+                  - generic:
+                    - text: Salutation
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - combobox [expanded]:
+                      - generic: Select title...
+                    - combobox [aria-hidden]
+                - generic:
+                  - generic:
+                    - text: First name
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox: Kranti
+                - generic:
+                  - generic:
+                    - text: Last name
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox: Chavan
+                - generic:
+                  - generic:
+                    - text: ZIP Code
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox: "76185"
+                - generic:
+                  - generic:
+                    - text: Home city
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox: Karlsruhe
+                - generic:
+                  - generic:
+                    - text: E-mail address
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox: krantichavan198@gmail.com
+                - generic:
+                  - generic:
+                    - text: Phone number
+                    - generic:
+                      - text: "*"
+                      - generic: required
+                  - generic:
+                    - textbox [invalid]: +49 15750174177
+                  - alert: Please enter a valid phone number (e.g., +49123456789).
+            - generic:
+              - generic:
+                - generic: Upload CV
+                - heading [level=2]: Milestones in your life
+              - generic:
+                - generic:
+                  - text: CV
+                  - generic:
+                    - text: "*"
+                    - generic: required
+                - generic:
+                  - generic:
+                    - button
+                    - generic:
+                      - generic:
+                        - strong: Click to upload
+                        - text: or drag and drop
+                      - generic:
+                        - text: doc, docx, pdf, rtf, odt|
+                        - generic: max. 20.00 MB
+                  - generic:
+                    - text: No CV on hand? Create one with ease on
+                    - link:
+                      - /url: https://lebenslauf.com/neu
+                      - text: lebenslauf.com
+            - generic:
+              - generic:
+                - generic: Questions
+                - heading [level=2]: A few more insights
+              - generic:
+                - generic: Arbeitest du aktuell bei Lekkerland?
+                - radiogroup:
+                  - generic:
+                    - radio
+                    - radio [aria-hidden]
+                    - text: Ja, meine Führungskraft ist informiert
+                  - generic:
+                    - radio
+                    - radio [aria-hidden]
+                    - text: Ja, meine Führungskraft ist nicht informiert
+                  - generic:
+                    - radio
+                    - radio [aria-hidden]
+                    - text: Nein
+              - generic:
+                - generic: Bitte nenne uns dein gewünschtes Bruttojahresgehalt.
+                - textbox [invalid]: "60.000"
+                - alert: You can only enter a maximum of 0 decimal places.
+              - generic:
+                - generic:
+                  - text: Wann kannst du frühestmöglich bei uns starten?
+                  - generic:
+                    - text: "*"
+                    - generic: required
+                - generic:
+                  - textbox [invalid]
+                - alert: Please fill in this required field.
+              - generic:
+                - generic: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch.
+                - generic:
+                  - generic:
+                    - button
+                    - generic:
+                      - generic:
+                        - strong: Click to upload
+                        - text: or drag and drop
+                      - generic:
+                        - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                        - generic: max. 20.00 MB
+              - generic:
+                - generic: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+                - generic:
+                  - generic:
+                    - button
+                    - generic:
+                      - generic:
+                        - strong: Click to upload
+                        - text: or drag and drop
+                      - generic:
+                        - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                        - generic: max. 20.00 MB
+              - generic:
+                - generic: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+                - generic:
+                  - generic:
+                    - button
+                    - generic:
+                      - generic:
+                        - strong: Click to upload
+                        - text: or drag and drop
+                      - generic:
+                        - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                        - generic: max. 20.00 MB
+              - generic:
+                - generic: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+                - generic:
+                  - generic:
+                    - button
+                    - generic:
+                      - generic:
+                        - strong: Click to upload
+                        - text: or drag and drop
+                      - generic:
+                        - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                        - generic: max. 20.00 MB
+            - generic:
+              - generic:
+                - generic: Last step
+                - heading [level=2]: Send your application
+              - generic:
+                - generic:
+                  - text: How did you learn about this job opening?
+                  - generic:
+                    - text: "*"
+                    - generic: required
+                - generic:
+                  - combobox
+                  - combobox [aria-hidden]
+              - generic:
+                - generic:
+                  - text: Lekkerland Kandidatenmanagement uses the onlyfy platform to process applications. By submitting your application, you accept the platform's
+                  - link:
+                    - /url: https://xing.com/terms/xing
+                    - text: GTC
+                  - text: . You can find more information about how your data are processed by onlyfy and Lekkerland Kandidatenmanagement in the
+                  - link:
+                    - /url: https://lekkerland-career.onlyfy.jobs/en/policy
+                    - text: privacy policy
+                  - text: .
+              - generic:
+                - generic:
+                  - checkbox
+                  - checkbox [aria-hidden]
+                  - generic: I hereby agree that my data will be stored up to and including 18.10.2027 for the purpose of further consideration and communication in case of suitable job offers in the future.
+            - button: Send application
+    - contentinfo:
+      - generic:
+        - link:
+          - /url: https://lekkerland-career.onlyfy.jobs/en/policy
+          - text: Privacy policy
+        - generic: "|"
+        - link:
+          - /url: https://lekkerland-career.onlyfy.jobs/en/imprint
+          - text: Legal notice
+  - alert
+  - listbox [ref=f5e228]:
+    - option "Mr" [active] [ref=f5e229]
+    - option "Ms" [ref=f5e232]
+    - option "Other" [ref=f5e235]

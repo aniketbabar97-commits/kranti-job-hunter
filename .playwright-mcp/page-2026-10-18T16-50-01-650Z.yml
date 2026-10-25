@@ -1,0 +1,449 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]:
+    - generic [ref=e9]:
+      - heading "LinkedIn respects your privacy" [level=2] [ref=e10]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]:
+          - text: LinkedIn and 3rd parties use essential and non-essential cookies to provide, secure, analyze and improve our Services, and to show you relevant ads (including professional and job ads) on and off LinkedIn. Learn more in our
+          - link "Cookie Policy" [ref=e14] [cursor=pointer]:
+            - /url: https://www.linkedin.com/legal/cookie-policy
+          - text: .
+        - paragraph [ref=e15]:
+          - text: Select Accept to consent or Reject to decline non-essential cookies for this use. You can update your choices at any time in your
+          - link "settings" [ref=e16] [cursor=pointer]:
+            - /url: https://www.linkedin.com/mypreferences/g/guest-cookies
+          - text: .
+      - generic [ref=e17]:
+        - button "Accept" [ref=e18] [cursor=pointer]
+        - button "Reject" [ref=e19] [cursor=pointer]
+  - link "Skip to main content" [ref=e20] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e21]:
+    - navigation "Primary" [ref=e22]:
+      - link "LinkedIn" [ref=e23] [cursor=pointer]:
+        - /url: /?trk=public_jobs_nav-header-logo
+      - generic [ref=e37]:
+        - button "Domain Lead (m/w/d) E-Commerce IT in Karlsruhe Expand search" [ref=e38]:
+          - generic [ref=e40]: Domain Lead (m/w/d) E-Commerce IT in Karlsruhe
+          - generic [ref=e41]: Expand search
+        - status [ref=e42]
+      - generic [ref=e43]:
+        - link "Sign in" [ref=e44] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2F4476409643&trk=public_jobs_nav-header-signin
+        - link "Join now" [ref=e45] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?source=jobs_registration&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2F4476409643&trk=public_jobs_nav-header-join
+  - main [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - link [ref=e51] [cursor=pointer]:
+          - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_topcard_logo
+          - img "CBR Fashion Group" [ref=e52]
+        - generic [ref=e54]:
+          - heading "Domain Lead (m/w/d) E-Commerce IT" [level=1] [ref=e55]
+          - heading [level=4] [ref=e56]:
+            - generic [ref=e57]:
+              - link "CBR Fashion Group" [ref=e59] [cursor=pointer]:
+                - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_topcard-org-name
+              - text: · Isernhagen Farster Bauerschaft, Lower Saxony, Germany
+            - generic [ref=e60]:
+              - text: 5 days ago
+              - figure "Be among the first 25 applicants" [ref=e61]: · Be among the first 25 applicants
+            - link "See who CBR Fashion Group has hired for this role" [ref=e63] [cursor=pointer]:
+              - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D1193630%26title%3DInformation%2BTechnology%2BLead&emailAddress=&fromSignIn=&trk=public_jobs_see-who-was-hired_people-search-link_face-pile-cta
+              - paragraph [ref=e66]: See who CBR Fashion Group has hired for this role
+          - generic [ref=e67]:
+            - button "Apply" [ref=e68] [cursor=pointer]
+            - link "Save" [ref=e69] [cursor=pointer]:
+              - /url: https://www.linkedin.com/login?emailAddress=&fromSignIn=&session_redirect=https%3A%2F%2Fde.linkedin.com%2Fjobs%2Fview%2Fdomain-lead-m-w-d-e-commerce-it-at-cbr-fashion-group-4476409643&trk=public_jobs
+        - button "Open menu" [ref=e72] [cursor=pointer]
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - text: Unsere IT ist ein zentraler Treiber für die digitale Zukunft der CBR Fashion Group. In den Bereichen Infrastruktur, Anwendungsentwicklung, Data & Analytics, Security und Support gestalten wir gemeinsam Lösungen und treiben Innovationen voran. Offenheit, Verantwortung und die Möglichkeit, eigene Ideen einzubringen, prägen unsere Kultur und machen uns als Team erfolgreich.Werde Teil unseres
+              - strong [ref=e79]: Teams
+              - text: "! Zum nächstmöglichen Zeitpunkt suchen wir einen"
+              - strong [ref=e80]: Domain Lead (m/w/d) E-Commerce IT
+              - text: an unserem Headquarter in
+              - strong [ref=e81]: Isernhagen bei Hannover
+              - text: .
+              - strong [ref=e82]: Domain Lead (m/w/d) E-Commerce IT
+              - strong [ref=e83]: DAS ERWARTET DICH
+              - list [ref=e84]:
+                - listitem [ref=e85]: Gestalte als fachliche Klammer unserer E-Commerce-IT die technologische Zukunft unseres digitalen Geschäfts und setze Impulse für die Weiterentwicklung unserer Commerce-Landschaft
+                - listitem [ref=e86]: Entwickle gemeinsam mit Business und IT Strategien, Roadmaps und Lösungen, die unser Online Business nachhaltig voranbringen
+                - listitem [ref=e87]: Analysiere Anforderungen aus den Fachbereichen, denke sie weiter und übersetze sie in zukunftsfähige Technologien, Systeme und Prozesse
+                - listitem [ref=e88]: Treibe Themen rund um Shopsysteme, Marktplätze, OMS, ERP, moderne Commerce-Plattformen und Systemintegrationen aktiv voran
+                - listitem [ref=e89]: Bewerte neue Technologien und KI Potenziale mit Blick auf ihren Mehrwert und begleite deren erfolgreiche Einführung
+                - listitem [ref=e90]: Übernimm die Steuerung bereichsübergreifender Initiativen und bringe Strategie, Technologie und Umsetzung wirkungsvoll zusammen
+                - listitem [ref=e91]: Freu dich auf viel Gestaltungsspielraum, hohe Sichtbarkeit und die Möglichkeit, die digitale Zukunft der CBR Fashion Group aktiv mitzuprägen
+              - strong [ref=e92]: DAS BRINGST DU MIT
+              - list [ref=e93]:
+                - listitem [ref=e94]: Mehrjährige Erfahrung im B2C E-Commerce sowie ein gutes Gespür für die Verbindung von Business und IT
+                - listitem [ref=e95]: Tiefes Verständnis für Commerce-Systemlandschaften, Integrationen sowie Technologien rund um Online-Shops, OMS, ERP und digitale Plattformen
+                - listitem [ref=e96]: Erfahrung in der Steuerung von Transformationsprojekten, Technologieinitiativen oder komplexen Digitalisierungsprojekten
+                - listitem [ref=e97]: Kommunikationsstärke, Überzeugungskraft und die Fähigkeit, Menschen für gemeinsame Ziele zu begeistern und mitzunehmen
+                - listitem [ref=e98]: Strategischen Weitblick für digitale Trends, Innovationen und AI sowie sehr gute Deutsch- und Englischkenntnisse
+              - strong [ref=e99]: WORKING WITH US
+              - list [ref=e100]:
+                - listitem [ref=e101]: "Tech with Impact: Arbeite mit moderner Hardware und effizienten Tools, die dir optimale Performance bieten. Wir setzen auf digitale Prozesse und ein starkes Team, damit du deine Ideen einfach und wirkungsvoll umsetzen kannst"
+                - listitem [ref=e102]: "Be yourself: Ob Sneaker oder Sakko, bei uns zählt nicht, was du trägst, sondern wer du bist. Komm so, wie du dich wohlfühlst und zeig, was in dir steckt"
+                - listitem [ref=e103]: "Open Mindset: Dich erwartet ein Umfeld mit flachen Hierarchien und kurzen Entscheidungswegen, ein individuelles Onboarding mit inspirierenden Welcome Days sorgt dafür, dass du dich von Anfang an gut aufgehoben fühlst"
+                - listitem [ref=e104]: "Workplace: Unser Headquarter bietet dir Sonnenterrassen und eine direkte Lage am Kirchhorster See. Dank optimaler Verkehrsanbindung bist du schnell bei uns, egal ob über die Autobahn oder mit öffentlichen Verkehrsmitteln"
+                - listitem [ref=e105]: "Wear what we love: Profitiere von 50 % Rabatt auf unsere Marken CECIL, Street One, Street One Studio und Street One MEN und werde selbst zum Markenbotschafter unserer Looks"
+                - listitem [ref=e106]: "#OneTEAM: Gemeinsam erreichen wir mehr, feiern Erfolge, wachsen an neuen Herausforderungen und stärken den Zusammenhalt bei regelmäßigen Events"
+              - text: Bereit für den nächsten Schritt? Werde Teil unseres Teams und bring deine Stärken ein, um die Erfolgsgeschichte der CBR Fashion Group weiterzuschreiben. Wir freuen uns auf deine Bewerbung!CBR Fashion Groupwww.cbr.de
+            - button "Show more" [ref=e107] [cursor=pointer]
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - heading "Seniority level" [level=3] [ref=e111]
+              - text: Associate
+            - listitem [ref=e112]:
+              - heading "Employment type" [level=3] [ref=e113]
+              - text: Full-time
+            - listitem [ref=e114]:
+              - heading "Industries" [level=3] [ref=e115]
+              - text: Retail Apparel and Fashion
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: Referrals increase your chances of interviewing at CBR Fashion Group by 2x
+          - link "See who you know" [ref=e122] [cursor=pointer]:
+            - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D1193630&emailAddress=&fromSignIn=&trk=public_jobs_find-a-referral-cta
+      - generic [ref=e124]:
+        - generic [ref=e125]: Get notified when a new job is posted.
+        - generic [ref=e128]:
+          - button "Set alert" [ref=e129]
+          - generic [ref=e130]: Set alert
+      - navigation "Breadcrumb" [ref=e131]:
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Jobs" [ref=e134] [cursor=pointer]:
+              - /url: https://de.linkedin.com/jobs/
+            - text: /
+          - listitem [ref=e135]:
+            - link "Outreach Counselor jobs" [ref=e136] [cursor=pointer]:
+              - /url: https://de.linkedin.com/jobs/berater-stellen
+            - text: /
+          - listitem [ref=e137]:
+            - generic [ref=e138]: Domain Lead (m/w/d) E-Commerce IT
+      - generic [ref=e139]:
+        - heading "Similar jobs" [level=2] [ref=e140]
+        - generic [ref=e142]:
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - generic [ref=e145]:
+                - link "Domain Lead (m/w/d) E-Commerce IT" [ref=e146] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/domain-lead-m-w-d-e-commerce-it-at-cbr-fashion-group-4477981572?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=w4dC45uDe4QWxUhQuoVTJA%3D%3D
+                - generic [ref=e148]:
+                  - heading "Domain Lead (m/w/d) E-Commerce IT" [level=3] [ref=e149]
+                  - heading [level=4] [ref=e150]:
+                    - link "CBR Fashion Group" [ref=e151] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: Hannover-Braunschweig-Göttingen-Wolfsburg Region
+                    - time [ref=e154]: 5 days ago
+            - listitem [ref=e155]:
+              - generic [ref=e156]:
+                - link "Head of E-Commerce (m/w/d)" [ref=e157] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/head-of-e-commerce-m-w-d-at-sw-studios-gmbh-4475241285?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=AMVWNfW0peckCh0pe0vW6w%3D%3D
+                - generic [ref=e159]:
+                  - heading "Head of E-Commerce (m/w/d)" [level=3] [ref=e160]
+                  - heading [level=4] [ref=e161]:
+                    - link "SW Studios GmbH" [ref=e162] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/sw-studios-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: Hannover, Lower Saxony, Germany
+                    - time [ref=e165]: 1 week ago
+            - listitem [ref=e166]:
+              - generic [ref=e167]:
+                - link "Head of Technology (m/w/d)" [ref=e168] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/head-of-technology-m-w-d-at-all4golf-golfversand-hannover-gmbh-4459219182?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=6%2FBw8HCFUEYoWhl6%2FJH5EA%3D%3D
+                - generic [ref=e170]:
+                  - heading "Head of Technology (m/w/d)" [level=3] [ref=e171]
+                  - heading [level=4] [ref=e172]:
+                    - link "ALL4GOLF - Golfversand Hannover GmbH" [ref=e173] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/all4golf---golf-versand-hannover-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: Hannover, Lower Saxony, Germany
+                    - time [ref=e176]: 1 month ago
+            - listitem [ref=e177]:
+              - generic [ref=e178]:
+                - link "eCommerce Operations Manager (m/w/d)" [ref=e179] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/ecommerce-operations-manager-m-w-d-at-cbr-fashion-group-4469933913?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=hBEnmMeu%2BIthAe8J%2By43eA%3D%3D
+                - generic [ref=e181]:
+                  - heading "eCommerce Operations Manager (m/w/d)" [level=3] [ref=e182]
+                  - heading [level=4] [ref=e183]:
+                    - link "CBR Fashion Group" [ref=e184] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: Isernhagen Farster Bauerschaft, Lower Saxony, Germany
+                    - time [ref=e187]: 3 weeks ago
+            - listitem [ref=e188]:
+              - generic [ref=e189]:
+                - link "Bereichsleitung (m/w/d) Omnichannel Experience & Marketing Technology" [ref=e190] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/bereichsleitung-m-w-d-omnichannel-experience-marketing-technology-at-dirk-rossmann-gmbh-4476571808?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=KtAge6UtJyV8SRV91pNk%2FQ%3D%3D
+                - generic [ref=e192]:
+                  - heading "Bereichsleitung (m/w/d) Omnichannel Experience & Marketing Technology" [level=3] [ref=e193]
+                  - heading [level=4] [ref=e194]:
+                    - link "Dirk Rossmann GmbH" [ref=e195] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/dirk-rossmann-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Burgwedel, Lower Saxony, Germany
+                    - time [ref=e198]: 1 week ago
+            - listitem [ref=e199]:
+              - generic [ref=e200]:
+                - link "Senior Manager im E-Commerce (m/w/d)" [ref=e201] [cursor=pointer]:
+                  - /url: https://de.linkedin.com/jobs/view/senior-manager-im-e-commerce-m-w-d-at-sw-studios-gmbh-4477767955?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=Kj53sIvL9QUOL8yptuk%2BMw%3D%3D
+                - generic [ref=e203]:
+                  - heading "Senior Manager im E-Commerce (m/w/d)" [level=3] [ref=e204]
+                  - heading [level=4] [ref=e205]:
+                    - link "SW Studios GmbH" [ref=e206] [cursor=pointer]:
+                      - /url: https://de.linkedin.com/company/sw-studios-gmbh?trk=public_jobs_similar-jobs_main-jobs-card-subtitle
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: Hannover, Lower Saxony, Germany
+                    - time [ref=e209]: 1 day ago
+          - button "Show more jobs like this" [ref=e210] [cursor=pointer]
+    - generic [ref=e212]:
+      - generic [ref=e213]:
+        - heading "People also viewed" [level=2] [ref=e214]
+        - list [ref=e216]:
+          - listitem [ref=e217]:
+            - generic [ref=e218]:
+              - link "IT-Teamleiter:in" [ref=e219] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/it-teamleiter-in-at-hays-4480376302?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=AfK8jBGXd3K%2BSeGvOJc1%2Fg%3D%3D
+              - generic [ref=e221]:
+                - heading "IT-Teamleiter:in" [level=3] [ref=e222]
+                - paragraph [ref=e223]:
+                  - link "Hays" [ref=e224] [cursor=pointer]:
+                    - /url: https://uk.linkedin.com/company/hays?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e225]:
+                  - generic [ref=e226]: Hannover, Lower Saxony, Germany
+                  - generic [ref=e227]: €80,000 - €95,000
+                  - time [ref=e228]: 2 days ago
+          - listitem [ref=e229]:
+            - generic [ref=e230]:
+              - link "Intelligent Automation & Transformation Officer (m/w/d)" [ref=e231] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/intelligent-automation-transformation-officer-m-w-d-at-e-on-grid-solutions-4477376752?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=EcE8ZY3fBmgoCSUHRCFQEA%3D%3D
+              - generic [ref=e233]:
+                - heading "Intelligent Automation & Transformation Officer (m/w/d)" [level=3] [ref=e234]
+                - paragraph [ref=e235]:
+                  - link "E.ON Grid Solutions" [ref=e236] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/eon-grid-solutions?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e237]:
+                  - generic [ref=e238]: Hannover, Lower Saxony, Germany
+                  - time [ref=e239]: 2 days ago
+          - listitem [ref=e240]:
+            - generic [ref=e241]:
+              - link "Leiter Prozess- und Unternehmensentwicklung (m/w/d)" [ref=e242] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/leiter-prozess-und-unternehmensentwicklung-m-w-d-at-klier-hair-group-gmbh-4473131190?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=JHchOP2VL%2FX8uuaWzI9K8g%3D%3D
+              - generic [ref=e244]:
+                - heading "Leiter Prozess- und Unternehmensentwicklung (m/w/d)" [level=3] [ref=e245]
+                - paragraph [ref=e246]:
+                  - link "Klier Hair Group GmbH" [ref=e247] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/klier-hair-group-gmbh?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e248]:
+                  - generic [ref=e249]: Wolfsburg, Lower Saxony, Germany
+                  - time [ref=e250]: 2 weeks ago
+          - listitem [ref=e251]:
+            - generic [ref=e252]:
+              - link "Head of IT & Software Development (m/w/d)" [ref=e253] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/head-of-it-software-development-m-w-d-at-amadeus-fire-4478397627?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=ux%2FkWULSw5pDq494LfxS1w%3D%3D
+              - generic [ref=e255]:
+                - heading "Head of IT & Software Development (m/w/d)" [level=3] [ref=e256]
+                - paragraph [ref=e257]:
+                  - link "Amadeus Fire" [ref=e258] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/amadeus-fire?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Hannover, Lower Saxony, Germany
+                  - generic [ref=e261]: €100,000 - €140,000
+                  - time [ref=e262]: 6 days ago
+          - listitem [ref=e263]:
+            - generic [ref=e264]:
+              - link "Key Account Manager (m/w/d) E-Commerce" [ref=e265] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/key-account-manager-m-w-d-e-commerce-at-vitakraft-pet-care-gmbh-co-kg-4476278757?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=%2BO9bxEBLKKGoLJdtuLTQaw%3D%3D
+              - generic [ref=e267]:
+                - heading "Key Account Manager (m/w/d) E-Commerce" [level=3] [ref=e268]
+                - paragraph [ref=e269]:
+                  - link "Vitakraft pet care GmbH & Co. KG" [ref=e270] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/vitakraft-deutschland?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e271]:
+                  - generic [ref=e272]: Achim, Lower Saxony, Germany
+                  - generic [ref=e273]: €50,000 - €70,000
+                  - time [ref=e274]: 1 week ago
+          - listitem [ref=e275]:
+            - generic [ref=e276]:
+              - link "AI Solutions Manager (m/w/d)" [ref=e277] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/ai-solutions-manager-m-w-d-at-cbr-fashion-group-4431967553?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=qMpUaBeMaLG9IP7T2foI%2FA%3D%3D
+              - generic [ref=e279]:
+                - heading "AI Solutions Manager (m/w/d)" [level=3] [ref=e280]
+                - paragraph [ref=e281]:
+                  - link "CBR Fashion Group" [ref=e282] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e283]:
+                  - generic [ref=e284]: Isernhagen Farster Bauerschaft, Lower Saxony, Germany
+                  - time [ref=e285]: 3 months ago
+          - listitem [ref=e286]:
+            - generic [ref=e287]:
+              - link "IT-Projektmanager (m/w/d) E-Commerce" [ref=e288] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/it-projektmanager-m-w-d-e-commerce-at-cbr-fashion-group-4451202710?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=0JSOOfGI0WcH2R8uitUnAQ%3D%3D
+              - generic [ref=e290]:
+                - heading "IT-Projektmanager (m/w/d) E-Commerce" [level=3] [ref=e291]
+                - paragraph [ref=e292]:
+                  - link "CBR Fashion Group" [ref=e293] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e294]:
+                  - generic [ref=e295]: Isernhagen Farster Bauerschaft, Lower Saxony, Germany
+                  - time [ref=e296]: 2 months ago
+          - listitem [ref=e297]:
+            - generic [ref=e298]:
+              - link "Spezialist:in Prozessoptimierung" [ref=e299] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/spezialist-in-prozessoptimierung-at-cbr-fashion-group-4478860493?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=RTVlUBadlGFcsKtMZ65vtg%3D%3D
+              - generic [ref=e301]:
+                - heading "Spezialist:in Prozessoptimierung" [level=3] [ref=e302]
+                - paragraph [ref=e303]:
+                  - link "CBR Fashion Group" [ref=e304] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e305]:
+                  - generic [ref=e306]: Hannover-Braunschweig-Göttingen-Wolfsburg Region
+                  - time [ref=e307]: 3 days ago
+          - listitem [ref=e308]:
+            - generic [ref=e309]:
+              - link "IT-Projektmanager:in" [ref=e310] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/it-projektmanager-in-at-cbr-fashion-group-4451657615?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=6Tozl03pW8Xt0QP%2FXBVA2w%3D%3D
+              - generic [ref=e312]:
+                - heading "IT-Projektmanager:in" [level=3] [ref=e313]
+                - paragraph [ref=e314]:
+                  - link "CBR Fashion Group" [ref=e315] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e316]:
+                  - generic [ref=e317]: Hannover-Braunschweig-Göttingen-Wolfsburg Region
+                  - time [ref=e318]: 1 week ago
+          - listitem [ref=e319]:
+            - generic [ref=e320]:
+              - link "Customer Operations Manager:in" [ref=e321] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/view/customer-operations-manager-in-at-cbr-fashion-group-4469927303?refId=BbKCYKqdpeyftWohZPMbbg%3D%3D&trackingId=q8vIwqVOQLusmEU%2FlAxnkw%3D%3D
+              - generic [ref=e323]:
+                - heading "Customer Operations Manager:in" [level=3] [ref=e324]
+                - paragraph [ref=e325]:
+                  - link "CBR Fashion Group" [ref=e326] [cursor=pointer]:
+                    - /url: https://de.linkedin.com/company/cbr-fashion?trk=public_jobs_people-also-viewed_aside-job-card-subtitle
+                - generic [ref=e327]:
+                  - generic [ref=e328]: Hannover-Braunschweig-Göttingen-Wolfsburg Region
+                  - time [ref=e329]: 3 weeks ago
+      - generic [ref=e330]:
+        - heading "Similar Searches" [level=2] [ref=e331]
+        - generic [ref=e333]:
+          - list [ref=e334]:
+            - listitem [ref=e335]:
+              - link "Outreach Counselor jobs 27,203 open jobs" [ref=e336] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/berater-stellen?trk=public_jobs_full-click
+                - generic [ref=e337]:
+                  - heading "Outreach Counselor jobs" [level=3] [ref=e338]
+                  - generic [ref=e339]: 27,203 open jobs
+            - listitem [ref=e340]:
+              - link "Head of Information Technology jobs 810 open jobs" [ref=e341] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-leiter-stellen?trk=public_jobs_full-click
+                - generic [ref=e342]:
+                  - heading "Head of Information Technology jobs" [level=3] [ref=e343]
+                  - generic [ref=e344]: 810 open jobs
+            - listitem [ref=e345]:
+              - link "Chief Information Officer jobs 1,574 open jobs" [ref=e346] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/cio-stellen?trk=public_jobs_full-click
+                - generic [ref=e347]:
+                  - heading "Chief Information Officer jobs" [level=3] [ref=e348]
+                  - generic [ref=e349]: 1,574 open jobs
+            - listitem [ref=e350]:
+              - link "Information Technology Coordinator jobs 3,817 open jobs" [ref=e351] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-koordinator-stellen?trk=public_jobs_full-click
+                - generic [ref=e352]:
+                  - heading "Information Technology Coordinator jobs" [level=3] [ref=e353]
+                  - generic [ref=e354]: 3,817 open jobs
+            - listitem [ref=e355]:
+              - link "Senior Information Technology Project Manager jobs 2,569 open jobs" [ref=e356] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-projektleiter-stellen?trk=public_jobs_full-click
+                - generic [ref=e357]:
+                  - heading "Senior Information Technology Project Manager jobs" [level=3] [ref=e358]
+                  - generic [ref=e359]: 2,569 open jobs
+            - listitem [ref=e360]:
+              - link "Information Technology System Administrator jobs 9,040 open jobs" [ref=e361] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-systemadministrator-stellen?trk=public_jobs_full-click
+                - generic [ref=e362]:
+                  - heading "Information Technology System Administrator jobs" [level=3] [ref=e363]
+                  - generic [ref=e364]: 9,040 open jobs
+            - listitem [ref=e365]:
+              - link "Information Technology Administrator jobs 9,513 open jobs" [ref=e366] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-administrator-stellen?trk=public_jobs_full-click
+                - generic [ref=e367]:
+                  - heading "Information Technology Administrator jobs" [level=3] [ref=e368]
+                  - generic [ref=e369]: 9,513 open jobs
+            - listitem [ref=e370]:
+              - link "Student System Administrator jobs 14,594 open jobs" [ref=e371] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/systemadministrator-stellen?trk=public_jobs_full-click
+                - generic [ref=e372]:
+                  - heading "Student System Administrator jobs" [level=3] [ref=e373]
+                  - generic [ref=e374]: 14,594 open jobs
+            - listitem [ref=e375]:
+              - link "Information Technology Project Manager jobs 4,423 open jobs" [ref=e376] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-projektmanager-stellen?trk=public_jobs_full-click
+                - generic [ref=e377]:
+                  - heading "Information Technology Project Manager jobs" [level=3] [ref=e378]
+                  - generic [ref=e379]: 4,423 open jobs
+            - listitem [ref=e380]:
+              - link "Information Technology System Specialist jobs 9,046 open jobs" [ref=e381] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-system-stellen?trk=public_jobs_full-click
+                - generic [ref=e382]:
+                  - heading "Information Technology System Specialist jobs" [level=3] [ref=e383]
+                  - generic [ref=e384]: 9,046 open jobs
+            - listitem [ref=e385]:
+              - link "Technical Head jobs 919 open jobs" [ref=e386] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/technischer-leiter-stellen?trk=public_jobs_full-click
+                - generic [ref=e387]:
+                  - heading "Technical Head jobs" [level=3] [ref=e388]
+                  - generic [ref=e389]: 919 open jobs
+            - listitem [ref=e390]:
+              - link "Information Technology Consultant jobs 25,984 open jobs" [ref=e391] [cursor=pointer]:
+                - /url: https://de.linkedin.com/jobs/it-berater-stellen?trk=public_jobs_full-click
+                - generic [ref=e392]:
+                  - heading "Information Technology Consultant jobs" [level=3] [ref=e393]
+                  - generic [ref=e394]: 25,984 open jobs
+          - button "Show more similar searches" [ref=e395] [cursor=pointer]: Show more
+      - generic [ref=e399]:
+        - heading "Explore top content on LinkedIn" [level=2] [ref=e401]
+        - paragraph [ref=e402]: Find curated posts and insights for relevant topics all in one place.
+        - link "View top content" [ref=e403] [cursor=pointer]:
+          - /url: https://www.linkedin.com/top-content/
+  - generic [ref=e407]:
+    - button "More searches" [ref=e408] [cursor=pointer]
+    - list
+  - contentinfo [ref=e410]:
+    - list [ref=e411]:
+      - generic [ref=e412]: LinkedIn
+      - generic [ref=e414]: © 2026
+      - listitem [ref=e415]:
+        - link "About" [ref=e416] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_jobs_guest_details_footer-about
+      - listitem [ref=e417]:
+        - link "Accessibility" [ref=e418] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_jobs_guest_details_footer-accessibility
+      - listitem [ref=e419]:
+        - link "User Agreement" [ref=e420] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_jobs_guest_details_footer-user-agreement
+      - listitem [ref=e421]:
+        - link "Privacy Policy" [ref=e422] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_jobs_guest_details_footer-privacy-policy
+      - listitem [ref=e423]:
+        - link "Cookie Policy" [ref=e424] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_jobs_guest_details_footer-cookie-policy
+      - listitem [ref=e425]:
+        - link "Copyright Policy" [ref=e426] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_jobs_guest_details_footer-copyright-policy
+      - listitem [ref=e427]:
+        - link "Brand Policy" [ref=e428] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_jobs_guest_details_footer-brand-policy
+      - listitem [ref=e429]:
+        - link "Guest Controls" [ref=e430] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_jobs_guest_details_footer-guest-controls
+      - listitem [ref=e431]:
+        - link "Community Guidelines" [ref=e432] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_jobs_guest_details_footer-community-guide
+      - listitem [ref=e433]:
+        - button "Language" [ref=e435]

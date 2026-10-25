@@ -1,0 +1,987 @@
+- generic [active] [ref=f73e1]:
+  - generic:
+    - dialog "Einwilligung verwalten":
+      - generic [ref=f73e2]:
+        - generic [ref=f73e3]: Einwilligung verwalten
+        - text: 
+      - generic [ref=f73e5]:
+        - generic [ref=f73e6]: Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Einwilligung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
+        - text:    
+      - generic [ref=f73e8]:
+        - button "Akzeptieren" [ref=f73e9] [cursor=pointer]
+        - button "Ablehnen" [ref=f73e10] [cursor=pointer]
+        - button "Einstellungen ansehen" [ref=f73e11] [cursor=pointer]
+      - list [ref=f73e13]:
+        - listitem:
+          - link:
+            - /url: https://www.d-i-s.de/agentur/karriere/
+        - listitem [ref=f73e14]:
+          - link "Datenschutz" [ref=f73e15] [cursor=pointer]:
+            - /url: https://www.d-i-s.de/datenschutz/
+        - listitem [ref=f73e16]:
+          - link "Impressum" [ref=f73e17] [cursor=pointer]:
+            - /url: https://www.d-i-s.de/impressum/
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "D-I-S commerce engineering":
+                        - /url: https://www.d-i-s.de/
+                        - img "D-I-S commerce engineering"
+                  - generic: 
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - article:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Arbeite an E-Commerce-Projekten mit Verantwortung" [level=1]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Programmierer (m/w/d) für Webentwicklung / E-Commerce" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - text: Wir suchen einen
+                                        - strong
+                                        - text: Allround-Webprogrammierer (m/w/d), der uns bei der Umsetzung unserer Shop-Projekte unterstützt.
+                                      - paragraph: Nehme teil an der spannenden Entwicklung von Produkten im Bereich eProcurement & Industrie 4.0 und freue Dich auf eigenverantwortliches, abwechslungsreiches Arbeiten mit Zukunftsperspektive.
+                                  - generic:
+                                    - heading "Wir wünschen uns" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "einen Mitarbeiter (m/w/d), der komplexe Sachverhalte erfassen, analysieren und in Applikationen abbilden kann" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine lösungsorientierte, selbstständige Arbeitsweise" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein sicheres Auftreten und gute Kommunikationsfähigkeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Grundkenntnisse in Englisch" [level=6]
+                                  - generic:
+                                    - heading "Qualifikationen und Fähigkeiten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erfahrung mit Shopware und Magento" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sehr gute Kenntnisse in HTML/CSS/JS" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sehr gute Kenntnisse in PHP und MySQL" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kenntnisse in Datenübertragungen im XML- oder JSON-Format" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Die Möglichkeit, an interessanten Projekten aus den unterschiedlichsten Branchen mitzuarbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine langfristige Zusammenarbeit" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine leistungsgerechte Vergütung bei flexibler Arbeitszeit" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine umfassende Einarbeitung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine freundliche Arbeitsatmosphäre in einem starken Team, mit dem die Arbeit Spaß macht" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Vertriebsmitarbeiter (m/w/d) zur Neukundengewinnung" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Wir suchen zur Verstärkung unseres Vertriebsteams eine nebenberufliche Unterstützung (m/w/d) bei der Neukundengewinnung im Außen-/und Innendienst sowie bei der Pflege unserer Bestandskunden.
+                                      - paragraph: Eine umfassende Einarbeitung ist für uns selbstverständlich.
+                                      - paragraph: Du bist kontaktfreudig, begeisterungsfähig und möchtest zusammen im Wachstumsmarkt E-Commerce Großes erreichen? Auch Quereinsteiger sind herzlich willkommen!
+                                  - generic:
+                                    - heading "Wir wünschen uns" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Berufserfahrung im Vertrieb" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kenntnisse rund um den Bereich E-Commerce und Online-Marketing" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sicherer Umgang mit Kunden" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein gepflegtes Auftreten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "die Bereitschaft, sich immer wieder neuen Herausforderungen zu stellen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine zielorientierte, organisierte und selbstständige Arbeitsweise" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Teamfähigkeit" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Verhandlungssicherheit" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Reisebereitschaft runden Ihr Profil ab." [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine leistungsbezogene Vergütung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "die Möglichkeit einer langfristigen Zusammenarbeit mit Zukunftsperspektive in einem starken Team" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Online-Marketing-Manager (m/w/d) mit Schwerpunkt SEO" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Um unser Marketing-Team weiter auszubauen, suchen wir ein neues Teammitglied, das unsere SEO-Aktivitäten für uns und unsere Kunden operativ betreut und beim strategischen Ausbau unterstützt.
+                                      - paragraph: Werden jetzt Teil unseres starken Teams und lasse uns gemeinsam Großes bewegen.
+                                  - generic:
+                                    - heading "Aufgabenschwerpunkte" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Konzeptionierung, Umsetzung und Steuerung von SEO-, Content- und Social-Media-Marketingmaßnahmen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "technische Analyse der Onlineshops und Erarbeitung von Handlungsempfehlungen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erstellung von Keyword-Analysen und SEO-Texten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Überwachung, Einhaltung und Optimierung von festgelegten KPIs" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erstellen von Analysen, Reportings und Präsentationen, inklusive Aufbereitung von Kennzahlen / KPIs" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "kontinuierliche Weiterentwicklung und Optimierung der SEO-Maßnahmen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kundenberatung- und Kommunikation" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "enge Zusammenarbeit mit Projektmanagement sowie SEA- und Entwicklungsabteilung im Rahmen von Onlineshop-Projekten" [level=6]
+                                  - generic:
+                                    - heading "Wir wünschen uns" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "analytische Fähigkeiten, Auswertung und Interpretation von Daten und Statistiken" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Wortgewandtheit und Kreativität beim Erstellen von SEO-Texten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "strategisches Denken, Bewertung von Status quo, Ableitung von Maßnahmen und Zielen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Freude an Kommunikation, Teamarbeit und Kundenkontakt" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "abgeschlossenes Studium oder vergleichbare Ausbildung sowie Berufserfahrung" [level=6]
+                                  - generic:
+                                    - heading "Qualifikationen und Fähigkeiten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Sistrix oder vergleichbares Analysetool" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Adobe Photoshop und InDesign" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Keyword- und Zielgruppenanalysen und redaktionelles Arbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Umgang mit gängigen Social-Media-Kanälen (Facebook, Instagram, Xing, LinkedIn,…)" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erstellung von SEO-Texten" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eigenverantwortliches, abwechslungsreiches Arbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "interessante Projekte aus unterschiedlichsten Branchen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "persönliche Entwicklungs- und Fortbildungsmöglichkeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine leistungsgerechte Vergütung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine freundliche Arbeitsatmosphäre in einem starken Team, in dem Arbeiten Spaß macht" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "flexible Arbeitszeiten mit Möglichkeit von Home-Office nach Absprache" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "langfristige Zusammenarbeit mit Zukunftsperspektive" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "regelmäßige Teamevents" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein toller Job im Herzen Stuttgarts!" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Webdesigner (m/w/d) als freier Mitarbeiter oder in Festanstellung" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Wir suchen einen kreativen und erfahrenen Webdesigner (m/w/d), der unsere digitalen Projekte mit frischen Ideen und modernem Design auf ein neues Level hebt. Als Webdesigner (m/w/d) hast Du bei uns die Möglichkeit, maßgeblich an der Gestaltung und Umsetzung spannender E-Commerce-Projekte mitzuwirken.
+                                      - paragraph: Eine umfassende Einarbeitung ist selbstverständlich. Werde jetzt Teil unseres starken Teams und lasse uns gemeinsam Großes bewegen.
+                                  - generic:
+                                    - heading "Aufgabenschwerpunkte" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Entwicklung von modernen und benutzerfreundlichen Webdesigns für Onlineshops, Landingpages sowie unsere Unternehmenswebsite" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Gestaltung und Optimierung von responsiven Onlineshops/Webseiten für eine optimale Darstellung auf verschiedenen Endgeräten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "enge Zusammenarbeit mit unserem Entwicklungsteam zur Umsetzung der Designs in HTML, CSS und JavaScript" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Beratung und Unterstützung bei der Auswahl von geeigneten Farbschemata, Schriftarten und Bildern für die digitale Darstellung unserer Marke" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Überwachung und kontinuierliche Verbesserung der Benutzererfahrung unserer digitalen Projekte" [level=6]
+                                  - generic:
+                                    - heading "Qualifikationen und Fähigkeiten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "abgeschlossene Ausbildung als Mediengestalter digital oder Studium im Bereich Webdesign, Grafikdesign oder einer ähnlichen Fachrichtung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sicherer Umgang mit gängigen Design-Tools wie Adobe Photoshop, Illustrator oder Sketch fundierte Kenntnisse in HTML, CSS und JavaScript" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kreativität, Innovationsgeist und ein Gespür für aktuelle Design-Trends" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "gute Kommunikationsfähigkeiten und die Fähigkeit, technische Konzepte verständlich zu erklären" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Teamgeist und die Fähigkeit, in einem agilen Arbeitsumfeld effektiv zusammenzuarbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "idealerweise konnten Sie bereits Berufserfahrung im Agentur-Umfeld sammeln" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "spannende Projekte und die Möglichkeit, Ihre kreativen Ideen einzubringen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein dynamisches Arbeitsumfeld mit einem engagierten und motivierten Team" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "modern ausgestatteter Arbeitsplatz mit neuester Software und Tools" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "kontinuierliche Weiterbildungsmöglichkeiten, um Ihre Fähigkeiten weiterzuentwickeln" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "attraktive Vergütung und flexible Arbeitszeiten mit Home-Office-Möglichkeit nach Absprache bzw. Anstellung als freier Mitarbeiter" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "langfristige Zusammenarbeit mit Zukunftsperspektive" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "regelmäßige Teamevents" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Projektmanager (m/w/d) E-Commerce" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Wir suchen einen kühlen Kopf, der dem Projektteam vorsteht und selbstständig die Planung, Koordination und Durchführung von E-Commerce-Projekten übernimmt. Die Schnittstelle zwischen Kunde und Programmierern, Grafikern und Controllern erfordert Teamfähigkeit, Belastbarkeit und Organisationstalent. Termin- und Budgetverantwortung zu übernehmen, gehört selbstverständlich auch dazu.
+                                      - paragraph: Eine umfassende Einarbeitung ist selbstverständlich. Werde jetzt Teil unseres starken Teams und lasse uns gemeinsam Großes bewegen.
+                                  - generic:
+                                    - heading "Wir wünschen uns" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kenntnisse in HTML5/CSS, PHP und MySQL" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erfahrungen im Bereich „Webentwicklung“" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Freude am Kundenkontakt und ein lösungsorientiertes Vorgehen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sicheres Auftreten und gute Kommunikationsfähigkeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sehr gutes Deutsch in Wort und Schrift" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Grundkenntnisse in Englisch" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erfahrungen mit awork" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eigenverantwortliches, abwechslungsreiches Arbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "interessante Projekte aus unterschiedlichsten Branchen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine leistungsgerechte Vergütung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine freundliche Arbeitsatmosphäre" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "flexible Arbeitszeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "langfristige Zusammenarbeit mit Zukunftsperspektive" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "spannende Projekte und die Möglichkeit, Ihre kreativen Ideen einzubringen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein dynamisches Arbeitsumfeld mit einem engagierten und motivierten Team" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "modern ausgestatteter Arbeitsplatz mit neuester Software und Tools" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "kontinuierliche Weiterbildungsmöglichkeiten, um Ihre Fähigkeiten weiterzuentwickeln" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "attraktive Vergütung und flexible Arbeitszeiten mit Home-Office-Möglichkeit nach Absprache bzw. Anstellung als freier Mitarbeiter" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "langfristige Zusammenarbeit mit Zukunftsperspektive" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "regelmäßige Teamevents" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Werkstudent (m/w/d) im Bereich Online-Marketing" [level=3]
+                                  - generic:
+                                    - heading "Beschreibung" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Wir suchen einen Werkstudenten (m/w/d) zur Unterstützung unserer Online-Marketing-Abteilung mit dem Schwerpunkt SEO-Texterstellung und Content Management.
+                                      - paragraph: Werden jetzt Teil unseres Teams!
+                                  - generic:
+                                    - heading "Aufgaben" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Ausbau der SEO-Aktivitäten in enger Abstimmung mit unseren Online-Marketing-Managern" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Mitarbeit bei der Erstellung und Betreuung von Online-Marketing-Konzepten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Unterstützung bei der Erstellung von Social-Media-Beiträgen und grafischen Elementen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erstellung von Keyword-Analysen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Erstellung von suchmaschinenoptimierten Inhalten und Optimierung bereits bestehender Inhalte" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Optimierung von Metadaten" [level=6]
+                                  - generic:
+                                    - heading "Wir wünschen uns" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eingeschriebener Student (m/w/d) – Bachelor/Master – im Bereich Online-Marketing, Marketing, Journalismus, E-Commerce, Kommunikation, Medien oder vergleichbarer Studiengang" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sehr gute Deutschkenntnisse sowie eine gute Ausdrucksweise" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "erste Erfahrungen in der Erstellung von Texten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "sehr guter Umgang mit den gängigen Social-Media-Kanälen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Kreativität und Eigeninitiative" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "großes Interesse an E-Commerce und Social Media" [level=6]
+                                  - generic:
+                                    - heading "Idealerweise verfügst Du über Kenntnisse in" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Sistrix" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "KWFinder" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "Adobe Photoshop, Adobe Illustrator" [level=6]
+                                  - generic:
+                                    - heading "Wir bieten" [level=4]
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine freundliche Arbeitsatmosphäre in einem starken Team" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eigenverantwortliches, abwechslungsreiches Arbeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "interessante Projekte aus unterschiedlichsten Branchen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "eine leistungsgerechte Vergütung" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "flexible Arbeitszeiten" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "tiefe Einblicke in die Welt des E-Commerce und allen damit verbundenen Themen" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "gegebenenfalls eine längerfristige Zusammenarbeit mit Zukunftsperspektive" [level=6]
+                                    - generic:
+                                      - generic:
+                                        - generic: 
+                                        - generic:
+                                          - heading "ein toller Werkstudentenjob mitten in Stuttgart" [level=6]
+                                  - generic:
+                                    - link "Jetzt bewerben":
+                                      - /url: /kontakt-bewerbung/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "KONTAKT" [level=3]
+                          - generic:
+                            - heading "Du hast Fragen zu unseren offenen Stellen?" [level=2]
+                          - generic:
+                            - generic:
+                              - img "Mateus_Krick_Team"
+                          - generic:
+                            - generic:
+                              - heading "Mateus Krick" [level=5]:
+                                - strong: Mateus Krick
+                          - generic: Dein Ansprechpartner für offene Stellen, Bewerbungen und den weiteren Ablauf.
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - status
+                                - list
+                              - form "Contact form":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Name *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "E-Mail *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Telefonnummer"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Firma *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Website"
+                                  - generic:
+                                    - paragraph:
+                                      - generic:
+                                        - textbox "Nachricht"
+                                  - generic:
+                                    - paragraph:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - checkbox "* Ich stimme der Datenschutzerklärung zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden.": 
+                                              - generic:
+                                                - text: "* Ich stimme der"
+                                                - link "Datenschutzerklärung":
+                                                  - /url: /datenschutz
+                                                - text: zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden.
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - paragraph:
+                                          - button "Senden" [disabled]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Logo-weiss-V5":
+                                - /url: https://www.d-i-s.de/
+                                - generic:
+                                  - img "Logo-weiss-V5"
+                            - generic: Friedrichstr. 37 70174 Stuttgart
+                            - generic: info@d-i-s.de
+                            - generic: "Tel.: +49 (0)711–3511803"
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - link "Facebook":
+                                    - /url: https://www.facebook.com/dis.commerce.engineering
+                                    - generic: 
+                                - listitem:
+                                  - link "Instagram":
+                                    - /url: https://www.instagram.com/dis_stuttgart/
+                                    - generic: 
+                                - listitem:
+                                  - link "TikTok":
+                                    - /url: https://www.tiktok.com/@dis_stuttgart
+                                    - generic: 糧
+                                - listitem:
+                                  - link "LinkedIn":
+                                    - /url: https://www.linkedin.com/company/d-i-s-commerce-engineering
+                                    - generic: 
+                                - listitem:
+                                  - link "Xing":
+                                    - /url: https://www.xing.com/pages/d-i-scommerceengineering
+                                    - generic: 
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Leistungen":
+                                - /url: https://d-i-s.de/leistungen/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "E-Commerce Beratung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-beratung/
+                                    - listitem:
+                                      - link "E-Commerce Entwicklung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-entwicklung/
+                                    - listitem:
+                                      - link "E-Commerce Support":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-support/
+                                    - listitem:
+                                      - link "Shopware":
+                                        - /url: https://www.d-i-s.de/shopware/
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Marketing":
+                                - /url: https://d-i-s.de/leistungen/e-commerce-marketing/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "SEO":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/seo/
+                                    - listitem:
+                                      - link "SEA":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/sea/
+                                    - listitem:
+                                      - link "E-Mail Marketing":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/e-mail-marketing/
+                                    - listitem:
+                                      - link "KI-Optimierung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/ki-optimierung/
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Agentur":
+                                - /url: https://d-i-s.de/agentur/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "Das Team":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Karriere":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Kontakt":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Glossar":
+                                        - /url: https://www.d-i-s.de/glossar/
+                                    - listitem:
+                                      - link "Magazin":
+                                        - /url: https://www.d-i-s.de/magazin/
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "Impressum":
+                                        - /url: https://www.d-i-s.de/impressum/
+                                    - listitem:
+                                      - link "Datenschutz":
+                                        - /url: https://www.d-i-s.de/datenschutz/
+                                    - listitem:
+                                      - link "AGB":
+                                        - /url: https://www.d-i-s.de/agb/
+                      - generic: 2026, All rights reserved.
+  - tooltip "Tooltip content"
+  - iframe [ref=f73e18]:
+    - generic [ref=f74e6]:
+      - text: protected by
+      - strong [ref=f74e7]: reCAPTCHA

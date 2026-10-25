@@ -1,0 +1,190 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to main content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f8e5]:
+    - link [ref=f8e6] [cursor=pointer]:
+      - /url: ./vacancies
+      - img "Einhell Germany AG" [ref=f8e7]
+    - list [ref=f8e8]:
+      - listitem [ref=f8e9]:
+        - link "Jobs" [ref=f8e10] [cursor=pointer]:
+          - /url: ./vacancies
+      - listitem
+      - listitem [ref=f8e11]:
+        - link "Get Connected" [ref=f8e12] [cursor=pointer]:
+          - /url: ../get-connected?l=en
+      - listitem
+      - listitem
+    - list [ref=f8e13]:
+      - listitem [ref=f8e14]:
+        - link "Sign in" [ref=f8e15] [cursor=pointer]:
+          - /url: ../sign-in?l=en
+      - listitem [ref=f8e16]:
+        - link "Sign up" [ref=f8e17] [cursor=pointer]:
+          - /url: ../sign-up?l=en
+      - listitem
+      - listitem [ref=f8e18]:
+        - link "English" [ref=f8e19] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=f8e23]:
+    - banner [ref=f8e24]
+    - generic [ref=f8e30]:
+      - link "Already an employee?" [ref=f8e32] [cursor=pointer]:
+        - /url: ./vacancies?-1.-jobSearch-jobSearchContainer-internalLink
+      - generic [ref=f8e33]:
+        - generic [ref=f8e34]:
+          - generic [ref=f8e36]:
+            - generic [ref=f8e38]:
+              - generic [ref=f8e39]: Keyword search
+              - textbox "Keyword search" [ref=f8e40]
+            - generic [ref=f8e42]:
+              - generic [ref=f8e43]:
+                - generic [ref=f8e44]: Audience
+                - listbox "Zielgruppe oder Jobkategorie auswählen" [ref=f8e46] [cursor=pointer]:
+                  - option "Pupil (8)" [ref=f8e47]
+                  - option "Professional (29)" [ref=f8e48]
+                  - option "Student (3)" [ref=f8e49]
+              - generic [ref=f8e50]:
+                - generic [ref=f8e51]: Company
+                - listbox "Zielgruppe oder Jobkategorie auswählen" [ref=f8e53] [cursor=pointer]:
+                  - option "Einhell Accessories GmbH (7)" [ref=f8e54]
+                  - option "Einhell Germany AG (33)" [ref=f8e55]
+          - link "Subscribe to jobs" [ref=f8e57] [cursor=pointer]:
+            - /url: ./vacancies?-1.-jobSearch-jobSearchContainer-jobAboLink
+        - generic [ref=f8e58]:
+          - generic [ref=f8e60]:
+            - generic [ref=f8e62]:
+              - generic:
+                - generic:
+                  - button "7" [ref=f8e63] [cursor=pointer]
+                  - button "33" [ref=f8e65] [cursor=pointer]
+              - generic:
+                - generic [ref=f8e67]:
+                  - button "Zoom in" [ref=f8e68] [cursor=pointer]: +
+                  - button "Zoom out" [ref=f8e69] [cursor=pointer]: −
+                - generic [ref=f8e70]:
+                  - text: ©
+                  - link "OpenStreetMap" [ref=f8e71] [cursor=pointer]:
+                    - /url: http://www.openstreetmap.org/copyright
+                  - text: contributors
+            - generic [ref=f8e73]:
+              - paragraph [ref=f8e75]: "Your search returned 40 positions:"
+              - generic [ref=f8e76]:
+                - generic [ref=f8e77]:
+                  - link "Date" [ref=f8e79] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Vacancy" [ref=f8e81] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Audience" [ref=f8e83] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Job category" [ref=f8e85] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Location" [ref=f8e87] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=f8e88]:
+                  - generic [ref=f8e89]:
+                    - generic [ref=f8e90]: 10/23/26
+                    - link "Regional Service Manager (m/w/d)" [ref=f8e92] [cursor=pointer]:
+                      - /url: ../job/68300873/Regional-Service-Manager-m-w-d-?jobDbPVId=288588273&l=en
+                    - generic [ref=f8e93]: Professional
+                    - generic [ref=f8e94]: Additional fields of work
+                    - generic [ref=f8e95]: Landau an der Isar
+                  - generic [ref=f8e99]:
+                    - generic [ref=f8e100]: 10/23/26
+                    - link "Vertriebsmitarbeiter Außendienst (m/w/d) PLZ-Bereiche 70, 71, 73, 75 tlw. 74, 76, 89" [ref=f8e102] [cursor=pointer]:
+                      - /url: ../job/68299938/Vertriebsmitarbeiter-Au%C3%9Fendienst-m-w-d-PLZ-Bereiche-70,-71,-73,-75-tlw.-74,-76,-89?jobDbPVId=288583963&l=en
+                    - generic [ref=f8e103]: Professional
+                    - generic [ref=f8e104]: Sales
+                    - generic [ref=f8e105]: Baden-Württemberg
+                  - generic [ref=f8e109]:
+                    - generic [ref=f8e110]: 10/22/26
+                    - link "Abschlussarbeit (m/w/d) - Initiativbewerbung" [ref=f8e112] [cursor=pointer]:
+                      - /url: ../job/53866376/Abschlussarbeit-m-w-d-Initiativbewerbung?jobDbPVId=288520626&l=en
+                    - generic [ref=f8e113]: Student
+                    - generic [ref=f8e114]: Thesis
+                    - generic [ref=f8e115]: Landau an der Isar
+                  - generic [ref=f8e119]:
+                    - generic [ref=f8e120]: 10/20/26
+                    - link "International Projektmanager E-Commerce (m/w/d)" [ref=f8e122] [cursor=pointer]:
+                      - /url: ../job/68205686/International-Projektmanager-E-Commerce-m-w-d-?jobDbPVId=288214546&l=en
+                    - generic [ref=f8e123]: Professional
+                    - generic [ref=f8e124]: Sales
+                    - generic [ref=f8e125]: Landau an der Isar
+                  - generic [ref=f8e129]:
+                    - generic [ref=f8e130]: 10/20/26
+                    - link "Marketing Manager Market Intelligence & Strategic Research (m/w/d)" [ref=f8e132] [cursor=pointer]:
+                      - /url: ../job/68205306/Marketing-Manager-Market-Intelligence-Strategic-Research-m-w-d-?jobDbPVId=288213286&l=en
+                    - generic [ref=f8e133]: Professional
+                    - generic [ref=f8e134]: Marketing and Sales
+                    - generic [ref=f8e135]: Landau an der Isar
+                  - generic [ref=f8e139]:
+                    - generic [ref=f8e140]: 10/19/26
+                    - link "SAP Service Delivery Manager (m/w/d)" [ref=f8e142] [cursor=pointer]:
+                      - /url: ../job/68058722/SAP-Service-Delivery-Manager-m-w-d-?jobDbPVId=288169781&l=en
+                    - generic [ref=f8e143]: Professional
+                    - generic [ref=f8e144]: IT and Web
+                    - generic [ref=f8e145]: Landau an der Isar
+                  - generic [ref=f8e149]:
+                    - generic [ref=f8e150]: 10/19/26
+                    - link "SAP Consultant Finance and Controlling (m/w/d)" [ref=f8e152] [cursor=pointer]:
+                      - /url: ../job/67958712/SAP-Consultant-Finance-and-Controlling-m-w-d-?jobDbPVId=288169041&l=en
+                    - generic [ref=f8e153]: Professional
+                    - generic [ref=f8e154]: IT and Web
+                    - generic [ref=f8e155]: Landau an der Isar
+                  - generic [ref=f8e159]:
+                    - generic [ref=f8e160]: 10/19/26
+                    - link "SAP Consultant Sales (m/w/d)" [ref=f8e162] [cursor=pointer]:
+                      - /url: ../job/68056627/SAP-Consultant-Sales-m-w-d-?jobDbPVId=288168276&l=en
+                    - generic [ref=f8e163]: Professional
+                    - generic [ref=f8e164]: IT and Web
+                    - generic [ref=f8e165]: Landau an der Isar
+                  - generic [ref=f8e169]:
+                    - generic [ref=f8e170]: 10/19/26
+                    - link "SAP Projekt Manager (m/w/d)" [ref=f8e172] [cursor=pointer]:
+                      - /url: ../job/68056877/SAP-Projekt-Manager-m-w-d-?jobDbPVId=288167406&l=en
+                    - generic [ref=f8e173]: Professional
+                    - generic [ref=f8e174]: IT and Web
+                    - generic [ref=f8e175]: Landau an der Isar
+                  - generic [ref=f8e179]:
+                    - generic [ref=f8e180]: 10/19/26
+                    - link "SAP Integration Expert (m/w/d)" [ref=f8e182] [cursor=pointer]:
+                      - /url: ../job/68059152/SAP-Integration-Expert-m-w-d-?jobDbPVId=288165626&l=en
+                    - generic [ref=f8e183]: Professional
+                    - generic [ref=f8e184]: IT and Web
+                    - generic [ref=f8e185]: Landau an der Isar
+                - list [ref=f8e190]:
+                  - listitem:
+                    - link "«" [ref=f8e191]:
+                      - /url: "#"
+                  - listitem:
+                    - link "1" [ref=f8e192]:
+                      - /url: "#"
+                  - listitem:
+                    - link "2" [ref=f8e193] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "3" [ref=f8e194] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "4" [ref=f8e195] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem:
+                    - link "»" [ref=f8e196] [cursor=pointer]:
+                      - /url: "#"
+          - generic [ref=f8e197]:
+            - link "Get Connected" [ref=f8e198] [cursor=pointer]:
+              - /url: ../get-connected?l=en
+            - paragraph [ref=f8e199]: Haven't found a job? You're interested in our company? Get connected with us, so you will be considered for future job positions.
+    - contentinfo [ref=f8e200]:
+      - list [ref=f8e201]:
+        - listitem [ref=f8e202]:
+          - link "Imprint" [ref=f8e203] [cursor=pointer]:
+            - /url: ./imprint
+        - listitem [ref=f8e204]:
+          - link "Privacy Policy" [ref=f8e205] [cursor=pointer]:
+            - /url: ./data-security
+        - listitem [ref=f8e206]:
+          - generic [ref=f8e207]:
+            - text: powered by
+            - link "softgarden" [ref=f8e208] [cursor=pointer]:
+              - /url: https://softgarden.com/en

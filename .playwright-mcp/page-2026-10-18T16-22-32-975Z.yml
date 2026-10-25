@@ -1,0 +1,281 @@
+- generic [active] [ref=e1]:
+  - link "Direkt zum Inhalt" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - link [ref=e9] [cursor=pointer]:
+              - /url: /unternehmen/cordes-graefe-kg
+              - generic [ref=e10]:
+                - term [ref=e11]: CORDES & GRAEFE KG
+                - definition [ref=e12]: HOLDING
+            - link [ref=e13] [cursor=pointer]:
+              - /url: /
+              - img "GC-GRUPPE" [ref=e14]
+          - generic [ref=e15]:
+            - button "Suche" [ref=e17] [cursor=pointer]
+            - link "Badausstellungen" [ref=e19] [cursor=pointer]:
+              - /url: /unternehmen/cordes-graefe-kg/elements
+        - navigation [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "News" [ref=e23] [cursor=pointer]:
+                - /url: /unternehmen/cordes-graefe-kg/news
+            - listitem [ref=e25]:
+              - link "Standorte" [ref=e26] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e30]:
+              - link "Karriere" [ref=e31] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e35]:
+              - link "Veranstaltungen" [ref=e36] [cursor=pointer]:
+                - /url: /unternehmen/cordes-graefe-kg/events
+      - generic [ref=e38]:
+        - figure [ref=e39]
+        - generic [ref=e41]:
+          - heading "Business Analyst (Online-Shop Transformation) w/m/d" [level=1] [ref=e42]
+          - generic [ref=e43]:
+            - paragraph [ref=e45]: An der Riede 1 28816 Stuhr Deutschland
+            - link "Jetzt bewerben" [ref=e46] [cursor=pointer]:
+              - /url: "#bewerbung"
+    - main [ref=e47]:
+      - generic [ref=e49]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph:
+                  - strong: Deine Rolle – Business Analyst (Online-Shop Transformation) mit echter Wirkkraft
+                - generic:
+                  - paragraph: Du hast einen Blick für Zusammenhänge, möchtest die Digitalisierung im Handel aktiv gestalten und die Anforderungen von morgen strukturieren? Starte mit uns in die Zukunft der Online-Shop Transformation und übernimm eine Schlüsselrolle im Transformationsteam!
+                  - paragraph
+                  - generic:
+                    - generic:
+                      - img "Youtube video preview image"
+                      - generic:
+                        - heading "We need your consent to load the Youtube service!" [level=3]
+                        - paragraph: This content is not permitted to load due to trackers that are not disclosed to the visitor. The website owner needs to setup the site with their CMP to add this content to the list of technologies used.
+                        - generic:
+                          - text: Powered by
+                          - link "Usercentrics Consent Management Platform":
+                            - /url: https://usercentrics.com/
+                  - paragraph
+                - paragraph:
+                  - strong: "Darum geht es konkret:"
+                - list:
+                  - listitem: Erhebung, Analyse und Dokumentation fachlicher Anforderungen für den Online-Shop und digitale Prozesse
+                  - listitem: Strukturierung, Optimierung und Automatisierung von Geschäftsprozessen
+                  - listitem: Aufbereitung und Vermittlung von Domänen- sowie Prozesswissen für Projekt- und Entwicklungsteams
+                  - listitem: Abstimmung mit internen/externen Stakeholdern und Schnittstellenfunktion zwischen Fachbereichen und IT
+                  - listitem: Begleitung der Umsetzung unter Berücksichtigung regulatorischer und organisatorischer Anforderungen
+                  - listitem: Erkennung fachlicher Risiken, Abhängigkeiten und Sicherstellung konsistenter Anforderungen während der Transformation
+                - paragraph:
+                  - strong: "Wir wünschen uns von dir:"
+                - list:
+                  - listitem: Abgeschlossenes Studium in Wirtschaftsinformatik, BWL, Informatik oder vergleichbare Qualifikation
+                  - listitem: Mehrjährige Erfahrung als Business Analyst o. ä. im digitalen Umfeld
+                  - listitem: Erfahrung in Anforderungsaufnahme, Geschäftsprozessmodellierung und -optimierung
+                  - listitem: Kenntnisse agiler Arbeitsweisen sowie Stakeholder-Management über mehrere Teams hinweg
+                  - listitem: Analytische, konzeptionelle Stärke und Kommunikationsfähigkeit; sehr gutes Deutsch, Englisch wünschenswert
+                  - listitem: Idealerweise Erfahrung im E-Commerce- oder Omnichannel-Umfeld
+                - paragraph:
+                  - strong: "Das kannst du von uns erwarten:"
+                - list:
+                  - listitem: Flexibles Vollzeit- oder Teilzeitmodell (mind. 30 Stunden/Woche) und mobiles Arbeiten
+                  - listitem: Ein kleines, schlagkräftiges Transformationsteam mit direkter Schnittstelle zu IT, Business und Marketing
+                  - listitem: Vielfältige Entwicklungsmöglichkeiten und Verantwortung in strategischen Digitalprojekten
+                  - listitem: Chance, die digitale Zukunft des Handels aktiv mitzugestalten
+                  - listitem: Moderne, offene Arbeitsstrukturen und Zusammenarbeit auf Augenhöhe
+                - paragraph
+                - paragraph:
+                  - strong: Werde Teil unseres Teams!
+                  - text: Du möchtest die Zukunft unseres Online-Shops aktiv mitgestalten? Dann freuen wir uns auf deine Bewerbung!
+                - paragraph:
+                  - strong: "Ansprechpartner:"
+                  - text: Marius Bruns & Kerstin Seidel, Alena Dreyer
+                - separator
+                - heading "Angebot weiterleiten" [level=2]
+                - generic:
+                  - button "Per Whatsapp versenden": Whatsapp
+                  - button "Auf Facebook teilen": facebook
+                  - button "Per E-Mail versenden": Mail
+            - complementary "Sidebar":
+              - generic:
+                - generic:
+                  - text: "Bewerbungen an:"
+                  - heading "Alena Dreyer" [level=3]
+              - paragraph:
+                - text: "Telefon:"
+                - link "+49 421 2029-3809":
+                  - /url: tel:+49 421 2029-3809
+                - text: "E-Mail:"
+                - link "Alena.Dreyer@gc-gruppe.de":
+                  - /url: mailto:Alena.Dreyer@gc-gruppe.de
+              - paragraph:
+                - link "Jetzt bewerben":
+                  - /url: "#bewerbung"
+              - heading "Unsere Sozialleistungen" [level=4]
+              - list:
+                - listitem:
+                  - generic: Eigene Akademie
+                - listitem:
+                  - generic: Mitarbeiterrabatte
+                - listitem:
+                  - generic: Kantine
+                - listitem:
+                  - generic: Fremdsprachenunterricht
+                - listitem:
+                  - generic: Firmenfitness
+                - listitem:
+                  - generic: Flexible Arbeitszeiten
+                - listitem:
+                  - generic: Mitarbeiterveranstaltungen
+                - listitem:
+                  - generic: E-Bike-Leasing
+                - listitem:
+                  - generic: Mobiles Arbeiten
+      - generic [ref=e52]:
+        - generic:
+          - generic:
+            - heading "Als Business Analyst (Online-Shop Transformation) w/m/d bewerben" [level=2]
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Vorname*
+                          - textbox "Vorname*"
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Name*
+                          - textbox "Name*"
+                  - generic:
+                    - heading "Kontakt" [level=2]
+                    - generic:
+                      - generic:
+                        - generic: Telefon*
+                        - textbox "Telefon*"
+                      - generic: oder
+                      - generic:
+                        - generic: E-Mail*
+                        - textbox "E-Mail*"
+                  - generic:
+                    - generic: Optionales Anschreiben
+                    - generic:
+                      - textbox "Optionales Anschreiben"
+                  - generic:
+                    - generic:
+                      - generic: Bewerbungsunterlagen
+                      - generic:
+                        - button "Bewerbungsunterlagen"
+                      - generic: Es sind bis zu 5 PDF Dateien (z.B. Lebenslauf, aktuelles Schulzeugnis etc.) von jeweils 5MB erlaubt. Videobewerbungen nehmen wir gerne über einen Link im PDF entgegen.
+                  - paragraph: Diese Sicherheitsfrage überprüft, ob Sie ein menschlicher Besucher sind und verhindert automatisches Spamming.
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Anti-Roboter-Verifizierung
+                          - button "Hier klicken"
+                      - generic:
+                        - link "FriendlyCaptcha ⇗":
+                          - /url: https://friendlycaptcha.com/
+                  - generic:
+                    - checkbox "Datenschutz*"
+                    - generic: Datenschutz*
+                    - generic:
+                      - generic:
+                        - text: Ich habe die
+                        - link "Datenschutzerklärung":
+                          - /url: /datenschutz
+                        - text: zur Kenntnis genommen und akzeptiert. Personen, die das 18. Lebensjahr noch nicht vollendet haben, bedürfen der Einwilligung ihres gesetzlichen Vertreters. Benutzen Sie dazu die von uns, im Rahmen der Onlinebewerbung bereitgestellte
+                        - link "Einwilligungserklärung.":
+                          - /url: /sites/default/files/Einwilligungserklaerung-GC-Azubi.pdf
+                  - generic:
+                    - button "Jetzt bewerben"
+    - contentinfo [ref=e53]:
+      - link "Zum Seitenanfang" [ref=e54] [cursor=pointer]:
+        - /url: "#top"
+      - generic [ref=e56]:
+        - link [ref=e57] [cursor=pointer]:
+          - /url: /
+          - img "GC-GRUPPE" [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - navigation "Standorte" [ref=e61]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: Standorte
+                - list [ref=e65]:
+                  - listitem [ref=e66]:
+                    - link "Häuser" [ref=e67] [cursor=pointer]:
+                      - /url: /standorte
+                  - listitem [ref=e68]:
+                    - link "Ausstellungen" [ref=e69] [cursor=pointer]:
+                      - /url: /elements
+            - navigation "Service" [ref=e70]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: Service
+                - list [ref=e74]:
+                  - listitem [ref=e75]:
+                    - link "GC DigitalBox" [ref=e76] [cursor=pointer]:
+                      - /url: /service/gc-digitalbox
+                  - listitem [ref=e77]:
+                    - link "GC FinanzBox" [ref=e78] [cursor=pointer]:
+                      - /url: /service/gc-finanzbox
+                  - listitem [ref=e79]:
+                    - link "Kunde werden" [ref=e80] [cursor=pointer]:
+                      - /url: /kunde-werden
+                  - listitem [ref=e81]:
+                    - link "Lieferant werden" [ref=e82] [cursor=pointer]:
+                      - /url: /lieferant-werden
+                  - listitem [ref=e83]:
+                    - link "PV-Service" [ref=e84] [cursor=pointer]:
+                      - /url: https://www.gc-gruppe.de/service/ziehen-sie-ihren-pv-joker
+            - navigation "Rechtliche Informationen" [ref=e85]:
+              - generic [ref=e87]:
+                - generic [ref=e88]: Rechtliche Hinweise
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - link "Hinweisgeberschutzgesetz" [ref=e91] [cursor=pointer]:
+                      - /url: /hinweisgeberschutzgesetz
+                  - listitem [ref=e92]:
+                    - link "Compliance" [ref=e93] [cursor=pointer]:
+                      - /url: /compliance
+                  - listitem [ref=e94]:
+                    - link "Impressum" [ref=e95] [cursor=pointer]:
+                      - /url: /impressum
+                  - listitem [ref=e96]:
+                    - link "Datenschutz" [ref=e97] [cursor=pointer]:
+                      - /url: /datenschutz
+                  - listitem [ref=e98]:
+                    - link "AGB" [ref=e99] [cursor=pointer]:
+                      - /url: /agb
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: Cordes & Graefe KG
+                - paragraph [ref=e104]:
+                  - text: 28816 Stuhr, An der Riede 1 +49 421 2029 0
+                  - link "info@gc-gruppe.de" [ref=e105] [cursor=pointer]:
+                    - /url: mailto:info@gc-gruppe.de
+              - generic [ref=e106]:
+                - generic [ref=e107]: Follow Us
+                - list [ref=e108]:
+                  - listitem [ref=e109]:
+                    - link "GC-GRUPPE auf youtube" [ref=e110] [cursor=pointer]:
+                      - /url: https://www.youtube.com/user/GCGRUPPE
+                  - listitem [ref=e114]:
+                    - link "GC-GRUPPE auf xing" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.xing.com/pages/cordes-graefe
+                  - listitem [ref=e119]:
+                    - link "GC-GRUPPE auf linkedin" [ref=e120] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/company/cordes-&-graefe/
+                  - listitem [ref=e126]:
+                    - link "GC-GRUPPE auf facebook" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.facebook.com/gcgruppe/
+            - navigation "Social Media"

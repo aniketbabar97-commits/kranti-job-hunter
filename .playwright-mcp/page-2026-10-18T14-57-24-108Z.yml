@@ -1,0 +1,189 @@
+- generic [ref=f49e6]:
+  - main [ref=f49e7]:
+    - generic [ref=f49e8]:
+      - navigation "Haupt" [ref=f49e10]:
+        - generic [ref=f49e11]:
+          - link "Zurück zu den Jobdetails" [ref=f49e13] [cursor=pointer]:
+            - /url: /de/job/backend-developer-onlineshop-und-dm-app-java-kotlin-w-m-d/270206/
+          - button "Kontakt aufnehmen" [ref=f49e21] [cursor=pointer]
+      - generic [ref=f49e27]:
+        - generic [ref=f49e28]:
+          - generic:
+            - link "Logo dmTECH, zurück zur Startseite dmTECH Logo":
+              - /url: /de/
+              - generic [ref=f49e29] [cursor=pointer]: Logo dmTECH, zurück zur Startseite
+              - img "dmTECH Logo"
+        - navigation "wizzard.aria_title" [ref=f49e31]:
+          - list [ref=f49e32]:
+            - listitem [ref=f49e33]:
+              - link "Persönliche Angaben" [ref=f49e34] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e35]: Persönliche Angaben
+            - listitem [ref=f49e37]:
+              - link "Fragen" [ref=f49e38] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e39]: Fragen
+            - listitem [ref=f49e41]:
+              - link "Dokumente" [ref=f49e42] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e43]: Dokumente
+            - listitem [ref=f49e45]:
+              - link "Zusammenfassung" [ref=f49e46] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e47]: Zusammenfassung
+        - group [ref=f49e49]:
+          - paragraph [ref=f49e51]: Details zu Deiner Bewerbung
+          - generic [ref=f49e55]:
+            - heading "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [level=1] [ref=f49e56]
+            - generic [ref=f49e57]:
+              - generic [ref=f49e58]:
+                - term [ref=f49e59]:
+                  - generic [ref=f49e60]: Ort der Stelle
+                - definition [ref=f49e64]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=f49e65]:
+                - term [ref=f49e66]:
+                  - generic [ref=f49e67]: Art der Stelle
+                - definition [ref=f49e72]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=f49e73]:
+                - term [ref=f49e74]:
+                  - generic [ref=f49e75]: Art der Stelle
+                - definition [ref=f49e79]: unbefristet
+              - generic [ref=f49e80]:
+                - term [ref=f49e81]:
+                  - generic [ref=f49e82]: vor Ort
+                - definition [ref=f49e87]: vor Ort
+              - generic [ref=f49e88]:
+                - term [ref=f49e89]:
+                  - generic [ref=f49e90]: Ort der Stelle
+                - definition [ref=f49e94]: "Job ID: 270206"
+        - generic [ref=f49e158]:
+          - generic [ref=f49e160]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Zur Datenschutzerklärung
+                  - generic: Zu Deinem Profil
+                  - generic: Go Back
+            - generic [ref=f49e163]:
+              - generic:
+                - group [ref=f49e237]:
+                  - heading "Bist Du aktuell bei dm beschäftigt?" [level=2] [ref=f49e239]
+                  - generic [ref=f49e245]:
+                    - generic [ref=f49e246]:
+                      - generic [ref=f49e247]: Bist Du aktuell bei dm beschäftigt? (Pflichtfeld)
+                      - generic [ref=f49e249]:
+                        - generic [ref=f49e250]:
+                          - radio "Nein" [checked] [ref=f49e251]
+                          - generic [ref=f49e252] [cursor=pointer]: Nein
+                        - generic [ref=f49e253]:
+                          - radio "Ich war bei dm beschäftigt" [ref=f49e254]
+                          - generic [ref=f49e255] [cursor=pointer]: Ich war bei dm beschäftigt
+                        - generic [ref=f49e256]:
+                          - radio "Ich bin bei dm beschäftigt" [ref=f49e257]
+                          - generic [ref=f49e258] [cursor=pointer]: Ich bin bei dm beschäftigt
+                    - generic [ref=f49e259]:
+                      - text: Wie bist Du auf uns aufmerksam geworden?
+                      - generic [ref=f49e261]:
+                        - generic [ref=f49e262]: Wie bist Du auf uns aufmerksam geworden?
+                        - combobox "Wie bist Du auf uns aufmerksam geworden? Wie bist Du auf uns aufmerksam geworden?" [ref=f49e265]:
+                          - option "Persönliche Empfehlung"
+                          - option "Im dm-Markt"
+                          - option "Messe/Veranstaltungen"
+                          - option "In der Uni"
+                          - option "In der Schule"
+                          - option "dm-jobs.de"
+                          - option "dmTECH.de"
+                          - option "dm.de"
+                          - option "dm-App"
+                          - option "Karriereportale"
+                          - option "Social Media (z.B. Facebook, Instagram)"
+                          - option "Business-Netzwerke (z.B. LinkedIn)"
+                          - option "Zeitungsanzeige"
+                          - option "Plakat/Broschüre"
+                          - option "Radiowerbung"
+                          - option "Sonstige"
+                    - group "Wann kannst Du bei uns starten?" [ref=f49e266]:
+                      - generic [ref=f49e269]:
+                        - generic [ref=f49e270]: Wann kannst Du bei uns starten?
+                        - textbox "Wann kannst Du bei uns starten?" [ref=f49e272]
+                    - group "Was ist Deine Gehaltsvorstellung?" [ref=f49e273]:
+                      - generic [ref=f49e275]:
+                        - generic [ref=f49e276]:
+                          - generic [ref=f49e277]: Gehaltsvorstellung (brutto)
+                          - spinbutton "Gehaltsvorstellung (brutto)" [ref=f49e279]
+                        - generic [ref=f49e281]:
+                          - generic [ref=f49e282]: Zeitraum
+                          - combobox "Zeitraum" [ref=f49e285]:
+                            - option "jährlich"
+                            - option "monatlich"
+                    - group "Wie möchtest Du Deine Arbeit gestalten?" [ref=f49e286]:
+                      - generic [ref=f49e288]:
+                        - generic [ref=f49e289]:
+                          - generic [ref=f49e290]: Gewünschte Tätigkeit
+                          - textbox "Gewünschte Tätigkeit" [ref=f49e292]:
+                            - /placeholder: ""
+                        - generic [ref=f49e293]:
+                          - generic [ref=f49e294]: Gewünschte Stundenzahl pro Woche
+                          - spinbutton "Gewünschte Stundenzahl pro Woche" [ref=f49e296]
+                      - generic [ref=f49e297]:
+                        - generic [ref=f49e298]:
+                          - generic [ref=f49e299]: Ort/PLZ gewünschter Standort
+                          - textbox "Ort/PLZ gewünschter Standort" [ref=f49e301]:
+                            - /placeholder: ""
+                        - generic [ref=f49e302]:
+                          - generic [ref=f49e303]: Umkreis in km
+                          - spinbutton "Umkreis in km" [ref=f49e305]
+                - group [ref=f49e307]:
+                  - heading "Fragen" [level=2] [ref=f49e309]
+                  - generic [ref=f49e317]:
+                    - generic [ref=f49e318]: Wir möchten gerne mehr über Dich erfahren. Bitte nimm Dir einen Moment Zeit und beantworte uns folgende Fragen.
+                    - generic [ref=f49e320]:
+                      - generic [ref=f49e321]: Unser Team arbeitet hybrid. Das bedeutet, dass Du Deine Aufgaben flexibel remote ausüben kannst, aber zwei bis dreimal pro Woche in Karlsruhe sein solltest. Wäre das für Dich vorstellbar?*
+                      - textbox "Freitext" [ref=f49e322]
+                - text: • • •
+                - generic [ref=f49e231]:
+                  - link "Zurück" [ref=f49e324] [cursor=pointer]:
+                    - /url: "#apply-page"
+                  - link "Weiter" [ref=f49e233] [cursor=pointer]:
+                    - /url: "#apply-page"
+            - generic: Zu Deinem Profil
+          - generic:
+            - generic "Login ungültig"
+  - contentinfo [ref=f49e96]:
+    - generic [ref=f49e97]:
+      - generic [ref=f49e98]: Fußzeile
+      - generic [ref=f49e100]:
+        - navigation "Social Media Links" [ref=f49e101]:
+          - list [ref=f49e102]:
+            - listitem [ref=f49e103]:
+              - link "Zum github-Profil vom dmTECH" [ref=f49e104] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f49e110]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f49e111] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f49e117]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f49e118] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f49e124]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f49e125] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f49e131]:
+          - list [ref=f49e133]:
+            - listitem [ref=f49e134]:
+              - button "DE" [ref=f49e135] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f49e143]:
+          - list [ref=f49e145]:
+            - listitem [ref=f49e146]:
+              - link "Kontakt" [ref=f49e147] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f49e148]:
+              - link "Impressum" [ref=f49e149] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f49e150]:
+              - link "Datenschutz" [ref=f49e151] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f49e152]:
+              - link "Information zur Barrierefreiheit" [ref=f49e153] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f49e154]:
+              - button "Cookie-Einstellungen" [ref=f49e155] [cursor=pointer]

@@ -1,0 +1,300 @@
+- generic [active] [ref=f116e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f116e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f116e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f116e8]:
+    - search [ref=f116e9]:
+      - generic [ref=f116e11]:
+        - link "Go to Google Home" [ref=f116e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQPHoECAYQBA
+        - generic [ref=f116e22]:
+          - combobox "Search" [ref=f116e24]: SEVERIN Elektrogeräte Senior IT Manager Digital Platforms Enterprise Applications Sundern Karriere SEVERIN Elektrogeräte Senior IT Manager Digital Platforms Enterprise Applications Sundern Karriere
+          - generic [ref=f116e25]:
+            - button "Clear" [ref=f116e29] [cursor=pointer]
+            - generic [ref=f116e34]:
+              - button "Search by voice" [ref=f116e37] [cursor=pointer]
+              - button "Search by image" [ref=f116e42] [cursor=pointer]
+    - generic [ref=f116e45]:
+      - button "Settings" [ref=f116e47] [cursor=pointer]
+      - button "Share" [ref=f116e52] [cursor=pointer]
+      - generic [ref=f116e58]:
+        - button "Google apps" [ref=f116e60] [cursor=pointer]
+        - link "Sign in" [ref=f116e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DSEVERIN%2BElektroger%25C3%25A4te%2BSenior%2BIT%2BManager%2BDigital%2BPlatforms%2BEnterprise%2BApplications%2BSundern%2BKarriere&ec=futura_srp_og_si_72236_p
+  - generic [ref=f116e67]:
+    - navigation [ref=f116e73]:
+      - generic [ref=f116e79]:
+        - list [ref=f116e80]:
+          - listitem [ref=f116e81]:
+            - link "AI Mode" [ref=f116e84] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ2J8OegQIERAD
+          - listitem [ref=f116e88]:
+            - link "All" [disabled] [ref=f116e89]
+          - listitem [ref=f116e92]:
+            - link "News" [ref=f116e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ0pQJegQIExAB
+          - listitem [ref=f116e96]:
+            - link "Forums" [ref=f116e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQs6gLegQIFBAB
+          - listitem [ref=f116e100]:
+            - link "Short videos" [ref=f116e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQs6gLegQIFRAB
+          - listitem [ref=f116e104]:
+            - link "Images" [ref=f116e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQtKgLegQIFxAB
+          - listitem [ref=f116e108]:
+            - link "Shopping" [ref=f116e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ1TwHD8s9sPQTh7mOMyMtyPlWBKyL7T28cmdoPfDw_N2bveMvj-GqKUiAR-mnhmcvW6C1a4a7S1med6ru-MS0iUcFooUYlnAMfHfGAns8Nr7iTSMNylzdYvZ5dakMB7LSSzs44JD97sCAiUGuc3P8J5f1fzuenqNcJgmABipnzzsN-v0Nw&q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&ved=1t:220175&ictx=111
+          - listitem [ref=f116e112]:
+            - button [ref=f116e113] [cursor=pointer]:
+              - generic "More filters" [ref=f116e114]: More
+        - button "Tools" [ref=f116e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f116e128]
+    - generic [ref=f116e133]:
+      - generic [ref=f116e152]:
+        - heading "Thinking" [level=2] [ref=f116e156]
+        - progressbar "Generating" [ref=f116e159]
+      - main [ref=f116e161]:
+        - generic [ref=f116e165]:
+          - generic [ref=f116e168]:
+            - heading "Webergebnisse" [level=2] [ref=f116e169]
+            - generic [ref=f116e170]:
+              - generic [ref=f116e173]:
+                - link "Severin sucht Senior IT Manager Digital Platforms & ... LinkedIn https://de.linkedin.com › jobs › view" [ref=f116e175] [cursor=pointer]:
+                  - /url: /goto?url=CAEStAEB6zswFWddiQYZmf6X_OD9CRnRWWU64EA2fTm7xum5afxIxNFnnTd7H_jFaHd31wmUoVpueZVpy2fo6TEbgfZ5VX7AbwCI2qRmRRlQ2ofTtRZB28rcPe5kqtD9mP49b0QDQaIy_rzcjxvLGOHVpO19PG28rq7r9q7z05VJaGs32YdS8fnqxB2JO31FxYL3BbDJ7q1NNjuPTusJ2s24iFIHioBdt9JSxDhtw4l2bk5gnOxppbI
+                  - heading "Severin sucht Senior IT Manager Digital Platforms & ..." [level=3] [ref=f116e176]
+                  - generic [ref=f116e182]:
+                    - generic [ref=f116e183]: LinkedIn
+                    - generic [ref=f116e185]: https://de.linkedin.com › jobs › view
+                - generic [ref=f116e187]:
+                  - generic [ref=f116e188]: ·
+                  - link "Translate this page" [ref=f116e189] [cursor=pointer]:
+                    - /url: /goto?url=CAES_gEB6zswFeg4zkteq_G48j8m42vOB_LB3FgIKBOxaUZk4Gyi2MkV8uMJhMAX0X6etb-ftsN8rmNseLn0QjOtEpYZgxOXEVG87P_qkkpgYMv8fzsTqN66t5x_JXf3n7f9oCX-vHgWVz_FaExO96nOpONufgFC6KC2AQar4tmNc0vay23MoG56T5SE1M4o6IAiEas-2a94tz2ILjz6YmC93E1D6vwoiZFRrTosI9cwGEsYCtulgrD4MYAuwFdxboSCezx0vzKCAXnhxiyXTN8D4teemKT5yCr_C72JU1J9W4956Fu7Yiegku4F5WBP1DXaWtDCPkybxb_Cl1njFtHO3Q
+                - button "About this result" [ref=f116e194] [cursor=pointer]
+              - generic [ref=f116e200]:
+                - generic [ref=f116e201]: 6 days ago —
+                - generic [ref=f116e202]:
+                  - emphasis [ref=f116e203]: Karrierestufe
+                  - text: ". Berufserfahren · Beschäftigungsverhältnis. Vollzeit · Branchen. Großhandel: Haushalts-,"
+                  - emphasis [ref=f116e204]: Elektro
+                  - text: "- und Elektronikgeräte."
+                - link "Read more" [ref=f116e205] [cursor=pointer]:
+                  - /url: /goto?url=CAES6QIB6zswFdAPZuE-xBrWctUmwik5eEmVXYXh6hWkcEfEFNRZ8J0eqEdIaDsjCkS4pt3mO2voXbQT3ftfWgNjF7zZ2QcJL5X_EuY-15HdYKtn3GVTBgOvMnBx0A8fjz1U4T6kiM2e1OjkC-I85Pg7-Gbu4W8cZQ-dcRjzE_CrHnsvXyLn-fzclbW4naUT8cfJJMeIuIYQqizQNTWfrrf8313gwrJrQ8Itmm2z-RcMj2c9uUTJ-UAcUHKghMBLYWdkml1PlmEBW0ioU0kT37ssED-AKtvrclVvKNlFaogn-LarbyUvlQqZQ3mAg1KW2Y9d2aZEoB2SZ-LUK-AYsYs6T60TXrj74Ym2lNEZFO4rkJrClLy75joOTpz01kwKzO-ZuY5ykGiR1Pw8ZEr6zXeYtce0wFuOyu2ulPx1_fG-YnxHmfbycuW2Dm4a9_4OO-upkuPvPHW9dlresf6Xi8siVLAUWXkN-0cuHbBy
+          - generic [ref=f116e209]:
+            - generic [ref=f116e212]:
+              - link "Senior IT Manager Digital Platforms & Enterprise Applications ... severin.com https://severin.com › vacancies › s..." [ref=f116e214] [cursor=pointer]:
+                - /url: /goto?url=CAESdQHrOzAVX5XQ5xo41URfYK5h8w1l7u8uqcTx0AJxVEjegkXyp7XZGkVK8A_AxVBbrQkYfdPOOIHD0s7ql62-B1TXZrPJ6ZytsON_7q760lk5tXPZ1P3xPbV51regvnbKBduBjN9EmivY9aIx70Oqw4cyEp6FCw
+                - heading "Senior IT Manager Digital Platforms & Enterprise Applications ..." [level=3] [ref=f116e215]
+                - generic [ref=f116e221]:
+                  - generic [ref=f116e222]: severin.com
+                  - generic [ref=f116e224]: https://severin.com › vacancies › s...
+              - generic [ref=f116e226]:
+                - generic [ref=f116e227]: ·
+                - link "Translate this page" [ref=f116e228] [cursor=pointer]:
+                  - /url: /goto?url=CAESvwEB6zswFdgVzo3ImuMCipWqETCsItsQYEAoHj_KnGdqbNzTtDsuieOtGS_n5WqNOzqzhGa6PCb27twQdK1APrgmz5RDeXnxQr4jv4d_Nuv_gwWmbHE5xhlDOFfF_FNK2BlDm_aFoWbIsemy6P18vfkP7ndaFCv0rVBavBmSh9ai4nyDRFZPaEPI1kFfmeQK0f-GoiqgCLusNlx2a5SU_XVOWFbcthbpSr12Oj4g-rgt1fM2BLQQB_QN99EbzOM0EQ
+              - button "About this result" [ref=f116e233] [cursor=pointer]
+            - generic [ref=f116e240]:
+              - text: Als
+              - emphasis [ref=f116e241]: Senior IT Manager Digital Platforms
+              - text: "&"
+              - emphasis [ref=f116e242]: Enterprise Applications
+              - text: übernimmst du eine zentrale Rolle für die Weiterentwicklung und den nachhaltigen Betrieb ...
+            - generic [ref=f116e244]:
+              - text: "Missing: Elektrogeräte ‎| Show results with:"
+              - link "Elektrogeräte" [ref=f116e245] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=SEVERIN+%22Elektroger%C3%A4te%22+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ5t4CegQINBAB
+          - generic [ref=f116e249]:
+            - generic [ref=f116e252]:
+              - link "Senior IT Manager Digital Platforms & Enterprise ... Indeed https://de.indeed.com › viewjob" [ref=f116e254] [cursor=pointer]:
+                - /url: /goto?url=CAESbAHrOzAVrqDcS9I61j78hJl_jke_pYP1RFb1y_t0UChP7VTt6fxj4isGp_IZwQyyz4AiTMuYLznkii0DZqRpx5O3Wot9SkKQsoeMZflVij2v8QslxEd1Thbz23-72RUcorbxCHQoxebx6n0jJA
+                - heading "Senior IT Manager Digital Platforms & Enterprise ..." [level=3] [ref=f116e255]
+                - generic [ref=f116e261]:
+                  - generic [ref=f116e262]: Indeed
+                  - generic [ref=f116e264]: https://de.indeed.com › viewjob
+              - button "About this result" [ref=f116e270] [cursor=pointer]
+            - generic [ref=f116e277]:
+              - emphasis [ref=f116e278]: Senior IT Manager Digital Platforms & Enterprise Applications
+              - text: "(m/w/d) SEVERIN Elektrogeräte GmbH. Sundern Pensum: Karriere-Guide-Artikel 11 IT-Unternehmen in ..."
+          - generic [ref=f116e282]:
+            - generic [ref=f116e285]:
+              - link "Senior IT Manager Digital Platforms & Enterprise ... JobLeads https://www.jobleads.com › job › senior-it-manager-dig..." [ref=f116e287] [cursor=pointer]:
+                - /url: /goto?url=CAESyQEB6zswFebLAsvXKu4PCARtSGjtv89QuRPl8vuTFTDw_o6uT4fo8IQIeOM1R3CseuGIlgEpRUa4ZVrX5c4VfS1DX1VtSfRo5bLIOSdZgoDTP2WJswJg6vdOfWikPSOyHLEPtj0frF5_nJt7IQQ_hEGS9ddCG0h75v9Q5eaG8EMmpbnSUHCPqillL-QeIfVKqVtBGylqWjMrUgzGDjcaBl6v4-UrsHifSrpJkY8han2-LZY9PMiOvc4RcTQa7ZncsBI0AJcQNtKpOWk
+                - heading "Senior IT Manager Digital Platforms & Enterprise ..." [level=3] [ref=f116e288]
+                - generic [ref=f116e294]:
+                  - generic [ref=f116e295]: JobLeads
+                  - generic [ref=f116e297]: https://www.jobleads.com › job › senior-it-manager-dig...
+              - button "About this result" [ref=f116e303] [cursor=pointer]
+            - generic [ref=f116e309]:
+              - generic [ref=f116e310]: 11 Oct 2026 —
+              - generic [ref=f116e311]:
+                - text: Hybrid EUR 90.000 - 130.000 Vollzeit . Sie verbinden
+                - emphasis [ref=f116e312]: Enterprise Applications
+                - text: ", Integration, digitale Plattformen und IT-Projektmanagement, ..."
+          - generic [ref=f116e316]:
+            - generic [ref=f116e319]:
+              - link "Senior IT Manager Digital Platforms & Enterprise ... StudySmarter https://talents.studysmarter.de › seni..." [ref=f116e321] [cursor=pointer]:
+                - /url: /goto?url=CAESyAEB6zswFc2qujB0vQ0UVe0A1SMKa977qCvS3ysItT9rRShziGqeDUMaufyo_nULuAuzp-cBM-u4HmOhfeC6At6MPIbH-F2jZtEjtmnXBdgsSbmz6nYVXewAlLBOyBn3yXnpR4DwbT94DpNCWo2bWj2uh9WKVMFIBuUixVVT4hqLEr_NA28hnAeutnUghZRRwupHcv4r4sHkIHNEQ-FR19zZWeQarfPkCu4Ee8AyJBIgSQCt0SCu8j_tSkajy1fjLgtpdIWKSPL2yA
+                - heading "Senior IT Manager Digital Platforms & Enterprise ..." [level=3] [ref=f116e322]
+                - generic [ref=f116e328]:
+                  - generic [ref=f116e329]: StudySmarter
+                  - generic [ref=f116e331]: https://talents.studysmarter.de › seni...
+              - generic [ref=f116e333]:
+                - generic [ref=f116e334]: ·
+                - link "Translate this page" [ref=f116e335] [cursor=pointer]:
+                  - /url: /goto?url=CAESkQIB6zswFc4sNcumxch8LOyyBx-u5Dpxbnhe1bFYbAUg1AsV5XAZzcMlK17O7kLfqAFR6DL1N_lrdvnryn8-NkmORc_UjCMqmcaiUJtkLxs-dW0BUT83jcqxB52XqfkCgiOZvqrbbV6iooCIRok_aaOdqGJua9uFCgee9IJLqQ_gL5GftujMM_GPeuNmxMrNGV_hq0n4Nkjn1FMYh9juis5nD1rxX_wAn_mduNYxhvVEOg2gYU4kVnoK71xg9o-PHLIQqp7Q3kP8knWrONP1uJbwFh1xSi4z9IbLfRgFwMbcUBrX2qmh6kAILdZuBlrdATPqSmjLEbErzFa5uUtzJ4mLYRplI5MmduZRwskN8Ygg2cI
+              - button "About this result" [ref=f116e340] [cursor=pointer]
+            - generic [ref=f116e346]:
+              - text: "Qualifikationen: Abgeschlossenes Studium in Informatik oder Wirtschaftsinformatik und mehrjährige IT-Erfahrung. Das prognostizierte Gehalt liegt zwischen 72000 ..."
+              - link "Read more" [ref=f116e347] [cursor=pointer]:
+                - /url: /goto?url=CAEStwIB6zswFQt1iKmbVijEoWcdsBnTda26xhO6pK_YIL1ehxiMSDpvOfj3XZYkr7xYoOWwf1fgEqs-BZZ35-z5BuX2bGuRPMmWz4SY5lheAZ55MzJipDYKMp5ulvWQvD7b6xeuas0lexGmQ877dDHZDwFBYXzpEM67pQWB4GnvnZrNBCmI7B7wFpu4Q9oj8bFwwYuwLa0axR0BS9HnjAbmboa3aXntWeTxN-edZ1sUbuDPNp0p1xGRzUkU1R5J0MBZrmV6tRLWg_aKfTB8NUeOaYNhvq9DGYEdeitagKqznnLBI8doglWunFh9G8dE_XrEa8GN6LUC8LkhEh-7RBuilz862fo3lzjT1E6EBTI4blZfjYm0RFdrBMShnDqmSgjdtlYM1mrEl69BlK1QErm7j8Zx6FN9Jx5gIA
+          - generic [ref=f116e351]:
+            - generic [ref=f116e354]:
+              - link "Karriere - Severin severin.com https://severin.com › de-de › karri..." [ref=f116e356] [cursor=pointer]:
+                - /url: /goto?url=CAESXgHrOzAVjtKUbGPGFk9Bui7EbRs6HjTX0CEOfZRZXBIeeM6EyWu7gqY70t0EReHbyZGDzIhiaiGSxpKSzA5QdrhKxaUN6DyrA9Cixk6_hjuWdH7225F-xziTDdVDy7Y
+                - heading "Karriere - Severin" [level=3] [ref=f116e357]
+                - generic [ref=f116e363]:
+                  - generic [ref=f116e364]: severin.com
+                  - generic [ref=f116e366]: https://severin.com › de-de › karri...
+              - generic [ref=f116e368]:
+                - generic [ref=f116e369]: ·
+                - link "Translate this page" [ref=f116e370] [cursor=pointer]:
+                  - /url: /goto?url=CAESpwEB6zswFTXyfZQ55Cu5_XdUJh6LbE058hxqRC8N2aO2jUjP4Fb-Oj92mYE76RL8an_ReNuL30jUI-4RMJPh-imJx_-JQe6lYWl4WAi3Dl_-UDUl-alCR8PLk1vdcbiK0BtSHSMJNjxlebbKRTjnKyNtT80owgPvvAWhgvxEZXjqozSh2kg6rdKBunuWkbLtJMWua9yycFWZQ5OWD1ru_vd6BFj3FLiMHQ
+              - button "About this result" [ref=f116e375] [cursor=pointer]
+            - generic [ref=f116e382]:
+              - text: Teams entdecken.
+              - emphasis [ref=f116e383]: Stellen Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d
+              - text: ") IT Standort: Sundern Vollzeit Berufserfahren"
+          - generic [ref=f116e387]:
+            - generic [ref=f116e390]:
+              - 'link "API Südwestfalen: Stellenangebote & Jobs Karriere Südwestfalen https://www.karriere-suedwestfalen.de › ..." [ref=f116e392] [cursor=pointer]':
+                - /url: /goto?url=CAESdAHrOzAVXrSBFpLoz1Xs160KqokZUKtdPEiHK_gixUUjHbpRMzuirjEMBtRH3eCxGaqOXgeSgQhQkAbIk_nJQi-mN1BNSLnOGnQ4WuTLfHllqlAVyb_dpZvkQMIm8_CvMqE5by9ajSw3NPPO99Pv2VpCfFVv
+                - 'heading "API Südwestfalen: Stellenangebote & Jobs" [level=3] [ref=f116e393]'
+                - generic [ref=f116e399]:
+                  - generic [ref=f116e400]: Karriere Südwestfalen
+                  - generic [ref=f116e402]: https://www.karriere-suedwestfalen.de › ...
+              - generic [ref=f116e404]:
+                - generic [ref=f116e405]: ·
+                - link "Translate this page" [ref=f116e406] [cursor=pointer]:
+                  - /url: /goto?url=CAESvgEB6zswFauiMVlB_HePSeN2QSJ_zW6NKX1_Ew8fFqQt8L_NnQ6FmZm4HOGAX8riCTssqBxmxkRQDJWHakIQduCoBs_Pb9l2RcHBSJQapq95zv_AQk86_1lpUVacb4prCnjjfaEY5wwioz1kBq8PDBODIRVbkOY8v2ZZnzyv7vKOVbToq3NIxRq9NJFYCT3KG8nNNkXq0jS34x_W1Vmf9JUozqOOShjSW-PvO8s-9Y4AkgRRH8My7kGY3BywJMGu
+              - button "About this result" [ref=f116e411] [cursor=pointer]
+            - generic [ref=f116e417]:
+              - generic [ref=f116e418]:
+                - emphasis [ref=f116e419]: Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d
+                - text: ) · SEVERIN Elektrogeräte GmbH 59846 Sundern. 1 Stellenangebot ab sofort. Vollzeit.
+              - link "Read more" [ref=f116e420] [cursor=pointer]:
+                - /url: /goto?url=CAEStAEB6zswFQz77lYV20wmA4FqNWM-K5tZ2qAYpTnBNAy3XcfeV7UTI5Ud5g_1DJ6k1vHN6Ff25CX0J2gJ8pJKxYTfq6nidFBkO_rLSzNmnKaknfUoo1ps7hFhYLaUKHtmPnAWYdmmy2ojetn5ghScGRJZ5H7N381UE9M1TB9g3U6Hqx8UUkJE3jlmPKmGHnQxbFVlzsvkVCD8wfGxBlxkX0IYngRxPV7RKmKN5hZJSEnckWrj7b4
+          - generic [ref=f116e424]:
+            - generic [ref=f116e427]:
+              - 'link "severin Metropole Ruhr: Stellenangebote & Jobs Karriere Metropole Ruhr https://www.karriere-metropole-ruhr.de › ..." [ref=f116e429] [cursor=pointer]':
+                - /url: /goto?url=CAESeQHrOzAVc-mX-xNBOrXnYdgRpzKrX-n5T-eWM1qN8DG9uBUYbmnE4PFnilTL1hyhT689oKbZjG1tkL4Mdw770qUb9ycazJwuFgmQo34RyXnRp-J9vlakfPn7doP8QUos1am72EtAbfDJ-3sqEm0wlIl-4vJu97uC_Kc
+                - 'heading "severin Metropole Ruhr: Stellenangebote & Jobs" [level=3] [ref=f116e430]'
+                - generic [ref=f116e436]:
+                  - generic [ref=f116e437]: Karriere Metropole Ruhr
+                  - generic [ref=f116e439]: https://www.karriere-metropole-ruhr.de › ...
+              - generic [ref=f116e441]:
+                - generic [ref=f116e442]: ·
+                - link "Translate this page" [ref=f116e443] [cursor=pointer]:
+                  - /url: /goto?url=CAESwwEB6zswFQGEZJbTPM0JE98ZJG2CLZXxcrEzOvTBz2BQ_LuznIFG44rbQZNJSTuqUOW8B1-P6t9lbAFdL8_wKryT0Z0PHZ6HHTBfZ7AxCnhD25RYb_gfNhuk-Xq95MinxrtYVK4PI51uTU5TLs6WCqA-X-bYGgCwlq4VxU5Y_WqDqkVzafhgxsJxAf6Lr7qW1jsDmVZv_X8mY2rCT7XOF8oIfJRoqyx-Xc1DloToeu8Zf6LB-JANhbg1ZBGrk9tyGcTGBuo
+              - button "About this result" [ref=f116e448] [cursor=pointer]
+            - generic [ref=f116e454]:
+              - generic [ref=f116e455]:
+                - emphasis [ref=f116e456]: Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d
+                - text: ) · SEVERIN Elektrogeräte GmbH 59846 Sundern. 1 Stellenangebot ab sofort. Vollzeit. 1 ...
+              - link "Read more" [ref=f116e457] [cursor=pointer]:
+                - /url: /goto?url=CAESuQEB6zswFUAfdhTJVCMZY0ZE81UfpJGafCwCv8BHDyHt4KaRDyuvKVSXeJ-dZS-qz7RpOrdve5enZQTilWtKjLfd5bUBhwwNu1PcA3UOITqLGkjLE_mjzRyaUPUT7_NfmX6zm3pQTmH-liBuhWIF1xFyPz4Gxq1wCy2loT_tWx2dGCEIFIbgN4-MlcNDu04SIr8GXOQp7Ehiyz7Ft75a5KAlg9Zhy6fZsJN424oB1tsu3DyO_0BStARqEA
+          - generic [ref=f116e461]:
+            - generic [ref=f116e464]:
+              - link "Electronics Technician... at Severin Elektro - Jobs GoAusbildung https://goausbildung.com › ... › Severin Elektro" [ref=f116e466] [cursor=pointer]:
+                - /url: /goto?url=CAESnAIB6zswFWmcQfShXGnujK_Vz2HsrLQnDBYUs3fSx385SofY0dwmNVS-GvyeYMT9kcAxWl5XyniOZX3nLRo071F7xrR0cwUK9h-PHsLzFlsnrxVPsCdhUWoExFNwrs-1VJWsZlbpDx9ChUs6Tzvq8q9pn8nUER2eHVFmMhcLqzj_oM0oSdTXZbdpYNw_BMaxxuLrGYQhBNlKmvzgN5_jTogvBA0Ez0rIeD8N7qqIVKKCBhSorb3yK4Ud0aNNzYJOtf0X_tW1x-QAiaN9YRIIE8C_KulURCMvc6-KD7pgQadqvXua9Np9UtgUoOVQvq5x_q-dS2NQeq_2eCmWSDSVsU8cUdhZyxO--opgGqk1WOabHSOfKmiQwlZAvsovNA
+                - heading "Electronics Technician... at Severin Elektro - Jobs" [level=3] [ref=f116e467]
+                - generic [ref=f116e473]:
+                  - generic [ref=f116e474]: GoAusbildung
+                  - generic [ref=f116e476]: https://goausbildung.com › ... › Severin Elektro
+              - button "About this result" [ref=f116e482] [cursor=pointer]
+            - generic [ref=f116e488]:
+              - generic [ref=f116e489]:
+                - text: Severin is seeking a skilled professional for its maintenance team in Sundern ...
+                - emphasis [ref=f116e490]: Senior IT Manager Digital Platforms & Enterprise Applications
+                - text: (m/f/d). at ...
+              - link "Read more" [ref=f116e491] [cursor=pointer]:
+                - /url: /goto?url=CAESrQMB6zswFYcMv2OiS_yKRU_28AdhAytXC4gJGHbvWeWfQl161YlGYHaonFcJ_PBdeZPcaEVUdD2A6SD_3Nc-EdFYpy739fJrRSTUwP3MHUQkL04yssCoF8KcGJm19DAJMItk0jgjxv9h43tEtSCV95Uy5GW_fvtLRmiOhKcKVqctdIr1i7zALH5hSxSv5I94q_Qu52aphKSfVb2mJb-rlfDEfMPSjrRv8sNho3kIT08gu534f57Xmrh_ITXHFCuZxfPYgJl6DRDxUMOSYMwo_fLytckDe48KqtFcy_g-HcPsM2_ehyr1S6pYSSuQvh5IqRW8SVB3hOHl5O5_22viNl8U-QJv2iUKIVgiBS4EyJD8OB4aBie1AzFxHR7lFINRduWgDSElGZetqwgbapOS-1n98MCMXiGO5y31LHr2k2XFyVXqsPdnaDfzbEx9vADEL0BduNyISvgOxNWkwoWHNYaFWM6o8LS1LNhJWZ8v2xZmtZaqls7pEJNQKdf0b-PYDcwZ9_h0vLNPF42xgLQzkVWTuYPqylQ0Osfyw0zrLzc4AzVKLi2j85z1mNqnP1A
+        - generic [ref=f116e493]:
+          - generic [ref=f116e498]:
+            - heading "People also search for" [level=2] [ref=f116e500]
+            - generic [ref=f116e502]:
+              - generic [ref=f116e503]:
+                - link "Severin holding gmbh & co kg" [ref=f116e507] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+holding+gmbh+%26+co+kg&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAg8EAE
+                - link "Jobs Lichtbranche" [ref=f116e521] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Jobs+Lichtbranche&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAhCEAE
+                - link "Severin presse" [ref=f116e535] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+presse&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAhAEAE
+                - link "Firmen Sundern" [ref=f116e549] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Firmen+Sundern&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAg-EAE
+              - generic [ref=f116e560]:
+                - link "Severin bohrhilfe rh 9072" [ref=f116e564] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+bohrhilfe+rh+9072&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAg7EAE
+                - link "Severin Ersatzteile Kaffeemaschine" [ref=f116e578] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+Ersatzteile+Kaffeemaschine&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAg_EAE
+                - link "Severin login" [ref=f116e592] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+login&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAhBEAE
+                - link "Severin Eierkocher Ersatzteile" [ref=f116e606] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&q=Severin+Eierkocher+Ersatzteile&sa=X&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ1QJ6BAg9EAE
+          - navigation [ref=f116e617]:
+            - heading "Page navigation" [level=1] [ref=f116e618]
+            - text: "1"
+            - link "Page 2" [ref=f116e621] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=10&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAE
+              - text: "2"
+            - link "Page 3" [ref=f116e623] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=20&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAG
+              - text: "3"
+            - link "Page 4" [ref=f116e625] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=30&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAI
+              - text: "4"
+            - link "Page 5" [ref=f116e627] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=40&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAK
+              - text: "5"
+            - link "Page 6" [ref=f116e629] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=50&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAM
+              - text: "6"
+            - link "Page 7" [ref=f116e631] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=60&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAO
+              - text: "7"
+            - link "Page 8" [ref=f116e633] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=70&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAQ
+              - text: "8"
+            - link "Page 9" [ref=f116e635] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=80&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAS
+              - text: "9"
+            - link "Page 10" [ref=f116e637] [cursor=pointer]:
+              - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=90&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8tMDegQINRAU
+              - text: "10"
+            - heading [level=2] [ref=f116e639]:
+              - link "Next" [ref=f116e640] [cursor=pointer]:
+                - /url: /search?q=SEVERIN+Elektroger%C3%A4te+Senior+IT+Manager+Digital+Platforms+Enterprise+Applications+Sundern+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntDqHw69VXGge1pGPFkUJyZ27KuhA:1792899710007&ei=fnrdasYD8rLj4Q_Yi5SZCg&start=10&sa=N&sstk=AS6-VmLR0ZZVN2lWl5FQcLrHZ6JP80QNy5xGFgYQMvql73M-xRtncNcwYJFxtm4e7trm6ZuBjvGdCIcwgvuY3NdcoacsDSfyd1-IGw&ved=2ahUKEwjGutTyn9SXAxVy2TgGHdgFJaMQ8NMDegQINRAW
+        - navigation
+    - contentinfo [ref=f116e643]:
+      - heading "Footer links" [level=1] [ref=f116e644]
+      - generic [ref=f116e648]:
+        - generic [ref=f116e650]:
+          - text: India
+          - generic [ref=f116e652]:
+            - button "Doddathoguru, Electronic City, Doddathoguru, Karnataka - Based on your past activity" [ref=f116e654] [cursor=pointer]:
+              - generic [ref=f116e655]: Doddathoguru, Electronic City, Doddathoguru, Karnataka
+              - generic [ref=f116e657]:
+                - text: "-"
+                - generic [ref=f116e658]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f116e660] [cursor=pointer]
+        - generic [ref=f116e663]:
+          - link "Help" [ref=f116e664] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f116e665] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f116e666] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f116e667] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

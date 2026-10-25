@@ -1,0 +1,232 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - banner:
+      - generic [ref=e7]:
+        - button "Menü" [ref=e8] [cursor=pointer]
+        - navigation "Schnell" [ref=e13]:
+          - list [ref=e290]:
+            - listitem [ref=e291]:
+              - link "Jobs" [ref=e292] [cursor=pointer]:
+                - /url: /de/job-listing/
+            - listitem [ref=e300]:
+              - button "Bewerberprofil" [ref=e301] [cursor=pointer]
+            - listitem [ref=e308]:
+              - link "Favoriten" [ref=e309] [cursor=pointer]:
+                - /url: /de/favourites/
+    - main [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e17]:
+          - navigation "Job Schnell-" [ref=e23]:
+            - link "Zurück zur Jobübersicht" [ref=e25] [cursor=pointer]:
+              - /url: /de/job-listing/
+            - button "Job favorisieren" [ref=e365] [cursor=pointer]
+          - link "Logo dmTECH, zurück zur Startseite dmTECH Logo" [ref=e33] [cursor=pointer]:
+            - /url: /de/
+            - generic [ref=e34]: Logo dmTECH, zurück zur Startseite
+            - img "dmTECH Logo" [ref=e35]
+          - generic [ref=e37]:
+            - heading "IT Consultant dm-App, Onlineshop und Gesundheitsdienstleistungen (w/m/d)" [level=1] [ref=e39]
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]:
+                  - term [ref=e43]:
+                    - generic [ref=e44]: Ort der Stelle
+                  - definition [ref=e48]: Am dm-Platz 1 76227 Karlsruhe
+                - generic [ref=e49]:
+                  - term [ref=e50]:
+                    - generic [ref=e51]: Art der Stelle
+                  - definition [ref=e56]: Vollzeit 37,5 Std./Wo., ab sofort
+                - generic [ref=e57]:
+                  - term [ref=e58]:
+                    - generic [ref=e59]: Art der Stelle
+                  - definition [ref=e63]: unbefristet
+                - generic [ref=e64]:
+                  - term [ref=e65]:
+                    - generic [ref=e66]: vor Ort
+                  - definition [ref=e71]: vor Ort
+              - button "Direkt bewerben bei IT Consultant dm-App, Onlineshop und Gesundheitsdienstleistungen (w/m/d)" [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: Jetzt bewerben
+        - generic [ref=e78]:
+          - generic [ref=e80]:
+            - heading "Job Details" [level=2] [ref=e81]
+            - paragraph [ref=e84]: Für monatlich 7 Millionen Kunden, die unsere digitalen Touchpoints nutzen, tragen wir mit unseren digitalen Services maßgeblich zu einem modernen dm-Einkaufserlebnis bei. Mit rund 100 Millionen Sessions pro Monat und über 4.000 Filialen gestalten wir das Omnichannel-Shopping von morgen.Im Bereich Digital Commerce Experience verantworten wir die App, den Onlineshop und die Homepages von dm-drogerie markt in Deutschland sowie in weiteren dm-Ländern. In interdisziplinären, agilen Produktteams arbeiten wir eng zusammen, um unseren Kunden bestmögliche Einkaufserlebnisse zu bieten.Für die Weiterentwicklung unserer dm-App und des Onlineshops suchen wir einen IT-Consultant an der Schnittstelle zwischen Business und Technologie. Dazu gehört auch die digitale Einbindung von Gesundheitsdienstleistungen, die unsere Partner in ausgewählten dm-Märkten und online anbieten.Du begeisterst Dich für digitale Gesundheitsangebote und E-Commerce? Du willst spannende IT-Projekte voranbringen und herausfinden, welche Lösungen unseren Kundinnen und Kunden wirklich weiterhelfen? Dann freuen wir uns auf Deine Bewerbung!
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - list
+                  - generic [ref=e92]: Slide 1 von 0
+          - generic [ref=e96]:
+            - list [ref=e316]:
+              - listitem [ref=e317]:
+                - figure [ref=e318]
+            - generic [ref=e102]: Slide 1 von 1
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - heading "Deine Aufgaben" [level=2] [ref=e107]
+              - list [ref=e109]:
+                - listitem [ref=e110]: Initiierung, Planung und Durchführung von übergreifenden IT-Projekten im Kontext der dm-App und des dm-Onlineshops, einschließlich Projektkommunikation, Stakeholder-Management und Steuerung externer Partner
+                - listitem [ref=e111]: Analyse von Kundenbedürfnissen sowie von fachlichen, technischen und organisatorischen Anforderungen und Konzeption passender Lösungen und Prozesse
+                - listitem [ref=e112]: Priorisierung und Steuerung der Umsetzung – von der Anforderung über die Einführung bis zur Überprüfung des erzielten Nutzens
+                - listitem [ref=e113]: Weiterentwicklung der Themen über das einzelne Projekt hinaus – in Zusammenarbeit mit Produktteams und enger Abstimmung mit den Fachbereichen
+            - generic [ref=e115]:
+              - heading "Das bringst Du mit" [level=2] [ref=e116]
+              - list [ref=e118]:
+                - listitem [ref=e119]: Nachgewiesene Erfahrung als Product Owner oder Projektleiter sowie in der Zusammenarbeit mit Consultants, Entwicklern und internen Stakeholdern
+                - listitem [ref=e120]: Erfahrung in der Konzeption und Umsetzung von Web- und/oder App-Lösungen, bevorzugt im Umfeld digitaler Gesundheitsdienstleistungen
+                - listitem [ref=e121]: Technisches Verständnis, um Anforderungen einzuordnen und mit Entwicklern und technischen Stakeholdern auf Augenhöhe zu arbeiten
+                - listitem [ref=e122]: Praktische Erfahrung in der Anwendung agiler Methoden sowie Interesse an E-Commerce und an digitalen Kundenerlebnissen – online wie im dm-Markt
+                - listitem [ref=e123]: Die Fähigkeit, Themen kreativ zu gestalten, klar zu strukturieren und eigenverantwortlich voranzutreiben
+                - listitem [ref=e124]: Ausgeprägte Teamfähigkeit, Kommunikationsstärke und Englischkenntnisse (mindestens C1) für die internationale Zusammenarbeit
+            - generic [ref=e126]:
+              - heading "Das bieten wir Dir" [level=2] [ref=e127]
+              - list [ref=e129]:
+                - listitem [ref=e130]:
+                  - strong [ref=e131]: "Dialogische Unternehmenskultur:"
+                  - text: Individuelle Stärken und Ideen unserer Mitarbeitenden sind das Fundament für die (Weiter-)Entwicklung unserer IT-Produkte. Dabei gehen wir offen mit neuen Technologien um, testen und nutzen dabei aktiv unsere Entscheidungsspielräume für ein optimales Ergebnis.
+                - listitem [ref=e132]:
+                  - strong [ref=e133]: "Gesundheit & Vorsorge:"
+                  - text: "Für Deine Vorsorge bieten wir unterschiedliche Zusatzleistungen für individuelle Bedürfnisse an: von einem Zuschuss zu Deiner betrieblichen Altersvorsorge, einer attraktiven Berufsunfähigkeitsversicherung über Angebote für Deine physische und psychische Gesundheit bis hin zu Kooperationen mit Krankenkassen oder Fitness-Studios und hausinternen Kursen für Dein Wohlbefinden. Ein betriebliches Sozialmanagement rundet das Angebot ab."
+                - listitem [ref=e134]:
+                  - strong [ref=e135]: "Lernen bei dmTECH:"
+                  - text: Die digitale dm-Lernwelt bietet Dir zeit- und ortsunabhängig über 250 Seminare und Workshops – vom Projektmanagement bis hin zu fachlichen Weiterbildungen. Du hast Zugang zur Lernplattform Udemy mit ihrem breit gefächerten Kursangebot und kannst zusätzlich an externen Events und Weiterbildungen teilnehmen.
+                - listitem [ref=e136]:
+                  - strong [ref=e137]: "Für eine ausgewogene Work-Life-Balance:"
+                  - text: flexible Arbeitszeiten, mobiles Arbeiten, 37,5-Stunden-Woche und 30 Urlaubstage. Bei einer „Workation“ kannst Du sogar Urlaub und Arbeit verbinden.
+                - listitem [ref=e138]:
+                  - strong [ref=e139]: "Arbeitsatmosphäre:"
+                  - text: Unsere Räume im „dialogicum" sind hell, großzügig und modern. Die neueste Technik und ergonomisches Mobiliar erleichtern Dir Deine Aufgaben. Im „culinarium" bieten wir Dir täglich frische Mahlzeiten, gesunde Snacks und süße Kleinigkeiten zum fairen Preis.
+                - listitem [ref=e140]:
+                  - strong [ref=e141]: "Zusatzleistungen:"
+                  - text: Den Erfolg unserer Arbeitsgemeinschaft geben wir gern an Dich zurück – mit Zulagen wie Urlaubs- und Weihnachtsgeld, mit Sonderzahlungen und Warengutscheinen. Du bekommst außerdem 10 % Mitarbeiterrabatt in allen deutschen dm-Märkten und profitierst in vielen Onlineshops von exklusiven Angeboten für dm-Mitarbeitende. Darüber hinaus kannst Du zweimal jährlich aktuelle Smartphones, Tablets oder Laptops für Deinen Privatgebrauch preiswert leasen.
+                - listitem [ref=e142]:
+                  - strong [ref=e143]: "Mobilität:"
+                  - text: Mit einem Zuschuss für das "Deutschlandticket Job" bist Du günstig unterwegs. Wenn Du lieber Fahrrad fährst, kannst Du auch das JobRad® nutzen. Auf unserem Gelände gibt es genügend Parkplätze, E-Ladestationen und eine Fahrradgarage. Eine S-Bahn-Station und der Anschluss zur Autobahn liegen in direkter Nähe.
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Das klingt nach einem Job für Dich? Dann freuen wir uns auf Deine Bewerbung." [level=2] [ref=e147]
+              - text: Bitte nenne uns in Deiner Bewerbung Deine Gehaltsvorstellung und Dein mögliches Eintrittsdatum.
+            - generic [ref=e148]:
+              - button "Direkt bewerben bei IT Consultant dm-App, Onlineshop und Gesundheitsdienstleistungen (w/m/d)" [ref=e149] [cursor=pointer]:
+                - generic [ref=e150]: Direkt online bewerben
+              - button [ref=e370] [cursor=pointer]:
+                - button "Job favorisieren" [ref=e371]
+            - paragraph [ref=e153]: Aus Gründen der leichteren Lesbarkeit haben wir uns für die männliche Schreibweise entschieden. Die abgebildeten Inhalte richten sich aber zugleich an alle Geschlechter. Mit dieser Schreibweise wollen wir niemanden ausschließen, denn bei uns ist jede Person gleichermaßen willkommen und prägt unsere Arbeitsgemeinschaft mit ihrer Individualität.
+          - generic [ref=e155]:
+            - heading "Du hast Fragen zur Stellenausschreibung?" [level=2] [ref=e156]
+            - generic [ref=e158]:
+              - list [ref=e320]:
+                - listitem [ref=e321]:
+                  - generic [ref=e322]:
+                    - generic [ref=e324]:
+                      - img "dmTECH IT-Recruiterin Jennifer Halbig" [ref=e326]
+                      - link "Zum LinkedIn-Profil von Jennifer Halbig" [ref=e327] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/jennifer-halbig-926904196/
+                    - generic [ref=e333]:
+                      - heading "Jennifer Halbig" [level=3] [ref=e335]
+                      - generic [ref=e336]: Beantwortet Dir gerne alle Fragen zu unseren offenen Stellen für (Young) Professionals
+                      - link "Jennifer Halbig anrufen unter +49 (721) 5592-5969" [ref=e338] [cursor=pointer]:
+                        - /url: tel:+49(721)5592-5969
+                        - text: +49 (721) 5592-5969
+              - generic [ref=e169]: Slide 1 von 1
+          - link [ref=e172] [cursor=pointer]:
+            - /url: https://kununu.com/de/dmtech?utm_medium=affiliate&utm_source=widget&utm_content=widget_icon_score_logo_small&rfr=affiliate_widget
+            - img "dmTECH bewertet mit 4,3 von 5 Sternen auf Kununu" [ref=e173]
+    - contentinfo [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: Fußzeile
+        - generic [ref=e181]:
+          - generic [ref=e182]:
+            - img "dmTECH Logo" [ref=e183]
+            - generic [ref=e184]: 2026 © dmTECH GmbH
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - generic [ref=e187]: dmTECH
+              - navigation "dmTECH" [ref=e188]:
+                - list [ref=e189]:
+                  - listitem [ref=e190]:
+                    - link "Über uns" [ref=e191] [cursor=pointer]:
+                      - /url: /de/ueber-uns/
+                  - listitem [ref=e192]:
+                    - link "Unsere Kultur" [ref=e193] [cursor=pointer]:
+                      - /url: /de/ueber-uns/unternehmenskultur/
+                  - listitem [ref=e194]:
+                    - link "Blog" [ref=e195] [cursor=pointer]:
+                      - /url: /de/insights-stories/
+                  - listitem [ref=e196]:
+                    - link "Events" [ref=e197] [cursor=pointer]:
+                      - /url: /de/events-meetups/events/
+            - generic [ref=e198]:
+              - generic [ref=e199]: Dein Einstieg
+              - navigation "Dein Einstieg" [ref=e200]:
+                - list [ref=e201]:
+                  - listitem [ref=e202]:
+                    - link "Ausbildung" [ref=e203] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/ausbildung/
+                  - listitem [ref=e204]:
+                    - link "Duales Studium" [ref=e205] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/duales-studium/
+                  - listitem [ref=e206]:
+                    - link "Werkstudium & Praktikum" [ref=e207] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/praktikum-werkstudium/
+                  - listitem [ref=e208]:
+                    - link "StudiumPLUS" [ref=e209] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/studiumplus/
+                  - listitem [ref=e210]:
+                    - link "(Young) Professionals/Berufseinsteiger & Berufserfahrene" [ref=e211] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/young-professionals/
+                  - listitem [ref=e212]:
+                    - link "Schulkooperationen & Schülerpraktikum" [ref=e213] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/schulkooperationen-schuelerpraktikum/
+            - generic [ref=e214]:
+              - generic [ref=e215]: Bewerben
+              - navigation "Bewerben" [ref=e216]:
+                - list [ref=e217]:
+                  - listitem [ref=e218]:
+                    - link "Offene Stellen" [ref=e219] [cursor=pointer]:
+                      - /url: /de/job-listing/
+                  - listitem [ref=e220]:
+                    - link "Dein Bewerberprofil" [ref=e221] [cursor=pointer]:
+                      - /url: /de/profile
+                  - listitem [ref=e222]:
+                    - link "Bewerbungstipps" [ref=e223] [cursor=pointer]:
+                      - /url: /de/bewerbungstipps/
+        - generic [ref=e225]:
+          - navigation "Social Media Links" [ref=e226]:
+            - list [ref=e227]:
+              - listitem [ref=e228]:
+                - link "Zum github-Profil vom dmTECH" [ref=e229] [cursor=pointer]:
+                  - /url: https://github.com/dm-drogeriemarkt
+              - listitem [ref=e235]:
+                - link "Zum linkedin-Profil vom dmTECH" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/dmtech-gmbh/
+              - listitem [ref=e242]:
+                - link "Zum instagram-Profil vom dmTECH" [ref=e243] [cursor=pointer]:
+                  - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+              - listitem [ref=e249]:
+                - link "Zum youtube-Profil vom dmTECH" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+          - navigation "Spracheinstellungen" [ref=e256]:
+            - list [ref=e258]:
+              - listitem [ref=e259]:
+                - button "DE" [ref=e260] [cursor=pointer]
+          - navigation "Rechtliches" [ref=e268]:
+            - list [ref=e270]:
+              - listitem [ref=e271]:
+                - link "Kontakt" [ref=e272] [cursor=pointer]:
+                  - /url: /de/kontakt/
+              - listitem [ref=e273]:
+                - link "Impressum" [ref=e274] [cursor=pointer]:
+                  - /url: /de/impressum/
+              - listitem [ref=e275]:
+                - link "Datenschutz" [ref=e276] [cursor=pointer]:
+                  - /url: /de/datenschutzerklaerung/
+              - listitem [ref=e277]:
+                - link "Information zur Barrierefreiheit" [ref=e278] [cursor=pointer]:
+                  - /url: /de/barrierefreiheitserklaerung/
+              - listitem [ref=e279]:
+                - button "Cookie-Einstellungen" [ref=e280] [cursor=pointer]
+          - link "Nach oben scrollen" [ref=e284] [cursor=pointer]:
+            - /url: "#main"
+  - complementary

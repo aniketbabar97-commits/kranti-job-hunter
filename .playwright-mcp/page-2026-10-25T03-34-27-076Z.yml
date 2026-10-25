@@ -1,0 +1,394 @@
+- generic [active] [ref=f7e1]:
+  - navigation [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - link [ref=f7e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f7e56]:
+        - generic [ref=f7e57]:
+          - list [ref=f7e59]:
+            - listitem [ref=f7e60]:
+              - link "Service" [ref=f7e61] [cursor=pointer]:
+                - /url: /service
+            - listitem [ref=f7e62]:
+              - link "Jobs" [ref=f7e63] [cursor=pointer]:
+                - /url: https://karriere.quellwerke.de
+            - listitem [ref=f7e64]:
+              - link "Über uns" [ref=f7e65] [cursor=pointer]:
+                - /url: /ueber-uns
+            - listitem [ref=f7e66]:
+              - link "News" [ref=f7e67] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=f7e68]:
+              - link "Referenzen" [ref=f7e69] [cursor=pointer]:
+                - /url: /referenzen
+            - listitem [ref=f7e70]:
+              - link "Kontakt" [ref=f7e71] [cursor=pointer]:
+                - /url: /kontakt
+          - list [ref=f7e73]:
+            - listitem [ref=f7e74]:
+              - link [ref=f7e75] [cursor=pointer]:
+                - /url: /digitalisierung
+                - img "Digitalisierung" [ref=f7e76]
+                - text: Digitalisierung
+            - listitem [ref=f7e77]:
+              - link [ref=f7e78] [cursor=pointer]:
+                - /url: /responsive-webdesign
+                - img "Responsive Webdesign" [ref=f7e79]
+                - text: Responsive Webdesign
+            - listitem [ref=f7e80]:
+              - link [ref=f7e81] [cursor=pointer]:
+                - /url: /webentwicklung
+                - img "Webentwicklung" [ref=f7e82]
+                - text: Webentwicklung
+            - listitem [ref=f7e83]:
+              - link [ref=f7e84] [cursor=pointer]:
+                - /url: /mobile-app-entwicklung
+                - img "Mobile App Entwicklung" [ref=f7e85]
+                - text: Mobile App Entwicklung
+        - generic [ref=f7e86]:
+          - link [ref=f7e87] [cursor=pointer]:
+            - /url: /projektanfrage
+            - generic "Projekt anfragen" [ref=f7e89]
+          - generic "Suche" [ref=f7e97] [cursor=pointer]
+  - banner [ref=f7e100]:
+    - generic [ref=f7e104]:
+      - heading "Ihre Quelle für Online Projekte" [level=1] [ref=f7e105]
+      - paragraph [ref=f7e106]: Quellwerke – Ihre Digitalagentur aus Eberbach
+  - generic [ref=f7e109]:
+    - generic [ref=f7e110]:
+      - heading "Jetzt eintauchen" [level=3] [ref=f7e112]: Jetzteintauchen
+      - link "ionicons-v5-a" [ref=f7e114] [cursor=pointer]:
+        - /url: "#c4782"
+        - img "ionicons-v5-a" [ref=f7e115]
+    - generic [ref=f7e121]:
+      - separator [ref=f7e123]
+      - generic [ref=f7e124]:
+        - generic [ref=f7e126]:
+          - figure [ref=f7e135]
+          - heading "PIMCORE Platinum Partner" [level=3] [ref=f7e140]
+        - generic [ref=f7e143]:
+          - figure [ref=f7e152]
+          - heading "TYPO3 Silver Member" [level=3] [ref=f7e157]
+      - separator [ref=f7e160]
+  - generic [ref=f7e162]:
+    - generic [ref=f7e163]:
+      - generic [ref=f7e167]:
+        - generic [ref=f7e168]:
+          - figure [ref=f7e174]:
+            - img "Pimcore Logo" [ref=f7e175]
+          - generic [ref=f7e176]:
+            - heading "Digitale Transformation mit Pimcore" [level=3] [ref=f7e177]
+            - paragraph [ref=f7e178]: Wir sind Pimcore Platinum Partner und haben unseren Pimcore Experten Status dutzendfach unter Beweis gestellt.
+          - link "mehr erfahren ionicons-v5-a" [ref=f7e180] [cursor=pointer]:
+            - /url: /responsive-webdesign/pimcore-agentur
+            - text: mehr erfahren
+            - img "ionicons-v5-a" [ref=f7e181]
+        - figure [ref=f7e189]:
+          - img "Quellwerke Taucher Pimcore" [ref=f7e190]
+      - generic [ref=f7e194]:
+        - generic [ref=f7e195]:
+          - figure [ref=f7e201]:
+            - img "TYPO3 Logo" [ref=f7e202]
+          - generic [ref=f7e203]:
+            - heading "Professionelle TYPO3 Projekte" [level=3] [ref=f7e204]
+            - paragraph [ref=f7e205]: Die Quellwerke GmbH hat sich auf dieses System konzentriert und ist seit über 10 Jahren Ihre spezialisierte TYPO3 Agentur.
+          - link "mehr erfahren ionicons-v5-a" [ref=f7e207] [cursor=pointer]:
+            - /url: /responsive-webdesign/typo3-agentur
+            - text: mehr erfahren
+            - img "ionicons-v5-a" [ref=f7e208]
+        - figure [ref=f7e216]:
+          - img "Quellwerke Taucher TYPO3" [ref=f7e217]
+    - generic [ref=f7e218]:
+      - generic [ref=f7e220]:
+        - generic [ref=f7e223]:
+          - heading "Responsive Webdesign" [level=3] [ref=f7e224]
+          - paragraph [ref=f7e225]: Responsive Webdesign ist heute Pflicht. Wir konzipieren, designen und realisieren Websites, die auf allen Geräten überzeugen und im Ranking punkten, und binden sie auf Wunsch an CMS wie TYPO3 oder Pimcore an – nutzerzentriert, performant und wartbar.
+        - link "Mehr erfahren ionicons-v5-a" [ref=f7e227] [cursor=pointer]:
+          - /url: /responsive-webdesign
+          - text: Mehr erfahren
+          - img "ionicons-v5-a" [ref=f7e228]
+      - generic [ref=f7e231]:
+        - generic [ref=f7e234]:
+          - heading "Webentwicklung" [level=3] [ref=f7e235]
+          - paragraph [ref=f7e236]: Mit Symfony und PHP entwickeln wir individuelle Webanwendungen, die Prozesse und Workflows Ihres Unternehmens präzise abbilden. Ergänzend nutzen wir Frameworks wie Zend, Bootstrap, Ext JS, jQuery oder Angular, um moderne, intuitive User Interfaces schnell, sicher, skalierbar und robust umzusetzen.
+        - link "Mehr erfahren ionicons-v5-a" [ref=f7e238] [cursor=pointer]:
+          - /url: /webentwicklung
+          - text: Mehr erfahren
+          - img "ionicons-v5-a" [ref=f7e239]
+      - generic [ref=f7e242]:
+        - generic [ref=f7e245]:
+          - heading "App Entwicklung" [level=3] [ref=f7e246]
+          - paragraph [ref=f7e247]: Wir entwickeln native iOS- und Android-Apps, hybride Lösungen sowie Progressive Web Apps für anspruchsvolle B2B-Szenarien. Dabei binden wir externe Systeme per Schnittstellen an und nutzen Gerätefeatures wie Bluetooth, Kamera oder NFC – sicher, performant, stabil, hochwertig, flexibel und zukunftsfähig.
+        - link "Mehr erfahren ionicons-v5-a" [ref=f7e249] [cursor=pointer]:
+          - /url: /mobile-app-entwicklung
+          - text: Mehr erfahren
+          - img "ionicons-v5-a" [ref=f7e250]
+  - generic [ref=f7e253]:
+    - heading "Kunden unserer Internetagentur" [level=2] [ref=f7e255]
+    - generic [ref=f7e256]:
+      - img "Referenzen Internetagentur - Freudenberg" [ref=f7e259]
+      - img "Referenzen Internetagentur - Aliaxis" [ref=f7e262]
+      - img "Referenzen Internetagentur - BASF" [ref=f7e265]
+      - img "Referenzen Internetagentur - Continental" [ref=f7e268]
+      - img "Referenzen Internetagentur - Dehner" [ref=f7e271]
+      - img "Referenzen Internetagentur - Fraunhover" [ref=f7e274]
+    - generic [ref=f7e275]:
+      - img "Referenzen Internetagentur - Friatec" [ref=f7e278]
+      - img "Referenzen Internetagentur - GRN" [ref=f7e281]
+      - img "Referenzen Internetagentur - Hipp" [ref=f7e284]
+      - img "Referenzen Internetagentur - INTER" [ref=f7e287]
+      - img "Referenzen Internetagentur - KLETT Kita" [ref=f7e290]
+      - img "Referenzen Internetagentur - krauth technology" [ref=f7e293]
+    - generic [ref=f7e294]:
+      - img "Referenzen Internetagentur - kyocera" [ref=f7e297]
+      - img "Referenzen Internetagentur - Läpple" [ref=f7e300]
+      - img "Referenzen Internetagentur - Neckardraht" [ref=f7e303]
+      - img "Referenzen Internetagentur - Olympiastützpunkt" [ref=f7e306]
+      - img "Referenzen Internetagentur - PHOENIX" [ref=f7e309]
+      - img "Referenzen Internetagentur - WEISS" [ref=f7e312]
+    - generic [ref=f7e313]:
+      - img "Referenzen Internetagentur - D+H Partner" [ref=f7e316]
+      - img "Referenzen Internetagentur - Schwing & Neureitherg & Neureither" [ref=f7e319]
+      - img "Referenzen Internetagentur - Uni Heidelberg" [ref=f7e322]
+      - img "Referenzen Internetagentur - Horizont" [ref=f7e325]
+      - img "Referenzen Internetagentur - MPDV" [ref=f7e328]
+      - img "Referenzen Internetagentur - Patura" [ref=f7e331]
+  - generic [ref=f7e335]:
+    - generic [ref=f7e336]:
+      - generic [ref=f7e338]:
+        - figure [ref=f7e342]
+        - generic [ref=f7e343]:
+          - heading [level=2] [ref=f7e344]
+          - heading "ERNEUT 2 PREISE ABGERÄUMT" [level=2] [ref=f7e345]
+          - paragraph [ref=f7e346]:
+            - text: Der
+            - link "DEUTSCHE AGENTURPREIS®" [ref=f7e347] [cursor=pointer]:
+              - /url: https://deutscher-agenturpreis.de/
+            - text: ist eine Auszeichnung für bestumgesetzte Projekte und wird jährlich in Europa an Werbe-, Marketing- und Internetagenturen verliehen. Auch dieses Jahr staubten wir erneut 2 Pokale beim DEUTSCHEN AGENTURPREIS
+            - superscript [ref=f7e348]: ®
+            - text: ab.
+      - link "mehr erfahren ionicons-v5-a" [ref=f7e350] [cursor=pointer]:
+        - /url: /ueber-uns/auszeichnungen/da/-2025
+        - text: mehr erfahren
+        - img "ionicons-v5-a" [ref=f7e351]
+    - figure [ref=f7e361]:
+      - img "Quellwerke Taucher mit DA/ 2025 Preisen und Pimcore Astronaut und Typo3-Thorsten-Krabbe" [ref=f7e362]
+  - generic [ref=f7e364]:
+    - generic [ref=f7e365]:
+      - heading "Neues aus unserer Internetagentur" [level=2] [ref=f7e366]
+      - paragraph [ref=f7e367]: Digitalisierungsprojekte, Wissenswertes, Referenzen & Agenturnews
+    - generic [ref=f7e371]:
+      - generic [ref=f7e375]:
+        - link [ref=f7e377] [cursor=pointer]:
+          - /url: /massage-im-oktober
+          - time [ref=f7e381]: 22.10.2026
+        - generic [ref=f7e382]:
+          - heading "Spannende Aufgaben brauchen entspannende Maßnahmen" [level=4] [ref=f7e384]
+          - generic [ref=f7e385]:
+            - paragraph [ref=f7e387]: Zwei Tage lang hatte unser Team einen besonderen Termin im Kalender. Eine Masseurin kam zu uns ins Büro und lockerte verspannte Schultern und Nacken.
+            - link "Weiterlesen ionicons-v5-a" [ref=f7e388] [cursor=pointer]:
+              - /url: /massage-im-oktober
+              - text: Weiterlesen
+              - img "ionicons-v5-a" [ref=f7e389]
+      - generic [ref=f7e394]:
+        - link [ref=f7e396] [cursor=pointer]:
+          - /url: /ki-praxisschulung
+          - time [ref=f7e400]: 20.10.2026
+        - generic [ref=f7e401]:
+          - heading "Ein Tag voller KI, Praxiswissen und Aha-Momente" [level=4] [ref=f7e403]
+          - generic [ref=f7e404]:
+            - paragraph [ref=f7e406]: Wie funktioniert künstliche Intelligenz eigentlich? Wie lassen sich KI-Tools sinnvoll im Berufsalltag einsetzen? Und welche rechtlichen Regeln gilt es zu beachten?
+            - link "Weiterlesen ionicons-v5-a" [ref=f7e407] [cursor=pointer]:
+              - /url: /ki-praxisschulung
+              - text: Weiterlesen
+              - img "ionicons-v5-a" [ref=f7e408]
+      - generic [ref=f7e413]:
+        - link [ref=f7e415] [cursor=pointer]:
+          - /url: /oktoberfest-und-teammeeting
+          - time [ref=f7e419]: 02.10.2026
+        - generic [ref=f7e420]:
+          - heading "Oktoberfest-Brotzeit bei Quellwerke" [level=4] [ref=f7e422]
+          - generic [ref=f7e423]:
+            - paragraph [ref=f7e425]: Am 1. Oktober 2026 holten wir uns über Mittag ein Stück Wiesn ins Büro.
+            - link "Weiterlesen ionicons-v5-a" [ref=f7e426] [cursor=pointer]:
+              - /url: /oktoberfest-und-teammeeting
+              - text: Weiterlesen
+              - img "ionicons-v5-a" [ref=f7e427]
+      - generic [ref=f7e432]:
+        - link [ref=f7e434] [cursor=pointer]:
+          - /url: /hanna-ist-an-board
+          - time [ref=f7e438]: 01.10.2026
+        - generic [ref=f7e439]:
+          - heading "Hanna ist an Bord" [level=4] [ref=f7e441]
+          - generic [ref=f7e442]:
+            - paragraph [ref=f7e444]: Seit Oktober verstärkt Hanna unser Team.
+            - link "Weiterlesen ionicons-v5-a" [ref=f7e445] [cursor=pointer]:
+              - /url: /hanna-ist-an-board
+              - text: Weiterlesen
+              - img "ionicons-v5-a" [ref=f7e446]
+    - link "Alle News anzeigen ionicons-v5-a" [ref=f7e449] [cursor=pointer]:
+      - /url: /news
+      - text: Alle News anzeigen
+      - img "ionicons-v5-a" [ref=f7e450]
+    - generic [ref=f7e452]:
+      - generic [ref=f7e456]:
+        - heading "User Experience Design & optimale Technik" [level=3] [ref=f7e457]
+        - paragraph [ref=f7e458]: Seit 2004 erstellen wir für unsere Kunden Websites, webbasierte Systeme und Mobile Apps. Die Quellwerke GmbH vereint dabei als Online-Agentur die konzeptionellen, kreativen und technischen Fähigkeiten, die diese Aufgaben erfordern.
+        - paragraph [ref=f7e459]
+      - generic [ref=f7e460]:
+        - generic [ref=f7e461]:
+          - figure [ref=f7e468]:
+            - img "HTML5 und CSS3 Logo" [ref=f7e469]
+          - figure [ref=f7e476]:
+            - img "PHP MySQL Logo" [ref=f7e477]
+          - figure [ref=f7e484]:
+            - img "Bootstrap und jQuery Logo" [ref=f7e485]
+          - figure [ref=f7e492]:
+            - img "TYPO3 Logo" [ref=f7e493]
+          - figure [ref=f7e500]:
+            - img "Pimcore Logo" [ref=f7e501]
+          - figure [ref=f7e508]:
+            - img "Magento Logo" [ref=f7e509]
+        - generic [ref=f7e510]:
+          - figure [ref=f7e517]:
+            - img "Symfony PHP Framework Logo" [ref=f7e518]
+          - figure [ref=f7e525]:
+            - img "Docker Logo" [ref=f7e526]
+          - figure [ref=f7e533]:
+            - img "AngularJS Logo" [ref=f7e534]
+          - figure [ref=f7e541]:
+            - img "iOS Logo" [ref=f7e542]
+          - figure [ref=f7e549]:
+            - img "Android Logo" [ref=f7e550]
+          - figure [ref=f7e557]:
+            - img "Ionic Framework Logo" [ref=f7e558]
+  - generic [ref=f7e560]:
+    - generic [ref=f7e561]:
+      - heading "Sie Haben Fragen?" [level=2] [ref=f7e562]
+      - paragraph [ref=f7e563]: Gerne stehen wir Ihnen als qualifizierte Internetagentur für Ihr Projekt zur Verfügung. Wir erstellen Ihnen ein individuelles, auf Ihre Bedürfnisse abgestimmtes Angebot.
+    - link "Jetzt Kontakt aufnehmen ionicons-v5-a" [ref=f7e565] [cursor=pointer]:
+      - /url: /kontakt
+      - text: Jetzt Kontakt aufnehmen
+      - img "ionicons-v5-a" [ref=f7e566]
+  - contentinfo [ref=f7e568]:
+    - generic [ref=f7e569]:
+      - generic [ref=f7e571]:
+        - generic [ref=f7e573]:
+          - link [ref=f7e577] [cursor=pointer]:
+            - /url: /referenzen
+            - generic [ref=f7e578]:
+              - heading "Referenzen" [level=3] [ref=f7e579]
+              - generic [ref=f7e580]:
+                - text: Zu unseren Arbeiten
+                - img "ionicons-v5-a" [ref=f7e581]
+          - link [ref=f7e586] [cursor=pointer]:
+            - /url: https://www.t3mpo.de/
+            - generic [ref=f7e587]:
+              - heading "Die schnelle TYPO3 Lösung" [level=3] [ref=f7e588]
+              - generic [ref=f7e589]:
+                - text: Zur T3mpo Seite
+                - img "ionicons-v5-a" [ref=f7e590]
+        - link [ref=f7e595] [cursor=pointer]:
+          - /url: https://karriere.quellwerke.de/
+          - generic [ref=f7e596]:
+            - heading "Karriere-Center" [level=3] [ref=f7e597]
+            - generic [ref=f7e598]:
+              - text: Weiter zum Karriere-Center
+              - img "ionicons-v5-a" [ref=f7e599]
+      - generic [ref=f7e601]:
+        - list [ref=f7e602]:
+          - listitem [ref=f7e603]:
+            - link "Webdesign & CMS" [ref=f7e604] [cursor=pointer]:
+              - /url: /responsive-webdesign
+          - listitem [ref=f7e605]:
+            - link "Webentwicklung" [ref=f7e606] [cursor=pointer]:
+              - /url: /webentwicklung
+          - listitem [ref=f7e607]:
+            - link "Mobile App Entwicklung" [ref=f7e608] [cursor=pointer]:
+              - /url: /mobile-app-entwicklung
+          - listitem [ref=f7e609]:
+            - link "TYPO3 Agentur" [ref=f7e610] [cursor=pointer]:
+              - /url: /responsive-webdesign/typo3-agentur
+          - listitem [ref=f7e611]:
+            - link "Internetagentur" [ref=f7e612] [cursor=pointer]:
+              - /url: /ueber-uns
+          - listitem [ref=f7e613]:
+            - link "Referenzen" [ref=f7e614] [cursor=pointer]:
+              - /url: /referenzen
+        - generic [ref=f7e615]:
+          - generic [ref=f7e616]:
+            - paragraph [ref=f7e618]: Die Quellwerke GmbH mit Sitz in Eberbach (bei Heidelberg) ist Ihr Webexperte in der Metropolregion Rhein-Neckar und Partner für die Erstellung Ihrer Website (Homepage, Internetseite, Webseite oder Webpage). Wir sind Ihr Spezialist für Webdesign (CMS) und Webentwicklung für den Raum Heidelberg, Mannheim, Heilbronn, Stuttgart, Würzburg, Mosbach, Sinsheim, Buchen und der gesamten Rhein–Neckar / Neckar Odenwald Metropole. Nutzen Sie bei der Gestaltung Ihres Internetauftritts unsere Kompetenz, Erfahrung und unser Know-How. Ihre Homepage erstellen wir professionell und zuverlässig.
+            - heading "Quellwerke GmbH" [level=4] [ref=f7e620]
+            - generic [ref=f7e621]:
+              - generic [ref=f7e622]:
+                - generic [ref=f7e623]:
+                  - paragraph [ref=f7e624]: "Firmenanschrift: Friedrichsdorfer Landstraße 6/7, 69412 Eberbach"
+                  - paragraph [ref=f7e625]: "Büroanschrift: Neuer Weg-Nord 49, 69412 Eberbach"
+                - generic [ref=f7e626]:
+                  - generic [ref=f7e629]:
+                    - figure [ref=f7e633]:
+                      - img "Telefon Quellwerke GmbH - Internetagentur Heidelberg" [ref=f7e634]
+                    - paragraph [ref=f7e636]:
+                      - link "+49 (0) 6271 / 960 90 00" [ref=f7e637] [cursor=pointer]:
+                        - /url: tel:004962719609000
+                  - generic [ref=f7e640]:
+                    - figure [ref=f7e644]:
+                      - img "E-Mail Quellwerke GmbH - Internetagentur Heidelberg" [ref=f7e645]
+                    - paragraph [ref=f7e647]:
+                      - link "info@quellwerke.de" [ref=f7e648] [cursor=pointer]:
+                        - /url: mailto:info@quellwerke.de
+                - paragraph [ref=f7e650]: Sie erreichen uns Montag bis Freitag zwischen 8 und 17 Uhr
+              - generic [ref=f7e652]:
+                - paragraph [ref=f7e653]: "Eintragung im Handelsregister: Registergericht: Amtsgericht Mannheim Registernummer: HRB 9208"
+                - paragraph [ref=f7e654]: "Umsatzsteuer: Umsatzsteuer-ID gemäß §27 a Umsatzsteuergesetz: DE144029095"
+          - generic [ref=f7e655]:
+            - generic [ref=f7e656]:
+              - figure [ref=f7e663]:
+                - img "IHK Rhein Neckar Logo" [ref=f7e664]
+              - figure [ref=f7e671]:
+                - img "Metropolregion Rhein Neckar" [ref=f7e672]
+            - generic [ref=f7e673]:
+              - figure [ref=f7e680]:
+                - img "T3MPO - Die fertige TYPO3 Website" [ref=f7e681]
+              - figure [ref=f7e688]:
+                - img "Dualer Partner Mosbach" [ref=f7e689]
+            - generic [ref=f7e690]:
+              - figure [ref=f7e697]:
+                - img "heidelpay - payment heidelberg" [ref=f7e698]
+              - figure [ref=f7e705]:
+                - img "PAyone payment provider" [ref=f7e706]
+    - generic [ref=f7e709]:
+      - paragraph [ref=f7e712]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f7e714]:
+        - list [ref=f7e715]:
+          - listitem [ref=f7e716]:
+            - link "Datenschutz" [ref=f7e717] [cursor=pointer]:
+              - /url: /datenschutz
+          - listitem [ref=f7e718]:
+            - link "Impressum" [ref=f7e719] [cursor=pointer]:
+              - /url: /impressum
+          - listitem [ref=f7e720]:
+            - link "Kontakt" [ref=f7e721] [cursor=pointer]:
+              - /url: /kontakt
+        - generic [ref=f7e722]:
+          - link [ref=f7e723] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f7e725]
+          - link [ref=f7e726] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f7e728]
+          - link [ref=f7e729] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f7e731]
+  - generic [ref=f7e732]:
+    - heading "Cookie Manager" [level=3] [ref=f7e733]
+    - generic [ref=f7e735]:
+      - generic [ref=f7e736]: Essentials
+      - generic [ref=f7e738]: Analyse
+    - paragraph [ref=f7e741]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f7e742]:
+      - button "Alle akzeptieren" [ref=f7e743] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f7e744] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f7e745] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f7e747] [cursor=pointer]:
+      - /url: /datenschutz

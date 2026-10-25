@@ -1,0 +1,342 @@
+- generic [ref=f133e5]:
+  - banner [ref=f133e7]:
+    - link [ref=f133e8] [cursor=pointer]:
+      - /url: /
+      - img "Logo Severin Elektrogeräte GmbH" [ref=f133e9]
+  - main [ref=f133e10]:
+    - generic [ref=f133e12]:
+      - group "Navigation" [ref=f133e13]:
+        - link " Zum Stellenangebot" [ref=f133e14] [cursor=pointer]:
+          - /url: /stellenangebote/senior-it-manager-digital-platforms-enterprise-applications-m-w-d-28008
+          - generic [ref=f133e15]: 
+          - text: Zum Stellenangebot
+        - link " Alle Stellenangebote" [ref=f133e16] [cursor=pointer]:
+          - /url: /stellenangebote
+          - generic [ref=f133e17]: 
+          - text: Alle Stellenangebote
+      - generic [ref=f133e19]:
+        - heading "Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d)" [level=1] [ref=f133e20]
+        - heading "Severin Elektrogeräte GmbH" [level=2] [ref=f133e21]
+        - generic [ref=f133e22]:
+          - generic [ref=f133e23]:
+            - generic [ref=f133e24]: 
+            - text: Severin Elektrogeräte GmbHRöhre 2759846 Sundern
+          - generic [ref=f133e25]:
+            - generic [ref=f133e26]: 
+            - text: Stellenangebot
+        - generic [ref=f133e28]:
+          - separator [ref=f133e30]
+          - generic [ref=f133e34]:
+            - generic [ref=f133e35]:
+              - tablist [ref=f133e36]:
+                - listitem [ref=f133e37]:
+                  - button "Deine Daten" [ref=f133e38] [cursor=pointer]
+                - listitem [ref=f133e40]:
+                  - button "Deine Bewerbungsunterlagen" [ref=f133e41] [cursor=pointer]
+                - listitem [ref=f133e43]:
+                  - button "Stellenangebot ansehen " [ref=f133e44] [cursor=pointer]
+              - tabpanel "Deine Daten" [ref=f133e46]:
+                - heading "1. Deine Daten" [level=2] [ref=f133e47]
+                - heading "Deine Persönlichen Daten" [level=3] [ref=f133e50]
+                - generic [ref=f133e52]:
+                  - button "Anrede *" [ref=f133e53] [cursor=pointer]
+                  - combobox "Anrede *" [ref=f133e54]:
+                    - option "Bitte wählen Sie aus" [selected]
+                    - option "Frau"
+                    - option "Herr"
+                    - option "Divers"
+                - generic [ref=f133e56]:
+                  - button "Vorname *" [ref=f133e57] [cursor=pointer]
+                  - textbox "Vorname *" [ref=f133e58]
+                - generic [ref=f133e60]:
+                  - button "Nachname *" [ref=f133e61] [cursor=pointer]
+                  - textbox "Nachname *" [ref=f133e62]
+                - generic [ref=f133e64]:
+                  - button "Geburtsdatum" [ref=f133e65] [cursor=pointer]
+                  - textbox "Geburtsdatum" [ref=f133e66]
+                - heading "Deine Anschrift" [level=3] [ref=f133e69]
+                - generic [ref=f133e71]:
+                  - button "Straße *" [ref=f133e72] [cursor=pointer]
+                  - textbox "Straße *" [ref=f133e73]
+                - generic [ref=f133e75]:
+                  - button "Postleitzahl *" [ref=f133e76] [cursor=pointer]
+                  - textbox "Postleitzahl *" [ref=f133e77]
+                - generic [ref=f133e79]:
+                  - button "Ort *" [ref=f133e80] [cursor=pointer]
+                  - textbox "Ort *" [ref=f133e81]
+                - generic [ref=f133e83]:
+                  - button "Land *" [ref=f133e84] [cursor=pointer]
+                  - combobox "Land *" [ref=f133e85]:
+                    - option "Bitte wählen Sie aus"
+                    - option "Afghanistan"
+                    - option "Ägypten"
+                    - option "Åland"
+                    - option "Albanien"
+                    - option "Algerien"
+                    - option "Amerikanisch-Samoa"
+                    - option "Amerikanische Jungferninseln"
+                    - option "Andorra"
+                    - option "Angola"
+                    - option "Anguilla"
+                    - option "Antarktika"
+                    - option "Antigua und Barbuda"
+                    - option "Äquatorialguinea"
+                    - option "Argentinien"
+                    - option "Armenien"
+                    - option "Aruba"
+                    - option "Ascension"
+                    - option "Aserbaidschan"
+                    - option "Äthiopien"
+                    - option "Australien"
+                    - option "Bahamas"
+                    - option "Bahrain"
+                    - option "Bangladesch"
+                    - option "Barbados"
+                    - option "Belgien"
+                    - option "Belize"
+                    - option "Benin"
+                    - option "Bermuda"
+                    - option "Bhutan"
+                    - option "Bolivien"
+                    - option "Bosnien und Herzegowina"
+                    - option "Botswana"
+                    - option "Bouvetinsel"
+                    - option "Brasilien"
+                    - option "Britische Jungferninseln"
+                    - option "Britisches Territorium im Indischen Ozean"
+                    - option "Brunei Darussalam"
+                    - option "Bulgarien"
+                    - option "Burkina Faso"
+                    - option "Burma (Myanmar)"
+                    - option "Burundi"
+                    - option "Ceuta, Melilla"
+                    - option "Chile"
+                    - option "China, Volksrepublik"
+                    - option "Cookinseln"
+                    - option "Costa Rica"
+                    - option "Curaçao"
+                    - option "Dänemark"
+                    - option "Deutschland" [selected]
+                    - option "Dominica"
+                    - option "Dominikanische Republik"
+                    - option "Dschibuti"
+                    - option "Ecuador"
+                    - option "El Salvador"
+                    - option "Elfenbeinküste"
+                    - option "Eritrea"
+                    - option "Estland"
+                    - option "Falklandinseln"
+                    - option "Färöer"
+                    - option "Fidschi"
+                    - option "Finnland"
+                    - option "Frankreich"
+                    - option "Französisch-Guayana"
+                    - option "Französisch-Polynesien"
+                    - option "Französische Süd- und Antarktisgebiete"
+                    - option "Gabun"
+                    - option "Gambia"
+                    - option "Georgien"
+                    - option "Ghana"
+                    - option "Gibraltar"
+                    - option "Grenada"
+                    - option "Griechenland"
+                    - option "Grönland"
+                    - option "Großbritannien und Nordirland"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guatemala"
+                    - option "Guinea"
+                    - option "Guinea-Bissau"
+                    - option "Guyana"
+                    - option "Haiti"
+                    - option "Heard und McDonaldinseln"
+                    - option "Honduras"
+                    - option "Hongkong"
+                    - option "Indien"
+                    - option "Indonesien"
+                    - option "Insel Man"
+                    - option "Irak"
+                    - option "Iran, Islamische Republik"
+                    - option "Irland"
+                    - option "Island"
+                    - option "Israel"
+                    - option "Italien"
+                    - option "Jamaika"
+                    - option "Japan"
+                    - option "Jemen"
+                    - option "Jordanien"
+                    - option "Kaimaninseln"
+                    - option "Kambodscha"
+                    - option "Kamerun"
+                    - option "Kanada"
+                    - option "Kanarische Inseln"
+                    - option "Kap Verde"
+                    - option "Kasachstan"
+                    - option "Katar"
+                    - option "Kenia"
+                    - option "Kirgisistan"
+                    - option "Kiribati"
+                    - option "Kokosinseln"
+                    - option "Kolumbien"
+                    - option "Komoren"
+                    - option "Kongo, Demokratische Republik"
+                    - option "Korea, Demokratische Volksrepublik (Nordkorea)"
+                    - option "Korea, Republik (Südkorea)"
+                    - option "Kroatien"
+                    - option "Kuba"
+                    - option "Kuwait"
+                    - option "Laos, Demokratische Volksrepublik"
+                    - option "Lesotho"
+                    - option "Lettland"
+                    - option "Libanon"
+                    - option "Liberia"
+                    - option "Libyen"
+                    - option "Liechtenstein"
+                    - option "Litauen"
+                    - option "Luxemburg"
+                    - option "Macao"
+                    - option "Madagaskar"
+                    - option "Malawi"
+                    - option "Malaysia"
+                    - option "Malediven"
+                    - option "Mali"
+                    - option "Malta"
+                    - option "Marokko"
+                    - option "Marshallinseln"
+                    - option "Martinique"
+                    - option "Mauretanien"
+                    - option "Mauritius"
+                    - option "Mayotte"
+                    - option "Mazedonien [2b]"
+                    - option "Mexiko"
+                    - option "Mikronesien"
+                    - option "Moldawien (Republik Moldau)"
+                    - option "Monaco"
+                    - option "Mongolei"
+                    - option "Montenegro"
+                    - option "Montserrat"
+                    - option "Mosambik"
+                    - option "Myanmar (Burma)"
+                    - option "Namibia"
+                    - option "Nauru"
+                    - option "Nepal"
+                    - option "Neukaledonien"
+                    - option "Neuseeland"
+                    - option "Nicaragua"
+                    - option "Niederlande"
+                    - option "Niger"
+                    - option "Nigeria"
+                    - option "Niue"
+                    - option "Nördliche Marianen"
+                    - option "Norfolkinsel"
+                    - option "Norwegen"
+                    - option "Oman"
+                    - option "Österreich"
+                    - option "Osttimor"
+                    - option "Pakistan"
+                    - option "Palästinensische Autonomiegebiete"
+                    - option "Palau"
+                    - option "Panama"
+                    - option "Papua-Neuguinea"
+                    - option "Paraguay"
+                    - option "Peru"
+                    - option "Philippinen"
+                    - option "Pitcairninseln"
+                    - option "Polen"
+                    - option "Portugal"
+                    - option "Puerto Rico"
+                    - option "Republik China (Taiwan)"
+                    - option "Republik Kongo"
+                    - option "Réunion"
+                    - option "Ruanda"
+                    - option "Rumänien"
+                    - option "Russische Föderation"
+                    - option "Saint-Barthélemy"
+                    - option "Saint-Pierre und Miquelon"
+                    - option "Salomonen"
+                    - option "Sambia"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "São Tomé und Príncipe"
+                    - option "Saudi-Arabien"
+                    - option "Schweden"
+                    - option "Schweiz"
+                    - option "Senegal"
+                    - option "Serbien"
+                    - option "Seychellen"
+                    - option "Sierra Leone"
+                    - option "Simbabwe"
+                    - option "Singapur"
+                    - option "Slowakei"
+                    - option "Slowenien"
+                    - option "Somalia"
+                    - option "Spanien"
+                    - option "Sri Lanka"
+                    - option "St. Helena"
+                    - option "St. Kitts und Nevis"
+                    - option "St. Lucia"
+                    - option "St. Vincent und die Grenadinen"
+                    - option "Südafrika"
+                    - option "Sudan"
+                    - option "Südgeorgien und die Südlichen Sandwichinseln"
+                    - option "Südsudan"
+                    - option "Suriname"
+                    - option "Svalbard und Jan Mayen"
+                    - option "Swasiland"
+                    - option "Syrien, Arabische Republik"
+                    - option "Tadschikistan"
+                    - option "Tansania, Vereinigte Republik"
+                    - option "Thailand"
+                    - option "Togo"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad und Tobago"
+                    - option "Tschad"
+                    - option "Tschechische Republik"
+                    - option "Tunesien"
+                    - option "Türkei"
+                    - option "Turkmenistan"
+                    - option "Turks- und Caicosinseln"
+                    - option "Tuvalu"
+                    - option "Uganda"
+                    - option "Ukraine"
+                    - option "Ungarn"
+                    - option "United States Minor Outlying Islands"
+                    - option "Uruguay"
+                    - option "Usbekistan"
+                    - option "Vanuatu"
+                    - option "Vatikanstadt"
+                    - option "Venezuela"
+                    - option "Vereinigte Arabische Emirate"
+                    - option "Vereinigte Staaten von Amerika"
+                    - option "Vietnam"
+                    - option "Wallis und Futuna"
+                    - option "Weihnachtsinsel"
+                    - option "Weißrussland"
+                    - option "Westsahara"
+                    - option "Zentralafrikanische Republik"
+                    - option "Zypern"
+                - heading "So erreichen wir Dich:" [level=3] [ref=f133e88]
+                - generic [ref=f133e90]:
+                  - button "E-Mail-Adresse *" [ref=f133e91] [cursor=pointer]
+                  - textbox "E-Mail-Adresse *" [ref=f133e92]
+                - generic [ref=f133e94]:
+                  - button "Handynummer *" [ref=f133e95] [cursor=pointer]
+                  - textbox "Handynummer *" [ref=f133e96]
+            - button "Nächster Schritt " [ref=f133e99] [cursor=pointer]:
+              - text: Nächster Schritt
+              - generic [ref=f133e100]: 
+  - contentinfo [ref=f133e101]:
+    - img "talentstorm" [ref=f133e102]
+    - generic [ref=f133e104]:
+      - generic [ref=f133e105]: 2026-10-07 15:38
+      - generic [ref=f133e106]:
+        - text: Powered by
+        - link "talentstorm" [ref=f133e107] [cursor=pointer]:
+          - /url: https://www.talentstorm-bewerbermanagement.de
+      - generic [ref=f133e108]:
+        - link "Impressum" [ref=f133e109] [cursor=pointer]:
+          - /url: https://severin.com/de-de/impressum/
+        - text: "|"
+        - link "Datenschutz" [ref=f133e110] [cursor=pointer]:
+          - /url: https://severin.com/de-de/datenschutzerklarung/

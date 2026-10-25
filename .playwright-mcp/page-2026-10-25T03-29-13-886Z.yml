@@ -1,0 +1,206 @@
+- generic [ref=f53e3]:
+  - banner [ref=f53e5]:
+    - link "Zum Hauptinhalt springen" [ref=f53e6] [cursor=pointer]:
+      - /url: "#cr-main-content"
+    - generic [ref=f53e10]:
+      - generic [ref=f53e11]:
+        - link [ref=f53e12] [cursor=pointer]:
+          - /url: https://karriere.stroetmann.de/
+          - img "Zur Startseite" [ref=f53e13]
+        - navigation "Hauptnavigation" [ref=f53e14]:
+          - list [ref=f53e15]:
+            - listitem [ref=f53e16]:
+              - navigation "Jobs nach Bereich" [ref=f53e17]:
+                - button "Jobs nach Bereich" [ref=f53e18] [cursor=pointer]
+            - listitem [ref=f53e21]:
+              - link "Ausbildung & Studium" [ref=f53e22] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ausbildung-studium
+            - listitem [ref=f53e23]:
+              - link "Neueröffnung E center Vreden" [ref=f53e24] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ecentervreden
+            - listitem [ref=f53e25]:
+              - link "Wir als Arbeitgeber" [ref=f53e26] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/wir
+            - listitem [ref=f53e27]:
+              - link "Unsere Unternehmensgruppe" [ref=f53e28] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ueberblickunternehmensbereiche
+      - link "Alle Jobs" [ref=f53e30] [cursor=pointer]:
+        - /url: https://karriere.stroetmann.de/search
+  - main [ref=f53e32]:
+    - generic [ref=f53e34]:
+      - generic [ref=f53e41]:
+        - heading "Starte deine Karriere bei L. Stroetmann!" [level=1] [ref=f53e42]
+        - link "Alle Jobs ansehen" [ref=f53e43] [cursor=pointer]:
+          - /url: https://karriere.stroetmann.de/search
+      - generic [ref=f53e51]:
+        - heading "Dein Arbeitgeber im Münsterland und darüber hinaus." [level=2] [ref=f53e52]
+        - paragraph [ref=f53e54]: Du suchst einen Job, der wirklich zu dir passt – mit Sicherheit, Zusammenhalt und echten Entwicklungschancen? Dann bist du bei L. Stroetmann richtig. Als Familienunternehmen mit 1.800 Mitarbeitenden und Hauptsitz in Münster sind wir in den Bereichen Lebensmittel, Agrar, Tiernahrung und Immobilien tätig. Bei uns findest du nicht nur einen Job – sondern deinen Lebensmittelpunkt.
+      - generic [ref=f53e58]:
+        - generic [ref=f53e61]:
+          - heading "1791" [level=3] [ref=f53e62]
+          - paragraph [ref=f53e64]:
+            - generic [ref=f53e65]: Gründungsjahr der L. Stroetmann Unternehmensgruppe
+        - generic [ref=f53e68]:
+          - heading "20" [level=3] [ref=f53e69]
+          - paragraph [ref=f53e71]: Standorte deutschlandweit
+        - generic [ref=f53e74]:
+          - heading "4" [level=3] [ref=f53e75]
+          - generic [ref=f53e76]:
+            - paragraph [ref=f53e77]: "Geschäftsfelder:"
+            - paragraph [ref=f53e78]: Lebensmittel, Agrar, Tiernahrung & Immobilien
+        - generic [ref=f53e81]:
+          - heading "1.800" [level=3] [ref=f53e82]
+          - paragraph [ref=f53e84]: Mitarbeitende
+        - generic [ref=f53e87]:
+          - heading "850 Mio. €" [level=3] [ref=f53e88]
+          - generic [ref=f53e89]:
+            - paragraph [ref=f53e90]: Umsatz jährlich
+            - paragraph
+        - generic [ref=f53e93]:
+          - heading "über 110.000" [level=3] [ref=f53e94]
+          - paragraph [ref=f53e96]: zufriedene Kundinnen und Kunden
+      - generic [ref=f53e104]:
+        - heading "Karriere bei Stroetmann – Finde deinen Bereich!" [level=2] [ref=f53e105]
+        - paragraph [ref=f53e107]: "Ob im Lebensmitteleinzelhandel, im Büro oder auf der Straße – bei L. Stroetmann findest du vielfältige Aufgabenfelder mit echtem Gestaltungsspielraum. Von Berufseinsteigern über Quereinsteiger bis zu erfahrenen Fachkräften: Hier zeigen wir dir, in welchen Bereichen du bei uns durchstarten kannst."
+      - generic [ref=f53e111]:
+        - generic [ref=f53e112]:
+          - img "Freundliche Mitarbeiterin im schwarzen Hemd aus der Gastronomie lächelt, Kassensymbol im Hintergrund." [ref=f53e115]
+          - generic [ref=f53e116]:
+            - generic [ref=f53e117]:
+              - heading "Markt" [level=3] [ref=f53e118]
+              - paragraph [ref=f53e120]: Hier bist du nah an den Kund:innen und mittendrin im Geschehen. Ob an der Kasse, an der Frischetheke oder in der Marktleitung – entdecke deine Welt im Handel.
+            - link "Jetzt Jobs entdecken" [ref=f53e123] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/markt
+        - generic [ref=f53e128]:
+          - img "Ein lächelnder Mitarbeiter in Arbeitskleidung vor rotem Kreis, im Hintergrund eine gezeichnete Gabelstapler-Grafik." [ref=f53e131]
+          - generic [ref=f53e132]:
+            - generic [ref=f53e133]:
+              - heading "Logistik & Technik" [level=3] [ref=f53e134]
+              - paragraph [ref=f53e136]: Du hältst unsere Welt in Bewegung – ob im Lager, als LKW-Fahrer:in oder mit technischem Know-how hinter den Kulissen.
+            - link "Jetzt Jobs entdecken" [ref=f53e139] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/logistik
+        - generic [ref=f53e144]:
+          - img "Junge Frau im blauen Hemd lächelt dich an, vor rotem Hintergrund mit Notizblock-Illustration – Karriere in Food & Beverage." [ref=f53e147]
+          - generic [ref=f53e148]:
+            - generic [ref=f53e149]:
+              - heading "Kaufmännisch" [level=3] [ref=f53e150]
+              - paragraph [ref=f53e152]: Hier gestaltest du das große Ganze – von Einkauf über Marketing bis hin zu Nachhaltigkeit und Kommunikation. Deine Welt im kaufmännischen Bereich.
+            - link "Jetzt Jobs entdecken" [ref=f53e155] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/kaufmann
+        - generic [ref=f53e160]:
+          - img "Ein lächelnder Mann im Business-Outfit hält eine Mappe, im Hintergrund Symbole für Karriere in der Lebensmittelbranche." [ref=f53e163]
+          - generic [ref=f53e164]:
+            - generic [ref=f53e165]:
+              - heading "Vertrieb & Außendienst" [level=3] [ref=f53e166]
+              - paragraph [ref=f53e168]: Du baust Beziehungen auf und bringst Produkte zu den Menschen – deine Welt im Vertrieb & Außendienst wartet auf dich.
+            - link "Jetzt Jobs entdecken" [ref=f53e171] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/vertrieb
+        - generic [ref=f53e176]:
+          - img "Ein lächelnder Mitarbeiter in einem grünen T-Shirt steht selbstbewusst vor rotem Hintergrund in der Lebensmittelbranche." [ref=f53e179]
+          - generic [ref=f53e180]:
+            - generic [ref=f53e181]:
+              - heading "Produktion" [level=3] [ref=f53e182]
+              - paragraph [ref=f53e184]: "Hier wird's handfest: In unserer Produktionswelt packst du mit an und sorgst für Qualität und Effizienz – ideal für alle, die lieber machen statt nur reden."
+            - link "Jetzt Jobs entdecken" [ref=f53e187] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/produktion
+        - generic [ref=f53e192]:
+          - img "Junge Frau im Business-Outfit lächelt selbstbewusst, vor rotem Kreis, ideal für Deine Karriere im Food & Beverage Bereich." [ref=f53e195]
+          - generic [ref=f53e196]:
+            - generic [ref=f53e197]:
+              - heading "Bau, Expansion, Immobilien" [level=3] [ref=f53e198]
+              - paragraph [ref=f53e200]: Du planst, baust oder verwaltest unsere Standorte und bringst Visionen zum Leben – deine Welt in Bau, Expansion und Immobilien.
+            - link "Jetzt Jobs entdecken" [ref=f53e203] [cursor=pointer]:
+              - /url: https://karriere.stroetmann.de/bau
+      - generic [ref=f53e215]:
+        - generic [ref=f53e216]:
+          - heading "Starte deine Ausbildung mit Zukunft" [level=3] [ref=f53e217]
+          - paragraph [ref=f53e219]: "Du willst ins Berufsleben starten und dabei etwas lernen, das dich wirklich weiterbringt? Wir bilden in verschiedenen Bereichen aus – praxisnah, mit persönlicher Begleitung und guten Übernahmechancen. Egal, ob im Markt, in der Logistik, in der IT oder im Büro: Bei L. Stroetmann bekommst du eine Ausbildung mit Zukunft. Mit uns gehst du deinen Weg."
+          - link "Berufe entdecken & durchstarten!" [ref=f53e220] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ausbildung-studium
+        - img "Junge Frau im blauen Hemd lächelt freundlich und lädt dich zu einer Karriere in der Food & Beverage Branche ein." [ref=f53e227]
+      - generic [ref=f53e235]:
+        - img "Zwei Mitarbeitende aus der Lebensmittelbranche lächeln freundlich, einer trägt Arbeitskleidung, die andere hält eine Gemüsekiste." [ref=f53e238]
+        - generic [ref=f53e239]:
+          - heading "Dein Arbeitgeber in Münster und darüber hinaus" [level=3] [ref=f53e240]
+          - paragraph [ref=f53e242]: Als Familienunternehmen packen wir gemeinsam an – seit 235 Jahren. Ob Fachkraft, Quereinsteiger oder Schulabgänger – bei Stroetmann findet jeder seinen Platz im Team. Wir fördern deine persönliche Entwicklung, bieten dir Stabilität in einer sich wandelnden Welt und begegnen dir auf Augenhöhe. Bei uns zählt jede Stimme, denn gemeinsam gestalten wir die Zukunft. Auch deine?
+          - link "Entdecke, was uns ausmacht!" [ref=f53e243] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/wir
+      - generic [ref=f53e256]:
+        - heading "Unsere vielfältige Unternehmensgruppe" [level=3] [ref=f53e257]
+        - paragraph [ref=f53e260]: "Bei L. Stroetmann ist alles miteinander verbunden. Unsere Unternehmensgruppe vereint starke Marken, die Hand in Hand arbeiten: Saatgut für die Landwirtschaft, Tiernahrung für zufriedene Haustiere, Produktion hochwertiger Lebensmittel, Logistik, die alles bewegt, und Märkte, die Menschen versorgen. Ein Kreislauf, der funktioniert – seit 235 Jahren. Entdecke die Vielfalt deiner Möglichkeiten und werde Teil unseres Erfolgs."
+        - link "Jetzt mehr erfahren!" [ref=f53e261] [cursor=pointer]:
+          - /url: https://karriere.stroetmann.de/ueberblickunternehmensbereiche
+      - generic [ref=f53e271]:
+        - heading "Häufig gefragt – Klar beantwortet" [level=2] [ref=f53e272]
+        - paragraph [ref=f53e274]: Du hast noch Fragen rund um deinen neuen Lebensmittelpunkt bei uns? Hier findest du die Antworten über deine Karrieremöglichkeiten und deinen Einstieg bei L. Stroetmann.
+      - generic [ref=f53e278]:
+        - group [ref=f53e279]:
+          - generic "Ist die Jobbörse immer aktuell?" [ref=f53e280] [cursor=pointer]
+        - group [ref=f53e284]:
+          - generic "Gibt es Bewerbungsfristen für offene Stellen?" [ref=f53e285] [cursor=pointer]
+        - group [ref=f53e289]:
+          - generic "Muss ich Zeugnisse und ein Anschreiben einreichen?" [ref=f53e290] [cursor=pointer]
+        - group [ref=f53e294]:
+          - generic "Kann ich mich auf mehrere Positionen gleichzeitig bewerben?" [ref=f53e295] [cursor=pointer]
+        - group [ref=f53e299]:
+          - generic "Kann ich mich initiativ bewerben?" [ref=f53e300] [cursor=pointer]
+        - group [ref=f53e304]:
+          - generic "Wo kann ich mich bei technischen Problemen beim Abschicken meiner Bewerbung melden?" [ref=f53e305] [cursor=pointer]
+        - group [ref=f53e309]:
+          - generic "Wie kann ich weitere Unterlagen meiner Bewerbung nachträglich hinzufügen?" [ref=f53e310] [cursor=pointer]
+        - group [ref=f53e314]:
+          - generic "Wie kann ich mich meine Bewerbung zurückziehen?" [ref=f53e315] [cursor=pointer]
+      - generic [ref=f53e326]:
+        - heading "Bereit für deine Karriere bei L. Stroetmann?" [level=2] [ref=f53e327]
+        - paragraph [ref=f53e329]: Entdecke jetzt unsere Stellenangebote und finde einen Job bei L. Stroetmann, einem der größten Arbeitgeber in Münster und darüber hinaus.
+        - link "Alle Jobs" [ref=f53e330] [cursor=pointer]:
+          - /url: https://karriere.stroetmann.de/search
+  - contentinfo [ref=f53e335]:
+    - generic [ref=f53e336]:
+      - generic [ref=f53e337]:
+        - generic [ref=f53e338]:
+          - link "Logo mit Link zur Startseite":
+            - /url: https://karriere.stroetmann.de/
+            - img "Logo mit Link zur Startseite"
+          - generic [ref=f53e339]:
+            - link "linkedin" [ref=f53e340] [cursor=pointer]:
+              - /url: https://de.linkedin.com/company/l-stroetmann-unternehmensgruppe
+            - link "xing" [ref=f53e344] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/l-stroetmannunternehmensgruppe
+        - generic [ref=f53e349]:
+          - generic [ref=f53e350]:
+            - generic [ref=f53e351]: Jobs nach Bereich
+            - list [ref=f53e352]:
+              - listitem [ref=f53e353]:
+                - link "Markt" [ref=f53e354] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/markt
+              - listitem [ref=f53e355]:
+                - link "Logistik & Technik" [ref=f53e356] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/logistik
+              - listitem [ref=f53e357]:
+                - link "Kaufmännisch" [ref=f53e358] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/kaufmann
+              - listitem [ref=f53e359]:
+                - link "Vertrieb & Außendienst" [ref=f53e360] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/vertrieb
+              - listitem [ref=f53e361]:
+                - link "Produktion" [ref=f53e362] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/produktion
+              - listitem [ref=f53e363]:
+                - link "Bau, Expansion, Immobilien" [ref=f53e364] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/bau
+          - link "Ausbildung & Studium" [ref=f53e366] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ausbildung-studium
+          - link "Neueröffnung E center Vreden" [ref=f53e368] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ecentervreden
+          - link "Wir als Arbeitgeber" [ref=f53e370] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/wir
+          - link "Unsere Unternehmensgruppe" [ref=f53e372] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ueberblickunternehmensbereiche
+      - generic [ref=f53e375]:
+        - generic [ref=f53e376]:
+          - link "Impressum" [ref=f53e377] [cursor=pointer]:
+            - /url: https://www.stroetmann.de/impressum
+          - link "Datenschutz" [ref=f53e378] [cursor=pointer]:
+            - /url: https://www.talentsconnect.com/datenschutzerklaerung
+        - button "Cookie Einstellungen" [ref=f53e380] [cursor=pointer]

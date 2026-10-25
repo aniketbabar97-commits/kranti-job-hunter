@@ -1,0 +1,34 @@
+- generic [active] [ref=f1e1]:
+  - img "Logo" [ref=f1e6]
+  - main [ref=f1e7]:
+    - generic [ref=f1e10]:
+      - heading "Channel Developer (m/w/d) eCommerce" [level=1] [ref=f1e12]
+      - generic [ref=f1e13]:
+        - paragraph [ref=f1e14]:
+          - strong [ref=f1e15]: Wir freuen uns sehr, dass Sie sich bei uns bewerben möchten!
+          - text: Um den Bewerbungsprozess für Sie so einfach wie möglich zu gestalten, können Sie eine der drei folgenden Optionen zur Datenübermittlung auswählen.
+        - paragraph [ref=f1e16]: Wir empfehlen die Option "Lebenslauf hochladen", da hier das System Ihren Lebenslauf ausliest und das Bewerbungsformular automatisch befüllt. Selbstverständlich können Sie im Anschluss alle Daten prüfen und korrigieren sowie weitere Dokumente hinzufügen.
+      - generic [ref=f1e17]:
+        - link "Bewerbungsformular ausfüllen" [ref=f1e18] [cursor=pointer]:
+          - /url: /de/jobs/52115/form
+          - generic [aria-hidden] [ref=f1e19]: 
+          - text: Bewerbungsformularausfüllen
+        - link "Lebenslauf hochladen" [ref=f1e20] [cursor=pointer]:
+          - /url: "#"
+          - generic [aria-hidden] [ref=f1e21]: 
+          - text: Lebenslaufhochladen
+        - link "Lebenslauf bei Dropbox" [ref=f1e23] [cursor=pointer]:
+          - /url: "#"
+          - generic [aria-hidden] [ref=f1e24]: 
+          - text: Lebenslauf beiDropbox
+      - generic [ref=f1e25]:
+        - paragraph [ref=f1e26]
+        - paragraph [ref=f1e27]:
+          - link "Zurück zu den Jobs" [ref=f1e28] [cursor=pointer]:
+            - /url: https://www.hansgrohe-group.com/de/karriere/jobs
+      - separator [aria-hidden] [ref=f1e29]
+  - contentinfo [ref=f1e30]:
+    - paragraph [ref=f1e34]:
+      - text: powered by
+      - link "d.vinci" [ref=f1e35] [cursor=pointer]:
+        - /url: https://www.dvinci.de

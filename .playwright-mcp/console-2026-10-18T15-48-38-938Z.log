@@ -1,0 +1,6 @@
+[     504ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://netcare.de/lib/js/jquery/jquery-migrate.min.js?rnd=51569:1
+[   63051ms] ReferenceError: __gaTracker is not defined
+    at HTMLDocument.<anonymous> (https://netcare.de/cms/views/2d1f39e4b8/js/script.js?rnd=87920:272:4)
+    at a (https://netcare.de/cms/modules/8516d2654f/includes/js/index.js?rnd=66689:1:196)
+    at Object.p [as submit] (https://netcare.de/cms/modules/8516d2654f/includes/js/index.js?rnd=66689:1:6199)
+[   63475ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://netcare.de/lib/js/jquery/jquery-migrate.min.js?rnd=51569:1

@@ -1,0 +1,205 @@
+- generic [active] [ref=f14e1]:
+  - link "Skip to content" [ref=f14e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f14e4]:
+    - banner [ref=f14e5]:
+      - generic [ref=f14e6]:
+        - generic [ref=f14e8]:
+          - generic [ref=f14e12]:
+            - link " Facebook" [ref=f14e13] [cursor=pointer]:
+              - /url: https://www.facebook.com/quisag1
+              - text: 
+              - generic [ref=f14e14]: Facebook
+            - link " Instagram" [ref=f14e15] [cursor=pointer]:
+              - /url: https://www.instagram.com/quis_ag/
+              - text: 
+              - generic [ref=f14e16]: Instagram
+            - link " YouTube" [ref=f14e17] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+              - text: 
+              - generic [ref=f14e18]: YouTube
+          - generic [ref=f14e19]:
+            - navigation "Secondary Menu" [ref=f14e20]:
+              - list [ref=f14e21]:
+                - listitem [ref=f14e22]:
+                  - link "Über uns" [ref=f14e23] [cursor=pointer]:
+                    - /url: https://quis.ag/ueber-uns/
+                    - generic [aria-hidden] [ref=f14e25]: 
+                - listitem [ref=f14e27]:
+                  - link "Karriere" [ref=f14e28] [cursor=pointer]:
+                    - /url: https://quis.ag/karriere/
+                    - generic [aria-hidden] [ref=f14e30]: 
+                - listitem [ref=f14e32]:
+                  - link "Neuigkeiten & Blog" [ref=f14e33] [cursor=pointer]:
+                    - /url: https://www.quis.ag/blogseite-bearbeitung/
+                    - generic [aria-hidden] [ref=f14e35]: 
+                - listitem [ref=f14e37]:
+                  - link "Kontakt" [ref=f14e38] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+                    - generic [aria-hidden] [ref=f14e40]: 
+            - text:    
+        - generic [ref=f14e43]:
+          - link [ref=f14e45] [cursor=pointer]:
+            - /url: https://www.quis.ag/
+            - img "QUIS AG – IT follows Business Logo" [ref=f14e46]
+          - text: 
+          - link "Toggle mobile menu" [ref=f14e47] [cursor=pointer]:
+            - /url: "#"
+            - text: 
+          - text:  - - - - -
+    - list [ref=f14e51]:
+      - listitem [ref=f14e52]:
+        - heading "Deine Karriere bei der QUIS AG" [level=2] [ref=f14e58]
+      - listitem [ref=f14e60]
+    - main [ref=f14e62]:
+      - generic [ref=f14e67]:
+        - generic [ref=f14e79]:
+          - paragraph [ref=f14e82]: Wir freuen uns auf Dich
+          - generic [ref=f14e84]:
+            - paragraph [ref=f14e85]: „Herzlich willkommen bei der QUIS AG! Wir entwickeln und implementieren seit über 20 Jahren innovative IT-Lösungen für mittelständische Unternehmen sowie Enterprise Kunden. Die Basis unseres Erfolgs steckt in den Köpfen unserer Mitarbeiter, deshalb bieten wir Raum für eigene Ideen und unterstützen eigenverantwortliches Handeln.
+            - paragraph [ref=f14e86]: Die offene Unternehmenskultur ermöglicht jedem Mitarbeiter, seine Vorstellungen einzubringen und die Arbeit mitzugestalten. Wir verstehen uns als wertschätzender, transparenter Arbeitgeber und fördern die Zufriedenheit wie auch das Potential unserer Mitarbeiter. Bei Fragen stehen wir Ihnen gerne zur Verfügung. Wir freuen uns darauf, Dich in unserem Team begrüßen zu dürfen!“
+        - paragraph [ref=f14e101]: Werde ein Teil von uns
+        - generic [ref=f14e105]:
+          - paragraph [ref=f14e110]: Ausbildungsangebote
+          - paragraph [ref=f14e113]: Unter Bildung versteht man die umfassende Entwicklung menschlicher Fähigkeiten und Fertigkeiten während des ganzen Lebens. Die Bereitschaft zum lebenslangen Lernen ist ein wesentlicher Bestandteil der persönlichen Lebens- und Berufsperspektiven.
+          - link "JETZT ENTDECKEN" [ref=f14e117] [cursor=pointer]:
+            - /url: https://quis.ag/ausbildungsangebote/
+        - generic [ref=f14e127]:
+          - paragraph [ref=f14e130]: Studienangebote
+          - paragraph [ref=f14e133]: Ein duales Studium ermöglicht es nicht nur Theorie zu büffeln, sondern die erlernten Inhalte in der Praxis anwenden zu können. So bringst du nicht nur dich selbst voran, sondern auch uns als Unternehmen. Mit innovativen Lösungen und immer nah am Markt, weißt du, was auf dich zukommt.
+          - link "JETZT ENTDECKEN" [ref=f14e137] [cursor=pointer]:
+            - /url: https://quis.ag/studienangebote/
+        - paragraph [ref=f14e154]: Nicht das Richtige dabei?
+        - generic [ref=f14e162]:
+          - paragraph [ref=f14e165]: Initiativbewerbung
+          - paragraph [ref=f14e168]: Sie sind bereit für neue Herausforderungen, haben aber bei unseren offenen Stellen keine passende Job-Ausschreibung gefunden? Dann senden Sie uns einfach Ihre Initiativbewerbung zu!
+          - link "JETZT BEWERBEN" [ref=f14e172] [cursor=pointer]:
+            - /url: https://quis.ag/initiativbewerbung/
+        - paragraph [ref=f14e189]: Das gibt es alles zusätzlich bei uns
+        - generic [ref=f14e191]:
+          - generic [ref=f14e193]:
+            - generic [aria-hidden] [ref=f14e198]: 
+            - paragraph [ref=f14e201]: Essenszuschuss
+            - paragraph [ref=f14e204]: Bei uns sparen Sie. Wir beteiligen uns anteilig an Ihrer Mittagsverpflegung.
+          - generic [ref=f14e206]:
+            - generic [aria-hidden] [ref=f14e211]: 
+            - paragraph [ref=f14e214]: kostenloses Frühstück
+            - paragraph [ref=f14e217]: Wir Frühstücken gemeinsam! Anfallende Kosten werden von uns übernommen.
+          - generic [ref=f14e219]:
+            - generic [aria-hidden] [ref=f14e224]: 
+            - paragraph [ref=f14e227]: Firmenparkplatz
+            - paragraph [ref=f14e230]: Bei uns suchen Sie nicht lange nach einem Parkplatz, sondern parken direkt vor der Tür.
+        - generic [ref=f14e232]:
+          - generic [ref=f14e234]:
+            - generic [aria-hidden] [ref=f14e239]: 
+            - paragraph [ref=f14e242]: Fortbildungsangebote
+            - paragraph [ref=f14e245]: Bei uns werden On-the-Job-Trainings, Webcasts und externe Schulungen für Ihre fachliche und persönliche Weiterbildung angeboten.
+          - generic [ref=f14e247]:
+            - generic [aria-hidden] [ref=f14e252]: 
+            - paragraph [ref=f14e255]: Kostenfreie Getränke
+            - paragraph [ref=f14e258]: In unserer Küche sind immer kostenfreie Getränke wie Kaffee, Tee und Mineralwasser vorhanden.
+          - generic [ref=f14e260]:
+            - generic [aria-hidden] [ref=f14e265]: 
+            - paragraph [ref=f14e268]: Moderne Arbeitsplätze
+            - paragraph [ref=f14e271]: Offene, großzügige Büros mit bequemen, voll ausgestatteten EDV-Arbeitsplätzen sorgen für einen angenehmen Arbeitstag.
+    - generic [ref=f14e272]:
+      - contentinfo [ref=f14e273]:
+        - generic [ref=f14e275]:
+          - generic [ref=f14e277]:
+            - heading "Anschrift" [level=4] [ref=f14e278]
+            - list [ref=f14e280]:
+              - listitem [ref=f14e281]:
+                - generic [aria-hidden] [ref=f14e283]: 
+                - paragraph [ref=f14e285]: QUIS AG Schulstraße 2-4 09427 Ehrenfriedersdorf
+              - listitem [ref=f14e286]:
+                - generic [aria-hidden] [ref=f14e288]: 
+                - generic [ref=f14e289]: +49 37341 48 67 10
+              - listitem [ref=f14e290]:
+                - generic [aria-hidden] [ref=f14e292]: 
+                - link "sales@quis.ag" [ref=f14e294] [cursor=pointer]:
+                  - /url: mailto:sales@quis.ag
+              - listitem [ref=f14e295]:
+                - generic [aria-hidden] [ref=f14e297]: 
+                - generic [ref=f14e298]: "Montag – Freitag: 8:00 – 17:00 Uhr"
+          - generic [ref=f14e300]:
+            - generic [ref=f14e301]:
+              - heading "Rechtliches" [level=4] [ref=f14e302]
+              - list [ref=f14e304]:
+                - listitem [ref=f14e305]:
+                  - link "Impressum" [ref=f14e306] [cursor=pointer]:
+                    - /url: https://quis.ag/impressum/
+                - listitem [ref=f14e307]:
+                  - link "Datenschutzerklärung" [ref=f14e308] [cursor=pointer]:
+                    - /url: https://quis.ag/datenschutzerklaerung/
+                - listitem [ref=f14e309]:
+                  - link "Kontakt" [ref=f14e310] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+            - generic [ref=f14e311]:
+              - heading "Social Media" [level=4] [ref=f14e312]
+              - list [ref=f14e314]:
+                - listitem [ref=f14e315]:
+                  - link "LinkedIn" [ref=f14e316] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/quis-ag/
+                - listitem [ref=f14e317]:
+                  - link "Instagram" [ref=f14e318] [cursor=pointer]:
+                    - /url: https://www.instagram.com/quis_ag/
+                - listitem [ref=f14e319]:
+                  - link "Youtube" [ref=f14e320] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+          - generic [ref=f14e321]:
+            - generic [ref=f14e322]:
+              - heading "Karriere" [level=4] [ref=f14e323]
+              - list [ref=f14e325]:
+                - listitem [ref=f14e326]:
+                  - link "Freie Ausbildungsplätze" [ref=f14e327] [cursor=pointer]:
+                    - /url: https://quis.ag/ausbildungsangebote/
+                - listitem [ref=f14e328]:
+                  - link "Freie Stellen" [ref=f14e329] [cursor=pointer]:
+                    - /url: https://quis.ag/stellenangebote/
+                - listitem [ref=f14e330]:
+                  - link "Initiativbewerbung" [ref=f14e331] [cursor=pointer]:
+                    - /url: https://quis.ag/initiativbewerbung/
+            - generic [ref=f14e332]:
+              - heading "Support" [level=4] [ref=f14e333]
+              - list [ref=f14e335]:
+                - listitem [ref=f14e336]:
+                  - link "Kontaktformular" [ref=f14e337] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+                - listitem [ref=f14e338]:
+                  - link "Fernwartung" [ref=f14e339] [cursor=pointer]:
+                    - /url: https://get.teamviewer.com/btb2wer
+                - listitem [ref=f14e340]:
+                  - link "FAQ & Glossar" [ref=f14e341] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+      - contentinfo [ref=f14e342]:
+        - generic [ref=f14e344]:
+          - generic [ref=f14e346]:
+            - text: © 2025 by
+            - link "QUIS AG" [ref=f14e347] [cursor=pointer]:
+              - /url: https://quis.ag/
+            - text: "| Alle Rechte vorbehalten |"
+          - generic [ref=f14e350]:
+            - link " Facebook" [ref=f14e351] [cursor=pointer]:
+              - /url: https://www.facebook.com/quisag1
+              - text: 
+              - generic [ref=f14e352]: Facebook
+            - link " Instagram" [ref=f14e353] [cursor=pointer]:
+              - /url: https://www.instagram.com/quis_ag/
+              - text: 
+              - generic [ref=f14e354]: Instagram
+            - link " YouTube" [ref=f14e355] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+              - text: 
+              - generic [ref=f14e356]: YouTube
+  - generic:
+    - generic [ref=f14e358]:
+      - text: Wir verwenden Cookies, um Ihre Nutzererfahrung zu verbessern. Wir gehen davon aus, dass dies für Sie ok ist, aber Sie können die Verwendung von Cookies ablehnen, wenn Sie dies wünschen.
+      - button "Cookie-Einstellungen" [ref=f14e359] [cursor=pointer]
+      - button "Akzeptieren" [ref=f14e360] [cursor=pointer]
+    - text: Mehr anzeigen Aktiviert Deaktiviert Deaktiviert Deaktiviert Deaktiviert Deaktiviert
+  - region "Nach oben":
+    - link " Nach oben":
+      - /url: "#"
+      - text: 
+      - generic: Nach oben
+  - generic [ref=f14e361]: tablet

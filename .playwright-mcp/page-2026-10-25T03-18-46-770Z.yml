@@ -1,0 +1,47 @@
+- generic [active] [ref=f3e1]:
+  - dialog "cookieconsent" [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - text: Um Ihnen einen bestmöglichen Service zu bieten und die Verwendung mancher Funktionen zu erleichtern, verwenden wir Cookies. Mit der Nutzung dieser Seite erklären Sie sich mit der Verwendung von Cookies einverstanden. Die Einwilligung kann jeder Zeit mit Wirkung für die Zukunft widerrufen werden. Mehr Informationen darüber, welche Daten gespeichert werden, erhalten Sie
+      - button "hier." [ref=f3e4] [cursor=pointer]
+    - generic [ref=f3e5]:
+      - button "allow cookies" [ref=f3e6] [cursor=pointer]: Ja, ich bin einverstanden
+      - generic [ref=f3e7]:
+        - button "choose cookies" [ref=f3e8] [cursor=pointer]: Cookies anpassen
+        - button "deny cookies" [ref=f3e9] [cursor=pointer]: Ablehnen
+  - generic [ref=f3e10]:
+    - generic [ref=f3e11]:
+      - link [ref=f3e13] [cursor=pointer]:
+        - /url: /de
+        - img "Logo" [ref=f3e14]
+      - generic [ref=f3e15]:
+        - list [ref=f3e17]:
+          - listitem [ref=f3e18]: Deutsch|
+          - listitem [ref=f3e19]:
+            - link "Englisch" [ref=f3e20] [cursor=pointer]:
+              - /url: /Digital-Product-Owner-mwd-eng-f1051.html
+        - list [ref=f3e23]:
+          - listitem [ref=f3e24]:
+            - link "Stellenangebote" [ref=f3e25] [cursor=pointer]:
+              - /url: https://karriere.huber.de/stellenangebote.html
+          - listitem [ref=f3e26]:
+            - link "Perspektiven" [ref=f3e27] [cursor=pointer]:
+              - /url: https://karriere.huber.de/arbeitgeber.html
+          - listitem [ref=f3e28]:
+            - link "Ausbildung & Praktikum" [ref=f3e29] [cursor=pointer]:
+              - /url: https://karriere.huber.de/ausbildung-and-praktikum.html
+          - listitem [ref=f3e30]:
+            - link "FAQ" [ref=f3e31] [cursor=pointer]:
+              - /url: https://karriere.huber.de/faq.html
+    - generic [ref=f3e34]:
+      - heading "Bewerbung abgeschlossen" [level=1] [ref=f3e35]
+      - generic [ref=f3e36]: Vielen Dank für Ihre Bewerbung!Wir werden Ihre Bewerbung gerne berücksichtigen und informieren Sie, sobald wie möglich über den aktuellen Stand des Bewerbungsverfahrens.Mit freundlichen GrüßenIhr Recruitment Team
+    - generic [ref=f3e39]:
+      - link "Datenschutz" [ref=f3e40] [cursor=pointer]:
+        - /url: https://karriere.huber.de/datenschutz.html
+      - link "Impressum" [ref=f3e41] [cursor=pointer]:
+        - /url: https://karriere.huber.de/impressum.html
+      - generic [ref=f3e42]:
+        - link "" [ref=f3e43] [cursor=pointer]:
+          - /url: https://www.facebook.com/huber.de
+        - link "" [ref=f3e44] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/HuberTechnology

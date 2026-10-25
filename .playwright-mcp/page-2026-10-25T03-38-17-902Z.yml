@@ -1,0 +1,302 @@
+- generic [active] [ref=f47e1]:
+  - link "Zum Inhalt springen" [ref=f47e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f47e3]:
+    - banner:
+      - banner [ref=f47e4]:
+        - generic [ref=f47e5]:
+          - link [ref=f47e7] [cursor=pointer]:
+            - /url: https://www.leogra.de/ueber-uns/
+          - navigation "Menu" [ref=f47e9]:
+            - list [ref=f47e10]:
+              - listitem [ref=f47e11]:
+                - link "Start" [ref=f47e12] [cursor=pointer]:
+                  - /url: https://www.leogra.de/
+              - listitem [ref=f47e13]:
+                - generic [ref=f47e14]:
+                  - text: Dienstleistungen
+                  - button "Toggle Dienstleistungen submenu"
+              - listitem [ref=f47e18]:
+                - generic [ref=f47e19]:
+                  - text: Partnerschaften
+                  - button "Toggle Partnerschaften submenu"
+              - listitem [ref=f47e23]:
+                - generic [ref=f47e24]:
+                  - text: Über Uns
+                  - button "Toggle Über Uns submenu"
+          - navigation [ref=f47e30]:
+            - link [ref=f47e32] [cursor=pointer]:
+              - /url: https://www.leogra.de/karriere/
+              - img "Deutsch" [ref=f47e34]
+              - generic [aria-hidden] [ref=f47e35]: 
+            - list:
+              - listitem [ref=f47e36]:
+                - link [ref=f47e37] [cursor=pointer]:
+                  - /url: https://www.leogra.de/en/careers/
+                  - img "English" [ref=f47e39]
+    - generic [ref=f47e46]:
+      - region "Karriere bei Leogra Trading" [ref=f47e47]:
+        - generic [ref=f47e49]:
+          - paragraph [ref=f47e50]: Du willst Handel gestalten?Dann komm zu uns.
+          - paragraph [ref=f47e51]: Hier findest du unsere offenen Stellen im E-Commerce und erfährst, wie wir im Team zusammenarbeiten und was dich bei uns erwartet. Und wenn du dich angesprochen fühlst, freuen wir uns auf deine Bewerbung.
+      - generic [ref=f47e53]:
+        - generic [ref=f47e54]:
+          - paragraph [ref=f47e55]: Arbeiten bei Leogra
+          - heading "Bei uns bist du mittendrin statt nur dabei." [level=1] [ref=f47e56]
+          - paragraph [ref=f47e57]: Deine Arbeit landet nicht in einer Präsentation, sondern wird im täglichen E-Commerce direkt sichtbar. Du übernimmst Verantwortung, bringst eigene Ideen ein und gestaltest Abläufe aktiv mit.
+        - figure [ref=f47e58]:
+          - img "Sofa im Büro von Leogra Trading" [ref=f47e59]
+      - region "Bildungs- und Praxispartner" [ref=f47e60]:
+        - generic [ref=f47e62]:
+          - paragraph [ref=f47e63]: "Bildungs- und Praxispartner:"
+          - list [ref=f47e64]:
+            - listitem [ref=f47e65]:
+              - img "BSZ Wiesau" [ref=f47e66]
+            - listitem [ref=f47e67]:
+              - img "OTH Amberg-Weiden" [ref=f47e68]
+            - listitem [ref=f47e69]:
+              - img "OTH Regensburg" [ref=f47e70]
+      - generic [ref=f47e72]:
+        - generic [ref=f47e73]:
+          - paragraph [ref=f47e74]: Kultur und Arbeitsweise
+          - heading "Direkt, eigenverantwortlich und auf Augenhöhe" [level=2] [ref=f47e75]
+        - generic [ref=f47e76]:
+          - generic [ref=f47e79]:
+            - heading "So arbeiten wir" [level=3] [ref=f47e80]
+            - paragraph [ref=f47e81]: Bei uns kannst du Fragen stellen, bestehende Abläufe hinterfragen und eigene Ideen einbringen.
+            - paragraph [ref=f47e82]: Gleichzeitig zählen Verlässlichkeit und ein offener Austausch.
+            - paragraph [ref=f47e83]: Wir unterstützen uns gegenseitig, übernehmen Verantwortung und entwickeln gemeinsam Lösungen, die im Arbeitsalltag wirklich funktionieren.
+            - link "Leogra kennenlernen" [ref=f47e84] [cursor=pointer]:
+              - /url: https://www.leogra.de/ueber-uns/
+          - generic [ref=f47e85]:
+            - heading "Was dich erwartet" [level=3] [ref=f47e86]
+            - list [ref=f47e87]:
+              - listitem [ref=f47e88]:
+                - generic [ref=f47e92]:
+                  - heading "Flexibles Arbeiten" [level=4] [ref=f47e93]
+                  - paragraph [ref=f47e94]: Flexible Zeiten, Homeoffice und moderne Tools.
+              - listitem [ref=f47e95]:
+                - generic [ref=f47e99]:
+                  - heading "Mitgestalten" [level=4] [ref=f47e100]
+                  - paragraph [ref=f47e101]: Eigene Ideen, kurze Wege und echte Verantwortung.
+              - listitem [ref=f47e102]:
+                - generic [ref=f47e109]:
+                  - heading "Gemeinsam wachsen" [level=4] [ref=f47e110]
+                  - paragraph [ref=f47e111]: Gute Einarbeitung, Entwicklung und Teamarbeit.
+      - generic [ref=f47e113]:
+        - paragraph [ref=f47e114]: Offene Stellen
+        - heading "Finde die Position, die zu dir passt." [level=2] [ref=f47e115]
+        - region "Offene Stellen" [ref=f47e116]:
+          - article [ref=f47e117]:
+            - heading "IT & Automatisierungsmanager (m/w/d)" [level=3] [ref=f47e118]
+            - paragraph [ref=f47e119]: IT & Automatisierung
+            - paragraph [ref=f47e120]: Teilzeit oder Vollzeit · Mitterteich
+            - button "Mehr erfahren über die Stelle IT & Automatisierungsmanager (m/w/d)" [ref=f47e121] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e122]: über die Stelle IT & Automatisierungsmanager (m/w/d)
+          - article [ref=f47e123]:
+            - heading "Onlinemarketing-/E-Commerce Mitarbeiter (m/w/d)" [level=3] [ref=f47e124]
+            - paragraph [ref=f47e125]: Marketing & E-Commerce
+            - paragraph [ref=f47e126]: Ab 25 Std./Woche · Mitterteich
+            - button "Mehr erfahren über die Stelle Onlinemarketing-/E-Commerce Mitarbeiter (m/w/d)" [ref=f47e127] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e128]: über die Stelle Onlinemarketing-/E-Commerce Mitarbeiter (m/w/d)
+          - article [ref=f47e129]:
+            - heading "Mitarbeiter E-Commerce & Produktdaten (m/w/d)" [level=3] [ref=f47e130]
+            - paragraph [ref=f47e131]: E-Commerce & Produktdaten
+            - paragraph [ref=f47e132]: Ab 30 Std./Woche · Mitterteich
+            - button "Mehr erfahren über die Stelle Mitarbeiter E-Commerce & Produktdaten (m/w/d)" [ref=f47e133] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e134]: über die Stelle Mitarbeiter E-Commerce & Produktdaten (m/w/d)
+          - article [ref=f47e135]:
+            - heading "Verwaltungsmitarbeiter (m/w/d)" [level=3] [ref=f47e136]
+            - paragraph [ref=f47e137]: Verwaltung & Kundenservice
+            - paragraph [ref=f47e138]: Teilzeit oder Vollzeit · Teilweise remote
+            - button "Mehr erfahren über die Stelle Verwaltungsmitarbeiter (m/w/d)" [ref=f47e139] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e140]: über die Stelle Verwaltungsmitarbeiter (m/w/d)
+          - article [ref=f47e141]:
+            - heading "Ausbildung im E-Commerce (m/w/d)" [level=3] [ref=f47e142]
+            - paragraph [ref=f47e143]: Ausbildung
+            - paragraph [ref=f47e144]: Vollzeit · Start 2027/2028
+            - button "Mehr erfahren über die Stelle Ausbildung im E-Commerce (m/w/d)" [ref=f47e145] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e146]: über die Stelle Ausbildung im E-Commerce (m/w/d)
+          - article [ref=f47e147]:
+            - heading "E-Commerce, Marketing & Vertrieb (m/w/d)" [level=3] [ref=f47e148]
+            - paragraph [ref=f47e149]: Studium & Ferienjob
+            - paragraph [ref=f47e150]: Flexibel · Mitterteich
+            - button "Mehr erfahren über die Stelle E-Commerce, Marketing & Vertrieb (m/w/d)" [ref=f47e151] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e152]: über die Stelle E-Commerce, Marketing & Vertrieb (m/w/d)
+          - article [ref=f47e153]:
+            - heading "Praxissemester & Abschlussarbeit im E-Commerce (m/w/d)" [level=3] [ref=f47e154]
+            - paragraph [ref=f47e155]: Praktikum & Studium
+            - paragraph [ref=f47e156]: 3 bis 6 Monate · Start nach Absprache
+            - button "Mehr erfahren über die Stelle Praxissemester & Abschlussarbeit im E-Commerce (m/w/d)" [ref=f47e157] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e158]: über die Stelle Praxissemester & Abschlussarbeit im E-Commerce (m/w/d)
+          - article [ref=f47e159]:
+            - heading "IT-Praktikum Informatik-Campus BSZ Wiesau (m/w/d)" [level=3] [ref=f47e160]
+            - paragraph [ref=f47e161]: Praktikum
+            - paragraph [ref=f47e162]: Pflicht- oder Orientierungspraktikum · Mitterteich
+            - button "Mehr erfahren über die Stelle IT-Praktikum Informatik-Campus BSZ Wiesau (m/w/d)" [ref=f47e163] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e164]: über die Stelle IT-Praktikum Informatik-Campus BSZ Wiesau (m/w/d)
+          - article [ref=f47e165]:
+            - heading "Initiativbewerbung im E-Commerce & Handel (m/w/d)" [level=3] [ref=f47e166]
+            - paragraph [ref=f47e167]: Initiativbewerbung
+            - paragraph [ref=f47e168]: Verschiedene Bereiche · Mitterteich
+            - button "Mehr erfahren über die Stelle Initiativbewerbung im E-Commerce & Handel (m/w/d)" [ref=f47e169] [cursor=pointer]:
+              - text: Mehr erfahren
+              - generic [ref=f47e170]: über die Stelle Initiativbewerbung im E-Commerce & Handel (m/w/d)
+      - generic [ref=f47e172]:
+        - heading "Bewirb dich" [level=2] [ref=f47e173]
+        - paragraph [ref=f47e174]: Erzähl uns von dir und warum du zu uns passt.Wir melden uns schnellstmöglich bei dir.
+        - form "Bewerbung" [ref=f47e180]:
+          - generic [ref=f47e181]:
+            - generic [ref=f47e182]:
+              - generic [ref=f47e183]: Name (Pflichtfeld)
+              - textbox "Name (Pflichtfeld)" [ref=f47e184]: Chavan
+            - generic [ref=f47e185]:
+              - generic [ref=f47e186]: Vorname (Pflichtfeld)
+              - textbox "Vorname (Pflichtfeld)" [ref=f47e187]: Kranti
+            - generic [ref=f47e188]:
+              - generic [ref=f47e189]: E-Mail (Pflichtfeld)
+              - textbox "E-Mail (Pflichtfeld)" [ref=f47e190]: krantichavan198@gmail.com
+            - generic [ref=f47e191]:
+              - generic [ref=f47e192]: Telefon
+              - textbox "Telefon" [ref=f47e193]: "+4915750174177"
+            - generic [ref=f47e194]:
+              - generic [ref=f47e195]: Gewünschte Position (Pflichtfeld)
+              - combobox "Gewünschte Position (Pflichtfeld)" [ref=f47e197] [cursor=pointer]:
+                - option "Für welche Stelle möchtest du dich bewerben?"
+                - option "IT & Automatisierungsmanager (m/w/d)"
+                - option "Onlinemarketing-/E-Commerce Mitarbeiter (m/w/d)"
+                - option "Mitarbeiter E-Commerce & Produktdaten (m/w/d)" [selected]
+                - option "Verwaltungsmitarbeiter (m/w/d)"
+                - option "Ausbildung im E-Commerce (m/w/d)"
+                - option "E-Commerce, Marketing & Vertrieb (m/w/d)"
+                - option "Praxissemester & Abschlussarbeit im E-Commerce (m/w/d)"
+                - option "IT-Praktikum Informatik-Campus BSZ Wiesau (m/w/d)"
+                - option "Initiativbewerbung im E-Commerce & Handel (m/w/d)"
+            - generic [ref=f47e198]:
+              - generic [ref=f47e199]: Lebenslauf hochladen (Pflichtfeld)
+              - generic [ref=f47e200]:
+                - button "Lebenslauf hochladen (Pflichtfeld)" [ref=f47e201] [cursor=pointer]
+                - generic [ref=f47e204]: Andere PDF auswählen
+                - generic [ref=f47e205]: Nur PDF, max. 5 MB
+              - list [ref=f47e361]:
+                - listitem [ref=f47e362]:
+                  - generic [ref=f47e363]: Kranti_Chavan_Lebenslauf_Leogra-Trading_Mitarbeiter-E-Commerce-Produktdaten.pdf
+                  - 'button "Datei entfernen: Kranti_Chavan_Lebenslauf_Leogra-Trading_Mitarbeiter-E-Commerce-Produktdaten.pdf" [ref=f47e364] [cursor=pointer]'
+            - generic [ref=f47e206]:
+              - generic [ref=f47e207]: Zeugnisse hochladen (Pflichtfeld)
+              - generic [ref=f47e208]:
+                - button "Zeugnisse hochladen (Pflichtfeld)" [ref=f47e209] [cursor=pointer]
+                - generic [ref=f47e212]: Weitere PDF hinzufügen (1 von 3)
+                - generic [ref=f47e213]: Nur PDF, max. 3 Dateien, je 5 MB
+              - list [ref=f47e369]:
+                - listitem [ref=f47e370]:
+                  - generic [ref=f47e371]: Kranti_Chavan_Anschreiben_Leogra-Trading_Mitarbeiter-E-Commerce-Produktdaten.pdf
+                  - 'button "Datei entfernen: Kranti_Chavan_Anschreiben_Leogra-Trading_Mitarbeiter-E-Commerce-Produktdaten.pdf" [ref=f47e372] [cursor=pointer]'
+            - generic [ref=f47e214]:
+              - generic [ref=f47e215]: Anschreiben (Pflichtfeld)
+              - textbox "Anschreiben (Pflichtfeld)" [ref=f47e216]: "Leogra vertreibt seine Produkte über mehrere Online-Kanäle und Marktplätze – saubere, konsistente Produktdaten sind dafür der Schlüssel. Genau diese Arbeit an der Schnittstelle von E-Commerce, Marketing und Technik liegt mir, und ich möchte meine Integrations- und Datenerfahrung in Ihr Team einbringen. Frühester Eintritt: 16.12.2026; Gehaltsvorstellung: 60.000 € brutto/Jahr (verhandelbar)."
+            - generic [ref=f47e219]:
+              - checkbox "Ich habe die Datenschutzerklärung gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Bewerbung gespeichert und verarbeitet werden. (Pflichtfeld)" [checked] [ref=f47e220] [cursor=pointer]
+              - generic [ref=f47e221] [cursor=pointer]:
+                - text: Ich habe die
+                - link "Datenschutzerklärung" [ref=f47e222]:
+                  - /url: https://www.leogra.de/datenschutz
+                - text: gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Bewerbung gespeichert und verarbeitet werden. (Pflichtfeld)
+            - button " Bewerbung absenden" [disabled] [ref=f47e381]:
+              - generic [ref=f47e225]:
+                - generic [ref=f47e382]: 
+                - generic [ref=f47e226]: Bewerbung absenden
+      - generic [ref=f47e229]:
+        - figure [ref=f47e230]:
+          - img "Standort von Leogra Trading" [ref=f47e231]
+        - generic [ref=f47e232]:
+          - paragraph [ref=f47e233]: Häufige Fragen
+          - region "Häufige Fragen" [ref=f47e234]:
+            - group [ref=f47e235]:
+              - generic "Welche Unterlagen brauche ich?" [ref=f47e236] [cursor=pointer]
+            - group [ref=f47e237]:
+              - generic "Brauche ich ein Anschreiben?" [ref=f47e238] [cursor=pointer]
+            - group [ref=f47e239]:
+              - generic "Wie schnell bekomme ich eine Antwort?" [ref=f47e240] [cursor=pointer]
+            - group [ref=f47e241]:
+              - generic "Kann ich mich auch initiativ bewerben?" [ref=f47e242] [cursor=pointer]
+      - region "Initiativbewerbung" [ref=f47e243]:
+        - generic [ref=f47e245]:
+          - generic [ref=f47e247]:
+            - paragraph [ref=f47e248]: Nichts Passendes dabei?
+            - paragraph [ref=f47e249]: Dann erzähl uns von dir und warum du zu uns passt.
+          - link "Initiativ bewerben" [ref=f47e250] [cursor=pointer]:
+            - /url: "#bewerben"
+    - contentinfo [ref=f47e251]:
+      - contentinfo [ref=f47e252]:
+        - generic [ref=f47e253]:
+          - generic [ref=f47e254]:
+            - heading "Über uns" [level=2] [ref=f47e256]
+            - list [ref=f47e258]:
+              - listitem [ref=f47e259]:
+                - link "Kontakt" [ref=f47e260] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/kontakt-leogra-services/
+            - list [ref=f47e262]:
+              - listitem [ref=f47e263]:
+                - link "Karriere" [ref=f47e264] [cursor=pointer]:
+                  - /url: https://www.leogra.de/karriere/
+          - generic [ref=f47e265]:
+            - heading "Dienstleistungen" [level=2] [ref=f47e267]
+            - list [ref=f47e269]:
+              - listitem [ref=f47e270]:
+                - link "Beratung" [ref=f47e271] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/e-commerce-beratung/
+              - listitem [ref=f47e272]:
+                - link "Technische Integration" [ref=f47e273] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/technische-integration/
+              - listitem [ref=f47e274]:
+                - link "Managed-Service" [ref=f47e275] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/managed-service/
+              - listitem [ref=f47e276]:
+                - link "Fullservice" [ref=f47e277] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/fullservice/
+          - generic [ref=f47e278]:
+            - heading "Rechtliches" [level=2] [ref=f47e280]
+            - list [ref=f47e282]:
+              - listitem [ref=f47e283]:
+                - link "Impressum" [ref=f47e284] [cursor=pointer]:
+                  - /url: https://www.leogra.de/impressum-leogra-trading/
+              - listitem [ref=f47e285]:
+                - link "Datenschutz" [ref=f47e286] [cursor=pointer]:
+                  - /url: https://www.leogra.de/datenschutz/
+          - generic [ref=f47e287]:
+            - heading "Partnerschaften" [level=2] [ref=f47e289]
+            - list [ref=f47e291]:
+              - listitem [ref=f47e292]:
+                - link "Marktplätze" [ref=f47e293] [cursor=pointer]:
+                  - /url: https://www.leogra.de/dienstleistungen/marktplaetze/
+              - listitem [ref=f47e294]:
+                - link "Xentral" [ref=f47e295] [cursor=pointer]:
+                  - /url: https://www.leogra.de/xentral-agentur/
+        - generic [ref=f47e298]:
+          - link [ref=f47e367] [cursor=pointer]:
+            - /url: https://www.leogra.de/ueber-uns/
+            - img "Leogra Trading" [ref=f47e368]
+          - list [ref=f47e299]:
+            - listitem [ref=f47e300]:
+              - link "Leogra Trading auf Facebook" [ref=f47e301] [cursor=pointer]:
+                - /url: https://www.facebook.com/LeograTradingGmbH/
+            - listitem [ref=f47e302]:
+              - link "Leogra Trading auf Instagram" [ref=f47e303] [cursor=pointer]:
+                - /url: https://www.instagram.com/leogratradinggmbh/
+            - listitem [ref=f47e304]:
+              - link "Leogra Trading auf LinkedIn" [ref=f47e305] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/leogra-trading-gmbh/
+            - listitem [ref=f47e306]:
+              - link "Leogra Trading auf TikTok" [ref=f47e307] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@daniel.marktplatz
+        - paragraph [ref=f47e310]: © Leogra Trading GmbH 2026. Alle Rechte vorbehalten.
+  - generic [ref=f47e311]: desktop

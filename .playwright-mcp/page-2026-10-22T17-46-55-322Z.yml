@@ -1,0 +1,169 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - banner [ref=f2e4]:
+      - generic [ref=f2e6]:
+        - generic [ref=f2e7]:
+          - navigation [ref=f2e8]:
+            - list [ref=f2e10]:
+              - listitem [ref=f2e11]:
+                - link "About Us" [ref=f2e12] [cursor=pointer]:
+                  - /url: /en/about-us
+              - listitem [ref=f2e14]:
+                - link "Career" [ref=f2e15] [cursor=pointer]:
+                  - /url: /en/career
+              - listitem [ref=f2e18]:
+                - link "Partners" [ref=f2e19] [cursor=pointer]:
+                  - /url: /en/partners
+              - listitem [ref=f2e22]:
+                - link "Newsroom" [ref=f2e23] [cursor=pointer]:
+                  - /url: /en/newsroom
+              - listitem [ref=f2e26]:
+                - link "SCAYLE" [ref=f2e27] [cursor=pointer]:
+                  - /url: https://www.scayle.com/
+          - generic [ref=f2e31]:
+            - button "de" [ref=f2e35] [cursor=pointer]
+            - generic [ref=f2e36]:
+              - text: /
+              - button "en" [ref=f2e37] [cursor=pointer]
+        - link "Home" [ref=f2e39] [cursor=pointer]:
+          - /url: /en
+    - generic [ref=f2e45]:
+      - generic [ref=f2e47]:
+        - img "Multiple laptop screens displaying a fashion website with images of models, a navigation bar, and shopping options." [ref=f2e50]
+        - generic [ref=f2e51]:
+          - heading "404" [level=1] [ref=f2e52]
+          - paragraph [ref=f2e53]: Sorry! The page you are looking for can't be found.
+          - link "Back to home" [ref=f2e55] [cursor=pointer]:
+            - /url: /en/about-us
+      - generic [ref=f2e58]:
+        - generic [ref=f2e59]:
+          - heading "Latest News" [level=2] [ref=f2e60]
+          - link "View all news" [ref=f2e61] [cursor=pointer]:
+            - /url: /en/newsroom/press-releases
+        - generic [ref=f2e63]:
+          - link [ref=f2e64] [cursor=pointer]:
+            - /url: /en/newsroom/press-releases/about-you-opera-die-about-you-fashion-show-laedt-zur-epischen-gerichtsverhandlung-in-den-berliner-admiralspalast
+            - generic [ref=f2e65]:
+              - generic [ref=f2e66]:
+                - paragraph [ref=f2e67]: October 8, 2026 | Events
+                - paragraph [ref=f2e68]: "ABOUT YOU Opera: The ABOUT YOU Fashion Show Stages an Epic Court Trial at Berlin's Admiralspalast"
+              - img "about_you_opera_aw2026_header_16_9" [ref=f2e71]
+          - link [ref=f2e72] [cursor=pointer]:
+            - /url: /en/newsroom/press-releases/the-first-christmas-commercial-of-the-year-about-you-and-lena-gercke-put-up-the-christmas-tree-as-early-as-september
+            - generic [ref=f2e73]:
+              - generic [ref=f2e74]:
+                - paragraph [ref=f2e75]: September 9, 2026 | Corporate
+                - paragraph [ref=f2e76]: "The first Christmas commercial of the year: ABOUT YOU and Lena Gercke put up the Christmas tree as early as September"
+              - img "Lena Gercke in a polka dot dress lounges on a sunbed by a pool with a cocktail. A large house and christmas tree are in the background." [ref=f2e79]
+          - link [ref=f2e80] [cursor=pointer]:
+            - /url: /en/newsroom/press-releases/about-you-opera-the-about-you-fashion-show-becomes-a-court-case
+            - generic [ref=f2e81]:
+              - generic [ref=f2e82]:
+                - paragraph [ref=f2e83]: September 7, 2026 | Events
+                - paragraph [ref=f2e84]: "ABOUT YOU Opera: The ABOUT YOU Fashion Show Becomes a Court Case"
+              - img "about_you_opera_thumbnail_16_9" [ref=f2e87]
+    - contentinfo [ref=f2e88]:
+      - generic [ref=f2e90]:
+        - generic [ref=f2e91]:
+          - link "Compliance" [ref=f2e92] [cursor=pointer]:
+            - /url: /en/footer/compliance
+          - list [ref=f2e93]:
+            - listitem [ref=f2e94]:
+              - link "Business Code of Conduct" [ref=f2e95] [cursor=pointer]:
+                - /url: /en/footer/compliance/business-code-of-conduct
+            - listitem [ref=f2e96]:
+              - link "Business Code of Ethics" [ref=f2e97] [cursor=pointer]:
+                - /url: /en/footer/compliance/business-code-of-ethics
+            - listitem [ref=f2e98]:
+              - link "Human Rights & Environmental Policy" [ref=f2e99] [cursor=pointer]:
+                - /url: /en/footer/compliance/human-rights-environmental-policy
+            - listitem [ref=f2e100]:
+              - link "Whistleblowing" [ref=f2e101] [cursor=pointer]:
+                - /url: /en/footer/compliance/whistleblowing
+            - listitem [ref=f2e102]:
+              - link "Complaints Procedure (Rules of Procedure)" [ref=f2e103] [cursor=pointer]:
+                - /url: /en/footer/compliance/complaints-procedure-rules-of-procedure
+            - listitem [ref=f2e104]:
+              - link "Sustainable Sourcing Policies" [ref=f2e105] [cursor=pointer]:
+                - /url: /en/footer/compliance/sustainable-sourcing-policies
+        - generic [ref=f2e106]:
+          - link "COUPA" [ref=f2e107] [cursor=pointer]:
+            - /url: /en/footer/coupa
+          - list [ref=f2e108]:
+            - listitem [ref=f2e109]:
+              - link "Orders" [ref=f2e110] [cursor=pointer]:
+                - /url: /en/footer/coupa/orders
+            - listitem [ref=f2e111]:
+              - link "Invoicing" [ref=f2e112] [cursor=pointer]:
+                - /url: /en/footer/coupa/invoicing
+            - listitem [ref=f2e113]:
+              - link "FAQ" [ref=f2e114] [cursor=pointer]:
+                - /url: /en/footer/coupa/faq
+        - generic [ref=f2e115]:
+          - link [ref=f2e116] [cursor=pointer]:
+            - /url: "#"
+          - list [ref=f2e117]:
+            - listitem [ref=f2e118]:
+              - link "Sustainability" [ref=f2e119] [cursor=pointer]:
+                - /url: https://en.aboutyou.de/cp/planet-100748
+            - listitem [ref=f2e120]:
+              - link "IT Security" [ref=f2e121] [cursor=pointer]:
+                - /url: /en/footer/it-security
+            - listitem [ref=f2e122]:
+              - link "Service & Contacts" [ref=f2e123] [cursor=pointer]:
+                - /url: /en/footer/service-and-contacts
+            - listitem [ref=f2e124]:
+              - link "ABOUT YOU Online Fashion Store" [ref=f2e125] [cursor=pointer]:
+                - /url: https://en.aboutyou.de
+            - listitem [ref=f2e126]:
+              - link "App Store" [ref=f2e127] [cursor=pointer]:
+                - /url: https://apps.apple.com/app/id985244644
+            - listitem [ref=f2e128]:
+              - link "Play Store" [ref=f2e129] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=de.aboutyou.mobile.app
+        - generic [ref=f2e130]:
+          - paragraph [ref=f2e131]: Social Media
+          - list [ref=f2e132]:
+            - listitem [ref=f2e133]:
+              - link "TikTok" [ref=f2e134] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@aboutyou
+            - listitem [ref=f2e135]:
+              - link "LinkedIn" [ref=f2e136] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/about-you
+            - listitem [ref=f2e137]:
+              - link "Instagram" [ref=f2e138] [cursor=pointer]:
+                - /url: https://www.instagram.com/aboutyou/
+      - separator [ref=f2e140]
+      - generic [ref=f2e142]:
+        - generic [ref=f2e143]: © 2026 ABOUT YOU. ALL RIGHTS RESERVED.
+        - generic [ref=f2e144]:
+          - link "Privacy Policy" [ref=f2e145] [cursor=pointer]:
+            - /url: /en/privacy-policy
+          - link "Privacy Policy for Business Partners & Suppliers" [ref=f2e146] [cursor=pointer]:
+            - /url: /en/privacy-policy-for-business-partners-and-suppliers
+          - link "Legal Notice" [ref=f2e147] [cursor=pointer]:
+            - /url: /en/legal-notice
+  - complementary [active]:
+    - region "Consent Management Platform Interface":
+      - dialog "ABOUT YOU" [ref=f2e149]:
+        - generic [ref=f2e151]:
+          - button "Select language" [ref=f2e153] [cursor=pointer]
+          - generic [ref=f2e154]:
+            - generic:
+              - generic:
+                - text: In order to offer you a personal user experience, we and our 10
+                - link "partners" [ref=f2e155] [cursor=pointer]:
+                  - /url: "javascript:if(window.__ucCmp){ window.__ucCmp.showSecondLayer(); const ucsrContent = setInterval(function () {if(document.getElementById(\"usercentrics-cmp-ui\").shadowRoot.getElementById(\"categories-tab-button\")){clearInterval(ucsrContent);const ucsr = document.getElementById(\"usercentrics-cmp-ui\").shadowRoot; ucsr.getElementById(\"categories-tab-button\").classList.remove(\"active\"); ucsr.getElementById(\"categoriesPanel\").classList.remove(\"active\"); ucsr.getElementById(\"services-tab-button\").classList.add(\"active\"); ucsr.getElementById(\"servicesPanel\").classList.add(\"active\");}}, 10);}"
+                - text: "need your consent (click on \"Ok\"). With your consent, we would like to store and/or retrieve information on your end device (e.g. IP address, user ID, browser information, device identifiers) and use this information for the following purposes: to identify you on third party sites (including using pseudonymised email addresses and phone numbers); to show you personalised ads and content, here and on third party sites (\"personalised ads and content\"); for ad and content measurement; to better understand you (\"market research\") and so that we can develop even better products and services for you (\"product development\"). If you do not consent (click \"opt-out\"), we will limit our use of cookies and technologies to those that are strictly necessary to make our site safe, secure and available in the way you want (\"performance\") - but we will not be able to provide you with the full ABOUT YOU experience. You can adjust your consent individually by clicking on \"Settings\" and revoke it at any time with effect for the future."
+        - generic [ref=f2e156]:
+          - navigation "Footer including buttons" [ref=f2e158]:
+            - link "Open Privacy Policy" [ref=f2e159] [cursor=pointer]:
+              - /url: https://corporate.aboutyou.de/en/privacy-policy
+              - text: Privacy Policy
+            - link "Open Imprint" [ref=f2e160] [cursor=pointer]:
+              - /url: https://corporate.aboutyou.de/en/legal-notice
+              - text: Imprint
+          - generic [ref=f2e162]:
+            - button "Settings" [ref=f2e163] [cursor=pointer]
+            - button "Reject" [ref=f2e164] [cursor=pointer]
+            - button "Ok" [ref=f2e165] [cursor=pointer]

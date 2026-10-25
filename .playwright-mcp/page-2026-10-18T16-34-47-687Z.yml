@@ -1,0 +1,735 @@
+- generic [ref=f12e1]:
+  - generic:
+    - alert
+    - alert
+  - generic [ref=f12e3]:
+    - generic [ref=f12e4]:
+      - banner [ref=f12e5]:
+        - generic:
+          - link "Zum Hauptinhalt":
+            - /url: "#skipContent"
+        - generic [ref=f12e6]:
+          - link [ref=f12e16] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+            - img "Innomotics Logo" [ref=f12e17]
+          - generic [ref=f12e19]:
+            - button "Menü" [ref=f12e26] [cursor=pointer]:
+              - generic [ref=f12e27]: 
+            - generic [ref=f12e29]:
+              - generic:
+                - list:
+                  - listitem
+      - main [ref=f12e31]:
+        - generic [ref=f12e32]:
+          - region "Zum Hauptinhalt"
+          - region "Stellenbewerbungsformular" [ref=f12e62]:
+            - list [ref=f12e194]:
+              - listitem [ref=f12e195]:
+                - link "Abmelden" [ref=f12e196] [cursor=pointer]:
+                  - /url: javascript:logoutUrl('/portalcareer?company=InnoProd&site=&lang=de_DE&login_ns=logout&loginFlowRequired=true&_s.crb=TRVoPZezUIrzvL%252bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%253d&showLogOutMsg=true&brandUrl=','https://jobs.innomotics.com/services/security/logoutp?callback=callback&locale=de_DE');
+              - listitem [ref=f12e197]:
+                - button "Optionen" [ref=f12e199] [cursor=pointer]:
+                  - text: Optionen
+                  - button ""
+              - listitem [ref=f12e200]:
+                - combobox "Sprache" [ref=f12e201] [cursor=pointer]:
+                  - text: Deutsch ‎(German)‎
+                  - button ""
+            - heading "Global E-Business Operations Manager (m/w/d) (7005)" [level=1] [ref=f12e203]
+            - note [ref=f12e205]:
+              - paragraph [ref=f12e208]: Hallo und willkommen auf deinem Bewerbungsprofil!
+            - generic [ref=f12e209]:
+              - button "Alle Abschnitte einblenden" [ref=f12e210] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f12e211]: +
+                - text: Alle Abschnitte einblenden
+              - button "Alle Abschnitte ausblenden" [ref=f12e212] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f12e213]: −
+                - text: Alle Abschnitte ausblenden
+            - alert
+            - generic [ref=f12e215]:
+              - heading "Meine Dokumente" [level=2]:
+                - button "Meine Dokumente" [expanded] [ref=f12e216] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e217]: 
+                  - text: Meine Dokumente  
+              - group "Meine Dokumente" [ref=f12e219]:
+                - generic [ref=f12e220]: "Zulässige Dateiformate: DOCX, PDF, Bild und Text (Dateiformate MSG, PPT und XLS sind für Lebensläufe oder Anschreiben nicht zulässig)"
+                - generic [ref=f12e223]:
+                  - generic [ref=f12e224]:
+                    - generic [ref=f12e226]:
+                      - generic [ref=f12e227]:
+                        - generic [aria-hidden] [ref=f12e228]: "*"
+                        - text: Lebenslauf/CV
+                      - generic [ref=f12e232] [cursor=pointer]:
+                        - text: 
+                        - 'tooltip "Dokument herunterladen Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf Zuletzt geändert: 18.10.2026 Erforderlich" [ref=f12e233]'
+                        - 'button "Lebenslauf/CV Dokument herunterladen Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf Zuletzt geändert: 18.10.2026 Erforderlich" [ref=f12e234]':
+                          - text: Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf
+                          - generic [ref=f12e235]: (18.10.2026)
+                        - generic [ref=f12e236]:
+                          - button "Lebenslauf/CV Dokument Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf bearbeiten Öffnet ein Dialogfeld" [ref=f12e237]: ✏
+                          - tooltip "Dokument Kranti_Chavan_Lebenslauf_Innomotics_Global-E-Business-Operations-Manager.pdf bearbeiten Öffnet ein Dialogfeld" [ref=f12e238]
+                    - generic [ref=f12e241]:
+                      - text: Anschreiben
+                      - generic [ref=f12e245] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Laden Sie das Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf herunter. ZULETZT GEÄNDERT:18.10.2026" [ref=f12e678]
+                        - button "Anschreiben Laden Sie das Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf herunter. ZULETZT GEÄNDERT:18.10.2026" [ref=f12e679]:
+                          - text: Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf
+                          - generic [ref=f12e680]: (18.10.2026)
+                        - generic [ref=f12e248]:
+                          - button "Anschreiben Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf löschen" [ref=f12e682]: 
+                          - tooltip "Dokument Kranti_Chavan_Anschreiben_Innomotics_Global-E-Business-Operations-Manager.pdf löschen" [ref=f12e681]
+                  - generic [ref=f12e253]:
+                    - text: Zusätzliche Dokumente (Zeugnisse, etc.)
+                    - generic [ref=f12e257] [cursor=pointer]:
+                      - text: 
+                      - tooltip "Dokument hinzufügen" [ref=f12e258]
+                      - generic [ref=f12e259]: Dokument hinzufügen
+                      - generic [ref=f12e260]:
+                        - button "Zusätzliche Dokumente (Zeugnisse, etc.) Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f12e261]: 
+                        - tooltip "Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f12e262]
+            - generic [ref=f12e265]:
+              - heading "Profilinformationen" [level=2]:
+                - button "Profilinformationen" [expanded] [ref=f12e266] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e267]: 
+                  - text: Profilinformationen  
+              - group "Profilinformationen" [ref=f12e269]:
+                - generic [ref=f12e270]: Bitte vervollständigen Sie Ihre persönlichen Informationen.
+                - generic [ref=f12e273]:
+                  - generic [ref=f12e275]:
+                    - generic [ref=f12e276]:
+                      - generic [aria-hidden] [ref=f12e277]: "*"
+                      - text: Vorname
+                    - textbox "Vorname" [ref=f12e279]: Kranti
+                  - generic [ref=f12e281]:
+                    - generic [ref=f12e282]:
+                      - generic [aria-hidden] [ref=f12e283]: "*"
+                      - text: Nachname
+                    - textbox "Nachname" [ref=f12e285]: Chavan
+                  - generic [ref=f12e287]:
+                    - text: Rufname
+                    - textbox "Rufname" [ref=f12e289]
+                  - generic [ref=f12e292]:
+                    - generic [ref=f12e293]:
+                      - generic [aria-hidden] [ref=f12e294]: "*"
+                      - text: E-Mail Adresse
+                    - textbox "E-Mail Adresse" [ref=f12e296]: krantichavan198@gmail.com
+                  - generic [ref=f12e298]:
+                    - generic [ref=f12e299]:
+                      - generic [aria-hidden] [ref=f12e300]: "*"
+                      - text: Telefonnummer (mobil)
+                    - textbox "Telefonnummer (mobil)" [ref=f12e302]: +49 15750174177
+                  - generic [ref=f12e304]:
+                    - generic [ref=f12e305]:
+                      - generic [aria-hidden] [ref=f12e306]: "*"
+                      - text: Land
+                    - generic [ref=f12e307]:
+                      - generic [ref=f12e308]:
+                        - status
+                      - combobox "Land" [ref=f12e309]: Deutschland
+                      - button "Land" [ref=f12e310] [cursor=pointer]:
+                        - generic [ref=f12e311]: 
+                  - generic [ref=f12e314]:
+                    - generic [ref=f12e315]:
+                      - generic [aria-hidden] [ref=f12e316]: "*"
+                      - text: Wohnort
+                    - textbox "Wohnort" [ref=f12e318]: Karlsruhe
+                  - generic [ref=f12e320]:
+                    - text: Straße/Hausnummer
+                    - textbox "Straße/Hausnummer" [ref=f12e322]: Blücherstraße 6
+                  - generic [ref=f12e324]:
+                    - generic [ref=f12e325]:
+                      - generic [aria-hidden] [ref=f12e326]: "*"
+                      - text: Postleitzahl
+                    - textbox "Postleitzahl" [ref=f12e328]: "76185"
+                  - generic [ref=f12e331]:
+                    - text: Staat/Region (für Bewerber aus den USA oder Kanada)
+                    - generic [ref=f12e332]:
+                      - generic [ref=f12e333]:
+                        - status
+                      - combobox "Staat/Region (für Bewerber aus den USA oder Kanada)" [ref=f12e334]
+                      - button "Staat/Region (für Bewerber aus den USA oder Kanada)" [ref=f12e335] [cursor=pointer]:
+                        - generic [ref=f12e336]: 
+            - generic [ref=f12e338]:
+              - heading "Previous Employment" [level=2]:
+                - button "Previous Employment" [expanded] [ref=f12e339] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e340]: 
+                  - text: Previous Employment  
+              - group "Previous Employment" [ref=f12e342]:
+                - generic [ref=f12e343]:
+                  - generic [ref=f12e344]:
+                    - text: Zeilennummer 1
+                    - generic [ref=f12e347]:
+                      - generic [ref=f12e349]:
+                        - generic [ref=f12e350]:
+                          - generic [aria-hidden] [ref=f12e351]: "*"
+                          - text: Start Date
+                        - generic "Start Date" [ref=f12e354]:
+                          - generic [ref=f12e358]:
+                            - textbox "Start Date" [ref=f12e359]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 01.10.2024
+                            - generic [ref=f12e361] [cursor=pointer]
+                      - generic [ref=f12e365]:
+                        - generic [ref=f12e366]:
+                          - generic [aria-hidden] [ref=f12e367]: "*"
+                          - text: End Date
+                        - generic "End Date" [ref=f12e370]:
+                          - generic [ref=f12e374]:
+                            - textbox "End Date" [ref=f12e375]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 15.12.2026
+                            - generic [ref=f12e377] [cursor=pointer]
+                      - generic [ref=f12e381]:
+                        - generic [ref=f12e382]:
+                          - generic [aria-hidden] [ref=f12e383]: "*"
+                          - text: Company Name
+                        - textbox "Company Name" [ref=f12e385]: Rockwell Automation
+                      - generic [ref=f12e388]:
+                        - text: Type of Business
+                        - generic [ref=f12e389]:
+                          - generic [ref=f12e390]:
+                            - status
+                          - combobox "Type of Business" [ref=f12e391]
+                          - button "Type of Business" [ref=f12e392] [cursor=pointer]:
+                            - generic [ref=f12e393]: 
+                      - generic [ref=f12e395]:
+                        - generic [ref=f12e396]:
+                          - generic [aria-hidden] [ref=f12e397]: "*"
+                          - text: Title
+                        - textbox "Title" [ref=f12e399]: Software Engineer
+                      - button " Entfernen Previous Employment" [ref=f12e401] [cursor=pointer]:
+                        - text:  Entfernen
+                        - generic "Previous Employment" [ref=f12e402]: 
+                  - generic [ref=f12e403]: Abschnitt Previous Employment mit 1 Zeilen
+                - button " Hinzufügen Previous Employment" [ref=f12e405] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Previous Employment" [ref=f12e406]
+            - generic [ref=f12e408]:
+              - heading "Formal Education" [level=2]:
+                - button "Formal Education" [expanded] [ref=f12e409] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e410]: 
+                  - text: Formal Education  
+              - group "Formal Education" [ref=f12e412]:
+                - generic [ref=f12e413]:
+                  - generic [ref=f12e479]:
+                    - text: Zeilennummer 1
+                    - generic [ref=f12e482]:
+                      - generic [ref=f12e484]:
+                        - generic [ref=f12e485]:
+                          - generic [aria-hidden] [ref=f12e486]: "*"
+                          - text: School
+                        - textbox "School" [ref=f12e488]: Savitribai Phule Pune University, Indien
+                      - generic [ref=f12e490]:
+                        - generic [ref=f12e491]:
+                          - generic [aria-hidden] [ref=f12e492]: "*"
+                          - text: Degree
+                        - generic [ref=f12e493]:
+                          - status [ref=f12e683]: Ein oder mehrere Ergebnisse verfügbar. Drücken Sie die Pfeiltasten nach oben oder unten, um in der Auswahlliste zu navigieren. Drücken Sie Alt + Pfeiltasten, um die Größe der Auswahlliste zu ändern.
+                          - combobox "Degree" [expanded] [ref=f12e495]: Bachelor
+                          - button "Degree" [ref=f12e496] [cursor=pointer]:
+                            - generic [ref=f12e497]: 
+                      - generic [ref=f12e499]:
+                        - generic [ref=f12e500]:
+                          - generic [aria-hidden] [ref=f12e501]: "*"
+                          - text: Major
+                        - generic [ref=f12e502]:
+                          - status [ref=f12e711]: Ein oder mehrere Ergebnisse verfügbar. Drücken Sie die Pfeiltasten nach oben oder unten, um in der Auswahlliste zu navigieren. Drücken Sie Alt + Pfeiltasten, um die Größe der Auswahlliste zu ändern.
+                          - combobox "Major" [expanded] [active] [ref=f12e504]:
+                            - listbox [expanded] [ref=f12e712]:
+                              - option [ref=f12e713] [cursor=pointer]:
+                                - menuitem "Keine Auswahl" [ref=f12e714]
+                              - option [ref=f12e715] [cursor=pointer]:
+                                - menuitem "3D Design" [ref=f12e716]
+                              - option [ref=f12e717] [cursor=pointer]:
+                                - menuitem "Accounting" [ref=f12e718]
+                              - option [ref=f12e719] [cursor=pointer]:
+                                - menuitem "Aeronautial and Astronautical Engineering" [ref=f12e720]
+                              - option [ref=f12e721] [cursor=pointer]:
+                                - menuitem "Aerospace Engineering" [ref=f12e722]
+                              - option [ref=f12e723] [cursor=pointer]:
+                                - menuitem "African Studies" [ref=f12e724]
+                              - option [ref=f12e725] [cursor=pointer]:
+                                - menuitem "Agriscience Education" [ref=f12e726]
+                              - option [ref=f12e727] [cursor=pointer]:
+                                - menuitem "Alternative Energy" [ref=f12e728]
+                              - option [ref=f12e729] [cursor=pointer]:
+                                - menuitem "American Studies" [ref=f12e730]
+                              - option [ref=f12e731] [cursor=pointer]:
+                                - menuitem "Ancient nad Medieval Studies" [ref=f12e732]
+                              - option [ref=f12e733] [cursor=pointer]:
+                                - menuitem "Anthropology" [ref=f12e734]
+                              - option [ref=f12e735] [cursor=pointer]:
+                                - menuitem "Applied International Studies" [ref=f12e736]
+                              - option [ref=f12e737] [cursor=pointer]:
+                                - menuitem "Applied Science Engineering" [ref=f12e738]
+                              - option [ref=f12e739] [cursor=pointer]:
+                                - menuitem "Architecture" [ref=f12e740]
+                              - option [ref=f12e741] [cursor=pointer]:
+                                - menuitem "Art, Culture and Technology" [ref=f12e742]
+                              - option [ref=f12e743] [cursor=pointer]:
+                                - menuitem "Arts" [ref=f12e744]
+                              - option [ref=f12e745] [cursor=pointer]:
+                                - menuitem "Asian Studies" [ref=f12e746]
+                              - option [ref=f12e747] [cursor=pointer]:
+                                - menuitem "Astronomy" [ref=f12e748]
+                              - option [ref=f12e749] [cursor=pointer]:
+                                - menuitem "Atmospheric Chemistry" [ref=f12e750]
+                              - option [ref=f12e751] [cursor=pointer]:
+                                - menuitem "Automation" [ref=f12e752]
+                              - option [ref=f12e753] [cursor=pointer]:
+                                - menuitem "Automotive Engineering" [ref=f12e754]
+                              - option [ref=f12e755] [cursor=pointer]:
+                                - menuitem "Aviation" [ref=f12e756]
+                              - option [ref=f12e757] [cursor=pointer]:
+                                - menuitem "Biochemistry" [ref=f12e758]
+                              - option [ref=f12e759] [cursor=pointer]:
+                                - menuitem "Biological Engineering" [ref=f12e760]
+                              - option [ref=f12e761] [cursor=pointer]:
+                                - menuitem "Biological Science" [ref=f12e762]
+                              - option [ref=f12e763] [cursor=pointer]:
+                                - menuitem "Biology" [ref=f12e764]
+                              - option [ref=f12e765] [cursor=pointer]:
+                                - menuitem "Biomedical Engineering" [ref=f12e766]
+                              - option [ref=f12e767] [cursor=pointer]:
+                                - menuitem "Brain and Cognitice Sciences" [ref=f12e768]
+                              - option [ref=f12e769] [cursor=pointer]:
+                                - menuitem "BTEC" [ref=f12e770]
+                              - option [ref=f12e771] [cursor=pointer]:
+                                - menuitem "Business" [ref=f12e772]
+                              - option [ref=f12e773] [cursor=pointer]:
+                                - menuitem "Business Analytics" [ref=f12e774]
+                              - option [ref=f12e775] [cursor=pointer]:
+                                - menuitem "Business Development" [ref=f12e776]
+                              - option [ref=f12e777] [cursor=pointer]:
+                                - menuitem "Chemical Engineering" [ref=f12e778]
+                              - option [ref=f12e779] [cursor=pointer]:
+                                - menuitem "Chemistry" [ref=f12e780]
+                              - option [ref=f12e781] [cursor=pointer]:
+                                - menuitem "City and Regoinal Planning" [ref=f12e782]
+                              - option [ref=f12e783] [cursor=pointer]:
+                                - menuitem "Civil Engineering" [ref=f12e784]
+                              - option [ref=f12e785] [cursor=pointer]:
+                                - menuitem "Climate Change" [ref=f12e786]
+                              - option [ref=f12e787] [cursor=pointer]:
+                                - menuitem "Cognitive & Language Processing Systems" [ref=f12e788]
+                              - option [ref=f12e789] [cursor=pointer]:
+                                - menuitem "Communication" [ref=f12e790]
+                              - option [ref=f12e791] [cursor=pointer]:
+                                - menuitem "Comparative Literature" [ref=f12e792]
+                              - option [ref=f12e793] [cursor=pointer]:
+                                - menuitem "Comparative Media Studies" [ref=f12e794]
+                              - option [ref=f12e795] [cursor=pointer]:
+                                - menuitem "Computer Engineering" [ref=f12e796]
+                              - option [ref=f12e797] [cursor=pointer]:
+                                - menuitem "Computer Games Production" [ref=f12e798]
+                              - option [ref=f12e799] [cursor=pointer]:
+                                - menuitem "Computer Science" [ref=f12e800]
+                              - option [ref=f12e801] [cursor=pointer]:
+                                - menuitem "Computing with Digital Media" [ref=f12e802]
+                              - option [ref=f12e803] [cursor=pointer]:
+                                - menuitem "Construction and Heavy Equipment" [ref=f12e804]
+                              - option [ref=f12e805] [cursor=pointer]:
+                                - menuitem "Construction and the Built Environment" [ref=f12e806]
+                              - option [ref=f12e807] [cursor=pointer]:
+                                - menuitem "Construction Systems Management" [ref=f12e808]
+                              - option [ref=f12e809] [cursor=pointer]:
+                                - menuitem "Criminal Justice" [ref=f12e810]
+                              - option [ref=f12e811] [cursor=pointer]:
+                                - menuitem "Customer Relations" [ref=f12e812]
+                              - option [ref=f12e813] [cursor=pointer]:
+                                - menuitem "Data Analytics" [ref=f12e814]
+                              - option [ref=f12e815] [cursor=pointer]:
+                                - menuitem "Data Science" [ref=f12e816]
+                              - option [ref=f12e817] [cursor=pointer]:
+                                - menuitem "Design" [ref=f12e818]
+                              - option [ref=f12e819] [cursor=pointer]:
+                                - menuitem "Digital Communication Systems" [ref=f12e820]
+                              - option [ref=f12e821] [cursor=pointer]:
+                                - menuitem "Drafting" [ref=f12e822]
+                              - option [ref=f12e823] [cursor=pointer]:
+                                - menuitem "Dynamics and Controls Engineering" [ref=f12e824]
+                              - option [ref=f12e825] [cursor=pointer]:
+                                - menuitem "Earth, Atmospheric and Planetary Sciences" [ref=f12e826]
+                              - option [ref=f12e827] [cursor=pointer]:
+                                - menuitem "Economics" [ref=f12e828]
+                              - option [ref=f12e829] [cursor=pointer]:
+                                - menuitem "Education" [ref=f12e830]
+                              - option [ref=f12e831] [cursor=pointer]:
+                                - menuitem "Electrical Engineering" [ref=f12e832]
+                              - option [ref=f12e833] [cursor=pointer]:
+                                - menuitem "Electrical Power Systems" [ref=f12e834]
+                              - option [ref=f12e835] [cursor=pointer]:
+                                - menuitem "Electronic Engineering" [ref=f12e836]
+                              - option [ref=f12e837] [cursor=pointer]:
+                                - menuitem "Electronics" [ref=f12e838]
+                              - option [ref=f12e839] [cursor=pointer]:
+                                - menuitem "Embedded Digistal Systems" [ref=f12e840]
+                              - option [ref=f12e841] [cursor=pointer]:
+                                - menuitem "Energy Studies" [ref=f12e842]
+                              - option [ref=f12e843] [cursor=pointer]:
+                                - menuitem "Engineering Business Management" [ref=f12e844]
+                              - option [ref=f12e845] [cursor=pointer]:
+                                - menuitem "Engineering General" [ref=f12e846]
+                              - option [ref=f12e847] [cursor=pointer]:
+                                - menuitem "Engineering Management" [ref=f12e848]
+                              - option [ref=f12e849] [cursor=pointer]:
+                                - menuitem "Engineering Physics" [ref=f12e850]
+                              - option [ref=f12e851] [cursor=pointer]:
+                                - menuitem "English" [ref=f12e852]
+                              - option [ref=f12e853] [cursor=pointer]:
+                                - menuitem "Entreprenuership & Innovation" [ref=f12e854]
+                              - option [ref=f12e855] [cursor=pointer]:
+                                - menuitem "Environment Engineering" [ref=f12e856]
+                              - option [ref=f12e857] [cursor=pointer]:
+                                - menuitem "Environmental Science" [ref=f12e858]
+                              - option [ref=f12e859] [cursor=pointer]:
+                                - menuitem "Etomology" [ref=f12e860]
+                              - option [ref=f12e861] [cursor=pointer]:
+                                - menuitem "Evolution and Ecology" [ref=f12e862]
+                              - option [ref=f12e863] [cursor=pointer]:
+                                - menuitem "Evolutionary and Adaptive Systems" [ref=f12e864]
+                              - option [ref=f12e865] [cursor=pointer]:
+                                - menuitem "Facilities Engineering" [ref=f12e866]
+                              - option [ref=f12e867] [cursor=pointer]:
+                                - menuitem "Film" [ref=f12e868]
+                              - option [ref=f12e869] [cursor=pointer]:
+                                - menuitem "Finance" [ref=f12e870]
+                              - option [ref=f12e871] [cursor=pointer]:
+                                - menuitem "Fine Arts" [ref=f12e872]
+                              - option [ref=f12e873] [cursor=pointer]:
+                                - menuitem "Food Safety" [ref=f12e874]
+                              - option [ref=f12e875] [cursor=pointer]:
+                                - menuitem "Food Science Techbology" [ref=f12e876]
+                              - option [ref=f12e877] [cursor=pointer]:
+                                - menuitem "Food, Agriculture & Biological Engineering" [ref=f12e878]
+                              - option [ref=f12e879] [cursor=pointer]:
+                                - menuitem "Foreign Language" [ref=f12e880]
+                              - option [ref=f12e881] [cursor=pointer]:
+                                - menuitem "Forestry" [ref=f12e882]
+                              - option [ref=f12e883] [cursor=pointer]:
+                                - menuitem "Foundations of Software Systems" [ref=f12e884]
+                              - option [ref=f12e885] [cursor=pointer]:
+                                - menuitem "General Management" [ref=f12e886]
+                              - option [ref=f12e887] [cursor=pointer]:
+                                - menuitem "General Studies" [ref=f12e888]
+                              - option [ref=f12e889] [cursor=pointer]:
+                                - menuitem "Geograhic Information Science" [ref=f12e890]
+                              - option [ref=f12e891] [cursor=pointer]:
+                                - menuitem "Geography" [ref=f12e892]
+                              - option [ref=f12e893] [cursor=pointer]:
+                                - menuitem "Geotechnical Engineering" [ref=f12e894]
+                              - option [ref=f12e895] [cursor=pointer]:
+                                - menuitem "Government" [ref=f12e896]
+                              - option [ref=f12e897] [cursor=pointer]:
+                                - menuitem "Graphic Arts" [ref=f12e898]
+                              - option [ref=f12e899] [cursor=pointer]:
+                                - menuitem "Healthcare" [ref=f12e900]
+                              - option [ref=f12e901] [cursor=pointer]:
+                                - menuitem "History" [ref=f12e902]
+                              - option [ref=f12e903] [cursor=pointer]:
+                                - menuitem "Hospitality Management" [ref=f12e904]
+                              - option [ref=f12e905] [cursor=pointer]:
+                                - menuitem "Human Resources" [ref=f12e906]
+                              - option [ref=f12e907] [cursor=pointer]:
+                                - menuitem "Human-Computer Interaction" [ref=f12e908]
+                              - option [ref=f12e909] [cursor=pointer]:
+                                - menuitem "Humanities" [ref=f12e910]
+                              - option [ref=f12e911] [cursor=pointer]:
+                                - menuitem "Industrial & Systems Engineering" [ref=f12e912]
+                          - button "Major" [ref=f12e505] [cursor=pointer]:
+                            - generic [ref=f12e506]: 
+                      - generic [ref=f12e509]:
+                        - text: Start Date
+                        - generic "Start Date" [ref=f12e512]:
+                          - generic [ref=f12e516]:
+                            - textbox "Start Date" [ref=f12e517]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 01.06.2016
+                            - generic [ref=f12e519] [cursor=pointer]
+                      - generic [ref=f12e523]:
+                        - text: End Date
+                        - generic "End Date" [ref=f12e526]:
+                          - generic [ref=f12e530]:
+                            - textbox "End Date" [ref=f12e531]:
+                              - /placeholder: TT.MM.JJJJ
+                              - text: 30.06.2020
+                            - generic [ref=f12e533] [cursor=pointer]
+                      - generic [ref=f12e537]:
+                        - text: Description
+                        - textbox "Description" [ref=f12e539]
+                      - button " Entfernen Formal Education" [ref=f12e542] [cursor=pointer]:
+                        - text:  Entfernen
+                        - generic "Formal Education" [ref=f12e543]: 
+                  - generic [ref=f12e544]: Abschnitt Formal Education mit 1 Zeilen
+                - button " Hinzufügen Formal Education" [ref=f12e546] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Formal Education" [ref=f12e547]
+            - generic [ref=f12e549]:
+              - heading "Language" [level=2]:
+                - button "Language" [expanded] [ref=f12e550] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e551]: 
+                  - text: Language  
+              - group "Language" [ref=f12e553]:
+                - generic [ref=f12e554]:
+                  - generic [ref=f12e555]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e556]: Abschnitt Language mit 0 Zeilen
+                - button " Hinzufügen Language" [ref=f12e558] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Language" [ref=f12e559]
+            - generic [ref=f12e561]:
+              - heading "Certification Name" [level=2]:
+                - button "Certification Name" [expanded] [ref=f12e562] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e563]: 
+                  - text: Certification Name  
+              - group "Certification Name" [ref=f12e565]:
+                - generic [ref=f12e566]:
+                  - generic [ref=f12e567]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e568]: Abschnitt Certification Name mit 0 Zeilen
+                - button " Hinzufügen Certification Name" [ref=f12e570] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Certification Name" [ref=f12e571]
+            - generic [ref=f12e573]:
+              - heading "Honors/Awards" [level=2]:
+                - button "Honors/Awards" [expanded] [ref=f12e574] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e575]: 
+                  - text: Honors/Awards  
+              - group "Honors/Awards" [ref=f12e577]:
+                - generic [ref=f12e578]:
+                  - generic [ref=f12e579]: Dieser Abschnitt enthält keine Elemente.
+                  - generic [ref=f12e580]: Abschnitt Honors/Awards mit 0 Zeilen
+                - button " Hinzufügen Honors/Awards" [ref=f12e582] [cursor=pointer]:
+                  - text:  Hinzufügen
+                  - generic "Honors/Awards" [ref=f12e583]
+            - generic [ref=f12e585]:
+              - heading "Stellenspezifische Informationen" [level=2]:
+                - button "Stellenspezifische Informationen" [expanded] [ref=f12e586] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f12e587]: 
+                  - text: Stellenspezifische Informationen  
+              - group "Stellenspezifische Informationen" [ref=f12e589]:
+                - generic [ref=f12e592]:
+                  - generic [ref=f12e594]:
+                    - generic [ref=f12e595]:
+                      - generic [aria-hidden] [ref=f12e596]: "*"
+                      - text: Wie hast du von uns erfahren?
+                    - generic [ref=f12e597]:
+                      - generic [ref=f12e598]:
+                        - status
+                      - combobox "Wie hast du von uns erfahren?" [ref=f12e599]
+                      - button "Wie hast du von uns erfahren?" [ref=f12e600] [cursor=pointer]:
+                        - generic [ref=f12e601]: 
+                  - generic [ref=f12e603]:
+                    - text: Falls "keine der genannten" trage es bitte hier ein
+                    - textbox "Falls \"keine der genannten\" trage es bitte hier ein" [ref=f12e605]
+                  - generic [ref=f12e607]:
+                    - text: Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?
+                    - generic [ref=f12e608]:
+                      - generic [ref=f12e609]:
+                        - status
+                      - combobox "Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?" [ref=f12e610]
+                      - button "Hast du eine Schwerbehinderung oder bist du schwerbehinderten Menschen gleichgestellt?" [ref=f12e611] [cursor=pointer]:
+                        - generic [ref=f12e612]: 
+                  - generic [ref=f12e615]:
+                    - text: Geburtsdatum (TT-MM-JJJJ)
+                    - generic "Geburtsdatum (TT-MM-JJJJ)" [ref=f12e618]:
+                      - generic [ref=f12e622]:
+                        - textbox "Geburtsdatum (TT-MM-JJJJ)" [ref=f12e623]:
+                          - /placeholder: TT.MM.JJJJ
+                          - text: 14.10.1997
+                        - generic [ref=f12e625] [cursor=pointer]
+                  - generic [ref=f12e629]:
+                    - text: Salary Expectations
+                    - textbox "Salary Expectations" [ref=f12e631]: "60000"
+            - note
+            - generic:
+              - button "Profil anzeigen" [ref=f12e633] [cursor=pointer]
+              - generic [ref=f12e634]:
+                - button "Speichern" [ref=f12e635] [cursor=pointer]
+                - button "Bewerben" [ref=f12e636] [cursor=pointer]
+    - contentinfo [ref=f12e34]:
+      - generic [ref=f12e37]:
+        - list [ref=f12e38]:
+          - listitem [ref=f12e39]:
+            - link "Impressum" [ref=f12e40] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+          - listitem [ref=f12e41]:
+            - button "Cookie Consent Manager" [ref=f12e42] [cursor=pointer]
+          - listitem [ref=f12e43]:
+            - link "View All Jobs" [ref=f12e44] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/viewalljobs/
+          - listitem [ref=f12e45]:
+            - link "Contact Us" [ref=f12e46] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/
+        - list [ref=f12e48]:
+          - listitem [ref=f12e49]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f12e50] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/innomotics
+              - generic [ref=f12e51]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=f12e56]: Copyright © Innomotics
+  - listbox [expanded] [ref=f12e922]:
+    - option [ref=f12e923] [cursor=pointer]:
+      - menuitem "Industrial Informatics and Signal Processing" [ref=f12e924]
+    - option [ref=f12e925] [cursor=pointer]:
+      - menuitem "Information Science" [ref=f12e926]
+    - option [ref=f12e927] [cursor=pointer]:
+      - menuitem "Information Systems" [ref=f12e928]
+    - option [ref=f12e929] [cursor=pointer]:
+      - menuitem "Information Technology" [ref=f12e930]
+    - option [ref=f12e931] [cursor=pointer]:
+      - menuitem "Information Technology with Business Management" [ref=f12e932]
+    - option [ref=f12e933] [cursor=pointer]:
+      - menuitem "Intelligent Systems" [ref=f12e934]
+    - option [ref=f12e935] [cursor=pointer]:
+      - menuitem "Interactive Systems" [ref=f12e936]
+    - option [ref=f12e937] [cursor=pointer]:
+      - menuitem "Internaltional Business Law" [ref=f12e938]
+    - option [ref=f12e939] [cursor=pointer]:
+      - menuitem "International Business" [ref=f12e940]
+    - option [ref=f12e941] [cursor=pointer]:
+      - menuitem "International Development" [ref=f12e942]
+    - option [ref=f12e943] [cursor=pointer]:
+      - menuitem "International Disputre Resolution" [ref=f12e944]
+    - option [ref=f12e945] [cursor=pointer]:
+      - menuitem "International Law" [ref=f12e946]
+    - option [ref=f12e947] [cursor=pointer]:
+      - menuitem "Landscape Architecture" [ref=f12e948]
+    - option [ref=f12e949] [cursor=pointer]:
+      - menuitem "Language (Specific)" [ref=f12e950]
+    - option [ref=f12e951] [cursor=pointer]:
+      - menuitem "Latin America Studies" [ref=f12e952]
+    - option [ref=f12e953] [cursor=pointer]:
+      - menuitem "Law" [ref=f12e954]
+    - option [ref=f12e955] [cursor=pointer]:
+      - menuitem "Liberal Arts" [ref=f12e956]
+    - option [ref=f12e957] [cursor=pointer]:
+      - menuitem "Linguistics" [ref=f12e958]
+    - option [ref=f12e959] [cursor=pointer]:
+      - menuitem "Literature" [ref=f12e960]
+    - option [ref=f12e961] [cursor=pointer]:
+      - menuitem "Maintenance Engineering" [ref=f12e962]
+    - option [ref=f12e963] [cursor=pointer]:
+      - menuitem "Management" [ref=f12e964]
+    - option [ref=f12e965] [cursor=pointer]:
+      - menuitem "Manufacturing Engineering" [ref=f12e966]
+    - option [ref=f12e967] [cursor=pointer]:
+      - menuitem "Maritime Law" [ref=f12e968]
+    - option [ref=f12e969] [cursor=pointer]:
+      - menuitem "Marketing" [ref=f12e970]
+    - option [ref=f12e971] [cursor=pointer]:
+      - menuitem "Material Planning" [ref=f12e972]
+    - option [ref=f12e973] [cursor=pointer]:
+      - menuitem "Material Science and Engineering" [ref=f12e974]
+    - option [ref=f12e975] [cursor=pointer]:
+      - menuitem "Materials" [ref=f12e976]
+    - option [ref=f12e977] [cursor=pointer]:
+      - menuitem "Mathematics" [ref=f12e978]
+    - option [ref=f12e979] [cursor=pointer]:
+      - menuitem "Mathematics with Computer Science" [ref=f12e980]
+    - option [ref=f12e981] [cursor=pointer]:
+      - menuitem "Mechanical Engineering" [ref=f12e982]
+    - option [ref=f12e983] [cursor=pointer]:
+      - menuitem "Media" [ref=f12e984]
+    - option [ref=f12e985] [cursor=pointer]:
+      - menuitem "Metallurgy" [ref=f12e986]
+    - option [ref=f12e987] [cursor=pointer]:
+      - menuitem "Middle Eastern Studies" [ref=f12e988]
+    - option [ref=f12e989] [cursor=pointer]:
+      - menuitem "Molecular Biology" [ref=f12e990]
+    - option [ref=f12e991] [cursor=pointer]:
+      - menuitem "Music" [ref=f12e992]
+    - option [ref=f12e993] [cursor=pointer]:
+      - menuitem "Neuroscience" [ref=f12e994]
+    - option [ref=f12e995] [cursor=pointer]:
+      - menuitem "Nuclear Physics" [ref=f12e996]
+    - option [ref=f12e997] [cursor=pointer]:
+      - menuitem "Nuclear Science & Engineering" [ref=f12e998]
+    - option [ref=f12e999] [cursor=pointer]:
+      - menuitem "Nuclear Structural Integrity" [ref=f12e1000]
+    - option [ref=f12e1001] [cursor=pointer]:
+      - menuitem "Nursing" [ref=f12e1002]
+    - option [ref=f12e1003] [cursor=pointer]:
+      - menuitem "Operations Engineering" [ref=f12e1004]
+    - option [ref=f12e1005] [cursor=pointer]:
+      - menuitem "Operations Management" [ref=f12e1006]
+    - option [ref=f12e1007] [cursor=pointer]:
+      - menuitem "Organization Development" [ref=f12e1008]
+    - option [ref=f12e1009] [cursor=pointer]:
+      - menuitem "Organizational Leadership" [ref=f12e1010]
+    - option [ref=f12e1011] [cursor=pointer]:
+      - menuitem "Other" [ref=f12e1012]
+    - option [ref=f12e1013] [cursor=pointer]:
+      - menuitem "Pharmacy" [ref=f12e1014]
+    - option [ref=f12e1015] [cursor=pointer]:
+      - menuitem "Philosophy" [ref=f12e1016]
+    - option [ref=f12e1017] [cursor=pointer]:
+      - menuitem "Physics" [ref=f12e1018]
+    - option [ref=f12e1019] [cursor=pointer]:
+      - menuitem "Plant Health Management" [ref=f12e1020]
+    - option [ref=f12e1021] [cursor=pointer]:
+      - menuitem "Political Science" [ref=f12e1022]
+    - option [ref=f12e1023] [cursor=pointer]:
+      - menuitem "Psychology" [ref=f12e1024]
+    - option [ref=f12e1025] [cursor=pointer]:
+      - menuitem "Public Law" [ref=f12e1026]
+    - option [ref=f12e1027] [cursor=pointer]:
+      - menuitem "Public Policy" [ref=f12e1028]
+    - option [ref=f12e1029] [cursor=pointer]:
+      - menuitem "Public Relations" [ref=f12e1030]
+    - option [ref=f12e1031] [cursor=pointer]:
+      - menuitem "Quality Assurance" [ref=f12e1032]
+    - option [ref=f12e1033] [cursor=pointer]:
+      - menuitem "Railway Engineering" [ref=f12e1034]
+    - option [ref=f12e1035] [cursor=pointer]:
+      - menuitem "Religion" [ref=f12e1036]
+    - option [ref=f12e1037] [cursor=pointer]:
+      - menuitem "Renewable Energy and Climate Change" [ref=f12e1038]
+    - option [ref=f12e1039] [cursor=pointer]:
+      - menuitem "Robotic Engineering" [ref=f12e1040]
+    - option [ref=f12e1041] [cursor=pointer]:
+      - menuitem "Robotics and Autonomous Systems" [ref=f12e1042]
+    - option [ref=f12e1043] [cursor=pointer]:
+      - menuitem "Science" [ref=f12e1044]
+    - option [ref=f12e1045] [cursor=pointer]:
+      - menuitem "Sensor Technology" [ref=f12e1046]
+    - option [ref=f12e1047] [cursor=pointer]:
+      - menuitem "Society, Heath and Development" [ref=f12e1048]
+    - option [ref=f12e1049] [cursor=pointer]:
+      - menuitem "Sociology" [ref=f12e1050]
+    - option [ref=f12e1051] [cursor=pointer]:
+      - menuitem "Software Engineering" [ref=f12e1052]
+    - option [ref=f12e1053] [cursor=pointer]:
+      - menuitem "Statistics" [ref=f12e1054]
+    - option [ref=f12e1055] [cursor=pointer]:
+      - menuitem "Surveying and Mapping" [ref=f12e1056]
+    - option [ref=f12e1057] [cursor=pointer]:
+      - menuitem "Sustainable Energy Systems" [ref=f12e1058]
+    - option [ref=f12e1059] [cursor=pointer]:
+      - menuitem "Sustainable Plant Systems" [ref=f12e1060]
+    - option [ref=f12e1061] [cursor=pointer]:
+      - menuitem "Systems Engineering" [ref=f12e1062]
+    - option [ref=f12e1063] [cursor=pointer]:
+      - menuitem "Technology Education" [ref=f12e1064]
+    - option [ref=f12e1065] [cursor=pointer]:
+      - menuitem "Theatre" [ref=f12e1066]
+    - option [ref=f12e1067] [cursor=pointer]:
+      - menuitem "Thermo-Fluid Mechanices" [ref=f12e1068]
+    - option [ref=f12e1069] [cursor=pointer]:
+      - menuitem "Transportation Planning" [ref=f12e1070]
+    - option [ref=f12e1071] [cursor=pointer]:
+      - menuitem "Urban Studies" [ref=f12e1072]
+    - option [ref=f12e1073] [cursor=pointer]:
+      - menuitem "Visual Arts" [ref=f12e1074]
+    - option [ref=f12e1075] [cursor=pointer]:
+      - menuitem "Web Development" [ref=f12e1076]
+    - option [ref=f12e1077] [cursor=pointer]:
+      - menuitem "Welding Engineering" [ref=f12e1078]
+    - option [ref=f12e1079] [cursor=pointer]:
+      - menuitem "Wireless Communication Systems" [ref=f12e1080]
+    - option [ref=f12e1081] [cursor=pointer]:
+      - menuitem "Women's Studies" [ref=f12e1082]
+    - option [ref=f12e1083] [cursor=pointer]:
+      - menuitem "Writing" [ref=f12e1084]
+    - option [ref=f12e1085] [cursor=pointer]:
+      - menuitem "Zoology" [ref=f12e1086]
+    - option [ref=f12e1087] [cursor=pointer]:
+      - menuitem "Forwarded" [ref=f12e1088]

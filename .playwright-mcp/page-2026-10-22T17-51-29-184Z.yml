@@ -1,0 +1,11 @@
+- generic [active] [ref=f12e1]:
+  - main [ref=f12e2]:
+    - generic [ref=f12e3]: LinkedIn
+    - heading "This link will take you to a page that’s not on LinkedIn" [level=1] [ref=f12e5]
+    - heading "Because this is an external link, we’re unable to verify it for safety." [level=2] [ref=f12e6]
+    - link "https://forms.gle/KwqD3UaMumvo1HD87" [ref=f12e7] [cursor=pointer]:
+      - /url: https://forms.gle/KwqD3UaMumvo1HD87
+  - contentinfo [ref=f12e8]:
+    - generic [ref=f12e9]: Have questions?
+    - link "Learn more" [ref=f12e10] [cursor=pointer]:
+      - /url: https://www.linkedin.com/help/linkedin/answer/a1341680?trk=in_page_learn_more_click

@@ -1,0 +1,354 @@
+- main [ref=f9e2]:
+  - generic [ref=f9e5]:
+    - navigation [ref=f9e6]:
+      - generic [ref=f9e8]:
+        - link [ref=f9e10] [cursor=pointer]:
+          - /url: /
+          - generic "remotely.de Logo" [ref=f9e11]: remotely.de
+        - generic [ref=f9e15]:
+          - button "Suche" [ref=f9e16] [cursor=pointer]
+          - button "Menü" [ref=f9e17] [cursor=pointer]
+          - link "Einloggen" [ref=f9e18] [cursor=pointer]:
+            - /url: /login
+    - generic [ref=f9e19]:
+      - generic [ref=f9e21]:
+        - navigation "breadcrumb" [ref=f9e22]:
+          - list [ref=f9e23]:
+            - listitem [ref=f9e24]:
+              - link "Startseite" [ref=f9e25] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f9e29]:
+              - link "Homeoffice Jobs" [ref=f9e30] [cursor=pointer]:
+                - /url: /home-office-jobs
+            - listitem [ref=f9e34]:
+              - link "SAP CX Consultant (m/w/d) | 100% Remote/ Hybrid (CRM-Consultant)" [disabled] [ref=f9e35]
+        - generic [ref=f9e36]:
+          - generic [ref=f9e37]:
+            - generic [ref=f9e38]:
+              - generic [ref=f9e39]:
+                - paragraph [ref=f9e40]:
+                  - generic [ref=f9e44]: Diese Stelle ist nicht mehr verfügbar
+                - generic [ref=f9e45]:
+                  - button "Job melden" [disabled]
+              - generic [ref=f9e46]:
+                - generic [ref=f9e47]:
+                  - generic [ref=f9e48]:
+                    - generic [ref=f9e49]:
+                      - img "K4S GmbH Logo" [ref=f9e51]
+                      - link "K4S GmbH" [ref=f9e54] [cursor=pointer]:
+                        - /url: https://k4s.de
+                    - generic [ref=f9e55]: vor 3 Monaten
+                  - heading "SAP CX Consultant (m/w/d) | 100% Remote/ Hybrid (CRM-Consultant)" [level=1] [ref=f9e56]
+                - generic [ref=f9e57]:
+                  - generic [ref=f9e58]:
+                    - heading "Eckdaten" [level=3] [ref=f9e59]
+                    - generic [ref=f9e60]:
+                      - generic [ref=f9e61]: Hamburg
+                      - generic [ref=f9e62]: Consulting
+                  - generic [ref=f9e63]:
+                    - heading "Arbeitsmodell" [level=3] [ref=f9e64]
+                    - generic [ref=f9e65]: Hybrid · 3 Tage Homeoffice
+            - generic [ref=f9e69]:
+              - heading "Ähnliche offene Jobs" [level=2] [ref=f9e70]
+              - generic [ref=f9e71]:
+                - link "Senior Consultant SAP Customer Experience (m/w/d)" [ref=f9e74] [cursor=pointer]:
+                  - /url: /job/sopra-steria-senior-consultant-sap-customer-experience-mwd
+                  - generic [ref=f9e75]:
+                    - generic [ref=f9e76]:
+                      - generic [ref=f9e77]:
+                        - generic [ref=f9e78]:
+                          - img "Logo von Sopra Steria" [ref=f9e80]
+                          - generic [ref=f9e81]: Sopra Steria
+                        - button "Jetzt registrieren, um Senior Consultant SAP Customer Experience (m/w/d) zu speichern" [ref=f9e82]
+                      - heading "Senior Consultant SAP Customer Experience (m/w/d)" [level=3] [ref=f9e83]
+                      - paragraph [ref=f9e84]: Senior Consultant SAP Customer Experience (m/w/d) gesucht! Gestalte mit uns die digitale Transformation und optimiere Kundenprozesse. Jetzt bewerben!
+                    - generic [ref=f9e85]:
+                      - generic [ref=f9e86]: Hybrid · bundesweit
+                      - generic [ref=f9e88]: vor 3 Monaten
+                - link "SAP Inhouse Consultant CX / CRM (m/w/d)" [ref=f9e91] [cursor=pointer]:
+                  - /url: /job/stadtwerke-bielefeld-gmbh-sap-inhouse-consultant-cx-crm-mwd
+                  - generic [ref=f9e92]:
+                    - generic [ref=f9e93]:
+                      - generic [ref=f9e94]:
+                        - generic [ref=f9e95]:
+                          - img "Logo von Stadtwerke Bielefeld GmbH" [ref=f9e97]
+                          - generic [ref=f9e98]: Stadtwerke Bielefeld GmbH
+                        - button "Jetzt registrieren, um SAP Inhouse Consultant CX / CRM (m/w/d) zu speichern" [ref=f9e99]
+                      - heading "SAP Inhouse Consultant CX / CRM (m/w/d)" [level=3] [ref=f9e100]
+                      - paragraph [ref=f9e101]: SAP Inhouse Consultant CX / CRM (m/w/d) gesucht! Werden Sie Teil der Digitalisierungsabteilung und gestalten Sie die Customer Journey mit. Jetzt…
+                    - generic [ref=f9e102]:
+                      - generic [ref=f9e103]: Hybrid · Bielefeld
+                      - generic [ref=f9e105]: vor 2 Monaten
+                - link "Lead Consultant SAP CX / CRM (m/w/d) - Inklusiver Job" [ref=f9e108] [cursor=pointer]:
+                  - /url: /job/arvato-systems-lead-consultant-sap-cx-crm-mwd-inklusiver-job
+                  - generic [ref=f9e109]:
+                    - generic [ref=f9e110]:
+                      - generic [ref=f9e111]:
+                        - generic [ref=f9e112]:
+                          - img "Logo von Arvato Systems" [ref=f9e114]
+                          - generic [ref=f9e115]: Arvato Systems
+                        - button "Jetzt registrieren, um Lead Consultant SAP CX / CRM (m/w/d) - Inklusiver Job zu speichern" [ref=f9e116]
+                      - heading "Lead Consultant SAP CX / CRM (m/w/d) - Inklusiver Job" [level=3] [ref=f9e117]
+                      - paragraph [ref=f9e118]: Lead Consultant SAP CX / CRM (m/w/d) gesucht! Berate und gestalte Handels- und CRM-Prozesse mit SAP CX Cloud Suite. Jetzt bewerben!
+                    - generic [ref=f9e119]:
+                      - generic [ref=f9e120]: Hybrid · 33 Gütersloh
+                      - generic [ref=f9e122]: vor 4 Wochen
+              - link "Alle Homeoffice Jobs im Bereich Consulting" [ref=f9e124] [cursor=pointer]:
+                - /url: /home-office-jobs/bereich/consulting-a
+            - generic [ref=f9e125]:
+              - generic [ref=f9e126]:
+                - generic [ref=f9e127]: Stellenbeschreibung
+                - generic [ref=f9e128]: Archiv
+              - generic [ref=f9e130]:
+                - generic [ref=f9e133]:
+                  - heading "Über unseren Kunden" [level=2] [ref=f9e134]
+                  - paragraph [ref=f9e135]: Für unseren erfolgreichen Partner sind wir auf der Suche nach einem SAP CX Consultant (m/w/d) zur unbefristeten Festanstellung. Unser Kunde ist ein innovativer IT-Dienstleister mit mehreren tausend Mitarbeitenden an zahlreichen Standorten europaweit. Das Unternehmen begleitet seine Kunden bei der digitalen Transformation und entwickelt Lösungen, die moderne Technologien, hohe Servicequalität und nachhaltigen Geschäftsnutzen verbinden.
+                  - paragraph [ref=f9e136]: Klare Strukturen, ein wertschätzender Umgang und ein starker Fokus auf persönlicher und fachlicher Weiterentwicklung liegen unseren Partner besonders am Herzen. Mitarbeitende arbeiten in modernen, agilen Teams und erhalten die Möglichkeit, Verantwortung zu übernehmen, eigene Ideen einzubringen und an technologisch anspruchsvollen Projekten mitzuwirken. Dieses Umfeld schafft Stabilität und gleichzeitig Raum für Wachstum und echte Gestaltungsmöglichkeiten.
+                  - heading "Aufgaben" [level=2] [ref=f9e137]
+                  - list [ref=f9e138]:
+                    - listitem [ref=f9e139]: Sie konzipieren und implementieren Lösungen im SAP Customer Experience Umfeld, beispielsweise in Sales Cloud, Service Cloud oder Commerce Cloud.
+                    - listitem [ref=f9e140]: Sie optimieren End-to-End-Prozesse entlang der Customer Journey und integrieren SAP CX nahtlos in bestehende SAP-Landschaften wie S/4HANA.
+                    - listitem [ref=f9e141]: Sie analysieren fachliche Anforderungen im Vertrieb, Service oder Marketing und setzen diese durch gezieltes Customizing und Erweiterungen um.
+                    - listitem [ref=f9e142]: Sie beraten Kunden strategisch zur Weiterentwicklung ihrer SAP CX Architektur und treiben innovative Konzepte aktiv voran.
+                  - heading "Profil" [level=2] [ref=f9e143]
+                  - list [ref=f9e144]:
+                    - listitem [ref=f9e145]: Fundierte Berufserfahrung im SAP CX-Umfeld.
+                    - listitem [ref=f9e146]: Erfahrung im Umgang mit angrenzenden SAP-Modulen.
+                    - listitem [ref=f9e147]: Sehr gute Deutschkenntnisse.
+                  - heading "Ihre Vorteile" [level=2] [ref=f9e148]
+                  - list [ref=f9e149]:
+                    - listitem [ref=f9e150]: Attraktive Vergütung mit leistungsorientierten Boni.
+                    - listitem [ref=f9e151]: Flexible Arbeitszeiten.
+                    - listitem [ref=f9e152]: Hoher Homeoffice-Anteil.
+                    - listitem [ref=f9e153]: 30 Urlaubstage zzgl. Sondertage.
+                    - listitem [ref=f9e154]: Innovative Arbeitsumgebung mit modernster Technologie.
+                    - listitem [ref=f9e155]: Weiterbildung und Entwicklung durch interne Schulungen, externe Fortbildungen und individuelle Programme (u. a. direkt bei SAP).
+                    - listitem [ref=f9e156]: Gesundheits- und Vorsorgeleistungen, inklusive betrieblicher Altersvorsorge (BAV) und Krankenversicherungen.
+                    - listitem [ref=f9e157]: Zuschüsse für Fitnessstudio-Mitgliedschaften oder Gesundheitsprogramme.
+                    - listitem [ref=f9e158]: Psychologische Unterstützung und Wellness-Angebote zur Förderung der mentalen Gesundheit.
+                    - listitem [ref=f9e159]: Teambuilding-Events und regelmäßige Firmenfeiern.
+                    - listitem [ref=f9e160]: Elternzeit- und Kinderbetreuungsangebote, z. B. Zuschüsse oder Unterstützung bei der Suche nach Betreuungseinrichtungen.
+                    - listitem [ref=f9e161]: Kultur- und Freizeitangebote, z. B. Firmenrabatte für Veranstaltungen und Freizeitaktivitäten.
+                    - listitem [ref=f9e162]: Kostenlose Snacks und Getränke (Obst, Wasser, Kaffee).
+                    - listitem [ref=f9e163]: Private Parkplätze und eine hervorragende Kantine mit eigener Küche.
+                    - listitem [ref=f9e164]: Kostenloser General-Gesundheitscheck.
+                  - heading "Kontakt" [level=2] [ref=f9e165]
+                  - paragraph [ref=f9e166]: "Haben Sie Fragen zur Position oder möchten Sie sich direkt bewerben? Dann senden Sie mir gerne Ihre Bewerbungsunterlagen zu oder melden Sie sich bei Fragen jederzeit unter: prus@k4s.de"
+                  - paragraph [ref=f9e167]: Denise Prus -- Recruiting SAP Ich freue mich darauf, von Ihnen zu hören!
+                  - paragraph [ref=f9e168]: AO0019
+                - button "Ganze Beschreibung lesen" [ref=f9e169] [cursor=pointer]
+            - generic [ref=f9e171]:
+              - generic [ref=f9e172]:
+                - generic [ref=f9e173]: Wir suchen für dich
+                - heading "Du musst nicht selbst suchen." [level=2] [ref=f9e174]
+                - paragraph [ref=f9e175]: Sag uns, welchen Job du suchst. Wir prüfen jeden Tag alle neuen Remote-Jobs, legen dir die passenden vor und melden uns, sobald neue dazukommen.
+                - list [ref=f9e176]:
+                  - listitem [ref=f9e177]:
+                    - generic [ref=f9e180]: Passend zu deinem Zieljob, nicht zu Stichworten
+                  - listitem [ref=f9e181]:
+                    - generic [ref=f9e184]: Neue Treffer täglich per E-Mail
+                  - listitem [ref=f9e185]:
+                    - generic [ref=f9e188]: Lebenslauf-Abgleich zeigt dir, wie gut du passt
+                - link "Suchprofil anlegen" [ref=f9e190] [cursor=pointer]:
+                  - /url: /signup?redirect=%2Fuser%2Fonboarding&source=job_detail_inactive_callout&triggerLocation=job_detail_inactive_callout
+                - paragraph [ref=f9e191]: In einer Minute eingerichtet. Premium ab 19 € im Monat, jederzeit kündbar.
+              - generic [ref=f9e192]: Ein Radar, das offene Remote-Jobs findet
+            - generic [ref=f9e230]:
+              - generic [ref=f9e231]: KI-Weiterbildung
+              - heading "Nicht eingeladen, weil eine Zeile fehlt" [level=2] [ref=f9e235]
+              - paragraph [ref=f9e236]: "Bei vielen Remote-Stellen entscheidet eine einzige Zeile: KI-Kenntnisse. Wer sie nicht nachweisen kann, wird bei sonst passenden Bewerbungen oft vor dem Gespräch aussortiert, ohne Rückmeldung. Mit sechs kurzen Fragen zeigt dir unser Kursfinder, welcher Kurs zu deinem Bereich und deiner Zeit passt."
+              - list [ref=f9e237]:
+                - listitem [ref=f9e238]:
+                  - generic [ref=f9e241]: Ergebnis sofort, passend zu deinem Arbeitsbereich
+                - listitem [ref=f9e242]:
+                  - generic [ref=f9e245]: Kein Konto, Link direkt zum Anbieter
+                - listitem [ref=f9e246]:
+                  - generic [ref=f9e249]: Geprüfte Kurse, Förderung möglich
+              - generic [ref=f9e250]:
+                - link "Passende Kurse finden" [ref=f9e251] [cursor=pointer]:
+                  - /url: /weiterbildung/kursfinder/ki?source_job_id=515299&source_job_slug=k4s-gmbh-sap-cx-consultant-mwd-100-remote-hybrid-crm-consultant&entry=expired_job_callout
+                - paragraph [ref=f9e252]: Kostenlos. Ergebnisse sofort.
+          - complementary [ref=f9e253]:
+            - generic [ref=f9e256]:
+              - generic [ref=f9e257]:
+                - img "K4S GmbH Logo" [ref=f9e259]
+                - paragraph [ref=f9e260]: K4S GmbH
+                - paragraph [ref=f9e261]: Hamburg
+              - generic [ref=f9e262]:
+                - link "Webseite besuchen" [ref=f9e263] [cursor=pointer]:
+                  - /url: https://k4s.de
+                - link "Alle Jobs ansehen" [ref=f9e264] [cursor=pointer]:
+                  - /url: /firma/k4s-gmbh
+      - generic [ref=f9e268]:
+        - heading "Weitere Homeoffice Jobs im Bereich Consulting" [level=2] [ref=f9e269]
+        - generic [ref=f9e270]:
+          - link "Microsoft 365 Consultant (m/w/d)" [ref=f9e273] [cursor=pointer]:
+            - /url: /job/netz-16-gmbh-microsoft-365-consultant-mwd
+            - generic [ref=f9e274]:
+              - generic [ref=f9e275]:
+                - generic [ref=f9e276]:
+                  - generic [ref=f9e277]:
+                    - generic [ref=f9e278]: NE
+                    - generic [ref=f9e280]: Netz 16 GmbH
+                  - button "Jetzt registrieren, um Microsoft 365 Consultant (m/w/d) zu speichern" [ref=f9e281]
+                - heading "Microsoft 365 Consultant (m/w/d)" [level=3] [ref=f9e282]
+                - paragraph [ref=f9e283]: Consultant (m/w/d) für Microsoft 365 gesucht in Augsburg (hybrid). Gestalten Sie moderne Arbeitsplätze mit uns. Jetzt bewerben!
+              - generic [ref=f9e284]:
+                - generic [ref=f9e285]: Hybrid · Augsburg
+                - generic [ref=f9e288]: vor 2 Tagen
+          - link "SAP Senior Berater PLM / SCM/ EAM für SAP PM / CS (M/W/D)" [ref=f9e291] [cursor=pointer]:
+            - /url: /job/bdf-beteiligungsgesellschaft-mbh-sap-senior-berater-plm-scm-eam-fur-sap-pm-cs-mwd
+            - generic [ref=f9e292]:
+              - generic [ref=f9e293]:
+                - generic [ref=f9e294]:
+                  - generic [ref=f9e295]:
+                    - generic [ref=f9e296]: BD
+                    - generic [ref=f9e298]: bdf Beteiligungsgesellschaft mbH
+                  - button "Jetzt registrieren, um SAP Senior Berater PLM / SCM/ EAM für SAP PM / CS (M/W/D) zu speichern" [ref=f9e299]
+                - heading "SAP Senior Berater PLM / SCM/ EAM für SAP PM / CS (M/W/D)" [level=3] [ref=f9e300]
+                - paragraph [ref=f9e301]: Werden Sie SAP Senior Berater PLM/SCM/EAM für SAP PM/CS (m/w/d) bei BDFEXPERTS. Gestalten Sie die digitale Zukunft im Maschinenbau mit. Jetzt…
+              - generic [ref=f9e302]:
+                - generic [ref=f9e303]: Hybrid · Düsseldorf
+                - generic [ref=f9e306]: vor 2 Tagen
+          - link "Berater SAP PP (m/w/d)" [ref=f9e309] [cursor=pointer]:
+            - /url: /job/leuchtmehr-gmbh-berater-sap-pp-mwd
+            - generic [ref=f9e310]:
+              - generic [ref=f9e311]:
+                - generic [ref=f9e312]:
+                  - generic [ref=f9e313]:
+                    - img "Logo von Leuchtmehr GmbH" [ref=f9e315]
+                    - generic [ref=f9e316]: Leuchtmehr GmbH
+                  - button "Jetzt registrieren, um Berater SAP PP (m/w/d) zu speichern" [ref=f9e317]
+                - heading "Berater SAP PP (m/w/d)" [level=3] [ref=f9e318]
+                - paragraph [ref=f9e319]: SAP PP Berater (m/w/d) gesucht für SAP S/4HANA Einführungsprojekt in Achern. Teilprojektleitung, Konzeption & Beratung. Bis zu 60% Homeoffice. Jetzt…
+              - generic [ref=f9e320]:
+                - generic [ref=f9e321]: Hybrid · 3 Tage Homeoffice · Achern
+                - generic [ref=f9e324]: vor 2 Tagen
+        - link "Alle Homeoffice Jobs im Bereich Consulting anzeigen" [ref=f9e326] [cursor=pointer]:
+          - /url: /home-office-jobs/bereich/consulting-a
+    - generic [ref=f9e330]:
+      - generic [ref=f9e357]:
+        - generic "remotely.de Logo" [ref=f9e359]: remotely.de
+        - generic [ref=f9e363]:
+          - generic [ref=f9e365]:
+            - generic [ref=f9e366]: Remote Kategorien
+            - link "Remote Jobs" [ref=f9e367] [cursor=pointer]:
+              - /url: /remote-jobs
+            - link "Teilzeit" [ref=f9e368] [cursor=pointer]:
+              - /url: /remote-jobs/teilzeit
+            - link "Minijobs" [ref=f9e369] [cursor=pointer]:
+              - /url: /remote-jobs/minijobs
+            - link "Nebenjobs" [ref=f9e370] [cursor=pointer]:
+              - /url: /remote-jobs/nebenjobs
+            - link "Sales" [ref=f9e371] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/sales
+            - link "Steuerwesen & Buchhaltung" [ref=f9e372] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/steuerwesen-buchhaltung
+            - link "SAP Consulting" [ref=f9e373] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/sap-consulting
+            - link "Consulting" [ref=f9e374] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/consulting-a
+            - link "Marketing" [ref=f9e375] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/marketing-9
+            - link "Management" [ref=f9e376] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/management
+            - link "Computer Software" [ref=f9e377] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/computer-software
+            - link "DevOps" [ref=f9e378] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/devops
+            - link "IT & Softwareentwicklung" [ref=f9e379] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/softwareentwicklung
+            - link "Computer & Network Security" [ref=f9e380] [cursor=pointer]:
+              - /url: /remote-jobs/bereich/computer-network-security
+          - generic [ref=f9e382]:
+            - generic [ref=f9e383]: Homeoffice Kategorien
+            - link "Homeoffice Jobs" [ref=f9e384] [cursor=pointer]:
+              - /url: /home-office-jobs
+            - link "Teilzeit" [ref=f9e385] [cursor=pointer]:
+              - /url: /home-office-jobs/teilzeit
+            - link "Minijobs" [ref=f9e386] [cursor=pointer]:
+              - /url: /home-office-jobs/minijobs
+            - link "Nebenjobs" [ref=f9e387] [cursor=pointer]:
+              - /url: /home-office-jobs/nebenjobs
+            - link "Quereinsteiger" [ref=f9e388] [cursor=pointer]:
+              - /url: /home-office-jobs/quereinsteiger
+            - link "Steuerwesen & Buchhaltung" [ref=f9e389] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/steuerwesen-buchhaltung
+            - link "Sales" [ref=f9e390] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/sales
+            - link "Management" [ref=f9e391] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/management
+            - link "Marketing" [ref=f9e392] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/marketing-9
+            - link "Computer Software" [ref=f9e393] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/computer-software
+            - link "Consulting" [ref=f9e394] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/consulting-a
+            - link "Engineering" [ref=f9e395] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/engineering
+            - link "SAP Consulting" [ref=f9e396] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/sap-consulting
+            - link "Project Management" [ref=f9e397] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/project-management-0
+            - link "Finance" [ref=f9e398] [cursor=pointer]:
+              - /url: /home-office-jobs/bereich/finance
+          - generic [ref=f9e400]:
+            - generic [ref=f9e401]: Homeoffice nach Stadt
+            - link "Berlin" [ref=f9e402] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/berlin
+            - link "München" [ref=f9e403] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/munchen
+            - link "Hamburg" [ref=f9e404] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/hamburg
+            - link "Frankfurt Am Main" [ref=f9e405] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/frankfurt-am-main
+            - link "Düsseldorf" [ref=f9e406] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/dusseldorf
+            - link "Köln" [ref=f9e407] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/koln
+            - link "Stuttgart" [ref=f9e408] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/stuttgart
+            - link "Hannover" [ref=f9e409] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/hannover
+            - link "München" [ref=f9e410] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/munich
+            - link "Dresden" [ref=f9e411] [cursor=pointer]:
+              - /url: /home-office-jobs/stadt/dresden
+          - generic [ref=f9e412]:
+            - generic [ref=f9e413]:
+              - generic [ref=f9e414]: Für Arbeitgeber
+              - link "Job inserieren" [ref=f9e415] [cursor=pointer]:
+                - /url: /arbeitgeber
+            - generic [ref=f9e416]:
+              - generic [ref=f9e417]: Nützliches
+              - link "Gehaltscheck" [ref=f9e418] [cursor=pointer]:
+                - /url: /gehaltscheck
+              - link "Lebenslauf-Check" [ref=f9e419] [cursor=pointer]:
+                - /url: /lebenslauf-check
+              - link "Lebenslauf optimieren" [ref=f9e420] [cursor=pointer]:
+                - /url: /signup?redirect=%2Fuser%2Fcv-optimizer
+              - link "Antworten" [ref=f9e421] [cursor=pointer]:
+                - /url: /antworten
+              - link "Ratgeber" [ref=f9e422] [cursor=pointer]:
+                - /url: /ratgeber
+            - generic [ref=f9e423]:
+              - generic [ref=f9e424]: Sonstiges
+              - link "Firmen" [ref=f9e425] [cursor=pointer]:
+                - /url: /firmen
+              - link "Sitemap" [ref=f9e426] [cursor=pointer]:
+                - /url: /sitemap
+          - generic [ref=f9e428]:
+            - generic [ref=f9e429]: Rechtliches
+            - link "Über uns" [ref=f9e430] [cursor=pointer]:
+              - /url: /antworten/wer-steckt-hinter-remotely-de
+            - link "Impressum" [ref=f9e431] [cursor=pointer]:
+              - /url: /impressum
+            - link "Datenschutz" [ref=f9e432] [cursor=pointer]:
+              - /url: /datenschutz
+            - link "Verträge hier kündigen" [ref=f9e433] [cursor=pointer]:
+              - /url: /kuendigung
+            - link "Warnung zu Jobangeboten" [ref=f9e434] [cursor=pointer]:
+              - /url: /warnung
+            - link "Karriere" [ref=f9e435] [cursor=pointer]:
+              - /url: /karriere
+      - generic [ref=f9e436]: © 2026 remotely.de, Alle Rechte vorbehalten

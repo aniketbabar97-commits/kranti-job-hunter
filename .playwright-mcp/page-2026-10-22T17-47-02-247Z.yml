@@ -1,0 +1,184 @@
+- generic [ref=f3e4]:
+  - banner [ref=f3e5]:
+    - generic [ref=f3e7]:
+      - generic [ref=f3e8]:
+        - navigation [ref=f3e9]:
+          - list [ref=f3e11]:
+            - listitem [ref=f3e12]:
+              - link "About Us" [ref=f3e13] [cursor=pointer]:
+                - /url: /en/about-us
+            - listitem [ref=f3e15]:
+              - link "Career" [ref=f3e16] [cursor=pointer]:
+                - /url: /en/career
+            - listitem [ref=f3e19]:
+              - link "Partners" [ref=f3e20] [cursor=pointer]:
+                - /url: /en/partners
+            - listitem [ref=f3e23]:
+              - link "Newsroom" [ref=f3e24] [cursor=pointer]:
+                - /url: /en/newsroom
+            - listitem [ref=f3e27]:
+              - link "SCAYLE" [ref=f3e28] [cursor=pointer]:
+                - /url: https://www.scayle.com/
+        - generic [ref=f3e32]:
+          - button "de" [ref=f3e36] [cursor=pointer]
+          - generic [ref=f3e37]:
+            - text: /
+            - button "en" [ref=f3e38] [cursor=pointer]
+      - link "Home" [ref=f3e40] [cursor=pointer]:
+        - /url: /en
+  - main [ref=f3e45]:
+    - generic [ref=f3e46]:
+      - generic [ref=f3e48]:
+        - img "front-desk-final" [ref=f3e51]
+        - generic:
+          - heading "Find the Job That Matches You." [level=1]
+      - generic [ref=f3e52]:
+        - heading "Our Job Listings" [level=2] [ref=f3e53]
+        - generic [ref=f3e54]:
+          - generic [ref=f3e59]:
+            - generic: Job Search
+            - textbox "Job Search" [ref=f3e60]
+          - generic [ref=f3e61]:
+            - button "Location" [ref=f3e62] [cursor=pointer]
+            - button "Company" [ref=f3e67] [cursor=pointer]
+            - button "Department" [ref=f3e72] [cursor=pointer]
+            - button "Team" [ref=f3e77] [cursor=pointer]
+            - button "Level" [ref=f3e82] [cursor=pointer]
+        - generic [ref=f3e88]:
+          - generic [ref=f3e89]: 102 jobs found
+          - generic [ref=f3e90]:
+            - link "Working Student - Product Management (all genders) Hamburg, Germany" [ref=f3e91] [cursor=pointer]:
+              - /url: /en/career/jobs/working-student-product-management-all-genders-hamburg-germany
+              - generic [ref=f3e96]: Working Student - Product Management (all genders)
+              - generic [ref=f3e97]: Hamburg, Germany
+            - link "Business Development Manager - Buying (all genders) Hamburg, Germany" [ref=f3e98] [cursor=pointer]:
+              - /url: /en/career/jobs/business-development-manager-buying-all-genders-hamburg-germany
+              - generic [ref=f3e103]: Business Development Manager - Buying (all genders)
+              - generic [ref=f3e104]: Hamburg, Germany
+            - link "Teamlead App Engineer - Consideration & Discovery (all genders) Hamburg or Berlin, Germany" [ref=f3e105] [cursor=pointer]:
+              - /url: /en/career/jobs/teamlead-app-engineer-consideration-discovery-all-genders-hamburg-or-berlin
+              - generic [ref=f3e110]: Teamlead App Engineer - Consideration & Discovery (all genders)
+              - generic [ref=f3e111]: Hamburg or Berlin, Germany
+            - link "Intern Talent Acquisition - Young Talents (all genders) Hamburg, Germany" [ref=f3e112] [cursor=pointer]:
+              - /url: /en/career/jobs/intern-talent-acquisition-young-talents-all-genders-hamburg-germany
+              - generic [ref=f3e117]: Intern Talent Acquisition - Young Talents (all genders)
+              - generic [ref=f3e118]: Hamburg, Germany
+            - link "Working Student E-Commerce Creative Support (all genders) Hamburg, Germany" [ref=f3e119] [cursor=pointer]:
+              - /url: /en/career/jobs/working-student-e-commerce-creative-support-all-genders-hamburg-germany
+              - generic [ref=f3e124]: Working Student E-Commerce Creative Support (all genders)
+              - generic [ref=f3e125]: Hamburg, Germany
+            - link "Art Director (all genders) Hamburg, Germany" [ref=f3e126] [cursor=pointer]:
+              - /url: /en/career/jobs/art-director-all-genders-hamburg-germany
+              - generic [ref=f3e131]: Art Director (all genders)
+              - generic [ref=f3e132]: Hamburg, Germany
+            - link "Intern Social Media (all genders) Hamburg, Germany" [ref=f3e133] [cursor=pointer]:
+              - /url: /en/career/jobs/intern-social-media-all-genders-hamburg-germany
+              - generic [ref=f3e138]: Intern Social Media (all genders)
+              - generic [ref=f3e139]: Hamburg, Germany
+            - link "Senior Backend Engineer - Checkout (all genders) Hamburg, Germany" [ref=f3e140] [cursor=pointer]:
+              - /url: /en/career/jobs/senior-backend-engineer-checkout-all-genders-hamburg-germany
+              - generic [ref=f3e146]: Senior Backend Engineer - Checkout (all genders)
+              - generic [ref=f3e147]: Hamburg, Germany
+            - link "Working Student - Merchandise Steering & Replenishment (all genders) Hamburg, Germany" [ref=f3e148] [cursor=pointer]:
+              - /url: /en/career/jobs/working-student-merchandise-steering-replenishment-all-genders-hamburg-germany
+              - generic [ref=f3e153]: Working Student - Merchandise Steering & Replenishment (all genders)
+              - generic [ref=f3e154]: Hamburg, Germany
+            - link "Product Developer - LAYBELS (all genders) Berlin, Germany" [ref=f3e155] [cursor=pointer]:
+              - /url: /en/career/jobs/product-developer-laybels-all-genders-berlin-germany
+              - generic [ref=f3e160]: Product Developer - LAYBELS (all genders)
+              - generic [ref=f3e161]: Berlin, Germany
+          - generic [ref=f3e162]:
+            - button "Previous page" [disabled] [ref=f3e163]
+            - button "1" [ref=f3e166]
+            - button "2" [ref=f3e167]
+            - button "..." [disabled] [ref=f3e168]
+            - button "11" [ref=f3e169]
+            - button "Next page" [ref=f3e170]
+          - generic [ref=f3e173]:
+            - generic [ref=f3e174]: "Items per page:"
+            - combobox [ref=f3e175]:
+              - option "5"
+              - option "10" [selected]
+              - option "20"
+              - option "50"
+  - contentinfo [ref=f3e176]:
+    - generic [ref=f3e178]:
+      - generic [ref=f3e179]:
+        - link "Compliance" [ref=f3e180] [cursor=pointer]:
+          - /url: /en/footer/compliance
+        - list [ref=f3e181]:
+          - listitem [ref=f3e182]:
+            - link "Business Code of Conduct" [ref=f3e183] [cursor=pointer]:
+              - /url: /en/footer/compliance/business-code-of-conduct
+          - listitem [ref=f3e184]:
+            - link "Business Code of Ethics" [ref=f3e185] [cursor=pointer]:
+              - /url: /en/footer/compliance/business-code-of-ethics
+          - listitem [ref=f3e186]:
+            - link "Human Rights & Environmental Policy" [ref=f3e187] [cursor=pointer]:
+              - /url: /en/footer/compliance/human-rights-environmental-policy
+          - listitem [ref=f3e188]:
+            - link "Whistleblowing" [ref=f3e189] [cursor=pointer]:
+              - /url: /en/footer/compliance/whistleblowing
+          - listitem [ref=f3e190]:
+            - link "Complaints Procedure (Rules of Procedure)" [ref=f3e191] [cursor=pointer]:
+              - /url: /en/footer/compliance/complaints-procedure-rules-of-procedure
+          - listitem [ref=f3e192]:
+            - link "Sustainable Sourcing Policies" [ref=f3e193] [cursor=pointer]:
+              - /url: /en/footer/compliance/sustainable-sourcing-policies
+      - generic [ref=f3e194]:
+        - link "COUPA" [ref=f3e195] [cursor=pointer]:
+          - /url: /en/footer/coupa
+        - list [ref=f3e196]:
+          - listitem [ref=f3e197]:
+            - link "Orders" [ref=f3e198] [cursor=pointer]:
+              - /url: /en/footer/coupa/orders
+          - listitem [ref=f3e199]:
+            - link "Invoicing" [ref=f3e200] [cursor=pointer]:
+              - /url: /en/footer/coupa/invoicing
+          - listitem [ref=f3e201]:
+            - link "FAQ" [ref=f3e202] [cursor=pointer]:
+              - /url: /en/footer/coupa/faq
+      - generic [ref=f3e203]:
+        - link [ref=f3e204] [cursor=pointer]:
+          - /url: "#"
+        - list [ref=f3e205]:
+          - listitem [ref=f3e206]:
+            - link "Sustainability" [ref=f3e207] [cursor=pointer]:
+              - /url: https://en.aboutyou.de/cp/planet-100748
+          - listitem [ref=f3e208]:
+            - link "IT Security" [ref=f3e209] [cursor=pointer]:
+              - /url: /en/footer/it-security
+          - listitem [ref=f3e210]:
+            - link "Service & Contacts" [ref=f3e211] [cursor=pointer]:
+              - /url: /en/footer/service-and-contacts
+          - listitem [ref=f3e212]:
+            - link "ABOUT YOU Online Fashion Store" [ref=f3e213] [cursor=pointer]:
+              - /url: https://en.aboutyou.de
+          - listitem [ref=f3e214]:
+            - link "App Store" [ref=f3e215] [cursor=pointer]:
+              - /url: https://apps.apple.com/app/id985244644
+          - listitem [ref=f3e216]:
+            - link "Play Store" [ref=f3e217] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=de.aboutyou.mobile.app
+      - generic [ref=f3e218]:
+        - paragraph [ref=f3e219]: Social Media
+        - list [ref=f3e220]:
+          - listitem [ref=f3e221]:
+            - link "TikTok" [ref=f3e222] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@aboutyou
+          - listitem [ref=f3e223]:
+            - link "LinkedIn" [ref=f3e224] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/about-you
+          - listitem [ref=f3e225]:
+            - link "Instagram" [ref=f3e226] [cursor=pointer]:
+              - /url: https://www.instagram.com/aboutyou/
+    - separator [ref=f3e228]
+    - generic [ref=f3e230]:
+      - generic [ref=f3e231]: © 2026 ABOUT YOU. ALL RIGHTS RESERVED.
+      - generic [ref=f3e232]:
+        - link "Privacy Policy" [ref=f3e233] [cursor=pointer]:
+          - /url: /en/privacy-policy
+        - link "Privacy Policy for Business Partners & Suppliers" [ref=f3e234] [cursor=pointer]:
+          - /url: /en/privacy-policy-for-business-partners-and-suppliers
+        - link "Legal Notice" [ref=f3e235] [cursor=pointer]:
+          - /url: /en/legal-notice

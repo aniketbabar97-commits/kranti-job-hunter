@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - button "main menu" [ref=e6] [cursor=pointer]
+    - link [ref=e10] [cursor=pointer]:
+      - /url: ../applications?l=en
+      - img "Ampelmann GmbH" [ref=e11]
+    - list [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Jobs" [ref=e14] [cursor=pointer]:
+          - /url: ../en/vacancies
+      - listitem
+      - listitem [ref=e15]:
+        - link "Get Connected" [ref=e16] [cursor=pointer]:
+          - /url: ../get-connected?l=en
+      - listitem
+      - listitem
+    - list [ref=e17]:
+      - listitem
+      - listitem
+      - listitem [ref=e18]:
+        - link "Sign off" [ref=e19] [cursor=pointer]:
+          - /url: ./66ae6c07-f4ff-446c-afe3-2b99b0b43365?1-1.-navigationPanel-userNavRepeater-3-userNavLink&isEditMode=false&isNew=true&l=en
+      - listitem [ref=e20]:
+        - link "English" [ref=e21] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e25]:
+    - banner [ref=e26]
+    - generic [ref=e30]:
+      - banner [ref=e31]:
+        - heading [level=1] [ref=e32]:
+          - text: "Application:"
+          - link "E-Commerce Manager*in (m/w/x) - Shopify Plus, Klaviyo & SAP Business One" [ref=e33] [cursor=pointer]:
+            - /url: ../job/67836197/E-Commerce-Manager-in-m-w-x-Shopify-Plus,-Klaviyo-SAP-Business-One?l=en
+      - generic [ref=e156]:
+        - generic [ref=e157]:
+          - heading "Your profile" [level=2] [ref=e158]
+          - generic [ref=e159]:
+            - group "Upload your CV" [ref=e161]:
+              - generic [ref=e162]:
+                - text: Select one option to upload your CV
+                - emphasis
+              - generic [ref=e166]:
+                - text: Your CV is attached (Kranti_Chavan_CV_AMPELMANN_E-Commerce-Manager-in-Shopify-Plus-Klavijo-SAP.pdf)
+                - link "" [ref=e167] [cursor=pointer]:
+                  - /url: "#"
+                - link "preview" [ref=e169] [cursor=pointer]:
+                  - /url: ./66ae6c07-f4ff-446c-afe3-2b99b0b43365?1-1.-body-applicationForm-cvBorder-cvBorder_body-cv-status-applicationPreviewLink&isEditMode=false&isNew=true&l=en
+            - generic [ref=e170]:
+              - generic:
+                - generic [ref=e171]:
+                  - generic [ref=e172]:
+                    - text: Salutation
+                    - emphasis
+                  - combobox [ref=e174]:
+                    - generic [ref=e175] [cursor=pointer]: Please choose
+                    - generic [ref=e179]:
+                      - textbox "Search options" [ref=e181]
+                      - list
+                - generic [ref=e182]:
+                  - generic [ref=e183]:
+                    - text: Academic title
+                    - emphasis
+                  - combobox [ref=e185]:
+                    - generic [ref=e186] [cursor=pointer]: Choose One
+                    - generic [ref=e190]:
+                      - textbox "Search options" [ref=e192]
+                      - list
+            - generic [ref=e193]:
+              - generic:
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - text: First name
+                    - emphasis [ref=e196]: "*"
+                  - textbox "First name *" [ref=e198]
+                - generic [ref=e199]:
+                  - generic [ref=e200]:
+                    - text: Last name
+                    - emphasis [ref=e201]: "*"
+                  - textbox "Last name *" [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - text: Email
+                - emphasis [ref=e206]: "*"
+              - textbox "Email *" [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - text: Phone
+                - emphasis
+              - textbox "Phone" [ref=e212]
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - text: Cover letter
+                - emphasis
+              - textbox "Cover letter" [ref=e216]:
+                - /placeholder: Type in cover letter or use the upload field "Other attachments"
+            - generic [ref=e217]:
+              - generic [ref=e218]: Other attachments (e.g. certificates)
+              - generic [ref=e221]:
+                - generic [aria-hidden] [ref=e222]: 
+                - generic [ref=e223]:
+                  - generic [aria-hidden] [ref=e224]: 
+                  - text: Drag and drop your files here or browse (max. file size 10 MB)
+                  - button "file upload button" [ref=e226] [cursor=pointer]
+        - generic [ref=e227]:
+          - heading "Questions" [level=2] [ref=e228]
+          - generic [ref=e230]:
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - text: Was reizt Dich an einer Tätigkeit im Bereich E-Commerce?
+                - emphasis [ref=e235]: "*"
+              - textbox "Was reizt Dich an einer Tätigkeit im Bereich E-Commerce? *" [ref=e237]
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - text: Wann ist Dein frühestmöglicher Eintrittstermin?
+                - emphasis [ref=e242]: "*"
+              - textbox "Wann ist Dein frühestmöglicher Eintrittstermin? *" [ref=e244]
+            - generic [ref=e247]:
+              - generic [ref=e248]:
+                - text: Wie hoch sind Deine Gehaltsvorstellungen?
+                - emphasis [ref=e249]: "*"
+              - textbox "Wie hoch sind Deine Gehaltsvorstellungen? *" [ref=e251]
+        - generic [ref=e252]:
+          - generic [ref=e254]:
+            - generic [ref=e258]:
+              - generic [ref=e259]: Verifying you are human..
+              - progressbar "11/42 (2497K/s)" [ref=e260]: 0.26%
+            - link "FriendlyCaptcha ⇗" [ref=e262] [cursor=pointer]:
+              - /url: https://friendlycaptcha.com/
+          - generic [ref=e265] [cursor=pointer]:
+            - text: Information regarding privacy can be found here
+            - link "Privacy Policy" [ref=e266]:
+              - /url: ../en/data-security
+            - text: .
+          - generic [ref=e267]:
+            - generic [ref=e268]: "* mandatory field"
+            - button "Submit application" [ref=e269] [cursor=pointer]
+    - contentinfo [ref=e147]:
+      - list [ref=e148]:
+        - listitem [ref=e149]:
+          - link "Imprint" [ref=e150] [cursor=pointer]:
+            - /url: ../en/imprint
+        - listitem [ref=e151]:
+          - link "Privacy Policy" [ref=e152] [cursor=pointer]:
+            - /url: ../en/data-security
+        - listitem [ref=e153]:
+          - generic [ref=e154]:
+            - text: powered by
+            - link "softgarden" [ref=e155] [cursor=pointer]:
+              - /url: https://softgarden.com/en

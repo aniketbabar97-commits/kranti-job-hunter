@@ -1,0 +1,78 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Ares GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21
+            - paragraph [ref=f7e14]: Ares GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21/16825585-it-allrounder-m-w-d-e-commerce-ki-robotic-und-prozessautomatisierung
+            - paragraph [ref=f7e16]: IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e522]:
+      - heading "Prüfen Sie Ihre Bewerbung" [level=2] [ref=f7e523]
+      - generic [ref=f7e524]:
+        - generic [ref=f7e525]:
+          - paragraph [ref=f7e527]: Persönliche Informationen
+          - generic [ref=f7e528]:
+            - generic [ref=f7e529] [cursor=pointer]:
+              - img "Kranti Chavan" [ref=f7e531]: KC
+              - generic [ref=f7e532]:
+                - paragraph [ref=f7e533]: Kranti Chavan
+                - paragraph [ref=f7e534]: Deutschland
+              - paragraph [ref=f7e535]: Bearbeiten
+            - separator [ref=f7e536]
+            - generic [ref=f7e537] [cursor=pointer]:
+              - paragraph [ref=f7e542]: "+4915750174177"
+              - paragraph [ref=f7e543]: Bearbeiten
+            - separator [ref=f7e544]
+            - generic [ref=f7e545] [cursor=pointer]:
+              - paragraph [ref=f7e551]: Karlsruhe, Deutschland
+              - paragraph [ref=f7e552]: Bearbeiten
+            - separator [ref=f7e553]
+            - generic [ref=f7e554] [cursor=pointer]:
+              - generic [ref=f7e559]:
+                - paragraph [ref=f7e560]: CV
+                - paragraph [ref=f7e561]: Kranti_Chavan_Lebenslauf_Ares_IT-Allrounder-E-Commerce-KI-Robotic.pdf
+              - paragraph [ref=f7e562]: Bearbeiten
+            - generic [ref=f7e564] [cursor=pointer]:
+              - checkbox "Diesen CV standardmäßig für künftige Bewerbungen verwenden" [checked] [ref=f7e565]
+              - generic [ref=f7e569]: Diesen CV standardmäßig für künftige Bewerbungen verwenden
+        - generic [ref=f7e570]:
+          - paragraph [ref=f7e572]: Netzwerk-Links
+          - generic [ref=f7e575] [cursor=pointer]:
+            - generic [ref=f7e579]:
+              - paragraph [ref=f7e580]: LinkedIn
+              - paragraph [ref=f7e581]: linkedin.com/in/kranti-chavan-84a155191
+            - paragraph [ref=f7e582]: Bearbeiten
+        - generic [ref=f7e583]:
+          - paragraph [ref=f7e585]: Details zur Bewerbung
+          - generic [ref=f7e586]:
+            - generic [ref=f7e588] [cursor=pointer]:
+              - generic [ref=f7e589]:
+                - paragraph [ref=f7e590]: Wann wäre Ihr frühestmögliches Startdatum?
+                - paragraph [ref=f7e591]: 2026-12-16
+              - paragraph [ref=f7e592]: Bearbeiten
+            - separator [ref=f7e593]
+            - generic [ref=f7e595] [cursor=pointer]:
+              - generic [ref=f7e596]:
+                - paragraph [ref=f7e597]: Was ist Ihre jährliche Gehaltserwartung in EUR?
+                - paragraph [ref=f7e598]: "60000"
+              - paragraph [ref=f7e599]: Bearbeiten
+            - separator [ref=f7e600]
+            - generic [ref=f7e601] [cursor=pointer]:
+              - generic [ref=f7e602]:
+                - paragraph [ref=f7e603]: Anschreiben
+                - paragraph [ref=f7e611]: Kranti_Chavan_Anschreiben_Ares_IT-Allrounder-E-Commerce-KI-Robotic.pdf
+              - paragraph [ref=f7e612]: Bearbeiten
+    - generic [ref=f7e26]:
+      - progressbar "100%" [ref=f7e613]
+      - generic [ref=f7e30]:
+        - button "Zurück" [ref=f7e99] [cursor=pointer]
+        - button "Bestätigen & bewerben" [ref=f7e614] [cursor=pointer]
+  - alert [ref=f7e4]: "Ares (Lünen): IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung"
+  - region "Notifications, bottom-end (alt+T)"

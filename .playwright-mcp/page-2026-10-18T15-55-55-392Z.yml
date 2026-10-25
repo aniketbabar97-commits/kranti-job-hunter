@@ -1,0 +1,337 @@
+- generic [ref=f3e1]:
+  - link [ref=f3e2] [cursor=pointer]: Zu den Hauptinhalten springen
+  - link [ref=f3e3] [cursor=pointer]:
+    - /url: https://support.google.com/websearch/answer/181196?hl=de
+    - text: Hilfe zur Barrierefreiheit
+  - dialog "Bevor Sie zur Google Suche weitergehen" [active]:
+    - generic [ref=f3e10]:
+      - generic [ref=f3e12]:
+        - img "Google" [ref=f3e13]
+        - generic [ref=f3e14]:
+          - 'button "Sprache: ‪Deutsch‬" [ref=f3e16] [cursor=pointer]':
+            - generic [ref=f3e17]: de
+          - link "Anmelden" [ref=f3e19] [cursor=pointer]
+      - generic [ref=f3e20]:
+        - heading "Bevor Sie zu Google weitergehen" [level=1] [ref=f3e21]
+        - generic [ref=f3e22]:
+          - generic [ref=f3e23]:
+            - text: Wir verwenden
+            - link "Cookies" [ref=f3e24] [cursor=pointer]:
+              - /url: https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de
+            - text: und Daten einschließlich IP-Adressen, um
+            - list [ref=f3e25]:
+              - listitem [ref=f3e26]: Google-Dienste zu erbringen und zu betreiben
+              - listitem [ref=f3e27]: Ausfälle zu prüfen und Maßnahmen gegen Spam, Betrug und Missbrauch zu ergreifen
+              - listitem [ref=f3e28]: Zielgruppeninteraktionen und Websitestatistiken zu analysieren, um zu verstehen, wie unsere Dienste verwendet werden, und die Qualität dieser Dienste zu verbessern
+          - generic [ref=f3e29]:
+            - text: Wenn Sie „Alle akzeptieren“ auswählen, verwenden wir Cookies und Daten einschließlich IP-Adressen auch, um
+            - list [ref=f3e30]:
+              - listitem [ref=f3e31]: neue Dienste zu entwickeln und zu verbessern
+              - listitem [ref=f3e32]: Werbung auszuliefern und ihre Effektivität zu messen
+              - listitem [ref=f3e33]: je nach Ihren Einstellungen personalisierte Inhalte anzuzeigen
+              - listitem [ref=f3e34]: personalisierte Werbung anzuzeigen, abhängig von Ihren Einstellungen
+            - generic [ref=f3e35]: Wenn Sie „Alle ablehnen“ auswählen, verwenden wir Cookies oder IP-Adressen nicht für diese zusätzlichen Zwecke.
+          - generic [ref=f3e36]: Nicht personalisierte Inhalte werden u. a. von Inhalten, die Sie sich gerade ansehen, Aktivitäten in Ihrer aktiven Suchsitzung und Ihrem Standort beeinflusst. Nicht personalisierte Werbung wird von den Inhalten, die Sie sich gerade ansehen, und Ihrem allgemeinen Standort beeinflusst. Personalisierte Inhalte und Werbung können auch relevantere Ergebnisse, Empfehlungen und individuelle Werbung enthalten, die auf früheren Aktivitäten in diesem Browser, etwa Suchanfragen bei Google, beruhen. Sofern relevant, verwenden wir Cookies und Daten außerdem, um Inhalte und Werbung altersgerecht zu gestalten.
+          - generic [ref=f3e37]: Wählen Sie „Weitere Optionen“ aus, um sich zusätzliche Informationen anzusehen, einschließlich Details zum Verwalten Ihrer Datenschutzeinstellungen. Sie können auch jederzeit g.co/privacytools besuchen.
+      - generic [ref=f3e38]:
+        - generic [ref=f3e39]:
+          - button "Alle ablehnen" [ref=f3e40] [cursor=pointer]
+          - button "Alle akzeptieren" [ref=f3e41] [cursor=pointer]
+        - link "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=f3e43] [cursor=pointer]:
+          - generic "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=f3e44]: Weitere Optionen
+      - generic [ref=f3e45]:
+        - link "Datenschutz" [ref=f3e46] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=de&fg=1&utm_source=ucbs
+        - generic [aria-hidden] [ref=f3e47]: ·
+        - link "Nutzungsbedingungen" [ref=f3e48] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs
+  - generic [ref=f3e53]:
+    - search [ref=f3e54]:
+      - generic [ref=f3e57]:
+        - link [ref=f3e58] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=de&ictx=0&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0QpYkNegQIBhBm
+        - generic [ref=f3e59]:
+          - combobox [ref=f3e61]: karriere.lekkerland.de "Senior) Consultant E-Commerce" Frechen karriere.lekkerland.de "Senior) Consultant E-Commerce" Frechen
+          - generic [ref=f3e62]:
+            - button [ref=f3e66] [cursor=pointer]
+            - generic [ref=f3e71]:
+              - button [ref=f3e74] [cursor=pointer]
+              - button [ref=f3e79] [cursor=pointer]
+    - generic [ref=f3e82]:
+      - button [ref=f3e84] [cursor=pointer]
+      - button [ref=f3e85] [cursor=pointer]
+      - generic [ref=f3e91]:
+        - button [ref=f3e93] [cursor=pointer]
+        - link [ref=f3e98] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=de&passive=true&continue=https://www.google.com/search%3Fq%3Dkarriere.lekkerland.de%2B%2522Senior)%2BConsultant%2BE-Commerce%2522%2BFrechen&ec=futura_srp_og_si_72236_p
+          - generic: Anmelden
+  - generic [ref=f3e100]:
+    - navigation [ref=f3e106]:
+      - list [ref=f3e109]:
+        - listitem [ref=f3e110]:
+          - link [ref=f3e113] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&udm=50&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q2J8OegQIEhAD
+            - generic [ref=f3e114]: KI‑Modus
+        - listitem [ref=f3e117]:
+          - link [disabled] [ref=f3e118]:
+            - generic [ref=f3e119]: Alle
+        - listitem [ref=f3e121]:
+          - link [ref=f3e122] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&udm=39&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Qs6gLegQIGBAB
+            - generic [ref=f3e123]: Kurze Videos
+        - listitem [ref=f3e125]:
+          - link [ref=f3e126] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&tbm=nws&source=lnms&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q0pQJegQIFxAB
+            - generic [ref=f3e127]: News
+        - listitem [ref=f3e129]:
+          - link [ref=f3e130] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&udm=2&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0QtKgLegQIFhAB
+            - generic [ref=f3e131]: Bilder
+        - listitem [ref=f3e133]:
+          - link [ref=f3e134] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&udm=vids&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0QtKgLegQIFRAB
+            - generic [ref=f3e135]: Videos
+        - listitem [ref=f3e137]:
+          - link [ref=f3e138] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&udm=web&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqKqW2Sn7tBo8e8lRTsdu2-LL4E81ANnZfxKQeD_CUDHGXkdwbskfr8If8rEmRRXPSwZ_nkotR9DUCzIAmUG4noCg1KOcDPNN9wc0JSgMCmmFXk0XrSqMNRnopwk9rDeFlGrJ2MQsOwFX-qgkMo2M56cjO3fgn-tKfXYMAfUyAMbTtz-IGH&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Qs6gLegQIFBAB
+            - generic [ref=f3e139]: Web
+        - listitem [ref=f3e141]:
+          - button [ref=f3e142] [cursor=pointer]:
+            - generic [ref=f3e143]: Mehr
+    - heading [level=1] [ref=f3e149]: Suchergebnisse
+    - generic [ref=f3e155]:
+      - generic [ref=f3e156]: Looking for results in English?
+      - link [ref=f3e157] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f3e161] [cursor=pointer]:
+        - /url: /setprefs?sig=0_YWIJ7GMQFvQsP5d40awamSfyDwY%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dkarriere.lekkerland.de%2B%2522Senior)%2BConsultant%2BE-Commerce%2522%2BFrechen&hl=en&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0QhoQCKAF6BAgQEAQ
+        - text: Change to English
+      - link [ref=f3e162] [cursor=pointer]:
+        - /url: "#"
+        - text: Weiter auf Deutsch anzeigen
+      - link [ref=f3e164] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=de&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0QiIQCKAN6BAgQEAY#languages
+        - text: Spracheinstellungen
+    - main [ref=f3e166]:
+      - generic [ref=f3e170]:
+        - generic [ref=f3e173]:
+          - heading [level=2] [ref=f3e174]: Webergebnisse
+          - generic [ref=f3e175]:
+            - generic [ref=f3e178]:
+              - link [ref=f3e180] [cursor=pointer]:
+                - /url: /goto?url=CAESjwEB6zswFQuZEd6btel_E7uuzk6-4BjE7j7pibmnVE2N_L-NUkPNYC-RsMnjkjqMxJ80f5S9P1pTBocW9SGe70dWojaoCKCLY50DnbTWoYuXHf0fPYDlC6BPE2VpkTPD9n5E8y0fsHP_WJtXdpzlSe_kTpIS7C3Y6BR-XV6YsV1W9WZ0ja5sU9O9tCh8e51UqA
+                - heading [level=3] [ref=f3e181]: (Senior) Consultant E-Commerce (m/w/d)
+                - generic [ref=f3e187]:
+                  - generic [ref=f3e188]: Lekkerland - Karriere
+                  - generic [ref=f3e190]: https://karriere.lekkerland.de › Jobs
+              - button [ref=f3e196] [cursor=pointer]
+            - generic [ref=f3e203]:
+              - text: (
+              - emphasis [ref=f3e204]: Senior) Consultant E-Commerce
+              - text: "(m/w/d). Art der Beschäftigung: Vollzeit; Bereich: E-Commerce; Dein Einstieg: mit Berufserfahrung; Standort:"
+              - emphasis [ref=f3e205]: Frechen
+              - text: ; Großraum ...
+        - generic [ref=f3e216]:
+          - heading [level=2] [ref=f3e220]:
+            - generic [ref=f3e221]: Denkprozess läuft
+          - progressbar [ref=f3e223]
+        - generic [ref=f3e227]:
+          - heading [level=2] [ref=f3e228]: Webergebnisse
+          - generic [ref=f3e229]:
+            - generic [ref=f3e232]:
+              - link [ref=f3e234] [cursor=pointer]:
+                - /url: /goto?url=CAESWgHrOzAVZq2CaPwJrCWnIy6vLv8PeNToDe9LEby4eM3x7SrG2aNfSLuRe8gQIhquf-DJnlmV4vgw2yfFfBwCfiV0V_ZA0sA1LlcU4sH1aYSMG-5jq1FGFTq_XA
+                - heading [level=3] [ref=f3e235]: Karriere bei Lekkerland - Lekker.Besser.Weiter.
+                - generic [ref=f3e241]:
+                  - generic [ref=f3e242]: Lekkerland - Karriere
+                  - generic [ref=f3e244]: https://karriere.lekkerland.de
+              - button [ref=f3e250] [cursor=pointer]
+            - generic [ref=f3e257]:
+              - text: ... (
+              - emphasis [ref=f3e258]: Senior) Consultant E-Commerce
+              - text: (m/w/d) Gebietsverkaufsleiter Großraum Münster/Osnabrück (m/w/d) Team Manager Warenausgang (m/w/d) Manager Corporate ...
+        - generic [ref=f3e262]:
+          - generic [ref=f3e265]:
+            - link [ref=f3e267] [cursor=pointer]:
+              - /url: /goto?url=CAEShAEB6zswFQFayEuPaJUmo2iQa0eIDbNljUl52DitI0IFk6HYKqnka11P1K5If0g9qRV_2qFroN5rt3WsMZOI9mhp06EJNJu_STfVYXdN3pyz5KDS60IcYPPC7nt4_bYQqGw0fOW3xD-eRI-KOhurKYBqJw7wpjmUHBvsYSQgAwIPFg1cpFw
+              - heading [level=3] [ref=f3e268]: (Senior) Consultant E-Commerce (m/w/d) | Job in Frechen
+              - generic [ref=f3e274]:
+                - generic [ref=f3e275]: Jobvector
+                - generic [ref=f3e277]: https://www.jobvector.de › ... › Lekkerland
+            - button [ref=f3e283] [cursor=pointer]
+          - generic [ref=f3e290]:
+            - text: (
+            - emphasis [ref=f3e291]: Senior) Consultant E-Commerce
+            - text: (m/w/d).
+            - emphasis [ref=f3e292]: Lekkerland
+            - text: SE.
+            - emphasis [ref=f3e293]: Frechen
+            - text: ", Nordrhein-Westfalen. Homeoffice möglich · 13.10.2026 ; (Senior) Salesforce Consultant (m/w/d)."
+        - generic [ref=f3e297]:
+          - generic [ref=f3e300]:
+            - link [ref=f3e302] [cursor=pointer]:
+              - /url: /goto?url=CAESmwEB6zswFSabMbLm0Ik_wu0rz1vkYLSZmClaQK-JDEp4VoQ7sJtwRFKyY3n2v7pwMyALdoiFSir1is-VZ9STLxLJkDh8s7atrv-L7jegvqnhawe_SUDrjPoc1MTs6NaZuwY2C21lXzwOrdjXRBh62IvDPkXGrjMk91-cpQlVrrGvh9KbnQlFZdpEZI0WphHyOuaqi2KLqHt6_X9KZA
+              - heading [level=3] [ref=f3e303]: (Senior) Consultant E-Commerce (m/w/d)
+              - generic [ref=f3e309]:
+                - generic [ref=f3e310]: LinkedIn
+                - generic [ref=f3e312]: https://de.linkedin.com › jobs › view › senior-consultant-...
+            - button [ref=f3e318] [cursor=pointer]
+          - generic [ref=f3e324]:
+            - generic [ref=f3e325]: 16.07.2026 —
+            - generic [ref=f3e326]:
+              - text: (
+              - emphasis [ref=f3e327]: Senior) Consultant E-Commerce
+              - text: (m/w/d).
+              - emphasis [ref=f3e328]: Lekkerland
+              - text: SE
+              - emphasis [ref=f3e329]: Frechen
+              - text: . Vor 3 ... Lassen Sie sich über neue Jobs im Bereich E-Commerce-Berater in
+              - emphasis [ref=f3e330]: Frechen
+              - text: ...
+        - generic [ref=f3e334]:
+          - generic [ref=f3e337]:
+            - link [ref=f3e339] [cursor=pointer]:
+              - /url: /goto?url=CAESgwEB6zswFbQb953vVS4WdLQRPLhyUhpNOZnBXcc0hJjoEeaaS0IwCArhiB5SW40IdPaKg3_lA5Nl8vItXpRBvmGYs72iVBxt9vyhGNFGrsax7yWmdDxDHzhcZfEu6cvlw7ZpVbhJWfvxAQga8Xf70k4M5B6ThYlSvq90JiR1n8VBEv5foQ
+              - heading [level=3] [ref=f3e340]: (Senior) Consultant E-Commerce (m/w/d)
+              - generic [ref=f3e346]:
+                - generic [ref=f3e347]: onlyfy.io
+                - generic [ref=f3e349]: https://lekkerland-career.onlyfy.jobs › job
+            - button [ref=f3e355] [cursor=pointer]
+          - generic [ref=f3e362]:
+            - text: (
+            - emphasis [ref=f3e363]: Senior) Consultant E-Commerce
+            - text: (m/w/d)
+            - emphasis [ref=f3e364]: Lekkerland
+            - text: ", ein Teil der REWE Group, ist der Spezialist für die Unterwegsversorgung in vier europäischen Ländern."
+          - generic [ref=f3e366]:
+            - text: "Es fehlt: Frechen ‎| Suchen mit:"
+            - link [ref=f3e367] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+%22Frechen%22&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q5t4CegQIJhAB
+              - text: Frechen
+        - generic [ref=f3e371]:
+          - generic [ref=f3e374]:
+            - link [ref=f3e376] [cursor=pointer]:
+              - /url: /goto?url=CAESXwHrOzAVaDMa5pb60f24-W6nJWkxjkjmsuGrIiYGzOI_zVgFuJCTBnG1t1xc-TuK2rIuigK5t13Au1p7utEIZD4TAWvOR4exOSvciwD4npvtj-QfDUipVRRBSLAfZ1cW
+              - heading [level=3] [ref=f3e377]: Innovative und vielseitige Karrierechancen
+              - generic [ref=f3e383]:
+                - generic [ref=f3e384]: Lekkerland - Karriere
+                - generic [ref=f3e386]: https://karriere.lekkerland.de › jobs
+            - button [ref=f3e392] [cursor=pointer]
+          - generic [ref=f3e399]:
+            - emphasis [ref=f3e400]: Lekkerland
+            - text: "-"
+            - emphasis [ref=f3e401]: Karriere
+            - text: Logo. Wir als ... (
+            - emphasis [ref=f3e402]: Senior) Consultant E-Commerce
+            - text: (m/w/d) Gebietsverkaufsleiter Großraum Münster ...
+        - generic [ref=f3e406]:
+          - generic [ref=f3e409]:
+            - link [ref=f3e411] [cursor=pointer]:
+              - /url: /goto?url=CAESqQEB6zswFR6_528RjiKiHy6xqLtGADnfjmo1sr33gmWNoQLSR0xiR48huJ11zk3LYTyumi50YdQzM9OMvDQNSfZnhC7r8adBnqYq6QZLjKiS78-TmCmRmiflf2apjQR57YY7KEVLKN8djylKf4M1VGr3FIaA78YLJ06EtuzBx-mPOqPk8GNkgzPEXsmmLtx1606xkS0nmKbbMX75hAoskmaKbViCRWNUKpD1
+              - heading [level=3] [ref=f3e412]: (Senior) Consultant E-Commerce (m/w/d) | Frechen
+              - generic [ref=f3e418]:
+                - generic [ref=f3e419]: JobLeads
+                - generic [ref=f3e421]: https://www.jobleads.com › job › senior-consultant-e-co...
+            - button [ref=f3e427] [cursor=pointer]
+          - generic [ref=f3e434]:
+            - emphasis [ref=f3e435]: Lekkerland
+            - text: ", Teil der REWE Group, sucht einen ("
+            - emphasis [ref=f3e436]: Senior) Consultant E-Commerce
+            - text: (m/w/d). Sie steuern eigenverantwortlich Roll-Outs des digitalen B2B-Geschäfts, ...
+        - generic [ref=f3e440]:
+          - generic [ref=f3e443]:
+            - link [ref=f3e445] [cursor=pointer]:
+              - /url: /goto?url=CAESaAHrOzAV9ZNgkqrYUnXrpYmpP3GZAloaztljD_aEFy9FPpwywYJTbwjdeYIqtJzKb43YZPgxjV0XD-BJ6BxmLBaSc8DwVQrp2b5xq-wCzsapBD4Ymbm-FlWyghpDHME4xnwzn4Eo3B-_
+              - heading [level=3] [ref=f3e446]: Vielseitige Karrierechancen nach dem Schulabschluss
+              - generic [ref=f3e452]:
+                - generic [ref=f3e453]: Lekkerland - Karriere
+                - generic [ref=f3e455]: https://karriere.lekkerland.de › schuelerinnen
+            - button [ref=f3e461] [cursor=pointer]
+          - generic [ref=f3e468]:
+            - text: "Werkstudent Master Data Management (m/w/d). Standort: Köln ·"
+            - emphasis [ref=f3e469]: Frechen
+            - text: ... (
+            - emphasis [ref=f3e470]: Senior) Consultant E-Commerce
+            - text: (m/w/d) Gebietsverkaufsleiter Großraum Münster ...
+        - generic [ref=f3e474]:
+          - generic [ref=f3e477]:
+            - link [ref=f3e479] [cursor=pointer]:
+              - /url: /goto?url=CAESeQHrOzAVvLkzp9b0ivkrtUA63TxMQL_ccsewpAoxtb6zJ2DG5gxxARxRzFt4a1Hksg5f17QA8GvUCbBlFHkXB9qt_dBTl1yLXNRbCzySJBTnXHmTRojyTFwmZAsK_ThWNaqB9AzoyhWKfvpJgUfmSZCyiG0WUccs_OI
+              - heading [level=3] [ref=f3e480]: Zukunftsweisende Tätigkeiten im Bereich IT & E-Commerce
+              - generic [ref=f3e486]:
+                - generic [ref=f3e487]: Lekkerland - Karriere
+                - generic [ref=f3e489]: https://karriere.lekkerland.de › it-digital
+            - button [ref=f3e495] [cursor=pointer]
+          - generic [ref=f3e502]:
+            - emphasis [ref=f3e503]: Lekkerland
+            - text: "-"
+            - emphasis [ref=f3e504]: Karriere
+            - text: Logo. Wir als ... (
+            - emphasis [ref=f3e505]: Senior) Consultant E-Commerce
+            - text: (m/w/d) Gebietsverkaufsleiter Großraum Münster ...
+      - generic [ref=f3e507]:
+        - generic [ref=f3e512]:
+          - heading [level=2] [ref=f3e514]: Wird auch oft gesucht
+          - generic [ref=f3e516]:
+            - generic [ref=f3e517]:
+              - link [ref=f3e521] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+au%C3%9Fendienst&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgrEAE
+                - generic [ref=f3e522]: Lekkerland außendienst
+              - link [ref=f3e535] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+gesch%C3%A4ftsf%C3%BChrung&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgyEAE
+                - generic [ref=f3e536]: Lekkerland geschäftsführung
+              - link [ref=f3e549] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+dienstwagen&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgxEAE
+                - generic [ref=f3e550]: Lekkerland dienstwagen
+              - link [ref=f3e563] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=HLS+Jobs&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgwEAE
+                - generic [ref=f3e564]: HLS Jobs
+            - generic [ref=f3e574]:
+              - link [ref=f3e578] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+Vertrieb&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgvEAE
+                - generic [ref=f3e579]: Lekkerland Vertrieb
+              - link [ref=f3e592] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+Key+Account+Manager&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgtEAE
+                - generic [ref=f3e593]: Lekkerland Key Account Manager
+              - link [ref=f3e606] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Im+Lekkerland&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAgsEAE
+                - generic [ref=f3e607]: Im Lekkerland
+              - link [ref=f3e620] [cursor=pointer]:
+                - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&q=Lekkerland+logistikzentrum+kassel+lohfelden&sa=X&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q1QJ6BAguEAE
+                - generic [ref=f3e621]: Lekkerland logistikzentrum kassel lohfelden
+        - navigation [ref=f3e631]:
+          - heading [level=1] [ref=f3e632]: Seitennavigation
+          - text: "1"
+          - link [ref=f3e635] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=10&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAE
+            - text: "2"
+          - link [ref=f3e637] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=20&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAG
+            - text: "3"
+          - link [ref=f3e639] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=30&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAI
+            - text: "4"
+          - link [ref=f3e641] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=40&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAK
+            - text: "5"
+          - link [ref=f3e643] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=50&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAM
+            - text: "6"
+          - link [ref=f3e645] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=60&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAO
+            - text: "7"
+          - link [ref=f3e647] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=70&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAQ
+            - text: "8"
+          - link [ref=f3e649] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=80&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAS
+            - text: "9"
+          - link [ref=f3e651] [cursor=pointer]:
+            - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=90&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8tMDegQIKRAU
+            - text: "10"
+          - heading [level=2] [ref=f3e653]:
+            - link [ref=f3e654] [cursor=pointer]:
+              - /url: /search?q=karriere.lekkerland.de+%22Senior)+Consultant+E-Commerce%22+Frechen&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsIyJh1znnyDXL-nbq2rQCzUimeIg:1792338954724&ei=CuzUapDkK8yaruEPq5Kf6QM&start=10&sa=N&sstk=AS6-VmJ_bsG7cnNncQnSeTkB07MRZiRJxowEV5AamspzmJ6NGRw-JbDestG1gtgLwGcMfUZ_L45AjX-ey9gpHaxo7EDIRekvgMdQ2w&ved=2ahUKEwiQkdr19sOXAxVMjSsGHSvJJz0Q8NMDegQIKRAW
+              - generic [ref=f3e656]: Weiter
+    - contentinfo [ref=f3e657]:
+      - heading [level=1] [ref=f3e658]: Fußzeilenlinks

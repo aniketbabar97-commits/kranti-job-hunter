@@ -1,0 +1,91 @@
+- generic [ref=f87e3]:
+  - banner [ref=f87e7]:
+    - generic [ref=f87e9]:
+      - link [ref=f87e10] [cursor=pointer]:
+        - /url: https://www.apvento.de
+      - generic:
+        - navigation:
+          - generic:
+            - link "Stellenangebote":
+              - /url: ./career
+              - generic:
+                - paragraph: Stellenangebote
+          - generic:
+            - link "Über uns":
+              - /url: ./about
+              - generic:
+                - paragraph: Über uns
+          - generic:
+            - link "Leistungen":
+              - /url: ./service
+              - generic:
+                - paragraph: Leistungen
+          - generic:
+            - link "Fallstudie":
+              - /url: ./case-study
+              - generic:
+                - paragraph: Fallstudie
+      - generic [ref=f87e12]:
+        - link [ref=f87e14] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=f87e16]: Kontakt
+        - generic [ref=f87e18] [cursor=pointer]
+  - generic [ref=f87e23]:
+    - img "Banner Image" [ref=f87e28]
+    - generic [ref=f87e30]:
+      - img "Error Image" [ref=f87e34]
+      - generic [ref=f87e35]:
+        - generic [ref=f87e36]:
+          - heading "Ups! Seite nicht gefunden." [level=1] [ref=f87e38]
+          - paragraph [ref=f87e40]: Es sieht so aus, als ob die Seite, die du versuchst aufzurufen, nicht existiert oder verschoben wurde. Keine Sorge – wir sind hier, um zu helfen! Du kannst zurück zur Startseite gehen oder uns direkt kontaktieren, wenn du Hilfe benötigst.
+        - link "Startseite" [ref=f87e43] [cursor=pointer]:
+          - /url: ./
+          - paragraph [ref=f87e45]: Startseite
+  - contentinfo [ref=f87e50]:
+    - generic [ref=f87e52]:
+      - generic [ref=f87e53]:
+        - paragraph [ref=f87e56]: apvento ist dein verlässlicher Partner für moderne Jobsuche und professionelle Personalberatung – wir bringen Menschen und Unternehmen zusammen, die wirklich zueinander passen. Ob du einen neuen Job suchst oder die passenden Talente für dein Team – bei apvento bist du richtig!
+        - generic [ref=f87e57]:
+          - generic [ref=f87e58]:
+            - paragraph [ref=f87e60]: Unternehmen
+            - generic [ref=f87e61]:
+              - paragraph [ref=f87e63]:
+                - link "Stellenangebote" [ref=f87e64] [cursor=pointer]:
+                  - /url: ./career
+              - paragraph [ref=f87e66]:
+                - link "Über uns" [ref=f87e67] [cursor=pointer]:
+                  - /url: ./about
+              - paragraph [ref=f87e69]:
+                - link "Leistungen" [ref=f87e70] [cursor=pointer]:
+                  - /url: ./service
+              - paragraph [ref=f87e72]:
+                - link "Erfolge" [ref=f87e73] [cursor=pointer]:
+                  - /url: ./case-study
+              - paragraph [ref=f87e75]:
+                - link "DSGVO" [ref=f87e76] [cursor=pointer]:
+                  - /url: ./dsgvo
+              - paragraph [ref=f87e78]:
+                - link "Impressum" [ref=f87e79] [cursor=pointer]:
+                  - /url: ./impressum
+          - generic [ref=f87e81]:
+            - paragraph [ref=f87e83]: Social
+            - generic [ref=f87e84]:
+              - paragraph [ref=f87e86]:
+                - link "Facebook" [ref=f87e87] [cursor=pointer]:
+                  - /url: https://www.facebook.com/
+              - paragraph [ref=f87e89]:
+                - link "Instagram" [ref=f87e90] [cursor=pointer]:
+                  - /url: https://www.instagram.com/
+              - paragraph [ref=f87e92]:
+                - link "LinkedIn" [ref=f87e93] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/kazierfan/
+              - paragraph [ref=f87e95]:
+                - link "Twitter" [ref=f87e96] [cursor=pointer]:
+                  - /url: https://x.com/pentaclay
+      - generic [ref=f87e98]:
+        - paragraph [ref=f87e100]: Gronau, Germany
+        - paragraph [ref=f87e102]:
+          - link "info@apvento." [ref=f87e103] [cursor=pointer]:
+            - /url: "mailto: hello@pentaclay.com"
+          - text: de
+        - paragraph [ref=f87e105]: © 2026 all rights reserved.

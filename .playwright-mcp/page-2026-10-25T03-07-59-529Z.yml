@@ -1,0 +1,58 @@
+- generic [ref=f21e2]:
+  - navigation [ref=f21e6]:
+    - generic [ref=f21e7]:
+      - link [ref=f21e8] [cursor=pointer]:
+        - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+        - img "Company Logo" [ref=f21e9]
+      - list [ref=f21e11]:
+        - listitem [ref=f21e12]:
+          - link "Kunststofflösungen" [ref=f21e13] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de
+        - listitem [ref=f21e14]:
+          - link "Branchen" [ref=f21e15] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/luftfahrt-raumfahrt
+        - listitem [ref=f21e16]:
+          - link "Unternehmen" [ref=f21e17] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/ueber-uns
+        - listitem [ref=f21e18]:
+          - link "Karriere" [ref=f21e19] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/karriere
+  - generic [ref=f21e28]:
+    - generic [ref=f21e29]:
+      - paragraph [ref=f21e31]: Digital Product Manager (m/f/d) Webshop & Digital Tools
+      - paragraph [ref=f21e33]: Die mit * gekennzeichneten Felder sind Pflichtfelder.
+      - generic [ref=f21e34]:
+        - paragraph [ref=f21e36]: Datenschutzbestimmungen
+        - generic [ref=f21e39]:
+          - checkbox "Ich habe die Datenschutzbestimmungen gelesen und akzeptiere sie.*" [ref=f21e40]
+          - generic [ref=f21e41]:
+            - generic [ref=f21e42]:
+              - text: Ich habe die
+              - link "Datenschutzbestimmungen" [ref=f21e43] [cursor=pointer]:
+                - /url: showJobExchangeDataPrivacyTermsDocument.do?documentMetaDataId=8a7082829628868a019680a1daa51d0c
+              - text: gelesen und akzeptiere sie.
+            - text: "*"
+        - generic [ref=f21e46]:
+          - checkbox "Ich bin mit der Aufnahme in den Bewerberpool sowie der internen Weiterleitung meiner Bewerbungsunterlagen zur Prüfung für andere offene Stellen einverstanden. (Weitere Informationen)" [ref=f21e47]
+          - paragraph [ref=f21e50]:
+            - text: Ich bin mit der Aufnahme in den Bewerberpool sowie der internen Weiterleitung meiner Bewerbungsunterlagen zur Prüfung für andere offene Stellen einverstanden. (
+            - link "Weitere Informationen" [ref=f21e51] [cursor=pointer]:
+              - /url: /engage/jobexchange/streamResource.do/5177524839851897/styles/jobexchange/walha_jex/Ensinger_Datenschutzhinweise_Bewerberpool_20250203.pdf
+            - text: )
+    - button "Weiter" [ref=f21e55] [cursor=pointer]
+    - generic [ref=f21e56]: Seite 1 von 2
+  - contentinfo [ref=f21e59]:
+    - paragraph [ref=f21e61]: © Ensinger
+    - list [ref=f21e63]:
+      - listitem [ref=f21e64]:
+        - link "Datenschutzerklärung" [ref=f21e65] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+      - listitem [ref=f21e66]:
+        - link "Impressum" [ref=f21e67] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/impressum
+      - listitem [ref=f21e68]:
+        - link "Allgemeine Geschäftsbedingungen" [ref=f21e69] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+      - listitem [ref=f21e70]:
+        - link "Cookie-Einstellungen" [ref=f21e71] [cursor=pointer]:
+          - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

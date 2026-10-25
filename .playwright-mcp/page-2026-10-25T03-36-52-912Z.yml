@@ -1,0 +1,81 @@
+- generic [ref=f45e2]:
+  - link "Zum Inhalt springen (Enter drücken)" [ref=f45e3] [cursor=pointer]:
+    - /url: "#acc-content"
+  - banner [ref=f45e4]:
+    - list [ref=f45e7]:
+      - listitem [ref=f45e8]:
+        - link [ref=f45e9] [cursor=pointer]:
+          - /url: https://www.facebook.com/mhwbike
+      - listitem [ref=f45e12]:
+        - link [ref=f45e13] [cursor=pointer]:
+          - /url: https://www.instagram.com/mhwbike/
+      - listitem [ref=f45e16]:
+        - link [ref=f45e17] [cursor=pointer]:
+          - /url: https://www.youtube.com/@MHW-Bike
+      - listitem [ref=f45e20]:
+        - link [ref=f45e21] [cursor=pointer]:
+          - /url: https://www.pinterest.de/mhwbike/
+      - listitem [ref=f45e24]:
+        - link [ref=f45e25] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@mhwbike
+      - listitem [ref=f45e28]:
+        - link [ref=f45e29] [cursor=pointer]:
+          - /url: https://twitter.com/mhwbike
+    - generic [ref=f45e33]:
+      - generic [ref=f45e34]:
+        - link [ref=f45e35] [cursor=pointer]:
+          - /url: https://jobs.mhw-bike.de/
+          - img "Karriere / Jobs bei MHW Bike-House (Schwäbisch Hall)" [ref=f45e36]
+        - generic:
+          - paragraph [ref=f45e37]:
+            - link "Karriere / Jobs bei MHW Bike-House (Schwäbisch Hall)" [ref=f45e38] [cursor=pointer]:
+              - /url: https://jobs.mhw-bike.de/
+          - paragraph [ref=f45e39]: Quereinsteiger willkommen!
+      - generic [ref=f45e40]:
+        - navigation [ref=f45e41]:
+          - list [ref=f45e43]:
+            - listitem [ref=f45e44]:
+              - link "Home" [ref=f45e45] [cursor=pointer]:
+                - /url: https://jobs.mhw-bike.de/
+            - listitem [ref=f45e46]:
+              - link "Unternehmen" [ref=f45e47] [cursor=pointer]:
+                - /url: https://jobs.mhw-bike.de/das-unternehmen/
+            - listitem [ref=f45e48]:
+              - link "Karriere" [ref=f45e49] [cursor=pointer]:
+                - /url: https://jobs.mhw-bike.de/job-openings/
+            - listitem [ref=f45e50]:
+              - link "Nachhaltigkeit" [ref=f45e51] [cursor=pointer]:
+                - /url: https://jobs.mhw-bike.de/nachhaltigkeit/
+        - link "Zum Shop" [ref=f45e52] [cursor=pointer]:
+          - /url: https://www.mhw-bike.de/
+  - generic [ref=f45e55]:
+    - generic [ref=f45e57]:
+      - generic [ref=f45e59]:
+        - generic [ref=f45e60]:
+          - link "Startseite" [ref=f45e61] [cursor=pointer]:
+            - /url: https://jobs.mhw-bike.de
+          - text: ">"
+        - generic [ref=f45e62]: Verfügbare Jobs im Bereich Marketing
+      - banner [ref=f45e63]:
+        - heading "Verfügbare Jobs im Bereich Marketing" [level=1] [ref=f45e64]
+      - main [ref=f45e67]:
+        - article [ref=f45e68]:
+          - generic [ref=f45e69]:
+            - generic [ref=f45e71]:
+              - heading [level=5] [ref=f45e75]:
+                - link "Mediengestalter:in Digital und Print – Fachrichtung Gestaltung und Technik" [ref=f45e76] [cursor=pointer]:
+                  - /url: https://jobs.mhw-bike.de/mediengestalterin-digital-und-print-fachrichtung-gestaltung-und-technik/
+              - heading [level=5] [ref=f45e80]:
+                - link "Mitarbeiter:in im E-Commerce & Marketing" [ref=f45e81] [cursor=pointer]:
+                  - /url: https://jobs.mhw-bike.de/mitarbeiterin-im-e-commerce-marketing/
+            - link [ref=f45e85] [cursor=pointer]:
+              - /url: javascript:history.back()
+              - strong [ref=f45e86]: zurück
+    - contentinfo [ref=f45e87]:
+      - generic [ref=f45e89]:
+        - generic [ref=f45e90]:
+          - text: © 2024 MHW Bike House -
+          - link "Impressum" [ref=f45e91] [cursor=pointer]:
+            - /url: https://jobs.mhw-bike.de/impressum/
+        - link "Datenschutzerklärung" [ref=f45e93] [cursor=pointer]:
+          - /url: https://jobs.mhw-bike.de/datenschutzerklaerung/

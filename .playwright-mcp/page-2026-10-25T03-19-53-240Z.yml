@@ -1,0 +1,420 @@
+- generic [active] [ref=f4e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f4e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f4e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f4e8]:
+    - search [ref=f4e9]:
+      - generic [ref=f4e11]:
+        - link "Go to Google Home" [ref=f4e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQPHoECAYQBA
+        - generic [ref=f4e22]:
+          - combobox "Search" [ref=f4e24]: Einhell SAP Consultant Sales Landau an der Isar Stelle Einhell SAP Consultant Sales Landau an der Isar Stelle
+          - generic [ref=f4e25]:
+            - button "Clear" [ref=f4e29] [cursor=pointer]
+            - generic [ref=f4e34]:
+              - button "Search by voice" [ref=f4e37] [cursor=pointer]
+              - button "Search by image" [ref=f4e42] [cursor=pointer]
+    - generic [ref=f4e45]:
+      - button "Settings" [ref=f4e47] [cursor=pointer]
+      - button "Share" [ref=f4e52] [cursor=pointer]
+      - generic [ref=f4e58]:
+        - button "Google apps" [ref=f4e60] [cursor=pointer]
+        - link "Sign in" [ref=f4e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DEinhell%2BSAP%2BConsultant%2BSales%2BLandau%2Ban%2Bder%2BIsar%2BStelle%26sei%3DVXXdauvGBoSYhvcP96az2QU&ec=futura_srp_og_si_72236_p
+  - generic [ref=f4e67]:
+    - navigation [ref=f4e73]:
+      - generic [ref=f4e79]:
+        - list [ref=f4e80]:
+          - listitem [ref=f4e81]:
+            - link "AI Mode" [ref=f4e84] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ2J8OegQIFxAD
+          - listitem [ref=f4e88]:
+            - link "All" [disabled] [ref=f4e89]
+          - listitem [ref=f4e92]:
+            - link "Images" [ref=f4e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQtKgLegQIGRAB
+          - listitem [ref=f4e96]:
+            - link "News" [ref=f4e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ0pQJegQIHhAB
+          - listitem [ref=f4e100]:
+            - link "Forums" [ref=f4e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQs6gLegQIHRAB
+          - listitem [ref=f4e104]:
+            - link "Shopping" [ref=f4e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&ved=1t:220175&ictx=111
+          - listitem [ref=f4e108]:
+            - link "Short videos" [ref=f4e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832X6CeY5aSHvaPXpohaS1ddslNQqXKmbO1FK7bUQc5zRlODnx54C7-Q_eeAednhP81iDeHdnVqwfs-RLjMIjCISO5yWGz7KlQIqLPKcPKhItcG76glAGpB4hnmhMp_eZKUyAQba99s8cZ1O-2tl89EUmqpC9pC0-PntfUYOpiGWEUDA7h9A&q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQs6gLegQIGxAB
+          - listitem [ref=f4e112]:
+            - button [ref=f4e113] [cursor=pointer]:
+              - generic "More filters" [ref=f4e114]: More
+        - button "Tools" [ref=f4e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f4e128]
+    - generic [ref=f4e133]:
+      - generic [ref=f4e155]:
+        - generic [ref=f4e157]:
+          - heading "AI Overview" [level=2] [ref=f4e161]
+          - button "Listen" [ref=f4e165]:
+            - generic [ref=f4e169] [cursor=pointer]
+        - generic [ref=f4e176]:
+          - generic [ref=f4e194]:
+            - generic [ref=f4e197]:
+              - generic [ref=f4e198]:
+                - text: Die
+                - generic [ref=f4e199]: Einhell Germany AG
+                - text: sucht aktuell einen
+                - strong [ref=f4e200]: SAP Consultant Sales (m/w/d)
+                - text: am Standort in
+                - strong [ref=f4e201]: Landau an der Isar
+                - text: (
+                - mark [ref=f4e202]: mit Optionen für Hybrid- / Remotearbeit)
+                - text: .
+                - generic [ref=f4e206]:
+                  - link "softgarden" [ref=f4e207] [cursor=pointer]:
+                    - /url: /goto?url=CAESYAHrOzAVsQXmfNA1dxpG7VpyKaTqMgaWQWeVkv_TFxRxAvkVOloL5JxcrjbpwWaJstruCHv-HI3PytQ0h-KDjZKPGTUaFefKFTaXdLz5UAY4x6pnsuMpMpMaJosG2BlObg
+                  - button "softgarden (+3) – related results" [ref=f4e208] [cursor=pointer]:
+                    - generic [ref=f4e210]:
+                      - generic [ref=f4e211]: softgarden
+                      - generic [ref=f4e212]: "+3"
+              - heading "Stellen-Details" [level=3] [ref=f4e213]
+              - list [ref=f4e214]:
+                - listitem [ref=f4e216]:
+                  - generic [ref=f4e217]:
+                    - strong [ref=f4e218]: "Position:"
+                    - text: SAP Consultant Sales (m/w/d)
+                - listitem [ref=f4e220]:
+                  - generic [ref=f4e221]:
+                    - strong [ref=f4e222]: "Unternehmen:"
+                    - text: Einhell Germany AG
+                - listitem [ref=f4e224]:
+                  - generic [ref=f4e225]:
+                    - strong [ref=f4e226]: "Ort:"
+                    - text: Landau an der Isar (Hybrid möglich)
+                - listitem [ref=f4e228]:
+                  - generic [ref=f4e229]:
+                    - strong [ref=f4e230]: "Gehalt:"
+                    - text: ca. 90.000 € – 120.000 € (laut Stellenangaben)
+                - listitem [ref=f4e232]:
+                  - generic [ref=f4e233]:
+                    - strong [ref=f4e234]: "Aufgaben:"
+                    - text: Fachliche Leitung von Beratungsprojekten, Implementierung, Optimierung und Rollout von SAP-Sales-Lösungen
+                  - generic [ref=f4e238]:
+                    - link "softgarden" [ref=f4e239] [cursor=pointer]:
+                      - /url: /goto?url=CAESWQHrOzAV3paAEjRaY-1V7ixaP7TplV_pfgmMcw1LefQi8A28s6rfsLwN1jzT-kb9Sf2IW8uh5GlNiaHjOlJ--U0tIy5z16utm2ntu7qo0FNJYxIuJmc_nW3U
+                    - button "softgarden (+2) – related results" [ref=f4e240] [cursor=pointer]:
+                      - generic [ref=f4e242]:
+                        - generic [ref=f4e243]: softgarden
+                        - generic [ref=f4e244]: "+2"
+              - heading "Bewerbung" [level=3] [ref=f4e246]
+              - list [ref=f4e247]:
+                - listitem [ref=f4e249]:
+                  - generic [ref=f4e250]:
+                    - text: Die Bewerbung ist direkt über das
+                    - generic [ref=f4e251]: Einhell Career Portal
+                    - text: oder die
+                    - generic [ref=f4e252]: Karriereseite der Einhell Germany AG
+                    - text: möglich.
+                  - generic [ref=f4e256]:
+                    - link "softgarden" [ref=f4e257] [cursor=pointer]:
+                      - /url: /goto?url=CAESZAHrOzAVNbx5wpl3mOgCTHLzgb3NcJ1hoBqUQRYQ39zcUFS7sdt_wHOg0BFm4WVzUV3kU16heD3-Wl7abZfOOJ0dYWe_B4-Yk8xadY543fj1qwyUIfseZU3KGI9ARX7eKCrXMcI
+                    - button "softgarden (+1) – related results" [ref=f4e258] [cursor=pointer]:
+                      - generic [ref=f4e260]:
+                        - generic [ref=f4e261]: softgarden
+                        - generic [ref=f4e262]: "+1"
+              - generic [ref=f4e264]:
+                - generic [ref=f4e265]: "Möchten Sie wissen:"
+                - list [ref=f4e266]:
+                  - listitem [ref=f4e267]:
+                    - generic [ref=f4e268]:
+                      - text: Welche
+                      - strong [ref=f4e269]: Voraussetzungen bzw. Qualifikationen
+                      - text: für die Stelle gefordert sind?
+                  - listitem [ref=f4e270]:
+                    - generic [ref=f4e271]:
+                      - text: Wie Sie sich direkt auf der
+                      - strong [ref=f4e272]: Karriereseite
+                      - text: bewerben?
+            - generic [ref=f4e278]:
+              - list [ref=f4e280]:
+                - listitem [ref=f4e281]:
+                  - generic [ref=f4e282]:
+                    - link "Einhell Germany AG" [ref=f4e283] [cursor=pointer]:
+                      - /url: /goto?url=CAESYAHrOzAVsQXmfNA1dxpG7VpyKaTqMgaWQWeVkv_TFxRxAvkVOloL5JxcrjbpwWaJstruCHv-HI3PytQ0h-KDjZKPGTUaFefKFTaXdLz5UAY4x6pnsuMpMpMaJosG2BlObg
+                    - generic [ref=f4e284]:
+                      - generic [ref=f4e285]:
+                        - generic [ref=f4e288]: softgarden
+                        - button "About this result" [ref=f4e294] [cursor=pointer]
+                      - generic [ref=f4e300]:
+                        - generic [ref=f4e301]: Einhell Germany AG
+                        - generic [ref=f4e302]: 39 aktuelle Stellenangebote Professional (28) Schüler/in (8) Student/in (3) Alle Karrierestufen IT und Web (13) Vertrieb (6) Ausbi...
+                - listitem [ref=f4e306]:
+                  - generic [ref=f4e307]:
+                    - 'link "Einhell Germany AG: Career board" [ref=f4e308] [cursor=pointer]':
+                      - /url: /goto?url=CAESWQHrOzAV3paAEjRaY-1V7ixaP7TplV_pfgmMcw1LefQi8A28s6rfsLwN1jzT-kb9Sf2IW8uh5GlNiaHjOlJ--U0tIy5z16utm2ntu7qo0FNJYxIuJmc_nW3U
+                    - generic [ref=f4e309]:
+                      - generic [ref=f4e310]:
+                        - generic [ref=f4e313]: softgarden
+                        - button "About this result" [ref=f4e319] [cursor=pointer]
+                      - generic [ref=f4e325]:
+                        - generic [ref=f4e326]: "Einhell Germany AG: Career board"
+                        - generic [ref=f4e327]: Landau an der Isar. Einhell Germany AG. 10/19/26. SAP Consultant Sales (m/w/d). Professional. IT and Web. Landau an der Isar. Einh...
+              - button "Show all related results" [ref=f4e332] [cursor=pointer]:
+                - generic [ref=f4e333]: Show all
+          - generic [ref=f4e337]:
+            - generic [ref=f4e338]: AI can make mistakes, so double-check responses
+            - generic [ref=f4e342]:
+              - button "Share" [ref=f4e349]
+              - generic [ref=f4e359]:
+                - button "Good response" [ref=f4e364] [cursor=pointer]
+                - button "Bad response" [ref=f4e373] [cursor=pointer]
+              - button "More" [ref=f4e387] [cursor=pointer]
+      - main [ref=f4e396]:
+        - generic [ref=f4e400]:
+          - generic [ref=f4e403]:
+            - heading "Webergebnisse" [level=2] [ref=f4e404]
+            - generic [ref=f4e405]:
+              - generic [ref=f4e408]:
+                - 'link "Einhell Germany AG: Career board softgarden https://einhell.softgarden.io" [ref=f4e410] [cursor=pointer]':
+                  - /url: /goto?url=CAESWQHrOzAVyKcnLEtCIX6zrFzgvGO2DO3Q9oYHIAHR_BDwMnaQXwUuS68xL5hazDuFXn3_GkZDtDZu6A4zqcpOvvuG9EDUEdzXZfp1RZan6-7nCLsCHahuavPb
+                  - 'heading "Einhell Germany AG: Career board" [level=3] [ref=f4e411]'
+                  - generic [ref=f4e417]:
+                    - generic [ref=f4e418]: softgarden
+                    - generic [ref=f4e420]: https://einhell.softgarden.io
+                - generic [ref=f4e422]:
+                  - generic [ref=f4e423]: ·
+                  - link "Translate this page" [ref=f4e424] [cursor=pointer]:
+                    - /url: /goto?url=CAESogEB6zswFa75l_CFlLIJAcd5K7F5RSuvW6j9p6Lmh3lFJ4921sG4_1Ekkg05HH9xI05rBQUEHPapjqja20l4LUfMW8Tw3p0ZxTrulU4_LFHFwBvTpDSgZ5zD5r19MtqFPeKd7DcScaifVKC6DN5yr_ROmXfHAZqALTa3OKGLe7D2MxQB28GjLsvQFXdbKDwvIHDjKwoFZSxWGTEeGDY5f6dX3nY
+                - button "About this result" [ref=f4e429] [cursor=pointer]
+              - generic [ref=f4e435]:
+                - generic [ref=f4e436]:
+                  - emphasis [ref=f4e437]: Landau an der Isar
+                  - text: .
+                  - emphasis [ref=f4e438]: Einhell
+                  - text: Germany AG. 10/19/26.
+                  - emphasis [ref=f4e439]: SAP Consultant Sales
+                  - text: (m/w/d). Professional. IT and Web.
+                  - emphasis [ref=f4e440]: Landau an der Isar
+                  - text: .
+                  - emphasis [ref=f4e441]: Einhell
+                  - text: Germany AG. 10/19/26. SAP ...
+                - link "Read more" [ref=f4e442] [cursor=pointer]:
+                  - /url: /goto?url=CAESoAEB6zswFSHDSFsqdDJ0-I9OmF9nrmdDrGt5YBNnnTU9vVmw5k6T5BuL9eCbznY2mTAOXjzZdH-bXZetBDtmBGhc6FJ71YrDqG3BsYfzTSe9p-JlLgwFRoZJJNWQFZftqAnU-kpp1Y0knacywykjJwmS1gGxTCBiNZg8LRK01aXrDQoZRjhH8KMMg14puF1T__ttm4b_UDA-PJrU8ykdVjvl
+          - generic [ref=f4e446]:
+            - generic [ref=f4e449]:
+              - 'link "Einhell Germany AG: Karriereseite und Stellenangebote softgarden https://einhell.career.softgarden.de" [ref=f4e451] [cursor=pointer]':
+                - /url: /goto?url=CAESYAHrOzAVFvCe7lr9vLfg_A5dhxZOcUw7GJgTkIHRjsQN5iWEfyWOIDxV4nZph-0lAOIB-6TcMfdr1s-qqdmJNDCp6v0z3O-Bx_IhDtbJGGJvUOBooS9FWA7TeEtyTf1_LQ
+                - 'heading "Einhell Germany AG: Karriereseite und Stellenangebote" [level=3] [ref=f4e452]'
+                - generic [ref=f4e458]:
+                  - generic [ref=f4e459]: softgarden
+                  - generic [ref=f4e461]: https://einhell.career.softgarden.de
+              - generic [ref=f4e463]:
+                - generic [ref=f4e464]: ·
+                - link "Translate this page" [ref=f4e465] [cursor=pointer]:
+                  - /url: /goto?url=CAESqQEB6zswFfCU-s8DNzrWZssYRqDjHjxQQwlk6BnAVfCn21TVutLzwgiYZPO6bmcK_RFZdLloVL8wBez415BwBSlzbXrdGLSXiWqBQL0-sR8OkSxLVwH7wQ2ldMc8lt4SkzbDO22_4BJ0IiekfQ_a5PmyNZwQjAxH2ievsJTfoayZaLvEScbjanM-INc3PclSEODvH4X-DfHCjT3TWzGexPo20-2FsQdNqxNj
+              - button "About this result" [ref=f4e470] [cursor=pointer]
+            - generic [ref=f4e477]:
+              - text: ".2026"
+              - emphasis [ref=f4e478]: SAP Consultant Sales (m/w/d) Professional IT und Web
+              - text: Neu Landau an der Isar 19.10.2026. Landau an der Isar. Schicke einfach eine E-Mail an karriere@ ...
+          - generic [ref=f4e482]:
+            - generic [ref=f4e485]:
+              - link "Einhell Germany Ag Jobs in Worldwide (29 Open Roles) LinkedIn https://www.linkedin.com › jobs › einhell-germany-ag-jo..." [ref=f4e487] [cursor=pointer]:
+                - /url: /goto?url=CAESegHrOzAVQyDZ-yMpGRCgeV9KCdI9V-YNOsYtNZaxX2s4qIHzzVR8g8_28L5hzEgTD0jAt2M5bFsoU918m3ajUiVQP98bDWkqsGvqiiQvNdpFb9LSDKJL1V3GN2m72cOcFHOogmSwptSOPbBkyM5XJet9yKgTAnokW4cG
+                - heading "Einhell Germany Ag Jobs in Worldwide (29 Open Roles)" [level=3] [ref=f4e488]
+                - generic [ref=f4e494]:
+                  - generic [ref=f4e495]: LinkedIn
+                  - generic [ref=f4e497]: https://www.linkedin.com › jobs › einhell-germany-ag-jo...
+              - button "About this result" [ref=f4e503] [cursor=pointer]
+            - generic [ref=f4e509]:
+              - generic [ref=f4e510]:
+                - text: Manager International E-Commerce & Business Development (m/w/d).
+                - emphasis [ref=f4e511]: Einhell
+                - text: Germany AG.
+                - emphasis [ref=f4e512]: Landau
+                - text: ", Bavaria, Germany ..."
+                - emphasis [ref=f4e513]: SAP Consultant Sales
+                - text: (m/w/d).
+                - emphasis [ref=f4e514]: Einhell
+                - text: Germany AG.
+              - link "Read more" [ref=f4e515] [cursor=pointer]:
+                - /url: /goto?url=CAESnwIB6zswFe6_TbtHbQLMpooMyRorIJbHJgeoNb2A5jqReINImUQFBCohRZUDchtwt2DprlSIoNKFmV43bGznhakGSXO4NoAfB09YhZhESxw5oCJfl6gL6v8ict8t4GyyF-3VS9O4UVZN6SUU9yfqtmKlzWGE07SFDe3n6TUKhPW5ONQd4UmKzrWeF2QW83GNYfs3H8hxO45brU-5gIut30lQGFbfA12gcoVcdSxCqPjI-FXB0m3NmqpezM4KZBNDjd1DdKmzyauAXqzimCpdcFp6_ZFeb686JzlY6VIm5vQUZpVFhkQr_Xa6UMjFDDyFLHGvwNxLAXZ4-t5r-lGnSBxTCbNTfM7AJ9Hm3pQ6uvv7Se0bMnfHK3v4oc5YJ4JR-g
+          - generic [ref=f4e519]:
+            - generic [ref=f4e522]:
+              - link "SAP Project Manager at Einhell DEVjobs.de https://en.devjobs.de › job" [ref=f4e524] [cursor=pointer]:
+                - /url: /goto?url=CAESdQHrOzAVwDpYIC4m_MAgzkfz24MYfEbqkC6cm6jE4s1FelE0htV6BEVtwOV-Epbr61SJ_yECYqszcSfdCD5MUXBeVqOafXCkBWe1hFKiBFSN8HedcKA2SmMzVq2ydkrVW_sJvIWIOTK3WaB6z0lfi5LjA6kb2A
+                - heading "SAP Project Manager at Einhell" [level=3] [ref=f4e525]
+                - generic [ref=f4e531]:
+                  - generic [ref=f4e532]: DEVjobs.de
+                  - generic [ref=f4e534]: https://en.devjobs.de › job
+              - button "About this result" [ref=f4e540] [cursor=pointer]
+            - generic [ref=f4e547]:
+              - emphasis [ref=f4e548]: Einhell in Landau an der Isar is looking for a SAP Project Manager
+              - text: with SAP, SAP S/4Hana and JIRA. Apply now at DEVjobs.de!
+          - generic [ref=f4e552]:
+            - generic [ref=f4e555]:
+              - link "Landau A D Isar Jobs in Landau an der Isar Indeed https://de.indeed.com › q-landau-a..." [ref=f4e557] [cursor=pointer]:
+                - /url: /goto?url=CAESgQEB6zswFR2hSejPoR7ux9cu06Ct8TZyVctFr50k0bqQGzaSjQxxQ8wHBStQmzwtw5nDZM2jvkEwqyYGS5ChvMNd-E-4RQhciOinag5ksQ5HiDsEVik06IWKv6nFPI4HrCpoJQz4Bz0WGbyYB7gJClVjJUn1Qr69u8wb6hcbRD0QOFw
+                - heading "Landau A D Isar Jobs in Landau an der Isar" [level=3] [ref=f4e558]
+                - generic [ref=f4e564]:
+                  - generic [ref=f4e565]: Indeed
+                  - generic [ref=f4e567]: https://de.indeed.com › q-landau-a...
+              - generic [ref=f4e569]:
+                - generic [ref=f4e570]: ·
+                - link "Translate this page" [ref=f4e571] [cursor=pointer]:
+                  - /url: /goto?url=CAESywEB6zswFdgS6aSR0ADiQ8vHVwgo5fMJDPRTUEF5riGO_8XcOBKlhwok9k9h3CJ7kNb5_7X_h71v9XlNbBv2aRlbv7aslY7F7hvLlfHrtYecH4tZJF4AFCyJIJ6QgR8y41prosxMPelzT3B1E2vrpEDnnTC9js9ZRmCOC-tIA8s8u6bUiDr3nYoltEEoozZ1cYBXrk1Z-6U3uqd4GY9V3VVYnroxgHujB0Ju9866S_lJHQDVH2x2NcC92n-kRTcn1_1XX31XWe2ST_JEHg
+              - button "About this result" [ref=f4e576] [cursor=pointer]
+            - generic [ref=f4e583]:
+              - emphasis [ref=f4e584]: Einhell Germany AG Landau an der Isar
+              - text: Beratung und Betreuung unserer Kunden/Fachbereiche bei der Implementierung, Optimierung und dem Rollout von SAP-Lösungen
+          - generic [ref=f4e588]:
+            - generic [ref=f4e591]:
+              - link "Karriereseite und Stellenangebote softgarden https://karriere.einhell.de › profess..." [ref=f4e593] [cursor=pointer]:
+                - /url: /goto?url=CAESZAHrOzAVe7Ir4U_5dAnvLF6JDKPAj0FjAup62i7WtcZrRAw7SmjCJfukXAajKdeFiAYFLeSthlClQYyltTep2kjamZZ1_JsrQVuHgEqIBMv6ekixhbAwWPs5C5NVY_BZohvM9eY
+                - heading "Karriereseite und Stellenangebote" [level=3] [ref=f4e594]
+                - generic [ref=f4e600]:
+                  - generic [ref=f4e601]: softgarden
+                  - generic [ref=f4e603]: https://karriere.einhell.de › profess...
+              - generic [ref=f4e605]:
+                - generic [ref=f4e606]: ·
+                - link "Translate this page" [ref=f4e607] [cursor=pointer]:
+                  - /url: /goto?url=CAESrQEB6zswFetSqgK7GlQYJtrDMFPG0YcwClKd8JpRlu5iEXtJOwOWE6Ml5MOYGodY0w8z7NDn11rUA5a9roBQ_9JXcgZzahMVxyM6BmPp3MQ2iHmDt5l1ITt0m4vpgPN58iMgp7GPOYSPquvRg2KIJ1R7Ue_9Dt977KsJkDMWV26j8NQypEB9pwe1isfv8-5b8Z3VI3eUk3teaCDycItTGAMOn8vpHL42UoG_bDyBzw
+              - button "About this result" [ref=f4e612] [cursor=pointer]
+            - generic [ref=f4e619]:
+              - text: Landau an der Isar SAP Consultant Finance and Controlling (m/w/d)
+              - emphasis [ref=f4e620]: Isar SAP Consultant Sales (m/w/d
+              - text: ) Schicke einfach eine E-Mail an karriere@einhell.com oder ...
+          - generic [ref=f4e624]:
+            - generic [ref=f4e627]:
+              - link "SAP Consultant Sales (m/w/d) | Landau an der Isar JobLeads https://www.jobleads.com › job › sap-consultant-sales-..." [ref=f4e629] [cursor=pointer]:
+                - /url: /goto?url=CAESrAEB6zswFYP74-OuwYiUMbJf4S5lakoHW8-otPFA_P-y8zAIkG8JLK9lUuCrVLz_ZXYFqGYn1-Kt95V0YBnxEbVqj68NKU4r6W1MjEbig5pF2dISv4cQ8jVSp2n3P7SIpPGaCQaQ4TdOAwMEm0UcEQv7Xig5tcYR7xaeuguQGtp1wO_rix9Co8_-sVKqyy_r5ssGeMhIgtnGov0CSH84zXirNUJLeRHQqFKy-N_c
+                - heading "SAP Consultant Sales (m/w/d) | Landau an der Isar" [level=3] [ref=f4e630]
+                - generic [ref=f4e636]:
+                  - generic [ref=f4e637]: JobLeads
+                  - generic [ref=f4e639]: https://www.jobleads.com › job › sap-consultant-sales-...
+              - button "About this result" [ref=f4e645] [cursor=pointer]
+            - generic [ref=f4e651]:
+              - generic [ref=f4e652]: 13 Oct 2026 —
+              - generic [ref=f4e653]:
+                - emphasis [ref=f4e654]: SAP Consultant Sales (m/w/d
+                - text: ). Einhell-Germany-Ag • Landau an der Isar. Hybrid. EUR 90.000 - 120.000. Fahrtkostenzuschuss. Einhell Academy.
+              - link "Read more" [ref=f4e655] [cursor=pointer]:
+                - /url: /goto?url=CAES7gEB6zswFXPGIOmkpSeURswDkJsmouKQkkJwCBpSMRf5q43fshAAK12mKbeCX2sIYcfyPCtBVk3SI3I4YHE6IGrioyV9hQ0JJ2GDSwZqLOND1WySzbvZvVKHgD-C_eXeiqdxg26V8FLlANsdL1E0c8gyw3KjlSPEvqm2w7YJDSrQt_2t0T-4lKfA1Tzd5psAcnfgrx1bnxgTOH0UPX_m3ZiWk9t9zxGpSixERAHx2JycnvJK68tjKY5E5kAGVIieRafxmy7zOrkPpqXlsN50_BXww0oZead9FsBU484bXFbAxApmhQRVce9gtoYIDacy
+          - generic [ref=f4e659]:
+            - generic [ref=f4e662]:
+              - link "14 new recruits have started their career at Einhell Einhell https://www.einhell.com › Press portal" [ref=f4e664] [cursor=pointer]:
+                - /url: /goto?url=CAEScQHrOzAVvLsfUxlVlsHOSgGFLoLdRyzs4UETVfzylxgiVza2vPe2AfuPGVPj3WggnoHIWHkN4e6w2qCdcgNbhUpceLpUUaeuPChwloZi50kAwOma90K4EyhG8Ua9Ig62BLf6sIU3PSYQ_6M1NyJsanE3
+                - heading "14 new recruits have started their career at Einhell" [level=3] [ref=f4e665]
+                - generic [ref=f4e671]:
+                  - generic [ref=f4e672]: Einhell
+                  - generic [ref=f4e674]: https://www.einhell.com › Press portal
+              - button "About this result" [ref=f4e680] [cursor=pointer]
+            - generic [ref=f4e686]:
+              - generic [ref=f4e687]:
+                - text: New recruits for
+                - emphasis [ref=f4e688]: Einhell
+                - text: "Germany AG: On September 1st, nine trainees and five dual students set out on the journey toward their future professional life at the ..."
+              - link "Read more" [ref=f4e689] [cursor=pointer]:
+                - /url: /goto?url=CAES0AEB6zswFXVgxTH67-H9MHKyF21LRMuNyfVmyRbKJsjTAYol8ziVal32tN8KRtIOixN7gTm64jAE8e__n27JURIMlvE3tp6x1YruaUiZvB7bzTdC71dzSG8_HiglKG-U-z1EsUiuCzQWHof65JNATQ__IIc5Eu6vVMr3aWSoIISVDsfHRQGXB7zH9ljAOCrioQ4SS_R-5LC25GyakVCyEL1zXnsZ5v_FihTqIP3TCtuG8PBAUCnXh0uYwz1l_pZo6AVLfUxZcITwXKk1rGKCF_zZ
+          - generic [ref=f4e693]:
+            - generic [ref=f4e696]:
+              - link "SAP Consultant Sales (m/w/d) (Remote / Mobil möglich) bayern.jobs https://www.bayern.jobs › job › sa..." [ref=f4e698] [cursor=pointer]:
+                - /url: /goto?url=CAESkAEB6zswFcEK-yFn7NbJg4PrFvQZXLAD2B-r2cf7N_U3TL02eru8zrwaBYeihUz2DHS3swREL714LDB98N_iHw_HrlNUJyP8nJOlxg6qMiGSnBz-whghc3zHz6t89wa8rVELPcHc0av6VN_deNaEpUj_nrQWKOoAoc7mj4LAx1Xon6RWKvUVtHZamnIH_OL_Hrc
+                - heading "SAP Consultant Sales (m/w/d) (Remote / Mobil möglich)" [level=3] [ref=f4e699]
+                - generic [ref=f4e705]:
+                  - generic [ref=f4e706]: bayern.jobs
+                  - generic [ref=f4e708]: https://www.bayern.jobs › job › sa...
+              - generic [ref=f4e710]:
+                - generic [ref=f4e711]: ·
+                - link "Translate this page" [ref=f4e712] [cursor=pointer]:
+                  - /url: /goto?url=CAES2gEB6zswFfK8KqSyDyPTV4Rvf4nYFu8Nl31_oYbKnmoWphhzrMDo6hq2wanDN4r_YdNwIfSziAMsvHBj9tWSWup54f1QBtOBEjK5UFGH6m8mqaNCJq5cNMoZKPhVyI9eRJlCj3e6KYd-cpx_ttWlC6yINVJXUK2QVPsktQ6m4rePnp5kOUapL1nPZ3JqT3ubfOF0AgMi1yyvuott6Rk7dBcFd57lJhluoSAW8rbkucIofvE2qG-Dx_ZH7ePqtw8eh0gCHJ3kEcg7OV4t23_RaE0db2viiIDcMRAWcw
+              - button "About this result" [ref=f4e717] [cursor=pointer]
+            - generic [ref=f4e723]:
+              - generic [ref=f4e724]: 15 Oct 2026 —
+              - generic [ref=f4e725]:
+                - text: "Deine Aufgaben bei uns im Team: Fachliche Leitung von Beratungsprojekten bei"
+                - emphasis [ref=f4e726]: der
+                - text: Implementierung, Optimierung und dem Rollout von
+                - emphasis [ref=f4e727]: SAP
+                - text: "-Lösungen ..."
+              - link "Read more" [ref=f4e728] [cursor=pointer]:
+                - /url: /goto?url=CAES6wEB6zswFQjqNrIgS-UtohpI8XR4JjXY2kEnyHuUH80hW484elo0Z-NrjoQ3RyGp5Yko5tKLLsyIZ6p1eUmitPXBV3e1EaX6yV1agCjCXIUKhbnk1XtJZ2ByJZxIabVpDaqpLrfkTiJ8cMw-eaanNTM8cvusgAQTjgMolJQxIyGuFaKNqzO2qPm_C5vQ4BpkjSnWIbZfSZOMvIUXKBS5v2Nm6YQcG1H720Mkm3yZyjxY94nRK2M3Zws_71oEtZ9T1GNsISCLt1dPTn9e69__kO1ktA8gumOVISEQA2eTwfp21NPUY7ItnTDjagOj
+        - generic [ref=f4e730]:
+          - generic [ref=f4e735]:
+            - heading "People also search for" [level=2] [ref=f4e737]
+            - generic [ref=f4e739]:
+              - generic [ref=f4e740]:
+                - link "Einhell Landau Stellenangebote" [ref=f4e744] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Landau+Stellenangebote&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAgzEAE
+                - link "Einhell Landau Mitarbeiter" [ref=f4e758] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Landau+Mitarbeiter&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAg2EAE
+                - link "Einhell landau an der isar ausbildung" [ref=f4e772] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+landau+an+der+isar+ausbildung&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAg3EAE
+                - link "Einhell Landau Werksverkauf" [ref=f4e786] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Landau+Werksverkauf&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAg1EAE
+              - generic [ref=f4e797]:
+                - link "Einhell Karriere" [ref=f4e801] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Karriere&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAg0EAE
+                - link "Einhell Werksverkauf" [ref=f4e815] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Werksverkauf&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAgwEAE
+                - link "Einhell kununu" [ref=f4e829] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+kununu&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAgyEAE
+                - link "Einhell Außendienst" [ref=f4e843] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&q=Einhell+Au%C3%9Fendienst&sa=X&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ1QJ6BAgxEAE
+          - navigation [ref=f4e854]:
+            - heading "Page navigation" [level=1] [ref=f4e855]
+            - text: "1"
+            - link "Page 2" [ref=f4e858] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=10&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAE
+              - text: "2"
+            - link "Page 3" [ref=f4e860] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=20&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAG
+              - text: "3"
+            - link "Page 4" [ref=f4e862] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=30&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAI
+              - text: "4"
+            - link "Page 5" [ref=f4e864] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=40&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAK
+              - text: "5"
+            - link "Page 6" [ref=f4e866] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=50&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAM
+              - text: "6"
+            - link "Page 7" [ref=f4e868] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=60&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAO
+              - text: "7"
+            - link "Page 8" [ref=f4e870] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=70&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAQ
+              - text: "8"
+            - link "Page 9" [ref=f4e872] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=80&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAS
+              - text: "9"
+            - link "Page 10" [ref=f4e874] [cursor=pointer]:
+              - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=90&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8tMDegQILhAU
+              - text: "10"
+            - heading [level=2] [ref=f4e876]:
+              - link "Next" [ref=f4e877] [cursor=pointer]:
+                - /url: /search?q=Einhell+SAP+Consultant+Sales+Landau+an+der+Isar+Stelle&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQns2vVtaX4ps-rPt8IHMz97hYXUtnQ:1792898389447&ei=VXXdapfEGfGUhvcPsqz_gAk&start=10&sa=N&sstk=AS6-VmIbfOCH_RduSNF5RhCxgljhycEL6kp_7AH4oGY0EVt6Fzq2xq4LvxaGDBGGDpws-TFskAq62iR1frcuw6yD_8s5SNpzGD3Icw&ved=2ahUKEwjXwvr8mtSXAxVxiuEIHTLWH5AQ8NMDegQILhAW
+        - navigation
+    - contentinfo [ref=f4e880]:
+      - heading "Footer links" [level=1] [ref=f4e881]
+      - generic [ref=f4e885]:
+        - generic [ref=f4e887]:
+          - text: India
+          - generic [ref=f4e889]:
+            - button "560100, Karnataka - From your IP address" [ref=f4e891] [cursor=pointer]:
+              - generic [ref=f4e892]: 560100, Karnataka
+              - generic [ref=f4e894]:
+                - text: "-"
+                - generic [ref=f4e895]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f4e897] [cursor=pointer]
+        - generic [ref=f4e900]:
+          - link "Help" [ref=f4e901] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f4e902] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f4e903] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f4e904] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,148 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic:
+      - link "Zum Hauptinhalt":
+        - /url: "#content"
+    - generic [ref=e4]:
+      - link [ref=e14] [cursor=pointer]:
+        - /url: https://jobs.innomotics.com/
+        - img "Innomotics Logo" [ref=e15]
+      - generic [ref=e17]:
+        - button "Menü" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - button "Sprache" [ref=e30] [cursor=pointer]
+          - listitem [ref=e32]:
+            - link "Profil anzeigen" [ref=e34] [cursor=pointer]:
+              - /url: "#"
+  - main [ref=e37]:
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - search [ref=e41]:
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - generic [ref=e46]:
+                  - generic [aria-hidden] [ref=e47]: Nach Stichwort suchen
+                  - textbox "Nach Stichwort suchen" [ref=e48]
+                - generic [ref=e49]:
+                  - generic [aria-hidden] [ref=e50]: Nach Standort suchen
+                  - textbox "Nach Standort suchen" [ref=e51]
+              - button "Mehr Optionen anzeigen" [ref=e54] [cursor=pointer]
+            - button "Stellen suchen" [ref=e58] [cursor=pointer]
+        - generic [ref=e63]:
+          - text: 
+          - generic [ref=e64]:
+            - generic [aria-hidden] [ref=e65]: "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:"
+            - spinbutton "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:" [ref=e66]: "7"
+          - link "Benachrichtigung erstellen" [ref=e68] [cursor=pointer]:
+            - /url: "#"
+            - generic [aria-hidden] [ref=e69]: ✉
+            - text: Benachrichtigung erstellen
+      - generic [ref=e71]:
+        - link "Jetzt bewerben »" [ref=e74] [cursor=pointer]:
+          - /url: /talentcommunity/apply/1441893833/?locale=de_DE
+        - generic [ref=e75]:
+          - heading "Global E-Business Operations Manager (m/w/d)" [level=1] [ref=e80]
+          - generic [ref=e81]: "Job ID: 7005"
+          - generic [ref=e88]:
+            - text: "Standort:"
+            - paragraph [ref=e90]: Nürnberg, DE
+          - separator [ref=e93]
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: "JobID: 7005"
+            - paragraph [ref=e101]: "Standort: NBG VO"
+            - paragraph [ref=e102]: "Art der Anstellung: Unbefristet / Vollzeit"
+            - paragraph [ref=e103]
+            - paragraph [ref=e104]:
+              - strong [ref=e105]: Zur Verstärkung unseres Teams bei Innomotics suchen wir einen Global E-Business Operations Manager (m/w/d).
+            - paragraph [ref=e106]:
+              - strong [ref=e107]
+            - paragraph [ref=e108]:
+              - strong [ref=e109]: Der Branchenführer für Motoren und Antriebe
+            - paragraph [ref=e110]: "Innomotics ist ein branchenführender Anbieter von Motoren und großen Antriebssystemen. Unsere Produkte, die auf mehr als 150 Jahre Erfahrung im Maschinenbau zurückblicken können, treiben alle wichtigen Industrien der Welt an. Heute erwecken wir die #EnergyTransition mit einem Portfolio zum Leben, das es unseren Kunden ermöglicht, die Energieeffizienz zu steigern, Treibhausgase zu reduzieren und den CO2-Fußabdruck von Anlagen zu minimieren."
+            - paragraph [ref=e111]
+            - paragraph [ref=e112]:
+              - strong [ref=e113]: "Unser stärkster Motor: Unsere Mitarbeitenden"
+            - paragraph [ref=e114]: Wir sind ein Team von mehr als 15.000 engagierten Experten, Machern und Innovatoren. Die Zukunft zu gestalten, bedeutet für uns, Unternehmen in Bewegung zu halten. Als Global Player, der mit dem Geist und der Geschwindigkeit eines mittelständischen Champions agiert, bietet uns die Zukunft unbegrenzte Möglichkeiten. Wenn Sie den gleichen Mut haben, wie wir und zu den Besten gehören wollen, sind Sie bei uns genau richtig.
+            - paragraph [ref=e115]
+            - paragraph [ref=e116]:
+              - generic [ref=e117]:
+                - text: Als
+                - strong [ref=e118]: Global E-Business Operations Manager (m/w/d)
+                - text: werden Sie Teil unseres Digital Sales Platform Teams und gestalten die Zukunft unserer digitalen Vertriebsprozesse aktiv mit. Sie betreuen und entwickeln unsere digitalen Vertriebslösungen in den Bereichen
+                - strong [ref=e119]: E-Commerce, EDI und Mail2EDI
+                - text: kontinuierlich weiter.
+            - paragraph [ref=e120]
+            - paragraph [ref=e121]: Dabei sind Sie die zentrale Schnittstelle zwischen IT, internationalen E-Business-Ansprechpartner:innen und weiteren Fachbereichen. Sie verbinden fachliche Anforderungen mit der technischen Umsetzung und stellen sicher, dass unsere Plattformen und Prozesse bestmöglich auf die Bedürfnisse unserer Kunden und Märkte ausgerichtet sind.
+            - paragraph [ref=e122]
+            - paragraph [ref=e123]:
+              - strong [ref=e124]: Ihre Aufgaben
+            - paragraph [ref=e125]:
+              - generic [ref=e126]: • Betreuung, Steuerung und kontinuierliche Weiterentwicklung unserer digitalen E-Business- und E-Commerce-Plattform• Aufnahme, Analyse, Strukturierung und Priorisierung fachlicher Anforderungen im Rahmen des Demand Managements• Durchführung von Requirements Engineering, von der Anforderungsanalyse über die Spezifikation bis zur Abstimmung mit allen relevanten Stakeholdern• Übersetzung von Business-Anforderungen in umsetzbare Anforderungen für die IT und externe Dienstleister• Steuerung und Begleitung von Projekten zur Weiterentwicklung der Digital Sales Platform, von der Planung bis zum erfolgreichen Go-live• Arbeit in agilen Teams sowie aktive Mitgestaltung agiler Prozesse, beispielsweise durch Backlog-Pflege, Sprint-Planung und Reviews• Enge Zusammenarbeit mit globalen E-Business-Ansprechpartner:innen, die Kunden auf unsere Plattform onboarden• Aufnahme, Bewertung und Überführung von Feedback aus den internationalen Märkten in konkrete Optimierungsmaßnahmen• Abstimmung mit IT, Vertrieb, Customer Service und weiteren internationalen Stakeholdern• Mitwirkung bei Tests, Qualitätssicherung, Roll-outs und der Erstellung relevanter Dokumentationen
+            - paragraph [ref=e127]
+            - paragraph [ref=e128]:
+              - strong [ref=e129]: Ihr Profil
+            - paragraph [ref=e130]:
+              - generic [ref=e131]: • Abgeschlossenes Studium in Wirtschaftsinformatik, Betriebswirtschaftslehre oder eine vergleichbare Qualifikation• Mindestens fünf Jahre Berufserfahrung im Umfeld Digital Sales, E-Business, E-Commerce oder Business Applications• Fundierte Erfahrung im Projektmanagement sowie in der Steuerung komplexer, internationaler Stakeholder-Strukturen• Praktische Kenntnisse im Demand Management und Requirements Engineering• Erfahrung mit agilen Arbeitsweisen und Methoden, beispielsweise Scrum, Kanban oder hybriden Projektansätzen• Gutes Verständnis digitaler Vertriebs- und Order-to-Cash-Prozesse• Berührungspunkte mit EDI und/oder Erfahrung mit digitalen B2B-Integrationsprozessen und SAP SD sind von Vorteil• Sehr gute Kommunikations- und Moderationsfähigkeiten in einem internationalen Umfeld• Verhandlungssichere Englischkenntnisse in Wort und Schrift; Deutschkenntnisse sind von Vorteil
+            - paragraph [ref=e132]
+            - paragraph [ref=e133]
+            - paragraph [ref=e134]:
+              - strong [ref=e135]: Was ist für Sie drIN (Unsere Benefits)
+            - paragraph [ref=e136]
+            - list [ref=e137]:
+              - listitem [ref=e138]: Vergütung nach den jeweils gültigen Tarifverträgen der Metall- und Elektroindustrie
+              - listitem [ref=e139]: 30 Tage Urlaub
+              - listitem [ref=e140]: Flexible Arbeitszeitmodelle
+              - listitem [ref=e141]: Attraktive Altersvorsorge
+              - listitem [ref=e142]: Zahlreiche Weiterbildungsmöglichkeiten
+              - listitem [ref=e143]: Vielfältige Gesundheitsangebote
+              - listitem [ref=e144]: Kinderbetreuungszuschuss
+              - listitem [ref=e145]: Arbeitgeberzuschuss zum Deutschlandticket
+              - listitem [ref=e146]: Kantinen mit vergünstigten Preisen für Mitarbeitende
+              - listitem [ref=e147]: Zugang zu einem Vorteilsportal mit attraktiven Mitarbeiterangeboten
+            - paragraph [ref=e148]
+            - paragraph [ref=e149]:
+              - strong [ref=e150]: Sind Sie bereit, die Zukunft mit uns zu gestalten? Kommen Sie zu Innomotics und fangen Sie jetzt an, einen Unterschied zu machen.
+            - paragraph [ref=e151]:
+              - strong [ref=e152]: "#TeamInnomotics #JoinReliableMotion"
+            - paragraph [ref=e153]: Innomotics ist ein Arbeitgeber der Chancengleichheit und legt Wert auf Vielfalt. Wir diskriminieren nicht aufgrund von Ethnie, Religion, Hautfarbe, nationaler Herkunft, Geschlecht, sexueller Orientierung, Alter, Familienstand oder Behinderungsstatus.
+            - paragraph [ref=e154]
+            - paragraph [ref=e155]:
+              - generic [ref=e156]: Jobs bei Innomotics Erfahren Sie mehr über Jobs & Karriere bei Innomotics.
+            - paragraph [ref=e157]:
+              - generic [ref=e158]: "Für weitere Informationen wenden Sie sich bitte an: in.career.de@innomotics.com"
+            - paragraph [ref=e159]
+          - paragraph
+        - link "Jetzt bewerben »" [ref=e161] [cursor=pointer]:
+          - /url: /talentcommunity/apply/1441893833/?locale=de_DE
+      - complementary "Ähnliche Stellen suchen" [ref=e163]:
+        - generic [ref=e164]: "Ähnliche Stellen suchen:"
+        - generic [ref=e165]:
+          - link "Project Management, Support Functions & Administration," [ref=e166] [cursor=pointer]:
+            - /url: /go/Project-Management%2C-Support-Functions-&-Administration/9176301/
+          - link "Professional," [ref=e167] [cursor=pointer]:
+            - /url: /go/Professional/9175801/
+          - link "EN:Professional" [ref=e168] [cursor=pointer]:
+            - /url: /go/ENProfessional/9177101/
+  - contentinfo [ref=e169]:
+    - generic [ref=e172]:
+      - list [ref=e173]:
+        - listitem [ref=e174]:
+          - link "Impressum" [ref=e175] [cursor=pointer]:
+            - /url: /content/Corporate-Information/?locale=en_GB
+        - listitem [ref=e176]:
+          - button "Cookie Consent Manager" [ref=e177] [cursor=pointer]
+        - listitem [ref=e178]:
+          - link "View All Jobs" [ref=e179] [cursor=pointer]:
+            - /url: /viewalljobs/
+        - listitem [ref=e180]:
+          - link "Contact Us" [ref=e181] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+      - list [ref=e183]:
+        - listitem [ref=e184]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=e185] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/innomotics
+            - generic [ref=e186]: Wird auf einer neuen Registerkarte geöffnet.
+    - paragraph [ref=e191]: Copyright © Innomotics

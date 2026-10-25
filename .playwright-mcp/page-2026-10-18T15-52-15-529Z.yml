@@ -1,0 +1,37 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Gauder GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder
+            - paragraph [ref=f7e14]: Gauder GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder/16836791-business-analyst-e-commerce-fluent-german-and-english-m-f-d
+            - paragraph [ref=f7e16]: Business Analyst E-Commerce - Fluent German & English (m/f/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e76]:
+      - heading "Confirm your cover letter" [level=2] [ref=f7e88]
+      - generic [ref=f7e97]:
+        - text: "Kranti Chavan Business Analyst E-Commerce | Requirements, Data Analysis & Process Optimisation Phone +49 15750174177 · Email krantichavan198@gmail.com linkedin.com/in/kranti-chavan-84a155191 · Karlsruhe, Germany Gauder GmbH Berlin Karlsruhe, 18 October 2026 Application: Business Analyst E-Commerce Earliest start: 16 December 2026 · Karlsruhe · valid German work permit Dear Hiring Team, Gauder is scaling fast across channels and countries, and you need an analyst who turns data and requirements into clear decisions and well-run projects. I bring more than"
+        - generic: fi
+        - text: "ve years in large e-commerce operations for Rockwell Automation and Shell, working between business stakeholders and IT on catalogs, pricing, promotions and orders across global channels. Structured problem-solving: Analysed business requirements with stakeholders, mapped processes and wrote user stories and functional speci"
+        - generic: fi
+        - text: "cations; supported user acceptance testing (UAT). Working with large datasets: Worked daily with SQL on product, catalog, pricing and order data; led database query refactoring that reduced response latency and improved transaction speed. Project ownership across teams: Investigated and resolved integration bottlenecks between SAP ERP, MDM and Pro"
+        - generic: fi
+        - text: "see together with international technical teams; engineered API migrations for customer account structures. Fast, AI-supported analysis: Used generative AI / LLM tools extensively to accelerate analysis, testing and documentation. I know"
+        - generic: fi
+        - text: rst-hand how promotions, catalogs and order
+        - generic: fl
+        - text: "ows drive e-commerce revenue, and I communicate clearly with both management and technical teams. I live in Karlsruhe, hold a valid German work permit and can start on 16 December 2026 after my notice period. I would be glad to discuss how I can support your next growth steps. Kind regards, Kranti Chavan Enclosure: CV"
+    - generic [ref=f7e36]:
+      - progressbar "67%" [ref=f7e83]
+      - generic [ref=f7e41]:
+        - button "Back" [ref=f7e84] [cursor=pointer]
+        - button "Remove file" [ref=f7e99] [cursor=pointer]
+        - button "Continue" [ref=f7e49] [cursor=pointer]
+  - alert [ref=f7e4]: "Gauder (Berlin): Business Analyst E-Commerce - Fluent German & English (m/f/d)"
+  - region "Notifications, bottom-end (alt+T)"

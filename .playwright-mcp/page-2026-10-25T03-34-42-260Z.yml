@@ -1,0 +1,215 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - navigation [ref=f10e3]:
+      - generic [ref=f10e4]:
+        - link [ref=f10e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f10e56]:
+          - generic [ref=f10e57]:
+            - list [ref=f10e59]:
+              - listitem [ref=f10e60]:
+                - link "☎ 06271 / 960 9000" [ref=f10e61] [cursor=pointer]:
+                  - /url: tel:004962719609000
+            - list [ref=f10e63]:
+              - listitem [ref=f10e64]:
+                - link "Übersicht" [ref=f10e65] [cursor=pointer]:
+                  - /url: /uebersicht
+              - listitem [ref=f10e66]:
+                - link "Arbeitgeber" [ref=f10e67] [cursor=pointer]:
+                  - /url: /arbeitgeber
+              - listitem [ref=f10e68]:
+                - link "Arbeitsumgebung" [ref=f10e69] [cursor=pointer]:
+                  - /url: /arbeitsumgebung
+              - listitem [ref=f10e70]:
+                - link "Kollegen" [ref=f10e71] [cursor=pointer]:
+                  - /url: /kollegen
+              - listitem [ref=f10e72]:
+                - link "Zukunft" [ref=f10e73] [cursor=pointer]:
+                  - /url: /zukunft
+              - listitem [ref=f10e74]:
+                - link "Benefits" [ref=f10e75] [cursor=pointer]:
+                  - /url: /benefits
+              - listitem [ref=f10e76]:
+                - link "Offene Stellen" [ref=f10e77] [cursor=pointer]:
+                  - /url: /offene-stellen
+          - generic [ref=f10e78]:
+            - link [ref=f10e79] [cursor=pointer]:
+              - /url: /schnell-bewerbung
+              - generic "Schnell-Bewerbung" [ref=f10e81]
+            - generic "Suche" [ref=f10e89] [cursor=pointer]
+    - list [ref=f10e97]:
+      - listitem [ref=f10e98]:
+        - link [ref=f10e99] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=f10e100]
+      - listitem [ref=f10e101]:
+        - text: /
+        - link "Offene Stellen" [ref=f10e102] [cursor=pointer]:
+          - /url: /offene-stellen
+      - listitem [ref=f10e103]: / Pimcore Entwickler m-w-d
+      - listitem
+  - generic [ref=f10e106]:
+    - generic [ref=f10e107]:
+      - generic [ref=f10e108]:
+        - paragraph [ref=f10e109]: "STELLENANGEBOT:"
+        - heading [level=1] [ref=f10e110]:
+          - strong [ref=f10e111]: Pimcore Entwickler (m/w/d)
+      - 'heading "We are hiring: Senior Pimcore Developer" [level=2] [ref=f10e115]'
+      - paragraph [ref=f10e117]: Du fühlst Dich als waschechter Pimconaut und bist bereit, die digitale Welt zu erobern? Dann haben wir ein gemeinsames Ziel! Werde jetzt Teil unseres Teams. Together we own the digital world!
+      - paragraph [ref=f10e119]: Wir bieten Dir die Chance, Deine Expertise in nationale und internationale Projekte einzubringen und echte Mehrwerte im Rahmen der Digitalisierung zu schaffen. Es warten spannende Projekte bei namhaften Kunden wie Continental, Klett, Freudenberg, Aliaxis und weitere auf Dich. Teamwork steht dabei jederzeit im Fokus. Bei uns bist Du kein Freelancer, sondern arbeitest eng und bereichsübergreifend mit dem gesamten Team zusammen, um somit unseren Kunden perfekte Lösungen auszuliefern.
+      - separator [ref=f10e121]
+      - generic [ref=f10e122]:
+        - paragraph [ref=f10e125]:
+          - strong [ref=f10e126]: ✓ Nächstmöglicher Zeitpunkt
+        - paragraph [ref=f10e129]:
+          - strong [ref=f10e130]: ✓ Hybrides Arbeiten möglich
+        - paragraph [ref=f10e133]:
+          - strong [ref=f10e134]: ✓ Vollzeit oder Teilzeit
+      - generic [ref=f10e135]:
+        - paragraph [ref=f10e138]:
+          - strong [ref=f10e139]: ✓ Eberbach bei Heidelberg
+        - paragraph [ref=f10e142]:
+          - strong [ref=f10e143]: ✓ Optional in Freiburg möglich
+        - paragraph [ref=f10e146]:
+          - strong [ref=f10e147]: ✓ HomeOffice
+    - generic [ref=f10e148]:
+      - figure [ref=f10e154]:
+        - img "Quellwerke sucht Pimcore Entwickler (m/w/d)" [ref=f10e155]
+      - figure [ref=f10e163]:
+        - img "Pimcore Agentur Logo" [ref=f10e164]
+  - generic [ref=f10e167]:
+    - generic [ref=f10e170]:
+      - generic [ref=f10e171]:
+        - heading "Deine Aufgaben bei uns" [level=4] [ref=f10e172]
+        - list [ref=f10e173]:
+          - listitem [ref=f10e174]: Realisierung von Webprojekten mithilfe der Digitalisierungsplattform Pimcore
+          - listitem [ref=f10e175]: Entwicklung individueller Systeme in den Bereichen PIM, MDM, DXP
+          - listitem [ref=f10e176]: Lösungen der digitalen Transformation
+          - listitem [ref=f10e177]: Schaffung und Anbindung von Schnittstellen
+          - listitem [ref=f10e178]: Kundenspezifische Workflows und Erweiterungen
+          - listitem [ref=f10e179]: "Optional: Beratung und Schulung unserer Kunden"
+          - listitem [ref=f10e180]: "Optional: Spezifikationsworkshops mit unseren Kunden"
+      - separator [ref=f10e182]
+      - generic [ref=f10e183]:
+        - heading "Deine Qualifikationen" [level=4] [ref=f10e184]
+        - list [ref=f10e185]:
+          - listitem [ref=f10e186]: Sehr gute Kenntnisse in PHP und dem Symfony Framework
+          - listitem [ref=f10e187]: Projekterfahrung mit der Digitalisierungsplattform Pimcore von Vorteil
+          - listitem [ref=f10e188]: Routinierter Umgang mit allgemeinen Webtechnologien (HTML, CSS, JS, Bootstrap, Webpack etc.)
+          - listitem [ref=f10e189]: Gute Kenntnisse in GIT
+          - listitem [ref=f10e190]: Sehr gute Deutschkenntnisse
+          - listitem [ref=f10e191]: Hohe Affinität für Digitales sowie Offenheit für neue Technologien und Prozesse
+      - separator [ref=f10e193]
+      - generic [ref=f10e194]:
+        - heading "Was Du bei uns entwickelst (Beispiele)" [level=4] [ref=f10e195]
+        - list [ref=f10e196]:
+          - listitem [ref=f10e197]: Online-Portale
+          - listitem [ref=f10e198]: Produkt Informations-Management-Systeme
+          - listitem [ref=f10e199]: Digital-Asset-Management-Systeme
+          - listitem [ref=f10e200]: Master-Data-Management-Systeme
+          - listitem [ref=f10e201]: E-Commerce Lösungen
+          - listitem [ref=f10e202]: Datentransformatoren
+          - listitem [ref=f10e203]: Middleware Lösungen
+          - listitem [ref=f10e204]: Websites
+      - blockquote [ref=f10e206]:
+        - paragraph [ref=f10e207]: Einzelkämpfer gibt es beim Militär. Bei uns stehen Teamwork und gemeinsamer Erfolg an erster Stelle. Hierauf vertrauen unsere nationalen und internationalen Kunden jederzeit.
+    - generic [ref=f10e210]:
+      - blockquote [ref=f10e212]:
+        - heading "Jetzt bewerben" [level=3] [ref=f10e213]
+      - figure [ref=f10e221]
+      - generic [ref=f10e222]:
+        - figure [ref=f10e229]:
+          - link [ref=f10e230] [cursor=pointer]:
+            - /url: /schnell-bewerbung
+            - img "Quellwerke Schnell-Bewerbung" [ref=f10e231]
+        - paragraph [ref=f10e234]:
+          - text: Schnell-Bewerbung Bewerbung ohne Unterlagen. In unter 2 Minuten zum Traumjob!
+          - link "Jetzt bewerben ►" [ref=f10e235] [cursor=pointer]:
+            - /url: /schnell-bewerbung
+      - generic [ref=f10e236]:
+        - figure [ref=f10e243]:
+          - link [ref=f10e244] [cursor=pointer]:
+            - /url: /standard-bewerbung
+            - img "Quellwerke Allgemeines Bewerbungsformular" [ref=f10e245]
+        - paragraph [ref=f10e248]:
+          - text: Allgemeines Bewerbungsformular Bewerbung über ein einfaches Formular inkl. optionalem Dokumentenupload
+          - link "Jetzt bewerben ►" [ref=f10e249] [cursor=pointer]:
+            - /url: /standard-bewerbung
+      - separator [ref=f10e251]
+      - generic [ref=f10e252]:
+        - generic [ref=f10e255]:
+          - figure [ref=f10e259]:
+            - link [ref=f10e260] [cursor=pointer]:
+              - /url: mailto:jobs@quellwerke.de
+              - img "Icon Bewerbung per Mail" [ref=f10e261]
+          - paragraph [ref=f10e263]:
+            - link "» Bewerbung per E-Mail senden" [ref=f10e264] [cursor=pointer]:
+              - /url: mailto:jobs@quellwerke.de?subject=Bewerbung
+        - generic [ref=f10e267]:
+          - figure [ref=f10e271]:
+            - link [ref=f10e272] [cursor=pointer]:
+              - /url: /offene-stellen
+              - img "Icon Offene Stellen bei der Quellwerke GmbH" [ref=f10e273]
+          - paragraph [ref=f10e275]:
+            - link "» Alle offenen Stellen anzeigen" [ref=f10e276] [cursor=pointer]:
+              - /url: /offene-stellen
+      - generic [ref=f10e279]:
+        - blockquote [ref=f10e281]:
+          - heading "Warum Du Dich bewerben solltest" [level=3] [ref=f10e282]
+        - paragraph [ref=f10e284]: Weil wir mehr als nur eine Agentur sind und ein außergewöhnliches Arbeitsklima bieten. Darüber hinaus erwartet Dich ein breites Spektrum an Services, Annehmlichkeiten sowie finanziellen Anreizen.
+        - generic [ref=f10e285]:
+          - paragraph [ref=f10e288]:
+            - text: ✓
+            - strong [ref=f10e289]: Gesundheit
+          - paragraph [ref=f10e292]:
+            - text: ✓
+            - strong [ref=f10e293]: Flexibilität
+          - paragraph [ref=f10e296]:
+            - text: ✓
+            - strong [ref=f10e297]: Finanzielles
+        - generic [ref=f10e298]:
+          - paragraph [ref=f10e301]:
+            - text: ✓
+            - strong [ref=f10e302]: Vorsorge
+          - paragraph [ref=f10e305]:
+            - text: ✓
+            - strong [ref=f10e306]: Zufriedenheit
+          - paragraph [ref=f10e309]:
+            - text: ✓
+            - strong [ref=f10e310]: Keine Bürokratie
+        - paragraph [ref=f10e312]:
+          - link "► Finde heraus, was wir Dir sonst noch alles bieten" [ref=f10e313] [cursor=pointer]:
+            - /url: /benefits
+  - contentinfo [ref=f10e314]:
+    - generic [ref=f10e318]:
+      - paragraph [ref=f10e321]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f10e323]:
+        - list [ref=f10e324]:
+          - listitem [ref=f10e325]:
+            - link "Datenschutz" [ref=f10e326] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/datenschutz
+          - listitem [ref=f10e327]:
+            - link "Impressum" [ref=f10e328] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/impressum
+        - generic [ref=f10e329]:
+          - link [ref=f10e330] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f10e332]
+          - link [ref=f10e333] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f10e335]
+          - link [ref=f10e336] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f10e338]
+  - generic [ref=f10e339]:
+    - heading "Cookie Manager" [level=3] [ref=f10e340]
+    - generic [ref=f10e342]:
+      - generic [ref=f10e343]: Essentials
+      - generic [ref=f10e345]: Analyse
+    - paragraph [ref=f10e348]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f10e349]:
+      - button "Alle akzeptieren" [ref=f10e350] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f10e351] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f10e352] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f10e354] [cursor=pointer]:
+      - /url: https://www.quellwerke.de/datenschutz

@@ -1,0 +1,224 @@
+- generic [active] [ref=f27e1]:
+  - link "Zum Inhalt springen" [ref=f27e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f27e3]:
+    - banner [ref=f27e5]:
+      - generic [ref=f27e7]:
+        - link [ref=f27e8] [cursor=pointer]:
+          - /url: /
+          - img "php-entwickler.de" [ref=f27e9]:
+            - generic [ref=f27e17]: entwickler
+        - generic [ref=f27e18]:
+          - button "Suche öffnen" [ref=f27e19] [cursor=pointer]
+          - generic [ref=f27e24]:
+            - link "Login" [ref=f27e25] [cursor=pointer]:
+              - /url: /login
+            - button "Menü öffnen" [ref=f27e29] [cursor=pointer]
+    - main [ref=f27e34]:
+      - generic [ref=f27e37]:
+        - generic [ref=f27e38]: // Weiterleitung
+        - heading "Die Bewerbung läuft auf der Karriereseite von Tabris UG (haftungsbeschränkt)." [level=1] [ref=f27e41]
+        - paragraph [ref=f27e42]: Du wirst in einem Moment weitergeleitet und verlässt php-entwickler.de.
+        - generic [ref=f27e43]:
+          - generic [aria-hidden] [ref=f27e44]: T
+          - generic [ref=f27e45]:
+            - generic [ref=f27e46]: E-Commerce Programmierer (m/w/d) Magento 2.x
+            - generic [ref=f27e47]: learn4good.com · Ref 166305
+        - generic [ref=f27e48]:
+          - button "Karriereseite wird geladen …" [disabled]
+          - link "Zurück zur Stelle" [ref=f27e49] [cursor=pointer]:
+            - /url: /job/e-commerce-programmierer-m-w-d-magento-2-x-berlin-166305
+    - contentinfo [ref=f27e50]:
+      - generic [ref=f27e51]:
+        - generic [ref=f27e52]:
+          - generic [ref=f27e53]:
+            - link [ref=f27e54] [cursor=pointer]:
+              - /url: /
+              - img "php-entwickler.de" [ref=f27e55]:
+                - generic [aria-hidden] [ref=f27e61]:
+                  - generic [ref=f27e62]: entwickler
+                  - generic [ref=f27e63]: php-entwickler.de
+            - paragraph [ref=f27e64]: Das PHP-Jobportal für Deutschland. Stellen für Laravel, Symfony, WordPress, TYPO3 und Shopware, täglich neu, kuratiert von der Community.
+            - generic [ref=f27e65]:
+              - paragraph [ref=f27e66]: "Job-Radar: neue PHP-Jobs per E-Mail"
+              - generic [ref=f27e67]:
+                - generic [ref=f27e68]: E-Mail-Adresse
+                - textbox "E-Mail-Adresse" [ref=f27e69]:
+                  - /placeholder: deine@email.de
+                - button "Radar einrichten" [ref=f27e70] [cursor=pointer]
+              - paragraph [ref=f27e71]: "Nächster Schritt: Technologie, Stadt und Häufigkeit wählen — direkt hier im Fenster. Aktiv wird der Radar erst mit dem Klick auf den Bestätigungslink in der E-Mail."
+            - generic [ref=f27e72]:
+              - link "LinkedIn" [ref=f27e73] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/php-entwickler-de
+              - link "Instagram" [ref=f27e78] [cursor=pointer]:
+                - /url: https://www.instagram.com/php_entwickler.de/
+          - generic [ref=f27e82]:
+            - heading "PHP Jobs nach Technologie" [level=3] [ref=f27e83]
+            - list [ref=f27e84]:
+              - listitem [ref=f27e85]:
+                - link "Laravel Jobs" [ref=f27e86] [cursor=pointer]:
+                  - /url: /jobs/laravel
+              - listitem [ref=f27e87]:
+                - link "Symfony Jobs" [ref=f27e88] [cursor=pointer]:
+                  - /url: /jobs/symfony
+              - listitem [ref=f27e89]:
+                - link "WordPress Jobs" [ref=f27e90] [cursor=pointer]:
+                  - /url: /jobs/wordpress
+              - listitem [ref=f27e91]:
+                - link "TYPO3 Jobs" [ref=f27e92] [cursor=pointer]:
+                  - /url: /jobs/typo3
+              - listitem [ref=f27e93]:
+                - link "Shopware Jobs" [ref=f27e94] [cursor=pointer]:
+                  - /url: /jobs/shopware
+              - listitem [ref=f27e95]:
+                - link "Drupal Jobs" [ref=f27e96] [cursor=pointer]:
+                  - /url: /jobs/drupal
+              - listitem [ref=f27e97]:
+                - link "Magento Jobs" [ref=f27e98] [cursor=pointer]:
+                  - /url: /jobs/magento
+          - generic [ref=f27e99]:
+            - heading "PHP Jobs nach Stadt" [level=3] [ref=f27e100]
+            - list [ref=f27e101]:
+              - listitem [ref=f27e102]:
+                - link "PHP Jobs Berlin" [ref=f27e103] [cursor=pointer]:
+                  - /url: /jobs/in-berlin
+              - listitem [ref=f27e104]:
+                - link "PHP Jobs Hamburg" [ref=f27e105] [cursor=pointer]:
+                  - /url: /jobs/in-hamburg
+              - listitem [ref=f27e106]:
+                - link "PHP Jobs München" [ref=f27e107] [cursor=pointer]:
+                  - /url: /jobs/in-muenchen
+              - listitem [ref=f27e108]:
+                - link "PHP Jobs Köln" [ref=f27e109] [cursor=pointer]:
+                  - /url: /jobs/in-koeln
+              - listitem [ref=f27e110]:
+                - link "PHP Jobs Frankfurt" [ref=f27e111] [cursor=pointer]:
+                  - /url: /jobs/in-frankfurt
+              - listitem [ref=f27e112]:
+                - link "PHP Jobs Stuttgart" [ref=f27e113] [cursor=pointer]:
+                  - /url: /jobs/in-stuttgart
+              - listitem [ref=f27e114]:
+                - link "Remote PHP Jobs" [ref=f27e115] [cursor=pointer]:
+                  - /url: /jobs/remote
+          - generic [ref=f27e116]:
+            - heading "Für Entwickler" [level=3] [ref=f27e117]
+            - list [ref=f27e118]:
+              - listitem [ref=f27e119]:
+                - link "PHP Jobs" [ref=f27e120] [cursor=pointer]:
+                  - /url: /jobs
+              - listitem [ref=f27e121]:
+                - link "PHP Freelance Jobs" [ref=f27e122] [cursor=pointer]:
+                  - /url: /freelance-jobs
+              - listitem [ref=f27e123]:
+                - link "Werkstudent- & Nebenjobs" [ref=f27e124] [cursor=pointer]:
+                  - /url: /werkstudent-jobs
+              - listitem [ref=f27e125]:
+                - link "Job-Radar (Jobs per E-Mail)" [ref=f27e126] [cursor=pointer]:
+                  - /url: /job-radar
+              - listitem [ref=f27e127]:
+                - link "PHP Gehalt" [ref=f27e128] [cursor=pointer]:
+                  - /url: /gehalt
+              - listitem [ref=f27e129]:
+                - link "PHP Gehaltsreport 2026" [ref=f27e130] [cursor=pointer]:
+                  - /url: /gehalt/php-entwickler-2026
+              - listitem [ref=f27e131]:
+                - link "PHP Freelancer Stundensatz" [ref=f27e132] [cursor=pointer]:
+                  - /url: /gehalt/php-freelancer-stundensatz
+              - listitem [ref=f27e133]:
+                - link "Talentpool" [ref=f27e134] [cursor=pointer]:
+                  - /url: /talentpool
+              - listitem [ref=f27e135]:
+                - link "Warum php-entwickler.de?" [ref=f27e136] [cursor=pointer]:
+                  - /url: /fuer-entwickler
+          - generic [ref=f27e137]:
+            - heading "Für Arbeitgeber" [level=3] [ref=f27e138]
+            - list [ref=f27e139]:
+              - listitem [ref=f27e140]:
+                - link "Stellenanzeige schalten" [ref=f27e141] [cursor=pointer]:
+                  - /url: /fuer-arbeitgeber
+              - listitem [ref=f27e142]:
+                - link "Preise" [ref=f27e143] [cursor=pointer]:
+                  - /url: /preise
+              - listitem [ref=f27e144]:
+                - link "Werbeplätze und Mediadaten" [ref=f27e145] [cursor=pointer]:
+                  - /url: /werben
+              - listitem [ref=f27e146]:
+                - link "Premium-Anzeige mit Bewerbungsgarantie" [ref=f27e147] [cursor=pointer]:
+                  - /url: /preise
+              - listitem [ref=f27e148]:
+                - link "PHP-Entwickler finden" [ref=f27e149] [cursor=pointer]:
+                  - /url: /fuer-arbeitgeber#anfrage
+              - listitem [ref=f27e150]:
+                - link "PHP-Freelancer anfragen" [ref=f27e151] [cursor=pointer]:
+                  - /url: /freelance-jobs#freelancer-anfrage
+              - listitem [ref=f27e152]:
+                - link "Firmenprofil beanspruchen" [ref=f27e153] [cursor=pointer]:
+                  - /url: /firmenprofil-beanspruchen
+              - listitem [ref=f27e154]:
+                - link "Für Personalvermittler" [ref=f27e155] [cursor=pointer]:
+                  - /url: /fuer-personalvermittler
+              - listitem [ref=f27e156]:
+                - link "MCP-Server für KI-Tools" [ref=f27e157] [cursor=pointer]:
+                  - /url: /mcp
+              - listitem [ref=f27e158]:
+                - link "Partnerprogramm" [ref=f27e159] [cursor=pointer]:
+                  - /url: /partnerprogramm
+        - generic [ref=f27e160]:
+          - generic [ref=f27e161]:
+            - generic [ref=f27e162]: Mehr
+            - link "Gewinnspiele" [ref=f27e163] [cursor=pointer]:
+              - /url: /gewinnspiele
+            - link "B2B-Partnerschaften" [ref=f27e164] [cursor=pointer]:
+              - /url: /partner
+            - link "Unternehmen im Fokus" [ref=f27e165] [cursor=pointer]:
+              - /url: /unternehmen-im-fokus
+            - link "KI Jobsuche" [ref=f27e166] [cursor=pointer]:
+              - /url: /ki-jobsuche
+            - generic [ref=f27e168]:
+              - button "Hell Modus aktivieren" [ref=f27e169] [cursor=pointer]
+              - button "Dunkel Modus aktivieren" [ref=f27e170] [cursor=pointer]
+              - button "Hoher Kontrast Modus aktivieren" [ref=f27e171] [cursor=pointer]
+              - button "System Modus aktivieren" [pressed] [ref=f27e172] [cursor=pointer]
+          - generic [ref=f27e173]:
+            - generic [ref=f27e174]:
+              - generic [ref=f27e175]:
+                - text: © 2026
+                - link "codehero GmbH" [ref=f27e176] [cursor=pointer]:
+                  - /url: https://www.codehero.solutions
+              - link "Impressum" [ref=f27e177] [cursor=pointer]:
+                - /url: /impressum
+              - link "Datenschutz" [ref=f27e178] [cursor=pointer]:
+                - /url: /datenschutz
+              - link "AGB" [ref=f27e179] [cursor=pointer]:
+                - /url: /agb
+              - link "Kontakt" [ref=f27e180] [cursor=pointer]:
+                - /url: /kontakt
+              - button "Cookie-Einstellungen" [ref=f27e181] [cursor=pointer]
+            - generic [ref=f27e182]:
+              - link "Blog" [ref=f27e183] [cursor=pointer]:
+                - /url: /blog
+              - link "PHP News" [ref=f27e184] [cursor=pointer]:
+                - /url: /news
+              - link "Changelog" [ref=f27e185] [cursor=pointer]:
+                - /url: /changelog
+              - link "Über uns" [ref=f27e186] [cursor=pointer]:
+                - /url: /ueber-uns
+              - link "Login" [ref=f27e187] [cursor=pointer]:
+                - /url: /login
+              - button "Feedback geben" [ref=f27e188] [cursor=pointer]
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - alert [ref=f27e189]
+  - dialog "Cookie-Einstellungen" [ref=f27e191]:
+    - generic [ref=f27e192]:
+      - generic [ref=f27e196]:
+        - heading "Cookie-Einstellungen" [level=2] [ref=f27e197]
+        - paragraph [ref=f27e198]:
+          - text: Wir nutzen Cookies und ermitteln deinen ungefähren Standort, um dir relevante Jobs in deiner Nähe zu zeigen.
+          - link "Mehr erfahren" [ref=f27e199] [cursor=pointer]:
+            - /url: /datenschutz
+      - generic [ref=f27e200]:
+        - button "Einstellungen" [ref=f27e201] [cursor=pointer]
+        - button "Nur notwendige" [ref=f27e202] [cursor=pointer]
+        - button "Alle akzeptieren" [ref=f27e203] [cursor=pointer]

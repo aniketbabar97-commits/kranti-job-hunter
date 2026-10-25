@@ -1,0 +1,1054 @@
+- generic [active] [ref=f20e1]:
+  - region [ref=f20e2]:
+    - generic [ref=f20e3]:
+      - generic [ref=f20e5]:
+        - img "Logo" [ref=f20e7]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster" [ref=f20e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f20e36]:
+        - tab "Zustimmung" [selected] [ref=f20e37] [cursor=pointer]
+        - tab "Details" [ref=f20e38] [cursor=pointer]
+        - tab "Über Cookies" [ref=f20e39] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=f20e41]:
+        - generic [ref=f20e43]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=f20e44]
+          - generic [ref=f20e45]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
+      - generic [ref=f20e49]:
+        - button "Ablehnen oder Einstellungen" [ref=f20e50] [cursor=pointer]
+        - button "Alle zulassen" [ref=f20e52] [cursor=pointer]
+  - generic [ref=f20e54]:
+    - banner [ref=f20e55]:
+      - generic [ref=f20e57]:
+        - list [ref=f20e59]:
+          - listitem [ref=f20e60]:
+            - strong [ref=f20e64]: Über 200.000 Werbeartikel
+            - text: mit Logo
+          - listitem [ref=f20e65]:
+            - strong [ref=f20e69]: Persönliche Beratung
+        - menubar [ref=f20e70]:
+          - menuitem "Unternehmen" [ref=f20e71] [cursor=pointer]
+          - menuitem "Service" [ref=f20e72] [cursor=pointer]
+      - generic [ref=f20e73]:
+        - banner [ref=f20e76]:
+          - link [ref=f20e78] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/
+            - img "Pro-Discount Werbeartikel - zur Startseite wechseln" [ref=f20e80]
+        - link "Persönliche Beratung 05121 69707-0" [ref=f20e81] [cursor=pointer]:
+          - /url: tel:+495121697070
+          - generic [ref=f20e85]:
+            - generic [ref=f20e86]: Persönliche Beratung
+            - generic [ref=f20e87]: 05121 69707-0
+        - navigation [ref=f20e88]:
+          - menubar [ref=f20e89]:
+            - menuitem [ref=f20e90]:
+              - generic [ref=f20e91]:
+                - searchbox "Suchbegriff eingeben" [ref=f20e92]
+                - button [ref=f20e93] [cursor=pointer]
+            - menuitem [ref=f20e98]:
+              - link "Merkliste" [ref=f20e99] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/note
+            - menuitem [ref=f20e103]:
+              - link "Kontakt" [ref=f20e104] [cursor=pointer]:
+                - /url: /Kontakt-und-Beratung
+            - menuitem [ref=f20e109]:
+              - link "Konto" [ref=f20e110] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/account
+              - text: 
+            - menuitem [ref=f20e116]:
+              - link "Warenkorb" [ref=f20e117] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/checkout/cart
+        - iframe [ref=f20e127]:
+          - generic [ref=f24e2]:
+            - link "Trustpilot-Bewertungen" [ref=f24e3] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/review/www.pro-discount-werbeartikel.de?utm_medium=trustbox&utm_source=Mini
+              - img "Trustpilot" [ref=f24e7]
+              - img "4.6 von 5 Sternen auf Trustpilot" [ref=f24e15]
+              - generic [ref=f24e35]:
+                - generic [aria-hidden] [ref=f24e36]:
+                  - text: TrustScore
+                  - strong [ref=f24e37]: "4.6"
+                - generic [ref=f24e38]:
+                  - strong [ref=f24e39]: "808"
+                  - text: Bewertungen
+            - generic [ref=f24e40]: Bewertet mit 4.6 von 5. 808 Bewertungen auf Trustpilot
+            - generic [ref=f24e41]: Klicken Sie hier, um das Trustpilot-Profil des Unternehmens anzuzeigen
+    - navigation [ref=f20e128]:
+      - generic [ref=f20e129]:
+        - menubar [ref=f20e131]:
+          - menuitem [ref=f20e132]:
+            - link "Sortiment" [ref=f20e133] [cursor=pointer]:
+              - /url: https://www.pro-discount-werbeartikel.de/Sortiment
+          - menuitem [ref=f20e136]:
+            - link "Werbeartikel Blog" [ref=f20e137] [cursor=pointer]:
+              - /url: https://www.pro-discount-werbeartikel.de/Werbeartikel-Blog
+        - text:                                                            
+        - generic [ref=f20e138] [cursor=pointer]: 
+  - generic [ref=f20e140]:
+    - text:  
+    - generic [ref=f20e145]:
+      - generic [ref=f20e149]:
+        - generic [ref=f20e150]:
+          - link [ref=f20e154] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Bekleidung-Textilien
+          - link [ref=f20e158] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Eco-OEko-Umwelt
+          - link [ref=f20e162] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Elektronik
+          - link [ref=f20e166] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Recycling-Werbeartikel
+        - generic [ref=f20e167] [cursor=pointer]: 
+        - generic [ref=f20e168] [cursor=pointer]: 
+      - generic [ref=f20e169]:
+        - link "Elektronik" [ref=f20e172] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Elektronik
+        - link "Schirme" [ref=f20e178] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Schirme
+        - link "Werkzeuge und Tools" [ref=f20e184] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Werkzeuge-und-Tools
+        - link "Taschen" [ref=f20e190] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Taschen
+      - generic [ref=f20e194]:
+        - link "Schreibgeräte" [ref=f20e197] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Schreibgeraete
+        - link "Bekleidung - Textilien" [ref=f20e203] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Bekleidung-Textilien
+        - link "Kaffeebecher - Tassen" [ref=f20e209] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Kaffeebecher-Tassen
+        - link "Accessoires" [ref=f20e215] [cursor=pointer]:
+          - /url: https://www.pro-discount-werbeartikel.de/Accessoires
+      - generic [ref=f20e221]:
+        - generic [ref=f20e222]: Topseller
+        - generic [ref=f20e223]:
+          - generic [ref=f20e224] [cursor=pointer]: 
+          - text: 
+          - generic [ref=f20e225]:
+            - generic [ref=f20e228]:
+              - generic [ref=f20e229]: TIPP!
+              - generic [ref=f20e231]:
+                - link [ref=f20e232] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Tissue-Taschentuch-Box-175-x-55-x-55-mm-128338
+                  - img "Tissue Taschentuch Box 175 x 55 x 55 mm" [ref=f20e234]
+                - generic [ref=f20e235]:
+                  - link "Tissue Taschentuch Box 175 x 55 x 55 mm" [ref=f20e236] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Tissue-Taschentuch-Box-175-x-55-x-55-mm-128338
+                  - generic [ref=f20e237]: ab 0,50 €
+            - generic [ref=f20e242]:
+              - generic [ref=f20e243]: TIPP!
+              - generic [ref=f20e245]:
+                - link [ref=f20e246] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Picknickdecke-Allover-Print-25700
+                  - img "Picknickdecke - Allover-Print" [ref=f20e248]
+                - generic [ref=f20e249]:
+                  - link "Picknickdecke - Allover-Print" [ref=f20e250] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Picknickdecke-Allover-Print-25700
+                  - generic [ref=f20e251]: ab 23,58 €
+            - generic [ref=f20e256]:
+              - generic [ref=f20e257]: TIPP!
+              - generic [ref=f20e259]:
+                - link [ref=f20e260] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/12er-Schokolinsen-im-Blister-in-Kartonschachtel-mit-bedruckten-Schokolinsen-im-Farbmix-88817
+                  - img "12er-Schokolinsen im Blister in Kartonschachtel, mit bedruckten Schokolinsen im Farbmix" [ref=f20e262]
+                - generic [ref=f20e263]:
+                  - link "12er-Schokolinsen im Blister in Kartonschachtel, mit bedruckten Schokolinsen im Farbmix" [ref=f20e264] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/12er-Schokolinsen-im-Blister-in-Kartonschachtel-mit-bedruckten-Schokolinsen-im-Farbmix-88817
+                  - generic [ref=f20e265]: ab 1,74 €
+            - generic [ref=f20e270]:
+              - generic [ref=f20e271]: TIPP!
+              - generic [ref=f20e273]:
+                - link [ref=f20e274] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Pyramide-Springpyramide-in-Kartonhuelle-81410
+                  - img "Pop-Up Pyramide - Springpyramide in Kartonhülle" [ref=f20e276]
+                - generic [ref=f20e277]:
+                  - link "Pop-Up Pyramide - Springpyramide in Kartonhülle" [ref=f20e278] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Pyramide-Springpyramide-in-Kartonhuelle-81410
+                  - generic [ref=f20e279]: ab 1,25 €
+            - generic [ref=f20e284]:
+              - generic [ref=f20e285]: TIPP!
+              - generic [ref=f20e287]:
+                - link [ref=f20e288] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-Gold-Malou-70978
+                  - img "Push-Sound-Buzzer Gold Malou" [ref=f20e290]
+                - generic [ref=f20e291]:
+                  - link "Push-Sound-Buzzer Gold Malou" [ref=f20e292] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-Gold-Malou-70978
+                  - generic [ref=f20e293]: ab 7,58 €
+            - generic [ref=f20e298]:
+              - generic [ref=f20e299]: TIPP!
+              - generic [ref=f20e301]:
+                - link [ref=f20e302] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/AErztekrepp-AErzterolle-Papier-fuer-AErzteliegen-70318
+                  - img "Ärztekrepp Ärzterolle Papier für Ärzteliegen" [ref=f20e304]
+                - generic [ref=f20e305]:
+                  - link "Ärztekrepp Ärzterolle Papier für Ärzteliegen" [ref=f20e306] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/AErztekrepp-AErzterolle-Papier-fuer-AErzteliegen-70318
+                  - generic [ref=f20e307]: ab 2,74 €
+            - generic [ref=f20e312]:
+              - generic [ref=f20e313]: TIPP!
+              - generic [ref=f20e315]:
+                - link [ref=f20e316] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/10er-Pfefferminzdrops-Blister-in-Schachtel-in-Tablettenoptik-55739
+                  - img "10er-Pfefferminzdrops-Blister in Schachtel in Tablettenoptik" [ref=f20e318]
+                - generic [ref=f20e319]:
+                  - link "10er-Pfefferminzdrops-Blister in Schachtel in Tablettenoptik" [ref=f20e320] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/10er-Pfefferminzdrops-Blister-in-Schachtel-in-Tablettenoptik-55739
+                  - generic [ref=f20e321]: ab 1,32 €
+            - generic [ref=f20e326]:
+              - generic [ref=f20e327]: TIPP!
+              - generic [ref=f20e329]:
+                - link [ref=f20e330] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Taschentuch-Taschentuecher-125x60x25mm-40571
+                  - img "Taschentuch Taschentücher 125x60x25mm" [ref=f20e332]
+                - generic [ref=f20e333]:
+                  - link "Taschentuch Taschentücher 125x60x25mm" [ref=f20e334] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Taschentuch-Taschentuecher-125x60x25mm-40571
+                  - generic [ref=f20e335]: ab 0,23 €
+            - generic [ref=f20e340]:
+              - generic [ref=f20e341]: TIPP!
+              - generic [ref=f20e343]:
+                - link [ref=f20e344] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-A6-fuer-Mailing-26527
+                  - img "Soundgrußkarte DIN A6 für Mailing" [ref=f20e346]
+                - generic [ref=f20e347]:
+                  - link "Soundgrußkarte DIN A6 für Mailing" [ref=f20e348] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-A6-fuer-Mailing-26527
+                  - generic [ref=f20e349]: ab 2,64 €
+            - generic [ref=f20e354]:
+              - generic [ref=f20e355]: TIPP!
+              - generic [ref=f20e357]:
+                - link [ref=f20e358] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Lolly-Logo-Lutscher-mit-flexiblem-Stiel-mit-individueller-Label-Fahne-26524
+                  - img "Lolly - Logo-Lutscher mit flexiblem Stiel mit individueller Label-Fahne" [ref=f20e360]
+                - generic [ref=f20e361]:
+                  - link "Lolly - Logo-Lutscher mit flexiblem Stiel mit individueller Label-Fahne" [ref=f20e362] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Lolly-Logo-Lutscher-mit-flexiblem-Stiel-mit-individueller-Label-Fahne-26524
+                  - generic [ref=f20e363]: ab 0,68 €
+            - generic [ref=f20e368]:
+              - generic [ref=f20e369]: TIPP!
+              - generic [ref=f20e371]:
+                - link [ref=f20e372] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Mundspatel-Lutscher-in-individuell-bedruckter-Folie-26525
+                  - img "Mundspatel-Lutscher in individuell bedruckter Folie" [ref=f20e374]
+                - generic [ref=f20e375]:
+                  - link "Mundspatel-Lutscher in individuell bedruckter Folie" [ref=f20e376] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Mundspatel-Lutscher-in-individuell-bedruckter-Folie-26525
+                  - generic [ref=f20e377]: ab 0,22 €
+            - generic [ref=f20e382]:
+              - generic [ref=f20e383]: TIPP!
+              - generic [ref=f20e385]:
+                - link [ref=f20e386] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Kugel-Lolly-Lutscher-in-der-Werbebox-26526
+                  - img "Kugel-Lolly Lutscher in der Werbebox" [ref=f20e388]
+                - generic [ref=f20e389]:
+                  - link "Kugel-Lolly Lutscher in der Werbebox" [ref=f20e390] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Kugel-Lolly-Lutscher-in-der-Werbebox-26526
+                  - generic [ref=f20e391]: ab 0,45 €
+            - generic [ref=f20e396]:
+              - generic [ref=f20e397]: TIPP!
+              - generic [ref=f20e399]:
+                - link [ref=f20e400] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Gewuerzkekse-im-Flow-Pack-27060
+                  - img "Gewürzkekse im Flow-Pack" [ref=f20e402]
+                - generic [ref=f20e403]:
+                  - link "Gewürzkekse im Flow-Pack" [ref=f20e404] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Gewuerzkekse-im-Flow-Pack-27060
+                  - generic [ref=f20e405]: ab 0,16 €
+            - generic [ref=f20e410]:
+              - generic [ref=f20e411]: TIPP!
+              - generic [ref=f20e413]:
+                - link [ref=f20e414] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Logo-Lutscher-mit-individuellem-2D-Relief-26522
+                  - img "Logo-Lutscher mit individuellem 2D-Relief" [ref=f20e416]
+                - generic [ref=f20e417]:
+                  - link "Logo-Lutscher mit individuellem 2D-Relief" [ref=f20e418] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Logo-Lutscher-mit-individuellem-2D-Relief-26522
+                  - generic [ref=f20e419]: ab 0,96 €
+            - generic [ref=f20e424]:
+              - generic [ref=f20e425]: TIPP!
+              - generic [ref=f20e427]:
+                - link [ref=f20e428] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Laschenaktivierung-fuer-Grusskarten-25752
+                  - img "Soundmodul mit Laschenaktivierung für Grußkarten" [ref=f20e430]
+                - generic [ref=f20e431]:
+                  - link "Soundmodul mit Laschenaktivierung für Grußkarten" [ref=f20e432] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Laschenaktivierung-fuer-Grusskarten-25752
+                  - generic [ref=f20e433]: ab 2,30 €
+            - generic [ref=f20e438]:
+              - generic [ref=f20e439]: TIPP!
+              - generic [ref=f20e441]:
+                - link [ref=f20e442] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Lichtsensor-zum-Einkleben-84414
+                  - img "Soundmodul mit Lichtsensor zum Einkleben" [ref=f20e444]
+                - generic [ref=f20e445]:
+                  - link "Soundmodul mit Lichtsensor zum Einkleben" [ref=f20e446] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Lichtsensor-zum-Einkleben-84414
+                  - generic [ref=f20e447]: ab 2,27 €
+            - generic [ref=f20e452]:
+              - generic [ref=f20e453]: TIPP!
+              - generic [ref=f20e455]:
+                - link [ref=f20e456] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Mini-Drucktaster-zum-Einkleben-84415
+                  - img "Soundmodul mit Mini-Drucktaster zum Einkleben" [ref=f20e458]
+                - generic [ref=f20e459]:
+                  - link "Soundmodul mit Mini-Drucktaster zum Einkleben" [ref=f20e460] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-mit-Mini-Drucktaster-zum-Einkleben-84415
+                  - generic [ref=f20e461]: ab 2,34 €
+            - generic [ref=f20e466]:
+              - generic [ref=f20e467]: TIPP!
+              - generic [ref=f20e469]:
+                - link [ref=f20e470] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-Kartonbox-mit-Lichtsensor-individuell-bedruckt-96512
+                  - img "Soundmodul-Kartonbox mit Lichtsensor, individuell bedruckt" [ref=f20e472]
+                - generic [ref=f20e473]:
+                  - link "Soundmodul-Kartonbox mit Lichtsensor, individuell bedruckt" [ref=f20e474] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-Kartonbox-mit-Lichtsensor-individuell-bedruckt-96512
+                  - generic [ref=f20e475]: ab 2,96 €
+            - generic [ref=f20e480]:
+              - generic [ref=f20e481]: TIPP!
+              - generic [ref=f20e483]:
+                - link [ref=f20e484] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-Kartonbox-mit-Drucktaster-10-Sekunden-Sound-individuell-bedruckt-143816
+                  - img "Soundmodul-Kartonbox mit Drucktaster, 10 Sekunden Sound, individuell bedruckt" [ref=f20e486]
+                - generic [ref=f20e487]:
+                  - link "Soundmodul-Kartonbox mit Drucktaster, 10 Sekunden Sound, individuell bedruckt" [ref=f20e488] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundmodul-Kartonbox-mit-Drucktaster-10-Sekunden-Sound-individuell-bedruckt-143816
+                  - generic [ref=f20e489]: ab 2,96 €
+            - generic [ref=f20e494]:
+              - generic [ref=f20e495]: TIPP!
+              - generic [ref=f20e497]:
+                - link [ref=f20e498] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Schleck-Wassereis-Schlaucheis-mit-Label-CMYK-25724
+                  - img "Schleck-Wassereis - Schlaucheis mit Label CMYK" [ref=f20e500]
+                - generic [ref=f20e501]:
+                  - link "Schleck-Wassereis - Schlaucheis mit Label CMYK" [ref=f20e502] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Schleck-Wassereis-Schlaucheis-mit-Label-CMYK-25724
+                  - generic [ref=f20e503]: ab 0,64 €
+            - generic [ref=f20e508]:
+              - generic [ref=f20e509]: TIPP!
+              - generic [ref=f20e511]:
+                - link [ref=f20e512] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Runder-Lolly-Logo-Lutscher-mit-individuellem-Label-25747
+                  - img "Runder Lolly - Logo-Lutscher mit individuellem Label" [ref=f20e514]
+                - generic [ref=f20e515]:
+                  - link "Runder Lolly - Logo-Lutscher mit individuellem Label" [ref=f20e516] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Runder-Lolly-Logo-Lutscher-mit-individuellem-Label-25747
+                  - generic [ref=f20e517]: ab 0,68 €
+            - generic [ref=f20e522]:
+              - generic [ref=f20e523]: TIPP!
+              - generic [ref=f20e525]:
+                - link [ref=f20e526] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Lolly-in-Sonderform-mit-1-seitiger-Praegung-mit-individuellem-Label-86290
+                  - img "Lolly in Sonderform mit 1-seitiger Prägung mit individuellem Label" [ref=f20e528]
+                - generic [ref=f20e529]:
+                  - link "Lolly in Sonderform mit 1-seitiger Prägung mit individuellem Label" [ref=f20e530] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Lolly-in-Sonderform-mit-1-seitiger-Praegung-mit-individuellem-Label-86290
+                  - generic [ref=f20e531]: ab 1,17 €
+            - generic [ref=f20e536]:
+              - generic [ref=f20e537]: TIPP!
+              - generic [ref=f20e539]:
+                - link [ref=f20e540] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Banner-Kugelschreiber-mit-Druck-auf-Werbefahne-25701
+                  - img "Banner-Kugelschreiber mit Druck auf Werbefahne" [ref=f20e542]
+                - generic [ref=f20e543]:
+                  - link "Banner-Kugelschreiber mit Druck auf Werbefahne" [ref=f20e544] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Banner-Kugelschreiber-mit-Druck-auf-Werbefahne-25701
+                  - generic [ref=f20e545]: ab 0,69 €
+            - generic [ref=f20e550]:
+              - generic [ref=f20e551]: TIPP!
+              - generic [ref=f20e553]:
+                - link [ref=f20e554] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Bade-Dusch-Strandhandtuch-150-x-100-cm-mit-individuellem-Allover-Print-25740
+                  - img "Bade- Dusch- Strandhandtuch 150 x 100 cm mit individuellem Allover-Print" [ref=f20e556]
+                - generic [ref=f20e557]:
+                  - link "Bade- Dusch- Strandhandtuch 150 x 100 cm mit individuellem Allover-Print" [ref=f20e558] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Bade-Dusch-Strandhandtuch-150-x-100-cm-mit-individuellem-Allover-Print-25740
+                  - generic [ref=f20e559]: ab 11,63 €
+            - generic [ref=f20e564]:
+              - generic [ref=f20e565]: TIPP!
+              - generic [ref=f20e567]:
+                - link [ref=f20e568] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/18er-Blister-Dragee-Bonbons-in-Tablettenoptik-23358
+                  - img "18er-Blister-Dragee Bonbons in Tablettenoptik" [ref=f20e570]
+                - generic [ref=f20e571]:
+                  - link "18er-Blister-Dragee Bonbons in Tablettenoptik" [ref=f20e572] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/18er-Blister-Dragee-Bonbons-in-Tablettenoptik-23358
+                  - generic [ref=f20e573]: ab 0,94 €
+            - generic [ref=f20e578]:
+              - generic [ref=f20e579]: TIPP!
+              - generic [ref=f20e581]:
+                - link [ref=f20e582] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/24er-Blister-Dragee-Bonbons-in-Tablettenoptik-71087
+                  - img "24er-Blister-Dragee Bonbons in Tablettenoptik" [ref=f20e584]
+                - generic [ref=f20e585]:
+                  - link "24er-Blister-Dragee Bonbons in Tablettenoptik" [ref=f20e586] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/24er-Blister-Dragee-Bonbons-in-Tablettenoptik-71087
+                  - generic [ref=f20e587]: ab 1,04 €
+            - generic [ref=f20e592]:
+              - generic [ref=f20e593]: TIPP!
+              - generic [ref=f20e595]:
+                - link [ref=f20e596] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-5-cm-23354
+                  - img "Faltwürfel 5 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e598]
+                - generic [ref=f20e599]:
+                  - link "Faltwürfel 5 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e600] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-5-cm-23354
+                  - generic [ref=f20e601]: ab 3,47 €
+            - generic [ref=f20e606]:
+              - generic [ref=f20e607]: TIPP!
+              - generic [ref=f20e609]:
+                - link [ref=f20e610] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-7-cm-23355
+                  - img "Faltwürfel 7 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e612]
+                - generic [ref=f20e613]:
+                  - link "Faltwürfel 7 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e614] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-7-cm-23355
+                  - generic [ref=f20e615]: ab 5,38 €
+            - generic [ref=f20e620]:
+              - generic [ref=f20e621]: TIPP!
+              - generic [ref=f20e623]:
+                - link [ref=f20e624] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-8-cm-25741
+                  - img "Faltwürfel 8 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e626]
+                - generic [ref=f20e627]:
+                  - link "Faltwürfel 8 cm Lieferung per Luftfracht, Cellophanierung glänzend" [ref=f20e628] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Faltwuerfel-8-cm-25741
+                  - generic [ref=f20e629]: ab 7,53 €
+            - generic [ref=f20e634]:
+              - generic [ref=f20e635]: TIPP!
+              - generic [ref=f20e637]:
+                - link [ref=f20e638] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Faltdiamant-7-cm-70980
+                  - img "Faltdiamant 7 cm" [ref=f20e640]
+                - generic [ref=f20e641]:
+                  - link "Faltdiamant 7 cm" [ref=f20e642] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Faltdiamant-7-cm-70980
+                  - generic [ref=f20e643]: ab 6,73 €
+            - generic [ref=f20e648]:
+              - generic [ref=f20e649]: TIPP!
+              - generic [ref=f20e651]:
+                - link [ref=f20e652] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Kunststoff-Faecher-mit-Druck-auf-Stoff-23353
+                  - img "Kunststoff-Fächer mit Druck auf Stoff" [ref=f20e654]
+                - generic [ref=f20e655]:
+                  - link "Kunststoff-Fächer mit Druck auf Stoff" [ref=f20e656] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Kunststoff-Faecher-mit-Druck-auf-Stoff-23353
+                  - generic [ref=f20e657]: ab 2,79 €
+            - generic [ref=f20e662]:
+              - generic [ref=f20e663]: TIPP!
+              - generic [ref=f20e665]:
+                - link [ref=f20e666] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Holz-Faecher-mit-Druck-auf-Stoff-25719
+                  - img "Holz-Fächer mit Druck auf Stoff" [ref=f20e668]
+                - generic [ref=f20e669]:
+                  - link "Holz-Fächer mit Druck auf Stoff" [ref=f20e670] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Holz-Faecher-mit-Druck-auf-Stoff-25719
+                  - generic [ref=f20e671]: ab 3,89 €
+            - generic [ref=f20e676]:
+              - generic [ref=f20e677]: TIPP!
+              - generic [ref=f20e679]:
+                - link [ref=f20e680] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-A5-fuer-Mailing-23350
+                  - img "Soundgrußkarte DIN A5 für Mailing" [ref=f20e682]
+                - generic [ref=f20e683]:
+                  - link "Soundgrußkarte DIN A5 für Mailing" [ref=f20e684] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-A5-fuer-Mailing-23350
+                  - generic [ref=f20e685]: ab 4,87 €
+            - generic [ref=f20e690]:
+              - generic [ref=f20e691]: TIPP!
+              - generic [ref=f20e693]:
+                - link [ref=f20e694] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-23351
+                  - img "Push-Sound-Buzzer" [ref=f20e696]
+                - generic [ref=f20e697]:
+                  - link "Push-Sound-Buzzer" [ref=f20e698] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-23351
+                  - generic [ref=f20e699]: ab 6,44 €
+            - generic [ref=f20e704]:
+              - generic [ref=f20e705]: TIPP!
+              - generic [ref=f20e707]:
+                - link [ref=f20e708] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-lang-fuer-Mailing-25750
+                  - img "Soundgrußkarte DIN lang für Mailing" [ref=f20e710]
+                - generic [ref=f20e711]:
+                  - link "Soundgrußkarte DIN lang für Mailing" [ref=f20e712] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Soundgrusskarte-DIN-lang-fuer-Mailing-25750
+                  - generic [ref=f20e713]: ab 2,74 €
+            - generic [ref=f20e718]:
+              - generic [ref=f20e719]: TIPP!
+              - generic [ref=f20e721]:
+                - link [ref=f20e722] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-LED-Buzzer-10-Sekunden-Sound-96359
+                  - img "Push-Sound-LED-Buzzer, 10 Sekunden Sound" [ref=f20e724]
+                - generic [ref=f20e725]:
+                  - link "Push-Sound-LED-Buzzer, 10 Sekunden Sound" [ref=f20e726] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-LED-Buzzer-10-Sekunden-Sound-96359
+                  - generic [ref=f20e727]: ab 5,84 €
+            - generic [ref=f20e732]:
+              - generic [ref=f20e733]: TIPP!
+              - generic [ref=f20e735]:
+                - link [ref=f20e736] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Kosmetiktuecher-Box-Taschentuecher-Box-23348
+                  - 'img "Kosmetiktücher Box - Taschentücher Box - Inhalt: 50 Tücher - 100 x 100 x 100 mm, Lackierung: matt" [ref=f20e738]'
+                - generic [ref=f20e739]:
+                  - 'link "Kosmetiktücher Box - Taschentücher Box - Inhalt: 50 Tücher - 100 x 100 x 100 mm, Lackierung: matt" [ref=f20e740] [cursor=pointer]':
+                    - /url: https://www.pro-discount-werbeartikel.de/Kosmetiktuecher-Box-Taschentuecher-Box-23348
+                  - generic [ref=f20e741]: ab 0,86 €
+            - generic [ref=f20e747]:
+              - link [ref=f20e748] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Staffelstab-aus-Holz-20523
+                - img "Staffelstab aus Holz" [ref=f20e750]
+              - generic [ref=f20e751]:
+                - link "Staffelstab aus Holz" [ref=f20e752] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Staffelstab-aus-Holz-20523
+                - generic [ref=f20e753]: ab 6,05 €
+            - generic [ref=f20e759]:
+              - link [ref=f20e760] [cursor=pointer]:
+                - /url: https://www.pro-discount-werbeartikel.de/Schwarzer-Logo-Stein-144801
+                - img "Schwarzer Logo-Stein" [ref=f20e762]
+              - generic [ref=f20e763]:
+                - link "Schwarzer Logo-Stein" [ref=f20e764] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Schwarzer-Logo-Stein-144801
+                - generic [ref=f20e765]: ab 2,48 €
+            - generic [ref=f20e770]:
+              - generic [ref=f20e771]: TIPP!
+              - generic [ref=f20e773]:
+                - link [ref=f20e774] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Cube-in-DIN-lang-Huelle-Springwuerfel-fuer-Mailing-18862
+                  - img "Pop-Up Cube in DIN lang Hülle - Springwürfel für Mailing" [ref=f20e776]
+                - generic [ref=f20e777]:
+                  - link "Pop-Up Cube in DIN lang Hülle - Springwürfel für Mailing" [ref=f20e778] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Cube-in-DIN-lang-Huelle-Springwuerfel-fuer-Mailing-18862
+                  - generic [ref=f20e779]: ab 1,00 €
+            - generic [ref=f20e784]:
+              - generic [ref=f20e785]: TIPP!
+              - generic [ref=f20e787]:
+                - link [ref=f20e788] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Tissue-Taschentuch-Box-175-x-55-x-55-mm-128338
+                  - img "Tissue Taschentuch Box 175 x 55 x 55 mm" [ref=f20e790]
+                - generic [ref=f20e791]:
+                  - link "Tissue Taschentuch Box 175 x 55 x 55 mm" [ref=f20e792] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Tissue-Taschentuch-Box-175-x-55-x-55-mm-128338
+                  - generic [ref=f20e793]: ab 0,50 €
+            - generic [ref=f20e798]:
+              - generic [ref=f20e799]: TIPP!
+              - generic [ref=f20e801]:
+                - link [ref=f20e802] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Picknickdecke-Allover-Print-25700
+                  - img "Picknickdecke - Allover-Print" [ref=f20e804]
+                - generic [ref=f20e805]:
+                  - link "Picknickdecke - Allover-Print" [ref=f20e806] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Picknickdecke-Allover-Print-25700
+                  - generic [ref=f20e807]: ab 23,58 €
+            - generic [ref=f20e812]:
+              - generic [ref=f20e813]: TIPP!
+              - generic [ref=f20e815]:
+                - link [ref=f20e816] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/12er-Schokolinsen-im-Blister-in-Kartonschachtel-mit-bedruckten-Schokolinsen-im-Farbmix-88817
+                  - img "12er-Schokolinsen im Blister in Kartonschachtel, mit bedruckten Schokolinsen im Farbmix" [ref=f20e818]
+                - generic [ref=f20e819]:
+                  - link "12er-Schokolinsen im Blister in Kartonschachtel, mit bedruckten Schokolinsen im Farbmix" [ref=f20e820] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/12er-Schokolinsen-im-Blister-in-Kartonschachtel-mit-bedruckten-Schokolinsen-im-Farbmix-88817
+                  - generic [ref=f20e821]: ab 1,74 €
+            - generic [ref=f20e826]:
+              - generic [ref=f20e827]: TIPP!
+              - generic [ref=f20e829]:
+                - link [ref=f20e830] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Pyramide-Springpyramide-in-Kartonhuelle-81410
+                  - img "Pop-Up Pyramide - Springpyramide in Kartonhülle" [ref=f20e832]
+                - generic [ref=f20e833]:
+                  - link "Pop-Up Pyramide - Springpyramide in Kartonhülle" [ref=f20e834] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Pop-Up-Pyramide-Springpyramide-in-Kartonhuelle-81410
+                  - generic [ref=f20e835]: ab 1,25 €
+            - generic [ref=f20e840]:
+              - generic [ref=f20e841]: TIPP!
+              - generic [ref=f20e843]:
+                - link [ref=f20e844] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-Gold-Malou-70978
+                  - img "Push-Sound-Buzzer Gold Malou" [ref=f20e846]
+                - generic [ref=f20e847]:
+                  - link "Push-Sound-Buzzer Gold Malou" [ref=f20e848] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Push-Sound-Buzzer-Gold-Malou-70978
+                  - generic [ref=f20e849]: ab 7,58 €
+            - generic [ref=f20e854]:
+              - generic [ref=f20e855]: TIPP!
+              - generic [ref=f20e857]:
+                - link [ref=f20e858] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/AErztekrepp-AErzterolle-Papier-fuer-AErzteliegen-70318
+                  - img "Ärztekrepp Ärzterolle Papier für Ärzteliegen" [ref=f20e860]
+                - generic [ref=f20e861]:
+                  - link "Ärztekrepp Ärzterolle Papier für Ärzteliegen" [ref=f20e862] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/AErztekrepp-AErzterolle-Papier-fuer-AErzteliegen-70318
+                  - generic [ref=f20e863]: ab 2,74 €
+            - generic [ref=f20e868]:
+              - generic [ref=f20e869]: TIPP!
+              - generic [ref=f20e871]:
+                - link [ref=f20e872] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/10er-Pfefferminzdrops-Blister-in-Schachtel-in-Tablettenoptik-55739
+                  - img "10er-Pfefferminzdrops-Blister in Schachtel in Tablettenoptik" [ref=f20e874]
+                - generic [ref=f20e875]:
+                  - link "10er-Pfefferminzdrops-Blister in Schachtel in Tablettenoptik" [ref=f20e876] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/10er-Pfefferminzdrops-Blister-in-Schachtel-in-Tablettenoptik-55739
+                  - generic [ref=f20e877]: ab 1,32 €
+            - generic [ref=f20e882]:
+              - generic [ref=f20e883]: TIPP!
+              - generic [ref=f20e885]:
+                - link [ref=f20e886] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Taschentuch-Taschentuecher-125x60x25mm-40571
+                  - img "Taschentuch Taschentücher 125x60x25mm" [ref=f20e888]
+                - generic [ref=f20e889]:
+                  - link "Taschentuch Taschentücher 125x60x25mm" [ref=f20e890] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Taschentuch-Taschentuecher-125x60x25mm-40571
+                  - generic [ref=f20e891]: ab 0,23 €
+      - generic [ref=f20e897]:
+        - heading "Bedruckte Werbeartikel zum Discount-Preis!" [level=1] [ref=f20e898]
+        - paragraph [ref=f20e899]:
+          - text: Pro-Discount Werbeartikel ist seit
+          - strong [ref=f20e900]: 26 Jahren
+          - text: Ihr verlässlicher Partner für hochwertige Werbeartikel, innovative Werbemittel und originelle Kundengeschenke. Als führender Werbeartikel-Großhändler für Firmenkunden in Deutschland bieten wir Ihnen in unserem Online-Shop eine Auswahl von über
+          - strong [ref=f20e901]: 200.000 Werbeartikeln
+          - text: – ideal für jede Branche und jeden Bedarf.
+        - paragraph [ref=f20e902]:
+          - text: Ob bedruckte Werbeartikel
+          - strong [ref=f20e903]: mit Logo
+          - text: ","
+          - strong [ref=f20e904]: individuelle Designs
+          - text: oder maßgeschneiderte Marketinglösungen – bei uns finden Sie alles, was Sie für erfolgreiche Werbe- und Marketingkampagnen benötigen.
+          - strong [ref=f20e905]: Profitieren Sie von günstigen Discount-Preisen
+          - text: ", bester Qualität und einer Vielzahl attraktiver"
+          - strong [ref=f20e906]: Rabatte
+          - text: und
+          - strong [ref=f20e907]: Sonderangebote
+          - text: .
+          - strong [ref=f20e908]: Kleine Bestellmengen
+          - text: "? Kein Problem! Wir garantieren"
+          - strong [ref=f20e909]: schnelle Lieferzeiten
+          - text: ", einen herausragenden"
+          - strong [ref=f20e910]: Kundenservice
+          - text: und maximale Flexibilität.
+        - paragraph [ref=f20e911]:
+          - text: "Nachhaltigkeit liegt uns am Herzen: Unser Sortiment umfasst zahlreiche"
+          - strong [ref=f20e912]: umweltfreundliche und nachhaltige Werbeartikel
+          - text: ", die Ihr Unternehmen von der besten Seite präsentieren. Dank unserer"
+          - strong [ref=f20e913]: benutzerfreundlichen Website
+          - text: mit einfachen Such- und Filterfunktionen gestalten wir Ihren Einkauf so bequem wie möglich. Mit
+          - strong [ref=f20e914]: Sitz in Deutschland
+          - text: stehen wir für Zuverlässigkeit, Qualität und Effizienz – überzeugen Sie sich selbst und starten Sie Ihre Bestellung noch heute!
+        - heading "Unsere Werbeartikel-Experten für Ihren Erfolg" [level=2] [ref=f20e915]
+        - paragraph [ref=f20e916]:
+          - text: Unsere Stärke liegt in der Kombination aus Erfahrung und Innovationsgeist. Mit über
+          - strong [ref=f20e917]: 26 Jahren am Werbeartikelmarkt
+          - text: verstehen wir die Bedürfnisse unserer Kunden genau. Unser preiswertes Werbeartikel-Sortiment bietet nicht nur klassische Werbeartikel wie
+          - link "Kugelschreiber" [ref=f20e918] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Kugelschreiber
+          - text: ","
+          - link "Kaffeebecher" [ref=f20e919] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Kaffeebecher-Tassen
+          - text: ","
+          - link "Regenschirme" [ref=f20e920] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Schirme
+          - text: und
+          - link "Trinkflaschen" [ref=f20e921] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Trinkflaschen
+          - text: ", sondern auch innovative Werbemittel wie tragbare"
+          - link "Ladegeräte" [ref=f20e922] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Ladegeraete
+          - text: ","
+          - link "umweltfreundliche Produkte" [ref=f20e923] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Eco-OEko-Umwelt
+          - text: und
+          - link "digitale Gadgets" [ref=f20e924] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Elektronik
+          - text: ", die Ihre Kunden begeistern werden. Durch unser internationales Produktionsnetzwerk können wir Ihnen extrem niedrige Preise anbieten, ohne die Qualität unserer Produkte zu kompromittieren. Dank Direktimport und einer ausgeklügelten Sonderangebotsstrategie profitieren Sie von Bestpreisen, Rabatten und Preisnachlässen, die im Markt ihresgleichen suchen."
+        - heading "Riesige Auswahl an Werbeartikeln im Pro-Discount Online-Shop" [level=2] [ref=f20e925]
+        - paragraph [ref=f20e926]: In unserem Online-Shop bieten wir Ihnen über 200.000 verschiedene Werbeartikel, die Sie individuell gestalten können. Mit unserer breiten Auswahl an Werbeartikel-Neuheiten und Klassikern decken wir jede erdenkliche Kategorie ab – von Steuartikeln über Give-Aways bis hin zu hochwertigen, individuellen Firmenpräsenten. Unsere Werbeartikel sind ideal, um Ihre Marke zu stärken und langfristige Kundenbeziehungen aufzubauen. Jeder Artikel kann nach Ihren Wünschen gestaltet und mit verschiedenen Drucktechniken veredelt werden, darunter Tampondruck, Siebdruck, Lasergravur, Prägung und Doming.
+        - heading "Günstige Werbemittel mit Ihrem Logo" [level=2] [ref=f20e927]
+        - paragraph [ref=f20e928]:
+          - text: Unsere Kunden schätzen besonders die Möglichkeit, Discount Werbeartikel individuell zu gestalten und dabei von unseren dauerhaften Preisvorteilen zu profitieren. Unser professioneller
+          - link [ref=f20e929] [cursor=pointer]:
+            - /url: https://www.pro-discount-werbeartikel.de/Grafik-Service
+            - strong [ref=f20e930]: Grafikservice
+          - text: unterstützt Sie bei der Umsetzung Ihrer Ideen und sorgt dafür, dass Ihre Werbeartikel perfekt auf Ihre Zielgruppe zugeschnitten sind. So wird jedes Produkt zu einem effektiven Werbemittel, das Ihre Botschaft klar und deutlich kommuniziert.
+        - paragraph [ref=f20e931]: Pro-Discount Werbeartikel setzt auf eine umfassende Beratung, um sicherzustellen, dass Sie den größtmöglichen Nutzen aus Ihren Kundengeschenken ziehen. Wir begleiten Sie von der ersten Idee bis zum fertigen Produkt und stehen Ihnen in jeder Phase der Auftragsabwicklung zur Seite. Unsere Expertise und unser umfassendes Branchenwissen machen uns zu einem zuverlässigen Partner für Firmenkunden, die Wert auf Qualität und günstige Preise legen.
+        - paragraph [ref=f20e932]: Dank unserer Dauerniedrigpreisorientierung können wir Ihnen jederzeit günstige Werbemittel anbieten, die Ihre Marke ins beste Licht rücken. Unsere Sonderangebotsstrategie sorgt dafür, dass Sie regelmäßig von lukrativen Angeboten profitieren, die Ihnen helfen, Ihr Budget effizient einzusetzen. Werbeartikel von Pro-Discount sind die ideale Promo-Lösung für Unternehmen, die auf Qualität und Nachhaltigkeit setzen – und das zu besonders günstigen Preisen. Dank ihrer Langlebigkeit und hohen Nutzungsdauer sind unsere Artikel deutlich billiger als viele Alternativen, während sie Ihre Marke langfristig in den Fokus Ihrer Kunden rücken. Ob Sie Werbegeschenke personalisieren oder Werbeartikel bedrucken lassen möchten – wir haben die passenden Lösungen für Sie.
+        - paragraph [ref=f20e933]: Unsere Werbeartikel sind nicht nur funktional, sondern auch ästhetisch ansprechend. Jedes Produkt, das wir anbieten, wird sorgfältig ausgewählt und nach höchsten Qualitätsstandards gefertigt. Wir wissen, dass Werbeartikel ein wichtiger Bestandteil Ihrer Marketingstrategie sind, und deshalb legen wir großen Wert darauf, dass jedes Detail stimmt. Unsere individuellen Werbeartikel sind so konzipiert, dass sie Ihre Marke optimal repräsentieren und bei Ihren Kunden einen bleibenden Eindruck hinterlassen.
+        - heading "Werbeartikel-Sonderanfertigungen zum Bestpreis" [level=2] [ref=f20e934]
+        - paragraph [ref=f20e935]: Durch Direktimport und Individualanfertigungen können wir Ihnen nicht nur günstige Preise bieten, sondern auch eine enorme Flexibilität bei der Gestaltung Ihrer Werbemittel. Egal, ob Sie eine kleine Serie von Give-Aways oder eine große Bestellung von Firmenpräsenten planen – bei uns sind Sie an der richtigen Adresse. Unsere Werbeartikel-Großhandel-Lösungen sind perfekt auf die Bedürfnisse von Firmenkunden abgestimmt, die Wert auf Qualität und Zuverlässigkeit legen.
+        - paragraph [ref=f20e936]: Unsere langjährige Erfahrung im Werbeartikelmarkt hat uns gelehrt, wie wichtig es ist, die richtigen Werbemittel zur richtigen Zeit einzusetzen. Deshalb bieten wir Ihnen eine breite Palette an Produkten, die Sie flexibel für verschiedene Anlässe und Zielgruppen einsetzen können. Unsere Werbeartikel mit Logo sind nicht nur ein effektives Mittel zur Kundenbindung, sondern auch ein starkes Instrument zur Neukundengewinnung.
+        - paragraph [ref=f20e937]: Pro-Discount Werbeartikel versteht es, Ihre Marke durch hochwertige Werbemittel in den Mittelpunkt zu stellen. Mit unserem Online-Shop haben Sie die Möglichkeit, Ihre Werbegeschenke bequem und einfach zu bestellen und nach Ihren Wünschen zu gestalten. Wir bieten Ihnen die besten Discount Werbeartikel auf dem Markt und garantieren Ihnen ein optimales Preis-Leistungsverhältnis.
+        - heading "Günstige Preise und Sonderangebote" [level=2] [ref=f20e938]
+        - paragraph [ref=f20e939]: Wir bei Pro-Discount wissen, dass Werbeartikel mehr sind als nur einfache Kundengeschenke. Sie sind ein wichtiger Teil Ihrer Markenstrategie und können entscheidend zum Erfolg Ihrer Marketingkampagnen beitragen. Deshalb setzen wir alles daran, Ihnen die besten Produkte und den besten Service zu bieten. Unser Ziel ist es, Ihnen durch günstige Preise und Sonderangebote einen echten Mehrwert zu bieten, damit Ihre Werbeartikel genau die Wirkung erzielen, die Sie sich wünschen.
+        - paragraph [ref=f20e940]: Unser Werbeartikel-Großhandel steht für Qualität, Service und günstige Preise. Wir bieten Ihnen ein preiswertes Werbeartikel-Sortiment, das keinen Wunsch offen lässt.
+        - paragraph [ref=f20e941]: Ob Werbeartikel mit Logo, individuelle Werbeartikel oder Werbegeschenke personalisieren – bei uns finden Sie alles, was Sie für eine erfolgreiche Marketingstrategie benötigen.
+        - paragraph [ref=f20e942]: Pro-Discount ist Ihr Partner, wenn es um hochwertige Werbeartikel zu unschlagbaren Preisen geht.
+        - paragraph [ref=f20e943]
+        - paragraph [ref=f20e944]:
+          - strong [ref=f20e945]: Wir beraten Sie gerne!
+        - paragraph [ref=f20e946]:
+          - strong [ref=f20e947]: Ihr Pro-Discount
+          - strong [ref=f20e948]: Werbeartikel-Team
+  - iframe [ref=f20e951]:
+    - generic [ref=f25e2]:
+      - link "Trustpilot-Bewertungen. Bewertet mit Hervorragend. 4.6 von 5. Basierend auf 808 Bewertungen auf Trustpilot. Klicken Sie, um das Trustpilot-Profil anzuzeigen." [ref=f25e4] [cursor=pointer]:
+        - /url: https://de.trustpilot.com/review/www.pro-discount-werbeartikel.de?utm_medium=trustbox&utm_source=Carousel
+        - generic [ref=f25e5]: Hervorragend
+        - img "4.6 von 5 Sternen auf Trustpilot" [ref=f25e10]
+        - generic [ref=f25e30]:
+          - text: Basierend auf
+          - strong [ref=f25e31]: 808 Bewertungen
+        - img "Trustpilot" [ref=f25e35]
+      - generic [ref=f25e39]:
+        - generic:
+          - button "Karussell nach links scrollen" [disabled]
+        - button "Karussell nach rechts scrollen" [ref=f25e41] [cursor=pointer]
+        - list "Einige unserer 4- & 5-Sterne-Bewertungen" [ref=f25e48]:
+          - listitem [ref=f25e49]:
+            - generic [ref=f25e50]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e55]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e77] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e84]: Auf Einladung
+            - link "Bewertung von Anja Gerhold, vor 3 Tagen Sehr freundlich und hilfsbereit. Sehr freundlich und hilfsbereit. Top-Produkt Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e85] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ad9e211ad8f48b0914c90ae?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e86]:
+                - generic [ref=f25e87]:
+                  - generic [ref=f25e88]: Bewertung von
+                  - generic [ref=f25e89]: Anja Gerhold,
+                  - generic [ref=f25e90]: vor 3 Tagen
+                - generic [ref=f25e91]: Sehr freundlich und hilfsbereit.
+                - generic [ref=f25e92]: Sehr freundlich und hilfsbereit. Top-Produkt
+                - generic [ref=f25e93]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e94]:
+            - generic [ref=f25e95]:
+              - img "4 von 5 Sternen auf Trustpilot" [ref=f25e100]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e122] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e129]: Auf Einladung
+            - link "Bewertung von Monika Breuning, 15 Oktober Bestellen Bestellen, kaufen aber leider sofort bezahlen Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e130] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ad0dbbb2b4a4d1bb7eacd49?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e131]:
+                - generic [ref=f25e132]:
+                  - generic [ref=f25e133]: Bewertung von
+                  - generic [ref=f25e134]: Monika Breuning,
+                  - generic [ref=f25e135]: 15 Oktober
+                - generic [ref=f25e136]: Bestellen
+                - generic [ref=f25e137]: Bestellen, kaufen aber leider sofort bezahlen
+                - generic [ref=f25e138]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e139]:
+            - generic [ref=f25e140]:
+              - img "4 von 5 Sternen auf Trustpilot" [ref=f25e145]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e167] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e174]: Auf Einladung
+            - link "Bewertung von Doris Halba, 14 Oktober Das Produkt ist einfach aber effektiv. Das Produkt ist einfach aber effektiv. Lieferung hat etwa lange gedauert. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e175] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acf3d621ca3a6a5ad923b20?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e176]:
+                - generic [ref=f25e177]:
+                  - generic [ref=f25e178]: Bewertung von
+                  - generic [ref=f25e179]: Doris Halba,
+                  - generic [ref=f25e180]: 14 Oktober
+                - generic [ref=f25e181]: Das Produkt ist einfach aber effektiv.
+                - generic [ref=f25e182]: Das Produkt ist einfach aber effektiv. Lieferung hat etwa lange gedauert.
+                - generic [ref=f25e183]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e184]:
+            - generic [ref=f25e185]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e190]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e212] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e219]: Auf Einladung
+            - link "Bewertung von Petra Morawietz, 13 Oktober Die Aufträge werden zügig und präzise… Die Aufträge werden zügig und präzise abgewickelt, während die Ware stets durch... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e220] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acde29b5bf74b15346402ba?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e221]:
+                - generic [ref=f25e222]:
+                  - generic [ref=f25e223]: Bewertung von
+                  - generic [ref=f25e224]: Petra Morawietz,
+                  - generic [ref=f25e225]: 13 Oktober
+                - generic [ref=f25e226]: Die Aufträge werden zügig und präzise…
+                - generic [ref=f25e227]: Die Aufträge werden zügig und präzise abgewickelt, während die Ware stets durch...
+                - generic [ref=f25e228]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e229]:
+            - generic [ref=f25e230]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e235]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e257] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e264]: Auf Einladung
+            - link "Bewertung von horefe by Sonja Kloos, 13 Oktober Anti-Stresswürfel ohne Stress bestellt Wir arbeiten seit zwei Jahren bei unserer Messevorbereitung mit Pro-Discount. To... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e265] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6acddddf3052c545a7b41176?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e266]:
+                - generic [ref=f25e267]:
+                  - generic [ref=f25e268]: Bewertung von
+                  - generic [ref=f25e269]: horefe by Sonja Kloos,
+                  - generic [ref=f25e270]: 13 Oktober
+                - generic [ref=f25e271]: Anti-Stresswürfel ohne Stress bestellt
+                - generic [ref=f25e272]: Wir arbeiten seit zwei Jahren bei unserer Messevorbereitung mit Pro-Discount. To...
+                - generic [ref=f25e273]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e274]:
+            - generic [ref=f25e275]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e280]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e302] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e309]: Auf Einladung
+            - link "Bewertung von Claas Pantaenius, 29 September Schnelle Produktion und Lieferung trotz… Schnelle Produktion und Lieferung trotz sehr engem Timing. Termin vorab zugesagt... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e310] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6abbde0163e2e368ddc091bd?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e311]:
+                - generic [ref=f25e312]:
+                  - generic [ref=f25e313]: Bewertung von
+                  - generic [ref=f25e314]: Claas Pantaenius,
+                  - generic [ref=f25e315]: 29 September
+                - generic [ref=f25e316]: Schnelle Produktion und Lieferung trotz…
+                - generic [ref=f25e317]: Schnelle Produktion und Lieferung trotz sehr engem Timing. Termin vorab zugesagt...
+                - generic [ref=f25e318]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e319]:
+            - generic [ref=f25e320]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e325]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e347] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e354]: Auf Einladung
+            - link "Bewertung von Elisabete da Silva, 22 September Sehr guter und professioneller Service Sehr guter und professioneller Service! Besonders bedanken möchten wir uns bei H... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e355] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ab246398de20cb24b7f649b?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e356]:
+                - generic [ref=f25e357]:
+                  - generic [ref=f25e358]: Bewertung von
+                  - generic [ref=f25e359]: Elisabete da Silva,
+                  - generic [ref=f25e360]: 22 September
+                - generic [ref=f25e361]: Sehr guter und professioneller Service
+                - generic [ref=f25e362]: Sehr guter und professioneller Service! Besonders bedanken möchten wir uns bei H...
+                - generic [ref=f25e363]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e364]:
+            - generic [ref=f25e365]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e370]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e392] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e399]: Auf Einladung
+            - link "Bewertung von Stiftung Standortsicherung, 22 September Gerne wieder Zuverlässig, schnell, jederzeit auf dem Laufenden über den Status der Bestellung... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e400] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6ab2383478fb38616db99637?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e401]:
+                - generic [ref=f25e402]:
+                  - generic [ref=f25e403]: Bewertung von
+                  - generic [ref=f25e404]: Stiftung Standortsicherung,
+                  - generic [ref=f25e405]: 22 September
+                - generic [ref=f25e406]: Gerne wieder
+                - generic [ref=f25e407]: Zuverlässig, schnell, jederzeit auf dem Laufenden über den Status der Bestellung...
+                - generic [ref=f25e408]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e409]:
+            - generic [ref=f25e410]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e415]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e437] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e444]: Auf Einladung
+            - link "Bewertung von TKV Stuttgart, 20 September Empfehlenswert Es lief soweit reibungslos und sehr zügig. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e445] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aaf972693785b038af74ca5?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e446]:
+                - generic [ref=f25e447]:
+                  - generic [ref=f25e448]: Bewertung von
+                  - generic [ref=f25e449]: TKV Stuttgart,
+                  - generic [ref=f25e450]: 20 September
+                - generic [ref=f25e451]: Empfehlenswert
+                - generic [ref=f25e452]: Es lief soweit reibungslos und sehr zügig.
+                - generic [ref=f25e453]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e454]:
+            - generic [ref=f25e455]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e460]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e482] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e489]: Auf Einladung
+            - link "Bewertung von Florian, 18 September Alles gut gelaufen Alles gut gelaufen! Freundliches Team. Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e490] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aad3687d6c1fe092bf63a2b?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e491]:
+                - generic [ref=f25e492]:
+                  - generic [ref=f25e493]: Bewertung von
+                  - generic [ref=f25e494]: Florian,
+                  - generic [ref=f25e495]: 18 September
+                - generic [ref=f25e496]: Alles gut gelaufen
+                - generic [ref=f25e497]: Alles gut gelaufen! Freundliches Team.
+                - generic [ref=f25e498]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e499]:
+            - img "5 von 5 Sternen auf Trustpilot" [ref=f25e505]
+            - link "Bewertung von Sghairi Maria, 15 September Ich war sehr zufrieden top Qualität … Ich war sehr zufrieden top Qualität kann ich nur Weiterempfehlen Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e525] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa9574d6b476eecfb172e97?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e526]:
+                - generic [ref=f25e527]:
+                  - generic [ref=f25e528]: Bewertung von
+                  - generic [ref=f25e529]: Sghairi Maria,
+                  - generic [ref=f25e530]: 15 September
+                - generic [ref=f25e531]: Ich war sehr zufrieden top Qualität …
+                - generic [ref=f25e532]: Ich war sehr zufrieden top Qualität kann ich nur Weiterempfehlen
+                - generic [ref=f25e533]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e534]:
+            - generic [ref=f25e535]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e540]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e562] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e569]: Auf Einladung
+            - link "Bewertung von Hambsch Petra, 11 September Tolle Produkte Tolle Produkte - von Bestellung bis Auslieferung und Empfang der Ware alles Top... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e570] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa3df4799296009542635bb?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e571]:
+                - generic [ref=f25e572]:
+                  - generic [ref=f25e573]: Bewertung von
+                  - generic [ref=f25e574]: Hambsch Petra,
+                  - generic [ref=f25e575]: 11 September
+                - generic [ref=f25e576]: Tolle Produkte
+                - generic [ref=f25e577]: Tolle Produkte - von Bestellung bis Auslieferung und Empfang der Ware alles Top...
+                - generic [ref=f25e578]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e579]:
+            - generic [ref=f25e580]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e585]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e607] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e614]: Auf Einladung
+            - link "Bewertung von Hartmut Petersen, 10 September Top Qualität und Betreuung im Prozess der Bestellung Sehr netter Kontakt, hilfreich und zuvorkommend. Gute Information und Erreichbar... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e615] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6aa287883b031d972db63e2a?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e616]:
+                - generic [ref=f25e617]:
+                  - generic [ref=f25e618]: Bewertung von
+                  - generic [ref=f25e619]: Hartmut Petersen,
+                  - generic [ref=f25e620]: 10 September
+                - generic [ref=f25e621]: Top Qualität und Betreuung im Prozess der Bestellung
+                - generic [ref=f25e622]: Sehr netter Kontakt, hilfreich und zuvorkommend. Gute Information und Erreichbar...
+                - generic [ref=f25e623]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e624]:
+            - img "5 von 5 Sternen auf Trustpilot" [ref=f25e630]
+            - link "Bewertung von Hambsch Petra, 28 August TOP - hier bestelle ich gerne vielen Dank für die ultraschnelle Bearbeitung – so macht die Arbeit Spaß! 😊 Ult... Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e650] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6a914e4ff5c8a5f53a8e72b8?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e651]:
+                - generic [ref=f25e652]:
+                  - generic [ref=f25e653]: Bewertung von
+                  - generic [ref=f25e654]: Hambsch Petra,
+                  - generic [ref=f25e655]: 28 August
+                - generic [ref=f25e656]: TOP - hier bestelle ich gerne
+                - generic [ref=f25e657]: vielen Dank für die ultraschnelle Bearbeitung – so macht die Arbeit Spaß! 😊 Ult...
+                - generic [ref=f25e658]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+          - listitem [ref=f25e659]:
+            - generic [ref=f25e660]:
+              - img "5 von 5 Sternen auf Trustpilot" [ref=f25e665]
+              - link "Bewertung auf Einladung. Klicken Sie hier, um mehr über Bewertungsarten zu erfahren." [ref=f25e687] [cursor=pointer]:
+                - /url: https://help.trustpilot.com/s/article/How-do-reviews-get-on-Trustpilot?language=de
+                - generic [aria-hidden] [ref=f25e694]: Auf Einladung
+            - link "Bewertung von Martina Ter Smitten, 17 August zuverlässig und pünktliche Lieferung… zuverlässig und pünktliche Lieferung des Musterartikels Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen" [ref=f25e695] [cursor=pointer]:
+              - /url: https://de.trustpilot.com/reviews/6a82afa446c5706e76176aaa?utm_medium=trustbox&utm_source=Carousel
+              - generic [ref=f25e696]:
+                - generic [ref=f25e697]:
+                  - generic [ref=f25e698]: Bewertung von
+                  - generic [ref=f25e699]: Martina Ter Smitten,
+                  - generic [ref=f25e700]: 17 August
+                - generic [ref=f25e701]: zuverlässig und pünktliche Lieferung…
+                - generic [ref=f25e702]: zuverlässig und pünktliche Lieferung des Musterartikels
+                - generic [ref=f25e703]: Klicken Sie, um die ganze Bewertung auf Trustpilot anzuzeigen
+        - generic [aria-hidden] [ref=f25e704]: Einige unserer 4- & 5-Sterne-Bewertungen
+  - contentinfo [ref=f20e952]:
+    - generic [ref=f20e953]:
+      - generic [ref=f20e954]:
+        - generic [ref=f20e955]:
+          - generic [ref=f20e956]: Beratung
+          - paragraph [ref=f20e958]:
+            - text: "Online:"
+            - link "Kontaktformular" [ref=f20e959] [cursor=pointer]:
+              - /url: /Kontakt-und-Beratung
+            - text: "E-Mail:"
+            - link "kontakt@pro-discount.de" [ref=f20e960] [cursor=pointer]:
+              - /url: mailto:kontakt@pro-discount.de
+            - text: "Telefon:"
+            - link "0049 5121 69707 0" [ref=f20e961] [cursor=pointer]:
+              - /url: tel:00495121697070
+            - strong [ref=f20e962]: "Unser Team ist erreichbar:"
+            - text: "Mo - Do: 9:00 - 17:45 Uhr Fr: 9:00 - 15:45 Uhr"
+        - generic [ref=f20e963]:
+          - generic [ref=f20e964]: Unternehmen
+          - navigation [ref=f20e965]:
+            - menu [ref=f20e966]:
+              - menuitem [ref=f20e967]:
+                - link "Über Pro-Discount®" [ref=f20e968] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/UEber-Pro-Discount
+              - menuitem [ref=f20e969]:
+                - link "Presse" [ref=f20e970] [cursor=pointer]:
+                  - /url: https://www.openpr.de/pressemitteilungen/pro-discount-import-export-werbeartikel-0228571/
+              - menuitem [ref=f20e971]:
+                - link "Referenzen" [ref=f20e972] [cursor=pointer]:
+                  - /url: https://www.werbemittel-werbeartikel.com/galerie?q=Referenz01
+              - menuitem [ref=f20e973]:
+                - link "Impressum" [ref=f20e974] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Impressum
+              - menuitem [ref=f20e975]:
+                - link "Jobs" [ref=f20e976] [cursor=pointer]:
+                  - /url: /Jobs
+              - menuitem [ref=f20e977]:
+                - link "AGB" [ref=f20e978] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/AGB
+              - menuitem [ref=f20e979]:
+                - link "Datenschutz" [ref=f20e980] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Datenschutz
+              - menuitem [ref=f20e981]:
+                - link "Widerruf" [ref=f20e982] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Widerruf
+              - menuitem [ref=f20e983]:
+                - link "Widerrufs-Formular" [ref=f20e984] [cursor=pointer]:
+                  - /url: /Widerrufsformular
+              - menuitem [ref=f20e985]:
+                - link "Bio-Bescheinigung" [ref=f20e986] [cursor=pointer]:
+                  - /url: https://www.pro-discount-werbeartikel.de/Bio-Bescheinigung.pdf
+        - generic [ref=f20e987]:
+          - generic [ref=f20e988]:
+            - generic [ref=f20e989]: Service
+            - navigation [ref=f20e990]:
+              - menu [ref=f20e991]:
+                - menuitem [ref=f20e992]:
+                  - link "FAQ" [ref=f20e993] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/faq
+                - menuitem [ref=f20e994]:
+                  - link "Werbeanbringung" [ref=f20e995] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Werbeanbringung
+                - menuitem [ref=f20e996]:
+                  - link "Datenanlieferung" [ref=f20e997] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Datenanlieferung
+                - menuitem [ref=f20e998]:
+                  - link "Grafik-Service" [ref=f20e999] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Grafik-Service
+                - menuitem [ref=f20e1000]:
+                  - link "Vertrag widerrufen" [ref=f20e1001] [cursor=pointer]:
+                    - /url: https://www.pro-discount-werbeartikel.de/Widerrufsformular
+          - generic [ref=f20e1002]:
+            - generic [ref=f20e1003]: Social
+            - navigation [ref=f20e1004]:
+              - menu [ref=f20e1005]:
+                - menuitem [ref=f20e1006]:
+                  - link "Instagram" [ref=f20e1007] [cursor=pointer]:
+                    - /url: https://www.instagram.com/prodiscountwerbeartikel/
+                - menuitem [ref=f20e1010]:
+                  - link "Facebook" [ref=f20e1011] [cursor=pointer]:
+                    - /url: https://www.facebook.com/ProDiscounter/
+        - generic [ref=f20e1014]:
+          - generic [ref=f20e1015]: Top-Kategorien
+          - navigation [ref=f20e1016]:
+            - menu [ref=f20e1017]:
+              - menuitem [ref=f20e1018]:
+                - link "Kaffeebecher & Tassen" [ref=f20e1019] [cursor=pointer]:
+                  - /url: /Kaffeebecher-Tassen
+              - menuitem [ref=f20e1020]:
+                - link "Trinkflaschen" [ref=f20e1021] [cursor=pointer]:
+                  - /url: /Trinkflaschen
+              - menuitem [ref=f20e1022]:
+                - link "Schirme" [ref=f20e1023] [cursor=pointer]:
+                  - /url: /Schirme
+              - menuitem [ref=f20e1024]:
+                - link "Feuerzeuge" [ref=f20e1025] [cursor=pointer]:
+                  - /url: /Feuerzeuge
+              - menuitem [ref=f20e1026]:
+                - link "Baumwolltaschen" [ref=f20e1027] [cursor=pointer]:
+                  - /url: /Baumwolltaschen
+              - menuitem [ref=f20e1028]:
+                - link "Kugelschreiber" [ref=f20e1029] [cursor=pointer]:
+                  - /url: /Kugelschreiber
+              - menuitem [ref=f20e1030]:
+                - link "Kühltaschen" [ref=f20e1031] [cursor=pointer]:
+                  - /url: /Kuehltaschen
+              - menuitem [ref=f20e1032]:
+                - link "Rucksäcke" [ref=f20e1033] [cursor=pointer]:
+                  - /url: /Rucksaecke
+              - menuitem [ref=f20e1034]:
+                - link "Powerbanks" [ref=f20e1035] [cursor=pointer]:
+                  - /url: /Powerbanks
+      - generic [ref=f20e1036]:
+        - img "26 Jahre Werbeartikel-Experte" [ref=f20e1038]
+        - generic [ref=f20e1039]:
+          - paragraph [ref=f20e1041]: Alle Preise verstehen sich zzgl. Mehrwertsteuer und Versandkosten, wenn nicht anders beschrieben.Wir liefern Werbeartikel, Werbemittel, Werbegeschenke Streuartikel und Giveaways mit Ihrem Logo.
+          - paragraph [ref=f20e1042]: © 2026 Pro-Discount Werbeartikel
+  - iframe [aria-hidden] [ref=f20e1043]
+  - button "Accessibility Tool ausklappen" [ref=f20e1044] [cursor=pointer]

@@ -1,0 +1,51 @@
+- generic [active] [ref=f29e1]:
+  - region [ref=f29e2]:
+    - generic [ref=f29e3]:
+      - generic [ref=f29e5]:
+        - img "logo" [ref=f29e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f29e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f29e36]:
+        - tab "Consent" [selected] [ref=f29e37] [cursor=pointer]
+        - tab "Details" [ref=f29e38] [cursor=pointer]
+        - tab "About" [ref=f29e39] [cursor=pointer]
+      - tabpanel "Consent" [ref=f29e41]:
+        - generic [ref=f29e43]:
+          - heading "This website uses cookies" [level=2] [ref=f29e44]
+          - generic [ref=f29e45]:
+            - paragraph [ref=f29e46]: When you visit our website(s) or use our application(s), we may store or retrieve information on your device, mainly through cookies. This information might be about you, your preferences or your device and is mainly used to make our website(s) or application(s) work as expected. The information does not usually identify you directly, but it can give you a more personalized web experience. Because we respect your right to privacy, you have the option not to allow some types of cookies. Check out the different cookie categories Cegeka has identified to find out more and to change your settings. If you disable certain cookies, you should be aware that certain website or application elements may be impacted and interfere with your experience of the website and the services we are able to offer.
+            - paragraph [ref=f29e47]:
+              - text: For more detailed information, please visit
+              - link "here" [ref=f29e48] [cursor=pointer]:
+                - /url: https://www.cegeka.com/en/cookie-statement
+              - text: our cookie statement.
+        - group "Consent Selection" [ref=f29e55]:
+          - generic [ref=f29e57]:
+            - generic [ref=f29e58]:
+              - strong [ref=f29e60]: Necessary
+              - generic [ref=f29e61]:
+                - checkbox "Necessary" [checked] [disabled]
+            - generic [ref=f29e62]:
+              - strong [ref=f29e64] [cursor=pointer]: Functional
+              - switch "Functional" [ref=f29e66] [cursor=pointer]
+            - generic [ref=f29e67]:
+              - strong [ref=f29e69] [cursor=pointer]: Analytics
+              - switch "Analytics" [ref=f29e71] [cursor=pointer]
+            - generic [ref=f29e72]:
+              - strong [ref=f29e74] [cursor=pointer]: Advertisement
+              - switch "Advertisement" [ref=f29e76] [cursor=pointer]
+      - generic [ref=f29e80]:
+        - button "Deny all" [ref=f29e81] [cursor=pointer]
+        - button "Allow selection" [ref=f29e82] [cursor=pointer]
+        - button "Allow all" [ref=f29e83] [cursor=pointer]
+  - banner
+  - main [ref=f29e85]:
+    - generic [ref=f29e88]:
+      - generic [ref=f29e89]:
+        - heading "404" [level=4] [ref=f29e90]
+        - heading "Sorry! This is not what we had in mind inviting you here." [level=1] [ref=f29e91]
+      - generic [ref=f29e92]:
+        - paragraph [ref=f29e94]: Why not head over to the homepage?
+        - link "Go to homepage" [ref=f29e95] [cursor=pointer]:
+          - /url: /
+  - iframe [aria-hidden] [ref=f29e96]

@@ -1,0 +1,81 @@
+- generic [active] [ref=f9e1]:
+  - heading "Team Lead eCommerce Platforms & Configurators (m/w/d)" [level=1] [ref=f9e2]
+  - generic [ref=f9e3]:
+    - banner [ref=f9e4]:
+      - generic [ref=f9e6]:
+        - text: By continuing to use and navigate this website, you are agreeing to the use of cookies.
+        - button "Accept Use Of Cookies" [ref=f9e7] [cursor=pointer]: Accept
+        - button "Close Cookies Notice" [ref=f9e8] [cursor=pointer]: Close
+      - generic:
+        - link "Skip to main content":
+          - /url: "#content"
+      - text: 
+      - navigation "Header" [ref=f9e9]:
+        - generic [ref=f9e11]:
+          - link [ref=f9e14] [cursor=pointer]:
+            - /url: /home
+            - img "dormakaba Careers" [ref=f9e15]
+          - list [ref=f9e21]:
+            - listitem [ref=f9e22]:
+              - link "Job Search" [ref=f9e23] [cursor=pointer]:
+                - /url: https://jobs.dormakaba.com/search/
+          - list [ref=f9e26]:
+            - listitem [ref=f9e27]:
+              - button "Language" [ref=f9e28] [cursor=pointer]
+            - listitem [ref=f9e30]:
+              - link "View Profile" [ref=f9e32] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=f9e33]:
+              - link "Employee Login" [ref=f9e35] [cursor=pointer]:
+                - /url: javascript:;
+    - main [ref=f9e38]:
+      - generic [ref=f9e43]:
+        - region "Job Description"
+    - contentinfo [ref=f9e45]:
+      - list [ref=f9e49]:
+        - listitem [ref=f9e50]:
+          - link "Contact" [ref=f9e51] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/contact
+        - listitem [ref=f9e52]:
+          - link "Disclaimer" [ref=f9e53] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/disclaimer
+        - listitem [ref=f9e54]:
+          - link "Privacy Policy" [ref=f9e55] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/privacy-policy
+        - listitem [ref=f9e56]:
+          - link "Imprint" [ref=f9e57] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/imprint
+        - listitem [ref=f9e58]:
+          - link "FAQ" [ref=f9e59] [cursor=pointer]:
+            - /url: /content/FAQ/?locale=en_US
+        - listitem [ref=f9e60]:
+          - button "Cookies" [ref=f9e61] [cursor=pointer]
+      - contentinfo [ref=f9e64]:
+        - navigation "Search" [ref=f9e65]:
+          - heading "Search" [level=2] [ref=f9e66]
+          - list [ref=f9e67]:
+            - listitem [ref=f9e68]:
+              - link "News" [ref=f9e69] [cursor=pointer]:
+                - /url: www.google.com
+            - listitem [ref=f9e70]:
+              - link "Blog" [ref=f9e71] [cursor=pointer]:
+                - /url: www.google.com
+            - listitem [ref=f9e72]:
+              - link "Events" [ref=f9e73] [cursor=pointer]:
+                - /url: www.google.com
+            - listitem [ref=f9e74]:
+              - link "Webinars" [ref=f9e75] [cursor=pointer]:
+                - /url: www.google.com
+        - navigation "Contact" [ref=f9e76]:
+          - heading "Contact" [level=2] [ref=f9e77]
+          - list [ref=f9e78]:
+            - listitem [ref=f9e79]:
+              - link "Contact" [ref=f9e80] [cursor=pointer]:
+                - /url: www.google.com
+            - listitem [ref=f9e81]:
+              - link "Support" [ref=f9e82] [cursor=pointer]:
+                - /url: www.google.com
+            - listitem [ref=f9e83]:
+              - link "Documentation" [ref=f9e84] [cursor=pointer]:
+                - /url: www.google.com
+      - paragraph [ref=f9e87]: © dormakaba Holding, 2019, all rights reserved

@@ -1,0 +1,320 @@
+- generic [active] [ref=f78e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f78e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f78e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f78e8]:
+    - search [ref=f78e9]:
+      - generic [ref=f78e11]:
+        - link "Go to Google Home" [ref=f78e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQPHoECAYQBA
+        - generic [ref=f78e22]:
+          - combobox "Search" [ref=f78e24]: FAHMODA Systembetreuer Programmierer Shopware myfactory Hannover FAHMODA Systembetreuer Programmierer Shopware myfactory Hannover
+          - generic [ref=f78e25]:
+            - button "Clear" [ref=f78e29] [cursor=pointer]
+            - generic [ref=f78e34]:
+              - button "Search by voice" [ref=f78e37] [cursor=pointer]
+              - button "Search by image" [ref=f78e42] [cursor=pointer]
+    - generic [ref=f78e45]:
+      - button "Settings" [ref=f78e47] [cursor=pointer]
+      - button "Share" [ref=f78e52] [cursor=pointer]
+      - generic [ref=f78e58]:
+        - button "Google apps" [ref=f78e60] [cursor=pointer]
+        - link "Sign in" [ref=f78e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DFAHMODA%2BSystembetreuer%2BProgrammierer%2BShopware%2Bmyfactory%2BHannover&ec=futura_srp_og_si_72236_p
+  - generic [ref=f78e67]:
+    - navigation [ref=f78e73]:
+      - generic [ref=f78e79]:
+        - list [ref=f78e80]:
+          - listitem [ref=f78e81]:
+            - link "AI Mode" [ref=f78e84] [cursor=pointer]:
+              - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ2J8OegQIERAD
+          - listitem [ref=f78e88]:
+            - link "All" [disabled] [ref=f78e89]
+          - listitem [ref=f78e92]:
+            - link "Jobs" [ref=f78e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&udm=jobs&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQs6gLegQIFRAB
+          - listitem [ref=f78e96]:
+            - link "News" [ref=f78e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ0pQJegQIFBAB
+          - listitem [ref=f78e100]:
+            - link "Shopping" [ref=f78e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&ved=1t:220175&ictx=111
+          - listitem [ref=f78e104]:
+            - link "Short videos" [ref=f78e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQs6gLegQIExAB
+          - listitem [ref=f78e108]:
+            - link "Images" [ref=f78e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68vS6QXjHkKaB6_illSgtJKABPnSZVCPsSpetRrqYMrM43jQc6VcuUPlBlOiGbZ4j-jkZ_nSqnRzKxuBjGbcSq2OuTaBtJrxc9MSf1njRLlSn8m5yayeoB88hOPa3h27d_zxLbq5S8ZdL9XEyh7-fkOeLh_srQ&q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sa=X&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQtKgLegQIFhAB
+          - listitem [ref=f78e112]:
+            - button [ref=f78e113] [cursor=pointer]:
+              - generic "More filters" [ref=f78e114]: More
+        - button "Tools" [ref=f78e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f78e128]
+    - generic [ref=f78e133]:
+      - generic [ref=f78e152]:
+        - heading "Searching Thinking a little longer" [level=2] [ref=f78e156]:
+          - generic [ref=f78e157]:
+            - generic [ref=f78e158]: Searching
+            - generic [ref=f78e168]: Thinking a little longer
+        - progressbar "Generating" [ref=f78e171]
+      - main [ref=f78e222]:
+        - generic [ref=f78e226]:
+          - generic [ref=f78e229]:
+            - heading "Webergebnisse" [level=2] [ref=f78e230]
+            - generic [ref=f78e231]:
+              - generic [ref=f78e234]:
+                - link "Shopware-6 und myfactory (m/w/d) www.stepstone.de https://www.stepstone.de › stellenan..." [ref=f78e236] [cursor=pointer]:
+                  - /url: /goto?url=CAES9AEB6zswFTPFk3I-qqHseGKKZ410EAc_xbbxFYCBnOZGJAhZVCxz-bMPSoa0jTDfH529bYxFfYjA20HmlVwhEadhQRWswu_pzCH6gHmgkW4yll6eIgL_ZNjeMhYox8_demWDbpIq1ZotNExmEAIelaGeZ5qqkBDFKEjwF3rDORimO5Oqz3jM1xpeoi0uLQLCsQa1EeWCyCe-ZwxWhVanxEjrTesEcV9ztMagK-mJkWg0Mgeq26DbI0VIjGxomMkSgRTmJpNp39rg9YTIbNmxOi8n9y8F_-MVUR2mIXBpThMAKk6zfskxo3DWEXNt6my9esfcClLq
+                  - heading "Shopware-6 und myfactory (m/w/d)" [level=3] [ref=f78e237]
+                  - generic [ref=f78e243]:
+                    - generic [ref=f78e244]: www.stepstone.de
+                    - generic [ref=f78e246]: https://www.stepstone.de › stellenan...
+                - generic [ref=f78e248]:
+                  - generic [ref=f78e249]: ·
+                  - link "Translate this page" [ref=f78e250] [cursor=pointer]:
+                    - /url: /goto?url=CAESvQIB6zswFRULRs_RtHSXYIeFp_29GW7LaMlcoOoeTvKCaw25FU4E5zsDZjtSZnlmdd0zUr9njntHSRvkt5sOUIm6qF1zIdK6yyfpCEdCeSlkHoOwU94uf5Trzpx0i_AFGG-muqAvjUvlMHRYMoEZs0Hvv9guQ3EkyQ4sEMMwqPyXfIufraAEji8_255Hy7FTgWKZyBAIq7z2dRZCxqJsn_JlsTeCIZfibJfYrFirzNYhOa3ybRKzwiSoTvpeIwzGvtF76ybWdx8ZiMRyRG0JnHXcup_6idkZYmZAfFEvqFVeUxRiYeDjXwkfVrnvO2BNtw9dMrwdzH3iZV5J8C7aVwaKNBvOdbxZ0conwX_zJ9DvUlaP0z4PF0XzH51KGVUB3UFzrQPQJHmf5WDx4GLIvMz75mZlTBiN847pDC9Bsw
+                - button "About this result" [ref=f78e255] [cursor=pointer]
+              - generic [ref=f78e261]:
+                - generic [ref=f78e262]:
+                  - text: "Aufgaben: Aufbau eines webshops oder Betreuung eine"
+                  - emphasis [ref=f78e263]: s bestehenden web-shops
+                  - text: (Basis shopware) zur Vermarktung von im Unternehmen in Hannover bedruckten Stoffen ...
+                - link "Read more" [ref=f78e264] [cursor=pointer]:
+                  - /url: /goto?url=CAESwQIB6zswFaTSH9UJ-bTY2PkS59VCwg6twWHuH3HQAUL0n1bdMBmThCJJ29aDGFA6uCji0yxwYF9zIPX3MSHFrTOhHCsiuNRCmq7yHTL42BTx1uxhGu-vOtJOxTZZD9ZQ2sa0bSXQqW1Ukr9JUec5E53fKWXOCAUOyHpRHZKcC7_1moeEWFuS8_7ajGI3rSVAJqVINf0QCnh4VjIRZJsDSvyKYXROLp-hrG14PxzvUJH59IOgLsj0KC_cTdvcoNO526zAeS6MLUXOS2VXLh9Ra_X41RD8Qh1qaob1fLxPRh8MJAhQmpuaYbD8EuV6GMXHXge8YmUe9Qxdkd1kvLYVlP2sgCyZUDHi1Me5a6n0Zj0NyGMXEaXAc9CjuagDmX1SJaZSVOBxA3wSPRW1ttyELN8OJTD4A1DcBBhGZz6YE02g9sc
+          - generic [ref=f78e268]:
+            - generic [ref=f78e271]:
+              - link "Shopware-6 und myfactory (m/w/d) in Hannover XING https://www.xing.com › jobs › ha..." [ref=f78e273] [cursor=pointer]:
+                - /url: /goto?url=CAESmQEB6zswFW0jOIEGkAnSgvKFMeDAulYRwaM__r-W66CYAA0Hd-yCe-jhrTuTMMxfEwyMGVXBqA4CYwc8XBSTYMbuFfbkLsjK5AIGU3wJIlaweEO0iAXlQvqvyQGnILT15dFX2A3tJ6v49eNDc3gDYTKFX3DpSZ7MmyfyV1F3hu0ksU5UvUiCzM7MBeko-7lVfjBBxaKaTvkEW0o
+                - heading "Shopware-6 und myfactory (m/w/d) in Hannover" [level=3] [ref=f78e274]
+                - generic [ref=f78e280]:
+                  - generic [ref=f78e281]: XING
+                  - generic [ref=f78e283]: https://www.xing.com › jobs › ha...
+              - generic [ref=f78e285]:
+                - generic [ref=f78e286]: ·
+                - link "Translate this page" [ref=f78e287] [cursor=pointer]:
+                  - /url: /goto?url=CAES4wEB6zswFXPtdxWvNfVsBpIgia8R3j5o3sIjuGc8P_jJZ8KTliPpfLSRW2NxLhvVfYS34tBxYDVEE2uSqDXIS2sSFIo9W5C9xC_xsudnSD4-2T650qNRFpYr7z46B3y94AzsTJPOL8OFh1rYjp68dA8ZIVCg9muF5ZNKDzPon1IRzqrSzEgppyfo-t2tjyn3uoTzNgviAwC84skxns9wvvNpQ457QcxDsKtlVMxIYnMIlT8IkvC00m67nu606UY_UsoO-XjhuLmnsoJcTwzcnMwxYOacQG0kLyG60OZORxEQoVF0qg
+              - button "About this result" [ref=f78e292] [cursor=pointer]
+            - generic [ref=f78e299]:
+              - text: Bewirb Dich als '
+              - emphasis [ref=f78e300]: Systembetreuer
+              - text: /
+              - emphasis [ref=f78e301]: Programmierer
+              - text: ":"
+              - emphasis [ref=f78e302]: Shopware
+              - text: "-6 und"
+              - emphasis [ref=f78e303]: myfactory
+              - text: (m/w/d)' bei
+              - emphasis [ref=f78e304]: FAHMODA
+              - text: GmbH Akademie für Mode & Design in
+              - emphasis [ref=f78e305]: Hannover
+              - text: .
+          - generic [ref=f78e309]:
+            - generic [ref=f78e312]:
+              - 'link "Systembetreuer/Programmierer: Shopware-und myfactory php-entwickler.de https://www.php-entwickler.de › job" [ref=f78e314] [cursor=pointer]':
+                - /url: /goto?url=CAESpgEB6zswFXvJijEQwY-IvL5XuuGvYFWNQAGKrl_W91fkXcGaytLdmLIfJiisYQ4r7INPPTzt8x7Wd3ooxZgVibmHhyMREQj1ubkLpkVduqn5SQqmNPio5vhmcTRuZe96JgDE_snFJCUqVKRDZFkxwlixr1YpofP7iDhdSGZIPBCwKBMZsHrrn6xNRsnxaRMBkWwxXLaAyQt26udAJ-JSRfgG9iHkBAMv
+                - 'heading "Systembetreuer/Programmierer: Shopware-und myfactory" [level=3] [ref=f78e315]'
+                - generic [ref=f78e321]:
+                  - generic [ref=f78e322]: php-entwickler.de
+                  - generic [ref=f78e324]: https://www.php-entwickler.de › job
+              - generic [ref=f78e326]:
+                - generic [ref=f78e327]: ·
+                - link "Translate this page" [ref=f78e328] [cursor=pointer]:
+                  - /url: /goto?url=CAES8AEB6zswFYvDn-EPEdazAtkCTLm3CxH2c1Hj7LT90B5SazWTyL_HLtNgxdloK4vDIEgeux4NUSQxxeE3Ussag1fy86oIP_5p78_x2Dc-ApY7njxbWPCyNgZrM4sUUMSkXvlkKGtBMfhhAnyqaLsRVxefACa1pP04UL2Pn0GThKoL-m4WyteqasQyKxZNT81kW9J8zjNv6FN8u6sPZrcbVnRMbRJCiuZupASmWZoGfnRQoZRNq-K14ZAKBkzAFHfwhYn1SbYLjPfBUQAy3F89eosBciM5AJmoWoRx9DjF1ynElrAlm22m7AeI9n7u9VL99Ng
+              - button "About this result" [ref=f78e333] [cursor=pointer]
+            - generic [ref=f78e339]:
+              - generic [ref=f78e340]: 15 Sept 2026 —
+              - generic [ref=f78e341]:
+                - text: Die
+                - emphasis [ref=f78e342]: FAHMODA
+                - text: GmbH Akademie für Mode & Design sucht für ihren Standort
+                - emphasis [ref=f78e343]: Hannover
+                - text: einen
+                - emphasis [ref=f78e344]: Systembetreuer
+                - text: und
+                - emphasis [ref=f78e345]: Programmierer
+                - text: auf Mid-Level-Basis.
+              - link "Read more" [ref=f78e346] [cursor=pointer]:
+                - /url: /goto?url=CAESnAIB6zswFdxOEyTbbXu7WyBh2NG31gsj0dKSt5zur9w0JYBGhr0qpy3ce6avAdBro2-W1AWTSNEzhH4Xu-J3_FLIyzQhosfDJKonuw5d01TCt-l7HWWNfsIxmsvS8Z3ThEaVTEbIbnjoKnKI1I7NVTeICUzNOaQLsnTdJr0Qla6gCc6cWrrDhlt12nafycPJ72MhQd_GhZC3TbKK1STp1jAhaVmIwHCUro4s3e8R-qAtPA4rOmruv7qt5k-QmWd1vF78zHP0ZtPePyw_dqiyRpuqvE1NNO6DV6r6LG2EyMu_4uwJEstuT89Jx0CeGR9MXepmovg87CRJGY4mHjQAzK8m10jTYI5A1q6XUmHI_XLySI3gpelJO4PknzzIdw
+          - generic [ref=f78e350]:
+            - generic [ref=f78e353]:
+              - link "Shopware-6 und myfactory (m/w/d) Jobs für Langenhagen https://www.jobs-für-langenhagen.de › ..." [ref=f78e355] [cursor=pointer]:
+                - /url: /goto?url=CAEStQEB6zswFZRj_arx2VS4Iksd7qaaRr0hGhYGnWqm0jRsnZk-GqAijlEjEey8xQXCYMm3RmQMhqK3smnH4heEUCWBmykF9At0sHfdErDXeDMlfMF4U6nRaYYDQZJVUq-De8u1WUzlrHAuEcjdFXopxSdP9ppv7wauB1JwRjKft_Ki5on9kpDd4EDzFc-YiPeAbSinUdAjQ5f5bUfkg8Pp65sJJJxQ_awE3rytpAqG_7ryNb_IYhQ9
+                - heading "Shopware-6 und myfactory (m/w/d)" [level=3] [ref=f78e356]
+                - generic [ref=f78e362]:
+                  - generic [ref=f78e363]: Jobs für Langenhagen
+                  - generic [ref=f78e365]: https://www.jobs-für-langenhagen.de › ...
+              - generic [ref=f78e367]:
+                - generic [ref=f78e368]: ·
+                - link "Translate this page" [ref=f78e369] [cursor=pointer]:
+                  - /url: /goto?url=CAES_wEB6zswFe3C_cuBQn2UIeocLWRrVGHhJFJ-hAyNonFrnXKOkBeGIA_STGeV_F3nrUJiMRcAx8e9uuDMfgpT52VCxMm7Z0I5EwoBaLm5G1upKOCkn1tTILZOlgTnhPhr39Pvpgq30OuAfteCqaa_C-vaB01YLem59lTtHfnWLsAJX_zFiLtG1VU__AawgMwhHHTPrGK7iS-dODrylIqPbyPkSX8IZ27pG1alsqZmbGzercvBDi-KsOT7l4ZDwyHsDxDRpcenbdNwyJLwgqzuLW46-JMgsuw-dgenWM5Af5j9pun8_tI0IsmDy_OjIWwwqUxQikV5bN-Xxr3Lb7dOG8Y
+              - button "About this result" [ref=f78e374] [cursor=pointer]
+            - generic [ref=f78e380]:
+              - generic [ref=f78e381]:
+                - emphasis [ref=f78e382]: "Systembetreuer/Programmierer: Shopware-6 und myfactory (m/w/d"
+                - text: ") ; Unternehmen: FAHMODA GmbH Akademie für Mode & Design ; Arbeitszeitmodell: Vollzeit ; Fürerschein: ..."
+              - link "Read more" [ref=f78e383] [cursor=pointer]:
+                - /url: /goto?url=CAESzQMB6zswFWMTdhDPdqcmuzA_oKdVMs7ri5iORMWflm9ysFRsu9BT73dCIGBlQ6oTBQW2EbRS23s1mVhsgsDgDwfgve7THt8Brv3uGZd4KYcdGlKXXXGdPv9I7imFluRElJyTsI5E6k30GkN-NY-ks8xMX_p031OHBoQatl4MNACvwHtOcsvBq1srgMxW77Y3mwVvlDan76rX-98_7vKkoyWExr2v-umESLJlBWzyBXM3brJYgBRrnk8dpuY0OCe1Wo-G3yQwq3pLltRPvkq0S-NBmM0-D0KgI4kdBjqJIN5w_7YKkgdYiL0F4YxLBdrUxpLv3o-RprSQD7tCTA0IgE4sbKufMWkIQ4OQub30GAg90QV6z69zeinDHiGDp78_dm9qu2__BUcEySz2h1N33iI9MlOz2z4nrTPd9HpKeFG2w9BHClnKmNdKAvwIPOWLnoUquV2hxORlZRypfKLak_mVJrPy5Ohh2cOozUMxeVzTv6XEYLRMgxrugLgafycE4SOeEj5HNVwNbS01AQkJB81bQSEd315iqcXOSKh880arcBhKTpYjMyjo_K2ThPijsqQYYO0PUZBkXYitPKvAN80dq6M9HcNd_uB48gbH7g
+          - generic [ref=f78e387]:
+            - generic [ref=f78e390]:
+              - 'link "System Administrator/Programmer: Sh... - Hannover IT-Jobs.de https://en.it-jobs.de › system-administrator-programmer-s..." [ref=f78e392] [cursor=pointer]':
+                - /url: /goto?url=CAESvQEB6zswFXRfYcjWXH3IYbylJ40o-C0pFE6lli9VA7x9Gx1q-SBrt9miT4aA1FkTMqZZN4RbGXdwWSdxD1EG4ZCW_UNd5bpM-qEvwaYMI_JQSoIPkCKO2TpiLbxJq476jyjZI-A6nOSHOfroFkQFNgWuCYzq0Dve150d9OV6UV3-q6LVzwKOOEvzdp19X6m9cSq4ug6GpU4MrPNEUxv6qCABosrEPGZ3c0PWroiNCVfmOU6tWTOWK9KqEJIPxrw
+                - 'heading "System Administrator/Programmer: Sh... - Hannover" [level=3] [ref=f78e393]'
+                - generic [ref=f78e399]:
+                  - generic [ref=f78e400]: IT-Jobs.de
+                  - generic [ref=f78e402]: https://en.it-jobs.de › system-administrator-programmer-s...
+              - button "About this result" [ref=f78e408] [cursor=pointer]
+            - generic [ref=f78e415]:
+              - text: FAHMODA GmbH Akademie für Mode & Design -
+              - emphasis [ref=f78e416]: "System Administrator/Programmer: Shopware 6 and myfactory"
+              - text: "(m/f/d) - est. salary: 40000€-95000€ - Skills ..."
+          - generic [ref=f78e420]:
+            - generic [ref=f78e423]:
+              - link "Shopware-6 und myfactory (m/w/d) bei FAHMODA GmbH ... php-entwickler.de https://www.php-entwickler.de › job" [ref=f78e425] [cursor=pointer]:
+                - /url: /goto?url=CAESqAEB6zswFaPgjetnwWu3Wsk0KgO_b9SToXSP-o4Lh5AQdVDBUv7KzQrEANpYxJIsLG_PtYZLvFlLqEoYPFsCj19ivP3T2c2W2VD_ep-L06BpFPfHn_HeOfs93CMwCelSzcUszyztzsbjshI_3lDmCbCS438Srw4bIKSw3sMtt0DMWs5z1ppFloKZ82o2TWIoo8LHPJ7irMzntNLtqBhezOGtoi48K_TPj6I
+                - heading "Shopware-6 und myfactory (m/w/d) bei FAHMODA GmbH ..." [level=3] [ref=f78e426]
+                - generic [ref=f78e432]:
+                  - generic [ref=f78e433]: php-entwickler.de
+                  - generic [ref=f78e435]: https://www.php-entwickler.de › job
+              - generic [ref=f78e437]:
+                - generic [ref=f78e438]: ·
+                - link "Translate this page" [ref=f78e439] [cursor=pointer]:
+                  - /url: /goto?url=CAES8gEB6zswFZdtGyEXuYrnDLPo0QgXeICjNqziO8_1RYUMdZNULOm498mizzTLy9DnpMyk4Xcmt43LwB480GPgAsw17PwiEWE0alRSzUVEkuAo0T4t-uS0ItHyKpr0erMwEsF151dqwcFNFgadzc8jw9Yhc8bPKgnqE9VsMn_6ZX9LKZ9YF0LaEOrIS_Sf6NqhOOsQamIl8m-vgw5wdcrOKDGZg6U3aUBrxwREyifgVZdJ3N-TmVvupVQAUBUGxNNOnyDCfx-TS-K1EdMpENFl13xc2dP_j762JlL2_mC-gDbWT71mnMUhVZLHD1GO4DdUUXSorw
+              - button "About this result" [ref=f78e444] [cursor=pointer]
+            - generic [ref=f78e450]:
+              - generic [ref=f78e451]: 18 Sept 2026 —
+              - generic [ref=f78e452]:
+                - text: Die Stelle ist an den
+                - emphasis [ref=f78e453]: Hannover
+                - text: "-Standort gebunden und erfordert regelmäßige Vor-Ort-Präsenz. Ein Homeoffice-Modell oder Remote-Arbeit wird nicht ..."
+              - link "Read more" [ref=f78e454] [cursor=pointer]:
+                - /url: /goto?url=CAESggIB6zswFRvALKmJCeG2y2u0ls-QG7BrVp0X7D8F15guaAYMSN7bTwXpNEJ6F2bcPijgrcXHwI0O-K1-OIlPLr91vNGiEeRPjonv9AOYeCFO2tmIM_vL7MkyO9fMgJ5fo7aqndvELYzr4y9nXoEbB8rqi8nsVabDNmlOWvxBVLmDhIjomlzrUSXPfkKxewOtDxexXtIHkoX4WyvwWcEDyHAKLBNAd8I-tXooWTiIc_CyG-EKS2gVhtqC4N8ZzI_Q0wezE_819SmhrzLW59maiJ_8R4-mS0GPPzj-n1HUnb7j7YuD-gs1QGdAavzoORq7xHtP4VLwa6CJHDih7yI7ofMHjN0
+          - generic [ref=f78e458]:
+            - generic [ref=f78e461]:
+              - 'link "Systembetreuer: 2 Jobs & Stellenangebote in Hannover jobs.heise.de https://jobs.heise.de › it-infrastruktur" [ref=f78e463] [cursor=pointer]':
+                - /url: /goto?url=CAESgQEB6zswFTN2Fqg1A7Nd3F3fJ2lKnL_P36zyM7jXQmbHN9TXC1EAOoF5Talrkr-gRxJXR52HHqtkkOb6QSErzU4ZUtnSV6CVYm_tmsNsIVN-_0wP6SxJAginLxr3C_eYJX7S7Jg745_b8soQvU0Ub0D0bxSdJFVgZIi2b_Fijni0ADo
+                - 'heading "Systembetreuer: 2 Jobs & Stellenangebote in Hannover" [level=3] [ref=f78e464]'
+                - generic [ref=f78e470]:
+                  - generic [ref=f78e471]: jobs.heise.de
+                  - generic [ref=f78e473]: https://jobs.heise.de › it-infrastruktur
+              - generic [ref=f78e475]:
+                - generic [ref=f78e476]: ·
+                - link "Translate this page" [ref=f78e477] [cursor=pointer]:
+                  - /url: /goto?url=CAESywEB6zswFTRabvbI4cjNSzFSg9s9G__XrP1cL4t0eG_NheUm30LePLf_XAnhXAi4ElLwcHO_QprWC4dyDKlOPmtZdUG2RjfsylrAWUJgW4z70PERV8E7YX1e8xBtibBpLvkJvu3cw8Z97bs0BjBAYpupp532o7NADY1sbDS2KnF-z9TWv6k4QoK-bNDf6fxzjUmZgGveimaYGzgjCg2a7JFPPw-93C9yihwJj8L8oII_z_fsqoTNKgeLfmP5Ew1nKYOsU_V9R7EFEdy1Pw
+              - button "About this result" [ref=f78e482] [cursor=pointer]
+            - generic [ref=f78e489]:
+              - emphasis [ref=f78e490]: Systembetreuer
+              - text: /
+              - emphasis [ref=f78e491]: Programmierer
+              - text: ":"
+              - emphasis [ref=f78e492]: Shopware
+              - text: "-6 und"
+              - emphasis [ref=f78e493]: myfactory
+              - text: (m/w/d).
+              - emphasis [ref=f78e494]: FAHMODA
+              - text: GmbH Akademie für Mode & Design. vor 22 Tagen. Vollzeit. 30519
+              - emphasis [ref=f78e495]: Hannover
+              - text: .
+          - generic [ref=f78e499]:
+            - generic [ref=f78e502]:
+              - link "44 Jobs für Social Media Content Moderator/in in Vollzeit ... Bundesagentur für Arbeit https://www.arbeitsagentur.de › su..." [ref=f78e504] [cursor=pointer]:
+                - /url: /goto?url=CAES1gEB6zswFavCSrgHF4GERzMli21rQT6zLfw0IhINxaiuxJdXmB_Tw4sUH3OOwMzp820_Rm_6KmUEt6AixHBfjwouXX0Z8lyKmGfiDF3VjLVKlKqZWJbliHX82um6k5VzE9BjPe-KPEQzS75PYR6nBDtV67tQFRODuNLHiLKLWaBVgRrlzDDzQl9qekPNuF4M3v0CcFhlMzGwxnXwpdhYDqgC7iLL1nKQf4yb-Oap6glu3stFFrKkvnAAPDdu0JLvnCbYYVNk3KNkAVu3ZTLMh4PeEecLCs31
+                - heading "44 Jobs für Social Media Content Moderator/in in Vollzeit ..." [level=3] [ref=f78e505]
+                - generic [ref=f78e511]:
+                  - generic [ref=f78e512]: Bundesagentur für Arbeit
+                  - generic [ref=f78e514]: https://www.arbeitsagentur.de › su...
+              - generic [ref=f78e516]:
+                - generic [ref=f78e517]: ·
+                - link "Translate this page" [ref=f78e518] [cursor=pointer]:
+                  - /url: /goto?url=CAEStwIB6zswFdvtM_iMHNyJ-rwhSaJ2AnrefKPd-zmYG5IJk0GmhhOtXTorZ6McnyeGfoMiB6PYfAK9-APVMGAdbn3vkKXrA_Tc1B-7ggn8wQmhbaeZbnl3FAPtDV3Fei8UlJmiCz7kYPDHaUZhQysQH6-nfWjSjbFUZ_SYrUHaHhpKvIi5GAk22oTjroxQczeqA_3bvBg7Nr4v8A_2I6hl9xsNxs4WHHZD8fwM5NWLj-Ktx2E1s7EId5C71cCGPCJPm0y6IdFk1BlDBZmSToX4Uj-__jawIzG22LuS1X0kRgy8rXfzDf6Yqg7Z2lZBVPlc0P_H-Z9PKr3xfOT722K2_fxmyZvHLCXg_VlBioOXcL2CM2uP1aAemMhMb87esraEODeanIPOgce9EyugHPETmvqzlaBOn9cdCg
+              - button "About this result" [ref=f78e523] [cursor=pointer]
+            - generic [ref=f78e530]:
+              - emphasis [ref=f78e531]: "Systembetreuer/Programmierer: Shopware-6 und myfactory (m/w/d"
+              - text: ") bei FAHMODA GmbH. FAHMODA GmbH Akademie für Mode & Design Arbeitsort: HannoverAnstellungsart:"
+          - generic [ref=f78e535]:
+            - generic [ref=f78e538]:
+              - link "Jobs für Shopware in Hannover Jobware, da hab' ich den Job her! https://www.jobware.de › jobs--fuer..." [ref=f78e540] [cursor=pointer]:
+                - /url: /goto?url=CAEScgHrOzAVE_El1cN_oDSwFrJxFeg8WMYzhR5VyAPzRmuw0sKZWyqV7aKzvEc5EpSAT_JxqNrpXhEc-5SlI0mMkQAeuC4l30CjnowjgS56o8xE4UmBk6CBQGkQV9Q2cFMIqDC1a-ek2iMROxe1bLJPctks7g
+                - heading "Jobs für Shopware in Hannover" [level=3] [ref=f78e541]
+                - generic [ref=f78e550]:
+                  - generic [ref=f78e551]: Jobware, da hab' ich den Job her!
+                  - generic [ref=f78e553]: https://www.jobware.de › jobs--fuer...
+              - generic [ref=f78e555]:
+                - generic [ref=f78e556]: ·
+                - link "Translate this page" [ref=f78e557] [cursor=pointer]:
+                  - /url: /goto?url=CAESvAEB6zswFZYndO6LUT3if7ZFn4SKEm2jV14N-KhFdrlORzbUy0HPnkw-tAvBa5ZqxgpPVav3mgI3Luqas4nqx8QBZ4B5PM0UCLPFg_NkESjwpfNZLhveFlUSP_IoCIiNLwp-8gGXWeUnIgPr3582xV2CyUeK9T5GnLhytrHGbZkHyy4-b5vK_dQsK8OLgxZO7tmrm7U1A1uV7_Jl30RWLhmbfr1ailcSoG1Mve6CqEWjyz5kjg8zI8qzQdAmuw
+              - button "About this result" [ref=f78e562] [cursor=pointer]
+            - generic [ref=f78e568]:
+              - generic [ref=f78e569]: 20 Aug 2026 —
+              - generic [ref=f78e570]:
+                - emphasis [ref=f78e571]: Systembetreuer
+                - text: /
+                - emphasis [ref=f78e572]: Programmierer
+                - text: ":"
+                - emphasis [ref=f78e573]: Shopware
+                - text: "-6 und"
+                - emphasis [ref=f78e574]: myfactory
+                - text: (m/w/d).
+                - emphasis [ref=f78e575]: FAHMODA
+                - text: GmbH Akademie für Mode & Design. Vollzeit. in
+                - emphasis [ref=f78e576]: Hannover
+                - text: (DE). 20.08.2026 ...
+              - link "Read more" [ref=f78e577] [cursor=pointer]:
+                - /url: /goto?url=CAES1wEB6zswFVhqu4h1S49m4lsIRauzj2bzyVZ5mr-n0SbqyVmIGiY4doBOAuPsu8mGrKsW4mSAnFHTDlLZTQRY_CDVfEHxwwHsYRExaTOv15LZUn-A6yU75EC55h5WrC4jXIOlCpzLxX_cKa1sv6vl3AllX6g_SEllBiiOrqcT2Mf4XA_2sQnnzLDUchA2y-mQk2SCUfyXDYSBnNCUzOvNiMGgEPePA4WgIIDbasyRmRXmEYk_FwzNtMLCPFdiHsAldlJk0LjCSwDlvwTynCghr2Aqtsis6t80Ag
+        - navigation [ref=f78e580]:
+          - heading "Page navigation" [level=1] [ref=f78e581]
+          - text: "1"
+          - link "Page 2" [ref=f78e584] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=10&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAE
+            - text: "2"
+          - link "Page 3" [ref=f78e586] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=20&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAG
+            - text: "3"
+          - link "Page 4" [ref=f78e588] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=30&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAI
+            - text: "4"
+          - link "Page 5" [ref=f78e590] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=40&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAK
+            - text: "5"
+          - link "Page 6" [ref=f78e592] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=50&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAM
+            - text: "6"
+          - link "Page 7" [ref=f78e594] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=60&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAO
+            - text: "7"
+          - link "Page 8" [ref=f78e596] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=70&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAQ
+            - text: "8"
+          - link "Page 9" [ref=f78e598] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=80&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAS
+            - text: "9"
+          - link "Page 10" [ref=f78e600] [cursor=pointer]:
+            - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=90&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8tMDegQIRBAU
+            - text: "10"
+          - heading [level=2] [ref=f78e602]:
+            - link "Next" [ref=f78e603] [cursor=pointer]:
+              - /url: /search?q=FAHMODA+Systembetreuer+Programmierer+Shopware+myfactory+Hannover&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnv2zbwRF_hCe8YGfkC8CCB0WimMnw:1792899096007&ei=GHjdavoDrqGG9w_R4vawBw&start=10&sa=N&sstk=AS6-VmLNt6MlvkfTvPQ3Yf_hVy8CMjrV-fME4wbbbmKmm936MBf-9OjKZ4zcMmz5TYAK8jhz9tda1OGkFttm-V2D5Ujmbd-wIVnhzg&ved=2ahUKEwj67_DNndSXAxWukOEIHVGxHXYQ8NMDegQIRBAW
+        - navigation
+    - contentinfo [ref=f78e606]:
+      - heading "Footer links" [level=1] [ref=f78e607]
+      - generic [ref=f78e611]:
+        - generic [ref=f78e613]:
+          - text: India
+          - generic [ref=f78e615]:
+            - button "Konappana Agrahara, Karnataka - Based on your past activity" [ref=f78e617] [cursor=pointer]:
+              - generic [ref=f78e618]: Konappana Agrahara, Karnataka
+              - generic [ref=f78e620]:
+                - text: "-"
+                - generic [ref=f78e621]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f78e623] [cursor=pointer]
+        - generic [ref=f78e626]:
+          - link "Help" [ref=f78e627] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f78e628] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f78e629] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f78e630] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

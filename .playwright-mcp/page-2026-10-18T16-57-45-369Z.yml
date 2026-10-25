@@ -1,0 +1,186 @@
+- generic [active] [ref=f15e1]:
+  - link "Skip to content" [ref=f15e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=f15e4]:
+    - banner [ref=f15e5]:
+      - generic [ref=f15e6]:
+        - generic [ref=f15e8]:
+          - generic [ref=f15e12]:
+            - link " Facebook" [ref=f15e13] [cursor=pointer]:
+              - /url: https://www.facebook.com/quisag1
+              - text: 
+              - generic [ref=f15e14]: Facebook
+            - link " Instagram" [ref=f15e15] [cursor=pointer]:
+              - /url: https://www.instagram.com/quis_ag/
+              - text: 
+              - generic [ref=f15e16]: Instagram
+            - link " YouTube" [ref=f15e17] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+              - text: 
+              - generic [ref=f15e18]: YouTube
+          - generic [ref=f15e19]:
+            - navigation "Secondary Menu" [ref=f15e20]:
+              - list [ref=f15e21]:
+                - listitem [ref=f15e22]:
+                  - link "Über uns" [ref=f15e23] [cursor=pointer]:
+                    - /url: https://quis.ag/ueber-uns/
+                    - generic [aria-hidden] [ref=f15e25]: 
+                - listitem [ref=f15e27]:
+                  - link "Karriere" [ref=f15e28] [cursor=pointer]:
+                    - /url: https://quis.ag/karriere/
+                    - generic [aria-hidden] [ref=f15e30]: 
+                - listitem [ref=f15e32]:
+                  - link "Neuigkeiten & Blog" [ref=f15e33] [cursor=pointer]:
+                    - /url: https://www.quis.ag/blogseite-bearbeitung/
+                    - generic [aria-hidden] [ref=f15e35]: 
+                - listitem [ref=f15e37]:
+                  - link "Kontakt" [ref=f15e38] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+                    - generic [aria-hidden] [ref=f15e40]: 
+            - text:    
+        - generic [ref=f15e43]:
+          - link [ref=f15e45] [cursor=pointer]:
+            - /url: https://www.quis.ag/
+            - img "QUIS AG – IT follows Business Logo" [ref=f15e46]
+          - text: 
+          - link "Toggle mobile menu" [ref=f15e47] [cursor=pointer]:
+            - /url: "#"
+            - text: 
+          - text:  - - - - -
+    - list [ref=f15e51]:
+      - listitem [ref=f15e52]:
+        - heading "Deine Karriere bei der QUIS AG" [level=2] [ref=f15e58]
+      - listitem [ref=f15e60]
+    - main [ref=f15e62]:
+      - generic [ref=f15e67]:
+        - generic [ref=f15e75]:
+          - paragraph [ref=f15e78]: Stellenangebote
+          - paragraph [ref=f15e81]: "Arbeiten bei uns heißt: „Arbeiten mit Freude, aufrichtiger Umgang miteinander, gemeinsam Erfolge feiern und persönliche Zugehörigkeit zu einem engagierten, dynamischen und professionellem Team zu erfahren.“ In diesem Satz steckt geballt, was uns als Arbeitgeber ausmacht."
+        - generic [ref=f15e83]:
+          - generic [ref=f15e85]:
+            - paragraph [ref=f15e90]: Controller/-in
+            - link "MEHR ERFAHREN" [ref=f15e94] [cursor=pointer]:
+              - /url: https://www.quis.ag/controller-in/
+          - generic [ref=f15e98]:
+            - paragraph [ref=f15e103]: Buchhalter/-in
+            - link "MEHR ERFAHREN" [ref=f15e107] [cursor=pointer]:
+              - /url: https://www.quis.ag/buchhalter/
+        - generic [ref=f15e111]:
+          - generic [ref=f15e113]:
+            - paragraph [ref=f15e118]: Fachinformatiker/-in – Anwendungsentwicklung
+            - link "MEHR ERFAHREN" [ref=f15e122] [cursor=pointer]:
+              - /url: https://www.quis.ag/fachinformatiker-in-anwendungsentwicklung/
+          - generic [ref=f15e126]:
+            - paragraph [ref=f15e131]: Fachinformatiker/-in – Systemintegration
+            - link "MEHR ERFAHREN" [ref=f15e135] [cursor=pointer]:
+              - /url: https://www.quis.ag/fachinformatiker-in-systemintegration/
+        - generic [ref=f15e139]:
+          - generic [ref=f15e141]:
+            - paragraph [ref=f15e146]: Steuerfachangestellte/r
+            - link "MEHR ERFAHREN" [ref=f15e150] [cursor=pointer]:
+              - /url: https://www.quis.ag/steuerfachangestellte-r/
+          - generic [ref=f15e154]:
+            - paragraph [ref=f15e159]: Gestalter/-in – Grafikdesign
+            - link "MEHR ERFAHREN" [ref=f15e163] [cursor=pointer]:
+              - /url: https://www.quis.ag/gestalter-in-grafikdesign/
+    - generic [ref=f15e166]:
+      - contentinfo [ref=f15e167]:
+        - generic [ref=f15e169]:
+          - generic [ref=f15e171]:
+            - heading "Anschrift" [level=4] [ref=f15e172]
+            - list [ref=f15e174]:
+              - listitem [ref=f15e175]:
+                - generic [aria-hidden] [ref=f15e177]: 
+                - paragraph [ref=f15e179]: QUIS AG Schulstraße 2-4 09427 Ehrenfriedersdorf
+              - listitem [ref=f15e180]:
+                - generic [aria-hidden] [ref=f15e182]: 
+                - generic [ref=f15e183]: +49 37341 48 67 10
+              - listitem [ref=f15e184]:
+                - generic [aria-hidden] [ref=f15e186]: 
+                - link "sales@quis.ag" [ref=f15e188] [cursor=pointer]:
+                  - /url: mailto:sales@quis.ag
+              - listitem [ref=f15e189]:
+                - generic [aria-hidden] [ref=f15e191]: 
+                - generic [ref=f15e192]: "Montag – Freitag: 8:00 – 17:00 Uhr"
+          - generic [ref=f15e194]:
+            - generic [ref=f15e195]:
+              - heading "Rechtliches" [level=4] [ref=f15e196]
+              - list [ref=f15e198]:
+                - listitem [ref=f15e199]:
+                  - link "Impressum" [ref=f15e200] [cursor=pointer]:
+                    - /url: https://quis.ag/impressum/
+                - listitem [ref=f15e201]:
+                  - link "Datenschutzerklärung" [ref=f15e202] [cursor=pointer]:
+                    - /url: https://quis.ag/datenschutzerklaerung/
+                - listitem [ref=f15e203]:
+                  - link "Kontakt" [ref=f15e204] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+            - generic [ref=f15e205]:
+              - heading "Social Media" [level=4] [ref=f15e206]
+              - list [ref=f15e208]:
+                - listitem [ref=f15e209]:
+                  - link "LinkedIn" [ref=f15e210] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/quis-ag/
+                - listitem [ref=f15e211]:
+                  - link "Instagram" [ref=f15e212] [cursor=pointer]:
+                    - /url: https://www.instagram.com/quis_ag/
+                - listitem [ref=f15e213]:
+                  - link "Youtube" [ref=f15e214] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+          - generic [ref=f15e215]:
+            - generic [ref=f15e216]:
+              - heading "Karriere" [level=4] [ref=f15e217]
+              - list [ref=f15e219]:
+                - listitem [ref=f15e220]:
+                  - link "Freie Ausbildungsplätze" [ref=f15e221] [cursor=pointer]:
+                    - /url: https://quis.ag/ausbildungsangebote/
+                - listitem [ref=f15e222]:
+                  - link "Freie Stellen" [ref=f15e223] [cursor=pointer]:
+                    - /url: https://quis.ag/stellenangebote/
+                - listitem [ref=f15e224]:
+                  - link "Initiativbewerbung" [ref=f15e225] [cursor=pointer]:
+                    - /url: https://quis.ag/initiativbewerbung/
+            - generic [ref=f15e226]:
+              - heading "Support" [level=4] [ref=f15e227]
+              - list [ref=f15e229]:
+                - listitem [ref=f15e230]:
+                  - link "Kontaktformular" [ref=f15e231] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+                - listitem [ref=f15e232]:
+                  - link "Fernwartung" [ref=f15e233] [cursor=pointer]:
+                    - /url: https://get.teamviewer.com/btb2wer
+                - listitem [ref=f15e234]:
+                  - link "FAQ & Glossar" [ref=f15e235] [cursor=pointer]:
+                    - /url: https://quis.ag/kontakt/
+      - contentinfo [ref=f15e236]:
+        - generic [ref=f15e238]:
+          - generic [ref=f15e240]:
+            - text: © 2025 by
+            - link "QUIS AG" [ref=f15e241] [cursor=pointer]:
+              - /url: https://quis.ag/
+            - text: "| Alle Rechte vorbehalten |"
+          - generic [ref=f15e244]:
+            - link " Facebook" [ref=f15e245] [cursor=pointer]:
+              - /url: https://www.facebook.com/quisag1
+              - text: 
+              - generic [ref=f15e246]: Facebook
+            - link " Instagram" [ref=f15e247] [cursor=pointer]:
+              - /url: https://www.instagram.com/quis_ag/
+              - text: 
+              - generic [ref=f15e248]: Instagram
+            - link " YouTube" [ref=f15e249] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCsqCnAlDwoB0k1HNJQ73cJQ
+              - text: 
+              - generic [ref=f15e250]: YouTube
+  - generic:
+    - generic [ref=f15e252]:
+      - text: Wir verwenden Cookies, um Ihre Nutzererfahrung zu verbessern. Wir gehen davon aus, dass dies für Sie ok ist, aber Sie können die Verwendung von Cookies ablehnen, wenn Sie dies wünschen.
+      - button "Cookie-Einstellungen" [ref=f15e253] [cursor=pointer]
+      - button "Akzeptieren" [ref=f15e254] [cursor=pointer]
+    - text: Mehr anzeigen Aktiviert Deaktiviert Deaktiviert Deaktiviert Deaktiviert Deaktiviert
+  - region "Nach oben":
+    - link " Nach oben":
+      - /url: "#"
+      - text: 
+      - generic: Nach oben
+  - generic [ref=f15e255]: tablet

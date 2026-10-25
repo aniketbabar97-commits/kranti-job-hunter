@@ -1,0 +1,371 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: https://www.deichmann-karriere.de
+      - generic [ref=e7]:
+        - button [ref=e8] [cursor=pointer]
+        - text:      
+  - generic [ref=e17]:
+    - heading [level=1] [ref=e20]: Senior Product Owner Mobile App (m/w/d)
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - text: Deichmannweg 9, 45359 Essen
+        - link [ref=e26] [cursor=pointer]:
+          - /url: "#directions-map-modal"
+          - text: Plane deinen Arbeitsweg
+          - generic [aria-hidden] [ref=e27]: 
+      - link [ref=e29] [cursor=pointer]:
+        - /url: https://www.deichmann-karriere.de/jobs/2026-37624/application-form/
+        - text: Jetzt Bewerben
+    - list [ref=e33]:
+      - listitem [ref=e34]:
+        - link [ref=e35] [cursor=pointer]:
+          - /url: https://facebook.com/sharer/sharer.php?u=https://www.deichmann-karriere.de/jobs/2026-37624
+          - generic [aria-hidden] [ref=e36]: 
+      - listitem [ref=e37]:
+        - link [ref=e38] [cursor=pointer]:
+          - /url: https://twitter.com/intent/tweet/?text=Senior Product Owner Mobile App (m/w/d)&url=https://www.deichmann-karriere.de/jobs/2026-37624
+          - generic [aria-hidden] [ref=e39]: 
+      - listitem [ref=e40]:
+        - link [ref=e41] [cursor=pointer]:
+          - /url: https://www.linkedin.com/shareArticle?mini=true&url=https://www.deichmann-karriere.de/jobs/2026-37624&title=Senior Product Owner Mobile App (m/w/d)&source=https://www.deichmann-karriere.de/jobs/2026-37624
+          - generic [aria-hidden] [ref=e42]: 
+      - listitem [ref=e43]:
+        - link [ref=e44] [cursor=pointer]:
+          - /url: https://www.xing.com/spi/shares/new?url=https://www.deichmann-karriere.de/jobs/2026-37624
+          - generic [aria-hidden] [ref=e45]: 
+      - listitem [ref=e46]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: "#email-share-modal"
+          - generic [aria-hidden] [ref=e48]: 
+    - region [ref=e49]:
+      - group [ref=e50]:
+        - heading [level=2] [ref=e51]: Deine Vorteile bei Deichmann
+        - region [ref=e52]:
+          - generic [ref=e53]:
+            - group [ref=e54]:
+              - generic [ref=e62]:
+                - generic [ref=e63]: 30 Tage Urlaub
+                - paragraph [ref=e64]: Den hast du dir wirklich verdient.
+            - group [ref=e65]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: Betriebliche Altersversorge
+                - paragraph [ref=e74]: Damit es dir auch später gut geht.
+            - group [ref=e75]:
+              - generic [ref=e83]:
+                - generic [ref=e84]: Kitaplätze
+                - paragraph [ref=e85]: Wir unterstützen dich bei der Suche und kooperieren mit dem Diakoniewerk Essen für KiTA"Lohstraße"
+            - group [ref=e86]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: Sonderzahlungen & Prämien
+                - paragraph [ref=e96]: Wir zahlen ein Urlaubs- und Weihnachtsgeld.
+            - group [ref=e97]:
+              - generic [ref=e104]:
+                - generic [ref=e105]: Bistro
+                - paragraph [ref=e106]: Unser Küchenteam sorgt für uns. Angefangen bei einem großen Frühstücksangebot am Morgen bis zum frisch zubereiteten Mittagessen. Hier kannst du zwischen zwei Gerichten und frischen Salaten wählen.
+            - group [ref=e107]:
+              - generic [ref=e116]:
+                - generic [ref=e117]: Personalrabatt
+                - paragraph [ref=e118]: Mit unserem Personalrabatt kannst du sparen. Wir bieten dir und deiner Familie Rabatt bei Deichmann und unseren Tochtergesellschaften.
+            - group [ref=e119]:
+              - generic [ref=e131]:
+                - generic [ref=e132]: Unterstützungskasse
+                - paragraph [ref=e133]: Für Mitarbeitende, die unverschuldet in eine Notsituation geraten, gibt es unsere Unterstützungskasse.
+          - generic [ref=e134]:
+            - button [ref=e135] [cursor=pointer]
+            - button [ref=e136] [cursor=pointer]
+            - button [ref=e137] [cursor=pointer]
+            - button [ref=e138] [cursor=pointer]
+            - button [ref=e139] [cursor=pointer]
+            - button [ref=e140] [cursor=pointer]
+            - button [ref=e141] [cursor=pointer]
+    - generic [ref=e142]:
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: Als eigenfinanziertes Familienunternehmen sind wir weit mehr als ein Filialnetz mit rund 4.700 Standorten in über 30 Ländern, mehr als 8,9 Milliarden Euro Jahresumsatz und einem der erfolgreichsten Online-Shops für Schuhe in Europa. Deichmann ist Wegbereiter, Förderer und Arbeitgeber von ca. 50.000 engagierten Mitarbeiterinnen und Mitarbeitern weltweit. Als nachhaltig expandierendes Unternehmen sind wir seit mehreren Jahrzehnten in der Lage, unseren Mitarbeitern einen sicheren Arbeitsplatz zu bieten.
+        - paragraph [ref=e145]: Unsere Kunden-App ist ein zentraler Touchpoint unserer Omnichannel-Strategie. Sie verbindet Online-Shopping, Kundenbindung und das Einkaufserlebnis in der Filiale. Als Senior Product Owner Mobile App verantwortest du die Vision, die Roadmap und den Business Value unserer App für iOS und Android, und zwar für mehrere Marken in vielen Ländern. Gemeinsam mit deinem cross-funktionalen Team machst du die App zur ersten Wahl für unsere Kundinnen und Kunden.
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: "Deine Aufgaben:"
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - text: •
+            - strong [ref=e150]: "Produktvision & Roadmap:"
+            - text: Du entwickelst Vision, Strategie und Roadmap der Deichmann App für iOS und Android. Dabei übersetzt du Unternehmens- und Omnichannel-Ziele in klare, messbare Produktziele.
+          - listitem [ref=e151]:
+            - text: •
+            - strong [ref=e152]: "Backlog & Priorisierung:"
+            - text: Du verantwortest das App-Backlog, formulierst Epics und User Stories mit klaren Akzeptanzkriterien und priorisierst konsequent nach Kundennutzen, Business Impact und technischer Machbarkeit. Diese Prioritäten vertrittst du souverän gegenüber deinen Stakeholdern.
+          - listitem [ref=e153]:
+            - text: •
+            - strong [ref=e154]: "Customer Journey & Omnichannel:"
+            - text: Du gestaltest App-Features entlang der gesamten Customer Journey und verzahnst die App eng mit Web-Shop, CRM und Filiale, z. B. über Click & Collect, Filialverfügbarkeit oder In-Store-Funktionen.
+          - listitem [ref=e155]:
+            - text: •
+            - strong [ref=e156]: "Kundenbindung & Engagement:"
+            - text: Du treibst Features zur Steigerung von Retention, Wiederkaufrate und Customer Lifetime Value voran, z. B. Push-Strategien, Personalisierung und Loyalty-Mechaniken.
+          - listitem [ref=e157]:
+            - text: •
+            - strong [ref=e158]: "Multi-Brand & Multi-Country:"
+            - text: Du stellst sicher, dass die App skalierbar und internationalisierbar bleibt. Länder- und markenspezifische Anforderungen wie Sprache, Recht, Payment und Sortiment bildest du effizient auf einer gemeinsamen Plattform ab.
+          - listitem [ref=e159]:
+            - text: •
+            - strong [ref=e160]: "Technische Weiterentwicklung:"
+            - text: Gemeinsam mit Engineering und Enterprise Architecture gestaltest du eine zukunftsfähige App-Architektur. Dazu gehören Performance, Stabilität, Accessibility, wiederverwendbare Komponenten und ein markenübergreifendes Design System.
+          - listitem [ref=e161]:
+            - text: •
+            - strong [ref=e162]: "Datengetriebene Steuerung:"
+            - text: Du definierst App-KPIs wie Conversion, Retention, aktive Nutzer, Crash-Rate und Store-Rating. Gemeinsam mit BI etablierst du ein strukturiertes Tracking- und Experimentation-Setup (Event Tracking, Funnel-Analysen, A/B-Tests).
+          - listitem [ref=e163]:
+            - text: •
+            - strong [ref=e164]: "Release-Management:"
+            - text: Du planst Releases und verantwortest sie von der Konzeption bis zum Go-live in App Store und Google Play, inklusive fachlicher Abnahme und datenbasierter Erfolgsauswertung.
+          - listitem [ref=e165]:
+            - text: •
+            - strong [ref=e166]: "Stakeholder-Management:"
+            - text: Du arbeitest eng mit Omnichannel Commerce, Marketing, CRM, Logistik, Vertrieb/Filiale und den Landesgesellschaften zusammen. Bei Bedarf steuerst du auch externe Partner.
+          - listitem [ref=e167]:
+            - text: •
+            - strong [ref=e168]: "KI-Potenziale:"
+            - text: Du identifizierst Chancen für KI-gestützte Features in der App, z. B. in Personalisierung, Suche oder Beratung, und bringst sie mit den Teams in die Produktentwicklung ein.
+        - paragraph [ref=e169]:
+          - strong [ref=e170]: "Dein Profil:"
+        - list [ref=e171]:
+          - listitem [ref=e172]: • Abgeschlossenes Studium im Bereich Wirtschaftsinformatik, Informatik, Wirtschaftswissenschaften oder eine vergleichbare Qualifikation.
+          - listitem [ref=e173]:
+            - text: •
+            - strong [ref=e174]: Mindestens 5 Jahre Erfahrung als Product Owner für Mobile Apps (iOS und/oder Android)
+            - text: ", idealerweise im"
+            - strong [ref=e175]: Retail oder E-Commerce.
+          - listitem [ref=e176]: • Starke Kommunikations- und Moderationsfähigkeiten sowie Durchsetzungsstärke im Stakeholder-Umfeld.
+          - listitem [ref=e177]: • Nachweisliche Erfolge in der Weiterentwicklung und Skalierung von Consumer-Apps mit messbarem Business Impact.
+          - listitem [ref=e178]:
+            - text: •
+            - strong [ref=e179]: Tiefes technisches Verständnis
+            - text: mobiler Architekturen, APIs, App-Store-Prozesse und technischer Trade-offs. Du diskutierst mit Engineering auf Augenhöhe.
+          - listitem [ref=e180]:
+            - text: •
+            - strong [ref=e181]: "Ausgeprägtes Business-Verständnis:"
+            - text: Du vermittelst souverän zwischen E-Commerce-Geschäftslogik und technischer Machbarkeit und bezifferst den Wertbeitrag deiner Produktentscheidungen.
+          - listitem [ref=e182]:
+            - text: •
+            - strong [ref=e183]: Kundenfokus
+            - text: "als Grundhaltung: Du nutzt Methoden aus Product Discovery, User Research und Design Thinking selbstverständlich."
+          - listitem [ref=e184]:
+            - text: •
+            - strong [ref=e185]: "Zahlengetriebene Arbeitsweise:"
+            - text: sicherer Umgang mit App-Analytics, Tracking-Konzepten, Experimentation und KPI-Steuerung.
+          - listitem [ref=e186]: • Fundierte Erfahrung mit agilen Methoden, z. B. Scrum, Kanban oder skalierten Frameworks.
+          - listitem [ref=e187]:
+            - text: • Erfahrung mit
+            - strong [ref=e188]: Multi-Brand- und/oder internationalen Apps
+            - text: ist ein deutlicher Vorteil.
+          - listitem [ref=e189]:
+            - text: •
+            - strong [ref=e190]: "Wünschenswert:"
+            - text: erste Erfahrungen mit KI im Produktumfeld, z. B. KI-gestützte App-Features oder KI in der Produktentwicklung.
+          - listitem [ref=e191]: • Sehr gute Deutsch- und gute Englischkenntnisse.
+        - paragraph [ref=e192]:
+          - strong [ref=e193]: "Benefits:"
+        - list [ref=e194]:
+          - listitem [ref=e195]: • 30 Tage Urlaub
+          - listitem [ref=e196]: • Flexible Arbeitszeiten
+          - listitem [ref=e197]: • Tageweise mobiles Arbeiten
+          - listitem [ref=e198]: • Ermäßigtes DeutschlandTicket Job
+          - listitem [ref=e199]: • Betriebliche Altersvorsorge
+          - listitem [ref=e200]: • Kitaplätze
+          - listitem [ref=e201]: • Bistro
+          - listitem [ref=e202]: • Personalrabatt
+          - listitem [ref=e203]: • Unterstützungskasse
+          - listitem [ref=e204]: • Seminare & Fortbildungen
+          - listitem [ref=e205]: • Betriebliches Gesundheitsmanagement
+          - listitem [ref=e206]: • Firmenevents
+        - paragraph [ref=e207]
+        - paragraph [ref=e208]:
+          - text: Als
+          - strong [ref=e209]: Senior Product Owner Mobile App (m/w/d)
+          - text: verstärkst Du unser Team in Essen. Wenn Du Einsatz zeigst und etwas bewegen willst, dann bist Du bei uns genau richtig. Lerne uns als Arbeitgeber kennen, informiere Dich über Deine beruflichen Möglichkeiten und bewege mit uns großartige Projekte. Bewirb Dich jetzt online mit Angabe Deiner Gehaltsvorstellung und Deines frühestmöglichen Eintrittstermins. Wir freuen uns auf Dich!
+        - link [ref=e210] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de/jobs/2026-37624/application-form/
+          - text: Jetzt Bewerben
+      - complementary [ref=e212]:
+        - link [ref=e214] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de/jobs/2026-37624/?pdf=true
+          - generic [aria-hidden] [ref=e215]: 
+          - text: Download Stellenanzeige
+        - link [ref=e217] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de/wp-content/uploads/deichmann_digitale-unternehmensbroschuere_2026_V3.pdf
+          - generic [aria-hidden] [ref=e218]: 
+          - generic [ref=e219]: Download Unternehmensbroschüre
+  - button [ref=e220] [cursor=pointer]:
+    - generic [ref=e221]: Mehr anzeigen
+    - text: mehr
+  - button [ref=e222] [cursor=pointer]:
+    - generic [ref=e223]: Mehr anzeigen
+    - text: mehr
+  - button [ref=e224] [cursor=pointer]:
+    - generic [ref=e225]: Mehr anzeigen
+    - text: mehr
+  - button [ref=e226] [cursor=pointer]:
+    - generic [ref=e227]: Mehr anzeigen
+    - text: mehr
+  - contentinfo [aria-hidden] [ref=e228]:
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - generic [ref=e233]: Einstieg im Verkauf
+        - list [ref=e234]:
+          - listitem [ref=e235]:
+            - link [ref=e236] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=e237]:
+            - link [ref=e238] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=e239]:
+            - link [ref=e240] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=e241]:
+            - link [ref=e242] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=e243]:
+        - generic [ref=e244]: Einstieg in der Zentrale und Logistik
+        - list [ref=e245]:
+          - listitem [ref=e246]:
+            - link [ref=e247] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=e248]:
+            - link [ref=e249] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=e250]:
+            - link [ref=e251] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=e252]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=e254]:
+            - link [ref=e255] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=e256]:
+            - link [ref=e257] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=e258]:
+        - generic [ref=e259]: Dein Weg zu Deichmann
+        - list [ref=e260]:
+          - listitem [ref=e261]:
+            - link [ref=e262] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=e263]:
+            - link [ref=e264] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=e265]:
+            - link [ref=e266] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=e267]:
+            - link [ref=e268] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=e271]:
+      - list [ref=e273]:
+        - listitem [ref=e274]:
+          - link [ref=e275] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=e276]:
+          - link [ref=e277] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=e278]:
+          - link [ref=e279] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=e280]:
+          - link [ref=e281] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=e282]:
+          - link [ref=e283] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=e284]:
+          - link [ref=e285] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=e288]:
+        - listitem [ref=e289]:
+          - link [ref=e290] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=e291]: 
+            - generic [ref=e292]: Tiktok
+        - listitem [ref=e293]:
+          - link [ref=e294] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=e295]: 
+            - generic [ref=e296]: Instagram
+        - listitem [ref=e297]:
+          - link [ref=e298] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=e299]: 
+            - generic [ref=e300]: Youtube
+        - listitem [ref=e301]:
+          - link [ref=e302] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=e303]: 
+            - generic [ref=e304]: Linkedin
+        - listitem [ref=e305]:
+          - link [ref=e306] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=e307]: 
+            - generic [ref=e308]: Xing
+  - text: 
+  - alertdialog [ref=e315]:
+    - button "Dialog schließen" [ref=e316] [cursor=pointer]:
+      - generic [ref=e317]: Mit diesem Button wird der Dialog geschlossen. Seine Funktionalität ist identisch mit der des Buttons Alle Cookies ablehnen.
+    - document [ref=e320]:
+      - generic [ref=e321]:
+        - heading "Datenschutzeinstellungen" [level=2] [ref=e324]
+        - generic [ref=e325]:
+          - paragraph [ref=e327]: Wir nutzen Cookies auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Mit Klick auf 'Alle akzeptieren' stimmst du der Verwendung der oben genannten Cookies und Technologien sowie der Verarbeitung deiner Daten zu, einschließlich der Übermittlung an unsere Marketingpartner (Dritte). Unter 'Einstellungen' kannst du selbst bestimmen, welche Cookies du zulassen möchtest. Diese Einstellungen kannst du jederzeit ändern. Weitere Informationen findest du in unserer <a href="https://www.deichmann-karriere.de/datenschutz/" target="_blank">Datenschutzerklärung</a>.
+          - group "Es folgt eine Liste der Service-Gruppen, für die eine Einwilligung erteilt werden kann. Die erste Service-Gruppe ist essenziell und kann nicht abgewählt werden." [ref=e329]:
+            - list [ref=e331]:
+              - listitem [ref=e332]:
+                - generic [ref=e333]:
+                  - checkbox "Essenziell" [checked] [disabled] [ref=e334] [cursor=pointer]
+                  - generic [ref=e335]: Essenziell
+              - listitem [ref=e338]:
+                - generic [ref=e339]:
+                  - checkbox "Statistiken" [ref=e340] [cursor=pointer]
+                  - generic [ref=e341]: Statistiken
+              - listitem [ref=e344]:
+                - generic [ref=e345]:
+                  - checkbox "Marketing" [ref=e346] [cursor=pointer]
+                  - generic [ref=e347]: Marketing
+              - listitem [ref=e350]:
+                - generic [ref=e351]:
+                  - checkbox "Externe Medien" [ref=e352] [cursor=pointer]
+                  - generic [ref=e353]: Externe Medien
+        - generic [ref=e357]:
+          - button "Speichern" [ref=e359] [cursor=pointer]
+          - button "Allen Cookies zustimmen" [ref=e361] [cursor=pointer]
+          - button "Alle Cookies ablehnen" [ref=e363] [cursor=pointer]
+          - button "Einstellungen" [ref=e365] [cursor=pointer]
+      - generic [ref=e366]:
+        - button "Cookie-Details" [ref=e367] [cursor=pointer]
+        - link "Datenschutzerklärung" [ref=e368] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de/datenschutz/
+        - link "Impressum" [ref=e369] [cursor=pointer]:
+          - /url: https://www.deichmann.com/de-de/impressum/
+  - iframe [ref=e372]:
+    - generic [ref=f1e6]:
+      - text: protected by
+      - strong [ref=f1e7]: reCAPTCHA

@@ -1,0 +1,235 @@
+- generic [active] [ref=e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=e365] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=e379] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=e396] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=e409] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=e417]:
+      - generic [ref=e3]:
+        - link "Zur Startseite" [ref=e418] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=e419]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Jobsuche" [ref=e420] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=e12]:
+            - link "Arbeitgeber" [ref=e421] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=e14]:
+            - link "Schüler" [ref=e422] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=e16]:
+            - link "Studierende" [ref=e423] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=e18]:
+            - link "Direkteinstieg" [ref=e424] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=e425] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - article [ref=e25]:
+    - generic [ref=e28]:
+      - generic [ref=e30]:
+        - generic [ref=e35]:
+          - heading "Deine Karrieremöglichkeiten in der Zentrale in Essen." [level=2] [ref=e426]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e427]
+          - generic [ref=e39]:
+            - link "Einstiegsmöglichkeiten für Berufserfahrene" [ref=e428] [cursor=pointer]:
+              - /url: /berufserfahrene/zentrale/
+            - link "Zu den Ausbildungsmöglichkeiten" [ref=e429] [cursor=pointer]:
+              - /url: /schueler/ausbildung-zentrale/
+        - generic [ref=e48]:
+          - heading "Entdecke die Möglichkeiten in unserer IT." [level=2] [ref=e430]
+          - heading "Hier kannst du was bewegen." [level=1] [ref=e431]
+          - link "Mehr erfahren" [ref=e432] [cursor=pointer]:
+            - /url: /berufserfahrene/it
+        - generic [ref=e59]:
+          - heading "Deichmann als Arbeitgeber." [level=2] [ref=e433]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e434]
+          - link "Mehr erfahren" [ref=e435] [cursor=pointer]:
+            - /url: /arbeitgeber
+        - generic [ref=e70]:
+          - heading "Hier kannst du was bewegen." [level=2] [ref=e436]
+          - heading "Herzlich willkommen bei Deichmann!" [level=1] [ref=e437]
+          - link "Jobs Finden" [ref=e438] [cursor=pointer]:
+            - /url: /jobsuche/
+        - generic [ref=e81]:
+          - heading "Deine Karrieremöglichkeiten in unseren rund 1.400 Stores." [level=2] [ref=e439]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e440]
+          - generic [ref=e85]:
+            - link "Zu den Ausbildungsmöglichkeiten" [ref=e441] [cursor=pointer]:
+              - /url: /jobsuche/
+            - link "Zu den Einstiegsmöglichkeiten" [ref=e442] [cursor=pointer]:
+              - /url: "#featured-items"
+        - generic [ref=e94]:
+          - heading "Entdecke die Möglichkeiten in unserer Logistik." [level=2] [ref=e443]
+          - heading "Hier kannst du was bewegen." [level=1] [ref=e444]
+          - link "Mehr erfahren" [ref=e445] [cursor=pointer]:
+            - /url: /berufserfahrene/logistik/
+        - generic [ref=e105]:
+          - heading "Deine Karrieremöglichkeiten in der Zentrale in Essen." [level=2] [ref=e446]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e447]
+          - generic [ref=e109]:
+            - link "Einstiegsmöglichkeiten für Berufserfahrene" [ref=e448] [cursor=pointer]:
+              - /url: /berufserfahrene/zentrale/
+            - link "Zu den Ausbildungsmöglichkeiten" [ref=e449] [cursor=pointer]:
+              - /url: /schueler/ausbildung-zentrale/
+        - generic [ref=e118]:
+          - heading "Entdecke die Möglichkeiten in unserer IT." [level=2] [ref=e450]
+          - heading "Hier kannst du was bewegen." [level=1] [ref=e451]
+          - link "Mehr erfahren" [ref=e452] [cursor=pointer]:
+            - /url: /berufserfahrene/it
+        - generic [ref=e129]:
+          - heading "Deichmann als Arbeitgeber." [level=2] [ref=e453]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e454]
+          - link "Mehr erfahren" [ref=e455] [cursor=pointer]:
+            - /url: /arbeitgeber
+        - generic [ref=e140]:
+          - heading "Hier kannst du was bewegen." [level=2] [ref=e456]
+          - heading "Herzlich willkommen bei Deichmann!" [level=1] [ref=e457]
+          - link "Jobs Finden" [ref=e458] [cursor=pointer]:
+            - /url: /jobsuche/
+        - generic [ref=e151]:
+          - heading "Deine Karrieremöglichkeiten in unseren rund 1.400 Stores." [level=2] [ref=e459]
+          - heading "Über 100 Jahre Tradition und Innovation." [level=1] [ref=e460]
+          - generic [ref=e155]:
+            - link "Zu den Ausbildungsmöglichkeiten" [ref=e461] [cursor=pointer]:
+              - /url: /jobsuche/
+            - link "Zu den Einstiegsmöglichkeiten" [ref=e462] [cursor=pointer]:
+              - /url: "#featured-items"
+        - generic [ref=e164]:
+          - heading "Entdecke die Möglichkeiten in unserer Logistik." [level=2] [ref=e463]
+          - heading "Hier kannst du was bewegen." [level=1] [ref=e464]
+          - link "Mehr erfahren" [ref=e465] [cursor=pointer]:
+            - /url: /berufserfahrene/logistik/
+      - generic:
+        - button "Previous Slide" [ref=e466] [cursor=pointer]: 
+        - button "Next Slide" [ref=e467] [cursor=pointer]: 
+  - contentinfo [ref=e223]:
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - generic [ref=e228]: Einstieg im Verkauf
+        - list [ref=e229]:
+          - listitem [ref=e230]:
+            - link "Gehe zu Ausbildung im Verkauf" [ref=e468] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=e232]:
+            - link "Gehe zu Teilzeit, Minijob & Werkstudierende" [ref=e469] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=e234]:
+            - link "Gehe zu Filialführungsnachwuchs" [ref=e470] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=e236]:
+            - link "Gehe zu Duales Studium" [ref=e471] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=e238]:
+        - generic [ref=e239]: Einstieg in der Zentrale und Logistik
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Gehe zu Ausbildung in der Zentrale" [ref=e472] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=e243]:
+            - link "Gehe zu Ausbildung in der Logistik" [ref=e473] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=e245]:
+            - link "Gehe zu Duales Studium" [ref=e474] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=e247]:
+            - link "Gehe zu Einstieg für Studierende" [ref=e475] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=e249]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Zentrale)" [ref=e476] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=e251]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Logistik)" [ref=e477] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=e253]:
+        - generic [ref=e254]: Dein Weg zu Deichmann
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "Gehe zu Deichmann als Arbeitgeber" [ref=e478] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=e258]:
+            - link "Gehe zu Schüler" [ref=e479] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=e260]:
+            - link "Gehe zu Studierende" [ref=e480] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=e262]:
+            - link "Gehe zu Direkteinstieg" [ref=e481] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=e266]:
+      - list [ref=e268]:
+        - listitem [ref=e269]:
+          - link "Gehe zu Kontakt" [ref=e482] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=e271]:
+          - link "Gehe zu Impressum" [ref=e483] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=e273]:
+          - link "Gehe zu Datenschutz" [ref=e484] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=e275]:
+          - link "Gehe zu Zum Shop" [ref=e485] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=e277]:
+          - link "Gehe zu Filialfinder" [ref=e486] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=e279]:
+          - link "Gehe zu Cookie-Einstellungen" [ref=e487] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=e283]:
+        - listitem [ref=e284]:
+          - link "Tiktok - wird in einem neuen Tab geöffnet" [ref=e488] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=e286]: 
+            - generic [ref=e287]: Tiktok
+        - listitem [ref=e288]:
+          - link "Instagram - wird in einem neuen Tab geöffnet" [ref=e489] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=e290]: 
+            - generic [ref=e291]: Instagram
+        - listitem [ref=e292]:
+          - link "Youtube - wird in einem neuen Tab geöffnet" [ref=e490] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=e294]: 
+            - generic [ref=e295]: Youtube
+        - listitem [ref=e296]:
+          - link "Linkedin - wird in einem neuen Tab geöffnet" [ref=e491] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=e298]: 
+            - generic [ref=e299]: Linkedin
+        - listitem [ref=e300]:
+          - link "Xing - wird in einem neuen Tab geöffnet" [ref=e492] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=e302]: 
+            - generic [ref=e303]: Xing
+  - text: 
+  - generic [ref=e412]:
+    - generic [ref=e413]: Fragen zu Bewerbung, unseren Jobs oder Ausbildungsmöglichkeiten? Frag Gracie!
+    - button "Gracie" [ref=e415] [cursor=pointer]

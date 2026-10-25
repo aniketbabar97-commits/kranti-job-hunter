@@ -1,0 +1,26 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e4]:
+    - generic [ref=f7e6]:
+      - generic [ref=f7e7]:
+        - img "Active Nutrition International GmbH logo" [ref=f7e8]
+        - generic [ref=f7e9]:
+          - link [ref=f7e10] [cursor=pointer]:
+            - /url: https://join.com/companies/active-nutrition-international
+            - paragraph [ref=f7e11]: Active Nutrition International GmbH
+          - link [ref=f7e12] [cursor=pointer]:
+            - /url: https://join.com/companies/active-nutrition-international/16797502-developer-m-w-d-e-commerce
+            - paragraph [ref=f7e13]: Developer (m/w/d) E-Commerce
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e14] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e17]: KC
+        - generic [ref=f7e18]: Kranti Chavan
+    - generic [ref=f7e520]:
+      - heading "Was ist deine jährliche Gehaltserwartung in EUR?" [level=2] [ref=f7e521]
+      - group [ref=f7e523]:
+        - spinbutton "Bitte geben Sie eine Zahl ein" [active] [ref=f7e525]
+    - generic [ref=f7e40]:
+      - progressbar "80%" [ref=f7e526]
+      - generic [ref=f7e45]:
+        - button "Zurück" [ref=f7e89] [cursor=pointer]
+        - button "Weiter" [disabled] [ref=f7e53]
+  - alert [ref=f7e55]: "Active Nutrition International (Munich): Developer (m/w/d) E-Commerce"
+  - region "Notifications, bottom-end (alt+T)"

@@ -1,0 +1,243 @@
+- generic [ref=f68e1]:
+  - banner [ref=f68e2]:
+    - generic [ref=f68e4]:
+      - link "Menü überspringen" [ref=f68e5] [cursor=pointer]:
+        - /url: "#greyd_main"
+      - generic [ref=f68e8]:
+        - link [ref=f68e12] [cursor=pointer]:
+          - /url: https://karriere.cancom.de/
+          - img "CANCOM Karriere" [ref=f68e13]
+        - generic [ref=f68e14]:
+          - navigation [ref=f68e15]:
+            - list [ref=f68e17]:
+              - listitem [ref=f68e18]:
+                - button "Zeige Menü-Unterpunkte von 'ÜBER UNS'" [ref=f68e19] [cursor=pointer]:
+                  - text: ÜBER UNS
+                  - generic [aria-hidden]: C
+              - listitem [ref=f68e20]:
+                - button "Zeige Menü-Unterpunkte von 'DU BEI CANCOM'" [ref=f68e21] [cursor=pointer]:
+                  - text: DU BEI CANCOM
+                  - generic [aria-hidden]: C
+              - listitem [ref=f68e22]:
+                - button "Zeige Menü-Unterpunkte von 'EINSTIEGSLEVEL'" [ref=f68e23] [cursor=pointer]:
+                  - text: EINSTIEGSLEVEL
+                  - generic [aria-hidden]: C
+              - listitem [ref=f68e24]:
+                - link "MOST WANTED" [ref=f68e25] [cursor=pointer]:
+                  - /url: https://karriere.cancom.de/most-wanted/
+              - listitem [ref=f68e26]:
+                - link "ALLE JOBS" [ref=f68e27] [cursor=pointer]:
+                  - /url: /jobs/
+              - listitem [ref=f68e28]:
+                - link "EVENTS" [ref=f68e29] [cursor=pointer]:
+                  - /url: https://karriere.cancom.de/events/
+              - listitem [ref=f68e30]:
+                - link "BLOG" [ref=f68e31] [cursor=pointer]:
+                  - /url: https://karriere.cancom.de/karriere-blog/
+          - button "Offmenü öffnen" [ref=f68e33] [cursor=pointer]
+  - main [ref=f68e36]:
+    - generic [ref=f68e37]:
+      - paragraph [ref=f68e60]:
+        - strong [ref=f68e62]: Einzeln genial,
+        - strong [ref=f68e64]: als Team unschlagbar.
+      - generic [ref=f68e71]: U $
+      - generic [ref=f68e77]:
+        - paragraph [ref=f68e80]: Begib dich mit uns in die digitale Zukunft! Mit Hilfe moderner IT-Lösungen schaffen wir neue Business-Potentiale und verbessern die Zusammenarbeit von Menschen in allen Lebensbereichen.
+        - search [ref=f68e87]:
+          - generic [ref=f68e88]:
+            - searchbox "Jobs entdecken" [ref=f68e89]
+            - generic: U
+      - generic [ref=f68e112]:
+        - img "Vimeo" [ref=f68e113]
+        - generic [ref=f68e114]:
+          - paragraph [ref=f68e115]:
+            - text: Mit dem Laden des Videos akzeptieren Sie die Datenschutzerklärung von Vimeo.
+            - link "Mehr erfahren" [ref=f68e116] [cursor=pointer]:
+              - /url: https://vimeo.com/privacy
+          - paragraph [ref=f68e117]:
+            - button "Video laden" [ref=f68e118] [cursor=pointer]
+          - paragraph [ref=f68e119]:
+            - generic [ref=f68e120]:
+              - checkbox "Vimeo immer entsperren" [checked] [ref=f68e121]
+              - text: Vimeo immer entsperren
+      - generic [ref=f68e131]:
+        - paragraph [ref=f68e134]: 5.300 Mitarbeiter geben alles, damit wir mit unseren IT-Lösungen die Zusammenarbeit in allen Lebensbereichen erleichtern. Wir denken innovativ, arbeiten agil und stehen für nachhaltiges Wirtschaften. Überzeuge dich selbst und lerne uns noch besser kennen.
+        - link "Das ist CANCOM" [ref=f68e142] [cursor=pointer]:
+          - /url: /über-uns/das-ist-cancom
+          - text: Das ist CANCOM
+          - generic [aria-hidden] [ref=f68e143]: $
+      - generic [ref=f68e157]:
+        - paragraph [ref=f68e160]: Wir geben dir gerne eine kleine Starthilfe rund um deine Bewerbung bei CANCOM.
+        - link "Bewerbungstipps" [ref=f68e168] [cursor=pointer]:
+          - /url: /bewerbungstipps/
+          - text: Bewerbungstipps
+          - generic [aria-hidden] [ref=f68e169]: $
+      - generic: $
+      - generic [ref=f68e191]:
+        - generic [ref=f68e195]:
+          - paragraph [ref=f68e204]:
+            - strong [ref=f68e205]: Most Wanted
+          - paragraph [ref=f68e208]: Aufgrund unseres Wachstums und zahlreicher neuer Kundenprojekte suchen wir in einigen Bereichen verstärkt nach neuen Mitarbeiterinnen und Mitarbeitern. Wirf einen Blick auf die offenen Positionen, vielleicht ist auch für dich etwas dabei! Mach den nächsten Schritt!
+          - link "Most Wanted Jobs" [ref=f68e216] [cursor=pointer]:
+            - /url: https://karriere.cancom.de/?post_type=jobs&s=&jobs_city=&jobs_careerlevel=&jobs_category=accounting-controlling-de%2Cconsulting-de%2Csystem-engineering-de%2Carchitectures-de
+            - text: Most Wanted Jobs
+            - generic [aria-hidden] [ref=f68e217]: $
+        - generic [ref=f68e228]:
+          - link "(Inhouse) SAP Consultant – Finance & Controlling (m/w/d)" [ref=f68e230] [cursor=pointer]:
+            - /url: https://karriere.cancom.de/most-wanted/#sap-consultant-finance-controlling
+            - generic [aria-hidden] [ref=f68e231]: "&"
+            - text: (Inhouse) SAP Consultant – Finance & Controlling (m/w/d)
+          - link "(Senior) Key Account Manager (m/w/d)" [ref=f68e239] [cursor=pointer]:
+            - /url: https://karriere.cancom.de/most-wanted/#key-account-manager
+            - generic [aria-hidden] [ref=f68e240]: "&"
+            - text: (Senior) Key Account Manager (m/w/d)
+          - link "(Inhouse) SAP Consultant – Logistik (SupplyChain) (m/w/d)" [ref=f68e248] [cursor=pointer]:
+            - /url: https://karriere.cancom.de/most-wanted/#sap-consultant-logistik
+            - generic [aria-hidden] [ref=f68e249]: "&"
+            - text: (Inhouse) SAP Consultant – Logistik (SupplyChain) (m/w/d)
+          - link "Architect Microsoft 365 (m/w/d)" [ref=f68e257] [cursor=pointer]:
+            - /url: https://karriere.cancom.de/most-wanted/#architect-microsoft
+            - generic [aria-hidden] [ref=f68e258]: "&"
+            - text: Architect Microsoft 365 (m/w/d)
+      - generic: $ $ $
+      - generic [ref=f68e270]:
+        - generic [ref=f68e278] [cursor=pointer]:
+          - heading "Join our Digital Journey!" [level=4] [ref=f68e285]
+          - paragraph [ref=f68e288]: Wirf einen Blick auf unsere vielseitigen Jobs
+          - heading [level=4] [ref=f68e296]:
+            - generic [ref=f68e297]:
+              - strong [ref=f68e298]: "0"
+              - text: Stellenangebote an allen Standorten
+        - link [ref=f68e324] [cursor=pointer]:
+          - /url: /jobs
+          - generic [aria-hidden] [ref=f68e325]: $
+      - generic [ref=f68e340]:
+        - heading "CANCOM Recruitment" [level=3] [ref=f68e347]
+        - generic [ref=f68e354]:
+          - generic [ref=f68e358]:
+            - img "Claudia Ade" [ref=f68e368]
+            - generic [ref=f68e378]:
+              - paragraph [ref=f68e379]:
+                - generic [ref=f68e380]:
+                  - strong [ref=f68e381]: Claudia Ade
+                  - text: Senior Manager Trainees and Talents
+              - paragraph [ref=f68e382]:
+                - generic [ref=f68e383]: "Unsere Hotline für Praktikanten, Auszubildende und Studierende:"
+                - text: +49 89 540 54-5757
+          - generic [ref=f68e393]:
+            - img "Carolin Hanisch-Heindl" [ref=f68e403]
+            - generic [ref=f68e413]:
+              - paragraph [ref=f68e414]:
+                - generic [ref=f68e415]:
+                  - strong [ref=f68e416]: Carolin Hanisch-Heindl
+                  - text: Director Recruiting and Employer Branding
+              - paragraph [ref=f68e417]:
+                - generic [ref=f68e418]: "Unsere Hotline für (Young) Professionals:"
+                - text: +49 89 540 54-5454
+    - region "Footer" [ref=f68e436]:
+      - generic [ref=f68e444]:
+        - link "© CANCOM 2026" [ref=f68e450] [cursor=pointer]:
+          - /url: https://karriere.cancom.de/
+        - navigation [ref=f68e453]:
+          - list [ref=f68e455]:
+            - listitem [ref=f68e456]:
+              - link "CANCOM.de" [ref=f68e457] [cursor=pointer]:
+                - /url: https://www.cancom.de
+            - listitem [ref=f68e458]:
+              - link "Kontakt" [ref=f68e459] [cursor=pointer]:
+                - /url: https://karriere.cancom.de/kontakt/
+            - listitem [ref=f68e460]:
+              - link "Impressum" [ref=f68e461] [cursor=pointer]:
+                - /url: https://www.cancom.de/impressum-cancom/
+            - listitem [ref=f68e462]:
+              - link "Datenschutz" [ref=f68e463] [cursor=pointer]:
+                - /url: https://www.cancom.de/datenschutz-cancom/
+            - listitem [ref=f68e464]:
+              - link "Cookie Einstellungen" [ref=f68e465] [cursor=pointer]:
+                - /url: https://karriere.cancom.de/cookie-einstellungen/
+  - generic:
+    - dialog:
+      - generic [ref=f68e473]:
+        - generic [ref=f68e476]:
+          - generic [ref=f68e479]:
+            - paragraph [ref=f68e480]:
+              - generic [ref=f68e481]: Diese Webseite verwendet neben technisch notwendigen Cookies auch solche, deren Zweck die Analyse von Webseitenzugriffen oder die Personalisierung Ihrer Nutzererfahrung ist. Wir würden uns freuen, wenn Sie durch Ihre bewusste Einwilligung zur Verarbeitung der ausschließlich pseudonym erhobenen Daten helfen würden, unser Angebot für Sie und andere Datenschutzinteressierte zu verbessern. Nähere Informationen dazu finden Sie in unserer Datenschutzerklärung und in unserem Cookiehinweis. Sie finden diese am Ende unserer Webseite in der Fußleiste. Im Cookiehinweis können Sie auch jederzeit Ihre Einwilligung in die Verwendung einsehen und diese ändern oder mit nur einem Klick widerrufen.
+              - generic [ref=f68e482]: Wenn Sie unter 16 Jahre alt sind und Ihre Zustimmung zu freiwilligen Diensten geben möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis bitten.
+              - text: Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen), z. B. für personalisierte Anzeigen und Inhalte oder Anzeigen- und Inhaltsmessung.
+              - generic [ref=f68e483]:
+                - text: Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer
+                - link "Datenschutzerklärung" [ref=f68e484] [cursor=pointer]:
+                  - /url: https://www.cancom.de/datenschutz-cancom/
+                - text: .
+              - generic [ref=f68e485]:
+                - text: Sie können Ihre Auswahl jederzeit unter
+                - link "Einstellungen" [ref=f68e486] [cursor=pointer]:
+                  - /url: "#"
+                - text: widerrufen oder anpassen.
+            - paragraph [ref=f68e487]
+          - generic [ref=f68e488]:
+            - paragraph [ref=f68e489]:
+              - button "Alle Cookies akzeptieren" [active] [ref=f68e490] [cursor=pointer]
+            - paragraph [ref=f68e491]:
+              - button "Individuelle Cookie Einstellungen" [ref=f68e492] [cursor=pointer]
+        - generic [ref=f68e494]:
+          - generic [ref=f68e496]:
+            - heading [level=3] [ref=f68e499]: Datenschutzeinstellungen
+            - paragraph [ref=f68e500]:
+              - generic [ref=f68e501]: Wenn Sie unter 16 Jahre alt sind und Ihre Zustimmung zu freiwilligen Diensten geben möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis bitten.
+              - text: Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern. Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen), z. B. für personalisierte Anzeigen und Inhalte oder Anzeigen- und Inhaltsmessung.
+              - generic [ref=f68e502]:
+                - text: Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer
+                - link [ref=f68e503] [cursor=pointer]:
+                  - /url: https://www.cancom.de/datenschutz-cancom/
+                  - text: Datenschutzerklärung
+                - text: .
+              - generic [ref=f68e504]: Hier finden Sie eine Übersicht über alle verwendeten Cookies. Sie können Ihre Zustimmung zu ganzen Kategorien geben oder sich weitere Informationen anzeigen lassen und so nur bestimmte Cookies auswählen.
+            - generic [ref=f68e505]:
+              - paragraph [ref=f68e507]:
+                - button [ref=f68e508] [cursor=pointer]: Alle akzeptieren
+                - button [ref=f68e509] [cursor=pointer]: Einstellungen speichern & schließen
+              - paragraph [ref=f68e511]:
+                - button [ref=f68e512] [cursor=pointer]: Zurück
+          - group [ref=f68e514]:
+            - generic [ref=f68e515]: Datenschutzeinstellungen
+            - generic [ref=f68e516]:
+              - heading [level=4] [ref=f68e519] [cursor=pointer]: Essenziell (2)
+              - generic [ref=f68e521]:
+                - paragraph [ref=f68e522]: Essenzielle Cookies ermöglichen grundlegende Funktionen und sind für die einwandfreie Funktion der Website erforderlich.
+                - paragraph [ref=f68e523]:
+                  - button [ref=f68e524] [cursor=pointer]: Cookie Informationen anzeigen
+            - generic [ref=f68e525]:
+              - generic [ref=f68e526]:
+                - heading [level=4] [ref=f68e528] [cursor=pointer]: Statistiken (1)
+                - generic [ref=f68e530] [cursor=pointer]:
+                  - generic [ref=f68e531]: Statistiken
+                  - checkbox [checked] [ref=f68e532]
+                  - generic [ref=f68e534]: An
+              - generic [ref=f68e535]:
+                - paragraph [ref=f68e536]: Statistik Cookies erfassen Informationen anonym. Diese Informationen helfen uns zu verstehen, wie unsere Besucher unsere Website nutzen.
+                - paragraph [ref=f68e537]:
+                  - button [ref=f68e538] [cursor=pointer]: Cookie Informationen anzeigen
+              - text: An
+            - generic [ref=f68e539]:
+              - generic [ref=f68e540]:
+                - heading [level=4] [ref=f68e542] [cursor=pointer]: Externe Medien (9)
+                - generic [ref=f68e544] [cursor=pointer]:
+                  - generic [ref=f68e545]: Externe Medien
+                  - checkbox [checked] [ref=f68e546]
+                  - generic [ref=f68e548]: An
+              - generic [ref=f68e549]:
+                - paragraph [ref=f68e550]: Inhalte von Videoplattformen und Social Media Plattformen werden standardmäßig blockiert. Wenn Cookies von externen Medien akzeptiert werden, bedarf der Zugriff auf diese Inhalte keiner manuellen Zustimmung mehr.
+                - paragraph [ref=f68e551]:
+                  - button [ref=f68e552] [cursor=pointer]: Cookie Informationen anzeigen
+              - text: An An An An An An An An An
+          - generic [ref=f68e553]:
+            - paragraph [ref=f68e554]
+            - paragraph [ref=f68e555]:
+              - link [ref=f68e556] [cursor=pointer]:
+                - /url: https://www.cancom.de/datenschutz-cancom/
+                - text: Datenschutzerklärung
+              - generic [ref=f68e557]: "|"
+              - link [ref=f68e558] [cursor=pointer]:
+                - /url: https://www.cancom.de/impressum-cancom/
+                - text: Impressum

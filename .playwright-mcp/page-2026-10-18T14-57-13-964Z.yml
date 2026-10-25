@@ -1,0 +1,99 @@
+- generic [ref=f49e6]:
+  - main [ref=f49e7]:
+    - generic [ref=f49e8]:
+      - navigation "Haupt" [ref=f49e10]:
+        - generic [ref=f49e11]:
+          - link "Zurück zu den Jobdetails" [ref=f49e13] [cursor=pointer]:
+            - /url: /de/job/backend-developer-onlineshop-und-dm-app-java-kotlin-w-m-d/270206/
+          - button "Kontakt aufnehmen" [ref=f49e21] [cursor=pointer]
+      - generic [ref=f49e27]:
+        - generic [ref=f49e28]:
+          - generic:
+            - link "Logo dmTECH, zurück zur Startseite dmTECH Logo":
+              - /url: /de/
+              - generic [ref=f49e29] [cursor=pointer]: Logo dmTECH, zurück zur Startseite
+              - img "dmTECH Logo"
+        - navigation "wizzard.aria_title" [ref=f49e31]:
+          - list [ref=f49e32]:
+            - listitem [ref=f49e33]:
+              - link "Persönliche Angaben" [ref=f49e34] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e35]: Persönliche Angaben
+            - listitem [ref=f49e37]:
+              - link "Fragen" [ref=f49e38] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e39]: Fragen
+            - listitem [ref=f49e41]:
+              - link "Dokumente" [ref=f49e42] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e43]: Dokumente
+            - listitem [ref=f49e45]:
+              - link "Zusammenfassung" [ref=f49e46] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e47]: Zusammenfassung
+        - group [ref=f49e49]:
+          - paragraph [ref=f49e51]: Details zu Deiner Bewerbung
+          - generic [ref=f49e55]:
+            - heading "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [level=1] [ref=f49e56]
+            - generic [ref=f49e57]:
+              - generic [ref=f49e58]:
+                - term [ref=f49e59]:
+                  - generic [ref=f49e60]: Ort der Stelle
+                - definition [ref=f49e64]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=f49e65]:
+                - term [ref=f49e66]:
+                  - generic [ref=f49e67]: Art der Stelle
+                - definition [ref=f49e72]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=f49e73]:
+                - term [ref=f49e74]:
+                  - generic [ref=f49e75]: Art der Stelle
+                - definition [ref=f49e79]: unbefristet
+              - generic [ref=f49e80]:
+                - term [ref=f49e81]:
+                  - generic [ref=f49e82]: vor Ort
+                - definition [ref=f49e87]: vor Ort
+              - generic [ref=f49e88]:
+                - term [ref=f49e89]:
+                  - generic [ref=f49e90]: Ort der Stelle
+                - definition [ref=f49e94]: "Job ID: 270206"
+        - generic:
+          - generic:
+            - generic "Login ungültig"
+  - contentinfo [ref=f49e96]:
+    - generic [ref=f49e97]:
+      - generic [ref=f49e98]: Fußzeile
+      - generic [ref=f49e100]:
+        - navigation "Social Media Links" [ref=f49e101]:
+          - list [ref=f49e102]:
+            - listitem [ref=f49e103]:
+              - link "Zum github-Profil vom dmTECH" [ref=f49e104] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f49e110]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f49e111] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f49e117]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f49e118] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f49e124]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f49e125] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f49e131]:
+          - list [ref=f49e133]:
+            - listitem [ref=f49e134]:
+              - button "DE" [ref=f49e135] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f49e143]:
+          - list [ref=f49e145]:
+            - listitem [ref=f49e146]:
+              - link "Kontakt" [ref=f49e147] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f49e148]:
+              - link "Impressum" [ref=f49e149] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f49e150]:
+              - link "Datenschutz" [ref=f49e151] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f49e152]:
+              - link "Information zur Barrierefreiheit" [ref=f49e153] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f49e154]:
+              - button "Cookie-Einstellungen" [ref=f49e155] [cursor=pointer]

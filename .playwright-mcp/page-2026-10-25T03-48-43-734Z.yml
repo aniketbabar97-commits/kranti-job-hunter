@@ -1,0 +1,297 @@
+- generic [active] [ref=f12e1]:
+  - link "Skip to main content" [ref=f12e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f12e3]:
+    - navigation "Primary" [ref=f12e4]:
+      - link "LinkedIn" [ref=f12e5] [cursor=pointer]:
+        - /url: /?trk=public_post_nav-header-logo
+      - list [ref=f12e8]:
+        - listitem [ref=f12e9]:
+          - link "Top Content" [ref=f12e10] [cursor=pointer]:
+            - /url: https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent
+        - listitem [ref=f12e13]:
+          - link "People" [ref=f12e14] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people
+        - listitem [ref=f12e17]:
+          - link "Learning" [ref=f12e18] [cursor=pointer]:
+            - /url: https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning
+        - listitem [ref=f12e21]:
+          - link "Jobs" [ref=f12e22] [cursor=pointer]:
+            - /url: https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs
+        - listitem [ref=f12e25]:
+          - link "Games" [ref=f12e26] [cursor=pointer]:
+            - /url: https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games
+        - listitem [ref=f12e29]:
+          - link "Get the app" [ref=f12e30] [cursor=pointer]:
+            - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=public_post_guest_nav_menu_windows
+      - generic [ref=f12e33]:
+        - link "Sign in" [ref=f12e34] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&fromSignIn=true&trk=public_post_nav-header-signin
+        - link "Join now" [ref=f12e35] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_nav-header-join
+  - main [ref=f12e36]:
+    - generic [ref=f12e39]:
+      - heading "Peter Ceredig-Evans’ Post" [level=1] [ref=f12e40]
+      - article [ref=f12e41]:
+        - generic [ref=f12e42]:
+          - generic [ref=f12e44]:
+            - link [ref=f12e45] [cursor=pointer]:
+              - /url: https://au.linkedin.com/in/peter-ceredig-evans-2bb88569?trk=public_post_feed-actor-image
+              - img "View profile for Peter Ceredig-Evans" [ref=f12e46]
+            - generic [ref=f12e47]:
+              - link "View profile for Peter Ceredig-Evans" [ref=f12e49] [cursor=pointer]:
+                - /url: https://au.linkedin.com/in/peter-ceredig-evans-2bb88569?trk=public_post_feed-actor-name
+                - text: Peter Ceredig-Evans
+              - time [ref=f12e51]: 1w
+          - button "Open menu" [ref=f12e54] [cursor=pointer]
+        - paragraph [ref=f12e56]:
+          - text: We’re looking for a senior engineer to join our ambitious team of 10. Rather than a typical job spec, this is a brief story about our journey at
+          - link "Mirra" [ref=f12e57] [cursor=pointer]:
+            - /url: https://au.linkedin.com/company/try-with-mirra?trk=public_post-text
+          - text: "and where we are heading. If it sounds like something you'd be interested in being a part of then continue reading and drop me or Michael an email with your CV. Almost 4 years ago, we had a hypothesis that if we moved the purchase decision from the checkout screen to the customers home, we could create a better way for people to shop that would also drive better outcomes for merchants. So we built a super lean app, no bells and whistles and got it in the hands of a few customers who had a problem and were keen to see if we could solve it for them. (those merchants are still customers today). My personal background is heavy in agile product development. Which essentially means that I build products empirically and use real feedback, data (and market data) to decide what to build and what not to build. Something is only valuable if it's solving a customer problem. Fortunately I have a team of rockstar engineers who decide how we build these epic things. Back to the story... we used those early versions of the app to test, learn and adapt the product ensuring that it was a) helping customers shop and b) adding commercial value to the merchants. It was. We kept building and pushing. What started to blow us away was the merchant data and shopper feedback. What we started to witness was that Mirra wasn't just bringing in new orders but something unique was happening. More first-time customers were converting and building bigger baskets. They were also using less discounts to convert. We then started to look at repeat purchase data and saw that customers purchasing via Mirra were buying again 1.6 x more than non-Mirra customers and in much shorter retention cycles. We build and ship fast. Not for the sake of shipping new code but to deliver value to our customers. What started as a single product business has now developed into a platform with three live products and a fourth launching soon. This is what we need:"
+          - strong [ref=f12e58]: Deep ecommerce background
+          - text: "Strong commercial Shopify experience: themes, apps, checkout, Storefront and Admin APIs, webhooks, app extensions Other platforms (BigCommerce, Magento, WooCommerce, Salesforce Commerce Cloud) are a plus Understands how data flows across storefront, OMS, WMS, 3PL, payments and post-purchase tools"
+          - strong [ref=f12e59]: Operationally minded
+          - text: "Builds systems that scale: self-serve onboarding, automated setup, support deflection Judges every feature by how it’s supported, adopted and how it improves the business Comfortable as the technical voice on merchant calls"
+          - strong [ref=f12e60]: Strong full-stack engineer
+          - text: Senior JavaScript,
+          - link "Node.js" [ref=f12e61] [cursor=pointer]:
+            - /url: http://Node.js?trk=public_post-text
+          - text: "and React Experience with AWS and MongoDB, or similar Pragmatic: ships working solutions quickly Brings AI tooling learnings to the team and keeps evolving their workflow (Old pic - now fully remote)"
+        - list [ref=f12e62]:
+          - listitem [ref=f12e63]:
+            - img "No alternative text description for this image" [ref=f12e64]
+        - generic [ref=f12e65]:
+          - link "29 Reactions" [ref=f12e66] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_social-actions-reactions
+            - generic [aria-hidden] [ref=f12e67]: "29"
+          - link "· 8 Comments" [ref=f12e68] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_social-actions-comments
+        - generic [ref=f12e69]:
+          - link "Like" [ref=f12e70] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_like-cta
+          - link "Comment" [ref=f12e73] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment-cta
+          - button "Share" [ref=f12e77] [cursor=pointer]
+        - generic [ref=f12e79]:
+          - link [ref=f12e81] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/peter-ceredig-evans-2bb88569?trk=public_post_comment_actor-image
+            - img "Peter Ceredig-Evans, graphic" [ref=f12e82]
+          - generic [ref=f12e83]:
+            - generic [ref=f12e84]:
+              - generic [ref=f12e85]:
+                - link "Peter Ceredig-Evans" [ref=f12e86] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/in/peter-ceredig-evans-2bb88569?trk=public_post_comment_actor-name
+                - generic [ref=f12e87]: 1w
+                - button "Open menu" [ref=f12e90] [cursor=pointer]
+              - paragraph [ref=f12e92]:
+                - text: "My email:"
+                - link "pete@trywithmirra.com" [ref=f12e93] [cursor=pointer]:
+                  - /url: mailto:pete@trywithmirra.com?trk=public_post_comment-text
+                - text: "Michael:"
+                - link "michael@trywithmirra.com" [ref=f12e94] [cursor=pointer]:
+                  - /url: mailto:michael@trywithmirra.com?trk=public_post_comment-text
+            - generic "Comment Controls" [ref=f12e95]:
+              - link "Like" [ref=f12e96] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e99]: ·
+              - link "Reply" [ref=f12e100] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+              - link "1 Reaction" [ref=f12e103] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reactions
+        - generic [ref=f12e104]:
+          - link [ref=f12e106] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/amartariq93?trk=public_post_comment_actor-image
+            - img "Amar Tariq, graphic" [ref=f12e107]
+          - generic [ref=f12e108]:
+            - generic [ref=f12e109]:
+              - generic [ref=f12e110]:
+                - link "Amar Tariq" [ref=f12e111] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/in/amartariq93?trk=public_post_comment_actor-name
+                - generic [ref=f12e112]: 1w
+                - button "Open menu" [ref=f12e115] [cursor=pointer]
+              - paragraph [ref=f12e117]:
+                - text: Ex-Apple Senior Frontend Engineer, 8+ yrs (React,
+                - link "Node.js" [ref=f12e118] [cursor=pointer]:
+                  - /url: http://Node.js?trk=public_post_comment-text
+                - text: ", AWS, MongoDB). On H1B — I work C2C through my current employer at $65/hr, no transfer/sponsorship needed. Happy to send my CV."
+                - link "amar.murad.tariq1993@gmail.com" [ref=f12e119] [cursor=pointer]:
+                  - /url: mailto:amar.murad.tariq1993@gmail.com?trk=public_post_comment-text
+                - text: "| (929) 441-1679"
+            - generic "Comment Controls" [ref=f12e120]:
+              - link "Like" [ref=f12e121] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e124]: ·
+              - link "Reply" [ref=f12e125] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - generic [ref=f12e128]:
+          - link [ref=f12e130] [cursor=pointer]:
+            - /url: https://eg.linkedin.com/in/devameer?trk=public_post_comment_actor-image
+            - img "Ameer A., graphic" [ref=f12e131]
+          - generic [ref=f12e132]:
+            - generic [ref=f12e133]:
+              - generic [ref=f12e134]:
+                - link "Ameer A." [ref=f12e135] [cursor=pointer]:
+                  - /url: https://eg.linkedin.com/in/devameer?trk=public_post_comment_actor-name
+                - generic [ref=f12e136]: 1w
+                - button "Open menu" [ref=f12e139] [cursor=pointer]
+              - paragraph [ref=f12e141]: Post-purchase try-at-home models succeed when webhooks cleanly sync inventory holds between Shopify Storefront APIs and 3PL backends without friction 🚀
+            - generic "Comment Controls" [ref=f12e142]:
+              - link "Like" [ref=f12e143] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e146]: ·
+              - link "Reply" [ref=f12e147] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - generic [ref=f12e150]:
+          - link [ref=f12e152] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/jameshamelsmith?trk=public_post_comment_actor-image
+            - img "James Hamel-Smith, graphic" [ref=f12e153]
+          - generic [ref=f12e154]:
+            - generic [ref=f12e155]:
+              - generic [ref=f12e156]:
+                - link "James Hamel-Smith" [ref=f12e157] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/in/jameshamelsmith?trk=public_post_comment_actor-name
+                - generic [ref=f12e158]: 1w
+                - button "Open menu" [ref=f12e161] [cursor=pointer]
+              - paragraph [ref=f12e163]:
+                - text: mate whoever lands this is walking into something special.
+                - link "Mirra" [ref=f12e164] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/company/try-with-mirra?trk=public_post_comment-text
+                - text: is an absolute rocket ship with the results you've been driving for brands lately, and it sounds like the direction you're steering it in is only getting bigger.
+            - generic "Comment Controls" [ref=f12e165]:
+              - link "Like" [ref=f12e166] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e169]: ·
+              - link "Reply" [ref=f12e170] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - generic [ref=f12e173]:
+          - link [ref=f12e175] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/mareile-osthus-2abb849b?trk=public_post_comment_actor-image
+            - img "Mareile Osthus, graphic" [ref=f12e176]
+          - generic [ref=f12e177]:
+            - generic [ref=f12e178]:
+              - generic [ref=f12e179]:
+                - link "Mareile Osthus" [ref=f12e180] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/in/mareile-osthus-2abb849b?trk=public_post_comment_actor-name
+                - generic [ref=f12e181]: 1w
+                - button "Open menu" [ref=f12e184] [cursor=pointer]
+              - paragraph [ref=f12e186]: Unfortunately no skills, otherwise I would be tempted!
+            - generic "Comment Controls" [ref=f12e187]:
+              - link "Like" [ref=f12e188] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e191]: ·
+              - link "Reply" [ref=f12e192] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - generic [ref=f12e195]:
+          - link [ref=f12e197] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/lauren-e-ahern?trk=public_post_comment_actor-image
+            - img "Lauren Ahern, graphic" [ref=f12e198]
+          - generic [ref=f12e199]:
+            - generic [ref=f12e200]:
+              - generic [ref=f12e201]:
+                - link "Lauren Ahern" [ref=f12e202] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/in/lauren-e-ahern?trk=public_post_comment_actor-name
+                - generic [ref=f12e203]: 1w
+                - button "Open menu" [ref=f12e206] [cursor=pointer]
+              - paragraph [ref=f12e208]: Such an exciting role!
+            - generic "Comment Controls" [ref=f12e209]:
+              - link "Like" [ref=f12e210] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e213]: ·
+              - link "Reply" [ref=f12e214] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - generic [ref=f12e217]:
+          - link [ref=f12e219] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/michael23b?trk=public_post_comment_actor-image
+            - img "Michael Burnett, graphic" [ref=f12e220]
+          - generic [ref=f12e221]:
+            - generic [ref=f12e222]:
+              - generic [ref=f12e223]:
+                - link "Michael Burnett" [ref=f12e224] [cursor=pointer]:
+                  - /url: https://au.linkedin.com/in/michael23b?trk=public_post_comment_actor-name
+                - generic [ref=f12e225]: 1w
+                - button "Open menu" [ref=f12e228] [cursor=pointer]
+              - paragraph [ref=f12e230]: So exciting to be growing the team. Big things coming!!!
+            - generic "Comment Controls" [ref=f12e231]:
+              - link "Like" [ref=f12e232] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_like
+              - generic [ref=f12e235]: ·
+              - link "Reply" [ref=f12e236] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_comment_reply
+        - link "See more comments" [ref=f12e239] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_see-more-comments
+        - paragraph [ref=f12e240]:
+          - text: To view or add a comment,
+          - link "To view or add a comment, sign in" [ref=f12e241] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fpeter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3&trk=public_post_feed-cta-banner-cta
+            - text: sign in
+    - generic [ref=f12e242]:
+      - generic [ref=f12e244]:
+        - figure [ref=f12e245]
+        - img "Peter Ceredig-Evans" [ref=f12e248]
+        - paragraph [ref=f12e249]: 3,109 followers
+        - list [ref=f12e251]:
+          - listitem [ref=f12e252]:
+            - link "340 Posts" [ref=f12e253] [cursor=pointer]:
+              - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fpeter-ceredig-evans-2bb88569%2Frecent-activity%2F&trk=public_post_follow-posts
+        - generic [ref=f12e254]:
+          - link "View Profile" [ref=f12e255] [cursor=pointer]:
+            - /url: https://au.linkedin.com/in/peter-ceredig-evans-2bb88569?trk=public_post_follow-view-profile
+          - link "Connect" [ref=f12e256] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7515581828846555136&trk=public_post_follow
+      - generic [ref=f12e258]:
+        - heading "Explore content categories" [level=2] [ref=f12e259]
+        - generic [ref=f12e261]:
+          - list [ref=f12e262]:
+            - listitem [ref=f12e263]:
+              - link "Career" [ref=f12e264] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/career/
+            - listitem [ref=f12e265]:
+              - link "Productivity" [ref=f12e266] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/productivity/
+            - listitem [ref=f12e267]:
+              - link "Finance" [ref=f12e268] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/finance/
+            - listitem [ref=f12e269]:
+              - link "Soft Skills & Emotional Intelligence" [ref=f12e270] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/
+            - listitem [ref=f12e271]:
+              - link "Project Management" [ref=f12e272] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/project-management/
+            - listitem [ref=f12e273]:
+              - link "Education" [ref=f12e274] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/education/
+          - button "Show more" [ref=f12e275] [cursor=pointer]
+  - contentinfo [ref=f12e277]:
+    - list [ref=f12e278]:
+      - generic [ref=f12e279]: LinkedIn
+      - generic [ref=f12e281]: © 2026
+      - listitem [ref=f12e282]:
+        - link "About" [ref=f12e283] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_public_post_footer-about
+      - listitem [ref=f12e284]:
+        - link "Accessibility" [ref=f12e285] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility
+      - listitem [ref=f12e286]:
+        - link "User Agreement" [ref=f12e287] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement
+      - listitem [ref=f12e288]:
+        - link "Privacy Policy" [ref=f12e289] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy
+      - listitem [ref=f12e290]:
+        - link "Cookie Policy" [ref=f12e291] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy
+      - listitem [ref=f12e292]:
+        - link "Copyright Policy" [ref=f12e293] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy
+      - listitem [ref=f12e294]:
+        - link "Brand Policy" [ref=f12e295] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy
+      - listitem [ref=f12e296]:
+        - link "Guest Controls" [ref=f12e297] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls
+      - listitem [ref=f12e298]:
+        - link "Community Guidelines" [ref=f12e299] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide
+      - listitem [ref=f12e300]:
+        - button "Language" [ref=f12e302]

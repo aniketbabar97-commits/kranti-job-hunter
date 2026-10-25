@@ -1,0 +1,31 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e7]:
+    - generic [ref=f14e9]:
+      - generic [ref=f14e10]:
+        - img "Holz-Richter GmbH logo" [ref=f14e11]
+        - generic [ref=f14e12]:
+          - link [ref=f14e13] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter
+            - paragraph [ref=f14e14]: Holz-Richter GmbH
+          - link [ref=f14e15] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter/16831928-shopify-e-commerce-manager-product-owner-m-w-d
+            - paragraph [ref=f14e16]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f14e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f14e20]: KC
+        - generic [ref=f14e21]: Kranti Chavan
+    - generic [ref=f14e528]:
+      - heading "Können Sie regelmäßig vor Ort arbeiten?" [level=2] [ref=f14e529]
+      - generic [ref=f14e531]:
+        - radio [ref=f14e533] [cursor=pointer]:
+          - paragraph [ref=f14e535]: a
+          - paragraph [ref=f14e536]: Ja
+        - radio [ref=f14e541] [cursor=pointer]:
+          - paragraph [ref=f14e543]: b
+          - paragraph [ref=f14e544]: Nein
+    - generic [ref=f14e36]:
+      - progressbar "86%" [ref=f14e548]
+      - generic [ref=f14e41]:
+        - button "Zurück" [ref=f14e84] [cursor=pointer]
+        - button "Weiter" [disabled] [ref=f14e49]
+  - alert [ref=f14e4]: "Holz-Richter (Lindlar): Shopify E-Commerce Manager / Product Owner (m/w/d)"
+  - region "Notifications, bottom-end (alt+T)"

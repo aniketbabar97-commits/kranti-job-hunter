@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - dialog "cookieconsent" [ref=e2]:
+    - generic [ref=e3]:
+      - text: Um Ihnen einen bestmöglichen Service zu bieten und die Verwendung mancher Funktionen zu erleichtern, verwenden wir Cookies. Mit der Nutzung dieser Seite erklären Sie sich mit der Verwendung von Cookies einverstanden. Die Einwilligung kann jeder Zeit mit Wirkung für die Zukunft widerrufen werden. Mehr Informationen darüber, welche Daten gespeichert werden, erhalten Sie
+      - link "hier." [ref=e4] [cursor=pointer]:
+        - /url: datenschutz
+      - text: .
+    - generic [ref=e5]:
+      - button "Button namens Ja, ich bin einverstanden ausführen" [ref=e6] [cursor=pointer]: Ja, ich bin einverstanden
+      - generic [ref=e7]:
+        - button "Button namens Cookies anpassen ausführen" [ref=e8] [cursor=pointer]: Cookies anpassen
+        - button "Button namens Ablehnen ausführen" [ref=e9] [cursor=pointer]: Ablehnen
+  - generic [ref=e10]:
+    - banner:
+      - generic [ref=e12]:
+        - link "Link zu COMPANY_LOGO öffnen" [ref=e14] [cursor=pointer]:
+          - /url: /de
+          - img "Logo" [ref=e15]
+        - generic [ref=e16]:
+          - list [ref=e18]:
+            - listitem [ref=e19]: Deutsch
+          - navigation "Hauptnavigation" [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - link "Link zu Stellenangebote öffnen" [ref=e24] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/stellenangebote.html
+                  - text: Stellenangebote
+              - listitem [ref=e25]:
+                - link "Link zu Ausbildung öffnen" [ref=e26] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/ausbildung.html
+                  - text: Ausbildung
+              - listitem [ref=e27]:
+                - link "Link zu Über uns öffnen" [ref=e28] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/ueber-uns.html
+                  - text: Über uns
+              - listitem [ref=e29]:
+                - link "Link zu FAQ öffnen" [ref=e30] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/faq.html
+                  - text: FAQ
+    - main [ref=e31]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - link "Button namens Zurück ausführen" [ref=e36] [cursor=pointer]:
+            - /url: https://karriere.tarox.de/stellenangebote.html
+            - text: Zurück
+          - link "Button namens Jetzt bewerben! ausführen" [ref=e38] [cursor=pointer]:
+            - /url: https://karriere.tarox.de/Shopware-Webentwickler-mwd-de-f172.html
+            - text: Jetzt bewerben!
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - heading "Shopware Webentwickler (m/w/d)" [level=1] [ref=e44]
+              - generic [ref=e45]:
+                - list [ref=e46]:
+                  - listitem [ref=e47]:
+                    - generic [ref=e48]: 
+                    - text: Lünen
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]: 
+                    - text: IT
+                - list [ref=e51]:
+                  - listitem [ref=e52]:
+                    - generic [ref=e53]: 
+                    - text: Vollzeit
+                  - listitem [ref=e54]:
+                    - generic [ref=e55]: 
+                    - text: "Publiziert: 26.06.2026"
+            - img "Shopware Webentwickler (m/w/d), 1. Bild" [ref=e57]
+          - generic [ref=e58]:
+            - heading "Über die TAROX AG" [level=2] [ref=e59]
+            - paragraph [ref=e61]: Das Unternehmen TAROX zählt zu den führenden IT-Anbietern ganzheitlicher Lösungen und umfassender Produktfamilien im deutschsprachigen Raum. Die Entwicklung vom TAROX Eigenmarken-Hersteller und Distributor ausgewählter Ware von Technologie- und Weltmarktführern hin zum Komplettlösungsanbieter dient dabei einer ganzheitlichen Betreuung der Auftraggeber.Zum Tragen kommen dabei Markt-Erfahrung aus mehr als 30 Jahren und das Know-How aus den fünf Kompetenzfeldern TAROX Systeme, Data Cloud, Security und Distribution. Ziel der vielfältigen Unterstützung ist es, reibungslose Geschäftsprozesse in einem guten Preis-Leistungs-Verhältnis zu präsentieren, um die Wertschöpfung zu fördern und ein effizienteres Arbeiten zu ermöglichen.
+          - generic [ref=e62]:
+            - heading "Deine Aufgaben" [level=2] [ref=e63]
+            - list [ref=e66]:
+              - listitem [ref=e67]: Weiterentwicklung, technische Optimierung und Pflege unserer Shopware-6-Plattformen
+              - listitem [ref=e68]: Entwicklung und Anpassung individueller Plugins, Erweiterungen und Schnittstellen
+              - listitem [ref=e69]: Umsetzung neuer Funktionen, Features und Landingpages in direkter Zusammenarbeit mit dem Marketing-Team
+              - listitem [ref=e70]: Technische Begleitung von Kampagnen, Produktlaunches und digitalen Marketingmaßnahmen
+              - listitem [ref=e71]: Monitoring, Analyse und kontinuierliche Optimierung der Performance von Website und Shop
+              - listitem [ref=e72]: Troubleshooting und schnelle, effiziente sowie lösungsorientierte Behebung technischer Herausforderungen
+              - listitem [ref=e73]: Enge Zusammenarbeit mit den Fachbereichen Marketing, Vertrieb, Einkauf und Produktmanagement
+              - listitem [ref=e74]: "Optional: Unterstützung bei der Weiterentwicklung unserer Corporate Website auf Basis von WordPress"
+          - generic [ref=e75]:
+            - heading "Das bringst Du mit" [level=2] [ref=e76]
+            - list [ref=e79]:
+              - listitem [ref=e80]: Mehrjährige Erfahrung in der Shopware-Entwicklung, idealerweise mit Shopware 6
+              - listitem [ref=e81]: Sehr gute Kenntnisse in PHP, Symfony, Twig, MySQL, HTML, CSS und JavaScript
+              - listitem [ref=e82]: Erfahrung in der Plugin-Entwicklung und bei API-Anbindungen
+              - listitem [ref=e83]: Technisches Verständnis für E-Commerce-Prozesse, UX und Performance
+              - listitem [ref=e84]: Eine strukturierte, eigenständige und lösungsorientierte Arbeitsweise
+              - listitem [ref=e85]: Kommunikationsstärke und Freude an der Zusammenarbeit mit verschiedenen Fachbereichen
+              - listitem [ref=e86]: Teamgeist, Zuverlässigkeit und Verantwortungsbewusstsein
+          - generic [ref=e87]:
+            - heading "Das bieten wir Dir" [level=2] [ref=e88]
+            - generic [ref=e89]:
+              - paragraph [ref=e90]: "Bei TAROX bekommst Du eine Arbeitsumgebung, in der Du wachsen und Dich entfalten kannst:"
+              - list [ref=e91]:
+                - listitem [ref=e92]: Als festes Mitglied unseres Marketing-Teams gestaltest Du die Weiterentwicklung unserer digitalen Plattformen aktiv mit und bringst Deine eigenen Ideen ein.
+                - listitem [ref=e93]: Direkte Zusammenarbeit mit kreativen Teams, Kampagnenverantwortlichen und Produktmanagern
+                - listitem [ref=e94]: Hoher Gestaltungsspielraum und echte Verantwortung
+                - listitem [ref=e95]: Moderne Ausstattung, flexible Arbeitszeiten und Möglichkeiten zum Homeoffice
+                - listitem [ref=e96]: Eine offene Unternehmenskultur, kurze Entscheidungswege und ein starkes Miteinander
+                - listitem [ref=e97]: Ein sicherer Arbeitsplatz in einem erfolgreichen IT-Unternehmen
+          - generic [ref=e98]:
+            - heading [level=2]
+            - generic [ref=e99]:
+              - paragraph [ref=e100]: Du findest Dich in der Beschreibung wieder? Dann überzeuge uns von Deinen Fähigkeiten und sende uns Deine aussagefähigen Bewerbungsunterlagen.
+              - paragraph [ref=e101]: Bitte berücksichtigen Sie, dass die TAROX AG und sämtliche Tochtergesellschaften keine unaufgefordert zugesandten Bewerbungsunterlagen von Personalvermittlungsagenturen akzeptieren. Wir arbeiten mit bevorzugten Anbietern zusammen und werden ohne entsprechende Rahmenvereinbarung keine Vergütungszahlungen an Personalvermittlungsagenturen vornehmen. Sollten wir ein Kandidatenprofil von einer Personalvermittlungsagentur erhalten, mit der keine Rahmenvereinbarung besteht, und dieser Kandidat zu einem späteren Zeitpunkt im Rekrutierungsprozess berücksichtigt oder eingestellt werden, entstehen dadurch keine Ansprüche auf Seiten der Personalvermittlungsagentur.
+          - generic [ref=e102]:
+            - img "Athina Tsalta" [ref=e103]
+            - list [ref=e104]:
+              - listitem [ref=e105]: Athina Tsalta
+              - listitem [ref=e106]: HR Managerin
+              - listitem [ref=e107]: +49 231 98980255
+        - link [ref=e110] [cursor=pointer]:
+          - /url: https://www.rexx-systems.com
+          - img "Rexx Systems - software for success" [ref=e111]
+    - contentinfo "Fußbereich" [ref=e113]:
+      - generic [ref=e114]:
+        - generic "Footer-Navigation" [ref=e115]:
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - link "Link zu Impressum öffnen" [ref=e118] [cursor=pointer]:
+                - /url: https://karriere.tarox.de/impressum.html
+                - text: Impressum
+            - listitem [ref=e119]:
+              - link "Link zu Datenschutz öffnen" [ref=e120] [cursor=pointer]:
+                - /url: https://karriere.tarox.de/datenschutz.html
+                - text: Datenschutz
+        - generic "Social Media" [ref=e121]:
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link "Link zu Facebook öffnen" [ref=e124] [cursor=pointer]:
+                - /url: https://www.facebook.com/
+                - generic [ref=e125]: 
+            - listitem [ref=e126]:
+              - link "Link zu Instagram öffnen" [ref=e127] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+                - generic [ref=e128]: 
+            - listitem [ref=e129]:
+              - link "Link zu Finest Jobs öffnen" [ref=e130] [cursor=pointer]:
+                - /url: https://www.finest-jobs.com/
+                - generic [ref=e131]: 
+            - listitem [ref=e132]:
+              - link "Link zu X öffnen" [ref=e133] [cursor=pointer]:
+                - /url: https://x.com/
+                - generic [ref=e134]: 
+            - listitem [ref=e135]:
+              - link "Link zu Pinterest öffnen" [ref=e136] [cursor=pointer]:
+                - /url: https://www.pinterest.de/
+                - generic [ref=e137]: 
+            - listitem [ref=e138]:
+              - link "Link zu Linkedin öffnen" [ref=e139] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+                - generic [ref=e140]: 
+            - listitem [ref=e141]:
+              - link "Link zu Xing öffnen" [ref=e142] [cursor=pointer]:
+                - /url: https://www.xing.com/
+                - generic [ref=e143]: 
+            - listitem [ref=e144]:
+              - link "Link zu Youtube öffnen" [ref=e145] [cursor=pointer]:
+                - /url: https://www.youtube.com/
+                - generic [ref=e146]: 
+            - listitem [ref=e147]:
+              - link "Link zu Kununu öffnen" [ref=e148] [cursor=pointer]:
+                - /url: https://www.kununu.com/
+                - generic [ref=e149]: 

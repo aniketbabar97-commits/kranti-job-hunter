@@ -1,0 +1,207 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e4]:
+    - link "Direkt zum Hauptinhalt springen" [ref=f5e5] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f5e6]:
+      - generic [ref=f5e8]:
+        - link "Provitex – Startseite" [ref=f5e9] [cursor=pointer]:
+          - /url: /
+        - button "Menü öffnen" [ref=f5e15]
+    - main [ref=f5e18]:
+      - generic [ref=f5e19]:
+        - generic [ref=f5e23]:
+          - navigation "Brotkrümelnavigation" [ref=f5e24]:
+            - list [ref=f5e25]:
+              - listitem [ref=f5e26]:
+                - link "www.provitex.de" [ref=f5e27] [cursor=pointer]:
+                  - /url: /
+                - generic [aria-hidden] [ref=f5e28]: ›
+              - listitem [ref=f5e29]:
+                - link "Karriere" [ref=f5e30] [cursor=pointer]:
+                  - /url: /karriere
+          - generic [ref=f5e32]:
+            - heading "Wir freuen uns auf deine Bewerbung" [level=1] [ref=f5e35]:
+              - generic [ref=f5e36]: Wir freuen
+              - generic [ref=f5e37]:
+                - text: uns auf deine
+                - generic [ref=f5e38]: Bewerbung
+            - paragraph [ref=f5e40]: Bewirb Dich einfach und schnell online.
+        - region "Bewerbungsformular-Bereich" [ref=f5e43]:
+          - generic [ref=f5e45]:
+            - heading "Wir freuen uns auf deine Bewerbung!" [level=1] [ref=f5e47]
+            - generic [ref=f5e49]:
+              - paragraph [ref=f5e50]: Ob klassisch über die E-Mail oder schnell über das Formular, wir freuen uns über Deine Bewerbung gleichermaßen!
+              - paragraph [ref=f5e51]: Wir verzichten gerne auf ein Anschreiben. Wichtige Angaben zur Person sind bei uns die Grundvoraussetzungen, alles andere sind Angaben, die Du optional angeben kannst.
+          - generic [ref=f5e55]:
+            - generic [ref=f5e56]:
+              - generic [ref=f5e57]:
+                - generic [ref=f5e58]: Vorname*
+                - textbox "Vorname*" [ref=f5e63]
+              - generic [ref=f5e64]:
+                - generic [ref=f5e65]: Nachname*
+                - textbox "Nachname*" [ref=f5e70]
+            - generic [ref=f5e71]:
+              - generic [ref=f5e72]:
+                - generic [ref=f5e73]: Straße*
+                - textbox "Straße*" [ref=f5e78]
+              - generic [ref=f5e79]:
+                - generic [ref=f5e80]: Hausnummer*
+                - textbox "Hausnummer*" [ref=f5e85]
+            - generic [ref=f5e86]:
+              - generic [ref=f5e87]:
+                - generic [ref=f5e88]: PLZ*
+                - textbox "PLZ*" [ref=f5e93]
+              - generic [ref=f5e94]:
+                - generic [ref=f5e95]: Ort*
+                - textbox "Ort*" [ref=f5e100]
+            - generic [ref=f5e101]:
+              - generic [ref=f5e102]: E-Mail Adresse*
+              - textbox "E-Mail Adresse*" [ref=f5e107]
+            - generic [ref=f5e108]:
+              - generic [ref=f5e109]: Telefon-/ Mobilnummer (optional)
+              - textbox "Telefon-/ Mobilnummer (optional)" [ref=f5e114]
+            - generic [ref=f5e115]:
+              - generic [ref=f5e116]: Auf welche Stelle bewirbst Du Dich? (optional)
+              - textbox "Auf welche Stelle bewirbst Du Dich? (optional)" [ref=f5e121]
+            - generic [ref=f5e122]:
+              - generic [ref=f5e123]: Ist sonst noch etwas erwähnenswert? (optional)
+              - textbox "Ist sonst noch etwas erwähnenswert? (optional)" [ref=f5e128]
+            - generic [ref=f5e129]:
+              - generic [ref=f5e130]:
+                - text: Anschreiben oder vollständige Unterlagen
+                - generic [ref=f5e131]: "*"
+              - paragraph [ref=f5e132]: "Erlaubt: pdf, jpg, jpeg, png, doc, docx · max. 8 MB pro Datei"
+              - button "Datei auswählen" [ref=f5e133]
+              - button "Anschreiben oder vollständige Unterlagen *" [ref=f5e134]
+            - generic [ref=f5e135]:
+              - generic [ref=f5e136]: Lebenslauf (optional)
+              - paragraph [ref=f5e137]: "Erlaubt: pdf, jpg, jpeg, png, doc, docx · max. 8 MB pro Datei"
+              - button "Datei auswählen" [ref=f5e138]
+              - button "Lebenslauf (optional)" [ref=f5e139]
+            - generic [ref=f5e140]:
+              - generic [ref=f5e141]: Zeugnisse und ggf. Zertifikate (optional)
+              - paragraph [ref=f5e142]: "Erlaubt: pdf, jpg, jpeg, png, doc, docx · max. 8 MB pro Datei"
+              - button "Datei auswählen" [ref=f5e143]
+              - button "Zeugnisse und ggf. Zertifikate (optional)" [ref=f5e144]
+            - generic [aria-hidden] [ref=f5e145]:
+              - text: Fax
+              - textbox [ref=f5e146]
+            - generic [ref=f5e149]:
+              - checkbox "Datenschutzerklärung akzeptieren" [ref=f5e152]:
+                - checkbox [ref=f5e153]
+              - paragraph [ref=f5e155]:
+                - text: Ich habe die
+                - link "Datenschutzerklärung" [ref=f5e156] [cursor=pointer]:
+                  - /url: /datenschutz
+                - text: zur Kenntnis genommen. Ich stimme zu, dass meine Angaben und Unterlagen zur Bearbeitung meiner Bewerbung gespeichert und verarbeitet werden.
+            - button "Bewerbung absenden" [ref=f5e158]
+        - generic [ref=f5e170]:
+          - heading "Bewirb dich alternativ per E-Mail" [level=2] [ref=f5e172]:
+            - generic [ref=f5e173]: Bewirb dich
+            - generic [ref=f5e174]:
+              - text: alternativ per
+              - generic [ref=f5e175]: E-Mail
+          - generic [ref=f5e176]:
+            - link "Per E-Mail bewerben" [ref=f5e177] [cursor=pointer]:
+              - /url: mailto:jobs@provitex.de
+            - paragraph [ref=f5e185]:
+              - text: Sende Deine Bewerbungsunterlagen an die E-Mailadresse
+              - strong [ref=f5e186]: jobs@provitex.de
+              - text: .
+    - contentinfo [ref=f5e187]:
+      - generic [ref=f5e189]:
+        - generic [ref=f5e190]:
+          - generic [ref=f5e192]:
+            - link "Provitex – Startseite" [ref=f5e193] [cursor=pointer]:
+              - /url: /
+              - img "Provitex Logo" [ref=f5e194]
+            - generic [ref=f5e203]:
+              - generic [ref=f5e204]:
+                - paragraph [ref=f5e205]: Digitalagentur seit 2009
+                - paragraph [ref=f5e206]: 3-fach ISO-zertifiziert
+                - paragraph [ref=f5e207]: Reutlingen, Baden-Württemberg
+              - generic [ref=f5e208]:
+                - paragraph [ref=f5e209]: RIPE NCC Full Member
+                - paragraph [ref=f5e210]: Eigener IP-Adressraum
+          - generic [ref=f5e212]:
+            - navigation "Leistungen-Navigation" [ref=f5e213]:
+              - button "Leistungen" [ref=f5e214]
+              - generic:
+                - list:
+                  - listitem [ref=f5e218]:
+                    - link "TYPO3-Websites" [ref=f5e219] [cursor=pointer]:
+                      - /url: /leistungen/typo3-agentur
+                  - listitem [ref=f5e221]:
+                    - link "Shopware-Shops" [ref=f5e222] [cursor=pointer]:
+                      - /url: /leistungen/shopware-agentur
+                  - listitem [ref=f5e224]:
+                    - link "PIM mit Pimcore" [ref=f5e225] [cursor=pointer]:
+                      - /url: /leistungen/pimcore-agentur
+                  - listitem [ref=f5e227]:
+                    - link "ERP mit weclapp" [ref=f5e228] [cursor=pointer]:
+                      - /url: /leistungen/weclapp-partner
+                  - listitem [ref=f5e230]:
+                    - link "Individualsoftware" [ref=f5e231] [cursor=pointer]:
+                      - /url: /leistungen/individualsoftware-systemintegrator-mittelstand
+                  - listitem [ref=f5e233]:
+                    - link "Online-Marketing" [ref=f5e234] [cursor=pointer]:
+                      - /url: /leistungen/online-marketing
+                  - listitem [ref=f5e236]:
+                    - link "Hosting & Infrastruktur" [ref=f5e237] [cursor=pointer]:
+                      - /url: /leistungen/hosting-infrastruktur
+            - navigation "Unternehmen-Navigation" [ref=f5e239]:
+              - button "Unternehmen" [ref=f5e240]
+              - generic:
+                - list:
+                  - listitem [ref=f5e244]:
+                    - link "Warum Provitex" [ref=f5e245] [cursor=pointer]:
+                      - /url: /warum-provitex
+                  - listitem [ref=f5e247]:
+                    - link "Fakten zu Provitex" [ref=f5e248] [cursor=pointer]:
+                      - /url: /fakten-provitex
+          - region "Kontakt" [ref=f5e250]:
+            - button "Kontakt" [ref=f5e251]
+            - generic:
+              - generic:
+                - paragraph [ref=f5e255]: Provitex GmbH
+                - paragraph [ref=f5e256]:
+                  - link "+49 (7121) 696 88-00" [ref=f5e257] [cursor=pointer]:
+                    - /url: tel:+49(7121)69688-00
+                - paragraph [ref=f5e258]:
+                  - link "info@provitex.de" [ref=f5e259] [cursor=pointer]:
+                    - /url: mailto:info@provitex.de
+                - paragraph [ref=f5e260]: Eberhardstr. 1
+                - paragraph [ref=f5e261]: 72764 Reutlingen
+        - separator [ref=f5e262]
+        - generic [ref=f5e264]:
+          - paragraph [ref=f5e265]: © 2009–2026 Provitex GmbH. Alle Rechte vorbehalten.
+          - list [ref=f5e266]:
+            - listitem [ref=f5e267]:
+              - link "LinkedIn" [ref=f5e268] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/provitex-gmbh/
+            - listitem [ref=f5e271]:
+              - link "Facebook" [ref=f5e272] [cursor=pointer]:
+                - /url: https://www.facebook.com/provitex/
+            - listitem [ref=f5e275]:
+              - link "Xing" [ref=f5e276] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/provitexgmbh
+          - navigation "Rechtliche Hinweise" [ref=f5e279]:
+            - list [ref=f5e280]:
+              - listitem [ref=f5e281]:
+                - link "Impressum" [ref=f5e282] [cursor=pointer]:
+                  - /url: /impressum
+              - listitem [ref=f5e284]:
+                - text: ·
+                - link "Datenschutz" [ref=f5e285] [cursor=pointer]:
+                  - /url: /datenschutz
+              - listitem [ref=f5e287]:
+                - text: ·
+                - link "AGB" [ref=f5e288] [cursor=pointer]:
+                  - /url: https://www.provitex.de/fileadmin/user_upload/provitex/agb.pdf
+              - listitem [ref=f5e290]:
+                - text: ·
+                - button "Cookie-Einstellungen" [ref=f5e291] [cursor=pointer]
+  - iframe [aria-hidden] [ref=f5e292]
+  - region "Notifications (F8)":
+    - list
+  - button "Widget für Cookie-Einstellungen öffnen" [ref=f5e294] [cursor=pointer]

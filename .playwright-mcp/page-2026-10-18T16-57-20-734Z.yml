@@ -1,0 +1,167 @@
+- generic [active] [ref=f8e1]:
+  - group [ref=f8e3]:
+    - generic [ref=f8e4] [cursor=pointer]
+  - generic [ref=f8e9]:
+    - link [ref=f8e10] [cursor=pointer]:
+      - /url: /
+      - img "QUIS logo" [ref=f8e11]
+    - list [ref=f8e13]:
+      - listitem [ref=f8e14]:
+        - group [ref=f8e15]:
+          - generic "Lösungen" [ref=f8e16]
+      - listitem [ref=f8e17]:
+        - link "Know how meets KI" [ref=f8e18] [cursor=pointer]:
+          - /url: /ai
+    - generic [ref=f8e20]:
+      - link "Anmelden" [ref=f8e21] [cursor=pointer]:
+        - /url: /users/sign_in
+      - link "Demo vereinbaren" [ref=f8e23] [cursor=pointer]:
+        - /url: https://demo.quis.de
+  - generic [ref=f8e29]:
+    - generic [ref=f8e32]:
+      - generic [ref=f8e33]:
+        - heading "Gestalte mit uns die Zukunft des Wohnungsmarktes" [level=1] [ref=f8e34]
+        - paragraph [ref=f8e35]: Wir bei QUIS sind auf einer Mission, den Wohnungsmarkt durch innovative Technologien und datengestützte Lösungen transparenter zu gestalten. Zur Verstärkung unseres Teams suchen wir engagierte und motivierte Teamplayer, die mit uns die Immobilienbranche revolutionieren möchten. Bewirb dich jetzt und werde Teil eines dynamischen und zukunftsorientierten Teams.
+        - generic [ref=f8e36]:
+          - link "Stellenangebote" [ref=f8e37] [cursor=pointer]:
+            - /url: "#jobs"
+          - link "Bewirb dich jetzt" [ref=f8e39] [cursor=pointer]:
+            - /url: https://jobapplication.hrworks.de/apply?companyId=u87e986&id=a5d8ec
+      - img "Flagge mit QUIS-Logo und Einladung, QUIS beizutreten." [ref=f8e43]
+    - generic [ref=f8e44]:
+      - generic [ref=f8e45]:
+        - heading "Weltoffen und bodenständig" [level=2] [ref=f8e46]
+        - generic [ref=f8e47]:
+          - img "Mitarbeiter mit Lächeln bei der Arbeit." [ref=f8e52]
+          - generic [ref=f8e53]:
+            - paragraph [ref=f8e54]: "Bei QUIS verbinden wir das Beste aus zwei Welten: Die Dynamik eines Start ups mit unserer langjährigen Erfahrung aus der Wohnungsmarktanalytik."
+            - paragraph [ref=f8e55]: Aktuell sind wir 7 Mitarbeiter am Standort in Hamburg-Othmarschen und erweitern das Team mit den besten Talenten, die unsere Begeisterung teilen, den Wohnungsmarkt transparent und besser verständlich zu machen.
+            - paragraph [ref=f8e56]: Unser Team arbeitet kreativ und analytisch auf Augenhöhe miteinander sowohl im Büro als auch remote im Homeoffice.
+            - paragraph [ref=f8e57]: Unser Erfolg basiert auf innovativen digitalen Lösungen, mit denen wir unseren Kunden durch maximale Transparenz, hohe Datenqualität und eine hervorragende User Experience überzeugen.
+      - generic [ref=f8e58]:
+        - heading "So arbeiten wir bei QUIS" [level=2] [ref=f8e59]
+        - generic [ref=f8e60]:
+          - img "QUIS-Team diskutiert und analysiert Immobiliendaten." [ref=f8e65]
+          - paragraph [ref=f8e67]: Als Proptech bieten wir den Charme eines Startups in einer vielfältigen Branche. Wir haben den Anspruch, unseren Kunden mit hoher Datenqualität stets die besten Informationen für ihre Entscheidungen zu liefern. Dafür arbeiten wir in crossfunktionalen Teams zusammen, so dass wir unser unterschiedliches Wissen miteinander verbinden.
+      - generic [ref=f8e68]:
+        - heading "Unser Team" [level=2] [ref=f8e69]
+        - generic [ref=f8e71]:
+          - generic [ref=f8e72]:
+            - button "prev" [ref=f8e73]
+            - button "next" [ref=f8e75]
+          - generic [ref=f8e77]:
+            - generic [ref=f8e80]:
+              - img "Bettina Harms - QUIS" [ref=f8e84]
+              - paragraph [ref=f8e85]: Die Zusammenarbeit in unserem Team ist spannend und abwechslungsreich. Es ist toll zu sehen, dass wir mit unserer Arbeit auf großes Interesse aus der Immobilienwirtschaft stoßen.
+              - generic [ref=f8e86]:
+                - paragraph [ref=f8e87]: Bettina
+                - generic [ref=f8e88]: CEO - Founder
+            - generic [ref=f8e91]:
+              - img "Mahbub Alam - QUIS" [ref=f8e95]
+              - paragraph [ref=f8e96]: Das Erreichen von KPIs macht mich mehr glücklich als alles andere.
+              - generic [ref=f8e97]:
+                - paragraph [ref=f8e98]: Mahbub
+                - generic [ref=f8e99]: Marketing Manager
+            - generic [ref=f8e102]:
+              - img "Karsten Goldt - QUIS" [ref=f8e106]
+              - paragraph [ref=f8e107]: Kundenwünsche, Immobilienmarkt und QUIS bilden ein besonderes Dreieck und stellt uns täglich vor neuen Herausforderungen. Es bringt mir Spaß, diese Prozesse mit zu gestalten.
+              - generic [ref=f8e108]:
+                - paragraph [ref=f8e109]: Karsten
+                - generic [ref=f8e110]: Head of Sales
+            - generic [ref=f8e113]:
+              - img "Matthias Harms - QUIS" [ref=f8e117]
+              - paragraph [ref=f8e118]: Gemeinsam im Team finden wir jede Woche gute Lösungen für neue Herausforderungen.
+              - generic [ref=f8e119]:
+                - paragraph [ref=f8e120]: Matthias
+                - generic [ref=f8e121]: Senior Software Developer
+            - generic [ref=f8e124]:
+              - img "Tatjana Rouch - QUIS" [ref=f8e128]
+              - paragraph [ref=f8e129]: QUIS hat eine spannende Produktpalette, die kontinuierlich verbessert wird. Umso mehr macht es Spaß, in einem internationalen Team, bei der Produktentwicklung mitzuwirken und aus der Customisation Sicht direkte Erfolge zu erziehen.
+              - generic [ref=f8e130]:
+                - paragraph [ref=f8e131]: Tatjana
+                - generic [ref=f8e132]: Account & Customer Success Managerin
+            - generic [ref=f8e135]:
+              - img "Matthias Klupp - QUIS" [ref=f8e139]
+              - paragraph [ref=f8e140]: Es ist faszinierend, wieviel Mehrwert wir für unsere Nutzer durch unsere Wohnungsmarktdaten und -analysen schaffen können. Das treibt uns stetig an.
+              - generic [ref=f8e141]:
+                - paragraph [ref=f8e142]: Matthias
+                - generic [ref=f8e143]: Managing Director - Founder
+            - generic [ref=f8e146]:
+              - img "Marcel Hoppe - QUIS" [ref=f8e150]
+              - paragraph [ref=f8e151]: Als Software-Entwickler lebe ich für die Herausforderung, komplexe Probleme mit kreativen Lösungen zu bewältigen. Ich bin stolz darauf, Teil eines Teams zu sein, das sich darauf konzentriert, hochwertige Produkte zu liefern, die auf die individuellen Bedürfnisse unserer Kunden abgestimmt sind.
+              - generic [ref=f8e152]:
+                - paragraph [ref=f8e153]: Marcel & Melly
+                - generic [ref=f8e154]: Senior Software Developer
+      - generic [ref=f8e155]:
+        - heading "Stellenangebote" [level=2] [ref=f8e156]
+        - heading "Zurzeit haben wir keine offenen Stellen." [level=4] [ref=f8e159]
+      - generic [ref=f8e160]:
+        - heading "Was für uns spricht" [level=2] [ref=f8e161]
+        - generic [ref=f8e163]:
+          - paragraph [ref=f8e168]: Arbeiten in einem engagierten, crossfunktionalen Team
+          - paragraph [ref=f8e173]: Laufende marktgerechte Weiterentwicklung durch enge Zusammenarbeit mit unseren Kunden.
+          - paragraph [ref=f8e178]: Laufende marktgerechte Weiterentwicklung durch enge Zusammenarbeit mit unseren Kunden.
+      - generic [ref=f8e179]:
+        - heading "Was uns besonders macht" [level=2] [ref=f8e180]
+        - generic [ref=f8e182]:
+          - generic [ref=f8e184]:
+            - heading "Ambitionierte Kollegen" [level=5] [ref=f8e187]
+            - paragraph [ref=f8e190]: Sei Teil eines jungen, dynamischen Teams von großartigen Menschen, die alle ihre Fähigkeiten und Talente haben und durch die Leidenschaft vereint sind, etwas Wichtiges aufzubauen.
+          - generic [ref=f8e192]:
+            - heading "Du bist QUIS" [level=5] [ref=f8e195]
+            - paragraph [ref=f8e198]: Du hast die Möglichkeit, das Team und das Produkt maßgeblich mit zu prägen. Das macht Spaß. Wir entwickeln QUIS gemeinsam weiter. Gleichzeitig hat jeder von uns die Möglichkeit, sich dabei individuell weiter zu entwickeln und zu lernen.
+          - generic [ref=f8e200]:
+            - heading "Work-Life-Balance" [level=5] [ref=f8e203]
+            - paragraph [ref=f8e206]: Es gibt ein Leben bei der Arbeit und ein Leben außerhalb der Arbeit. Wir haben flexible Arbeitszeiten, Option auf Home-Office und jede Menge Freizeit.
+      - paragraph [ref=f8e211]: "\"Wir machen mit QUIS den Wohnungsmarkt transparent! Unsere digitalen Marktanalysen bieten einen schnellen und einfachen Zugang zu smarten Bewertungen und Prognosen für den Immobilienmarkt. Mit unserer Plattform schaffen wir eine hervorragende Basis für zufriedene Kundenerlebnisse\""
+      - generic [ref=f8e214]:
+        - img "Kollegen von QUIS in einem Online-Meeting." [ref=f8e217]
+        - generic [ref=f8e218]:
+          - img "Teamwork und Austausch" [ref=f8e220]
+          - img "Vertriebsleiter und Softwareentwickler im entspannten Modus bei der Arbeit." [ref=f8e222]
+  - contentinfo [ref=f8e223]:
+    - generic [ref=f8e224]:
+      - img "QUIS logo" [ref=f8e226]
+      - contentinfo [ref=f8e227]:
+        - generic [ref=f8e228]:
+          - generic [ref=f8e229]: Lösungen
+          - link "QUIS Portfolio" [ref=f8e230] [cursor=pointer]:
+            - /url: /portfolio
+          - link "QUIS Standortanalyse" [ref=f8e231] [cursor=pointer]:
+            - /url: /location_analysis?developer=
+          - link "QUIS Marktpreis-Exposé" [ref=f8e232] [cursor=pointer]:
+            - /url: /exposes
+        - generic [ref=f8e233]:
+          - generic [ref=f8e234]: Unternehmen
+          - link "Über uns" [ref=f8e235] [cursor=pointer]:
+            - /url: /about
+          - link "Karriere" [ref=f8e236] [cursor=pointer]:
+            - /url: /career
+          - link "Blog" [ref=f8e237] [cursor=pointer]:
+            - /url: https://blog.quis.de
+          - link "Events" [ref=f8e238] [cursor=pointer]:
+            - /url: https://blog.quis.de/events
+        - generic [ref=f8e239]:
+          - generic [ref=f8e240]: Rechtliches
+          - link "Impressum" [ref=f8e241] [cursor=pointer]:
+            - /url: /legal_notice
+          - link "AGB" [ref=f8e242] [cursor=pointer]:
+            - /url: /tos
+          - link "Datenschutz" [ref=f8e243] [cursor=pointer]:
+            - /url: /privacy
+        - generic [ref=f8e244]:
+          - generic [ref=f8e245]: Software
+          - link "Demo vereinbaren" [ref=f8e246] [cursor=pointer]:
+            - /url: https://demo.quis.de
+          - link "API" [ref=f8e247] [cursor=pointer]:
+            - /url: https://developer.quis.de
+      - generic [ref=f8e248]:
+        - link [ref=f8e249] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/quisde
+        - link [ref=f8e251] [cursor=pointer]:
+          - /url: https://www.facebook.com/quis.de
+        - link [ref=f8e253] [cursor=pointer]:
+          - /url: https://www.instagram.com/quis.immo
+    - contentinfo [ref=f8e255]:
+      - generic [ref=f8e256]: © 2020-2026 QUIS® ist ein Service der QUIS immo.analytics GmbH
+  - iframe [aria-hidden] [ref=f8e258]

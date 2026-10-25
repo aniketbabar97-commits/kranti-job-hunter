@@ -1,0 +1,86 @@
+- generic [active] [ref=f2e1]:
+  - link "Zum Inhalt springen" [ref=f2e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f2e3]:
+    - banner:
+      - navigation [ref=f2e5]:
+        - generic [ref=f2e6]:
+          - link [ref=f2e7] [cursor=pointer]:
+            - /url: /
+            - figure [ref=f2e8]:
+              - img "Bader_Logo" [ref=f2e9]
+          - generic [ref=f2e11] [cursor=pointer]
+    - main [ref=f2e15]:
+      - generic [ref=f2e16]:
+        - generic [ref=f2e18]:
+          - figure [ref=f2e19]
+          - paragraph [ref=f2e21]: "Wir suchen für unsere Zentrale in Pforzheim:"
+          - heading "Softwareentwickler Salesforce (m/w/d)" [level=1] [ref=f2e22]
+          - paragraph [ref=f2e24]: Wir suchen eine engagierte Person, die unser IT-Team mit Initiative, Kompetenz und Teamgeist bereichert und die Weiterentwicklung unserer Salesforce-Landschaft aktiv mitgestaltet.
+          - paragraph [ref=f2e25]: "Deine Benefits:"
+          - list [ref=f2e26]:
+            - listitem [ref=f2e27]:
+              - strong [ref=f2e28]: "Unternehmenskultur:"
+              - text: Wir bieten dir einen sicheren Arbeitsplatz in einem familiären Betriebsklima. Passend dazu erhältst du einen unbefristeten Arbeitsvertrag.
+            - listitem [ref=f2e29]:
+              - strong [ref=f2e30]: "Work-Life-Balance:"
+              - text: Du arbeitest 40 Stunden pro Woche. Neben 30 Tagen Urlaub sowie Sonderurlaub bei besonderen Anlässen haben wir die Möglichkeit, unsere Arbeitszeiten durch das Gleitzeitmodell flexibel zu gestalten und tageweise mobil zu arbeiten.
+            - listitem [ref=f2e31]:
+              - strong [ref=f2e32]: "Angemessene Vergütung:"
+              - text: Neben der angemessenen Vergütung bekommst du Urlaubs- und Weihnachtsgeld sowie weitere Sonderzahlungen. Betriebliche Altersvorsorge und vermögenswirksame Leistungen runden dieses Angebot ab.
+            - listitem [ref=f2e33]:
+              - strong [ref=f2e34]: "Dein Weg zur Arbeit:"
+              - text: Dein Fahrzeug kannst du gerne auf unserem kostenlosen Mitarbeiterparkplatz abstellen. Auch mit öffentlichen Verkehrsmitteln wie Bus oder Bahn sind wir gut zu erreichen. Wenn du künftig mit dem Fahrrad zur Arbeit radeln möchtest, könnte unser Dienstrad-Leasing interessant für dich sein.
+            - listitem [ref=f2e35]:
+              - strong [ref=f2e36]: "Weitere attraktive Benefits:"
+              - text: Für dein leibliches Wohl wird in unserer subventionierten Kantine sowie mit kostenfreiem Mineralwasser gesorgt. Deine Gesundheit ist unser wichtigstes Gut, daher haben wir ein betriebliches Gesundheitsmanagement eingerichtet. Außerdem erhältst du beim Einkauf bei BADER einen attraktiven Personalrabatt.
+          - paragraph [ref=f2e37]: "Deine Herausforderung:"
+          - list [ref=f2e38]:
+            - listitem [ref=f2e39]: Du entwickelst neue Features für unsere Onlineshops auf Salesforce B2C Commerce Cloud, von Cartridges und Controllern über Jobs bis zu Custom Objects, für ein besseres Einkaufserlebnis.
+            - listitem [ref=f2e40]: Du bindest ERP, CRM, Payment Provider und weitere Systeme an und entwickelst die Schnittstellen weiter.
+            - listitem [ref=f2e41]: Du entwickelst serverseitig in Java Script und nutzt für Frontend, Build und Deployment Node.js-basierte Tools.
+            - listitem [ref=f2e42]: KI ist bei uns fester Teil der Entwicklung. Du baust deine Erfahrung aus und entdeckst neue Anwendungsfälle.
+            - listitem [ref=f2e43]: "Du sorgst für einen stabilen Shopbetrieb: Du optimierst die Performance, behältst Logs und Quotas im Blick und analysierst und behebst Störungen."
+            - listitem [ref=f2e44]: Du sicherst die Codequalität durch Reviews und Standards und verbesserst unsere Prozesse von CI über Sandboxes bis zum Release.
+            - listitem [ref=f2e45]: Du übersetzt Anforderungen aus E-Commerce und Fachbereichen in technischen Lösungen und berätst zu Umsetzung und Aufwand.
+            - listitem [ref=f2e46]: Du übernimmst Verantwortung passend zu deiner Erfahrung und gestaltest unsere Shop Plattform aktiv mit.
+          - paragraph [ref=f2e47]: "Dein Profil:"
+          - list [ref=f2e48]:
+            - listitem [ref=f2e49]: Du hast ein MINT-Studium oder eine vergleichbare Ausbildung und mehrere Jahre Erfahrung mit Salesforce B2C Commerce Cloud, idealerweise mit SFRA.
+            - listitem [ref=f2e50]: Du bist sicher in JavaScript, ISML, HTML/CSS, OCAPI/SCAPI, REST sowie Git.
+            - listitem [ref=f2e51]: Idealerweise nutzt du KI-Tools schon in der Entwicklung. Wenn nicht, hast du Lust, dich darin weiterzuentwickeln.
+            - listitem [ref=f2e52]: Du arbeitest strukturiert, gehst Problemen auf den Grund und erklärst Technik verständlich.
+            - listitem [ref=f2e53]: Du verfolgst die Weiterentwicklung von SFCC und bringst Verbesserungsideen gern ins Team ein.
+            - listitem [ref=f2e54]: Du sprichst Deutsch auf C1-Niveau und liest englische Fachdokumentation problemlos.
+          - paragraph [ref=f2e57]: BADER ist ein Multichannel-Distanzhändler mit über 95-jähriger Geschichte. Familiengeführt in dritter Generation gehört BADER zu den attraktivsten Arbeitgebern der Region. Eine Kultur des Miteinander sichern den wirtschaftlichen Erfolg in einem Unternehmen mit flachen Hierarchien und kurzen Wegen. BADER wächst und entwickelt sich stetig weiter – deshalb freuen wir uns, wenn auch du bald unser BADER-Team unterstützen.Haben wir dein Interesse geweckt? Dann sende uns deine aussagekräftige Bewerbung unter Angabe deiner Verfügbarkeit an karriere@bader.de oder:BRUNO BADER GmbH + Co. KGPersonalabteilungz.Hd. Frau RzotkiewiczMaximilianstraße 4875172 Pforzheim
+        - link "Jetzt online bewerben" [ref=f2e59] [cursor=pointer]:
+          - /url: https://bader-karriere.de/bewerbung/?job-titel=Softwareentwickler+Salesforce+%28m%2Fw%2Fd%29
+    - contentinfo [ref=f2e60]:
+      - generic [ref=f2e61]:
+        - generic [ref=f2e62]:
+          - generic [ref=f2e63]:
+            - figure [ref=f2e64]
+            - paragraph [ref=f2e65]: Seit 1929 steht BADER für Qualität und erstklassigen Service. Werden Sie Teil unserer Erfolgsgeschichte und gestalten Sie die Zukunft des Versandhandels mit uns.
+          - generic [ref=f2e66]:
+            - generic [ref=f2e67]:
+              - heading [level=2] [ref=f2e68]:
+                - strong [ref=f2e69]: Karriere
+              - paragraph [ref=f2e70]:
+                - link "Stellenmarkt" [ref=f2e71] [cursor=pointer]:
+                  - /url: /stellenmarkt
+                - link "Unsere Benefits" [ref=f2e72] [cursor=pointer]:
+                  - /url: /benefits
+                - link "Ausbildung/Studium" [ref=f2e73] [cursor=pointer]:
+                  - /url: /ausbildung-studium/
+            - generic [ref=f2e74]:
+              - heading [level=2] [ref=f2e75]:
+                - strong [ref=f2e76]: Rechtliches
+              - paragraph [ref=f2e77]:
+                - link "Impressum" [ref=f2e78] [cursor=pointer]:
+                  - /url: /impressum
+                - link "Datenschutz" [ref=f2e79] [cursor=pointer]:
+                  - /url: /datenschutz
+        - paragraph [ref=f2e81]:
+          - text: "Ein Klick zum Webshop:"
+          - link "www.bader.de" [ref=f2e82] [cursor=pointer]:
+            - /url: https://www.bader.de

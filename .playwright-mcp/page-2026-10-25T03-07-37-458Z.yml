@@ -1,0 +1,427 @@
+- generic [active] [ref=f6e1]:
+  - dialog [ref=f6e2]:
+    - document [ref=f6e3]:
+      - generic [ref=f6e5]:
+        - heading "Einwilligung zu Cookies & Datenverarbeitung" [level=1] [ref=f6e6]
+        - generic [ref=f6e7]:
+          - text: Auf dieser Website werden zur Verbesserung der Funktionalität und des Leistungsverhaltens Cookies eingesetzt. Durch den Einsatz von Cookies soll die Verwendung bestimmter Funktionen, das Teilen auf sozialen Netzwerken und das Anpassen von Nachrichten an den Nutzer ermöglicht werden. Durch Klicken auf den "Alles akzeptieren"-Button stimmen Sie der Verwendung von optionalen Cookies auf dieser Website zu. Diese Einwilligung ist freiwillig, für die Nutzung unserer Website nicht erforderlich und kann jederzeit über einen Link in unserer
+          - link "Datenschutzerklärung" [ref=f6e8] [cursor=pointer]:
+            - /url: "#"
+          - text: "> widerrufen werden."
+      - form [ref=f6e9]:
+        - button "Alles ablehnen" [ref=f6e11] [cursor=pointer]
+        - button "Einstellungen" [ref=f6e14] [cursor=pointer]
+        - button "Alles akzeptieren" [ref=f6e16] [cursor=pointer]
+  - generic [ref=f6e18]:
+    - generic [ref=f6e20]:
+      - navigation [ref=f6e22]:
+        - generic [ref=f6e23]:
+          - link [ref=f6e24] [cursor=pointer]:
+            - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+            - img "Company Logo" [ref=f6e25]
+          - list [ref=f6e27]:
+            - listitem [ref=f6e28]:
+              - link "Kunststofflösungen" [ref=f6e29] [cursor=pointer]:
+                - /url: https://www.ensingerplastics.com/de-de
+            - listitem [ref=f6e30]:
+              - link "Branchen" [ref=f6e31] [cursor=pointer]:
+                - /url: https://www.ensingerplastics.com/de-de/luftfahrt-raumfahrt
+            - listitem [ref=f6e32]:
+              - link "Unternehmen" [ref=f6e33] [cursor=pointer]:
+                - /url: https://www.ensingerplastics.com/de-de/ueber-uns
+            - listitem [ref=f6e34]:
+              - link "Karriere" [ref=f6e35] [cursor=pointer]:
+                - /url: https://www.ensingerplastics.com/de-de/karriere
+      - generic [ref=f6e37]:
+        - img "..." [ref=f6e40]
+        - button "Previous" [ref=f6e41] [cursor=pointer]
+        - button "Next" [ref=f6e44] [cursor=pointer]
+    - generic [ref=f6e48]:
+      - heading "Bereit für Veränderung? Hier findest Du alle unsere offenen Stellen:" [level=1] [ref=f6e49]
+      - generic [ref=f6e50]:
+        - complementary [ref=f6e51]:
+          - group [ref=f6e52]:
+            - button [ref=f6e53] [cursor=pointer]:
+              - heading "Berufsfelder" [level=5] [ref=f6e54]
+              - button "Berufsfelder aufklappen"
+          - group [ref=f6e56]:
+            - button [ref=f6e57] [cursor=pointer]:
+              - heading "Beschäftigungsumfang" [level=5] [ref=f6e58]
+              - button "Beschäftigungsumfang aufklappen"
+          - group [ref=f6e60]:
+            - heading "Standorte" [level=5] [ref=f6e62]
+            - combobox "Standorte" [ref=f6e65]:
+              - option [selected]
+              - option "71154 Nufringen bei Stuttgart"
+              - option "72108 Rottenburg-Ergenzingen"
+              - option "93413 Cham"
+              - option "deutschlandweit"
+              - option "30823 Garbsen bei Hannover"
+              - option "5800 Pleven (Bulgarien)"
+          - button "Zurücksetzen" [ref=f6e67] [cursor=pointer]
+        - generic [ref=f6e68]:
+          - generic [ref=f6e69]:
+            - list
+            - paragraph [ref=f6e70]: Ihre Suche ergab 30 Treffer
+            - list [ref=f6e71]:
+              - listitem [ref=f6e72]:
+                - heading "(Pflicht-) Praktikum im Bereich Ausbildung und Personalentwicklung - befristet für 6 Monate" [level=2] [ref=f6e74]
+                - list [ref=f6e75]:
+                  - listitem [ref=f6e76]:
+                    - generic [ref=f6e78]: 93413 Cham
+                  - listitem [ref=f6e79]:
+                    - generic [ref=f6e81]:
+                      - list:
+                        - listitem [ref=f6e82]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e83]:
+                    - generic [ref=f6e85]: ab sofort
+              - listitem [ref=f6e86]:
+                - heading "Assistenz (m/w/d) Werk Ergenzingen" [level=2] [ref=f6e88]
+                - list [ref=f6e89]:
+                  - listitem [ref=f6e90]:
+                    - generic [ref=f6e92]: 72108 Rottenburg-Ergenzingen
+                  - listitem [ref=f6e93]:
+                    - generic [ref=f6e95]:
+                      - list:
+                        - listitem [ref=f6e96]: Vollzeit/
+                        - listitem [ref=f6e97]: Teilzeit/
+                        - listitem [ref=f6e98]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e99]:
+                    - generic [ref=f6e101]: ab sofort
+              - listitem [ref=f6e102]:
+                - heading "Automatisierungstechniker Elektronik (m/w/d)" [level=2] [ref=f6e104]
+                - list [ref=f6e105]:
+                  - listitem [ref=f6e106]:
+                    - generic [ref=f6e108]: 93413 Cham
+                  - listitem [ref=f6e109]:
+                    - generic [ref=f6e111]:
+                      - list:
+                        - listitem [ref=f6e112]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e113]:
+                    - generic [ref=f6e115]: ab sofort
+              - listitem [ref=f6e116]:
+                - heading "Bachelor-Thesis Entwicklung eines Lärmschutzkonzeptes für eine Produktionshalle" [level=2] [ref=f6e118]
+                - list [ref=f6e119]:
+                  - listitem [ref=f6e120]:
+                    - generic [ref=f6e122]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e123]:
+                    - generic [ref=f6e125]:
+                      - list:
+                        - listitem [ref=f6e126]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e127]:
+                    - generic [ref=f6e129]: 01.11.2026
+              - listitem [ref=f6e130]:
+                - heading "Business Development Manager (m/f/d) Composite Materials" [level=2] [ref=f6e132]
+                - list [ref=f6e133]:
+                  - listitem [ref=f6e134]:
+                    - generic [ref=f6e136]: deutschlandweit
+                  - listitem [ref=f6e137]:
+                    - generic [ref=f6e139]:
+                      - list:
+                        - listitem [ref=f6e140]: Vollzeit/
+                        - listitem [ref=f6e141]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e142]:
+                    - generic [ref=f6e144]: ab sofort
+              - listitem [ref=f6e145]:
+                - heading "Business Development Manager (m/f/d) Microsystems" [level=2] [ref=f6e147]
+                - list [ref=f6e148]:
+                  - listitem [ref=f6e149]:
+                    - generic [ref=f6e151]: deutschlandweit
+                  - listitem [ref=f6e152]:
+                    - generic [ref=f6e154]:
+                      - list:
+                        - listitem [ref=f6e155]: Vollzeit/
+                        - listitem [ref=f6e156]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e157]:
+                    - generic [ref=f6e159]: ab sofort
+              - listitem [ref=f6e160]:
+                - heading "Digital Product Manager (m/f/d) Webshop & Digital Tools" [level=2] [ref=f6e162]
+                - list [ref=f6e163]:
+                  - listitem [ref=f6e164]:
+                    - generic [ref=f6e166]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e167]:
+                    - generic [ref=f6e169]:
+                      - list:
+                        - listitem [ref=f6e170]: Teilzeit/
+                        - listitem [ref=f6e171]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e172]:
+                    - generic [ref=f6e174]: ab sofort
+              - listitem [ref=f6e175]:
+                - heading "Fachinformatiker (m/w/d) für Digitale Vernetzung - Ausbildung - Start 2027" [level=2] [ref=f6e177]
+                - list [ref=f6e178]:
+                  - listitem [ref=f6e179]:
+                    - generic [ref=f6e181]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e182]:
+                    - generic [ref=f6e184]:
+                      - list:
+                        - listitem [ref=f6e185]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e186]:
+                    - generic [ref=f6e188]: 01.09.2027
+              - listitem [ref=f6e189]:
+                - heading "Fachkraft für Lagerlogistik (m/w/d) - Ausbildung - Start 2027" [level=2] [ref=f6e191]
+                - list [ref=f6e192]:
+                  - listitem [ref=f6e193]:
+                    - generic [ref=f6e195]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e196]:
+                    - generic [ref=f6e198]:
+                      - list:
+                        - listitem [ref=f6e199]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e200]:
+                    - generic [ref=f6e202]: 01.09.2027
+              - listitem [ref=f6e203]:
+                - heading "Kunststoff- und Kautschuktechnologe (m/w/d) - Ausbildung - Start 2027" [level=2] [ref=f6e205]
+                - list [ref=f6e206]:
+                  - listitem [ref=f6e207]:
+                    - generic [ref=f6e209]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e210]:
+                    - generic [ref=f6e212]:
+                      - list:
+                        - listitem [ref=f6e213]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e214]:
+                    - generic [ref=f6e216]: 01.09.2027
+              - listitem [ref=f6e217]:
+                - heading "Kunststoff- und Kautschuktechnologe (m/w/d) - Ausbildung Start 2027" [level=2] [ref=f6e219]
+                - list [ref=f6e220]:
+                  - listitem [ref=f6e221]:
+                    - generic [ref=f6e223]: 93413 Cham
+                  - listitem [ref=f6e224]:
+                    - generic [ref=f6e226]:
+                      - list:
+                        - listitem [ref=f6e227]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e228]:
+                    - generic [ref=f6e230]: 01.09.2027
+              - listitem [ref=f6e231]:
+                - heading "Maschinen- und Anlagenführer (m/w/d) - Ausbildung Start 2027" [level=2] [ref=f6e233]
+                - list [ref=f6e234]:
+                  - listitem [ref=f6e235]:
+                    - generic [ref=f6e237]: 93413 Cham
+                  - listitem [ref=f6e238]:
+                    - generic [ref=f6e240]:
+                      - list:
+                        - listitem [ref=f6e241]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e242]:
+                    - generic [ref=f6e244]: 01.09.2027
+              - listitem [ref=f6e245]:
+                - heading "Maschineneinrichter (m/w/d) Injection Moulding befristet für 1 Jahr" [level=2] [ref=f6e247]
+                - list [ref=f6e248]:
+                  - listitem [ref=f6e249]:
+                    - generic [ref=f6e251]: 72108 Rottenburg-Ergenzingen
+                  - listitem [ref=f6e252]:
+                    - generic [ref=f6e254]:
+                      - list:
+                        - listitem [ref=f6e255]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e256]:
+                    - generic [ref=f6e258]: ab sofort
+              - listitem [ref=f6e259]:
+                - heading "Mechatroniker (m/w/d) - Ausbildung - Start 2027" [level=2] [ref=f6e261]
+                - list [ref=f6e262]:
+                  - listitem [ref=f6e263]:
+                    - generic [ref=f6e265]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e266]:
+                    - generic [ref=f6e268]:
+                      - list:
+                        - listitem [ref=f6e269]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e270]:
+                    - generic [ref=f6e272]: 01.09.2027
+              - listitem [ref=f6e273]:
+                - heading "Order Management Representative (m/f/d)" [level=2] [ref=f6e275]
+                - list [ref=f6e276]:
+                  - listitem [ref=f6e277]:
+                    - generic [ref=f6e279]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e280]:
+                    - generic [ref=f6e282]:
+                      - list:
+                        - listitem [ref=f6e283]: Vollzeit/
+                        - listitem [ref=f6e284]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e285]:
+                    - generic [ref=f6e287]: ab sofort
+              - listitem [ref=f6e288]:
+                - heading "Personalsachbearbeiter (m/w/d) Ausbildung" [level=2] [ref=f6e290]
+                - list [ref=f6e291]:
+                  - listitem [ref=f6e292]:
+                    - generic [ref=f6e294]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e295]:
+                    - generic [ref=f6e297]:
+                      - list:
+                        - listitem [ref=f6e298]: Teilzeit/
+                        - listitem [ref=f6e299]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e300]:
+                    - generic [ref=f6e302]: ab sofort
+              - listitem [ref=f6e303]:
+                - heading "Praktikum im Beteiligungscontrolling (m/w/d)- befristet für 6 Monate" [level=2] [ref=f6e305]
+                - list [ref=f6e306]:
+                  - listitem [ref=f6e307]:
+                    - generic [ref=f6e309]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e310]:
+                    - generic [ref=f6e312]:
+                      - list:
+                        - listitem [ref=f6e313]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e314]:
+                    - generic [ref=f6e316]: 01.03.2027
+              - listitem [ref=f6e317]:
+                - heading "Praktikum oder Abschlussarbeit" [level=2] [ref=f6e319]
+                - list [ref=f6e320]:
+                  - listitem [ref=f6e321]:
+                    - generic [ref=f6e323]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e324]:
+                    - generic [ref=f6e326]:
+                      - list:
+                        - listitem [ref=f6e327]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e328]:
+                    - generic [ref=f6e330]: ab sofort
+              - listitem [ref=f6e331]:
+                - heading "Praktikum oder Abschlussarbeit" [level=2] [ref=f6e333]
+                - list [ref=f6e334]:
+                  - listitem [ref=f6e335]:
+                    - generic [ref=f6e337]: 72108 Rottenburg-Ergenzingen
+                  - listitem [ref=f6e338]:
+                    - generic [ref=f6e340]:
+                      - list:
+                        - listitem [ref=f6e341]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e342]:
+                    - generic [ref=f6e344]: ab sofort
+              - listitem [ref=f6e345]:
+                - heading "Praktikum oder Abschlussarbeit" [level=2] [ref=f6e347]
+                - list [ref=f6e348]:
+                  - listitem [ref=f6e349]:
+                    - generic [ref=f6e351]: 93413 Cham
+                  - listitem [ref=f6e352]:
+                    - generic [ref=f6e354]:
+                      - list:
+                        - listitem [ref=f6e355]: Vollzeit/
+                        - listitem [ref=f6e356]: Teilzeit
+                  - listitem "Eintrittsdatum" [ref=f6e357]:
+                    - generic [ref=f6e359]: ab sofort
+              - listitem [ref=f6e360]:
+                - heading "Produktmanager (m/w/d) Conversion Service" [level=2] [ref=f6e362]
+                - list [ref=f6e363]:
+                  - listitem [ref=f6e364]:
+                    - generic [ref=f6e366]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e367]:
+                    - generic [ref=f6e369]:
+                      - list:
+                        - listitem [ref=f6e370]: Vollzeit/
+                        - listitem [ref=f6e371]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e372]:
+                    - generic [ref=f6e374]: ab sofort
+              - listitem [ref=f6e375]:
+                - heading "Qualitätsingenieur (m/w/d) – Schwerpunkt Luft- und Raumfahrt nach EN 9100" [level=2] [ref=f6e377]
+                - list [ref=f6e378]:
+                  - listitem [ref=f6e379]:
+                    - generic [ref=f6e381]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e382]:
+                    - generic [ref=f6e384]:
+                      - list:
+                        - listitem [ref=f6e385]: Vollzeit/
+                        - listitem [ref=f6e386]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e387]:
+                    - generic [ref=f6e389]: ab sofort
+              - listitem [ref=f6e390]:
+                - heading "Schreiner/Tischler (m/w/d) für Hochleistungskunststoffe befristet für 1 Jahr" [level=2] [ref=f6e392]
+                - list [ref=f6e393]:
+                  - listitem [ref=f6e394]:
+                    - generic [ref=f6e396]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e397]:
+                    - generic [ref=f6e399]:
+                      - list:
+                        - listitem [ref=f6e400]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e401]:
+                    - generic [ref=f6e403]: ab sofort
+              - listitem [ref=f6e404]:
+                - heading "Schülerpraktikum" [level=2] [ref=f6e406]
+                - list [ref=f6e407]:
+                  - listitem [ref=f6e408]:
+                    - generic [ref=f6e410]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e411]:
+                    - generic [ref=f6e413]:
+                      - list:
+                        - listitem [ref=f6e414]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e415]:
+                    - generic [ref=f6e417]: ab sofort, Dauer 1 Woche
+              - listitem [ref=f6e418]:
+                - heading "Schülerpraktikum" [level=2] [ref=f6e420]
+                - list [ref=f6e421]:
+                  - listitem [ref=f6e422]:
+                    - generic [ref=f6e424]: 93413 Cham
+                  - listitem [ref=f6e425]:
+                    - generic [ref=f6e427]:
+                      - list:
+                        - listitem [ref=f6e428]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e429]:
+                    - generic [ref=f6e431]: ab sofort, Dauer 1 Woche
+              - listitem [ref=f6e432]:
+                - heading "Technischer Vertriebsmitarbeiter (m/w/d) Zerspanung /Technical Inside Sales Specialist (m/f/d) Machining" [level=2] [ref=f6e434]
+                - list [ref=f6e435]:
+                  - listitem [ref=f6e436]:
+                    - generic [ref=f6e438]: deutschlandweit
+                  - listitem [ref=f6e439]:
+                    - generic [ref=f6e441]:
+                      - list:
+                        - listitem [ref=f6e442]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e443]:
+                    - generic [ref=f6e445]: ab sofort
+              - listitem [ref=f6e446]:
+                - heading "Werkstudent (m/w/d) Legal Support & Dokumentenmanagement" [level=2] [ref=f6e448]
+                - list [ref=f6e449]:
+                  - listitem [ref=f6e450]:
+                    - generic [ref=f6e452]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e453]:
+                    - generic [ref=f6e455]:
+                      - list:
+                        - listitem [ref=f6e456]: Teilzeit/
+                        - listitem [ref=f6e457]: Mobiles Arbeiten möglich
+                  - listitem "Eintrittsdatum" [ref=f6e458]:
+                    - generic [ref=f6e460]: ab sofort
+              - listitem [ref=f6e461]:
+                - heading "Werkzeugmechaniker (m/w/d) - Ausbildung - Start 2027" [level=2] [ref=f6e463]
+                - list [ref=f6e464]:
+                  - listitem [ref=f6e465]:
+                    - generic [ref=f6e467]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e468]:
+                    - generic [ref=f6e470]:
+                      - list:
+                        - listitem [ref=f6e471]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e472]:
+                    - generic [ref=f6e474]: 01.09.2027
+              - listitem [ref=f6e475]:
+                - heading "Wirtschaftsingenieurwesen / Bachelor of Engineering (DH) - Start 2027" [level=2] [ref=f6e477]
+                - list [ref=f6e478]:
+                  - listitem [ref=f6e479]:
+                    - generic [ref=f6e481]: 71154 Nufringen bei Stuttgart
+                  - listitem [ref=f6e482]:
+                    - generic [ref=f6e484]:
+                      - list:
+                        - listitem [ref=f6e485]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e486]:
+                    - generic [ref=f6e488]: 01.10.2027 mit Vorpraktikum ab 01.09.2027
+              - listitem [ref=f6e489]:
+                - heading "Zerspanungsmechaniker (m/w/d) - Ausbildung Start 2027" [level=2] [ref=f6e491]
+                - list [ref=f6e492]:
+                  - listitem [ref=f6e493]:
+                    - generic [ref=f6e495]: 93413 Cham
+                  - listitem [ref=f6e496]:
+                    - generic [ref=f6e498]:
+                      - list:
+                        - listitem [ref=f6e499]: Vollzeit
+                  - listitem "Eintrittsdatum" [ref=f6e500]:
+                    - generic [ref=f6e502]: 01.09.2027
+          - generic [ref=f6e506]:
+            - link "Initiativbewerbung" [ref=f6e507] [cursor=pointer]:
+              - /url: /engage/jobexchange/selectBlindJobOffer.do?j=jobexchange
+            - paragraph [ref=f6e508]: Es ist kein passender Job für dich dabei? Du kannst uns auch gerne eine Initiativbewerbung zukommen lassen.
+          - paragraph
+    - contentinfo [ref=f6e510]:
+      - paragraph [ref=f6e512]: © Ensinger
+      - list [ref=f6e514]:
+        - listitem [ref=f6e515]:
+          - link "Datenschutzerklärung" [ref=f6e516] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+        - listitem [ref=f6e517]:
+          - link "Impressum" [ref=f6e518] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/impressum
+        - listitem [ref=f6e519]:
+          - link "Allgemeine Geschäftsbedingungen" [ref=f6e520] [cursor=pointer]:
+            - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+        - listitem [ref=f6e521]:
+          - link "Cookie-Einstellungen" [ref=f6e522] [cursor=pointer]:
+            - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

@@ -1,0 +1,148 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e2]:
+    - navigation [ref=f9e3]:
+      - generic [ref=f9e4]:
+        - link [ref=f9e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f9e56]:
+          - generic [ref=f9e57]:
+            - list [ref=f9e59]:
+              - listitem [ref=f9e60]:
+                - link "☎ 06271 / 960 9000" [ref=f9e61] [cursor=pointer]:
+                  - /url: tel:004962719609000
+            - list [ref=f9e63]:
+              - listitem [ref=f9e64]:
+                - link "Übersicht" [ref=f9e65] [cursor=pointer]:
+                  - /url: /uebersicht
+              - listitem [ref=f9e66]:
+                - link "Arbeitgeber" [ref=f9e67] [cursor=pointer]:
+                  - /url: /arbeitgeber
+              - listitem [ref=f9e68]:
+                - link "Arbeitsumgebung" [ref=f9e69] [cursor=pointer]:
+                  - /url: /arbeitsumgebung
+              - listitem [ref=f9e70]:
+                - link "Kollegen" [ref=f9e71] [cursor=pointer]:
+                  - /url: /kollegen
+              - listitem [ref=f9e72]:
+                - link "Zukunft" [ref=f9e73] [cursor=pointer]:
+                  - /url: /zukunft
+              - listitem [ref=f9e74]:
+                - link "Benefits" [ref=f9e75] [cursor=pointer]:
+                  - /url: /benefits
+              - listitem [ref=f9e76]:
+                - link "Offene Stellen" [ref=f9e77] [cursor=pointer]:
+                  - /url: /offene-stellen
+          - generic [ref=f9e78]:
+            - link [ref=f9e79] [cursor=pointer]:
+              - /url: /schnell-bewerbung
+              - generic "Schnell-Bewerbung" [ref=f9e81]
+            - generic "Suche" [ref=f9e89] [cursor=pointer]
+    - list [ref=f9e97]:
+      - listitem [ref=f9e98]:
+        - link [ref=f9e99] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=f9e100]
+      - listitem [ref=f9e101]: / Offene Stellen
+      - listitem
+  - banner [ref=f9e102]:
+    - img "Karriereportal der Quellwerke GmbH" [ref=f9e103]
+  - generic [ref=f9e105]:
+    - heading "Vakante Stellen – Wir stellen ein" [level=1] [ref=f9e107]
+    - generic [ref=f9e108]:
+      - generic [ref=f9e109]:
+        - paragraph [ref=f9e111]:
+          - text: Wir sind ständig auf der Suche nach
+          - strong [ref=f9e112]: motivierten
+          - text: und talentierten Kollegen und Kolleginnen, die uns mit ihrem
+          - strong [ref=f9e113]: Mindset
+          - text: und
+          - strong [ref=f9e114]: Mastermind
+          - text: "-Wissen bereichern. Für uns steht dabei stets der"
+          - strong [ref=f9e115]: Mensch
+          - text: im Fokus. Schließlich verbringen wir sehr viel Zeit am Tag zusammen, um Lösungen für die Probleme und Aufgaben unserer Kunden zu meistern. Was es mit Mensch, Mindset, Mastermind und Motivation in unserer Agentur auf sich hat, erfährst Du auf der Seite "
+          - link "Deine Kollegen" [ref=f9e116] [cursor=pointer]:
+            - /url: /kollegen
+          - text: "\"."
+        - generic [ref=f9e117]:
+          - heading "Wie bewerbe ich mich am Besten?" [level=3] [ref=f9e118]
+          - paragraph [ref=f9e119]: Wir leben in einem digitalen Zeitalter, weshalb wir ausschließlich digitale Bewerbungen akzeptieren. Hierfür bieten wir, neben der klassischen Bewerbung per E-Mail mit relevanten Dateianhängen, auch unbürokratische Bewerbungsprozesse im Schnellverfahren. Wir nehmen uns lieber Zeit, um mit Dir persönlich zu sprechen, als Deine Zeit für die Erstellung und Zusammenstellung von "unbedingt erforderlichen" Dokumenten zu vergeuden. Unbedingt erforderlich bist nämlich nur Du, nicht aber Deine ganzen Papiere. Wenn Du diese hast, sende sie gerne mit, wenn nicht, verschwende keine Zeit, lass uns lieber reden!
+          - paragraph [ref=f9e120]
+        - link "ionicons-v5-a" [ref=f9e124] [cursor=pointer]:
+          - /url: "#c16205"
+          - img "ionicons-v5-a" [ref=f9e125]
+      - generic [ref=f9e135]:
+        - heading "Quickfacts zu den Stellenangeboten" [level=3] [ref=f9e137]
+        - generic [ref=f9e138]:
+          - generic [ref=f9e139]:
+            - generic [ref=f9e141]:
+              - figure [ref=f9e145]
+              - paragraph [ref=f9e147]: Stellen in Vollzeit & Teilzeit verfügbar
+            - generic [ref=f9e149]:
+              - figure [ref=f9e153]
+              - paragraph [ref=f9e155]: Ausbildung, Studium und Praktikum
+            - generic [ref=f9e157]:
+              - figure [ref=f9e161]
+              - paragraph [ref=f9e163]: Schnell-Bewerbung ohne Unterlagen möglich
+            - generic [ref=f9e165]:
+              - figure [ref=f9e169]
+              - paragraph [ref=f9e171]: Klassische Bewerbung per E-Mail
+          - generic [ref=f9e172]:
+            - generic [ref=f9e174]:
+              - figure [ref=f9e178]
+              - paragraph [ref=f9e180]: Vor Ort, HomeOffice & Hybrid
+            - generic [ref=f9e182]:
+              - figure [ref=f9e186]
+              - paragraph [ref=f9e188]: Initiativ-Bewerbungen
+            - generic [ref=f9e190]:
+              - figure [ref=f9e194]
+              - paragraph [ref=f9e196]: Allgemeines Bewerbungsformular verfügbar
+            - generic [ref=f9e198]:
+              - figure [ref=f9e202]
+              - paragraph [ref=f9e204]: Ausschließlich digitale Bewerbungen gewünscht
+  - generic [ref=f9e206]:
+    - heading "Finde Deinen Traumjob und bewirb Dich jetzt!" [level=2] [ref=f9e208]
+    - generic [ref=f9e212]:
+      - generic [ref=f9e213]:
+        - heading "Pimcore Developer (m/w/d)" [level=5] [ref=f9e214]
+        - generic [ref=f9e215]:
+          - paragraph [ref=f9e216]: Du fühlst Dich als waschechter Pimconaut und bist bereit die digitale Welt zu erobern? Dann haben wir ein gemeinsames Ziel! Werde jetzt Teil unseres Teams. Together we own the digital world!
+          - link "Schnellbewerbung" [ref=f9e217] [cursor=pointer]:
+            - /url: /schnell-bewerbung?0=&cHash=ba793da2dc9371564da95aced852d433
+      - generic [ref=f9e218]:
+        - text: "#Teilzeit #Vollzeit #Hybrid #Eberbach #HomeOffice #Freiburg"
+        - link "Details anzeigen" [ref=f9e219] [cursor=pointer]:
+          - /url: /offene-stellen/pimcore-entwickler-m-w-d
+  - figure [ref=f9e229]
+  - contentinfo [ref=f9e230]:
+    - generic [ref=f9e234]:
+      - paragraph [ref=f9e237]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f9e239]:
+        - list [ref=f9e240]:
+          - listitem [ref=f9e241]:
+            - link "Datenschutz" [ref=f9e242] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/datenschutz
+          - listitem [ref=f9e243]:
+            - link "Impressum" [ref=f9e244] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/impressum
+        - generic [ref=f9e245]:
+          - link [ref=f9e246] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f9e248]
+          - link [ref=f9e249] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f9e251]
+          - link [ref=f9e252] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f9e254]
+  - generic [ref=f9e255]:
+    - heading "Cookie Manager" [level=3] [ref=f9e256]
+    - generic [ref=f9e258]:
+      - generic [ref=f9e259]: Essentials
+      - generic [ref=f9e261]: Analyse
+    - paragraph [ref=f9e264]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f9e265]:
+      - button "Alle akzeptieren" [ref=f9e266] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f9e267] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f9e268] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f9e270] [cursor=pointer]:
+      - /url: https://www.quellwerke.de/datenschutz

@@ -1,0 +1,393 @@
+- generic [ref=e1]:
+  - banner:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: https://clicks.digital/
+          - img "clicks digital" [ref=e6]
+        - paragraph [ref=e7]:
+          - link "clicks digital" [ref=e8] [cursor=pointer]:
+            - /url: https://clicks.digital/
+      - link "+49 (0)351 65312010" [ref=e10] [cursor=pointer]:
+        - /url: "tel: +4935165312010 "
+      - link "Projektanfrage" [ref=e13] [cursor=pointer]:
+        - /url: /kontakt
+      - generic [ref=e15]:
+        - listitem [ref=e16]:
+          - link "de":
+            - /url: https://clicks.digital/software-entwickler-php-m-w-d-in-dresden
+        - listitem [ref=e17]:
+          - text: /
+          - link "en" [ref=e18] [cursor=pointer]:
+            - /url: https://clicks.digital/en/
+  - navigation [ref=e21]:
+    - list [ref=e23]:
+      - listitem [ref=e24]:
+        - link "Paid Advertising" [ref=e25] [cursor=pointer]:
+          - /url: https://clicks.digital/paid-advertising
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link "SEA" [ref=e28] [cursor=pointer]:
+              - /url: https://clicks.digital/suchmaschinenmarketing-sem
+          - listitem [ref=e29]:
+            - link "ChatGPT Ads Agentur" [ref=e30] [cursor=pointer]:
+              - /url: https://clicks.digital/chatgpt-ads-agentur
+          - listitem [ref=e31]:
+            - link "Google Ads" [ref=e32] [cursor=pointer]:
+              - /url: https://clicks.digital/adwords-agentur
+          - listitem [ref=e33]:
+            - link "SEA & Google Ads Audit" [ref=e34] [cursor=pointer]:
+              - /url: https://clicks.digital/adwords-analyse-audit
+          - listitem [ref=e35]:
+            - link "Performance Max" [ref=e36] [cursor=pointer]:
+              - /url: https://clicks.digital/performance-max-agentur
+          - listitem [ref=e37]:
+            - link "Google Shopping" [ref=e38] [cursor=pointer]:
+              - /url: https://clicks.digital/google-shopping
+          - listitem [ref=e39]:
+            - link "Google Shopping CSS" [ref=e40] [cursor=pointer]:
+              - /url: https://clicks.digital/css-shopping-agentur
+          - listitem [ref=e41]:
+            - link "Display Ads" [ref=e42] [cursor=pointer]:
+              - /url: https://clicks.digital/bannerwerbung-display-advertising
+          - listitem [ref=e43]:
+            - link "Microsoft Advertising" [ref=e44] [cursor=pointer]:
+              - /url: https://clicks.digital/bing-ads
+          - listitem [ref=e45]:
+            - link "Remarketing" [ref=e46] [cursor=pointer]:
+              - /url: https://clicks.digital/remarketing
+          - listitem [ref=e47]:
+            - link "Amazon Ads" [ref=e48] [cursor=pointer]:
+              - /url: https://clicks.digital/amazon-ads
+          - listitem [ref=e49]:
+            - link "Social Advertising" [ref=e50] [cursor=pointer]:
+              - /url: https://clicks.digital/social-ads
+      - listitem [ref=e52]:
+        - link "SEO Agentur" [ref=e53] [cursor=pointer]:
+          - /url: https://clicks.digital/suchmaschinenoptimierung-seo
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - link "SEO-Beratung" [ref=e56] [cursor=pointer]:
+              - /url: https://clicks.digital/seo-beratung
+          - listitem [ref=e57]:
+            - link "GEO-Agentur" [ref=e58] [cursor=pointer]:
+              - /url: https://clicks.digital/geo-agentur
+          - listitem [ref=e59]:
+            - link "SEO-Strategie" [ref=e60] [cursor=pointer]:
+              - /url: https://clicks.digital/seo-strategie
+          - listitem [ref=e61]:
+            - link "SEO-Audit" [ref=e62] [cursor=pointer]:
+              - /url: https://clicks.digital/seo-audit
+          - listitem [ref=e63]:
+            - link "Technisches SEO" [ref=e64] [cursor=pointer]:
+              - /url: https://clicks.digital/technisches-seo
+          - listitem [ref=e65]:
+            - link "Keyword-Analyse" [ref=e66] [cursor=pointer]:
+              - /url: https://clicks.digital/keyword-analyse
+          - listitem [ref=e67]:
+            - link "SEO-Relaunch-Betreuung" [ref=e68] [cursor=pointer]:
+              - /url: https://clicks.digital/relaunch-seo
+          - listitem [ref=e69]:
+            - link "Local SEO" [ref=e70] [cursor=pointer]:
+              - /url: https://clicks.digital/local-seo
+          - listitem [ref=e71]:
+            - link "Internationales SEO" [ref=e72] [cursor=pointer]:
+              - /url: https://clicks.digital/seo-international
+      - listitem [ref=e74]:
+        - link "KI Agentur" [ref=e75] [cursor=pointer]:
+          - /url: https://clicks.digital/ki-agentur
+      - listitem [ref=e77]:
+        - link "Inbound Marketing" [ref=e78] [cursor=pointer]:
+          - /url: https://clicks.digital/inbound-marketing
+      - listitem [ref=e80]:
+        - link "Webanalyse" [ref=e81] [cursor=pointer]:
+          - /url: https://clicks.digital/data-analytics-webanalyse
+      - listitem [ref=e83]:
+        - link "Strategische Beratung" [ref=e84] [cursor=pointer]:
+          - /url: https://clicks.digital/strategische-beratung
+      - listitem [ref=e86]:
+        - link "E-Commerce" [ref=e87] [cursor=pointer]:
+          - /url: https://clicks.digital/ecommerce
+      - listitem [ref=e89]:
+        - link "Online-Marketing Seminare & Workshops" [ref=e90] [cursor=pointer]:
+          - /url: https://clicks.digital/online-marketing-seminare
+      - listitem [ref=e92]:
+        - link "Karriere" [ref=e93] [cursor=pointer]:
+          - /url: https://clicks.digital/karriere
+      - listitem [ref=e94]:
+        - link "Über uns" [ref=e95] [cursor=pointer]:
+          - /url: https://clicks.digital/ueber-uns
+      - listitem [ref=e97]:
+        - link "Unser Blog" [ref=e98] [cursor=pointer]:
+          - /url: https://clicks.digital/blog
+      - listitem [ref=e99]:
+        - link "Knowledge Hub" [ref=e100] [cursor=pointer]:
+          - /url: https://clicks.digital/knowledge-hub
+  - generic [ref=e101]:
+    - img "clicks-featured" [ref=e103]
+    - generic [ref=e106]:
+      - navigation [ref=e110]:
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "Performance Marketing Agentur" [ref=e113] [cursor=pointer]:
+              - /url: https://clicks.digital/
+            - text: ">"
+          - listitem [ref=e114]:
+            - link "Karriere" [ref=e115] [cursor=pointer]:
+              - /url: https://clicks.digital/karriere
+      - heading "Software-Entwickler PHP (m/w/d) in Dresden" [level=1] [ref=e116]
+  - link [ref=e118] [cursor=pointer]:
+    - /url: /wp-content/uploads/2024/10/clicks_euro.pdf
+  - generic [ref=e120]:
+    - link "Skip to content" [ref=e121] [cursor=pointer]:
+      - /url: "#primary"
+    - banner
+    - main [ref=e122]:
+      - article [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - paragraph [ref=e128]: "Du kannst PHP – aber kannst du KI sauber in Magento & Shopware integrieren? Zeig’s uns! Gemeinsam mit einem starken Team bringst du Relaunchs und komplexe Webanwendungen live: saubere Schnittstellen, stabile Datenbanken und getesteter Code im Scrum-Setup."
+              - paragraph [ref=e129]: Für unseren Standort in Dresden suchen wir zum schnellstmöglichen Zeitpunkt einen Software-Entwickler PHP (m/w/d).
+              - paragraph [ref=e130]: Bewirb dich jetzt und gestalte mit uns die nächste Generation Web-Development.
+              - paragraph
+            - link "Jetzt bewerben" [ref=e132] [cursor=pointer]:
+              - /url: "#contact-form"
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - heading "#thatsus" [level=2] [ref=e138]
+              - paragraph [ref=e139]
+              - paragraph [ref=e140]: "Da bist du ja – wir haben schon auf dich gewartet! Wir sind clicks digital – durch unsere 17-jährige Erfahrung sind wir eine der führenden Performance-Marketing-Agenturen und süchtig nach Reichweite, guten Google Rankings und echten Erfolgen, die wir unseren Kunden #aroundtheworld liefern."
+              - paragraph [ref=e141]: "So digital unser Geschäft ist, so menschlich ist unser Miteinander. Unsere #teamkultur ist ein zentraler Baustein unseres Erfolges und unseres gesamten Unternehmens. Gemeinsam als #unique Team wollen wir tolle Ergebnisse erzielen und unsere Kunden glücklich machen. Wir schätzen und leben wechselseitiges Vertrauen, respektvollen Umgang, hohe Eigenverantwortlichkeit, Verbindlichkeit sowie Förderung & Forderung in einem ausgewogenen Maß."
+              - paragraph [ref=e142]: "Kurz: Wir lieben Menschlichkeit!"
+              - paragraph [ref=e143]
+            - generic [ref=e144]:
+              - heading "#thatswork" [level=2] [ref=e145]
+              - paragraph [ref=e146]
+              - list [ref=e147]:
+                - listitem [ref=e148]: Durch unseren KI-First-Ansatz denken und entwickeln wir Lösungen konsequent auf einem neuen Level
+                - listitem [ref=e149]: Du programmierst überwiegend auf PHP- und MySQL-basierte Softwarelösungen und Websites
+                - listitem [ref=e150]: Du konzipierst zukunftssichere Schnittstellen, Datenbankstrukturen und komplexe Webanwendungen und setzt diese um
+                - listitem [ref=e151]: Du wirkst am Support unserer Kunden mit und führst Relaunchs bestehender Projekte auf Basis Content-Management- & Shopsystemen durch (vorwiegend Magento, Shopware, WordPress, …)
+                - listitem [ref=e152]: Außerdem unterstützt du uns bei der technischen Optimierung von Inhouse- und Kundenprojekten
+                - listitem [ref=e153]: Du entwickelst Unit- und Integrationstests, erstellst Dokumentationen und wirkst an Scrum-Prozessen mit
+                - listitem [ref=e154]: Zu deinen Aufgaben gehören ebenso die Anforderungsanalyse, die Konzeptionierung und das Schätzen von Entwicklungsaufwänden bei unseren Projekten
+              - paragraph [ref=e155]
+            - generic [ref=e156]:
+              - heading "#profil" [level=2] [ref=e157]
+              - paragraph [ref=e158]
+              - list [ref=e159]:
+                - listitem [ref=e160]: Du hast eine Ausbildung oder ein Studium im Bereich (Wirtschafts-) Informatik oder Wirtschaftsingenieurwesen erfolgreich abgeschlossen oder vergleichbare Qualifikation erlangt
+                - listitem [ref=e161]: Du besitzt einschlägige Berufserfahrung im Entwicklungsumfeld
+                - listitem [ref=e162]: Du bist routiniert im Umgang mit objektorientierter Programmierung in PHP / Python
+                - listitem [ref=e163]: Du hast Datenbankkenntnisse in MySQL, Maria DB
+                - listitem [ref=e164]: Du besitzt sichere Kenntnisse und Erfahrung in Frameworks
+                - listitem [ref=e165]: Du weist fundierte HTML-, CSS-, JavaScript- und jQuery-Kenntnisse vor
+                - listitem [ref=e166]: Du hast ein umfassendes Verständnis im Umgang mit dem MVC-Prinzip
+                - listitem [ref=e167]: Du sprichst verhandlungssicheres Deutsch (mind. C1)
+              - paragraph [ref=e168]
+              - paragraph [ref=e169]:
+                - strong [ref=e170]: "#nicetohave"
+              - list [ref=e172]:
+                - listitem [ref=e173]: "Wenn du zusätzlich in den folgenden Bereichen Erfahrung vorzuweisen hast, gibt es Bonuspunkte für dich: OOP / Symfony / jQuery / Performance-Optimierung / Docker / DevOps"
+              - paragraph [ref=e174]: "Deine Leistungen sagen mehr als tausend Worte: Bitte schicke uns anstatt eines langen Lebenslaufes lieber Codebeispiele mit deiner Bewerbung mit, damit wir sehen, was du auf dem Kasten hast."
+            - generic [ref=e175]:
+              - heading "#feelgoodagency" [level=2] [ref=e176]
+              - paragraph [ref=e177]
+              - list [ref=e178]:
+                - listitem [ref=e179]: Wir bieten dir Events, die du und deine Kolleg:innen mitgestalten könnt
+                - listitem [ref=e180]: Du kannst dich weiterentwickeln und wirklich etwas bewegen – und das in einer der spannendsten Branchen mit viel Kundenkontakt auf B2B-Ebene.
+                - listitem [ref=e181]: Wir arbeiten ortsunabhängig – mal im Büro, mal daheim. Die Mischung macht’s!
+                - listitem [ref=e182]: Genieße das Arbeiten innerhalb agiler Teams mit flachen Hierarchien, einem festen Weiterbildungsbudget und einer guten Netzwerkorganisation – und in der Mittagspause einen Snack auf der Dachterrasse mit Blick auf die Dresdner Altstadt.
+                - listitem [ref=e183]: Wie klingen ein unbefristeter Arbeitsvertrag, zahlreiche Events, Obst, Müsli, Gemüse, Softdrinks sowie eine bezuschusste betriebliche Altersvorsorge für dich? Bei uns findest du eine sichere, erfüllende und humorvolle Arbeitsumgebung!
+                - listitem [ref=e184]: Zusätzlich profitierst du von familienfreundlichen Kernarbeitszeiten werktags von 09:00 – 15:00 Uhr, 29 Tagen Urlaub, Kindkrank-Tagen auf Kulanz und der Möglichkeit, Überstunden unkompliziert abzubummeln
+              - paragraph [ref=e185]:
+                - text: Mehr zu all unseren Benefits findest du auf unserer
+                - link "Karriereseite" [ref=e186] [cursor=pointer]:
+                  - /url: https://clicks.digital/karriere
+                - text: "!"
+            - generic [ref=e187]:
+              - heading "#letsgo" [level=2] [ref=e188]
+              - paragraph [ref=e189]: "Das klingt toll für dich? Dann melde dich gern bei uns. Zuallererst wollen wir dich als Mensch kennenlernen und können in einem ruhigen Gespräch gemeinsam herausfinden, ob und wie wir harmonieren. Anschließend lernst du unser Team kennen, schnupperst bei uns rein und wenn alles passt, erhältst du direkt ein Jobangebot. Selbstverständlich sind wir während des gesamten Onboardings permanent für dich da. Unser Ziel: Eine Win-Win-Situation und ein ernstgemeintes Willkommen!"
+          - generic [ref=e194]:
+            - heading "Wo?" [level=2] [ref=e195]
+            - paragraph [ref=e196]: Im wunderschönen Dresden an der Elbe.
+            - heading "Beginn?" [level=2] [ref=e197]
+            - paragraph [ref=e198]: Wir suchen ab sofort Unterstützung und freuen uns auf deine Bewerbung.
+            - heading "Neugierig auf deine neuen Kollegen?" [level=2] [ref=e199]
+            - paragraph [ref=e200]:
+              - text: Schau dich ganz einfach auf unserer
+              - link "Facebook" [ref=e201] [cursor=pointer]:
+                - /url: https://www.facebook.com/clicks.de
+              - text: "-Seite oder auf unseren"
+              - link "Team-Seiten" [ref=e202] [cursor=pointer]:
+                - /url: https://clicks.digital/team-dev
+              - text: um und verschaffe dir einen ersten Eindruck von uns.
+          - generic [ref=e203]:
+            - img "HR_Nicole_und_Tobi" [ref=e208]
+            - generic [ref=e211]:
+              - generic [ref=e212]: ein click. kann alles verändern
+              - generic [ref=e213]:
+                - paragraph [ref=e214]: "Du möchtest unkompliziert mit Nicole & Tobias in Kontakt treten? Dann nutze einfach eine der folgenden Möglichkeiten:"
+                - paragraph [ref=e215]:
+                  - link "jobs@clicks.digital" [ref=e216] [cursor=pointer]:
+                    - /url: mailto:jobs@clicks.digital
+                - paragraph [ref=e217]:
+                  - link "0151 42095982" [ref=e218] [cursor=pointer]:
+                    - /url: https://wa.me/15142095982
+                - paragraph [ref=e219]:
+                  - link "0351 65312010" [ref=e220] [cursor=pointer]:
+                    - /url: tel:+49351 65312010
+                - paragraph [ref=e221]
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - status
+                  - list
+                - form "Kontaktformular" [ref=e225]:
+                  - generic [ref=e227]:
+                    - generic [ref=e229]:
+                      - heading "Jetzt bewerben" [level=3] [ref=e230]
+                      - paragraph [ref=e231]: Gewünschter Job *
+                      - paragraph [ref=e232]:
+                        - combobox [ref=e234]:
+                          - option "(Senior) Digital Content Manager (m/w/d) in Dresden"
+                          - option "(Senior) SEA Manager (m/w/d)"
+                          - option "Customer Success Manager - Online Marketing (m/w/d)"
+                          - option "Digital Stratege (m/w/d) in Dresden"
+                          - option "Head of Online Marketing (m/w/d) in Dresden"
+                          - option "Head of SEO / Teamlead SEO (m/w/d) in Dresden"
+                          - option "Projektmanager Online Marketing (m/w/d)"
+                          - option "SEO/GEO-Manager (m/w/d)"
+                          - option "Software-Entwickler PHP (m/w/d) in Dresden" [selected]
+                          - option "Teamlead Content Marketing (m/w/d)"
+                          - option "Teamlead Content Marketing (m/w/d) in Dresden"
+                          - option "Webanalyst (m/w/d) – Tracking, GA4 & BigQuery - in Dresden"
+                          - option "Webanalyst (m/w/d) – Tracking, GA4 & BigQuery - in Dresden"
+                    - generic [ref=e235]:
+                      - paragraph [ref=e237]:
+                        - textbox "Vorname *" [ref=e239]
+                      - paragraph [ref=e241]:
+                        - textbox "Nachname *" [ref=e243]
+                    - generic [ref=e244]:
+                      - paragraph [ref=e246]:
+                        - textbox "E-Mail *" [ref=e248]
+                      - paragraph [ref=e250]:
+                        - textbox "Telefon *" [ref=e252]
+                    - generic [ref=e253]:
+                      - paragraph [ref=e255]:
+                        - textbox "Verfügbar ab" [ref=e257]
+                      - paragraph [ref=e259]:
+                        - textbox "Gehaltsvorstellung (brutto p.a.) *" [ref=e261]
+                    - paragraph [ref=e264]:
+                      - textbox "Nachricht" [ref=e266]
+                    - generic [ref=e268]:
+                      - paragraph [ref=e269]:
+                        - strong [ref=e270]: Bewerbungsunterlagen
+                        - generic [ref=e271]: Lade direkt deinen Lebenslauf und ggf. Arbeitsproben hoch - das reicht uns fürs Erste.
+                      - paragraph [ref=e272]:
+                        - generic [ref=e275]:
+                          - generic [ref=e277]:
+                            - heading "Hierher ziehen & fallen lassen" [level=3] [ref=e278]
+                            - generic [ref=e279]: oder
+                            - link "Dateien auswählen" [ref=e281] [cursor=pointer]:
+                              - /url: "#"
+                          - generic [ref=e282]:
+                            - generic [ref=e283]: "0"
+                            - text: von 10
+                      - paragraph [ref=e284]: "erlaubte Dateiformate: pdf, docx, doc, jpg, png, txt, jpeg, odt, ods, xlsx, rtf, xls, pptx, ppt, gif, tif, tiff, bmp, csv, rar, gz, zip, 7z"
+                    - generic [ref=e285]:
+                      - generic [ref=e286]:
+                        - paragraph [ref=e287]:
+                          - generic [ref=e291]:
+                            - checkbox "Ich stimme der Datenschutzerklärung zu.*" [ref=e292]
+                            - generic [ref=e293]:
+                              - text: Ich stimme der
+                              - link "Datenschutzerklärung" [ref=e294] [cursor=pointer]:
+                                - /url: /en/privacy-policy
+                              - text: zu.*
+                          - generic [ref=e298]:
+                            - checkbox "Ich möchte mich für den Newsletter anmelden." [ref=e299]
+                            - text: Ich möchte mich für den Newsletter anmelden.
+                        - paragraph [ref=e300]: "* benötigte Angaben"
+                      - paragraph [ref=e302]:
+                        - button "Bewerbung abschicken" [disabled] [ref=e304]
+                  - generic [ref=e305]:
+                    - generic [ref=e310]:
+                      - text: Anti-Roboter-Verifizierung
+                      - button "Hier klicken" [ref=e311] [cursor=pointer]
+                    - link "FriendlyCaptcha ⇗" [ref=e313] [cursor=pointer]:
+                      - /url: https://friendlycaptcha.com/
+    - contentinfo [ref=e314]:
+      - generic [ref=e317]:
+        - generic [ref=e320]:
+          - paragraph [ref=e321]: LEISTUNGEN
+          - list [ref=e323]:
+            - listitem [ref=e324]:
+              - link "Paid Advertising Agentur" [ref=e325] [cursor=pointer]:
+                - /url: https://clicks.digital/paid-advertising
+            - listitem [ref=e326]:
+              - link "SEO Agentur" [ref=e327] [cursor=pointer]:
+                - /url: https://clicks.digital/suchmaschinenoptimierung-seo
+            - listitem [ref=e328]:
+              - link "Inbound-Marketing-Agentur" [ref=e329] [cursor=pointer]:
+                - /url: https://clicks.digital/inbound-marketing
+            - listitem [ref=e330]:
+              - link "Webanalyse Beratung" [ref=e331] [cursor=pointer]:
+                - /url: https://clicks.digital/data-analytics-webanalyse
+            - listitem [ref=e332]:
+              - link "Strategische Beratung" [ref=e333] [cursor=pointer]:
+                - /url: https://clicks.digital/strategische-beratung
+            - listitem [ref=e334]:
+              - link "E-Commerce Agentur" [ref=e335] [cursor=pointer]:
+                - /url: https://clicks.digital/ecommerce
+        - generic [ref=e338]:
+          - paragraph [ref=e339]: clicks digital
+          - list [ref=e341]:
+            - listitem [ref=e342]:
+              - link "Über uns" [ref=e343] [cursor=pointer]:
+                - /url: https://clicks.digital/ueber-uns
+            - listitem [ref=e344]:
+              - link "Karriere" [ref=e345] [cursor=pointer]:
+                - /url: https://clicks.digital/karriere
+            - listitem [ref=e346]:
+              - link "Unser Blog" [ref=e347] [cursor=pointer]:
+                - /url: https://clicks.digital/blog
+            - listitem [ref=e348]:
+              - link "Impressum" [ref=e349] [cursor=pointer]:
+                - /url: https://clicks.digital/impressum
+            - listitem [ref=e350]:
+              - link "Datenschutzerklärung" [ref=e351] [cursor=pointer]:
+                - /url: https://clicks.digital/datenschutzerklaerung
+        - generic [ref=e354]:
+          - paragraph [ref=e355]: Clicks Update
+          - generic [ref=e359]:
+            - link [ref=e360] [cursor=pointer]:
+              - /url: https://www.facebook.com/clicks.de/
+            - link [ref=e361] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/clicks-digital
+            - link [ref=e362] [cursor=pointer]:
+              - /url: https://www.instagram.com/clicks.digital/
+            - link [ref=e363] [cursor=pointer]:
+              - /url: https://twitter.com/clicksde
+            - link [ref=e364] [cursor=pointer]:
+              - /url: https://de.linkedin.com/company/clicks-digital
+        - generic [ref=e366]:
+          - img "clicks digital" [ref=e368]
+          - link [ref=e370] [cursor=pointer]:
+            - /url: https://www.kununu.com/de/clicks-digital
+            - img "kununu 2025" [ref=e371]
+  - complementary [active]:
+    - group "Consent Management Platform Interface":
+      - dialog [ref=e374]:
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - heading "Privatsphäre-Einstellungen" [level=2] [ref=e378]
+            - generic: Diese Seite nutzt Website-Tracking-Technologien von Dritten, um ihre Dienste anzubieten, stetig zu verbessern und Werbung entsprechend den Interessen der Nutzer anzuzeigen.
+          - navigation "Header mit Sprachauswahl und externen Links" [ref=e379]:
+            - button "Mehr Informationen" [ref=e380] [cursor=pointer]
+        - generic [ref=e381]:
+          - generic [ref=e383]:
+            - button "Ablehnen" [ref=e384] [cursor=pointer]
+            - button "Alles akzeptieren" [ref=e385] [cursor=pointer]
+          - link "Powered by Usercentrics Consent Management" [ref=e387] [cursor=pointer]:
+            - /url: https://usercentrics.com/de/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v3

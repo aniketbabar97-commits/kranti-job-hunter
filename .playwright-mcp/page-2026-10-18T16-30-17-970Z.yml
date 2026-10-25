@@ -1,0 +1,26 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Ares GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21
+            - paragraph [ref=f7e14]: Ares GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21/16825585-it-allrounder-m-w-d-e-commerce-ki-robotic-und-prozessautomatisierung
+            - paragraph [ref=f7e16]: IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e515]:
+      - heading "Was ist Ihre jährliche Gehaltserwartung in EUR?" [level=2] [ref=f7e516]
+      - group [ref=f7e518]:
+        - spinbutton "Bitte geben Sie eine Zahl ein" [active] [ref=f7e520]
+    - generic [ref=f7e26]:
+      - progressbar "80%" [ref=f7e521]
+      - generic [ref=f7e30]:
+        - button "Zurück" [ref=f7e99] [cursor=pointer]
+        - button "Weiter" [ref=f7e37] [cursor=pointer]
+  - alert [ref=f7e4]: "Ares (Lünen): IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung"
+  - region "Notifications, bottom-end (alt+T)"

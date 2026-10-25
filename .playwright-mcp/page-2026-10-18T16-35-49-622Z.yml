@@ -1,0 +1,19 @@
+- generic [active] [ref=f8e1]:
+  - generic [ref=f8e6]:
+    - banner [ref=f8e7]:
+      - generic [ref=f8e8]:
+        - img "Holz-Richter GmbH" [ref=f8e10]
+        - generic [ref=f8e11]:
+          - link [ref=f8e12] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter
+            - paragraph [ref=f8e13]: Holz-Richter GmbH
+          - link [ref=f8e14] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter/16777449
+            - paragraph [ref=f8e15]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+    - generic [ref=f8e17]:
+      - generic [ref=f8e23]:
+        - paragraph [ref=f8e24]: Wir haben Ihnen einen sicheren Anmeldelink gesendet
+        - heading "Prüfen Sie Ihren Posteingang" [level=2] [ref=f8e25]
+      - button "Link erneut senden" [disabled] [ref=f8e26]
+  - alert [ref=f8e4]: "Holz-Richter (Lindlar): Shopify E-Commerce Manager / Product Owner (m/w/d)"
+  - region "Notifications, bottom-end (alt+T)"

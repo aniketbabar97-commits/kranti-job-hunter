@@ -1,0 +1,114 @@
+- generic [active] [ref=f23e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f23e25] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f23e39] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f23e56] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f23e69] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f23e2]:
+      - generic [ref=f23e3]:
+        - link "Zur Startseite" [ref=f23e5] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f23e6]
+        - generic [ref=f23e7]:
+          - button "Navigation umschalten" [ref=f23e8] [cursor=pointer]
+          - text:      
+  - generic [ref=f23e14]:
+    - generic [ref=f23e16]:
+      - application "Zent-Berf Bewerbungsformular Wizard" [ref=f23e72]:
+        - text: ✓ ✓ ✓ ✓
+        - generic [ref=f23e73]:
+          - heading "Dateianhänge" [level=2] [ref=f23e74]
+          - tabpanel "Dateianhänge" [ref=f23e75]:
+            - generic [ref=f23e76]:
+              - generic [ref=f23e77]:
+                - heading "Senior Product Owner Mobile App (m/w/d)" [level=3] [ref=f23e78]
+                - progressbar "Fortschritt Schritt 1 von 4" [ref=f23e80]: 1 von 4
+              - generic [ref=f23e83]:
+                - generic [ref=f23e84]:
+                  - paragraph [ref=f23e85]: Lebenslauf*
+                  - generic [ref=f23e86]: max. 1 Anhang (PDF, doc, docx, jpg, png), max. 5 MB
+                  - generic "Lebenslauf hochladen" [ref=f23e87] [cursor=pointer]:
+                    - generic [ref=f23e88]:
+                      - generic [ref=f23e90]:
+                        - generic [ref=f23e92]:
+                          - strong [ref=f23e93]: "43"
+                          - text: KB
+                        - generic [ref=f23e94]: Kranti_Chavan_CV_Deichmann_Senior-Product-Owner-Mobile-App_1792339088710.pdf
+                      - generic:
+                        - img "Check"
+                      - generic:
+                        - img "Error"
+                      - link "Remove file" [ref=f23e95]:
+                        - /url: javascript:undefined;
+                  - paragraph
+                - generic [ref=f23e96]:
+                  - paragraph [ref=f23e97]: Anschreiben*
+                  - generic [ref=f23e98]: max. 1 Anhang (PDF, doc, docx, jpg, png), max. 5 MB
+                  - generic "Anschreiben hochladen" [ref=f23e99] [cursor=pointer]:
+                    - generic [ref=f23e140]:
+                      - generic [ref=f23e142]:
+                        - generic [ref=f23e144]:
+                          - strong [ref=f23e145]: "30.2"
+                          - text: KB
+                        - generic [ref=f23e146]: Kranti_Chavan_Cover_Letter_Deichmann_Senior-Product-Owner-Mobile-App_1792339177861.pdf
+                      - generic:
+                        - img "Check"
+                      - generic:
+                        - img "Error"
+                      - link "Remove file" [ref=f23e147]:
+                        - /url: javascript:undefined;
+                  - paragraph
+                - generic [ref=f23e102]:
+                  - paragraph [ref=f23e103]: Foto
+                  - generic [ref=f23e104]: max. 1 Anhang (PNG/JPG), max. 5 MB
+                  - generic "Foto" [ref=f23e105] [cursor=pointer]:
+                    - button "Dateien hierher ziehen oder Dateien auswählen" [ref=f23e107]
+                  - paragraph
+                - generic [ref=f23e108]:
+                  - paragraph [ref=f23e109]: Zeugnisse*
+                  - generic [ref=f23e110]: max. 3 Anhänge (PDF, doc, docx, jpg, png), max. 5 MB pro Anhang
+                  - generic "Zeugnisse hochladen" [ref=f23e111] [cursor=pointer]:
+                    - generic [ref=f23e124]:
+                      - generic [ref=f23e126]:
+                        - generic [ref=f23e128]:
+                          - strong [ref=f23e129]: "30.2"
+                          - text: KB
+                        - generic [ref=f23e130]: Kranti_Chavan_Cover_Letter_Deichmann_Senior-Product-Owner-Mobile-App_1792339124119.pdf
+                      - generic:
+                        - img "Check"
+                      - generic:
+                        - img "Error"
+                      - link "Remove file" [ref=f23e131]:
+                        - /url: javascript:undefined;
+                    - generic [ref=f23e132]:
+                      - generic [ref=f23e134]:
+                        - generic [ref=f23e136]:
+                          - strong [ref=f23e137]: "30.2"
+                          - text: KB
+                        - generic [ref=f23e138]: Kranti_Chavan_Cover_Letter_Deichmann_Senior-Product-Owner-Mobile-App_1792339126666.pdf
+                      - generic:
+                        - img "Check"
+                      - generic:
+                        - img "Error"
+                      - link "Remove file" [ref=f23e139]:
+                        - /url: javascript:undefined;
+                  - paragraph
+          - heading "Persönliche Angaben" [level=2] [ref=f23e114]
+          - heading "Weitere Angaben" [level=2] [ref=f23e115]
+          - heading "Vorschau" [level=2] [ref=f23e116]
+          - alert
+        - menu "Pagination" [ref=f23e118]:
+          - listitem [ref=f23e119]:
+            - menuitem "Weiter" [ref=f23e120] [cursor=pointer]
+      - region "Speichern und Laden Bereich" [ref=f23e17]:
+        - separator [ref=f23e18]
+        - paragraph [ref=f23e19]: Wenn du deine Bewerbung zwischenspeichern möchtest, um sie zu einem späteren Zeitpunkt weiter zu bearbeiten, dann klicke unten auf "Bewerbung speichern". Um die Bewerbung dann anschließend weiter zu bearbeiten, klicke auf "Bewerbung laden".
+        - button "Bewerbung speichern" [ref=f23e20] [cursor=pointer]
+    - text: 
+  - iframe [ref=f23e24]:
+    - generic [ref=f24e6]:
+      - text: protected by
+      - strong [ref=f24e7]: reCAPTCHA
+  - button "Gracie" [ref=f23e122] [cursor=pointer]

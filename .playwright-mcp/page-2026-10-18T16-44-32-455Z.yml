@@ -1,0 +1,403 @@
+- generic [active] [ref=f17e1]:
+  - link [aria-hidden] [ref=f17e2] [cursor=pointer]:
+    - /url: "#"
+    - text: ___
+  - region [ref=f17e4]:
+    - generic [ref=f17e5]:
+      - generic [ref=f17e7]:
+        - img "Logo" [ref=f17e9]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster":
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f17e11]:
+        - tab "Zustimmung" [selected] [ref=f17e12] [cursor=pointer]
+        - tab "Details" [ref=f17e13] [cursor=pointer]
+        - tab "Über Cookies" [ref=f17e14] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=f17e16]:
+        - generic [ref=f17e18]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=f17e19]
+          - generic [ref=f17e20]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
+      - generic [ref=f17e24]:
+        - button "Einstellungen" [ref=f17e25] [cursor=pointer]
+        - button "OK" [ref=f17e27] [cursor=pointer]
+  - navigation [ref=f17e28]:
+    - list [ref=f17e29]:
+      - listitem [ref=f17e30]:
+        - link "Brauchwasserwärmepumpen" [ref=f17e31] [cursor=pointer]:
+          - /url: /brauchwasserwaermepumpen/
+      - listitem [ref=f17e32]:
+        - link "Wärmepumpen" [ref=f17e33] [cursor=pointer]:
+          - /url: /waermepumpen/
+      - listitem [ref=f17e34]:
+        - link "Gas-Heizung" [ref=f17e35] [cursor=pointer]:
+          - /url: /gas-heizung/
+      - listitem [ref=f17e36]:
+        - link "Öl-Heizung" [ref=f17e37] [cursor=pointer]:
+          - /url: /oel-heizung/
+      - listitem [ref=f17e38]:
+        - link "Elektro-Heizung" [ref=f17e39] [cursor=pointer]:
+          - /url: /elektro-heizung/
+      - listitem [ref=f17e40]:
+        - link "Holz-Heizung" [ref=f17e41] [cursor=pointer]:
+          - /url: /holz-heizung/
+      - listitem [ref=f17e42]:
+        - link "Heizkörper" [ref=f17e43] [cursor=pointer]:
+          - /url: /heizkoerper/
+      - listitem [ref=f17e44]:
+        - link "Fussbodenheizung" [ref=f17e45] [cursor=pointer]:
+          - /url: /fussbodenheizung/
+      - listitem [ref=f17e46]:
+        - link "Durchlauferhitzer" [ref=f17e47] [cursor=pointer]:
+          - /url: /durchlauferhitzer/
+      - listitem [ref=f17e48]:
+        - link "Klimaanlagen" [ref=f17e49] [cursor=pointer]:
+          - /url: /klimaanlagen/
+      - listitem [ref=f17e50]:
+        - link "Photovoltaik" [ref=f17e51] [cursor=pointer]:
+          - /url: /photovoltaik/
+      - listitem [ref=f17e52]:
+        - link "Pumpen" [ref=f17e53] [cursor=pointer]:
+          - /url: /pumpen/
+      - listitem [ref=f17e54]:
+        - link "Rohrsysteme" [ref=f17e55] [cursor=pointer]:
+          - /url: /rohrsysteme/
+      - listitem [ref=f17e56]:
+        - link "Solartechnik" [ref=f17e57] [cursor=pointer]:
+          - /url: /solartechnik/
+      - listitem [ref=f17e58]:
+        - link "Speichertechnik" [ref=f17e59] [cursor=pointer]:
+          - /url: /speichertechnik/
+      - listitem [ref=f17e60]:
+        - link "Wasseraufbereitung" [ref=f17e61] [cursor=pointer]:
+          - /url: /wasseraufbereitung/
+      - listitem [ref=f17e62]:
+        - link "Wohnungslüftung" [ref=f17e63] [cursor=pointer]:
+          - /url: /wohnungslueftung/
+      - listitem [ref=f17e64]:
+        - link "Abgassysteme" [ref=f17e65] [cursor=pointer]:
+          - /url: /abgassysteme/
+      - listitem [ref=f17e66]:
+        - link "Ausdehnungsgefäße" [ref=f17e67] [cursor=pointer]:
+          - /url: /ausdehnungsgefaesse/
+      - listitem [ref=f17e68]:
+        - link "Bad & Sanitär" [ref=f17e69] [cursor=pointer]:
+          - /url: /bad-sanitaer/
+      - listitem [ref=f17e70]:
+        - link "Befestigungstechnik" [ref=f17e71] [cursor=pointer]:
+          - /url: /befestigungstechnik/
+      - listitem [ref=f17e72]:
+        - link "Elektro-Installation" [ref=f17e73] [cursor=pointer]:
+          - /url: /elektro-installation/
+      - listitem [ref=f17e74]:
+        - link "Luftheizer" [ref=f17e75] [cursor=pointer]:
+          - /url: /luftheizer/
+      - listitem [ref=f17e76]:
+        - link "Öltanks" [ref=f17e77] [cursor=pointer]:
+          - /url: /oeltanks/
+      - listitem [ref=f17e78]:
+        - link "Regelungstechnik" [ref=f17e79] [cursor=pointer]:
+          - /url: /regelungstechnik/
+      - listitem [ref=f17e80]:
+        - link "Smart Home" [ref=f17e81] [cursor=pointer]:
+          - /url: /smart-home/
+      - listitem [ref=f17e82]:
+        - link "Solarflüssigkeit" [ref=f17e83] [cursor=pointer]:
+          - /url: /solarfluessigkeit/
+      - listitem [ref=f17e84]:
+        - link "Solarrohr" [ref=f17e85] [cursor=pointer]:
+          - /url: /solarrohr/
+      - listitem [ref=f17e86]:
+        - link "Wallboxen" [ref=f17e87] [cursor=pointer]:
+          - /url: /wallboxen/
+      - listitem [ref=f17e88]:
+        - link "Wohnungsstationen" [ref=f17e89] [cursor=pointer]:
+          - /url: /wohnungsstationen/
+      - listitem [ref=f17e90]:
+        - link "Zubehör" [ref=f17e91] [cursor=pointer]:
+          - /url: /zubehoer/
+      - listitem [ref=f17e92]:
+        - link "Marken" [ref=f17e93] [cursor=pointer]:
+          - /url: /marken/
+      - listitem [ref=f17e94]:
+        - link "Sonderposten" [ref=f17e95] [cursor=pointer]:
+          - /url: /sonderposten/
+      - listitem [ref=f17e96]:
+        - link "Dienstleistungen" [ref=f17e97] [cursor=pointer]:
+          - /url: /dienstleistungen/
+  - banner [ref=f17e98]:
+    - text:   
+    - generic [ref=f17e100]:
+      - generic [ref=f17e101]:
+        - link [ref=f17e103] [cursor=pointer]:
+          - /url: /
+          - img "Heizung und Solar zu Discountpreisen" [ref=f17e104]
+        - list [ref=f17e106]:
+          - listitem [ref=f17e107]:
+            - link [ref=f17e108] [cursor=pointer]:
+              - /url: tel:004964194825200
+              - img "Telefon" [ref=f17e109]
+          - listitem [ref=f17e110]:
+            - link [ref=f17e111] [cursor=pointer]:
+              - /url: /shop/system/?func=customer&action=homelist&
+              - img "Kundencenter" [ref=f17e112]
+          - listitem [ref=f17e113]:
+            - link "Warenkorb 0" [ref=f17e114] [cursor=pointer]:
+              - /url: /shop/system/?func=scartshow&
+              - img "Warenkorb" [ref=f17e115]
+              - generic [ref=f17e116]: "0"
+      - generic [ref=f17e119]:
+        - generic [ref=f17e120]:
+          - link "Kategorien":
+            - /url: "#"
+            - img "Kategorien" [ref=f17e121] [cursor=pointer]
+        - textbox "Ihre Suchbegriff" [ref=f17e122]:
+          - /placeholder: Ihre Suchbegriff(e) ...
+        - generic [ref=f17e123]: Ihre Suchbegriff
+        - button [ref=f17e125] [cursor=pointer]:
+          - img "Suchen" [ref=f17e126]
+  - generic [ref=f17e130]:
+    - text:                                  
+    - generic [ref=f17e133]:
+      - generic [ref=f17e136]:
+        - heading "Stellenangebote" [level=1] [ref=f17e137]
+        - separator [ref=f17e138]
+        - paragraph [ref=f17e139]: HeizungsDiscount24 ist für über 150 Mitarbeiter ein zuverlässiger und zukunftsorientierter Arbeitgeber in Gießen. Bei uns wird die Work-Life-Balance großgeschrieben. Dank unterschiedlicher Arbeitszeitmodelle und der Möglichkeit zum Homeoffice bieten wir unseren Mitarbeitern eine große Flexibilität. Start-Up Experience mit offener Kommunikation, flache Hierarchien, viel Dynamik und Spaß warten auf dich. Bewirb dich jetzt!
+      - generic [ref=f17e140]:
+        - generic [ref=f17e141]:
+          - heading "Senior SEO Stratege (m/w/d)" [level=2] [ref=f17e142]
+          - paragraph [ref=f17e143]: Bewirb dich als Senior SEO Stratege (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e145] [cursor=pointer]:
+            - /url: /jobs/senior-seo-stratege.html
+        - generic [ref=f17e146]:
+          - heading "E-Commerce Web-Engineer (m/w/d)" [level=2] [ref=f17e147]
+          - paragraph [ref=f17e148]: Bewirb Dich als E-Commerce Web-Engineer (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e150] [cursor=pointer]:
+            - /url: /jobs/ecommerce-web-engineer.html
+        - generic [ref=f17e151]:
+          - heading "Strategischer Einkäufer aus der SHK-/Elektro-Branche (m/w/d)" [level=2] [ref=f17e152]
+          - paragraph [ref=f17e153]: Bewirb Dich als Strategischer Einkäufer aus der SHK-/Elektro-Branche (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e155] [cursor=pointer]:
+            - /url: /jobs/einkaeufer-shk-elektro.html
+        - generic [ref=f17e156]:
+          - heading "Operativer Einkäufer (m/w/d)" [level=2] [ref=f17e157]
+          - paragraph [ref=f17e158]: Bewirb Dich als Operativer Einkäufer (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e160] [cursor=pointer]:
+            - /url: /jobs/operativer-einkaeufer.html
+        - generic [ref=f17e161]:
+          - heading "Commercial Controller - Schwerpunkt Pricing (m/w/d)" [level=2] [ref=f17e162]
+          - paragraph [ref=f17e163]: Bewirb Dich als Commercial Controller mit dem Schwerpunkt Pricing (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e165] [cursor=pointer]:
+            - /url: /jobs/commercial-controller-pricing.html
+        - generic [ref=f17e166]:
+          - heading "IT-Systemadministrator (m/w/d)" [level=2] [ref=f17e167]
+          - paragraph [ref=f17e168]: Bewirb Dich als IT-Systemadministrator (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e170] [cursor=pointer]:
+            - /url: /jobs/it-systemadministrator.html
+        - generic [ref=f17e171]:
+          - heading "Produktmanager aus der SHK-Branche (m/w/d)" [level=2] [ref=f17e172]
+          - paragraph [ref=f17e173]: Bewirb Dich als Produktmanager aus der SHK-Branche (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e175] [cursor=pointer]:
+            - /url: /jobs/produktmanager-shk.html
+        - generic [ref=f17e176]:
+          - heading "Kundenberater im Innendienst mit dem Schwerpunkt SHK (m/w/d)" [level=2] [ref=f17e177]
+          - paragraph [ref=f17e178]: Bewirb Dich als Kundenberater im Innendienst mit dem Schwerpunkt SHK (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e180] [cursor=pointer]:
+            - /url: /jobs/kundenberater-shk.html
+        - generic [ref=f17e181]:
+          - heading "Sachbearbeiter Kundenservice (m/w/d)" [level=2] [ref=f17e182]
+          - paragraph [ref=f17e183]: Bewirb Dich als Sachbearbeiter Kundenservice (m/w/d)
+          - link "Zur Stellenbeschreibung" [ref=f17e185] [cursor=pointer]:
+            - /url: /jobs/sachbearbeiter-kundenservice.html
+        - generic [ref=f17e186]:
+          - heading "Lagerfachkraft (m/w/d) in Pohlheim-Garbenteich" [level=2] [ref=f17e187]
+          - paragraph [ref=f17e188]: Bewirb Dich als Lagerfachkraft (m/w/d) in Pohlheim-Garbenteich
+          - link "Zur Stellenbeschreibung" [ref=f17e190] [cursor=pointer]:
+            - /url: /jobs/lagerfachkraft.html
+  - contentinfo [ref=f17e191]:
+    - generic [ref=f17e193]:
+      - text: 
+      - generic [ref=f17e194]:
+        - generic [ref=f17e195]:
+          - paragraph [ref=f17e196]: Fachberatung
+          - list [ref=f17e197]:
+            - listitem [ref=f17e198]:
+              - link "0641 / 948 252 00" [ref=f17e199] [cursor=pointer]:
+                - /url: tel:064194825200
+                - generic [aria-hidden] [ref=f17e200]: 
+                - text: 0641 / 948 252 00
+            - listitem [ref=f17e201]:
+              - generic [aria-hidden] [ref=f17e202]: 
+              - text: 0641 / 948 252 01
+            - listitem [ref=f17e203]:
+              - link "info@heizungsdiscount24.de" [ref=f17e204] [cursor=pointer]:
+                - /url: /kontakt.html
+                - generic [aria-hidden] [ref=f17e205]: 
+                - text: info@heizungsdiscount24.de
+            - listitem [ref=f17e206]:
+              - generic [ref=f17e207]: "Mo. - Fr.:"
+              - text: 08:00 - 17:00 Uhr
+        - generic [ref=f17e208]:
+          - paragraph [ref=f17e209]: Informationen
+          - list [ref=f17e210]:
+            - listitem [ref=f17e211]:
+              - text: 
+              - link "Anschlussgarantie" [ref=f17e212] [cursor=pointer]:
+                - /url: /anschlussgarantie.html
+            - listitem [ref=f17e213]:
+              - text: 
+              - link "Herstellergarantie" [ref=f17e214] [cursor=pointer]:
+                - /url: /herstellergarantie.html
+            - listitem [ref=f17e215]:
+              - text: 
+              - link "Versandkosten" [ref=f17e216] [cursor=pointer]:
+                - /url: /versandkosten.html
+            - listitem [ref=f17e217]:
+              - text: 
+              - link "Zahlungsarten" [ref=f17e218] [cursor=pointer]:
+                - /url: /zahlungsarten.html
+            - listitem [ref=f17e219]:
+              - text: 
+              - link "Aktuelles" [ref=f17e220] [cursor=pointer]:
+                - /url: /aktuelles
+            - listitem [ref=f17e221]:
+              - text: 
+              - link "Stellenangebote" [ref=f17e222] [cursor=pointer]:
+                - /url: /jobs.html
+            - listitem [ref=f17e223]:
+              - text: 
+              - link "Grounding Page" [ref=f17e224] [cursor=pointer]:
+                - /url: /facts.html
+        - generic [ref=f17e225]:
+          - paragraph [ref=f17e226]: Rechtliches
+          - list [ref=f17e227]:
+            - listitem [ref=f17e228]:
+              - text: 
+              - link "AGB" [ref=f17e229] [cursor=pointer]:
+                - /url: /agb.html
+            - listitem [ref=f17e230]:
+              - text: 
+              - link "Datenschutz" [ref=f17e231] [cursor=pointer]:
+                - /url: /datenschutz.html
+            - listitem [ref=f17e232]:
+              - text: 
+              - link "Datenschutzeinstellungen" [ref=f17e233] [cursor=pointer]:
+                - /url: "javascript: Cookiebot.renew()"
+            - listitem [ref=f17e234]:
+              - text: 
+              - link "Impressum" [ref=f17e235] [cursor=pointer]:
+                - /url: /impressum.html
+            - listitem [ref=f17e236]:
+              - text: 
+              - link "Widerrufsrecht" [ref=f17e237] [cursor=pointer]:
+                - /url: /widerrufsrecht.html
+            - listitem [ref=f17e238]:
+              - text: 
+              - link "Batterieverordnung" [ref=f17e239] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+            - listitem [ref=f17e240]:
+              - text: 
+              - link "Entsorgung von Elektroaltgeräten" [ref=f17e241] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+        - generic [ref=f17e242]:
+          - paragraph [ref=f17e243]: Service
+          - list [ref=f17e244]:
+            - listitem [ref=f17e245]:
+              - text: 
+              - link "Kontakt" [ref=f17e246] [cursor=pointer]:
+                - /url: /kontakt.html
+            - listitem [ref=f17e247]:
+              - text: 
+              - link "Login Kundenkonto" [ref=f17e248] [cursor=pointer]:
+                - /url: /shop/system/?func=customer&action=homelist&
+            - listitem [ref=f17e249]:
+              - text: 
+              - link "Montage-Partner finden" [ref=f17e250] [cursor=pointer]:
+                - /url: /heizung-montage-partner-finden.html
+            - listitem [ref=f17e251]:
+              - text: 
+              - link "Montage-Partner werden" [ref=f17e252] [cursor=pointer]:
+                - /url: /heizung-montage-partner-werden.html
+            - listitem [ref=f17e253]:
+              - text: 
+              - link "Retourenservice" [ref=f17e254] [cursor=pointer]:
+                - /url: /retourenservice.html
+            - listitem [ref=f17e255]:
+              - text: 
+              - link "Treuhandservice" [ref=f17e256] [cursor=pointer]:
+                - /url: /treuhandservice.html
+            - listitem [ref=f17e257]:
+              - text: 
+              - link "Vertrag widerrufen" [ref=f17e258] [cursor=pointer]:
+                - /url: /widerrufsrecht.html#os_form_widerruf
+    - generic [ref=f17e260]:
+      - generic [ref=f17e261]:
+        - generic [ref=f17e262]:
+          - generic [ref=f17e263]:
+            - strong [ref=f17e264]: © Heizungsdiscount 24 GmbH
+            - link "* Sämtliche Preise verstehen sich inkl. der gesetzlichen MwSt. und ggf. zzgl. Versandkosten." [ref=f17e265] [cursor=pointer]:
+              - /url: /versandkosten.html
+            - generic [aria-hidden] [ref=f17e266]: 
+            - text: Versandkostenfrei ab 500 EUR Bestellwert
+          - generic [ref=f17e267]:
+            - link [ref=f17e268] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Heizungsdiscount24
+              - generic [aria-hidden] [ref=f17e269]: 
+            - link [ref=f17e270] [cursor=pointer]:
+              - /url: https://www.instagram.com/heizungsdiscount24.de/
+              - generic [aria-hidden] [ref=f17e271]: 
+            - link [ref=f17e272] [cursor=pointer]:
+              - /url: https://www.facebook.com/heizungsdiscount24
+              - generic [aria-hidden] [ref=f17e273]: 
+            - link [ref=f17e274] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/heizungsdiscount24-de/
+              - generic [aria-hidden] [ref=f17e275]: 
+        - link [ref=f17e277] [cursor=pointer]:
+          - /url: /zahlungsarten.html
+          - img "Vorkasse" [ref=f17e278]
+          - img "Treuhand" [ref=f17e279]
+          - img "Rechnung" [ref=f17e280]
+          - img "Amazon Pay" [ref=f17e281]
+          - img "PayPal" [ref=f17e282]
+          - img "PayPal Kreditkarte" [ref=f17e283]
+          - img "PayPal Ratenkauf" [ref=f17e284]
+          - img "PayPal später zahlen" [ref=f17e285]
+          - img "Easy Credit" [ref=f17e286]
+        - generic [ref=f17e288]:
+          - generic [ref=f17e289]: ★★★★★
+          - link "Die Bestellung wurde sofort bearbeitet und geliefert. Super zufrieden!" [ref=f17e291] [cursor=pointer]:
+            - /url: https://www.trustedshops.de/bewertung/info_X233E0FDF51FF959BBB268A8053AE964C.html
+          - separator [ref=f17e292]
+          - strong [ref=f17e294]: Anonym
+          - link "Über die Echtheit der Trusted Shops Bewertungen." [ref=f17e296] [cursor=pointer]:
+            - /url: https://help.etrusted.com/hc/de/articles/23970864566162-Informationen-zum-Trusted-Shops-G%C3%BCtesiegel-und-zu-den-Trusted-Shops-Bewertungen
+        - link [ref=f17e298] [cursor=pointer]:
+          - /url: /ueber-uns.html
+          - img "Deutschlands beste Online Portale 2026" [ref=f17e299]
+      - generic [ref=f17e300]: Zur Erstellung einzelner Texte, Bilder und Serviceinhalte werden KI-gestützte Werkzeuge eingesetzt. Sämtliche Inhalte werden vor Veröffentlichung redaktionell geprüft.
+  - generic [ref=f17e302] [cursor=pointer]
+  - generic [ref=f17e304]:
+    - generic [ref=f17e305]:
+      - link [ref=f17e307] [cursor=pointer]:
+        - /url: https://www.trustami.com/erfahrung/heizungsdiscount24-d-bewertung
+        - img "trustami.com" [ref=f17e308]
+      - link [ref=f17e310] [cursor=pointer]:
+        - /url: /unsere-bewertungen.html
+        - img "Bewertungen" [ref=f17e311]
+    - generic [ref=f17e313]:
+      - generic [ref=f17e315]:
+        - generic [ref=f17e316]: "91.665"
+        - generic [ref=f17e317]: BEWERTUNGEN
+      - generic [ref=f17e318]: 4,9/5.0
+  - text:  
+  - iframe [aria-hidden] [ref=f17e321]
+  - generic [ref=f17e322]:
+    - button "Trusted Shops Gütesiegel Käuferschutz 4,78 (39,8k) Hervorragend Trstd Login" [ref=f17e323] [cursor=pointer]:
+      - generic [ref=f17e324]:
+        - img "Trusted Shops Gütesiegel" [ref=f17e325]
+        - generic [ref=f17e326]: Käuferschutz
+      - generic [ref=f17e328]:
+        - generic [ref=f17e329]:
+          - generic [ref=f17e330]: 4,78
+          - generic [ref=f17e332]: (39,8k)
+        - generic [ref=f17e333]: Hervorragend
+      - switch "Trstd Login" [ref=f17e335]
+    - button "Menü" [ref=f17e337] [cursor=pointer]

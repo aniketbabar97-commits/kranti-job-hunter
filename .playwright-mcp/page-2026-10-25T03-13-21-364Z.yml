@@ -1,0 +1,338 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - generic [ref=e3]:
+      - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster" [ref=e6] [cursor=pointer]:
+        - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=e34]:
+        - tab "Zustimmung" [selected] [ref=e35] [cursor=pointer]
+        - tab "Details" [ref=e36] [cursor=pointer]
+        - tab "Über Cookies" [ref=e37] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=e39]:
+        - generic [ref=e41]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=e42]
+          - generic [ref=e43]: Wir verwenden Cookies, um zu analysieren wo du beim navigieren durch unsere Seite Probleme hast und um diese Fehler für zukünftige Besuche zu beseitigen.
+        - group "Einwilligungsauswahl" [ref=e50]:
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - strong [ref=e55]: Notwendig
+              - generic [ref=e56]:
+                - checkbox "Notwendig" [checked] [disabled]
+            - generic [ref=e57]:
+              - strong [ref=e59] [cursor=pointer]: Präferenzen
+              - switch "Präferenzen" [ref=e61] [cursor=pointer]
+            - generic [ref=e62]:
+              - strong [ref=e64] [cursor=pointer]: Statistiken
+              - switch "Statistiken" [ref=e66] [cursor=pointer]
+            - generic [ref=e67]:
+              - strong [ref=e69] [cursor=pointer]: Marketing
+              - switch "Marketing" [ref=e71] [cursor=pointer]
+      - generic [ref=e75]:
+        - button "Ablehnen" [ref=e76] [cursor=pointer]
+        - button "Auswahl erlauben" [ref=e77] [cursor=pointer]
+        - button "Alle zulassen" [ref=e78] [cursor=pointer]
+  - link "Direkt zum Inhalt" [ref=e79] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic:
+    - banner:
+      - generic [ref=e80]:
+        - generic [ref=e82]:
+          - group [ref=e86]:
+            - generic "Menü öffnen" [ref=e87] [cursor=pointer]: Menü
+          - link "Link zum Logo auf der Startseite" [ref=e93] [cursor=pointer]:
+            - /url: /
+            - img "ABRIO Logo in weiß" [ref=e95]
+          - button "Jetzt bewerben" [ref=e99] [cursor=pointer]
+          - text: Menü
+        - generic: Menü
+  - iframe [aria-hidden] [ref=e100]
+  - main [ref=e101]:
+    - generic [ref=e104]:
+      - generic:
+        - img "Ein Mann läuft durch eine dunkle, sternenübersäte Umgebung auf ein leuchtendes pink-violettes Portal zu."
+        - generic "Ein Mann läuft durch eine dunkle, sternenübersäte Umgebung auf ein leuchtendes pink-violettes Portal zu."
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - paragraph: Deine Karriere bei ABRIO
+            - generic:
+              - paragraph: Bei ABRIO arbeitest du an anspruchsvollen E-Commerce- und Shopify-Projekten - mit Verantwortung, Perspektiven und starkem Teamspirit.
+            - link "Jetzt bewerben" [ref=e105] [cursor=pointer]:
+              - /url: "#shopify-section-template--25902205927756__section_9i6qdK"
+    - generic [ref=e109]:
+      - generic [ref=e111]:
+        - paragraph [ref=e113]: Das erwartet dich
+        - paragraph [ref=e115]:
+          - text: Dein
+          - strong [ref=e117]: nächster Schritt
+          - text: bei uns
+        - generic [ref=e118]:
+          - paragraph [ref=e119]: Wir sind eine der führenden Digital-Commerce-Beratungen aus Frankfurt mit Fokus auf Shopify. Wir unterstützen unsere Kunden dabei, erfolgreich zu skalieren – mit E-Commerce-Strategie, Plattform-Transformation und -weiterentwicklung sowie Growth und Performance Management.
+          - paragraph [ref=e120]: Bei ABRIO arbeitest du an anspruchsvollen Projekten für Kunden vom Start-up bis zum DAX-Konzern. Du bringst deine Stärken ein, übernimmst Verantwortung und entwickelst dich fachlich wie persönlich weiter – in einem interdisziplinären Team, das Digital Commerce wirksam gestaltet.
+      - img "Fakten der ABRIO GmbH Karriereseite" [ref=e122]
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: STUDIERENDE
+          - link [ref=e134] [cursor=pointer]:
+            - /url: /pages/studierende
+        - img "STUDIERENDE" [ref=e135]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: BERUFSEINSTEIGENDE
+          - link [ref=e140] [cursor=pointer]:
+            - /url: /pages/berufserfahrene
+        - img "BERUFSEINSTEIGENDE" [ref=e141]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: BERUFSERFAHRENE
+          - link [ref=e146] [cursor=pointer]:
+            - /url: /pages/berufserfahrene
+        - img "BERUFSERFAHRENE" [ref=e147]
+    - generic [ref=e154]:
+      - paragraph [ref=e156]: das macht ABRIO aus
+      - paragraph [ref=e158]: 6 Gründe, Teil von ABRIO zu werden
+      - generic [ref=e159]:
+        - paragraph [ref=e160]: ABRIO ist eine führende E-Commerce Beratung im Bereich Shopify. Je nach Qualifikation und Interesse findest du bei uns deinen passenden Platz – entweder im Consulting, Design oder Development.
+        - paragraph [ref=e161]: Was ABRIO besonders macht? Wir zeigen dir 6 Gründe, warum du bei uns richtig bist.
+    - generic [ref=e165]:
+      - generic [ref=e167]:
+        - img "Ownership Icon" [ref=e169]
+        - generic [ref=e171]:
+          - heading "Ownership" [level=3] [ref=e173]
+          - paragraph [ref=e175]: "Jede Rolle hat bei uns direkten Impact. Ob erste Praxiserfahrung, Berufseinstieg oder mehrjährige Erfahrung: Deine Arbeit trägt sichtbar zum Erfolg unserer Kundenbei. In unserem wachsenden Unternehmen übernimmst du Verantwortung und gestaltest mit, wie wir zusammenarbeiten und uns weiterentwickeln."
+      - generic [ref=e177]:
+        - img "Beruf Weiterbildung Icon" [ref=e179]
+        - generic [ref=e181]:
+          - heading "Weiterentwicklung" [level=3] [ref=e183]
+          - paragraph [ref=e185]: Wir hinterfragen Bestehendes, denken Lösungen weiter und wachsen gemeinsam als Team. Deshalb schaffen wir mit modernen Technologien, individuellem Weiterbildungsbudget, Zertifizierungen und passenden Lernformaten Raum für deine Entwicklung.
+      - generic [ref=e187]:
+        - img "Team Zusammenhalt Icon" [ref=e189]
+        - generic [ref=e191]:
+          - heading "Team" [level=3] [ref=e193]
+          - paragraph [ref=e195]: Professionell im Anspruch, persönlich im Miteinander. Unser interdisziplinäres Team verbindet Professionalität mit persönlichem Austausch, Offenheit und Spaß – im Projektalltag genauso wie bei regelmäßigen Team- und After-Work-Events.
+      - generic [ref=e197]:
+        - img "Full Service Icon" [ref=e199]
+        - generic [ref=e201]:
+          - heading "Vergütung" [level=3] [ref=e203]
+          - paragraph [ref=e205]: Wir belohnen Leistung. Bei uns gibt es eine angemessene Vergütung sowie attraktive Bonuszahlungen. Außerdem steigt deine Vergütung spätestens mit dem Sprung auf das nächste Karrierelevel.
+      - generic [ref=e207]:
+        - img "Work Smart Glühbirne Icon" [ref=e209]
+        - generic [ref=e211]:
+          - heading "Work Smart" [level=3] [ref=e213]
+          - paragraph [ref=e215]: Gute Arbeit entsteht dort, wo Fokus, Austausch und Freiraum zusammenkommen. Deshalb setzen wir auf eine hybride Arbeitskultur, flexible Arbeitszeiten, 30 Tage Urlaub und Workation-Möglichkeiten. So kannst du Verantwortung übernehmen, konzentriert arbeiten und gleichzeitig Raum für das schaffen, was dir persönlich wichtig ist.
+      - generic [ref=e217]:
+        - img "Location Frankfurt Icon" [ref=e219]
+        - generic [ref=e221]:
+          - heading "Location" [level=3] [ref=e223]
+          - paragraph [ref=e225]: "Unser Büro liegt im Herzen Frankfurts: modern ausgestattet, stylisch eingerichtet und nur rund 10 Gehminuten bzw. eine Haltestelle vom Frankfurter Hauptbahnhof entfernt. Damit bist du bestens angebunden – egal ob du aus Frankfurt kommst oder pendelst."
+    - generic [ref=e229]:
+      - generic [ref=e231]:
+        - img "Kununu Logo mit Rationg von 4.7 Sternen in Weiß" [ref=e233]
+        - paragraph [ref=e235]: Was unsere 6 Gründe im Alltag bedeuten, können unsere Mitarbeitenden am besten erzählen. Überzeug dich selbst auf Kununu – dort werden wir seit 5 Jahren in Folge als Top Company ausgezeichnet.
+        - link "mehr erfahren" [ref=e236] [cursor=pointer]:
+          - /url: https://www.kununu.com/de/abrio
+      - img "Kununu Bewertung Top Company Scores" [ref=e238]
+    - generic [ref=e242]:
+      - paragraph [ref=e244]: deine möglichkeiten
+      - paragraph [ref=e246]: Offene Stellen
+    - generic [ref=e255]:
+      - paragraph [ref=e257]: Du konntest deine gewünschte Stelle nicht finden?
+      - paragraph [ref=e259]: Wir sind immer auf der Suche nach neuen Talenten. Vielleicht finden wir auch etwas für dich. Gerne nehmen wir eine Initiativbewerbung zu deiner gesuchten Stelle entgegen.
+      - link "Initiativbewerbung" [ref=e261] [cursor=pointer]:
+        - /url: https://abriogmbh.recruitee.com/o/initiativbewerbung-mwd
+    - paragraph [ref=e267]: Unsere Bereiche
+    - list [ref=e271]:
+      - listitem [ref=e272]:
+        - generic [ref=e274]:
+          - paragraph [ref=e277]: CONSULTING
+          - paragraph [ref=e281]: Wir beraten unsere Kunden hinsichtlich E-Commerce Strategien und im Rahmen verschiedener Projekte. Das Consulting-Team leitet diese und koordiniert mit unseren Webdesignern und Developern die Umsetzung. Unsere Consultants wissen stets über die neusten Trends und Entwicklungen im E-Commerce Bescheid.
+      - listitem [ref=e282]:
+        - generic [ref=e284]:
+          - paragraph [ref=e287]: DESIGN
+          - paragraph [ref=e291]: Unsere kreativen Köpfe im Team konzipieren und gestalten tagtäglich unvergessliche Nutzererlebnisse. Sie sind die Ansprechpartner, wenn komplizierte Funktionen einfach visualisiert werden sollen. Sie wissen genau, was ein toller Shop benötigt und sind die Experten, wenn etwas richtig gut aussehen soll.
+      - listitem [ref=e292]:
+        - generic [ref=e294]:
+          - heading "DEVELOPMENT" [level=3] [ref=e297]
+          - paragraph [ref=e301]: Bei Fragen rund um die technische Realisierung ist es die Aufgabe unserer Developer, innovative Lösungen zu entwickeln, die sich sehen lassen können. Als Experten des technischen Bereiches arbeiten sie dabei eng mit unseren Consultants und Designern zusammen um State of the Art E-Shops zu erstellen.
+    - generic [ref=e308]:
+      - generic [ref=e309]:
+        - paragraph [ref=e311]: So lernen wir uns kennen
+        - paragraph [ref=e313]: Unser Bewerbungsprozess
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - heading [level=3] [ref=e318]:
+            - strong [ref=e319]: "01"
+          - paragraph [ref=e321]: Vorauswahl
+          - paragraph [ref=e323]: Wenn deine Unterlagen gut zu uns passen, laden wir dich zu einem virtuellen Erstinterview mit Imke, unserer People & Culture Managerin, ein. So können wir uns besser kennenlernen und dir mehr zur Position und zu ABRIO erzählen.
+        - generic [ref=e324]:
+          - heading [level=3] [ref=e326]:
+            - strong [ref=e327]: "02"
+          - paragraph [ref=e329]: Interview
+          - paragraph [ref=e331]: Nach einem erfolgreichen Erstgespräch folgt ein ca. 60-minütiges zweites Gespräch, das von einer Person aus deinem künftigen Team geführt wird. Dabei geht es vor allem um deine fachlichen Kompetenzen, deine Erwartungen und Wünsche und darum, ob wir zueinander passen.
+        - generic [ref=e332]:
+          - heading [level=3] [ref=e334]:
+            - strong [ref=e335]: "03"
+          - paragraph [ref=e337]: Kennenlernen
+          - paragraph [ref=e339]: Zum Abschluss des Prozesses laden wir dich zu uns ins Office ein. So lernst du unser Team, unsere Arbeitsweise und unser Büro persönlich kennen und wir können gemeinsam prüfen, ob es fachlich und menschlich passt.
+        - generic [ref=e340]:
+          - heading [level=3] [ref=e342]:
+            - strong [ref=e343]: "04"
+          - paragraph [ref=e345]: Feedback
+          - paragraph [ref=e347]: Nachdem wir uns zuletzt noch mit einer Referenzperson deiner Wahl ausgetauscht haben, senden wir dir deinen Arbeitsvertrag zu. Für Rückfragen aller Art stehen wir dir weiterhin stets zur Verfügung.
+    - generic [ref=e351]:
+      - heading "Das macht uns aus" [level=1] [ref=e353]
+      - heading "Das sagt unser Team" [level=2] [ref=e355]
+      - paragraph [ref=e357]: Authentizität ist einer unserer Core Values. Wie wir diesen Wert im Alltag leben, zeigen am besten die Menschen, die ABRIO ausmachen.
+      - list [ref=e360]:
+        - listitem [ref=e361]:
+          - generic [ref=e363]:
+            - img "Portrait von Nicholas Ozgowicz, Senior Consultant Digital Marketing & Sales bei ABRIO GmbH" [ref=e365]
+            - generic [ref=e367]:
+              - paragraph [ref=e369]: Nicholas
+              - paragraph [ref=e371]: Senior Consultant Digital Marketing & Sales
+              - paragraph [ref=e373]: Ich fühle mich schon seit dem ersten Tag bei ABRIO sehr wohl! Man hat viele Möglichkeiten seine Kompetenzen als Consultant zu erweitern und sich stetig zu verbessern. Zusätzlich wird man in seinen Expertenfeldern absolut wertgeschätzt. Des Weiteren ist durch das junge & dynamische Team der Zusammenhalt besonders stark.
+    - generic [ref=e377]:
+      - generic [ref=e379]:
+        - heading "Im Herzen Frankfurts" [level=2] [ref=e380]
+        - paragraph [ref=e381]: Mitten in Frankfurt am Main werden unsere Ideen Wirklichkeit! Die Lage in der Mitte Deutschlands ermöglicht es uns, mühelos Kunden im gesamten Land zu besuchen und ist gleichzeitig für unsere Teammitglieder, die alle in der Umgebung wohnen, gut zu erreichen!
+        - paragraph [ref=e382]: Frankfurt ist eine Stadt mit einem reichen kulturellen Angebot und zahlreichen Möglichkeiten. Der lebhafte Geist des Unternehmertums ist immer wieder spannend, genau wie der Austausch mit jungen Unternehmerinnen und Unternehmern. Wir sind stolz, ein Teil dieser pulsierenden Stadt zu sein.
+      - generic [ref=e383]:
+        - generic [ref=e385]:
+          - img "Außenansicht WeWork in Frankfurt" [ref=e387]
+          - img "Innenbereich WeWork in Frankfurt" [ref=e389]
+        - generic [ref=e390]:
+          - img "Meetingraum WeWork in Frankfurt" [ref=e392]
+          - img "Openspace Arbeitsplatz WeWork in Frankfurt" [ref=e394]
+          - img "WeWork in Frankfurt Eingangsbereich Erdgeschoss" [ref=e396]
+    - generic [ref=e400]:
+      - generic [ref=e402]:
+        - paragraph [ref=e404]: pssst
+        - paragraph [ref=e406]: Hier ein paar Tipps für deine Bewerbung
+      - generic [ref=e408]:
+        - generic [ref=e409]:
+          - paragraph [ref=e410]: Zeig uns, wer du bist.
+          - paragraph [ref=e411]: Neben fachlichen Qualifikationen zählt für uns vor allem, ob es menschlich passt.Deshalb legen wir im Bewerbungsprozess großen Wert auf offene und authentische Kommunikation.
+        - generic [ref=e412]:
+          - group [ref=e414]:
+            - generic "1. Vollständigkeit" [ref=e415] [cursor=pointer]
+            - paragraph [ref=e418]: Wir bevorzugen vollständige Bewerbungsunterlagen. Dazu zählen neben einem vollständigen Lebenslauf, relevante Arbeits- sowie Hochschulzeugnisse und ein optionales Anschreiben, wenn du uns mehr über deine Motivation verraten möchtest.
+          - group [ref=e420]:
+            - generic "2. Authentizität" [ref=e421] [cursor=pointer]
+          - group [ref=e423]:
+            - generic "3. Motivation" [ref=e424] [cursor=pointer]
+    - generic [ref=e428]:
+      - generic [ref=e430]:
+        - paragraph [ref=e432]: FAQ
+        - paragraph [ref=e434]: Fragen zu deiner Karriere bei ABRIO?
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - group [ref=e440]:
+            - generic "Wie läuft das Onboarding ab?" [ref=e441] [cursor=pointer]
+            - generic [ref=e443]:
+              - paragraph [ref=e444]: Damit du gut bei ABRIO ankommst, begleiten wir dich von Anfang an mit einem klar strukturierten Onboarding. Schon vor deinem Start erhältst du alle wichtigen Informationen, damit du dir einen ersten Überblick über unsere Tools, Technologien und Arbeitsweise verschaffen kannst.
+              - paragraph [ref=e445]: An deinem ersten Tag lernst du in lockerer Atmosphäre erste Kolleg:innen aus den verschiedenen Teams kennen. Außerdem erhältst du dein Arbeitsgerät, richtest es mit unserer Checkliste ein und besprichst alle administrativen und organisatorischen Themen.
+              - paragraph [ref=e446]: Deine Integration unterstützen wir zusätzlich durch einen Onboarding-Buddy, einen individuellen Onboardingplan, den du gemeinsam mit deiner Führungskraft abstimmst, regelmäßige Check-ins sowie fachliche Onboarding-Sessions. So weißt du jederzeit, was als Nächstes ansteht, an wen du dich wenden kannst und wie du Schritt für Schritt in deine Rolle hineinwächst.
+          - group [ref=e448]:
+            - generic "Wie gestalten sich meine ersten Arbeitswochen?" [ref=e449] [cursor=pointer]
+          - group [ref=e451]:
+            - generic "Wie fördert ABRIO persönliche Weiterentwicklung?" [ref=e452] [cursor=pointer]
+          - group [ref=e454]:
+            - generic "Welche Technologien verwendet ihr und wie integriert ihr KI in euren Arbeitsalltag?" [ref=e455] [cursor=pointer]
+          - group [ref=e457]:
+            - generic "Was sind „typische“ Projekte, die ihr mit euren Kunden umsetzt?" [ref=e458] [cursor=pointer]
+          - group [ref=e460]:
+            - generic "Wie ist euer Miteinander als Team?" [ref=e461] [cursor=pointer]
+        - generic [ref=e462]:
+          - group [ref=e464]:
+            - generic "Wie organisiert ihr euren Arbeitsalltag?" [ref=e465] [cursor=pointer]
+          - group [ref=e467]:
+            - generic "Gibt es die Möglichkeit aus dem Home-Office zu arbeiten?" [ref=e468] [cursor=pointer]
+          - group [ref=e470]:
+            - generic "Welche Reisebereitschaft setzt ihr voraus? Wie oft seid ihr beim Kunden vor Ort?" [ref=e471] [cursor=pointer]
+    - img "Rocket" [ref=e476]
+    - generic [ref=e483]:
+      - generic [ref=e485]:
+        - paragraph [ref=e487]: INTERESSIERT?
+        - paragraph [ref=e489]: Deine Ansprechpartnerin
+      - generic [ref=e491]:
+        - img "Potrait von Imke Noormann, People & Culture Manager bei ABRIO GmbH" [ref=e493]
+        - generic [ref=e495]:
+          - generic [ref=e497]:
+            - paragraph [ref=e499]: Hi, ich bin Imke!
+            - paragraph [ref=e501]: Hast du noch Fragen zu uns oder deinen Karrieremöglichkeiten?Dann zögere nicht und nimm Kontakt mit mir auf. Ich helfe dir gerne weiter!
+          - button "Schreib mir" [ref=e503] [cursor=pointer]
+    - generic [ref=e505]:
+      - generic [ref=e506]:
+        - 'heading "Team #ABRIO" [level=2] [ref=e507]'
+        - paragraph [ref=e509]: Finde uns auch auf Instagram!
+      - list [ref=e510]:
+        - listitem [ref=e511]:
+          - generic [ref=e512]:
+            - img [ref=e513]
+            - link [ref=e514] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/Dc_mSf2DYez/
+        - listitem [ref=e515]:
+          - generic [ref=e516]:
+            - img [ref=e517]
+            - link [ref=e518] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/Dcd6RNmkY6n/
+        - listitem [ref=e519]:
+          - generic [ref=e520]:
+            - img [ref=e521]
+            - link [ref=e522] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/DcSzkS8R-BV/
+        - listitem [ref=e523]:
+          - generic [ref=e524]:
+            - img [ref=e525]
+            - link [ref=e526] [cursor=pointer]:
+              - /url: https://www.instagram.com/p/DbX4a7ZtR63/
+  - contentinfo [ref=e527]:
+    - generic [ref=e529]:
+      - generic [ref=e531]:
+        - generic [ref=e533]:
+          - group [ref=e535]:
+            - generic "Sitemap" [ref=e536]
+            - list [ref=e538]:
+              - listitem [ref=e539]:
+                - link "Cases" [ref=e540] [cursor=pointer]:
+                  - /url: /blogs/cases
+              - listitem [ref=e541]:
+                - link "Karriere" [ref=e542] [cursor=pointer]:
+                  - /url: /pages/karriere
+          - group [ref=e544]:
+            - generic "Kontakt" [ref=e545]
+            - list [ref=e547]:
+              - listitem [ref=e548]:
+                - link "info@abrio.de" [ref=e549] [cursor=pointer]:
+                  - /url: mailto:info@abrio.de
+              - listitem [ref=e550]:
+                - link "(069) 27146414" [ref=e551] [cursor=pointer]:
+                  - /url: tel:+496927146414
+              - listitem [ref=e552]:
+                - link "Taunusanlage 8, 60329 Frankfurt" [ref=e553] [cursor=pointer]:
+                  - /url: https://www.google.com/maps/dir//Taunusanlage+8,+60329+Frankfurt+am+Main/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x47bd0eab4feb016b:0xbce2e01b8e2a8505?sa=X&ved=1t:707&ictx=111
+        - generic [ref=e555]:
+          - generic [ref=e557]:
+            - heading "Anerkennungen" [level=3] [ref=e559]
+            - img "BVDW Mitglied" [ref=e561]
+          - generic [ref=e564]:
+            - heading "Top - Partner" [level=3] [ref=e566]
+            - img "Shopify Plus Partner" [ref=e568]
+            - img "Recharge Logo in Weiß" [ref=e570]
+            - img "Klaviyo Logo in Weiß" [ref=e572]
+      - generic [ref=e576]:
+        - generic [ref=e580]:
+          - text: © 2026
+          - link "ABRIO GmbH" [ref=e581] [cursor=pointer]:
+            - /url: /
+        - generic [ref=e585]:
+          - paragraph [ref=e587]:
+            - link "Cookies" [ref=e588] [cursor=pointer]:
+              - /url: "#cookie-settings"
+          - paragraph [ref=e590]:
+            - link "Datenschutzerklärung" [ref=e591] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - paragraph [ref=e593]:
+            - link "Impressum" [ref=e594] [cursor=pointer]:
+              - /url: /policies/legal-notice

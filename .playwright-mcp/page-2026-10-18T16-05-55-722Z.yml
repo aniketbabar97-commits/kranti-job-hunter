@@ -1,0 +1,266 @@
+- generic [active] [ref=f4e1]:
+  - generic "Cookies anpassen" [ref=f4e292] [cursor=pointer]
+  - generic [ref=f4e2]:
+    - banner:
+      - generic [ref=f4e4]:
+        - link "Link zu COMPANY_LOGO öffnen" [ref=f4e6] [cursor=pointer]:
+          - /url: /de
+          - img "Logo" [ref=f4e7]
+        - generic [ref=f4e8]:
+          - list [ref=f4e10]:
+            - listitem [ref=f4e11]: Deutsch
+          - navigation "Hauptnavigation" [ref=f4e13]:
+            - list [ref=f4e14]:
+              - listitem [ref=f4e15]:
+                - link "Link zu Stellenangebote öffnen" [ref=f4e16] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/stellenangebote.html
+                  - text: Stellenangebote
+              - listitem [ref=f4e17]:
+                - link "Link zu Ausbildung öffnen" [ref=f4e18] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/ausbildung.html
+                  - text: Ausbildung
+              - listitem [ref=f4e19]:
+                - link "Link zu Über uns öffnen" [ref=f4e20] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/ueber-uns.html
+                  - text: Über uns
+              - listitem [ref=f4e21]:
+                - link "Link zu FAQ öffnen" [ref=f4e22] [cursor=pointer]:
+                  - /url: https://karriere.tarox.de/faq.html
+                  - text: FAQ
+    - main [ref=f4e24]:
+      - generic [ref=f4e26]:
+        - generic [ref=f4e27]:
+          - generic [ref=f4e30]:
+            - heading "Shopware Webentwickler (m/w/d)" [level=1] [ref=f4e31]
+            - generic [ref=f4e32]: Über den Upload-Button können Sie Ihre Unterlagen (Lebenslauf etc.) hochladen. Dabei ordnet unsere automatische Erkennung Ihre Stammdaten automatisch den richtigen Formularfeldern zu, so dass Ihr Eingabeaufwand reduziert wird. Bitte beachten Sie, dass die mit * markierten Felder unbedingt auszufüllen sind. Wir freuen uns auf Ihre Bewerbung!
+            - generic [ref=f4e33]:
+              - generic [ref=f4e34]:
+                - generic [ref=f4e37] [cursor=pointer]:
+                  - button "Choose File" [ref=f4e38]
+                  - link "Button namens Lebenslauf hochladen ausführen" [ref=f4e39]:
+                    - /url: "javascript: void(0);"
+                    - text: Lebenslauf hochladen
+                - link "Button namens Mit finest jobs-Profil bewerben ausführen" [ref=f4e42] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - text: Mit finest jobs-Profil bewerben
+              - text: 
+            - generic [ref=f4e44]:
+              - group "Stammdaten" [ref=f4e46]:
+                - generic [ref=f4e49]:
+                  - generic [ref=f4e51]:
+                    - generic [ref=f4e52]:
+                      - generic [ref=f4e53]: Anrede
+                      - combobox "Geschlecht" [ref=f4e295] [cursor=pointer]:
+                        - generic [ref=f4e296]: 
+                        - generic [ref=f4e297]: Frau
+                    - generic [ref=f4e56]:
+                      - generic [ref=f4e57]: Anredetitel
+                      - combobox "Anredetitel" [ref=f4e298] [cursor=pointer]:
+                        - generic [ref=f4e299]: 
+                        - generic [ref=f4e300]: "---"
+                  - generic [ref=f4e60]:
+                    - generic [ref=f4e61]:
+                      - generic [ref=f4e62]: Vorname *
+                      - textbox "Vorname *" [ref=f4e64]: Kranti
+                    - generic [ref=f4e65]:
+                      - generic [ref=f4e66]: Nachname *
+                      - textbox "Nachname *" [ref=f4e68]: Chavan
+                  - generic [ref=f4e69]:
+                    - generic [ref=f4e70]:
+                      - generic [ref=f4e71]: Straße *
+                      - textbox "Straße *" [ref=f4e73]: Blücherstraße 6
+                    - generic [ref=f4e74]:
+                      - generic [ref=f4e75]: PLZ *
+                      - textbox "PLZ *" [ref=f4e77]: "76185"
+                  - generic [ref=f4e78]:
+                    - generic [ref=f4e79]:
+                      - generic [ref=f4e80]: Ort *
+                      - textbox "Ort *" [ref=f4e82]: Karlsruhe
+                    - generic [ref=f4e83]:
+                      - generic [ref=f4e84]: Land
+                      - combobox "Land" [ref=f4e301] [cursor=pointer]:
+                        - generic [ref=f4e302]: 
+                        - generic [ref=f4e303]: Deutschland
+                  - generic [ref=f4e87]:
+                    - generic [ref=f4e88]:
+                      - generic [ref=f4e89]: Geburtsdatum (TT.MM.JJJJ)
+                      - textbox "Geburtsdatum (TT.MM.JJJJ)" [ref=f4e91]: 14.10.1997
+                    - generic [ref=f4e92]:
+                      - generic [ref=f4e93]: Telefon *
+                      - textbox "Telefon *" [ref=f4e95]: +49 15750174177
+                  - generic [ref=f4e97]:
+                    - generic [ref=f4e98]: E-Mail *
+                    - textbox "E-Mail *" [ref=f4e100]: krantichavan198@gmail.com
+              - group "Schule, Ausbildung, Beruf" [ref=f4e102]:
+                - generic [ref=f4e105]:
+                  - generic [ref=f4e107]:
+                    - generic [ref=f4e108]:
+                      - generic [ref=f4e109]: Schulabschluss
+                      - combobox "Schulabschluss" [ref=f4e304] [cursor=pointer]:
+                        - generic [ref=f4e305]: 
+                        - generic [ref=f4e306]: Abitur
+                    - generic [ref=f4e112]:
+                      - generic [ref=f4e113]: Berufsausbildung (Bezeichnung)
+                      - textbox "Berufsausbildung (Bezeichnung)" [ref=f4e115]: B.E. Computer Engineering / IT
+                  - generic [ref=f4e117]:
+                    - generic [ref=f4e118]: Berufserfahrung
+                    - combobox "Berufserfahrung" [ref=f4e307] [cursor=pointer]:
+                      - generic [ref=f4e308]: 
+                      - generic [ref=f4e309]: 3-5 Jahre
+              - group "Interne Daten" [ref=f4e122]:
+                - generic [ref=f4e128]:
+                  - generic [ref=f4e129]: Bewerber lt. Checkliste qualifiziert?
+                  - combobox "Bewerber lt. Checkliste qualifiziert?" [ref=f4e310] [cursor=pointer]:
+                    - generic [ref=f4e311]: 
+                    - generic [ref=f4e312]: "---"
+              - group "Sonstiges" [ref=f4e133]:
+                - generic [ref=f4e136]:
+                  - generic [ref=f4e139]:
+                    - generic [ref=f4e140]: Frühester Eintritt (TT.MM.JJJJ) *
+                    - textbox "Frühester Eintritt (TT.MM.JJJJ) *" [ref=f4e142]: 16.12.2026
+                  - generic [ref=f4e143]:
+                    - generic [ref=f4e144]:
+                      - generic [ref=f4e145]: Gehaltswunsch p.a. (nur Zahl)
+                      - textbox "Gehaltswunsch p.a. (nur Zahl)" [ref=f4e147]: "60000"
+                    - generic [ref=f4e148]:
+                      - generic [ref=f4e149]: Wie hast Du uns gefunden? *
+                      - combobox "Wie hast Du uns gefunden?" [ref=f4e313] [cursor=pointer]:
+                        - generic [ref=f4e314]: 
+                        - generic [ref=f4e315]: andere Jobbörse
+              - group "allg. Kompetenzen" [ref=f4e153]:
+                - generic [ref=f4e159]:
+                  - generic [ref=f4e160]: Internet Kenntnisse
+                  - combobox "Internet Kenntnisse" [ref=f4e316] [cursor=pointer]:
+                    - generic [ref=f4e317]: 
+                    - generic [ref=f4e318]: Hervorragend
+              - generic [ref=f4e163]:
+                - generic [ref=f4e164]: Anlagen
+                - generic [ref=f4e166]:
+                  - paragraph [ref=f4e168]: "Sie können hier entweder ein gesamtes Bewerbungs-Dokument oder einzelne Dokumente hochladen. Folgende Dateiformate sind möglich: Word (doc, docx), PDF, JPG, PNG, GIF. Ein Einzeldokument darf die Größe von 15 MB nicht überschreiten. Bitte laden Sie keine PDF- und Word-Dokumente hoch, die mit einem Passwort- oder Schreibschutz versehen sind."
+                  - generic [ref=f4e170]:
+                    - generic [ref=f4e171]:
+                      - generic [ref=f4e172]: Foto
+                      - generic [ref=f4e173]:
+                        - generic "Foto hochladen" [ref=f4e175]:
+                          - generic [ref=f4e176]:
+                            - button "Foto" [ref=f4e177] [cursor=pointer]
+                            - generic [ref=f4e178]:
+                              - generic [ref=f4e179]: 
+                              - generic [ref=f4e181]: Datei hochladen
+                        - text: 
+                    - generic [ref=f4e183]:
+                      - generic [ref=f4e184]: Anschreiben / Komplette Unterlagen *
+                      - generic [ref=f4e185]:
+                        - text:  
+                        - generic [ref=f4e187]:
+                          - link "" [ref=f4e188] [cursor=pointer]:
+                            - /url: javascript:del.delatt('anschreiben','172','0');void(0);
+                          - link "Kranti_Chavan_Ansc...er.pdf" [ref=f4e191] [cursor=pointer]:
+                            - /url: https://karriere.tarox.de/Anlage-ansehen-dsa0.php?type=anschreiben&joboffer_id=172&application_id=0&atthash=1254c64ff2377efdefd214e2bdf666fa
+                  - generic [ref=f4e193]:
+                    - generic [ref=f4e194]:
+                      - generic [ref=f4e195]: Lebenslauf
+                      - generic [ref=f4e196]:
+                        - text: 
+                        - generic [ref=f4e198]:
+                          - link "" [ref=f4e199] [cursor=pointer]:
+                            - /url: javascript:del.delatt('lebenslauf','172','0');void(0);
+                          - link "Kranti_Chavan_Lebe...er.pdf" [ref=f4e202] [cursor=pointer]:
+                            - /url: https://karriere.tarox.de/Anlage-ansehen-dsa0.php?type=lebenslauf&joboffer_id=172&application_id=0&atthash=d896656c37cee957e333462597697b42
+                    - generic [ref=f4e204]:
+                      - generic [ref=f4e205]: letztes Arbeitgeberzeugnis
+                      - generic [ref=f4e206]:
+                        - text: 
+                        - generic [ref=f4e208]:
+                          - link "" [ref=f4e209] [cursor=pointer]:
+                            - /url: javascript:del.delatt('anlage1','172','0');void(0);
+                          - link "Kranti_Chavan_Ansc...er.pdf" [ref=f4e212] [cursor=pointer]:
+                            - /url: https://karriere.tarox.de/Anlage-ansehen-dsa0.php?type=anlage1&joboffer_id=172&application_id=0&atthash=52586cbcdd3b959c83179b54197e1e46
+                  - generic [ref=f4e214]:
+                    - generic [ref=f4e215]:
+                      - generic [ref=f4e216]: letztes Schulzeugnis
+                      - generic [ref=f4e217]:
+                        - text: 
+                        - generic [ref=f4e219]:
+                          - link "" [ref=f4e220] [cursor=pointer]:
+                            - /url: javascript:del.delatt('anlage3','172','0');void(0);
+                          - link "Kranti_Chavan_Ansc...er.pdf" [ref=f4e223] [cursor=pointer]:
+                            - /url: https://karriere.tarox.de/Anlage-ansehen-dsa0.php?type=anlage3&joboffer_id=172&application_id=0&atthash=8e26da140dc7495f9542f021fad42bc3
+                    - generic [ref=f4e225]:
+                      - generic [ref=f4e226]: Hochschulzeugnis
+                      - generic [ref=f4e227]:
+                        - text: 
+                        - generic [ref=f4e229]:
+                          - link "" [ref=f4e230] [cursor=pointer]:
+                            - /url: javascript:del.delatt('anlage5','172','0');void(0);
+                          - link "Kranti_Chavan_Ansc...er.pdf" [ref=f4e233] [cursor=pointer]:
+                            - /url: https://karriere.tarox.de/Anlage-ansehen-dsa0.php?type=anlage5&joboffer_id=172&application_id=0&atthash=c72c684a093d1d567579c5d7f37cb023
+            - generic [ref=f4e236]:
+              - checkbox " Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der Datenschutzrichtlinien." [checked] [ref=f4e237]
+              - generic [ref=f4e238] [cursor=pointer]:
+                - generic [ref=f4e239]: 
+                - text: Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der Datenschutzrichtlinien.
+            - generic [ref=f4e240]: Leider konnten wir Ihre Anfrage nicht bearbeiten. Bitte versuchen Sie es erneut.
+          - generic [ref=f4e243]:
+            - link "Button namens Zurück ausführen" [ref=f4e245] [cursor=pointer]:
+              - /url: https://karriere.tarox.de/Shopware-Webentwickler-mwd-de-j172.html
+              - text: Zurück
+            - link "Button namens Senden ausführen" [ref=f4e247] [cursor=pointer]:
+              - /url: "#"
+              - text: Senden
+          - generic [aria-hidden] [ref=f4e248]:
+            - text: Website
+            - textbox [ref=f4e249]
+        - link [ref=f4e252] [cursor=pointer]:
+          - /url: https://www.rexx-systems.com
+          - img "Rexx Systems - software for success" [ref=f4e253]
+    - contentinfo "Fußbereich" [ref=f4e255]:
+      - generic [ref=f4e256]:
+        - generic "Footer-Navigation" [ref=f4e257]:
+          - list [ref=f4e258]:
+            - listitem [ref=f4e259]:
+              - link "Link zu Impressum öffnen" [ref=f4e260] [cursor=pointer]:
+                - /url: https://karriere.tarox.de/impressum.html
+                - text: Impressum
+            - listitem [ref=f4e261]:
+              - link "Link zu Datenschutz öffnen" [ref=f4e262] [cursor=pointer]:
+                - /url: https://karriere.tarox.de/datenschutz.html
+                - text: Datenschutz
+        - generic "Social Media" [ref=f4e263]:
+          - list [ref=f4e264]:
+            - listitem [ref=f4e265]:
+              - link "Link zu Facebook öffnen" [ref=f4e266] [cursor=pointer]:
+                - /url: https://www.facebook.com/
+                - generic [ref=f4e267]: 
+            - listitem [ref=f4e268]:
+              - link "Link zu Instagram öffnen" [ref=f4e269] [cursor=pointer]:
+                - /url: https://www.instagram.com/
+                - generic [ref=f4e270]: 
+            - listitem [ref=f4e271]:
+              - link "Link zu Finest Jobs öffnen" [ref=f4e272] [cursor=pointer]:
+                - /url: https://www.finest-jobs.com/
+                - generic [ref=f4e273]: 
+            - listitem [ref=f4e274]:
+              - link "Link zu X öffnen" [ref=f4e275] [cursor=pointer]:
+                - /url: https://x.com/
+                - generic [ref=f4e276]: 
+            - listitem [ref=f4e277]:
+              - link "Link zu Pinterest öffnen" [ref=f4e278] [cursor=pointer]:
+                - /url: https://www.pinterest.de/
+                - generic [ref=f4e279]: 
+            - listitem [ref=f4e280]:
+              - link "Link zu Linkedin öffnen" [ref=f4e281] [cursor=pointer]:
+                - /url: https://www.linkedin.com/
+                - generic [ref=f4e282]: 
+            - listitem [ref=f4e283]:
+              - link "Link zu Xing öffnen" [ref=f4e284] [cursor=pointer]:
+                - /url: https://www.xing.com/
+                - generic [ref=f4e285]: 
+            - listitem [ref=f4e286]:
+              - link "Link zu Youtube öffnen" [ref=f4e287] [cursor=pointer]:
+                - /url: https://www.youtube.com/
+                - generic [ref=f4e288]: 
+            - listitem [ref=f4e289]:
+              - link "Link zu Kununu öffnen" [ref=f4e290] [cursor=pointer]:
+                - /url: https://www.kununu.com/
+                - generic [ref=f4e291]: 

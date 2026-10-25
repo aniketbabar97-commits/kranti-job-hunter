@@ -1,0 +1,80 @@
+- generic [ref=f26e2]:
+  - link "Zum Hauptinhalt springen" [ref=f26e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=f26e4]:
+    - banner [ref=f26e6]:
+      - generic [ref=f26e7]:
+        - generic:
+          - link:
+            - /url: https://hmmh.jobs.personio.de
+        - generic [ref=f26e8]:
+          - 'combobox "Select language, current: Deutsch" [ref=f26e10] [cursor=pointer]':
+            - generic: Deutsch
+          - combobox [aria-hidden] [ref=f26e14]
+    - main [ref=f26e15]:
+      - link "Zurück zu allen Stellen" [ref=f26e19] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f26e23]:
+        - generic [ref=f26e24]:
+          - heading "Java Developer | SAP Commerce (m/w/d)" [level=1] [ref=f26e25]
+          - generic [ref=f26e27]:
+            - generic [ref=f26e28]: Bremen, Remote
+            - generic [ref=f26e33]: Vollzeit
+            - generic [ref=f26e37]: Festanstellung
+        - link [ref=f26e41] [cursor=pointer]:
+          - /url: /job/2573113/apply
+          - button "Auf diese Stelle bewerben" [ref=f26e42]
+        - generic [ref=f26e43]:
+          - generic [ref=f26e44]:
+            - heading "Deine Aufgaben" [level=2] [ref=f26e45]
+            - list [ref=f26e47]:
+              - listitem [ref=f26e48]: Als SAP Commerce / hybris Developer analysierst Du in deinem Team Kundenanforderungen, erstellst technische Designs und entwickelst Softwarekomponenten auf Basis der SAP Commerce / hybris E-Commerce Plattform.
+              - listitem [ref=f26e49]: Du integrierst neue und geänderte Komponenten in die Systemlandschaft und unterstützt das Team auch im Support und in der Qualitätssicherung.
+              - listitem [ref=f26e50]: An wechselnden Herausforderungen hast Du Spaß und bist neugierig, Dir neue Themengebiete in einem tollen Team zu erarbeiten.
+              - listitem [ref=f26e51]: Unsere Homeoffice-Regelung ermöglicht dir, selbst zu entscheiden, ob Du von zu Hause oder im Büro arbeitest.
+          - generic [ref=f26e52]:
+            - heading "Dein Profil" [level=2] [ref=f26e53]
+            - list [ref=f26e55]:
+              - listitem [ref=f26e56]: Du bringst im Idealfall ein relevantes abgeschlossenes Studium oder gleichwertige Berufserfahrungen in der Software-Entwicklung (Java) mit.
+              - listitem [ref=f26e57]: Durch Deine jahrelangen Erfahrungen als professionelle*r Entwickler*in und Dein Know-How der SAP Commerce / hybris commerce suite bist Du ein*e Experte*in auf dem Gebiet.
+              - listitem [ref=f26e58]: Großen Wert legst Du auf "test first" und eleganten, wartbaren Code.
+              - listitem [ref=f26e59]: Außerdem sprichst Du mind. auf C1-Niveau deutsch und bringst sichere Englischkenntnisse mit.
+              - listitem [ref=f26e60]: Dein Profil rundest Du mit einer schnellen Auffassungsgabe, hohem technischen Verständnis und analytischen Fähigkeiten ab.
+          - generic [ref=f26e61]:
+            - heading "Deine Vorteile" [level=2] [ref=f26e62]
+            - generic [ref=f26e63]:
+              - text: "Neben einer guten Arbeitsatmosphäre in einem tollen Team bieten wir zusätzlich zahlreiche Benefits. Eine Auflistung findest Du auf:"
+              - link "https://www.hmmh.de/jobs" [ref=f26e65] [cursor=pointer]:
+                - /url: https://www.hmmh.de/jobs
+          - generic [ref=f26e66]:
+            - heading "Kontakt" [level=2] [ref=f26e67]
+            - generic [ref=f26e68]:
+              - paragraph [ref=f26e69]:
+                - strong [ref=f26e70]: Annika Jürs
+                - generic [ref=f26e71]: Manager People & Culture
+              - paragraph [ref=f26e72]:
+                - generic [ref=f26e73]: hmmh multimediahaus AGAm Weser-Terminal 128217 Bremen
+              - paragraph [ref=f26e74]:
+                - generic [ref=f26e75]: "Mail: recruiting@hmmh.de"
+                - text: "Tel: 0421 696 50 - 418"
+        - separator [ref=f26e76]
+        - generic [ref=f26e77]:
+          - heading "Über uns" [level=2] [ref=f26e78]
+          - generic [ref=f26e79]: "In unseren Projekten entwickeln wir zielgerichtete Lösungen für den Connected Commerce – neu, innovativ und immer in bestmöglicher Qualität für unsere Kunden. Auf Basis bewährter Technologien, hochwertiger Daten sowie moderner Prozesse verbinden wir Touchpoints nahtlos miteinander. So schafft ein begeistertes und engagiertes Team, gemeinsam mit unseren Kunden, individuell abgestimmte Nutzererlebnisse. Dabei entsteht es. Das unverwechselbare hmmh-Gefühl: Es macht einfach Spaß hier zu arbeiten. Jeden Tag aufs Neue. Versprochen."
+        - link [ref=f26e80] [cursor=pointer]:
+          - /url: /job/2573113/apply
+          - button "Auf diese Stelle bewerben" [ref=f26e81]
+    - contentinfo [ref=f26e82]:
+      - generic [ref=f26e83]:
+        - generic [ref=f26e86]:
+          - img "Powered by Personio" [ref=f26e87]
+          - generic [ref=f26e88]:
+            - text: Powered by
+            - link [ref=f26e89] [cursor=pointer]:
+              - /url: https://www.personio.com
+              - strong [ref=f26e90]: Personio
+        - generic [ref=f26e91]:
+          - link "Datenschutzerklärung" [ref=f26e92] [cursor=pointer]:
+            - /url: /privacy-policy
+          - link "Impressum" [ref=f26e93] [cursor=pointer]:
+            - /url: "#"

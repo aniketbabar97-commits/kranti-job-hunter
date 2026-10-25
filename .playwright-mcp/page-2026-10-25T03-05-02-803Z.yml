@@ -1,0 +1,564 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - navigation [ref=e11]:
+          - button "Zum Hauptinhalt springen"
+          - button "Nach oben scrollen" [ref=e13] [cursor=pointer]:
+            - img "Schäfer Shop Group GmbH & Co. KG" [ref=e16]
+          - generic [ref=e17]:
+            - generic [ref=e18]:
+              - button "Hauptnavigationsmenü ein- oder ausblenden" [ref=e19] [cursor=pointer]
+              - dialog "Navigationsmenü (Overlay-Ansicht)":
+                - generic [ref=e24] [cursor=pointer]: Alle Stellenangebote
+            - button "Alle Stellenangebote" [ref=e28] [cursor=pointer]
+        - heading "Karriereseite und Stellenangebote | Schäfer Shop" [level=1] [ref=e31]
+    - main [ref=e32]:
+      - generic [ref=e35]:
+        - heading [level=2] [ref=e40]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Deine Karriere bei
+            - strong [ref=e45]: Schäfer Shop.
+        - generic [ref=e47]:
+          - link "Unternehmensbewertung – 4.69 von 5 Sternen softgarden Arbeitgeberbewertung Exzellent 448 verifizierte Bewertungen nach Bewerbungsgespräch und 83 Bewertungen von Mitarbeitenden" [ref=e59] [cursor=pointer]:
+            - /url: https://certificate.softgarden.io/schaefer-shop
+            - generic [ref=e60]:
+              - generic "Unternehmensbewertung – 4.69 von 5 Sternen" [ref=e62]
+              - generic [ref=e83]: softgarden Arbeitgeberbewertung
+              - generic [ref=e84]: Exzellent
+            - generic [ref=e85]: 448 verifizierte Bewertungen nach Bewerbungsgespräch und 83 Bewertungen von Mitarbeitenden
+          - generic [ref=e89]:
+            - generic [ref=e91]:
+              - group "1 / 6" [ref=e92]
+              - group "2 / 6" [ref=e94]
+              - group "3 / 6" [ref=e96]
+              - group "4 / 6" [ref=e98]
+              - group "5 / 6" [ref=e100]
+              - group "6 / 6" [ref=e102]
+            - generic:
+              - generic: einfach. erstklassig. arbeiten.
+              - generic [ref=e104]:
+                - button "Gehe zur Folie1" [ref=e105] [cursor=pointer]
+                - button "Gehe zur Folie2" [ref=e106] [cursor=pointer]
+                - button "Gehe zur Folie3" [ref=e107] [cursor=pointer]
+                - button "Gehe zur Folie4" [ref=e108] [cursor=pointer]
+                - button "Gehe zur Folie5" [ref=e109] [cursor=pointer]
+                - button "Gehe zur Folie6" [ref=e110] [cursor=pointer]
+          - generic [ref=e113]:
+            - generic [ref=e115]:
+              - group "1 / 5" [ref=e116]:
+                - generic [ref=e117]:
+                  - paragraph [ref=e119]: ca. 1.000
+                  - paragraph [ref=e121]: Mitarbeiter:innen
+              - group "2 / 5" [ref=e122]:
+                - generic [ref=e123]:
+                  - paragraph [ref=e125]: "880.000"
+                  - paragraph [ref=e127]: Kunden
+              - group "3 / 5" [ref=e128]:
+                - generic [ref=e129]:
+                  - paragraph [ref=e131]: "8"
+                  - paragraph [ref=e133]:
+                    - generic [ref=e134]: Länder
+              - group "4 / 5" [ref=e135]:
+                - generic [ref=e136]:
+                  - paragraph [ref=e138]: "> 50"
+                  - paragraph [ref=e140]:
+                    - generic [ref=e141]: Jahre Erfahrung
+              - group "5 / 5" [ref=e142]:
+                - generic [ref=e143]:
+                  - paragraph [ref=e145]: "18"
+                  - paragraph [ref=e147]: Jahre durchschnittliche Betriebszugehörigkeit
+            - generic [ref=e149]:
+              - button "Gehe zur Folie1" [ref=e150] [cursor=pointer]
+              - button "Gehe zur Folie2" [ref=e151] [cursor=pointer]
+              - button "Gehe zur Folie3" [ref=e152] [cursor=pointer]
+              - button "Gehe zur Folie4" [ref=e153] [cursor=pointer]
+              - button "Gehe zur Folie5" [ref=e154] [cursor=pointer]
+          - generic [ref=e162]:
+            - generic [ref=e163]: 7 aktuelle Stellenangebote
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "Leiter Entgeltabrechnung / Manager Payroll (m/w/d) Betzdorf Neu" [ref=e166] [cursor=pointer]:
+                  - /url: /jobs/67526442/Leiter-Entgeltabrechnung-Manager-Payroll-m-w-d-/
+                  - generic [ref=e167]:
+                    - generic [ref=e168]: Leiter Entgeltabrechnung / Manager Payroll (m/w/d)
+                    - generic [ref=e169]: Betzdorf
+                  - generic [ref=e170]: Neu
+              - listitem [ref=e171]:
+                - link "Controller Einkauf / Einkaufscontrolling (m/w/d) Betzdorf Neu" [ref=e172] [cursor=pointer]:
+                  - /url: /jobs/67525937/Controller-Einkauf-Einkaufscontrolling-m-w-d-/
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: Controller Einkauf / Einkaufscontrolling (m/w/d)
+                    - generic [ref=e175]: Betzdorf
+                  - generic [ref=e176]: Neu
+              - listitem [ref=e177]:
+                - link "Lagermitarbeiter - Fachkraft Warenausgang & Verladung (m/w/d) Wetzlar Neu" [ref=e178] [cursor=pointer]:
+                  - /url: /jobs/68203631/Lagermitarbeiter---Fachkraft-Warenausgang-Verladung-m-w-d-/
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: Lagermitarbeiter - Fachkraft Warenausgang & Verladung (m/w/d)
+                    - generic [ref=e181]: Wetzlar
+                  - generic [ref=e182]: Neu
+              - listitem [ref=e183]:
+                - link "(Senior) Software-Architekt (m/w/d) Deutschland" [ref=e184] [cursor=pointer]:
+                  - /url: /jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: (Senior) Software-Architekt (m/w/d)
+                    - generic [ref=e187]: Deutschland
+              - listitem [ref=e188]:
+                - link "Senior Java Developer (m/w/d) Deutschland" [ref=e189] [cursor=pointer]:
+                  - /url: /jobs/67593192/Senior-Java-Developer-m-w-d-/
+                  - generic [ref=e190]:
+                    - generic [ref=e191]: Senior Java Developer (m/w/d)
+                    - generic [ref=e192]: Deutschland
+              - listitem [ref=e193]
+              - listitem [ref=e194]
+            - button "Alle Stellenangebote" [ref=e196] [cursor=pointer]
+          - generic [ref=e201]:
+            - generic [ref=e202]:
+              - generic:
+                - generic:
+                  - button [ref=e203] [cursor=pointer]:
+                    - 'img "Kartenmarkierung: 3 Job(s) an diesem Ort" [ref=e204]'
+                  - button [ref=e205] [cursor=pointer]:
+                    - 'img "Kartenmarkierung: 1 Job(s) an diesem Ort" [ref=e206]'
+                  - button [ref=e207] [cursor=pointer]:
+                    - 'img "Kartenmarkierung: 3 Job(s) an diesem Ort" [ref=e208]'
+              - generic:
+                - generic [ref=e209]:
+                  - button "Zoom in" [ref=e210] [cursor=pointer]: +
+                  - button "Zoom out" [ref=e211] [cursor=pointer]: −
+                - generic [ref=e212]:
+                  - link "Leaflet" [ref=e213] [cursor=pointer]:
+                    - /url: https://leafletjs.com
+                  - text: "| ©"
+                  - link "OpenStreetMap" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.openstreetmap.org/copyright
+            - paragraph [ref=e220]:
+              - strong [ref=e221]: Unsere Standorte
+              - text: Überall vor Ort
+      - generic [ref=e229]:
+        - generic [ref=e231]:
+          - heading [level=3] [ref=e233]:
+            - strong [ref=e235]: Einer für Alle…
+          - paragraph [ref=e237]: "Egal, ob im Produktmanagement, Marketing oder Personalwesen, egal, ob Abteilungsleiter:in, Azubi oder Praktikant:in: Denn wir wissen, wie wichtig jede und jeder Einzelne ist - dass wir uns auf unsere Mitarbeitenden verlassen können und unsere Mitarbeitenden sich auf uns."
+        - generic [ref=e239]:
+          - heading [level=3] [ref=e241]:
+            - strong [ref=e243]: …und Alle für Einen.
+          - paragraph [ref=e245]: "Als großes Team betreuen wir so viele Aufgaben wie möglich inhouse: Vom Callcenter über die Gestaltung der Kataloge, das eigene Fotostudio, Layout, die hauseigene Planungsabteilung für große Kundenaufträge und vieles mehr. Unser wesentlicher Zukunftstreiber und stark wachsender Vertriebskanal ist eCommerce. Zusätzlich sind wir aber auch mit unserem Katalog- und Direktgeschäft immer dort, wo unsere Kunden uns brauchen."
+      - group "Photo album" [ref=e250]
+      - generic [ref=e271]:
+        - generic [ref=e275]:
+          - heading "Wer wir sind" [level=2] [ref=e276]
+          - paragraph [ref=e278]: Herzlich willkommen bei Schäfer Shop, wo wir unsere Leidenschaft und unser Engagement dafür einsetzen, Arbeitsumfelder zu gestalten, die dich zu Höchstleistungen inspirieren. Als einer der führenden Anbieter von Büro- und Betriebsausstattungen in Europa sind wir stolz darauf, unser Team von nahezu 1.000 talentierten Menschen vorzustellen, die gemeinsam an dieser Vision arbeiten.Komm zu uns und hilf uns dabei, die Zukunft der Arbeitswelt zu gestalten. Entdecke deine Karrieremöglichkeiten bei Schäfer Shop und werde Teil unserer Mission, Arbeitsumfelder zu schaffen, die dich erfolgreich machen.
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e289]:
+              - heading [level=3] [ref=e290]:
+                - text: Eine
+                - strong [ref=e291]: Gemeinschaft
+              - paragraph [ref=e293]: Bei Schäfer Shop sind wir mehr als nur ein Unternehmen – wir sind eine Gemeinschaft von Machern und Visionären. Unser Erfolg basiert auf einer Kultur der Zusammenarbeit, Innovation und des unermüdlichen Strebens nach Exzellenz. Wir sind ständig auf der Suche nach talentierten und motivierten Menschen, die unsere Leidenschaft teilen und dazu beitragen möchten, unsere Mission Wirklichkeit werden zu lassen.
+            - generic [ref=e299]:
+              - heading [level=3] [ref=e300]:
+                - generic [ref=e301]:
+                  - text: Unsere
+                  - strong [ref=e302]: Arbeitsweise
+              - paragraph [ref=e304]: Wenn du dich uns anschließt, wirst du Teil eines Teams, das die Art und Weise, wie Menschen arbeiten, gestaltet und verbessert. Wir bieten dir nicht nur eine Karriere, sondern auch die Möglichkeit, einen echten Einfluss auf die Arbeitswelt unserer Kunden auszuüben. Unsere Arbeitsumgebungen sind geprägt von Offenheit, Zusammenarbeit und Wachstum – ein Ort, an dem deine Ideen und deine Leidenschaft willkommen sind.
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - heading [level=3] [ref=e312]:
+                - text: Dein
+                - strong [ref=e313]: Potential
+              - paragraph [ref=e315]: Egal, ob du bereits Erfahrung in der Branche hast oder gerade am Anfang deiner Karriere stehst, bei Schäfer Shop gibt es spannende Möglichkeiten und Herausforderungen, auf die du dich freuen kannst. Wir sind bestrebt, unsere Mitarbeiterinnen und Mitarbeiter zu fördern, zu inspirieren und zu unterstützen, damit sie ihr volles Potenzial ausschöpfen können.
+            - button "Bewirb Dich jetzt" [ref=e317] [cursor=pointer]
+      - generic [ref=e329]:
+        - heading [level=2] [ref=e330]:
+          - text: Benefits
+          - strong [ref=e332]: Was wir Dir bieten
+        - paragraph [ref=e334]:
+          - strong [ref=e335]: Viele Wege für Deine Zukunft
+          - text: Bei uns bekommt jeder die Chance, in bereichsübergreifenden Projekten die Zukunft des Unternehmens aktiv mitzugestalten und kreativ zu sein. Wenn Du bei Schäfer Shop in einem Beruf startest, wirst Du nicht zwangsläufig immer in diesem arbeiten – es sei denn natürlich, Du möchtest. Du suchst neue Herausforderungen? Wir unterstützen Dich dabei, diese auch zu finden.
+          - strong [ref=e336]: Individuelle Förderung
+          - text: Wir sind stolz auf unsere Kolleg:innen und wollen jeden individuell fördern. Deshalb führen wir regelmäßig Mitarbeitergespräche, suchen den Austausch in interaktiven Fragerunden und bieten Dir unterschiedliche Schulungen und Weiterbildungen.
+      - generic [ref=e343]:
+        - generic [ref=e344]:
+          - heading [level=3] [ref=e351]:
+            - strong [ref=e353]: Flexible Arbeitszeiten
+          - heading [level=3] [ref=e360]:
+            - strong [ref=e361]: Mobiles Arbeiten
+        - generic [ref=e362]:
+          - heading [level=3] [ref=e369]:
+            - strong [ref=e370]: Jobbike
+          - heading [level=3] [ref=e378]:
+            - strong [ref=e379]: Mitarbeiterrabatte & Corporate Benefits
+        - generic [ref=e380]:
+          - heading [level=3] [ref=e387]:
+            - strong [ref=e388]: Gesunde Kantine in Betzdorf
+          - heading [level=3] [ref=e395]:
+            - strong [ref=e396]: Betriebliche Altersvorsorge & vermögenswirksame Leistungen
+        - generic [ref=e397]:
+          - heading [level=3] [ref=e404]:
+            - strong [ref=e406]: Mehrwöchige Einarbeitungsphase
+          - heading [level=3] [ref=e413]:
+            - strong [ref=e414]: Gesundheitsförderung
+        - generic [ref=e415]:
+          - heading [level=3] [ref=e422]:
+            - strong [ref=e423]: Regelmäßige Mitarbeitergespräche
+          - heading [level=3] [ref=e430]:
+            - strong [ref=e431]: Mitarbeit an abteilungsübergreifenden Projekten
+        - generic [ref=e432]:
+          - heading [level=3] [ref=e439]:
+            - strong [ref=e440]: Schulungen und Weiterbildungen
+          - heading [level=3] [ref=e447]:
+            - strong [ref=e448]: Barrierefreie Arbeitsplätze
+        - generic [ref=e449]:
+          - heading [level=3] [ref=e456]:
+            - strong [ref=e457]: Offene Kommunikation
+          - heading [level=3] [ref=e464]:
+            - strong [ref=e465]: Coaching
+        - heading [level=3] [ref=e473]:
+          - strong [ref=e474]: Firmenevents
+      - heading [level=2] [ref=e482]:
+        - text: Feedback
+        - strong [ref=e483]: Was Mitarbeiter:innen und Bewerber:innen über uns sagen
+      - generic [ref=e490]:
+        - generic [ref=e491]:
+          - generic [ref=e493]:
+            - generic [ref=e495]:
+              - group "1 / 10" [ref=e496]:
+                - generic [ref=e497]:
+                  - generic [ref=e501]:
+                    - generic [ref=e502]: Guter Arbeitgeber
+                    - blockquote [ref=e503]: Mehr das Team fördern. Gemeinsam ist man erfolgreich.
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: Mitarbeitenden-Feedback
+                    - generic [ref=e506]: vom 13. September 2026
+              - group "2 / 10" [ref=e507]:
+                - generic [ref=e508]:
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: Area Sales Manager
+                    - blockquote [ref=e514]: Bis zum jetzigen Zeitpunkt hat das Unternehmen einen sehr guten Eindruck gemacht. Offen und Transparent. So wünscht man sich den Umgang.
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: Bewerber-Feedback
+                    - generic [ref=e517]: vom 11. September 2026
+              - group "3 / 10" [ref=e518]:
+                - generic [ref=e519]:
+                  - generic [ref=e523]:
+                    - generic [ref=e524]: Vorstellungsgespräch um eine IT Position
+                    - blockquote [ref=e525]: Das Interview war super! Habe mich sehr wohl gefühlt und konnte auf der selben Ebene mit meinem Gegenüber sprechen. Bisher ein gutes Gefühl bei dieser Firma
+                  - generic [ref=e526]:
+                    - generic [ref=e527]: Bewerber-Feedback
+                    - generic [ref=e528]: vom 3. September 2026
+              - group "4 / 10" [ref=e529]:
+                - generic [ref=e530]:
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: Very positive interview
+                    - blockquote [ref=e536]: I got a very good introduction in the company and their culture and how the DevOps team is working. I had a very positive feeling the whole time and I'm looking forward to hopefully continue with the interview process.
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: Bewerber-Feedback
+                    - generic [ref=e539]: vom 31. August 2026
+              - group "5 / 10" [ref=e540]:
+                - generic [ref=e541]:
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: Sehr angenehmes Gespräch auf Augenhöhe
+                    - blockquote [ref=e547]: Das war mit Abstand das angenehmste Bewerbungsgespräch, das ich bisher hatte. Danke für die tolle Atmosphere und professionelle Gestaltung!
+                  - generic [ref=e548]:
+                    - generic [ref=e549]: Bewerber-Feedback
+                    - generic [ref=e550]: vom 28. August 2026
+              - group "6 / 10" [ref=e551]:
+                - generic [ref=e552]:
+                  - generic [ref=e556]:
+                    - generic [ref=e557]: Projektmanager im Außendienst Lager- und Betriebsausstattung
+                    - blockquote [ref=e558]: Das Gespräch war sehr angenehm und überaus sympathisch. Allein die Tatsache, dass es am Ende des Gesprächs noch eine offene und transparente Einschätzung gab über den weiteren Verlauf der Bewerbung, war mehr als gut – ebenso wie das direkt gegebene Feedback zur eigenen Person. All in all fand ich das Gespräch mehr als positiv. Das sollten Sie auf jeden Fall beibehalten!
+                  - generic [ref=e559]:
+                    - generic [ref=e560]: Bewerber-Feedback
+                    - generic [ref=e561]: vom 26. August 2026
+              - group "7 / 10" [ref=e562]:
+                - generic [ref=e563]:
+                  - generic [ref=e567]:
+                    - generic [ref=e568]: Super friendly interview
+                    - blockquote [ref=e569]: All communication and responses came quickly, the interview was well prepared and both Schäfer employees were insanely friendly and nice to chat with. Overall an extremely pleasant interview 10/10 <3
+                  - generic [ref=e570]:
+                    - generic [ref=e571]: Bewerber-Feedback
+                    - generic [ref=e572]: vom 16. Juli 2026
+              - group "8 / 10" [ref=e573]:
+                - generic [ref=e574]:
+                  - generic [ref=e578]:
+                    - generic [ref=e579]: Area Sales Manager (m/w/d) Großraum Essen/ Bocholt/ Hagen
+                    - blockquote [ref=e580]: xxxx ist sehr freundlich und zuvorkommend ! Großes Lob an ihn. Er ist super professionell und zugleich auf Augenhöhe des Kandidaten.
+                  - generic [ref=e581]:
+                    - generic [ref=e582]: Bewerber-Feedback
+                    - generic [ref=e583]: vom 9. Juli 2026
+              - group "9 / 10" [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: angenehmes und sympathisches Vorgespräch
+                    - blockquote [ref=e591]: Es war sehr angenehmes und wertschätzendes Gespräch in dem ich mich wohl gefühlt habe. Es wurde zeitlich nicht ausufernd und wir haben immer auf Augenhöhe gesprochen. Ich freue mich schon auf den nächsten Schritt und bin auf den nächsten Gesprächsverlauf gespannt.
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: Bewerber-Feedback
+                    - generic [ref=e594]: vom 2. April 2026
+              - group "10 / 10" [ref=e595]:
+                - generic [ref=e596]:
+                  - generic [ref=e600]:
+                    - generic [ref=e601]: Hat alles super geklappt
+                    - blockquote [ref=e602]: Bevor es zum Gespräch kam wurden Rückfragen telefonisch geklärt. Der schlanke Bewerbungsprozess sowie die Einsparung von Zeit und Ressourcen, haben mich sehr beeindruckt.
+                  - generic [ref=e603]:
+                    - generic [ref=e604]: Bewerber-Feedback
+                    - generic [ref=e605]: vom 26. Februar 2026
+            - generic:
+              - generic:
+                - button "Vorheriger Slide" [disabled] [ref=e606]
+                - button "Nächster Slide" [ref=e610] [cursor=pointer]
+              - generic [ref=e614]:
+                - button "Gehe zur Folie1" [ref=e615] [cursor=pointer]
+                - button "Gehe zur Folie2" [ref=e616] [cursor=pointer]
+                - button "Gehe zur Folie3" [ref=e617] [cursor=pointer]
+                - button "Gehe zur Folie4" [ref=e618] [cursor=pointer]
+                - button "Gehe zur Folie5" [ref=e619] [cursor=pointer]
+                - button "Gehe zur Folie6" [ref=e620] [cursor=pointer]
+                - button "Gehe zur Folie7" [ref=e621] [cursor=pointer]
+                - button "Gehe zur Folie8" [ref=e622] [cursor=pointer]
+                - button "Gehe zur Folie9" [ref=e623] [cursor=pointer]
+                - button "Gehe zur Folie10" [ref=e624] [cursor=pointer]
+          - generic [ref=e625]: Auszug aus 531 Bewertungen
+        - generic [ref=e626]:
+          - generic [ref=e629]:
+            - generic [ref=e630]: softgarden Arbeitgeberbewertung
+            - generic [ref=e631]: Schäfer Shop Group GmbH & Co. KG
+            - generic [ref=e632]: Nr. 6813f54c-c47c-4f3c-b91a-73113d034762
+            - generic [ref=e633]: Gültig
+          - generic [ref=e637]:
+            - img "softgarden Arbeitgeberbewertungs-Siegel" [ref=e639]
+            - generic [ref=e640]:
+              - generic [ref=e641]: Exzellent
+              - generic "Unternehmensbewertung – 4.69 von 5 Sternen" [ref=e642]
+              - generic [ref=e663]:
+                - text: "4.69"
+                - emphasis [ref=e664]: /5 (531)
+          - generic [ref=e667]:
+            - generic [ref=e668]: 448 verifizierte Bewertungen nach Bewerbungsgespräch und 83 Bewertungen von Mitarbeitenden
+            - link "Alle Bewertungen" [ref=e669] [cursor=pointer]:
+              - /url: https://certificate.softgarden.io/schaefer-shop
+      - heading [level=2] [ref=e679]:
+        - text: Einstiegsmöglichkeiten
+        - strong [ref=e680]: Dein Weg in eine neue Zukunft
+      - generic [ref=e685]:
+        - generic [ref=e688]:
+          - button "Ausbildung" [expanded] [ref=e691] [cursor=pointer]
+          - region "Ausbildung" [ref=e693]:
+            - generic [ref=e695]:
+              - paragraph [ref=e699]:
+                - strong [ref=e700]: Starte mit uns in dein Berufsleben
+                - text: "Egal, ob technik-begeistertes Mathematikass, entspanntes Organisationstalent, cleverer PC-Freak oder wissbegieriger Kreativkopf: Bei uns findest du die Ausbildung, die zu dir passt. Für Jobs mit Zukunft, die richtig Spaß machen."
+              - link "Mehr erfahren" [ref=e701] [cursor=pointer]:
+                - /url: https://www.schaefer-shop.de/karriere/ausbildung/
+        - generic [ref=e706]:
+          - button "Studium" [ref=e709] [cursor=pointer]
+          - generic [ref=e711] [cursor=pointer]: Mehr erfahren
+        - generic [ref=e715]:
+          - button "Praktikum" [ref=e718] [cursor=pointer]
+          - generic [ref=e721] [cursor=pointer]: Bewirb dich jetzt
+      - generic [ref=e729]:
+        - heading [level=2] [ref=e730]:
+          - text: Jobs
+          - strong [ref=e731]: Wir freuen uns auf Dich
+        - paragraph [ref=e733]: Lust auf ein spannendes, vielseitiges Arbeitsumfeld mit verschiedensten Karriere- und Entwicklungsmöglichkeiten? Wirf einen Blick auf unsere aktuellen Stellenausschreibungen und bewirb Dich jetzt.
+      - generic [ref=e739]:
+        - heading "7 aktuelle Stellenangebote" [level=2] [ref=e740]
+        - search [ref=e742]:
+          - status [ref=e743]
+          - searchbox "Suche nach Jobs per Stichwort" [ref=e746]
+          - generic [ref=e751]:
+            - generic [ref=e754]:
+              - log [ref=e756]
+              - generic [ref=e758] [cursor=pointer]:
+                - generic [ref=e759]: Alle Karrierestufen
+                - combobox "Alle Karrierestufen" [ref=e760]
+            - generic [ref=e765]:
+              - log [ref=e767]
+              - generic [ref=e769] [cursor=pointer]:
+                - generic [ref=e770]: Alle Jobkategorien
+                - combobox "Alle Jobkategorien" [ref=e771]
+            - generic [ref=e776]:
+              - log [ref=e778]
+              - generic [ref=e780] [cursor=pointer]:
+                - generic [ref=e781]: Alle Standorte
+                - combobox "Alle Standorte" [ref=e782]
+            - generic [ref=e787]:
+              - log [ref=e789]
+              - generic [ref=e791] [cursor=pointer]:
+                - generic [ref=e792]: Alle Unternehmen
+                - combobox "Alle Unternehmen" [ref=e793]
+        - generic [ref=e798]:
+          - link "Leiter Entgeltabrechnung / Manager Payroll (m/w/d) Leitungsfunktion Personal Betzdorf 23.10.2026 Neu" [ref=e799] [cursor=pointer]:
+            - /url: /jobs/67526442/Leiter-Entgeltabrechnung-Manager-Payroll-m-w-d-/
+            - generic [ref=e800]: Leiter Entgeltabrechnung / Manager Payroll (m/w/d)
+            - generic [ref=e801]: Leitungsfunktion
+            - generic [ref=e802]: Personal
+            - generic [ref=e803]: Betzdorf
+            - generic [ref=e805]: 23.10.2026
+            - generic [ref=e806]: Neu
+          - link "Controller Einkauf / Einkaufscontrolling (m/w/d) Berufserfahrene Finanzen Betzdorf 23.10.2026 Neu" [ref=e808] [cursor=pointer]:
+            - /url: /jobs/67525937/Controller-Einkauf-Einkaufscontrolling-m-w-d-/
+            - generic [ref=e809]: Controller Einkauf / Einkaufscontrolling (m/w/d)
+            - generic [ref=e810]: Berufserfahrene
+            - generic [ref=e811]: Finanzen
+            - generic [ref=e812]: Betzdorf
+            - generic [ref=e814]: 23.10.2026
+            - generic [ref=e815]: Neu
+          - link "Lagermitarbeiter - Fachkraft Warenausgang & Verladung (m/w/d) Berufserfahrene Einkauf, Materialwirtschaft und Logistik Wetzlar 20.10.2026 Neu" [ref=e817] [cursor=pointer]:
+            - /url: /jobs/68203631/Lagermitarbeiter---Fachkraft-Warenausgang-Verladung-m-w-d-/
+            - generic [ref=e818]: Lagermitarbeiter - Fachkraft Warenausgang & Verladung (m/w/d)
+            - generic [ref=e819]: Berufserfahrene
+            - generic [ref=e820]: Einkauf, Materialwirtschaft und Logistik
+            - generic [ref=e821]: Wetzlar
+            - generic [ref=e823]: 20.10.2026
+            - generic [ref=e824]: Neu
+          - link "(Senior) Software-Architekt (m/w/d) Berufserfahrene IT Deutschland 08.10.2026" [ref=e826] [cursor=pointer]:
+            - /url: /jobs/67961482/-Senior-Software-Architekt-m-w-d-/
+            - generic [ref=e827]: (Senior) Software-Architekt (m/w/d)
+            - generic [ref=e828]: Berufserfahrene
+            - generic [ref=e829]: IT
+            - generic [ref=e830]: Deutschland
+            - generic [ref=e832]: 08.10.2026
+          - link "Senior Java Developer (m/w/d) Berufserfahrene IT Deutschland 23.09.2026" [ref=e834] [cursor=pointer]:
+            - /url: /jobs/67593192/Senior-Java-Developer-m-w-d-/
+            - generic [ref=e835]: Senior Java Developer (m/w/d)
+            - generic [ref=e836]: Berufserfahrene
+            - generic [ref=e837]: IT
+            - generic [ref=e838]: Deutschland
+            - generic [ref=e840]: 23.09.2026
+          - link "(Senior) Specialist Data Science & Marketing Intelligence (m/w/d) Berufserfahrene Marketing und Kommunikation Deutschland 23.09.2026" [ref=e842] [cursor=pointer]:
+            - /url: /jobs/67592837/-Senior-Specialist-Data-Science-Marketing-Intelligence-m-w-d-/
+            - generic [ref=e843]: (Senior) Specialist Data Science & Marketing Intelligence (m/w/d)
+            - generic [ref=e844]: Berufserfahrene
+            - generic [ref=e845]: Marketing und Kommunikation
+            - generic [ref=e846]: Deutschland
+            - generic [ref=e848]: 23.09.2026
+          - link "Specialist Shop- and Conversion Management / Shop- and Conversion Manager (m/w/d) Berufserfahrene Marketing und Kommunikation Betzdorf 28.01.2026" [ref=e850] [cursor=pointer]:
+            - /url: /jobs/62372024/Specialist-Shop--and-Conversion-Management-Shop--and-Conversion-Manager-m-w-d-/
+            - generic [ref=e851]: Specialist Shop- and Conversion Management / Shop- and Conversion Manager (m/w/d)
+            - generic [ref=e852]: Berufserfahrene
+            - generic [ref=e853]: Marketing und Kommunikation
+            - generic [ref=e854]: Betzdorf
+            - generic [ref=e856]: 28.01.2026
+        - generic [ref=e859]:
+          - paragraph [ref=e861]: Deine Traumstellenausschreibung ist nicht dabei? Wir freuen uns auch über Deine Initiativbewerbung.
+          - link "Initiativbewerbung" [ref=e863] [cursor=pointer]:
+            - /url: https://schaefer-shop.softgarden.io/get-connected?0&l=de
+      - generic [ref=e870]:
+        - generic [ref=e873]:
+          - heading "Unser Bewerbungsprozess" [level=2] [ref=e874]
+          - paragraph [ref=e876]:
+            - generic [ref=e877]:
+              - strong [ref=e878]: Bei Schäfer Shop glauben wir an Chancengleichheit.
+              - text: Unser Bewerbungsprozess ist offen für alle, frei von direkten und indirekten Diskriminierungen und dabei auf deine Leistungen und Erfahrungen fokussiert.Wir schaffen eine Umgebung, in der jede und jeder die gleiche Chance hat, sein Potenzial zu entfalten.Willkommen bei uns – Deine Karriere beginnt hier, ganz ohne Vorurteile.
+              - strong [ref=e879]: "#schäfershopcares"
+        - generic [ref=e880]:
+          - generic [ref=e886]:
+            - heading [level=3] [ref=e887]:
+              - strong [ref=e888]: Online-Bewerbung
+            - paragraph [ref=e890]: Wir freuen uns über deine Online-Bewerbung. Gerne kannst du uns auch etwas über deine Motivation erzählen.
+          - generic [ref=e896]:
+            - heading [level=3] [ref=e897]:
+              - strong [ref=e898]: Bewerbungs-Review
+            - paragraph [ref=e900]: Jetzt sind wir dran! Wir schauen uns deine Bewerbung gemeinsam mit dem Fachbereich an und geben dir Feedback.
+          - generic [ref=e906]:
+            - heading [level=3] [ref=e907]:
+              - strong [ref=e908]: Erstes (Online-) Interview
+            - paragraph [ref=e910]: Wenn alles passt, treffen wir uns zu einem ersten Gespräch online oder direkt im schönen Westerwald.
+          - generic [ref=e916]:
+            - heading [level=3] [ref=e917]:
+              - strong [ref=e918]: Zweites (Online-) Interview
+            - paragraph [ref=e920]: Du hast uns im Erstgespräch überzeugt, jetzt steigen wir fachlich noch etwas tiefer ein. Unter Umständen haben wir eine erste kleine Aufgabe für dich.
+          - generic [ref=e926]:
+            - heading [level=3] [ref=e927]:
+              - strong [ref=e928]: Unser Angebot an dich
+            - paragraph [ref=e930]: Du bist dir sicher, dass du mit uns zusammenarbeiten willst und wir sind auch von dir überzeugt, dann machen wir dir ein Angebot.
+      - heading [level=2] [ref=e938]:
+        - text: Du hast noch Fragen?
+        - strong [ref=e940]: Wir nehmen uns gerne Zeit für Dich.
+      - generic [ref=e949]:
+        - generic [ref=e954]:
+          - paragraph [ref=e956]:
+            - strong [ref=e957]: Julia Rebeschies
+          - generic [ref=e959]:
+            - generic [ref=e960]: Tel
+            - link "+49 2741 286 8681" [ref=e961] [cursor=pointer]:
+              - /url: tel:+49 2741 286 8681
+          - generic [ref=e963]:
+            - link "Öffnen Sie die Linkedin-Seite der Kontaktperson" [ref=e964] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/julia-rebeschies-339b76167/
+            - link "Öffnen Sie die Xing-Seite der Kontaktperson" [ref=e970] [cursor=pointer]:
+              - /url: https://www.xing.com/profile/Julia_Rebeschies/cv
+        - generic [ref=e980]:
+          - paragraph [ref=e982]:
+            - strong [ref=e983]: Tobias Trebing
+          - generic [ref=e985]:
+            - generic [ref=e986]: Tel
+            - link "+49 2741 286 3732" [ref=e987] [cursor=pointer]:
+              - /url: tel:+49 2741 286 3732
+          - generic [ref=e989]:
+            - link "Öffnen Sie die Linkedin-Seite der Kontaktperson" [ref=e990] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/tobias-trebing-886600204/
+            - link "Öffnen Sie die Xing-Seite der Kontaktperson" [ref=e996] [cursor=pointer]:
+              - /url: https://www.xing.com/profile/Tobias_Trebing/cv
+      - heading "Besuche uns auch auf Social Media" [level=2] [ref=e1027]
+      - list [ref=e1033]:
+        - listitem [ref=e1034]:
+          - link [ref=e1035] [cursor=pointer]:
+            - /url: https://de-de.facebook.com/schaefershop.de/
+        - listitem [ref=e1037]:
+          - link [ref=e1038] [cursor=pointer]:
+            - /url: https://de.linkedin.com/company/ssi-sch-fer-shop-gmbh
+        - listitem [ref=e1040]:
+          - link [ref=e1041] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/ssischaefershopgmbh
+        - listitem [ref=e1043]:
+          - link [ref=e1044] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/SchaeferShop
+    - contentinfo [ref=e1046]:
+      - generic [ref=e1051]:
+        - generic [ref=e1052]:
+          - link "Impressum" [ref=e1054] [cursor=pointer]:
+            - /url: https://schaefer-shop.softgarden.io/imprint
+          - link "Datenschutz" [ref=e1056] [cursor=pointer]:
+            - /url: https://schaefer-shop.softgarden.io/data-security
+          - link "Machine-readable job feed (JSON)" [ref=e1058] [cursor=pointer]:
+            - /url: /jobs.feed.json
+        - link "powered by softgarden" [ref=e1060] [cursor=pointer]:
+          - /url: https://softgarden.com/
+  - alert [ref=e1061]
+  - generic:
+    - dialog [ref=e1062]:
+      - generic [ref=e1063]:
+        - generic [ref=e1064]:
+          - document [active] [ref=e1066]:
+            - heading "Wir nutzen Cookies und andere Technologien." [level=2] [ref=e1067]
+            - paragraph [ref=e1069]: Diese Website nutzt Cookies und vergleichbare Funktionen zur Verarbeitung von Endgeräteinformationen und personenbezogenen Daten. Die Verarbeitung dient der Einbindung von Inhalten, externen Diensten und Elementen Dritter, der statistischen Analyse/Messung, der personalisierten Werbung sowie der Einbindung sozialer Medien. Je nach Funktion werden dabei Daten an Dritte weitergegeben und an Dritte in Ländern, in denen kein angemessenes Datenschutzniveau vorliegt und von diesen verarbeitet wird, z. B. die USA. Ihre Einwilligung ist stets freiwillig, für die Nutzung unserer Website nicht erforderlich und kann jederzeit auf unserer Seite abgelehnt oder widerrufen werden. Sie erteilen Ihre Einwilligung für alle unsere Karriereseiten.
+          - list [ref=e1070]:
+            - listitem [ref=e1071]:
+              - checkbox "Technisch notwendig" [checked] [disabled]
+              - generic: Technisch notwendig
+              - text: (1)
+              - button "Details zu „Technisch notwendig“" [ref=e1072] [cursor=pointer]: "?"
+            - listitem [ref=e1073]:
+              - checkbox "Social Media"
+              - generic [ref=e1074] [cursor=pointer]: Social Media
+              - text: (1)
+              - button "Details zu „Social Media“" [ref=e1075] [cursor=pointer]: "?"
+          - group [ref=e1076]:
+            - button "Speichern" [ref=e1077] [cursor=pointer]
+            - button "Ablehnen" [ref=e1078] [cursor=pointer]
+            - button "Alles akzeptieren" [ref=e1079] [cursor=pointer]
+        - group [ref=e1080]:
+          - generic [ref=e1081]:
+            - link "Impressum" [ref=e1082] [cursor=pointer]:
+              - /url: https://schaefer-shop.softgarden.io/imprint
+            - link "Datenschutzhinweis" [ref=e1083] [cursor=pointer]:
+              - /url: https://schaefer-shop.softgarden.io/data-security
+            - button "Einstellungen" [ref=e1084] [cursor=pointer]
+          - link "Powered by CCM19" [ref=e1085] [cursor=pointer]:
+            - /url: https://www.ccm19.de/
+    - complementary "Zustimmung ändern":
+      - button "Zustimmung ändern":
+        - img "Zustimmung ändern"

@@ -1,0 +1,116 @@
+- generic [active] [ref=f23e1]:
+  - banner [ref=f23e2]:
+    - generic [ref=f23e4]:
+      - link [ref=f23e5] [cursor=pointer]:
+        - /url: /
+      - button [ref=f23e23] [cursor=pointer]
+  - generic [ref=f23e27]:
+    - generic [ref=f23e28]:
+      - link "Karriere" [ref=f23e29] [cursor=pointer]:
+        - /url: /career
+      - navigation [ref=f23e34]:
+        - link "Design, Product & Creative" [ref=f23e35] [cursor=pointer]:
+          - /url: /career/categories/design-product-creative
+        - link "E-Commerce" [ref=f23e36] [cursor=pointer]:
+          - /url: /career/categories/ecommerce
+        - link "Sales, Retail & Outlet" [ref=f23e37] [cursor=pointer]:
+          - /url: /career/categories/sales-retail-outlet
+        - link "Central Functions" [ref=f23e38] [cursor=pointer]:
+          - /url: /career/categories/central-functions
+        - link "Internationale Jobs" [ref=f23e39] [cursor=pointer]:
+          - /url: /career/categories/international
+        - link "Ausbildung, Studium & Praktikum" [ref=f23e40] [cursor=pointer]:
+          - /url: /career/categories/ausbildung-studium-praktikum
+        - link "Alle Jobs" [ref=f23e41] [cursor=pointer]:
+          - /url: /career/job-search
+    - heading "Central Functions" [level=1] [ref=f23e43]
+    - generic [ref=f23e45]:
+      - generic [ref=f23e46]:
+        - heading "People & Culture" [level=3] [ref=f23e47]
+        - paragraph [ref=f23e48]: People & Culture legt den Fokus auf unsere Teams als wertvolle Individuen. Wir engagieren uns für ein stärkeres Wohlbefinden, die Entwicklung und die Motivation unserer Mitarbeitenden, mit dem Ziel, zu einer positiven Unternehmenskultur und einer besseren Zusammenarbeit beizutragen. Wir fördern ein offenes, mitarbeiterorientiertes und menschenzentriertes Arbeitsumfeld.
+        - link "Zu den Jobs" [ref=f23e50] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=222
+      - generic [ref=f23e51]:
+        - heading "Controlling | Finance" [level=3] [ref=f23e52]
+        - paragraph [ref=f23e53]: Finanzen sind deine Welt? Dann sende uns deine Zahlen, Daten, Fakten und werde Teil unserer Controlling- oder Accounting Teams.
+        - link "Zu den Jobs" [ref=f23e55] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=228
+      - generic [ref=f23e56]:
+        - heading "IT" [level=3] [ref=f23e57]
+        - paragraph [ref=f23e58]: Application Management, Operations, Business Intelligence, Architecture oder Projektmanagment. Nichts davon ist für dich ein Fremdwort? Dann freuen wir uns auf deinen Datentransfer an uns.
+        - link "Zu den Jobs" [ref=f23e60] [cursor=pointer]:
+          - /url: /career/job-search?selectedDepartment=234
+      - paragraph [ref=f23e61]
+    - link [ref=f23e63] [cursor=pointer]:
+      - /url: /career/job-search?selectedDepartment=240
+      - button "Weitere Jobs in den Central Functions" [ref=f23e64]
+  - contentinfo [ref=f23e65]:
+    - generic [ref=f23e66]:
+      - heading "Du möchtest uns kontaktieren?" [level=3] [ref=f23e68]
+      - generic [ref=f23e69]:
+        - generic [ref=f23e70]: Karim Rautenberg
+        - link:
+          - /url: "mailto: "
+    - generic [ref=f23e71]:
+      - generic [ref=f23e72]:
+        - heading "Marken" [level=4] [ref=f23e73]
+        - generic [ref=f23e74]:
+          - generic [ref=f23e75]:
+            - generic [ref=f23e76]: Cecil
+            - generic [ref=f23e77]:
+              - link [ref=f23e78] [cursor=pointer]:
+                - /url: https://www.facebook.com/MeinCECIL/
+              - link [ref=f23e81] [cursor=pointer]:
+                - /url: https://www.instagram.com/meincecil/
+          - generic [ref=f23e84]:
+            - generic [ref=f23e85]: Street One
+            - generic [ref=f23e86]:
+              - link [ref=f23e87] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f23e90] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+          - generic [ref=f23e93]:
+            - generic [ref=f23e94]: Street One Men
+            - generic [ref=f23e95]:
+              - link [ref=f23e96] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f23e99] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+      - generic [ref=f23e102]:
+        - heading "Adresse" [level=4] [ref=f23e103]
+        - generic [ref=f23e104]:
+          - generic [ref=f23e105]:
+            - generic [ref=f23e106]: CBR Service GmbH
+            - generic [ref=f23e107]: People & Culture
+            - generic [ref=f23e108]: Imkerstraße 4
+            - generic [ref=f23e109]: 30916 Isernhagen
+            - generic [ref=f23e110]: Germany
+          - link "recruiting@cbr.de" [ref=f23e112] [cursor=pointer]:
+            - /url: mailto:recruiting@cbr.de
+          - generic [ref=f23e113]:
+            - link [ref=f23e114] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/cbrfashiongroup
+            - link [ref=f23e117] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/cbr-fashion
+      - navigation [ref=f23e120]:
+        - heading "Links" [level=4] [ref=f23e121]
+        - list [ref=f23e122]:
+          - listitem [ref=f23e123]:
+            - link "Impressum" [ref=f23e124] [cursor=pointer]:
+              - /url: /imprint
+          - listitem [ref=f23e125]:
+            - link "Datenschutz" [ref=f23e126] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f23e127]:
+            - link "Partner" [ref=f23e128] [cursor=pointer]:
+              - /url: /partner
+          - listitem [ref=f23e129]:
+            - link "Investor Relations" [ref=f23e130] [cursor=pointer]:
+              - /url: /investor-relations
+          - listitem [ref=f23e131]:
+            - link "Presse" [ref=f23e132] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=f23e133]:
+            - link "Compliance" [ref=f23e134] [cursor=pointer]:
+              - /url: /compliance
+  - alert [ref=f23e135]

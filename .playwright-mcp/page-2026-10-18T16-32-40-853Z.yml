@@ -1,0 +1,65 @@
+- generic [ref=f8e3]:
+  - generic [ref=f8e4]:
+    - banner [ref=f8e5]:
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#skipContent"
+      - generic [ref=f8e6]:
+        - link [ref=f8e16] [cursor=pointer]:
+          - /url: https://jobs.innomotics.com/
+          - img "Innomotics Logo" [ref=f8e17]
+        - generic [ref=f8e19]:
+          - button "Menü" [ref=f8e26] [cursor=pointer]:
+            - generic [ref=f8e27]: 
+          - generic [ref=f8e29]:
+            - generic:
+              - list:
+                - listitem
+    - main [ref=f8e31]:
+      - generic [ref=f8e32]:
+        - strong [ref=f8e35]: Wird geladen...
+        - region "Zum Hauptinhalt"
+        - region "Karrierechancen:Anmelden" [ref=f8e38]:
+          - generic [ref=f8e40]:
+            - 'heading "Karrierechancen: Anmelden" [level=1] [ref=f8e42]'
+            - generic [ref=f8e45]:
+              - generic [ref=f8e46]:
+                - heading "Haben Sie schon ein Konto?" [level=2] [ref=f8e47]
+                - paragraph [ref=f8e48]: Geben Sie Ihre E-Mail-Adresse und Ihr Kennwort ein (bei den Anmeldeinformationen wird zwischen Groß- und Kleinschreibung unterschieden).
+                - generic [ref=f8e49]: "*weist auf ein erforderliches Feld hin."
+              - generic "Erforderlich" [ref=f8e50]: E-Mail-Adresse:*
+              - textbox "E-Mail-Adresse:" [ref=f8e51]
+              - generic "Erforderlich" [ref=f8e52]: Kennwort:*
+              - generic [ref=f8e53]:
+                - textbox "Kennwort:" [ref=f8e54]
+                - button "Anzeigen" [ref=f8e55] [cursor=pointer]
+              - button "Anmelden" [ref=f8e58] [cursor=pointer]
+              - link "Haben Sie Ihr Kennwort vergessen?" [ref=f8e60] [cursor=pointer]:
+                - /url: /career?company=InnoProd&site=&lang=de_DE&requestParams=Zw5sYHhUqdKHgML%2fn6uxuM8jIYN42m1R3UpCQRCe%2fElNKSXorleQo2ESXZRk1oECIeqmi9N6zqQb%0a2%2b5xdkwj6InqIaInqMteILroHVotyEMt7LLM983M9808fELWElSuxI2ojliq6qGwg2MRZ3NvT89r%0aFy9pSHVgSRkRdUTIhnwo8IDQDoyKJvHOLkxPaZx3b9ndIkPGSsYRwer50ayqErpfPWGSur%2f9%2bHr2%0a%2frF%2bd5ACmMSOvsAADPlQSdTsR6Mh3EP6O56%2fMj1bH2OPoRIKQqTARQLCYSATxEzT8xoMRWtCKVQr%0ajtXtPJy9FMqiw112V8aopMZ5fLEtCUNmWA4NESrB0uggqaVU29iq1xpes7np1RxTWl8zkhbq1CL9%0a1y0XmutY6F8lKefI19p0yUSJb%2bHHnLbzdVamXoXzIsOZIGdzOsdEqwiD9j5D2e1i3FJIvEcoGKO%2f%0aeiZfn9iKFA%3d%3d&login_ns=forgot_pwd&career_ns=job%5fapplication&career_job_req_id=7005&jobPipeline=Direct&clientId=jobs2web&_s.crb=TRVoPZezUIrzvL%2bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%3d
+              - paragraph
+              - heading "Haben Sie sich noch nicht als Benutzer angemeldet?" [level=2] [ref=f8e61]
+              - generic [ref=f8e62]:
+                - link "Erstellen Sie ein Konto," [ref=f8e63] [cursor=pointer]:
+                  - /url: /career?company=InnoProd&site=&lang=de_DE&requestParams=Zw5sYHhUqdKHgML%2fn6uxuM8jIYN42m1R3UpCQRCe%2fElNKSXorleQo2ESXZRk1oECIeqmi9N6zqQb%0a2%2b5xdkwj6InqIaInqMteILroHVotyEMt7LLM983M9808fELWElSuxI2ojliq6qGwg2MRZ3NvT89r%0aFy9pSHVgSRkRdUTIhnwo8IDQDoyKJvHOLkxPaZx3b9ndIkPGSsYRwer50ayqErpfPWGSur%2f9%2bHr2%0a%2frF%2bd5ACmMSOvsAADPlQSdTsR6Mh3EP6O56%2fMj1bH2OPoRIKQqTARQLCYSATxEzT8xoMRWtCKVQr%0ajtXtPJy9FMqiw112V8aopMZ5fLEtCUNmWA4NESrB0uggqaVU29iq1xpes7np1RxTWl8zkhbq1CL9%0a1y0XmutY6F8lKefI19p0yUSJb%2bHHnLbzdVamXoXzIsOZIGdzOsdEqwiD9j5D2e1i3FJIvEcoGKO%2f%0aeiZfn9iKFA%3d%3d&login_ns=register&career_ns=job%5fapplication&career_job_req_id=7005&jobPipeline=Direct&clientId=jobs2web&_s.crb=TRVoPZezUIrzvL%2bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%3d
+                - text: damit Sie sich für unsere Karrierechancen bewerben können.
+                - paragraph
+  - contentinfo [ref=f8e66]:
+    - generic [ref=f8e69]:
+      - list [ref=f8e70]:
+        - listitem [ref=f8e71]:
+          - link "Impressum" [ref=f8e72] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+        - listitem [ref=f8e73]:
+          - button "Cookie Consent Manager" [ref=f8e74] [cursor=pointer]
+        - listitem [ref=f8e75]:
+          - link "View All Jobs" [ref=f8e76] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/viewalljobs/
+        - listitem [ref=f8e77]:
+          - link "Contact Us" [ref=f8e78] [cursor=pointer]:
+            - /url: https://jobs.innomotics.com/
+      - list [ref=f8e80]:
+        - listitem [ref=f8e81]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=f8e82] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/innomotics
+            - generic [ref=f8e83]: Wird auf einer neuen Registerkarte geöffnet.
+    - paragraph [ref=f8e88]: Copyright © Innomotics

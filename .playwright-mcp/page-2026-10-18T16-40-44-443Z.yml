@@ -1,0 +1,145 @@
+- generic [ref=f5e4]:
+  - link "Skip to main content" [ref=f5e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f5e8]:
+    - generic [ref=f5e10]:
+      - link [ref=f5e13] [cursor=pointer]:
+        - /url: https://www.careers.philips.com
+        - img "careers home" [ref=f5e14]
+      - heading "Careers" [level=1] [ref=f5e16]
+      - generic [ref=f5e18]:
+        - generic [ref=f5e19]:
+          - button "English" [ref=f5e21] [cursor=pointer]
+          - button "Sign In" [ref=f5e27] [cursor=pointer]
+        - navigation [ref=f5e33]:
+          - button "Careers Home" [ref=f5e34] [cursor=pointer]
+          - button "Search for Jobs" [ref=f5e35] [cursor=pointer]
+  - main [ref=f5e102]:
+    - generic [ref=f5e103]:
+      - generic [ref=f5e104]:
+        - link "Back to Job Posting" [ref=f5e106] [cursor=pointer]
+        - heading "E-Commerce Data, Automation & AI Manager (m/w/d)" [level=2] [ref=f5e111]
+      - generic "Application Progress" [ref=f5e112]:
+        - list [ref=f5e113]:
+          - listitem [ref=f5e114]:
+            - generic: current step 1 of 6
+            - generic [ref=f5e120]: My Information
+          - listitem [ref=f5e121]:
+            - generic: step 2 of 6
+            - generic [ref=f5e127]: My Experience
+          - listitem [ref=f5e128]:
+            - generic: step 3 of 6
+            - generic [ref=f5e134]: Application Questions 1 of 2
+          - listitem [ref=f5e135]:
+            - generic: step 4 of 6
+            - generic [ref=f5e141]: Application Questions 2 of 2
+          - listitem [ref=f5e142]:
+            - generic: step 5 of 6
+            - generic [ref=f5e148]: Voluntary Disclosures
+          - listitem [ref=f5e149]:
+            - generic: step 6 of 6
+            - generic [ref=f5e155]: Review
+      - generic [ref=f5e156]:
+        - generic [ref=f5e157]:
+          - heading "My Information" [level=3] [ref=f5e158]
+          - generic [ref=f5e159]: "* Indicates a required field"
+          - generic [ref=f5e160]:
+            - group [ref=f5e161]:
+              - generic [ref=f5e163]:
+                - generic [ref=f5e164]: How Did You Hear About Us?*
+                - generic [ref=f5e170] [cursor=pointer]:
+                  - generic:
+                    - textbox "How Did You Hear About Us?" [ref=f5e172]:
+                      - /placeholder: Search
+                    - generic [aria-hidden] [ref=f5e173]: 1 item selected, Aboriginal Jobs Canada
+                  - listbox "items selected" [active] [ref=f5e509]:
+                    - option "Aboriginal Jobs Canada, press delete to clear value." [ref=f5e510]:
+                      - paragraph [ref=f5e515]: Aboriginal Jobs Canada
+            - group [ref=f5e177]:
+              - group [ref=f5e180]:
+                - generic [ref=f5e181]: Are you currently or have you previously worked for Philips, including as a contingent worker/external?*
+                - generic "Are you currently or have you previously worked for Philips, including as a contingent worker/external?" [ref=f5e186]:
+                  - generic [ref=f5e187]:
+                    - radio "Yes" [ref=f5e189] [cursor=pointer]
+                    - generic [ref=f5e190]: "Yes"
+                  - generic [ref=f5e191]:
+                    - radio "No" [checked] [ref=f5e193] [cursor=pointer]
+                    - generic [ref=f5e194]: "No"
+            - group [ref=f5e195]:
+              - generic [ref=f5e197]:
+                - generic [ref=f5e198]: Country / Territory*
+                - button "Country / Territory Germany Required" [ref=f5e265]: Germany
+            - group [ref=f5e204]:
+              - heading "Name" [level=4] [ref=f5e205]
+              - generic [ref=f5e206]:
+                - generic [ref=f5e207]:
+                  - generic [ref=f5e208]: Given Name*
+                  - textbox "Given Name" [ref=f5e310]: Kranti
+                - generic [ref=f5e213]:
+                  - generic [ref=f5e214]: Family Name*
+                  - textbox "Family Name" [ref=f5e311]: Chavan
+                - generic [ref=f5e219]:
+                  - generic [ref=f5e220]: Family Name Prefix
+                  - button "Family Name Prefix Select One" [ref=f5e224]: Select One
+            - group [ref=f5e225]:
+              - heading "Address" [level=4] [ref=f5e226]
+              - generic [ref=f5e227]:
+                - generic [ref=f5e228]:
+                  - generic [ref=f5e229]: Street
+                  - textbox "Street" [ref=f5e312]: Blücherstraße 6
+                - generic [ref=f5e233]:
+                  - generic [ref=f5e234]: Postal Code
+                  - textbox "Postal Code" [ref=f5e313]: "76185"
+                - generic [ref=f5e238]:
+                  - generic [ref=f5e239]: City
+                  - textbox "City" [ref=f5e314]: Karlsruhe
+            - group [ref=f5e243]:
+              - heading "Email Address" [level=4] [ref=f5e244]
+              - generic [ref=f5e246]:
+                - generic [ref=f5e247]: Email*
+                - textbox "Email" [ref=f5e315]: krantichavan198@gmail.com
+            - group [ref=f5e252]:
+              - heading "Phone" [level=4] [ref=f5e253]
+              - generic [ref=f5e270]:
+                - generic [ref=f5e271]:
+                  - generic [ref=f5e272]: Phone Device Type*
+                  - button "Phone Device Type Mobile Required" [ref=f5e277]: Mobile
+                - generic [ref=f5e278]:
+                  - generic [ref=f5e279]: Country / Territory Phone Code*
+                  - generic [ref=f5e285] [cursor=pointer]:
+                    - generic:
+                      - textbox "Country / Territory Phone Code" [ref=f5e286]:
+                        - /placeholder: Search
+                      - generic [aria-hidden] [ref=f5e287]: 1 item selected, Germany (+49)
+                    - listbox "items selected" [ref=f5e289]:
+                      - option "Germany (+49), press delete to clear value." [ref=f5e290]:
+                        - paragraph [ref=f5e295]: Germany (+49)
+                - generic [ref=f5e299]:
+                  - generic [ref=f5e300]: Phone Number*
+                  - textbox "Phone Number" [ref=f5e316]: "15750174177"
+                - generic [ref=f5e305]:
+                  - generic [ref=f5e306]: Phone Extension
+                  - textbox "Phone Extension" [ref=f5e309]
+        - button "Next" [ref=f5e264] [cursor=pointer]
+  - generic [ref=f5e41]:
+    - heading "Follow Us" [level=4] [ref=f5e42]
+    - list [ref=f5e43]:
+      - listitem [ref=f5e44] [cursor=pointer]:
+        - link "Glassdoor" [ref=f5e45]:
+          - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+      - listitem [ref=f5e50] [cursor=pointer]:
+        - link "Facebook" [ref=f5e51]:
+          - /url: https://www.facebook.com/philips/
+      - listitem [ref=f5e55] [cursor=pointer]:
+        - link "YouTube" [ref=f5e56]:
+          - /url: https://www.youtube.com/user/Philips
+      - listitem [ref=f5e62] [cursor=pointer]:
+        - link "Google Plus" [ref=f5e63]:
+          - /url: https://plus.google.com/+Philips
+      - listitem [ref=f5e67] [cursor=pointer]:
+        - link "LinkedIn" [ref=f5e68]:
+          - /url: https://www.linkedin.com/company/philips
+      - listitem [ref=f5e72] [cursor=pointer]:
+        - link "X" [ref=f5e73]:
+          - /url: https://www.twitter.com/philips
+    - generic [ref=f5e77]: © 2026 Workday, Inc. All rights reserved.

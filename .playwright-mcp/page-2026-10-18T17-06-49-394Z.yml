@@ -1,0 +1,218 @@
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - heading "Cookie-Einwilligung und Datenverarbeitung" [level=5] [ref=e6]
+    - generic [ref=e7]: Wir verwenden Cookies und ähnliche Technologien, um Ihnen das bestmögliche Online-Erlebnis zu bieten. Mittels der eingesetzten Technologien können Informationen auf Ihrem Endgerät gespeichert, angereichert und gelesen werden. Mit einem Klick auf „Alle akzeptieren“ stimmen Sie dem Zugriff auf Ihr Endgerät zu sowie der Verarbeitung Ihrer Daten, der Webseiten- sowie partner- und geräteübergreifenden Erstellung und Verarbeitung von individuellen Nutzungsprofilen sowie der Weitergabe Ihrer Daten an Drittanbieter, die zum Teil Ihre Daten in Ländern außerhalb der europäischen Union verarbeiten (DSGVO Art. 49). Die Daten werden für Analysen, Retargeting und zur Ausspielung von personalisierten Inhalten und Werbung auf Seiten der Telekom MMS, auf Drittanbieterseiten sowie zu eigenen Zwecken von Partnern genutzt und mit Daten zusammengeführt. Weitere Informationen, auch zur Datenverarbeitung durch Drittanbieter und zum jederzeit möglichen Widerrufs Ihrer Einwilligung, finden Sie in den Einstellungen sowie in unseren Datenschutzhinweisen.
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - button "Alle akzeptieren" [ref=e10] [cursor=pointer]
+        - button "Nur erforderliche" [active] [ref=e11] [cursor=pointer]
+        - button "Einstellungen ändern" [ref=e12] [cursor=pointer]
+      - generic [ref=e13]:
+        - link "Datenschutzhinweis" [ref=e14] [cursor=pointer]:
+          - /url: https://www.telekom-mms.com/datenschutz
+        - link "Impressum" [ref=e15] [cursor=pointer]:
+          - /url: https://www.telekom-mms.com/impressum
+  - banner [ref=e17]:
+    - generic [ref=e18]:
+      - link "Custom" [ref=e25] [cursor=pointer]:
+        - /url: /
+      - navigation "top" [ref=e28]:
+        - generic [ref=e29]:
+          - link "Telekom Logo" [ref=e32] [cursor=pointer]:
+            - /url: /
+          - list [ref=e38]:
+            - listitem [ref=e39] [cursor=pointer]:
+              - button "Suche öffnen" [ref=e40]:
+                - generic [ref=e46]: Suche
+            - listitem [ref=e47] [cursor=pointer]:
+              - link "Menü" [ref=e48]:
+                - /url: javascript:void(0);
+  - navigation "Breadcrumb" [ref=e56]:
+    - list [ref=e57]:
+      - listitem [ref=e58]:
+        - link "Karriere" [ref=e59] [cursor=pointer]:
+          - /url: /karriere
+      - listitem [ref=e65]: Stellenbörse
+  - main [ref=e66]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - heading "Jobs. Für morgen. Und übermorgen." [level=1] [ref=e76]
+        - text: Digitalisiert und zukunftsfähig - das sind auch unsere Bewerbungsprozesse. Mit einigen wenigen Ausnahmen finden sämtliche Stufen des Bewerbungsprozesses digital statt.
+      - region "Filterbereich für Stellenanzeigen" [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Zu viel Auswahl? Verfeinere deine Suche." [level=3] [ref=e79]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - button " Karrierelevel" [ref=e89] [cursor=pointer]:
+                - generic [ref=e90]: 
+                - generic [ref=e91]: Karrierelevel
+              - button " Jobkategorie" [ref=e95] [cursor=pointer]:
+                - generic [ref=e96]: 
+                - generic [ref=e97]: Jobkategorie
+              - button " Standort" [ref=e101] [cursor=pointer]:
+                - generic [ref=e102]: 
+                - generic [ref=e103]: Standort
+            - generic [ref=e104]:
+              - textbox "Suchbegriff eingeben" [ref=e108]
+              - generic "Aktualisieren" [ref=e110] [cursor=pointer]: Suchen
+              - generic "Filter zurücksetzen" [ref=e112] [cursor=pointer]
+      - heading [level=2] [ref=e113]:
+        - heading "30 Stellenangebote gefunden" [level=2] [ref=e115]
+      - text: 
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - article [ref=e118]:
+            - generic [ref=e120]:
+              - link "(Senior) Observability Architekt (m/w/d)" [ref=e122] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Senior-Observability-Architekt-mwd-de-j4513.html
+              - generic [ref=e123]: IT Architecture | Berlin, Dresden, Leipzig, Rostock
+          - article [ref=e124]:
+            - generic [ref=e126]:
+              - link "Architekt Unternehmenskritische Kommunikation & Unified Communication (m/w/d)" [ref=e128] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Architekt-Unternehmenskritische-Kommunikation-Unified-Comm-de-j4379.html
+              - generic [ref=e129]: IT Architecture | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e130]:
+            - generic [ref=e132]:
+              - link "Consultant IT Security (m/w/d)" [ref=e134] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-IT-Security-mwd-de-j4508.html
+              - generic [ref=e135]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e136]:
+            - generic [ref=e138]:
+              - link "Consultant SAP CX (m/w/d)" [ref=e140] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-SAP-CX-mwd-de-j4349.html
+              - generic [ref=e141]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e142]:
+            - generic [ref=e144]:
+              - link "Consultant SAP SuccessFactors Employee Central (m/w/d)" [ref=e146] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-SAP-SuccessFactors-Employee-Central-mwd-de-j4371.html
+              - generic [ref=e147]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e148]:
+            - generic [ref=e150]:
+              - link "Consultant SAP SuccessFactors Employee Central und EC Payroll (m/w/d)" [ref=e152] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-SAP-SuccessFactors-Employee-Central-und-EC-Payr-de-j4444.html
+              - generic [ref=e153]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e154]:
+            - generic [ref=e156]:
+              - link "Consultant SAP SuccessFactors Integration (m/w/d)" [ref=e158] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Consultant-SAP-SuccessFactors-Integration-mwd-de-j4443.html
+              - generic [ref=e159]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e160]:
+            - generic [ref=e162]:
+              - link "Head of Mobile Experience (m/w/d)" [ref=e164] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Head-of-Mobile-Experience-mwd-de-j4263.html
+              - generic [ref=e165]: Leadership | Berlin, Dresden, Stuttgart
+          - article [ref=e166]:
+            - generic [ref=e168]:
+              - link "Informationssicherheitsberater (m/w/d)" [ref=e170] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/Informationssicherheitsberater-mwd-de-j4509.html
+              - generic [ref=e171]: Consulting | Berlin, Bonn, Dresden, Hamburg, Jena, Leipzig, Mannheim, München, Rostock, Stuttgart
+          - article [ref=e172]:
+            - generic [ref=e174]:
+              - link "IT Architekt Betriebs- & Plattformarchitektur (m/w/d)" [ref=e176] [cursor=pointer]:
+                - /url: https://www.telekom-mms.com/karriere/stellenboerse/IT-Architekt-Betriebs-Plattformarchitektur-mwd-de-j4480.html
+              - generic [ref=e177]: IT Architecture | Bonn, Dresden
+        - text: 
+        - generic "Mehr laden" [ref=e180] [cursor=pointer]
+        - link [ref=e184] [cursor=pointer]:
+          - /url: https://www.rexx-systems.com
+          - img "Rexx Systems - software for success" [ref=e185]
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - generic [ref=e188]:
+            - heading "Initiativbewerbung Versuch's einfach!" [level=3] [ref=e189]:
+              - generic [ref=e190]: Initiativbewerbung
+              - text: Versuch's einfach!
+            - paragraph [ref=e191]: Die ausgeschriebenen Stellen entsprechen nicht zu 100% deinen Vorstellungen? Lass es auf einen Versuch ankommen und bewirb dich initiativ.
+          - generic [ref=e192]:
+            - link "Studierende" [ref=e194] [cursor=pointer]:
+              - /url: https://www.telekom-mms.com/karriere/stellenboerse/Initiativbewerbung-Studierende-de-f311.html
+            - link "Professionals" [ref=e196] [cursor=pointer]:
+              - /url: https://www.telekom-mms.com/karriere/stellenboerse/Initiativbewerbung-AbsolventenProfessionals-de-f11.html
+        - generic [ref=e197]:
+          - generic [ref=e198]:
+            - heading "Job Alert Gerade nix dabei?" [level=3] [ref=e199]:
+              - generic [ref=e200]: Job Alert
+              - text: Gerade nix dabei?
+            - paragraph [ref=e201]: Gern informieren wir dich über neue Jobs. Empfange relevante Stellenangebote direkt per E-Mail.
+          - link "zum Job Alert" [ref=e203] [cursor=pointer]:
+            - /url: https://telekom-mms.com/karriere/stellenboerse/jobalert.html
+    - generic [ref=e206]:
+      - paragraph [ref=e208]: Für morgen. Und übermorgen.
+      - generic [ref=e209]:
+        - paragraph [ref=e210]:
+          - strong [ref=e211]: Themen
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - link "Künstliche Intelligenz" [ref=e214] [cursor=pointer]:
+              - /url: /kuenstliche-intelligenz
+          - listitem [ref=e215]:
+            - link "Barrierefreiheit" [ref=e216] [cursor=pointer]:
+              - /url: /barrierefreiheit
+      - generic [ref=e217]:
+        - paragraph [ref=e218]:
+          - strong [ref=e219]: Medien
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "Newsletter" [ref=e222] [cursor=pointer]:
+              - /url: /newsletter
+          - listitem [ref=e223]:
+            - link "Corporate Blog" [ref=e224] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e225]:
+            - link "Podcast" [ref=e226] [cursor=pointer]:
+              - /url: /ueber-uns/impulse/podcast
+          - listitem [ref=e227]:
+            - link "Whitepaper & Studien" [ref=e228] [cursor=pointer]:
+              - /url: /whitepaper
+          - listitem [ref=e229]:
+            - link "Technologie-Radar open link in new tab" [ref=e230] [cursor=pointer]:
+              - /url: https://www.telekom-mms.com/tech-radar/
+              - text: Technologie-Radar
+              - img "open link in new tab" [ref=e231]
+      - generic [ref=e235]:
+        - paragraph [ref=e236]:
+          - strong [ref=e237]: Kanäle
+        - generic [ref=e238]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=e240] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/telekom-mms
+            - img "Folgen Sie uns auf LinkedIn" [ref=e241]
+          - link "Folgen Sie uns auf YouTube" [ref=e246] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UC7DlWLfYCKCs6VnGVl4efvg
+            - img "Folgen Sie uns auf YouTube" [ref=e247]
+          - link "Podcast auf Spotify" [ref=e252] [cursor=pointer]:
+            - /url: https://open.spotify.com/show/13DgArNM0wkPPSpjzqX2HJ
+            - img "Podcast auf Spotify" [ref=e253]
+          - link "Podcast auf Apple Podcasts" [ref=e258] [cursor=pointer]:
+            - /url: https://podcasts.apple.com/de/podcast/ausgesprochen-digital-der-podcast-f%C3%BCr-digitale-trends/id1433459466
+            - img "Podcast auf Apple Podcasts" [ref=e259]
+    - button "Zum Seitenanfang" [ref=e266] [cursor=pointer]:
+      - img "Zum Seitenanfang" [ref=e267]
+  - button [ref=e272] [cursor=pointer]:
+    - generic "Menü öffnen" [ref=e273]:
+      - img "Menü öffnen" [ref=e275]
+  - contentinfo [ref=e281]:
+    - generic [ref=e282]:
+      - generic [ref=e286]: © Deutsche Telekom MMS GmbH
+      - navigation "bottom" [ref=e287]:
+        - list [ref=e288]:
+          - listitem [ref=e289]:
+            - link "Kontakt" [ref=e290] [cursor=pointer]:
+              - /url: /kontakt
+          - listitem [ref=e291]:
+            - link "Impressum" [ref=e292] [cursor=pointer]:
+              - /url: /impressum
+          - listitem [ref=e293]:
+            - link "Datenschutz" [ref=e294] [cursor=pointer]:
+              - /url: /datenschutz
+          - listitem [ref=e300]:
+            - link "AGB" [ref=e301] [cursor=pointer]:
+              - /url: /agb
+          - listitem [ref=e302]:
+            - link "Sitemap" [ref=e303] [cursor=pointer]:
+              - /url: /sitemap
+          - listitem [ref=e304]:
+            - link "Cookieeinstellungen" [ref=e305] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - listitem [ref=e306]:
+            - link "Compliance/Lieferkette" [ref=e307] [cursor=pointer]:
+              - /url: /hinweise-lieferkettensorgfaltspflichten

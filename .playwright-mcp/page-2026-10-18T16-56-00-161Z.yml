@@ -1,0 +1,186 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - navigation [ref=f11e3]:
+      - link "Zur Startseite" [ref=f11e4] [cursor=pointer]:
+        - /url: /
+      - button "Menü öffnen" [ref=f11e7] [cursor=pointer]
+  - main [ref=f11e10]:
+    - generic [ref=f11e13]:
+      - heading "Vielen Dank für deine Bewerbung." [level=1] [ref=f11e18]
+      - paragraph [ref=f11e19]: Wir prüfen deine Unterlagen und melden uns schnellstmöglich mit den nächsten Schritten. Wenn du zusätzlich für spätere passende Rollen im Talent-Pool sichtbar sein möchtest, kannst du dein Profil direkt darunter registrieren.
+    - generic [ref=f11e23]:
+      - generic [ref=f11e24]:
+        - generic [ref=f11e25]:
+          - paragraph [ref=f11e26]: Optionaler Zusatzschritt
+          - heading "Für den Talent-Pool registrieren" [level=2] [ref=f11e27]
+          - paragraph [ref=f11e28]: Deine Bewerbung ist bereits bei uns. Wenn du möchtest, kannst du zusätzlich dein Profil für künftige passende Rollen im Talent-Pool registrieren. Das ist kein Ersatz für deine Bewerbung, sondern ein separater Schritt für spätere Matches.
+        - generic [ref=f11e30]:
+          - paragraph [ref=f11e31]: Wofür wir das Profil nutzen
+          - list [ref=f11e32]:
+            - listitem [ref=f11e33]:
+              - generic [ref=f11e37]: Damit wir dein Profil für spätere passende Rollen schneller einordnen können.
+            - listitem [ref=f11e38]:
+              - generic [ref=f11e42]: Damit du auch bei neuen offenen Stellen im Blick bleibst, ohne erneut starten zu müssen.
+            - listitem [ref=f11e43]:
+              - generic [ref=f11e47]: Damit wir dich nur dann ansprechen, wenn Rolle, Rahmen und Profil wirklich zusammenpassen.
+      - generic [ref=f11e50]:
+        - generic [ref=f11e52]:
+          - generic [ref=f11e53]: Schritt 1 von 3
+          - generic [ref=f11e54]: Basisangaben
+        - generic [ref=f11e57]:
+          - generic [ref=f11e60]:
+            - heading "Dein Profil" [level=2] [ref=f11e61]
+            - paragraph [ref=f11e62]: Lass uns mit den Basisangaben starten. Diese Informationen helfen uns, passende Rollen oder Projekte für dich sauber einzuordnen.
+          - generic [ref=f11e64]:
+            - generic [ref=f11e65]:
+              - generic [ref=f11e66]:
+                - text: Vorname
+                - textbox "Vorname" [ref=f11e67]:
+                  - /placeholder: z. B. Lukas
+              - generic [ref=f11e68]:
+                - text: Nachname
+                - textbox "Nachname" [ref=f11e69]:
+                  - /placeholder: z. B. Müller
+            - generic [ref=f11e70]:
+              - generic [ref=f11e71]:
+                - text: E-Mail
+                - textbox "E-Mail" [ref=f11e72]:
+                  - /placeholder: lukas.mueller@tech.de
+              - generic [ref=f11e73]:
+                - text: Telefon
+                - textbox "Telefon" [ref=f11e74]:
+                  - /placeholder: +49 123 456789
+            - generic [ref=f11e75]:
+              - text: CV hochladen
+              - generic [ref=f11e77] [cursor=pointer]:
+                - generic [ref=f11e81]:
+                  - paragraph [ref=f11e82]: Datei hier auswählen
+                  - paragraph [ref=f11e83]: PDF, maximal 20 MB
+                - generic [ref=f11e84]: Computer durchsuchen
+              - button "CV hochladen Datei hier auswählen PDF, maximal 20 MB Computer durchsuchen" [ref=f11e86]
+          - generic [ref=f11e88]:
+            - button "Weiter zu Rahmenbedingungen" [disabled]
+    - generic [ref=f11e91]:
+      - paragraph [ref=f11e92]: Weitere Einblicke
+      - paragraph [ref=f11e93]: Auf YouTube sprechen wir regelmäßig über den IT-Arbeitsmarkt, Bewerbungsthemen und praktische Tipps aus dem Recruiting-Alltag.
+      - link "Zum YouTube-Kanal" [ref=f11e94] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA?sub_confirmation=1
+  - contentinfo [ref=f11e98]:
+    - generic [ref=f11e100]:
+      - generic [ref=f11e101]:
+        - generic [ref=f11e102]:
+          - generic [ref=f11e103]: Die Tech Recruiter
+          - paragraph [ref=f11e104]: IT Recruitment Excellence - Top IT Jobs & IT Experten!
+        - generic [ref=f11e105]:
+          - link "LinkedIn" [ref=f11e106] [cursor=pointer]:
+            - /url: https://linkedin.com/company/die-tech-recruiter-gmbh
+          - link "X" [ref=f11e109] [cursor=pointer]:
+            - /url: https://x.com/TechRecruiter24
+          - link "Facebook" [ref=f11e112] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61560687786513
+          - link "Instagram" [ref=f11e115] [cursor=pointer]:
+            - /url: https://instagram.com/dietechrecruiter24/?fbclid=IwAR1YjUKcdVYtGrBt-QHdZT98Rfz9oVaPEAJWZPXbo5BgDAe_swJcUejBPp8
+          - link "YouTube" [ref=f11e118] [cursor=pointer]:
+            - /url: https://youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA
+          - link "Spotify" [ref=f11e121] [cursor=pointer]:
+            - /url: https://open.spotify.com/intl-de/artist/7jtq9kLJGHYKnhMzrcET9d?si=rsSkoSI-T8-5a5Qw6uOF0A
+      - generic [ref=f11e124]:
+        - generic [ref=f11e125]:
+          - heading "Recruitment" [level=3] [ref=f11e126]
+          - list [ref=f11e127]:
+            - listitem [ref=f11e128]:
+              - link "IT Personalvermittlung" [ref=f11e129] [cursor=pointer]:
+                - /url: /it-personalvermittlung/
+            - listitem [ref=f11e130]:
+              - link "Freelancer" [ref=f11e131] [cursor=pointer]:
+                - /url: /it-freelancer-finden/
+            - listitem [ref=f11e132]:
+              - link "Interim Recruitment" [ref=f11e133] [cursor=pointer]:
+                - /url: /interim-recruiter/
+            - listitem [ref=f11e134]:
+              - link "IT-Headhunter" [ref=f11e135] [cursor=pointer]:
+                - /url: /it-headhunter/
+        - generic [ref=f11e136]:
+          - heading "Beratung" [level=3] [ref=f11e137]
+          - list [ref=f11e138]:
+            - listitem [ref=f11e139]:
+              - link "IT Personalberatung" [ref=f11e140] [cursor=pointer]:
+                - /url: /it-personalberatung/
+            - listitem [ref=f11e141]:
+              - link "IT Training für Recruiter" [ref=f11e142] [cursor=pointer]:
+                - /url: /it-recruitment-training/
+            - listitem [ref=f11e143]:
+              - link "IT-Stellenanzeige schalten" [ref=f11e144] [cursor=pointer]:
+                - /url: /it-stellenanzeige-schalten/
+        - generic [ref=f11e145]:
+          - heading "Talente" [level=3] [ref=f11e146]
+          - list [ref=f11e147]:
+            - listitem [ref=f11e148]:
+              - link "Profil Registrieren" [ref=f11e149] [cursor=pointer]:
+                - /url: /job-finden/
+            - listitem [ref=f11e150]:
+              - link "Freelancer registrieren" [ref=f11e151] [cursor=pointer]:
+                - /url: /freelancer-projekte-finden/
+            - listitem [ref=f11e152]:
+              - link "Lebenslauf optimieren" [ref=f11e153] [cursor=pointer]:
+                - /url: /professionellen-lebenslauf-erstellen/
+        - generic [ref=f11e154]:
+          - heading "Jobs" [level=3] [ref=f11e155]
+          - list [ref=f11e156]:
+            - listitem [ref=f11e157]:
+              - link "Job finden" [ref=f11e158] [cursor=pointer]:
+                - /url: /jobs/
+            - listitem [ref=f11e159]:
+              - link "Projekt finden" [ref=f11e160] [cursor=pointer]:
+                - /url: /jobs/
+        - generic [ref=f11e161]:
+          - heading "Die Tech Recruiter" [level=3] [ref=f11e162]
+          - list [ref=f11e163]:
+            - listitem [ref=f11e164]:
+              - link "Über uns" [ref=f11e165] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f11e166]:
+              - link "Blog" [ref=f11e167] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=f11e168]:
+              - link "Google for Jobs Validator" [ref=f11e169] [cursor=pointer]:
+                - /url: /google-for-jobs-validator/
+            - listitem [ref=f11e170]:
+              - link "Sichtbarkeit prüfen" [ref=f11e171] [cursor=pointer]:
+                - /url: /stellenanzeigen-sichtbarkeit-pruefen/
+        - generic [ref=f11e172]:
+          - heading "IT-Rollen" [level=3] [ref=f11e173]
+          - list [ref=f11e174]:
+            - listitem [ref=f11e175]:
+              - link "Softwareentwickler finden" [ref=f11e176] [cursor=pointer]:
+                - /url: /softwareentwickler-finden/
+            - listitem [ref=f11e177]:
+              - link "Frontend-Entwickler finden" [ref=f11e178] [cursor=pointer]:
+                - /url: /frontend-entwickler-finden/
+            - listitem [ref=f11e179]:
+              - link "Backend-Entwickler finden" [ref=f11e180] [cursor=pointer]:
+                - /url: /backend-entwickler-finden/
+            - listitem [ref=f11e181]:
+              - link "DevOps Engineer finden" [ref=f11e182] [cursor=pointer]:
+                - /url: /devops-engineer-finden/
+            - listitem [ref=f11e183]:
+              - link "IT-Security finden" [ref=f11e184] [cursor=pointer]:
+                - /url: /it-security-finden/
+            - listitem [ref=f11e185]:
+              - link "IT-Projektmanager finden" [ref=f11e186] [cursor=pointer]:
+                - /url: /it-projektmanager-finden/
+            - listitem [ref=f11e187]:
+              - link "Product Owner finden" [ref=f11e188] [cursor=pointer]:
+                - /url: /product-owner-finden/
+            - listitem [ref=f11e189]:
+              - link "KI-Entwickler finden" [ref=f11e190] [cursor=pointer]:
+                - /url: /ki-entwickler-finden/
+    - generic [ref=f11e193]:
+      - generic [ref=f11e194]: © 2026 Die Tech Recruiter GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f11e195]:
+        - link "Impressum" [ref=f11e196] [cursor=pointer]:
+          - /url: /impressum/
+        - link "Datenschutz" [ref=f11e197] [cursor=pointer]:
+          - /url: /datenschutz/
+        - link "AGB" [ref=f11e198] [cursor=pointer]:
+          - /url: /agb/

@@ -1,0 +1,76 @@
+- generic [ref=f5e4]:
+  - link "Skip to main content" [ref=f5e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f5e8]:
+    - generic [ref=f5e10]:
+      - link [ref=f5e13] [cursor=pointer]:
+        - /url: https://www.careers.philips.com
+        - img "careers home" [ref=f5e14]
+      - heading "Careers" [level=1] [ref=f5e16]
+      - generic [ref=f5e18]:
+        - generic [ref=f5e19]:
+          - button "English" [ref=f5e21] [cursor=pointer]
+          - button "Sign In" [ref=f5e27] [cursor=pointer]
+        - navigation [ref=f5e33]:
+          - button "Careers Home" [ref=f5e34] [cursor=pointer]
+          - button "Search for Jobs" [ref=f5e35] [cursor=pointer]
+  - main [ref=f5e102]:
+    - generic [ref=f5e103]:
+      - generic [ref=f5e104]:
+        - link "Back to Job Posting" [ref=f5e106] [cursor=pointer]
+        - heading "E-Commerce Data, Automation & AI Manager (m/w/d)" [level=2] [ref=f5e111]
+      - generic "Application Progress" [ref=f5e112]:
+        - list [ref=f5e113]:
+          - listitem [ref=f5e114]:
+            - generic: completed step 1 of 6
+            - generic [ref=f5e120]: My Information
+          - listitem [ref=f5e121]:
+            - generic: completed step 2 of 6
+            - generic [ref=f5e127]: My Experience
+          - listitem [ref=f5e128]:
+            - generic: completed step 3 of 6
+            - generic [ref=f5e134]: Application Questions 1 of 2
+          - listitem [ref=f5e135]:
+            - generic: current step 4 of 6
+            - generic [ref=f5e141]: Application Questions 2 of 2
+          - listitem [ref=f5e142]:
+            - generic: step 5 of 6
+            - generic [ref=f5e148]: Voluntary Disclosures
+          - listitem [ref=f5e149]:
+            - generic: step 6 of 6
+            - generic [ref=f5e155]: Review
+      - generic [ref=f5e156]:
+        - generic [ref=f5e157]:
+          - heading "Application Questions 2 of 2" [active] [level=3] [ref=f5e833]
+          - generic [ref=f5e159]: "* Indicates a required field"
+          - group [ref=f5e834]:
+            - group [ref=f5e837]:
+              - paragraph [ref=f5e841]:
+                - generic [ref=f5e842]: Do you agree with Philips contacting you for future job positions?If yes, we will retain your Personal Data for a period of one (1) year.
+                - text: "*"
+              - button "Select One Required" [ref=f5e846]: Select One
+        - generic [ref=f5e261]:
+          - button "Back" [ref=f5e663] [cursor=pointer]
+          - button "Next" [ref=f5e264] [cursor=pointer]
+  - generic [ref=f5e41]:
+    - heading "Follow Us" [level=4] [ref=f5e42]
+    - list [ref=f5e43]:
+      - listitem [ref=f5e44] [cursor=pointer]:
+        - link "Glassdoor" [ref=f5e45]:
+          - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+      - listitem [ref=f5e50] [cursor=pointer]:
+        - link "Facebook" [ref=f5e51]:
+          - /url: https://www.facebook.com/philips/
+      - listitem [ref=f5e55] [cursor=pointer]:
+        - link "YouTube" [ref=f5e56]:
+          - /url: https://www.youtube.com/user/Philips
+      - listitem [ref=f5e62] [cursor=pointer]:
+        - link "Google Plus" [ref=f5e63]:
+          - /url: https://plus.google.com/+Philips
+      - listitem [ref=f5e67] [cursor=pointer]:
+        - link "LinkedIn" [ref=f5e68]:
+          - /url: https://www.linkedin.com/company/philips
+      - listitem [ref=f5e72] [cursor=pointer]:
+        - link "X" [ref=f5e73]:
+          - /url: https://www.twitter.com/philips
+    - generic [ref=f5e77]: © 2026 Workday, Inc. All rights reserved.

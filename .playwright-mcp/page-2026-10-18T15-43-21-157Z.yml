@@ -1,0 +1,51 @@
+- generic [ref=f26e2]:
+  - list [ref=f26e4]:
+    - listitem:
+      - link [ref=f26e5] [cursor=pointer]:
+        - /url: ""
+        - img "Kijimea" [ref=f26e6]
+    - listitem:
+      - link "Back to Kijimea’s Job Listings" [ref=f26e7] [cursor=pointer]:
+        - /url: /kijimea
+    - listitem
+  - generic [ref=f26e10]:
+    - heading "E-Commerce Developer – AI & Automation" [level=1] [ref=f26e12]
+    - generic [ref=f26e13]:
+      - generic [ref=f26e14]:
+        - generic [ref=f26e15]:
+          - heading "Location" [level=2] [ref=f26e16]
+          - paragraph [ref=f26e17]: Gräfelfing/Munich
+        - generic [ref=f26e18]:
+          - heading "Employment Type" [level=2] [ref=f26e19]
+          - paragraph [ref=f26e20]: Full time
+        - generic [ref=f26e21]:
+          - heading "Location Type" [level=2] [ref=f26e22]
+          - paragraph [ref=f26e23]: Hybrid
+        - generic [ref=f26e24]:
+          - heading "Department" [level=2] [ref=f26e25]
+          - paragraph [ref=f26e26]: E-Commerce
+      - generic [ref=f26e27]:
+        - tablist [ref=f26e28]:
+          - tab "Overview" [ref=f26e29] [cursor=pointer]
+          - tab "Application" [selected] [ref=f26e30] [cursor=pointer]
+        - tabpanel "Application" [ref=f26e32]:
+          - paragraph [ref=f26e40]: Fetching application form
+  - dialog "Cookie consent" [ref=f26e41]:
+    - heading "Cookie Management" [level=3] [ref=f26e42]
+    - paragraph [ref=f26e43]: We use some essential cookies to make this site work. We would like to set performance cookies to help us make sure the website functions as expected.
+    - generic [ref=f26e44]:
+      - button "Accept All" [ref=f26e45] [cursor=pointer]
+      - button "Necessary Only" [ref=f26e46] [cursor=pointer]
+      - button "Customize Settings" [ref=f26e47] [cursor=pointer]
+  - contentinfo [ref=f26e48]:
+    - link "Learn more about Ashby" [ref=f26e49] [cursor=pointer]:
+      - /url: https://www.ashbyhq.com
+      - generic [ref=f26e50]: Powered by
+      - img "Ashby" [ref=f26e51]
+    - paragraph [ref=f26e57]:
+      - link "Privacy Policy" [ref=f26e58] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/privacy
+      - link "Security" [ref=f26e59] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/security
+      - link "Vulnerability Disclosure" [ref=f26e60] [cursor=pointer]:
+        - /url: https://www.ashbyhq.com/disclosure

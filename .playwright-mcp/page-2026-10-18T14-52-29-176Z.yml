@@ -1,0 +1,168 @@
+- generic [ref=f17e1]:
+  - generic [ref=f17e4]:
+    - link "Zum Hauptinhalt springen" [ref=f17e5] [cursor=pointer]:
+      - /url: ""
+    - banner [ref=f17e8]:
+      - generic [ref=f17e10]:
+        - link [ref=f17e13] [cursor=pointer]:
+          - /url: https://www.cgm.com/corp_en
+          - img "Karriere - Home" [ref=f17e14]
+        - heading "CGM Career" [level=1] [ref=f17e16]
+        - generic [ref=f17e18]:
+          - generic [ref=f17e19]:
+            - button "Deutsch (‏Deutschland)" [ref=f17e21] [cursor=pointer]
+            - button "Anmelden" [ref=f17e27] [cursor=pointer]
+          - navigation [ref=f17e33]:
+            - button "Homepage" [ref=f17e34] [cursor=pointer]
+            - button "Stellen suchen" [ref=f17e35] [cursor=pointer]
+            - button "Initiativbewerbung" [ref=f17e36] [cursor=pointer]
+    - main [ref=f17e71]:
+      - generic [ref=f17e72]:
+        - generic [ref=f17e73]:
+          - link "Zurück zur Stellenausschreibung" [ref=f17e75] [cursor=pointer]
+          - heading "Product Owner – SAP Commerce Cloud (m/w/d)" [level=2] [ref=f17e80]
+        - generic "Application Progress" [ref=f17e81]:
+          - list [ref=f17e82]:
+            - listitem [ref=f17e83]:
+              - generic: current step 1 of 6
+              - generic [ref=f17e89]: Meine Daten
+            - listitem [ref=f17e90]:
+              - generic: step 2 of 6
+              - generic [ref=f17e96]: Meine Erfahrung
+            - listitem [ref=f17e97]:
+              - generic: step 3 of 6
+              - generic [ref=f17e103]: Bewerbungsfragen 1 von 2
+            - listitem [ref=f17e104]:
+              - generic: step 4 of 6
+              - generic [ref=f17e110]: Bewerbungsfragen 2 von 2
+            - listitem [ref=f17e111]:
+              - generic: step 5 of 6
+              - generic [ref=f17e117]: Freiwillige Angaben
+            - listitem [ref=f17e118]:
+              - generic: step 6 of 6
+              - generic [ref=f17e124]: Prüfen
+        - generic [ref=f17e125]:
+          - generic [ref=f17e126]:
+            - heading "Meine Daten" [level=3] [ref=f17e127]
+            - generic [ref=f17e128]: "* Erforderliches Feld"
+            - generic [ref=f17e129]:
+              - group [ref=f17e130]:
+                - generic [ref=f17e132]:
+                  - generic [ref=f17e133]: Wie haben Sie von uns erfahren?*
+                  - generic [ref=f17e139]:
+                    - generic [ref=f17e140]:
+                      - textbox "Wie haben Sie von uns erfahren?" [ref=f17e141]:
+                        - /placeholder: Suchen
+                      - generic [aria-hidden] [ref=f17e142]: Eingeblendet
+                    - generic [ref=f17e143] [cursor=pointer]
+              - group [ref=f17e146]:
+                - generic [ref=f17e148]:
+                  - generic [ref=f17e149]: Land*
+                  - button "Land Deutschland Erforderlich" [ref=f17e216]: Deutschland
+              - group [ref=f17e155]:
+                - heading "Name" [level=4] [ref=f17e156]
+                - generic [ref=f17e157]:
+                  - generic [ref=f17e158]:
+                    - generic [ref=f17e159]: Vorname*
+                    - textbox "Vorname" [ref=f17e218]: Kranti
+                  - generic [ref=f17e164]:
+                    - generic [ref=f17e165]: Familienname*
+                    - textbox "Familienname" [ref=f17e219]: Chavan
+                  - generic [ref=f17e170]:
+                    - generic [ref=f17e171]: Familiennamenspräfix
+                    - button "Familiennamenspräfix Wert auswählen" [ref=f17e175]: Wert auswählen
+              - group [ref=f17e176]:
+                - heading "Adresse" [level=4] [ref=f17e177]
+                - generic [ref=f17e178]:
+                  - generic [ref=f17e179]:
+                    - generic [ref=f17e180]: Ort
+                    - textbox "Ort" [ref=f17e221]: Karlsruhe
+                  - generic [ref=f17e184]:
+                    - generic [ref=f17e185]: Postleitzahl
+                    - textbox "Postleitzahl" [ref=f17e222]: "76185"
+                  - generic [ref=f17e189]:
+                    - generic [ref=f17e190]: Adresszeile 1
+                    - textbox "Adresszeile 1" [ref=f17e223]: Blücherstraße 6
+              - group [ref=f17e194]:
+                - heading "E-Mail-Adresse" [level=4] [ref=f17e195]
+                - generic [ref=f17e197]:
+                  - generic [ref=f17e198]: E-Mail*
+                  - textbox "E-Mail" [ref=f17e225]: krantichavan198@gmail.com
+              - group [ref=f17e203]:
+                - heading "Telefon" [level=4] [ref=f17e204]
+                - generic [ref=f17e227]:
+                  - generic [ref=f17e228]:
+                    - generic [ref=f17e229]: Art des Telefongeräts*
+                    - button "Art des Telefongeräts Mobil Erforderlich" [ref=f17e234]: Mobil
+                  - generic [ref=f17e235]:
+                    - generic [ref=f17e236]: Ländervorwahl*
+                    - generic [ref=f17e242] [cursor=pointer]:
+                      - generic:
+                        - textbox "Ländervorwahl" [ref=f17e243]:
+                          - /placeholder: Suchen
+                        - generic [aria-hidden] [ref=f17e244]: 1 item selected, Deutschland (+49)
+                      - listbox "items selected" [ref=f17e246]:
+                        - option "Deutschland (+49), press delete to clear value." [ref=f17e247]:
+                          - paragraph [ref=f17e252]: Deutschland (+49)
+                  - generic [ref=f17e256]:
+                    - generic [ref=f17e257]: Telefonnummer*
+                    - textbox "Telefonnummer" [ref=f17e770]: "15750174177"
+                  - generic [ref=f17e262]:
+                    - generic [ref=f17e263]: Durchwahl
+                    - textbox "Durchwahl" [ref=f17e266]
+          - button "Weiter" [ref=f17e215] [cursor=pointer]
+    - generic [ref=f17e42]:
+      - link "CGM Datenschutzerklärung" [ref=f17e44] [cursor=pointer]:
+        - /url: https://www.cgm.com/corp_en/career/data-protection-declaration-cgm-applicant-portal-wd.html
+      - generic [ref=f17e45]: © 2026 Workday, Inc. Alle Rechte vorbehalten.
+  - generic [ref=f17e854]:
+    - generic [aria-hidden] [ref=f17e860] [cursor=pointer]: Job Boards
+    - listbox "Options Expanded" [active] [ref=f17e863]:
+      - option "Appcast not checked" [selected] [ref=f17e864]:
+        - generic [ref=f17e865] [cursor=pointer]:
+          - radio [ref=f17e870]
+          - generic [ref=f17e871]: Appcast
+      - option "AUBI not checked" [ref=f17e872]:
+        - generic [ref=f17e873] [cursor=pointer]:
+          - radio [ref=f17e878]
+          - generic [ref=f17e879]: AUBI
+      - option "Consulting.de not checked" [ref=f17e880]:
+        - generic [ref=f17e881] [cursor=pointer]:
+          - radio [ref=f17e886]
+          - generic [ref=f17e887]: Consulting.de
+      - option "Fachinformatiker.de not checked" [ref=f17e888]:
+        - generic [ref=f17e889] [cursor=pointer]:
+          - radio [ref=f17e894]
+          - generic [ref=f17e895]: Fachinformatiker.de
+      - option "GastroJobs not checked" [ref=f17e896]:
+        - generic [ref=f17e897] [cursor=pointer]:
+          - radio [ref=f17e902]
+          - generic [ref=f17e903]: GastroJobs
+      - option "get-in-IT not checked" [ref=f17e904]:
+        - generic [ref=f17e905] [cursor=pointer]:
+          - radio [ref=f17e910]
+          - generic [ref=f17e911]: get-in-IT
+      - option "Indeed not checked" [ref=f17e912]:
+        - generic [ref=f17e913] [cursor=pointer]:
+          - radio [ref=f17e918]
+          - generic [ref=f17e919]: Indeed
+      - option "IT-Jobs not checked" [ref=f17e920]:
+        - generic [ref=f17e921] [cursor=pointer]:
+          - radio [ref=f17e926]
+          - generic [ref=f17e927]: IT-Jobs
+      - option "ITSteps not checked" [ref=f17e928]:
+        - generic [ref=f17e929] [cursor=pointer]:
+          - radio [ref=f17e934]
+          - generic [ref=f17e935]: ITSteps
+      - option "Jobmatrix not checked" [ref=f17e936]:
+        - generic [ref=f17e937] [cursor=pointer]:
+          - radio [ref=f17e942]
+          - generic [ref=f17e943]: Jobmatrix
+      - option "Jobs in Berlin not checked" [ref=f17e944]:
+        - generic [ref=f17e945] [cursor=pointer]:
+          - radio [ref=f17e950]
+          - generic [ref=f17e951]: Jobs in Berlin
+      - option "Jobs in RheinMain not checked" [ref=f17e952]:
+        - generic [ref=f17e953] [cursor=pointer]:
+          - radio [ref=f17e958]
+          - generic [ref=f17e959]: Jobs in RheinMain

@@ -1,0 +1,230 @@
+- generic [active] [ref=f53e1]:
+  - generic [ref=f53e2]:
+    - banner:
+      - navigation [ref=f53e3]:
+        - generic [ref=f53e4]:
+          - link [ref=f53e5] [cursor=pointer]:
+            - /url: https://netcare.de/
+          - button "Menu" [ref=f53e8] [cursor=pointer]
+    - 'heading "Und jetzt du: Systemdenker*in mit Projektherz, der/die DAM und PIM nicht für Buchstabensalat hält" [level=1] [ref=f53e21]'
+    - generic [ref=f53e24]:
+      - generic [ref=f53e27]:
+        - text: Schön, dass du dich bei uns als
+        - link "Projektmanager*in PIM & DAM" [ref=f53e28] [cursor=pointer]:
+          - /url: https://netcare.de/karriere/stellenangebote/projektmanagerin-pim-dam/
+        - text: bewerben möchtest. Füll einfach das folgende Formular aus, lade Anschreiben, Lebenslauf und Zeugnisse hoch und klick auf "Bewerbung abschicken". Bestimmt sind wir dann schon bald Kolleg*innen.
+      - form "Kontaktformular" [ref=f53e31]:
+        - generic [ref=f53e32]:
+          - generic [ref=f53e33]:
+            - generic [ref=f53e34]: 1 von 8
+            - paragraph [ref=f53e35]: Was sollen wir auf deine neue Visitenkarte drucken?
+            - generic [ref=f53e36]:
+              - paragraph [ref=f53e38]:
+                - generic [ref=f53e39]:
+                  - textbox [ref=f53e40]
+                  - generic: Vorname*
+              - paragraph [ref=f53e42]:
+                - generic [ref=f53e43]:
+                  - textbox [ref=f53e44]
+                  - generic: Nachname*
+          - generic [ref=f53e45]:
+            - generic [ref=f53e46]: 2 von 8
+            - paragraph [ref=f53e47]: Wie dürfen wir dich ansprechen?
+            - paragraph [ref=f53e50]:
+              - generic [ref=f53e52]:
+                - generic [ref=f53e54]:
+                  - radio "Frau"
+                  - text: Frau
+                - generic [ref=f53e56]:
+                  - radio "Herr"
+                  - text: Herr
+                - generic [ref=f53e58]:
+                  - radio "Divers"
+                  - text: Divers
+            - paragraph: Bitte wählen*
+          - generic [ref=f53e59]:
+            - generic [ref=f53e60]: 3 von 8
+            - paragraph [ref=f53e61]: Wann können wir dir zum Geburtstag gratulieren?
+            - paragraph [ref=f53e64]:
+              - generic [ref=f53e65]:
+                - textbox [ref=f53e66]
+                - generic: TT/MM/JJJJ
+          - generic [ref=f53e67]:
+            - generic [ref=f53e68]: 4 von 8
+            - paragraph [ref=f53e69]: Wie erreichen wir dich?
+            - generic [ref=f53e70]:
+              - paragraph [ref=f53e72]:
+                - generic [ref=f53e73]:
+                  - textbox [ref=f53e74]
+                  - generic: E-Mail*
+              - paragraph [ref=f53e76]:
+                - generic [ref=f53e77]:
+                  - textbox [ref=f53e78]
+                  - generic: Telefon*
+            - generic [ref=f53e79]:
+              - paragraph [ref=f53e81]:
+                - generic [ref=f53e82]:
+                  - textbox [ref=f53e83]
+                  - generic: Straße und Hausnummer
+              - paragraph [ref=f53e85]:
+                - generic [ref=f53e86]:
+                  - textbox [ref=f53e87]
+                  - generic: Postleitzahl und Ort
+            - paragraph [ref=f53e90]:
+              - generic [ref=f53e91]:
+                - textbox [ref=f53e92]
+                - generic: Land
+            - generic [ref=f53e93]:
+              - paragraph [ref=f53e95]:
+                - generic [ref=f53e96]:
+                  - textbox [ref=f53e97]
+                  - generic: Webseite
+              - paragraph [ref=f53e99]:
+                - generic [ref=f53e100]:
+                  - textbox [ref=f53e101]
+                  - generic: Xing- oder Linkedin-Profil
+          - generic [ref=f53e102]:
+            - generic [ref=f53e103]: 5 von 8
+            - paragraph [ref=f53e104]: Was hast du drauf und warum möchtest du zu uns?
+            - generic [ref=f53e105]:
+              - paragraph [ref=f53e107]:
+                - generic [ref=f53e110]:
+                  - generic [ref=f53e112]:
+                    - heading "Lebenslauf*" [level=3] [ref=f53e113]
+                    - text: Zum Hochladen hier klicken oder drag & drop
+                    - link "Dateien auswählen" [ref=f53e115] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=f53e116]: 0 von 1
+              - paragraph [ref=f53e118]:
+                - generic [ref=f53e121]:
+                  - generic [ref=f53e123]:
+                    - heading "Anschreiben" [level=3] [ref=f53e124]
+                    - text: Zum Hochladen hier klicken oder drag & drop
+                    - link "Dateien auswählen" [ref=f53e126] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=f53e127]: 0 von 1
+              - paragraph [ref=f53e129]:
+                - generic [ref=f53e132]:
+                  - generic [ref=f53e134]:
+                    - heading "Weitere Dokumente" [level=3] [ref=f53e135]
+                    - text: Zum Hochladen hier klicken oder drag & drop
+                    - link "Dateien auswählen" [ref=f53e137] [cursor=pointer]:
+                      - /url: "#"
+                  - generic [ref=f53e138]: 0 von 5
+            - paragraph [ref=f53e139]: Bitte als PDF, DOC, JPEG oder PNG und nicht größer als 10 Megabyte.
+          - generic [ref=f53e140]:
+            - generic [ref=f53e141]: 6 von 8
+            - paragraph [ref=f53e142]: Wann kannst du loslegen?
+            - generic [ref=f53e143]:
+              - paragraph [ref=f53e145]:
+                - generic [ref=f53e146]:
+                  - textbox [ref=f53e147]
+                  - generic: Verfügbar ab (TT/MM/JJJJ)*
+              - paragraph [ref=f53e149]:
+                - generic [ref=f53e150]:
+                  - textbox [ref=f53e151]
+                  - generic: Kündigungsfrist
+              - paragraph [ref=f53e153]:
+                - generic [ref=f53e154]:
+                  - textbox [ref=f53e155]
+                  - generic: Gehaltsvorstellung*
+          - generic [ref=f53e156]:
+            - generic [ref=f53e157]: 7 von 8
+            - paragraph [ref=f53e158]: Welcher unserer Standorte kommt für dich in Frage?
+            - paragraph [ref=f53e161]:
+              - generic [ref=f53e163]:
+                - generic [ref=f53e165]:
+                  - checkbox "Neustetten (HQ)"
+                  - text: Neustetten (HQ)
+                - generic [ref=f53e167]:
+                  - checkbox "Leinfelden-Echterdingen"
+                  - text: Leinfelden-Echterdingen
+                - generic [ref=f53e169]:
+                  - checkbox "Frankfurt am Main"
+                  - text: Frankfurt am Main
+                - generic [ref=f53e171]:
+                  - checkbox "Belgrad (Serbien)"
+                  - text: Belgrad (Serbien)
+            - paragraph: Mehrfachauswahl möglich*
+          - generic [ref=f53e172]:
+            - generic [ref=f53e173]: 8 von 8
+            - paragraph [ref=f53e174]: Wie hast du von uns erfahren?
+            - paragraph [ref=f53e177]:
+              - combobox [ref=f53e179] [cursor=pointer]:
+                - option "Freunde oder Kolleg*innen"
+                - option "Jobmesse"
+                - option "Online"
+                - option "Urplötzliche Erleuchtung"
+                - option "Headhunter"
+                - option "Sonstige"
+          - paragraph [ref=f53e183]: "*Pflichtfelder"
+          - generic [ref=f53e184]:
+            - paragraph [ref=f53e185]:
+              - strong [ref=f53e186]: "Und damit alles seine Richtigkeit hat:"
+            - paragraph [ref=f53e187]: Mit dem Absenden deiner Bewerbung willigst du in die Verarbeitung der von dir im Bewerbungsverfahren angegebenen personenbezogenen Daten für alle im Zusammenhang mit dem Bewerbungsverfahren stehenden Zwecke gemäß der Datenschutzerklärung ein.
+            - paragraph [ref=f53e188]: "Mach zusätzlich zwei Haken dran, wenn du über alles rund um Jobchancen bei netcare auf dem Laufenden bleiben willst:"
+            - paragraph [ref=f53e189]:
+              - generic [ref=f53e193]:
+                - checkbox "In Ordnung, netcare darf mir in den nächsten 24 Monaten spannende Jobchancen per E-Mail schicken und mich für diese Zeit mitsamt meiner personenbezogenen Daten in den netcare-Talentpool aufnehmen."
+                - text: In Ordnung, netcare darf mir in den nächsten 24 Monaten spannende Jobchancen per E-Mail schicken und mich für diese Zeit mitsamt meiner personenbezogenen Daten in den netcare-Talentpool aufnehmen.
+            - paragraph [ref=f53e194]:
+              - generic [ref=f53e198]:
+                - checkbox "Aber ja, schickt mir gerne bis auf Widerruf E-Mails zu Recruiting-Aktionen von netcare."
+                - text: Aber ja, schickt mir gerne bis auf Widerruf E-Mails zu Recruiting-Aktionen von netcare.
+            - paragraph [ref=f53e199]:
+              - text: Natürlich kannst du deine Einwilligungen jederzeit per E-Mail an
+              - link "jobs@netcare.de" [ref=f53e200] [cursor=pointer]:
+                - /url: mailto:jobs@netcare.de
+              - text: widerrufen. Wenn du es ganz genau wissen willst, findest du alles Weitere zur Datenverarbeitung im Rahmen deiner Bewerbung in unseren
+              - link "Datenschutzhinweisen" [ref=f53e201] [cursor=pointer]:
+                - /url: /datenschutz/#applications
+              - text: .
+          - generic [ref=f53e202]:
+            - paragraph:
+              - button "Bewerbung abschicken " [ref=f53e203] [cursor=pointer]:
+                - text: Bewerbung abschicken
+                - generic [ref=f53e204]: 
+        - textbox [ref=f53e205]
+    - contentinfo [ref=f53e206]:
+      - navigation [ref=f53e207]:
+        - generic [ref=f53e209]:
+          - list [ref=f53e211]:
+            - listitem [ref=f53e212]:
+              - link "" [ref=f53e213] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/netcare-gmbh/
+            - listitem [ref=f53e215]:
+              - link "" [ref=f53e216] [cursor=pointer]:
+                - /url: https://www.instagram.com/netcare_digital
+          - generic [ref=f53e218]:
+            - list [ref=f53e219]:
+              - listitem [ref=f53e220]:
+                - link "Kontakt" [ref=f53e221] [cursor=pointer]:
+                  - /url: https://netcare.de/ueber-uns/kontakt/
+              - listitem [ref=f53e222]:
+                - link "Impressum" [ref=f53e223] [cursor=pointer]:
+                  - /url: https://netcare.de/impressum/
+              - listitem [ref=f53e224]:
+                - link "Datenschutz" [ref=f53e225] [cursor=pointer]:
+                  - /url: https://netcare.de/datenschutz/
+            - list [ref=f53e226]:
+              - listitem [ref=f53e227]:
+                - link "DE" [ref=f53e228] [cursor=pointer]:
+                  - /url: https://netcare.de/karriere/jetzt-bewerben/projektmanagerin-pim-dam/
+              - listitem [ref=f53e229]:
+                - link "EN" [ref=f53e230] [cursor=pointer]:
+                  - /url: https://netcare.de/en/career/apply-now/project-manager-pim-dam-m-f-d/
+    - text: 
+  - generic [ref=f53e231]:
+    - generic [ref=f53e232]:
+      - generic [ref=f53e235]:
+        - button "autorenew" [ref=f53e236] [cursor=pointer]
+        - button "close" [ref=f53e238] [cursor=pointer]
+      - generic [ref=f53e241]:
+        - textbox "Nachricht eingeben …" [ref=f53e242]
+        - button "arrow_forward" [ref=f53e243] [cursor=pointer]
+      - generic [ref=f53e246]:
+        - text: Mit der Nutzung stimmst du der
+        - link "Datenschutzerklärung" [ref=f53e247] [cursor=pointer]:
+          - /url: /datenschutz/
+        - text: zu.
+    - button "Hey, ich bin N3TY. Ich beantworte alle deine Fragen!" [ref=f53e248] [cursor=pointer]

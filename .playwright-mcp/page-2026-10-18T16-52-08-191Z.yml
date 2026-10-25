@@ -1,0 +1,37 @@
+- generic [active] [ref=f33e1]:
+  - generic [ref=f33e2]:
+    - link "Skip to main content" [ref=f33e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f33e4]:
+      - banner [ref=f33e6]:
+        - link "BRANDUNG" [ref=f33e9] [cursor=pointer]:
+          - /url: https://brandung.jobs.personio.de
+          - img "BRANDUNG" [ref=f33e10]
+      - main [ref=f33e11]:
+        - link "Back to job" [ref=f33e15] [cursor=pointer]:
+          - /url: /job/2546562?display=en
+        - generic [ref=f33e20]:
+          - generic [ref=f33e21]:
+            - heading "Digital Business Consultant eCommerce (m/w/d)" [level=1] [ref=f33e22]
+            - generic [ref=f33e23]:
+              - generic [ref=f33e24]: Berlin, Köln
+              - generic [ref=f33e29]: Vollzeit
+              - generic [ref=f33e33]: Festanstellung
+          - generic [ref=f33e130]:
+            - heading "VIELEN DANK" [level=5] [ref=f33e131]
+            - text: Wir haben Ihre Bewerbung erhalten und werden uns in Kürze bei Ihnen melden!
+      - contentinfo [ref=f33e109]:
+        - generic [ref=f33e110]:
+          - generic [ref=f33e113]:
+            - img "Powered by Personio" [ref=f33e114]
+            - generic [ref=f33e115]:
+              - text: Powered by
+              - link [ref=f33e116] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=f33e117]: Personio
+          - generic [ref=f33e118]:
+            - link "Data privacy statement" [ref=f33e119] [cursor=pointer]:
+              - /url: /privacy-policy?language=en
+            - link "Legal Notice" [ref=f33e120] [cursor=pointer]:
+              - /url: https://www.agentur-brandung.de/impressum/
+  - alert [ref=f33e129]

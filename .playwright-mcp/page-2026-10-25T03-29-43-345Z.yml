@@ -1,0 +1,313 @@
+- generic [ref=f65e3]:
+  - banner [ref=f65e5]:
+    - link "Zum Hauptinhalt springen" [ref=f65e6] [cursor=pointer]:
+      - /url: "#cr-main-content"
+    - generic [ref=f65e10]:
+      - generic [ref=f65e11]:
+        - link [ref=f65e12] [cursor=pointer]:
+          - /url: https://karriere.stroetmann.de/?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - img "Zur Startseite" [ref=f65e13]
+        - navigation "Hauptnavigation" [ref=f65e14]:
+          - list [ref=f65e15]:
+            - listitem [ref=f65e16]:
+              - navigation "Jobs nach Bereich" [ref=f65e17]:
+                - button "Jobs nach Bereich" [ref=f65e18] [cursor=pointer]
+            - listitem [ref=f65e22]:
+              - link "Ausbildung & Studium" [ref=f65e23] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ausbildung-studium?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+            - listitem [ref=f65e24]:
+              - link "Neueröffnung E center Vreden" [ref=f65e25] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ecentervreden?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+            - listitem [ref=f65e26]:
+              - link "Wir als Arbeitgeber" [ref=f65e27] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/wir?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+            - listitem [ref=f65e28]:
+              - link "Unsere Unternehmensgruppe" [ref=f65e29] [cursor=pointer]:
+                - /url: https://karriere.stroetmann.de/ueberblickunternehmensbereiche?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+      - link "Alle Jobs" [ref=f65e31] [cursor=pointer]:
+        - /url: https://karriere.stroetmann.de/search?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+  - main [ref=f65e33]:
+    - alert [ref=f65e34]: Shopware Developer (m/w/d) (Münster - Amelsbüren) - Stroetmann Tiernahrung GmbH & Co. KG
+    - generic [ref=f65e35]:
+      - generic [ref=f65e39]:
+        - img "Junge Frau im Business-Outfit lächelt; links Vogelfutter, rechts Katze mit Dosenfutter – Karriere in der Tiernahrungsbranche." [ref=f65e42]
+        - generic [ref=f65e43]:
+          - heading "Shopware Developer (m/w/d)" [level=1] [ref=f65e45]
+          - generic [ref=f65e46]:
+            - generic [ref=f65e47]:
+              - generic [ref=f65e48]: "Unternehmen:"
+              - generic [ref=f65e49]: Stroetmann Tiernahrung GmbH & Co. KG
+            - generic [ref=f65e50]:
+              - generic [ref=f65e51]: "Bereich:"
+              - generic [ref=f65e52]: Kaufmännisch
+            - generic [ref=f65e54]:
+              - generic [ref=f65e55]: "Einsatzort:"
+              - generic [ref=f65e56]: Lübecker Str. 33, 48163 Münster - Amelsbüren
+            - generic [ref=f65e58]:
+              - generic [ref=f65e59]: "Arbeitszeit:"
+              - generic [ref=f65e60]: Vollzeit
+            - generic [ref=f65e62]:
+              - generic [ref=f65e63]: "Vertragsart:"
+              - generic [ref=f65e64]: unbefristet
+            - generic [ref=f65e66]:
+              - generic [ref=f65e67]: "Frühester Eintrittstermin:"
+              - generic [ref=f65e68]: ab sofort
+          - link "Bewerben" [ref=f65e71] [cursor=pointer]:
+            - /url: "#application-form"
+      - generic [ref=f65e76]:
+        - heading "Das erwartet Dich:" [level=2] [ref=f65e77]
+        - generic [ref=f65e78]:
+          - paragraph [ref=f65e79]:
+            - strong [ref=f65e80]: Vor Ort / 2 Tage pro Woche Home-Office möglich
+          - paragraph [ref=f65e81]:
+            - strong [ref=f65e82]: "Du entwickelst unsere Shops auf Shopware 6 weiter, die B2C-Shops ebenso wie unseren B2B-Shop Tiernahrungsprofi: Du schreibst eigene Plugins, baust neue Funktionen in Storefront und Administration und sorgst dafür, dass unsere Systeme sauber zusammenspielen."
+          - list [ref=f65e83]:
+            - listitem [ref=f65e84]: Entwicklung eigener Shopware-Plugins und Erweiterungen mit PHP und Symfony
+            - listitem [ref=f65e85]: Anpassungen in der Storefront mit Twig und JavaScript sowie in der Administration mit Vue.js
+            - listitem [ref=f65e86]: "Anbindung und Pflege der Schnittstellen zu unserem ERP Microsoft Dynamics 365 Business Central: Artikel, Preise, Bestände, Aufträge"
+            - listitem [ref=f65e87]: Datenfluss aus unserem PIM Perfion nach Shopware über die Integrationsplattform Alumio
+            - listitem [ref=f65e88]: Automatisierung wiederkehrender Prozesse, zum Beispiel mit Make oder n8n
+            - listitem [ref=f65e89]: Updates von Shopware und Plugins planen, testen und einspielen sowie Fehler im laufenden Betrieb beheben
+            - listitem [ref=f65e90]: Optimierung von Ladezeiten, Caching und Stabilität, auch unter Last in der Black Week
+            - listitem [ref=f65e91]: Code Reviews für Tools, die Kollegen (m/w/d) mit KI-Unterstützung gebaut haben, und deren Überführung in stabile Lösungen
+      - generic [ref=f65e95]:
+        - heading "Das solltest du mitbringen:" [level=2] [ref=f65e96]
+        - generic [ref=f65e97]:
+          - paragraph [ref=f65e98]:
+            - strong [ref=f65e99]: Du kennst Shopware nicht nur als Anwender, sondern weißt, wie Plugins, Datenmodell und Schnittstellen technisch zusammenspielen. Anforderungen setzt Du eigenständig um, von der ersten Analyse bis zum Deployment.
+          - list [ref=f65e100]:
+            - listitem [ref=f65e101]: Mehrjährige Erfahrung in der Entwicklung mit Shopware 6
+            - listitem [ref=f65e102]: Sehr gute Kenntnisse in PHP 8 und Symfony
+            - listitem [ref=f65e103]: Erfahrung mit der Data Abstraction Layer sowie mit Admin API und Store API
+            - listitem [ref=f65e104]: Sicherer Umgang mit MySQL, Git und Composer
+            - listitem [ref=f65e105]: Gute Kenntnisse in Twig, Grundkenntnisse in Vue.js
+            - listitem [ref=f65e106]: Erfahrung mit REST- und OData-Schnittstellen sowie mit Deployments, Staging-Umgebungen und sauberen Update-Routinen
+            - listitem [ref=f65e107]: Eigenverantwortliche, strukturierte Arbeitsweise sowie gute Deutschkenntnisse in Wort und Schrift
+      - generic [ref=f65e111]:
+        - heading "Das bekommst du von uns:" [level=2] [ref=f65e112]
+        - list [ref=f65e114]:
+          - listitem [ref=f65e115]: Familienunternehmen
+          - listitem [ref=f65e116]: Flexible Arbeitszeiten
+          - listitem [ref=f65e117]: Home-Office
+          - listitem [ref=f65e118]: Kurzer Freitag (ab 12:30 Uhr starten wir ins Wochenende!)
+          - listitem [ref=f65e119]: "30 Urlaubstage: Deine Erholung ist uns wichtig."
+          - listitem [ref=f65e120]: Gesundheitsmaßnahmen (z.B. Massage, Grippe Impfung)
+          - listitem [ref=f65e121]: Gruppenunfallversicherung
+          - listitem [ref=f65e122]: Vermögenswirksame Leistungen
+          - listitem [ref=f65e123]: Betriebliche Altersvorsorge
+          - listitem [ref=f65e124]: Mitarbeiterempfehlungsprogramm
+          - listitem [ref=f65e125]: Mitarbeiterrabatte (z.B. Corporate Benefits)
+          - listitem [ref=f65e126]: JobRad
+          - listitem [ref=f65e127]: Sport- und Fitnessangebote
+          - listitem [ref=f65e128]: Urlaubs- und Weihnachtsgeld
+          - listitem [ref=f65e129]: strukturierte Einarbeitung
+          - listitem [ref=f65e130]: Individuelle Weiterbildungsangebote
+      - heading "Dein Weg zu uns - Dein Bewerbungsprozess" [level=2] [ref=f65e135]
+      - generic [ref=f65e139]:
+        - generic [ref=f65e141]:
+          - article [ref=f65e142]:
+            - generic [ref=f65e143]: Schritt 1
+            - generic [ref=f65e146]: Deine Bewerbung
+            - paragraph [ref=f65e148]: Du bewirbst dich ganz einfach online über unser Bewerbungsformular. Anschließend prüfen wir deine Unterlagen sorgfältig und verschaffen uns einen ersten Eindruck.
+          - article [ref=f65e149]:
+            - generic [ref=f65e150]: Schritt 2
+            - generic [ref=f65e153]: Erstkontakt
+            - paragraph [ref=f65e155]: In der Regel nehmen wir telefonisch Kontakt mit dir auf, um die nächsten Schritte zu besprechen und erste Fragen zu klären. Optional führen wir ein erstes Kennenlernen per Videocall via Microsoft Teams durch.
+          - article [ref=f65e156]:
+            - generic [ref=f65e157]: Schritt 3
+            - generic [ref=f65e160]: Persönliches Kennenlernen
+            - paragraph [ref=f65e162]: Im persönlichen Gespräch vor Ort lernen wir uns intensiver kennen. Je nach Position kann ein weiteres Gespräch folgen, um offene Punkte zu vertiefen oder mit weiteren Führungskräften oder Teammitgliedern in den Austausch zu gehen.
+          - article [ref=f65e163]:
+            - generic [ref=f65e164]: Schritt 4
+            - generic [ref=f65e167]: Vertragsangebot
+            - paragraph [ref=f65e169]: Wenn alles passt, erhältst du von uns ein Vertragsangebot und alle wichtigen Informationen zu deinem Start.
+          - article [ref=f65e170]:
+            - generic [ref=f65e171]: Schritt 5
+            - generic [ref=f65e174]: Dein Start bei uns
+            - paragraph [ref=f65e176]: Willkommen im Team! Wir sorgen dafür, dass du dich von Anfang an gut aufgehoben fühlst und unterstützen dich beim Einstieg.
+        - button "Weiter" [ref=f65e177] [cursor=pointer]
+      - generic [ref=f65e186]:
+        - generic [ref=f65e187]:
+          - generic [ref=f65e189]:
+            - generic [ref=f65e191]:
+              - text: Anrede
+              - generic [aria-hidden] [ref=f65e192]: "*"
+              - generic [ref=f65e193]: (required)
+            - combobox "Anrede (required)" [ref=f65e195] [cursor=pointer]:
+              - option "Herr"
+              - option "Frau"
+              - option "Andere"
+          - generic [ref=f65e197]:
+            - generic [ref=f65e199]:
+              - text: Vorname
+              - generic [aria-hidden] [ref=f65e200]: "*"
+              - generic [ref=f65e201]: (required)
+            - textbox "Vorname (required)" [ref=f65e202]:
+              - /placeholder: ""
+          - generic [ref=f65e204]:
+            - generic [ref=f65e206]:
+              - text: Nachname
+              - generic [aria-hidden] [ref=f65e207]: "*"
+              - generic [ref=f65e208]: (required)
+            - textbox "Nachname (required)" [ref=f65e209]:
+              - /placeholder: ""
+          - generic [ref=f65e211]:
+            - generic [ref=f65e213]:
+              - text: E-Mail-Adresse
+              - generic [aria-hidden] [ref=f65e214]: "*"
+              - generic [ref=f65e215]: (required)
+            - textbox "E-Mail-Adresse (required)" [ref=f65e216]:
+              - /placeholder: ""
+          - generic [ref=f65e218]:
+            - generic [ref=f65e220]:
+              - text: Telefonnummer
+              - generic [aria-hidden] [ref=f65e221]: "*"
+              - generic [ref=f65e222]: (required)
+            - textbox "Telefonnummer (required)" [ref=f65e223]:
+              - /placeholder: ""
+          - generic [ref=f65e225]:
+            - generic [ref=f65e227]:
+              - text: Ab wann kannst du starten?
+              - generic [aria-hidden] [ref=f65e228]: "*"
+              - generic [ref=f65e229]: (required)
+            - combobox "Ab wann kannst du starten? (required)" [ref=f65e231] [cursor=pointer]:
+              - option "Ab sofort"
+              - option "Gesetzliche Kündigungsfrist"
+              - option "1 Monat Kündigungsfrist"
+              - option "2 Monate Kündigungsfrist"
+              - option "3 Monate Kündigungsfrist"
+              - option "4 Monate Kündigungsfrist"
+              - option "5 Monate Kündigungsfrist"
+              - option "6 Monate Kündigungsfrist"
+              - option "Mehr als 6 Monate Kündigungsfrist"
+          - generic [ref=f65e233]:
+            - generic [ref=f65e234]:
+              - generic [ref=f65e235]:
+                - text: Wie hoch ist deine Gehaltsvorstellung?
+                - generic [aria-hidden] [ref=f65e236]: "*"
+                - generic [ref=f65e237]: (required)
+              - paragraph [ref=f65e238]: Bruttojahresgehalt in EUR
+            - textbox "Wie hoch ist deine Gehaltsvorstellung? (required)" [ref=f65e239]:
+              - /placeholder: ""
+          - generic [ref=f65e241]:
+            - generic [ref=f65e242]:
+              - generic [ref=f65e243]: Bist du durch einen Mitarbeitenden auf uns aufmerksam geworden?
+              - paragraph [ref=f65e244]: Wenn ja, gib bitte den Namen ein.
+            - textbox "Bist du durch einen Mitarbeitenden auf uns aufmerksam geworden?" [ref=f65e245]:
+              - /placeholder: ""
+          - generic [ref=f65e247]:
+            - generic [ref=f65e248]:
+              - generic [ref=f65e249]:
+                - text: Deine Dokumente
+                - generic [aria-hidden] [ref=f65e250]: "*"
+                - generic [ref=f65e251]: (required)
+              - paragraph [ref=f65e252]: "Bitte lade hier deine Unterlagen (mind. Lebenslauf und Zeugnisse, Anschreiben optional) hoch (Formate: PDF, JPG, JPEG; pro Datei maximal 5 MB)."
+            - button "Deine Dokumente (required) Klicke zum Auswählen von Dateien" [ref=f65e253]
+            - button "Datei hierhin ziehen oder klicken, um auszuwählen" [ref=f65e254]:
+              - generic [ref=f65e255]: Ziehen und Ablegen von Dateien zum Hochladen
+              - generic [ref=f65e257] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f65e258]: 📎
+                - generic [ref=f65e259]: Klicke zum Auswählen von Dateien
+          - generic [ref=f65e262] [cursor=pointer]:
+            - checkbox "Ich bin damit einverstanden, dass meine Bewerbungsunterlagen auf weitere Einsatzmöglichkeiten in der L. Stroetmann Unternehmensgruppe geprüft werden und mein Profil dafür gegebenenfalls auch an andere Fachbereiche innerhalb der Unternehmensgruppe weitergeleitet wird. Die Einwilligung kann ich jederzeit widerrufen." [ref=f65e263]
+            - generic [ref=f65e265]: Ich bin damit einverstanden, dass meine Bewerbungsunterlagen auf weitere Einsatzmöglichkeiten in der L. Stroetmann Unternehmensgruppe geprüft werden und mein Profil dafür gegebenenfalls auch an andere Fachbereiche innerhalb der Unternehmensgruppe weitergeleitet wird. Die Einwilligung kann ich jederzeit widerrufen.
+          - generic [ref=f65e270] [cursor=pointer]:
+            - text: L. Stroetmann Lebensmittel SE & Co. KG, wird meine obenstehenden Daten, einschließlich der Bewerbungsunterlagen, für die Durchführung des Bewerbungsverfahrens verarbeiten. Die Informationen zum
+            - link "Datenschutz bei L. Stroetmann Lebensmittel SE & Co. KG" [ref=f65e271]:
+              - /url: https://www.stroetmann.de/datenschutz
+            - text: ", und meinen Rechten habe ich zur Kenntnis genommen. Auch die"
+            - link "Datenschutzhinweise der talentsconnect AG" [ref=f65e272]:
+              - /url: https://www.talentsconnect.com/datenschutzerklaerung
+            - text: habe ich zur Kenntnis genommen.
+        - button "Jetzt bewerben!" [ref=f65e274] [cursor=pointer]
+      - generic [ref=f65e282]:
+        - generic [ref=f65e283]:
+          - heading "Anna Knemeyer" [level=2] [ref=f65e284]
+          - paragraph [ref=f65e285]: Human Resources
+          - link "0251 7182 384" [ref=f65e286] [cursor=pointer]:
+            - /url: tel:0251 7182 384
+        - link "Nachricht" [ref=f65e288] [cursor=pointer]:
+          - /url: mailto:job@stroetmann.de
+      - generic [ref=f65e292]:
+        - heading "Häufig gefragt – Klar beantwortet" [level=2] [ref=f65e293]
+        - paragraph [ref=f65e295]: Du hast noch Fragen zu deiner Bewerbung oder zum Arbeitsalltag im Kaufmännischen Bereich? Kein Problem – hier findest du die wichtigsten Antworten rund um den Einstieg bei Stroetmann.
+      - generic [ref=f65e299]:
+        - group [ref=f65e300]:
+          - generic "Gibt es flexible Arbeitszeitmodelle oder Homeoffice Möglichkeiten?" [ref=f65e301] [cursor=pointer]
+        - group [ref=f65e306]:
+          - generic "Kann ich zwischen verschiedenen kaufmännischen Abteilungen wechseln?" [ref=f65e307] [cursor=pointer]
+        - group [ref=f65e312]:
+          - generic "Unterstützt Stroetmann berufsbegleitende Studiengänge oder Zertifikate?" [ref=f65e313] [cursor=pointer]
+        - group [ref=f65e318]:
+          - generic "Welche Software und Tools werden im kaufmännischen Bereich genutzt?" [ref=f65e319] [cursor=pointer]
+        - group [ref=f65e324]:
+          - generic "Wie sind Aufgaben, Verantwortung und Karrierepfade im kaufmännischen Bereich strukturiert?" [ref=f65e325] [cursor=pointer]
+      - generic [ref=f65e337]:
+        - heading [level=2] [ref=f65e338]:
+          - strong [ref=f65e339]: "Mission Stroetmann:"
+          - strong [ref=f65e340]: Willkommen in deiner Welt
+        - paragraph [ref=f65e342]: Tauche ein in die Stroetmann-Welten und erlebe, wo und mit wem du bei uns arbeiten würdest. Hier bekommst du einen echten Eindruck davon, wie vielfältig deine Zukunft bei uns aussehen kann.
+      - generic [ref=f65e363]:
+        - heading "Deine zukünftigen Kolleg:innen erzählen" [level=2] [ref=f65e364]
+        - generic [ref=f65e365]:
+          - paragraph [ref=f65e366]: "Echt und direkt: Erfahre aus erster Hand, wie Zusammenhalt und Perspektiven bei L. Stroetmann gelebt werden. Kolleg:innen aus dem Bereich Kaufmännisch erzählen von ihrem Alltag, ihren Highlights und warum sie gerne Teil der Stroetmann-Welt sind."
+          - paragraph
+      - paragraph [ref=f65e375]:
+        - strong [ref=f65e378]: „Ich bin als Azubi bei Stroetmann angefangen und leite heute den Geschäftsbereich Tiernahrung. Bei meiner täglichen Arbeit schätze ich dabei insbesondere das Vertrauen, das mir und meinem Team von dem Vorstand entgegengebracht wird.“
+        - strong [ref=f65e379]: Ralf Hülsmann
+        - strong [ref=f65e381]: Geschäftsführer Stroetmann Tiernahrung
+      - generic [ref=f65e394]:
+        - heading "Tiernahrungs-Profi in Handel und Produktion." [level=3] [ref=f65e395]
+        - paragraph [ref=f65e397]:
+          - text: Als
+          - strong [ref=f65e398]: Stroetmann Tiernahrung GmbH & Co. KG
+          - text: handeln und produzieren wir für unsere tierischen Freunde. Wir sind Großhändler und Produzent zugleich und garantieren die passende Logistik. Eine Kombination von der unsere Kunden profitieren. Als Großhändler für Tiernahrungsprodukte versorgen wir Fachmärkte, Baumärkte, Drogerien, Lebensmitteleinzelhändler und den Onlinehandel täglich mit hochwertiger Tiernahrung. Über 5.000 Artikel bekannter Marken-Hersteller finden in unserem Lager in Münster Platz und bieten unseren Kunden eine hervorragende Auswahl. In unserer Produktionsstätte in Münster-Amelsbüren produzieren wir Vogel- und Nagerfutter in Top-Qualität nach strengen IFS-Kriterien.
+  - contentinfo [ref=f65e401]:
+    - generic [ref=f65e402]:
+      - generic [ref=f65e403]:
+        - generic [ref=f65e404]:
+          - link [ref=f65e405] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+            - img "Logo mit Link zur Startseite" [ref=f65e406]
+          - generic [ref=f65e407]:
+            - link "linkedin" [ref=f65e408] [cursor=pointer]:
+              - /url: https://de.linkedin.com/company/l-stroetmann-unternehmensgruppe?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+            - link "xing" [ref=f65e412] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/l-stroetmannunternehmensgruppe?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+        - generic [ref=f65e417]:
+          - generic [ref=f65e418]:
+            - generic [ref=f65e419]: Jobs nach Bereich
+            - list [ref=f65e420]:
+              - listitem [ref=f65e421]:
+                - link "Markt" [ref=f65e422] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/markt?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+              - listitem [ref=f65e423]:
+                - link "Logistik & Technik" [ref=f65e424] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/logistik?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+              - listitem [ref=f65e425]:
+                - link "Kaufmännisch" [ref=f65e426] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/kaufmann?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+              - listitem [ref=f65e427]:
+                - link "Vertrieb & Außendienst" [ref=f65e428] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/vertrieb?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+              - listitem [ref=f65e429]:
+                - link "Produktion" [ref=f65e430] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/produktion?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+              - listitem [ref=f65e431]:
+                - link "Bau, Expansion, Immobilien" [ref=f65e432] [cursor=pointer]:
+                  - /url: https://karriere.stroetmann.de/bau?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - link "Ausbildung & Studium" [ref=f65e434] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ausbildung-studium?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - link "Neueröffnung E center Vreden" [ref=f65e436] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ecentervreden?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - link "Wir als Arbeitgeber" [ref=f65e438] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/wir?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - link "Unsere Unternehmensgruppe" [ref=f65e440] [cursor=pointer]:
+            - /url: https://karriere.stroetmann.de/ueberblickunternehmensbereiche?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+      - generic [ref=f65e443]:
+        - generic [ref=f65e444]:
+          - link "Impressum" [ref=f65e445] [cursor=pointer]:
+            - /url: https://www.stroetmann.de/impressum?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+          - link "Datenschutz" [ref=f65e446] [cursor=pointer]:
+            - /url: https://www.talentsconnect.com/datenschutzerklaerung?utm_source=talents-connect&utm_medium=organic&utm_campaign=talents-connect
+        - button "Cookie Einstellungen" [ref=f65e448] [cursor=pointer]

@@ -1,0 +1,614 @@
+- generic [ref=f8e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f8e565] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f8e579] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f8e596] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f8e609] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f8e2]:
+      - generic [ref=f8e3]:
+        - link "Zur Startseite" [ref=f8e5] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f8e6]
+        - list [ref=f8e9]:
+          - listitem [ref=f8e10]:
+            - link "Jobsuche" [ref=f8e11] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f8e12]:
+            - link "Arbeitgeber" [ref=f8e13] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f8e14]:
+            - link "Schüler" [ref=f8e15] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f8e16]:
+            - link "Studierende" [ref=f8e17] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f8e18]:
+            - link "Direkteinstieg" [ref=f8e19] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f8e22] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - region "Stellenangebote Headerbild" [ref=f8e24]:
+    - generic [ref=f8e28]:
+      - heading "Deinen Traumjob Finden!" [level=1] [ref=f8e30]
+      - search "job-search-form-title" [ref=f8e32]:
+        - generic [ref=f8e33]:
+          - textbox "Suchbegriff" [active] [ref=f8e35]: Product Owner
+          - textbox "Wunschort" [ref=f8e37]
+          - combobox "Radius" [ref=f8e39] [cursor=pointer]:
+            - option "Radius"
+            - option "5km"
+            - option "10km"
+            - option "20km" [selected]
+            - option "50km"
+            - option "100km"
+            - option "250km"
+          - link "Start job search" [ref=f8e42] [cursor=pointer]:
+            - /url: "#"
+            - text: Jobs Finden
+  - heading "Filter Options" [level=2] [ref=f8e44]
+  - dialog "Filter Options" [ref=f8e45]:
+    - link "Close filters menu" [ref=f8e46] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [aria-hidden] [ref=f8e47]: 
+    - generic [ref=f8e49]:
+      - generic [ref=f8e50]:
+        - generic [ref=f8e51]: Filtern nach Karrierelevel
+        - list "Filter by career level" [ref=f8e52]:
+          - listitem [ref=f8e53]:
+            - 'link "Filter by career level: Berufserfahrene" [ref=f8e54] [cursor=pointer]':
+              - /url: "#"
+              - text: Direkteinstieg
+          - listitem [ref=f8e56]:
+            - 'link "Filter by career level: Schüler" [ref=f8e57] [cursor=pointer]':
+              - /url: "#"
+              - text: Schüler
+          - listitem [ref=f8e59]:
+            - 'link "Filter by career level: Studierende" [ref=f8e60] [cursor=pointer]':
+              - /url: "#"
+              - text: Studierende
+      - generic [ref=f8e62]:
+        - generic [ref=f8e63]: Filtern nach Bereich
+        - list "Filter by department" [ref=f8e64]:
+          - paragraph [ref=f8e65]: Verkauf
+          - list "Verkauf job groups" [ref=f8e66]:
+            - listitem [ref=f8e67]:
+              - 'link "Filter by job group: Store Manager" [ref=f8e68] [cursor=pointer]':
+                - /url: "#"
+                - text: Store Manager
+            - listitem [ref=f8e70]:
+              - 'link "Filter by job group: Deputy Store Manager" [ref=f8e71] [cursor=pointer]':
+                - /url: "#"
+                - text: Deputy Store Manager
+            - listitem [ref=f8e73]:
+              - 'link "Filter by job group: Junior Store Manager" [ref=f8e74] [cursor=pointer]':
+                - /url: "#"
+                - text: Junior Store Manager
+            - listitem [ref=f8e76]:
+              - 'link "Filter by job group: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement" [ref=f8e77] [cursor=pointer]':
+                - /url: "#"
+                - text: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement
+            - listitem [ref=f8e79]:
+              - 'link "Filter by job group: Reinigungskraft" [ref=f8e80] [cursor=pointer]':
+                - /url: "#"
+                - text: Reinigungskraft
+            - listitem [ref=f8e82]:
+              - 'link "Filter by job group: Praktikant im Verkauf" [ref=f8e83] [cursor=pointer]':
+                - /url: "#"
+                - text: Praktikant im Verkauf
+            - listitem [ref=f8e85]:
+              - 'link "Filter by job group: Werkstudent" [ref=f8e86] [cursor=pointer]':
+                - /url: "#"
+                - text: Werkstudent
+            - listitem [ref=f8e88]:
+              - 'link "Filter by job group: Filialmitarbeiter Minijob" [ref=f8e89] [cursor=pointer]':
+                - /url: "#"
+                - text: Filialmitarbeiter Minijob
+            - listitem [ref=f8e91]:
+              - 'link "Filter by job group: Lagerist in Teilzeit" [ref=f8e92] [cursor=pointer]':
+                - /url: "#"
+                - text: Lagerist in Teilzeit
+            - listitem [ref=f8e94]:
+              - 'link "Filter by job group: Verkäufer in Vollzeit" [ref=f8e95] [cursor=pointer]':
+                - /url: "#"
+                - text: Verkäufer in Vollzeit
+            - listitem [ref=f8e97]:
+              - 'link "Filter by job group: Verkäufer in Teilzeit" [ref=f8e98] [cursor=pointer]':
+                - /url: "#"
+                - text: Verkäufer in Teilzeit
+            - listitem [ref=f8e100]:
+              - 'link "Filter by job group: Ausbildung zum Handelsfachwirt" [ref=f8e101] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Handelsfachwirt
+            - listitem [ref=f8e103]:
+              - 'link "Filter by job group: Ausbildung zum Kaufmann im Einzelhandel" [ref=f8e104] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Kaufmann im Einzelhandel
+            - listitem [ref=f8e106]:
+              - 'link "Filter by job group: Ausbildung zum Verkäufer" [ref=f8e107] [cursor=pointer]':
+                - /url: "#"
+                - text: Ausbildung zum Verkäufer
+          - paragraph [ref=f8e109]: Zentrale
+          - list "Zentrale offer families" [ref=f8e110]:
+            - listitem [ref=f8e111]:
+              - 'link "Filter by offer family: Allgemein" [ref=f8e112] [cursor=pointer]':
+                - /url: "#"
+                - text: Allgemein
+            - listitem [ref=f8e114]:
+              - 'link "Filter by offer family: Architecture & Design" [ref=f8e115] [cursor=pointer]':
+                - /url: "#"
+                - text: Architecture & Design
+            - listitem [ref=f8e117]:
+              - 'link "Filter by offer family: Controlling" [ref=f8e118] [cursor=pointer]':
+                - /url: "#"
+                - text: Controlling
+            - listitem [ref=f8e120]:
+              - 'link "Filter by offer family: Corporate Communications" [ref=f8e121] [cursor=pointer]':
+                - /url: "#"
+                - text: Corporate Communications
+            - listitem [ref=f8e123]:
+              - 'link "Filter by offer family: Digital" [ref=f8e124] [cursor=pointer]':
+                - /url: "#"
+                - text: Digital
+            - listitem [ref=f8e126]:
+              - 'link "Filter by offer family: Finance" [ref=f8e127] [cursor=pointer]':
+                - /url: "#"
+                - text: Finance
+            - listitem [ref=f8e129]:
+              - 'link "Filter by offer family: IT" [ref=f8e130] [cursor=pointer]':
+                - /url: "#"
+                - text: IT
+            - listitem [ref=f8e132]:
+              - 'link "Filter by offer family: Law & Integrity" [ref=f8e133] [cursor=pointer]':
+                - /url: "#"
+                - text: Law & Integrity
+            - listitem [ref=f8e135]:
+              - 'link "Filter by offer family: Logistic" [ref=f8e136] [cursor=pointer]':
+                - /url: "#"
+                - text: Logistic
+            - listitem [ref=f8e138]:
+              - 'link "Filter by offer family: Marketing" [ref=f8e139] [cursor=pointer]':
+                - /url: "#"
+                - text: Marketing
+            - listitem [ref=f8e141]:
+              - 'link "Filter by offer family: Omnichannel Commerce" [ref=f8e142] [cursor=pointer]':
+                - /url: "#"
+                - text: Omnichannel Commerce
+            - listitem [ref=f8e144]:
+              - 'link "Filter by offer family: People & Culture" [ref=f8e145] [cursor=pointer]':
+                - /url: "#"
+                - text: People & Culture
+            - listitem [ref=f8e147]:
+              - 'link "Filter by offer family: Purchasing" [ref=f8e148] [cursor=pointer]':
+                - /url: "#"
+                - text: Purchasing
+            - listitem [ref=f8e150]:
+              - 'link "Filter by offer family: Strategy & Corporate Development" [ref=f8e151] [cursor=pointer]':
+                - /url: "#"
+                - text: Strategy & Corporate Development
+          - paragraph [ref=f8e153]: Logistik
+          - list "Logistik job groups" [ref=f8e154]:
+            - listitem [ref=f8e155]:
+              - 'link "Filter by job group: Beschaffungslogistik" [ref=f8e156] [cursor=pointer]':
+                - /url: "#"
+                - text: Beschaffungslogistik
+            - listitem [ref=f8e158]:
+              - 'link "Filter by job group: Distributionslogistik" [ref=f8e159] [cursor=pointer]':
+                - /url: "#"
+                - text: Distributionslogistik
+            - listitem [ref=f8e161]:
+              - 'link "Filter by job group: Lagermitarbeiter" [ref=f8e162] [cursor=pointer]':
+                - /url: "#"
+                - text: Lagermitarbeiter
+  - generic [ref=f8e166]:
+    - generic [ref=f8e167]:
+      - heading [level=2] [ref=f8e168]:
+        - text: 2833 Ergebnisse für dich.
+        - link "Merkliste" [ref=f8e169] [cursor=pointer]:
+          - /url: "#favourites-modal"
+          - text: Merkliste
+          - generic [aria-hidden] [ref=f8e170]: 
+        - link "Job News abonnieren" [ref=f8e171] [cursor=pointer]:
+          - /url: "#job-alert-modal"
+      - text: 
+      - list "Jobangebote Liste" [ref=f8e176]:
+        - listitem
+        - listitem [ref=f8e177] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Forum Köpenick Bahnhofstraße 33-34 12555 Berlin Vollzeit 01.08.2027 " [ref=f8e178]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38351/
+            - generic [ref=f8e179]:
+              - generic [ref=f8e180]:
+                - paragraph [ref=f8e182]: Ausbildung zum Verkäufer (m/w/d), Forum Köpenick
+                - generic [ref=f8e184]:
+                  - generic [ref=f8e185]: Bahnhofstraße 33-34 12555 Berlin
+                  - generic [ref=f8e186]:
+                    - generic [ref=f8e187]: Vollzeit
+                    - generic [ref=f8e188]: 01.08.2027
+              - generic [ref=f8e189]: 
+        - listitem [ref=f8e191] [cursor=pointer]:
+          - link "Filialmitarbeiter Minijob (m/w/d), Steinhagen Bahnhofstraße 19 33803 Steinhagen Teilzeit Ab Sofort " [ref=f8e192]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38352/
+            - generic [ref=f8e193]:
+              - generic [ref=f8e194]:
+                - paragraph [ref=f8e196]: Filialmitarbeiter Minijob (m/w/d), Steinhagen
+                - generic [ref=f8e198]:
+                  - generic [ref=f8e199]: Bahnhofstraße 19 33803 Steinhagen
+                  - generic [ref=f8e200]:
+                    - generic [ref=f8e201]: Teilzeit
+                    - generic [ref=f8e202]: Ab Sofort
+              - generic [ref=f8e203]: 
+        - listitem [ref=f8e205] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Berlin Schöneweide Schnellerstraße 21 12439 Berlin Vollzeit 01.08.2027 " [ref=f8e206]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38353/
+            - generic [ref=f8e207]:
+              - generic [ref=f8e208]:
+                - paragraph [ref=f8e210]: Ausbildung zum Verkäufer (m/w/d), Berlin Schöneweide
+                - generic [ref=f8e212]:
+                  - generic [ref=f8e213]: Schnellerstraße 21 12439 Berlin
+                  - generic [ref=f8e214]:
+                    - generic [ref=f8e215]: Vollzeit
+                    - generic [ref=f8e216]: 01.08.2027
+              - generic [ref=f8e217]: 
+        - listitem [ref=f8e219] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Mall of Berlin Leipziger Platz 12 10117 Berlin Vollzeit 01.08.2027 " [ref=f8e220]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38354/
+            - generic [ref=f8e221]:
+              - generic [ref=f8e222]:
+                - paragraph [ref=f8e224]: Ausbildung zum Verkäufer (m/w/d), Mall of Berlin
+                - generic [ref=f8e226]:
+                  - generic [ref=f8e227]: Leipziger Platz 12 10117 Berlin
+                  - generic [ref=f8e228]:
+                    - generic [ref=f8e229]: Vollzeit
+                    - generic [ref=f8e230]: 01.08.2027
+              - generic [ref=f8e231]: 
+        - listitem [ref=f8e233] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Biesdorf Weißenhöher Straße 88-108 12683 Berlin Vollzeit 01.08.2027 " [ref=f8e234]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38355/
+            - generic [ref=f8e235]:
+              - generic [ref=f8e236]:
+                - paragraph [ref=f8e238]: Ausbildung zum Verkäufer (m/w/d), Biesdorf
+                - generic [ref=f8e240]:
+                  - generic [ref=f8e241]: Weißenhöher Straße 88-108 12683 Berlin
+                  - generic [ref=f8e242]:
+                    - generic [ref=f8e243]: Vollzeit
+                    - generic [ref=f8e244]: 01.08.2027
+              - generic [ref=f8e245]: 
+        - listitem [ref=f8e247] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), East-Side-Mall Berlin Tamara-Danz-Straße 11 10243 Berlin Vollzeit 01.08.2027 " [ref=f8e248]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38356/
+            - generic [ref=f8e249]:
+              - generic [ref=f8e250]:
+                - paragraph [ref=f8e252]: Ausbildung zum Verkäufer (m/w/d), East-Side-Mall Berlin
+                - generic [ref=f8e254]:
+                  - generic [ref=f8e255]: Tamara-Danz-Straße 11 10243 Berlin
+                  - generic [ref=f8e256]:
+                    - generic [ref=f8e257]: Vollzeit
+                    - generic [ref=f8e258]: 01.08.2027
+              - generic [ref=f8e259]: 
+        - listitem [ref=f8e261] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Schultheiss-Quartier Stromstraße 14 10551 Berlin Vollzeit 01.08.2027 " [ref=f8e262]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38357/
+            - generic [ref=f8e263]:
+              - generic [ref=f8e264]:
+                - paragraph [ref=f8e266]: Ausbildung zum Verkäufer (m/w/d), Schultheiss-Quartier
+                - generic [ref=f8e268]:
+                  - generic [ref=f8e269]: Stromstraße 14 10551 Berlin
+                  - generic [ref=f8e270]:
+                    - generic [ref=f8e271]: Vollzeit
+                    - generic [ref=f8e272]: 01.08.2027
+              - generic [ref=f8e273]: 
+        - listitem [ref=f8e275] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), The Playce Berlin Alte Potsdamer Str. 7 10785 Berlin Vollzeit 01.08.2027 " [ref=f8e276]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38358/
+            - generic [ref=f8e277]:
+              - generic [ref=f8e278]:
+                - paragraph [ref=f8e280]: Ausbildung zum Verkäufer (m/w/d), The Playce Berlin
+                - generic [ref=f8e282]:
+                  - generic [ref=f8e283]: Alte Potsdamer Str. 7 10785 Berlin
+                  - generic [ref=f8e284]:
+                    - generic [ref=f8e285]: Vollzeit
+                    - generic [ref=f8e286]: 01.08.2027
+              - generic [ref=f8e287]: 
+        - listitem [ref=f8e289] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Gropius Passagen Johannisthaler Chaussee 317 12351 Berlin Vollzeit 01.08.2027 " [ref=f8e290]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38359/
+            - generic [ref=f8e291]:
+              - generic [ref=f8e292]:
+                - paragraph [ref=f8e294]: Ausbildung zum Verkäufer (m/w/d), Gropius Passagen
+                - generic [ref=f8e296]:
+                  - generic [ref=f8e297]: Johannisthaler Chaussee 317 12351 Berlin
+                  - generic [ref=f8e298]:
+                    - generic [ref=f8e299]: Vollzeit
+                    - generic [ref=f8e300]: 01.08.2027
+              - generic [ref=f8e301]: 
+        - listitem [ref=f8e303] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Kaufpark Eiche Ahrensfelde Landsberger Chaussee 17 16356 Ahrensfelde Vollzeit 01.08.2027 " [ref=f8e304]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38360/
+            - generic [ref=f8e305]:
+              - generic [ref=f8e306]:
+                - paragraph [ref=f8e308]: Ausbildung zum Verkäufer (m/w/d), Kaufpark Eiche Ahrensfelde
+                - generic [ref=f8e310]:
+                  - generic [ref=f8e311]: Landsberger Chaussee 17 16356 Ahrensfelde
+                  - generic [ref=f8e312]:
+                    - generic [ref=f8e313]: Vollzeit
+                    - generic [ref=f8e314]: 01.08.2027
+              - generic [ref=f8e315]: 
+        - listitem [ref=f8e317] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Oranienburg Friedensstraße 4 16515 Oranienburg Vollzeit 01.08.2027 " [ref=f8e318]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38361/
+            - generic [ref=f8e319]:
+              - generic [ref=f8e320]:
+                - paragraph [ref=f8e322]: Ausbildung zum Verkäufer (m/w/d), Oranienburg
+                - generic [ref=f8e324]:
+                  - generic [ref=f8e325]: Friedensstraße 4 16515 Oranienburg
+                  - generic [ref=f8e326]:
+                    - generic [ref=f8e327]: Vollzeit
+                    - generic [ref=f8e328]: 01.08.2027
+              - generic [ref=f8e329]: 
+        - listitem [ref=f8e331] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), A10 Center Wildau Chausseestraße 1 15745 Wildau Vollzeit 01.08.2027 " [ref=f8e332]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38362/
+            - generic [ref=f8e333]:
+              - generic [ref=f8e334]:
+                - paragraph [ref=f8e336]: Ausbildung zum Verkäufer (m/w/d), A10 Center Wildau
+                - generic [ref=f8e338]:
+                  - generic [ref=f8e339]: Chausseestraße 1 15745 Wildau
+                  - generic [ref=f8e340]:
+                    - generic [ref=f8e341]: Vollzeit
+                    - generic [ref=f8e342]: 01.08.2027
+              - generic [ref=f8e343]: 
+        - listitem [ref=f8e345] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Bad Oeynhausen Mindener Straße 22 32547 Bad Oeynhausen Vollzeit 01.11.2026 " [ref=f8e346]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38363/
+            - generic [ref=f8e347]:
+              - generic [ref=f8e348]:
+                - paragraph [ref=f8e350]: Ausbildung zum Verkäufer (m/w/d), Bad Oeynhausen
+                - generic [ref=f8e352]:
+                  - generic [ref=f8e353]: Mindener Straße 22 32547 Bad Oeynhausen
+                  - generic [ref=f8e354]:
+                    - generic [ref=f8e355]: Vollzeit
+                    - generic [ref=f8e356]: 01.11.2026
+              - generic [ref=f8e357]: 
+        - listitem [ref=f8e359] [cursor=pointer]:
+          - link "Ausbildung zum Kaufmann im Einzelhandel (m/w/d), Bad Oeynhausen Mindener Straße 22 32547 Bad Oeynhausen Vollzeit 01.11.2026 " [ref=f8e360]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38365/
+            - generic [ref=f8e361]:
+              - generic [ref=f8e362]:
+                - paragraph [ref=f8e364]: Ausbildung zum Kaufmann im Einzelhandel (m/w/d), Bad Oeynhausen
+                - generic [ref=f8e366]:
+                  - generic [ref=f8e367]: Mindener Straße 22 32547 Bad Oeynhausen
+                  - generic [ref=f8e368]:
+                    - generic [ref=f8e369]: Vollzeit
+                    - generic [ref=f8e370]: 01.11.2026
+              - generic [ref=f8e371]: 
+        - listitem [ref=f8e373] [cursor=pointer]:
+          - link "Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin Tauentzienstraße 14 10789 Berlin Vollzeit 01.10.2027 " [ref=f8e374]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38364/
+            - generic [ref=f8e375]:
+              - generic [ref=f8e376]:
+                - paragraph [ref=f8e378]: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin
+                - generic [ref=f8e380]:
+                  - generic [ref=f8e381]: Tauentzienstraße 14 10789 Berlin
+                  - generic [ref=f8e382]:
+                    - generic [ref=f8e383]: Vollzeit
+                    - generic [ref=f8e384]: 01.10.2027
+              - generic [ref=f8e385]: 
+        - listitem [ref=f8e387] [cursor=pointer]:
+          - link "Ausbildung zum Verkäufer (m/w/d), Gelsenkirchen-Buer Horster Straße 2 45897 Gelsenkirchen Vollzeit 01.11.2026 " [ref=f8e388]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38366/
+            - generic [ref=f8e389]:
+              - generic [ref=f8e390]:
+                - paragraph [ref=f8e392]: Ausbildung zum Verkäufer (m/w/d), Gelsenkirchen-Buer
+                - generic [ref=f8e394]:
+                  - generic [ref=f8e395]: Horster Straße 2 45897 Gelsenkirchen
+                  - generic [ref=f8e396]:
+                    - generic [ref=f8e397]: Vollzeit
+                    - generic [ref=f8e398]: 01.11.2026
+              - generic [ref=f8e399]: 
+        - listitem [ref=f8e401] [cursor=pointer]:
+          - link "Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin Schlossstraße 94 12163 Berlin Vollzeit 01.10.2027 " [ref=f8e402]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38367/
+            - generic [ref=f8e403]:
+              - generic [ref=f8e404]:
+                - paragraph [ref=f8e406]: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin
+                - generic [ref=f8e408]:
+                  - generic [ref=f8e409]: Schlossstraße 94 12163 Berlin
+                  - generic [ref=f8e410]:
+                    - generic [ref=f8e411]: Vollzeit
+                    - generic [ref=f8e412]: 01.10.2027
+              - generic [ref=f8e413]: 
+        - listitem [ref=f8e415] [cursor=pointer]:
+          - link "Ausbildung zum Kaufmann im Einzelhandel (m/w/d), Gelsenkirchen-Buer Horster Straße 2 45897 Gelsenkirchen Vollzeit 01.11.2026 " [ref=f8e416]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38368/
+            - generic [ref=f8e417]:
+              - generic [ref=f8e418]:
+                - paragraph [ref=f8e420]: Ausbildung zum Kaufmann im Einzelhandel (m/w/d), Gelsenkirchen-Buer
+                - generic [ref=f8e422]:
+                  - generic [ref=f8e423]: Horster Straße 2 45897 Gelsenkirchen
+                  - generic [ref=f8e424]:
+                    - generic [ref=f8e425]: Vollzeit
+                    - generic [ref=f8e426]: 01.11.2026
+              - generic [ref=f8e427]: 
+        - listitem [ref=f8e429] [cursor=pointer]:
+          - link "Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin Am Borsigturm 2 13507 Berlin Vollzeit 01.10.2027 " [ref=f8e430]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38369/
+            - generic [ref=f8e431]:
+              - generic [ref=f8e432]:
+                - paragraph [ref=f8e434]: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin
+                - generic [ref=f8e436]:
+                  - generic [ref=f8e437]: Am Borsigturm 2 13507 Berlin
+                  - generic [ref=f8e438]:
+                    - generic [ref=f8e439]: Vollzeit
+                    - generic [ref=f8e440]: 01.10.2027
+              - generic [ref=f8e441]: 
+        - listitem [ref=f8e443] [cursor=pointer]:
+          - link "Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin Wilmersdorfer Straße 50/51 10627 Berlin Vollzeit 01.10.2027 " [ref=f8e444]:
+            - /url: https://www.deichmann-karriere.de/jobs/2026-38370/
+            - generic [ref=f8e445]:
+              - generic [ref=f8e446]:
+                - paragraph [ref=f8e448]: Duales Studium B.A. (m/w/d), BWL - Handelsmanagement, Großraum Berlin
+                - generic [ref=f8e450]:
+                  - generic [ref=f8e451]: Wilmersdorfer Straße 50/51 10627 Berlin
+                  - generic [ref=f8e452]:
+                    - generic [ref=f8e453]: Vollzeit
+                    - generic [ref=f8e454]: 01.10.2027
+              - generic [ref=f8e455]: 
+      - generic [ref=f8e457]:
+        - generic:
+          - button "Vorherige Ergebnisse" [disabled]:
+            - generic [aria-hidden]: 
+          - button "Nächste Ergebnisse" [ref=f8e458] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f8e459]: 
+        - generic [ref=f8e460]: 1-20 von 2833
+    - complementary "Job Search Filters" [ref=f8e461]:
+      - link "Expand to filter by career level" [ref=f8e465] [cursor=pointer]:
+        - /url: "#collapseThree"
+        - generic [ref=f8e466]:
+          - generic [ref=f8e467]: Filtern nach Karrierelevel
+          - generic [aria-hidden] [ref=f8e468]: 
+      - link "Expand to filter by department" [ref=f8e472] [cursor=pointer]:
+        - /url: "#collapseFive"
+        - generic [ref=f8e473]:
+          - generic [ref=f8e474]: Filtern nach Bereich
+          - generic [aria-hidden] [ref=f8e475]: 
+      - link "Expand to filter by contract type" [ref=f8e479] [cursor=pointer]:
+        - /url: "#collapseSix"
+        - generic [ref=f8e480]:
+          - generic [ref=f8e481]: Filtern nach Vertragsart
+          - generic [aria-hidden] [ref=f8e482]: 
+  - contentinfo [ref=f8e483]:
+    - generic [ref=f8e486]:
+      - generic [ref=f8e487]:
+        - generic [ref=f8e488]: Einstieg im Verkauf
+        - list [ref=f8e489]:
+          - listitem [ref=f8e490]:
+            - link "Gehe zu Ausbildung im Verkauf" [ref=f8e491] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=f8e492]:
+            - link "Gehe zu Teilzeit, Minijob & Werkstudierende" [ref=f8e493] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=f8e494]:
+            - link "Gehe zu Filialführungsnachwuchs" [ref=f8e495] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=f8e496]:
+            - link "Gehe zu Duales Studium" [ref=f8e497] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=f8e498]:
+        - generic [ref=f8e499]: Einstieg in der Zentrale und Logistik
+        - list [ref=f8e500]:
+          - listitem [ref=f8e501]:
+            - link "Gehe zu Ausbildung in der Zentrale" [ref=f8e502] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=f8e503]:
+            - link "Gehe zu Ausbildung in der Logistik" [ref=f8e504] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=f8e505]:
+            - link "Gehe zu Duales Studium" [ref=f8e506] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=f8e507]:
+            - link "Gehe zu Einstieg für Studierende" [ref=f8e508] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=f8e509]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Zentrale)" [ref=f8e510] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=f8e511]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Logistik)" [ref=f8e512] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=f8e513]:
+        - generic [ref=f8e514]: Dein Weg zu Deichmann
+        - list [ref=f8e515]:
+          - listitem [ref=f8e516]:
+            - link "Gehe zu Deichmann als Arbeitgeber" [ref=f8e517] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=f8e518]:
+            - link "Gehe zu Schüler" [ref=f8e519] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=f8e520]:
+            - link "Gehe zu Studierende" [ref=f8e521] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=f8e522]:
+            - link "Gehe zu Direkteinstieg" [ref=f8e523] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=f8e526]:
+      - list [ref=f8e528]:
+        - listitem [ref=f8e529]:
+          - link "Gehe zu Kontakt" [ref=f8e530] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=f8e531]:
+          - link "Gehe zu Impressum" [ref=f8e532] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=f8e533]:
+          - link "Gehe zu Datenschutz" [ref=f8e534] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=f8e535]:
+          - link "Gehe zu Zum Shop" [ref=f8e536] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=f8e537]:
+          - link "Gehe zu Filialfinder" [ref=f8e538] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=f8e539]:
+          - link "Gehe zu Cookie-Einstellungen" [ref=f8e540] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=f8e543]:
+        - listitem [ref=f8e544]:
+          - link "Tiktok - wird in einem neuen Tab geöffnet" [ref=f8e612] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=f8e546]: 
+            - generic [ref=f8e547]: Tiktok
+        - listitem [ref=f8e548]:
+          - link "Instagram - wird in einem neuen Tab geöffnet" [ref=f8e613] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=f8e550]: 
+            - generic [ref=f8e551]: Instagram
+        - listitem [ref=f8e552]:
+          - link "Youtube - wird in einem neuen Tab geöffnet" [ref=f8e614] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=f8e554]: 
+            - generic [ref=f8e555]: Youtube
+        - listitem [ref=f8e556]:
+          - link "Linkedin - wird in einem neuen Tab geöffnet" [ref=f8e615] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=f8e558]: 
+            - generic [ref=f8e559]: Linkedin
+        - listitem [ref=f8e560]:
+          - link "Xing - wird in einem neuen Tab geöffnet" [ref=f8e616] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=f8e562]: 
+            - generic [ref=f8e563]: Xing
+  - text: 
+  - list [ref=f8e619]:
+    - listitem [ref=f8e620] [cursor=pointer]:
+      - generic [ref=f8e621]: (Senior) Product Owner Data Science (m/w/d)
+    - listitem [ref=f8e622] [cursor=pointer]:
+      - generic [ref=f8e623]: Senior Frontend Product Owner Omnichannel Platform (m/w/d)
+    - listitem [ref=f8e624] [cursor=pointer]:
+      - generic [ref=f8e625]: Senior Product Owner Mobile App (m/w/d)
+    - listitem [ref=f8e626] [cursor=pointer]:
+      - generic [ref=f8e627]: Product Owner Agentic AI (m/w/d)
+  - status [ref=f8e564]:
+    - generic [ref=f8e628]: 4 results are available, use up and down arrow keys to navigate.
+  - button "Gracie" [ref=f8e618] [cursor=pointer]

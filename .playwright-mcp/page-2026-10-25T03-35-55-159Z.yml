@@ -1,0 +1,324 @@
+- generic [active] [ref=f16e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f16e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f16e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f16e8]:
+    - search [ref=f16e9]:
+      - generic [ref=f16e11]:
+        - link "Go to Google Home" [ref=f16e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQPHoECAYQBA
+        - generic [ref=f16e22]:
+          - combobox "Search" [ref=f16e24]: Pro-Discount Import Export Hildesheim Senior E-Commerce Entwickler Karriere Pro-Discount Import Export Hildesheim Senior E-Commerce Entwickler Karriere
+          - generic [ref=f16e25]:
+            - button "Clear" [ref=f16e29] [cursor=pointer]
+            - generic [ref=f16e34]:
+              - button "Search by voice" [ref=f16e37] [cursor=pointer]
+              - button "Search by image" [ref=f16e42] [cursor=pointer]
+    - generic [ref=f16e45]:
+      - button "Settings" [ref=f16e47] [cursor=pointer]
+      - button "Share" [ref=f16e52] [cursor=pointer]
+      - generic [ref=f16e58]:
+        - button "Google apps" [ref=f16e60] [cursor=pointer]
+        - link "Sign in" [ref=f16e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DPro-Discount%2BImport%2BExport%2BHildesheim%2BSenior%2BE-Commerce%2BEntwickler%2BKarriere&ec=futura_srp_og_si_72236_p
+  - generic [ref=f16e67]:
+    - navigation [ref=f16e73]:
+      - generic [ref=f16e79]:
+        - list [ref=f16e80]:
+          - listitem [ref=f16e81]:
+            - link "AI Mode" [ref=f16e84] [cursor=pointer]:
+              - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ2J8OegQIERAD
+          - listitem [ref=f16e88]:
+            - link "All" [disabled] [ref=f16e89]
+          - listitem [ref=f16e92]:
+            - link "News" [ref=f16e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ0pQJegQIGBAB
+          - listitem [ref=f16e96]:
+            - link "Forums" [ref=f16e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQs6gLegQIFxAB
+          - listitem [ref=f16e100]:
+            - link "Shopping" [ref=f16e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&ved=1t:220175&ictx=111
+          - listitem [ref=f16e104]:
+            - link "Short videos" [ref=f16e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQs6gLegQIFRAB
+          - listitem [ref=f16e108]:
+            - link "Images" [ref=f16e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9W3FuUSf7WQHmiVN-8lwaF17XAhlTQDk21u9bKtVOxSeBMsEnNZZHOowarBQhkv7fAjkFZm03pEsUAunRefnQdRKfAZN5CVgFDtFEX47FiDO7vPOrzz8cMbQHJa0hUtEeyq5O1oioLStEBJUwdot-D1_nhCCg&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQtKgLegQIFhAB
+          - listitem [ref=f16e112]:
+            - button [ref=f16e113] [cursor=pointer]:
+              - generic "More filters" [ref=f16e114]: More
+        - button "Tools" [ref=f16e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f16e128]
+    - generic [ref=f16e133]:
+      - generic [ref=f16e152]:
+        - heading "Thinking" [level=2] [ref=f16e156]
+        - progressbar "Generating" [ref=f16e159]
+      - main [ref=f16e161]:
+        - generic [ref=f16e165]:
+          - generic [ref=f16e168]:
+            - heading "Webergebnisse" [level=2] [ref=f16e169]
+            - generic [ref=f16e170]:
+              - generic [ref=f16e173]:
+                - link "Senior E-Commerce Entwickler (m/w/d) www.stepstone.de https://www.stepstone.de › stellenan..." [ref=f16e175] [cursor=pointer]:
+                  - /url: /goto?url=CAESyAEB6zswFaXCHG9F4QY2Ccjaq4bsWwFq4RHbYzvm7R6I0bdWQZOVhFzGFLgYkW-KRLXawCyNOVFzetTbCUvimS__al3VERSgq82U6TJunbUj_TlGNahRrj646sJ1n9rf377SwvdqiK7FEcPtB__2KfqLH4woQXHP21QAv1bPjcTaP5-u-dF9AujVkhl0Htqz-BiPU4o5uqqkwvt3RnFUkT4inspBcmScZIFA60hXLYseZ0-JxtN0N0r6AksZdNsylVxpJ8YzoUwnjQ
+                  - heading "Senior E-Commerce Entwickler (m/w/d)" [level=3] [ref=f16e176]
+                  - generic [ref=f16e182]:
+                    - generic [ref=f16e183]: www.stepstone.de
+                    - generic [ref=f16e185]: https://www.stepstone.de › stellenan...
+                - generic [ref=f16e187]:
+                  - generic [ref=f16e188]: ·
+                  - link "Translate this page" [ref=f16e189] [cursor=pointer]:
+                    - /url: /goto?url=CAESkQIB6zswFWKn5oCZQag701de8gIf0COEcvRDFeHi4WTYQjXmOqFtKlhVk3GzX28HDr7sMmY94AWJ3B-bd_9TObhp3xTvJUx04W7qWe4SqRUCU-OrTfuvt5srtmaObBIDUHMZa33cmtKEO5xHdSQEr-GNjLCO8R-nHp-ZZbr4nlOgUMhOOAiO7GhJtMoeSiOamH9UyvCCSA71MGhjkmjbSJG4Jr4ofNv0wsFUi2V91kKucGFfLjxZLudYac8GPqMaviH8a7X0OocWt0qWVYuDsg0XCDdBrGIkZr_1XF0Re5jqGcEs7WDBDH213p2Bf4VLV9in-3EtOtXUP-1j45LYkyFgQ4V_wMKUMrM3NM7M4UJYSps
+                - button "About this result" [ref=f16e194] [cursor=pointer]
+              - generic [ref=f16e200]:
+                - generic [ref=f16e201]: 1 day ago —
+                - generic [ref=f16e202]:
+                  - text: Aktuelles Stellenangebot als
+                  - emphasis [ref=f16e203]: Senior E
+                  - text: "-"
+                  - emphasis [ref=f16e204]: Commerce Entwickler
+                  - text: (m/w/d) in
+                  - emphasis [ref=f16e205]: Hildesheim
+                  - text: bei der Firma
+                  - emphasis [ref=f16e206]: Pro
+                  - text: "-"
+                  - emphasis [ref=f16e207]: Discount Import Export
+                  - text: e.K..
+          - generic [ref=f16e211]:
+            - generic [ref=f16e214]:
+              - link "Senior E-Commerce Entwickler (m/w/d) | Jobsuche der BA Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f16e216] [cursor=pointer]:
+                - /url: /goto?url=CAESfgHrOzAV_GyzZyVeRcup-pf1TUtTz7gQA4wyC2H92eysGuqSJgHzIEG2C4Km8WfPmeL9ARBA-NHkuQ3gzZrl7D65c4og-NhID2b3Qqmr8m7rGOf9KWXStfeQmLziT_bHOliLz2ujIVXJXWbjpoQrFUcrqxogdc2efOd4A7TibQ
+                - heading "Senior E-Commerce Entwickler (m/w/d) | Jobsuche der BA" [level=3] [ref=f16e217]
+                - generic [ref=f16e223]:
+                  - generic [ref=f16e224]: Bundesagentur für Arbeit
+                  - generic [ref=f16e226]: https://www.arbeitsagentur.de › jo...
+              - generic [ref=f16e228]:
+                - generic [ref=f16e229]: ·
+                - link "Translate this page" [ref=f16e230] [cursor=pointer]:
+                  - /url: /goto?url=CAESyAEB6zswFf-E1-3S6LYh5jWLuRQObACLLSL8BKS0vaWyBat9TxyGjaThybJS7O5z1kYUXp-PdTk02hYmKGU5CJp2a3GopcuCgo9DzOGEoS3KpqvAWLMoQOkSMVb2tvqTN-7pTM7cxwcqQ4Z1H568qosgYDfqkjZmEgY6jSGbVvL4UhRWK_xXwbDph4d_iMkQYiKzquzhRj2MfoUvLgBr6H9o_Rw5uG9NvaXMFq7tyFrAPipWDzkDxYqlgEROYiP8O7r_rxoBxLVwNQ
+              - button "About this result" [ref=f16e235] [cursor=pointer]
+            - generic [ref=f16e242]:
+              - text: Stellenangebot für »
+              - emphasis [ref=f16e243]: Senior E-Commerce Entwickler (m/w/d
+              - text: ) bei Pro-Discount Import Export e.K. » in Hildesheim ✓ Vollzeit ✓ ab sofort ✓ » Jetzt bewerben!
+            - generic [ref=f16e245]:
+              - text: "Missing: Karriere ‎| Show results with:"
+              - link "Karriere" [ref=f16e246] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+%22Karriere%22&sa=X&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ5t4CegQIMhAB
+          - generic [ref=f16e250]:
+            - generic [ref=f16e253]:
+              - link "Senior E-Commerce Entwickler (m/w/d) in Hildesheim StudySmarter https://talents.studysmarter.de › seni..." [ref=f16e255] [cursor=pointer]:
+                - /url: /goto?url=CAESvAEB6zswFaN2S9mEsgYW2ptyhxcAf_46SbBCYFtout7Gf1pjkv3LQ8TNCE-3awUsHZ-neELL9NJHt0sxtxlG3DrSPyEeyD8USddeFrNJbe5fgIVCT-2F-WcrAw2Ot0y2DmA-VBubOnNDRknNesQjSPbpUK-Wlr9dCb0ltTM9O3tpCFNxe0ohf-3FsdtPmTe7uP56n5xk0X8oLfJmb3IxmJL2DSOxIq33SG3QAlEqe62A8J148AqwBXFgvM9onA
+                - heading "Senior E-Commerce Entwickler (m/w/d) in Hildesheim" [level=3] [ref=f16e256]
+                - generic [ref=f16e262]:
+                  - generic [ref=f16e263]: StudySmarter
+                  - generic [ref=f16e265]: https://talents.studysmarter.de › seni...
+              - generic [ref=f16e267]:
+                - generic [ref=f16e268]: ·
+                - link "Translate this page" [ref=f16e269] [cursor=pointer]:
+                  - /url: /goto?url=CAEShQIB6zswFel1wCMgvtvSMTl-pFUMw58m-pDKRnA_LBCRf_rEubhN6hInvE8tJaf9SaQRYqUB9zcxonUmoab0sWtNrGhzPlSMjPZ9HN2ud8KcIMnjJRYDPVLjisWDuJASWILVXwhNo2MmJGLHFj77RhBn-cGsitrB1DhP1WO4MjtIheEvZcF4tqshBTMTcM_pl-J2HwTop53Eylgl2LK7UtpKperzcfBUkqcelLTQLf3GrJ-nREYfWrTH_FKPC0SE3A211pI1bsNcrs2qRmnSMXl89JWJ0TSCyC3BY6dhTgmCcpG8t7RjgutKswE5z8CNZVmhMuaRmVdYneUHRonOUxl-pNZ23Zc
+              - button "About this result" [ref=f16e274] [cursor=pointer]
+            - generic [ref=f16e281]:
+              - text: 56700 - 69300 € / Jahr. Anstellung, 30 Urlaubstage, flexible Pausenzeiten und überdurchschnittlicher Verdienst.
+              - emphasis [ref=f16e282]: Karriere
+              - text: bei
+              - emphasis [ref=f16e283]: Pro
+              - text: "-"
+              - emphasis [ref=f16e284]: Discount Import Export
+              - text: e.K.
+          - generic [ref=f16e288]:
+            - generic [ref=f16e291]:
+              - link "Senior E-Commerce Entwickler (m/w/d) | Hildesheim JobLeads https://www.jobleads.com › job › senior-e-commerce-e..." [ref=f16e293] [cursor=pointer]:
+                - /url: /goto?url=CAESrAEB6zswFZho588JSu5iAKgt8d6OivXRSBYw_9dUjQm7PNCYg3yDSq5PP42lBjJ5VYH-af93adK6gXgNrUGOiDg06g9GWTkmCB_LD25cDtWNz-IpW53MbaEpRcGakz2EWk6UQYmv9F842WIA9nSY4uAzD2mWN3iM0y3KM0qNJazvw3mq8OO4rJJRIbrTSE0SxI1ycUeGQQj60MR5Y_2zbhcoS5P22Nm6cTiwlN8B
+                - heading "Senior E-Commerce Entwickler (m/w/d) | Hildesheim" [level=3] [ref=f16e294]
+                - generic [ref=f16e300]:
+                  - generic [ref=f16e301]: JobLeads
+                  - generic [ref=f16e303]: https://www.jobleads.com › job › senior-e-commerce-e...
+              - button "About this result" [ref=f16e309] [cursor=pointer]
+            - generic [ref=f16e315]:
+              - generic [ref=f16e316]: 3 days ago —
+              - generic [ref=f16e317]:
+                - emphasis [ref=f16e318]: Pro-Discount Import Export e.K. in Hildesheim sucht einen erfahrenen Senior-Entwickler
+                - text: ", der das produktiv betriebene B2B‑E‑Commerce-System ..."
+              - link "Read more" [ref=f16e319] [cursor=pointer]:
+                - /url: /goto?url=CAESvQIB6zswFY-p6tBzUonV0J_FM6XDH1GMhkaCTUd4FttL5ihvpJ7_2oG1Izlpf1QHkYMyny6RF3IHiYI9bEivGMcyZPAjY04vOi4xYcDgsdb36PsGPHHDxxJSZ6z4UAKQI5FR37nIld1KiKM9n1WmlXORjWrgkVc9RJr15ALgrsoXf1ZNzQQmCSxrLepbVcc2ZLEvSilZdh_RRt6SQA6NKk74w3FfMXdKd1stnKHUWyYXP6Fdg-2nP2AUf5RS4BG-aCsZckc0S-ZIiyFd-p5SGQUK9PfC20bpQI-wSN_WnoG1IVbL263Fn1YXngXYQEg_N_xhmm1ZYeKr213JkVdAfztxV1jw0-0EZ2ZVBbASoU6BlSDMe59YthjSBGQMWE5DRtZzz2O5skbYbAlfOYDkTMihE02ZmT577fE3MVkL2w
+          - generic [ref=f16e323]:
+            - generic [ref=f16e326]:
+              - link "Senior E-Commerce Entwickler Trabajo.org https://de.trabajo.org › ..." [ref=f16e328] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFabGJghvIFvl_OXqj_KT3NNaiUIgdJKU4UzeEuvyi4fuVX7heXbJnJBigpeAUY-GnM8dPNH402KoUobj-E0N1XCoT6rcV43W-44Uf65EBwS5kh2oyfMwd05URFTd3vKJV5elpOAgFnLHYdaFvrglgyzI1elPe6mWlZrPqeUqzSzztA
+                - heading "Senior E-Commerce Entwickler" [level=3] [ref=f16e329]
+                - generic [ref=f16e335]:
+                  - generic [ref=f16e336]: Trabajo.org
+                  - generic [ref=f16e338]: https://de.trabajo.org › ...
+              - generic [ref=f16e340]:
+                - generic [ref=f16e341]: ·
+                - link "Translate this page" [ref=f16e342] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFYsv1uQzDeazLOhceDFZnjvfAld_YeGEZLIq0tDxpyf1dqUG84KK0cNl3-LapKddkS-ip6euRoFkzlHd82SbOU9M6uXW5YFYM-BcexgnFhj1CokNG01jEXPn25vbKTDFQKpzpU3UfCwKzlgzlx_SHqRiXR3IbWCsttZn5Zp85c8wxJelDz4tFq23hS_IOoauCaIZqvtTeYbgbkzvKbrmCGIdLqvU1ppbMBDa9p4kV22rnS_FGf35Hc8DHCJWIh22kDudcpEScYmQxAYd
+              - button "About this result" [ref=f16e347] [cursor=pointer]
+            - generic [ref=f16e353]:
+              - generic [ref=f16e354]:
+                - emphasis [ref=f16e355]: Hildesheim
+                - text: (vor Ort) Vollzeit (38h) Ab sofort Du arbeitest als
+                - emphasis [ref=f16e356]: Senior
+                - text: "-"
+                - emphasis [ref=f16e357]: Entwickler
+                - text: an einem produktiv betriebenen B2B-
+                - emphasis [ref=f16e358]: E
+                - text: "-"
+                - emphasis [ref=f16e359]: Commerce
+                - text: "-System mit über 100.000 Artikeln, ..."
+              - link "Read more" [ref=f16e360] [cursor=pointer]:
+                - /url: /goto?url=CAES2wEB6zswFSnqWchUu0rZOYTJia8UWC80qBLAGtyKcgjhBnVCj6HXfOXUSCS9TcEDjjuymGYazyHOn3G5p5pgeBdKRdMAKO0JG3PdNL7u1zBVAhXoapCvPzgGB2E_KD2Rby8IWoINnuv1sreIou25ucLNBxi6JjgrHukYyjoH6okRM9QiEiyUArtUtrzLKQGkIDo7NIihDbYAliKjocCljbwHEn-mZ-ILw-zCPU19_n-NiRFg3OgxdvX2utZJeZdWnWDo-uG1gd1QjZcAcLCpmLisz3Xxid0URP4c2Ww
+          - generic [ref=f16e364]:
+            - generic [ref=f16e367]:
+              - link "Jobs, Stellenangebote als E-Commerce Manager, SEO ... Jobtensor https://jobtensor.com › E-Commerce-Manager-SEO-Co..." [ref=f16e369] [cursor=pointer]:
+                - /url: /goto?url=CAESjwEB6zswFXDFPC6ioeSRGS3lHwScZ6mR2d7d4BNLJNjJ0r0TWlz8izjEG0JAqMQsjtd-wQXdzOpizDX7pIhPnbM5JKEkCB32-SPiNZ6QmfWrwv5b2V2tRERncsD6mFOowJOPWNkRVqfHLD-n1HqR99mO8SRZpZhZMBRarrAFQMWkCK78rJ_LZmjdIcB-8lo89Q
+                - heading "Jobs, Stellenangebote als E-Commerce Manager, SEO ..." [level=3] [ref=f16e370]
+                - generic [ref=f16e376]:
+                  - generic [ref=f16e377]: Jobtensor
+                  - generic [ref=f16e379]: https://jobtensor.com › E-Commerce-Manager-SEO-Co...
+              - button "About this result" [ref=f16e385] [cursor=pointer]
+            - generic [ref=f16e392]:
+              - emphasis [ref=f16e393]: Senior E
+              - text: "-"
+              - emphasis [ref=f16e394]: Commerce Entwickler
+              - text: (m/w/d).
+              - emphasis [ref=f16e395]: Pro
+              - text: "-"
+              - emphasis [ref=f16e396]: Discount Import Export
+              - text: e.K..
+              - emphasis [ref=f16e397]: Hildesheim
+              - text: . - Routine im Arbeiten mit APIs; - Sicherer Umgang mit Git im Team sowie ein ...
+          - generic [ref=f16e401]:
+            - generic [ref=f16e404]:
+              - link "Performance Marketing & Digital Strategy Manager (m/f/d) Metaintro https://www.metaintro.com › Jobs" [ref=f16e406] [cursor=pointer]:
+                - /url: /goto?url=CAESvgEB6zswFT6JrqpvXqWK_j-pusUrZ3Chrwzq-5QLFqRQdSfjzmT1eUJ4evb8vu10NI1Varu8oqceXxzsqSR1sbsyn2gRm8NEaaoFVPNuE5SM6GmmWKMWHekhl4tebBimRi5YoPAcdchVjZf5LFZi5Sw4CvwppJi1ocnWzS1j277LpRJKi0LSm0SpwZBQ-GKSI90a8f4ht4pzhjnZi7GsXec6I9_v0q8RyOkVjo4hlwTxIUOgqRtG84zRxSZ2IrAX
+                - heading "Performance Marketing & Digital Strategy Manager (m/f/d)" [level=3] [ref=f16e407]
+                - generic [ref=f16e413]:
+                  - generic [ref=f16e414]: Metaintro
+                  - generic [ref=f16e416]: https://www.metaintro.com › Jobs
+              - button "About this result" [ref=f16e422] [cursor=pointer]
+            - generic [ref=f16e428]:
+              - generic [ref=f16e429]: 22 Sept 2026 —
+              - generic [ref=f16e430]:
+                - text: Performance Marketing & Digital Strategy Manager (m/f/d) at
+                - emphasis [ref=f16e431]: Pro
+                - text: "-"
+                - emphasis [ref=f16e432]: Discount Import Export
+                - text: e.K.. Ask Metaintro ApplyApply on employer site ...
+              - link "Read more" [ref=f16e433] [cursor=pointer]:
+                - /url: /goto?url=CAESmwIB6zswFXZ-aJIVXbhk0E9xGY3YbGpUzbDFdvKSWBPM4gecZ0IlRf1Kmzh-49PdLbhCj4UUcW9Cwzrz-uKfu4-wp0DwcVP7PoVJLwKnGSQ5WEzsPHD_1tzTz8outDglufIMzvYis39rbGEIncPfGpywhJtbQlQdPCyp4k0eYzPCDPdx1R5Q8rghOZPxH1ff7PDJGtU1SbwGBP3uHmiK7VxMJoo1PnZAdqyIdrL09LwxScd9DVDLuT6cs8nFXOrvdXgamQsZElefyCTjznSmft6Bx1R5kgO8jcBnFNiFX0mwyVoh7phRVNIXGRHiy54SpgMjgP1kh9o-1Q_kD2srAFPiQszNIYsnjJ69IpLZCWc3LOyh0t06TfH4268h
+          - generic [ref=f16e437]:
+            - generic [ref=f16e440]:
+              - link "Jobs für Senior PHP Backend Entwickler in Hildesheim Careerjet.de https://www.careerjet.de › Hildesh..." [ref=f16e442] [cursor=pointer]:
+                - /url: /goto?url=CAESjAEB6zswFdyWd1UMeykeM1pFH6QYs54EtOfTdKYX4hIfQ294OqA9ErM3Mp1CNzNvLsXSqR3lbfK181HnQ6Qx7rJAabZzFixSZpInv87r9JFZQNHL-QO9y0rtOCksCqZe87dsjexgp0WOUzMLZuZrjzOmjFb1zOM9K1ORlUXxpS5Zdc9VE0V7J2_IKeLUzQ
+                - heading "Jobs für Senior PHP Backend Entwickler in Hildesheim" [level=3] [ref=f16e443]
+                - generic [ref=f16e449]:
+                  - generic [ref=f16e450]: Careerjet.de
+                  - generic [ref=f16e452]: https://www.careerjet.de › Hildesh...
+              - generic [ref=f16e454]:
+                - generic [ref=f16e455]: ·
+                - link "Translate this page" [ref=f16e456] [cursor=pointer]:
+                  - /url: /goto?url=CAES1gEB6zswFbuToYotqvwzerQpI0KMxexV49kkw0wW8AhwUJ4zfjcNOuvZKimAQwSWKfl37gtwjihEF3CdPIDgB9s8K5widWLjxHoLOotkM94zP9uDMAU8qgIdttyxMQGxtOCJkUCSSyL4O6Wn-m-G_hHZEW_uh6uxKo6F7r1FE7TyG0gQR9kioyALcoBasUgSTVszqi3GS7JidzaCQz6dTpFfifMBtMPdoY-LhwpLMBHybNLw7z4dBsJUvCbyaRcSPF0-krX7qHwfl1hG0O7Av1oBoM8DNBzy
+              - button "About this result" [ref=f16e461] [cursor=pointer]
+            - generic [ref=f16e468]:
+              - emphasis [ref=f16e469]: Senior E
+              - text: "-"
+              - emphasis [ref=f16e470]: Commerce Entwickler
+              - text: (m/w/d).
+              - emphasis [ref=f16e471]: Pro
+              - text: "-"
+              - emphasis [ref=f16e472]: Discount Import Export
+              - text: e.K..
+              - emphasis [ref=f16e473]: Hildesheim
+              - text: ", Niedersachsen. Anspruchsvolle"
+              - emphasis [ref=f16e474]: E
+              - text: "-"
+              - emphasis [ref=f16e475]: Commerce
+              - text: "-Projekte mit echter Tiefe - vor ..."
+          - generic [ref=f16e479]:
+            - generic [ref=f16e482]:
+              - link "Pro-Discount Import Export e.K. StudySmarter https://talents.studysmarter.de › pro..." [ref=f16e484] [cursor=pointer]:
+                - /url: /goto?url=CAEShAEB6zswFZPOgUrpP5nPfxhfQqPoCDE04sCnj5G9hKCpRrSRhHm7kBbiAmIgZsFQewsJ1gBgzTn4kGwogMTs2Fo_BaTgQCZdj6iGSTaEeT1LLTbMjWga4l3vsMFp9wQdVB5gUA-SENd7kQp43iIew1zpBPceNDKn3n_2eu44S1xXKuZO2nA
+                - heading "Pro-Discount Import Export e.K." [level=3] [ref=f16e485]
+                - generic [ref=f16e491]:
+                  - generic [ref=f16e492]: StudySmarter
+                  - generic [ref=f16e494]: https://talents.studysmarter.de › pro...
+              - generic [ref=f16e496]:
+                - generic [ref=f16e497]: ·
+                - link "Translate this page" [ref=f16e498] [cursor=pointer]:
+                  - /url: /goto?url=CAESzgEB6zswFRyZSesdZdmzU-2V_vbi-1iZ212-j5wsIcu5wAzZ3Qb2LTTmlLrfjkhOEVSK_iTiPwW1qVWjaZkQuTgBhWU47Fonz8uJ0ObBTHFzXLQ7y4q0GrQeC_7_SR61bXub6BV0hsEPRXY0Ko2gGCuyrI99UEeH4kBLuHUPlCnC4QcXw1AuyK_DVjsNurnesTL0TBb0pZK_VcvVWCpeJliNceABtehjJxuqkEFRkDJ5ZeR-LVu2BzzNrCCov3XCtbHkkNALxdqXf-y5UcGc1g
+              - button "About this result" [ref=f16e503] [cursor=pointer]
+            - generic [ref=f16e509]:
+              - generic [ref=f16e510]:
+                - emphasis [ref=f16e511]: Senior E
+                - text: "-"
+                - emphasis [ref=f16e512]: Commerce Entwickler
+                - text: (m/w/d).
+                - emphasis [ref=f16e513]: Pro
+                - text: "-"
+                - emphasis [ref=f16e514]: Discount Import Export
+                - text: e.K..
+                - emphasis [ref=f16e515]: Hildesheim
+                - text: . Vollzeit. 63000.00 € / Jahr (geschätzt).
+              - link "Read more" [ref=f16e516] [cursor=pointer]:
+                - /url: /goto?url=CAES8wEB6zswFTnst54qQkieUCl2kEP2x6O1SqL2E3Wg6rBMzFR1RV57p6yVd7GVbB1iK_CW1g3RClOKt5mMHCSW0wdKwpHQbVpzDG6f739ZUe6nt0kF4qM7uGeUd3Sseig-aEAntRUbtMck2C4lyaLXWFEqZISir3bnjDF1o6ris4UaETtQZeUgQw-DPCjeqfdbQLjXvGMlf_7C0XADU7LIgXGU-ng_uLdyj3eSFLR6GBS2UauKdN7nO-pYKZW4WtStHXqEMRoi0oesCEqJTXJk9tbd5VXFg-Rxz1egGYVSJT-Mt3EolBjQyClQa3fgp3O4wY8wJoY
+        - navigation [ref=f16e519]:
+          - heading "Page navigation" [level=1] [ref=f16e520]
+          - text: "1"
+          - link "Page 2" [ref=f16e523] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=10&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=f16e525] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=20&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=f16e527] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=30&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=f16e529] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=40&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=f16e531] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=50&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=f16e533] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=60&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=f16e535] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=70&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=f16e537] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=80&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=f16e539] [cursor=pointer]:
+            - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=90&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8tMDegQINRAU
+            - text: "10"
+          - heading [level=2] [ref=f16e541]:
+            - link "Next" [ref=f16e542] [cursor=pointer]:
+              - /url: /search?q=Pro-Discount+Import+Export+Hildesheim+Senior+E-Commerce+Entwickler+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntZ988iSQmJXhltrQL_onSMfIevRQ:1792899353748&ei=GXndav2hLb-VseMPp9GG0Aw&start=10&sa=N&sstk=AS6-VmL1ba_LdKflnoIMouptcMFXNV9yykATjUypWvMHBuKw0yDXvCWPw04aiRLZ7-1LXidh8Rjp0RaTgz-IQCaICtuDzqvKmBu_pg&ved=2ahUKEwi9kuTIntSXAxW_SmwGHaeoAcoQ8NMDegQINRAW
+        - navigation
+    - contentinfo [ref=f16e545]:
+      - heading "Footer links" [level=1] [ref=f16e546]
+      - generic [ref=f16e550]:
+        - generic [ref=f16e552]:
+          - text: India
+          - generic [ref=f16e554]:
+            - button "Konappana Agrahara, Karnataka - Based on your past activity" [ref=f16e556] [cursor=pointer]:
+              - generic [ref=f16e557]: Konappana Agrahara, Karnataka
+              - generic [ref=f16e559]:
+                - text: "-"
+                - generic [ref=f16e560]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f16e562] [cursor=pointer]
+        - generic [ref=f16e565]:
+          - link "Help" [ref=f16e566] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f16e567] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f16e568] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f16e569] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,30 @@
+[     889ms] [LOG] trustArcServerName: cgi.njoyn.com @ https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4:42
+[     933ms] [WARNING] Allow attribute will take precedence over 'allowfullscreen'. @ https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4:970
+[    3505ms] [WARNING] com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.
+
+Before generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3506ms] [WARNING] com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.
+
+Before generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3530ms] [WARNING] com.microsoft.playready.recommendation: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.
+
+Before generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    3530ms] [WARNING] com.microsoft.playready.recommendation.3000: Internal testing is highly recommended prior to enabling PlayReady playback on Windows. Failure to do so may cause application instability or playback errors.
+
+Before generating a request, setServerCertificate() must be called with a valid server certificate. Otherwise, generateRequest() could fail. @ https://embed-cdn.spotifycdn.com/_next/static/chunks/5039.a54f1bd47316601a.js:0
+[    4964ms] [LOG] trustArcServerName: clients.njoyn.com @ https://clients.njoyn.com/corp/xweb/xweb.asp?NTKN=c&page=login&BRID=1340166&jobid=J1026-0889:50
+[    5021ms] TypeError: NewEmailvalidation.showErrorMessage is not a function
+    at https://clients.njoyn.com/corp/xweb/xweb.asp?NTKN=c&page=login&BRID=1340166&jobid=J1026-0889:774:22
+[    6141ms] Uncaught (in promise) InvalidStateError: Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts.
+    at getInstalledApps (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:291899)
+    at <anonymous> (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:322166)
+[    6483ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.linkedin.com/li/track:0
+[    9987ms] [LOG] trustArcServerName: clients.njoyn.com @ https://clients.njoyn.com/corp/xweb/xweb.asp?NTKN=c&page=login&BRID=1340166&jobid=J1026-0889:50
+[   10016ms] TypeError: NewEmailvalidation.showErrorMessage is not a function
+    at https://clients.njoyn.com/corp/xweb/xweb.asp?NTKN=c&page=login&BRID=1340166&jobid=J1026-0889:774:22
+[   11023ms] Uncaught (in promise) InvalidStateError: Failed to execute 'getInstalledRelatedApps' on 'Navigator': getInstalledRelatedApps() is only supported in top-level browsing contexts.
+    at getInstalledApps (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:291899)
+    at <anonymous> (https://static.licdn.com/aero-v1/sc/h/dtrv9swzghlxpyzfyk2gsgbur:0:322166)
+[   11375ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://www.linkedin.com/li/track:0
+[   91341ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://www.linkedin.com/li/track:0
+[  121391ms] [ERROR] Failed to load resource: the server responded with a status of 520 () @ https://www.linkedin.com/li/track:0

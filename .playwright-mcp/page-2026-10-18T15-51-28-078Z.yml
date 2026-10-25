@@ -1,0 +1,19 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e27]:
+    - banner [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - img "Gauder GmbH" [ref=f1e31]
+        - generic [ref=f1e32]:
+          - link [ref=f1e33] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder
+            - paragraph [ref=f1e34]: Gauder GmbH
+          - link [ref=f1e35] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder/16228389
+            - paragraph [ref=f1e36]: Business Analyst E-Commerce - Fluent German & English (m/f/d)
+    - generic [ref=f1e38]:
+      - generic [ref=f1e44]:
+        - paragraph [ref=f1e45]: We've sent you a secure login link
+        - heading "Check your email" [level=2] [ref=f1e46]
+      - button "Resend link" [disabled] [ref=f1e47]
+  - alert [ref=f1e26]
+  - region "Notifications, bottom-end (alt+T)"

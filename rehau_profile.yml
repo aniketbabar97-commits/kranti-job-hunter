@@ -1,0 +1,191 @@
+- generic [active] [ref=f29e1]:
+  - generic:
+    - alert
+    - alert
+  - generic [ref=f29e3]:
+    - generic [ref=f29e4]:
+      - banner [ref=f29e5]:
+        - generic:
+          - link "Zum Hauptinhalt":
+            - /url: "#skipContent"
+        - navigation "Header Menü" [ref=f29e9]:
+          - link [ref=f29e10] [cursor=pointer]:
+            - /url: https://www.rehau.com/de-de
+          - list [ref=f29e12]:
+            - listitem [ref=f29e13]:
+              - link "Startseite" [ref=f29e14] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/
+            - listitem [ref=f29e15]:
+              - link "Stellenmarkt" [ref=f29e16] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/search/?searchby=location&q=&locationsearch=&geolocation=
+            - listitem [ref=f29e17]:
+              - link "Karriereseite" [ref=f29e18] [cursor=pointer]:
+                - /url: https://www.rehau.com/de-de/karriere
+            - listitem [ref=f29e19]:
+              - link "FAQ" [ref=f29e20] [cursor=pointer]:
+                - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+      - main [ref=f29e23]:
+        - generic [ref=f29e24]:
+          - region "Zum Hauptinhalt"
+          - region "Stellenbewerbungsformular" [ref=f29e27]:
+            - list [ref=f29e28]:
+              - listitem [ref=f29e29]:
+                - link "Abmelden" [ref=f29e30] [cursor=pointer]:
+                  - /url: javascript:logoutUrl('/portalcareer?company=rehauagco&site=&lang=de_DE&login_ns=logout&loginFlowRequired=true&_s.crb=B3BUbw9Qu1NyTnpfNMS5U5rPzKbhi0%252bNBbkMfFwx72Q%253d&showLogOutMsg=true&brandUrl=default','https://www.rehau.jobs/services/security/logoutp?callback=callback&locale=de_DE');
+              - listitem [ref=f29e31]:
+                - button "Optionen" [ref=f29e33] [cursor=pointer]:
+                  - text: Optionen
+                  - button ""
+              - listitem [ref=f29e34]:
+                - combobox "Sprache" [ref=f29e35] [cursor=pointer]:
+                  - text: Deutsch ‎(German)‎
+                  - button ""
+            - heading "Application Consultant SAP Commerce (m/w/d) (20265)" [level=1] [ref=f29e37]
+            - note [ref=f29e39]:
+              - paragraph [ref=f29e40]: Wir freuen uns sehr über dein Interesse an einer Karriere bei der REHAU Group.
+              - paragraph [ref=f29e41]
+              - paragraph [ref=f29e42]: In deinem Profil hast du die Möglichkeit wichtige Details zu deiner Person anzugeben. Bitte fülle die Pflichtfelder aus und lade deinen Lebenslauf hoch. Das Ausfüllen aller weiteren Felder ist optional, könnte aber die Wahrscheinlichkeit erhöhen, dass du für eine offene Stelle berücksichtigt wirst.
+              - paragraph [ref=f29e43]
+              - paragraph [ref=f29e44]: Unter dem Menü-Punkt „Stellenbewerbungen“ kannst du deine Bewerbung jederzeit zurückzuziehen. Falls du dein Profil löschen möchtest, findest du dies unter dem Punkt „Optionen“ und „Einstellungen“.
+              - paragraph [ref=f29e45]
+              - paragraph [ref=f29e46]: Dein Recruiting Team der REHAU Group
+            - generic [ref=f29e47]:
+              - button "Alle Abschnitte einblenden" [ref=f29e48] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f29e49]: +
+                - text: Alle Abschnitte einblenden
+              - button "Alle Abschnitte ausblenden" [ref=f29e50] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f29e51]: −
+                - text: Alle Abschnitte ausblenden
+            - alert
+            - generic [ref=f29e53]:
+              - heading "Meine Dokumente" [level=2]:
+                - button "Meine Dokumente" [expanded] [ref=f29e54] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e55]: 
+                  - text: Meine Dokumente  
+              - group "Meine Dokumente" [ref=f29e57]:
+                - generic [ref=f29e58]: "Zulässige Dateiformate: DOCX, PDF, Bild und Text (Dateiformate MSG, PPT und XLS sind für Lebensläufe oder Anschreiben nicht zulässig)"
+                - generic [ref=f29e61]:
+                  - generic [ref=f29e62]:
+                    - generic [ref=f29e64]:
+                      - generic [ref=f29e65]:
+                        - generic [aria-hidden] [ref=f29e66]: "*"
+                        - text: Lebenslauf
+                      - generic [ref=f29e70] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Lebenslauf hochladen Erforderlich" [ref=f29e71]
+                        - generic [ref=f29e72]: Lebenslauf hochladen
+                        - generic [ref=f29e73]:
+                          - button "Lebenslauf Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f29e74]: 
+                          - tooltip "Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f29e75]
+                    - generic [ref=f29e78]:
+                      - text: Motivationsschreiben
+                      - generic [ref=f29e82] [cursor=pointer]:
+                        - text: 
+                        - tooltip "Anschreiben anhängen" [ref=f29e83]
+                        - generic [ref=f29e84]: Anschreiben anhängen
+                        - generic [ref=f29e85]:
+                          - button "Motivationsschreiben Anschreiben anhängen Öffnet ein Dialogfeld" [ref=f29e86]: 
+                          - tooltip "Anschreiben anhängen Öffnet ein Dialogfeld" [ref=f29e87]
+                  - generic [ref=f29e90]:
+                    - text: Weitere Anlagen
+                    - generic [ref=f29e94] [cursor=pointer]:
+                      - text: 
+                      - tooltip "Dokument hinzufügen" [ref=f29e95]
+                      - generic [ref=f29e96]: Dokument hinzufügen
+                      - generic [ref=f29e97]:
+                        - button "Weitere Anlagen Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f29e98]: 
+                        - tooltip "Dokument hinzufügen Öffnet ein Dialogfeld" [ref=f29e99]
+            - generic [ref=f29e102]:
+              - heading "Profilinformationen" [level=2]:
+                - button "Profilinformationen" [ref=f29e103] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e104]: 
+                  - text: Profilinformationen  
+            - generic [ref=f29e106]:
+              - heading "Vorherige Berufserfahrung" [level=2]:
+                - button "Vorherige Berufserfahrung" [ref=f29e107] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e108]: 
+                  - text: Vorherige Berufserfahrung  
+            - generic [ref=f29e110]:
+              - heading "Bildungsabschlüsse" [level=2]:
+                - button "Bildungsabschlüsse" [ref=f29e111] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e112]: 
+                  - text: Bildungsabschlüsse  
+            - generic [ref=f29e114]:
+              - heading "Sonstige Abschlüsse" [level=2]:
+                - button "Sonstige Abschlüsse" [ref=f29e115] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e116]: 
+                  - text: Sonstige Abschlüsse  
+            - generic [ref=f29e118]:
+              - heading "Zertifikate" [level=2]:
+                - button "Zertifikate" [ref=f29e119] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e120]: 
+                  - text: Zertifikate  
+            - generic [ref=f29e122]:
+              - heading "IT-Kenntnisse" [level=2]:
+                - button "IT-Kenntnisse" [ref=f29e123] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e124]: 
+                  - text: IT-Kenntnisse  
+            - generic [ref=f29e126]:
+              - heading "Sprachkenntnisse" [level=2]:
+                - button "Sprachkenntnisse" [ref=f29e127] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e128]: 
+                  - text: Sprachkenntnisse  
+            - generic [ref=f29e130]:
+              - heading "Mobilität" [level=2]:
+                - button "Mobilität" [ref=f29e131] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e132]: 
+                  - text: Mobilität  
+            - generic [ref=f29e134]:
+              - heading "Stellenspezifische Informationen" [level=2]:
+                - button "Stellenspezifische Informationen" [ref=f29e135] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f29e136]: 
+                  - text: Stellenspezifische Informationen  
+              - text: 
+            - note
+            - generic:
+              - generic:
+                - generic:
+                  - button "Profil anzeigen" [ref=f29e138] [cursor=pointer]
+                  - generic [ref=f29e139]:
+                    - button "Speichern" [ref=f29e140] [cursor=pointer]
+                    - button "Bewerben" [ref=f29e141] [cursor=pointer]
+    - contentinfo [ref=f29e142]:
+      - generic [ref=f29e145]:
+        - list [ref=f29e146]:
+          - listitem [ref=f29e147]:
+            - button "Manager für Cookie-Einwilligungen" [ref=f29e148] [cursor=pointer]
+          - listitem [ref=f29e149]:
+            - link "FAQ" [ref=f29e150] [cursor=pointer]:
+              - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+          - listitem [ref=f29e151]:
+            - link "Impressum" [ref=f29e152] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+          - listitem [ref=f29e153]:
+            - link "Datenschutz" [ref=f29e154] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+        - list [ref=f29e156]:
+          - listitem [ref=f29e157]:
+            - link "Folgen Sie uns auf X" [ref=f29e158] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+              - generic [ref=f29e159]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e162]:
+            - link "Finden Sie uns auf Xing" [ref=f29e163] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/rehau-group
+              - generic [ref=f29e164]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e167]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=f29e168] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+              - generic [ref=f29e169]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e172]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=f29e173] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/rehautv
+              - generic [ref=f29e174]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e177]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f29e178] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rehau/
+              - generic [ref=f29e179]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f29e182]:
+            - link "Folgen Sie uns auf Instagram" [ref=f29e183] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland/
+              - generic [ref=f29e184]: Wird auf einer neuen Registerkarte geöffnet.
+    - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein

@@ -1,0 +1,67 @@
+- generic [ref=f17e4]:
+  - link "Zum Hauptinhalt springen" [ref=f17e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f17e8]:
+    - generic [ref=f17e10]:
+      - link [ref=f17e13] [cursor=pointer]:
+        - /url: https://www.cgm.com/corp_en
+        - img "Karriere - Home" [ref=f17e14]
+      - heading "CGM Career" [level=1] [ref=f17e16]
+      - generic [ref=f17e18]:
+        - generic [ref=f17e19]:
+          - button "Deutsch (‏Deutschland)" [ref=f17e21] [cursor=pointer]
+          - button "Anmelden" [ref=f17e27] [cursor=pointer]
+        - navigation [ref=f17e33]:
+          - button "Homepage" [ref=f17e34] [cursor=pointer]
+          - button "Stellen suchen" [ref=f17e35] [cursor=pointer]
+          - button "Initiativbewerbung" [ref=f17e36] [cursor=pointer]
+  - main [ref=f17e71]:
+    - generic [ref=f17e72]:
+      - generic [ref=f17e73]:
+        - link "Zurück zur Stellenausschreibung" [ref=f17e75] [cursor=pointer]
+        - heading "Product Owner – SAP Commerce Cloud (m/w/d)" [level=2] [ref=f17e80]
+      - generic "Application Progress" [ref=f17e81]:
+        - list [ref=f17e82]:
+          - listitem [ref=f17e83]:
+            - generic: completed step 1 of 6
+            - generic [ref=f17e89]: Meine Daten
+          - listitem [ref=f17e90]:
+            - generic: completed step 2 of 6
+            - generic [ref=f17e96]: Meine Erfahrung
+          - listitem [ref=f17e97]:
+            - generic: completed step 3 of 6
+            - generic [ref=f17e103]: Bewerbungsfragen 1 von 2
+          - listitem [ref=f17e104]:
+            - generic: current step 4 of 6
+            - generic [ref=f17e110]: Bewerbungsfragen 2 von 2
+          - listitem [ref=f17e111]:
+            - generic: step 5 of 6
+            - generic [ref=f17e117]: Freiwillige Angaben
+          - listitem [ref=f17e118]:
+            - generic: step 6 of 6
+            - generic [ref=f17e124]: Prüfen
+      - generic [ref=f17e125]:
+        - generic [ref=f17e126]:
+          - heading "Bewerbungsfragen 2 von 2" [level=3] [ref=f17e1400]
+          - generic [ref=f17e128]: "* Erforderliches Feld"
+          - group [ref=f17e1401]:
+            - generic [ref=f17e1402]:
+              - group [ref=f17e1404]:
+                - paragraph [ref=f17e1408]: Was ist Dein jährlicher Gehaltswunsch für diese Stelle?*
+                - textbox [ref=f17e1411]: 60.000 € brutto/Jahr (verhandelbar)
+              - group [ref=f17e1413]:
+                - paragraph [ref=f17e1417]: Wie lange ist Deine aktuelle Kündigungsfrist?*
+                - textbox [ref=f17e1420]: Ich befinde mich in der Kündigungsfrist; mein letzter Arbeitstag ist der 15.12.2026, frühester Start 16.12.2026.
+              - group [ref=f17e1422]:
+                - paragraph [ref=f17e1426]: Bist Du bereit, an einem in der Stellenbeschreibung genannten CGM-Standort umzuziehen?*
+                - button "Ja Erforderlich" [ref=f17e1450]: Ja
+              - group [ref=f17e1432]:
+                - paragraph [ref=f17e1436]: Benötigst Du eine Arbeitserlaubnis für das Land, in dem die Stelle ausgeschrieben ist?*
+                - button "Nein Erforderlich" [active] [ref=f17e1460]: Nein
+        - generic [ref=f17e212]:
+          - button "Zurück" [ref=f17e1031] [cursor=pointer]
+          - button "Weiter" [ref=f17e215] [cursor=pointer]
+  - generic [ref=f17e42]:
+    - link "CGM Datenschutzerklärung" [ref=f17e44] [cursor=pointer]:
+      - /url: https://www.cgm.com/corp_en/career/data-protection-declaration-cgm-applicant-portal-wd.html
+    - generic [ref=f17e45]: © 2026 Workday, Inc. Alle Rechte vorbehalten.

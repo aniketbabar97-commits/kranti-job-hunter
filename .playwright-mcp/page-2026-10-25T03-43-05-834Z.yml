@@ -1,0 +1,53 @@
+- generic [ref=f133e1]:
+  - generic [ref=f133e4]:
+    - generic [ref=f133e5]:
+      - banner [ref=f133e7]:
+        - link [ref=f133e227] [cursor=pointer]:
+          - /url: /
+      - main [ref=f133e10]:
+        - generic [ref=f133e302]:
+          - generic [ref=f133e303]:
+            - heading [level=1] [ref=f133e304]: Aktuelle Stellenangebote
+            - heading [level=2] [ref=f133e305]: Severin Elektrogeräte GmbH
+          - generic [ref=f133e308]:
+            - generic [ref=f133e309]:
+              - generic [ref=f133e310] [cursor=pointer]: "Jobtitel:"
+              - textbox [ref=f133e311]:
+                - /placeholder: Nach einem Jobtitel suchen
+            - generic [ref=f133e312]:
+              - generic [ref=f133e313] [cursor=pointer]: "Jobtyp:"
+              - combobox [ref=f133e314]
+            - button [ref=f133e316] [cursor=pointer]: Stellenangebote suchen
+            - generic [ref=f133e317]:
+              - generic [ref=f133e318] [cursor=pointer]: "Standort:"
+              - combobox [ref=f133e319]
+          - generic [ref=f133e320]: Einen Moment bitte
+      - contentinfo [ref=f133e101]:
+        - generic [ref=f133e104]:
+          - generic [ref=f133e105]: 2026-10-07 15:38
+          - generic [ref=f133e106]:
+            - text: Powered by
+            - link [ref=f133e284] [cursor=pointer]:
+              - /url: https://www.talentstorm-bewerbermanagement.de
+              - text: talentstorm
+          - generic [ref=f133e108]:
+            - link [ref=f133e285] [cursor=pointer]:
+              - /url: https://severin.com/de-de/impressum/
+              - text: Impressum
+            - text: "|"
+            - link [ref=f133e286] [cursor=pointer]:
+              - /url: https://severin.com/de-de/datenschutzerklarung/
+              - text: Datenschutz
+    - generic [ref=f133e328]: Einen Moment bitte
+  - dialog [ref=f133e337]:
+    - document:
+      - generic [ref=f133e339]:
+        - generic [ref=f133e340]:
+          - heading "Die Bewerbung wurde übermittelt" [level=4] [ref=f133e341]
+          - button "×" [active] [ref=f133e342] [cursor=pointer]
+        - generic [ref=f133e344]:
+          - paragraph [ref=f133e345]: Du erhälst 2 E-Mails von uns.
+          - paragraph [ref=f133e346]: Eine Bestätigungsmail und eine E-Mail zum Festlegen eines Passworts.
+          - paragraph [ref=f133e347]: Mit Hilfe des Passworts kannst du mit uns sicher kommunizieren.
+          - paragraph [ref=f133e348]: Falls keine E-Mail eintrifft, schaue bitte in deinem Spam- oder Junkordner oder melde dich bei uns.
+        - button "OK" [ref=f133e350] [cursor=pointer]

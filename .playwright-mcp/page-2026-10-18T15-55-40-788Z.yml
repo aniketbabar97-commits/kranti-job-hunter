@@ -1,0 +1,345 @@
+- generic [ref=e2]:
+  - banner:
+    - generic [ref=e3]:
+      - dialog "Suche":
+        - generic:
+          - generic:
+            - generic:
+              - generic: Suchfeld
+              - searchbox "Suchfeld"
+            - button "Suchen"
+      - generic [ref=e5]:
+        - link "Zur Startseite" [ref=e6] [cursor=pointer]:
+          - /url: https://karriere.lekkerland.de
+          - img "Lekkerland - Karriere Logo" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Jobs" [ref=e10] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/jobs/
+            - search [ref=e11]:
+              - button "Suche umschalten" [ref=e12] [cursor=pointer]
+          - generic [ref=e15]:
+            - button "Menü umschalten" [ref=e16] [cursor=pointer]
+            - generic:
+              - generic:
+                - generic:
+                  - navigation "Header":
+                    - list "Header":
+                      - listitem:
+                        - button "Wir als Arbeitgeber"
+                        - generic "Wir als Arbeitgeber":
+                          - list "Wir als Arbeitgeber":
+                            - listitem:
+                              - link "Über uns":
+                                - /url: https://karriere.lekkerland.de/ueber-uns/
+                            - listitem:
+                              - link "Standorte":
+                                - /url: https://karriere.lekkerland.de/standorte/
+                            - listitem:
+                              - link "Weiterkommen mit Lekkerland":
+                                - /url: https://karriere.lekkerland.de/weiterkommen/
+                      - listitem:
+                        - button "Tätigkeitsbereiche"
+                        - generic "Tätigkeitsbereiche":
+                          - list "Tätigkeitsbereiche":
+                            - listitem:
+                              - link "Übersicht der Bereiche":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/
+                            - listitem:
+                              - link "Vertrieb":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/vertrieb/
+                            - listitem:
+                              - link "Kaufmännische Bereiche":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/kaufmaennische-bereiche/
+                            - listitem:
+                              - link "IT & E-Commerce":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/it-digital/
+                            - listitem:
+                              - link "Category Management":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/category-management/
+                            - listitem:
+                              - link "Business Development":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/business-development/
+                            - listitem:
+                              - link "Logistik & Supply-Chain-Management":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/logistik-supply-chain-management/
+                            - listitem:
+                              - link "Logistik":
+                                - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-logistik/
+                              - list "Logistik":
+                                - listitem:
+                                  - link "Lust auf Logistik":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-logistik/
+                                - listitem:
+                                  - link "Lust auf Lager":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-lager/
+                                - listitem:
+                                  - link "Lust auf Laster":
+                                    - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/lust-auf-laster/
+                      - listitem:
+                        - button "Dein Einstieg"
+                        - generic "Dein Einstieg":
+                          - list "Dein Einstieg":
+                            - listitem:
+                              - link "Schüler:innen":
+                                - /url: https://karriere.lekkerland.de/schuelerinnen/
+                            - listitem:
+                              - link "Studierende":
+                                - /url: https://karriere.lekkerland.de/studierende/
+                            - listitem:
+                              - link "Berufseinsteigende":
+                                - /url: https://karriere.lekkerland.de/berufseinsteigende/
+                            - listitem:
+                              - link "Berufserfahrene":
+                                - /url: https://karriere.lekkerland.de/berufserfahrene/
+                      - listitem:
+                        - link "Rund um die Bewerbung":
+                          - /url: https://karriere.lekkerland.de/bewerbung/
+                      - listitem:
+                        - link "Kontakt":
+                          - /url: https://karriere.lekkerland.de/kontakt/
+              - generic:
+                - generic:
+                  - link "Jobs":
+                    - /url: https://karriere.lekkerland.de/jobs/
+                  - search:
+                    - button "Suche umschalten"
+                - link "Favoriten":
+                  - /url: https://karriere.lekkerland.de/jobs/favoriten/#favoriten
+                - link "Log-in":
+                  - /url: https://lekkerland-career.onlyfy.jobs/login
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - heading [level=1] [ref=e23]:
+          - strong [ref=e24]: Ergreife deine Chance!
+        - paragraph [ref=e25]: Wir sind eine Mitmach-Firma. Hier findest du deinen perfekten Einstieg.
+      - figure [ref=e29]:
+        - img "Flagge mit Lekkerland Logo" [ref=e30]
+    - generic [ref=e32]:
+      - generic [ref=e33] [cursor=pointer]: Breadcrumb-Navigation
+      - navigation "Breadcrumb-Navigation" [ref=e34]:
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "Home" [ref=e37] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/
+          - listitem [ref=e38]:
+            - link "Jobs" [ref=e42] [cursor=pointer]:
+              - /url: https://karriere.lekkerland.de/jobs/
+    - generic [ref=e44]:
+      - heading [level=2] [ref=e46]:
+        - strong [ref=e47]: Eine Welt voller Möglichkeiten und Gelegenheiten
+      - search "Jobs filtern" [ref=e48]:
+        - generic [ref=e49]:
+          - generic: Nach Titel suchen
+          - combobox "Nach Titel suchen" [ref=e53]
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57] [cursor=pointer]: Großraum
+              - listbox "Großraum" [ref=e58] [cursor=pointer]:
+                - option "Köln" [ref=e59]
+                - option "Vertriebsgebiet" [ref=e60]
+                - option "Teltow-Fläming" [ref=e61]
+                - option "Hannover" [ref=e62]
+                - option "Mannheim" [ref=e63]
+                - option "Erlangen" [ref=e64]
+                - option "Hamburg" [ref=e65]
+                - option "Schwäbisch Gmünd" [ref=e66]
+                - option "Freising" [ref=e67]
+                - option "Leverkusen" [ref=e68]
+                - option "Leipzig" [ref=e69]
+                - option "Oberhausen" [ref=e70]
+                - option "Region Ost" [ref=e71]
+                - option "Region Süd-Ost" [ref=e72]
+                - option "Limburg an der Lahn" [ref=e73]
+            - generic [ref=e74]:
+              - generic [ref=e75] [cursor=pointer]: Standort
+              - listbox "Standort" [ref=e76] [cursor=pointer]:
+                - option "Frechen" [ref=e77]
+                - option "Höchstadt" [ref=e78]
+                - option "Großbeeren" [ref=e79]
+                - option "Wedemark" [ref=e80]
+                - option "Bobenheim-Roxheim" [ref=e81]
+                - option "Ulm" [ref=e82]
+                - option "Braak" [ref=e83]
+                - option "Mögglingen" [ref=e84]
+                - option "Kerpen" [ref=e85]
+                - option "Weingarten" [ref=e86]
+                - option "Regensburg" [ref=e87]
+                - option "Koblenz" [ref=e88]
+                - option "Allershausen" [ref=e89]
+                - option "Leverkusen" [ref=e90]
+                - option "Frankfurt am Main" [ref=e91]
+                - option "Münster" [ref=e92]
+                - option "Bucha" [ref=e93]
+                - option "Oberhausen" [ref=e94]
+                - option "Berlin" [ref=e95]
+                - option "Hannover" [ref=e96]
+                - option "Elz" [ref=e97]
+                - option "Kaiserslautern" [ref=e98]
+                - option "Köln" [ref=e99]
+                - option "Ravensburg" [ref=e100]
+            - generic [ref=e101]:
+              - generic [ref=e102] [cursor=pointer]: Bereich
+              - listbox "Bereich" [ref=e103] [cursor=pointer]:
+                - option "Transport / Fuhrpark" [ref=e104]
+                - option "Vertrieb" [ref=e105]
+                - option "Einkauf / Category Management" [ref=e106]
+                - option "E-Commerce" [ref=e107]
+                - option "Lagerlogistik" [ref=e108]
+                - option "Merchandising" [ref=e109]
+                - option "Ausbildung / Studentenpraktika / Nachwuchsprogramme" [ref=e110]
+                - option "Administration / Finanzen / Recht" [ref=e111]
+                - option "Business Development" [ref=e112]
+                - option "Strategisches Logistik- und Supply Chain Management" [ref=e113]
+                - option "Operative Logistiksteuerung" [ref=e114]
+                - option "IT" [ref=e115]
+                - option "Initiativ" [ref=e116]
+            - generic [ref=e117]:
+              - generic [ref=e118] [cursor=pointer]: Einstieg
+              - listbox "Einstieg" [ref=e119] [cursor=pointer]:
+                - option "mit Berufserfahrung" [ref=e120]
+                - option "ohne Berufserfahrung" [ref=e121]
+                - option "mit Personalverantwortung" [ref=e122]
+            - generic [ref=e123]:
+              - generic [ref=e124] [cursor=pointer]: Beschäftigung
+              - listbox "Beschäftigung" [ref=e125] [cursor=pointer]:
+                - option "Vollzeit" [ref=e126]
+                - option "Geringfügig" [ref=e127]
+                - option "Teilzeit" [ref=e128]
+                - option "Traineeship" [ref=e129]
+                - option "Werkstudent" [ref=e130]
+                - option "Teilzeit / Vollzeit" [ref=e131]
+                - option "Praktikum" [ref=e132]
+          - generic [ref=e133]:
+            - checkbox "Nach Favoriten filtern"
+            - generic "Nach Favoriten filtern" [ref=e134] [cursor=pointer]
+          - button "Filter zurücksetzen" [disabled] [ref=e140]
+      - generic [ref=e146]:
+        - list "Gefundene Treffer"
+        - button "Mehr laden" [ref=e148] [cursor=pointer]
+    - generic [ref=e150]:
+      - heading "Hast du Fragen? Melde dich gerne!" [level=2] [ref=e152]
+      - generic [ref=e153]:
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic: Name
+              - textbox "Name" [ref=e160]
+            - generic [ref=e161]:
+              - generic: Firma
+              - textbox "Firma" [ref=e162]
+            - generic [ref=e163]:
+              - generic: E-Mail-Adresse *
+              - textbox "E-Mail-Adresse" [ref=e164]
+            - generic [ref=e165]:
+              - generic [ref=e166] [cursor=pointer]: Deine Nachricht
+              - textbox "Deine Nachricht" [ref=e167]
+            - generic [ref=e169]:
+              - text: Ihre personenbezogenen Daten werden ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage verarbeitet. Rechtsgrundlage bzgl. der Pflichtangaben ist Art. 6 Abs. 1 lit. b bzw. lit . f DSGVO. Ihre freiwilligen Angaben erheben wir auf Basis Ihrer Einwilligung. Ihre Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufe. Bitte wenden Sie sich hierfür an die in der Datenschutzerklärung genannte Stelle. Nähere Informationen zu der Datenverarbeitung finden Sie in unserer
+              - link "Datenschutzerklärung" [ref=e170] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/datenschutz/
+              - text: .
+            - generic [aria-hidden] [ref=e173]: "* Pflichtfeld"
+          - button "Absenden" [ref=e175] [cursor=pointer]
+          - generic [ref=e176]:
+            - generic [ref=e177] [cursor=pointer]: "Alternative:"
+            - textbox "Alternative:" [ref=e178]
+        - generic [ref=e180]:
+          - figure [ref=e182]:
+            - img "Lekkerland Recruiting Team vor türkisen Hintergrund" [ref=e184]
+          - generic [ref=e185]:
+            - heading [level=3] [ref=e186]:
+              - strong [ref=e187]: Dein Recruiting-Team
+            - paragraph [ref=e188]: Immer für dich da
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "recruiting@lekkerland.com" [ref=e191] [cursor=pointer]:
+                - /url: mailto:%72%65cruiti%6eg@lekkerland.com
+            - listitem [ref=e199]:
+              - generic [ref=e205]: Europaallee 57 50226 Frechen
+  - contentinfo [ref=e206]:
+    - generic [ref=e207]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - paragraph [ref=e213]: Wir als Arbeitgeber
+          - navigation "Wir als Arbeitgeber" [ref=e214]:
+            - list [ref=e215]:
+              - listitem [ref=e216]:
+                - link "Über uns" [ref=e217] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/ueber-uns/
+              - listitem [ref=e218]:
+                - link "Standorte" [ref=e219] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/standorte/
+              - listitem [ref=e220]:
+                - link "Weiterkommen mit Lekkerland" [ref=e221] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/weiterkommen/
+              - listitem [ref=e222]:
+                - link "Kontakt" [ref=e223] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/kontakt/
+              - listitem [ref=e224]:
+                - link "Infos rund um die Bewerbung" [ref=e225] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/bewerbung/
+              - listitem [ref=e226]:
+                - link "Lekkerland Unternehmensseite" [ref=e227] [cursor=pointer]:
+                  - /url: https://www.lekkerland.de/
+        - generic [ref=e228]:
+          - paragraph [ref=e230]: Dein Einstieg
+          - navigation "Dein Einstieg" [ref=e231]:
+            - list [ref=e232]:
+              - listitem [ref=e233]:
+                - link "Übersicht der Bereiche" [ref=e234] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/taetigkeitsbereiche/
+              - listitem [ref=e235]:
+                - link "Schüler:innen" [ref=e236] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/schuelerinnen/
+              - listitem [ref=e237]:
+                - link "Studierende" [ref=e238] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/studierende/
+              - listitem [ref=e239]:
+                - link "Berufseinsteigende" [ref=e240] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/berufseinsteigende/
+              - listitem [ref=e241]:
+                - link "Berufserfahrene" [ref=e242] [cursor=pointer]:
+                  - /url: https://karriere.lekkerland.de/berufserfahrene/
+              - listitem [ref=e243]:
+                - link "Weitere Jobs bei der Rewe Group" [ref=e244] [cursor=pointer]:
+                  - /url: https://jobs.rewe-group.com/jobs/suchen
+        - generic [ref=e245]:
+          - paragraph [ref=e247]: Social Media
+          - list "Social Media" [ref=e248]:
+            - listitem [ref=e249]:
+              - link "Facebook" [ref=e250] [cursor=pointer]:
+                - /url: https://www.facebook.com/LekkerlandDeutschland
+            - listitem [ref=e254]:
+              - link "Linkedin" [ref=e255] [cursor=pointer]:
+                - /url: https://de.linkedin.com/company/lekkerland
+            - listitem [ref=e259]:
+              - link "Xing" [ref=e260] [cursor=pointer]:
+                - /url: https://www.xing.com/companies/lekkerland
+            - listitem [ref=e264]:
+              - link "Youtube" [ref=e265] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC99AtyK9_Iq79qHRPQrh97A
+        - generic [ref=e269]:
+          - paragraph [ref=e270]: Weiteres
+          - link "REWE Group" [ref=e271] [cursor=pointer]:
+            - /url: https://www.rewe-group.com/de/
+            - figure [ref=e274]:
+              - img "Logo Teil der REWE Group" [ref=e276]
+          - figure [ref=e278]
+      - generic [ref=e283]:
+        - paragraph [ref=e285]: © 2026 Lekkerland
+        - link "Website by Friendventure" [ref=e287] [cursor=pointer]:
+          - /url: https://www.friendventure.de/
+        - navigation [ref=e292]:
+          - list [ref=e293]:
+            - listitem [ref=e294]:
+              - link "Datenschutz" [ref=e295] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/datenschutz/
+            - listitem [ref=e296]:
+              - link "Impressum" [ref=e297] [cursor=pointer]:
+                - /url: https://karriere.lekkerland.de/impressum/
+            - listitem [ref=e298]:
+              - link "Privatsphäre-Einstellungen" [ref=e299] [cursor=pointer]:
+                - /url: "#"

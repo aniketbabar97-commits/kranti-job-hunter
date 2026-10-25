@@ -1,0 +1,51 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "home" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Untitled UI logotext" [ref=f1e6]
+      - button "menu" [ref=f1e7] [cursor=pointer]
+  - banner [ref=f1e12]:
+    - heading "Kontakt" [level=1] [ref=f1e16]
+  - generic [ref=f1e21]:
+    - generic [ref=f1e22]:
+      - heading "Wir freuen uns auf Ihre Nachricht!" [level=2] [ref=f1e23]
+      - generic [ref=f1e25]: "Andere Kontaktmöglichkeiten:"
+      - generic [ref=f1e26]:
+        - link "contact@maify.io" [ref=f1e32] [cursor=pointer]:
+          - /url: "#"
+        - link "+49 7777 2659951" [ref=f1e38] [cursor=pointer]:
+          - /url: tel:+4977772659951
+        - link "Espenbachstraße 8/1 88605 Sauldorf-Boll" [ref=f1e45] [cursor=pointer]:
+          - /url: "#"
+          - text: Espenbachstraße 8/188605 Sauldorf-Boll
+    - region "Contact 04 form success" [active] [ref=f1e103]:
+      - generic [ref=f1e104]: Thank you! Your submission has been received!
+  - contentinfo [ref=f1e73]:
+    - generic [ref=f1e76]:
+      - generic [ref=f1e77]:
+        - link [ref=f1e78] [cursor=pointer]:
+          - /url: /
+          - img "Untitled UI logotext" [ref=f1e105]
+        - generic [ref=f1e80]:
+          - link "Startseite" [ref=f1e81] [cursor=pointer]:
+            - /url: /
+          - link "Leistungen" [ref=f1e83] [cursor=pointer]:
+            - /url: /leistungen
+          - link "Über uns" [ref=f1e85] [cursor=pointer]:
+            - /url: /uber-uns
+          - link "Karriere" [ref=f1e87] [cursor=pointer]:
+            - /url: /karriere
+          - link "Kontakt" [ref=f1e89] [cursor=pointer]:
+            - /url: /kontakt
+        - link [ref=f1e92] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/maify-gmbh/
+      - generic [ref=f1e96]:
+        - generic [ref=f1e97]: © 2026 Maify GmbH
+        - generic [ref=f1e98]:
+          - link "Datenschutz" [ref=f1e99] [cursor=pointer]:
+            - /url: /datenschutz
+          - link "Impressum" [ref=f1e100] [cursor=pointer]:
+            - /url: /impressum
+        - link "Webdesign by avorice" [ref=f1e101] [cursor=pointer]:
+          - /url: https://www.avorice.de

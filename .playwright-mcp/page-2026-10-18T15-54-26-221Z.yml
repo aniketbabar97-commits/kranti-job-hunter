@@ -1,0 +1,43 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e9]:
+    - 'heading "Bewerbung auf die Position: SAP CPQ Expert Consultant Sto Group (w/m/d)" [level=1] [ref=f5e10]'
+    - generic [ref=f5e11]:
+      - navigation [ref=f5e12]:
+        - list:
+          - listitem [ref=f5e13]:
+            - link "Pers. Angaben" [ref=f5e14]:
+              - /url: javascript:void(0)
+          - listitem [ref=f5e15]:
+            - link "Dokumente" [ref=f5e16]:
+              - /url: javascript:void(0)
+          - listitem [ref=f5e17]:
+            - link "Absenden" [ref=f5e18]:
+              - /url: javascript:void(0)
+      - generic [ref=f5e20]:
+        - text:      
+        - generic [ref=f5e65]:
+          - heading "Dokumente" [level=3] [ref=f5e67]
+          - paragraph [ref=f5e68]: Hier besteht die Möglichkeit, Bewerbungsunterlagen hochzuladen, z. B. Anschreiben, Lebenslauf, Zeugnisse etc.
+          - generic [ref=f5e69]:
+            - generic [ref=f5e70]:
+              - text: "Folgendes Dokument ist erforderlich:"
+              - strong [ref=f5e71]: Lebenslauf
+              - text: ". Folgende Dateitypen werden unterstützt: PDF, DOC, DOCX, RTF, TXT, ODT, JPG, JPEG, PNG."
+            - generic [ref=f5e73]:
+              - generic [ref=f5e74]: 
+              - generic [ref=f5e76]:
+                - paragraph [ref=f5e77]: Dateien einfach in diesen Bereich ziehen oder...
+                - button "hier auswählen, um sie hochzuladen" [ref=f5e78] [cursor=pointer]
+        - text:       
+        - generic:
+          - text: 
+          - button "Weiter " [active] [ref=f5e58] [cursor=pointer]:
+            - text: Weiter
+            - generic [ref=f5e59]: 
+          - button " Zurück" [ref=f5e79] [cursor=pointer]:
+            - generic [ref=f5e80]: 
+            - text: Zurück
+      - link [ref=f5e61] [cursor=pointer]:
+        - /url: https://www.concludis.com?reff=https%3A%2F%2Fcareers.sto.com%2Fcandidate%2Fformapply%3Fapply_id%3D16167_57711de3-c9f8-4002-a949-0d0b6a583594%26prj%3D16167%26lang%3Dde_DE%26ie%3D1
+        - img "powered by concludis.com - Online Bewerbermanagement seit 2007" [ref=f5e62]
+  - generic [ref=f5e63]: "Hinweis: Bei erfolgreicher Übermittlung Ihrer Unterlagen erhalten Sie per E-Mail eine automatische Empfangsbestätigung von uns."

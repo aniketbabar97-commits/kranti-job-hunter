@@ -1,0 +1,257 @@
+- generic [active] [ref=f8e1]:
+  - region [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link "Cookiebot by Usercentrics - opens in a new window" [ref=f8e6] [cursor=pointer]:
+        - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f8e34]:
+        - tab "Consent" [selected] [ref=f8e35] [cursor=pointer]
+        - tab "Details" [ref=f8e36] [cursor=pointer]
+        - tab "About" [ref=f8e37] [cursor=pointer]
+      - tabpanel "Consent" [ref=f8e39]:
+        - generic [ref=f8e41]:
+          - heading "This website uses cookies" [level=2] [ref=f8e42]
+          - generic [ref=f8e43]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+        - group "Consent Selection" [ref=f8e50]:
+          - generic [ref=f8e52]:
+            - generic [ref=f8e53]:
+              - strong [ref=f8e55]: Necessary
+              - generic [ref=f8e56]:
+                - checkbox "Necessary" [checked] [disabled]
+            - generic [ref=f8e57]:
+              - strong [ref=f8e59] [cursor=pointer]: Preferences
+              - switch "Preferences" [checked] [ref=f8e61] [cursor=pointer]
+            - generic [ref=f8e62]:
+              - strong [ref=f8e64] [cursor=pointer]: Statistics
+              - switch "Statistics" [checked] [ref=f8e66] [cursor=pointer]
+            - generic [ref=f8e67]:
+              - strong [ref=f8e69] [cursor=pointer]: Marketing
+              - switch "Marketing" [checked] [ref=f8e71] [cursor=pointer]
+      - generic [ref=f8e75]:
+        - button "Use necessary cookies only" [ref=f8e76] [cursor=pointer]
+        - button "Allow selection" [ref=f8e77] [cursor=pointer]
+        - button "Allow all cookies" [ref=f8e78] [cursor=pointer]
+  - main [ref=f8e81]:
+    - generic [ref=f8e82]:
+      - navigation "Main navigation" [ref=f8e83]:
+        - generic [ref=f8e84]:
+          - link [ref=f8e85] [cursor=pointer]:
+            - /url: /
+            - img "BTC AG" [ref=f8e86]
+          - button "Menu" [ref=f8e87] [cursor=pointer]
+      - generic [ref=f8e92]:
+        - heading "Stellenangebote" [level=1] [ref=f8e93]
+        - generic [ref=f8e95]:
+          - generic [ref=f8e96]:
+            - generic [ref=f8e97]:
+              - heading "Quick-Check OHNE Bewerbung" [level=2] [ref=f8e98]
+              - link "→ Jobdate buchen" [ref=f8e100] [cursor=pointer]:
+                - /url: https://outlook.office365.com/owa/calendar/BTCAGJobdate@btcag.onmicrosoft.com/bookings/
+              - link "→ Jobdate Ausbildung & Schulpraktikum" [ref=f8e102] [cursor=pointer]:
+                - /url: https://bookings.cloud.microsoft/book/BTCAGTelefonischesJobdateAusbildungDualesStudium@btcag.onmicrosoft.com/?ismsaljsauthenabled
+                - text: → Jobdate Ausbildung& Schulpraktikum
+            - generic [ref=f8e103]:
+              - heading "Bewerbung OHNE lange zu suchen" [level=2] [ref=f8e104]
+              - generic [ref=f8e105]:
+                - link "→ Initiativbewerbung" [ref=f8e106] [cursor=pointer]:
+                  - /url: "?offerid=288&formtype=allgemein"
+                - link "→ Jobnewsletter" [ref=f8e107] [cursor=pointer]:
+                  - /url: https://btc.talentry.com/app/talentv2/landingpage/189/0kwrbh4dbr45kv399lmkrl
+          - paragraph
+        - generic [ref=f8e108]:
+          - generic [ref=f8e109]:
+            - generic [ref=f8e111]:
+              - textbox "Suche" [ref=f8e113]
+              - button [ref=f8e115] [cursor=pointer]
+            - generic [ref=f8e121]:
+              - generic [ref=f8e122]:
+                - button "Standorte" [ref=f8e126] [cursor=pointer]
+                - button "Tätigkeitsbereich" [ref=f8e134] [cursor=pointer]
+                - button "Einstiegslevel" [ref=f8e142] [cursor=pointer]
+                - button "Arbeitszeit" [ref=f8e150] [cursor=pointer]
+              - button [ref=f8e159] [cursor=pointer]
+          - generic [ref=f8e162]: Filter löschen
+          - generic [ref=f8e169]:
+            - generic [ref=f8e170]:
+              - generic [ref=f8e171] [cursor=pointer]
+              - generic [ref=f8e174]:
+                - generic [ref=f8e175]:
+                  - generic [ref=f8e176]:
+                    - heading "Senior Berater *in SAP CX FSM / CS / CM" [level=2] [ref=f8e177]
+                    - paragraph [ref=f8e178]: BTC AG • Home-Office Option, Oldenburg, Bremen, Hamburg, Münster, Leipzig, Neu-Isenburg, Neckarsulm, Berlin, Würzburg
+                    - paragraph [ref=f8e179]: "Referenzcode: 00003930"
+                    - paragraph [ref=f8e180]: "Einstiegsgehalt: 63.200 - 100.000 € brutto/Jahr (40 Std./Woche, 12 Gehälter, inkl. Zielvereinbarung)"
+                  - generic [ref=f8e181] [cursor=pointer]
+                - generic [ref=f8e184]:
+                  - generic [ref=f8e185] [cursor=pointer]
+                  - figure [ref=f8e188] [cursor=pointer]
+                - generic [ref=f8e190]: Jetzt bewerben
+              - generic [ref=f8e195]:
+                - paragraph [ref=f8e196]: Mit Blick auf die zunehmende Nachfrage nach Cloud-Lösungen und Transformationsprojekten für die Customer Experience möchten wir unser SAP-CX-Know-how gezielt für das Projektgeschäft und den Service erweitern. Aktuell arbeiten wir mit einem kleinem Team aus Entwickler*innen und Consultants* aus zwei Fachbereichen in einem Transformationsprojekt sowie im Application Management Support für mehrere Kunden.
+                - paragraph [ref=f8e197]:
+                  - strong [ref=f8e198]: Das erwartet dich
+                - list [ref=f8e199]:
+                  - listitem [ref=f8e200]: Du berätst im Tandem mit einem weiteren Consultant unsere Kunden aus verschiedenen Branchen in Projekten zur Einführung von SAP CX Komponenten und übernimmst je nach Kompetenzlevel auch (Teil-)projektleitungsverantwortung
+                  - listitem [ref=f8e201]: Du wirkst im Application-Management-Support mit und löst Tickets, bis das Team eine entsprechende Größe hat, um sich nur auf das Projektgeschäft zu fokussieren
+                  - listitem [ref=f8e202]: Du unterstützt im Vertrieb und Presales bei der Erstellung von Demoszenarien sowie bei Angeboten und Ausschreibungen
+                  - listitem [ref=f8e203]: Du entwickelst das Thema SAP CX aktiv weiter und bringst dein Wissen durch Sparring im CX-Team ein
+                - paragraph [ref=f8e204]:
+                  - strong [ref=f8e205]: Das bringst du mit
+                - list [ref=f8e206]:
+                  - listitem [ref=f8e207]: Mehrjährige Beratungserfahrung sowie Customizing-Kenntnisse in der SAP CX Cloud aus unterschiedlichen Kundenprojekten
+                  - listitem [ref=f8e208]: End-to-End-Prozesskenntnisse von der Auftragseinsteuerung bis zur Rechnungslegung
+                  - listitem [ref=f8e209]: Kenntnisse der Architektur für CX V2 und in JavaScript
+                  - listitem [ref=f8e210]: Mindestens 50% Reisebereitschaft für Einsätze in Kundenprojekten in der DACH-Region
+                  - listitem [ref=f8e211]: Gute Deutschkenntnisse, mindestens auf B2-Niveau
+                - paragraph [ref=f8e212]:
+                  - strong [ref=f8e213]: Das bieten wir dir
+                - list [ref=f8e214]:
+                  - listitem [ref=f8e215]: Einarbeitung für das Projekt-Onboarding vor-Ort und remote im Patenmodell und mit regelmäßigen jour fixes mit deiner Führungskraft
+                  - listitem [ref=f8e216]: Monatliche Online-Meetings mit deinem Fachteam sowie ein jährliches Treffen mit dem gesamte Bereichsteam in Würzburg oder Oldenburg
+                  - listitem [ref=f8e217]: Weiterbildungs- und Zertifizierungsmögklichkeiten, u. a. mit persönlicher SAP Learning Hub Lizenz und LinkedIn Learning
+                  - listitem [ref=f8e218]: Entwicklungsmöglichkeit zum Teamlead für das CX-Team
+                  - listitem [ref=f8e219]: Gleitzeitkonto flexibel in Voll- oder Teilzeit (20 - 40 Wochenstunden) + 30 Tage Urlaub (bei Vollzeit)
+                  - listitem [ref=f8e220]: Homeoffice Möglichkeiten, von einzelnen Tagen bis hin zum Full Homeoffice, ohne feste Präsenztage
+                  - listitem [ref=f8e221]: Duz-Kultur, Social Intranet, monatliche After-Work Veranstaltungen
+                  - listitem [ref=f8e222]: "Sichere Jobperspektive: unbefristeter Arbeitsvertrag, Vielfalt bei Kunden und Branchen, EWE AG als starker Mutterkonzern"
+                  - listitem [ref=f8e223]: "Für dein Wohlbefinden: Hansefit, fondsgebundenes arbeitgeberfinanziertes Altersvorsorgemodell, kostenfreie externe Sozial- und Gesundheitsberatung, (E-)Bike Leasing, Zeitwertkonto für berufliche Auszeiten"
+                  - listitem [ref=f8e224]: "Einstiegsgehalt: 63.000 € - 100.000 € brutto pro Jahr (40 Stunden pro Woche, 12 Gehälter), abhängig von deinem Kompetenzlevel, sowie transparente Gehaltsentwicklung im Rahmen unseres Vergütungssystems"
+              - generic [ref=f8e226]:
+                - paragraph [ref=f8e227]: "* Dein Potenzial zählt für uns, unabhängig von geschlechtlicher Identität, sexueller Orientierung, Behinderung, Alter, ethnischer oder sozialer Herkunft und religiöser Weltanschauung!"
+                - paragraph [ref=f8e228]: Wir gestalten unseren Recruiting-Prozess gemäß den Anforderungen des Barrierefreiheitsstärkungsgesetzes (BFSG) barrierearm und unterstützen gerne individuell. Wenn du bestimmte Anforderungen an Barrierefreiheit hast, teile sie uns einfach mit. Wir finden eine passende Lösung.
+              - generic [ref=f8e229]: Jetzt bewerben
+            - generic [ref=f8e233]:
+              - generic [ref=f8e236]:
+                - generic [ref=f8e237]:
+                  - figure [ref=f8e239]:
+                    - img "BTC AG -" [ref=f8e240]
+                  - generic [ref=f8e241]:
+                    - generic [ref=f8e242]: Ich freue mich auf deine Fragen
+                    - generic [ref=f8e243]: Martin Ehlis
+                    - generic [ref=f8e244]:
+                      - generic [ref=f8e245]:
+                        - link [ref=f8e246] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/martin-e-81090911/
+                          - img "Linkedin" [ref=f8e247]
+                          - text: Linkedin
+                        - link [ref=f8e248] [cursor=pointer]:
+                          - /url: https://www.xing.com/profile/Martin_Ehlis/cv
+                          - img "Xing" [ref=f8e249]
+                          - text: Xing
+                      - generic [ref=f8e250]:
+                        - generic [ref=f8e251]: Telefon
+                        - link "+49 (0)441 3612-3227" [ref=f8e253] [cursor=pointer]:
+                          - /url: tel:+49 (0)441 3612-3227
+                - generic [ref=f8e254]:
+                  - generic:
+                    - heading [level=3]
+                  - link "Jobdate buchen" [ref=f8e255] [cursor=pointer]:
+                    - /url: https://outlook.office365.com/owa/calendar/DeinJobdatemitMartinEhlis@btcag.onmicrosoft.com/bookings/
+              - generic [ref=f8e258]:
+                - generic [ref=f8e259]:
+                  - figure [ref=f8e261]:
+                    - img "BTC AG -" [ref=f8e262]
+                  - heading "Dein Bewerbungsprozess" [level=3] [ref=f8e263]
+                - list [ref=f8e267]:
+                  - listitem [ref=f8e268]: Online Bewerben mit Klick auf „Jetzt Bewerben“
+                  - listitem [ref=f8e269]: Sichtung Deiner Unterlagen durch das Recruiting und / oder direkt durch den Fachbereich
+                  - listitem [ref=f8e270]: Innerhalb von 14 Tagen Einladung zum 1. Kennenlerngespräch oder schriftliche Absage
+                  - listitem [ref=f8e271]: 1-2 weitere Gespräche (Anzahl und Dauer variiert je nach Stelle)
+                  - listitem [ref=f8e272]: Schriftliches Vertragsangebot nach Zustimmung durch unseren Betriebsrat oder schriftliche Absage
+                - link [ref=f8e274] [cursor=pointer]:
+                  - /url: "#"
+                  - link "Weitere FAQ" [ref=f8e279]:
+                    - /url: https://www.btc-ag.com/Karriere/Bewerben/FAQ/
+              - generic [ref=f8e281]:
+                - generic [ref=f8e282]:
+                  - figure [ref=f8e284]:
+                    - img "BTC AG -" [ref=f8e285]
+                  - heading "#starke Teams" [level=3] [ref=f8e286]
+                - paragraph [ref=f8e290]: Wir sind seit über 20 Jahren eines der Top IT-Beratungsunternehmen in Deutschland. Mit über 2000 Mitarbeiter*innen gestalten wir in starken Teams starke IT-Lösungen für unsere Kunden in den Branchen Energie, Industrie, Dienstleister und den öffentlichen Sektor. Unser Dienstleistungsangebot umfasst IT-Beratung, Systemintegration, Produktentwicklung sowie System- und Applikationsmanagement.
+                - link [ref=f8e292] [cursor=pointer]:
+                  - /url: "#"
+                  - link "Erfahre mehr bei Kununu" [ref=f8e297]:
+                    - /url: https://www.kununu.com/de/btc-business-technology-consulting
+              - generic [ref=f8e299]:
+                - generic [ref=f8e300]:
+                  - figure [ref=f8e302]:
+                    - img "BTC AG -" [ref=f8e303]
+                  - heading "BTC Welt an den Standorten" [level=3] [ref=f8e304]
+                - list [ref=f8e308]:
+                  - listitem [ref=f8e309]: Flexibel via App buchbare Arbeitsplätze
+                  - listitem [ref=f8e310]: Spezielle Workshop-Räume
+                  - listitem [ref=f8e311]: Team- und After-Work-Events
+                  - listitem [ref=f8e312]: überall Stehschreibtische
+                - link [ref=f8e314] [cursor=pointer]:
+                  - /url: "#"
+                  - link "Bilder und Insides" [ref=f8e319]:
+                    - /url: https://www.btc-ag.com/Karriere/Arbeiten-bei-BTC/Standorte
+              - generic [ref=f8e321]:
+                - generic [ref=f8e322]:
+                  - figure [ref=f8e324]:
+                    - img "BTC AG -" [ref=f8e325]
+                  - heading "Unsere Top 5 Benefits" [level=3] [ref=f8e326]
+                - list [ref=f8e330]:
+                  - listitem [ref=f8e331]: Hybrid arbeiten ohne Präsenztage und Kernarbeitszeiten
+                  - listitem [ref=f8e332]: Hansefit
+                  - listitem [ref=f8e333]: Kostenfreie externe Sozialberatung
+                  - listitem [ref=f8e334]: (E-)Bike Leasing
+                  - listitem [ref=f8e335]: Günstiger online shoppen mit Corporate Benefits
+                - link [ref=f8e337] [cursor=pointer]:
+                  - /url: "#"
+                  - link "Alle Benefits" [ref=f8e342]:
+                    - /url: https://www.btc-ag.com/karriere/arbeiten-bei-btc/benefits/
+      - generic [ref=f8e344]:
+        - generic [ref=f8e345]:
+          - link "BTC AG" [ref=f8e346] [cursor=pointer]:
+            - /url: /
+          - navigation "Footer navigation" [ref=f8e347]:
+            - generic [ref=f8e348]:
+              - heading "BTC AG" [level=3] [ref=f8e349]
+              - list [ref=f8e350]:
+                - listitem [ref=f8e351]:
+                  - link "Über uns" [ref=f8e352] [cursor=pointer]:
+                    - /url: https://www.btc-ag.com/ueber-uns/
+                - listitem [ref=f8e353]:
+                  - link "Karriere" [ref=f8e354] [cursor=pointer]:
+                    - /url: https://www.btc-ag.com/karriere/
+                - listitem [ref=f8e355]:
+                  - link "Aktuelles" [ref=f8e356] [cursor=pointer]:
+                    - /url: https://www.btc-ag.com/aktuelles/
+            - generic [ref=f8e357]:
+              - heading "Gruppe & Netzwerk" [level=3] [ref=f8e358]
+              - list [ref=f8e359]:
+                - listitem [ref=f8e360]:
+                  - link "BTC Group weltweit" [ref=f8e361] [cursor=pointer]:
+                    - /url: https://btc-group.com/
+                - listitem [ref=f8e362]:
+                  - link "Internationale Standorte" [ref=f8e363] [cursor=pointer]:
+                    - /url: https://btc-group.com/standorte/
+                - listitem [ref=f8e364]:
+                  - link "Tochtergesellschaften" [ref=f8e365] [cursor=pointer]:
+                    - /url: https://btc-group.com/gruppenstruktur/
+        - generic [ref=f8e366]:
+          - generic [ref=f8e367]:
+            - paragraph [ref=f8e368]: © 2026 BTC. Alle Rechte vorbehalten
+            - list [ref=f8e369]:
+              - listitem [ref=f8e370]:
+                - link [ref=f8e371] [cursor=pointer]:
+                  - /url: https://btc-group.com/
+                  - text: Member of
+                  - strong [ref=f8e372]: BTC Group
+              - listitem [ref=f8e373]:
+                - link "Datenschutz" [ref=f8e374] [cursor=pointer]:
+                  - /url: https://www.btc-ag.com/datenschutz/
+              - listitem [ref=f8e375]:
+                - link "Impressum" [ref=f8e376] [cursor=pointer]:
+                  - /url: https://www.btc-ag.com/impressum/
+              - listitem [ref=f8e377]:
+                - link "Compliance" [ref=f8e378] [cursor=pointer]:
+                  - /url: https://www.btc-ag.com/compliance/
+          - generic "Social media" [ref=f8e379]:
+            - link "LinkedIn" [ref=f8e380] [cursor=pointer]:
+              - /url: https://de.linkedin.com/company/btcag
+            - link "TikTok" [ref=f8e381] [cursor=pointer]:
+              - /url: https://www.tiktok.com/btc_ag
+            - link "Instagram" [ref=f8e382] [cursor=pointer]:
+              - /url: https://www.instagram.com/btc4starters/
+  - iframe [aria-hidden] [ref=f8e383]

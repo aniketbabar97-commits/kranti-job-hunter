@@ -1,0 +1,33 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e28]:
+    - generic [ref=f1e31]:
+      - img "pathway solutions gmbh logo" [ref=f1e32]
+      - generic [ref=f1e33]:
+        - link [ref=f1e34] [cursor=pointer]:
+          - /url: https://join.com/companies/pathway-solutions550
+          - paragraph [ref=f1e35]: pathway solutions gmbh
+        - link [ref=f1e36] [cursor=pointer]:
+          - /url: https://join.com/companies/pathway-solutions550/16844394-senior-java-developer-e-commerce-accounting-and-marketplaces-remote-in-eu
+          - paragraph [ref=f1e37]: Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU
+    - generic [ref=f1e208]:
+      - heading "How would you best describe your experience with remote work?" [level=2] [ref=f1e209]
+      - generic [ref=f1e211]:
+        - radio [ref=f1e213] [cursor=pointer]:
+          - paragraph [ref=f1e215]: a
+          - paragraph [ref=f1e216]: I have never worked remotely.
+        - radio [ref=f1e221] [cursor=pointer]:
+          - paragraph [ref=f1e223]: b
+          - paragraph [ref=f1e224]: I’ve occasionally worked remotely, but mostly worked on-site.
+        - radio [ref=f1e229] [cursor=pointer]:
+          - paragraph [ref=f1e231]: c
+          - paragraph [ref=f1e232]: I’ve regularly worked remotely and feel comfortable doing so.
+        - radio [ref=f1e237] [cursor=pointer]:
+          - paragraph [ref=f1e239]: d
+          - paragraph [ref=f1e240]: I have extensive remote work experience and thrive in fully remote environments.
+    - generic [ref=f1e47]:
+      - progressbar "43%" [ref=f1e244]
+      - generic [ref=f1e52]:
+        - button "Back" [ref=f1e144] [cursor=pointer]
+        - button "Continue" [disabled] [ref=f1e55]
+  - alert [ref=f1e26]: "pathway solutions (Remote): Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU"
+  - region "Notifications, bottom-end (alt+T)"

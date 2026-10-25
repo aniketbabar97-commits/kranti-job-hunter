@@ -1,0 +1,733 @@
+- generic [active] [ref=e1]:
+  - link [aria-hidden] [ref=e2] [cursor=pointer]:
+    - /url: "#"
+    - text: ___
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - img "Logo" [ref=e9]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster":
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=e11]:
+        - tab "Zustimmung" [selected] [ref=e12] [cursor=pointer]
+        - tab "Details" [ref=e13] [cursor=pointer]
+        - tab "Über Cookies" [ref=e14] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=e16]:
+        - generic [ref=e18]:
+          - heading "Diese Webseite verwendet Cookies" [level=2] [ref=e19]
+          - generic [ref=e20]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben.
+      - generic [ref=e24]:
+        - button "Einstellungen" [ref=e25] [cursor=pointer]
+        - button "OK" [ref=e27] [cursor=pointer]
+  - navigation [ref=e28]:
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Brauchwasserwärmepumpen" [ref=e31] [cursor=pointer]:
+          - /url: /brauchwasserwaermepumpen/
+      - listitem [ref=e32]:
+        - link "Wärmepumpen" [ref=e33] [cursor=pointer]:
+          - /url: /waermepumpen/
+      - listitem [ref=e34]:
+        - link "Gas-Heizung" [ref=e35] [cursor=pointer]:
+          - /url: /gas-heizung/
+      - listitem [ref=e36]:
+        - link "Öl-Heizung" [ref=e37] [cursor=pointer]:
+          - /url: /oel-heizung/
+      - listitem [ref=e38]:
+        - link "Elektro-Heizung" [ref=e39] [cursor=pointer]:
+          - /url: /elektro-heizung/
+      - listitem [ref=e40]:
+        - link "Holz-Heizung" [ref=e41] [cursor=pointer]:
+          - /url: /holz-heizung/
+      - listitem [ref=e42]:
+        - link "Heizkörper" [ref=e43] [cursor=pointer]:
+          - /url: /heizkoerper/
+      - listitem [ref=e44]:
+        - link "Fussbodenheizung" [ref=e45] [cursor=pointer]:
+          - /url: /fussbodenheizung/
+      - listitem [ref=e46]:
+        - link "Durchlauferhitzer" [ref=e47] [cursor=pointer]:
+          - /url: /durchlauferhitzer/
+      - listitem [ref=e48]:
+        - link "Klimaanlagen" [ref=e49] [cursor=pointer]:
+          - /url: /klimaanlagen/
+      - listitem [ref=e50]:
+        - link "Photovoltaik" [ref=e51] [cursor=pointer]:
+          - /url: /photovoltaik/
+      - listitem [ref=e52]:
+        - link "Pumpen" [ref=e53] [cursor=pointer]:
+          - /url: /pumpen/
+      - listitem [ref=e54]:
+        - link "Rohrsysteme" [ref=e55] [cursor=pointer]:
+          - /url: /rohrsysteme/
+      - listitem [ref=e56]:
+        - link "Solartechnik" [ref=e57] [cursor=pointer]:
+          - /url: /solartechnik/
+      - listitem [ref=e58]:
+        - link "Speichertechnik" [ref=e59] [cursor=pointer]:
+          - /url: /speichertechnik/
+      - listitem [ref=e60]:
+        - link "Wasseraufbereitung" [ref=e61] [cursor=pointer]:
+          - /url: /wasseraufbereitung/
+      - listitem [ref=e62]:
+        - link "Wohnungslüftung" [ref=e63] [cursor=pointer]:
+          - /url: /wohnungslueftung/
+      - listitem [ref=e64]:
+        - link "Abgassysteme" [ref=e65] [cursor=pointer]:
+          - /url: /abgassysteme/
+      - listitem [ref=e66]:
+        - link "Ausdehnungsgefäße" [ref=e67] [cursor=pointer]:
+          - /url: /ausdehnungsgefaesse/
+      - listitem [ref=e68]:
+        - link "Bad & Sanitär" [ref=e69] [cursor=pointer]:
+          - /url: /bad-sanitaer/
+      - listitem [ref=e70]:
+        - link "Befestigungstechnik" [ref=e71] [cursor=pointer]:
+          - /url: /befestigungstechnik/
+      - listitem [ref=e72]:
+        - link "Elektro-Installation" [ref=e73] [cursor=pointer]:
+          - /url: /elektro-installation/
+      - listitem [ref=e74]:
+        - link "Luftheizer" [ref=e75] [cursor=pointer]:
+          - /url: /luftheizer/
+      - listitem [ref=e76]:
+        - link "Öltanks" [ref=e77] [cursor=pointer]:
+          - /url: /oeltanks/
+      - listitem [ref=e78]:
+        - link "Regelungstechnik" [ref=e79] [cursor=pointer]:
+          - /url: /regelungstechnik/
+      - listitem [ref=e80]:
+        - link "Smart Home" [ref=e81] [cursor=pointer]:
+          - /url: /smart-home/
+      - listitem [ref=e82]:
+        - link "Solarflüssigkeit" [ref=e83] [cursor=pointer]:
+          - /url: /solarfluessigkeit/
+      - listitem [ref=e84]:
+        - link "Solarrohr" [ref=e85] [cursor=pointer]:
+          - /url: /solarrohr/
+      - listitem [ref=e86]:
+        - link "Wallboxen" [ref=e87] [cursor=pointer]:
+          - /url: /wallboxen/
+      - listitem [ref=e88]:
+        - link "Wohnungsstationen" [ref=e89] [cursor=pointer]:
+          - /url: /wohnungsstationen/
+      - listitem [ref=e90]:
+        - link "Zubehör" [ref=e91] [cursor=pointer]:
+          - /url: /zubehoer/
+      - listitem [ref=e92]:
+        - link "Marken" [ref=e93] [cursor=pointer]:
+          - /url: /marken/
+      - listitem [ref=e94]:
+        - link "Sonderposten" [ref=e95] [cursor=pointer]:
+          - /url: /sonderposten/
+      - listitem [ref=e96]:
+        - link "Dienstleistungen" [ref=e97] [cursor=pointer]:
+          - /url: /dienstleistungen/
+  - banner [ref=e98]:
+    - text:   
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - link [ref=e103] [cursor=pointer]:
+          - /url: /
+          - img "Heizung und Solar zu Discountpreisen" [ref=e104]
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link [ref=e108] [cursor=pointer]:
+              - /url: tel:004964194825200
+              - img "Telefon" [ref=e109]
+          - listitem [ref=e110]:
+            - link [ref=e111] [cursor=pointer]:
+              - /url: /shop/system/?func=customer&action=homelist&wkid=54591899246944033431
+              - img "Kundencenter" [ref=e112]
+          - listitem [ref=e113]:
+            - link "Warenkorb 0" [ref=e114] [cursor=pointer]:
+              - /url: /shop/system/?func=scartshow&wkid=54591899246944033431
+              - img "Warenkorb" [ref=e115]
+              - generic [ref=e116]: "0"
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - link "Kategorien":
+            - /url: "#"
+            - img "Kategorien" [ref=e121] [cursor=pointer]
+        - textbox "Ihre Suchbegriff" [ref=e122]:
+          - /placeholder: Ihre Suchbegriff(e) ...
+        - generic [ref=e123]: Ihre Suchbegriff
+        - button [ref=e125] [cursor=pointer]:
+          - img "Suchen" [ref=e126]
+  - generic [ref=e130]:
+    - text:                                  
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - figure [ref=e136]:
+          - link [ref=e137] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/heizkoerper/
+            - img "Heizkörper-Onlineshop - Badheizkörper, Planheizkörper und Profilheizkörper von Markenherstellern in allen Typen und Längen online kaufen!" [ref=e138]
+          - generic [ref=e139]:
+            - heading [level=2] [ref=e140]:
+              - link "Heizkörper" [ref=e141] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/heizkoerper/
+            - separator [ref=e142]
+            - link "Plan-, Profil- und Badheizkörper von führenden Markenherstellern in allen Typen und Längen" [ref=e143] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizkoerper/
+        - generic [ref=e144]:
+          - figure [ref=e145]:
+            - link [ref=e146] [cursor=pointer]:
+              - /url: /waermepumpen
+              - img "Wärmepumpen Aktion" [ref=e147]
+            - generic [ref=e148]:
+              - heading [level=2] [ref=e149]:
+                - link "Wärmepumpen Aktion" [ref=e150] [cursor=pointer]:
+                  - /url: /waermepumpen
+              - separator [ref=e151]
+              - link "Viele Wärmepumpen aller namhaften Hersteller stark reduziert. Jetzt Preisvorteile nutzen und kräftig sparen!" [ref=e152] [cursor=pointer]:
+                - /url: /waermepumpen
+          - figure [ref=e153]:
+            - link [ref=e154] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+              - img "Vermittlung kompetenter Fachhandwerker für den Einbau Ihrer neuen Heizung!" [ref=e155]
+            - generic [ref=e156]:
+              - heading [level=2] [ref=e157]:
+                - link "Einbau & Montage Ihrer neuen Heizung" [ref=e158] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+              - separator [ref=e159]
+              - link "Vermittlung kompetenter Fachhandwerker für den Einbau Ihrer neuen Heizungssysteme" [ref=e160] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+        - generic [ref=e161]:
+          - figure [ref=e162]:
+            - link [ref=e163] [cursor=pointer]:
+              - /url: /kontakt.html
+              - img "Telefonische Beratung vom Fachmann" [ref=e164]
+            - generic [ref=e165]:
+              - heading [level=2] [ref=e166]:
+                - link "Beratung vom Fachmann" [ref=e167] [cursor=pointer]:
+                  - /url: /kontakt.html
+              - separator [ref=e168]
+              - link "Telefonische Beratung 0641 / 948 252 00 Montag bis Freitag, 8 bis 17 Uhr" [ref=e169] [cursor=pointer]:
+                - /url: /kontakt.html
+          - figure [ref=e170]:
+            - link [ref=e171] [cursor=pointer]:
+              - /url: /bosch-csh.html
+              - img "Bosch Compress Hybrid 5800i G" [ref=e172]
+            - generic [ref=e173]:
+              - heading [level=2] [ref=e174]:
+                - 'link "NEU: Bosch Compress Hybrid 5800i G" [ref=e175] [cursor=pointer]':
+                  - /url: /bosch-csh.html
+              - separator [ref=e176]
+              - link "Die All-in-One Heizung mit maximaler Flexibilität" [ref=e177] [cursor=pointer]:
+                - /url: /bosch-csh.html
+      - generic [ref=e178]:
+        - generic:
+          - link "Heizungsdiscount24" [ref=e180] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/
+          - link "Viessmann" [ref=e182] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/marken/viessmann/
+          - link "Buderus" [ref=e184] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/marken/buderus/
+          - link "Daikin" [ref=e186] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/marken/daikin/
+      - list [ref=e188]:
+        - listitem [ref=e189]:
+          - heading "Ihre Vorteile bei HeizungsDiscount24" [level=3] [ref=e190]:
+            - text: Ihre Vorteile bei
+            - generic [ref=e191]: HeizungsDiscount24
+        - listitem [ref=e192]:
+          - generic [ref=e193]: 
+          - heading "Günstige Preise - Top-Rabatte" [level=4] [ref=e194]
+          - paragraph [ref=e195]: Unsere Einkaufsvorteile geben wir gerne weiter - Das umfangreiche Markenartikel-Sortiment unseres Online-Shops erhalten Sie ständig zu Dauer-Tiefpreisen!
+        - listitem [ref=e196]:
+          - generic [ref=e197]: 
+          - heading "Mit Sicherheit ein guter Kauf" [level=4] [ref=e198]
+          - paragraph [ref=e199]:
+            - text: Mehr als 1.000.000 zufriedene Kunden vertrauen HeizungsDiscount24, dem führenden Online-Fachhandel für
+            - link "Heizung" [ref=e200] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/gas-heizung/
+            - text: ","
+            - link "Heizkörper" [ref=e201] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizkoerper/
+            - text: "&"
+            - link "Solar" [ref=e202] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/solartechnik/
+            - text: "! Lesen Sie"
+            - link "Bewertungen und Erfahrungsberichte" [ref=e203] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/unsere-bewertungen.html
+            - text: unserer Kunden zu unseren Produkten, Lieferung und Service!
+        - listitem [ref=e204]:
+          - generic [ref=e205]: 
+          - heading "Fachhandel & Meisterbetrieb für Heizungen" [level=4] [ref=e206]
+          - paragraph [ref=e207]:
+            - text: "Unsere kompetenten Fachberater helfen Ihnen gerne bei der Zusammenstellung der passenden Heizung sowie und beraten Sie markenunabhängig und individuell auf Ihre Situation vor Ort abgestimmt:"
+            - link "Jetzt Angebot anfordern!" [ref=e208] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/kontakt.html
+        - listitem [ref=e209]:
+          - generic [ref=e210]: 
+          - heading "Einbau & Montage" [level=4] [ref=e211]
+          - paragraph [ref=e212]:
+            - text: Wenn Sie wünschen, bauen wir auch ein! Schnell geliefert, schnell montiert - Gerne vermitteln wir Ihnen qualifizierte
+            - link "Heizungsmonteure aus Ihrer Nähe!" [ref=e213] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+        - listitem [ref=e214]:
+          - generic [ref=e215]: 
+          - heading "Schneller Versand" [level=4] [ref=e216]
+          - paragraph [ref=e217]: Ist die Heizung einmal kalt, muss es schnell gehen! Wir halten auf über 30.000m² an drei Logistikstandorten ständig über 50.000 Artikel für schnellsten Versand bereit!
+        - listitem [ref=e218]:
+          - generic [ref=e219]: 
+          - heading "Große Auswahl an Heizungen & Marken" [level=4] [ref=e220]
+          - paragraph [ref=e221]:
+            - text: Wir führen das gesamte
+            - link "Heizungs-" [ref=e222] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/gas-heizung/
+            - text: ","
+            - link "Wärmepumpen-" [ref=e223] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/waermepumpen/
+            - text: "&"
+            - link "Solar-Programm" [ref=e224] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/solartechnik/
+            - text: der
+            - link "deutschen Markenhersteller" [ref=e225] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/
+            - link "Buderus," [ref=e226] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/buderus/
+            - link "Bosch" [ref=e227] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/bosch/
+            - text: ","
+            - link "Vaillant" [ref=e228] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/vaillant/
+            - text: ","
+            - link "Viessmann" [ref=e229] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/viessmann/
+            - text: und
+            - link "Wolf Heiztechnik" [ref=e230] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/wolf/
+            - text: . Führen wir einmal einen Artikel nicht im Shop, unterbreiten Ihnen unsere Fachberater gerne ein
+            - link "individuelles Angebot!" [ref=e231] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/kontakt.html
+        - listitem [ref=e232]:
+          - generic [ref=e233]: HD24
+          - heading "Unsere starke Marke" [level=4] [ref=e234]
+          - paragraph [ref=e235]:
+            - text: Ein immer größeres
+            - link "Haustechnik-Sortiment" [ref=e236] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24
+            - text: finden Sie unter unserer Eigenmarke
+            - link "HD24" [ref=e237] [cursor=pointer]:
+              - /url: https://www.hd24.de/
+            - text: . Ob
+            - link "Heizkörper" [ref=e238] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizkoerper/hd24-heizkoerper/
+            - text: ","
+            - link "Fußbodenheizung" [ref=e239] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/fussbodenheizung/
+            - text: ","
+            - link "Befestigungstechnik" [ref=e240] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/befestigungstechnik/
+            - text: ","
+            - link "Speichertechnik" [ref=e241] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/speichertechnik/
+            - text: oder
+            - link "Solarflüssigkeit" [ref=e242] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/solarfluessigkeit/
+            - text: ":"
+            - link "HD24 - Unsere starke Marke!" [ref=e243] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/heizungsdiscount24/
+            - text: bietet Ihnen hochwertige Qualität zum kleinen Preis!
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - figure [ref=e247]:
+            - link [ref=e248] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/oel-heizung/
+              - img "Öl-Heizung" [ref=e249]
+            - generic [ref=e250]:
+              - heading [level=2] [ref=e251]:
+                - link "Öl-Heizung" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/oel-heizung/
+              - separator [ref=e253]
+              - link "Kessel und Zubehör von deutschen Herstellern wie Buderus, Vaillant oder Wolf" [ref=e254] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/oel-heizung/
+          - figure [ref=e255]:
+            - link [ref=e256] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/wohnungslueftung/
+              - img "Wohnungslüftung" [ref=e257]
+            - generic [ref=e258]:
+              - heading [level=2] [ref=e259]:
+                - link "Wohnungslüftung" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/wohnungslueftung/
+              - separator [ref=e261]
+              - link "Große Auswahl an KWL-Geräten und passendem Zubehör" [ref=e262] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/wohnungslueftung/
+        - figure [ref=e264]:
+          - link [ref=e265] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/gas-heizung/
+            - img "Gas-Heizung" [ref=e266]
+          - generic [ref=e267]:
+            - heading [level=2] [ref=e268]:
+              - link "Gas-Heizung" [ref=e269] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/gas-heizung/
+            - separator [ref=e270]
+            - link "Heizwert- und Brennwertthermen führender Hersteller wie Buderus, Bosch, Vaillant, Viessmann, Wolf" [ref=e271] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/gas-heizung/
+        - figure [ref=e273]:
+          - link [ref=e274] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/solartechnik/
+            - img "Solartechnik" [ref=e275]
+          - generic [ref=e276]:
+            - heading [level=2] [ref=e277]:
+              - link "Solartechnik" [ref=e278] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/solartechnik/
+            - separator [ref=e279]
+            - link "Komplette thermische Solaranlagen oder einzelne Komponenten wie Flachkollektoren" [ref=e280] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/solartechnik/
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]: HeizungsDiscount24
+          - heading "Heizung kaufen zu Top Preisen und mit Profi-Beratung" [level=1] [ref=e284]
+        - generic [ref=e285]:
+          - paragraph [ref=e286]: Bei HeizungsDiscount24 finden Sie eine große Auswahl an moderner Heizungstechnik für Neubau, Renovierung und Modernisierung.
+          - paragraph [ref=e287]:
+            - text: Ob
+            - link "Gasheizung" [ref=e288] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/gas-heizung/
+            - text: ","
+            - link "Ölheizung" [ref=e289] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/oel-heizung/
+            - text: ","
+            - link "Holzheizung" [ref=e290] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/holz-heizung/
+            - text: oder
+            - link "Wärmepumpen" [ref=e291] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/waermepumpen/
+            - text: – wir bieten Ihnen die passende Heizung für Ihr Zuhause. Zudem umfasst unser Sortiment eine riesiges Angebot von
+            - link "Heizkörper" [ref=e292] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizkoerper/
+            - text: ","
+            - link "Warmwasserwärmepumpen" [ref=e293] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/waermepumpen/
+            - text: ","
+            - link "Solaranlagen" [ref=e294] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/solartechnik/
+            - text: sowie umfangreiches
+            - link "Heiztechnik Zubehör" [ref=e295] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/zubehoer/
+            - text: namhafter
+            - link "Hersteller" [ref=e296] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/
+            - text: – alles zu absolut fairen Preisen und in geprüfter Markenqualität.
+          - paragraph [ref=e297]:
+            - text: Wer sein Haus mit Wärme versorgen möchte, steht vor vielen Entscheidungen. Unser erfahrenes
+            - link "Berater-Team" [ref=e298] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/kontakt.html
+            - text: unterstützt Sie bei der Auswahl der richtigen Heizung und hilft Ihnen bei der Planung Ihrer Heizungsanlage – individuell und herstellerneutral. So finden Sie garantiert die optimale Lösung für Ihr Projekt.
+          - paragraph [ref=e299]:
+            - text: Bei uns bestellen Sie Ihre neue Heizung bequem online. Wir liefern Ihre Heiztechnik zuverlässig direkt zu Ihnen nach Hause und vermitteln auf Wunsch Fachbetriebe für
+            - link "Einbau und Montage" [ref=e300] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+            - text: .
+          - paragraph [ref=e301]:
+            - text: Sichere
+            - link "Zahlungsmöglichkeiten" [ref=e302] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/zahlungsarten.html
+            - text: und ein zuverlässiger
+            - link "Versand" [ref=e303] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/versandkosten.html
+            - text: gehören dabei für uns genauso zur Selbstverständlichkeit wie die hohen Qualitätsanforderungen, die wir an unser Produktsortiment stellen. Unsere Produkte, wie Gas- bzw. Öl-Brennwertheizungen, Wärmepumpen, Gasthermen, Ölkessel, Heizkörper und Solaranlagen, sind ausschließlich hochwertige Neuwaren
+            - link "namhafter Markenhersteller" [ref=e304] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/marken/
+            - text: für den deutschen Markt.
+          - paragraph [ref=e305]: HeizungsDiscount24.de – Seit 20 Jahren der führende Händler für Heizung, Heiztechnik & Zubehör in Deutschland
+      - generic [ref=e307]:
+        - figure [ref=e309]:
+          - link [ref=e310] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/waermepumpen/
+            - img "Wärmepumpen" [ref=e311]
+          - generic [ref=e312]:
+            - heading [level=2] [ref=e313]:
+              - link "Wärmepumpen" [ref=e314] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/waermepumpen/
+            - separator [ref=e315]
+            - link "Egal ob Sie eine komplette Wärmepumpen Heizung für Ihr Einfamilienhaus oder eine kompakte Brauchwasserwärmepumpe zur Warmwasserbereitung suchen – bei uns finden Sie hochwertige Systeme von Buderus, Viessmann, Vaillant, Daikin, LG, Wolf und mehr" [ref=e316] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/waermepumpen/
+        - generic [ref=e317]:
+          - figure [ref=e318]:
+            - link [ref=e319] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/speichertechnik/
+              - img "Speichertechnik" [ref=e320]
+            - generic [ref=e321]:
+              - heading [level=2] [ref=e322]:
+                - link "Speichertechnik" [ref=e323] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/speichertechnik/
+              - separator [ref=e324]
+              - link "Riesige Auswahl an Speichertechnik der Markenhersteller Buderus, Bosch, TWL, Vaillant, Viessmann und Wolf" [ref=e325] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/speichertechnik/
+          - figure [ref=e326]:
+            - link [ref=e327] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/rohrsysteme/
+              - img "Rohrsysteme" [ref=e328]
+            - generic [ref=e329]:
+              - heading [level=2] [ref=e330]:
+                - link "Rohrsysteme" [ref=e331] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/rohrsysteme/
+              - separator [ref=e332]
+              - link "Stellen Sie unterschiedliche Rohre und dazu passende Pressfittings, Schraubfittings oder Steckfittings zusammen" [ref=e333] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/rohrsysteme/
+        - figure [ref=e335]:
+          - link [ref=e336] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/fussbodenheizung/
+            - img "Fußbodenheizung" [ref=e337]
+          - generic [ref=e338]:
+            - heading [level=2] [ref=e339]:
+              - link "Fussbodenheizung" [ref=e340] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/fussbodenheizung/
+            - separator [ref=e341]
+            - link "Hier finden Sie Einzelteile und Aktionspakete von Viessmann oder der Eigenmarke HD24" [ref=e342] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/fussbodenheizung/
+      - generic [ref=e344]:
+        - generic [ref=e345]:
+          - figure [ref=e346]:
+            - link [ref=e347] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/photovoltaik/
+              - img "Photovoltaik" [ref=e348]
+            - generic [ref=e349]:
+              - heading [level=2] [ref=e350]:
+                - link "Photovoltaik" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/photovoltaik/
+              - separator [ref=e352]
+              - link "Nutzen Sie die Vorteile der Photovoltaik für eine nachhaltige Energieerzeugung" [ref=e353] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/photovoltaik/
+          - figure [ref=e354]:
+            - link [ref=e355] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizkoerper/
+              - img "Heizkörper" [ref=e356]
+            - generic [ref=e357]:
+              - heading [level=2] [ref=e358]:
+                - link "Heizkörper" [ref=e359] [cursor=pointer]:
+                  - /url: https://www.heizungsdiscount24.de/heizkoerper/
+              - separator [ref=e360]
+              - link "Heizkörper aus unserem Sortiment für effiziente Raumwärme und Design" [ref=e361] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/heizkoerper/
+        - figure [ref=e363]:
+          - link [ref=e364] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/durchlauferhitzer/
+            - img "Durchlauferhitzer" [ref=e365]
+          - generic [ref=e366]:
+            - heading [level=2] [ref=e367]:
+              - link "Durchlauferhitzer" [ref=e368] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/durchlauferhitzer/
+            - separator [ref=e369]
+            - link "Effiziente Durchlauferhitzer für jeden Anspruch finden Sie in unserer breiten Produktpalette" [ref=e370] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/durchlauferhitzer/
+        - figure [ref=e372]:
+          - link [ref=e373] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/klimaanlagen/
+            - img "Klimaanlagen" [ref=e374]
+          - generic [ref=e375]:
+            - heading [level=2] [ref=e376]:
+              - link "Klimaanlagen" [ref=e377] [cursor=pointer]:
+                - /url: https://www.heizungsdiscount24.de/klimaanlagen/
+            - separator [ref=e378]
+            - link "Entdecken Sie das passende Klimagerät für Ihr Wohlfühlklima in Ihrem Zuhause" [ref=e379] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/klimaanlagen/
+      - list [ref=e381]:
+        - listitem [ref=e382]:
+          - link "" [ref=e383] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/anschlussgarantie.html
+          - heading [level=4] [ref=e385]:
+            - link "Anschlussgarantie" [ref=e386] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/anschlussgarantie.html
+          - paragraph [ref=e387]: Sichern Sie sich fünf Jahre Garantie, schnelle und einfache Hilfe sowie Ersatz von hohen Reparaturkosten für Ihre Gastherme oder Ihren Ölkessel!
+        - listitem [ref=e388]:
+          - link "" [ref=e389] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/treuhandservice.html
+          - heading [level=4] [ref=e391]:
+            - link "Treuhandservice" [ref=e392] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/treuhandservice.html
+          - paragraph [ref=e393]: Der Treuhandservice von Rechtsanwalt Jens Fischer bietet Ihnen Sicherheit und Schutz beim Onlinekauf von Heiz- und Solartechnik ab 1.000.- €.
+        - listitem [ref=e394]:
+          - link "" [ref=e395] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+          - heading [level=4] [ref=e397]:
+            - link "Montage-Partner finden" [ref=e398] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/heizung-montage-partner-finden.html
+          - paragraph [ref=e399]: HeizungsDiscount24 liefert Ihnen zuverlässig alle Produkte, die Sie für Ihre neue Heizung benötigen und vermittelt auf Wunsch zusätzlich auch die Heizungsmonteure.
+        - listitem [ref=e400]:
+          - link "" [ref=e401] [cursor=pointer]:
+            - /url: https://www.heizungsdiscount24.de/zahlungsarten.html
+          - heading [level=4] [ref=e403]:
+            - link "Zahlungsarten" [ref=e404] [cursor=pointer]:
+              - /url: https://www.heizungsdiscount24.de/zahlungsarten.html
+          - paragraph [ref=e405]: HeizungsDiscount24 bietet Ihnen eine Vielzahl von Zahlungsmöglichkeiten für ein sicheres und bequemes Einkaufen in unserem Onlineshop.
+  - contentinfo [ref=e406]:
+    - generic [ref=e408]:
+      - text: 
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - paragraph [ref=e411]: Fachberatung
+          - list [ref=e412]:
+            - listitem [ref=e413]:
+              - link "0641 / 948 252 00" [ref=e414] [cursor=pointer]:
+                - /url: tel:064194825200
+                - generic [aria-hidden] [ref=e415]: 
+                - text: 0641 / 948 252 00
+            - listitem [ref=e416]:
+              - generic [aria-hidden] [ref=e417]: 
+              - text: 0641 / 948 252 01
+            - listitem [ref=e418]:
+              - link "info@heizungsdiscount24.de" [ref=e419] [cursor=pointer]:
+                - /url: /kontakt.html
+                - generic [aria-hidden] [ref=e420]: 
+                - text: info@heizungsdiscount24.de
+            - listitem [ref=e421]:
+              - generic [ref=e422]: "Mo. - Fr.:"
+              - text: 08:00 - 17:00 Uhr
+        - generic [ref=e423]:
+          - paragraph [ref=e424]: Informationen
+          - list [ref=e425]:
+            - listitem [ref=e426]:
+              - text: 
+              - link "Anschlussgarantie" [ref=e427] [cursor=pointer]:
+                - /url: /anschlussgarantie.html
+            - listitem [ref=e428]:
+              - text: 
+              - link "Herstellergarantie" [ref=e429] [cursor=pointer]:
+                - /url: /herstellergarantie.html
+            - listitem [ref=e430]:
+              - text: 
+              - link "Versandkosten" [ref=e431] [cursor=pointer]:
+                - /url: /versandkosten.html
+            - listitem [ref=e432]:
+              - text: 
+              - link "Zahlungsarten" [ref=e433] [cursor=pointer]:
+                - /url: /zahlungsarten.html
+            - listitem [ref=e434]:
+              - text: 
+              - link "Aktuelles" [ref=e435] [cursor=pointer]:
+                - /url: /aktuelles
+            - listitem [ref=e436]:
+              - text: 
+              - link "Stellenangebote" [ref=e437] [cursor=pointer]:
+                - /url: /jobs.html
+            - listitem [ref=e438]:
+              - text: 
+              - link "Grounding Page" [ref=e439] [cursor=pointer]:
+                - /url: /facts.html
+        - generic [ref=e440]:
+          - paragraph [ref=e441]: Rechtliches
+          - list [ref=e442]:
+            - listitem [ref=e443]:
+              - text: 
+              - link "AGB" [ref=e444] [cursor=pointer]:
+                - /url: /agb.html
+            - listitem [ref=e445]:
+              - text: 
+              - link "Datenschutz" [ref=e446] [cursor=pointer]:
+                - /url: /datenschutz.html
+            - listitem [ref=e447]:
+              - text: 
+              - link "Datenschutzeinstellungen" [ref=e448] [cursor=pointer]:
+                - /url: "javascript: Cookiebot.renew()"
+            - listitem [ref=e449]:
+              - text: 
+              - link "Impressum" [ref=e450] [cursor=pointer]:
+                - /url: /impressum.html
+            - listitem [ref=e451]:
+              - text: 
+              - link "Widerrufsrecht" [ref=e452] [cursor=pointer]:
+                - /url: /widerrufsrecht.html
+            - listitem [ref=e453]:
+              - text: 
+              - link "Batterieverordnung" [ref=e454] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+            - listitem [ref=e455]:
+              - text: 
+              - link "Entsorgung von Elektroaltgeräten" [ref=e456] [cursor=pointer]:
+                - /url: /batteriegesetz.html
+        - generic [ref=e457]:
+          - paragraph [ref=e458]: Service
+          - list [ref=e459]:
+            - listitem [ref=e460]:
+              - text: 
+              - link "Kontakt" [ref=e461] [cursor=pointer]:
+                - /url: /kontakt.html
+            - listitem [ref=e462]:
+              - text: 
+              - link "Login Kundenkonto" [ref=e463] [cursor=pointer]:
+                - /url: /shop/system/?func=customer&action=homelist&wkid=54591899246944033431
+            - listitem [ref=e464]:
+              - text: 
+              - link "Montage-Partner finden" [ref=e465] [cursor=pointer]:
+                - /url: /heizung-montage-partner-finden.html
+            - listitem [ref=e466]:
+              - text: 
+              - link "Montage-Partner werden" [ref=e467] [cursor=pointer]:
+                - /url: /heizung-montage-partner-werden.html
+            - listitem [ref=e468]:
+              - text: 
+              - link "Retourenservice" [ref=e469] [cursor=pointer]:
+                - /url: /retourenservice.html
+            - listitem [ref=e470]:
+              - text: 
+              - link "Treuhandservice" [ref=e471] [cursor=pointer]:
+                - /url: /treuhandservice.html
+            - listitem [ref=e472]:
+              - text: 
+              - link "Vertrag widerrufen" [ref=e473] [cursor=pointer]:
+                - /url: /widerrufsrecht.html#os_form_widerruf
+    - generic [ref=e475]:
+      - generic [ref=e476]:
+        - generic [ref=e477]:
+          - generic [ref=e478]:
+            - strong [ref=e479]: © Heizungsdiscount 24 GmbH
+            - link "* Sämtliche Preise verstehen sich inkl. der gesetzlichen MwSt. und ggf. zzgl. Versandkosten." [ref=e480] [cursor=pointer]:
+              - /url: /versandkosten.html
+            - generic [aria-hidden] [ref=e481]: 
+            - text: Versandkostenfrei ab 500 EUR Bestellwert
+          - generic [ref=e482]:
+            - link [ref=e483] [cursor=pointer]:
+              - /url: https://www.youtube.com/@Heizungsdiscount24
+              - generic [aria-hidden] [ref=e484]: 
+            - link [ref=e485] [cursor=pointer]:
+              - /url: https://www.instagram.com/heizungsdiscount24.de/
+              - generic [aria-hidden] [ref=e486]: 
+            - link [ref=e487] [cursor=pointer]:
+              - /url: https://www.facebook.com/heizungsdiscount24
+              - generic [aria-hidden] [ref=e488]: 
+            - link [ref=e489] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/heizungsdiscount24-de/
+              - generic [aria-hidden] [ref=e490]: 
+        - link "Vorkasse Treuhand Rechnung Amazon Pay PayPal PayPal Kreditkarte PayPal Ratenkauf PayPal später zahlen Easy Credit" [ref=e492] [cursor=pointer]:
+          - /url: /zahlungsarten.html
+          - img "Vorkasse"
+          - img "Treuhand"
+          - img "Rechnung"
+          - img "Amazon Pay"
+          - img "PayPal"
+          - img "PayPal Kreditkarte"
+          - img "PayPal Ratenkauf"
+          - img "PayPal später zahlen"
+          - img "Easy Credit"
+        - generic [ref=e494]:
+          - generic [ref=e495]: ★★★★★
+          - link "Die Bestellung wurde sofort bearbeitet und geliefert. Super zufrieden!" [ref=e497] [cursor=pointer]:
+            - /url: https://www.trustedshops.de/bewertung/info_X233E0FDF51FF959BBB268A8053AE964C.html
+          - separator [ref=e498]
+          - strong [ref=e500]: Anonym
+          - link "Über die Echtheit der Trusted Shops Bewertungen." [ref=e502] [cursor=pointer]:
+            - /url: https://help.etrusted.com/hc/de/articles/23970864566162-Informationen-zum-Trusted-Shops-G%C3%BCtesiegel-und-zu-den-Trusted-Shops-Bewertungen
+        - link [ref=e504] [cursor=pointer]:
+          - /url: /ueber-uns.html
+          - img "Deutschlands beste Online Portale 2026" [ref=e505]
+      - generic [ref=e506]: Zur Erstellung einzelner Texte, Bilder und Serviceinhalte werden KI-gestützte Werkzeuge eingesetzt. Sämtliche Inhalte werden vor Veröffentlichung redaktionell geprüft.
+  - generic [ref=e508] [cursor=pointer]
+  - generic [ref=e510]:
+    - generic [ref=e511]:
+      - link [ref=e513] [cursor=pointer]:
+        - /url: https://www.trustami.com/erfahrung/heizungsdiscount24-d-bewertung
+        - img "trustami.com" [ref=e514]
+      - link [ref=e516] [cursor=pointer]:
+        - /url: /unsere-bewertungen.html
+        - img "Bewertungen" [ref=e517]
+    - generic [ref=e519]:
+      - generic [ref=e521]:
+        - generic [ref=e522]: "91.665"
+        - generic [ref=e523]: BEWERTUNGEN
+      - generic [ref=e524]: 4,9/5.0
+  - text:  
+  - iframe [aria-hidden] [ref=e527]

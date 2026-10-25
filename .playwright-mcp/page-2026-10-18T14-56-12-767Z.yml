@@ -1,0 +1,40 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - link "Zum Hauptinhalt springen" [ref=f27e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f27e4]:
+      - banner [ref=f27e6]:
+        - generic [ref=f27e7]:
+          - generic:
+            - link:
+              - /url: https://hmmh.jobs.personio.de
+          - 'combobox "Select language, current: Deutsch" [ref=f27e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=f27e14]:
+        - link "Zurück zur Stelle" [ref=f27e18] [cursor=pointer]:
+          - /url: /job/2573113
+        - generic [ref=f27e23]:
+          - generic [ref=f27e24]:
+            - heading "Java Developer | SAP Commerce (m/w/d)" [level=1] [ref=f27e25]
+            - generic [ref=f27e26]:
+              - generic [ref=f27e27]: Bremen, Remote
+              - generic [ref=f27e32]: Vollzeit
+              - generic [ref=f27e36]: Festanstellung
+          - generic [ref=f27e158]:
+            - heading "VIELEN DANK!" [level=5] [ref=f27e159]
+            - text: Wir haben Deine Bewerbung erhalten und werden uns in Kürze bei Dir melden!
+      - contentinfo [ref=f27e137]:
+        - generic [ref=f27e138]:
+          - generic [ref=f27e141]:
+            - img "Powered by Personio" [ref=f27e142]
+            - generic [ref=f27e143]:
+              - text: Powered by
+              - link [ref=f27e144] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=f27e145]: Personio
+          - generic [ref=f27e146]:
+            - link "Datenschutzerklärung" [ref=f27e147] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Impressum" [ref=f27e148] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=f27e149]

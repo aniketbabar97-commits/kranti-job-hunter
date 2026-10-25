@@ -1,0 +1,134 @@
+- generic [ref=f24e1]:
+  - link "Zum Hauptinhalt springen" [ref=f24e3] [cursor=pointer]:
+    - /url: "#maincontent"
+  - generic [ref=f24e4]:
+    - iframe [ref=f24e6]: <p>Ihr Browser kann leider keine eingebetteten Frames anzeigen</p>
+    - generic [ref=f24e9]:
+      - generic [ref=f24e10]:
+        - heading "Professional Software Developer m/w/d Kotlin/Java - Bewerbung" [level=1] [ref=f24e11]
+        - generic [ref=f24e12]: Bitte erfasse hier Deine persönlichen Daten. Klicke auf "Bewerben", wenn Du Deine Angaben gemacht hast.
+      - generic [ref=f24e15]:
+        - generic [ref=f24e18]:
+          - link "Login" [ref=f24e19] [cursor=pointer]:
+            - /url: /Vacancies/8484/Application/Login/1
+          - generic [ref=f24e20]: Klicke auf Login, wenn Du Dein Profil bereits früher online hinterlegt hast.
+        - generic [ref=f24e28]:
+          - generic [ref=f24e29]: "Foto:"
+          - button "Foto" [ref=f24e34]
+        - generic [ref=f24e35]:
+          - generic [ref=f24e36]: "Anrede:"
+          - generic [ref=f24e39]:
+            - generic [ref=f24e41]:
+              - radio "Frau" [checked]
+              - generic [ref=f24e42] [cursor=pointer]: Frau
+            - generic [ref=f24e45]:
+              - radio "Herr"
+              - generic [ref=f24e46] [cursor=pointer]: Herr
+            - generic [ref=f24e49]:
+              - radio "Divers"
+              - generic [ref=f24e50] [cursor=pointer]: Divers
+            - generic [ref=f24e53]:
+              - radio "Keine Angabe"
+              - generic [ref=f24e54] [cursor=pointer]: Keine Angabe
+        - generic [ref=f24e56]:
+          - generic [ref=f24e57]: "Vorname*:"
+          - textbox "Vorname" [ref=f24e61]: Kranti
+        - generic [ref=f24e62]:
+          - generic [ref=f24e63]: "Nachname*:"
+          - textbox "Nachname" [ref=f24e67]: Chavan
+        - generic [ref=f24e68]:
+          - generic [ref=f24e69]: "Geburtsdatum:"
+          - group [ref=f24e73]:
+            - generic [ref=f24e74]:
+              - generic [ref=f24e75]: Geburtsdatum
+              - textbox "Geburtsdatum" [ref=f24e76]:
+                - /placeholder: mm/dd/yyyy
+                - text: 10/14/1997
+            - button [aria-hidden] [ref=f24e77] [cursor=pointer]:
+              - generic [ref=f24e78]: 
+        - generic [ref=f24e82]:
+          - generic [ref=f24e83]: "E-Mail-Adresse/Login*:"
+          - generic [ref=f24e86]:
+            - textbox "E-Mail-Adresse/Login" [ref=f24e87]: krantichavan198@gmail.com
+            - generic [ref=f24e88]: Die hier angegebene E-Mail-Adresse wird als Korrespondenz-E-Mail und als Login verwendet.
+        - generic [ref=f24e90]:
+          - generic [ref=f24e91]: "Passwort*:"
+          - generic [ref=f24e94]:
+            - textbox "Passwort" [ref=f24e95]: Kranti97h@
+            - text: 
+            - generic [ref=f24e96]: Bitte bestimme ein Passwort für Dein Login. Das Passwort muss mindestens 6 Zeichen lang sein.
+        - generic [ref=f24e101]:
+          - generic [ref=f24e102]: "Strasse:"
+          - textbox "Strasse" [ref=f24e106]: Blücherstraße 6
+        - generic [ref=f24e107]:
+          - generic [ref=f24e108]: "PLZ*:"
+          - textbox "PLZ" [ref=f24e112]: "76185"
+        - generic [ref=f24e113]:
+          - generic [ref=f24e114]: "Ort*:"
+          - textbox "Ort" [ref=f24e118]: Karlsruhe
+        - generic [ref=f24e119]:
+          - generic [ref=f24e120]: "Telefon / Mobiltelefon*:"
+          - textbox "Telefon / Mobiltelefon" [ref=f24e124]: +49 15750174177
+        - generic [ref=f24e125]:
+          - generic [ref=f24e126]: "XING-Profil:"
+          - generic [ref=f24e129]:
+            - textbox "XING-Profil" [ref=f24e130]
+            - generic [ref=f24e131]: URL
+        - generic [ref=f24e142]: Bitte beachte, dass nur Bewerbungen mit Lebenslauf und Bewerbungsschreiben berücksichtigt werden können. Bitte lade Deine Dokumente als PDF mit maximal 10MB hoch.
+        - generic [ref=f24e147]:
+          - generic [ref=f24e148]: "Bewerbungsschreiben*:"
+          - generic [ref=f24e151]:
+            - button "Bewerbungsschreiben" [ref=f24e153]
+            - generic [ref=f24e154]: Maximal 50 MB
+        - generic [ref=f24e156]:
+          - generic [ref=f24e157]: "Lebenslauf*:"
+          - generic [ref=f24e160]:
+            - button "Lebenslauf" [active] [ref=f24e162]
+            - generic [ref=f24e163]: Maximal 50 MB
+        - generic [ref=f24e165]:
+          - generic [ref=f24e166]: "XING / LinkedIn-Profil:"
+          - generic [ref=f24e169]:
+            - button "XING / LinkedIn-Profil" [ref=f24e171]
+            - generic [ref=f24e172]: Maximal 50 MB
+        - generic [ref=f24e174]:
+          - generic [ref=f24e175]: "Zeugnisse:"
+          - generic [ref=f24e178]:
+            - button "Zeugnisse" [ref=f24e180]
+            - generic [ref=f24e181]: Maximal 50 MB
+        - generic [ref=f24e185]:
+          - button [ref=f24e187]
+          - generic [ref=f24e188]: Weitere Dokumente
+        - generic [ref=f24e192]:
+          - button [ref=f24e194]
+          - generic [ref=f24e195]: Weitere Dokumente
+        - generic [ref=f24e203]:
+          - generic [ref=f24e204]: "Wie bist Du auf uns aufmerksam geworden? *:"
+          - combobox "Wie bist Du auf uns aufmerksam geworden?" [ref=f24e208]:
+            - option "Bitte wählen"
+            - option "-----------------------------------------"
+            - option "Arbeitsagentur (Jobbörse)"
+            - option "Empfehlung durch Mitarbeitende"
+            - option "Karriere-Seite FLYERALARM"
+            - option "Kontakt auf Messe / Event"
+            - option "LinkedIn / Social Media" [selected]
+            - option "Personalvermittler"
+            - option "Printanzeigen"
+            - option "Sonstige Online-Jobbörse"
+            - option "Suchmaschine (Google, Yahoo …)"
+        - generic [ref=f24e221]: Datenschutzbestimmungen
+        - link "Datenschutzbestimmungen" [ref=f24e229] [cursor=pointer]:
+          - /url: /Vacancies/8484/DataProtection/1
+        - generic [ref=f24e230]:
+          - generic [ref=f24e231]: "Bitte bestätigen*:"
+          - generic [ref=f24e234]:
+            - checkbox "Ich habe die Datenschutzerklärung zur Kenntnis genommen"
+            - text: Ich habe die Datenschutzerklärung zur Kenntnis genommen
+        - generic [ref=f24e250]:
+          - button "Bewerbung definitiv einreichen" [ref=f24e252] [cursor=pointer]
+          - link "Abbrechen" [ref=f24e254] [cursor=pointer]:
+            - /url: /Jobs?CustomFunction=CheckMarket
+    - generic "recruitingapp stable | 2026.32.0 (stable)" [ref=f24e255]:
+      - generic [ref=f24e257]:
+        - text: Umantis
+        - link "" [ref=f24e259] [cursor=pointer]:
+          - /url: "#top"

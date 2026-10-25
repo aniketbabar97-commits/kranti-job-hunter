@@ -1,0 +1,310 @@
+- generic [active] [ref=f7e1]:
+  - region [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - link "Cookiebot by Usercentrics - opens in a new window" [ref=f7e6] [cursor=pointer]:
+        - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tabpanel "Consent" [ref=f7e34]:
+        - generic [ref=f7e36]:
+          - heading "This website uses cookies" [level=2] [ref=f7e37]
+          - generic [ref=f7e38]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic.
+        - generic [ref=f7e39]:
+          - group "Consent Selection" [ref=f7e45]:
+            - generic [ref=f7e47]:
+              - generic [ref=f7e48]:
+                - strong [ref=f7e50]: Necessary
+                - generic [ref=f7e51]:
+                  - checkbox "Necessary" [checked] [disabled]
+              - generic [ref=f7e52]:
+                - strong [ref=f7e54] [cursor=pointer]: Preferences
+                - switch "Preferences" [checked] [ref=f7e56] [cursor=pointer]
+              - generic [ref=f7e57]:
+                - strong [ref=f7e59] [cursor=pointer]: Statistics
+                - switch "Statistics" [checked] [ref=f7e61] [cursor=pointer]
+              - generic [ref=f7e62]:
+                - strong [ref=f7e64] [cursor=pointer]: Marketing
+                - switch "Marketing" [checked] [ref=f7e66] [cursor=pointer]
+          - link "Show details" [ref=f7e68] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f7e72]:
+        - button "Deny" [ref=f7e73] [cursor=pointer]
+        - button "Allow selection" [ref=f7e74] [cursor=pointer]
+        - button "Allow all" [ref=f7e75] [cursor=pointer]
+  - banner [ref=f7e76]:
+    - navigation [ref=f7e77]:
+      - link "Zur Startseite" [ref=f7e78] [cursor=pointer]:
+        - /url: /
+      - button "Menü öffnen" [ref=f7e81] [cursor=pointer]
+  - main [ref=f7e84]:
+    - generic [ref=f7e88]:
+      - heading "Lead Backend Engineer E-Commerce [m/w/d] - Hamburg / Berlin" [level=1] [ref=f7e89]
+      - generic [ref=f7e90]:
+        - generic [ref=f7e91]: Festanstellung
+        - generic [ref=f7e92]: Payment
+      - paragraph [ref=f7e93]: Für ein renommiertes Unternehmen im E-Commerce-Bereich wird ein Lead Backend Engineer [m/w/d] für die Standorte Hamburg oder Berlin gesucht.
+      - generic [ref=f7e94]:
+        - generic [ref=f7e95]: PHP
+        - generic [ref=f7e96]: Symfony
+        - generic [ref=f7e97]: Laravel
+        - generic [ref=f7e98]: MySQL
+        - generic [ref=f7e99]: Redis
+        - generic [ref=f7e100]: GenAI
+        - generic [ref=f7e101]: Kubernetes
+        - generic [ref=f7e102]: AWS
+      - generic [ref=f7e103]:
+        - generic [ref=f7e104]: 85.000€ - 100.000€
+        - generic [ref=f7e109]: Hamburg / Berlin
+        - generic [ref=f7e115]: VAC-2389
+      - link "Jetzt bewerben" [ref=f7e122] [cursor=pointer]:
+        - /url: "#apply"
+    - generic [ref=f7e126]:
+      - generic [ref=f7e127]:
+        - generic [ref=f7e129]:
+          - generic [ref=f7e130]:
+            - paragraph [ref=f7e131]: Job Beschreibung
+            - paragraph [ref=f7e133]: In dieser Position übernimmst du die Leitung und Weiterentwicklung eines Backend-Teams. Zu den Hauptaufgaben gehören die Architektur und Implementierung skalierbarer Backend-Lösungen mit PHP, Symfony und Laravel, die Optimierung von Datenbankstrukturen in MySQL sowie die Integration von Redis. Zudem arbeitest Du eng mit Frontend-Entwicklern zusammen, führst CI/CD-Pipelines ein und kümmerst Dich um das Mentoring des Engineering-Teams.
+          - generic [ref=f7e134]:
+            - heading "Deine Mission" [level=2] [ref=f7e135]
+            - list [ref=f7e136]:
+              - listitem [ref=f7e137]:
+                - paragraph [ref=f7e139]: Leitung und Weiterentwicklung eines Backend-Teams im E-Commerce-Bereich.
+              - listitem [ref=f7e140]:
+                - paragraph [ref=f7e142]: Architektur und Implementierung von skalierbaren Backend-Lösungen mit PHP, Symfony und Laravel.
+              - listitem [ref=f7e143]:
+                - paragraph [ref=f7e145]: Optimierung der Datenbankstrukturen und -abfragen in MySQL sowie Integration von Redis für verbesserte Performance.
+              - listitem [ref=f7e146]:
+                - paragraph [ref=f7e148]: Zusammenarbeit mit Frontend-Entwicklern zur Gewährleistung einer nahtlosen User Experience.
+              - listitem [ref=f7e149]:
+                - paragraph [ref=f7e151]: Einführung und Pflege von CI/CD-Pipelines sowie Containerisierung mit Kubernetes und AWS.
+              - listitem [ref=f7e152]:
+                - paragraph [ref=f7e154]: Du triffst Entscheidungen zur Architektur der Systeme.
+              - listitem [ref=f7e155]:
+                - paragraph [ref=f7e157]: Du bist verantwortlich für das Mentoring des Engineering-Teams.
+          - generic [ref=f7e158]:
+            - heading "Dein Skillset" [level=2] [ref=f7e159]
+            - list [ref=f7e160]:
+              - listitem [ref=f7e161]:
+                - paragraph [ref=f7e163]: Abgeschlossenes Studium der Informatik oder eine vergleichbare Qualifikation.
+              - listitem [ref=f7e164]:
+                - paragraph [ref=f7e166]: Mehrjährige Erfahrung in der Backend-Entwicklung, insbesondere mit PHP, Symfony und Laravel.
+              - listitem [ref=f7e167]:
+                - paragraph [ref=f7e169]: Fundierte Kenntnisse in MySQL und Redis sowie Erfahrung in Cloud-Technologien wie AWS.
+              - listitem [ref=f7e170]:
+                - paragraph [ref=f7e172]: Erfahrung mit modernen Software-Entwicklungsmethoden und agilen Prozessen.
+              - listitem [ref=f7e173]:
+                - paragraph [ref=f7e175]: Fähigkeit, komplexe technische Konzepte verständlich zu kommunizieren und das Team zu führen.
+          - generic [ref=f7e176]:
+            - heading "Benefits" [level=2] [ref=f7e177]
+            - list [ref=f7e178]:
+              - listitem [ref=f7e179]:
+                - paragraph [ref=f7e181]: Attraktives Gehaltspaket zwischen 85.000 und 100.000 Euro.
+              - listitem [ref=f7e182]:
+                - paragraph [ref=f7e184]: Flexible Arbeitszeiten und die Möglichkeit, remote zu arbeiten.
+              - listitem [ref=f7e185]:
+                - paragraph [ref=f7e187]: Fort- und Weiterbildungsmöglichkeiten zur persönlichen und beruflichen Entwicklung.
+              - listitem [ref=f7e188]:
+                - paragraph [ref=f7e190]: Ein modernes Arbeitsumfeld mit neuester Technologie und innovativen Projekten.
+              - listitem [ref=f7e191]:
+                - paragraph [ref=f7e193]: Teamorientierte Unternehmenskultur mit regelmäßigen Teamevents.
+          - generic [ref=f7e194]: Bewirb Dich jetzt als Lead Backend Engineer E-Commerce [m/w/d] in Hamburg oder Berlin!
+        - complementary [ref=f7e200]:
+          - generic [ref=f7e201]:
+            - generic [ref=f7e203]:
+              - heading "Jetzt bewerben" [level=2] [ref=f7e204]
+              - paragraph [ref=f7e205]: Wir melden uns in der Regel innerhalb von 48 Stunden bei dir.
+              - generic [ref=f7e206]:
+                - generic [ref=f7e207]:
+                  - generic [ref=f7e208]:
+                    - generic [ref=f7e209]: Vorname
+                    - textbox "Vorname" [ref=f7e210]
+                  - generic [ref=f7e211]:
+                    - generic [ref=f7e212]: Nachname
+                    - textbox "Nachname" [ref=f7e213]
+                - generic [ref=f7e214]:
+                  - generic [ref=f7e215]: E-Mail-Adresse
+                  - textbox "E-Mail-Adresse" [ref=f7e216]:
+                    - /placeholder: max@example.com
+                - generic [ref=f7e217]:
+                  - generic [ref=f7e218]: Telefon
+                  - textbox "Telefon" [ref=f7e219]:
+                    - /placeholder: +49 123 456789
+                - generic [ref=f7e220]:
+                  - paragraph [ref=f7e221]: Lebenslauf hochladen
+                  - generic [ref=f7e223] [cursor=pointer]:
+                    - img "Upload CV" [ref=f7e224]
+                    - text: PDF, max. 20 MB
+                - group "Datenschutzbestätigung" [ref=f7e226]:
+                  - generic [ref=f7e228]:
+                    - checkbox "Ich bestätige hiermit, dass ich die Dienstleistungen von \"Die Tech Recruiter GmbH\" nutzen möchte und die Datenschutzhinweise, die Datenschutzerklärung und die Nutzungsbedingungen akzeptiere." [ref=f7e229]
+                    - generic [ref=f7e230]:
+                      - text: Ich bestätige hiermit, dass ich die Dienstleistungen von "Die Tech Recruiter GmbH" nutzen möchte und die
+                      - link "Datenschutzhinweise" [ref=f7e231] [cursor=pointer]:
+                        - /url: /datenschutzhinweis/
+                      - text: ", die"
+                      - link "Datenschutzerklärung" [ref=f7e232] [cursor=pointer]:
+                        - /url: /datenschutz/
+                      - text: und die
+                      - link "Nutzungsbedingungen" [ref=f7e233] [cursor=pointer]:
+                        - /url: /nutzungsbedingungen/
+                      - text: akzeptiere.
+                - button "Bewerbung absenden" [ref=f7e234] [cursor=pointer]
+            - generic [ref=f7e235]:
+              - paragraph [ref=f7e236]: Direkter Draht
+              - heading "Die Tech Recruiter begleitet dich persönlich durch den Prozess." [level=3] [ref=f7e237]
+              - paragraph [ref=f7e238]: Mit 25 Jahren Erfahrung in der IT Personalberatung begleiten wir dich verbindlich vom Erstkontakt bis zum Vertragsabschluss.
+      - generic [ref=f7e240]:
+        - generic [ref=f7e241]:
+          - generic [ref=f7e242]:
+            - paragraph [ref=f7e243]: Ähnliche Jobs
+            - heading "Passende Positionen" [level=2] [ref=f7e244]
+            - paragraph [ref=f7e245]: Weitere Rollen mit ähnlichem Stack, vergleichbarer Verantwortung oder passenderem Arbeitsmodell.
+          - link "Alle Jobs anzeigen" [ref=f7e246] [cursor=pointer]:
+            - /url: /jobs/
+        - generic [ref=f7e249]:
+          - link "Festanstellung Senior Software Engineer [m/w/d] Castrop-Rauxel 75.000€ - 85.000€ Details ansehen" [ref=f7e250] [cursor=pointer]:
+            - /url: https://dietechrecruiter.de/jobs/senior-software-engineer-castrop-rauxel-vac-2398/
+            - generic [ref=f7e251]: Festanstellung
+            - heading "Senior Software Engineer [m/w/d]" [level=3] [ref=f7e253]
+            - generic [ref=f7e254]:
+              - paragraph [ref=f7e255]: Castrop-Rauxel
+              - paragraph [ref=f7e256]: 75.000€ - 85.000€
+            - generic [ref=f7e257]: Details ansehen
+          - link "Hybrid Festanstellung Senior PHP Backend Developer [m/w/d] - Hamburg (Hybrid) Hamburg (Hybrid) 75.000€ - 85.000€ Details ansehen" [ref=f7e261] [cursor=pointer]:
+            - /url: https://dietechrecruiter.de/jobs/senior-php-backend-developer-hamburg-job-vac-2377/
+            - generic [ref=f7e262]:
+              - generic [ref=f7e263]: Hybrid
+              - generic [ref=f7e264]: Festanstellung
+            - heading "Senior PHP Backend Developer [m/w/d] - Hamburg (Hybrid)" [level=3] [ref=f7e265]
+            - generic [ref=f7e266]:
+              - paragraph [ref=f7e267]: Hamburg (Hybrid)
+              - paragraph [ref=f7e268]: 75.000€ - 85.000€
+            - generic [ref=f7e269]: Details ansehen
+          - link "Hybrid Festanstellung (Senior) QA Engineer (m/w/d) Hamburg (Hybrid) 65.000€ - 75.000€ Details ansehen" [ref=f7e273] [cursor=pointer]:
+            - /url: https://dietechrecruiter.de/jobs/senior-qa-engineer-hamburg-vac-2399/
+            - generic [ref=f7e274]:
+              - generic [ref=f7e275]: Hybrid
+              - generic [ref=f7e276]: Festanstellung
+            - heading "(Senior) QA Engineer (m/w/d)" [level=3] [ref=f7e277]
+            - generic [ref=f7e278]:
+              - paragraph [ref=f7e279]: Hamburg (Hybrid)
+              - paragraph [ref=f7e280]: 65.000€ - 75.000€
+            - generic [ref=f7e281]: Details ansehen
+  - contentinfo [ref=f7e286]:
+    - generic [ref=f7e288]:
+      - generic [ref=f7e289]:
+        - generic [ref=f7e290]:
+          - generic [ref=f7e291]: Die Tech Recruiter
+          - paragraph [ref=f7e292]: IT Recruitment Excellence - Top IT Jobs & IT Experten!
+        - generic [ref=f7e293]:
+          - link "LinkedIn" [ref=f7e294] [cursor=pointer]:
+            - /url: https://linkedin.com/company/die-tech-recruiter-gmbh
+          - link "X" [ref=f7e297] [cursor=pointer]:
+            - /url: https://x.com/TechRecruiter24
+          - link "Facebook" [ref=f7e300] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61560687786513
+          - link "Instagram" [ref=f7e303] [cursor=pointer]:
+            - /url: https://instagram.com/dietechrecruiter24/?fbclid=IwAR1YjUKcdVYtGrBt-QHdZT98Rfz9oVaPEAJWZPXbo5BgDAe_swJcUejBPp8
+          - link "YouTube" [ref=f7e306] [cursor=pointer]:
+            - /url: https://youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA
+          - link "Spotify" [ref=f7e309] [cursor=pointer]:
+            - /url: https://open.spotify.com/intl-de/artist/7jtq9kLJGHYKnhMzrcET9d?si=rsSkoSI-T8-5a5Qw6uOF0A
+      - generic [ref=f7e312]:
+        - generic [ref=f7e313]:
+          - heading "Recruitment" [level=3] [ref=f7e314]
+          - list [ref=f7e315]:
+            - listitem [ref=f7e316]:
+              - link "IT Personalvermittlung" [ref=f7e317] [cursor=pointer]:
+                - /url: /it-personalvermittlung/
+            - listitem [ref=f7e318]:
+              - link "Freelancer" [ref=f7e319] [cursor=pointer]:
+                - /url: /it-freelancer-finden/
+            - listitem [ref=f7e320]:
+              - link "Interim Recruitment" [ref=f7e321] [cursor=pointer]:
+                - /url: /interim-recruiter/
+            - listitem [ref=f7e322]:
+              - link "IT-Headhunter" [ref=f7e323] [cursor=pointer]:
+                - /url: /it-headhunter/
+        - generic [ref=f7e324]:
+          - heading "Beratung" [level=3] [ref=f7e325]
+          - list [ref=f7e326]:
+            - listitem [ref=f7e327]:
+              - link "IT Personalberatung" [ref=f7e328] [cursor=pointer]:
+                - /url: /it-personalberatung/
+            - listitem [ref=f7e329]:
+              - link "IT Training für Recruiter" [ref=f7e330] [cursor=pointer]:
+                - /url: /it-recruitment-training/
+            - listitem [ref=f7e331]:
+              - link "IT-Stellenanzeige schalten" [ref=f7e332] [cursor=pointer]:
+                - /url: /it-stellenanzeige-schalten/
+        - generic [ref=f7e333]:
+          - heading "Talente" [level=3] [ref=f7e334]
+          - list [ref=f7e335]:
+            - listitem [ref=f7e336]:
+              - link "Profil Registrieren" [ref=f7e337] [cursor=pointer]:
+                - /url: /job-finden/
+            - listitem [ref=f7e338]:
+              - link "Freelancer registrieren" [ref=f7e339] [cursor=pointer]:
+                - /url: /freelancer-projekte-finden/
+            - listitem [ref=f7e340]:
+              - link "Lebenslauf optimieren" [ref=f7e341] [cursor=pointer]:
+                - /url: /professionellen-lebenslauf-erstellen/
+        - generic [ref=f7e342]:
+          - heading "Jobs" [level=3] [ref=f7e343]
+          - list [ref=f7e344]:
+            - listitem [ref=f7e345]:
+              - link "Job finden" [ref=f7e346] [cursor=pointer]:
+                - /url: /jobs/
+            - listitem [ref=f7e347]:
+              - link "Projekt finden" [ref=f7e348] [cursor=pointer]:
+                - /url: /jobs/
+        - generic [ref=f7e349]:
+          - heading "Die Tech Recruiter" [level=3] [ref=f7e350]
+          - list [ref=f7e351]:
+            - listitem [ref=f7e352]:
+              - link "Über uns" [ref=f7e353] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f7e354]:
+              - link "Blog" [ref=f7e355] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=f7e356]:
+              - link "Google for Jobs Validator" [ref=f7e357] [cursor=pointer]:
+                - /url: /google-for-jobs-validator/
+            - listitem [ref=f7e358]:
+              - link "Sichtbarkeit prüfen" [ref=f7e359] [cursor=pointer]:
+                - /url: /stellenanzeigen-sichtbarkeit-pruefen/
+        - generic [ref=f7e360]:
+          - heading "IT-Rollen" [level=3] [ref=f7e361]
+          - list [ref=f7e362]:
+            - listitem [ref=f7e363]:
+              - link "Softwareentwickler finden" [ref=f7e364] [cursor=pointer]:
+                - /url: /softwareentwickler-finden/
+            - listitem [ref=f7e365]:
+              - link "Frontend-Entwickler finden" [ref=f7e366] [cursor=pointer]:
+                - /url: /frontend-entwickler-finden/
+            - listitem [ref=f7e367]:
+              - link "Backend-Entwickler finden" [ref=f7e368] [cursor=pointer]:
+                - /url: /backend-entwickler-finden/
+            - listitem [ref=f7e369]:
+              - link "DevOps Engineer finden" [ref=f7e370] [cursor=pointer]:
+                - /url: /devops-engineer-finden/
+            - listitem [ref=f7e371]:
+              - link "IT-Security finden" [ref=f7e372] [cursor=pointer]:
+                - /url: /it-security-finden/
+            - listitem [ref=f7e373]:
+              - link "IT-Projektmanager finden" [ref=f7e374] [cursor=pointer]:
+                - /url: /it-projektmanager-finden/
+            - listitem [ref=f7e375]:
+              - link "Product Owner finden" [ref=f7e376] [cursor=pointer]:
+                - /url: /product-owner-finden/
+            - listitem [ref=f7e377]:
+              - link "KI-Entwickler finden" [ref=f7e378] [cursor=pointer]:
+                - /url: /ki-entwickler-finden/
+    - generic [ref=f7e381]:
+      - generic [ref=f7e382]: © 2026 Die Tech Recruiter GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f7e383]:
+        - link "Impressum" [ref=f7e384] [cursor=pointer]:
+          - /url: /impressum/
+        - link "Datenschutz" [ref=f7e385] [cursor=pointer]:
+          - /url: /datenschutz/
+        - link "AGB" [ref=f7e386] [cursor=pointer]:
+          - /url: /agb/
+  - iframe [aria-hidden] [ref=f7e387]

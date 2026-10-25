@@ -1,0 +1,160 @@
+- generic [active] [ref=f8e1]:
+  - navigation [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - link [ref=f8e5] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f8e56]:
+        - generic [ref=f8e57]:
+          - list [ref=f8e59]:
+            - listitem [ref=f8e60]:
+              - link "☎ 06271 / 960 9000" [ref=f8e61] [cursor=pointer]:
+                - /url: tel:004962719609000
+          - list [ref=f8e63]:
+            - listitem [ref=f8e64]:
+              - link "Übersicht" [ref=f8e65] [cursor=pointer]:
+                - /url: /uebersicht
+            - listitem [ref=f8e66]:
+              - link "Arbeitgeber" [ref=f8e67] [cursor=pointer]:
+                - /url: /arbeitgeber
+            - listitem [ref=f8e68]:
+              - link "Arbeitsumgebung" [ref=f8e69] [cursor=pointer]:
+                - /url: /arbeitsumgebung
+            - listitem [ref=f8e70]:
+              - link "Kollegen" [ref=f8e71] [cursor=pointer]:
+                - /url: /kollegen
+            - listitem [ref=f8e72]:
+              - link "Zukunft" [ref=f8e73] [cursor=pointer]:
+                - /url: /zukunft
+            - listitem [ref=f8e74]:
+              - link "Benefits" [ref=f8e75] [cursor=pointer]:
+                - /url: /benefits
+            - listitem [ref=f8e76]:
+              - link "Offene Stellen" [ref=f8e77] [cursor=pointer]:
+                - /url: /offene-stellen
+        - generic [ref=f8e78]:
+          - link [ref=f8e79] [cursor=pointer]:
+            - /url: /schnell-bewerbung
+            - generic "Schnell-Bewerbung" [ref=f8e81]
+          - generic "Suche" [ref=f8e89] [cursor=pointer]
+  - banner [ref=f8e92]:
+    - img "Karriereportal der Quellwerke GmbH" [ref=f8e93]
+  - generic [ref=f8e95]:
+    - heading "Karriere-Center der Quellwerke GmbH" [level=1] [ref=f8e97]
+    - generic [ref=f8e98]:
+      - generic [ref=f8e99]:
+        - heading "Einfach und schnell zu Deinem Traumjob" [level=2] [ref=f8e103]
+        - paragraph [ref=f8e105]: Hallo und herzlich willkommen in unserem Karriere-Center. Wir freuen uns, dass Du hier bist. Mit dem Karriere-Center möchten wir nicht nur alles Wissenswerte über einen Job in unserer Agentur vermitteln, sondern vielmehr um Deine Bewerbung bewerben. Im ersten Schritt ist der Bewerbungsprozess damit einmal auf links gedreht, denn wir bewerben uns als Agentur und interessanter, verlässlicher, fairer und moderner Arbeitgeber bei Dir.
+        - paragraph [ref=f8e107]: Wir wünschen Dir viel Spaß bei der Nutzung dieses Portals und hoffen die Neugier auf uns geweckt zu haben. Sollten wir Deine Frage(n) nicht proaktiv beantwortet haben, brennen wir darauf sie Dir persönlich beantworten zu dürfen. Selbstverständlich freuen wir uns mindestens genauso riesig über Deine Bewerbung.
+        - paragraph [ref=f8e109]: Viele Grüße
+        - paragraph [ref=f8e111]: Timo & Christian
+        - link "ionicons-v5-a" [ref=f8e115] [cursor=pointer]:
+          - /url: "#c15388"
+          - img "ionicons-v5-a" [ref=f8e116]
+      - generic [ref=f8e126]:
+        - heading "Optionen für Deine Karriere" [level=3] [ref=f8e128]
+        - generic [ref=f8e129]:
+          - generic [ref=f8e132]:
+            - figure [ref=f8e136]
+            - paragraph [ref=f8e138]:
+              - strong [ref=f8e139]: Stellenangebote in Vollzeit
+          - generic [ref=f8e142]:
+            - figure [ref=f8e146]
+            - paragraph [ref=f8e148]:
+              - strong [ref=f8e149]: Stellenangebote in Teilzeit
+        - generic [ref=f8e150]:
+          - generic [ref=f8e153]:
+            - figure [ref=f8e157]
+            - paragraph [ref=f8e159]:
+              - strong [ref=f8e160]: Initiativbewerbungen
+          - generic [ref=f8e163]:
+            - figure [ref=f8e167]
+            - paragraph [ref=f8e169]:
+              - strong [ref=f8e170]: Angebote für ein DHBW Studium
+        - generic [ref=f8e171]:
+          - generic [ref=f8e174]:
+            - figure [ref=f8e178]
+            - paragraph [ref=f8e180]:
+              - strong [ref=f8e181]: Ausbildungsangebote über die IHK
+          - generic [ref=f8e184]:
+            - figure [ref=f8e188]
+            - paragraph [ref=f8e190]:
+              - strong [ref=f8e191]: Informationen über Praktika
+        - generic [ref=f8e192]:
+          - generic [ref=f8e195]:
+            - figure [ref=f8e199]
+            - paragraph [ref=f8e201]:
+              - strong [ref=f8e202]: Option eines Remote Arbeitsplatzes
+          - generic [ref=f8e205]:
+            - figure [ref=f8e209]
+            - paragraph [ref=f8e211]:
+              - strong [ref=f8e212]: Schnell-Bewerbung ohne Lebenslauf
+  - generic [ref=f8e214]:
+    - heading "Los geht’s – Ich möchte ..." [level=2] [ref=f8e216]
+    - generic [ref=f8e217]:
+      - generic [ref=f8e220]:
+        - figure [ref=f8e228]
+        - heading "... mich schnell bewerben ohne Lebenslauf & Unterlagen" [level=3] [ref=f8e230]
+        - paragraph [ref=f8e232]: Der einfachste und schnellste Weg Deine Bewerbung einzureichen. Folge dem nachstehenden Link, fülle das Formular aus und sende es ab.
+        - link "Let’s Go ionicons-v5-a" [ref=f8e234] [cursor=pointer]:
+          - /url: /schnell-bewerbung
+          - text: Let’s Go
+          - img "ionicons-v5-a" [ref=f8e235]
+      - generic [ref=f8e239]:
+        - figure [ref=f8e247]
+        - heading [level=3] [ref=f8e249]:
+          - text: ... eine
+          - generic [ref=f8e250]: Übersicht vakanter Stellen
+          - text: erhalten
+        - paragraph [ref=f8e252]: Hier findest Du die Liste mit unseren offenen Stellen samt den zugehörigen Informationen wo, wann und wie diese zu besetzen sind.
+        - link "Let’s Go! ionicons-v5-a" [ref=f8e254] [cursor=pointer]:
+          - /url: /offene-stellen
+          - text: Let’s Go!
+          - img "ionicons-v5-a" [ref=f8e255]
+      - generic [ref=f8e259]:
+        - figure [ref=f8e267]
+        - heading "... QW als Arbeitgeber erst etwas kennenlernen" [level=3] [ref=f8e269]
+        - paragraph [ref=f8e271]: Du möchtest uns erst besser kennenlernen, ehe Du Dich bewirbst? Sehr gerne! Wir haben Dir alle relevanten Infos hier zusammengestellt.
+        - link "Let’s Go ionicons-v5-a" [ref=f8e273] [cursor=pointer]:
+          - /url: /uebersicht
+          - text: Let’s Go
+          - img "ionicons-v5-a" [ref=f8e274]
+    - generic [ref=f8e278]:
+      - paragraph [ref=f8e279]:
+        - generic [ref=f8e280]:
+          - strong [ref=f8e281]: Infos an
+          - strong [ref=f8e282]: Recruiter
+          - strong [ref=f8e283]: und Personalagenturen
+      - paragraph [ref=f8e284]: Bitte nehmen Sie Abstand davon uns ungefragt Bewerber vorzuschlagen. Wir sehen unsere Mitarbeiter nicht als vermittelbare Handelsware, sondern vielmehr als wertzuschätzende Kollegen und Kolleginnen.
+  - contentinfo [ref=f8e285]:
+    - generic [ref=f8e289]:
+      - paragraph [ref=f8e292]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f8e294]:
+        - list [ref=f8e295]:
+          - listitem [ref=f8e296]:
+            - link "Datenschutz" [ref=f8e297] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/datenschutz
+          - listitem [ref=f8e298]:
+            - link "Impressum" [ref=f8e299] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/impressum
+        - generic [ref=f8e300]:
+          - link [ref=f8e301] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f8e303]
+          - link [ref=f8e304] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f8e306]
+          - link [ref=f8e307] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f8e309]
+  - generic [ref=f8e310]:
+    - heading "Cookie Manager" [level=3] [ref=f8e311]
+    - generic [ref=f8e313]:
+      - generic [ref=f8e314]: Essentials
+      - generic [ref=f8e316]: Analyse
+    - paragraph [ref=f8e319]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f8e320]:
+      - button "Alle akzeptieren" [ref=f8e321] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f8e322] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f8e323] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f8e325] [cursor=pointer]:
+      - /url: https://www.quellwerke.de/datenschutz

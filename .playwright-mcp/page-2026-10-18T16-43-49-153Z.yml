@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Nordason GmbH logo" [ref=e11]
+        - generic [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom
+            - paragraph [ref=e14]: Nordason
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom/16832591-frontend-developer-e-commerce-w-m-d
+            - paragraph [ref=e16]: Frontend Developer E-Commerce (w/m/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=e20]: KC
+        - generic [ref=e21]: Kranti Chavan
+    - generic [ref=e609]:
+      - heading "Kopie von Interessieren Sie sich für eine Vollzeit- oder Teilzeitstelle?" [level=2] [ref=e610]
+      - paragraph [ref=e611]: Sie können mehrere Optionen auswählen
+      - generic [ref=e613]:
+        - checkbox [ref=e615] [cursor=pointer]:
+          - paragraph [ref=e617]: a
+          - paragraph [ref=e618]: Vollzeit
+        - checkbox [ref=e623] [cursor=pointer]:
+          - paragraph [ref=e625]: b
+          - paragraph [ref=e626]: Teilzeit
+    - generic [ref=e43]:
+      - progressbar "89%" [ref=e630]
+      - generic [ref=e48]:
+        - button "Zurück" [ref=e91] [cursor=pointer]
+        - button "Weiter" [ref=e56] [cursor=pointer]
+  - alert [ref=e4]: "Nordason (Hamburg): Frontend Developer E-Commerce (w/m/d)"
+  - region "Notifications, bottom-end (alt+T)"

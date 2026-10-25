@@ -1,0 +1,200 @@
+- generic [active] [ref=e1]:
+  - generic [aria-hidden] [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e6]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: https://www.bela.de/
+          - heading [level=1] [ref=e11]: Erfolgreich im Handel
+        - link [ref=e13] [cursor=pointer]:
+          - /url: https://www.bela.de/en/
+          - text: EN
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - list [ref=e18]:
+              - menuitem [ref=e19]:
+                - link [ref=e20] [cursor=pointer]:
+                  - /url: https://www.bela.de/
+                  - text: Unternehmensgruppe
+              - menuitem [ref=e21]:
+                - link [ref=e22] [cursor=pointer]:
+                  - /url: https://www.bela.de/grosshandel/vertriebskonzepte/
+                  - text: Großhandel
+              - menuitem [ref=e23]:
+                - link [ref=e24] [cursor=pointer]:
+                  - /url: https://www.bela.de/karriere/#top
+                  - text: Karriere
+              - menuitem [ref=e26]:
+                - link [ref=e27] [cursor=pointer]:
+                  - /url: https://www.bela.de/presse/
+                  - text: Presse
+          - generic [ref=e29]:
+            - button [ref=e30] [cursor=pointer]
+            - searchbox [ref=e31]
+    - generic [ref=e33]:
+      - generic [ref=e35]:
+        - main [ref=e36]:
+          - generic [ref=e38]:
+            - heading [level=1] [ref=e44]: Mach den Schritt und erfinde dich neu!
+            - paragraph [ref=e48]: Schon gewusst? Bela ist ein inhabergeführtes Familienunternehmen im Lebensmittelgroß- und -Einzelhandel – und gleichzeitig einer der größten Arbeitgeber im Norden! Welche Jobs wir für dich haben, erfährst du auf unserer Karriereseite.
+            - generic [ref=e54]:
+              - link [ref=e58] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - generic [ref=e60]: 
+              - link [ref=e63] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - text: IT-Mitarbeiter (m/w/d)
+            - generic [ref=e65]:
+              - link [ref=e69] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - generic [ref=e71]: 
+              - link [ref=e74] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - text: Berufskraftfahrer (m/w/d)
+            - generic [ref=e76]:
+              - link [ref=e80] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - generic [ref=e82]: 
+              - link [ref=e85] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - text: Kommissionierer (m/w/d)
+            - generic [ref=e87]:
+              - link [ref=e91] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - generic [ref=e93]: 
+              - heading [level=1] [ref=e96]: Noch nichts passendes dabei?
+              - paragraph [ref=e99]: In unserem Stellenportal findest du noch mehr offene Stellen im Einzel- und Großhandel, im Bäckereihandwerk und -Bedarf, in der Verwaltung und im Logistikbereich.
+              - link [ref=e101] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - text: Zum Stellenportal
+            - generic [ref=e103]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/benefits/
+                - generic [ref=e109]: 
+              - link [ref=e112] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/benefits/
+                - text: Deine Vorteile
+            - generic [ref=e114]:
+              - link [ref=e118] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/
+                - generic [ref=e120]: 
+              - link [ref=e123] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/
+                - text: Bela als Arbeitgeber
+            - generic [ref=e125]:
+              - link [ref=e129] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/verantwortung/
+                - generic [ref=e131]: 
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/verantwortung/
+                - text: Unsere Verantwortung
+            - generic [ref=e136]:
+              - link [ref=e140] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/unsere-kultur/
+                - generic [ref=e142]: 
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/ueber-die-bela/unsere-kultur/
+                - text: Unsere Kultur
+        - complementary [ref=e147]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: Karriere-Portal
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://www.bela-karriere.de/karriere/
+                - generic [ref=e157]: 
+              - heading [level=3] [ref=e160]: Zur Stellenbörse
+            - generic [ref=e161]:
+              - generic [ref=e162]: Qualitätsfleischerei
+              - link [ref=e164] [cursor=pointer]:
+                - /url: https://jobs.fleischerei-famila.de/
+                - generic [ref=e166]: 
+              - heading [level=3] [ref=e169]: Arbeiten in der famila Fleischerei
+              - paragraph [ref=e171]: Jetzt bewerben!
+      - generic [ref=e174]:
+        - generic [ref=e177]:
+          - paragraph [ref=e178]: Bartels-Langness Zentrale Kiel
+          - paragraph [ref=e179]: Alte Weide 7-13 24116 Kiel
+          - paragraph [ref=e180]: +49 431 1696-0
+        - generic [ref=e183]:
+          - paragraph [ref=e184]: FrischeZentrum Gleschendorf
+          - paragraph [ref=e185]: Hinrichskrog 23684 Scharbeutz
+          - paragraph [ref=e186]: +49 4524 70710
+        - generic [ref=e189]:
+          - paragraph [ref=e190]: Lager Wittenhagen
+          - paragraph [ref=e191]: Försterdamm 1 18510 Wittenhagen
+          - paragraph [ref=e192]: +49 38327 440
+        - generic [ref=e195]:
+          - paragraph [ref=e196]: Lager Neumünster
+          - paragraph [ref=e197]: Baeyerstraße 10 24536 Neumünster
+          - paragraph [ref=e198]: +49 4321 5650
+      - contentinfo [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]: © Bartels-Langness
+          - navigation [ref=e202]:
+            - generic [ref=e203]:
+              - menuitem [ref=e204]:
+                - link [ref=e205] [cursor=pointer]:
+                  - /url: https://www.bela.de/kontakt/
+                  - text: Kontakt
+              - menuitem [ref=e206]:
+                - link [ref=e207] [cursor=pointer]:
+                  - /url: https://www.bela.de/datenschutz/
+                  - text: Datenschutz
+              - menuitem [ref=e208]:
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: https://www.bela.de/impressum/
+                  - text: Impressum
+  - alertdialog [ref=e216]:
+    - button "Dialog schließen" [ref=e217] [cursor=pointer]:
+      - generic [ref=e218]: Mit diesem Button wird der Dialog geschlossen. Seine Funktionalität ist identisch mit der des Buttons Ablehnen.
+    - document [ref=e221]:
+      - generic [ref=e222]:
+        - heading "Datenschutzeinstellungen" [level=2] [ref=e224]
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: Wir nutzen Cookies auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern.
+            - paragraph [ref=e228]: Wenn Sie unter 16 Jahre alt sind und Ihre Einwilligung zu optionalen Services geben möchten, müssen Sie Ihre Erziehungsberechtigten um Erlaubnis bitten.
+            - paragraph [ref=e229]: Wir verwenden Cookies und andere Technologien auf unserer Website. Einige von ihnen sind essenziell, während andere uns helfen, diese Website und Ihre Erfahrung zu verbessern.
+            - paragraph [ref=e230]: Personenbezogene Daten können verarbeitet werden (z. B. IP-Adressen), z. B. für personalisierte Anzeigen und Inhalte oder die Messung von Anzeigen und Inhalten.
+            - paragraph [ref=e231]:
+              - text: Weitere Informationen über die Verwendung Ihrer Daten finden Sie in unserer
+              - link "Datenschutzerklärung" [ref=e232] [cursor=pointer]:
+                - /url: https://www.bela.de/datenschutz/
+              - text: .
+            - paragraph [ref=e233]: Es besteht keine Verpflichtung, in die Verarbeitung Ihrer Daten einzuwilligen, um dieses Angebot zu nutzen.
+            - paragraph [ref=e234]:
+              - text: Sie können Ihre Auswahl jederzeit unter
+              - button "Einstellungen" [ref=e235] [cursor=pointer]
+              - text: widerrufen oder anpassen.
+            - paragraph [ref=e236]: Bitte beachten Sie, dass aufgrund individueller Einstellungen möglicherweise nicht alle Funktionen der Website verfügbar sind.
+            - paragraph [ref=e237]: Einige Services verarbeiten personenbezogene Daten in den USA. Mit Ihrer Einwilligung zur Nutzung dieser Services willigen Sie auch in die Verarbeitung Ihrer Daten in den USA gemäß Art. 49 (1) lit. a GDPR ein. Der EuGH stuft die USA als ein Land mit unzureichendem Datenschutz nach EU-Standards ein. Es besteht beispielsweise die Gefahr, dass US-Behörden personenbezogene Daten in Überwachungsprogrammen verarbeiten, ohne dass für Europäerinnen und Europäer eine Klagemöglichkeit besteht.
+          - group "Es folgt eine Liste der Service-Gruppen, für die eine Einwilligung erteilt werden kann. Die erste Service-Gruppe ist essenziell und kann nicht abgewählt werden." [ref=e239]:
+            - list [ref=e241]:
+              - listitem [ref=e242]:
+                - generic [ref=e243]:
+                  - checkbox "Essenziell" [checked] [disabled] [ref=e244] [cursor=pointer]
+                  - generic [ref=e245]: Essenziell
+              - listitem [ref=e248]:
+                - generic [ref=e249]:
+                  - checkbox "Statistiken" [checked] [ref=e250] [cursor=pointer]
+                  - generic [ref=e251]: Statistiken
+              - listitem [ref=e254]:
+                - generic [ref=e255]:
+                  - checkbox "Marketing" [checked] [ref=e256] [cursor=pointer]
+                  - generic [ref=e257]: Marketing
+              - listitem [ref=e260]:
+                - generic [ref=e261]:
+                  - checkbox "Externe Medien" [checked] [ref=e262] [cursor=pointer]
+                  - generic [ref=e263]: Externe Medien
+        - generic [ref=e267]:
+          - button "Speichern" [ref=e269] [cursor=pointer]
+          - button "Alle akzeptieren" [ref=e271] [cursor=pointer]
+          - button "Ablehnen" [ref=e273] [cursor=pointer]
+          - button "Individuelle Datenschutzeinstellungen" [ref=e275] [cursor=pointer]
+      - generic [ref=e276]:
+        - button "Cookie-Details" [ref=e277] [cursor=pointer]
+        - link "Datenschutzerklärung" [ref=e278] [cursor=pointer]:
+          - /url: https://www.bela.de/datenschutz/
+        - link "Impressum" [ref=e279] [cursor=pointer]:
+          - /url: https://www.bela.de/impressum/
+  - button [ref=e280] [cursor=pointer]

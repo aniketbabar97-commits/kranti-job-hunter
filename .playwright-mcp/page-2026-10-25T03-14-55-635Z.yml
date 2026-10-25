@@ -1,0 +1,401 @@
+- generic [ref=e1]:
+  - banner "Top bar menu" [ref=e2]:
+    - generic:
+      - link "Skip to main content" [ref=e3] [cursor=pointer]:
+        - /url: "#start-content"
+      - link [ref=e6] [cursor=pointer]:
+        - /url: /de/de
+        - img "CGI official logo" [ref=e7]
+      - generic:
+        - generic:
+          - text: 
+          - button "Search terms" [ref=e14] [cursor=pointer]:
+            - img "search CGI icon" [ref=e15]
+      - button "Access to main navigation" [ref=e17] [cursor=pointer]
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - banner [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - heading "Karriere bei CGI" [level=1] [ref=e24]
+            - heading "Eine Karriere, die wirklich zu dir passt" [level=2] [ref=e25]
+            - generic [ref=e26]: Du suchst mehr als nur einen Job? Bei CGI findest du eine Karriere, die wirklich zu dir passt. Als einer der weltweit führenden IT- und Business-Consulting-Anbieter geben wir dir zahlreiche Möglichkeiten, dich beruflich weiterzuentwickeln - ob im Berufseinstieg, durch ein duales Studium oder mit langjähriger Expertise.
+          - img "CGI Mitarbeiter aus Deutschland" [ref=e28]
+      - main "Main content" [ref=e31]:
+        - generic [ref=e34]:
+          - generic [ref=e37]:
+            - generic [ref=e40]:
+              - paragraph [ref=e42]:
+                - link "zu den Jobs" [ref=e43] [cursor=pointer]:
+                  - /url: "https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4&_gl=1*l7jw84*_gcl_au*NTEzODkzODEzLjE3Mzc0NTQ4ODU.*_ga*MjMxODk2MzA0LjE3Mzc0NTQ4ODY.*_ga_LC0YVRL587*MTczNzk5OTY2Mi4yMC4xLjE3MzgwMDEzNTUuNTkuMC4xMzUzODgyODI1 "
+                  - text: Zu den Jobs
+              - generic [ref=e44]:
+                - paragraph [ref=e45]
+                - heading "Jetzt bewerben!" [level=2] [ref=e46]
+                - paragraph [ref=e47]: Entdecke unsere vielfältigen Jobangebote deutschlandweit und gestalte mit uns die digitale Zukunft. Hier findest du nicht nur einen Job, sondern deinen nächsten Karriereschritt.
+                - paragraph [ref=e48]:
+                  - strong [ref=e49]: "Sicher bewerben:"
+                  - link "Erkenne betrügerische Stellenangebote" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/article/karriere/warnung-vor-betruegerischen-stellenangeboten
+            - generic [ref=e53]:
+              - generic [ref=e54]:
+                - generic [ref=e55]:
+                  - 'generic "3 CGI Kollegen: Hajiyev, Klenner und Schaaf" [ref=e56]':
+                    - img "3 CGI Kollegen vor einer CGI Lokation" [ref=e57]
+                  - heading "Alles für deinen perfekten Berufseinstieg" [level=2] [ref=e58]
+                  - paragraph [ref=e59]: "Ob du dich für eine Ausbildung, ein berufsbegleitendes Studium oder einen Direkteinstieg interessierst: CGI bietet dir verschiedenste Möglichkeiten, ins Berufsleben zu starten. Eines haben alle Wege gemeinsam: Sie legen die ideale Grundlage für eine Karriere, in der du etwas bewegst."
+                  - paragraph [ref=e60]:
+                    - strong [ref=e61]: "Hier findest du alle Infos für:"
+                  - region "CGI offers" [ref=e62]:
+                    - generic [ref=e65]:
+                      - link "Ausbildung" [ref=e67] [cursor=pointer]:
+                        - /url: https://www.cgi.com/de/de/karriere/ausbildung
+                        - text: Schüler:innen
+                      - link "Duales Studium" [ref=e69] [cursor=pointer]:
+                        - /url: https://www.cgi.com/de/de/karriere/duales-studium
+                        - text: Studierende
+                      - link "Duales Studium" [ref=e71] [cursor=pointer]:
+                        - /url: https://www.cgi.com/de/de/karriere/direkteinstieg
+                        - text: Direkteinsteiger:innen
+                - paragraph [ref=e72]
+              - generic [ref=e73]:
+                - generic [ref=e74]:
+                  - generic "Michael Ungruhe" [ref=e75]:
+                    - img "Michael Ungruhe, CGI" [ref=e76]
+                  - heading "Dein Einstieg mit Berufserfahrung" [level=2] [ref=e77]
+                  - paragraph [ref=e78]: "Welche Branche reizt dich besonders? Für welchen Tech Stack schlägt dein Herz? Was möchtest du bewirken? Wie auch immer deine Antworten lauten: Bei CGI hast du alle Möglichkeiten, deine Karriere zu gestalten. Wir bieten dir eine außergewöhnliche Vielfalt an Branchen, Technologien und Jobprofilen."
+                  - paragraph [ref=e79]:
+                    - strong [ref=e80]: "Hier findest du alle Infos für:"
+                  - region "CGI offers" [ref=e81]:
+                    - link "Berufserfahrung" [ref=e86] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/karriere/einstieg-mit-berufserfahrung
+                      - text: Berufserfahrene
+                - paragraph [ref=e87]
+            - generic [ref=e89]:
+              - heading "Entwickle dich weiter. Teile dein Wissen. Entfalte dein volles Potenzial." [level=2] [ref=e90]
+              - generic [ref=e92]:
+                - generic [ref=e93]:
+                  - generic "Digitalisierungsexperten sitzen zusammen und diskutieren" [ref=e94]:
+                    - img "Digitalisierungsexperten sitzen zusammen und diskutieren" [ref=e95]
+                  - heading "Be an Owner" [level=3] [ref=e96]
+                  - paragraph [ref=e97]: Wir bei CGI sind nicht einfach nur Mitarbeitende. Wir gestalten unser Unternehmern aktiv mit und profitieren von seinem Erfolg. Vom ersten Tag an darfst du dich als Miteigentümer:in von CGI verstehen.
+                  - paragraph [ref=e98]:
+                    - link "Wie es ist, bei CGI zu arbeiten" [ref=e99] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/karriere/unsere-einzigartige-unternehmenskultur
+                  - paragraph [ref=e100]
+                - generic [ref=e101]:
+                  - generic "Theo Schnelle, Yalda Popal und Djalal Hajiyev" [ref=e102]:
+                    - img "Theo Schnelle, Yalda Popal und Djalal Hajiyev" [ref=e103]
+                  - heading "Be creative" [level=3] [ref=e104]
+                  - paragraph [ref=e105]: In unseren anspruchsvollen Projekten bereiten wir die Wirtschaft auf die Zukunft vor. Wir sind in Deutschland und der Welt in allen wichtigen Branchen vertreten und stärken sie mit innovativen Technologien.
+                  - paragraph [ref=e106]:
+                    - link "Welche Projekte dich erwarten" [ref=e107] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/karriere/deine-chance-grosses-zu-bewirken
+                  - paragraph [ref=e108]
+                - generic [ref=e109]:
+                  - generic "Frau macht Entspannungsübungen im Park" [ref=e110]:
+                    - img "Frau macht Entspannungsübungen im Park" [ref=e111]
+                  - heading "Be supported" [level=3] [ref=e112]
+                  - paragraph [ref=e113]: "Von internen und externen Schulungen über unsere eigene Lernplattform bis hin zu interessanten Projekten, die deinen Horizont erweitern: CGI unterstützt dich auf vielfältige Weise, deinen Weg zu gehen."
+                  - paragraph [ref=e114]:
+                    - link "Wie wir dich unterstützen" [ref=e115] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/karriere/mehr-als-nur-benefits
+                  - paragraph [ref=e116]
+          - region "Related content" [ref=e117]:
+            - generic [ref=e118]:
+              - heading "Einblicke, Erfahrungen, Perspektiven" [level=2] [ref=e119]
+              - paragraph [ref=e121]: Lerne im Karriere Blog und im Karriere Podcast CGI aus Sicht unserer Mitarbeitenden kennen und entdecke, wie vielfältig Karriere bei uns sein kann.
+              - generic [ref=e122]:
+                - article [ref=e123]:
+                  - link "Hartmut Manzke, CGI Artikel „Ich persönlich mag Beständigkeit“ – Hartmut über 27 Jahre bei CGI" [ref=e124] [cursor=pointer]:
+                    - /url: /de/de/article/karriere/cgi-arbeitgeber-interview-hartmut-manzke
+                    - img "Hartmut Manzke, CGI" [ref=e127]
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: Artikel
+                      - heading "„Ich persönlich mag Beständigkeit“ – Hartmut über 27 Jahre bei CGI" [level=3] [ref=e131]
+                - article "„Ich persönlich mag Beständigkeit“ – Hartmut über 27 Jahre bei CGI" [ref=e132]:
+                  - 'link "Michael Denzler, CGI Artikel Erfolg, Neuanfang, Mitbestimmung: Warum Michael seit über zehn Jahren bei CGI ist – und bleibt" [ref=e133] [cursor=pointer]':
+                    - /url: /de/de/article/karriere/erfolg-neuanfang-mitbestimmung-warum-michael-seit-ueber-zehn-jahren-bei-cgi-ist
+                    - img "Michael Denzler, CGI" [ref=e136]
+                    - generic [ref=e138]:
+                      - generic [ref=e139]: Artikel
+                      - 'heading "Erfolg, Neuanfang, Mitbestimmung: Warum Michael seit über zehn Jahren bei CGI ist – und bleibt" [level=3] [ref=e140]'
+                - 'article "Erfolg, Neuanfang, Mitbestimmung: Warum Michael seit über zehn Jahren bei CGI ist – und bleibt" [ref=e141]':
+                  - 'link "Nahaufnahme einer Augeniris in Blau-, Gelb- und Brauntönen mit dunkler Pupille. Podcast KI auf dem Arbeitsmarkt: Berufsbilder im Wandel" [ref=e142] [cursor=pointer]':
+                    - /url: /de/de/podcast/kuenstliche-intelligenz/ki-auf-dem-arbeitsmarkt-berufsbilder-im-wandel
+                    - img "Nahaufnahme einer Augeniris in Blau-, Gelb- und Brauntönen mit dunkler Pupille." [ref=e145]
+                    - generic [ref=e147]:
+                      - generic [ref=e148]: Podcast
+                      - 'heading "KI auf dem Arbeitsmarkt: Berufsbilder im Wandel" [level=3] [ref=e149]'
+                - 'article "KI auf dem Arbeitsmarkt: Berufsbilder im Wandel" [ref=e150]':
+                  - 'link "Rainer Kresken, CGI Artikel Sein Job: Die Menschheit vor Asteroiden schützen – Rainer Kresken im Einsatz für die ESA" [ref=e151] [cursor=pointer]':
+                    - /url: /de/de/article/karriere/die-menschheit-vor-asteroiden-schuetzen-rainer-kresken
+                    - img "Rainer Kresken, CGI" [ref=e154]
+                    - generic [ref=e156]:
+                      - generic [ref=e157]: Artikel
+                      - 'heading "Sein Job: Die Menschheit vor Asteroiden schützen – Rainer Kresken im Einsatz für die ESA" [level=3] [ref=e158]'
+          - navigation "Related submenu" [ref=e160]:
+            - generic [ref=e162]:
+              - heading "Mehr Impulse für deinen Karriereweg – im Blog oder Podcast" [level=2] [ref=e164]
+              - list [ref=e166]:
+                - listitem [ref=e167]:
+                  - link "Karriere Blog" [ref=e168] [cursor=pointer]:
+                    - /url: /de/de/karriere/blog
+                - listitem [ref=e169]:
+                  - link "Karriere Podcast" [ref=e170] [cursor=pointer]:
+                    - /url: /de/de/karriere/cgi-podcast-klartext
+          - region "CGI content split" [ref=e171]:
+            - generic [ref=e175]:
+              - generic [ref=e177]:
+                - heading "Fragen rund um deine Karriere bei CGI?" [level=2] [ref=e178]
+                - heading "Hier findest du Antworten" [level=3] [ref=e179]
+                - paragraph [ref=e180]: Wie kann ich mich bewerben? Wie kann ich mich bei CGI beruflich weiterentwickeln? Was tut CGI für den Klimaschutz? Im FAQ findest du die Antworten auf diese und viele weitere Fragen rund um deine Bewerbung, den Einstieg und das Arbeiten bei CGI.
+                - paragraph [ref=e181]:
+                  - link "Zum Karriere-FAQ" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/karriere/informationen-zu-deiner-bewerbung
+              - img "Bianca Heinemann schreibt ein Fragezeichen auf ein Flipchart" [ref=e185]
+          - generic [ref=e188]:
+            - generic [ref=e190]:
+              - heading "Über CGI" [level=2] [ref=e191]
+              - generic [ref=e193]:
+                - generic [ref=e194]:
+                  - generic [ref=e195]: "1976"
+                  - generic [ref=e196]: gegründet
+                - generic [ref=e197]:
+                  - generic [ref=e198]: "400"
+                  - generic [ref=e199]: Standorte weltweit
+                - generic [ref=e200]:
+                  - generic [ref=e201]: "90.000"
+                  - generic [ref=e202]: Mitarbeitende weltweit
+            - generic [ref=e205]:
+              - generic "kununu Top Company 2025" [ref=e207]:
+                - img "Logo kununu Top Company 2025"
+              - generic "golem Beste Arbeitgeber für IT-Fachkräfte 2025" [ref=e209]:
+                - img "Logo golem Beste Arbeitgeber für IT-Fachkräfte 2025"
+              - generic "Trendence Top100 Attraktivste Arbeitgeber für Fachkräfte IT 2024" [ref=e211]:
+                - img "Logo Trendence Top100 Attraktivste Arbeitgeber für Fachkräfte IT 2024"
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - heading "Mit dem Karriere-Netzwerk keine Chancen mehr verpassen!" [level=2] [ref=e216]
+                - paragraph [ref=e217]: Erhalte exklusive Einblicke, aktuelle Jobangebote und bleibe mit uns in Verbindung – ganz unkompliziert.
+                - generic "Junge Frau mit Fahrrad und Handy" [ref=e218]:
+                  - img "Junge Frau steht draußen bei ihrem Fahrrad und registriert sich beim CGI Karriere-Netzwerk"
+              - iframe [ref=e222]:
+                - generic [ref=f2e3]:
+                  - group [ref=f2e4]:
+                    - generic [ref=f2e5]:
+                      - generic [ref=f2e6]: Vorname*
+                      - textbox "Vorname*" [ref=f2e8]:
+                        - /placeholder: ""
+                    - generic [ref=f2e9]:
+                      - generic [ref=f2e10]: Nachname*
+                      - textbox "Nachname*" [ref=f2e12]:
+                        - /placeholder: ""
+                  - group [ref=f2e13]:
+                    - generic [ref=f2e15]:
+                      - generic [ref=f2e16]: E-Mail Adresse*
+                      - textbox "E-Mail Adresse*" [ref=f2e18]:
+                        - /placeholder: ""
+                  - group [ref=f2e19]:
+                    - generic [ref=f2e20]:
+                      - generic [ref=f2e21]:
+                        - text: Wie und wozu CGI Deutschland B.V. & Co. KG deine Daten verarbeitet, findest du in unserer allgemeinen
+                        - link "Datenschutzrichtlinie" [ref=f2e22] [cursor=pointer]:
+                          - /url: https://www.cgi.com/de/de/datenschutz/datenschutzrichtlinie
+                        - text: sowie in unserem
+                        - link "Datenschutzhinweis" [ref=f2e23] [cursor=pointer]:
+                          - /url: https://www.cgi.com/de/de/datenschutz/datenschutzrichtlinie/datenschutzhinweis-cgi-newsletterregistrierung-versand
+                        - text: zu Newslettern.
+                      - list [ref=f2e28]:
+                        - listitem [ref=f2e29]:
+                          - generic [ref=f2e30]:
+                            - checkbox "Ich habe den Datenschutzhinweis für Registrierungen verstanden und bin mit der Verarbeitung meiner personenbezogenen Daten einverstanden.*" [ref=f2e31] [cursor=pointer]
+                            - generic [ref=f2e32]:
+                              - paragraph [ref=f2e33]: Ich habe den Datenschutzhinweis für Registrierungen verstanden und bin mit der Verarbeitung meiner personenbezogenen Daten einverstanden.
+                              - text: "*"
+                  - button "Jetzt registrieren" [ref=f2e36] [cursor=pointer]
+          - generic [ref=e224]:
+            - heading "Lass uns über deine Zukunft bei CGI sprechen!" [level=2] [ref=e225]
+            - generic:
+              - paragraph
+            - generic [ref=e228]:
+              - tabpanel [ref=e229]:
+                - generic [ref=e231]:
+                  - generic [ref=e233]:
+                    - img "Kirsten Kadesch, CGI" [ref=e234]
+                    - generic [ref=e235]:
+                      - link "Kirsten Kadesch LinkedIn" [ref=e237] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/kirsten-kadesch-4a7683132/
+                        - text: 
+                      - link "Kirsten Kadesch Xing" [ref=e239] [cursor=pointer]:
+                        - /url: https://www.xing.com/profile/Kirsten_Kadesch
+                        - text: 
+                      - link " Schreib Kirsten Kadesch" [ref=e241] [cursor=pointer]:
+                        - /url: "mailto: kirsten.kadesch@cgi.com?Subject=Anfrage&CC=info.de@cgi.com&Body="
+                  - generic [ref=e244]:
+                    - heading [level=3] [ref=e245]:
+                      - link "Kirsten Kadesch" [ref=e246] [cursor=pointer]:
+                        - /url: /de/de/experts/kirsten-kadesch
+                    - generic [ref=e247]: Talent Acquisition Manager
+                    - generic [ref=e248]: Kirsten Kadesch ist Talent Acquisition Team Lead bei CGI und verantwortet mit ihren Teams alle CGI Standorte im Süden Deutschlands sowie in der Region Frankfurt.
+                    - link "Zum Profil" [ref=e250] [cursor=pointer]:
+                      - /url: /de/de/experts/kirsten-kadesch
+                    - text:   
+              - tabpanel [ref=e251]:
+                - generic [ref=e253]:
+                  - generic [ref=e255]:
+                    - img "https://www.cgi.com/de/de/karriere/entwickler" [ref=e256]
+                    - generic [ref=e257]:
+                      - link "Florian Schlüter LinkedIn" [ref=e259] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/florian-schlüter-7978ab47
+                        - text: 
+                      - link "Florian Schlüter Xing" [ref=e261] [cursor=pointer]:
+                        - /url: https://www.xing.com/profile/Florian_Schlueter
+                        - text: 
+                      - link " Schreib Florian Schlüter" [ref=e263] [cursor=pointer]:
+                        - /url: "mailto: florian.schlueter@cgi.com?Subject=Anfrage&CC=info.de@cgi.com&Body="
+                  - generic [ref=e266]:
+                    - heading [level=3] [ref=e267]:
+                      - link "Florian Schlüter" [ref=e268] [cursor=pointer]:
+                        - /url: /de/de/experts/florian-schlueter
+                    - generic [ref=e269]: Talent Acquisition Manager Germany
+                    - generic [ref=e270]: Florian Schlüter verantwortet das Recruiting für CGI in Deutschland und ist mit seinen Teams insbesondere für alle CGI Standorte im Norden, Osten und Westen Deutschlands zuständig.
+                    - link "Zum Profil" [ref=e272] [cursor=pointer]:
+                      - /url: /de/de/experts/florian-schlueter
+                    - text:   
+          - region "Auch interessant" [ref=e273]:
+            - generic [ref=e274]:
+              - heading "Aktuelle Veranstaltungen" [level=2] [ref=e275]
+              - generic:
+                - article [ref=e277]:
+                  - link "AI-Thon 2.0 Events AI-Thon 2.0" [ref=e278] [cursor=pointer]:
+                    - /url: /de/de/event/karriere/ai-thon-2026
+                    - img "AI-Thon 2.0" [ref=e281]
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: Events
+                      - heading "AI-Thon 2.0" [level=3] [ref=e285]
+                - link "Mehr" [ref=e287] [cursor=pointer]:
+                  - /url: /de/de/mediacenter
+                  - text: Mehr
+                  - generic [ref=e288]: media
+      - contentinfo [ref=e289]:
+        - generic [ref=e291]:
+          - generic [ref=e294]:
+            - heading "Fragen? Gerne helfen wir weiter." [level=2] [ref=e295]
+            - link "Kontakt" [ref=e297] [cursor=pointer]:
+              - /url: /de/de/kontakt
+          - generic [ref=e300]:
+            - generic [ref=e302]:
+              - img "CGI official logo" [ref=e304]
+              - heading "Insights you can act on" [level=2] [ref=e310]
+              - paragraph [ref=e311]: CGI wurde 1976 gegründet und gehört zu den größten Unternehmen für IT und Business Consulting weltweit. Wir kennen Ihre Branche, handeln ergebnisorientiert und helfen Ihnen so, den ROI zu steigern.
+              - paragraph [ref=e312]: © 2026 CGI Inc.
+            - generic [ref=e313]:
+              - heading "Unternehmen" [level=2] [ref=e314]
+              - navigation [ref=e316]:
+                - heading "Useful links GERMANY" [level=2] [ref=e317]
+                - list [ref=e318]:
+                  - listitem [ref=e319]:
+                    - link "Über uns" [ref=e320] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/unternehmen
+                  - listitem [ref=e321]:
+                    - link "Verantwortung" [ref=e322] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/verantwortung
+                  - listitem [ref=e323]:
+                    - link "Management" [ref=e324] [cursor=pointer]:
+                      - /url: /de/management-team-deutschland
+                  - listitem [ref=e325]:
+                    - link "Standorte" [ref=e326] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/Lokationen
+                  - listitem [ref=e327]:
+                    - link "Allianzen" [ref=e328] [cursor=pointer]:
+                      - /url: https://www.cgi.com/en/alliances
+                  - listitem [ref=e329]:
+                    - link "Merger" [ref=e330] [cursor=pointer]:
+                      - /url: https://www.cgi.com/de/de/merger
+            - generic [ref=e331]:
+              - heading "Mediathek" [level=2] [ref=e332]
+              - navigation [ref=e334]:
+                - heading "Library Links GERMANY" [level=2] [ref=e335]
+                - list [ref=e336]:
+                  - listitem [ref=e337]:
+                    - link "Aktuelles" [ref=e338] [cursor=pointer]:
+                      - /url: /de/de/mediacenter
+                  - listitem [ref=e339]:
+                    - link "Artikel" [ref=e340] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/articles
+                  - listitem [ref=e341]:
+                    - link "Blogs" [ref=e342] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/blogs
+                  - listitem [ref=e343]:
+                    - link "Events" [ref=e344] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/events
+                  - listitem [ref=e345]:
+                    - link "Podcasts" [ref=e346] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/podcasts
+                  - listitem [ref=e347]:
+                    - link "Presse" [ref=e348] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/press-releases
+                  - listitem [ref=e349]:
+                    - link "Standpunkt" [ref=e350] [cursor=pointer]:
+                      - /url: /de/de/mediacenter/standpunkte
+            - generic [ref=e351]:
+              - heading "Rechtliches" [level=2] [ref=e352]
+              - navigation [ref=e354]:
+                - heading "Legal GERMANY" [level=2] [ref=e355]
+                - list [ref=e356]:
+                  - listitem [ref=e357]:
+                    - link "Allgemeine Geschäftsbedingungen" [ref=e358] [cursor=pointer]:
+                      - /url: https://www.cgi.com/sites/default/files/2026-07/agb_cgi_deutschland_version_2026_06_1.pdf
+                  - listitem [ref=e359]:
+                    - link "Beschwerden/Hinweise" [ref=e360] [cursor=pointer]:
+                      - /url: https://app.convercent.com/de-de/Anonymous/IssueIntake/LandingPage/c430ea19-76ad-e911-a96a-000d3ab9f062?_=1571951870663
+                  - listitem [ref=e361]:
+                    - link "Compliance" [ref=e362] [cursor=pointer]:
+                      - /url: /de/de/verantwortung/unternehmensfuehrung
+                  - listitem [ref=e363]:
+                    - link "Datenschutz" [ref=e364] [cursor=pointer]:
+                      - /url: /de/de/datenschutz
+                  - listitem [ref=e365]:
+                    - link "Impressum" [ref=e366] [cursor=pointer]:
+                      - /url: /de/impressum
+                  - listitem [ref=e367]:
+                    - link "Cookie-Einstellungen" [ref=e368] [cursor=pointer]
+            - generic [ref=e369]:
+              - generic [ref=e373]:
+                - heading "CGI abonnieren" [level=2] [ref=e374]
+                - heading "Wir informieren Sie" [level=3] [ref=e375]
+                - link "Abonnieren" [ref=e376] [cursor=pointer]:
+                  - /url: /de/de/content-subscription
+              - generic [ref=e377]:
+                - heading "Folgen Sie uns" [level=2] [ref=e378]
+                - navigation [ref=e380]:
+                  - heading "Social Media GERMANY" [level=2] [ref=e381]
+                  - generic [ref=e382]:
+                    - list:
+                      - listitem [ref=e383]:
+                        - link " Xing" [ref=e384] [cursor=pointer]:
+                          - /url: https://www.xing.com/companies/cgi
+                      - listitem [ref=e385]:
+                        - link " LinkedIn" [ref=e386] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/cgi/?originalSubdomain=de
+                      - listitem [ref=e387]:
+                        - link " Twitter" [ref=e388] [cursor=pointer]:
+                          - /url: https://twitter.com/cgi_de?lang=de
+                      - listitem [ref=e389]:
+                        - link " Facebook" [ref=e390] [cursor=pointer]:
+                          - /url: https://www.facebook.com/CGIDeutschland/
+                      - listitem [ref=e391]:
+                        - link " Youtube" [ref=e392] [cursor=pointer]:
+                          - /url: https://www.youtube.com/channel/UCGQHK_7t782ivIcar8PIsTw
+    - dialog [ref=e393]:
+      - generic [ref=e394]:
+        - generic [ref=e395]:
+          - heading "Cookie-Zustimmung" [level=2] [ref=e397]
+          - paragraph [ref=e399]: Wir verwenden eigene Cookies und Cookies von Drittanbietern, um eine reibungslose und sichere Website zu gewährleisten. Einige sind für das Funktionieren unserer Website erforderlich und werden standardmäßig gesetzt. Andere sind optional und werden nur mit Ihrer Zustimmung gesetzt, um Ihr Surferlebnis zu verbessern. Sie können alle, keine oder einige dieser optionalen Cookies akzeptieren.
+        - generic [ref=e401]:
+          - button "Cookies anpassen" [active] [ref=e402] [cursor=pointer]
+          - button "Alle Cookies akzeptieren" [ref=e403] [cursor=pointer]
+          - button "Alle Cookies ablehnen" [ref=e404] [cursor=pointer]
+      - link "Cookie-Richtlinienseite" [ref=e407] [cursor=pointer]:
+        - /url: https://www.cgi.com/de/de/datenschutz/cookie-richtlinie

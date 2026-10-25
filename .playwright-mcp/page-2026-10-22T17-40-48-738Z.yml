@@ -1,0 +1,358 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - navigation "Main navigation" [ref=f7e4]:
+      - generic [ref=f7e5]:
+        - link [ref=f7e6] [cursor=pointer]:
+          - /url: /en
+          - img "foobar Agency" [ref=f7e7]
+        - list [ref=f7e8]:
+          - listitem [ref=f7e9]:
+            - button "Services" [ref=f7e10]
+          - listitem [ref=f7e13]:
+            - button "Partners" [ref=f7e14]
+          - listitem [ref=f7e17]:
+            - link "References" [ref=f7e18] [cursor=pointer]:
+              - /url: /en/success-cases
+          - listitem [ref=f7e19]:
+            - button "Company" [ref=f7e20]
+        - generic [ref=f7e23]:
+          - generic [ref=f7e24]:
+            - link "DE" [ref=f7e25] [cursor=pointer]:
+              - /url: /de/jobs/consultant-project-manager-m-w-d
+            - generic [ref=f7e26]: "|"
+            - link "EN" [ref=f7e27] [cursor=pointer]:
+              - /url: /en/jobs/consultant-project-manager-m-w-d
+          - link "Contact" [ref=f7e28] [cursor=pointer]:
+            - /url: /en/contact
+  - main [ref=f7e31]:
+    - generic [ref=f7e36]:
+      - heading "(Senior) Consultant & Project Manager (m/f/d)" [level=1] [ref=f7e38]
+      - paragraph [ref=f7e41]: Apply to join us as a new team member!
+      - link "Apply Now" [ref=f7e43] [cursor=pointer]:
+        - /url: "#contact"
+    - generic [ref=f7e53]:
+      - heading "We are foobar Agency" [level=2] [ref=f7e55]
+      - paragraph [ref=f7e58]: foobar Agency helps retailers and manufacturers in the DACH region set up successful digital sales to business customers and consumers. To do this, we combine commerce, data and AI, all the way to agentic solutions. What counts for our clients is that digital investments show up in their results, and that is how we measure our projects. Our clients include porta Möbel, Segmüller, Lavazza, ABUS and HARTING.
+    - generic [ref=f7e63]:
+      - heading "Your Role" [level=2] [ref=f7e65]
+      - paragraph [ref=f7e68]: You advise our clients on what a project should achieve and take responsibility for getting it there. As a (Senior) Consultant & Project Manager, you work on projects and products in commerce, data and AI, from the first workshop to go-live and beyond. You are the client's first point of contact, lead the collaboration with development and partners, and take on product ownership.
+    - generic [ref=f7e73]:
+      - heading "Your Tasks" [level=2] [ref=f7e75]
+      - generic [ref=f7e77]:
+        - heading "Advising" [level=3] [ref=f7e78]
+        - list [ref=f7e79]:
+          - listitem [ref=f7e80]:
+            - generic [ref=f7e81]: You clarify with the client what a project should achieve and translate their business goals into product decisions.
+          - listitem [ref=f7e82]:
+            - generic [ref=f7e83]: You lead discovery workshops with business units and recommend what gets built and what does not.
+          - listitem [ref=f7e84]:
+            - generic [ref=f7e85]: After go-live, you check with the client whether the project moves the metrics it was started for.
+        - heading "Managing" [level=3] [ref=f7e86]
+        - list [ref=f7e87]:
+          - listitem [ref=f7e88]:
+            - generic [ref=f7e89]: You plan and manage several projects in parallel and are responsible for time, budget and quality.
+          - listitem [ref=f7e90]:
+            - generic [ref=f7e91]: "You take on product ownership: you prioritize the backlog and make scope decisions with the client."
+          - listitem [ref=f7e92]:
+            - generic [ref=f7e93]: You raise conflicting goals early and bring about decisions.
+          - listitem [ref=f7e94]:
+            - generic [ref=f7e95]: You work closely with development, UX and data teams and support releases, go-lives and further development afterwards.
+          - listitem [ref=f7e96]:
+            - generic [ref=f7e97]: You use AI in your own work and help develop our methods further.
+        - paragraph [ref=f7e98]:
+          - strong [ref=f7e99]: As a Senior,
+          - text: you advise clients up to executive level, lead larger or strategic projects, are a fixed part of proposals and pitches, and support colleagues with your experience.
+    - generic [ref=f7e104]:
+      - heading "Your Profile" [level=2] [ref=f7e106]
+      - list [ref=f7e109]:
+        - listitem [ref=f7e110]:
+          - generic [ref=f7e111]: Several years of experience in consulting, project management or product ownership on technical digital projects, ideally at an agency or consultancy.
+        - listitem [ref=f7e112]:
+          - generic [ref=f7e113]: Experience with projects in commerce, data or AI. Experience with agentic solutions is a plus.
+        - listitem [ref=f7e114]:
+          - generic [ref=f7e115]: You think in terms of the client's metrics and can explain to business units what a technical decision means for their business.
+        - listitem [ref=f7e116]:
+          - generic [ref=f7e117]: You manage budget and scope confidently, even when several projects run in parallel.
+        - listitem [ref=f7e118]:
+          - generic [ref=f7e119]: You work agile or traditional, depending on what the project needs.
+        - listitem [ref=f7e120]:
+          - generic [ref=f7e121]: You talk to clients as equals and address conflicts before they become expensive.
+        - listitem [ref=f7e122]:
+          - generic [ref=f7e123]: Experience running workshops with business units or executives is a plus.
+        - listitem [ref=f7e124]:
+          - generic [ref=f7e125]: Very good German (at least C1) and good English.
+    - generic [ref=f7e130]:
+      - heading "What You Can Expect" [level=2] [ref=f7e132]
+      - list [ref=f7e135]:
+        - listitem [ref=f7e136]:
+          - generic [ref=f7e137]: Projects with retailers and manufacturers on a modern composable stack, with partners such as commercetools, Snowflake and others.
+        - listitem [ref=f7e138]:
+          - generic [ref=f7e139]: Direct collaboration with management and short decision paths.
+        - listitem [ref=f7e140]:
+          - generic [ref=f7e141]: Exchange with other consultants, project managers and product owners on the team.
+        - listitem [ref=f7e142]:
+          - generic [ref=f7e143]: A clear path from Project Manager to Senior, with the opportunity to contribute to discovery, pitches and consulting.
+        - listitem [ref=f7e144]:
+          - generic [ref=f7e145]: "Professional development is built in: you suggest conferences, courses or certifications, and we plan them together."
+        - listitem [ref=f7e146]:
+          - generic [ref=f7e147]: AI tools and modern hardware as a natural part of the work.
+        - listitem [ref=f7e148]:
+          - generic [ref=f7e149]: "Salary: €60,000 to €88,000 gross per year, depending on experience and level."
+    - generic [ref=f7e159]:
+      - heading "Why foobar Agency?" [level=2] [ref=f7e161]
+      - paragraph [ref=f7e164]: "The client interface is where it is decided whether a project shows up in the client's results. That is why we combine consulting and delivery in one role and give it real responsibility: for the goals, for the scope and for the client relationship."
+    - generic [ref=f7e166]:
+      - heading "What It Means to Work With Us" [level=2] [ref=f7e168]
+      - generic [ref=f7e170]:
+        - article [ref=f7e171]:
+          - generic [ref=f7e172]:
+            - heading "An environment that keeps evolving" [level=3] [ref=f7e173]
+            - paragraph [ref=f7e175]: We are shifting our focus further toward consulting, data and AI, and you help shape that.
+        - article [ref=f7e176]:
+          - generic [ref=f7e177]:
+            - heading "Room to shape things" [level=3] [ref=f7e178]
+            - paragraph [ref=f7e180]: You bring in ideas and influence how we work.
+        - article [ref=f7e181]:
+          - generic [ref=f7e182]:
+            - heading "Working together on site" [level=3] [ref=f7e183]
+            - paragraph [ref=f7e185]: Our modern Munich office has plenty of creative space. We spend half our time there together, because our work thrives on direct exchange. On top of that, there is home office and workation.
+        - article [ref=f7e186]:
+          - generic [ref=f7e187]:
+            - heading "Professional development" [level=3] [ref=f7e188]
+            - paragraph [ref=f7e190]: Training and time to try out new technologies.
+        - article [ref=f7e191]:
+          - generic [ref=f7e192]:
+            - heading "A team that sticks together" [level=3] [ref=f7e193]
+            - paragraph [ref=f7e195]: Flat hierarchies, open communication and colleagues who support each other.
+    - generic [ref=f7e200]:
+      - heading "How to Apply" [level=2] [ref=f7e202]
+      - generic [ref=f7e204]:
+        - paragraph [ref=f7e205]: "Send us an email at apply@foobar.agency with your CV and a short overview of your most important projects. Instead of a cover letter, answer two questions in a few sentences:"
+        - list [ref=f7e206]:
+          - listitem [ref=f7e207]:
+            - generic [ref=f7e208]: On which project did you advise a client against something, and what came of it?
+          - listitem [ref=f7e209]:
+            - generic [ref=f7e210]: How did you measure whether a project had an impact?
+        - paragraph [ref=f7e211]: Also let us know when you could start. Your contact is Kerstin Dietrich from Recruiting.
+    - generic [ref=f7e220]:
+      - heading "Are We a Fit?" [level=2] [ref=f7e221]
+      - generic [ref=f7e222]:
+        - link "All Open Positions" [ref=f7e223] [cursor=pointer]:
+          - /url: /en/team
+        - generic [ref=f7e226]: or
+        - link "Apply Now" [ref=f7e227] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=f7e229]:
+      - generic [ref=f7e230]:
+        - heading "Get in touch" [level=2] [ref=f7e231]
+        - paragraph [ref=f7e232]: We look forward to your enquiry.
+        - generic [ref=f7e234]:
+          - paragraph [ref=f7e235]: Please accept marketing cookies to load the registration form.
+          - button "Manage cookie settings" [ref=f7e236]
+      - generic [ref=f7e237]:
+        - img "Kerstin Dietrich" [ref=f7e239]
+        - generic [ref=f7e240]:
+          - paragraph [ref=f7e241]: Kerstin Dietrich
+          - paragraph [ref=f7e242]: Recruiting
+        - generic [ref=f7e243]:
+          - link "+491744027016" [ref=f7e244] [cursor=pointer]:
+            - /url: tel:+491744027016
+          - link "kerstin.dietrich@foobar.agency" [ref=f7e245] [cursor=pointer]:
+            - /url: mailto:kerstin.dietrich@foobar.agency
+  - contentinfo [ref=f7e246]:
+    - generic [ref=f7e251]:
+      - generic [ref=f7e252]:
+        - generic [ref=f7e253]:
+          - link [ref=f7e254] [cursor=pointer]:
+            - /url: /en
+            - img "foobar Agency" [ref=f7e255]
+          - paragraph [ref=f7e256]: Enterprise eCommerce agency specializing in composable commerce and customized solutions for discerning brands.
+          - generic [ref=f7e257]:
+            - link "foobar Agency auf LinkedIn" [ref=f7e258] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/foobar-agency
+            - link "foobar Agency auf Instagram" [ref=f7e261] [cursor=pointer]:
+              - /url: https://www.instagram.com/foobar.agency/
+            - link "foobar Agency auf X" [ref=f7e264] [cursor=pointer]:
+              - /url: https://x.com/foobar_agency
+          - generic [ref=f7e267]:
+            - link [ref=f7e268] [cursor=pointer]:
+              - /url: /en/partners/commercetools
+              - img "Commercetools Partner" [ref=f7e269]
+              - text: Commercetools Partner
+            - link [ref=f7e270] [cursor=pointer]:
+              - /url: /en/partners/snowflake
+              - img "Snowflake Logo" [ref=f7e271]
+              - text: Snowflake Partner
+            - link [ref=f7e272] [cursor=pointer]:
+              - /url: /en/partners/hygraph
+              - img "Hygraph Partner" [ref=f7e273]
+              - text: Hygraph Partner
+          - generic [ref=f7e274]:
+            - 'link "E-Commerce Germany Award, 1. Platz Beste Agentur Award-winning: 1st place at the E-Commerce Germany Award" [ref=f7e275] [cursor=pointer]':
+              - /url: /en/e-commerce-germany-award-2024
+              - img "E-Commerce Germany Award, 1. Platz Beste Agentur" [ref=f7e276]
+              - generic [ref=f7e277]: "Award-winning: 1st place at the E-Commerce Germany Award"
+            - link "foobar Agency ist Top Agentur 2026 Top Agency 2026" [ref=f7e278] [cursor=pointer]:
+              - /url: https://www.ibusiness.de/internetagentur-ranking/
+              - img "foobar Agency ist Top Agentur 2026" [ref=f7e279]
+              - generic [ref=f7e280]: Top Agency 2026
+            - link "We are member of BVDW We are member of BVDW" [ref=f7e281] [cursor=pointer]:
+              - /url: /en/blog/stimme-in-der-digitalen-wirtschaft-foobar-agency-wird-mitglied-im-bvdw
+              - img "We are member of BVDW" [ref=f7e282]
+              - generic [ref=f7e283]: We are member of BVDW
+            - link "We support the IHK's \"Pack ma's digital\" initiative We support the IHK's \"Pack ma's digital\" initiative" [ref=f7e284] [cursor=pointer]:
+              - /url: https://www.ihk-muenchen.de/initiativen/pack-mas-digital/
+              - img "We support the IHK's \"Pack ma's digital\" initiative" [ref=f7e285]
+              - generic [ref=f7e286]: We support the IHK's "Pack ma's digital" initiative
+          - generic [ref=f7e287]:
+            - heading "Our Office" [level=3] [ref=f7e288]
+            - generic [ref=f7e289]:
+              - link "‍foobar Agency GmbH Ria-Burkei-Straße 25 81249 München" [ref=f7e290] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Ria-Burkei-Stra%C3%9Fe+25,+81249+M%C3%BCnchen/@48.1363904,11.4176733,17z/data=!3m1!4b1!4m5!3m4!1s0x479dd7e99e4875d5:0xa18877457f442ddd!8m2!3d48.1363904!4d11.419862
+              - 'link "Tel: +49 89 244174840" [ref=f7e291] [cursor=pointer]':
+                - /url: tel:+4989244174840
+              - 'link "Email: contact@foobar.agency" [ref=f7e292] [cursor=pointer]':
+                - /url: mailto:contact@foobar.agency
+        - navigation "Footer Navigation" [ref=f7e294]:
+          - generic [ref=f7e295]:
+            - generic [ref=f7e296]:
+              - generic [ref=f7e297]: Services
+              - list [ref=f7e298]:
+                - listitem [ref=f7e299]:
+                  - link "All Services" [ref=f7e300] [cursor=pointer]:
+                    - /url: /en#leistungen
+              - generic [ref=f7e302]:
+                - generic [ref=f7e303]:
+                  - link "Commerce Impact" [ref=f7e305] [cursor=pointer]:
+                    - /url: /en/leistungen/commerce
+                  - list [ref=f7e306]:
+                    - listitem [ref=f7e307]:
+                      - link "B2B Commerce, Sales Portals" [ref=f7e308] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2b-commerce
+                    - listitem [ref=f7e310]:
+                      - link "B2C and D2C Commerce" [ref=f7e311] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2c-d2c-commerce
+                    - listitem [ref=f7e313]:
+                      - link "Omnichannel" [ref=f7e314] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/omnichannel
+                - generic [ref=f7e316]:
+                  - link "Digital Experience" [ref=f7e318] [cursor=pointer]:
+                    - /url: /en/leistungen/digital-experience
+                  - list [ref=f7e319]:
+                    - listitem [ref=f7e320]:
+                      - link "Headless CMS" [ref=f7e321] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/headless-cms
+                    - listitem [ref=f7e323]:
+                      - link "Personalization" [ref=f7e324] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/personalisierung
+                    - listitem [ref=f7e326]:
+                      - link "Customer Journey Optimization" [ref=f7e327] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/customer-journey-optimierung
+                - generic [ref=f7e329]:
+                  - link "Data & AI" [ref=f7e331] [cursor=pointer]:
+                    - /url: /en/leistungen/data-science-ai
+                  - list [ref=f7e332]:
+                    - listitem [ref=f7e333]:
+                      - link "Snowflake & Data Architecture" [ref=f7e334] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/snowflake-datenarchitektur
+                    - listitem [ref=f7e336]:
+                      - link "Predictive Analytics" [ref=f7e337] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/predictive-analytics
+                    - listitem [ref=f7e339]:
+                      - link "LLM-Integration" [ref=f7e340] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/llm-integration
+                    - listitem [ref=f7e342]:
+                      - link "Agentic Commerce" [ref=f7e343] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/agentic-commerce
+            - generic [ref=f7e345]:
+              - generic [ref=f7e346]: Partners
+              - list [ref=f7e347]:
+                - listitem [ref=f7e348]:
+                  - link "All partners" [ref=f7e349] [cursor=pointer]:
+                    - /url: /en/partners
+              - generic [ref=f7e351]:
+                - generic [ref=f7e352]:
+                  - generic [ref=f7e353]: eCommerce
+                  - list [ref=f7e355]:
+                    - listitem [ref=f7e356]:
+                      - link "commercetools" [ref=f7e357] [cursor=pointer]:
+                        - /url: /en/partners/commercetools
+                    - listitem [ref=f7e359]:
+                      - link "Shopify Plus" [ref=f7e360] [cursor=pointer]:
+                        - /url: /en/partners/shopify
+                - generic [ref=f7e362]:
+                  - generic [ref=f7e363]: Content Management
+                  - list [ref=f7e365]:
+                    - listitem [ref=f7e366]:
+                      - link "Hygraph" [ref=f7e367] [cursor=pointer]:
+                        - /url: /en/partners/hygraph
+                    - listitem [ref=f7e369]:
+                      - link "Storyblok" [ref=f7e370] [cursor=pointer]:
+                        - /url: /en/partners/storyblok
+                    - listitem [ref=f7e372]:
+                      - link "Contentful" [ref=f7e373] [cursor=pointer]:
+                        - /url: /en/partners/contentful
+                - generic [ref=f7e375]:
+                  - generic [ref=f7e376]: Commerce Ecosystem
+                  - list [ref=f7e378]:
+                    - listitem [ref=f7e379]:
+                      - link "Algolia" [ref=f7e380] [cursor=pointer]:
+                        - /url: /en/partners/algolia
+                    - listitem [ref=f7e382]:
+                      - link "FactFinder" [ref=f7e383] [cursor=pointer]:
+                        - /url: /en/partners/factfinder
+                    - listitem [ref=f7e385]:
+                      - link "Vercel" [ref=f7e386] [cursor=pointer]:
+                        - /url: /en/partners/vercel
+                    - listitem [ref=f7e388]:
+                      - link "Fastly" [ref=f7e389] [cursor=pointer]:
+                        - /url: /en/partners/fastly
+                - generic [ref=f7e391]:
+                  - generic [ref=f7e392]: Data & AI
+                  - list [ref=f7e394]:
+                    - listitem [ref=f7e395]:
+                      - link "Snowflake" [ref=f7e396] [cursor=pointer]:
+                        - /url: /en/partners/snowflake
+                    - listitem [ref=f7e398]:
+                      - link "dbt" [ref=f7e399] [cursor=pointer]:
+                        - /url: /en/partners/dbt
+                    - listitem [ref=f7e401]:
+                      - link "Power BI" [ref=f7e402] [cursor=pointer]:
+                        - /url: /en/partners/power-bi
+            - link "References" [ref=f7e406] [cursor=pointer]:
+              - /url: /en/success-cases
+            - generic [ref=f7e407]:
+              - generic [ref=f7e408]: Company
+              - list [ref=f7e409]:
+                - listitem [ref=f7e410]:
+                  - link "Commerce Impact Forum" [ref=f7e411] [cursor=pointer]:
+                    - /url: https://commerce-impact-forum.de
+                - listitem [ref=f7e413]:
+                  - link "Blog" [ref=f7e414] [cursor=pointer]:
+                    - /url: /en/blog
+                - listitem [ref=f7e416]:
+                  - link "Newsroom" [ref=f7e417] [cursor=pointer]:
+                    - /url: /en/blog?tag=NEWSROOM
+                - listitem [ref=f7e419]:
+                  - link "Team & Careers" [ref=f7e420] [cursor=pointer]:
+                    - /url: /en/team
+                - listitem [ref=f7e422]:
+                  - link "Events" [ref=f7e423] [cursor=pointer]:
+                    - /url: /en/events
+      - generic [ref=f7e425]:
+        - paragraph [ref=f7e426]: © 2026 foobar Agency GmbH. All rights reserved.
+        - list [ref=f7e427]:
+          - listitem [ref=f7e428]:
+            - link "Privacy Policy" [ref=f7e429] [cursor=pointer]:
+              - /url: /en/datenschutz
+          - listitem [ref=f7e430]:
+            - link "Imprint" [ref=f7e431] [cursor=pointer]:
+              - /url: /en/impressum
+        - generic [ref=f7e432]:
+          - link "DE" [ref=f7e433] [cursor=pointer]:
+            - /url: /de/jobs/consultant-project-manager-m-w-d
+          - generic [ref=f7e434]: "|"
+          - link "EN" [ref=f7e435] [cursor=pointer]:
+            - /url: /en/jobs/consultant-project-manager-m-w-d
+  - alert [ref=f7e436]
+  - iframe [aria-hidden] [ref=f7e437]

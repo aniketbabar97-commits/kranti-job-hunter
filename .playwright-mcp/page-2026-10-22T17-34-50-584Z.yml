@@ -1,0 +1,149 @@
+- generic [ref=f14e6]:
+  - main [ref=f14e7]:
+    - generic [ref=f14e8]:
+      - navigation "Haupt" [ref=f14e10]:
+        - generic [ref=f14e11]:
+          - 'status "min bis zum Logout!: 14:58" [ref=f14e163]':
+            - generic [aria-hidden] [ref=f14e164]: 14:58
+            - generic [aria-hidden] [ref=f14e165]: min bis zum Logout!
+          - link "Zurück zu den Jobdetails" [ref=f14e13] [cursor=pointer]:
+            - /url: /de/job/backend-developer-onlineshop-und-dm-app-java-kotlin-w-m-d/270206/
+          - button "Kontakt aufnehmen" [ref=f14e21] [cursor=pointer]
+      - generic [ref=f14e28]:
+        - generic [ref=f14e29]:
+          - generic:
+            - link "Logo dmTECH, zurück zur Startseite dmTECH Logo":
+              - /url: /de/
+              - generic [ref=f14e30] [cursor=pointer]: Logo dmTECH, zurück zur Startseite
+              - img "dmTECH Logo"
+        - navigation "wizzard.aria_title" [ref=f14e32]:
+          - list [ref=f14e33]:
+            - listitem [ref=f14e34]:
+              - link "Persönliche Angaben" [ref=f14e35] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f14e36]: Persönliche Angaben
+            - listitem [ref=f14e38]:
+              - link "Fragen" [ref=f14e39] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f14e40]: Fragen
+            - listitem [ref=f14e42]:
+              - link "Dokumente" [ref=f14e43] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f14e44]: Dokumente
+            - listitem [ref=f14e46]:
+              - link "Zusammenfassung" [ref=f14e47] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f14e48]: Zusammenfassung
+        - group [ref=f14e50]:
+          - paragraph [ref=f14e52]: Details zu Deiner Bewerbung
+          - generic [ref=f14e56]:
+            - heading "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [level=1] [ref=f14e57]
+            - generic [ref=f14e58]:
+              - generic [ref=f14e59]:
+                - term [ref=f14e60]:
+                  - generic [ref=f14e61]: Ort der Stelle
+                - definition [ref=f14e65]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=f14e66]:
+                - term [ref=f14e67]:
+                  - generic [ref=f14e68]: Art der Stelle
+                - definition [ref=f14e73]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=f14e74]:
+                - term [ref=f14e75]:
+                  - generic [ref=f14e76]: Art der Stelle
+                - definition [ref=f14e80]: unbefristet
+              - generic [ref=f14e81]:
+                - term [ref=f14e82]:
+                  - generic [ref=f14e83]: vor Ort
+                - definition [ref=f14e88]: vor Ort
+              - generic [ref=f14e89]:
+                - term [ref=f14e90]:
+                  - generic [ref=f14e91]: Ort der Stelle
+                - definition [ref=f14e95]: "Job ID: 270206"
+        - generic [ref=f14e96]:
+          - generic [ref=f14e167]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Zur Datenschutzerklärung
+                  - generic: Zu Deinem Profil
+                  - generic: Go Back
+            - generic [ref=f14e170]:
+              - generic:
+                - group [ref=f14e172]:
+                  - heading "Raum für Deine Dokumente" [level=2] [ref=f14e174]
+                  - generic [ref=f14e180]:
+                    - paragraph [ref=f14e181]: Bitte beachte folgende Punkte, damit Deine Unterlagen sicher bei uns ankommen.
+                    - list [ref=f14e182]:
+                      - listitem [ref=f14e183]: •Zulässige Dateiformate sind pdf, doc, docx, jpeg, jpg oder png.
+                      - listitem [ref=f14e184]: •Eine zusammengefasste Bewerbermappe kannst Du unter „Lebenslauf“ hochladen.
+                      - listitem [ref=f14e185]: •Deine Dokumente dürfen insgesamt 8 MB nicht überschreiten.
+                    - generic [ref=f14e188]:
+                      - generic [ref=f14e189]:
+                        - text: Lebenslauf
+                        - generic: (Pflichtfeld)
+                      - button "Dokument hochladen" [ref=f14e191] [cursor=pointer]
+                    - group "Alternativ zum Dokument-Upload kannst Du Deinen Lebenslauf im folgenden Textfeld erfassen." [ref=f14e200]:
+                      - generic [ref=f14e204]:
+                        - generic [ref=f14e205]: Lebenslauf
+                        - textbox "Lebenslauf" [ref=f14e207]:
+                          - /placeholder: Freitext
+                    - generic [ref=f14e209]:
+                      - generic [ref=f14e210]: Anschreiben
+                      - generic [ref=f14e221] [cursor=pointer]:
+                        - generic [ref=f14e222]: Kranti_Chavan_Anschreiben_dmTECH_Backend-Developer-Onlineshop-dm-App-Java-Kotlin.pdf
+                        - button "Datei entfernen" [ref=f14e223]
+                    - group "Kein Anschreiben zur Hand? Nutze einfach das folgende Freitextfeld für Dein Motivationsschreiben." [ref=f14e226]:
+                      - generic [ref=f14e230]:
+                        - generic [ref=f14e231]: Motivationsschreiben
+                        - textbox "Motivationsschreiben" [ref=f14e233]:
+                          - /placeholder: Freitext
+                          - text: dmTECH gestaltet für 7 Millionen Kundinnen und Kunden pro Monat das Omnichannel-Shopping – und das direkt in meiner Heimatstadt Karlsruhe. Produktdaten aus Quellsystemen sauber an Shop und App auszuspielen ist genau meine Stärke. Besonders reizt mich, dass Sie KI aktiv in die Softwareentwicklung einbinden.
+                    - generic [ref=f14e236]:
+                      - generic [ref=f14e237]: Weitere Dokumente
+                      - button "Dokument hochladen" [ref=f14e239] [cursor=pointer]
+                - generic [ref=f14e247]:
+                  - link "Zurück" [ref=f14e249] [cursor=pointer]:
+                    - /url: "#apply-page"
+                  - link "Weiter" [ref=f14e253] [cursor=pointer]:
+                    - /url: "#apply-page"
+            - generic: Zu Deinem Profil
+          - generic:
+            - generic "Login ungültig"
+  - contentinfo [ref=f14e100]:
+    - generic [ref=f14e101]:
+      - generic [ref=f14e102]: Fußzeile
+      - generic [ref=f14e104]:
+        - navigation "Social Media Links" [ref=f14e105]:
+          - list [ref=f14e106]:
+            - listitem [ref=f14e107]:
+              - link "Zum github-Profil vom dmTECH" [ref=f14e108] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f14e114]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f14e115] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f14e121]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f14e122] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f14e128]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f14e129] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f14e136]:
+          - list [ref=f14e138]:
+            - listitem [ref=f14e139]:
+              - button "DE" [ref=f14e140] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f14e148]:
+          - list [ref=f14e150]:
+            - listitem [ref=f14e151]:
+              - link "Kontakt" [ref=f14e152] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f14e153]:
+              - link "Impressum" [ref=f14e154] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f14e155]:
+              - link "Datenschutz" [ref=f14e156] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f14e157]:
+              - link "Information zur Barrierefreiheit" [ref=f14e158] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f14e159]:
+              - button "Cookie-Einstellungen" [ref=f14e160] [cursor=pointer]

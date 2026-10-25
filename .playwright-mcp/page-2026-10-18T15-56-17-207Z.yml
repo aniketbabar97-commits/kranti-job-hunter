@@ -1,0 +1,228 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - main [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - navigation [ref=f5e6]:
+          - 'combobox "Select language. Current language: English" [ref=f5e9] [cursor=pointer]':
+            - generic: EN
+        - generic [ref=f5e13]:
+          - heading "Apply for this job" [level=1] [ref=f5e14]
+          - generic [ref=f5e15]:
+            - generic [ref=f5e16]: Still open for applications
+            - generic [ref=f5e20]:
+              - generic "(Senior) Consultant E-Commerce (m/w/d)" [ref=f5e21]:
+                - link "(Senior) Consultant E-Commerce (m/w/d)" [ref=f5e22] [cursor=pointer]:
+                  - /url: https://lekkerland-career.onlyfy.jobs/job/7l8u2iov5q8la9r8tplxp9806s35o1
+              - generic "Lekkerland Kandidatenmanagement" [ref=f5e23]
+            - generic [ref=f5e24]:
+              - generic "Job location:Frechen" [ref=f5e26]: Frechen
+              - generic "On-site & Remote" [ref=f5e28]
+      - generic [ref=f5e29]:
+        - paragraph [aria-hidden] [ref=f5e31]: "* Required field"
+        - generic [ref=f5e33]:
+          - generic [ref=f5e34]:
+            - generic [ref=f5e35]:
+              - generic [ref=f5e36]: Personal info
+              - heading "Introduce yourself" [level=2] [ref=f5e39]
+            - generic [ref=f5e40]:
+              - generic [ref=f5e41]:
+                - generic [ref=f5e42]:
+                  - text: Salutation
+                  - generic [ref=f5e43]:
+                    - text: "*"
+                    - generic [ref=f5e44]: required
+                - generic [ref=f5e45]:
+                  - combobox "Salutation" [active] [ref=f5e46] [cursor=pointer]:
+                    - generic: Ms
+                  - combobox [aria-hidden] [ref=f5e206]
+              - generic [ref=f5e51]:
+                - generic [ref=f5e52]:
+                  - text: First name
+                  - generic [ref=f5e53]:
+                    - text: "*"
+                    - generic [ref=f5e54]: required
+                - textbox "First name" [ref=f5e56]:
+                  - /placeholder: ""
+                  - text: Kranti
+              - generic [ref=f5e57]:
+                - generic [ref=f5e58]:
+                  - text: Last name
+                  - generic [ref=f5e59]:
+                    - text: "*"
+                    - generic [ref=f5e60]: required
+                - textbox "Last name" [ref=f5e62]:
+                  - /placeholder: ""
+                  - text: Chavan
+              - generic [ref=f5e63]:
+                - generic [ref=f5e64]:
+                  - text: ZIP Code
+                  - generic [ref=f5e65]:
+                    - text: "*"
+                    - generic [ref=f5e66]: required
+                - textbox "ZIP Code" [ref=f5e68]:
+                  - /placeholder: ""
+                  - text: "76185"
+              - generic [ref=f5e69]:
+                - generic [ref=f5e70]:
+                  - text: Home city
+                  - generic [ref=f5e71]:
+                    - text: "*"
+                    - generic [ref=f5e72]: required
+                - textbox "Home city" [ref=f5e74]:
+                  - /placeholder: ""
+                  - text: Karlsruhe
+              - generic [ref=f5e75]:
+                - generic [ref=f5e76]:
+                  - text: E-mail address
+                  - generic [ref=f5e77]:
+                    - text: "*"
+                    - generic [ref=f5e78]: required
+                - textbox "E-mail address" [ref=f5e80]:
+                  - /placeholder: ""
+                  - text: krantichavan198@gmail.com
+              - generic [ref=f5e81]:
+                - generic [ref=f5e82]:
+                  - text: Phone number
+                  - generic [ref=f5e83]:
+                    - text: "*"
+                    - generic [ref=f5e84]: required
+                - textbox "Phone number" [invalid] [ref=f5e86]:
+                  - /placeholder: ""
+                  - text: +49 15750174177
+                - alert [ref=f5e238]: Please enter a valid phone number (e.g., +49123456789).
+          - generic [ref=f5e87]:
+            - generic [ref=f5e88]:
+              - generic [ref=f5e89]: Upload CV
+              - heading "Milestones in your life" [level=2] [ref=f5e92]
+            - generic [ref=f5e93]:
+              - generic [ref=f5e94]:
+                - text: CV
+                - generic [ref=f5e95]:
+                  - text: "*"
+                  - generic [ref=f5e96]: required
+              - generic [ref=f5e97]:
+                - generic [ref=f5e98]:
+                  - button "CV" [ref=f5e100]
+                  - generic [ref=f5e101]:
+                    - generic [ref=f5e102]:
+                      - strong [ref=f5e103]: Click to upload
+                      - text: or drag and drop
+                    - generic [ref=f5e104]:
+                      - text: doc, docx, pdf, rtf, odt|
+                      - generic [ref=f5e105]: max. 20.00 MB
+                - generic [ref=f5e106]:
+                  - text: No CV on hand? Create one with ease on
+                  - link "lebenslauf.com" [ref=f5e107] [cursor=pointer]:
+                    - /url: https://lebenslauf.com/neu
+          - generic [ref=f5e108]:
+            - generic [ref=f5e109]:
+              - generic [ref=f5e110]: Questions
+              - heading "A few more insights" [level=2] [ref=f5e113]
+            - generic [ref=f5e114]:
+              - generic [ref=f5e115]: Arbeitest du aktuell bei Lekkerland?
+              - radiogroup "Arbeitest du aktuell bei Lekkerland?" [ref=f5e116]:
+                - generic [ref=f5e117] [cursor=pointer]:
+                  - radio "Ja, meine Führungskraft ist informiert" [ref=f5e118]
+                  - radio [aria-hidden]
+                  - text: Ja, meine Führungskraft ist informiert
+                - generic [ref=f5e119] [cursor=pointer]:
+                  - radio "Ja, meine Führungskraft ist nicht informiert" [ref=f5e120]
+                  - radio [aria-hidden]
+                  - text: Ja, meine Führungskraft ist nicht informiert
+                - generic [ref=f5e121] [cursor=pointer]:
+                  - radio "Nein" [ref=f5e122]
+                  - radio [aria-hidden]
+                  - text: Nein
+            - generic [ref=f5e123]:
+              - generic [ref=f5e124]: Bitte nenne uns dein gewünschtes Bruttojahresgehalt.
+              - textbox "Bitte nenne uns dein gewünschtes Bruttojahresgehalt." [invalid] [ref=f5e125]:
+                - /placeholder: ""
+                - text: "60.000"
+              - alert [ref=f5e241]: You can only enter a maximum of 0 decimal places.
+            - generic [ref=f5e126]:
+              - generic [ref=f5e127]:
+                - text: Wann kannst du frühestmöglich bei uns starten?
+                - generic [ref=f5e128]:
+                  - text: "*"
+                  - generic [ref=f5e129]: required
+              - textbox "Wann kannst du frühestmöglich bei uns starten?" [invalid] [ref=f5e131]:
+                - /placeholder: ""
+              - alert [ref=f5e244]: Please fill in this required field.
+            - generic [ref=f5e132]:
+              - generic [ref=f5e133]: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch.
+              - generic [ref=f5e135]:
+                - button "Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch." [ref=f5e137]
+                - generic [ref=f5e138]:
+                  - generic [ref=f5e139]:
+                    - strong [ref=f5e140]: Click to upload
+                    - text: or drag and drop
+                  - generic [ref=f5e141]:
+                    - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                    - generic [ref=f5e142]: max. 20.00 MB
+            - generic [ref=f5e143]:
+              - generic [ref=f5e144]: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+              - generic [ref=f5e146]:
+                - button "Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch" [ref=f5e148]
+                - generic [ref=f5e149]:
+                  - generic [ref=f5e150]:
+                    - strong [ref=f5e151]: Click to upload
+                    - text: or drag and drop
+                  - generic [ref=f5e152]:
+                    - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                    - generic [ref=f5e153]: max. 20.00 MB
+            - generic [ref=f5e154]:
+              - generic [ref=f5e155]: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+              - generic [ref=f5e157]:
+                - button "Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch" [ref=f5e159]
+                - generic [ref=f5e160]:
+                  - generic [ref=f5e161]:
+                    - strong [ref=f5e162]: Click to upload
+                    - text: or drag and drop
+                  - generic [ref=f5e163]:
+                    - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                    - generic [ref=f5e164]: max. 20.00 MB
+            - generic [ref=f5e165]:
+              - generic [ref=f5e166]: Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch
+              - generic [ref=f5e168]:
+                - button "Bitte lade hier zusätzliche Dokumente wie z.B. Zeugnisse/Zertifikate/Projekte hoch" [ref=f5e170]
+                - generic [ref=f5e171]:
+                  - generic [ref=f5e172]:
+                    - strong [ref=f5e173]: Click to upload
+                    - text: or drag and drop
+                  - generic [ref=f5e174]:
+                    - text: png, jpg, jpeg, bmp, doc, docx, pdf, txt, xls, xlsx, htm, html, rtf, odt, ppt, pptx, zip|
+                    - generic [ref=f5e175]: max. 20.00 MB
+          - generic [ref=f5e176]:
+            - generic [ref=f5e177]:
+              - generic [ref=f5e178]: Last step
+              - heading "Send your application" [level=2] [ref=f5e181]
+            - generic [ref=f5e182]:
+              - generic [ref=f5e183]:
+                - text: How did you learn about this job opening?
+                - generic [ref=f5e184]:
+                  - text: "*"
+                  - generic [ref=f5e185]: required
+              - generic [ref=f5e186]:
+                - combobox "How did you learn about this job opening?" [ref=f5e187] [cursor=pointer]
+                - combobox [aria-hidden] [ref=f5e227]
+            - generic [ref=f5e192]:
+              - text: Lekkerland Kandidatenmanagement uses the onlyfy platform to process applications. By submitting your application, you accept the platform's
+              - link "GTC" [ref=f5e193] [cursor=pointer]:
+                - /url: https://xing.com/terms/xing
+              - text: . You can find more information about how your data are processed by onlyfy and Lekkerland Kandidatenmanagement in the
+              - link "privacy policy" [ref=f5e194] [cursor=pointer]:
+                - /url: https://lekkerland-career.onlyfy.jobs/en/policy
+              - text: .
+            - generic [ref=f5e196] [cursor=pointer]:
+              - checkbox "I hereby agree that my data will be stored up to and including 18.10.2027 for the purpose of further consideration and communication in case of suitable job offers in the future." [ref=f5e197]
+              - checkbox [aria-hidden]
+              - generic [ref=f5e198]: I hereby agree that my data will be stored up to and including 18.10.2027 for the purpose of further consideration and communication in case of suitable job offers in the future.
+          - button "Send application" [ref=f5e199] [cursor=pointer]
+    - contentinfo [ref=f5e200]:
+      - generic [ref=f5e201]:
+        - link "Privacy policy" [ref=f5e202] [cursor=pointer]:
+          - /url: https://lekkerland-career.onlyfy.jobs/en/policy
+        - generic [ref=f5e203]: "|"
+        - link "Legal notice" [ref=f5e204] [cursor=pointer]:
+          - /url: https://lekkerland-career.onlyfy.jobs/en/imprint
+  - alert [ref=f5e205]

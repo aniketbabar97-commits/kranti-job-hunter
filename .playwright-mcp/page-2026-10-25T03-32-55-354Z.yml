@@ -1,0 +1,11 @@
+- generic [active] [ref=f12e1]:
+  - link [ref=f12e3] [cursor=pointer]:
+    - /url: /de
+  - generic [ref=f12e6]:
+    - heading "Sorry!" [level=1] [ref=f12e7]
+    - text: Hier stimmt was nicht.
+    - generic [ref=f12e9]:
+      - heading "404 Not found. Wir können die gewünschte Seite nicht finden." [level=3] [ref=f12e10]
+      - generic [ref=f12e11]: Und jetzt? Versuchen Sie’s bitte einfach noch mal. Mehr als 3 Millionen Druckprodukte warten auf Sie.
+      - link "Zur FLYERALARM Startseite" [ref=f12e13] [cursor=pointer]:
+        - /url: /de

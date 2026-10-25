@@ -1,0 +1,26 @@
+- generic [ref=f40e1]:
+  - generic [ref=f40e4]:
+    - generic [ref=f40e6]:
+      - generic [ref=f40e7]:
+        - img "SHEKO GmbH logo" [ref=f40e8]
+        - generic [ref=f40e9]:
+          - link [ref=f40e10] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko
+            - paragraph [ref=f40e11]: SHEKO GmbH
+          - link [ref=f40e12] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko/16822362-senior-full-stack-developer-m-w-d-e-commerce-und-shopify
+            - paragraph [ref=f40e13]: Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify
+      - button "Kranti Chavan Kranti Chavan" [ref=f40e14] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f40e17]: KC
+        - generic [ref=f40e18]: Kranti Chavan
+    - generic [ref=f40e501]:
+      - heading "Was ist Ihre jährliche Gehaltserwartung in EUR?" [level=2] [ref=f40e502]
+      - group [ref=f40e504]:
+        - spinbutton "Bitte geben Sie eine Zahl ein" [active] [ref=f40e506]
+    - generic [ref=f40e40]:
+      - progressbar "80%" [ref=f40e507]
+      - generic [ref=f40e45]:
+        - button "Zurück" [ref=f40e89] [cursor=pointer]
+        - button "Weiter" [ref=f40e53] [cursor=pointer]
+  - alert [ref=f40e55]: "SHEKO (Hamburg): Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify"
+  - region "Notifications, bottom-end (alt+T)"

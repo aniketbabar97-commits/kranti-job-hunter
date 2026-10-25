@@ -1,0 +1,287 @@
+- generic [ref=e1]:
+  - link "Zum Inhalt springen" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/
+      - button "Menü Umschalter" [ref=e15] [cursor=pointer]
+  - generic [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e23]:
+        - group "1 / 5"
+        - group "2 / 5"
+        - group "3 / 5"
+        - group "4 / 5"
+        - group "5 / 5"
+        - group "1 / 5" [ref=e24]
+        - group "2 / 5"
+        - group "3 / 5"
+        - group "4 / 5"
+        - group "5 / 5"
+        - group "1 / 5"
+        - group "2 / 5"
+        - group "3 / 5"
+        - group "4 / 5"
+        - group "5 / 5"
+      - generic [ref=e32]:
+        - heading "Ein starker Partner für Ihre Wünsche" [level=1] [ref=e36]
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: Wir sind ein traditionelles Familienunternehmen mit modernen Ansprüchen und dynamischem Wachstum.
+          - paragraph [ref=e40]: Was 1959 mit Firmengründer Frank Richter als kleiner Großhandelsbetrieb im Herzen von Lindlar begann, entwickelte sich bis heute zu einer der größten und namhaftesten Holzhandlungen in Deutschland.
+        - link "Produkte" [ref=e44] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/produkte/
+        - link "Leistungen" [ref=e50] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/partner-und-leistungen/
+    - generic [ref=e55]:
+      - generic [ref=e57]:
+        - heading [level=3] [ref=e61]:
+          - link "Neuigkeiten" [ref=e62] [cursor=pointer]:
+            - /url: https://www.holz-richter.de/ueber-uns/aktuelles/
+        - link "Alle Neuigkeiten" [ref=e66] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/ueber-uns/aktuelles/
+      - list [ref=e77]:
+        - listitem [ref=e78]:
+          - generic [ref=e80]:
+            - heading [level=3] [ref=e81]:
+              - link "Gewinnliste des Schützenverein Lindlar 2026" [ref=e82] [cursor=pointer]:
+                - /url: https://www.holz-richter.de/gewinnliste-des-schuetzenverein-lindlar-2026/
+            - link "Mehr über Gewinnliste des Schützenverein Lindlar 2026" [ref=e83] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/gewinnliste-des-schuetzenverein-lindlar-2026/
+              - text: Zum Artikel »
+        - listitem [ref=e84]:
+          - generic [ref=e86]:
+            - heading [level=3] [ref=e87]:
+              - link "Gino feiert 70. Geburtstag – und bleibt weiter voll in Fahrt" [ref=e88] [cursor=pointer]:
+                - /url: https://www.holz-richter.de/gino-feiert-70-geburtstag-und-bleibt-weiter-voll-in-fahrt/
+            - link "Mehr über Gino feiert 70. Geburtstag – und bleibt weiter voll in Fahrt" [ref=e89] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/gino-feiert-70-geburtstag-und-bleibt-weiter-voll-in-fahrt/
+              - text: Zum Artikel »
+        - listitem [ref=e90]:
+          - generic [ref=e92]:
+            - heading [level=3] [ref=e93]:
+              - link "Holz-Richter auf der Berufswahlmesse der Gesamtschule Marienheide" [ref=e94] [cursor=pointer]:
+                - /url: https://www.holz-richter.de/holz-richter-auf-der-berufswahlmesse-der-gesamtschule-marienheide/
+            - link "Mehr über Holz-Richter auf der Berufswahlmesse der Gesamtschule Marienheide" [ref=e95] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/holz-richter-auf-der-berufswahlmesse-der-gesamtschule-marienheide/
+              - text: Zum Artikel »
+        - listitem [ref=e96]:
+          - generic [ref=e98]:
+            - heading [level=3] [ref=e99]:
+              - link "Holz-Richter bei der IHK-Veranstaltung „Zukunft Ausbildung“ geehrt" [ref=e100] [cursor=pointer]:
+                - /url: https://www.holz-richter.de/holz-richter-bei-der-ihk-veranstaltung-zukunft-ausbildung-geehrt/
+            - link "Mehr über Holz-Richter bei der IHK-Veranstaltung „Zukunft Ausbildung“ geehrt" [ref=e101] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/holz-richter-bei-der-ihk-veranstaltung-zukunft-ausbildung-geehrt/
+              - text: Zum Artikel »
+    - generic [ref=e105]:
+      - heading "Ansehen, Anfassen und Erleben" [level=3] [ref=e109]
+      - generic [ref=e110]: "Besuchen Sie unsere traumhafte Ausstellungswelt auf 6.000 Quadratmetern. Lassen Sie sich von der beeindruckenden Produktvielfalt und dem geschmackvollen Ambiente inspirieren. Die große Auswahl an Parkett, Vinyl-/Designböden, Innentüren, Terrassendielen, Gartenmöbel, Sonnenschirme, Zäune und Holz im Garten werden Sie begeistern. Viele unserer Fachberater kommen selbst aus dem Handwerk und wissen aus eigener Erfahrung, wie man Parkett, Türen, Terrassendielen etc. verarbeitet. Für Sie bedeutet das: persönliche und praxisnahe Beratung. Unsere erfahrenen Fachberater freuen sich auf Sie. Holz-Richter GmbH | Ihr Partner rund um das Thema Holz."
+      - link "Unsere Ausstellung" [ref=e115] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/ueber-uns/ausstellungen/
+    - generic [ref=e122]:
+      - heading "Privatkunden" [level=3] [ref=e126]
+      - generic [ref=e127]: Auf einer Gesamtbetriebsfläche von mehr als 100.000 Quadratmetern werden bei uns Holzfußböden, Zimmertüren, Schnittholz, Gartenholz und Gartenmöbel in einer Auswahl und Menge angeboten, wie man sie woanders kaum findet.
+      - link "Mehr erfahren" [ref=e132] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/privatkunden/
+    - generic [ref=e138]:
+      - heading "Handel" [level=3] [ref=e142]
+      - generic [ref=e143]: Die Holz-Richter GmbH versteht sich als Holz-Logistiker – Produkte, die Sie bei der Industrie nicht beziehen können, sind bei uns immer für Sie verfügbar.
+      - link "Mehr erfahren" [ref=e148] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/handel/
+    - generic [ref=e154]:
+      - heading "casando.de" [level=3] [ref=e171]
+      - generic [ref=e173]:
+        - paragraph [ref=e174]: 2004 haben wir als einer der Allerersten begonnen, über unseren Onlineshop casando.de unsere Produkte online zu verkaufen.
+        - paragraph [ref=e175]: Sie können rund um die Uhr auf casando Ihre Wunschprodukte bestellen und wir liefern diese ganz bequem zu Ihnen nach Hause.
+        - paragraph [ref=e176]: Falls Sie Beratung wünschen, stehen Ihnen über 50 eigene Fachverkäufer zur Verfügung.
+      - link "Zu casando" [ref=e180] [cursor=pointer]:
+        - /url: https://www.casando.de/
+      - heading "casando Community" [level=3] [ref=e189]
+      - paragraph [ref=e192]: Lassen Sie sich von unseren exklusiven Videos und Ratgebern inspirieren – von praktischen Montagevideos über Produkt-Tests bis hin zu wertvollen Tipps & Tricks finden Sie hier hilfreiche Infos rund um unser vielfältiges Sortiment für drinnen und draußen.
+      - link "Zur Community" [ref=e196] [cursor=pointer]:
+        - /url: https://www.casando.de/community/
+    - heading "Handwerk" [level=3] [ref=e205]
+    - generic [ref=e211]:
+      - link "bodenleger-handwerk-partner Bodenleger Fachbetriebe Mehr erfahren" [ref=e216] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/bodenleger/
+        - img "bodenleger-handwerk-partner" [ref=e218]
+        - generic [ref=e220]:
+          - heading "Bodenleger Fachbetriebe" [level=3] [ref=e221]
+          - generic [ref=e222]: Mehr erfahren
+      - link "galabau-handwerk-partner Garten- & Landschaftsbau Mehr erfahren" [ref=e228] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/garten-und-landschaftsbau/
+        - img "galabau-handwerk-partner" [ref=e230]
+        - generic [ref=e232]:
+          - heading "Garten- & Landschaftsbau" [level=2] [ref=e233]: Garten- &Landschaftsbau
+          - generic [ref=e234]: Mehr erfahren
+      - link "Ansprechpartner Schreiner & Tischler Mehr erfahren" [ref=e240] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/schreiner-und-tischler/
+        - img "Ansprechpartner" [ref=e242]
+        - generic [ref=e244]:
+          - heading "Schreiner & Tischler" [level=3] [ref=e245]: Schreiner &Tischler
+          - generic [ref=e246]: Mehr erfahren
+      - link "holzfertigbau-handwerk-partner Zimmerei & Holzfertigbau Mehr erfahren" [ref=e252] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/partner-und-leistungen/zimmereien-und-holzfertigbau/
+        - img "holzfertigbau-handwerk-partner" [ref=e254]
+        - generic [ref=e256]:
+          - heading "Zimmerei & Holzfertigbau" [level=3] [ref=e257]
+          - generic [ref=e258]: Mehr erfahren
+    - generic [ref=e263]:
+      - button "Video abspielen" [ref=e268] [cursor=pointer]
+      - generic [ref=e273]:
+        - link [ref=e274] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/holz-richter-schmiedeweg-1.jpg
+        - link [ref=e276] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/holz-richter-ausstellung.jpg
+        - link [ref=e278] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/holz-richter-ausstellung-2.jpg
+        - link [ref=e280] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/fussboeden.jpg
+        - link [ref=e282] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/holz-lager-3.jpg
+        - link [ref=e284] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/wandverkleidung-3.jpg
+        - link [ref=e286] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/wandverkleidung-1.jpg
+        - link [ref=e288] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/fahrzeugflotte.jpg
+        - link [ref=e290] [cursor=pointer]:
+          - /url: https://www.holz-richter.de/wp-content/uploads/2022/10/fachmarkt-1.jpg
+  - contentinfo [ref=e292]:
+    - generic [ref=e294]:
+      - generic [ref=e296]:
+        - heading "Möchten Sie mehr erfahren?" [level=3] [ref=e299]
+        - form "Kontaktformular" [ref=e302]:
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - generic [ref=e305] [cursor=pointer]: Ihr Name *
+              - textbox "Ihr Name *" [ref=e306]:
+                - /placeholder: Vor- und Nachname
+            - generic [ref=e307]:
+              - generic [ref=e308] [cursor=pointer]: E-Mail *
+              - textbox "E-Mail *" [ref=e309]:
+                - /placeholder: E-Mail
+            - generic [ref=e310]:
+              - generic [ref=e311] [cursor=pointer]: Ihre Nachricht *
+              - textbox "Ihre Nachricht *" [ref=e312]:
+                - /placeholder: Ihre Nachricht
+            - button "Nachricht absenden" [ref=e315] [cursor=pointer]
+        - generic [ref=e319]:
+          - heading [level=5] [ref=e320]:
+            - text: Hinweise zur Verarbeitung ihrer personenbezogenen Daten finden Sie in unserer
+            - link "Datenschutzerklärung" [ref=e321] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/datenschutz/
+            - text: .
+          - paragraph [ref=e322]:
+            - text: Diese Seite ist durch reCAPTCHA geschützt. Es gelten die
+            - link "Datenschutzerklärung" [ref=e323] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: und die
+            - link "Nutzungsbedingungen" [ref=e324] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: von Google.
+      - generic [ref=e326]:
+        - generic [ref=e330]:
+          - heading "Kontakt" [level=4] [ref=e333]
+          - generic [ref=e335]:
+            - text: +49 2266 47350
+            - link "info@holz-richter.de" [ref=e336] [cursor=pointer]:
+              - /url: mailto:info@holz-richter.de
+        - generic [ref=e340]:
+          - heading "Öffnungszeiten" [level=4] [ref=e343]
+          - generic [ref=e345]:
+            - paragraph [ref=e346]:
+              - strong [ref=e347]: Ausstellung – Schmiedeweg 1
+            - paragraph [ref=e348]: "Mo. bis Fr.: 8:30 – 18:30 UhrSamstag: 8:30 – 14:00 UhrSo. + Feiertage geschlossen"
+            - paragraph [ref=e349]:
+              - strong [ref=e350]: Fachmarkt,
+              - strong [ref=e351]: Abhollager
+              - text: und
+              - strong [ref=e352]: Großhandel – Holz-Richter-Str. 1
+            - paragraph [ref=e353]:
+              - text: "Mo. bis Fr.: 7:00 –"
+              - strong [ref=e354]: 18:00 Uhr (
+              - text: ab 16.11.2026 bis
+              - strong [ref=e355]: 17:00 Uhr)
+              - text: "Samstag: 8:00 –"
+              - strong [ref=e356]: 14:00 Uhr
+        - generic [ref=e360]:
+          - heading "Adresse" [level=4] [ref=e363]
+          - paragraph [ref=e366]:
+            - strong [ref=e367]: Holz-Richter GmbH
+            - text: Holz-Richter-Straße 151789 Lindlar
+    - generic [ref=e374]:
+      - img "Google maps preview image" [ref=e375]
+      - generic [ref=e376]:
+        - heading "Wir benötigen Ihre Zustimmung, um den Google Maps-Service zu laden!" [level=3] [ref=e377]
+        - paragraph [ref=e378]: Wir verwenden einen Service eines Drittanbieters, um Karteninhalte einzubetten. Dieser Service kann Daten zu Ihren Aktivitäten sammeln. Bitte lesen Sie die Details durch und stimmen Sie der Nutzung des Service zu, um diese Karte anzuzeigen.
+        - generic [ref=e379]:
+          - button "Mehr Informationen" [ref=e380] [cursor=pointer]
+          - button "Akzeptieren" [ref=e381] [cursor=pointer]
+        - generic [ref=e382]:
+          - text: powered by
+          - link "Usercentrics Consent Management Platform" [ref=e383] [cursor=pointer]:
+            - /url: https://usercentrics.com/
+    - generic [ref=e387]:
+      - link [ref=e390] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/
+      - list [ref=e393]:
+        - listitem [ref=e394]:
+          - link "Facebook" [ref=e395] [cursor=pointer]:
+            - /url: https://www.facebook.com/HolzRichterGmbH
+        - listitem [ref=e399]:
+          - link "Instagram" [ref=e400] [cursor=pointer]:
+            - /url: https://www.instagram.com/holzrichter_gmbh/
+        - listitem [ref=e404]:
+          - link "Youtube" [ref=e405] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/CasandoDe
+      - navigation "Menü" [ref=e411]:
+        - list [ref=e412]:
+          - listitem [ref=e413]:
+            - link "Impressum" [ref=e414] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/impressum/
+          - listitem [ref=e415]:
+            - link "Datenschutz" [ref=e416] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/datenschutz/
+          - listitem [ref=e417]:
+            - link "Datenschutz Social Media" [ref=e418] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/sm-dse/
+          - listitem [ref=e419]:
+            - link "DSGVO" [ref=e420] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/dsgvo/
+          - listitem [ref=e421]:
+            - link "Cookie Einstellungen" [ref=e422] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/cookie-einstellungen/
+          - listitem [ref=e423]:
+            - link "Über uns" [ref=e424] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/ueber-uns/
+          - listitem [ref=e425]:
+            - link "AGB" [ref=e426] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/agb/
+          - listitem [ref=e427]:
+            - link "GroundingPage" [ref=e428] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/groundingpage/
+  - generic [ref=e429]: tablet
+  - generic [active]:
+    - generic:
+      - generic:
+        - button "Öffnen Privatsphäre-Einstellungen" [ref=e430] [cursor=pointer]
+        - dialog [ref=e437]:
+          - generic [ref=e443]:
+            - generic [ref=e444]:
+              - heading "Privatsphäre-Einstellungen" [level=1] [ref=e446]
+              - button "Sprache auswählen" [ref=e449] [cursor=pointer]
+            - generic [ref=e455]: Diese Seite nutzt Website-Tracking-Technologien von Dritten, um ihre Dienste anzubieten, stetig zu verbessern und Werbung entsprechend den Interessen der Nutzer anzuzeigen.
+            - generic [ref=e457]:
+              - generic [ref=e458]:
+                - link "Datenschutzerklärung" [ref=e459] [cursor=pointer]:
+                  - /url: https://www.holz-richter.de/datenschutz/
+                - link "Impressum" [ref=e460] [cursor=pointer]:
+                  - /url: https://www.holz-richter.de/impressum/
+              - button "mehr" [ref=e462] [cursor=pointer]
+          - generic [ref=e465]:
+            - generic [ref=e467]:
+              - button "Alles akzeptieren" [ref=e468] [cursor=pointer]
+              - button "Ablehnen" [ref=e469] [cursor=pointer]
+            - link "Powered by Usercentrics Consent Management" [ref=e471] [cursor=pointer]:
+              - /url: https://usercentrics.com/de/consent-management-platform-powered-by-usercentrics/?utm_source=banner_uc&utm_medium=referral&utm_content=v2

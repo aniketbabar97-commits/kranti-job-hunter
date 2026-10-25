@@ -1,0 +1,229 @@
+- generic [active] [ref=f2e1]:
+  - link "Zum Inhalt springen" [ref=f2e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f2e3]:
+    - generic [ref=f2e5]:
+      - link [ref=f2e10] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/
+      - button "Menü Umschalter" [ref=f2e15] [cursor=pointer]
+  - generic [ref=f2e18]:
+    - generic [ref=f2e28]:
+      - heading "Arbeiten bei casando" [level=1] [ref=f2e31]
+      - paragraph [ref=f2e34]: "2004 haben wir als einer der Allerersten begonnen, über unseren Onlineshop casando.de unsere Produkte online zu verkaufen. casando ist einer der bekanntesten Onlineshops für den Bereich Haus & Garten. Unsere Produkte kann nicht jeder. Beratungsintensiv, sperrig und langlebig beschreibt sie am besten: Vom Parkettböden über Türen bis hin zu sechs Meter langen Terrassendielen vertreiben wir die klassischen Produkte des Holz- und Baustoffhandels online.Damit wir online unseren Erfolg weiter ausbauen können, suchen wir Verstärkung."
+    - generic [ref=f2e38]:
+      - heading "Ihre Bewerbung" [level=3] [ref=f2e41]
+      - generic [ref=f2e43]:
+        - paragraph [ref=f2e44]:
+          - text: Wenn Sie Mitglied in einem starken Team werden wollen, dann bewerben Sie sich bei uns mit den üblichen Unterlagen per Post oder E-Mail an
+          - link "jobs@holz-richter.de" [ref=f2e45] [cursor=pointer]:
+            - /url: mailto:jobs@holz-richter.de
+          - text: .
+        - heading [level=5] [ref=f2e46]:
+          - strong [ref=f2e47]: Holz-Richter GmbH
+        - paragraph [ref=f2e48]: Holz-Richter-Straße 151789 Lindlar
+        - paragraph [ref=f2e49]:
+          - strong [ref=f2e50]: "Tel.:"
+          - text: 02266 4735-0
+          - strong [ref=f2e51]: "Fax:"
+          - text: 02266 4735-99
+          - strong [ref=f2e52]: E-Mail
+          - text: ":"
+          - link "jobs@holz-richter.de" [ref=f2e53] [cursor=pointer]:
+            - /url: mailto:jobs@holz-richter.de
+    - generic [ref=f2e63]:
+      - heading "Stellenangebote" [level=2] [ref=f2e66]
+      - generic "Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys" [ref=f2e69]:
+        - group [ref=f2e70]:
+          - generic "Shopify E-Commerce Manager / Product Owner (m/w/d)" [ref=f2e71] [cursor=pointer]
+          - region [ref=f2e78]:
+            - region [ref=f2e79]:
+              - generic [ref=f2e87]:
+                - generic [ref=f2e89]:
+                  - generic [ref=f2e90]:
+                    - paragraph [ref=f2e91]: Du kennst Shopify nicht nur aus der täglichen Shop-Pflege, sondern weißt auch, wie man einen Shop von Grund auf aufbaut und kontinuierlich weiterentwickelt?
+                    - paragraph [ref=f2e92]:
+                      - text: Dann werde Teil unseres E-Commerce-Teams bei Holz-Richter! Als
+                      - strong [ref=f2e93]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+                      - text: übernimmst du die Verantwortung für den Aufbau und die Weiterentwicklung neuer Shopify-Shops für casando. Dabei bekommst du viel Gestaltungsspielraum und die Möglichkeit, deine Projekte eigenständig von der Idee bis zur Umsetzung voranzutreiben.
+                    - paragraph [ref=f2e94]: Du bewegst dich an der Schnittstelle zwischen E-Commerce, UX und Technik und sorgst dafür, dass unsere Shopify-Shops sowohl aus Kundensicht als auch technisch überzeugen.
+                  - heading "Aufgaben" [level=2] [ref=f2e95]
+                  - list [ref=f2e97]:
+                    - listitem [ref=f2e98]: Du übernimmst als Product Owner die Verantwortung für den Aufbau und die Weiterentwicklung unserer Shopify-Shops.
+                    - listitem [ref=f2e99]: Du setzt neue Shops möglichst eigenständig auf und entwickelst bestehende Lösungen kontinuierlich weiter.
+                    - listitem [ref=f2e100]: Du konzipierst und optimierst Shop-Strukturen, Navigation, Landingpages und Customer Journeys mit Blick auf eine gute User Experience und Conversion.
+                    - listitem [ref=f2e101]: Du konfigurierst Shopify, Themes und Apps und entscheidest, welche Lösungen für den jeweiligen Shop sinnvoll sind.
+                    - listitem [ref=f2e102]: Du setzt Anpassungen im Shop eigenständig um und koordinierst bei Bedarf technische Anforderungen.
+                    - listitem [ref=f2e103]: Du kümmerst dich um die Anbindung und das Zusammenspiel von Shopify mit weiteren Systemen, Schnittstellen und Middleware-Lösungen.
+                    - listitem [ref=f2e104]: Du identifizierst Optimierungspotenziale und setzt neue Features, Tests und Verbesserungen eigenverantwortlich um.
+                    - listitem [ref=f2e105]: Du behältst aktuelle Shopify-Entwicklungen, neue Funktionen, Apps und E-Commerce-Trends im Blick und prüfst, welche davon für unsere Shops relevant sind.
+                  - heading "Qualifikation" [level=2] [ref=f2e106]
+                  - list [ref=f2e108]:
+                    - listitem [ref=f2e109]: Du hast fundierte praktische Erfahrung mit Shopify und hast idealerweise bereits selbstständig Shopify-Shops aufgebaut und weiterentwickelt.
+                    - listitem [ref=f2e110]: Du verstehst Shopify nicht nur aus Anwendersicht, sondern bringst auch das notwendige technische Verständnis mit, um viele Anforderungen eigenständig umzusetzen.
+                    - listitem [ref=f2e111]: Du kennst dich mit Shopify Themes, Apps und Schnittstellen aus; Kenntnisse im Bereich Middleware sind von Vorteil.
+                    - listitem [ref=f2e112]:
+                      - text: Idealerweise kannst du auch Anpassungen an Shopify-Themes selbst vornehmen. Kenntnisse in
+                      - strong [ref=f2e113]: Liquid
+                      - text: ", der Shopify-eigenen Template-Sprache, sowie in"
+                      - strong [ref=f2e114]: HTML, CSS und JavaScript
+                      - text: sind ein Plus.
+                    - listitem [ref=f2e115]: Du kannst damit kleinere technische und gestalterische Änderungen möglichst eigenständig umsetzen, ohne für jede Anpassung auf Entwicklungsressourcen angewiesen zu sein.
+                    - listitem [ref=f2e116]: Du bringst ein gutes Verständnis für E-Commerce, UX und Conversion-Optimierung mit und kannst technische und fachliche Anforderungen miteinander verbinden.
+                    - listitem [ref=f2e117]: Du arbeitest sehr selbstständig, strukturiert und lösungsorientiert und übernimmst gerne Verantwortung für deine Projekte.
+                    - listitem [ref=f2e118]: Du hast Lust, neue Shops von Beginn an mitzugestalten, eigene Ideen einzubringen und Entscheidungen aktiv voranzutreiben.
+                    - listitem [ref=f2e119]: Du verfügst über sehr gute Deutschkenntnisse in Wort und Schrift.
+                  - heading "Benefits" [level=2] [ref=f2e120]
+                  - generic [ref=f2e121]:
+                    - list [ref=f2e122]:
+                      - listitem [ref=f2e123]: 30 Tage Urlaub
+                      - listitem [ref=f2e124]: Urlaubs- und Weihnachtsgeld
+                      - listitem [ref=f2e125]: Vermögenswirksame Leistungen
+                      - listitem [ref=f2e126]: Betriebliche Altersvorsorge und Berufsunfähigkeitsvorsorge
+                      - listitem [ref=f2e127]: Jobrad
+                      - listitem [ref=f2e128]:
+                        - text: EGYM-Wellpass
+                        - strong [ref=f2e129]: ":"
+                        - text: Firmenfitness mit Arbeitgeberzuschuss
+                      - listitem [ref=f2e130]: FINN-Jobauto
+                      - listitem [ref=f2e131]: Gleitzeitkonto
+                      - listitem [ref=f2e132]: Möglichkeit zur persönlichen und fachlichen Weiterentwicklung
+                      - listitem [ref=f2e133]: Sicherer Arbeitsplatz in einem zukunftsorientierten Unternehmen
+                      - listitem [ref=f2e134]: Hybrides Modell (3 Tage Office + 2 Tage Remote / Woche)
+                    - paragraph [ref=f2e135]
+                  - paragraph [ref=f2e137]: Wir freuen uns auf deine aussagekräftige Bewerbung!
+                - paragraph [ref=f2e138]:
+                  - link "Online bewerben." [ref=f2e139] [cursor=pointer]:
+                    - /url: https://join.com/companies/holz-richter/16777449-shopify-e-commerce-manager-product-owner-m-w-d?utm_medium=social_sharing&utm_source=copy_link
+        - group [ref=f2e140]:
+          - generic "Produktdaten Manager (m/w/d) Vollzeit" [ref=f2e141] [cursor=pointer]
+        - group [ref=f2e148]:
+          - generic "Tischler / Schreiner für unser Bearbeitungszentrum (m/w/d) Vollzeit" [ref=f2e149] [cursor=pointer]
+        - group [ref=f2e156]:
+          - generic "Mitarbeiter Fahrzeugwartung & Fuhrpark-Instandhaltung (m/w/d)" [ref=f2e157] [cursor=pointer]
+        - group [ref=f2e164]:
+          - generic "Kundenberater (m/w/d) für unsere Türenausstellung" [ref=f2e165] [cursor=pointer]
+        - group [ref=f2e172]:
+          - generic "Fachberater im Großhandel (m/w/d)" [ref=f2e173] [cursor=pointer]
+        - group [ref=f2e180]:
+          - 'generic "Online Marketing Manager (m/w/d): Fokus Paid / SEA & Performance Marketing" [ref=f2e181] [cursor=pointer]'
+        - group [ref=f2e188]:
+          - generic "Full Stack Entwickler / Developer (m/w/d) - Vollzeit Remote (Deutschland)" [ref=f2e189] [cursor=pointer]
+        - group [ref=f2e196]:
+          - generic "Digital Analyst (m/w/d)" [ref=f2e197] [cursor=pointer]
+        - group [ref=f2e204]:
+          - generic "(Senior) Marketplace Manager (m/w/d)" [ref=f2e205] [cursor=pointer]
+  - contentinfo [ref=f2e212]:
+    - generic [ref=f2e214]:
+      - generic [ref=f2e216]:
+        - heading "Möchten Sie mehr erfahren?" [level=3] [ref=f2e219]
+        - form "Kontaktformular" [ref=f2e222]:
+          - generic [ref=f2e223]:
+            - generic [ref=f2e224]:
+              - generic [ref=f2e225] [cursor=pointer]: Ihr Name *
+              - textbox "Ihr Name *" [ref=f2e226]:
+                - /placeholder: Vor- und Nachname
+            - generic [ref=f2e227]:
+              - generic [ref=f2e228] [cursor=pointer]: E-Mail *
+              - textbox "E-Mail *" [ref=f2e229]:
+                - /placeholder: E-Mail
+            - generic [ref=f2e230]:
+              - generic [ref=f2e231] [cursor=pointer]: Ihre Nachricht *
+              - textbox "Ihre Nachricht *" [ref=f2e232]:
+                - /placeholder: Ihre Nachricht
+            - button "Nachricht absenden" [ref=f2e235] [cursor=pointer]
+        - generic [ref=f2e239]:
+          - heading [level=5] [ref=f2e240]:
+            - text: Hinweise zur Verarbeitung ihrer personenbezogenen Daten finden Sie in unserer
+            - link "Datenschutzerklärung" [ref=f2e241] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/datenschutz/
+            - text: .
+          - paragraph [ref=f2e242]:
+            - text: Diese Seite ist durch reCAPTCHA geschützt. Es gelten die
+            - link "Datenschutzerklärung" [ref=f2e243] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy
+            - text: und die
+            - link "Nutzungsbedingungen" [ref=f2e244] [cursor=pointer]:
+              - /url: https://policies.google.com/terms
+            - text: von Google.
+      - generic [ref=f2e246]:
+        - generic [ref=f2e250]:
+          - heading "Kontakt" [level=4] [ref=f2e253]
+          - generic [ref=f2e255]:
+            - text: +49 2266 47350
+            - link "info@holz-richter.de" [ref=f2e256] [cursor=pointer]:
+              - /url: mailto:info@holz-richter.de
+        - generic [ref=f2e260]:
+          - heading "Öffnungszeiten" [level=4] [ref=f2e263]
+          - generic [ref=f2e265]:
+            - paragraph [ref=f2e266]:
+              - strong [ref=f2e267]: Ausstellung – Schmiedeweg 1
+            - paragraph [ref=f2e268]: "Mo. bis Fr.: 8:30 – 18:30 UhrSamstag: 8:30 – 14:00 UhrSo. + Feiertage geschlossen"
+            - paragraph [ref=f2e269]:
+              - strong [ref=f2e270]: Fachmarkt,
+              - strong [ref=f2e271]: Abhollager
+              - text: und
+              - strong [ref=f2e272]: Großhandel – Holz-Richter-Str. 1
+            - paragraph [ref=f2e273]:
+              - text: "Mo. bis Fr.: 7:00 –"
+              - strong [ref=f2e274]: 18:00 Uhr (
+              - text: ab 16.11.2026 bis
+              - strong [ref=f2e275]: 17:00 Uhr)
+              - text: "Samstag: 8:00 –"
+              - strong [ref=f2e276]: 14:00 Uhr
+        - generic [ref=f2e280]:
+          - heading "Adresse" [level=4] [ref=f2e283]
+          - paragraph [ref=f2e286]:
+            - strong [ref=f2e287]: Holz-Richter GmbH
+            - text: Holz-Richter-Straße 151789 Lindlar
+    - generic [ref=f2e294]:
+      - img "Google maps preview image" [ref=f2e295]
+      - generic [ref=f2e296]:
+        - heading "Wir benötigen Ihre Zustimmung, um den Google Maps-Service zu laden!" [level=3] [ref=f2e297]
+        - paragraph [ref=f2e298]: Wir verwenden einen Service eines Drittanbieters, um Karteninhalte einzubetten. Dieser Service kann Daten zu Ihren Aktivitäten sammeln. Bitte lesen Sie die Details durch und stimmen Sie der Nutzung des Service zu, um diese Karte anzuzeigen.
+        - generic [ref=f2e299]:
+          - button "Mehr Informationen" [ref=f2e300] [cursor=pointer]
+          - button "Akzeptieren" [ref=f2e301] [cursor=pointer]
+        - generic [ref=f2e302]:
+          - text: Powered by
+          - link "Usercentrics Consent Management Platform" [ref=f2e303] [cursor=pointer]:
+            - /url: https://usercentrics.com/
+    - generic [ref=f2e307]:
+      - link [ref=f2e310] [cursor=pointer]:
+        - /url: https://www.holz-richter.de/
+      - list [ref=f2e313]:
+        - listitem [ref=f2e314]:
+          - link "Facebook" [ref=f2e315] [cursor=pointer]:
+            - /url: https://www.facebook.com/HolzRichterGmbH
+        - listitem [ref=f2e319]:
+          - link "Instagram" [ref=f2e320] [cursor=pointer]:
+            - /url: https://www.instagram.com/holzrichter_gmbh/
+        - listitem [ref=f2e324]:
+          - link "Youtube" [ref=f2e325] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/CasandoDe
+      - navigation "Menü" [ref=f2e331]:
+        - list [ref=f2e332]:
+          - listitem [ref=f2e333]:
+            - link "Impressum" [ref=f2e334] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/impressum/
+          - listitem [ref=f2e335]:
+            - link "Datenschutz" [ref=f2e336] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/datenschutz/
+          - listitem [ref=f2e337]:
+            - link "Datenschutz Social Media" [ref=f2e338] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/sm-dse/
+          - listitem [ref=f2e339]:
+            - link "DSGVO" [ref=f2e340] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/dsgvo/
+          - listitem [ref=f2e341]:
+            - link "Cookie Einstellungen" [ref=f2e342] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/cookie-einstellungen/
+          - listitem [ref=f2e343]:
+            - link "Über uns" [ref=f2e344] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/ueber-uns/
+          - listitem [ref=f2e345]:
+            - link "AGB" [ref=f2e346] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/agb/
+          - listitem [ref=f2e347]:
+            - link "GroundingPage" [ref=f2e348] [cursor=pointer]:
+              - /url: https://www.holz-richter.de/groundingpage/
+  - generic [ref=f2e349]: tablet

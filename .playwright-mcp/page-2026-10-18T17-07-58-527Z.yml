@@ -1,0 +1,107 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e2]:
+    - banner [ref=f12e3]:
+      - heading "Careers at Rehau" [level=1]
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#content"
+      - navigation "Header Menü" [ref=f12e7]:
+        - link [ref=f12e8] [cursor=pointer]:
+          - /url: https://www.rehau.com/de-de
+        - list [ref=f12e10]:
+          - listitem [ref=f12e11]:
+            - link "Startseite" [ref=f12e12] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f12e13]:
+            - link "Stellenmarkt" [ref=f12e14] [cursor=pointer]:
+              - /url: https://www.rehau.jobs/search/?searchby=location&q=&locationsearch=&geolocation=
+          - listitem [ref=f12e15]:
+            - link "Karriereseite" [ref=f12e16] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/karriere
+          - listitem [ref=f12e17]:
+            - link "FAQ" [ref=f12e18] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+      - generic [ref=f12e20]:
+        - button "Sprache" [ref=f12e22] [cursor=pointer]
+        - link "Profil anzeigen" [ref=f12e26] [cursor=pointer]:
+          - /url: "#"
+    - main [ref=f12e28]:
+      - generic [ref=f12e29]:
+        - generic [ref=f12e30]:
+          - generic:
+            - heading "Bildschirmausleseprogramme können die folgende durchsuchbare Karte nicht lesen." [level=2] [ref=f12e31]
+            - link "Folgen Sie diesem Link auf unsere Stellensuchseite. Dort können Sie die verfügbaren Stellen in einem benutzerfreundlicheren Format durchsuchen." [ref=f12e32] [cursor=pointer]:
+              - /url: /search/
+          - iframe [ref=f12e34]:
+            - generic [ref=f13e4]:
+              - textbox "Stellen suchen und auf einer Weltkarte anzeigen" [ref=f13e5]:
+                - /placeholder: Stellen suchen
+              - button "" [ref=f13e6] [cursor=pointer]: 
+        - generic [ref=f12e36]:
+          - heading "Herzlich willkommen auf dem REHAU Stellenportal!" [level=2] [ref=f12e37]
+          - paragraph [ref=f12e39]: Wir freuen uns mit Dir, neue Wege zu gehen.
+        - search [ref=f12e43]:
+          - generic [ref=f12e45]:
+            - generic [ref=f12e46]:
+              - generic [ref=f12e48]:
+                - generic [aria-hidden] [ref=f12e49]: "Nach Jobtitel oder Standort suchen:"
+                - textbox "Nach Jobtitel oder Standort suchen:" [ref=f12e50]
+              - button "Klicke hier, für mehr Auswahlmöglichkeiten bzw. Suchfilter" [ref=f12e53] [cursor=pointer]
+            - generic [ref=f12e55]:
+              - button "Stellen suchen" [ref=f12e57] [cursor=pointer]
+              - button "Löschen" [ref=f12e59] [cursor=pointer]
+        - generic [ref=f12e61]:
+          - heading "FAQ's" [level=2] [ref=f12e62]
+          - link "Hier findest du die häufigst gestellten Fragen zu unserem Bewerbungsprozess" [ref=f12e65] [cursor=pointer]:
+            - /url: http://www.rehau.de/faqs-bewerben-bei-rehau
+        - generic [ref=f12e70]:
+          - heading "Werde Teil unserer Talent Community" [level=2] [ref=f12e71]
+          - paragraph [ref=f12e72]: Gib Deine E-Mail-Adresse an und erzähle uns ein bisschen über Dich. Wir benachrichtigen Dich bei passenden Stellenangeboten und Events.
+          - generic:
+            - textbox "E-Mail Adresse..." [ref=f12e73]
+            - button "Jetzt registrieren" [ref=f12e74] [cursor=pointer]
+          - generic [ref=f12e75]:
+            - paragraph [ref=f12e76]: Bist Du bereits angemeldet?
+            - link "Profil anzeigen" [ref=f12e78] [cursor=pointer]:
+              - /url: "#"
+        - paragraph [ref=f12e82]: Engineering Lives
+    - contentinfo [ref=f12e83]:
+      - generic [ref=f12e86]:
+        - list [ref=f12e87]:
+          - listitem [ref=f12e88]:
+            - button "Manager für Cookie-Einwilligungen" [ref=f12e89] [cursor=pointer]
+          - listitem [ref=f12e90]:
+            - link "FAQ" [ref=f12e91] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+          - listitem [ref=f12e92]:
+            - link "Impressum" [ref=f12e93] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+          - listitem [ref=f12e94]:
+            - link "Datenschutz" [ref=f12e95] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+        - list [ref=f12e97]:
+          - listitem [ref=f12e98]:
+            - link "Folgen Sie uns auf X" [ref=f12e99] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+              - generic [ref=f12e100]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f12e103]:
+            - link "Finden Sie uns auf Xing" [ref=f12e104] [cursor=pointer]:
+              - /url: "https://www.xing.com/pages/rehau-group "
+              - generic [ref=f12e105]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f12e108]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=f12e109] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+              - generic [ref=f12e110]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f12e113]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=f12e114] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/rehautv
+              - generic [ref=f12e115]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f12e118]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f12e119] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rehau/
+              - generic [ref=f12e120]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f12e123]:
+            - link "Folgen Sie uns auf Instagram" [ref=f12e124] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland/
+              - generic [ref=f12e125]: Wird auf einer neuen Registerkarte geöffnet.
+  - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein

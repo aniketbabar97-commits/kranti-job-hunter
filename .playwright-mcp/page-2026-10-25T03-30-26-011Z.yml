@@ -1,0 +1,296 @@
+- generic [active] [ref=f68e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f68e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f68e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f68e8]:
+    - search [ref=f68e9]:
+      - generic [ref=f68e11]:
+        - link "Go to Google Home" [ref=f68e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQPHoECAYQBA
+        - generic [ref=f68e22]:
+          - combobox "Search" [ref=f68e24]: AF-mediaGROUP Full Stack Entwickler Saarbrücken Karriere AF-mediaGROUP Full Stack Entwickler Saarbrücken Karriere
+          - generic [ref=f68e25]:
+            - button "Clear" [ref=f68e29] [cursor=pointer]
+            - generic [ref=f68e34]:
+              - button "Search by voice" [ref=f68e37] [cursor=pointer]
+              - button "Search by image" [ref=f68e42] [cursor=pointer]
+    - generic [ref=f68e45]:
+      - button "Settings" [ref=f68e47] [cursor=pointer]
+      - button "Share" [ref=f68e52] [cursor=pointer]
+      - generic [ref=f68e58]:
+        - button "Google apps" [ref=f68e60] [cursor=pointer]
+        - link "Sign in" [ref=f68e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DAF-mediaGROUP%2BFull%2BStack%2BEntwickler%2BSaarbr%25C3%25BCcken%2BKarriere&ec=futura_srp_og_si_72236_p
+  - generic [ref=f68e67]:
+    - navigation [ref=f68e73]:
+      - generic [ref=f68e79]:
+        - list [ref=f68e80]:
+          - listitem [ref=f68e81]:
+            - link "AI Mode" [ref=f68e84] [cursor=pointer]:
+              - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ2J8OegQIEhAD
+          - listitem [ref=f68e88]:
+            - link "All" [disabled] [ref=f68e89]
+          - listitem [ref=f68e92]:
+            - link "Jobs" [ref=f68e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&udm=jobs&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQs6gLegQIFxAB
+          - listitem [ref=f68e96]:
+            - link "News" [ref=f68e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ0pQJegQIFRAB
+          - listitem [ref=f68e100]:
+            - link "Shopping" [ref=f68e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&ved=1t:220175&ictx=111
+          - listitem [ref=f68e104]:
+            - link "Videos" [ref=f68e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&udm=vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQtKgLegQIGBAB
+          - listitem [ref=f68e108]:
+            - link "Images" [ref=f68e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cbFrr0jGOmUDa5Wr8dJBxFYNrGdf5aJ3lA8-yrKsM68uxZzFzPc2ni3Y1apKzw7aB26EgjJbxAQRDT6z1QHD5d6tjiXvlxj9yMZKKBEfd86EBENs3lsbd9u39eJag3jkkDBhUlBcSmeLAPl9ScX_ItokZsFH6B365uDusJObD-kW07RK4nptfOEvlZIt2fS3iBNt1Gg&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQtKgLegQIExAB
+          - listitem [ref=f68e112]:
+            - button [ref=f68e113] [cursor=pointer]:
+              - generic "More filters" [ref=f68e114]: More
+        - button "Tools" [ref=f68e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f68e128]
+    - generic [ref=f68e133]:
+      - generic [ref=f68e152]:
+        - heading "Thinking" [level=2] [ref=f68e156]
+        - progressbar "Generating" [ref=f68e159]
+      - main [ref=f68e161]:
+        - generic [ref=f68e165]:
+          - generic [ref=f68e168]:
+            - heading "Webergebnisse" [level=2] [ref=f68e169]
+            - generic [ref=f68e170]:
+              - generic [ref=f68e173]:
+                - link "Full Stack Entwickler gesucht | Jobsuche der BA Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f68e175] [cursor=pointer]:
+                  - /url: /goto?url=CAESfgHrOzAVzZK6jZoSuK2-eFSepHF-Tg7hIAKZA91L92_D08VLExhSoBBu21rjW0xSodvN6X89fQlHjJyzGygZqqfeWHIfgfTU7qBP226CRaxv4WQZfNxEYv6gsorp24XZgic3KVOCFqj-dBkfTydpqLYVBGI03jcsG779n02ACA
+                  - heading "Full Stack Entwickler gesucht | Jobsuche der BA" [level=3] [ref=f68e176]
+                  - generic [ref=f68e182]:
+                    - generic [ref=f68e183]: Bundesagentur für Arbeit
+                    - generic [ref=f68e185]: https://www.arbeitsagentur.de › jo...
+                - generic [ref=f68e187]:
+                  - generic [ref=f68e188]: ·
+                  - link "Translate this page" [ref=f68e189] [cursor=pointer]:
+                    - /url: /goto?url=CAESyAEB6zswFYkfY0WChs39wJb1N18-wBRUMYT9ZvwXPX8v4ihR6nt4cZPWPiuxnwiEKRJPvb38dzCi0w99YTVKhJuh9UKzLregcVxI5SivGzA_7eJ7aFcX-0fQAlebWG6nG1ZsPN5h3Wl3m_RQo8DDTILYOnj4iXhcq83ygK04b9pl1Fd1krGlxgC-SdeIRihLlONhUcyQJlwrCadviUY60DFq0zLwPI50fv27NKSiulOvFZe4iMka7I8NWfAGj8ZWn_OXVQ5boPL8gg
+                - button "About this result" [ref=f68e194] [cursor=pointer]
+              - generic [ref=f68e200]:
+                - generic [ref=f68e201]:
+                  - emphasis [ref=f68e202]: Full-Stack-Entwickler (m/w/d
+                  - text: ) – Web, E-Commerce & IT. Die AF-mediaGROUP ist eine inhabergeführte Unternehmensgruppe mit Sitz im Herzen von Saarbrücken.
+                - link "Read more" [ref=f68e203] [cursor=pointer]:
+                  - /url: /goto?url=CAESgAIB6zswFTUW-C1TVG1pp_ihT-iajJa_AigVazB0aeXiIYLQzFE3m6rYXr-t8RDM-xIIi_adpQ_KhfY7dHugfJ3-yyzLwM-H8SRcJ49gV3TFUKIB8gadJUKyWOTjSHMkKSK2ugCn5BsiNnFMCKn_K1n0_ekomkuNvjZesqCnunYRqD0LrlE_GMWKl_YG_pXwh-pqgnTkgau4xzD_tvgeDAFpD0qMb36UgfLFxgo5Jdqb-yeWrGy5QjgNNkrYBI3vraRhVUSeM8kKqZh1T0oqVSLIOFN5pJzc0BrbOtsx-AyJTauI56PRakZnc9J8uQHKCktnzZZuA6MhRygQXpWjMBxa
+              - generic [ref=f68e205]:
+                - text: "Missing: Karriere ‎| Show results with:"
+                - link "Karriere" [ref=f68e206] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+%22Karriere%22&sa=X&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ5t4CegQIMxAB
+          - generic [ref=f68e210]:
+            - generic [ref=f68e213]:
+              - link "Karriere - AF-mediaGROUP - IT-Services af-mediagroup.it https://www.af-mediagroup.it › ka..." [ref=f68e215] [cursor=pointer]:
+                - /url: /goto?url=CAESYQHrOzAVBER-2CZP1m4huXhuwq2_kzeN-2zsJ7y_1_VXalKzGkrvkJ9taUI8uzjYHc2P7I75sC5JvtzwhuRPWcjpD43P08GNVBUERNjqHKvZI5Py-jn6k3xJyIcs04goLZo
+                - heading "Karriere - AF-mediaGROUP - IT-Services" [level=3] [ref=f68e216]
+                - generic [ref=f68e222]:
+                  - generic [ref=f68e223]: af-mediagroup.it
+                  - generic [ref=f68e225]: https://www.af-mediagroup.it › ka...
+              - generic [ref=f68e227]:
+                - generic [ref=f68e228]: ·
+                - link "Translate this page" [ref=f68e229] [cursor=pointer]:
+                  - /url: /goto?url=CAESqgEB6zswFbMsSgB_pbtdvVinZ57QPmTp8wmxuQwUSh9rOGALMgEa0XNWv-DKUa7IWP4MPgP2ztnO869uONWus7q_vvT2BgzgyZQ-DioZXnYde62XOrSOeRfgEuMH37r0KKxwfsr5Q5D4MazJe6VR4TxasjMYNm-AbKpjDsJXb2lYw4ZGA2p5COg8PeMZRR2QPBTaE-SKSg8FhfSRgU5wyvKdlXfrafeaFGfaIg
+              - button "About this result" [ref=f68e234] [cursor=pointer]
+            - generic [ref=f68e240]:
+              - generic [ref=f68e241]:
+                - emphasis [ref=f68e242]: Werde Teil unseres IT-Teams
+                - text: "– egal ob festangestellt, Freelancer oder Student. · Festanstellung: Werde Teil unseres Teams und wachse gemeinsam mit uns."
+              - link "Read more" [ref=f68e243] [cursor=pointer]:
+                - /url: /goto?url=CAESrgIB6zswFTS12YDwVVk_W8Qp73f1-T5OGw8bnSIMmrpT2Zg1u_wttEZrUG2fzOWtMrRh6fxWY-wPgnCQmxxqB_WuAaZqkFU_xthi8oN-plIPNHE4g_oKuqnmQ2lX9osCrYFUaamN127yL9AKSW5YlDmMq8os1Mma6AAeNJXrW8J5ZWfiTAWVIwZHP8tzRiK8OXP-Wm4wIm3XTWHy-reVtekWj5ia6anN9L6gXYgGaKQiqIHjSBLQ_YCCgNHPmTdV3T1a_EZDsbEUI9KWiO7bGgw7qsiR-MgMfSRIeN3V7q1OnnsmGsdOP0JQD0gnrWgjhK3ob9MQ5B2aGzZQn-vXQBT6-aLjeoKhwHBLOTQFRarsKU9pMh_oxze20c_UaI1KCvVXFcfMuQdnIfQ-pXZYBQ
+            - generic [ref=f68e244]: "Missing: Stack ‎Saarbrücken"
+          - generic [ref=f68e249]:
+            - generic [ref=f68e252]:
+              - link "Full Stack Entwickler in - Holz-Richter GmbH Trabajo.org https://de.trabajo.org › ..." [ref=f68e254] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFeGJ8n3UuDvBptFymjTU14GCF92IEn5xwnW302sL3tQRsErLDUucmDact6jEjdIMMIQph4aKsocMQydZiIWsTTnblxdo-Ts-_be41dQWHHt_fl1MHhT6sjbsAg-Mp9CLdCTC-sEq5_J1aJwZE3HWzuurHo9FvY-UrDNTy8AAOfHT6A
+                - heading "Full Stack Entwickler in - Holz-Richter GmbH" [level=3] [ref=f68e255]
+                - generic [ref=f68e261]:
+                  - generic [ref=f68e262]: Trabajo.org
+                  - generic [ref=f68e264]: https://de.trabajo.org › ...
+              - generic [ref=f68e266]:
+                - generic [ref=f68e267]: ·
+                - link "Translate this page" [ref=f68e268] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFbUszblRHfMrLNxPLyeAsf15UXBcZdFcRc7P-o3FZOLyAqs4md6CMhSfK5N8vHbgSlU7TfQ8BSSMuYea02jLyhvChFe7A3CDjJTHaq60vtWqNA3e1EH4cw0AZLrOYKZWE4knZA-usQ8UAuxdRsfPxzR8JzejYFCA1F2Yhmx79bi6IhPTPITIPp6o3Y8Z8h1spmYqXFCP5LD06L13CHRKs1q_9RKFIMeoDknpR-yMUf95kxE9GAu3EzwNI8qSWhDpw0HuRAjFzPPUy97C
+              - button "About this result" [ref=f68e273] [cursor=pointer]
+            - generic [ref=f68e279]:
+              - generic [ref=f68e280]: 15 Oct 2026 —
+              - generic [ref=f68e281]:
+                - text: Wir suchen dich als Senior
+                - emphasis [ref=f68e282]: Full Stack Entwickler
+                - text: /in mit tiefem technischem Verständnis, Sinn für sauberen Code und Leidenschaft für performante, ...
+              - link "Read more" [ref=f68e283] [cursor=pointer]:
+                - /url: /goto?url=CAESiQIB6zswFXrz5T7A53aFZNRZbObkoOT0cdaJT81k1qBvInWzBmdCGUUOiuAQUlvSdnIS27E_lknne_VUNuGNz5HMxAp_nE_vBDAE4-qzgvHBJ5neJy4TERvrbuyQ4kwx1hZAPghj6m6mm1xgLQoq6v4CWOI9i9Qwix15KWoOMqDk6-RDKB9Sf7sNPt5V20I2iNZdNAKNKm-cH7q59juOtXZ8yf5CGoM5frczqbFelOMpg3yY27EfEbLBZQt6BL_tMxCxFnWeNSvnPbPKDQx__UR-8zsw0zAtQebly4BP0EwwzEfI_aLdjqg7KydHHbZjOIPpqJX2aFl9I3PvcWvIxAoZNcRfLXleQcj-
+          - generic [ref=f68e287]:
+            - generic [ref=f68e290]:
+              - link "Full Stack Entwickler Learn4Good https://www.learn4good.com › jobs" [ref=f68e292] [cursor=pointer]:
+                - /url: /goto?url=CAESlQEB6zswFR3dbHPKGpGy-VbMyn1MJcmCEqKADhCSlc-Q1QDqBKAfdZWX2WpxGE9eW_65d4UmEQwTsQYTidzOlyJBJOASRHRBzEGlQ4Fq_ouqJGSWD1QbPWmsdEBT37ajoSGW1t7h4MNFIWe4jdjEVsOobAaa0BkCcXeNHwYaKrK3O1GKAdrnKiUTy7CGkB8ZcL9c1Br_9Q
+                - heading "Full Stack Entwickler" [level=3] [ref=f68e293]
+                - generic [ref=f68e299]:
+                  - generic [ref=f68e300]: Learn4Good
+                  - generic [ref=f68e302]: https://www.learn4good.com › jobs
+              - generic [ref=f68e304]:
+                - generic [ref=f68e305]: ·
+                - link "Translate this page" [ref=f68e306] [cursor=pointer]:
+                  - /url: /goto?url=CAES3wEB6zswFShHtj4hzUbBeskG7Y2-q7_MaP0FvCsDurmzkZJHEEz-o22hCY6cK5W7d4VhuWkHyBWXdPleIHt7QLdIa8VdGdI-Wp9wHHwpwsEX__w68N7zuOKs59GQ_h8qGlyBPPhM-MOrWvmbr7_WUCy3tkFSGj4UsdDAQ5yP_X11-fzGXVNgT3tH1cPePc2LMdwlASJ1luYLIGzsqMvyxNM30Qwu7inkJ_XYPpvYRZKU4u6TKKMXmpO318p_tjClENzXA-NjR82QNY3P7EBTQuBVPVO2pL4cW2Y7nKVNiZDB
+              - button "About this result" [ref=f68e311] [cursor=pointer]
+            - generic [ref=f68e317]:
+              - generic [ref=f68e318]: 5 days ago —
+              - generic [ref=f68e319]:
+                - text: Zur Verstärkung unseres wachsenden IT-Bereichs suchen wir einen
+                - emphasis [ref=f68e320]: Full
+                - text: "-"
+                - emphasis [ref=f68e321]: Stack
+                - text: "-"
+                - emphasis [ref=f68e322]: Entwickler
+                - text: (m/w/d), der technische Projekte eigenständig umsetzen, ...
+              - link "Read more" [ref=f68e323] [cursor=pointer]:
+                - /url: /goto?url=CAESlgIB6zswFRIvZ5rpAPpoRA44HV2tmKJaHJHpX4DNSMZcCWjObAVWOEXEgFbOhSiE-TwU6w07sKrkYzEdYOrUwg0fapCvVI4xf0LqMlSumRa-qC7jYszYAiTUk2rcGxm-l4aH2Owgzeo7AzCdBnyXEtqjHW4llasj23Pkr4_3cTknUDtHquN8FBgyKfwjqOs9c3c4lW3e4EpeIeHX399J5TNy8P4sGzM97ctqKKlUoA3_zaxuIkkGvKiQ042CvK3K-N1-no588JGTbI8oayxKpqsE3M5ffUVzlRdQA3qoHc4kmYY8LiO4UsNS7y1X0wqsT3nN3C6uTlwVRkYC55koEzWiVFBimJsQtlDK3t6HE_KLXtSctPvMeQ
+          - generic [ref=f68e327]:
+            - generic [ref=f68e330]:
+              - link "Stellenangebote Entwickler Saarbrücken jobs-in-saarbruecken.net https://www.jobs-in-saarbruecken.net › ..." [ref=f68e332] [cursor=pointer]:
+                - /url: /goto?url=CAEShwEB6zswFcD2GPm-9HWr_urwtV-vzDLyWLAcb7fVSyYEduFBx6Gf4nPjpre7WwPBzzvp7FQRfWfOUfS0JZjQviE3unnp-KV60ABHDpAmjBRZpTu9RwXGcTiESmfH_qDyZckMrvw2QId-fFWuC4IV2EcZJEBoQ_xOqjMzaLIi3g9-B270H7oKJ24
+                - heading "Stellenangebote Entwickler Saarbrücken" [level=3] [ref=f68e333]
+                - generic [ref=f68e339]:
+                  - generic [ref=f68e340]: jobs-in-saarbruecken.net
+                  - generic [ref=f68e342]: https://www.jobs-in-saarbruecken.net › ...
+              - generic [ref=f68e344]:
+                - generic [ref=f68e345]: ·
+                - link "Translate this page" [ref=f68e346] [cursor=pointer]:
+                  - /url: /goto?url=CAES0QEB6zswFcuqoCfI1ZqLVj24CyzBhPAg1Q0qp7p5GnMGHwKSSn8c-bEcAJ6qVy7sqk-Owd9xtJP30cvqXbDkJJ-3U-OaGHsSYpX3dBt2Ut2F46jd67asIrZHR0JBwH_-FbYtXSUTILCqFgwxgvqjQA7Sxc0eIzw7Vyg5-xm5NpkSA_YPU74mZapISr2XnZQNIFR-Ru-5lXuQUmYVTHFFDtc4BlIN4cUkhr97BOZ43Lrum5MgsJzYmCozdZuP57sB5by5G1-y5TWEGizkx9Bw0mBNaQ
+              - button "About this result" [ref=f68e351] [cursor=pointer]
+            - generic [ref=f68e358]:
+              - text: Job
+              - emphasis [ref=f68e359]: Full Stack Entwickler
+              - text: gesucht … betreust und optimierst Webseiten, der
+              - emphasis [ref=f68e360]: AF
+              - text: "-"
+              - emphasis [ref=f68e361]: mediaGROUP
+              - text: . Dabei arbeitest du eng mit unserer IT-Leitung, dem Projektmanagement, ...
+          - generic [ref=f68e365]:
+            - generic [ref=f68e368]:
+              - link "Adriano Franz – Marketing- und PR-Experte mit Fokus auf ... LinkedIn · Adriano Franz 450+ followers" [ref=f68e370] [cursor=pointer]:
+                - /url: /goto?url=CAEScQHrOzAVm-d_ttfbKynku-833_NbhLLfQr-q4ZxBAjrtazFLPPiIZXQMjYQdRzW7D3HWcbAp49KFpnBKwEsszwxtfQWuMDPHi4Kw3efpYRrgLWcCaNOhcpQVG7_qo_IwlbmGY-ZRLVBbjEk5z1HN3hOc
+                - heading "Adriano Franz – Marketing- und PR-Experte mit Fokus auf ..." [level=3] [ref=f68e371]
+                - generic [ref=f68e377]:
+                  - generic [ref=f68e378]: LinkedIn · Adriano Franz
+                  - generic [ref=f68e380]: 450+ followers
+              - button "About this result" [ref=f68e386] [cursor=pointer]
+            - generic [ref=f68e393]:
+              - text: Verwaltungsschule
+              - emphasis [ref=f68e394]: Saarbrücken
+              - text: Verwaltungsfachangestellter Verwaltungsrecht 2006 – 2009 Sprachen Französisch Gute Kenntnisse Englisch Fließend www.
+              - emphasis [ref=f68e395]: af
+              - text: "-"
+              - emphasis [ref=f68e396]: mediagroup
+              - text: ...
+          - generic [ref=f68e400]:
+            - generic [ref=f68e403]:
+              - link "Mitarbeiter Informationssicherheit in Saarbrücken, Saarland Trabajo.org https://de.trabajo.org › ..." [ref=f68e405] [cursor=pointer]:
+                - /url: /goto?url=CAEShgEB6zswFegWLWYfMlzsY4d4K3TtF_EEZfLMT2tCTK9WvFze9Pm2rhtIF_pxgP7Rc5t3UL3vB42-EaBgTNqljRRfJPZAcZeVUA9zvmSE2CS8eqG8WTofKjY_K_4GGxObGGNLvN0-OAWsOuIYXyJoqx0Lp46fo_WDExbDeznYAU1Kp1ICCbXUEw
+                - heading "Mitarbeiter Informationssicherheit in Saarbrücken, Saarland" [level=3] [ref=f68e406]
+                - generic [ref=f68e412]:
+                  - generic [ref=f68e413]: Trabajo.org
+                  - generic [ref=f68e415]: https://de.trabajo.org › ...
+              - generic [ref=f68e417]:
+                - generic [ref=f68e418]: ·
+                - link "Translate this page" [ref=f68e419] [cursor=pointer]:
+                  - /url: /goto?url=CAES0AEB6zswFbyFvTKnRxseM8yEH0T-WcBEjkoGe25QlwstTtPrUe4IFz1OUn_Bj_SCjdJfrwpAOvnv1_kyPJ_-75VsBw-kVwCZbkm2WN6kbcFXcRawSTMVzHxb9mRUzXMvLiAKtnLFj2mWb_Lu8XMJ6Z00umN5gbgkGHkbfcgCZy36cSDFGi9XhP65PwcT2_WSInrgPTauDkrN1sERd96q87nTVVZT_OSQcXvHcqkvNfF2eNF38spw7yY9Jxr102Yzr7kz_B5sbfFkCbWgdmEysLrj
+              - button "About this result" [ref=f68e424] [cursor=pointer]
+            - generic [ref=f68e430]:
+              - generic [ref=f68e431]:
+                - emphasis [ref=f68e432]: Full-Stack-Entwickler (m/w/d
+                - text: ) – Web, E-Commerce & IT Die AF-mediaGROUP ist eine inhabergeführte Unternehmensgruppe mit Sitz im Herzen von Saarbrücken. ... Jobs ...
+              - link "Read more" [ref=f68e433] [cursor=pointer]:
+                - /url: /goto?url=CAESugIB6zswFSM61yeKvoY0iwb82d6vwBV6ZgpHCUH30N2inDEtAG7upnSLvRiFkk_28g_T-ufGLy9WlzW31_8rymRDBu4SeaT81y2LfPQRnU6jb7Ds09HP7sCNj8Ez1FBRwJIKJQd7aQtIovyyPBMuoZwa66ctTATFNQZV0Uk1uZnKgWO_1bKZt-XCAsXDQrxbydbxb20ZYNk80KUcaLtrgmta-jBVGsjknEw0F3RnaYwNhszT7rsf9npOE8H3cYa044c24wGIGMatLD9-86jKzyabDZzLq4x2lZiVo1FVT6yWCbOl6Q0-e9MuDfVhTZ7RtNS506QtZTQNoXu2Bc9vFoeOUwrVsxMljUf6vq-j-55zwpXyPPGEjAx3OiT1YqlooSEcrOfStzZU05rf2q7gDfCNf4m7DcGbthv3Tw
+          - generic [ref=f68e437]:
+            - generic [ref=f68e440]:
+              - link "AF-mediaGROUP AF-media Consulting GmbH https://af-mediagroup.com" [ref=f68e442] [cursor=pointer]:
+                - /url: /goto?url=CAESVQHrOzAVvy42ykJBkB4DzhYLC1CudITZd2S6GhX82Gy6Jf0LAdKApZ3Bq5AYdLOdoPS-E7CD_YoGqFnN7JYyRtGheiKenrj0Y8Os9tRTUKL2olddTwc
+                - heading "AF-mediaGROUP" [level=3] [ref=f68e443]
+                - generic [ref=f68e449]:
+                  - generic [ref=f68e450]: AF-media Consulting GmbH
+                  - generic [ref=f68e452]: https://af-mediagroup.com
+              - generic [ref=f68e454]:
+                - generic [ref=f68e455]: ·
+                - link "Translate this page" [ref=f68e456] [cursor=pointer]:
+                  - /url: /goto?url=CAESngEB6zswFbgTK1HM4aldtr2XDqQ1Srwqn1k0R-ypxKOh4TzzvaiIIQbCUusea3jo-y0zfN_mZvyUalZPE52Leol8rVV-EDi_42RQgz_R39TnsFzQjVzmN_s8Ut-_Ilm9ctKK5ta-yONqo0s53fN6Nt_zGbI23JGbdXoK322KiRTu3qOkRmV6SaBM_AAZg2k7iA4FIN9Z-anQN8liWVjmJw
+              - button "About this result" [ref=f68e461] [cursor=pointer]
+            - generic [ref=f68e468]:
+              - emphasis [ref=f68e469]: AF
+              - text: "-"
+              - emphasis [ref=f68e470]: mediaGROUP
+              - text: "- Ihre Agentur aus dem wunderschönen Saarland Mehr als Marketing. SEO-optimiert, Zielgruppen … professioneller und flexibler Crossmedia-Partner,"
+            - generic [ref=f68e471]: "Missing: Stack ‎Entwickler ‎Karriere"
+          - generic [ref=f68e476]:
+            - generic [ref=f68e479]:
+              - link "Careers VML https://www.vml.com › careers" [ref=f68e481] [cursor=pointer]:
+                - /url: /goto?url=CAESaQHrOzAVE2-Yx8BS3670e6dZ857wL6CTtn5KdrpXcsmu2l0f78qjfH1cqu773ldRWyo5IuPbNjPZHlazA8i9Z5S7-fa2p103gypZ1yQV2iEtmvpwL76TILAS1bC4s3fMz4n4oSE7zQjiuw
+                - heading "Careers" [level=3] [ref=f68e482]
+                - generic [ref=f68e488]:
+                  - generic [ref=f68e489]: VML
+                  - generic [ref=f68e491]: https://www.vml.com › careers
+              - button "About this result" [ref=f68e497] [cursor=pointer]
+            - generic [ref=f68e503]:
+              - text: Our offices are more than just places to work—they're hubs of creativity, collaboration, and community. Every location reflects the heart of its people, ...
+              - link "Read more" [ref=f68e504] [cursor=pointer]:
+                - /url: /goto?url=CAESuQEB6zswFdSgaJefbMqtwhYSDH2HeOXiSWO4Kfg-vAo9tk7Vp3z8NfTh_rkoUHmuAGtsEH7IYZ4aBp-PpXosRZt8KzgPt1YLLGF-mXGQ1zI7EUo_VIT9Ax8yQxrOPEinnPJ8Zo22Wc_oLdOJE8FwcROd_JC_cTs3mEvoKHKjkGY6EOorHoBYGbYZwoa3gBdDWSlSIDaLxTXgIkjs8ya9ZXVWOz0Gw7YdWLW05NajThELkpCpq9aua0BCew
+        - navigation [ref=f68e507]:
+          - heading "Page navigation" [level=1] [ref=f68e508]
+          - text: "1"
+          - link "Page 2" [ref=f68e511] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=10&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAE
+            - text: "2"
+          - link "Page 3" [ref=f68e513] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=20&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAG
+            - text: "3"
+          - link "Page 4" [ref=f68e515] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=30&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAI
+            - text: "4"
+          - link "Page 5" [ref=f68e517] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=40&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAK
+            - text: "5"
+          - link "Page 6" [ref=f68e519] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=50&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAM
+            - text: "6"
+          - link "Page 7" [ref=f68e521] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=60&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAO
+            - text: "7"
+          - link "Page 8" [ref=f68e523] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=70&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAQ
+            - text: "8"
+          - link "Page 9" [ref=f68e525] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=80&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAS
+            - text: "9"
+          - link "Page 10" [ref=f68e527] [cursor=pointer]:
+            - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=90&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8tMDegQINxAU
+            - text: "10"
+          - heading [level=2] [ref=f68e529]:
+            - link "Next" [ref=f68e530] [cursor=pointer]:
+              - /url: /search?q=AF-mediaGROUP+Full+Stack+Entwickler+Saarbr%C3%BCcken+Karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQnvKXBNdKcB4LjtTag_mrPq0w5LkUQ:1792899024433&ei=0HfdaonzGdmXhvcPppj2kQg&start=10&sa=N&sstk=AS6-VmLe4fV_wpf8xtcOD-5pTbqBAjZfHhVpmlJVvD6ErDbxjSG4pFsKR89Bu1-IQopRSu-3jMSf6dDjzRp91LF1nAFR6tMdp1ygIA&ved=2ahUKEwiJm-CrndSXAxXZi-EIHSaMPYIQ8NMDegQINxAW
+        - navigation
+    - contentinfo [ref=f68e533]:
+      - heading "Footer links" [level=1] [ref=f68e534]
+      - generic [ref=f68e538]:
+        - generic [ref=f68e540]:
+          - text: India
+          - generic [ref=f68e542]:
+            - button "Konappana Agrahara, Karnataka - Based on your past activity" [ref=f68e544] [cursor=pointer]:
+              - generic [ref=f68e545]: Konappana Agrahara, Karnataka
+              - generic [ref=f68e547]:
+                - text: "-"
+                - generic [ref=f68e548]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f68e550] [cursor=pointer]
+        - generic [ref=f68e553]:
+          - link "Help" [ref=f68e554] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f68e555] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f68e556] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f68e557] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

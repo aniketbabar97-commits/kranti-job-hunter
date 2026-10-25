@@ -1,0 +1,5 @@
+[    1098ms] Error: Invalid data when retrieving referrer information.
+    at getMSId (https://einhell.career.softgarden.de/application/?jobId=68056627:2:171)
+    at https://einhell.career.softgarden.de/application/?jobId=68056627:2:333
+[    2336ms] [LOG] {REACT_APP_ADD_PIPE_CSS_URL: undefined, STORYBOOK_ADD_PIPE_CSS_URL: undefined, NEXT_PUBLIC_ADD_PIPE_CSS_URL: https://static.softgarden.de/thirdparty/pcw/addpipe/2.3/pipe.css} @ https://einhell.career.softgarden.de/application/_next/static/chunks/2719.a16551356ead738b.js:0
+[    2336ms] [LOG] {REACT_APP_ADD_PIPE_JS_URL: undefined, STORYBOOK_ADD_PIPE_JS_URL: undefined, NEXT_PUBLIC_ADD_PIPE_JS_URL: https://static.softgarden.de/thirdparty/pcw/addpipe/2.3/pipe.js} @ https://einhell.career.softgarden.de/application/_next/static/chunks/2719.a16551356ead738b.js:0

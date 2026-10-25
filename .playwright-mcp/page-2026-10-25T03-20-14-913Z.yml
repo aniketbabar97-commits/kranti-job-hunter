@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - img "null" [ref=e6]
+    - img "null" [ref=e8]
+    - generic [ref=e9]:
+      - heading "SAP Consultant Sales (m/w/d)" [level=1] [ref=e10]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - generic [ref=e14]: Vollzeit
+        - listitem [ref=e15]:
+          - generic [ref=e16]: Hybrid
+        - listitem [ref=e18]:
+          - generic [ref=e19]: Wiesenweg, 94405 Landau an der Isar
+        - listitem [ref=e21]:
+          - generic [ref=e22]: Mit Berufserfahrung
+        - listitem [ref=e24]:
+          - generic [ref=e25]: 19.10.26
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - heading "Deine Aufgaben bei uns im Team:" [level=2] [ref=e32]
+      - list [ref=e34]:
+        - listitem [ref=e35]: Fachliche Leitung von Beratungsprojekten bei der Implementierung, Optimierung und dem Rollout von SAP-Lösungen im Vertriebsbereich (S/4HANA Sales, SAP Commerce Cloud)
+        - listitem [ref=e36]: Eigenverantwortliche Aufnahme, Analyse und Optimierung von Geschäftsprozessen im Vertrieb sowie Erarbeitung ganzheitlicher, end-to-end-orientierter SAP-Lösungskonzepte
+        - listitem [ref=e37]:
+          - generic [ref=e38]: Customizing der relevanten SAP-Module inklusive DokumentationKonzeption und Steuerung von Integrationsszenarien zwischen S/4HANA Sales und Commerce Cloud
+        - listitem [ref=e39]: Durchführung und Moderation von Workshops, Anforderungsanalysen und Fit-Gap-Analysen mit Fachbereichen und Management
+        - listitem [ref=e40]: Konzeption und Begleitung von End-to-End-Prozessen entlang der gesamten Vertriebs- und Auftragsabwicklungskette
+        - listitem [ref=e41]: Steuerung von Tests (Unit-, Integrations- und User-Acceptance-Tests) sowie Schulung und Coaching von Key Usern und Junior Consultants
+        - listitem [ref=e42]: Schnittstellenkoordination zu angrenzenden Modulen (z. B. MM, FI/CO, PP, CRM)
+        - listitem [ref=e43]: Übernahme von (Teil-)Projektleitung, Beratung auf Kunden-/Managementebene sowie strategische Weiterentwicklung bestehender SAP-Vertriebslösungen
+    - generic [ref=e44]:
+      - heading "Das bringst du mit:" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - list [ref=e48]:
+          - listitem [ref=e49]: Abgeschlossenes Studium der Betriebswirtschaftslehre (idealerweise mit Schwerpunkt Rechnungswesen/Controlling), Wirtschaftsinformatik oder eine vergleichbare Ausbildung/Qualifikation mit einschlägiger Berufserfahrung als SAP-Berater im Vertriebsumfeld
+          - listitem [ref=e50]: Mehrjährige Erfahrung als SAP SD Consultant bzw. in S/4HANA Sales sowie praxiserprobte Kenntnisse in SAP Commerce Cloud, insbesondere B2B-/B2C- und Omnichannel-Prozessen
+          - listitem [ref=e51]: Sehr gute Kenntnisse im SD-Customizing, insbesondere Vertriebsbelegtypen, Preisfindung, Konditionstechnik, Verfügbarkeitsprüfung (ATP) und Kreditmanagement Erfahrung in der Integration von S/4HANA Sales und SAP Commerce Cloud, idealerweise über SAP Integration Suite/CPI
+          - listitem [ref=e52]: Fundiertes Verständnis zentraler End-to-End-Vertriebsprozesse wie Order-to-Cash, Quote-to-Cash, Retouren- und Reklamationsabwicklung, Intercompany sowie grenzüberschreitender Vertrieb
+          - listitem [ref=e53]: Erfahrung in der Integration mit angrenzenden Modulen wie MM, FI/CO, PP und CRM sowie im Zusammenspiel von Vertrieb, Logistik und Produktion
+          - listitem [ref=e54]: Mehrjährige Erfahrung in S/4HANA-Migrations- und Implementierungsprojekten (Greenfield/Brownfield) sowie idealerweise Kenntnisse in Fiori, SAP BTP und SAP Analytics Cloud
+          - listitem [ref=e55]: Erfahrung in der fachlichen Führung von (Teil-)Projektteams und Junior Consultants sowie in Workshops, Anforderungs- und Fit-Gap-Analysen mit Fachbereichen und Management
+          - listitem [ref=e56]: Gute Deutsch- und Englischkenntnisse in Wort und Schrift, Reisebereitschaft und interkulturelle Kompetenz
+        - paragraph [ref=e57]: "Von Vorteil:"
+        - list [ref=e58]:
+          - listitem [ref=e59]: Kenntnisse in SAP Ariba, SAP Service Cloud, Customer Service oder Field Service Management sowie relevante SAP-Zertifizierungen von Vorteil
+        - paragraph [ref=e60]
+    - generic [ref=e61]:
+      - heading "Was dich erwartet:" [level=2] [ref=e63]
+      - list [ref=e65]:
+        - listitem [ref=e66]: Ein sicherer Arbeitsplatz in einem international tätigen, familiengeführten Konzern mit starken Wurzeln in Niederbayern.
+        - listitem [ref=e67]: Flexible Arbeitszeiten ohne Kernzeiten, die Möglichkeit zum mobilen Arbeiten (max. 2 Tage pro Woche) und eine angenehme, kollegiale Atmosphäre.
+        - listitem [ref=e68]: Attraktive Vergütung inklusive Fahrtkostenzuschuss, steuerfreier Sachleistungen und umfassender Sozialleistungen – selbstverständlich in unbefristeter Anstellung.
+        - listitem [ref=e69]: Spannende Aufgaben mit viel Raum zur persönlichen und fachlichen Weiterentwicklung – unterstützt durch die Einhell Academy.
+        - listitem [ref=e70]: Gesundheitsangebote, ein firmeneigenes Fitnessstudio, vielfältige Verpflegungsmöglichkeiten, exklusive Mitarbeiterrabatte und unvergessliche Firmenevents runden unser Angebot ab
+    - generic [ref=e71]:
+      - heading "Dein Ansprechpartner:" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - paragraph [ref=e75]:
+          - text: "Christoph EttengruberTel.: +49 9951 942 210E-Mail:"
+          - link "Christoph.Ettengruber@einhell.com" [ref=e76] [cursor=pointer]:
+            - /url: mailto:Christoph.Ettengruber@einhell.com
+          - text: Einhell Germany AG - Wiesenweg 22 - 94405 Landau a. d. Isar
+        - paragraph [ref=e77]:
+          - strong [ref=e78]: "Weiter Informationen zu Einhell als Arbeitgeber findest du unter:"
+          - link [ref=e79] [cursor=pointer]:
+            - /url: https://www.karriere.einhell.de
+            - strong [ref=e80]: karriere.einhell.de
+  - generic [ref=e85]:
+    - img [ref=e86] [cursor=pointer]
+    - generic:
+      - generic [ref=e87]:
+        - button "Zoom in" [ref=e88] [cursor=pointer]: +
+        - button "Zoom out" [ref=e89] [cursor=pointer]: −
+      - generic [ref=e90]:
+        - link "Leaflet" [ref=e91] [cursor=pointer]:
+          - /url: https://leafletjs.com
+        - text: "| © OpenStreetMap contributors"
+  - link "Online bewerben" [active] [ref=e94] [cursor=pointer]:
+    - /url: https://jobdb.softgarden.de/jobdb/public/jobposting/applyonline/click?jp=68056627
+  - contentinfo [ref=e95]:
+    - generic [ref=e97]:
+      - link "Weitere Jobs ansehen" [ref=e99] [cursor=pointer]:
+        - /url: https://einhell.softgarden.io
+      - generic [ref=e100]:
+        - text: Diesen Job teilen
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - link [ref=e103] [cursor=pointer]:
+              - /url: http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Feinhell.softgarden.io%2Fjob%2F68056627%2FSAP-Consultant-Sales-m-w-d-%3FjobDbPVId%3D288168276%26l%3Den&title=SAP%20Consultant%20Sales%20(m%2Fw%2Fd)&source=softgarden
+          - listitem [ref=e105]:
+            - link [ref=e106] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Feinhell.softgarden.io%2Fjob%2F68056627%2FSAP-Consultant-Sales-m-w-d-%3FjobDbPVId%3D288168276%26l%3Den
+          - listitem [ref=e108]:
+            - link [ref=e109] [cursor=pointer]:
+              - /url: http://twitter.com/share?url=https%3A%2F%2Feinhell.softgarden.io%2Fjob%2F68056627%2FSAP-Consultant-Sales-m-w-d-%3FjobDbPVId%3D288168276%26l%3Den&text=SAP%20Consultant%20Sales%20(m%2Fw%2Fd)
+          - listitem [ref=e111]:
+            - link [ref=e112] [cursor=pointer]:
+              - /url: https://www.xing.com/social/share/spi?url=https%3A%2F%2Feinhell.softgarden.io%2Fjob%2F68056627%2FSAP-Consultant-Sales-m-w-d-%3FjobDbPVId%3D288168276%26l%3Den
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - link "Impressum" [ref=e117] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/imprint
+        - text: "|"
+        - link "Datenschutzerklärung" [ref=e118] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/data-security
+      - link "Powered by softgarden" [ref=e119] [cursor=pointer]:
+        - /url: https://www.softgarden.de

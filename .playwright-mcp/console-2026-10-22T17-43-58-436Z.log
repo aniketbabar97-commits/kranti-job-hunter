@@ -1,0 +1,16 @@
+[    1871ms] [INFO] Configurations Not found @ https://cdn-bot.phenompeople.com/txm-bot/prod-ir/prod-ir.js?v=1792691039054:26
+[    4236ms] [WARNING] A11y autocomplete setup is improper.Check errors  [Missing widget elem] @ https://careers.birkenstock-group.com/us/en/phenomtrack.min.js:1
+[    4282ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'ariaLabel')
+    at Proxy.<anonymous> (https://cdn.phenompeople.com/CareerConnectResources/canvas/common/widgets/scripts/1790155898678_phw-create-job-alert-default-default-v1.umd.js:8:48261)
+    at yn (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:14910)
+    at Fe.fn (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:45461)
+    at Fe.run (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:4172)
+    at C.c.update (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:45707)
+    at C (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:45733)
+    at $ (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:44234)
+    at k (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:38993)
+    at n (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:50480)
+    at mount (https://cdn.phenompeople.com/CareerConnectResources/common/js/canvas/vendor/vue3_1719567713796.min.js:1:51250) @ https://careers.birkenstock-group.com/us/en/phenomtrack.min.js:1
+[    5067ms] [WARNING] A11y autocomplete setup is improper.Check errors  [Missing aria-haspopup attribute on parent div, Missing  aria-owns attribute on parent div, Missing  aria-owns attribute on parent div, Missing widget elem] @ https://careers.birkenstock-group.com/us/en/phenomtrack.min.js:1
+[    5082ms] [WARNING] A11y autocomplete setup is improper.Check errors  [Missing widget elem, Missing clearFieldValue(fieldName) fn on widget elem] @ https://careers.birkenstock-group.com/us/en/phenomtrack.min.js:1
+[    5084ms] [WARNING] A11y autocomplete setup is improper.Check errors  [Missing widget elem, Missing clearFieldValue(fieldName) fn on widget elem] @ https://careers.birkenstock-group.com/us/en/phenomtrack.min.js:1

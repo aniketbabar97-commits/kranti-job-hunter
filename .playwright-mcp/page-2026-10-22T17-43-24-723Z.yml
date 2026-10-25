@@ -1,0 +1,276 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - dialog "Datenschutz" [ref=f2e5]:
+        - generic [ref=f2e7]:
+          - generic [ref=f2e10]:
+            - text: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, den Traffic zu analysieren sowie um unsere Dienstleistungen zu verbessern. Darüber hinaus verwenden wir notwendige Cookies, um Arbeitgeber darüber zu informieren, wie viele Klicks ihre Stellenanzeigen erhalten haben. Sie erkennen an, dass Ihre Nutzung von Indeed unseren
+            - link "Richtlinien zur Verwendung von Cookies" [ref=f2e11] [cursor=pointer]:
+              - /url: https://hrtechprivacy.com/de/brands/about-indeed
+            - text: unterliegt und empfehlen Ihnen, diese zu lesen.
+          - generic [ref=f2e13]:
+            - button "Cookie-Einstellungen, Öffnet das Einstellungscenter-Dialogfeld" [ref=f2e14] [cursor=pointer]: Cookie-Einstellungen
+            - button "Alle ablehnen" [ref=f2e15] [cursor=pointer]
+            - button "Alle Cookies akzeptieren" [ref=f2e16] [cursor=pointer]
+      - navigation "Primär" [ref=f2e17]:
+        - generic [ref=f2e19]:
+          - generic [ref=f2e20]:
+            - generic [ref=f2e21]:
+              - button "Weiter zur Übersicht" [ref=f2e22] [cursor=pointer]
+              - link "Indeed-Startseite" [ref=f2e24] [cursor=pointer]:
+                - /url: /?from=gnav-viewjob
+              - list [ref=f2e28]:
+                - listitem [ref=f2e29]:
+                  - link "Startseite" [ref=f2e31] [cursor=pointer]:
+                    - /url: https://de.indeed.com/
+                - listitem [ref=f2e32]:
+                  - link "Unternehmensbewertungen" [ref=f2e34] [cursor=pointer]:
+                    - /url: https://de.indeed.com/companies
+                - listitem [ref=f2e35]:
+                  - link "Gehälter finden" [ref=f2e37] [cursor=pointer]:
+                    - /url: https://de.indeed.com/career/salaries
+            - generic [ref=f2e38]:
+              - list [ref=f2e39]:
+                - listitem [ref=f2e40]:
+                  - link "Anmelden" [ref=f2e43] [cursor=pointer]:
+                    - /url: https://secure.indeed.com/auth?hl=de_DE&co=DE&continue=https%3A%2F%2Fde.indeed.com%2Fviewjob%3Fjk%3D55dfa4d949c17778&tmpl=desktop&from=gnav-util-viewjob&jsContinue=https%3A%2F%2Fonboarding.indeed.com%2Fonboarding%3Fhl%3Dde_DE%26co%3DDE%26from%3Dgnav-viewjob&empContinue=https%3A%2F%2Faccount.indeed.com%2Fmyaccess
+                - listitem [ref=f2e44]:
+                  - link "Deutschland (Deutsch)" [ref=f2e48] [cursor=pointer]:
+                    - /url: https://de.indeed.com/countries
+                    - generic [aria-hidden] [ref=f2e49]: 🇩🇪
+                    - text: Land und Sprache
+              - link "Arbeitgeber/Jobschaltung" [ref=f2e54] [cursor=pointer]:
+                - /url: https://de.indeed.com/hire?co=DE&hl=de
+          - generic [ref=f2e55]: Beginn des Hauptinhalts
+    - generic [ref=f2e65]:
+      - generic [ref=f2e69]:
+        - textbox "Was" [ref=f2e73]:
+          - /placeholder: Jobtitel, Keywords oder Unternehmen
+        - textbox "Wo" [ref=f2e78]:
+          - /placeholder: Ort, Bundesland, PLZ oder „Homeoffice“
+        - button "Suchen" [ref=f2e80] [cursor=pointer]
+      - generic [ref=f2e87]:
+        - heading "Software Engineer - Integration (m/w/d)" [level=5] [ref=f2e89]
+        - generic [ref=f2e91]:
+          - generic [ref=f2e92]:
+            - link "BAYARD GmbH (Wird in einem neuen Tab geöffnet)" [ref=f2e93] [cursor=pointer]:
+              - /url: https://de.indeed.com/cmp/Bayard?campaignid=mobvjcmp&from=mobviewjob&tk=1k5ibblsphc5h800&fromjk=55dfa4d949c17778
+              - text: BAYARD GmbH
+            - generic [ref=f2e97]:
+              - generic [ref=f2e98]: ·
+              - generic "4.1 von 5 Sternen" [ref=f2e101]: "4.1"
+          - generic [ref=f2e105]: Agrippinawerft 30, 50678 Köln
+          - generic [ref=f2e107]: Hybrides Arbeiten
+        - generic [ref=f2e109]:
+          - generic [ref=f2e110]: 60.000 € – 70.000 € pro Jahr
+          - generic [aria-hidden] [ref=f2e111]: "-"
+          - generic [ref=f2e112]: Festanstellung, Vollzeit
+        - generic [ref=f2e113]:
+          - link "Schnellbewerbung" [ref=f2e116] [cursor=pointer]:
+            - /url: https://smartapply.indeed.com/beta/indeedapply/applybyapplyablejobid?indeedApplyableJobId=dbc8066a-41b0-4ca7-9c25-ede65fd9f379-ZnJhcHJvZDE&iaUid=1k5ibblu1hc1k801&pingbackUrl=https%3A%2F%2Fgdc.indeed.com%2Fconv%2ForgIndApp%3Fco%3DDE%26vjtk%3D1k5ibblsphc5h800%26jk%3D55dfa4d949c17778%26mvj%3D0%26asub%3Dmob-norsvp-noapply%26astse%3Db4a3506ead066a9b%26assa%3D1498&spn=0
+          - button "Job speichern" [ref=f2e121] [cursor=pointer]
+          - button "Job teilen" [ref=f2e126] [cursor=pointer]
+      - generic [ref=f2e131]:
+        - generic [ref=f2e132]:
+          - heading "Stellenbeschreibung" [level=4] [ref=f2e133]
+          - generic [ref=f2e139]:
+            - generic "60.000 € – 70.000 € pro Jahr" [ref=f2e141]
+            - generic [ref=f2e143]:
+              - generic [ref=f2e144]: Betriebliche Weiterbildung, Kostenlose Getränke, Weiterbildungsprogramme, Mitarbeiter-Rabatt, Kostenloser Parkplatz, Firmenhandy, Essenszuschuss, Homeoffice-Möglichkeit
+              - button "Show 2 more" [ref=f2e145] [cursor=pointer]
+          - generic [ref=f2e147]: Festanstellung, Vollzeit
+          - link "Open Hybrides Arbeiten in Agrippinawerft 30, 50678 Köln in maps" [ref=f2e162] [cursor=pointer]: Hybrides Arbeiten in Agrippinawerft 30, 50678 Köln
+        - generic [ref=f2e165]:
+          - heading "Vollständige Stellenbeschreibung" [level=4] [ref=f2e166]
+          - generic [ref=f2e167]:
+            - paragraph [ref=f2e168]: "#WorkConnectGrow"
+            - paragraph [ref=f2e169]: Wie sorgt man dafür, dass Produktdaten zuverlässig dort ankommen, wo sie gebraucht werden – über Systemgrenzen hinweg, bei Handelspartnern und angebundenen Services? Mit guter Integration.
+            - paragraph [ref=f2e170]: Als Software Engineer - Integration entwickelst und betreibst Du im Development Team unserer PIM-Lösung BYRD die Anwendungen und Schnittstellen, die genau das möglich machen. Du entwickelst bestehende Integrationen weiter, programmierst neue Lösungen und sorgst dafür, dass Daten zuverlässig, skalierbar und performant durch unsere Systeme fließen.
+            - paragraph [ref=f2e171]: "Dabei arbeitest Du mit modernen Cloud-Technologien in der Google Cloud und hast direkten Einfluss darauf, wie unsere Plattform mit der digitalen Welt verbunden ist. Deine Arbeit ist damit weit mehr als „Daten von A nach B“ zu bewegen: Du sorgst dafür, dass komplexe Datenflüsse zuverlässig funktionieren und schaffst die technische Grundlage für erfolgreichen Digital Commerce."
+            - paragraph [ref=f2e172]: Deine Aufgaben
+            - list [ref=f2e173]:
+              - listitem [ref=f2e174]: Du stellst den stabilen Betrieb unserer Anwendungen sicher und entwickelst sie kontinuierlich weiter, damit Produktdaten zuverlässig aufgenommen, aufbereitet und an unsere Handelspartner ausgeliefert werden.
+              - listitem [ref=f2e175]: Du entwickelst unser Datenmodell weiter und setzt neue fachliche Anforderungen an den Produkt-Content technisch um.
+              - listitem [ref=f2e176]: Du betreust unsere Schnittstellen zu angebundenen Systemen und Services - unter anderem zu GDSN, SFTP und Asset-Systemen.
+              - listitem [ref=f2e177]: Du analysierst Störungen in unseren Datenflüssen, findest die Ursachen und entwickelst nachhaltige Lösungen, damit Fehler möglichst gar nicht erst wieder auftreten.
+              - listitem [ref=f2e178]: Du überwachst unsere Integrationsanwendungen und sorgst mit einem zuverlässigen Monitoring dafür, dass mögliche Störungen früh erkannt werden.
+              - listitem [ref=f2e179]: Gemeinsam mit dem Entwicklungsteam gestaltest Du die technische Weiterentwicklung unserer Lösungen und wirkst bei Architekturentscheidungen aktiv mit.
+            - paragraph [ref=f2e180]: Dein Talent
+            - list [ref=f2e181]:
+              - listitem [ref=f2e182]: Studium der (Wirtschafts-) Informatik oder eine vergleichbare technisch orientierte Ausbildung
+              - listitem [ref=f2e183]: Sehr gute Kenntnisse in Ruby oder Java und die Bereitschaft, mit Ruby zu arbeiten
+              - listitem [ref=f2e184]: Mehrjährige Erfahrung in der Entwicklung und im Betrieb verteilter Anwendungen
+              - listitem [ref=f2e185]: Erfahrung mit nachrichten- und dateibasierten Datenflüssen sowie mit APIs
+              - listitem [ref=f2e186]: Erfahrung mit Kubernetes und Cloud-Plattformen, idealerweise mit der Google Cloud
+              - listitem [ref=f2e187]: Sicherer Umgang mit Linux, Git und CI/CD-Pipelines
+              - listitem [ref=f2e188]: Analytisches Vorgehen bei Störungen in Produktivsystemen
+              - listitem [ref=f2e189]: Erfahrung in agilen Entwicklungsumgebungen (z. B. Scrum)
+              - listitem [ref=f2e190]: Sehr gute Deutsch- und/ oder Englischkenntnisse
+              - listitem [ref=f2e191]: "Von Vorteil: Erfahrung mit GDSN/ GS1"
+            - paragraph [ref=f2e192]: Unser Angebot für Dich
+            - list [ref=f2e193]:
+              - listitem [ref=f2e194]: Arbeiten im Homeoffice und / oder an unserem Standort in Köln mit Blick auf den Rhein
+              - listitem [ref=f2e195]: Flexible Arbeitszeitgestaltung
+              - listitem [ref=f2e196]: Kostenlose Mitgliedschaft (M Paket) im Urban Sports Club
+              - listitem [ref=f2e197]: Option auf Workation
+              - listitem [ref=f2e198]: Parkplatz im Rheinauhafen-Parkhaus oder Deutschlandticket
+              - listitem [ref=f2e199]: Getränke, gesunde Snacks & Nespresso
+              - listitem [ref=f2e200]: Subventionierte Mittagessen von mealmates
+              - listitem [ref=f2e201]: Modernes Equipment von Apple
+              - listitem [ref=f2e202]: Interne Fortbildungen, Teilnahme an Seminaren
+              - listitem [ref=f2e203]: Teambuilding Meet-up s
+              - listitem [ref=f2e204]: Experten-Netzwerk
+            - paragraph [ref=f2e205]: Über uns
+            - paragraph [ref=f2e206]: BAYARD ist ein Unternehmen der Markant Gruppe und unterstützt Hersteller, Marken und Händler dabei, ihre Produktdaten über den gesamten Product Content Lifecycle hinweg erfolgreich zu managen. Mit langjähriger Erfahrung in den Bereichen Product Information Management (PIM), Data Syndication und Product Experience Management, umfassender Beratungskompetenz sowie der eigenen Technologie BYRD begleitet BAYARD Unternehmen bei der Optimierung ihrer Produktdatenprozesse und der kanalübergreifenden Bereitstellung von Produktinformationen.
+            - paragraph [ref=f2e207]: Die Product Content Lifecycle Management Technologie BYRD vereint PIM, Product Content Syndication, GDSN und KI-gestützte Prozesse in einer zentralen Lösung für skalierbares Product Content Management. Mit BYRD steuern Unternehmen ihre Produktinformationen effizient und schaffen die Grundlage für überzeugende Produkterlebnisse, Retail Media, KI-Anwendungen und nachhaltigen Erfolg im Digital Commerce.
+            - paragraph [ref=f2e208]: Führende Handelsunternehmen wie die Schwarz Gruppe, Douglas, Migros und Colruyt sowie Konsumgüterhersteller wie Danone, die Radeberger-Gruppe, Werner & Mertz und Cosnova vertrauen auf die Lösungen und Services von BAYARD, um ihre Datenqualität sowie die Effizienz bei der Beschaffung, Aggregation und Syndication von Product Content nachhaltig zu steigern.
+            - paragraph [ref=f2e209]: Bist du begeistert? Be part of the change!
+            - paragraph [ref=f2e210]: "Sende uns einfach Deine Bewerbung mit Angabe Deiner Gehaltsvorstellung und Deinem frühestmöglichen Starttermin per E-Mail an: office+softwareengineerintegration@bayard-consulting.com."
+            - paragraph [ref=f2e211]: "Dein Ansprechpartner für diese Position ist Bent Auweiler. Bei weiteren Fragen zur Stellenausschreibung kannst Du Dich gerne auch telefonisch an uns wenden: +49 221 716 185 0 oder wirf einen Blick in unsere FAQ auf unserer Karriereseite."
+            - paragraph [ref=f2e212]: WIR FREUEN UNS AUF DEINE BEWERBUNG!
+            - paragraph [ref=f2e213]: "Gehalt: 60.000,00€ - 70.000,00€ pro Jahr"
+            - paragraph [ref=f2e214]: "Leistungen:"
+            - list [ref=f2e215]:
+              - listitem [ref=f2e216]: Betriebliche Weiterbildung
+              - listitem [ref=f2e217]: Essenszuschuss
+              - listitem [ref=f2e218]: Firmenhandy
+              - listitem [ref=f2e219]: Flexible Arbeitszeiten
+              - listitem [ref=f2e220]: Homeoffice-Möglichkeit
+              - listitem [ref=f2e221]: Kostenlose Getränke
+              - listitem [ref=f2e222]: Kostenloser Parkplatz
+              - listitem [ref=f2e223]: Mitarbeiter-Rabatt
+            - paragraph [ref=f2e224]: "Arbeitsort: Zum Teil im Homeoffice in 50678 Köln"
+      - generic [ref=f2e227]:
+        - generic [ref=f2e229]:
+          - button [ref=f2e230] [cursor=pointer]:
+            - heading "Fügen Sie Gehaltsangaben hinzu" [level=3] [ref=f2e231]
+          - generic [ref=f2e236]:
+            - link [ref=f2e238] [cursor=pointer]:
+              - /url: /cmp/Bayard/salaries
+              - text: Gehaltslink für BAYARD GmbH
+            - link [ref=f2e240] [cursor=pointer]:
+              - /url: /cmp/Bayard/salaries?location=DE%2FNW%2FK%C3%B6ln
+              - text: Salaries for BAYARD GmbH, Köln, NW
+            - link [ref=f2e242] [cursor=pointer]:
+              - /url: /cmp/Bayard/salaries/Softwareentwickler
+              - text: Salaries for Softwareentwickler at BAYARD GmbH
+            - link [ref=f2e244] [cursor=pointer]:
+              - /url: /cmp/Bayard/salaries/Softwareentwickler/K%C3%B6ln%2C+NW
+              - text: Salaries for Softwareentwickler at BAYARD GmbH, Köln, NW
+            - link [ref=f2e246] [cursor=pointer]:
+              - /url: /career/softwareentwickler/salaries
+              - text: Gehaltslink für Softwareentwickler
+            - link [ref=f2e248] [cursor=pointer]:
+              - /url: /career/softwareentwickler/salaries/Köln--NW
+              - text: Salaries for Softwareentwickler, Köln, NW
+        - generic [ref=f2e250]:
+          - button [ref=f2e251] [cursor=pointer]:
+            - heading "Ähnliche Jobkategorien" [level=3] [ref=f2e252]
+          - generic [ref=f2e257]:
+            - link [ref=f2e259] [cursor=pointer]:
+              - /url: /karrierechancen/hohes-gehalt-bildung-und-ausbildung-köln,-nw
+              - text: Gut Bezahlte Jobs Im Bildung Und Ausbildung In Köln, NW jobs
+            - link [ref=f2e261] [cursor=pointer]:
+              - /url: /karrierechancen/hohes-gehalt-data-science-köln,-nw
+              - text: Gut Bezahlte Jobs Im Data Science In Köln, NW jobs
+        - generic [ref=f2e263]:
+          - button [ref=f2e264] [cursor=pointer]:
+            - heading "Karriere-Guide-Artikel" [level=3] [ref=f2e265]
+          - generic [ref=f2e270]:
+            - link [ref=f2e272] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/berufe-mit-musik?from=viewjob
+              - text: 5 interessante Berufe mit Musik
+            - link [ref=f2e274] [cursor=pointer]:
+              - /url: /career-advice/karriereplanung/arbeitszeiten-grundschullehrer?from=viewjob
+              - text: "Arbeitszeiten: Grundschullehrer (m/w/d)"
+            - link [ref=f2e276] [cursor=pointer]:
+              - /url: /career-advice/gehalt/head-finance-gehalt?from=viewjob
+              - text: "Gehalt als Head of Finance (m/w/d): Einflussfaktoren und Perspektiven"
+            - link [ref=f2e278] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/paedagogische-berufe-ohne-studium?from=viewjob
+              - text: Pädagogische Berufe ohne Studium in der Übersicht
+            - link [ref=f2e280] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/sonderpaedagogik-berufsmoeglichkeiten?from=viewjob
+              - text: "Sonderpädagogik Berufsmöglichkeiten: Joboptionen"
+            - link [ref=f2e282] [cursor=pointer]:
+              - /url: /career-advice/vorstellungsgespraech/vorstellungsgespraech-einkaeufer?from=viewjob
+              - text: "Vorstellungsgespräch als Einkäufer (m/w/d): Fragen und Antworten"
+            - link [ref=f2e284] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/was-gibt-es-fuer-berufe-mit-kindern?from=viewjob
+              - text: Was gibt es für Berufe mit Kindern?
+            - link [ref=f2e286] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/was-ist-indeed-career-scout?from=viewjob
+              - text: Was ist Indeed Career Scout?
+            - link [ref=f2e288] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/was-ist-referendariat-im-lehramt?from=viewjob
+              - text: Was ist das Referendariat im Lehramt?
+            - link [ref=f2e290] [cursor=pointer]:
+              - /url: /career-advice/jobsuche/was-macht-erzieher-grundschule?from=viewjob
+              - text: Was macht ein Erzieher (m/w/d) in der Grundschule?
+        - generic [ref=f2e292]:
+          - button [ref=f2e293] [cursor=pointer]:
+            - heading "Ähnliche Jobs in der Nähe" [level=3] [ref=f2e294]
+          - generic [ref=f2e299]:
+            - link [ref=f2e301] [cursor=pointer]:
+              - /url: /q-softwareentwickler-l-k%c3%b6ln-jobs.html
+              - text: Softwareentwickler Jobs in Köln
+            - link [ref=f2e303] [cursor=pointer]:
+              - /url: /q-softwareentwickler-l-wesseling-jobs.html
+              - text: Softwareentwickler Jobs in Wesseling
+      - button "Diesen Job melden" [ref=f2e308] [cursor=pointer]
+  - contentinfo [ref=f2e318]:
+    - generic [ref=f2e319]:
+      - list [ref=f2e320]:
+        - listitem [ref=f2e321]:
+          - link "Hiring Lab" [ref=f2e323] [cursor=pointer]:
+            - /url: https://www.hiringlab.org/de/
+        - listitem [ref=f2e324]:
+          - link "Karriere-Guide" [ref=f2e326] [cursor=pointer]:
+            - /url: https://de.indeed.com/karriere-guide
+        - listitem [ref=f2e327]:
+          - link "Jobs finden" [ref=f2e329] [cursor=pointer]:
+            - /url: https://de.indeed.com/browsejobs
+        - listitem [ref=f2e330]:
+          - link "Unternehmen suchen" [ref=f2e332] [cursor=pointer]:
+            - /url: https://de.indeed.com/companies/browse-companies
+        - listitem [ref=f2e333]:
+          - link "Gehalt" [ref=f2e335] [cursor=pointer]:
+            - /url: https://de.indeed.com/career/salaries
+        - listitem [ref=f2e336]:
+          - link "Indeed Events" [ref=f2e338] [cursor=pointer]:
+            - /url: https://www.indeedevents.com/de-de/
+        - listitem [ref=f2e339]:
+          - link "Karriere bei Indeed" [ref=f2e341] [cursor=pointer]:
+            - /url: https://de.indeed.com/cmp/Indeed/about
+        - listitem [ref=f2e342]:
+          - link "Länder" [ref=f2e344] [cursor=pointer]:
+            - /url: https://de.indeed.com/countries
+        - listitem [ref=f2e345]:
+          - link "Über uns" [ref=f2e347] [cursor=pointer]:
+            - /url: https://de.indeed.com/about
+        - listitem [ref=f2e348]:
+          - link "Hilfe" [ref=f2e350] [cursor=pointer]:
+            - /url: https://de.indeed.com/help/job-seekers?hl=de&co=de
+      - list [ref=f2e351]:
+        - listitem [ref=f2e352]: © 2026 Indeed
+        - listitem [ref=f2e353]:
+          - link "Barrierefreiheit bei Indeed" [ref=f2e355] [cursor=pointer]:
+            - /url: https://de.indeed.com/esg/accessibility?hl=de
+        - listitem [ref=f2e356]:
+          - link "Datenschutzzentrum und Ad Choices" [ref=f2e358] [cursor=pointer]:
+            - /url: https://hrtechprivacy.com/de/brands/about-indeed#privacypolicy
+        - listitem [ref=f2e359]:
+          - link "Meldung gemäß dem Gesetz über digitale Dienste" [ref=f2e361] [cursor=pointer]:
+            - /url: https://dsa-reporting-and-appeals.indeed.com/
+        - listitem [ref=f2e362]:
+          - link "Seite zur Online-Sicherheit" [ref=f2e364] [cursor=pointer]:
+            - /url: https://de.indeed.com/legal/online-safety-page
+        - listitem [ref=f2e365]:
+          - link "Cookies" [ref=f2e367] [cursor=pointer]:
+            - /url: https://de.indeed.com/legal/cookies?hl=de&showOneTrustModal=true
+        - listitem [ref=f2e368]:
+          - link "Nutzungsbedingungen" [ref=f2e370] [cursor=pointer]:
+            - /url: https://de.indeed.com/legal?hl=de
+      - list:
+        - listitem
+  - status [ref=f2e371]

@@ -1,0 +1,148 @@
+- generic [ref=e1]:
+  - generic [ref=e9]:
+    - complementary [ref=e10]:
+      - generic [ref=e11]:
+        - button "Zum Hauptinhalt springen"
+        - img "Einhell Germany AG" [ref=e17]
+        - heading "SAP Consultant Sales (m/w/d)" [level=1] [ref=e83]
+      - generic [ref=e18]:
+        - heading "In drei einfachen Schritten zum Traumjob" [level=2] [ref=e84]
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - button "1 Lebenslauf" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: "1"
+              - generic [ref=e24]: Lebenslauf
+          - listitem [ref=e25]:
+            - button "2 Persönliche Angaben" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: "2"
+              - generic [ref=e28]: Persönliche Angaben
+          - listitem [ref=e85]:
+            - button "3 Zusätzliche Fragen" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: "3"
+              - generic [ref=e88]: Zusätzliche Fragen
+    - main [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e34]:
+              - generic [ref=e35]:
+                - heading "Lebenslauf und Anhänge" [level=2] [ref=e36]
+                - paragraph [ref=e37]: Bitte eine Option wählen und Lebenslauf hochladen:*
+              - generic [ref=e39]:
+                - generic "Lebenslauf hochladen" [ref=e40]:
+                  - generic [ref=e41] [cursor=pointer]:
+                    - generic [ref=e42]: Dokument
+                    - button "Hochgeladenen Lebenslauf entfernen" [ref=e98]
+                - button "Mit XING-Profil bewerben" [ref=e104] [cursor=pointer]:
+                  - generic [ref=e105]: XING
+            - generic [ref=e48]:
+              - generic [ref=e111]:
+                - paragraph [ref=e112]: Bereits hochgeladene Anhänge
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - generic [ref=e119]: Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf
+                    - generic [ref=e120]:
+                      - button "Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e122] [cursor=pointer]:
+                        - generic [ref=e123]: Vorschau
+                      - button "Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e124] [cursor=pointer]
+                  - generic [ref=e128]:
+                    - generic [ref=e133]: Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf
+                    - generic [ref=e134]:
+                      - button "Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e136] [cursor=pointer]:
+                        - generic [ref=e137]: Vorschau
+                      - button "Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e138] [cursor=pointer]
+              - generic [ref=e49]: Weitere Anhänge (z.B. Zeugnisse oder Zertifikate)
+          - generic [ref=e60]:
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - textbox "Anschreiben (optional)" [ref=e64]
+                - generic: Anschreiben (optional)
+              - generic [ref=e65]: Alternativ kann das Anschreiben als Anhang hochgeladen werden.
+            - button "zum nächsten Schritt" [ref=e67] [cursor=pointer]
+        - generic [ref=e143]:
+          - heading "Persönliche Angaben" [level=2] [ref=e144]
+          - generic [ref=e150]:
+            - log [ref=e152]
+            - generic [ref=e153]:
+              - generic: Anrede
+              - generic [ref=e154]:
+                - generic [ref=e155]: Frau
+                - combobox "Anrede" [ref=e156]
+              - button [aria-hidden] [ref=e158] [cursor=pointer]
+          - generic [ref=e162]:
+            - generic [ref=e165]:
+              - textbox "Vorname*" [ref=e166]: Kranti
+              - generic: Vorname*
+            - generic [ref=e169]:
+              - textbox "Nachname*" [ref=e170]: Chavan
+              - generic: Nachname*
+          - generic [ref=e174]:
+            - textbox "E-Mail*" [ref=e175]: krantichavan198@gmail.com
+            - generic: E-Mail*
+          - generic [ref=e179]:
+            - textbox "Telefon" [ref=e180]: "+4915750174177"
+            - generic: Telefon
+          - button "zum letzten Schritt" [ref=e182] [cursor=pointer]
+        - generic [ref=e196]:
+          - heading "Zusätzliche Fragen" [level=2] [ref=e197]
+          - generic [ref=e198]:
+            - generic [ref=e199]: Wie lautet deine Gehaltsvorstellung (Gesamtjahresbrutto)?*
+            - textbox [ref=e202]: "60000"
+          - generic [ref=e203]:
+            - generic [ref=e204]: Ab wann wärst du für einen Einstieg bei uns verfügbar?*
+            - textbox [ref=e207]: 16.12.2026
+          - generic [ref=e208]:
+            - generic [ref=e209]: Ist unser Arbeitsortmodell (max. 2 Tage Home Office pro Woche) für dich möglich?*
+            - generic [ref=e211]:
+              - generic [ref=e212] [cursor=pointer]:
+                - radio "ja" [checked] [ref=e214]
+                - generic [ref=e216]: ja
+              - generic [ref=e217] [cursor=pointer]:
+                - radio "nein" [ref=e219]
+                - generic [ref=e221]: nein
+          - generic [ref=e222]:
+            - generic [ref=e223]: Wie bist du auf die ausgeschrieben Position aufmerksam geworden?*
+            - generic [ref=e225]:
+              - textbox: LinkedIN
+              - generic [ref=e226]:
+                - button "Einhell Homepage" [ref=e227] [cursor=pointer]
+                - button "Stepstone" [ref=e228] [cursor=pointer]
+                - button "LinkedIN" [active] [ref=e229] [cursor=pointer]
+                - button "Empfehlung eines Mitarbeiters" [ref=e230] [cursor=pointer]
+                - button "Studententätigkeit/Praktikum im Unternehmen" [ref=e231] [cursor=pointer]
+                - button "Arbeitsagentur" [ref=e232] [cursor=pointer]
+                - button "Sontiges" [ref=e233] [cursor=pointer]
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e238]:
+                - text: Informationen zum Datenschutz finden Sie
+                - link "Link öffnet eine Seite mit der Datenschutzrichtlinie" [ref=e239] [cursor=pointer]:
+                  - /url: https://einhell.softgarden.io/data-security
+                  - text: hier
+                - text: .
+              - generic [ref=e240]: "*Diese Felder sind obligatorisch."
+              - generic [ref=e242]:
+                - generic [ref=e256]:
+                  - img "Automatische Spamprüfung abgeschlossen" [ref=e257]
+                  - generic [ref=e259]: Ich bin ein Mensch
+                - link "FriendlyCaptcha ⇗" [ref=e262] [cursor=pointer]:
+                  - /url: https://friendlycaptcha.com/
+            - button "Bestätigen" [ref=e252] [cursor=pointer]
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - link "Impressum" [ref=e90] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/imprint
+        - link "Datenschutz" [ref=e92] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/data-security
+        - link "Machine-readable job feed (JSON)" [ref=e94] [cursor=pointer]:
+          - /url: ../jobs.feed.json
+      - link "powered by softgarden" [ref=e76] [cursor=pointer]:
+        - /url: https://softgarden.com/
+    - status [ref=e79]:
+      - generic [ref=e80]: Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen!
+      - paragraph [ref=e81]: Eine Bestätigungs-E-Mail wird in Kürze versendet.
+  - alert [ref=e82]
+  - 'tooltip "Folgenden Dateitypen sind zulässig: .pdf, .jpg, .jpeg, .gif, .png, .bmp, .tif, .tiff, .doc, .ppt, .pps, .docx, .pptx, .ppsx, .odt, .rtf, .odp, .txt. Die Größe der hochgeladenen Datei sollte 10 MB nicht überschreiten."'
+  - complementary "Cookie-Zustimmung ändern" [ref=e95]:
+    - button "Cookie-Zustimmung ändern" [ref=e96] [cursor=pointer]:
+      - img "Cookie-Zustimmung ändern" [ref=e97]

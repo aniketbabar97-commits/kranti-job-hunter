@@ -1,0 +1,292 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e3]:
+    - link "Skip To Main Content" [ref=f3e4] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=f3e6]:
+      - generic [ref=f3e8]:
+        - link "epam-logo-black.svg" [ref=f3e10] [cursor=pointer]:
+          - /url: https://www.epam.com/careers
+          - generic:
+            - generic:
+              - generic:
+                - img "epam-logo-black.svg"
+        - navigation [ref=f3e11]:
+          - list [ref=f3e12]:
+            - listitem [ref=f3e13]:
+              - link "Careers" [ref=f3e14] [cursor=pointer]:
+                - /url: https://www.epam.com/careers
+            - listitem [ref=f3e15]:
+              - link "Jobs" [ref=f3e16] [cursor=pointer]:
+                - /url: /en/jobs
+            - listitem [ref=f3e17]:
+              - link "Hiring Locations" [ref=f3e18] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/locations
+            - listitem [ref=f3e19]:
+              - link "Referral Program" [ref=f3e20] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/external-referral-program
+            - listitem [ref=f3e21]:
+              - link "Relocate with EPAM" [ref=f3e22] [cursor=pointer]:
+                - /url: https://www.epam.com/careers/epam-without-borders
+          - list [ref=f3e23]:
+            - listitem [ref=f3e24]:
+              - button "sign in" [ref=f3e27] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "sign in"
+    - main [ref=f3e29]:
+      - generic [ref=f3e30]:
+        - generic [ref=f3e31]: EPAM Careers
+        - generic [ref=f3e32]: ">"
+        - link "Jobs" [ref=f3e33] [cursor=pointer]:
+          - /url: /en/jobs
+        - generic [ref=f3e34]: ">"
+        - generic [ref=f3e35]: OMS Lead Engineer
+      - generic [ref=f3e37]:
+        - link "back Back to Search" [ref=f3e38] [cursor=pointer]:
+          - /url: "#"
+          - img "back"
+          - generic: Back to Search
+        - generic [ref=f3e39]:
+          - heading "OMS Lead Engineer" [level=1] [ref=f3e40]
+          - generic [ref=f3e41]:
+            - generic [ref=f3e43]:
+              - generic [ref=f3e44]: Remote in
+              - generic [ref=f3e45]: Georgia,
+              - button "tooltip trigger" [ref=f3e47]: "& 17 others"
+            - generic [ref=f3e49]:
+              - text: Fluent Commerce OMS
+              - button "tooltip trigger" [ref=f3e51]: "& 5 others"
+          - button "apply" [ref=f3e53] [cursor=pointer]
+          - group [ref=f3e55]:
+            - button "Share Vacancy" [ref=f3e56] [cursor=pointer]
+        - generic [ref=f3e60]:
+          - generic [ref=f3e61]: Looking for something else?
+          - generic [ref=f3e62]:
+            - paragraph [ref=f3e63]: Find a vacancy that works for you. Send us your CV to receive a personalized offer.
+            - link "Find me a job" [ref=f3e64] [cursor=pointer]:
+              - /url: /en/apply-now
+        - generic [ref=f3e66]:
+          - generic [ref=f3e68]:
+            - generic [ref=f3e69]: Location-specific conditions & benefits*
+            - generic [ref=f3e72]:
+              - log [ref=f3e74]
+              - generic [ref=f3e75]:
+                - generic [ref=f3e76]:
+                  - generic [ref=f3e77]: Georgia
+                  - combobox "job-details-location-dropdown" [ref=f3e78]
+                - generic [aria-hidden] [ref=f3e80] [cursor=pointer]
+          - generic [ref=f3e81]:
+            - paragraph [ref=f3e84]: In this role, you will lead a cross‑functional team delivering large‑scale order‑management transformation projects across multiple regions. The position requires hands‑on OMS expertise, solid understanding of commerce integrations, and practical delivery leadership. You will guide system design, integration, and rollout activities across key domains such as order lifecycle, inventory, returns, and fulfillment orchestration.
+            - paragraph [ref=f3e87]: Experience the freedom of remote work from anywhere in Georgia, whether from the comfort of your home, our modern offices in Tbilisi and Batumi or a coworking space in Kutaisi.
+            - generic [ref=f3e88]:
+              - group [ref=f3e89]:
+                - generic: Responsibilities
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: Lead end‑to‑end OMS delivery for multi‑region commerce transformation programs
+                        - listitem:
+                          - generic: Coordinate the design, configuration, and rollout of an enterprise OMS platform
+                        - listitem:
+                          - generic: Manage development priorities, timelines, and dependencies across teams and vendors
+                        - listitem:
+                          - generic: Collaborate with product, architecture, and delivery leads to define project scope and technical approach
+                        - listitem:
+                          - generic: Integrate OMS with commerce, payment, warehouse, logistics, and customer‑service systems
+                        - listitem:
+                          - generic: Oversee implementation of order lifecycle processes, returns, refunds, and pre‑order workflows
+                        - listitem:
+                          - generic: Ensure consistency of architectural standards, quality assurance, and technical documentation
+                        - listitem:
+                          - generic: Support feature planning, sprint execution, and release management processes
+                        - listitem:
+                          - generic: Mentor team members on functional and technical OMS practices
+                        - listitem:
+                          - generic: Perform issue triage, risk mitigation, and status reporting during rollout phases
+              - group [ref=f3e90]:
+                - generic: Requirements
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: 8+ years of overall software‑engineering or commerce‑platform experience, including hands‑on OMS delivery work
+                        - listitem:
+                          - generic: Proven background in leading or coordinating complex order‑management implementations
+                        - listitem:
+                          - generic: Strong understanding of ecommerce ecosystems and integration patterns
+                        - listitem:
+                          - generic: Experience implementing OMS solutions involving marketplace, warehouse, and logistics systems
+                        - listitem:
+                          - generic: Knowledge of order lifecycle management, inventory orchestration, and returns processing
+                        - listitem:
+                          - generic: Familiarity with REST APIs, microservices, and cloud‑based architectural principles
+                        - listitem:
+                          - generic: Experience working with distributed teams and agile delivery structures
+                        - listitem:
+                          - generic: Ability to coordinate across multiple stakeholders and manage delivery governance
+                        - listitem:
+                          - generic: Excellent analytical, decision‑making, and communication skills
+                        - listitem:
+                          - generic: Bachelor’s degree in Computer Science, Information Systems, or similar discipline
+              - group [ref=f3e91]:
+                - generic: Nice to have
+                - generic:
+                  - generic:
+                    - generic:
+                      - list:
+                        - listitem:
+                          - generic: Experience with Fluent OMS, Salesforce Commerce Cloud, or other enterprise OMS solutions
+                        - listitem:
+                          - generic: Familiarity with tax, invoice, and customer‑communication process flows
+                        - listitem:
+                          - generic: Knowledge of regional fulfillment and multi‑market rollout strategies
+                        - listitem:
+                          - generic: Experience supporting vendor transition or replatforming programs
+                        - listitem:
+                          - generic: Exposure to warehouse and supply‑chain optimisation systems
+              - group [ref=f3e92]:
+                - generic: We offer/Benefits
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - paragraph:
+                          - strong: We connect like-minded people
+                        - list:
+                          - listitem: Delivering innovative solutions to industry leaders, making a global impact
+                          - listitem: Enjoyable working environment, whether it is the vibrant office or the comfort of your own home
+                          - listitem: Opportunity to work abroad for up to two months per year
+                          - listitem: Relocation opportunities within our offices in 55+ countries
+                          - listitem: Corporate and social events
+                        - paragraph:
+                          - strong: We invest in your growth
+                        - list:
+                          - listitem: Leadership development, career advising, soft skills and well-being programs
+                          - listitem: Certifications, including GCP, Azure and AWS
+                          - listitem: Unlimited access to EPAM's internal learning database
+                          - listitem: Free English classes with certified teachers
+                        - paragraph:
+                          - strong: We cover it all
+                        - list:
+                          - listitem: Participation in the Employee Stock Purchase Plan
+                          - listitem: Monetary bonuses for engaging in the referral program
+                          - listitem: Comprehensive medical & family care package
+                          - listitem: Five trust days per year (sick leave without a medical certificate)
+                          - listitem: Benefits package (sports activities, a variety of stores and services)
+            - paragraph [ref=f3e95]: EPAM is global leader in AI transformation engineering and integrated consulting, serving Forbes Global 2000 companies and ambitious startups. With over thirty years of expertise in custom software, product and platform engineering, we empower our clients to become AI-Native enterprises, driving measurable value from innovation and digital investments.
+            - generic [ref=f3e96]:
+              - paragraph [ref=f3e97]: Why Choose Us
+              - generic [ref=f3e98]:
+                - link "2024 Best Place to Work 2024" [ref=f3e99] [cursor=pointer]:
+                  - /url: https://www.prnewswire.com/news-releases/epam-recognized-as-a-best-place-to-work-across-the-world-by-glassdoor-built-in-and-kununu-302030505.html
+                  - generic: "2024"
+                  - generic: Best Place to Work 2024
+                - link "2024 Sitecore’s Partner Experience Awards" [ref=f3e100] [cursor=pointer]:
+                  - /url: https://www.epam.com/about/newsroom/in-the-news/2024/epam-receives-a-win-in-sitecores-2024-partner-experience-awards
+                  - generic: "2024"
+                  - generic: Sitecore’s Partner Experience Awards
+    - region "Notifications Alt+T"
+    - contentinfo [ref=f3e101]:
+      - generic [ref=f3e102]:
+        - generic [ref=f3e103]:
+          - generic [ref=f3e104]:
+            - generic [ref=f3e105]:
+              - generic [ref=f3e106]: OUR BRANDS
+              - list [ref=f3e108]:
+                - listitem [ref=f3e109]:
+                  - link "EPAM CONTINUUM" [ref=f3e110] [cursor=pointer]:
+                    - /url: https://www.epam.com/services/epam-continuum
+                - listitem [ref=f3e111]:
+                  - link "TEST IO" [ref=f3e112] [cursor=pointer]:
+                    - /url: https://test.io/
+                - listitem [ref=f3e113]:
+                  - link "RELIABLE AI LAB" [ref=f3e114] [cursor=pointer]:
+                    - /url: https://epam-rail.com/about-us
+            - generic [ref=f3e115]:
+              - generic [ref=f3e116]: SOLUTIONSHUB
+              - paragraph [ref=f3e118]:
+                - text: Explore our enterprise software products, open source solutions and accelerators on
+                - link [ref=f3e119] [cursor=pointer]:
+                  - /url: https://solutionshub.epam.com/
+                  - strong [ref=f3e120]: EPAM SolutionsHub
+                - text: .
+          - generic [ref=f3e121]:
+            - generic [ref=f3e122]: POLICIES
+            - list [ref=f3e124]:
+              - listitem [ref=f3e125]:
+                - link "INVESTORS" [ref=f3e126] [cursor=pointer]:
+                  - /url: https://investors.epam.com/
+              - listitem [ref=f3e127]:
+                - link "OPEN SOURCE" [ref=f3e128] [cursor=pointer]:
+                  - /url: https://www.epam.com/services/engineering/open-source
+              - listitem [ref=f3e129]:
+                - link "PRIVACY POLICY" [ref=f3e130] [cursor=pointer]:
+                  - /url: https://privacy.epam.com/core/interaction/showpolicy?type=CommonPrivacyPolicy
+              - listitem [ref=f3e131]:
+                - link "CONTACT US" [ref=f3e132] [cursor=pointer]:
+                  - /url: /en/contact-us
+              - listitem [ref=f3e133]:
+                - link "COOKIE POLICY" [ref=f3e134] [cursor=pointer]:
+                  - /url: https://www.epam.com/cookie-policy
+              - listitem [ref=f3e135]:
+                - link "APPLICANT PRIVACY NOTICE" [ref=f3e136] [cursor=pointer]:
+                  - /url: https://www.epam.com/applicant-privacy-notice#row
+              - listitem [ref=f3e137]:
+                - link "WEB ACCESSIBILITY" [ref=f3e138] [cursor=pointer]:
+                  - /url: https://www.epam.com/web-accessibility-statement
+              - listitem [ref=f3e139]:
+                - link "UK MODERN SLAVERY STATEMENT" [ref=f3e140] [cursor=pointer]:
+                  - /url: https://www.epam.com/content/dam/epam/ethics-and-compliance/UK_Modern_Slavery_Statement_2023.pdf
+              - listitem [ref=f3e141]:
+                - link "RECRUITMENT FRAUD DISCLAIMER" [ref=f3e142] [cursor=pointer]:
+                  - /url: https://www.epam.com/careers/recruitment-fraud-disclaimer
+          - generic [ref=f3e143]:
+            - generic [ref=f3e144]: SOCIAL
+            - list [ref=f3e146]:
+              - listitem:
+                - link "LINKEDIN":
+                  - /url: https://www.linkedin.com/company/epam-systems/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "linkedin-light.svg"
+              - listitem:
+                - link "FACEBOOK":
+                  - /url: https://www.facebook.com/EPAM.Global
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "facebook-light.svg"
+              - listitem:
+                - link "INSTAGRAM":
+                  - /url: https://www.instagram.com/epamsystems/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "instagram-light.svg"
+              - listitem:
+                - link "YOUTUBE":
+                  - /url: https://www.youtube.com/c/EPAMSystemsGlobal
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img "yt-light.svg"
+        - paragraph [ref=f3e149]: © 2025 EPAM Systems, Inc. All rights reserved.
+  - alert [ref=f3e150]
+  - generic "Privacy" [ref=f3e151]:
+    - dialog "Privacy" [ref=f3e152]:
+      - generic [ref=f3e154]:
+        - generic [ref=f3e157]:
+          - text: This website uses cookies for analytics, personalization and advertising. By continuing to browse, you agree to our use of cookies. To learn more, click
+          - link "Cookie Policy., opens in a new tab" [ref=f3e158] [cursor=pointer]:
+            - /url: https://www.epam.com/cookie-policy
+            - text: Cookie Policy
+        - generic [ref=f3e160]:
+          - button "Cookies Settings, Opens the preference center dialog" [ref=f3e161] [cursor=pointer]: Cookies Settings
+          - button "Accept All" [ref=f3e162] [cursor=pointer]

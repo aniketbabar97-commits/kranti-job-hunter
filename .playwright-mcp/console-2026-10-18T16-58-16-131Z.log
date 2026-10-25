@@ -1,0 +1,5 @@
+[     719ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.macs-holding.de/stellenangebote:0
+[     720ms] [ERROR] Access to font at 'https://macs-holding.de/files/cto_layout/css/OpenSans-Light-webfont.woff2' from origin 'https://www.macs-holding.de' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.macs-holding.de/stellenangebote:0
+[     720ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://macs-holding.de/files/cto_layout/css/OpenSans-Light-webfont.woff2:0
+[    6124ms] [ERROR] Access to XMLHttpRequest at 'https://macs-holding.de/system/cron/cron.txt' from origin 'https://www.macs-holding.de' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.macs-holding.de/stellenangebote:0
+[    6124ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://macs-holding.de/system/cron/cron.txt:0

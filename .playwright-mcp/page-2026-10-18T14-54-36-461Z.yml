@@ -1,0 +1,468 @@
+- generic [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - navigation:
+      - list:
+        - listitem:
+          - link "innovate Software GmbH" [ref=f21e3] [cursor=pointer]:
+            - /url: "#"
+        - listitem:
+          - link "News" [ref=f21e4] [cursor=pointer]:
+            - /url: /
+        - listitem:
+          - link "Leistungen" [ref=f21e7] [cursor=pointer]:
+            - /url: /de/leistungen/
+        - listitem:
+          - link "Lösungen" [ref=f21e10] [cursor=pointer]:
+            - /url: /de/loesungen/
+        - listitem:
+          - link "Referenzen" [ref=f21e13] [cursor=pointer]:
+            - /url: /de/referenzen/
+        - listitem:
+          - link "Unternehmen" [ref=f21e14] [cursor=pointer]:
+            - /url: /de/unternehmen/
+        - listitem:
+          - link "Karriere" [ref=f21e17] [cursor=pointer]:
+            - /url: /de/karriere
+    - generic [ref=f21e20] [cursor=pointer]:
+      - generic [ref=f21e21]:
+        - generic [ref=f21e22]:
+          - generic [ref=f21e23]: message
+          - text: Kontakt aufnehmen
+        - generic [ref=f21e24]:
+          - link "email Schreiben Sie uns eine E-Mail mit Fragen oder Feedback." [ref=f21e26]:
+            - /url: /de/unternehmen/unternehmen/kontakt/
+            - generic [ref=f21e27]: email
+            - paragraph [ref=f21e28]: Schreiben Sie uns eine E-Mail mit Fragen oder Feedback.
+          - link "location_on Sie möchten uns persönlich treffen? - So können Sie uns finden" [ref=f21e30]:
+            - /url: /de/unternehmen/unternehmen/anfahrt/
+            - generic [ref=f21e31]: location_on
+            - paragraph [ref=f21e32]: Sie möchten uns persönlich treffen? - So können Sie uns finden
+      - link [ref=f21e34]:
+        - /url: https://partnerfinder.sap.com/profile/0000504737
+      - generic [ref=f21e36]: 
+    - navigation [ref=f21e39]:
+      - button [ref=f21e40] [cursor=pointer]
+    - generic [ref=f21e46]:
+      - heading [level=1] [ref=f21e49]:
+        - paragraph [ref=f21e50]: (Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP)
+      - heading [level=3] [ref=f21e53]:
+        - paragraph [ref=f21e54]: Bewerben Sie sich jetzt!
+      - generic [ref=f21e57]:
+        - generic [ref=f21e58]:
+          - generic [ref=f21e59]: 
+          - text: D-72218 Wildberg
+        - generic [ref=f21e60]:
+          - generic [ref=f21e61]: 
+          - text: Vollzeit, unbefristet
+        - generic [ref=f21e62]:
+          - generic [ref=f21e63]: 
+          - text: ab sofort
+    - generic [ref=f21e65]:
+      - list [ref=f21e67]:
+        - listitem [ref=f21e68]:
+          - link "Start" [ref=f21e69] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f21e70]:
+          - text: /
+          - link "Karriere" [ref=f21e71] [cursor=pointer]:
+            - /url: /de/karriere
+        - listitem [ref=f21e72]:
+          - text: /
+          - link "Alle Stellenangebote" [ref=f21e73] [cursor=pointer]:
+            - /url: /de/karriere/alle-stellenangebote
+        - listitem [ref=f21e74]:
+          - text: /
+          - link "(Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP)" [ref=f21e75] [cursor=pointer]:
+            - /url: /de/karriere/alle-stellenangebote/festanstellung/senior-softwareentwickler-sap-ecommerce-java-abap-mwd
+        - list
+      - link "Alle Stellenangebote" [ref=f21e77] [cursor=pointer]:
+        - /url: /de/karriere/alle-stellenangebote
+    - generic [ref=f21e79]:
+      - generic [ref=f21e80] [cursor=pointer]:
+        - generic [ref=f21e81]: 
+        - text: Teilen
+      - generic:
+        - link:
+          - /url: /media/
+      - paragraph [ref=f21e83]: "zuletzt aktualisiert: 08.10.2026"
+    - generic [ref=f21e85]:
+      - generic [ref=f21e86]:
+        - heading "Wer wir sind:" [level=2] [ref=f21e87]
+        - paragraph
+        - paragraph [ref=f21e88]: Die innovate Software GmbH ist spezialisiert auf die SAP-Beratung für E-Business, Mobile-Business und Customer-Relationship-Management.Unsere Kernkompetenzen befinden sich in der Beratung von Unternehmen und bei der Implementierung von unternehmensübergreifenden Geschäftsprozessen, um über verschiedene Kanäle mit Kunden und Lieferanten elektronisch unterstützt zu kommunizieren. Dabei steht im Fokus unserer Geschäftstätigkeit sowohl die strategische Beratung als auch die anschließende Implementierung und Entwicklung der Systeme, welche die elektronischen Geschäftsprozesse ermöglichen.
+        - paragraph
+      - generic [ref=f21e89]:
+        - generic [ref=f21e90]:
+          - generic [ref=f21e94] [cursor=pointer]: ❮
+          - generic [ref=f21e95] [cursor=pointer]: ❯
+          - generic [ref=f21e372]: Wir freuen uns, dass die SAP unsere langjährige Partnerschaft im Rahmen des SAP PartnerEdge Programms mit dem Status "SAP Gold Partner" honoriert hat.
+        - heading [level=2]
+        - paragraph
+    - generic [ref=f21e97]:
+      - generic [ref=f21e98]:
+        - heading "Ihre Aufgabenfelder:" [level=2] [ref=f21e99]
+        - paragraph
+        - list [ref=f21e100]:
+          - listitem [ref=f21e101]: SAP Commerce-, Java- und ABAP-Projekte im internationalen Umfeld
+          - listitem [ref=f21e102]: Konzeption und Weiterentwicklung von E-Commerce-Lösungen
+          - listitem [ref=f21e103]: Erstellung von Anforderungs- und Bedarfsanalysen
+          - listitem [ref=f21e104]: Entwicklung von kundenindividuellen Webapplikationen
+          - listitem [ref=f21e105]: Durchführung von Testphasen (jUnit)
+          - listitem [ref=f21e106]: Kundensupport via Online-Ticketsystem
+        - paragraph
+      - generic [ref=f21e107]:
+        - heading "Das bringen Sie mit:" [level=2] [ref=f21e108]
+        - paragraph
+        - list [ref=f21e109]:
+          - listitem [ref=f21e110]: Studium z. B. in den Bereichen (Wirtschafts-)Informatik, Wirtschaftsingenieurswesen, Mathematik, Physik
+          - listitem [ref=f21e111]: Oder eine vergleichbare Berufsausbildung als Fachinformatiker (m/w/d) für Anwendungsentwicklung oder Systemintegration
+          - listitem [ref=f21e112]: Solide Kenntnisse in der Java-Programmierung
+          - listitem [ref=f21e113]: Alternativ solide Kenntnisse in der ABAP-Programmierung
+          - listitem [ref=f21e114]: Erste Erfahrungen mit JAVA Webframeworks (Spring, Struts, JSF)
+          - listitem [ref=f21e115]: Zeitweise Reisebereitschaft
+          - listitem [ref=f21e116]: Erfahrungen mit Webtechniken (HTML, CSS, AJAX)
+          - listitem [ref=f21e117]: Erste Kontakte mit Projektmanagement
+          - listitem [ref=f21e118]: Erste Kontakte mit SAP Commerce
+        - paragraph [ref=f21e119]
+        - paragraph
+    - generic [ref=f21e120]:
+      - generic [ref=f21e121]:
+        - generic [ref=f21e122]:
+          - heading [level=2]
+        - paragraph [ref=f21e124] [cursor=pointer]: Alle ausklappen
+      - paragraph
+      - generic [ref=f21e126]:
+        - generic [ref=f21e128] [cursor=pointer]:
+          - generic [ref=f21e129]:
+            - emphasis [ref=f21e131]: 
+            - generic [ref=f21e132]:
+              - generic [ref=f21e133]: Sicherheit & Wachstum
+              - emphasis [ref=f21e135]: +
+          - generic [ref=f21e136]: Wir bieten eine unbefristete Festanstellung in der zukunftsorientierten IT-Branche und sichern mit unserem stetigen Wachstum Arbeitsplätze. ×
+        - generic [ref=f21e138] [cursor=pointer]:
+          - generic [ref=f21e139]:
+            - emphasis [ref=f21e141]: 
+            - generic [ref=f21e142]:
+              - generic [ref=f21e143]: Betriebliche Altersvorsorge
+              - emphasis [ref=f21e145]: +
+          - generic [ref=f21e146]: Wir sagen „Vorsorge statt Nachsorge“ und bieten eine betriebliche Altersvorsorge mit attraktiven Konditionen. ×
+        - generic [ref=f21e148] [cursor=pointer]:
+          - generic [ref=f21e149]:
+            - emphasis [ref=f21e151]: 
+            - generic [ref=f21e152]:
+              - generic [ref=f21e153]: Get-Together & Teamevents
+              - emphasis [ref=f21e155]: +
+          - generic [ref=f21e156]: Unser Teamgeist stellt das Fundament unserer guten und erfolgreichen Zusammenarbeit dar. Dies fördern wir im gemeinsamen Austausch und in entspannter Atmosphäre. ×
+        - generic [ref=f21e158] [cursor=pointer]:
+          - generic [ref=f21e159]:
+            - emphasis [ref=f21e161]: 
+            - generic [ref=f21e162]:
+              - generic [ref=f21e163]: Mittagessen
+              - emphasis [ref=f21e165]: +
+          - generic [ref=f21e166]: Wir bieten ein abwechslungsreiches Mittagessen mit unseren täglich frisch gekochten Gerichten. Hierbei können auch Sonderwünsche berücksichtigt werden. ×
+        - generic [ref=f21e168] [cursor=pointer]:
+          - generic [ref=f21e169]:
+            - emphasis [ref=f21e171]: 
+            - generic [ref=f21e172]:
+              - generic [ref=f21e173]: Gratisversorgung mit Nervennahrung
+              - emphasis [ref=f21e175]: +
+          - generic [ref=f21e176]: Keine Lust auf die Snacks von daheim? Kein Problem! Bei uns gibt es u. a. zahlreiche Joghurts, Obst, Getränke (Kaffee, Tee, gefiltertes Wasser) – alles kostenfrei, versteht sich. ×
+        - generic [ref=f21e178] [cursor=pointer]:
+          - generic [ref=f21e179]:
+            - emphasis [ref=f21e181]: 
+            - generic [ref=f21e182]:
+              - generic [ref=f21e183]: Onboarding, Mentoring & Feedback
+              - emphasis [ref=f21e185]: +
+          - generic [ref=f21e186]: "Ankommen leicht gemacht: Mit unserem Willkommenstag, 100-Tage-Programm und einer persönlichen Ansprechperson. Der Fortschritt wird mit regelmäßigen Entwicklungs- und Orientierungsgesprächen individuell gefördert. ×"
+        - generic [ref=f21e188] [cursor=pointer]:
+          - generic [ref=f21e189]:
+            - emphasis [ref=f21e191]: 
+            - generic [ref=f21e192]:
+              - generic [ref=f21e193]: Weiterentwicklung & Karriereförderung
+              - emphasis [ref=f21e195]: +
+          - generic [ref=f21e196]: „One size fits all“ gibt es bei uns nicht. Stattdessen fördern wir eine steile Lernkurve durch unsere individuellen Weiterbildungsangebote und SAP-E-Learnings, die flexible Karrierewege bei uns öffnen. ×
+        - generic [ref=f21e198] [cursor=pointer]:
+          - generic [ref=f21e199]:
+            - emphasis [ref=f21e201]: 
+            - generic [ref=f21e202]:
+              - generic [ref=f21e203]: Modernes Arbeitsumfeld
+              - emphasis [ref=f21e205]: +
+          - generic [ref=f21e206]: Unsere Arbeitsplätze sind mit modernem Equipment ausgestattet. Gearbeitet wird in ansprechenden und hellen Büros, in zentraler Lage. ×
+        - generic [ref=f21e208] [cursor=pointer]:
+          - generic [ref=f21e209]:
+            - emphasis [ref=f21e211]: 
+            - generic [ref=f21e212]:
+              - generic [ref=f21e213]: Teamspirit & flache Hierarchien
+              - emphasis [ref=f21e215]: +
+          - generic [ref=f21e216]: Wir sind ein Team und leben eine offene Arbeitsatmosphäre, bei der das partnerschaftliche Miteinander sowie eine offene Kommunikation auf Augenhöhe im Fokus stehen. ×
+        - generic [ref=f21e218] [cursor=pointer]:
+          - generic [ref=f21e219]:
+            - emphasis [ref=f21e221]: 
+            - generic [ref=f21e222]:
+              - generic [ref=f21e223]: Aktive Mitgestaltung
+              - emphasis [ref=f21e225]: +
+          - generic [ref=f21e226]: Wir fördern eigenverantwortliches und selbstständiges Arbeiten in spannenden sowie abwechslungsreichen Projekten in der IT-Zukunftsbranche. ×
+        - generic [ref=f21e228] [cursor=pointer]:
+          - generic [ref=f21e229]:
+            - emphasis [ref=f21e231]: 
+            - generic [ref=f21e232]:
+              - generic [ref=f21e233]: Nachhaltigkeit
+              - emphasis [ref=f21e235]: +
+          - generic [ref=f21e236]: Mit unserer E-Ladestation leisten wir einen kleinen Beitrag für eine bessere Zukunft. ×
+        - generic [ref=f21e238] [cursor=pointer]:
+          - generic [ref=f21e239]:
+            - emphasis [ref=f21e241]: 
+            - generic [ref=f21e242]:
+              - generic [ref=f21e243]: Internationale Projekte
+              - emphasis [ref=f21e245]: +
+          - generic [ref=f21e246]: Wir sind stolz auf unsere langjährigen Kundenbeziehungen und die nationalen sowie internationalen Projekte, die wir begleiten – von der Beratung bis zum Go-Live. ×
+    - generic [ref=f21e248]:
+      - generic [ref=f21e249]:
+        - heading "So erreichen Sie uns" [level=2] [ref=f21e250]
+        - paragraph
+        - paragraph [ref=f21e251]: Sollten Sie noch Fragen haben, die in unseren FAQ nicht beantwortet wurden,stehen wir Ihnen gerne telefonisch zur Verfügung.
+        - paragraph [ref=f21e252]:
+          - generic [ref=f21e253]: "Unsere zentrale Rufnummer: 07054/30210"
+        - paragraph [ref=f21e254]
+        - paragraph
+        - paragraph
+      - generic [ref=f21e255]:
+        - heading "Hinweise zu Ihrer Bewerbung" [level=2] [ref=f21e256]
+        - paragraph
+        - paragraph [ref=f21e257]:
+          - generic [ref=f21e258]: "Falls Sie weitere Informationen zum Bewerbungsprozess bei innovate benötigen oder anderweitige Fragen zu Ihrer Bewerbung haben, finden Sie hier alle Informationen:"
+        - link "Bewerbungsprozess & FAQ" [ref=f21e260] [cursor=pointer]:
+          - /url: /de/karriere/bewerbungsprozess
+        - paragraph
+    - generic [ref=f21e261]:
+      - generic [ref=f21e262]:
+        - 'heading "Fast geschafft: Ein letzter Klick zum Bewerbungsformular!" [level=1] [ref=f21e263]'
+        - paragraph [ref=f21e265]:
+          - generic [ref=f21e266]:
+            - strong [ref=f21e267]:
+              - text: Wir freuen uns, dass Sie Teil von innovate werden und gemeinsam mit uns die Zukunft der IT-Dienstleistungen gestalten möchten! Klicken Sie auf den Button
+              - strong [ref=f21e268]: „Jetzt bewerben“, u
+              - text: m Ihre vollständigen Bewerbungsunterlagen an uns zu übermitteln.
+            - strong [ref=f21e269]: Wichtiger Hinweis
+            - strong [ref=f21e270]: ":"
+            - text: Ihre Bewerbung wird über unser Bewerbungsformular eingereicht und intern verarbeitet. Weitere Informationen zum Datenschutz und zur Verarbeitung Ihrer Daten finden Sie in unserer
+            - link [ref=f21e271] [cursor=pointer]:
+              - /url: https://www.innovate-gmbh.de/de/info/datenschutzerklaerung/
+              - strong [ref=f21e272]: Datenschutzerklärung
+        - paragraph [ref=f21e273]: "Ihre Bewerbung auf folgende Stelle:Festanstellung: (Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP), Vollzeit, ab sofort"
+      - generic [ref=f21e297]:
+        - generic [ref=f21e298]:
+          - generic [aria-hidden] [ref=f21e299]: Bitte nicht ausfüllen
+          - textbox [aria-hidden] [ref=f21e300]
+        - generic [ref=f21e301]:
+          - generic [ref=f21e302]: Anrede *
+          - combobox "Anrede *" [ref=f21e303]:
+            - option "Bitte wählen"
+            - option "Herr"
+            - option "Frau" [selected]
+            - option "keine Angabe / divers"
+        - generic [ref=f21e304]:
+          - generic [ref=f21e305]: Vorname *
+          - textbox "Vorname *" [ref=f21e306]: Kranti
+        - generic [ref=f21e307]:
+          - generic [ref=f21e308]: Nachname *
+          - textbox "Nachname *" [ref=f21e309]: Chavan
+        - generic [ref=f21e310]:
+          - generic [ref=f21e311]: E-Mail-Adresse *
+          - textbox "E-Mail-Adresse *" [ref=f21e312]: krantichavan198@gmail.com
+        - generic [ref=f21e313]:
+          - generic [ref=f21e314]: Rufnummer *
+          - textbox "Rufnummer *" [ref=f21e315]:
+            - /placeholder: +49 123 333 4455
+            - text: +49 15750174177
+        - generic [ref=f21e316]:
+          - generic [ref=f21e317]: Gehaltsvorstellung in EUR/Jahr (nur Zahlen) *
+          - textbox "Gehaltsvorstellung in EUR/Jahr (nur Zahlen) *" [ref=f21e318]:
+            - /placeholder: Bruttojahresgehalt in EUR
+            - text: 60.000 €
+        - generic [ref=f21e319]:
+          - generic [ref=f21e320]: Verfügbar ab *
+          - textbox "Verfügbar ab *" [active] [ref=f21e321] [cursor=pointer]: 16.12.2026
+        - generic [ref=f21e322]:
+          - generic [ref=f21e323]: Ihre aktuelle Kündigungsfrist *
+          - combobox "Ihre aktuelle Kündigungsfrist *" [ref=f21e324]:
+            - option "Bitte wählen"
+            - option "keine"
+            - option "4 Wochen zum Monatsende bzw. zum 15. eines Monats"
+            - option "1 Monat zum Monatsende"
+            - option "3 Monate zum Monatsende"
+            - option "3 Monate zum Quartalsende"
+            - option "andere" [selected]
+        - generic [ref=f21e325]:
+          - generic [ref=f21e326]: Ergänzende Angaben
+          - textbox "Ergänzende Angaben" [ref=f21e327]:
+            - /placeholder: hier Frist eintragen
+            - text: Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026
+        - generic [ref=f21e328]:
+          - generic [ref=f21e329]: Herkunft Ihrer Bewerbung *
+          - combobox "Herkunft Ihrer Bewerbung *" [ref=f21e330]:
+            - option "Bitte wählen"
+            - option "Aktuelle-Jobs"
+            - option "andere"
+            - option "AzubiWelt"
+            - option "Backinjob"
+            - option "Bundesagentur für Arbeit" [selected]
+            - option "Cyberforum"
+            - option "DHBW (Liste Dualer Partner)"
+            - option "Empfehlung"
+            - option "finest jobs"
+            - option "Google Jobs"
+            - option "innovate-Homepage"
+            - option "IHK-Lehrstellenbörse"
+            - option "Indeed"
+            - option "JobTeaser"
+            - option "LinkedIn"
+            - option "meinestadt"
+            - option "Recruitingmesse (Schule, Universität, Hochschule, o. Ä.)"
+            - option "Stepstone"
+            - option "Xing"
+        - generic [ref=f21e331]:
+          - generic [ref=f21e332]: Ergänzende Angaben
+          - textbox "Ergänzende Angaben" [disabled] [ref=f21e333]:
+            - /placeholder: keine Ergänzungen erforderlich
+        - generic [ref=f21e334]:
+          - generic [ref=f21e335]: Sprachkenntnisse Deutsch *
+          - combobox "Sprachkenntnisse Deutsch *" [ref=f21e336]:
+            - option "Bitte wählen"
+            - option "Muttersprache"
+            - option "Annähernd muttersprachliche Kenntnisse (C2)"
+            - option "Fachkundige Sprachkenntnisse (C1)"
+            - option "Selbstständige Sprachverwendung (B2)"
+            - option "Fortgeschrittene Sprachverwendung (B1)" [selected]
+            - option "Grundlegende Kenntnisse (A2)"
+            - option "Anfänger (A1)"
+        - generic [ref=f21e337]:
+          - generic [ref=f21e338]: Sprachkenntnisse Englisch *
+          - combobox "Sprachkenntnisse Englisch *" [ref=f21e339]:
+            - option "Bitte wählen"
+            - option "Muttersprache"
+            - option "Annähernd muttersprachliche Kenntnisse (C2)" [selected]
+            - option "Fachkundige Sprachkenntnisse (C1)"
+            - option "Selbstständige Sprachverwendung (B2)"
+            - option "Fortgeschrittene Sprachverwendung (B1)"
+            - option "Grundlegende Kenntnisse (A2)"
+            - option "Anfänger (A1)"
+        - generic [ref=f21e340]:
+          - generic [ref=f21e341]: Lebenslauf / CV (1 Datei, max. 1 MB, nur PDF-Datei) *
+          - generic [ref=f21e342] [cursor=pointer]:
+            - button "Lebenslauf / CV (1 Datei, max. 1 MB, nur PDF-Datei) * Datei hier auswählen oder per Drag-and-Drop ablegen" [ref=f21e343]
+            - generic [ref=f21e344]: 
+            - generic [ref=f21e346]:
+              - generic [ref=f21e347]: Datei hier auswählen oder per Drag-and-Drop ablegen
+              - text: 
+        - generic [ref=f21e348]:
+          - generic [ref=f21e349]: Anschreiben (1 Datei, max. 1 MB, nur PDF-Datei)
+          - generic [ref=f21e350] [cursor=pointer]:
+            - button "Anschreiben (1 Datei, max. 1 MB, nur PDF-Datei) Datei hier auswählen oder per Drag-and-Drop ablegen" [ref=f21e351]
+            - generic [ref=f21e352]: 
+            - generic [ref=f21e354]:
+              - generic [ref=f21e355]: Datei hier auswählen oder per Drag-and-Drop ablegen
+              - text: 
+        - generic [ref=f21e356]:
+          - generic [ref=f21e357]: Zeugnisse / Anlagen (1 Datei, max. 3 MB, nur PDF-Datei) *
+          - generic [ref=f21e358] [cursor=pointer]:
+            - button "Zeugnisse / Anlagen (1 Datei, max. 3 MB, nur PDF-Datei) * Datei hier auswählen oder per Drag-and-Drop ablegen" [ref=f21e359]
+            - generic [ref=f21e360]: 
+            - generic [ref=f21e362]:
+              - generic [ref=f21e363]: Datei hier auswählen oder per Drag-and-Drop ablegen
+              - text: 
+        - generic [ref=f21e364]:
+          - generic:
+            - text: Ja, ich habe die
+            - link "Datenschutzerklärung" [ref=f21e365] [cursor=pointer]:
+              - /url: /de/info/datenschutzerklaerung/
+            - text: gelesen und akzeptiere diese. *
+        - paragraph [ref=f21e366]: Felder mit einem * sind Pflichtfelder
+        - button "Bewerbung abschicken" [ref=f21e367] [cursor=pointer]
+        - button "Abbrechen" [ref=f21e368] [cursor=pointer]
+    - paragraph [ref=f21e281]:
+      - generic [ref=f21e282]:
+        - strong [ref=f21e283]: "Unser Statement zur Chancengleichheit:"
+        - text: Bei uns stehen Menschen mit ihren individuellen Lebensmodellen im Mittelpunkt. Wir legen Wert auf ein freundliches und unterstützendes Arbeitsumfeld mit einem respektvollen Umgang untereinander.Hierbei lehnen wir jegliche Form von Diskriminierung aufgrund von Geschlecht, ethnischer und sozialer Herkunft, Kultur, Religion und Weltanschauung, Alter, sexueller Identität, chronischen Krankheiten oder Behinderung ab.
+    - generic [ref=f21e284]:
+      - link [ref=f21e286] [cursor=pointer]:
+        - /url: https://partnerfinder.sap.com/profile/0000504737
+      - paragraph [ref=f21e289]:
+        - text: Alle Inhalte urheberrechtlich geschützt. |
+        - link "Impressum" [ref=f21e290] [cursor=pointer]:
+          - /url: /de/info/impressum
+        - text: "|"
+        - link "Datenschutzerklärung" [ref=f21e291] [cursor=pointer]:
+          - /url: /de/info/datenschutzerklaerung/
+        - text: "|"
+        - link "innovate Software GmbH" [ref=f21e292] [cursor=pointer]:
+          - /url: /
+  - generic [ref=f21e293]: 
+  - table [ref=f21e377]:
+    - rowgroup [ref=f21e378]:
+      - row
+      - row [ref=f21e442]:
+        - columnheader "«" [ref=f21e443] [cursor=pointer]
+        - columnheader "Dezember 2026" [ref=f21e444] [cursor=pointer]
+        - columnheader "»" [ref=f21e381] [cursor=pointer]
+      - row [ref=f21e382]:
+        - columnheader "Mo" [ref=f21e383]
+        - columnheader "Di" [ref=f21e384]
+        - columnheader "Mi" [ref=f21e385]
+        - columnheader "Do" [ref=f21e386]
+        - columnheader "Fr" [ref=f21e387]
+        - columnheader "Sa" [ref=f21e388]
+        - columnheader "So" [ref=f21e389]
+    - rowgroup [ref=f21e390]:
+      - row [ref=f21e445]:
+        - cell "30" [ref=f21e446]
+        - cell "1" [ref=f21e447]
+        - cell "2" [ref=f21e448]
+        - cell "3" [ref=f21e449]
+        - cell "4" [ref=f21e450]
+        - cell "5" [ref=f21e451]
+        - cell "6" [ref=f21e452]
+      - row [ref=f21e453]:
+        - cell "7" [ref=f21e454]
+        - cell "8" [ref=f21e455]
+        - cell "9" [ref=f21e456]
+        - cell "10" [ref=f21e457]
+        - cell "11" [ref=f21e458]
+        - cell "12" [ref=f21e459]
+        - cell "13" [ref=f21e460]
+      - row [ref=f21e461]:
+        - cell "14" [ref=f21e462]
+        - cell "15" [ref=f21e463]
+        - cell "16" [ref=f21e464]
+        - cell "17" [ref=f21e465]
+        - cell "18" [ref=f21e466]
+        - cell "19" [ref=f21e467]
+        - cell "20" [ref=f21e468]
+      - row [ref=f21e469]:
+        - cell "21" [ref=f21e470]
+        - cell "22" [ref=f21e471]
+        - cell "23" [ref=f21e472]
+        - cell "24" [ref=f21e473]
+        - cell "25" [ref=f21e474]
+        - cell "26" [ref=f21e475]
+        - cell "27" [ref=f21e476]
+      - row [ref=f21e477]:
+        - cell "28" [ref=f21e478]
+        - cell "29" [ref=f21e479]
+        - cell "30" [ref=f21e480]
+        - cell "31" [ref=f21e481]
+        - cell "1" [ref=f21e482]
+        - cell "2" [ref=f21e483]
+        - cell "3" [ref=f21e484]
+      - row [ref=f21e485]:
+        - cell "4" [ref=f21e486]
+        - cell "5" [ref=f21e487]
+        - cell "6" [ref=f21e488]
+        - cell "7" [ref=f21e489]
+        - cell "8" [ref=f21e490]
+        - cell "9" [ref=f21e491]
+        - cell "10" [ref=f21e492]
+    - rowgroup [ref=f21e439]:
+      - row
+      - row [ref=f21e440]:
+        - columnheader "Löschen" [ref=f21e441] [cursor=pointer]

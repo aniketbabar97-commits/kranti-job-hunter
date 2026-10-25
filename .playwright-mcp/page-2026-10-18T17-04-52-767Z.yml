@@ -1,0 +1,615 @@
+- generic [active] [ref=f21e1]:
+  - generic [ref=f21e2]:
+    - generic [ref=f21e4]:
+      - generic [ref=f21e6]:
+        - generic [ref=f21e7]:
+          - generic [ref=f21e9]:
+            - generic [ref=f21e10]:
+              - generic [ref=f21e11]: 
+              - paragraph [ref=f21e14]:
+                - link "cronos@cronos.de" [ref=f21e15] [cursor=pointer]:
+                  - /url: mailto:cronos@cronos.de
+            - generic [ref=f21e16]:
+              - generic [ref=f21e17]: 
+              - paragraph [ref=f21e20]:
+                - link "+49 251 39966-0" [ref=f21e21] [cursor=pointer]:
+                  - /url: tel:+49 251 39966-0
+          - generic [ref=f21e23]:
+            - generic:
+              - generic:
+                - heading "Login" [level=4]
+                - generic:
+                  - textbox "E-Mail-Adresse"
+                  - textbox "Passwort"
+                  - generic:
+                    - checkbox "Angemeldet bleiben"
+                    - generic: Angemeldet bleiben
+                  - generic:
+                    - button "Anmelden"
+                  - generic:
+                    - link "Passwort Vergessen?":
+                      - /url: /passwort-vergessen
+                  - generic:
+                    - link "Noch keinen Login? Jetzt registrieren!":
+                      - /url: registration
+            - generic [ref=f21e24]:
+              - link "" [ref=f21e25] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cronosgmbh/
+              - link "" [ref=f21e27] [cursor=pointer]:
+                - /url: https://de-de.facebook.com/cronosgmbh
+              - link "" [ref=f21e29] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/cronosunternehmensberatunggmbh
+              - link "" [ref=f21e31] [cursor=pointer]:
+                - /url: https://www.instagram.com/cronologen
+              - link [ref=f21e33] [cursor=pointer]:
+                - /url: https://www.youtube.com/@cronosTV
+                - generic [aria-hidden] [ref=f21e34]: 
+        - separator [ref=f21e35]
+      - banner [ref=f21e36]:
+        - generic [ref=f21e37]:
+          - link [ref=f21e39] [cursor=pointer]:
+            - /url: https://cronos.de
+          - generic [ref=f21e40]: 
+          - text:     
+          - button:
+            - generic [ref=f21e42] [cursor=pointer]
+    - generic [ref=f21e46]:
+      - generic [ref=f21e48]:
+        - figure [ref=f21e50]
+        - heading "cronologe werden Jobs" [level=1] [ref=f21e53]
+      - paragraph [ref=f21e56]:
+        - link "cronos" [ref=f21e57] [cursor=pointer]:
+          - /url: /cub
+        - text: "> Jobs"
+    - main [ref=f21e59]:
+      - generic [ref=f21e64]:
+        - generic [ref=f21e65]:
+          - heading "Aktuelle Stellenangebote" [level=1] [ref=f21e66]
+          - generic [ref=f21e67]:
+            - separator [ref=f21e68]
+            - paragraph [ref=f21e69]: Wir bevorzugen Online-Bewerbungen - das geht ganz einfach und ist für dich und uns der schnellste Weg zum Erfolg.
+        - region "Filterbereich für Stellenanzeigen" [ref=f21e70]:
+          - generic [ref=f21e76]:
+            - generic [ref=f21e77]:
+              - generic [ref=f21e80]:
+                - generic [ref=f21e81]: Stichwort
+                - textbox "Stichwort" [ref=f21e83]
+              - generic [ref=f21e86]:
+                - generic [ref=f21e87]: PLZ oder Ort
+                - textbox "PLZ oder Ort" [ref=f21e89]
+              - generic [ref=f21e91]:
+                - generic [ref=f21e92]: Umkreis
+                - combobox "Umkreis" [ref=f21e94]:
+                  - option "10 km" [selected]
+                  - option "30 km"
+                  - option "50 km"
+                  - option "100 km"
+                  - option "200 km"
+              - generic "Button namens BTN_SUBMIT_SEARCH ausführen" [ref=f21e96] [cursor=pointer]
+              - link "Button namens BTN_RESET_SEARCH ausführen" [ref=f21e99] [cursor=pointer]:
+                - /url: https://www.cronos.de/jobs/stellenangebote.html?reset_search=1
+            - button "erweiterte Suche" [ref=f21e101]:
+              - separator [ref=f21e105]
+            - generic [ref=f21e106]:
+              - generic [ref=f21e108]:
+                - generic [ref=f21e109]: Karrierelevel
+                - listbox "Karrierelevel" [ref=f21e111]:
+                  - option "Alle" [ref=f21e112]
+                  - option "Studierende" [ref=f21e113]
+                  - option "Berufseinsteiger:innen" [ref=f21e114]
+                  - option "Berufserfahrene" [ref=f21e115]
+                  - option "Quereinsteigende" [ref=f21e116]
+              - generic [ref=f21e118]:
+                - generic [ref=f21e119]: Unternehmensbereich
+                - listbox "Unternehmensbereich" [ref=f21e121]:
+                  - option "Intern" [ref=f21e122]
+                  - option "Business Services" [ref=f21e123]
+                  - option "IT-Management" [ref=f21e124]
+                  - option "Process Automation" [ref=f21e125]
+                  - option "SAP Consulting" [ref=f21e126]
+                  - option "Software-Entwicklung" [ref=f21e127]
+                  - option "Sonstiges" [ref=f21e128]
+              - generic [ref=f21e130]:
+                - generic [ref=f21e131]: Standort
+                - listbox "Standort" [ref=f21e133]:
+                  - option "Anteilig remote" [ref=f21e134]
+                  - option "Cottbus" [ref=f21e135]
+                  - option "Dortmund" [ref=f21e136]
+                  - option "Halle" [ref=f21e137]
+                  - option "Hamburg" [ref=f21e138]
+                  - option "Köln" [ref=f21e139]
+                  - option "Leipzig" [ref=f21e140]
+                  - option "Mannheim" [ref=f21e141]
+                  - option "Münster" [ref=f21e142]
+                  - option "Wien" [ref=f21e143]
+              - generic [ref=f21e145]:
+                - generic [ref=f21e146]: Tätigkeitsausübung
+                - listbox "Tätigkeitsausübung" [ref=f21e148]:
+                  - option "Präsenz / Mobil" [ref=f21e149]
+        - text: 
+        - generic [ref=f21e150]:
+          - generic [ref=f21e151]:
+            - article [ref=f21e152]:
+              - generic [ref=f21e154]:
+                - generic [ref=f21e155]:
+                  - link "(Cloud) Solution Architect (all genders)" [ref=f21e156] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Cloud-Solution-Architect-all-genders-de-j308.html
+                  - generic [ref=f21e157]: Berufserfahrene
+                - generic [ref=f21e159]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e160]: Präsenz / Mobil
+                  - generic "Software-Entwicklung" [ref=f21e163]
+            - article [ref=f21e164]:
+              - generic [ref=f21e166]:
+                - generic [ref=f21e167]:
+                  - link "(Senior) Consultant & Architect | Automation (RPA & AI) (all genders)" [ref=f21e168] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Architect-Automation-RPA-AI-all-genders-de-j246.html
+                  - generic [ref=f21e169]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e171]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e172]: Präsenz / Mobil
+                  - generic "Process Automation" [ref=f21e175]
+            - article [ref=f21e176]:
+              - generic [ref=f21e178]:
+                - generic [ref=f21e179]:
+                  - link "(Senior) Consultant & Project Lead | Automation (RPA & AI) (all genders)" [ref=f21e180] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Project-Lead-Automation-RPA-AI-all-gende-de-j247.html
+                  - generic [ref=f21e181]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e183]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e184]: Präsenz / Mobil
+                  - generic "Process Automation" [ref=f21e187]
+            - article [ref=f21e188]:
+              - generic [ref=f21e190]:
+                - generic [ref=f21e191]:
+                  - link "(Senior) Consultant / Developer | Software-Entwicklung (Microsoft Azure) (all genders)" [ref=f21e192] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Developer-Software-Entwicklung-Microsoft-de-j269.html
+                  - generic [ref=f21e193]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e195]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e196]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e199]
+            - article [ref=f21e200]:
+              - generic [ref=f21e202]:
+                - generic [ref=f21e203]:
+                  - link "(Senior) Consultant | Bilanzierung, Konsolidierung und Steuern (all genders)" [ref=f21e204] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Bilanzierung-Konsolidierung-und-Steuern--de-j306.html
+                  - generic [ref=f21e205]: Berufserfahrene
+                - generic [ref=f21e207]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e208]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e211]
+            - article [ref=f21e212]:
+              - generic [ref=f21e214]:
+                - generic [ref=f21e215]:
+                  - link "(Senior) Consultant | Application Management (S/4HANA Utilities / SAP ISU) (all genders)" [ref=f21e216] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Application-Management-S4HANA-Utilities--de-j272.html
+                  - generic [ref=f21e217]: Berufserfahrene
+                - generic [ref=f21e219]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e220]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e223]
+            - article [ref=f21e224]:
+              - generic [ref=f21e226]:
+                - generic [ref=f21e227]:
+                  - link "(Senior) Consultant | IT-Management (ERP- & ISU Architektur) (all genders)" [ref=f21e228] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-IT-Management-ERP-ISU-Architektur-all-ge-de-j250.html
+                  - generic [ref=f21e229]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e231]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e232]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e235]
+            - article [ref=f21e236]:
+              - generic [ref=f21e238]:
+                - generic [ref=f21e239]:
+                  - link "(Senior) Consultant | IT-Management (IT-Ausschreibungen) (all genders)" [ref=f21e240] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-IT-Management-IT-Ausschreibungen-all-gen-de-j244.html
+                  - generic [ref=f21e241]: Berufserfahrene
+                - generic [ref=f21e243]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e244]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e247]
+            - article [ref=f21e248]:
+              - generic [ref=f21e250]:
+                - generic [ref=f21e251]:
+                  - link "(Senior) Consultant | SAP Consulting (all genders)" [ref=f21e252] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-all-genders-de-j242.html
+                  - generic [ref=f21e253]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e255]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e256]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e259]
+            - article [ref=f21e260]:
+              - generic [ref=f21e262]:
+                - generic [ref=f21e263]:
+                  - link "(Senior) Consultant | SAP Consulting (Data Migration) (all genders)" [ref=f21e264] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-Data-Migration-all-gender-de-j268.html
+                  - generic [ref=f21e265]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e267]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e268]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e271]
+            - article [ref=f21e272]:
+              - generic [ref=f21e274]:
+                - generic [ref=f21e275]:
+                  - link "(Senior) Consultant | SAP Consulting (FI/CO/PS/FIN-CS/IM/FI-AA/HCM) (all genders)" [ref=f21e276] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-FICOPSFIN-CSIMFI-AAHCM-al-de-j263.html
+                  - generic [ref=f21e277]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e279]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e280]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e283]
+            - article [ref=f21e284]:
+              - generic [ref=f21e286]:
+                - generic [ref=f21e287]:
+                  - link "(Senior) Consultant | SAP Consulting (MM/PM/LO/WM/EWM) (all genders)" [ref=f21e288] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-MMPMLOWMEWM-all-genders-de-j261.html
+                  - generic [ref=f21e289]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e291]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e292]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e295]
+            - article [ref=f21e296]:
+              - generic [ref=f21e298]:
+                - generic [ref=f21e299]:
+                  - link "(Senior) Consultant | SAP Consulting (S/4HANA Cloud, BTP) (all genders)" [ref=f21e300] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-S4HANA-Cloud-BTP-all-gend-de-j265.html
+                  - generic [ref=f21e301]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e303]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e304]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e307]
+            - article [ref=f21e308]:
+              - generic [ref=f21e310]:
+                - generic [ref=f21e311]:
+                  - link "(Senior) Consultant | SAP Consulting (S/4HANA Utilities / SAP IS-U) (all genders)" [ref=f21e312] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-S4HANA-Utilities-SAP-IS-U-de-j264.html
+                  - generic [ref=f21e313]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e315]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e316]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e319]
+            - article [ref=f21e320]:
+              - generic [ref=f21e322]:
+                - generic [ref=f21e323]:
+                  - link "(Senior) Consultant | SAP Consulting (S/4HANA) (all genders)" [ref=f21e324] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-S4HANA-all-genders-de-j259.html
+                  - generic [ref=f21e325]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e327]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e328]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e331]
+            - article [ref=f21e332]:
+              - generic [ref=f21e334]:
+                - generic [ref=f21e335]:
+                  - link "(Senior) Consultant | SAP Consulting (SD/CS/PM) (all genders)" [ref=f21e336] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-Consulting-SDCSPM-all-genders-de-j262.html
+                  - generic [ref=f21e337]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e339]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e340]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e343]
+            - article [ref=f21e344]:
+              - generic [ref=f21e346]:
+                - generic [ref=f21e347]:
+                  - link "(Senior) Consultant | Software-Entwicklung (all genders)" [ref=f21e348] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Software-Entwicklung-all-genders-de-j255.html
+                  - generic [ref=f21e349]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e351]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e352]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e355]
+            - article [ref=f21e356]:
+              - generic [ref=f21e358]:
+                - generic [ref=f21e359]:
+                  - link "(Senior) Manager | SAP Consulting (S/4HANA Cloud, BTP) (all genders)" [ref=f21e360] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-SAP-Consulting-S4HANA-Cloud-BTP-all-genders-de-j267.html
+                  - generic [ref=f21e361]: Berufserfahrene
+                - generic [ref=f21e363]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e364]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e367]
+            - article [ref=f21e368]:
+              - generic [ref=f21e370]:
+                - generic [ref=f21e371]:
+                  - link "(Senior) Manager | SAP Consulting (S/4HANA Utilities / SAP IS-U) (all genders)" [ref=f21e372] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-SAP-Consulting-S4HANA-Utilities-SAP-IS-U-al-de-j273.html
+                  - generic [ref=f21e373]: Berufserfahrene
+                - generic [ref=f21e375]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e376]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e379]
+            - article [ref=f21e380]:
+              - generic [ref=f21e382]:
+                - generic [ref=f21e383]:
+                  - link "(Senior) Manager | SAP Consulting (S/4HANA) (all genders)" [ref=f21e384] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-SAP-Consulting-S4HANA-all-genders-de-j260.html
+                  - generic [ref=f21e385]: Berufserfahrene
+                - generic [ref=f21e387]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e388]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e391]
+            - article [ref=f21e392]:
+              - generic [ref=f21e394]:
+                - generic [ref=f21e395]:
+                  - link "(Senior) Manager | Application Management (S/4HANA Utilities / SAP IS-U) (all genders)" [ref=f21e396] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-Application-Management-S4HANA-Utilities-SAP-de-j274.html
+                  - generic [ref=f21e397]: Berufserfahrene
+                - generic [ref=f21e399]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e400]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e403]
+            - article [ref=f21e404]:
+              - generic [ref=f21e406]:
+                - generic [ref=f21e407]:
+                  - link "(Senior) Manager | IT-Management (all genders)" [ref=f21e408] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-IT-Management-all-genders-de-j249.html
+                  - generic [ref=f21e409]: Berufserfahrene
+                - generic [ref=f21e411]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e412]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e415]
+            - article [ref=f21e416]:
+              - generic [ref=f21e418]:
+                - generic [ref=f21e419]:
+                  - link "(Senior) Manager | SAP Consulting (all genders)" [ref=f21e420] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-SAP-Consulting-all-genders-de-j256.html
+                  - generic [ref=f21e421]: Berufserfahrene
+                - generic [ref=f21e423]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e424]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e427]
+            - article [ref=f21e428]:
+              - generic [ref=f21e430]:
+                - generic [ref=f21e431]:
+                  - link "(Senior) Manager | Software-Entwicklung (all genders)" [ref=f21e432] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-Software-Entwicklung-all-genders-de-j257.html
+                  - generic [ref=f21e433]: Berufserfahrene
+                - generic [ref=f21e435]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e436]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e439]
+            - article [ref=f21e440]:
+              - generic [ref=f21e442]:
+                - generic [ref=f21e443]:
+                  - link "(Senior) Projekt- & Programm-Manager | IT-Management (all genders)" [ref=f21e444] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Projekt-Programm-Manager-IT-Management-all-genders-de-j251.html
+                  - generic [ref=f21e445]: Berufserfahrene
+                - generic [ref=f21e447]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e448]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e451]
+            - article [ref=f21e452]:
+              - generic [ref=f21e454]:
+                - generic [ref=f21e455]:
+                  - link "(Senior) Projekt- & Programm-Manager | SAP Consulting (all genders)" [ref=f21e456] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Projekt-Programm-Manager-SAP-Consulting-all-genders-de-j270.html
+                  - generic [ref=f21e457]: Berufserfahrene
+                - generic [ref=f21e459]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e460]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e463]
+            - article [ref=f21e464]:
+              - generic [ref=f21e466]:
+                - generic [ref=f21e467]:
+                  - link "Consultant | Application Management (S/4HANA Utilities / SAP IS-U) (all genders)" [ref=f21e468] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Consultant-Application-Management-S4HANA-Utilities-SAP-IS--de-j271.html
+                  - generic [ref=f21e469]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e471]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e472]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e475]
+            - article [ref=f21e476]:
+              - generic [ref=f21e478]:
+                - generic [ref=f21e479]:
+                  - link "Consultant | IT-Management (all genders)" [ref=f21e480] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Consultant-IT-Management-all-genders-de-j248.html
+                  - generic [ref=f21e481]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e483]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e484]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e487]
+            - article [ref=f21e488]:
+              - generic [ref=f21e490]:
+                - generic [ref=f21e491]:
+                  - link "Consultant | SAP Consulting - S/4HANA Utilities / SAP IS-U (all genders)" [ref=f21e492] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Consultant-SAP-Consulting-S4HANA-Utilities-SAP-IS-U-all-ge-de-j243.html
+                  - generic [ref=f21e493]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e495]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e496]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e499]
+            - article [ref=f21e500]:
+              - generic [ref=f21e502]:
+                - generic [ref=f21e503]:
+                  - link "Initiativbewerbung (all genders)" [ref=f21e504] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Initiativbewerbung-all-genders-de-j291.html
+                  - generic [ref=f21e505]: Alle, Berufseinsteiger:innen, Berufserfahrene, Quereinsteigende
+                - generic [ref=f21e507]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e508]: Präsenz / Mobil
+                  - generic "Sonstiges" [ref=f21e511]
+            - article [ref=f21e512]:
+              - generic [ref=f21e514]:
+                - generic [ref=f21e515]:
+                  - link "Kaufmännischer Projektmitarbeiter Business Services (all genders)" [ref=f21e516] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Kaufmaennischer-Projektmitarbeiter-Business-Services-all-g-de-j236.html
+                  - generic [ref=f21e517]: Berufseinsteiger:innen, Berufserfahrene
+                - generic [ref=f21e519]:
+                  - text: Anteilig remote, Cottbus, Münster
+                  - generic [ref=f21e520]: Präsenz / Mobil
+                  - generic "Business Services" [ref=f21e523]
+            - article [ref=f21e524]:
+              - generic [ref=f21e526]:
+                - generic [ref=f21e527]:
+                  - link "Leitung Finanzbuchhaltung" [ref=f21e528] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Leitung-Finanzbuchhaltung-de-j303.html
+                  - generic [ref=f21e529]: Berufserfahrene
+                - generic [ref=f21e531]:
+                  - text: Münster
+                  - generic [ref=f21e532]: Präsenz / Mobil
+                  - generic "Intern" [ref=f21e535]
+            - article [ref=f21e536]:
+              - generic [ref=f21e538]:
+                - generic [ref=f21e539]:
+                  - link "Senior (Cloud) Fullstack Entwickler (all genders)" [ref=f21e540] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Cloud-Fullstack-Entwickler-all-genders-de-j307.html
+                  - generic [ref=f21e541]: Berufserfahrene
+                - generic [ref=f21e543]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e544]: Präsenz / Mobil
+                  - generic "Software-Entwicklung" [ref=f21e547]
+            - article [ref=f21e548]:
+              - generic [ref=f21e550]:
+                - generic [ref=f21e551]:
+                  - link "Senior Consultant / Developer | Automation - RPA & AI (all genders)" [ref=f21e552] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Developer-Automation-RPA-AI-all-genders-de-j238.html
+                  - generic [ref=f21e553]: Berufserfahrene
+                - generic [ref=f21e555]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e556]: Präsenz / Mobil
+                  - generic [ref=f21e558]:
+                    - generic "Process Automation" [ref=f21e559]
+                    - generic "Software-Entwicklung" [ref=f21e560]
+            - article [ref=f21e561]:
+              - generic [ref=f21e563]:
+                - generic [ref=f21e564]:
+                  - link "Senior Consultant / Developer | Full-Stack Webentwicklung (all genders)" [ref=f21e565] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-Developer-Full-Stack-Webentwicklung-all--de-j277.html
+                  - generic [ref=f21e566]: Berufserfahrene
+                - generic [ref=f21e568]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e569]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e572]
+            - article [ref=f21e573]:
+              - generic [ref=f21e575]:
+                - generic [ref=f21e576]:
+                  - link "Senior Consultant | IT-Management (all genders)" [ref=f21e577] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-IT-Management-all-genders-de-j234.html
+                  - generic [ref=f21e578]: Berufserfahrene
+                - generic [ref=f21e580]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e581]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e584]
+            - article [ref=f21e585]:
+              - generic [ref=f21e587]:
+                - generic [ref=f21e588]:
+                  - link "Senior Consultant | SAP CX (all genders)" [ref=f21e589] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-CX-all-genders-de-j239.html
+                  - generic [ref=f21e590]: Berufserfahrene
+                - generic [ref=f21e592]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster, Wien
+                  - generic [ref=f21e593]: Präsenz / Mobil
+                  - generic "SAP Consulting" [ref=f21e596]
+            - article [ref=f21e597]:
+              - generic [ref=f21e599]:
+                - generic [ref=f21e600]:
+                  - link "Senior Manager Data & Analytics (Energiewirtschaft / SAP Finance) (all genders)" [ref=f21e601] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Senior-Manager-Data-Analytics-Energiewirtschaft-SAP-Financ-de-j300.html
+                  - generic [ref=f21e602]: Berufserfahrene
+                - generic [ref=f21e604]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e605]: Präsenz / Mobil
+                  - generic "IT-Management" [ref=f21e608]
+            - article [ref=f21e609]:
+              - generic [ref=f21e611]:
+                - generic [ref=f21e612]:
+                  - link "Teamleiter Business Services (all genders)" [ref=f21e613] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Teamleiter-Business-Services-all-genders-de-j235.html
+                  - generic [ref=f21e614]: Berufserfahrene
+                - generic [ref=f21e616]:
+                  - text: Anteilig remote, Cottbus
+                  - generic [ref=f21e617]: Präsenz / Mobil
+                  - generic "Business Services" [ref=f21e620]
+            - article [ref=f21e621]:
+              - generic [ref=f21e623]:
+                - generic [ref=f21e624]:
+                  - link "Werkstudent | RPA & AI (all genders)" [ref=f21e625] [cursor=pointer]:
+                    - /url: https://www.cronos.de/jobs/Werkstudent-RPA-AI-all-genders-de-j245.html
+                  - generic [ref=f21e626]: Studierende
+                - generic [ref=f21e628]:
+                  - text: Anteilig remote, Cottbus, Dortmund, Halle, Hamburg, Köln, Leipzig, Mannheim, Münster
+                  - generic [ref=f21e629]: Präsenz / Mobil
+                  - generic "Process Automation" [ref=f21e632]
+          - text: 
+        - generic "weiter" [ref=f21e636] [cursor=pointer]
+        - link [ref=f21e639] [cursor=pointer]:
+          - /url: https://www.rexx-systems.com
+          - img "Rexx Systems - software for success" [ref=f21e640]
+        - link "Button namens JOBALERT ausführen" [ref=f21e643] [cursor=pointer]:
+          - /url: https://www.cronos.de/jobs/jobalert.html
+          - text: JOBALERT
+    - contentinfo [ref=f21e646]:
+      - generic [ref=f21e648]:
+        - generic [ref=f21e650]:
+          - generic [ref=f21e651]:
+            - heading "Über Uns" [level=4] [ref=f21e652]
+            - paragraph [ref=f21e653]:
+              - link "Über cronos" [ref=f21e654] [cursor=pointer]:
+                - /url: /about
+              - link "Kontakt" [ref=f21e655] [cursor=pointer]:
+                - /url: /kontakt
+          - generic [ref=f21e656]:
+            - heading "Dienstleistungen" [level=4] [ref=f21e657]
+            - paragraph [ref=f21e658]:
+              - strong [ref=f21e659]:
+                - link "SAP und Cloud Lösungen" [ref=f21e660] [cursor=pointer]:
+                  - /url: https://digital.cronos.de
+            - paragraph [ref=f21e661]:
+              - strong [ref=f21e662]:
+                - link "Customer Experience Lösungen" [ref=f21e663] [cursor=pointer]:
+                  - /url: https://cx.cronos.de
+            - paragraph [ref=f21e664]:
+              - strong [ref=f21e665]:
+                - link "Business Process Automation" [ref=f21e666] [cursor=pointer]:
+                  - /url: https://automation.cronos.de
+            - paragraph [ref=f21e667]:
+              - strong [ref=f21e668]:
+                - link "Services, Support und BPO" [ref=f21e669] [cursor=pointer]:
+                  - /url: https://services.cronos.de
+            - paragraph [ref=f21e670]:
+              - strong [ref=f21e671]:
+                - link "IT-Management" [ref=f21e672] [cursor=pointer]:
+                  - /url: https://itmc.cronos.de
+        - generic [ref=f21e673]: Unsere Socials
+        - generic [ref=f21e677]:
+          - generic [ref=f21e678]: Bester Arbeitgeber
+          - link [ref=f21e680] [cursor=pointer]:
+            - /url: https://kununu.com/de/cronos-unternehmensberatung?rfr=affiliate_widget&utm_content=widget_score_review_count_logo_small&utm_medium=affiliate&utm_source=widget
+            - img "kununu widget" [ref=f21e681]
+    - generic [ref=f21e683]:
+      - generic:
+        - generic [ref=f21e684]: Copyright 2026. All Rights Reserved.
+        - generic [ref=f21e685]:
+          - link "Impressum" [ref=f21e686] [cursor=pointer]:
+            - /url: /legal/imprint
+          - link "Datenschutz" [ref=f21e687] [cursor=pointer]:
+            - /url: /legal/privacy
+          - link "Hinweisgeberschutz" [ref=f21e688] [cursor=pointer]:
+            - /url: https://cronos-hr.rexx-systems.com/whistleblowing
+          - link "AGB" [ref=f21e689] [cursor=pointer]:
+            - /url: /legal/agb
+          - link "Allgemeine Mitwirkungspflichten" [ref=f21e690] [cursor=pointer]:
+            - /url: /allgemeine-mitwirkungspflichten
+          - link "Software-AGB" [ref=f21e691] [cursor=pointer]:
+            - /url: /legal/software-agb
+  - generic [ref=f21e694]:
+    - link [ref=f21e696] [cursor=pointer]:
+      - /url: https://cronos.de
+    - generic [ref=f21e697]: 
+    - text:     
+    - generic [ref=f21e699] [cursor=pointer]: 
+    - generic [ref=f21e703] [cursor=pointer]
+  - text:        
+  - generic:
+    - generic [ref=f21e706]:
+      - generic [ref=f21e707]:
+        - generic [ref=f21e708]:
+          - generic: Suchbegriffe
+          - searchbox "Suchbegriffe" [ref=f21e709]
+        - generic [ref=f21e710] [cursor=pointer]: 
+      - paragraph [ref=f21e712]: Drücken Sie die Eingabetaste um zu suchen
+    - generic [ref=f21e713] [cursor=pointer]:
+      - generic "Datenschutzeinstellungen neu wählen"
+  - link "" [ref=f21e715] [cursor=pointer]:
+    - /url: "#contentwrapper"

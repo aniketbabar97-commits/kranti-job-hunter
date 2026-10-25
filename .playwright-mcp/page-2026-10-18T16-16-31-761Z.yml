@@ -1,0 +1,35 @@
+- generic [active] [ref=e1]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: https://www.empasa.de/Jobs
+    - img "Logo" [ref=e6]
+  - main [ref=e7]:
+    - generic [ref=e10]:
+      - heading "Initiativbewerbung" [level=1] [ref=e12]
+      - paragraph [ref=e14]: "Wir freuen uns sehr, dass Sie sich bei uns bewerben möchten!Um den Bewerbungsprozess für Sie so einfach wie möglich zu gestalten, bieten wir Ihnen folgende Möglichkeiten an, um Ihre Daten zu übermitteln:"
+      - generic [ref=e15]:
+        - link "Bewerbungsformular ausfüllen" [ref=e16] [cursor=pointer]:
+          - /url: /de/p/empasa/jobs/27/form
+          - generic [aria-hidden] [ref=e17]: 
+          - text: Bewerbungsformularausfüllen
+        - link "XING-Profil verwenden" [ref=e19] [cursor=pointer]:
+          - /url: https://home.textkernel.de/match//public/importProfile?method=xing&token=c5687d5e-65df-4140-97c5-d11650ed2727&redirectOnError=https%3A%2F%2Finnovative-companies.de%2Fde%2Fp%2Fempasa%2Fjobs%2F27%2Fintro&postProfileUrl=https%3A%2F%2Finnovative-companies.de%2Fde%2Fp%2Fempasa%2Fjobs%2F27%2Fform&postOriginalDocument=true
+          - generic [aria-hidden] [ref=e20]: 
+          - text: XING-Profilverwenden
+        - link "LinkedIn-Profil verwenden" [ref=e22] [cursor=pointer]:
+          - /url: https://home.textkernel.de/match//public/importProfile?method=linkedin&token=c5687d5e-65df-4140-97c5-d11650ed2727&redirectOnError=https%3A%2F%2Finnovative-companies.de%2Fde%2Fp%2Fempasa%2Fjobs%2F27%2Fintro&postProfileUrl=https%3A%2F%2Finnovative-companies.de%2Fde%2Fp%2Fempasa%2Fjobs%2F27%2Fform&postOriginalDocument=true
+          - generic [aria-hidden] [ref=e23]: 
+          - text: LinkedIn-Profilverwenden
+        - link "Lebenslauf hochladen" [ref=e24] [cursor=pointer]:
+          - /url: "#"
+          - generic [aria-hidden] [ref=e25]: 
+          - text: Lebenslaufhochladen
+        - link "Lebenslauf bei Dropbox" [ref=e27] [cursor=pointer]:
+          - /url: "#"
+          - generic [aria-hidden] [ref=e28]: 
+          - text: Lebenslauf beiDropbox
+      - separator [aria-hidden] [ref=e29]
+  - contentinfo [ref=e30]:
+    - paragraph [ref=e34]:
+      - text: powered by
+      - link "d.vinci" [ref=e35] [cursor=pointer]:
+        - /url: https://www.dvinci.de

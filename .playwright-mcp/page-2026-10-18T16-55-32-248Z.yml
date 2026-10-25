@@ -1,0 +1,393 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - navigation [ref=f1e3]:
+      - link "Zur Startseite" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+      - button "Menü öffnen" [ref=f1e7] [cursor=pointer]
+  - main [ref=f1e10]:
+    - generic [ref=f1e15]:
+      - heading "IT-Personalvermittlung für Tech & Digital aus Hamburg." [level=1] [ref=f1e16]:
+        - generic [ref=f1e17]: IT-Personalvermittlung für
+        - generic [ref=f1e18]: Tech & Digital aus Hamburg.
+      - paragraph [ref=f1e19]: "Wir helfen Unternehmen, IT-Fach- und Führungsrollen sauber zu besetzen: mit Active Sourcing, Vorauswahl, anonymisierten Stellenanzeigen und realistischer Einordnung von Rolle und Markt."
+      - generic [ref=f1e20]:
+        - link "Personalanfrage senden" [ref=f1e21] [cursor=pointer]:
+          - /url: /it-personalvermittlung/#contactform
+        - link "Jobs entdecken" [ref=f1e22] [cursor=pointer]:
+          - /url: /jobs/
+    - generic [ref=f1e25]:
+      - generic [ref=f1e26]:
+        - paragraph [ref=f1e27]: "2011"
+        - paragraph [ref=f1e28]: Recruiting seit
+      - generic [ref=f1e29]:
+        - paragraph [ref=f1e30]: 400+
+        - paragraph [ref=f1e31]: Hirings begleitet
+      - generic [ref=f1e32]:
+        - paragraph [ref=f1e33]: 360°
+        - paragraph [ref=f1e34]: Recruiting
+    - generic [ref=f1e37]:
+      - generic [ref=f1e39]:
+        - generic [ref=f1e40]: IT-Recruiting für Unternehmen
+        - heading "IT-Fach- und Führungskräfte finden" [level=2] [ref=f1e41]
+      - generic [ref=f1e42]:
+        - link [ref=f1e43] [cursor=pointer]:
+          - /url: /it-personalvermittlung/
+          - generic [ref=f1e44]:
+            - heading "IT-Personalvermittlung" [level=3] [ref=f1e53]
+            - paragraph [ref=f1e54]: Wenn eine IT-Position in Festanstellung besetzt werden soll, übernehmen wir Active Sourcing, Vorauswahl und Prozessbegleitung bis zum Angebot.
+        - link [ref=f1e55] [cursor=pointer]:
+          - /url: /it-personalberatung/
+          - heading "IT-Personalberatung" [level=3] [ref=f1e64]
+          - paragraph [ref=f1e65]: Wenn Rolle, Markt und Suchstrategie noch geschärft werden müssen, ordnen wir Ihre Anforderungen ein und bereiten das Suchmandat sauber vor.
+        - link [ref=f1e66] [cursor=pointer]:
+          - /url: /it-freelancer-finden/
+          - heading "IT-Freelancer-Vermittlung" [level=3] [ref=f1e75]
+          - paragraph [ref=f1e76]: Wenn kurzfristig Spezialwissen oder Projektkapazität gebraucht wird, greifen wir für Sie auf unser Freelancer-Netzwerk zu.
+        - link [ref=f1e80] [cursor=pointer]:
+          - /url: /interim-recruiter/
+          - heading "Interim Recruiting" [level=3] [ref=f1e89]
+          - paragraph [ref=f1e90]: Wenn interne Kapazitäten im Recruiting fehlen, unterstützen wir Sie als Interim Recruiter direkt im laufenden Prozess und übernehmen die operative Suche auf Stunden- oder Tagesbasis.
+        - link [ref=f1e91] [cursor=pointer]:
+          - /url: /it-recruitment-training/
+          - heading "IT-Recruiter-Training" [level=3] [ref=f1e100]
+          - paragraph [ref=f1e101]: Wenn Teams ihr IT-Know-How auffrischen oder aufbauen wollen sowie Ansprache, Einschätzung und Prozesse verbessern wollen, schärfen wir die Recruiting-Kompetenz gezielt.
+        - link [ref=f1e102] [cursor=pointer]:
+          - /url: /it-stellenanzeige-schalten/
+          - generic [ref=f1e108]:
+            - heading "IT-Stellenanzeige schalten" [level=3] [ref=f1e109]
+            - paragraph [ref=f1e110]: Wenn Reichweite und planbare Sichtbarkeit im Fokus stehen, setzen wir auf sauber aufbereitete Anzeigen mit Google-for-Jobs-Fokus.
+    - generic [ref=f1e116]:
+      - generic [ref=f1e117]:
+        - generic [ref=f1e118]:
+          - paragraph [ref=f1e119]: Talent Pool
+          - heading "Vorqualifizierte IT-Talente" [level=2] [ref=f1e120]
+          - paragraph [ref=f1e121]: Kleine Auswahl an IT-Talenten, die wir bereits persönlich gesprochen und qualifiziert haben.
+        - link "Alle Talente ansehen" [ref=f1e122] [cursor=pointer]:
+          - /url: /it-talente/#talentboard
+      - generic [ref=f1e123]:
+        - link "Product DTR-1345 Head of Product - Hamburg Product Leadership Leadership KI-Strategie" [ref=f1e125] [cursor=pointer]:
+          - /url: /it-talente/head-of-product-t-1345/
+          - generic [ref=f1e126]: Product
+          - paragraph [ref=f1e135]: DTR-1345
+          - heading "Head of Product - Hamburg" [level=3] [ref=f1e137]
+          - generic [ref=f1e138]:
+            - generic [ref=f1e139]:
+              - generic [ref=f1e140]: Product Leadership
+              - generic [ref=f1e141]: Leadership
+            - generic [ref=f1e142]: KI-Strategie
+        - link "Entwicklung DTR-1337 Software / AI Engineer Java Python React" [ref=f1e146] [cursor=pointer]:
+          - /url: /it-talente/software-ai-engineer-hamburg-bremen-t-1337/
+          - generic [ref=f1e147]: Entwicklung
+          - paragraph [ref=f1e156]: DTR-1337
+          - heading "Software / AI Engineer" [level=3] [ref=f1e158]
+          - generic [ref=f1e159]:
+            - generic [ref=f1e160]:
+              - generic [ref=f1e161]: Java
+              - generic [ref=f1e162]: Python
+            - generic [ref=f1e163]: React
+        - link "Entwicklung DTR-1162 Lead Frontend Engineer - Hamburg Vue.js Tailwind CSS Nuxt" [ref=f1e167] [cursor=pointer]:
+          - /url: /it-talente/lead-frontend-engineer-t-1162/
+          - generic [ref=f1e168]: Entwicklung
+          - paragraph [ref=f1e177]: DTR-1162
+          - heading "Lead Frontend Engineer - Hamburg" [level=3] [ref=f1e179]
+          - generic [ref=f1e180]:
+            - generic [ref=f1e181]:
+              - generic [ref=f1e182]: Vue.js
+              - generic [ref=f1e183]: Tailwind CSS
+            - generic [ref=f1e184]: Nuxt
+        - link "Infrastructure DTR-1116 Senior MDM / EntraID / ZeroTrust Consultant Mobile Device Management (MDM) Microsoft Intune Zero Trust" [ref=f1e188] [cursor=pointer]:
+          - /url: /it-talente/senior-mdm-entraid-intune-zerotrust-consultant-t1116/
+          - generic [ref=f1e189]: Infrastructure
+          - paragraph [ref=f1e198]: DTR-1116
+          - heading "Senior MDM / EntraID / ZeroTrust Consultant" [level=3] [ref=f1e200]
+          - generic [ref=f1e201]:
+            - generic [ref=f1e202]:
+              - generic [ref=f1e203]: Mobile Device Management (MDM)
+              - generic [ref=f1e204]: Microsoft Intune
+            - generic [ref=f1e205]: Zero Trust
+    - generic [ref=f1e210]:
+      - generic [ref=f1e211]:
+        - generic [ref=f1e213]:
+          - generic [ref=f1e214]: IT-Talente
+          - heading "IT-Karriereberatung" [level=2] [ref=f1e216]
+          - paragraph [ref=f1e217]: Ein Jobwechsel, ein neues Projekt oder der Schritt in die Selbstständigkeit sollte nicht aus dem Bauch heraus passieren. Wir helfen dir, Optionen einzuordnen, dein Profil zu schärfen und die nächsten Gespräche besser vorzubereiten.
+          - link "Als Talent registrieren" [ref=f1e219] [cursor=pointer]:
+            - /url: /job-finden/
+        - generic [ref=f1e223]:
+          - generic [ref=f1e224]:
+            - paragraph [ref=f1e225]: Karriere-Kompass
+            - generic [ref=f1e228]: Nächster Schritt
+          - generic [ref=f1e235]:
+            - generic [ref=f1e236]: 98%
+            - generic [ref=f1e241]:
+              - paragraph [ref=f1e242]: Profil geschärft
+              - paragraph [ref=f1e243]: Rollenfit sichtbar
+          - paragraph [ref=f1e250]: Marktfeedback
+      - generic [ref=f1e251]:
+        - link [ref=f1e252] [cursor=pointer]:
+          - /url: /job-finden/
+          - heading "Markt-Fit" [level=3] [ref=f1e258]
+          - paragraph [ref=f1e259]: Wir klären mit dir, welche Rollen, Teams und Rahmenbedingungen wirklich zu deinem nächsten Schritt passen - nicht nur welcher Titel gut klingt.
+          - generic [ref=f1e260]: Mehr erfahren
+        - link [ref=f1e263] [cursor=pointer]:
+          - /url: /freelancer-projekte-finden/
+          - heading "Freelance-Projekte realistisch prüfen" [level=3] [ref=f1e269]
+          - paragraph [ref=f1e270]: Für Freelancer ordnen wir Projektinhalt, Laufzeit, Auslastung, Stundensatz und Entscheidungswege ein, bevor du Zeit in Gespräche investierst.
+          - generic [ref=f1e271]: Mehr erfahren
+        - link [ref=f1e274] [cursor=pointer]:
+          - /url: /professionellen-lebenslauf-erstellen/
+          - heading "CV und Profil schärfen" [level=3] [ref=f1e279]
+          - paragraph [ref=f1e280]: Wir helfen dir, Erfahrung, Tech-Stack und Projektergebnisse so darzustellen, dass Recruiter und Hiring Manager schnell verstehen, wofür du stehst.
+          - generic [ref=f1e281]: Mehr erfahren
+    - generic [ref=f1e286]:
+      - generic [ref=f1e287]:
+        - generic [ref=f1e288]:
+          - paragraph [ref=f1e289]: Job Board
+          - heading "Aktuelle Positionen" [level=2] [ref=f1e290]
+          - paragraph [ref=f1e291]: Exklusive Karrieremöglichkeiten bei führenden Tech-Unternehmen und Hidden Champions aus Deutschland.
+        - link "Alle Jobs" [ref=f1e292] [cursor=pointer]:
+          - /url: /jobs/#jobboard
+      - generic [ref=f1e293]:
+        - link "(Senior) QA Engineer (m/w/d) Hamburg (Hybrid) 65k - 75k Festanstellung Testautomatisierung Selenium Java Details" [ref=f1e295] [cursor=pointer]:
+          - /url: /jobs/senior-qa-engineer-hamburg-vac-2399/
+          - generic [ref=f1e302]:
+            - heading "(Senior) QA Engineer (m/w/d)" [level=3] [ref=f1e303]
+            - generic [ref=f1e304]:
+              - generic [ref=f1e305]: Hamburg (Hybrid)
+              - generic [ref=f1e310]: 65k - 75k
+              - generic [ref=f1e315]: Festanstellung
+          - generic [ref=f1e317]:
+            - generic [ref=f1e318]:
+              - generic [ref=f1e319]: Testautomatisierung
+              - generic [ref=f1e320]: Selenium
+              - generic [ref=f1e321]: Java
+            - generic [ref=f1e322]: Details
+        - link "Senior Software Engineer [m/w/d] Castrop-Rauxel 75k - 85k Festanstellung PHP 8 Laravel Vue 3 Details" [ref=f1e325] [cursor=pointer]:
+          - /url: /jobs/senior-software-engineer-castrop-rauxel-vac-2398/
+          - generic [ref=f1e331]:
+            - heading "Senior Software Engineer [m/w/d]" [level=3] [ref=f1e332]
+            - generic [ref=f1e333]:
+              - generic [ref=f1e334]: Castrop-Rauxel
+              - generic [ref=f1e339]: 75k - 85k
+              - generic [ref=f1e344]: Festanstellung
+          - generic [ref=f1e346]:
+            - generic [ref=f1e347]:
+              - generic [ref=f1e348]: PHP 8
+              - generic [ref=f1e349]: Laravel
+              - generic [ref=f1e350]: Vue 3
+            - generic [ref=f1e351]: Details
+        - link "Java Backend Entwickler [m/w/d] - 100% Remote Remote 65k - 75k Festanstellung Java 25 Hibernate Postgres Details" [ref=f1e354] [cursor=pointer]:
+          - /url: /jobs/java-backend-entwickler-100-remote-job-vac-2397/
+          - generic [ref=f1e360]:
+            - heading "Java Backend Entwickler [m/w/d] - 100% Remote" [level=3] [ref=f1e361]
+            - generic [ref=f1e362]:
+              - generic [ref=f1e363]: Remote
+              - generic [ref=f1e368]: 65k - 75k
+              - generic [ref=f1e373]: Festanstellung
+          - generic [ref=f1e375]:
+            - generic [ref=f1e376]:
+              - generic [ref=f1e377]: Java 25
+              - generic [ref=f1e378]: Hibernate
+              - generic [ref=f1e379]: Postgres
+            - generic [ref=f1e380]: Details
+        - link "Product Manager / Product Lead – AI & CRM (gn) - 100% Remote Remote 75k - 90k Festanstellung Produktstrategie CRM KI Details" [ref=f1e383] [cursor=pointer]:
+          - /url: /jobs/product-manager-product-lead-ai-crm-gn-100-remote-vac-2396/
+          - generic [ref=f1e392]:
+            - heading "Product Manager / Product Lead – AI & CRM (gn) - 100% Remote" [level=3] [ref=f1e393]
+            - generic [ref=f1e394]:
+              - generic [ref=f1e395]: Remote
+              - generic [ref=f1e400]: 75k - 90k
+              - generic [ref=f1e405]: Festanstellung
+          - generic [ref=f1e407]:
+            - generic [ref=f1e408]:
+              - generic [ref=f1e409]: Produktstrategie
+              - generic [ref=f1e410]: CRM
+              - generic [ref=f1e411]: KI
+            - generic [ref=f1e412]: Details
+    - generic [ref=f1e419]:
+      - generic [ref=f1e420]: Kennenlernen
+      - heading "Du möchtest uns besser kennenlernen?" [level=2] [ref=f1e424]
+      - paragraph [ref=f1e425]: Stell uns einfach einen Termin ein und wir tauschen uns kurz bei einem virtuellen Kaffee aus!
+      - paragraph [ref=f1e426]: Unverbindlich und direkt, ganz ohne langen Vorlauf.
+      - link "Termin ausmachen" [ref=f1e428] [cursor=pointer]:
+        - /url: https://calendar.app.google/Ps9jU79ZTcypyKgW6
+    - generic [ref=f1e433]:
+      - generic [ref=f1e434]:
+        - generic [ref=f1e435]:
+          - paragraph [ref=f1e436]: Journal
+          - heading "Tech Insights" [level=2] [ref=f1e437]
+          - paragraph [ref=f1e438]: Analysen, Trends und Karrieretipps für die Tech-Branche.
+        - link "Alle Beiträge" [ref=f1e439] [cursor=pointer]:
+          - /url: /posts/
+      - generic [ref=f1e440]:
+        - generic [ref=f1e441]:
+          - link [ref=f1e442] [cursor=pointer]:
+            - /url: /posts/it-arbeitsmarkt-deutschland-september-2026/
+            - img "IT-Arbeitsmarkt Deutschland September 2026 - erste Entspannung bei IT-Arbeitslosen und IT-Arbeitssuchenden, IT-Jobs im Plus." [ref=f1e443]
+          - generic [ref=f1e444]:
+            - generic [ref=f1e445]:
+              - generic [ref=f1e446]: Reports
+              - generic [ref=f1e447]: 6 Minuten
+              - generic [ref=f1e448]: 30.09.2026
+            - link [ref=f1e449] [cursor=pointer]:
+              - /url: /posts/it-arbeitsmarkt-deutschland-september-2026/
+              - 'heading "IT-Arbeitsmarkt September 2026: Erste Entspannung bei Arbeitslosen & Arbeitssuchenden, IT-Jobs wachsen weiter" [level=3] [ref=f1e450]'
+            - paragraph [ref=f1e451]: Im September 2026 sinkt die Zahl der IT-Arbeitssuchenden (100.443) und der IT-Arbeitslosen (65.776) - die Serie neuer Höchststände reißt ab. Gleichzeitig liegen die neu registrierten IT-Jobs mit 12.261 im Jahresvergleich weiter klar im Plus (+2,7 %). Ein Funke Hoffnung, aber noch kein Trend.
+            - generic [ref=f1e452]:
+              - generic [ref=f1e453]: IT Arbeitsmarkt
+              - generic [ref=f1e454]: Q3/2026
+              - generic [ref=f1e455]: September 2026
+        - generic [ref=f1e456]:
+          - link [ref=f1e457] [cursor=pointer]:
+            - /url: /posts/it-arbeitsmarkt-deutschland-august-2026/
+            - img "IT-Arbeitsmarkt Deutschland August 2026 - neue Rekorde bei IT-Arbeitslosen und IT-Arbeitssuchenden, IT-Jobs erstmals über Vorjahresniveau." [ref=f1e458]
+          - generic [ref=f1e459]:
+            - generic [ref=f1e460]:
+              - generic [ref=f1e461]: Reports
+              - generic [ref=f1e462]: 6 Minuten
+              - generic [ref=f1e463]: 31.08.2026
+            - link [ref=f1e464] [cursor=pointer]:
+              - /url: /posts/it-arbeitsmarkt-deutschland-august-2026/
+              - 'heading "IT-Arbeitsmarkt August 2026: Neue Rekorde bei Arbeitslosen & Arbeitssuchenden, IT-Jobs erstmals über Vorjahresniveau" [level=3] [ref=f1e465]'
+            - paragraph [ref=f1e466]: "Im August 2026 klettern die IT-Arbeitslosen (67.457) und IT-Arbeitssuchenden (101.508) erneut auf neue Höchstwerte - bereits der 8. Rekordmonat in Folge bei den Arbeitssuchenden. Ein echter Funke Hoffnung: Die neu registrierten IT-Jobs liegen mit 12.374 erstmals in dieser Serie über dem Vorjahreswert (+0,4%), getragen vor allem von der IT-Infrastruktur."
+            - generic [ref=f1e467]:
+              - generic [ref=f1e468]: IT Arbeitsmarkt
+              - generic [ref=f1e469]: Q3/2026
+              - generic [ref=f1e470]: August 2026
+        - generic [ref=f1e471]:
+          - link [ref=f1e472] [cursor=pointer]:
+            - /url: /posts/it-arbeitsmarkt-deutschland-juli-2026/
+            - img "IT-Arbeitsmarkt Deutschland Juli 2026 - IT-Arbeitssuchende erstmals über 100.000 und Arbeitslose auf neuem Höchstwert." [ref=f1e473]
+          - generic [ref=f1e474]:
+            - generic [ref=f1e475]:
+              - generic [ref=f1e476]: Reports
+              - generic [ref=f1e477]: 6 Minuten
+              - generic [ref=f1e478]: 31.07.2026
+            - link [ref=f1e479] [cursor=pointer]:
+              - /url: /posts/it-arbeitsmarkt-deutschland-juli-2026/
+              - 'heading "IT-Arbeitsmarkt Juli 2026: Arbeitssuchende erstmals über 100.000, Arbeitslose auf neuem Höchststand" [level=3] [ref=f1e480]'
+            - paragraph [ref=f1e481]: "Der Juli 2026 bringt zwei ungünstige Höchststände: Die Zahl der IT-Arbeitssuchenden knackt mit 100.828 erstmals die 100.000er-Marke (siebter Monat in Folge mit einem neuen Höchststand), und die IT-Arbeitslosen durchbrechen mit 66.620 das monatelange Plateau um die 62.500er-Marke - auch saisonbedingt. Ein Funke Hoffnung bleibt: Die neuen IT-Jobs ziehen mit 12.244 leicht an und liegen im Jahresvergleich mit -0,3% fast wieder auf Vorjahresniveau."
+            - generic [ref=f1e482]:
+              - generic [ref=f1e483]: IT Arbeitsmarkt
+              - generic [ref=f1e484]: Q3/2026
+              - generic [ref=f1e485]: Juli 2026
+  - contentinfo [ref=f1e487]:
+    - generic [ref=f1e489]:
+      - generic [ref=f1e490]:
+        - generic [ref=f1e491]:
+          - generic [ref=f1e492]: Die Tech Recruiter
+          - paragraph [ref=f1e493]: IT Recruitment Excellence - Top IT Jobs & IT Experten!
+        - generic [ref=f1e494]:
+          - link "LinkedIn" [ref=f1e495] [cursor=pointer]:
+            - /url: https://linkedin.com/company/die-tech-recruiter-gmbh
+          - link "X" [ref=f1e498] [cursor=pointer]:
+            - /url: https://x.com/TechRecruiter24
+          - link "Facebook" [ref=f1e501] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61560687786513
+          - link "Instagram" [ref=f1e504] [cursor=pointer]:
+            - /url: https://instagram.com/dietechrecruiter24/?fbclid=IwAR1YjUKcdVYtGrBt-QHdZT98Rfz9oVaPEAJWZPXbo5BgDAe_swJcUejBPp8
+          - link "YouTube" [ref=f1e507] [cursor=pointer]:
+            - /url: https://youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA
+          - link "Spotify" [ref=f1e510] [cursor=pointer]:
+            - /url: https://open.spotify.com/intl-de/artist/7jtq9kLJGHYKnhMzrcET9d?si=rsSkoSI-T8-5a5Qw6uOF0A
+      - generic [ref=f1e513]:
+        - generic [ref=f1e514]:
+          - heading "Recruitment" [level=3] [ref=f1e515]
+          - list [ref=f1e516]:
+            - listitem [ref=f1e517]:
+              - link "IT Personalvermittlung" [ref=f1e518] [cursor=pointer]:
+                - /url: /it-personalvermittlung/
+            - listitem [ref=f1e519]:
+              - link "Freelancer" [ref=f1e520] [cursor=pointer]:
+                - /url: /it-freelancer-finden/
+            - listitem [ref=f1e521]:
+              - link "Interim Recruitment" [ref=f1e522] [cursor=pointer]:
+                - /url: /interim-recruiter/
+            - listitem [ref=f1e523]:
+              - link "IT-Headhunter" [ref=f1e524] [cursor=pointer]:
+                - /url: /it-headhunter/
+        - generic [ref=f1e525]:
+          - heading "Beratung" [level=3] [ref=f1e526]
+          - list [ref=f1e527]:
+            - listitem [ref=f1e528]:
+              - link "IT Personalberatung" [ref=f1e529] [cursor=pointer]:
+                - /url: /it-personalberatung/
+            - listitem [ref=f1e530]:
+              - link "IT Training für Recruiter" [ref=f1e531] [cursor=pointer]:
+                - /url: /it-recruitment-training/
+            - listitem [ref=f1e532]:
+              - link "IT-Stellenanzeige schalten" [ref=f1e533] [cursor=pointer]:
+                - /url: /it-stellenanzeige-schalten/
+        - generic [ref=f1e534]:
+          - heading "Talente" [level=3] [ref=f1e535]
+          - list [ref=f1e536]:
+            - listitem [ref=f1e537]:
+              - link "Profil Registrieren" [ref=f1e538] [cursor=pointer]:
+                - /url: /job-finden/
+            - listitem [ref=f1e539]:
+              - link "Freelancer registrieren" [ref=f1e540] [cursor=pointer]:
+                - /url: /freelancer-projekte-finden/
+            - listitem [ref=f1e541]:
+              - link "Lebenslauf optimieren" [ref=f1e542] [cursor=pointer]:
+                - /url: /professionellen-lebenslauf-erstellen/
+        - generic [ref=f1e543]:
+          - heading "Jobs" [level=3] [ref=f1e544]
+          - list [ref=f1e545]:
+            - listitem [ref=f1e546]:
+              - link "Job finden" [ref=f1e547] [cursor=pointer]:
+                - /url: /jobs/
+            - listitem [ref=f1e548]:
+              - link "Projekt finden" [ref=f1e549] [cursor=pointer]:
+                - /url: /jobs/
+        - generic [ref=f1e550]:
+          - heading "Die Tech Recruiter" [level=3] [ref=f1e551]
+          - list [ref=f1e552]:
+            - listitem [ref=f1e553]:
+              - link "Über uns" [ref=f1e554] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f1e555]:
+              - link "Blog" [ref=f1e556] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=f1e557]:
+              - link "Google for Jobs Validator" [ref=f1e558] [cursor=pointer]:
+                - /url: /google-for-jobs-validator/
+            - listitem [ref=f1e559]:
+              - link "Sichtbarkeit prüfen" [ref=f1e560] [cursor=pointer]:
+                - /url: /stellenanzeigen-sichtbarkeit-pruefen/
+        - generic [ref=f1e561]:
+          - heading "IT-Rollen" [level=3] [ref=f1e562]
+          - list [ref=f1e563]:
+            - listitem [ref=f1e564]:
+              - link "Softwareentwickler finden" [ref=f1e565] [cursor=pointer]:
+                - /url: /softwareentwickler-finden/
+            - listitem [ref=f1e566]:
+              - link "Frontend-Entwickler finden" [ref=f1e567] [cursor=pointer]:
+                - /url: /frontend-entwickler-finden/
+            - listitem [ref=f1e568]:
+              - link "Backend-Entwickler finden" [ref=f1e569] [cursor=pointer]:
+                - /url: /backend-entwickler-finden/
+            - listitem [ref=f1e570]:
+              - link "DevOps Engineer finden" [ref=f1e571] [cursor=pointer]:
+                - /url: /devops-engineer-finden/
+            - listitem [ref=f1e572]:
+              - link "IT-Security finden" [ref=f1e573] [cursor=pointer]:
+                - /url: /it-security-finden/
+            - listitem [ref=f1e574]:
+              - link "IT-Projektmanager finden" [ref=f1e575] [cursor=pointer]:
+                - /url: /it-projektmanager-finden/
+            - listitem [ref=f1e576]:
+              - link "Product Owner finden" [ref=f1e577] [cursor=pointer]:
+                - /url: /product-owner-finden/
+            - listitem [ref=f1e578]:
+              - link "KI-Entwickler finden" [ref=f1e579] [cursor=pointer]:
+                - /url: /ki-entwickler-finden/
+    - generic [ref=f1e582]:
+      - generic [ref=f1e583]: © 2026 Die Tech Recruiter GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f1e584]:
+        - link "Impressum" [ref=f1e585] [cursor=pointer]:
+          - /url: /impressum/
+        - link "Datenschutz" [ref=f1e586] [cursor=pointer]:
+          - /url: /datenschutz/
+        - link "AGB" [ref=f1e587] [cursor=pointer]:
+          - /url: /agb/
+  - iframe [aria-hidden] [ref=f1e588]

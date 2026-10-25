@@ -1,0 +1,22 @@
+[    1516ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at readConsents (https://www.deichmann-karriere.de/omnichannelcommerce/:266:75)
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:269:30
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:291:3
+[    1517ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at readConsents (https://www.deichmann-karriere.de/omnichannelcommerce/:304:75)
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:307:30
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:329:3
+[    1518ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:375:90
+    at https://www.deichmann-karriere.de/omnichannelcommerce/:491:7
+[    2020ms] TypeError: window.BorlabsCookie.unblockContentId is not a function
+    at <anonymous>:3:24
+    at Ke.embedHtmlElements (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:3:504)
+    at Ke.insertAndExecuteServiceCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:18304)
+    at Ke.unblockServiceOptInCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:14545)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13927
+    at Generator.next (<anonymous>)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:595
+    at new Promise (<anonymous>)
+    at b (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:415)
+    at HTMLDocument.<anonymous> (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13441)

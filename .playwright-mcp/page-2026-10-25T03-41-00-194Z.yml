@@ -1,0 +1,246 @@
+- generic [active] [ref=f100e1]:
+  - banner [ref=f100e2]:
+    - generic [ref=f100e3]:
+      - link [ref=f100e4] [cursor=pointer]:
+        - /url: /de/index.php
+        - img "AEET Energy Group GmbH" [ref=f100e5]
+      - list [ref=f100e6]:
+        - listitem [ref=f100e7]:
+          - link "KONTAKT" [ref=f100e8] [cursor=pointer]:
+            - /url: /de/page/kontakt.php
+        - listitem [ref=f100e9]:
+          - text: DE
+          - img "Deutsch" [ref=f100e10]
+        - listitem [ref=f100e11]:
+          - generic [ref=f100e12]:
+            - searchbox "SUCHE" [ref=f100e13]
+            - button "Submit" [ref=f100e14] [cursor=pointer]
+      - list [ref=f100e15]:
+        - listitem [ref=f100e16]:
+          - link [ref=f100e17] [cursor=pointer]:
+            - /url: https://de-de.facebook.com/pages/AEET-Energy-Group-GmbH/135349306549338
+            - img "Facebook" [ref=f100e18]
+        - listitem [ref=f100e19]:
+          - link [ref=f100e20] [cursor=pointer]:
+            - /url: https://plus.google.com/116643949318591145937
+            - img "Google+" [ref=f100e21]
+      - paragraph [ref=f100e23]: +49 (0) 5382 - 955 979 - 0
+  - navigation [ref=f100e25]:
+    - list [ref=f100e27]:
+      - listitem [ref=f100e28]:
+        - link [ref=f100e29] [cursor=pointer]:
+          - /url: /de/index.php
+          - img "HOME" [ref=f100e30]
+      - listitem [ref=f100e31]:
+        - link "PRODUKTE" [ref=f100e32] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f100e33]:
+        - link "PRIVATKUNDEN" [ref=f100e34] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f100e35]:
+        - link "FACHPARTNER" [ref=f100e36] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f100e37]:
+        - link "INVESTOREN" [ref=f100e38] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f100e39]:
+        - link "UNTERNEHMEN" [ref=f100e40] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=f100e41]:
+        - link "ONLINESHOP" [ref=f100e42] [cursor=pointer]:
+          - /url: http://www.pv-solarshop.net/
+  - figure [ref=f100e44]:
+    - img "Modern Solar" [ref=f100e45]
+    - heading "Solarstrom für den Betrieb selbst erzeugen" [level=4] [ref=f100e47]
+    - link [ref=f100e49] [cursor=pointer]:
+      - /url: /de/page/grossprojekte.php
+      - heading "Erfahren Sie mehr" [level=4] [ref=f100e50]
+      - text: ››
+  - article [ref=f100e52]:
+    - generic [ref=f100e53]:
+      - link "Produktübersicht Egal ob Solarmodul, Speicher oder Wechselrichter. Eine vollständige Übersicht unserer Produkte finden Sie hier!":
+        - /url: "#"
+        - generic [ref=f100e55] [cursor=pointer]:
+          - heading "Produktübersicht" [level=5] [ref=f100e56]
+          - generic [ref=f100e57]: Egal ob Solarmodul, Speicher oder Wechselrichter. Eine vollständige Übersicht unserer Produkte finden Sie hier!
+      - link "PV-Speicher Energiespeicher zum Nachrüsten oder direkt mit einer neuen Solaranlage. Wir beraten Sie gerne!":
+        - /url: /de/page/solarstromspeicher.php
+        - generic [ref=f100e59] [cursor=pointer]:
+          - heading "PV-Speicher" [level=5] [ref=f100e60]
+          - generic [ref=f100e61]: Energiespeicher zum Nachrüsten oder direkt mit einer neuen Solaranlage. Wir beraten Sie gerne!
+      - link "Fachpartner Sie sind auf der Suche nach einem zuverlässigen Geschäftspartner? Spechen Sie uns an!":
+        - /url: /de/page/partnerwerden.php
+        - generic [ref=f100e63] [cursor=pointer]:
+          - heading "Fachpartner" [level=5] [ref=f100e64]
+          - generic [ref=f100e65]: Sie sind auf der Suche nach einem zuverlässigen Geschäftspartner? Spechen Sie uns an!
+      - listbox [ref=f100e68]:
+        - generic [ref=f100e71] [cursor=pointer]:
+          - heading [level=5] [ref=f100e72]: Q-Cells
+          - text: Qualitätsmodule von Q-Cells
+          - link [ref=f100e73]:
+            - /url: /de/page/fabrikant/q-cells.php
+            - text: mehr erfahren
+        - generic [ref=f100e76] [cursor=pointer]:
+          - heading [level=5] [ref=f100e77]: Aleo Solar
+          - text: Hochleistung aus Deutschland!
+          - link [ref=f100e78]:
+            - /url: /de/page/fabrikant/aleosolar.php
+            - text: mehr erfahren
+        - generic [ref=f100e81] [cursor=pointer]:
+          - heading [level=5] [ref=f100e82]: First Solar
+          - text: Dünnschicht
+          - link [ref=f100e83]:
+            - /url: /de/page/fabrikant/firstsolar.php
+            - text: mehr erfahren
+        - option [ref=f100e84] [cursor=pointer]:
+          - img "Canadian Solar Modul" [ref=f100e85]
+          - generic [ref=f100e86]:
+            - heading "Canadian Solar" [level=5] [ref=f100e87]
+            - text: CS6K 280-320 Watt
+            - link "mehr erfahren" [ref=f100e88]:
+              - /url: /de/page/fabrikant/canadian.php
+        - option [ref=f100e89] [cursor=pointer]:
+          - img "AEET Modul" [ref=f100e90]
+          - generic [ref=f100e91]:
+            - heading "AEET" [level=5] [ref=f100e92]
+            - text: 72-Zeller mono
+            - link "mehr erfahren" [ref=f100e93]:
+              - /url: /de/page/fabrikant/aeet.php
+        - option [ref=f100e94] [cursor=pointer]:
+          - img "Q-cells" [ref=f100e95]
+          - generic [ref=f100e96]:
+            - heading "Q-Cells" [level=5] [ref=f100e97]
+            - text: Qualitätsmodule von Q-Cells
+            - link "mehr erfahren" [ref=f100e98]:
+              - /url: /de/page/fabrikant/q-cells.php
+        - option [aria-hidden] [ref=f100e99] [cursor=pointer]:
+          - generic [ref=f100e101]:
+            - heading [level=5] [ref=f100e102]: Aleo Solar
+            - text: Hochleistung aus Deutschland!
+            - link [ref=f100e103]:
+              - /url: /de/page/fabrikant/aleosolar.php
+              - text: mehr erfahren
+        - option [aria-hidden] [ref=f100e104] [cursor=pointer]:
+          - generic [ref=f100e106]:
+            - heading [level=5] [ref=f100e107]: First Solar
+            - text: Dünnschicht
+            - link [ref=f100e108]:
+              - /url: /de/page/fabrikant/firstsolar.php
+              - text: mehr erfahren
+        - generic [ref=f100e111] [cursor=pointer]:
+          - heading [level=5] [ref=f100e112]: Canadian Solar
+          - text: CS6K 280-320 Watt
+          - link [ref=f100e113]:
+            - /url: /de/page/fabrikant/canadian.php
+            - text: mehr erfahren
+        - generic [ref=f100e116] [cursor=pointer]:
+          - heading [level=5] [ref=f100e117]: AEET
+          - text: 72-Zeller mono
+          - link [ref=f100e118]:
+            - /url: /de/page/fabrikant/aeet.php
+            - text: mehr erfahren
+        - generic [ref=f100e121] [cursor=pointer]:
+          - heading [level=5] [ref=f100e122]: Q-Cells
+          - text: Qualitätsmodule von Q-Cells
+          - link [ref=f100e123]:
+            - /url: /de/page/fabrikant/q-cells.php
+            - text: mehr erfahren
+      - paragraph [ref=f100e124]
+      - heading "Maßgeschneiderte Lösungen für Ihre PV-Anlage von der AEET Energy Group GmbH" [level=2] [ref=f100e125]
+      - paragraph [ref=f100e126]: Die AEET Energy Group GmbH ist seit vielen Jahren im Bereich der Entwicklung und Installation der Photovoltaiktechnik tätig. Wir sind nicht nur in Deutschland, sondern weit über die Landesgrenzen hinaus bekannt. Das Besondere an der AEET Energy Group GmbH ist, dass Sie bei uns alles aus einer Hand erhalten. Wir beraten Sie zu den bestehenden Möglichkeiten für die Installation von Photovoltaikanlagen. Außerdem planen und installieren wir Ihre neue Anlage und wir führen die fortlaufenden Wartungs- und Reparaturarbeiten schnell, professionell und zuverlässig durch. Selbstverständlich können Sie uns für die Installation einer Anlage im Privathaushalt ebenso engagieren, wie für die Planung von Solarparks oder PV-Anlagen, die im gewerblichen Bereich zum Einsatz kommen sollen.
+      - paragraph [ref=f100e129]: Wir beraten Sie entsprechend Ihres Bedarfs und entwickeln ein für Sie maßgeschneidertes Konzept.
+    - generic [ref=f100e131]:
+      - heading "Nutzen Sie die Sonnenenergie" [level=3] [ref=f100e132]
+      - paragraph [ref=f100e133]: Die ersten Photovoltaikanlagen, die mit Hilfe von Sonnenstrahlung Energie erzeugen konnten, wurden bereits vor vielen Jahren entwickelt und die Technik schreitet unaufhaltsam fort. Doch diese PV-Technik hat den Bereich der Energieerzeugung revolutioniert. Wenn man bedenkt, dass die sogenannten fossilen Energien wie beispielsweise Erdöl oder Gas, die nach wie vor zur Energiegewinnung genutzt werden, in absehbarer Zeit erschöpft sind, erahnt man, wie wichtig die erneuerbare Energie durch die Sonnenstrahlung wirklich ist, denn sie ist unerschöpflich. Ein weiterer positiver Aspekt der Umrüstung auf eine moderne Photovoltaikanlage besteht für Sie in den sinkenden Energiekosten, die erheblich sein werden. Das Anliegen der AEET Energy Group GmbH ist es, Sie auf diese moderne, kostengünstig und umweltschonende Art der Energieerzeugung aufmerksam zu machen. Dabei vertrauen uns nicht nur unsere Kunden und Partner in Deutschland, sondern auch über die Landesgrenzen hinaus.
+      - heading "Höchste Qualität von der AEET Energy Group GmbH" [level=3] [ref=f100e134]
+      - paragraph [ref=f100e135]: Unser Anspruch besteht darin, Ihnen stets die beste Qualität anzubieten. Dies bezieht sich auf die Beratung und Planung ebenso, wie auf die modernen und technisch ausgereiften Solaranlagen, die wir installieren. Wir verwenden Solarmodule von höchster Qualität und legen obendrein einen großen Wert auf ein stimmiges Konzept. Wir wählen für Sie die PV-Anlage aus, die am besten zu Ihnen und Ihrem Bedarf passt. In die Planung werden daher Fakten wie die Dachneigung oder die Tragfähigkeit des Daches mit einbezogen. Auch den gewünschten Wirkungsgrad beachten wir selbstverständlich.Bei der Auswahl der Solarmodule achten wir zudem auf eine hohe Effizienz bei einer gleichzeitig langen Lebensdauer der Module. Um dauerhaft die beste Qualität anbieten zu können, prüfen und kontrollieren wir intern sämtliche von uns verarbeiteten Teile regelmäßig. Außerdem werden alle von uns verwendeten Komponenten hervorragend aufeinander abgestimmt, sodass diese sich bestmöglich ergänzen. Dies wiederum sorgt für die größtmögliche Effizienz Ihrer neuen PV-Anlage. Mit unseren Solaranlagen sparen Sie Energiekosten von mehr als 70 Prozent ein. Gleichzeitig füllen Sie den Stromspeicher, um diesen selbst zu nutzen. Übersteigt die Stromerzeugung Ihren Eigenbedarf, so wird der überproduzierte Strom in öffentliche Netze eingespeist. Lassen Sie sich gern beraten. Wir prüfen, welche Solaranlage für Sie infrage kommt und werden diese nach Ihren individuellen Ansprüchen planen und installieren, denn die AEET Energy Group GmbH ist seit vielen Jahren Ihr kompetenter Partner in Sachen Photovoltaik.
+  - contentinfo [ref=f100e136]:
+    - generic [ref=f100e137]:
+      - list [ref=f100e138]:
+        - generic [ref=f100e140]:
+          - listitem [ref=f100e141]: Newsletter
+          - listitem [ref=f100e142]:
+            - text: "Ihre E-Mail-Adresse:"
+            - textbox [ref=f100e143]
+            - text: Sie möchten sich für unseren Newsletter
+            - radio [checked] [ref=f100e144]
+            - text: anmelden
+            - radio [ref=f100e145]
+            - text: abmelden
+            - generic [ref=f100e146]:
+              - checkbox "Datenschutz" [ref=f100e147]
+              - text: Hiermit akzeptiere ich die
+              - link "Datenschutzerklärung" [ref=f100e148] [cursor=pointer]:
+                - /url: /de/page/datenschutz.php
+            - button "Abschicken" [ref=f100e149]
+      - list [ref=f100e150]:
+        - listitem [ref=f100e151]: Produkte
+        - listitem [ref=f100e152]:
+          - link "Solarmodule" [ref=f100e153] [cursor=pointer]:
+            - /url: /de/page/solarmodule.php
+        - listitem [ref=f100e154]:
+          - link "Modul Fertigung" [ref=f100e155] [cursor=pointer]:
+            - /url: /de/page/modulfertigung.php
+        - listitem [ref=f100e156]:
+          - link "Gestelltechnik" [ref=f100e157] [cursor=pointer]:
+            - /url: /de/page/gestelltechnik.php
+        - listitem [ref=f100e158]:
+          - link "Überwachungssysteme" [ref=f100e159] [cursor=pointer]:
+            - /url: /de/page/ueberwachungssysteme.php
+        - listitem [ref=f100e160]:
+          - link "Solarstromspeicher" [ref=f100e161] [cursor=pointer]:
+            - /url: /de/page/solarstromspeicher.php
+        - listitem [ref=f100e162]:
+          - link "Elysator Webshop" [ref=f100e163] [cursor=pointer]:
+            - /url: https://pv-solarshop.net
+      - list [ref=f100e164]:
+        - listitem [ref=f100e165]: Privatkunden
+        - listitem [ref=f100e166]:
+          - link "Photovoltaikanlage" [ref=f100e167] [cursor=pointer]:
+            - /url: /de/page/photovoltaikanlage.php
+        - listitem [ref=f100e168]:
+          - link "Solarrechner" [ref=f100e169] [cursor=pointer]:
+            - /url: /de/page/solarrechner.php
+        - listitem [ref=f100e170]:
+          - link "Beratung" [ref=f100e171] [cursor=pointer]:
+            - /url: /de/page/beratung.php
+        - listitem [ref=f100e172]:
+          - link "Für Versicherungen" [ref=f100e173] [cursor=pointer]:
+            - /url: /de/page/versicherung.php
+        - listitem [ref=f100e174]:
+          - link "AEET Service Webseite" [ref=f100e175] [cursor=pointer]:
+            - /url: http://www.aeet-service.com
+      - list [ref=f100e176]:
+        - listitem [ref=f100e177]: Fachpartner
+        - listitem [ref=f100e178]:
+          - link "Partnersuche" [ref=f100e179] [cursor=pointer]:
+            - /url: /de/page/partnersuche.php
+        - listitem [ref=f100e180]:
+          - link "Informationen" [ref=f100e181] [cursor=pointer]:
+            - /url: /de/page/informationen.php
+        - listitem [ref=f100e182]:
+          - link "Partner werden" [ref=f100e183] [cursor=pointer]:
+            - /url: /de/page/partnerwerden.php
+        - listitem [ref=f100e184]:
+          - link "Für Versicherungen" [ref=f100e185] [cursor=pointer]:
+            - /url: /de/page/versicherung2.php
+        - listitem [ref=f100e186]:
+          - link "Fragen und Antworten" [ref=f100e187] [cursor=pointer]:
+            - /url: /de/page/faq2.php
+      - list [ref=f100e188]:
+        - listitem [ref=f100e189]: Investoren
+        - listitem [ref=f100e190]:
+          - link "Großprojekte" [ref=f100e191] [cursor=pointer]:
+            - /url: /de/page/grossprojekte.php
+        - listitem [ref=f100e192]:
+          - link "Solarfonds" [ref=f100e193] [cursor=pointer]:
+            - /url: /de/page/solarfonds.php
+        - listitem [ref=f100e194]:
+          - link "Inselsysteme" [ref=f100e195] [cursor=pointer]:
+            - /url: /de/page/inselsysteme.php
+        - listitem [ref=f100e196]:
+          - link "Für Versicherungen" [ref=f100e197] [cursor=pointer]:
+            - /url: /de/page/versicherung3.php
+        - listitem [ref=f100e198]:
+          - link "Fragen und Antworten" [ref=f100e199] [cursor=pointer]:
+            - /url: /de/page/faq3.php

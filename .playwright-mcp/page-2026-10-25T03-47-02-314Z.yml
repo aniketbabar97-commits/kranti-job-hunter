@@ -1,0 +1,248 @@
+- generic [ref=f20e1]:
+  - generic [ref=f20e2]:
+    - banner [ref=f20e3]:
+      - generic [ref=f20e4]:
+        - link [ref=f20e7] [cursor=pointer]:
+          - /url: https://jobs.check24.de/de/
+        - navigation [ref=f20e24]:
+          - list [ref=f20e25]:
+            - listitem [ref=f20e26]:
+              - link "Warum CHECK24?" [ref=f20e27] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/warum-check24/
+            - listitem [ref=f20e28]:
+              - link "Teams" [ref=f20e29] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/teams/
+            - listitem [ref=f20e30]:
+              - link "Standorte" [ref=f20e31] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/standorte/
+            - listitem [ref=f20e32]:
+              - link "Benefits" [ref=f20e33] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/vorteile/
+            - listitem [ref=f20e34]:
+              - link "Jobs" [ref=f20e35] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/jobs/
+            - listitem [ref=f20e36]:
+              - link "Young Talents" [ref=f20e37] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/studenten/
+            - listitem [ref=f20e38]:
+              - link "Blog" [ref=f20e39] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/blog/
+            - listitem [ref=f20e40]:
+              - link "Events" [ref=f20e41] [cursor=pointer]:
+                - /url: https://jobs.check24.de/de/veranstaltungen/
+        - list [ref=f20e43]:
+          - listitem [ref=f20e44]:
+            - link "de" [ref=f20e45] [cursor=pointer]:
+              - /url: https://jobs.check24.de/de/
+          - listitem [ref=f20e46]:
+            - link "en" [ref=f20e47] [cursor=pointer]:
+              - /url: "#"
+    - generic [ref=f20e49]:
+      - generic [ref=f20e50]:
+        - generic [ref=f20e52]:
+          - heading "Teamleiter (m/w/d) Produktmanagement, E-Commerce" [level=1] [ref=f20e53]
+          - generic [ref=f20e54]:
+            - generic [ref=f20e55]:
+              - generic [ref=f20e56]: 
+              - text: Produkt- & Projektmanagement
+            - generic [ref=f20e57]:
+              - generic [ref=f20e58]: 
+              - text: Frankfurt
+          - generic [ref=f20e59]: Bitte fülle die mit * markierten Felder aus. Vielen Dank!
+          - generic [ref=f20e60]: Please note that the fields marked with * are mandatory. Thank you.
+          - paragraph
+          - generic [ref=f20e62]:
+            - group "Profil / Profile" [ref=f20e64]:
+              - generic [ref=f20e67]:
+                - generic [ref=f20e68]:
+                  - textbox "Vorname*" [ref=f20e71]: Kranti
+                  - textbox "Nachname*" [ref=f20e74]: Chavan
+                - textbox "Straße*" [ref=f20e78]: Blücherstraße 6
+                - generic [ref=f20e79]:
+                  - textbox "PLZ*" [ref=f20e82]: "76185"
+                  - textbox "Ort*" [ref=f20e85]: Karlsruhe
+                - generic [ref=f20e86]:
+                  - textbox "E-Mail*" [ref=f20e89]: krantichavan198@gmail.com
+                  - combobox "Land" [ref=f20e92] [cursor=pointer]:
+                    - generic [ref=f20e93]: 
+                    - generic [ref=f20e94]: Deutschland / Germany
+                - generic [ref=f20e95]:
+                  - generic [ref=f20e98]:
+                    - button "Ländervorwahl auswählen" [ref=f20e100] [cursor=pointer]:
+                      - img "DE" [ref=f20e101]
+                      - generic [ref=f20e102]: "+49"
+                      - generic [ref=f20e103]:
+                        - generic [ref=f20e104]: 
+                        - text: 
+                    - textbox "Mobil" [ref=f20e105]: "15750174177"
+                  - textbox "Geburtsdatum (TT.MM.JJJJ)" [ref=f20e108]:
+                    - /placeholder: Geburtsdatum (TT.MM.JJJJ)
+                    - text: 14.10.1997
+            - group "Schule, Ausbildung, Beruf / School, training, profession" [ref=f20e110]:
+              - generic [ref=f20e114]:
+                - combobox "Schul-/Ausbildungsabschluss" [ref=f20e117] [cursor=pointer]:
+                  - generic [ref=f20e118]: 
+                  - generic [ref=f20e119]: Bachelor
+                - combobox "Höchster Bildungsabschluss" [ref=f20e122] [cursor=pointer]:
+                  - generic [ref=f20e123]: 
+                  - generic [ref=f20e124]: Bachelor
+            - group "Sonstiges / Misc" [ref=f20e126]:
+              - generic [ref=f20e129]:
+                - generic [ref=f20e130]:
+                  - combobox "Wie bist Du auf CHECK24 aufmerksam geworden?" [ref=f20e133] [cursor=pointer]:
+                    - generic [ref=f20e134]: 
+                    - generic [ref=f20e135]: LinkedIn - Xing - Twitter
+                  - textbox "Von CHECK24-Mitarbeiter empfohlen." [ref=f20e138]
+                - button " Deutsch - B1 (Mittelstufe), Englisch - C2, Sonstige Sprachen" [ref=f20e142] [cursor=pointer]:
+                  - generic [ref=f20e143]: 
+                  - generic [ref=f20e144]: Deutsch - B1 (Mittelstufe), Englisch - C2, Sonstige Sprachen
+                - generic [ref=f20e145]:
+                  - textbox "Frühester Eintritt (TT.MM.JJJJ)*" [ref=f20e148]:
+                    - /placeholder: Frühester Eintritt (TT.MM.JJJJ)*
+                    - text: 16.12.2026
+                  - combobox "Kündigungsfrist" [ref=f20e151] [cursor=pointer]:
+                    - generic [ref=f20e152]: 
+                    - generic [ref=f20e153]: Sonstiges / Nach Rücksprache
+                - generic [ref=f20e154]:
+                  - textbox "Gesamtvergütung pro Jahr (brutto) von (EUR)*" [ref=f20e157]: "60000"
+                  - textbox "Gesamtvergütung pro Jahr (brutto) bis (EUR)*" [ref=f20e160]: "65000"
+                - button " Ja" [ref=f20e164] [cursor=pointer]:
+                  - generic [ref=f20e165]: 
+                  - generic [ref=f20e166]: Ja
+            - group "Anlagen" [ref=f20e168]:
+              - generic [ref=f20e171]:
+                - paragraph [ref=f20e173]: Bitte fügen Sie Ihrer Bewerbung Anlagen bei. Die markierten Felder sind Pflichtfelder.
+                - generic [ref=f20e174]:
+                  - generic [ref=f20e175]:
+                    - generic [ref=f20e176]: Lebenslauf oder komplette Unterlagen *
+                    - generic [ref=f20e177]:
+                      - text:  
+                      - generic [ref=f20e331]:
+                        - link "" [ref=f20e332] [cursor=pointer]:
+                          - /url: javascript:del.delatt('lebenslauf','14327','0');void(0);
+                        - link "Kranti_Chavan_Lebe...ce.pdf" [ref=f20e335] [cursor=pointer]:
+                          - /url: https://career.check24.de/Anlage-ansehen-dsa0.php?type=lebenslauf&joboffer_id=14327&application_id=0&atthash=148625733b7de5b38dd0fcc0d935e901
+                  - generic [ref=f20e189]:
+                    - generic [ref=f20e190]: Foto
+                    - generic [ref=f20e191]:
+                      - generic "Foto hochladen" [ref=f20e193]:
+                        - generic [ref=f20e194]:
+                          - button "Foto" [ref=f20e195] [cursor=pointer]
+                          - generic [ref=f20e196]:
+                            - generic [ref=f20e197]: 
+                            - generic [ref=f20e199]:
+                              - generic [ref=f20e200]: Datei hochladen
+                              - generic "Bitte lade hier Dein Foto hoch (nice to have)" [ref=f20e202]: 
+                      - text: 
+                - generic [ref=f20e203]:
+                  - generic [ref=f20e204]:
+                    - generic [ref=f20e205]: Anschreiben
+                    - generic [ref=f20e206]:
+                      - generic "Anschreiben hochladen" [ref=f20e208]:
+                        - generic [ref=f20e209]:
+                          - button "Anschreiben" [ref=f20e210] [cursor=pointer]
+                          - generic [ref=f20e211]:
+                            - generic [ref=f20e212]: 
+                            - generic [ref=f20e214]:
+                              - generic [ref=f20e215]: Datei hochladen
+                              - generic "Bitte lade hier Dein Anschreiben hoch (nice to have)" [ref=f20e217]: 
+                      - text: 
+                  - generic [ref=f20e218]:
+                    - generic [ref=f20e219]: Schulzeugnisse
+                    - generic [ref=f20e220]:
+                      - generic "Schulzeugnisse hochladen" [ref=f20e222]:
+                        - generic [ref=f20e223]:
+                          - button "Schulzeugnisse" [ref=f20e224] [cursor=pointer]
+                          - generic [ref=f20e225]:
+                            - generic [ref=f20e226]: 
+                            - generic [ref=f20e228]:
+                              - generic [ref=f20e229]: Datei hochladen
+                              - generic "Bitte lade hier alle Deine Schulzeugnisse hoch" [ref=f20e231]: 
+                      - text: 
+                - generic [ref=f20e232]:
+                  - generic [ref=f20e233]:
+                    - generic [ref=f20e234]: Arbeitgeberzeugnisse
+                    - generic [ref=f20e235]:
+                      - generic "Arbeitgeberzeugnisse hochladen" [ref=f20e237]:
+                        - generic [ref=f20e238]:
+                          - button "Arbeitgeberzeugnisse" [ref=f20e239] [cursor=pointer]
+                          - generic [ref=f20e240]:
+                            - generic [ref=f20e241]: 
+                            - generic [ref=f20e243]:
+                              - generic [ref=f20e244]: Datei hochladen
+                              - generic "Bitte lade hier alle Deine Arbeitszeugnisse als ein Gesamtdokument im PDF-Format hoch." [ref=f20e246]: 
+                      - text: 
+                  - generic [ref=f20e247]:
+                    - generic [ref=f20e248]: Weitere Anlagen
+                    - generic [ref=f20e249]:
+                      - generic "Weitere Anlagen hochladen" [ref=f20e251]:
+                        - generic [ref=f20e252]:
+                          - button "Weitere Anlagen" [ref=f20e253] [cursor=pointer]
+                          - generic [ref=f20e254]:
+                            - generic [ref=f20e255]: 
+                            - generic [ref=f20e257]: Datei hochladen
+                      - text: 
+          - generic [ref=f20e261] [cursor=pointer]:
+            - generic [ref=f20e262]: 
+            - text: Hiermit beauftrage ich die CHECK24 Personal mit der kostenlosen Betreuung im Rahmen meiner Bewerbung bei CHECK24 und akzeptiere den
+            - link "Vermittlungsvertrag" [ref=f20e263]:
+              - /url: https://jobs.check24.de/de/vermittlungsvertrag/
+            - text: sowie die
+            - link "hier" [ref=f20e264]:
+              - /url: https://jobs.check24.de/de/check24-vergleichsportal-gmbh-datenschutz/
+            - text: beschriebene Datenschutzerklärung.
+        - link "Bewerbung absenden" [ref=f20e267] [cursor=pointer]:
+          - /url: "#"
+        - generic [aria-hidden] [ref=f20e268]:
+          - text: Website
+          - textbox [ref=f20e269]
+      - link [ref=f20e272] [cursor=pointer]:
+        - /url: https://www.rexx-systems.com
+        - img "Rexx Systems - software for success" [ref=f20e273]
+    - contentinfo [ref=f20e275]:
+      - generic [ref=f20e277]:
+        - heading "Folge uns auf" [level=3] [ref=f20e278]
+        - generic [ref=f20e279]:
+          - link [ref=f20e280] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/check24-vergleichsportal-gmbh/posts/?feedView=all&viewAsMember=true
+            - img "LinkedIn" [ref=f20e281]
+          - link [ref=f20e282] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/check24
+            - img "Xing" [ref=f20e283]
+          - link [ref=f20e284] [cursor=pointer]:
+            - /url: https://x.com/check24de
+            - img "X" [ref=f20e285]
+          - link [ref=f20e286] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/check24
+            - img "Youtube" [ref=f20e287]
+          - link [ref=f20e288] [cursor=pointer]:
+            - /url: https://www.facebook.com/CHECK24de
+            - img "Facebook" [ref=f20e289]
+          - link [ref=f20e290] [cursor=pointer]:
+            - /url: https://www.instagram.com/check24.de/
+            - img "Instagram" [ref=f20e291]
+      - generic [ref=f20e292]: Aus Gründen der besseren Lesbarkeit wird auf die gleichzeitige Verwendung geschlechtsspezifischer Sprachformen verzichtet. Sämtliche Personenbezeichnungen gelten gleichermaßen für jegliche Geschlechter.
+      - generic [ref=f20e296]:
+        - img "CHECK24 Logo" [ref=f20e299]
+        - generic [ref=f20e301]:
+          - link "Kontakt" [ref=f20e302] [cursor=pointer]:
+            - /url: https://jobs.check24.de/de/kontakt/
+          - link "Über uns" [ref=f20e303] [cursor=pointer]:
+            - /url: https://www.check24.de/unternehmen/
+          - link "Impressum" [ref=f20e304] [cursor=pointer]:
+            - /url: https://www.check24.de/unternehmen/impressum/
+          - link "Datenschutz" [ref=f20e305] [cursor=pointer]:
+            - /url: https://www.check24.de/popup/datenschutz/
+  - log [ref=f20e306]
+  - log [ref=f20e307]
+  - log [ref=f20e308]
+  - log [ref=f20e309]
+  - log [ref=f20e310]
+  - dialog "Hinweis" [ref=f20e337]:
+    - generic [ref=f20e341]:
+      - text: "Für eine präzisere automatische Befüllung der Formularfelder können Inhalte durch eine Künstliche Intelligenz (KI) ausgewertet werden. Dazu wird das hochgeladene Dokument verarbeitet und an die interne KI übermittelt. Bei Ablehnung wird keine KI eingesetzt. Die Entscheidung, ohne KI fortzufahren, hat keinerlei Auswirkungen auf den weiteren Bewerbungsprozess. Datenschutzhinweise:"
+      - link "Datenschutz" [active] [ref=f20e342] [cursor=pointer]:
+        - /url: datenschutz.html
+    - generic [ref=f20e344]:
+      - button "Akzeptieren" [ref=f20e345] [cursor=pointer]
+      - button "Ablehnen" [ref=f20e346] [cursor=pointer]

@@ -1,0 +1,223 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "Back to homepage" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e11]:
+          - link "mehr erfahren" [ref=e13] [cursor=pointer]:
+            - /url: /kontakt
+            - generic [ref=e14]: Kontakt
+          - button "Toggle navigation menu" [ref=e15] [cursor=pointer]
+    - generic [ref=e18]:
+      - img "Banner-Background" [ref=e19]
+      - generic [ref=e21]:
+        - paragraph [ref=e22]:
+          - generic [ref=e23]: Arbeite in einem großartigen Team
+        - heading "PIM-Consultant (m/w/d)" [level=1] [ref=e24]
+    - generic [ref=e27]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]: Ergänze unser Team
+        - heading "PIM-Consultant (m/w/d)" [level=2] [ref=e32]
+      - paragraph [ref=e37]: "Wir konzipieren und realisieren neue E-Commerce-Projekte oder optimieren ihre bereits bestehende Lösungen - egal ob Onlineshop, Marktplatz, PIM (Product Information Management) Web oder App-Entwicklung. Wir wollen digitale Zukunft gestalten – und sie beschleunigen mit dir als: PIM-Consultant (m/w/d) Du möchtest in einem abwechslungsreichen, kreativen Umfeld mit persönlichen Freiräumen arbeiten? Und du scheust weder die Verantwortung noch die Herausforderungen, die deine Projekte mit sich bringen? Dann starte bei uns durch! Als PIM-Consultant (w/m/d) hilfst du unseren Kund:Innen, ihre Produktdaten optimal zu nutzen. Du berätst sie bei der Einführung und Verbesserung von PIM-Systemen und unterstützt sie bei der Umsetzung ihrer digitalen Projekte."
+    - generic [ref=e40]:
+      - img "Mitarbeiterin am Macbook" [ref=e42]
+      - generic [ref=e44]:
+        - heading "Deine Aufgaben in Kurzform" [level=2] [ref=e45]
+        - list [ref=e48]:
+          - listitem [ref=e51]: Du analysierst die Anforderungen unserer Kund:Innen und entwickelst maßgeschneiderte Lösungen für ihr Produktdatenmanagement.
+          - listitem [ref=e54]: Du gestaltest Datenmodelle, Rechte- und Rollenkonzepte sowie Produktdatenprozesse und integrierst diese in die Systeme unserer Kunden.
+          - listitem [ref=e57]: Du bist der Ansprechpartner für unsere Kund:Innen und dein Team – von der Planung bis zur Umsetzung und Erfolgsmessung.
+          - listitem [ref=e60]: Du sorgst für Transparenz im Projektverlauf und hilfst unseren Kund:Innen, Hindernisse selbstständig zu überwinden.
+    - generic [ref=e62]:
+      - heading "Damit begeisterst du uns" [level=2] [ref=e65]
+      - list [ref=e70]:
+        - listitem [ref=e73]: Kommunikationsstärke und Freude an einer projektübergreifenden Zusammenarbeit
+        - listitem [ref=e76]: Du bist ein echtes Beratertalent und arbeitest gerne mit Kundenfokus
+        - listitem [ref=e79]: Abgeschlossenes Studium im Bereich Wirtschaftsinformatik, BWL oder eine vergleichbare Qualifikation
+        - listitem [ref=e82]: Mindestens 2-3 Jahre Erfahrung im Bereich Product Information Management (PIM)
+        - listitem [ref=e85]: Analytisches Denkvermögen und eine strukturierte Arbeitsweise
+        - listitem [ref=e88]: Agiles Mindset, lösungsorientierte Denkweise, Freude an der Arbeit in einem agilen Team sowie Hands-on-Mentalität
+        - listitem [ref=e91]: Sehr gute Deutsch- und Englischkenntnisse
+    - generic [ref=e94]:
+      - img "Küche bei piazza blu" [ref=e96]
+      - generic [ref=e98]:
+        - heading "Das erwartet dich bei uns" [level=2] [ref=e99]
+        - list [ref=e102]:
+          - listitem [ref=e105]: Die Möglichkeit mobil zu Arbeiten und ein MacBook Pro der neuesten Generation
+          - listitem [ref=e108]: Unbefristete Verträge mit einem attraktiven und leistungsorientierten Gehaltspaket
+          - listitem [ref=e111]: Ein modernes, agiles Umfeld, in dem Neues ausprobieren, innovativ denken und nicht stillzustehen die Devise ist
+          - listitem [ref=e114]: Förderung deiner Entwicklung mit Fortbildungen Regelmäßigen Feedbackgespräche
+          - generic [ref=e115]:
+            - img "Team das zusammenhält" [ref=e264]
+            - listitem [ref=e117]: Eine wertschätzende Fehlerkultur und ein kollegiales Miteinander, das wir durch Teamaktivitäten wie beispielsweise unser Sommerfest oder unsere Weihnachtsfeier stärken
+          - listitem [ref=e120]: "Und last, but not least: Frisches Obst, 30 Tage Urlaub, Zuschuss zum Mittagessen, ein kostenloses Getränkeangebot, Jobradleasing oder ein Jobticket im VRS-Gebiet, Parkplätze…"
+    - generic [ref=e122]:
+      - heading "Und was ist dir wichtig?" [level=2] [ref=e125]
+      - paragraph [ref=e130]:
+        - text: Erzähl uns davon, wir freuen uns dich kennenzulernen. Sende uns deine Unterlagen, gerne mit Angabe des frühestmöglichen Eintrittstermins und Gehaltsvorstellung, an
+        - link "bewerbung@piazzablu.com" [ref=e131] [cursor=pointer]:
+          - /url: mailto:bewerbung@piazzablu.com
+        - text: "Alle Infos zum Thema Datenschutz und dem Umgang mit deinen Daten findest du hier:"
+        - link "Datenschutz Bewerber" [ref=e132] [cursor=pointer]:
+          - /url: https://www.piazzablu.com/datenschutz-bewerber
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e137]:
+          - heading "Du hast weitere Fragen zu deiner Bewerbung?" [level=2] [ref=e138]
+          - generic [ref=e139]:
+            - img "Nicole Lubinsky" [ref=e140]
+            - generic [ref=e141]:
+              - generic [ref=e142]:
+                - paragraph [ref=e143]:
+                  - generic [ref=e144]: Nicole Lubinsky
+                - paragraph [ref=e145]:
+                  - generic [ref=e146]: Prokuristin & HR
+              - generic [ref=e147]:
+                - link "bewerbung@piazzablu.com" [ref=e148] [cursor=pointer]:
+                  - /url: mailto:bewerbung@piazzablu.com
+                - paragraph [ref=e153]:
+                  - link "Let’s connect" [ref=e156] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/piazza-blu-gmbh
+        - generic [ref=e158]:
+          - paragraph [ref=e159]:
+            - generic [ref=e160]: Ich freue mich auf deine Bewerbung!
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - text: Position*
+              - combobox "Position*" [ref=e163]:
+                - option "Wähle deine Position aus" [disabled]
+                - option "PIM-Consultant (m/w/d)" [selected]
+                - option "Lead Manager (m/w/d)"
+                - option "Sales Manager Commerce (m/w/d)"
+                - option "UX/UI Designer (m/w/d)"
+                - option "Backend Entwickler (m/w/d)"
+                - option "Java Backend Entwickler (m/w/d)"
+            - generic [ref=e164]:
+              - text: Dein Name*
+              - textbox "Dein Name*" [ref=e165]: Kranti Chavan
+            - generic [ref=e166]:
+              - text: Deine Mailadresse*
+              - textbox "Deine Mailadresse*" [ref=e167]: krantichavan198@gmail.com
+            - generic [ref=e168]:
+              - text: Deine Telefonnummer
+              - textbox "Deine Telefonnummer" [ref=e169]: +49 15750174177
+            - generic [ref=e170]:
+              - text: Deine Nachricht*
+              - textbox "Deine Nachricht*" [ref=e171]: Piazza Blu ist auf PIM spezialisiert – genau das Thema, das in meiner Arbeit bei Rockwell Automation den größten Unterschied gemacht hat. Mich reizt, Produktdatenmanagement bei unterschiedlichen Kund:innen von der Planung bis zur Erfolgsmessung zu begleiten, in einem agilen Team mit wertschätzender Fehlerkultur. Ich kann ab dem 16.12.2026 starten und lebe in Karlsruhe (gültige Arbeitserlaubnis, Gehaltsvorstellung 60.000 € brutto/Jahr, verhandelbar). Lebenslauf und Anschreiben sind angehängt.
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - paragraph [ref=e174]: Deine Bewerbungsunterlagen (max. 15 MB)
+                - paragraph [ref=e268]: "Gesamt: 74.0 KB / 15 MB"
+              - generic [ref=e175] [cursor=pointer]: Dateien hochladen
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: Kranti_Chavan_Lebenslauf_Piazza-Blu_PIM-Consultant.pdf
+                    - generic [ref=e276]: PDF • 43.4 KB
+                  - button [ref=e277] [cursor=pointer]
+                - generic [ref=e280]:
+                  - generic [ref=e284]:
+                    - generic [ref=e285]: Kranti_Chavan_Anschreiben_Piazza-Blu_PIM-Consultant.pdf
+                    - generic [ref=e286]: PDF • 30.6 KB
+                  - button [ref=e287] [cursor=pointer]
+            - button "send-mail" [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: Senden
+      - paragraph [ref=e181]:
+        - text: "Alle Infos zum Thema Datenschutz und dem Umgang mit deinen Daten findest du hier:"
+        - link "https://www.piazzablu.com/datenschutz" [ref=e182] [cursor=pointer]:
+          - /url: /datenschutz
+    - contentinfo [ref=e183]:
+      - heading "Footer" [level=3] [ref=e184]
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - link "Zurück zur Hauptseite" [ref=e188] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e192]:
+              - link "piazza blu² GmbH" [ref=e193] [cursor=pointer]:
+                - /url: /anfahrt
+              - link "Eiler Straße 3v" [ref=e194] [cursor=pointer]:
+                - /url: /anfahrt
+              - link "51107 Köln" [ref=e195] [cursor=pointer]:
+                - /url: /anfahrt
+              - link "Tel. +49 2203 20305 – 0" [ref=e196] [cursor=pointer]:
+                - /url: tel:+492203203050
+              - link "info@piazzablu.com" [ref=e197] [cursor=pointer]:
+                - /url: mailto:info@piazzablu.com
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - heading "Leistungen" [level=3] [ref=e200]
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "Künstliche Intelligenz" [ref=e203] [cursor=pointer]:
+                    - /url: /kuenstliche-intelligenz
+                - listitem [ref=e204]:
+                  - link "Shop" [ref=e205] [cursor=pointer]:
+                    - /url: /e-commerce
+                - listitem [ref=e206]:
+                  - link "Product Information Management" [ref=e207] [cursor=pointer]:
+                    - /url: /pim
+                - listitem [ref=e208]:
+                  - link "3D-Produktkonfiguration" [ref=e209] [cursor=pointer]:
+                    - /url: /3d-produktkonfigurator
+                - listitem [ref=e210]:
+                  - link "App-Entwicklung" [ref=e211] [cursor=pointer]:
+                    - /url: /app-entwicklung
+                - listitem [ref=e212]:
+                  - link "Site Reliability Engineering" [ref=e213] [cursor=pointer]:
+                    - /url: /sre/agentur
+                - listitem [ref=e214]:
+                  - link "User Interface Design" [ref=e215] [cursor=pointer]:
+                    - /url: /ux-ui-design-agentur
+            - generic [ref=e216]:
+              - heading "Karriere" [level=3] [ref=e217]
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - link "Offene Stellenangebote" [ref=e220] [cursor=pointer]:
+                    - /url: /karriere
+            - generic [ref=e221]:
+              - heading "Unternehmen" [level=3] [ref=e222]
+              - list [ref=e223]:
+                - listitem [ref=e224]:
+                  - link "Über uns" [ref=e225] [cursor=pointer]:
+                    - /url: /ueber-uns
+                - listitem [ref=e226]:
+                  - link "Team" [ref=e227] [cursor=pointer]:
+                    - /url: /team
+                - listitem [ref=e228]:
+                  - link "Technologien" [ref=e229] [cursor=pointer]:
+                    - /url: /technologien
+                - listitem [ref=e230]:
+                  - link "News" [ref=e231] [cursor=pointer]:
+                    - /url: /news
+            - generic [ref=e232]:
+              - heading [level=3] [ref=e233]
+              - list [ref=e234]:
+                - listitem [ref=e235]:
+                  - link "Kontakt" [ref=e236] [cursor=pointer]:
+                    - /url: /kontakt
+                - listitem [ref=e237]:
+                  - link "Anfahrt" [ref=e238] [cursor=pointer]:
+                    - /url: /anfahrt
+                - listitem [ref=e239]:
+                  - link "Datenschutz" [ref=e240] [cursor=pointer]:
+                    - /url: /datenschutz
+                - listitem [ref=e241]:
+                  - link "Impressum" [ref=e242] [cursor=pointer]:
+                    - /url: /impressum
+        - generic [ref=e243]:
+          - paragraph [ref=e244]: © 2010 - 2026 piazza blu² GmbH - Digital handeln. Jetzt.
+          - button "Cookie-Einstellungen" [ref=e245] [cursor=pointer]
+          - generic [ref=e246]:
+            - link "Linkedin" [ref=e247] [cursor=pointer]:
+              - /url: https://de.linkedin.com/company/piazza-blu-gmbh
+            - link "Instagram" [ref=e251] [cursor=pointer]:
+              - /url: https://www.instagram.com/piazzablu2/
+            - link "Xing" [ref=e256] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/piazzablu-gmbh
+            - link "Kununu" [ref=e260] [cursor=pointer]:
+              - /url: https://www.kununu.com/de/piazza-blu
+    - heading "Zustimmung verwalten" [level=4] [ref=e266] [cursor=pointer]
+  - alert [ref=e267]

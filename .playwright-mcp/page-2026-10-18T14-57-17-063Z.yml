@@ -1,0 +1,407 @@
+- generic [ref=f49e6]:
+  - main [ref=f49e7]:
+    - generic [ref=f49e8]:
+      - navigation "Haupt" [ref=f49e10]:
+        - generic [ref=f49e11]:
+          - link "Zurück zu den Jobdetails" [ref=f49e13] [cursor=pointer]:
+            - /url: /de/job/backend-developer-onlineshop-und-dm-app-java-kotlin-w-m-d/270206/
+          - button "Kontakt aufnehmen" [ref=f49e21] [cursor=pointer]
+      - generic [ref=f49e27]:
+        - generic [ref=f49e28]:
+          - generic:
+            - link "Logo dmTECH, zurück zur Startseite dmTECH Logo":
+              - /url: /de/
+              - generic [ref=f49e29] [cursor=pointer]: Logo dmTECH, zurück zur Startseite
+              - img "dmTECH Logo"
+        - navigation "wizzard.aria_title" [ref=f49e31]:
+          - list [ref=f49e32]:
+            - listitem [ref=f49e33]:
+              - link "Persönliche Angaben" [ref=f49e34] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e35]: Persönliche Angaben
+            - listitem [ref=f49e37]:
+              - link "Fragen" [ref=f49e38] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e39]: Fragen
+            - listitem [ref=f49e41]:
+              - link "Dokumente" [ref=f49e42] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e43]: Dokumente
+            - listitem [ref=f49e45]:
+              - link "Zusammenfassung" [ref=f49e46] [cursor=pointer]:
+                - /url: "#"
+                - paragraph [ref=f49e47]: Zusammenfassung
+        - group [ref=f49e49]:
+          - paragraph [ref=f49e51]: Details zu Deiner Bewerbung
+          - generic [ref=f49e55]:
+            - heading "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [level=1] [ref=f49e56]
+            - generic [ref=f49e57]:
+              - generic [ref=f49e58]:
+                - term [ref=f49e59]:
+                  - generic [ref=f49e60]: Ort der Stelle
+                - definition [ref=f49e64]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=f49e65]:
+                - term [ref=f49e66]:
+                  - generic [ref=f49e67]: Art der Stelle
+                - definition [ref=f49e72]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=f49e73]:
+                - term [ref=f49e74]:
+                  - generic [ref=f49e75]: Art der Stelle
+                - definition [ref=f49e79]: unbefristet
+              - generic [ref=f49e80]:
+                - term [ref=f49e81]:
+                  - generic [ref=f49e82]: vor Ort
+                - definition [ref=f49e87]: vor Ort
+              - generic [ref=f49e88]:
+                - term [ref=f49e89]:
+                  - generic [ref=f49e90]: Ort der Stelle
+                - definition [ref=f49e94]: "Job ID: 270206"
+        - generic [ref=f49e158]:
+          - generic [ref=f49e160]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Zur Datenschutzerklärung
+                  - generic: Zu Deinem Profil
+                  - generic: Go Back
+            - generic [ref=f49e163]:
+              - generic:
+                - group [ref=f49e165]:
+                  - heading "Deine persönlichen Angaben" [level=2] [ref=f49e167]
+                  - generic [ref=f49e173]:
+                    - group "Wie heißt Du?" [ref=f49e174]:
+                      - generic [ref=f49e176]:
+                        - generic [ref=f49e177]:
+                          - generic [ref=f49e178]: Vorname (Pflichtfeld)
+                          - textbox "Vorname" [ref=f49e180]:
+                            - /placeholder: ""
+                        - generic [ref=f49e181]:
+                          - generic [ref=f49e182]: Name (Pflichtfeld)
+                          - textbox "Name" [ref=f49e184]:
+                            - /placeholder: ""
+                    - group "Wann wurdest Du geboren?" [ref=f49e185]:
+                      - generic [ref=f49e189]:
+                        - generic [ref=f49e190]: Geburtsdatum
+                        - textbox "Geburtsdatum" [ref=f49e192]
+                    - group "Wie können wir Dich erreichen?" [ref=f49e193]:
+                      - generic [ref=f49e195]:
+                        - generic [ref=f49e196]:
+                          - generic [ref=f49e197]: E-Mail (Pflichtfeld)
+                          - textbox "E-Mail" [ref=f49e199]:
+                            - /placeholder: ""
+                        - generic [ref=f49e200]:
+                          - generic [ref=f49e201]: Telefon
+                          - textbox "Telefon" [ref=f49e203]:
+                            - /placeholder: ""
+                      - generic [ref=f49e205]:
+                        - generic [ref=f49e206]: Wann bist Du am besten telefonisch erreichbar?
+                        - textbox "Wann bist Du am besten telefonisch erreichbar?" [ref=f49e208]:
+                          - /placeholder: ""
+                    - group "Wo bist Du zu Hause?" [ref=f49e209]:
+                      - generic [ref=f49e211]:
+                        - generic [ref=f49e212]:
+                          - generic [ref=f49e213]: Straße + Hausnummer
+                          - textbox "Straße + Hausnummer" [ref=f49e215]:
+                            - /placeholder: ""
+                        - generic [ref=f49e216]:
+                          - generic [ref=f49e217]: Ort
+                          - textbox "Ort" [ref=f49e219]:
+                            - /placeholder: ""
+                      - generic [ref=f49e220]:
+                        - generic [ref=f49e221]:
+                          - generic [ref=f49e222]: PLZ
+                          - textbox "PLZ" [ref=f49e224]:
+                            - /placeholder: ""
+                        - generic [ref=f49e226]:
+                          - generic [ref=f49e227]: Wohnsitz (Pflichtfeld)
+                          - combobox "Wohnsitz" [ref=f49e230]:
+                            - option "Deutschland" [selected]
+                            - option "Argentinien"
+                            - option "Australien"
+                            - option "Österreich"
+                            - option "Bahamas"
+                            - option "Belgien"
+                            - option "Bermuda"
+                            - option "Brasilien"
+                            - option "Kanada"
+                            - option "Chile"
+                            - option "China"
+                            - option "Kolumbien"
+                            - option "Costa Rica"
+                            - option "Kroatien"
+                            - option "Zypern"
+                            - option "Tschechische Republik"
+                            - option "Dänemark"
+                            - option "Dominikanische Republik"
+                            - option "Ecuador"
+                            - option "Ägypten"
+                            - option "Finnland"
+                            - option "Frankreich"
+                            - option "Honduras"
+                            - option "Hongkong"
+                            - option "Ungarn"
+                            - option "Indien"
+                            - option "Indonesien"
+                            - option "Irland"
+                            - option "Israel"
+                            - option "Italien"
+                            - option "Japan"
+                            - option "Korea"
+                            - option "Kuwait"
+                            - option "Luxemburg"
+                            - option "Malaysia"
+                            - option "Mexiko"
+                            - option "Nepal"
+                            - option "Niederlande"
+                            - option "Neuseeland"
+                            - option "Norwegen"
+                            - option "Pakistan"
+                            - option "Peru"
+                            - option "Philippinen"
+                            - option "Polen"
+                            - option "Portugal"
+                            - option "Saudi-Arabien"
+                            - option "Singapur"
+                            - option "Slovakei"
+                            - option "Südafrika"
+                            - option "Spanien"
+                            - option "Schweden"
+                            - option "Schweiz"
+                            - option "Taiwan"
+                            - option "Thailand"
+                            - option "Türkei"
+                            - option "Ukraine"
+                            - option "Großbritannien"
+                            - option "Vereinigte Staaten"
+                            - option "Afghanistan"
+                            - option "Albanien"
+                            - option "Algerien"
+                            - option "Amerikanisch-Samoa"
+                            - option "Andorra"
+                            - option "Angola"
+                            - option "Anguilla"
+                            - option "Antarktis"
+                            - option "Antigua und Barbuda"
+                            - option "Armenien"
+                            - option "Aruba"
+                            - option "Aserbaidschan"
+                            - option "Bahrain"
+                            - option "Bangladesch"
+                            - option "Barbados"
+                            - option "Belarus"
+                            - option "Belize"
+                            - option "Benin"
+                            - option "Bhutan"
+                            - option "Bolivien, Plurinationaler Staat"
+                            - option "Bosnien und Herzegowina"
+                            - option "Botsuana"
+                            - option "Bouvet-Insel"
+                            - option "Britisches Territorium im Indischen Ozean"
+                            - option "Brunei Darussalam"
+                            - option "Bulgarien"
+                            - option "Burkina Faso"
+                            - option "Burundi"
+                            - option "Kambodscha"
+                            - option "Kamerun"
+                            - option "Kap Verde"
+                            - option "Cayman-Inseln"
+                            - option "Zentralafrikanische Republik"
+                            - option "Tschad"
+                            - option "Weihnachtsinsel"
+                            - option "Kokosinseln (Keeling)"
+                            - option "Komoren"
+                            - option "Kongo"
+                            - option "Kongo, Demokratische Republik von der"
+                            - option "Cook-Inseln"
+                            - option "Kuba"
+                            - option "Elfenbeinküste"
+                            - option "Dschibuti"
+                            - option "Dominica"
+                            - option "El Salvador"
+                            - option "Äquatorial-Guinea"
+                            - option "Eritrea"
+                            - option "Estland"
+                            - option "Äthiopien"
+                            - option "Falkland Inseln (Malvinas)"
+                            - option "Färöer Inseln"
+                            - option "Fidschi"
+                            - option "Französisch-Guayana"
+                            - option "Französisch-Polynesien"
+                            - option "Französische Süd-und Antarktisgebiete"
+                            - option "Gabun"
+                            - option "Gambia"
+                            - option "Georgien"
+                            - option "Ghana"
+                            - option "Gibraltar"
+                            - option "Griechenland"
+                            - option "Grönland"
+                            - option "Grenada"
+                            - option "Guadeloupe"
+                            - option "Guam"
+                            - option "Guatemala"
+                            - option "Guernsey"
+                            - option "Guinea"
+                            - option "Guinea-Bissau"
+                            - option "Guyana"
+                            - option "Haiti"
+                            - option "Heard und McDonald Inseln"
+                            - option "Heiliger Stuhl (Vatikanstadt)"
+                            - option "Island"
+                            - option "Iran, Islamische Republik"
+                            - option "Irak"
+                            - option "Isle Of Man"
+                            - option "Jamaika"
+                            - option "Jersey"
+                            - option "Jordanien"
+                            - option "Kasachstan"
+                            - option "Kenia"
+                            - option "Kiribati"
+                            - option "Korea, Demokratische Volksrepublik"
+                            - option "Kirgistan"
+                            - option "Lao People's Democratic Republic"
+                            - option "Lettland"
+                            - option "Libanon"
+                            - option "Lesotho"
+                            - option "Liberia"
+                            - option "Libysch-Arabische Dschamahirija"
+                            - option "Liechtenstein"
+                            - option "Litauen"
+                            - option "Macao"
+                            - option "Nordmazedonien"
+                            - option "Madagaskar"
+                            - option "Malawi"
+                            - option "Malediven"
+                            - option "Mali"
+                            - option "Malta"
+                            - option "Marshall-Inseln"
+                            - option "Martinique"
+                            - option "Mauretanien"
+                            - option "Mauritius"
+                            - option "Mayotte"
+                            - option "Mikronesien, Föderierte Staaten von"
+                            - option "Moldau, Republik"
+                            - option "Monaco"
+                            - option "Mongolei"
+                            - option "Montenegro"
+                            - option "Montserrat"
+                            - option "Marokko"
+                            - option "Mosambik"
+                            - option "Myanmar"
+                            - option "Namibia"
+                            - option "Nauru"
+                            - option "Niederländische Antillen"
+                            - option "Neukaledonien"
+                            - option "Nicaragua"
+                            - option "Niger"
+                            - option "Nigeria"
+                            - option "Niue"
+                            - option "Norfolkinsel"
+                            - option "Nördliche Marianen"
+                            - option "Oman"
+                            - option "Palau"
+                            - option "Palästinensische Autonomiegebiete"
+                            - option "Panama"
+                            - option "Papua Neuguinea"
+                            - option "Paraguay"
+                            - option "Pitcairn"
+                            - option "Puerto Rico"
+                            - option "Katar"
+                            - option "Rumänien"
+                            - option "Russische Föderation"
+                            - option "Ruanda"
+                            - option "Réunion"
+                            - option "Saint Barthelemy"
+                            - option "St. Helena, Ascension und Tristan Da Cunha"
+                            - option "St. Kitts und Nevis"
+                            - option "Saint Lucia"
+                            - option "Saint Martin (französischer Teil)"
+                            - option "St. Pierre und Miquelon"
+                            - option "Saint Vincent und die Grenadinen"
+                            - option "Samoa"
+                            - option "San Marino"
+                            - option "Sao Tome und Principe"
+                            - option "Senegal"
+                            - option "Serbien"
+                            - option "Seychellen"
+                            - option "Sierra Leone"
+                            - option "Slowenien"
+                            - option "Salomonen"
+                            - option "Somalia"
+                            - option "Südgeorgien und die südlichen Sandwichinseln"
+                            - option "Sri Lanka"
+                            - option "Sudan"
+                            - option "Surinam"
+                            - option "Svalbard und Jan Mayen"
+                            - option "Eswatini"
+                            - option "Arabische Republik Syrien"
+                            - option "Tadschikistan"
+                            - option "Tansania, Vereinigte Republik"
+                            - option "Timor-Leste"
+                            - option "Togo"
+                            - option "Tokelau"
+                            - option "Tonga"
+                            - option "Trinidad und Tobago"
+                            - option "Tunesien"
+                            - option "Turkmenistan"
+                            - option "Turks und Caicos Inseln"
+                            - option "Tuvalu"
+                            - option "Uganda"
+                            - option "Vereinigte Arabische Emirate"
+                            - option "United States Minor Outlying Islands"
+                            - option "Uruguay"
+                            - option "Usbekistan"
+                            - option "Vanuatu"
+                            - option "Venezuela, Bolivarische Republik"
+                            - option "Vietnam"
+                            - option "Britische Jungferninseln"
+                            - option "Jungferninseln, US"
+                            - option "Wallis und Futuna"
+                            - option "Westsahara"
+                            - option "Jemen"
+                            - option "Sambia"
+                            - option "Zimbabwe"
+                            - option "Åland-Inseln"
+                - text: • • •
+                - link "Weiter" [ref=f49e233] [cursor=pointer]:
+                  - /url: "#apply-page"
+            - generic: Zu Deinem Profil
+          - generic:
+            - generic "Login ungültig"
+  - contentinfo [ref=f49e96]:
+    - generic [ref=f49e97]:
+      - generic [ref=f49e98]: Fußzeile
+      - generic [ref=f49e100]:
+        - navigation "Social Media Links" [ref=f49e101]:
+          - list [ref=f49e102]:
+            - listitem [ref=f49e103]:
+              - link "Zum github-Profil vom dmTECH" [ref=f49e104] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=f49e110]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=f49e111] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=f49e117]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=f49e118] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=f49e124]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=f49e125] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=f49e131]:
+          - list [ref=f49e133]:
+            - listitem [ref=f49e134]:
+              - button "DE" [ref=f49e135] [cursor=pointer]
+        - navigation "Rechtliches" [ref=f49e143]:
+          - list [ref=f49e145]:
+            - listitem [ref=f49e146]:
+              - link "Kontakt" [ref=f49e147] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=f49e148]:
+              - link "Impressum" [ref=f49e149] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=f49e150]:
+              - link "Datenschutz" [ref=f49e151] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=f49e152]:
+              - link "Information zur Barrierefreiheit" [ref=f49e153] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=f49e154]:
+              - button "Cookie-Einstellungen" [ref=f49e155] [cursor=pointer]

@@ -1,0 +1,18 @@
+- generic [ref=f66e2]:
+  - generic [ref=f66e3]: "Error {404}"
+  - generic [ref=f66e4]: ...die aufgerufene Seite existiert nicht!
+  - generic [ref=f66e6]:
+    - heading "Mögliche Ursachen" [level=3] [ref=f66e8]
+    - generic [ref=f66e9]:
+      - list [ref=f66e10]:
+        - listitem [ref=f66e11]: Ein falscher oder veralteter Link führt auf diese Seite.
+        - listitem [ref=f66e12]: Bei der Eingabe des Links ist Ihnen ein Tippfehler unterlaufen.
+      - heading "Was Sie versuchen können" [level=3] [ref=f66e14]
+      - list [ref=f66e15]:
+        - listitem [ref=f66e16]: Überprüfen und korrigieren Sie den eingegebenen Link.
+        - listitem [ref=f66e17]: Kehren Sie zur vorherigen Seite zurück und führen Sie die letzte Aktion nochmal aus.
+        - listitem [ref=f66e18]:
+          - text: "Loggen Sie sich neu ein:"
+          - link "LOGOUT" [ref=f66e19] [cursor=pointer]:
+            - /url: /?Logout=6
+    - generic [ref=f66e20]: Bitte verwenden Sie den Zurück-Button Ihres Browsers, um mit der Anwendung weiterzuarbeiten.

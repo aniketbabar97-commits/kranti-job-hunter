@@ -1,0 +1,483 @@
+- generic [active] [ref=f12e1]:
+  - generic [ref=f12e3]:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e7]:
+        - generic [ref=f12e8]:
+          - generic [ref=f12e10]:
+            - generic [ref=f12e11]:
+              - generic [ref=f12e12]: 
+              - paragraph [ref=f12e15]:
+                - link "cronos@cronos.de" [ref=f12e16] [cursor=pointer]:
+                  - /url: mailto:cronos@cronos.de
+            - generic [ref=f12e17]:
+              - generic [ref=f12e18]: 
+              - paragraph [ref=f12e21]:
+                - link "+49 251 39966-0" [ref=f12e22] [cursor=pointer]:
+                  - /url: tel:+49 251 39966-0
+          - generic [ref=f12e24]:
+            - generic:
+              - generic:
+                - heading "Login" [level=4]
+                - generic:
+                  - textbox "E-Mail-Adresse"
+                  - textbox "Passwort"
+                  - generic:
+                    - checkbox "Angemeldet bleiben"
+                    - generic: Angemeldet bleiben
+                  - generic:
+                    - button "Anmelden"
+                  - generic:
+                    - link "Passwort Vergessen?":
+                      - /url: /passwort-vergessen
+                  - generic:
+                    - link "Noch keinen Login? Jetzt registrieren!":
+                      - /url: registration
+            - generic [ref=f12e25]:
+              - link "" [ref=f12e26] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cronosgmbh/
+              - link "" [ref=f12e28] [cursor=pointer]:
+                - /url: https://de-de.facebook.com/cronosgmbh
+              - link "" [ref=f12e30] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/cronosunternehmensberatunggmbh
+              - link "" [ref=f12e32] [cursor=pointer]:
+                - /url: https://www.instagram.com/cronologen
+              - link [ref=f12e34] [cursor=pointer]:
+                - /url: https://www.youtube.com/@cronosTV
+                - generic [aria-hidden] [ref=f12e35]: 
+        - separator
+      - banner [ref=f12e36]:
+        - generic [ref=f12e37]:
+          - link [ref=f12e39] [cursor=pointer]:
+            - /url: https://cronos.de
+          - generic [ref=f12e40]:
+            - text:     
+            - generic [ref=f12e41] [cursor=pointer]: 
+            - generic [ref=f12e44] [cursor=pointer]:
+              - button "Account öffnen" [ref=f12e45]:
+                - generic [aria-hidden] [ref=f12e46]: 
+              - text: 
+          - generic [ref=f12e48] [cursor=pointer]
+    - generic [ref=f12e54]:
+      - figure [ref=f12e56]
+      - heading "GEMEINSAM MEHR BEWEGEN JOIN THE ENERGY" [level=1] [ref=f12e59]
+    - generic [ref=f12e64]:
+      - navigation "Breadcrumb" [ref=f12e66]:
+        - generic [ref=f12e67]:
+          - link "cronos" [ref=f12e68] [cursor=pointer]:
+            - /url: https://www.cronos.de
+          - text: ">"
+        - generic [ref=f12e69]:
+          - link "cronos Unternehmensberatung GmbH" [ref=f12e70] [cursor=pointer]:
+            - /url: /
+          - text: ">"
+        - generic [ref=f12e71]:
+          - link "Karriere" [ref=f12e72] [cursor=pointer]:
+            - /url: /work
+          - text: ">"
+        - generic [ref=f12e73]: Karriere bei cronos
+      - generic [ref=f12e75]:
+        - generic [ref=f12e79]:
+          - heading "Gestalte die digitale Zukunft" [level=2] [ref=f12e80]
+          - heading "Werde Teil der cronos Gruppe!" [level=3] [ref=f12e81]
+        - generic [ref=f12e86]:
+          - paragraph [ref=f12e90]: Die cronos Gruppe ist seit über 30 Jahren ein führender IT-Dienstleister und Berater für digitale Innovationen. Mit unserer Leidenschaft für IT, Expertise in vielfältigen Branchen und einem klaren Fokus auf Qualität unterstützen wir unsere Kunden bei der digitalen Transformation. Unsere Unternehmensgruppe umfasst Spezialisten in den Bereichen Customer Experience, IT-Management, Automatisierung und innovative Services – und genau hier kommst du ins Spiel! Als Teil der cronos Gruppe arbeitest Du in einem dynamischen, motivierten Team, das Ideen, Kreativität und Wissen teilt. Wir legen großen Wert auf partnerschaftliche Zusammenarbeit, offene Kommunikation und die kontinuierliche Weiterentwicklung unserer Mitarbeitenden. Bei uns kannst Du Verantwortung übernehmen, wachsen und gemeinsam mit uns die Erfolgsgeschichte der cronos Gruppe weiterschreiben.
+          - figure [ref=f12e94]
+      - generic [ref=f12e99]:
+        - generic [ref=f12e103]:
+          - heading "Finde deinen Weg!" [level=2] [ref=f12e104]
+          - heading "IT-Leidenschaft wie im Kino" [level=3] [ref=f12e105]
+        - generic [ref=f12e106]:
+          - generic [ref=f12e107]:
+            - generic [ref=f12e110]:
+              - iframe [ref=f12e111]:
+                - generic [ref=f13e4]:
+                  - generic:
+                    - generic [aria-hidden]:
+                      - generic: Playing in picture-in-picture
+                  - generic:
+                    - img "Link to video owner's profile" [ref=f13e13]
+                    - generic [ref=f13e14]:
+                      - generic [ref=f13e15]:
+                        - generic "CRS18_Projektleiterin_Finalcut"
+                        - generic [ref=f13e16]: CRS18_Projektleiterin_Finalcut
+                      - generic [ref=f13e17]: cronos Unternehmensberatung
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Like
+                          - button "Like (this opens in a new window)"
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Share
+                          - button "Share"
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Embed
+                          - button "Embed"
+                    - generic:
+                      - button "Play" [ref=f13e20] [cursor=pointer]:
+                        - generic:
+                          - generic [aria-hidden]: Play
+                      - generic [ref=f13e24]:
+                        - generic [ref=f13e25]:
+                          - slider "Progress Bar" [ref=f13e26] [cursor=pointer]
+                          - generic [ref=f13e27] [cursor=pointer]
+                          - generic [aria-hidden]:
+                            - generic: 00:00
+                          - generic [ref=f13e31]: 01:23
+                        - generic [ref=f13e32]:
+                          - generic:
+                            - generic [ref=f13e33]:
+                              - button "Mute" [ref=f13e35] [cursor=pointer]
+                              - slider "Volume (use up/down arrow keys to change)"
+                            - button "CC/subtitles" [ref=f13e38] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: CC/subtitles
+                            - button "Settings" [ref=f13e41] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Settings
+                            - button "Speed" [ref=f13e44] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Speed
+                            - button "Transcript" [ref=f13e48] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Transcript
+                            - button "Picture-in-Picture" [ref=f13e51] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Picture-in-Picture
+                            - button "Fullscreen" [ref=f13e54] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Fullscreen
+                          - link "Watch on Vimeo" [ref=f13e57] [cursor=pointer]:
+                            - /url: https://vimeo.com/?fl=pl&fe=vl
+              - generic: Projektleiterin
+            - generic [ref=f12e114]:
+              - iframe [ref=f12e115]:
+                - generic [ref=f14e4]:
+                  - generic:
+                    - generic [aria-hidden]:
+                      - generic: Playing in picture-in-picture
+                  - generic:
+                    - img "Link to video owner's profile" [ref=f14e13]
+                    - generic [ref=f14e14]:
+                      - generic [ref=f14e15]:
+                        - generic "CRS18_Berater_Finalcut"
+                        - generic [ref=f14e16]: CRS18_Berater_Finalcut
+                      - generic [ref=f14e17]: cronos Unternehmensberatung
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Like
+                          - button "Like (this opens in a new window)" [ref=f14e19] [cursor=pointer]
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Share
+                          - button "Share" [ref=f14e20] [cursor=pointer]
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Embed
+                          - button "Embed" [ref=f14e21] [cursor=pointer]
+                    - generic:
+                      - button "Play" [ref=f14e23] [cursor=pointer]:
+                        - generic:
+                          - generic [aria-hidden]: Play
+                      - generic [ref=f14e27]:
+                        - generic [ref=f14e28]:
+                          - slider "Progress Bar" [ref=f14e29] [cursor=pointer]
+                          - generic [ref=f14e30] [cursor=pointer]
+                          - generic [aria-hidden]:
+                            - generic: 00:00
+                          - generic [ref=f14e34]: 01:05
+                        - generic [ref=f14e35]:
+                          - generic:
+                            - generic [ref=f14e36]:
+                              - button "Mute" [ref=f14e38] [cursor=pointer]
+                              - slider "Volume (use up/down arrow keys to change)"
+                            - button "CC/subtitles" [ref=f14e41] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: CC/subtitles
+                            - button "Settings" [ref=f14e44] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Settings
+                            - button "Speed" [ref=f14e47] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Speed
+                            - button "Transcript" [ref=f14e51] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Transcript
+                            - button "Picture-in-Picture" [ref=f14e54] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Picture-in-Picture
+                            - button "Fullscreen" [ref=f14e57] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Fullscreen
+                          - link "Watch on Vimeo" [ref=f14e60] [cursor=pointer]:
+                            - /url: https://vimeo.com/?fl=pl&fe=vl
+              - generic: Berater
+            - generic [ref=f12e118]:
+              - iframe [ref=f12e119]:
+                - generic [ref=f15e4]:
+                  - generic:
+                    - generic [aria-hidden]:
+                      - generic: Playing in picture-in-picture
+                  - generic:
+                    - img "Link to video owner's profile" [ref=f15e13]
+                    - generic [ref=f15e14]:
+                      - generic [ref=f15e15]:
+                        - generic "CRS18_Bereichsleiter_Finalcut"
+                        - generic [ref=f15e16]: CRS18_Bereichsleiter_Finalcut
+                      - generic [ref=f15e17]: cronos Unternehmensberatung
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Like
+                          - button "Like (this opens in a new window)" [ref=f15e19] [cursor=pointer]
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Share
+                          - button "Share" [ref=f15e20] [cursor=pointer]
+                        - generic:
+                          - generic [aria-hidden]:
+                            - generic: Embed
+                          - button "Embed" [ref=f15e21] [cursor=pointer]
+                    - generic:
+                      - button "Play" [ref=f15e23] [cursor=pointer]:
+                        - generic:
+                          - generic [aria-hidden]: Play
+                      - generic [ref=f15e27]:
+                        - generic [ref=f15e28]:
+                          - slider "Progress Bar" [ref=f15e29] [cursor=pointer]
+                          - generic [ref=f15e30] [cursor=pointer]
+                          - generic [aria-hidden]:
+                            - generic: 00:00
+                          - generic [ref=f15e34]: 01:10
+                        - generic [ref=f15e35]:
+                          - generic:
+                            - generic [ref=f15e36]:
+                              - button "Mute" [ref=f15e38] [cursor=pointer]
+                              - slider "Volume (use up/down arrow keys to change)"
+                            - button "CC/subtitles" [ref=f15e41] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: CC/subtitles
+                            - button "Settings" [ref=f15e44] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Settings
+                            - button "Speed" [ref=f15e47] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Speed
+                            - button "Transcript" [ref=f15e51] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Transcript
+                            - button "Picture-in-Picture" [ref=f15e54] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Picture-in-Picture
+                            - button "Fullscreen" [ref=f15e57] [cursor=pointer]:
+                              - generic:
+                                - generic [aria-hidden]: Fullscreen
+                          - link "Watch on Vimeo" [ref=f15e60] [cursor=pointer]:
+                            - /url: https://vimeo.com/?fl=pl&fe=vl
+              - generic: Bereichsleiter
+            - generic [ref=f12e122]:
+              - iframe [ref=f12e123]
+              - generic: Businessarchitect
+          - generic [ref=f12e124] [cursor=pointer]: prev
+          - generic [ref=f12e125] [cursor=pointer]: next
+      - generic [ref=f12e127]:
+        - generic [ref=f12e131]:
+          - heading "Warum cronos?" [level=2] [ref=f12e132]
+          - heading "weil wir mehr als nur Beratung sind!" [level=3] [ref=f12e133]
+        - generic [ref=f12e134]:
+          - generic [ref=f12e137]:
+            - paragraph [ref=f12e138]: Bei uns arbeitest Du nicht nur in einem mehrfach ausgezeichneten Unternehmen („Kununu Top Company und Most Wanted Employer“), sondern auch an spannenden, zukunftsweisenden Projekten. Egal, ob Du ein erfahrener Experte bist oder gerade erst durchstartest – wir bieten Dir Perspektiven, Flexibilität und ein starkes Team, das Dich unterstützt.
+            - paragraph [ref=f12e139]:
+              - strong [ref=f12e140]: Starte jetzt Deine Karriere bei der cronos Gruppe und werde Teil eines der führenden ITDienstleister Deutschlands!
+          - generic [ref=f12e142]:
+            - link "Stellenanzeigen" [ref=f12e144] [cursor=pointer]:
+              - /url: /jobs
+            - link "initiativ bewerben" [ref=f12e146] [cursor=pointer]:
+              - /url: /jobs
+      - generic [ref=f12e154]:
+        - generic [ref=f12e159]:
+          - generic [ref=f12e160]:
+            - heading "Warum wir existieren?" [level=4] [ref=f12e162]
+            - figure [ref=f12e164]
+          - generic [ref=f12e166]:
+            - paragraph [ref=f12e167]:
+              - strong [ref=f12e168]: Wir glauben daran, durch digitale Innovationen nachhaltigen Mehrwert für Unternehmen zu schaffen, der nicht nur Prozesse optimiert, sondern auch Sicherheit, Fortschritt und Vertrauen in die digitale Zukunft ermöglicht."
+            - paragraph [ref=f12e169]: cronos existiert, um Unternehmen durch Leidenschaft, Expertise und partnerschaftliche Zusammenarbeit dabei zu unterstützen, die Herausforderungen der digitalen Transformation zu meistern. Unser Antrieb ist es, die Welt mit IT-Lösungen sicherer, effizienter und besser zu machen.
+        - generic [ref=f12e174]:
+          - generic [ref=f12e175]:
+            - heading "Wie wir arbeiten?" [level=4] [ref=f12e177]
+            - figure [ref=f12e179]
+          - generic [ref=f12e181]:
+            - paragraph [ref=f12e182]:
+              - strong [ref=f12e183]: „Mit über 30 Jahren Erfahrung, einer tiefen Branchenexpertise und technologischer Exzellenz entwickeln wir maßgeschneiderte Lösungen, die sich an den individuellen Bedürfnissen unserer Kunden orientieren. Wir arbeiten
+              - strong [ref=f12e184]: partnerschaftlich, wirtschaftlich und mit höchster Leidenschaft, um langfristige Werte zu schaffen.“
+            - paragraph [ref=f12e185]: Unsere Teams setzen auf innovative Ansätze, kundenorientierte Prozesse und kontinuierliche Weiterentwicklung – von der Beratung über die Implementierung bis hin zum Betrieb. Dabei verbinden wir Kreativität mit Pragmatismus und behalten stets die Ziele unserer Kunden im Blick.
+        - generic [ref=f12e190]:
+          - generic [ref=f12e191]:
+            - heading "Was wir anbieten?" [level=4] [ref=f12e193]
+            - figure [ref=f12e195]
+          - generic [ref=f12e197]:
+            - paragraph [ref=f12e198]:
+              - strong [ref=f12e199]: „Wir sind erste Wahl in Deutschland für ITDienstleistungen und innovative Lösungen in den Bereichen Utilities, ERP, Customer Experience, IT-Management, Automatisierung und Business Services.“
+            - paragraph [ref=f12e200]: Unsere Teams setzen auf innovative Ansätze, kundenorientierte Prozesse und kontinuierliche Weiterentwicklung – von der Beratung über die Implementierung bis hin zum Betrieb. Dabei verbinden wir Kreativität mit Pragmatismus und behalten stets die Ziele unserer Kunden im Blick.
+      - generic [ref=f12e202]:
+        - heading "Karriere bei cronos" [level=2] [ref=f12e203]
+        - heading "Finde deinen passenden Karriereweg" [level=3] [ref=f12e204]
+        - generic [ref=f12e205]:
+          - button "Azubi" [ref=f12e206] [cursor=pointer]
+          - button "Studierende" [ref=f12e207] [cursor=pointer]
+          - button "Berufseinsteiger:in" [ref=f12e208] [cursor=pointer]
+          - button "Berufserfahrene" [ref=f12e209] [cursor=pointer]
+          - button "Projektleiter:in" [ref=f12e210] [cursor=pointer]
+        - text: + + + + + + + + + + + + + + + + + + + +
+      - generic [ref=f12e217]:
+        - heading "Gewinner in der Kategorie Consulting in ganz Deutschland!" [level=2] [ref=f12e222]
+        - generic [ref=f12e223]:
+          - paragraph [ref=f12e227]:
+            - text: Wir sind stolz darauf seit 2022 jährlich als „
+            - strong [ref=f12e228]: MOST WANTED EMPLOYER
+            - text: “ im
+            - link "Ranking von kununu und Die Zeit" [ref=f12e229] [cursor=pointer]:
+              - /url: https://www.zeit.de/angebote/most-wanted-employer-2025/consulting-personal-dienstleistung/beratung-consulting
+            - text: ausgezeichnet zu werden. Besonders, weil diese Auszeichnung nicht kaufbar ist, sondern auf realen Bewertungen basiert, welche transparent und öffentlich einsehbar sind. Im Gesamtranking aller Unternehmen erreichen wir stets Top Platzierungen und stehen in 2025 erneut auf Platz 1 der Kategorie „Beratung/Consulting“. Dies bestärkt uns weiter nicht nach Quartalsergebnissen zu handeln, sondern immer mit Blick auf das Beste für
+            - strong [ref=f12e230]: unsere Mitarbeitenden
+            - text: .
+          - generic [ref=f12e232]:
+            - paragraph [ref=f12e234]: Fachliche und soziale Weiterentwicklung sind feste Bestandteile unserer Unternehmenskultur. Offenheit, Ehrlichkeit und partnerschaftliches Miteinander prägen unsere Zusammenarbeit. Erfolg macht Spaß – und das spiegelt sich in der Freude unserer Mitarbeitenden bei ihrer Arbeit wider.
+            - figure [ref=f12e236]
+          - generic [ref=f12e237]:
+            - generic:
+              - generic:
+                - figure
+      - generic [ref=f12e239]:
+        - heading "Benefits" [level=2] [ref=f12e244]
+        - generic [ref=f12e245]:
+          - generic [ref=f12e250]:
+            - figure [ref=f12e252]
+            - generic [ref=f12e253]:
+              - heading "Onboarding" [level=4] [ref=f12e255]
+              - paragraph [ref=f12e257]: Es erwarten dich eine umfängliche Einarbeitung, Ausbildung und Events gemeinsam mit vielen anderen cronologen:innen.
+          - generic [ref=f12e262]:
+            - figure [ref=f12e264]
+            - generic [ref=f12e265]:
+              - heading "Mobilität" [level=4] [ref=f12e267]
+              - paragraph [ref=f12e269]: Mit unserer Reisestelle und Benefits, wie z.B. 1. Klasse Bahnticket und Jobrad bleibst du sowohl geschäftlich als auch privat mobil.
+          - generic [ref=f12e274]:
+            - figure [ref=f12e276]
+            - generic [ref=f12e277]:
+              - heading "Flexibilität" [level=4] [ref=f12e279]
+              - paragraph [ref=f12e281]: Dich erwartet ein gesunder Mix aus Projektarbeit bei unseren Kund:innen vor Ort, Office-Arbeit am nächstgelegenen cronos Standort und Remote-Anteil aus deinem Mobile Office.
+          - generic [ref=f12e286]:
+            - figure [ref=f12e288]
+            - generic [ref=f12e289]:
+              - heading "Theorie & Praxis" [level=4] [ref=f12e291]
+              - paragraph [ref=f12e293]: Learning on the Job erweitert durch E-Learning-Angebote, Weiterbildungen und Zertifizierungen.
+          - generic [ref=f12e298]:
+            - figure [ref=f12e300]
+            - generic [ref=f12e301]:
+              - heading "Ausstattung" [level=4] [ref=f12e303]
+              - paragraph [ref=f12e305]: Du erhältst High End IT-Ausstattung von Lenovo, Apple und Samsung.
+          - generic [ref=f12e310]:
+            - figure [ref=f12e312]
+            - generic [ref=f12e313]:
+              - heading "kununu" [level=4] [ref=f12e315]
+              - paragraph [ref=f12e317]: "\"Most Wanted Employer\" und \"Top Company\" seit 2022 für außergewöhnliche Unternehmenskultur mit Open Door Policy, Mentoring und flachen Hierarchien."
+          - generic [ref=f12e322]:
+            - figure [ref=f12e324]
+            - generic [ref=f12e325]:
+              - heading "50€ hrmony Gutschein" [level=4] [ref=f12e327]
+              - paragraph [ref=f12e329]: Monatlicher 50€ hrmony Gutschein für Fitness-Center, Streaming, Shopping und vieles mehr.
+      - generic [ref=f12e334]:
+        - heading "Gestalte die digitale Zukunft – Werde Teil der cronos Gruppe!" [level=2] [ref=f12e339]
+        - generic [ref=f12e340]:
+          - generic [ref=f12e343]:
+            - paragraph [ref=f12e344]: Als Teil der cronos Gruppe arbeitest Du in einem dynamischen, motivierten Team, das Ideen, Kreativität und Wissen teilt. Wir legen großen Wert auf partnerschaftliche Zusammenarbeit, offene Kommunikation und die kontinuierliche Weiterentwicklung unserer Mitarbeitenden. Bei uns kannst Du Verantwortung übernehmen, wachsen und gemeinsam mit uns die Erfolgsgeschichte der cronos Gruppe weiterschreiben.
+            - paragraph [ref=f12e345]:
+              - strong [ref=f12e346]: Warum cronos?
+            - paragraph [ref=f12e347]: Bei uns arbeitest Du nicht nur in einem mehrfach ausgezeichneten Unternehmen („Kununu Top Company und Most Wanted Employer“), sondern auch an spannenden, zukunftsweisenden Projekten. Egal, ob Du ein erfahrener Experte bist oder gerade erst durchstartest – wir bieten Dir Perspektiven, Flexibilität und ein starkes Team, das Dich unterstützt.
+            - paragraph [ref=f12e348]:
+              - strong [ref=f12e349]: Starte jetzt Deine Karriere bei der cronos Gruppe – einem der führenden IT-Dienstleister Deutschlands!
+          - figure [ref=f12e353]
+          - generic [ref=f12e356]:
+            - link "Stellenangebote" [ref=f12e360] [cursor=pointer]:
+              - /url: /jobs
+            - link "initiativ bewerben" [ref=f12e364] [cursor=pointer]:
+              - /url: /jobs
+    - contentinfo [ref=f12e365]:
+      - generic [ref=f12e367]:
+        - generic [ref=f12e369]:
+          - generic [ref=f12e370]:
+            - heading "Über Uns" [level=4] [ref=f12e371]
+            - paragraph [ref=f12e372]:
+              - link "Über cronos" [ref=f12e373] [cursor=pointer]:
+                - /url: /about
+              - link "Kontakt" [ref=f12e374] [cursor=pointer]:
+                - /url: /kontakt
+          - generic [ref=f12e375]:
+            - heading "Dienstleistungen" [level=4] [ref=f12e376]
+            - paragraph [ref=f12e377]:
+              - strong [ref=f12e378]:
+                - link "SAP und Cloud Lösungen" [ref=f12e379] [cursor=pointer]:
+                  - /url: https://digital.cronos.de
+            - paragraph [ref=f12e380]:
+              - strong [ref=f12e381]:
+                - link "Customer Experience Lösungen" [ref=f12e382] [cursor=pointer]:
+                  - /url: https://cx.cronos.de
+            - paragraph [ref=f12e383]:
+              - strong [ref=f12e384]:
+                - link "Business Process Automation" [ref=f12e385] [cursor=pointer]:
+                  - /url: https://automation.cronos.de
+            - paragraph [ref=f12e386]:
+              - strong [ref=f12e387]:
+                - link "Services, Support und BPO" [ref=f12e388] [cursor=pointer]:
+                  - /url: https://services.cronos.de
+            - paragraph [ref=f12e389]:
+              - strong [ref=f12e390]:
+                - link "IT-Management" [ref=f12e391] [cursor=pointer]:
+                  - /url: https://itmc.cronos.de
+        - generic [ref=f12e392]: Unsere Socials
+        - generic [ref=f12e396]:
+          - generic [ref=f12e397]: Bester Arbeitgeber
+          - link [ref=f12e399] [cursor=pointer]:
+            - /url: https://kununu.com/de/cronos-unternehmensberatung?rfr=affiliate_widget&utm_content=widget_score_review_count_logo_small&utm_medium=affiliate&utm_source=widget
+            - img "kununu widget" [ref=f12e400]
+    - generic [ref=f12e402]:
+      - generic:
+        - generic [ref=f12e403]: Copyright 2026. All Rights Reserved.
+        - generic [ref=f12e404]:
+          - link "Impressum" [ref=f12e405] [cursor=pointer]:
+            - /url: /legal/imprint
+          - link "Datenschutz" [ref=f12e406] [cursor=pointer]:
+            - /url: /legal/privacy
+          - link "Hinweisgeberschutz" [ref=f12e407] [cursor=pointer]:
+            - /url: https://cronos-hr.rexx-systems.com/whistleblowing
+          - link "AGB" [ref=f12e408] [cursor=pointer]:
+            - /url: /legal/agb
+          - link "Allgemeine Mitwirkungspflichten" [ref=f12e409] [cursor=pointer]:
+            - /url: /allgemeine-mitwirkungspflichten
+          - link "Software-AGB" [ref=f12e410] [cursor=pointer]:
+            - /url: /legal/software-agb
+  - generic:
+    - generic [ref=f12e412]:
+      - generic [ref=f12e413]:
+        - generic [ref=f12e414]:
+          - generic: Suchbegriffe
+          - searchbox "Suchbegriffe" [ref=f12e415]
+        - generic [ref=f12e416] [cursor=pointer]: 
+      - paragraph [ref=f12e418]: Drücken Sie die Eingabetaste um zu suchen
+    - generic [ref=f12e419] [cursor=pointer]:
+      - generic "Datenschutzeinstellungen neu wählen"
+  - generic [ref=f12e422]:
+    - link [ref=f12e424] [cursor=pointer]:
+      - /url: https://cronos.de
+    - text:     
+    - generic [ref=f12e425] [cursor=pointer]: 
+    - generic [ref=f12e429] [cursor=pointer]
+  - text:         
+  - link "" [ref=f12e432] [cursor=pointer]:
+    - /url: work#contentwrapper

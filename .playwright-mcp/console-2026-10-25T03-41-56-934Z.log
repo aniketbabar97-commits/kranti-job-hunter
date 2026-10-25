@@ -1,0 +1,4 @@
+[    3531ms] ReferenceError: WOW is not defined
+    at e.value (https://severin.com/wp-content/themes/severin/assets/js/script.js?ver=1791366409:2:196882)
+    at https://severin.com/wp-content/themes/severin/assets/js/script.js?ver=1791366409:2:196717
+[    3835ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ :0

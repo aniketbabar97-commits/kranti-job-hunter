@@ -1,0 +1,65 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Gauder GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder
+            - paragraph [ref=f7e14]: Gauder GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder/16836791-business-analyst-e-commerce-fluent-german-and-english-m-f-d
+            - paragraph [ref=f7e16]: Business Analyst E-Commerce - Fluent German & English (m/f/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e104]:
+      - heading "Review your application" [level=2] [ref=f7e105]
+      - generic [ref=f7e106]:
+        - generic [ref=f7e107]:
+          - paragraph [ref=f7e109]: Personal information
+          - generic [ref=f7e110]:
+            - generic [ref=f7e111] [cursor=pointer]:
+              - img "Kranti Chavan" [ref=f7e113]: KC
+              - generic [ref=f7e114]:
+                - paragraph [ref=f7e115]: Kranti Chavan
+                - paragraph [ref=f7e116]: Germany
+              - paragraph [ref=f7e117]: Edit
+            - separator [ref=f7e118]
+            - generic [ref=f7e119] [cursor=pointer]:
+              - paragraph [ref=f7e124]: "+4915750174177"
+              - paragraph [ref=f7e125]: Edit
+            - separator [ref=f7e126]
+            - generic [ref=f7e127] [cursor=pointer]:
+              - paragraph [ref=f7e133]: Karlsruhe, Germany
+              - paragraph [ref=f7e134]: Edit
+            - separator [ref=f7e135]
+            - generic [ref=f7e136] [cursor=pointer]:
+              - generic [ref=f7e141]:
+                - paragraph [ref=f7e142]: CV
+                - paragraph [ref=f7e143]: Kranti_Chavan_CV_Gauder_Business-Analyst-E-Commerce-Fluent-German.pdf
+              - paragraph [ref=f7e144]: Edit
+            - generic [ref=f7e146] [cursor=pointer]:
+              - checkbox "Use this CV as my default for future applications" [checked] [ref=f7e147]
+              - generic [ref=f7e151]: Use this CV as my default for future applications
+        - generic [ref=f7e152]:
+          - paragraph [ref=f7e154]: Professional links
+          - generic [ref=f7e157] [cursor=pointer]:
+            - generic [ref=f7e161]:
+              - paragraph [ref=f7e162]: LinkedIn
+              - paragraph [ref=f7e163]: linkedin.com/in/kranti-chavan-84a155191
+            - paragraph [ref=f7e164]: Edit
+        - generic [ref=f7e165]:
+          - paragraph [ref=f7e167]: Application details
+          - generic [ref=f7e169] [cursor=pointer]:
+            - generic [ref=f7e170]:
+              - paragraph [ref=f7e171]: Cover letter
+              - paragraph [ref=f7e179]: Kranti_Chavan_Cover_Letter_Gauder_Business-Analyst-E-Commerce-Fluent-German.pdf
+            - paragraph [ref=f7e180]: Edit
+    - generic [ref=f7e36]:
+      - progressbar "100%" [ref=f7e181]
+      - generic [ref=f7e41]:
+        - button "Back" [ref=f7e84] [cursor=pointer]
+        - button "Confirm & apply" [ref=f7e182] [cursor=pointer]
+  - alert [ref=f7e4]: "Gauder (Berlin): Business Analyst E-Commerce - Fluent German & English (m/f/d)"
+  - region "Notifications, bottom-end (alt+T)"

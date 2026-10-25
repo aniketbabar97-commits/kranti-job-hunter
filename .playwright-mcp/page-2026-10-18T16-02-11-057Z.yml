@@ -1,0 +1,174 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - img "Arvato Systems Logo" [ref=f1e6]
+    - generic [ref=f1e7]:
+      - paragraph [ref=f1e8]: Lead Consultant SAP CX / CRM (m/w/d)
+      - paragraph [ref=f1e9]:
+        - generic "Location" [ref=f1e10]
+        - text: Reinhard-Mohn-Strasse 18, Gütersloh, Nordrhein-Westfalen, Germany
+  - generic [ref=f1e16]:
+    - generic:
+      - generic:
+        - generic [ref=f1e20]:
+          - banner:
+            - heading "Lead Consultant SAP CX / CRM (m/w/d)" [level=1] [ref=f1e21]
+          - main [ref=f1e22]:
+            - generic [ref=f1e390]:
+              - generic [ref=f1e392]:
+                - heading "Vorabfragen" [level=2] [ref=f1e393]
+                - generic [ref=f1e398]:
+                  - generic:
+                    - generic [ref=f1e404]:
+                      - strong [ref=f1e412] [cursor=pointer]: Bitte gib uns einige Informationen zu Dir, damit wir Deine Bewerbung schnell prüfen können. Deine Angaben helfen uns im Auswahlprozess. Die Felder mit einem Sternchen müssen von Dir ausgefüllt werden. Vielen Dank.
+                      - generic:
+                        - paragraph
+                    - generic [ref=f1e418]:
+                      - generic: Das Hochladen von Dokumenten wie Anschreiben und Zeugnissen ist freiwillig. An dieser Stelle ist es für die Durchführung des Einstellungsprozesses grundsätzlich nicht erforderlich, besondere Kategorien von personenbezogenen Daten wie etwa Gesundheitsdaten oder Angaben zur religiösen Überzeugung zu erheben. Insofern bitten wir Dich diese Daten nicht hochzuladen.
+                      - generic:
+                        - paragraph
+                    - generic [ref=f1e431]:
+                      - generic: Zusätzliche Anhänge
+                      - generic [ref=f1e440]:
+                        - generic [ref=f1e441]:
+                          - generic [ref=f1e442]:
+                            - generic [ref=f1e443]: Eine Datei auswählen
+                            - generic [ref=f1e444]: oder hier ablegen.
+                          - button "Eine Datei auswählen oder hier ablegen." [ref=f1e445] [cursor=pointer]
+                          - generic [ref=f1e446]: "Unterstützte Dateiformate: DOC, DOT, RMR, RSM, RESUME, OXPS, PDF, P7S, AI, RTF, PAGES, GDOC, GSLIDES, XLS, XLSM, PUB, MSG, PPT, WPS, ODS, ODT, PPTX, PPSX, XLSX, DOCX, DOTX, SXW, WPD, ABW, MP3, M4A, WAV, PSD, EML, ICAL, ICS, IFB, ICALENDAR, ICS_RESPONSE, CSV, TXT, TEXT, VCF, MP4, MOV, BMP, GIF, JFIF, JPEG, JPG, PNG, TIF, TIFF, WEBP (10MB Größenbeschränkung)"
+                        - list [ref=f1e689]:
+                          - listitem [ref=f1e690]:
+                            - generic [ref=f1e694]:
+                              - generic [ref=f1e695]: Kranti_Chavan_Anschreiben_Arvato-Systems_Lead-Consultant-SAP-CX-CRM.pdf
+                              - generic [ref=f1e696]: 33KB
+                            - button "Delete file Kranti_Chavan_Anschreiben_Arvato-Systems_Lead-Consultant-SAP-CX-CRM.pdf" [ref=f1e702] [cursor=pointer]
+                      - generic:
+                        - paragraph
+                    - generic "Bitte gib Dein Geschlecht an. auswählen" [ref=f1e449]:
+                      - generic [ref=f1e452]:
+                        - generic:
+                          - status [ref=f1e453]
+                          - generic [ref=f1e455]:
+                            - generic [ref=f1e460]:
+                              - generic [ref=f1e465] [cursor=pointer]:
+                                - generic: Bitte gib Dein Geschlecht an.
+                                - text: "*"
+                              - combobox "Bitte gib Dein Geschlecht an." [ref=f1e469]
+                            - status [ref=f1e476]
+                        - generic:
+                          - paragraph
+                    - 'generic "Bitte gib Deine Nationalität an: auswählen" [ref=f1e479]':
+                      - generic [ref=f1e482]:
+                        - generic:
+                          - status [ref=f1e483]
+                          - generic [ref=f1e485]:
+                            - generic [ref=f1e490]:
+                              - generic [ref=f1e495] [cursor=pointer]:
+                                - generic: "Bitte gib Deine Nationalität an:"
+                                - text: "*"
+                              - combobox "Bitte gib Deine Nationalität an:" [ref=f1e499]
+                            - status [ref=f1e506]
+                        - generic:
+                          - paragraph
+                    - generic [ref=f1e508]:
+                      - generic [ref=f1e511]:
+                        - generic [ref=f1e517] [cursor=pointer]:
+                          - generic: Wann ist dein frühester Eintrittstermin? (TT.MM.JJJJ)
+                          - text: "*"
+                        - textbox "Wann ist dein frühester Eintrittstermin? (TT.MM.JJJJ)" [ref=f1e521]:
+                          - /placeholder: ""
+                        - generic:
+                          - paragraph
+                      - generic [ref=f1e522]: 0/200
+                    - generic [ref=f1e526]:
+                      - generic [ref=f1e529]:
+                        - generic [ref=f1e535] [cursor=pointer]:
+                          - generic: Wie hoch sind deine Gehaltsvorstellungen? Bitte gib die Währung mit an. (z.B. EUR, USD)
+                          - text: "*"
+                        - textbox "Wie hoch sind deine Gehaltsvorstellungen? Bitte gib die Währung mit an. (z.B. EUR, USD)" [ref=f1e539]:
+                          - /placeholder: ""
+                        - generic:
+                          - paragraph
+                      - generic [ref=f1e540]: 0/200
+                    - generic "Auf welchen Zeitraum bezieht sich deine Gehaltsvorstellung? auswählen" [ref=f1e545]:
+                      - generic [ref=f1e548]:
+                        - generic:
+                          - status [ref=f1e549]
+                          - generic [ref=f1e551]:
+                            - generic [ref=f1e556]:
+                              - generic [ref=f1e561] [cursor=pointer]:
+                                - generic: Auf welchen Zeitraum bezieht sich deine Gehaltsvorstellung?
+                                - text: "*"
+                              - combobox "Auf welchen Zeitraum bezieht sich deine Gehaltsvorstellung?" [ref=f1e565]
+                            - status [ref=f1e572]
+                        - generic:
+                          - paragraph
+                    - 'generic "Freiwillige Angabe: Teile uns mit, ob bei dir eine Schwerbehinderung oder Gleichstellung vorliegt: auswählen" [ref=f1e575]':
+                      - generic [ref=f1e578]:
+                        - generic:
+                          - status [ref=f1e579]
+                          - generic [ref=f1e581]:
+                            - generic [ref=f1e586]:
+                              - generic: "Freiwillige Angabe: Teile uns mit, ob bei dir eine Schwerbehinderung oder Gleichstellung vorliegt:"
+                              - 'combobox "Freiwillige Angabe: Teile uns mit, ob bei dir eine Schwerbehinderung oder Gleichstellung vorliegt:" [ref=f1e595]'
+                            - status [ref=f1e602]
+                        - generic:
+                          - paragraph
+                    - generic [ref=f1e608]:
+                      - generic [ref=f1e615] [cursor=pointer]:
+                        - strong [ref=f1e616]: Für uns ist die Vielfalt unserer Mitarbeiter:innen entscheidend für Kreativität, Innovation und unternehmerischen Erfolg. Wir wollen Vielfalt auf allen Ebenen und in jeder Hinsicht weiter steigern. Menschen mit Behinderung tragen zu dieser Vielfalt bei und sind bei uns sehr willkommen!
+                        - text: Damit wir die zuständige Schwerbehindertenvertretung über den Eingang deiner Bewerbung informieren können (§ 164 I SGB IX), benötigen wir deine freiwillige Unterstützung.
+                      - generic:
+                        - paragraph
+              - generic [ref=f1e621]:
+                - paragraph [ref=f1e623]:
+                  - generic:
+                    - text: Hier findest du Einzelheiten zu unserer
+                    - link "Datenschutzerklärung" [ref=f1e624] [cursor=pointer]:
+                      - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+                    - text: .
+                - generic [ref=f1e627]:
+                  - checkbox "Alles auswählen - wird alles ausgewählt, werden die untenstehenden Kontrollkästchen bestätigt." [ref=f1e630] [cursor=pointer]
+                  - generic [ref=f1e631]:
+                    - generic: Alles auswählen - wird alles ausgewählt, werden die untenstehenden Kontrollkästchen bestätigt.
+                    - generic:
+                      - paragraph
+                - separator [ref=f1e637]
+                - generic [ref=f1e640]:
+                  - checkbox [ref=f1e643] [cursor=pointer]
+                  - generic [ref=f1e644]:
+                    - generic [ref=f1e649] [cursor=pointer]:
+                      - paragraph [ref=f1e652]:
+                        - text: Ich willige ein, dass die von mir freiwillig gemachten optionalen Angaben und Dokumente ausschließlich für diese konkrete Bewerbung verarbeitet werden, um meine Eignung zu prüfen und mit mir zu kommunizieren. Zugriff erhalten nur die am Prozess beteiligten Stellen. Eine Nutzung für einen Talentpool erfolgt nur, wenn ich dem gesondert zustimme. Ich kann diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen. Soweit ich stellenspezifische Angaben zur Chancengleichheit mache, willige ich außerdem ausdrücklich ein, dass diese Daten getrennt von den übrigen Bewerbungsdaten ausschließlich zu Gleichstellungszwecken und nur für die konkrete Stelle verarbeitet werden. Rechtsgrundlagen sind Art. 6 Abs. 1 Buchst. a DSGVO und – für Chancengleichheitsangaben – Art. 9 Abs. 2 Buchst. a DSGVO. Mir ist bewusst, dass meine Daten bei Bewerbungen auf Jobs von Unternehmen in Drittländern auch in diesen verarbeitet werden (Art. 49 DSGVO). Weitere Informationen finde ich in den
+                        - link "Datenschutzhinweisen" [ref=f1e653]:
+                          - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+                        - text: .
+                      - text: "*"
+                    - generic:
+                      - paragraph
+                - generic [ref=f1e656]:
+                  - checkbox [ref=f1e659] [cursor=pointer]
+                  - generic [ref=f1e660]:
+                    - paragraph [ref=f1e668] [cursor=pointer]:
+                      - text: Ich willige ein, dass mein Bewerberprofil (allgemeine Profilangaben und – soweit von mir freiwillig hinterlegt – optionale Angaben/Dokumente) in den Kandidaten-/Talentpool aufnimmt, damit zugriffsberechtigte Recruiter*innen der Bertelsmann-Unternehmen, Bertelsmann Stiftungen und ausgewählten Partnerunternehmen mein Profil manuell mit offenen Positionen abgleichen und mich proaktiv kontaktieren dürfen (Art. 6 Abs. 1 lit. a DSGVO). Stellenspezifische Angaben aus laufenden Bewerbungen sind nicht Bestandteil des Pools. Es kann zu Datenübermittlungen in Drittländer kommen; hierfür nutzen wir Art. 45/46 DSGVO (Angemessenheitsbe-schluss/Standardvertragsklauseln), ausnahmsweise stützt sich die Übermittlung auf meine ausdrückliche Einwilligung (Art. 49 Abs. 1 lit. a DSGVO). Widerruf jederzeit möglich; laufende Einzelbewerbungen bleiben unberührt. Weitere Informationen finde ich in den
+                      - link "Datenschutzhinweisen" [ref=f1e669]:
+                        - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+                      - text: .
+                    - generic:
+                      - paragraph
+              - generic [ref=f1e672]:
+                - button "Zurück" [ref=f1e676] [cursor=pointer]
+                - button "Absenden" [ref=f1e682] [cursor=pointer]
+              - generic [ref=f1e686]:
+                - link "Datenschutzerklärung, wird in neuem Tab geöffnet" [ref=f1e687] [cursor=pointer]:
+                  - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+                  - text: Datenschutzerklärung
+                - link "Impressum, wird in neuem Tab geöffnet" [ref=f1e688] [cursor=pointer]:
+                  - /url: https://createyourowncareer.de/impressum
+                  - text: Impressum
+          - generic [ref=f1e217]:
+            - img "SmartRecruiters - Logo" [ref=f1e220]
+            - button "Cookie-Einstellungen" [ref=f1e222] [cursor=pointer]
+        - generic:
+          - generic:
+            - status
+            - alert

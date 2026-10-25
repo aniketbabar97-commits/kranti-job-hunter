@@ -1,0 +1,29 @@
+- generic [ref=f19e2]:
+  - navigation [ref=f19e6]:
+    - generic [ref=f19e7]:
+      - link [ref=f19e8] [cursor=pointer]:
+        - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+        - img "Company Logo" [ref=f19e9]
+      - button "Toggle navigation" [ref=f19e10] [cursor=pointer]
+  - generic [ref=f19e20]:
+    - paragraph [ref=f19e21]: Vielen Dank für Ihre Bewerbung!
+    - paragraph [ref=f19e22]: Ihre Bewerbung wurde erfolgreich an uns übermittelt.
+    - paragraph
+    - paragraph
+    - paragraph
+    - paragraph
+  - contentinfo [ref=f19e24]:
+    - paragraph [ref=f19e26]: © Ensinger
+    - list [ref=f19e28]:
+      - listitem [ref=f19e29]:
+        - link "Datenschutzerklärung" [ref=f19e30] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+      - listitem [ref=f19e31]:
+        - link "Impressum" [ref=f19e32] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/impressum
+      - listitem [ref=f19e33]:
+        - link "Allgemeine Geschäftsbedingungen" [ref=f19e34] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+      - listitem [ref=f19e35]:
+        - link "Cookie-Einstellungen" [ref=f19e36] [cursor=pointer]:
+          - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

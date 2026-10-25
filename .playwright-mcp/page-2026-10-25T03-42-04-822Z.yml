@@ -1,0 +1,348 @@
+- generic [active] [ref=f129e1]:
+  - region [ref=f129e2]:
+    - generic [ref=f129e3]:
+      - generic [ref=f129e5]:
+        - img "logo" [ref=f129e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f129e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=f129e36]:
+        - tab "Consent" [selected] [ref=f129e37] [cursor=pointer]
+        - tab "Details" [ref=f129e38] [cursor=pointer]
+        - tab "About" [ref=f129e39] [cursor=pointer]
+      - tabpanel "Consent" [ref=f129e41]:
+        - generic [ref=f129e43]:
+          - heading "This website uses cookies" [level=2] [ref=f129e44]
+          - generic [ref=f129e45]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+      - generic [ref=f129e49]:
+        - button "Decline" [ref=f129e50] [cursor=pointer]
+        - button "Customize" [ref=f129e51] [cursor=pointer]
+        - button "Allow all cookies" [ref=f129e53] [cursor=pointer]
+  - banner [ref=f129e55]:
+    - generic [ref=f129e58]:
+      - link [ref=f129e60] [cursor=pointer]:
+        - /url: https://severin.com/de-de
+        - img "severin-logo" [ref=f129e61]
+      - list [ref=f129e63]:
+        - listitem [ref=f129e64]:
+          - button [ref=f129e65] [cursor=pointer]
+        - listitem [ref=f129e67]:
+          - button [ref=f129e68] [cursor=pointer]
+        - listitem [ref=f129e70] [cursor=pointer]
+        - listitem [ref=f129e72] [cursor=pointer]
+        - listitem [ref=f129e74]:
+          - button [ref=f129e75] [cursor=pointer]
+  - navigation [ref=f129e79]:
+    - link "Karriere" [ref=f129e81] [cursor=pointer]:
+      - /url: https://severin.com/de-de/karriere/
+  - main [ref=f129e82]:
+    - generic [ref=f129e84]:
+      - heading "Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d)" [level=4] [ref=f129e85]
+      - img "Banner_Stellenausschreibungen_2025_GPTW-2" [ref=f129e86]
+      - generic [ref=f129e87]:
+        - generic [ref=f129e88]: "Standort: Sundern"
+        - generic [ref=f129e90]:
+          - generic [ref=f129e91]: "Pensum: Vollzeit"
+          - generic [ref=f129e92]: "Erfahrung: Berufserfahren"
+      - generic [ref=f129e93]:
+        - heading "Möglichkeiten. Seit 1892." [level=3] [ref=f129e94]
+        - paragraph [ref=f129e95]: "Bei Severin geht es um mehr als nur Haushaltsgeräte. Wir schaffen echte Möglichkeiten. Seit über 130 Jahren entwickeln wir Produkte, die den Alltag leichter machen: mit Qualität, die bleibt, Design, das begeistert, und Technik, die nicht überfordert, sondern unterstützt."
+        - paragraph [ref=f129e96]: "Unsere Mission: Premium für alle. Wir glauben, dass hochwertige, langlebige Produkte kein Privileg für wenige sein dürfen, sondern für alle Menschen zugänglich sein sollten. Und genau daran arbeiten wir. Jeden Tag. Mit Leidenschaft, Weitblick und einem Team, das mehr will, als nur mitlaufen."
+        - paragraph [ref=f129e97]: "Was uns ausmacht? Echte Ideen, kurze Wege, viel Vertrauen. Bei uns wird nicht nur mitgearbeitet, sondern mitgestaltet. Mit Herz, Haltung und einem klaren Ziel vor Augen: Möglich machen."
+        - paragraph [ref=f129e98]: Du willst mit deiner Arbeit echten Mehrwert schaffen und auch ein*e Möglichmacher*in sein? Dann gestalte mit uns Premium für alle.
+        - paragraph [ref=f129e99]: Zur Verstärkung unseres IT & Digitalization Teams in Sundern (mit der Möglichkeit für mobiles Arbeiten) suchen wir ab sofort einen
+        - paragraph [ref=f129e100]:
+          - strong [ref=f129e101]:
+            - strong [ref=f129e102]: Senior IT Manager Digital Platforms & Enterprise Applications
+            - strong [ref=f129e103]: (m/w/d)
+        - heading "Hallo deine Verantwortung" [level=3] [ref=f129e104]
+        - paragraph [ref=f129e105]: "Als Senior IT Manager Digital Platforms & Enterprise Applications übernimmst du eine zentrale Rolle für die Weiterentwicklung und den nachhaltigen Betrieb unserer digitalen Applikations- und Plattformlandschaft. Du verbindest Enterprise Applications, Integration, digitale Plattformen, IT-Projektmanagement und Providersteuerung und sorgst gemeinsam mit unseren Fachbereichen, internen IT-Spezialisten und Technologiepartnern für eine sichere, skalierbare und langfristig beherrschbare IT-Landschaft. Im Einzelnen gehören dazu folgende Themen:"
+        - list [ref=f129e107]:
+          - listitem [ref=f129e108]:
+            - strong [ref=f129e109]: "Enterprise Applications & Digital Platforms:"
+            - text: Du entwickelst unsere Enterprise-Applikationslandschaft strategisch und operativ weiter – mit SAP S/4HANA Private Cloud als zentralem ERP-System sowie SAP BTP, Cloud-, SaaS- und Plattformlösungen.
+          - listitem [ref=f129e110]:
+            - strong [ref=f129e111]: "Enterprise Architecture:"
+            - text: Du gestaltest gemeinsam mit dem Director IT & Digitalization eine skalierbare und wartbare Architektur, definierst technische Standards und bewertest neue Lösungen hinsichtlich Architektur, Nutzen, Aufwand und Risiken.
+          - listitem [ref=f129e112]:
+            - strong [ref=f129e113]: "Integration & E-Commerce:"
+            - text: Du steuerst die Weiterentwicklung unserer API-, EDI- und BTP-basierten Integrationen und stellst stabile End-to-End-Prozesse zwischen SAP, Webshop, Marktplätzen und weiteren externen Systemen sicher.
+          - listitem [ref=f129e114]:
+            - strong [ref=f129e115]: "Application Lifecycle Management:"
+            - text: Du etablierst klare Application-Ownership-Strukturen, steuerst Releases und Changes, entwickelst Roadmaps weiter und planst Migrationen sowie die Ablösung von Systemen und technischen Altlasten.
+          - listitem [ref=f129e116]:
+            - strong [ref=f129e117]: "Security & Governance by Design:"
+            - text: Gemeinsam mit IT Security & Governance integrierst du Security, Datenschutz, Berechtigungen, Third-Party-Risiken, Business Continuity sowie Lifecycle- und Exit-Anforderungen frühzeitig in Architektur- und Lösungsentscheidungen
+          - listitem [ref=f129e118]:
+            - strong [ref=f129e119]: "IT-Projekt- & Demand-Management:"
+            - text: Du strukturierst neue Anforderungen, priorisierst gemeinsam mit Business und IT und steuerst bereichsübergreifende Digitalisierungsprojekte inklusive Ressourcen-, Risiko- und Eskalationsmanagement.
+          - listitem [ref=f129e120]:
+            - strong [ref=f129e121]: IT
+            - strong [ref=f129e122]: "Service & Provider Management:"
+            - text: Du entwickelst unser Application-Management-Modell weiter, steuerst Incident-, Problem-, Change- und Release-Prozesse und führst SAP- und Technologiepartner über SLA, Servicequalität, Kosten und klare Verantwortlichkeiten.
+          - listitem [ref=f129e123]:
+            - strong [ref=f129e124]: "Architecture & Security Review:"
+            - text: Du etablierst gemeinsam mit IT Security & Governance einen verbindlichen Review-Prozess für neue Anwendungen, Plattformen und Integrationen und begleitest bei geschäftskritischen Systemen eine dokumentierte Go-Live-Readiness.
+          - listitem [ref=f129e125]:
+            - strong [ref=f129e126]: "Management & Zusammenarbeit:"
+            - text: Du bereitest technische und wirtschaftliche Entscheidungen belastbar vor, steuerst externe Spezialisten auf Augenhöhe und übernimmst bei kritischen Projekten und Störungen operative Verantwortung
+        - heading "Hallo dein Potenzial" [level=3] [ref=f129e127]
+        - list [ref=f129e129]:
+          - listitem [ref=f129e130]: Du hast ein abgeschlossenes Studium im Bereich Informatik, Wirtschaftsinformatik oder eine vergleichbare Qualifikation.
+          - listitem [ref=f129e131]: Du bringst mehrjährige Berufserfahrung in einer verantwortlichen IT-Funktion und Erfahrung mit komplexen Enterprise-Applikationslandschaften mit.
+          - listitem [ref=f129e132]: Du verstehst integrierte Geschäftsprozesse und hast Erfahrung im IT-Projekt-, Provider- und Service-Management sowie mit Cloud-, Integrations- oder Plattformarchitekturen.
+          - listitem [ref=f129e133]: Idealerweise kennst du SAP S/4HANA, SAP BTP, Integration Suite / Cloud Integration, EDI, APIs, E-Commerce oder vergleichbare Commerce- und Plattformlösungen.
+          - listitem [ref=f129e134]: Kenntnisse in Jira / Confluence, ITIL sowie Cloud- und SaaS-Architekturen sind von Vorteil.
+          - listitem [ref=f129e135]: Du musst nicht in jeder Technologie operativer Spezialist sein – entscheidend ist, dass du technische Zusammenhänge verstehst, Architekturentscheidungen beurteilen und Spezialisten fachlich steuern kannst.
+          - listitem [ref=f129e136]: Du übernimmst eigenständig Verantwortung, priorisierst konsequent, denkst wirtschaftlich und kommunizierst sicher mit Fachbereichen, Technologiepartnern und Management.
+          - listitem [ref=f129e137]: Du möchtest perspektivisch weitergehende Verantwortung für Enterprise Applications, Integration und digitale Plattformen innerhalb von IT & Digitalization übernehmen.
+        - heading "Hallo deine Möglichmacher*innen-Vorteile" [level=3] [ref=f129e138]
+        - list [ref=f129e140]:
+          - listitem [ref=f129e141]: "Du wirst Teil eines Teams, dass auf Augenhöhe zusammenarbeitet: In dem neue Ideen gefragt sind. Und in dem du spürst: Du bist nicht nur eine weitere Personalnummer, du gestaltest mit."
+          - listitem [ref=f129e142]: "Globale Teamarbeit: Wir arbeiten gemeinsam über Abteilungs- und Ländergrenzen hinweg an unserer Vision, Premium-Haushaltsgeräte für alle bezahlbar zu ermöglichen."
+          - listitem [ref=f129e143]: "Come as you are: Bei uns zählt nicht das Wie, sondern das Ergebnis. Wir stehen für echtes Vertrauen, Flexibilität und ein Umfeld, in dem du dich wohlfühlst."
+          - listitem [ref=f129e144]: "Deine Gesundheit wird bei uns groß geschrieben: Kostenfreies Wasser & Kaffee, frisches Obst und ein gut gefüllter Brotkorb, 30 Tage Urlaub, Zuschüsse zu Firmenfitness, kostenlose E-Bike oder E-Auto Ladestationen oder Aktionen mit Krankenkassen."
+          - listitem [ref=f129e145]: "Business Bike, Altersvorsorge oder gemeinsam Teamevents: Wir feiern kleine Gesten genauso wie große Erfolge."
+          - listitem [ref=f129e146]: "Vergünstigungen: Profitiere von attraktiven Rabatten auf unser gesamtes Severin Sortiment und über Corporate Benefits auch bei vielen weiteren Marken."
+          - listitem [ref=f129e147]: "Sprachen lernen leicht gemacht: Du willst deine kommunikativen Fähigkeiten verbessern? Mit unserem 1:1 Sprachcoaching via Preply geht das ganz flexibel."
+        - paragraph [ref=f129e148]:
+          - strong [ref=f129e149]: Klingt nach deinem Ding?
+        - paragraph
+    - generic [ref=f129e151]:
+      - heading "Bewirb dich und sag Hallo Möglichkeiten. Hallo neuer Job. Hallo zu deinem Platz bei Severin." [level=5] [ref=f129e152]
+      - link "Jetzt bewerben," [ref=f129e153] [cursor=pointer]:
+        - /url: https://severin-elektrogeraete.talentstorm.de/bewerbung/senior-it-manager-digital-platforms-enterprise-applications-m-w-d-28008
+    - generic [ref=f129e155]:
+      - heading "Deine Severin-Möglichmacher:" [level=5] [ref=f129e156]
+      - generic [ref=f129e158]:
+        - generic [ref=f129e160]:
+          - img "Vanessa_Hegemann" [ref=f129e161]
+          - generic [ref=f129e162]:
+            - generic [ref=f129e163]: Head of People & Culture
+            - heading "Vanessa Hegemann" [level=5] [ref=f129e164]
+            - paragraph [ref=f129e165]:
+              - link "bewerbung@severin.de" [ref=f129e166] [cursor=pointer]:
+                - /url: mailto:bewerbung@severin.de
+        - generic [ref=f129e168]:
+          - img "Immanuel Möller" [ref=f129e169]
+          - generic [ref=f129e170]:
+            - generic [ref=f129e171]: Director Global IT & Digitalization
+            - heading "Immanuel Möller" [level=5] [ref=f129e172]
+            - paragraph [ref=f129e173]
+  - contentinfo [ref=f129e174]:
+    - generic [ref=f129e175]:
+      - link [ref=f129e177] [cursor=pointer]:
+        - /url: https://severin.com/de-de
+        - img "severin logo light" [ref=f129e178]
+      - generic [ref=f129e180]:
+        - generic [ref=f129e181]:
+          - heading "Newsletter" [level=6] [ref=f129e182]
+          - paragraph [ref=f129e183]: Melde Dich jetzt an und erhalte einen 15% Gutschein für Deinen nächsten Einkauf.
+          - generic [ref=f129e185]:
+            - textbox "Deine E-Mail Adresse *" [ref=f129e186]:
+              - /placeholder: email@example.com
+            - button [ref=f129e187] [cursor=pointer]
+            - generic [ref=f129e189] [cursor=pointer]: Deine E-Mail Adresse *
+        - navigation [ref=f129e190]:
+          - generic [ref=f129e191]:
+            - button "Kategorien":
+              - heading "Kategorien" [level=6]
+            - list [ref=f129e193]:
+              - listitem [ref=f129e194]:
+                - link "Wohlbefinden & Komfort" [ref=f129e195] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/wohlbefinden-komfort/
+              - listitem [ref=f129e196]:
+                - link "Reinigung & Ordnung" [ref=f129e197] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/reinigung-und-ordnung/
+              - listitem [ref=f129e198]:
+                - link "Ernährung & Zubereitung" [ref=f129e199] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ernaehrung-und-zubereitung/
+              - listitem [ref=f129e200]:
+                - link "Grillen & Geselligkeit" [ref=f129e201] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/grillen-geselligkeit/
+              - listitem [ref=f129e202]:
+                - link "Angebote" [ref=f129e203] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/angebote/sale/
+          - generic [ref=f129e204]:
+            - button "Hilfe & Kontakt":
+              - heading "Hilfe & Kontakt" [level=6]
+            - list [ref=f129e206]:
+              - listitem [ref=f129e207]:
+                - link "AGB Onlineshop" [ref=f129e208] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/agb/
+              - listitem [ref=f129e209]:
+                - link "AGB Handelskunden" [ref=f129e210] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/agb-handelskunden/
+              - listitem [ref=f129e211]:
+                - link "Versandinformationen" [ref=f129e212] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/versandinformationen/
+              - listitem [ref=f129e213]:
+                - link "Zahlungsmöglichkeiten" [ref=f129e214] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/zahlungsmethoden/
+              - listitem [ref=f129e215]:
+                - link "Widerrufsbelehrung" [ref=f129e216] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/widerrufsbelehrung/
+              - listitem [ref=f129e217]:
+                - link "Kontakt" [ref=f129e218] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/contacts/
+              - listitem [ref=f129e219]:
+                - link "Downloads" [ref=f129e220] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/downloads/
+              - listitem [ref=f129e221]:
+                - link "Rücknahme und Entsorgung von Altgeräten" [ref=f129e222] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ruecknahme-und-entsorgung-von-altgeraeten/
+              - listitem [ref=f129e223]:
+                - link "Vertrag widerrufen" [ref=f129e224] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/vertrag-widerrufen/
+          - generic [ref=f129e225]:
+            - button "Unternehmen":
+              - heading "Unternehmen" [level=6]
+            - list [ref=f129e227]:
+              - listitem [ref=f129e228]:
+                - link "Unser Unternehmen" [ref=f129e229] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/about-us/
+              - listitem [ref=f129e230]:
+                - link "Pressemitteilung" [ref=f129e231] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/pressemitteilungen/
+              - listitem [ref=f129e232]:
+                - link "Karriere" [ref=f129e233] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/karriere/
+              - listitem [ref=f129e234]:
+                - link "Blogazine" [ref=f129e235] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/blogazine/
+              - listitem [ref=f129e236]:
+                - link "Ersatzteilshop" [ref=f129e237] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/ersatzteile/
+              - listitem [ref=f129e238]:
+                - link "Ökodesign-Verordnung" [ref=f129e239] [cursor=pointer]:
+                  - /url: https://severin.com/wp-content/uploads/2026/06/ErP-Overview_DE.pdf
+              - listitem [ref=f129e240]:
+                - link "Barrierefreiheitserklärung" [ref=f129e241] [cursor=pointer]:
+                  - /url: https://severin.com/de-de/barrierefreiheit/
+    - generic [ref=f129e244]:
+      - img "german-quality-image" [ref=f129e246]
+      - generic [ref=f129e248]:
+        - heading "Bezahlarten" [level=6] [ref=f129e249]
+        - list [ref=f129e250]:
+          - listitem [ref=f129e251]:
+            - img "payment-klarna" [ref=f129e252]
+          - listitem [ref=f129e253]:
+            - img "payment-mastercard" [ref=f129e254]
+          - listitem [ref=f129e255]:
+            - img "payment-apple-pay" [ref=f129e256]
+          - listitem [ref=f129e257]:
+            - img "payment-visa" [ref=f129e258]
+          - listitem [ref=f129e259]:
+            - img "paument-google-pay" [ref=f129e260]
+          - listitem [ref=f129e261]:
+            - img "payment-paypal" [ref=f129e262]
+      - link [ref=f129e263] [cursor=pointer]:
+        - /url: https://severin.com/about-us
+        - img "Greate place to work" [ref=f129e264]
+    - generic [ref=f129e266]:
+      - list [ref=f129e267]:
+        - listitem [ref=f129e268]:
+          - link [ref=f129e269] [cursor=pointer]:
+            - /url: https://www.facebook.com/my.severin
+        - listitem [ref=f129e270]:
+          - link [ref=f129e271] [cursor=pointer]:
+            - /url: https://www.instagram.com/severin_de/
+        - listitem [ref=f129e272]:
+          - link [ref=f129e273] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@severin_de
+        - listitem [ref=f129e274]:
+          - link [ref=f129e275] [cursor=pointer]:
+            - /url: https://www.youtube.com/user/SeverinDE
+        - listitem [ref=f129e276]:
+          - link [ref=f129e277] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/severin-elektroger-te-gmbh
+      - navigation [ref=f129e278]:
+        - generic [ref=f129e279] [cursor=pointer]: DE
+        - list [ref=f129e284]:
+          - listitem [ref=f129e285]:
+            - link "Impressum" [ref=f129e286] [cursor=pointer]:
+              - /url: https://severin.com/de-de/impressum/
+          - listitem [ref=f129e287]:
+            - link "Datenschutzerklärung" [ref=f129e288] [cursor=pointer]:
+              - /url: https://severin.com/de-de/datenschutzerklarung/
+          - listitem [ref=f129e289]:
+            - link "AGB" [ref=f129e290] [cursor=pointer]:
+              - /url: https://severin.com/de-de/agb/
+          - listitem [ref=f129e291]:
+            - link "Cookie-Einstellungen" [ref=f129e292] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f129e293]:
+            - generic [ref=f129e294]: ©Severin
+  - button "Toggle Accessibility Toolbar" [ref=f129e295] [cursor=pointer]
+  - navigation "Accessibility Options" [ref=f129e296]:
+    - generic [ref=f129e298]:
+      - generic [ref=f129e299]:
+        - combobox "Select language" [ref=f129e300] [cursor=pointer]:
+          - img "Vereinigte Staaten" [ref=f129e302]
+          - paragraph [ref=f129e303]:
+            - generic [ref=f129e304]: English
+        - button "Close toolbar" [ref=f129e305] [cursor=pointer]
+        - generic [ref=f129e309]:
+          - generic [ref=f129e313]: Accessibility Adjustments
+          - generic [ref=f129e315]:
+            - paragraph [ref=f129e317]:
+              - generic [ref=f129e318]: Powered by
+              - link "OneTap" [ref=f129e319] [cursor=pointer]:
+                - /url: https://wponetap.com/?utm_source=frontend-link&utm_medium=link&utm_campaign=ref-link-toolbar
+            - button "Setting toolbar" [ref=f129e323] [cursor=pointer]: Hide Toolbar
+      - generic [ref=f129e325]:
+        - generic [ref=f129e326]: Content Modules
+        - generic [ref=f129e328]:
+          - generic [ref=f129e331]:
+            - generic [ref=f129e332]: Font Size
+            - generic [ref=f129e333]:
+              - button "Schriftgröße erhöhen" [ref=f129e334] [cursor=pointer]
+              - paragraph [ref=f129e337]: Default
+              - button "Schriftgröße verringern" [ref=f129e338] [cursor=pointer]
+          - button "Readable Font" [ref=f129e340] [cursor=pointer]
+          - generic [ref=f129e349]:
+            - generic [ref=f129e350]: Line Height
+            - generic [ref=f129e351]:
+              - button "Zeilenhöhe erhöhen" [ref=f129e352] [cursor=pointer]
+              - paragraph [ref=f129e355]: Default
+              - button "Zeilenhöhe verringern" [ref=f129e356] [cursor=pointer]
+          - button "Big Cursor" [ref=f129e358] [cursor=pointer]
+          - button "Letter Spacing" [ref=f129e365] [cursor=pointer]
+          - button "Align Text" [ref=f129e372] [cursor=pointer]
+          - button "Font Weight" [ref=f129e380] [cursor=pointer]
+      - generic [ref=f129e388]:
+        - generic [ref=f129e389]: Color Modules
+        - generic [ref=f129e391]:
+          - button "Light Contrast" [ref=f129e392] [cursor=pointer]
+          - button "High Contrast" [ref=f129e399] [cursor=pointer]
+          - button "Monochrome" [ref=f129e406] [cursor=pointer]
+      - generic [ref=f129e414]:
+        - generic [ref=f129e415]: Orientation Modules
+        - generic [ref=f129e417]:
+          - button "Reading Line" [ref=f129e418] [cursor=pointer]
+          - button "Reading Mask" [ref=f129e425] [cursor=pointer]
+          - button "Hide Images" [ref=f129e432] [cursor=pointer]
+          - button "Highlight Content" [ref=f129e439] [cursor=pointer]
+          - button "Stop Animations" [ref=f129e446] [cursor=pointer]
+          - button "Highlight Links" [ref=f129e453] [cursor=pointer]
+      - generic [ref=f129e462]:
+        - generic [ref=f129e463]: Skip To Content
+        - combobox "Skip To Content" [ref=f129e464] [cursor=pointer]:
+          - option "Choose..." [selected]
+          - option "Main Content"
+          - option "Navigation"
+          - option "Footer"
+      - button "Reset all settings" [ref=f129e466] [cursor=pointer]: Reset Settings
+  - iframe [aria-hidden] [ref=f129e467]
+  - status [ref=f129e468]
+  - generic [ref=f129e469]:
+    - button "Trusted Shops Gütesiegel Käuferschutz 4,47 (5k) Gut Trstd Login" [ref=f129e470] [cursor=pointer]:
+      - generic [ref=f129e471]:
+        - img "Trusted Shops Gütesiegel" [ref=f129e472]
+        - generic [ref=f129e473]: Käuferschutz
+      - generic [ref=f129e475]:
+        - generic [ref=f129e476]:
+          - generic [ref=f129e477]: 4,47
+          - generic [ref=f129e479]: (5k)
+        - generic [ref=f129e480]: Gut
+      - switch "Trstd Login" [ref=f129e482]
+    - button "Menü" [ref=f129e484] [cursor=pointer]

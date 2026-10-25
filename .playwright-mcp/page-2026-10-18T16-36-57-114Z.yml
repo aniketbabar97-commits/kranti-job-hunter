@@ -1,0 +1,135 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e7]:
+    - generic [ref=f14e9]:
+      - generic [ref=f14e10]:
+        - img "Holz-Richter GmbH logo" [ref=f14e11]
+        - generic [ref=f14e12]:
+          - link [ref=f14e13] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter
+            - paragraph [ref=f14e14]: Holz-Richter GmbH
+          - link [ref=f14e15] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter/16831928-shopify-e-commerce-manager-product-owner-m-w-d
+            - paragraph [ref=f14e16]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f14e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f14e20]: KC
+        - generic [ref=f14e21]: Kranti Chavan
+    - generic [ref=f14e104]:
+      - heading "Wann wäre Ihr frühestmögliches Startdatum?" [level=2] [ref=f14e105]
+      - application "calendar" [ref=f14e109]:
+        - generic [ref=f14e110]:
+          - generic [ref=f14e111]:
+            - button "Switch to previous month" [ref=f14e112]:
+              - generic "IconButton" [ref=f14e113] [cursor=pointer]
+            - generic [ref=f14e116]:
+              - generic [ref=f14e117]:
+                - log [ref=f14e119]
+                - generic [ref=f14e121] [cursor=pointer]:
+                  - paragraph [ref=f14e123]: Oktober
+                  - combobox [ref=f14e125]
+              - generic [ref=f14e126]:
+                - log [ref=f14e128]
+                - generic [ref=f14e130] [cursor=pointer]:
+                  - paragraph [ref=f14e132]: "2026"
+                  - combobox [ref=f14e134]
+            - button "Switch to next month" [ref=f14e135]:
+              - generic "IconButton" [ref=f14e136] [cursor=pointer]
+          - grid [ref=f14e140]:
+            - rowgroup [aria-hidden] [ref=f14e141]:
+              - row [ref=f14e142]:
+                - columnheader [ref=f14e143]:
+                  - generic [ref=f14e144]: Mo
+                - columnheader [ref=f14e145]:
+                  - generic [ref=f14e146]: Di
+                - columnheader [ref=f14e147]:
+                  - generic [ref=f14e148]: Mi
+                - columnheader [ref=f14e149]:
+                  - generic [ref=f14e150]: Do
+                - columnheader [ref=f14e151]:
+                  - generic [ref=f14e152]: Fr
+                - columnheader [ref=f14e153]:
+                  - generic [ref=f14e154]: Sa
+                - columnheader [ref=f14e155]:
+                  - generic [ref=f14e156]: So
+            - rowgroup [ref=f14e157]:
+              - row [ref=f14e158]:
+                - gridcell [ref=f14e159]:
+                  - button "Choose Montag, 28. September 2026" [ref=f14e161] [cursor=pointer]: "28"
+                - gridcell [ref=f14e162]:
+                  - button "Choose Dienstag, 29. September 2026" [ref=f14e164] [cursor=pointer]: "29"
+                - gridcell [ref=f14e165]:
+                  - button "Choose Mittwoch, 30. September 2026" [ref=f14e167] [cursor=pointer]: "30"
+                - gridcell [ref=f14e168]:
+                  - button "Choose Donnerstag, 1. Oktober 2026" [ref=f14e170] [cursor=pointer]: "1"
+                - gridcell [ref=f14e171]:
+                  - button "Choose Freitag, 2. Oktober 2026" [ref=f14e173] [cursor=pointer]: "2"
+                - gridcell [ref=f14e174]:
+                  - button "Choose Samstag, 3. Oktober 2026" [ref=f14e176] [cursor=pointer]: "3"
+                - gridcell [ref=f14e177]:
+                  - button "Choose Sonntag, 4. Oktober 2026" [ref=f14e179] [cursor=pointer]: "4"
+              - row [ref=f14e180]:
+                - gridcell [ref=f14e181]:
+                  - button "Choose Montag, 5. Oktober 2026" [ref=f14e183] [cursor=pointer]: "5"
+                - gridcell [ref=f14e184]:
+                  - button "Choose Dienstag, 6. Oktober 2026" [ref=f14e186] [cursor=pointer]: "6"
+                - gridcell [ref=f14e187]:
+                  - button "Choose Mittwoch, 7. Oktober 2026" [ref=f14e189] [cursor=pointer]: "7"
+                - gridcell [ref=f14e190]:
+                  - button "Choose Donnerstag, 8. Oktober 2026" [ref=f14e192] [cursor=pointer]: "8"
+                - gridcell [ref=f14e193]:
+                  - button "Choose Freitag, 9. Oktober 2026" [ref=f14e195] [cursor=pointer]: "9"
+                - gridcell [ref=f14e196]:
+                  - button "Choose Samstag, 10. Oktober 2026" [ref=f14e198] [cursor=pointer]: "10"
+                - gridcell [ref=f14e199]:
+                  - button "Choose Sonntag, 11. Oktober 2026" [ref=f14e201] [cursor=pointer]: "11"
+              - row [ref=f14e202]:
+                - gridcell [ref=f14e203]:
+                  - button "Choose Montag, 12. Oktober 2026" [ref=f14e205] [cursor=pointer]: "12"
+                - gridcell [ref=f14e206]:
+                  - button "Choose Dienstag, 13. Oktober 2026" [ref=f14e208] [cursor=pointer]: "13"
+                - gridcell [ref=f14e209]:
+                  - button "Choose Mittwoch, 14. Oktober 2026" [ref=f14e211] [cursor=pointer]: "14"
+                - gridcell [ref=f14e212]:
+                  - button "Choose Donnerstag, 15. Oktober 2026" [ref=f14e214] [cursor=pointer]: "15"
+                - gridcell [ref=f14e215]:
+                  - button "Choose Freitag, 16. Oktober 2026" [ref=f14e217] [cursor=pointer]: "16"
+                - gridcell [ref=f14e218]:
+                  - button "Choose Samstag, 17. Oktober 2026" [ref=f14e220] [cursor=pointer]: "17"
+                - gridcell [ref=f14e221]:
+                  - button "Choose Sonntag, 18. Oktober 2026" [ref=f14e223] [cursor=pointer]: • 18
+              - row [ref=f14e224]:
+                - gridcell [ref=f14e225]:
+                  - button "Choose Montag, 19. Oktober 2026" [ref=f14e227] [cursor=pointer]: "19"
+                - gridcell [ref=f14e228]:
+                  - button "Choose Dienstag, 20. Oktober 2026" [ref=f14e230] [cursor=pointer]: "20"
+                - gridcell [ref=f14e231]:
+                  - button "Choose Mittwoch, 21. Oktober 2026" [ref=f14e233] [cursor=pointer]: "21"
+                - gridcell [ref=f14e234]:
+                  - button "Choose Donnerstag, 22. Oktober 2026" [ref=f14e236] [cursor=pointer]: "22"
+                - gridcell [ref=f14e237]:
+                  - button "Choose Freitag, 23. Oktober 2026" [ref=f14e239] [cursor=pointer]: "23"
+                - gridcell [ref=f14e240]:
+                  - button "Choose Samstag, 24. Oktober 2026" [ref=f14e242] [cursor=pointer]: "24"
+                - gridcell [ref=f14e243]:
+                  - button "Choose Sonntag, 25. Oktober 2026" [ref=f14e245] [cursor=pointer]: "25"
+              - row [ref=f14e246]:
+                - gridcell [ref=f14e247]:
+                  - button "Choose Montag, 26. Oktober 2026" [ref=f14e249] [cursor=pointer]: "26"
+                - gridcell [ref=f14e250]:
+                  - button "Choose Dienstag, 27. Oktober 2026" [ref=f14e252] [cursor=pointer]: "27"
+                - gridcell [ref=f14e253]:
+                  - button "Choose Mittwoch, 28. Oktober 2026" [ref=f14e255] [cursor=pointer]: "28"
+                - gridcell [ref=f14e256]:
+                  - button "Choose Donnerstag, 29. Oktober 2026" [ref=f14e258] [cursor=pointer]: "29"
+                - gridcell [ref=f14e259]:
+                  - button "Choose Freitag, 30. Oktober 2026" [ref=f14e261] [cursor=pointer]: "30"
+                - gridcell [ref=f14e262]:
+                  - button "Choose Samstag, 31. Oktober 2026" [ref=f14e264] [cursor=pointer]: "31"
+                - gridcell [ref=f14e265]:
+                  - button "Choose Sonntag, 1. November 2026" [ref=f14e267] [cursor=pointer]: "1"
+    - generic [ref=f14e36]:
+      - progressbar "43%" [ref=f14e268]
+      - generic [ref=f14e41]:
+        - button "Zurück" [ref=f14e84] [cursor=pointer]
+        - button "Weiter" [disabled] [ref=f14e49]
+  - alert [ref=f14e4]: "Holz-Richter (Lindlar): Shopify E-Commerce Manager / Product Owner (m/w/d)"
+  - region "Notifications, bottom-end (alt+T)"

@@ -1,0 +1,348 @@
+- generic [ref=f67e2]:
+  - banner [ref=f67e3]:
+    - link [ref=f67e5] [cursor=pointer]:
+      - /url: https://www.arbeitsagentur.de/
+      - img "Bundesagentur für Arbeit bringt weiter" [ref=f67e6]
+    - navigation [ref=f67e7]:
+      - heading "Hauptnavigation" [level=1] [ref=f67e8]
+      - list [ref=f67e9]:
+        - listitem [ref=f67e10]:
+          - button "Suche" [ref=f67e11] [cursor=pointer]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f67e13]:
+          - button "Anmelden" [ref=f67e14] [cursor=pointer]
+        - listitem [ref=f67e16]:
+          - button "Menü" [ref=f67e18] [cursor=pointer]
+  - main [ref=f67e21]:
+    - generic [ref=f67e23]:
+      - link "Zur Jobsuche Startseite" [ref=f67e25] [cursor=pointer]:
+        - /url: /jobsuche/
+      - generic [ref=f67e26]:
+        - region [ref=f67e27]:
+          - article [ref=f67e28]:
+            - region [ref=f67e31]:
+              - generic [ref=f67e32]:
+                - img "Logo des Arbeitgebers" [ref=f67e33]
+                - 'heading "Stellenangebot: Developer SAP Commerce (m/w/d) bei CANCOM SE" [level=1] [ref=f67e34]':
+                  - generic [ref=f67e35]: "Stellenangebot:"
+                  - generic [ref=f67e36]: Developer SAP Commerce (m/w/d)
+                  - generic [ref=f67e37]: bei
+                  - generic [ref=f67e38]: CANCOM SE
+                - heading "Das Wichtigste im Überblick" [level=2] [ref=f67e39]
+                - heading "Besondere Merkmale" [level=3] [ref=f67e40]
+                - generic [ref=f67e41]:
+                  - generic [ref=f67e44]:
+                    - heading "Arbeitsort" [level=3] [ref=f67e45]
+                    - generic [ref=f67e46]: verschiedene Arbeitsorte
+                  - generic [ref=f67e47]:
+                    - generic [ref=f67e48]: 
+                    - generic [ref=f67e49]:
+                      - heading "Angebotsart" [level=3] [ref=f67e50]
+                      - generic [ref=f67e51]: Arbeit
+                  - generic [ref=f67e54]:
+                    - heading "Anstellungsart" [level=3] [ref=f67e55]
+                    - generic [ref=f67e56]: Vollzeit
+                  - generic [ref=f67e59]:
+                    - heading "Befristung" [level=3] [ref=f67e60]
+                    - generic [ref=f67e61]: unbefristet
+                  - generic [ref=f67e62]:
+                    - generic [ref=f67e63]: 
+                    - generic [ref=f67e64]:
+                      - heading "Beginn" [level=3] [ref=f67e65]
+                      - generic [ref=f67e66]: ab sofort
+                - generic [ref=f67e68]:
+                  - generic [ref=f67e69]: 
+                  - generic [ref=f67e70]:
+                    - heading "Berufsbezeichnung" [level=3] [ref=f67e71]
+                    - list [ref=f67e72]:
+                      - listitem [ref=f67e73]: ERP-Organisator/in
+                - generic [ref=f67e74]:
+                  - button " Info zur Bewerbung" [ref=f67e75] [cursor=pointer]
+                  - button "Vormerken" [ref=f67e76] [cursor=pointer]:  Vormerken
+                  - button "Aktionen für das Stellenangebot 18935-2115497-S" [ref=f67e79] [cursor=pointer]:  Notiz / Status
+                  - button "PDF / Drucken" [ref=f67e80] [cursor=pointer]
+                  - button "Teilen" [ref=f67e81] [cursor=pointer]
+                - 'generic "Veröffentlichungsdatum: 28.01.2026" [ref=f67e86]':
+                  - generic [ref=f67e87]: "Veröffentlichungsdatum:"
+                  - text: Vor 30+ Tagen veröffentlicht
+            - region [ref=f67e90]:
+              - generic [ref=f67e91]:
+                - heading "Stellenbeschreibung" [level=2] [ref=f67e92]
+                - generic [ref=f67e95]:
+                  - heading "ÜBER CANCOM" [level=5] [ref=f67e96]
+                  - paragraph [ref=f67e97]: "Bei CANCOM erwartet dich ein innovatives, agiles und nachhaltiges Umfeld: Mehr als 5.600 Mitarbeiter arbeiten tagtäglich daran, mit Hilfe moderner IT-Lösungen die Zusammenarbeit und den Austausch in verschiedenen Lebensbereichen zu verbessern. Du hast Lust ein Teil davon zu sein und den nächsten Karriereschritt zu gehen? Dann werde Teil unserer Digital Journey. Wir freuen uns auf Menschen aus den unterschiedlichsten Fachrichtungen, die aufgeschlossen für Neues sind, innovative Einfälle haben und im Team gemeinsam Ziele voranbringen wollen."
+                  - heading "DEINE NEUEN AUFGABEN" [level=5] [ref=f67e98]
+                  - list [ref=f67e99]:
+                    - listitem [ref=f67e100]:
+                      - strong [ref=f67e101]: "Betrieb & Überwachung:"
+                      - text: Du unterstützt beim Monitoring der SAP Commerce Cloud Umgebungen, um Performance-Engpässe und Fehler frühzeitig zu erkennen.
+                    - listitem [ref=f67e102]:
+                      - strong [ref=f67e103]: "Qualitätssicherung:"
+                      - text: Du erstellst und wartest automatisierte Tests (Unit-, Integration- und UI-Tests), um eine hohe Release-Qualität sicherzustellen.
+                    - listitem [ref=f67e104]:
+                      - strong [ref=f67e105]: "CI/CD Pipeline:"
+                      - text: Du begleitest den Deployment-Prozess und arbeitest an der Optimierung unserer DevOps-Workflows
+                    - listitem [ref=f67e106]:
+                      - strong [ref=f67e107]: "Incident Management:"
+                      - text: Du unterstützt das Team bei der Fehlersuche und -behebung im laufenden Betrieb
+                    - listitem [ref=f67e108]:
+                      - strong [ref=f67e109]: "Feature-Entwicklung:"
+                      - text: Du arbeitest zusammen mit dem Team an der Implementierung von Shop-Funktionalitäten in Back- und Frontend
+                  - heading "DAS BRINGST DU MIT" [level=5] [ref=f67e110]
+                  - list [ref=f67e111]:
+                    - listitem [ref=f67e112]: Abgeschlossenes Studium der Informatik oder eine vergleichbare Ausbildung
+                    - listitem [ref=f67e113]: Erste Kenntnisse in Java und der Spring-Framework-Umgebung
+                    - listitem [ref=f67e114]: Grundverständnis von automatisiertem Software-Testing (z. B. JUnit) und der Funktionsweise von Cloud-Infrastrukturen
+                    - listitem [ref=f67e115]: Hohes Qualitätsbewusstsein, analytisches Denkvermögen und die Bereitschaft, tief in komplexe Systeme einzutauchen.
+                    - listitem [ref=f67e116]: Gute Deutsch- und Englischkenntnisse.
+                  - heading "UNSERE BENEFITS" [level=5] [ref=f67e117]
+                  - list [ref=f67e118]:
+                    - listitem [ref=f67e119]: Flexible Arbeitszeiten und Mobile Office in Abstimmung mit dem Vorgesetzten
+                    - listitem [ref=f67e120]: Rabatte dank dem Portal ,,Corporate Benefits"
+                    - listitem [ref=f67e121]: Bike-Leasing
+                    - listitem [ref=f67e122]: Kostenlose Getränke & Obst
+                    - listitem [ref=f67e123]: Weiterbildungsmöglichkeiten
+                    - listitem [ref=f67e124]: Mitarbeiterevents
+                - generic [ref=f67e125]:
+                  - heading "Arbeitsorte" [level=3] [ref=f67e126]
+                  - generic [ref=f67e127]:
+                    - button "Karte anzeigen" [ref=f67e129] [cursor=pointer]
+                    - list [ref=f67e130]:
+                      - listitem [ref=f67e131]:
+                        - link "Am Mittleren Moos 53, 86167 Augsburg, Bayern" [ref=f67e132] [cursor=pointer]:
+                          - /url: "javascript:"
+                        - generic "Arbeitsort kopieren" [ref=f67e134]:
+                          - button "Arbeitsort kopieren" [ref=f67e137] [cursor=pointer]
+                      - listitem [ref=f67e143]:
+                        - link "Erika-Mann-Straße 69, 80636 München" [ref=f67e144] [cursor=pointer]:
+                          - /url: "javascript:"
+                        - generic "Arbeitsort kopieren" [ref=f67e146]:
+                          - button "Arbeitsort kopieren" [ref=f67e149] [cursor=pointer]
+                      - listitem [ref=f67e155]:
+                        - link "Messerschmittstraße 20, 89343 Jettingen-Scheppach" [ref=f67e156] [cursor=pointer]:
+                          - /url: "javascript:"
+                        - generic "Arbeitsort kopieren" [ref=f67e158]:
+                          - button "Arbeitsort kopieren" [ref=f67e161] [cursor=pointer]
+            - region [ref=f67e169]:
+              - generic [ref=f67e170]:
+                - generic [ref=f67e171]:
+                  - img "Logo des Arbeitgebers" [ref=f67e172]
+                  - 'heading "Unternehmensdarstellung: CANCOM SE" [level=2] [ref=f67e174]':
+                    - generic [ref=f67e175]: "Unternehmensdarstellung:"
+                    - text: CANCOM SE
+                  - generic [ref=f67e176]:
+                    - generic [ref=f67e179]:
+                      - generic [ref=f67e180]: Hauptsitz
+                      - text: München
+                    - generic [ref=f67e181]:
+                      - generic [ref=f67e182]: 
+                      - generic [ref=f67e183]:
+                        - generic [ref=f67e184]: Gründung
+                        - text: "1992"
+                - generic [ref=f67e187]:
+                  - paragraph [ref=f67e188]: Als führender Digital Business Provider begleitet CANCOM Unternehmen, Organisationen und den öffentlichen Sektor in die digitale Zukunft. Das Leistungs- und Lösungsspektrum umfasst sowohl klassische Systemhaus-IT-Lösungen als auch datenbasierte Digital Solutions, Managed Services sowie Cloud Dienste. Mit Leidenschaft und Technologie begleiten wir die Digitale Evolution unserer Kunden und unterstützen sie dabei, die Komplexität ihrer IT zu reduzieren und neue Geschäftsmodelle zu entwickeln. Dafür bieten wir ein ganzheitliches Portfolio für alle IT- und Business-Anforderungen.
+                  - paragraph [ref=f67e189]: Das Angebot der CANCOM Gruppe umfasst innovative Lösungen in den Bereichen Artificial Intelligence, Security & Network, Datacenter & Cloud, IoT-Solutions sowie Modern Workplace und enthält Dienste für den gesamten IT-Lifecycle – von der Bereitstellung von IT-Infrastrukturen, über die Planung und Integration, bis hin zu Support-, Managed Services und XaaS. Kunden profitieren dabei von der umfangreichen Expertise, mit der ihre vielfältigen Anforderungen in konkrete branchenspezifische IT-Lösungen übersetzt werden, um ihren Geschäftserfolg maßgeblich zu fördern.
+                  - paragraph [ref=f67e190]: Die über 5.600 Mitarbeiter der international tätigen CANCOM Gruppe mit rund 80 Standorten in der DACH-Region, Belgien, der Slowakei, Rumänien und Tschechien sowie ein leistungsfähiges Partnernetzwerk gewährleisten Marktpräsenz und Kundennähe. Die CANCOM Gruppe wird von Rüdiger Rath (CEO) und Thomas Stark (CFO) geführt. Der Hauptsitz des Unternehmens ist in München. CANCOM erwirtschaftete 2024 einen Jahresumsatz von rund 1,7 Milliarden Euro. Die Konzern-Muttergesellschaft CANCOM SE ist an der Frankfurter Wertpapierbörse im TecDAX und SDAX (ISIN DE0005419105) notiert
+                - generic [ref=f67e191]:
+                  - heading "Vorteile für Mitarbeitende" [level=3] [ref=f67e193]
+                  - list [ref=f67e196]:
+                    - listitem [ref=f67e197]: Bike-Leasing
+                    - listitem [ref=f67e198]:  Flexible Arbeitszeiten
+                    - listitem [ref=f67e199]:  Homeoffice / Mobiles Arbeiten
+                    - listitem [ref=f67e200]:  Firmenevents
+                    - listitem [ref=f67e201]:  Rabatte für Mitarbeitende
+                    - listitem [ref=f67e202]:  Sport- und Gesundheitsangebote
+                    - listitem [ref=f67e203]:  Weiterbildungen
+                    - listitem [ref=f67e204]:  Betriebliche Altersvorsorge
+                    - listitem [ref=f67e205]:  ÖPNV-Ticket / Job-Ticket
+                    - listitem [ref=f67e206]:  Dienstwagen
+                    - listitem [ref=f67e207]:  Parkmöglichkeiten
+                    - listitem [ref=f67e208]:  Moderne technische Ausstattung
+                  - generic [ref=f67e209]: Die abgebildeten Vorteile für Mitarbeitende können je nach Abteilung und Position variieren.
+                - generic [ref=f67e210]:
+                  - link " Alle Stellen anzeigen" [ref=f67e211] [cursor=pointer]:
+                    - /url: https://www.arbeitsagentur.de/jobsuche/suche?kundennummer=MaqtmzMWBSTZMwIPPVr1PWQ3LHB7vF1NhXthhvHVjnU=__del__CANCOM%20SE&suchbereich=jobs
+                  - link "In neuem Tab öffnen" [ref=f67e212] [cursor=pointer]:
+                    - /url: https://web.arbeitsagentur.de/vermittlung/ag-darstellung-ui/anzeigen/MaqtmzMWBSTZMwIPPVr1PWQ3LHB7vF1NhXthhvHVjnU=
+                - generic [ref=f67e214]:
+                  - generic [ref=f67e215]:
+                    - generic [ref=f67e216]: Webseiten
+                    - list [ref=f67e217]:
+                      - listitem [ref=f67e218]:
+                        - link "Homepage" [ref=f67e219] [cursor=pointer]:
+                          - /url: http://www.cancom.de
+                      - listitem [ref=f67e220]:
+                        - link "Karriereseite" [ref=f67e221] [cursor=pointer]:
+                          - /url: https://karriere.cancom.de/
+                  - generic [ref=f67e222]:
+                    - generic [ref=f67e223]: Social Media Seiten
+                    - list [ref=f67e224]:
+                      - listitem [ref=f67e225]:
+                        - link "zur Instagram-Seite des Arbeitgebers" [ref=f67e226] [cursor=pointer]:
+                          - /url: https://www.instagram.com/cancom.se/
+                      - listitem [ref=f67e227]:
+                        - link "zur Facebook-Seite des Arbeitgebers" [ref=f67e228] [cursor=pointer]:
+                          - /url: https://www.facebook.com/CANCOM/
+                      - listitem [ref=f67e229]:
+                        - link "zur LinkedIn-Seite des Arbeitgebers" [ref=f67e230] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/company/cancom
+                      - listitem [ref=f67e231]:
+                        - link "zur XING-Seite des Arbeitgebers" [ref=f67e232] [cursor=pointer]:
+                          - /url: https://www.xing.com/pages/cancom
+            - region [ref=f67e234]:
+              - heading "Informationen zur Bewerbung" [level=2] [ref=f67e235]
+              - generic [ref=f67e237]:
+                - heading "Sicherheitsabfrage" [level=3] [ref=f67e238]
+                - generic [ref=f67e240]:
+                  - paragraph [ref=f67e241]: Wir schützen die Kontaktdaten des Arbeitgebers vor unerlaubten Zugriffen. Bitte geben Sie die dargestellten Zeichen in das Textfeld ein, um die Kontaktdaten des Arbeitgebers anzuzeigen.
+                  - generic [ref=f67e242]:
+                    - img "Sicherheitsabfrage" [ref=f67e244]
+                    - generic [ref=f67e245]:
+                      - button "Anderes Bild laden" [ref=f67e246] [cursor=pointer]
+                      - button "Audioversion abspielen" [ref=f67e247] [cursor=pointer]
+                  - paragraph [ref=f67e248]: "Hinweis: Die dargestellten Zeichen enthalten keine Umlaute (ä, ö, ü oder ß), Sonderzeichen oder Leerzeichen."
+                  - generic [ref=f67e249]:
+                    - generic [ref=f67e250]:
+                      - generic [ref=f67e251]: Dargestellte Zeichen
+                      - textbox "Dargestellte Zeichen" [ref=f67e252]
+                    - button "Absenden" [disabled] [ref=f67e253]
+            - region [ref=f67e257]:
+              - generic [ref=f67e258]:
+                - heading "Fußbereich" [level=2] [ref=f67e259]
+                - generic [ref=f67e260]:
+                  - generic [ref=f67e261]:
+                    - generic [ref=f67e262]:
+                      - generic [ref=f67e263]: Stelle betreut durch Arbeitgeber
+                      - button "Hinweis zur Betreuung öffnen" [ref=f67e266] [cursor=pointer]
+                    - generic [ref=f67e268]:
+                      - text: "Referenz-Nr.: 18935-2115497-S"
+                      - generic "In Zwischenablage kopieren" [ref=f67e270]:
+                        - button "kopieren" [ref=f67e273] [cursor=pointer]
+                  - link "Verstoß melden" [ref=f67e280] [cursor=pointer]:
+                    - /url: "javascript:"
+        - generic:
+          - button [aria-hidden]
+  - contentinfo [ref=f67e283]:
+    - generic [ref=f67e284]:
+      - generic [ref=f67e285]:
+        - generic [ref=f67e286]:
+          - heading "Folgen Sie uns in den sozialen Medien" [level=2] [ref=f67e287]
+          - list [ref=f67e289]:
+            - listitem [ref=f67e290]:
+              - link "zur Xing-Seite der BA" [ref=f67e291] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/bundesagentur
+            - listitem [ref=f67e292]:
+              - link "zur Kununu-Seite der BA" [ref=f67e293] [cursor=pointer]:
+                - /url: https://www.kununu.com/de/bundesagentur-fuer-arbeit
+            - listitem [ref=f67e294]:
+              - link "zur LinkedIn-Seite der BA" [ref=f67e295] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bundesagentur-fuer-arbeit
+            - listitem [ref=f67e296]:
+              - link "zur Instagram-Seite der BA" [ref=f67e297] [cursor=pointer]:
+                - /url: https://www.instagram.com/bundesagenturfuerarbeit
+            - listitem [ref=f67e298]:
+              - link "zur Facebook-Seite der BA" [ref=f67e299] [cursor=pointer]:
+                - /url: https://www.facebook.com/bundesagenturfuerarbeit
+            - listitem [ref=f67e300]:
+              - link "zur YouTube-Seite der BA" [ref=f67e301] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/Arbeitsagentur
+        - navigation [ref=f67e302]:
+          - generic [ref=f67e304]:
+            - heading "Über die Bundesagentur für Arbeit" [level=2] [ref=f67e305]
+            - list "Über die Bundesagentur für Arbeit" [ref=f67e307]:
+              - listitem [ref=f67e308]:
+                - link "Kontakt" [ref=f67e309] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/service-bereich/so-erreichen-sie-uns
+              - listitem [ref=f67e311]:
+                - link "Karriere bei der BA" [ref=f67e312] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bakarriere
+              - listitem [ref=f67e314]:
+                - link "Über uns" [ref=f67e315] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns
+              - listitem [ref=f67e317]:
+                - link "Veröffentlichungen" [ref=f67e318] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns/veroeffentlichungen
+              - listitem [ref=f67e320]:
+                - link "Presse" [ref=f67e321] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/presse
+          - generic [ref=f67e324]:
+            - heading "Themenbereiche" [level=2] [ref=f67e325]
+            - list "Themenbereiche" [ref=f67e327]:
+              - listitem [ref=f67e328]:
+                - link "Arbeitslos und Arbeit finden" [ref=f67e329] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/arbeitslos-arbeit-finden
+              - listitem [ref=f67e331]:
+                - link "Schule, Ausbildung und Studium" [ref=f67e332] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bildung
+              - listitem [ref=f67e334]:
+                - link "Familie und Kinder" [ref=f67e335] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/familie-und-kinder
+              - listitem [ref=f67e337]:
+                - link "Menschen mit Behinderungen" [ref=f67e338] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/menschen-mit-behinderungen
+              - listitem [ref=f67e340]:
+                - link "Karriere und Weiterbildung" [ref=f67e341] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/karriere-und-weiterbildung
+              - listitem [ref=f67e343]:
+                - link "Zum Arbeiten nach Deutschland" [ref=f67e344] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/int/de/menschen-aus-dem-ausland
+          - generic [ref=f67e347]:
+            - heading "Services" [level=2] [ref=f67e348]
+            - list "Services" [ref=f67e350]:
+              - listitem [ref=f67e351]:
+                - link "eServices im Überblick" [ref=f67e352] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/eservices
+              - listitem [ref=f67e354]:
+                - link "Dienststelle finden" [ref=f67e355] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/portal/dienststellensuche
+              - listitem [ref=f67e357]:
+                - link "Newsletter" [ref=f67e358] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/newsletter
+              - listitem [ref=f67e360]:
+                - link "Apps" [ref=f67e361] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/apps
+          - generic [ref=f67e364]:
+            - heading "Weitere Internetauftritte" [level=2] [ref=f67e365]
+            - list "Weitere Internetauftritte" [ref=f67e367]:
+              - listitem [ref=f67e368]:
+                - link "Arbeitsmarktmonitor" [ref=f67e369] [cursor=pointer]:
+                  - /url: https://arbeitsmarktmonitor.arbeitsagentur.de/
+              - listitem [ref=f67e371]:
+                - link "Berufsinformationen BERUFENET" [ref=f67e372] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufenet/
+              - listitem [ref=f67e374]:
+                - link "Berufsvideos BERUFE.TV" [ref=f67e375] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufetv/start
+              - listitem [ref=f67e377]:
+                - link "mein NOW" [ref=f67e378] [cursor=pointer]:
+                  - /url: https://mein-now.de/
+              - listitem [ref=f67e380]:
+                - link "Statistik" [ref=f67e381] [cursor=pointer]:
+                  - /url: https://statistik.arbeitsagentur.de/
+      - separator [ref=f67e383]
+      - navigation "Informationen über die Seite" [ref=f67e384]:
+        - list [ref=f67e386]:
+          - listitem [ref=f67e387]:
+            - link "Impressum" [ref=f67e388] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/impressum
+          - listitem [ref=f67e390]:
+            - link "Datenschutz" [ref=f67e391] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/datenschutz
+          - listitem [ref=f67e393]:
+            - button "Cookie-Einstellungen" [ref=f67e394] [cursor=pointer]
+          - listitem [ref=f67e396]:
+            - link "Rechtliche Hinweise" [ref=f67e397] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/rechtliche-hinweise
+          - listitem [ref=f67e399]:
+            - link "Barrieren melden" [ref=f67e400] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/link/kontakt-barrierefreiheit
+          - listitem [ref=f67e402]:
+            - link "Fehler melden" [ref=f67e404] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f67e405]:
+            - link "Erklärung zur Barrierefreiheit" [ref=f67e406] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/erklaerung-barrierefreiheit
+          - listitem [ref=f67e408]: © Bundesagentur für Arbeit 2026

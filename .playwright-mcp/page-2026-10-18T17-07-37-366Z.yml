@@ -1,0 +1,289 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - region "Manager für Cookie-Einwilligungen" [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - paragraph [ref=f5e5]: Wir verwenden Cookies, um Ihnen die bestmögliche Erfahrung mit der Website bieten zu können. Ihre Cookie-Einstellungen werden im lokalen Speicher Ihres Browsers gespeichert. Dazu gehören Cookies, die für die Website technisch notwendig sind. Darüber hinaus können Sie frei entscheiden, ob Sie Cookies akzeptieren, und dies jederzeit ändern. Sie können auch Cookies zur Verbesserung der Website-Leistung sowie Cookies zum Anzeigen von Inhalten, die auf Ihre Interessen zugeschnitten sind, ablehnen. Wenn Sie nicht alle Cookies akzeptieren, kann dies Auswirkungen auf Ihre Erfahrung auf der Site und die von uns angebotenen Services haben.
+        - paragraph [ref=f5e6]
+        - paragraph [ref=f5e7]:
+          - strong [ref=f5e8]:
+            - link "Datenschutz" [ref=f5e9] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+          - text: und
+          - strong [ref=f5e10]:
+            - link "Impressum" [ref=f5e11] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+        - button "Cookie-Einstellungen ändern" [ref=f5e12] [cursor=pointer]
+        - generic [ref=f5e13]:
+          - button "Alle Cookies ablehnen" [ref=f5e14] [cursor=pointer]
+          - button "Alle Cookies akzeptieren" [ref=f5e15] [cursor=pointer]
+    - banner [ref=f5e16]:
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#content"
+      - navigation "Header Menü" [ref=f5e20]:
+        - link [ref=f5e21] [cursor=pointer]:
+          - /url: https://www.rehau.com/de-de
+        - list [ref=f5e23]:
+          - listitem [ref=f5e24]:
+            - link "Startseite" [ref=f5e25] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f5e26]:
+            - link "Stellenmarkt" [ref=f5e27] [cursor=pointer]:
+              - /url: https://www.rehau.jobs/search/?searchby=location&q=&locationsearch=&geolocation=
+          - listitem [ref=f5e28]:
+            - link "Karriereseite" [ref=f5e29] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/karriere
+          - listitem [ref=f5e30]:
+            - link "FAQ" [ref=f5e31] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+      - generic [ref=f5e33]:
+        - button "Sprache" [ref=f5e35] [cursor=pointer]
+        - link "Profil anzeigen" [ref=f5e39] [cursor=pointer]:
+          - /url: "#"
+    - main [ref=f5e41]:
+      - generic [ref=f5e42]:
+        - navigation "Breadcrumb" [ref=f5e44]:
+          - list [ref=f5e45]:
+            - listitem [ref=f5e46]:
+              - link "Startseite" [ref=f5e47] [cursor=pointer]:
+                - /url: /
+            - listitem [aria-hidden] [ref=f5e48]: "|"
+            - listitem [ref=f5e49]:
+              - text: SAP Commerce bei REHAU
+              - generic [ref=f5e50]: (aktuelle Seite)
+        - heading "Suchergebnisse für \"SAP Commerce\"." [level=1] [ref=f5e51]
+        - generic [ref=f5e52]:
+          - search [ref=f5e54]:
+            - generic [ref=f5e56]:
+              - generic [ref=f5e57]:
+                - generic [ref=f5e59]:
+                  - generic [aria-hidden] [ref=f5e60]: "Nach Jobtitel oder Standort suchen:"
+                  - textbox "Nach Jobtitel oder Standort suchen:" [ref=f5e61]: SAP Commerce
+                - button "Klicke hier, für mehr Auswahlmöglichkeiten bzw. Suchfilter" [ref=f5e64] [cursor=pointer]
+              - generic [ref=f5e66]:
+                - button "Stellen suchen" [ref=f5e68] [cursor=pointer]
+                - button "Löschen" [ref=f5e70] [cursor=pointer]
+          - generic [ref=f5e75]:
+            - text: 
+            - generic [ref=f5e76]:
+              - generic [aria-hidden] [ref=f5e77]: "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:"
+              - spinbutton "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:" [ref=f5e78]: "7"
+            - button "Benachrichtigung erstellen" [ref=f5e80] [cursor=pointer]:
+              - generic [aria-hidden] [ref=f5e81]: ✉
+              - text: Benachrichtigung erstellen
+        - generic [ref=f5e85]:
+          - generic "Ergebnisse 1 – 17" [ref=f5e86]: Ergebnisse 1 – 17 von 17
+          - text: Seite 1 von 1
+        - table "Suchergebnisse für SAP Commerce. Seite 1 von 1, Ergebnisse 1 bis 17 von 17" [ref=f5e88]:
+          - rowgroup [ref=f5e89]:
+            - row [ref=f5e90]:
+              - columnheader [ref=f5e91]:
+                - button "Unternehmen" [ref=f5e93] [cursor=pointer]
+              - columnheader [ref=f5e94]:
+                - button "Stellenbezeichnung" [ref=f5e96] [cursor=pointer]
+              - columnheader [ref=f5e97]:
+                - button "Standort" [ref=f5e99] [cursor=pointer]
+              - columnheader [ref=f5e100]:
+                - button "Datum" [ref=f5e102] [cursor=pointer]
+              - cell [ref=f5e103]
+            - row [ref=f5e104]:
+              - cell [ref=f5e105]:
+                - textbox "Unternehmen" [ref=f5e106]
+              - cell [ref=f5e107]:
+                - textbox "Stellenbezeichnung" [ref=f5e108]
+              - cell [ref=f5e109]:
+                - textbox "Standort" [ref=f5e110]
+              - cell [ref=f5e111]:
+                - textbox "Datum (TT.MM.JJ)" [ref=f5e112]
+              - cell [ref=f5e113]:
+                - generic [ref=f5e114]:
+                  - button "Filter" [ref=f5e115] [cursor=pointer]
+                  - button "Zurücksetzen" [ref=f5e116] [cursor=pointer]
+          - rowgroup [ref=f5e117]:
+            - row [ref=f5e118]:
+              - cell "REHAU" [ref=f5e119]
+              - cell [ref=f5e120]:
+                - link "IT Project Manager SAP Commerce (m/w/d)" [ref=f5e122] [cursor=pointer]:
+                  - /url: /job/Rehau-IT-Project-Manager-SAP-Commerce-%28mwd%29/1446573633/
+              - cell "Rehau, DE" [ref=f5e123]
+              - cell "13.10.2026" [ref=f5e124]
+              - cell [ref=f5e125]
+            - row [ref=f5e126]:
+              - cell "REHAU" [ref=f5e127]
+              - cell [ref=f5e128]:
+                - link "Application Consultant SAP Commerce (m/w/d)" [ref=f5e130] [cursor=pointer]:
+                  - /url: /job/Rehau-Application-Consultant-SAP-Commerce-%28mwd%29/1446572933/
+              - cell "Rehau, DE" [ref=f5e131]
+              - cell "13.10.2026" [ref=f5e132]
+              - cell [ref=f5e133]
+            - row [ref=f5e134]:
+              - cell "REHAU" [ref=f5e135]
+              - cell [ref=f5e136]:
+                - link "SAP Process Designer / Consultant SD (m/w/d)" [ref=f5e138] [cursor=pointer]:
+                  - /url: /job/Erlangen-SAP-Process-Designer-Consultant-SD-%28mwd%29/1446072333/
+              - cell "Erlangen, DE" [ref=f5e139]
+              - cell "09.10.2026" [ref=f5e140]
+              - cell [ref=f5e141]
+            - row [ref=f5e142]:
+              - cell "REHAU" [ref=f5e143]
+              - cell [ref=f5e144]:
+                - link "Junior BI & Data Solution Engineer (m/w/d)" [ref=f5e146] [cursor=pointer]:
+                  - /url: /job/Erlangen-Junior-BI-&-Data-Solution-Engineer-%28mwd%29/1438423133/
+              - cell "Erlangen, DE" [ref=f5e147]
+              - cell "17.10.2026" [ref=f5e148]
+              - cell [ref=f5e149]
+            - row [ref=f5e150]:
+              - cell "REHAU" [ref=f5e151]
+              - cell [ref=f5e152]:
+                - link "SAP Logistik Consultant (m/w/d)" [ref=f5e154] [cursor=pointer]:
+                  - /url: /job/Rehau-SAP-Logistik-Consultant-%28mwd%29/1438384933/
+              - cell "Rehau, DE" [ref=f5e155]
+              - cell "17.10.2026" [ref=f5e156]
+              - cell [ref=f5e157]
+            - row [ref=f5e158]:
+              - cell "REHAU" [ref=f5e159]
+              - cell [ref=f5e160]:
+                - link "Specialist Master Data Management (m/w/d)" [ref=f5e162] [cursor=pointer]:
+                  - /url: /job/Rehau-Specialist-Master-Data-Management-%28mwd%29/1388765133/
+              - cell "Rehau, DE" [ref=f5e163]
+              - cell "30.09.2026" [ref=f5e164]
+              - cell [ref=f5e165]
+            - row [ref=f5e166]:
+              - cell "REHAU" [ref=f5e167]
+              - cell [ref=f5e168]:
+                - link "Manager Controlling (m/w/d)" [ref=f5e170] [cursor=pointer]:
+                  - /url: /job/Erlangen-Manager-Controlling-%28mwd%29/1415973433/
+              - cell "Erlangen, DE" [ref=f5e171]
+              - cell "11.10.2026" [ref=f5e172]
+              - cell [ref=f5e173]
+            - row [ref=f5e174]:
+              - cell "REHAU" [ref=f5e175]
+              - cell [ref=f5e176]:
+                - link "Payroll Analyst | Experte für Lohn- und Gehaltsabrechnung (m/w/d) - Teilzeit" [ref=f5e178] [cursor=pointer]:
+                  - /url: /job/Rehau-Payroll-Analyst-Experte-f%C3%BCr-Lohn-und-Gehaltsabrechnung-%28mwd%29-Teilzeit/1419381733/
+              - cell "Rehau, DE" [ref=f5e179]
+              - cell "23.09.2026" [ref=f5e180]
+              - cell [ref=f5e181]
+            - row [ref=f5e182]:
+              - cell "REHAU" [ref=f5e183]
+              - cell [ref=f5e184]:
+                - link "Mitarbeiter Rohwarendispo (m/w/d)" [ref=f5e186] [cursor=pointer]:
+                  - /url: /job/Visbek-Mitarbeiter-Rohwarendispo-%28mwd%29/1443664333/
+              - cell "Visbek, DE" [ref=f5e187]
+              - cell "02.10.2026" [ref=f5e188]
+              - cell [ref=f5e189]
+            - row [ref=f5e190]:
+              - cell "REHAU" [ref=f5e191]
+              - cell [ref=f5e192]:
+                - link "Technische/r Berater/in im Aussendienst - Planer (Ingenieure und Architekten) (m/w/d)" [ref=f5e194] [cursor=pointer]:
+                  - /url: /job/M%C3%BCnsingen-Technischer-Beraterin-im-Aussendienst-Planer-%28Ingenieure-und-Architekten%29-%28mwd%29/1411369433/
+              - cell "Münsingen, CH" [ref=f5e195]
+              - cell "28.09.2026" [ref=f5e196]
+              - cell [ref=f5e197]
+            - row [ref=f5e198]:
+              - cell "REHAU" [ref=f5e199]
+              - cell [ref=f5e200]:
+                - link "Production Planner (m/w/d)" [ref=f5e202] [cursor=pointer]:
+                  - /url: /job/Triptis-Production-Planner-%28mwd%29/1412363133/
+              - cell "Triptis, DE" [ref=f5e203]
+              - cell "02.10.2026" [ref=f5e204]
+              - cell [ref=f5e205]
+            - row [ref=f5e206]:
+              - cell "REHAU" [ref=f5e207]
+              - cell [ref=f5e208]:
+                - link "Angebots- und Kalkulationsspezialist/in Tiefbau (80-100%) im technischen Verkaufsinnendienst" [ref=f5e210] [cursor=pointer]:
+                  - /url: /job/M%C3%BCnsingen-Angebots-und-Kalkulationsspezialistin-Tiefbau-%2880-100%29-im-technischen-Verkaufsinnendienst/1434361333/
+              - cell "Münsingen, CH" [ref=f5e211]
+              - cell "06.10.2026" [ref=f5e212]
+              - cell [ref=f5e213]
+            - row [ref=f5e214]:
+              - cell "REHAU" [ref=f5e215]
+              - cell [ref=f5e216]:
+                - link "Category Manager Transport + Warehousing Interior Solutions (m/w/d)" [ref=f5e218] [cursor=pointer]:
+                  - /url: /job/Rehau-Category-Manager-Transport-%2B-Warehousing-Interior-Solutions-%28mwd%29/1412352733/
+              - cell "Rehau, DE" [ref=f5e219]
+              - cell "02.10.2026" [ref=f5e220]
+              - cell [ref=f5e221]
+            - row [ref=f5e222]:
+              - cell "Industrial Solutions" [ref=f5e223]
+              - cell [ref=f5e224]:
+                - link "Product Manager (m/w/d) - Schwerpunkt Profile" [ref=f5e226] [cursor=pointer]:
+                  - /url: /Industrial_Solutions/job/Rehau-Product-Manager-%28mwd%29-Schwerpunkt-Profile/1442212433/
+              - cell "Rehau, DE" [ref=f5e227]
+              - cell "29.09.2026" [ref=f5e228]
+              - cell [ref=f5e229]
+            - row [ref=f5e230]:
+              - cell "REHAU" [ref=f5e231]
+              - cell [ref=f5e232]:
+                - link "Specialist Fixed Assets (m/w/d)" [ref=f5e234] [cursor=pointer]:
+                  - /url: /job/Rehau-Specialist-Fixed-Assets-%28mwd%29/1427095133/
+              - cell "Rehau, DE" [ref=f5e235]
+              - cell "14.10.2026" [ref=f5e236]
+              - cell [ref=f5e237]
+            - row [ref=f5e238]:
+              - cell "Industrial Solutions" [ref=f5e239]
+              - cell [ref=f5e240]:
+                - link "Prozessingenieur Konfektion, Dichtungstechnologie & Extrusion (m/w/d)" [ref=f5e242] [cursor=pointer]:
+                  - /url: /Industrial_Solutions/job/Rehau-Prozessingenieur-Konfektion%2C-Dichtungstechnologie-&-Extrusion-%28mwd%29/1445504033/
+              - cell "Rehau, DE" [ref=f5e243]
+              - cell "08.10.2026" [ref=f5e244]
+              - cell [ref=f5e245]
+            - row [ref=f5e246]:
+              - cell "Industrial Solutions" [ref=f5e247]
+              - cell [ref=f5e248]:
+                - link "Erfahrener Werkseinkäufer (m/w/d)" [ref=f5e250] [cursor=pointer]:
+                  - /url: /Industrial_Solutions/job/Rehau-Erfahrener-Werkseink%C3%A4ufer-%28mwd%29/1429095633/
+              - cell "Rehau, DE" [ref=f5e251]
+              - cell "22.09.2026" [ref=f5e252]
+              - cell [ref=f5e253]
+        - generic [ref=f5e257]:
+          - generic "Ergebnisse 1 – 17" [ref=f5e258]: Ergebnisse 1 – 17 von 17
+          - text: Seite 1 von 1
+        - generic [ref=f5e263]:
+          - text: 
+          - generic [ref=f5e264]:
+            - generic [aria-hidden] [ref=f5e265]: "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:"
+            - spinbutton "Wählen Sie aus, wie oft (in Tagen) Sie eine Benachrichtigung erhalten möchten:" [ref=f5e266]: "7"
+          - button "Benachrichtigung erstellen" [ref=f5e268] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f5e269]: ✉
+            - text: Benachrichtigung erstellen
+    - contentinfo [ref=f5e270]:
+      - generic [ref=f5e273]:
+        - list [ref=f5e274]:
+          - listitem [ref=f5e275]:
+            - button "Manager für Cookie-Einwilligungen" [ref=f5e276] [cursor=pointer]
+          - listitem [ref=f5e277]:
+            - link "FAQ" [ref=f5e278] [cursor=pointer]:
+              - /url: /content/FAQ/?locale=de_DE
+          - listitem [ref=f5e279]:
+            - link "Impressum" [ref=f5e280] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/impressum
+          - listitem [ref=f5e281]:
+            - link "Datenschutz" [ref=f5e282] [cursor=pointer]:
+              - /url: https://www.rehau.com/de-de/datenschutz-informationen
+        - list [ref=f5e284]:
+          - listitem [ref=f5e285]:
+            - link "Folgen Sie uns auf X" [ref=f5e286] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+              - generic [ref=f5e287]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f5e290]:
+            - link "Finden Sie uns auf Xing" [ref=f5e291] [cursor=pointer]:
+              - /url: "https://www.xing.com/pages/rehau-group "
+              - generic [ref=f5e292]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f5e295]:
+            - link "Besuchen Sie unsere Facebook-Seite" [ref=f5e296] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+              - generic [ref=f5e297]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f5e300]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=f5e301] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/rehautv
+              - generic [ref=f5e302]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f5e305]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=f5e306] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/rehau/
+              - generic [ref=f5e307]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=f5e310]:
+            - link "Folgen Sie uns auf Instagram" [ref=f5e311] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland/
+              - generic [ref=f5e312]: Wird auf einer neuen Registerkarte geöffnet.
+  - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein

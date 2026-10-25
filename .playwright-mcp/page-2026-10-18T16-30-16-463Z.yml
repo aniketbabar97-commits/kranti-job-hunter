@@ -1,0 +1,136 @@
+- generic [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Ares GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21
+            - paragraph [ref=f7e14]: Ares GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21/16825585-it-allrounder-m-w-d-e-commerce-ki-robotic-und-prozessautomatisierung
+            - paragraph [ref=f7e16]: IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e103]:
+      - heading "Wann wäre Ihr frühestmögliches Startdatum?" [level=2] [ref=f7e104]
+      - application "calendar" [ref=f7e108]:
+        - generic [ref=f7e109]:
+          - generic [ref=f7e110]:
+            - button "Switch to previous month" [ref=f7e111]:
+              - generic "IconButton" [ref=f7e112] [cursor=pointer]
+            - generic [ref=f7e115]:
+              - generic [ref=f7e116]:
+                - log [ref=f7e118]
+                - generic [ref=f7e120] [cursor=pointer]:
+                  - paragraph [ref=f7e122]: Dezember
+                  - combobox [ref=f7e124]
+              - generic [ref=f7e125]:
+                - log [ref=f7e127]
+                - generic [ref=f7e129] [cursor=pointer]:
+                  - paragraph [ref=f7e131]: "2026"
+                  - combobox [ref=f7e133]
+            - button "Switch to next month" [ref=f7e134]:
+              - generic "IconButton" [ref=f7e135] [cursor=pointer]
+          - grid [ref=f7e139]:
+            - rowgroup [aria-hidden] [ref=f7e140]:
+              - row [ref=f7e141]:
+                - columnheader [ref=f7e142]:
+                  - generic [ref=f7e143]: Mo
+                - columnheader [ref=f7e144]:
+                  - generic [ref=f7e145]: Di
+                - columnheader [ref=f7e146]:
+                  - generic [ref=f7e147]: Mi
+                - columnheader [ref=f7e148]:
+                  - generic [ref=f7e149]: Do
+                - columnheader [ref=f7e150]:
+                  - generic [ref=f7e151]: Fr
+                - columnheader [ref=f7e152]:
+                  - generic [ref=f7e153]: Sa
+                - columnheader [ref=f7e154]:
+                  - generic [ref=f7e155]: So
+            - rowgroup [ref=f7e156]:
+              - row [ref=f7e401]:
+                - gridcell [ref=f7e402]:
+                  - button "Choose Montag, 30. November 2026" [ref=f7e404] [cursor=pointer]: "30"
+                - gridcell [ref=f7e405]:
+                  - button "Choose Dienstag, 1. Dezember 2026" [ref=f7e407] [cursor=pointer]: "1"
+                - gridcell [ref=f7e408]:
+                  - button "Choose Mittwoch, 2. Dezember 2026" [ref=f7e410] [cursor=pointer]: "2"
+                - gridcell [ref=f7e411]:
+                  - button "Choose Donnerstag, 3. Dezember 2026" [ref=f7e413] [cursor=pointer]: "3"
+                - gridcell [ref=f7e414]:
+                  - button "Choose Freitag, 4. Dezember 2026" [ref=f7e416] [cursor=pointer]: "4"
+                - gridcell [ref=f7e417]:
+                  - button "Choose Samstag, 5. Dezember 2026" [ref=f7e419] [cursor=pointer]: "5"
+                - gridcell [ref=f7e420]:
+                  - button "Choose Sonntag, 6. Dezember 2026" [ref=f7e422] [cursor=pointer]: "6"
+              - row [ref=f7e423]:
+                - gridcell [ref=f7e424]:
+                  - button "Choose Montag, 7. Dezember 2026" [ref=f7e426] [cursor=pointer]: "7"
+                - gridcell [ref=f7e427]:
+                  - button "Choose Dienstag, 8. Dezember 2026" [ref=f7e429] [cursor=pointer]: "8"
+                - gridcell [ref=f7e430]:
+                  - button "Choose Mittwoch, 9. Dezember 2026" [ref=f7e432] [cursor=pointer]: "9"
+                - gridcell [ref=f7e433]:
+                  - button "Choose Donnerstag, 10. Dezember 2026" [ref=f7e435] [cursor=pointer]: "10"
+                - gridcell [ref=f7e436]:
+                  - button "Choose Freitag, 11. Dezember 2026" [ref=f7e438] [cursor=pointer]: "11"
+                - gridcell [ref=f7e439]:
+                  - button "Choose Samstag, 12. Dezember 2026" [ref=f7e441] [cursor=pointer]: "12"
+                - gridcell [ref=f7e442]:
+                  - button "Choose Sonntag, 13. Dezember 2026" [ref=f7e444] [cursor=pointer]: "13"
+              - row [ref=f7e511]:
+                - gridcell [ref=f7e446]:
+                  - button "Choose Montag, 14. Dezember 2026" [ref=f7e448] [cursor=pointer]: "14"
+                - gridcell [ref=f7e449]:
+                  - button "Choose Dienstag, 15. Dezember 2026" [ref=f7e451] [cursor=pointer]: "15"
+                - gridcell [selected] [ref=f7e512]:
+                  - button "Selected date. Mittwoch, 16. Dezember 2026" [active] [ref=f7e513] [cursor=pointer]: "16"
+                - gridcell [ref=f7e455]:
+                  - button "Choose Donnerstag, 17. Dezember 2026" [ref=f7e457] [cursor=pointer]: "17"
+                - gridcell [ref=f7e458]:
+                  - button "Choose Freitag, 18. Dezember 2026" [ref=f7e460] [cursor=pointer]: "18"
+                - gridcell [ref=f7e461]:
+                  - button "Choose Samstag, 19. Dezember 2026" [ref=f7e463] [cursor=pointer]: "19"
+                - gridcell [ref=f7e464]:
+                  - button "Choose Sonntag, 20. Dezember 2026" [ref=f7e466] [cursor=pointer]: "20"
+              - row [ref=f7e467]:
+                - gridcell [ref=f7e468]:
+                  - button "Choose Montag, 21. Dezember 2026" [ref=f7e470] [cursor=pointer]: "21"
+                - gridcell [ref=f7e471]:
+                  - button "Choose Dienstag, 22. Dezember 2026" [ref=f7e473] [cursor=pointer]: "22"
+                - gridcell [ref=f7e474]:
+                  - button "Choose Mittwoch, 23. Dezember 2026" [ref=f7e476] [cursor=pointer]: "23"
+                - gridcell [ref=f7e477]:
+                  - button "Choose Donnerstag, 24. Dezember 2026" [ref=f7e479] [cursor=pointer]: "24"
+                - gridcell [ref=f7e480]:
+                  - button "Choose Freitag, 25. Dezember 2026" [ref=f7e482] [cursor=pointer]: "25"
+                - gridcell [ref=f7e483]:
+                  - button "Choose Samstag, 26. Dezember 2026" [ref=f7e485] [cursor=pointer]: "26"
+                - gridcell [ref=f7e486]:
+                  - button "Choose Sonntag, 27. Dezember 2026" [ref=f7e488] [cursor=pointer]: "27"
+              - row [ref=f7e489]:
+                - gridcell [ref=f7e490]:
+                  - button "Choose Montag, 28. Dezember 2026" [ref=f7e492] [cursor=pointer]: "28"
+                - gridcell [ref=f7e493]:
+                  - button "Choose Dienstag, 29. Dezember 2026" [ref=f7e495] [cursor=pointer]: "29"
+                - gridcell [ref=f7e496]:
+                  - button "Choose Mittwoch, 30. Dezember 2026" [ref=f7e498] [cursor=pointer]: "30"
+                - gridcell [ref=f7e499]:
+                  - button "Choose Donnerstag, 31. Dezember 2026" [ref=f7e501] [cursor=pointer]: "31"
+                - gridcell [ref=f7e502]:
+                  - button "Choose Freitag, 1. Januar 2027" [ref=f7e504] [cursor=pointer]: "1"
+                - gridcell [ref=f7e505]:
+                  - button "Choose Samstag, 2. Januar 2027" [ref=f7e507] [cursor=pointer]: "2"
+                - gridcell [ref=f7e508]:
+                  - button "Choose Sonntag, 3. Januar 2027" [ref=f7e510] [cursor=pointer]: "3"
+    - generic [ref=f7e26]:
+      - progressbar "60%" [ref=f7e267]
+      - generic [ref=f7e30]:
+        - button "Zurück" [ref=f7e99] [cursor=pointer]
+        - button "Weiter" [ref=f7e37] [cursor=pointer]
+  - alert [ref=f7e4]: "Ares (Lünen): IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung"
+  - region "Notifications, bottom-end (alt+T)"
+  - alert [ref=f7e514]

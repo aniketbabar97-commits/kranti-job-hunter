@@ -1,0 +1,401 @@
+- generic [ref=f16e4]:
+  - banner [ref=f16e5]:
+    - generic:
+      - link "Zum Hauptinhalt":
+        - /url: "#skipContent"
+    - navigation "Header Menü" [ref=f16e9]:
+      - link [ref=f16e10] [cursor=pointer]:
+        - /url: https://www.all-for-one.com/
+        - img "All For One Group Logo" [ref=f16e11]
+      - list [ref=f16e12]:
+        - listitem [ref=f16e13]:
+          - link "Kontakt" [ref=f16e14] [cursor=pointer]:
+            - /url: https://jobs.all-for-one.com/content/Kontakt/?locale=de_DE
+        - listitem [ref=f16e15]:
+          - link "Stellenangebote" [ref=f16e16] [cursor=pointer]:
+            - /url: https://www.all-for-one.com/de/karriere/stellenangebote/
+  - main [ref=f16e19]:
+    - generic [ref=f16e20]:
+      - region "Zum Hauptinhalt"
+      - generic [ref=f16e22]:
+        - list [ref=f16e24]:
+          - listitem [ref=f16e25] [cursor=pointer]:
+            - combobox "Deutsch ‎(German)‎" [ref=f16e26]:
+              - text: Deutsch ‎(German)‎
+              - button ""
+        - generic [ref=f16e31]:
+          - definition [ref=f16e32]: 
+          - definition [ref=f16e33]:
+            - strong [ref=f16e35]: Konto bereits vorhanden
+        - generic [ref=f16e40]:
+          - 'heading "Karrierechancen: Delivery Executive SAP CX (human) (16242)" [level=1] [ref=f16e42]'
+          - generic [ref=f16e43]:
+            - text: Du bist bereits als Bewerber registriert?
+            - link "Bitte melde dich hier an." [ref=f16e44] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - separator [ref=f16e46]
+          - alert [ref=f16e48]
+          - generic [ref=f16e49]: "Zulässige Dateiformate: DOCX, PDF, Bild und Text (Dateiformate MSG, PPT und XLS sind für Lebensläufe oder Motivationsschreiben nicht zulässig)"
+          - group [ref=f16e53]:
+            - generic [ref=f16e57]:
+              - generic [ref=f16e60]:
+                - generic [ref=f16e61]:
+                  - generic [aria-hidden] [ref=f16e62]: "*"
+                  - text: Lebenslauf + Zeugnisse
+                - generic [ref=f16e66] [cursor=pointer]:
+                  - text: 
+                  - tooltip "Lebenslauf hochladen Erforderlich" [ref=f16e67]
+                  - generic [ref=f16e68]: Lebenslauf hochladen
+                  - generic [ref=f16e69]:
+                    - button "Lebenslauf + Zeugnisse Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f16e70]: 
+                    - tooltip "Lebenslauf hochladen Öffnet ein Dialogfeld" [ref=f16e71]
+              - generic [ref=f16e76]:
+                - text: Motivationsschreiben (optional)
+                - generic [ref=f16e80] [cursor=pointer]:
+                  - text: 
+                  - tooltip "Motivationsschreiben anhängen" [ref=f16e81]
+                  - generic [ref=f16e82]: Motivationsschreiben anhängen
+                  - generic [ref=f16e83]:
+                    - button "Motivationsschreiben (optional) Motivationsschreiben anhängen Öffnet ein Dialogfeld" [ref=f16e84]: 
+                    - tooltip "Motivationsschreiben anhängen Öffnet ein Dialogfeld" [ref=f16e85]
+          - separator [ref=f16e90]
+          - generic "Erforderlich" [ref=f16e91]: "E-Mail-Adresse: *"
+          - 'textbox "E-Mail-Adresse: *" [ref=f16e92]': krantichavan198@gmail.com
+          - generic "Erforderlich" [ref=f16e93]: "E-Mail-Adresse erneut eingeben: *"
+          - 'textbox "E-Mail-Adresse erneut eingeben: *" [ref=f16e94]': krantichavan198@gmail.com
+          - generic "Erforderlich" [ref=f16e95]: "Wähle ein Kennwort: *"
+          - generic [ref=f16e96]:
+            - 'textbox "Wähle ein Kennwort: *" [ref=f16e97]'
+            - button "Anzeigen" [ref=f16e98] [cursor=pointer]
+          - list [ref=f16e101]:
+            - listitem [ref=f16e102]: Das Kennwort muss mindestens 8 Zeichen enthalten.
+            - listitem [ref=f16e103]: Das Kennwort darf nicht mehr als 18 Zeichen enthalten.
+            - listitem [ref=f16e104]: Das Kennwort darf keine Leerzeichen oder Unicode-Zeichen enthalten.
+          - generic "Erforderlich" [ref=f16e105]: "Kennwort erneut eingeben: *"
+          - generic [ref=f16e106]:
+            - 'textbox "Kennwort erneut eingeben: *" [ref=f16e107]'
+            - button "Anzeigen" [ref=f16e108] [cursor=pointer]
+          - generic "Erforderlich" [ref=f16e109]: "Vorname: *"
+          - 'textbox "Vorname: *" [ref=f16e110]': Kranti
+          - generic "Erforderlich" [ref=f16e111]: "Nachname: *"
+          - 'textbox "Nachname: *" [ref=f16e112]': Chavan
+          - text: Anrede
+          - generic [ref=f16e115]:
+            - status [ref=f16e117]
+            - combobox "Anrede" [ref=f16e118]: Frau
+            - button "Anrede" [ref=f16e119] [cursor=pointer]:
+              - generic [ref=f16e120]: 
+          - generic "Erforderlich" [ref=f16e121]: Telefon*
+          - textbox "Telefon" [ref=f16e122]: +49 15750174177
+          - text: Adresse
+          - textbox "Adresse" [ref=f16e123]: Blücherstraße 6
+          - text: PLZ
+          - textbox "PLZ" [ref=f16e124]: "76185"
+          - text: Stadt
+          - textbox "Stadt" [ref=f16e125]: Karlsruhe
+          - text: Land
+          - generic [ref=f16e128]:
+            - status [ref=f16e130]
+            - combobox "Land" [ref=f16e131]: Deutschland
+            - button "Land" [ref=f16e132] [cursor=pointer]:
+              - generic [ref=f16e133]: 
+          - generic "Erforderlich" [ref=f16e134]: Gehaltsvorstellung p.a.*
+          - textbox "Gehaltsvorstellung p.a." [ref=f16e135]: "60000"
+          - generic "Erforderlich" [ref=f16e136]: Kündigungsfrist*
+          - textbox "Kündigungsfrist" [ref=f16e137]: Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026
+          - generic "Erforderlich" [ref=f16e138]: Wie bist du auf uns aufmerksam geworden?*
+          - generic [ref=f16e141]:
+            - status [ref=f16e143]
+            - combobox "Wie bist du auf uns aufmerksam geworden?" [ref=f16e144]: Indeed
+            - button "Wie bist du auf uns aufmerksam geworden?" [ref=f16e145] [cursor=pointer]:
+              - generic [ref=f16e146]: 
+          - text: Nachricht
+          - textbox "Nachricht" [ref=f16e147]: All for One ist ein führender SAP-Partner für den Mittelstand; ich bringe 5 Jahre SAP Commerce Cloud Delivery- und Stakeholder-Erfahrung mit. Frühester Eintritt 16.12.2026.
+          - generic "Erforderlich" [ref=f16e149]: Land/Region des Wohnorts:*
+          - combobox "Land/Region des Wohnorts" [ref=f16e152]:
+            - option "- Bitte auswählen -"
+            - option "Aaland Inseln"
+            - option "Afghanistan"
+            - option "Ägypten"
+            - option "Albanien"
+            - option "Algerien"
+            - option "Amerikanisch Samoa"
+            - option "Andorra"
+            - option "Angola"
+            - option "Anguilla"
+            - option "Antarctica"
+            - option "Antigua"
+            - option "Äquatorialguinea"
+            - option "Argentinien"
+            - option "Armenien"
+            - option "Aruba"
+            - option "Aserbaidschan"
+            - option "Äthiopien"
+            - option "Australien"
+            - option "Bahamas"
+            - option "Bahrain"
+            - option "Bangladesch"
+            - option "Barbados"
+            - option "Belgien"
+            - option "Belize"
+            - option "Benin"
+            - option "Bermuda"
+            - option "Bhutan"
+            - option "Bolivien"
+            - option "Bosnien Herzegowina"
+            - option "Botswana"
+            - option "Bouve Insel"
+            - option "Brasilien"
+            - option "British Indian Ocean Territory"
+            - option "Brunei"
+            - option "Bulgarien"
+            - option "Burkina Faso"
+            - option "Burundi"
+            - option "Chile"
+            - option "China"
+            - option "Cook Inseln"
+            - option "Costa Rica"
+            - option "Dänemark"
+            - option "Deutschland" [selected]
+            - option "Dominica"
+            - option "Dominikanische Republik"
+            - option "Dschibuti"
+            - option "Ecuador"
+            - option "El Salvador"
+            - option "Eritrea"
+            - option "Estland"
+            - option "Eswatini"
+            - option "Falkland Inseln"
+            - option "Färöer Inseln"
+            - option "Fidschi"
+            - option "Finnland"
+            - option "Frankreich"
+            - option "Französich Guinea"
+            - option "Französisch Polynesien"
+            - option "French Southern Territories"
+            - option "Gabun"
+            - option "Gambia"
+            - option "Georgien"
+            - option "Ghana"
+            - option "Gibraltar"
+            - option "Grenada"
+            - option "Griechenland"
+            - option "Grönland"
+            - option "Großbritannien"
+            - option "Guadalupe"
+            - option "Guam"
+            - option "Guatemala"
+            - option "Guernsey"
+            - option "Guinea"
+            - option "Guinea-Bissau"
+            - option "Guyana"
+            - option "Haiti"
+            - option "Heard Island and Mcdonald Islands"
+            - option "Honduras"
+            - option "Hongkong"
+            - option "Indien"
+            - option "Indonesien"
+            - option "Iraq"
+            - option "Irland"
+            - option "Island"
+            - option "Isle of Man"
+            - option "Israel"
+            - option "Italien"
+            - option "Jamaika"
+            - option "Japan"
+            - option "Jemen"
+            - option "Jersey"
+            - option "Jordanien"
+            - option "Kaiman Inseln"
+            - option "Kambodscha"
+            - option "Kamerun"
+            - option "Kanada"
+            - option "Kapverden"
+            - option "Kasachstan"
+            - option "Katar"
+            - option "Kenia"
+            - option "Kirgistan"
+            - option "Kiribati"
+            - option "Kokosinsel"
+            - option "Kolumbien"
+            - option "Komoren"
+            - option "Kongo"
+            - option "Kroatien"
+            - option "Kuba"
+            - option "Kuwait"
+            - option "Laos"
+            - option "Lesoto"
+            - option "Lettland"
+            - option "Libanon"
+            - option "Liberia"
+            - option "Libyen"
+            - option "Liechtenstein"
+            - option "Litauen"
+            - option "Luxemburg"
+            - option "Macau"
+            - option "Madagaskar"
+            - option "Malawi"
+            - option "Malaysia"
+            - option "Malediven"
+            - option "Mali"
+            - option "Malta"
+            - option "Marokko"
+            - option "Marshall Inseln"
+            - option "Martinique"
+            - option "Mauretanien"
+            - option "Mauritius"
+            - option "Mayotte"
+            - option "Mexiko"
+            - option "Monaco"
+            - option "Mongolei"
+            - option "Montenegro"
+            - option "Montserrat"
+            - option "Mosambik"
+            - option "Myanmar"
+            - option "Namibia"
+            - option "Nauru"
+            - option "Nepal"
+            - option "Neukalzedonien"
+            - option "Neuseeland"
+            - option "Nicaragua"
+            - option "Niederlande"
+            - option "Niederländische Antillen"
+            - option "Niger"
+            - option "Nigeria"
+            - option "Niue"
+            - option "Norfolk Insel"
+            - option "Northern Mariana Islands"
+            - option "Norwegen"
+            - option "Oman"
+            - option "Österreich"
+            - option "Pakistan"
+            - option "Palau"
+            - option "Panama"
+            - option "Papua Neuguinea"
+            - option "Paraguay"
+            - option "Peru"
+            - option "Philippinen"
+            - option "Pitcairn"
+            - option "Polen"
+            - option "Portugal"
+            - option "Puerto Rico"
+            - option "Ruanda"
+            - option "Rumänien"
+            - option "Russland"
+            - option "Saint Barthélemy"
+            - option "Saint Helena"
+            - option "Saint Kitts and Nevis"
+            - option "Saint Lucia"
+            - option "Saint Martin"
+            - option "Saint Pierre and Miquelon"
+            - option "Saint Vincent and the Grenadines"
+            - option "Sambia"
+            - option "Samoa"
+            - option "San Marino"
+            - option "Sao Tome and Principe"
+            - option "Saudi-Arabien"
+            - option "Schweden"
+            - option "Schweiz"
+            - option "Senegal"
+            - option "Serbien"
+            - option "Seychellen"
+            - option "Sierra Leone"
+            - option "Simbabwe"
+            - option "Singapur"
+            - option "Sint Maarten"
+            - option "Slowakei"
+            - option "Slowenien"
+            - option "Solomon Inseln"
+            - option "Somalia"
+            - option "Spanien"
+            - option "Sri Lanka"
+            - option "Südafrika"
+            - option "Sudan"
+            - option "Südgeorgien"
+            - option "Südsudan"
+            - option "Surinam"
+            - option "Svalbard"
+            - option "Syrien"
+            - option "Tadschikistan"
+            - option "Taiwan"
+            - option "Thailand"
+            - option "Timor-Leste"
+            - option "Togo"
+            - option "Tokelau"
+            - option "Tonga"
+            - option "Trinidad"
+            - option "Tschad"
+            - option "Tschechische Republik"
+            - option "Tunesien"
+            - option "Türkei"
+            - option "Turkmenistan"
+            - option "Turks and Caicos Islands"
+            - option "Tuvalu"
+            - option "Uganda"
+            - option "Ukraine"
+            - option "Ungarn"
+            - option "United States Minor Outlying Islands"
+            - option "Uruguay"
+            - option "Usbekistan"
+            - option "Vanuatu"
+            - option "Vatikanstadt"
+            - option "Venezuela"
+            - option "Vereinigte Arabische Emirate"
+            - option "Vereinigte Staaten"
+            - option "Vietnam"
+            - option "Wallis und Futuna"
+            - option "Weihnachtsinsel"
+            - option "Weißrussland"
+            - option "Westsahara"
+            - option "Zentralafrika"
+            - option "Zypern"
+          - text: "Benachrichtigung:"
+          - generic [ref=f16e154]:
+            - checkbox "Benachrichtigung:" [ref=f16e155]
+            - generic [ref=f16e156]: Ja, ich möchte in die Bewerberdatenbank der All for One Group aufgenommen werden und ich bin damit einverstanden, dass die All for One Group SE meine angegebenen Daten 24 Monate speichert, um mich künftig auf vakante Positionen innerhalb der All for One Group aufmerksam zu machen, die zu meinem Profil passen. Die Kontaktaufnahme erfolgt telefonisch, per E-Mail oder per Post. Mir ist bekannt, dass diese Einwilligung jederzeit frei widerruflich ist. Meine Einwilligung kann ich jederzeit per E-Mail an Bewerbung@all-for-one.com widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit, der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.
+          - generic [ref=f16e157]:
+            - checkbox "Ja, ich möchte weitere Informationen über Karriere- und Einstiegsmöglichkeiten, Karriere-Events sowie über weitere im Zusammenhang mit dem Bewerbungsverfahren stehende Initiativen erhalten und ich bin damit einverstanden, dass mich die All for One Group SE zu diesem Zweck per E-Mail kontaktiert. Mir ist bekannt, dass diese Einwilligung jederzeit frei widerruflich ist. Meine Einwilligung kann ich jederzeit per E-Mail an Bewerbung@all-for-one.com widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit, der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt." [ref=f16e158]
+            - generic [ref=f16e159]: Ja, ich möchte weitere Informationen über Karriere- und Einstiegsmöglichkeiten, Karriere-Events sowie über weitere im Zusammenhang mit dem Bewerbungsverfahren stehende Initiativen erhalten und ich bin damit einverstanden, dass mich die All for One Group SE zu diesem Zweck per E-Mail kontaktiert. Mir ist bekannt, dass diese Einwilligung jederzeit frei widerruflich ist. Meine Einwilligung kann ich jederzeit per E-Mail an Bewerbung@all-for-one.com widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit, der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.
+          - generic [ref=f16e160]: Nutzungsbedingungen Hinweis::*
+          - 'button "Nutzungsbedingungen <br><br>Hinweis: Lies und akzeptiere die Datenschutzerklärung. Erforderlich" [ref=f16e162] [cursor=pointer]': Lies und akzeptiere die Datenschutzerklärung.
+          - button "Bewerben" [ref=f16e167] [cursor=pointer]
+  - contentinfo [ref=f16e168]:
+    - generic [ref=f16e171]:
+      - list [ref=f16e172]:
+        - listitem [ref=f16e173]:
+          - link "Datenschutz" [ref=f16e174] [cursor=pointer]:
+            - /url: https://www.all-for-one.com/de/datenschutz.html
+        - listitem [ref=f16e175]:
+          - link "Impressum" [ref=f16e176] [cursor=pointer]:
+            - /url: https://www.all-for-one.com/de/impressum.html
+        - listitem [ref=f16e177]:
+          - link "Cookie Policy" [ref=f16e178] [cursor=pointer]:
+            - /url: https://jobs.all-for-one.com/content/Cookie-Pro/?locale=de_DE
+        - listitem [ref=f16e179]:
+          - link "Top-Stellen" [ref=f16e180] [cursor=pointer]:
+            - /url: https://jobs.all-for-one.com/topjobs/
+        - listitem [ref=f16e181]:
+          - link "Alle Stellen anzeigen" [ref=f16e182] [cursor=pointer]:
+            - /url: https://jobs.all-for-one.com/go/Offene-Stellen/8574102/
+      - list [ref=f16e184]:
+        - listitem [ref=f16e185]:
+          - link "Folgen Sie uns auf Instagram" [ref=f16e186] [cursor=pointer]:
+            - /url: https://www.instagram.com/lifeat.all.for.one/
+            - generic [ref=f16e187]: Wird auf einer neuen Registerkarte geöffnet.
+        - listitem [ref=f16e191]:
+          - link "Besuchen Sie unsere Facebook-Seite" [ref=f16e192] [cursor=pointer]:
+            - /url: https://www.facebook.com/AllforOneGroupSE/
+            - generic [ref=f16e193]: Wird auf einer neuen Registerkarte geöffnet.
+        - listitem [ref=f16e196]:
+          - link "Folgen Sie uns auf LinkedIn" [ref=f16e197] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/all-for-one-group-ag/
+            - generic [ref=f16e198]: Wird auf einer neuen Registerkarte geöffnet.
+        - listitem [ref=f16e201]:
+          - link "Finden Sie uns auf Xing" [ref=f16e202] [cursor=pointer]:
+            - /url: https://www.xing.com/company/all-for-one
+            - generic [ref=f16e203]: Wird auf einer neuen Registerkarte geöffnet.
+        - listitem [ref=f16e206]:
+          - link "Besuchen Sie unseren YouTube-Kanal" [ref=f16e207] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCOZrXPMbrEql2deZ6Uv_kyA
+            - generic [ref=f16e208]: Wird auf einer neuen Registerkarte geöffnet.
+    - paragraph [ref=f16e213]: Copyright © 2026 All for One – Alle Rechte vorbehalten

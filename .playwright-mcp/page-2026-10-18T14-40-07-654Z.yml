@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Untitled UI logotext" [ref=e6]
+      - button "menu" [ref=e7] [cursor=pointer]
+  - generic [ref=e15]:
+    - generic [ref=e17]:
+      - link "Karriere" [ref=e19] [cursor=pointer]:
+        - /url: /karriere
+      - heading "Senior SAP Commerce Cloud/Hybris Developer (all genders)" [level=1] [ref=e22]
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: Ansprechpartner
+          - generic [ref=e28]: Leda Toneva-Voigt
+        - generic [ref=e29]:
+          - generic [ref=e30]: Veröffentlicht am
+          - generic [ref=e31]: 9/10/2026
+      - link [ref=e33] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - paragraph [ref=e41]:
+            - strong [ref=e42]: Immer nur Features umsetzen und Stillstand im Job? Du möchtest technische Entscheidungen und die Zukunft deines Arbeitgebers mitgestalten? Du hast es in der Hand.
+          - paragraph [ref=e43]: Maify ist ein junges E-Commerce Beratungsunternehmen. Auf Basis von SAP Commerce Cloud (Hybris) entwickeln wir technisch anspruchsvolle Lösungen für Industrie und Handel.
+          - paragraph [ref=e44]: Bei uns übernimmst du Verantwortung für technische Entscheidungen, gestaltest die Architektur mit und steuerst Kundenprojekte eigenständig im Remote-Setup.
+          - paragraph [ref=e45]: Wir wachsen und suchen erfahrene Software Developer mit SAP Commerce-Hintergrund. Auch starke Frontend-/Backend-Profile mit Commerce-Erfahrung, die sich gezielt in SAP Commerce Cloud weiterentwickeln möchten, sind willkommen.
+          - paragraph [ref=e46]: Klingt es spannend für dich? Dann sollten wir uns kennenlernen!
+          - heading "Senior SAP Commerce/Hybris Developer (all genders) - remote, deutschlandweit" [level=1] [ref=e47]
+          - paragraph [ref=e48]: ‍
+          - heading "Das bieten wir dir:" [level=3] [ref=e49]
+          - list [ref=e50]:
+            - listitem [ref=e51]:
+              - strong [ref=e52]: Sicherheit & Perspektive‍
+              - text: Dies spiegelt sich in unserer soliden Auftragslage und in den Entwicklungsmöglichkeiten, die sich für dich als Teil unseres Teams erschließen.
+            - listitem [ref=e53]:
+              - strong [ref=e54]: Transparenz & direkter Austausch‍
+              - text: Wir fördern das durch monatliche Unternehmensrunden und unser Weekly. Regelmäßiges Feedback gehört ebenfalls zu unserer Unternehmenskultur und fördert das gegenseitige Lernen.
+            - listitem [ref=e55]:
+              - strong [ref=e56]: Remote-Setup & Flexibilität‍
+              - text: Damit du dein Bestes geben kannst, arbeitest du bei Maify 100 % remote innerhalb Deutschlands. Deine Hardware und Arbeitsumgebung sowie die Gestaltung deines Arbeitsplatzes wählst du ebenfalls frei.
+              - strong: ‍
+            - listitem [ref=e57]:
+              - strong [ref=e58]: Deine Entwicklung & Potenzial‍
+              - text: Wir wollen, dass du dein volles Potenzial entdecken und entfalten kannst. Mittels Schulungen und Weiterbildungen geben wir dir Freiraum, dich stärkenorientiert weiterzuentwickeln und zielorientiert zu denken und zu handeln.
+            - listitem [ref=e59]:
+              - strong [ref=e60]: Mitgestaltung & kurze Entscheidungswege‍
+              - text: "Mitdenker gesucht! Wir geben deinen Ideen Raum und sind offen für Neues. Denn wir sind überzeugt: nur so entwickeln wir uns als Unternehmen stetig weiter. Du möchtest was bewegen? Bring dich gern ein."
+            - listitem [ref=e61]:
+              - strong [ref=e62]: Gesundheit & Wohlbefinden‍
+              - text: Du kannst dich auf Angebote rund um deine Gesundheit wie z.B. Hansefit und auf unsere gemeinsamen Events freuen.
+          - heading "Das erwartet dich:" [level=3] [ref=e63]
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - text: Als Mitglied eines agilen, verteilten Teams konzipierst und entwickelst du kundenspezifische
+              - strong [ref=e66]: B2B- und B2C-Commerce-Lösungen
+              - text: auf Basis von SAP Commerce Cloud in einer Lead Stellung.
+            - listitem [ref=e67]:
+              - text: Du gestaltest die
+              - strong [ref=e68]: Softwarearchitektur
+              - text: mit und übernimmst technische Ownership für deine Lösungen auf Basis des SAP Commerce Stacks.
+            - listitem [ref=e69]:
+              - text: Technische Themen in Kundenprojekten steuerst du eigenständig und berätst unsere Kunden als
+              - strong [ref=e70]: technische Ansprechperson bzw. Trusted Advisor.
+            - listitem [ref=e71]:
+              - text: Du analysierst komplexe Anforderungen und entwickelst daraus tragfähige, kundenspezifische Lösungen, übernimmst
+              - strong [ref=e72]: Tech-Lead-Verantwortung
+              - text: oder entwickelst dich perspektivisch in diese Rolle.
+            - listitem [ref=e73]:
+              - text: Du begleitest
+              - strong [ref=e74]: Cloud-Moves, technische Modernisierungen und Software-Upgrades
+              - text: .
+            - listitem [ref=e75]:
+              - text: Du arbeitest mit
+              - strong [ref=e76]: Git, Code Reviews, Clean Code und automatisierten Tests
+              - text: und entwickelst unsere
+              - strong [ref=e77]: Engineering-Standards
+              - text: kontinuierlich weiter.
+          - heading "Das bringst du mit:" [level=3] [ref=e78]
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - text: Mehrjährige Erfahrung in der Entwicklung komplexer
+              - strong [ref=e81]: E-Commerce-, Shop- und Plattformlösungen
+              - text: ". Alternativ:"
+              - strong [ref=e82]: Webentwicklungserfahrung
+              - text: mit belastbarem Verständnis für Commerce-Prozesse
+            - listitem [ref=e83]:
+              - strong [ref=e84]: Java und Spring
+              - text: oder
+              - strong [ref=e85]: Angular
+              - text: ", idealerweise auch"
+              - strong [ref=e86]: SAP Composable Storefront (ehem. Spartacus)
+            - listitem [ref=e87]:
+              - text: Erfahrung mit kundenspezifischen Lösungen und in der
+              - strong [ref=e88]: direkten Kundenkommunikation
+            - listitem [ref=e89]:
+              - text: Leidenschaft für neue Technologien, Kreativität und Flexibilität gehören für dich zum täglichen Doing dazu, genauso wie eine
+              - strong [ref=e90]: selbstständige, ergebnisorientierte Arbeitsweise im Remote-Setup
+            - listitem [ref=e91]:
+              - text: Sichere
+              - strong [ref=e92]: Deutsch- und Englischkenntnisse für die Kommunikation
+              - text: mit Kunden und Projektteams
+          - paragraph [ref=e93]: ‍
+          - paragraph [ref=e94]:
+            - text: Haben wir dein Interesse geweckt? Super! Dann schick uns einen
+            - strong [ref=e95]: Link zu deinem LinkedIn und/oder GitHub-Profil
+            - text: per Mail an
+            - link [ref=e96] [cursor=pointer]:
+              - /url: mailto:career@maify.io
+              - strong [ref=e97]: career@maify.io
+            - text: oder über das Kontaktformular.
+          - paragraph [ref=e98]:
+            - text: Du willst mehr Infos haben? ‍
+            - strong [ref=e99]: Ich freue mich auf deine Nachricht
+            - text: und beantworte gerne deine Fragen.
+          - paragraph [ref=e100]:
+            - strong [ref=e101]: Leda Toneva-Voigt,
+            - text: "People & Culture Business Partner, Telefon:"
+            - strong [ref=e102]: +49 152 32712775
+        - link "Drucken" [ref=e104] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e109]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: "Arbeitgeber:"
+          - generic [ref=e118]: Maify GmbH
+        - generic [ref=e119]:
+          - generic [ref=e120]: "Arbeitspensum:"
+          - generic [ref=e122]: Vollzeit
+        - generic [ref=e123]:
+          - generic [ref=e124]: "Start der Anstellung:"
+          - generic [ref=e126]: Sofort
+        - generic [ref=e127]:
+          - generic [ref=e128]: "Dauer der Anstellung:"
+          - generic [ref=e130]: Unbefristet
+        - generic [ref=e131]:
+          - generic [ref=e132]: "Einsatzort:"
+          - generic [ref=e134]: Remote, deutschlandweit
+        - form "Email Form" [ref=e137]:
+          - link "Kontakt" [ref=e139] [cursor=pointer]:
+            - /url: /kontakt
+          - generic [ref=e140]:
+            - text: Unsere
+            - link "Datenschutzinformation für Bewerbende" [ref=e141] [cursor=pointer]:
+              - /url: /datenschutz-bewerbende
+            - text: .
+  - contentinfo [ref=e142]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - link [ref=e147] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e148]:
+            - img "Untitled UI logotext"
+        - generic [ref=e149]:
+          - link "Startseite" [ref=e150] [cursor=pointer]:
+            - /url: /
+          - link "Leistungen" [ref=e152] [cursor=pointer]:
+            - /url: /leistungen
+          - link "Über uns" [ref=e154] [cursor=pointer]:
+            - /url: /uber-uns
+          - link "Karriere" [ref=e156] [cursor=pointer]:
+            - /url: /karriere
+          - link "Kontakt" [ref=e158] [cursor=pointer]:
+            - /url: /kontakt
+        - link [ref=e161] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/maify-gmbh/
+      - generic [ref=e165]:
+        - generic [ref=e166]: © 2026 Maify GmbH
+        - generic [ref=e167]:
+          - link "Datenschutz" [ref=e168] [cursor=pointer]:
+            - /url: /datenschutz
+          - link "Impressum" [ref=e169] [cursor=pointer]:
+            - /url: /impressum
+        - link "Webdesign by avorice" [ref=e170] [cursor=pointer]:
+          - /url: https://www.avorice.de

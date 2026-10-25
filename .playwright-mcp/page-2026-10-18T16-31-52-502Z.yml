@@ -1,0 +1,132 @@
+- generic [active] [ref=f2e1]:
+  - list [ref=f2e2]:
+    - listitem [ref=f2e3]:
+      - link [ref=f2e4] [cursor=pointer]:
+        - /url: https://www.musik-meyer.de/en/career/jobs/application-form
+    - listitem [ref=f2e8]:
+      - button "Nachricht ausblenden" [ref=f2e9] [cursor=pointer]
+  - button "Toggle navigation" [ref=f2e13] [cursor=pointer]
+  - banner [ref=f2e16]:
+    - navigation [ref=f2e17]:
+      - link "MUSIK MEYER GmbH" [ref=f2e18] [cursor=pointer]:
+        - /url: /
+  - heading "Stellenausschreibungen" [level=2] [ref=f2e41]
+  - navigation "Breadcrumb" [ref=f2e42]:
+    - generic [ref=f2e43]:
+      - paragraph [ref=f2e44]: "You are here:"
+      - list [ref=f2e45]:
+        - listitem [ref=f2e46]:
+          - link "MUSIK MEYER GmbH" [ref=f2e47] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f2e48]:
+          - text: //
+          - link "Karriere" [ref=f2e49] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f2e50]:
+          - text: //
+          - link "Stellenanzeigen" [ref=f2e51] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f2e52]: // Bewerbungsformular
+  - generic [ref=f2e56]:
+    - heading "Bewerbung" [level=2] [ref=f2e58]
+    - paragraph [ref=f2e59]: Wir freuen uns auf Sie und Ihre aussagekräftigen Bewerbungsunterlagen!
+    - generic [ref=f2e61]:
+      - heading "Sind diese Eingaben korrekt?" [level=1] [ref=f2e62]
+      - table [ref=f2e63]:
+        - rowgroup [ref=f2e64]:
+          - row [ref=f2e65]:
+            - cell [ref=f2e66]:
+              - strong [ref=f2e67]: Vorname
+            - cell "Kranti" [ref=f2e68]
+          - row [ref=f2e69]:
+            - cell [ref=f2e70]:
+              - strong [ref=f2e71]: Nachname
+            - cell "Chavan" [ref=f2e72]
+          - row [ref=f2e73]:
+            - cell [ref=f2e74]:
+              - strong [ref=f2e75]: E-Mail
+            - cell "krantichavan198@gmail.com" [ref=f2e76]
+          - row [ref=f2e77]:
+            - cell [ref=f2e78]:
+              - strong [ref=f2e79]: Stellenanzeige
+            - cell "Java Backend Entwickler (m/w/d)" [ref=f2e80]
+          - row [ref=f2e81]:
+            - cell [ref=f2e82]:
+              - strong [ref=f2e83]: Einverständniserklärung
+            - cell "Ja, ich erkläre mich einverstanden, dass meine Nachricht zur weiteren Bearbeitung gespeichert und genutzt werden darf. Gleichzeitig stimme ich einer Datenverarbeitung gemäß der Datenschutzerklärung zu." [ref=f2e84]
+          - row [ref=f2e85]:
+            - cell [ref=f2e86]:
+              - strong [ref=f2e87]: Upload Bewerbungsunterlagen
+            - cell "kranti_chavan_bewerbungsunterlagen.pdf" [ref=f2e88]
+      - group [ref=f2e89]:
+        - button "Zurück" [ref=f2e91] [cursor=pointer]
+        - button "Weiter" [ref=f2e93] [cursor=pointer]
+    - paragraph [ref=f2e94]:
+      - link "Datenschutzerklärung anzeigen" [ref=f2e96] [cursor=pointer]:
+        - /url: /datenschutz
+    - paragraph [ref=f2e97]: "*) Pflichtfelder"
+  - contentinfo [ref=f2e98]:
+    - generic [ref=f2e100]:
+      - generic [ref=f2e101]:
+        - paragraph [ref=f2e103]:
+          - strong [ref=f2e104]: MUSIK MEYER GmbH
+          - text: Industriestraße 2035041 MarburgGermany
+        - paragraph [ref=f2e105]
+        - paragraph [ref=f2e106]
+        - paragraph [ref=f2e107]:
+          - text: Tel. +49 6421 989 0
+          - link "info@ musik-meyer.de" [ref=f2e108] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=f2e110]:
+        - listitem [ref=f2e111]:
+          - link "Brands" [ref=f2e112] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=f2e113]:
+          - link "News" [ref=f2e114] [cursor=pointer]:
+            - /url: /news-events
+        - listitem [ref=f2e115]:
+          - link "Team" [ref=f2e116] [cursor=pointer]:
+            - /url: /team
+        - listitem [ref=f2e117]:
+          - link "Stellenanzeigen" [ref=f2e118] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f2e119]:
+          - link "Unternehmen" [ref=f2e120] [cursor=pointer]:
+            - /url: /unternehmen
+        - listitem [ref=f2e121]:
+          - link "Kontakt" [ref=f2e122] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f2e123]:
+          - link "B2B Login" [ref=f2e124] [cursor=pointer]:
+            - /url: https://extra.musik-meyer.net/fos/Static/Login?PostBack=/fos/
+    - generic [ref=f2e128]:
+      - list [ref=f2e130]:
+        - listitem [ref=f2e131]:
+          - link "Impressum" [ref=f2e132] [cursor=pointer]:
+            - /url: /impressum
+        - listitem [ref=f2e133]:
+          - link "Datenschutz" [ref=f2e134] [cursor=pointer]:
+            - /url: /datenschutz
+        - listitem [ref=f2e135]:
+          - link "Kontakt" [ref=f2e136] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f2e137]:
+          - link "Cookie-Setup" [ref=f2e138] [cursor=pointer]:
+            - /url: /cookie-setup
+        - listitem [ref=f2e139]:
+          - link "Hinweisgeberschutz" [ref=f2e140] [cursor=pointer]:
+            - /url: /kontakt-corporate/hinweisgeberschutzgesetz
+        - listitem
+      - list [ref=f2e142]:
+        - listitem [ref=f2e143]:
+          - link "MUSIK MEYER on LinkedIn" [ref=f2e144] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/musik-meyer/
+        - listitem [ref=f2e147]:
+          - link "MUSIK MEYER on XING" [ref=f2e148] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/musikmeyergmbh
+        - listitem [ref=f2e151]:
+          - link "MUSIK MEYER on Facebook" [ref=f2e152] [cursor=pointer]:
+            - /url: https://www.facebook.com/musikmeyer/
+        - listitem [ref=f2e155]:
+          - link "MUSIK MEYER on Instagram" [ref=f2e156] [cursor=pointer]:
+            - /url: https://www.instagram.com/musik_meyer/

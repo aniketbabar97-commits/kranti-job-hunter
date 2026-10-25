@@ -1,0 +1,97 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e9]:
+    - complementary [ref=f2e10]:
+      - generic [ref=f2e11]:
+        - button "Zum Hauptinhalt springen"
+        - img "Schäfer Shop Group GmbH & Co. KG" [ref=f2e17]
+        - heading "(Senior) Software-Architekt (m/w/d)" [level=1] [ref=f2e98]
+      - generic [ref=f2e18]:
+        - heading "In drei einfachen Schritten zum Traumjob" [level=2] [ref=f2e99]
+        - list [ref=f2e20]:
+          - listitem [ref=f2e21]:
+            - button "1 Lebenslauf" [ref=f2e22] [cursor=pointer]:
+              - generic [ref=f2e23]: "1"
+              - generic [ref=f2e24]: Lebenslauf
+          - listitem [ref=f2e25]:
+            - button "2 Persönliche Angaben" [ref=f2e26] [cursor=pointer]:
+              - generic [ref=f2e27]: "2"
+              - generic [ref=f2e28]: Persönliche Angaben
+          - listitem [ref=f2e100]:
+            - button "3 Zusätzliche Fragen" [ref=f2e101] [cursor=pointer]:
+              - generic [ref=f2e102]: "3"
+              - generic [ref=f2e103]: Zusätzliche Fragen
+    - main [ref=f2e29]:
+      - generic [ref=f2e30]:
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]:
+            - generic [ref=f2e34]:
+              - generic [ref=f2e35]:
+                - heading "Lebenslauf und Anhänge" [level=2] [ref=f2e36]
+                - paragraph [ref=f2e37]: "Bitte eine Option wählen und Lebenslauf hochladen:"
+              - generic [ref=f2e39]:
+                - generic "Lebenslauf hochladen" [ref=f2e40]:
+                  - generic [ref=f2e41] [cursor=pointer]:
+                    - generic [ref=f2e42]: Dokument
+                    - button "Hochgeladenen Lebenslauf entfernen" [ref=f2e112]
+                - generic [ref=f2e105] [cursor=pointer]:
+                  - iframe
+                - button "Mit XING-Profil bewerben" [ref=f2e53] [cursor=pointer]:
+                  - generic [ref=f2e54]: XING
+            - generic [ref=f2e60]:
+              - generic [ref=f2e116]:
+                - paragraph [ref=f2e117]: Bereits hochgeladene Anhänge
+                - generic [ref=f2e118]:
+                  - generic [ref=f2e119]:
+                    - generic [ref=f2e124]: Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf
+                    - generic [ref=f2e125]:
+                      - button "Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e127] [cursor=pointer]:
+                        - generic [ref=f2e128]: Vorschau
+                      - button "Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e129] [cursor=pointer]
+                  - generic [ref=f2e133]:
+                    - generic [ref=f2e138]: Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf
+                    - generic [ref=f2e139]:
+                      - button "Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e141] [cursor=pointer]:
+                        - generic [ref=f2e142]: Vorschau
+                      - button "Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e143] [cursor=pointer]
+              - generic [ref=f2e61]: Weitere Anhänge (z.B. Zeugnisse oder Zertifikate)
+          - generic [ref=f2e72]:
+            - generic [ref=f2e74]:
+              - generic [ref=f2e75]:
+                - textbox "Anschreiben (optional)" [ref=f2e76]
+                - generic: Anschreiben (optional)
+              - generic [ref=f2e77]: Alternativ kann das Anschreiben als Anhang hochgeladen werden.
+            - button "zum nächsten Schritt" [active] [ref=f2e79] [cursor=pointer]
+        - generic [ref=f2e148]:
+          - heading "Persönliche Angaben" [level=2] [ref=f2e149]
+          - generic [ref=f2e150]:
+            - generic [ref=f2e153]:
+              - textbox "Vorname*" [ref=f2e154]
+              - generic: Vorname*
+            - generic [ref=f2e157]:
+              - textbox "Nachname*" [ref=f2e158]
+              - generic: Nachname*
+          - generic [ref=f2e162]:
+            - textbox "E-Mail*" [ref=f2e163]
+            - generic: E-Mail*
+          - generic [ref=f2e167]:
+            - textbox "Telefon" [ref=f2e168]
+            - generic: Telefon
+          - button "zum letzten Schritt" [ref=f2e170] [cursor=pointer]
+    - generic [ref=f2e83]:
+      - generic [ref=f2e84]:
+        - link "Impressum" [ref=f2e107] [cursor=pointer]:
+          - /url: https://schaefer-shop.softgarden.io/imprint
+        - link "Datenschutz" [ref=f2e109] [cursor=pointer]:
+          - /url: https://schaefer-shop.softgarden.io/data-security
+        - link "Machine-readable job feed (JSON)" [ref=f2e111] [cursor=pointer]:
+          - /url: ../../jobs.feed.json
+      - link "powered by softgarden" [ref=f2e88] [cursor=pointer]:
+        - /url: https://softgarden.com/
+    - status [ref=f2e91]:
+      - generic [ref=f2e92]: Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen!
+      - paragraph [ref=f2e93]: Eine Bestätigungs-E-Mail wird in Kürze versendet.
+  - complementary "Zustimmung ändern" [ref=f2e94]:
+    - button "Zustimmung ändern" [ref=f2e95] [cursor=pointer]:
+      - img "Zustimmung ändern" [ref=f2e96]
+  - alert [ref=f2e97]
+  - 'tooltip "Folgenden Dateitypen sind zulässig: .pdf, .jpg, .jpeg, .gif, .png, .bmp, .tif, .tiff, .doc, .ppt, .pps, .docx, .pptx, .ppsx, .odt, .rtf, .odp, .txt. Die Größe der hochgeladenen Datei sollte 10 MB nicht überschreiten."'

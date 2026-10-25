@@ -1,0 +1,98 @@
+- generic [active] [ref=f14e1]:
+  - region [ref=f14e2]:
+    - list:
+      - listitem:
+        - link [ref=f14e3] [cursor=pointer]:
+          - /url: "#skip-to-main-heading"
+      - listitem:
+        - button "Login" [ref=f14e4] [cursor=pointer]
+      - listitem:
+        - link [ref=f14e5] [cursor=pointer]:
+          - /url: "#skip-to-mainnav-heading"
+  - list [ref=f14e7]:
+    - listitem [ref=f14e8]:
+      - button "en - English - Language" [ref=f14e9] [cursor=pointer]:
+        - generic "English - Language" [ref=f14e11]:
+          - text: en
+          - generic [ref=f14e12]: "- English - Language"
+    - listitem [ref=f14e14]:
+      - link "markant.com" [ref=f14e15] [cursor=pointer]:
+        - /url: https://www.markant.com/en
+  - banner [ref=f14e16]:
+    - generic [ref=f14e18]:
+      - banner [ref=f14e19]:
+        - link "Markant - Go to homepage" [ref=f14e20] [cursor=pointer]:
+          - /url: index.php
+      - button "Menu" [ref=f14e23] [cursor=pointer]
+      - navigation:     
+  - main [ref=f14e31]:
+    - generic [ref=f14e32]:
+      - navigation "You are here":
+        - list [ref=f14e33]:
+          - listitem [ref=f14e34]:
+            - link "Home" [ref=f14e35] [cursor=pointer]:
+              - /url: /index.php
+          - listitem [ref=f14e36]:
+            - text: ›
+            - link "Job offers" [ref=f14e37] [cursor=pointer]:
+              - /url: /index.php?ac=search_result&restoreLastSearch=1
+          - listitem [ref=f14e38]:
+            - text: ›
+            - link "Consultant Master Data Services (m/w/d)" [ref=f14e39] [cursor=pointer]:
+              - /url: /index.php?ac=jobad&id=751
+          - listitem [ref=f14e40]:
+            - text: ›
+            - generic "Application" [ref=f14e41]
+    - generic [ref=f14e43]:
+      - heading "Online Application" [level=1] [ref=f14e45]
+      - generic [ref=f14e46]:
+        - generic [ref=f14e47]:
+          - heading [level=2] [ref=f14e48]:
+            - button "Apply without registration" [expanded] [ref=f14e49] [cursor=pointer]:
+              - generic [ref=f14e50]:
+                - generic [aria-hidden] [ref=f14e51]: 
+                - generic [ref=f14e52]: Apply without registration
+          - generic [ref=f14e55]:
+            - paragraph [ref=f14e56]: Start your application right away. We will create an account for you after your submission.
+            - link "Apply now" [ref=f14e57] [cursor=pointer]:
+              - /url: index.php?ac=applicationform_privacy&jobad_id=751
+        - heading [level=2] [ref=f14e59]:
+          - button "Sign in or register" [ref=f14e60] [cursor=pointer]:
+            - generic [ref=f14e61]:
+              - generic [aria-hidden] [ref=f14e62]: 
+              - generic [ref=f14e63]: Sign in or register
+  - contentinfo [ref=f14e65]:
+    - generic [ref=f14e69]:
+      - navigation:
+        - list
+    - separator [ref=f14e70]
+    - generic [ref=f14e73]:
+      - navigation [ref=f14e75]:
+        - list [ref=f14e76]:
+          - listitem [ref=f14e77]:
+            - link "Imprint" [ref=f14e78] [cursor=pointer]:
+              - /url: index.php?ac=imprint
+            - text: "|"
+          - listitem [ref=f14e79]:
+            - link "Data privacy statement" [ref=f14e80] [cursor=pointer]:
+              - /url: index.php?ac=privacy_policy
+            - text: "|"
+          - listitem [ref=f14e81]:
+            - link "Contact" [ref=f14e82] [cursor=pointer]:
+              - /url: index.php?ac=contact
+            - text: "|"
+          - listitem [ref=f14e83]:
+            - link "Cookie Settings" [ref=f14e84] [cursor=pointer]:
+              - /url: "#"
+      - banner [ref=f14e85]
+    - region [ref=f14e87]:
+      - list:
+        - listitem:
+          - link [ref=f14e88] [cursor=pointer]:
+            - /url: "#skip-to-main-heading"
+        - listitem:
+          - button "Login" [ref=f14e89] [cursor=pointer]
+          - button "Login" [ref=f14e90] [cursor=pointer]
+        - listitem:
+          - link [ref=f14e91] [cursor=pointer]:
+            - /url: "#skip-to-mainnav-heading"

@@ -1,0 +1,153 @@
+- generic [active] [ref=f1e1]:
+  - dialog "cookieconsent" [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - text: Um Ihnen einen bestmöglichen Service zu bieten und die Verwendung mancher Funktionen zu erleichtern, verwenden wir Cookies. Mit der Nutzung dieser Seite erklären Sie sich mit der Verwendung von Cookies einverstanden. Die Einwilligung kann jeder Zeit mit Wirkung für die Zukunft widerrufen werden. Mehr Informationen darüber, welche Daten gespeichert werden, erhalten Sie
+      - button "hier." [ref=f1e4] [cursor=pointer]
+    - generic [ref=f1e5]:
+      - button "allow cookies" [ref=f1e6] [cursor=pointer]: Ja, ich bin einverstanden
+      - generic [ref=f1e7]:
+        - button "choose cookies" [ref=f1e8] [cursor=pointer]: Cookies anpassen
+        - button "deny cookies" [ref=f1e9] [cursor=pointer]: Ablehnen
+  - generic [ref=f1e10]:
+    - generic [ref=f1e11]:
+      - link [ref=f1e13] [cursor=pointer]:
+        - /url: /de
+        - img "Logo" [ref=f1e14]
+      - generic [ref=f1e15]:
+        - list [ref=f1e17]:
+          - listitem [ref=f1e18]: Deutsch|
+          - listitem [ref=f1e19]:
+            - link "Englisch" [ref=f1e20] [cursor=pointer]:
+              - /url: /Digital-Product-Owner-mwd-eng-j1051.html
+        - list [ref=f1e23]:
+          - listitem [ref=f1e24]:
+            - link "Stellenangebote" [ref=f1e25] [cursor=pointer]:
+              - /url: https://karriere.huber.de/stellenangebote.html
+          - listitem [ref=f1e26]:
+            - link "Perspektiven" [ref=f1e27] [cursor=pointer]:
+              - /url: https://karriere.huber.de/arbeitgeber.html
+          - listitem [ref=f1e28]:
+            - link "Ausbildung & Praktikum" [ref=f1e29] [cursor=pointer]:
+              - /url: https://karriere.huber.de/ausbildung-and-praktikum.html
+          - listitem [ref=f1e30]:
+            - link "FAQ" [ref=f1e31] [cursor=pointer]:
+              - /url: https://karriere.huber.de/faq.html
+    - generic [ref=f1e33]:
+      - generic [ref=f1e36]:
+        - generic [ref=f1e37]:
+          - generic [ref=f1e38]:
+            - heading "Digital Product Owner (m/w/d)" [level=1] [ref=f1e39]
+            - generic [ref=f1e40]:
+              - list [ref=f1e41]:
+                - listitem [ref=f1e42]:
+                  - generic [ref=f1e43]: 
+                  - text: Hauptsitz Berching
+                - listitem [ref=f1e44]:
+                  - generic [ref=f1e45]: 
+                  - text: "Publiziert: 12.10.2026"
+              - list [ref=f1e46]:
+                - listitem [ref=f1e47]:
+                  - generic [ref=f1e48]: "#"
+                  - text: "Kennziffer: 26185"
+          - img "Digital Product Owner (m/w/d), 1. Bild" [ref=f1e50]
+        - generic [ref=f1e51]:
+          - heading [level=2]
+          - generic [ref=f1e52]:
+            - paragraph [ref=f1e53]: Die HUBER SE entwickelt, fertigt und vertreibt Maschinen und Anlagen für die kommunale und industrielle Wasser-/Abwasserreinigung sowie Schlammaufbereitung. Weltweit bieten wir mit unseren mehr als 60 Repräsentanzen innovative Produkte und Lösungen an.
+            - paragraph [ref=f1e54]: Sie möchten mit Ihren Stärken zum Schutz eines der wertvollsten Rohstoffe – dem Wasser – beitragen? Gleichzeitig legen Sie Wert auf einen gesicherten Arbeitsplatz sowie eine langfristige Perspektive in einem wachstumsorientierten familiengeführten Unternehmen?
+            - paragraph [ref=f1e55]:
+              - text: Dann unterstützen Sie unser Team an unserem
+              - strong [ref=f1e56]: Hauptsitz Berching
+              - text: zum nächstmöglichen Zeitpunkt!
+        - generic [ref=f1e57]:
+          - heading "Was Sie erwartet:" [level=2] [ref=f1e58]
+          - list [ref=f1e61]:
+            - listitem [ref=f1e62]: Verantwortung für die Weiterentwicklung unserer digitalen Lösungen und Plattformen, insbesondere Kundenportal und Webshop
+            - listitem [ref=f1e63]: Roadmap und gemeinsames Backlog über mehrere Entwicklungsteams, Priorisierung nach Kundenwert
+            - listitem [ref=f1e64]: Schnittstelle zwischen Fachbereichen, Entwicklungsteams und externen Partnern
+            - listitem [ref=f1e65]: Direkter Kundenkontakt bei Interviews, Prototyp-Tests und Pilotbegleitung
+            - listitem [ref=f1e66]: Übersetzung von Kundenproblemen in klare Anforderungen mit überprüfbaren Akzeptanzkriterien, Moderation des Refinements und Abnahme der Ergebnisse
+            - listitem [ref=f1e67]: Zusammenführung von Homepage, Webshop, B2B und Kundenportal zu einem durchgängigen Kundenerlebnis
+            - listitem [ref=f1e68]: Koordination der teamübergreifenden Zusammenarbeit zwischen IoT Edge Development, Data Engineering und Kundenportal gemeinsam mit Abteilungsleitung und Entwicklungsteam
+            - listitem [ref=f1e69]: Planung und Begleitung von Entwicklungsprojekten bis zum Rollout
+            - listitem [ref=f1e70]: Definition von User Stories, Anforderungen und Akzeptanzkriterien sowie Monitoring relevanter KPIs und Ableitung von Optimierungsmaßnahmen
+        - generic [ref=f1e71]:
+          - heading "Was Sie mitbringen sollten:" [level=2] [ref=f1e72]
+          - list [ref=f1e75]:
+            - listitem [ref=f1e76]: Abgeschlossenes Studium der Wirtschaftsinformatik, Informatik, Wirtschaftsingenieurwesen, Betriebswirtschaft mit Digitalisierungsbezug oder eine vergleichbare Qualifikation
+            - listitem [ref=f1e77]: Mindestens 5 Jahre Erfahrung als Product Owner oder Produktmanager, für ein digitales B2B-Produkt oder ein Kundenportal mit Commerce-Anteil
+            - listitem [ref=f1e78]: Sicheres Handwerkszeug in Discovery, Priorisierung, Roadmap- und Backlog-Arbeit
+            - listitem [ref=f1e79]: Verständnis für Softwareentwicklung sowie digitale Plattformen, Cloud- und IoT-Lösungen
+            - listitem [ref=f1e80]: Erfahrung mit KI-gestützter Produktarbeit sowie der Formulierung von Anforderungen für die Zusammenarbeit von Menschen und KI-Agenten
+            - listitem [ref=f1e81]: Kommunikationsstärke, Eigeninitiative und die Fähigkeit, unterschiedliche fachliche und technische Interessen zu verbinden
+            - listitem [ref=f1e82]: Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift
+        - generic [ref=f1e83]:
+          - heading "Was wir Ihnen bieten:" [level=2] [ref=f1e84]
+          - list [ref=f1e87]:
+            - listitem [ref=f1e88]:
+              - text: Spannende Projekte zum
+              - strong [ref=f1e89]: Schutz der Umwelt
+              - text: "- innovatives und wachsendes Arbeitsumfeld"
+            - listitem [ref=f1e90]:
+              - strong [ref=f1e91]: "#WeAreHUBER"
+              - text: "- Platz in einem"
+              - strong [ref=f1e92]: motivierten Team
+              - text: ", das offen für Ideen und Erfahrungen ist"
+            - listitem [ref=f1e93]:
+              - text: Schnelle Integration und intensive Einarbeitung mit
+              - strong [ref=f1e94]: Patensystem
+              - text: und
+              - strong [ref=f1e95]: Willkommensveranstaltung
+            - listitem [ref=f1e96]:
+              - strong [ref=f1e97]: Work Life Balance
+              - text: "- Flexible Arbeitszeiten, Hybrides Arbeiten, 30 Tage Urlaub"
+            - listitem [ref=f1e98]:
+              - strong [ref=f1e99]: "#HUBERSpirit"
+              - text: "- Kollegiales"
+              - strong [ref=f1e100]: Miteinander
+              - text: ", Team Events, Sommer- u. Weihnachtsfest"
+            - listitem [ref=f1e101]:
+              - text: Gemeinsames Mittagessen vor Ort - mit
+              - strong [ref=f1e102]: Verpflegungszuschuss
+            - listitem [ref=f1e103]:
+              - text: Mitarbeiter
+              - strong [ref=f1e104]: Shoppingkarte
+              - text: (Edenred Card),
+              - strong [ref=f1e105]: Geschenke
+              - text: zu besonderen Anlässen,
+              - strong [ref=f1e106]: Vergünstigungen
+              - text: bei regionalen Geschäften
+            - listitem [ref=f1e107]:
+              - strong [ref=f1e108]: Fit@HUBER
+              - text: "- JobRad, Sport- u. Yoga-Kurse, Teilnahme am Firmenlauf, Gesundheitsworkshops"
+            - listitem [ref=f1e109]:
+              - strong [ref=f1e110]: HUBERAcademy
+              - text: "- Mitarbeiterförderung durch interne und externe Schulungsangebote"
+            - listitem [ref=f1e111]:
+              - strong [ref=f1e112]: Krisensicherer
+              - text: Arbeitsplatz mit
+              - strong [ref=f1e113]: unbefristeten Arbeitsvertrag
+        - generic [ref=f1e114]:
+          - heading "Haben wir Ihr Interesse geweckt?" [level=2] [ref=f1e115]
+          - paragraph [ref=f1e117]: Dann freuen wir uns über Ihre aussagekräftige Bewerbung!
+        - generic [ref=f1e118]:
+          - img "Annalena Zaubzer" [ref=f1e119]
+          - list [ref=f1e120]:
+            - listitem [ref=f1e121]: Annalena Zaubzer
+            - listitem [ref=f1e122]: Recruiting für Festanstellung
+            - listitem [ref=f1e123]: +49-8462-201-164
+      - generic [ref=f1e124]:
+        - link "Zurück" [ref=f1e126] [cursor=pointer]:
+          - /url: https://karriere.huber.de/stellenangebote.html
+        - link "Jetzt bewerben!" [ref=f1e128] [cursor=pointer]:
+          - /url: https://karriere.huber.de/Digital-Product-Owner-mwd-de-f1051.html
+    - generic [ref=f1e131]:
+      - link "Datenschutz" [ref=f1e132] [cursor=pointer]:
+        - /url: https://karriere.huber.de/datenschutz.html
+      - link "Impressum" [ref=f1e133] [cursor=pointer]:
+        - /url: https://karriere.huber.de/impressum.html
+      - generic [ref=f1e134]:
+        - link "" [ref=f1e135] [cursor=pointer]:
+          - /url: https://www.facebook.com/huber.de
+        - link "" [ref=f1e136] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/HuberTechnology

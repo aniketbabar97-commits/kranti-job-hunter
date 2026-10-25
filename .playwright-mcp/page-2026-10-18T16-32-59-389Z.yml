@@ -1,0 +1,246 @@
+- generic [ref=f9e1]:
+  - generic [aria-hidden] [ref=f9e4]:
+    - banner [ref=f9e5]:
+      - generic [ref=f9e6]:
+        - link [ref=f9e129] [cursor=pointer]:
+          - /url: https://jobs.innomotics.com/
+        - button [ref=f9e131] [cursor=pointer]:
+          - generic [ref=f9e27]: 
+    - main [ref=f9e31]:
+      - region [ref=f9e132]:
+        - generic [ref=f9e37]:
+          - heading [level=1] [ref=f9e133]: "Karrierechancen: Konto anlegen"
+          - generic [ref=f9e42]:
+            - generic [ref=f9e43]:
+              - text: Sie sind bereits als Benutzer registriert?
+              - link [ref=f9e134] [cursor=pointer]:
+                - /url: /career?company=InnoProd&site=&lang=de_DE&requestParams=Zw5sYHhUqdKHgML%2fn6uxuM8jIYN42m1R3UpCQRCe%2fElNKSXorleQo2ESXZRk1oECIeqmi9N6zqQb%0a2%2b5xdkwj6InqIaInqMteILroHVotyEMt7LLM983M9808fELWElSuxI2ojliq6qGwg2MRZ3NvT89r%0aFy9pSHVgSRkRdUTIhnwo8IDQDoyKJvHOLkxPaZx3b9ndIkPGSsYRwer50ayqErpfPWGSur%2f9%2bHr2%0a%2frF%2bd5ACmMSOvsAADPlQSdTsR6Mh3EP6O56%2fMj1bH2OPoRIKQqTARQLCYSATxEzT8xoMRWtCKVQr%0ajtXtPJy9FMqiw112V8aopMZ5fLEtCUNmWA4NESrB0uggqaVU29iq1xpes7np1RxTWl8zkhbq1CL9%0a1y0XmutY6F8lKefI19p0yUSJb%2bHHnLbzdVamXoXzIsOZIGdzOsdEqwiD9j5D2e1i3FJIvEcoGKO%2f%0aeiZfn9iKFA%3d%3d&career_ns=job%5fapplication&career_job_req_id=7005&jobPipeline=Direct&clientId=jobs2web&_s.crb=TRVoPZezUIrzvL%2bqzlO2ooc2fD4iqzdyVIGZyPDEIXY%3d
+                - text: Bitte melden Sie sich hier an.
+              - text: Bei den Anmeldedaten wird zwischen Groß- und Kleinschreibung unterschieden
+              - generic [ref=f9e45]: "*weist auf ein erforderliches Feld hin."
+            - generic [ref=f9e135]: "E-Mail-Adresse: *"
+            - textbox [ref=f9e136]: krantichavan198@gmail.com
+            - generic [ref=f9e137]: "E-Mail-Adresse erneut eingeben: *"
+            - textbox [ref=f9e138]: krantichavan198@gmail.com
+            - generic [ref=f9e139]: "Wählen Sie ein Kennwort: *"
+            - generic [ref=f9e52]:
+              - textbox [ref=f9e140]: Kranti97h@
+              - button [ref=f9e141] [cursor=pointer]: Anzeigen
+            - generic [ref=f9e124]:
+              - text: 
+              - generic [ref=f9e125]: Kennwort akzeptiert
+            - list [ref=f9e57]:
+              - listitem [ref=f9e58]: Das Kennwort muss mindestens 8 Zeichen enthalten.
+              - listitem [ref=f9e59]: Das Kennwort darf nicht mehr als 18 Zeichen enthalten.
+              - listitem [ref=f9e60]: Das Kennwort muss mindestens einen Großbuchstaben und einen Kleinbuchstaben enthalten.
+              - listitem [ref=f9e61]: Das Kennwort muss mindestens eine Ziffer oder ein Satzzeichen enthalten.
+              - listitem [ref=f9e62]: Das Kennwort darf keine Leerzeichen oder Unicode-Zeichen enthalten.
+            - generic [ref=f9e142]: "Kennwort erneut eingeben: *"
+            - generic [ref=f9e64]:
+              - textbox [ref=f9e143]: Kranti97h@
+              - button [ref=f9e144] [cursor=pointer]: Anzeigen
+            - generic [ref=f9e126]:
+              - generic [ref=f9e127]: 
+              - generic [ref=f9e128]: Kennwort stimmt überein
+            - generic [ref=f9e145]: "Vorname: *"
+            - textbox [ref=f9e146]: Kranti
+            - generic [ref=f9e147]: "Nachname: *"
+            - textbox [ref=f9e148]: Chavan
+            - generic [ref=f9e71]: Land/Region des Wohnorts:*
+            - combobox [ref=f9e150]
+            - generic [ref=f9e76]: Eigenes Profil sichtbar machen für:*
+            - radiogroup [ref=f9e151]:
+              - generic [ref=f9e78]:
+                - radio [checked] [ref=f9e152]
+                - generic [ref=f9e81]: Meine Bewerbungsdaten sollen allen relevanten Innomotics-Konzerngesellschaften zugänglich gemacht werden, um mir zu meinem Profil passende, offene Positionen anzubieten. Mit ist bekannt, dass ich diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
+              - generic [ref=f9e82]:
+                - radio [ref=f9e153]
+                - generic [ref=f9e85]: Nur Recruiter, die Stellen betreuen, auf die ich mich bewerbe
+            - text: "Benachrichtigung:"
+            - generic [ref=f9e87]:
+              - checkbox [checked] [ref=f9e154]
+              - generic [ref=f9e89]: Benachrichtigungen über neue Stellenausschreibungen erhalten
+            - generic [ref=f9e90]:
+              - checkbox [checked] [ref=f9e155]
+              - generic [ref=f9e92]: Mehr über Karrierechancen erfahren
+            - generic [ref=f9e93]: Nutzungsbedingungen:*
+            - button [ref=f9e156] [cursor=pointer]: Lesen und akzeptieren Sie die Datenschutzerklärung.
+            - generic [ref=f9e157]: Nutzungsbedingungen ist erforderlich
+            - button [ref=f9e159] [cursor=pointer]: Konto anlegen
+    - contentinfo [ref=f9e101]:
+      - generic [ref=f9e104]:
+        - list [ref=f9e105]:
+          - listitem [ref=f9e106]:
+            - link [ref=f9e160] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/content/Corporate-Information/?locale=en_GB
+              - text: Impressum
+          - listitem [ref=f9e108]:
+            - button [ref=f9e161] [cursor=pointer]: Cookie Consent Manager
+          - listitem [ref=f9e110]:
+            - link [ref=f9e162] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/viewalljobs/
+              - text: View All Jobs
+          - listitem [ref=f9e112]:
+            - link [ref=f9e163] [cursor=pointer]:
+              - /url: https://jobs.innomotics.com/
+              - text: Contact Us
+        - list [ref=f9e115]:
+          - listitem [ref=f9e116]:
+            - link [ref=f9e164] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/innomotics
+              - generic [ref=f9e118]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=f9e123]: Copyright © Innomotics
+  - generic [ref=f9e166]:
+    - tab [aria-hidden] [ref=f9e167] [cursor=pointer]
+    - dialog "Einverständniserklärung zur Datenschutzrichtlinie" [ref=f9e170]:
+      - generic [ref=f9e171]:
+        - generic [ref=f9e173]:
+          - generic [ref=f9e174]: Drücken Sie ESC, um das Dialogfeld zu schließen.
+          - heading "Einverständniserklärung zur Datenschutzrichtlinie" [level=2] [ref=f9e175]
+        - generic [ref=f9e176]:
+          - heading "Datenschutzerklärung" [level=3] [ref=f9e177]
+          - generic [ref=f9e178]:
+            - paragraph [ref=f9e179]:
+              - generic [ref=f9e180]: Innomotics Datenschutzerklärung- Stellenmarkt & Bewerbungsportal
+            - paragraph [ref=f9e183]:
+              - generic [ref=f9e184]: Die Sicherheit und der Schutz Ihrer personenbezogenen Daten sind uns wichtig. Diese Datenschutzerklärung erläutert, wie wir Ihre personenbezogenen Daten im Rahmen des Innomotics Stellenmarkt & Bewerbungsportals ("Bewerbungsportal") erheben, speichern, nutzen, offenlegen und übermitteln (im Folgenden "verarbeiten").
+            - list [ref=f9e187]:
+              - listitem [ref=f9e188]:
+                - generic [ref=f9e189]: Verantwortlicher
+            - paragraph [ref=f9e193]:
+              - generic [ref=f9e194]: Verantwortlicher des Bewerbungsportals im Sinne der Europäischen Datenschutz Grundverordnung („DSGVO“) ist
+            - paragraph [ref=f9e196]:
+              - generic [ref=f9e197]: Innomotics GmbH
+            - paragraph [ref=f9e199]: Vogelweiherstr. 1 – 15, 90441 Nuremberg, Germany
+            - paragraph [ref=f9e200]:
+              - generic [ref=f9e201]: "Telefon: +49 (911) 958-0"
+            - paragraph [ref=f9e203]:
+              - generic [ref=f9e206]:
+                - text: "E-Mail:"
+                - link "contact@innomotics.com" [ref=f9e207] [cursor=pointer]:
+                  - /url: mailto:contact@innomotics.com
+            - paragraph [ref=f9e208]:
+              - generic [ref=f9e209]: Soweit Sie der Weitergabe Ihrer Bewerbungsdaten an Innomotics-Konzerngesellschaften zustimmen, sind diese gemeinsam für Ihre Anwendungsdaten verantwortlich.
+            - list [ref=f9e211]:
+              - listitem [ref=f9e212]:
+                - generic [ref=f9e213]: Datenschutzbeauftragter
+            - paragraph [ref=f9e217]:
+              - generic [ref=f9e218]: "Unsere Datenschutzbeauftragten erreichen Sie wie folgt:"
+            - paragraph [ref=f9e220]:
+              - generic [ref=f9e221]: secjur GmbH
+            - paragraph [ref=f9e223]:
+              - generic [ref=f9e224]: Steinhöft 9
+            - paragraph [ref=f9e226]:
+              - generic [ref=f9e227]: 20459 Hamburg
+            - paragraph [ref=f9e229]:
+              - generic [ref=f9e230]: "Telefon: +49 40 228 599 520"
+            - paragraph [ref=f9e232]:
+              - generic [ref=f9e233]: "E-Mail: dsb@secjur.com"
+            - paragraph [ref=f9e235]:
+              - generic [ref=f9e236]: Sie können sich jederzeit bei allen Fragen und Anregungen zum Datenschutz sowie zur Ausübung Ihrer Rechte direkt an unseren Datenschutzbeauftragten wenden.
+            - list [ref=f9e238]:
+              - listitem [ref=f9e239]:
+                - generic [ref=f9e240]: Welche Daten-Kategorien werden verarbeitet?
+            - paragraph [ref=f9e243]:
+              - generic [ref=f9e244]: Innomotics verarbeitet Ihre personenbezogenen Daten ("Ihre Daten") im Rahmen des Bewerbungsprozesses für die im Folgenden näher beschriebenen Zwecke.
+            - list [ref=f9e246]:
+              - listitem [ref=f9e247]:
+                - generic [ref=f9e248]: "Nutzeraccount:"
+            - paragraph [ref=f9e251]:
+              - generic [ref=f9e252]: Sie können uns Ihre Bewerbung über unser Bewerbungsportal zukommen lassen. Hierfür müssen Sie zunächst ein Konto anlegen und auch personenbezogene Daten hinterlegen. In diesem Zusammenhang verarbeiten wir Ihren vollständigen Namen, Ihre Anmeldedaten und Ihre Kontaktdaten („Profildaten“). Wir verarbeiten Ihre Daten, um Ihnen im Rahmen Ihrer persönlichen Benutzeroberfläche im Bewerbungsportal (i) die Erstellung und Verwaltung Ihres Online-Kontos für die Durchführung Ihrer Bewerbung zu ermöglichen, (ii) zur Aktualisierung, Sicherung und Fehlerbehebung, Bereitstellung von Support sowie (iii) zur Verbesserung und Weiterentwicklung des Bewerbungsportals und unserer Bewerbungsprozesse und -services. Darüber hinaus verarbeiten wir Ihre Daten, um Ihnen weitere passende Stellen anzuzeigen; und um Ihnen Informationen, Unterlagen und Einladungen zu Gesprächen zukommen zu lassen.
+            - paragraph [ref=f9e254]:
+              - generic [ref=f9e255]: Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten erforderlich sind, um unsere vertraglichen Pflichten ihnen gegenüber erfüllen zu können oder wir benötigen die Daten, um einen Vertragsschluss mit Ihnen vorzubereiten.
+            - paragraph [ref=f9e257]:
+              - generic [ref=f9e258]: Wenn Sie sich auf die von Ihnen ausgewählten offenen Stellen bewerben, werden Ihre Profildaten nach Abschluss des letzten offenen Bewerbungsverfahrens, das in Ihrem Konto aktiv ist, oder sechs (6) Monate nach Ihrem letzten Login (je nachdem, welcher Zeitraum länger ist) gelöscht. Eine Ausnahme von dieser Aufbewahrungsfrist gilt für Profildaten, die für Bewerbungen auf Stellenangebote von Innomotics-Konzerngesellschaften in den Vereinigten Staaten genutzt werden. Hier sind wir nach lokalem Recht verpflichtet, die Daten für einen Zeitraum von drei (3) Jahren nach Abschluss Ihres Bewerbungsverfahrens aufzubewahren.
+            - paragraph [ref=f9e260]
+            - list [ref=f9e261]:
+              - listitem [ref=f9e262]:
+                - generic [ref=f9e263]: "Bewerbungsdaten:"
+            - paragraph [ref=f9e266]:
+              - generic [ref=f9e267]: Um sich auf eine Stelle zu bewerben, werden Sie gebeten, bestimmte Informationen in Ihrem Konto auf unserem Bewerbungsportal hochzuladen. Hierbei verarbeiten wir auch personenbezogene Daten, die in den bereitgestellten Informationen enthalten sind, wie Ihren Lebenslauf, sowie ggf. zusätzliche Dokumente, die Sie hochladen, Angaben zu Ihrer Berufserfahrung, Ihren Qualifikationen und Fähigkeiten. Ihre Daten verarbeiten wir, um Ihre Bewerbung zu sichten und Ihre Qualifikationen und Ihre persönliche Eignung im Hinblick auf die beworbene Position zu bewerten. Darüber hinaus verarbeiten wir Informationen, die Sie uns im weiteren Verlauf des Bewerbungsprozesses für eine bestimmte offene Stelle aktiv zur Verfügung stellen, und damit zusammenhängende Informationen, die wir von Ihnen im Verlauf Ihrer Vorstellungsgespräche und Beurteilungen gesammelt haben, einschließlich Audio- und Videoaufnahmen, die Sie uns während des Bewerbungsprozesses zur Verfügung gestellt haben ("Bewerbungsdaten").
+            - paragraph [ref=f9e269]:
+              - generic [ref=f9e270]: Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten erforderlich sind, um unsere vertraglichen Pflichten ihnen gegenüber erfüllen zu können oder wir benötigen die Daten, um einen Vertragsschluss mit Ihnen vorzubereiten.
+            - paragraph [ref=f9e272]:
+              - generic [ref=f9e273]: Sie können sich auch dafür entscheiden, Ihre Bewerbungsdaten an alle Innomotics-Gesellschaft weiterzugeben, die ähnliche oder verwandte Stellenangebote haben wie die Stelle, auf die Sie sich beworben haben. In diesem Fall erhalten auch die jeweiligen Innomotics-Tochtergesellschaften Zugriff auf Ihre Bewerbungsdaten. Rechtsgrundlage für die Verarbeitung ist Ihre vorherige Einwilligung gem. Art. 6 Abs. 1 S. 1 lit. a DSGVO, die Sie bei der Registrierung im Bewerbungsportal erteilen.
+            - paragraph [ref=f9e275]:
+              - generic [ref=f9e276]: Ihre Bewerbungsdaten werden noch für einen Zeitraum von sechs (6) Monaten nach Abschluss des jeweiligen Bewerbungsverfahrens gespeichert, es sei denn, Sie fordern uns auf, die Daten früher zu löschen. Sie können jederzeit eine frühere Löschung der Daten verlangen, wie in Punkt 5 ("Wie können Sie auf Ihre Daten zugreifen?") beschrieben. Eine Ausnahme von dieser Aufbewahrungsfrist gilt für Bewerbungsdaten, die für Bewerbungen auf Stellenangebote von Innomotics-Konzerngesellschaften in den Vereinigten Staaten genutzt werden. Hier sind wir nach lokalem Recht verpflichtet, die Daten für einen Zeitraum von drei (3) Jahren nach Abschluss Ihres Bewerbungsverfahrens aufzubewahren.
+            - paragraph [ref=f9e278]
+            - list [ref=f9e279]:
+              - listitem [ref=f9e280]:
+                - generic [ref=f9e281]: "Öffentlich zugängliche berufliche Daten aus sozialen Netzwerken:"
+            - paragraph [ref=f9e284]:
+              - generic [ref=f9e285]: "Darüber hinaus verarbeiten wir Daten über Sie, wie z. B. Daten, die Sie in unternehmens- und beschäftigungsorientierten sozialen Netzwerken oder Internetseiten, wie LinkedIn und Xing, veröffentlicht haben (\"Berufsbezogene Soziale Netzwerkdaten\"). Berufsbezogene Soziale Netzwerkdaten sind Teil Ihres Profils und somit auch Teil der Profildaten. Dabei beschränken wir uns auf die Verarbeitung Ihrer Profildaten, die Sie allen Benutzern des sozialen Netzwerkes zugänglich gemacht haben, und die einen klaren Bezug zu Ihrer beruflichen Tätigkeit bzw. Ihrer Eignung für die zu vergebende Stelle haben, wie z.B: berufliche Stationen oder Qualifikationen. Zur Klarstellung: Daten, aus sozialen Netzwerken oder Internetseiten, die keinen unternehmens- oder beschäftigungsorientierten Kontext haben, werden von uns nicht erhoben und verarbeitet."
+            - paragraph [ref=f9e287]:
+              - generic [ref=f9e288]: Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten erforderlich sind, um unsere vertraglichen Pflichten ihnen gegenüber erfüllen zu können oder wir benötigen die Daten, um einen Vertragsschluss mit Ihnen vorzubereiten.
+            - paragraph [ref=f9e290]:
+              - generic [ref=f9e291]: Ihre Daten aus Berufsbezogenen Sozialen Netzwerken werden nach Abschluss des letzten offenen Bewerbungsverfahrens, das in Ihrem Konto aktiv ist, oder sechs (6) Monate nach Ihrem letzten Login (je nachdem, welcher Zeitraum länger ist) gelöscht. Eine Ausnahme von dieser Aufbewahrungsfrist gilt für Daten aus Berufsbezogenen Sozialen Netzwerken, die für Bewerbungen auf Stellenangebote von Innomotics-Konzerngesellschaften in den Vereinigten Staaten genutzt werden. Hier sind wir nach lokalem Recht verpflichtet, die Daten für einen Zeitraum von drei (3) Jahren nach Abschluss Ihres Bewerbungsverfahrens aufzubewahren.
+            - paragraph [ref=f9e293]
+            - list [ref=f9e294]:
+              - listitem [ref=f9e295]:
+                - generic [ref=f9e296]: "Bewerbung über LinkedIn:"
+            - paragraph [ref=f9e299]:
+              - generic [ref=f9e300]: Sofern Sie uns über unser LinkedIn-Profil eine Bewerbung übermitteln, verarbeiten wir Ihre darin enthaltenen Bewerbungsdaten (wie Name, E-Mail-Adresse, Geburtsdatum, Postanschrift und Telefonnummer), die von Ihnen übermittelten Dokumente (wie Lebenslauf, Zeugnisse, Anschreiben, einschließlich der darin enthaltenen Angaben zu Ihrer Person und Qualifikation) sowie zusätzliche von Ihnen gemachte Angaben und Mitteilungen (wie gewünschtes Startdatum und Beschäftigung, Gehaltsvorstellungen, Ihre Kündigungsfrist oder Ihre Motivation, weshalb Sie bei uns arbeiten möchten). Die Verarbeitung erfolgt für die Zwecke der Bearbeitung der Bewerbung, einschließlich der Vorbereitung und Durchführung von Vorstellungsgesprächen sowie Einstellungstests und der Bewertung der Ergebnisse und soweit anderweitig im Rahmen des Bewerbungsverfahrens erforderlich. Wir kontaktieren Sie im Bewerbungsverfahren, um Sie über den Fortgang der Bewerbung zu unterrichten bzw. um Sie zu einem Vorstellungsgespräch oder einem Einstellungstest einzuladen. Im Rahmen des Bewerbungsprozesses werden die Unterlagen zunächst von der Personalabteilung bearbeitet. Bei entsprechender Eignung werden die personenbezogenen Daten und Unterlagen an die zuständige Fachabteilung weitergeleitet. Rechtsgrundlage für die vorstehend beschriebene Datenverarbeitung ist Art. 6 Abs. 1 S 1 lit. b DSGVO. Die Datenverarbeitung ist zur Begründung eines möglichen Beschäftigungsverhältnisses erforderlich.
+            - paragraph [ref=f9e302]
+            - list [ref=f9e303]:
+              - listitem [ref=f9e304]:
+                - generic [ref=f9e305]: "Get Matched:"
+            - paragraph [ref=f9e308]:
+              - generic [ref=f9e309]: Mit der „Get Matched“ Funktion bieten wir Ihnen die Möglichkeit, Ihren Lebenslauf hochzuladen, um mit Hilfe einer Software passende Stellen in unserem Unternehmen für Sie vorab zu filtern. Hierbei verarbeiten wir Informationen, die in Ihrem hochgeladenen Lebenslauf enthalten sind und gleichen diese mit offenen Stellen ab. Eine vorherige Registrierung in unserem Bewerbungsportal ist nicht notwendig. Die Verarbeitung erfolgt auf Ihre Veranlassung, um Ihnen zu ermöglichen, über das Bewerbungsportal automatisierte Vorschläge für geeignete Stellen aus dem Bewerbungsportal zu erhalten und Ihnen zu helfen, hierauf die offene(n) Stelle(n) zu finden, die Ihren Fähigkeiten und Talenten am besten entsprechen.
+            - paragraph [ref=f9e312]:
+              - generic [ref=f9e313]: Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten erforderlich sind, um unsere vertraglichen Pflichten ihnen gegenüber erfüllen zu können oder wir benötigen die Daten, um einen Vertragsschluss mit Ihnen vorzubereiten. Wenn Sie die Get-Matched-Funktion nutzen, ohne sich zu registrieren oder einzuloggen, werden die entsprechenden Daten nur für die Dauer Ihrer Browser-Sitzung gespeichert und nach dem Schließen Ihres Browsers gelöscht. Wenn Sie die Funktion über Ihr Konto nutzen, gelten die oben genannten Informationen bzgl. Ihrer Profil- und Bewerbungsdaten entsprechend.
+            - list [ref=f9e315]:
+              - listitem [ref=f9e316]:
+                - generic [ref=f9e317]: "Nutzungsdaten:"
+            - paragraph [ref=f9e320]:
+              - generic [ref=f9e321]: Informationen über Ihre Interaktion mit dem Bewerbungsportal, einschließlich Ihrer Geräte- und Benutzerkennung, Informationen über Ihr Betriebssystem, während Ihres Besuchs aufgerufene Unterseiten, das Datum und die Uhrzeit jeder Besucheranfrage.
+            - paragraph [ref=f9e323]:
+              - generic [ref=f9e324]: Wir verarbeiten Ihre Daten, um Ihnen im Rahmen Ihrer persönlichen Benutzeroberfläche im Bewerbungsportal (i) die Erstellung und Verwaltung Ihres Online-Kontos zu ermöglichen, (ii) zur Aktualisierung, Sicherung und Fehlerbehebung, Bereitstellung von Support sowie (iii) zur Verbesserung und Weiterentwicklung des Bewerbungsportals und unserer Bewerbungsprozesse und -services.
+            - paragraph [ref=f9e326]:
+              - generic [ref=f9e327]: Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. b DSGVO, da die Daten erforderlich sind, um unsere vertraglichen Pflichten ihnen gegenüber erfüllen zu können oder wir benötigen die Daten, um einen Vertragsschluss mit Ihnen vorzubereiten. Ferner ist die vorübergehende Speicherung der Daten für den Ablauf eines Webseitenbesuchs erforderlich, um Ihnen unsere Webseite anzeigen zu können. Diese Verarbeitung ist technisch erforderlich, um die Funktionsfähigkeit der Webseite und die Sicherheit der informationstechnischen Systeme zu gewährleisten. Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO, um die Bereitstellung, Sicherheit und Stabilität unserer Webseite zu garantieren.
+            - paragraph [ref=f9e329]:
+              - generic [ref=f9e330]: Die Nutzungsdaten werden für einen Zeitraum von sechs (6) Monaten gespeichert und im Anschluss gelöscht.
+            - paragraph [ref=f9e332]
+            - paragraph [ref=f9e333]:
+              - generic [ref=f9e334]: Wir bitten Sie nicht, uns besonderen Kategorien personenbezogener Daten (d. h. Informationen über Rasse oder ethnische Zugehörigkeit, politische Meinungen, religiöse oder philosophische Ansichten, Gewerkschaftsmitgliedschaft, Gesundheit oder sexuelle Orientierung) als Teil Ihrer Bewerbungsdaten zur Verfügung zu stellen, es sei denn, dies ist im Einzelfall gesetzlich vorgeschrieben.
+            - list [ref=f9e336]:
+              - listitem [ref=f9e337]:
+                - generic [ref=f9e338]: Wer sind die Empfänger Ihrer Daten?
+            - paragraph [ref=f9e341]:
+              - generic [ref=f9e342]: Wie oben beschrieben, werden wir, wenn Sie es wünschen, Ihre Daten an Innomotics-Gesellschaften weitergegeben. Darüber hinaus kann Innomotics Dienstleister (sogenannte Auftragsverarbeiter) beauftragen, die uns bei der Verarbeitung und Nutzung Ihrer Daten, insbesondere im Bereich von IT-Services (z.B. Hosting Provider), unterstützen.
+            - paragraph [ref=f9e344]:
+              - generic [ref=f9e345]: Die Empfänger Ihrer Daten können sich möglicherweise in anderen Ländern als Ihrem Heimatland befinden (jeweils ein "Drittland"), in denen die geltenden Gesetze nicht das gleiche Datenschutzniveau bieten wie in Ihrem Heimatland. In solchen Fällen und wo dies nach geltendem Datenschutzgesetz erforderlich ist, ergreift Innomotics Maßnahmen, um geeignete und angemessene Garantien zum Schutz der personenbezogenen Daten anderweitig sicherzustellen.
+            - list [ref=f9e347]:
+              - listitem [ref=f9e348]:
+                - generic [ref=f9e349]: Wir geben Ihre Daten an Innomotics Konzerngesellschaften in Drittländern (eine Liste dieser Gesellschaften finden Sie oben) nur dann weiter, wenn diese (i) die Bindende Unternehmensrichtlinie zum Schutz personenbezogener Daten (Binding Corporate Rules) umgesetzt haben oder wenn diese (ii) mit Innomotics EU-Standard-Vertragsklauseln abgeschlossen haben.
+              - listitem [ref=f9e351]:
+                - generic [ref=f9e352]: Wir übermitteln Ihre Daten an konzernexterne Empfänger in Drittländern nur, wenn diese (i) mit Innomotics EU-Standard-Vertragsklauseln abgeschlossen.
+            - paragraph [ref=f9e354]:
+              - generic [ref=f9e355]: Weitere Informationen sowie eine Kopie der umgesetzten Maßnahmen stellt Ihnen Innomotics auf Anfrage bereit.
+            - paragraph [ref=f9e357]:
+              - generic [ref=f9e358]: Der Bewerbungsprozess für einige Stellenangebote kann Ihre freiwillige Teilnahme an Bewertungs-, Auswahl- oder ähnlichen Verfahren durch Dritte erfordern. In diesem Fall wird Innomotics oder die Innomotics-Gesellschaft, die die entsprechende Stelle anbietet, Sie im Rahmen des Bewerbungsprozesses und vor der Übermittlung Ihrer Daten an Dritte über die entsprechenden Verfahren und Empfänger informieren.
+            - list [ref=f9e360]:
+              - listitem [ref=f9e361]:
+                - generic [ref=f9e362]: Wie können Sie auf Ihre Daten zugreifen?
+            - paragraph [ref=f9e365]:
+              - generic [ref=f9e366]: "Was sind Ihre Rechte? Die Datenschutzgesetze, einschließlich der Gesetze des Landes, in dem Sie Ihren Wohnsitz haben, können Ihnen bestimmte Rechte in Bezug auf Ihre personenbezogenen Daten einräumen. Vorbehaltlich lokaler gesetzlicher Bestimmungen haben Sie unter Umständen Anspruch auf die folgenden Rechte:"
+            - list [ref=f9e368]:
+              - listitem [ref=f9e369]:
+                - generic [ref=f9e370]: "Information und Auskunft: Sie können von Innomotics eine Information darüber verlangen, ob personenbezogene Daten, die Sie betreffen, verarbeitet werden oder nicht, und wenn dies der Fall ist, können Sie Auskunft über die personenbezogenen Daten verlangen;"
+              - listitem [ref=f9e372]:
+                - generic [ref=f9e373]: "Berichtigung: Sie haben das Recht, die Berichtigung und/oder Aktualisierung Ihrer unrichtigen oder nicht mehr aktuellen personenbezogenen Daten zu verlangen;"
+              - listitem [ref=f9e375]:
+                - generic [ref=f9e376]: "Löschung: Sie haben das Recht, dass Ihre personenbezogenen Daten gelöscht werden. Dieses Recht unterliegt bestimmten Einschränkungen;"
+              - listitem [ref=f9e378]:
+                - generic [ref=f9e379]: "Einschränkung: Sie haben das Recht, dass die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt wird. Einschränkung bedeutet, dass Ihre personenbezogenen Daten von Innomotics nur für die Dauer der Bearbeitung Ihrer Beschwerde gespeichert und nicht weiterverarbeitet werden;"
+              - listitem [ref=f9e381]:
+                - generic [ref=f9e382]: "Datenübertragbarkeit: Sie haben das Recht, eine Kopie Ihrer personenbezogenen Daten, die Sie uns zur Verfügung gestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und von Innomotics zu verlangen, dass wir diese Daten an einen anderen, von Ihnen ausgewählten Empfänger übermitteln;"
+              - listitem [ref=f9e384]:
+                - generic [ref=f9e385]: "Widerspruch gegen die Verarbeitung: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, gegen bestimmte Arten der Verarbeitung Sie betreffender personenbezogener Daten Widerspruch einzulegen."
+        - generic [ref=f9e389]:
+          - generic [ref=f9e390]:
+            - generic [ref=f9e391]: Hervorgehoben
+            - button "Akzeptieren" [ref=f9e394] [cursor=pointer]
+          - button "Ablehnen" [ref=f9e398] [cursor=pointer]
+          - button "Drucken" [ref=f9e402] [cursor=pointer]
+        - button "Schließen" [active] [ref=f9e403] [cursor=pointer]: 
+        - tab [aria-hidden] [ref=f9e404] [cursor=pointer]

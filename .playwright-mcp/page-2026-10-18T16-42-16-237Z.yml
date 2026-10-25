@@ -1,0 +1,148 @@
+- generic [ref=f5e4]:
+  - link "Skip to main content" [ref=f5e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f5e8]:
+    - generic [ref=f5e10]:
+      - link [ref=f5e13] [cursor=pointer]:
+        - /url: https://www.careers.philips.com
+        - img "careers home" [ref=f5e14]
+      - heading "Careers" [level=1] [ref=f5e16]
+      - generic [ref=f5e18]:
+        - generic [ref=f5e19]:
+          - button "English" [ref=f5e21] [cursor=pointer]
+          - button "Sign In" [ref=f5e27] [cursor=pointer]
+        - navigation [ref=f5e33]:
+          - button "Careers Home" [ref=f5e34] [cursor=pointer]
+          - button "Search for Jobs" [ref=f5e35] [cursor=pointer]
+  - main [ref=f5e102]:
+    - generic [ref=f5e103]:
+      - generic [ref=f5e104]:
+        - link "Back to Job Posting" [ref=f5e106] [cursor=pointer]
+        - heading "E-Commerce Data, Automation & AI Manager (m/w/d)" [level=2] [ref=f5e111]
+      - generic "Application Progress" [ref=f5e112]:
+        - list [ref=f5e113]:
+          - listitem [ref=f5e114]:
+            - generic: completed step 1 of 6
+            - generic [ref=f5e120]: My Information
+          - listitem [ref=f5e121]:
+            - generic: completed step 2 of 6
+            - generic [ref=f5e127]: My Experience
+          - listitem [ref=f5e128]:
+            - generic: completed step 3 of 6
+            - generic [ref=f5e134]: Application Questions 1 of 2
+          - listitem [ref=f5e135]:
+            - generic: completed step 4 of 6
+            - generic [ref=f5e141]: Application Questions 2 of 2
+          - listitem [ref=f5e142]:
+            - generic: completed step 5 of 6
+            - generic [ref=f5e148]: Voluntary Disclosures
+          - listitem [ref=f5e149]:
+            - generic: current step 6 of 6
+            - generic [ref=f5e155]: Review
+      - generic [ref=f5e156]:
+        - generic [ref=f5e157]:
+          - heading "Review" [level=3] [ref=f5e1059]
+          - generic [ref=f5e1060]:
+            - heading "My Information" [level=3] [ref=f5e1062]
+            - group [ref=f5e1063]:
+              - generic [ref=f5e1065]:
+                - generic [ref=f5e1066]: How Did You Hear About Us?
+                - generic [ref=f5e1067]: LinkedIn
+            - group [ref=f5e1068]:
+              - generic [ref=f5e1070]:
+                - generic [ref=f5e1071]: Are you currently or have you previously worked for Philips, including as a contingent worker/external?
+                - generic [ref=f5e1072]: "No"
+            - generic [ref=f5e1073]:
+              - heading "Name" [level=4] [ref=f5e1074]
+              - generic [ref=f5e1075]: Kranti Chavan
+            - generic [ref=f5e1077]:
+              - heading "Address" [level=4] [ref=f5e1078]
+              - generic [ref=f5e1079]: Blücherstraße 6 76185 Karlsruhe Germany
+            - generic [ref=f5e1082]:
+              - heading "Email Address" [level=4] [ref=f5e1083]
+              - generic [ref=f5e1084]: krantichavan198@gmail.com
+            - generic [ref=f5e1086]:
+              - heading "Phone" [level=4] [ref=f5e1087]
+              - generic [ref=f5e1088]: +49 (1575) 0174177 (Mobile)
+            - heading "My Experience" [level=3] [ref=f5e1091]
+            - group [ref=f5e1092]:
+              - heading "Work Experience" [level=4] [ref=f5e1093]
+              - text: No Response
+            - group [ref=f5e1095]:
+              - heading "Education" [level=4] [ref=f5e1096]
+              - text: No Response
+            - group [ref=f5e1098]:
+              - heading "Skills" [level=4] [ref=f5e1099]
+            - group [ref=f5e1101]:
+              - heading "All applicable documents (e.g. resume / motivation letter)" [level=4] [ref=f5e1102]
+              - paragraph [ref=f5e1105]:
+                - generic [ref=f5e1110]:
+                  - generic [ref=f5e1122]:
+                    - alert [ref=f5e1123]: Kranti_Chavan_CV_Philips-Deutschland_585855-E-Commerce-Data-Automation-AI-Manager.pdf successfully uploaded
+                    - generic [ref=f5e1124]: Kranti_Chavan_CV_Philips-Deutschland_585855-E-Commerce-Data-Automation-AI-Manager.pdf
+                    - generic [ref=f5e1125]: 41.85 KB
+                  - generic [ref=f5e1137]:
+                    - alert [ref=f5e1138]: Kranti_Chavan_Cover_Letter_Philips-Deutschland_585855-E-Commerce-Data-Automation-AI-Manager.pdf successfully uploaded
+                    - generic [ref=f5e1139]: Kranti_Chavan_Cover_Letter_Philips-Deutschland_585855-E-Commerce-Data-Automation-AI-Manager.pdf
+                    - generic [ref=f5e1140]: 30.06 KB
+            - group [ref=f5e1142]:
+              - heading "Social Network URLs" [level=4] [ref=f5e1143]
+              - generic [ref=f5e1145]:
+                - generic [ref=f5e1146]: Please provide us your LinkedIn account
+                - generic [ref=f5e1147]: https://www.linkedin.com/in/kranti-chavan-84a155191
+            - heading "Application Questions 1 of 2" [level=3] [ref=f5e1149]
+            - group [ref=f5e1150]:
+              - generic [ref=f5e1151]:
+                - generic [ref=f5e1152]:
+                  - paragraph [ref=f5e1155]: How is your English proficiency?*
+                  - generic [ref=f5e1156]: "English: Fluent"
+                - generic [ref=f5e1157]:
+                  - paragraph [ref=f5e1160]: How is your German proficiency?*
+                  - generic [ref=f5e1161]: "German: Intermediate"
+                - generic [ref=f5e1162]:
+                  - paragraph [ref=f5e1165]: What are your salary expectations?
+                  - generic [ref=f5e1166]: 60000 EUR gross per year (negotiable)
+                - generic [ref=f5e1167]:
+                  - paragraph [ref=f5e1170]: Are you open to relocate?*
+                  - generic [ref=f5e1171]: Yes, within Germany
+                - generic [ref=f5e1172]:
+                  - paragraph [ref=f5e1175]: Please specify
+                  - generic [ref=f5e1176]: No Response
+            - heading "Application Questions 2 of 2" [level=3] [ref=f5e1178]
+            - group [ref=f5e1179]:
+              - generic [ref=f5e1181]:
+                - paragraph [ref=f5e1184]:
+                  - generic [ref=f5e1185]: Do you agree with Philips contacting you for future job positions?If yes, we will retain your Personal Data for a period of one (1) year.
+                  - text: "*"
+                - generic [ref=f5e1186]: "Yes"
+            - heading "Voluntary Disclosures" [level=3] [ref=f5e1188]
+            - group [ref=f5e1190]:
+              - heading "Terms and Conditions" [level=4] [ref=f5e1191]
+              - generic [ref=f5e1193]:
+                - generic [ref=f5e1194]: Yes, I have read and consent to the terms and conditions
+                - generic [ref=f5e1195]: "Yes"
+        - generic [ref=f5e261]:
+          - button "Back" [ref=f5e663] [cursor=pointer]
+          - button "Submit" [disabled] [ref=f5e1196] [cursor=pointer]
+  - generic [ref=f5e41]:
+    - heading "Follow Us" [level=4] [ref=f5e42]
+    - list [ref=f5e43]:
+      - listitem [ref=f5e44] [cursor=pointer]:
+        - link "Glassdoor" [ref=f5e45]:
+          - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+      - listitem [ref=f5e50] [cursor=pointer]:
+        - link "Facebook" [ref=f5e51]:
+          - /url: https://www.facebook.com/philips/
+      - listitem [ref=f5e55] [cursor=pointer]:
+        - link "YouTube" [ref=f5e56]:
+          - /url: https://www.youtube.com/user/Philips
+      - listitem [ref=f5e62] [cursor=pointer]:
+        - link "Google Plus" [ref=f5e63]:
+          - /url: https://plus.google.com/+Philips
+      - listitem [ref=f5e67] [cursor=pointer]:
+        - link "LinkedIn" [ref=f5e68]:
+          - /url: https://www.linkedin.com/company/philips
+      - listitem [ref=f5e72] [cursor=pointer]:
+        - link "X" [ref=f5e73]:
+          - /url: https://www.twitter.com/philips
+    - generic [ref=f5e77]: © 2026 Workday, Inc. All rights reserved.

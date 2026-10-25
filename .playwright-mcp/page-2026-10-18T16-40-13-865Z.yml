@@ -1,0 +1,52 @@
+- generic [ref=f1e4]:
+  - link "Skip to main content" [ref=f1e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f1e8]:
+    - generic [ref=f1e10]:
+      - link [ref=f1e13] [cursor=pointer]:
+        - /url: https://www.careers.philips.com
+        - img "careers home" [ref=f1e14]
+      - heading "Careers" [level=1] [ref=f1e16]
+      - generic [ref=f1e18]:
+        - generic [ref=f1e19]:
+          - button "English" [ref=f1e21] [cursor=pointer]
+          - button "Sign In" [ref=f1e27] [cursor=pointer]
+        - navigation [ref=f1e33]:
+          - button "Careers Home" [ref=f1e34] [cursor=pointer]
+          - button "Search for Jobs" [ref=f1e35] [cursor=pointer]
+  - main [ref=f1e38]:
+    - generic [ref=f1e40]:
+      - heading "Start Your Application" [level=2] [ref=f1e41]
+      - heading "E-Commerce Data, Automation & AI Manager (m/w/d)" [level=3] [ref=f1e42]
+      - button "Autofill with Resume" [ref=f1e46] [cursor=pointer]
+      - button "Apply Manually" [ref=f1e50] [cursor=pointer]
+      - button "Use My Last Application" [ref=f1e55] [cursor=pointer]
+      - generic [ref=f1e57]:
+        - link [ref=f1e58] [cursor=pointer]:
+          - /url: https://au.seek.com/awsk/authorize?id=a39aed01-0ad1-41ea-9c2c-f0a23c270a54
+          - img "Apply with SEEK" [ref=f1e59]
+        - iframe [ref=f1e61]:
+          - generic [ref=f2e3]:
+            - iframe
+  - generic [ref=f1e62]:
+    - heading "Follow Us" [level=4] [ref=f1e63]
+    - list [ref=f1e64]:
+      - listitem [ref=f1e65] [cursor=pointer]:
+        - link "Glassdoor" [ref=f1e66]:
+          - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+      - listitem [ref=f1e71] [cursor=pointer]:
+        - link "Facebook" [ref=f1e72]:
+          - /url: https://www.facebook.com/philips/
+      - listitem [ref=f1e76] [cursor=pointer]:
+        - link "YouTube" [ref=f1e77]:
+          - /url: https://www.youtube.com/user/Philips
+      - listitem [ref=f1e83] [cursor=pointer]:
+        - link "Google Plus" [ref=f1e84]:
+          - /url: https://plus.google.com/+Philips
+      - listitem [ref=f1e88] [cursor=pointer]:
+        - link "LinkedIn" [ref=f1e89]:
+          - /url: https://www.linkedin.com/company/philips
+      - listitem [ref=f1e93] [cursor=pointer]:
+        - link "X" [ref=f1e94]:
+          - /url: https://www.twitter.com/philips
+    - generic [ref=f1e98]: © 2026 Workday, Inc. All rights reserved.

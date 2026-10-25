@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - region [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - img "Logo" [ref=e7]
+        - link "Cookiebot von Usercentrics - öffnet in einem neuen Fenster" [ref=e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/de/was-steckt-hinter-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tablist [ref=e36]:
+        - tab "Zustimmung" [selected] [ref=e37] [cursor=pointer]
+        - tab "Details" [ref=e38] [cursor=pointer]
+        - tab "Anzeigeneinstellungen" [ref=e39] [cursor=pointer]
+        - tab "Über Cookies" [ref=e40] [cursor=pointer]
+      - tabpanel "Zustimmung" [ref=e42]:
+        - generic [ref=e44]:
+          - heading "Verantwortungsvoller Umgang mit Ihren Daten" [level=2] [ref=e45]
+          - generic [ref=e46]:
+            - text: Wir und
+            - link "unsere 1087 Partner" [ref=e47] [cursor=pointer]:
+              - /url: "#"
+            - text: verarbeiten Ihre persönlichen Daten, wie z. B. Ihre IP-Adresse, mithilfe von Technologien wie Cookies, um Informationen auf Ihrem Gerät zu speichern und darauf zuzugreifen und so personalisierte Werbung und Inhalte, Messungen von Werbung und Inhalten, Zielgruppenforschung sowie Entwicklung von Angeboten zu ermöglichen. Sie entscheiden darüber, wer Ihre Daten für welche Zwecke nutzt. Sie können Ihre Einwilligung jederzeit über die Cookie-Erklärung oder durch Klicken auf das Privacy Trigger Symbol ändern oder widerrufen
+            - generic [ref=e48]:
+              - text: "Wenn Sie es erlauben, würden wir auch gerne:"
+              - list [ref=e49]:
+                - listitem [ref=e50]: Informationen über Ihre geografische Lage erfassen, welche bis auf einige Meter genau sein können
+                - listitem [ref=e51]: Ihr Gerät durch aktives Scannen nach bestimmten Merkmalen (Fingerprinting) identifizieren
+            - text: Erfahren Sie mehr darüber, wie Ihre persönlichen Daten verarbeitet werden, und legen Sie Ihre Präferenzen im
+            - link "Abschnitt Einzelheiten" [ref=e52] [cursor=pointer]:
+              - /url: "#"
+            - text: fest.Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Weitere Informationen finden Sie in unserem
+            - link "Impressum" [ref=e53] [cursor=pointer]:
+              - /url: https://quis.de/legal_notice
+            - text: oder in unser
+            - link "Datenschutzerklärung" [ref=e54] [cursor=pointer]:
+              - /url: https://quis.de/privacy
+            - text: .
+        - group "Einwilligungsauswahl" [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - strong [ref=e66]: Notwendig
+              - generic [ref=e67]:
+                - checkbox "Notwendig" [checked] [disabled]
+            - generic [ref=e68]:
+              - strong [ref=e70] [cursor=pointer]: Präferenzen
+              - switch "Präferenzen" [ref=e72] [cursor=pointer]
+            - generic [ref=e73]:
+              - strong [ref=e75] [cursor=pointer]: Statistiken
+              - switch "Statistiken" [ref=e77] [cursor=pointer]
+            - generic [ref=e78]:
+              - strong [ref=e80] [cursor=pointer]: Marketing
+              - switch "Marketing" [ref=e82] [cursor=pointer]
+      - generic [ref=e86]:
+        - button "Notwendige Cookies verwenden" [ref=e87] [cursor=pointer]
+        - button "Cookies zulassen" [ref=e88] [cursor=pointer]
+  - group [ref=e91]:
+    - generic [ref=e92] [cursor=pointer]
+  - generic [ref=e97]:
+    - link [ref=e98] [cursor=pointer]:
+      - /url: /
+      - img "QUIS logo" [ref=e99]
+    - list [ref=e101]:
+      - listitem [ref=e102]:
+        - group [ref=e103]:
+          - generic "Lösungen" [ref=e104]
+      - listitem [ref=e105]:
+        - link "Know how meets KI" [ref=e106] [cursor=pointer]:
+          - /url: /ai
+    - generic [ref=e108]:
+      - link "Anmelden" [ref=e109] [cursor=pointer]:
+        - /url: /users/sign_in
+      - link "Demo vereinbaren" [ref=e111] [cursor=pointer]:
+        - /url: https://demo.quis.de
+  - generic [ref=e118]:
+    - heading "Seite nicht gefunden" [level=1] [ref=e119]
+    - img "404-Fehler" [ref=e123]
+  - contentinfo [ref=e124]:
+    - generic [ref=e125]:
+      - img "QUIS logo" [ref=e127]
+      - contentinfo [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: Lösungen
+          - link "QUIS Portfolio" [ref=e131] [cursor=pointer]:
+            - /url: /portfolio
+          - link "QUIS Standortanalyse" [ref=e132] [cursor=pointer]:
+            - /url: /location_analysis?developer=
+          - link "QUIS Marktpreis-Exposé" [ref=e133] [cursor=pointer]:
+            - /url: /exposes
+        - generic [ref=e134]:
+          - generic [ref=e135]: Unternehmen
+          - link "Über uns" [ref=e136] [cursor=pointer]:
+            - /url: /about
+          - link "Karriere" [ref=e137] [cursor=pointer]:
+            - /url: /career
+          - link "Blog" [ref=e138] [cursor=pointer]:
+            - /url: https://blog.quis.de
+          - link "Events" [ref=e139] [cursor=pointer]:
+            - /url: https://blog.quis.de/events
+        - generic [ref=e140]:
+          - generic [ref=e141]: Rechtliches
+          - link "Impressum" [ref=e142] [cursor=pointer]:
+            - /url: /legal_notice
+          - link "AGB" [ref=e143] [cursor=pointer]:
+            - /url: /tos
+          - link "Datenschutz" [ref=e144] [cursor=pointer]:
+            - /url: /privacy
+        - generic [ref=e145]:
+          - generic [ref=e146]: Software
+          - link "Demo vereinbaren" [ref=e147] [cursor=pointer]:
+            - /url: https://demo.quis.de
+          - link "API" [ref=e148] [cursor=pointer]:
+            - /url: https://developer.quis.de
+      - generic [ref=e149]:
+        - link [ref=e150] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/quisde
+        - link [ref=e152] [cursor=pointer]:
+          - /url: https://www.facebook.com/quis.de
+        - link [ref=e154] [cursor=pointer]:
+          - /url: https://www.instagram.com/quis.immo
+    - contentinfo [ref=e156]:
+      - generic [ref=e157]: © 2020-2026 QUIS® ist ein Service der QUIS immo.analytics GmbH
+  - iframe [aria-hidden] [ref=e159]

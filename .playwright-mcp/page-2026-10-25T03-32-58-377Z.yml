@@ -1,0 +1,297 @@
+- generic [active] [ref=f13e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f13e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f13e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f13e8]:
+    - search [ref=f13e9]:
+      - generic [ref=f13e11]:
+        - link "Go to Google Home" [ref=f13e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQPHoECAYQBA
+        - generic [ref=f13e22]:
+          - combobox "Search" [ref=f13e24]: flyeralarm Professional Software Developer Kotlin Java Würzburg karriere flyeralarm Professional Software Developer Kotlin Java Würzburg karriere
+          - generic [ref=f13e25]:
+            - button "Clear" [ref=f13e29] [cursor=pointer]
+            - generic [ref=f13e34]:
+              - button "Search by voice" [ref=f13e37] [cursor=pointer]
+              - button "Search by image" [ref=f13e42] [cursor=pointer]
+    - generic [ref=f13e45]:
+      - button "Settings" [ref=f13e47] [cursor=pointer]
+      - button "Share" [ref=f13e52] [cursor=pointer]
+      - generic [ref=f13e58]:
+        - button "Google apps" [ref=f13e60] [cursor=pointer]
+        - link "Sign in" [ref=f13e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3Dflyeralarm%2BProfessional%2BSoftware%2BDeveloper%2BKotlin%2BJava%2BW%25C3%25BCrzburg%2Bkarriere&ec=futura_srp_og_si_72236_p
+  - generic [ref=f13e67]:
+    - navigation [ref=f13e73]:
+      - generic [ref=f13e79]:
+        - list [ref=f13e80]:
+          - listitem [ref=f13e81]:
+            - link "AI Mode" [ref=f13e84] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ2J8OegQIERAD
+          - listitem [ref=f13e88]:
+            - link "All" [disabled] [ref=f13e89]
+          - listitem [ref=f13e92]:
+            - link "Short videos" [ref=f13e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQs6gLegQIGBAB
+          - listitem [ref=f13e96]:
+            - link "Forums" [ref=f13e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQs6gLegQIFBAB
+          - listitem [ref=f13e100]:
+            - link "News" [ref=f13e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ0pQJegQIFxAB
+          - listitem [ref=f13e104]:
+            - link "Images" [ref=f13e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQtKgLegQIExAB
+          - listitem [ref=f13e108]:
+            - link "Shopping" [ref=f13e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IxEtCWIHTVgottk0OOnHt02QmhvxTuDAG70KyMjfQknSwKLLrSRzdlPYPbhAB1U-eDH7Wm3qF013RrWt88LBIi_ufdd81oqtzQte9xTXFaZ0bO2bz5sn8eobgDt_q4h5ozK0yELOLLH2QUZxZXhtnrscw8Eg&q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&ved=1t:220175&ictx=111
+          - listitem [ref=f13e112]:
+            - button [ref=f13e113] [cursor=pointer]:
+              - generic "More filters" [ref=f13e114]: More
+        - button "Tools" [ref=f13e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f13e128]
+    - generic [ref=f13e133]:
+      - generic [ref=f13e152]:
+        - heading "Thinking" [level=2] [ref=f13e156]
+        - progressbar "Generating" [ref=f13e159]
+      - main [ref=f13e161]:
+        - generic [ref=f13e165]:
+          - generic [ref=f13e168]:
+            - heading "Web results" [level=2] [ref=f13e169]
+            - generic [ref=f13e170]:
+              - generic [ref=f13e173]:
+                - link "Senior Software Developer Kotlin/Java at flyeralarm GmbH DEVjobs.de https://en.devjobs.de › job" [ref=f13e175] [cursor=pointer]:
+                  - /url: /goto?url=CAESdQHrOzAVcCxOpD2QkyN00BlN0p8fiUW0BKNeXwcPeQHYBeSo5xRkOTJK4VTJqwyqsHbAc4pvTlQk2XRG7uw-7el8jgOgmp7WYpvcTNXIySeEm0U8tqeWlWgheufvMsclTPexXM6XUUD7GmqdfZLzOYXp4s7oiQ
+                  - heading "Senior Software Developer Kotlin/Java at flyeralarm GmbH" [level=3] [ref=f13e176]
+                  - generic [ref=f13e182]:
+                    - generic [ref=f13e183]: DEVjobs.de
+                    - generic [ref=f13e185]: https://en.devjobs.de › job
+                - button "About this result" [ref=f13e191] [cursor=pointer]
+              - generic [ref=f13e197]:
+                - generic [ref=f13e198]:
+                  - emphasis [ref=f13e199]: "Level: Senior"
+                  - text: "· Location: Würzburg · Working Model: Onsite · Job Field: IT, DevOps, Back End · Employment Type: Full Time · Contract Type: Permanent employment ..."
+                - link "Read more" [ref=f13e200] [cursor=pointer]:
+                  - /url: /goto?url=CAES9QEB6zswFfTuE4gLazlBdZauQnlWkuMBM_n3BEGIEuqHJVosfqFEegtPpB6fuiBaULCyjO1F428CbD0_fDCwsvEb2ORviuMRIdSL-KUWedVooTYRA4hhIMMgs2-4mcUXziEn2MOOazG9wPSNquPJM-3hDx9Xza8ERD6h7ccx4WQYaJoWiBTczFz1UtxaakZ5Cgh0N4LQeCBVCfWEXPj0q2ZCX4HFZdf2ZAUY65BnWQkdgkApz8z5rfN5y3XKEl3ToeG5IinDpdEiU9hGeowfO_ewPL2mNApbTCI8433N4X7y44ASz4ojUqwk0MndOCS2adfXJ1pK_Q
+          - generic [ref=f13e204]:
+            - generic [ref=f13e207]:
+              - link "Professional Software Developer m/w/d Kotlin/Java Bundesagentur für Arbeit https://www.arbeitsagentur.de › jo..." [ref=f13e209] [cursor=pointer]:
+                - /url: /goto?url=CAESfgHrOzAVfLIkpr1E8iowqs49VHyNCMBfHWAEKHWJRC8hsyDEIlOxzC_0jEsmpg1etXI9X6RIEm7FZhD_ps1G_jz9D6VhoB-9194HPRBxxV1NEiuYDuslVgcvGMZHitpWqbNoX-Qhimddu-BAZHDPD8Fpj-1ek8k8AYy4swClUg
+                - heading "Professional Software Developer m/w/d Kotlin/Java" [level=3] [ref=f13e210]
+                - generic [ref=f13e216]:
+                  - generic [ref=f13e217]: Bundesagentur für Arbeit
+                  - generic [ref=f13e219]: https://www.arbeitsagentur.de › jo...
+              - generic [ref=f13e221]:
+                - generic [ref=f13e222]: ·
+                - link "Translate this page" [ref=f13e223] [cursor=pointer]:
+                  - /url: /goto?url=CAESyAEB6zswFbpDOj2KfcxZVc6JbTe9FE9NgGu2HDy_5G8jtbTH3t9XUJ0vUsnvRSOa576DnwhxmG-hA-IIlK3BmicHrnMYTXU5HY9iHmGhXEuOU0ijFXRrx0d8vl1UawnRiNpawik8ZYaMHDYK7ekAtIIMtXCWvQvuczzCacsJXITeaWULI19J0KVWbk4c--3juDwE9L-9CyCHy0ypqIdIgnrC5S1thABJHjk7qEcg-FWWdP0bCElu1VsipFIhOm-oElluS87whOdYrA
+              - button "About this result" [ref=f13e228] [cursor=pointer]
+            - generic [ref=f13e234]:
+              - generic [ref=f13e235]: 13 Oct 2026 —
+              - generic [ref=f13e236]:
+                - text: Stellenangebot für »
+                - emphasis [ref=f13e237]: Professional Software Developer m/w/d Kotlin/Java
+                - text: bei FLYERALARM GmbH » in Würzburg ✓ Vollzeit ✓ unbefristet ✓ ab sofort
+          - generic [ref=f13e241]:
+            - generic [ref=f13e244]:
+              - link "Alle Jobs | FLYERALARM Karriere Flyeralarm https://www.flyeralarm.com › posi..." [ref=f13e246] [cursor=pointer]:
+                - /url: /goto?url=CAEShAEB6zswFUvCFs-9Q27bCs-hj6q4gTxvk3T2uAwTSOV1Nxqo5dWJSHIBGYLedmpjCyTr6NMld_roMUSw2PbddsvBTU-NmEdMUiRR7dS5LQAbn9Z6-Z1dPsgD3LEiJTctFMNJOMD17Y40wyejyIVdZC9Elq-hLl666sy4w1Keth9H6ygkqLs
+                - heading "Alle Jobs | FLYERALARM Karriere" [level=3] [ref=f13e247]
+                - generic [ref=f13e253]:
+                  - generic [ref=f13e254]: Flyeralarm
+                  - generic [ref=f13e256]: https://www.flyeralarm.com › posi...
+              - generic [ref=f13e258]:
+                - generic [ref=f13e259]: ·
+                - link "Translate this page" [ref=f13e260] [cursor=pointer]:
+                  - /url: /goto?url=CAESzgEB6zswFZ6OGNsBJ1OKpMf4XVg5eFjxj-rGGRP-sRcbG5X4xwK3JQ0csNRHBpML4TXAcnOqVE5Yghs_Au-iKI9KbYvmRvE_2lW01oLcTZyBzkeKwIs3D1qe7_lNhnIDHMTjHNTGelLwduVzZb2ldlWOyUZFotDthOCx6t-ZaA3wVe7DtdAFJXTiGIztedlE9KDHqshtKFd3LNZEupsFuLptt3AMaxLXQlkUR3mpgYtF3_T6dHOydzqrOiNWk8u3buxG-vxDbzTvPkdYl8u0Lw
+              - button "About this result" [ref=f13e265] [cursor=pointer]
+            - generic [ref=f13e271]:
+              - generic [ref=f13e272]:
+                - emphasis [ref=f13e273]: Professional Software Developer m/w/d Kotlin/Java
+                - text: . IT & E-Commerce. Professional Software Developer m/w/d Kotlin/Java. Projektmanager m/w/d. Project Management ...
+              - link "Read more" [ref=f13e274] [cursor=pointer]:
+                - /url: /goto?url=CAES8QEB6zswFYmxt4Qks_2X60YNYwalQed8EDSPzX9ySe0ZifkKi4-mhl9fxAFQRA-9LmIDLZqrnLN1lCMXmPGQjJQ2w2JbfmREB6MROWt5Leg5G_jlCcpktUg7deaiTZRAjbvzeBStu59-0BKsREjekz_wcngPGW-tUU7RloSaZisGQPLR5aXmYw0TRXSxQSI6hwvf4x5Qr2KDanQ0SOz5NZjnYylxjWxZ1RPsl9sGW-bkNQ4XNnJl_QfAvNOfST2n9u90ICDa5pXfmHKQPOTmHnBST5OzpUIRuPfXRdg1fEHKULVQIYU9-a14eHoFSpoDCP3b
+          - generic [ref=f13e278]:
+            - generic [ref=f13e281]:
+              - link "Professional Software Developer m/w/d Kotlin/Java LinkedIn https://de.linkedin.com › jobs › view" [ref=f13e283] [cursor=pointer]:
+                - /url: /goto?url=CAESpwEB6zswFUE12Y1z6VNFT2Eb3us3DJlRq8IViEigWAe9KGDGNQedv8IIk9HvRj2ikb-FZi4-m5OsAxPfGAwaGhf2MmyNuJ5YS2MQd60kOojINiCq_L1N-8T-vAvDM9WYknhOPvY_ramooboO5rB1qip_w7_rYeO0oj2Xb-NyZNBMlFwg82nACFEmRjz7BYY7owyF6Gdp-DVdeywPUraPz7UH4mE9IeEdjg
+                - heading "Professional Software Developer m/w/d Kotlin/Java" [level=3] [ref=f13e284]
+                - generic [ref=f13e290]:
+                  - generic [ref=f13e291]: LinkedIn
+                  - generic [ref=f13e293]: https://de.linkedin.com › jobs › view
+              - generic [ref=f13e295]:
+                - generic [ref=f13e296]: ·
+                - link "Translate this page" [ref=f13e297] [cursor=pointer]:
+                  - /url: /goto?url=CAES8QEB6zswFSpcv5FKXXslIwxXUUTdNeUL3sH_dLzpAINAvhOPuffzd97CldwVaKuEhviSGLKqdkp3GmgAjV6Rm0XzYv_fs3KW9D_UTabZ8ZexYdA6Wr5dLoo9Q9qdvf4Ltw04c40you6bwEO-rLYmod9LYq8debx47aSuUSupEMsbbwd0_tBqegsOIpSjQYI_GnE6gf6mttGURPpKfezcv2sh0_7nzABzvrZirWpcAobYzlBAo9gHQ42lPBkvotw1IQgWwUIk6HocC6fbUHur0v1L1h3CbtzfXaFBBR0JFfizfi1jP-v77BVALzzf59la3PrL
+              - button "About this result" [ref=f13e302] [cursor=pointer]
+            - generic [ref=f13e308]:
+              - generic [ref=f13e309]: 12 Oct 2026 —
+              - generic [ref=f13e310]:
+                - text: Bewerben Sie sich für die Stelle als
+                - emphasis [ref=f13e311]: Professional Software Developer m/w/d Kotlin/Java
+                - text: bei FLYERALARM in Würzburg. Position mit Vollzeit ...
+          - generic [ref=f13e315]:
+            - generic [ref=f13e318]:
+              - link "Germany jobs at FLYERALARM GmbH (5) eFinancialCareers https://www.efinancialcareers.co.uk › jobs › at-flyeralar..." [ref=f13e320] [cursor=pointer]:
+                - /url: /goto?url=CAESfgHrOzAV0pMirqfg2NiS0vvhnM6TpKbwafBKlDJrOfvRcEmA8vStxf6s9o20HAreXco0DwKU4-efvi94Dp6ksyDOADg2V6KH6KBlpQcbY1njhjx5ojJ-HnoRTV7uj_Ib2EXP2HH_uq71D7gH3s3aBrjFbtTAJQvwumn8gvVqGw
+                - heading "Germany jobs at FLYERALARM GmbH (5)" [level=3] [ref=f13e321]
+                - generic [ref=f13e327]:
+                  - generic [ref=f13e328]: eFinancialCareers
+                  - generic [ref=f13e330]: https://www.efinancialcareers.co.uk › jobs › at-flyeralar...
+              - button "About this result" [ref=f13e336] [cursor=pointer]
+            - generic [ref=f13e343]:
+              - emphasis [ref=f13e344]: Senior Software Developer m/w/d Kotlin/Java
+              - text: (7947). FLYERALARM GmbH. Berlin, GermanyPermanent. RemoteCompetitive ...
+          - generic [ref=f13e348]:
+            - generic [ref=f13e351]:
+              - link "Senior Software Developer m/w/d Node.js & Kotlin in Remote Flyeralarm https://www.flyeralarm.com › 794..." [ref=f13e353] [cursor=pointer]:
+                - /url: /goto?url=CAESnwEB6zswFQMh71_lmbyr9It2rQYMzitXDdqiQ1w15-cXr_oPwsQE0DJ4T6sH3YzzyNIA1sCrHAxYFGhK_uEtJt36d5-2_h8_aXnWkmzR9Ljn_3jAxWYHwAJ-PPd7wP1r5NmC07YUn_tncM0IfdfESQJgga2-Z_Sr8IxP-E_eZGhYepE_Wk-WPVWWYHx0k7jMsbiw9xB5mUufWbg9ThH8o3Y
+                - heading "Senior Software Developer m/w/d Node.js & Kotlin in Remote" [level=3] [ref=f13e354]
+                - generic [ref=f13e360]:
+                  - generic [ref=f13e361]: Flyeralarm
+                  - generic [ref=f13e363]: https://www.flyeralarm.com › 794...
+              - generic [ref=f13e365]:
+                - generic [ref=f13e366]: ·
+                - link "Translate this page" [ref=f13e367] [cursor=pointer]:
+                  - /url: /goto?url=CAES6QEB6zswFXEjAhxBv9CqUM5sfEKmY-5wPX38cHeDlfIurlLoeo7Zn3g5YWoCyt_trnGRM3SfsAdbs2bAFUJNsvlC8U2ohLi2Og55a_hurHp7bMEcc982t3cxlajos30YZ_DGvdugx2NErV_f-pPsZqw5B9H1BQYGxPbG6cesg91U4OQQJvhibNdNdaQe6D0NnWCa-J-8OoWhgnvmbYDNlva7NUHB5KUJl8Ic9zYzwQFhZdr6KzJvkGGes6tB1YiYQmlkwPFkRM_nSJKnzhaZ9UzXuBov-6Pvgl_-qfTT0J-W516gaZkM5S3FmQ
+              - button "About this result" [ref=f13e372] [cursor=pointer]
+            - generic [ref=f13e378]:
+              - text: Du hast eine erfolgreich abgeschlossene Ausbildung im Bereich der Softwareentwicklung oder ein abgeschlossenes Informatikstudium · Du hast fundierte Erfahrung in ...
+              - link "Read more" [ref=f13e379] [cursor=pointer]:
+                - /url: /goto?url=CAES7wIB6zswFeUfctcJz6WLuqNHmj_932SkagREk8gbTmRgrlnEIsI-JXvSFKvLhVX03LHMfXnHQmFM4bCDuBLp-4cYrlJqdvYD_bUfXnmWJjlWyild7f7P-GpMazKwAJNgJohnuVQ2eIzL-SYcbnJWg9Z3dE3n0IanTSjoUXsPA5c4D88TU3SH1kkANqAg-_3KmdzXMxvdnUxfDTlVhea0yVBkUEHVh6lESXwSn6oY8olzifC5E9Qm4upRUE5WNI8gEHNVayFvyNb4DFJJaIli5_TV17nr6JBDej0BW0D8Q1xgpjatU9-z3bJkhizKoVsrf-vS1quLpfmiP8y0uGc-YnmJta7VtMP83GKis3Ed0Nto10zLTu36OoN_cUhaQG27H8h4tljOlYRqrFQWGXsmdvI8aMS80yWWlwD5prCJZYG7tJpTT9G0v5H7PUoz6YHvlPbKK2kZ0T872dWFUmWbPFGu_AAEJNfio39Mb4Gy56AY
+          - generic [ref=f13e383]:
+            - generic [ref=f13e386]:
+              - link "flyeralarm GmbH — Open Jobs, Headcount & Hiring Trends ... jobspipe.dev https://jobspipe.dev › hiring › flyeralarm" [ref=f13e388] [cursor=pointer]:
+                - /url: /goto?url=CAESZQHrOzAVsosLNGB-IZQa3nnISrMyhHl1l9cpKSchiwcKZIY2CNb5EI4qZX9NZ9RlmTiWql6EHij9Jw4sq8CGLMMTrQ1a4fy4SVD8TrJJ-s8b3qzrQL9nmnyDsqmxit1UQx2Ffa_8
+                - heading "flyeralarm GmbH — Open Jobs, Headcount & Hiring Trends ..." [level=3] [ref=f13e389]
+                - generic [ref=f13e395]:
+                  - generic [ref=f13e396]: jobspipe.dev
+                  - generic [ref=f13e398]: https://jobspipe.dev › hiring › flyeralarm
+              - button "About this result" [ref=f13e404] [cursor=pointer]
+            - generic [ref=f13e411]:
+              - text: in Würzburg, Germany.
+              - emphasis [ref=f13e412]: Professional Software Developer m/w/d Kotlin/Java
+              - text: "Würzburg, DE 12 Oct 2026. Hiring accelerated in Sep 2026: 18 new postings,"
+          - generic [ref=f13e416]:
+            - generic [ref=f13e419]:
+              - link "Senior Software Developer at flyeralarm GmbH DEVjobs.de https://en.devjobs.de › job" [ref=f13e421] [cursor=pointer]:
+                - /url: /goto?url=CAESdQHrOzAVkbs2y23crENH6sKwe5nX-AVBDefIv_lkJG44XgyHSj3Yxcz33Hq0QwzJcpSHNKoTW2mUfet7ICcBUSD2FhvX6yKD1FVkHRTB3kvyVGo5bf7YGyJj90dwnyYWDh8GMk0Y7TvG_kNIFJFe6DyCfDTnlA
+                - heading "Senior Software Developer at flyeralarm GmbH" [level=3] [ref=f13e422]
+                - generic [ref=f13e428]:
+                  - generic [ref=f13e429]: DEVjobs.de
+                  - generic [ref=f13e431]: https://en.devjobs.de › job
+              - button "About this result" [ref=f13e437] [cursor=pointer]
+            - generic [ref=f13e444]:
+              - emphasis [ref=f13e445]: flyeralarm
+              - text: GmbH in
+              - emphasis [ref=f13e446]: Würzburg
+              - text: is looking for a
+              - emphasis [ref=f13e447]: Senior Software Developer
+              - text: with
+              - emphasis [ref=f13e448]: Kotlin
+              - text: ","
+              - emphasis [ref=f13e449]: Java
+              - text: and Spring Boot. Apply now at DEVjobs.de!
+          - generic [ref=f13e453]:
+            - generic [ref=f13e456]:
+              - link "Senior Software Developer m/w/d Kotlin/Java Jobs für Würzburg https://www.jobs-für-würzburg.de › ..." [ref=f13e458] [cursor=pointer]:
+                - /url: /goto?url=CAESogEB6zswFUeEF7AwYi-YD6YDelhT2ErGLPiODY09dq7-NtleHXrQjvvoAIhoMpj72LFFylauwrPkWde3QFGXsAPYqqpM66IZb0oKb2xknmx2JC7BEelyP-IZVOyqbrebJeLUGJLab-KK-AFkvsk7FzBvLS88mU2dzr44yW4niqx4yXj2aciHQe3Zjd-Tdjx9XhwMqj0N68AD7mhEGr5dL_7z4d4
+                - heading "Senior Software Developer m/w/d Kotlin/Java" [level=3] [ref=f13e459]
+                - generic [ref=f13e465]:
+                  - generic [ref=f13e466]: Jobs für Würzburg
+                  - generic [ref=f13e468]: https://www.jobs-für-würzburg.de › ...
+              - generic [ref=f13e470]:
+                - generic [ref=f13e471]: ·
+                - link "Translate this page" [ref=f13e472] [cursor=pointer]:
+                  - /url: /goto?url=CAES7AEB6zswFZ01_57o9Aw0aTFkisQLPSKSf3zLtg9hN_iAIHlSSO17sVCcXliJ-JjXynOa3_0_G1WVUc4V_Rqe6hIaFi_BaQe8o8yS-gH2HoENuSKCFgnc2kjdl-uYkNKrogXUf-UEqZCNxKi68VrmGT0rQDf81GwHjEivmqzEKbFkbd9Qxil-YMFFIcRltrm20YCXwf9mrNrqLFhbCgF73C8Rflsie8OW9tnjui9n8-10dxG3RtYwofYm7wbtDx1QshuOlhubviC6EHj3ED7QsRozeL8r9ROEep7zxgt92CdaDjVkDsnEGIPEw-4fBg
+              - button "About this result" [ref=f13e477] [cursor=pointer]
+            - generic [ref=f13e483]:
+              - generic [ref=f13e484]: 13 Oct 2026 —
+              - generic [ref=f13e485]:
+                - text: "Unternehmen:"
+                - emphasis [ref=f13e486]: FLYERALARM
+                - text: "GmbH. Arbeitszeitmodell: Vollzeit. Arbeitsort:"
+                - emphasis [ref=f13e487]: Würzburg
+                - text: "(DE). Stellenbeschreibung: Schon gewusst?"
+              - link "Read more" [ref=f13e488] [cursor=pointer]:
+                - /url: /goto?url=CAES4QEB6zswFTdkS_nZjPxnq-kjMrUn-IBgrR8rbvd5v8ckVuefjg8tLyKMgnbNCxvbvJtuZ2pcQKHdETiO8BdBFjRcvs9tExfjq-DVC72Rpb1AVg61wnselECa9S0X0JrDtQJ53yCQoKkcSbRXYUrCY17vC9FPED7Qx6FFejXSXfWfJ2-jn7COGlQ2fZ4dUfQ7GieEzABDuzNjtFt7TisnNQ55K-uR8laolOkJ9x-nUSupRaKHpl7c4A_Ce4ZP3vq_5ucG_YVb98fW8KO2ij2X4ADj-45ggKEsKWupTLIV2neWlHk
+        - generic [ref=f13e490]:
+          - generic [ref=f13e495]:
+            - heading "People also search for" [level=2] [ref=f13e497]
+            - generic [ref=f13e499]:
+              - generic [ref=f13e500]:
+                - link "Flyeralarm professional software developer kotlin java würzburg karriere job" [ref=f13e504] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=Flyeralarm+professional+software+developer+kotlin+java+w%C3%BCrzburg+karriere+job&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg7EAE
+                - link "FLYERALARM Würzburg Werkstudent" [ref=f13e518] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=FLYERALARM+W%C3%BCrzburg+Werkstudent&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAhBEAE
+                - link "FLYERALARM Karriere" [ref=f13e532] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=FLYERALARM+Karriere&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg_EAE
+                - link "FLYERALARM Würzburg Praktikum" [ref=f13e546] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=FLYERALARM+W%C3%BCrzburg+Praktikum&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAhAEAE
+              - generic [ref=f13e557]:
+                - link "FLYERALARM Kesselsdorf Jobs" [ref=f13e561] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=FLYERALARM+Kesselsdorf+Jobs&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg-EAE
+                - link "Flyeralarm Heuchelhof" [ref=f13e575] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=Flyeralarm+Heuchelhof&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg6EAE
+                - link "Flyeralarm change management werkstudent" [ref=f13e589] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=Flyeralarm+change+management+werkstudent&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg9EAE
+                - link "FLYERALARM hr" [ref=f13e603] [cursor=pointer]:
+                  - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&q=FLYERALARM+hr&sa=X&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ1QJ6BAg8EAE
+          - navigation [ref=f13e614]:
+            - heading "Page navigation" [level=1] [ref=f13e615]
+            - text: "1"
+            - link "Page 2" [ref=f13e618] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=10&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAE
+              - text: "2"
+            - link "Page 3" [ref=f13e620] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=20&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAG
+              - text: "3"
+            - link "Page 4" [ref=f13e622] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=30&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAI
+              - text: "4"
+            - link "Page 5" [ref=f13e624] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=40&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAK
+              - text: "5"
+            - link "Page 6" [ref=f13e626] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=50&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAM
+              - text: "6"
+            - link "Page 7" [ref=f13e628] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=60&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAO
+              - text: "7"
+            - link "Page 8" [ref=f13e630] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=70&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAQ
+              - text: "8"
+            - link "Page 9" [ref=f13e632] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=80&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAS
+              - text: "9"
+            - link "Page 10" [ref=f13e634] [cursor=pointer]:
+              - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=90&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8tMDegQINBAU
+              - text: "10"
+            - heading [level=2] [ref=f13e636]:
+              - link "Next" [ref=f13e637] [cursor=pointer]:
+                - /url: /search?q=flyeralarm+Professional+Software+Developer+Kotlin+Java+W%C3%BCrzburg+karriere&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntI5PLQcJGjxMzrZ6W1FoVbDgyVgA:1792899176983&ei=aHjdarTJO6GbseMPyKSEgQs&start=10&sa=N&sstk=AS6-VmJdPE7AQjcVqXjuh2zY6ttKHpE6AVAnJpzJIWpFJ0WxHZQ-GNV192JD2m6LpcpFrN0PV-sMBrz0J0B4Naa2RmZIE1AQbIS04Q&ved=2ahUKEwi0nb_0ndSXAxWhTWwGHUgSIbAQ8NMDegQINBAW
+        - navigation
+    - contentinfo [ref=f13e640]:
+      - heading "Footer links" [level=1] [ref=f13e641]
+      - generic [ref=f13e645]:
+        - generic [ref=f13e647]:
+          - text: India
+          - generic [ref=f13e649]:
+            - button "Konappana Agrahara, Karnataka - Based on your past activity" [ref=f13e651] [cursor=pointer]:
+              - generic [ref=f13e652]: Konappana Agrahara, Karnataka
+              - generic [ref=f13e654]:
+                - text: "-"
+                - generic [ref=f13e655]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f13e657] [cursor=pointer]
+        - generic [ref=f13e660]:
+          - link "Help" [ref=f13e661] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f13e662] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f13e663] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f13e664] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,0 +1,324 @@
+- generic [active] [ref=f4e1]:
+  - region [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e5]:
+        - img "logo" [ref=f4e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=f4e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tabpanel "Consent" [ref=f4e36]:
+        - generic [ref=f4e38]:
+          - heading "This website uses cookies" [level=2] [ref=f4e39]
+          - generic [ref=f4e40]:
+            - text: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.You can change/revoke your consent at any time. For more information, please refer to our
+            - link "privacy policy" [ref=f4e41] [cursor=pointer]:
+              - /url: https://foobar.agency/en/privacy
+            - text: . See also our
+            - link "Impressum" [ref=f4e42] [cursor=pointer]:
+              - /url: https://foobar.agency/en/imprint
+            - text: .
+        - link "Show details" [ref=f4e45] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=f4e49]:
+        - button "Deny" [ref=f4e50] [cursor=pointer]
+        - button "Customize" [ref=f4e51] [cursor=pointer]
+        - button "Allow all" [ref=f4e53] [cursor=pointer]
+  - banner [ref=f4e54]:
+    - navigation "Main navigation" [ref=f4e56]:
+      - generic [ref=f4e57]:
+        - link [ref=f4e58] [cursor=pointer]:
+          - /url: /en
+          - img "foobar Agency" [ref=f4e59]
+        - list [ref=f4e60]:
+          - listitem [ref=f4e61]:
+            - button "Services" [ref=f4e62]
+          - listitem [ref=f4e65]:
+            - button "Partners" [ref=f4e66]
+          - listitem [ref=f4e69]:
+            - link "References" [ref=f4e70] [cursor=pointer]:
+              - /url: /en/success-cases
+          - listitem [ref=f4e71]:
+            - button "Company" [ref=f4e72]
+        - generic [ref=f4e75]:
+          - generic [ref=f4e76]:
+            - link "DE" [ref=f4e77] [cursor=pointer]:
+              - /url: /de/team
+            - generic [ref=f4e78]: "|"
+            - link "EN" [ref=f4e79] [cursor=pointer]:
+              - /url: /en/team
+          - link "Contact" [ref=f4e80] [cursor=pointer]:
+            - /url: /en/contact
+  - main [ref=f4e83]:
+    - generic [ref=f4e84]:
+      - img "foobar Agency Team" [ref=f4e86]
+      - generic [ref=f4e90]:
+        - heading "Servus, Moin, Вітаю, سلام, Marhabaan and Olá!" [level=1] [ref=f4e91]
+        - paragraph [ref=f4e93]: We are foobar Agency — and this is who we are.
+        - link "Our job openings" [ref=f4e95] [cursor=pointer]:
+          - /url: "#jobs"
+    - generic [ref=f4e113]:
+      - heading "The Driving Force Behind foobar!" [level=2] [ref=f4e115]
+      - paragraph [ref=f4e118]: "Behind foobar is an international team based in Munich – with roots from almost every corner of the world. What brings us together: genuine curiosity, high standards, and the conviction that the best solutions emerge when people truly think along. No ticket processing. No service by the book. The foobaristas shape things – in customer projects, in architecture, in the company's further development."
+    - generic [ref=f4e128]:
+      - heading "Beyond the Obvious" [level=2] [ref=f4e130]
+      - paragraph [ref=f4e133]: "Our projects are not standard tasks – and that's no coincidence. We work with manufacturers and retailers driving complex commerce transformations: platform migrations, new architectures, digital experience platforms. Developers build here with a modern composable stack that's truly fun. Product owners think in real business models, not checklists. The depth that these projects demand is exactly what attracts our people."
+    - generic [ref=f4e143]:
+      - heading "What About Growth?" [level=2] [ref=f4e145]
+      - paragraph [ref=f4e148]: "For us, growth means: real responsibility, real challenges – and an environment that makes both possible. Modern hardware without compromises, AI tools as a standard part of work, WFH and workation as standard. We invest in people who want to develop further – because better people make better projects."
+    - generic [ref=f4e158]:
+      - heading "How We Work Together" [level=2] [ref=f4e160]
+      - generic [ref=f4e162]:
+        - paragraph [ref=f4e163]: "For us, real cohesion is not a matter of chance. That's why we make sure we regularly work together in the office – and we come together where it matters: with our customers. Close to the projects, close to the people we work for."
+        - paragraph [ref=f4e164]: WFH and workation are standard for everyone. What counts is the result – and that's best created in real collaboration.
+    - generic [ref=f4e174]:
+      - heading "Being at foobar Agency" [level=2] [ref=f4e176]
+      - generic [ref=f4e178]:
+        - paragraph [ref=f4e179]: When you come to the office, you should feel good – and you can tell.
+        - paragraph [ref=f4e180]: "Specialty coffee from a barista machine that everyone can operate. Fresh fruit, snacks, and a fridge that's never empty. Table soccer, table tennis, our own cinema, and Nintendos for moments in between. Grills on the terrace – and BBQ day every Thursday. For everyone: meat, vegetarian, vegan, halal. Thursday at foobar is legendary, and for good reason."
+        - paragraph [ref=f4e181]: Clean desk policy, modern hardware without compromises, and AI tools as a standard part of work – whether in development, consulting, or project management.
+    - generic [ref=f4e190]:
+      - generic [ref=f4e191]: Meetup Culture
+      - heading "Community Building" [level=2] [ref=f4e194]
+      - paragraph [ref=f4e195]: foobaristas don’t limit ourselves to client projects. We host public innovation workshops, meetups, and the Commerce Impact Forum—because we want to be part of the industry, not just service providers within it.
+      - link "To the Next.js Meetup Munich" [ref=f4e197] [cursor=pointer]:
+        - /url: /en/events/next-js-meetup
+    - generic [ref=f4e202]:
+      - heading "Join the team!" [level=2] [ref=f4e204]
+      - generic [ref=f4e206]:
+        - paragraph [ref=f4e207]: Does this sound like a place where you’d like to work? Or would you simply like to know who’s behind your next project? Either way, get in touch. We’d love to hear from you.
+        - paragraph [ref=f4e208]: We’re always looking for colleagues who want to try out new ideas with us and work together to achieve exciting goals.
+      - generic [ref=f4e209]:
+        - article [ref=f4e210]:
+          - img "Full-Stack Developer (m/f/d) – Headless CMS & Content Architecture" [ref=f4e213]
+          - generic [ref=f4e214]:
+            - heading "Full-Stack Developer (m/f/d) – Headless CMS & Content Architecture" [level=3] [ref=f4e215]
+            - paragraph [ref=f4e217]: ⏳ Full-time📍 Munich🗓️ Immediate start
+            - link "View Details & Apply" [ref=f4e219] [cursor=pointer]:
+              - /url: /en/jobs/full-stack-developer-headless-cms-content-architecture
+        - article [ref=f4e220]:
+          - img "(Senior) Consultant & Project Manager (m/f/d)" [ref=f4e223]
+          - generic [ref=f4e224]:
+            - heading "(Senior) Consultant & Project Manager (m/f/d)" [level=3] [ref=f4e225]
+            - paragraph [ref=f4e227]: ⏳ Full-time📍 Munich🗓️ Immediate start
+            - link "View Details & Apply" [ref=f4e229] [cursor=pointer]:
+              - /url: /en/jobs/consultant-project-manager-m-w-d
+        - article [ref=f4e230]:
+          - img "(Senior) Marketing Manager (m/f/d)" [ref=f4e233]
+          - generic [ref=f4e234]:
+            - heading "(Senior) Marketing Manager (m/f/d)" [level=3] [ref=f4e235]
+            - paragraph [ref=f4e237]: ⏳ Full-time📍 Munich🗓️ Immediate start
+            - link "View Details & Apply" [ref=f4e239] [cursor=pointer]:
+              - /url: /en/jobs/marketing-manager-m-w-d
+    - generic [ref=f4e241]:
+      - generic [ref=f4e242]:
+        - heading "Get in touch" [level=2] [ref=f4e243]
+        - paragraph [ref=f4e244]: We look forward to your enquiry.
+        - generic [ref=f4e246]:
+          - paragraph [ref=f4e247]: Please accept marketing cookies to load the registration form.
+          - button "Manage cookie settings" [ref=f4e248]
+      - generic [ref=f4e249]:
+        - img "Kerstin Dietrich" [ref=f4e251]
+        - generic [ref=f4e252]:
+          - paragraph [ref=f4e253]: Kerstin Dietrich
+          - paragraph [ref=f4e254]: Recruiting
+        - generic [ref=f4e255]:
+          - link "+491744027016" [ref=f4e256] [cursor=pointer]:
+            - /url: tel:+491744027016
+          - link "kerstin.dietrich@foobar.agency" [ref=f4e257] [cursor=pointer]:
+            - /url: mailto:kerstin.dietrich@foobar.agency
+  - contentinfo [ref=f4e258]:
+    - generic [ref=f4e263]:
+      - generic [ref=f4e264]:
+        - generic [ref=f4e265]:
+          - link [ref=f4e266] [cursor=pointer]:
+            - /url: /en
+            - img "foobar Agency" [ref=f4e267]
+          - paragraph [ref=f4e268]: Enterprise eCommerce agency specializing in composable commerce and customized solutions for discerning brands.
+          - generic [ref=f4e269]:
+            - link "foobar Agency auf LinkedIn" [ref=f4e270] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/foobar-agency
+            - link "foobar Agency auf Instagram" [ref=f4e273] [cursor=pointer]:
+              - /url: https://www.instagram.com/foobar.agency/
+            - link "foobar Agency auf X" [ref=f4e276] [cursor=pointer]:
+              - /url: https://x.com/foobar_agency
+          - generic [ref=f4e279]:
+            - link [ref=f4e280] [cursor=pointer]:
+              - /url: /en/partners/commercetools
+              - img "Commercetools Partner" [ref=f4e281]
+              - text: Commercetools Partner
+            - link [ref=f4e282] [cursor=pointer]:
+              - /url: /en/partners/snowflake
+              - img "Snowflake Logo" [ref=f4e283]
+              - text: Snowflake Partner
+            - link [ref=f4e284] [cursor=pointer]:
+              - /url: /en/partners/hygraph
+              - img "Hygraph Partner" [ref=f4e285]
+              - text: Hygraph Partner
+          - generic [ref=f4e286]:
+            - 'link "E-Commerce Germany Award, 1. Platz Beste Agentur Award-winning: 1st place at the E-Commerce Germany Award" [ref=f4e287] [cursor=pointer]':
+              - /url: /en/e-commerce-germany-award-2024
+              - img "E-Commerce Germany Award, 1. Platz Beste Agentur" [ref=f4e288]
+              - generic [ref=f4e289]: "Award-winning: 1st place at the E-Commerce Germany Award"
+            - link "foobar Agency ist Top Agentur 2026 Top Agency 2026" [ref=f4e290] [cursor=pointer]:
+              - /url: https://www.ibusiness.de/internetagentur-ranking/
+              - img "foobar Agency ist Top Agentur 2026" [ref=f4e291]
+              - generic [ref=f4e292]: Top Agency 2026
+            - link "We are member of BVDW We are member of BVDW" [ref=f4e293] [cursor=pointer]:
+              - /url: /en/blog/stimme-in-der-digitalen-wirtschaft-foobar-agency-wird-mitglied-im-bvdw
+              - img "We are member of BVDW" [ref=f4e294]
+              - generic [ref=f4e295]: We are member of BVDW
+            - link "We support the IHK's \"Pack ma's digital\" initiative We support the IHK's \"Pack ma's digital\" initiative" [ref=f4e296] [cursor=pointer]:
+              - /url: https://www.ihk-muenchen.de/initiativen/pack-mas-digital/
+              - img "We support the IHK's \"Pack ma's digital\" initiative" [ref=f4e297]
+              - generic [ref=f4e298]: We support the IHK's "Pack ma's digital" initiative
+          - generic [ref=f4e299]:
+            - heading "Our Office" [level=3] [ref=f4e300]
+            - generic [ref=f4e301]:
+              - link "‍foobar Agency GmbH Ria-Burkei-Straße 25 81249 München" [ref=f4e302] [cursor=pointer]:
+                - /url: https://www.google.com/maps/place/Ria-Burkei-Stra%C3%9Fe+25,+81249+M%C3%BCnchen/@48.1363904,11.4176733,17z/data=!3m1!4b1!4m5!3m4!1s0x479dd7e99e4875d5:0xa18877457f442ddd!8m2!3d48.1363904!4d11.419862
+              - 'link "Tel: +49 89 244174840" [ref=f4e303] [cursor=pointer]':
+                - /url: tel:+4989244174840
+              - 'link "Email: contact@foobar.agency" [ref=f4e304] [cursor=pointer]':
+                - /url: mailto:contact@foobar.agency
+        - navigation "Footer Navigation" [ref=f4e306]:
+          - generic [ref=f4e307]:
+            - generic [ref=f4e308]:
+              - generic [ref=f4e309]: Services
+              - list [ref=f4e310]:
+                - listitem [ref=f4e311]:
+                  - link "All Services" [ref=f4e312] [cursor=pointer]:
+                    - /url: /en#leistungen
+              - generic [ref=f4e314]:
+                - generic [ref=f4e315]:
+                  - link "Commerce Impact" [ref=f4e317] [cursor=pointer]:
+                    - /url: /en/leistungen/commerce
+                  - list [ref=f4e318]:
+                    - listitem [ref=f4e319]:
+                      - link "B2B Commerce, Sales Portals" [ref=f4e320] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2b-commerce
+                    - listitem [ref=f4e322]:
+                      - link "B2C and D2C Commerce" [ref=f4e323] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/b2c-d2c-commerce
+                    - listitem [ref=f4e325]:
+                      - link "Omnichannel" [ref=f4e326] [cursor=pointer]:
+                        - /url: /en/leistungen/commerce/omnichannel
+                - generic [ref=f4e328]:
+                  - link "Digital Experience" [ref=f4e330] [cursor=pointer]:
+                    - /url: /en/leistungen/digital-experience
+                  - list [ref=f4e331]:
+                    - listitem [ref=f4e332]:
+                      - link "Headless CMS" [ref=f4e333] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/headless-cms
+                    - listitem [ref=f4e335]:
+                      - link "Personalization" [ref=f4e336] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/personalisierung
+                    - listitem [ref=f4e338]:
+                      - link "Customer Journey Optimization" [ref=f4e339] [cursor=pointer]:
+                        - /url: /en/leistungen/digital-experience/customer-journey-optimierung
+                - generic [ref=f4e341]:
+                  - link "Data & AI" [ref=f4e343] [cursor=pointer]:
+                    - /url: /en/leistungen/data-science-ai
+                  - list [ref=f4e344]:
+                    - listitem [ref=f4e345]:
+                      - link "Snowflake & Data Architecture" [ref=f4e346] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/snowflake-datenarchitektur
+                    - listitem [ref=f4e348]:
+                      - link "Predictive Analytics" [ref=f4e349] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/predictive-analytics
+                    - listitem [ref=f4e351]:
+                      - link "LLM-Integration" [ref=f4e352] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/llm-integration
+                    - listitem [ref=f4e354]:
+                      - link "Agentic Commerce" [ref=f4e355] [cursor=pointer]:
+                        - /url: /en/leistungen/data-science-ai/agentic-commerce
+            - generic [ref=f4e357]:
+              - generic [ref=f4e358]: Partners
+              - list [ref=f4e359]:
+                - listitem [ref=f4e360]:
+                  - link "All partners" [ref=f4e361] [cursor=pointer]:
+                    - /url: /en/partners
+              - generic [ref=f4e363]:
+                - generic [ref=f4e364]:
+                  - generic [ref=f4e365]: eCommerce
+                  - list [ref=f4e367]:
+                    - listitem [ref=f4e368]:
+                      - link "commercetools" [ref=f4e369] [cursor=pointer]:
+                        - /url: /en/partners/commercetools
+                    - listitem [ref=f4e371]:
+                      - link "Shopify Plus" [ref=f4e372] [cursor=pointer]:
+                        - /url: /en/partners/shopify
+                - generic [ref=f4e374]:
+                  - generic [ref=f4e375]: Content Management
+                  - list [ref=f4e377]:
+                    - listitem [ref=f4e378]:
+                      - link "Hygraph" [ref=f4e379] [cursor=pointer]:
+                        - /url: /en/partners/hygraph
+                    - listitem [ref=f4e381]:
+                      - link "Storyblok" [ref=f4e382] [cursor=pointer]:
+                        - /url: /en/partners/storyblok
+                    - listitem [ref=f4e384]:
+                      - link "Contentful" [ref=f4e385] [cursor=pointer]:
+                        - /url: /en/partners/contentful
+                - generic [ref=f4e387]:
+                  - generic [ref=f4e388]: Commerce Ecosystem
+                  - list [ref=f4e390]:
+                    - listitem [ref=f4e391]:
+                      - link "Algolia" [ref=f4e392] [cursor=pointer]:
+                        - /url: /en/partners/algolia
+                    - listitem [ref=f4e394]:
+                      - link "FactFinder" [ref=f4e395] [cursor=pointer]:
+                        - /url: /en/partners/factfinder
+                    - listitem [ref=f4e397]:
+                      - link "Vercel" [ref=f4e398] [cursor=pointer]:
+                        - /url: /en/partners/vercel
+                    - listitem [ref=f4e400]:
+                      - link "Fastly" [ref=f4e401] [cursor=pointer]:
+                        - /url: /en/partners/fastly
+                - generic [ref=f4e403]:
+                  - generic [ref=f4e404]: Data & AI
+                  - list [ref=f4e406]:
+                    - listitem [ref=f4e407]:
+                      - link "Snowflake" [ref=f4e408] [cursor=pointer]:
+                        - /url: /en/partners/snowflake
+                    - listitem [ref=f4e410]:
+                      - link "dbt" [ref=f4e411] [cursor=pointer]:
+                        - /url: /en/partners/dbt
+                    - listitem [ref=f4e413]:
+                      - link "Power BI" [ref=f4e414] [cursor=pointer]:
+                        - /url: /en/partners/power-bi
+            - link "References" [ref=f4e418] [cursor=pointer]:
+              - /url: /en/success-cases
+            - generic [ref=f4e419]:
+              - generic [ref=f4e420]: Company
+              - list [ref=f4e421]:
+                - listitem [ref=f4e422]:
+                  - link "Commerce Impact Forum" [ref=f4e423] [cursor=pointer]:
+                    - /url: https://commerce-impact-forum.de
+                - listitem [ref=f4e425]:
+                  - link "Blog" [ref=f4e426] [cursor=pointer]:
+                    - /url: /en/blog
+                - listitem [ref=f4e428]:
+                  - link "Newsroom" [ref=f4e429] [cursor=pointer]:
+                    - /url: /en/blog?tag=NEWSROOM
+                - listitem [ref=f4e431]:
+                  - link "Team & Careers" [ref=f4e432] [cursor=pointer]:
+                    - /url: /en/team
+                - listitem [ref=f4e434]:
+                  - link "Events" [ref=f4e435] [cursor=pointer]:
+                    - /url: /en/events
+      - generic [ref=f4e437]:
+        - paragraph [ref=f4e438]: © 2026 foobar Agency GmbH. All rights reserved.
+        - list [ref=f4e439]:
+          - listitem [ref=f4e440]:
+            - link "Privacy Policy" [ref=f4e441] [cursor=pointer]:
+              - /url: /en/datenschutz
+          - listitem [ref=f4e442]:
+            - link "Imprint" [ref=f4e443] [cursor=pointer]:
+              - /url: /en/impressum
+        - generic [ref=f4e444]:
+          - link "DE" [ref=f4e445] [cursor=pointer]:
+            - /url: /de/team
+          - generic [ref=f4e446]: "|"
+          - link "EN" [ref=f4e447] [cursor=pointer]:
+            - /url: /en/team
+  - alert [ref=f4e448]
+  - iframe [aria-hidden] [ref=f4e449]

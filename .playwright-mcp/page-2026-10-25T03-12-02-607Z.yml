@@ -1,0 +1,143 @@
+- generic [active] [ref=f29e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f29e2] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f29e16] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f29e33] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f29e80] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f29e45]:
+      - generic [ref=f29e46]:
+        - link "Zur Startseite" [ref=f29e48] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f29e139]
+        - list [ref=f29e52]:
+          - listitem [ref=f29e53]:
+            - link "Jobsuche" [ref=f29e54] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f29e55]:
+            - link "Arbeitgeber" [ref=f29e56] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f29e57]:
+            - link "Schüler" [ref=f29e58] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f29e59]:
+            - link "Studierende" [ref=f29e60] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f29e61]:
+            - link "Direkteinstieg" [ref=f29e62] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f29e65] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - generic [ref=f29e68]:
+    - application "Zent-Berf Bewerbungsformular Wizard" [ref=f29e83]:
+      - text: ✓ ✓ ✓ ✓
+      - generic [ref=f29e84]:
+        - heading "Dateianhänge" [level=2] [ref=f29e85]
+        - heading "Persönliche Angaben" [level=2] [ref=f29e119]
+        - heading "Weitere Angaben" [level=2] [ref=f29e120]
+        - heading "Vorschau" [level=2] [ref=f29e121]
+        - tabpanel "Vorschau" [ref=f29e242]:
+          - generic [ref=f29e243]:
+            - generic [ref=f29e244]:
+              - heading "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [level=3] [ref=f29e245]
+              - progressbar "Fortschritt Schritt 4 von 4" [ref=f29e247]: 4 von 4
+            - generic [ref=f29e250]:
+              - generic [ref=f29e251]:
+                - heading "Dateianhänge" [level=3] [ref=f29e252]
+                - generic [ref=f29e253]:
+                  - generic [ref=f29e254]: Lebenslauf *
+                  - link "Kranti_Chavan_CV_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897864912.pdf" [ref=f29e257] [cursor=pointer]:
+                    - /url: https://www.deichmann-karriere.de/wp-content/uploads/application/17928978559822/Kranti_Chavan_CV_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897864912.pdf
+                - generic [ref=f29e258]:
+                  - generic [ref=f29e259]: Anschreiben
+                  - link "Kranti_Chavan_Cover_Letter_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897873632.pdf" [ref=f29e262] [cursor=pointer]:
+                    - /url: https://www.deichmann-karriere.de/wp-content/uploads/application/17928978559822/Kranti_Chavan_Cover_Letter_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897873632.pdf
+                - generic [ref=f29e263]: Foto
+                - generic [ref=f29e266]:
+                  - generic [ref=f29e267]: Zeugnisse *
+                  - link "Kranti_Chavan_Cover_Letter_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897882319.pdf" [ref=f29e270] [cursor=pointer]:
+                    - /url: https://www.deichmann-karriere.de/wp-content/uploads/application/17928978559822/Kranti_Chavan_Cover_Letter_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897882319.pdf
+                - heading "Persönliche Angaben" [level=3] [ref=f29e271]
+                - generic [ref=f29e272]:
+                  - generic [ref=f29e273]: Anrede*
+                  - generic [ref=f29e274]: Frau
+                - generic [ref=f29e275]:
+                  - generic [ref=f29e276]: Titel
+                  - generic [ref=f29e277]: "-"
+                - generic [ref=f29e278]:
+                  - generic [ref=f29e279]: Vorname*
+                  - generic [ref=f29e280]: Kranti
+                - generic [ref=f29e281]:
+                  - generic [ref=f29e282]: Nachname*
+                  - generic [ref=f29e283]: Chavan
+                - generic [ref=f29e284]:
+                  - generic [ref=f29e285]: Straße & Hausnummer*
+                  - generic [ref=f29e286]: Blücherstraße 6
+                - generic [ref=f29e287]:
+                  - generic [ref=f29e288]: PLZ*
+                  - generic [ref=f29e289]: "76185"
+                - generic [ref=f29e290]:
+                  - generic [ref=f29e291]: Stadt*
+                  - generic [ref=f29e292]: Karlsruhe
+                - generic [ref=f29e293]:
+                  - generic [ref=f29e294]: Land*
+                  - generic [ref=f29e295]: Deutschland
+                - generic [ref=f29e296]:
+                  - generic [ref=f29e297]: Telefon *
+                  - generic [ref=f29e298]: "+4915750174177"
+                - generic [ref=f29e299]:
+                  - generic [ref=f29e300]: E-Mail *
+                  - generic [ref=f29e301]: krantichavan198@gmail.com
+                - generic [ref=f29e302]:
+                  - generic [ref=f29e303]: Geburtsjahr
+                  - generic [ref=f29e304]: "1997"
+                - heading "Weitere Angaben" [level=3] [ref=f29e305]
+                - generic [ref=f29e306]:
+                  - generic [ref=f29e307]: Liegt eine Schwerbehinderung/ Gleichstellung vor? (freiwillige Angabe)
+                  - generic [ref=f29e308]: Nein
+                - generic [ref=f29e309]:
+                  - generic [ref=f29e310]: Deutschkenntnisse*
+                  - generic [ref=f29e311]: B1
+                - generic [ref=f29e312]:
+                  - generic [ref=f29e313]: Weitere Sprachen und Niveaus
+                  - generic [ref=f29e314]: Englisch C2, Hindi/Marathi Muttersprache
+                - generic [ref=f29e315]:
+                  - generic [ref=f29e316]: Relevante Berufserfahrung*
+                  - generic [ref=f29e317]: 2- 5 Jahre
+                - generic [ref=f29e318]:
+                  - generic [ref=f29e319]: Gehaltsvorstellung (brutto in Euro/ Jahr)*
+                  - generic [ref=f29e320]: "60000"
+                - generic [ref=f29e321]:
+                  - generic [ref=f29e322]: frühestmöglicher Eintrittstermin*
+                  - generic [ref=f29e323]: 16.12.2026
+                - generic [ref=f29e324]:
+                  - generic [ref=f29e325]: Kündigungsfrist
+                  - generic [ref=f29e326]: Läuft; letzter Arbeitstag 15.12.2026
+                - generic [ref=f29e327]:
+                  - generic [ref=f29e328]: Wie bist du auf uns aufmerksam geworden?*
+                  - generic [ref=f29e329]: Linkedin basic jobs posting
+              - generic [ref=f29e330]:
+                - checkbox "Datenschutzerklärung anzeigen und akzeptieren - wird in einem neuen Tab geöffnet gelesen und akzeptiert *" [ref=f29e331]
+                - generic [ref=f29e332]:
+                  - link "Datenschutzerklärung anzeigen und akzeptieren - wird in einem neuen Tab geöffnet" [ref=f29e333] [cursor=pointer]:
+                    - /url: https://www.deichmann-karriere.de/datenschutz/
+                    - text: Datenschutz
+                  - text: gelesen und akzeptiert *
+        - alert
+      - menu "Pagination" [ref=f29e123]:
+        - listitem [ref=f29e207]:
+          - menuitem "Zurück" [ref=f29e208] [cursor=pointer]
+        - listitem [ref=f29e334]:
+          - menuitem "Bewerbung abschicken" [ref=f29e335] [cursor=pointer]
+    - link "Nach oben scrollen" [ref=f29e148] [cursor=pointer]:
+      - /url: javascript:void(0);
+      - generic [aria-hidden] [ref=f29e150]: 
+  - iframe [ref=f29e78]:
+    - generic [ref=f32e6]:
+      - text: protected by
+      - strong [ref=f32e7]: reCAPTCHA
+  - button "Gracie" [ref=f29e127] [cursor=pointer]

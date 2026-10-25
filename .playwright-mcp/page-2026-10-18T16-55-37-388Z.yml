@@ -1,0 +1,429 @@
+- generic [active] [ref=f4e1]:
+  - region [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - link "Cookiebot by Usercentrics - opens in a new window" [ref=f4e6] [cursor=pointer]:
+        - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+      - tabpanel "Consent" [ref=f4e34]:
+        - generic [ref=f4e36]:
+          - heading "This website uses cookies" [level=2] [ref=f4e37]
+          - generic [ref=f4e38]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic.
+        - generic [ref=f4e39]:
+          - group "Consent Selection" [ref=f4e45]:
+            - generic [ref=f4e47]:
+              - generic [ref=f4e48]:
+                - strong [ref=f4e50]: Necessary
+                - generic [ref=f4e51]:
+                  - checkbox "Necessary" [checked] [disabled]
+              - generic [ref=f4e52]:
+                - strong [ref=f4e54] [cursor=pointer]: Preferences
+                - switch "Preferences" [checked] [ref=f4e56] [cursor=pointer]
+              - generic [ref=f4e57]:
+                - strong [ref=f4e59] [cursor=pointer]: Statistics
+                - switch "Statistics" [checked] [ref=f4e61] [cursor=pointer]
+              - generic [ref=f4e62]:
+                - strong [ref=f4e64] [cursor=pointer]: Marketing
+                - switch "Marketing" [checked] [ref=f4e66] [cursor=pointer]
+          - link "Show details" [ref=f4e68] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=f4e72]:
+        - button "Deny" [ref=f4e73] [cursor=pointer]
+        - button "Allow selection" [ref=f4e74] [cursor=pointer]
+        - button "Allow all" [ref=f4e75] [cursor=pointer]
+  - banner [ref=f4e76]:
+    - navigation [ref=f4e77]:
+      - link "Zur Startseite" [ref=f4e78] [cursor=pointer]:
+        - /url: /
+      - button "Menü öffnen" [ref=f4e81] [cursor=pointer]
+  - main [ref=f4e84]:
+    - generic [ref=f4e90]:
+      - heading "IT Jobs & Remote Jobs finden" [level=1] [ref=f4e91]:
+        - generic [ref=f4e92]: IT Jobs & Remote Jobs
+        - generic [ref=f4e93]: finden
+      - paragraph [ref=f4e94]: Hier findest du die IT-Jobs, die wir aktuell vermitteln, darunter auch Rollen mit Hybrid-, Remote- oder Homeoffice-Anteil. So kannst du direkt einschätzen, ob Rolle, Stack, Standort und Arbeitsmodell zu dir passen.
+      - link "Aktuelle Jobs ansehen" [ref=f4e96] [cursor=pointer]:
+        - /url: "#jobboard"
+    - generic [ref=f4e99]:
+      - generic [ref=f4e100]:
+        - paragraph [ref=f4e101]: Jobs
+        - paragraph [ref=f4e102]: "& Projekte"
+      - generic [ref=f4e103]:
+        - paragraph [ref=f4e104]: Remote
+        - paragraph [ref=f4e105]: "& Hybrid"
+      - generic [ref=f4e106]:
+        - paragraph [ref=f4e107]: Gehalt
+        - paragraph [ref=f4e108]: direkt sichtbar
+    - generic [ref=f4e113]:
+      - generic [ref=f4e114]:
+        - generic [ref=f4e115]:
+          - paragraph [ref=f4e116]: Aktuelle Mandate
+          - heading "Aktuelle IT-Jobs entdecken" [level=2] [ref=f4e117]
+        - paragraph [ref=f4e119]: Filtere nach Rolle, Skills, Standort, Arbeitsmodell und Gehalt.
+      - generic [ref=f4e120]:
+        - generic [ref=f4e121]:
+          - button "Filter" [ref=f4e122] [cursor=pointer]
+          - generic [ref=f4e124]:
+            - generic [ref=f4e125]: "Sortieren:"
+            - combobox "Jobs sortieren" [ref=f4e126] [cursor=pointer]:
+              - generic: Sortierung wählen
+        - generic [ref=f4e130]:
+          - generic [ref=f4e131]:
+            - paragraph [ref=f4e132]: Ausgewählte Jobs
+            - heading "Aktuell hervorgehobene Rollen auf einen Blick." [level=3] [ref=f4e133]
+            - paragraph
+          - link "Exklusiv Besetzt Festanstellung Director Engineering [m/w/d] Backend - Hamburg (Hybrid) 110.000€ - 120.000€ Hamburg (Hybrid) Details" [ref=f4e135] [cursor=pointer]:
+            - /url: /jobs/director-engineering-backend-hamburg-hybrid-vac-2340/
+            - generic [ref=f4e142]:
+              - generic [ref=f4e143]:
+                - generic [ref=f4e144]:
+                  - generic [ref=f4e145]: Exklusiv
+                  - generic [ref=f4e146]: Besetzt
+                  - generic [ref=f4e147]: Festanstellung
+                - heading "Director Engineering [m/w/d] Backend - Hamburg (Hybrid)" [level=3] [ref=f4e148]
+                - generic [ref=f4e149]:
+                  - generic [ref=f4e150]: 110.000€ - 120.000€
+                  - generic [ref=f4e153]: Hamburg (Hybrid)
+              - generic [ref=f4e157]: Details
+        - generic [ref=f4e164]:
+          - generic [ref=f4e165]:
+            - link [ref=f4e167] [cursor=pointer]:
+              - /url: /jobs/java-backend-entwickler-100-remote-job-vac-2397/
+              - article [ref=f4e168]:
+                - generic [ref=f4e174]:
+                  - generic [ref=f4e175]:
+                    - generic [ref=f4e176]:
+                      - generic [ref=f4e177]:
+                        - generic [ref=f4e178]: Entwicklung
+                        - generic [ref=f4e179]: Highlight
+                      - heading "Java Backend Entwickler [m/w/d] - 100% Remote" [level=3] [ref=f4e180]
+                      - generic [ref=f4e181]:
+                        - generic [ref=f4e182]: Telekommunikation / IT
+                        - generic [ref=f4e183]: Remote
+                        - generic [ref=f4e188]: Festanstellung
+                    - generic [ref=f4e193]:
+                      - generic [ref=f4e194]: 65.000€ - 75.000€
+                      - paragraph [ref=f4e197]: Jahresgehalt
+                  - paragraph [ref=f4e198]: Für einen Hidden Champion aus der Telekommunikations- und IT-Branche wird ein Java Backend Entwickler [m/w/d] gesucht, der 100% remote arbeiten möchte. Der Arbeitgeber bietet eine spannende Möglichkeit, an innovativen Projekten mitzuarbeiten und die Entwicklung von Backend-Lösungen voranzutreiben.
+                  - generic [ref=f4e199]:
+                    - generic [ref=f4e200]:
+                      - generic [ref=f4e201]: Java 25
+                      - generic [ref=f4e202]: Hibernate
+                      - generic [ref=f4e203]: Postgres
+                      - generic [ref=f4e204]: RESTful APIs
+                      - generic [ref=f4e205]: Tomcat
+                    - generic [ref=f4e206]: Details
+            - link [ref=f4e210] [cursor=pointer]:
+              - /url: /jobs/linux-system-engineer-devops-100-remote-job-vac-2390/
+              - article [ref=f4e211]:
+                - generic [ref=f4e216]:
+                  - generic [ref=f4e217]:
+                    - generic [ref=f4e218]:
+                      - generic [ref=f4e219]:
+                        - generic [ref=f4e220]: Infrastruktur
+                        - generic [ref=f4e221]: Highlight
+                      - heading "Linux System Engineer / DevOps [m/w/d] - 100% Remote" [level=3] [ref=f4e222]
+                      - generic [ref=f4e223]:
+                        - generic [ref=f4e224]: IoT / Immobilien
+                        - generic [ref=f4e225]: Remote
+                        - generic [ref=f4e230]: Festanstellung
+                    - generic [ref=f4e235]:
+                      - generic [ref=f4e236]: 55.000€ - 65.000€
+                      - paragraph [ref=f4e239]: Jahresgehalt
+                  - paragraph [ref=f4e240]: Für ein innovatives Unternehmen in der IoT- und Immobilienbranche wird ein Linux System Engineer / DevOps [m/w/d] gesucht. Der Arbeitgeber bietet die Möglichkeit, vollständig remote zu arbeiten und legt großen Wert auf moderne Technologien sowie ein dynamisches Arbeitsumfeld.
+                  - generic [ref=f4e241]:
+                    - generic [ref=f4e242]:
+                      - generic [ref=f4e243]: Linux Administration
+                      - generic [ref=f4e244]: Git Lab CI/CD
+                      - generic [ref=f4e245]: Docker
+                      - generic [ref=f4e246]: rsync
+                      - generic [ref=f4e247]: SSH
+                    - generic [ref=f4e248]: Details
+            - link [ref=f4e252] [cursor=pointer]:
+              - /url: /jobs/technical-account-manager-hamburg-berlin-vac-2374/
+              - article [ref=f4e253]:
+                - generic [ref=f4e257]:
+                  - generic [ref=f4e258]:
+                    - generic [ref=f4e259]:
+                      - generic [ref=f4e260]:
+                        - generic [ref=f4e261]: Sales
+                        - generic [ref=f4e262]: Highlight
+                      - heading "Technical Account Manager [m/w/d] - Hamburg / Berlin" [level=3] [ref=f4e263]
+                      - generic [ref=f4e264]:
+                        - generic [ref=f4e265]: E-Commerce
+                        - generic [ref=f4e266]: Hamburg / Berlin
+                        - generic [ref=f4e271]: Festanstellung
+                    - generic [ref=f4e276]:
+                      - generic [ref=f4e277]: 100.000€ - 130.000€
+                      - paragraph [ref=f4e280]: Jahresgehalt
+                  - paragraph [ref=f4e281]: Für ein renommiertes Unternehmen im E-Commerce-Bereich wird ein Technical Account Manager [m/w/d] für die Standorte Hamburg oder Berlin gesucht. Der Arbeitgeber bietet eine spannende Möglichkeit, in einem dynamischen Umfeld zu arbeiten und maßgeblich zur Kundenzufriedenheit beizutragen.
+                  - generic [ref=f4e282]:
+                    - generic [ref=f4e283]:
+                      - generic [ref=f4e284]: API-Integration
+                      - generic [ref=f4e285]: Technische Problemlösung
+                      - generic [ref=f4e286]: MACH-Architektur
+                    - generic [ref=f4e287]: Details
+            - link [ref=f4e291] [cursor=pointer]:
+              - /url: /jobs/senior-qa-engineer-hamburg-vac-2399/
+              - article [ref=f4e292]:
+                - generic [ref=f4e297]:
+                  - generic [ref=f4e298]:
+                    - generic [ref=f4e299]:
+                      - generic [ref=f4e300]: QA
+                      - heading "(Senior) QA Engineer (m/w/d)" [level=3] [ref=f4e302]
+                      - generic [ref=f4e303]:
+                        - generic [ref=f4e304]: Telekommunikation / IT
+                        - generic [ref=f4e305]: Hamburg (Hybrid)
+                        - generic [ref=f4e310]: Festanstellung
+                    - generic [ref=f4e315]:
+                      - generic [ref=f4e316]: 65.000€ - 75.000€
+                      - paragraph [ref=f4e319]: Jahresgehalt
+                  - paragraph [ref=f4e320]: Für einen Hidden Champion Bereich Telekommunikation wird ein (Senior) QA Engineer (m/w/d) in Hamburg gesucht. Der Arbeitgeber bietet ein modernes Arbeitsumfeld und legt großen Wert auf Qualitätssicherung und kontinuierliche Verbesserung.
+                  - generic [ref=f4e321]:
+                    - generic [ref=f4e322]:
+                      - generic [ref=f4e323]: Testautomatisierung
+                      - generic [ref=f4e324]: Selenium
+                      - generic [ref=f4e325]: Java
+                      - generic [ref=f4e326]: Linux
+                    - generic [ref=f4e327]: Details
+            - link [ref=f4e331] [cursor=pointer]:
+              - /url: /jobs/senior-software-engineer-castrop-rauxel-vac-2398/
+              - article [ref=f4e332]:
+                - generic [ref=f4e338]:
+                  - generic [ref=f4e339]:
+                    - generic [ref=f4e340]:
+                      - generic [ref=f4e341]: Entwicklung
+                      - heading "Senior Software Engineer [m/w/d]" [level=3] [ref=f4e343]
+                      - generic [ref=f4e344]:
+                        - generic [ref=f4e345]: SaaS
+                        - generic [ref=f4e346]: Castrop-Rauxel
+                        - generic [ref=f4e351]: Festanstellung
+                    - generic [ref=f4e356]:
+                      - generic [ref=f4e357]: 75.000€ - 85.000€
+                      - paragraph [ref=f4e360]: Jahresgehalt
+                  - paragraph [ref=f4e361]: Für ein innovatives Unternehmen im Bereich SaaS wird ein Senior Software Engineer [m/w/d] gesucht, der innovative Lösungen entwickelt und die Softwarequalität sicherstellt.
+                  - generic [ref=f4e362]:
+                    - generic [ref=f4e363]:
+                      - generic [ref=f4e364]: PHP 8
+                      - generic [ref=f4e365]: Laravel
+                      - generic [ref=f4e366]: Vue 3
+                      - generic [ref=f4e367]: Nuxt
+                      - generic [ref=f4e368]: Node.JS
+                    - generic [ref=f4e369]: Details
+            - link [ref=f4e373] [cursor=pointer]:
+              - /url: /jobs/product-manager-product-lead-ai-crm-gn-100-remote-vac-2396/
+              - article [ref=f4e374]:
+                - generic [ref=f4e377]:
+                  - generic [ref=f4e378]:
+                    - generic [ref=f4e379]:
+                      - generic [ref=f4e380]:
+                        - generic [ref=f4e381]: Product
+                        - generic [ref=f4e382]: Besetzt
+                      - heading "Product Manager / Product Lead – AI & CRM (gn) - 100% Remote" [level=3] [ref=f4e383]
+                      - generic [ref=f4e384]:
+                        - generic [ref=f4e385]: SaaS
+                        - generic [ref=f4e386]: Remote
+                        - generic [ref=f4e391]: Festanstellung
+                    - generic [ref=f4e396]:
+                      - generic [ref=f4e397]: 75.000€ - 90.000€
+                      - paragraph [ref=f4e400]: Jahresgehalt
+                  - paragraph [ref=f4e401]: Für ein KI-First Start-Up wird ein Product Manager / Product Lead – AI & CRM (gn) gesucht. Das Unternehmen bietet die Möglichkeit, 100% remote zu arbeiten und sucht eine erfahrene Fachkraft, die die Produktstrategie für KI-gestützte CRM-Lösungen entwickelt und umsetzt.
+                  - generic [ref=f4e402]:
+                    - generic [ref=f4e403]:
+                      - generic [ref=f4e404]: Produktstrategie
+                      - generic [ref=f4e405]: CRM
+                      - generic [ref=f4e406]: KI
+                      - generic [ref=f4e407]: Roadmap-Entwicklung
+                    - generic [ref=f4e408]: Details
+            - link [ref=f4e412] [cursor=pointer]:
+              - /url: /jobs/senior-quality-assurance-engineer-100-remote-job-vac-2395/
+              - article [ref=f4e413]:
+                - generic [ref=f4e418]:
+                  - generic [ref=f4e419]:
+                    - generic [ref=f4e420]:
+                      - generic [ref=f4e421]:
+                        - generic [ref=f4e422]: QA
+                        - generic [ref=f4e423]: Besetzt
+                      - heading "Senior Quality Assurance Engineer [m/w/d] - 100% Remote" [level=3] [ref=f4e424]
+                      - generic [ref=f4e425]:
+                        - generic [ref=f4e426]: IoT / Messdienstleistung
+                        - generic [ref=f4e427]: Remote
+                        - generic [ref=f4e432]: Festanstellung
+                    - generic [ref=f4e437]:
+                      - generic [ref=f4e438]: 70.000€ - 80.000€
+                      - paragraph [ref=f4e441]: Jahresgehalt
+                  - paragraph [ref=f4e442]: Für ein renommiertes Unternehmen im Bereich IoT und Messdienstleistungen wird ein Senior Quality Assurance Engineer [m/w/d] gesucht. Das Unternehmen bietet die Möglichkeit, 100% remote zu arbeiten und legt großen Wert auf Qualität und Innovation.
+                  - generic [ref=f4e443]:
+                    - generic [ref=f4e444]:
+                      - generic [ref=f4e445]: Testautomatisierung
+                      - generic [ref=f4e446]: Java
+                      - generic [ref=f4e447]: Kotlin
+                      - generic [ref=f4e448]: Typescript
+                      - generic [ref=f4e449]: AI Coding
+                    - generic [ref=f4e450]: Details
+          - button "Weitere Mandate anzeigen" [ref=f4e454] [cursor=pointer]
+    - generic [ref=f4e459]:
+      - generic [ref=f4e460]:
+        - generic [ref=f4e461]: Aktuelle Mandate
+        - heading "Hier findest du aktuelle IT-Stellen ohne Umwege" [level=2] [ref=f4e462]
+      - generic [ref=f4e463]:
+        - generic [ref=f4e464]: "Auf dieser Seite bündeln wir die Rollen, die wir aktuell vermitteln. In der Übersicht findest du vor allem Stellen aus Softwareentwicklung, DevOps & Platform, SAP, Product und IT-Operations. Du kannst nach Skills, Standort und Arbeitsmodell filtern und so schneller einschätzen, was fachlich und organisatorisch zu dir passt. Gerade bei Remote Jobs und Homeoffice Jobs lohnt sich der genaue Blick: Nicht jede IT-Rolle ist automatisch 100 % remote, viele Positionen sind aber hybrid oder flexibel angelegt. Wenn eine Rolle passt, kannst du dich direkt bewerben."
+        - generic [ref=f4e466]:
+          - generic [ref=f4e467]:
+            - heading "Direkt filtern" [level=3] [ref=f4e472]
+            - generic [ref=f4e473]: Rolle, Skill, Standort und Arbeitsmodell sind im Jobboard so sortiert, dass du schnell einschätzen kannst, ob ein Mandat wirklich passt.
+          - generic [ref=f4e474]:
+            - heading "Sauber einordnen" [level=3] [ref=f4e477]
+            - generic [ref=f4e478]: Bei Remote- und Hybrid-Rollen zählt der konkrete Rahmen. Deshalb zeigen wir Standort, Arbeitsmodell und Skills direkt in der Übersicht.
+    - generic [ref=f4e484]:
+      - generic [ref=f4e485]:
+        - heading "Wenn gerade nichts Passendes dabei ist" [level=2] [ref=f4e486]
+        - generic [ref=f4e487]:
+          - heading "Du suchst eine neue Festanstellung" [level=3] [ref=f4e488]
+          - generic [ref=f4e489]:
+            - paragraph [ref=f4e490]: Wenn du nicht nur Stellen filtern willst, sondern deinen nächsten Schritt sauber einordnen möchtest, geh über Job finden weiter. Dort geht es um Unterlagen, Interviews, Gehalt und die Frage, welche Rolle langfristig zu dir passt.
+            - paragraph [ref=f4e491]:
+              - link "Mehr zu Job finden" [ref=f4e492] [cursor=pointer]:
+                - /url: /job-finden/
+      - generic [ref=f4e494]:
+        - heading "Du suchst dein nächstes Freelancer-Projekt" [level=3] [ref=f4e498]
+        - generic [ref=f4e499]:
+          - paragraph [ref=f4e500]: Wenn du als Freelancer ein neues Projekt suchst, geht es meist nicht nur um den Stack. Relevant sind auch Projektkontext, Auslastung, Laufzeit und Vermarktung. Dafür ist Freelancer-Projekte finden der passendere Einstieg.
+          - paragraph [ref=f4e501]:
+            - link "Mehr zu Freelancer-Projekten" [ref=f4e502] [cursor=pointer]:
+              - /url: /freelancer-projekte-finden/
+    - generic [ref=f4e506]:
+      - generic [ref=f4e507]:
+        - generic [ref=f4e508]: FAQ
+        - heading "Fragen zu IT-Jobs, Remote Jobs und Bewerbungen" [level=2] [ref=f4e509]
+        - paragraph [ref=f4e510]: Kurze Antworten für alle, die über /jobs/ suchen, filtern oder sich direkt bewerben möchten.
+      - generic [ref=f4e511]:
+        - group [ref=f4e512]:
+          - heading "Welche IT-Jobs finde ich auf /jobs/?" [level=3] [ref=f4e515] [cursor=pointer]
+          - generic [ref=f4e520]:
+            - generic [ref=f4e521]: Auf /jobs/ findest du nicht irgendein Jobportal, sondern die Rollen, die wir aktuell wirklich betreuen. Dazu gehören vor allem Stellen aus Softwareentwicklung, DevOps & Platform, SAP, Product und IT-Operations.
+            - generic [ref=f4e522]: Entscheidend ist, ob Rolle, Stack, Standort und Arbeitsmodell grundsätzlich zu dir passen. Wenn eine Stelle offen ist, kannst du dich direkt auf das laufende Mandat bewerben.
+        - group [ref=f4e523]:
+          - heading "Gibt es auf /jobs/ auch 100 % Remote Jobs und Homeoffice Jobs?" [level=3] [ref=f4e526] [cursor=pointer]
+        - group [ref=f4e529]:
+          - heading "Sind alle IT-Jobs auf /jobs/ 100 % remote?" [level=3] [ref=f4e532] [cursor=pointer]
+        - group [ref=f4e535]:
+          - heading "Kann ich mich initiativ bewerben, wenn gerade nichts passt?" [level=3] [ref=f4e538] [cursor=pointer]
+  - contentinfo [ref=f4e542]:
+    - generic [ref=f4e544]:
+      - generic [ref=f4e545]:
+        - generic [ref=f4e546]:
+          - generic [ref=f4e547]: Die Tech Recruiter
+          - paragraph [ref=f4e548]: IT Recruitment Excellence - Top IT Jobs & IT Experten!
+        - generic [ref=f4e549]:
+          - link "LinkedIn" [ref=f4e550] [cursor=pointer]:
+            - /url: https://linkedin.com/company/die-tech-recruiter-gmbh
+          - link "X" [ref=f4e553] [cursor=pointer]:
+            - /url: https://x.com/TechRecruiter24
+          - link "Facebook" [ref=f4e556] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61560687786513
+          - link "Instagram" [ref=f4e559] [cursor=pointer]:
+            - /url: https://instagram.com/dietechrecruiter24/?fbclid=IwAR1YjUKcdVYtGrBt-QHdZT98Rfz9oVaPEAJWZPXbo5BgDAe_swJcUejBPp8
+          - link "YouTube" [ref=f4e562] [cursor=pointer]:
+            - /url: https://youtube.com/channel/UCqwwrd5Duc4Dj1Ei1SzhwCA
+          - link "Spotify" [ref=f4e565] [cursor=pointer]:
+            - /url: https://open.spotify.com/intl-de/artist/7jtq9kLJGHYKnhMzrcET9d?si=rsSkoSI-T8-5a5Qw6uOF0A
+      - generic [ref=f4e568]:
+        - generic [ref=f4e569]:
+          - heading "Recruitment" [level=3] [ref=f4e570]
+          - list [ref=f4e571]:
+            - listitem [ref=f4e572]:
+              - link "IT Personalvermittlung" [ref=f4e573] [cursor=pointer]:
+                - /url: /it-personalvermittlung/
+            - listitem [ref=f4e574]:
+              - link "Freelancer" [ref=f4e575] [cursor=pointer]:
+                - /url: /it-freelancer-finden/
+            - listitem [ref=f4e576]:
+              - link "Interim Recruitment" [ref=f4e577] [cursor=pointer]:
+                - /url: /interim-recruiter/
+            - listitem [ref=f4e578]:
+              - link "IT-Headhunter" [ref=f4e579] [cursor=pointer]:
+                - /url: /it-headhunter/
+        - generic [ref=f4e580]:
+          - heading "Beratung" [level=3] [ref=f4e581]
+          - list [ref=f4e582]:
+            - listitem [ref=f4e583]:
+              - link "IT Personalberatung" [ref=f4e584] [cursor=pointer]:
+                - /url: /it-personalberatung/
+            - listitem [ref=f4e585]:
+              - link "IT Training für Recruiter" [ref=f4e586] [cursor=pointer]:
+                - /url: /it-recruitment-training/
+            - listitem [ref=f4e587]:
+              - link "IT-Stellenanzeige schalten" [ref=f4e588] [cursor=pointer]:
+                - /url: /it-stellenanzeige-schalten/
+        - generic [ref=f4e589]:
+          - heading "Talente" [level=3] [ref=f4e590]
+          - list [ref=f4e591]:
+            - listitem [ref=f4e592]:
+              - link "Profil Registrieren" [ref=f4e593] [cursor=pointer]:
+                - /url: /job-finden/
+            - listitem [ref=f4e594]:
+              - link "Freelancer registrieren" [ref=f4e595] [cursor=pointer]:
+                - /url: /freelancer-projekte-finden/
+            - listitem [ref=f4e596]:
+              - link "Lebenslauf optimieren" [ref=f4e597] [cursor=pointer]:
+                - /url: /professionellen-lebenslauf-erstellen/
+        - generic [ref=f4e598]:
+          - heading "Jobs" [level=3] [ref=f4e599]
+          - list [ref=f4e600]:
+            - listitem [ref=f4e601]:
+              - link "Job finden" [ref=f4e602] [cursor=pointer]:
+                - /url: /jobs/
+            - listitem [ref=f4e603]:
+              - link "Projekt finden" [ref=f4e604] [cursor=pointer]:
+                - /url: /jobs/
+        - generic [ref=f4e605]:
+          - heading "Die Tech Recruiter" [level=3] [ref=f4e606]
+          - list [ref=f4e607]:
+            - listitem [ref=f4e608]:
+              - link "Über uns" [ref=f4e609] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f4e610]:
+              - link "Blog" [ref=f4e611] [cursor=pointer]:
+                - /url: /blog/
+            - listitem [ref=f4e612]:
+              - link "Google for Jobs Validator" [ref=f4e613] [cursor=pointer]:
+                - /url: /google-for-jobs-validator/
+            - listitem [ref=f4e614]:
+              - link "Sichtbarkeit prüfen" [ref=f4e615] [cursor=pointer]:
+                - /url: /stellenanzeigen-sichtbarkeit-pruefen/
+        - generic [ref=f4e616]:
+          - heading "IT-Rollen" [level=3] [ref=f4e617]
+          - list [ref=f4e618]:
+            - listitem [ref=f4e619]:
+              - link "Softwareentwickler finden" [ref=f4e620] [cursor=pointer]:
+                - /url: /softwareentwickler-finden/
+            - listitem [ref=f4e621]:
+              - link "Frontend-Entwickler finden" [ref=f4e622] [cursor=pointer]:
+                - /url: /frontend-entwickler-finden/
+            - listitem [ref=f4e623]:
+              - link "Backend-Entwickler finden" [ref=f4e624] [cursor=pointer]:
+                - /url: /backend-entwickler-finden/
+            - listitem [ref=f4e625]:
+              - link "DevOps Engineer finden" [ref=f4e626] [cursor=pointer]:
+                - /url: /devops-engineer-finden/
+            - listitem [ref=f4e627]:
+              - link "IT-Security finden" [ref=f4e628] [cursor=pointer]:
+                - /url: /it-security-finden/
+            - listitem [ref=f4e629]:
+              - link "IT-Projektmanager finden" [ref=f4e630] [cursor=pointer]:
+                - /url: /it-projektmanager-finden/
+            - listitem [ref=f4e631]:
+              - link "Product Owner finden" [ref=f4e632] [cursor=pointer]:
+                - /url: /product-owner-finden/
+            - listitem [ref=f4e633]:
+              - link "KI-Entwickler finden" [ref=f4e634] [cursor=pointer]:
+                - /url: /ki-entwickler-finden/
+    - generic [ref=f4e637]:
+      - generic [ref=f4e638]: © 2026 Die Tech Recruiter GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f4e639]:
+        - link "Impressum" [ref=f4e640] [cursor=pointer]:
+          - /url: /impressum/
+        - link "Datenschutz" [ref=f4e641] [cursor=pointer]:
+          - /url: /datenschutz/
+        - link "AGB" [ref=f4e642] [cursor=pointer]:
+          - /url: /agb/
+  - iframe [aria-hidden] [ref=f4e643]

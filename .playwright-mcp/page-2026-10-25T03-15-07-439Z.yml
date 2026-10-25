@@ -1,0 +1,749 @@
+- generic [ref=f4e1]:
+  - banner "Top bar menu" [ref=f4e2]:
+    - generic:
+      - link "Skip to main content" [ref=f4e3] [cursor=pointer]:
+        - /url: "#start-content"
+      - link [ref=f4e6] [cursor=pointer]:
+        - /url: https://www.cgi.com/en
+        - img "CGI official logo" [ref=f4e7]
+      - button "Access to main navigation" [ref=f4e14] [cursor=pointer]
+  - generic [ref=f4e17]:
+    - banner [ref=f4e18]:
+      - generic [ref=f4e19]:
+        - generic [ref=f4e20]:
+          - heading "Suche" [level=1] [ref=f4e21]
+          - heading "Stellenangebote durchsuchen" [level=2] [ref=f4e22]
+        - img "Careers" [ref=f4e24]
+    - region "Main content" [ref=f4e27]:
+      - generic [ref=f4e36]:
+        - list [ref=f4e38]:
+          - listitem [ref=f4e39]:
+            - link "Profil anlegen | Anmelden" [ref=f4e40] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=login
+          - listitem [ref=f4e41]:
+            - link "Karriere-Newsletter aktivieren" [ref=f4e42] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=JobMatchSubscription
+        - generic [ref=f4e44]:
+          - generic [ref=f4e46]:
+            - heading "Aktuelle Stellenangebote" [level=3] [ref=f4e47]
+            - generic [ref=f4e50]:
+              - generic [ref=f4e53]:
+                - generic [ref=f4e54]:
+                  - text: Suchbegriffe
+                  - textbox "Suchbegriffe" [ref=f4e55]
+                - generic [ref=f4e56]:
+                  - text: Standort
+                  - textbox "Standort" [ref=f4e57]
+                - generic [ref=f4e58]:
+                  - button [ref=f4e59] [cursor=pointer]:
+                    - link "Weitere Suchkriterien " [ref=f4e60]:
+                      - /url: "#"
+                  - generic [ref=f4e61]:
+                    - generic [ref=f4e62]:
+                      - listbox [aria-hidden] [ref=f4e63]:
+                        - option [ref=f4e64]: Afghanistan
+                        - option [ref=f4e65]: Australien
+                        - option [ref=f4e66]: Belgien
+                        - option [ref=f4e67]: Brasilien
+                        - option [ref=f4e68]: Bulgaria
+                        - option [ref=f4e69]: Chile
+                        - option [ref=f4e70]: Dänemark
+                        - option [selected] [ref=f4e71]: Deutschland
+                        - option [ref=f4e72]: Estland
+                        - option [ref=f4e73]: Finnland
+                        - option [ref=f4e74]: Frankreich
+                        - option [ref=f4e75]: Großbritannien
+                        - option [ref=f4e76]: Indien
+                        - option [ref=f4e77]: Indonesien
+                        - option [ref=f4e78]: Irak
+                        - option [ref=f4e79]: Ireland
+                        - option [ref=f4e80]: Italien
+                        - option [ref=f4e81]: Japan
+                        - option [ref=f4e82]: Jordan
+                        - option [ref=f4e83]: Kanada
+                        - option [ref=f4e84]: Kolumbien
+                        - option [ref=f4e85]: Korea, Democratic People's Republic of
+                        - option [ref=f4e86]: Korea, Republic of
+                        - option [ref=f4e87]: Kuwait
+                        - option [ref=f4e88]: Lettland
+                        - option [ref=f4e89]: Litauen
+                        - option [ref=f4e90]: Luxembourg
+                        - option [ref=f4e91]: Malaisia
+                        - option [ref=f4e92]: Marokko
+                        - option [ref=f4e93]: Niederlande
+                        - option [ref=f4e94]: Nigeria
+                        - option [ref=f4e95]: Norwegen
+                        - option [ref=f4e96]: Peru
+                        - option [ref=f4e97]: Philippinen
+                        - option [ref=f4e98]: Poland
+                        - option [ref=f4e99]: Portugal
+                        - option [ref=f4e100]: Qatar
+                        - option [ref=f4e101]: Romania
+                        - option [ref=f4e102]: Russland
+                        - option [ref=f4e103]: Schweden
+                        - option [ref=f4e104]: Schweiz
+                        - option [ref=f4e105]: Singapur
+                        - option [ref=f4e106]: Slowakei
+                        - option [ref=f4e107]: Spanien
+                        - option [ref=f4e108]: Tschechische Republik
+                        - option [ref=f4e109]: Türkei
+                        - option [ref=f4e110]: Ungarn
+                        - option [ref=f4e111]: United States
+                        - option [ref=f4e112]: Venezuela
+                      - combobox [ref=f4e115]:
+                        - list [ref=f4e116]:
+                          - listitem "Deutschland" [ref=f4e117]: × Deutschland
+                          - listitem [ref=f4e118]:
+                            - textbox [ref=f4e119]
+                    - generic [ref=f4e120]:
+                      - listbox [aria-hidden] [ref=f4e121]:
+                        - option [ref=f4e122]: "-- bitte auswählen --"
+                        - option [ref=f4e123]: Communications and media
+                        - option [ref=f4e124]: Banking and capital markets
+                        - option [ref=f4e125]: Insurance
+                        - option [ref=f4e126]: "Government: Central and federal government"
+                        - option [ref=f4e127]: "Government: Defense and intelligence"
+                        - option [ref=f4e128]: "Government: Health and human services"
+                        - option [ref=f4e129]: "Government: Public safety and justice"
+                        - option [ref=f4e130]: Space
+                        - option [ref=f4e131]: "Government: State, provincial and local government"
+                        - option [ref=f4e132]: "Government: Tax, revenue and collections"
+                        - option [ref=f4e133]: Health
+                        - option [ref=f4e134]: Manufacturing
+                        - option [ref=f4e135]: Oil and gas
+                        - option [ref=f4e136]: Transportation and logistics
+                        - option [ref=f4e137]: Retail, consumer and services
+                        - option [ref=f4e138]: Utilities
+                      - combobox [ref=f4e141]:
+                        - list [ref=f4e142]:
+                          - listitem [ref=f4e143]:
+                            - textbox "Branche" [ref=f4e144]
+                    - generic [ref=f4e145]:
+                      - listbox [aria-hidden] [ref=f4e146]:
+                        - option [ref=f4e147]: Baden-Württemberg
+                        - option [ref=f4e148]: Bayern
+                        - option [ref=f4e149]: Berlin
+                        - option [ref=f4e150]: Brandenburg
+                        - option [ref=f4e151]: Bremen
+                        - option [ref=f4e152]: Bundesweit
+                        - option [ref=f4e153]: Hamburg
+                        - option [ref=f4e154]: Hessen
+                        - option [ref=f4e155]: Mecklenburg-Vorpommern
+                        - option [ref=f4e156]: Mehrere Bundesländer
+                        - option [ref=f4e157]: Niedersachsen
+                        - option [ref=f4e158]: Nordrhein-Westfalen
+                        - option [ref=f4e159]: Rheinland-Pfalz
+                        - option [ref=f4e160]: Saarland
+                        - option [ref=f4e161]: Sachsen
+                        - option [ref=f4e162]: Sachsen-Anhalt
+                        - option [ref=f4e163]: Schleswig-Holstein
+                        - option [ref=f4e164]: Thüringen
+                      - combobox [ref=f4e167]:
+                        - list [ref=f4e168]:
+                          - listitem [ref=f4e169]:
+                            - textbox "Bundesland" [ref=f4e170]
+                    - generic [ref=f4e171]:
+                      - listbox [aria-hidden] [ref=f4e172]:
+                        - option [ref=f4e173]: "-- bitte auswählen --"
+                        - option [ref=f4e174]: Weniger als ein Jahr
+                        - option [ref=f4e175]: 1-2 Jahre
+                        - option [ref=f4e176]: 3-5 Jahre
+                        - option [ref=f4e177]: 6-10 Jahre
+                        - option [ref=f4e178]: Mehr als 10 Jahre
+                      - combobox [ref=f4e181]:
+                        - list [ref=f4e182]:
+                          - listitem [ref=f4e183]:
+                            - textbox "Berufserfahrung" [ref=f4e184]
+                    - generic [ref=f4e185]:
+                      - listbox [aria-hidden] [ref=f4e186]:
+                        - option [ref=f4e187]: Geschäftsprozessberatung, Strategie und Digitale Transformation
+                        - option [ref=f4e188]: Management und Leadership Positionen
+                        - option [ref=f4e189]: Projektmanagement
+                        - option [ref=f4e190]: Service Desk / End User Services
+                        - group [ref=f4e191]:
+                          - option [ref=f4e192]: Analytics and Emerging Digital Technologies
+                          - option [ref=f4e193]: Architektur
+                          - option [ref=f4e194]: Business Analyse (funktional und technisch)
+                          - option [ref=f4e195]: Cyber Security
+                          - option [ref=f4e196]: Datenbankadministration
+                          - option [ref=f4e197]: Softwareentwicklung / Programmierung
+                          - option [ref=f4e198]: Digital Customer Experience
+                          - option [ref=f4e199]: ERP/CRM/Tools
+                          - option [ref=f4e200]: Infrastruktur/Cloud
+                          - option [ref=f4e201]: Test/Qualitätssicherung
+                        - group [ref=f4e202]:
+                          - option [ref=f4e203]: Verwaltung
+                          - option [ref=f4e204]: Kommunikation & Investor Relations
+                          - option [ref=f4e205]: Finanzwesen
+                          - option [ref=f4e206]: Personalwesen
+                          - option [ref=f4e207]: Rechtsabteilung
+                          - option [ref=f4e208]: Marketing
+                      - combobox [ref=f4e211]:
+                        - list [ref=f4e212]:
+                          - listitem [ref=f4e213]:
+                            - textbox "Kategorie" [ref=f4e214]
+                    - generic [ref=f4e215]:
+                      - listbox [aria-hidden] [ref=f4e216]:
+                        - option [ref=f4e217]: Vollzeit
+                        - option [ref=f4e218]: Teilzeit
+                        - option [ref=f4e219]: Vertrag
+                        - option [ref=f4e220]: Absolvent/in
+                        - option [ref=f4e221]: Ausbildung, Studium, Werkstudierende
+                      - combobox [ref=f4e224]:
+                        - list [ref=f4e225]:
+                          - listitem [ref=f4e226]:
+                            - textbox "Anstellungsart" [ref=f4e227]
+                    - generic [ref=f4e228]:
+                      - generic [ref=f4e229] [cursor=pointer]: Stellen ID
+                      - textbox "Stellen ID" [ref=f4e230]
+                    - generic [ref=f4e231]:
+                      - checkbox "Beliebiger CGI-Standort" [ref=f4e232]
+                      - text: Beliebiger CGI-Standort
+                - generic:
+                  - button "Suche" [ref=f4e233] [cursor=pointer]
+                  - button "Reset" [ref=f4e234] [cursor=pointer]
+              - generic [ref=f4e235]:
+                - generic [ref=f4e236]: Suchergebnisse (225)
+                - table [ref=f4e238]:
+                  - rowgroup [ref=f4e239]:
+                    - row [ref=f4e240]:
+                      - columnheader [ref=f4e241]:
+                        - link "Stellen ID" [ref=f4e242] [cursor=pointer]:
+                          - /url: javascript:sortby('jobid ')
+                      - columnheader [ref=f4e243]:
+                        - link "Title" [ref=f4e244] [cursor=pointer]:
+                          - /url: javascript:sortby('title ')
+                      - columnheader [ref=f4e245]:
+                        - link "Kategorie" [ref=f4e246] [cursor=pointer]:
+                          - /url: javascript:sortby('categoryname ')
+                      - columnheader [ref=f4e247]:
+                        - link "Standort" [ref=f4e248] [cursor=pointer]:
+                          - /url: javascript:sortby('cityname ')
+                      - columnheader [ref=f4e249]:
+                        - link "Land" [ref=f4e250] [cursor=pointer]:
+                          - /url: javascript:sortby('CountryName ')
+                  - rowgroup [ref=f4e251]:
+                    - row [ref=f4e252]:
+                      - cell [ref=f4e253]:
+                        - link "J1026-2234" [ref=f4e254] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2234&BRID=1343467&lang=4
+                      - cell "Context Engineer - Business Functional Analyst Banking (m/w/d)" [ref=f4e255]
+                      - cell "Business Analyse (funktional und technisch)" [ref=f4e256]
+                      - cell "Eschborn" [ref=f4e257]
+                      - cell "Deutschland" [ref=f4e258]
+                    - row [ref=f4e259]:
+                      - cell [ref=f4e260]:
+                        - link "J1026-2230" [ref=f4e261] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2230&BRID=1343465&lang=4
+                      - cell "Value Engineer - GenAI Engineer Banking (m/w/d)" [ref=f4e262]
+                      - cell "Softwareentwicklung / Programmierung" [ref=f4e263]
+                      - cell "Eschborn" [ref=f4e264]
+                      - cell "Deutschland" [ref=f4e265]
+                    - row [ref=f4e266]:
+                      - cell [ref=f4e267]:
+                        - link "J1026-2217" [ref=f4e268] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2217&BRID=1343408&lang=4
+                      - cell "Intent Lead - IT-Projektleiter Banking (m/w/d)" [ref=f4e269]
+                      - cell "Projektmanagement" [ref=f4e270]
+                      - cell "Eschborn" [ref=f4e271]
+                      - cell "Deutschland" [ref=f4e272]
+                    - row [ref=f4e273]:
+                      - cell [ref=f4e274]:
+                        - link "J1026-2216" [ref=f4e275] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2216&BRID=1343403&lang=4
+                      - cell "Intent & Alignment Lead - IT-Projektleiter Banking (m/w/d)" [ref=f4e276]
+                      - cell "Projektmanagement" [ref=f4e277]
+                      - cell "Eschborn" [ref=f4e278]
+                      - cell "Deutschland" [ref=f4e279]
+                    - row [ref=f4e280]:
+                      - cell [ref=f4e281]:
+                        - link "J1026-2207" [ref=f4e282] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2207&BRID=1343398&lang=4
+                      - cell "Context & Orchestration Architect - AI Architect Banking (m/w/d)" [ref=f4e283]
+                      - cell "Architektur" [ref=f4e284]
+                      - cell "Eschborn" [ref=f4e285]
+                      - cell "Deutschland" [ref=f4e286]
+                    - row [ref=f4e287]:
+                      - cell [ref=f4e288]:
+                        - link "J1026-2198" [ref=f4e289] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-2198&BRID=1343300&lang=4
+                      - cell "Context & Alignment Engineer - Senior Business Functional Analyst Banking (m/w/d)" [ref=f4e290]
+                      - cell "Business Analyse (funktional und technisch)" [ref=f4e291]
+                      - cell "Eschborn" [ref=f4e292]
+                      - cell "Deutschland" [ref=f4e293]
+                    - row [ref=f4e294]:
+                      - cell [ref=f4e295]:
+                        - link "J1026-0059" [ref=f4e296] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0059&BRID=1337677&lang=4
+                      - cell "Werkstudent Empfang & Standortorganisation (m/w/d)" [ref=f4e297]
+                      - cell "Verwaltung" [ref=f4e298]
+                      - cell "Erfurt" [ref=f4e299]
+                      - cell "Deutschland" [ref=f4e300]
+                    - row [ref=f4e301]:
+                      - cell [ref=f4e302]:
+                        - link "J1026-1944" [ref=f4e303] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1944&BRID=1342557&lang=4
+                      - cell "Consultant - Agentic AI & AI Engineering (m/w/d)" [ref=f4e304]
+                      - cell "Softwareentwicklung / Programmierung" [ref=f4e305]
+                      - cell "Hamburg" [ref=f4e306]
+                      - cell "Deutschland" [ref=f4e307]
+                    - row [ref=f4e308]:
+                      - cell [ref=f4e309]:
+                        - link "J1026-1943" [ref=f4e310] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1943&BRID=1342555&lang=4
+                      - cell "Werkstudent für die Assistenz der Geschäftsleitung (m/w/d)" [ref=f4e311]
+                      - cell "Verwaltung" [ref=f4e312]
+                      - cell "Düsseldorf" [ref=f4e313]
+                      - cell "Deutschland" [ref=f4e314]
+                    - row [ref=f4e315]:
+                      - cell [ref=f4e316]:
+                        - link "J1026-1752" [ref=f4e317] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1752&BRID=1341935&lang=4
+                      - cell "Projektmanager SAP S/4HANA (m/w/d)" [ref=f4e318]
+                      - cell "ERP/CRM/Tools" [ref=f4e319]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e320]
+                      - cell "Deutschland" [ref=f4e321]
+                    - row [ref=f4e322]:
+                      - cell [ref=f4e323]:
+                        - link "J1026-1742" [ref=f4e324] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1742&BRID=1341895&lang=4
+                      - cell "GenAI / AI Solution Architect (m/w/d)" [ref=f4e325]
+                      - cell "Infrastruktur/Cloud" [ref=f4e326]
+                      - cell "Düsseldorf, Köln oder Bochum" [ref=f4e327]
+                      - cell "Deutschland" [ref=f4e328]
+                    - row [ref=f4e329]:
+                      - cell [ref=f4e330]:
+                        - link "J1026-1741" [ref=f4e331] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1741&BRID=1341893&lang=4
+                      - cell "Senior Cloud & DevOps Consultant (m/w/d)" [ref=f4e332]
+                      - cell "Infrastruktur/Cloud" [ref=f4e333]
+                      - cell "Düsseldorf, Köln oder Bochum" [ref=f4e334]
+                      - cell "Deutschland" [ref=f4e335]
+                    - row [ref=f4e336]:
+                      - cell [ref=f4e337]:
+                        - link "J1225-1266" [ref=f4e338] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1225-1266&BRID=1255683&lang=4
+                      - cell "Business Consultant (m/f/d)" [ref=f4e339]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e340]
+                      - cell "Hamburg" [ref=f4e341]
+                      - cell "Deutschland" [ref=f4e342]
+                    - row [ref=f4e343]:
+                      - cell [ref=f4e344]:
+                        - link "J1026-1688" [ref=f4e345] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1688&BRID=1341787&lang=4
+                      - cell "KI Architekt / AI Architect (m/w/d)" [ref=f4e346]
+                      - cell "Analytics and Emerging Digital Technologies" [ref=f4e347]
+                      - cell "Leipzig, Dresden" [ref=f4e348]
+                      - cell "Deutschland" [ref=f4e349]
+                    - row [ref=f4e350]:
+                      - cell [ref=f4e351]:
+                        - link "J1026-1638" [ref=f4e352] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1638&BRID=1341567&lang=4
+                      - cell "Junior SAP Consultant (m/w/d)" [ref=f4e353]
+                      - cell "ERP/CRM/Tools" [ref=f4e354]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e355]
+                      - cell "Deutschland" [ref=f4e356]
+                    - row [ref=f4e357]:
+                      - cell [ref=f4e358]:
+                        - link "J1026-1631" [ref=f4e359] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1631&BRID=1341558&lang=4
+                      - cell "Senior Consultant SAP S/4HANA Migration (m/w/d)" [ref=f4e360]
+                      - cell "ERP/CRM/Tools" [ref=f4e361]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e362]
+                      - cell "Deutschland" [ref=f4e363]
+                    - row [ref=f4e364]:
+                      - cell [ref=f4e365]:
+                        - link "J1026-1578" [ref=f4e366] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1578&BRID=1341543&lang=4
+                      - cell "Senior SAP CMS Consultant (m/w/d)" [ref=f4e367]
+                      - cell "ERP/CRM/Tools" [ref=f4e368]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e369]
+                      - cell "Deutschland" [ref=f4e370]
+                    - row [ref=f4e371]:
+                      - cell [ref=f4e372]:
+                        - link "J1026-1576" [ref=f4e373] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1576&BRID=1341542&lang=4
+                      - cell "Senior SAP CML Consultant (m/w/d)" [ref=f4e374]
+                      - cell "ERP/CRM/Tools" [ref=f4e375]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e376]
+                      - cell "Deutschland" [ref=f4e377]
+                    - row [ref=f4e378]:
+                      - cell [ref=f4e379]:
+                        - link "J1026-1577" [ref=f4e380] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1577&BRID=1341541&lang=4
+                      - cell "Senior Consultant iBS-BASS (m/w/d)" [ref=f4e381]
+                      - cell "ERP/CRM/Tools" [ref=f4e382]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e383]
+                      - cell "Deutschland" [ref=f4e384]
+                    - row [ref=f4e385]:
+                      - cell [ref=f4e386]:
+                        - link "J1026-1571" [ref=f4e387] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1571&BRID=1341507&lang=4
+                      - cell "SAP Consultant Kredit und Hypotheken (m/w/d)" [ref=f4e388]
+                      - cell "ERP/CRM/Tools" [ref=f4e389]
+                      - cell "Eschborn, Kaiserslautern" [ref=f4e390]
+                      - cell "Deutschland" [ref=f4e391]
+                    - row [ref=f4e392]:
+                      - cell [ref=f4e393]:
+                        - link "J1026-1533" [ref=f4e394] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1533&BRID=1341506&lang=4
+                      - cell "Consultant Trade Finance – Financial Services (m/w/d)" [ref=f4e395]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e396]
+                      - cell "Eschborn" [ref=f4e397]
+                      - cell "Deutschland" [ref=f4e398]
+                    - row [ref=f4e399]:
+                      - cell [ref=f4e400]:
+                        - link "J1026-1318" [ref=f4e401] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1318&BRID=1341015&lang=4
+                      - cell "SAP EWM Key User (m/w/d)" [ref=f4e402]
+                      - cell "ERP/CRM/Tools" [ref=f4e403]
+                      - cell "Eschborn, Mannheim" [ref=f4e404]
+                      - cell "Deutschland" [ref=f4e405]
+                    - row [ref=f4e406]:
+                      - cell [ref=f4e407]:
+                        - link "J0926-1708" [ref=f4e408] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0926-1708&BRID=1335199&lang=4
+                      - cell "Werkstudent (m/f/d) im Bereich Management- und Cluster Unterstützung" [ref=f4e409]
+                      - cell "ERP/CRM/Tools" [ref=f4e410]
+                      - cell "Bremen" [ref=f4e411]
+                      - cell "Deutschland" [ref=f4e412]
+                    - row [ref=f4e413]:
+                      - cell [ref=f4e414]:
+                        - link "J0726-0055" [ref=f4e415] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0726-0055&BRID=1312883&lang=4
+                      - cell "SAP BTP Consultant (m/w/d)" [ref=f4e416]
+                      - cell "ERP/CRM/Tools" [ref=f4e417]
+                      - cell "Deutschlandweit" [ref=f4e418]
+                      - cell "Deutschland" [ref=f4e419]
+                    - row [ref=f4e420]:
+                      - cell [ref=f4e421]:
+                        - link "J1225-1090" [ref=f4e422] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1225-1090&BRID=1255532&lang=4
+                      - cell "Duales Masterstudium Applied Data Science (m/f/d)" [ref=f4e423]
+                      - cell "Softwareentwicklung / Programmierung" [ref=f4e424]
+                      - cell "Hamburg, Berlin, Bielefeld, Braunschweig, Bremen, Hannover, Leipzig" [ref=f4e425]
+                      - cell "Deutschland" [ref=f4e426]
+                    - row [ref=f4e427]:
+                      - cell [ref=f4e428]:
+                        - link "J1026-1075" [ref=f4e429] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-1075&BRID=1340455&lang=4
+                      - 'cell "Duales Bachelor-Studium: Wirtschaftsinformatik mit wählbarem Schwerpunkt - Start September 2027" [ref=f4e430]'
+                      - cell "Cyber Security" [ref=f4e431]
+                      - cell "Köln" [ref=f4e432]
+                      - cell "Deutschland" [ref=f4e433]
+                    - row [ref=f4e434]:
+                      - cell [ref=f4e435]:
+                        - link "J1026-0890" [ref=f4e436] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0890&BRID=1340167&lang=4
+                      - cell "Senior Testmanager (m/w/d) – SAP Testing Fokus" [ref=f4e437]
+                      - cell "Test/Qualitätssicherung" [ref=f4e438]
+                      - cell "Erfurt, Leipzig, Dresden" [ref=f4e439]
+                      - cell "Deutschland" [ref=f4e440]
+                    - row [ref=f4e441]:
+                      - cell [ref=f4e442]:
+                        - link "J1026-0889" [ref=f4e443] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0889&BRID=1340166&lang=4
+                      - cell "Infra / DevOps Lead - eCommerce (m/w/d)" [ref=f4e444]
+                      - cell "Infrastruktur/Cloud" [ref=f4e445]
+                      - cell "Düsseldorf, Köln oder Bochum" [ref=f4e446]
+                      - cell "Deutschland" [ref=f4e447]
+                    - row [ref=f4e448]:
+                      - cell [ref=f4e449]:
+                        - link "J1026-0891" [ref=f4e450] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0891&BRID=1340165&lang=4
+                      - cell "Security & Compliance Officer (m/w/d)" [ref=f4e451]
+                      - cell "Cyber Security" [ref=f4e452]
+                      - cell "Düsseldorf, Köln oder Bochum" [ref=f4e453]
+                      - cell "Deutschland" [ref=f4e454]
+                    - row [ref=f4e455]:
+                      - cell [ref=f4e456]:
+                        - link "J1225-1087" [ref=f4e457] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1225-1087&BRID=1255528&lang=4
+                      - cell "Duales Masterstudium IT-Management (m/f/d)" [ref=f4e458]
+                      - cell "Infrastruktur/Cloud" [ref=f4e459]
+                      - cell "Hamburg, Berlin, Bielefeld, Braunschweig, Bremen, Hannover, Leipzig" [ref=f4e460]
+                      - cell "Deutschland" [ref=f4e461]
+                    - row [ref=f4e462]:
+                      - cell [ref=f4e463]:
+                        - link "J0926-1806" [ref=f4e464] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0926-1806&BRID=1339708&lang=4
+                      - cell "Executive Assistant (m/f/d)" [ref=f4e465]
+                      - cell "Verwaltung" [ref=f4e466]
+                      - cell "Hamburg" [ref=f4e467]
+                      - cell "Deutschland" [ref=f4e468]
+                    - row [ref=f4e469]:
+                      - cell [ref=f4e470]:
+                        - link "J1026-0668" [ref=f4e471] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0668&BRID=1339401&lang=4
+                      - cell "Software-Tester (m/w/d) – Schwerpunkt Testautomatisierung" [ref=f4e472]
+                      - cell "Test/Qualitätssicherung" [ref=f4e473]
+                      - cell "Köln" [ref=f4e474]
+                      - cell "Deutschland" [ref=f4e475]
+                    - row [ref=f4e476]:
+                      - cell [ref=f4e477]:
+                        - link "J1225-1245" [ref=f4e478] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1225-1245&BRID=1255665&lang=4
+                      - cell "Quality Engineer – Test Automation (Transport & Logistics) (m/w/d)" [ref=f4e479]
+                      - cell "Test/Qualitätssicherung" [ref=f4e480]
+                      - cell "Eschborn" [ref=f4e481]
+                      - cell "Deutschland" [ref=f4e482]
+                    - row [ref=f4e483]:
+                      - cell [ref=f4e484]:
+                        - link "J0326-2252" [ref=f4e485] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0326-2252&BRID=1284549&lang=4
+                      - cell "Senior Space Systems Engineer - End-to-End Space Systems (m/f/d)" [ref=f4e486]
+                      - cell "Infrastruktur/Cloud" [ref=f4e487]
+                      - cell "Bochum, Darmstadt" [ref=f4e488]
+                      - cell "Deutschland" [ref=f4e489]
+                    - row [ref=f4e490]:
+                      - cell [ref=f4e491]:
+                        - link "J1026-0477" [ref=f4e492] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0477&BRID=1338990&lang=4
+                      - cell "IT-Systemadministrator / Windows & Virtualization Engineer (m/w/d) – Defence, 100% vor Ort" [ref=f4e493]
+                      - cell "Infrastruktur/Cloud" [ref=f4e494]
+                      - cell "Geilenkirchen" [ref=f4e495]
+                      - cell "Deutschland" [ref=f4e496]
+                    - row [ref=f4e497]:
+                      - cell [ref=f4e498]:
+                        - link "J1026-0474" [ref=f4e499] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0474&BRID=1338986&lang=4
+                      - cell "Network Security Engineer / Netzwerkadministrator (m/w/d) – Defence, 100% vor Ort" [ref=f4e500]
+                      - cell "Infrastruktur/Cloud" [ref=f4e501]
+                      - cell "Rheinbach" [ref=f4e502]
+                      - cell "Deutschland" [ref=f4e503]
+                    - row [ref=f4e504]:
+                      - cell [ref=f4e505]:
+                        - link "J1026-0218" [ref=f4e506] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0218&BRID=1338209&lang=4
+                      - cell "Vice President Expert (m/w/d) – Digitalisierung & Resilienz in der öffentlichen Verwaltung" [ref=f4e507]
+                      - cell "Management und Leadership Positionen" [ref=f4e508]
+                      - cell "Eschborn, Mannheim" [ref=f4e509]
+                      - cell "Deutschland" [ref=f4e510]
+                    - row [ref=f4e511]:
+                      - cell [ref=f4e512]:
+                        - link "J1026-0044" [ref=f4e513] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0044&BRID=1337675&lang=4
+                      - cell "Projektkoordinator / PMO Telekommunikation - IT, Digitalisierung & Infrastruktur (m/w/d)" [ref=f4e514]
+                      - cell "Projektmanagement" [ref=f4e515]
+                      - cell "Erfurt, Dresden, Leipzig" [ref=f4e516]
+                      - cell "Deutschland" [ref=f4e517]
+                    - row [ref=f4e518]:
+                      - cell [ref=f4e519]:
+                        - link "J1026-0041" [ref=f4e520] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0041&BRID=1337669&lang=4
+                      - cell "Werkstudent Artificial Intelligence / AI & Data (m/w/d)" [ref=f4e521]
+                      - cell "Business Analyse (funktional und technisch)" [ref=f4e522]
+                      - cell "Erfurt, Dresden, Leipzig" [ref=f4e523]
+                      - cell "Deutschland" [ref=f4e524]
+                    - row [ref=f4e525]:
+                      - cell [ref=f4e526]:
+                        - link "J1026-0039" [ref=f4e527] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0039&BRID=1337667&lang=4
+                      - cell "AI / KI Solution Engineer (m/w/d)" [ref=f4e528]
+                      - cell "Analytics and Emerging Digital Technologies" [ref=f4e529]
+                      - cell "Erfurt, Dresden, Leipzig" [ref=f4e530]
+                      - cell "Deutschland" [ref=f4e531]
+                    - row [ref=f4e532]:
+                      - cell [ref=f4e533]:
+                        - link "J1026-0037" [ref=f4e534] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0037&BRID=1337665&lang=4
+                      - cell "Machine Learning Operations Engineer (m/w/d)" [ref=f4e535]
+                      - cell "Analytics and Emerging Digital Technologies" [ref=f4e536]
+                      - cell "Erfurt, Dresden, Leipzig" [ref=f4e537]
+                      - cell "Deutschland" [ref=f4e538]
+                    - row [ref=f4e539]:
+                      - cell [ref=f4e540]:
+                        - link "J1026-0035" [ref=f4e541] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0035&BRID=1337663&lang=4
+                      - cell "Solution Architect - ServiceNow (w/m/d)" [ref=f4e542]
+                      - cell "Architektur" [ref=f4e543]
+                      - cell "Deutschlandweit" [ref=f4e544]
+                      - cell "Deutschland" [ref=f4e545]
+                    - row [ref=f4e546]:
+                      - cell [ref=f4e547]:
+                        - link "J1026-0033" [ref=f4e548] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0033&BRID=1337661&lang=4
+                      - cell "ServiceNow Consultant - GRC / SecOps (m/w/d)" [ref=f4e549]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e550]
+                      - cell "Deutschlandweit" [ref=f4e551]
+                      - cell "Deutschland" [ref=f4e552]
+                    - row [ref=f4e553]:
+                      - cell [ref=f4e554]:
+                        - link "J1026-0031" [ref=f4e555] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0031&BRID=1337658&lang=4
+                      - cell "ServiceNow Consultant ITSM / ITOM / ITAM / HRSD (w/m/d)" [ref=f4e556]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e557]
+                      - cell "Deutschlandweit" [ref=f4e558]
+                      - cell "Deutschland" [ref=f4e559]
+                    - row [ref=f4e560]:
+                      - cell [ref=f4e561]:
+                        - link "J0126-1852" [ref=f4e562] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0126-1852&BRID=1264141&lang=4
+                      - cell "Business Analyst Energiewirtschaft (m/w/d)" [ref=f4e563]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e564]
+                      - cell "Leinfelden-Echterdingen (Stuttgart), Karlsruhe, Aalen, München" [ref=f4e565]
+                      - cell "Deutschland" [ref=f4e566]
+                    - row [ref=f4e567]:
+                      - cell [ref=f4e568]:
+                        - link "J0126-1853" [ref=f4e569] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0126-1853&BRID=1264143&lang=4
+                      - cell "Senior Business Architekt Energiewirtschaft (m/w/d)" [ref=f4e570]
+                      - cell "Architektur" [ref=f4e571]
+                      - cell "Leinfelden-Echterdingen (Stuttgart), Karlsruhe, Zweibrücken, Mannheim, Aalen, München" [ref=f4e572]
+                      - cell "Deutschland" [ref=f4e573]
+                    - row [ref=f4e574]:
+                      - cell [ref=f4e575]:
+                        - link "J1026-0005" [ref=f4e576] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1026-0005&BRID=1337638&lang=4
+                      - cell "Ausbildung 2027 - Fachinformatiker für Systemintegration (m/w/d)" [ref=f4e577]
+                      - cell "Infrastruktur/Cloud" [ref=f4e578]
+                      - cell "Bremen" [ref=f4e579]
+                      - cell "Deutschland" [ref=f4e580]
+                    - row [ref=f4e581]:
+                      - cell [ref=f4e582]:
+                        - link "J0226-0082" [ref=f4e583] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0226-0082&BRID=1268302&lang=4
+                      - cell "Business Development Manager Mittelstand Baden-Württemberg (m/w/d)" [ref=f4e584]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e585]
+                      - cell "Leinfelden-Echterdingen (Stuttgart), Mannheim, Karlsruhe, Aalen" [ref=f4e586]
+                      - cell "Deutschland" [ref=f4e587]
+                    - row [ref=f4e588]:
+                      - cell [ref=f4e589]:
+                        - link "J0326-1008" [ref=f4e590] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J0326-1008&BRID=1281212&lang=4
+                      - cell "Business Development Manager Automotive Baden-Württemberg (m/w/d)" [ref=f4e591]
+                      - cell "Geschäftsprozessberatung, Strategie und Digitale Transformation" [ref=f4e592]
+                      - cell "Leinfelden-Echterdingen (Stuttgart)" [ref=f4e593]
+                      - cell "Deutschland" [ref=f4e594]
+                    - row [ref=f4e595]:
+                      - cell [ref=f4e596]:
+                        - link "J1125-1336" [ref=f4e597] [cursor=pointer]:
+                          - /url: xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1125-1336&BRID=1249486&lang=4
+                      - cell "MS SQL Server Experte (m/w/d)" [ref=f4e598]
+                      - cell "Infrastruktur/Cloud" [ref=f4e599]
+                      - cell "Eschborn, Alsfeld, Kassel, Kaiserslautern, Mannheim" [ref=f4e600]
+                      - cell "Deutschland" [ref=f4e601]
+                - generic [ref=f4e602]:
+                  - text: Seite 1 von 5
+                  - link "Weitere Job-Vorschläge" [ref=f4e603] [cursor=pointer]:
+                    - /url: javascript:gotopage(2)
+          - paragraph [ref=f4e604]: Das CGI-Recruiting Team steht dir bei Rückfragen oder für ein telefonisches Erstgespräch gerne zur Verfügung. Du erreichst uns unter 06196 / 77 42 420. Wir freuen uns auf deine Bewerbung!
+    - contentinfo [ref=f4e605]:
+      - generic [ref=f4e607]:
+        - generic [ref=f4e610]:
+          - heading "Fragen? Gerne helfen wir weiter." [level=2] [ref=f4e611]
+          - link "Kontakt" [ref=f4e613] [cursor=pointer]:
+            - /url: https://www.cgi.com/de/de/kontakt
+        - generic [ref=f4e616]:
+          - generic [ref=f4e618]:
+            - img "CGI official logo" [ref=f4e620]
+            - heading "Insights you can act on" [level=2] [ref=f4e626]
+            - paragraph [ref=f4e627]: CGI wurde 1976 gegründet und gehört zu den größten Unternehmen für IT und Business Consulting weltweit. Wir kennen Ihre Branche, handeln ergebnisorientiert und helfen Ihnen so, den ROI zu steigern.
+            - paragraph [ref=f4e628]: © 2026 CGI Inc.
+          - generic [ref=f4e629]:
+            - heading "Unternehmen" [level=2] [ref=f4e630]
+            - navigation [ref=f4e632]:
+              - heading "Useful links GERMANY" [level=2] [ref=f4e633]
+              - list [ref=f4e634]:
+                - listitem [ref=f4e635]:
+                  - link "Über uns" [ref=f4e636] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/unternehmen
+                - listitem [ref=f4e637]:
+                  - link "Verantwortung" [ref=f4e638] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung
+                - listitem [ref=f4e639]:
+                  - link "Management" [ref=f4e640] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/management-team-deutschland
+                - listitem [ref=f4e641]:
+                  - link "Standorte" [ref=f4e642] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/Lokationen
+                - listitem [ref=f4e643]:
+                  - link "Allianzen" [ref=f4e644] [cursor=pointer]:
+                    - /url: https://www.cgi.com/en/alliances
+                - listitem [ref=f4e645]:
+                  - link "Merger" [ref=f4e646] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/merger
+          - generic [ref=f4e647]:
+            - heading "Mediathek" [level=2] [ref=f4e648]
+            - navigation [ref=f4e650]:
+              - heading "Library Links GERMANY" [level=2] [ref=f4e651]
+              - list [ref=f4e652]:
+                - listitem [ref=f4e653]:
+                  - link "Aktuelles" [ref=f4e654] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter
+                - listitem [ref=f4e655]:
+                  - link "Artikel" [ref=f4e656] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/articles
+                - listitem [ref=f4e657]:
+                  - link "Blogs" [ref=f4e658] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/blogs
+                - listitem [ref=f4e659]:
+                  - link "Events" [ref=f4e660] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/events
+                - listitem [ref=f4e661]:
+                  - link "Podcasts" [ref=f4e662] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/podcasts
+                - listitem [ref=f4e663]:
+                  - link "Presse" [ref=f4e664] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/press-releases
+                - listitem [ref=f4e665]:
+                  - link "Standpunkt" [ref=f4e666] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/standpunkte
+          - generic [ref=f4e667]:
+            - heading "Rechtliches" [level=2] [ref=f4e668]
+            - navigation [ref=f4e670]:
+              - heading "Legal GERMANY" [level=2] [ref=f4e671]
+              - list [ref=f4e672]:
+                - listitem [ref=f4e673]:
+                  - link "Beschwerden/Hinweise" [ref=f4e674] [cursor=pointer]:
+                    - /url: https://app.convercent.com/de-de/Anonymous/IssueIntake/LandingPage/c430ea19-76ad-e911-a96a-000d3ab9f062?_=1571951870663
+                - listitem [ref=f4e675]:
+                  - link "Compliance" [ref=f4e676] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung/unternehmensfuehrung
+                - listitem [ref=f4e677]:
+                  - link "Datenschutz" [ref=f4e678] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/datenschutz
+                - listitem [ref=f4e679]:
+                  - link "Impressum" [ref=f4e680] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/impressum
+                - listitem [ref=f4e681]:
+                  - link "Cookie-Einstellungen" [ref=f4e682] [cursor=pointer]
+          - generic [ref=f4e683]:
+            - generic [ref=f4e687]:
+              - heading "CGI abonnieren" [level=2] [ref=f4e688]
+              - heading "Wir informieren Sie" [level=3] [ref=f4e689]
+              - link "Abonnieren" [ref=f4e690] [cursor=pointer]:
+                - /url: https://www.cgi.com/de/de/content-subscription
+            - generic [ref=f4e691]:
+              - heading "Folgen Sie uns" [level=2] [ref=f4e692]
+              - navigation [ref=f4e694]:
+                - heading "Social Media GERMANY" [level=2] [ref=f4e695]
+                - generic [ref=f4e696]:
+                  - list:
+                    - listitem [ref=f4e697]:
+                      - link " Xing" [ref=f4e698] [cursor=pointer]:
+                        - /url: https://www.xing.com/companies/cgi
+                    - listitem [ref=f4e699]:
+                      - link " LinkedIn" [ref=f4e700] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/cgi/?originalSubdomain=de
+                    - listitem [ref=f4e701]:
+                      - link " Twitter" [ref=f4e702] [cursor=pointer]:
+                        - /url: https://twitter.com/cgi_de?lang=de
+                    - listitem [ref=f4e703]:
+                      - link " Facebook" [ref=f4e704] [cursor=pointer]:
+                        - /url: https://www.facebook.com/CGIDeutschland/
+                    - listitem [ref=f4e705]:
+                      - link " Youtube" [ref=f4e706] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCGQHK_7t782ivIcar8PIsTw
+  - dialog [ref=f4e707]:
+    - generic [ref=f4e708]:
+      - generic [ref=f4e709]:
+        - heading "Cookie-Zustimmung" [level=2] [ref=f4e711]
+        - generic [ref=f4e712]: Wir verwenden eigene Cookies und Cookies von Drittanbietern, um eine reibungslose und sichere Website zu gewährleisten. Einige sind für das Funktionieren unserer Website erforderlich und werden standardmäßig gesetzt. Andere sind optional und werden nur mit Ihrer Zustimmung gesetzt, um Ihr Surferlebnis zu verbessern. Sie können alle, keine oder einige dieser optionalen Cookies akzeptieren.
+      - generic [ref=f4e714]:
+        - button "Cookies anpassen" [active] [ref=f4e715] [cursor=pointer]
+        - button "Alle Cookies akzeptieren" [ref=f4e716] [cursor=pointer]
+        - button "Alle Cookies ablehnen" [ref=f4e717] [cursor=pointer]
+    - link "Cookie-Richtlinie" [ref=f4e720] [cursor=pointer]:
+      - /url: https://client.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=cookiespolicy
+  - text: 

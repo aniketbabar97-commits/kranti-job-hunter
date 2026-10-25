@@ -1,0 +1,35 @@
+- generic [ref=f22e4]:
+  - link "Skip to main content" [ref=f22e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f22e8]:
+    - generic [ref=f22e10]:
+      - link [ref=f22e13] [cursor=pointer]:
+        - /url: https://www.accenture.com/jobsearch
+        - img "careers home" [ref=f22e14]
+      - generic [ref=f22e15]:
+        - heading [level=1]
+      - generic [ref=f22e17]:
+        - generic [ref=f22e18]:
+          - button "English" [ref=f22e20] [cursor=pointer]
+          - button "Sign In" [ref=f22e26] [cursor=pointer]
+        - navigation [ref=f22e32]:
+          - button "Search Careers" [ref=f22e33] [cursor=pointer]
+          - button "Introduce Yourself" [ref=f22e34] [cursor=pointer]
+  - generic [ref=f22e40]:
+    - heading "Follow Us" [level=4] [ref=f22e41]
+    - list [ref=f22e42]:
+      - listitem [ref=f22e43] [cursor=pointer]:
+        - link "YouTube" [ref=f22e44]:
+          - /url: https://www.youtube.com/accenture
+      - listitem [ref=f22e50] [cursor=pointer]:
+        - link "Facebook" [ref=f22e51]:
+          - /url: https://www.facebook.com/accenture
+      - listitem [ref=f22e55] [cursor=pointer]:
+        - link "X" [ref=f22e56]:
+          - /url: https://twitter.com/Accenture
+      - listitem [ref=f22e60] [cursor=pointer]:
+        - link "LinkedIn" [ref=f22e61]:
+          - /url: https://www.linkedin.com/company/accenture/
+    - link "Accenture Privacy Policy" [ref=f22e66] [cursor=pointer]:
+      - /url: https://www.accenture.com/us-en/careers/life-at-accenture/privacy-policy
+    - generic [ref=f22e67]: © 2026 Workday, Inc. All rights reserved.

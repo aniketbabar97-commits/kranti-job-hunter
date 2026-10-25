@@ -1,0 +1,415 @@
+- generic [ref=f23e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f23e25] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f23e39] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f23e56] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f23e69] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f23e2]:
+      - generic [ref=f23e3]:
+        - link "Zur Startseite" [ref=f23e5] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f23e6]
+        - generic [ref=f23e7]:
+          - button "Navigation umschalten" [ref=f23e8] [cursor=pointer]
+          - text:      
+  - generic [ref=f23e14]:
+    - generic [ref=f23e16]:
+      - application "Zent-Berf Bewerbungsformular Wizard" [ref=f23e72]:
+        - text: ✓ ✓ ✓ ✓
+        - generic [ref=f23e73]:
+          - heading "Dateianhänge" [level=2] [ref=f23e74]
+          - heading "Persönliche Angaben" [level=2] [ref=f23e114]
+          - tabpanel "Persönliche Angaben" [ref=f23e148]:
+            - generic [ref=f23e149]:
+              - generic [ref=f23e150]:
+                - heading "Senior Product Owner Mobile App (m/w/d)" [level=3] [ref=f23e151]
+                - progressbar "Fortschritt Schritt 2 von 4" [ref=f23e153]: 2 von 4
+              - generic [ref=f23e156]:
+                - generic [ref=f23e157]:
+                  - generic [ref=f23e158]: Anrede*
+                  - combobox "Anrede*" [ref=f23e159] [cursor=pointer]:
+                    - option [selected]
+                    - option "Frau"
+                    - option "Herr"
+                    - option "Divers"
+                - generic [ref=f23e160]:
+                  - generic [ref=f23e161]: Titel
+                  - textbox "Titel" [ref=f23e162]
+                - generic [ref=f23e163]:
+                  - generic [ref=f23e164]: Vorname*
+                  - textbox "Vorname*" [ref=f23e165]
+                - generic [ref=f23e166]:
+                  - generic [ref=f23e167]: Nachname*
+                  - textbox "Nachname*" [ref=f23e168]
+                - generic [ref=f23e169]:
+                  - generic [ref=f23e170]: Straße & Hausnummer*
+                  - textbox "Straße & Hausnummer*" [ref=f23e171]
+                - generic [ref=f23e172]:
+                  - generic [ref=f23e173]: PLZ*
+                  - textbox "PLZ*" [ref=f23e174]
+                - generic [ref=f23e175]:
+                  - generic [ref=f23e176]: Stadt*
+                  - textbox "Stadt*" [ref=f23e177]
+                - generic [ref=f23e178]:
+                  - generic [ref=f23e179]: Land*
+                  - combobox "Land*" [ref=f23e180] [cursor=pointer]:
+                    - option [selected]
+                    - option "Deutschland"
+                    - option "Österreich"
+                    - option "Schweiz"
+                    - option "Aland Inseln"
+                    - option "Albanien"
+                    - option "American Samoa"
+                    - option "Andorra"
+                    - option "Anguilla"
+                    - option "Antarktis"
+                    - option "Antigua und Barbuda"
+                    - option "Antillen"
+                    - option "Aruba"
+                    - option "Barbados"
+                    - option "Belgien"
+                    - option "Belize"
+                    - option "Bosnien-Herzegowina"
+                    - option "Bouvet Island"
+                    - option "Bulgarien"
+                    - option "Cook Inseln"
+                    - option "Dänemark"
+                    - option "Estland"
+                    - option "Falklandinseln"
+                    - option "Färöer"
+                    - option "Fidschi"
+                    - option "Finnland"
+                    - option "Frankreich"
+                    - option "Französisch-Guayana"
+                    - option "Französisch-Polynesien"
+                    - option "Georgien"
+                    - option "Gibraltar"
+                    - option "Griechenland"
+                    - option "Grönland"
+                    - option "Guadeloupe"
+                    - option "Guam"
+                    - option "Guyana"
+                    - option "Heard und McDonaldinseln"
+                    - option "Hong Kong"
+                    - option "Insel Mann"
+                    - option "Irland"
+                    - option "Island"
+                    - option "Italien"
+                    - option "Jersey"
+                    - option "Jungferninseln"
+                    - option "Jungferninseln, Britisch"
+                    - option "Kaimaninsel"
+                    - option "Kiribati"
+                    - option "Kokosinseln"
+                    - option "Kroatien"
+                    - option "Lettland"
+                    - option "Liechtenstein"
+                    - option "Litauen"
+                    - option "Luxemburg"
+                    - option "Malta"
+                    - option "Marshall Inseln"
+                    - option "Martinique"
+                    - option "Mazedonien"
+                    - option "Mikronesien"
+                    - option "Moldau"
+                    - option "Monaco"
+                    - option "Montserrat"
+                    - option "Nauru"
+                    - option "Niederlande"
+                    - option "Niue"
+                    - option "Nördliche Marianen"
+                    - option "Norfolkinsel"
+                    - option "Norwegen"
+                    - option "Palau"
+                    - option "Pitcairn"
+                    - option "Polen"
+                    - option "Portugal"
+                    - option "Reunion"
+                    - option "Rumänien"
+                    - option "Russland"
+                    - option "Saint Barthelemy"
+                    - option "Saint-Pierre und Miquelon"
+                    - option "Salomonen"
+                    - option "Samoa"
+                    - option "San Marino"
+                    - option "Sao Tome und Principe"
+                    - option "Schweden"
+                    - option "Serbien-Montenegro"
+                    - option "Seychellen"
+                    - option "Slowakei"
+                    - option "Slowenien"
+                    - option "Spanien"
+                    - option "St. Helena"
+                    - option "St. Kitts und Nevis"
+                    - option "St. Lucia"
+                    - option "St. Martin"
+                    - option "St. Vincent und die Grenadinen"
+                    - option "Südgeorgien und die Südlichen Sandwichinseln"
+                    - option "Svalbard und Jan Mayen"
+                    - option "Timor-Leste"
+                    - option "Tokelau"
+                    - option "Tonga"
+                    - option "Trinidad und Tobago"
+                    - option "Tschechische Republik"
+                    - option "Turk- und Ciacosinseln"
+                    - option "Tuvalu"
+                    - option "Ukraine"
+                    - option "Ungarn"
+                    - option "Vanuatu"
+                    - option "Vatikanstadt"
+                    - option "Vereinigtes Königreich"
+                    - option "Wallis und Futuna"
+                    - option "Weihnachtsinsel"
+                    - option "Weißrussland"
+                    - option "Westsahara"
+                    - option "Zentralafrikanische Republik"
+                    - option "Zypern"
+                - generic [ref=f23e181]:
+                  - generic [ref=f23e182]: Telefon *
+                  - text: "Format: 1234567890 (keine Leerzeichen)"
+                  - combobox "Single select" [ref=f23e185] [cursor=pointer]:
+                    - option "+49 (Germany)" [selected]
+                    - option "+93 (Afghanistan)"
+                    - option "+355 (Albania)"
+                    - option "+213 (Algeria)"
+                    - option "+376 (Andorra)"
+                    - option "+244 (Angola)"
+                    - option "+54 (Argentina)"
+                    - option "+374 (Armenia)"
+                    - option "+297 (Aruba)"
+                    - option "+247 (Ascension)"
+                    - option "+61 (Australia)"
+                    - option "+43 (Austria)"
+                    - option "+994 (Azerbaijan)"
+                    - option "+973 (Bahrain)"
+                    - option "+880 (Bangladesh)"
+                    - option "+375 (Belarus)"
+                    - option "+32 (Belgium)"
+                    - option "+501 (Belize)"
+                    - option "+229 (Benin)"
+                    - option "+975 (Bhutan)"
+                    - option "+591 (Bolivia)"
+                    - option "+387 (Bosnia and Herzegovina)"
+                    - option "+267 (Botswana)"
+                    - option "+55 (Brazil)"
+                    - option "+246 (British Indian Ocean Territory)"
+                    - option "+673 (Brunei Darussalam)"
+                    - option "+359 (Bulgaria)"
+                    - option "+226 (Burkina Faso)"
+                    - option "+257 (Burundi)"
+                    - option "+855 (Cambodia)"
+                    - option "+237 (Cameroon)"
+                    - option "+238 (Cape Verde)"
+                    - option "+236 (Central African Republic)"
+                    - option "+235 (Chad)"
+                    - option "+64 (Chatham Island, New Zealand)"
+                    - option "+56 (Chile)"
+                    - option "+86 (China)"
+                    - option "+57 (Colombia)"
+                    - option "+269 (Comoros)"
+                    - option "+242 (Congo)"
+                    - option "+243 (Congo, Democratic Republic of the (Zaire))"
+                    - option "+682 (Cook Islands)"
+                    - option "+506 (Costa Rica)"
+                    - option "+385 (Croatia)"
+                    - option "+53 (Cuba)"
+                    - option "+357 (Cyprus)"
+                    - option "+420 (Czech Republic)"
+                    - option "+45 (Denmark)"
+                    - option "+246 (Diego Garcia)"
+                    - option "+253 (Djibouti)"
+                    - option "+670 (East Timor)"
+                    - option "+56 (Easter Island)"
+                    - option "+593 (Ecuador)"
+                    - option "+20 (Egypt)"
+                    - option "+503 (El Salvador)"
+                    - option "+240 (Equatorial Guinea)"
+                    - option "+291 (Eritrea)"
+                    - option "+372 (Estonia)"
+                    - option "+268 (eSwatini)"
+                    - option "+251 (Ethiopia)"
+                    - option "+500 (Falkland Islands)"
+                    - option "+298 (Faroe Islands)"
+                    - option "+679 (Fiji)"
+                    - option "+358 (Finland)"
+                    - option "+33 (France)"
+                    - option "+594 (French Guiana)"
+                    - option "+689 (French Polynesia)"
+                    - option "+241 (Gabon)"
+                    - option "+220 (Gambia)"
+                    - option "+995 (Georgia)"
+                    - option "+233 (Ghana)"
+                    - option "+350 (Gibraltar)"
+                    - option "+30 (Greece)"
+                    - option "+299 (Greenland)"
+                    - option "+590 (Guadeloupe)"
+                    - option "+502 (Guatemala)"
+                    - option "+224 (Guinea)"
+                    - option "+245 (Guinea-Bissau)"
+                    - option "+592 (Guyana)"
+                    - option "+509 (Haiti)"
+                    - option "+504 (Honduras)"
+                    - option "+852 (Hong Kong)"
+                    - option "+36 (Hungary)"
+                    - option "+354 (Iceland)"
+                    - option "+91 (India)"
+                    - option "+62 (Indonesia)"
+                    - option "+98 (Iran)"
+                    - option "+964 (Iraq)"
+                    - option "+353 (Ireland)"
+                    - option "+972 (Israel)"
+                    - option "+39 (Italy)"
+                    - option "+225 (Ivory Coast)"
+                    - option "+81 (Japan)"
+                    - option "+962 (Jordan)"
+                    - option "+254 (Kenya)"
+                    - option "+686 (Kiribati)"
+                    - option "+850 (Korea, North)"
+                    - option "+82 (Korea, South)"
+                    - option "+383 (Kosovo)"
+                    - option "+965 (Kuwait)"
+                    - option "+996 (Kyrgyzstan)"
+                    - option "+856 (Laos)"
+                    - option "+371 (Latvia)"
+                    - option "+961 (Lebanon)"
+                    - option "+266 (Lesotho)"
+                    - option "+231 (Liberia)"
+                    - option "+218 (Libya)"
+                    - option "+423 (Liechtenstein)"
+                    - option "+370 (Lithuania)"
+                    - option "+352 (Luxembourg)"
+                    - option "+853 (Macau)"
+                    - option "+261 (Madagascar)"
+                    - option "+265 (Malawi)"
+                    - option "+60 (Malaysia)"
+                    - option "+960 (Maldives)"
+                    - option "+223 (Mali)"
+                    - option "+356 (Malta)"
+                    - option "+692 (Marshall Islands)"
+                    - option "+596 (Martinique)"
+                    - option "+222 (Mauritania)"
+                    - option "+230 (Mauritius)"
+                    - option "+52 (Mexico)"
+                    - option "+691 (Micronesia, Federated States of)"
+                    - option "+373 (Moldova)"
+                    - option "+377 (Monaco)"
+                    - option "+976 (Mongolia)"
+                    - option "+382 (Montenegro)"
+                    - option "+212 (Morocco)"
+                    - option "+258 (Mozambique)"
+                    - option "+95 (Myanmar)"
+                    - option "+264 (Namibia)"
+                    - option "+674 (Nauru)"
+                    - option "+977 (Nepal)"
+                    - option "+31 (Netherlands)"
+                    - option "+687 (New Caledonia)"
+                    - option "+64 (New Zealand)"
+                    - option "+505 (Nicaragua)"
+                    - option "+227 (Niger)"
+                    - option "+234 (Nigeria)"
+                    - option "+683 (Niue)"
+                    - option "+389 (North Macedonia)"
+                    - option "+47 (Norway)"
+                    - option "+968 (Oman)"
+                    - option "+92 (Pakistan)"
+                    - option "+680 (Palau)"
+                    - option "+970 (Palestine, State of)"
+                    - option "+507 (Panama)"
+                    - option "+675 (Papua New Guinea)"
+                    - option "+595 (Paraguay)"
+                    - option "+51 (Peru)"
+                    - option "+63 (Philippines)"
+                    - option "+64 (Pitcairn Islands)"
+                    - option "+48 (Poland)"
+                    - option "+351 (Portugal)"
+                    - option "+974 (Qatar)"
+                    - option "+262 (Réunion)"
+                    - option "+40 (Romania)"
+                    - option "+7 (Russia)"
+                    - option "+250 (Rwanda)"
+                    - option "+590 (Saint Barthélemy)"
+                    - option "+290 (Saint Helena)"
+                    - option "+590 (Saint Martin (France))"
+                    - option "+508 (Saint Pierre and Miquelon)"
+                    - option "+685 (Samoa)"
+                    - option "+378 (San Marino)"
+                    - option "+239 (São Tomé and Príncipe)"
+                    - option "+966 (Saudi Arabia)"
+                    - option "+221 (Senegal)"
+                    - option "+381 (Serbia)"
+                    - option "+248 (Seychelles)"
+                    - option "+232 (Sierra Leone)"
+                    - option "+65 (Singapore)"
+                    - option "+421 (Slovakia)"
+                    - option "+386 (Slovenia)"
+                    - option "+677 (Solomon Islands)"
+                    - option "+252 (Somalia)"
+                    - option "+27 (South Africa)"
+                    - option "+500 (South Georgia and the South Sandwich Islands)"
+                    - option "+211 (South Sudan)"
+                    - option "+34 (Spain)"
+                    - option "+94 (Sri Lanka)"
+                    - option "+249 (Sudan)"
+                    - option "+597 (Suriname)"
+                    - option "+46 (Sweden)"
+                    - option "+41 (Switzerland)"
+                    - option "+963 (Syria)"
+                    - option "+886 (Taiwan)"
+                    - option "+992 (Tajikistan)"
+                    - option "+255 (Tanzania)"
+                    - option "+66 (Thailand)"
+                    - option "+228 (Togo)"
+                    - option "+690 (Tokelau)"
+                    - option "+676 (Tonga)"
+                    - option "+216 (Tunisia)"
+                    - option "+90 (Turkey)"
+                    - option "+993 (Turkmenistan)"
+                    - option "+688 (Tuvalu)"
+                    - option "+256 (Uganda)"
+                    - option "+380 (Ukraine)"
+                    - option "+971 (United Arab Emirates)"
+                    - option "+44 (United Kingdom)"
+                    - option "+1 (United States &amp; Canada)"
+                    - option "+598 (Uruguay)"
+                    - option "+998 (Uzbekistan)"
+                    - option "+678 (Vanuatu)"
+                    - option "+58 (Venezuela)"
+                    - option "+84 (Vietnam)"
+                    - option "+681 (Wallis and Futuna)"
+                    - option "+967 (Yemen)"
+                    - option "+260 (Zambia)"
+                    - option "+263 (Zimbabwe)"
+                  - spinbutton "Telefon *" [ref=f23e186]
+                - generic [ref=f23e187]:
+                  - generic [ref=f23e188]: E-Mail *
+                  - textbox "E-Mail *" [ref=f23e189]
+                - generic [ref=f23e190]:
+                  - generic [ref=f23e191]: Geburtsjahr
+                  - textbox "Geburtsjahr" [ref=f23e192]:
+                    - /placeholder: z. B. 2006
+                - generic [ref=f23e193]:
+                  - generic [ref=f23e194]: Liegt eine Schwerbehinderung/ Gleichstellung vor? (freiwillige Angabe)
+                  - combobox "Liegt eine Schwerbehinderung/ Gleichstellung vor? (freiwillige Angabe)" [ref=f23e195] [cursor=pointer]:
+                    - option [selected]
+                    - option "Nein"
+                    - option "Ja"
+          - heading "Weitere Angaben" [level=2] [ref=f23e115]
+          - heading "Vorschau" [level=2] [ref=f23e116]
+          - alert
+        - menu "Pagination" [ref=f23e118]:
+          - listitem [ref=f23e196]:
+            - menuitem "Zurück" [ref=f23e197] [cursor=pointer]
+          - listitem [ref=f23e119]:
+            - menuitem "Weiter" [active] [ref=f23e120] [cursor=pointer]
+      - region "Speichern und Laden Bereich" [ref=f23e17]:
+        - separator [ref=f23e18]
+        - paragraph [ref=f23e19]: Wenn du deine Bewerbung zwischenspeichern möchtest, um sie zu einem späteren Zeitpunkt weiter zu bearbeiten, dann klicke unten auf "Bewerbung speichern". Um die Bewerbung dann anschließend weiter zu bearbeiten, klicke auf "Bewerbung laden".
+        - button "Bewerbung speichern" [ref=f23e20] [cursor=pointer]
+    - text: 
+  - iframe [ref=f23e24]:
+    - generic [ref=f24e6]:
+      - text: protected by
+      - strong [ref=f24e7]: reCAPTCHA
+  - button "Gracie" [ref=f23e122] [cursor=pointer]

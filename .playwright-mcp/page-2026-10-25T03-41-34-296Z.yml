@@ -1,0 +1,199 @@
+- generic [active] [ref=f112e1]:
+  - banner [ref=f112e2]:
+    - generic [ref=f112e3]:
+      - generic [ref=f112e4]:
+        - button [ref=f112e5] [cursor=pointer]
+        - generic [ref=f112e7] [cursor=pointer]: Menü
+      - link [ref=f112e9] [cursor=pointer]:
+        - /url: https://aeet24.com/
+        - img "AEET Logo" [ref=f112e10]
+      - generic [ref=f112e12]:
+        - link "Webshop" [ref=f112e13] [cursor=pointer]:
+          - /url: https://pv-solarshop.net
+        - link "Konfigurator" [ref=f112e14] [cursor=pointer]:
+          - /url: https://pv-konfigurator.info
+        - link "Anfragen" [ref=f112e15] [cursor=pointer]:
+          - /url: https://aeet24.com/anfrage
+  - navigation [ref=f112e16]:
+    - list [ref=f112e17]:
+      - listitem [ref=f112e18]:
+        - link "Startseite" [ref=f112e19] [cursor=pointer]:
+          - /url: https://aeet24.com/
+      - listitem [ref=f112e20]:
+        - generic [ref=f112e21] [cursor=pointer]: Produkte
+        - text: 
+      - listitem [ref=f112e22]:
+        - link "Webshop" [ref=f112e23] [cursor=pointer]:
+          - /url: https://pv-solarshop.net
+      - listitem [ref=f112e24]:
+        - generic [ref=f112e25] [cursor=pointer]: Handel
+        - text: 
+      - listitem [ref=f112e26]:
+        - generic [ref=f112e27] [cursor=pointer]: Installation & Wartung
+        - text: 
+      - listitem [ref=f112e28]:
+        - generic [ref=f112e29] [cursor=pointer]: Komplettservice
+        - text: 
+      - listitem [ref=f112e30]:
+        - generic [ref=f112e31] [cursor=pointer]: Wechselrichter Reparatur
+        - text: 
+      - listitem [ref=f112e32]:
+        - generic [ref=f112e33] [cursor=pointer]: Maßgeschneiderte Lösungen
+        - text: 
+      - listitem [ref=f112e34]:
+        - generic [ref=f112e35] [cursor=pointer]: Unternehmen
+        - text: 
+      - listitem [ref=f112e36]:
+        - link "Social Media" [ref=f112e37] [cursor=pointer]:
+          - /url: https://aeet24.com/socialmedia
+    - list [ref=f112e38]:
+      - listitem [ref=f112e39]:
+        - link "Newsletter erhalten" [ref=f112e40] [cursor=pointer]:
+          - /url: "#newsletterSubscription"
+      - listitem [ref=f112e41]:
+        - link "Anfragen" [ref=f112e42] [cursor=pointer]:
+          - /url: https://aeet24.com/anfrage
+      - listitem [ref=f112e43]:
+        - combobox [ref=f112e44] [cursor=pointer]:
+          - option "Deutschland" [selected]
+  - main [ref=f112e45]:
+    - heading "Karriere" [level=1] [ref=f112e49]
+    - list [ref=f112e51]:
+      - listitem [ref=f112e52]:
+        - link "Übersicht" [ref=f112e53] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere
+      - listitem [ref=f112e54]:
+        - link "Büromanagement" [ref=f112e55] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/kaufleute-bueromanagement
+      - listitem [ref=f112e56]:
+        - link "Vertriebsspezialisten" [ref=f112e57] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/vertriebsspezialist-in-innendienst-aussendienst
+      - listitem [ref=f112e58]:
+        - link "Digital-Marketing" [ref=f112e59] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/digital-marketing-manager-in
+      - listitem [ref=f112e60]:
+        - link "Social Media und Grafik" [ref=f112e61] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/social-media-grafikstratege-in
+    - list [ref=f112e64]:
+      - listitem [ref=f112e65]:
+        - link [ref=f112e66] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/kaufleute-bueromanagement
+          - img "Bild für Kaufleute für Büromanagement" [ref=f112e69]
+          - paragraph [ref=f112e70]: Kaufleute für Büromanagement
+      - listitem [ref=f112e71]:
+        - link [ref=f112e72] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/vertriebsspezialist-in-innendienst-aussendienst
+          - img "Bild für Vertriebsspezialist/-in - Innen- & Außendienst" [ref=f112e75]
+          - paragraph [ref=f112e76]: Vertriebsspezialist/-in - Innen- & Außendienst
+      - listitem [ref=f112e77]:
+        - link [ref=f112e78] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/digital-marketing-manager-in
+          - img "Bild für Digital-Marketing-Manager/-in" [ref=f112e81]
+          - paragraph [ref=f112e82]: Digital-Marketing-Manager/-in
+      - listitem [ref=f112e83]:
+        - link [ref=f112e84] [cursor=pointer]:
+          - /url: https://aeet24.com/unternehmen/karriere/social-media-grafikstratege-in
+          - img "Bild für Social Media- und Grafikstratege/in" [ref=f112e87]
+          - paragraph [ref=f112e88]: Social Media- und Grafikstratege/in
+  - contentinfo [ref=f112e89]:
+    - paragraph [ref=f112e90]: AEET
+    - separator [ref=f112e91]
+    - generic [ref=f112e92]:
+      - generic [ref=f112e93]:
+        - list [ref=f112e94]:
+          - listitem [ref=f112e95]:
+            - link "Unsere Welt" [ref=f112e96] [cursor=pointer]:
+              - /url: https://aeet24.com/
+          - listitem [ref=f112e97]:
+            - link "Handel" [ref=f112e98] [cursor=pointer]:
+              - /url: https://aeet24.com/handel
+          - listitem [ref=f112e99]:
+            - link "Produkte" [ref=f112e100] [cursor=pointer]:
+              - /url: https://aeet24.com/produkte
+          - listitem [ref=f112e101]:
+            - link "Beratung & Planung" [ref=f112e102] [cursor=pointer]:
+              - /url: https://aeet24.com/installation-wartung/beratung-planung
+          - listitem [ref=f112e103]:
+            - link "Installation & Montage" [ref=f112e104] [cursor=pointer]:
+              - /url: https://aeet24.com/installation-wartung/montage-installation
+          - listitem [ref=f112e105]:
+            - link "Wechselrichter Reparatur" [ref=f112e106] [cursor=pointer]:
+              - /url: https://aeet24.com/wechselrichter-reparatur
+          - listitem [ref=f112e107]:
+            - link "Maßgeschneiderte Lösungen" [ref=f112e108] [cursor=pointer]:
+              - /url: https://aeet24.com/massgeschneiderte-loesungen
+          - listitem [ref=f112e109]:
+            - link "Webshop" [ref=f112e110] [cursor=pointer]:
+              - /url: https://pv-solarshop.net
+        - list [ref=f112e111]:
+          - listitem [ref=f112e112]:
+            - link "Anfrage" [ref=f112e113] [cursor=pointer]:
+              - /url: https://aeet24.com/anfrage
+          - listitem [ref=f112e114]:
+            - link "Kontakt" [ref=f112e115] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/kontakt
+          - listitem [ref=f112e116]:
+            - link "Service & Support" [ref=f112e117] [cursor=pointer]:
+              - /url: https://aeet24.com/installation-wartung/service-support
+        - list [ref=f112e118]:
+          - listitem [ref=f112e119]:
+            - link "Über uns" [ref=f112e120] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/ueber-uns
+          - listitem [ref=f112e121]:
+            - link "Leitbild" [ref=f112e122] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/leitbild
+          - listitem [ref=f112e123]:
+            - link "Historie" [ref=f112e124] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/historie
+          - listitem [ref=f112e125]:
+            - link "Karriere" [ref=f112e126] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/karriere
+          - listitem [ref=f112e127]:
+            - link "FAQ" [ref=f112e128] [cursor=pointer]:
+              - /url: https://aeet24.com/unternehmen/faq
+      - generic [ref=f112e131]:
+        - paragraph [ref=f112e132]: Newsletter Anmeldung
+        - textbox "Newsletter Anmeldung " [ref=f112e133]:
+          - /placeholder: E-Mail-Adresse
+        - button "" [ref=f112e134] [cursor=pointer]
+    - list [ref=f112e138]:
+      - listitem [ref=f112e139]:
+        - link " Facebook" [ref=f112e140] [cursor=pointer]:
+          - /url: https://www.facebook.com/AEET24/
+          - generic [ref=f112e141]: 
+          - text: Facebook
+      - listitem [ref=f112e142]:
+        - link " Instagram" [ref=f112e143] [cursor=pointer]:
+          - /url: https://www.instagram.com/aeet.renewable.energy.gmbh
+          - generic [ref=f112e144]: 
+          - text: Instagram
+      - listitem [ref=f112e145]:
+        - generic [ref=f112e146]:
+          - generic [ref=f112e147]: 
+          - text: X
+      - listitem [ref=f112e148]:
+        - generic [ref=f112e149]:
+          - generic [ref=f112e150]: 
+          - text: YouTube
+      - listitem [ref=f112e151]:
+        - generic [ref=f112e152]:
+          - generic [ref=f112e153]: 
+          - text: TikTok
+    - generic [ref=f112e155]:
+      - paragraph [ref=f112e156]: Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Dennoch übernehmen wir keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Informationen. Die Nutzung der Inhalte erfolgt auf eigene Gefahr. Wir schließen jegliche Haftung für direkte oder indirekte Schäden aus, die durch die Nutzung oder Nichtnutzung der angebotenen Informationen oder durch fehlerhafte und unvollständige Informationen entstehen können, soweit diese nicht auf Vorsatz oder grober Fahrlässigkeit beruhen. Bitte beachten Sie, dass alle Informationen auf dieser Website lediglich zur allgemeinen Information dienen und keine individuelle Beratung ersetzen. Änderungen und Irrtümer vorbehalten.
+      - link "> IMPRESSUM" [ref=f112e157] [cursor=pointer]:
+        - /url: https://aeet24.com/unternehmen/impressum
+    - generic [ref=f112e159]:
+      - combobox [ref=f112e161] [cursor=pointer]:
+        - option "Deutschland" [selected]
+      - list [ref=f112e163]:
+        - listitem [ref=f112e164]:
+          - link "Allgemeine Geschäftbedingungen" [ref=f112e165] [cursor=pointer]:
+            - /url: https://aeet24.com/unternehmen/agbs
+        - listitem [ref=f112e166]:
+          - link "Datenschutz" [ref=f112e167] [cursor=pointer]:
+            - /url: https://aeet24.com/unternehmen/datenschutz
+        - listitem [ref=f112e168]: © AEET 2026
+  - generic [ref=f112e169]:
+    - paragraph [ref=f112e170]: Möglicherweise verhindert ein Werbeblocker den Support-Chat.
+    - button "Hinweis schließen" [ref=f112e171] [cursor=pointer]

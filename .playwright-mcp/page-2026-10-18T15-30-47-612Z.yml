@@ -1,0 +1,19 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - img "pathway solutions gmbh" [ref=f1e7]
+      - paragraph [ref=f1e8]: pathway solutions gmbh
+      - heading "Senior Java Developer - E-Commerce + Accounting & Marketplaces - remote in EU" [level=2] [ref=f1e9]
+    - generic [ref=f1e11]:
+      - group [ref=f1e12]:
+        - generic [ref=f1e13]: Email
+        - textbox "Email" [ref=f1e15]:
+          - /placeholder: Your email address
+      - button "Continue" [disabled] [ref=f1e16]
+      - generic [ref=f1e18]:
+        - separator [ref=f1e19]
+        - paragraph [ref=f1e20]: or
+        - separator [ref=f1e21]
+      - button "Continue with Google" [ref=f1e23] [cursor=pointer]
+  - alert [ref=f1e26]
+  - region "Notifications, bottom-end (alt+T)"

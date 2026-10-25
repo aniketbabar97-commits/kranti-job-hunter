@@ -1,0 +1,104 @@
+- generic [active] [ref=f3e1]:
+  - list [ref=f3e2]:
+    - listitem:
+      - link [ref=f3e3] [cursor=pointer]:
+        - /url: https://www.musik-meyer.de/en/career/jobs/application-form
+    - listitem:
+      - button "Nachricht ausblenden" [ref=f3e7] [cursor=pointer]
+  - button "Toggle navigation" [ref=f3e11] [cursor=pointer]
+  - banner [ref=f3e14]:
+    - navigation [ref=f3e15]:
+      - link "MUSIK MEYER GmbH" [ref=f3e16] [cursor=pointer]:
+        - /url: /
+  - heading "Stellenausschreibungen" [level=2] [ref=f3e39]
+  - navigation "Breadcrumb" [ref=f3e40]:
+    - generic [ref=f3e41]:
+      - paragraph [ref=f3e42]: "You are here:"
+      - list [ref=f3e43]:
+        - listitem [ref=f3e44]:
+          - link "MUSIK MEYER GmbH" [ref=f3e45] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f3e46]:
+          - text: //
+          - link "Karriere" [ref=f3e47] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f3e48]:
+          - text: //
+          - link "Stellenanzeigen" [ref=f3e49] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f3e50]: // Bewerbungsformular
+  - generic [ref=f3e54]:
+    - heading "Bewerbung" [level=2] [ref=f3e56]
+    - paragraph [ref=f3e57]: Wir freuen uns auf Sie und Ihre aussagekräftigen Bewerbungsunterlagen!
+    - generic [ref=f3e59]:
+      - paragraph [ref=f3e60]: Vielen Dank. Wir haben Ihre Nachricht erhalten und melden uns in Kürze.
+      - paragraph [ref=f3e61]: MUSIK MEYER GmbH
+    - paragraph [ref=f3e62]:
+      - link "Datenschutzerklärung anzeigen" [ref=f3e64] [cursor=pointer]:
+        - /url: /datenschutz
+    - paragraph [ref=f3e65]: "*) Pflichtfelder"
+  - contentinfo [ref=f3e66]:
+    - generic [ref=f3e68]:
+      - generic [ref=f3e69]:
+        - paragraph [ref=f3e71]:
+          - strong [ref=f3e72]: MUSIK MEYER GmbH
+          - text: Industriestraße 2035041 MarburgGermany
+        - paragraph [ref=f3e73]
+        - paragraph [ref=f3e74]
+        - paragraph [ref=f3e75]:
+          - text: Tel. +49 6421 989 0
+          - link "info@ musik-meyer.de" [ref=f3e76] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=f3e78]:
+        - listitem [ref=f3e79]:
+          - link "Brands" [ref=f3e80] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=f3e81]:
+          - link "News" [ref=f3e82] [cursor=pointer]:
+            - /url: /news-events
+        - listitem [ref=f3e83]:
+          - link "Team" [ref=f3e84] [cursor=pointer]:
+            - /url: /team
+        - listitem [ref=f3e85]:
+          - link "Stellenanzeigen" [ref=f3e86] [cursor=pointer]:
+            - /url: /karriere/stellenanzeigen
+        - listitem [ref=f3e87]:
+          - link "Unternehmen" [ref=f3e88] [cursor=pointer]:
+            - /url: /unternehmen
+        - listitem [ref=f3e89]:
+          - link "Kontakt" [ref=f3e90] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f3e91]:
+          - link "B2B Login" [ref=f3e92] [cursor=pointer]:
+            - /url: https://extra.musik-meyer.net/fos/Static/Login?PostBack=/fos/
+    - generic [ref=f3e96]:
+      - list [ref=f3e98]:
+        - listitem [ref=f3e99]:
+          - link "Impressum" [ref=f3e100] [cursor=pointer]:
+            - /url: /impressum
+        - listitem [ref=f3e101]:
+          - link "Datenschutz" [ref=f3e102] [cursor=pointer]:
+            - /url: /datenschutz
+        - listitem [ref=f3e103]:
+          - link "Kontakt" [ref=f3e104] [cursor=pointer]:
+            - /url: /kontakt-corporate
+        - listitem [ref=f3e105]:
+          - link "Cookie-Setup" [ref=f3e106] [cursor=pointer]:
+            - /url: /cookie-setup
+        - listitem [ref=f3e107]:
+          - link "Hinweisgeberschutz" [ref=f3e108] [cursor=pointer]:
+            - /url: /kontakt-corporate/hinweisgeberschutzgesetz
+        - listitem
+      - list [ref=f3e110]:
+        - listitem [ref=f3e111]:
+          - link "MUSIK MEYER on LinkedIn" [ref=f3e112] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/musik-meyer/
+        - listitem [ref=f3e115]:
+          - link "MUSIK MEYER on XING" [ref=f3e116] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/musikmeyergmbh
+        - listitem [ref=f3e119]:
+          - link "MUSIK MEYER on Facebook" [ref=f3e120] [cursor=pointer]:
+            - /url: https://www.facebook.com/musikmeyer/
+        - listitem [ref=f3e123]:
+          - link "MUSIK MEYER on Instagram" [ref=f3e124] [cursor=pointer]:
+            - /url: https://www.instagram.com/musik_meyer/

@@ -1,0 +1,40 @@
+- generic [active] [ref=f37e1]:
+  - generic [ref=f37e2]:
+    - link "Zum Hauptinhalt springen" [ref=f37e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f37e4]:
+      - banner [ref=f37e6]:
+        - generic [ref=f37e7]:
+          - generic:
+            - link:
+              - /url: https://hmmh.jobs.personio.de
+          - 'combobox "Select language, current: Deutsch" [ref=f37e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=f37e14]:
+        - link "Zurück zur Stelle" [ref=f37e18] [cursor=pointer]:
+          - /url: /job/2619229
+        - generic [ref=f37e23]:
+          - generic [ref=f37e24]:
+            - heading "Senior Consultant/Architect | SAP CX (m/w/d)" [level=1] [ref=f37e25]
+            - generic [ref=f37e26]:
+              - generic [ref=f37e27]: Bremen, Remote
+              - generic [ref=f37e32]: Vollzeit
+              - generic [ref=f37e36]: Festanstellung
+          - generic [ref=f37e165]:
+            - heading "VIELEN DANK!" [level=5] [ref=f37e166]
+            - text: Wir haben Deine Bewerbung erhalten und werden uns in Kürze bei Dir melden!
+      - contentinfo [ref=f37e144]:
+        - generic [ref=f37e145]:
+          - generic [ref=f37e148]:
+            - img "Powered by Personio" [ref=f37e149]
+            - generic [ref=f37e150]:
+              - text: Powered by
+              - link [ref=f37e151] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=f37e152]: Personio
+          - generic [ref=f37e153]:
+            - link "Datenschutzerklärung" [ref=f37e154] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Impressum" [ref=f37e155] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=f37e156]

@@ -1,0 +1,383 @@
+- generic [ref=f4e1]:
+  - link [ref=f4e2] [cursor=pointer]: Zu den Hauptinhalten springen
+  - link [ref=f4e3] [cursor=pointer]:
+    - /url: https://support.google.com/websearch/answer/181196?hl=de
+    - text: Hilfe zur Barrierefreiheit
+  - dialog "Bevor Sie zur Google Suche weitergehen" [active]:
+    - generic [ref=f4e10]:
+      - generic [ref=f4e12]:
+        - img "Google" [ref=f4e13]
+        - generic [ref=f4e14]:
+          - 'button "Sprache: ‪Deutsch‬" [ref=f4e16] [cursor=pointer]':
+            - generic [ref=f4e17]: de
+          - link "Anmelden" [ref=f4e19] [cursor=pointer]
+      - generic [ref=f4e20]:
+        - heading "Bevor Sie zu Google weitergehen" [level=1] [ref=f4e21]
+        - generic [ref=f4e22]:
+          - generic [ref=f4e23]:
+            - text: Wir verwenden
+            - link "Cookies" [ref=f4e24] [cursor=pointer]:
+              - /url: https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=de
+            - text: und Daten einschließlich IP-Adressen, um
+            - list [ref=f4e25]:
+              - listitem [ref=f4e26]: Google-Dienste zu erbringen und zu betreiben
+              - listitem [ref=f4e27]: Ausfälle zu prüfen und Maßnahmen gegen Spam, Betrug und Missbrauch zu ergreifen
+              - listitem [ref=f4e28]: Zielgruppeninteraktionen und Websitestatistiken zu analysieren, um zu verstehen, wie unsere Dienste verwendet werden, und die Qualität dieser Dienste zu verbessern
+          - generic [ref=f4e29]:
+            - text: Wenn Sie „Alle akzeptieren“ auswählen, verwenden wir Cookies und Daten einschließlich IP-Adressen auch, um
+            - list [ref=f4e30]:
+              - listitem [ref=f4e31]: neue Dienste zu entwickeln und zu verbessern
+              - listitem [ref=f4e32]: Werbung auszuliefern und ihre Effektivität zu messen
+              - listitem [ref=f4e33]: je nach Ihren Einstellungen personalisierte Inhalte anzuzeigen
+              - listitem [ref=f4e34]: personalisierte Werbung anzuzeigen, abhängig von Ihren Einstellungen
+            - generic [ref=f4e35]: Wenn Sie „Alle ablehnen“ auswählen, verwenden wir Cookies oder IP-Adressen nicht für diese zusätzlichen Zwecke.
+          - generic [ref=f4e36]: Nicht personalisierte Inhalte werden u. a. von Inhalten, die Sie sich gerade ansehen, Aktivitäten in Ihrer aktiven Suchsitzung und Ihrem Standort beeinflusst. Nicht personalisierte Werbung wird von den Inhalten, die Sie sich gerade ansehen, und Ihrem allgemeinen Standort beeinflusst. Personalisierte Inhalte und Werbung können auch relevantere Ergebnisse, Empfehlungen und individuelle Werbung enthalten, die auf früheren Aktivitäten in diesem Browser, etwa Suchanfragen bei Google, beruhen. Sofern relevant, verwenden wir Cookies und Daten außerdem, um Inhalte und Werbung altersgerecht zu gestalten.
+          - generic [ref=f4e37]: Wählen Sie „Weitere Optionen“ aus, um sich zusätzliche Informationen anzusehen, einschließlich Details zum Verwalten Ihrer Datenschutzeinstellungen. Sie können auch jederzeit g.co/privacytools besuchen.
+      - generic [ref=f4e38]:
+        - generic [ref=f4e39]:
+          - button "Alle ablehnen" [ref=f4e40] [cursor=pointer]
+          - button "Alle akzeptieren" [ref=f4e41] [cursor=pointer]
+        - link "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=f4e43] [cursor=pointer]:
+          - generic "Weitere Optionen für Personalisierungseinstellungen und Cookies" [ref=f4e44]: Weitere Optionen
+      - generic [ref=f4e45]:
+        - link "Datenschutz" [ref=f4e46] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=de&fg=1&utm_source=ucbs
+        - generic [aria-hidden] [ref=f4e47]: ·
+        - link "Nutzungsbedingungen" [ref=f4e48] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=de&fg=1&utm_source=ucbs
+  - generic [ref=f4e53]:
+    - search [ref=f4e54]:
+      - generic [ref=f4e57]:
+        - link [ref=f4e58] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=de&ictx=0&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QpYkNegQIBhBm
+        - generic [ref=f4e59]:
+          - combobox [ref=f4e61]: Sto SE SAP CPQ Expert Consultant Sto Group Stellenangebot Sto SE SAP CPQ Expert Consultant Sto Group Stellenangebot
+          - generic [ref=f4e62]:
+            - button [ref=f4e66] [cursor=pointer]
+            - generic [ref=f4e71]:
+              - button [ref=f4e74] [cursor=pointer]
+              - button [ref=f4e79] [cursor=pointer]
+    - generic [ref=f4e82]:
+      - button [ref=f4e84] [cursor=pointer]
+      - button [ref=f4e85] [cursor=pointer]
+      - generic [ref=f4e91]:
+        - button [ref=f4e93] [cursor=pointer]
+        - link [ref=f4e98] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=de&passive=true&continue=https://www.google.com/search%3Fq%3DSto%2BSE%2BSAP%2BCPQ%2BExpert%2BConsultant%2BSto%2BGroup%2BStellenangebot%26sei%3Dp-vUauWMLJHrmLQPq73U-Ac&ec=futura_srp_og_si_72236_p
+          - generic: Anmelden
+  - generic [ref=f4e100]:
+    - navigation [ref=f4e106]:
+      - list [ref=f4e109]:
+        - listitem [ref=f4e110]:
+          - link [ref=f4e113] [cursor=pointer]:
+            - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=50&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q2J8OegQICxAD
+            - generic [ref=f4e114]: KI‑Modus
+        - listitem [ref=f4e117]:
+          - link [disabled] [ref=f4e118]:
+            - generic [ref=f4e119]: Alle
+        - listitem [ref=f4e121]:
+          - link [ref=f4e122] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=jobs&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Qs6gLegQIFBAB
+            - generic [ref=f4e123]: Jobs
+        - listitem [ref=f4e125]:
+          - link [ref=f4e126] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=10&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Qs6gLegQIEhAB
+            - generic [ref=f4e127]: Jobwebsites
+        - listitem [ref=f4e129]:
+          - link [ref=f4e130] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&tbm=nws&source=lnms&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q0pQJegQIERAB
+            - generic [ref=f4e131]: News
+        - listitem [ref=f4e133]:
+          - link [ref=f4e134] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=2&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QtKgLegQIDhAB
+            - generic [ref=f4e135]: Bilder
+        - listitem [ref=f4e137]:
+          - link [ref=f4e138] [cursor=pointer]:
+            - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=39&fbs=ABfTbFUyxjQn9bne4DuflY2dNqqK-XCkS_hrNma7ZqEp6PzDAMMN4K0w-qjCRosGQ0rTTHWcUgHRP93Db3xkWtXtqGhU0VYHwRJvhqSmIJVeCVpOYhsbt90TJVPknTG3IvxRZFcIo7DHdZ3bbUlovgkci50_TD9L8bd7npf0Yksk_3ZYZ7ipRIO40RjvtFd8DUZ4tMFSVSo0&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Qs6gLegQIDxAB
+            - generic [ref=f4e139]: Kurze Videos
+        - listitem [ref=f4e141]:
+          - button [ref=f4e142] [cursor=pointer]:
+            - generic [ref=f4e143]: Mehr
+    - navigation [ref=f4e150]:
+      - navigation [ref=f4e153]:
+        - list [ref=f4e160]:
+          - listitem [ref=f4e161]:
+            - link [ref=f4e162] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot+Homeoffice&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rIQ34JB4kFnQGqcEaVwf1zCSfhN4VsA_S7rF8vtWfr-4IYjJD5s7OAWnJcVmW5pM98r1cvESF4Nt1roU1T5j-iBfdLclu0PeVZv0ekCRthPYmyz65xRNE8Ytw6evm7BTgEIkz7QOhQBMCpXl2ZDSmw8dN2z_CfgZS5aDkXjfVGbIhSm6lFH-EJU6ElGDhE0gHZZP0hw&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QxKsJKAB6BAgdEAE&ictx=0
+              - generic [ref=f4e163]: Homeoffice
+          - listitem [ref=f4e165]:
+            - listitem [ref=f4e167]:
+              - button [ref=f4e169] [cursor=pointer]:
+                - generic [ref=f4e170]: Jobtyp
+          - listitem [ref=f4e176]:
+            - listitem [ref=f4e178]:
+              - button [ref=f4e180] [cursor=pointer]:
+                - generic [ref=f4e181]: Veröffentlicht
+    - heading [level=1] [ref=f4e187]: Suchergebnisse
+    - generic [ref=f4e193]:
+      - generic [ref=f4e194]: Looking for results in English?
+      - link [ref=f4e195] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=f4e199] [cursor=pointer]:
+        - /url: /setprefs?sig=0_YWIJ7GMQFvQsP5d40awamSfyDwY%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DSto%2BSE%2BSAP%2BCPQ%2BExpert%2BConsultant%2BSto%2BGroup%2BStellenangebot%26sei%3Dp-vUauWMLJHrmLQPq73U-Ac&hl=en&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QhoQCKAF6BAgaEAQ
+        - text: Change to English
+      - link [ref=f4e200] [cursor=pointer]:
+        - /url: "#"
+        - text: Weiter auf Deutsch anzeigen
+      - link [ref=f4e202] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=de&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QiIQCKAN6BAgaEAY#languages
+        - text: Spracheinstellungen
+    - main [ref=f4e204]:
+      - generic [ref=f4e210]:
+        - heading [level=2] [ref=f4e211]:
+          - generic [ref=f4e218]: Beiertheim - Bulach, Karlsruhe
+        - generic [ref=f4e220]:
+          - text: ∙
+          - button [ref=f4e221] [cursor=pointer]: Region auswählen
+        - button [ref=f4e224] [cursor=pointer]
+      - generic [ref=f4e231]:
+        - generic [ref=f4e234]:
+          - heading [level=2] [ref=f4e235]: Webergebnisse
+          - generic [ref=f4e236]:
+            - generic [ref=f4e239]:
+              - link [ref=f4e241] [cursor=pointer]:
+                - /url: /goto?url=CAEStgEB6zswFWnbMVgPBPaKH0sTtg6pFoqqNDK2Q6mvwyWaA5dd383SN1BWtDrjxBiGoQ7ARqvDH4Dxff-J0Os6tK-9tYDv8ARkT-048YoYCnj9JrvGhX84_cXgLBktiwgEmtUntySegHPi9fVlT6pZhxbbe1FbpanrQ7JoVe_yXHocjG-FrioFHe1MVqGx_FuM6moiUgSE0SKPdtDLUoS8Ka9bYLa31W8H48gH4RHGdSmw_mTQ7fxPeg
+                - heading [level=3] [ref=f4e242]: "- SAP CPQ Expert Consultant Sto Group (w/m/d)"
+                - generic [ref=f4e248]:
+                  - generic [ref=f4e249]: Sto.com
+                  - generic [ref=f4e251]: https://careers.sto.com › prj › shw › SAP_CPQ_Expert_C...
+              - button [ref=f4e257] [cursor=pointer]
+            - generic [ref=f4e264]:
+              - text: "Das liegt in Ihrer Verantwortung: Beratung unserer Kunden bei der Einführung, Konfiguration und Weiterentwicklung von"
+              - emphasis [ref=f4e265]: SAP CPQ
+              - text: (Configure, Price, Quote)-Lösungen ...
+        - generic [ref=f4e270]:
+          - heading [level=2] [ref=f4e272]: Jobwebsites
+          - list [ref=f4e275]:
+            - listitem [ref=f4e276]:
+              - generic [ref=f4e279]:
+                - link [ref=f4e280] [cursor=pointer]:
+                  - /url: /goto?url=CAESbAHrOzAV72HOR-1gWZvRwZaK0NCsPDBKL0XbCId7xVz0LV0AQRxpZXKY62e5JF2rY8161Yd8IAx8vpJFqM9qbe4YwaCEw9lW7OBqqj4U1PKQmxGoStbwWY9hTr2tB73Sjz9P7IUzp4kjePT9kA
+                - heading [level=3] [ref=f4e282]:
+                  - generic [ref=f4e283]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+                - generic [ref=f4e284]: Indeed Deutschland
+            - listitem [ref=f4e292]:
+              - generic [ref=f4e295]:
+                - link [ref=f4e296] [cursor=pointer]:
+                  - /url: /goto?url=CAESvQEB6zswFdLKimh0wCmuUCgGO8ZP0bJVdad3jNlhvFqCfGhKvcM-8nzQgGk9lZVW2ySsGl9xOBuxHfUsaDSud4-1djZMmuVv3BR2J_wYBWmf3OdI8yhcWw23Lv2ZSZV1OA18htQ3y1KA0mEnImkGt16g4KOWfreWVSLP8KBGBQynPRRsFgQSFYYDQ-xTAC6vRBXN3R891jFeSk-ge6AWTIfQwu97JinN6jpHTBaAuVd8OMBg7DKrQJuxQQt96HA
+                - heading [level=3] [ref=f4e298]:
+                  - generic [ref=f4e299]: STO bietet Job als SAP CPQ Expert Consultant Sto Group (w/m/d) in Stühlingen
+                - generic [ref=f4e300]: Glassdoor Jobsuche
+            - listitem [ref=f4e308]:
+              - generic [ref=f4e311]:
+                - link [ref=f4e312] [cursor=pointer]:
+                  - /url: /goto?url=CAEShgEB6zswFfURcINhzRmZQEqjfKhJ_eKUvtLPlFQEmWJSF3aWHufJqDqe3aiFRkY0W5PjZDVEayhiFw77WQnsnVoIaIlQ496_QIjnMOETV2BRTCe5kLDBF6oI_L6rlh0Z7O-qQG8-jJ8EXuHtus-AI7NenUyCixQwylTnBQfHg_PV0DW2VoKtQg
+                - heading [level=3] [ref=f4e314]:
+                  - generic [ref=f4e315]: SAP CPQ Expert Consultant Sto Group in Stühlingen, BADEN_WUERTTEMBERG - Sto SE & Co. KGaA
+                - generic [ref=f4e316]: Trabajo.org
+            - listitem [ref=f4e324]:
+              - generic [ref=f4e327]:
+                - link [ref=f4e328] [cursor=pointer]:
+                  - /url: /goto?url=CAESpwEB6zswFSlPnQjs0SKCwZApqsydaNiiwpbiI9QiwVEE2pmGp2r4Ma-HxKG6gSWoIWZR-9A2RnyK5mZ1uG9Gv7yFL4nkKiW14xlDqAtsEL8cpyuJ7RBe3TKjfPirpm77gboHhNEsJMF4EcydnY2-_cm-PqgSGXH9sxJ6l4jNfolr5rPzeyOJPuONKQ6_3e8N9EeTftwsT1EWjl7c1DFduk0_gvfZRc-z-A
+                - heading [level=3] [ref=f4e330]:
+                  - generic [ref=f4e331]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+                - generic [ref=f4e332]: StudySmarter
+          - link [ref=f4e341] [cursor=pointer]:
+            - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=10&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4QhbILegQICBA6
+            - separator [aria-hidden] [ref=f4e342]
+            - generic [ref=f4e343]: Weitere Websites
+        - generic [ref=f4e352]:
+          - generic [ref=f4e353]:
+            - heading [level=2] [ref=f4e355]: Stellenangebote
+            - button [ref=f4e357]:
+              - generic [ref=f4e358]: Folgen
+          - tablist [ref=f4e361]:
+            - tab [selected] [ref=f4e362] [cursor=pointer]:
+              - generic [ref=f4e363]: Offene Stellen
+            - tab [ref=f4e365] [cursor=pointer]:
+              - generic [ref=f4e366]: Gespeicherte Stellenanzeigen
+            - tab [ref=f4e369] [cursor=pointer]:
+              - generic [ref=f4e370]: Folge ich
+          - generic [ref=f4e373]:
+            - generic [ref=f4e376]:
+              - generic [ref=f4e385] [cursor=pointer]:
+                - generic [ref=f4e386]:
+                  - button [ref=f4e387]:
+                    - generic [ref=f4e388]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+                    - generic [ref=f4e389]: Sto SE & Co. KGaA
+                    - generic [ref=f4e390]: Stühlingen • über Careers.sto.com
+                  - generic [ref=f4e391]:
+                    - button [ref=f4e393]
+                    - button [ref=f4e399]
+                - generic [ref=f4e405]:
+                  - generic [ref=f4e406]: Vollzeit
+                  - generic [ref=f4e411]: Freiw. Altersvorsorge
+              - generic [ref=f4e427] [cursor=pointer]:
+                - generic [ref=f4e428]:
+                  - button [ref=f4e429]:
+                    - generic [ref=f4e430]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+                    - generic [ref=f4e431]: Sto SE & Co. KGaA
+                    - generic [ref=f4e432]: Schweiz (+ 2 weitere Standorte) • über Talents By StudySmarter
+                  - generic [ref=f4e433]:
+                    - button [ref=f4e435]
+                    - button [ref=f4e441]
+                - generic [ref=f4e447]:
+                  - generic [ref=f4e448]: 50.000 € bis 65.000 € pro Jahr
+                  - generic [ref=f4e454]: Vollzeit
+                  - generic [ref=f4e459]: Freiw. Altersvorsorge
+            - link [ref=f4e469] [cursor=pointer]:
+              - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&udm=jobs&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q3L8LegQIJxAM
+              - separator [aria-hidden] [ref=f4e470]
+              - generic [ref=f4e471]: Mehr Stellenausschreibungen ansehen
+          - generic [ref=f4e477]:
+            - group [ref=f4e478]:
+              - button [ref=f4e479] [cursor=pointer]: Feedback
+            - link [ref=f4e480] [cursor=pointer]:
+              - /url: https://support.google.com/websearch/?p=job_search_box&hl=de
+              - text: Weitere Informationen
+        - generic [ref=f4e483]:
+          - heading [level=2] [ref=f4e484]: Webergebnisse
+          - generic [ref=f4e485]:
+            - generic [ref=f4e488]:
+              - link [ref=f4e490] [cursor=pointer]:
+                - /url: /goto?url=CAESbAHrOzAVAjleLGlVGeEkcs5jMsHOmUhNS7I5Fh5rbHePTMwF-xvlJU_86vs-3jq_4ENGbRrhTHhG3RzVTjJ3XDrtvodXQwFw3eezld_WPxyk6Kx64GhljI4Ej1VxyTPkuGrSLaGyGoNy2we6aw
+                - heading [level=3] [ref=f4e491]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+                - generic [ref=f4e497]:
+                  - generic [ref=f4e498]: Indeed Deutschland
+                  - generic [ref=f4e500]: https://de.indeed.com › viewjob
+              - button [ref=f4e506] [cursor=pointer]
+            - generic [ref=f4e513]:
+              - emphasis [ref=f4e514]: SAP CPQ Expert Consultant Sto Group (w/m/d
+              - text: ). Für die Abteilung Competence Center Business Applications, Gruppe Costumer Engagement, suchen wir Sie am Standort ...
+        - generic [ref=f4e518]:
+          - generic [ref=f4e521]:
+            - link [ref=f4e523] [cursor=pointer]:
+              - /url: /goto?url=CAESjwEB6zswFW-Yc6sCfBOm_8s7itLhbDk4qSmsK-WDl-rXmtXNB7aGiLZ08qkXTs9fkdULLh6IYh3dsbqUINXawJzs4d2h0IUMcP-0k8srUUenBjhcqOjLRkq9sshoPf6BJNDENW98kijIYtFCGV90i0HoNmlc99qkuBK2kuD4qLCL-wogFfNpbsNQZZ77cTCbcQ
+              - heading [level=3] [ref=f4e524]: SAP CPQ Expert Consultant Sto Group
+              - generic [ref=f4e530]:
+                - generic [ref=f4e531]: WeAreDevelopers
+                - generic [ref=f4e533]: https://www.wearedevelopers.com › jobs › ext › 31214...
+            - button [ref=f4e539] [cursor=pointer]
+          - generic [ref=f4e545]:
+            - generic [ref=f4e546]: 27.09.2026 —
+            - text: Job description · Analyse und Optimierung von Angebots- und Vertriebsprozessen in enger Abstimmung mit den Fachabteilungen. · Erstellung von ...
+        - generic [ref=f4e550]:
+          - generic [ref=f4e553]:
+            - link [ref=f4e555] [cursor=pointer]:
+              - /url: /goto?url=CAESpwEB6zswFRJGAIMhxiPMAhlGhpFLk3ZBwnsmqz8hebrW_AoEu-TzobnQyfxr6YkO1biO1gAJcvPeoqUNiYgUqET1YNCc-vDymrIbdoDebKNY0ApEbt2NC1kvXT-f2Jf7QS-PA4RHULKbUHHrPpPmGp1F5aaN6Set-f3xC2EdLknScW3Wwc9oJUU7pOgKwKSqqgUUzzzv59r6McFxUsNBKQ03_H6E7hablg
+              - heading [level=3] [ref=f4e556]: SAP CPQ Expert Consultant Sto Group (w/m/d)
+              - generic [ref=f4e562]:
+                - generic [ref=f4e563]: StudySmarter
+                - generic [ref=f4e565]: https://talents.studysmarter.de › ... › Sto SE & Co. KGaA
+            - button [ref=f4e571] [cursor=pointer]
+          - generic [ref=f4e578]:
+            - emphasis [ref=f4e579]: Starte durch als SAP CPQ Expert Consultant Sto Group (w/m/d
+            - text: ) bei Sto SE & Co. KGaA Jetzt einfach bewerben auf Europas größter Gen-Z Job-Plattform!
+        - generic [ref=f4e583]:
+          - generic [ref=f4e586]:
+            - link [ref=f4e588] [cursor=pointer]:
+              - /url: /goto?url=CAESjgEB6zswFSp6zi4HOEXDiIfjUwmCVj6EpxMGnjRruBCfaxxk7m0Ce9SP0yYUptVOelrySY6hDJEZ5yRU4CgyvbzW_4PDtEQSLmsMk15xzmcJHJyoUNv0Pgztng9WBMHENHg5Nv34i8ISJC2qPnU-djvkkk7L89nLiRGl2O5LWHBse0-daqyWAgyKMuHNsJuq
+              - heading [level=3] [ref=f4e589]: Jetzt bewerben als SAP CPQ Expert Consultant ...
+              - generic [ref=f4e595]:
+                - generic [ref=f4e596]: Sto.com
+                - generic [ref=f4e598]: https://careers.sto.com › bewerber › landingpage
+            - button [ref=f4e604] [cursor=pointer]
+          - generic [ref=f4e611]:
+            - text: "Bewerbung auf die Position:"
+            - emphasis [ref=f4e612]: SAP CPQ Expert Consultant Sto Group
+            - text: (w/m/d) · Persönliche Angaben Pflichtangaben · Kontakt · Dokumente · Bewerbung absenden.
+        - generic [ref=f4e616]:
+          - generic [ref=f4e619]:
+            - link [ref=f4e621] [cursor=pointer]:
+              - /url: /goto?url=CAESgQEB6zswFTcEYGxSU6m3KuUKy4CFpNhT7PIEZ5r6t_vqIYjxdjry5cEiUleBC-WaYjezT6t-ZDe6MAzCcMqg67RSIIszVzmgMLadhmtB3QEgLCeqaQCiZ5ZAUPRo5WfCpkLigUvnJtjnyGd1sFUVJFsfgTxi4VoAVwrnPeAv5Of4LsE
+              - heading [level=3] [ref=f4e622]: "SAP: 3 Jobs & Stellenangebote in Stühlingen"
+              - generic [ref=f4e628]:
+                - generic [ref=f4e629]: jobs.heise.de
+                - generic [ref=f4e631]: https://jobs.heise.de › SAP
+            - button [ref=f4e637] [cursor=pointer]
+          - generic [ref=f4e644]:
+            - emphasis [ref=f4e645]: SAP CPQ Expert Consultant Sto Group
+            - text: (w/m/d).
+            - emphasis [ref=f4e646]: Sto SE
+            - text: "& Co. KGaA. vor mehr als 30 Tagen. Vollzeit. 79780 Stühlingen. Bereichern Sie unser Team. Bringen Sie Ihre ..."
+        - generic [ref=f4e650]:
+          - generic [ref=f4e653]:
+            - link [ref=f4e655] [cursor=pointer]:
+              - /url: /goto?url=CAESowEB6zswFdcB5deOjVW_PKmH2OcIwGgJXg3Z4eJGBhius8nLok3G6Os4YLlumUGipJEA48yTbqMD0Wo_gbKBW5DjQfEXioYyqRacDGMpNvxl13mlDD-nmHf0DkZkg-ocZgWxUgOP4Y4fSsAcKTIwuHeKzcKw77xFKleyqb97Zc1dXvkG1kd42gFdPJdwARTv9q_9PrJx_Rh4wtI3sPDeI8i1LfY8
+              - heading [level=3] [ref=f4e656]: CPQ Operations jobs in Stühlingen - RevPath - DealHub AI
+              - generic [ref=f4e662]:
+                - generic [ref=f4e663]: RevPath
+                - generic [ref=f4e665]: https://revpath.dealhub.io › jobs
+            - generic [ref=f4e667]:
+              - generic [ref=f4e668]: ·
+              - link [ref=f4e669] [cursor=pointer]:
+                - /url: /goto?url=CAES7QEB6zswFWd7F3-5G1tgt06BhEY0nWGCjyhYyLD-zktseUvIL4xhgmTogpvQW_4M6U0zGe4lvKOkHRyLO8aFmTZbB75ET-68WzTF37Y52uLbmg9l59y5giN0mUfPMCJxxJ5yDczz9vUPtNFAoAh_XaNmSWzcKYCgZ6JByogjmf-_acP7EzgEV_vvUH8zvfsUzvZjx-zfgXDyw5gecuAY3DUq7R_z58TdEhcqoXoMqbHXdG85SUGYATE90ePvqQxdMM2xQw_onnYCaUfTeBlxaEgt7zFV8xwiXLhDPc_6qO72Attk79OeUbEC2j6mwSA
+                - text: Diese Seite übersetzen
+            - button [ref=f4e674] [cursor=pointer]
+          - generic [ref=f4e681]:
+            - text: CPQ Operations jobs in Stühlingen ;
+            - emphasis [ref=f4e682]: SAP CPQ Expert Consultant Sto Group (w/m/d
+            - text: ) · Stühlingen, Baden-Württemberg, Germany · 4m ago ; SAP CPQ Expert Consultant (m/w/d).
+        - generic [ref=f4e686]:
+          - generic [ref=f4e689]:
+            - link [ref=f4e691] [cursor=pointer]:
+              - /url: /goto?url=CAEShgEB6zswFX6G6nefqtmESFButrS35MPFbe7ykbJKAryOaEgRn8_ieAowHPpcKyHEStDdO0oAyXFJzYRR2Wq0AsS1xUQNkL6woFfEnpOpQf5zwVY7BL60J_1fBpSDRQJV2iFBWv4x58HH2lFEDR10Fl9NNClhRhG_raD9tmQu84MvMxLPBc71pw
+              - heading [level=3] [ref=f4e692]: Stellenangebote SAP Consultant Villingen-Schwenningen ...
+              - generic [ref=f4e698]:
+                - generic [ref=f4e699]: kimeta.de
+                - generic [ref=f4e701]: https://www.kimeta.de › ... › Villingen-Schwenningen
+            - button [ref=f4e707] [cursor=pointer]
+          - generic [ref=f4e713]:
+            - generic [ref=f4e714]: 27.09.2026 —
+            - generic [ref=f4e715]:
+              - text: ... Stellenangebote SAP Consultant Villingen-Schwenningen Jobs, Jobbörse ...
+              - emphasis [ref=f4e716]: Sto SE & Co. KGaA. SAP CPQ Expert Consultant Sto Group
+              - text: (w/m/d). 79780 ...
+        - generic [ref=f4e720]:
+          - generic [ref=f4e723]:
+            - link [ref=f4e725] [cursor=pointer]:
+              - /url: /goto?url=CAESgwEB6zswFfWoi3BRtaXd2VKscnERtX9qmCq0b6rhcT3npQXf5rPQryZ02Uhtvsr3hIVsHZwnLuUKoDy4Jtc7hHQ60Qi8MnZlNzmyNc2l1NPmfMVMzzkxj5TM6Jzox-C0f9Pl7QW_UkjOABu4xWC5fDNzMT28mhg4aqFYEcT-l6kmao2IOQ
+              - heading [level=3] [ref=f4e726]: Sap cpq berater (m/w/d) - Stühlingen
+              - generic [ref=f4e732]:
+                - generic [ref=f4e733]: Jobijoba
+                - generic [ref=f4e735]: https://www.jobijoba.de › detailanzeige
+            - button [ref=f4e741] [cursor=pointer]
+          - generic [ref=f4e748]:
+            - emphasis [ref=f4e749]: Consultant
+            - text: . 65.000 € - 90.000 € pro Jahr. Ähnliches Angebot.
+            - emphasis [ref=f4e750]: Sap cpq expert consultant sto group
+            - text: (w/m/d). Stühlingen. Stocretec-Gmbh.
+            - emphasis [ref=f4e751]: Consultant
+            - text: . 60.000 € - ...
+          - generic [ref=f4e753]:
+            - text: "Es fehlt: SE ‎| Suchen mit:"
+            - link [ref=f4e754] [cursor=pointer]:
+              - /url: /search?sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&q=Sto+%22SE%22+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sa=X&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q5t4CegQITxAB
+              - text: SE
+      - navigation [ref=f4e757]:
+        - heading [level=1] [ref=f4e758]: Seitennavigation
+        - text: "1"
+        - link [ref=f4e761] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=10&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAE
+          - text: "2"
+        - link [ref=f4e763] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=20&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAG
+          - text: "3"
+        - link [ref=f4e765] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=30&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAI
+          - text: "4"
+        - link [ref=f4e767] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=40&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAK
+          - text: "5"
+        - link [ref=f4e769] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=50&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAM
+          - text: "6"
+        - link [ref=f4e771] [cursor=pointer]:
+          - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=60&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8tMDegQIORAO
+          - text: "7"
+        - heading [level=2] [ref=f4e773]:
+          - link [ref=f4e774] [cursor=pointer]:
+            - /url: /search?q=Sto+SE+SAP+CPQ+Expert+Consultant+Sto+Group+Stellenangebot&sca_esv=3ddd13017353c9d1&sxsrf=APpeQnsnMpd53WJIwuwa1biQ_pFjysxiOg:1792338856061&ei=qOvUaqvgAs-aruEP55HU8Aw&start=10&sa=N&sstk=AS6-VmK_hYwFJEjnc0qAlUmi-es5CG6cnrtVW_xZDt8qubTN9oFew-CFpyp1HfrpeZyYDVBm-LGmC3eHdkMRiwTpf-cq0CQ284S3vQ&ved=2ahUKEwir1NPG9sOXAxVPjSsGHecIFc4Q8NMDegQIORAQ
+            - generic [ref=f4e776]: Weiter
+    - contentinfo [ref=f4e777]:
+      - heading [level=1] [ref=f4e778]: Fußzeilenlinks

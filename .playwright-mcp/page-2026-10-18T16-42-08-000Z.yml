@@ -1,0 +1,267 @@
+- generic [ref=f5e4]:
+  - link "Skip to main content" [ref=f5e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f5e8]:
+    - generic [ref=f5e10]:
+      - link [ref=f5e13] [cursor=pointer]:
+        - /url: https://www.careers.philips.com
+        - img "careers home" [ref=f5e14]
+      - heading "Careers" [level=1] [ref=f5e16]
+      - generic [ref=f5e18]:
+        - generic [ref=f5e19]:
+          - button "English" [ref=f5e21] [cursor=pointer]
+          - button "Sign In" [ref=f5e27] [cursor=pointer]
+        - navigation [ref=f5e33]:
+          - button "Careers Home" [ref=f5e34] [cursor=pointer]
+          - button "Search for Jobs" [ref=f5e35] [cursor=pointer]
+  - main [ref=f5e102]:
+    - generic [ref=f5e103]:
+      - generic [ref=f5e104]:
+        - link "Back to Job Posting" [ref=f5e106] [cursor=pointer]
+        - heading "E-Commerce Data, Automation & AI Manager (m/w/d)" [level=2] [ref=f5e111]
+      - generic "Application Progress" [ref=f5e112]:
+        - list [ref=f5e113]:
+          - listitem [ref=f5e114]:
+            - generic: completed step 1 of 6
+            - generic [ref=f5e120]: My Information
+          - listitem [ref=f5e121]:
+            - generic: completed step 2 of 6
+            - generic [ref=f5e127]: My Experience
+          - listitem [ref=f5e128]:
+            - generic: completed step 3 of 6
+            - generic [ref=f5e134]: Application Questions 1 of 2
+          - listitem [ref=f5e135]:
+            - generic: completed step 4 of 6
+            - generic [ref=f5e141]: Application Questions 2 of 2
+          - listitem [ref=f5e142]:
+            - generic: current step 5 of 6
+            - generic [ref=f5e148]: Voluntary Disclosures
+          - listitem [ref=f5e149]:
+            - generic: step 6 of 6
+            - generic [ref=f5e155]: Review
+      - generic [ref=f5e156]:
+        - generic [ref=f5e157]:
+          - heading "Voluntary Disclosures" [level=3] [ref=f5e866]
+          - generic [ref=f5e159]: "* Indicates a required field"
+          - group [ref=f5e868]:
+            - heading "Terms and Conditions" [level=4] [ref=f5e869]
+            - generic [ref=f5e870]:
+              - generic [ref=f5e873]:
+                - paragraph [ref=f5e874]: Privacy Notice Workday Career
+                - paragraph [ref=f5e875]
+                - paragraph [ref=f5e876]: "Last updated: October 9, 2023"
+                - paragraph [ref=f5e877]
+                - paragraph [ref=f5e878]: Philips International B.V., Amstelplein 2, 1096 BC Amsterdam, the Netherlands (“Philips”), wants you to be familiar with how we collect, use, and disclose information. This Privacy Notice describes our practices in connection with information that we collect through Workday, an online application system, from which you are accessing this Privacy Notice (“Workday”).
+                - paragraph [ref=f5e879]
+                - paragraph [ref=f5e880]: About Workday
+                - paragraph [ref=f5e881]: Workday is a global HR Information Solution that enables Philips to organize job applications. Candidates can apply for a position within Philips anywhere in the world via Workday. Candidates can create a profile and apply for a specific vacancy. Data is stored in two data centers of Workday, located in the European Union (Dublin and Amsterdam).
+                - paragraph [ref=f5e882]
+                - paragraph [ref=f5e883]: What Personal Data is collected?
+                - paragraph [ref=f5e884]: "“Personal Data” are data that identify you as an individual or relate to an identifiable individual. For the purpose of the job application, we collect the following Personal Data:"
+                - paragraph [ref=f5e885]
+                - paragraph [ref=f5e886]: "Mandatory information:"
+                - list [ref=f5e887]:
+                  - listitem [ref=f5e888]: Name
+                  - listitem [ref=f5e889]: Email address
+                  - listitem [ref=f5e890]: Country of Residence
+                  - listitem [ref=f5e891]: Phone Number
+                  - listitem [ref=f5e892]: How did you hear about us?
+                  - listitem [ref=f5e893]: Are you a former Philips employee or Intern?
+                  - listitem [ref=f5e894]: Questionnaire(s) (answers required)
+                - paragraph [ref=f5e895]
+                - paragraph [ref=f5e896]: "Optional information:"
+                - list [ref=f5e897]:
+                  - listitem [ref=f5e898]: Home address
+                  - listitem [ref=f5e899]: Work Experience
+                  - listitem [ref=f5e900]: Education
+                  - listitem [ref=f5e901]: Skills
+                  - listitem [ref=f5e902]: Additional documents (e.g. motivation letter)
+                  - listitem [ref=f5e903]: URL Personal Website
+                  - listitem [ref=f5e904]: Social Media accounts
+                  - listitem [ref=f5e905]: Questionnaire(s) (answers optional)
+                  - listitem [ref=f5e906]: Gender
+                - paragraph [ref=f5e907]
+                - paragraph [ref=f5e908]: "For US job openings only:"
+                - list [ref=f5e909]:
+                  - listitem [ref=f5e910]:
+                    - text: Voluntary Disclosures Equal Employment
+                    - list [ref=f5e911]:
+                      - listitem [ref=f5e912]: Gender
+                      - listitem [ref=f5e913]: Ethnicity
+                      - listitem [ref=f5e914]: Protected Veteran
+                - paragraph [ref=f5e915]
+                - paragraph [ref=f5e916]: "Note: in case you apply with LinkedIn, some of the data-elements mentioned above, are prepopulated."
+                - paragraph [ref=f5e917]
+                - paragraph [ref=f5e918]: We need to collect Personal Data in order to allow you to participate in the job application process through Workday. If you do not provide the information that we request, you may not be able to participate in this process. Where permitted, we optionally collect personal data including gender, sexual orientation, and disability to encourage diversity in our hiring process. These datasets are technically aggregated to avoid the identification of specific job applicants and have no impact on the individual position being applied for. Nonetheless, as sharing this information is voluntary in nature, you do not have to disclose this information to participate in the process.
+                - paragraph [ref=f5e919]
+                - paragraph [ref=f5e920]: How is Personal Data collected?
+                - paragraph [ref=f5e921]: "We and our service providers collect Personal Data in a variety of ways, including:"
+                - paragraph [ref=f5e922]
+                - list [ref=f5e923]:
+                  - listitem [ref=f5e924]: "Through Workday: We collect Personal Data through Workday, e.g., when you sign up for Workday and apply for a position; and"
+                - paragraph [ref=f5e925]
+                - list [ref=f5e926]:
+                  - listitem [ref=f5e927]: "From other sources: If you connect your social media account to your Workday account, you will share certain Personal Data from your social media account with us, such as, your name, email address, photo, list of social media connects, and any other information that you choose to make accessible to us."
+                - paragraph [ref=f5e928]
+                - paragraph [ref=f5e929]: If you disclose any Personal Data about other people to us or to our service providers in connection with Workday, you represent that you have the authority to do so and to permit us to use the information in accordance with this Privacy Notice.
+                - paragraph [ref=f5e930]
+                - paragraph [ref=f5e931]: What is the purpose of the collection of Personal Data?
+                - paragraph [ref=f5e932]: "We and our service providers use Personal Data for our legitimate business purposes including:"
+                - paragraph [ref=f5e933]
+                - list [ref=f5e934]:
+                  - listitem [ref=f5e935]:
+                    - text: Human resources and personal management
+                    - list [ref=f5e936]:
+                      - listitem [ref=f5e937]: To manage and administer our external recruitment and application process.
+                - paragraph [ref=f5e938]
+                - paragraph [ref=f5e939]: We will engage in these activities because we have a legitimate interest to fulfil job positions within our organization.
+                - paragraph [ref=f5e940]
+                - paragraph [ref=f5e941]: With whom is Personal Data shared?
+                - paragraph [ref=f5e942]: "We disclose your Personal Data:"
+                - list [ref=f5e943]:
+                  - listitem [ref=f5e944]: To our Philips’ affiliates for the purposes described in this Privacy Notice.
+                  - listitem [ref=f5e945]:
+                    - text: "To our third-party service providers, including:"
+                    - list [ref=f5e946]:
+                      - listitem [ref=f5e947]: Workday Inc. (6230 Stoneridge Mall Road Pleasanton, CA 94588 USA) who provide services such as website hosting, data analysis, information technology and related infrastructure provision and other services.
+                      - listitem [ref=f5e948]: Omniture Adobe (Adobe Systems, Inc. 345 Park Ave. San Jose, CA 95110-2704) for the use of cookies.
+                - paragraph [ref=f5e949]
+                - paragraph [ref=f5e950]: Other uses and disclosures
+                - paragraph [ref=f5e951]: "We also use and disclose your Personal Data if you have opted-in to such use or in case this is necessary or appropriate, especially when we have a legal obligation or legitimate interest to do so:"
+                - paragraph [ref=f5e952]
+                - list [ref=f5e953]:
+                  - listitem [ref=f5e954]:
+                    - text: To apply for future job positions.
+                    - list [ref=f5e955]:
+                      - listitem [ref=f5e956]: If you give us your consent, we will process your personal data to identify you as a potential candidate for future job opportunities within your job preference and interest (if indicated) and contact you accordingly in order to inform you about these job positions.
+                - paragraph [ref=f5e957]
+                - list [ref=f5e958]:
+                  - listitem [ref=f5e959]:
+                    - text: To comply with applicable law;
+                    - list [ref=f5e960]:
+                      - listitem [ref=f5e961]: This can include laws outside your country of residence.
+                - paragraph [ref=f5e962]
+                - list [ref=f5e963]:
+                  - listitem [ref=f5e964]:
+                    - text: To respond to requests from public and government authorities;
+                    - list [ref=f5e965]:
+                      - listitem [ref=f5e966]: These can include authorities outside your country of residence.
+                - paragraph [ref=f5e967]
+                - paragraph [ref=f5e968]: Does Workday use cookies?
+                - paragraph [ref=f5e969]: Cookies are small pieces of information, which are issued to your computer or mobile device when you visit a website. Cookies are then sent back to the originating website on each subsequent visit, or to another website that recognizes that cookie.
+                - paragraph [ref=f5e970]
+                - paragraph [ref=f5e971]: Cookies are useful because they allow a website to recognize a user’s device, let you navigate between pages efficiently, remember your preferences, and generally improve the user experience. Some of the cookies issued by the Workday web server last only for the duration of your web session and expire when you close your browser. Other cookies are used to remember you when you return to our web site(s) and will last longer.
+                - paragraph [ref=f5e972]
+                - paragraph [ref=f5e973]: Most web browsers automatically accept cookies. If you prefer, you may change your browser settings to prevent that or to notify you each time a cookie is set. For further information on cookies, including how to see what cookies have been set on your device and how to manage and delete them using different types of browsers, visit www.allaboutcookies.org.
+                - paragraph [ref=f5e974]
+                - paragraph [ref=f5e975]: The ability to enable, disable or delete cookies can also be completed at browser level. In order to do this, follow the instructions provided by your browser (usually located within the “Help”, “Tools” or “Edit” facility). Disabling a cookie or category of cookies does not delete the cookie from your browser, you will need to do this yourself from within your browser.
+                - paragraph [ref=f5e976]:
+                  - text: Please note however, that by blocking or deleting cookies used on a Workday web site you may not be able to take full advantage of the site. For more information about Workday use of cookies, or Workday privacy statement, please visit
+                  - link "http://www.workday.com/company/privacy.php" [ref=f5e977] [cursor=pointer]:
+                    - /url: http://www.workday.com/company/privacy.php
+                - paragraph [ref=f5e978]
+                - paragraph [ref=f5e979]: Security
+                - paragraph [ref=f5e980]: We seek to use reasonable organizational, technical, and administrative measures to protect Personal Data within our organization. If you have reason to believe that your interaction with us is no longer secure, please immediately notify us in accordance with the “How can you contact us?” section below.
+                - paragraph [ref=f5e981]
+                - paragraph [ref=f5e982]
+                - paragraph [ref=f5e983]: What are your rights?
+                - paragraph [ref=f5e984]: If you would like to correct or update your Personal Data, Workday permits you to change the personal data you have provided in your account. You can enable this self-service functionality by signing into your Workday profile account and then click on the link ‘Update contact information’.
+                - paragraph [ref=f5e985]
+                - paragraph [ref=f5e986]: "If you would like to:"
+                - list [ref=f5e987]:
+                  - listitem [ref=f5e988]:
+                    - paragraph [ref=f5e989]: ask questions about how we handle Personal Data.
+                  - listitem [ref=f5e990]:
+                    - paragraph [ref=f5e991]: request to review, correct, update, suppress or restrict the use of your Personal Data.
+                  - listitem [ref=f5e992]:
+                    - paragraph [ref=f5e993]: request that your Personal Data be removed from our database.
+                  - listitem [ref=f5e994]:
+                    - paragraph [ref=f5e995]: object to our use of your Personal Data, or
+                  - listitem [ref=f5e996]:
+                    - paragraph [ref=f5e997]: request to receive an electronic copy of your Personal Data for purposes of transmitting it to another company (to the extent this right to data portability is provided to you by applicable law),
+                - paragraph [ref=f5e998]
+                - paragraph [ref=f5e999]:
+                  - text: please submit a privacy complaint/question or contact our Data Protection Officer. We have created a
+                  - link "Privacy Contact Form" [ref=f5e1000] [cursor=pointer]:
+                    - /url: https://www.philips.nl/c-e/privacy-request
+                  - text: for this purpose. We will respond to your request consistent with applicable law.
+                - paragraph [ref=f5e1001]
+                - paragraph [ref=f5e1002]: In your request, please make clear what Personal Data you would like to have changed, whether you would like to have your Personal Data suppressed from our database, or otherwise let us know what limitations you would like to put on our use of your Personal Data. For your protection, we only implement requests with respect to the Personal Data associated with the particular email address that you use to send us your request, and we may need to verify your identity before implementing your request. We will try to comply with your request as soon as reasonably practicable.
+                - paragraph [ref=f5e1003]
+                - paragraph [ref=f5e1004]: Please note that we need to retain certain information to complete the application procedure that you began prior to requesting a change or deletion (e.g., when you apply for a position, you are not able to change or delete the relevant Personal Data provided until after the application procedure, unless you indicate that you wish to withdraw your application.
+                - paragraph [ref=f5e1005]
+                - paragraph [ref=f5e1006]: There may also be residual information that will remain within our databases and other records, which will not be removed.
+                - paragraph [ref=f5e1007]
+                - paragraph [ref=f5e1008]: How long will the Personal Data be kept?
+                - paragraph [ref=f5e1009]: "We will retain your Personal Data for as long as needed or permitted in light of the purpose(s) for which it was obtained and consistent with applicable law. The criteria used to determine our retention periods include:"
+                - paragraph [ref=f5e1010]
+                - list [ref=f5e1011]:
+                  - listitem [ref=f5e1012]: the length of time we have an ongoing relationship with you (for example, the length of time of the job application procedure).
+                  - listitem [ref=f5e1013]: whether there is a legal obligation to which we are subject; or
+                  - listitem [ref=f5e1014]: whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation, or regulatory investigations).
+                - paragraph [ref=f5e1015]
+                - paragraph [ref=f5e1016]: For the purpose of the application procedure in Workday, we will retain your Personal Data for a period of four (4) weeks after the application procedure has ended.
+                - paragraph [ref=f5e1017]
+                - paragraph [ref=f5e1018]: If you choose to opt-in in order for Philips to contact you for future job positions, we will retain your Personal Data for a period of one (1) year.
+                - paragraph [ref=f5e1019]
+                - paragraph [ref=f5e1020]: If you are located in the United States and you apply for a position in the United States, we will retain your personal data for a minimum period of 3 years after the application procedure has ended due to legal requirements.
+                - paragraph [ref=f5e1021]
+                - paragraph [ref=f5e1022]
+                - paragraph [ref=f5e1023]: Jurisdiction and cross-border transfer
+                - paragraph [ref=f5e1024]: Your Personal Data can be stored and processed in any country where we have facilities or in which we engage service providers. By using Workday, you consent to the transfer of information to countries outside of your country of residence, including the United States of America, which can have data protection rules that are different from those of your country. In certain circumstances, courts, law enforcement agencies, regulatory agencies or security authorities in those other countries may be entitled to access your Personal Data.
+                - paragraph [ref=f5e1025]
+                - paragraph [ref=f5e1026]:
+                  - text: If you are located in the European Economic Area (EEA), your Personal Data can be transferred to our affiliates or service providers in non-EEA countries that are recognized by the European Commission as providing an adequate level of data protection according to EEA standards (the full list of these countries is available
+                  - link "here" [ref=f5e1027] [cursor=pointer]:
+                    - /url: http://ec.europa.eu/justice/data-protection/international-transfers/adequacy/index_en.htm
+                  - text: ).
+                - paragraph [ref=f5e1028]
+                - paragraph [ref=f5e1029]:
+                  - text: For transfers from the EEA to countries not considered adequate by the European Commission, we have put in place adequate measures, such as our Binding Corporate Rules and standard contractual clauses adopted by the European Commission to protect your Personal Data. Additional information on these measures can be found at
+                  - link "http://www.philips.com/privacy" [ref=f5e1030] [cursor=pointer]:
+                    - /url: http://www.philips.com/privacy
+                  - text: or by filling our
+                  - link "Privacy Contact Form" [ref=f5e1031] [cursor=pointer]:
+                    - /url: https://www.philips.nl/c-e/privacy-request
+                  - text: .
+                - paragraph [ref=f5e1032]
+                - paragraph [ref=f5e1033]: Sensitive Personal Data
+                - paragraph [ref=f5e1034]: We ask that you not send us, and you do not disclose, any sensitive Personal Data (e.g., social security numbers, information related to racial or ethnic origin, political opinions, religion, or other beliefs) through Workday except where the local law allows disclosure (e.g., India). In this case, disclosure is entirely voluntary and has no impact on the role applied for except for aggregate or statistical use. However, Philips may perform background and criminal checks where permitted by law, and may process your personal data, such as citizenship, nationality or health information, when relevant for a position and permitted by law or when you have included this type of personal data in your application.
+                - paragraph [ref=f5e1035]
+                - paragraph [ref=f5e1036]: Updates to this Privacy Notice
+                - paragraph [ref=f5e1037]: We may change this Privacy Notice. The “LAST UPDATED” legend at the top of this Privacy Notice indicates when this Privacy Notice was last revised. Significant changes will be communicated and will become effective when we post the revised Privacy Notice in Workday. Your use of Workday following these changes means that you have read and understood the revised Privacy Notice.
+                - paragraph [ref=f5e1038]
+                - paragraph [ref=f5e1039]: How can you contact us?
+                - paragraph [ref=f5e1040]:
+                  - text: If you have any questions about this Privacy Notice or about the way Philips uses your Personal Data, please contact our Data Protection Officer by filling our
+                  - link "Privacy Contact Form" [ref=f5e1041] [cursor=pointer]:
+                    - /url: https://www.philips.nl/c-e/privacy-request
+                  - text: or via post at Philips Center, c/o Philips Privacy Office (Group Legal), Amstelplein 2, 1096 BC Amsterdam, the Netherlands. Alternatively, you have the right to lodge a complaint with a data protection authority for your country or region, or where an alleged infringement of applicable data protection law occurs.
+              - generic [ref=f5e1042]:
+                - generic [ref=f5e1043]: Yes, I have read and consent to the terms and conditions*
+                - checkbox "Yes, I have read and consent to the terms and conditions" [checked] [active] [ref=f5e1049] [cursor=pointer]
+        - generic [ref=f5e261]:
+          - button "Back" [ref=f5e663] [cursor=pointer]
+          - button "Next" [ref=f5e264] [cursor=pointer]
+  - generic [ref=f5e41]:
+    - heading "Follow Us" [level=4] [ref=f5e42]
+    - list [ref=f5e43]:
+      - listitem [ref=f5e44] [cursor=pointer]:
+        - link "Glassdoor" [ref=f5e45]:
+          - /url: https://www.glassdoor.nl/Reviews/Philips-Reviews-E3496.htm?&countryRedirect=true
+      - listitem [ref=f5e50] [cursor=pointer]:
+        - link "Facebook" [ref=f5e51]:
+          - /url: https://www.facebook.com/philips/
+      - listitem [ref=f5e55] [cursor=pointer]:
+        - link "YouTube" [ref=f5e56]:
+          - /url: https://www.youtube.com/user/Philips
+      - listitem [ref=f5e62] [cursor=pointer]:
+        - link "Google Plus" [ref=f5e63]:
+          - /url: https://plus.google.com/+Philips
+      - listitem [ref=f5e67] [cursor=pointer]:
+        - link "LinkedIn" [ref=f5e68]:
+          - /url: https://www.linkedin.com/company/philips
+      - listitem [ref=f5e72] [cursor=pointer]:
+        - link "X" [ref=f5e73]:
+          - /url: https://www.twitter.com/philips
+    - generic [ref=f5e77]: © 2026 Workday, Inc. All rights reserved.

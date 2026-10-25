@@ -1,0 +1,23 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Gauder GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder
+            - paragraph [ref=f7e14]: Gauder GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/gauder/16836791-business-analyst-e-commerce-fluent-german-and-english-m-f-d
+            - paragraph [ref=f7e16]: Business Analyst E-Commerce - Fluent German & English (m/f/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e184]:
+      - generic [ref=f7e186]:
+        - paragraph [ref=f7e187]: Application sent
+        - heading "You've applied to Gauder GmbH." [level=2] [ref=f7e188]
+      - link "Go to dashboard" [ref=f7e189] [cursor=pointer]:
+        - /url: https://join.com/talent/home
+  - alert [ref=f7e4]: "Gauder (Berlin): Business Analyst E-Commerce - Fluent German & English (m/f/d)"
+  - region "Notifications, bottom-end (alt+T)"

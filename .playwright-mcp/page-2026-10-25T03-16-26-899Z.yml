@@ -1,0 +1,213 @@
+- generic [ref=f13e1]:
+  - navigation [aria-hidden] [ref=f13e2]:
+    - button [active] [aria-hidden] [ref=f13e3] [cursor=pointer]
+    - list [ref=f13e6]:
+      - listitem [ref=f13e7]:
+        - link [ref=f13e8] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=1
+          - text: Englisch
+      - listitem [ref=f13e9]:
+        - link [ref=f13e10] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=2
+          - text: Französisch
+      - listitem [ref=f13e11]:
+        - link [ref=f13e12] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=5
+          - text: Portugiesisch
+      - listitem [ref=f13e13]:
+        - link [ref=f13e14] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=6
+          - text: Spanisch
+      - listitem [ref=f13e15]:
+        - link [ref=f13e16] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=8
+          - text: Schwedisch
+      - listitem [ref=f13e17]:
+        - link [ref=f13e18] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=9
+          - text: Niederländisch
+      - listitem [ref=f13e19]:
+        - link [ref=f13e20] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=11
+          - text: Polnisch
+      - listitem [ref=f13e21]:
+        - link [ref=f13e22] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=12
+          - text: Tschechisch
+      - listitem [ref=f13e23]:
+        - link [ref=f13e24] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=13
+          - text: Slowakisch
+      - listitem [ref=f13e25]:
+        - link [ref=f13e26] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=7
+          - text: Norwegisch
+      - listitem [ref=f13e27]:
+        - link [ref=f13e28] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=Login&brid=1340166&jobid=J1026-0889&lang=10
+          - text: Dänisch
+      - listitem [ref=f13e29]:
+        - link [ref=f13e30] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&page=joblisting&clid=21001
+          - text: Unsere Stellenangebote
+      - listitem [ref=f13e31]:
+        - link [ref=f13e32] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&page=login&clid=21001
+          - text: Mein Profil
+      - listitem [ref=f13e33]:
+        - link [ref=f13e34] [cursor=pointer]:
+          - /url: xweb.asp?NTKN=c&clid=21001&page=JobMatchSubscription
+          - text: Benachrichtigungen aktivieren
+      - listitem [ref=f13e35]:
+        - link [ref=f13e36] [cursor=pointer]:
+          - /url: "#globalsitesubmenu"
+          - generic [ref=f13e37]: Open submenu (Visit career sites)
+        - link [ref=f13e38] [cursor=pointer]:
+          - /url: "#"
+          - text: Visit career sites
+      - listitem [ref=f13e39]:
+        - link [ref=f13e40] [cursor=pointer]:
+          - /url: https://www.cgi.com/en/careers/faq
+          - text: Contact
+    - button [aria-hidden] [ref=f13e41] [cursor=pointer]
+  - banner "Top bar menu" [ref=f13e42]:
+    - generic:
+      - link "Skip to main content" [ref=f13e43] [cursor=pointer]:
+        - /url: "#start-content"
+      - link [ref=f13e46] [cursor=pointer]:
+        - /url: https://www.cgi.com/en
+        - img "CGI official logo" [ref=f13e47]
+      - button "Access to main navigation" [ref=f13e54] [cursor=pointer]
+  - generic [ref=f13e57]:
+    - banner [ref=f13e58]:
+      - generic [ref=f13e59]:
+        - generic [ref=f13e60]:
+          - heading "Suche" [level=1] [ref=f13e61]
+          - heading "Mein Profil" [level=2] [ref=f13e62]
+        - img "Careers" [ref=f13e64]
+    - region "Main content" [ref=f13e67]:
+      - generic [ref=f13e76]:
+        - list [ref=f13e78]:
+          - listitem [ref=f13e79]:
+            - link "Profil anlegen | Anmelden" [ref=f13e80] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=login
+          - listitem [ref=f13e81]:
+            - link "Karriere-Newsletter aktivieren" [ref=f13e82] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=JobMatchSubscription
+        - generic [ref=f13e86]:
+          - paragraph [ref=f13e89]: Ungültige Anmeldeinformationen. Wenn Sie noch kein Bewerber-Profil angelegt haben, so folgen Sie bitte der Beschreibung.
+          - generic [ref=f13e90]:
+            - generic [ref=f13e91]:
+              - strong [ref=f13e93]: "Stellen-ID:"
+              - generic [ref=f13e94]: J1026-0889
+            - generic [ref=f13e95]:
+              - strong [ref=f13e97]: "Title:"
+              - generic [ref=f13e98]: Infra / DevOps Lead - eCommerce (m/w/d)
+            - separator [ref=f13e100]
+    - contentinfo [ref=f13e101]:
+      - generic [ref=f13e103]:
+        - generic [ref=f13e106]:
+          - heading "Fragen? Gerne helfen wir weiter." [level=2] [ref=f13e107]
+          - link "Kontakt" [ref=f13e109] [cursor=pointer]:
+            - /url: https://www.cgi.com/de/de/kontakt
+        - generic [ref=f13e112]:
+          - generic [ref=f13e114]:
+            - img "CGI official logo" [ref=f13e116]
+            - heading "Insights you can act on" [level=2] [ref=f13e122]
+            - paragraph [ref=f13e123]: CGI wurde 1976 gegründet und gehört zu den größten Unternehmen für IT und Business Consulting weltweit. Wir kennen Ihre Branche, handeln ergebnisorientiert und helfen Ihnen so, den ROI zu steigern.
+            - paragraph [ref=f13e124]: © 2026 CGI Inc.
+          - generic [ref=f13e125]:
+            - heading "Unternehmen" [level=2] [ref=f13e126]
+            - navigation [ref=f13e128]:
+              - heading "Useful links GERMANY" [level=2] [ref=f13e129]
+              - list [ref=f13e130]:
+                - listitem [ref=f13e131]:
+                  - link "Über uns" [ref=f13e132] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/unternehmen
+                - listitem [ref=f13e133]:
+                  - link "Verantwortung" [ref=f13e134] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung
+                - listitem [ref=f13e135]:
+                  - link "Management" [ref=f13e136] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/management-team-deutschland
+                - listitem [ref=f13e137]:
+                  - link "Standorte" [ref=f13e138] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/Lokationen
+                - listitem [ref=f13e139]:
+                  - link "Allianzen" [ref=f13e140] [cursor=pointer]:
+                    - /url: https://www.cgi.com/en/alliances
+                - listitem [ref=f13e141]:
+                  - link "Merger" [ref=f13e142] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/merger
+          - generic [ref=f13e143]:
+            - heading "Mediathek" [level=2] [ref=f13e144]
+            - navigation [ref=f13e146]:
+              - heading "Library Links GERMANY" [level=2] [ref=f13e147]
+              - list [ref=f13e148]:
+                - listitem [ref=f13e149]:
+                  - link "Aktuelles" [ref=f13e150] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter
+                - listitem [ref=f13e151]:
+                  - link "Artikel" [ref=f13e152] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/articles
+                - listitem [ref=f13e153]:
+                  - link "Blogs" [ref=f13e154] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/blogs
+                - listitem [ref=f13e155]:
+                  - link "Events" [ref=f13e156] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/events
+                - listitem [ref=f13e157]:
+                  - link "Podcasts" [ref=f13e158] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/podcasts
+                - listitem [ref=f13e159]:
+                  - link "Presse" [ref=f13e160] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/press-releases
+                - listitem [ref=f13e161]:
+                  - link "Standpunkt" [ref=f13e162] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/standpunkte
+          - generic [ref=f13e163]:
+            - heading "Rechtliches" [level=2] [ref=f13e164]
+            - navigation [ref=f13e166]:
+              - heading "Legal GERMANY" [level=2] [ref=f13e167]
+              - list [ref=f13e168]:
+                - listitem [ref=f13e169]:
+                  - link "Beschwerden/Hinweise" [ref=f13e170] [cursor=pointer]:
+                    - /url: https://app.convercent.com/de-de/Anonymous/IssueIntake/LandingPage/c430ea19-76ad-e911-a96a-000d3ab9f062?_=1571951870663
+                - listitem [ref=f13e171]:
+                  - link "Compliance" [ref=f13e172] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung/unternehmensfuehrung
+                - listitem [ref=f13e173]:
+                  - link "Datenschutz" [ref=f13e174] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/datenschutz
+                - listitem [ref=f13e175]:
+                  - link "Impressum" [ref=f13e176] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/impressum
+                - listitem [ref=f13e177]:
+                  - link "Cookie-Einstellungen" [ref=f13e178] [cursor=pointer]
+          - generic [ref=f13e179]:
+            - generic [ref=f13e183]:
+              - heading "CGI abonnieren" [level=2] [ref=f13e184]
+              - heading "Wir informieren Sie" [level=3] [ref=f13e185]
+              - link "Abonnieren" [ref=f13e186] [cursor=pointer]:
+                - /url: https://www.cgi.com/de/de/content-subscription
+            - generic [ref=f13e187]:
+              - heading "Folgen Sie uns" [level=2] [ref=f13e188]
+              - navigation [ref=f13e190]:
+                - heading "Social Media GERMANY" [level=2] [ref=f13e191]
+                - generic [ref=f13e192]:
+                  - list:
+                    - listitem [ref=f13e193]:
+                      - link " Xing" [ref=f13e194] [cursor=pointer]:
+                        - /url: https://www.xing.com/companies/cgi
+                    - listitem [ref=f13e195]:
+                      - link " LinkedIn" [ref=f13e196] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/cgi/?originalSubdomain=de
+                    - listitem [ref=f13e197]:
+                      - link " Twitter" [ref=f13e198] [cursor=pointer]:
+                        - /url: https://twitter.com/cgi_de?lang=de
+                    - listitem [ref=f13e199]:
+                      - link " Facebook" [ref=f13e200] [cursor=pointer]:
+                        - /url: https://www.facebook.com/CGIDeutschland/
+                    - listitem [ref=f13e201]:
+                      - link " Youtube" [ref=f13e202] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCGQHK_7t782ivIcar8PIsTw

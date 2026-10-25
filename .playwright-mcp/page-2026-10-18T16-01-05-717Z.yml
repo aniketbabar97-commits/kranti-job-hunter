@@ -1,0 +1,150 @@
+- generic [active] [ref=f46e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f46e2] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f46e16] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f46e33] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f46e46] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f46e49]:
+      - generic [ref=f46e50]:
+        - link "Zur Startseite" [ref=f46e52] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f46e53]
+        - generic [ref=f46e54]:
+          - button "Navigation umschalten" [ref=f46e55] [cursor=pointer]
+          - text:      
+  - banner [ref=f46e60]:
+    - generic [ref=f46e64]:
+      - heading "Vielen Dank für deine Bewerbung. Wir setzen uns bald mit dir in Verbindung." [level=3] [ref=f46e65]
+      - heading "Du möchtest mehr über uns erfahren?" [level=1] [ref=f46e66]
+      - group "Hero call to action buttons" [ref=f46e67]:
+        - link "Hier geht´s zum DEICHMANN-Podcast" [ref=f46e70] [cursor=pointer]:
+          - /url: https://lnk.to/von-kopf-bis-schuh?utm_source=linktree2025&utm_medium=dankesseite&utm_id=podcast-kampagne-2025
+  - button "Mehr anzeigen" [ref=f46e71] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e73] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e75] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e77] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e79] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e81] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e83] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e85] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e87] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e89] [cursor=pointer]: mehr
+  - button "Mehr anzeigen" [ref=f46e91] [cursor=pointer]: mehr
+  - contentinfo [ref=f46e93]:
+    - generic [ref=f46e96]:
+      - generic [ref=f46e97]:
+        - generic [ref=f46e98]: Einstieg im Verkauf
+        - list [ref=f46e99]:
+          - listitem [ref=f46e100]:
+            - link "Gehe zu Ausbildung im Verkauf" [ref=f46e101] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-verkauf/
+              - text: Ausbildung im Verkauf
+          - listitem [ref=f46e102]:
+            - link "Gehe zu Teilzeit, Minijob & Werkstudierende" [ref=f46e103] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/teilzeitmodelle-im-verkauf/
+              - text: Teilzeit, Minijob & Werkstudierende
+          - listitem [ref=f46e104]:
+            - link "Gehe zu Filialführungsnachwuchs" [ref=f46e105] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/filialverantwortliche/
+              - text: Filialführungsnachwuchs
+          - listitem [ref=f46e106]:
+            - link "Gehe zu Duales Studium" [ref=f46e107] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+      - generic [ref=f46e108]:
+        - generic [ref=f46e109]: Einstieg in der Zentrale und Logistik
+        - list [ref=f46e110]:
+          - listitem [ref=f46e111]:
+            - link "Gehe zu Ausbildung in der Zentrale" [ref=f46e112] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/ausbildung-zentrale/
+              - text: Ausbildung in der Zentrale
+          - listitem [ref=f46e113]:
+            - link "Gehe zu Ausbildung in der Logistik" [ref=f46e114] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/#AusbildungLogistik
+              - text: Ausbildung in der Logistik
+          - listitem [ref=f46e115]:
+            - link "Gehe zu Duales Studium" [ref=f46e116] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/duales-studium/
+              - text: Duales Studium
+          - listitem [ref=f46e117]:
+            - link "Gehe zu Einstieg für Studierende" [ref=f46e118] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Einstieg für Studierende
+          - listitem [ref=f46e119]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Zentrale)" [ref=f46e120] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/zentrale/
+              - text: Einstieg für Berufserfahrene (Zentrale)
+          - listitem [ref=f46e121]:
+            - link "Gehe zu Einstieg für Berufserfahrene (Logistik)" [ref=f46e122] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/logistik/
+              - text: Einstieg für Berufserfahrene (Logistik)
+      - generic [ref=f46e123]:
+        - generic [ref=f46e124]: Dein Weg zu Deichmann
+        - list [ref=f46e125]:
+          - listitem [ref=f46e126]:
+            - link "Gehe zu Deichmann als Arbeitgeber" [ref=f46e127] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+              - text: Deichmann als Arbeitgeber
+          - listitem [ref=f46e128]:
+            - link "Gehe zu Schüler" [ref=f46e129] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+              - text: Schüler
+          - listitem [ref=f46e130]:
+            - link "Gehe zu Studierende" [ref=f46e131] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+              - text: Studierende
+          - listitem [ref=f46e132]:
+            - link "Gehe zu Direkteinstieg" [ref=f46e133] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+              - text: Direkteinstieg
+    - generic [ref=f46e136]:
+      - list [ref=f46e138]:
+        - listitem [ref=f46e139]:
+          - link "Gehe zu Kontakt" [ref=f46e140] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/kontakt
+            - text: Kontakt
+        - listitem [ref=f46e141]:
+          - link "Gehe zu Impressum" [ref=f46e142] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/impressum
+            - text: Impressum
+        - listitem [ref=f46e143]:
+          - link "Gehe zu Datenschutz" [ref=f46e144] [cursor=pointer]:
+            - /url: https://www.deichmann-karriere.de/datenschutz/
+            - text: Datenschutz
+        - listitem [ref=f46e145]:
+          - link "Gehe zu Zum Shop" [ref=f46e146] [cursor=pointer]:
+            - /url: https://www.deichmann.com/de-de/
+            - text: Zum Shop
+        - listitem [ref=f46e147]:
+          - link "Gehe zu Filialfinder" [ref=f46e148] [cursor=pointer]:
+            - /url: https://stores.deichmann.com/index.html
+            - text: Filialfinder
+        - listitem [ref=f46e149]:
+          - link "Gehe zu Cookie-Einstellungen" [ref=f46e150] [cursor=pointer]:
+            - /url: "#"
+            - text: Cookie-Einstellungen
+      - list [ref=f46e153]:
+        - listitem [ref=f46e154]:
+          - link "Tiktok" [ref=f46e155] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@deichmannkarriere
+            - generic [aria-hidden] [ref=f46e156]: 
+        - listitem [ref=f46e158]:
+          - link "Instagram" [ref=f46e159] [cursor=pointer]:
+            - /url: https://www.instagram.com/deichmannkarriere/?hl=de
+            - generic [aria-hidden] [ref=f46e160]: 
+        - listitem [ref=f46e162]:
+          - link "Youtube" [ref=f46e163] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQUXdu1p4zPeuEG44g-0RbA/videos
+            - generic [aria-hidden] [ref=f46e164]: 
+        - listitem [ref=f46e166]:
+          - link "Linkedin" [ref=f46e167] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/deichmann/
+            - generic [aria-hidden] [ref=f46e168]: 
+        - listitem [ref=f46e170]:
+          - link "Xing" [ref=f46e171] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/deichmann
+            - generic [aria-hidden] [ref=f46e172]: 
+  - text: 
+  - button "Gracie" [ref=f46e175] [cursor=pointer]

@@ -1,0 +1,94 @@
+- generic [active] [ref=f22e1]:
+  - banner [ref=f22e2]:
+    - generic [ref=f22e4]:
+      - link [ref=f22e5] [cursor=pointer]:
+        - /url: /
+      - button [ref=f22e23] [cursor=pointer]
+  - generic [ref=f22e28]:
+    - generic [ref=f22e29]:
+      - heading "Come as you are." [level=1] [ref=f22e30]
+      - paragraph [ref=f22e31]: Wir suchen Persönlichkeiten, die unsere Begeisterung für Qualität, Stil und starke Marken teilen.
+    - generic [ref=f22e34]:
+      - navigation [ref=f22e35]:
+        - link "Design, Product & Creative" [ref=f22e36] [cursor=pointer]:
+          - /url: /career/categories/design-product-creative
+        - link "E-Commerce" [ref=f22e38] [cursor=pointer]:
+          - /url: /career/categories/ecommerce
+        - link "Sales, Retail & Outlet" [ref=f22e40] [cursor=pointer]:
+          - /url: /career/categories/sales-retail-outlet
+        - link "Central Functions" [ref=f22e42] [cursor=pointer]:
+          - /url: /career/categories/central-functions
+        - link "Internationale Jobs" [ref=f22e44] [cursor=pointer]:
+          - /url: /career/categories/international
+        - link "Ausbildung, Studium & Praktikum" [ref=f22e46] [cursor=pointer]:
+          - /url: /career/categories/ausbildung-studium-praktikum
+      - link "FACTS" [ref=f22e48] [cursor=pointer]:
+        - /url: /career/about-us
+  - contentinfo [ref=f22e49]:
+    - generic [ref=f22e51]:
+      - heading "Du möchtest uns kontaktieren?" [level=3] [ref=f22e52]
+      - link "Schreib Uns" [ref=f22e53] [cursor=pointer]:
+        - /url: mailto:recruiting@cbr.de
+    - generic [ref=f22e57]:
+      - generic [ref=f22e58]:
+        - heading "Marken" [level=4] [ref=f22e59]
+        - generic [ref=f22e60]:
+          - generic [ref=f22e61]:
+            - generic [ref=f22e62]: Cecil
+            - generic [ref=f22e63]:
+              - link [ref=f22e64] [cursor=pointer]:
+                - /url: https://www.facebook.com/MeinCECIL/
+              - link [ref=f22e67] [cursor=pointer]:
+                - /url: https://www.instagram.com/meincecil/
+          - generic [ref=f22e70]:
+            - generic [ref=f22e71]: Street One
+            - generic [ref=f22e72]:
+              - link [ref=f22e73] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f22e76] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+          - generic [ref=f22e79]:
+            - generic [ref=f22e80]: Street One Men
+            - generic [ref=f22e81]:
+              - link [ref=f22e82] [cursor=pointer]:
+                - /url: https://www.facebook.com/MyStreetOne/
+              - link [ref=f22e85] [cursor=pointer]:
+                - /url: https://www.instagram.com/mystreetone/
+      - generic [ref=f22e88]:
+        - heading "Adresse" [level=4] [ref=f22e89]
+        - generic [ref=f22e90]:
+          - generic [ref=f22e91]:
+            - generic [ref=f22e92]: CBR Service GmbH
+            - generic [ref=f22e93]: People & Culture
+            - generic [ref=f22e94]: Imkerstraße 4
+            - generic [ref=f22e95]: 30916 Isernhagen
+            - generic [ref=f22e96]: Germany
+          - link "recruiting@cbr.de" [ref=f22e98] [cursor=pointer]:
+            - /url: mailto:recruiting@cbr.de
+          - generic [ref=f22e99]:
+            - link [ref=f22e100] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/cbrfashiongroup
+            - link [ref=f22e103] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/cbr-fashion
+      - navigation [ref=f22e106]:
+        - heading "Links" [level=4] [ref=f22e107]
+        - list [ref=f22e108]:
+          - listitem [ref=f22e109]:
+            - link "Impressum" [ref=f22e110] [cursor=pointer]:
+              - /url: /imprint
+          - listitem [ref=f22e111]:
+            - link "Datenschutz" [ref=f22e112] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=f22e113]:
+            - link "Partner" [ref=f22e114] [cursor=pointer]:
+              - /url: /partner
+          - listitem [ref=f22e115]:
+            - link "Investor Relations" [ref=f22e116] [cursor=pointer]:
+              - /url: /investor-relations
+          - listitem [ref=f22e117]:
+            - link "Presse" [ref=f22e118] [cursor=pointer]:
+              - /url: /press
+          - listitem [ref=f22e119]:
+            - link "Compliance" [ref=f22e120] [cursor=pointer]:
+              - /url: /compliance
+  - alert [ref=f22e121]

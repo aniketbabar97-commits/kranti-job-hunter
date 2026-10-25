@@ -1,0 +1,33 @@
+- generic [ref=f40e1]:
+  - generic [ref=f40e4]:
+    - generic [ref=f40e6]:
+      - generic [ref=f40e7]:
+        - img "SHEKO GmbH logo" [ref=f40e8]
+        - generic [ref=f40e9]:
+          - link [ref=f40e10] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko
+            - paragraph [ref=f40e11]: SHEKO GmbH
+          - link [ref=f40e12] [cursor=pointer]:
+            - /url: https://join.com/companies/sheko/16822362-senior-full-stack-developer-m-w-d-e-commerce-und-shopify
+            - paragraph [ref=f40e13]: Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify
+      - button "Kranti Chavan Kranti Chavan" [ref=f40e14] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f40e17]: KC
+        - generic [ref=f40e18]: Kranti Chavan
+    - generic [ref=f40e81]:
+      - heading "Laden Sie Ihr Anschreiben hoch" [level=2] [ref=f40e82]
+      - generic [ref=f40e85]:
+        - button "dropzone" [ref=f40e86] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Datei hochladen
+              - generic:
+                - paragraph: Wählen Sie eine Datei aus oder ziehen Sie sie hierher.
+                - paragraph: Die Dateigröße ist auf 10 MB begrenzt.
+        - button [aria-hidden] [ref=f40e87]
+    - generic [ref=f40e40]:
+      - progressbar "40%" [ref=f40e88]
+      - generic [ref=f40e45]:
+        - button "Zurück" [ref=f40e89] [cursor=pointer]
+        - button "Weiter" [active] [ref=f40e53] [cursor=pointer]
+  - alert [ref=f40e55]: "SHEKO (Hamburg): Senior Full Stack Developer (m/w/d)- E-Commerce & Shopify"
+  - region "Notifications, bottom-end (alt+T)"

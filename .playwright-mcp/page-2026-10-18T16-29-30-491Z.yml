@@ -1,0 +1,31 @@
+- generic [active] [ref=f7e1]:
+  - generic [ref=f7e7]:
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]:
+        - img "Ares GmbH logo" [ref=f7e11]
+        - generic [ref=f7e12]:
+          - link [ref=f7e13] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21
+            - paragraph [ref=f7e14]: Ares GmbH
+          - link [ref=f7e15] [cursor=pointer]:
+            - /url: https://join.com/companies/spiegel21/16825585-it-allrounder-m-w-d-e-commerce-ki-robotic-und-prozessautomatisierung
+            - paragraph [ref=f7e16]: IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung
+      - button "Kranti Chavan Kranti Chavan" [ref=f7e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f7e20]: KC
+        - generic [ref=f7e21]: Kranti Chavan
+    - generic [ref=f7e43]:
+      - heading "Laden Sie Ihren CV hoch" [level=2] [ref=f7e66]
+      - generic [ref=f7e68]:
+        - button "dropzone" [ref=f7e69] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Datei hochladen
+              - generic:
+                - paragraph: Wählen Sie eine Datei aus oder ziehen Sie sie hierher.
+                - paragraph: Die Dateigröße ist auf 10 MB begrenzt.
+        - button [aria-hidden] [ref=f7e70]
+    - generic [ref=f7e26]:
+      - progressbar "20%" [ref=f7e59]
+      - button "Weiter" [disabled] [ref=f7e37]
+  - alert [ref=f7e4]: "Ares (Lünen): IT-Allrounder (m/w/d) - E-Commerce, KI, Robotic & Prozessautomatisierung"
+  - region "Notifications, bottom-end (alt+T)"

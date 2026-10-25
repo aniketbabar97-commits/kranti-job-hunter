@@ -1,0 +1,136 @@
+- generic [active] [ref=f5e1]:
+  - link [ref=f5e5] [cursor=pointer]:
+    - /url: https://macs-holding.de/stellenangebote
+    - img "Logo" [ref=f5e6]
+  - main [ref=f5e7]:
+    - generic [ref=f5e10]:
+      - heading "Senior Software-Entwickler Magento E-Commerce (m/w/d)" [level=1] [ref=f5e12]
+      - generic [ref=f5e13]:
+        - paragraph [ref=f5e14]: Vielen Dank für Ihr Interesse an einer Mitarbeit in unserem Unternehmen. Wir freuen uns sehr auf Ihre Bewerbung!
+        - paragraph [ref=f5e15]: "Für das Ausfüllen des Bewerbungsbogens benötigen Sie nur wenige Minuten Zeit. Folgendes ist zu beachten:"
+        - list [ref=f5e16]:
+          - listitem [ref=f5e17]: Die mit * markierten Felder sind Pflichtfelder und müssen ausgefüllt werden.
+          - listitem [ref=f5e18]: "Wir benötigen folgende Unterlagen von Ihnen: aussagekräftiges Anschreiben, Lebenslauf und Zeugnisse (Arbeitszeugnisse, Tätigkeitsnachweise, Qualifikationsnachweise, Urkunden, usw.)"
+          - listitem [ref=f5e19]: Der Schutz Ihrer persönlichen Daten ist uns ein überaus wichtiges Anliegen und unterliegt den modernsten Sicherheitsstandards. Unsere Datenschutzerklärung liefert Ihnen hierzu Details.
+      - generic [ref=f5e20]:
+        - generic [ref=f5e21]:
+          - generic [ref=f5e22]: Anrede:*
+          - generic [ref=f5e23]:
+            - combobox [aria-hidden] [ref=f5e24]
+            - combobox "Anrede, Bitte wählen" [ref=f5e27] [cursor=pointer]:
+              - textbox "Bitte wählen" [ref=f5e28]
+        - generic [ref=f5e30]:
+          - generic [ref=f5e31]: "Titel:"
+          - textbox "Titel:" [ref=f5e33]
+        - generic [ref=f5e35]:
+          - generic [ref=f5e36]: Vorname:*
+          - textbox "Vorname:" [ref=f5e38]
+        - generic [ref=f5e40]:
+          - generic [ref=f5e41]: Nachname:*
+          - textbox "Nachname:" [ref=f5e43]
+        - generic [ref=f5e45]:
+          - generic [ref=f5e46]: E-Mail-Adresse:*
+          - textbox "E-Mail-Adresse:" [ref=f5e48]
+        - generic [ref=f5e50]:
+          - generic [ref=f5e51]: Telefon:*
+          - textbox "Telefon:" [ref=f5e53]
+        - generic [ref=f5e55]:
+          - generic [ref=f5e56]: Frühestmöglicher Beginn:*
+          - textbox "Frühestmöglicher Beginn:" [ref=f5e58]
+        - generic [ref=f5e60]:
+          - generic [ref=f5e61]: Gehaltsvorstellung:*
+          - textbox "Gehaltsvorstellung:" [ref=f5e63]
+        - generic [ref=f5e65]:
+          - generic [ref=f5e66]: "Kommentar:"
+          - textbox "Kommentar:" [ref=f5e68]
+        - generic [ref=f5e70]:
+          - generic [ref=f5e71]: Vollständige Bewerbungsunterlagen:*
+          - generic [ref=f5e72]:
+            - generic [ref=f5e73] [cursor=pointer]:
+              - 'button "Vollständige Bewerbungsunterlagen: Klicken oder Dateien hier ablegen" [ref=f5e74]'
+              - generic [ref=f5e75]:
+                - generic [aria-hidden] [ref=f5e76]: 
+                - text: Klicken oder Dateien hier ablegen
+            - generic [ref=f5e77]: "Dokumente zur Bewerbung hinzufügen. Unterstützte Formate: Word, PDF, PPT, jpg, gif, png. Maximal 10 MB pro Datei und 20 MB insgesamt."
+        - radiogroup "Kurzvideo-Selbstvorstellung:" [ref=f5e80]:
+          - generic [ref=f5e82]:
+            - generic [ref=f5e83] [cursor=pointer]:
+              - radio "Ja" [ref=f5e84]
+              - text: Ja
+            - generic [ref=f5e85] [cursor=pointer]:
+              - radio "Nein" [checked] [ref=f5e86]
+              - text: Nein
+            - generic [ref=f5e87]: Lust, sich uns in einem Video (etwa 30 Sekunden) vorzustellen? Nach Absendung der Bewerbung wird eine E-Mail mit einer Einladung zu unserer Online-Interview-Platform abgeschickt.
+        - generic [ref=f5e89]:
+          - generic [ref=f5e90]: "Bewerbungsfoto:"
+          - generic [ref=f5e91]:
+            - generic [ref=f5e92] [cursor=pointer]:
+              - 'button "Bewerbungsfoto: Klicken oder Datei hier ablegen" [ref=f5e93]'
+              - generic [ref=f5e94]:
+                - generic [aria-hidden] [ref=f5e95]: 
+                - text: Klicken oder Datei hier ablegen
+            - generic [ref=f5e96]: "Es sind folgende Formate möglich: png, gif, jpeg, tiff, bmp.Max. Dateigröße: 10 MB."
+        - generic [ref=f5e99]:
+          - generic [ref=f5e100]: Ich habe von dem Unternehmen durch den folgenden Kanal erfahren:*
+          - generic [ref=f5e101]:
+            - combobox [aria-hidden] [ref=f5e102]
+            - combobox "Ich habe von dem Unternehmen durch den folgenden Kanal erfahren:, Bitte wählen" [ref=f5e105] [cursor=pointer]:
+              - textbox "Bitte wählen" [ref=f5e106]
+        - generic [ref=f5e108]:
+          - generic [ref=f5e109]: Einwilligung zum Datenschutz:*
+          - radiogroup "Einwilligung zum Datenschutz:" [ref=f5e110]:
+            - generic [ref=f5e113]:
+              - heading "Datenschutzhinweise für Bewerberinnen und Bewerber" [level=2] [ref=f5e114]:
+                - text: Datenschutzhinweise für Bewerberinnen und Bewerber
+                - strong
+              - paragraph [ref=f5e115]: Wir freuen uns sehr, dass Sie sich für eine Anstellung bei uns interessieren und sich für eine Stelle in einem Unternehmen unserer Gruppe bewerben oder beworben haben. Wir möchten Ihnen nachfolgend gerne Informationen zur Verarbeitung Ihrer personenbezogenen Daten im Zusammenhang mit Ihrer Bewerbung erteilen.
+              - heading "Wer ist für Datenverarbeitung verantwortlich?" [level=3] [ref=f5e116]
+              - paragraph [ref=f5e117]: "Verantwortlicher im Sinne des Datenschutzrechtes ist die MACS HOLDING GmbH, Storchennest 6, 91555 Feuchtwangen. Sie finden weitere Informationen zu unserem Unternehmen und Unternehmen unserer Gruppe, Angaben zu den vertretungsberechtigten Personen und auch weitere Kontaktmöglichkeiten in unserem Impressum unserer Internetseite: https://www.macs-holding.de/impressum.html."
+              - heading "Welche Daten von Ihnen werden von uns verarbeitet? Und zu welchen Zwecken?" [level=3] [ref=f5e118]
+              - paragraph [ref=f5e119]: Wir verarbeiten die Daten, die Sie uns im Zusammenhang mit Ihrer Bewerbung zugesendet haben, um Ihre Eignung für die Stelle (oder ggf. andere offene Positionen in unserer Unternehmensgruppe) zu prüfen und das Bewerbungsverfahren durchzuführen.
+              - heading "Auf welcher rechtlichen Grundlage basiert das?" [level=3] [ref=f5e120]
+              - paragraph [ref=f5e121]: Rechtsgrundlage für die Verarbeitung Ihrer personenbezogenen Daten in diesem Bewerbungsverfahren ist primär § 26 BDSG in der ab dem 25.05.2018 geltenden Fassung. Danach ist die Verarbeitung der Daten zulässig, die im Zusammenhang mit der Entscheidung über die Begründung eines Beschäftigungsverhältnisses erforderlich sind. Sollten die Daten nach Abschluss des Bewerbungsverfahrens ggf. zur Rechtsverfolgung erforderlich sein, kann eine Datenverarbeitung auf Basis der Voraussetzungen von Art. 6 DSGVO, insbesondere zur Wahrnehmung von berechtigten Interessen nach Art. 6 Abs. 1 lit. ) DSGVO erfolgen. Unser Interesse besteht dann in der Geltendmachung oder Abwehr von Ansprüchen.
+              - heading "Wie lange werden die Daten gespeichert?" [level=3] [ref=f5e122]
+              - paragraph [ref=f5e123]: Daten von Bewerber*innen werden im Falle einer Absage nach 6 Monaten gelöscht. Für den Fall, dass Sie einer weiteren Speicherung Ihrer personenbezogenen Daten zugestimmt haben, werden wir Ihre Daten in unseren Bewerber-Pool übernehmen. Dort werden die Daten nach Ablauf von 12 Monaten gelöscht. Sollten Sie im Rahmen des Bewerbungsverfahrens den Zuschlag für eine Stelle erhalten haben, werden die Daten aus dem Bewerberdatensystem in unser Personalinformationssystem überführt.
+              - heading "An welche Empfänger werden die Daten weitergegeben?" [level=3] [ref=f5e124]
+              - paragraph [ref=f5e125]: Wir nutzen für den Bewerbungsprozess einen spezialisierten Software-Anbieter. Dieser wird als Dienstleister für uns tätig und kann im Zusammenhang mit der Wartung und Pflege der Systeme ggf. auch Kenntnis von Ihren personenbezogenen Daten erhalten. Wir haben mit diesem Anbieter einen sog. Auftragsverarbeitungsvertrag abgeschlossen, der sicherstellt, dass die Datenverarbeitung in zulässiger Weise erfolgt. Ihre Bewerberdaten werden nach Eingang Ihrer Bewerbung von der Personalabteilung gesichtet. Geeignete Bewerbungen werden dann intern an die Abteilungsverantwortlichen für die jeweils offene Position zugestellt. Dann wird der weitere Ablauf abgestimmt. Im jeweiligen Unternehmen selbst haben grundsätzlich nur die Personen Zugriff auf Ihre Daten, die dies für den ordnungsgemäßen Ablauf unseres Bewerbungsverfahrens benötigen.
+              - heading "Wo werden die Daten verarbeitet?" [level=3] [ref=f5e126]
+              - paragraph [ref=f5e127]: Die Daten werden ausschließlich in Rechenzentren der Bundesrepublik Deutschland verarbeitet.
+              - heading "Ihre Rechte als „Betroffene*r“" [level=3] [ref=f5e128]
+              - paragraph [ref=f5e129]: Sie haben das Recht auf Auskunft über die von uns zu Ihrer Person verarbeiteten personenbezogenen Daten. Bei einer Auskunftsanfrage, die nicht schriftlich erfolgt, bitten wir um Verständnis dafür, dass wir dann ggf. Nachweise von Ihnen verlangen, die belegen, dass Sie die Person sind, für die Sie sich ausgeben. Ferner haben Sie ein Recht auf Berichtigung oder Löschung oder auf Einschränkung der Verarbeitung, soweit Ihnen dies gesetzlich zusteht. Ferner haben Sie ein Widerspruchsrecht gegen die Verarbeitung im Rahmen der gesetzlichen Vorgaben. Gleiches gilt für ein Recht auf Datenübertragbarkeit. Sie haben das Recht, sich über die Verarbeitung personenbezogenen Daten durch uns bei einer Aufsichtsbehörde für den Datenschutz zu beschweren.
+              - heading "Unser Datenschutzbeauftragter" [level=3] [ref=f5e130]
+              - paragraph [ref=f5e131]:
+                - text: "Wir haben einen Datenschutzbeauftragten in unserem Unternehmen benannt. Sie erreichen diesen unter folgenden Kontaktmöglichkeiten: Herr Torsten Schmid c/o Schmid Datenschutz und Compliance GmbH Postanschrift: Bopfinger Str. 2 73466 Lauchheim Tel.: 07363 818 959 00 Fax: 07363 818 959 99 E-Mail:"
+                - link "t.schmid@schmid-datenschutz.de" [ref=f5e132] [cursor=pointer]:
+                  - /url: mailto:t.schmid@schmid-datenschutz.de
+                - text: Sie haben das Recht, sich über die Verarbeitung personenbezogenen Daten durch uns bei einer Aufsichtsbehörde für den Datenschutz zu beschweren. Im Übrigen gelten unsere allgemeinen Datenschutzhinweise, die Sie unter https://www.macs-holding.de/datenschutz.html einsehen können.
+            - paragraph [ref=f5e134]:
+              - strong [ref=f5e135]: Ich habe die Datenschutzerklärung zur Kenntnis genommen und erteile die Einwilligung in die Erhebung und Nutzung meiner vorstehend eingegebenen Daten.
+            - generic [ref=f5e136] [cursor=pointer]:
+              - radio "Ja" [ref=f5e137]
+              - text: Ja
+            - generic [ref=f5e138] [cursor=pointer]:
+              - radio "Nein" [ref=f5e139]
+              - text: Nein
+        - generic [ref=f5e141]:
+          - generic [ref=f5e142]: "Einwilligung für erweiterte Verwendung:"
+          - radiogroup "Einwilligung für erweiterte Verwendung:" [ref=f5e143]:
+            - generic [ref=f5e146]:
+              - heading "Prüfung weiterer Einsatzmöglichkeiten / Bewerbungspool" [level=2] [ref=f5e147]
+              - paragraph [ref=f5e148]: Mit Ihrer ausdrücklichen Einwilligung werden wir Ihre Bewerbung auf weitere Einsatzmöglichkeiten in unserer Unternehmensgruppe prüfen und Ihr Profil dafür gegebenenfalls auch an andere Fachbereiche weiterleiten. Die Aufnahme in unseren Bewerbungspool erfolgt ausschließlich zu dem Zweck, Ihre Bewerbung im Rahmen einer zukünftigen freien Stelle berücksichtigen zu können. Dabei kann auch eine Kontaktaufnahme durch ein Unternehmen unserer Unternehmensgruppe erfolgen. Nach Erteilung der Einwilligung in die Aufnahme in den Bewerberpool speichern wir Ihre Daten 12 Monate Danach werden Ihre Daten automatische gelöscht. Sie haben auch hier das Recht nach Art. 7 Abs. 3 Satz 1 DSGVO, Ihre Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen, ohne dass die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung berührt wird; dadurch können Sie auch die Dauer der Verarbeitung bestimmen. Die Bereitstellung der personenbezogenen Daten für den Bewerberpool erfolgt freiwillig; wird sie nicht erteilt, entstehen keine Nachteile. Eine Berücksichtigung Ihrer Bewerbung bei zukünftigen freien Stellen kann jedoch in diesem Fall nicht mehr erfolgen. Sie können Ihre Einwilligung hierzu jederzeit widerrufen.
+            - generic [ref=f5e149] [cursor=pointer]:
+              - radio "Ja" [ref=f5e150]
+              - text: Ja
+            - generic [ref=f5e151] [cursor=pointer]:
+              - radio "Nein" [ref=f5e152]
+              - text: Nein
+        - separator [aria-hidden] [ref=f5e154]
+        - generic [ref=f5e156]:
+          - link "Zurück" [ref=f5e157] [cursor=pointer]:
+            - /url: /de/jobs/20363/intro
+          - button "Absenden" [ref=f5e158] [cursor=pointer]
+  - contentinfo [ref=f5e159]:
+    - paragraph [ref=f5e163]:
+      - text: powered by
+      - link "d.vinci" [ref=f5e164] [cursor=pointer]:
+        - /url: https://www.dvinci.de

@@ -1,0 +1,272 @@
+- generic [active] [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - navigation:
+      - list:
+        - listitem:
+          - link "innovate Software GmbH" [ref=f27e3] [cursor=pointer]:
+            - /url: "#"
+        - listitem:
+          - link "News" [ref=f27e4] [cursor=pointer]:
+            - /url: /
+        - listitem:
+          - link "Leistungen" [ref=f27e7] [cursor=pointer]:
+            - /url: /de/leistungen/
+        - listitem:
+          - link "Lösungen" [ref=f27e10] [cursor=pointer]:
+            - /url: /de/loesungen/
+        - listitem:
+          - link "Referenzen" [ref=f27e13] [cursor=pointer]:
+            - /url: /de/referenzen/
+        - listitem:
+          - link "Unternehmen" [ref=f27e14] [cursor=pointer]:
+            - /url: /de/unternehmen/
+        - listitem:
+          - link "Karriere" [ref=f27e17] [cursor=pointer]:
+            - /url: /de/karriere
+    - generic [ref=f27e20] [cursor=pointer]:
+      - generic [ref=f27e21]:
+        - generic [ref=f27e22]:
+          - generic [ref=f27e23]: message
+          - text: Kontakt aufnehmen
+        - generic [ref=f27e24]:
+          - link "email Schreiben Sie uns eine E-Mail mit Fragen oder Feedback." [ref=f27e26]:
+            - /url: /de/unternehmen/unternehmen/kontakt/
+            - generic [ref=f27e27]: email
+            - paragraph [ref=f27e28]: Schreiben Sie uns eine E-Mail mit Fragen oder Feedback.
+          - link "location_on Sie möchten uns persönlich treffen? - So können Sie uns finden" [ref=f27e30]:
+            - /url: /de/unternehmen/unternehmen/anfahrt/
+            - generic [ref=f27e31]: location_on
+            - paragraph [ref=f27e32]: Sie möchten uns persönlich treffen? - So können Sie uns finden
+      - link [ref=f27e34]:
+        - /url: https://partnerfinder.sap.com/profile/0000504737
+      - generic [ref=f27e36]: 
+    - navigation [ref=f27e39]:
+      - button [ref=f27e40] [cursor=pointer]
+    - generic [ref=f27e46]:
+      - heading [level=1] [ref=f27e49]:
+        - paragraph [ref=f27e50]: (Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP)
+      - heading [level=3] [ref=f27e53]:
+        - paragraph [ref=f27e54]: Bewerben Sie sich jetzt!
+      - generic [ref=f27e57]:
+        - generic [ref=f27e58]:
+          - generic [ref=f27e59]: 
+          - text: D-72218 Wildberg
+        - generic [ref=f27e60]:
+          - generic [ref=f27e61]: 
+          - text: Vollzeit, unbefristet
+        - generic [ref=f27e62]:
+          - generic [ref=f27e63]: 
+          - text: ab sofort
+    - generic [ref=f27e65]:
+      - list [ref=f27e67]:
+        - listitem [ref=f27e68]:
+          - link "Start" [ref=f27e69] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f27e70]:
+          - text: /
+          - link "Karriere" [ref=f27e71] [cursor=pointer]:
+            - /url: /de/karriere
+        - listitem [ref=f27e72]:
+          - text: /
+          - link "Alle Stellenangebote" [ref=f27e73] [cursor=pointer]:
+            - /url: /de/karriere/alle-stellenangebote
+        - listitem [ref=f27e74]:
+          - text: /
+          - link "(Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP)" [ref=f27e75] [cursor=pointer]:
+            - /url: /de/karriere/alle-stellenangebote/festanstellung/senior-softwareentwickler-sap-ecommerce-java-abap-mwd
+        - list
+      - link "Alle Stellenangebote" [ref=f27e77] [cursor=pointer]:
+        - /url: /de/karriere/alle-stellenangebote
+    - generic [ref=f27e79]:
+      - generic [ref=f27e80] [cursor=pointer]:
+        - generic [ref=f27e81]: 
+        - text: Teilen
+      - generic:
+        - link:
+          - /url: /media/
+      - paragraph [ref=f27e83]: "zuletzt aktualisiert: 08.10.2026"
+    - generic [ref=f27e85]:
+      - generic [ref=f27e86]:
+        - heading "Wer wir sind:" [level=2] [ref=f27e87]
+        - paragraph
+        - paragraph [ref=f27e88]: Die innovate Software GmbH ist spezialisiert auf die SAP-Beratung für E-Business, Mobile-Business und Customer-Relationship-Management.Unsere Kernkompetenzen befinden sich in der Beratung von Unternehmen und bei der Implementierung von unternehmensübergreifenden Geschäftsprozessen, um über verschiedene Kanäle mit Kunden und Lieferanten elektronisch unterstützt zu kommunizieren. Dabei steht im Fokus unserer Geschäftstätigkeit sowohl die strategische Beratung als auch die anschließende Implementierung und Entwicklung der Systeme, welche die elektronischen Geschäftsprozesse ermöglichen.
+        - paragraph
+      - generic [ref=f27e89]:
+        - generic [ref=f27e90]:
+          - generic [ref=f27e91]: Die SAP hat unser erfolgreiches Engagement und Know-how mit der Recognized Expertise Partnerschaft im Bereich SAP Commerce ausgezeichnet.
+          - generic [ref=f27e94] [cursor=pointer]: ❮
+          - generic [ref=f27e95] [cursor=pointer]: ❯
+        - heading [level=2]
+        - paragraph
+    - generic [ref=f27e97]:
+      - generic [ref=f27e98]:
+        - heading "Ihre Aufgabenfelder:" [level=2] [ref=f27e99]
+        - paragraph
+        - list [ref=f27e100]:
+          - listitem [ref=f27e101]: SAP Commerce-, Java- und ABAP-Projekte im internationalen Umfeld
+          - listitem [ref=f27e102]: Konzeption und Weiterentwicklung von E-Commerce-Lösungen
+          - listitem [ref=f27e103]: Erstellung von Anforderungs- und Bedarfsanalysen
+          - listitem [ref=f27e104]: Entwicklung von kundenindividuellen Webapplikationen
+          - listitem [ref=f27e105]: Durchführung von Testphasen (jUnit)
+          - listitem [ref=f27e106]: Kundensupport via Online-Ticketsystem
+        - paragraph
+      - generic [ref=f27e107]:
+        - heading "Das bringen Sie mit:" [level=2] [ref=f27e108]
+        - paragraph
+        - list [ref=f27e109]:
+          - listitem [ref=f27e110]: Studium z. B. in den Bereichen (Wirtschafts-)Informatik, Wirtschaftsingenieurswesen, Mathematik, Physik
+          - listitem [ref=f27e111]: Oder eine vergleichbare Berufsausbildung als Fachinformatiker (m/w/d) für Anwendungsentwicklung oder Systemintegration
+          - listitem [ref=f27e112]: Solide Kenntnisse in der Java-Programmierung
+          - listitem [ref=f27e113]: Alternativ solide Kenntnisse in der ABAP-Programmierung
+          - listitem [ref=f27e114]: Erste Erfahrungen mit JAVA Webframeworks (Spring, Struts, JSF)
+          - listitem [ref=f27e115]: Zeitweise Reisebereitschaft
+          - listitem [ref=f27e116]: Erfahrungen mit Webtechniken (HTML, CSS, AJAX)
+          - listitem [ref=f27e117]: Erste Kontakte mit Projektmanagement
+          - listitem [ref=f27e118]: Erste Kontakte mit SAP Commerce
+        - paragraph [ref=f27e119]
+        - paragraph
+    - generic [ref=f27e120]:
+      - generic [ref=f27e121]:
+        - generic [ref=f27e122]:
+          - heading [level=2]
+        - paragraph [ref=f27e124] [cursor=pointer]: Alle ausklappen
+      - paragraph
+      - generic [ref=f27e126]:
+        - generic [ref=f27e128] [cursor=pointer]:
+          - generic [ref=f27e129]:
+            - emphasis [ref=f27e131]: 
+            - generic [ref=f27e132]:
+              - generic [ref=f27e133]: Sicherheit & Wachstum
+              - emphasis [ref=f27e135]: +
+          - generic [ref=f27e136]: Wir bieten eine unbefristete Festanstellung in der zukunftsorientierten IT-Branche und sichern mit unserem stetigen Wachstum Arbeitsplätze. ×
+        - generic [ref=f27e138] [cursor=pointer]:
+          - generic [ref=f27e139]:
+            - emphasis [ref=f27e141]: 
+            - generic [ref=f27e142]:
+              - generic [ref=f27e143]: Betriebliche Altersvorsorge
+              - emphasis [ref=f27e145]: +
+          - generic [ref=f27e146]: Wir sagen „Vorsorge statt Nachsorge“ und bieten eine betriebliche Altersvorsorge mit attraktiven Konditionen. ×
+        - generic [ref=f27e148] [cursor=pointer]:
+          - generic [ref=f27e149]:
+            - emphasis [ref=f27e151]: 
+            - generic [ref=f27e152]:
+              - generic [ref=f27e153]: Get-Together & Teamevents
+              - emphasis [ref=f27e155]: +
+          - generic [ref=f27e156]: Unser Teamgeist stellt das Fundament unserer guten und erfolgreichen Zusammenarbeit dar. Dies fördern wir im gemeinsamen Austausch und in entspannter Atmosphäre. ×
+        - generic [ref=f27e158] [cursor=pointer]:
+          - generic [ref=f27e159]:
+            - emphasis [ref=f27e161]: 
+            - generic [ref=f27e162]:
+              - generic [ref=f27e163]: Mittagessen
+              - emphasis [ref=f27e165]: +
+          - generic [ref=f27e166]: Wir bieten ein abwechslungsreiches Mittagessen mit unseren täglich frisch gekochten Gerichten. Hierbei können auch Sonderwünsche berücksichtigt werden. ×
+        - generic [ref=f27e168] [cursor=pointer]:
+          - generic [ref=f27e169]:
+            - emphasis [ref=f27e171]: 
+            - generic [ref=f27e172]:
+              - generic [ref=f27e173]: Gratisversorgung mit Nervennahrung
+              - emphasis [ref=f27e175]: +
+          - generic [ref=f27e176]: Keine Lust auf die Snacks von daheim? Kein Problem! Bei uns gibt es u. a. zahlreiche Joghurts, Obst, Getränke (Kaffee, Tee, gefiltertes Wasser) – alles kostenfrei, versteht sich. ×
+        - generic [ref=f27e178] [cursor=pointer]:
+          - generic [ref=f27e179]:
+            - emphasis [ref=f27e181]: 
+            - generic [ref=f27e182]:
+              - generic [ref=f27e183]: Onboarding, Mentoring & Feedback
+              - emphasis [ref=f27e185]: +
+          - generic [ref=f27e186]: "Ankommen leicht gemacht: Mit unserem Willkommenstag, 100-Tage-Programm und einer persönlichen Ansprechperson. Der Fortschritt wird mit regelmäßigen Entwicklungs- und Orientierungsgesprächen individuell gefördert. ×"
+        - generic [ref=f27e188] [cursor=pointer]:
+          - generic [ref=f27e189]:
+            - emphasis [ref=f27e191]: 
+            - generic [ref=f27e192]:
+              - generic [ref=f27e193]: Weiterentwicklung & Karriereförderung
+              - emphasis [ref=f27e195]: +
+          - generic [ref=f27e196]: „One size fits all“ gibt es bei uns nicht. Stattdessen fördern wir eine steile Lernkurve durch unsere individuellen Weiterbildungsangebote und SAP-E-Learnings, die flexible Karrierewege bei uns öffnen. ×
+        - generic [ref=f27e198] [cursor=pointer]:
+          - generic [ref=f27e199]:
+            - emphasis [ref=f27e201]: 
+            - generic [ref=f27e202]:
+              - generic [ref=f27e203]: Modernes Arbeitsumfeld
+              - emphasis [ref=f27e205]: +
+          - generic [ref=f27e206]: Unsere Arbeitsplätze sind mit modernem Equipment ausgestattet. Gearbeitet wird in ansprechenden und hellen Büros, in zentraler Lage. ×
+        - generic [ref=f27e208] [cursor=pointer]:
+          - generic [ref=f27e209]:
+            - emphasis [ref=f27e211]: 
+            - generic [ref=f27e212]:
+              - generic [ref=f27e213]: Teamspirit & flache Hierarchien
+              - emphasis [ref=f27e215]: +
+          - generic [ref=f27e216]: Wir sind ein Team und leben eine offene Arbeitsatmosphäre, bei der das partnerschaftliche Miteinander sowie eine offene Kommunikation auf Augenhöhe im Fokus stehen. ×
+        - generic [ref=f27e218] [cursor=pointer]:
+          - generic [ref=f27e219]:
+            - emphasis [ref=f27e221]: 
+            - generic [ref=f27e222]:
+              - generic [ref=f27e223]: Aktive Mitgestaltung
+              - emphasis [ref=f27e225]: +
+          - generic [ref=f27e226]: Wir fördern eigenverantwortliches und selbstständiges Arbeiten in spannenden sowie abwechslungsreichen Projekten in der IT-Zukunftsbranche. ×
+        - generic [ref=f27e228] [cursor=pointer]:
+          - generic [ref=f27e229]:
+            - emphasis [ref=f27e231]: 
+            - generic [ref=f27e232]:
+              - generic [ref=f27e233]: Nachhaltigkeit
+              - emphasis [ref=f27e235]: +
+          - generic [ref=f27e236]: Mit unserer E-Ladestation leisten wir einen kleinen Beitrag für eine bessere Zukunft. ×
+        - generic [ref=f27e238] [cursor=pointer]:
+          - generic [ref=f27e239]:
+            - emphasis [ref=f27e241]: 
+            - generic [ref=f27e242]:
+              - generic [ref=f27e243]: Internationale Projekte
+              - emphasis [ref=f27e245]: +
+          - generic [ref=f27e246]: Wir sind stolz auf unsere langjährigen Kundenbeziehungen und die nationalen sowie internationalen Projekte, die wir begleiten – von der Beratung bis zum Go-Live. ×
+    - generic [ref=f27e248]:
+      - generic [ref=f27e249]:
+        - heading "So erreichen Sie uns" [level=2] [ref=f27e250]
+        - paragraph
+        - paragraph [ref=f27e251]: Sollten Sie noch Fragen haben, die in unseren FAQ nicht beantwortet wurden,stehen wir Ihnen gerne telefonisch zur Verfügung.
+        - paragraph [ref=f27e252]:
+          - generic [ref=f27e253]: "Unsere zentrale Rufnummer: 07054/30210"
+        - paragraph [ref=f27e254]
+        - paragraph
+        - paragraph
+      - generic [ref=f27e255]:
+        - heading "Hinweise zu Ihrer Bewerbung" [level=2] [ref=f27e256]
+        - paragraph
+        - paragraph [ref=f27e257]:
+          - generic [ref=f27e258]: "Falls Sie weitere Informationen zum Bewerbungsprozess bei innovate benötigen oder anderweitige Fragen zu Ihrer Bewerbung haben, finden Sie hier alle Informationen:"
+        - link "Bewerbungsprozess & FAQ" [ref=f27e260] [cursor=pointer]:
+          - /url: /de/karriere/bewerbungsprozess
+        - paragraph
+    - generic [ref=f27e261]:
+      - generic [ref=f27e262]:
+        - 'heading "Fast geschafft: Ein letzter Klick zum Bewerbungsformular!" [level=1] [ref=f27e263]'
+        - paragraph [ref=f27e265]:
+          - generic [ref=f27e266]:
+            - strong [ref=f27e267]:
+              - text: Wir freuen uns, dass Sie Teil von innovate werden und gemeinsam mit uns die Zukunft der IT-Dienstleistungen gestalten möchten! Klicken Sie auf den Button
+              - strong [ref=f27e268]: „Jetzt bewerben“, u
+              - text: m Ihre vollständigen Bewerbungsunterlagen an uns zu übermitteln.
+            - strong [ref=f27e269]: Wichtiger Hinweis
+            - strong [ref=f27e270]: ":"
+            - text: Ihre Bewerbung wird über unser Bewerbungsformular eingereicht und intern verarbeitet. Weitere Informationen zum Datenschutz und zur Verarbeitung Ihrer Daten finden Sie in unserer
+            - link [ref=f27e271] [cursor=pointer]:
+              - /url: https://www.innovate-gmbh.de/de/info/datenschutzerklaerung/
+              - strong [ref=f27e272]: Datenschutzerklärung
+        - paragraph [ref=f27e273]: "Ihre Bewerbung auf folgende Stelle:Festanstellung: (Senior) Softwareentwickler / Developer (m/w/d) für SAP E-Commerce (Java/ABAP), Vollzeit, ab sofort"
+        - paragraph [ref=f27e275] [cursor=pointer]: Jetzt bewerben
+      - generic:      
+    - paragraph [ref=f27e281]:
+      - generic [ref=f27e282]:
+        - strong [ref=f27e283]: "Unser Statement zur Chancengleichheit:"
+        - text: Bei uns stehen Menschen mit ihren individuellen Lebensmodellen im Mittelpunkt. Wir legen Wert auf ein freundliches und unterstützendes Arbeitsumfeld mit einem respektvollen Umgang untereinander.Hierbei lehnen wir jegliche Form von Diskriminierung aufgrund von Geschlecht, ethnischer und sozialer Herkunft, Kultur, Religion und Weltanschauung, Alter, sexueller Identität, chronischen Krankheiten oder Behinderung ab.
+    - generic [ref=f27e284]:
+      - link [ref=f27e286] [cursor=pointer]:
+        - /url: https://partnerfinder.sap.com/profile/0000504737
+      - paragraph [ref=f27e289]:
+        - text: Alle Inhalte urheberrechtlich geschützt. |
+        - link "Impressum" [ref=f27e290] [cursor=pointer]:
+          - /url: /de/info/impressum
+        - text: "|"
+        - link "Datenschutzerklärung" [ref=f27e291] [cursor=pointer]:
+          - /url: /de/info/datenschutzerklaerung/
+        - text: "|"
+        - link "innovate Software GmbH" [ref=f27e292] [cursor=pointer]:
+          - /url: /
+  - generic [ref=f27e293]: 

@@ -1,0 +1,249 @@
+- generic [ref=f5e1]:
+  - banner "Top bar menu" [ref=f5e2]:
+    - generic:
+      - link "Skip to main content" [ref=f5e3] [cursor=pointer]:
+        - /url: "#start-content"
+      - link [ref=f5e6] [cursor=pointer]:
+        - /url: https://www.cgi.com/en
+        - img "CGI official logo" [ref=f5e7]
+      - button "Access to main navigation" [ref=f5e14] [cursor=pointer]
+  - generic [ref=f5e17]:
+    - banner [ref=f5e18]:
+      - generic [ref=f5e19]:
+        - generic [ref=f5e20]:
+          - heading "Suche" [level=1] [ref=f5e21]
+          - heading "Stellenangebote durchsuchen" [level=2] [ref=f5e22]
+        - img "Careers" [ref=f5e24]
+    - region "Main content" [ref=f5e27]:
+      - generic [ref=f5e36]:
+        - list [ref=f5e38]:
+          - listitem [ref=f5e39]:
+            - link "Profil anlegen | Anmelden" [ref=f5e40] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=login
+          - listitem [ref=f5e41]:
+            - link "Karriere-Newsletter aktivieren" [ref=f5e42] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&clid=21001&page=JobMatchSubscription
+        - generic [ref=f5e44]:
+          - generic [ref=f5e46]:
+            - complementary [ref=f5e47]:
+              - generic [ref=f5e49]:
+                - link [ref=f5e50] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djobdetails%26jobid%3DJ1026-0889%26BRID%3D1340166%26SBDID%3D943%26LANG%3D4
+                  - img "linkedin sharing link" [ref=f5e51]
+                - link [ref=f5e52] [cursor=pointer]:
+                  - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djobdetails%26jobid%3DJ1026-0889%26BRID%3D1340166%26SBDID%3D970%26LANG%3D4
+                  - img "facebook sharing link" [ref=f5e53]
+                - link [ref=f5e54] [cursor=pointer]:
+                  - /url: https://twitter.com/share?url=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djobdetails%26jobid%3DJ1026-0889%26BRID%3D1340166%26SBDID%3D961%26LANG%3D4
+                  - img "X sharing link" [ref=f5e55]
+                - link [ref=f5e56] [cursor=pointer]:
+                  - /url: mailto:?subject=sharing&body=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djobdetails%26jobid%3DJ1026-0889%26BRID%3D1340166%26SBDID%3D21812%26LANG%3D4
+                  - img "email sharing link" [ref=f5e57]
+                - link [ref=f5e58] [cursor=pointer]:
+                  - /url: https://www.xing.com/social/share/spi?url=https%3A%2F%2Fcgi.njoyn.com%2Fcorp%2Fxweb%2Fxweb.asp%3Fclid%3D21001%26page%3Djobdetails%26jobid%3DJ1026-0889%26BRID%3D1340166%26SBDID%3D21451%26LANG%3D4
+                  - img "xing sharing link" [ref=f5e59]
+            - link " Ähnliche Stellenangebote finden" [ref=f5e61] [cursor=pointer]:
+              - /url: xweb.asp?NTKN=c&page=jobmatches&txtJobId=J1026-0889&clid=21001&jid=1478238
+              - generic [ref=f5e62]: 
+              - text: Ähnliche Stellenangebote finden
+            - generic [ref=f5e63]:
+              - generic [ref=f5e64]:
+                - button "Bewirb dich jetzt!" [ref=f5e66] [cursor=pointer]
+                - heading "Infra / DevOps Lead - eCommerce (m/w/d)" [level=1] [ref=f5e67]
+                - generic [ref=f5e68]: "Kategorie: Infrastruktur/Cloud"
+                - generic [ref=f5e69]: "Hauptstandort: Deutschland, Nordrhein-Westfalen, Düsseldorf, Köln oder Bochum"
+                - generic [ref=f5e70]: "Stellen-ID: J1026-0889"
+                - generic [ref=f5e71]: "Anstellungsart: Vollzeit"
+              - generic [ref=f5e72]:
+                - generic [ref=f5e73]:
+                  - heading "Stellenbeschreibung:" [level=2] [ref=f5e74]
+                  - paragraph
+                  - list [ref=f5e75]:
+                    - paragraph [ref=f5e76]:
+                      - text: "Der eCommerce-Bereich befindet sich in einem tiefgreifenden Wandel: Steigende Anforderungen an Verfügbarkeit, Skalierbarkeit und Kundenerlebnis treffen auf den Weg in Richtung Cloud. Gleichzeitig wachsen die Anforderungen an moderne, PHP-basierte Plattformarchitekturen, die stabil betrieben und gleichzeitig weiterentwickelt werden müssen. Als Infra / DevOps Lead (m/w/d) übernimmst du eine zentrale Rolle beim Betrieb und der technologischen Weiterentwicklung einer geschäftskritischen B2B-eCommerce-Plattform auf Basis von Magento 2. Die Plattform wird aktuell in einer On-Premises-Infrastruktur betrieben und soll zeitnah in die Adobe Commerce Cloud migriert werden. Du verantwortest die technische Führung des Infrastruktur- und DevOps-Bereichs und arbeitest eng mit Development, Operations, Security und weiteren Stakeholdern zusammen. Wenn du technische Verantwortung für eine geschäftskritische Systemlandschaft übernehmen, die Transformation in Richtung Cloud aktiv mitgestalten und ein Team fachlich führen möchtest, bist du bei uns genau richtig. CGI gehört zu den weltweit führenden Unternehmen für Business- und IT-Beratung. Mit über 94.000 Partnern arbeiten wir in lokal verankerten Teams und verbinden globale Expertise mit regionaler Nähe. Unser Portfolio umfasst Business Consulting, Systemintegration und Managed Services – wir begleiten unsere Kunden End-to-End durch ihre digitale Transformation."
+                      - iframe [ref=f5e77]
+                - generic [ref=f5e78]:
+                  - heading "Aufgaben:" [level=2] [ref=f5e79]
+                  - paragraph
+                  - list [ref=f5e80]:
+                    - paragraph [ref=f5e81]: "In deiner Rolle als Infra / DevOps Lead (m/w/d) verantwortest du den stabilen Betrieb sowie die Weiterentwicklung der Infrastruktur- und DevOps-Architektur einer komplexen eCommerce-Plattform. Deine Aufgaben umfassen insbesondere:"
+                    - listitem [ref=f5e82]: Technische Verantwortung für Infrastruktur und stabilen Betrieb der Magento-2-Plattform in der aktuellen On-Premises-Umgebung sowie in der zukünftigen Adobe Commerce Cloud
+                    - listitem [ref=f5e83]: Weiterentwicklung und Optimierung der Infrastruktur- und DevOps-Architektur mit Fokus auf Verfügbarkeit, Performance, Skalierbarkeit, Security und Wartbarkeit
+                    - listitem [ref=f5e84]: Technische und fachliche Führung des Operations-/DevOps-Teams sowie Unterstützung anderer Engineers bei komplexen technischen Fragestellungen
+                    - listitem [ref=f5e85]: Analyse und Lösung komplexer Infrastruktur-, Performance- und Produktionsprobleme, insbesondere entlang der Magento-/PHP-Laufzeitumgebung
+                    - listitem [ref=f5e86]: Technische Leitung strukturierter Root Cause Analysen und Ableitung nachhaltiger Maßnahmen zur Stabilisierung und Verbesserung der Plattform
+                    - listitem [ref=f5e87]: Technische Begleitung und Mitgestaltung der geplanten Migration von On-Premises zu
+                    - listitem [ref=f5e88]: Verantwortung fuer CI/CD-, Configuration-Management-, Deployment- und Release-Prozesse, insbesondere mit Jenkins sowie Puppet / Ansible
+                    - listitem [ref=f5e89]: Planung und Koordination von Releases, Patches, Infrastrukturveränderungen und Wartungsarbeiten inklusive Risiko- und Abhaengigkeitsbewertung
+                    - listitem [ref=f5e90]: Aufbau und Weiterentwicklung von Monitoring, Alerting und Observability sowie Nutzung geeigneter Telemetrie fuer Fehleranalyse und Performance-Optimierung
+                    - listitem [ref=f5e91]: Proaktive Identifikation von Capacity-, Lifecycle-, Security- und Obsolescence-Risiken und Einleitung geeigneter Gegenmassnahmen
+                    - listitem [ref=f5e92]: Zusammenarbeit mit Development, QA, Architecture, Security, Service Management sowie externen Infrastruktur- und Hosting-Providern
+                    - listitem [ref=f5e93]:
+                      - text: Unterstuetzung bei Business Continuity, Backup/Restore und Disaster-Recovery-Konzepten sowie bei entsprechenden Tests
+                      - paragraph
+                - generic [ref=f5e94]:
+                  - heading "Qualifikation:" [level=2] [ref=f5e95]
+                  - paragraph
+                  - list [ref=f5e96]:
+                    - paragraph [ref=f5e97]: Du bringst fundierte Erfahrung im Bereich DevOps und Infrastructure Engineering sowie die Fähigkeit mit, eine komplexe, geschäftskritische Plattform technisch zu führen und strukturiert weiterzuentwickeln.
+                    - listitem [ref=f5e98]: Mehrjährige Erfahrung im Bereich DevOps, Infrastructure Engineering oder Platform Operations, idealerweise in einer Lead- oder Senior-Rolle
+                    - listitem [ref=f5e99]: Sehr gute Kenntnisse von Magento 2 und der zugrunde liegenden technischen Architektur
+                    - listitem [ref=f5e100]: Sehr gute PHP-Kenntnisse sowie fundiertes Verständnis von PHP-FPM, PHP-Konfiguration, Worker-Modellen, Memory Management, Timeouts und Performance-Tuning
+                    - listitem [ref=f5e101]: Sehr gute Linux-Kenntnisse, idealerweise RHEL / Rocky Linux, sowie sehr gute Kenntnisse von Nginx und dem Betrieb PHP-basierter Web-Applikationen
+                    - listitem [ref=f5e102]: Erfahrung mit CI/CD, insbesondere Jenkins, sowie mit Build-, Deployment- und Release-Prozessen in komplexen Systemlandschaften
+                    - listitem [ref=f5e103]: Erfahrung mit Configuration Management und Infrastructure-as-Code, idealerweise Puppet und ergänzend Ansible
+                    - listitem [ref=f5e104]: Gute Kenntnisse mehrerer für Magento typischer Backend-Komponenten wie Redis / Sentinel, RabbitMQ, Elasticsearch / OpenSearch sowie MySQL / MariaDB
+                    - listitem [ref=f5e105]: Erfahrung mit Monitoring und Observability, beispielsweise New Relic, Kibana und Filebeat
+                    - listitem [ref=f5e106]: Sehr gutes Verständnis von Networking, DNS, TLS/SSL, Firewalls, Load Balancing und Reverse Proxies
+                    - listitem [ref=f5e107]: Erfahrung im Troubleshooting komplexer verteilter Systemlandschaften und in der strukturierten Root Cause Analysis
+                    - listitem [ref=f5e108]: Erfahrung mit Adobe Commerce Cloud bzw. Adobe Commerce on Cloud Infrastructure oder vergleichbare praktische Erfahrung mit dem Betrieb und der Migration komplexer eCommerce-Plattformen in Cloud-Umgebungen
+                    - listitem [ref=f5e109]: Verstaendnis von Cloud-Architekturen und Cloud-Betriebsmodellen sowie der Unterschiede zu klassischen On-Premises-Infrastrukturen
+                    - listitem [ref=f5e110]: Sehr gute Englischkenntnisse, Deutsch von Vorteil Von Vorteil
+                    - listitem [ref=f5e111]: Erfahrung mit VMware / ESXi sowie SAN-/NAS-Infrastrukturen
+                    - listitem [ref=f5e112]: Kenntnisse in Cloudflare sowie CDN-, WAF- und Web-Security-Konzepten
+                    - listitem [ref=f5e113]: Erfahrung mit F5 BIG-IP sowie Cisco- oder Palo-Alto-Firewalls
+                    - listitem [ref=f5e114]: Kenntnisse in LDAP / 389 Directory Server / SSSD bzw. zentralem Identity Management
+                    - listitem [ref=f5e115]: Erfahrung mit High-Availability-, Backup-/Restore- und Disaster-Recovery-Konzepten
+                    - listitem [ref=f5e116]:
+                      - text: Erfahrung im Betrieb grosser oder geschaeftskritischer B2B-eCommerce-Plattformen Technisches Umfeld Magento 2 · PHP / PHP-FPM · Linux / RHEL / Rocky Linux · Nginx · Jenkins · Puppet · Ansible · Git / Gitea · Redis / Sentinel · RabbitMQ · OpenSearch / Elasticsearch · MySQL / MariaDB · New Relic · Kibana · Filebeat · VMware / ESXi · Cloudflare · F5 · LDAP Neben deinem fachlichen Know-how überzeugst du durch unternehmerisches Denken, strategische Weitsicht und die Fähigkeit, komplexe Sachverhalte verständlich zu kommunizieren. Du arbeitest eigenverantwortlich, bringst dich aktiv ins Team ein und gestaltest Themen mit.
+                      - heading "Was wir bieten" [level=2] [ref=f5e117]
+                    - listitem [ref=f5e118]: Bei uns findest du Kolleg:innen, mit denen die Zusammenarbeit Spaß macht. Wir begegnen uns offen, duzen uns über alle Positionen hinweg und denken nicht in Hierarchien oder Silos.
+                    - listitem [ref=f5e119]: Du arbeitest meist direkt an deinem Heimatort – weil wir Kundennähe wörtlich nehmen und uns Work-Life-Balance am Herzen liegt.
+                    - listitem [ref=f5e120]: Du profitierst von flexiblen Arbeitszeiten und hast je nach Kundensituation die Möglichkeit, von zuhause zu arbeiten.
+                    - listitem [ref=f5e121]: Die richtigen Trainings und Zertifikate bringen deine Weiterbildung voran. Unsere E-Learning-Plattform Academia ermöglicht dir das Lernen, wo und wann du willst.
+                    - listitem [ref=f5e122]: Einen Teil deines Bruttogehalts kannst du in CGI Aktien investieren – bis maximal 3 % des Monatsgehalts geben wir für jeden Euro einen weiteren hinzu.
+                    - listitem [ref=f5e123]: "Außerdem beteiligen wir dich am Unternehmenserfolg: Du erhältst eine Gewinnbeteiligung, die sich nach deiner individuellen Leistung richtet, sowie danach, wie wir als Unternehmen unsere finanziellen Ziele erreichen konnten."
+                    - listitem [ref=f5e124]: Mit Jobticket und Jobbike fördern wir umweltfreundliche Mobilität. Abhängig von deiner Rolle und Projektsituation sind auch Bahncard oder Elektro-Firmenwagen möglich.
+                    - listitem [ref=f5e125]: Sabbatical oder Elternzeit werden unterstützt. Sie sind bei uns kein Karriere-Stopper!
+                    - listitem [ref=f5e126]: "Wir sind an deiner Seite, auch wenn es einmal nicht so gut läuft: Du kannst Sonderurlaub nehmen, und unsere Beratungshotline steht dir immer zur Verfügung."
+                    - listitem [ref=f5e127]:
+                      - text: Eine Vielzahl an gemeinsamen Events und Freizeitaktivitäten stärkt deine Verbundenheit mit deinen Kolleg:innen.#LI-MH21
+                      - paragraph
+                - generic [ref=f5e128]:
+                  - heading "Was kann man von CGI erwarten?:" [level=2] [ref=f5e129]
+                  - paragraph [ref=f5e130]:
+                    - strong [ref=f5e131]: Together, as owners, let’s turn meaningful insights into action.
+                    - text: 1976 gegründet und nach wie vor familiengeführt, ist CGI heute einer der weltweit größten unabhängigen Anbieter von IT und Business Consulting. Ein hohes Maß an Eigenverantwortung, Teamwork, Respekt und Zusammenhalt machen das Arbeiten bei uns besonders. Bei uns kannst du dein volles Potenzial entfalten!Du darfst dich vom ersten Tag an als Miteigentümer:in von CGI verstehen. Wir lassen unsere Vision gemeinsam Wirklichkeit werden. Wir profitieren von unserem gemeinsamen Erfolg und haben die Möglichkeit und die Verantwortung, die Strategie und Ausrichtung unseres Unternehmens aktiv mitzugestalten.Deine Arbeit schafft Mehrwert. Du findest innovative Lösungen und stärkst dein Netzwerk aus Kolleg:innen und Kunden. Gleichzeitig hast du Zugang zu globalen Ressourcen, um große Ideen zu verwirklichen, neue Chancen zu nutzen und von der immensen Branchen- und Technologie-Kompetenz zu profitieren.Du bringst deine Karriere voran, da du in einem Unternehmen arbeitest, das auf Wachstum und Langlebigkeit ausgelegt ist. Du wirst von Führungskräften unterstützt, die deine Gesundheit und Zufriedenheit fördern – und dir Möglichkeiten bieten, deine Fähigkeiten zu vertiefen und deinen Horizont zu erweitern.
+              - button "Bewirb dich jetzt!" [ref=f5e134] [cursor=pointer]
+              - generic:
+                - generic:
+                  - complementary
+          - paragraph [ref=f5e135]: Das CGI-Recruiting Team steht dir bei Rückfragen oder für ein telefonisches Erstgespräch gerne zur Verfügung. Du erreichst uns unter 06196 / 77 42 420. Wir freuen uns auf deine Bewerbung!
+    - contentinfo [ref=f5e136]:
+      - generic [ref=f5e138]:
+        - generic [ref=f5e141]:
+          - heading "Fragen? Gerne helfen wir weiter." [level=2] [ref=f5e142]
+          - link "Kontakt" [ref=f5e144] [cursor=pointer]:
+            - /url: https://www.cgi.com/de/de/kontakt
+        - generic [ref=f5e147]:
+          - generic [ref=f5e149]:
+            - img "CGI official logo" [ref=f5e151]
+            - heading "Insights you can act on" [level=2] [ref=f5e157]
+            - paragraph [ref=f5e158]: CGI wurde 1976 gegründet und gehört zu den größten Unternehmen für IT und Business Consulting weltweit. Wir kennen Ihre Branche, handeln ergebnisorientiert und helfen Ihnen so, den ROI zu steigern.
+            - paragraph [ref=f5e159]: © 2026 CGI Inc.
+          - generic [ref=f5e160]:
+            - heading "Unternehmen" [level=2] [ref=f5e161]
+            - navigation [ref=f5e163]:
+              - heading "Useful links GERMANY" [level=2] [ref=f5e164]
+              - list [ref=f5e165]:
+                - listitem [ref=f5e166]:
+                  - link "Über uns" [ref=f5e167] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/unternehmen
+                - listitem [ref=f5e168]:
+                  - link "Verantwortung" [ref=f5e169] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung
+                - listitem [ref=f5e170]:
+                  - link "Management" [ref=f5e171] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/management-team-deutschland
+                - listitem [ref=f5e172]:
+                  - link "Standorte" [ref=f5e173] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/Lokationen
+                - listitem [ref=f5e174]:
+                  - link "Allianzen" [ref=f5e175] [cursor=pointer]:
+                    - /url: https://www.cgi.com/en/alliances
+                - listitem [ref=f5e176]:
+                  - link "Merger" [ref=f5e177] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/merger
+          - generic [ref=f5e178]:
+            - heading "Mediathek" [level=2] [ref=f5e179]
+            - navigation [ref=f5e181]:
+              - heading "Library Links GERMANY" [level=2] [ref=f5e182]
+              - list [ref=f5e183]:
+                - listitem [ref=f5e184]:
+                  - link "Aktuelles" [ref=f5e185] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter
+                - listitem [ref=f5e186]:
+                  - link "Artikel" [ref=f5e187] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/articles
+                - listitem [ref=f5e188]:
+                  - link "Blogs" [ref=f5e189] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/blogs
+                - listitem [ref=f5e190]:
+                  - link "Events" [ref=f5e191] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/events
+                - listitem [ref=f5e192]:
+                  - link "Podcasts" [ref=f5e193] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/podcasts
+                - listitem [ref=f5e194]:
+                  - link "Presse" [ref=f5e195] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/press-releases
+                - listitem [ref=f5e196]:
+                  - link "Standpunkt" [ref=f5e197] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/mediacenter/standpunkte
+          - generic [ref=f5e198]:
+            - heading "Rechtliches" [level=2] [ref=f5e199]
+            - navigation [ref=f5e201]:
+              - heading "Legal GERMANY" [level=2] [ref=f5e202]
+              - list [ref=f5e203]:
+                - listitem [ref=f5e204]:
+                  - link "Beschwerden/Hinweise" [ref=f5e205] [cursor=pointer]:
+                    - /url: https://app.convercent.com/de-de/Anonymous/IssueIntake/LandingPage/c430ea19-76ad-e911-a96a-000d3ab9f062?_=1571951870663
+                - listitem [ref=f5e206]:
+                  - link "Compliance" [ref=f5e207] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/verantwortung/unternehmensfuehrung
+                - listitem [ref=f5e208]:
+                  - link "Datenschutz" [ref=f5e209] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/de/datenschutz
+                - listitem [ref=f5e210]:
+                  - link "Impressum" [ref=f5e211] [cursor=pointer]:
+                    - /url: https://www.cgi.com/de/impressum
+                - listitem [ref=f5e212]:
+                  - link "Cookie-Einstellungen" [ref=f5e213] [cursor=pointer]
+          - generic [ref=f5e214]:
+            - generic [ref=f5e218]:
+              - heading "CGI abonnieren" [level=2] [ref=f5e219]
+              - heading "Wir informieren Sie" [level=3] [ref=f5e220]
+              - link "Abonnieren" [ref=f5e221] [cursor=pointer]:
+                - /url: https://www.cgi.com/de/de/content-subscription
+            - generic [ref=f5e222]:
+              - heading "Folgen Sie uns" [level=2] [ref=f5e223]
+              - navigation [ref=f5e225]:
+                - heading "Social Media GERMANY" [level=2] [ref=f5e226]
+                - generic [ref=f5e227]:
+                  - list:
+                    - listitem [ref=f5e228]:
+                      - link " Xing" [ref=f5e229] [cursor=pointer]:
+                        - /url: https://www.xing.com/companies/cgi
+                    - listitem [ref=f5e230]:
+                      - link " LinkedIn" [ref=f5e231] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/company/cgi/?originalSubdomain=de
+                    - listitem [ref=f5e232]:
+                      - link " Twitter" [ref=f5e233] [cursor=pointer]:
+                        - /url: https://twitter.com/cgi_de?lang=de
+                    - listitem [ref=f5e234]:
+                      - link " Facebook" [ref=f5e235] [cursor=pointer]:
+                        - /url: https://www.facebook.com/CGIDeutschland/
+                    - listitem [ref=f5e236]:
+                      - link " Youtube" [ref=f5e237] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCGQHK_7t782ivIcar8PIsTw
+  - dialog [ref=f5e238]:
+    - generic [ref=f5e239]:
+      - generic [ref=f5e240]:
+        - heading "Cookie-Zustimmung" [level=2] [ref=f5e242]
+        - generic [ref=f5e243]: Wir verwenden eigene Cookies und Cookies von Drittanbietern, um eine reibungslose und sichere Website zu gewährleisten. Einige sind für das Funktionieren unserer Website erforderlich und werden standardmäßig gesetzt. Andere sind optional und werden nur mit Ihrer Zustimmung gesetzt, um Ihr Surferlebnis zu verbessern. Sie können alle, keine oder einige dieser optionalen Cookies akzeptieren.
+      - generic [ref=f5e245]:
+        - button "Cookies anpassen" [active] [ref=f5e246] [cursor=pointer]
+        - button "Alle Cookies akzeptieren" [ref=f5e247] [cursor=pointer]
+        - button "Alle Cookies ablehnen" [ref=f5e248] [cursor=pointer]
+    - link "Cookie-Richtlinie" [ref=f5e251] [cursor=pointer]:
+      - /url: https://client.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=cookiespolicy

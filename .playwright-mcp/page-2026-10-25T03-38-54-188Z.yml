@@ -1,0 +1,99 @@
+- generic [ref=f67e1]:
+  - link "Zum Hauptinhalt springen" [ref=f67e3] [cursor=pointer]:
+    - /url: "#maincontent"
+  - generic [ref=f67e4]:
+    - iframe [ref=f67e6]: <p>Ihr Browser kann leider keine eingebetteten Frames anzeigen</p>
+    - generic [ref=f67e7]:
+      - list [ref=f67e10]:
+        - listitem [ref=f67e11]:
+          - link "Lesezeichen" [ref=f67e12] [cursor=pointer]:
+            - /url: "?nosavetokens=true&nojs=true"
+        - listitem [ref=f67e13]:
+          - link "Logout" [ref=f67e14] [cursor=pointer]:
+            - /url: /SelfService?Logout=6
+            - text:  Logout
+        - listitem [ref=f67e15]:
+          - link "DE-CH - Lokale Einstellungen DE-CH - Lokale Einstellungen" [ref=f67e16] [cursor=pointer]:
+            - /url: /ChangeLocalSettings?ContentOnly=true&SkipContentOnlySession=true
+            - text: 
+            - generic [ref=f67e17]: DE-CH - Lokale Einstellungen
+            - img "DE-CH - Lokale Einstellungen" [ref=f67e19]
+      - list [ref=f67e21]:
+        - listitem [ref=f67e22]:
+          - link "Hauptseite" [ref=f67e23] [cursor=pointer]:
+            - /url: /SelfService
+        - listitem [ref=f67e24]:
+          - link "Mein Profil" [ref=f67e25] [cursor=pointer]:
+            - /url: /SelfService/MyProfile
+        - listitem [ref=f67e26]:
+          - link "Stellenmarkt" [ref=f67e27] [cursor=pointer]:
+            - /url: /Jobs
+      - generic [ref=f67e29]:
+        - generic [ref=f67e30]:
+          - heading "Projektmanager m/w/d - Bewerbung" [level=1] [ref=f67e31]
+          - generic [ref=f67e32]: Bitte erfasse hier deine persönlichen Daten.
+        - generic [ref=f67e35]:
+          - generic [ref=f67e36]: Mit * markierte Felder sind Pflichtfelder.
+          - generic [ref=f67e51]:
+            - generic [ref=f67e52]: "Benutzername:"
+            - generic [ref=f67e55]:
+              - text: krantichavan198@gmail.com
+              - generic [ref=f67e56]: Die hier angegebene E-Mail-Adresse wird als Korrespondenz-E-Mail und als Login verwendet.
+          - generic [ref=f67e58]:
+            - generic [ref=f67e59]: "Benutzersprache*:"
+            - generic [ref=f67e62]:
+              - generic [ref=f67e63]:
+                - radio "Deutsch" [checked]
+                - text: Deutsch
+              - generic [ref=f67e64]:
+                - radio "Englisch / English"
+                - text: Englisch / English
+          - generic [ref=f67e68]:
+            - generic [ref=f67e69]: "E-Mail-Adresse*:"
+            - textbox "E-Mail-Adresse" [active] [ref=f67e73]: krantichavan198@gmail.com
+          - generic [ref=f67e83]:
+            - generic [ref=f67e84]: "Bewerbungsschreiben / Lebenslauf*:"
+            - generic [ref=f67e87]:
+              - button "Bewerbungsschreiben / Lebenslauf" [ref=f67e89]
+              - generic [ref=f67e90]: Maximal 50 MB
+          - generic [ref=f67e95]: Weitere Dokumente
+          - generic [ref=f67e100]:
+            - generic [ref=f67e101]: "Weitere Dokumente:"
+            - generic [ref=f67e104]:
+              - button "Weitere Dokumente" [ref=f67e106]
+              - generic [ref=f67e107]: Maximal 50 MB
+          - generic [ref=f67e111]:
+            - button [ref=f67e113]
+            - generic [ref=f67e114]: Maximal 50 MB
+          - generic [ref=f67e118]:
+            - button [ref=f67e120]
+            - generic [ref=f67e121]: Maximal 50 MB
+          - generic [ref=f67e129]:
+            - generic [ref=f67e130]: "Wie bist Du auf uns aufmerksam geworden? :"
+            - combobox "Wie bist Du auf uns aufmerksam geworden?" [ref=f67e134]:
+              - option "Bitte wählen" [selected]
+              - option "-----------------------------------------"
+              - option "Arbeitsagentur (Jobbörse)"
+              - option "Empfehlung durch Mitarbeitende"
+              - option "Karriere-Seite FLYERALARM"
+              - option "Kontakt auf Messe / Event"
+              - option "LinkedIn / Social Media"
+              - option "Personalvermittler"
+              - option "Printanzeigen"
+              - option "Sonstige Online-Jobbörse"
+              - option "Suchmaschine (Google, Yahoo …)"
+          - generic [ref=f67e146]:
+            - link "Zur Datenschutzbestimmung" [ref=f67e147] [cursor=pointer]:
+              - /url: /Vacancies/8469/DataProtection/1
+            - generic [ref=f67e148]: Zur Datenschutzbestimmung
+          - generic [ref=f67e162]: Bitte beachte, dass nur Bewerbungen mit Bewerbungsschreiben berücksichtigt werden können.Bitte lade deine Dokumente als PDF-Datei hoch.
+          - generic [ref=f67e171]:
+            - button "Bewerbung definitiv einreichen" [ref=f67e173] [cursor=pointer]
+            - link "Abbrechen" [ref=f67e175] [cursor=pointer]:
+              - /url: /Jobs?CustomFunction=CheckMarket
+    - text: 
+    - generic "recruitingapp stable | 2026.32.0 (stable)" [ref=f67e176]:
+      - generic [ref=f67e178]:
+        - text: Umantis
+        - link "" [ref=f67e180] [cursor=pointer]:
+          - /url: "#top"

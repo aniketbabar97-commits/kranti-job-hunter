@@ -1,0 +1,289 @@
+- generic [active] [ref=f14e1]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e4]: Only necessary cookies
+    - generic [ref=f14e8]:
+      - generic [ref=f14e9]: Incomparably delicious
+      - generic [ref=f14e10]: By clicking on ”Accept All” you enable us to serve you an improved user experience via cookies and to continuously improve it. This allows us to provide you with personalized recommendations on third-party sites. „Customize” allows you to specify your personal preferences . This is also possible at any time. By clicking on ”Only necessary cookies”, only technically necessary cookies are stored.
+    - generic [ref=f14e11]:
+      - generic [ref=f14e12] [cursor=pointer]: Customize
+      - generic [ref=f14e13] [cursor=pointer]: Accept All
+    - generic [ref=f14e14]:
+      - link "Privacy Policy" [ref=f14e15] [cursor=pointer]:
+        - /url: https://www.check24.de/unternehmen/impressum/#cookies
+      - link "Imprint" [ref=f14e16] [cursor=pointer]:
+        - /url: https://www.check24.de/unternehmen/impressum/
+  - banner [ref=f14e17]:
+    - generic [ref=f14e18]:
+      - generic [ref=f14e19]:
+        - button [ref=f14e21] [cursor=pointer]
+        - link [ref=f14e29] [cursor=pointer]:
+          - /url: /en/
+      - list [ref=f14e46]:
+        - listitem [ref=f14e47]:
+          - link "de" [ref=f14e48] [cursor=pointer]:
+            - /url: /de/
+        - listitem [ref=f14e49]:
+          - link "en" [ref=f14e50] [cursor=pointer]:
+            - /url: /en/
+  - main [ref=f14e51]:
+    - generic [ref=f14e54]:
+      - heading "Achieve Extraordinary" [level=1] [ref=f14e55]:
+        - generic [ref=f14e56]: Achieve
+        - generic [ref=f14e57]: Extraordinary
+      - generic [ref=f14e58]:
+        - paragraph [ref=f14e59]: Find your next job at CHECK24
+        - generic [ref=f14e61]:
+          - textbox "Job title, search term, skills" [ref=f14e62]
+          - generic [ref=f14e63]:
+            - combobox "Combobox" [ref=f14e65] [cursor=pointer]:
+              - generic [ref=f14e66]: e.g. Berlin
+            - button "search" [ref=f14e68] [cursor=pointer]
+    - generic [ref=f14e71]:
+      - heading "Spotlight" [level=2] [ref=f14e73]
+      - generic [ref=f14e74]:
+        - generic [ref=f14e75]:
+          - link "Product Management Actively drive technological innovation. You'll manage the entire product development process – from the initial idea to implementation. Always with a focus on delivering added value to our customers through cutting-edge technology and AI. Learn more" [ref=f14e78] [cursor=pointer]:
+            - /url: /en/teams/productmanagement/
+            - generic [ref=f14e82]:
+              - heading "Product Management" [level=3] [ref=f14e83]
+              - paragraph [ref=f14e84]: Actively drive technological innovation. You'll manage the entire product development process – from the initial idea to implementation. Always with a focus on delivering added value to our customers through cutting-edge technology and AI.
+              - generic [ref=f14e85]: Learn more
+          - link "187C6441 GenDev – The CHECK24 tech scholarship The scholarship is for students who love to code. Learn more" [ref=f14e88] [cursor=pointer]:
+            - /url: https://www.talents.check24.de/en/gendev
+            - generic [ref=f14e89]:
+              - img "187C6441" [ref=f14e91]
+              - generic [ref=f14e92]:
+                - generic [ref=f14e93]:
+                  - heading "GenDev – The CHECK24 tech scholarship" [level=3] [ref=f14e94]
+                  - paragraph [ref=f14e95]: The scholarship is for students who love to code.
+                - generic [ref=f14e96]: Learn more
+          - link "Product Builder Stipendium Got big ideas? We’ll help you make them happen. For STEM talents ready to go further. Learn more" [ref=f14e99] [cursor=pointer]:
+            - /url: https://www.talents.check24.de/en/product-builder-stipendium
+            - generic [ref=f14e103]:
+              - heading "Product Builder Stipendium" [level=3] [ref=f14e104]
+              - paragraph [ref=f14e105]: Got big ideas? We’ll help you make them happen. For STEM talents ready to go further.
+              - generic [ref=f14e106]: Learn more
+          - link "Bildschirmfoto 2024-05-27 um 10.37.39 Software Engineering Develop new products and features for our customers, using the latest technologies and state-of-the-art AI methods. Learn more" [ref=f14e109] [cursor=pointer]:
+            - /url: /en/teams/software-engineering/
+            - generic [ref=f14e110]:
+              - img "Bildschirmfoto 2024-05-27 um 10.37.39" [ref=f14e112]
+              - generic [ref=f14e113]:
+                - generic [ref=f14e114]:
+                  - heading "Software Engineering" [level=3] [ref=f14e115]
+                  - paragraph [ref=f14e116]: Develop new products and features for our customers, using the latest technologies and state-of-the-art AI methods.
+                - generic [ref=f14e117]: Learn more
+          - link "Inhouse Consulting We combine the benefits of entrepreneurship, top strategy consulting and a traineeship. Learn more" [ref=f14e120] [cursor=pointer]:
+            - /url: /en/teams/inhouse-consulting/
+            - generic [ref=f14e124]:
+              - heading "Inhouse Consulting" [level=3] [ref=f14e125]
+              - paragraph [ref=f14e126]: We combine the benefits of entrepreneurship, top strategy consulting and a traineeship.
+              - generic [ref=f14e127]: Learn more
+          - link "01 Customer Support & Sales Provide expert advice to our customers – supported by digital tools, intelligent processes, and AI-powered services. Learn more" [ref=f14e130] [cursor=pointer]:
+            - /url: /en/teams/customer-support-sales/
+            - generic [ref=f14e131]:
+              - img "01" [ref=f14e133]
+              - generic [ref=f14e134]:
+                - generic [ref=f14e135]:
+                  - heading "Customer Support & Sales" [level=3] [ref=f14e136]
+                  - paragraph [ref=f14e137]: Provide expert advice to our customers – supported by digital tools, intelligent processes, and AI-powered services.
+                - generic [ref=f14e138]: Learn more
+          - link "Data Scientist AI Forge Learn more" [ref=f14e141] [cursor=pointer]:
+            - /url: /en/blog/polina-data-science-ai-forge/
+            - generic [ref=f14e145]:
+              - heading "Data Scientist" [level=3] [ref=f14e146]
+              - paragraph [ref=f14e147]: AI Forge
+              - generic [ref=f14e148]: Learn more
+          - link "187C2955 Kopie Data Science & Business Intelligence Train AI models and develop innovative solutions with classical and generative AI. Learn more" [ref=f14e151] [cursor=pointer]:
+            - /url: /en/teams/data-science-business-intelligence/
+            - generic [ref=f14e152]:
+              - img "187C2955 Kopie" [ref=f14e154]
+              - generic [ref=f14e155]:
+                - generic [ref=f14e156]:
+                  - heading "Data Science & Business Intelligence" [level=3] [ref=f14e157]
+                  - paragraph [ref=f14e158]: Train AI models and develop innovative solutions with classical and generative AI.
+                - generic [ref=f14e159]: Learn more
+          - link "Marketing & Communication We develop and realize advertising concepts that reach millions of people. Learn more" [ref=f14e162] [cursor=pointer]:
+            - /url: /en/teams/marketing-kommunikation/
+            - generic [ref=f14e166]:
+              - heading "Marketing & Communication" [level=3] [ref=f14e167]
+              - paragraph [ref=f14e168]: We develop and realize advertising concepts that reach millions of people.
+              - generic [ref=f14e169]: Learn more
+          - link "187C3398 Office Management We create and maintain spaces where visitors and CHECKitos love spending time. Learn more" [ref=f14e172] [cursor=pointer]:
+            - /url: /en/teams/office-management/
+            - generic [ref=f14e173]:
+              - img "187C3398" [ref=f14e175]
+              - generic [ref=f14e176]:
+                - generic [ref=f14e177]:
+                  - heading "Office Management" [level=3] [ref=f14e178]
+                  - paragraph [ref=f14e179]: We create and maintain spaces where visitors and CHECKitos love spending time.
+                - generic [ref=f14e180]: Learn more
+        - button [ref=f14e182] [cursor=pointer]
+    - generic [ref=f14e211]:
+      - paragraph [ref=f14e212]: We’re looking for people with drive, courage, and the will to achieve great things.
+      - paragraph [ref=f14e213]: You want to grow fast – we offer the environment to make it happen. With responsibility from day one, genuine trust, honest feedback, and a team that challenges and supports you.
+      - paragraph [ref=f14e214]: What matters most is how determined you are to learn, take ownership, and push yourself beyond your limits. Technology and Artificial Intelligence are our tools – our true drive is delivering real value to our customers.
+      - paragraph [ref=f14e215]: That’s why we work with an innovation mindset, make quick decisions, and continuously improve. We embrace change with flexibility, curiosity, and the readiness to think in new ways at any time.
+      - paragraph [ref=f14e216]: "And most importantly: Our CHECKitos pull together – on site and side by side. They support each other, share knowledge, give feedback, and celebrate success together."
+      - paragraph [ref=f14e217]: CHECK24 is for everyone who wants to create. Not someday. Now.
+    - generic [ref=f14e219]:
+      - img "Bistro_Gruppe_34_Kopie.original" [ref=f14e221]
+      - generic [ref=f14e223]:
+        - heading "Teams" [level=2] [ref=f14e224]
+        - generic [ref=f14e225]:
+          - heading "Find your team" [level=3] [ref=f14e226]
+          - paragraph [ref=f14e227]: Together, we create transparency – with smart technologies and the targeted use of AI. Want to shape the digital future and become a CHECKito? Find your team!
+        - generic [ref=f14e228]:
+          - generic [ref=f14e229]:
+            - link [ref=f14e230] [cursor=pointer]:
+              - /url: /en/teams/productmanagement/
+              - heading "Product Management" [level=4] [ref=f14e231]
+            - paragraph [ref=f14e232]: Drive technological innovation hands-on. You'll shape the entire product development process – from the first idea to implementation. Always with a focus on creating real value for our customers through cutting-edge technology and AI.
+          - generic [ref=f14e233]:
+            - link [ref=f14e234] [cursor=pointer]:
+              - /url: /en/teams/data-science-business-intelligence/
+              - heading "Data Science and Business Intelligence" [level=4] [ref=f14e235]
+            - paragraph [ref=f14e236]: Train AI models and develop innovative solutions with classical and generative AI.
+          - generic [ref=f14e237]:
+            - link [ref=f14e238] [cursor=pointer]:
+              - /url: /en/teams/software-engineering/
+              - heading "Software Engineering" [level=4] [ref=f14e239]
+            - paragraph [ref=f14e240]: Develop new products and features for our customers, using the latest technologies and state-of-the-art AI methods.
+          - generic [ref=f14e241]:
+            - link [ref=f14e242] [cursor=pointer]:
+              - /url: /en/teams/customer-support-sales/
+              - heading "Customer Support and Sales" [level=4] [ref=f14e243]
+            - paragraph [ref=f14e244]: Advise our customers with expertise – supported by digital tools, smart processes, and AI-powered services.
+        - link "Show all teams" [ref=f14e246] [cursor=pointer]:
+          - /url: /en/teams/
+    - generic [ref=f14e249]:
+      - generic [ref=f14e250]:
+        - img "DSC_0013_FAV_SR_bearbeitet"
+      - generic [ref=f14e252]:
+        - heading "Locations" [level=2] [ref=f14e253]
+        - generic [ref=f14e254]:
+          - heading "Our locations" [level=3] [ref=f14e255]
+          - paragraph [ref=f14e256]: In over 20 cities, we're passionately developing smart solutions for our customers – often supported by AI. This is where the unique CHECKito Spirit comes to life.
+        - generic [ref=f14e257]:
+          - link "Munich 72 Jobs" [ref=f14e258] [cursor=pointer]:
+            - /url: /en/locations/munich/
+            - heading "Munich" [level=3] [ref=f14e259]
+            - generic [ref=f14e260]: 72 Jobs
+          - link "Dortmund 23 Jobs" [ref=f14e261] [cursor=pointer]:
+            - /url: /en/locations/dortmund/
+            - heading "Dortmund" [level=3] [ref=f14e262]
+            - generic [ref=f14e263]: 23 Jobs
+          - link "Augsburg 22 Jobs" [ref=f14e264] [cursor=pointer]:
+            - /url: /en/locations/augsburg/
+            - heading "Augsburg" [level=3] [ref=f14e265]
+            - generic [ref=f14e266]: 22 Jobs
+          - link "Hamburg 21 Jobs" [ref=f14e267] [cursor=pointer]:
+            - /url: /en/locations/hamburg/
+            - heading "Hamburg" [level=3] [ref=f14e268]
+            - generic [ref=f14e269]: 21 Jobs
+          - link "Berlin 17 Jobs" [ref=f14e270] [cursor=pointer]:
+            - /url: /en/locations/berlin/
+            - heading "Berlin" [level=3] [ref=f14e271]
+            - generic [ref=f14e272]: 17 Jobs
+          - link "Leipzig 17 Jobs" [ref=f14e273] [cursor=pointer]:
+            - /url: /en/locations/leipzig/
+            - heading "Leipzig" [level=3] [ref=f14e274]
+            - generic [ref=f14e275]: 17 Jobs
+        - link "Show all locations" [ref=f14e277] [cursor=pointer]:
+          - /url: /en/locations/
+    - generic [ref=f14e281]:
+      - generic [ref=f14e282]:
+        - heading "GET TO KNOW US" [level=2] [ref=f14e283]
+        - heading "Working at CHECK24" [level=3] [ref=f14e284]
+      - generic [ref=f14e285]:
+        - generic [ref=f14e287]:
+          - link "Why CHECK24? What we stand for" [ref=f14e288] [cursor=pointer]:
+            - /url: /en/why-check24/
+            - generic [ref=f14e290]:
+              - generic [ref=f14e291]: Why CHECK24?
+              - paragraph [ref=f14e293]: What we stand for
+          - link "Benefits What we offer" [ref=f14e295] [cursor=pointer]:
+            - /url: /en/benefits/
+            - generic [ref=f14e297]:
+              - generic [ref=f14e298]: Benefits
+              - paragraph [ref=f14e300]: What we offer
+        - generic [ref=f14e303]:
+          - link "Application process & tips Our application process" [ref=f14e304] [cursor=pointer]:
+            - /url: /en/bewerbungstips/
+            - generic [ref=f14e306]:
+              - generic [ref=f14e307]: Application process & tips
+              - paragraph [ref=f14e309]: Our application process
+          - link "Blog Insights into CHECK24" [ref=f14e311] [cursor=pointer]:
+            - /url: /en/blog/
+            - generic [ref=f14e313]:
+              - generic [ref=f14e314]: Blog
+              - paragraph [ref=f14e316]: Insights into CHECK24
+    - generic [ref=f14e320]:
+      - generic [ref=f14e321]:
+        - img "02 3"
+      - generic [ref=f14e323]:
+        - heading "Social commitment" [level=2] [ref=f14e324]
+        - generic [ref=f14e325]:
+          - heading "Acting sustainably – taking responsibility" [level=3] [ref=f14e326]
+          - generic [ref=f14e328]:
+            - paragraph [ref=f14e329]:
+              - text: For more than 20 years, we have been taking responsibility towards our customers. This includes consistently aligning our corporate actions with sustainability – for both our society and the world we live in. Because social, ecological, and economic activities impact each other, we decided to focus our commitment on the initiative
+              - link "CHECK24 hilft" [ref=f14e330] [cursor=pointer]:
+                - /url: https://check24-hilft.org/
+              - text: .
+            - paragraph [ref=f14e331]: CHECK24 determines its carbon footprint annually and compensates for emissions that need to be reduced. We also aim to offer our customers sustainable solutions in all product areas.
+        - link "What we support" [ref=f14e333] [cursor=pointer]:
+          - /url: https://check24-hilft.org/
+  - contentinfo [ref=f14e334]:
+    - generic [ref=f14e336]:
+      - heading "Follow us on" [level=3] [ref=f14e337]
+      - generic [ref=f14e338]:
+        - link [ref=f14e339] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/check24-vergleichsportal-gmbh/?viewAsMember=true
+          - img "LinkedIn" [ref=f14e340]
+        - link [ref=f14e341] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/check24
+          - img "Youtube" [ref=f14e342]
+        - link [ref=f14e343] [cursor=pointer]:
+          - /url: https://www.facebook.com/CHECK24de
+          - img "Facebook" [ref=f14e344]
+        - link [ref=f14e345] [cursor=pointer]:
+          - /url: https://www.instagram.com/check24.de/
+          - img "Instagram" [ref=f14e346]
+    - generic [ref=f14e349]:
+      - img "CHECK24 Logo" [ref=f14e351]
+      - generic [ref=f14e352]:
+        - link "Contact" [ref=f14e353] [cursor=pointer]:
+          - /url: /en/contact/
+        - link "About us" [ref=f14e354] [cursor=pointer]:
+          - /url: https://www.check24.de/unternehmen/
+        - link "Imprint" [ref=f14e355] [cursor=pointer]:
+          - /url: https://www.check24.de/unternehmen/impressum/#comp46
+        - link "Data privacy" [ref=f14e356] [cursor=pointer]:
+          - /url: https://jobs.check24.de/en/check24-vergleichsportal-gmbh-datenschutz/
+  - listbox:
+    - generic:
+      - searchbox "Search"
+    - generic:
+      - option "Augsburg"
+      - option "Berlin"
+      - option "Bremen"
+      - option "Chemnitz"
+      - option "Cologne"
+      - option "Dortmund"
+      - option "Dresden"
+      - option "Düsseldorf"
+      - option "Erfurt"
+      - option "Essen"
+      - option "Frankfurt"
+      - option "Halle (Saale)"
+      - option "Hamburg"
+      - option "Hannover"
+      - option "Leipzig"
+      - option "Magdeburg"
+      - option "Mönchengladbach"
+      - option "Munich"
+      - option "Münster"
+      - option "Nuremberg"
+      - option "Rostock"
+      - option "Stuttgart"
+      - option "Vienna"

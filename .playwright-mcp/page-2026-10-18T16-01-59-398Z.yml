@@ -1,0 +1,133 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - img "Arvato Systems Logo" [ref=f1e6]
+    - generic [ref=f1e7]:
+      - paragraph [ref=f1e8]: Lead Consultant SAP CX / CRM (m/w/d)
+      - paragraph [ref=f1e9]:
+        - generic "Location" [ref=f1e10]
+        - text: Reinhard-Mohn-Strasse 18, Gütersloh, Nordrhein-Westfalen, Germany
+  - generic [ref=f1e16]:
+    - generic:
+      - generic:
+        - generic [ref=f1e20]:
+          - banner:
+            - heading "Lead Consultant SAP CX / CRM (m/w/d)" [level=1] [ref=f1e21]
+          - main [ref=f1e22]:
+            - generic [ref=f1e23]:
+              - generic [ref=f1e24]:
+                - generic [ref=f1e26]:
+                  - heading "Einfach Bewerben" [level=3] [ref=f1e28]
+                  - paragraph [ref=f1e30]:
+                    - generic: Zum automatischen Ausfüllen des Bewerbungsformulars bitte eine der vorhandenen Optionen wählen. Das Profil kann zusätzlich manuell bearbeitet werden.
+                  - generic [ref=f1e35]:
+                    - generic [ref=f1e37]:
+                      - generic [ref=f1e38]:
+                        - generic [ref=f1e39]: Eine Datei auswählen
+                        - generic [ref=f1e40]: oder hier ablegen.
+                      - button "Eine Datei auswählen oder hier ablegen." [ref=f1e41] [cursor=pointer]
+                      - generic [ref=f1e42]: 10MB Größenbeschränkung
+                    - generic:
+                      - paragraph
+                - generic [ref=f1e44]:
+                  - heading "Persönliche Informationen" [level=3] [ref=f1e46]
+                  - paragraph [ref=f1e48]:
+                    - generic: Mit * markierte Felder sind erforderlich.
+                  - generic [ref=f1e49]:
+                    - generic [ref=f1e54]:
+                      - generic: Vorname*
+                      - textbox "Vorname" [ref=f1e62]:
+                        - /placeholder: ""
+                        - text: Kranti
+                      - generic [ref=f1e63]:
+                        - paragraph
+                    - generic [ref=f1e68]:
+                      - generic: Nachname*
+                      - textbox "Nachname" [ref=f1e76]:
+                        - /placeholder: ""
+                        - text: Chavan
+                      - generic [ref=f1e77]:
+                        - paragraph
+                  - generic [ref=f1e78]:
+                    - generic [ref=f1e83]:
+                      - generic: E-Mail-Adresse*
+                      - textbox "E-Mail-Adresse" [ref=f1e91]:
+                        - /placeholder: ""
+                        - text: krantichavan198@gmail.com
+                      - generic [ref=f1e92]:
+                        - paragraph
+                    - generic [ref=f1e97]:
+                      - generic: E-Mail-Adresse bestätigen*
+                      - textbox "E-Mail-Adresse bestätigen" [ref=f1e105]:
+                        - /placeholder: ""
+                        - text: krantichavan198@gmail.com
+                      - generic [ref=f1e106]:
+                        - paragraph
+                  - generic [ref=f1e107]:
+                    - generic [ref=f1e114]:
+                      - generic:
+                        - status [ref=f1e115]
+                        - generic [ref=f1e117]:
+                          - generic [ref=f1e119]:
+                            - generic [ref=f1e122]:
+                              - generic: Postleitzahl*
+                              - generic: Die Suchgenauigkeit kann verbessert werden, indem über die Postleitzahl hinausgehende Ortsangaben einbezogen werden.
+                              - combobox "Postleitzahl" [ref=f1e133]: 76185, Karlsruhe, Baden-Württemberg, DEU
+                            - button "Postleitzahl-Wert löschen" [ref=f1e369] [cursor=pointer]
+                          - generic: 76185, Karlsruhe, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Beiertheim-Bulach, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Daxlanden, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Grünwinkel, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Knielingen, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Mühlburg, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Nordstadt, Baden-Württemberg, DEU
+                          - generic: 76185, Karlsruhe, Weststadt, Baden-Württemberg, DEU
+                          - generic: Sie können Ihre Postleitzahl nicht finden? Zum manuellen Ausfüllen hier klicken
+                          - status [ref=f1e140]
+                      - generic [ref=f1e141]:
+                        - paragraph
+                    - generic [ref=f1e148]:
+                      - generic: Telefonnummer*
+                      - group "Telefonnummer" [ref=f1e154]:
+                        - generic [ref=f1e162]:
+                          - combobox "Ländercode" [ref=f1e164] [cursor=pointer]:
+                            - generic [ref=f1e167]:
+                              - img "Deutschland" [ref=f1e169]
+                              - paragraph [ref=f1e171]:
+                                - generic: "+49"
+                          - status [ref=f1e175]
+                        - textbox "Telefonnummer" [ref=f1e185]:
+                          - /placeholder: ""
+                          - text: 1575 0174177
+                      - generic [ref=f1e187]:
+                        - paragraph
+                - generic [ref=f1e189]:
+                  - heading "Lebenslauf *" [level=3] [ref=f1e191]
+                  - generic [ref=f1e194]:
+                    - generic [ref=f1e195]:
+                      - generic [ref=f1e196]:
+                        - generic [ref=f1e197]:
+                          - generic [ref=f1e198]: Eine Datei auswählen
+                          - generic [ref=f1e199]: oder hier ablegen.
+                        - button "Eine Datei auswählen oder hier ablegen." [ref=f1e200] [cursor=pointer]
+                        - generic [ref=f1e201]: 10MB Größenbeschränkung
+                      - list [ref=f1e372]:
+                        - listitem [ref=f1e373]:
+                          - generic [ref=f1e377]: Kranti_Chavan_Lebenslauf_Arvato-Systems_Lead-Consultant-SAP-CX-CRM.pdf
+                          - button "Delete file Kranti_Chavan_Lebenslauf_Arvato-Systems_Lead-Consultant-SAP-CX-CRM.pdf" [ref=f1e384] [cursor=pointer]
+                    - generic:
+                      - paragraph
+              - button "Weiter" [ref=f1e208] [cursor=pointer]
+              - generic [ref=f1e212]:
+                - link "Datenschutzerklärung, wird in neuem Tab geöffnet" [ref=f1e213] [cursor=pointer]:
+                  - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+                  - text: Datenschutzerklärung
+                - link "Impressum, wird in neuem Tab geöffnet" [ref=f1e214] [cursor=pointer]:
+                  - /url: https://createyourowncareer.de/impressum
+                  - text: Impressum
+          - generic [ref=f1e217]:
+            - img "SmartRecruiters - Logo" [ref=f1e220]
+            - button "Cookie-Einstellungen" [ref=f1e222] [cursor=pointer]
+        - generic:
+          - generic:
+            - status
+            - alert

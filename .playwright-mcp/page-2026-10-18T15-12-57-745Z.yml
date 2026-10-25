@@ -1,0 +1,221 @@
+- generic [ref=f70e2]:
+  - banner [ref=f70e3]:
+    - link [ref=f70e5] [cursor=pointer]:
+      - /url: https://www.arbeitsagentur.de/
+      - img "Bundesagentur für Arbeit bringt weiter" [ref=f70e6]
+    - navigation [ref=f70e7]:
+      - heading "Hauptnavigation" [level=1] [ref=f70e8]
+      - list [ref=f70e9]:
+        - listitem [ref=f70e10]:
+          - button "Suche" [ref=f70e11] [cursor=pointer]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=f70e13]:
+          - button "Anmelden" [ref=f70e14] [cursor=pointer]
+        - listitem [ref=f70e16]:
+          - button "Menü" [ref=f70e18] [cursor=pointer]
+  - main [ref=f70e21]:
+    - generic [ref=f70e23]:
+      - link "Zur Jobsuche Startseite" [ref=f70e25] [cursor=pointer]:
+        - /url: /jobsuche/
+      - generic [ref=f70e26]:
+        - region [ref=f70e27]:
+          - article [ref=f70e28]:
+            - region [ref=f70e31]:
+              - generic [ref=f70e32]:
+                - 'heading "Stellenangebot: Product Owner - E-Commerce / Conversion / KPI (m/w/d) bei Workwise GmbH" [level=1] [ref=f70e33]':
+                  - generic [ref=f70e34]: "Stellenangebot:"
+                  - generic [ref=f70e35]: Product Owner - E-Commerce / Conversion / KPI (m/w/d)
+                  - generic [ref=f70e36]: bei
+                  - generic [ref=f70e37]: Workwise GmbH
+                - heading "Das Wichtigste im Überblick" [level=2] [ref=f70e38]
+                - heading "Besondere Merkmale" [level=3] [ref=f70e39]
+                - list [ref=f70e40]:
+                  - listitem [ref=f70e41]: Stelle im Rahmen der Personalvermittlung
+                - generic [ref=f70e42]:
+                  - generic [ref=f70e45]:
+                    - heading "Arbeitsort" [level=3] [ref=f70e46]
+                    - generic [ref=f70e47]: Karlsruhe, Baden
+                  - generic [ref=f70e48]:
+                    - generic [ref=f70e49]: 
+                    - generic [ref=f70e50]:
+                      - heading "Angebotsart" [level=3] [ref=f70e51]
+                      - generic [ref=f70e52]: Arbeit
+                  - generic [ref=f70e55]:
+                    - heading "Anstellungsart" [level=3] [ref=f70e56]
+                    - generic [ref=f70e57]: Vollzeit
+                  - generic [ref=f70e60]:
+                    - heading "Befristung" [level=3] [ref=f70e61]
+                    - generic [ref=f70e62]: unbefristet
+                  - generic [ref=f70e63]:
+                    - generic [ref=f70e64]: 
+                    - generic [ref=f70e65]:
+                      - heading "Beginn" [level=3] [ref=f70e66]
+                      - generic [ref=f70e67]: ab sofort
+                - generic [ref=f70e69]:
+                  - generic [ref=f70e70]: 
+                  - generic [ref=f70e71]:
+                    - heading "Berufsbezeichnung" [level=3] [ref=f70e72]
+                    - list [ref=f70e73]:
+                      - listitem [ref=f70e74]: Product Owner
+                - generic [ref=f70e75]:
+                  - button "Vormerken" [ref=f70e76] [cursor=pointer]:  Vormerken
+                  - button "Aktionen für das Stellenangebot 12288-4958515978-S" [ref=f70e79] [cursor=pointer]:  Notiz / Status
+                  - button "Teilen" [ref=f70e80] [cursor=pointer]
+                - generic [ref=f70e82]:
+                  - 'generic "Veröffentlichungsdatum: 08.10.2026" [ref=f70e85]':
+                    - generic [ref=f70e86]: "Veröffentlichungsdatum:"
+                    - text: Vor 10 Tagen veröffentlicht
+                  - 'generic "Änderungsdatum: 15.10.2026" [ref=f70e89]':
+                    - generic [ref=f70e90]: "Änderungsdatum:"
+                    - text: Vor 3 Tagen bearbeitet
+            - region [ref=f70e93]:
+              - generic [ref=f70e94]:
+                - heading "Stellenbeschreibung" [level=2] [ref=f70e95]
+                - generic [ref=f70e96]:
+                  - heading "Vollständige Stellenbeschreibung bei unserem Kooperationspartner einsehen:" [level=3] [ref=f70e97]
+                  - link "Externe Seite öffnen" [ref=f70e98] [cursor=pointer]:
+                    - /url: https://www.persy.jobs/persy/l/job-jor4n-b
+                  - paragraph [ref=f70e99]:
+                    - text: "Quelle:"
+                    - link "XING GmbH & Co. KG" [ref=f70e100] [cursor=pointer]:
+                      - /url: https://www.xing.com
+            - region [ref=f70e104]:
+              - generic [ref=f70e105]:
+                - heading "Fußbereich" [level=2] [ref=f70e106]
+                - generic [ref=f70e107]:
+                  - generic [ref=f70e108]:
+                    - generic [ref=f70e109]:
+                      - generic [ref=f70e110]: Stelle betreut durch Arbeitgeber
+                      - button "Hinweis zur Betreuung öffnen" [ref=f70e113] [cursor=pointer]
+                    - generic [ref=f70e115]:
+                      - text: "Referenz-Nr.: 12288-4958515978-S"
+                      - generic "In Zwischenablage kopieren" [ref=f70e117]:
+                        - button "kopieren" [ref=f70e120] [cursor=pointer]
+                  - link "Verstoß melden" [ref=f70e127] [cursor=pointer]:
+                    - /url: "javascript:"
+        - generic:
+          - button [aria-hidden]
+  - contentinfo [ref=f70e130]:
+    - generic [ref=f70e131]:
+      - generic [ref=f70e132]:
+        - generic [ref=f70e133]:
+          - heading "Folgen Sie uns in den sozialen Medien" [level=2] [ref=f70e134]
+          - list [ref=f70e136]:
+            - listitem [ref=f70e137]:
+              - link "zur Xing-Seite der BA" [ref=f70e138] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/bundesagentur
+            - listitem [ref=f70e139]:
+              - link "zur Kununu-Seite der BA" [ref=f70e140] [cursor=pointer]:
+                - /url: https://www.kununu.com/de/bundesagentur-fuer-arbeit
+            - listitem [ref=f70e141]:
+              - link "zur LinkedIn-Seite der BA" [ref=f70e142] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bundesagentur-fuer-arbeit
+            - listitem [ref=f70e143]:
+              - link "zur Instagram-Seite der BA" [ref=f70e144] [cursor=pointer]:
+                - /url: https://www.instagram.com/bundesagenturfuerarbeit
+            - listitem [ref=f70e145]:
+              - link "zur Facebook-Seite der BA" [ref=f70e146] [cursor=pointer]:
+                - /url: https://www.facebook.com/bundesagenturfuerarbeit
+            - listitem [ref=f70e147]:
+              - link "zur YouTube-Seite der BA" [ref=f70e148] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/Arbeitsagentur
+        - navigation [ref=f70e149]:
+          - generic [ref=f70e151]:
+            - heading "Über die Bundesagentur für Arbeit" [level=2] [ref=f70e152]
+            - list "Über die Bundesagentur für Arbeit" [ref=f70e154]:
+              - listitem [ref=f70e155]:
+                - link "Kontakt" [ref=f70e156] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/service-bereich/so-erreichen-sie-uns
+              - listitem [ref=f70e158]:
+                - link "Karriere bei der BA" [ref=f70e159] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bakarriere
+              - listitem [ref=f70e161]:
+                - link "Über uns" [ref=f70e162] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns
+              - listitem [ref=f70e164]:
+                - link "Veröffentlichungen" [ref=f70e165] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns/veroeffentlichungen
+              - listitem [ref=f70e167]:
+                - link "Presse" [ref=f70e168] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/presse
+          - generic [ref=f70e171]:
+            - heading "Themenbereiche" [level=2] [ref=f70e172]
+            - list "Themenbereiche" [ref=f70e174]:
+              - listitem [ref=f70e175]:
+                - link "Arbeitslos und Arbeit finden" [ref=f70e176] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/arbeitslos-arbeit-finden
+              - listitem [ref=f70e178]:
+                - link "Schule, Ausbildung und Studium" [ref=f70e179] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bildung
+              - listitem [ref=f70e181]:
+                - link "Familie und Kinder" [ref=f70e182] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/familie-und-kinder
+              - listitem [ref=f70e184]:
+                - link "Menschen mit Behinderungen" [ref=f70e185] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/menschen-mit-behinderungen
+              - listitem [ref=f70e187]:
+                - link "Karriere und Weiterbildung" [ref=f70e188] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/karriere-und-weiterbildung
+              - listitem [ref=f70e190]:
+                - link "Zum Arbeiten nach Deutschland" [ref=f70e191] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/int/de/menschen-aus-dem-ausland
+          - generic [ref=f70e194]:
+            - heading "Services" [level=2] [ref=f70e195]
+            - list "Services" [ref=f70e197]:
+              - listitem [ref=f70e198]:
+                - link "eServices im Überblick" [ref=f70e199] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/eservices
+              - listitem [ref=f70e201]:
+                - link "Dienststelle finden" [ref=f70e202] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/portal/dienststellensuche
+              - listitem [ref=f70e204]:
+                - link "Newsletter" [ref=f70e205] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/newsletter
+              - listitem [ref=f70e207]:
+                - link "Apps" [ref=f70e208] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/apps
+          - generic [ref=f70e211]:
+            - heading "Weitere Internetauftritte" [level=2] [ref=f70e212]
+            - list "Weitere Internetauftritte" [ref=f70e214]:
+              - listitem [ref=f70e215]:
+                - link "Arbeitsmarktmonitor" [ref=f70e216] [cursor=pointer]:
+                  - /url: https://arbeitsmarktmonitor.arbeitsagentur.de/
+              - listitem [ref=f70e218]:
+                - link "Berufsinformationen BERUFENET" [ref=f70e219] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufenet/
+              - listitem [ref=f70e221]:
+                - link "Berufsvideos BERUFE.TV" [ref=f70e222] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufetv/start
+              - listitem [ref=f70e224]:
+                - link "mein NOW" [ref=f70e225] [cursor=pointer]:
+                  - /url: https://mein-now.de/
+              - listitem [ref=f70e227]:
+                - link "Statistik" [ref=f70e228] [cursor=pointer]:
+                  - /url: https://statistik.arbeitsagentur.de/
+      - separator [ref=f70e230]
+      - navigation "Informationen über die Seite" [ref=f70e231]:
+        - list [ref=f70e233]:
+          - listitem [ref=f70e234]:
+            - link "Impressum" [ref=f70e235] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/impressum
+          - listitem [ref=f70e237]:
+            - link "Datenschutz" [ref=f70e238] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/datenschutz
+          - listitem [ref=f70e240]:
+            - button "Cookie-Einstellungen" [ref=f70e241] [cursor=pointer]
+          - listitem [ref=f70e243]:
+            - link "Rechtliche Hinweise" [ref=f70e244] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/rechtliche-hinweise
+          - listitem [ref=f70e246]:
+            - link "Barrieren melden" [ref=f70e247] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/link/kontakt-barrierefreiheit
+          - listitem [ref=f70e249]:
+            - link "Fehler melden" [ref=f70e251] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=f70e252]:
+            - link "Erklärung zur Barrierefreiheit" [ref=f70e253] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/erklaerung-barrierefreiheit
+          - listitem [ref=f70e255]: © Bundesagentur für Arbeit 2026

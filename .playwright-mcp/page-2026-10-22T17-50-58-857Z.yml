@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Primary" [ref=e4]:
+      - link "LinkedIn" [ref=e5] [cursor=pointer]:
+        - /url: /?trk=public_post_nav-header-logo
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Top Content" [ref=e21] [cursor=pointer]:
+            - /url: https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent
+        - listitem [ref=e26]:
+          - link "People" [ref=e27] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people
+        - listitem [ref=e32]:
+          - link "Learning" [ref=e33] [cursor=pointer]:
+            - /url: https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning
+        - listitem [ref=e41]:
+          - link "Jobs" [ref=e42] [cursor=pointer]:
+            - /url: https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs
+        - listitem [ref=e47]:
+          - link "Games" [ref=e48] [cursor=pointer]:
+            - /url: https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games
+        - listitem [ref=e53]:
+          - link "Get the app" [ref=e54] [cursor=pointer]:
+            - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=public_post_guest_nav_menu_windows
+      - generic [ref=e59]:
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&fromSignIn=true&trk=public_post_nav-header-signin
+        - link "Join now" [ref=e61] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_nav-header-join
+  - main [ref=e62]:
+    - generic [ref=e65]:
+      - heading "Kalyan Raavi (He/Him/His)’s Post" [level=1] [ref=e66]
+      - article [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e70]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: https://in.linkedin.com/in/kalyan-raavi-he-him-his-15733410?trk=public_post_feed-actor-image
+              - img "View profile for Kalyan Raavi (He/Him/His)" [ref=e72]
+            - generic [ref=e73]:
+              - link "View profile for Kalyan Raavi (He/Him/His)" [ref=e75] [cursor=pointer]:
+                - /url: https://in.linkedin.com/in/kalyan-raavi-he-him-his-15733410?trk=public_post_feed-actor-name
+                - text: Kalyan Raavi (He/Him/His)
+              - time [ref=e77]: 2w
+          - button "Open menu" [ref=e80] [cursor=pointer]
+        - paragraph [ref=e85]:
+          - text: "🚀 Were Hiring: Senior SAP Commerce Cloud (Hybris) Developer 📍 Location: Hyderabad | Bangalore | Chennai | Pune | Gurgaon | Noida 🏢 Work Mode: Temporary Remote 🕒 Experience: 10+ Years ⏰ Shift: 1:00 PM – 11:00 PM 📅 Notice Period: Immediate Joiners or Candidates Serving Notice Period (Up to 10 Days) 🔍 Key Skills Required: ✅ SAP Commerce Cloud (Hybris) 2011 to 2211+ ✅ SAP CCv2 Cloud Infrastructure (Azure-based) ✅ Dynatrace Monitoring amp; Kibana Logging ✅ Team Handling amp; Client Reporting ✅ Java (J2EE), Spring Framework (Core, MVC, Security) ✅ Spartacus (SAP Composable Storefront) amp; OCC APIs ✅ Backoffice, SmartEdit, PCM, WCMS, Solr Search ✅ OAuth2, SSO (SAML/OIDC), CI/CD Pipelines ✅ FlexibleSearch, HANA/SQL, Data Modeling ✅ Production Support, Performance Tuning amp; Troubleshooting 📧 Interested? Share your updated resume to"
+          - link "kalyan.ravi@bs.nttdata.com" [ref=e86] [cursor=pointer]:
+            - /url: https://www.linkedin.com/redir/redirect?url=mailto%3Akalyan%2Eravi%40bs%2Enttdata%2Ecom&urlhash=wwd8&trk=public_post-text
+          - text: "Subject Line: Senior SAP Commerce Cloud (Hybris) Developer 🌟 Why Join Us? Work on cutting-edge SAP Commerce Cloud implementations, lead high-impact projects, collaborate with global clients, and drive innovative digital commerce solutions. 👉 If youre passionate about SAP Commerce Cloud and looking for your next career move, wed love to hear from you!"
+          - link "#Hiring" [ref=e87] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhiring&trk=public_post-text
+          - link "#SAPCommerceCloud" [ref=e88] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsapcommercecloud&trk=public_post-text
+          - link "#Hybris" [ref=e89] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhybris&trk=public_post-text
+          - link "#SAPCCv2" [ref=e90] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsapccv2&trk=public_post-text
+          - link "#SAPJobs" [ref=e91] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsapjobs&trk=public_post-text
+          - link "#SAPDeveloper" [ref=e92] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsapdeveloper&trk=public_post-text
+          - link "#JavaDeveloper" [ref=e93] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fjavadeveloper&trk=public_post-text
+          - link "#Spartacus" [ref=e94] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fspartacus&trk=public_post-text
+          - link "#Ecommerce" [ref=e95] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fecommerce&trk=public_post-text
+          - link "#SAPCommerce" [ref=e96] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsapcommerce&trk=public_post-text
+          - link "#CloudComputing" [ref=e97] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fcloudcomputing&trk=public_post-text
+          - link "#Azure" [ref=e98] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fazure&trk=public_post-text
+          - link "#Dynatrace" [ref=e99] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fdynatrace&trk=public_post-text
+          - link "#Kibana" [ref=e100] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fkibana&trk=public_post-text
+          - link "#TechJobs" [ref=e101] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ftechjobs&trk=public_post-text
+          - link "#ImmediateJoiners" [ref=e102] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fimmediatejoiners&trk=public_post-text
+          - link "#HyderabadJobs" [ref=e103] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhyderabadjobs&trk=public_post-text
+          - link "#BangaloreJobs" [ref=e104] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fbangalorejobs&trk=public_post-text
+          - link "#ChennaiJobs" [ref=e105] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fchennaijobs&trk=public_post-text
+          - link "#PuneJobs" [ref=e106] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fpunejobs&trk=public_post-text
+          - link "#GurgaonJobs" [ref=e107] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fgurgaonjobs&trk=public_post-text
+          - link "#NoidaJobs" [ref=e108] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fnoidajobs&trk=public_post-text
+          - link "#NTTDATABusinessSolutions" [ref=e109] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fnttdatabusinesssolutions&trk=public_post-text
+          - link "#CareerOpportunity" [ref=e110] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fcareeropportunity&trk=public_post-text
+          - text: 👍 Like | 🔄 Share | 👥 Tag suitable candidates in the comments!
+        - generic [ref=e111]:
+          - link "51 Reactions" [ref=e112] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_social-actions-reactions
+            - generic [aria-hidden] [ref=e113]: "51"
+          - link "· 5 Comments" [ref=e114] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_social-actions-comments
+        - generic [ref=e115]:
+          - link "Like" [ref=e116] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_like-cta
+          - link "Comment" [ref=e119] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment-cta
+          - button "Share" [ref=e123] [cursor=pointer]
+        - generic [ref=e125]:
+          - link [ref=e127] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/naved-ali-74a34a6b?trk=public_post_comment_actor-image
+            - img "Naved Ali, graphic" [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - link "Naved Ali" [ref=e132] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/naved-ali-74a34a6b?trk=public_post_comment_actor-name
+                - generic [ref=e133]: 2w
+                - button "Open menu" [ref=e136] [cursor=pointer]
+              - paragraph [ref=e138]:
+                - link "Vikram Singh" [ref=e139] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/vikram-singh-a6704b199?trk=public_post_comment-text
+            - generic "Comment Controls" [ref=e140]:
+              - link "Like" [ref=e141] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_like
+              - generic [ref=e144]: ·
+              - link "Reply" [ref=e145] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reply
+              - link "1 Reaction" [ref=e148] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reactions
+        - generic [ref=e149]:
+          - link [ref=e151] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/vamsi-chadaram-a274b3b8?trk=public_post_comment_actor-image
+            - img "Vamsi Chadaram, graphic" [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - link "Vamsi Chadaram" [ref=e156] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/vamsi-chadaram-a274b3b8?trk=public_post_comment_actor-name
+                - generic [ref=e157]: 2w
+                - button "Open menu" [ref=e160] [cursor=pointer]
+              - paragraph [ref=e162]:
+                - link "Sridhar Ankathi" [ref=e163] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/sridhar-ankathi?trk=public_post_comment-text
+            - generic "Comment Controls" [ref=e164]:
+              - link "Like" [ref=e165] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_like
+              - generic [ref=e168]: ·
+              - link "Reply" [ref=e169] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reply
+        - generic [ref=e172]:
+          - link [ref=e174] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/rajakumar-g-5a93541b0?trk=public_post_comment_actor-image
+            - img "RajaKumar G, graphic" [ref=e175]
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - link "RajaKumar G" [ref=e179] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/rajakumar-g-5a93541b0?trk=public_post_comment_actor-name
+                - generic [ref=e180]: 3d
+                - button "Open menu" [ref=e183] [cursor=pointer]
+              - paragraph [ref=e185]: interested
+            - generic "Comment Controls" [ref=e186]:
+              - link "Like" [ref=e187] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_like
+              - generic [ref=e190]: ·
+              - link "Reply" [ref=e191] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reply
+        - generic [ref=e194]:
+          - link [ref=e196] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/kotla-satyanarayana-gupta-5995181b2?trk=public_post_comment_actor-image
+            - img "Kotla Satyanarayana Gupta, graphic" [ref=e197]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - link "Kotla Satyanarayana Gupta" [ref=e201] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/kotla-satyanarayana-gupta-5995181b2?trk=public_post_comment_actor-name
+                - generic [ref=e202]: 1w
+                - button "Open menu" [ref=e205] [cursor=pointer]
+              - paragraph [ref=e207]: Intrested
+            - generic "Comment Controls" [ref=e208]:
+              - link "Like" [ref=e209] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_like
+              - generic [ref=e212]: ·
+              - link "Reply" [ref=e213] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reply
+        - generic [ref=e216]:
+          - link [ref=e218] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/khushboo-saxena-45535840?trk=public_post_comment_actor-image
+            - img "khushboo saxena, graphic" [ref=e219]
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - link "khushboo saxena" [ref=e223] [cursor=pointer]:
+                  - /url: https://in.linkedin.com/in/khushboo-saxena-45535840?trk=public_post_comment_actor-name
+                - generic [ref=e224]: 2w
+                - button "Open menu" [ref=e227] [cursor=pointer]
+              - paragraph [ref=e229]: I am interested. 10 year experience in SAP Hybris
+            - generic "Comment Controls" [ref=e230]:
+              - link "Like" [ref=e231] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_like
+              - generic [ref=e234]: ·
+              - link "Reply" [ref=e235] [cursor=pointer]:
+                - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_comment_reply
+        - link "See more comments" [ref=e238] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_see-more-comments
+        - paragraph [ref=e239]:
+          - text: To view or add a comment,
+          - link "To view or add a comment, sign in" [ref=e240] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fkalyan-raavi-he-him-his-15733410_hiring-sapcommercecloud-hybris-activity-7513507053814861824-ltAC&trk=public_post_feed-cta-banner-cta
+            - text: sign in
+    - generic [ref=e241]:
+      - generic [ref=e243]:
+        - figure [ref=e244]
+        - img "Kalyan Raavi (He/Him/His)" [ref=e247]
+        - paragraph [ref=e248]: 45,825 followers
+        - list [ref=e250]:
+          - listitem [ref=e251]:
+            - link "2,048 Posts" [ref=e252] [cursor=pointer]:
+              - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fkalyan-raavi-he-him-his-15733410%2Frecent-activity%2F&trk=public_post_follow-posts
+        - generic [ref=e253]:
+          - link "View Profile" [ref=e254] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/kalyan-raavi-he-him-his-15733410?trk=public_post_follow-view-profile
+          - link "Follow" [ref=e255] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7513507053814861824&trk=public_post_follow
+      - generic [ref=e259]:
+        - heading "Explore content categories" [level=2] [ref=e260]
+        - generic [ref=e262]:
+          - list [ref=e263]:
+            - listitem [ref=e264]:
+              - link "Career" [ref=e265] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/career/
+            - listitem [ref=e266]:
+              - link "Productivity" [ref=e267] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/productivity/
+            - listitem [ref=e268]:
+              - link "Finance" [ref=e269] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/finance/
+            - listitem [ref=e270]:
+              - link "Soft Skills & Emotional Intelligence" [ref=e271] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/
+            - listitem [ref=e272]:
+              - link "Project Management" [ref=e273] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/project-management/
+            - listitem [ref=e274]:
+              - link "Education" [ref=e275] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/education/
+          - button "Show more" [ref=e276] [cursor=pointer]
+  - contentinfo [ref=e278]:
+    - list [ref=e279]:
+      - generic [ref=e280]: LinkedIn
+      - generic [ref=e282]: © 2026
+      - listitem [ref=e283]:
+        - link "About" [ref=e284] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_public_post_footer-about
+      - listitem [ref=e285]:
+        - link "Accessibility" [ref=e286] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility
+      - listitem [ref=e287]:
+        - link "User Agreement" [ref=e288] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement
+      - listitem [ref=e289]:
+        - link "Privacy Policy" [ref=e290] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy
+      - listitem [ref=e291]:
+        - link "Cookie Policy" [ref=e292] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy
+      - listitem [ref=e293]:
+        - link "Copyright Policy" [ref=e294] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy
+      - listitem [ref=e295]:
+        - link "Brand Policy" [ref=e296] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy
+      - listitem [ref=e297]:
+        - link "Guest Controls" [ref=e298] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls
+      - listitem [ref=e299]:
+        - link "Community Guidelines" [ref=e300] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide
+      - listitem [ref=e301]:
+        - button "Language" [ref=e303]
+  - dialog [ref=e305]:
+    - paragraph [ref=e311]: LinkedIn
+    - paragraph [ref=e312]: Never miss a beat on the app
+    - paragraph [ref=e313]: Don’t have the app? Get it in the Microsoft Store.
+    - link "Open the app" [ref=e314] [cursor=pointer]:
+      - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_desktop_upsell_post2
+    - button "Dismiss" [ref=e315]

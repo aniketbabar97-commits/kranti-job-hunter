@@ -1,0 +1,282 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f1e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f1e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f1e8]:
+    - search [ref=f1e9]:
+      - generic [ref=f1e11]:
+        - link "Go to Google Home" [ref=f1e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48QPHoECAYQBA
+        - generic [ref=f1e22]:
+          - combobox "Search" [ref=f1e24]: Ernsting's family Manager Assortment Allocation Coesfeld-Lette Stellenangebot Ernsting's family Manager Assortment Allocation Coesfeld-Lette Stellenangebot
+          - generic [ref=f1e25]:
+            - button "Clear" [ref=f1e29] [cursor=pointer]
+            - generic [ref=f1e34]:
+              - button "Search by voice" [ref=f1e37] [cursor=pointer]
+              - button "Search by image" [ref=f1e42] [cursor=pointer]
+    - generic [ref=f1e45]:
+      - button "Settings" [ref=f1e47] [cursor=pointer]
+      - button "Share" [ref=f1e52] [cursor=pointer]
+      - generic [ref=f1e58]:
+        - button "Google apps" [ref=f1e60] [cursor=pointer]
+        - link "Sign in" [ref=f1e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DErnsting%2527s%2Bfamily%2BManager%2BAssortment%2BAllocation%2BCoesfeld-Lette%2BStellenangebot&ec=futura_srp_og_si_72236_p
+  - generic [ref=f1e67]:
+    - navigation [ref=f1e73]:
+      - generic [ref=f1e79]:
+        - list [ref=f1e80]:
+          - listitem [ref=f1e81]:
+            - link "AI Mode" [ref=f1e84] [cursor=pointer]:
+              - /url: /search?q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q2J8OegQIERAD
+          - listitem [ref=f1e88]:
+            - link "All" [disabled] [ref=f1e89]
+          - listitem [ref=f1e92]:
+            - link "News" [ref=f1e93] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&tbm=nws&source=lnms&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q0pQJegQIFhAB
+          - listitem [ref=f1e96]:
+            - link "Forums" [ref=f1e97] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&udm=forums&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Qs6gLegQIFxAB
+          - listitem [ref=f1e100]:
+            - link "Shopping" [ref=f1e101] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&udm=28&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&ved=1t:220175&ictx=111
+          - listitem [ref=f1e104]:
+            - link "Images" [ref=f1e105] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48QtKgLegQIFRAB
+          - listitem [ref=f1e108]:
+            - link "Short videos" [ref=f1e109] [cursor=pointer]:
+              - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&udm=short_vids&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cY2oODYyTyZk24Xz37_7FQ8RRzo6J-BIhE0fun05Kv9Vn_fvrMD9FN432YiYJstn5e8of0X9T45-pSpOFWHIkATpQhW_yceWBA8fYTgPgPdOrETKDD-Z38qezyO0BAorFy7aVzU4lIL4CE8BWijUs2uaUkTpwuSiC6CIz2_4qfjMuOxKv614pnSv_zSJH1z37W44Yng&q=Ernsting%27s+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Qs6gLegQIExAB
+          - listitem [ref=f1e112]:
+            - button [ref=f1e113] [cursor=pointer]:
+              - generic "More filters" [ref=f1e114]: More
+        - button "Tools" [ref=f1e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f1e128]
+    - generic [ref=f1e133]:
+      - generic [ref=f1e152]:
+        - heading "Thinking" [level=2] [ref=f1e156]
+        - progressbar "Generating" [ref=f1e159]
+      - main [ref=f1e161]:
+        - generic [ref=f1e165]:
+          - generic [ref=f1e168]:
+            - heading "Webergebnisse" [level=2] [ref=f1e169]
+            - generic [ref=f1e170]:
+              - generic [ref=f1e173]:
+                - link "Senior Merchandise Manager- Assortment Allocation (m/w/d) Ernsting's family https://career.ernstings-family.com › ..." [ref=f1e175] [cursor=pointer]:
+                  - /url: /goto?url=CAESvQEB6zswFZaRGqalYNHNe8ZSmxVyrtDaO-Xyk3aF1tlLr-UFFIXUnwkTXAr4oL4eALLoJoDrfvplfPx6H62eLvxjYfvqmzjqmo5SiRfR9z92pnYbO_i3ZBNYDPMphdkzsyzJp0gIfx7udTJknXiZiiwjX5MbLkhf6rKfcrk6b-zfy0UCVQoUzFTeU-mDgqfkZvicBgGXeddLyerIZ5pBE6CVcP5WmRMzh8IbYDtA8gO_UdA-u7VOtJVthTSfrXE
+                  - heading "Senior Merchandise Manager- Assortment Allocation (m/w/d)" [level=3] [ref=f1e176]
+                  - generic [ref=f1e182]:
+                    - generic [ref=f1e183]: Ernsting's family
+                    - generic [ref=f1e185]: https://career.ernstings-family.com › ...
+                - generic [ref=f1e187]:
+                  - generic [ref=f1e188]: ·
+                  - link "Translate this page" [ref=f1e189] [cursor=pointer]:
+                    - /url: /goto?url=CAEShgIB6zswFTKiv439SlesG-3ucQzNzn5qkX3sYA-iq90FnWy14q2lbcbJdudJUbk9f6I9yCc-GayKCBtSXsFmI1EBlZVXBM1pgyH6WFj6cPOTKRRfJExskbSo71WQw9-2vGoxoQ9bK_jICAIXoPKCrsLS1BptAffOxHMPyBrxeh2jmkLiESkUs7Q6Xo9QDMtUpf5YZF2Zv6v_0sR3s8R6n73TnUVzlrE2D1hwqTX15ktVVgJGa808qAgUA9L8mn7QuWesz_orbjqEDFKGd0rTofNm0mVJ0BaBY4dSV0NHgcZDrIx4AendFUHT-AU8inOb8hzpwCzk0qgrU7QnySKytWFAyoJ2PcMO
+                - button "About this result" [ref=f1e194] [cursor=pointer]
+              - generic [ref=f1e201]:
+                - emphasis [ref=f1e202]: Senior Merchandise Manager- Assortment Allocation (m/w/d) in Coesfeld-Lette
+                - text: (bei Münster) – Vollzeit – Bewirb Dich jetzt bei Ernsting's family!
+          - generic [ref=f1e206]:
+            - generic [ref=f1e209]:
+              - link "Manager Assortment Allocation - 48653 Coesfeld-Lette, ... JOBS.DE https://www.jobs.de › job › manag..." [ref=f1e211] [cursor=pointer]:
+                - /url: /goto?url=CAESeAHrOzAVUcFTsq779TA-EIzYHftXHysz5acU6im7kwDhjXrH6HaMWAtyHTXs7OAZ8R9UgQm8Fgp0eKSxFrlnwu-c8_ESt-uhEv2fBwbaKBvHAUb6yFLKf5HpdR-4rC_dbEkMgpxorqH6FyaE1xGcWPPmJkvIoGKR_Q
+                - heading "Manager Assortment Allocation - 48653 Coesfeld-Lette, ..." [level=3] [ref=f1e212]
+                - generic [ref=f1e218]:
+                  - generic [ref=f1e219]: JOBS.DE
+                  - generic [ref=f1e221]: https://www.jobs.de › job › manag...
+              - generic [ref=f1e223]:
+                - generic [ref=f1e224]: ·
+                - link "Translate this page" [ref=f1e225] [cursor=pointer]:
+                  - /url: /goto?url=CAESwgEB6zswFak_WsvD94UBkIri-pnw5h7jktIV9XKDjayT-OpORta3RwwECsh58rF0MH_CIwM3zHkLQKrxtQUhGDYwL0QpsMeGNYKX9CUTKZJr04o2fI1_OaPXao-RrZ1mi5k6pJ-jCki70ouXKQrMZ9KL1FRNVYfdiXbvgdcjU4czKHhPhCmUYERHwjHdSgGc3hah_5LMCzrC6qAOzCwCd__bpTzF6ItGxuOw26SkAVEPuDAZ-CY5fbgj9NQ5T1qXPRG8Tw
+              - button "About this result" [ref=f1e230] [cursor=pointer]
+            - generic [ref=f1e236]:
+              - generic [ref=f1e237]:
+                - emphasis [ref=f1e238]: Manager Assortment Allocation
+                - text: ". merken. Ernsting's family · 48653 Coesfeld-Lette, Deutschland. 100% Home-Office. Veröffentlicht: Heute. Management. Vollzeit."
+              - link "Read more" [ref=f1e239] [cursor=pointer]:
+                - /url: /goto?url=CAESqwEB6zswFWdPla8HT5eIcMz8hcIZBG9zX-Edz-EgjU2s9HpIip4ruxBhlA_LGkYNO94k_wiNuPFBgOmNVwyhG9dlZuqyLFQrEmfxQ5SHpPhRcBe8oyTWi7npY0meHH0fLoLOdh9WBctwjKKYHSrAdOlOVkvV3j2aQ3vtkMX9CMEEmGvXDyxXT8CoO8K5k3E_JLTAjkJOc9arz4aktd5aLkpdhxhZ6zSucHX6q34
+          - generic [ref=f1e243]:
+            - generic [ref=f1e246]:
+              - link "Ernsting's Family Vollzeit Jobs | Jetzt 25 offene Stellen finden Indeed Deutschland https://de.indeed.com › q-ernsting'..." [ref=f1e248] [cursor=pointer]:
+                - /url: /goto?url=CAESeQHrOzAV66EAa0_MgJ-2b8Ip2xLdPhaDMgchZKyTsBFnGHpKtxxRKMy6abLyCJCatkFd8ACulMUPwM3_pCI1aE2TydBAIIzFdBJ5E_yRXhp3futnwmsiN2tdFVzt3xrb6sx-AYh6lfY3h4i9I5i3_enSfc5FCvLJLx8
+                - heading "Ernsting's Family Vollzeit Jobs | Jetzt 25 offene Stellen finden" [level=3] [ref=f1e249]
+                - generic [ref=f1e255]:
+                  - generic [ref=f1e256]: Indeed Deutschland
+                  - generic [ref=f1e258]: https://de.indeed.com › q-ernsting'...
+              - generic [ref=f1e260]:
+                - generic [ref=f1e261]: ·
+                - link "Translate this page" [ref=f1e262] [cursor=pointer]:
+                  - /url: /goto?url=CAESxQEB6zswFYxpEs1QXieMAcKBEeS4aCELB8ElCjXjWBPspbLHCV_aep-Gm_AxVgooNFfe5KtxjXK2NcrJlepWaguJ73z1HtV8fV3kV_Ci2qiiz-RKRQtl0xsupMEofPQFNLpmECg46PV6YHsUvpj-ZDOfFos8VFS2tLRl7RCHjhsaJZ0ANPKlTATFVlXfyjHLR-H-T_DatMrg47Nky4Wl1WDCmDYUHYLCd4Xprr8xjsd2rTt9b64uSbc90HKgCyc5rRgJXxJINQ
+              - button "About this result" [ref=f1e267] [cursor=pointer]
+            - generic [ref=f1e274]:
+              - emphasis [ref=f1e275]: Manager- Assortment Allocation (m/w/d) – Vollzeit in Coesfeld-Lette
+              - text: (bei Münster) Management, Planning & Allocation und verantwortest die strategische
+          - generic [ref=f1e279]:
+            - generic [ref=f1e282]:
+              - link "Manager Assortment Allocation (gn*) bei Ernstings family StudySmarter https://talents.studysmarter.de › ma..." [ref=f1e284] [cursor=pointer]:
+                - /url: /goto?url=CAESnwEB6zswFWxayZthOLf_f4wBsJrMCAFH3tsCVE47MPi4B5z_ZYn8USnMRt2RSDB5SJIMAygvvlllrIaNmOt3vW8_KNcBfLbdrq9xWqAWQov_3vP6Eeja73j61XoI30W8yLc4fRcAuPxhXpcJFXKFqMeZWKGoZQwD2LgfVjkAG2e7qWfjymGtxeG1on93gELLHfbZyGlXebO9J-kkbZ2aXtk
+                - heading "Manager Assortment Allocation (gn*) bei Ernstings family" [level=3] [ref=f1e285]
+                - generic [ref=f1e291]:
+                  - generic [ref=f1e292]: StudySmarter
+                  - generic [ref=f1e294]: https://talents.studysmarter.de › ma...
+              - generic [ref=f1e296]:
+                - generic [ref=f1e297]: ·
+                - link "Translate this page" [ref=f1e298] [cursor=pointer]:
+                  - /url: /goto?url=CAES6QEB6zswFfnuFkJAX5FI0EIWxIgOGhuMlOpCjYiiVrENUkRiYJ9zsuriGxpwwY1YryxexLVAaQHAkSk3gOscmYSD6QnkFbWZj39O2iaPeInesse9rpqDQzYdy_drPWRImUPRFhY9y3wpnqqt_BDcaD34vCHgj3Dqg1eQGeO-6NmCzFRC8_7yYaPQ17iN8LihUoE3wp02pwUUASCo7Ua35BRDe6iPaw0OdFRs59m2ZcwY5G3gLBgIEAoppSox8aR8iabdvbMeVNfUNRfWtOpMeMPxW5vFweCv6zsqpNk6MDwtUIHsR61MzsPvlg
+              - button "About this result" [ref=f1e303] [cursor=pointer]
+            - generic [ref=f1e309]:
+              - generic [ref=f1e310]:
+                - text: Für unsere Unternehmenszentrale in Coesfeld-Lette (bei Münster) suchen wir einen.
+                - emphasis [ref=f1e311]: Manager Assortment Allocation (gn
+                - text: "*). Mit Deinen Kolleg*innen verantwortest ..."
+              - link "Read more" [ref=f1e312] [cursor=pointer]:
+                - /url: /goto?url=CAESrgIB6zswFc7k7Z0c1B3FlNcrsrJ1uJ4rw8giaVk-N5V_hlNRCG58tB48NS9HmuWPznJAD5h-mIeJho5HU09yJhiS5Xs4PKqPSGKXULtTzlFmpB9N1RPU7xzBFKr6ZfClGOLYBgD5Q164NSrJlDWkCEZP89Q7oPfOK0XC7Cyb7mYEfRRkS-bQ9G0c_4UrAJwiGZJtEl0CHJ4X8jYw7SD4-G7SkPb27n1xNUFy8JZ4t5IbjaY-yNNyJTwd3DhmxD1GA3Iw5IIznWusUQFJYIbIxtbkHyts_e1YhPR2DioRvpuQ_00WnkEw0aAKOpDwkhCS0Y8j76zdDmjuEbvLuDg1LsNngr-EnrV7xK-o9ax6gcvG6H4pPdzahigdOHa2CZO8iwkG-5IK4sjRU2NsXasZ4w
+          - generic [ref=f1e316]:
+            - generic [ref=f1e319]:
+              - link "17 Aktuelle Jobs in Coesfeld bei Ernsting's family www.stepstone.de https://www.stepstone.de › cmp › in..." [ref=f1e321] [cursor=pointer]:
+                - /url: /goto?url=CAESiwEB6zswFXFFJ14Hp4XDPj7bqhSVYHmlsqkGbWNYuR7gPctfCvEWHQ3zDZEd2IDF_vhRyUkFZkCvUOPQsAOZIyLdpRhTUIZvJxQhmxQBCjZNr3tlrw41NsQVgNvMS8Ig-4Ny61FypAPjT0LR6TQwl9-ZgEI8PGCvpk95_RYjzls2zesg7ZIqllMPKe3T
+                - heading "17 Aktuelle Jobs in Coesfeld bei Ernsting's family" [level=3] [ref=f1e322]
+                - generic [ref=f1e328]:
+                  - generic [ref=f1e329]: www.stepstone.de
+                  - generic [ref=f1e331]: https://www.stepstone.de › cmp › in...
+              - generic [ref=f1e333]:
+                - generic [ref=f1e334]: ·
+                - link "Translate this page" [ref=f1e335] [cursor=pointer]:
+                  - /url: /goto?url=CAES2wEB6zswFRfT9CXkxFzz-Rrz-V1ORPG4WTez_TM8Lb4U6nJtCoriyEBdPRy4YJXBC4KJ7WYre3KMOZkfHolMAfAheWjNZ3TGStHiXwEDo339xUBhwcSe0c9Kdt2uNAZRfVjVheDtj_NnEOjjlXRwjagh5aEod3IVugwx0kuXC7ideO2r8L7cuQ1rUsJcVY4jmfXNo85359aV5DgXPwlsnnocjH5CD6QOD-OZG19Z-eyzGrcrKHpf9ki2UUTNJVivOQ54EaBN0NupbNE4yo2M-H7IZP3Rmwm-6C6TEAA
+              - button "About this result" [ref=f1e340] [cursor=pointer]
+            - generic [ref=f1e347]:
+              - emphasis [ref=f1e348]: Ernsting's family Senior Merchandise Manager- Assortment Allocation (m/w/d
+              - text: ) Ernsting's family Coesfeld-Lette bei Münster Teilweise Home-Office 60000 - 72000
+          - generic [ref=f1e352]:
+            - generic [ref=f1e355]:
+              - link "Assortment Allocation (m/w/d) – Vollzeit in Coesfeld-Lette ... JobLeads https://www.jobleads.com › job › senior-merchandise-..." [ref=f1e357] [cursor=pointer]:
+                - /url: /goto?url=CAES5QEB6zswFfF6n4tkwQLvLMthOZE0veWGGFfVZS0T8hCasO4ei1Kwvj87Nmo78zTSdLPKzj1DxVsyq57g7r1BEJypk6gK6iomuBhK9HnpEc9DeJUBJPPu1_yMNUrfB4uWh51p8E6yNxWJotkfoFOAE2VZ0J4KbOs5mQ6zffKanI95onwzns-XDleU9x_ukjbwX2Q5OkptPN874WFuuX7VJKjzIM5RrcbTcNvp2wJDRcqrnGbGHTg7Yr6bylIFpDopwR8Ep-qUiIRbL0XsvaTGL36CrcuKAhs8b6YYE4rzpoX0NxWU3KtO
+                - heading "Assortment Allocation (m/w/d) – Vollzeit in Coesfeld-Lette ..." [level=3] [ref=f1e358]
+                - generic [ref=f1e364]:
+                  - generic [ref=f1e365]: JobLeads
+                  - generic [ref=f1e367]: https://www.jobleads.com › job › senior-merchandise-...
+              - button "About this result" [ref=f1e373] [cursor=pointer]
+            - generic [ref=f1e380]:
+              - emphasis [ref=f1e381]: ernstings-family sucht Senior Merchandise Manager- Assortment Allocation
+              - text: . Vollzeit in Coesfeld-Lette (bei Münster) in Münster. Hybrid EUR 70.000 - 90.000 ...
+          - generic [ref=f1e385]:
+            - generic [ref=f1e388]:
+              - link "Ernstings Family Jobs - 44 Stellenangebote JobRobot https://www.jobrobot.de › jobs-erns..." [ref=f1e390] [cursor=pointer]:
+                - /url: /goto?url=CAESbAHrOzAVNAqbUAtr7S8JONsvbI8b5Tyzare5xnp4qM8bsac0Gg0BuWsKYsfd7DabY_FfiCP2ctqL_pddTvj_tyL_a76lw-2QtesWDLA7hoz-0RHrI6FfREN2ju8gezEmSxrtSo5LgV8E4iE6cw
+                - heading "Ernstings Family Jobs - 44 Stellenangebote" [level=3] [ref=f1e391]
+                - generic [ref=f1e397]:
+                  - generic [ref=f1e398]: JobRobot
+                  - generic [ref=f1e400]: https://www.jobrobot.de › jobs-erns...
+              - generic [ref=f1e402]:
+                - generic [ref=f1e403]: ·
+                - link "Translate this page" [ref=f1e404] [cursor=pointer]:
+                  - /url: /goto?url=CAEStQEB6zswFTRtlhNEBvVCTOCCU67JHsvOUphWVaS1ql2IyIVQYPOJgmkP41Jb9EPXf1ERU2Rh0TUrhYfwlbLbLKgTzNoIo2C7tzmRfYJ1-V8vHEYY7nwrQpj68TAc2gYAW9ZSpBoYJw7jc3xjlDipkwV3rTthnThuJXoTNCvKBkj5XiioD7rHL69IJx1VDHgPPAKtRaHfokKDlK0Wh3Zu8fyS44IZ6YCGqeXNyLsGj5h5xNELPrR7
+              - button "About this result" [ref=f1e409] [cursor=pointer]
+            - generic [ref=f1e416]:
+              - emphasis [ref=f1e417]: Ernstings family Senior Merchandise Manager-Assortment Allocation (m/w/d
+              - text: ) • Coesfeld- Lette bei Münster Muenster;Kreisfreie. Coesfeld- Lette bei Münster ...
+          - generic [ref=f1e421]:
+            - generic [ref=f1e424]:
+              - link "Manager Assortment Allocation (m/w/d) SaluteMyJob https://salutemyjob.com › jobs" [ref=f1e426] [cursor=pointer]:
+                - /url: /goto?url=CAESpgEB6zswFS-Jmvdd01mUUbMMTZKnyldbASgGljvx9qazJgtB693jUCGzKS7SM6Uhg_USgp-9gQ-27sVjSoFik4TT9vLm_HPaqxzQSlmDLUKTUrkTSKVN4T7dVgGHP_-4DRxthwzuhvuGbNjTDkDT7hpxdGiC60k0VZmury3VSuopOQ5n3YMfjQJMJGjmyQmABKOEiwtodsxSkuo9i_VWjVtDIjM0tTi5
+                - heading "Manager Assortment Allocation (m/w/d)" [level=3] [ref=f1e427]
+                - generic [ref=f1e433]:
+                  - generic [ref=f1e434]: SaluteMyJob
+                  - generic [ref=f1e436]: https://salutemyjob.com › jobs
+              - generic [ref=f1e438]:
+                - generic [ref=f1e439]: ·
+                - link "Translate this page" [ref=f1e440] [cursor=pointer]:
+                  - /url: /goto?url=CAES8AEB6zswFWYZDYgwhAxulLRUGiKz_5lB1tTHq0EjMZrxD5NMYB9bHUU1HJSISsNxcjMLvx5l55oL18SAHyKVpagDQo1jActXRLd0Wjxba2QxNTG-2pk-lrMwG4z7WTePwXg2NVfDPKkL9xXET9x3r6ithD2pU8me6f2bYjoR8UknJuXhqfqI9l4rh7I0qM4nBeu6leP8p3QDTbpUUC391pGWv8MUNonWS5ijCK8yFLLbZL0Lq4zqdW0HtUPgNSCV7G1ZHlL15P45B-UZLygDVkAdvO7V7-DN890gZHQjZh2_wvdsNtlh8kwrqmIsmswku1g
+              - button "About this result" [ref=f1e445] [cursor=pointer]
+            - generic [ref=f1e451]:
+              - generic [ref=f1e452]:
+                - emphasis [ref=f1e453]: Manager Assortment Allocation (m/w/d
+                - text: ") · Job Reference: 3020168982-2 · Date Posted: 13 October 2026 · Recruiter: Ernsting's family · Location: ..."
+              - link "Read more" [ref=f1e454] [cursor=pointer]:
+                - /url: /goto?url=CAESkwMB6zswFTb94FpAka8wKFAjLsHYtI6NBB2va8Cl54LBx2fWLgaEeDE6iIg-5fEmmUxx9mMlsOVxFNySWy6afVNMgsifWBS5aDa0eLWaUAW9pW5k0hn8qP4lHmt5hxzPcMum-XSQnxNxoZXH3VSBmlO6YxhJmDIQkPpq0_4wzbL5Zt8GmPxjZrpbitQkbUtHQVWghwRH7PLEmplz_JtfNlzA7G2ZogJWGD7VWXer9NUCEnlT4oS8U21nHgcIJc4FCcFMdGHBxi1vKvNiKVLTrEnde8KdCFbL3HnK7z45e45RgzRL6F5hq8pVxfXpF29R5DI8ewUzQPrRTLZqULVxUYP2NbfjmZFsULWuoZo_UL_XESV4sD3zmOUtOnbTvvZvPnMt70WaefEGF6kGziJHU1rrZDetlr305TSRN3U7LFF1wOmd3azx8iMMxm73XV_MFKR63yiLS0Lq_Sf890fZv5gIJsI4I3GCCMBqJlx8tu6Z-C9sKoAfWSbZK6_1ZjQIllR6h1cmHQBJXDAfUzP_XiEBHM_H
+            - generic [ref=f1e456]:
+              - text: "Missing: Lette ‎| Show results with:"
+              - link "Lette" [ref=f1e457] [cursor=pointer]:
+                - /url: /search?sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-+%22Lette%22+Stellenangebot&sa=X&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q5t4CegQINBAB
+          - generic [ref=f1e461]:
+            - generic [ref=f1e464]:
+              - link "Mehr als 40 Ernsting's family Jobs METAJob.de https://www.metajob.de › ernsting..." [ref=f1e466] [cursor=pointer]:
+                - /url: /goto?url=CAESZAHrOzAV7KCDkkhCvpoDDUkVSdoCkU2uKhng-uyCJWfPi8RcyBWv7avvmxeBxpHXsCu9ZIo7dV-9MEUG_PZpvoEcvEOdvQXfa-YQVe8CRbsRQ6TtdGORgvsCUhiWANWrsWbJ91M
+                - heading "Mehr als 40 Ernsting's family Jobs" [level=3] [ref=f1e467]
+                - generic [ref=f1e473]:
+                  - generic [ref=f1e474]: METAJob.de
+                  - generic [ref=f1e476]: https://www.metajob.de › ernsting...
+              - generic [ref=f1e478]:
+                - generic [ref=f1e479]: ·
+                - link "Translate this page" [ref=f1e480] [cursor=pointer]:
+                  - /url: /goto?url=CAESrwEB6zswFaRSUQavk7wEiyVjX12pHO3Z-HrIcNocqO0tfFE0W-zQcVN8n_Ql1SuC3lb0XwqKLbEC-hNGcOpFJzDcN706o0SZERR6kO4chLKcdVmsESCsNE4_dXUb0A9a5PzHrZi8C9CDusecbYTCkCDSugvrYtbdCICdrZMMU58wVYsSXPFPNIxSno4aZzjcLnPlmGut4QVGY_gUICuIghH-VTuKz4tvebbNJxazd3vF
+              - button "About this result" [ref=f1e485] [cursor=pointer]
+            - generic [ref=f1e491]:
+              - generic [ref=f1e492]:
+                - text: "47"
+                - emphasis [ref=f1e493]: Ernsting's Family
+                - text: "-"
+                - emphasis [ref=f1e494]: Jobs
+                - text: · Senior Merchandise
+                - emphasis [ref=f1e495]: Manager
+                - text: "-"
+                - emphasis [ref=f1e496]: Assortment Allocation
+                - text: (m/w/d) · Senior Produktmanager Damenmode E-Commerce (m/w/d) · Verkäuferin / ...
+              - link "Read more" [ref=f1e497] [cursor=pointer]:
+                - /url: /goto?url=CAES6wIB6zswFUwIg1XBG5y-OHsno0MXaTQUSgAnzTA5lSgfAPkv0bI5nek6LRND3hC_j-oVaQJB6riPgKEM2DrXbtkuZGFIjxKGdH5HCDecuXs_TLaem7cXiQkuYCacitpe8OkL1g1a3sigXDAcfPKX3toK6PgMIjHjupjHsRLVxniLk-xN0YLsbnmAJMm5GG3NYeHVkS2pEvKx2ExBO65tnCnk9fLcJmuRliAStARljZaZ2wjdXd8igfL8hHYndO8m53qqo7qV47IWQemU7c1fxjN96ppbpPI9zaLtZaOh7SgxCyt5EbLhvTBQ24DjW8rP8RThSV-5hD424aQLqLKSrzV2Z-nsZYsXa7SsJFznnNVN3PyJ06neyF2hd9hxUst82b5MvALmQAmoGTBhwCBxae9nu2oxPh5waVLRl98lNtmiKxcbZ3RbADmpe_NUIUaR30UR7RaPBEqi82SANuMyf62IUzVnsu_8qDU-dlo
+        - navigation [ref=f1e500]:
+          - heading "Page navigation" [level=1] [ref=f1e501]
+          - text: "1"
+          - link "Page 2" [ref=f1e504] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=10&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAE
+            - text: "2"
+          - link "Page 3" [ref=f1e506] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=20&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAG
+            - text: "3"
+          - link "Page 4" [ref=f1e508] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=30&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAI
+            - text: "4"
+          - link "Page 5" [ref=f1e510] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=40&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAK
+            - text: "5"
+          - link "Page 6" [ref=f1e512] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=50&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAM
+            - text: "6"
+          - link "Page 7" [ref=f1e514] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=60&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAO
+            - text: "7"
+          - link "Page 8" [ref=f1e516] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=70&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAQ
+            - text: "8"
+          - link "Page 9" [ref=f1e518] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=80&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAS
+            - text: "9"
+          - link "Page 10" [ref=f1e520] [cursor=pointer]:
+            - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=90&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8tMDegQINRAU
+            - text: "10"
+          - heading [level=2] [ref=f1e522]:
+            - link "Next" [ref=f1e523] [cursor=pointer]:
+              - /url: /search?q=Ernsting's+family+Manager+Assortment+Allocation+Coesfeld-Lette+Stellenangebot&sca_esv=68fd2badd4edf8dd&sxsrf=APpeQntl5VSiHTztAtkLBCKx2m3QIqweIQ:1792899236373&ei=pHjdatq3Fq6NnesP_6r8-Ag&start=10&sa=N&sstk=AS6-VmJJPOvw0SGFMAQKRUu-nARI2sRg5mB78qVbLN57ktYtcerPPickGNpGGgPDdMSEeypBtCKUvlUxeppraTjeAjCBoddTtntRMg&ved=2ahUKEwjameiQntSXAxWuRmcHHX8VH48Q8NMDegQINRAW
+        - navigation
+    - contentinfo [ref=f1e526]:
+      - heading "Footer links" [level=1] [ref=f1e527]
+      - generic [ref=f1e531]:
+        - generic [ref=f1e533]:
+          - text: India
+          - generic [ref=f1e535]:
+            - button "Doddathoguru, Electronic City, Doddathoguru, Karnataka - Based on your past activity" [ref=f1e537] [cursor=pointer]:
+              - generic [ref=f1e538]: Doddathoguru, Electronic City, Doddathoguru, Karnataka
+              - generic [ref=f1e540]:
+                - text: "-"
+                - generic [ref=f1e541]: Based on your past activity
+            - text: "-"
+            - button "Update location" [ref=f1e543] [cursor=pointer]
+        - generic [ref=f1e546]:
+          - link "Help" [ref=f1e547] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - link "Send feedback" [ref=f1e548] [cursor=pointer]:
+            - /url: "#"
+          - link "Privacy" [ref=f1e549] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f1e550] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

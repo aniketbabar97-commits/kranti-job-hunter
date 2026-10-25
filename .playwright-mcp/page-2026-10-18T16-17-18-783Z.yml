@@ -1,0 +1,408 @@
+- generic [ref=f8e1]:
+  - generic [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link [ref=f8e4] [cursor=pointer]:
+        - /url: /default/?locale=en_US
+      - link "Job Search" [ref=f8e19] [cursor=pointer]:
+        - /url: https://jobs.dormakaba.com/search/
+      - generic [ref=f8e20]:
+        - button [ref=f8e21] [cursor=pointer]
+        - button "US" [ref=f8e26] [cursor=pointer]
+    - text: 
+    - main [ref=f8e49]:
+      - generic [active] [ref=f8e87]:
+        - generic [ref=f8e89]:
+          - img "Image" [ref=f8e91]
+          - generic [ref=f8e94]:
+            - heading "Team Lead eCommerce Platforms & Configurators (m/w/d)" [level=1] [ref=f8e95]
+            - button "Have an account? Log in" [ref=f8e98] [cursor=pointer]
+        - generic [ref=f8e100]:
+          - generic [ref=f8e101]:
+            - heading "Your data" [level=3] [ref=f8e102]
+            - generic [ref=f8e103]:
+              - generic [ref=f8e105]:
+                - generic [ref=f8e106]:
+                  - generic [ref=f8e107]: Salutation*
+                  - button "Salutation*" [ref=f8e108] [cursor=pointer]:
+                    - generic [ref=f8e109]: Please select
+                - list [ref=f8e523]:
+                  - listitem [ref=f8e112] [cursor=pointer]: divers
+                  - listitem [ref=f8e113] [cursor=pointer]: I choose not to identify
+                  - listitem [ref=f8e114] [cursor=pointer]: Mr.
+                  - listitem [ref=f8e115] [cursor=pointer]: Ms.
+              - textbox "Title" [ref=f8e120]
+              - generic [ref=f8e123]:
+                - generic [ref=f8e124]:
+                  - text: First name
+                  - generic [ref=f8e125]: "*"
+                - textbox "First name *" [ref=f8e126]: Kranti
+              - generic [ref=f8e129]:
+                - generic [ref=f8e130]:
+                  - text: Last name
+                  - generic [ref=f8e131]: "*"
+                - textbox "Last name *" [ref=f8e132]: Chavan
+              - generic [ref=f8e134]:
+                - generic [ref=f8e135]:
+                  - generic [ref=f8e136]: Country*
+                  - button "Country*" [ref=f8e137] [cursor=pointer]:
+                    - generic [ref=f8e138]: Please select
+                - generic:
+                  - list:
+                    - listitem [ref=f8e141] [cursor=pointer]: Afghanistan
+                    - listitem [ref=f8e142] [cursor=pointer]: Åland Islands
+                    - listitem [ref=f8e143] [cursor=pointer]: Albania
+                    - listitem [ref=f8e144] [cursor=pointer]: Algeria
+                    - listitem [ref=f8e145] [cursor=pointer]: American Samoa
+                    - listitem [ref=f8e146] [cursor=pointer]: Andorra
+                    - listitem [ref=f8e147] [cursor=pointer]: Angola
+                    - listitem [ref=f8e148] [cursor=pointer]: Anguilla
+                    - listitem [ref=f8e149] [cursor=pointer]: Antarctica
+                    - listitem [ref=f8e150] [cursor=pointer]: Antigua and Barbuda
+                    - listitem [ref=f8e151] [cursor=pointer]: Argentina
+                    - listitem [ref=f8e152] [cursor=pointer]: Armenia
+                    - listitem [ref=f8e153] [cursor=pointer]: Aruba
+                    - listitem [ref=f8e154] [cursor=pointer]: Australia
+                    - listitem [ref=f8e155] [cursor=pointer]: Austria
+                    - listitem [ref=f8e156] [cursor=pointer]: Azerbaijan
+                    - listitem [ref=f8e157] [cursor=pointer]: Bahamas
+                    - listitem [ref=f8e158] [cursor=pointer]: Bahrain
+                    - listitem [ref=f8e159] [cursor=pointer]: Bangladesh
+                    - listitem [ref=f8e160] [cursor=pointer]: Barbados
+                    - listitem [ref=f8e161] [cursor=pointer]: Belarus
+                    - listitem [ref=f8e162] [cursor=pointer]: Belgium
+                    - listitem [ref=f8e163] [cursor=pointer]: Belize
+                    - listitem [ref=f8e164] [cursor=pointer]: Benin
+                    - listitem [ref=f8e165] [cursor=pointer]: Bermuda
+                    - listitem [ref=f8e166] [cursor=pointer]: Bhutan
+                    - listitem [ref=f8e167] [cursor=pointer]: Bolivia, Plurinational State of
+                    - listitem [ref=f8e168] [cursor=pointer]: Bosnia and Herzegovina
+                    - listitem [ref=f8e169] [cursor=pointer]: Botswana
+                    - listitem [ref=f8e170] [cursor=pointer]: Bouvet Island
+                    - listitem [ref=f8e171] [cursor=pointer]: Brazil
+                    - listitem [ref=f8e172] [cursor=pointer]: British Indian Ocean Territory
+                    - listitem [ref=f8e173] [cursor=pointer]: Brunei Darussalam
+                    - listitem [ref=f8e174] [cursor=pointer]: Bulgaria
+                    - listitem [ref=f8e175] [cursor=pointer]: Burkina Faso
+                    - listitem [ref=f8e176] [cursor=pointer]: Burundi
+                    - listitem [ref=f8e177] [cursor=pointer]: Cambodia
+                    - listitem [ref=f8e178] [cursor=pointer]: Cameroon
+                    - listitem [ref=f8e179] [cursor=pointer]: Canada
+                    - listitem [ref=f8e180] [cursor=pointer]: Cape Verde
+                    - listitem [ref=f8e181] [cursor=pointer]: Cayman Islands
+                    - listitem [ref=f8e182] [cursor=pointer]: Central African Republic
+                    - listitem [ref=f8e183] [cursor=pointer]: Chad
+                    - listitem [ref=f8e184] [cursor=pointer]: Chile
+                    - listitem [ref=f8e185] [cursor=pointer]: China
+                    - listitem [ref=f8e186] [cursor=pointer]: Christmas Island
+                    - listitem [ref=f8e187] [cursor=pointer]: Cocos (Keeling) Islands
+                    - listitem [ref=f8e188] [cursor=pointer]: Colombia
+                    - listitem [ref=f8e189] [cursor=pointer]: Comoros
+                    - listitem [ref=f8e190] [cursor=pointer]: Congo
+                    - listitem [ref=f8e191] [cursor=pointer]: Congo, the Democratic Republic of the
+                    - listitem [ref=f8e192] [cursor=pointer]: Cook Islands
+                    - listitem [ref=f8e193] [cursor=pointer]: Costa Rica
+                    - listitem [ref=f8e194] [cursor=pointer]: Côte d’Ivoire
+                    - listitem [ref=f8e195] [cursor=pointer]: Croatia
+                    - listitem [ref=f8e196] [cursor=pointer]: Cuba
+                    - listitem [ref=f8e197] [cursor=pointer]: Curacao
+                    - listitem [ref=f8e198] [cursor=pointer]: Cyprus
+                    - listitem [ref=f8e199] [cursor=pointer]: Czech Republic
+                    - listitem [ref=f8e200] [cursor=pointer]: Denmark
+                    - listitem [ref=f8e201] [cursor=pointer]: Djibouti
+                    - listitem [ref=f8e202] [cursor=pointer]: Dominica
+                    - listitem [ref=f8e203] [cursor=pointer]: Dominican Republic
+                    - listitem [ref=f8e204] [cursor=pointer]: Ecuador
+                    - listitem [ref=f8e205] [cursor=pointer]: Egypt
+                    - listitem [ref=f8e206] [cursor=pointer]: El Salvador
+                    - listitem [ref=f8e207] [cursor=pointer]: Equatorial Guinea
+                    - listitem [ref=f8e208] [cursor=pointer]: Eritrea
+                    - listitem [ref=f8e209] [cursor=pointer]: Estonia
+                    - listitem [ref=f8e210] [cursor=pointer]: Eswatini
+                    - listitem [ref=f8e211] [cursor=pointer]: Ethiopia
+                    - listitem [ref=f8e212] [cursor=pointer]: Falkland Islands (Malvinas)
+                    - listitem [ref=f8e213] [cursor=pointer]: Faroe Islands
+                    - listitem [ref=f8e214] [cursor=pointer]: Fiji
+                    - listitem [ref=f8e215] [cursor=pointer]: Finland
+                    - listitem [ref=f8e216] [cursor=pointer]: France
+                    - listitem [ref=f8e217] [cursor=pointer]: French Guiana
+                    - listitem [ref=f8e218] [cursor=pointer]: French Polynesia
+                    - listitem [ref=f8e219] [cursor=pointer]: French Southern Territories
+                    - listitem [ref=f8e220] [cursor=pointer]: Gabon
+                    - listitem [ref=f8e221] [cursor=pointer]: Gambia
+                    - listitem [ref=f8e222] [cursor=pointer]: Georgia
+                    - listitem [ref=f8e223] [cursor=pointer]: Germany
+                    - listitem [ref=f8e224] [cursor=pointer]: Ghana
+                    - listitem [ref=f8e225] [cursor=pointer]: Gibraltar
+                    - listitem [ref=f8e226] [cursor=pointer]: Greece
+                    - listitem [ref=f8e227] [cursor=pointer]: Greenland
+                    - listitem [ref=f8e228] [cursor=pointer]: Grenada
+                    - listitem [ref=f8e229] [cursor=pointer]: Guadeloupe
+                    - listitem [ref=f8e230] [cursor=pointer]: Guam
+                    - listitem [ref=f8e231] [cursor=pointer]: Guatemala
+                    - listitem [ref=f8e232] [cursor=pointer]: Guernsey
+                    - listitem [ref=f8e233] [cursor=pointer]: Guinea
+                    - listitem [ref=f8e234] [cursor=pointer]: Guinea-Bissau
+                    - listitem [ref=f8e235] [cursor=pointer]: Guyana
+                    - listitem [ref=f8e236] [cursor=pointer]: Haiti
+                    - listitem [ref=f8e237] [cursor=pointer]: Heard Island and McDonald Islands
+                    - listitem [ref=f8e238] [cursor=pointer]: Holy See (Vatican City State)
+                    - listitem [ref=f8e239] [cursor=pointer]: Honduras
+                    - listitem [ref=f8e240] [cursor=pointer]: Hong Kong SAR of China
+                    - listitem [ref=f8e241] [cursor=pointer]: Hungary
+                    - listitem [ref=f8e242] [cursor=pointer]: Iceland
+                    - listitem [ref=f8e243] [cursor=pointer]: India
+                    - listitem [ref=f8e244] [cursor=pointer]: Indonesia
+                    - listitem [ref=f8e245] [cursor=pointer]: Iran, Islamic Republic of
+                    - listitem [ref=f8e246] [cursor=pointer]: Iraq
+                    - listitem [ref=f8e247] [cursor=pointer]: Ireland
+                    - listitem [ref=f8e248] [cursor=pointer]: Isle of Man
+                    - listitem [ref=f8e249] [cursor=pointer]: Israel
+                    - listitem [ref=f8e250] [cursor=pointer]: Italy
+                    - listitem [ref=f8e251] [cursor=pointer]: Jamaica
+                    - listitem [ref=f8e252] [cursor=pointer]: Japan
+                    - listitem [ref=f8e253] [cursor=pointer]: Jersey
+                    - listitem [ref=f8e254] [cursor=pointer]: Jordan
+                    - listitem [ref=f8e255] [cursor=pointer]: Kazakhstan
+                    - listitem [ref=f8e256] [cursor=pointer]: Kenya
+                    - listitem [ref=f8e257] [cursor=pointer]: Kiribati
+                    - listitem [ref=f8e258] [cursor=pointer]: Korea, Democratic People's Republic of
+                    - listitem [ref=f8e259] [cursor=pointer]: Korea, Republic of
+                    - listitem [ref=f8e260] [cursor=pointer]: Kosovo
+                    - listitem [ref=f8e261] [cursor=pointer]: Kuwait
+                    - listitem [ref=f8e262] [cursor=pointer]: Kyrgyzstan
+                    - listitem [ref=f8e263] [cursor=pointer]: Lao People's Democratic Republic
+                    - listitem [ref=f8e264] [cursor=pointer]: Latvia
+                    - listitem [ref=f8e265] [cursor=pointer]: Lebanon
+                    - listitem [ref=f8e266] [cursor=pointer]: Lesotho
+                    - listitem [ref=f8e267] [cursor=pointer]: Liberia
+                    - listitem [ref=f8e268] [cursor=pointer]: Libyan Arab Jamahiriya
+                    - listitem [ref=f8e269] [cursor=pointer]: Liechtenstein
+                    - listitem [ref=f8e270] [cursor=pointer]: Lithuania
+                    - listitem [ref=f8e271] [cursor=pointer]: Luxembourg
+                    - listitem [ref=f8e272] [cursor=pointer]: Macau SAR of China
+                    - listitem [ref=f8e273] [cursor=pointer]: Macedonia, the former Yugoslav Republic of
+                    - listitem [ref=f8e274] [cursor=pointer]: Madagascar
+                    - listitem [ref=f8e275] [cursor=pointer]: Malawi
+                    - listitem [ref=f8e276] [cursor=pointer]: Malaysia
+                    - listitem [ref=f8e277] [cursor=pointer]: Maldives
+                    - listitem [ref=f8e278] [cursor=pointer]: Mali
+                    - listitem [ref=f8e279] [cursor=pointer]: Malta
+                    - listitem [ref=f8e280] [cursor=pointer]: Marshall Islands
+                    - listitem [ref=f8e281] [cursor=pointer]: Martinique
+                    - listitem [ref=f8e282] [cursor=pointer]: Mauritania
+                    - listitem [ref=f8e283] [cursor=pointer]: Mauritius
+                    - listitem [ref=f8e284] [cursor=pointer]: Mayotte
+                    - listitem [ref=f8e285] [cursor=pointer]: Mexico
+                    - listitem [ref=f8e286] [cursor=pointer]: Micronesia, Federated States of
+                    - listitem [ref=f8e287] [cursor=pointer]: Moldova, Republic of
+                    - listitem [ref=f8e288] [cursor=pointer]: Monaco
+                    - listitem [ref=f8e289] [cursor=pointer]: Mongolia
+                    - listitem [ref=f8e290] [cursor=pointer]: Montenegro
+                    - listitem [ref=f8e291] [cursor=pointer]: Montserrat
+                    - listitem [ref=f8e292] [cursor=pointer]: Morocco
+                    - listitem [ref=f8e293] [cursor=pointer]: Mozambique
+                    - listitem [ref=f8e294] [cursor=pointer]: Myanmar
+                    - listitem [ref=f8e295] [cursor=pointer]: Namibia
+                    - listitem [ref=f8e296] [cursor=pointer]: Nauru
+                    - listitem [ref=f8e297] [cursor=pointer]: Nepal
+                    - listitem [ref=f8e298] [cursor=pointer]: Netherlands
+                    - listitem [ref=f8e299] [cursor=pointer]: Netherlands Antilles
+                    - listitem [ref=f8e300] [cursor=pointer]: New Caledonia
+                    - listitem [ref=f8e301] [cursor=pointer]: New Zealand
+                    - listitem [ref=f8e302] [cursor=pointer]: Nicaragua
+                    - listitem [ref=f8e303] [cursor=pointer]: Niger
+                    - listitem [ref=f8e304] [cursor=pointer]: Nigeria
+                    - listitem [ref=f8e305] [cursor=pointer]: Niue
+                    - listitem [ref=f8e306] [cursor=pointer]: Norfolk Island
+                    - listitem [ref=f8e307] [cursor=pointer]: Northern Mariana Islands
+                    - listitem [ref=f8e308] [cursor=pointer]: Norway
+                    - listitem [ref=f8e309] [cursor=pointer]: Oman
+                    - listitem [ref=f8e310] [cursor=pointer]: Pakistan
+                    - listitem [ref=f8e311] [cursor=pointer]: Palau
+                    - listitem [ref=f8e312] [cursor=pointer]: Palestinian Territory, Occupied
+                    - listitem [ref=f8e313] [cursor=pointer]: Panama
+                    - listitem [ref=f8e314] [cursor=pointer]: Papua New Guinea
+                    - listitem [ref=f8e315] [cursor=pointer]: Paraguay
+                    - listitem [ref=f8e316] [cursor=pointer]: Peru
+                    - listitem [ref=f8e317] [cursor=pointer]: Philippines
+                    - listitem [ref=f8e318] [cursor=pointer]: Pitcairn
+                    - listitem [ref=f8e319] [cursor=pointer]: Poland
+                    - listitem [ref=f8e320] [cursor=pointer]: Portugal
+                    - listitem [ref=f8e321] [cursor=pointer]: Puerto Rico
+                    - listitem [ref=f8e322] [cursor=pointer]: Qatar
+                    - listitem [ref=f8e323] [cursor=pointer]: Réunion
+                    - listitem [ref=f8e324] [cursor=pointer]: Romania
+                    - listitem [ref=f8e325] [cursor=pointer]: Russian Federation
+                    - listitem [ref=f8e326] [cursor=pointer]: Rwanda
+                    - listitem [ref=f8e327] [cursor=pointer]: Saint Helena, Ascension and Tristan da Cunha
+                    - listitem [ref=f8e328] [cursor=pointer]: Saint Kitts and Nevis
+                    - listitem [ref=f8e329] [cursor=pointer]: Saint Lucia
+                    - listitem [ref=f8e330] [cursor=pointer]: Saint Martin (French part)
+                    - listitem [ref=f8e331] [cursor=pointer]: Saint Pierre and Miquelon
+                    - listitem [ref=f8e332] [cursor=pointer]: Saint Vincent and the Grenadines
+                    - listitem [ref=f8e333] [cursor=pointer]: Saint-Barthélemy
+                    - listitem [ref=f8e334] [cursor=pointer]: Samoa
+                    - listitem [ref=f8e335] [cursor=pointer]: San Marino
+                    - listitem [ref=f8e336] [cursor=pointer]: Sao Tome and Principe
+                    - listitem [ref=f8e337] [cursor=pointer]: Saudi Arabia
+                    - listitem [ref=f8e338] [cursor=pointer]: Senegal
+                    - listitem [ref=f8e339] [cursor=pointer]: Serbia
+                    - listitem [ref=f8e340] [cursor=pointer]: Seychelles
+                    - listitem [ref=f8e341] [cursor=pointer]: Sierra Leone
+                    - listitem [ref=f8e342] [cursor=pointer]: Singapore
+                    - listitem [ref=f8e343] [cursor=pointer]: Slovakia
+                    - listitem [ref=f8e344] [cursor=pointer]: Slovenia
+                    - listitem [ref=f8e345] [cursor=pointer]: Solomon Islands
+                    - listitem [ref=f8e346] [cursor=pointer]: Somalia
+                    - listitem [ref=f8e347] [cursor=pointer]: South Africa
+                    - listitem [ref=f8e348] [cursor=pointer]: South Georgia and the South Sandwich Islands
+                    - listitem [ref=f8e349] [cursor=pointer]: South Sudan
+                    - listitem [ref=f8e350] [cursor=pointer]: Spain
+                    - listitem [ref=f8e351] [cursor=pointer]: Sri Lanka
+                    - listitem [ref=f8e352] [cursor=pointer]: Sudan
+                    - listitem [ref=f8e353] [cursor=pointer]: Suriname
+                    - listitem [ref=f8e354] [cursor=pointer]: Svalbard and Jan Mayen
+                    - listitem [ref=f8e355] [cursor=pointer]: Sweden
+                    - listitem [ref=f8e356] [cursor=pointer]: Switzerland
+                    - listitem [ref=f8e357] [cursor=pointer]: Syrian Arab Republic
+                    - listitem [ref=f8e358] [cursor=pointer]: Taiwan (Region)
+                    - listitem [ref=f8e359] [cursor=pointer]: Tajikistan
+                    - listitem [ref=f8e360] [cursor=pointer]: Tanzania, United Republic of
+                    - listitem [ref=f8e361] [cursor=pointer]: Thailand
+                    - listitem [ref=f8e362] [cursor=pointer]: Timor-Leste
+                    - listitem [ref=f8e363] [cursor=pointer]: Togo
+                    - listitem [ref=f8e364] [cursor=pointer]: Tokelau
+                    - listitem [ref=f8e365] [cursor=pointer]: Tonga
+                    - listitem [ref=f8e366] [cursor=pointer]: Trinidad and Tobago
+                    - listitem [ref=f8e367] [cursor=pointer]: Tunisia
+                    - listitem [ref=f8e368] [cursor=pointer]: TÜRKIYE
+                    - listitem [ref=f8e369] [cursor=pointer]: Turkmenistan
+                    - listitem [ref=f8e370] [cursor=pointer]: Turks and Caicos Islands
+                    - listitem [ref=f8e371] [cursor=pointer]: Tuvalu
+                    - listitem [ref=f8e372] [cursor=pointer]: Uganda
+                    - listitem [ref=f8e373] [cursor=pointer]: Ukraine
+                    - listitem [ref=f8e374] [cursor=pointer]: United Arab Emirates
+                    - listitem [ref=f8e375] [cursor=pointer]: United Kingdom
+                    - listitem [ref=f8e376] [cursor=pointer]: United States
+                    - listitem [ref=f8e377] [cursor=pointer]: United States Minor Outlying Islands
+                    - listitem [ref=f8e378] [cursor=pointer]: Uruguay
+                    - listitem [ref=f8e379] [cursor=pointer]: Uzbekistan
+                    - listitem [ref=f8e380] [cursor=pointer]: Vanuatu
+                    - listitem [ref=f8e381] [cursor=pointer]: Venezuela, Bolivarian Republic of
+                    - listitem [ref=f8e382] [cursor=pointer]: Viet Nam
+                    - listitem [ref=f8e383] [cursor=pointer]: Virgin Islands, British
+                    - listitem [ref=f8e384] [cursor=pointer]: Virgin Islands, U.S.
+                    - listitem [ref=f8e385] [cursor=pointer]: Wallis and Futuna
+                    - listitem [ref=f8e386] [cursor=pointer]: Western Sahara
+                    - listitem [ref=f8e387] [cursor=pointer]: Yemen
+                    - listitem [ref=f8e388] [cursor=pointer]: Zambia
+                    - listitem [ref=f8e389] [cursor=pointer]: Zimbabwe
+              - textbox "Federal state" [ref=f8e394]: Baden-Württemberg
+              - textbox "Address" [ref=f8e399]: Blücherstraße 6
+              - textbox "Postal code" [ref=f8e404]: "76185"
+              - generic [ref=f8e407]:
+                - generic [ref=f8e408]:
+                  - text: City
+                  - generic [ref=f8e409]: "*"
+                - textbox "City *" [ref=f8e410]: Karlsruhe
+              - generic [ref=f8e413]:
+                - generic [ref=f8e414]:
+                  - text: E-mail
+                  - generic [ref=f8e415]: "*"
+                - textbox "E-mail *" [ref=f8e416]: krantichavan198@gmail.com
+              - textbox "Phone number" [ref=f8e421]: +49 15750174177
+              - textbox "Online profile (e.g. LinkedIn)" [ref=f8e426]: https://www.linkedin.com/in/kranti-chavan-84a155191
+              - generic "Additional information" [ref=f8e430]:
+                - textbox [ref=f8e433]
+          - generic [ref=f8e434]:
+            - heading "Additional information" [level=3] [ref=f8e435]
+            - generic [ref=f8e436]:
+              - generic [ref=f8e437]:
+                - generic [ref=f8e439]:
+                  - generic [ref=f8e440]:
+                    - generic [ref=f8e441]: Are you currently employed by us?
+                    - button "Are you currently employed by us?" [ref=f8e442] [cursor=pointer]:
+                      - generic [ref=f8e443]: Please select
+                  - generic:
+                    - list:
+                      - listitem [ref=f8e446] [cursor=pointer]: "No"
+                      - listitem [ref=f8e447] [cursor=pointer]: "Yes"
+                - textbox "Earliest possible start date:" [ref=f8e452]
+              - generic [ref=f8e453]:
+                - generic [ref=f8e455]:
+                  - generic [ref=f8e456]:
+                    - generic [ref=f8e457]: Have you been referred by an employee?
+                    - button "Have you been referred by an employee?" [ref=f8e458] [cursor=pointer]:
+                      - generic [ref=f8e459]: Please select
+                  - generic:
+                    - list:
+                      - listitem [ref=f8e462] [cursor=pointer]: "No"
+                      - listitem [ref=f8e463] [cursor=pointer]: "Yes"
+                - textbox "If yes, please provide the name of the employee" [ref=f8e468]
+          - generic [ref=f8e469]:
+            - heading "Your documents" [level=3] [ref=f8e470]
+            - generic [ref=f8e472]:
+              - paragraph [ref=f8e473]: "Please upload your application documents such as your CV. Additional documents, such as cover letter, certificates or references, are welcome and help us gain a better understanding of your skills and experience. Accepted file types: DOCX, PDF, Image, and Text (MSG, PPT and XLS file types are not accepted for resume or cover letters)"
+              - generic [ref=f8e477]:
+                - generic [ref=f8e478]:
+                  - text: Resume
+                  - generic [ref=f8e479]: "*"
+                - button "Upload" [ref=f8e483] [cursor=pointer]
+              - generic [ref=f8e487]:
+                - generic [ref=f8e488]: Additional documents
+                - button "Upload" [ref=f8e492] [cursor=pointer]
+          - generic [ref=f8e493]:
+            - heading "Additional information" [level=3] [ref=f8e494]
+            - group "My data can be used:*" [ref=f8e499]:
+              - generic [ref=f8e501]:
+                - radio "to also consider me for other open positions (I consent that my personal data may be processed for this purpose as described in more details in the Data Privacy Statement)."
+                - generic [ref=f8e503]: to also consider me for other open positions (I consent that my personal data may be processed for this purpose as described in more details in the Data Privacy Statement).
+              - generic [ref=f8e504]:
+                - radio "to only consider me for the positions I have applied for."
+                - generic [ref=f8e506]: to only consider me for the positions I have applied for.
+          - generic [ref=f8e507]:
+            - heading "Data protection" [level=3] [ref=f8e508]
+            - button "Read and accept the data privacy statement.**" [ref=f8e511] [cursor=pointer]:
+              - generic [ref=f8e515]:
+                - checkbox "Read and accept the data privacy statement.**"
+                - generic [ref=f8e517]: Read and accept the data privacy statement.**
+          - button "Apply now" [ref=f8e520] [cursor=pointer]
+    - generic [ref=f8e50]:
+      - generic [ref=f8e53]:
+        - generic [ref=f8e54]:
+          - generic [ref=f8e55]:
+            - textbox "Search" [ref=f8e56]
+            - button [ref=f8e57] [cursor=pointer]
+          - generic [ref=f8e61]:
+            - link "News" [ref=f8e62] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Blog" [ref=f8e63] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Events" [ref=f8e64] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Webinars" [ref=f8e65] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+        - generic [ref=f8e66]:
+          - heading "Contact" [level=5] [ref=f8e67]
+          - generic [ref=f8e68]:
+            - link "Contact" [ref=f8e69] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Support" [ref=f8e70] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+            - link "Documentation" [ref=f8e71] [cursor=pointer]:
+              - /url: https://jobs.dormakaba.com/default/content/apply/www.google.com
+      - generic [ref=f8e74]:
+        - generic [ref=f8e75]:
+          - link "Contact" [ref=f8e76] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/contact
+          - link "Disclaimer" [ref=f8e77] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/disclaimer
+          - link "Privacy Policy" [ref=f8e78] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/privacy-policy
+          - link "Imprint" [ref=f8e79] [cursor=pointer]:
+            - /url: https://www.dormakaba.com/en/imprint
+          - link "FAQ" [ref=f8e80] [cursor=pointer]:
+            - /url: https://jobs.dormakaba.com/content/FAQ/?locale=en_US
+          - button "Cookies" [ref=f8e81] [cursor=pointer]
+        - generic [ref=f8e82]: © dormakaba Holding, 2019, all rights reserved
+  - generic: Cookies Settings

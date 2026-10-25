@@ -1,0 +1,47 @@
+- generic [active] [ref=f17e1]:
+  - main [ref=f17e2]:
+    - generic [ref=f17e3]:
+      - img "IONOS DE Logo" [ref=f17e5]
+      - generic [ref=f17e6]:
+        - generic [ref=f17e7]:
+          - generic [ref=f17e9]:
+            - paragraph [ref=f17e10]:
+              - strong [ref=f17e11]: Vielen Dank für Deine Bewerbung bei IONOS und Dein Interesse, gemeinsam mit uns die digitale Zukunft zu gestalten!
+            - paragraph [ref=f17e12]: Wie geht es jetzt weiter?
+            - paragraph [ref=f17e13]: Deine Unterlagen sind sicher bei uns angekommen und eine Bestätigungsmail ist schon auf dem Weg in Dein Postfach. Unser Recruiting-Team und die Fachabteilung prüfen Deine Unterlagen und geben Dir anschließend so schnell wie möglich eine Rückmeldung.
+            - paragraph [ref=f17e14]: Wenn Du die Wartezeit verkürzen möchtest, wirf doch schon mal einen Blick hinter die Kulissen. Auf unserer Website und unseren Social-Media-Kanälen entdeckst Du mehr über unsere Arbeitskultur, unsere Produkte und die Menschen bei IONOS.
+            - paragraph [ref=f17e15]: Wir freuen uns schon darauf, mehr über Dich zu erfahren, und wünschen Dir viel Erfolg für Deinen weiteren Weg im Prozess!
+            - paragraph [ref=f17e16]: Dein IONOS Recruiting-Team
+            - paragraph [ref=f17e17]:
+              - link "IONOS Career" [ref=f17e18] [cursor=pointer]:
+                - /url: https://jobs.ionos.de/karriere/ihre-karriere
+              - text: "|"
+              - link "LinkedIn" [ref=f17e19] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/ionos/posts/
+              - text: "|"
+              - link "Instagram" [ref=f17e20] [cursor=pointer]:
+                - /url: https://www.instagram.com/ionos.official/
+          - generic [ref=f17e21]:
+            - link "View more jobs at IONOS DE" [ref=f17e22] [cursor=pointer]:
+              - /url: https://job-boards.eu.greenhouse.io/ionos
+            - link "Back to job post" [ref=f17e23] [cursor=pointer]:
+              - /url: https://job-boards.eu.greenhouse.io/ionos/jobs/4729593101
+        - generic [ref=f17e25]:
+          - img "MyGreenhouse Application Tracking" [ref=f17e27]
+          - generic [ref=f17e28]:
+            - generic [ref=f17e29]:
+              - paragraph [ref=f17e30]: Track your application
+              - paragraph [ref=f17e31]: Sign in to keep tabs on your application, get status updates and more.
+            - generic [ref=f17e32]:
+              - paragraph [ref=f17e40]: Initial screen
+              - paragraph [ref=f17e48]: Team interview
+              - paragraph [ref=f17e55]: Onsite interview
+              - paragraph [ref=f17e61]: Offer
+            - link "Track your application" [ref=f17e79] [cursor=pointer]:
+              - /url: https://my.greenhouse.io/users/sign_in?source=track_your_status
+  - contentinfo [ref=f17e63]:
+    - generic [ref=f17e64]:
+      - paragraph [ref=f17e65]: Powered by
+      - link [ref=f17e66] [cursor=pointer]:
+        - /url: https://www.greenhouse.com
+        - img "Greenhouse logo" [ref=f17e67]

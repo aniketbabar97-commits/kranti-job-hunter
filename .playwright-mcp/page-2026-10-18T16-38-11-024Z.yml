@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "ValueNet" [ref=e9] [cursor=pointer]:
+            - /url: https://valuenet-group.jobs.personio.de
+            - img "ValueNet" [ref=e10]
+          - 'combobox "Select language, current: English" [ref=e13] [cursor=pointer]':
+            - generic: English
+      - main [ref=e17]:
+        - link "Back to job" [ref=e21] [cursor=pointer]:
+          - /url: /job/2845727?display=en
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Senior Odoo Engineer ERP & E-Commerce (all genders)" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]: München
+              - generic [ref=e35]: Full-time
+              - generic [ref=e39]: Permanent employee
+          - generic [ref=e43]: THANK YOUWe have received your application and will contact you shortly!
+      - contentinfo [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e154]:
+            - img "Powered by Personio" [ref=e155]
+            - generic [ref=e156]:
+              - text: Powered by
+              - link [ref=e157] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=e158]: Personio
+          - generic [ref=e159]:
+            - link "Data privacy statement" [ref=e160] [cursor=pointer]:
+              - /url: /privacy-policy?language=en
+            - link "Legal Notice" [ref=e161] [cursor=pointer]:
+              - /url: https://www.valuenet.de/impressum
+  - alert [ref=e162]

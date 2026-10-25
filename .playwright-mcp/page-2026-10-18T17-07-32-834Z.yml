@@ -1,0 +1,645 @@
+- generic [active] [ref=e1]:
+  - dialog [ref=e3]:
+    - document [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - heading "Einwilligung zu Cookies & Datenverarbeitung" [level=1] [ref=e7]
+          - generic [ref=e8]: REHAU nutzt auf seinen Internetseiten Cookies. Dabei können auch personenbezogene Daten verarbeitet werden. Technische Cookies sind für die Funktion der Website zwingend notwendig (Funktion) und können nicht deaktiviert werden. Weitere Cookies dienen z. B. der statistischen Analyse, Marketingzwecken oder der Verbesserung dieser Website. Je nach Funktion werden dabei Daten an Dritte weitergegeben. Weitere Cookies werden nur aktiviert, soweit Sie darin einwilligen. Sie können diesen Cookies entweder gruppenweise über die Felder Statistik / Marketing / Andere zustimmen oder diese über „Einstellungen“ auf Ebene einzelner Cookies konfigurieren. Im Einzelfall erstreckt sich die Einwilligung auch auf eine Verarbeitung in Ländern ohne ausreichendes Datenschutzniveau außerhalb der Europäischen Union (in sog. Drittstaaten – insbes. USA). Bei der Beschreibung der Cookies wird darüber jeweils informiert. Sie können ihre Einwilligungen jederzeit über das Cookie-Icon, welches Sie auf unserer Website stets in der linken unteren Ecke finden, widerrufen oder ändern.
+        - form "Zweck" [ref=e9]:
+          - generic [ref=e10]:
+            - img "Funktion" [ref=e13]
+            - generic [ref=e16]: Funktion
+          - generic [ref=e17]:
+            - 'checkbox "Zweck: Marketing" [ref=e19] [cursor=pointer]':
+              - img "Marketing" [ref=e21]
+            - generic [ref=e24] [cursor=pointer]: Marketing
+          - generic [ref=e25]:
+            - 'checkbox "Zweck: Statistik" [ref=e27] [cursor=pointer]':
+              - img "Statistik" [ref=e29]
+            - generic [ref=e32] [cursor=pointer]: Statistik
+          - generic [ref=e33]:
+            - 'checkbox "Zweck: Andere" [ref=e35] [cursor=pointer]':
+              - img "Andere" [ref=e37]
+            - generic [ref=e40] [cursor=pointer]: Andere
+      - form [ref=e41]:
+        - button "Alle akzeptieren" [ref=e43] [cursor=pointer]
+        - button "Alles ablehnen" [ref=e46] [cursor=pointer]
+        - button "Einstellungen" [ref=e49] [cursor=pointer]
+        - generic [ref=e50]:
+          - link "Cookies" [ref=e51] [cursor=pointer]:
+            - /url: "#"
+          - text: "|"
+          - link "Datenschutzinformation" [ref=e52] [cursor=pointer]:
+            - /url: https://www.rehau.com/de-de/datenschutz-informationen
+          - text: "|"
+          - link "Impressum" [ref=e53] [cursor=pointer]:
+            - /url: https://www.rehau.com/de-de/impressum
+  - banner [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - link [ref=e57] [cursor=pointer]:
+          - /url: /de-de
+        - navigation [ref=e59]:
+          - list [ref=e60]:
+            - listitem [ref=e61]:
+              - link "Händler finden" [ref=e62] [cursor=pointer]:
+                - /url: /de-de/rehau-haendler
+            - listitem [ref=e63]:
+              - link "Über uns" [ref=e64] [cursor=pointer]:
+                - /url: /de-de/ueber-uns
+            - listitem [ref=e65]:
+              - link "Presse" [ref=e66] [cursor=pointer]:
+                - /url: /de-de/presse
+            - listitem [ref=e67]:
+              - link "Kundenportal" [ref=e68] [cursor=pointer]:
+                - /url: /de-de/kundenportal-login
+            - listitem [ref=e69]:
+              - link "Kontakt" [ref=e70] [cursor=pointer]:
+                - /url: /de-de/kontakt
+            - listitem [ref=e71]:
+              - link "REHAU Gruppe" [ref=e72] [cursor=pointer]:
+                - /url: https://www.rehau.group
+        - search [ref=e73]:
+          - textbox "Suchen..." [ref=e74]
+          - button "" [ref=e75] [cursor=pointer]
+        - navigation [ref=e76]:
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - link "Privatkunden" [ref=e79] [cursor=pointer]:
+                - /url: /de-de/privatkunden
+              - navigation:
+                - list [ref=e80]:
+                  - listitem [ref=e81]:
+                    - link "Fenster und Türen" [ref=e82] [cursor=pointer]:
+                      - /url: https://window.rehau.com/de-de/fenster-tueren
+                  - listitem [ref=e83]:
+                    - link "Wassersteuerung" [ref=e84] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/sanitaer-und-trinkwasser/wassersteuerung-und-armaturen/wassersicherheitssystem-re-guard
+                  - listitem [ref=e85]:
+                    - link "Trinkwasserleitung" [ref=e86] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/sanitaer-und-trinkwasser/versorgungsleitungen
+                  - listitem [ref=e87]:
+                    - link "Fußbodenheizung" [ref=e88] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/heizen-kuehlen-lueften/flaechenheizung-und-kuehlung
+                  - listitem [ref=e89]:
+                    - link "Temperaturregelung" [ref=e90] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/wissenswertes/smarte-produkte/smarte-temperaturregelung-nea-smart
+                  - listitem [ref=e91]:
+                    - link "Wohnraumbelüftung" [ref=e92] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/heizen-kuehlen-lueften/gebaeudelueftung-luft-erdwaermetauscher
+                  - listitem [ref=e93]:
+                    - link "Möbel" [ref=e94] [cursor=pointer]:
+                      - /url: /de-de/privatkunden/glaslaminat-kueche-bad
+                - list [ref=e95]:
+                  - listitem [ref=e96]:
+                    - link "REHAU Privatkunden Webshop" [ref=e97] [cursor=pointer]:
+                      - /url: https://www.rehau.com/webshop
+                  - listitem [ref=e98]:
+                    - link "Schnell zum persönlichen Fensterangebot" [ref=e99] [cursor=pointer]:
+                      - /url: https://window.rehau.com/de-de/rehau-connect-kontakt-b2c
+            - listitem [ref=e100]:
+              - link "Handwerker & Bauunternehmer" [ref=e101] [cursor=pointer]:
+                - /url: /de-de/handwerker-und-bauunternehmer
+              - navigation:
+                - list [ref=e102]:
+                  - listitem [ref=e103]:
+                    - link "Hochbau" [ref=e104] [cursor=pointer]:
+                      - /url: /de-de/handwerker-und-bauunternehmer/hochbau-handwerker-und-bauunternehmer
+                    - list [ref=e105]:
+                      - listitem [ref=e106]:
+                        - link "Fenster und Türen" [ref=e107] [cursor=pointer]:
+                          - /url: https://window.rehau.com/de-de/geschaeftskunden/fenster
+                      - listitem [ref=e108]:
+                        - link "Heizen, Kühlen und Lüften" [ref=e109] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/heizen-kuehlen-lueften
+                      - listitem [ref=e110]:
+                        - link "Sanitärinstallation" [ref=e111] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/sanitaer-und-trinkwasser
+                  - listitem [ref=e112]:
+                    - link "Tiefbau" [ref=e113] [cursor=pointer]:
+                      - /url: /de-de/handwerker-und-bauunternehmer/tiefbau-de
+                    - list [ref=e114]:
+                      - listitem [ref=e115]:
+                        - link "Abwasser" [ref=e116] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau/abwasser
+                      - listitem [ref=e117]:
+                        - link "Regenwasser" [ref=e118] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau/regenwasser
+                      - listitem [ref=e119]:
+                        - link "Strom" [ref=e120] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau
+                      - listitem [ref=e121]:
+                        - link "Nahwärme" [ref=e122] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/nahwaerme
+                  - listitem [ref=e123]:
+                    - link "Innenausbau" [ref=e124] [cursor=pointer]:
+                      - /url: /de-de/handwerker-und-bauunternehmer/innenausbau-de
+                    - list [ref=e125]:
+                      - listitem [ref=e126]:
+                        - link "Produkte" [ref=e127] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/produkte
+                      - listitem [ref=e128]:
+                        - link "Design & Inspiration" [ref=e129] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/design-inspiration
+                      - listitem [ref=e130]:
+                        - link "Service & Konfiguratoren" [ref=e131] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/service-konfiguratoren
+                      - listitem [ref=e132]:
+                        - link "Über uns" [ref=e133] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/ueber-uns
+                  - listitem [ref=e134]:
+                    - link "Industriebau" [ref=e135] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/industrie
+                - list [ref=e136]:
+                  - listitem [ref=e137]:
+                    - link "ePaper" [ref=e138] [cursor=pointer]:
+                      - /url: https://oxomi.com/p/3000126
+                  - listitem [ref=e139]:
+                    - link "Referenzen" [ref=e140] [cursor=pointer]:
+                      - /url: /de-de/service/reference/124792
+                  - listitem [ref=e141]:
+                    - link "REHAU Akademie" [ref=e142] [cursor=pointer]:
+                      - /url: /de-de/rehau-akademie
+            - listitem [ref=e143]:
+              - link "Architekten & Planer" [ref=e144] [cursor=pointer]:
+                - /url: /de-de/architekten-und-planer
+              - navigation:
+                - list [ref=e145]:
+                  - listitem [ref=e146]:
+                    - link "Hochbau" [ref=e147] [cursor=pointer]:
+                      - /url: /de-de/architekten-und-planer/hochbau-architekten-und-planer
+                    - list [ref=e148]:
+                      - listitem [ref=e149]:
+                        - link "Fenster und Türen" [ref=e150] [cursor=pointer]:
+                          - /url: https://window.rehau.com/de-de/geschaeftskunden/fenster-und-tueren-architekten
+                      - listitem [ref=e151]:
+                        - link "Heizen, Kühlen und Lüften" [ref=e152] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/heizen-kuehlen-lueften
+                      - listitem [ref=e153]:
+                        - link "Sanitärinstallation" [ref=e154] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/sanitaer-und-trinkwasser
+                  - listitem [ref=e155]:
+                    - link "Tiefbau" [ref=e156] [cursor=pointer]:
+                      - /url: /de-de/handwerker-und-bauunternehmer/tiefbau-de
+                    - list [ref=e157]:
+                      - listitem [ref=e158]:
+                        - link "Abwasser" [ref=e159] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau/abwasser
+                      - listitem [ref=e160]:
+                        - link "Regenwasser" [ref=e161] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau/regenwasser
+                      - listitem [ref=e162]:
+                        - link "Strom" [ref=e163] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-den-tiefbau
+                      - listitem [ref=e164]:
+                        - link "Nahwärme" [ref=e165] [cursor=pointer]:
+                          - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/nahwaerme
+                  - listitem [ref=e166]:
+                    - link "Innenausbau" [ref=e167] [cursor=pointer]:
+                      - /url: /de-de/handwerker-und-bauunternehmer/innenausbau-de
+                    - list [ref=e168]:
+                      - listitem [ref=e169]:
+                        - link "Produkte" [ref=e170] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/produkte
+                      - listitem [ref=e171]:
+                        - link "Design & Inspiration" [ref=e172] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/design-inspiration
+                      - listitem [ref=e173]:
+                        - link "Service & Konfiguratoren" [ref=e174] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/service-konfiguratoren
+                      - listitem [ref=e175]:
+                        - link "Über uns" [ref=e176] [cursor=pointer]:
+                          - /url: https://interior.rehau.com/de-de/ueber-uns
+                  - listitem [ref=e177]:
+                    - link "Industriebau" [ref=e178] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/industrie
+                - list [ref=e179]:
+                  - listitem [ref=e180]:
+                    - link "ePaper" [ref=e181] [cursor=pointer]:
+                      - /url: https://oxomi.com/p/3000126
+                  - listitem [ref=e182]:
+                    - link "BIM" [ref=e183] [cursor=pointer]:
+                      - /url: https://www.rehau.de/bim
+                  - listitem [ref=e184]:
+                    - link "Referenzen" [ref=e185] [cursor=pointer]:
+                      - /url: /de-de/service/reference/124792
+                  - listitem [ref=e186]:
+                    - link "REHAU Akademie" [ref=e187] [cursor=pointer]:
+                      - /url: /de-de/rehau-akademie
+            - listitem [ref=e188]:
+              - link "Industrie" [ref=e189] [cursor=pointer]:
+                - /url: /de-de/industrie
+              - navigation:
+                - list [ref=e190]:
+                  - listitem [ref=e191]:
+                    - link "Möbel- und Innenausbau" [ref=e192] [cursor=pointer]:
+                      - /url: https://interior.rehau.com
+                  - listitem [ref=e193]:
+                    - link "Industrial Solutions" [ref=e194] [cursor=pointer]:
+                      - /url: https://industrial.rehau.com/de-de
+                  - listitem [ref=e195]:
+                    - link "Profile Solutions" [ref=e196] [cursor=pointer]:
+                      - /url: https://industrial.rehau.com/de-de/geschaeftsfelder/profile-solutions
+                  - listitem [ref=e197]:
+                    - link "Cooling Solutions" [ref=e198] [cursor=pointer]:
+                      - /url: https://industrial.rehau.com/de-de/geschaeftsfelder/cooling-solutions
+                  - listitem [ref=e199]:
+                    - link "Railway Solutions" [ref=e200] [cursor=pointer]:
+                      - /url: https://railway.rehau.com/en-en
+            - listitem [ref=e201]:
+              - link "Investoren & öffentliche Bauherren" [ref=e202] [cursor=pointer]:
+                - /url: /de-de/investoren-und-oeffentliche-bauherren
+              - navigation:
+                - list [ref=e203]:
+                  - listitem [ref=e204]:
+                    - link "Bahnstromversorgung" [ref=e205] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/bahnstromversorgung-investoren
+                  - listitem [ref=e206]:
+                    - link "Energieeffizient Bauen und Sanieren" [ref=e207] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/energieeffizient-bauen-und-sanieren-investoren
+                  - listitem [ref=e208]:
+                    - link "Erneuerbare Energien" [ref=e209] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/erneuerbare-energien-investoren
+                  - listitem [ref=e210]:
+                    - link "Fenster und Türsysteme" [ref=e211] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/fenster-und-tuersysteme-investoren
+                  - listitem [ref=e212]:
+                    - link "Heizen und Kühlen" [ref=e213] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/heizen-und-kuehlen-investoren
+                  - listitem [ref=e214]:
+                    - link "Industrierohrsysteme" [ref=e215] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/industrierohrsysteme-investoren
+                  - listitem [ref=e216]:
+                    - link "Kanalnetzlösungen" [ref=e217] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/kanalnetzloesunn-investoren
+                  - listitem [ref=e218]:
+                    - link "Passivhäuser" [ref=e219] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/passivhaeuser-investoren
+                  - listitem [ref=e220]:
+                    - link "Regenwasserbewirtschaftung" [ref=e221] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/regenwasserbewirtschaftung-investoren
+                  - listitem [ref=e222]:
+                    - link "Sanitärinstallation" [ref=e223] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/sanitaerinstallation-investoren
+                  - listitem [ref=e224]:
+                    - link "Sportstättenbau" [ref=e225] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/sportstaettenbau-investoren
+                  - listitem [ref=e226]:
+                    - link "Zertifizierte Projekte" [ref=e227] [cursor=pointer]:
+                      - /url: /de-de/investoren-und-oeffentliche-bauherren/zertifizierte-projekte-investoren
+                  - listitem [ref=e228]:
+                    - link "Nahwärme" [ref=e229] [cursor=pointer]:
+                      - /url: https://water.rehau.com/de-de/loesungen-fuer-die-gebaeudetechnik/nahwaerme
+            - listitem [ref=e230]:
+              - link "Handel" [ref=e231] [cursor=pointer]:
+                - /url: /de-de/handel
+            - listitem [ref=e232]:
+              - link "Karriere" [ref=e233] [cursor=pointer]:
+                - /url: /de-de/karriere
+              - navigation:
+                - list [ref=e234]:
+                  - listitem [ref=e235]:
+                    - generic [ref=e236]: Arbeiten bei REHAU
+                    - list [ref=e237]:
+                      - listitem [ref=e238]:
+                        - link "Unsere Entwicklungsangebote" [ref=e239] [cursor=pointer]:
+                          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-entwicklungsangebote
+                      - listitem [ref=e240]:
+                        - link "Unsere Benefits" [ref=e241] [cursor=pointer]:
+                          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-benefits
+                      - listitem [ref=e242]:
+                        - link "Unsere Auszeichnungen" [ref=e243] [cursor=pointer]:
+                          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-auszeichnungen
+                  - listitem [ref=e244]:
+                    - generic [ref=e245]: Rund um Deine Bewerbung
+                    - list [ref=e246]:
+                      - listitem [ref=e247]:
+                        - link "Events, Messen & Infotage" [ref=e248] [cursor=pointer]:
+                          - /url: /de-de/karriere/rund-um-deine-bewerbung/events-messen-und-infotage
+                      - listitem [ref=e249]:
+                        - link "FAQs" [ref=e250] [cursor=pointer]:
+                          - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+                  - listitem [ref=e251]:
+                    - generic [ref=e252]: Einstieg für ...
+                    - list [ref=e253]:
+                      - listitem [ref=e254]:
+                        - link "Schülerinnen & Schüler" [ref=e255] [cursor=pointer]:
+                          - /url: /de-de/karriere/einstieg-fuer/schueler-und-schulabgaenger
+                      - listitem [ref=e256]:
+                        - link "Studierende & Hochschulabsolventen" [ref=e257] [cursor=pointer]:
+                          - /url: /de-de/karriere/einstieg-fuer/studierende-und-hochschulabsolventen
+                      - listitem [ref=e258]:
+                        - link "Berufseinsteiger & Berufserfahrene" [ref=e259] [cursor=pointer]:
+                          - /url: /de-de/karriere/einstieg-fuer/berufseinsteiger-und-berufserfahrene
+                      - listitem [ref=e260]:
+                        - link "Fachkräfte und gewerbliche Mitarbeiter*innen" [ref=e261] [cursor=pointer]:
+                          - /url: /de-de/karriere/einstieg-fuer/fachkraefte-und-gewerbliche-mitarbeiter
+                  - listitem [ref=e262]:
+                    - link "Deine Karriere bei ..." [ref=e263] [cursor=pointer]:
+                      - /url: /de-de/karriere/deine-karriere-bei-rehau
+                    - list [ref=e264]:
+                      - listitem [ref=e265]:
+                        - link "IT Solutions" [ref=e266] [cursor=pointer]:
+                          - /url: /de-de/bewerbung-rehau-it-solutions
+                      - listitem [ref=e267]:
+                        - link "REHAU New Ventures" [ref=e268] [cursor=pointer]:
+                          - /url: https://www.rehau-newventures.com
+                - list [ref=e269]:
+                  - listitem [ref=e270]:
+                    - link "Stellenmarkt" [ref=e271] [cursor=pointer]:
+                      - /url: https://www.rehau.jobs/?locale=de_DE
+      - text: 
+  - main [ref=e272]:
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - generic [ref=e279]:
+            - paragraph [ref=e281]
+            - paragraph [ref=e283]
+            - paragraph [ref=e285]
+            - generic [ref=e286]:
+              - paragraph [ref=e287]: Gestalte mit uns die digitale Zukunft
+              - paragraph [ref=e288]: Cybersecurity, Big Data, Infrastructure, DevOps, SAP, Industrie 4.0 und vieles mehr.
+              - paragraph [ref=e289]:
+                - link "Jetzt mehr erfahren " [ref=e290] [cursor=pointer]:
+                  - /url: /de-de/bewerbung-rehau-it-solutions
+            - paragraph [ref=e292]
+          - text: 
+        - text:  
+        - generic:
+          - link "" [ref=e293] [cursor=pointer]:
+            - /url: "#"
+          - link "" [ref=e294] [cursor=pointer]:
+            - /url: "#"
+      - list [ref=e295]:
+        - listitem [ref=e296]
+        - listitem [ref=e297]
+    - generic [ref=e299]:
+      - paragraph [ref=e301]: "Herausforderungen meistern, mit den beruflichen Aufgaben wachsen: Über 13.000 Mitarbeiter rund um den Globus arbeiten für REHAU – und verleihen unserem Unternehmen Dynamik und Kompetenz. Jede erste Idee, jeder Prototyp, auch jede einzelne E-Mail und jeder kreative Vorschlag:"
+      - paragraph [ref=e303]: Menschen bewegen REHAU
+      - generic [ref=e304]:
+        - paragraph [ref=e305]: So haben wir es zu einem der weltweit führenden und innovativsten Anbieter polymerbasierter Lösungen geschafft. Dabei hat Innovation viele Formen – und die Mitarbeiter von REHAU scheinen jeden Tag neue zu finden. Für die unterschiedlichsten Bereiche, im Großen und im Kleinen. Für jedes Aufgabenfeld.
+        - paragraph [ref=e306]
+    - generic [ref=e310]:
+      - paragraph [ref=e311]: Arbeiten bei REHAU
+      - generic [ref=e312]:
+        - link "MA-D600 - 55984 Unsere Entwicklungsangebote" [ref=e314] [cursor=pointer]:
+          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-entwicklungsangebote
+          - generic:
+            - generic:
+              - generic:
+                - img "MA-D600 - 55984"
+            - generic: Unsere Entwicklungsangebote
+        - link "AGI_643285752_CL - 103555 Unsere Benefits" [ref=e316] [cursor=pointer]:
+          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-benefits
+          - generic:
+            - generic:
+              - generic:
+                - img "AGI_643285752_CL - 103555"
+            - generic: Unsere Benefits
+        - link "AGI_640968809 - 55843 Unsere Auszeichnungen" [ref=e318] [cursor=pointer]:
+          - /url: /de-de/karriere/arbeiten-bei-rehau/unsere-auszeichnungen
+          - generic:
+            - generic:
+              - generic:
+                - img "AGI_640968809 - 55843"
+            - generic: Unsere Auszeichnungen
+    - generic [ref=e322]:
+      - paragraph [ref=e323]: Einstieg für ...
+      - generic [ref=e324]:
+        - link "ABI-D229_CL_01 - 1102835 Schülerinnen & Schüler Entdecke was Deine Ausbildung bei REHAU besonders macht." [ref=e326] [cursor=pointer]:
+          - /url: /de-de/karriere/einstieg-fuer/schueler-und-schulabgaenger
+          - generic:
+            - generic:
+              - generic:
+                - img "ABI-D229_CL_01 - 1102835"
+            - generic:
+              - generic: Schülerinnen & Schüler
+              - generic:
+                - paragraph: Entdecke was Deine Ausbildung bei REHAU besonders macht.
+        - link "MA-D166_486345_0 - 486345 Studierende & Hochschulabsolventen" [ref=e328] [cursor=pointer]:
+          - /url: /de-de/karriere/einstieg-fuer/studierende-und-hochschulabsolventen
+          - generic:
+            - generic:
+              - generic:
+                - img "MA-D166_486345_0 - 486345"
+            - generic: Studierende & Hochschulabsolventen
+        - link "MA-D1116_CL - 1102394 Berufseinsteiger & Berufserfahrene" [ref=e330] [cursor=pointer]:
+          - /url: /de-de/karriere/einstieg-fuer/berufseinsteiger-und-berufserfahrene
+          - generic:
+            - generic:
+              - generic:
+                - img "MA-D1116_CL - 1102394"
+            - generic: Berufseinsteiger & Berufserfahrene
+        - link "W_Wittmund_78_01 - 106028 Fachkräfte und gewerbliche Mitarbeiter*innen" [ref=e332] [cursor=pointer]:
+          - /url: /de-de/karriere/einstieg-fuer/fachkraefte-und-gewerbliche-mitarbeiter
+          - generic:
+            - generic:
+              - generic:
+                - img "W_Wittmund_78_01 - 106028"
+            - generic: Fachkräfte und gewerbliche Mitarbeiter*innen
+    - generic [ref=e336]:
+      - paragraph [ref=e337]: Rund um Deine Bewerbung
+      - generic [ref=e339]:
+        - link "ABI-D157 - 84433388 FAQs" [ref=e341] [cursor=pointer]:
+          - /url: https://www.rehau.jobs/content/FAQ/?locale=de_DE
+          - generic:
+            - generic:
+              - generic:
+                - img "ABI-D157 - 84433388"
+            - generic: FAQs
+        - link "MA-D616 - 56015 Stellenmarkt" [ref=e343] [cursor=pointer]:
+          - /url: https://www.rehau.jobs/?locale=de_DE
+          - generic:
+            - generic:
+              - generic:
+                - img "MA-D616 - 56015"
+            - generic: Stellenmarkt
+    - generic [ref=e345]:
+      - paragraph [ref=e347]: "Du suchst mehr? Dann starte Deine Karriere in einer unserer REHAU Gesellschaften durch:"
+      - generic [ref=e348]:
+        - generic [ref=e353]:
+          - paragraph [ref=e355]: Deine Karriere bei REHAU New Ventures
+          - paragraph [ref=e357]: REHAU New Ventures bietet Dir verschiedene Wege für den perfekten Start und die perfekte Entwicklung Deiner beruflichen Laufbahn an.
+          - paragraph [ref=e358]:
+            - link "Jetzt informieren und bewerben " [ref=e359] [cursor=pointer]:
+              - /url: https://www.rehau-newventures.com/de-de/karriere-bei-rehau-new-ventures
+        - text: 
+  - link "" [ref=e361] [cursor=pointer]:
+    - /url: "#"
+  - generic [ref=e364]:
+    - paragraph [ref=e365]: Engineering progress
+    - paragraph [ref=e366]: Enhancing lives
+  - contentinfo [ref=e367]:
+    - generic [ref=e370]:
+      - generic [ref=e371]:
+        - paragraph [ref=e372]: Weitere Links
+        - list [ref=e373]:
+          - listitem [ref=e374]:
+            - link "News" [ref=e375] [cursor=pointer]:
+              - /url: /de-de/news
+          - listitem [ref=e376]:
+            - link "Referenzen" [ref=e377] [cursor=pointer]:
+              - /url: /de-de/service/reference/124792
+          - listitem [ref=e378]:
+            - link "Downloads" [ref=e379] [cursor=pointer]:
+              - /url: /de-de/service/download/82020
+          - listitem [ref=e380]:
+            - link "Liefer- und Zahlungsbedingungen" [ref=e381] [cursor=pointer]:
+              - /url: /de-de/liefer-und-zahlungsbedingungen
+          - listitem [ref=e382]:
+            - link "REHAU Verkaufsbüros" [ref=e383] [cursor=pointer]:
+              - /url: /de-de/rehau-verkaufsbuero
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - paragraph [ref=e388]:
+            - link "Verwaltung Rehau REHAU Industries SE & Co. KG Rheniumhaus, Helmut-Wagner-Str. 1 95111 Rehau Deutschland" [ref=e389] [cursor=pointer]:
+              - /url: https://www.google.de/maps/place/Rehau+AG+%2B+Co+(Rheniumhaus)/@50.2476439,12.0249982,15z/data=!4m5!3m4!1s0x0:0x8c345fb70f882db2!8m2!3d50.24802!4d12.02462?hl=de
+              - text: Verwaltung RehauREHAU Industries SE & Co. KGRheniumhaus, Helmut-Wagner-Str. 195111 RehauDeutschland
+          - paragraph [ref=e390]:
+            - link "0 92 83 / 77 0" [ref=e391] [cursor=pointer]:
+              - /url: tel:09283770
+        - generic [ref=e392]:
+          - paragraph [ref=e393]:
+            - link "Verwaltung Erlangen REHAU Industries SE & Co. KG Ytterbium 4 91058 Erlangen Deutschland" [ref=e394] [cursor=pointer]:
+              - /url: https://www.google.de/maps/place/Rehau+AG+%2B+Co/@49.5438302,10.9861072,15z/data=!4m5!3m4!1s0x0:0x35cbe315aa7b7a2e!8m2!3d49.5438302!4d10.9861072
+              - text: Verwaltung ErlangenREHAU Industries SE & Co. KGYtterbium 491058 ErlangenDeutschland
+          - paragraph [ref=e395]:
+            - link "0 91 31 / 92 50" [ref=e396] [cursor=pointer]:
+              - /url: tel:091319250
+      - generic [ref=e398]:
+        - list [ref=e399]:
+          - listitem [ref=e400]:
+            - link "" [ref=e401] [cursor=pointer]:
+              - /url: https://www.facebook.com/rehaugroup
+          - listitem [ref=e403]:
+            - link "" [ref=e404] [cursor=pointer]:
+              - /url: http://www.youtube.com/rehautv
+          - listitem [ref=e406]:
+            - link "" [ref=e407] [cursor=pointer]:
+              - /url: http://twitter.com/REHAU_Group
+          - listitem [ref=e409]:
+            - link "" [ref=e410] [cursor=pointer]:
+              - /url: https://www.instagram.com/rehaudeutschland
+          - listitem [ref=e412]:
+            - link "" [ref=e413] [cursor=pointer]:
+              - /url: http://www.linkedin.com/company/rehau
+          - listitem [ref=e415]:
+            - link "" [ref=e416] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/rehau-group
+        - list [ref=e418]:
+          - listitem [ref=e419]:
+            - link [ref=e420] [cursor=pointer]:
+              - /url: https://apps.apple.com/de/developer/rehau-ag-co/id384888586
+          - listitem [ref=e421]:
+            - link [ref=e422] [cursor=pointer]:
+              - /url: https://play.google.com/store/search?q=rehau%20ag&c=apps&gl=DE
+    - generic [ref=e425]:
+      - list [ref=e427]:
+        - listitem [ref=e428]:
+          - link "Über uns" [ref=e429] [cursor=pointer]:
+            - /url: /de-de/ueber-uns
+        - listitem [ref=e430]:
+          - link "Karriere" [ref=e431] [cursor=pointer]:
+            - /url: /de-de/karriere
+        - listitem [ref=e432]:
+          - link "Einkauf" [ref=e433] [cursor=pointer]:
+            - /url: https://www.rehau.de/einkauf
+        - listitem [ref=e434]:
+          - link "Presse" [ref=e435] [cursor=pointer]:
+            - /url: /de-de/presse
+        - listitem [ref=e436]:
+          - link "Impressum" [ref=e437] [cursor=pointer]:
+            - /url: /de-de/impressum
+        - listitem [ref=e438]:
+          - link "Datenschutz" [ref=e439] [cursor=pointer]:
+            - /url: /de-de/datenschutz-informationen
+        - listitem [ref=e440]:
+          - link "Compliance" [ref=e441] [cursor=pointer]:
+            - /url: /de-de/compliance
+        - listitem [ref=e442]:
+          - link "Hinweisgebersystem" [ref=e443] [cursor=pointer]:
+            - /url: /de-de/hinweisgebersystem
+      - generic [ref=e445]:
+        - combobox [ref=e446] [cursor=pointer]:
+          - option "Ihr Land" [disabled] [selected]
+          - option "Albania"
+          - option "Algeria"
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Azerbaijan"
+          - option "Belarus"
+          - option "Belgium"
+          - option "Belize"
+          - option "Bosnia-Herz."
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Costa Rica"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Dominican Republic"
+          - option "El Salvador"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Georgia"
+          - option "Germany"
+          - option "Greece"
+          - option "Guatemala"
+          - option "Honduras"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India"
+          - option "Indonesia"
+          - option "Ireland"
+          - option "Israel"
+          - option "Italy"
+          - option "Jamaica"
+          - option "Japan"
+          - option "Kazakhstan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Luxembourg"
+          - option "Macedonia"
+          - option "Malaysia"
+          - option "Mexico"
+          - option "Middle East"
+          - option "Moldavia"
+          - option "Montenegro"
+          - option "Morocco"
+          - option "New Zealand"
+          - option "Netherlands"
+          - option "Nicaragua"
+          - option "Norway"
+          - option "Peru"
+          - option "Philippines"
+          - option "Poland"
+          - option "Portugal"
+          - option "REHAU Group"
+          - option "Romania"
+          - option "Serbia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain"
+          - option "Sweden"
+          - option "Switzerland"
+          - option "Thailand"
+          - option "Tunisia"
+          - option "Turkey"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "USA"
+          - option "Vietnam"
+        - text: 
+  - button [ref=e448] [cursor=pointer]:
+    - img "Cookies Einstellungen" [ref=e449]

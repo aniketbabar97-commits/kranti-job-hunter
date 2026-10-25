@@ -1,0 +1,248 @@
+- generic [ref=e6]:
+  - banner:
+    - generic [ref=e7]:
+      - link "Direkt zum Inhalt springen" [ref=e8] [cursor=pointer]:
+        - /url: "#main"
+      - link "Direkt zur Fußzeile springen" [ref=e14] [cursor=pointer]:
+        - /url: "#footer"
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - link "Logo dmTECH, zurück zur Startseite dmTECH Logo" [ref=e23] [cursor=pointer]:
+            - /url: /de/
+            - generic [ref=e24]: Logo dmTECH, zurück zur Startseite
+            - img "dmTECH Logo" [ref=e25]
+          - navigation "Haupt" [ref=e26]:
+            - list [ref=e27]:
+              - listitem [ref=e28]:
+                - button "Öffne das Menu für Über uns" [ref=e30] [cursor=pointer]: Über uns
+              - listitem [ref=e37]:
+                - button "Öffne das Menu für Deine Möglichkeiten" [ref=e39] [cursor=pointer]: Deine Möglichkeiten
+              - listitem [ref=e46]:
+                - link "Blog" [ref=e48] [cursor=pointer]:
+                  - /url: /de/insights-stories/
+              - listitem [ref=e50]:
+                - link "Events" [ref=e52] [cursor=pointer]:
+                  - /url: /de/events-meetups/events/
+        - generic [ref=e54]:
+          - button "User" [ref=e56] [cursor=pointer]
+          - button [ref=e59] [cursor=pointer]
+          - button "Open Language Flyout" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: DE
+          - link "Jobs" [ref=e74] [cursor=pointer]:
+            - /url: /de/job-listing/
+  - main [ref=e77]:
+    - generic [ref=e78]:
+      - generic [ref=e80]:
+        - navigation "Job Schnell-" [ref=e86]:
+          - link "Zurück zur Jobübersicht" [ref=e88] [cursor=pointer]:
+            - /url: /de/job-listing/
+          - generic:
+            - generic:
+              - button
+        - generic [ref=e96]:
+          - heading "Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [level=1] [ref=e98]
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - term [ref=e102]:
+                  - generic [ref=e103]: Ort der Stelle
+                - definition [ref=e107]: Am dm-Platz 1 76227 Karlsruhe
+              - generic [ref=e108]:
+                - term [ref=e109]:
+                  - generic [ref=e110]: Art der Stelle
+                - definition [ref=e115]: Vollzeit 37,5 Std./Wo., ab sofort
+              - generic [ref=e116]:
+                - term [ref=e117]:
+                  - generic [ref=e118]: Art der Stelle
+                - definition [ref=e122]: unbefristet
+              - generic [ref=e123]:
+                - term [ref=e124]:
+                  - generic [ref=e125]: vor Ort
+                - definition [ref=e130]: vor Ort
+            - button "Direkt bewerben bei Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Jetzt bewerben
+      - generic [ref=e137]:
+        - generic [ref=e139]:
+          - heading "Job Details" [level=2] [ref=e140]
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: Für monatlich 7 Millionen Kundinnen und Kunden, die unsere digitalen Touchpoints nutzen, tragen wir mit unseren digitalen Services maßgeblich zu einem modernen dm-Einkaufserlebnis bei. Mit rund 100 Millionen Sessions pro Monat und über 4.000 Filialen gestalten wir das Omnichannel-Shopping von morgen.
+            - paragraph [ref=e144]: Im Bereich Digital Commerce Experience verantworten wir die App, den Onlineshop und die Homepages von dm-drogerie markt in Deutschland sowie in weiteren dm-Ländern. In interdisziplinären, agilen Produktteams arbeiten wir eng zusammen, um unseren Kundinnen und Kunden bestmögliche Einkaufserlebnisse zu bieten.
+            - paragraph [ref=e145]: Für die Neu- und Weiterentwicklung unserer Systeme und Services suchen wir Software Engineers mit Schwerpunkt Backend – und der Bereitschaft, auch im Frontend mitzuwirken. Du begeisterst Dich für moderne Technologien, nutzt KI nicht nur als Werkzeug, sondern denkst aktiv mit, wie sie Softwareentwicklung verändert, und willst diesen Wandel gemeinsam mit uns gestalten? Dann freuen wir uns auf Deine Bewerbung!
+            - paragraph [ref=e146]: "Unser typischer Tech-Stack: Spring Boot Microservices | Java, Kotlin | TypeScript | React | RESTful APIs | Kafka | PostgreSQL | GCP | VMware Tanzu | GitLab CI | Datadog"
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list
+                - generic [ref=e147]: Slide 1 von 0
+        - generic [ref=e148]:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - list:
+                      - listitem
+                - generic [ref=e149]: Slide 1 von 1
+        - generic [ref=e151]:
+          - generic [ref=e153]:
+            - heading "Deine Aufgaben" [level=2] [ref=e154]
+            - list [ref=e156]:
+              - listitem [ref=e157]: Konzeption, Entwicklung und Betrieb von Backend-Services und APIs mit Schwerpunkt auf Aufbereitung von Produktdaten aus verschiedenen Quellsystemen und deren Ausspielung und Auslieferung an dm-App, Onlineshop und weitere digitale Touchpoints
+              - listitem [ref=e158]: Mitgestaltung der Software-Architektur und aktive Beteiligung an Technologieentscheidungen im Team
+              - listitem [ref=e159]: Sicherstellung von Performance, Verfügbarkeit, Skalierbarkeit und Security unserer Systeme
+              - listitem [ref=e160]: Sicherung der Codequalität durch Code-Reviews, Pair-Programming und automatisierte Tests
+              - listitem [ref=e161]: Enge Zusammenarbeit mit Consultants, Frontend-Entwicklern und anderen Produktteams
+              - listitem [ref=e162]: Bei Bedarf Mitarbeit im Team der Frontend-Entwicklung
+          - generic [ref=e164]:
+            - heading "Das bringst Du mit" [level=2] [ref=e165]
+            - list [ref=e167]:
+              - listitem [ref=e168]: Mehrjährige Erfahrung in der Backend-Entwicklung und mit event-getriebenen Architekturen, idealerweise mit Java oder Kotlin und Spring Boot
+              - listitem [ref=e169]: Fundiertes Verständnis von Microservices-Architekturen und RESTful APIs sowie Erfahrung mit cloud-gehosteten Systemen und CI/CD-Pipelines
+              - listitem [ref=e170]: Grundkenntnisse in Frontend-Technologien (z. B. TypeScript, React)
+              - listitem [ref=e171]: Agiles Mindset sowie eigenverantwortliches und lösungsorientiertes Arbeiten
+              - listitem [ref=e172]: Ausgeprägte Kommunikationsstärke und Teamgeist – du arbeitest gern im Team, bringst Ideen ein und holst andere ab
+              - listitem [ref=e173]: Fließende Deutsch- und Englischkenntnisse (mindestens C1)
+          - generic [ref=e175]:
+            - heading "Das bieten wir Dir" [level=2] [ref=e176]
+            - list [ref=e178]:
+              - listitem [ref=e179]:
+                - strong [ref=e180]: "Dialogische Unternehmenskultur:"
+                - text: Individuelle Stärken und Ideen unserer Mitarbeitenden sind das Fundament für die (Weiter-)Entwicklung unserer IT-Produkte. Dabei gehen wir offen mit neuen Technologien um, testen und nutzen dabei aktiv unsere Entscheidungsspielräume für ein optimales Ergebnis.
+              - listitem [ref=e181]:
+                - strong [ref=e182]: "Gesundheit & Vorsorge:"
+                - text: "Für Deine Vorsorge bieten wir unterschiedliche Zusatzleistungen für individuelle Bedürfnisse an: von einem Zuschuss zu Deiner betrieblichen Altersvorsorge, einer attraktiven Berufsunfähigkeitsversicherung über Angebote für Deine physische und psychische Gesundheit bis hin zu Kooperationen mit Krankenkassen oder Fitness-Studios und hausinternen Kursen für Dein Wohlbefinden. Ein betriebliches Sozialmanagement rundet das Angebot ab."
+              - listitem [ref=e183]:
+                - strong [ref=e184]: "Lernen bei dmTECH:"
+                - text: Die digitale dm-Lernwelt bietet Dir zeit- und ortsunabhängig über 250 Seminare und Workshops – vom Projektmanagement bis hin zu fachlichen Weiterbildungen. Du hast Zugang zur Lernplattform Udemy mit ihrem breit gefächerten Kursangebot und kannst zusätzlich an externen Events und Weiterbildungen teilnehmen.
+              - listitem [ref=e185]:
+                - strong [ref=e186]: "Für eine ausgewogene Work-Life-Balance:"
+                - text: flexible Arbeitszeiten, mobiles Arbeiten, 37,5-Stunden-Woche und 30 Urlaubstage. Bei einer „Workation“ kannst Du sogar Urlaub und Arbeit verbinden.
+              - listitem [ref=e187]:
+                - strong [ref=e188]: "Arbeitsatmosphäre:"
+                - text: Unsere Räume im „dialogicum" sind hell, großzügig und modern. Die neueste Technik und ergonomisches Mobiliar erleichtern Dir Deine Aufgaben. Im „culinarium" bieten wir Dir täglich frische Mahlzeiten, gesunde Snacks und süße Kleinigkeiten zum fairen Preis.
+              - listitem [ref=e189]:
+                - strong [ref=e190]: "Zusatzleistungen:"
+                - text: Den Erfolg unserer Arbeitsgemeinschaft geben wir gern an Dich zurück – mit Zulagen wie Urlaubs- und Weihnachtsgeld, mit Sonderzahlungen und Warengutscheinen. Du bekommst außerdem 10 % Mitarbeiterrabatt in allen deutschen dm-Märkten und profitierst in vielen Onlineshops von exklusiven Angeboten für dm-Mitarbeitende. Darüber hinaus kannst Du zweimal jährlich aktuelle Smartphones, Tablets oder Laptops für Deinen Privatgebrauch preiswert leasen.
+              - listitem [ref=e191]:
+                - strong [ref=e192]: "Mobilität:"
+                - text: Mit einem Zuschuss für das "Deutschlandticket Job" bist Du günstig unterwegs. Wenn Du lieber Fahrrad fährst, kannst Du auch das JobRad® nutzen. Auf unserem Gelände gibt es genügend Parkplätze, E-Ladestationen und eine Fahrradgarage. Eine S-Bahn-Station und der Anschluss zur Autobahn liegen in direkter Nähe.
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - heading "Das klingt nach einem Job für Dich? Dann freuen wir uns auf Deine Bewerbung." [level=2] [ref=e196]
+            - text: Bitte nenne uns in Deiner Bewerbung Deine Gehaltsvorstellung und Dein mögliches Eintrittsdatum.
+          - generic [ref=e197]:
+            - button "Direkt bewerben bei Backend Developer Onlineshop & dm-App - Java / Kotlin (w/m/d)" [ref=e198] [cursor=pointer]:
+              - generic [ref=e199]: Direkt online bewerben
+            - button [ref=e201] [cursor=pointer]:
+              - generic:
+                - button
+          - paragraph [ref=e202]: Aus Gründen der leichteren Lesbarkeit haben wir uns für die männliche Schreibweise entschieden. Die abgebildeten Inhalte richten sich aber zugleich an alle Geschlechter. Mit dieser Schreibweise wollen wir niemanden ausschließen, denn bei uns ist jede Person gleichermaßen willkommen und prägt unsere Arbeitsgemeinschaft mit ihrer Individualität.
+        - generic [ref=e204]:
+          - heading "Du hast Fragen zur Stellenausschreibung?" [level=2] [ref=e205]
+          - generic [ref=e207]:
+            - generic [ref=e209]:
+              - list:
+                - listitem
+            - generic [ref=e210]: Slide 1 von 1
+        - link [ref=e213] [cursor=pointer]:
+          - /url: https://kununu.com/de/dmtech?utm_medium=affiliate&utm_source=widget&utm_content=widget_icon_score_logo_small&rfr=affiliate_widget
+          - img "dmTECH bewertet mit 4,3 von 5 Sternen auf Kununu" [ref=e214]
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]: Fußzeile
+      - generic [ref=e220]:
+        - link "Nach oben scrollen" [ref=e222] [cursor=pointer]:
+          - /url: "#main"
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - img "dmTECH Logo" [ref=e231]
+            - generic [ref=e232]: 2026 © dmTECH GmbH
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - generic [ref=e235]: dmTECH
+              - navigation "dmTECH" [ref=e236]:
+                - list [ref=e237]:
+                  - listitem [ref=e238]:
+                    - link "Über uns" [ref=e239] [cursor=pointer]:
+                      - /url: /de/ueber-uns/
+                  - listitem [ref=e240]:
+                    - link "Unsere Kultur" [ref=e241] [cursor=pointer]:
+                      - /url: /de/ueber-uns/unternehmenskultur/
+                  - listitem [ref=e242]:
+                    - link "Blog" [ref=e243] [cursor=pointer]:
+                      - /url: /de/insights-stories/
+                  - listitem [ref=e244]:
+                    - link "Events" [ref=e245] [cursor=pointer]:
+                      - /url: /de/events-meetups/events/
+            - generic [ref=e246]:
+              - generic [ref=e247]: Dein Einstieg
+              - navigation "Dein Einstieg" [ref=e248]:
+                - list [ref=e249]:
+                  - listitem [ref=e250]:
+                    - link "Ausbildung" [ref=e251] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/ausbildung/
+                  - listitem [ref=e252]:
+                    - link "Duales Studium" [ref=e253] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/duales-studium/
+                  - listitem [ref=e254]:
+                    - link "Werkstudium & Praktikum" [ref=e255] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/praktikum-werkstudium/
+                  - listitem [ref=e256]:
+                    - link "StudiumPLUS" [ref=e257] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/studiumplus/
+                  - listitem [ref=e258]:
+                    - link "(Young) Professionals/Berufseinsteiger & Berufserfahrene" [ref=e259] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/young-professionals/
+                  - listitem [ref=e260]:
+                    - link "Schulkooperationen & Schülerpraktikum" [ref=e261] [cursor=pointer]:
+                      - /url: /de/einstiegsmoeglichkeiten/schulkooperationen-schuelerpraktikum/
+            - generic [ref=e262]:
+              - generic [ref=e263]: Bewerben
+              - navigation "Bewerben" [ref=e264]:
+                - list [ref=e265]:
+                  - listitem [ref=e266]:
+                    - link "Offene Stellen" [ref=e267] [cursor=pointer]:
+                      - /url: /de/job-listing/
+                  - listitem [ref=e268]:
+                    - link "Dein Bewerberprofil" [ref=e269] [cursor=pointer]:
+                      - /url: /de/profile
+                  - listitem [ref=e270]:
+                    - link "Bewerbungstipps" [ref=e271] [cursor=pointer]:
+                      - /url: /de/bewerbungstipps/
+      - generic [ref=e273]:
+        - navigation "Social Media Links" [ref=e274]:
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - link "Zum github-Profil vom dmTECH" [ref=e277] [cursor=pointer]:
+                - /url: https://github.com/dm-drogeriemarkt
+            - listitem [ref=e283]:
+              - link "Zum linkedin-Profil vom dmTECH" [ref=e284] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/dmtech-gmbh/
+            - listitem [ref=e290]:
+              - link "Zum instagram-Profil vom dmTECH" [ref=e291] [cursor=pointer]:
+                - /url: https://www.instagram.com/dmtech_deutschland/?hl=de
+            - listitem [ref=e297]:
+              - link "Zum youtube-Profil vom dmTECH" [ref=e298] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PL2UiZ2JNBFfFL6_hfQXKfX2LKAB55FcBL
+        - navigation "Spracheinstellungen" [ref=e305]:
+          - list [ref=e307]:
+            - listitem [ref=e308]:
+              - button "DE" [ref=e309] [cursor=pointer]
+        - navigation "Rechtliches" [ref=e317]:
+          - list [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Kontakt" [ref=e321] [cursor=pointer]:
+                - /url: /de/kontakt/
+            - listitem [ref=e322]:
+              - link "Impressum" [ref=e323] [cursor=pointer]:
+                - /url: /de/impressum/
+            - listitem [ref=e324]:
+              - link "Datenschutz" [ref=e325] [cursor=pointer]:
+                - /url: /de/datenschutzerklaerung/
+            - listitem [ref=e326]:
+              - link "Information zur Barrierefreiheit" [ref=e327] [cursor=pointer]:
+                - /url: /de/barrierefreiheitserklaerung/
+            - listitem [ref=e328]:
+              - button "Cookie-Einstellungen" [ref=e329] [cursor=pointer]

@@ -1,0 +1,203 @@
+- generic [active] [ref=f2e1]:
+  - dialog "cookieconsent" [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - text: Um Ihnen einen bestmöglichen Service zu bieten und die Verwendung mancher Funktionen zu erleichtern, verwenden wir Cookies. Mit der Nutzung dieser Seite erklären Sie sich mit der Verwendung von Cookies einverstanden. Die Einwilligung kann jeder Zeit mit Wirkung für die Zukunft widerrufen werden. Mehr Informationen darüber, welche Daten gespeichert werden, erhalten Sie
+      - button "hier." [ref=f2e4] [cursor=pointer]
+    - generic [ref=f2e5]:
+      - button "allow cookies" [ref=f2e6] [cursor=pointer]: Ja, ich bin einverstanden
+      - generic [ref=f2e7]:
+        - button "choose cookies" [ref=f2e8] [cursor=pointer]: Cookies anpassen
+        - button "deny cookies" [ref=f2e9] [cursor=pointer]: Ablehnen
+  - generic [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - link [ref=f2e13] [cursor=pointer]:
+        - /url: /de
+        - img "Logo" [ref=f2e14]
+      - generic [ref=f2e15]:
+        - list [ref=f2e17]:
+          - listitem [ref=f2e18]: Deutsch|
+          - listitem [ref=f2e19]:
+            - link "Englisch" [ref=f2e20] [cursor=pointer]:
+              - /url: /Digital-Product-Owner-mwd-eng-f1051.html
+        - list [ref=f2e23]:
+          - listitem [ref=f2e24]:
+            - link "Stellenangebote" [ref=f2e25] [cursor=pointer]:
+              - /url: https://karriere.huber.de/stellenangebote.html
+          - listitem [ref=f2e26]:
+            - link "Perspektiven" [ref=f2e27] [cursor=pointer]:
+              - /url: https://karriere.huber.de/arbeitgeber.html
+          - listitem [ref=f2e28]:
+            - link "Ausbildung & Praktikum" [ref=f2e29] [cursor=pointer]:
+              - /url: https://karriere.huber.de/ausbildung-and-praktikum.html
+          - listitem [ref=f2e30]:
+            - link "FAQ" [ref=f2e31] [cursor=pointer]:
+              - /url: https://karriere.huber.de/faq.html
+    - generic [ref=f2e35]:
+      - generic [ref=f2e37]:
+        - heading "Digital Product Owner (m/w/d)" [level=1] [ref=f2e38]
+        - paragraph [ref=f2e39]: Über den Upload-Button können Sie Ihre Unterlagen (Lebenslauf etc.) hochladen. Dabei ordnet unsere automatische Erkennung Ihre Stammdaten automatisch den richtigen Formularfeldern zu. Bitte prüfen Sie Ihre Daten vor dem Absenden und beachten Sie, dass die mit * markierten Felder Pflichtfelder darstellen. Außerdem finden Sie hinter dem Zeichen hilfreiche Informationen und Tipps. Wir freuen uns auf Ihre Bewerbung!
+        - generic [ref=f2e40]:
+          - generic [ref=f2e41]:
+            - generic [ref=f2e44] [cursor=pointer]:
+              - button "Choose File" [ref=f2e45]
+              - link "Lebenslauf hochladen" [ref=f2e46]:
+                - /url: "javascript: void(0);"
+            - link "Mit finest jobs-Profil bewerben" [ref=f2e49] [cursor=pointer]:
+              - /url: javascript:void(0);
+          - text: ✓
+        - generic [ref=f2e51]:
+          - group "Stammdaten" [ref=f2e53]:
+            - generic [ref=f2e56]:
+              - generic [ref=f2e57]:
+                - generic [ref=f2e58]:
+                  - generic [ref=f2e59]: Geschlecht *
+                  - combobox "Geschlecht" [ref=f2e61] [cursor=pointer]:
+                    - generic [ref=f2e62]: 
+                    - generic [ref=f2e63]: "---"
+                - generic [ref=f2e64]:
+                  - generic [ref=f2e65]: Vorname *
+                  - textbox "Vorname *" [ref=f2e67]: Kranti
+              - generic [ref=f2e68]:
+                - generic [ref=f2e69]:
+                  - generic [ref=f2e70]: Nachname *
+                  - textbox "Nachname *" [ref=f2e72]: Chavan
+                - generic [ref=f2e73]:
+                  - generic [ref=f2e74]: Straße *
+                  - textbox "Straße *" [ref=f2e76]: Blücherstraße 6
+              - generic [ref=f2e77]:
+                - generic [ref=f2e78]:
+                  - generic [ref=f2e79]: PLZ *
+                  - textbox "PLZ *" [ref=f2e81]: "76185"
+                - generic [ref=f2e82]:
+                  - generic [ref=f2e83]: Ort *
+                  - textbox "Ort *" [ref=f2e85]: Karlsruhe
+              - generic [ref=f2e86]:
+                - generic [ref=f2e87]:
+                  - generic [ref=f2e88]: Geburtsdatum (TT.MM.JJJJ) *
+                  - textbox "Geburtsdatum (TT.MM.JJJJ) *" [ref=f2e90]: 14.10.1997
+                - generic [ref=f2e91]:
+                  - generic [ref=f2e92]: Telefon *
+                  - textbox "Telefon *" [ref=f2e94]: +49 15750174177
+              - generic [ref=f2e96]:
+                - generic [ref=f2e97]: E-Mail *
+                - textbox "E-Mail *" [ref=f2e99]: krantichavan198@gmail.com
+          - group "Sonstiges" [ref=f2e101]:
+            - generic [ref=f2e104]:
+              - generic [ref=f2e106]:
+                - generic [ref=f2e107]: Deutschkenntnisse
+                - combobox "Deutschkenntnisse" [ref=f2e109] [cursor=pointer]:
+                  - generic [ref=f2e110]: 
+                  - generic [ref=f2e111]: "---"
+              - generic [ref=f2e112]:
+                - generic [ref=f2e113]:
+                  - generic [ref=f2e114]:
+                    - text: Gehaltswunsch (EUR/Jahr)
+                    - img "Sie können uns hier gerne freiwillig Ihren Gehaltswunsch mitteilen. Bitte geben Sie dabei Ihre gewünschte Jahresvergütung als Bruttobetrag an." [ref=f2e116]
+                  - textbox "Gehaltswunsch (EUR/Jahr) Sie können uns hier gerne freiwillig Ihren Gehaltswunsch mitteilen. Bitte geben Sie dabei Ihre gewünschte Jahresvergütung als Bruttobetrag an." [ref=f2e118]: "60000"
+                - generic [ref=f2e119]:
+                  - generic [ref=f2e120]:
+                    - text: Wie haben Sie uns gefunden? *
+                    - img "Bitte wählen Sie eine der aufgeführten Optionen." [ref=f2e122]
+                  - combobox "Wie haben Sie uns gefunden?" [ref=f2e124] [cursor=pointer]:
+                    - generic [ref=f2e125]: 
+                    - generic [ref=f2e126]: "---"
+          - group "Telekommunikation" [ref=f2e128]:
+            - generic [ref=f2e133]:
+              - generic [ref=f2e134]: Kommunikation via WhatsApp *
+              - combobox "Kommunikation via WhatsApp" [ref=f2e136] [cursor=pointer]:
+                - generic [ref=f2e137]: 
+                - generic [ref=f2e138]: "---"
+          - generic [ref=f2e139]:
+            - generic [ref=f2e140]: Anlagen
+            - generic [ref=f2e142]:
+              - generic [ref=f2e143]:
+                - generic [ref=f2e144]:
+                  - generic [ref=f2e145]: Foto
+                  - generic [ref=f2e146]:
+                    - generic "Foto hochladen" [ref=f2e148]:
+                      - generic [ref=f2e149]:
+                        - button "Foto" [ref=f2e150] [cursor=pointer]
+                        - generic [ref=f2e151]:
+                          - generic [ref=f2e152]: 
+                          - generic [ref=f2e154]: Datei hochladen
+                    - text: ❌
+                - generic [ref=f2e156]:
+                  - generic [ref=f2e157]: Motivationsschreiben / Komplette Unterlagen
+                  - generic [ref=f2e158]:
+                    - text:  
+                    - generic [ref=f2e246]:
+                      - link "❌" [ref=f2e247] [cursor=pointer]:
+                        - /url: javascript:del.delatt('anschreiben','1051','0');void(0);
+                      - link "Kranti_Chavan_Cove...er.pdf" [ref=f2e250] [cursor=pointer]:
+                        - /url: https://karriere.huber.de/Anlage-ansehen-dsa0.php?type=anschreiben&joboffer_id=1051&application_id=0&atthash=63f3fdd78bd1cd3f8ceb68d89cf4cd73
+              - generic [ref=f2e170]:
+                - generic [ref=f2e171]:
+                  - generic [ref=f2e172]: Lebenslauf
+                  - generic [ref=f2e173]:
+                    - generic "Lebenslauf hochladen" [ref=f2e175]:
+                      - generic [ref=f2e176]:
+                        - button "Lebenslauf" [ref=f2e177] [cursor=pointer]
+                        - generic [ref=f2e178]:
+                          - generic [ref=f2e179]: 
+                          - generic [ref=f2e181]: Datei hochladen
+                    - text: ❌
+                - generic [ref=f2e183]:
+                  - generic [ref=f2e184]: letztes Arbeitgeberzeugnis
+                  - generic [ref=f2e185]:
+                    - generic "letztes Arbeitgeberzeugnis hochladen" [ref=f2e187]:
+                      - generic [ref=f2e188]:
+                        - button "letztes Arbeitgeberzeugnis" [ref=f2e189] [cursor=pointer]
+                        - generic [ref=f2e190]:
+                          - generic [ref=f2e191]: 
+                          - generic [ref=f2e193]: Datei hochladen
+                    - text: ❌
+              - generic [ref=f2e195]:
+                - generic [ref=f2e196]:
+                  - generic [ref=f2e197]: sonstige Zertifikate
+                  - generic [ref=f2e198]:
+                    - generic "sonstige Zertifikate hochladen" [ref=f2e200]:
+                      - generic [ref=f2e201]:
+                        - button "sonstige Zertifikate" [ref=f2e202] [cursor=pointer]
+                        - generic [ref=f2e203]:
+                          - generic [ref=f2e204]: 
+                          - generic [ref=f2e206]: Datei hochladen
+                    - text: ❌
+                - generic [ref=f2e208]:
+                  - generic [ref=f2e209]: weitere Dokumente
+                  - generic [ref=f2e210]:
+                    - generic "weitere Dokumente hochladen" [ref=f2e212]:
+                      - generic [ref=f2e213]:
+                        - button "weitere Dokumente" [ref=f2e214] [cursor=pointer]
+                        - generic [ref=f2e215]:
+                          - generic [ref=f2e216]: 
+                          - generic [ref=f2e218]:
+                            - generic [ref=f2e219]: Datei hochladen
+                            - generic "Hier können Sie gerne weitere Dokumente zu Ihrer Bewerbung hochladen. Sollten Ihnen die Anlagefelder nicht ausreichen, kontaktieren Sie uns bitte unter personal@huber.de" [ref=f2e221]: 
+                    - text: ❌
+        - generic [ref=f2e224] [cursor=pointer]:
+          - text: Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der
+          - link "»Datenschutzrichtlinien«" [ref=f2e225]:
+            - /url: https://karriere.huber.de/datenschutz.html
+          - text: .
+      - generic [ref=f2e226]:
+        - link "Zur Anzeige" [ref=f2e228] [cursor=pointer]:
+          - /url: https://karriere.huber.de/Digital-Product-Owner-mwd-de-j1051.html
+        - link "Senden" [ref=f2e230] [cursor=pointer]:
+          - /url: "#"
+      - generic [aria-hidden] [ref=f2e231]:
+        - text: Website
+        - textbox [ref=f2e232]
+    - generic [ref=f2e235]:
+      - link "Datenschutz" [ref=f2e236] [cursor=pointer]:
+        - /url: https://karriere.huber.de/datenschutz.html
+      - link "Impressum" [ref=f2e237] [cursor=pointer]:
+        - /url: https://karriere.huber.de/impressum.html
+      - generic [ref=f2e238]:
+        - link "" [ref=f2e239] [cursor=pointer]:
+          - /url: https://www.facebook.com/huber.de
+        - link "" [ref=f2e240] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/HuberTechnology
+  - log [ref=f2e241]
+  - log [ref=f2e242]
+  - log [ref=f2e243]
+  - log [ref=f2e244]

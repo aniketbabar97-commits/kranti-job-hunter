@@ -1,0 +1,78 @@
+- generic [ref=e1]:
+  - generic [ref=e9]:
+    - complementary [ref=e10]:
+      - generic [ref=e11]:
+        - button "Zum Hauptinhalt springen"
+        - img "Einhell Germany AG" [ref=e17]
+        - heading "SAP Consultant Sales (m/w/d)" [level=1] [ref=e83]
+      - generic [ref=e18]:
+        - heading "In drei einfachen Schritten zum Traumjob" [level=2] [ref=e84]
+        - list [ref=e20]:
+          - listitem [ref=e21]:
+            - button "1 Lebenslauf" [ref=e22] [cursor=pointer]:
+              - generic [ref=e23]: "1"
+              - generic [ref=e24]: Lebenslauf
+          - listitem [ref=e25]:
+            - button "2 Persönliche Angaben" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: "2"
+              - generic [ref=e28]: Persönliche Angaben
+          - listitem [ref=e85]:
+            - button "3 Zusätzliche Fragen" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: "3"
+              - generic [ref=e88]: Zusätzliche Fragen
+    - main [ref=e29]:
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e34]:
+            - generic [ref=e35]:
+              - heading "Lebenslauf und Anhänge" [level=2] [ref=e36]
+              - paragraph [ref=e37]: Bitte eine Option wählen und Lebenslauf hochladen:*
+            - generic [ref=e39]:
+              - generic "Lebenslauf hochladen" [ref=e40]:
+                - generic [ref=e41] [cursor=pointer]:
+                  - generic [ref=e42]: Dokument
+                  - button "Hochgeladenen Lebenslauf entfernen" [ref=e98]
+              - button "Mit XING-Profil bewerben" [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]: XING
+          - generic [ref=e48]:
+            - generic [ref=e111]:
+              - paragraph [ref=e112]: Bereits hochgeladene Anhänge
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e119]: Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf
+                  - generic [ref=e120]:
+                    - button "Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e122] [cursor=pointer]:
+                      - generic [ref=e123]: Vorschau
+                    - button "Kranti_Chavan_CV_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e124] [cursor=pointer]
+                - generic [ref=e128]:
+                  - generic [ref=e133]: Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf
+                  - generic [ref=e134]:
+                    - button "Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e136] [cursor=pointer]:
+                      - generic [ref=e137]: Vorschau
+                    - button "Kranti_Chavan_Cover_Letter_Einhell-Germany_SAP-Consultant-Sales.pdf" [ref=e138] [cursor=pointer]
+            - generic [active] [ref=e50] [cursor=pointer]: Weitere Anhänge (z.B. Zeugnisse oder Zertifikate)
+        - generic [ref=e60]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - textbox "Anschreiben (optional)" [ref=e64]
+              - generic: Anschreiben (optional)
+            - generic [ref=e65]: Alternativ kann das Anschreiben als Anhang hochgeladen werden.
+          - button "zum nächsten Schritt" [ref=e67] [cursor=pointer]
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - link "Impressum" [ref=e90] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/imprint
+        - link "Datenschutz" [ref=e92] [cursor=pointer]:
+          - /url: https://einhell.softgarden.io/data-security
+        - link "Machine-readable job feed (JSON)" [ref=e94] [cursor=pointer]:
+          - /url: ../jobs.feed.json
+      - link "powered by softgarden" [ref=e76] [cursor=pointer]:
+        - /url: https://softgarden.com/
+    - status [ref=e79]:
+      - generic [ref=e80]: Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen!
+      - paragraph [ref=e81]: Eine Bestätigungs-E-Mail wird in Kürze versendet.
+  - alert [ref=e82]
+  - 'tooltip "Folgenden Dateitypen sind zulässig: .pdf, .jpg, .jpeg, .gif, .png, .bmp, .tif, .tiff, .doc, .ppt, .pps, .docx, .pptx, .ppsx, .odt, .rtf, .odp, .txt. Die Größe der hochgeladenen Datei sollte 10 MB nicht überschreiten."'
+  - complementary "Cookie-Zustimmung ändern" [ref=e95]:
+    - button "Cookie-Zustimmung ändern" [ref=e96] [cursor=pointer]:
+      - img "Cookie-Zustimmung ändern" [ref=e97]

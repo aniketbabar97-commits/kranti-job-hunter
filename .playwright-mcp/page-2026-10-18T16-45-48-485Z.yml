@@ -1,0 +1,46 @@
+- generic [ref=f10e2]:
+  - navigation [ref=f10e6]:
+    - generic [ref=f10e7]:
+      - link [ref=f10e8] [cursor=pointer]:
+        - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+        - img "Company Logo" [ref=f10e9]
+      - button "Toggle navigation" [ref=f10e10] [cursor=pointer]
+  - generic [ref=f10e20]:
+    - generic [ref=f10e21]:
+      - paragraph [ref=f10e23]: Digital Product Manager (m/f/d) Webshop & Digital Tools
+      - paragraph [ref=f10e25]: Die mit * gekennzeichneten Felder sind Pflichtfelder.
+      - generic [ref=f10e26]:
+        - paragraph [ref=f10e28]: Datenschutzbestimmungen
+        - generic [ref=f10e31]:
+          - checkbox "Ich habe die Datenschutzbestimmungen gelesen und akzeptiere sie.*" [checked] [ref=f10e32]
+          - generic [ref=f10e33]:
+            - generic [ref=f10e34]:
+              - text: Ich habe die
+              - link "Datenschutzbestimmungen" [ref=f10e35] [cursor=pointer]:
+                - /url: showJobExchangeDataPrivacyTermsDocument.do?documentMetaDataId=8a7082829628868a019680a1daa51d0c
+              - text: gelesen und akzeptiere sie.
+            - text: "*"
+        - generic [ref=f10e38]:
+          - checkbox "Ich bin mit der Aufnahme in den Bewerberpool sowie der internen Weiterleitung meiner Bewerbungsunterlagen zur Prüfung für andere offene Stellen einverstanden. (Weitere Informationen)" [checked] [active] [ref=f10e39]
+          - paragraph [ref=f10e42]:
+            - text: Ich bin mit der Aufnahme in den Bewerberpool sowie der internen Weiterleitung meiner Bewerbungsunterlagen zur Prüfung für andere offene Stellen einverstanden. (
+            - link "Weitere Informationen" [ref=f10e43] [cursor=pointer]:
+              - /url: /engage/jobexchange/streamResource.do/5177524839851897/styles/jobexchange/walha_jex/Ensinger_Datenschutzhinweise_Bewerberpool_20250203.pdf
+            - text: )
+    - button "Weiter" [ref=f10e47] [cursor=pointer]
+    - generic [ref=f10e48]: Seite 1 von 2
+  - contentinfo [ref=f10e51]:
+    - paragraph [ref=f10e53]: © Ensinger
+    - list [ref=f10e55]:
+      - listitem [ref=f10e56]:
+        - link "Datenschutzerklärung" [ref=f10e57] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+      - listitem [ref=f10e58]:
+        - link "Impressum" [ref=f10e59] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/impressum
+      - listitem [ref=f10e60]:
+        - link "Allgemeine Geschäftsbedingungen" [ref=f10e61] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+      - listitem [ref=f10e62]:
+        - link "Cookie-Einstellungen" [ref=f10e63] [cursor=pointer]:
+          - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

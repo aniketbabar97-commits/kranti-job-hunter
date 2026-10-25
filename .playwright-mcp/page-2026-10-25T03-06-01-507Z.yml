@@ -1,0 +1,167 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e9]:
+    - complementary [ref=f2e10]:
+      - generic [ref=f2e11]:
+        - button "Zum Hauptinhalt springen"
+        - img "Schäfer Shop Group GmbH & Co. KG" [ref=f2e17]
+        - heading "(Senior) Software-Architekt (m/w/d)" [level=1] [ref=f2e98]
+      - generic [ref=f2e18]:
+        - heading "In drei einfachen Schritten zum Traumjob" [level=2] [ref=f2e99]
+        - list [ref=f2e20]:
+          - listitem [ref=f2e21]:
+            - button "1 Lebenslauf" [ref=f2e22] [cursor=pointer]:
+              - generic [ref=f2e23]: "1"
+              - generic [ref=f2e24]: Lebenslauf
+          - listitem [ref=f2e25]:
+            - button "2 Persönliche Angaben" [ref=f2e26] [cursor=pointer]:
+              - generic [ref=f2e27]: "2"
+              - generic [ref=f2e28]: Persönliche Angaben
+          - listitem [ref=f2e100]:
+            - button "3 Zusätzliche Fragen" [ref=f2e101] [cursor=pointer]:
+              - generic [ref=f2e102]: "3"
+              - generic [ref=f2e103]: Zusätzliche Fragen
+    - main [ref=f2e29]:
+      - generic [ref=f2e30]:
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]:
+            - generic [ref=f2e34]:
+              - generic [ref=f2e35]:
+                - heading "Lebenslauf und Anhänge" [level=2] [ref=f2e36]
+                - paragraph [ref=f2e37]: "Bitte eine Option wählen und Lebenslauf hochladen:"
+              - generic [ref=f2e39]:
+                - generic "Lebenslauf hochladen" [ref=f2e40]:
+                  - generic [ref=f2e41] [cursor=pointer]:
+                    - generic [ref=f2e42]: Dokument
+                    - button "Hochgeladenen Lebenslauf entfernen" [ref=f2e112]
+                - generic [ref=f2e105] [cursor=pointer]:
+                  - iframe
+                - button "Mit XING-Profil bewerben" [ref=f2e53] [cursor=pointer]:
+                  - generic [ref=f2e54]: XING
+            - generic [ref=f2e60]:
+              - generic [ref=f2e116]:
+                - paragraph [ref=f2e117]: Bereits hochgeladene Anhänge
+                - generic [ref=f2e118]:
+                  - generic [ref=f2e119]:
+                    - generic [ref=f2e124]: Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf
+                    - generic [ref=f2e125]:
+                      - button "Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e127] [cursor=pointer]:
+                        - generic [ref=f2e128]: Vorschau
+                      - button "Kranti_Chavan_CV_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e129] [cursor=pointer]
+                  - generic [ref=f2e133]:
+                    - generic [ref=f2e138]: Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf
+                    - generic [ref=f2e139]:
+                      - button "Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e141] [cursor=pointer]:
+                        - generic [ref=f2e142]: Vorschau
+                      - button "Kranti_Chavan_Cover_Letter_Schäfer-Shop-Group_Software-Architekt.pdf" [ref=f2e143] [cursor=pointer]
+              - generic [ref=f2e61]: Weitere Anhänge (z.B. Zeugnisse oder Zertifikate)
+          - generic [ref=f2e72]:
+            - generic [ref=f2e74]:
+              - generic [ref=f2e75]:
+                - textbox "Anschreiben (optional)" [ref=f2e76]: Schäfer Shop is one of Europe's leading B2B office suppliers, with a commerce platform at the heart of the business and a home-office set-up. I want to bring five years of enterprise commerce engineering – Java, microservices, APIs, PIM/ERP integration and performance tuning for Rockwell Automation and Shell – to shaping its architecture.
+                - generic: Anschreiben (optional)
+              - generic [ref=f2e77]: Alternativ kann das Anschreiben als Anhang hochgeladen werden.
+            - button "zum nächsten Schritt" [ref=f2e79] [cursor=pointer]
+        - generic [ref=f2e148]:
+          - heading "Persönliche Angaben" [level=2] [ref=f2e149]
+          - generic [ref=f2e150]:
+            - generic [ref=f2e153]:
+              - textbox "Vorname*" [ref=f2e154]: Kranti
+              - generic: Vorname*
+            - generic [ref=f2e157]:
+              - textbox "Nachname*" [ref=f2e158]: Chavan
+              - generic: Nachname*
+          - generic [ref=f2e162]:
+            - textbox "E-Mail*" [ref=f2e163]: krantichavan198@gmail.com
+            - generic: E-Mail*
+          - generic [ref=f2e167]:
+            - textbox "Telefon" [ref=f2e168]: +49 15750174177
+            - generic: Telefon
+          - button "zum letzten Schritt" [ref=f2e170] [cursor=pointer]
+        - generic [ref=f2e174]:
+          - heading "Zusätzliche Fragen" [level=2] [ref=f2e175]
+          - generic [ref=f2e176]:
+            - generic [ref=f2e177]: Gehaltsvorstellung*
+            - textbox [ref=f2e180]: 60.000 € brutto/Jahr (verhandelbar)
+          - generic [ref=f2e181]:
+            - generic [ref=f2e182]: Kündigungsfrist*
+            - textbox [ref=f2e185]: Kündigungsfrist läuft; letzter Arbeitstag 15.12.2026, Start ab 16.12.2026
+          - generic [ref=f2e186]:
+            - generic [ref=f2e187]: Wie schätzt du deine Deutschkenntnisse ein?*
+            - generic [ref=f2e189]:
+              - textbox: B1 – Selbstständige Verständigung im Alltag und Beruf möglich
+              - generic [ref=f2e190]:
+                - button "Keine Kenntnisse" [ref=f2e191] [cursor=pointer]
+                - button "A1 – Grundkenntnisse (einfache Sätze und häufige Ausdrücke verstehen)" [ref=f2e192] [cursor=pointer]
+                - button "A2 – Einfache Gespräche über vertraute Themen führen" [ref=f2e193] [cursor=pointer]
+                - button "B1 – Selbstständige Verständigung im Alltag und Beruf möglich" [ref=f2e194] [cursor=pointer]
+                - button "B2 – Fließende Kommunikation mit komplexeren Themen" [ref=f2e195] [cursor=pointer]
+                - button "C1 – Sehr gute Sprachkenntnisse, nahezu fehlerfreie Verständigung in Wort und Schrift" [ref=f2e196] [cursor=pointer]
+                - button "C2 – Exzellente Sprachbeherrschung auf muttersprachlichem Niveau" [ref=f2e197] [cursor=pointer]
+                - button "Muttersprache" [ref=f2e198] [cursor=pointer]
+          - generic [ref=f2e199]:
+            - generic [ref=f2e200]: Wie würdest du deine Erfahrung in der Software-Architektur von Java-/Spring-Boot-Anwendungen bewerten?*
+            - generic [ref=f2e202]:
+              - textbox: Fortgeschritten (mehrjährige praktische Erfahrung im eigenständigen Design produktiver Java-/Spring-Boot-Anwendungen; sicher in der Strukturierung von Komponenten, Schnittstellen und Datenmodellen sowie in der Bewertung und Begründung technischer Entschei
+              - generic [ref=f2e203]:
+                - button "Keine Erfahrung (bisher keine praktische Erfahrung im Design von Software-Architekturen)" [ref=f2e204] [cursor=pointer]
+                - button "Einsteiger (erste Erfahrungen mit Architekturkonzepten und dem Design einzelner Komponenten, z. B. im Rahmen eines Projekts oder unter Anleitung)" [ref=f2e205] [cursor=pointer]
+                - button "Fortgeschritten (mehrjährige praktische Erfahrung im eigenständigen Design produktiver Java-/Spring-Boot-Anwendungen; sicher in der Strukturierung von Komponenten, Schnittstellen und Datenmodellen sowie in der Bewertung und Begründung technischer Entschei" [ref=f2e206] [cursor=pointer]
+                - button "Sehr erfahren (langjährige praktische Erfahrung mit der Architektur komplexer Java-/Spring-Boot-Systeme; Verantwortung für übergreifende Solution-Designs und deren Umsetzung sowie fundierte Erfahrung mit Integrationen, Skalierbarkeit, Security und der Wei" [ref=f2e207] [cursor=pointer]
+          - generic [ref=f2e208]:
+            - generic [ref=f2e209]:
+              - generic [ref=f2e212]:
+                - text: Informationen zum Datenschutz finden Sie
+                - link "Link öffnet eine Seite mit der Datenschutzrichtlinie" [ref=f2e213] [cursor=pointer]:
+                  - /url: https://schaefer-shop.softgarden.io/data-security
+                  - text: hier
+                - text: .
+              - generic [ref=f2e214]: "*Diese Felder sind obligatorisch."
+              - generic [ref=f2e216]:
+                - generic [ref=f2e229]:
+                  - img "Automatische Spamprüfung abgeschlossen" [ref=f2e230]
+                  - generic [ref=f2e232]: Ich bin ein Mensch
+                - link "FriendlyCaptcha ⇗" [ref=f2e235] [cursor=pointer]:
+                  - /url: https://friendlycaptcha.com/
+            - button "Bestätigen" [active] [ref=f2e226] [cursor=pointer]
+    - generic [ref=f2e83]:
+      - generic [ref=f2e84]:
+        - link "Impressum" [ref=f2e107] [cursor=pointer]:
+          - /url: https://schaefer-shop.softgarden.io/imprint
+        - link "Datenschutz" [ref=f2e109] [cursor=pointer]:
+          - /url: https://schaefer-shop.softgarden.io/data-security
+        - link "Machine-readable job feed (JSON)" [ref=f2e111] [cursor=pointer]:
+          - /url: ../../jobs.feed.json
+      - link "powered by softgarden" [ref=f2e88] [cursor=pointer]:
+        - /url: https://softgarden.com/
+    - status [ref=f2e91]:
+      - generic [ref=f2e92]: Vielen Dank, die Bewerbung ist bei uns erfolgreich eingegangen!
+      - paragraph [ref=f2e93]: Eine Bestätigungs-E-Mail wird in Kürze versendet.
+      - generic [ref=f2e236]:
+        - heading "Anonyme Gehaltsumfrage" [level=3] [ref=f2e237]
+        - generic [ref=f2e238]: "Gehaltsvorstellungen anonym und sicher teilen: So können wir das Bewerbererlebnis weiter optimieren."
+        - generic [ref=f2e239]:
+          - generic [ref=f2e240]:
+            - generic [ref=f2e243]:
+              - spinbutton "Gehalt" [ref=f2e244]
+              - generic: Gehalt
+            - generic [ref=f2e249]:
+              - log [ref=f2e251]
+              - generic [ref=f2e252]:
+                - generic: Währung
+                - generic [ref=f2e253]:
+                  - generic [ref=f2e254]: EUR
+                  - combobox "Währung" [ref=f2e255]
+          - generic [ref=f2e261]:
+            - log [ref=f2e263]
+            - generic [ref=f2e264]:
+              - generic: Zeitraum wählen
+              - generic [ref=f2e265]:
+                - generic [ref=f2e266]: brutto pro Jahr
+                - combobox "Zeitraum wählen" [ref=f2e267]
+        - button "Feedback abschicken" [ref=f2e270] [cursor=pointer]
+        - generic [ref=f2e273]: Die Gehaltsvorstellung wird an die unabhängige Plattform softgarden weitergegeben, um andere Bewerber und Unternehmen bei der Verbesserung des Einstellungserlebnisses zu unterstützen. Diese Information ist optional und nicht Teil der Bewerbung.
+  - complementary "Zustimmung ändern" [ref=f2e94]:
+    - button "Zustimmung ändern" [ref=f2e95] [cursor=pointer]:
+      - img "Zustimmung ändern" [ref=f2e96]
+  - alert [ref=f2e97]
+  - 'tooltip "Folgenden Dateitypen sind zulässig: .pdf, .jpg, .jpeg, .gif, .png, .bmp, .tif, .tiff, .doc, .ppt, .pps, .docx, .pptx, .ppsx, .odt, .rtf, .odp, .txt. Die Größe der hochgeladenen Datei sollte 10 MB nicht überschreiten."'

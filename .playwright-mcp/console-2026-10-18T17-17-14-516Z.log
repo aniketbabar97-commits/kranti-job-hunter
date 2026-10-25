@@ -1,0 +1,214 @@
+[     130ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[     133ms] [LOG] JQMIGRATE: Migrate plugin loaded multiple times @ https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js:1
+[     133ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery-migrate.js:1
+[     600ms] [WARNING] jQuery.Deferred exception: Cannot read properties of undefined (reading 'on') TypeError: Cannot read properties of undefined (reading 'on')
+    at HTMLDocument.<anonymous> (https://jobs.all-for-one.com/platform/js/j2w/j2w.bootstrap.dropdown.js:50:68)
+    at e (https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:2:30005)
+    at t (https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:2:30307) undefined @ https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:1
+[     616ms] Uncaught TypeError: Cannot read properties of undefined (reading 'on')
+    at <anonymous> (https://jobs.all-for-one.com/platform/js/j2w/j2w.bootstrap.dropdown.js:49:67)
+    at e (https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:1:30004)
+    at t (https://performancemanager.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:1:30306)
+[    2182ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ :0
+[    3429ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://career2.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[    4170ms] [LOG] [AjaxService] Using native Proxy for lazyDataGridController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[    4943ms] [INFO] 2026-10-18 19:17:19 Device API logging initialized - DEVICE @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-bundles-main/resources_1.142.5-7/common-1.js:1336
+[    5051ms] [WARNING] The current jQuery version 3.5.1 is different than the version 3.6.0 that is used for testing jquery-compat.js. jquery-compat.js is applied but it may not work properly. @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-main/resources_1.142.5/resources/sap/ui/thirdparty/jquery-compat.js?eval:4
+[    5653ms] [LOG] Should load SAPUI5 @ https://career2.successfactors.eu/careers?company=all41Group:1161
+[    6127ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    6210ms] [LOG] [AjaxService] Using native Proxy for multiAttachmentWidgetController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[    6210ms] [LOG] [AjaxService] Using native Proxy for rcmCloudStorageController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[    6551ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-4f6bf485-fd72ce05/common!/verp/ui/sapui5-main/resources/resources/sap/ui/core/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    6662ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-cbedf97-fd72ce05/sap.m!/verp/ui/sapui5-main/resources/resources/sap/m/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    6957ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    6992ms] [INFO] PerfLog Page Completed (ver:1.1.4 2025-07-11T03:34:42.994Z) @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    7195ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[    7271ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirlightwoff2.woff2?timestamp=1725538738505:0
+[    7300ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirmediumwoff2.woff2?timestamp=1725538738507:0
+[    7422ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirblackwoff2.woff2?timestamp=1725538738508:0
+[    7522ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirlightwoff.woff?timestamp=1725538738506:0
+[    7558ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirmediumwoff.woff?timestamp=1725538738507:0
+[    7575ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://career2.successfactors.eu/layout/fnt/avenirblackwoff.woff?timestamp=1725538738508:0
+[   36852ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:428
+[   36953ms] [INFO] Loading the script 'https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.wcZTg9qwRB4.2018.O/am=QADA/d=1/rs=AOaEmlG2lV9NAWwx45zOt3GbI-eVyran-Q/m=base' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval' blob: data:". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fcareer2.successfactors.eu&rpcToken=611028880.482106&clearCache=1&supportBlocked3PCookies=1:0
+[   37001ms] [WARNING] Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:408
+[   37007ms] Uncaught [object Object]
+    at <anonymous> (https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:160:51)
+[   39594ms] [LOG] [ERROR]  Uncaught exception TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6)  Stack:  TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6) @ https://career2.successfactors.eu/verp/vmod_v1/ui/sfgrp/js/SURJUtil_6336f9068358ddacd80b8a71a32dc88a.js:0
+[   39599ms] TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6)
+[   43792ms] [WARNING] Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:408
+[   43809ms] Uncaught [object Object]
+    at <anonymous> (https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:160:51)
+[   46651ms] [LOG] [ERROR]  Uncaught exception TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6)  Stack:  TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6) @ https://career2.successfactors.eu/verp/vmod_v1/ui/sfgrp/js/SURJUtil_6336f9068358ddacd80b8a71a32dc88a.js:0
+[   46653ms] TypeError: Cannot read properties of null (reading 'files')
+    at RCMV12AttachmentView.quickApplyUploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:81:192)
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:543)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/careers?company=all41Group:1:6)
+[   50229ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   50497ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   51339ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   51472ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   51688ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   52447ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   52668ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   58881ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   59176ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   60104ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   60244ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   60495ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   61367ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   61634ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   66049ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/rcmDpcsControllerProxy.getDpscStatementByTypeAndCountry.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   66346ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   74663ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://career2.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[   74741ms] [LOG] [AjaxService] Using native Proxy for lazyDataGridController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[   74815ms] [INFO] 2026-10-18 19:18:29 Device API logging initialized - DEVICE @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-bundles-main/resources_1.142.5-7/common-1.js:1336
+[   74831ms] [WARNING] The current jQuery version 3.5.1 is different than the version 3.6.0 that is used for testing jquery-compat.js. jquery-compat.js is applied but it may not work properly. @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-main/resources_1.142.5/resources/sap/ui/thirdparty/jquery-compat.js?eval:4
+[   75091ms] [LOG] Should load SAPUI5 @ https://career2.successfactors.eu/career?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d:1161
+[   75129ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75214ms] [LOG] [AjaxService] Using native Proxy for multiAttachmentWidgetController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[   75214ms] [LOG] [AjaxService] Using native Proxy for rcmCloudStorageController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[   75254ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75269ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75274ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75409ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-4f6bf485-fd72ce05/common!/verp/ui/sapui5-main/resources/resources/sap/ui/core/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75424ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-cbedf97-fd72ce05/sap.m!/verp/ui/sapui5-main/resources/resources/sap/m/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75505ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75532ms] [INFO] PerfLog Page Completed (ver:1.1.4 2025-07-11T03:34:42.994Z) @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   75695ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[   92394ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://career2.successfactors.eu/career?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d:0
+[  101704ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://career2.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[  101743ms] [LOG] [AjaxService] Using native Proxy for lazyDataGridController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  101775ms] [INFO] 2026-10-18 19:18:56 Device API logging initialized - DEVICE @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-bundles-main/resources_1.142.5-7/common-1.js:1336
+[  101792ms] [WARNING] The current jQuery version 3.5.1 is different than the version 3.6.0 that is used for testing jquery-compat.js. jquery-compat.js is applied but it may not work properly. @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-main/resources_1.142.5/resources/sap/ui/thirdparty/jquery-compat.js?eval:4
+[  101982ms] [LOG] Should load SAPUI5 @ https://career2.successfactors.eu/career?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d:1161
+[  102006ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102087ms] [LOG] [AjaxService] Using native Proxy for multiAttachmentWidgetController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  102087ms] [LOG] [AjaxService] Using native Proxy for rcmCloudStorageController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  102124ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102140ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102160ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getLabelByPickListOptionId.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102240ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-4f6bf485-fd72ce05/common!/verp/ui/sapui5-main/resources/resources/sap/ui/core/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102252ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-cbedf97-fd72ce05/sap.m!/verp/ui/sapui5-main/resources/resources/sap/m/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102324ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102353ms] [INFO] PerfLog Page Completed (ver:1.1.4 2025-07-11T03:34:42.994Z) @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  102538ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  151100ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://career2.successfactors.eu/career?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d:0
+[  217052ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://career2.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[  217082ms] [LOG] [AjaxService] Using native Proxy for lazyDataGridController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  217096ms] [INFO] 2026-10-18 19:20:51 Device API logging initialized - DEVICE @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-bundles-main/resources_1.142.5-7/common-1.js:1336
+[  217105ms] [WARNING] The current jQuery version 3.5.1 is different than the version 3.6.0 that is used for testing jquery-compat.js. jquery-compat.js is applied but it may not work properly. @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-main/resources_1.142.5/resources/sap/ui/thirdparty/jquery-compat.js?eval:4
+[  217313ms] [LOG] Should load SAPUI5 @ https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1161
+[  217363ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/pwdPolicyControllerProxy.getPasswordPolicy.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217411ms] [LOG] [AjaxService] Using native Proxy for multiAttachmentWidgetController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  217412ms] [LOG] [AjaxService] Using native Proxy for rcmCloudStorageController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  217608ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-4f6bf485-fd72ce05/common!/verp/ui/sapui5-main/resources/resources/sap/ui/core/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217616ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-cbedf97-fd72ce05/sap.m!/verp/ui/sapui5-main/resources/resources/sap/m/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217698ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/multiAttachmentWidgetControllerProxy.getList.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217721ms] [INFO] PerfLog Page Completed (ver:1.1.4 2025-07-11T03:34:42.994Z) @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217724ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/sessionTimeoutControllerProxy.getSessionTimeoutConfigs.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  217916ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  233944ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:428
+[  234208ms] [INFO] Loading the script 'https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.IdpIFrameHttp.en_US.wcZTg9qwRB4.2018.O/am=QADA/d=1/rs=AOaEmlG2lV9NAWwx45zOt3GbI-eVyran-Q/m=base' violates the following Content Security Policy directive: "script-src 'unsafe-inline' 'unsafe-eval' blob: data:". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The policy is report-only, so the violation has been logged but no further action has been taken. @ https://accounts.google.com/o/oauth2/iframe#origin=https%3A%2F%2Fcareer2.successfactors.eu&rpcToken=436927112.1539397&supportBlocked3PCookies=1:0
+[  234219ms] [WARNING] Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:408
+[  234223ms] Uncaught [object Object]
+    at <anonymous> (https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:160:51)
+[  237211ms] [LOG] [ERROR]  Uncaught exception TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6)  Stack:  TypeError: parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6) @ https://career2.successfactors.eu/verp/vmod_v1/ui/sfgrp/js/SURJUtil_6336f9068358ddacd80b8a71a32dc88a.js:0
+[  237213ms] TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6)
+[  241488ms] [WARNING] Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information. @ https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:408
+[  241491ms] Uncaught [object Object]
+    at <anonymous> (https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.etOqPKhAhvg.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-l5JrVgGKVELwC844E6riBHX86-w/cb=gapi.loaded_0?le=scs:160:51)
+[  244900ms] [LOG] [ERROR]  Uncaught exception TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6)  Stack:  TypeError: parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6) @ https://career2.successfactors.eu/verp/vmod_v1/ui/sfgrp/js/SURJUtil_6336f9068358ddacd80b8a71a32dc88a.js:0
+[  244902ms] TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+    at RCMV12AttachmentView.uploadFilesV12 (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:80:457)
+    at RCMV12AttachmentPopUpContent.dispatchEvent (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4559)
+    at RCMV12AttachmentPopUpContent.dispatch (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:4741)
+    at RCMV12AttachmentPopUpContent.uploadFiles (https://career2.successfactors.eu/ui/rcmcommon/js/rcmAttachmentHandler_2d9da41a35e4bd3cab1d1816935e9ea8.js:89:415)
+    at juic.isComponentJSLoaded.juic.fire (https://career2.successfactors.eu/verp/vmod_v1/ui/juic/js/core/component_64edc721ca929bcdb41c8dc6a0fa3d0c.js:1:8600)
+    at HTMLInputElement.onchange (https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d&company=all41Group&career_ns=job_application&career_job_req_id=16242&clientId=jobs2web&jobPipeline=Direct:1:6)
+[  255810ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  256034ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  257061ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  257216ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  257455ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  258313ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/picklistControllerProxy.getPicklistByPageWithExcludeOption.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  258562ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  265071ms] [LOG] JQMIGRATE: Migrate is installed, version 3.3.0 @ https://career2.successfactors.eu/verp/vmod_v1/ui/extlib/jquery_3.5.1/jquery.js:4
+[  265120ms] [LOG] [AjaxService] Using native Proxy for lazyDataGridController @ https://career2.successfactors.eu/verp/vmod_v1/ui/ajaxservice/js/AjaxService_2d3475025ccd13215ad79270d11032b7.js:0
+[  265143ms] [INFO] 2026-10-18 19:21:39 Device API logging initialized - DEVICE @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-bundles-main/resources_1.142.5-7/common-1.js:1336
+[  265156ms] [WARNING] The current jQuery version 3.5.1 is different than the version 3.6.0 that is used for testing jquery-compat.js. jquery-compat.js is applied but it may not work properly. @ https://career2.successfactors.eu/verp/vmod_v1/ui/sapui5-main/resources_1.142.5/resources/sap/ui/thirdparty/jquery-compat.js?eval:4
+[  265354ms] [LOG] Should load SAPUI5 @ https://career2.successfactors.eu/portalcareer?_s.crb=Kid%252fyIuX0lpukKBhlW8wPbTMEaEpdkxMLlcNEeKrspE%253d:1161
+[  265403ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-4f6bf485-fd72ce05/common!/verp/ui/sapui5-main/resources/resources/sap/ui/core/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  265412ms] [LOG] Req in Event: /messagebundle/all41Group/vmod_v1-cbedf97-fd72ce05/sap.m!/verp/ui/sapui5-main/resources/resources/sap/m/messagebundle_de_DE.properties @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  265506ms] [INFO] PerfLog Page Completed (ver:1.1.4 2025-07-11T03:34:42.994Z) @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  265510ms] [LOG] Req in Event: /xi/ajax/remoting/call/plaincall/sessionTimeoutControllerProxy.getSessionTimeoutConfigs.dwr @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0
+[  265699ms] [LOG] --------- Event ended --------- @ https://career2.successfactors.eu/verp/vmod_v1/ui/perflog-lib/resources_1.1.4/perflog-lib.min.js:0

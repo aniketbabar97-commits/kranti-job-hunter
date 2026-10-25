@@ -1,0 +1,183 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation "Primary" [ref=e4]:
+      - link "LinkedIn" [ref=e5] [cursor=pointer]:
+        - /url: /?trk=public_post_nav-header-logo
+      - list [ref=e19]:
+        - listitem [ref=e20]:
+          - link "Top Content" [ref=e21] [cursor=pointer]:
+            - /url: https://www.linkedin.com/top-content?trk=public_post_guest_nav_menu_topContent
+        - listitem [ref=e26]:
+          - link "People" [ref=e27] [cursor=pointer]:
+            - /url: https://www.linkedin.com/pub/dir/+/+?trk=public_post_guest_nav_menu_people
+        - listitem [ref=e32]:
+          - link "Learning" [ref=e33] [cursor=pointer]:
+            - /url: https://www.linkedin.com/learning/search?trk=public_post_guest_nav_menu_learning
+        - listitem [ref=e41]:
+          - link "Jobs" [ref=e42] [cursor=pointer]:
+            - /url: https://www.linkedin.com/jobs/search?trk=public_post_guest_nav_menu_jobs
+        - listitem [ref=e47]:
+          - link "Games" [ref=e48] [cursor=pointer]:
+            - /url: https://www.linkedin.com/games?trk=public_post_guest_nav_menu_games
+        - listitem [ref=e53]:
+          - link "Get the app" [ref=e54] [cursor=pointer]:
+            - /url: ms-windows-store://pdp/?ProductId=9WZDNCRFJ4Q7&mode=mini&cid=guest_nav_upsell&trk=public_post_guest_nav_menu_windows
+      - generic [ref=e59]:
+        - link "Sign in" [ref=e60] [cursor=pointer]:
+          - /url: https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9&fromSignIn=true&trk=public_post_nav-header-signin
+        - link "Join now" [ref=e61] [cursor=pointer]:
+          - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9&trk=public_post_nav-header-join
+  - main [ref=e62]:
+    - generic [ref=e65]:
+      - heading "Ambika Sandhil’s Post" [level=1] [ref=e66]
+      - article [ref=e67]:
+        - generic [ref=e68]:
+          - generic [ref=e70]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: https://in.linkedin.com/in/sandhilambika987?trk=public_post_feed-actor-image
+              - img "View profile for Ambika Sandhil" [ref=e72]
+            - generic [ref=e73]:
+              - link "View profile for Ambika Sandhil" [ref=e75] [cursor=pointer]:
+                - /url: https://in.linkedin.com/in/sandhilambika987?trk=public_post_feed-actor-name
+                - text: Ambika Sandhil
+              - time [ref=e77]: 2w
+          - button "Open menu" [ref=e80] [cursor=pointer]
+        - paragraph [ref=e85]:
+          - text: "🚀 We’re Hiring – React PWA amp; SFCC Developer Experience: 3–6 Years Location: Any / Hybrid / Remote Engagement: C2H Joining: Immediate Joiners Preferred Must-Have Skills:"
+          - link "React.js" [ref=e86] [cursor=pointer]:
+            - /url: http://React.js?trk=public_post-text
+          - text: "+ CMS Progressive Web Apps (PWA) Salesforce Commerce Cloud (SFCC/B2C Commerce)SFCC Storefront, Cartridges, Controllers, Pipelines OCAPI / SCAPIREST API Integrations Responsive amp; Mobile-First Development Git / Azure DevOps / GitHub Agile/Scrum Good to Have: SFCC PWA Kit amp; Managed Runtime Headless / Composable Commerce Redux / Context API Payment, OMS amp; Inventory Integrations CI/CD – Jenkins / GitHub Actions / Azure DevOps 📩 Share your profile:"
+          - link "fatima@allyted.com" [ref=e87] [cursor=pointer]:
+            - /url: https://www.linkedin.com/redir/redirect?url=mailto%3Afatima%40allyted%2Ecom&urlhash=cHcc&trk=public_post-text
+          - text: "📝 Apply here:"
+          - link "https://lnkd.in/gXfdXJsk" [ref=e88] [cursor=pointer]:
+            - /url: https://www.linkedin.com/redir/redirect?url=https%3A%2F%2Flnkd%2Ein%2FgXfdXJsk&urlhash=VYud&trk=public_post-text
+          - link "#reactjs" [ref=e89] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Freactjs&trk=public_post-text
+          - link "#pwa" [ref=e90] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fpwa&trk=public_post-text
+          - link "#progressivewebapps" [ref=e91] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fprogressivewebapps&trk=public_post-text
+          - link "#sfcc" [ref=e92] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsfcc&trk=public_post-text
+          - link "#salesforcecommercecloud" [ref=e93] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsalesforcecommercecloud&trk=public_post-text
+          - link "#salesforce" [ref=e94] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsalesforce&trk=public_post-text
+          - link "#ecommerce" [ref=e95] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fecommerce&trk=public_post-text
+          - link "#frontenddevelopment" [ref=e96] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ffrontenddevelopment&trk=public_post-text
+          - link "#webdevelopment" [ref=e97] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fwebdevelopment&trk=public_post-text
+          - link "#javascript" [ref=e98] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fjavascript&trk=public_post-text
+          - link "#headlesscommerce" [ref=e99] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fheadlesscommerce&trk=public_post-text
+          - link "#composablecommerce" [ref=e100] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fcomposablecommerce&trk=public_post-text
+          - link "#reactdeveloper" [ref=e101] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Freactdeveloper&trk=public_post-text
+          - link "#sfccdeveloper" [ref=e102] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsfccdeveloper&trk=public_post-text
+          - link "#ecommercejobs" [ref=e103] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fecommercejobs&trk=public_post-text
+          - link "#techjobs" [ref=e104] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Ftechjobs&trk=public_post-text
+          - link "#hiring" [ref=e105] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fhiring&trk=public_post-text
+          - link "#wearehiring" [ref=e106] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fwearehiring&trk=public_post-text
+          - link "#immediatejoiners" [ref=e107] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fimmediatejoiners&trk=public_post-text
+          - link "#c2h" [ref=e108] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fc2h&trk=public_post-text
+          - link "#allytedsolutions" [ref=e109] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fallytedsolutions&trk=public_post-text
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - img "graphical user interface, text" [ref=e112]
+            - button "View C2PA information" [ref=e113]
+        - generic [ref=e116]:
+          - link "Like" [ref=e117] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9&trk=public_post_like-cta
+          - link "Comment" [ref=e120] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9&trk=public_post_comment-cta
+          - button "Share" [ref=e124] [cursor=pointer]
+        - paragraph [ref=e126]:
+          - text: To view or add a comment,
+          - link "To view or add a comment, sign in" [ref=e127] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fposts%2Fsandhilambika987_reactjs-pwa-progressivewebapps-activity-7513827637774008320-JgR9&trk=public_post_feed-cta-banner-cta
+            - text: sign in
+    - generic [ref=e128]:
+      - generic [ref=e130]:
+        - figure [ref=e131]
+        - img "Ambika Sandhil" [ref=e134]
+        - paragraph [ref=e135]: 17,841 followers
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - link "3000+ Posts" [ref=e139] [cursor=pointer]:
+              - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fin%2Fsandhilambika987%2Frecent-activity%2F&trk=public_post_follow-posts
+        - generic [ref=e140]:
+          - link "View Profile" [ref=e141] [cursor=pointer]:
+            - /url: https://in.linkedin.com/in/sandhilambika987?trk=public_post_follow-view-profile
+          - link "Follow" [ref=e142] [cursor=pointer]:
+            - /url: https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2Fupdate%2Furn%3Ali%3Aactivity%3A7513827637774008320&trk=public_post_follow
+      - generic [ref=e146]:
+        - heading "Explore content categories" [level=2] [ref=e147]
+        - generic [ref=e149]:
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - link "Career" [ref=e152] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/career/
+            - listitem [ref=e153]:
+              - link "Productivity" [ref=e154] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/productivity/
+            - listitem [ref=e155]:
+              - link "Finance" [ref=e156] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/finance/
+            - listitem [ref=e157]:
+              - link "Soft Skills & Emotional Intelligence" [ref=e158] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/
+            - listitem [ref=e159]:
+              - link "Project Management" [ref=e160] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/project-management/
+            - listitem [ref=e161]:
+              - link "Education" [ref=e162] [cursor=pointer]:
+                - /url: https://www.linkedin.com/top-content/education/
+          - button "Show more" [ref=e163] [cursor=pointer]
+  - contentinfo [ref=e165]:
+    - list [ref=e166]:
+      - generic [ref=e167]: LinkedIn
+      - generic [ref=e169]: © 2026
+      - listitem [ref=e170]:
+        - link "About" [ref=e171] [cursor=pointer]:
+          - /url: https://about.linkedin.com?trk=d_public_post_footer-about
+      - listitem [ref=e172]:
+        - link "Accessibility" [ref=e173] [cursor=pointer]:
+          - /url: https://www.linkedin.com/accessibility?trk=d_public_post_footer-accessibility
+      - listitem [ref=e174]:
+        - link "User Agreement" [ref=e175] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/user-agreement?trk=d_public_post_footer-user-agreement
+      - listitem [ref=e176]:
+        - link "Privacy Policy" [ref=e177] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/privacy-policy?trk=d_public_post_footer-privacy-policy
+      - listitem [ref=e178]:
+        - link "Cookie Policy" [ref=e179] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/cookie-policy?trk=d_public_post_footer-cookie-policy
+      - listitem [ref=e180]:
+        - link "Copyright Policy" [ref=e181] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/copyright-policy?trk=d_public_post_footer-copyright-policy
+      - listitem [ref=e182]:
+        - link "Brand Policy" [ref=e183] [cursor=pointer]:
+          - /url: https://brand.linkedin.com/policies?trk=d_public_post_footer-brand-policy
+      - listitem [ref=e184]:
+        - link "Guest Controls" [ref=e185] [cursor=pointer]:
+          - /url: https://www.linkedin.com/psettings/guest-controls?trk=d_public_post_footer-guest-controls
+      - listitem [ref=e186]:
+        - link "Community Guidelines" [ref=e187] [cursor=pointer]:
+          - /url: https://www.linkedin.com/legal/professional-community-policies?trk=d_public_post_footer-community-guide
+      - listitem [ref=e188]:
+        - button "Language" [ref=e190]

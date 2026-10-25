@@ -1,0 +1,161 @@
+- generic [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - navigation [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - link [ref=f11e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f11e56]:
+          - generic [ref=f11e57]:
+            - list [ref=f11e59]:
+              - listitem [ref=f11e60]:
+                - link "☎ 06271 / 960 9000" [ref=f11e61] [cursor=pointer]:
+                  - /url: tel:004962719609000
+            - list [ref=f11e63]:
+              - listitem [ref=f11e64]:
+                - link "Übersicht" [ref=f11e65] [cursor=pointer]:
+                  - /url: /uebersicht
+              - listitem [ref=f11e66]:
+                - link "Arbeitgeber" [ref=f11e67] [cursor=pointer]:
+                  - /url: /arbeitgeber
+              - listitem [ref=f11e68]:
+                - link "Arbeitsumgebung" [ref=f11e69] [cursor=pointer]:
+                  - /url: /arbeitsumgebung
+              - listitem [ref=f11e70]:
+                - link "Kollegen" [ref=f11e71] [cursor=pointer]:
+                  - /url: /kollegen
+              - listitem [ref=f11e72]:
+                - link "Zukunft" [ref=f11e73] [cursor=pointer]:
+                  - /url: /zukunft
+              - listitem [ref=f11e74]:
+                - link "Benefits" [ref=f11e75] [cursor=pointer]:
+                  - /url: /benefits
+              - listitem [ref=f11e76]:
+                - link "Offene Stellen" [ref=f11e77] [cursor=pointer]:
+                  - /url: /offene-stellen
+          - generic [ref=f11e78]:
+            - link [ref=f11e79] [cursor=pointer]:
+              - /url: /schnell-bewerbung
+              - generic "Schnell-Bewerbung" [ref=f11e81]
+            - generic "Suche" [ref=f11e89] [cursor=pointer]
+    - list [ref=f11e97]:
+      - listitem [ref=f11e98]:
+        - link [ref=f11e99] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=f11e100]
+      - listitem [ref=f11e101]: / standard_bewerbung
+      - listitem
+  - img "ionicons-v5-a" [ref=f11e226] [cursor=pointer]
+  - generic [ref=f11e103]:
+    - generic [ref=f11e104]:
+      - heading "Bewerbungsformular" [level=1] [ref=f11e105]
+      - heading "In unter 120 Sekunden bewerben" [level=2] [ref=f11e106]
+    - generic [ref=f11e109]:
+      - paragraph [ref=f11e110]: Du sitzt gerade bequem auf dem Sofa daheim und denkst "Ein Job bei Quellwerke wäre ja wirklich interessant", hast aber auf die Schnelle keine aktuellen Bewerbungsunterlagen zur Hand? Das macht nichts! Über das nachstehende Formular kannst Du Dich unkompliziert, schnell und direkt bewerben, ohne auch nur ein Dokument vorzubereiten!
+      - paragraph [ref=f11e111]: Wir freuen uns auf Deine Schnell-Bewerbung!
+    - generic [ref=f11e113]:
+      - generic [ref=f11e116]:
+        - generic [ref=f11e117]:
+          - generic [ref=f11e118]: Name *
+          - textbox "Name *" [ref=f11e120]:
+            - /placeholder: "Gib hier Deinen Vor- und Nachnamen ein "
+            - text: Kranti Chavan
+        - generic [ref=f11e121]:
+          - generic [ref=f11e122]: Wohnort
+          - textbox "Wohnort" [ref=f11e124]:
+            - /placeholder: Sag uns kurz woher Du kommst
+            - text: Karlsruhe
+        - generic [ref=f11e125]:
+          - generic [ref=f11e126]: E-Mail Adresse *
+          - textbox "E-Mail Adresse *" [ref=f11e128]:
+            - /placeholder: Unter welcher E-Mail Adresse können wir Dich erreichen?
+            - text: krantichavan198@gmail.com
+        - generic [ref=f11e129]:
+          - generic [ref=f11e130]: Job *
+          - textbox "Job *" [ref=f11e132]:
+            - /placeholder: Auf welche Stelle möchtest Du Dich bewerben
+            - text: Pimcore Entwickler (m/w/d)
+        - generic [ref=f11e133]:
+          - generic [ref=f11e134]: Erfahrung
+          - combobox "Erfahrung" [ref=f11e136]:
+            - option "Bitte wählen"
+            - option "Junior"
+            - option "Senior" [selected]
+            - option "Keine"
+        - textbox [aria-hidden] [ref=f11e137]
+        - generic [ref=f11e138]:
+          - generic [ref=f11e139]: Gewünschte Anstellung
+          - listbox "Gewünschte Anstellung" [ref=f11e141]:
+            - option "Vollzeit" [selected] [ref=f11e142]
+            - option "Teilzeit" [ref=f11e143]
+            - option "Praktikum" [ref=f11e144]
+            - option "Studium" [ref=f11e145]
+            - option "Ausbildung" [ref=f11e146]
+            - option "Sonstiges (Bitte im Text angeben)" [ref=f11e147]
+        - generic [ref=f11e148]:
+          - generic [ref=f11e149]: Bewerbung für Standort
+          - generic [ref=f11e151]:
+            - generic [ref=f11e153]:
+              - checkbox "Eberbach" [checked] [ref=f11e154]
+              - text: Eberbach
+            - generic [ref=f11e156]:
+              - checkbox "Freiburg" [ref=f11e157]
+              - text: Freiburg
+            - generic [ref=f11e159]:
+              - checkbox "Remote" [checked] [ref=f11e160]
+              - text: Remote
+        - generic [ref=f11e161]:
+          - generic [ref=f11e162]: Anschreiben
+          - textbox "Anschreiben" [ref=f11e164]:
+            - /placeholder: Hier kannst Du Dein Anschreiben einfügen.
+            - text: Quellwerke builds PIM and product data solutions for manufacturers and retailers – the exact problem space I have worked in from the integration side. I want to bring my experience with product data pipelines, ERP/MDM integration and commerce to Quellwerke's projects, close to my home in Karlsruhe. German B1, actively improving; working language English. Available from 16.12.2026, salary expectation 60.000 € brutto/Jahr (verhandelbar). CV and cover letter are attached as ZIP.
+        - generic [ref=f11e165]:
+          - generic [ref=f11e166]: Dateianhänge
+          - generic [ref=f11e167]:
+            - button "Dateianhänge" [active] [ref=f11e168]
+            - generic [ref=f11e169]: Bitte als ZIP, RAR, TAR oder 7Z einfügen.
+        - navigation [ref=f11e171]:
+          - toolbar [ref=f11e172]:
+            - group [ref=f11e173]:
+              - button "Bewerbung senden" [ref=f11e175] [cursor=pointer]
+      - generic [ref=f11e177]:
+        - paragraph [ref=f11e178]: Angaben zum Datenschutz
+        - paragraph [ref=f11e179]: Pflichtfelder sind mit einem * markiert.
+        - paragraph [ref=f11e180]: Ihre Angaben werden zur Bearbeitung der Karriereanfrage und deren Abwicklung gem. Art. 6 Abs. 1 lit. b) DSGVO verarbeitet.
+        - paragraph [ref=f11e181]:
+          - text: Ja, ich habe die
+          - link "Datenschutzerklärung" [ref=f11e182] [cursor=pointer]:
+            - /url: https://www.quellwerke.de/datenschutz
+          - text: zur Kenntnis genommen und bin damit einverstanden, dass die von mir angegebenen Daten zweckgebunden zur Bearbeitung und Beantwortung meiner Anfrage elektronisch erhoben und gespeichert werden. Mit dem Absenden des Kontaktformulars erkläre ich mich mit der Verarbeitung einverstanden.
+  - contentinfo [ref=f11e184]:
+    - generic [ref=f11e188]:
+      - paragraph [ref=f11e191]: © 2026 Quellwerke GmbH. Alle Rechte vorbehalten.
+      - generic [ref=f11e193]:
+        - list [ref=f11e194]:
+          - listitem [ref=f11e195]:
+            - link "Datenschutz" [ref=f11e196] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/datenschutz
+          - listitem [ref=f11e197]:
+            - link "Impressum" [ref=f11e198] [cursor=pointer]:
+              - /url: https://www.quellwerke.de/impressum
+        - generic [ref=f11e199]:
+          - link [ref=f11e200] [cursor=pointer]:
+            - /url: https://www.facebook.com/quellwerke/
+            - img "Facebook" [ref=f11e202]
+          - link [ref=f11e203] [cursor=pointer]:
+            - /url: https://www.instagram.com/quellwerke/
+            - img "Instagram" [ref=f11e205]
+          - link [ref=f11e206] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/quellwerke-gmbh
+            - img "LinkedIn" [ref=f11e208]
+  - generic [ref=f11e209]:
+    - heading "Cookie Manager" [level=3] [ref=f11e210]
+    - generic [ref=f11e212]:
+      - generic [ref=f11e213]: Essentials
+      - generic [ref=f11e215]: Analyse
+    - paragraph [ref=f11e218]: Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Verwendung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter. Unsere Partner führen diese Informationen möglicherweise mit weiteren Daten zusammen, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung der Dienste gesammelt haben. Sie geben Einwilligung zu unseren Cookies, wenn Sie unsere Webseite weiterhin nutzen.
+    - generic [ref=f11e219]:
+      - button "Alle akzeptieren" [ref=f11e220] [cursor=pointer]
+      - button "Nur essentielle Cookies akzeptieren" [ref=f11e221] [cursor=pointer]
+      - button "Speichern und schließen" [ref=f11e222] [cursor=pointer]
+    - link "Mehr über die genutzten Cookies erfahren" [ref=f11e224] [cursor=pointer]:
+      - /url: https://www.quellwerke.de/datenschutz

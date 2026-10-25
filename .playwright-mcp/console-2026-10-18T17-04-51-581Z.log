@@ -1,0 +1,11 @@
+[     882ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.cronos.de/jobs:0
+[    1161ms] [LOG] NEW1 @ :7
+[    1256ms] [LOG] /jobs @ :7
+[    1267ms] [WARNING] jQuery.Deferred exception: autocomplete_format_item is not defined ReferenceError: autocomplete_format_item is not defined
+    at HTMLDocument.<anonymous> (<anonymous>:4:171)
+    at e (https://www.cronos.de/jobs/js/jquery-3.7.1.min.js:2:27028)
+    at t (https://www.cronos.de/jobs/js/jquery-3.7.1.min.js:2:27330) undefined @ https://www.cronos.de/jobs/js/jquery-3.7.1.min.js:1
+[    1281ms] ReferenceError: autocomplete_format_item is not defined
+    at HTMLDocument.<anonymous> (<anonymous>:4:171)
+    at e (https://www.cronos.de/jobs/js/jquery-3.7.1.min.js:2:27028)
+    at t (https://www.cronos.de/jobs/js/jquery-3.7.1.min.js:2:27330)

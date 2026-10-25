@@ -303,3 +303,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## rexx (career.check24.de)
 - LinkedIn link is authwall: jobs.check24.de/de/jobs/?q=Teamleiter lists jobs -> career.check24.de/...-f<id>.html. Selects are custom (set native select via JS+change); each upload opens a 'KI Hinweis' jQuery dialog (Akzeptieren/Ablehnen) that re-opens and keeps an overlay; 'anschreiben' input lands in the CV preview slot (replaces CV) - upload one merged PDF (cover+CV) into the CV slot only, and handle the dialog before the next click. Unresolved: parked.
+
+## WMF (Groupe SEB)
+- wmf.com is only the shop; careers at aboutwmf.com/de/karriere/ -> groupeseb.taleo.net jobsearch; no initiative form, contact karriere@groupeseb.com
+
+## Westernacher
+- westernacher.com/join lists jobs on jobs.eu.lever.co/westernacher; only Asia roles + a Japanese general application, no German initiative form

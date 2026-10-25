@@ -1,0 +1,40 @@
+- generic [ref=f5e2]:
+  - navigation [ref=f5e6]:
+    - generic [ref=f5e7]:
+      - link [ref=f5e8] [cursor=pointer]:
+        - /url: /engage/jobexchange/showJobOfferList.do?j=jobexchange
+        - img "Company Logo" [ref=f5e9]
+      - button "Toggle navigation" [ref=f5e10] [cursor=pointer]
+  - generic [ref=f5e19]:
+    - generic [ref=f5e20]:
+      - heading "Digital Product Manager (m/f/d) Webshop & Digital Tools" [level=1] [ref=f5e21]
+      - paragraph [ref=f5e22]: Bewerben Sie sich bequem über unser Bewerbermanagementsystem, das wird ca. 5 Minuten in Anspruch nehmen.
+      - paragraph [ref=f5e23]: Sie können das Online-Formular selbst ausfüllen oder Ihren Lebenslauf als PDF hochladen, um bestimmte Felder wie Name oder Adresse automatisch ausfüllen zu lassen.
+      - paragraph [ref=f5e24]: Die Daten werden erst übermittelt, wenn alle Pflichtfelder ausgefüllt sind und Sie auf versenden klicken.
+    - group [ref=f5e25]:
+      - paragraph [ref=f5e27]: Mit Online-Formular bewerben
+      - button "Jetzt bewerben" [ref=f5e28] [cursor=pointer]
+    - group [ref=f5e29]:
+      - generic [ref=f5e31]:
+        - paragraph [ref=f5e33]: Bewerbungsformular automatisch ausfüllen lassen
+        - generic [ref=f5e35]:
+          - generic [ref=f5e36]:
+            - button "CV auswählen" [ref=f5e37]
+            - button "Auswählen..." [ref=f5e38] [cursor=pointer]
+            - textbox "CV auswählen" [ref=f5e39]
+          - button "Weiter" [disabled]
+  - contentinfo [ref=f5e41]:
+    - paragraph [ref=f5e43]: © Ensinger
+    - list [ref=f5e45]:
+      - listitem [ref=f5e46]:
+        - link "Datenschutzerklärung" [ref=f5e47] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/datenschutzerklaerung
+      - listitem [ref=f5e48]:
+        - link "Impressum" [ref=f5e49] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/impressum
+      - listitem [ref=f5e50]:
+        - link "Allgemeine Geschäftsbedingungen" [ref=f5e51] [cursor=pointer]:
+          - /url: https://www.ensingerplastics.com/de-de/allgemeine-geschaeftsbedingungen
+      - listitem [ref=f5e52]:
+        - link "Cookie-Einstellungen" [ref=f5e53] [cursor=pointer]:
+          - /url: https://jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do/#cmpscreencustom

@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Nordason GmbH logo" [ref=e11]
+        - generic [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom
+            - paragraph [ref=e14]: Nordason
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom/16832591-frontend-developer-e-commerce-w-m-d
+            - paragraph [ref=e16]: Frontend Developer E-Commerce (w/m/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=e20]: KC
+        - generic [ref=e21]: Kranti Chavan
+    - generic [ref=e83]:
+      - heading "Laden Sie Ihr Anschreiben hoch" [level=2] [ref=e84]
+      - generic [ref=e87]:
+        - button "dropzone" [ref=e88] [cursor=pointer]:
+          - generic:
+            - generic:
+              - paragraph: Datei hochladen
+              - generic:
+                - paragraph: Wählen Sie eine Datei aus oder ziehen Sie sie hierher.
+                - paragraph: Die Dateigröße ist auf 10 MB begrenzt.
+        - button [aria-hidden] [ref=e89]
+    - generic [ref=e43]:
+      - progressbar "22%" [ref=e90]
+      - generic [ref=e48]:
+        - button "Zurück" [ref=e91] [cursor=pointer]
+        - button "Weiter" [disabled] [ref=e56]
+  - alert [ref=e4]: "Nordason (Hamburg): Frontend Developer E-Commerce (w/m/d)"
+  - region "Notifications, bottom-end (alt+T)"

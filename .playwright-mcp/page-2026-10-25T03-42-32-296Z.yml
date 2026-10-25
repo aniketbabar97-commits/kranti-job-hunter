@@ -1,0 +1,147 @@
+- generic [ref=f133e5]:
+  - banner [ref=f133e7]:
+    - link [ref=f133e8] [cursor=pointer]:
+      - /url: /
+      - img "Logo Severin Elektrogeräte GmbH" [ref=f133e9]
+  - main [ref=f133e10]:
+    - generic [ref=f133e12]:
+      - group "Navigation" [ref=f133e13]:
+        - link " Zum Stellenangebot" [ref=f133e14] [cursor=pointer]:
+          - /url: /stellenangebote/senior-it-manager-digital-platforms-enterprise-applications-m-w-d-28008
+          - generic [ref=f133e15]: 
+          - text: Zum Stellenangebot
+        - link " Alle Stellenangebote" [ref=f133e16] [cursor=pointer]:
+          - /url: /stellenangebote
+          - generic [ref=f133e17]: 
+          - text: Alle Stellenangebote
+      - generic [ref=f133e19]:
+        - heading "Senior IT Manager Digital Platforms & Enterprise Applications (m/w/d)" [level=1] [ref=f133e20]
+        - heading "Severin Elektrogeräte GmbH" [level=2] [ref=f133e21]
+        - generic [ref=f133e22]:
+          - generic [ref=f133e23]:
+            - generic [ref=f133e24]: 
+            - text: Severin Elektrogeräte GmbHRöhre 2759846 Sundern
+          - generic [ref=f133e25]:
+            - generic [ref=f133e26]: 
+            - text: Stellenangebot
+        - generic [ref=f133e28]:
+          - separator [ref=f133e30]
+          - generic [ref=f133e34]:
+            - generic [ref=f133e35]:
+              - tablist [ref=f133e36]:
+                - listitem [ref=f133e37]:
+                  - button "Deine Daten" [ref=f133e38] [cursor=pointer]
+                - listitem [ref=f133e40]:
+                  - button "Deine Bewerbungsunterlagen" [ref=f133e41] [cursor=pointer]
+                - listitem [ref=f133e43]:
+                  - button "Stellenangebot ansehen " [ref=f133e44] [cursor=pointer]
+              - tabpanel "Deine Bewerbungsunterlagen" [ref=f133e111]:
+                - heading "2. Deine Bewerbungsunterlagen" [level=2] [ref=f133e112]
+                - generic [ref=f133e114]:
+                  - heading "Das brauchen wir von Dir:" [level=3] [ref=f133e115]
+                  - paragraph [ref=f133e117]: Lade im Folgenden nun Deine Bewerbungsunterlagen hoch. In der Regel reicht uns ein Lebenslauf sowie idealerweise ein Bewerbungsfoto von Dir. Sofern Du alle anderen Unterlagen ohnehin parat hast, freuen wir uns natürlich auch über Deine vollständigen Unterlagen, damit wir uns ein ganzheitliches Bild von Deinen Qualifikationen und Erfahrungen machen können.
+                - generic [ref=f133e119]:
+                  - button "Dein Bewerbungsbild:" [ref=f133e120] [cursor=pointer]
+                  - generic [ref=f133e121]:
+                    - generic [ref=f133e122]:
+                      - 'button "Dein Bewerbungsbild: Bitte eine Datei wählen Durchsuchen" [ref=f133e123] [cursor=pointer]'
+                      - generic [ref=f133e124] [cursor=pointer]: Bitte eine Datei wählen Durchsuchen
+                    - button "" [ref=f133e125] [cursor=pointer]
+                - generic [ref=f133e128]:
+                  - 'button "Dein Lebenslauf: *" [ref=f133e129] [cursor=pointer]'
+                  - generic [ref=f133e130]:
+                    - generic [ref=f133e131]:
+                      - 'button "Dein Lebenslauf: * Bitte eine Datei wählen Durchsuchen" [active] [ref=f133e132] [cursor=pointer]'
+                      - generic [ref=f133e133] [cursor=pointer]: Bitte eine Datei wählen Durchsuchen
+                    - button "" [ref=f133e134] [cursor=pointer]
+                  - table [ref=f133e200]:
+                    - rowgroup [ref=f133e201]:
+                      - row [ref=f133e202]:
+                        - columnheader "Dateiname" [ref=f133e203]
+                        - columnheader "Dateigröße" [ref=f133e204]
+                        - columnheader "Status" [ref=f133e205]
+                    - rowgroup [ref=f133e206]:
+                      - row [ref=f133e207]:
+                        - cell "Kranti_Chavan_CV_Severin-H_Senior-IT-Manager-Digital-Platforms-Enterprise.pdf" [ref=f133e208]
+                        - cell "0.04 MB" [ref=f133e209]
+                        - cell " OK" [ref=f133e210]:
+                          - generic [ref=f133e211]:
+                            - generic [ref=f133e212]: 
+                            - text: OK
+                - generic [ref=f133e137]:
+                  - button "Dein Anschreiben:" [ref=f133e138] [cursor=pointer]
+                  - generic [ref=f133e139]:
+                    - generic [ref=f133e140]:
+                      - 'button "Dein Anschreiben: Bitte eine Datei wählen Durchsuchen" [ref=f133e141] [cursor=pointer]'
+                      - generic [ref=f133e142] [cursor=pointer]: Bitte eine Datei wählen Durchsuchen
+                    - button "" [ref=f133e143] [cursor=pointer]
+                - generic [ref=f133e146]:
+                  - button "Zeugnisse und Zertifikate:" [ref=f133e147] [cursor=pointer]
+                  - generic [ref=f133e148]:
+                    - generic [ref=f133e149]:
+                      - 'button "Zeugnisse und Zertifikate: Bitte eine Datei wählen Durchsuchen" [ref=f133e150] [cursor=pointer]'
+                      - generic [ref=f133e151] [cursor=pointer]: Bitte eine Datei wählen Durchsuchen
+                    - button "" [ref=f133e152] [cursor=pointer]
+                - generic [ref=f133e155]:
+                  - button "Sonstiges:" [ref=f133e156] [cursor=pointer]
+                  - generic [ref=f133e157]:
+                    - generic [ref=f133e158]:
+                      - 'button "Sonstiges: Bitte eine Datei wählen Durchsuchen" [ref=f133e159] [cursor=pointer]'
+                      - generic [ref=f133e160] [cursor=pointer]: Bitte eine Datei wählen Durchsuchen
+                    - button "" [ref=f133e161] [cursor=pointer]
+                - generic [ref=f133e164]:
+                  - heading "Weitere Informationen:" [level=3] [ref=f133e165]
+                  - paragraph [ref=f133e167]: "Lieben Dank für Deine Bewerbung, Du hast es gleich auch geschafft. Drei abschließende Fragen würden uns jedoch noch interessieren:"
+                - generic [ref=f133e169]:
+                  - button "Deine Gehaltsvorstellungen:" [ref=f133e170] [cursor=pointer]
+                  - textbox "Deine Gehaltsvorstellungen:" [ref=f133e171]
+                - generic [ref=f133e173]:
+                  - button "Deine aktuelle Kündigungsfrist:" [ref=f133e174] [cursor=pointer]
+                  - textbox "Deine aktuelle Kündigungsfrist:" [ref=f133e175]
+                - generic [ref=f133e177]:
+                  - button "Wie bist Du auf Severin aufmerksam geworden? *" [ref=f133e178] [cursor=pointer]
+                  - combobox "Wie bist Du auf Severin aufmerksam geworden? *" [ref=f133e179]:
+                    - option "Bitte auswählen" [selected]
+                    - option "Severin-Webseite"
+                    - option "Instagram, Facebook, TikTok"
+                    - option "Linked, Xing"
+                    - option "Jobportale (Indeed, Stepstone etc.)"
+                    - option "Karriere Südwestfalen, Karriere Metropole Ruhr"
+                    - option "Familie, Freunde und Bekannte"
+                    - option "Karrieremessen"
+                    - option "Google"
+                    - option "Sonstiges"
+                - generic [ref=f133e180]:
+                  - generic [ref=f133e181]:
+                    - heading "Geschafft!" [level=3] [ref=f133e182]
+                    - generic [ref=f133e183]:
+                      - paragraph [ref=f133e184]: Lieben Dank für Deine Eintragungen. Sobald Du auf "Bewerbung senden" gedrückt hast bekommst Du eine automatische Eingangsbestätigung von uns sowie eine Nachricht zur Vergabe eines PINs. Diesen PIN bitte unbedingt vergeben, sodass Du weitere Nachrichten von uns bekommen kannst.
+                      - paragraph [ref=f133e185]
+                  - generic [ref=f133e186]:
+                    - heading [level=3] [ref=f133e187]:
+                      - text: Information zum Datenschutz
+                      - strong [ref=f133e188]: "*"
+                    - generic [ref=f133e191]:
+                      - checkbox "Ich habe die Datenschutzerklärung zur Kenntnis genommen." [ref=f133e192]
+                      - generic [ref=f133e193] [cursor=pointer]: Ich habe die Datenschutzerklärung zur Kenntnis genommen.
+            - generic [ref=f133e97]:
+              - button " Zurück" [ref=f133e195] [cursor=pointer]:
+                - generic [ref=f133e196]: 
+                - text: Zurück
+              - button " Bewerbung senden" [disabled] [ref=f133e197] [cursor=pointer]:
+                - generic [ref=f133e198]: 
+                - text: Bewerbung senden
+  - contentinfo [ref=f133e101]:
+    - img "talentstorm" [ref=f133e102]
+    - generic [ref=f133e104]:
+      - generic [ref=f133e105]: 2026-10-07 15:38
+      - generic [ref=f133e106]:
+        - text: Powered by
+        - link "talentstorm" [ref=f133e107] [cursor=pointer]:
+          - /url: https://www.talentstorm-bewerbermanagement.de
+      - generic [ref=f133e108]:
+        - link "Impressum" [ref=f133e109] [cursor=pointer]:
+          - /url: https://severin.com/de-de/impressum/
+        - text: "|"
+        - link "Datenschutz" [ref=f133e110] [cursor=pointer]:
+          - /url: https://severin.com/de-de/datenschutzerklarung/

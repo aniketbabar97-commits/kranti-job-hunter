@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - img "Nordason GmbH logo" [ref=e11]
+        - generic [ref=e12]:
+          - link [ref=e13] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom
+            - paragraph [ref=e14]: Nordason
+          - link [ref=e15] [cursor=pointer]:
+            - /url: https://join.com/companies/nordasoncom/16832591-frontend-developer-e-commerce-w-m-d
+            - paragraph [ref=e16]: Frontend Developer E-Commerce (w/m/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=e20]: KC
+        - generic [ref=e21]: Kranti Chavan
+    - generic [ref=e631]:
+      - heading "Prüfen Sie Ihre Bewerbung" [level=2] [ref=e632]
+      - generic [ref=e633]:
+        - generic [ref=e634]:
+          - paragraph [ref=e636]: Persönliche Informationen
+          - generic [ref=e637]:
+            - generic [ref=e638] [cursor=pointer]:
+              - img "Kranti Chavan" [ref=e640]: KC
+              - generic [ref=e641]:
+                - paragraph [ref=e642]: Kranti Chavan
+                - paragraph [ref=e643]: Deutschland
+              - paragraph [ref=e644]: Bearbeiten
+            - separator [ref=e645]
+            - generic [ref=e646] [cursor=pointer]:
+              - paragraph [ref=e651]: "+4915750174177"
+              - paragraph [ref=e652]: Bearbeiten
+            - separator [ref=e653]
+            - generic [ref=e654] [cursor=pointer]:
+              - paragraph [ref=e660]: Karlsruhe, Deutschland
+              - paragraph [ref=e661]: Bearbeiten
+            - separator [ref=e662]
+            - generic [ref=e663] [cursor=pointer]:
+              - generic [ref=e668]:
+                - paragraph [ref=e669]: CV
+                - paragraph [ref=e670]: Kranti_Chavan_Lebenslauf_Nordason_Frontend-Developer-E-Commerce.pdf
+              - paragraph [ref=e671]: Bearbeiten
+            - generic [ref=e673] [cursor=pointer]:
+              - checkbox "Diesen CV standardmäßig für künftige Bewerbungen verwenden" [checked] [ref=e674]
+              - generic [ref=e678]: Diesen CV standardmäßig für künftige Bewerbungen verwenden
+        - generic [ref=e679]:
+          - paragraph [ref=e681]: Netzwerk-Links
+          - generic [ref=e684] [cursor=pointer]:
+            - generic [ref=e688]:
+              - paragraph [ref=e689]: LinkedIn
+              - paragraph [ref=e690]: linkedin.com/in/kranti-chavan-84a155191
+            - paragraph [ref=e691]: Bearbeiten
+        - generic [ref=e692]:
+          - paragraph [ref=e694]: Details zur Bewerbung
+          - generic [ref=e695]:
+            - generic [ref=e697] [cursor=pointer]:
+              - generic [ref=e698]:
+                - paragraph [ref=e699]: Wann wäre Ihr frühestmögliches Startdatum?
+                - paragraph [ref=e700]: 2026-12-16
+              - paragraph [ref=e701]: Bearbeiten
+            - separator [ref=e702]
+            - generic [ref=e704] [cursor=pointer]:
+              - generic [ref=e705]:
+                - paragraph [ref=e706]: Was ist Ihre jährliche Gehaltserwartung in EUR?
+                - paragraph [ref=e707]: "60000"
+              - paragraph [ref=e708]: Bearbeiten
+            - separator [ref=e709]
+            - generic [ref=e711] [cursor=pointer]:
+              - generic [ref=e712]:
+                - paragraph [ref=e713]: In welcher Stadt leben Sie derzeit?
+                - paragraph [ref=e714]: Karlsruhe
+              - paragraph [ref=e715]: Bearbeiten
+            - separator [ref=e716]
+            - generic [ref=e718] [cursor=pointer]:
+              - generic [ref=e719]:
+                - paragraph [ref=e720]: Können Sie regelmäßig vor Ort arbeiten?
+                - paragraph [ref=e721]: Ja
+              - paragraph [ref=e722]: Bearbeiten
+            - separator [ref=e723]
+            - generic [ref=e725] [cursor=pointer]:
+              - generic [ref=e726]:
+                - paragraph [ref=e727]: Wie gut sind Ihre Deutschkenntnisse?
+                - paragraph [ref=e728]: Gute Kenntnisse
+              - paragraph [ref=e729]: Bearbeiten
+            - separator [ref=e730]
+            - generic [ref=e732] [cursor=pointer]:
+              - generic [ref=e733]:
+                - paragraph [ref=e734]: Kopie von Interessieren Sie sich für eine Vollzeit- oder Teilzeitstelle?
+                - paragraph [ref=e735]: Keine Antwort
+              - paragraph [ref=e736]: Bearbeiten
+            - separator [ref=e737]
+            - generic [ref=e738] [cursor=pointer]:
+              - generic [ref=e739]:
+                - paragraph [ref=e740]: Anschreiben
+                - paragraph [ref=e748]: Kranti_Chavan_Anschreiben_Nordason_Frontend-Developer-E-Commerce.pdf
+              - paragraph [ref=e749]: Bearbeiten
+    - generic [ref=e43]:
+      - progressbar "100%" [ref=e750]
+      - generic [ref=e48]:
+        - button "Zurück" [ref=e91] [cursor=pointer]
+        - button [disabled] [ref=e753]
+  - alert [ref=e4]: "Nordason (Hamburg): Frontend Developer E-Commerce (w/m/d)"
+  - region "Notifications, bottom-end (alt+T)"

@@ -1,0 +1,126 @@
+- generic [ref=f37e1]:
+  - generic [ref=f37e2]:
+    - link "Zum Hauptinhalt springen" [ref=f37e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f37e4]:
+      - banner [ref=f37e6]:
+        - generic [ref=f37e7]:
+          - generic:
+            - link:
+              - /url: https://hmmh.jobs.personio.de
+          - 'combobox "Select language, current: Deutsch" [ref=f37e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=f37e14]:
+        - link "Zurück zur Stelle" [ref=f37e18] [cursor=pointer]:
+          - /url: /job/2619229
+        - generic [ref=f37e23]:
+          - generic [ref=f37e24]:
+            - heading "Senior Consultant/Architect | SAP CX (m/w/d)" [level=1] [ref=f37e25]
+            - generic [ref=f37e26]:
+              - generic [ref=f37e27]: Bremen, Remote
+              - generic [ref=f37e32]: Vollzeit
+              - generic [ref=f37e36]: Festanstellung
+          - generic [ref=f37e40]:
+            - heading "Wir freuen uns auf Dich!" [level=2] [ref=f37e41]
+            - generic [ref=f37e42]: Wir freuen uns über Dein Interesse an einer Mitarbeit bei hmmh. Solltest Du Schwierigkeiten mit dem Upload Deiner Daten haben, wende Dich gerne per Email an recruiting@hmmh.de.
+            - group [ref=f37e45]:
+              - generic [ref=f37e46]:
+                - group "Name (erforderlich)" [ref=f37e47]:
+                  - generic [ref=f37e48]:
+                    - text: Name*
+                    - generic [ref=f37e49]: (erforderlich)
+                  - generic [ref=f37e50]:
+                    - generic [ref=f37e51]:
+                      - generic [ref=f37e52]: Vorname
+                      - textbox "Vorname" [ref=f37e53]: Kranti
+                    - generic [ref=f37e55]:
+                      - generic [ref=f37e56]: Nachname
+                      - textbox "Nachname" [ref=f37e57]: Chavan
+                - generic [ref=f37e60]:
+                  - generic [ref=f37e61]:
+                    - text: E-Mail*
+                    - generic [ref=f37e62]: (erforderlich)
+                  - textbox "E-Mail (erforderlich)" [ref=f37e64]:
+                    - /placeholder: yourmail@domain.com
+                    - text: krantichavan198@gmail.com
+                - generic [ref=f37e67]:
+                  - generic [ref=f37e68]:
+                    - text: Adresse*
+                    - generic [ref=f37e69]: (erforderlich)
+                  - textbox "Adresse (erforderlich)" [ref=f37e71]:
+                    - /placeholder: Adresse
+                    - text: Blücherstraße 6, 76185 Karlsruhe, Deutschland
+                - generic [ref=f37e74]:
+                  - generic [ref=f37e75]: Telefon
+                  - textbox "Telefon" [ref=f37e77]:
+                    - /placeholder: +49 176 123 4455
+                    - text: +49 15750174177
+                - generic [ref=f37e80]:
+                  - generic [ref=f37e81]: Verfügbar ab
+                  - textbox "Verfügbar ab" [ref=f37e83]: 16.12.2026
+                - generic [ref=f37e86]:
+                  - generic [ref=f37e87]:
+                    - text: Gehaltsvorstellung*
+                    - generic [ref=f37e88]: (erforderlich)
+                  - textbox "Gehaltsvorstellung (erforderlich)" [ref=f37e90]:
+                    - /placeholder: Gehaltsvorstellung
+                    - text: 60.000 € brutto/Jahr (verhandelbar)
+                - generic [ref=f37e93]:
+                  - generic [ref=f37e94]:
+                    - text: Ich willige ein, dass meine Bewerbungsunterlagen über das aktuelle Bewerbungsverfahren hinaus gespeichert und in den Talent Pool aufgenommen werden, um bei zukünftigen passenden Stellenangeboten berücksichtigt zu werden.*
+                    - generic [ref=f37e95]: (erforderlich)
+                  - combobox "Ich willige ein, dass meine Bewerbungsunterlagen über das aktuelle Bewerbungsverfahren hinaus gespeichert und in den Talent Pool aufgenommen werden, um bei zukünftigen passenden Stellenangeboten berücksichtigt zu werden. (erforderlich)" [ref=f37e97] [cursor=pointer]:
+                    - option "Bitte auswählen"
+                    - option "Ja" [selected]
+                    - option "Nein"
+                - generic [ref=f37e99]:
+                  - generic [ref=f37e100]: GitHub (falls vorhanden)
+                  - textbox "GitHub (falls vorhanden)" [ref=f37e102]
+                - generic [ref=f37e105]:
+                  - generic [ref=f37e106]: LinkedIn (falls vorhanden)
+                  - textbox "LinkedIn (falls vorhanden)" [ref=f37e108]: https://www.linkedin.com/in/kranti-chavan-84a155191
+              - generic [ref=f37e110]:
+                - generic [ref=f37e111]:
+                  - heading "Dokumente" [level=3] [ref=f37e112]
+                  - generic [ref=f37e113]: Bitte sende uns Deinen aktuellen Lebenslauf und optional weitere Dokumente (Anschreiben, Zeugnisse, Zertifikate).
+                - group "Lebenslauf (erforderlich)" [ref=f37e114]:
+                  - generic [ref=f37e115]:
+                    - text: Lebenslauf*
+                    - generic [ref=f37e116]: (erforderlich)
+                  - generic [ref=f37e117]:
+                    - list "Uploaded files for Lebenslauf" [ref=f37e157]:
+                      - listitem [ref=f37e158]:
+                        - generic [ref=f37e159]: Kranti_Chavan_Lebenslauf_hmmh_Senior-Consultant-Architect-SAP-CX.pdf
+                        - button "Remove Kranti_Chavan_Lebenslauf_hmmh_Senior-Consultant-Architect-SAP-CX.pdf" [ref=f37e160] [cursor=pointer]: ×
+                    - button "Datei hinzufügen" [active] [ref=f37e118] [cursor=pointer]
+                - group "Anschreiben (Optional)" [ref=f37e121]:
+                  - generic [ref=f37e122]:
+                    - text: Anschreiben
+                    - generic [ref=f37e123]: (Optional)
+                  - button "Datei hinzufügen" [ref=f37e125] [cursor=pointer]
+                - group "Arbeitszeugnis (Optional)" [ref=f37e128]:
+                  - generic [ref=f37e129]:
+                    - text: Arbeitszeugnis
+                    - generic [ref=f37e130]: (Optional)
+                  - button "Datei hinzufügen" [ref=f37e132] [cursor=pointer]
+                - group "Andere (Optional)" [ref=f37e135]:
+                  - generic [ref=f37e136]:
+                    - text: Andere
+                    - generic [ref=f37e137]: (Optional)
+                  - button "Datei hinzufügen" [ref=f37e139] [cursor=pointer]
+              - button "Bewerbung senden" [ref=f37e143] [cursor=pointer]
+      - contentinfo [ref=f37e144]:
+        - generic [ref=f37e145]:
+          - generic [ref=f37e148]:
+            - img "Powered by Personio" [ref=f37e149]
+            - generic [ref=f37e150]:
+              - text: Powered by
+              - link [ref=f37e151] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=f37e152]: Personio
+          - generic [ref=f37e153]:
+            - link "Datenschutzerklärung" [ref=f37e154] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Impressum" [ref=f37e155] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=f37e156]

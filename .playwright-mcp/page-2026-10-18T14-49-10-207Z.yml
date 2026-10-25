@@ -1,0 +1,217 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: https://www.arbeitsagentur.de/
+      - img "Bundesagentur für Arbeit bringt weiter" [ref=e6]
+    - navigation [ref=e7]:
+      - heading "Hauptnavigation" [level=1] [ref=e8]
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - button "Suche" [ref=e11] [cursor=pointer]
+        - listitem
+        - listitem
+        - listitem
+        - listitem
+        - listitem [ref=e13]:
+          - button "Anmelden" [ref=e14] [cursor=pointer]
+        - listitem [ref=e16]:
+          - button "Menü" [ref=e18] [cursor=pointer]
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - link "Zur Jobsuche Startseite" [ref=e25] [cursor=pointer]:
+        - /url: /jobsuche/
+      - generic [ref=e26]:
+        - region [ref=e27]:
+          - article [ref=e28]:
+            - region [ref=e31]:
+              - generic [ref=e32]:
+                - 'heading "Stellenangebot: SAP CX Berater (m/w/d) - SAP CX Consultant bei Ratbacher GmbH" [level=1] [ref=e33]':
+                  - generic [ref=e34]: "Stellenangebot:"
+                  - generic [ref=e35]: SAP CX Berater (m/w/d) - SAP CX Consultant
+                  - generic [ref=e36]: bei
+                  - generic [ref=e37]: Ratbacher GmbH
+                - heading "Das Wichtigste im Überblick" [level=2] [ref=e38]
+                - heading "Besondere Merkmale" [level=3] [ref=e39]
+                - list [ref=e40]:
+                  - listitem [ref=e41]: Stelle im Rahmen der Personalvermittlung
+                - generic [ref=e42]:
+                  - generic [ref=e45]:
+                    - heading "Arbeitsort" [level=3] [ref=e46]
+                    - generic [ref=e47]: München
+                  - generic [ref=e48]:
+                    - generic [ref=e49]: 
+                    - generic [ref=e50]:
+                      - heading "Angebotsart" [level=3] [ref=e51]
+                      - generic [ref=e52]: Arbeit
+                  - generic [ref=e55]:
+                    - heading "Anstellungsart" [level=3] [ref=e56]
+                    - generic [ref=e57]: Vollzeit
+                  - generic [ref=e60]:
+                    - heading "Befristung" [level=3] [ref=e61]
+                    - generic [ref=e62]: unbefristet
+                  - generic [ref=e63]:
+                    - generic [ref=e64]: 
+                    - generic [ref=e65]:
+                      - heading "Beginn" [level=3] [ref=e66]
+                      - generic [ref=e67]: ab sofort
+                - generic [ref=e69]:
+                  - generic [ref=e70]: 
+                  - generic [ref=e71]:
+                    - heading "Berufsbezeichnung" [level=3] [ref=e72]
+                    - list [ref=e73]:
+                      - listitem [ref=e74]: ERP-Berater/in - ERP-Consultant
+                - generic [ref=e75]:
+                  - button "Vormerken" [ref=e76] [cursor=pointer]:  Vormerken
+                  - button "Aktionen für das Stellenangebot 11112-46582-1797606-0-S" [ref=e79] [cursor=pointer]:  Notiz / Status
+                  - button "Teilen" [ref=e80] [cursor=pointer]
+                - 'generic "Veröffentlichungsdatum: 25.09.2026" [ref=e85]':
+                  - generic [ref=e86]: "Veröffentlichungsdatum:"
+                  - text: Vor 23 Tagen veröffentlicht
+            - region [ref=e89]:
+              - generic [ref=e90]:
+                - heading "Stellenbeschreibung" [level=2] [ref=e91]
+                - generic [ref=e92]:
+                  - heading "Vollständige Stellenbeschreibung bei unserem Kooperationspartner einsehen:" [level=3] [ref=e93]
+                  - link "Externe Seite öffnen" [ref=e94] [cursor=pointer]:
+                    - /url: https://deutschland-stellenmarkt.de/job_show.php?id=bfa$bfa_11112-46582-1797606-0-S
+                  - paragraph [ref=e95]:
+                    - text: "Quelle:"
+                    - link "Deutschland-Stellenmarkt.de HR4YOU" [ref=e96] [cursor=pointer]:
+                      - /url: http://www.deutschland-stellenmarkt.de
+            - region [ref=e100]:
+              - generic [ref=e101]:
+                - heading "Fußbereich" [level=2] [ref=e102]
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]:
+                      - generic [ref=e106]: Stelle betreut durch Arbeitgeber
+                      - button "Hinweis zur Betreuung öffnen" [ref=e109] [cursor=pointer]
+                    - generic [ref=e111]:
+                      - text: "Referenz-Nr.: 11112-46582-1797606-0-S"
+                      - generic "In Zwischenablage kopieren" [ref=e113]:
+                        - button "kopieren" [ref=e116] [cursor=pointer]
+                  - link "Verstoß melden" [ref=e123] [cursor=pointer]:
+                    - /url: "javascript:"
+        - generic:
+          - button [aria-hidden]
+  - contentinfo [ref=e126]:
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Folgen Sie uns in den sozialen Medien" [level=2] [ref=e130]
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "zur Xing-Seite der BA" [ref=e134] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/bundesagentur
+            - listitem [ref=e135]:
+              - link "zur Kununu-Seite der BA" [ref=e136] [cursor=pointer]:
+                - /url: https://www.kununu.com/de/bundesagentur-fuer-arbeit
+            - listitem [ref=e137]:
+              - link "zur LinkedIn-Seite der BA" [ref=e138] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bundesagentur-fuer-arbeit
+            - listitem [ref=e139]:
+              - link "zur Instagram-Seite der BA" [ref=e140] [cursor=pointer]:
+                - /url: https://www.instagram.com/bundesagenturfuerarbeit
+            - listitem [ref=e141]:
+              - link "zur Facebook-Seite der BA" [ref=e142] [cursor=pointer]:
+                - /url: https://www.facebook.com/bundesagenturfuerarbeit
+            - listitem [ref=e143]:
+              - link "zur YouTube-Seite der BA" [ref=e144] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/Arbeitsagentur
+        - navigation [ref=e145]:
+          - generic [ref=e147]:
+            - heading "Über die Bundesagentur für Arbeit" [level=2] [ref=e148]
+            - list "Über die Bundesagentur für Arbeit" [ref=e150]:
+              - listitem [ref=e151]:
+                - link "Kontakt" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/service-bereich/so-erreichen-sie-uns
+              - listitem [ref=e154]:
+                - link "Karriere bei der BA" [ref=e155] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bakarriere
+              - listitem [ref=e157]:
+                - link "Über uns" [ref=e158] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns
+              - listitem [ref=e160]:
+                - link "Veröffentlichungen" [ref=e161] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/ueber-uns/veroeffentlichungen
+              - listitem [ref=e163]:
+                - link "Presse" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/presse
+          - generic [ref=e167]:
+            - heading "Themenbereiche" [level=2] [ref=e168]
+            - list "Themenbereiche" [ref=e170]:
+              - listitem [ref=e171]:
+                - link "Arbeitslos und Arbeit finden" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/arbeitslos-arbeit-finden
+              - listitem [ref=e174]:
+                - link "Schule, Ausbildung und Studium" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/bildung
+              - listitem [ref=e177]:
+                - link "Familie und Kinder" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/familie-und-kinder
+              - listitem [ref=e180]:
+                - link "Menschen mit Behinderungen" [ref=e181] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/menschen-mit-behinderungen
+              - listitem [ref=e183]:
+                - link "Karriere und Weiterbildung" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/karriere-und-weiterbildung
+              - listitem [ref=e186]:
+                - link "Zum Arbeiten nach Deutschland" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/int/de/menschen-aus-dem-ausland
+          - generic [ref=e190]:
+            - heading "Services" [level=2] [ref=e191]
+            - list "Services" [ref=e193]:
+              - listitem [ref=e194]:
+                - link "eServices im Überblick" [ref=e195] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/eservices
+              - listitem [ref=e197]:
+                - link "Dienststelle finden" [ref=e198] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/portal/dienststellensuche
+              - listitem [ref=e200]:
+                - link "Newsletter" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/newsletter
+              - listitem [ref=e203]:
+                - link "Apps" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.arbeitsagentur.de/apps
+          - generic [ref=e207]:
+            - heading "Weitere Internetauftritte" [level=2] [ref=e208]
+            - list "Weitere Internetauftritte" [ref=e210]:
+              - listitem [ref=e211]:
+                - link "Arbeitsmarktmonitor" [ref=e212] [cursor=pointer]:
+                  - /url: https://arbeitsmarktmonitor.arbeitsagentur.de/
+              - listitem [ref=e214]:
+                - link "Berufsinformationen BERUFENET" [ref=e215] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufenet/
+              - listitem [ref=e217]:
+                - link "Berufsvideos BERUFE.TV" [ref=e218] [cursor=pointer]:
+                  - /url: https://web.arbeitsagentur.de/berufetv/start
+              - listitem [ref=e220]:
+                - link "mein NOW" [ref=e221] [cursor=pointer]:
+                  - /url: https://mein-now.de/
+              - listitem [ref=e223]:
+                - link "Statistik" [ref=e224] [cursor=pointer]:
+                  - /url: https://statistik.arbeitsagentur.de/
+      - separator [ref=e226]
+      - navigation "Informationen über die Seite" [ref=e227]:
+        - list [ref=e229]:
+          - listitem [ref=e230]:
+            - link "Impressum" [ref=e231] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/impressum
+          - listitem [ref=e233]:
+            - link "Datenschutz" [ref=e234] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/datenschutz
+          - listitem [ref=e236]:
+            - button "Cookie-Einstellungen" [ref=e237] [cursor=pointer]
+          - listitem [ref=e239]:
+            - link "Rechtliche Hinweise" [ref=e240] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/rechtliche-hinweise
+          - listitem [ref=e242]:
+            - link "Barrieren melden" [ref=e243] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/link/kontakt-barrierefreiheit
+          - listitem [ref=e245]:
+            - link "Fehler melden" [ref=e247] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e248]:
+            - link "Erklärung zur Barrierefreiheit" [ref=e249] [cursor=pointer]:
+              - /url: https://www.arbeitsagentur.de/erklaerung-barrierefreiheit
+          - listitem [ref=e251]: © Bundesagentur für Arbeit 2026

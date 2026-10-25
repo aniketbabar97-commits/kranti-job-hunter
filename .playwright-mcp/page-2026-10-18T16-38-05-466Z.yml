@@ -1,0 +1,149 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - link "ValueNet" [ref=e9] [cursor=pointer]:
+            - /url: https://valuenet-group.jobs.personio.de
+            - img "ValueNet" [ref=e10]
+          - 'combobox "Select language, current: English" [ref=e13] [cursor=pointer]':
+            - generic: English
+      - main [ref=e17]:
+        - link "Back to job" [ref=e21] [cursor=pointer]:
+          - /url: /job/2845727?display=en
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Senior Odoo Engineer ERP & E-Commerce (all genders)" [level=1] [ref=e28]
+            - generic [ref=e29]:
+              - generic [ref=e30]: München
+              - generic [ref=e35]: Full-time
+              - generic [ref=e39]: Permanent employee
+          - generic [ref=e43]:
+            - heading "Your application!" [level=2] [ref=e44]
+            - generic [ref=e45]: We appreciate your interest in Demo GmbH. Please fill in the following short form. Should you have any difficulties in uploading your files, please contact us by mail at demodaten@demo.de.
+            - group [ref=e48]:
+              - generic [ref=e49]:
+                - group "Name (required)" [ref=e50]:
+                  - generic [ref=e51]:
+                    - text: Name*
+                    - generic [ref=e52]: (required)
+                  - generic [ref=e53]:
+                    - generic [ref=e54]:
+                      - generic [ref=e55]: First
+                      - textbox "First" [ref=e56]: Kranti
+                    - generic [ref=e58]:
+                      - generic [ref=e59]: Last
+                      - textbox "Last" [ref=e60]: Chavan
+                - generic [ref=e63]:
+                  - generic [ref=e64]:
+                    - text: Email*
+                    - generic [ref=e65]: (required)
+                  - textbox "Email (required)" [ref=e67]:
+                    - /placeholder: yourmail@domain.com
+                    - text: krantichavan198@gmail.com
+                - generic [ref=e70]:
+                  - generic [ref=e71]:
+                    - text: Phone*
+                    - generic [ref=e72]: (required)
+                  - textbox "Phone (required)" [ref=e74]:
+                    - /placeholder: +49 176 123 4455
+                    - text: "+4915750174177"
+                - generic [ref=e77]:
+                  - generic [ref=e78]: Available from
+                  - textbox "Available from" [ref=e80]: 2026-12-16
+                - generic [ref=e83]:
+                  - generic [ref=e84]: Expected salary
+                  - textbox "Expected salary" [ref=e86]: "60000"
+                - generic [ref=e89]:
+                  - generic [ref=e90]: XING
+                  - textbox "XING" [ref=e92]
+                - generic [ref=e95]:
+                  - generic [ref=e96]: LinkedIn
+                  - textbox "LinkedIn" [ref=e98]: https://www.linkedin.com/in/kranti-chavan-84a155191
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - text: English languague skills, written and spoken*
+                    - generic [ref=e103]: (required)
+                  - combobox "English languague skills, written and spoken (required)" [ref=e105] [cursor=pointer]:
+                    - option "Please select"
+                    - option "I am a native English speaker"
+                    - option "I speak English at almost a native level (C2)" [selected]
+                    - option "I have good to very good English skills (min. C1)"
+                    - option "I speak some English (B2 or below)"
+                    - option "I do not speak English"
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - text: Can you imagine working locally in Munich, even within a hybrid model?*
+                    - generic [ref=e109]: (required)
+                  - combobox "Can you imagine working locally in Munich, even within a hybrid model? (required)" [ref=e111] [cursor=pointer]:
+                    - option "Please select"
+                    - option "Yes, regular attendance is possible for me" [selected]
+                    - option "No, I want to work exclusively remotely"
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - text: German language skills, written and spoken*
+                    - generic [ref=e115]: (required)
+                  - combobox "German language skills, written and spoken (required)" [ref=e117] [cursor=pointer]:
+                    - option "Please select"
+                    - option "I am a native German speaker"
+                    - option "I speak German at almost a native level (C2)"
+                    - option "I have good to very good German skills (min. C1)"
+                    - option "I speak some German (B2 or below)" [selected]
+                    - option "I do not speak German"
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - text: Have you already developed your own Odoo modules and put them into production?*
+                    - generic [ref=e121]: (required)
+                  - combobox "Have you already developed your own Odoo modules and put them into production? (required)" [ref=e123] [cursor=pointer]:
+                    - option "Please select"
+                    - option "Yes, I have practical experience in Odoo development"
+                    - option "No, I'm only familiar with Odoo from the perspective of a user, key user, or consultant."
+                    - option "No, I don't have any practical experience with Odoo" [selected]
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - text: Have you developed anything using Python?*
+                    - generic [ref=e127]: (required)
+                  - combobox "Have you developed anything using Python? (required)" [ref=e129] [cursor=pointer]:
+                    - option "Please select"
+                    - option "Yes, I have experience developing in Python"
+                    - option "No, I don't have any experience developing in Python yet" [selected]
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - heading "Documents" [level=3] [ref=e132]
+                  - generic [ref=e133]: Please upload your CV, recent certificates as well as a brief cover letter (in total max. 20 MB).
+                - group "CV (required)" [ref=e134]:
+                  - generic [ref=e135]:
+                    - text: CV*
+                    - generic [ref=e136]: (required)
+                  - generic [ref=e137]:
+                    - list "Uploaded files for CV" [ref=e163]:
+                      - listitem [ref=e164]:
+                        - generic [ref=e165]: Kranti_Chavan_CV_ValueNet-Group_Senior-Odoo-Engineer-ERP-E-Commerce.pdf
+                        - button "Remove Kranti_Chavan_CV_ValueNet-Group_Senior-Odoo-Engineer-ERP-E-Commerce.pdf" [ref=e166] [cursor=pointer]: ×
+                      - listitem [ref=e167]:
+                        - generic [ref=e168]: Kranti_Chavan_Cover_Letter_ValueNet-Group_Senior-Odoo-Engineer-ERP-E-Commerce.pdf
+                        - button "Remove Kranti_Chavan_Cover_Letter_ValueNet-Group_Senior-Odoo-Engineer-ERP-E-Commerce.pdf" [ref=e169] [cursor=pointer]: ×
+                    - button "Add file" [active] [ref=e138] [cursor=pointer]
+                - group "Other (Optional)" [ref=e141]:
+                  - generic [ref=e142]:
+                    - text: Other
+                    - generic [ref=e143]: (Optional)
+                  - button "Add file" [ref=e145] [cursor=pointer]
+              - button "Submit Application" [ref=e149] [cursor=pointer]
+      - contentinfo [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e154]:
+            - img "Powered by Personio" [ref=e155]
+            - generic [ref=e156]:
+              - text: Powered by
+              - link [ref=e157] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=e158]: Personio
+          - generic [ref=e159]:
+            - link "Data privacy statement" [ref=e160] [cursor=pointer]:
+              - /url: /privacy-policy?language=en
+            - link "Legal Notice" [ref=e161] [cursor=pointer]:
+              - /url: https://www.valuenet.de/impressum
+  - alert [ref=e162]

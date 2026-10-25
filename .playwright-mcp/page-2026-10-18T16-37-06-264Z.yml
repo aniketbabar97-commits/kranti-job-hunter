@@ -1,0 +1,136 @@
+- generic [ref=f14e1]:
+  - generic [ref=f14e7]:
+    - generic [ref=f14e9]:
+      - generic [ref=f14e10]:
+        - img "Holz-Richter GmbH logo" [ref=f14e11]
+        - generic [ref=f14e12]:
+          - link [ref=f14e13] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter
+            - paragraph [ref=f14e14]: Holz-Richter GmbH
+          - link [ref=f14e15] [cursor=pointer]:
+            - /url: https://join.com/companies/holz-richter/16831928-shopify-e-commerce-manager-product-owner-m-w-d
+            - paragraph [ref=f14e16]: Shopify E-Commerce Manager / Product Owner (m/w/d)
+      - button "Kranti Chavan Kranti Chavan" [ref=f14e17] [cursor=pointer]:
+        - img "Kranti Chavan" [ref=f14e20]: KC
+        - generic [ref=f14e21]: Kranti Chavan
+    - generic [ref=f14e104]:
+      - heading "Wann wäre Ihr frühestmögliches Startdatum?" [level=2] [ref=f14e105]
+      - application "calendar" [ref=f14e109]:
+        - generic [ref=f14e110]:
+          - generic [ref=f14e111]:
+            - button "Switch to previous month" [ref=f14e112]:
+              - generic "IconButton" [ref=f14e113] [cursor=pointer]
+            - generic [ref=f14e116]:
+              - generic [ref=f14e117]:
+                - log [ref=f14e119]
+                - generic [ref=f14e121] [cursor=pointer]:
+                  - paragraph [ref=f14e123]: Dezember
+                  - combobox [ref=f14e125]
+              - generic [ref=f14e126]:
+                - log [ref=f14e128]
+                - generic [ref=f14e130] [cursor=pointer]:
+                  - paragraph [ref=f14e132]: "2026"
+                  - combobox [ref=f14e134]
+            - button "Switch to next month" [ref=f14e135]:
+              - generic "IconButton" [ref=f14e136] [cursor=pointer]
+          - grid [ref=f14e140]:
+            - rowgroup [aria-hidden] [ref=f14e141]:
+              - row [ref=f14e142]:
+                - columnheader [ref=f14e143]:
+                  - generic [ref=f14e144]: Mo
+                - columnheader [ref=f14e145]:
+                  - generic [ref=f14e146]: Di
+                - columnheader [ref=f14e147]:
+                  - generic [ref=f14e148]: Mi
+                - columnheader [ref=f14e149]:
+                  - generic [ref=f14e150]: Do
+                - columnheader [ref=f14e151]:
+                  - generic [ref=f14e152]: Fr
+                - columnheader [ref=f14e153]:
+                  - generic [ref=f14e154]: Sa
+                - columnheader [ref=f14e155]:
+                  - generic [ref=f14e156]: So
+            - rowgroup [ref=f14e157]:
+              - row [ref=f14e401]:
+                - gridcell [ref=f14e402]:
+                  - button "Choose Montag, 30. November 2026" [ref=f14e404] [cursor=pointer]: "30"
+                - gridcell [ref=f14e405]:
+                  - button "Choose Dienstag, 1. Dezember 2026" [ref=f14e407] [cursor=pointer]: "1"
+                - gridcell [ref=f14e408]:
+                  - button "Choose Mittwoch, 2. Dezember 2026" [ref=f14e410] [cursor=pointer]: "2"
+                - gridcell [ref=f14e411]:
+                  - button "Choose Donnerstag, 3. Dezember 2026" [ref=f14e413] [cursor=pointer]: "3"
+                - gridcell [ref=f14e414]:
+                  - button "Choose Freitag, 4. Dezember 2026" [ref=f14e416] [cursor=pointer]: "4"
+                - gridcell [ref=f14e417]:
+                  - button "Choose Samstag, 5. Dezember 2026" [ref=f14e419] [cursor=pointer]: "5"
+                - gridcell [ref=f14e420]:
+                  - button "Choose Sonntag, 6. Dezember 2026" [ref=f14e422] [cursor=pointer]: "6"
+              - row [ref=f14e423]:
+                - gridcell [ref=f14e424]:
+                  - button "Choose Montag, 7. Dezember 2026" [ref=f14e426] [cursor=pointer]: "7"
+                - gridcell [ref=f14e427]:
+                  - button "Choose Dienstag, 8. Dezember 2026" [ref=f14e429] [cursor=pointer]: "8"
+                - gridcell [ref=f14e430]:
+                  - button "Choose Mittwoch, 9. Dezember 2026" [ref=f14e432] [cursor=pointer]: "9"
+                - gridcell [ref=f14e433]:
+                  - button "Choose Donnerstag, 10. Dezember 2026" [ref=f14e435] [cursor=pointer]: "10"
+                - gridcell [ref=f14e436]:
+                  - button "Choose Freitag, 11. Dezember 2026" [ref=f14e438] [cursor=pointer]: "11"
+                - gridcell [ref=f14e439]:
+                  - button "Choose Samstag, 12. Dezember 2026" [ref=f14e441] [cursor=pointer]: "12"
+                - gridcell [ref=f14e442]:
+                  - button "Choose Sonntag, 13. Dezember 2026" [ref=f14e444] [cursor=pointer]: "13"
+              - row [ref=f14e511]:
+                - gridcell [ref=f14e446]:
+                  - button "Choose Montag, 14. Dezember 2026" [ref=f14e448] [cursor=pointer]: "14"
+                - gridcell [ref=f14e449]:
+                  - button "Choose Dienstag, 15. Dezember 2026" [ref=f14e451] [cursor=pointer]: "15"
+                - gridcell [selected] [ref=f14e512]:
+                  - button "Selected date. Mittwoch, 16. Dezember 2026" [active] [ref=f14e513] [cursor=pointer]: "16"
+                - gridcell [ref=f14e455]:
+                  - button "Choose Donnerstag, 17. Dezember 2026" [ref=f14e457] [cursor=pointer]: "17"
+                - gridcell [ref=f14e458]:
+                  - button "Choose Freitag, 18. Dezember 2026" [ref=f14e460] [cursor=pointer]: "18"
+                - gridcell [ref=f14e461]:
+                  - button "Choose Samstag, 19. Dezember 2026" [ref=f14e463] [cursor=pointer]: "19"
+                - gridcell [ref=f14e464]:
+                  - button "Choose Sonntag, 20. Dezember 2026" [ref=f14e466] [cursor=pointer]: "20"
+              - row [ref=f14e467]:
+                - gridcell [ref=f14e468]:
+                  - button "Choose Montag, 21. Dezember 2026" [ref=f14e470] [cursor=pointer]: "21"
+                - gridcell [ref=f14e471]:
+                  - button "Choose Dienstag, 22. Dezember 2026" [ref=f14e473] [cursor=pointer]: "22"
+                - gridcell [ref=f14e474]:
+                  - button "Choose Mittwoch, 23. Dezember 2026" [ref=f14e476] [cursor=pointer]: "23"
+                - gridcell [ref=f14e477]:
+                  - button "Choose Donnerstag, 24. Dezember 2026" [ref=f14e479] [cursor=pointer]: "24"
+                - gridcell [ref=f14e480]:
+                  - button "Choose Freitag, 25. Dezember 2026" [ref=f14e482] [cursor=pointer]: "25"
+                - gridcell [ref=f14e483]:
+                  - button "Choose Samstag, 26. Dezember 2026" [ref=f14e485] [cursor=pointer]: "26"
+                - gridcell [ref=f14e486]:
+                  - button "Choose Sonntag, 27. Dezember 2026" [ref=f14e488] [cursor=pointer]: "27"
+              - row [ref=f14e489]:
+                - gridcell [ref=f14e490]:
+                  - button "Choose Montag, 28. Dezember 2026" [ref=f14e492] [cursor=pointer]: "28"
+                - gridcell [ref=f14e493]:
+                  - button "Choose Dienstag, 29. Dezember 2026" [ref=f14e495] [cursor=pointer]: "29"
+                - gridcell [ref=f14e496]:
+                  - button "Choose Mittwoch, 30. Dezember 2026" [ref=f14e498] [cursor=pointer]: "30"
+                - gridcell [ref=f14e499]:
+                  - button "Choose Donnerstag, 31. Dezember 2026" [ref=f14e501] [cursor=pointer]: "31"
+                - gridcell [ref=f14e502]:
+                  - button "Choose Freitag, 1. Januar 2027" [ref=f14e504] [cursor=pointer]: "1"
+                - gridcell [ref=f14e505]:
+                  - button "Choose Samstag, 2. Januar 2027" [ref=f14e507] [cursor=pointer]: "2"
+                - gridcell [ref=f14e508]:
+                  - button "Choose Sonntag, 3. Januar 2027" [ref=f14e510] [cursor=pointer]: "3"
+    - generic [ref=f14e36]:
+      - progressbar "43%" [ref=f14e268]
+      - generic [ref=f14e41]:
+        - button "Zurück" [ref=f14e84] [cursor=pointer]
+        - button "Weiter" [ref=f14e49] [cursor=pointer]
+  - alert [ref=f14e4]: "Holz-Richter (Lindlar): Shopify E-Commerce Manager / Product Owner (m/w/d)"
+  - region "Notifications, bottom-end (alt+T)"
+  - alert [ref=f14e514]

@@ -1,0 +1,203 @@
+- document [ref=f1e2]:
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - generic [ref=f1e5]:
+        - navigation [ref=f1e6]:
+          - list [ref=f1e8]:
+            - listitem [ref=f1e9]:
+              - button "Jobs finden" [ref=f1e10] [cursor=pointer]
+            - listitem [ref=f1e11]:
+              - button "Karriere machen" [ref=f1e12] [cursor=pointer]
+            - listitem [ref=f1e13]:
+              - button "Mitarbeiter finden" [ref=f1e14] [cursor=pointer]
+            - listitem [ref=f1e15]:
+              - button "Über uns" [ref=f1e16] [cursor=pointer]
+        - 'link "Tel.: +49 (89) 411114-0" [ref=f1e18] [cursor=pointer]':
+          - /url: "tel: +49 (89) 411114-0"
+        - button [ref=f1e21] [cursor=pointer]:
+          - img "Lupe" [ref=f1e22]
+        - link [ref=f1e24] [cursor=pointer]:
+          - /url: /login/
+          - img "login" [ref=f1e25]
+        - generic [ref=f1e27] [cursor=pointer]:
+          - generic [ref=f1e28]: "0"
+          - img "Job-Box" [ref=f1e29]
+        - button "de" [ref=f1e32] [cursor=pointer]
+      - generic [ref=f1e33]:
+        - link [ref=f1e35] [cursor=pointer]:
+          - /url: https://www.vesterling.com/
+          - img "VESTERLING" [ref=f1e36]
+        - navigation [ref=f1e37]:
+          - button "Toggle navigation" [ref=f1e38] [cursor=pointer]
+  - img "Keyvisual Header" [ref=f1e41]
+  - navigation "breadcrumbs" [ref=f1e43]:
+    - paragraph [ref=f1e44]:
+      - link "Home" [ref=f1e45] [cursor=pointer]:
+        - /url: https://www.vesterling.com
+      - text: /
+      - link "Jobs finden" [ref=f1e46] [cursor=pointer]:
+        - /url: /jobs-finden/
+      - text: / SAP CX Spezialist | BW/4HANA, SAP BTP, SAP CRM, Projektleitung | Inhouse, bis 95.000 € (mwd)
+  - button [ref=f1e48] [cursor=pointer]:
+    - img "Kontakt-Icon" [ref=f1e49]
+  - main [ref=f1e50]:
+    - article [ref=f1e51]:
+      - generic [ref=f1e54]:
+        - heading "SAP CX Spezialist | BW/4HANA, SAP BTP, SAP CRM, Projektleitung | Inhouse, bis 95.000 € (mwd)" [level=1] [ref=f1e55]
+        - paragraph [ref=f1e56]: Unser Klient ist ein bekannter überregionaler Infrastruktur-Dienstleister. Er bedient seine Kunden seit Jahrzehnten mit viel Kompetenz und Erfahrung. Deshalb investiert er in erneuerbare Energiegewinnung und unterstützt Kommunen bei der Wärmewende sowie dem Ausbau von Elektromobilität. Als führender Dienstleister hat er hohe Ansprüche an sich und treibt innovative Projekte aktiv voran. Als Arbeitgeber bietet er beste Bedingungen und Entwicklungsperspektiven.
+      - generic [ref=f1e57]:
+        - complementary [ref=f1e58]:
+          - generic [ref=f1e60]:
+            - generic [ref=f1e61]: VesterlingJobBox
+            - link "Jetzt initiativ bewerben" [ref=f1e66] [cursor=pointer]:
+              - /url: /jobs-finden/jetzt-bewerben/
+        - complementary [ref=f1e67]:
+          - paragraph [ref=f1e68]:
+            - button "Stellendetails" [expanded] [ref=f1e69] [cursor=pointer]
+      - generic [ref=f1e70]:
+        - paragraph [ref=f1e71]: Als SAP CX Spezialist unterstützen Sie die Einführung und Weiterentwicklung der SAP CX Plattform.
+        - paragraph [ref=f1e72]: "Ort:"
+        - paragraph [ref=f1e73]: München (Home Office bis 60%)
+        - paragraph [ref=f1e74]: "Vertragsart:"
+        - paragraph [ref=f1e75]: Unbefristete Festanstellung durch unseren Klienten
+        - heading "Ihre Aufgaben" [level=3] [ref=f1e76]
+        - list [ref=f1e77]:
+          - listitem [ref=f1e78]: "Als SAP CX Spezialist unterstützen Sie die Einführung und Weiterentwicklung der SAP CX Plattform. Zu den Aufgaben gehören:"
+          - listitem [ref=f1e79]: Steuerung der externen Entwicklungspartner.
+          - listitem [ref=f1e80]: Verantwortung für die (Teil-)Projektleitung.
+          - listitem [ref=f1e81]: Steuern der Integration von Systemen wie SAP BW/4HANA, SAP BTP und weiterer non-SAP Systeme.
+          - listitem [ref=f1e82]: Entwicklung passgenauer Lösungen für Geschäftsprozesse.
+          - listitem [ref=f1e83]: Betreuung von Anwendern und Umsetzung von Schulungen und Erstellung von Dokumentationen.
+        - heading "Ihr Profil" [level=3] [ref=f1e84]
+        - list [ref=f1e85]:
+          - listitem [ref=f1e86]: Mehrjährige Erfahrung im Umfeld von SAP CX / SAP Customer Experience und/oder SAP CRM
+          - listitem [ref=f1e87]: Idealerweise Kenntnisse in Integrations- und Entwicklungstechnologien, z.B. SAP BTP, APIs oder SAP-Entwicklung
+          - listitem [ref=f1e88]: Gute Deutschkenntnisse in Wort und Schrift
+        - paragraph [ref=f1e90]:
+          - text: Machen Sie Ihren nächsten Karriereschritt und bewerben Sie sich gleich hier oder senden Sie uns Ihre vollständigen Bewerbungsunterlagen mit Angabe der Referenznummer 23699, Ihrer Gehaltsvorstellungen sowie ggf. Ihrer Reise- und Umzugsbereitschaft
+          - link "per E-Mail" [ref=f1e91] [cursor=pointer]:
+            - /url: mailto:Welcome@Vesterling.com?subject=Ihr%20Jobangebot%20auf%20vesterling.com%20(Ref.%20no.%2023699)
+          - text: (Ein Anschreiben ist nicht erforderlich). Ihre Daten werden von uns niemals ohne Ihre explizite Zustimmung für jeden Einzelfall weitergeleitet. Wir garantieren eine Rückmeldung innerhalb von 2 Arbeitstagen.
+        - generic [ref=f1e92]:
+          - generic [ref=f1e93]: Online bewerben
+          - generic [ref=f1e97]: VesterlingJobBox
+        - generic [ref=f1e102]:
+          - link [ref=f1e105] [cursor=pointer]:
+            - /url: mailto:?subject=SAP%20CX%20Spezialist%20%7C%20BW%2F4HANA%2C%20SAP%20BTP%2C%20SAP%20CRM%2C%20Projektleitung%20%7C%20Inhouse%2C%20bis%2095.000%20%E2%82%AC%20%28mwd%29&body=Ein%20interessantes%20Job-Angebot%20bei%20VESTERLING%20AG%3A%20https%3A%2F%2Fwww.vesterling.com%2Fjob%2F23699-sap-cx-spezialist-bw-4hana-sap-btp-sap-crm-projektleitung-muenchen-bis-60%2F
+            - text: Teilen per E-Mail
+            - img "envelope-Icon" [ref=f1e106]
+          - link [ref=f1e109] [cursor=pointer]:
+            - /url: https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.vesterling.com%2Fjob%2F23699-sap-cx-spezialist-bw-4hana-sap-btp-sap-crm-projektleitung-muenchen-bis-60%2F&title=SAP+CX+Spezialist+%7C+BW%2F4HANA%2C+SAP+BTP%2C+SAP+CRM%2C+Projektleitung+%7C+Inhouse%2C+bis+95.000+%E2%82%AC+%28mwd%29
+            - text: Teilen per Linkedin
+            - img "envelope-Icon" [ref=f1e110]
+          - link [ref=f1e113] [cursor=pointer]:
+            - /url: https://www.xing.com/spi/shares/new?url=https%3A%2F%2Fwww.vesterling.com%2Fjob%2F23699-sap-cx-spezialist-bw-4hana-sap-btp-sap-crm-projektleitung-muenchen-bis-60%2F&title=SAP+CX+Spezialist+%7C+BW%2F4HANA%2C+SAP+BTP%2C+SAP+CRM%2C+Projektleitung+%7C+Inhouse%2C+bis+95.000+%E2%82%AC+%28mwd%29
+            - text: Teilen per Xing
+            - img "envelope-Icon" [ref=f1e114]
+        - generic [ref=f1e117]:
+          - img "Info-Hexagon-Icon" [ref=f1e118]
+          - heading "Vesterling" [level=2] [ref=f1e119]
+          - paragraph [ref=f1e120]: Vesterling ist seit über 25 Jahren einer der führenden Personaldienstleister im Bereich Technologie. Schwerpunkte der Tätigkeit sind das Recruiting von Experten bis hin zum Executive Search auf Vorstandsebene sowie das Outplacement. Unsere Consultants, selbst erfahrene Informatiker und Ingenieure, beraten Sie in allen Karrierefragen und unterstützen Sie bei der Auswahl geeigneter Positionen.
+  - contentinfo [ref=f1e121]:
+    - generic [ref=f1e123]:
+      - generic [ref=f1e127]:
+        - heading "SIE WOLLEN SICH BEWERBEN?" [level=2] [ref=f1e128]
+        - paragraph [ref=f1e129]: "Aktuelle Stellenangebote und Initiativbewerbung unter:"
+        - link "Online bewerben" [ref=f1e131] [cursor=pointer]:
+          - /url: https://www.vesterling.com/jobs-finden/jetzt-bewerben/
+      - form "Contact Me" [ref=f1e133]:
+        - generic [ref=f1e137]:
+          - generic [ref=f1e139]:
+            - generic [ref=f1e144]:
+              - heading "Sie haben eine Frage?" [level=2] [ref=f1e148]
+              - generic:
+                - generic:
+                  - alert
+            - generic [ref=f1e153]:
+              - paragraph [ref=f1e157]: "So erreichen Sie uns schnell und direkt:"
+              - generic:
+                - generic:
+                  - alert
+            - generic [ref=f1e158]:
+              - generic:
+                - generic [ref=f1e160]:
+                  - generic [ref=f1e162]:
+                    - textbox "Name *" [ref=f1e166]:
+                      - /placeholder: Name
+                    - generic:
+                      - generic:
+                        - alert
+                  - generic [ref=f1e168]:
+                    - textbox "Vorname *" [ref=f1e172]:
+                      - /placeholder: Vorname
+                    - generic:
+                      - generic:
+                        - alert
+                - generic [ref=f1e174]:
+                  - generic [ref=f1e176]:
+                    - textbox "E-Mail *" [ref=f1e180]:
+                      - /placeholder: E-Mail
+                    - generic:
+                      - generic:
+                        - alert
+                  - generic [ref=f1e182]:
+                    - textbox "Betreff *" [ref=f1e186]:
+                      - /placeholder: Betreff
+                    - generic:
+                      - generic:
+                        - alert
+            - generic [ref=f1e191]:
+              - textbox "Message *" [ref=f1e195]:
+                - /placeholder: Ihre Anfrage
+              - generic:
+                - generic:
+                  - alert
+            - generic [ref=f1e200]:
+              - generic [ref=f1e202]:
+                - generic [ref=f1e203]:  Ja, ich habe die Datenschutzerklärung gelesen und bin damit einverstanden.
+                - checkbox " Ja, ich habe die Datenschutzerklärung gelesen und bin damit einverstanden." [ref=f1e206]
+              - generic:
+                - generic:
+                  - alert
+            - generic [ref=f1e211]:
+              - button "Senden" [ref=f1e215] [cursor=pointer]
+              - generic:
+                - generic:
+                  - alert
+            - generic [ref=f1e220]:
+              - paragraph [ref=f1e224]
+              - generic:
+                - generic:
+                  - alert
+          - generic:
+            - generic:
+              - alert
+    - generic [ref=f1e228]:
+      - link [ref=f1e229] [cursor=pointer]:
+        - /url: https://www.xing.com/pages/vesterling
+        - img "Xing-Icon" [ref=f1e230]
+      - link [ref=f1e231] [cursor=pointer]:
+        - /url: https://de.linkedin.com/company/vesterling
+        - img "Linkedin-Icon" [ref=f1e232]
+      - link [ref=f1e233] [cursor=pointer]:
+        - /url: https://twitter.com/vesterling
+        - img "Twitter-Icon" [ref=f1e234]
+      - link [ref=f1e235] [cursor=pointer]:
+        - /url: https://de-de.facebook.com/Vesterling.Personalberatung
+        - img "Facebook-Icon" [ref=f1e236]
+    - list [ref=f1e240]:
+      - listitem [ref=f1e241]:
+        - link "Datenschutz" [ref=f1e242] [cursor=pointer]:
+          - /url: https://www.vesterling.com/datenschutzerklaerung/
+        - text: "|"
+      - listitem [ref=f1e243]:
+        - link "Impressum" [ref=f1e244] [cursor=pointer]:
+          - /url: https://www.vesterling.com/impressum/
+        - text: "|"
+      - listitem [ref=f1e245]:
+        - link "Kontakt" [ref=f1e246] [cursor=pointer]:
+          - /url: https://www.vesterling.com/kontakt/
+        - text: "|"
+      - listitem [ref=f1e247]:
+        - link "Cookie-Einstellungen" [ref=f1e248] [cursor=pointer]:
+          - /url: /

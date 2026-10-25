@@ -1,0 +1,685 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - generic [ref=f18e4]:
+      - generic [ref=f18e6]:
+        - generic [ref=f18e7]:
+          - generic [ref=f18e9]:
+            - generic [ref=f18e10]:
+              - generic [ref=f18e11]: 
+              - paragraph [ref=f18e14]:
+                - link "cronos@cronos.de" [ref=f18e15] [cursor=pointer]:
+                  - /url: mailto:cronos@cronos.de
+            - generic [ref=f18e16]:
+              - generic [ref=f18e17]: 
+              - paragraph [ref=f18e20]:
+                - link "+49 251 39966-0" [ref=f18e21] [cursor=pointer]:
+                  - /url: tel:+49 251 39966-0
+          - generic [ref=f18e23]:
+            - generic:
+              - generic:
+                - heading "Login" [level=4]
+                - generic:
+                  - textbox "E-Mail-Adresse"
+                  - textbox "Passwort"
+                  - generic:
+                    - checkbox "Angemeldet bleiben"
+                    - generic: Angemeldet bleiben
+                  - generic:
+                    - button "Anmelden"
+                  - generic:
+                    - link "Passwort Vergessen?":
+                      - /url: /passwort-vergessen
+                  - generic:
+                    - link "Noch keinen Login? Jetzt registrieren!":
+                      - /url: registration
+            - generic [ref=f18e24]:
+              - link "" [ref=f18e25] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/cronosgmbh/
+              - link "" [ref=f18e27] [cursor=pointer]:
+                - /url: https://de-de.facebook.com/cronosgmbh
+              - link "" [ref=f18e29] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/cronosunternehmensberatunggmbh
+              - link "" [ref=f18e31] [cursor=pointer]:
+                - /url: https://www.instagram.com/cronologen
+              - link [ref=f18e33] [cursor=pointer]:
+                - /url: https://www.youtube.com/@cronosTV
+                - generic [aria-hidden] [ref=f18e34]: 
+        - separator [ref=f18e35]
+      - banner [ref=f18e36]:
+        - generic [ref=f18e37]:
+          - link [ref=f18e39] [cursor=pointer]:
+            - /url: https://cronos.de
+          - text:      
+          - button:
+            - generic [ref=f18e40] [cursor=pointer]
+    - generic [ref=f18e44]:
+      - generic [ref=f18e46]:
+        - figure [ref=f18e48]
+        - heading "cronologe werden Jobs" [level=1] [ref=f18e51]
+      - paragraph [ref=f18e54]:
+        - link "cronos" [ref=f18e55] [cursor=pointer]:
+          - /url: /cub
+        - text: "> Jobs"
+    - main [ref=f18e57]:
+      - generic [ref=f18e60]:
+        - generic [ref=f18e63]:
+          - heading "Senior Consultant | SAP CX (all genders)" [level=1] [ref=f18e64]
+          - generic [ref=f18e65]:
+            - separator [ref=f18e67]
+            - generic [ref=f18e68]:
+              - text: Wir möchten für dich den Eingabeaufwand reduzieren und empfehlen zunächst über einen der Buttons deinen CV hochzuladen. Unser Programm selektiert passende Angaben automatisch und fügt diese in die Formularfelder ein, so dass dein Eingabeaufwand reduziert wird. Bitte überprüfe
+              - strong [ref=f18e69]: vor dem Absenden
+              - text: nochmal alle Daten, da systemtechnisch nicht immer alles eindeutig zugeordnet werden kann. Hinweis:Bei den mit * markierten Feldern handelt es sich um Pflichtfelder.
+          - generic [ref=f18e71]:
+            - generic [ref=f18e72]:
+              - generic [ref=f18e75] [cursor=pointer]:
+                - button "Choose File" [ref=f18e76]
+                - link "Button namens Lebenslauf hochladen ausführen" [ref=f18e77]:
+                  - /url: "javascript: void(0);"
+                  - text: Lebenslauf hochladen
+              - link "Button namens Mit finest jobs-Profil bewerben ausführen" [ref=f18e80] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - text: Mit finest jobs-Profil bewerben
+            - text: 
+          - generic [ref=f18e82]:
+            - generic [ref=f18e84]:
+              - checkbox " Für Personalberatung" [ref=f18e85]
+              - generic [ref=f18e86] [cursor=pointer]:
+                - generic [ref=f18e87]: 
+                - generic [ref=f18e88]: Für Personalberatung
+            - group "Stammdaten" [ref=f18e90]:
+              - generic [ref=f18e93]:
+                - generic [ref=f18e94]:
+                  - paragraph
+                - generic [ref=f18e95]:
+                  - generic [ref=f18e96]:
+                    - generic [ref=f18e97]: Anrede
+                    - combobox "Anrede" [ref=f18e99]:
+                      - option "---" [selected]
+                      - option "Herr"
+                      - option "Frau"
+                  - generic [ref=f18e100]:
+                    - generic [ref=f18e101]: Anredetitel
+                    - combobox "Anredetitel" [ref=f18e103]:
+                      - option "---" [selected]
+                      - option "Dr."
+                      - option "Prof."
+                - generic [ref=f18e104]:
+                  - generic [ref=f18e105]:
+                    - generic [ref=f18e106]: Vorname *
+                    - textbox "Vorname *" [ref=f18e108]
+                  - generic [ref=f18e109]:
+                    - generic [ref=f18e110]: Nachname *
+                    - textbox "Nachname *" [ref=f18e112]
+                - generic [ref=f18e113]:
+                  - generic [ref=f18e114]:
+                    - generic [ref=f18e115]: Straße
+                    - textbox "Straße" [ref=f18e117]
+                  - generic [ref=f18e118]:
+                    - generic [ref=f18e119]: PLZ
+                    - textbox "PLZ" [ref=f18e121]
+                - generic [ref=f18e122]:
+                  - generic [ref=f18e123]:
+                    - generic [ref=f18e124]: Ort *
+                    - textbox "Ort *" [ref=f18e126]
+                  - generic [ref=f18e127]:
+                    - generic [ref=f18e128]: Land
+                    - combobox "Land" [ref=f18e130]:
+                      - option "---" [selected]
+                      - option "Deutschland"
+                      - option "Österreich"
+                      - option "Schweiz"
+                      - option "Afghanistan"
+                      - option "Ägypten"
+                      - option "Albanien"
+                      - option "Algerien"
+                      - option "Amerikanische Jungferninseln"
+                      - option "Amerikanisch Samoa"
+                      - option "Andorra"
+                      - option "Angola"
+                      - option "Anguilla"
+                      - option "Antigua und Barbuda"
+                      - option "Äquatorialguinea"
+                      - option "Argentinien"
+                      - option "Armenien"
+                      - option "Aruba"
+                      - option "Aserbaidschan"
+                      - option "Äthiopien"
+                      - option "Australien"
+                      - option "Bahamas"
+                      - option "Bahrain"
+                      - option "Bangladesch"
+                      - option "Barbados"
+                      - option "Belgien"
+                      - option "Belize"
+                      - option "Benin"
+                      - option "Bermuda"
+                      - option "Bhutan"
+                      - option "Bolivien"
+                      - option "Bosnien und Herzegowina"
+                      - option "Botsuana"
+                      - option "Brasilien"
+                      - option "Britische Jungferninseln"
+                      - option "Brunei Darussalam"
+                      - option "Bulgarien"
+                      - option "Burkina Faso"
+                      - option "Myanmar (Burma)"
+                      - option "Burundi"
+                      - option "Cayman-Inseln"
+                      - option "Chile"
+                      - option "China"
+                      - option "Cook-Inseln"
+                      - option "Costa Rica"
+                      - option "Dänemark"
+                      - option "Demokratische Republik Kongo (Zaire)"
+                      - option "Dominica"
+                      - option "Dominikanische Republik"
+                      - option "Dschibuti"
+                      - option "Ecuador"
+                      - option "Elfenbeinküste"
+                      - option "El Salvador"
+                      - option "Eritrea"
+                      - option "Estland"
+                      - option "Falklandinseln"
+                      - option "Fidschi"
+                      - option "Finnland"
+                      - option "Frankreich"
+                      - option "Französisch-Guyana"
+                      - option "Französisch-Polynesien"
+                      - option "Gabun"
+                      - option "Gambia"
+                      - option "Georgien"
+                      - option "Ghana"
+                      - option "Gibraltar"
+                      - option "Grenada"
+                      - option "Griechenland"
+                      - option "Grönland"
+                      - option "Vereinigtes Königreich"
+                      - option "Guadeloupe"
+                      - option "Guam"
+                      - option "Guatemala"
+                      - option "Guernsey"
+                      - option "Guinea"
+                      - option "Guinea-Bissau"
+                      - option "Guyana"
+                      - option "Haiti"
+                      - option "Honduras"
+                      - option "Hong Kong"
+                      - option "Indien"
+                      - option "Indonesien"
+                      - option "Irak"
+                      - option "Irland"
+                      - option "Islamische Republik Iran"
+                      - option "Island"
+                      - option "Israel"
+                      - option "Italien"
+                      - option "Jamaika"
+                      - option "Jan Mayen"
+                      - option "Japan"
+                      - option "Jemen"
+                      - option "Jersey"
+                      - option "Jordanien"
+                      - option "Kambodscha"
+                      - option "Kamerun"
+                      - option "Kanada"
+                      - option "Kap Verde"
+                      - option "Kasachstan"
+                      - option "Katar"
+                      - option "Kenia"
+                      - option "Kirgisische Republik"
+                      - option "Kiribati"
+                      - option "Kolumbien"
+                      - option "Komoren"
+                      - option "Republik Kongo (Brazzaville)"
+                      - option "Kroatien"
+                      - option "Kuwait"
+                      - option "Laos"
+                      - option "Lettland"
+                      - option "Libanon"
+                      - option "Liechtenstein"
+                      - option "Litauen"
+                      - option "Luxemburg"
+                      - option "Macau"
+                      - option "Madagaskar"
+                      - option "Malawi"
+                      - option "Malaysia"
+                      - option "Malediven"
+                      - option "Mali"
+                      - option "Malta"
+                      - option "Marokko"
+                      - option "Marshallinseln"
+                      - option "Martinique"
+                      - option "Mauretanien"
+                      - option "Mauritius"
+                      - option "Mayotte"
+                      - option "Mazedonien"
+                      - option "Mexiko"
+                      - option "Föderierte Staaten von Mikronesien"
+                      - option "Moldawien"
+                      - option "Monaco"
+                      - option "Mongolei"
+                      - option "Montserrat"
+                      - option "Mosambik"
+                      - option "Namibia"
+                      - option "Nauru"
+                      - option "Nepal"
+                      - option "Neukaledonien"
+                      - option "Neuseeland"
+                      - option "Niederlande"
+                      - option "Niederländische Antillen"
+                      - option "Nicaragua"
+                      - option "Niger"
+                      - option "Nigeria"
+                      - option "Niue"
+                      - option "Norwegen"
+                      - option "Oman"
+                      - option "Pakistan"
+                      - option "Palau"
+                      - option "Panama"
+                      - option "Papua-Neuguinea"
+                      - option "Paraguay"
+                      - option "Peru"
+                      - option "Philippinen"
+                      - option "Polen"
+                      - option "Portugal"
+                      - option "Puerto Rico"
+                      - option "Ruanda"
+                      - option "Rumänien"
+                      - option "Russische Föderation"
+                      - option "St. Helena"
+                      - option "St. Kitts und Nevis"
+                      - option "St. Lucia"
+                      - option "St. Pierre und Miquelon"
+                      - option "St. Vincent und die Grenadinen"
+                      - option "Salomonen"
+                      - option "Sambia"
+                      - option "San Marino"
+                      - option "Saudi Arabien"
+                      - option "Schweden"
+                      - option "Senegal"
+                      - option "Serbien"
+                      - option "Seychellen"
+                      - option "Sierra Leone"
+                      - option "Simbabwe"
+                      - option "Singapur"
+                      - option "Slowakei"
+                      - option "Slowenien"
+                      - option "Somalia"
+                      - option "Spanien"
+                      - option "Sri Lanka"
+                      - option "Südafrika"
+                      - option "Südkorea"
+                      - option "Surinam"
+                      - option "Svalbard (Spitzbergen)"
+                      - option "Swasiland"
+                      - option "Syrien"
+                      - option "Tadschikistan"
+                      - option "Tahiti"
+                      - option "Taiwan"
+                      - option "Tansania"
+                      - option "Thailand"
+                      - option "Togo"
+                      - option "Tonga"
+                      - option "Trinidad und Tobago"
+                      - option "Tschad"
+                      - option "Tschechische Republik"
+                      - option "Tunesien"
+                      - option "Türkei"
+                      - option "Turkmenistan"
+                      - option "Turks und Caicos-Inseln"
+                      - option "Tuvalu"
+                      - option "Uganda"
+                      - option "Ukraine"
+                      - option "Ungarn"
+                      - option "Uruguay"
+                      - option "Usbekistan"
+                      - option "Vanuatu"
+                      - option "Vatikanstadt"
+                      - option "Venezuela"
+                      - option "Vereinigte Arabische Emirate"
+                      - option "Vereinigte Staaten von Amerika"
+                      - option "Vietnam"
+                      - option "Wallis und Futuna-Inseln"
+                      - option "Belarus (Weißrussland)"
+                      - option "West-Sahara"
+                      - option "Samoa"
+                      - option "Zentralafrikanische Republik"
+                      - option "Zypern"
+                - generic [ref=f18e131]:
+                  - generic [ref=f18e132]:
+                    - generic [ref=f18e133]: Telefon
+                    - textbox "Telefon" [ref=f18e135]
+                  - generic [ref=f18e136]:
+                    - generic [ref=f18e137]: Mobil *
+                    - textbox "Mobil *" [ref=f18e139]
+                - generic [ref=f18e140]:
+                  - generic [ref=f18e141]:
+                    - generic [ref=f18e142]: E-Mail
+                    - textbox "E-Mail" [ref=f18e144]
+                  - generic [ref=f18e145]:
+                    - generic [ref=f18e146]: E-Mail (2)
+                    - textbox "E-Mail (2)" [ref=f18e148]
+                - generic [ref=f18e149]:
+                  - generic [ref=f18e150]:
+                    - generic [ref=f18e151]: Geburtsdatum (TT.MM.JJJJ)
+                    - textbox "Geburtsdatum (TT.MM.JJJJ)" [ref=f18e153]
+                  - generic [ref=f18e154]:
+                    - generic [ref=f18e155]: Geburtsort
+                    - textbox "Geburtsort" [ref=f18e157]
+                - generic [ref=f18e158]:
+                  - generic [ref=f18e159]:
+                    - generic [ref=f18e160]: Geburtsname
+                    - textbox "Geburtsname" [ref=f18e162]
+                  - generic [ref=f18e163]:
+                    - generic [ref=f18e164]: Familienstand
+                    - combobox "Familienstand" [ref=f18e166]:
+                      - option "---" [selected]
+                      - option "ledig"
+                      - option "verheiratet"
+                      - option "geschieden"
+                      - option "verwitwet"
+                      - option "getrennt lebend"
+                - generic [ref=f18e168]:
+                  - generic [ref=f18e169]: Staatsangehörigkeit
+                  - textbox "Staatsangehörigkeit" [ref=f18e171]
+            - group "Rahmendaten" [ref=f18e173]:
+              - generic [ref=f18e176]:
+                - generic [ref=f18e177]:
+                  - paragraph
+                - generic [ref=f18e179]:
+                  - generic [ref=f18e180]: Wie haben Sie uns gefunden? *
+                  - combobox "Wie haben Sie uns gefunden? *" [ref=f18e182]:
+                    - option "---" [selected]
+                    - option "Arbeitsagentur"
+                    - option "kununu"
+                    - option "Uni Münster"
+                    - option "finest-jobs.com"
+                    - option "indeed (C)"
+                    - option "cronos homepage"
+                    - option "google - jobs"
+                    - option "jobteaser (deutschlandweites Uni-Portal)"
+                    - option "LinkedIn"
+                    - option "Messe"
+                    - option "Mitarbeiterempfehlung"
+                    - option "Personaldienstleister"
+                    - option "Uni/FH"
+                    - option "Workwise"
+                    - option "XING"
+                    - option "Sonstige"
+            - group "Schule, Ausbildung, Beruf" [ref=f18e184]:
+              - generic [ref=f18e187]:
+                - generic [ref=f18e188]:
+                  - paragraph
+                - generic [ref=f18e189]:
+                  - generic [ref=f18e190]:
+                    - generic [ref=f18e191]: Studienabschluss
+                    - textbox "Studienabschluss" [ref=f18e193]
+                  - generic [ref=f18e194]:
+                    - generic [ref=f18e195]: Studium (Fachrichtung)
+                    - textbox "Studium (Fachrichtung)" [ref=f18e197]
+                - generic [ref=f18e198]:
+                  - generic [ref=f18e199]:
+                    - generic [ref=f18e200]: Hochschulart
+                    - combobox "Hochschulart" [ref=f18e202]:
+                      - option "---" [selected]
+                      - option "Universität"
+                      - option "Fachhochschule"
+                      - option "Hochschule"
+                      - option "Berufsausbildung"
+                      - option "Sonstige"
+                  - generic [ref=f18e203]:
+                    - generic [ref=f18e204]: Anzahl Semester
+                    - combobox "Anzahl Semester" [ref=f18e206]:
+                      - option "---" [selected]
+                      - option "unter 10"
+                      - option "unter 12"
+                      - option "unter 16"
+                      - option "Mehr"
+                - generic [ref=f18e207]:
+                  - generic [ref=f18e208]:
+                    - generic [ref=f18e209]: Berufsausbildung (Bezeichnung)
+                    - textbox "Berufsausbildung (Bezeichnung)" [ref=f18e211]
+                  - generic [ref=f18e212]:
+                    - generic [ref=f18e213]: Schulabschluss
+                    - combobox "Schulabschluss" [ref=f18e215]:
+                      - option "---" [selected]
+                      - option "Kein Abschluß"
+                      - option "Hauptschule"
+                      - option "Realschule"
+                      - option "Fachhochschulreife"
+                      - option "Abitur"
+                      - option "Allg. Hochschulreife"
+                - generic [ref=f18e217]:
+                  - generic [ref=f18e218]: Berufserfahrung
+                  - combobox "Berufserfahrung" [ref=f18e220]:
+                    - option "---" [selected]
+                    - option "Keine"
+                    - option "< 1 Jahr"
+                    - option "1-2 Jahre"
+                    - option "3-5 Jahre"
+                    - option "6-10 Jahren"
+                    - option ">10 Jahre"
+            - group "Sonstiges" [ref=f18e222]:
+              - generic [ref=f18e225]:
+                - generic [ref=f18e226]:
+                  - paragraph
+                - generic [ref=f18e227]:
+                  - generic [ref=f18e228]:
+                    - generic [ref=f18e229]: Frühester Eintritt (TT.MM.JJJJ)
+                    - textbox "Frühester Eintritt (TT.MM.JJJJ)" [ref=f18e231]
+                  - generic [ref=f18e232]:
+                    - generic [ref=f18e233]: Kündigungsfrist
+                    - combobox "Kündigungsfrist" [ref=f18e235]:
+                      - option "---" [selected]
+                      - option "sofort verfügbar"
+                      - option "nach Rücksprache"
+                      - option "gesetzlich"
+                      - option "4 Wochen zum Monatsende"
+                      - option "3 Monate zum Monatsende"
+                      - option "6 Monate zum Monatsende"
+                      - option "2 Monate zum Monatsende"
+                      - option "2 Monate zur Monatsmitte"
+                      - option "6 Wochen zum Quartalsende"
+                      - option "2 Monate zum Quartalsende"
+                      - option "3 Monate zum Quartalsende"
+                      - option "6 Monate zum Quartalsende"
+                - generic [ref=f18e236]:
+                  - generic [ref=f18e237]:
+                    - generic [ref=f18e238]: Gehaltswunsch p.a. (nur Zahl)
+                    - textbox "Gehaltswunsch p.a. (nur Zahl)" [ref=f18e240]
+                  - generic [ref=f18e241]:
+                    - generic [ref=f18e242]: Reisebereitschaft
+                    - combobox "Reisebereitschaft" [ref=f18e244]:
+                      - option "---" [selected]
+                      - option "100 %"
+                      - option "80 %"
+                      - option "60 %"
+                      - option "50%"
+                      - option "40 %"
+                      - option "20 %"
+                      - option "< 20%"
+                      - option "0 %"
+                      - option "keine Angabe"
+                - generic [ref=f18e246]:
+                  - generic [ref=f18e247]:
+                    - text: Wunscheinsatzgebiet
+                    - img "z.B. ERP, RPA, ..." [ref=f18e249]
+                  - textbox "Wunscheinsatzgebiet z.B. ERP, RPA, ..." [ref=f18e251]
+                - generic [ref=f18e252]:
+                  - generic [ref=f18e253]:
+                    - generic [ref=f18e254]: Führungsverantwortung
+                    - combobox "Führungsverantwortung" [ref=f18e256]:
+                      - option "---" [selected]
+                      - option "nein"
+                      - option "bis 15 Mitarbeiter"
+                      - option "mehr als 15 Mitarbeiter"
+                  - generic [ref=f18e257]:
+                    - generic [ref=f18e258]: umzugsbereit
+                    - combobox "umzugsbereit" [ref=f18e260]:
+                      - option "---" [selected]
+                      - option "Ja"
+                      - option "Nein"
+                - generic [ref=f18e262]:
+                  - generic [ref=f18e263]: Ergänzende Infos
+                  - textbox "Ergänzende Infos" [ref=f18e265]
+            - generic [ref=f18e266]:
+              - generic [ref=f18e267]: Anlagen
+              - generic [ref=f18e269]:
+                - paragraph [ref=f18e271]: "Bitte lade hier die Bewerbungs-Dokumente hoch. Du hast dabei die Möglichkeit die Dokumente einzeln oder als ein Gesamt-Dokument hochzuladen. Wir empfehlen ein Gesamt-Dokument.Folgende Dateiformate sind möglich: PDF, JPG, PNG, GIF. Ein Einzeldokument darf die Größe von 15 MB nicht überschreiten.Bitte lade keine Dokumente hoch, die mit einem Passwort- oder Schreibschutz versehen sind."
+                - generic [ref=f18e272]:
+                  - paragraph
+                - generic [ref=f18e273]:
+                  - generic [ref=f18e274]:
+                    - generic [ref=f18e275]: Lebenslauf *
+                    - generic [ref=f18e276]:
+                      - generic "Lebenslauf hochladen" [ref=f18e278]:
+                        - generic [ref=f18e279]:
+                          - button "Lebenslauf *" [ref=f18e280] [cursor=pointer]
+                          - generic [ref=f18e281]:
+                            - generic [ref=f18e282]: 
+                            - generic [ref=f18e284]: Datei hochladen
+                      - text: 
+                  - generic [ref=f18e286]:
+                    - generic [ref=f18e287]: Zeugnisse *
+                    - generic [ref=f18e288]:
+                      - generic "Zeugnisse hochladen" [ref=f18e290]:
+                        - generic [ref=f18e291]:
+                          - button "Zeugnisse *" [ref=f18e292] [cursor=pointer]
+                          - generic [ref=f18e293]:
+                            - generic [ref=f18e294]: 
+                            - generic [ref=f18e296]:
+                              - generic [ref=f18e297]: Datei hochladen
+                              - generic "Bitte lade hier deine relavanten Zeugnisse hoch (Schule/Hochschule/Leistungsnachweise/Arbeitgeberzeugnisse)." [ref=f18e299]: 
+                      - text: 
+                - generic [ref=f18e300]:
+                  - generic [ref=f18e301]:
+                    - generic [ref=f18e302]: Anschreiben
+                    - generic [ref=f18e303]:
+                      - generic "Anschreiben hochladen" [ref=f18e305]:
+                        - generic [ref=f18e306]:
+                          - button "Anschreiben" [ref=f18e307] [cursor=pointer]
+                          - generic [ref=f18e308]:
+                            - generic [ref=f18e309]: 
+                            - generic [ref=f18e311]: Datei hochladen
+                      - text: 
+                  - generic [ref=f18e313]:
+                    - generic [ref=f18e314]: Foto
+                    - generic [ref=f18e315]:
+                      - generic "Foto hochladen" [ref=f18e317]:
+                        - generic [ref=f18e318]:
+                          - button "Foto" [ref=f18e319] [cursor=pointer]
+                          - generic [ref=f18e320]:
+                            - generic [ref=f18e321]: 
+                            - generic [ref=f18e323]: Datei hochladen
+                      - text: 
+                - generic [ref=f18e325]:
+                  - generic [ref=f18e326]:
+                    - generic [ref=f18e327]: Weitere Anlagen
+                    - generic [ref=f18e328]:
+                      - generic "Weitere Anlagen hochladen" [ref=f18e330]:
+                        - generic [ref=f18e331]:
+                          - button "Weitere Anlagen" [ref=f18e332] [cursor=pointer]
+                          - generic [ref=f18e333]:
+                            - generic [ref=f18e334]: 
+                            - generic [ref=f18e336]: Datei hochladen
+                      - text: 
+                  - generic [ref=f18e338]:
+                    - generic [ref=f18e339]: Arbeitserlaubnis
+                    - generic [ref=f18e340]:
+                      - generic "Arbeitserlaubnis hochladen" [ref=f18e342]:
+                        - generic [ref=f18e343]:
+                          - button "Arbeitserlaubnis" [ref=f18e344] [cursor=pointer]
+                          - generic [ref=f18e345]:
+                            - generic [ref=f18e346]: 
+                            - generic [ref=f18e348]: Datei hochladen
+                      - text: 
+          - generic [ref=f18e351]:
+            - checkbox " Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der Datenschutzrichtlinien.*" [ref=f18e352]
+            - generic [ref=f18e353] [cursor=pointer]:
+              - generic [ref=f18e354]: 
+              - generic [ref=f18e355]:
+                - text: Ich akzeptiere die elektronische Speicherung meiner Daten gemäß der
+                - link "Datenschutzrichtlinien" [ref=f18e356]:
+                  - /url: https://www.cronos.de/legal/dsv-cronos
+                - text: .*
+              - text: "*"
+        - generic [ref=f18e357]:
+          - link "Button namens Zur Anzeige ausführen" [ref=f18e359] [cursor=pointer]:
+            - /url: https://www.cronos.de/jobs/Senior-Consultant-SAP-CX-all-genders-de-j239.html
+            - text: Zur Anzeige
+          - link "Button namens Senden ausführen" [ref=f18e361] [cursor=pointer]:
+            - /url: "#"
+            - text: Senden
+    - contentinfo [ref=f18e363]:
+      - generic [ref=f18e365]:
+        - generic [ref=f18e367]:
+          - generic [ref=f18e368]:
+            - heading "Über Uns" [level=4] [ref=f18e369]
+            - paragraph [ref=f18e370]:
+              - link "Über cronos" [ref=f18e371] [cursor=pointer]:
+                - /url: /about
+              - link "Kontakt" [ref=f18e372] [cursor=pointer]:
+                - /url: /kontakt
+          - generic [ref=f18e373]:
+            - heading "Dienstleistungen" [level=4] [ref=f18e374]
+            - paragraph [ref=f18e375]:
+              - strong [ref=f18e376]:
+                - link "SAP und Cloud Lösungen" [ref=f18e377] [cursor=pointer]:
+                  - /url: https://digital.cronos.de
+            - paragraph [ref=f18e378]:
+              - strong [ref=f18e379]:
+                - link "Customer Experience Lösungen" [ref=f18e380] [cursor=pointer]:
+                  - /url: https://cx.cronos.de
+            - paragraph [ref=f18e381]:
+              - strong [ref=f18e382]:
+                - link "Business Process Automation" [ref=f18e383] [cursor=pointer]:
+                  - /url: https://automation.cronos.de
+            - paragraph [ref=f18e384]:
+              - strong [ref=f18e385]:
+                - link "Services, Support und BPO" [ref=f18e386] [cursor=pointer]:
+                  - /url: https://services.cronos.de
+            - paragraph [ref=f18e387]:
+              - strong [ref=f18e388]:
+                - link "IT-Management" [ref=f18e389] [cursor=pointer]:
+                  - /url: https://itmc.cronos.de
+        - generic [ref=f18e390]: Unsere Socials
+        - generic [ref=f18e394]:
+          - generic [ref=f18e395]: Bester Arbeitgeber
+          - link [ref=f18e397] [cursor=pointer]:
+            - /url: https://kununu.com/de/cronos-unternehmensberatung?rfr=affiliate_widget&utm_content=widget_score_review_count_logo_small&utm_medium=affiliate&utm_source=widget
+            - img "kununu widget" [ref=f18e398]
+    - generic [ref=f18e400]:
+      - generic:
+        - generic [ref=f18e401]: Copyright 2026. All Rights Reserved.
+        - generic [ref=f18e402]:
+          - link "Impressum" [ref=f18e403] [cursor=pointer]:
+            - /url: /legal/imprint
+          - link "Datenschutz" [ref=f18e404] [cursor=pointer]:
+            - /url: /legal/privacy
+          - link "Hinweisgeberschutz" [ref=f18e405] [cursor=pointer]:
+            - /url: https://cronos-hr.rexx-systems.com/whistleblowing
+          - link "AGB" [ref=f18e406] [cursor=pointer]:
+            - /url: /legal/agb
+          - link "Allgemeine Mitwirkungspflichten" [ref=f18e407] [cursor=pointer]:
+            - /url: /allgemeine-mitwirkungspflichten
+          - link "Software-AGB" [ref=f18e408] [cursor=pointer]:
+            - /url: /legal/software-agb
+  - generic [ref=f18e411]:
+    - link [ref=f18e413] [cursor=pointer]:
+      - /url: https://cronos.de
+    - text:      
+    - generic [ref=f18e414] [cursor=pointer]: 
+    - generic [ref=f18e418] [cursor=pointer]
+  - text:        
+  - generic:
+    - generic [ref=f18e421]:
+      - generic [ref=f18e422]:
+        - generic [ref=f18e423]:
+          - generic: Suchbegriffe
+          - searchbox "Suchbegriffe" [ref=f18e424]
+        - generic [ref=f18e425] [cursor=pointer]: 
+      - paragraph [ref=f18e427]: Drücken Sie die Eingabetaste um zu suchen
+    - generic [ref=f18e428] [cursor=pointer]:
+      - generic "Datenschutzeinstellungen neu wählen"
+  - link "" [ref=f18e430] [cursor=pointer]:
+    - /url: "#contentwrapper"

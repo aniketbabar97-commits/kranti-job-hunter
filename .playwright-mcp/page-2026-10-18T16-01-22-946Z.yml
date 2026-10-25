@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Manager für Cookie-Einwilligungen" [ref=e3]:
+      - generic [ref=e4]:
+        - paragraph [ref=e5]: Wir verwenden Cookies, um dir die bestmögliche Erfahrung mit der Website bieten zu können. Deine Cookie-Einstellungen werden im lokalen Speicher deines Browsers gespeichert. Dazu gehören Cookies, die für die Website technisch notwendig sind. Darüber hinaus kannst du frei entscheiden, ob du Cookies akzeptierst, und dies jederzeit ändern. Du kannst auch Cookies zur Verbesserung der Website-Leistung sowie Cookies zum Anzeigen von Inhalten, die auf deine Interessen zugeschnitten sind, ablehnen. Wenn du nicht alle Cookies akzeptierst, kann dies Auswirkungen auf deine Erfahrung auf der Seite und die von uns angebotenen Services haben.
+        - button "Cookie-Einstellungen ändern" [ref=e6] [cursor=pointer]
+        - generic [ref=e7]:
+          - button "Alle Cookies ablehnen" [ref=e8] [cursor=pointer]
+          - button "Alle Cookies akzeptieren" [ref=e9] [cursor=pointer]
+    - banner [ref=e10]:
+      - generic:
+        - link "Zum Hauptinhalt":
+          - /url: "#content"
+      - navigation "Header Menü" [ref=e14]:
+        - link [ref=e15] [cursor=pointer]:
+          - /url: https://arvato-systems.de/karriere
+          - img "Arvato Systems" [ref=e16]
+        - list
+      - generic [ref=e18]:
+        - button "Sprache" [ref=e20] [cursor=pointer]
+        - link "Profil anzeigen" [ref=e24] [cursor=pointer]:
+          - /url: "#"
+    - main [ref=e26]:
+      - generic [ref=e28]:
+        - link "Jetzt bewerben »" [ref=e31] [cursor=pointer]:
+          - /url: /talentcommunity/apply/1412072733/?locale=de_DE
+        - generic [ref=e32]:
+          - heading "Lead Consultant SAP CX / CRM (m/w/d)" [level=1] [ref=e37]
+          - generic [ref=e43]:
+            - heading "Unternehmensbeschreibung" [level=1] [ref=e44]
+            - paragraph [ref=e45]: Arvato Systems unterstützt mit rund 3.500 Mitarbeitenden als international agierender IT-Spezialist namhafte Unternehmen bei der Digitalen Transformation. Ausgeprägtes Branchen-Know-how, hohes technisches Verständnis und ein klarer Fokus auf Kundenbedürfnisse zeichnen uns aus. Im Team entwickeln wir innovative IT-Lösungen, bringen unsere Kunden in die Cloud, integrieren digitale Prozesse und übernehmen den Betrieb sowie die Betreuung von IT-Systemen. Als Teil von Bertelsmann stehen wir auf dem soliden Fundament eines deutschen Weltkonzerns. Zugleich setzen wir auf unser starkes strategisches Partner-Netzwerk mit internationalen Top-Playern wie AWS, Google, Microsoft oder SAP. Wir machen die digitale Welt einfacher, effizienter und sicherer und unsere Kunden erfolgreicher.
+            - heading "Stellenbeschreibung" [level=1] [ref=e46]
+            - paragraph [ref=e47]:
+              - text: Ohne Menschen, deren Herz voll und ganz für IT schlägt, geht es nicht.
+              - strong [ref=e48]
+              - text: Darum suchen wir dich als
+              - strong [ref=e49]: Lead Consultant SAP CX / CRM (m/w/d)
+              - text: . Werde Teil unserer modernen, hybriden Arbeitskultur an unseren deutschlandweiten Standorten – Gütersloh, Köln, Berlin, Hamburg oder München – und genieße die Flexibilität, mobil, z. B. im Homeoffice, tätig zu sein.
+            - paragraph [ref=e50]
+            - list [ref=e51]:
+              - listitem [ref=e52]: Du berätst und unterstützt unsere Kunden – mit dem Branchenschwerpunkt Handel, Fashion und Consumer Products – bei der Planung, Konzeption und Einführung von Handels- und CRM-Prozessen
+              - listitem [ref=e53]: Du bist verantwortlich für die Vorbereitung und Durchführung von Workshops mit den Fachbereichen und der IT
+              - listitem [ref=e54]: Du übernimmst die Analyse kundenspezifischer Anforderungen und die Konzeption neuer Geschäftsprozesse
+              - listitem [ref=e55]: Du gestaltest gemeinsam mit unseren Kunden deren Handels- und CRM-Prozesse mit Hilfe der SAP CX Cloud Suite (insbesondere Sales, Service & Marketing)
+              - listitem [ref=e56]: Du definierst User Stories und entwickelst die technische Architektur unserer Lösungen zur Umsetzung der Kundenanforderungen
+              - listitem [ref=e57]: Du entwickelst aktiv das Team weiter und übernimmst eine fachliche Führungsrolle
+            - heading "Qualifikationen" [level=1] [ref=e58]
+            - list [ref=e59]:
+              - listitem [ref=e60]: Du hast ein erfolgreich abgeschlossenes (technisches) Studium und Erfahrung im agilen IT-Projektmanagement
+              - listitem [ref=e61]: Du bringst fundiertes Know-how im Requirements Engineering und in der Business-Analyse mit
+              - listitem [ref=e62]: Du verfügst über tiefgreifende Kenntnisse in den SAP CX Cloud-Komponenten (Sales & Service Cloud V2, Emarsys, CDC & CDP)
+              - listitem [ref=e63]: Du bist kommunikationsstark und verstehst es, Anforderungen präzise vom Kunden in die Entwicklung zu übertragen
+              - listitem [ref=e64]: Sehr gute Deutsch- sowie gute Englischkenntnisse runden dein Profil ab
+            - paragraph [ref=e65]
+            - paragraph [ref=e66]: Auch wenn du nicht alle unsere Wünsche erfüllst, zögere nicht dich bei uns zu bewerben, denn WEITERENTWICKLUNG unserer Mitarbeitenden wird bei uns großgeschrieben und eröffnet dir in unserem Unternehmen vielfältige Möglichkeiten.
+            - heading "Zusätzliche Informationen" [level=1] [ref=e67]
+            - paragraph [ref=e68]: Interessiert? Dann bewirb dich über unser Online-Bewerbungsformular mit deinem Lebenslauf und deiner Gehaltsvorstellung. Wir wollen ein fairer und inklusiver Arbeitgeber sein. Wir schätzen die unterschiedlichen Perspektiven, die eine vielfältige Belegschaft einbringt. Daher suchen wir aktiv nach Menschen, die unser Unternehmen durch ihre Identität, ihren Hintergrund und ihre persönlichen Erfahrungen bereichern, mit oder ohne Behinderung.
+            - paragraph [ref=e69]
+            - paragraph [ref=e70]
+            - paragraph [ref=e71]
+            - paragraph [ref=e72]:
+              - strong [ref=e73]: "Informationspflichten im Zusammenhang mit der Erhebung deiner personenbezogenen Daten:"
+            - paragraph [ref=e74]: Verantwortlicher für den Datenschutz bei deiner Bewerbung ist die in der Stellenausschreibung angegebene Firma. Die Firma verarbeitet deine Daten zwecks Begründung eines Beschäftigungsverhältnisses auf Grundlage des Art. 6 (1) b DSGVO / § 26 (1) 1 BDSG.
+            - paragraph [ref=e75]:
+              - text: Die Speicherdauer deiner Daten richtet sich an den Fristen des jeweiligen Landes aus beginnend mit Abschluss des Einstellungsprozesses. Diese findest du
+              - link "hier" [ref=e76] [cursor=pointer]:
+                - /url: https://bertelsmann-hr.de/docs/Overview_of_Data_Retention_Periods_DE.pdf
+              - text: .
+            - paragraph [ref=e77]: Den Datenschutzbeauftragten der Firma kannst du unter der o.g. Postanschrift erreichen.
+            - paragraph [ref=e78]:
+              - text: Weitere Informationen zum Datenschutz und zu deinen Rechten erhältst du
+              - link "hier" [ref=e79] [cursor=pointer]:
+                - /url: https://jobsearch.createyourowncareer.com/content/Privacy-Policy/?locale=de_DE
+              - text: .
+            - paragraph [ref=e80]
+            - paragraph [ref=e81]:
+              - strong [ref=e82]: Recruiting-Plattform powered by SmartRecruiters
+              - text: .
+          - paragraph
+        - link "Jetzt bewerben »" [ref=e84] [cursor=pointer]:
+          - /url: /talentcommunity/apply/1412072733/?locale=de_DE
+    - contentinfo [ref=e86]:
+      - generic [ref=e87]:
+        - search [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e93]:
+              - generic [ref=e94]:
+                - generic [aria-hidden] [ref=e95]: Nach Stichwort suchen
+                - textbox "Nach Stichwort suchen" [ref=e96]
+              - generic [ref=e97]:
+                - generic [aria-hidden] [ref=e98]: Nach Standort suchen
+                - textbox "Nach Standort suchen" [ref=e99]
+            - button "Stellen suchen" [ref=e103] [cursor=pointer]
+        - text:  ✉
+      - generic [ref=e106]:
+        - list [ref=e107]:
+          - listitem [ref=e108]:
+            - link "Impressum" [ref=e109] [cursor=pointer]:
+              - /url: https://www.arvato-systems.de/impressum
+          - listitem [ref=e110]:
+            - link "Datenschutz" [ref=e111] [cursor=pointer]:
+              - /url: /content/Privacy-Policy/?locale=de_DE
+          - listitem [ref=e112]:
+            - link "Karriere bei Arvato Systems" [ref=e113] [cursor=pointer]:
+              - /url: https://www.arvato-systems.de/karriere
+          - listitem [ref=e114]:
+            - link "Kontakt" [ref=e115] [cursor=pointer]:
+              - /url: https://www.arvato-systems.de/mehr/kontakt
+          - listitem [ref=e116]:
+            - button "Cookie Einwilligungen anpassen" [ref=e117] [cursor=pointer]
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "Folgen Sie uns auf LinkedIn" [ref=e121] [cursor=pointer]:
+              - /url: https://linkedin.com/company/arvato-systems
+              - generic [ref=e122]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e125]:
+            - link "Besuchen Sie unseren YouTube-Kanal" [ref=e126] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UClemlCBbXokhCpwRsA0jtvQ
+              - generic [ref=e127]: Wird auf einer neuen Registerkarte geöffnet.
+          - listitem [ref=e130]:
+            - link "Finden Sie uns auf Xing" [ref=e131] [cursor=pointer]:
+              - /url: https://www.xing.com/pages/arvatosystems
+              - generic [ref=e132]: Wird auf einer neuen Registerkarte geöffnet.
+      - paragraph [ref=e137]: © 2026 Bertelsmann SE & Co. KGaA
+  - generic: Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein   Ja Nein Ja Nein Ja Nein

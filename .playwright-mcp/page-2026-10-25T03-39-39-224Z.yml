@@ -1,0 +1,285 @@
+- generic [active] [ref=f80e1]:
+  - generic:
+    - dialog "Einwilligung verwalten":
+      - generic [ref=f80e2]:
+        - generic [ref=f80e3]: Einwilligung verwalten
+        - text: 
+      - generic [ref=f80e5]:
+        - generic [ref=f80e6]: Um dir ein optimales Erlebnis zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn du diesen Technologien zustimmst, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Wenn du deine Einwilligung nicht erteilst oder zurückziehst, können bestimmte Merkmale und Funktionen beeinträchtigt werden.
+        - text:    
+      - generic [ref=f80e8]:
+        - button "Akzeptieren" [ref=f80e9] [cursor=pointer]
+        - button "Ablehnen" [ref=f80e10] [cursor=pointer]
+        - button "Einstellungen ansehen" [ref=f80e11] [cursor=pointer]
+      - list [ref=f80e13]:
+        - listitem:
+          - link:
+            - /url: https://www.d-i-s.de/agentur/karriere/
+        - listitem [ref=f80e14]:
+          - link "Datenschutz" [ref=f80e15] [cursor=pointer]:
+            - /url: https://www.d-i-s.de/datenschutz/
+        - listitem [ref=f80e16]:
+          - link "Impressum" [ref=f80e17] [cursor=pointer]:
+            - /url: https://www.d-i-s.de/impressum/
+  - generic:
+    - generic:
+      - banner:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - link "D-I-S commerce engineering":
+                        - /url: https://www.d-i-s.de/
+                        - img "D-I-S commerce engineering"
+                  - generic: 
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - article:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Dein Weg zur D•I•S" [level=1]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Du willst Teil unseres Teams werden?" [level=1]
+                                  - generic:
+                                    - heading "Bewirb dich jetzt!" [level=1]
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - text: "Sende uns deine Bewerbungsunterlagen gerne per E-Mail an:"
+                                        - strong:
+                                          - link "jobs@d-i-s.de":
+                                            - /url: mailto:jobs@d-i-s.de
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Du willst mehr über D-I-S und unser Team erfahren? Vernetze dich mit uns auf Social Media
+                                  - generic:
+                                    - list:
+                                      - listitem:
+                                        - link "Facebook":
+                                          - /url: https://www.facebook.com/dis.commerce.engineering
+                                          - generic: 
+                                      - listitem:
+                                        - link "Instagram":
+                                          - /url: https://www.instagram.com/dis_stuttgart/
+                                          - generic: 
+                                      - listitem:
+                                        - link "TikTok":
+                                          - /url: https://www.tiktok.com/@dis_stuttgart
+                                          - generic: 糧
+                                      - listitem:
+                                        - link "LinkedIn":
+                                          - /url: https://www.linkedin.com/company/d-i-s-commerce-engineering
+                                          - generic: 
+                                      - listitem:
+                                        - link "Xing":
+                                          - /url: https://www.xing.com/pages/d-i-scommerceengineering
+                                          - generic: 
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Oder fülle dieses Kontakformular aus." [level=1]
+                          - generic:
+                            - generic:
+                              - generic:
+                                - status
+                                - list
+                              - form "Contact form":
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Name *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "E-Mail *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Telefonnummer"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Firma *"
+                                  - generic:
+                                    - generic:
+                                      - paragraph:
+                                        - generic:
+                                          - textbox "Website"
+                                  - generic:
+                                    - paragraph:
+                                      - generic:
+                                        - textbox "Nachricht"
+                                  - generic:
+                                    - paragraph:
+                                      - generic:
+                                        - generic:
+                                          - generic:
+                                            - generic:
+                                              - checkbox "* Ich stimme der Datenschutzerklärung zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden.": 
+                                              - generic:
+                                                - text: "* Ich stimme der"
+                                                - link "Datenschutzerklärung":
+                                                  - /url: /datenschutz
+                                                - text: zu und bin damit einverstanden, dass meine Angaben zur Kontaktaufnahme verarbeitet werden.
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - paragraph:
+                                          - button "Senden" [disabled]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Logo-weiss-V5":
+                                - /url: https://www.d-i-s.de/
+                                - generic:
+                                  - img "Logo-weiss-V5"
+                            - generic: Friedrichstr. 37 70174 Stuttgart
+                            - generic: info@d-i-s.de
+                            - generic: "Tel.: +49 (0)711–3511803"
+                            - generic:
+                              - list:
+                                - listitem:
+                                  - link "Facebook":
+                                    - /url: https://www.facebook.com/dis.commerce.engineering
+                                    - generic: 
+                                - listitem:
+                                  - link "Instagram":
+                                    - /url: https://www.instagram.com/dis_stuttgart/
+                                    - generic: 
+                                - listitem:
+                                  - link "TikTok":
+                                    - /url: https://www.tiktok.com/@dis_stuttgart
+                                    - generic: 糧
+                                - listitem:
+                                  - link "LinkedIn":
+                                    - /url: https://www.linkedin.com/company/d-i-s-commerce-engineering
+                                    - generic: 
+                                - listitem:
+                                  - link "Xing":
+                                    - /url: https://www.xing.com/pages/d-i-scommerceengineering
+                                    - generic: 
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Leistungen":
+                                - /url: https://d-i-s.de/leistungen/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "E-Commerce Beratung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-beratung/
+                                    - listitem:
+                                      - link "E-Commerce Entwicklung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-entwicklung/
+                                    - listitem:
+                                      - link "E-Commerce Support":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-support/
+                                    - listitem:
+                                      - link "Shopware":
+                                        - /url: https://www.d-i-s.de/shopware/
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Marketing":
+                                - /url: https://d-i-s.de/leistungen/e-commerce-marketing/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "SEO":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/seo/
+                                    - listitem:
+                                      - link "SEA":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/sea/
+                                    - listitem:
+                                      - link "E-Mail Marketing":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/e-mail-marketing/
+                                    - listitem:
+                                      - link "KI-Optimierung":
+                                        - /url: https://www.d-i-s.de/leistungen/e-commerce-marketing/ki-optimierung/
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - link "Agentur":
+                                - /url: https://d-i-s.de/agentur/
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "Das Team":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Karriere":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Kontakt":
+                                        - /url: "#"
+                                    - listitem:
+                                      - link "Glossar":
+                                        - /url: https://www.d-i-s.de/glossar/
+                                    - listitem:
+                                      - link "Magazin":
+                                        - /url: https://www.d-i-s.de/magazin/
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - link "Impressum":
+                                        - /url: https://www.d-i-s.de/impressum/
+                                    - listitem:
+                                      - link "Datenschutz":
+                                        - /url: https://www.d-i-s.de/datenschutz/
+                                    - listitem:
+                                      - link "AGB":
+                                        - /url: https://www.d-i-s.de/agb/
+                      - generic: 2026, All rights reserved.
+  - tooltip "Tooltip content"
+  - iframe [ref=f80e18]:
+    - generic [ref=f81e6]:
+      - text: protected by
+      - strong [ref=f81e7]: reCAPTCHA

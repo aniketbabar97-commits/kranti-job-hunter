@@ -1,0 +1,81 @@
+- generic [ref=f22e4]:
+  - link "Skip to main content" [ref=f22e5] [cursor=pointer]:
+    - /url: ""
+  - banner [ref=f22e8]:
+    - generic [ref=f22e10]:
+      - link [ref=f22e13] [cursor=pointer]:
+        - /url: https://www.accenture.com/jobsearch
+        - img "careers home" [ref=f22e14]
+      - generic [ref=f22e15]:
+        - heading [level=1]
+      - generic [ref=f22e17]:
+        - generic [ref=f22e18]:
+          - button "English" [ref=f22e20] [cursor=pointer]
+          - button "Sign In" [ref=f22e26] [cursor=pointer]
+        - navigation [ref=f22e32]:
+          - button "Search Careers" [ref=f22e33] [cursor=pointer]
+          - button "Introduce Yourself" [ref=f22e34] [cursor=pointer]
+  - main [ref=f22e92]:
+    - generic [ref=f22e93]:
+      - generic [ref=f22e94]:
+        - link "Back to Job Posting" [ref=f22e96] [cursor=pointer]
+        - heading "SAP CX / CRM Consultant (all genders)" [level=2] [ref=f22e101]
+      - generic "Application Progress" [ref=f22e102]:
+        - list [ref=f22e103]:
+          - listitem [ref=f22e104]:
+            - generic: current step 1 of 6
+            - generic [ref=f22e110]: Create Account/Sign In
+          - listitem [ref=f22e111]:
+            - generic: step 2 of 6
+            - generic [ref=f22e117]: My Information
+          - listitem [ref=f22e118]:
+            - generic: step 3 of 6
+            - generic [ref=f22e124]: My Experience
+          - listitem [ref=f22e125]:
+            - generic: step 4 of 6
+            - generic [ref=f22e131]: Application Questions
+          - listitem [ref=f22e132]:
+            - generic: step 5 of 6
+            - generic [ref=f22e138]: Voluntary Disclosures
+          - listitem [ref=f22e139]:
+            - generic: step 6 of 6
+            - generic [ref=f22e145]: Review
+      - generic [ref=f22e152]:
+        - generic [ref=f22e193]:
+          - heading "Sign In" [level=3] [ref=f22e194]
+          - generic [ref=f22e195]:
+            - generic [ref=f22e196]:
+              - generic [ref=f22e197]: Email Address*
+              - textbox "Email Address" [ref=f22e201]
+            - generic [ref=f22e203]:
+              - generic [ref=f22e204]: Password*
+              - textbox "Password" [ref=f22e208]
+            - generic [ref=f22e213]:
+              - button "Submit" [ref=f22e214] [cursor=pointer]
+              - button [aria-hidden] [ref=f22e215] [cursor=pointer]: Sign In
+          - generic [ref=f22e216]:
+            - text: Don't have an account yet?
+            - button "Create Account" [ref=f22e217] [cursor=pointer]
+          - button "Forgot your password?" [ref=f22e219] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic [ref=f22e220]: Enter website. This input is for robots only, do not enter if you're human.
+            - textbox "Enter website. This input is for robots only, do not enter if you're human." [ref=f22e221]
+  - generic [ref=f22e40]:
+    - heading "Follow Us" [level=4] [ref=f22e41]
+    - list [ref=f22e42]:
+      - listitem [ref=f22e43] [cursor=pointer]:
+        - link "YouTube" [ref=f22e44]:
+          - /url: https://www.youtube.com/accenture
+      - listitem [ref=f22e50] [cursor=pointer]:
+        - link "Facebook" [ref=f22e51]:
+          - /url: https://www.facebook.com/accenture
+      - listitem [ref=f22e55] [cursor=pointer]:
+        - link "X" [ref=f22e56]:
+          - /url: https://twitter.com/Accenture
+      - listitem [ref=f22e60] [cursor=pointer]:
+        - link "LinkedIn" [ref=f22e61]:
+          - /url: https://www.linkedin.com/company/accenture/
+    - link "Accenture Privacy Policy" [ref=f22e66] [cursor=pointer]:
+      - /url: https://www.accenture.com/us-en/careers/life-at-accenture/privacy-policy
+    - generic [ref=f22e67]: © 2026 Workday, Inc. All rights reserved.

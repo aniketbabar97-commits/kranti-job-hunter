@@ -1,0 +1,124 @@
+- generic [ref=f27e1]:
+  - generic [ref=f27e2]:
+    - link "Zum Hauptinhalt springen" [ref=f27e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=f27e4]:
+      - banner [ref=f27e6]:
+        - generic [ref=f27e7]:
+          - generic:
+            - link:
+              - /url: https://hmmh.jobs.personio.de
+          - 'combobox "Select language, current: Deutsch" [ref=f27e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=f27e14]:
+        - link "Zurück zur Stelle" [ref=f27e18] [cursor=pointer]:
+          - /url: /job/2573113
+        - generic [ref=f27e23]:
+          - generic [ref=f27e24]:
+            - heading "Java Developer | SAP Commerce (m/w/d)" [level=1] [ref=f27e25]
+            - generic [ref=f27e26]:
+              - generic [ref=f27e27]: Bremen, Remote
+              - generic [ref=f27e32]: Vollzeit
+              - generic [ref=f27e36]: Festanstellung
+          - generic [ref=f27e40]:
+            - heading "Wir freuen uns auf Dich!" [level=2] [ref=f27e41]
+            - generic [ref=f27e42]: Wir freuen uns über Dein Interesse an einer Mitarbeit bei hmmh. Solltest Du Schwierigkeiten mit dem Upload Deiner Daten haben, wende Dich gerne per Email an recruiting@hmmh.de.
+            - group [ref=f27e45]:
+              - generic [ref=f27e46]:
+                - group "Name (erforderlich)" [ref=f27e47]:
+                  - generic [ref=f27e48]:
+                    - text: Name*
+                    - generic [ref=f27e49]: (erforderlich)
+                  - generic [ref=f27e50]:
+                    - generic [ref=f27e51]:
+                      - generic [ref=f27e52]: Vorname
+                      - textbox "Vorname" [ref=f27e53]: Kranti
+                    - generic [ref=f27e55]:
+                      - generic [ref=f27e56]: Nachname
+                      - textbox "Nachname" [ref=f27e57]: Chavan
+                - generic [ref=f27e60]:
+                  - generic [ref=f27e61]:
+                    - text: E-Mail*
+                    - generic [ref=f27e62]: (erforderlich)
+                  - textbox "E-Mail (erforderlich)" [ref=f27e64]:
+                    - /placeholder: yourmail@domain.com
+                    - text: krantichavan198@gmail.com
+                - generic [ref=f27e67]:
+                  - generic [ref=f27e68]: Telefon
+                  - textbox "Telefon" [ref=f27e70]:
+                    - /placeholder: +49 176 123 4455
+                    - text: +49 15750174177
+                - generic [ref=f27e73]:
+                  - generic [ref=f27e74]: Verfügbar ab
+                  - textbox "Verfügbar ab" [ref=f27e76]: 16.12.2026
+                - generic [ref=f27e79]:
+                  - generic [ref=f27e80]:
+                    - text: Gehaltsvorstellung*
+                    - generic [ref=f27e81]: (erforderlich)
+                  - textbox "Gehaltsvorstellung (erforderlich)" [ref=f27e83]:
+                    - /placeholder: Gehaltsvorstellung
+                    - text: 60.000 € brutto/Jahr (verhandelbar)
+                - generic [ref=f27e86]:
+                  - generic [ref=f27e87]:
+                    - text: Ich willige ein, dass meine Bewerbungsunterlagen über das aktuelle Bewerbungsverfahren hinaus gespeichert und in den Talent Pool aufgenommen werden, um bei zukünftigen passenden Stellenangeboten berücksichtigt zu werden.*
+                    - generic [ref=f27e88]: (erforderlich)
+                  - combobox "Ich willige ein, dass meine Bewerbungsunterlagen über das aktuelle Bewerbungsverfahren hinaus gespeichert und in den Talent Pool aufgenommen werden, um bei zukünftigen passenden Stellenangeboten berücksichtigt zu werden. (erforderlich)" [ref=f27e90] [cursor=pointer]:
+                    - option "Bitte auswählen"
+                    - option "Ja" [selected]
+                    - option "Nein"
+                - generic [ref=f27e92]:
+                  - generic [ref=f27e93]: GitHub (falls vorhanden)
+                  - textbox "GitHub (falls vorhanden)" [ref=f27e95]
+                - generic [ref=f27e98]:
+                  - generic [ref=f27e99]: LinkedIn (falls vorhanden)
+                  - textbox "LinkedIn (falls vorhanden)" [ref=f27e101]: https://www.linkedin.com/in/kranti-chavan-84a155191
+              - generic [ref=f27e103]:
+                - generic [ref=f27e104]:
+                  - heading "Dokumente" [level=3] [ref=f27e105]
+                  - generic [ref=f27e106]: Bitte sende uns Deinen aktuellen Lebenslauf und optional weitere Dokumente (Anschreiben, Zeugnisse, Zertifikate).
+                - group "Lebenslauf (erforderlich)" [ref=f27e107]:
+                  - generic [ref=f27e108]:
+                    - text: Lebenslauf*
+                    - generic [ref=f27e109]: (erforderlich)
+                  - generic [ref=f27e110]:
+                    - list "Uploaded files for Lebenslauf" [ref=f27e150]:
+                      - listitem [ref=f27e151]:
+                        - generic [ref=f27e152]: Kranti_Chavan_CV_hmmh_Java-Developer-SAP-Commerce.pdf
+                        - button "Remove Kranti_Chavan_CV_hmmh_Java-Developer-SAP-Commerce.pdf" [ref=f27e153] [cursor=pointer]: ×
+                    - button "Datei hinzufügen" [ref=f27e111] [cursor=pointer]
+                - group "Anschreiben (Optional)" [ref=f27e114]:
+                  - generic [ref=f27e115]:
+                    - text: Anschreiben
+                    - generic [ref=f27e116]: (Optional)
+                  - generic [ref=f27e117]:
+                    - list "Uploaded files for Anschreiben" [ref=f27e154]:
+                      - listitem [ref=f27e155]:
+                        - generic [ref=f27e156]: Kranti_Chavan_Cover_Letter_hmmh_Java-Developer-SAP-Commerce.pdf
+                        - button "Remove Kranti_Chavan_Cover_Letter_hmmh_Java-Developer-SAP-Commerce.pdf" [ref=f27e157] [cursor=pointer]: ×
+                    - button "Datei hinzufügen" [active] [ref=f27e118] [cursor=pointer]
+                - group "Arbeitszeugnis (Optional)" [ref=f27e121]:
+                  - generic [ref=f27e122]:
+                    - text: Arbeitszeugnis
+                    - generic [ref=f27e123]: (Optional)
+                  - button "Datei hinzufügen" [ref=f27e125] [cursor=pointer]
+                - group "Andere (Optional)" [ref=f27e128]:
+                  - generic [ref=f27e129]:
+                    - text: Andere
+                    - generic [ref=f27e130]: (Optional)
+                  - button "Datei hinzufügen" [ref=f27e132] [cursor=pointer]
+              - button "Bewerbung senden" [ref=f27e136] [cursor=pointer]
+      - contentinfo [ref=f27e137]:
+        - generic [ref=f27e138]:
+          - generic [ref=f27e141]:
+            - img "Powered by Personio" [ref=f27e142]
+            - generic [ref=f27e143]:
+              - text: Powered by
+              - link [ref=f27e144] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=f27e145]: Personio
+          - generic [ref=f27e146]:
+            - link "Datenschutzerklärung" [ref=f27e147] [cursor=pointer]:
+              - /url: /privacy-policy
+            - link "Impressum" [ref=f27e148] [cursor=pointer]:
+              - /url: "#"
+  - alert [ref=f27e149]

@@ -1,0 +1,152 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Zum Hauptinhalt springen" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - generic [ref=e4]:
+      - banner [ref=e6]:
+        - generic [ref=e7]:
+          - generic:
+            - link "TMC Amplio GmbH":
+              - /url: https://tmc-amplio.de/karriere
+              - img "TMC Amplio GmbH"
+          - 'combobox "Select language, current: Deutsch" [ref=e10] [cursor=pointer]':
+            - generic: Deutsch
+      - main [ref=e14]:
+        - link "Zurück zur Stelle" [ref=e18] [cursor=pointer]:
+          - /url: /job/2800470?display=de
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - 'heading "Web Developer — Fokus: Shopware (all genders)" [level=1] [ref=e25]'
+            - generic [ref=e26]:
+              - generic [ref=e27]: Bielefeld, Paderborn
+              - generic [ref=e32]: Voll- oder Teilzeit
+              - generic [ref=e36]: Festanstellung
+          - generic [ref=e40]:
+            - heading "Yes! You are ready to amplify brands digitally — with us!" [level=2] [ref=e41]
+            - generic [ref=e43]:
+              - text: Wir freuen uns über dein Interesse an der TMC Amplio GmbH. Bitte fülle das folgende kurze Formular aus. Solltest du Schwierigkeiten mit dem Upload deiner Daten haben, wende dich gerne per E-Mail an
+              - generic [ref=e44]:
+                - link "team@tmc-amplio.de" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:team@tmc-amplio.de
+                - text: .
+            - group [ref=e49]:
+              - generic [ref=e50]:
+                - group "Name (erforderlich)" [ref=e51]:
+                  - generic [ref=e52]:
+                    - text: Name*
+                    - generic [ref=e53]: (erforderlich)
+                  - generic [ref=e54]:
+                    - generic [ref=e55]:
+                      - generic [ref=e56]: Vorname
+                      - textbox "Vorname" [ref=e57]: Kranti
+                    - generic [ref=e59]:
+                      - generic [ref=e60]: Nachname
+                      - textbox "Nachname" [ref=e61]: Chavan
+                - generic [ref=e64]:
+                  - generic [ref=e65]: Geburtsdatum
+                  - textbox "Geburtsdatum" [ref=e67]: 1997-10-14
+                - generic [ref=e70]:
+                  - generic [ref=e71]:
+                    - text: E-Mail*
+                    - generic [ref=e72]: (erforderlich)
+                  - textbox "E-Mail (erforderlich)" [ref=e74]:
+                    - /placeholder: yourmail@domain.com
+                    - text: krantichavan198@gmail.com
+                - generic [ref=e77]:
+                  - generic [ref=e78]: Telefon
+                  - textbox "Telefon" [ref=e80]:
+                    - /placeholder: +49 176 123 4455
+                    - text: "+4915750174177"
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - text: Verfügbar ab*
+                    - generic [ref=e85]: (erforderlich)
+                  - textbox "Verfügbar ab (erforderlich)" [ref=e87]:
+                    - /placeholder: Verfügbar ab
+                    - text: 16.12.2026
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - text: Gehaltsvorstellung*
+                    - generic [ref=e92]: (erforderlich)
+                  - textbox "Gehaltsvorstellung (erforderlich)" [ref=e94]:
+                    - /placeholder: Gehaltsvorstellung
+                    - text: "60000"
+                - generic [ref=e97]:
+                  - generic [ref=e98]: LinkedIn
+                  - textbox "LinkedIn" [ref=e100]: https://www.linkedin.com/in/kranti-chavan-84a155191
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - text: Ort*
+                    - generic [ref=e105]: (erforderlich)
+                  - textbox "Ort (erforderlich)" [ref=e107]:
+                    - /placeholder: Ort
+                    - text: Karlsruhe
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - text: Berufserfahrung in Jahren*
+                    - generic [ref=e112]: (erforderlich)
+                  - combobox "Berufserfahrung in Jahren (erforderlich)" [ref=e114] [cursor=pointer]:
+                    - option "Bitte auswählen"
+                    - option "weniger als 1 Jahr"
+                    - option "1–2 Jahre"
+                    - option "2–3 Jahre"
+                    - option "3–4 Jahre"
+                    - option "4–5 Jahre"
+                    - option "5–6 Jahre" [selected]
+                    - option "6–7 Jahre"
+                    - option "7–10 Jahre"
+                    - option "10–15 Jahre"
+                    - option "mehr als 15 Jahre"
+                - generic [ref=e116]:
+                  - generic [ref=e117]:
+                    - text: Wohnsitz*
+                    - generic [ref=e118]: (erforderlich)
+                  - combobox "Wohnsitz (erforderlich)" [ref=e120] [cursor=pointer]:
+                    - option "Bitte auswählen"
+                    - option "Deutschland" [selected]
+                    - option "Anderes Land"
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - heading "Dokumente" [level=3] [ref=e123]
+                  - generic [ref=e124]: Bitte lade uns deinen Lebenslauf, deine aktuellen Zeugnisse und ein kurzes Anschreiben hoch (insgesamt max. 20 MB).
+                - group "Anschreiben (Optional)" [ref=e125]:
+                  - generic [ref=e126]:
+                    - text: Anschreiben
+                    - generic [ref=e127]: (Optional)
+                  - generic [ref=e128]:
+                    - list "Uploaded files for Anschreiben" [ref=e161]:
+                      - listitem [ref=e162]:
+                        - generic [ref=e163]: Kranti_Chavan_Anschreiben_TMC-Amplio_Web-Developer-Fokus-Shopware.pdf
+                        - button "Remove Kranti_Chavan_Anschreiben_TMC-Amplio_Web-Developer-Fokus-Shopware.pdf" [ref=e164] [cursor=pointer]: ×
+                    - button "Datei hinzufügen" [ref=e129] [cursor=pointer]
+                - group "Lebenslauf (erforderlich)" [ref=e132]:
+                  - generic [ref=e133]:
+                    - text: Lebenslauf*
+                    - generic [ref=e134]: (erforderlich)
+                  - generic [ref=e135]:
+                    - list "Uploaded files for Lebenslauf" [ref=e165]:
+                      - listitem [ref=e166]:
+                        - generic [ref=e167]: Kranti_Chavan_Lebenslauf_TMC-Amplio_Web-Developer-Fokus-Shopware.pdf
+                        - button "Remove Kranti_Chavan_Lebenslauf_TMC-Amplio_Web-Developer-Fokus-Shopware.pdf" [ref=e168] [cursor=pointer]: ×
+                    - button "Datei hinzufügen" [active] [ref=e136] [cursor=pointer]
+                - group "Andere (Optional)" [ref=e139]:
+                  - generic [ref=e140]:
+                    - text: Andere
+                    - generic [ref=e141]: (Optional)
+                  - button "Datei hinzufügen" [ref=e143] [cursor=pointer]
+              - button "Bewerbung senden" [ref=e147] [cursor=pointer]
+      - contentinfo [ref=e148]:
+        - generic [ref=e149]:
+          - generic [ref=e152]:
+            - img "Powered by Personio" [ref=e153]
+            - generic [ref=e154]:
+              - text: Powered by
+              - link [ref=e155] [cursor=pointer]:
+                - /url: https://www.personio.com
+                - strong [ref=e156]: Personio
+          - generic [ref=e157]:
+            - link "Datenschutzerklärung" [ref=e158] [cursor=pointer]:
+              - /url: /privacy-policy?language=de
+            - link "Impressum" [ref=e159] [cursor=pointer]:
+              - /url: https://tmc-amplio.de/impressum/
+  - alert [ref=e160]

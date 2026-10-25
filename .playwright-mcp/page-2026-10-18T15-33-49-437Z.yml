@@ -1,0 +1,302 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e4]:
+      - link "PS-Direkt" [ref=f3e6] [cursor=pointer]:
+        - /url: /
+      - link "Menu öffnen" [ref=f3e11] [cursor=pointer]:
+        - /url: "#0"
+    - generic [ref=f3e16]:
+      - generic:
+        - generic [ref=f3e17]: Wie läuft unser
+        - generic [ref=f3e18]: Bewerbungsprozess ab?
+        - link "Video jetzt ansehen" [ref=f3e20] [cursor=pointer]:
+          - /url: "#"
+    - text: »
+  - main [ref=f3e21]:
+    - generic [ref=f3e23]:
+      - heading "Unsere Stellenangebote" [level=1] [ref=f3e24]
+      - generic [ref=f3e26]:
+        - paragraph [ref=f3e27]: Los geht's in Ihre berufliche Zukunft! Profitieren Sie von unserer großen regionalen Auswahl in unserem Stellenmarkt. Wir beraten Sie gerne persönlich und freuen uns darauf, Sie kennenzulernen.
+        - paragraph [ref=f3e28]: Aus Gründen der Lesbarkeit haben wir auf der gesamten Website eine Geschlechtsform (Mitarbeiter, Bewerber, etc.) gewählt. Wir freuen uns über Bewerbungen von Menschen aller Geschlechter!
+        - paragraph [ref=f3e29]: Wie geht’s weiter? Sie erhalten in der Regel innerhalb von fünf Tagen eine Eingangsbestätigung Ihrer Bewerbung. Wenn diese nicht innerhalb dieser Zeit bei Ihnen eingehen sollte, melden Sie sich bitte bei uns, damit wir Ihren Bewerbungseingang prüfen können. Wenn Sie keine Absage erhalten, melden wir uns im nächsten Schritt bei Ihnen, sobald Ihr Bewerberprofil auf eine unserer ausgeschriebenen Stellen passt und vereinbaren einen Telefontermin mit Ihnen. Dieser Schritt kann mitunter etwas Zeit in Anspruch nehmen, denn auch wenn eine Stellenausschreibung augenscheinlich zu Ihrem Bewerberprofil zu passen scheint, liegen uns weitere Anforderungsparameter zu den Positionen vor, die zu einem Bewerberprofil passen müssen. Wenn Sie von uns zu einem Telefontermin eingeladen werden, lernen wir uns dort kennen und wir stellen Ihnen die für Sie infrage kommenden Positionen vor.
+    - generic [ref=f3e33]:
+      - generic [ref=f3e34]:
+        - group [ref=f3e35]:
+          - generic [ref=f3e36]:
+            - list [ref=f3e38]:
+              - listitem [ref=f3e39]:
+                - generic [ref=f3e40]:
+                  - generic [ref=f3e41] [cursor=pointer]: Textsuche
+                  - textbox "Textsuche" [ref=f3e43]:
+                    - /placeholder: "Bsp. Kauffrau, SAP...  "
+            - list [ref=f3e45]:
+              - listitem [ref=f3e46]:
+                - generic [ref=f3e47]:
+                  - generic [ref=f3e48] [cursor=pointer]: Umkreissuche
+                  - textbox "Umkreissuche Filter" [ref=f3e50]:
+                    - /placeholder: PLZ oder Ortsname...
+            - list [ref=f3e52]:
+              - listitem [ref=f3e53]:
+                - generic [ref=f3e54]:
+                  - generic [ref=f3e55] [cursor=pointer]: km
+                  - combobox "km" [disabled] [ref=f3e57]:
+                    - option "Entfernung" [selected]
+                    - option "10 km"
+                    - option "20 km"
+                    - option "30 km"
+                    - option "50 km"
+                    - option "100 km"
+            - list [ref=f3e59]:
+              - listitem [ref=f3e60]:
+                - generic [ref=f3e61]:
+                  - generic [ref=f3e62] [cursor=pointer]: Filter
+                  - combobox [ref=f3e64]:
+                    - option "Berufsfelder" [selected]
+                    - option "---"
+                    - option "Aktuelles_PS_Direkt_intern"
+                    - option "Assistenz_Empfang"
+                    - option "Buchhaltung"
+                    - option "Call_Center"
+                    - option "Controlling"
+                    - option "Einkauf_Vertrieb"
+                    - option "Gesundheitswesen"
+                    - option "Human_Resources"
+                    - option "Immobilien"
+                    - option "Industrie_Handwerk"
+                    - option "IT"
+                    - option "Labor"
+                    - option "Logistik"
+                    - option "Management"
+                    - option "Office"
+                    - option "Versicherung_Bank"
+          - paragraph [ref=f3e65]:
+            - button "Filter anwenden und Stellenangebote finden" [ref=f3e66] [cursor=pointer]
+        - separator [ref=f3e68]
+        - generic [ref=f3e69]: Stellenangebote 1 bis 10 von 721
+        - list [ref=f3e72]:
+          - listitem [ref=f3e73]:
+            - link "1" [ref=f3e74] [cursor=pointer]:
+              - /url: /stellenangebote/
+          - listitem [ref=f3e75]:
+            - link "2" [ref=f3e76] [cursor=pointer]:
+              - /url: /stellenangebote/page2/
+          - listitem [ref=f3e77]:
+            - link "3" [ref=f3e78] [cursor=pointer]:
+              - /url: /stellenangebote/page3/
+          - listitem [ref=f3e79]:
+            - link "4" [ref=f3e80] [cursor=pointer]:
+              - /url: /stellenangebote/page4/
+          - listitem [ref=f3e81]:
+            - link "5" [ref=f3e82] [cursor=pointer]:
+              - /url: /stellenangebote/page5/
+          - listitem [ref=f3e83]:
+            - link "6" [ref=f3e84] [cursor=pointer]:
+              - /url: /stellenangebote/page6/
+          - listitem [ref=f3e85]:
+            - link "7" [ref=f3e86] [cursor=pointer]:
+              - /url: /stellenangebote/page7/
+          - listitem [ref=f3e87]:
+            - link "8" [ref=f3e88] [cursor=pointer]:
+              - /url: /stellenangebote/page8/
+          - listitem [ref=f3e89]: …
+          - listitem [ref=f3e90]:
+            - link "73" [ref=f3e91] [cursor=pointer]:
+              - /url: /stellenangebote/page73/
+          - listitem [ref=f3e92]:
+            - link "»" [ref=f3e93] [cursor=pointer]:
+              - /url: /stellenangebote/page2/
+        - generic [ref=f3e94]:
+          - link [ref=f3e96] [cursor=pointer]:
+            - /url: /stellenangebote/teamleiter-office---corporate-services-574957/
+            - heading "Teamleiter Office & Corporate Services (m/w/d)" [level=2] [ref=f3e97]
+            - list [ref=f3e98]:
+              - listitem [ref=f3e99]:
+                - img "Ort" [ref=f3e100]
+                - text: Zülpich
+          - link [ref=f3e103] [cursor=pointer]:
+            - /url: /stellenangebote/account-manager-elektrotechnik-gn-575365/
+            - heading "Account Manager Elektrotechnik (gn)" [level=2] [ref=f3e104]
+            - list [ref=f3e105]:
+              - listitem [ref=f3e106]:
+                - img "Ort" [ref=f3e107]
+                - text: Köln
+          - link [ref=f3e110] [cursor=pointer]:
+            - /url: /stellenangebote/accountant-international-finance-575245/
+            - heading "Accountant International Finance (m/w/d)" [level=2] [ref=f3e111]
+            - list [ref=f3e112]:
+              - listitem [ref=f3e113]:
+                - img "Ort" [ref=f3e114]
+                - text: Bonn
+          - link [ref=f3e117] [cursor=pointer]:
+            - /url: /stellenangebote/accounting-expert-ifrs-financial-reporting-gn-575077/
+            - heading "Accounting Expert IFRS & Financial Reporting (gn)" [level=2] [ref=f3e118]
+            - list [ref=f3e119]:
+              - listitem [ref=f3e120]:
+                - img "Ort" [ref=f3e121]
+                - text: Köln
+          - link [ref=f3e124] [cursor=pointer]:
+            - /url: /stellenangebote/accounting-specialist-immobilienbuchhaltung-575436/
+            - heading "Accounting Specialist Immobilienbuchhaltung (m/w/d)" [level=2] [ref=f3e125]
+            - list [ref=f3e126]:
+              - listitem [ref=f3e127]:
+                - img "Ort" [ref=f3e128]
+                - text: Düsseldorf
+          - link [ref=f3e131] [cursor=pointer]:
+            - /url: /stellenangebote/aktuar-versicherungsmathematik-produktentwicklung-575214/
+            - heading "Aktuar Versicherungsmathematik & Produktentwicklung (m/w/d)" [level=2] [ref=f3e132]
+            - list [ref=f3e133]:
+              - listitem [ref=f3e134]:
+                - img "Ort" [ref=f3e135]
+                - text: Köln
+          - link [ref=f3e138] [cursor=pointer]:
+            - /url: /stellenangebote/apotheker-offizin-pharmazeutische-beratung-575085/
+            - heading "Apotheker – Offizin & pharmazeutische Beratung (m/w/d)" [level=2] [ref=f3e139]
+            - list [ref=f3e140]:
+              - listitem [ref=f3e141]:
+                - img "Ort" [ref=f3e142]
+                - text: Wesseling, Rheinland
+          - link [ref=f3e145] [cursor=pointer]:
+            - /url: /stellenangebote/application-engineer-technical-sales-gn-575390/
+            - heading "Application Engineer Technical Sales (gn)" [level=2] [ref=f3e146]
+            - list [ref=f3e147]:
+              - listitem [ref=f3e148]:
+                - img "Ort" [ref=f3e149]
+                - text: Frechen
+          - link [ref=f3e152] [cursor=pointer]:
+            - /url: /stellenangebote/assistenz-buchhaltung-verwaltung-in-vollzeit-oder-teilzeit-574994/
+            - heading "Assistenz Buchhaltung & Verwaltung (m/w/d) in Vollzeit oder Teilzeit" [level=2] [ref=f3e153]
+            - list [ref=f3e154]:
+              - listitem [ref=f3e155]:
+                - img "Ort" [ref=f3e156]
+                - text: Wesseling, Rheinland
+          - link [ref=f3e159] [cursor=pointer]:
+            - /url: /stellenangebote/assistenz-der-geschaeftsfuehrung-controlling-gn-575405/
+            - heading "Assistenz der Geschäftsführung & Controlling (gn)" [level=2] [ref=f3e160]
+            - list [ref=f3e161]:
+              - listitem [ref=f3e162]:
+                - img "Ort" [ref=f3e163]
+                - text: Köln
+        - list [ref=f3e165]:
+          - listitem [ref=f3e166]:
+            - link "1" [ref=f3e167] [cursor=pointer]:
+              - /url: /stellenangebote/
+          - listitem [ref=f3e168]:
+            - link "2" [ref=f3e169] [cursor=pointer]:
+              - /url: /stellenangebote/page2/
+          - listitem [ref=f3e170]:
+            - link "3" [ref=f3e171] [cursor=pointer]:
+              - /url: /stellenangebote/page3/
+          - listitem [ref=f3e172]:
+            - link "4" [ref=f3e173] [cursor=pointer]:
+              - /url: /stellenangebote/page4/
+          - listitem [ref=f3e174]:
+            - link "5" [ref=f3e175] [cursor=pointer]:
+              - /url: /stellenangebote/page5/
+          - listitem [ref=f3e176]:
+            - link "6" [ref=f3e177] [cursor=pointer]:
+              - /url: /stellenangebote/page6/
+          - listitem [ref=f3e178]:
+            - link "7" [ref=f3e179] [cursor=pointer]:
+              - /url: /stellenangebote/page7/
+          - listitem [ref=f3e180]:
+            - link "8" [ref=f3e181] [cursor=pointer]:
+              - /url: /stellenangebote/page8/
+          - listitem [ref=f3e182]: …
+          - listitem [ref=f3e183]:
+            - link "73" [ref=f3e184] [cursor=pointer]:
+              - /url: /stellenangebote/page73/
+          - listitem [ref=f3e185]:
+            - link "»" [ref=f3e186] [cursor=pointer]:
+              - /url: /stellenangebote/page2/
+      - generic [ref=f3e188]:
+        - heading "Nichts gefunden?" [level=4] [ref=f3e189]
+        - paragraph [ref=f3e190]:
+          - link [ref=f3e191] [cursor=pointer]:
+            - /url: /bewerbung/
+            - text: »
+            - strong [ref=f3e192]: Jetzt Initiativ bewerben!
+  - contentinfo [ref=f3e193]:
+    - generic [ref=f3e194]:
+      - link "PS-Direkt" [ref=f3e196] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=f3e200]:
+        - generic [ref=f3e201]:
+          - list [ref=f3e203]:
+            - listitem [ref=f3e204]: Job finden
+            - listitem [ref=f3e205]:
+              - link "Für Bewerber" [ref=f3e206] [cursor=pointer]:
+                - /url: /bewerber/
+            - listitem [ref=f3e207]:
+              - link "Für Unternehmen" [ref=f3e208] [cursor=pointer]:
+                - /url: /unternehmen/
+            - listitem [ref=f3e209]:
+              - link "Über uns" [ref=f3e210] [cursor=pointer]:
+                - /url: /ueber-uns/
+            - listitem [ref=f3e211]:
+              - link "Kontakt" [ref=f3e212] [cursor=pointer]:
+                - /url: /kontakt/
+          - list [ref=f3e214]:
+            - listitem [ref=f3e215]:
+              - link "Impressum" [ref=f3e216] [cursor=pointer]:
+                - /url: /impressum/
+            - listitem [ref=f3e217]:
+              - link "Datenschutz" [ref=f3e218] [cursor=pointer]:
+                - /url: /datenschutz/
+            - listitem [ref=f3e219]:
+              - link "Hinweisgebersystem" [ref=f3e220] [cursor=pointer]:
+                - /url: https://psdirekt.integrityline.app/
+            - listitem [ref=f3e221]:
+              - link "Cookie Einstellungen" [ref=f3e222] [cursor=pointer]:
+                - /url: "#0"
+          - list [ref=f3e224]:
+            - listitem [ref=f3e225]:
+              - link [ref=f3e226] [cursor=pointer]:
+                - /url: https://www.xing.com/pages/psdirektgmbh-co-kg
+                - img "Xing" [ref=f3e227]
+            - listitem [ref=f3e229]:
+              - link [ref=f3e230] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/ps-direkt
+                - img "LinkedIn" [ref=f3e231]
+  - generic [ref=f3e233]:
+    - link "Menu schließen" [ref=f3e234] [cursor=pointer]:
+      - /url: "#0"
+    - navigation [ref=f3e237]:
+      - list [ref=f3e238]:
+        - listitem [ref=f3e239]: Job finden
+        - listitem [ref=f3e240]:
+          - link "Für Bewerber" [ref=f3e241] [cursor=pointer]:
+            - /url: /bewerber/
+        - listitem [ref=f3e242]:
+          - link "Für Unternehmen" [ref=f3e243] [cursor=pointer]:
+            - /url: /unternehmen/
+        - listitem [ref=f3e244]:
+          - link "Über uns" [ref=f3e245] [cursor=pointer]:
+            - /url: /ueber-uns/
+        - listitem [ref=f3e246]:
+          - link "Kontakt" [ref=f3e247] [cursor=pointer]:
+            - /url: /kontakt/
+      - separator [ref=f3e248]
+      - list [ref=f3e249]:
+        - listitem [ref=f3e250]:
+          - link "Impressum" [ref=f3e251] [cursor=pointer]:
+            - /url: /impressum/
+        - listitem [ref=f3e252]:
+          - link "Datenschutz" [ref=f3e253] [cursor=pointer]:
+            - /url: /datenschutz/
+      - separator [ref=f3e254]
+      - list [ref=f3e255]:
+        - listitem [ref=f3e256]:
+          - link [ref=f3e257] [cursor=pointer]:
+            - /url: https://www.xing.com/pages/psdirektgmbh-co-kg
+            - img "Xing" [ref=f3e258]
+        - listitem [ref=f3e260]:
+          - link [ref=f3e261] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/ps-direkt
+            - img "LinkedIn" [ref=f3e262]
+  - generic [ref=f3e265]:
+    - paragraph [ref=f3e266]:
+      - generic [ref=f3e267]: Lieber Besucher, um Ihnen die Nutzung unserer Seite so komfortabel wie möglich zu gestalten, würden wir gerne einen Dienst aktivieren. Sie können Ihre Zustimmung später jederzeit ändern oder widerrufen.
+    - generic [ref=f3e268]:
+      - link "Dienste konfigurieren..." [ref=f3e269] [cursor=pointer]:
+        - /url: "#"
+      - button "Das ist ok" [ref=f3e271] [cursor=pointer]

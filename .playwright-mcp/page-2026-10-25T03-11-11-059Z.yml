@@ -1,0 +1,96 @@
+- generic [ref=f29e1]:
+  - region "Schnellzugriffsmenü":
+    - button "Zum Hauptinhalt springen" [ref=f29e2] [cursor=pointer]
+    - button "Ermöglichen Sie die Zugänglichkeit für Sehbehinderte" [ref=f29e16] [cursor=pointer]
+    - button "Öffnen Sie das Menü „Barrierefreiheit“" [ref=f29e33] [cursor=pointer]
+  - generic "Barrierefreiheit Menü":
+    - button "Barrierefreiheit Menü" [ref=f29e80] [cursor=pointer]
+  - banner:
+    - navigation "Hauptnavigation" [ref=f29e45]:
+      - generic [ref=f29e46]:
+        - link "Zur Startseite" [ref=f29e48] [cursor=pointer]:
+          - /url: https://www.deichmann-karriere.de
+          - img "Deichmann Karriere" [ref=f29e49]
+        - list [ref=f29e52]:
+          - listitem [ref=f29e53]:
+            - link "Jobsuche" [ref=f29e54] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/jobsuche/
+          - listitem [ref=f29e55]:
+            - link "Arbeitgeber" [ref=f29e56] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/arbeitgeber/
+          - listitem [ref=f29e57]:
+            - link "Schüler" [ref=f29e58] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/schueler/
+            - text:   
+          - listitem [ref=f29e59]:
+            - link "Studierende" [ref=f29e60] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/studierende/
+          - listitem [ref=f29e61]:
+            - link "Direkteinstieg" [ref=f29e62] [cursor=pointer]:
+              - /url: https://www.deichmann-karriere.de/berufserfahrene/
+            - text:   
+        - link "Zur Jobsuche" [ref=f29e65] [cursor=pointer]:
+          - /url: /jobsuche
+          - text: Traumjob Finden
+  - generic [ref=f29e68]:
+    - generic [ref=f29e70]:
+      - application "Zent-Berf Bewerbungsformular Wizard" [ref=f29e83]:
+        - text: ✓ ✓ ✓ ✓
+        - generic [ref=f29e84]:
+          - heading "Dateianhänge" [level=2] [ref=f29e85]
+          - tabpanel "Dateianhänge" [ref=f29e86]:
+            - generic [ref=f29e87]:
+              - generic [ref=f29e88]:
+                - heading "Senior Frontend Product Owner Omnichannel Platform (m/w/d)" [level=3] [ref=f29e89]
+                - progressbar "Fortschritt Schritt 1 von 4" [ref=f29e91]: 1 von 4
+              - generic [ref=f29e94]:
+                - generic [ref=f29e95]:
+                  - paragraph [ref=f29e96]: Lebenslauf*
+                  - generic [ref=f29e97]: max. 1 Anhang (PDF, doc, docx, jpg, png), max. 5 MB
+                  - generic "Lebenslauf hochladen" [ref=f29e98] [cursor=pointer]:
+                    - generic [ref=f29e129]:
+                      - generic [ref=f29e131]:
+                        - generic [ref=f29e133]:
+                          - strong [ref=f29e134]: "43.1"
+                          - text: KB
+                        - generic [ref=f29e135]: Kranti_Chavan_CV_Deichmann_Senior-Frontend-Product-Owner-Omnichannel_1792897864912.pdf
+                      - generic:
+                        - img "Check"
+                      - generic:
+                        - img "Error"
+                      - link "Remove file" [ref=f29e136]:
+                        - /url: javascript:undefined;
+                - generic [ref=f29e101]:
+                  - paragraph [ref=f29e102]: Anschreiben*
+                  - generic [ref=f29e103]: max. 1 Anhang (PDF, doc, docx, jpg, png), max. 5 MB
+                  - generic "Anschreiben hochladen" [ref=f29e104] [cursor=pointer]:
+                    - button "Dateien hierher ziehen oder Dateien auswählen" [ref=f29e106]
+                - generic [ref=f29e107]:
+                  - paragraph [ref=f29e108]: Foto
+                  - generic [ref=f29e109]: max. 1 Anhang (PNG/JPG), max. 5 MB
+                  - generic "Foto" [ref=f29e110] [cursor=pointer]:
+                    - button "Dateien hierher ziehen oder Dateien auswählen" [ref=f29e112]
+                - generic [ref=f29e113]:
+                  - paragraph [ref=f29e114]: Zeugnisse*
+                  - generic [ref=f29e115]: max. 3 Anhänge (PDF, doc, docx, jpg, png), max. 5 MB pro Anhang
+                  - generic "Zeugnisse hochladen" [ref=f29e116] [cursor=pointer]:
+                    - button "Dateien hierher ziehen oder Dateien auswählen" [ref=f29e118]
+          - heading "Persönliche Angaben" [level=2] [ref=f29e119]
+          - heading "Weitere Angaben" [level=2] [ref=f29e120]
+          - heading "Vorschau" [level=2] [ref=f29e121]
+          - alert
+        - menu "Pagination" [ref=f29e123]:
+          - listitem [ref=f29e124]:
+            - menuitem "Weiter" [ref=f29e125] [cursor=pointer]
+      - region "Speichern und Laden Bereich" [ref=f29e71]:
+        - separator [ref=f29e72]
+        - paragraph [ref=f29e73]: Wenn du deine Bewerbung zwischenspeichern möchtest, um sie zu einem späteren Zeitpunkt weiter zu bearbeiten, dann klicke unten auf "Bewerbung speichern". Um die Bewerbung dann anschließend weiter zu bearbeiten, klicke auf "Bewerbung laden".
+        - button "Bewerbung speichern" [ref=f29e74] [cursor=pointer]
+    - text: 
+  - iframe [ref=f29e78]:
+    - generic [ref=f32e6]:
+      - text: protected by
+      - strong [ref=f32e7]: reCAPTCHA
+  - generic [ref=f29e126]:
+    - generic [ref=f29e137]: Fragen zu Bewerbung, unseren Jobs oder Ausbildungsmöglichkeiten? Frag Gracie!
+    - button "Gracie" [active] [ref=f29e127] [cursor=pointer]

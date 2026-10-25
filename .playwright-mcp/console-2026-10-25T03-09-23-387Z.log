@@ -1,0 +1,34 @@
+[     253ms] TypeError: window.BorlabsCookie.unblockContentId is not a function
+    at <anonymous>:3:24
+    at Ke.embedHtmlElements (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:3:504)
+    at Ke.insertAndExecuteServiceCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:18304)
+    at Ke.unblockServiceOptInCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:14545)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13152
+    at Generator.next (<anonymous>)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:595
+    at new Promise (<anonymous>)
+    at b (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:415)
+    at HTMLDocument.<anonymous> (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13099)
+[     254ms] [WARNING] Unrecognized origin: 'loop'. @ https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2
+[    1072ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at readConsents (https://www.deichmann-karriere.de/event/jobs-for-future/:243:75)
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:246:30
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:268:3
+[    1074ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at readConsents (https://www.deichmann-karriere.de/event/jobs-for-future/:281:75)
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:284:30
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:306:3
+[    1076ms] TypeError: Cannot read properties of undefined (reading 'settings')
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:352:90
+    at https://www.deichmann-karriere.de/event/jobs-for-future/:468:7
+[    1311ms] TypeError: window.BorlabsCookie.unblockContentId is not a function
+    at <anonymous>:3:24
+    at Ke.embedHtmlElements (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:3:504)
+    at Ke.insertAndExecuteServiceCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:18304)
+    at Ke.unblockServiceOptInCode (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:14545)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13927
+    at Generator.next (<anonymous>)
+    at https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:595
+    at new Promise (<anonymous>)
+    at b (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:415)
+    at HTMLDocument.<anonymous> (https://www.deichmann-karriere.de/wp-content/plugins/borlabs-cookie/assets/javascript/consents.7JQLs2pa.min.js:2:13441)

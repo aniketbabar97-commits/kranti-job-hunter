@@ -1,0 +1,168 @@
+- generic [active] [ref=f1e1]:
+  - link "Zum Inhalt springen" [ref=f1e2] [cursor=pointer]:
+    - /url: "#wp--skip-link--target"
+  - generic [ref=f1e3]:
+    - banner:
+      - navigation [ref=f1e5]:
+        - generic [ref=f1e6]:
+          - link [ref=f1e7] [cursor=pointer]:
+            - /url: /
+            - figure [ref=f1e8]:
+              - img "Bader_Logo" [ref=f1e9]
+          - generic [ref=f1e11] [cursor=pointer]
+    - main [ref=f1e15]:
+      - generic [ref=f1e18]:
+        - heading "BADER Jobs in Pforzheim & Östringen finden" [level=1] [ref=f1e19]
+        - figure [ref=f1e20]
+        - generic [ref=f1e21]:
+          - generic [ref=f1e22]:
+            - generic [ref=f1e23]:
+              - generic [ref=f1e24]: Jobs durchsuchen
+              - textbox "Jobs durchsuchen" [ref=f1e25]:
+                - /placeholder: Suche...
+            - generic [ref=f1e26]:
+              - generic [ref=f1e27]: Nach Abteilung filtern
+              - combobox "Nach Abteilung filtern" [ref=f1e28]:
+                - option "Alle Abteilungen" [selected]
+                - option "Data Analytik"
+                - option "Database"
+                - option "IT"
+                - option "Kundenservice"
+                - option "Marketing"
+                - option "Organisation"
+                - option "Qualitätssicherung"
+                - option "Rechtsabteilung"
+            - generic [ref=f1e29]:
+              - generic [ref=f1e30]: Nach Arbeitszeit filtern
+              - combobox "Nach Arbeitszeit filtern" [ref=f1e31]:
+                - option "Alle Arbeitszeiten" [selected]
+                - option "Vollzeit"
+            - generic [ref=f1e32]:
+              - generic [ref=f1e33]: Nach Standort filtern
+              - combobox "Nach Standort filtern" [ref=f1e34]:
+                - option "Alle Standorte" [selected]
+                - option "Pforzheim"
+          - table "Unsere Jobs" [ref=f1e36]:
+            - rowgroup [ref=f1e37]:
+              - row [ref=f1e38]:
+                - columnheader "Jobtitel" [ref=f1e39]
+                - columnheader "Abteilung" [ref=f1e40]
+                - columnheader "Arbeitszeiten" [ref=f1e41]
+                - columnheader "Standort" [ref=f1e42]
+            - rowgroup [ref=f1e43]:
+              - row [ref=f1e44]:
+                - cell [ref=f1e45]:
+                  - link "(Senior) Softwareentwickler Full Stack & AI (m/w/d)" [ref=f1e46] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/senior-full-stack-engineer-data-ai-m-w-d/
+                - cell "Data Analytik" [ref=f1e47]
+                - cell "Vollzeit" [ref=f1e48]
+                - cell "Pforzheim" [ref=f1e49]
+              - row [ref=f1e50]:
+                - cell [ref=f1e51]:
+                  - link "AI Platform Engineer – LLMOps (m/w/d)" [ref=f1e52] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/ai-platform-engineer-llmops-m-w-d/
+                - cell "Data Analytik" [ref=f1e53]
+                - cell "Vollzeit" [ref=f1e54]
+                - cell "Pforzheim" [ref=f1e55]
+              - row [ref=f1e56]:
+                - cell [ref=f1e57]:
+                  - link "Spezialist Database Controlling & Kundenselektion (m/w/d)" [ref=f1e58] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/spezialist-database-controlling-kundenselektion-m-w-d/
+                - cell "Database" [ref=f1e59]
+                - cell "Vollzeit" [ref=f1e60]
+                - cell "Pforzheim" [ref=f1e61]
+              - row [ref=f1e62]:
+                - cell [ref=f1e63]:
+                  - link "Softwareentwickler Salesforce (m/w/d)" [ref=f1e64] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/softwareentwickler-salesforce-m-w-d/
+                - cell "IT" [ref=f1e65]
+                - cell "Vollzeit" [ref=f1e66]
+                - cell "Pforzheim" [ref=f1e67]
+              - row [ref=f1e68]:
+                - cell [ref=f1e69]:
+                  - link "Abteilungsleitung Kundenservice (m/w/d)" [ref=f1e70] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/abteilungsleitung-kundenservice-m-w-d/
+                - cell "Kundenservice" [ref=f1e71]
+                - cell "Vollzeit" [ref=f1e72]
+                - cell "Pforzheim" [ref=f1e73]
+              - row [ref=f1e74]:
+                - cell [ref=f1e75]:
+                  - link "Digital Marketing Manager (m/w/d) – Fokus Newsletter & Social Media" [ref=f1e76] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/digital-marketing-manager-m-w-d-fokus-newsletter-social-media/
+                - cell "Marketing" [ref=f1e77]
+                - cell "Vollzeit" [ref=f1e78]
+                - cell "Pforzheim" [ref=f1e79]
+              - row [ref=f1e80]:
+                - cell [ref=f1e81]:
+                  - link "Mediengestalter oder Grafikdesigner (m/w/d)" [ref=f1e82] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/mediengestalter-oder-grafikdesigner-m-w-d/
+                - cell "Marketing" [ref=f1e83]
+                - cell "Vollzeit" [ref=f1e84]
+                - cell "Pforzheim" [ref=f1e85]
+              - row [ref=f1e86]:
+                - cell [ref=f1e87]:
+                  - link "Inhouse Consultant – Marketing, E-Commerce, Werbung (m/w/d)" [ref=f1e88] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/inhouse-consultant-marketing-e-commerce-werbung-m-w-d/
+                - cell "Organisation" [ref=f1e89]
+                - cell "Vollzeit" [ref=f1e90]
+                - cell "Pforzheim" [ref=f1e91]
+              - row [ref=f1e92]:
+                - cell [ref=f1e93]:
+                  - link "Bekleidungstechniker – Qualitätssicherung (m/w/d)" [ref=f1e94] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/bekleidungstechniker-qualitaetssicherung-m-w-d/
+                - cell "Qualitätssicherung" [ref=f1e95]
+                - cell "Vollzeit" [ref=f1e96]
+                - cell "Pforzheim" [ref=f1e97]
+              - row [ref=f1e98]:
+                - cell [ref=f1e99]:
+                  - link "Associate (m/w/d)" [ref=f1e100] [cursor=pointer]:
+                    - /url: https://bader-karriere.de/3063-2/
+                - cell "Rechtsabteilung" [ref=f1e101]
+                - cell "Vollzeit" [ref=f1e102]
+                - cell "Pforzheim" [ref=f1e103]
+        - generic [ref=f1e104]:
+          - generic [ref=f1e105]:
+            - link [ref=f1e106] [cursor=pointer]:
+              - /url: /ausbildung-studium
+              - img "Gruppenbild von Azubis und Studenten" [ref=f1e107]
+            - link "Ausbildung/Duales Studium" [ref=f1e108] [cursor=pointer]:
+              - /url: /ausbildung-studium
+          - generic [ref=f1e109]:
+            - link [ref=f1e110] [cursor=pointer]:
+              - /url: /initiativbewerbung
+              - img "Glücklicher Mitarbeiter am Laptop" [ref=f1e111]
+            - link "Initiativbewerbung" [ref=f1e112] [cursor=pointer]:
+              - /url: /initiativbewerbung
+        - paragraph [ref=f1e113]: Haben wir Ihr Interesse geweckt?
+        - paragraph [ref=f1e114]: Dann leiten Sie uns Ihre relevanten Unterlagen und gegebenenfalls Ihre Rahmenbedingungen einfach über den Button „Jetzt online bewerben“ weiter.
+        - link "Jetzt online bewerben" [ref=f1e117] [cursor=pointer]:
+          - /url: /bewerbung/?job-titel=Initiativbewerbung
+    - contentinfo [ref=f1e118]:
+      - generic [ref=f1e119]:
+        - generic [ref=f1e120]:
+          - generic [ref=f1e121]:
+            - figure [ref=f1e122]
+            - paragraph [ref=f1e123]: Seit 1929 steht BADER für Qualität und erstklassigen Service. Werden Sie Teil unserer Erfolgsgeschichte und gestalten Sie die Zukunft des Versandhandels mit uns.
+          - generic [ref=f1e124]:
+            - generic [ref=f1e125]:
+              - heading [level=2] [ref=f1e126]:
+                - strong [ref=f1e127]: Karriere
+              - paragraph [ref=f1e128]:
+                - link "Stellenmarkt" [ref=f1e129] [cursor=pointer]:
+                  - /url: /stellenmarkt
+                - link "Unsere Benefits" [ref=f1e130] [cursor=pointer]:
+                  - /url: /benefits
+                - link "Ausbildung/Studium" [ref=f1e131] [cursor=pointer]:
+                  - /url: /ausbildung-studium/
+            - generic [ref=f1e132]:
+              - heading [level=2] [ref=f1e133]:
+                - strong [ref=f1e134]: Rechtliches
+              - paragraph [ref=f1e135]:
+                - link "Impressum" [ref=f1e136] [cursor=pointer]:
+                  - /url: /impressum
+                - link "Datenschutz" [ref=f1e137] [cursor=pointer]:
+                  - /url: /datenschutz
+        - paragraph [ref=f1e139]:
+          - text: "Ein Klick zum Webshop:"
+          - link "www.bader.de" [ref=f1e140] [cursor=pointer]:
+            - /url: https://www.bader.de
