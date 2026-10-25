@@ -416,3 +416,7 @@ The queue is empty after one job, so I stopped there instead of reaching 10.
 Namics / Merkle â€” parked â€” The Merkle careers search for "Commerce" in Germany returned no results. The site has no initiative-application form and no HR email, so I couldn't apply and found no address to log for an email fallback.
 
 I logged this in the tracker and added a line to the PLAYBOOK. There are no open CAPTCHA tabs.
+[Sun 10/25/2026 12:28:07.06] batch 3 exit 0 
+No applications were submitted. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so the queue is empty. You told me to stop early in that case.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, most of `helper/PLAYBOOK.md` (the first 430 of 556 lines) and the `facts` output. I didn't read the rest of the playbook because there were no jobs to use it on. No jobs were logged, no browser tabs were opened and no CAPTCHA tabs are pending.
