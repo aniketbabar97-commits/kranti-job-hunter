@@ -12,7 +12,7 @@ echo ===== nightly run %date% %time% ===== >> out\claude_runs.log
 git stash -q >nul 2>nul
 git -c gc.auto=0 pull -q >nul 2>nul
 git stash pop -q >nul 2>nul
-set MIN_SCORE=75
+set MIN_SCORE=60
 for /f %%d in ('powershell -NoProfile -Command "(Get-Date).AddDays(-14).ToString('yyyy-MM-dd')"') do set APPLY_SINCE=%%d
 rem same browser setup as the runs that worked (registered MCP server, Playwright starts its own Chrome)
 call claude mcp remove playwright >nul 2>nul
