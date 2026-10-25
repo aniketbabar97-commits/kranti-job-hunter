@@ -116,3 +116,16 @@ Three confirmed (dotSource, Conrad, CANCOM) and eight parked.
 **Open CAPTCHA tab:** CBS is the only one. Everything is filled in on that tab and an hCaptcha blocks Senden. Kranti needs to solve it and click Senden herself.
 
 I wrote a playbook lesson after each job, and logged the answers I picked myself for dotSource, CBS and CANCOM (work location, source, experience bracket).
+The queue is empty after 9 jobs, so I stopped before the 10th.
+
+- Bechtle — parked — the SAP QuickApply form rejects filenames over 64 characters. A short-named copy of the PDFs would fix it, but copying files needed an approval this session couldn't give, so I didn't work around it. The portal takes no email applications.
+- Babiel — confirmed — now part of conet; the initiative form submitted and the thank-you page showed.
+- B. Braun — parked — no German initiative form, only one for Austria, and no Commerce or Hybris postings. No HR email found.
+- Axians — confirmed — softgarden initiative form.
+- Arineo — confirmed — unsolicited application form.
+- Hoffmann Group — confirmed — rexx initiative form. The datepicker mangled the start date to 04.12.2026, so I retyped it and read it back as 16.12.2026 before submitting.
+- HANSA-FLEX — confirmed — Umantis initiative form.
+- clicks digital — parked — the Magento job is now "Software-Entwickler PHP (m/w/d) in Dresden". Its apply form never renders, even after cookie consent and a reload, and the page shows no email.
+- HÖRMANN — confirmed — Product Owner:in Digitale Kundenlösungen via their rexx portal.
+
+That makes 6 confirmed and 3 parked. There are no open CAPTCHA tabs. Each job's answers, notes and playbook lessons are logged, and the two Bechtle and clicks digital blockers are in the notes for a retry.

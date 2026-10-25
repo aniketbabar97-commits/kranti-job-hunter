@@ -510,3 +510,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## clicks.digital (2nd run)
 - Magento Entwickler renamed 'Software-Entwickler PHP (m/w/d) in Dresden' at clicks.digital/software-entwickler-php-m-w-d-in-dresden; 'JETZT BEWERBEN' anchors to #contact-form which now only holds an image (no CF7 form rendered, document.forms=0) even after Usercentrics accept + reload; parked. Retry later.
+
+## rexx (jobs.hoermann.de)
+- hoermann.de/karriere -> jobs.hoermann.de; job form /stellenangebot-formular.html?yid=<id> (list has all yids). Cronos recipe via run_code worked first try (pressSequentially by id, selects via JS, #agb_checkbox JS, setInputFiles #...lebenslauf/anschreiben, JS click last 'Senden'); required free text vordef_bew_feld_09 = Verfuegbarkeit/Kuendigungsfrist; wie_gefunden indeed.com. Title 'Vielen Dank fuer Ihre Bewerbung!'.
