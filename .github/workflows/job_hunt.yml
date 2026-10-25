@@ -95,6 +95,6 @@ jobs:
         run: |
           git config user.name "Job Hunter Bot"
           git config user.email "bot@job-hunter"
-          git add data/seen.json data/jobs_log.csv JOBS.md data/weekly_sent.txt data/last_career_search.txt applications data/applications.json data/responses.json APPLIED.md
+          git add -A data applications JOBS.md APPLIED.md
           git diff --cached --quiet || git commit -m "jobs: $(date -u +%F\ %H:%M)"
-          for i in 1 2 3; do git pull --rebase && git push && break; sleep 10; done
+          for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 10; done
