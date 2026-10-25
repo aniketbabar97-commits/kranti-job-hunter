@@ -363,3 +363,9 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - Maitsys (LinkedIn post): parked. The role is in Frisco, Texas, and the post has no application email.
 
 No CAPTCHA tabs are left open for you to finish. Tab 1 (FAHMODA) and the LinkedIn tab are just leftover tabs. Each job is logged and the playbook has a new line for each system.
+[Sun 10/25/2026 10:52:19.42] batch 2 exit 0 
+`next 1` returned an empty list (`[]`), so there were no jobs to apply to, and I stopped early as instructed. I applied to 0 of the 10 jobs and logged nothing with `done`, `learn` or `answer`.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and most of `helper/PLAYBOOK.md`. The playbook was cut off at line 432 of 544. I didn't read the rest because there was no job to match it to. I also pulled Kranti's facts, and I opened no browser tabs.
+
+If you expected jobs in the queue, check whether the nightly batches already took them. The recent commits are "Claude applier: nightly batch 1" and "parked list". Parked jobs may only come back once they are re-queued.
