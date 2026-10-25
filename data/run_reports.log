@@ -203,3 +203,30 @@ New jobs need to be queued before I can apply to anything.
 `python -m helper.claude_jobs next 1` returned an empty list, so there was nothing to apply to. I stopped as instructed.
 
 I applied to 0 of the 10 jobs and logged nothing with `done` or `learn`. No browser tabs were opened, so there are no open CAPTCHA tabs.
+The queue is empty after 5 jobs, so I stopped early as instructed. No applications were submitted. Four jobs are parked and one is closed.
+
+- FAHMODA: parked. fahmoda.de has no careers page or application email.
+- Ernsting's family: parked. The careers page still returns a CloudFront 403 in the browser.
+- CHECK24 (Teamleiter Produktmanagement): closed. The posting is no longer on jobs.check24.de.
+- Vantage (LinkedIn post): parked. The role is in Toronto, Canada, and the post has no application email.
+- Maitsys (LinkedIn post): parked. The role is in Frisco, Texas, and the post has no application email.
+
+No CAPTCHA tabs are left open for you to finish. Tab 1 (FAHMODA) and the LinkedIn tab are just leftover tabs. Each job is logged and the playbook has a new line for each system.
+`next 1` returned an empty list (`[]`), so there were no jobs to apply to, and I stopped early as instructed. I applied to 0 of the 10 jobs and logged nothing with `done`, `learn` or `answer`.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and most of `helper/PLAYBOOK.md`. The playbook was cut off at line 432 of 544. I didn't read the rest because there was no job to match it to. I also pulled Kranti's facts, and I opened no browser tabs.
+
+If you expected jobs in the queue, check whether the nightly batches already took them. The recent commits are "Claude applier: nightly batch 1" and "parked list". Parked jobs may only come back once they are re-queued.
+`next 1` returned an empty list, so the queue is empty and I stopped without applying to anyone.
+
+No jobs were applied to, parked or logged, and no CAPTCHA tabs were opened.
+`python -m helper.claude_jobs next 1` returned an empty list, so there are no jobs to apply to. As instructed, I stopped without applying to any.
+
+I made no browser changes and logged no jobs. I read the playbook through line 432 of 544 and didn't need the rest.
+`python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so I stopped without applying to anything. No jobs were opened, submitted or logged.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 432 of the 544 lines of `helper/PLAYBOOK.md`. I skipped the rest because there was nothing to apply to. I also pulled the `facts` data. I didn't change any files.
+
+The queue is empty, so the earlier nightly batches (1–4) have probably already worked through everything. If you expected more jobs, the queue needs refilling or the job source needs a look.
+
+There are no open CAPTCHA tabs to list.

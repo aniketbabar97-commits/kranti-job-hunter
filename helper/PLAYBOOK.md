@@ -225,6 +225,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank fÃ¼r Ihre Bewerbung!'.
 
 ## LinkedIn recruiter posts
+- Maitsys post: US (Texas) Salesforce role, no email -> park.
+- Vantage post: role was Toronto-based, post had no email, only a linkedin.com/jobs link (needs login) -> park.
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express (kugellager-express.de)
@@ -271,12 +273,14 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Arbeitsagentur-only link: Google 'AF-mediaGROUP Full Stack Entwickler' finds af-mediagroup.it/karriere with Elementor contact form (name,email,message, no upload) -> sent why_us; success 'Deine Ãœbermittlung war erfolgreich.' Docs address karriere@af-mediagroup.com.
 
 ## FAHMODA (fahmoda.de)
+- Run 2: homepage still has no karriere/jobs/Bewerbung link; parked again.
 - Site has no careers/job page (only student admission); the Shopware/myfactory job exists only on aggregators -> park.
 
 ## Umantis (recruitingapp-*.de.umantis.com)
 - Indeed link is Cloudflare-blocked; google title -> company career page -> Jetzt bewerben -> /Application/New. Fill by role; DOB mm/dd/yyyy; upload via button + file chooser (check input[type=file].files); privacy checkbox; 'Bewerbung definitiv einreichen' -> /Confirmation.
 
 ## Ernsting's family
+- Run 2: karriere page still CloudFront 403; parked.
 - ernstings-family.com/karriere and career.ernstings-family.com give CloudFront 403 in the automated browser; jobs.de mirror has botchallenge -> park.
 
 ## Quellwerke (karriere.quellwerke.de, TYPO3 form)
@@ -307,6 +311,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Indeed->severin.com/de-de/karriere->blogazine/vacancies/<slug>->'Jetzt bewerben' -> /bewerbung/<slug>-<id>. 2 steps (Daten with ISO DOB; Unterlagen: CV, Anschreiben via chooser), then 'Bewerbung senden' opens dialog -> click 'Senden'. No thank-you page (redirects to /stellenangebote); confirmation = PIN mail (code Severin talentstorm.de).
 
 ## rexx (career.check24.de)
+- Run 2: jobs.check24.de/de/jobs/?q=Teamleiter shows no Teamleiter Produktmanagement E-Commerce posting = closed.
 - LinkedIn link is authwall: jobs.check24.de/de/jobs/?q=Teamleiter lists jobs -> career.check24.de/...-f<id>.html. Selects are custom (set native select via JS+change); each upload opens a 'KI Hinweis' jQuery dialog (Akzeptieren/Ablehnen) that re-opens and keeps an overlay; 'anschreiben' input lands in the CV preview slot (replaces CV) - upload one merged PDF (cover+CV) into the CV slot only, and handle the dialog before the next click. Unresolved: parked.
 
 ## WMF (Groupe SEB)
