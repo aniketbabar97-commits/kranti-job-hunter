@@ -362,3 +362,6 @@ I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 of 575 lines of `helper/PLAY
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 430 lines of `helper/PLAYBOOK.md` (it has 575) and the `facts` output. I didn't log anything with `done` or `learn`, and I opened no browser tabs, so there are no open CAPTCHA tabs to finish.
 
 The recent commits are nightly batches from the Claude applier, so the queue may already be drained. If you expected jobs to be waiting, check how the queue gets filled.
+I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so there is nothing queued, and the instructions say to stop early in that case.
+
+I loaded Kranti's facts and the first 430 lines of `helper/PLAYBOOK.md`. I didn't read the rest of the playbook, since no job needed it. I opened no browser tabs, logged nothing with `done`, `answer` or `learn`, and left no open CAPTCHA tabs.
