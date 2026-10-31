@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 3: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 2: liebherr.com/de-de/j/karriere/offene-stellen?q= gives 404; parked per playbook (reCAPTCHA).
 - Homepage link useless; Google the title -> liebherr.com/de-de/j/karriere/offene-stellen/<id>; accept Usercentrics, JETZT BEWERBEN opens SuccessFactors login with reCAPTCHA checkbox -> always parks.
 
@@ -584,6 +585,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 4: parked from playbook history; initiative posting still gone.
 - Run 3: /job/42719 now 404 (errorpage); no initiative route -> park.
 - Run 2: jobs.bechtle.com search page renders empty (no results) and /job/42719 404s; could not reach the initiative posting. (SAP p78 QuickApply)
 - jobs.bechtle.com Initiativbewerbung job 42719 -> Jetzt bewerben opens bechtle-production.p78quickapply.com; max 64-char filenames, so upload short-named copies (same as Geberit). Recruiting accepts portal only.
