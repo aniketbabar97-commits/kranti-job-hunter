@@ -552,3 +552,6 @@ The Bechtle tab is still open. Nothing needs solving by hand: neither job reache
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 442 of 653 lines of `helper/PLAYBOOK.md`, and pulled Kranti's facts. I didn't read the rest of the playbook, since no job needed it.
 
 No jobs applied, so there are no company lines and no open CAPTCHA tabs to list.
+I applied to 0 of 10 jobs. The first `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped there as instructed.
+
+I didn't open the browser or log anything with `done`, `answer` or `learn`. There are no open CAPTCHA tabs to list.
