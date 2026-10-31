@@ -704,3 +704,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 Every `next 1` call returned a job, so the early stop never triggered. I logged each job with `done` and added a `learn` line to the playbook for each, and I didn't need to log any free-text answers.
 
 Left unchanged: the browser and both CAPTCHA tabs are still open.
+[Sat 10/31/2026 16:29:33.49] batch 2 exit 0 
+- Elbkind â€” parked â€” no careers page, form or email on the site
+- Douglas â€” parked â€” no initiative form or email, no SAP Commerce roles
+- Cyberport â€” parked â€” Cloudflare security check blocks the site, treated as a captcha
+- CX Rocket â€” parked â€” the domain is parked at GoDaddy, so there is no application route
+
+For Hansgrohe and Hahn+Kolb I did not fill in the forms, so there are no open captcha tabs. The form URLs are in the parked notes if you want to finish them by hand. None of the ten had an application email to hand off to the email route.
+
+Each job has a one-line note in the playbook.

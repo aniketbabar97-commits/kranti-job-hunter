@@ -781,8 +781,8 @@
  },
  "https://www.merkle.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no Commerce/Germany posting, no HR email on merkle.com careers (run 2)",
-  "ts": "2026-10-25 12:27"
+  "note": "no initiative form, no SAP Commerce posting on merkle.com/en/careers/jobs.html (per playbook runs 1-2); no HR email found",
+  "ts": "2026-10-31 16:27"
  },
  "https://www.mindsquare.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -811,8 +811,8 @@
  },
  "https://www.liebherr.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option on liebherr.com careers page; SuccessFactors apply has reCAPTCHA",
-  "ts": "2026-10-25 12:50"
+  "note": "no initiative form or email; SuccessFactors apply is behind reCAPTCHA (playbook runs 1-3)",
+  "ts": "2026-10-31 16:27"
  },
  "https://www.lemundo.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -866,13 +866,13 @@
  },
  "https://www.hilti.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no Hybris/SAP Commerce posting on careers.hilti.group; no HR email found",
-  "ts": "2026-10-25 13:20"
+  "note": "no initiative form, no SAP Commerce posting at careers.hilti.group (playbook runs 1-2); no email",
+  "ts": "2026-10-31 16:27"
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (image captcha; form filled, tab open)",
-  "ts": "2026-10-25 13:21"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, playbook runs 1-3; not refilled)",
+  "ts": "2026-10-31 16:27"
  },
  "https://www.hansa-flex.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -886,8 +886,8 @@
  },
  "https://www.hahn-kolb.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu 'I am human'; form filled, tab open)",
-  "ts": "2026-10-25 13:22"
+  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captc.eu checkbox, playbook runs 1-2; not refilled)",
+  "ts": "2026-10-31 16:28"
  },
  "https://www.grohe.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -901,8 +901,8 @@
  },
  "https://www.festo.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no Hybris/SAP Commerce posting on jobs.festo.com (only Barcelona Java backend); no HR email",
-  "ts": "2026-10-25 13:22"
+  "note": "no German initiative form, no SAP Commerce posting at jobs.festo.com (playbook runs 1-2); no HR email",
+  "ts": "2026-10-31 16:28"
  },
  "https://www.faktor-e.de/#initiativbewerbung": {
   "status": "parked",
@@ -921,18 +921,18 @@
  },
  "https://www.endress.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no SAP Commerce posting on careers.endress.com; email applications not accepted",
-  "ts": "2026-10-25 14:50"
+  "note": "no initiative route, no SAP Commerce roles at careers.endress.com (playbook runs 1-2); email applications not accepted",
+  "ts": "2026-10-31 16:28"
  },
  "https://www.elbkind.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or HR email on elbkind.de; reply.com career page 404",
-  "ts": "2026-10-25 13:22"
+  "note": "no careers page, initiative form or HR email on elbkind.de (playbook runs 1-2)",
+  "ts": "2026-10-31 16:28"
  },
  "https://www.douglas.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative option, no SAP Commerce/Hybris posting on careers.douglas.group (only SuccessFactors login); no email found",
-  "ts": "2026-10-25 13:23"
+  "note": "no initiative form or email, no SAP Commerce roles at careers.douglas.group (playbook runs 1-2)",
+  "ts": "2026-10-31 16:29"
  },
  "https://www.dotsource.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -941,13 +941,13 @@
  },
  "https://www.cyberport.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://www.cyberport.de/ (Cloudflare security verification, 403)",
-  "ts": "2026-10-25 13:50"
+  "note": "captcha – Cloudflare security verification blocks cyberport.de (playbook runs 1-2); no email",
+  "ts": "2026-10-31 16:29"
  },
  "https://www.cxrocket.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "domain parked at GoDaddy, no application route or email",
-  "ts": "2026-10-25 13:50"
+  "note": "cxrocket.com domain parked at GoDaddy, no application route or email (playbook runs 1-2)",
+  "ts": "2026-10-31 16:29"
  },
  "https://www.conrad.de/#initiativbewerbung": {
   "status": "confirmed",
