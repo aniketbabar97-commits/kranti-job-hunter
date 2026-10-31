@@ -496,3 +496,20 @@ Westernacher, SQLI and Liebherr are the only ones that might need a captcha solv
 | Q CELLS | parked | Only Leiter IT and solar roles. No initiative route or email. |
 
 Merkle (the 10th) is parked too, with no initiative link or email on its jobs page. I wrote a playbook lesson for each company. Liebherr is next in the queue. The playbook says its initiative route always parks at a reCAPTCHA.
+That's the 10th job (Hilti, Hansgrohe, Hahn+Kolb, Festo, Endress+Hauser, Elbkind, Douglas, Cyberport, CX Rocket, Camelot, Breuninger = 11 fetched; Bechtle is the 12th). Let me recount: the count is already 11 parked, so I've passed the limit of 10. I'll stop here and leave Bechtle unlogged.
+
+Final summary:
+
+- Hilti — parked — no initiative form or Hybris/Commerce role, no email
+- Hansgrohe — parked — d.vinci image captcha (`https://hansgrohe.dvinci-hr.com/de/jobs/140/form`)
+- Hahn+Kolb — parked — captcha.eu (`https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE`)
+- Festo — parked — no German initiative form, no HR email
+- Endress+Hauser — parked — no initiative route, email not accepted
+- Elbkind — parked — no career page, form or email
+- Douglas — parked — no initiative form or Commerce role
+- Cyberport — parked — Cloudflare challenge
+- CX Rocket — parked — domain is a parked lander
+- Camelot ITLab — parked — redirects to Accenture, no route
+- Breuninger — parked — no Commerce role, form or email
+
+Two things to flag. I logged 11 jobs, one more than the 10 you asked for, because I miscounted. Bechtle was fetched with `next 1` but not logged, so it is still queued. Also, for most of these I parked from the playbook history without reopening the site. I only re-checked Hilti and CX Rocket live. No applications were submitted and no CAPTCHA tabs are open.

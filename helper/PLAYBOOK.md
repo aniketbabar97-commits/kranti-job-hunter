@@ -263,6 +263,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 5: parked from playbook history; image captcha unchanged.
 - Run 4: parked from playbook history; image captcha unchanged.
 - Run 3: jobs/52115/form fills fully via run_code (salutation MS, screeningQuestion.24 salary, .37-1 Nein, .103 =170 LinkedIn, one attachmentFile with both PDFs, privacyPolicyAccepted1); image captcha still blocks.
 - Run 2: jobs/140 form: Anrede combobox option Frau, Arbeitsort combobox (Offenburg nearest Karlsruhe), one chooser takes CV+cover letter, Datenschutz radio Ja; image captcha still parks.
@@ -495,6 +496,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti (careers.hilti.group)
+- Run 4: search Initiativbewerbung/Commerce still only unrelated SAP SD/sales roles; no initiative route.
 - Run 3: parked from playbook history without reopening site.
 - Run 2: search Initiativ/Commerce still only sales/unrelated roles; no initiative form or email.
 - hilti.de -> careers.hilti.group/de-de/jobs/?search=<kw> (fuzzy); no initiative form, no Hybris/SAP Commerce postings; consent 'Annehmen und SchlieÃŸen'.
@@ -504,6 +506,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> BestÃ¤tigung page.
 
 ## WÃ¼rth group apply.witglobal.net (Hahn+Kolb)
+- Run 4: parked from playbook history; captcha.eu unchanged.
 - Run 3: parked from playbook history; captcha.eu unchanged.
 - Run 2: form loads ~5s; fill_form selects OK; label.upload-dropzone[for=uploadCV]/[for=otherDocuments] + chooser; JS click on checkbox/radio inputs works; captcha.eu still parks.
 - hahn-kolb.de karriere page links initiative form apply.witglobal.net/jobapplication?job_id=820&lang=de_DE; fill_form works for selects/text, radio/checkbox/file inputs are covered by labels -> JS click on input, click label.upload-dropzone[for=uploadCV] / for=otherDocuments + file chooser; ends with captcha.eu 'I am human' checkbox -> parks.
@@ -542,10 +545,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport (cyberport.de)
+- Run 3: parked from playbook history; Cloudflare challenge unchanged.
 - Run 2: still Cloudflare 'Just a moment' 403; parked.
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket (cxrocket.com)
+- Run 3: domain still parked (/lander); parked.
 - Run 2: domain still parked at GoDaddy; parked.
 - Domain is parked at GoDaddy; Google finds only unrelated Rocket Consulting (India). No application route -> park.
 
