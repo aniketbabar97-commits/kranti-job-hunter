@@ -560,3 +560,8 @@ I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty lis
 I read the full instructions and the first 442 of 653 lines of the playbook. I didn't need the rest, since no jobs were queued. I loaded her facts, but I didn't open a browser, create any accounts or log anything.
 
 If you expected jobs in the queue, check whether the nightly batch has already been consumed or hasn't been loaded yet.
+I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped as instructed.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, the first 442 of 653 lines of `helper/PLAYBOOK.md`, and the facts output. I didn't read the rest of the playbook, since there was no job to look it up for. I opened no browser tabs, logged nothing with `done`, `answer` or `learn`, and made no changes.
+
+There are no open CAPTCHA tabs to finish. If you expected jobs in the queue, check whether the nightly batches (the recent "Claude applier: nightly batch" commits) already worked through them. Otherwise the job list needs refilling.
