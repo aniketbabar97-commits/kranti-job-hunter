@@ -826,3 +826,9 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 **Helper bug.** `python -m helper.claude_jobs next 1` crashed with a `TypeError` at `helper/claude_jobs.py:129`. The code tested `_id(kit) not in done`, but `done` is a function. I replaced it with a check that skips a job another worker claimed in the last 45 minutes, which matches line 116. That edit is uncommitted.
 
 The Bechtle tab is still open. Nothing needs solving by hand: neither job reached a form or CAPTCHA.
+[Sat 10/31/2026 23:51:25.68] batch 2 exit 0 
+`next 1` returned an empty list (`[]`) on the first call, so there was no job to apply to. I stopped early as instructed and submitted nothing. I opened no browser tabs and logged no `done` or `learn` entries.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 442 of 653 lines of `helper/PLAYBOOK.md`, and pulled Kranti's facts. I didn't read the rest of the playbook, since no job needed it.
+
+No jobs applied, so there are no company lines and no open CAPTCHA tabs to list.
