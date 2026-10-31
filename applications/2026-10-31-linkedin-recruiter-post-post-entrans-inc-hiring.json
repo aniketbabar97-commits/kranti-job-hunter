@@ -1,0 +1,180 @@
+{
+ "job": {
+  "title": "[Post] Entrans Inc. - Hiring",
+  "company": "LinkedIn recruiter post",
+  "location": "",
+  "url": "https://www.linkedin.com/posts/entrans-technologies_hiring-activity-7521825418576871424-15tx",
+  "apply_url": "",
+  "score": 65,
+  "lang": "en",
+  "source": "LinkedIn post",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "Backend developer with 5+ years delivering SAP Commerce Cloud (Hybris 2105/2211) solutions for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot, REST/OCC APIs, micro-services, and data integration between PIM, ERP and MDM. Proven record in CI/CD, Docker/Kubernetes, production support, and techno-functional analysis of business requirements, user stories and process mapping.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    3
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "design",
+   "develop",
+   "customize",
+   "maintain",
+   "integration",
+   "API",
+   "REST",
+   "OCC",
+   "headless"
+  ],
+  "keywords_missing": [
+   "Spartacus",
+   "SAP Commerce Cloud Cloud SDK",
+   "SAP Commerce Cloud storefront extensions using Angular"
+  ],
+  "cover_en": {
+   "subject": "Application: SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about Entrans’ commitment to cutting-edge e-commerce platforms. With 5+ years building and scaling SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep expertise that matches your needs.",
+   "bullets": [
+    {
+     "label": "Design & Development",
+     "text": "Designed and implemented end-to-end SAP Commerce Cloud (Hybris 2211) features—product catalog, pricing and customer data—using Java, Spring and OCC REST services."
+    },
+    {
+     "label": "API & Integration",
+     "text": "Built and optimized PIM-to-Hybris data pipelines (Profisee, Hotfolders, DataHub) and migrated customer account APIs, ensuring seamless integration with ERP and MDM systems."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Worked directly with business stakeholders to analyse requirements, write user stories and functional specs, translating them into robust SAP Commerce solutions."
+    },
+    {
+     "label": "Production & DevOps",
+     "text": "Executed CI/CD deployment cycles on SAP Commerce Cloud Portal (CCv2), leveraged Docker/Kubernetes and resolved production issues to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, holding a valid German work permit, serving notice until 15 December 2026 and available to start 16 December 2026. I look forward to discussing how I can contribute to Entrans.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "Entrans’ focus on innovative, scalable e-commerce solutions and its strategic use of SAP Commerce Cloud align perfectly with my experience delivering high-performance SAP Commerce platforms for global brands. I am eager to help Entrans accelerate its digital commerce roadmap and drive measurable business value.",
+  "motivation_short": "I want to apply my SAP Commerce Cloud expertise to help Entrans deliver innovative, high-performance e-commerce solutions that drive growth.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a senior SAP Commerce Cloud developer with 5+ years experience at Rockwell Automation and Shell. I’m interested in the SAP Commerce Cloud role at Entrans and would love to discuss how I can add value.",
+  "email_subject": "Application for SAP Commerce Cloud Developer – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the SAP Commerce Cloud Developer position. With over five years of hands-on experience delivering SAP Commerce Cloud solutions for Rockwell Automation and Shell, I am confident I can contribute to Entrans’ success.\n\nThank you for your consideration.\n"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about Entrans’ commitment to cutting-edge e-commerce platforms. With 5+ years building and scaling SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep expertise that matches your needs.",
+   "bullets": [
+    {
+     "label": "Design & Development",
+     "text": "Designed and implemented end-to-end SAP Commerce Cloud (Hybris 2211) features—product catalog, pricing and customer data—using Java, Spring and OCC REST services."
+    },
+    {
+     "label": "API & Integration",
+     "text": "Built and optimized PIM-to-Hybris data pipelines (Profisee, Hotfolders, DataHub) and migrated customer account APIs, ensuring seamless integration with ERP and MDM systems."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Worked directly with business stakeholders to analyse requirements, write user stories and functional specs, translating them into robust SAP Commerce solutions."
+    },
+    {
+     "label": "Production & DevOps",
+     "text": "Executed CI/CD deployment cycles on SAP Commerce Cloud Portal (CCv2), leveraged Docker/Kubernetes and resolved production issues to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, holding a valid German work permit, serving notice until 15 December 2026 and available to start 16 December 2026. I look forward to discussing how I can contribute to Entrans.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-31"
+}
