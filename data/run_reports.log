@@ -408,3 +408,19 @@ API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)
 API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)
 API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)
 API Error: Can't reach the API server — check your internet or DNS (ENOTFOUND)
+All 10 jobs are processed, but none was submitted. All 10 are parked, and the Westernacher and SQLI forms are filled with a CAPTCHA left to solve.
+
+- Westernacher — parked — Lever "General application" form filled and the CV uploaded, but the hCaptcha blocked Submit. Tab 1 is open at `https://jobs.eu.lever.co/westernacher/ca1a08cc-bdc4-4165-8723-5d0af943cc2c/apply`. The cover letter couldn't be attached, so I put the `why_us` text and "cover letter follows by email" in the Additional information box.
+- Wacker — parked — no initiative form, the search shows "No jobs found", and I found no HR email.
+- Vorwerk — parked — the Commerce search returns 0 hits, with no initiative form or email.
+- Villeroy & Boch — parked — the only initiative posting is for the Treuchtlingen site, and there's no Commerce role or email.
+- Trumpf — parked — no initiative posting and no Commerce role.
+- team neusta — parked — only SAP Finance, DXP and fullstack roles, with no initiative form or email.
+- SQLI — parked — form filled (country Germany, merged cover letter and CV in the single file slot, consent ticked), but the reCAPTCHA is unsolved. Tab 2 is open at `https://www.sqli.com/int-en/spontaneous-application`; you solve it and click Submit.
+- Salzgitter — parked — only SAP SD and FI/CO in-house roles, with no initiative link or email.
+- Rittal — parked — no Commerce role or initiative posting among the 97 listed jobs, and no email.
+- Q CELLS — parked — no initiative route or email.
+
+Every `next 1` call returned a job, so the early stop never triggered. I logged each job with `done` and added a `learn` line to the playbook for each, and I didn't need to log any free-text answers.
+
+Left unchanged: the browser and both CAPTCHA tabs are still open.
