@@ -713,3 +713,12 @@ Left unchanged: the browser and both CAPTCHA tabs are still open.
 For Hansgrohe and Hahn+Kolb I did not fill in the forms, so there are no open captcha tabs. The form URLs are in the parked notes if you want to finish them by hand. None of the ten had an application email to hand off to the email route.
 
 Each job has a one-line note in the playbook.
+[Sat 10/31/2026 16:36:28.50] batch 3 exit 0 
+  - I logged my answers: travel 40â€“60 %, German B1â€“B2, English C1â€“C2, Homeoffice 2â€“3 days. Start date is 16.12.2026, which I read back.
+  - The tab is still open. Since the CBS one cleared itself, it's worth a look.
+- CGI, Infra/DevOps Lead eCommerce â€” parked â€” not in the njoyn listing (only an unrelated India role).
+- MARKANT, Business Analyst â€” parked, captcha â€” same reCAPTCHA gate. Two matching ads exist, so the note lists both: `jobad_id=754` and `jobad_id=745`.
+
+The open captcha tabs are MARKANT (reCAPTCHA) and ABRIO (hCaptcha). CBS is already submitted, so its tab can be closed.
+
+All 10 jobs are logged with `done`, and I added a `learn` line for each. I closed no tabs. `data/answers.jsonl`, `data/claude_runs.json` and `helper/PLAYBOOK.md` are modified but not committed.

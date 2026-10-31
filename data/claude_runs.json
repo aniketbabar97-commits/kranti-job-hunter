@@ -130,9 +130,9 @@
   "ts": "2026-10-18 17:56"
  },
  "https://www.linkedin.com/jobs/view/4478765999": {
-  "status": "parked",
-  "note": "captcha - https://hansgrohe.dvinci-hr.com/de/jobs/52115/form (all fields filled, image captcha text only)",
-  "ts": "2026-10-25 16:55"
+  "status": "closed",
+  "note": "auto: posting gone (404 or 'no longer available')",
+  "ts": "2026-10-31 16:36"
  },
  "https://de.indeed.com/viewjob?jk=75b145edf216f2f8": {
   "status": "confirmed",
@@ -421,8 +421,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S": {
   "status": "parked",
-  "note": "Cloudflare challenge (403) on kugellager-express.de/karriere, run 3; no email found",
-  "ts": "2026-10-25 16:50"
+  "note": "captcha – Cloudflare security check on https://www.kugellager-express.de/karriere (403)",
+  "ts": "2026-10-31 16:33"
  },
  "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0": {
   "status": "confirmed",
@@ -431,8 +431,8 @@
  },
  "https://de.indeed.com/viewjob?jk=e2c62136d72810e0": {
   "status": "parked",
-  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751",
-  "ts": "2026-10-25 16:51"
+  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751 (reCAPTCHA checkbox before the form)",
+  "ts": "2026-10-31 16:34"
  },
  "https://de.indeed.com/viewjob?jk=5eeb86a96359cdbb": {
   "status": "closed",
@@ -461,18 +461,18 @@
  },
  "https://www.linkedin.com/jobs/view/4459647609": {
   "status": "parked",
-  "note": "captcha - https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (form filled, hCaptcha after Senden)",
-  "ts": "2026-10-25 16:53"
+  "note": "captcha – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (hCaptcha after Senden, form fully filled)",
+  "ts": "2026-10-31 16:35"
  },
  "https://www.linkedin.com/jobs/view/4477870309": {
   "status": "parked",
-  "note": "CGI njoyn: posting not found in job list (3036 rows, keyword search not applied); registration chain unreliable per playbook; no email",
-  "ts": "2026-10-25 16:54"
+  "note": "not in CGI njoyn listing (DE list shows only unrelated roles); no application email found",
+  "ts": "2026-10-31 16:35"
  },
  "https://de.indeed.com/viewjob?jk=451afb600bf9e95d": {
   "status": "parked",
-  "note": "captcha - https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 (visible reCAPTCHA before form; alt id=745)",
-  "ts": "2026-10-25 16:55"
+  "note": "captcha – reCAPTCHA gate before form; Business Analyst is id 754 or 745: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 / ...jobad_id=745",
+  "ts": "2026-10-31 16:36"
  },
  "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d": {
   "status": "confirmed",
@@ -980,8 +980,8 @@
   "ts": "2026-10-25 08:29"
  },
  "https://www.bechtle.com/#initiativbewerbung": {
-  "status": "working",
-  "note": "claimed",
+  "status": "parked",
+  "note": "jobs.bechtle.com/job/42719 404; no initiative posting reachable; portal-only (p78 QuickApply); no email",
   "ts": "2026-10-31 16:32"
  },
  "https://www.babiel.com/#initiativbewerbung": {
@@ -991,8 +991,8 @@
  },
  "https://www.bbraun.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "only initiative posting is Österreich; no Germany initiative or Commerce role; no email",
-  "ts": "2026-10-25 13:53"
+  "note": "jobs.bbraun.com: only Initiativbewerbung Österreich, 'Commerce' 0 hits; no email",
+  "ts": "2026-10-31 16:33"
  },
  "https://www.axians.de/#initiativbewerbung": {
   "status": "confirmed",

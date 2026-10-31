@@ -232,7 +232,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Vantage post: role was Toronto-based, post had no email, only a linkedin.com/jobs link (needs login) -> park.
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
-## Kugellager-Express (kugellager-express.de)
+## Kugellager-Express
+- Run 4: /karriere still 403 behind Cloudflare 'Just a moment'; parked again. (kugellager-express.de)
 - Run 3: /karriere still 403 behind Cloudflare 'Just a moment'; parked again.
 - Run 2: /karriere still 403 behind Cloudflare 'Just a moment' challenge; parked again.
 - Site sits behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
@@ -240,7 +241,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## softgarden (karriere.schaefer-shop.de)
 - Job page Jetzt-bewerben href goes to /application/<guid>/<id>/. Step 1: click Lebenslauf-hochladen label + file chooser; Weitere-Anhaenge zone = cover letter. Step 3 questions are text inputs + button lists; FriendlyCaptcha self-solves; Bestaetigen shows the thank-you.
 
-## Markant (jobs.markant.com, Rexx-like own portal)
+## Markant
+- Run 3: several plain 'Business Analyst (m/w/d)' ads (ids 754, 745) plus CRM/Customer Care variants; all use the same reCAPTCHA privacy page -> parks.
+- Run 3: jobad id=751 still open; Apply without registration -> privacy page with visible reCAPTCHA checkbox before the form -> parks. (jobs.markant.com, Rexx-like own portal)
 - jobad id -> Jetzt online bewerben -> Apply without registration -> applicationform_privacy page already has a visible reCAPTCHA checkbox before the form; always parks.
 
 ## Ensinger (Persis engage)
@@ -548,6 +551,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 3: /job/42719 now 404 (errorpage); no initiative route -> park.
 - Run 2: jobs.bechtle.com search page renders empty (no results) and /job/42719 404s; could not reach the initiative posting. (SAP p78 QuickApply)
 - jobs.bechtle.com Initiativbewerbung job 42719 -> Jetzt bewerben opens bechtle-production.p78quickapply.com; max 64-char filenames, so upload short-named copies (same as Geberit). Recruiting accepts portal only.
 
@@ -555,6 +559,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - babiel.com now conet.de; /de/karriere/initiativbewerbung/ form (TYPO3): fields by id _Vorname,_Name,_Strasse,_Plz,_Ort,_Land,_Mobil,_Email,_Geburtsdatum(date ISO),_Nationality,_Eintrittsdatum(date ISO),_Gehaltsvorstellung,_Suchweg,_Bemerkungen; accept cookies first; upload via role=button Lebenslauf/Anschreiben/Zeugnisse(=cover letter) + file chooser; consents via JS; FriendlyCaptcha self-solves after clicking 'Hier klicken'; success page /bestaetigung/ 'Vielen Dank fuer deine Bewerbung'.
 
 ## B. Braun
+- Run 3: unchanged - only 'Initiativbewerbung Ã–sterreich', Commerce 0 hits.
 - Run 2: jobs.bbraun.com q=Initiativbewerbung still only 'Initiativbewerbung Ã–sterreich'. (jobs.bbraun.com, SuccessFactors)
 - bbraun.de/karriere -> jobs.bbraun.com/search/?q=<kw>&locale=de_DE (accept 'Alle Cookies akzeptieren' first); only initiative posting is Ã–sterreich; 'Commerce' and 'SAP Hybris' return 0 hits.
 
@@ -586,6 +591,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: jobad id=751 -> Jetzt online bewerben -> Apply now; privacy page has visible reCAPTCHA before any form; parked again.
 
 ## Recruitee (abriogmbh)
+- Run 3: Senior E-Commerce Consultant /c/new fills fine; start date is native type=date (fill ISO 2026-12-16, typing mangles it; read back); Senden shows hCaptcha -> parks.
 - Run 2: form fills via frame evaluate (radios .click() by value, file inputs setInputFiles nth0 CV nth1 cover, start date type=date ISO); Senden shows hCaptcha image puzzle -> parked with tab open.
 
 ## d.vinci (hansgrohe)
@@ -595,8 +601,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: guessed stellenangebote search URL just redirects to /de-de/karriere/karriere-3364204; parked per known reCAPTCHA without opening the posting.
 
 ## CBS (Recruitee)
+- Run 3 correction: after the hCaptcha puzzle appeared, the tab went to /applied on its own a few seconds later - re-check the tab after ~30s before parking.
 - Run 3: form filled fully (Frau, source Linkedin, locations Heidelberg/Stuttgart/Freiburg, consent via JS click); Senden shows hCaptcha rune puzzle -> parks with tab open.
 - Run 2: custom selects: open button, then click role=option (refs go stale, use label:has-text); privacy is last checkbox; hCaptcha on Senden -> parks.
 
 ## CGI (cgi.njoyn.com)
 - Run 3: Infra/DevOps Lead eCommerce not in default DE listing, header keyword box does not filter via Enter; parked.
+
+## CGI (njoyn)
+- Run 4: DE job listing (page=joblisting&CountryID=DE) still has no Infra/DevOps Lead eCommerce DÃ¼sseldorf posting; parked.

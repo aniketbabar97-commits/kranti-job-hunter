@@ -443,3 +443,21 @@ All ten were Initiativbewerbung jobs. For nine of them I parked without opening 
 For Hansgrohe and Hahn+Kolb I did not fill in the forms, so there are no open captcha tabs. The form URLs are in the parked notes if you want to finish them by hand. None of the ten had an application email to hand off to the email route.
 
 Each job has a one-line note in the playbook.
+Ten jobs processed. One was submitted (CBS) and nine are parked. I stopped at ten, so `next 1` never came back empty.
+
+- CBS Corporate Business Solutions — confirmed — Recruitee `/applied` page says "Deine Bewerbung wurde eingesendet!". I first logged it as `parked` when an hCaptcha puzzle appeared, then found the tab had submitted by itself a few seconds later. I did not solve or click the captcha. I re-logged it as `confirmed`.
+- Camelot ITLab — parked — the site redirects to accenture.com/de-de, which has no initiative form or SAP Commerce posting.
+- Breuninger — parked — 12 roles, none for Commerce/Hybris, and no initiative form or email.
+- Bechtle — parked — `/job/42719` returns 404 and the portal is the only route.
+- B. Braun — parked — only "Initiativbewerbung Österreich" exists; Commerce search returns nothing.
+- Kugellager-Express — parked — Cloudflare 403 on `/karriere`. Tab 3 now shows the page title "Jobs - Ihre Karriere bei Kugellager Express", so it may be reachable now.
+- MARKANT, Consultant Master Data Services — parked, captcha — visible reCAPTCHA before the form: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751
+- Instaffo/ABRIO, Senior E-Commerce Consultant — parked, captcha — form fully filled, then an hCaptcha appeared after Senden: https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new
+  - I logged my answers: travel 40–60 %, German B1–B2, English C1–C2, Homeoffice 2–3 days. Start date is 16.12.2026, which I read back.
+  - The tab is still open. Since the CBS one cleared itself, it's worth a look.
+- CGI, Infra/DevOps Lead eCommerce — parked — not in the njoyn listing (only an unrelated India role).
+- MARKANT, Business Analyst — parked, captcha — same reCAPTCHA gate. Two matching ads exist, so the note lists both: `jobad_id=754` and `jobad_id=745`.
+
+The open captcha tabs are MARKANT (reCAPTCHA) and ABRIO (hCaptcha). CBS is already submitted, so its tab can be closed.
+
+All 10 jobs are logged with `done`, and I added a `learn` line for each. I closed no tabs. `data/answers.jsonl`, `data/claude_runs.json` and `helper/PLAYBOOK.md` are modified but not committed.
