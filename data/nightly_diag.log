@@ -836,3 +836,9 @@ No jobs applied, so there are no company lines and no open CAPTCHA tabs to list.
 I applied to 0 of 10 jobs. The first `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped there as instructed.
 
 I didn't open the browser or log anything with `done`, `answer` or `learn`. There are no open CAPTCHA tabs to list.
+[Sat 10/31/2026 23:52:16.67] batch 4 exit 0 
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped early as you instructed.
+
+I read the full instructions and the first 442 of 653 lines of the playbook. I didn't need the rest, since no jobs were queued. I loaded her facts, but I didn't open a browser, create any accounts or log anything.
+
+If you expected jobs in the queue, check whether the nightly batch has already been consumed or hasn't been loaded yet.
