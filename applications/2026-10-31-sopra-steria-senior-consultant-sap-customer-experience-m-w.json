@@ -1,0 +1,241 @@
+{
+ "job": {
+  "title": "Senior Consultant SAP Customer Experience (m/w/d)",
+  "company": "Sopra Steria",
+  "location": "Germany",
+  "url": "https://de.indeed.com/viewjob?jk=81d8b0079ed5625b",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "Indeed",
+  "posted": "2026-10-30",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior SAP Commerce Cloud Consultant | Java, Spring & OCC APIs | 5+ yrs CX e-commerce",
+  "summary": "Backend developer with over 5 years delivering SAP Commerce Cloud (Hybris) solutions for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot and OCC REST APIs, designing end-to-end integrations between PIM, ERP and MDM systems. Proven record in techno-functional consulting: analysing business processes, writing user stories, leading workshops and supporting production go-live and hyper-care. Skilled in CI/CD, Docker, Kubernetes and agile international teams.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    3,
+    5,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    2,
+    4
+   ],
+   "cognizant": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Commerce Cloud",
+   "Customer Experience",
+   "Integration",
+   "API",
+   "REST",
+   "OCC",
+   "SAP ERP",
+   "MDM",
+   "PIM",
+   "Cloud",
+   "Agile",
+   "International Teams",
+   "German",
+   "English"
+  ],
+  "keywords_missing": [
+   "SAP Sales Cloud",
+   "SAP Service Cloud",
+   "SAP Marketing Cloud",
+   "SAP S/4HANA",
+   "C1 German level",
+   "Cloud architectures (e.g., SAP BTP)",
+   "modern Schnittstellentechnologien (e.g., OData)",
+   "Finance background"
+  ],
+  "cover_en": {
+   "subject": "Application: Senior Consultant SAP Customer Experience",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited by Sopra Steria’s reputation as a European tech-leader shaping digital transformation. With 5+ years delivering SAP Commerce Cloud solutions for Rockwell Automation and Shell, I bring deep SAP CX expertise and a proven record of driving end-to-end e-commerce value.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Implemented and extended SAP Commerce Cloud (Hybris 2211) platforms, creating OCC REST services and headless APIs that power seamless customer journeys."
+    },
+    {
+     "label": "End-to-End Integration",
+     "text": "Designed PIM-to-Hybris data pipelines and integrated SAP ERP and MDM systems, ensuring consistent product data across global channels."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Worked directly with business stakeholders to analyse processes, write user stories, and lead workshops that translated requirements into technical specifications."
+    },
+    {
+     "label": "Production & Hypercare",
+     "text": "Supported go-live, hyper-care and production troubleshooting, applying CI/CD pipelines and cloud deployments to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, valid work permit, serving notice until 15 December 2026, earliest start 16 December 2026. I look forward to discussing how I can add value to Sopra Steria.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Senior Consultant SAP Customer Experience",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sopra Steria begeistert mich als führender europäischer Technologiepartner, der digitale Kundenerlebnisse gestaltet. Mit über 5 Jahren Erfahrung in SAP Commerce Cloud-Projekten bei Rockwell Automation und Shell bringe ich fundiertes SAP-CX-Know-how und nachweisliche Erfolge in der Umsetzung komplexer E-Commerce-Lösungen mit.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Ich habe SAP Commerce Cloud (Hybris 2211) implementiert, OCC-REST-Services entwickelt und Headless-APIs bereitgestellt, um nahtlose Customer-Journeys zu ermöglichen."
+    },
+    {
+     "label": "End-to-End-Integration",
+     "text": "Ich konzipierte PIM-zu-Hybris-Datenpipelines und integrierte SAP ERP sowie MDM-Systeme, um konsistente Produktdaten global sicherzustellen."
+    },
+    {
+     "label": "Techno-funktionale Beratung",
+     "text": "In enger Zusammenarbeit mit Fachbereichen analysierte ich Prozesse, erstellte User Stories und leitete Workshops, die Anforderungen in technische Konzepte überführten."
+    },
+    {
+     "label": "Produktions- und Hypercare-Support",
+     "text": "Ich begleitete Go-Live-Phasen, Hypercare und Produktions-Troubleshooting und nutzte CI/CD-Pipelines sowie Cloud-Deployments für hohe Verfügbarkeit."
+    }
+   ],
+   "gap": "",
+   "logistics": "Standort Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintrittstermin 16.12.2026. Ich freue mich auf ein Gespräch, um meinen Beitrag bei Sopra Steria zu erläutern.",
+   "closing": ""
+  },
+  "why_company": "Sopra Steria’s blend of management consulting and cutting-edge technology aligns perfectly with my techno-functional background. The firm’s focus on end-to-end customer experience, its European scale and commitment to innovative SAP CX solutions give me the ideal platform to apply my SAP Commerce expertise while growing within a forward-thinking consultancy.",
+  "motivation_short": "I want to help Sopra Steria’s clients transform their customer journeys using my SAP Commerce Cloud expertise and proven integration experience.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a senior SAP Commerce Cloud consultant with 5+ years of CX experience at Rockwell Automation and Shell. I’m eager to discuss how I can contribute to Sopra Steria’s SAP CX projects. Let’s connect!",
+  "email_subject": "Application – Senior Consultant SAP Customer Experience",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Senior Consultant SAP Customer Experience role at Sopra Steria. With over five years of SAP Commerce Cloud experience, strong integration skills, and a proven techno-functional consulting track record, I am confident I can add immediate value.\n\nI look forward to the opportunity to discuss my application.\n"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Senior Consultant SAP Customer Experience",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited by Sopra Steria’s reputation as a European tech-leader shaping digital transformation. With 5+ years delivering SAP Commerce Cloud solutions for Rockwell Automation and Shell, I bring deep SAP CX expertise and a proven record of driving end-to-end e-commerce value.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Implemented and extended SAP Commerce Cloud (Hybris 2211) platforms, creating OCC REST services and headless APIs that power seamless customer journeys."
+    },
+    {
+     "label": "End-to-End Integration",
+     "text": "Designed PIM-to-Hybris data pipelines and integrated SAP ERP and MDM systems, ensuring consistent product data across global channels."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Worked directly with business stakeholders to analyse processes, write user stories, and lead workshops that translated requirements into technical specifications."
+    },
+    {
+     "label": "Production & Hypercare",
+     "text": "Supported go-live, hyper-care and production troubleshooting, applying CI/CD pipelines and cloud deployments to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, valid work permit, serving notice until 15 December 2026, earliest start 16 December 2026. I look forward to discussing how I can add value to Sopra Steria.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Senior Consultant SAP Customer Experience",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Sopra Steria begeistert mich als führender europäischer Technologiepartner, der digitale Kundenerlebnisse gestaltet. Mit über 5 Jahren Erfahrung in SAP Commerce Cloud-Projekten bei Rockwell Automation und Shell bringe ich fundiertes SAP-CX-Know-how und nachweisliche Erfolge in der Umsetzung komplexer E-Commerce-Lösungen mit.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Ich habe SAP Commerce Cloud (Hybris 2211) implementiert, OCC-REST-Services entwickelt und Headless-APIs bereitgestellt, um nahtlose Customer-Journeys zu ermöglichen."
+    },
+    {
+     "label": "End-to-End-Integration",
+     "text": "Ich konzipierte PIM-zu-Hybris-Datenpipelines und integrierte SAP ERP sowie MDM-Systeme, um konsistente Produktdaten global sicherzustellen."
+    },
+    {
+     "label": "Techno-funktionale Beratung",
+     "text": "In enger Zusammenarbeit mit Fachbereichen analysierte ich Prozesse, erstellte User Stories und leitete Workshops, die Anforderungen in technische Konzepte überführten."
+    },
+    {
+     "label": "Produktions- und Hypercare-Support",
+     "text": "Ich begleitete Go-Live-Phasen, Hypercare und Produktions-Troubleshooting und nutzte CI/CD-Pipelines sowie Cloud-Deployments für hohe Verfügbarkeit."
+    }
+   ],
+   "gap": "",
+   "logistics": "Standort Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintrittstermin 16.12.2026. Ich freue mich auf ein Gespräch, um meinen Beitrag bei Sopra Steria zu erläutern.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-31"
+}
