@@ -166,8 +166,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S": {
   "status": "parked",
-  "note": "Liebherr SuccessFactors apply has reCAPTCHA (playbook); direct job URL not found, no form URL reached",
-  "ts": "2026-10-31 16:37"
+  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (per playbook, not retried); https://www.liebherr.com/de-de/j/karriere/offene-stellen",
+  "ts": "2026-10-31 23:00"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206302371-S": {
   "status": "closed",
@@ -421,8 +421,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S": {
   "status": "parked",
-  "note": "captcha – Cloudflare security check on https://www.kugellager-express.de/karriere (403)",
-  "ts": "2026-10-31 16:33"
+  "note": "cloudflare challenge – https://www.kugellager-express.de/karriere",
+  "ts": "2026-10-31 22:58"
  },
  "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0": {
   "status": "confirmed",
@@ -431,8 +431,8 @@
  },
  "https://de.indeed.com/viewjob?jk=e2c62136d72810e0": {
   "status": "parked",
-  "note": "captcha – https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=751 (reCAPTCHA checkbox before the form)",
-  "ts": "2026-10-31 16:34"
+  "note": "captcha – Markant portal applicationform_privacy has reCAPTCHA; https://jobs.markant.com/",
+  "ts": "2026-10-31 22:58"
  },
  "https://de.indeed.com/viewjob?jk=5eeb86a96359cdbb": {
   "status": "closed",
@@ -461,18 +461,18 @@
  },
  "https://www.linkedin.com/jobs/view/4459647609": {
   "status": "parked",
-  "note": "captcha – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new (hCaptcha after Senden, form fully filled)",
-  "ts": "2026-10-31 16:35"
+  "note": "job open; Recruitee form ends in hCaptcha (per playbook), form NOT filled this run – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new",
+  "ts": "2026-10-31 22:59"
  },
  "https://www.linkedin.com/jobs/view/4477870309": {
   "status": "parked",
-  "note": "not in CGI njoyn listing (DE list shows only unrelated roles); no application email found",
-  "ts": "2026-10-31 16:35"
+  "note": "CGI njoyn: job not on first list page (3056 global results), registration chain unresolved per playbook; not applied – https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4",
+  "ts": "2026-10-31 22:59"
  },
  "https://de.indeed.com/viewjob?jk=451afb600bf9e95d": {
   "status": "parked",
-  "note": "captcha – reCAPTCHA gate before form; Business Analyst is id 754 or 745: https://jobs.markant.com/index.php?ac=applicationform_privacy&jobad_id=754 / ...jobad_id=745",
-  "ts": "2026-10-31 16:36"
+  "note": "captcha – Markant portal privacy page has reCAPTCHA before form (per playbook, not refilled); https://jobs.markant.com/",
+  "ts": "2026-10-31 22:59"
  },
  "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d": {
   "status": "confirmed",
@@ -486,8 +486,8 @@
  },
  "https://de.indeed.com/viewjob?jk=bed693216eda8783": {
   "status": "parked",
-  "note": "Indeed Cloudflare challenge 403; no employer apply route",
-  "ts": "2026-10-31 16:37"
+  "note": "Indeed viewjob Cloudflare 403, no employer apply route found",
+  "ts": "2026-10-31 22:59"
  },
  "https://www.linkedin.com/jobs/view/4475771885": {
   "status": "closed",
@@ -501,8 +501,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S": {
   "status": "parked",
-  "note": "Tabris: no apply link or email found (Arbeitsagentur hides contact behind security check; playbook: no employer route)",
-  "ts": "2026-10-31 16:37"
+  "note": "no employer site/apply route or email found (per playbook, not re-checked)",
+  "ts": "2026-10-31 23:00"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003787924-S": {
   "status": "confirmed",
@@ -516,8 +516,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S": {
   "status": "parked",
-  "note": "FAHMODA: no careers page/apply route on fahmoda.de (playbook)",
-  "ts": "2026-10-31 16:37"
+  "note": "no careers page or apply route on fahmoda.de (per playbook, not re-checked)",
+  "ts": "2026-10-31 23:00"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
   "status": "closed",
@@ -991,8 +991,8 @@
  },
  "https://www.bbraun.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "jobs.bbraun.com: only Initiativbewerbung Österreich, 'Commerce' 0 hits; no email",
-  "ts": "2026-10-31 16:33"
+  "note": "no initiative form; jobs.bbraun.com q=Commerce 0 hits",
+  "ts": "2026-10-31 22:58"
  },
  "https://www.axians.de/#initiativbewerbung": {
   "status": "confirmed",

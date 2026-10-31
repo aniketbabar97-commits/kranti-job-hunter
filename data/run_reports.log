@@ -513,3 +513,19 @@ Final summary:
 - Breuninger — parked — no Commerce role, form or email
 
 Two things to flag. I logged 11 jobs, one more than the 10 you asked for, because I miscounted. Bechtle was fetched with `next 1` but not logged, so it is still queued. Also, for most of these I parked from the playbook history without reopening the site. I only re-checked Hilti and CX Rocket live. No applications were submitted and no CAPTCHA tabs are open.
+I processed all 10 jobs and none were submitted. Nine were parked from the PLAYBOOK history, and for the tenth I opened the form but did not fill it. `next 1` never returned an empty list, so the run stopped at the 10-job limit.
+
+I only re-checked a few pages live (B. Braun, Kugellager-Express, ABRIO, Bayard, CGI), and I opened the Markant home page without confirming anything there. The rest I parked on the PLAYBOOK's notes, and the Markant, Liebherr, Tabris and FAHMODA notes in the log say so.
+
+- **B. Braun:** parked, no initiative form. The Commerce search on jobs.bbraun.com returns no hits.
+- **Kugellager-Express:** parked, the site is still behind a Cloudflare challenge. The URL is `https://www.kugellager-express.de/karriere`.
+- **MARKANT (Consultant Master Data Services):** parked on the reCAPTCHA gate the playbook records. The URL is `https://jobs.markant.com/`.
+- **Instaffo / ABRIO (Senior E-Commerce Consultant):** parked. The job is still open on Recruitee, and the playbook says the form ends in an hCaptcha. I did not fill the form, so it needs filling and submitting by hand at `https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new`. The log note says it was unfilled.
+- **CGI (Infra / DevOps Lead - eCommerce):** parked. The listing page now shows 3,056 jobs across all countries, I couldn't find this posting in it, and the playbook says CGI's registration chain is unresolved.
+- **MARKANT (Business Analyst):** parked on the same reCAPTCHA gate.
+- **Bayard (Business Analyst Media Assets):** parked. The Indeed link returns a Cloudflare 403 and I found no employer apply route.
+- **Liebherr (Product Manager Kundenportal):** parked, SuccessFactors login with reCAPTCHA per the playbook.
+- **Tabris UG (Magento 2.x):** parked, no apply route or email found.
+- **FAHMODA (Shopware 6 / myfactory):** parked, no careers page or apply route on the site.
+
+The browser has no tab holding a filled form waiting for a CAPTCHA. The ABRIO form is open but empty. I closed no tabs.
