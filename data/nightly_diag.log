@@ -654,3 +654,22 @@ I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty lis
 I read the playbook (the first 432 of its 585 lines) and ran `facts`, but I didn't open a browser, submit anything or log anything. I didn't read the rest of the playbook because there was no job to apply to.
 
 There are no open CAPTCHA tabs to list.
+[Sun 10/25/2026 17:19:52.84] autorun: 0 jobs waiting 
+[Sun 10/25/2026 17:49:52.49] autorun: 0 jobs waiting 
+[Sun 10/25/2026 18:19:52.25] autorun: 0 jobs waiting 
+[Sat 10/31/2026 15:48:19.81] autorun: 40 jobs waiting 
+[Sat 10/31/2026 15:48:20.10] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sat 10/31/2026 15:51:50.37] batch 1 exit 1 
+API Error: Can't reach the API server â€” check your internet or DNS (ENOTFOUND)
