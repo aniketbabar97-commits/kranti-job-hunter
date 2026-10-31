@@ -536,3 +536,6 @@ The queue is empty after 3 jobs, so I stopped early; the other 7 of the 10 weren
 - **Maitsys (LinkedIn post):** parked. It's a US-only role with no application email. I didn't re-check it either, for the same reason.
 
 No CAPTCHA tabs are open. The only tab I opened is the blocked Ernsting page. I added a one-line lesson for Ernsting's family and for each LinkedIn post to the playbook.
+No jobs applied. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped early as instructed.
+
+I read the playbook (lines 1–442 of 651; the rest wasn't needed) and loaded her facts, but didn't open the browser or log anything.
