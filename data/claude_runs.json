@@ -166,8 +166,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S": {
   "status": "parked",
-  "note": "Liebherr SuccessFactors apply login has reCAPTCHA checkbox (per playbook); no email; Arbeitsagentur page behind captcha",
-  "ts": "2026-10-25 16:56"
+  "note": "Liebherr SuccessFactors apply has reCAPTCHA (playbook); direct job URL not found, no form URL reached",
+  "ts": "2026-10-31 16:37"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206302371-S": {
   "status": "closed",
@@ -486,8 +486,8 @@
  },
  "https://de.indeed.com/viewjob?jk=bed693216eda8783": {
   "status": "parked",
-  "note": "Indeed-only posting, Cloudflare 403, no employer apply route or email (per playbook, run 3)",
-  "ts": "2026-10-25 16:55"
+  "note": "Indeed Cloudflare challenge 403; no employer apply route",
+  "ts": "2026-10-31 16:37"
  },
  "https://www.linkedin.com/jobs/view/4475771885": {
   "status": "closed",
@@ -501,8 +501,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S": {
   "status": "parked",
-  "note": "No employer site/email found; Arbeitsagentur hides contact behind captcha, aggregator behind Cloudflare (run 3, per playbook)",
-  "ts": "2026-10-25 16:56"
+  "note": "Tabris: no apply link or email found (Arbeitsagentur hides contact behind security check; playbook: no employer route)",
+  "ts": "2026-10-31 16:37"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003787924-S": {
   "status": "confirmed",
@@ -516,13 +516,13 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S": {
   "status": "parked",
-  "note": "fahmoda.de has no karriere/jobs page or application email (run 3, per playbook)",
-  "ts": "2026-10-25 16:56"
+  "note": "FAHMODA: no careers page/apply route on fahmoda.de (playbook)",
+  "ts": "2026-10-31 16:37"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
-  "status": "parked",
-  "note": "posting open at https://clicks.digital/software-entwickler-php-m-w-d-in-dresden but the CF7 application form never renders in automated browser (no inputs after cookies/scroll); no email found",
-  "ts": "2026-10-25 13:56"
+  "status": "closed",
+  "note": "Magento Entwickler:in no longer listed on clicks.digital/karriere (only PHP Software-Entwickler, whose form does not render)",
+  "ts": "2026-10-31 16:38"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207617768-S": {
   "status": "closed",
@@ -541,8 +541,8 @@
  },
  "https://de.indeed.com/viewjob?jk=12e4856518e0f67d": {
   "status": "parked",
-  "note": "CloudFront 403 on ernstings-family.com/karriere; Indeed is Cloudflare-blocked",
-  "ts": "2026-10-25 16:57"
+  "note": "Ernsting's karriere page CloudFront 403; Indeed Cloudflare-blocked; no route",
+  "ts": "2026-10-31 16:38"
  },
  "https://www.linkedin.com/jobs/view/4476811880": {
   "status": "closed",
@@ -631,8 +631,8 @@
  },
  "https://www.linkedin.com/posts/vantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s": {
   "status": "parked",
-  "note": "LinkedIn post, no email, only linkedin.com/jobs link (login needed); Canada-based",
-  "ts": "2026-10-25 16:57"
+  "note": "Toronto-based role, post has no email, only linkedin jobs link (playbook)",
+  "ts": "2026-10-31 16:38"
  },
  "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3": {
   "status": "parked",
@@ -641,8 +641,8 @@
  },
  "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-": {
   "status": "parked",
-  "note": "US (Frisco, Texas) Salesforce Commerce Cloud role, no email on post",
-  "ts": "2026-10-25 16:58"
+  "note": "US (Texas) Salesforce role, post has no email (playbook)",
+  "ts": "2026-10-31 16:38"
  },
  "https://www.wmf.com/#initiativbewerbung": {
   "status": "parked",

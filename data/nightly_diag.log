@@ -722,3 +722,12 @@ Each job has a one-line note in the playbook.
 The open captcha tabs are MARKANT (reCAPTCHA) and ABRIO (hCaptcha). CBS is already submitted, so its tab can be closed.
 
 All 10 jobs are logged with `done`, and I added a `learn` line for each. I closed no tabs. `data/answers.jsonl`, `data/claude_runs.json` and `helper/PLAYBOOK.md` are modified but not committed.
+[Sat 10/31/2026 16:38:57.74] batch 4 exit 0 
+- **Tabris UG:** parked. The playbook has no apply link or email for this one. I didn't re-check it.
+- **FAHMODA:** parked. The playbook says fahmoda.de has no careers page. I didn't re-check it.
+- **clicks digital, Magento Entwickler:** closed. The role is no longer on clicks.digital/karriere.
+- **Ernsting's family:** parked. The karriere page returns a CloudFront 403, and Indeed is blocked as well.
+- **Vantage (LinkedIn post):** parked. It's a Toronto-based role and the post has no email. The playbook says this one was parked twice before, so I didn't re-check it.
+- **Maitsys (LinkedIn post):** parked. It's a US role and the post has no email. The playbook says this one was parked twice before, so I didn't re-check it.
+
+No CAPTCHA tabs are open and no application emails were found, so nothing is waiting for you to finish by hand. I logged each job with `done` and added a one-line `learn` note for each system in the playbook.

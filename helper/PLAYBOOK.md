@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 2: liebherr.com/de-de/j/karriere/offene-stellen?q= gives 404; parked per playbook (reCAPTCHA).
 - Homepage link useless; Google the title -> liebherr.com/de-de/j/karriere/offene-stellen/<id>; accept Usercentrics, JETZT BEWERBEN opens SuccessFactors login with reCAPTCHA checkbox -> always parks.
 
 ## d.vinci / innovative-companies.de
@@ -111,6 +112,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Accept Usercentrics FIRST (shadow DOM: #usercentrics-cmp-ui button#accept) before filling. Fields #edit-vorname/name/telefon/e-mail, one multi-file upload (CV+cover letter), #edit-datenschutz via JS. Submitting after the banner reload gave 'Antwort war nicht passend' and wiped the form - fill AFTER cookies, wait for captcha 'Ich bin ein Mensch', then submit.
 
 ## clicks.digital
+- Run 3: /karriere no longer lists a Magento role (list: Digital Stratege, Content, Webanalyst, PHP Entwickler, SEA, SEO...) = closed.
 - Run 2: careers lists 'Software-Entwickler PHP (Magento & Shopware)' at /software-entwickler-php-m-w-d-in-dresden; JETZT BEWERBEN anchor #contact-form but no form inputs render (0 forms in DOM, even after Usercentrics accept + scroll). Newsletter popup in HubSpot iframe has Close button. (WordPress CF7 + FriendlyCaptcha)
 - Fill by input name via run_code; one multi-file input takes CV+cover letter; pick job in job_position_id select; wait ~6s for FriendlyCaptcha to self-solve; success text in .wpcf7-response-output 'Vielen Dank fÃ¼r Ihre Bewerbung'.
 
@@ -207,6 +209,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Job listed in accordion on /karriere/; 'JETZT BEWERBEN' is only mailto:kontakt@ebakery.de, no form -> email-only.
 
 ## Bayard GmbH (KÃ¶ln)
+- Run 3: Indeed viewjob still Cloudflare 'Just a moment' 403; parked.
 - Run 2: Indeed viewjob is a Cloudflare 'Just a moment' 403 in the automated browser; no employer apply route; parked.
 - bayard-consulting.com times out and bayard.de is an unrelated placeholder; the Indeed ad only offers Indeed Schnellbewerbung -> park.
 
@@ -226,6 +229,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank fÃ¼r Ihre Bewerbung!'.
 
 ## LinkedIn recruiter posts
+- Maitsys post run 3: skipped re-check per playbook; still US-only, no email.
+- Vantage post run 3: skipped re-check per playbook; still no email.
 - Maitsys post run 2: still US-only, no email; parked.
 - Vantage post run 2: still no email, only linkedin jobs link; parked.
 - Maitsys post: US (Texas) Salesforce role, no email -> park.
@@ -274,6 +279,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Worked 2nd time: open job URL, JS-click Usercentrics #accept, wait 2s, fill by #edit-* ids, setInputFiles with both PDFs on #edit-bewerbungsunterlagen-upload (ajax), tick #edit-bestaetigung + #edit-datenschutz via JS, wait ~6s for captcha, click #edit-actions-submit force. Success text 'Vielen Dank fÃ¼r deine Bewerbung.' (form disappears).
 
 ## Tabris UG (Magento, Berlin)
+- Run 3: skipped re-check per playbook; still no route.
 - Run 2: BA page again offers no apply link or email; parked.
 - No employer site found via Google; aggregator php-entwickler.de/job/...-166305/extern redirects to learn4good.com behind Cloudflare -> park.
 
@@ -291,6 +297,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Indeed link is Cloudflare-blocked; google title -> company career page -> Jetzt bewerben -> /Application/New. Fill by role; DOB mm/dd/yyyy; upload via button + file chooser (check input[type=file].files); privacy checkbox; 'Bewerbung definitiv einreichen' -> /Confirmation.
 
 ## Ernsting's family
+- Run 4: karriere page still CloudFront 403; parked.
 - Run 3: karriere page still CloudFront 403; parked.
 - Run 2: karriere page still CloudFront 403; parked.
 - ernstings-family.com/karriere and career.ernstings-family.com give CloudFront 403 in the automated browser; jobs.de mirror has botchallenge -> park.
