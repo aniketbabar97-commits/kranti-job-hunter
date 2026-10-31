@@ -184,6 +184,10 @@
   "note": "no form, Initialbewerbung by email only; email: personal@mayercie.com → email route"
  },
  {
+  "link": "https://www.liebherr.com/#initiativbewerbung",
+  "note": "captcha – SuccessFactors login reCAPTCHA (per playbook); no initiative form found, no email"
+ },
+ {
   "link": "https://www.kps.com/#initiativbewerbung",
   "note": "no initiative form, no SAP Commerce posting on career.kps.com (Teamtailor); email: info@kps.com → email route"
  },
@@ -238,6 +242,10 @@
  {
   "link": "https://www.breuninger.com/#initiativbewerbung",
   "note": "no Commerce role, no initiative form or email on digital.breuninger.com/jobs (per playbook)"
+ },
+ {
+  "link": "https://www.bechtle.com/#initiativbewerbung",
+  "note": "no initiative route: jobs.bechtle.com initiative posting 404 per playbook; portal-only, no email"
  },
  {
   "link": "https://www.bbraun.de/#initiativbewerbung",
