@@ -473,3 +473,8 @@ The queue is empty, so I stopped after 8 jobs instead of 10. None of the 8 was s
 - **Maitsys (LinkedIn post):** parked. It's a US role and the post has no email. The playbook says this one was parked twice before, so I didn't re-check it.
 
 No CAPTCHA tabs are open and no application emails were found, so nothing is waiting for you to finish by hand. I logged each job with `done` and added a one-line `learn` note for each system in the playbook.
+No applications were submitted. `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call, so the queue has no jobs for me. I stopped there, as the instructions say to do.
+
+I didn't read the last part of the playbook (lines 436–620). It only matters when there's a job to apply to.
+
+If you expected jobs in the queue, check that the batch was loaded or that nothing is marked `parked` or `done`. Then I can run it again.
