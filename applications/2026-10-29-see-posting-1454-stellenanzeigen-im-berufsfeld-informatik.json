@@ -1,0 +1,233 @@
+{
+ "job": {
+  "title": "1454 Stellenanzeigen im Berufsfeld Informatik - red-jobs.de",
+  "company": "see posting",
+  "location": "",
+  "url": "https://www.red-jobs.de/stellenanzeigen-im-berufsfeld/informatik",
+  "apply_url": "",
+  "score": 86,
+  "lang": "de",
+  "source": "Career site (company site)",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | 5+ years Java & Spring | SAP Certified",
+  "summary": "Backend developer with over 5 years of experience delivering enterprise e-commerce solutions on SAP Commerce Cloud (Hybris 2105/2211) for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot, RESTful and OCC APIs, and in designing PIM/ERP/MDM integrations. Proven record in CI/CD, Docker, Kubernetes, and AI-assisted development. Strong techno-functional consulting skills, agile delivery, and stakeholder management. I consistently translate business requirements into scalable technical solutions and lead code reviews to ensure quality.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Hybris",
+   "Java",
+   "Spring",
+   "REST",
+   "API",
+   "OCC",
+   "PIM",
+   "ERP",
+   "MDM",
+   "AI",
+   "CI/CD",
+   "Docker",
+   "Kubernetes",
+   "Agile",
+   "Scrum"
+  ],
+  "keywords_missing": [],
+  "cover_en": {
+   "subject": "Application: SAP Commerce Cloud (Hybris) Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited by adesso SE’s focus on AI-driven engineering excellence and its leading SAP Commerce Cloud projects. With over five years delivering high-performance SAP Commerce solutions for Rockwell Automation and Shell, I bring deep Java, Spring and integration expertise that aligns perfectly with this role.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "At Rockwell Automation I designed and implemented backend and frontend features on SAP Commerce Cloud (Hybris 2211), covering product, catalog and pricing modules, ensuring platform stability."
+    },
+    {
+     "label": "API & Integration",
+     "text": "Developed OCC REST web services and built PIM-to-Hybris data pipelines using Profisee, DataHub and Hotfolders, enabling seamless integration with SAP ERP and MDM systems."
+    },
+    {
+     "label": "AI-assisted Delivery",
+     "text": "Leveraged generative AI tools to accelerate analysis, code generation and documentation, reducing development time across multiple releases."
+    },
+    {
+     "label": "Agile Techno-Functional Leadership",
+     "text": "Collaborated with international stakeholders to translate business requirements into user stories and functional specs, performed code reviews and mentored junior developers."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, I hold a valid German work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to your team.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als SAP Commerce Cloud (Hybris) Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Kombination aus AI-Kompetenz und Engineering-Exzellenz bei adesso SE begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung von SAP Commerce Cloud (Hybris) Lösungen für Rockwell Automation und Shell bringe ich fundiertes Java- und Spring-Know-how sowie umfangreiche Integrations-Erfahrung mit.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Bei Rockwell Automation habe ich Backend- und Frontend-Funktionen auf SAP Commerce Cloud (Hybris 2211) entwickelt, einschließlich Produkt- und Katalog-Management."
+    },
+    {
+     "label": "API- und Integrationskenntnisse",
+     "text": "Ich habe OCC-REST-Services erstellt und PIM-zu-Hybris-Datenpipelines mit Profisee, DataHub und Hotfolders aufgebaut, um SAP ERP und MDM zu integrieren."
+    },
+    {
+     "label": "KI-gestützte Entwicklung",
+     "text": "Durch den Einsatz generativer KI-Tools konnte ich Analyse, Code-Erstellung und Dokumentation deutlich beschleunigen."
+    },
+    {
+     "label": "Techno-funktionale Führung",
+     "text": "Ich habe mit internationalen Stakeholdern Geschäftsanforderungen in User Stories und Funktionsspezifikationen übersetzt, Code-Reviews durchgeführt und Junior-Entwickler gecoacht."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Arbeitserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Ich freue mich auf ein Gespräch.",
+   "closing": ""
+  },
+  "why_company": "adesso SE stands out for its commitment to AI-driven engineering excellence and its strong portfolio of SAP Commerce Cloud projects. The company’s culture of continuous learning, international collaboration and focus on innovative digital solutions aligns perfectly with my passion for combining cutting-edge technology with business value. I am eager to contribute my SAP Commerce expertise and AI-assisted development experience to help adesso deliver next-generation e-commerce platforms for its clients.",
+  "motivation_short": "I want to join adesso SE to apply my SAP Commerce Cloud expertise in a forward-thinking environment that values AI innovation, collaborative engineering and high-impact e-commerce solutions.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a senior SAP Commerce Cloud developer with 5+ years experience at Rockwell Automation and Shell. I’m excited about adesso’s AI-driven projects and would love to discuss how I can add value. Let’s connect!",
+  "email_subject": "Application – SAP Commerce Cloud (Hybris) Developer",
+  "email_body": "Dear Hiring Team, please find attached my CV and cover letter for the SAP Commerce Cloud (Hybris) Developer position at adesso SE. With over five years of experience delivering SAP Commerce solutions for Rockwell Automation and Shell, I am confident I can add immediate value. I am based in Karlsruhe, hold a valid German work permit, and can start on 16 December 2026. I look forward to the opportunity to discuss my fit."
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Commerce Cloud (Hybris) Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited by adesso SE’s focus on AI-driven engineering excellence and its leading SAP Commerce Cloud projects. With over five years delivering high-performance SAP Commerce solutions for Rockwell Automation and Shell, I bring deep Java, Spring and integration expertise that aligns perfectly with this role.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "At Rockwell Automation I designed and implemented backend and frontend features on SAP Commerce Cloud (Hybris 2211), covering product, catalog and pricing modules, ensuring platform stability."
+    },
+    {
+     "label": "API & Integration",
+     "text": "Developed OCC REST web services and built PIM-to-Hybris data pipelines using Profisee, DataHub and Hotfolders, enabling seamless integration with SAP ERP and MDM systems."
+    },
+    {
+     "label": "AI-assisted Delivery",
+     "text": "Leveraged generative AI tools to accelerate analysis, code generation and documentation, reducing development time across multiple releases."
+    },
+    {
+     "label": "Agile Techno-Functional Leadership",
+     "text": "Collaborated with international stakeholders to translate business requirements into user stories and functional specs, performed code reviews and mentored junior developers."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, I hold a valid German work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to your team.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als SAP Commerce Cloud (Hybris) Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Kombination aus AI-Kompetenz und Engineering-Exzellenz bei adesso SE begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung von SAP Commerce Cloud (Hybris) Lösungen für Rockwell Automation und Shell bringe ich fundiertes Java- und Spring-Know-how sowie umfangreiche Integrations-Erfahrung mit.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Bei Rockwell Automation habe ich Backend- und Frontend-Funktionen auf SAP Commerce Cloud (Hybris 2211) entwickelt, einschließlich Produkt- und Katalog-Management."
+    },
+    {
+     "label": "API- und Integrationskenntnisse",
+     "text": "Ich habe OCC-REST-Services erstellt und PIM-zu-Hybris-Datenpipelines mit Profisee, DataHub und Hotfolders aufgebaut, um SAP ERP und MDM zu integrieren."
+    },
+    {
+     "label": "KI-gestützte Entwicklung",
+     "text": "Durch den Einsatz generativer KI-Tools konnte ich Analyse, Code-Erstellung und Dokumentation deutlich beschleunigen."
+    },
+    {
+     "label": "Techno-funktionale Führung",
+     "text": "Ich habe mit internationalen Stakeholdern Geschäftsanforderungen in User Stories und Funktionsspezifikationen übersetzt, Code-Reviews durchgeführt und Junior-Entwickler gecoacht."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Arbeitserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Ich freue mich auf ein Gespräch.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-29"
+}

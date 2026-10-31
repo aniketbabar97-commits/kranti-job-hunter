@@ -1,0 +1,177 @@
+{
+ "job": {
+  "title": "[Post] We're Hiring",
+  "company": "STIBO STEP Technical Lead Greetings ...",
+  "location": "",
+  "url": "https://www.linkedin.com/posts/resource-cornerit_were-hiring-stibo-step-technical-lead-activity-7518915575092482048-XG7A",
+  "apply_url": "",
+  "score": 65,
+  "lang": "en",
+  "source": "LinkedIn post",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | Senior Java & Integration Specialist",
+  "summary": "Backend developer with over 5 years delivering enterprise e-commerce solutions on SAP Commerce Cloud (Hybris 2105/2211) for Rockwell Automation and Shell. Expert in Java, Spring, microservices and REST/OCC APIs, I design and implement robust integrations between SAP ERP, MDM and PIM systems, building data pipelines and API migrations. Proven record in techno-functional consulting, requirement analysis, and production support, leveraging AI-assisted development and CI/CD pipelines in cloud environments.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce",
+   "Hybris",
+   "integrations",
+   "API",
+   "data pipelines",
+   "headless",
+   "microservices",
+   "e-commerce"
+  ],
+  "keywords_missing": [
+   "Dynamics 365",
+   "Technical Lead"
+  ],
+  "cover_en": {
+   "subject": "Application: STIBO STEP Technical Lead",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about STIBO STEP’s mission to simplify product data management and enable seamless integration across enterprise systems. With more than five years of hands-on experience building and scaling SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep expertise in integration architecture, API design and headless commerce that aligns perfectly with this Technical Lead role.",
+   "bullets": [
+    {
+     "label": "Integration Architecture",
+     "text": "Designed and implemented end-to-end PIM-to-Hybris data pipelines using Profisee, DataHub and Hotfolders, ensuring synchronized product information across global channels."
+    },
+    {
+     "label": "API Development",
+     "text": "Built and exposed OCC REST web services and micro-service APIs for headless storefronts and third-party consumers, delivering robust, scalable integration points."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Collaborated with business stakeholders to translate requirements into functional specifications, user stories and acceptance criteria, driving successful delivery in agile teams."
+    },
+    {
+     "label": "Production & CI/CD",
+     "text": "Led CI/CD deployment cycles on SAP Commerce Cloud (CCv2) and provided production support, optimizing performance and reducing incident resolution time."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, I hold a valid German residence and work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to STIBO STEP.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "STIBO STEP’s innovative approach to master data management and its focus on integrating product information across ERP, PIM and e-commerce platforms directly matches my expertise. I admire your commitment to AI-driven data quality and the opportunity to shape integration strategies for global customers. Contributing to a leader that empowers businesses to deliver consistent product data aligns with my passion for techno-functional solutions and continuous improvement.",
+  "motivation_short": "I want to join STIBO STEP to apply my SAP Commerce integration expertise, drive seamless data flows, and help customers achieve unified product information across systems.",
+  "linkedin_message": "Hi, I’m Kranti, a senior SAP Commerce developer with 5+ years delivering integration solutions at Rockwell Automation and Shell. I’m keen on the Technical Lead role at STIBO STEP and would love to discuss how I can add value.",
+  "email_subject": "Application for STIBO STEP Technical Lead – Kranti Chavan",
+  "email_body": "Dear Hiring Team, please find attached my CV and cover letter for the Technical Lead position at STIBO STEP. With over five years of experience designing and delivering SAP Commerce Cloud integrations for Rockwell Automation and Shell, I am confident in my ability to lead complex data integration projects. I look forward to the opportunity to discuss how my background aligns with your needs."
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: STIBO STEP Technical Lead",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about STIBO STEP’s mission to simplify product data management and enable seamless integration across enterprise systems. With more than five years of hands-on experience building and scaling SAP Commerce Cloud solutions at Rockwell Automation and Shell, I bring deep expertise in integration architecture, API design and headless commerce that aligns perfectly with this Technical Lead role.",
+   "bullets": [
+    {
+     "label": "Integration Architecture",
+     "text": "Designed and implemented end-to-end PIM-to-Hybris data pipelines using Profisee, DataHub and Hotfolders, ensuring synchronized product information across global channels."
+    },
+    {
+     "label": "API Development",
+     "text": "Built and exposed OCC REST web services and micro-service APIs for headless storefronts and third-party consumers, delivering robust, scalable integration points."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Collaborated with business stakeholders to translate requirements into functional specifications, user stories and acceptance criteria, driving successful delivery in agile teams."
+    },
+    {
+     "label": "Production & CI/CD",
+     "text": "Led CI/CD deployment cycles on SAP Commerce Cloud (CCv2) and provided production support, optimizing performance and reducing incident resolution time."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, I hold a valid German residence and work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to STIBO STEP.",
+   "closing": ""
+  }
+ },
+ "created": "2026-10-27"
+}
