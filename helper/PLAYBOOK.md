@@ -538,10 +538,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
 
 ## Camelot ITLab
+- Run 3: still redirects to accenture.com/de-de; careers jobsearch page rendered blank; no initiative route -> park.
 - Run 2: parked per playbook, not re-checked in browser. (Accenture)
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- Run 3: digital.breuninger.com/jobs lists 12 roles (IT ops, E-Commerce leads), no Commerce dev, no initiative form or email.
 - Run 2: digital.breuninger.com/jobs still no Commerce role, no initiative form or email. (digital.breuninger.com)
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
@@ -593,6 +595,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: guessed stellenangebote search URL just redirects to /de-de/karriere/karriere-3364204; parked per known reCAPTCHA without opening the posting.
 
 ## CBS (Recruitee)
+- Run 3: form filled fully (Frau, source Linkedin, locations Heidelberg/Stuttgart/Freiburg, consent via JS click); Senden shows hCaptcha rune puzzle -> parks with tab open.
 - Run 2: custom selects: open button, then click role=option (refs go stale, use label:has-text); privacy is last checkbox; hCaptcha on Senden -> parks.
 
 ## CGI (cgi.njoyn.com)

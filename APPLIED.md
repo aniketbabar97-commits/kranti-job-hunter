@@ -153,3 +153,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-25 https://www.berner.eu/#initiativbewerbung (Berner, website via helper – confirmed)
 - 2026-10-25 https://www.sartorius.com/#initiativbewerbung (Sartorius, website via helper – confirmed)
 - 2026-10-25 https://www.hugoboss.com/#initiativbewerbung (Hugo Boss, website via helper – confirmed)
+- 2026-10-31 https://www.cbs-consulting.com/#initiativbewerbung (CBS Corporate Business Solutions, website via helper – confirmed)

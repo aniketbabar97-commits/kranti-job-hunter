@@ -955,9 +955,9 @@
   "ts": "2026-10-25 07:25"
  },
  "https://www.cbs-consulting.com/#initiativbewerbung": {
-  "status": "parked",
-  "note": "captcha – https://cbsconsulting.recruitee.com/o/initiativbewerbung-fur-professionals/c/new (hCaptcha; form filled)",
-  "ts": "2026-10-25 13:52"
+  "status": "confirmed",
+  "note": "Recruitee /applied 'Deine Bewerbung wurde eingesendet!' (hCaptcha puzzle appeared after Senden, then the submit completed on its own; earlier parked entry superseded)",
+  "ts": "2026-10-31 16:32"
  },
  "https://www.cancom.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -966,13 +966,13 @@
  },
  "https://www.camelot-itlab.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "camelot-itlab.com redirects to accenture.com/de-de; no initiative form or SAP Commerce posting (per playbook)",
-  "ts": "2026-10-25 13:52"
+  "note": "camelot-itlab.com redirects to accenture.com/de-de; no initiative form or SAP Commerce posting; no email found",
+  "ts": "2026-10-31 16:32"
  },
  "https://www.breuninger.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no SAP Commerce/Hybris role on digital.breuninger.com/jobs, no email",
-  "ts": "2026-10-25 13:52"
+  "note": "digital.breuninger.com/jobs: 12 roles, no SAP Commerce/Hybris, no initiative form, no email",
+  "ts": "2026-10-31 16:32"
  },
  "https://www.berner.eu/#initiativbewerbung": {
   "status": "confirmed",
@@ -980,9 +980,9 @@
   "ts": "2026-10-25 08:29"
  },
  "https://www.bechtle.com/#initiativbewerbung": {
-  "status": "parked",
-  "note": "jobs.bechtle.com renders empty list in automated browser, job 42719 URL 404s; portal-only (p78quickapply), no email",
-  "ts": "2026-10-25 13:53"
+  "status": "working",
+  "note": "claimed",
+  "ts": "2026-10-31 16:32"
  },
  "https://www.babiel.com/#initiativbewerbung": {
   "status": "confirmed",
