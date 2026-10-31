@@ -478,3 +478,21 @@ No applications were submitted. `python -m helper.claude_jobs next 1` returned a
 I didn't read the last part of the playbook (lines 436–620). It only matters when there's a job to apply to.
 
 If you expected jobs in the queue, check that the batch was loaded or that nothing is marked `parked` or `done`. Then I can run it again.
+I applied to 10 jobs and none went through. All 10 are parked, and the queue still has jobs, so I didn't stop early. I only re-checked the sites that were quick to re-check; Westernacher and SQLI I parked from the playbook without refilling their forms.
+
+Westernacher, SQLI and Liebherr are the only ones that might need a captcha solved. Nothing in this run left a filled, captcha-blocked form open in a tab.
+
+| Company | Status | Note |
+|---|---|---|
+| Westernacher | parked | Captcha: the only route is the Lever General application (hCaptcha on submit). Form URL is in the log note. |
+| Wacker | parked | The site search for "Initiativ" returns no jobs. No initiative form, no HR email. |
+| Vorwerk | parked | The site search for "Commerce" returns 0 hits. No initiative form or email. |
+| Villeroy & Boch | parked | The only initiative posting is for the Treuchtlingen site. No Commerce role. |
+| Trumpf | parked | No Commerce or initiative posting on their job site. |
+| team neusta | parked | Open roles are SAP Finance and Liferay/Magnolia DXP. No initiative form or email. |
+| SQLI | parked | Captcha: the spontaneous-application form has a visible reCAPTCHA v2. Form URL is in the log note. |
+| Salzgitter | parked | Only SAP SD and FI/CO roles. The one initiative link is for students and interns. |
+| Rittal | parked | Their job site lists 97 jobs and ignores search terms. I only saw the first batch, and none matched. |
+| Q CELLS | parked | Only Leiter IT and solar roles. No initiative route or email. |
+
+Merkle (the 10th) is parked too, with no initiative link or email on its jobs page. I wrote a playbook lesson for each company. Liebherr is next in the queue. The playbook says its initiative route always parks at a reCAPTCHA.

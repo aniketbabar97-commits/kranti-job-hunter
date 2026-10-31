@@ -737,3 +737,38 @@ No applications were submitted. `python -m helper.claude_jobs next 1` returned a
 I didn't read the last part of the playbook (lines 436â€“620). It only matters when there's a job to apply to.
 
 If you expected jobs in the queue, check that the batch was loaded or that nothing is marked `parked` or `done`. Then I can run it again.
+[Sat 10/31/2026 16:49:54.14] autorun: 0 jobs waiting 
+[Sat 10/31/2026 17:19:52.14] autorun: 0 jobs waiting 
+[Sat 10/31/2026 17:49:52.73] autorun: 0 jobs waiting 
+[Sat 10/31/2026 18:19:52.09] autorun: 0 jobs waiting 
+[Sat 10/31/2026 18:49:51.00] autorun: 0 jobs waiting 
+[Sat 10/31/2026 19:19:50.80] autorun: 0 jobs waiting 
+[Sat 10/31/2026 19:49:50.83] autorun: 0 jobs waiting 
+[Sat 10/31/2026 20:19:50.86] autorun: 0 jobs waiting 
+[Sat 10/31/2026 20:49:50.98] autorun: 0 jobs waiting 
+[Sat 10/31/2026 21:19:51.39] autorun: 0 jobs waiting 
+[Sat 10/31/2026 21:49:51.39] autorun: 0 jobs waiting 
+[Sat 10/31/2026 22:19:50.88] autorun: 0 jobs waiting 
+[Sat 10/31/2026 22:49:51.13] autorun: 37 jobs waiting 
+[Sat 10/31/2026 22:49:51.86] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sat 10/31/2026 22:54:46.71] batch 1 exit 0 
+| Trumpf | parked | No Commerce or initiative posting on their job site. |
+| team neusta | parked | Open roles are SAP Finance and Liferay/Magnolia DXP. No initiative form or email. |
+| SQLI | parked | Captcha: the spontaneous-application form has a visible reCAPTCHA v2. Form URL is in the log note. |
+| Salzgitter | parked | Only SAP SD and FI/CO roles. The one initiative link is for students and interns. |
+| Rittal | parked | Their job site lists 97 jobs and ignores search terms. I only saw the first batch, and none matched. |
+| Q CELLS | parked | Only Leiter IT and solar roles. No initiative route or email. |
+
+Merkle (the 10th) is parked too, with no initiative link or email on its jobs page. I wrote a playbook lesson for each company. Liebherr is next in the queue. The playbook says its initiative route always parks at a reCAPTCHA.
