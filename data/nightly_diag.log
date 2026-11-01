@@ -1006,3 +1006,9 @@ No CAPTCHA forms were filled and left open, so there are no tabs to finish by ha
 That's 11 lines for 10 jobs, because the Maitsys post came up as an eleventh item after the Vantage post. All 11 are logged as `parked`, and I added a line to the playbook for each.
 
 No CAPTCHA tabs are open, since I never opened any pages. None of the parked notes contains an application email, so none of them will go out by email automatically.
+[Sun 11/01/2026 11:57:12.45] batch 4 exit 0 
+There was nothing to apply to. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped before opening any job.
+
+I read the playbook and loaded Kranti's facts, but that was all. I didn't open a browser, log any `done` entries, or change any files.
+
+Nothing is queued right now, so the batch of 10 didn't start. The playbook is longer than I read (about 715 lines, and I only read the first 458), but that doesn't matter with an empty queue.
