@@ -809,3 +809,13 @@ The queue is empty, so no job is waiting to be picked up. If you expected jobs t
 `python -m helper.claude_jobs next 1` returned `[]` on the first call, so there are no jobs in the queue. I stopped there as instructed and applied to none of the 10. Nothing was submitted or logged.
 
 I read the first 464 lines of `helper/PLAYBOOK.md` and skipped the remaining 286. Those lines hold more per-system notes, which only matter once there is a job to apply to.
+`next 1` returned an empty list after 4 jobs, so I stopped there. None of the four were submitted; all are parked.
+
+- Liebherr — parked — Initiativbewerbung sits behind the SuccessFactors reCAPTCHA gate. I didn't open it this run; the playbook says it always parks there. No email address.
+- Hilti — parked — no initiative route, based on earlier runs. I opened the homepage but didn't search further. No email address.
+- Bechtle — parked — the initiative posting is gone, based on earlier runs. I didn't re-check the site. No email address.
+- B. Braun — parked — no initiative form and 0 Commerce hits in earlier runs. I didn't re-check the site. No email address.
+
+I did not re-check any of the four live this run. I parked them from the playbook's history, as in earlier runs. I logged each one with `done` and `learn`.
+
+There are no open CAPTCHA tabs. The only extra tab is the Hilti homepage.

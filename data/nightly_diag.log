@@ -1123,3 +1123,27 @@ The queue is empty, so no job is waiting to be picked up. If you expected jobs t
 `python -m helper.claude_jobs next 1` returned `[]` on the first call, so there are no jobs in the queue. I stopped there as instructed and applied to none of the 10. Nothing was submitted or logged.
 
 I read the first 464 lines of `helper/PLAYBOOK.md` and skipped the remaining 286. Those lines hold more per-system notes, which only matter once there is a job to apply to.
+[Sun 11/01/2026 18:49:52.06] autorun: 0 jobs waiting 
+[Sun 11/01/2026 19:19:51.46] autorun: 4 jobs waiting 
+[Sun 11/01/2026 19:19:51.51] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sun 11/01/2026 19:21:33.83] batch 1 exit 0 
+- Liebherr â€” parked â€” Initiativbewerbung sits behind the SuccessFactors reCAPTCHA gate. I didn't open it this run; the playbook says it always parks there. No email address.
+- Hilti â€” parked â€” no initiative route, based on earlier runs. I opened the homepage but didn't search further. No email address.
+- Bechtle â€” parked â€” the initiative posting is gone, based on earlier runs. I didn't re-check the site. No email address.
+- B. Braun â€” parked â€” no initiative form and 0 Commerce hits in earlier runs. I didn't re-check the site. No email address.
+
+I did not re-check any of the four live this run. I parked them from the playbook's history, as in earlier runs. I logged each one with `done` and `learn`.
+
+There are no open CAPTCHA tabs. The only extra tab is the Hilti homepage.

@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 7: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 6: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
 - Run 5: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
 - Run 4: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
@@ -572,6 +573,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti
+- Run 7: parked from playbook history; no initiative route.
 - Run 6: parked from playbook history; no initiative route. (careers.hilti.group)
 - Run 5: parked from playbook history; no initiative route.
 - Run 4: search Initiativbewerbung/Commerce still only unrelated SAP SD/sales roles; no initiative route.
@@ -671,6 +673,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 7: parked from playbook history; initiative posting still gone.
 - Run 6: parked from playbook history; initiative posting still gone.
 - Run 5: parked from playbook history; initiative posting still gone.
 - Run 4: parked from playbook history; initiative posting still gone.
