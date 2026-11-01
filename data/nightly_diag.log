@@ -890,3 +890,12 @@ I didn't run the HawkScan security scan, since I made no code changes.
 - Breuninger â€” parked â€” per playbook, no Commerce role, form or email.
 
 Apart from Hansgrohe and Festo, I parked straight from the playbook without reopening the sites. The two CAPTCHA jobs (Hansgrohe, Hahn+Kolb) need Kranti to finish by hand. The Hansgrohe tab is still open. Each job has a "learn" line in the playbook.
+[Sun 11/01/2026  5:29:18.83] batch 3 exit 0 
+- Bayard, Business Analyst Media Assets: parked, Indeed is behind Cloudflare and there's no employer route.
+- Liebherr, Product Manager Kundenportal E-Commerce: parked, reCAPTCHA on the SuccessFactors login.
+- Tabris UG, E-Commerce Programmierer Magento: parked, no apply route or email found.
+- FAHMODA, Systembetreuer/Programmierer Shopware-6: parked, no careers page or application email.
+- Ernsting's family, Manager Assortment Allocation: parked, CloudFront 403.
+- Vantage, LinkedIn post: parked, no email and only a LinkedIn jobs link.
+
+Each job is logged with `done`, and each also has a `learn` line in the PLAYBOOK. None of the parked notes contain an application email, so the automatic email route won't pick any of them up.

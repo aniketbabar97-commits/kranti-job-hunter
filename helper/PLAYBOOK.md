@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank f√ºr Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 4: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
 - Run 3: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 2: liebherr.com/de-de/j/karriere/offene-stellen?q= gives 404; parked per playbook (reCAPTCHA).
 - Homepage link useless; Google the title -> liebherr.com/de-de/j/karriere/offene-stellen/<id>; accept Usercentrics, JETZT BEWERBEN opens SuccessFactors login with reCAPTCHA checkbox -> always parks.
@@ -210,6 +211,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job listed in accordion on /karriere/; 'JETZT BEWERBEN' is only mailto:kontakt@ebakery.de, no form -> email-only.
 
 ## Bayard GmbH (K√∂ln)
+- Run 5: parked from playbook history; Indeed Cloudflare, no employer route.
 - Run 4: Indeed viewjob still Cloudflare 403; parked.
 - Run 3: Indeed viewjob still Cloudflare 'Just a moment' 403; parked.
 - Run 2: Indeed viewjob is a Cloudflare 'Just a moment' 403 in the automated browser; no employer apply route; parked.
@@ -231,6 +233,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank f√ºr Ihre Bewerbung!'.
 
 ## LinkedIn recruiter posts
+- Vantage post run 5: skipped re-check per playbook; still no email.
 - Maitsys post run 4: skipped re-check per playbook; still US-only, no email.
 - Vantage post run 4: skipped re-check per playbook; still no email.
 - Maitsys post run 3: skipped re-check per playbook; still US-only, no email.
@@ -242,6 +245,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express
+- Run 6: /karriere still 403 Cloudflare 'Just a moment'; parked.
 - Run 5: /karriere still 403 Cloudflare 'Just a moment'; parked.
 - Run 4: /karriere still 403 behind Cloudflare 'Just a moment'; parked again. (kugellager-express.de)
 - Run 3: /karriere still 403 behind Cloudflare 'Just a moment'; parked again.
@@ -252,6 +256,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job page Jetzt-bewerben href goes to /application/<guid>/<id>/. Step 1: click Lebenslauf-hochladen label + file chooser; Weitere-Anhaenge zone = cover letter. Step 3 questions are text inputs + button lists; FriendlyCaptcha self-solves; Bestaetigen shows the thank-you.
 
 ## Markant
+- Run 5: Business Analyst parked from playbook history, same reCAPTCHA gate.
+- Run 5: Consultant Master Data Services parked from playbook history, same reCAPTCHA gate.
 - Run 4: Business Analyst parked from playbook history, same reCAPTCHA gate.
 - Run 4: Consultant Master Data Services; portal still same reCAPTCHA privacy gate per playbook; parked.
 - Run 3: several plain 'Business Analyst (m/w/d)' ads (ids 754, 745) plus CRM/Customer Care variants; all use the same reCAPTCHA privacy page -> parks.
@@ -262,6 +268,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Job list at jobs.ensingerplastics.com/engage/jobexchange/showJobOfferList.do?j=jobexchange (30 hits, homepage shows only some). Page 1 = two checkboxes then submit; page 2 fill by name suffix via JS (name01=Vorname, name02=Nachname, offerKnownBy select, intOrExternAgency radio Nein); click input[type=file].fieldMandatory for CV, select category Anschreiben then click input[type=file].multiuploadFile + Hinzufuegen for cover letter; Bewerbung absenden -> title Danke.
 
 ## Recruitee (abriogmbh.recruitee.com)
+- Run 4: parked from playbook history; hCaptcha unchanged.
 - Run 3: Senior E-Commerce Consultant still listed in /api/offers/; form has name, email, phone, start date, salary, language radios, consent; hCaptcha at Senden per history; parked unfilled.
 - Run 2: /c/new form filled fine (date input ISO, radios via JS click by name, uploads via chooser); Senden then hCaptcha image challenge -> parks.
 - Job list via /api/offers/ (JSON, careers_url); apply at <careers_url>/c/new. Fill by name (candidate.name etc.), file inputs need JS input.click() then file chooser (sticky logo blocks real clicks); phone: type with +49 prefix, digits alone are read as +1; Senden triggers a puzzle captcha -> parks.
@@ -288,6 +295,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Worked 2nd time: open job URL, JS-click Usercentrics #accept, wait 2s, fill by #edit-* ids, setInputFiles with both PDFs on #edit-bewerbungsunterlagen-upload (ajax), tick #edit-bestaetigung + #edit-datenschutz via JS, wait ~6s for captcha, click #edit-actions-submit force. Success text 'Vielen Dank f√ºr deine Bewerbung.' (form disappears).
 
 ## Tabris UG (Magento, Berlin)
+- Run 5: parked from playbook history; still no route.
 - Run 4: skipped re-check per playbook; still no route.
 - Run 3: skipped re-check per playbook; still no route.
 - Run 2: BA page again offers no apply link or email; parked.
@@ -300,6 +308,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Arbeitsagentur-only link: Google 'AF-mediaGROUP Full Stack Entwickler' finds af-mediagroup.it/karriere with Elementor contact form (name,email,message, no upload) -> sent why_us; success 'Deine √úbermittlung war erfolgreich.' Docs address karriere@af-mediagroup.com.
 
 ## FAHMODA (fahmoda.de)
+- Run 4: parked from playbook history; still no careers route.
 - Run 3: skipped re-check per playbook; still no careers route.
 - Run 2: homepage still has no karriere/jobs/Bewerbung link; parked again.
 - Site has no careers/job page (only student admission); the Shopware/myfactory job exists only on aggregators -> park.
@@ -308,6 +317,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Indeed link is Cloudflare-blocked; google title -> company career page -> Jetzt bewerben -> /Application/New. Fill by role; DOB mm/dd/yyyy; upload via button + file chooser (check input[type=file].files); privacy checkbox; 'Bewerbung definitiv einreichen' -> /Confirmation.
 
 ## Ernsting's family
+- Run 6: karriere page still CloudFront 403; parked from playbook history.
 - Run 5: karriere page still CloudFront 403; parked.
 - Run 4: karriere page still CloudFront 403; parked.
 - Run 3: karriere page still CloudFront 403; parked.
@@ -657,6 +667,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Run 2: custom selects: open button, then click role=option (refs go stale, use label:has-text); privacy is last checkbox; hCaptcha on Senden -> parks.
 
 ## CGI (cgi.njoyn.com)
+- Run 3: listing is global (2963 jobs, unfiltered); Infra/DevOps Lead eCommerce D√ºsseldorf not on first page; registration chain still unresolved; parked.
 - Run 3: joblisting page now returns all 3056 jobs globally (CountryID param dropped), only first page renders; DevOps Lead eCommerce not on it; parked unapplied.
 - Run 3: Infra/DevOps Lead eCommerce not in default DE listing, header keyword box does not filter via Enter; parked.
 

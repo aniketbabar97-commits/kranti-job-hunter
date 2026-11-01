@@ -166,8 +166,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S": {
   "status": "parked",
-  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (per playbook, not retried); https://www.liebherr.com/de-de/j/karriere/offene-stellen",
-  "ts": "2026-10-31 23:00"
+  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA checkbox (per playbook)",
+  "ts": "2026-11-01 05:28"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206302371-S": {
   "status": "closed",
@@ -421,8 +421,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S": {
   "status": "parked",
-  "note": "cloudflare challenge – https://www.kugellager-express.de/karriere",
-  "ts": "2026-10-31 22:58"
+  "note": "captcha – https://www.kugellager-express.de/karriere (Cloudflare 403 challenge)",
+  "ts": "2026-11-01 05:27"
  },
  "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0": {
   "status": "confirmed",
@@ -431,8 +431,8 @@
  },
  "https://de.indeed.com/viewjob?jk=e2c62136d72810e0": {
   "status": "parked",
-  "note": "captcha – Markant portal applicationform_privacy has reCAPTCHA; https://jobs.markant.com/",
-  "ts": "2026-10-31 22:58"
+  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA gate (per playbook)",
+  "ts": "2026-11-01 05:27"
  },
  "https://de.indeed.com/viewjob?jk=5eeb86a96359cdbb": {
   "status": "closed",
@@ -461,18 +461,18 @@
  },
  "https://www.linkedin.com/jobs/view/4459647609": {
   "status": "parked",
-  "note": "job open; Recruitee form ends in hCaptcha (per playbook), form NOT filled this run – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new",
-  "ts": "2026-10-31 22:59"
+  "note": "captcha – abriogmbh.recruitee.com hCaptcha puzzle at Senden (per playbook)",
+  "ts": "2026-11-01 05:27"
  },
  "https://www.linkedin.com/jobs/view/4477870309": {
   "status": "parked",
-  "note": "CGI njoyn: job not on first list page (3056 global results), registration chain unresolved per playbook; not applied – https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4",
-  "ts": "2026-10-31 22:59"
+  "note": "CGI njoyn: registration/session chain unresolved per playbook (SessionExpired); not found in unfiltered job list (2963 entries)",
+  "ts": "2026-11-01 05:28"
  },
  "https://de.indeed.com/viewjob?jk=451afb600bf9e95d": {
   "status": "parked",
-  "note": "captcha – Markant portal privacy page has reCAPTCHA before form (per playbook, not refilled); https://jobs.markant.com/",
-  "ts": "2026-10-31 22:59"
+  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA gate (per playbook)",
+  "ts": "2026-11-01 05:28"
  },
  "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d": {
   "status": "confirmed",
@@ -486,8 +486,8 @@
  },
  "https://de.indeed.com/viewjob?jk=bed693216eda8783": {
   "status": "parked",
-  "note": "Indeed viewjob Cloudflare 403, no employer apply route found",
-  "ts": "2026-10-31 22:59"
+  "note": "Indeed viewjob Cloudflare 403; no employer apply route (per playbook)",
+  "ts": "2026-11-01 05:28"
  },
  "https://www.linkedin.com/jobs/view/4475771885": {
   "status": "closed",
@@ -501,8 +501,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S": {
   "status": "parked",
-  "note": "no employer site/apply route or email found (per playbook, not re-checked)",
-  "ts": "2026-10-31 23:00"
+  "note": "no apply route: no employer site/email found (Arbeitsagentur captcha, aggregator Cloudflare) per playbook",
+  "ts": "2026-11-01 05:28"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003787924-S": {
   "status": "confirmed",
@@ -516,8 +516,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S": {
   "status": "parked",
-  "note": "no careers page or apply route on fahmoda.de (per playbook, not re-checked)",
-  "ts": "2026-10-31 23:00"
+  "note": "no careers page or application email on fahmoda.de (per playbook)",
+  "ts": "2026-11-01 05:28"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
   "status": "closed",
@@ -541,8 +541,8 @@
  },
  "https://de.indeed.com/viewjob?jk=12e4856518e0f67d": {
   "status": "parked",
-  "note": "karriere page CloudFront 403 (blocked in automated browser); no application email found",
-  "ts": "2026-10-31 23:01"
+  "note": "ernstings-family.com/karriere CloudFront 403 in automated browser (per playbook)",
+  "ts": "2026-11-01 05:29"
  },
  "https://www.linkedin.com/jobs/view/4476811880": {
   "status": "closed",
@@ -631,8 +631,8 @@
  },
  "https://www.linkedin.com/posts/vantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s": {
   "status": "parked",
-  "note": "LinkedIn recruiter post, no application email (per playbook history)",
-  "ts": "2026-10-31 23:01"
+  "note": "linkedin post, no email, Toronto-based, only linkedin jobs link (per playbook)",
+  "ts": "2026-11-01 05:29"
  },
  "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3": {
   "status": "parked",

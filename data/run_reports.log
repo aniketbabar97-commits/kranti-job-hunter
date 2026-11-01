@@ -601,3 +601,22 @@ Results:
 - Breuninger — parked — per playbook, no Commerce role, form or email.
 
 Apart from Hansgrohe and Festo, I parked straight from the playbook without reopening the sites. The two CAPTCHA jobs (Hansgrohe, Hahn+Kolb) need Kranti to finish by hand. The Hansgrohe tab is still open. Each job has a "learn" line in the playbook.
+Ten jobs worked. None were submitted: I parked all 10. The list never came back empty.
+
+I didn't open forms for most of them. For eight I parked straight from the PLAYBOOK history, because earlier runs hit the same block each time. I did open the Kugellager-Express page, which is still behind the Cloudflare challenge. I also opened the CGI job list, which has 2,963 unfiltered openings, and didn't find the job. The Vantage LinkedIn post I parked from history without re-opening.
+
+There are no open CAPTCHA tabs to solve. The only tab I opened that still holds a job is Kugellager-Express (Cloudflare challenge). Nothing was filled in on any of these.
+
+- Kugellager-Express: parked, Cloudflare 403 on /karriere.
+- MARKANT, Consultant Master Data Services: parked, reCAPTCHA on the apply privacy page.
+- Instaffo (ABRIO), Senior E-Commerce Consultant: parked, hCaptcha puzzle at submit on Recruitee.
+- CGI, Infra / DevOps Lead eCommerce: parked, the njoyn registration step fails with SessionExpired and I couldn't find the job in the list.
+- MARKANT, Business Analyst: parked, same reCAPTCHA gate.
+- Bayard, Business Analyst Media Assets: parked, Indeed is behind Cloudflare and there's no employer route.
+- Liebherr, Product Manager Kundenportal E-Commerce: parked, reCAPTCHA on the SuccessFactors login.
+- Tabris UG, E-Commerce Programmierer Magento: parked, no apply route or email found.
+- FAHMODA, Systembetreuer/Programmierer Shopware-6: parked, no careers page or application email.
+- Ernsting's family, Manager Assortment Allocation: parked, CloudFront 403.
+- Vantage, LinkedIn post: parked, no email and only a LinkedIn jobs link.
+
+Each job is logged with `done`, and each also has a `learn` line in the PLAYBOOK. None of the parked notes contain an application email, so the automatic email route won't pick any of them up.
