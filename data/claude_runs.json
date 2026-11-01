@@ -166,8 +166,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S": {
   "status": "parked",
-  "note": "captcha – Liebherr career5 SuccessFactors login has reCAPTCHA; parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "captcha – reCAPTCHA on Liebherr SuccessFactors login (per playbook history)",
+  "ts": "2026-11-01 18:27"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1206302371-S": {
   "status": "closed",
@@ -431,8 +431,8 @@
  },
  "https://de.indeed.com/viewjob?jk=e2c62136d72810e0": {
   "status": "parked",
-  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA checkbox; parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "captcha – reCAPTCHA privacy gate on jobs.markant.com before form (per playbook history)",
+  "ts": "2026-11-01 18:26"
  },
  "https://de.indeed.com/viewjob?jk=5eeb86a96359cdbb": {
   "status": "closed",
@@ -461,18 +461,18 @@
  },
  "https://www.linkedin.com/jobs/view/4459647609": {
   "status": "parked",
-  "note": "captcha – abriogmbh.recruitee.com Senden triggers hCaptcha puzzle; parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "captcha – hCaptcha at Senden on abriogmbh.recruitee.com (per playbook history)",
+  "ts": "2026-11-01 18:26"
  },
  "https://www.linkedin.com/jobs/view/4477870309": {
   "status": "parked",
-  "note": "njoyn portal unresolved (register chain SessionExpired, login blocked); parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "njoyn register/login unresolved per playbook history; job J1026-0889 at cgi.njoyn.com",
+  "ts": "2026-11-01 18:27"
  },
  "https://de.indeed.com/viewjob?jk=451afb600bf9e95d": {
   "status": "parked",
-  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA checkbox; parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "captcha – reCAPTCHA privacy gate on jobs.markant.com before form (per playbook history)",
+  "ts": "2026-11-01 18:27"
  },
  "https://de.indeed.com/viewjob?jk=ff1b9080bb52d47d": {
   "status": "confirmed",
@@ -486,8 +486,8 @@
  },
  "https://de.indeed.com/viewjob?jk=bed693216eda8783": {
   "status": "parked",
-  "note": "Indeed Cloudflare 403, no employer apply route; parked from playbook history",
-  "ts": "2026-11-01 11:55"
+  "note": "Indeed Cloudflare 403, no employer apply route (per playbook history)",
+  "ts": "2026-11-01 18:27"
  },
  "https://www.linkedin.com/jobs/view/4475771885": {
   "status": "closed",
@@ -501,8 +501,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S": {
   "status": "parked",
-  "note": "no employer site, apply link or email found; parked from playbook history",
-  "ts": "2026-11-01 11:56"
+  "note": "no employer apply route or email found (per playbook history)",
+  "ts": "2026-11-01 18:27"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003787924-S": {
   "status": "confirmed",
@@ -516,8 +516,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S": {
   "status": "parked",
-  "note": "no careers page or application route on fahmoda.de; parked from playbook history",
-  "ts": "2026-11-01 11:56"
+  "note": "no careers page or email on fahmoda.de (per playbook history)",
+  "ts": "2026-11-01 18:27"
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1204965130-S": {
   "status": "closed",
@@ -541,8 +541,8 @@
  },
  "https://de.indeed.com/viewjob?jk=12e4856518e0f67d": {
   "status": "parked",
-  "note": "career page CloudFront 403 in automated browser, Indeed Cloudflare; parked from playbook history",
-  "ts": "2026-11-01 11:56"
+  "note": "karriere page CloudFront 403 in automated browser; Indeed Cloudflare (per playbook history)",
+  "ts": "2026-11-01 18:28"
  },
  "https://www.linkedin.com/jobs/view/4476811880": {
   "status": "closed",
@@ -631,8 +631,8 @@
  },
  "https://www.linkedin.com/posts/vantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s": {
   "status": "parked",
-  "note": "LinkedIn post has no email, only linkedin jobs link (login needed); parked from playbook history",
-  "ts": "2026-11-01 11:56"
+  "note": "linkedin-only; post has no email, only a linkedin jobs link (per playbook history)",
+  "ts": "2026-11-01 18:28"
  },
  "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3": {
   "status": "parked",
@@ -641,8 +641,8 @@
  },
  "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-": {
   "status": "parked",
-  "note": "US-only role, no email in post; parked from playbook history",
-  "ts": "2026-11-01 11:56"
+  "note": "linkedin-only; US-only Salesforce role, post has no email (per playbook history)",
+  "ts": "2026-11-01 18:28"
  },
  "https://www.wmf.com/#initiativbewerbung": {
   "status": "parked",
