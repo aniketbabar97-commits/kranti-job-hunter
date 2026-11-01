@@ -1157,3 +1157,7 @@ The 10-job batch is therefore 0 of 10 done.
 I applied to no jobs. The first `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped there, as the instructions say.
 
 I read `helper/PLAYBOOK.md` only up to line 465 of 753 and skipped the rest, since there was no job to look up. I didn't open the browser, log anything or add any playbook notes.
+[Sun 11/01/2026 19:23:38.65] batch 4 exit 0 
+`next 1` returned an empty list on the first call, so there were no jobs to apply to. I stopped as instructed.
+
+Applied: 0 of 10. Nothing was submitted or logged, and I opened no browser tabs, so there are no open CAPTCHA tabs to finish.
