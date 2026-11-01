@@ -651,8 +651,8 @@
  },
  "https://www.westernacher.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://jobs.eu.lever.co/westernacher/ca1a08cc-bdc4-4165-8723-5d0af943cc2c/apply (Lever general application, hCaptcha on submit; not refilled this run)",
-  "ts": "2026-10-31 22:50"
+  "note": "captcha – https://jobs.eu.lever.co/westernacher (General application, hCaptcha); no initiative form on westernacher.com",
+  "ts": "2026-11-01 05:20"
  },
  "https://www.weidmueller.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -661,8 +661,8 @@
  },
  "https://www.wacker.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or posting; no HR email found",
-  "ts": "2026-10-31 22:51"
+  "note": "no initiative form or email; jobs.wacker.com search returns no jobs",
+  "ts": "2026-11-01 05:21"
  },
  "https://www.wuerth.de/#initiativbewerbung": {
   "status": "parked",
@@ -671,13 +671,13 @@
  },
  "https://www.vorwerk.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form; jobs.vorwerkgroup.com search Commerce 0 hits; no HR email found",
-  "ts": "2026-10-31 22:51"
+  "note": "no initiative form; jobs.vorwerkgroup.com Commerce search 0 hits",
+  "ts": "2026-11-01 05:21"
  },
  "https://www.villeroy-boch.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "only initiative posting is site-bound (Treuchtlingen JR_3111); no Commerce role; no HR email found",
-  "ts": "2026-10-31 22:51"
+  "note": "only initiative posting is site-bound (Treuchtlingen JR_3111); no fitting Commerce posting",
+  "ts": "2026-11-01 05:21"
  },
  "https://www.valantic.com/#initiativbewerbung": {
   "status": "pending",
@@ -691,8 +691,8 @@
  },
  "https://www.trumpf.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative posting or Commerce role on Trumpf Workday; no HR email found",
-  "ts": "2026-10-31 22:52"
+  "note": "no initiative posting for IT/Commerce on trumpf Workday; no email found",
+  "ts": "2026-11-01 05:21"
  },
  "https://www.thalia.de/#initiativbewerbung": {
   "status": "parked",
@@ -701,8 +701,8 @@
  },
  "https://www.team-neusta.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form; open roles SAP Finance/DXP (Liferay etc.), no Commerce; no HR email",
-  "ts": "2026-10-31 22:52"
+  "note": "no initiative form; no HR email on site; only SAP Finance/DXP roles",
+  "ts": "2026-11-01 05:21"
  },
  "https://www.tchibo.de/#initiativbewerbung": {
   "status": "parked",
@@ -721,8 +721,8 @@
  },
  "https://www.sqli.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2; not refilled this run)",
-  "ts": "2026-10-31 22:52"
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2)",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.sartorius.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -731,13 +731,13 @@
  },
  "https://www.salzgitter-ag.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Commerce role; only student/intern initiative link; no HR email found",
-  "ts": "2026-10-31 22:53"
+  "note": "no initiative link or email; only SAP SD/FI-CO inhouse roles",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.rittal.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Commerce/Hybris role or initiative form on career.friedhelm-loh-group.com (97 jobs, ?q ignored); no HR email found",
-  "ts": "2026-10-31 22:53"
+  "note": "no initiative form or Commerce posting on career.friedhelm-loh-group.com; no email",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.q-perior.com/#initiativbewerbung": {
   "status": "parked",
@@ -746,8 +746,8 @@
  },
  "https://www.q-cells.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative route; jobs page lists Leiter IT + solar roles; no HR email found",
-  "ts": "2026-10-31 22:54"
+  "note": "no initiative route or email on q-cells.de/1/ueber-uns/jobs",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.pikon.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -781,8 +781,8 @@
  },
  "https://www.merkle.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or talent-pool link on merkle.com/en/careers/jobs.html; no HR email found",
-  "ts": "2026-10-31 22:54"
+  "note": "no initiative form, no Commerce posting, no HR email on merkle.com careers",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.mindsquare.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -865,9 +865,9 @@
   "ts": "2026-10-25 07:40"
  },
  "https://www.hilti.de/#initiativbewerbung": {
-  "status": "parked",
-  "note": "no initiative form, no Hybris/SAP Commerce posting on careers.hilti.group; no email found",
-  "ts": "2026-10-31 22:55"
+  "status": "working",
+  "note": "claimed",
+  "ts": "2026-11-01 05:22"
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",

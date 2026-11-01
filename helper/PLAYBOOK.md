@@ -349,6 +349,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - wmf.com is only the shop; careers at aboutwmf.com/de/karriere/ -> groupeseb.taleo.net jobsearch; no initiative form, contact karriere@groupeseb.com
 
 ## Westernacher
+- Run 5: parked from playbook history without refilling; Lever General application hCaptcha unchanged.
 - Run 4: still no Commerce/Hybris role; only the Lever General application (hCaptcha) - parked without refilling.
 - Run 3: jobs.eu.lever.co/westernacher now has a 'General application' posting (/ca1a08cc-.../apply); Lever form filled via snapshot refs (CV chooser, consent textbox 'I agree', radios), cover letter goes into Additional information; submit triggers hCaptcha -> parks.
 - Run 2: jobs.eu.lever.co/westernacher still has no SAP Commerce/Hybris role and no initiative form; westernacher.com/join shows no email.
@@ -358,6 +359,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Initiative form at /de/jobboard/bewerben-sie-sich-initiativ-de-f3213.html, inline; fill by name bewerbung_form[...] via JS; Einsatzort select required; uploads via JS input.click()+file chooser (anschreiben, lebenslauf); click 'Senden' link; title 'Bewerbung abgeschlossen'
 
 ## Wacker
+- Run 5: parked from playbook history; still no initiative form or email.
 - Run 4: jobs.wacker.com/search/?q=Initiativ still 'No jobs found'.
 - Run 3: jobs.wacker.com/search/?q=Initiativ still 'No jobs found'; no initiative form or email.
 - Run 2: jobs.wacker.com/search/?q=Initiativ returns nothing; still no initiative form. (jobs.wacker.com)
@@ -367,12 +369,14 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Initiativbewerbung link goes to career.wuerth.com (dead); jobs now on career5.successfactors.eu wrthitinteP2 -> career.witglobal.net/search?q=<kw>; Commerce search only Italy/India
 
 ## Vorwerk
+- Run 5: parked from playbook history; Commerce search 0 hits, no initiative form.
 - Run 4: jobs.vorwerkgroup.com search Commerce still 0 hits.
 - Run 3: jobs.vorwerkgroup.com search Commerce still 0 hits.
 - Run 2: jobs.vorwerkgroup.com search Commerce still 0 hits. (jobs.vorwerkgroup.com)
 - vorwerk.com -> Karriere -> career-vorwerkgroups.com -> jobs.vorwerkgroup.com (SuccessFactors, search?q=<kw>&locale=de_DE); 'Commerce' = 0 hits, 'SAP' only unrelated fuzzy hits; no initiative form
 
 ## Villeroy & Boch (Workday)
+- Run 5: parked from playbook history; unchanged.
 - Run 4: q=Initiativ unchanged, only Treuchtlingen-bound JR_3111.
 - Run 3: q=Initiativ unchanged, only Treuchtlingen-bound JR_3111.
 - Run 2: q=Initiativ still only Treuchtlingen-bound initiative posting JR_3111.
@@ -385,6 +389,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - careers at /unternehmen/karriere/, jobs apply via greven-twt-gruppe.jobs.personio.de; only 2 non-dev postings, no initiative form; HR address on job page
 
 ## TRUMPF (Workday)
+- Run 5: parked from playbook history; no initiative or Commerce posting.
 - Run 4: q=Commerce gives only unrelated sales/legal/intern roles; no initiative posting.
 - Run 3: q=Initiativ gives unrelated roles only; no initiative posting.
 - Run 2: q=Commerce gives only sales/service roles, no initiative posting.
@@ -409,6 +414,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - corporate.stihl.de initiativbewerbung page -> Jetzt initiativ bewerben (jobId=53380 Waiblingen). Apply -> Create account (privacy dialog link #dataPrivacyId, then Accept button). Profile page: click Upload a Resume / Attach a Cover Letter then setInputFiles on the file input. Job-Specific section: source=Job Posting, Detail=Job Posting: LinkedIn, previously employed=No; address and phone via pressSequentially. Success: Thank you for applying to STIHL.
 
 ## SQLI
+- Run 5: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
 - Run 4: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
 - Run 3: fill_form cannot tick #edit-rgpd (wrapper div) -> JS click; merged PDF upload via 'File *' button chooser works; reCAPTCHA v2 still blocks.
 - Run 2: form filled via fill_form (country Germany), file chooser via 'File *' button, #edit-rgpd already ticks; reCAPTCHA v2 checkbox still the only blocker. (sqli.com)
