@@ -185,11 +185,15 @@
  },
  {
   "link": "https://www.liebherr.com/#initiativbewerbung",
-  "note": "captcha – SuccessFactors login reCAPTCHA (per playbook); no initiative form found, no email"
+  "note": "no initiative form or email; SuccessFactors reCAPTCHA gate (playbook history)"
  },
  {
   "link": "https://www.kps.com/#initiativbewerbung",
   "note": "no initiative form, no SAP Commerce posting on career.kps.com (Teamtailor); email: info@kps.com → email route"
+ },
+ {
+  "link": "https://www.hilti.de/#initiativbewerbung",
+  "note": "no initiative form or email; no Hybris posting (playbook history)"
  },
  {
   "link": "https://www.hansgrohe.de/#initiativbewerbung",
@@ -241,6 +245,10 @@
  },
  {
   "link": "https://www.bechtle.com/#initiativbewerbung",
-  "note": "no initiative route: jobs.bechtle.com initiative posting 404 per playbook; portal-only, no email"
+  "note": "initiative posting gone, no email (playbook history)"
+ },
+ {
+  "link": "https://www.bbraun.de/#initiativbewerbung",
+  "note": "no initiative form for Germany, no Commerce posting (playbook history)"
  }
 ]
