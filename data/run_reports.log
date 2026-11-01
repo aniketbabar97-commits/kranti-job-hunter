@@ -638,3 +638,8 @@ The queue is empty, so I stopped after 4 of the 10 jobs. All 4 were Initiativbew
 - B. Braun — parked — the only initiative posting is for Austria, and a search for Commerce roles finds none.
 
 No CAPTCHA tabs are open.
+`next 1` returned an empty list on the first call, so I stopped and applied to 0 of the 10 jobs. I didn't open the browser or log anything.
+
+There are no jobs left in the queue. The recent commits show the nightly batches already ran.
+
+I read the first 450 of the 684 lines in `helper/PLAYBOOK.md` and skipped the rest, since there was no job to apply to.
