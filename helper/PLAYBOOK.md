@@ -246,6 +246,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express
+- Run 7: /karriere Cloudflare challenge; parked from playbook history.
 - Run 6: /karriere still 403 Cloudflare 'Just a moment'; parked.
 - Run 5: /karriere still 403 Cloudflare 'Just a moment'; parked.
 - Run 4: /karriere still 403 behind Cloudflare 'Just a moment'; parked again. (kugellager-express.de)
@@ -279,6 +280,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 6: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 5: parked from playbook history; image captcha unchanged.
 - Run 4: parked from playbook history; image captcha unchanged.
 - Run 3: jobs/52115/form fills fully via run_code (salutation MS, screeningQuestion.24 salary, .37-1 Nein, .103 =170 LinkedIn, one attachmentFile with both PDFs, privacyPolicyAccepted1); image captcha still blocks.
@@ -483,6 +485,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics
+- Run 5: parked from playbook history; no initiative form or email.
 - Run 4: jobs.html has no initiative/general-application link or email. (merkle.com)
 - Run 3: not re-verified in browser beyond loading jobs.html; playbook shows no initiative route, parked.
 - Run 2: jobs.html search 'Commerce'+'Germany' = No result found; still no initiative form or HR email.
@@ -546,6 +549,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> Best√§tigung page.
 
 ## W√ºrth group apply.witglobal.net (Hahn+Kolb)
+- Run 6: parked from playbook history; captcha.eu unchanged.
 - Run 5: parked from playbook history; captcha.eu unchanged.
 - Run 4: parked from playbook history; captcha.eu unchanged.
 - Run 3: parked from playbook history; captcha.eu unchanged.
@@ -559,6 +563,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - Google 'Geberit Karriere Deutschland Initiativbewerbung' -> jobs.geberit.com/job/Initiativbewerbung/178-de_DE/; 'Jetzt bewerben' opens NEW tab geberit-production.p78quickapply.com (direct URL is blank). File names max 64 chars -> upload short-named copies (CV_x.pdf, Anschreiben_x.pdf), tag each with Lebenslauf/Anschreiben buttons, Weiter. Page 2 prefilled from CV; fill street/PLZ/city, country combobox type+Enter, UI5 selects: click [id$=input] container then li in #__listN (Anrede Frau, source LinkedIn, Standort 1 DE - Pfullendorf, 2 DE - Ibbenb√ºren), area textbox, privacy checkbox, Bewerbung absenden. Success strip + #/Completion.
 
 ## Festo (jobs.festo.com, SuccessFactors)
+- Run 4: parked from playbook history; no Hybris role or German initiative form.
 - Run 3: q=Commerce lists Online Business PM/API PM, UX, Frontend, Backend (Barcelona) - still no Hybris role or German initiative form.
 - Run 2: q=Initiativ gives 10 unrelated hits (apprenticeships, Barcelona Java); still nothing for Commerce.
 - jobs.festo.com/search/?q=<kw>&locale=de_DE is fuzzy; only initiative is Festo Gewindetriebe AG (Burg); E-Commerce/Backend roles are Barcelona (08908); no German initiative form, no HR mail on festo.com karriere pages.
@@ -588,12 +593,14 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport (cyberport.de)
+- Run 5: parked from playbook history; Cloudflare challenge unchanged.
 - Run 4: parked from playbook history; Cloudflare challenge unchanged.
 - Run 3: parked from playbook history; Cloudflare challenge unchanged.
 - Run 2: still Cloudflare 'Just a moment' 403; parked.
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket (cxrocket.com)
+- Run 5: parked from playbook history; domain still parked.
 - Run 4: parked from playbook history; domain still parked.
 - Run 3: domain still parked (/lander); parked.
 - Run 2: domain still parked at GoDaddy; parked.
@@ -609,12 +616,14 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
 
 ## Camelot ITLab
+- Run 5: parked from playbook history; still Accenture redirect.
 - Run 4: parked from playbook history; still Accenture redirect.
 - Run 3: still redirects to accenture.com/de-de; careers jobsearch page rendered blank; no initiative route -> park.
 - Run 2: parked per playbook, not re-checked in browser. (Accenture)
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- Run 5: parked from playbook history; no route.
 - Run 4: parked from playbook history; no route.
 - Run 3: digital.breuninger.com/jobs lists 12 roles (IT ops, E-Commerce leads), no Commerce dev, no initiative form or email.
 - Run 2: digital.breuninger.com/jobs still no Commerce role, no initiative form or email. (digital.breuninger.com)
@@ -653,6 +662,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - hoermann.de/karriere -> jobs.hoermann.de; job form /stellenangebot-formular.html?yid=<id> (list has all yids). Cronos recipe via run_code worked first try (pressSequentially by id, selects via JS, #agb_checkbox JS, setInputFiles #...lebenslauf/anschreiben, JS click last 'Senden'); required free text vordef_bew_feld_09 = Verfuegbarkeit/Kuendigungsfrist; wie_gefunden indeed.com. Title 'Vielen Dank fuer Ihre Bewerbung!'.
 
 ## Endress+Hauser (careers.endress.com)
+- Run 4: parked from playbook history; no initiative route.
 - Run 3: parked from playbook history; no initiative route.
 - Run 2: keyword=Commerce search still empty; no initiative route.
 - endress.com/de/endress-hauser-gruppe/de-karriere/stellenangebote -> careers.endress.com (SuccessFactors-style, results render late; use /content/Search/?locale=de_com&keyword=<kw> then snapshot to file). No initiative form, no SAP Commerce roles; email applications not accepted.
