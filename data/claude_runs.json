@@ -421,8 +421,8 @@
  },
  "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S": {
   "status": "parked",
-  "note": "captcha – https://www.kugellager-express.de/karriere (Cloudflare challenge, playbook runs 2-6)",
-  "ts": "2026-11-01 11:54"
+  "note": "captcha – Cloudflare challenge on https://www.kugellager-express.de/karriere (per playbook history)",
+  "ts": "2026-11-01 18:26"
  },
  "https://de.indeed.com/viewjob?jk=31b24d06868f3fb0": {
   "status": "confirmed",
@@ -651,8 +651,8 @@
  },
  "https://www.westernacher.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "hCaptcha on Lever General application per playbook history; no email found",
-  "ts": "2026-11-01 11:50"
+  "note": "captcha – Lever General application hCaptcha (jobs.eu.lever.co/westernacher), unchanged per playbook",
+  "ts": "2026-11-01 18:20"
  },
  "https://www.weidmueller.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -661,8 +661,8 @@
  },
  "https://www.wacker.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or email per playbook history",
-  "ts": "2026-11-01 11:50"
+  "note": "no initiative form or email on jobs.wacker.com (per playbook)",
+  "ts": "2026-11-01 18:20"
  },
  "https://www.wuerth.de/#initiativbewerbung": {
   "status": "parked",
@@ -671,13 +671,13 @@
  },
  "https://www.vorwerk.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, Commerce search 0 hits per playbook history; no email found",
-  "ts": "2026-11-01 11:50"
+  "note": "no initiative form; Commerce search 0 hits (per playbook)",
+  "ts": "2026-11-01 18:20"
  },
  "https://www.villeroy-boch.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "only initiative posting is site-bound (Treuchtlingen) per playbook history; no email found",
-  "ts": "2026-11-01 11:50"
+  "note": "only initiative posting is site-bound (Treuchtlingen); no fitting posting (per playbook)",
+  "ts": "2026-11-01 18:20"
  },
  "https://www.valantic.com/#initiativbewerbung": {
   "status": "pending",
@@ -691,8 +691,8 @@
  },
  "https://www.trumpf.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative or Commerce posting per playbook history; no email found",
-  "ts": "2026-11-01 11:51"
+  "note": "no initiative or Commerce posting (per playbook)",
+  "ts": "2026-11-01 18:20"
  },
  "https://www.thalia.de/#initiativbewerbung": {
   "status": "parked",
@@ -701,8 +701,8 @@
  },
  "https://www.team-neusta.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or HR email per playbook history",
-  "ts": "2026-11-01 11:51"
+  "note": "no initiative form, no HR email on site (per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.tchibo.de/#initiativbewerbung": {
   "status": "parked",
@@ -721,8 +721,8 @@
  },
  "https://www.sqli.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2 per playbook history, not refilled)",
-  "ts": "2026-11-01 11:51"
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2, per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.sartorius.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -731,13 +731,13 @@
  },
  "https://www.salzgitter-ag.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no Commerce roles per playbook history; no email found",
-  "ts": "2026-11-01 11:51"
+  "note": "no Commerce roles, no initiative link or email (per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.rittal.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Commerce or initiative posting per playbook history; no email found",
-  "ts": "2026-11-01 11:51"
+  "note": "no Commerce or initiative posting (per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.q-perior.com/#initiativbewerbung": {
   "status": "parked",
@@ -746,8 +746,8 @@
  },
  "https://www.q-cells.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative route or email per playbook history",
-  "ts": "2026-11-01 11:51"
+  "note": "no initiative route or email (per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.pikon.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -781,8 +781,8 @@
  },
  "https://www.merkle.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or HR email on merkle.com (playbook runs 2-4)",
-  "ts": "2026-11-01 11:52"
+  "note": "no initiative form or email (per playbook)",
+  "ts": "2026-11-01 18:21"
  },
  "https://www.mindsquare.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -871,8 +871,8 @@
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, playbook runs 2-5)",
-  "ts": "2026-11-01 11:52"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (image captcha per playbook history, not refilled)",
+  "ts": "2026-11-01 18:22"
  },
  "https://www.hansa-flex.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -886,8 +886,8 @@
  },
  "https://www.hahn-kolb.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu)",
-  "ts": "2026-11-01 11:53"
+  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (all filled, captcha.eu human check before 'Bewerbung einreichen')",
+  "ts": "2026-11-01 18:24"
  },
  "https://www.grohe.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -901,8 +901,8 @@
  },
  "https://www.festo.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no German initiative form or HR email; no Hybris role (playbook runs 2-3)",
-  "ts": "2026-11-01 11:53"
+  "note": "no German initiative form, no Hybris role, no HR email (per playbook history)",
+  "ts": "2026-11-01 18:24"
  },
  "https://www.faktor-e.de/#initiativbewerbung": {
   "status": "parked",
@@ -921,18 +921,18 @@
  },
  "https://www.endress.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative route, no Commerce roles; email applications not accepted (playbook runs 2-3)",
-  "ts": "2026-11-01 11:53"
+  "note": "no initiative route, no SAP Commerce roles, email not accepted (per playbook history)",
+  "ts": "2026-11-01 18:24"
  },
  "https://www.elbkind.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no career page, form or HR email (playbook runs 2-3)",
-  "ts": "2026-11-01 11:53"
+  "note": "no career page, form or HR email found (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.douglas.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or email; no SAP Commerce roles (playbook run 2)",
-  "ts": "2026-11-01 11:53"
+  "note": "no initiative form, no SAP Commerce roles, no HR email (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.dotsource.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -941,13 +941,13 @@
  },
  "https://www.cyberport.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://www.cyberport.de/ (Cloudflare challenge, playbook runs 2-4)",
-  "ts": "2026-11-01 11:53"
+  "note": "captcha – Cloudflare challenge on cyberport.de (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.cxrocket.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "domain parked at GoDaddy, no application route (playbook runs 2-4)",
-  "ts": "2026-11-01 11:54"
+  "note": "domain parked at GoDaddy, no application route (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.conrad.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -966,13 +966,13 @@
  },
  "https://www.camelot-itlab.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "site redirects to accenture.com/de-de, no initiative route (playbook runs 2-4)",
-  "ts": "2026-11-01 11:54"
+  "note": "site redirects to accenture.com, no initiative route (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.breuninger.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, email or Commerce role (playbook runs 2-4)",
-  "ts": "2026-11-01 11:54"
+  "note": "no Commerce role, no initiative form or email (per playbook history)",
+  "ts": "2026-11-01 18:25"
  },
  "https://www.berner.eu/#initiativbewerbung": {
   "status": "confirmed",

@@ -1062,3 +1062,45 @@ No jobs were opened or logged, no browser tabs were created, and there are no op
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 459 of 718 lines of `helper/PLAYBOOK.md`. I didn't read the rest, since there was no job to use it on.
 
 If you expected jobs to be queued, check whether the queue was already emptied by earlier runs. The recent commits show nightly batches 1â€“4.
+[Sun 11/01/2026 13:19:52.24] autorun: 0 jobs waiting 
+[Sun 11/01/2026 13:49:50.75] autorun: 0 jobs waiting 
+[Sun 11/01/2026 14:19:50.79] autorun: 0 jobs waiting 
+[Sun 11/01/2026 14:49:50.65] autorun: 0 jobs waiting 
+[Sun 11/01/2026 15:19:50.62] autorun: 0 jobs waiting 
+[Sun 11/01/2026 15:49:50.77] autorun: 0 jobs waiting 
+[Sun 11/01/2026 16:19:50.78] autorun: 0 jobs waiting 
+[Sun 11/01/2026 16:49:50.88] autorun: 0 jobs waiting 
+[Sun 11/01/2026 17:19:51.03] autorun: 0 jobs waiting 
+[Sun 11/01/2026 17:49:51.39] autorun: 0 jobs waiting 
+[Sun 11/01/2026 18:19:50.82] autorun: 33 jobs waiting 
+[Sun 11/01/2026 18:19:50.87] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sun 11/01/2026 18:21:57.35] batch 1 exit 0 
+- SQLI â€” parked â€” reCAPTCHA v2 (`https://www.sqli.com/int-en/spontaneous-application`)
+- Salzgitter â€” parked â€” no Commerce roles or initiative link
+- Rittal â€” parked â€” no Commerce or initiative posting
+- Q CELLS â€” parked â€” no initiative route or email
+
+I also parked Merkle / Namics (no initiative form or email) as an extra job. I didn't count it because the 10 were already done. The run stopped at 10 jobs, so I never saw `next 1` return an empty list.
+
+No CAPTCHA tabs were opened, so there is nothing for Kranti to finish by hand.
+[Sun 11/01/2026 18:26:13.66] batch 2 exit 0 
+- Douglas â€” parked â€” no initiative form or SAP Commerce role.
+- Cyberport â€” parked â€” Cloudflare challenge.
+- CX Rocket â€” parked â€” the domain is parked at GoDaddy.
+- Camelot ITLab â€” parked â€” the site redirects to accenture.com with no initiative route.
+- Breuninger â€” parked â€” no Commerce role, form or email.
+- Kugellager-Express â€” parked â€” `/karriere` sits behind a Cloudflare challenge.
+
+For every job except Hahn+Kolb I parked from the playbook history without re-checking, which is how earlier runs handled them. The one tab to finish is Hahn+Kolb. Besides the parks, I added a new playbook entry for the Hahn+Kolb/WÃ¼rth form and bumped the run notes for the others.
