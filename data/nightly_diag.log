@@ -1119,3 +1119,7 @@ There are no CAPTCHA tabs open, because I never opened the pages. None of the pa
 I read the apply instructions and the playbook. I also pulled her facts. I didn't open the browser or log anything with `done`, `learn` or `answer`, and no tabs are open for her to finish.
 
 The queue is empty, so no job is waiting to be picked up. If you expected jobs to be pending, check whether the nightly batch already took them. The last commit is "Claude applier: nightly batch 3".
+[Sun 11/01/2026 18:29:31.37] batch 5 exit 0 
+`python -m helper.claude_jobs next 1` returned `[]` on the first call, so there are no jobs in the queue. I stopped there as instructed and applied to none of the 10. Nothing was submitted or logged.
+
+I read the first 464 lines of `helper/PLAYBOOK.md` and skipped the remaining 286. Those lines hold more per-system notes, which only matter once there is a job to apply to.
