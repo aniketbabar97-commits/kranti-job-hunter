@@ -871,8 +871,8 @@
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, per playbook)",
-  "ts": "2026-10-31 22:55"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form",
+  "ts": "2026-11-01 05:24"
  },
  "https://www.hansa-flex.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -886,8 +886,8 @@
  },
  "https://www.hahn-kolb.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu)",
-  "ts": "2026-10-31 22:55"
+  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu per playbook)",
+  "ts": "2026-11-01 05:24"
  },
  "https://www.grohe.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -901,8 +901,8 @@
  },
  "https://www.festo.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no German initiative form or Commerce posting on jobs.festo.com; no HR email (per playbook)",
-  "ts": "2026-10-31 22:56"
+  "note": "no initiative form or fitting Commerce/Hybris posting on jobs.festo.com; no HR email found",
+  "ts": "2026-11-01 05:24"
  },
  "https://www.faktor-e.de/#initiativbewerbung": {
   "status": "parked",
@@ -921,18 +921,18 @@
  },
  "https://www.endress.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form, no SAP Commerce role on careers.endress.com; email applications not accepted (per playbook)",
-  "ts": "2026-10-31 22:56"
+  "note": "no initiative route or Commerce role per playbook; email applications not accepted",
+  "ts": "2026-11-01 05:25"
  },
  "https://www.elbkind.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no career page, form or HR email found (per playbook)",
-  "ts": "2026-10-31 22:56"
+  "note": "no career page, initiative form or HR email per playbook",
+  "ts": "2026-11-01 05:25"
  },
  "https://www.douglas.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or SAP Commerce role on careers.douglas.group; no email (per playbook)",
-  "ts": "2026-10-31 22:56"
+  "note": "no initiative form, no SAP Commerce role, no HR email per playbook",
+  "ts": "2026-11-01 05:25"
  },
  "https://www.dotsource.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -941,13 +941,13 @@
  },
  "https://www.cyberport.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – Cloudflare security verification on cyberport.de (per playbook)",
-  "ts": "2026-10-31 22:56"
+  "note": "captcha – Cloudflare challenge on cyberport.de, per playbook",
+  "ts": "2026-11-01 05:25"
  },
  "https://www.cxrocket.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "domain is a parked GoDaddy lander, no site/form/email",
-  "ts": "2026-10-31 22:56"
+  "note": "domain parked at GoDaddy per playbook; no application route",
+  "ts": "2026-11-01 05:25"
  },
  "https://www.conrad.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -966,13 +966,13 @@
  },
  "https://www.camelot-itlab.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "redirects to accenture.com/de-de; no initiative route or SAP Commerce posting (per playbook)",
-  "ts": "2026-10-31 22:57"
+  "note": "redirects to accenture.com; no initiative route or email per playbook",
+  "ts": "2026-11-01 05:26"
  },
  "https://www.breuninger.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Commerce role, no initiative form or email on digital.breuninger.com/jobs (per playbook)",
-  "ts": "2026-10-31 22:57"
+  "note": "no Commerce role, initiative form or HR email per playbook",
+  "ts": "2026-11-01 05:26"
  },
  "https://www.berner.eu/#initiativbewerbung": {
   "status": "confirmed",
@@ -990,9 +990,9 @@
   "ts": "2026-10-25 07:34"
  },
  "https://www.bbraun.de/#initiativbewerbung": {
-  "status": "parked",
-  "note": "no initiative form; jobs.bbraun.com q=Commerce 0 hits",
-  "ts": "2026-10-31 22:58"
+  "status": "working",
+  "note": "claimed",
+  "ts": "2026-11-01 05:26"
  },
  "https://www.axians.de/#initiativbewerbung": {
   "status": "confirmed",

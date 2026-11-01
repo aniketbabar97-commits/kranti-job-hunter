@@ -586,3 +586,18 @@ That list has 11 lines because Q CELLS and Namics / Merkle were both logged as p
 I didn't leave any CAPTCHA tabs open, since I never opened the browser. Westernacher and SQLI both log their form URLs, so Kranti can finish them by hand. The other parked jobs have no email address, so none of them will go out by email.
 
 I didn't run the HawkScan security scan, since I made no code changes.
+All 10 jobs are done and every one is parked, so nothing was submitted. `next 1` never returned an empty list. B. Braun is already queued as the 11th, so I stopped there.
+
+Results:
+- Hansgrohe — parked — I filled the name, contact, salary and privacy fields on the form, but it ends in an image CAPTCHA. I left that tab open at https://hansgrohe.dvinci-hr.com/de/jobs/140/form. The CV and cover letter are not uploaded yet.
+- Hahn+Kolb — parked — captcha.eu check (per playbook; not reopened). Form: https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE
+- Festo — parked — I rechecked: no Hybris role, no initiative form, no HR email.
+- Endress+Hauser — parked — per playbook, no initiative route, and they don't accept email applications.
+- Elbkind — parked — per playbook, no career page, form or email.
+- Douglas — parked — per playbook, no initiative form, SAP Commerce role or email.
+- Cyberport — parked — Cloudflare challenge blocks the site (per playbook).
+- CX Rocket — parked — domain is parked at GoDaddy (per playbook), so there's no route.
+- Camelot ITLab — parked — the site redirects to Accenture (per playbook), with no initiative route.
+- Breuninger — parked — per playbook, no Commerce role, form or email.
+
+Apart from Hansgrohe and Festo, I parked straight from the playbook without reopening the sites. The two CAPTCHA jobs (Hansgrohe, Hahn+Kolb) need Kranti to finish by hand. The Hansgrohe tab is still open. Each job has a "learn" line in the playbook.
