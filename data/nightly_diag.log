@@ -1113,3 +1113,9 @@ For every job except Hahn+Kolb I parked from the playbook history without re-che
 That is 11 rows, not 10. I counted MARKANT's Consultant Master Data Services job as the first of 10 and then ran one extra job, so Maitsys went past your limit.
 
 There are no CAPTCHA tabs open, because I never opened the pages. None of the parked notes contains an application email, so none of them will go out by email automatically. Several of these jobs have now been parked on 5 to 8 runs in a row. The blockers (reCAPTCHA, hCaptcha, Cloudflare) can't be bypassed, so it may be worth removing or manually finishing those jobs instead of re-queuing them.
+[Sun 11/01/2026 18:29:00.32] batch 4 exit 0 
+`next 1` returned an empty list on the first call, so there were no jobs to apply to. I stopped there, per your instruction.
+
+I read the apply instructions and the playbook. I also pulled her facts. I didn't open the browser or log anything with `done`, `learn` or `answer`, and no tabs are open for her to finish.
+
+The queue is empty, so no job is waiting to be picked up. If you expected jobs to be pending, check whether the nightly batch already took them. The last commit is "Claude applier: nightly batch 3".
