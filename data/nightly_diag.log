@@ -955,3 +955,36 @@ I loaded Kranti's facts and the first 450 of 684 lines of `PLAYBOOK.md`. I didn'
 There was nothing to apply to, so I stopped without applying to any jobs. `python -m helper.claude_jobs next 1` returned an empty list (`[]`), and your instructions say to stop early in that case.
 
 I read the instructions and the first 450 lines of the 684-line playbook, then loaded Kranti's facts. I didn't read the rest of the playbook, since there was no job to look up. I opened no browser tabs, created no accounts and logged nothing with `done`, `answer` or `learn`.
+[Sun 11/01/2026  6:49:51.50] autorun: 0 jobs waiting 
+[Sun 11/01/2026  7:19:51.65] autorun: 0 jobs waiting 
+[Sun 11/01/2026  7:49:50.49] autorun: 0 jobs waiting 
+[Sun 11/01/2026  8:19:52.31] autorun: 0 jobs waiting 
+[Sun 11/01/2026  8:49:51.62] autorun: 0 jobs waiting 
+[Sun 11/01/2026  9:19:51.60] autorun: 0 jobs waiting 
+[Sun 11/01/2026  9:49:51.90] autorun: 0 jobs waiting 
+[Sun 11/01/2026 10:19:53.64] autorun: 0 jobs waiting 
+[Sun 11/01/2026 10:49:56.02] autorun: 0 jobs waiting 
+[Sun 11/01/2026 11:19:50.51] autorun: 0 jobs waiting 
+[Sun 11/01/2026 11:49:50.51] autorun: 33 jobs waiting 
+[Sun 11/01/2026 11:49:51.45] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Sun 11/01/2026 11:52:03.29] batch 1 exit 0 
+- Rittal â€” parked â€” no Commerce or initiative posting
+- Q CELLS â€” parked â€” no initiative route or email
+
+No CAPTCHA tabs are open, because I didn't fill any forms. For SQLI, you'd have to open that URL yourself and fill the form.
+
+For each job I also added a `learn` line to the playbook, saying it was parked again from history.
+
+These same companies keep coming back as parked in every run. You could mark them as dead ends so they stop using up the 10-job quota.
