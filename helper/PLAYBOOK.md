@@ -298,6 +298,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 7: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 6: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 5: parked from playbook history; image captcha unchanged.
 - Run 4: parked from playbook history; image captcha unchanged.
@@ -528,6 +529,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics
+- Run 7: parked from playbook history; no initiative form or email.
 - Run 6: parked from playbook history; no initiative form or email.
 - Run 5: parked from playbook history; no initiative form or email.
 - Run 4: jobs.html has no initiative/general-application link or email. (merkle.com)
@@ -596,6 +598,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> BestÃ¤tigung page.
 
 ## WÃ¼rth group apply.witglobal.net (Hahn+Kolb)
+- Run 7: parked from playbook history; captcha.eu unchanged.
 - Run 6: parked from playbook history; captcha.eu unchanged.
 - Run 5: parked from playbook history; captcha.eu unchanged.
 - Run 4: parked from playbook history; captcha.eu unchanged.
@@ -610,6 +613,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Geberit Karriere Deutschland Initiativbewerbung' -> jobs.geberit.com/job/Initiativbewerbung/178-de_DE/; 'Jetzt bewerben' opens NEW tab geberit-production.p78quickapply.com (direct URL is blank). File names max 64 chars -> upload short-named copies (CV_x.pdf, Anschreiben_x.pdf), tag each with Lebenslauf/Anschreiben buttons, Weiter. Page 2 prefilled from CV; fill street/PLZ/city, country combobox type+Enter, UI5 selects: click [id$=input] container then li in #__listN (Anrede Frau, source LinkedIn, Standort 1 DE - Pfullendorf, 2 DE - IbbenbÃ¼ren), area textbox, privacy checkbox, Bewerbung absenden. Success strip + #/Completion.
 
 ## Festo (jobs.festo.com, SuccessFactors)
+- Run 6: parked from playbook history; no Hybris role or German initiative form.
 - Run 5: parked from playbook history; no Hybris role or German initiative form.
 - Run 4: parked from playbook history; no Hybris role or German initiative form.
 - Run 3: q=Commerce lists Online Business PM/API PM, UX, Frontend, Backend (Barcelona) - still no Hybris role or German initiative form.
@@ -634,6 +638,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
 ## Douglas (careers.douglas.group)
+- Run 4: parked from playbook history; no initiative form or Commerce role.
 - Run 3: parked from playbook history; no initiative form or Commerce role.
 - Run 2: search=commerce still only e-commerce ops/sales roles (Milan, DÃ¼sseldorf, Warsaw); no initiative form or email.
 - douglas.de/de/karriere 404; careers.douglas.group/de/jobs/?search=<kw> works; no initiative form, only a SuccessFactors candidate login; no SAP Commerce roles (Shopify, Full Stack only).
@@ -642,6 +647,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport (cyberport.de)
+- Run 7: parked from playbook history; Cloudflare challenge unchanged.
 - Run 6: parked from playbook history; Cloudflare challenge unchanged.
 - Run 5: parked from playbook history; Cloudflare challenge unchanged.
 - Run 4: parked from playbook history; Cloudflare challenge unchanged.
@@ -650,6 +656,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket (cxrocket.com)
+- Run 7: parked from playbook history; domain still parked.
 - Run 6: parked from playbook history; domain still parked.
 - Run 5: parked from playbook history; domain still parked.
 - Run 4: parked from playbook history; domain still parked.
@@ -667,6 +674,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
 
 ## Camelot ITLab
+- Run 7: parked from playbook history; still Accenture redirect.
 - Run 6: parked from playbook history; still Accenture redirect.
 - Run 5: parked from playbook history; still Accenture redirect.
 - Run 4: parked from playbook history; still Accenture redirect.
@@ -675,6 +683,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- Run 7: parked from playbook history; no route.
 - Run 6: parked from playbook history; no route.
 - Run 5: parked from playbook history; no route.
 - Run 4: parked from playbook history; no route.
