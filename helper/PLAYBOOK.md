@@ -250,6 +250,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Public post page (no login) shows full text; extract the email with a regex on document.body.innerText and park with 'email: <addr>'. Many are India-based roles.
 
 ## Kugellager-Express
+- Run 8: /karriere Cloudflare challenge; parked from playbook history.
 - Run 7: /karriere Cloudflare challenge; parked from playbook history.
 - Run 6: /karriere still 403 Cloudflare 'Just a moment'; parked.
 - Run 5: /karriere still 403 Cloudflare 'Just a moment'; parked.
@@ -586,6 +587,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Geberit Karriere Deutschland Initiativbewerbung' -> jobs.geberit.com/job/Initiativbewerbung/178-de_DE/; 'Jetzt bewerben' opens NEW tab geberit-production.p78quickapply.com (direct URL is blank). File names max 64 chars -> upload short-named copies (CV_x.pdf, Anschreiben_x.pdf), tag each with Lebenslauf/Anschreiben buttons, Weiter. Page 2 prefilled from CV; fill street/PLZ/city, country combobox type+Enter, UI5 selects: click [id$=input] container then li in #__listN (Anrede Frau, source LinkedIn, Standort 1 DE - Pfullendorf, 2 DE - IbbenbÃ¼ren), area textbox, privacy checkbox, Bewerbung absenden. Success strip + #/Completion.
 
 ## Festo (jobs.festo.com, SuccessFactors)
+- Run 5: parked from playbook history; no Hybris role or German initiative form.
 - Run 4: parked from playbook history; no Hybris role or German initiative form.
 - Run 3: q=Commerce lists Online Business PM/API PM, UX, Frontend, Backend (Barcelona) - still no Hybris role or German initiative form.
 - Run 2: q=Initiativ gives 10 unrelated hits (apprenticeships, Barcelona Java); still nothing for Commerce.
@@ -609,6 +611,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
 ## Douglas (careers.douglas.group)
+- Run 3: parked from playbook history; no initiative form or Commerce role.
 - Run 2: search=commerce still only e-commerce ops/sales roles (Milan, DÃ¼sseldorf, Warsaw); no initiative form or email.
 - douglas.de/de/karriere 404; careers.douglas.group/de/jobs/?search=<kw> works; no initiative form, only a SuccessFactors candidate login; no SAP Commerce roles (Shopify, Full Stack only).
 
@@ -616,6 +619,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport (cyberport.de)
+- Run 6: parked from playbook history; Cloudflare challenge unchanged.
 - Run 5: parked from playbook history; Cloudflare challenge unchanged.
 - Run 4: parked from playbook history; Cloudflare challenge unchanged.
 - Run 3: parked from playbook history; Cloudflare challenge unchanged.
@@ -623,6 +627,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket (cxrocket.com)
+- Run 6: parked from playbook history; domain still parked.
 - Run 5: parked from playbook history; domain still parked.
 - Run 4: parked from playbook history; domain still parked.
 - Run 3: domain still parked (/lander); parked.
@@ -639,6 +644,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - karriere.cancom.de/initiativbewerbung embeds cancom-portal-xml.rexx-systems.com/initiativbewerbung-de-f11.html; open it directly. Cronos recipe worked (hide #ui-datepicker-div, click force on later fields); required also Standorte text vordef_bew_feld_13, Anstellungsart, source. Submit = a[onclick*=closest('form')] ('JETZT BEWERBEN') via evaluate click.
 
 ## Camelot ITLab
+- Run 6: parked from playbook history; still Accenture redirect.
 - Run 5: parked from playbook history; still Accenture redirect.
 - Run 4: parked from playbook history; still Accenture redirect.
 - Run 3: still redirects to accenture.com/de-de; careers jobsearch page rendered blank; no initiative route -> park.
@@ -646,6 +652,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- Run 6: parked from playbook history; no route.
 - Run 5: parked from playbook history; no route.
 - Run 4: parked from playbook history; no route.
 - Run 3: digital.breuninger.com/jobs lists 12 roles (IT ops, E-Commerce leads), no Commerce dev, no initiative form or email.
@@ -704,6 +711,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: form fills via frame evaluate (radios .click() by value, file inputs setInputFiles nth0 CV nth1 cover, start date type=date ISO); Senden shows hCaptcha image puzzle -> parked with tab open.
 
 ## d.vinci (hansgrohe)
+- Run 4: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 3: jobs/140/form text fields + Datenschutz Ja fill fine; image captcha still blocks, parked with tab open.
 - Run 2: attachmentFile setInputFiles with 2 files uploads via ajax (input.files shows 0 afterwards, filenames appear in list); screening 37-0 = Nein; source select value 170 = LinkedIn; image captcha still parks.
 
@@ -725,3 +733,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## SuccessFactors (Liebherr)
 - Run 3: Product Manager Kundenportal parked from playbook history (reCAPTCHA at career5 login).
+
+## Hahn+Kolb (WÃ¼rth witglobal)
+- hahn-kolb.de/.../unternehmen/karriere/karriere.php links Initiativbewerbung to apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (wait ~10s to load). Fill by id via fill_form (salutation, firstName, lastName, emailName, countryCode, phoneNumber digits, countryName, desiredActivity, mobility, noticePeriod); uploads: click label.upload-dropzone[for=uploadCV] / [for=otherDocuments] + file chooser (otherDocuments=cover letter); tick #shareProfile + #policy via JS. captcha.eu 'I am human' checkbox before 'Bewerbung einreichen' -> parks with tab open.

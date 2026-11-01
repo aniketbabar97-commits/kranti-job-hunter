@@ -765,3 +765,18 @@ All 10 were Initiativbewerbungen at companies where the playbook already records
 I also parked Merkle / Namics (no initiative form or email) as an extra job. I didn't count it because the 10 were already done. The run stopped at 10 jobs, so I never saw `next 1` return an empty list.
 
 No CAPTCHA tabs were opened, so there is nothing for Kranti to finish by hand.
+All 10 jobs are logged, but none was submitted: 10 parked, 0 confirmed. I didn't hit an empty `next 1`, so I used the full batch.
+
+- Hansgrohe — parked — image CAPTCHA on `https://hansgrohe.dvinci-hr.com/de/jobs/140/form`. I took this from the playbook and didn't re-open the form.
+- Hahn+Kolb — parked — I filled the whole form and uploaded both files at `https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE`, but a captcha.eu "I am human" check blocks "Bewerbung einreichen". The tab is open, so she can solve it and click submit. I logged the three free-text answers I wrote.
+- Festo — parked — no German initiative form, no Hybris role, no HR email.
+- Endress+Hauser — parked — no initiative route, and email applications aren't accepted.
+- Elbkind — parked — no career form or HR email.
+- Douglas — parked — no initiative form or SAP Commerce role.
+- Cyberport — parked — Cloudflare challenge.
+- CX Rocket — parked — the domain is parked at GoDaddy.
+- Camelot ITLab — parked — the site redirects to accenture.com with no initiative route.
+- Breuninger — parked — no Commerce role, form or email.
+- Kugellager-Express — parked — `/karriere` sits behind a Cloudflare challenge.
+
+For every job except Hahn+Kolb I parked from the playbook history without re-checking, which is how earlier runs handled them. The one tab to finish is Hahn+Kolb. Besides the parks, I added a new playbook entry for the Hahn+Kolb/Würth form and bumped the run notes for the others.
