@@ -233,6 +233,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here ‚
 - LinkedIn link has no apply URL: jobs.cegeka.de/vacancy/?search=<kw> lists jobs; accept cookies, form is inline iframe #JobCenter (Anrede, DOB, name, email, phone, note, CV browse, 'Weiteres Dokument' type Sonstiges = cover letter, consent). Datepicker popup clears DOB if you click a day: type TT.MM.JJJJ then Tab. Success 'Vielen Dank f√ºr Ihre Bewerbung!'.
 
 ## LinkedIn recruiter posts
+- Maitsys post run 5: skipped re-check per playbook; still US-only, no email.
 - Vantage post run 5: skipped re-check per playbook; still no email.
 - Maitsys post run 4: skipped re-check per playbook; still US-only, no email.
 - Vantage post run 4: skipped re-check per playbook; still no email.
