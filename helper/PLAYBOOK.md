@@ -515,6 +515,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - melitta.de is Cloudflare-blocked; use melitta-group.com/de/karriere/melittajobportal. Workday search ?q=initiativ finds Initiativbewerbung R100164; /apply > Apply Manually is GUEST (no account, 5 steps). Pick country Germany FIRST (it wipes address fields), then fill; phone code auto +49; source LinkedIn (type+Enter); upload CV+cover in one chooser; questions: locations/fields checkboxes, termination text, talent-pool consent Yes, disability No; terms checkbox; Submit -> 'Congratulations'.
 
 ## Liebherr
+- Run 7: Initiativbewerbung parked from playbook history; unchanged.
 - Run 6: Initiativbewerbung parked from playbook history; unchanged.
 - Run 4: parked from playbook history without reopening site.
 - Run 3: /de-de/karriere/karriere-3364204 has no initiative link or mailto; park.
@@ -548,7 +549,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## Hugendubel (karriere.hugendubel.de, Prescreen-like portal)
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
-## Hilti (careers.hilti.group)
+## Hilti
+- Run 6: parked from playbook history; no initiative route. (careers.hilti.group)
 - Run 5: parked from playbook history; no initiative route.
 - Run 4: search Initiativbewerbung/Commerce still only unrelated SAP SD/sales roles; no initiative route.
 - Run 3: parked from playbook history without reopening site.
@@ -641,6 +643,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 6: parked from playbook history; initiative posting still gone.
 - Run 5: parked from playbook history; initiative posting still gone.
 - Run 4: parked from playbook history; initiative posting still gone.
 - Run 3: /job/42719 now 404 (errorpage); no initiative route -> park.
