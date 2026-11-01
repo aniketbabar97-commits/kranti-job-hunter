@@ -373,6 +373,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - wmf.com is only the shop; careers at aboutwmf.com/de/karriere/ -> groupeseb.taleo.net jobsearch; no initiative form, contact karriere@groupeseb.com
 
 ## Westernacher
+- Run 7: parked from playbook history; Lever General application hCaptcha unchanged.
 - Run 6: parked from playbook history; Lever General application hCaptcha unchanged.
 - Run 5: parked from playbook history without refilling; Lever General application hCaptcha unchanged.
 - Run 4: still no Commerce/Hybris role; only the Lever General application (hCaptcha) - parked without refilling.
@@ -384,6 +385,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Initiative form at /de/jobboard/bewerben-sie-sich-initiativ-de-f3213.html, inline; fill by name bewerbung_form[...] via JS; Einsatzort select required; uploads via JS input.click()+file chooser (anschreiben, lebenslauf); click 'Senden' link; title 'Bewerbung abgeschlossen'
 
 ## Wacker
+- Run 7: parked from playbook history; still no initiative form or email.
 - Run 6: parked from playbook history; still no initiative form or email.
 - Run 5: parked from playbook history; still no initiative form or email.
 - Run 4: jobs.wacker.com/search/?q=Initiativ still 'No jobs found'.
@@ -395,6 +397,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Initiativbewerbung link goes to career.wuerth.com (dead); jobs now on career5.successfactors.eu wrthitinteP2 -> career.witglobal.net/search?q=<kw>; Commerce search only Italy/India
 
 ## Vorwerk
+- Run 7: parked from playbook history; Commerce search 0 hits, no initiative form.
 - Run 6: parked from playbook history; Commerce search 0 hits, no initiative form.
 - Run 5: parked from playbook history; Commerce search 0 hits, no initiative form.
 - Run 4: jobs.vorwerkgroup.com search Commerce still 0 hits.
@@ -403,6 +406,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - vorwerk.com -> Karriere -> career-vorwerkgroups.com -> jobs.vorwerkgroup.com (SuccessFactors, search?q=<kw>&locale=de_DE); 'Commerce' = 0 hits, 'SAP' only unrelated fuzzy hits; no initiative form
 
 ## Villeroy & Boch (Workday)
+- Run 7: parked from playbook history; unchanged.
 - Run 6: parked from playbook history; unchanged.
 - Run 5: parked from playbook history; unchanged.
 - Run 4: q=Initiativ unchanged, only Treuchtlingen-bound JR_3111.
@@ -417,6 +421,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - careers at /unternehmen/karriere/, jobs apply via greven-twt-gruppe.jobs.personio.de; only 2 non-dev postings, no initiative form; HR address on job page
 
 ## TRUMPF (Workday)
+- Run 7: parked from playbook history; no initiative or Commerce posting.
 - Run 6: parked from playbook history; no initiative or Commerce posting.
 - Run 5: parked from playbook history; no initiative or Commerce posting.
 - Run 4: q=Commerce gives only unrelated sales/legal/intern roles; no initiative posting.
@@ -428,6 +433,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - thalia.de/karriere is 404; jobs at jobs.thalia.de (talents-connect), IT list at /it-digitalisierung; ?q= search param is ignored; no initiative form
 
 ## team neusta
+- Run 6: parked from playbook history; no initiative form.
 - Run 5: parked from playbook history; no initiative form.
 - Run 4: offene-stellen unchanged (SAP Finance, DXP, fullstack); no initiative form.
 - Run 3: offene-stellen unchanged (SAP Finance, DXP, fullstack roles); no initiative form or HR email.
@@ -444,6 +450,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - corporate.stihl.de initiativbewerbung page -> Jetzt initiativ bewerben (jobId=53380 Waiblingen). Apply -> Create account (privacy dialog link #dataPrivacyId, then Accept button). Profile page: click Upload a Resume / Attach a Cover Letter then setInputFiles on the file input. Job-Specific section: source=Job Posting, Detail=Job Posting: LinkedIn, previously employed=No; address and phone via pressSequentially. Success: Thank you for applying to STIHL.
 
 ## SQLI
+- Run 7: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
 - Run 6: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
 - Run 5: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
 - Run 4: parked from playbook history without refilling; reCAPTCHA v2 unchanged.
@@ -463,6 +470,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - jobs at salzgitter-ag.com/de/jobs-karriere/stellenangebote.html (SuccessFactors gesisgesel); no initiative form, no SAP Commerce roles (only SAP SD / FI-CO inhouse).
 
 ## Rittal / Friedhelm Loh
+- Run 6: parked from playbook history; no Commerce or initiative posting.
 - Run 5: parked from playbook history; no Commerce or initiative posting.
 - Run 4: 97 jobs, ?q ignored; no Commerce or initiative posting visible.
 - Run 3: 97 jobs listed, ?q= ignored; still only SAP PLM/SD/dev roles, no Commerce or initiative.
@@ -473,6 +481,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - q-perior.com redirects to wavestone.com; jobs on germany-career.wavestone.com (softgarden), no initiative form, only SAP S/4/Finance/Security roles; contact recruiting@wavestone.com.
 
 ## Q CELLS
+- Run 6: parked from playbook history; no initiative route or email.
 - Run 5: parked from playbook history; no initiative route or email.
 - Run 4: /1/ueber-uns/jobs unchanged; no initiative route or email.
 - Run 3: /1/ueber-uns/jobs unchanged; no initiative route or email.
@@ -496,6 +505,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics
+- Run 6: parked from playbook history; no initiative form or email.
 - Run 5: parked from playbook history; no initiative form or email.
 - Run 4: jobs.html has no initiative/general-application link or email. (merkle.com)
 - Run 3: not re-verified in browser beyond loading jobs.html; playbook shows no initiative route, parked.

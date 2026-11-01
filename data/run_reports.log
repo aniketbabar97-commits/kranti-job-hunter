@@ -747,3 +747,21 @@ No jobs were opened or logged, no browser tabs were created, and there are no op
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 459 of 718 lines of `helper/PLAYBOOK.md`. I didn't read the rest, since there was no job to use it on.
 
 If you expected jobs to be queued, check whether the queue was already emptied by earlier runs. The recent commits show nightly batches 1–4.
+All 10 jobs are done and every one is parked. I didn't open the browser or submit any applications.
+
+All 10 were Initiativbewerbungen at companies where the playbook already records the same blocker (a CAPTCHA, no initiative form, or no matching posting). I judged a re-check not worth it and parked them from that history. I also added one "Run N" line to each company's playbook section.
+
+- Westernacher — parked — Lever hCaptcha (`jobs.eu.lever.co/westernacher`)
+- Wacker — parked — no initiative form or email
+- Vorwerk — parked — 0 Commerce hits, no initiative form
+- Villeroy & Boch — parked — the only initiative posting is for a specific site (Treuchtlingen)
+- TRUMPF — parked — no initiative or Commerce posting
+- team neusta — parked — no initiative form or HR email
+- SQLI — parked — reCAPTCHA v2 (`https://www.sqli.com/int-en/spontaneous-application`)
+- Salzgitter — parked — no Commerce roles or initiative link
+- Rittal — parked — no Commerce or initiative posting
+- Q CELLS — parked — no initiative route or email
+
+I also parked Merkle / Namics (no initiative form or email) as an extra job. I didn't count it because the 10 were already done. The run stopped at 10 jobs, so I never saw `next 1` return an empty list.
+
+No CAPTCHA tabs were opened, so there is nothing for Kranti to finish by hand.
