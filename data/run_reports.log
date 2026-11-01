@@ -740,3 +740,10 @@ I read the first 459 of 718 lines of `helper/PLAYBOOK.md` and skipped the rest, 
 `next 1` returned an empty list, so there are no jobs in the queue. Per the instructions I'm stopping early, and I applied to 0 of the 10 jobs.
 
 No applications were submitted and nothing was logged or parked. I read the playbook only as far as line 459 of 718, but that doesn't matter here because no job was started.
+`next 1` returned an empty list (`[]`), so there were no jobs to apply to. I stopped at the first call, as you instructed, and applied to 0 of the 10.
+
+No jobs were opened or logged, no browser tabs were created, and there are no open CAPTCHA tabs.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 459 of 718 lines of `helper/PLAYBOOK.md`. I didn't read the rest, since there was no job to use it on.
+
+If you expected jobs to be queued, check whether the queue was already emptied by earlier runs. The recent commits show nightly batches 1–4.
