@@ -824,3 +824,6 @@ I didn't apply to any jobs. `python -m helper.claude_jobs next 1` returned an em
 I read `helper/CLAUDE_CODE_APPLY.md`, and the first 465 of 753 lines of `helper/PLAYBOOK.md`. I skipped the rest of the playbook because there was nothing to apply to.
 
 The 10-job batch is therefore 0 of 10 done.
+I applied to no jobs. The first `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so I stopped there, as the instructions say.
+
+I read `helper/PLAYBOOK.md` only up to line 465 of 753 and skipped the rest, since there was no job to look up. I didn't open the browser, log anything or add any playbook notes.
