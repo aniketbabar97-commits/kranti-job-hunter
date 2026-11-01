@@ -9,7 +9,7 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/14005-44399132-824-S",
-  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA (per playbook, not retried); https://www.liebherr.com/de-de/j/karriere/offene-stellen"
+  "note": "captcha – Liebherr SuccessFactors login has reCAPTCHA checkbox (per playbook)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/18088-k60163.1086-S",
@@ -41,39 +41,39 @@
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003753942-S",
-  "note": "cloudflare challenge – https://www.kugellager-express.de/karriere"
+  "note": "captcha – https://www.kugellager-express.de/karriere (Cloudflare 403 challenge)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=e2c62136d72810e0",
-  "note": "captcha – Markant portal applicationform_privacy has reCAPTCHA; https://jobs.markant.com/"
+  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA gate (per playbook)"
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4459647609",
-  "note": "job open; Recruitee form ends in hCaptcha (per playbook), form NOT filled this run – https://abriogmbh.recruitee.com/o/senior-e-commerce-consultant-mwd/c/new"
+  "note": "captcha – abriogmbh.recruitee.com hCaptcha puzzle at Senden (per playbook)"
  },
  {
   "link": "https://www.linkedin.com/jobs/view/4477870309",
-  "note": "CGI njoyn: job not on first list page (3056 global results), registration chain unresolved per playbook; not applied – https://cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4"
+  "note": "CGI njoyn: registration/session chain unresolved per playbook (SessionExpired); not found in unfiltered job list (2963 entries)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=451afb600bf9e95d",
-  "note": "captcha – Markant portal privacy page has reCAPTCHA before form (per playbook, not refilled); https://jobs.markant.com/"
+  "note": "captcha – jobs.markant.com apply privacy page has reCAPTCHA gate (per playbook)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=bed693216eda8783",
-  "note": "Indeed viewjob Cloudflare 403, no employer apply route found"
+  "note": "Indeed viewjob Cloudflare 403; no employer apply route (per playbook)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1205622575-S",
-  "note": "no employer site/apply route or email found (per playbook, not re-checked)"
+  "note": "no apply route: no employer site/email found (Arbeitsagentur captcha, aggregator Cloudflare) per playbook"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207111418-S",
-  "note": "no careers page or apply route on fahmoda.de (per playbook, not re-checked)"
+  "note": "no careers page or application email on fahmoda.de (per playbook)"
  },
  {
   "link": "https://de.indeed.com/viewjob?jk=12e4856518e0f67d",
-  "note": "karriere page CloudFront 403 (blocked in automated browser); no application email found"
+  "note": "ernstings-family.com/karriere CloudFront 403 in automated browser (per playbook)"
  },
  {
   "link": "https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207989058-S",
@@ -89,7 +89,7 @@
  },
  {
   "link": "https://www.linkedin.com/posts/vantage-retail-media_hiring-nowhiring-techjobs-activity-7515491726791442432-6F8s",
-  "note": "LinkedIn recruiter post, no application email (per playbook history)"
+  "note": "linkedin post, no email, Toronto-based, only linkedin jobs link (per playbook)"
  },
  {
   "link": "https://www.linkedin.com/posts/peter-ceredig-evans-2bb88569_were-looking-for-a-senior-engineer-to-join-activity-7515581828846555136-I7-3",
@@ -97,7 +97,7 @@
  },
  {
   "link": "https://www.linkedin.com/posts/maitsys_hiring-activity-7515371185526730753-Axz-",
-  "note": "US-only role, no application email (per playbook history)"
+  "note": "skipped re-check per playbook; US-only, no email"
  },
  {
   "link": "https://www.wmf.com/#initiativbewerbung",
@@ -105,11 +105,11 @@
  },
  {
   "link": "https://www.westernacher.com/#initiativbewerbung",
-  "note": "captcha – https://jobs.eu.lever.co/westernacher/ca1a08cc-bdc4-4165-8723-5d0af943cc2c/apply (Lever general application, hCaptcha on submit; not refilled this run)"
+  "note": "captcha – https://jobs.eu.lever.co/westernacher (General application, hCaptcha); no initiative form on westernacher.com"
  },
  {
   "link": "https://www.wacker.com/#initiativbewerbung",
-  "note": "no initiative form or posting; no HR email found"
+  "note": "no initiative form or email; jobs.wacker.com search returns no jobs"
  },
  {
   "link": "https://www.wuerth.de/#initiativbewerbung",
@@ -117,11 +117,11 @@
  },
  {
   "link": "https://www.vorwerk.com/#initiativbewerbung",
-  "note": "no initiative form; jobs.vorwerkgroup.com search Commerce 0 hits; no HR email found"
+  "note": "no initiative form; jobs.vorwerkgroup.com Commerce search 0 hits"
  },
  {
   "link": "https://www.villeroy-boch.de/#initiativbewerbung",
-  "note": "only initiative posting is site-bound (Treuchtlingen JR_3111); no Commerce role; no HR email found"
+  "note": "only initiative posting is site-bound (Treuchtlingen JR_3111); no fitting Commerce posting"
  },
  {
   "link": "https://www.twt.de/#initiativbewerbung",
@@ -129,7 +129,7 @@
  },
  {
   "link": "https://www.trumpf.com/#initiativbewerbung",
-  "note": "no initiative posting or Commerce role on Trumpf Workday; no HR email found"
+  "note": "no initiative posting for IT/Commerce on trumpf Workday; no email found"
  },
  {
   "link": "https://www.thalia.de/#initiativbewerbung",
@@ -137,7 +137,7 @@
  },
  {
   "link": "https://www.team-neusta.de/#initiativbewerbung",
-  "note": "no initiative form; open roles SAP Finance/DXP (Liferay etc.), no Commerce; no HR email"
+  "note": "no initiative form; no HR email on site; only SAP Finance/DXP roles"
  },
  {
   "link": "https://www.tchibo.de/#initiativbewerbung",
@@ -145,15 +145,15 @@
  },
  {
   "link": "https://www.sqli.com/#initiativbewerbung",
-  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2; not refilled this run)"
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2)"
  },
  {
   "link": "https://www.salzgitter-ag.com/#initiativbewerbung",
-  "note": "no Commerce role; only student/intern initiative link; no HR email found"
+  "note": "no initiative link or email; only SAP SD/FI-CO inhouse roles"
  },
  {
   "link": "https://www.rittal.com/#initiativbewerbung",
-  "note": "no Commerce/Hybris role or initiative form on career.friedhelm-loh-group.com (97 jobs, ?q ignored); no HR email found"
+  "note": "no initiative form or Commerce posting on career.friedhelm-loh-group.com; no email"
  },
  {
   "link": "https://www.q-perior.com/#initiativbewerbung",
@@ -161,7 +161,7 @@
  },
  {
   "link": "https://www.q-cells.de/#initiativbewerbung",
-  "note": "no initiative route; jobs page lists Leiter IT + solar roles; no HR email found"
+  "note": "no initiative route or email on q-cells.de/1/ueber-uns/jobs"
  },
  {
   "link": "https://www.phoenixcontact.com/#initiativbewerbung",
@@ -173,7 +173,7 @@
  },
  {
   "link": "https://www.merkle.com/#initiativbewerbung",
-  "note": "no initiative form or talent-pool link on merkle.com/en/careers/jobs.html; no HR email found"
+  "note": "no initiative form, no Commerce posting, no HR email on merkle.com careers"
  },
  {
   "link": "https://www.miele.de/#initiativbewerbung",
@@ -192,20 +192,16 @@
   "note": "no initiative form, no SAP Commerce posting on career.kps.com (Teamtailor); email: info@kps.com → email route"
  },
  {
-  "link": "https://www.hilti.de/#initiativbewerbung",
-  "note": "no initiative form, no Hybris/SAP Commerce posting on careers.hilti.group; no email found"
- },
- {
   "link": "https://www.hansgrohe.de/#initiativbewerbung",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, per playbook)"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form"
  },
  {
   "link": "https://www.hahn-kolb.de/#initiativbewerbung",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu)"
+  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu per playbook)"
  },
  {
   "link": "https://www.festo.com/#initiativbewerbung",
-  "note": "no German initiative form or Commerce posting on jobs.festo.com; no HR email (per playbook)"
+  "note": "no initiative form or fitting Commerce/Hybris posting on jobs.festo.com; no HR email found"
  },
  {
   "link": "https://www.faktor-e.de/#initiativbewerbung",
@@ -217,38 +213,34 @@
  },
  {
   "link": "https://www.endress.com/#initiativbewerbung",
-  "note": "no initiative form, no SAP Commerce role on careers.endress.com; email applications not accepted (per playbook)"
+  "note": "no initiative route or Commerce role per playbook; email applications not accepted"
  },
  {
   "link": "https://www.elbkind.de/#initiativbewerbung",
-  "note": "no career page, form or HR email found (per playbook)"
+  "note": "no career page, initiative form or HR email per playbook"
  },
  {
   "link": "https://www.douglas.de/#initiativbewerbung",
-  "note": "no initiative form or SAP Commerce role on careers.douglas.group; no email (per playbook)"
+  "note": "no initiative form, no SAP Commerce role, no HR email per playbook"
  },
  {
   "link": "https://www.cyberport.de/#initiativbewerbung",
-  "note": "captcha – Cloudflare security verification on cyberport.de (per playbook)"
+  "note": "captcha – Cloudflare challenge on cyberport.de, per playbook"
  },
  {
   "link": "https://www.cxrocket.com/#initiativbewerbung",
-  "note": "domain is a parked GoDaddy lander, no site/form/email"
+  "note": "domain parked at GoDaddy per playbook; no application route"
  },
  {
   "link": "https://www.camelot-itlab.com/#initiativbewerbung",
-  "note": "redirects to accenture.com/de-de; no initiative route or SAP Commerce posting (per playbook)"
+  "note": "redirects to accenture.com; no initiative route or email per playbook"
  },
  {
   "link": "https://www.breuninger.com/#initiativbewerbung",
-  "note": "no Commerce role, no initiative form or email on digital.breuninger.com/jobs (per playbook)"
+  "note": "no Commerce role, initiative form or HR email per playbook"
  },
  {
   "link": "https://www.bechtle.com/#initiativbewerbung",
   "note": "no initiative route: jobs.bechtle.com initiative posting 404 per playbook; portal-only, no email"
- },
- {
-  "link": "https://www.bbraun.de/#initiativbewerbung",
-  "note": "no initiative form; jobs.bbraun.com q=Commerce 0 hits"
  }
 ]
