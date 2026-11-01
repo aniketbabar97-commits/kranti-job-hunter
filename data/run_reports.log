@@ -625,3 +625,8 @@ Each job is logged with `done`, and each also has a `learn` line in the PLAYBOOK
 - Maitsys (LinkedIn recruiter post): parked. Earlier runs in the playbook show it is a US-only role with no application email. I skipped re-opening it, as the playbook advises, and added a "run 5" line to the playbook.
 
 There are no CAPTCHA tabs left open.
+I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there, as the instructions say.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 449 lines of `helper/PLAYBOOK.md`, which is the part the file viewer showed. I didn't read the remaining ~230 lines because there was no job to apply to. I also loaded Kranti's facts, but nothing was opened in the browser, logged or committed.
+
+Nothing is left in the queue. If you expected more jobs, they may need to be added or un-parked in `helper/claude_jobs.py`'s data. That file already has uncommitted changes in git status.
