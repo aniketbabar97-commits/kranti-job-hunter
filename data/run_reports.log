@@ -830,3 +830,6 @@ I read `helper/PLAYBOOK.md` only up to line 465 of 753 and skipped the rest, sin
 `next 1` returned an empty list on the first call, so there were no jobs to apply to. I stopped as instructed.
 
 Applied: 0 of 10. Nothing was submitted or logged, and I opened no browser tabs, so there are no open CAPTCHA tabs to finish.
+I applied to 0 jobs. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there, as the instructions say.
+
+I read `CLAUDE_CODE_APPLY.md` and the first 465 of 753 lines of `PLAYBOOK.md`. I didn't read the rest because there was no job to apply to. I opened no browser tabs, logged no jobs, and wrote no playbook lessons.
