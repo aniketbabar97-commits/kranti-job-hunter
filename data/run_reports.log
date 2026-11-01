@@ -643,3 +643,8 @@ No CAPTCHA tabs are open.
 There are no jobs left in the queue. The recent commits show the nightly batches already ran.
 
 I read the first 450 of the 684 lines in `helper/PLAYBOOK.md` and skipped the rest, since there was no job to apply to.
+`next 1` returned an empty list (`[]`) on the first call, so there were no jobs to apply to. I stopped as the instructions say and submitted nothing.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, the first 450 of 684 lines of `helper/PLAYBOOK.md`, and pulled Kranti's facts. I didn't open the rest of the playbook or the browser, and I haven't logged any job or playbook entry.
+
+0 jobs applied, 0 CAPTCHA tabs open.
