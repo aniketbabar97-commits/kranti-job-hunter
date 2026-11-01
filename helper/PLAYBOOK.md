@@ -491,6 +491,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - melitta.de is Cloudflare-blocked; use melitta-group.com/de/karriere/melittajobportal. Workday search ?q=initiativ finds Initiativbewerbung R100164; /apply > Apply Manually is GUEST (no account, 5 steps). Pick country Germany FIRST (it wipes address fields), then fill; phone code auto +49; source LinkedIn (type+Enter); upload CV+cover in one chooser; questions: locations/fields checkboxes, termination text, talent-pool consent Yes, disability No; terms checkbox; Submit -> 'Congratulations'.
 
 ## Liebherr
+- Run 6: Initiativbewerbung parked from playbook history; unchanged.
 - Run 4: parked from playbook history without reopening site.
 - Run 3: /de-de/karriere/karriere-3364204 has no initiative link or mailto; park.
 - liebherr.com/de-de/karriere has no Initiativbewerbung link in snapshot; guessed initiative URLs 404; park.
@@ -524,6 +525,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti (careers.hilti.group)
+- Run 5: parked from playbook history; no initiative route.
 - Run 4: search Initiativbewerbung/Commerce still only unrelated SAP SD/sales roles; no initiative route.
 - Run 3: parked from playbook history without reopening site.
 - Run 2: search Initiativ/Commerce still only sales/unrelated roles; no initiative form or email.
@@ -609,6 +611,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 5: parked from playbook history; initiative posting still gone.
 - Run 4: parked from playbook history; initiative posting still gone.
 - Run 3: /job/42719 now 404 (errorpage); no initiative route -> park.
 - Run 2: jobs.bechtle.com search page renders empty (no results) and /job/42719 404s; could not reach the initiative posting. (SAP p78 QuickApply)
@@ -618,6 +621,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - babiel.com now conet.de; /de/karriere/initiativbewerbung/ form (TYPO3): fields by id _Vorname,_Name,_Strasse,_Plz,_Ort,_Land,_Mobil,_Email,_Geburtsdatum(date ISO),_Nationality,_Eintrittsdatum(date ISO),_Gehaltsvorstellung,_Suchweg,_Bemerkungen; accept cookies first; upload via role=button Lebenslauf/Anschreiben/Zeugnisse(=cover letter) + file chooser; consents via JS; FriendlyCaptcha self-solves after clicking 'Hier klicken'; success page /bestaetigung/ 'Vielen Dank fuer deine Bewerbung'.
 
 ## B. Braun
+- Run 4: parked from playbook history; unchanged.
 - Run 3: jobs.bbraun.com q=Commerce still 0 hits; no initiative form.
 - Run 3: unchanged - only 'Initiativbewerbung Ã–sterreich', Commerce 0 hits.
 - Run 2: jobs.bbraun.com q=Initiativbewerbung still only 'Initiativbewerbung Ã–sterreich'. (jobs.bbraun.com, SuccessFactors)

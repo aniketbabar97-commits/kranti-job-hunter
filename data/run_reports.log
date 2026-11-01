@@ -630,3 +630,11 @@ I applied to 0 of the 10 jobs. `python -m helper.claude_jobs next 1` returned an
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 449 lines of `helper/PLAYBOOK.md`, which is the part the file viewer showed. I didn't read the remaining ~230 lines because there was no job to apply to. I also loaded Kranti's facts, but nothing was opened in the browser, logged or committed.
 
 Nothing is left in the queue. If you expected more jobs, they may need to be added or un-parked in `helper/claude_jobs.py`'s data. That file already has uncommitted changes in git status.
+The queue is empty, so I stopped after 4 of the 10 jobs. All 4 were Initiativbewerbungen at big-company career sites. I parked each one from the playbook history without reopening the sites, so no applications were sent.
+
+- Liebherr — parked — its career site sits behind a reCAPTCHA gate, and it has no initiative form or email.
+- Hilti — parked — no initiative form or Hybris posting in the last runs.
+- Bechtle — parked — the initiative posting is gone.
+- B. Braun — parked — the only initiative posting is for Austria, and a search for Commerce roles finds none.
+
+No CAPTCHA tabs are open.
