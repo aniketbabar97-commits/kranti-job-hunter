@@ -975,3 +975,6 @@ No jobs were applied to, logged or parked, and I opened no browser tabs.
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 475 of 805 lines of `helper/PLAYBOOK.md`. I skipped the rest of the playbook because it only matters when there's a job to work on. I also loaded Kranti's data with `facts`, but didn't use it.
 
 The queue may be empty because the earlier nightly batches already processed everything. Nothing is logged, so there are no `done` or `learn` entries and no open CAPTCHA tabs.
+`python -m helper.claude_jobs next 1` returned an empty list (`[]`), so no jobs are queued. I stopped as the instructions say and applied to 0 of the 10.
+
+I read `CLAUDE_CODE_APPLY.md`, the first 475 of the 805 lines of `PLAYBOOK.md`, and ran `facts`. I didn't read the rest of the playbook because there was no job to apply to. I didn't open the browser, log anything, or add playbook lessons. There are no open CAPTCHA tabs.
