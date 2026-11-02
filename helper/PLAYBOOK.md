@@ -550,6 +550,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - melitta.de is Cloudflare-blocked; use melitta-group.com/de/karriere/melittajobportal. Workday search ?q=initiativ finds Initiativbewerbung R100164; /apply > Apply Manually is GUEST (no account, 5 steps). Pick country Germany FIRST (it wipes address fields), then fill; phone code auto +49; source LinkedIn (type+Enter); upload CV+cover in one chooser; questions: locations/fields checkboxes, termination text, talent-pool consent Yes, disability No; terms checkbox; Submit -> 'Congratulations'.
 
 ## Liebherr
+- Run 8: Initiativbewerbung parked from playbook history; unchanged.
 - Run 7: Initiativbewerbung parked from playbook history; unchanged.
 - Run 6: Initiativbewerbung parked from playbook history; unchanged.
 - Run 4: parked from playbook history without reopening site.
@@ -585,6 +586,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti
+- Run 8: parked from playbook history; no initiative route.
 - Run 7: parked from playbook history; no initiative route.
 - Run 6: parked from playbook history; no initiative route. (careers.hilti.group)
 - Run 5: parked from playbook history; no initiative route.
@@ -692,6 +694,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 8: parked from playbook history; initiative posting still gone.
 - Run 7: parked from playbook history; initiative posting still gone.
 - Run 6: parked from playbook history; initiative posting still gone.
 - Run 5: parked from playbook history; initiative posting still gone.

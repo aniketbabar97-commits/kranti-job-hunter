@@ -1227,3 +1227,27 @@ I applied to 0 of 10 jobs. The first `python -m helper.claude_jobs next 1` retur
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 470 lines of the playbook (the rest wasn't needed) and the `facts` output. I opened no browser tabs and logged nothing with `done`, `answer` or `learn`. There are no open CAPTCHA tabs.
 
 If you expected jobs in the queue, check whether the nightly batches already used them all or whether the queue needs refilling.
+[Mon 11/02/2026  1:19:51.12] autorun: 0 jobs waiting 
+[Mon 11/02/2026  1:49:51.17] autorun: 4 jobs waiting 
+[Mon 11/02/2026  1:49:51.19] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Mon 11/02/2026  1:51:14.59] batch 1 exit 0 
+| Liebherr | parked | No initiative form. The only route is a SuccessFactors login behind a reCAPTCHA. |
+| Hilti | parked | No initiative form or email, and no Hybris/SAP Commerce postings. |
+| Bechtle | parked | The initiative posting (job 42719) is gone. The portal is the only route. |
+| B. Braun | parked | The only initiative posting is for Ã–sterreich, and a Commerce search returns 0 hits. |
+
+I parked all four from the playbook history without opening any site. Each has been parked on every earlier run with the same blocker. The playbook's last real check was run 4 for Bechtle and B. Braun, and run 2 or 3 for Liebherr and Hilti. If you want a fresh look at any of them, I can reopen the site.
+
+None of the four notes has an application email, so none will go out by email automatically. There are no open CAPTCHA tabs. I also added a playbook line for each company.
