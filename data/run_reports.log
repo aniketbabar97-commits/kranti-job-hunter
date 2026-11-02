@@ -895,3 +895,8 @@ The queue is empty, so I'm stopping after 4 jobs instead of 10, as instructed.
 I parked all four from the playbook history without opening any site. Each has been parked on every earlier run with the same blocker. The playbook's last real check was run 4 for Bechtle and B. Braun, and run 2 or 3 for Liebherr and Hilti. If you want a fresh look at any of them, I can reopen the site.
 
 None of the four notes has an application email, so none will go out by email automatically. There are no open CAPTCHA tabs. I also added a playbook line for each company.
+I applied to no jobs, because `python -m helper.claude_jobs next 1` returned an empty list (`[]`) on the first call. Your instructions say to stop early in that case, so I stopped before opening the browser or logging anything.
+
+I read `CLAUDE_CODE_APPLY.md`, the first 470 lines of `PLAYBOOK.md` (of 775) and her facts. I didn't read the rest of the playbook because no job needed it.
+
+New jobs have to be queued before another run. The recent commits ("Claude applier: nightly batch 1" and "parked list") suggest the earlier batches already took everything that was queued.
