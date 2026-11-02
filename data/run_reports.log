@@ -978,3 +978,6 @@ The queue may be empty because the earlier nightly batches already processed eve
 `python -m helper.claude_jobs next 1` returned an empty list (`[]`), so no jobs are queued. I stopped as the instructions say and applied to 0 of the 10.
 
 I read `CLAUDE_CODE_APPLY.md`, the first 475 of the 805 lines of `PLAYBOOK.md`, and ran `facts`. I didn't read the rest of the playbook because there was no job to apply to. I didn't open the browser, log anything, or add playbook lessons. There are no open CAPTCHA tabs.
+No applications were made. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there as instructed. I didn't log anything, and I didn't open any browser tabs or CAPTCHA tabs.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 475 of 805 lines of `helper/PLAYBOOK.md`. I skipped the rest because no job needed a system-specific section.
