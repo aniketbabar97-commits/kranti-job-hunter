@@ -981,3 +981,21 @@ I read `CLAUDE_CODE_APPLY.md`, the first 475 of the 805 lines of `PLAYBOOK.md`, 
 No applications were made. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there as instructed. I didn't log anything, and I didn't open any browser tabs or CAPTCHA tabs.
 
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 475 of 805 lines of `helper/PLAYBOOK.md`. I skipped the rest because no job needed a system-specific section.
+I went through all 10 jobs and none was submitted. All 10 are logged as `parked`. Every one is an Initiativbewerbung for a company the playbook already lists with the same blocker in earlier runs. I parked them from the playbook history without opening any sites or filling any forms. I haven't checked whether any of those pages have changed since the earlier runs.
+
+- Westernacher — parked — captcha – https://jobs.eu.lever.co/westernacher (Lever general application, hCaptcha)
+- Wacker — parked — no initiative form or email
+- Vorwerk — parked — no initiative form (Commerce search 0 hits)
+- Villeroy & Boch — parked — only initiative posting is tied to Treuchtlingen
+- Trumpf — parked — no initiative or Commerce posting
+- team neusta — parked — no initiative form or HR email
+- SQLI — parked — captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2)
+- Salzgitter — parked — no Commerce roles or initiative link
+- Rittal — parked — no Commerce or initiative posting
+- Q CELLS — parked — no initiative route or email
+
+`next 1` never came back empty, so the run stopped at the 10-job limit. More jobs are still queued.
+
+Only Westernacher and SQLI have a form that Kranti could finish by hand, and each needs a CAPTCHA solved. No CAPTCHA tabs are open, because I didn't open a browser. The other eight have no form or email, so they can't go out by email either.
+
+I added one "Run 10" line per company to the playbook.

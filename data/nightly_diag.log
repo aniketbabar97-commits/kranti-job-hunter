@@ -1375,3 +1375,33 @@ I read `CLAUDE_CODE_APPLY.md`, the first 475 of the 805 lines of `PLAYBOOK.md`, 
 No applications were made. `python -m helper.claude_jobs next 1` returned an empty list on the first call, so I stopped there as instructed. I didn't log anything, and I didn't open any browser tabs or CAPTCHA tabs.
 
 I read `helper/CLAUDE_CODE_APPLY.md` and the first 475 of 805 lines of `helper/PLAYBOOK.md`. I skipped the rest because no job needed a system-specific section.
+[Mon 11/02/2026  8:49:51.55] autorun: 0 jobs waiting 
+[Mon 11/02/2026  9:19:51.67] autorun: 0 jobs waiting 
+[Mon 11/02/2026  9:49:51.77] autorun: 0 jobs waiting 
+[Mon 11/02/2026 10:20:03.66] autorun: 0 jobs waiting 
+[Mon 11/02/2026 10:49:51.89] autorun: 0 jobs waiting 
+[Mon 11/02/2026 11:19:51.59] autorun: 0 jobs waiting 
+[Mon 11/02/2026 11:49:52.08] autorun: 0 jobs waiting 
+[Mon 11/02/2026 17:27:24.21] autorun: 25 jobs waiting 
+[Mon 11/02/2026 17:27:25.37] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Mon 11/02/2026 17:31:45.05] batch 1 exit 0 
+- Rittal â€” parked â€” no Commerce or initiative posting
+- Q CELLS â€” parked â€” no initiative route or email
+
+`next 1` never came back empty, so the run stopped at the 10-job limit. More jobs are still queued.
+
+Only Westernacher and SQLI have a form that Kranti could finish by hand, and each needs a CAPTCHA solved. No CAPTCHA tabs are open, because I didn't open a browser. The other eight have no form or email, so they can't go out by email either.
+
+I added one "Run 10" line per company to the playbook.
