@@ -1031,3 +1031,6 @@ Each job is logged with `done` and has a `learn` note in the playbook. No CAPTCH
 I read `CLAUDE_CODE_APPLY.md` and the first 480 of the 828 lines in `PLAYBOOK.md`, and I pulled `facts`. I didn't need the rest of the playbook because no job came back.
 
 Jobs applied: 0 of 10.
+`python -m helper.claude_jobs next 1` returned `[]` on the first call, so there are no jobs to apply to. I stopped there, as the instructions say, and applied to 0 of the 10 jobs.
+
+I read `helper/CLAUDE_CODE_APPLY.md`, the first 480 of 828 lines of `helper/PLAYBOOK.md`, and ran `facts`. Nothing was logged with `done`, `answer` or `learn`, and I opened no browser tabs, so there are no open CAPTCHA tabs.
