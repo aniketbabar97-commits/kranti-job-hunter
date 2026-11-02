@@ -970,3 +970,8 @@ None of these has an application email, so none will go out by email automatical
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 475 lines of `helper/PLAYBOOK.md`, and ran `facts`. I didn't read the other 330 lines of the playbook because there was no job to apply to.
 
 No jobs were applied to, logged or parked, and I opened no browser tabs.
+`next 1` returned an empty list, so there are no jobs to apply to and I stopped before the first one. I applied to 0 of the 10 and opened no browser tabs.
+
+I read `helper/CLAUDE_CODE_APPLY.md` and the first 475 of 805 lines of `helper/PLAYBOOK.md`. I skipped the rest of the playbook because it only matters when there's a job to work on. I also loaded Kranti's data with `facts`, but didn't use it.
+
+The queue may be empty because the earlier nightly batches already processed everything. Nothing is logged, so there are no `done` or `learn` entries and no open CAPTCHA tabs.
