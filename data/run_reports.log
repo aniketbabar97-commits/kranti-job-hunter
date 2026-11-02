@@ -948,3 +948,6 @@ There are no open CAPTCHA tabs to solve. The browser still has the tabs I opened
 `next 1` returned an empty list on the first call, so I stopped and applied to no jobs.
 
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 474 of 801 lines of `helper/PLAYBOOK.md`, and the `facts` output. I opened no browser tabs and logged nothing with `done`, `learn` or `answer`.
+`python -m helper.claude_jobs next 1` returned an empty list (`[]`), so there are no jobs to apply to. As instructed, I stopped at the first call, which means I applied to 0 of the 10 jobs.
+
+I didn't open the browser, log anything, or add to the playbook. I read only the first 474 of the playbook's 801 lines, because none of the rest is needed with an empty queue.
