@@ -1018,3 +1018,11 @@ I went through 10 jobs and none was submitted. All 10 are logged as `parked`, an
 The only job with a form URL I could put in the note is Hansgrohe, so that is the only one you could finish by hand. No application email turned up for any of them, so none will go out by email automatically.
 
 Every job also got a short `learn` entry in the playbook. No CAPTCHA tabs were opened, so there is nothing for you to solve.
+The queue is empty, so I stopped after 4 of the 10 jobs. None were submitted; all four were parked.
+
+- **Camelot ITLab** — parked. `camelot-itlab.com` redirects to accenture.com/de-de, and there is no initiative form or email.
+- **Breuninger** — parked. The stellenangebote page has no Commerce, Hybris, SAP or Initiativ entry, and no email.
+- **Bechtle** — parked. The initiative posting `/job/42719` still returns 404, and there is no email.
+- **B. Braun** — parked. The `jobs.bbraun.com` search for "Commerce" shows no hits, and there is no initiative form or email.
+
+Each job is logged with `done` and has a `learn` note in the playbook. No CAPTCHA tabs were left open.

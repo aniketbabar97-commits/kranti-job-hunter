@@ -720,6 +720,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- Run 8: stellenangebote still has no Commerce/Hybris/SAP/Initiativ entry; parked.
 - breuninger.com footer -> e-breuninger.de/de/karriere/ (Alle akzeptieren) -> /stellenangebote/; list renders no Commerce/Hybris/SAP/Initiativ entries; karriere.breuninger.com does not resolve; parked.
 - Run 7: parked from playbook history; no route.
 - Run 6: parked from playbook history; no route.
@@ -730,6 +731,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 10: /job/42719 still 404; parked.
 - Run 9: parked from playbook history; initiative posting still gone.
 - Run 8: parked from playbook history; initiative posting still gone.
 - Run 7: parked from playbook history; initiative posting still gone.
@@ -744,6 +746,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - babiel.com now conet.de; /de/karriere/initiativbewerbung/ form (TYPO3): fields by id _Vorname,_Name,_Strasse,_Plz,_Ort,_Land,_Mobil,_Email,_Geburtsdatum(date ISO),_Nationality,_Eintrittsdatum(date ISO),_Gehaltsvorstellung,_Suchweg,_Bemerkungen; accept cookies first; upload via role=button Lebenslauf/Anschreiben/Zeugnisse(=cover letter) + file chooser; consents via JS; FriendlyCaptcha self-solves after clicking 'Hier klicken'; success page /bestaetigung/ 'Vielen Dank fuer deine Bewerbung'.
 
 ## B. Braun
+- Run 5: Commerce search still no hits; parked.
 - Run 4: parked from playbook history; unchanged.
 - Run 3: jobs.bbraun.com q=Commerce still 0 hits; no initiative form.
 - Run 3: unchanged - only 'Initiativbewerbung Ã–sterreich', Commerce 0 hits.
@@ -820,4 +823,5 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - elbkind.de is a one-page site with only Kontakt/legal links, no karriere page; reply.com/en/careers and /elbkind/de/careers 404; no route found.
 
 ## Camelot ITLab (Accenture)
+- Run 8: still redirects to accenture.com/de-de; parked.
 - camelot-itlab.com now redirects to accenture.com/de-de; /de-de/careers/jobsearch?jk=SAP%20Commerce shows 182 unfiltered results, no Commerce/Hybris role and no initiative form; parked.
