@@ -105,11 +105,11 @@
  },
  {
   "link": "https://www.westernacher.com/#initiativbewerbung",
-  "note": "captcha - Lever General application (jobs.eu.lever.co/westernacher) hCaptcha; no initiative form on site"
+  "note": "Lever General application hCaptcha unchanged per playbook; no email"
  },
  {
   "link": "https://www.wacker.com/#initiativbewerbung",
-  "note": "no initiative form or email on jobs.wacker.com (checked in earlier runs)"
+  "note": "no initiative form or email per playbook history"
  },
  {
   "link": "https://www.wuerth.de/#initiativbewerbung",
@@ -117,11 +117,11 @@
  },
  {
   "link": "https://www.vorwerk.com/#initiativbewerbung",
-  "note": "no initiative form; Commerce search 0 hits on jobs.vorwerkgroup.com (checked in earlier runs)"
+  "note": "Commerce search 0 hits, no initiative form per playbook history"
  },
  {
   "link": "https://www.villeroy-boch.de/#initiativbewerbung",
-  "note": "only initiative posting is site-bound (Treuchtlingen JR_3111); no Commerce posting; no email found"
+  "note": "only site-bound initiative posting (Treuchtlingen); no Commerce role per playbook history"
  },
  {
   "link": "https://www.twt.de/#initiativbewerbung",
@@ -129,7 +129,7 @@
  },
  {
   "link": "https://www.trumpf.com/#initiativbewerbung",
-  "note": "no initiative or Commerce posting on TRUMPF Workday (checked in earlier runs); no email found"
+  "note": "no initiative or Commerce posting per playbook history"
  },
  {
   "link": "https://www.thalia.de/#initiativbewerbung",
@@ -137,7 +137,7 @@
  },
  {
   "link": "https://www.team-neusta.de/#initiativbewerbung",
-  "note": "no initiative form; offene-stellen only SAP Finance/DXP roles; no HR email on site"
+  "note": "no initiative form or HR email per playbook history"
  },
  {
   "link": "https://www.tchibo.de/#initiativbewerbung",
@@ -145,15 +145,15 @@
  },
  {
   "link": "https://www.sqli.com/#initiativbewerbung",
-  "note": "captcha - https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2)"
+  "note": "captcha – https://www.sqli.com/int-en/spontaneous-application (reCAPTCHA v2 per playbook history)"
  },
  {
   "link": "https://www.salzgitter-ag.com/#initiativbewerbung",
-  "note": "no initiative form or email; no Commerce roles (checked in earlier runs)"
+  "note": "no Commerce roles or initiative link per playbook history"
  },
  {
   "link": "https://www.rittal.com/#initiativbewerbung",
-  "note": "no Commerce or initiative posting on career.friedhelm-loh-group.com (checked in earlier runs); no email found"
+  "note": "no Commerce or initiative posting per playbook history"
  },
  {
   "link": "https://www.q-perior.com/#initiativbewerbung",
@@ -161,7 +161,7 @@
  },
  {
   "link": "https://www.q-cells.de/#initiativbewerbung",
-  "note": "no initiative route or email on q-cells.de/1/ueber-uns/jobs (checked in earlier runs)"
+  "note": "no initiative route or email per playbook history"
  },
  {
   "link": "https://www.phoenixcontact.com/#initiativbewerbung",
@@ -170,10 +170,6 @@
  {
   "link": "https://www.netconomy.net/#initiativbewerbung",
   "note": "captcha – form fully filled, tab open: https://netconomy.recruitee.com/o/general-application/c/new ; email: office@netconomy.net → email route"
- },
- {
-  "link": "https://www.merkle.com/#initiativbewerbung",
-  "note": "no initiative form or email (per playbook history)"
  },
  {
   "link": "https://www.miele.de/#initiativbewerbung",
@@ -197,15 +193,15 @@
  },
  {
   "link": "https://www.hansgrohe.de/#initiativbewerbung",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (image captcha, per playbook)"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, parked from playbook history)"
  },
  {
   "link": "https://www.hahn-kolb.de/#initiativbewerbung",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu, per playbook)"
+  "note": "karriere page 403 Forbidden in automated browser; no form/email found"
  },
  {
   "link": "https://www.festo.com/#initiativbewerbung",
-  "note": "no Hybris role or German initiative form; no HR email (per playbook)"
+  "note": "no initiative form; jobs.festo.com search Commerce/Initiativ has no fitting posting; no HR email found"
  },
  {
   "link": "https://www.faktor-e.de/#initiativbewerbung",
@@ -217,31 +213,31 @@
  },
  {
   "link": "https://www.endress.com/#initiativbewerbung",
-  "note": "no initiative route, no SAP Commerce roles, email applications not accepted (per playbook)"
+  "note": "no initiative form; careers.endress.com q=Commerce 0 hits; no HR email found"
  },
  {
   "link": "https://www.elbkind.de/#initiativbewerbung",
-  "note": "no career page, initiative form or HR email (per playbook)"
+  "note": "elbkind.de homepage has no careers link or email (Elbkind Reply GmbH); reply.com careers URLs 404; no route found"
  },
  {
   "link": "https://www.douglas.de/#initiativbewerbung",
-  "note": "no initiative form or Commerce role; no HR email (per playbook)"
+  "note": "douglas.de 403 Access Denied in automated browser; douglas-group.com/de/karriere times out; no form/email found"
  },
  {
   "link": "https://www.cyberport.de/#initiativbewerbung",
-  "note": "Cloudflare challenge on site (per playbook); no route"
+  "note": "cyberport.de behind Cloudflare 'Just a moment' 403; jobs.cyberport.de 404; no form/email found"
  },
  {
   "link": "https://www.cxrocket.com/#initiativbewerbung",
-  "note": "domain parked, no careers route (per playbook)"
+  "note": "cxrocket.com is a parked GoDaddy domain; cx-rocket.com SSL error; no careers route or email"
  },
  {
   "link": "https://www.camelot-itlab.com/#initiativbewerbung",
-  "note": "site redirects to accenture.com, no initiative route (per playbook)"
+  "note": "camelot-itlab.com redirects to accenture.com/de-de (acquired); no SAP Commerce/Hybris posting found and no initiative option; no HR email"
  },
  {
   "link": "https://www.breuninger.com/#initiativbewerbung",
-  "note": "no Commerce role, initiative form or HR email (per playbook)"
+  "note": "e-breuninger.de/de/karriere/stellenangebote shows no initiative option and no SAP Commerce/Hybris posting; no HR email found"
  },
  {
   "link": "https://www.bechtle.com/#initiativbewerbung",
