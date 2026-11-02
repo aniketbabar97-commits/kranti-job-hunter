@@ -999,3 +999,22 @@ I went through all 10 jobs and none was submitted. All 10 are logged as `parked`
 Only Westernacher and SQLI have a form that Kranti could finish by hand, and each needs a CAPTCHA solved. No CAPTCHA tabs are open, because I didn't open a browser. The other eight have no form or email, so they can't go out by email either.
 
 I added one "Run 10" line per company to the playbook.
+I went through 10 jobs and none was submitted. All 10 are logged as `parked`, and `next 1` never returned an empty list. These were all Initiativbewerbungen for SAP Commerce, and the playbook already recorded a dead end for each company. I didn't open a browser or re-check any site, which is what the playbook history told me to do for these. If a site has changed since its last check, I'd have missed it.
+
+| Company | Status | Note |
+|---|---|---|
+| Namics / Merkle | parked | No initiative form or email. |
+| Liebherr | parked | SuccessFactors login is behind a reCAPTCHA. |
+| Hilti | parked | No initiative route. |
+| Hansgrohe | parked | d.vinci form ends in an image CAPTCHA. Form URL: `https://hansgrohe.dvinci-hr.com/de/jobs/140/form` |
+| Hahn+Kolb | parked | The `witglobal` apply page has a captcha.eu gate. |
+| Festo | parked | No initiative form and no Commerce posting. |
+| Endress+Hauser | parked | No initiative route; Commerce search returns nothing. |
+| Elbkind | parked | No career page, form or email. |
+| Douglas | parked | No initiative form or Commerce role; the site returns 403. |
+| Cyberport | parked | Cloudflare challenge on the site. |
+| CX Rocket | parked | The domain is a parked GoDaddy page, so there is no careers route. |
+
+The only job with a form URL I could put in the note is Hansgrohe, so that is the only one you could finish by hand. No application email turned up for any of them, so none will go out by email automatically.
+
+Every job also got a short `learn` entry in the playbook. No CAPTCHA tabs were opened, so there is nothing for you to solve.

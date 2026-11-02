@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 9: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 8: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 7: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 6: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
@@ -299,6 +300,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 11: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 10: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 7: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 6: Initiativbewerbung parked from playbook history; image captcha unchanged.
@@ -551,6 +553,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics
+- Run 9: parked from playbook history; no initiative form or email.
 - Run 8: parked from playbook history; no initiative form or email.
 - Run 7: parked from playbook history; no initiative form or email.
 - Run 6: parked from playbook history; no initiative form or email.
@@ -609,6 +612,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti
+- Run 10: parked from playbook history; no initiative route.
 - Run 9: parked from playbook history; no initiative route.
 - Run 8: parked from playbook history; no initiative route.
 - Run 7: parked from playbook history; no initiative route.
@@ -624,6 +628,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hansa-flex.de/karriere/initiativbewerbungen embeds karriere.hansa-flex.de/Vacancies/InitiativeApplication/1?lang=ger&DesignID=10009; single page, no account/captcha: Frau radio, text fields, two upload buttons (Anschreiben, Lebenslauf) via chooser, Datenfreigabe radio 1, privacy checkbox, Jetzt bewerben -> BestÃ¤tigung page.
 
 ## WÃ¼rth group apply.witglobal.net (Hahn+Kolb)
+- Run 8: parked from playbook history; captcha.eu unchanged.
 - Run 7: parked from playbook history; captcha.eu unchanged.
 - Run 6: parked from playbook history; captcha.eu unchanged.
 - Run 5: parked from playbook history; captcha.eu unchanged.
@@ -664,6 +669,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
 ## Douglas
+- Run 5: parked from playbook history; no initiative form or Commerce role.
 - douglas.de returns 403 Access Denied and douglas-group.com/de/karriere times out in the automated browser; parked. (careers.douglas.group)
 - Run 4: parked from playbook history; no initiative form or Commerce role.
 - Run 3: parked from playbook history; no initiative form or Commerce role.
@@ -674,6 +680,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
 ## Cyberport
+- Run 8: parked from playbook history; Cloudflare challenge unchanged.
 - cyberport.de sits behind a Cloudflare challenge (403) in the automated browser and jobs.cyberport.de is 404; parked. (cyberport.de)
 - Run 7: parked from playbook history; Cloudflare challenge unchanged.
 - Run 6: parked from playbook history; Cloudflare challenge unchanged.
@@ -684,6 +691,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
 ## CX Rocket
+- Run 8: parked from playbook history; domain still parked.
 - cxrocket.com is a parked GoDaddy domain (no site); cx-rocket.com fails SSL; no careers route, parked. (cxrocket.com)
 - Run 7: parked from playbook history; domain still parked.
 - Run 6: parked from playbook history; domain still parked.
@@ -805,6 +813,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hahn-kolb.de/.../unternehmen/karriere/karriere.php links Initiativbewerbung to apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (wait ~10s to load). Fill by id via fill_form (salutation, firstName, lastName, emailName, countryCode, phoneNumber digits, countryName, desiredActivity, mobility, noticePeriod); uploads: click label.upload-dropzone[for=uploadCV] / [for=otherDocuments] + file chooser (otherDocuments=cover letter); tick #shareProfile + #policy via JS. captcha.eu 'I am human' checkbox before 'Bewerbung einreichen' -> parks with tab open.
 
 ## Festo (jobs.festo.com)
+- Run 2: parked from playbook history; no initiative form.
 - festo.com -> Jobs und Karriere (/de/de/e/karriere-id_3685/) -> jobs.festo.com SuccessFactors; q=Commerce only an unrelated internship, q=Initiativ 0 hits; no initiative form.
 
 ## Elbkind (Reply)

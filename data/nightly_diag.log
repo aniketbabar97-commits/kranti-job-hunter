@@ -1405,3 +1405,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 Only Westernacher and SQLI have a form that Kranti could finish by hand, and each needs a CAPTCHA solved. No CAPTCHA tabs are open, because I didn't open a browser. The other eight have no form or email, so they can't go out by email either.
 
 I added one "Run 10" line per company to the playbook.
+[Mon 11/02/2026 17:35:47.47] batch 2 exit 0 
+| Elbkind | parked | No career page, form or email. |
+| Douglas | parked | No initiative form or Commerce role; the site returns 403. |
+| Cyberport | parked | Cloudflare challenge on the site. |
+| CX Rocket | parked | The domain is a parked GoDaddy page, so there is no careers route. |
+
+The only job with a form URL I could put in the note is Hansgrohe, so that is the only one you could finish by hand. No application email turned up for any of them, so none will go out by email automatically.
+
+Every job also got a short `learn` entry in the playbook. No CAPTCHA tabs were opened, so there is nothing for you to solve.
