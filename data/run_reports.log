@@ -931,3 +931,17 @@ I didn't open the browser for any of them. For each, the playbook already record
 - Q CELLS — parked — no initiative route or email
 
 These are all repeat parks (Westernacher, Wacker and SQLI were parked in runs 2 to 8). The queue keeps handing back the same initiative applications, so more runs are unlikely to get further without a change in approach.
+`next 1` now returns an empty list, so I stopped there after 9 jobs. I submitted none of them. All 9 were parked, and none has an application email in its note, so none will go out by email automatically.
+
+- **Hansgrohe** — parked — d.vinci image CAPTCHA; form URL https://hansgrohe.dvinci-hr.com/de/jobs/140/form (parked from PLAYBOOK history, I didn't reopen the form)
+- **Hahn+Kolb** — parked — the karriere page returns 403 Forbidden in the automated browser, and I found no form or email
+- **Festo** — parked — jobs.festo.com has no SAP Commerce posting and no initiative form
+- **Endress+Hauser** — parked — careers.endress.com has no Commerce posting and no initiative form
+- **Elbkind** — parked — the site has no careers page or email, and the Reply careers URLs I tried returned 404
+- **Douglas** — parked — douglas.de returns 403 Access Denied and the group careers site times out
+- **Cyberport** — parked — Cloudflare challenge on cyberport.de; jobs.cyberport.de is 404
+- **CX Rocket** — parked — cxrocket.com is a parked GoDaddy domain; cx-rocket.com fails with an SSL error
+- **Camelot ITLab** — parked — the site now redirects to Accenture Germany, which lists no SAP Commerce role and no initiative form
+- **Breuninger** — parked — the careers job list shows no initiative option and no SAP Commerce posting
+
+There are no open CAPTCHA tabs to solve. The browser still has the tabs I opened for these checks, and I closed none.

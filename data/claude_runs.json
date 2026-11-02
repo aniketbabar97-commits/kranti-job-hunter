@@ -871,8 +871,8 @@
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (image captcha, per playbook)",
-  "ts": "2026-11-02 00:52"
+  "note": "captcha – https://hansgrohe.dvinci-hr.com/de/jobs/140/form (d.vinci image captcha, parked from playbook history)",
+  "ts": "2026-11-02 07:23"
  },
  "https://www.hansa-flex.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -886,8 +886,8 @@
  },
  "https://www.hahn-kolb.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "captcha – https://apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (captcha.eu, per playbook)",
-  "ts": "2026-11-02 00:52"
+  "note": "karriere page 403 Forbidden in automated browser; no form/email found",
+  "ts": "2026-11-02 07:24"
  },
  "https://www.grohe.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -901,8 +901,8 @@
  },
  "https://www.festo.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Hybris role or German initiative form; no HR email (per playbook)",
-  "ts": "2026-11-02 00:52"
+  "note": "no initiative form; jobs.festo.com search Commerce/Initiativ has no fitting posting; no HR email found",
+  "ts": "2026-11-02 07:25"
  },
  "https://www.faktor-e.de/#initiativbewerbung": {
   "status": "parked",
@@ -921,18 +921,18 @@
  },
  "https://www.endress.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative route, no SAP Commerce roles, email applications not accepted (per playbook)",
-  "ts": "2026-11-02 00:53"
+  "note": "no initiative form; careers.endress.com q=Commerce 0 hits; no HR email found",
+  "ts": "2026-11-02 07:25"
  },
  "https://www.elbkind.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no career page, initiative form or HR email (per playbook)",
-  "ts": "2026-11-02 00:53"
+  "note": "elbkind.de homepage has no careers link or email (Elbkind Reply GmbH); reply.com careers URLs 404; no route found",
+  "ts": "2026-11-02 07:26"
  },
  "https://www.douglas.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or Commerce role; no HR email (per playbook)",
-  "ts": "2026-11-02 00:53"
+  "note": "douglas.de 403 Access Denied in automated browser; douglas-group.com/de/karriere times out; no form/email found",
+  "ts": "2026-11-02 07:27"
  },
  "https://www.dotsource.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -941,13 +941,13 @@
  },
  "https://www.cyberport.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "Cloudflare challenge on site (per playbook); no route",
-  "ts": "2026-11-02 00:53"
+  "note": "cyberport.de behind Cloudflare 'Just a moment' 403; jobs.cyberport.de 404; no form/email found",
+  "ts": "2026-11-02 07:27"
  },
  "https://www.cxrocket.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "domain parked, no careers route (per playbook)",
-  "ts": "2026-11-02 00:53"
+  "note": "cxrocket.com is a parked GoDaddy domain; cx-rocket.com SSL error; no careers route or email",
+  "ts": "2026-11-02 07:28"
  },
  "https://www.conrad.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -966,13 +966,13 @@
  },
  "https://www.camelot-itlab.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "site redirects to accenture.com, no initiative route (per playbook)",
-  "ts": "2026-11-02 00:53"
+  "note": "camelot-itlab.com redirects to accenture.com/de-de (acquired); no SAP Commerce/Hybris posting found and no initiative option; no HR email",
+  "ts": "2026-11-02 07:29"
  },
  "https://www.breuninger.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no Commerce role, initiative form or HR email (per playbook)",
-  "ts": "2026-11-02 00:54"
+  "note": "e-breuninger.de/de/karriere/stellenangebote shows no initiative option and no SAP Commerce/Hybris posting; no HR email found",
+  "ts": "2026-11-02 07:30"
  },
  "https://www.berner.eu/#initiativbewerbung": {
   "status": "confirmed",

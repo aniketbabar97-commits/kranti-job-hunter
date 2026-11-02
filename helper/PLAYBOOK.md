@@ -298,6 +298,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Jobs list: cgi.njoyn.com/corp/xweb/xweb.asp?CLID=21001&page=joblisting&CountryID=DE&lang=4 (rows have title text). Apply button is hidden input #BTN_ApplyNow (JS click) -> clients.njoyn.com login needing a session from the job page (direct URL gives 'Invalid request'). Login/register forms fire a 'Pflichtfelder' alert even when filled; default password gave invalid credentials. Unresolved: try Passwort vergessen with 'code CGI njoyn'.
 
 ## d.vinci (hansgrohe.dvinci-hr.com)
+- Run 10: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 7: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 6: Initiativbewerbung parked from playbook history; image captcha unchanged.
 - Run 5: parked from playbook history; image captcha unchanged.
@@ -649,7 +650,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: homepage has no career/mail links; reply.com/elbkind/de/career 404.
 - /jobs/ and /en/career/ render no postings, initiative form or HR email; reply.com/en/careers 404 -> park.
 
-## Douglas (careers.douglas.group)
+## Douglas
+- douglas.de returns 403 Access Denied and douglas-group.com/de/karriere times out in the automated browser; parked. (careers.douglas.group)
 - Run 4: parked from playbook history; no initiative form or Commerce role.
 - Run 3: parked from playbook history; no initiative form or Commerce role.
 - Run 2: search=commerce still only e-commerce ops/sales roles (Milan, DÃ¼sseldorf, Warsaw); no initiative form or email.
@@ -658,7 +660,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## dotSource (dotsource.de TYPO3 form)
 - /karriere/initiativbewerbung/ inline form, no captcha: selects by label, CV + Anschreiben via the two upload buttons + file chooser, tick #...-checkbox-1 (page has ~100 other checkboxes, don't pick last()), Wunschstandort only Jena/Dresden/Leipzig/Berlin; success redirects to /karriere/vielen-dank-fuer-deine-bewerbung/.
 
-## Cyberport (cyberport.de)
+## Cyberport
+- cyberport.de sits behind a Cloudflare challenge (403) in the automated browser and jobs.cyberport.de is 404; parked. (cyberport.de)
 - Run 7: parked from playbook history; Cloudflare challenge unchanged.
 - Run 6: parked from playbook history; Cloudflare challenge unchanged.
 - Run 5: parked from playbook history; Cloudflare challenge unchanged.
@@ -667,7 +670,8 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Run 2: still Cloudflare 'Just a moment' 403; parked.
 - Whole site behind a Cloudflare 'Performing security verification' challenge (403) in the automated browser; treat as captcha and park.
 
-## CX Rocket (cxrocket.com)
+## CX Rocket
+- cxrocket.com is a parked GoDaddy domain (no site); cx-rocket.com fails SSL; no careers route, parked. (cxrocket.com)
 - Run 7: parked from playbook history; domain still parked.
 - Run 6: parked from playbook history; domain still parked.
 - Run 5: parked from playbook history; domain still parked.
@@ -695,6 +699,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; careers jobsearch?jk=hybris is fuzzy, no SAP Commerce/initiative posting -> park.
 
 ## Breuninger
+- breuninger.com footer -> e-breuninger.de/de/karriere/ (Alle akzeptieren) -> /stellenangebote/; list renders no Commerce/Hybris/SAP/Initiativ entries; karriere.breuninger.com does not resolve; parked.
 - Run 7: parked from playbook history; no route.
 - Run 6: parked from playbook history; no route.
 - Run 5: parked from playbook history; no route.
@@ -739,6 +744,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - hoermann.de/karriere -> jobs.hoermann.de; job form /stellenangebot-formular.html?yid=<id> (list has all yids). Cronos recipe via run_code worked first try (pressSequentially by id, selects via JS, #agb_checkbox JS, setInputFiles #...lebenslauf/anschreiben, JS click last 'Senden'); required free text vordef_bew_feld_09 = Verfuegbarkeit/Kuendigungsfrist; wie_gefunden indeed.com. Title 'Vielen Dank fuer Ihre Bewerbung!'.
 
 ## Endress+Hauser (careers.endress.com)
+- endress.com/en/endress-hauser-group/career/job-opportunities -> careers.endress.com (SuccessFactors, /search/?q=<kw>); q=Commerce 0 hits, no initiative form.
 - Run 4: parked from playbook history; no initiative route.
 - Run 3: parked from playbook history; no initiative route.
 - Run 2: keyword=Commerce search still empty; no initiative route.
@@ -780,5 +786,15 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## SuccessFactors (Liebherr)
 - Run 3: Product Manager Kundenportal parked from playbook history (reCAPTCHA at career5 login).
 
-## Hahn+Kolb (WÃ¼rth witglobal)
+## Hahn+Kolb
+- hahn-kolb.de/unternehmen/karriere/karriere.php returns 403 Forbidden in automated browser; parked. (WÃ¼rth witglobal)
 - hahn-kolb.de/.../unternehmen/karriere/karriere.php links Initiativbewerbung to apply.witglobal.net/jobapplication?job_id=820&lang=de_DE (wait ~10s to load). Fill by id via fill_form (salutation, firstName, lastName, emailName, countryCode, phoneNumber digits, countryName, desiredActivity, mobility, noticePeriod); uploads: click label.upload-dropzone[for=uploadCV] / [for=otherDocuments] + file chooser (otherDocuments=cover letter); tick #shareProfile + #policy via JS. captcha.eu 'I am human' checkbox before 'Bewerbung einreichen' -> parks with tab open.
+
+## Festo (jobs.festo.com)
+- festo.com -> Jobs und Karriere (/de/de/e/karriere-id_3685/) -> jobs.festo.com SuccessFactors; q=Commerce only an unrelated internship, q=Initiativ 0 hits; no initiative form.
+
+## Elbkind (Reply)
+- elbkind.de is a one-page site with only Kontakt/legal links, no karriere page; reply.com/en/careers and /elbkind/de/careers 404; no route found.
+
+## Camelot ITLab (Accenture)
+- camelot-itlab.com now redirects to accenture.com/de-de; /de-de/careers/jobsearch?jk=SAP%20Commerce shows 182 unfiltered results, no Commerce/Hybris role and no initiative form; parked.

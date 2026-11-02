@@ -1308,3 +1308,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - Q CELLS â€” parked â€” no initiative route or email
 
 These are all repeat parks (Westernacher, Wacker and SQLI were parked in runs 2 to 8). The queue keeps handing back the same initiative applications, so more runs are unlikely to get further without a change in approach.
+[Mon 11/02/2026  7:30:48.09] batch 2 exit 0 
+- **Elbkind** â€” parked â€” the site has no careers page or email, and the Reply careers URLs I tried returned 404
+- **Douglas** â€” parked â€” douglas.de returns 403 Access Denied and the group careers site times out
+- **Cyberport** â€” parked â€” Cloudflare challenge on cyberport.de; jobs.cyberport.de is 404
+- **CX Rocket** â€” parked â€” cxrocket.com is a parked GoDaddy domain; cx-rocket.com fails with an SSL error
+- **Camelot ITLab** â€” parked â€” the site now redirects to Accenture Germany, which lists no SAP Commerce role and no initiative form
+- **Breuninger** â€” parked â€” the careers job list shows no initiative option and no SAP Commerce posting
+
+There are no open CAPTCHA tabs to solve. The browser still has the tabs I opened for these checks, and I closed none.
