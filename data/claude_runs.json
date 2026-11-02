@@ -780,9 +780,9 @@
   "ts": "2026-10-25 06:22"
  },
  "https://www.merkle.com/#initiativbewerbung": {
-  "status": "working",
-  "note": "claimed",
-  "ts": "2026-11-02 07:22"
+  "status": "parked",
+  "note": "no initiative form or email (per playbook history)",
+  "ts": "2026-11-02 08:20"
  },
  "https://www.mindsquare.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -811,8 +811,8 @@
  },
  "https://www.liebherr.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form; SuccessFactors login behind reCAPTCHA (playbook history)",
-  "ts": "2026-11-02 01:50"
+  "note": "captcha - SuccessFactors login reCAPTCHA gate (per playbook history)",
+  "ts": "2026-11-02 08:20"
  },
  "https://www.lemundo.de/#initiativbewerbung": {
   "status": "confirmed",
@@ -866,8 +866,8 @@
  },
  "https://www.hilti.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no initiative form or email; no Hybris/SAP Commerce postings (playbook history)",
-  "ts": "2026-11-02 01:50"
+  "note": "no initiative route (per playbook history)",
+  "ts": "2026-11-02 08:21"
  },
  "https://www.hansgrohe.de/#initiativbewerbung": {
   "status": "parked",
@@ -981,8 +981,8 @@
  },
  "https://www.bechtle.com/#initiativbewerbung": {
   "status": "parked",
-  "note": "initiative posting (job 42719) gone, no email; portal only (playbook history)",
-  "ts": "2026-11-02 01:50"
+  "note": "initiative posting gone, no route (per playbook history)",
+  "ts": "2026-11-02 08:21"
  },
  "https://www.babiel.com/#initiativbewerbung": {
   "status": "confirmed",
@@ -991,8 +991,8 @@
  },
  "https://www.bbraun.de/#initiativbewerbung": {
   "status": "parked",
-  "note": "no German initiative form; Commerce search 0 hits (playbook history)",
-  "ts": "2026-11-02 01:51"
+  "note": "no German initiative form, Commerce 0 hits (per playbook history)",
+  "ts": "2026-11-02 08:21"
  },
  "https://www.axians.de/#initiativbewerbung": {
   "status": "confirmed",

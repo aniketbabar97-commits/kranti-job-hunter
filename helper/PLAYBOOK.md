@@ -98,6 +98,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Cookiebot: Alle Cookies zulassen. Fill by input name; consent is a button (#...-11) not the hidden checkbox; fax is honeypot; files via setInputFiles on file-upload-* ids (1st=cover letter, 2nd=CV). Success: 'Vielen Dank fÃ¼r Deine Bewerbung!' status text.
 
 ## SuccessFactors (career5.successfactors.eu, Liebherr)
+- Run 8: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 7: Initiativbewerbung SAP Commerce parked from playbook history; reCAPTCHA gate unchanged.
 - Run 6: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
 - Run 5: Product Manager Kundenportal parked from playbook history; reCAPTCHA gate unchanged.
@@ -540,6 +541,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - netconomy.net/careers/job-openings 'Send us a general application' -> netconomy.recruitee.com/o/general-application/c/new. Phone: type +49... slowly to switch country; choices via label >> text=; privacy box: JS click on input.nextElementSibling.firstElementChild (real click opens privacy tab); date input ISO; files via chooser. Submit shows hCaptcha -> parks.
 
 ## Merkle / Namics
+- Run 8: parked from playbook history; no initiative form or email.
 - Run 7: parked from playbook history; no initiative form or email.
 - Run 6: parked from playbook history; no initiative form or email.
 - Run 5: parked from playbook history; no initiative form or email.
@@ -597,6 +599,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Hugendubel Karriere Initiativbewerbung' -> karriere.hugendubel.de/jobposting/<id> -> /de/jobposting/<id>0/apply; fill by #bjpfg-input-field-N (dates ISO, Anrede/Schwerbehinderung selects by label), privacy checkbox #...-0, file buttons 'Dateien hochladen' nth0 CV nth1 Weiteres=cover letter via filechooser + browser_file_upload, ÃœberprÃ¼fen & Abschicken -> Bewerbung einreichen -> /submitted. No captcha.
 
 ## Hilti
+- Run 9: parked from playbook history; no initiative route.
 - Run 8: parked from playbook history; no initiative route.
 - Run 7: parked from playbook history; no initiative route.
 - Run 6: parked from playbook history; no initiative route. (careers.hilti.group)
@@ -709,6 +712,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Google 'Breuninger Karriere' -> digital.breuninger.com/jobs (11 roles); no initiative form, no SAP Commerce/Hybris roles -> park.
 
 ## Bechtle
+- Run 9: parked from playbook history; initiative posting still gone.
 - Run 8: parked from playbook history; initiative posting still gone.
 - Run 7: parked from playbook history; initiative posting still gone.
 - Run 6: parked from playbook history; initiative posting still gone.
