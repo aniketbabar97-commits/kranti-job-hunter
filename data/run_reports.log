@@ -1026,3 +1026,8 @@ The queue is empty, so I stopped after 4 of the 10 jobs. None were submitted; al
 - **B. Braun** — parked. The `jobs.bbraun.com` search for "Commerce" shows no hits, and there is no initiative form or email.
 
 Each job is logged with `done` and has a `learn` note in the playbook. No CAPTCHA tabs were left open.
+`next 1` returned an empty list on the first call, so there's nothing to apply to and I stopped early, per your instruction. I submitted nothing and logged nothing.
+
+I read `CLAUDE_CODE_APPLY.md` and the first 480 of the 828 lines in `PLAYBOOK.md`, and I pulled `facts`. I didn't need the rest of the playbook because no job came back.
+
+Jobs applied: 0 of 10.
