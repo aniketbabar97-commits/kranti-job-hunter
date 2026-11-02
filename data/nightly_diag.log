@@ -1275,3 +1275,36 @@ Two things to know:
 - The instructions say to stop early on an empty list, so I did.
 
 If you expected jobs to be waiting, the nightly batch may already have taken them or the queue hasn't been refilled.
+[Mon 11/02/2026  2:19:51.15] autorun: 0 jobs waiting 
+[Mon 11/02/2026  2:49:51.26] autorun: 0 jobs waiting 
+[Mon 11/02/2026  3:19:51.07] autorun: 0 jobs waiting 
+[Mon 11/02/2026  3:49:52.48] autorun: 0 jobs waiting 
+[Mon 11/02/2026  4:19:52.50] autorun: 0 jobs waiting 
+[Mon 11/02/2026  4:49:52.24] autorun: 0 jobs waiting 
+[Mon 11/02/2026  5:19:52.59] autorun: 0 jobs waiting 
+[Mon 11/02/2026  5:49:52.40] autorun: 0 jobs waiting 
+[Mon 11/02/2026  6:20:03.36] autorun: 0 jobs waiting 
+[Mon 11/02/2026  6:49:52.86] autorun: 0 jobs waiting 
+[Mon 11/02/2026  7:19:51.75] autorun: 21 jobs waiting 
+[Mon 11/02/2026  7:19:54.17] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Mon 11/02/2026  7:23:04.28] batch 1 exit 0 
+- TRUMPF â€” parked â€” no initiative or Commerce posting
+- team neusta â€” parked â€” no initiative form or HR email
+- SQLI â€” parked â€” reCAPTCHA v2. The note has the form URL, but I did not leave a CAPTCHA tab open.
+- Salzgitter â€” parked â€” no Commerce roles or initiative link
+- Rittal â€” parked â€” no Commerce or initiative posting
+- Q CELLS â€” parked â€” no initiative route or email
+
+These are all repeat parks (Westernacher, Wacker and SQLI were parked in runs 2 to 8). The queue keeps handing back the same initiative applications, so more runs are unlikely to get further without a change in approach.

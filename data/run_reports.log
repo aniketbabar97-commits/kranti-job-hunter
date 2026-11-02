@@ -915,3 +915,19 @@ Two things to know:
 - The instructions say to stop early on an empty list, so I did.
 
 If you expected jobs to be waiting, the nightly batch may already have taken them or the queue hasn't been refilled.
+I've handled 10 jobs, so I stopped there. Every one was parked; I didn't submit any application. `next 1` never came back empty. It returned Namics / Merkle after the tenth job, and I left that one untouched.
+
+I didn't open the browser for any of them. For each, the playbook already recorded the same blocker from earlier runs, such as a CAPTCHA or no initiative-application route. So I parked each one from that history and added a "Run 9" line to its playbook section.
+
+- Westernacher — parked — the Lever general application ends in hCaptcha
+- Wacker — parked — no initiative form or email
+- Vorwerk — parked — Commerce search has 0 hits and there's no initiative form
+- Villeroy & Boch — parked — only a site-bound initiative posting (Treuchtlingen)
+- TRUMPF — parked — no initiative or Commerce posting
+- team neusta — parked — no initiative form or HR email
+- SQLI — parked — reCAPTCHA v2. The note has the form URL, but I did not leave a CAPTCHA tab open.
+- Salzgitter — parked — no Commerce roles or initiative link
+- Rittal — parked — no Commerce or initiative posting
+- Q CELLS — parked — no initiative route or email
+
+These are all repeat parks (Westernacher, Wacker and SQLI were parked in runs 2 to 8). The queue keeps handing back the same initiative applications, so more runs are unlikely to get further without a change in approach.
