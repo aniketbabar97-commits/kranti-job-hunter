@@ -1,0 +1,230 @@
+{
+ "job": {
+  "title": "Saarbrücken Senior Consultant Support SAP CX, CPQ & SAP Service (mwd) (Vollzeit Teilzeit) 66115",
+  "company": "ORBIS",
+  "location": "",
+  "url": "https://jobs.orbis.de/job/Saarbr%C3%BCcken-Senior-Consultant-Support-SAP-CX%2C-CPQ-&-SAP-Service-%28mwd%29-%28Vollzeit-Teilzeit%29-66115/1453828933/",
+  "apply_url": "",
+  "score": 80,
+  "lang": "de",
+  "source": "ORBIS careers",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior Consultant – SAP CX Support & Integration | SAP Commerce Cloud (Hybris) Expert",
+  "summary": "Backend developer with 5+ years delivering SAP Commerce Cloud (Hybris) solutions for Rockwell Automation and Shell. Proven expertise in SAP CX platforms, designing and supporting REST/OCC APIs, PIM-ERP-MDM integrations, and headless commerce. Strong techno-functional consulting skills: gathering requirements, writing user stories, and translating business needs into robust e-commerce implementations. Experienced in production support, CI/CD pipelines, Docker/Kubernetes, and AI-assisted development. Valid German work permit, remote-ready across Germany.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "Headless Commerce",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "Senior Consultant",
+   "Support",
+   "SAP CX",
+   "SAP",
+   "Integration",
+   "Techno-functional",
+   "Production support",
+   "API integration",
+   "Customer Experience"
+  ],
+  "keywords_missing": [
+   "CPQ",
+   "SAP Service",
+   "Service Management"
+  ],
+  "cover_en": {
+   "subject": "Application: Senior Consultant Support SAP CX, CPQ & SAP Service",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about ORBIS’s commitment to delivering cutting-edge SAP CX and CPQ solutions that empower customers. With over five years of hands-on experience building and supporting SAP Commerce Cloud platforms at Rockwell Automation and Shell, I bring deep expertise in SAP CX, integration, and end-to-end e-commerce delivery.",
+   "bullets": [
+    {
+     "label": "SAP CX Expertise",
+     "text": "Designed and implemented SAP Commerce Cloud (Hybris 2211) solutions, delivering headless APIs and product catalog management that align with SAP CX best practices."
+    },
+    {
+     "label": "Integration & API",
+     "text": "Built OCC REST services and end-to-end PIM-ERP-MDM data pipelines using Profisee, DataHub and Hotfolders, ensuring seamless integration across enterprise systems."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Acted as a bridge between business and IT, gathering requirements, writing user stories and functional specs, and translating them into robust SAP Commerce implementations."
+    },
+    {
+     "label": "Production Support",
+     "text": "Provided 24/7 production support, resolved integration bottlenecks, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2) to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Karlsruhe, valid German work permit, serving notice until 15 December 2026, available to start 16 December 2026. I look forward to discussing how I can contribute to ORBIS.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Senior Consultant Support SAP CX, CPQ & SAP Service",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Vision von ORBIS, innovative SAP CX- und CPQ-Lösungen zu realisieren, begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung und Betreuung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell verfüge ich über fundiertes Know-how in SAP CX, Integration und End-to-End-E-Commerce-Projekten.",
+   "bullets": [
+    {
+     "label": "SAP CX Expertise",
+     "text": "Entwickelte und implementierte SAP Commerce Cloud (Hybris 2211) Lösungen, inklusive Headless-APIs und Produktkatalog-Management nach SAP-CX-Standards."
+    },
+    {
+     "label": "Integration & API",
+     "text": "Erstellte OCC-REST-Services und end-to-end PIM-ERP-MDM-Datenpipelines mit Profisee, DataHub und Hotfolders für nahtlose Systemintegration."
+    },
+    {
+     "label": "Techno-funktionale Beratung",
+     "text": "Agierte als Bindeglied zwischen Fachbereichen und IT, erfasste Anforderungen, schrieb User Stories und funktionale Spezifikationen und setzte sie in SAP-Commerce-Lösungen um."
+    },
+    {
+     "label": "Produktionssupport",
+     "text": "Leistete 24/7-Produktionssupport, löste Integrationsengpässe und führte CI/CD-Deployments auf dem SAP Commerce Cloud Portal (CCv2) durch."
+    }
+   ],
+   "gap": "",
+   "logistics": "Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintrittstermin 16.12.2026. Ich freue mich auf ein Gespräch, um meinen Beitrag zu ORBIS zu erläutern.",
+   "closing": ""
+  },
+  "why_company": "ORBIS stands out as a leader in digital transformation, combining deep SAP CX expertise with innovative CPQ solutions that drive measurable business value. Your focus on customer-centric platforms and continuous improvement aligns perfectly with my passion for delivering high-performance SAP Commerce implementations. I am eager to contribute my SAP CX integration experience to help ORBIS expand its market impact and deliver next-generation solutions for clients.",
+  "motivation_short": "I want to join ORBIS to apply my SAP CX expertise in a forward-thinking environment that values innovative CPQ solutions and delivers real business impact.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a senior SAP Commerce Cloud developer with 5+ years of experience in SAP CX integration. I’m interested in the Senior Consultant Support SAP CX role at ORBIS and would love to discuss how I can add value.",
+  "email_subject": "Application – Senior Consultant Support SAP CX, CPQ & SAP Service",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Senior Consultant Support SAP CX, CPQ & SAP Service position. I bring over five years of SAP Commerce Cloud experience, strong integration skills, and a proven record of delivering SAP CX solutions. I look forward to the opportunity to discuss my fit for ORBIS.\n\nKind regards,"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Senior Consultant Support SAP CX, CPQ & SAP Service",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about ORBIS’s commitment to delivering cutting-edge SAP CX and CPQ solutions that empower customers. With over five years of hands-on experience building and supporting SAP Commerce Cloud platforms at Rockwell Automation and Shell, I bring deep expertise in SAP CX, integration, and end-to-end e-commerce delivery.",
+   "bullets": [
+    {
+     "label": "SAP CX Expertise",
+     "text": "Designed and implemented SAP Commerce Cloud (Hybris 2211) solutions, delivering headless APIs and product catalog management that align with SAP CX best practices."
+    },
+    {
+     "label": "Integration & API",
+     "text": "Built OCC REST services and end-to-end PIM-ERP-MDM data pipelines using Profisee, DataHub and Hotfolders, ensuring seamless integration across enterprise systems."
+    },
+    {
+     "label": "Techno-Functional Consulting",
+     "text": "Acted as a bridge between business and IT, gathering requirements, writing user stories and functional specs, and translating them into robust SAP Commerce implementations."
+    },
+    {
+     "label": "Production Support",
+     "text": "Provided 24/7 production support, resolved integration bottlenecks, and executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2) to maintain high availability."
+    }
+   ],
+   "gap": "",
+   "logistics": "Karlsruhe, valid German work permit, serving notice until 15 December 2026, available to start 16 December 2026. I look forward to discussing how I can contribute to ORBIS.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Senior Consultant Support SAP CX, CPQ & SAP Service",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Vision von ORBIS, innovative SAP CX- und CPQ-Lösungen zu realisieren, begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung und Betreuung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell verfüge ich über fundiertes Know-how in SAP CX, Integration und End-to-End-E-Commerce-Projekten.",
+   "bullets": [
+    {
+     "label": "SAP CX Expertise",
+     "text": "Entwickelte und implementierte SAP Commerce Cloud (Hybris 2211) Lösungen, inklusive Headless-APIs und Produktkatalog-Management nach SAP-CX-Standards."
+    },
+    {
+     "label": "Integration & API",
+     "text": "Erstellte OCC-REST-Services und end-to-end PIM-ERP-MDM-Datenpipelines mit Profisee, DataHub und Hotfolders für nahtlose Systemintegration."
+    },
+    {
+     "label": "Techno-funktionale Beratung",
+     "text": "Agierte als Bindeglied zwischen Fachbereichen und IT, erfasste Anforderungen, schrieb User Stories und funktionale Spezifikationen und setzte sie in SAP-Commerce-Lösungen um."
+    },
+    {
+     "label": "Produktionssupport",
+     "text": "Leistete 24/7-Produktionssupport, löste Integrationsengpässe und führte CI/CD-Deployments auf dem SAP Commerce Cloud Portal (CCv2) durch."
+    }
+   ],
+   "gap": "",
+   "logistics": "Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintrittstermin 16.12.2026. Ich freue mich auf ein Gespräch, um meinen Beitrag zu ORBIS zu erläutern.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-03"
+}
