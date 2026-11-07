@@ -1,0 +1,223 @@
+{
+ "job": {
+  "title": "Jobs Softwareentwicklung Rietberg - job.nw.de - Neue Westfälische",
+  "company": "see posting",
+  "location": "",
+  "url": "https://job.nw.de/jobs/softwareentwicklung-in-rietberg",
+  "apply_url": "",
+  "score": 94,
+  "lang": "de",
+  "source": "Career site (company site)",
+  "posted": "2026-11-03",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "SAP Certified Commerce Cloud Developer with 5+ years of experience engineering enterprise e-commerce platforms (SAP Commerce Cloud 2105 and 2211) for global enterprises including Rockwell Automation and Shell. Strong in Java, Spring, OCC REST Web Services, and complex PIM/ERP integrations. Experienced in executing CCv2 deployments and utilizing AI tools across development and analysis to deliver robust headless and omnichannel commerce solutions.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "Headless Commerce",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "AI": [
+    "AI-assisted development",
+    "Generative AI / LLM tools",
+    "Prompt engineering",
+    "AI-assisted analysis and documentation"
+   ],
+   "APIs & Integration": [
+    "OCC APIs",
+    "REST web services",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
+    "CI/CD pipelines",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Databases & Search": [
+    "FlexibleSearch",
+    "Apache Solr",
+    "SQL",
+    "query optimization and performance tuning"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    7,
+    3,
+    5,
+    4,
+    6
+   ],
+   "shell": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3,
+    6
+   ],
+   "cognizant": [
+    0,
+    2,
+    1,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Hybris",
+   "Developer",
+   "Java",
+   "Spring",
+   "AI-Kompetenz",
+   "REST APIs",
+   "CCv2",
+   "OCC"
+  ],
+  "keywords_missing": [],
+  "cover_en": {
+   "subject": "Application: SAP Commerce Cloud (Hybris) Developer (all genders)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "adesso SE combines premier software engineering with cutting-edge AI competence—an environment where my background as an SAP Certified Commerce Cloud Developer directly creates value. Over the past five years, I have engineered and extended scalable e-commerce architectures on SAP Commerce Cloud (2105 and 2211) for global enterprises including Rockwell Automation and Shell.",
+   "bullets": [
+    {
+     "label": "SAP Commerce & Headless Architecture",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (2211/2105) using Java and Spring, exposing OCC REST Web Services for headless storefronts."
+    },
+    {
+     "label": "Integrations & Data Synchronization",
+     "text": "Built and optimized data pipelines between PIM (Profisee), SAP ERP, and MDM using DataHub and Hotfolders to maintain synchronized global product catalogs."
+    },
+    {
+     "label": "Cloud Deployments & Performance",
+     "text": "Executed CI/CD deployment cycles on SAP Commerce Cloud Portal (CCv2) and led database query refactoring that reduced response latency and improved transaction speed."
+    },
+    {
+     "label": "AI-Assisted Delivery",
+     "text": "Extensively leveraged generative AI and LLM tools to accelerate requirements analysis, software development, testing, and technical documentation."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German work permit (no sponsorship required), I am currently serving my notice period with a last working day of 15/12/2026, available to start on 16/12/2026. I welcome the opportunity to discuss how my technical expertise fits adesso SE.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als SAP Commerce Cloud (Hybris) Developer (all genders)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "adesso SE verbindet exzellente Softwareentwicklung mit innovativer AI-Kompetenz – ein Umfeld, in dem ich meine Erfahrung als SAP Certified Commerce Cloud Developer wirkungsvoll einbringen möchte. In den letzten fünf Jahren habe ich skalierbare E-Commerce-Plattformen auf Basis von SAP Commerce Cloud (2105 und 2211) für internationale Unternehmen wie Rockwell Automation und Shell entwickelt und ausgebaut.",
+   "bullets": [
+    {
+     "label": "SAP Commerce & Headless Architecture",
+     "text": "Design und Implementierung von Backend-Lösungen auf SAP Commerce Cloud (2211/2105) mit Java und Spring sowie Bereitstellung von OCC REST Web Services für Headless-Commerce."
+    },
+    {
+     "label": "Integrationsarchitektur & Datenflüsse",
+     "text": "Konzeption und Optimierung von Datenpipelines zwischen PIM (Profisee), SAP ERP und MDM mittels DataHub und Hotfolders zur zuverlässigen Katalog-Synchronisation."
+    },
+    {
+     "label": "Cloud Deployment & Performance",
+     "text": "Ausführung von CI/CD-Deploymentzyklen auf dem SAP Commerce Cloud Portal (CCv2) und erfolgreiche Performance-Optimierung durch FlexibleSearch- und SQL-Refactoring."
+    },
+    {
+     "label": "AI-gestützte Entwicklung",
+     "text": "Kontinuierlicher Einsatz von Generative-AI- und LLM-Tools zur effizienten Beschleunigung von Anforderungsanalysen, Entwicklung, Testing und technischer Dokumentation."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und befinde mich in ungekündigter Festanstellung mit dem letzten Arbeitstag am 15.12.2026 (frühester Start: 16.12.2026). Ich freue mich auf ein Gespräch mit Ihnen.",
+   "closing": ""
+  },
+  "why_company": "adesso SE stands out for its strong engineering culture, digital innovation, and active embrace of AI competence in client solutions. Having built enterprise e-commerce platforms on SAP Commerce Cloud while integrating generative AI tools into my daily engineering workflow, I admire adesso's forward-looking approach to digital transformation and want to deliver high-impact e-commerce architectures for your clients.",
+  "motivation_short": "Certified SAP Commerce Cloud Developer with 5+ years of Java/Spring experience eager to deliver scalable headless architectures and AI-assisted engineering at adesso SE.",
+  "linkedin_message": "Hi! I saw adesso is hiring an SAP Commerce Cloud Developer. With 5+ yrs building SAP Commerce (2105/2211), Java, OCC APIs, and AI-assisted workflows at Rockwell & Shell, I would love to connect and discuss how I can contribute to your team.",
+  "email_subject": "Application: SAP Commerce Cloud (Hybris) Developer (all genders) – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the SAP Commerce Cloud (Hybris) Developer position at adesso SE.\n\nWith over five years of professional experience in SAP Commerce Cloud (2105/2211), Java, Spring, OCC REST APIs, and AI-assisted development across complex enterprise projects, I look forward to the opportunity to discuss how my technical expertise aligns with your team's objectives.\n\nThank you for your time and consideration."
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Commerce Cloud (Hybris) Developer (all genders)",
+   "salutation": "Dear Hiring Team,",
+   "hook": "adesso SE combines premier software engineering with cutting-edge AI competence—an environment where my background as an SAP Certified Commerce Cloud Developer directly creates value. Over the past five years, I have engineered and extended scalable e-commerce architectures on SAP Commerce Cloud (2105 and 2211) for global enterprises including Rockwell Automation and Shell.",
+   "bullets": [
+    {
+     "label": "SAP Commerce & Headless Architecture",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (2211/2105) using Java and Spring, exposing OCC REST Web Services for headless storefronts."
+    },
+    {
+     "label": "Integrations & Data Synchronization",
+     "text": "Built and optimized data pipelines between PIM (Profisee), SAP ERP, and MDM using DataHub and Hotfolders to maintain synchronized global product catalogs."
+    },
+    {
+     "label": "Cloud Deployments & Performance",
+     "text": "Executed CI/CD deployment cycles on SAP Commerce Cloud Portal (CCv2) and led database query refactoring that reduced response latency and improved transaction speed."
+    },
+    {
+     "label": "AI-Assisted Delivery",
+     "text": "Extensively leveraged generative AI and LLM tools to accelerate requirements analysis, software development, testing, and technical documentation."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German work permit (no sponsorship required), I am currently serving my notice period with a last working day of 15/12/2026, available to start on 16/12/2026. I welcome the opportunity to discuss how my technical expertise fits adesso SE.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als SAP Commerce Cloud (Hybris) Developer (all genders)",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "adesso SE verbindet exzellente Softwareentwicklung mit innovativer AI-Kompetenz – ein Umfeld, in dem ich meine Erfahrung als SAP Certified Commerce Cloud Developer wirkungsvoll einbringen möchte. In den letzten fünf Jahren habe ich skalierbare E-Commerce-Plattformen auf Basis von SAP Commerce Cloud (2105 und 2211) für internationale Unternehmen wie Rockwell Automation und Shell entwickelt und ausgebaut.",
+   "bullets": [
+    {
+     "label": "SAP Commerce & Headless Architecture",
+     "text": "Design und Implementierung von Backend-Lösungen auf SAP Commerce Cloud (2211/2105) mit Java und Spring sowie Bereitstellung von OCC REST Web Services für Headless-Commerce."
+    },
+    {
+     "label": "Integrationsarchitektur & Datenflüsse",
+     "text": "Konzeption und Optimierung von Datenpipelines zwischen PIM (Profisee), SAP ERP und MDM mittels DataHub und Hotfolders zur zuverlässigen Katalog-Synchronisation."
+    },
+    {
+     "label": "Cloud Deployment & Performance",
+     "text": "Ausführung von CI/CD-Deploymentzyklen auf dem SAP Commerce Cloud Portal (CCv2) und erfolgreiche Performance-Optimierung durch FlexibleSearch- und SQL-Refactoring."
+    },
+    {
+     "label": "AI-gestützte Entwicklung",
+     "text": "Kontinuierlicher Einsatz von Generative-AI- und LLM-Tools zur effizienten Beschleunigung von Anforderungsanalysen, Entwicklung, Testing und technischer Dokumentation."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige Arbeitserlaubnis und befinde mich in ungekündigter Festanstellung mit dem letzten Arbeitstag am 15.12.2026 (frühester Start: 16.12.2026). Ich freue mich auf ein Gespräch mit Ihnen.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-07"
+}
