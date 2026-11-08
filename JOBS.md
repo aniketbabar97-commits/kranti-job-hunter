@@ -1,13 +1,13 @@
-# Job record — every job sent (2272)
+# Job record — every job sent (2276)
 
 _Updated 2026-11-08. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel. Mark applications in [APPLIED.md](APPLIED.md)._
 
-- [🇬🇧 English-speaking jobs (1273)](#english)
-- [🇩🇪 German-speaking jobs (999)](#german)
+- [🇬🇧 English-speaking jobs (1275)](#english)
+- [🇩🇪 German-speaking jobs (1001)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (1273)
+## 🇬🇧 English-speaking jobs (1275)
 
 ### 🎯 Strong match (45)
 
@@ -224,11 +224,13 @@ _Updated 2026-11-08. Grouped like the email: language → fit score; newest firs
 | 60 | 7+ days | [E-Commerce Webdeveloper Shopify](https://www.linkedin.com/jobs/view/4468994031) | Kijimea (SYNformulas GmbH) | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 |  | Shopify web development role on an adjacent e-commerce platform, though she specializes in Java/SAP Commerce. |
 | 60 | 7+ days | [Product Owner:in Digitale Kundenlösungen (m/w/d)](https://de.indeed.com/viewjob?jk=5c1d1f0fe80eebb0) | HÖRMANN | Steinhagen, NW, Germany |  | Indeed | 2026-10-10 | ✅ Applied | Product Owner role for digital customer solutions matching her adjacent interests, but requires fluent German. |
 
-### 👀 Worth a look (681)
+### 👀 Worth a look (683)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
 | 40 | 🆕 ≤1 day | [LOOKING FOR CORE user atleast IMMO LS.With ...](https://www.facebook.com/groups/237558014499817/posts/1661756165413321/) | see posting |  |  | Career site (company site) | 2026-11-08 |  | Vague, non‑specific posting without a clear role definition. |
+| 40 | 🆕 ≤1 day | [[Post] Experience in SAP Hybris, BRIM is an added advantage. Ability to influence and collaborate…](https://www.linkedin.com/posts/contactkrishnadharshinisubramaniyam_job-description-abap-on-hana-15yrs-remote-activity-7523429036358914048-aBRE) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-08 |  | Generic LinkedIn recruiter post without a concrete opening; despite matching SAP Hybris experience, it lacks a defined role. |
+| 30 | 🆕 ≤1 day | [Lead Digital Merchandiser (Magento)](https://www.linkedin.com/jobs/view/4487630830) | wherewework Jobs | Sofia, Sofia City, Bulgaria |  | Linkedin | 2026-11-08 |  | Magento merchandiser role is non‑technical for the candidate and located in Bulgaria, which does not match her location preference. |
 | 55 | 🆕 ≤1 day | [Conception et développement d'une solution e-commerce avec SAP ...](https://jobs.smartrecruiters.com/Inetum2/744000157819319-conception-et-developpement-d-une-solution-e-commerce-avec-sap-commerce-et-sap-composable-storefront) | Inetum2 |  |  | Career site (SmartRecruiters) | 2026-11-07 |  | Internship project on SAP Commerce, lower seniority and broader scope. |
 | 45 | 🆕 ≤1 day | [[Post] Salesforce B2C Commerce Cloud 📌 Employment Type: Contract / 2PM to ...](https://www.linkedin.com/posts/rajesh-r-376b769b_hiring-sfcc-architect-location-offshore-activity-7523383319770644480-3R36) | LinkedIn recruiter post |  | 🏠 | LinkedIn post | 2026-11-07 |  | Architect role on Salesforce B2C Commerce, a different commerce platform. |
 | 45 | 🆕 ≤1 day | [[Post] #platform_reliability_engineer #job_description](https://www.linkedin.com/posts/ajay-chowdary-5a3796185_platformreliabilityengineer-jobdescription-activity-7523399540494753793-pwsb) | AJAY CHOWDARY |  |  | LinkedIn post | 2026-11-07 |  | Reliability engineer for SAP Commerce, a technical role adjacent to development. [capped: post doesn't say Germany or remote] |
@@ -1304,7 +1306,7 @@ _Updated 2026-11-08. Grouped like the email: language → fit score; newest firs
 
 <a id="german"></a>
 
-## 🇩🇪 German-speaking jobs (999)
+## 🇩🇪 German-speaking jobs (1001)
 
 ### 🎯 Strong match (59)
 
@@ -1801,10 +1803,11 @@ _Updated 2026-11-08. Grouped like the email: language → fit score; newest firs
 | 50 | ⏳ open 604 days | [(Senior) Manager SAP CX Sales Portfolio (all genders)](https://jobs.porsche.com/index.php?ac=jobad&id=14340) | Porsche | Ludwigsburg, Düsseldorf, Frankfurt am Main, München, Wolfsburg, Berlin, Nürnberg, Dresden, Hamburg |  | Porsche careers | 2026-10-18 |  | Manager SAP CX Sales Portfolio role in Germany requiring business-level German. |
 | 50 | ⏳ open 604 days | [(Senior) Manager SAP CX Sales Portfolio (all genders)](https://jobs.porsche.com/index.php?ac=jobad&id=14340) | MHP (Ludwigsburg) | Ludwigsburg, Düsseldorf, Frankfurt am Main, München, Wolfsburg, Berlin, Nürnberg, Dresden, Hamburg |  | MHP (Ludwigsburg) careers | 2026-10-18 |  | Manager SAP CX Sales Portfolio role at MHP requiring fluent German. |
 
-### 🗂 Low match (titles only) (519)
+### 🗂 Low match (titles only) (521)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
+| 20 | 🆕 ≤1 day | [E-Commerce Manager (m/w/d)](https://de.indeed.com/viewjob?jk=8a256bc329aaea7a) | FUTURACONTOUR® - Bio Medical Company GmbH | Coburg, BY, Germany |  | Indeed | 2026-11-08 |  | E‑Commerce manager is a non‑technical position and requires fluent German, which the candidate only has B1. |
 | 10 | 🆕 ≤1 day | [Customer Support Hero (m/w/d) im E-Commerce](https://www.stepstone.de/stellenangebote--Customer-Support-Hero-m-w-d-im-E-Commerce-Berlin-PK-Perfekt-Bau-eu-GmbH--13794375-inline.html) | PK Perfekt-Bau.eu GmbH | Berlin |  | StepStone | 2026-11-08 |  | Customer‑support position, no development responsibilities. |
 | 25 | 🆕 ≤1 day | [E-Commerce CVRO Manager (m/w/d) / Vollzeit](https://www.linkedin.com/jobs/view/4486628948) | VanSprint | Darmstadt, Hesse, Germany |  | Linkedin | 2026-11-07 |  | Senior e‑commerce manager role with limited technical focus. |
 | 25 | 🆕 ≤1 day | [Mitarbeiter für Onlineshop und Webentwicklung (m/w/d)](https://de.indeed.com/viewjob?jk=f55b06e373770a36) | Toycu - Home Security | Mönchengladbach, NW, Germany |  | Indeed | 2026-11-07 |  | Hands-on shop operations, shipping, and customer support position requiring fluent German. |
@@ -1814,6 +1817,7 @@ _Updated 2026-11-08. Grouped like the email: language → fit score; newest firs
 | 5 | 🆕 ≤1 day | [Manager Commercial Performance & Steering (m/w/d) - Saturn](https://de.indeed.com/viewjob?jk=2b491ae86b835623) | MediaMarkt | Ingolstadt, BY, Germany |  | Indeed | 2026-11-08 |  | Purely managerial retail performance role, no technical e‑commerce focus. |
 | 25 | 2–3 days | [Senior E-Commerce Performance Marketing Manager (w/m/d)](https://www.stepstone.de/stellenangebote--Senior-E-Commerce-Performance-Marketing-Manager-w-m-d-Berlin-FRITZ-GmbH--14676974-inline.html) | FRITZ! GmbH | Berlin |  | StepStone | 2026-11-06 |  | The position is centred on performance‑marketing, not software development. |
 | 25 | 2–3 days | [Product Manager Growth (m/w/d) - SaaS, E-Commerce, Stuttgart](https://www.stepstone.de/stellenangebote--Product-Manager-Growth-m-w-d-SaaS-E-Commerce-Stuttgart-Stuttgart-asellerate-GmbH--14257758-inline.html) | asellerate GmbH | Stuttgart |  | StepStone | 2026-11-06 |  | The role is a product‑manager position focused on growth strategy, while the candidate’s background is purely technical development. |
+| 25 | 2–3 days | [Junior CRO & Shop-Konzeption Berater (m/w/d) · Remote](https://de.indeed.com/viewjob?jk=2a0dfe47f64be76d) | EVOLVE Digital GmbH | Home Office, Germany |  | Indeed | 2026-11-08 |  | Junior CRO consultant is a non‑technical e‑commerce role and the posting is in German, exceeding her language level. |
 | 22 | 2–3 days | [Operations Manager (w/m/d) Shop, Fulfillment & Automatisierung](https://de.indeed.com/viewjob?jk=51527a2a4e436826) | Liebscher & Bracht Schmerzfrei GmbH | Frankfurt am Main, HE, Germany |  | Indeed | 2026-11-06 |  | Operations‑manager role deals with fulfillment, not software development. |
 | 20 | 2–3 days | [(Senior) E-Commerce Manager (m/w/d)](https://www.linkedin.com/jobs/view/4486225594) | reputatio systems GmbH | Pforzheim, Baden-Württemberg, Germany |  | Linkedin | 2026-11-06 |  | Senior e‑commerce manager role is managerial, not technical development. |
 | 20 | 2–3 days | [(Senior) Marketing Manager Performance & Growth (m/w/d) in wachsendem E-Commerce Unternehmen](https://www.stepstone.de/stellenangebote--Senior-Marketing-Manager-Performance-Growth-m-w-d-in-wachsendem-E-Commerce-Unternehmen-Koeln-auguma-digital--14368244-inline.html) | auguma.digital | Köln |  | StepStone | 2026-11-06 |  | Performance & growth marketing role, non‑technical, German required. |
@@ -1829,7 +1833,7 @@ _Updated 2026-11-08. Grouped like the email: language → fit score; newest firs
 | 15 | 2–3 days | [Büroleitung / Teamleitung Kundenservice : Office (m/w/d) E-Commerce / KFZ-Technik](https://www.stepstone.de/stellenangebote--Bueroleitung-Teamleitung-Kundenservice-Office-m-w-d-E-Commerce-KFZ-Technik-Berlin-Kroemer-GmbH--14154574-inline.html) | Kroemer GmbH | Berlin |  | StepStone | 2026-11-06 |  | It is an office‑management role unrelated to the candidate’s technical expertise. |
 | 15 | 2–3 days | [Kaufmännischer Mitarbeiter E-Commerce und Pricing (m/w/d)](https://www.stepstone.de/stellenangebote--Kaufmaennischer-Mitarbeiter-E-Commerce-und-Pricing-m-w-d-Bergisch-Gladbach-Bensberg-DS-EMOVA-GmbH--14439357-inline.html) | DS EMOVA GmbH | Bergisch Gladbach (Bensberg) |  | StepStone | 2026-11-06 |  | Commercial e‑commerce & pricing position is non‑technical and requires German. |
 | 15 | 2–3 days | [Performance Marketing Specialist – Meta & Google Ads (m/w/d)](https://de.indeed.com/viewjob?jk=abafce00dbcb26f6) | PIXEL.dental GmbH & Co. KG | Maintal, HE, Germany |  | Indeed | 2026-11-07 |  | Focus on performance marketing, not software development. |
-| 15 | 2–3 days | [TikTok Marketing Manager (m/w/d) · Remote](https://de.indeed.com/viewjob?jk=aca78df32478a81b) | EVOLVE Digital GmbH | Home Office, Germany |  | Indeed | 2026-11-08 |  | Marketing‑focused TikTok role, not a development position. |
+| 15 | 2–3 days | [TikTok Marketing Manager (m/w/d) · Remote](https://de.indeed.com/viewjob?jk=aca78df32478a81b) | EVOLVE Digital GmbH | Home Office, Germany | 🏠 | Indeed | 2026-11-08 |  | Marketing‑focused TikTok role, not a development position. |
 | 5 | 2–3 days | [Lehrkraft (m/w/d) im kaufmännischen Bereich - Eisenach](https://de.indeed.com/viewjob?jk=4c9a1b22fedf968c) | SBH | Eisenach, TH, Germany |  | Indeed | 2026-11-07 |  | Unrelated teaching position in the commercial sector. |
 | 0 | 2–3 days | [Inside Sales Specialist](https://de.indeed.com/viewjob?jk=48ab37aa844bd735) | West Pharmaceutical Services | Eschweiler, NW, Germany |  | Indeed | 2026-11-06 |  | Inside sales position in pharma is unrelated to e‑commerce development. |
 | 0 | 2–3 days | [Lehrkraft (m/w/d) im kaufmännischen Bereich - Bremen](https://de.indeed.com/viewjob?jk=76b68e5ba0b038a9) | SBH | Bremen, HB, Germany |  | Indeed | 2026-11-06 |  | Teaching position in commercial education is not a technical IT role. |
