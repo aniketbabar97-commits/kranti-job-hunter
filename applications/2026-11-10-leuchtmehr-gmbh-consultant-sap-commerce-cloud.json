@@ -1,0 +1,231 @@
+{
+ "job": {
+  "title": "Consultant SAP Commerce Cloud",
+  "company": "Leuchtmehr GmbH",
+  "location": "Weil am Rhein, Baden-Wuerttemberg",
+  "url": "https://www.arbeitsagentur.de/jobsuche/jobdetail/12288-4994420681-S",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "Arbeitsagentur",
+  "posted": "2026-11-10",
+  "contact": "carolin.wolz@leuchtmehr.de",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Consultant SAP Commerce Cloud | SAP Certified Developer & Java Expert",
+  "summary": "Techno-functional Consultant and SAP Certified Commerce Cloud Developer with 5+ years of professional experience building enterprise e-commerce platforms at Rockwell Automation and Shell. Expert in SAP Commerce Cloud (Hybris 2105/2211), Java, Spring, OCC REST APIs, and system integrations. Proven track record in requirements analysis, solution design, process mapping, and coordinating international technical and business stakeholders.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Product Catalog & PIM",
+    "Order Management (OMS)",
+    "Backoffice",
+    "Impex",
+    "Cronjobs",
+    "Promotions Engine"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "JUnit"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications"
+   ],
+   "DevOps & Cloud": [
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "production support and troubleshooting"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "PI Planning",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    6,
+    0,
+    1,
+    3,
+    4,
+    2,
+    5,
+    7
+   ],
+   "shell": [
+    6,
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "cognizant": [
+    3,
+    0,
+    1,
+    2
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "SAP CX",
+   "Consultant",
+   "Business Analysis",
+   "Stakeholder",
+   "Integrations",
+   "E-Commerce",
+   "Customer Journey",
+   "Prozessqualität",
+   "internationale SAP-Projekte"
+  ],
+  "keywords_missing": [
+   "SAP Sales Cloud",
+   "SAP S/4HANA",
+   "SAP BTP",
+   "SAP Integration Suite"
+  ],
+  "cover_en": {
+   "subject": "Application: Consultant SAP Commerce Cloud",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As an SAP Certified Commerce Cloud Developer with over 5 years of professional experience delivering enterprise platforms at Rockwell Automation and Shell, I am excited to apply for the Consultant SAP Commerce Cloud role at Leuchtmehr GmbH. Your focus on shaping digital shopping experiences and connecting modern SAP CX landscapes closely aligns with my techno-functional expertise.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architecture & Delivery",
+     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) at Rockwell Automation, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "Business Analysis & Stakeholder Management",
+     "text": "Acted in a techno-functional role bridging business and IT stakeholders: analysed business requirements, authored user stories and functional specifications, and translated them into robust SAP Commerce solutions."
+    },
+    {
+     "label": "System Integrations & Data Flows",
+     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub, and investigated and resolved complex integration bottlenecks between enterprise ERP and MDM platforms with international teams."
+    },
+    {
+     "label": "Platform Optimization & Quality Assurance",
+     "text": "Executed CI/CD deployment cycles on CCv2, performed code reviews, led database query refactoring to reduce response latency, and supported incident and release activities during production operations at Shell."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with a last working day on 15.12.2026 and am available to start from 16.12.2026. I look forward to discussing how my experience drives successful SAP projects.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Consultant SAP Commerce Cloud",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Als SAP Certified Commerce Cloud Developer mit über 5 Jahren Berufserfahrung in der Umsetzung großer E-Commerce-Plattformen bei Rockwell Automation und Shell freue ich mich sehr auf Ihre Vakanz als Consultant SAP Commerce Cloud bei der Leuchtmehr GmbH. Die Verknüpfung von E-Commerce, Customer Experience und modernen SAP-Technologien deckt sich exakt mit meinem technofunktionalen Profil.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Plattformentwicklung",
+     "text": "Entwicklung und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring bei Rockwell Automation, inklusive Produkt-, Katalog-, Preis- und Kundendatenmanagement."
+    },
+    {
+     "label": "Schnittstelle Business und IT",
+     "text": "Wahrnehmung einer technofunktionalen Rolle als zentraler Ansprechpartner für Fachbereiche: Analyse von Business-Anforderungen, Erstellung von User Stories und funktionalen Spezifikationen sowie Übersetzung in passgenaue SAP-Commerce-Lösungen."
+    },
+    {
+     "label": "Integrationen und Datenflüsse",
+     "text": "Konzeption und Aufbau von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfolders und DataHub sowie Analyse und Behebung von Integrationsengpässen zwischen ERP- und MDM-Plattformen in Zusammenarbeit mit internationalen Teams."
+    },
+    {
+     "label": "Systemverfügbarkeit und Qualitätssicherung",
+     "text": "Ausführung von CI/CD-Deployment-Zyklen auf CCv2, Durchführung von Code Reviews, Refactoring von Datenbankabfragen zur Reduzierung der Latenz sowie Betreuung von Incident- und Release-Aktivitäten bei Shell."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich wohne in Karlsruhe und verfüge über eine unbefristete deutsche Arbeitserlaubnis. Mein letzter Arbeitstag im aktuellen Beschäftigungsverhältnis ist der 15.12.2026; mein frühester Eintrittstermin ist der 16.12.2026. Ich freue mich auf ein persönliches Gespräch.",
+   "closing": ""
+  },
+  "why_company": "Leuchtmehr GmbH offers an inspiring environment to shape digital shopping experiences and advance modern SAP CX landscapes. I am drawn to this opportunity because it perfectly leverages my 5+ years of techno-functional SAP Commerce Cloud experience, bridging business requirements with robust technical architecture for international manufacturing clients.",
+  "motivation_short": "Driving digital commerce platforms and customer journeys as a techno-functional SAP Commerce Cloud Consultant, connecting business needs with enterprise IT solutions.",
+  "linkedin_message": "Hi! With 5+ years building enterprise SAP Commerce Cloud platforms at Rockwell and Shell, plus strong techno-functional background in business analysis and integrations, I'd love to contribute to Leuchtmehr's SAP CX projects. My CV and cover letter are attached.",
+  "email_subject": "Bewerbung: Consultant SAP Commerce Cloud – Kranti Chavan",
+  "email_body": "Sehr geehrte Damen und Herren,\n\nals SAP Certified Commerce Cloud Developer mit über 5 Jahren Erfahrung in der Umsetzung komplexer E-Commerce-Plattformen bei Rockwell Automation und Shell bewerbe ich mich hiermit um die Position als Consultant SAP Commerce Cloud bei der Leuchtmehr GmbH.\n\nMeine vollständigen Bewerbungsunterlagen (Anschreiben und Lebenslauf) sind dieser E-Mail beigefügt. Ich freue mich sehr über die Gelegenheit zu einem persönlichen Gespräch.\n\nMit freundlichen Grüßen,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Consultant SAP Commerce Cloud",
+   "salutation": "Dear Hiring Team,",
+   "hook": "As an SAP Certified Commerce Cloud Developer with over 5 years of professional experience delivering enterprise platforms at Rockwell Automation and Shell, I am excited to apply for the Consultant SAP Commerce Cloud role at Leuchtmehr GmbH. Your focus on shaping digital shopping experiences and connecting modern SAP CX landscapes closely aligns with my techno-functional expertise.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architecture & Delivery",
+     "text": "Designed and implemented backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) at Rockwell Automation, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "Business Analysis & Stakeholder Management",
+     "text": "Acted in a techno-functional role bridging business and IT stakeholders: analysed business requirements, authored user stories and functional specifications, and translated them into robust SAP Commerce solutions."
+    },
+    {
+     "label": "System Integrations & Data Flows",
+     "text": "Engineered PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub, and investigated and resolved complex integration bottlenecks between enterprise ERP and MDM platforms with international teams."
+    },
+    {
+     "label": "Platform Optimization & Quality Assurance",
+     "text": "Executed CI/CD deployment cycles on CCv2, performed code reviews, led database query refactoring to reduce response latency, and supported incident and release activities during production operations at Shell."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am based in Karlsruhe with a valid German residence and work permit. I am currently serving my notice period with a last working day on 15.12.2026 and am available to start from 16.12.2026. I look forward to discussing how my experience drives successful SAP projects.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Consultant SAP Commerce Cloud",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Als SAP Certified Commerce Cloud Developer mit über 5 Jahren Berufserfahrung in der Umsetzung großer E-Commerce-Plattformen bei Rockwell Automation und Shell freue ich mich sehr auf Ihre Vakanz als Consultant SAP Commerce Cloud bei der Leuchtmehr GmbH. Die Verknüpfung von E-Commerce, Customer Experience und modernen SAP-Technologien deckt sich exakt mit meinem technofunktionalen Profil.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Plattformentwicklung",
+     "text": "Entwicklung und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring bei Rockwell Automation, inklusive Produkt-, Katalog-, Preis- und Kundendatenmanagement."
+    },
+    {
+     "label": "Schnittstelle Business und IT",
+     "text": "Wahrnehmung einer technofunktionalen Rolle als zentraler Ansprechpartner für Fachbereiche: Analyse von Business-Anforderungen, Erstellung von User Stories und funktionalen Spezifikationen sowie Übersetzung in passgenaue SAP-Commerce-Lösungen."
+    },
+    {
+     "label": "Integrationen und Datenflüsse",
+     "text": "Konzeption und Aufbau von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfolders und DataHub sowie Analyse und Behebung von Integrationsengpässen zwischen ERP- und MDM-Plattformen in Zusammenarbeit mit internationalen Teams."
+    },
+    {
+     "label": "Systemverfügbarkeit und Qualitätssicherung",
+     "text": "Ausführung von CI/CD-Deployment-Zyklen auf CCv2, Durchführung von Code Reviews, Refactoring von Datenbankabfragen zur Reduzierung der Latenz sowie Betreuung von Incident- und Release-Aktivitäten bei Shell."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich wohne in Karlsruhe und verfüge über eine unbefristete deutsche Arbeitserlaubnis. Mein letzter Arbeitstag im aktuellen Beschäftigungsverhältnis ist der 15.12.2026; mein frühester Eintrittstermin ist der 16.12.2026. Ich freue mich auf ein persönliches Gespräch.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-10"
+}
