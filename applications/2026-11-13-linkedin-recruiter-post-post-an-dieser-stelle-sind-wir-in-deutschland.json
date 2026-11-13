@@ -1,0 +1,218 @@
+{
+ "job": {
+  "title": "[Post] An dieser Stelle sind wir in Deutschland noch nicht. Zum einen ist die ... Hybris und Arro…",
+  "company": "LinkedIn recruiter post",
+  "location": "",
+  "url": "https://de.linkedin.com/posts/stefanmannes_us-midterms-2026-orb%C3%A1n-abgew%C3%A4hlt-trump-activity-7525475209462706176-hvkO",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "LinkedIn post",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "RESTful APIs",
+    "Microservices",
+    "JUnit"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "SAP Commerce Cloud Portal (CCv2)"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    3
+   ],
+   "cognizant": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Hybris",
+   "Java",
+   "Spring",
+   "REST APIs",
+   "PIM",
+   "ERP",
+   "Integrations"
+  ],
+  "keywords_missing": [
+   "Arroganz"
+  ],
+  "cover_en": {
+   "subject": "Application: SAP Hybris Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "With over 5 years of hands-on experience building and scaling enterprise e-commerce platforms on SAP Commerce Cloud (Hybris 2105 and 2211) at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and OCC REST APIs. I am excited to apply my techno-functional background to contribute to your engineering goals.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architecture",
+     "text": "Designed and implemented robust backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "API & Integration Expertise",
+     "text": "Developed and exposed OCC REST Web Services and custom Interceptors, Populators, and Converters, alongside building PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
+    },
+    {
+     "label": "Enterprise Platforms",
+     "text": "Maintained and extended core SAP Hybris modules including Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts, and Order Management (OMS) across international client projects."
+    },
+    {
+     "label": "Techno-Functional Delivery",
+     "text": "Acted as a bridge between business and technical teams by analysing requirements, writing user stories and functional specifications, and translating them into scalable SAP Commerce solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026, making me available to start from 16.12.2026. I look forward to discussing how my experience fits your team.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als SAP Hybris Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Mit über 5 Jahren praktischer Erfahrung in der Entwicklung und Betreuung von Enterprise E-Commerce-Plattformen auf Basis von SAP Commerce Cloud (Hybris 2105 und 2211) bei Rockwell Automation und Shell bringe ich tiefgehende Expertise in Java, Spring und OCC REST APIs mit. Gerne möchte ich meine techno-funktionalen Fähigkeiten in Ihr Team einbringen.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architektur",
+     "text": "Entwurf und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring für Produkt-, Katalog-, Preis- und Kundendatenmanagement nach Best Practices."
+    },
+    {
+     "label": "API- und Integrationsentwicklung",
+     "text": "Entwicklung und Bereitstellung von OCC REST Web Services sowie Anpassung von Interceptors, Populators und Converters; Aufbau von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfolders und DataHub."
+    },
+    {
+     "label": "Core Hybris Module",
+     "text": "Wartung und Erweiterung von Kernmodulen wie Promotions Engine, Hotfolders, FlexibleSearch Queries, Cronjobs, Impex-Skripten und Order Management (OMS) in internationalen Projekten."
+    },
+    {
+     "label": "Techno-Funktionale Beratung",
+     "text": "Analyse von Geschäftsanforderungen, Erstellung von User Stories und funktionalen Spezifikationen sowie enge Zusammenarbeit mit internationalen Fach- und Technik-Teams."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Aufenthalts- und Arbeitserlaubnis und befinde mich in einer Kündigungsfrist mit letztem Arbeitstag am 15.12.2026 (frühester Start 16.12.2026). Ich freue mich auf ein persönliches Gespräch.",
+   "closing": ""
+  },
+  "why_company": "I want to apply my 5+ years of SAP Commerce Cloud (Hybris) and Java expertise to help your engineering team build scalable enterprise e-commerce solutions, drive robust data integrations, and deliver high-performance digital platforms.",
+  "motivation_short": "Bringing 5+ years of SAP Commerce Cloud and Java expertise to build scalable e-commerce platforms and integrations.",
+  "linkedin_message": "Hello, I have 5+ years of experience as an SAP Commerce Cloud (Hybris) Developer building scalable enterprise platforms and integrations with Java and Spring. My last working day is 15.12.2026 and I would love to connect.",
+  "email_subject": "Application: SAP Hybris Developer - Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nI am writing to apply for the SAP Hybris Developer position. With over 5 years of professional experience building and scaling enterprise platforms on SAP Commerce Cloud (Hybris 2105 and 2211) using Java, Spring, and OCC REST APIs, I am confident in my ability to add value to your team.\n\nPlease find my CV and cover letter attached. I hold a valid work permit and can start on 16.12.2026 following my notice period.\n\nBest regards,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Hybris Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "With over 5 years of hands-on experience building and scaling enterprise e-commerce platforms on SAP Commerce Cloud (Hybris 2105 and 2211) at Rockwell Automation and Shell, I bring deep technical expertise in Java, Spring, and OCC REST APIs. I am excited to apply my techno-functional background to contribute to your engineering goals.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architecture",
+     "text": "Designed and implemented robust backend and frontend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "API & Integration Expertise",
+     "text": "Developed and exposed OCC REST Web Services and custom Interceptors, Populators, and Converters, alongside building PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub."
+    },
+    {
+     "label": "Enterprise Platforms",
+     "text": "Maintained and extended core SAP Hybris modules including Promotions Engine, Hotfolders, FlexibleSearch queries, Cronjobs, Impex scripts, and Order Management (OMS) across international client projects."
+    },
+    {
+     "label": "Techno-Functional Delivery",
+     "text": "Acted as a bridge between business and technical teams by analysing requirements, writing user stories and functional specifications, and translating them into scalable SAP Commerce solutions."
+    }
+   ],
+   "gap": "",
+   "logistics": "I am based in Karlsruhe, hold a valid German residence and work permit, and am currently serving a notice period with my last working day on 15.12.2026, making me available to start from 16.12.2026. I look forward to discussing how my experience fits your team.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als SAP Hybris Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Mit über 5 Jahren praktischer Erfahrung in der Entwicklung und Betreuung von Enterprise E-Commerce-Plattformen auf Basis von SAP Commerce Cloud (Hybris 2105 und 2211) bei Rockwell Automation und Shell bringe ich tiefgehende Expertise in Java, Spring und OCC REST APIs mit. Gerne möchte ich meine techno-funktionalen Fähigkeiten in Ihr Team einbringen.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Architektur",
+     "text": "Entwurf und Implementierung von Backend- und Frontend-Funktionalitäten auf SAP Commerce Cloud (Hybris 2211) mit Java und Spring für Produkt-, Katalog-, Preis- und Kundendatenmanagement nach Best Practices."
+    },
+    {
+     "label": "API- und Integrationsentwicklung",
+     "text": "Entwicklung und Bereitstellung von OCC REST Web Services sowie Anpassung von Interceptors, Populators und Converters; Aufbau von PIM-zu-Hybris-Datenpipelines mittels Profisee, Hotfolders und DataHub."
+    },
+    {
+     "label": "Core Hybris Module",
+     "text": "Wartung und Erweiterung von Kernmodulen wie Promotions Engine, Hotfolders, FlexibleSearch Queries, Cronjobs, Impex-Skripten und Order Management (OMS) in internationalen Projekten."
+    },
+    {
+     "label": "Techno-Funktionale Beratung",
+     "text": "Analyse von Geschäftsanforderungen, Erstellung von User Stories und funktionalen Spezifikationen sowie enge Zusammenarbeit mit internationalen Fach- und Technik-Teams."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Aufenthalts- und Arbeitserlaubnis und befinde mich in einer Kündigungsfrist mit letztem Arbeitstag am 15.12.2026 (frühester Start 16.12.2026). Ich freue mich auf ein persönliches Gespräch.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-13"
+}

@@ -1,0 +1,167 @@
+{
+ "job": {
+  "title": "[Post] Hey folks, we're hiring for multiple roles on #Instahyre! Apply now if interested and shar…",
+  "company": "Aishwarya Halakatti",
+  "location": "",
+  "url": "https://www.linkedin.com/posts/aishwarya-halakatti-05141217b_open-roles-on-instahyre-apply-now-activity-7524715617329963008-jWPB",
+  "apply_url": "",
+  "score": 65,
+  "lang": "en",
+  "source": "LinkedIn post",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "Backend developer with 5+ years of professional experience building, extending and supporting large enterprise e-commerce platforms (SAP Commerce Cloud / Hybris 2105 and 2211) for Rockwell Automation and Shell. Strong in Java, Spring and Spring Boot, RESTful APIs, microservices, SQL and database performance tuning, with proven delivery of data and API integrations between PIM, ERP and MDM systems. Hands-on with CI/CD pipelines, cloud deployments, Docker and Kubernetes, production troubleshooting, Git, code reviews and agile teams.",
+  "skills": {
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Order Management (OMS)",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "Design Patterns",
+    "JUnit"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders"
+   ],
+   "Databases & Search": [
+    "SQL",
+    "query optimization and performance tuning",
+    "FlexibleSearch",
+    "Apache Solr"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)"
+   ],
+   "Ways of Working": [
+    "Agile / Scrum",
+    "Jira",
+    "Confluence",
+    "Code Reviews",
+    "International Teams"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    3
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Java",
+   "Spring",
+   "REST APIs",
+   "Integration",
+   "Agile"
+  ],
+  "keywords_missing": [
+   "Salesforce Commerce Cloud",
+   "SFCC"
+  ],
+  "cover_en": {
+   "subject": "Application: Salesforce Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am very interested in contributing my strong enterprise platform engineering background to your expanding e-commerce initiatives. With over 5 years of professional experience building, extending, and supporting large-scale commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in backend development and API integration.",
+   "bullets": [
+    {
+     "label": "Platform & Backend Engineering",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "RESTful APIs & Headless Integration",
+     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for seamless data flows."
+    },
+    {
+     "label": "Data Pipelines & Enterprise Integration",
+     "text": "Designed, built, and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub, resolving integration bottlenecks between SAP ERP, MDM, and e-commerce channels."
+    },
+    {
+     "label": "Deployment & Production Operations",
+     "text": "Executed CI/CD deployment cycles on CCv2, led database query refactoring to reduce response latency, and provided robust production troubleshooting within agile DevOps workflows."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German work permit, I am serving a notice period with my last working day on 15.12.2026, making me available to start on 16.12.2026. I would welcome the opportunity to discuss how my engineering experience aligns with your team's goals.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "I am eager to bring my 5+ years of enterprise e-commerce experience from Rockwell Automation and Shell to your team. Building scalable backend solutions, robust REST APIs, and seamless integrations using Java and Spring drives my work every day.",
+  "motivation_short": "5+ years of enterprise commerce engineering experience with Java, Spring, and complex API integrations, ready to deliver immediate impact.",
+  "linkedin_message": "Hi Aishwarya, I saw your hiring post for e-commerce roles on Instahyre. With 5+ years building enterprise platforms (Java, Spring, REST APIs) at Rockwell and Shell, I'd love to connect regarding your opening. I'm available from Dec 16, 2026. Let's talk!",
+  "email_subject": "Application – Salesforce Commerce Cloud Developer – Kranti Chavan",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Salesforce Commerce Cloud Developer position. With over 5 years of hands-on experience building, integrating, and optimizing enterprise e-commerce platforms using Java, Spring, and RESTful APIs at Rockwell Automation and Shell, I bring strong backend and integration expertise.\n\nI am based in Karlsruhe with a valid work permit and am available starting 16.12.2026. I look forward to discussing how my background matches your technical needs.\n\nBest regards,\nKranti Chavan"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Salesforce Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am very interested in contributing my strong enterprise platform engineering background to your expanding e-commerce initiatives. With over 5 years of professional experience building, extending, and supporting large-scale commerce platforms at Rockwell Automation and Shell, I bring deep technical expertise in backend development and API integration.",
+   "bullets": [
+    {
+     "label": "Platform & Backend Engineering",
+     "text": "Designed and implemented backend functionality on SAP Commerce Cloud (Hybris 2211) using Java and Spring, covering product, catalog, pricing, and customer data management following platform best practices."
+    },
+    {
+     "label": "RESTful APIs & Headless Integration",
+     "text": "Developed and exposed OCC REST Web Services and headless APIs for storefront and third-party consumers, customizing Interceptors, Populators, and Converters for seamless data flows."
+    },
+    {
+     "label": "Data Pipelines & Enterprise Integration",
+     "text": "Designed, built, and optimized PIM-to-Hybris data pipelines using Profisee, Hotfolders, and DataHub, resolving integration bottlenecks between SAP ERP, MDM, and e-commerce channels."
+    },
+    {
+     "label": "Deployment & Production Operations",
+     "text": "Executed CI/CD deployment cycles on CCv2, led database query refactoring to reduce response latency, and provided robust production troubleshooting within agile DevOps workflows."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe with a valid German work permit, I am serving a notice period with my last working day on 15.12.2026, making me available to start on 16.12.2026. I would welcome the opportunity to discuss how my engineering experience aligns with your team's goals.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-13"
+}
