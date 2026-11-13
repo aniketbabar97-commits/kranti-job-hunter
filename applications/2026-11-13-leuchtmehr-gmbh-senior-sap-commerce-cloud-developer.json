@@ -1,0 +1,242 @@
+{
+ "job": {
+  "title": "Senior SAP Commerce Cloud Developer",
+  "company": "Leuchtmehr GmbH",
+  "location": "Wetzlar",
+  "url": "https://www.xing.com/jobs/wetzlar-senior-sap-commerce-cloud-developer-159124235",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "XING",
+  "posted": "2026-11-11",
+  "contact": "carolin.wolz@leuchtmehr.de",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior SAP Commerce Cloud Developer | Java, Spring & OCC REST APIs | SAP Certified",
+  "summary": "Backend developer with over 5 years of experience delivering large-scale SAP Commerce Cloud (Hybris 2105/2211) solutions for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot and REST/OCC APIs, with proven success in designing and optimizing PIM/ERP/MDM integrations, performance tuning, CI/CD pipelines and cloud deployments. Skilled in techno-functional analysis, user story creation and agile delivery, leveraging AI tools for rapid development and documentation.",
+  "skills": {
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    3
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Java",
+   "Spring",
+   "RESTful Services",
+   "API integration",
+   "Integration",
+   "Performance optimization",
+   "Scalability",
+   "Code quality",
+   "CI/CD",
+   "Git",
+   "Automated tests",
+   "DevOps",
+   "Agile",
+   "International projects",
+   "Full-Stack development",
+   "JavaScript",
+   "PWA integration"
+  ],
+  "keywords_missing": [
+   "Angular",
+   "React",
+   "TypeScript",
+   "SAP BTP",
+   "SAP S/4HANA",
+   "SAP Integration Suite",
+   "Technical team coordination"
+  ],
+  "cover_en": {
+   "subject": "Application: Senior SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited to join Leuchtmehr GmbH because its global SAP Commerce platform aligns with my passion for building complex e-commerce solutions. With more than five years of hands-on experience on SAP Commerce Cloud for Rockwell Automation and Shell, I have delivered high-performance backend services, integrations and modern APIs that drive international commerce.",
+   "bullets": [
+    {
+     "label": "Technical Design",
+     "text": "At Rockwell Automation I designed and implemented backend architectures on SAP Commerce Cloud 2211, defining data models, services and performance-optimized components that meet enterprise scalability requirements."
+    },
+    {
+     "label": "Java & Spring Development",
+     "text": "I have built Java-based applications and REST/OCC services using Spring and Spring Boot, delivering robust APIs for storefronts and third-party integrations across multiple projects."
+    },
+    {
+     "label": "Integration Expertise",
+     "text": "I led PIM-to-Hybris data pipelines and integrated SAP ERP, MDM and Profisee systems, ensuring seamless product catalog synchronization and reliable data flow."
+    },
+    {
+     "label": "CI/CD & DevOps",
+     "text": "I executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2) with Jenkins, Docker and Kubernetes, and introduced automated tests to improve code quality and release speed."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, I hold a valid German residence and work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to your team.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als Senior SAP Commerce Cloud Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Möglichkeit, bei Leuchtmehr GmbH an einer internationalen SAP-Commerce-Plattform zu arbeiten, entspricht exakt meiner Leidenschaft für komplexe E-Commerce-Lösungen. Mit über fünf Jahren Erfahrung in SAP Commerce Cloud bei Rockwell Automation und Shell habe ich leistungsstarke Backend-Services, Integrationen und moderne APIs erfolgreich umgesetzt.",
+   "bullets": [
+    {
+     "label": "Technische Konzeption",
+     "text": "Bei Rockwell Automation habe ich die Backend-Architektur auf SAP Commerce Cloud 2211 entworfen und skalierbare Datenmodelle sowie Services implementiert."
+    },
+    {
+     "label": "Java- & Spring-Entwicklung",
+     "text": "Ich entwickelte Java-Anwendungen und REST/OCC-Schnittstellen mit Spring und Spring Boot, die stabile APIs für Storefronts und Drittanbieter bereitstellen."
+    },
+    {
+     "label": "Integrations-Expertise",
+     "text": "Ich verantwortete PIM-zu-Hybris-Datenpipelines und die Integration von SAP ERP, MDM und Profisee, wodurch eine konsistente Produktkatalog-Synchronisation gewährleistet wurde."
+    },
+    {
+     "label": "CI/CD & DevOps",
+     "text": "Ich führte CI/CD-Deployments auf SAP Commerce Cloud (CCv2) mit Jenkins, Docker und Kubernetes durch und implementierte automatisierte Tests zur Steigerung der Code-Qualität."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Arbeitserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Ich freue mich auf ein Gespräch, um meinen Beitrag zu Ihrem Projekt zu erläutern.",
+   "closing": ""
+  },
+  "why_company": "Leuchtmehr GmbH stands out for its commitment to innovative, globally-scaled SAP Commerce solutions that empower customers across markets. Your focus on modern web components, seamless SAP integrations and continuous delivery resonates with my experience delivering high-performance, AI-assisted e-commerce platforms for Rockwell Automation and Shell. I am eager to contribute my SAP Commerce expertise to further strengthen your international footprint.",
+  "motivation_short": "I want to help Leuchtmehr build cutting-edge, scalable SAP Commerce solutions, leveraging my 5+ years of backend, integration and DevOps experience to drive global e-commerce success.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a Senior SAP Commerce Cloud Developer with 5+ years delivering high-performance e-commerce platforms for Rockwell Automation and Shell. I’m interested in the Senior SAP Commerce Cloud role at Leuchtmehr GmbH and would love to discuss how I can add value.",
+  "email_subject": "Application – Senior SAP Commerce Cloud Developer",
+  "email_body": "Dear Hiring Team,\n\nPlease find attached my CV and cover letter for the Senior SAP Commerce Cloud Developer position at Leuchtmehr GmbH. With over five years of SAP Commerce Cloud experience at Rockwell Automation and Shell, I am confident I can contribute to your innovative e-commerce initiatives.\n\nI look forward to the opportunity to discuss my fit for the role.\n"
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Senior SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited to join Leuchtmehr GmbH because its global SAP Commerce platform aligns with my passion for building complex e-commerce solutions. With more than five years of hands-on experience on SAP Commerce Cloud for Rockwell Automation and Shell, I have delivered high-performance backend services, integrations and modern APIs that drive international commerce.",
+   "bullets": [
+    {
+     "label": "Technical Design",
+     "text": "At Rockwell Automation I designed and implemented backend architectures on SAP Commerce Cloud 2211, defining data models, services and performance-optimized components that meet enterprise scalability requirements."
+    },
+    {
+     "label": "Java & Spring Development",
+     "text": "I have built Java-based applications and REST/OCC services using Spring and Spring Boot, delivering robust APIs for storefronts and third-party integrations across multiple projects."
+    },
+    {
+     "label": "Integration Expertise",
+     "text": "I led PIM-to-Hybris data pipelines and integrated SAP ERP, MDM and Profisee systems, ensuring seamless product catalog synchronization and reliable data flow."
+    },
+    {
+     "label": "CI/CD & DevOps",
+     "text": "I executed CI/CD deployment cycles on SAP Commerce Cloud (CCv2) with Jenkins, Docker and Kubernetes, and introduced automated tests to improve code quality and release speed."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, I hold a valid German residence and work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute to your team.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als Senior SAP Commerce Cloud Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die Möglichkeit, bei Leuchtmehr GmbH an einer internationalen SAP-Commerce-Plattform zu arbeiten, entspricht exakt meiner Leidenschaft für komplexe E-Commerce-Lösungen. Mit über fünf Jahren Erfahrung in SAP Commerce Cloud bei Rockwell Automation und Shell habe ich leistungsstarke Backend-Services, Integrationen und moderne APIs erfolgreich umgesetzt.",
+   "bullets": [
+    {
+     "label": "Technische Konzeption",
+     "text": "Bei Rockwell Automation habe ich die Backend-Architektur auf SAP Commerce Cloud 2211 entworfen und skalierbare Datenmodelle sowie Services implementiert."
+    },
+    {
+     "label": "Java- & Spring-Entwicklung",
+     "text": "Ich entwickelte Java-Anwendungen und REST/OCC-Schnittstellen mit Spring und Spring Boot, die stabile APIs für Storefronts und Drittanbieter bereitstellen."
+    },
+    {
+     "label": "Integrations-Expertise",
+     "text": "Ich verantwortete PIM-zu-Hybris-Datenpipelines und die Integration von SAP ERP, MDM und Profisee, wodurch eine konsistente Produktkatalog-Synchronisation gewährleistet wurde."
+    },
+    {
+     "label": "CI/CD & DevOps",
+     "text": "Ich führte CI/CD-Deployments auf SAP Commerce Cloud (CCv2) mit Jenkins, Docker und Kubernetes durch und implementierte automatisierte Tests zur Steigerung der Code-Qualität."
+    }
+   ],
+   "gap": "",
+   "logistics": "Ich lebe in Karlsruhe, besitze eine gültige deutsche Arbeitserlaubnis, befinde mich in der Kündigungsfrist bis zum 15.12.2026 und kann ab dem 16.12.2026 starten. Ich freue mich auf ein Gespräch, um meinen Beitrag zu Ihrem Projekt zu erläutern.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-13"
+}
