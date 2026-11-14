@@ -1,13 +1,13 @@
-# Job record — every job sent (2625)
+# Job record — every job sent (2629)
 
 _Updated 2026-11-14. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel. Mark applications in [APPLIED.md](APPLIED.md)._
 
-- [🇬🇧 English-speaking jobs (1451)](#english)
+- [🇬🇧 English-speaking jobs (1455)](#english)
 - [🇩🇪 German-speaking jobs (1174)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (1451)
+## 🇬🇧 English-speaking jobs (1455)
 
 ### 🎯 Strong match (50)
 
@@ -68,7 +68,7 @@ _Updated 2026-11-14. Grouped like the email: language → fit score; newest firs
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
-| 68 | 🆕 ≤1 day | [Contentstack / Headless CMS Architects - 100% remote, ASAP, 6+ months](https://de.indeed.com/viewjob?jk=85d596ec0f5fa787) | wynwood tech LLC | Home Office, Germany |  | Indeed | 2026-11-14 |  | Headless CMS architecture, technical but outside SAP Commerce scope. |
+| 68 | 🆕 ≤1 day | [Contentstack / Headless CMS Architects - 100% remote, ASAP, 6+ months](https://de.indeed.com/viewjob?jk=85d596ec0f5fa787) | wynwood tech LLC | Home Office, Germany | 🏠 | Indeed | 2026-11-14 |  | Headless CMS architecture, technical but outside SAP Commerce scope. |
 | 65 | 🆕 ≤1 day | [[Post] ... looking for reliable talent delivery support. Whether you have immediate ... 3d. Repor…](https://www.linkedin.com/posts/priyanka-rani-8bb792209_groviya-salesforce-ai-data-and-cloud-activity-7525433833983447040-Jka6) | Priyanka Rani ... |  |  | LinkedIn post | 2026-11-14 |  | The role is for Salesforce Commerce Cloud development, which is a different platform but matches her e‑commerce Java backend experience. [capped: post doesn't say Germany or remote] |
 | 65 | 🆕 ≤1 day | [[Post] SAP POS QA Analyst Job Opening in Ankeny IA](https://www.linkedin.com/posts/jaya-sree-201440245_immediatehiring-c2c-greetings-from-tek-activity-7525645440898195457-Bfju) | jaya sree posted on the topic |  |  | LinkedIn post | 2026-11-14 |  | QA analyst for SAP POS involves testing e‑commerce systems, aligning with her technical background but not pure development. |
 | 72 | 🆕 ≤1 day | [Senior Technical Product Manager (all genders) - Storefront Hosting](https://de.indeed.com/viewjob?jk=861717d56db9fb8a) | ABOUT YOU SE & Co. KG | Hamburg, HH, Germany |  | Indeed | 2026-11-13 |  | Technical product manager for a storefront platform aligns with Java/SAP Commerce backend experience. |
@@ -270,13 +270,16 @@ _Updated 2026-11-14. Grouped like the email: language → fit score; newest firs
 | 60 | ⏳ open 35 days | [E-Commerce Webdeveloper Shopify](https://www.linkedin.com/jobs/view/4468994031) | Kijimea (SYNformulas GmbH) | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 |  | Shopify web development role on an adjacent e-commerce platform, though she specializes in Java/SAP Commerce. |
 | 60 | ⏳ open 35 days | [Product Owner:in Digitale Kundenlösungen (m/w/d)](https://de.indeed.com/viewjob?jk=5c1d1f0fe80eebb0) | HÖRMANN | Steinhagen, NW, Germany |  | Indeed | 2026-10-10 | ✅ Applied | Product Owner role for digital customer solutions matching her adjacent interests, but requires fluent German. |
 
-### 👀 Worth a look (772)
+### 👀 Worth a look (776)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
 | 45 | 🆕 ≤1 day | [[Post] SAP CX Consultant Job Opening at Almarasem Development](https://www.linkedin.com/posts/abdelrahman-ahmed-4131981b7_sapcxconsultant-activity-7525138160419397635-cz8t) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-14 |  | LinkedIn post without a concrete role, limited relevance. |
 | 45 | 🆕 ≤1 day | [[Post] SAP Field Service Transformation](https://www.linkedin.com/posts/jose-garcia-mba_fieldservice-sap-saps4hana-activity-7526672983210344448-wcOA) | Jose Garcia, MBA |  |  | LinkedIn post | 2026-11-14 |  | LinkedIn post about SAP Field Service, not a development position. |
 | 45 | 🆕 ≤1 day | [[Post] commercetools specifically names teaching as a background it values. Pay structures and of…](https://www.linkedin.com/posts/bobhayward_hiring-businessdevelopment-salesjobs-activity-7526186290946441216-JQ8G) | Bob Hayward |  |  | LinkedIn post | 2026-11-14 |  | Commercetools is an adjacent commerce platform; her Java/Spring and integration background fits well. [capped: post doesn't clearly name an open role] |
+| 45 | 🆕 ≤1 day | [[Post] SFMC Architect Job at WillWare Technologies](https://www.linkedin.com/posts/swetha-s-484233280_hiring-sfmc-sfmcarchitect-activity-7525786823906832384-jp-Q) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-14 |  | Generic recruiter post without a specific opening; only mentions SFCC. |
+| 45 | 🆕 ≤1 day | [[Post] Looking for ecommerce agencies I've seen so many of these posts on LinkedIn ... SFCC. The…](https://www.linkedin.com/posts/mary-johns-magento_looking-for-ecommerce-agencies-ive-seen-activity-7526960430527860736-iD6e) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-14 |  | Broad LinkedIn post seeking agencies, not a defined position. |
+| 45 | 🆕 ≤1 day | [[Post] SAP Commerce Cloud has a great future! Alexandru Jijian 3y. Explore content categories. Ca…](https://www.linkedin.com/posts/alexandrujijian_we-urgently-need-to-monitor-ai-agents-actions-activity-7525182999924125696-cZ1t) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-14 |  | Informational LinkedIn post about SAP Commerce Cloud, not a job listing. |
 | 40 | 🆕 ≤1 day | [[Post] SAP Commerce Cloud has a great future! Alexandru Jijian 3y. Explore content categories. Ca…](https://www.linkedin.com/posts/alexandrujijian_we-urgently-need-to-monitor-ai-agents-actions-activity-7525182999924125696-cZ1t) | Alexandru Jijian |  |  | LinkedIn post | 2026-11-14 |  | The post is only a LinkedIn discussion about SAP Commerce Cloud, not a concrete job opening. |
 | 45 | 🆕 ≤1 day | [[Post] Senior Architect - Syneos Health Careers](https://www.linkedin.com/posts/goswamichandra_syneoshealth-hiring-azurearchitect-activity-7526284779726655488-wRNO) | Chandra G |  |  | LinkedIn post | 2026-11-13 |  | Senior architect position expects far more experience than the candidate has. [capped: post doesn't say Germany or remote] |
 | 45 | 🆕 ≤1 day | [[Post] Preeti Pandey - Senior Java Enterprise Architect 📍 Location](https://www.linkedin.com/posts/preeti-pandey-3b47b5169_hiring-senior-java-enterprise-architect-activity-7524496348382138368-njhU) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-13 |  | Senior Java architect role focused on Salesforce Commerce Cloud modernization. [capped: post doesn't say Germany or remote] |
@@ -290,6 +293,7 @@ _Updated 2026-11-14. Grouped like the email: language → fit score; newest firs
 | 35 | 🆕 ≤1 day | [Content Management E-Commerce (all genders)](https://www.linkedin.com/jobs/view/4490706217) | For Sale Digital Internet-Agentur GmbH | Hamburg, Germany |  | Linkedin | 2026-11-13 |  | Content‑management role, not a development position. |
 | 35 | 🆕 ≤1 day | [[Post] Michal Mateja - SAP S/4 HANA & Salesforce Rollout](https://www.linkedin.com/posts/michalmateja_it-project-manager-sap-s4-hana-salesforce-activity-7525532213858447360-k4CH) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-13 |  | Vague recruiter post without a concrete Hybris developer role. |
 | 35 | 🆕 ≤1 day | [CRM Manager Netherlands (f/m/d)](https://de.indeed.com/viewjob?jk=1742efc79c640d2f) | HolidayPirates Group | Berlin, BE, Germany |  | Indeed | 2026-11-14 |  | CRM manager position, not a technical development role. |
+| 35 | 🆕 ≤1 day | [Lead Salsify PIM Developer](https://www.linkedin.com/jobs/view/4489597498) | Overt Minds | Job, Auvergne-Rhône-Alpes, France |  | Linkedin | 2026-11-14 |  | PIM expertise aligns partially, but the role focuses on Salsify and is not SAP Commerce. [capped: on-site outside Germany] |
 | 30 | 🆕 ≤1 day | [Brand Consultant (All Genders)](https://de.indeed.com/viewjob?jk=2f9fbc619476ab1f) | zooplus | München, BY, Germany |  | Indeed | 2026-11-13 |  | Brand consulting, unrelated to technical development. |
 | 30 | 🆕 ≤1 day | [E-commerce Manager](https://www.linkedin.com/jobs/view/4488915260) | HELL ENERGY | Budapest, Hungary |  | Linkedin | 2026-11-13 |  | E‑Commerce Manager in Hungary is a non‑technical role and outside the candidate’s location preference. |
 | 30 | 🆕 ≤1 day | [[Post] Senior .NET Architect for eCommerce Solutions in Seattle](https://www.linkedin.com/posts/aditya-u-06797a1ba_hiring-dotnetarchitect-netarchitect-activity-7525575056190500864-R7-z) | LinkedIn recruiter post |  |  | LinkedIn post | 2026-11-13 |  | Senior .NET architect role located in Seattle, unrelated to Java/SAP Commerce. |
