@@ -157,3 +157,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-11-17 https://jobs.smartrecruiters.com/Konecranes/744000161065139-ai-engineer-sap-commerce (Konecranes, website via helper – confirmed)
 - 2026-11-17 https://evorait.jobs.personio.com/job/2871354 (Evorait, website via helper – confirmed)
 - 2026-11-17 https://de.jooble.org/jdp/-9108953199423463742/Product-Owner-+-SAP-Commerce-Cloud-(m%2Fw%2Fd)-Koblenz (see posting, website via helper – confirmed)
+- 2026-11-17 https://jobs.orbis.de/job/Saarbr%C3%BCcken-Senior-Consultant%2C-SAP-CX%2C-CPQ-&-SAP-Service-Support-%28mfx%29-66115/1453828833/ (ORBIS, website via helper – confirmed)

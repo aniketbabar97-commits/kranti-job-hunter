@@ -852,4 +852,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Stepstone link 403; netconomy.net/job/<slug> APPLY -> /c/new. Checkboxes/radios are covered by labels: browser_click on label:has-text(...). Availability is native date: fill ISO 2026-12-16 (typed TT.MM mangles). Send -> hCaptcha, parks.
 
 ## Workday (CGM cgm.wd3.myworkdayjobs.com)
+- Jooble link is 403: search cgm.wd3 /de-DE/cgm (q param ignored), use the page search box for 'Commerce', job /job/<city>/<slug>_JR<id>. Source select: click, type, Enter, pick option; Land defaults to Indien, pick Deutschland via button + option (also changes phone prefix). Keyboard Ctrl+A/Delete hit the wrong field - avoid. Talent pool Yes/No dropdown; Ãœbermitteln = final; confirm title 'Congratulations'.
 - Guest Manuell bewerben loads slowly (wait ~10s). The Wie haben Sie von uns erfahren popup stays open after picking Job Boards and covers the Land button; Escape does not close it - click outside the popup first, then Land.
+
+## LinkedIn Easy Apply
+- ORBIS SE (Mannheim, SAP CX/CPQ): jobs.orbis.de/jobs?q=... shows no matching role while LinkedIn still lists it; park linkedin-only.
+- Solvia (Senior SAP CX, LinkedIn 4484671732): Apply is LinkedIn Easy Apply behind login modal; solviads.com has no matching careers page (404s). Park linkedin-only.
+
+## SuccessFactors (career5 orbisag, ORBIS)
+- Jetzt bewerben on jobs.orbis.de/job/<slug>/<id>/ (the talentcommunity/apply link redirects home) -> career5 login; new account form has a visible reCAPTCHA checkbox -> park with tab open.
