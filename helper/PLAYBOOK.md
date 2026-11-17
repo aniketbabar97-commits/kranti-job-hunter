@@ -869,3 +869,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## ALDI SÜD (jobs.aldi-sued.de)
 - LinkedIn -> jobs.aldi-sued.de/Karriere/job/... 'OHNE KONTO BEWERBEN' link opens SAP UI5 easyapply form (no account). Cookie 'Alle bestätigen'; Anrede/Land are value-help dialogs; CV in 'Gesamt-Bewerbung', cover in 'Weitere Dokumente'. Success 'Dankeschön'.
+
+## Workable (apply.workable.com)
+- Single-page form: Accept all cookies first; phone country button opens a listbox (click Germany +49); prefilled address/phone may be India, overwrite; Submit -> URL ?success.

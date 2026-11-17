@@ -1608,3 +1608,12 @@ Notes:
 - ORBIS job 2 used her existing SuccessFactors profile. The profile's "Notice period" field was required, so I entered "Serving notice, last working day 15.12.2026, earliest start 16.12.2026". I also set salary to 60000.
 - Work-permit answers: I answered "Nein" (no sponsorship needed) and "Ja" to relocation within Germany, as the facts support.
 - Playbook lessons and per-application notes were appended with `learn` and `done`, with no personal data in the playbook.
+[Tue 11/17/2026  9:40:47.03] batch 5 exit 0 
+
+Things you should know:
+- **Extra job pulled:** after the tenth job I ran `next 1` once more to check for a remaining job. It returned antegma GmbH (Consultant fÃ¼r Ecommerce). I did not process it. It may be marked as handed out in the queue, so check before the next run.
+- **Two entries I shouldn't have logged:** for the ABOUT YOU PM job I logged the LinkedIn URL and the message text with `answer`, though both were copied from facts and `why_us`. These are noise in the review log. I don't know how to remove them.
+- **Playbook correction:** my learn note for the Indeed/Lightspeed entry had an invented "(Jan run: same)". I removed it from `helper/PLAYBOOK.md`.
+- **Account email:** LinkedIn login used `krantichavan197@gmail.com` from the `password linkedin` helper. Her contact email in facts is `krantichavan198@gmail.com`. Worth checking that this is the right account.
+- **Unverified choices:** for the ABOUT YOU Checkout screening I answered onsite "Yes", salary "60000 EUR brutto/Jahr, verhandelbar" and Zalando "No". The Zalando answer is not in her facts, so please confirm it.
+- **Browser:** parked tabs are still open. Nothing was closed.
