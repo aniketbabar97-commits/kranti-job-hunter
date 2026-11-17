@@ -860,4 +860,5 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Solvia (Senior SAP CX, LinkedIn 4484671732): Apply is LinkedIn Easy Apply behind login modal; solviads.com has no matching careers page (404s). Park linkedin-only.
 
 ## SuccessFactors (career5 orbisag, ORBIS)
+- Existing account: Sign In with email+password works (no captcha on sign-in). Replace CV via pencil and cover via Other documents delete then Attach a Cover Letter. Only required: Notice period text in Job-Specific Information. Success 'Successfully Applied'.
 - Jetzt bewerben on jobs.orbis.de/job/<slug>/<id>/ (the talentcommunity/apply link redirects home) -> career5 login; new account form has a visible reCAPTCHA checkbox -> park with tab open.
