@@ -1003,5 +1003,35 @@
   "status": "confirmed",
   "note": "jobs.arineo.com Unsolicited application; success page 'Bewerbung erfolgreich'",
   "ts": "2026-10-25 07:38"
+ },
+ "https://www.linkedin.com/jobs/view/4476152874": {
+  "status": "closed",
+  "note": "LinkedIn posting expired (redirects to expired_jd_redirect); cxrocket.com parked domain, no route",
+  "ts": "2026-11-17 09:02"
+ },
+ "https://www.jobleads.com/de/job/sap-commerce-cloud-hybris-developer-all-genders--augsburg--e2f66656630a46c885ce52815603c3b2a": {
+  "status": "parked",
+  "note": "linkedin-only: adesso SE Augsburg, https://de.linkedin.com/jobs/view/sap-commerce-cloud-hybris-developer-all-genders-at-adesso-se-4483221417 ; no employer apply form found on jobs.adesso-group.com",
+  "ts": "2026-11-17 09:03"
+ },
+ "https://job.nw.de/jobs/softwareentwicklung-in-rietberg": {
+  "status": "parked",
+  "note": "job.nw.de returns 503 twice; link is a generic search page, not a specific posting",
+  "ts": "2026-11-17 09:03"
+ },
+ "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=E-Commerce&wo=Baden-W%C3%BCrttemberg%20(Bundesland)": {
+  "status": "parked",
+  "note": "Maify GmbH Senior SAP Commerce Cloud/Hybris Developer, https://www.maify.io/karriere/senior-sap-commerce-hybris-developer ; email-only: career@maify.io → email route",
+  "ts": "2026-11-17 09:04"
+ },
+ "https://www.freelancermap.de/projekt/interim-java-fluent-commerce-developer-gn-3072789": {
+  "status": "parked",
+  "note": "freelancermap: Bewerben needs a freelancer login; freiberuflich 4-month project (Michael Page), Fluent Commerce not SAP Commerce - her call",
+  "ts": "2026-11-17 09:04"
+ },
+ "https://jobs.smartrecruiters.com/Konecranes/744000161065139-ai-engineer-sap-commerce": {
+  "status": "confirmed",
+  "note": "SmartRecruiters Easy Apply, thank-you seen (Application submitted!)",
+  "ts": "2026-11-17 09:06"
  }
 }
