@@ -30,7 +30,13 @@ for /L %%i in (1,1,5) do (
   git commit -qm "Claude applier: nightly batch %%i" >nul 2>nul
   git -c gc.auto=0 pull -q --rebase --autostash >nul 2>nul
   git push -q >nul 2>nul
+  rem Claude login expired: no point in more batches; tell her on screen what to do
+  findstr /c:"Failed to authenticate" /c:"/login" out\batch.txt >nul && goto :login
 )
+goto :parked
+:login
+msg %USERNAME% "Job applications paused: the Claude login on this PC expired. Open a terminal, type  claude  then  /login  and sign in. The next run starts by itself within 30 minutes." >nul 2>nul
+:parked
 python -m helper.claude_jobs parked > out\parked_tonight.txt 2>&1
 copy /y out\parked_tonight.txt data\parked.txt >nul 2>nul
 git add data >nul 2>nul
