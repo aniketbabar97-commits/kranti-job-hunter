@@ -1313,5 +1313,40 @@
   "status": "working",
   "note": "claimed",
   "ts": "2026-11-17 09:40"
+ },
+ "https://de.indeed.com/viewjob?jk=c59643653c37bf02": {
+  "status": "parked",
+  "note": "captcha - https://jobs.lever.co/vivenu/64981a62-9303-4aa1-9884-a7b1f7dea7b6/apply",
+  "ts": "2026-11-17 09:51"
+ },
+ "https://de.indeed.com/viewjob?jk=a79b72000215dcaa": {
+  "status": "parked",
+  "note": "indeed-only: Indeed Apply (Weiter zur Bewerbung) needs Indeed login; no employer careers site found at diconium.com/careers or /jobs",
+  "ts": "2026-11-17 09:52"
+ },
+ "https://de.jooble.org/jdp/5314985545853949438/Frontend-%2F-Web-Entwickler-(Angular%2C-Home-Office)-(m%2Fw%2Fd)-Jena": {
+  "status": "parked",
+  "note": "jooble Cloudflare 403, employer unknown, no route",
+  "ts": "2026-11-17 09:52"
+ },
+ "https://de.indeed.com/viewjob?jk=15c4e50c9d605f4b": {
+  "status": "parked",
+  "note": "location mismatch: Indeed posting is Warszawa PL (record says Verden); only Indeed Weiter zur Bewerbung route",
+  "ts": "2026-11-17 09:53"
+ },
+ "https://de.indeed.com/viewjob?jk=49dadeba6d34cea5": {
+  "status": "closed",
+  "note": "Indeed ad expired; no Lounge Frontend SWE on jobs.zalando.com",
+  "ts": "2026-11-17 09:53"
+ },
+ "https://www.facebook.com/groups/210598899062693/posts/28786934181002450/": {
+  "status": "parked",
+  "note": "facebook group post (login wall, no employer route); Oracle Cloud Payroll role outside SAP Commerce profile",
+  "ts": "2026-11-17 09:53"
+ },
+ "https://www.linkedin.com/jobs/view/4489111587": {
+  "status": "confirmed",
+  "note": "LinkedIn -> Apply on company website -> Ashby application",
+  "ts": "2026-11-17 09:57"
  }
 }

@@ -872,3 +872,21 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Workable (apply.workable.com)
 - Single-page form: Accept all cookies first; phone country button opens a listbox (click Germany +49); prefilled address/phone may be India, overwrite; Submit -> URL ?success.
+
+## Lever (jobs.lever.co)
+- Form fully fills via snapshot refs (CV chooser, radios, combobox, textareas). hCaptcha appears on Submit application; Indeed viewjob is Cloudflare 403, so go via the company careers page to the Lever link.
+
+## Indeed viewjob (diconium)
+- Indeed viewjob may load (not Cloudflare) with a 'Weiter zur Bewerbung' Indeed-hosted apply only; the posting's Lisa contact address is for questions, not applications. Park as indeed-only.
+
+## Jooble (de.jooble.org)
+- Jooble job pages are Cloudflare 403 in the automated browser and the employer name is missing from the job record; park unless the employer is known elsewhere.
+
+## Indeed viewjob (Mars)
+- Indeed viewjob location can differ from the job record (Verden in record, Warszawa on page); check the page location before applying.
+
+## Zalando (jobs.zalando.com)
+- Search jobs.zalando.com/en/jobs/?search=<title>; Indeed page shows 'Diese Stellenanzeige ist auf Indeed abgelaufen' when the ad expired - treat as closed if the employer board also lacks it.
+
+## Facebook group posts
+- Facebook group posts sit behind a login wall and give no application route; park them without logging in.

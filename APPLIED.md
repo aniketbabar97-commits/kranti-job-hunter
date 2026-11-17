@@ -161,3 +161,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-11-17 https://www.linkedin.com/jobs/view/4487689358 (ALDI SÜD, website via helper – confirmed)
 - 2026-11-17 https://de.indeed.com/viewjob?jk=905a5013d1a8f241 (ABOUT YOU SE & Co. KG, website via helper – confirmed)
 - 2026-11-17 https://apply.workable.com/avomind/j/32B4D316C8/ (see posting, website via helper – confirmed)
+- 2026-11-17 https://www.linkedin.com/jobs/view/4489111587 (Choco, website via helper – confirmed)
