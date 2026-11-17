@@ -894,3 +894,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 
 ## LinkedIn recruiter posts (Hivaa)
 - Promoted LinkedIn posts can be US on-site roles even when the job record has no location; check the page location first.
+
+## GWS (gws-karriereportal.mein-check-in.de)
+- Indeed 'Weiter zur Bewerbung' is not used; gws.ms/karriere links to the Stellenbörse, job detail 'Bewerbung starten' goes to vr.mein-check-in.de/gws/quest. Upload slots are hidden inputs requiredfiles_1 (Anschreiben), _2 (Lebenslauf). Choose 'Online-Stellenbörse' and fill the follow-up textbox that appears; success 'vielen Dank für deine Bewerbung'.
+
+## SuccessFactors career5 (C&A, CAProduction)
+- Indeed -> C&A /karrierejobs/tech -> careers/jobs/<slug> 'Jetzt bewerben' -> career5 guest form (creates account; password rule 8-18 chars, mixed case, digit/punct). Country/C&A/source are custom comboboxes: click, Ctrl+A, type, ArrowDown, Enter. Terms button opens privacy dialog: Accept. After Apply it redirects to portalcareer; verify via View Profile > 'Jobs Applied'.

@@ -1617,3 +1617,26 @@ Things you should know:
 - **Account email:** LinkedIn login used `krantichavan197@gmail.com` from the `password linkedin` helper. Her contact email in facts is `krantichavan198@gmail.com`. Worth checking that this is the right account.
 - **Unverified choices:** for the ABOUT YOU Checkout screening I answered onsite "Yes", salary "60000 EUR brutto/Jahr, verhandelbar" and Zalando "No". The Zalando answer is not in her facts, so please confirm it.
 - **Browser:** parked tabs are still open. Nothing was closed.
+[Tue 11/17/2026  9:49:52.99] autorun: 80 jobs waiting 
+[Tue 11/17/2026  9:49:53.02] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Tue 11/17/2026 10:03:32.08] batch 1 exit 0 
+- C&A: notice period "1 month" (her last day is 15.12, so the earliest start is 16.12). Source "Indeed". Prior C&A employment "No". The privacy dialog was accepted; the Terms button still showed "Required" afterward, but the application registered.
+- Free-text answers I wrote (logged with `answer`): vivenu's integration experience and technical-leadership fields, and GWS's "how did you hear" follow-up.
+- The C&A role (SAP Source-to-Pay practice lead) is a weak match for her SAP Commerce background. It was applied to as the next job in the queue.
+
+Other notes:
+- WebSearch was not permitted in this session, so I couldn't search for the diconium careers page.
+- The C&A account password is the default from `claude_jobs password`. I didn't record it outside the helper.
+- The playbook has new lines from `learn` for Lever, Indeed, Jooble, Ashby, GWS and SuccessFactors career5.

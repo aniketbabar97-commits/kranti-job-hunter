@@ -1169,3 +1169,26 @@ Things you should know:
 - **Account email:** LinkedIn login used `krantichavan197@gmail.com` from the `password linkedin` helper. Her contact email in facts is `krantichavan198@gmail.com`. Worth checking that this is the right account.
 - **Unverified choices:** for the ABOUT YOU Checkout screening I answered onsite "Yes", salary "60000 EUR brutto/Jahr, verhandelbar" and Zalando "No". The Zalando answer is not in her facts, so please confirm it.
 - **Browser:** parked tabs are still open. Nothing was closed.
+All 10 jobs are processed: 2 confirmed, 1 pending, 6 parked, 1 closed. The loop ran the full 10, so I stopped there rather than calling `next` again.
+
+- vivenu GmbH — parked — captcha: hCaptcha appeared on Submit. Form filled, tab left open at https://jobs.lever.co/vivenu/64981a62-9303-4aa1-9884-a7b1f7dea7b6/apply. She needs to solve the captcha and click Submit.
+- diconium group — parked — indeed-only: Indeed's own "Weiter zur Bewerbung" flow is the only route. No employer careers page found. The Lisa contact address is for questions, not applications, so I didn't route the application there.
+- see posting (Jooble, Frontend Angular, Jena) — parked — Jooble returns a Cloudflare 403 and the employer isn't named.
+- Mars — parked — location mismatch: the posting is Warszawa (PL), though the job record says Verden. Not applied.
+- Zalando — closed: Indeed shows the ad as expired and jobs.zalando.com has no matching Lounge Frontend role.
+- see posting (Facebook group, Oracle Cloud Payroll) — parked — login wall with no application route, and the role is outside her SAP Commerce profile.
+- Choco — confirmed — "Your application was successfully submitted." Applied via LinkedIn → Ashby.
+- Hivaa Services LLC — parked — location mismatch: on-site in Richardson, TX, not Germany.
+- GWS mbH — confirmed — "vielen Dank für deine Bewerbung." Applied via gws-karriereportal.mein-check-in.de.
+- C&A — pending — Indeed → C&A careers → SuccessFactors career5. This created a guest account. The profile shows "Jobs Applied (1)" but no thank-you text appeared, so it's logged as pending.
+
+Choices I made that she may want to change:
+- Choco: work location "Berlin", since that's the posting's city. Her preference is Karlsruhe. Relocation answered "Yes".
+- C&A: notice period "1 month" (her last day is 15.12, so the earliest start is 16.12). Source "Indeed". Prior C&A employment "No". The privacy dialog was accepted; the Terms button still showed "Required" afterward, but the application registered.
+- Free-text answers I wrote (logged with `answer`): vivenu's integration experience and technical-leadership fields, and GWS's "how did you hear" follow-up.
+- The C&A role (SAP Source-to-Pay practice lead) is a weak match for her SAP Commerce background. It was applied to as the next job in the queue.
+
+Other notes:
+- WebSearch was not permitted in this session, so I couldn't search for the diconium careers page.
+- The C&A account password is the default from `claude_jobs password`. I didn't record it outside the helper.
+- The playbook has new lines from `learn` for Lever, Indeed, Jooble, Ashby, GWS and SuccessFactors career5.
