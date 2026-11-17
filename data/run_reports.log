@@ -1084,3 +1084,25 @@ I worked through 10 jobs and stopped there. You asked for 10, so I did not proce
 - **Job 3:** the why_us text names adesso, but the record's link is a generic Arbeitsagentur-style search, so the record itself may be stale.
 - **Playbook:** I added short lessons for SmartRecruiters, SuccessFactors/Busch, Maify, and Indeed.
 - **Not touched:** I did not log anything for the 11th job, and I did not close the browser tabs.
+Applied to one job and parked nine; the 10-job target was reached but only one application went through.
+
+**Results**
+
+1. **Arbeitsagentur search page**: parked. The link was a 27-job search results page, not a posting.
+2. **Evorait, Senior SAP Commerce Cloud Lead (Personio)**: **confirmed**. "THANK YOU" shown after submit, with CV and cover letter attached.
+3. **Jooble, Principal Engineer SAP Integration**: parked. Jooble returns Cloudflare 403 and the employer isn't named.
+4. **Jooble, Fullstack Entwickler Angular, adesso Siegen**: logged as **closed**. Jooble was also blocked. On the adesso portal, the keyword "Angular" returned only "Senior Software Engineer Frontend Angular" (job-invite/16313), which is a different role. I didn't check every adesso listing, so please verify this one before relying on it.
+5. **Pfeiffer Vacuum, Lead Full Stack Developer**: parked. Indeed is blocked and the Pfeiffer German and English career pages return 404.
+6. **Busch Vacuum, Lead Full Stack Developer**: parked. The Indeed page is blocked and jobs.buschvacuum.com shows no matching posting.
+7. **Megapart, SAP CPI/PDI Integration Developer**: parked. Indeed is blocked and megapart.de/jobs doesn't list the role.
+8. **Intertime AG, Inhouse Consultant SAP Commerce Cloud**: parked. Indeed is blocked and intertime.de / intertime.com won't load.
+9. **Pfeiffer Vacuum, SAP Inhouse Consultant Commerce Cloud**: parked. Same dead end as job 5.
+10. **Busch Vacuum, SAP Inhouse Consultant Commerce Cloud**: parked. Same dead end as job 6.
+
+**Notes**
+
+- Most of the batch came from Indeed and Jooble, which are blocked in the automated browser, so the pipeline is producing mostly unapplyable entries.
+- I didn't stop early because `next 1` never returned an empty list.
+- No CAPTCHA tabs are open.
+- I added lessons to `helper/PLAYBOOK.md` with `learn`. It's modified and uncommitted.
+- WebSearch needed permission I don't have, so I couldn't search for the employers' own postings.

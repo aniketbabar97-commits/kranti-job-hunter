@@ -1581,3 +1581,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - **Job 3:** the why_us text names adesso, but the record's link is a generic Arbeitsagentur-style search, so the record itself may be stale.
 - **Playbook:** I added short lessons for SmartRecruiters, SuccessFactors/Busch, Maify, and Indeed.
 - **Not touched:** I did not log anything for the 11th job, and I did not close the browser tabs.
+[Tue 11/17/2026  9:13:14.53] batch 2 exit 0 
+
+**Notes**
+
+- Most of the batch came from Indeed and Jooble, which are blocked in the automated browser, so the pipeline is producing mostly unapplyable entries.
+- I didn't stop early because `next 1` never returned an empty list.
+- No CAPTCHA tabs are open.
+- I added lessons to `helper/PLAYBOOK.md` with `learn`. It's modified and uncommitted.
+- WebSearch needed permission I don't have, so I couldn't search for the employers' own postings.

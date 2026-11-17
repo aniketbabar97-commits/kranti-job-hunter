@@ -68,6 +68,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Form at /karriere/jetzt-bewerben/<slug>/. Fill by input name via run_code, setInputFiles on file inputs 0/1 (CV, cover letter). Datepicker popups block clicks: Escape + hide .datepicker, use click force. 'How heard' select has a second dependent select (channel-online) that is required. Success: redirect to /danke-fuer-deine-bewerbung/.
 
 ## Personio (*.jobs.personio.com)
+- Evorait: direct /job/<id>/apply works (Apply for this job button). fill_form by accessible names (First, Last, Email, Phone, Expected salary, Available from TT.MM.JJJJ, LinkedIn); CV and Other via Add file button + chooser; confirmation 'THANK YOU'.
 - remotely.de job page has the real Personio link. Apply URL /job/<id>/apply?display=de. Fast via run_code: fill by name (first_name,last_name,email,phone,available_from,salary_expectations,custom_attribute_*), setInputFiles on documents.cv / documents.cover-letter. No CAPTCHA seen. Confirmation 'VIELEN DANK'.
 
 ## Concludis (careers.<company>.com/candidate/formapply)
@@ -837,3 +838,12 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Indeed viewjob
 - Cloudflare 403 again in the automated browser; if the same role has an employer site, use that instead.
+
+## Jooble (aggregator)
+- Jooble pages are Cloudflare 403 in the automated browser (in. and de. domains); find the employer's own portal via the employer's homepage instead
+
+## adesso (adesso.de)
+- adesso.de has no job list; /de/jobs-karriere/top-employer -> 'Zum Stellenportal' = jobs.adesso-group.com (ask there). /karriere and /de/karriere/stellenangebote are 404
+
+## Busch Vacuum (jobs.buschvacuum.com)
+- Search ?q=Full+Stack returns 'Kein passender Job in deinem Land?' - Indeed-only postings for Busch/Pfeiffer Maulburg roles are not on the company portal; park
