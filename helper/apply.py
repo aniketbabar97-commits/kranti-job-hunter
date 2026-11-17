@@ -68,7 +68,7 @@ def queue(days=45):
     kits, seen = [], set()
     for f in sorted((ROOT / "applications").glob("*.json"), reverse=True):  # newest kit per job wins
         k = json.loads(f.read_text(encoding="utf-8"))
-        if not k.get("lang") or k.get("skip"):
+        if (not k.get("lang") and k.get("created", "") < "2026-10-26") or k.get("skip"):
             continue  # older kit, or job closed / not in Germany  # older kit, written before the final selling standard
         j = k["job"]
         if j["url"] in seen or k.get("created", "") < since:
