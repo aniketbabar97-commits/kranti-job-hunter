@@ -828,6 +828,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; /de-de/careers/jobsearch?jk=SAP%20Commerce shows 182 unfiltered results, no Commerce/Hybris role and no initiative form; parked.
 
 ## SmartRecruiters (jobs.smartrecruiters.com oneclick)
+- Fresh form without prefill: upload CV via resume chooser, City needs click on suggestion, screening asks onsite, salary, notice, Zalando, source. Submit leads to /success.
 - Resume upload prefills experience; drafts without dates (Shell, Cognizant) stay open and block Next; Cancel buttons did not clear them. Delete them or add dates from the CV before Next.
 - Easy Apply: job page 'I'm interested' link -> oneclick page; City combobox pick option; phone country code defaults to Poland +48, set Germany +49 via listbox; resume chooser needs button click before browser_file_upload; screening page has cover-letter 'Additional attachments', monthly salary, gender combobox (type + click option), privacy label click. Success 'Application submitted!'.
 
