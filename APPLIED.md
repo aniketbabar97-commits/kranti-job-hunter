@@ -156,3 +156,4 @@ applied to are marked **↺ Applied at this company before**. Lines starting wit
 - 2026-10-31 https://www.cbs-consulting.com/#initiativbewerbung (CBS Corporate Business Solutions, website via helper – confirmed)
 - 2026-11-17 https://jobs.smartrecruiters.com/Konecranes/744000161065139-ai-engineer-sap-commerce (Konecranes, website via helper – confirmed)
 - 2026-11-17 https://evorait.jobs.personio.com/job/2871354 (Evorait, website via helper – confirmed)
+- 2026-11-17 https://de.jooble.org/jdp/-9108953199423463742/Product-Owner-+-SAP-Commerce-Cloud-(m%2Fw%2Fd)-Koblenz (see posting, website via helper – confirmed)
