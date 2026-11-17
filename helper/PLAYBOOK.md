@@ -825,3 +825,15 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 ## Camelot ITLab (Accenture)
 - Run 8: still redirects to accenture.com/de-de; parked.
 - camelot-itlab.com now redirects to accenture.com/de-de; /de-de/careers/jobsearch?jk=SAP%20Commerce shows 182 unfiltered results, no Commerce/Hybris role and no initiative form; parked.
+
+## SmartRecruiters (jobs.smartrecruiters.com oneclick)
+- Easy Apply: job page 'I'm interested' link -> oneclick page; City combobox pick option; phone country code defaults to Poland +48, set Germany +49 via listbox; resume chooser needs button click before browser_file_upload; screening page has cover-letter 'Additional attachments', monthly salary, gender combobox (type + click option), privacy label click. Success 'Application submitted!'.
+
+## SuccessFactors (career2 buschdiens / Busch Vacuum)
+- Job page 'Jetzt bewerben' (jobs.buschvacuum.com) -> career2 login; 'Konto anlegen' shows a visible reCAPTCHA ('Ich bin kein Roboter') -> park with the register URL.
+
+## Maify GmbH
+- Careers page maify.io/karriere; the posting has no form, only career@maify.io -> email route.
+
+## Indeed viewjob
+- Cloudflare 403 again in the automated browser; if the same role has an employer site, use that instead.

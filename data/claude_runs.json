@@ -1033,5 +1033,30 @@
   "status": "confirmed",
   "note": "SmartRecruiters Easy Apply, thank-you seen (Application submitted!)",
   "ts": "2026-11-17 09:06"
+ },
+ "https://de.indeed.com/viewjob?jk=66edbf94e0b1a0e7": {
+  "status": "parked",
+  "note": "captcha - https://career2.successfactors.eu/career?company=buschdiens&login_ns=register&career_job_req_id=3683&lang=de_DE&brandUrl=pfeiffervacuum (Konto anlegen, visible reCAPTCHA; real posting jobs.buschvacuum.com/pfeiffervacuum/job/Asslar-Inhouse-Consultant-SAP-Commerce-Cloud-%28mwd%29-HE-35614/1377240857/ ; Indeed is Cloudflare 403)",
+  "ts": "2026-11-17 09:07"
+ },
+ "https://www.linkedin.com/jobs/view/4489920746": {
+  "status": "parked",
+  "note": "linkedin-only: Pfeiffer Wetzlar listing (Apply = login). Same role as Busch board req 3683; that SF form has reCAPTCHA at Konto anlegen - see the Asslar job",
+  "ts": "2026-11-17 09:08"
+ },
+ "https://de.indeed.com/viewjob?jk=3cafe80b8d893e8f": {
+  "status": "parked",
+  "note": "captcha - https://career2.successfactors.eu/career?company=buschdiens&login_ns=register&career_job_req_id=3683&lang=de_DE&brandUrl=pfeiffervacuum (Konto anlegen, visible reCAPTCHA; same req as the Asslar job; Indeed is Cloudflare 403)",
+  "ts": "2026-11-17 09:08"
+ },
+ "https://www.linkedin.com/jobs/view/4489985338": {
+  "status": "parked",
+  "note": "email: it.frankfurt@amadeus-fire.de (Ref 16-258431; LinkedIn post says apply by email or online form) → email route",
+  "ts": "2026-11-17 09:08"
+ },
+ "https://www.linkedin.com/jobs/view/senior-sap-commerce-cloud-hybris-developer-at-hivaa-services-llc-4486061918": {
+  "status": "working",
+  "note": "claimed",
+  "ts": "2026-11-17 09:08"
  }
 }

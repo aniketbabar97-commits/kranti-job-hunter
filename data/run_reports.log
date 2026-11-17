@@ -1059,3 +1059,28 @@ Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
+I worked through 10 jobs and stopped there. You asked for 10, so I did not process the 11th job in the queue (Hivaa Services, LinkedIn).
+
+**Outcomes:**
+
+| # | Company / role | Status | Note |
+|---|---|---|---|
+| 1 | CX Rocket, SAP CX Developer | closed | LinkedIn post expired; cxrocket.com is a parked domain |
+| 2 | adesso SE, SAP Commerce Augsburg | parked | LinkedIn-only; no employer form found on adesso's portal |
+| 3 | job.nw.de, Softwareentwicklung Rietberg | parked | Board returned 503 twice; link is a generic search page |
+| 4 | Maify GmbH, Senior SAP Commerce/Hybris Developer | parked | Email route: career@maify.io |
+| 5 | Michael Page via freelancermap, Fluent Commerce interim | parked | Bewerben needs a freelancer login; freelance, not SAP Commerce. Your call. |
+| 6 | Konecranes, AI Engineer SAP Commerce | **confirmed** | SmartRecruiters Easy Apply; "Application submitted!" seen |
+| 7 | Pfeiffer Vacuum, Inhouse Consultant (Aßlar) | parked | Captcha: visible reCAPTCHA at "Konto anlegen"; URL in the note |
+| 8 | Pfeiffer Vacuum, Inhouse Consultant (Wetzlar, LinkedIn) | parked | LinkedIn-only; same role as job 7 |
+| 9 | Busch Vacuum Solutions, Inhouse Consultant (Indeed) | parked | Indeed Cloudflare 403; same captcha route as job 7 |
+| 10 | Amadeus Fire, SAP Commerce & CX Consultant | parked | Email route: it.frankfurt@amadeus-fire.de (ref 16-258431) |
+
+**Things you should know:**
+- **Job 6 (Konecranes):** the form had a Poland location and a +48 default country code; I set Germany +49. I wrote the message box text myself with one added sentence, and logged it in `data/answers.jsonl`. I also logged a monthly salary of 5000 (60,000 / 12).
+- **Two mistakes I made, both fixed:**
+  - One of my commands logged a stray entry (`https://job.nw.de/../arbeitsagentur`, parked, note "x") to `data/claude_runs.json`. I removed that key.
+  - One answer-log entry for job 6 contained a placeholder instead of the real text. I replaced it with the full text.
+- **Job 3:** the why_us text names adesso, but the record's link is a generic Arbeitsagentur-style search, so the record itself may be stale.
+- **Playbook:** I added short lessons for SmartRecruiters, SuccessFactors/Busch, Maify, and Indeed.
+- **Not touched:** I did not log anything for the 11th job, and I did not close the browser tabs.
