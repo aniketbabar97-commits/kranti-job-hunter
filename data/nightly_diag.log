@@ -1590,3 +1590,12 @@ File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\
 - No CAPTCHA tabs are open.
 - I added lessons to `helper/PLAYBOOK.md` with `learn`. It's modified and uncommitted.
 - WebSearch needed permission I don't have, so I couldn't search for the employers' own postings.
+[Tue 11/17/2026  9:22:47.54] batch 3 exit 0 
+| 9 | Instaffo, SAP CX consultant (LinkedIn) | parked | LinkedIn-only. The playbook says never log in to LinkedIn. |
+| 10 | CGM, Product Owner SAP Commerce Cloud (Koblenz, JR107019) | parked | Workday guest form, step 1 open. A "Wie haben Sie von uns erfahren?" popup covers the Land field. Apply URL: `cgm.wd3.myworkdayjobs.com/de-DE/cgm/job/Koblenz/Product-Owner---SAP-Commerce-Cloud--m-w-d-_JR107019/apply/applyManually`. |
+
+Notes:
+- The queue is mostly aggregator listings and off-profile roles. The generated `why_us` text is sometimes for the wrong company. I skipped those rather than send them.
+- The NETCONOMY form has the answers I wrote for review logged with `answer`. The `answer` call for "Full-time Employment" is logged, but the one for "What is your preferred work set-up?" failed in my first attempt and I did not retry it.
+- Playbook lessons were added for the Recruitee form (date field needs ISO format) and the CGM Workday popup.
+- Two `next` calls were made by mistake while I was checking helper behaviour. Each claimed a job, and I processed or parked each one, so nothing was left claimed.

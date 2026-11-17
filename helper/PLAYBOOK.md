@@ -847,3 +847,9 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Busch Vacuum (jobs.buschvacuum.com)
 - Search ?q=Full+Stack returns 'Kein passender Job in deinem Land?' - Indeed-only postings for Busch/Pfeiffer Maulburg roles are not on the company portal; park
+
+## Recruitee (netconomy.recruitee.com)
+- Stepstone link 403; netconomy.net/job/<slug> APPLY -> /c/new. Checkboxes/radios are covered by labels: browser_click on label:has-text(...). Availability is native date: fill ISO 2026-12-16 (typed TT.MM mangles). Send -> hCaptcha, parks.
+
+## Workday (CGM cgm.wd3.myworkdayjobs.com)
+- Guest Manuell bewerben loads slowly (wait ~10s). The Wie haben Sie von uns erfahren popup stays open after picking Job Boards and covers the Land button; Escape does not close it - click outside the popup first, then Land.

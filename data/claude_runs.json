@@ -1143,5 +1143,60 @@
   "status": "parked",
   "note": "Indeed Cloudflare 403; jobs.buschvacuum.com has no matching posting, same employer as earlier Busch job",
   "ts": "2026-11-17 09:13"
+ },
+ "https://www.stepstone.de/stellenangebote--E-Commerce-Cloud-Solution-Architect-f-m-x-Graz-Wien-Poertschach-Berlin-Dortmund-NETCONOMY-GmbH--13296153-inline.html": {
+  "status": "parked",
+  "note": "captcha - https://netconomy.recruitee.com/o/e-commerce-cloud-solution-architect-fmx/c/new",
+  "ts": "2026-11-17 09:18"
+ },
+ "https://de.jooble.org/jdp/6623722543396466320/Azure-Cloud-Engineer-(m%2Fw%2Fd)-Jena": {
+  "status": "parked",
+  "note": "jooble-only: Cloudflare 403; eleviongroup.com/de/karriere lists no Azure posting (checked 2026-11-17)",
+  "ts": "2026-11-17 09:19"
+ },
+ "https://www.zeitarbeit-jobs-berlin.de/job/sonstige/nordrhein-westfalen-duesseldorf/710013949425": {
+  "status": "parked",
+  "note": "skipped: unrelated Health staffing ad (not SAP); generated why_us names adesso, so not sent",
+  "ts": "2026-11-17 09:19"
+ },
+ "https://de.jooble.org/stellenangebote-sap-basis/Vogelheim%2C-Essen": {
+  "status": "parked",
+  "note": "skipped: Jooble search page for SAP Basis (not Commerce), no specific employer posting",
+  "ts": "2026-11-17 09:19"
+ },
+ "https://www.google.com/goto?url=CAESiAEBxCJF1_YfUbyMn47Sy5PHuzpkKhIJw2vsjz3UxqDdRZezqdgACwyGa3HP9UM9rC1O9RPdO3JQMH_rDbXu-vS8N9Tmai37mYLw4kXmBZhfkHp0PPTY4Qlsh9IwAOsQ8UPO9V5OKzbhvOTc4kU9b7X_iWvsYqnOG1FqSISzClD3ompmSqSWr4YG": {
+  "status": "parked",
+  "note": "skipped: off-profile Java developer role bremen (not SAP Commerce); generated cover letter does not fit",
+  "ts": "2026-11-17 09:19"
+ },
+ "https://www.facebook.com/groups/986353222387962/posts/1818379425852000/": {
+  "status": "parked",
+  "note": "skipped: Facebook group post for Thai BA/PO jobs, login-walled, not a German SAP Commerce role",
+  "ts": "2026-11-17 09:20"
+ },
+ "https://www.mobil-jobs.de/job/consultant/nordrhein-westfalen-duesseldorf/710013949437": {
+  "status": "parked",
+  "note": "skipped: ServiceNow role, off-profile; generated why_us names adesso",
+  "ts": "2026-11-17 09:20"
+ },
+ "https://www.stepstone.de/stellenangebote--Softwarenentwickler-Salesforce-Commerce-Cloud-m-w-d-Pforzheim-BRUNO-BADER-GmbH-Co-KG--14697542-inline.html": {
+  "status": "parked",
+  "note": "stepstone 403; bader-karriere.de/stellenmarkt Cloudflare 403; retry form at bader-karriere.de/bewerbung",
+  "ts": "2026-11-17 09:20"
+ },
+ "https://www.linkedin.com/jobs/view/4488916845": {
+  "status": "parked",
+  "note": "linkedin-only (Instaffo, staffing firm; playbook: never log in to LinkedIn)",
+  "ts": "2026-11-17 09:20"
+ },
+ "https://www.linkedin.com/jobs/view/4489005068": {
+  "status": "closed",
+  "note": "auto: posting gone (404 or 'no longer available')",
+  "ts": "2026-11-17 09:21"
+ },
+ "https://de.jooble.org/jdp/-1317208795183347305/Product-Owner-+-SAP-Commerce-Cloud-(m%2Fw%2Fd)-Koblenz": {
+  "status": "parked",
+  "note": "captcha-free but unfinished: cgm.wd3.myworkdayjobs.com/de-DE/cgm/job/Koblenz/Product-Owner---SAP-Commerce-Cloud--m-w-d-_JR107019/apply/applyManually - step 1 open; source popup blocks Land field; finish by hand",
+  "ts": "2026-11-17 09:22"
  }
 }
