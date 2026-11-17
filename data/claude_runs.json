@@ -1055,9 +1055,9 @@
   "ts": "2026-11-17 09:08"
  },
  "https://www.linkedin.com/jobs/view/senior-sap-commerce-cloud-hybris-developer-at-hivaa-services-llc-4486061918": {
-  "status": "working",
-  "note": "claimed",
-  "ts": "2026-11-17 09:08"
+  "status": "parked",
+  "note": "location mismatch: Richardson TX on-site (US); not Germany/remote",
+  "ts": "2026-11-17 09:57"
  },
  "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Fachinformatiker%2Fin%20Anwendungsentwicklung&wo=Baden-W%C3%BCrttemberg%20(Bundesland)&arbeitszeit=vz&homeoffice=prozentual_0": {
   "status": "parked",
@@ -1348,5 +1348,10 @@
   "status": "confirmed",
   "note": "LinkedIn -> Apply on company website -> Ashby application",
   "ts": "2026-11-17 09:57"
+ },
+ "https://de.indeed.com/viewjob?jk=04bcd647111cb586": {
+  "status": "confirmed",
+  "note": "Indeed -> gws-karriereportal.mein-check-in.de -> Bewerbung starten",
+  "ts": "2026-11-17 10:00"
  }
 }

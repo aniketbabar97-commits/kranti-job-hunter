@@ -62,6 +62,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Apply Manually > Sign in with email > Create Account; submit buttons are covered by a click_filter div (click [data-automation-id=click_filter]). After creating the account sign-in failed and no verification mail was found - needs manual check.
 
 ## Ashby (jobs.ashbyhq.com)
+- LinkedIn 'Apply on company website' is a /safety/go redirect to the Ashby /application URL (no login). Location is an autocomplete: type with pressSequentially, then click the role=option; fill() does not register. Radios for English/gender/relocation need clicks on the radio itself. Success text 'Your application was successfully submitted.'
 - Use /application URL. Fastest via run_code: fill by input id/name, setInputFiles on file inputs by id (cover letter input appears after choosing 'Upload a Cover Letter'), typeahead (city, how heard): fill then click role=option. Dates MM/DD/YYYY. 'Preferred Name' is required. Confirmation: 'Thank you for your application!'.
 
 ## netcare.de (own Contact Form 7)
@@ -890,3 +891,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 
 ## Facebook group posts
 - Facebook group posts sit behind a login wall and give no application route; park them without logging in.
+
+## LinkedIn recruiter posts (Hivaa)
+- Promoted LinkedIn posts can be US on-site roles even when the job record has no location; check the page location first.
