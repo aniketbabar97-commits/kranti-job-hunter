@@ -862,3 +862,6 @@ Never put personal data (email, phone, address, birth date, passwords) in here �
 ## SuccessFactors (career5 orbisag, ORBIS)
 - Existing account: Sign In with email+password works (no captcha on sign-in). Replace CV via pencil and cover via Other documents delete then Attach a Cover Letter. Only required: Notice period text in Job-Specific Information. Success 'Successfully Applied'.
 - Jetzt bewerben on jobs.orbis.de/job/<slug>/<id>/ (the talentcommunity/apply link redirects home) -> career5 login; new account form has a visible reCAPTCHA checkbox -> park with tab open.
+
+## ALDI SÜD (jobs.aldi-sued.de)
+- LinkedIn -> jobs.aldi-sued.de/Karriere/job/... 'OHNE KONTO BEWERBEN' link opens SAP UI5 easyapply form (no account). Cookie 'Alle bestätigen'; Anrede/Land are value-help dialogs; CV in 'Gesamt-Bewerbung', cover in 'Weitere Dokumente'. Success 'Dankeschön'.

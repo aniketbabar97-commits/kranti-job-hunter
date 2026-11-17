@@ -1128,3 +1128,24 @@ Notes:
 - The NETCONOMY form has the answers I wrote for review logged with `answer`. The `answer` call for "Full-time Employment" is logged, but the one for "What is your preferred work set-up?" failed in my first attempt and I did not retry it.
 - Playbook lessons were added for the Recruitee form (date field needs ISO format) and the CGM Workday popup.
 - Two `next` calls were made by mistake while I was checking helper behaviour. Each claimed a job, and I processed or parked each one, so nothing was left claimed.
+I processed 10 jobs and stopped there, as you asked. Three applications were submitted and confirmed; seven were parked or skipped.
+
+**Submitted (confirmed)**
+1. **CGM**: Product Owner – SAP Commerce Cloud (Koblenz, JR107019). Workday guest apply, "Congratulations" page. The form has no cover-letter slot, so only the CV went in.
+2. **ORBIS SE**: Senior Consultant Support SAP CX, CPQ & SAP Service (Saarbrücken, job 1453828833, req 3545). I signed in to the existing account, replaced the old CV and cover letter, and got "Successfully Applied".
+3. **ALDI SÜD**: Engineering Manager eCommerce Platform (Mülheim, 1454600033). Used the no-account form, got "Dankeschön". I wrote the free-text answer myself, and it is logged.
+
+**Parked or skipped**
+- **Solvia** (Senior SAP CX, LinkedIn): Easy Apply only, behind login. No company careers page matched.
+- **ORBIS Mannheim** (LinkedIn): Easy Apply only, and the role isn't on ORBIS's job board.
+- **ORBIS Saarland** (LinkedIn): same as above.
+- **ORBIS Saarbrücken** (1453828933): reCAPTCHA on the account-creation form. It's the same requisition (3545) as job 2 above, so it's already covered. The captcha tab was navigated away from during later steps.
+- **Grundfos / Denmark**: skipped. Her relocation scope is within Germany.
+- **adesso Münster** (Jooble): Jooble is blocked. No matching posting on the adesso portal.
+- **Richardson, TX (US)**: skipped, outside Germany.
+
+**Things you should know**
+- The 11th job, **Intertime AG** (Inhouse Consultant SAP C/4HANA, Wetzlar), was pulled by the last `next 1` call but not processed. It's not logged, so it may be stuck in the queue. Please re-queue it or let me take it in the next run.
+- ORBIS job 2 used her existing SuccessFactors profile. The profile's "Notice period" field was required, so I entered "Serving notice, last working day 15.12.2026, earliest start 16.12.2026". I also set salary to 60000.
+- Work-permit answers: I answered "Nein" (no sponsorship needed) and "Ja" to relocation within Germany, as the facts support.
+- Playbook lessons and per-application notes were appended with `learn` and `done`, with no personal data in the playbook.

@@ -1599,3 +1599,12 @@ Notes:
 - The NETCONOMY form has the answers I wrote for review logged with `answer`. The `answer` call for "Full-time Employment" is logged, but the one for "What is your preferred work set-up?" failed in my first attempt and I did not retry it.
 - Playbook lessons were added for the Recruitee form (date field needs ISO format) and the CGM Workday popup.
 - Two `next` calls were made by mistake while I was checking helper behaviour. Each claimed a job, and I processed or parked each one, so nothing was left claimed.
+[Tue 11/17/2026  9:32:50.23] batch 4 exit 0 
+- **adesso MÃ¼nster** (Jooble): Jooble is blocked. No matching posting on the adesso portal.
+- **Richardson, TX (US)**: skipped, outside Germany.
+
+**Things you should know**
+- The 11th job, **Intertime AG** (Inhouse Consultant SAP C/4HANA, Wetzlar), was pulled by the last `next 1` call but not processed. It's not logged, so it may be stuck in the queue. Please re-queue it or let me take it in the next run.
+- ORBIS job 2 used her existing SuccessFactors profile. The profile's "Notice period" field was required, so I entered "Serving notice, last working day 15.12.2026, earliest start 16.12.2026". I also set salary to 60000.
+- Work-permit answers: I answered "Nein" (no sponsorship needed) and "Ja" to relocation within Germany, as the facts support.
+- Playbook lessons and per-application notes were appended with `learn` and `done`, with no personal data in the playbook.
