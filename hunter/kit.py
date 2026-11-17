@@ -329,7 +329,8 @@ def _make_one(job, master, today, force, made):
     # Tailoring data (no personal contact data) so the Windows helper can rebuild the PDFs locally.
     keep = ("title", "company", "location", "url", "apply_url", "score", "lang", "source", "posted", "contact", "salary")
     (DIR / f"{slug}.json").write_text(json.dumps(
-        {"job": {k: job.get(k, "") for k in keep}, "tailoring": t, "letters": dict(letters), "created": today},
+        {"job": {k: job.get(k, "") for k in keep}, "tailoring": t, "letters": dict(letters), "created": today,
+         "lang": job.get("lang") if job.get("lang") in dict(letters) else next(iter(dict(letters)))},
         ensure_ascii=False, indent=1))
     job["kit"] = str(note.relative_to(ROOT))
     # PDFs without her phone/email would look unfinished: only attach them once the secrets are set

@@ -32,7 +32,7 @@ RECEIPT = re.compile(r"eingangsbestätigung|^(ihre|deine) bewerbung\b|^bewerbung
 # a real invitation, even inside a receipt-style mail ("we would like to invite you ...")
 INVITE = re.compile(r"einladung (zu|zum)|vorstellungsgespräch|lade[nt]? (sie|dich) .{0,40}ein|invite you|invitation to|"
                     r"calendly|terminvorschl|schedule (a|an) (call|interview|chat)|interview (on|am)\b", re.I)
-ALERT = re.compile(r"jobs? matching your|saved search|job ?alert|neue jobs|neue stellen|neue .{0,40}veröffentlichte stellen|"
+ALERT = re.compile(r"\d+ strong · |new jobs — |jobs? matching your|saved search|job ?alert|neue jobs|neue stellen|neue .{0,40}veröffentlichte stellen|"
                    r"stellenangebote für sie|recommended jobs|sucht bewerber wie dich|: €\d+k|und weitere jobs|"
                    r"job preferences|benutzerkonto|profil wurde erstellt|passwort|password|verify your account|"
                    r"sign in and continue|ausbildungsplatz", re.I)
