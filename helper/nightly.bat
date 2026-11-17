@@ -18,7 +18,7 @@ rem same browser setup as the runs that worked (registered MCP server, Playwrigh
 call claude mcp remove playwright >nul 2>nul
 call claude mcp add playwright -- npx @playwright/mcp@latest --browser chrome --user-data-dir "%CD%\out\pw-profile" >> out\nightly_diag.log 2>&1
 for /L %%i in (1,1,5) do (
-  call claude -p --model sonnet --permission-mode acceptEdits "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs; stop early when 'next 1' returns an empty list." > out\batch.txt 2>&1 < nul
+  call claude -p --model haiku --permission-mode acceptEdits "Read helper/CLAUDE_CODE_APPLY.md and follow it exactly. Apply to 10 jobs; stop early when 'next 1' returns an empty list." > out\batch.txt 2>&1 < nul
   set RC=!errorlevel!
   type out\batch.txt >> out\claude_runs.log
   echo [!date! !time!] batch %%i exit !RC! >> out\nightly_diag.log
