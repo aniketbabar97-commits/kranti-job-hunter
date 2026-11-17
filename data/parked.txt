@@ -250,5 +250,169 @@
  {
   "link": "https://www.bbraun.de/#initiativbewerbung",
   "note": "jobs.bbraun.com Commerce search no hits; no initiative form or email"
+ },
+ {
+  "link": "https://www.jobleads.com/de/job/sap-commerce-cloud-hybris-developer-all-genders--augsburg--e2f66656630a46c885ce52815603c3b2a",
+  "note": "linkedin-only: adesso SE Augsburg, https://de.linkedin.com/jobs/view/sap-commerce-cloud-hybris-developer-all-genders-at-adesso-se-4483221417 ; no employer apply form found on jobs.adesso-group.com"
+ },
+ {
+  "link": "https://job.nw.de/jobs/softwareentwicklung-in-rietberg",
+  "note": "job.nw.de returns 503 twice; link is a generic search page, not a specific posting"
+ },
+ {
+  "link": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=E-Commerce&wo=Baden-W%C3%BCrttemberg%20(Bundesland)",
+  "note": "Maify GmbH Senior SAP Commerce Cloud/Hybris Developer, https://www.maify.io/karriere/senior-sap-commerce-hybris-developer ; email-only: career@maify.io → email route"
+ },
+ {
+  "link": "https://www.freelancermap.de/projekt/interim-java-fluent-commerce-developer-gn-3072789",
+  "note": "freelancermap: Bewerben needs a freelancer login; freiberuflich 4-month project (Michael Page), Fluent Commerce not SAP Commerce - her call"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=66edbf94e0b1a0e7",
+  "note": "captcha - https://career2.successfactors.eu/career?company=buschdiens&login_ns=register&career_job_req_id=3683&lang=de_DE&brandUrl=pfeiffervacuum (Konto anlegen, visible reCAPTCHA; real posting jobs.buschvacuum.com/pfeiffervacuum/job/Asslar-Inhouse-Consultant-SAP-Commerce-Cloud-%28mwd%29-HE-35614/1377240857/ ; Indeed is Cloudflare 403)"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4489920746",
+  "note": "linkedin-only: Pfeiffer Wetzlar listing (Apply = login). Same role as Busch board req 3683; that SF form has reCAPTCHA at Konto anlegen - see the Asslar job"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=3cafe80b8d893e8f",
+  "note": "captcha - https://career2.successfactors.eu/career?company=buschdiens&login_ns=register&career_job_req_id=3683&lang=de_DE&brandUrl=pfeiffervacuum (Konto anlegen, visible reCAPTCHA; same req as the Asslar job; Indeed is Cloudflare 403)"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4489985338",
+  "note": "email: it.frankfurt@amadeus-fire.de (Ref 16-258431; LinkedIn post says apply by email or online form) → email route"
+ },
+ {
+  "link": "https://www.arbeitsagentur.de/jobsuche/suche?suchbereich=jobs&was=Fachinformatiker%2Fin%20Anwendungsentwicklung&wo=Baden-W%C3%BCrttemberg%20(Bundesland)&arbeitszeit=vz&homeoffice=prozentual_0",
+  "note": "aggregate search page (27 jobs), not one posting; no employer route"
+ },
+ {
+  "link": "https://in.jooble.org/jdp/493528095799460876",
+  "note": "Jooble aggregator behind Cloudflare 403; employer unknown, no route"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=37659784499bd161",
+  "note": "Indeed Cloudflare 403; pfeiffervacuum.com de/en career pages 404, India career page has no postings or apply email"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=fbbee2f99cca633e",
+  "note": "Indeed Cloudflare 403; jobs.buschvacuum.com search 'Full Stack' shows no matching posting (Kein passender Job)"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=939eadcbd696f83b",
+  "note": "Indeed Cloudflare 403; Megapart (agency) megapart.de/jobs lists no CPI/PDI role"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=ab28f542aa34fa3f",
+  "note": "Indeed Cloudflare 403; intertime.de/.com unreachable in automated browser (no employer route)"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=1aa4231d86730594",
+  "note": "Indeed Cloudflare 403; same Pfeiffer Vacuum employer, no careers route found (de/en career pages 404)"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=d20fd35564c964a4",
+  "note": "Indeed Cloudflare 403; jobs.buschvacuum.com has no matching posting, same employer as earlier Busch job"
+ },
+ {
+  "link": "https://www.stepstone.de/stellenangebote--E-Commerce-Cloud-Solution-Architect-f-m-x-Graz-Wien-Poertschach-Berlin-Dortmund-NETCONOMY-GmbH--13296153-inline.html",
+  "note": "captcha - https://netconomy.recruitee.com/o/e-commerce-cloud-solution-architect-fmx/c/new"
+ },
+ {
+  "link": "https://de.jooble.org/jdp/6623722543396466320/Azure-Cloud-Engineer-(m%2Fw%2Fd)-Jena",
+  "note": "jooble-only: Cloudflare 403; eleviongroup.com/de/karriere lists no Azure posting (checked 2026-11-17)"
+ },
+ {
+  "link": "https://www.zeitarbeit-jobs-berlin.de/job/sonstige/nordrhein-westfalen-duesseldorf/710013949425",
+  "note": "skipped: unrelated Health staffing ad (not SAP); generated why_us names adesso, so not sent"
+ },
+ {
+  "link": "https://de.jooble.org/stellenangebote-sap-basis/Vogelheim%2C-Essen",
+  "note": "skipped: Jooble search page for SAP Basis (not Commerce), no specific employer posting"
+ },
+ {
+  "link": "https://www.google.com/goto?url=CAESiAEBxCJF1_YfUbyMn47Sy5PHuzpkKhIJw2vsjz3UxqDdRZezqdgACwyGa3HP9UM9rC1O9RPdO3JQMH_rDbXu-vS8N9Tmai37mYLw4kXmBZhfkHp0PPTY4Qlsh9IwAOsQ8UPO9V5OKzbhvOTc4kU9b7X_iWvsYqnOG1FqSISzClD3ompmSqSWr4YG",
+  "note": "skipped: off-profile Java developer role bremen (not SAP Commerce); generated cover letter does not fit"
+ },
+ {
+  "link": "https://www.facebook.com/groups/986353222387962/posts/1818379425852000/",
+  "note": "skipped: Facebook group post for Thai BA/PO jobs, login-walled, not a German SAP Commerce role"
+ },
+ {
+  "link": "https://www.mobil-jobs.de/job/consultant/nordrhein-westfalen-duesseldorf/710013949437",
+  "note": "skipped: ServiceNow role, off-profile; generated why_us names adesso"
+ },
+ {
+  "link": "https://www.stepstone.de/stellenangebote--Softwarenentwickler-Salesforce-Commerce-Cloud-m-w-d-Pforzheim-BRUNO-BADER-GmbH-Co-KG--14697542-inline.html",
+  "note": "stepstone 403; bader-karriere.de/stellenmarkt Cloudflare 403; retry form at bader-karriere.de/bewerbung"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4488916845",
+  "note": "linkedin-only (Instaffo, staffing firm; playbook: never log in to LinkedIn)"
+ },
+ {
+  "link": "https://de.jooble.org/jdp/-1317208795183347305/Product-Owner-+-SAP-Commerce-Cloud-(m%2Fw%2Fd)-Koblenz",
+  "note": "captcha-free but unfinished: cgm.wd3.myworkdayjobs.com/de-DE/cgm/job/Koblenz/Product-Owner---SAP-Commerce-Cloud--m-w-d-_JR107019/apply/applyManually - step 1 open; source popup blocks Land field; finish by hand"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4484671732",
+  "note": "linkedin-only: Easy Apply needs login; no company form found on solviads.com"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4487016403",
+  "note": "linkedin-only: Easy Apply needs login; role not on jobs.orbis.de board"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4487008504",
+  "note": "linkedin-only: Easy Apply needs login; no matching role found on jobs.orbis.de"
+ },
+ {
+  "link": "https://jobs.orbis.de/job/Saarbr%C3%BCcken-Senior-Consultant-Support-SAP-CX%2C-CPQ-&-SAP-Service-%28mwd%29-%28Vollzeit-Teilzeit%29-66115/1453828933/",
+  "note": "captcha - https://career5.successfactors.eu/career?company=orbisag&site=&lang=de_DE&requestParams=EByfIOaxNC%2boYnNEWuovWUQbR1p42m1R3UqCQRCd%2fElNKSXorlcQNaWgi5LMEgqCqJsuvtb9Jl3Z%0adj9nxzSCnqgeInqCuuwFooveodWCPqmFXZZzzsycs%2fvwCWlHUBqIG1EesdLlQ%2bH6xyJKZ96entcu%0aX5KQaMOStiJsC8mWOpDjPqHrWx1Oop1dmK7COOvPot95hpRTjCOC1YujWVctTK98yqRMb%2fvx9fz9%0aY%2f3uIAEwibx8gQEYslIrNNwJR0O4h%2bQ3nh3YrquNsctQkoIQKfBIQDgM1JwwtdGoNxjyzkoldDOK%0a9G2cTl8J7dDzvvpERaiVwTi%2f2FKEkhmWpSVCLVhZE8x7KVTr1Xp9q1HbrFSqXqlcxzCSEfrMIf03%0aLSPtdSTMr5OExyx1lRO9%2bC33E824eJeVaVLhkyg5s%2bNDTl9xblCIQWufoeh%2fYtzUSLxHKBjDv24m%0aX5VtiY4%3d&login_ns=register&career_ns=job%5fapplication&career_job_req_id=3545&jobPipeline=Direct&clientId=jobs2web&_s.crb=6NGiOm0JOUvUq%2fA4pSqTWM0TRw4Uilvreok2A9d%2fBXA%3d"
+ },
+ {
+  "link": "https://www.jobleads.com/dk/job/senior-sap-developer--denmark--e0f901179881e31ce0b9dffc1738ec86a",
+  "note": "skipped: Denmark location, outside relocation scope (within Germany only)"
+ },
+ {
+  "link": "https://de.jooble.org/rjdp/-6941397551311473461/Full-Stack-Engineer-(DevOps-%26-Cloud)-M%C3%BCnster",
+  "note": "jooble-only: Cloudflare-blocked; no Full Stack DevOps Muenster posting on jobs.adesso-group.com"
+ },
+ {
+  "link": "https://www.jobleads.com/us/job/onsite-senior-sap-commerce-cloud-hybris-developer--richardson--e553f3001bd364b1e71161d9dd30b968c",
+  "note": "skipped: US onsite (Richardson TX), outside Germany scope"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=0ea27f25a2103a18",
+  "note": "indeed 403 cloudflare; lightspeed careers 403; no employer portal found; url: https://de.indeed.com/viewjob?jk=0ea27f25a2103a18"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=861717d56db9fb8a",
+  "note": "smartrecruiters easy apply: CV prefill leaves unsaved Shell/Cognizant experience drafts with empty From/To, Next blocked; posting asks 6+y / 3y tech PM; apply url: https://corporate.aboutyou.de/en/career/jobs/senior-technical-product-manager-all-genders-storefront-hosting-hamburg-germany"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=d150526d458a8d6c",
+  "note": "indeed-only: only Indeed Schnellbewerbung; koro.de/karriere cert invalid; url: https://de.indeed.com/viewjob?jk=d150526d458a8d6c"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4487762526",
+  "note": "linkedin: Not currently accepting applications (no apply button); macs-holding.de/stellenangebote timed out; url: https://www.linkedin.com/jobs/view/4487762526"
+ },
+ {
+  "link": "https://www.linkedin.com/jobs/view/4476047966",
+  "note": "linkedin: No longer accepting applications; jobs.bechtle.com first page has no matching e-commerce posting; url: https://www.linkedin.com/jobs/view/4476047966"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=85d596ec0f5fa787",
+  "note": "indeed-only: only Indeed Schnellbewerbung, no employer site; recruiter for US agency; url: https://de.indeed.com/viewjob?jk=85d596ec0f5fa787"
+ },
+ {
+  "link": "https://de.indeed.com/viewjob?jk=67f085d669793e29",
+  "note": "indeed-only: Weiter zur Bewerbung opens Indeed sign-in popup, no employer site; url: https://de.indeed.com/viewjob?jk=67f085d669793e29"
+ },
+ {
+  "link": "https://www.stepstone.de/stellenangebote--E-Commerce-Developer-m-w-d-Schwerpunkt-Shopify-Tracking-und-Conversion-Berlin-HPW-Pharma-AG--14741630-inline.html",
+  "note": "stepstone 403 cloudflare-style block; hpw-pharma.de/karriere refused connection; url: https://www.stepstone.de/stellenangebote--E-Commerce-Developer-m-w-d-Schwerpunkt-Shopify-Tracking-und-Conversion-Berlin-HPW-Pharma-AG--14741630-inline.html"
  }
 ]
