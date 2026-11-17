@@ -1433,3 +1433,25 @@ Jobs applied: 0 of 10.
 `python -m helper.claude_jobs next 1` returned `[]` on the first call, so there are no jobs to apply to. I stopped there, as the instructions say, and applied to 0 of the 10 jobs.
 
 I read `helper/CLAUDE_CODE_APPLY.md`, the first 480 of 828 lines of `helper/PLAYBOOK.md`, and ran `facts`. Nothing was logged with `done`, `answer` or `learn`, and I opened no browser tabs, so there are no open CAPTCHA tabs.
+[Mon 11/02/2026 17:49:53.07] autorun: 0 jobs waiting 
+[Mon 11/02/2026 18:19:53.03] autorun: 0 jobs waiting 
+[Mon 11/02/2026 18:49:56.70] autorun: 0 jobs waiting 
+[Tue 11/17/2026  6:04:47.15] autorun: 0 jobs waiting 
+[Tue 11/17/2026  6:20:08.84] autorun: 0 jobs waiting 
+[Tue 11/17/2026  7:56:04.23] autorun: 0 jobs waiting 
+[Tue 11/17/2026  8:19:52.04] autorun: 142 jobs waiting 
+[Tue 11/17/2026  8:19:52.76] start, user Aniket, dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter 
+C:\Users\Aniket\AppData\Roaming\npm\claude
+C:\Users\Aniket\AppData\Roaming\npm\claude.cmd
+C:\Python314\python.exe
+C:\Users\Aniket\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\Aniket\AppData\Local\Python\bin\python.exe
+C:\Program Files\Git\cmd\git.exe
+C:\Program Files\nodejs\npx
+C:\Program Files\nodejs\npx.cmd
+INFO: Could not find files for the given pattern(s).
+2.1.302 (Claude Code)
+Added stdio MCP server playwright with command: npx @playwright/mcp@latest --browser chrome --user-data-dir C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter\out\pw-profile to local config
+File modified: C:\Users\Aniket\.claude.json [project: C:\Users\Aniket\Downloads\Github_job_hunter\kranti-job-hunter]
+[Tue 11/17/2026  8:20:04.65] batch 1 exit 1 
+Failed to authenticate: OAuth session expired and could not be refreshed
