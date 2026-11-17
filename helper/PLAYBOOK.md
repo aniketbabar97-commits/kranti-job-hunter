@@ -828,6 +828,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - camelot-itlab.com now redirects to accenture.com/de-de; /de-de/careers/jobsearch?jk=SAP%20Commerce shows 182 unfiltered results, no Commerce/Hybris role and no initiative form; parked.
 
 ## SmartRecruiters (jobs.smartrecruiters.com oneclick)
+- Resume upload prefills experience; drafts without dates (Shell, Cognizant) stay open and block Next; Cancel buttons did not clear them. Delete them or add dates from the CV before Next.
 - Easy Apply: job page 'I'm interested' link -> oneclick page; City combobox pick option; phone country code defaults to Poland +48, set Germany +49 via listbox; resume chooser needs button click before browser_file_upload; screening page has cover-letter 'Additional attachments', monthly salary, gender combobox (type + click option), privacy label click. Success 'Application submitted!'.
 
 ## SuccessFactors (career2 buschdiens / Busch Vacuum)
@@ -837,6 +838,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Careers page maify.io/karriere; the posting has no form, only career@maify.io -> email route.
 
 ## Indeed viewjob
+- Indeed and Lightspeed careers both Cloudflare 403 in automated browser
 - Cloudflare 403 again in the automated browser; if the same role has an employer site, use that instead.
 
 ## Jooble (aggregator)
@@ -856,6 +858,7 @@ Never put personal data (email, phone, address, birth date, passwords) in here â
 - Guest Manuell bewerben loads slowly (wait ~10s). The Wie haben Sie von uns erfahren popup stays open after picking Job Boards and covers the Land button; Escape does not close it - click outside the popup first, then Land.
 
 ## LinkedIn Easy Apply
+- Job view shows 'Not currently accepting applications' and no apply button when logged in; check that label before attempting Easy Apply.
 - ORBIS SE (Mannheim, SAP CX/CPQ): jobs.orbis.de/jobs?q=... shows no matching role while LinkedIn still lists it; park linkedin-only.
 - Solvia (Senior SAP CX, LinkedIn 4484671732): Apply is LinkedIn Easy Apply behind login modal; solviads.com has no matching careers page (404s). Park linkedin-only.
 

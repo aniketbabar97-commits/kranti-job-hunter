@@ -1253,5 +1253,45 @@
   "status": "working",
   "note": "claimed",
   "ts": "2026-11-17 09:32"
+ },
+ "https://jobs.lever.co/jobgether/d55d9882-add5-4953-8674-0f41ce8e150d": {
+  "status": "closed",
+  "note": "auto: posting gone (404 or 'no longer available')",
+  "ts": "2026-11-17 09:33"
+ },
+ "https://de.indeed.com/viewjob?jk=0ea27f25a2103a18": {
+  "status": "parked",
+  "note": "indeed 403 cloudflare; lightspeed careers 403; no employer portal found; url: https://de.indeed.com/viewjob?jk=0ea27f25a2103a18",
+  "ts": "2026-11-17 09:33"
+ },
+ "https://de.indeed.com/viewjob?jk=861717d56db9fb8a": {
+  "status": "parked",
+  "note": "smartrecruiters easy apply: CV prefill leaves unsaved Shell/Cognizant experience drafts with empty From/To, Next blocked; posting asks 6+y / 3y tech PM; apply url: https://corporate.aboutyou.de/en/career/jobs/senior-technical-product-manager-all-genders-storefront-hosting-hamburg-germany",
+  "ts": "2026-11-17 09:35"
+ },
+ "https://de.indeed.com/viewjob?jk=d150526d458a8d6c": {
+  "status": "parked",
+  "note": "indeed-only: only Indeed Schnellbewerbung; koro.de/karriere cert invalid; url: https://de.indeed.com/viewjob?jk=d150526d458a8d6c",
+  "ts": "2026-11-17 09:35"
+ },
+ "https://www.linkedin.com/jobs/view/4487762526": {
+  "status": "parked",
+  "note": "linkedin: Not currently accepting applications (no apply button); macs-holding.de/stellenangebote timed out; url: https://www.linkedin.com/jobs/view/4487762526",
+  "ts": "2026-11-17 09:36"
+ },
+ "https://www.linkedin.com/jobs/view/4476047966": {
+  "status": "parked",
+  "note": "linkedin: No longer accepting applications; jobs.bechtle.com first page has no matching e-commerce posting; url: https://www.linkedin.com/jobs/view/4476047966",
+  "ts": "2026-11-17 09:37"
+ },
+ "https://de.indeed.com/viewjob?jk=85d596ec0f5fa787": {
+  "status": "parked",
+  "note": "indeed-only: only Indeed Schnellbewerbung, no employer site; recruiter for US agency; url: https://de.indeed.com/viewjob?jk=85d596ec0f5fa787",
+  "ts": "2026-11-17 09:37"
+ },
+ "https://de.indeed.com/viewjob?jk=905a5013d1a8f241": {
+  "status": "confirmed",
+  "note": "SmartRecruiters easy apply, submitted, success page",
+  "ts": "2026-11-17 09:38"
  }
 }
