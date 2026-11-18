@@ -82,8 +82,10 @@ Return ONLY a JSON object:
  "why_company": "answer for 'Why do you want to work for us?' in English, 300-500 characters, specific to this company",
  "motivation_short": "max 300 characters motivation statement",
  "linkedin_message": "max 280 characters to recruiter/team lead",
+ "offer": "2 sentences, English: the concrete value she brings to THIS company in her first months (only master-CV facts, e.g. CCv2 upgrades, OCC/Spartacus integration, PIM/ERP interfaces, production support)",
+ "insight": "1-2 sentences, English: one specific observation about this company's commerce platform, product or project from the posting text, plus how she would help with it. Never invent facts about the company; if the posting gives nothing specific, return an empty string",
  "email_subject": "subject for an email application",
- "email_body": "60-90 words, says CV and cover letter are attached"
+ "email_body": "70-110 words in the posting language: who she is (1 sentence), why this company (specific), what she offers, the insight if any, says CV and cover letter are attached. Short, no essay"
 }}"""
 
 

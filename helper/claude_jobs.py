@@ -138,6 +138,7 @@ def next_jobs(n=1, peek=False):
             "original_posting": j["url"], "language": "German" if lang == "de" else "English",
             "files": {"cv": str(Path(cv).resolve()), "cover_letter": str(Path(letter).resolve())},
             "why_us": kit["tailoring"].get("why_company", ""),
+            "offer": kit["tailoring"].get("offer", ""), "insight": kit["tailoring"].get("insight", ""),
             "salary": sal.split(" · DE: ")[-1] if lang == "de" else sal.split(" · DE: ")[0],
         })
         if len(out) >= n:

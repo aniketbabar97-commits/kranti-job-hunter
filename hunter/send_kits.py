@@ -12,7 +12,7 @@ from pathlib import Path
 
 import yaml
 
-from . import applied, documents, outreach
+from . import applied, documents, kit, outreach
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "out" / "send"
@@ -63,6 +63,9 @@ def run(limit=60):
             log.warning("PDF for %s failed: %s", j["title"], ex)
             continue
         j["letters"], j["description"], j["applied"] = k["letters"], "", ""
+        body = kit.WEAK.sub("", k["tailoring"].get("email_body") or "").strip()
+        if len(body.split()) >= 50 and k["tailoring"].get("offer"):  # new-style kit: who / why / offer / insight
+            j["email_body"], j["email_subject"] = body, k["tailoring"].get("email_subject") or None
         if k.get("lang"):
             j["lang"] = k["lang"]
         jobs.append(j)

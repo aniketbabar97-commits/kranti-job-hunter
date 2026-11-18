@@ -167,6 +167,12 @@ def main():
         kit.make_kits(jobs, cv)
 
     made = outreach.prepare(jobs, cfg) if not os.getenv("DRY_RUN") else []
+    if not os.getenv("DRY_RUN"):
+        try:  # one polite follow-up for emails without a reply after 5 days
+            from . import followup
+            followup.run()
+        except (Exception, SystemExit) as ex:
+            log.warning("follow-ups skipped: %s", ex)
     if not os.getenv("DRY_RUN"):  # strong jobs from earlier digests that still have no application
         made += outreach.backfill(cfg)[0]
         try:  # a few more form-based jobs for the Windows helper each run

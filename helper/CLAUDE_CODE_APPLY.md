@@ -22,7 +22,8 @@ Read `helper/PLAYBOOK.md` once. It holds what worked on each application system 
 4. Fill the whole form in the posting's language:
    - every field from facts; salutation Frau; German **B1** (never higher); driving licence no; disability no;
      travel up to 50 %; earliest start 16.12.2026; location preference **Karlsruhe**, else nearest, else remote.
-   - motivation / message / "why us" box → `why_us`. Other free-text questions → 2–4 selling sentences from her CV
+   - motivation / message / "why us" box → `why_us`, then `offer` and `insight` when present (what she brings + one
+     specific observation about the company; translate to the form's language). Other free-text questions → 2–4 selling sentences from her CV
      facts. Dropdowns → strongest true option.
    - **Sell, never self-reject.** You are her advocate. Every answer must keep her in the race: pick the answer
      that shows fit and willingness (yes to relocation within Germany, overtime, on-call, learning new tools,
