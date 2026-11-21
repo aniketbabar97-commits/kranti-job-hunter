@@ -1,13 +1,13 @@
-# Job record — every job sent (3028)
+# Job record — every job sent (3032)
 
 _Updated 2026-11-21. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel. Mark applications in [APPLIED.md](APPLIED.md)._
 
-- [🇬🇧 English-speaking jobs (1666)](#english)
-- [🇩🇪 German-speaking jobs (1362)](#german)
+- [🇬🇧 English-speaking jobs (1668)](#english)
+- [🇩🇪 German-speaking jobs (1364)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (1666)
+## 🇬🇧 English-speaking jobs (1668)
 
 ### 🎯 Strong match (54)
 
@@ -68,10 +68,12 @@ _Updated 2026-11-21. Grouped like the email: language → fit score; newest firs
 | 80 | ⏳ open 1290 days | [Associate Engineer, QA Hybris](https://jobs.smartrecruiters.com/Nagarro1/743999906752289) | Nagarro | Remote, us | 🏠 | Nagarro careers | 2026-10-18 |  | Role is for US remote QA and candidate is based in Germany. |
 | 80 | ⏳ open 1294 days | [Senior Engineer, Hybris](https://jobs.smartrecruiters.com/Nagarro1/743999905487282) | Nagarro | Remote, lk | 🏠 | Nagarro careers | 2026-10-18 |  | Role is located in Sri Lanka. |
 
-### 👍 Good fit / can learn (231)
+### 👍 Good fit / can learn (233)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
+| 65 | 🆕 ≤1 day | [[Post] We are looking for an experienced SAP Commerce (Hybris) Functional Analyst with strong fun…](https://www.linkedin.com/posts/andrew-hunt-19b751239_hiring-sapcommerce-saphybris-activity-7528579415568617472--VAC) | Andrew Hunt |  |  | LinkedIn post | 2026-11-21 |  | Functional analyst position matches the candidate's SAP Commerce knowledge but focuses on business analysis rather than development. |
+| 65 | 🆕 ≤1 day | [[Post] We're Hiring: SAP Commerce Cloud (Hybris) Developer For An Leading IT Firm ... Looking for…](https://www.linkedin.com/posts/gj-gouthamjayakumar-95095318_hiring-sapcommerce-hybris-activity-7528029751035318272-rKR5) | GJ GouthamJayakumar |  |  | LinkedIn post | 2026-11-21 |  | Exact SAP Commerce Cloud developer role that aligns with the candidate's 5+ years of Hybris experience. [capped: post doesn't say Germany or remote] |
 | 72 | 🆕 ≤1 day | [REPA GROUP Full Stack Developer](https://www.google.com/goto?url=CAESjAEBxCJF15jiaUdFsjYykGnk8gYxG7ZV9A5D_79AJI8LBqm3z-lyw9okjrhtT4UElcflehFjVzm3rsWfx-rI-N4l0yNfG4-iSq4q0faC-y178uZG-kNkA10JE1NQCS8JunZ4Wv07xrbiTmbrnsEHpijnzrmu8CdFKz-MWZ4aLK1G-xQMavsfSwnLfwYqcA&gsessionid=dAKtm9dnCwyn8jxMLTm-1MOS4tc42zfyJ2HAdE5vGTFo9zPBi1r3cQ) | see posting |  |  | Career site (company site) | 2026-11-20 |  | Full‑stack developer role where SAP Commerce Cloud knowledge is optional. |
 | 65 | 🆕 ≤1 day | [Business Analyst Global E-Commerce Technology](https://de.indeed.com/viewjob?jk=1bad36ee037c656a) | PUMA | Herzogenaurach, BY, Germany |  | Indeed | 2026-11-20 |  | Business analyst for global e‑commerce technology, matches analyst interest but not a SAP Commerce developer role. |
 | 65 | 🆕 ≤1 day | [[Post] Hiring: Tech Lead – Salesforce Commerce Cloud (SFCC) We are looking for an experienced Tec…](https://www.linkedin.com/posts/rakshita-pyati-013815313_sf-oms-lead-activity-7527318513368297472-NUBz) | Rakshita Pyati |  |  | LinkedIn post | 2026-11-20 |  | Tech Lead for Salesforce Commerce Cloud is a different platform than SAP Commerce. [capped: post doesn't say Germany or remote] |
@@ -1697,7 +1699,7 @@ _Updated 2026-11-21. Grouped like the email: language → fit score; newest firs
 
 <a id="german"></a>
 
-## 🇩🇪 German-speaking jobs (1362)
+## 🇩🇪 German-speaking jobs (1364)
 
 ### 🎯 Strong match (81)
 
@@ -2369,10 +2371,11 @@ _Updated 2026-11-21. Grouped like the email: language → fit score; newest firs
 | 50 | ⏳ open 617 days | [(Senior) Manager SAP CX Sales Portfolio (all genders)](https://jobs.porsche.com/index.php?ac=jobad&id=14340) | MHP (Ludwigsburg) | Ludwigsburg, Düsseldorf, Frankfurt am Main, München, Wolfsburg, Berlin, Nürnberg, Dresden, Hamburg |  | MHP (Ludwigsburg) careers | 2026-10-18 |  | Manager SAP CX Sales Portfolio role at MHP requiring fluent German. |
 | 35 | date unknown | [Senior SAP CX Consultant (all genders)](https://jobs.adesso-group.com/job-invite/7845/?locale=de_DE) | adesso | 51.2741473, 6.7683316 |  | adesso careers | 2026-11-17 |  | Senior SAP CX consulting role; technical but more advisory than pure development and likely needs fluent German. [capped: on-site outside Germany] |
 
-### 🗂 Low match (titles only) (707)
+### 🗂 Low match (titles only) (709)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
+| 5 | 🆕 ≤1 day | [Grafikdesigner / Mediengestalter Digital, Print & KI-Design (m/w/d)](https://de.indeed.com/viewjob?jk=f0612ea4c579ff03) | SmartSleep | Erkrath, NW, Germany |  | Indeed | 2026-11-21 |  | The role is a graphic design position unrelated to the candidate's technical e‑commerce background. |
 | 25 | 🆕 ≤1 day | [Mitarbeiter/in im Online Marketing (m/w/d)](https://de.indeed.com/viewjob?jk=a4ed5e0fc802a2a6) | Turn- und Sportgeräte Olaf Grevinga GmbH | Rheine, NW, Germany |  | Indeed | 2026-11-20 |  | Online‑marketing position, not technical e‑commerce development |
 | 25 | 🆕 ≤1 day | [Online Marketing Manager (m/w/d) in Vollzeit](https://de.indeed.com/viewjob?jk=435eab9b01bb99fa) | Turn- und Sportgeräte Olaf Grevinga GmbH | Rheine, NW, Germany |  | Indeed | 2026-11-20 |  | Online‑marketing manager, not a technical role |
 | 25 | 🆕 ≤1 day | [Mediengestalter:in / Web- & Grafikdesigner:in](https://de.indeed.com/viewjob?jk=6028afd871017332) | sprintfish communication gmbh & co. kg | Lauf a.d.Pegnitz, BY, Germany |  | Indeed | 2026-11-20 |  | Focus on graphic and web design, no relevance to e‑commerce development. |
@@ -2431,6 +2434,7 @@ _Updated 2026-11-21. Grouped like the email: language → fit score; newest firs
 | 5 | 4–7 days | [GRAFIKDESIGNER PRINT & DIGITAL (M/W/D), VOLL-/TEILZEIT ODER FREELANCE, BERLIN/REMOTE](https://de.indeed.com/viewjob?jk=1efaeab431137261) | Tacwrk GmbH | Home Office, Germany | 🏠 | Indeed | 2026-11-17 |  | Graphic design, unrelated to e‑commerce tech. |
 | 5 | 4–7 days | [Mitarbeiter/in Kundenservice B2C & B2B (m/w/d)](https://de.indeed.com/viewjob?jk=d49209fec4f405f4) | disana - Sautter All Natural GmbH & Co. KG | Lichtenstein, BW, Germany |  | Indeed | 2026-11-17 |  | Customer‑service role, no technical e‑commerce relevance. |
 | 5 | 4–7 days | [Senior Einkäufer (m/w/x) Transportmanagement](https://de.indeed.com/viewjob?jk=05165eb2a36859b5) | Arvato SE | Gütersloh, NW, Germany |  | Indeed | 2026-11-18 |  | Procurement role, no technical e‑commerce relevance. |
+| 5 | 4–7 days | [Projektmanager (m/w/x) Legal & Compliance](https://de.indeed.com/viewjob?jk=bb41185615ebe117) | Arvato | Gütersloh, NW, Germany |  | Indeed | 2026-11-21 |  | A legal & compliance project manager role does not align with the candidate's SAP Commerce expertise. |
 | 0 | 4–7 days | [Senior Manager Technologische Innovationen Logistik (m/w/x)](https://de.indeed.com/viewjob?jk=e204a9d4167bb4b2) | Arvato SE | Landsberg, ST, Germany |  | Indeed | 2026-11-17 |  | Leadership role in logistics innovation, unrelated to e‑commerce. |
 | 0 | 4–7 days | [Projektmanager Logistik & Supply Chain (m/w/x)](https://de.indeed.com/viewjob?jk=5f8fa331cf02f28f) | Arvato SE | Harsewinkel, NW, Germany |  | Indeed | 2026-11-17 |  | Logistics & supply‑chain project manager, no e‑commerce relevance. |
 | 0 | 4–7 days | [(Senior) Solution Architect Telefonie / VoIP (m/w/x)](https://de.indeed.com/viewjob?jk=6bd623f5499eadda) | Arvato SE | Hannover, NI, Germany |  | Indeed | 2026-11-17 |  | Solution architect for telephony/VoIP, unrelated to e‑commerce. |
