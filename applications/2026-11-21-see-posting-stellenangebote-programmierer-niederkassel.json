@@ -1,0 +1,234 @@
+{
+ "job": {
+  "title": "Stellenangebote Programmierer Niederkassel",
+  "company": "see posting",
+  "location": "",
+  "url": "https://www.kimeta.de/stellenangebote-programmierer-in-niederkassel",
+  "apply_url": "",
+  "score": 85,
+  "lang": "de",
+  "source": "Career site (company site)",
+  "posted": "2026-11-21",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior SAP Commerce Cloud (Hybris) Developer | Java, Spring & OCC REST APIs",
+  "summary": "Backend developer with over 5 years delivering enterprise e-commerce solutions on SAP Commerce Cloud (Hybris 2105/2211) for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot, RESTful and OCC APIs, and end-to-end PIM/ERP/MDM integrations. Proven record in CI/CD, Docker/Kubernetes deployments, performance tuning, and techno-functional analysis bridging business and IT. SAP Certified Commerce Cloud Developer with strong stakeholder management and AI-assisted development.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    5,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "SAP Commerce Cloud",
+   "Hybris",
+   "Java",
+   "REST",
+   "OCC",
+   "API integration",
+   "PIM",
+   "ERP"
+  ],
+  "keywords_missing": [
+   "Angular",
+   "TypeScript",
+   "Frontend",
+   "UI",
+   "JavaScript framework"
+  ],
+  "cover_en": {
+   "subject": "Application: SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about adesso SE’s focus on innovative SAP Commerce solutions. With 5+ years building and scaling SAP Commerce Cloud platforms at Rockwell Automation and Shell, I can immediately contribute to your digital transformation initiatives.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Designed and delivered end-to-end SAP Commerce Cloud (Hybris 2211) features, covering product, catalog and pricing, using Java and Spring best practices."
+    },
+    {
+     "label": "API & Integration Leadership",
+     "text": "Built robust OCC REST services and engineered PIM-to-Hybris data pipelines (Profisee, DataHub) that synchronize global product data."
+    },
+    {
+     "label": "Techno-Functional Delivery",
+     "text": "Worked directly with business stakeholders to translate requirements into user stories, functional specs, and production-ready solutions."
+    },
+    {
+     "label": "CI/CD & Cloud Operations",
+     "text": "Executed CI/CD deployment cycles on CCv2, leveraging Docker and Kubernetes for reliable cloud releases."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, holds a valid German work permit, serving notice until 15 December 2026, earliest start 16 December 2026. Open to remote, hybrid or on-site work in Germany.",
+   "closing": ""
+  },
+  "cover_de": {
+   "subject": "Bewerbung als SAP Commerce Cloud Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die strategische Ausrichtung von adesso SE auf moderne SAP-Commerce-Lösungen begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung und Optimierung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell bringe ich sofortigen Mehrwert für Ihr Team.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Entwarf und implementierte umfassende Funktionen auf SAP Commerce Cloud (Hybris 2211) – Produkt-, Katalog- und Preisverwaltung – mit Java und Spring nach Best-Practice-Standards."
+    },
+    {
+     "label": "API- und Integrations-Leadership",
+     "text": "Erstellte stabile OCC-REST-Services und optimierte PIM-zu-Hybris-Datenpipelines (Profisee, DataHub) zur globalen Produktdaten-Synchronisation."
+    },
+    {
+     "label": "Techno-funktionale Umsetzung",
+     "text": "Arbeitete eng mit Fachbereichen zusammen, um Anforderungen in User Stories, Funktionsspezifikationen und produktionsreife Lösungen zu überführen."
+    },
+    {
+     "label": "CI/CD- und Cloud-Betrieb",
+     "text": "Führte CI/CD-Deployments auf CCv2 durch und nutzte Docker sowie Kubernetes für zuverlässige Cloud-Rollouts."
+    }
+   ],
+   "gap": "",
+   "logistics": "Standort Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintritt 16.12.2026. Flexibel für Remote, Hybrid oder Vor-Ort-Einsatz in Deutschland.",
+   "closing": ""
+  },
+  "why_company": "adesso SE ist ein führender Partner für digitale Transformation und SAP-Commerce-Projekte. Ihr Fokus auf innovative, skalierbare E-Commerce-Plattformen und die enge Zusammenarbeit mit Kunden passen perfekt zu meiner Erfahrung, komplexe SAP Commerce Cloud-Lösungen zu konzipieren und erfolgreich zu betreiben. Ich möchte meine Expertise einbringen, um Ihre Kundenprojekte noch schneller und effizienter zu realisieren.",
+  "motivation_short": "Ich will meine SAP-Commerce-Erfahrung bei adesso SE einsetzen, um innovative E-Commerce-Lösungen zu bauen und Kunden digital voranzubringen.",
+  "linkedin_message": "Hi, I’m Kranti Chavan, a SAP Commerce Cloud specialist with 5+ years at Rockwell and Shell. I’m eager to bring my API and integration expertise to adesso SE’s e-commerce projects. Let’s connect!",
+  "offer": "In the first months I will modernize your OCC API layer, streamline PIM-ERP integrations and ensure smooth CI/CD pipelines on CCv2. My proven track record in SAP Commerce Cloud upgrades will accelerate delivery timelines.",
+  "insight": "I noticed the posting highlights a need for strong SAP Commerce Cloud expertise; my hands-on experience with Hybris 2211 migrations and OCC API development will directly support that requirement.",
+  "email_subject": "Application – SAP Commerce Cloud Developer",
+  "email_body": "Ich bin Kranti Chavan, Senior SAP Commerce Cloud Developer mit über 5 Jahren Erfahrung bei Rockwell Automation und Shell. Ihr Fokus auf innovative SAP-Commerce-Lösungen begeistert mich. Ich bringe tiefes Know-how in Java, Spring, OCC-APIs und PIM-ERP-Integrationen mit und kann sofort Ihre Plattformen optimieren. Gerne bespreche ich, wie ich Ihr Team unterstützen kann. CV und Anschreiben liegen bei."
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: SAP Commerce Cloud Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "I am excited about adesso SE’s focus on innovative SAP Commerce solutions. With 5+ years building and scaling SAP Commerce Cloud platforms at Rockwell Automation and Shell, I can immediately contribute to your digital transformation initiatives.",
+   "bullets": [
+    {
+     "label": "SAP Commerce Expertise",
+     "text": "Designed and delivered end-to-end SAP Commerce Cloud (Hybris 2211) features, covering product, catalog and pricing, using Java and Spring best practices."
+    },
+    {
+     "label": "API & Integration Leadership",
+     "text": "Built robust OCC REST services and engineered PIM-to-Hybris data pipelines (Profisee, DataHub) that synchronize global product data."
+    },
+    {
+     "label": "Techno-Functional Delivery",
+     "text": "Worked directly with business stakeholders to translate requirements into user stories, functional specs, and production-ready solutions."
+    },
+    {
+     "label": "CI/CD & Cloud Operations",
+     "text": "Executed CI/CD deployment cycles on CCv2, leveraging Docker and Kubernetes for reliable cloud releases."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, holds a valid German work permit, serving notice until 15 December 2026, earliest start 16 December 2026. Open to remote, hybrid or on-site work in Germany.",
+   "closing": ""
+  },
+  "de": {
+   "subject": "Bewerbung als SAP Commerce Cloud Developer",
+   "salutation": "Sehr geehrte Damen und Herren,",
+   "hook": "Die strategische Ausrichtung von adesso SE auf moderne SAP-Commerce-Lösungen begeistert mich. Mit über fünf Jahren Erfahrung in der Entwicklung und Optimierung von SAP Commerce Cloud (Hybris) bei Rockwell Automation und Shell bringe ich sofortigen Mehrwert für Ihr Team.",
+   "bullets": [
+    {
+     "label": "SAP-Commerce-Expertise",
+     "text": "Entwarf und implementierte umfassende Funktionen auf SAP Commerce Cloud (Hybris 2211) – Produkt-, Katalog- und Preisverwaltung – mit Java und Spring nach Best-Practice-Standards."
+    },
+    {
+     "label": "API- und Integrations-Leadership",
+     "text": "Erstellte stabile OCC-REST-Services und optimierte PIM-zu-Hybris-Datenpipelines (Profisee, DataHub) zur globalen Produktdaten-Synchronisation."
+    },
+    {
+     "label": "Techno-funktionale Umsetzung",
+     "text": "Arbeitete eng mit Fachbereichen zusammen, um Anforderungen in User Stories, Funktionsspezifikationen und produktionsreife Lösungen zu überführen."
+    },
+    {
+     "label": "CI/CD- und Cloud-Betrieb",
+     "text": "Führte CI/CD-Deployments auf CCv2 durch und nutzte Docker sowie Kubernetes für zuverlässige Cloud-Rollouts."
+    }
+   ],
+   "gap": "",
+   "logistics": "Standort Karlsruhe, gültige Arbeitserlaubnis, letzter Arbeitstag 15.12.2026, frühester Eintritt 16.12.2026. Flexibel für Remote, Hybrid oder Vor-Ort-Einsatz in Deutschland.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-21",
+ "lang": "de"
+}
