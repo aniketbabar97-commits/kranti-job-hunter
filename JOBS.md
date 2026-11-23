@@ -1,13 +1,13 @@
-# Job record — every job sent (3075)
+# Job record — every job sent (3097)
 
 _Updated 2026-11-23. Grouped like the email: language → fit score; newest first inside each group. Use Ctrl+F / ⌘F to search, or open [the raw CSV](data/jobs_log.csv) in Excel. Mark applications in [APPLIED.md](APPLIED.md)._
 
-- [🇬🇧 English-speaking jobs (1689)](#english)
-- [🇩🇪 German-speaking jobs (1386)](#german)
+- [🇬🇧 English-speaking jobs (1697)](#english)
+- [🇩🇪 German-speaking jobs (1400)](#german)
 
 <a id="english"></a>
 
-## 🇬🇧 English-speaking jobs (1689)
+## 🇬🇧 English-speaking jobs (1697)
 
 ### 🎯 Strong match (54)
 
@@ -68,12 +68,13 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 80 | ⏳ open 1292 days | [Associate Engineer, QA Hybris](https://jobs.smartrecruiters.com/Nagarro1/743999906752289) | Nagarro | Remote, us | 🏠 | Nagarro careers | 2026-10-18 |  | Role is for US remote QA and candidate is based in Germany. |
 | 80 | ⏳ open 1296 days | [Senior Engineer, Hybris](https://jobs.smartrecruiters.com/Nagarro1/743999905487282) | Nagarro | Remote, lk | 🏠 | Nagarro careers | 2026-10-18 |  | Role is located in Sri Lanka. |
 
-### 👍 Good fit / can learn (236)
+### 👍 Good fit / can learn (237)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
 | 68 | 🆕 ≤1 day | [Senior Pimcore Engineer - PIM/MAM (d/f/m)](https://de.indeed.com/viewjob?jk=ba07ceb1d208a610) | Ottobock | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | Senior Pimcore engineer – Java‑backend e‑commerce work, but not SAP Commerce. |
 | 68 | 🆕 ≤1 day | [Senior Pimcore Engineer - PIM/MAM (d/f/m)](https://www.glassdoor.de/job-listing/j?jl=1010333323610) | Ottobock SE & Co. KGaA | Berlin, Germany |  | Glassdoor | 2026-11-23 |  | Same Pimcore engineering role as id 3, technical e‑commerce backend. |
+| 65 | 🆕 ≤1 day | [[Post] Report this post; Close menu. Hiring: Tech Lead – Salesforce Commerce Cloud (SFCC) We are…](https://www.linkedin.com/posts/jansivelmurugan_hiring-sfcc-salesforcecommercecloud-activity-7528334273477627904-6H6v) | Jansi Rani Velmurugan |  |  | LinkedIn post | 2026-11-23 |  | Tech‑lead position on Salesforce Commerce Cloud aligns with her experience in headless commerce and Java backend development. [capped: post doesn't say Germany or remote] |
 | 65 | 2–3 days | [[Post] We are looking for an experienced SAP Commerce (Hybris) Functional Analyst with strong fun…](https://www.linkedin.com/posts/andrew-hunt-19b751239_hiring-sapcommerce-saphybris-activity-7528579415568617472--VAC) | Andrew Hunt |  |  | LinkedIn post | 2026-11-21 |  | Functional analyst position matches the candidate's SAP Commerce knowledge but focuses on business analysis rather than development. |
 | 65 | 2–3 days | [[Post] We're Hiring: SAP Commerce Cloud (Hybris) Developer For An Leading IT Firm ... Looking for…](https://www.linkedin.com/posts/gj-gouthamjayakumar-95095318_hiring-sapcommerce-hybris-activity-7528029751035318272-rKR5) | GJ GouthamJayakumar |  |  | LinkedIn post | 2026-11-21 |  | Exact SAP Commerce Cloud developer role that aligns with the candidate's 5+ years of Hybris experience. [capped: post doesn't say Germany or remote] |
 | 65 | 2–3 days | [Business Analyst (SAP Commerce / Hybris) / Contract](https://job-boards.greenhouse.io/techholding/jobs/4757419005) | Techholding |  |  | Career site (Greenhouse) | 2026-11-22 |  | Business Analyst role focused on SAP Commerce, less technical than a developer position. |
@@ -309,12 +310,15 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 60 | ⏳ open 44 days | [E-Commerce Webdeveloper Shopify](https://www.linkedin.com/jobs/view/4468994031) | Kijimea (SYNformulas GmbH) | Munich, Bavaria, Germany |  | Linkedin | 2026-10-10 |  | Shopify web development role on an adjacent e-commerce platform, though she specializes in Java/SAP Commerce. |
 | 60 | ⏳ open 44 days | [Product Owner:in Digitale Kundenlösungen (m/w/d)](https://de.indeed.com/viewjob?jk=5c1d1f0fe80eebb0) | HÖRMANN | Steinhagen, NW, Germany |  | Indeed | 2026-10-10 | ✅ Applied | Product Owner role for digital customer solutions matching her adjacent interests, but requires fluent German. |
 
-### 👀 Worth a look (901)
+### 👀 Worth a look (907)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
-| 45 | 🆕 ≤1 day | [Technical SEO Manager (m/w/d) – 100 % remote](https://de.indeed.com/viewjob?jk=b587da9a407dace3) | Nessmann GmbH - Contentbär | Home Office, Germany |  | Indeed | 2026-11-23 |  | Technical SEO is tangential to e‑commerce development and does not use SAP Commerce skills. |
+| 50 | 🆕 ≤1 day | [Principal AI Product Architect (f/m/d)](https://de.indeed.com/viewjob?jk=f9aecd221738962a) | Berufliche Schulen Potsdam der ASG – Anerkannten Schulgesellschaft mbH | Karlsruhe, BW, Germany |  | Indeed | 2026-11-23 |  | Senior AI architecture role, but not centered on SAP Commerce. |
+| 45 | 🆕 ≤1 day | [Technical SEO Manager (m/w/d) – 100 % remote](https://de.indeed.com/viewjob?jk=b587da9a407dace3) | Nessmann GmbH - Contentbär | Home Office, Germany | 🏠 | Indeed | 2026-11-23 |  | Technical SEO is tangential to e‑commerce development and does not use SAP Commerce skills. |
 | 45 | 🆕 ≤1 day | [[Post] Talentive Global is looking for experienced SAP Hybris Developers! We are ... #Hiring #SAP…](https://www.linkedin.com/posts/talentiveglobal_hiring-saphybris-sapcommerce-activity-7528697078093582337-GEl3) | Talentive Global |  |  | LinkedIn post | 2026-11-23 |  | LinkedIn post without a concrete role, generic SAP Hybris call‑out. |
+| 45 | 🆕 ≤1 day | [DATA ANALYST (M/F/D)](https://de.indeed.com/viewjob?jk=be9c889abeebfb80) | Canyon Bicycles GmbH | Koblenz, RP, Germany |  | Indeed | 2026-11-23 |  | Data analyst role focuses on analytics, not SAP Commerce development. |
+| 45 | 🆕 ≤1 day | [Product Manager Growth (m/w/d)](https://de.indeed.com/viewjob?jk=37090aa4b60a6fdd) | Pets Deli | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | Growth product manager, focuses on product strategy rather than SAP Commerce development. |
 | 40 | 🆕 ≤1 day | [Job Application for Senior QA Engineer at VML/WPP ...](https://job-boards.greenhouse.io/vmlenterprisesolutions/jobs/8944732002) | Vmlenterprisesolutions |  |  | Career site (Greenhouse) | 2026-11-23 |  | Senior QA engineer, not directly e‑commerce development. |
 | 35 | 🆕 ≤1 day | [SAP Commerce Solution Architect](https://www.linkedin.com/jobs/view/4492606754) | Manpower Bulgaria | Sofia, Sofia City, Bulgaria |  | Linkedin | 2026-11-23 |  | Exact match: SAP Commerce Cloud architect role leveraging her Hybris expertise. [capped: on-site outside Germany] |
 | 35 | 🆕 ≤1 day | [Business Analyst E-commerce - F/H](https://www.linkedin.com/jobs/view/4492380927) | Niji | Issy-les-Moulineaux, Île-de-France, France |  | Linkedin | 2026-11-23 |  | Business‑analysis focus with limited technical depth, outside her core development expertise. [capped: on-site outside Germany] |
@@ -322,6 +326,9 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 35 | 🆕 ≤1 day | [Developer (Magento, Hyvä, Shopify & AI)](https://www.linkedin.com/jobs/view/4491571217) | WebElephant | Breda, North Brabant, Netherlands |  | Linkedin | 2026-11-23 |  | Developer role on Magento/Shopify platforms, a different tech stack from SAP Commerce. [capped: on-site outside Germany] |
 | 35 | 🆕 ≤1 day | [Ecommerce Developer](https://www.linkedin.com/jobs/view/4493637919) | Materiias d.o.o. | Kamnik, Slovenia |  | Linkedin | 2026-11-23 |  | Generic e‑commerce developer role, not SAP Commerce and outside Germany. [capped: on-site outside Germany] |
 | 35 | 🆕 ≤1 day | [Director E-commerce](https://www.linkedin.com/jobs/view/4493791126) | Top of Minds | Gemeente Waalwijk, North Brabant, Netherlands |  | Linkedin | 2026-11-23 |  | Director‑level e‑commerce leadership, not technical. |
+| 35 | 🆕 ≤1 day | [Senior Developer – Next.js / Node.js (E-commerce)](https://www.linkedin.com/jobs/view/4493767796) | HCLTech | Lisbon, Portugal |  | Linkedin | 2026-11-23 |  | E‑commerce developer role, but stack (Next.js/Node.js) differs from Java/SAP Commerce expertise. [capped: on-site outside Germany] |
+| 35 | 🆕 ≤1 day | [Solution Architect - Customer Portals & E-Commerce](https://www.linkedin.com/jobs/view/4494019674) | DLG Group | Fredericia, Region of Southern Denmark, Denmark |  | Linkedin | 2026-11-23 |  | Solution architect for e‑commerce portals, relevant architecture experience but not SAP Commerce specific. [capped: on-site outside Germany] |
+| 35 | 🆕 ≤1 day | [Category Manager E-Commerce Europe](https://de.indeed.com/viewjob?jk=61084b688eb4260b) | PUMA | Herzogenaurach, BY, Germany |  | Indeed | 2026-11-23 |  | Category manager role, non‑technical e‑commerce focus. |
 | 30 | 🆕 ≤1 day | [Hoofd eCommerce](https://www.linkedin.com/jobs/view/4492615829) | Dixon & Company | East Flanders, Flemish Region, Belgium |  | Linkedin | 2026-11-23 |  | Head of e‑commerce is a senior managerial position, not a developer role. |
 | 30 | 🆕 ≤1 day | [Senior Amazon Sales & Content Specialist](https://de.indeed.com/viewjob?jk=0075f030d87d3447) | Razer | Hamburg, HH, Germany |  | Indeed | 2026-11-23 |  | Amazon content/sales specialist, not a development role. |
 | 40 | 🆕 ≤1 day | [[Post] Talentive Global is looking for experienced SAP Hybris Developers! We are looking for stro…](https://www.linkedin.com/posts/talentiveglobal_hiring-saphybris-sapcommerce-activity-7528697078093582337-GEl3) | Talentive Global |  |  | LinkedIn post | 2026-11-22 |  | Generic LinkedIn post without a concrete open role. |
@@ -1215,12 +1222,13 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 35 | ⏳ open 102 days | [SENIOR SAP COMMERCE CLOUD (HYBRIS) DEVELOPER - L3 CONSULTANT](https://jobs.smartrecruiters.com/BoschGroup/744000143404389) | Bosch | San Francisco, cr |  | Bosch careers | 2026-10-17 |  | Senior SAP Commerce Cloud developer role, but located in Costa Rica / San Francisco rather than Germany or remote. [capped: on-site outside Germany] |
 | 30 | ⏳ open 1504 days | [Stage E-commerce](https://jobs.smartrecruiters.com/coolblue/743999856780571) | Coolblue | Rotterdam, nl |  | Coolblue careers | 2026-10-25 |  | General e‑commerce internship, lacks technical depth matching candidate. |
 
-### 🗂 Low match (titles only) (498)
+### 🗂 Low match (titles only) (499)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
 | 25 | 🆕 ≤1 day | [E-commerce Coordinator](https://www.linkedin.com/jobs/view/4493632652) | Mshop | Gothenburg, Västra Götaland County, Sweden |  | Linkedin | 2026-11-23 |  | Coordinator role with limited technical responsibilities. |
 | 25 | 🆕 ≤1 day | [Chargé(e) de catégorie e-commerce H/F](https://www.linkedin.com/jobs/view/4492614385) | L-Commerce - Entité du mouvement E.LECLERC | Ivry-sur-Seine, Île-de-France, France |  | Linkedin | 2026-11-23 |  | Category manager role, focused on merchandising rather than development. |
+| 25 | 🆕 ≤1 day | [[Post] We're Hiring: SAP Commerce Cloud (Hybris) Developer Location: Hyderabad / India (As per pr…](https://www.linkedin.com/posts/mohana-bandaru_hiring-sapcommerce-hybris-activity-7530494030951059456-rxQf) | Mohana Bandaru |  |  | LinkedIn post | 2026-11-23 |  | SAP Commerce Cloud developer role matches her core skill set, but the location is fixed to India, not Germany or remote. [capped: outside Europe] |
 | 0 | 🆕 ≤1 day | [[Post] CVE-2026-44761 hits SAP Commerce Cloud via default credentials, giving unauthenticated att…](https://www.linkedin.com/posts/paul-barbut-4513b6a2_cissp-cybersecurity-isc2-activity-7528164921176559616-g_qW) | Paul Barbut |  |  | LinkedIn post | 2026-11-22 |  | Security advisory, not a job posting. |
 | 25 | 2–3 days | [(Senior) Manager Inventory Allocation Europe](https://de.indeed.com/viewjob?jk=7cc39857b8fc685f) | PUMA | Herzogenaurach, BY, Germany |  | Indeed | 2026-11-21 |  | Inventory‑allocation manager role, unrelated to software development. |
 | 5 | 2–3 days | [Junior Videographer](https://de.indeed.com/viewjob?jk=b38420523dad16b3) | PUMA | Herzogenaurach, BY, Germany |  | Indeed | 2026-11-21 |  | Creative video‑editing position, not relevant to IT or e‑commerce development. |
@@ -1720,7 +1728,7 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 
 <a id="german"></a>
 
-## 🇩🇪 German-speaking jobs (1386)
+## 🇩🇪 German-speaking jobs (1400)
 
 ### 🎯 Strong match (82)
 
@@ -1895,20 +1903,25 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 60 | ⏳ open 50 days | [Shopware Developer (m/w/d)](https://www.stepstone.de/stellenangebote--Shopware-Developer-m-w-d-Cologne-Webmatch-GmbH--11993092-inline.html) | Webmatch GmbH | Cologne |  | StepStone | 2026-10-18 |  | Shopware development is an adjacent e-commerce technology she could learn, though it centers on PHP rather than Java. |
 | 60 | ⏳ open 270 days | [Digital Business Consultant eCommerce (m/w/d)](https://brandung.jobs.personio.de/job/2546562) | brandung | Berlin |  | brandung careers | 2026-10-17 | ✅ Applied | Digital e‑commerce consultant role fits her expertise, yet German fluency is required. |
 
-### 👀 Worth a look (503)
+### 👀 Worth a look (509)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
-| 55 | 🆕 ≤1 day | [Product Owner - E-Commerce / Conversion / KPI (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-c522c763422e99d0-S) | IONOS SE | Karlsruhe, Baden, Baden-Wuerttemberg |  | Arbeitsagentur | 2026-11-23 |  | Product Owner e‑commerce role in Germany, requires German fluency. |
+| 55 | 🆕 ≤1 day | [Product Owner - E-Commerce / Conversion / KPI (m/w/d)](https://www.arbeitsagentur.de/jobsuche/jobdetail/14225-c522c763422e99d0-S) | IONOS SE | Karlsruhe, Baden, Baden-Wuerttemberg | 🏠 | Arbeitsagentur | 2026-11-23 |  | Product Owner e‑commerce role in Germany, requires German fluency. |
+| 55 | 🆕 ≤1 day | [Senior Technical Consultant Digital Platforms (all genders)](https://de.indeed.com/viewjob?jk=afda291734462f5d) | Snipes | Köln, NW, Germany |  | Indeed | 2026-11-23 |  | Technical consultant for digital platforms, not a pure SAP Commerce developer role and needs German. |
+| 55 | 🆕 ≤1 day | [Product Owner App (all genders)](https://de.indeed.com/viewjob?jk=a416fd117fd624bd) | Snipes | Köln, NW, Germany |  | Indeed | 2026-11-23 |  | Product owner role, not a development position and requires German. |
 | 45 | 🆕 ≤1 day | [IT-affine Halbtagskraft (m/w/d) – Shop-Pflege & IT](https://de.indeed.com/viewjob?jk=1e38d91f67c03898) | Die-Assekuranzoptimierer GmbH | Sindelfingen, BW, Germany |  | Indeed | 2026-11-23 |  | Part‑time shop‑maintenance job with limited development scope. |
 | 45 | 🆕 ≤1 day | [Senior UX/UI Designer – E-Commerce (m/f/d)](https://www.linkedin.com/jobs/view/4492397244) | Pammys | Hamburg, Hamburg, Germany |  | Linkedin | 2026-11-23 |  | UX/UI design role, technical but not development‑focused. |
 | 45 | 🆕 ≤1 day | [Senior Digital Strategy Consultant (f/m/x)](https://netconomy.recruitee.com/o/senior-digital-strategy-consultant-fmx-4) | Netconomy | Berlin, Dortmund, Brandenburg, Germany |  | Netconomy careers | 2026-11-23 |  | Senior digital strategy consultant, broader than e‑commerce tech. |
 | 30 | 🆕 ≤1 day | [Kaufmann/Kauffrau im E-Commerce (m/w/d)](https://de.indeed.com/viewjob?jk=9747204c0e45da14) | B+M isol GmbH | Viernheim, HE, Germany |  | Indeed | 2026-11-23 |  | Shop‑management and product‑data entry, not a software development position. |
+| 30 | 🆕 ≤1 day | [Customer Support - E-Commerce (Onlinehandel) (m/w/d)](https://www.stepstone.de/stellenangebote--Customer-Support-E-Commerce-Onlinehandel-m-w-d-Teltow-Limitless-eCom-GmbH--14311190-inline.html) | Limitless eCom GmbH | Teltow |  | StepStone | 2026-11-23 |  | Customer‑support manager duties are non‑technical and unrelated to software development. |
 | 55 | 2–3 days | [Proxy Product Owner (w/m/d)](https://de.indeed.com/viewjob?jk=19c2ee482808181f) | NETFORMIC GmbH | Stuttgart, BW, Germany |  | Indeed | 2026-11-22 |  | Product Owner role without SAP Commerce focus and requires German fluency. |
 | 50 | 2–3 days | [Projektmanager Digital - E-Commerce (m/w/d)](https://www.glassdoor.de/job-listing/j?jl=1010332143075) | Friendventure GmbH | Germany |  | Glassdoor | 2026-11-21 |  | Digital project‑manager for e‑commerce, generic technical role without SAP Commerce emphasis. |
+| 35 | 2–3 days | [Mitarbeiter Marketing & EDV (m/w/d) – Vollzeit / Teilzeit](https://de.indeed.com/viewjob?jk=54cd262f0dace9bf) | Ranzenfee & Koffertroll GmbH | Rheda-Wiedenbrück, NW, Germany |  | Indeed | 2026-11-23 |  | Marketing & social‑media focus, not a SAP Commerce developer role. |
 | 30 | 2–3 days | [Head of IT Customer & Order Management (m/w/d)](https://de.indeed.com/viewjob?jk=cf12bf1b6f45a0a4) | Witt-Gruppe | Weiden, BY, Germany |  | Indeed | 2026-11-21 |  | Senior IT management role for order processes, not a development position. |
 | 58 | 2–3 days | [Head of Digital Commerce (m/w/d)](https://www.glassdoor.de/job-listing/j?jl=1010124705620) | Dr. Kurt Wolff GmbH & Co. KG | Bielefeld, Germany |  | Glassdoor | 2026-11-20 |  | Head of Digital Commerce is a senior leadership role beyond pure development. |
 | 58 | 2–3 days | [REXEL EDI-Manager in Digital Commerce, 60%](https://www.google.com/goto?url=CAESmAEBxCJF17QW0etCbu6khK_ZYMlGvkIK8hkOvTjM3ErPNcfFdexyI6fUKgJYaTNBwej052pg6S7hA8eF-fDlmz_sLyj9rv6vY4R8aC11NJWiD3OaIcD_LEvoH395zuanvwNfseiuiEUUEWoiyK2vZOUuIVTXFHq-QlHI37XtIVYX5oEYtu_pf8g9MdycHst3LPauphI-pLmWgQ&gsessionid=dAKtm9dnCwyn8jxMLTm-1MOS4tc42zfyJ2HAdE5vGTFo9zPBi1r3cQ) | see posting |  |  | Career site (company site) | 2026-11-20 |  | EDI‑Manager role emphasizes integration and data handling rather than core development. |
+| 58 | 2–3 days | [(Senior) E-Commerce Projektmanager (m/w/d)](https://www.linkedin.com/jobs/view/4482755429) | Lidl in Germany | Neckarsulm, Baden-Württemberg, Germany |  | Linkedin | 2026-11-23 |  | E‑commerce project manager, technical but not a developer role and needs German. |
 | 55 | 2–3 days | [IT Application Specialist (all gender) – SAP C4C & Schnittstellenmanagement](https://de.indeed.com/viewjob?jk=b1ce8f605f016347) | ALTEN | Regensburg, BY, Germany |  | Indeed | 2026-11-20 |  | Technical SAP C4C integration role, but requires German fluency which the candidate lacks. |
 | 55 | 2–3 days | [Loyalty Product Manager (m/w/d)](https://de.indeed.com/viewjob?jk=d982198917bda428) | hagebau Handelsgesellschaft für Baustoffe mbH & Co. KG | Soltau, NI, Germany |  | Indeed | 2026-11-20 |  | Loyalty product manager is a product‑owner role with some technical aspects, but German is required. |
 | 55 | 2–3 days | [Projektmanager Digital - E-Commerce (m/w/d)](https://www.linkedin.com/jobs/view/4491947014) | Friendventure Digitalagentur | Berlin, Berlin, Germany |  | Linkedin | 2026-11-20 |  | Digital e‑commerce project manager involves technical coordination, yet German fluency is needed. |
@@ -1967,6 +1980,7 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 35 | 4–7 days | [Head of E-Commerce - Marketplaces & D2C (m/w/d)](https://www.linkedin.com/jobs/view/4490800699) | JULIE & GRACE GmbH | Hamburg, Hamburg, Germany |  | Linkedin | 2026-11-17 |  | Head of e‑commerce, strategic/leadership focus, not a developer role. |
 | 35 | 4–7 days | [Senior Project Manager Logistik (m/w/x)](https://de.indeed.com/viewjob?jk=77920a4957335570) | Arvato SE | Gütersloh, NW, Germany |  | Indeed | 2026-11-18 |  | Project manager for logistics implementations; limited relevance to SAP Commerce. |
 | 35 | 4–7 days | [Head of Engineering Services (m/f/d)](https://de.indeed.com/viewjob?jk=461949da16d81897) | shopware | Schöppingen, NW, Germany |  | Indeed | 2026-11-19 |  | Leadership for Shopware services does not match her SAP Commerce background. |
+| 35 | 4–7 days | [Projekt- und Prozessmanager: Daten & eCommerce (m/w/d)](https://www.linkedin.com/jobs/view/4491147975) | Schulmeister Management Consulting | Lower Austria, Austria |  | Linkedin | 2026-11-23 |  | Process manager for data & e‑commerce, not a development position and requires German. [capped: on-site outside Germany] |
 | 30 | 4–7 days | [IT-Systemmanagement / Prozessverwaltung und Softwareentwicklung (m/w/x)](https://de.indeed.com/viewjob?jk=21b6d9854542c019) | Arvato SE | Gütersloh, NW, Germany |  | Indeed | 2026-11-17 |  | General IT‑consulting with process‑management, little e‑commerce focus. |
 | 58 | 4–7 days | [Freelance Talon.One Technical Consultant / Solution Architect (m/w/d)](https://career.kps.com/jobs/8749625-freelance-talon-one-technical-consultant-solution-architect-m-w-d) | KPS | KPS Dortmund, Dortmund, Germany, KPS München, Unterföhring |  | KPS careers | 2026-11-16 |  | Technical consultant for Talon.One promotions platform; relevant e‑commerce tech but outside SAP Commerce. |
 | 55 | 4–7 days | [Solution Consultant PIM (m/w/d)](https://www.linkedin.com/jobs/view/4489795729) | Instaffo | Aalen, Baden-Württemberg, Germany |  | Linkedin | 2026-11-16 |  | Technical PIM consultant role aligns partially but requires German fluency. |
@@ -2403,13 +2417,20 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 50 | ⏳ open 619 days | [(Senior) Manager SAP CX Sales Portfolio (all genders)](https://jobs.porsche.com/index.php?ac=jobad&id=14340) | MHP (Ludwigsburg) | Ludwigsburg, Düsseldorf, Frankfurt am Main, München, Wolfsburg, Berlin, Nürnberg, Dresden, Hamburg |  | MHP (Ludwigsburg) careers | 2026-10-18 |  | Manager SAP CX Sales Portfolio role at MHP requiring fluent German. |
 | 35 | date unknown | [Senior SAP CX Consultant (all genders)](https://jobs.adesso-group.com/job-invite/7845/?locale=de_DE) | adesso | 51.2741473, 6.7683316 |  | adesso careers | 2026-11-17 |  | Senior SAP CX consulting role; technical but more advisory than pure development and likely needs fluent German. [capped: on-site outside Germany] |
 
-### 🗂 Low match (titles only) (720)
+### 🗂 Low match (titles only) (728)
 
 | Score | Age | Job | Company | Location | Remote | Source | Found | Status | Why |
 |---:|---|---|---|---|---|---|---|---|---|
+| 25 | 🆕 ≤1 day | [Projektmanager (m/w/d)](https://de.indeed.com/viewjob?jk=a961e981ca688d60) | Ströer SE & Co. KGaA | Köln, NW, Germany |  | Indeed | 2026-11-23 |  | Project manager position is non‑technical and requires German fluency. |
 | 20 | 🆕 ≤1 day | [German Speaking Performance Marketing Customer Success Manager](https://de.indeed.com/viewjob?jk=2f5b63bf2fc2c02b) | Ignite Travel | München, BY, Germany |  | Indeed | 2026-11-23 |  | Performance‑marketing customer‑success role requiring fluent German, unrelated to development. |
-| 20 | 🆕 ≤1 day | [Brand- & Produktmanager E-Commerce (m/w/d) – Vollzeit – Remote-first](https://www.linkedin.com/jobs/view/4493638842) | InnoVentures GmbH | Monheim, North Rhine-Westphalia, Germany |  | Linkedin | 2026-11-23 |  | Non‑technical e‑commerce product manager, German required. |
+| 20 | 🆕 ≤1 day | [Brand- & Produktmanager E-Commerce (m/w/d) – Vollzeit – Remote-first](https://www.linkedin.com/jobs/view/4493638842) | InnoVentures GmbH | Monheim, North Rhine-Westphalia, Germany | 🏠 | Linkedin | 2026-11-23 |  | Non‑technical e‑commerce product manager, German required. |
 | 20 | 🆕 ≤1 day | [E-Commerce & Digital Marketing Specialist (m/w/d)](https://de.indeed.com/viewjob?jk=7a36c279dc166e7f) | Martin Hartl Elektrofachgrosshandel GmbH | Freising, BY, Germany |  | Indeed | 2026-11-23 |  | Digital marketing specialist, non‑technical e‑commerce, German required. |
+| 20 | 🆕 ≤1 day | [Retail Media Consultant (m/w/d)](https://de.indeed.com/viewjob?jk=6d32463f359a5b0b) | DMR Advertising | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | Retail media consulting, not a technical development position and requires German. |
+| 20 | 🆕 ≤1 day | [Project Manager Digital / E Commerce (all genders)](https://de.indeed.com/viewjob?jk=c2e3e91de5bac956) | Snipes | Köln, NW, Germany |  | Indeed | 2026-11-23 |  | The role is a project‑manager position focused on digital/e‑commerce coordination, not a technical development job. |
+| 20 | 🆕 ≤1 day | [Manager Commercial Enablement Central Europe](https://de.indeed.com/viewjob?jk=68f3f7fb3f5a4c57) | PUMA | Herzogenaurach, BY, Germany |  | Indeed | 2026-11-23 |  | It is a commercial‑enablement manager role centred on B2B platform governance, not a software‑development position. |
+| 15 | 🆕 ≤1 day | [Kaufm. Mitarbeiter (m/w/d) für Onlineshop & E-Commerce (Teilzeit)](https://www.stepstone.de/stellenangebote--Kaufm-Mitarbeiter-m-w-d-fuer-Onlineshop-E-Commerce-Teilzeit-49080-Osnabrueck-QE-GmbH-Co-KG--14784470-inline.html) | QE GmbH & Co. KG | 49080 Osnabrück |  | StepStone | 2026-11-23 |  | The position is an administrative/clerical e‑commerce assistant role with no coding responsibilities. |
+| 5 | 🆕 ≤1 day | [Senior Mode - & Accessoire Designer*in (m/w/x)](https://de.indeed.com/viewjob?jk=e9f1ad0bb2ee547d) | AMPELMANN GmbH | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | Design role unrelated to software development. |
+| 0 | 🆕 ≤1 day | [Mediengestalter Digital & Print (m/w/d)](https://de.indeed.com/viewjob?jk=2204bbba91090e79) | Kannegießer | Ostrhauderfehn, NI, Germany |  | Indeed | 2026-11-23 |  | Graphic‑design job with no relevance to e‑commerce development. |
 | 15 | 🆕 ≤1 day | [Senior SAP MM Consultant (all genders)](https://de.indeed.com/viewjob?jk=8bcb3f23ecd5a92a) | Zalando | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | The role is a functional SAP MM consultant, unrelated to SAP Commerce or Java development. |
 | 5 | 🆕 ≤1 day | [Business Unit Manager Ceramic Bodies](https://de.indeed.com/viewjob?jk=bfd7ca00052a43d3) | SIBELCO | Berlin, BE, Germany |  | Indeed | 2026-11-23 |  | Business unit manager for ceramics, unrelated to e‑commerce. |
 | 5 | 2–3 days | [Grafikdesigner / Mediengestalter Digital, Print & KI-Design (m/w/d)](https://de.indeed.com/viewjob?jk=f0612ea4c579ff03) | SmartSleep | Erkrath, NW, Germany |  | Indeed | 2026-11-21 |  | The role is a graphic design position unrelated to the candidate's technical e‑commerce background. |
@@ -2491,6 +2512,7 @@ _Updated 2026-11-23. Grouped like the email: language → fit score; newest firs
 | 20 | 4–7 days | [Digital Marketing & E-Commerce Manager:in (m/w/d)](https://de.indeed.com/viewjob?jk=cdf284b4b2b4730d) | Friendly Hunting | Griesstätt, BY, Germany |  | Indeed | 2026-11-16 |  | Digital‑marketing & e‑commerce manager role, no software development required. |
 | 20 | 4–7 days | [Digital Designer für E-Mail & E-Commerce (m/w/d)](https://de.indeed.com/viewjob?jk=1fb09402afb096a2) | Heimer Marketing GmbH | Hamburg, HH, Germany |  | Indeed | 2026-11-16 |  | Design‑focused position, unrelated to Java or SAP Commerce development. |
 | 20 | 4–7 days | [Marketing Manager Growth Marketing für E-Commerce Agentur (m/w/d) · Remote](https://de.indeed.com/viewjob?jk=63ae4fc120a9c6a0) | EVOLVE Digital GmbH | Home Office, Germany | 🏠 | Indeed | 2026-11-17 |  | It is a growth marketing role for an agency, not a software development position. |
+| 20 | 4–7 days | [(Senior) E-Commerce Projektmanager (m/w/d)](https://jobs.lidl.de/jobs/senior-e-commerce-projektmanager-m-w-d-neckarsulm-763699) | Lidl | Neckarsulm, Lidl Stiftung & Co. KG Neckarsulm, Rötelstraße 36, 74172 Neckarsulm, DE |  | Lidl careers | 2026-11-23 |  | Senior e‑commerce project‑manager work is managerial, not a development or architecture role. |
 | 15 | 4–7 days | [Online Marketing Manager CRM](https://de.indeed.com/viewjob?jk=e707034bf08bc576) | notebooksbilliger.de AG | Berlin, BE, Germany |  | Indeed | 2026-11-16 |  | Marketing‑focused role, no technical development required. |
 | 10 | 4–7 days | [Grafikdesigner:in - Product & Packaging (m/w/d)](https://de.indeed.com/viewjob?jk=f8dffc62df4aa756) | SNOCKS GmbH | Mannheim, BW, Germany |  | Indeed | 2026-11-16 |  | Graphic‑design position, unrelated to e‑commerce development. |
 | 10 | 4–7 days | [Mitarbeiter E-Commerce (m/w/d)](https://de.indeed.com/viewjob?jk=e9d395ac91b2f573) | Thommel I&H GmbH | Ravensburg, BW, Germany |  | Indeed | 2026-11-16 |  | General e‑commerce staff role, no development focus. |
