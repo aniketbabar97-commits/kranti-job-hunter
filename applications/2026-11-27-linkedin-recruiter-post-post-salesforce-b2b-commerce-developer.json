@@ -1,0 +1,176 @@
+{
+ "job": {
+  "title": "[Post] Salesforce B2B Commerce Developer ...",
+  "company": "LinkedIn recruiter post",
+  "location": "",
+  "url": "https://www.linkedin.com/posts/whitecode_hiring-salesforce-b2b-commerce-developer-activity-7531657283710251008-I4jW",
+  "apply_url": "",
+  "score": 65,
+  "lang": "en",
+  "source": "LinkedIn post",
+  "posted": "",
+  "contact": "",
+  "salary": ""
+ },
+ "tailoring": {
+  "headline": "Senior B2B Commerce Developer | SAP Commerce Cloud, Java, Spring, API Integration",
+  "summary": "Backend developer with 5+ years delivering large-scale B2B e-commerce platforms on SAP Commerce Cloud (Hybris 2105/2211) for Rockwell Automation and Shell. Expert in Java, Spring, Spring Boot, RESTful and OCC APIs, and JavaScript-enabled headless commerce. Proven record designing PIM/ERP data pipelines, API migrations, and high-performance integrations. Skilled in CI/CD, Docker/Kubernetes, and agile techno-functional consulting, translating business requirements into robust commerce solutions.",
+  "skills": {
+   "APIs & Integration": [
+    "REST web services",
+    "OCC APIs",
+    "PIM / ERP / MDM integration (Profisee, SAP ERP)",
+    "DataHub",
+    "Hotfolders",
+    "file-based data pipelines",
+    "third-party integrations"
+   ],
+   "Backend": [
+    "Java (Core & J2EE)",
+    "Spring Framework",
+    "Spring Boot",
+    "Microservices",
+    "RESTful APIs",
+    "SOAP",
+    "Design Patterns",
+    "Data Modeling",
+    "JUnit",
+    "Groovy"
+   ],
+   "E-Commerce": [
+    "SAP Commerce Cloud (Hybris 2105 / 2211)",
+    "B2B / B2C Commerce",
+    "Headless Commerce",
+    "Order Management (OMS)",
+    "Promotions Engine",
+    "Product Catalog & PIM",
+    "Backoffice",
+    "Impex",
+    "Cronjobs"
+   ],
+   "Business Analysis": [
+    "Techno-functional consulting",
+    "Requirements engineering",
+    "Business requirements analysis",
+    "User stories & acceptance criteria",
+    "Stakeholder management",
+    "Process mapping",
+    "Gap analysis",
+    "Functional specifications",
+    "User acceptance testing (UAT)",
+    "Solution design"
+   ],
+   "DevOps & Cloud": [
+    "CI/CD pipelines",
+    "Jenkins",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "SAP Commerce Cloud Portal (CCv2)",
+    "Hybris Admin Console (HAC)",
+    "production support and troubleshooting"
+   ]
+  },
+  "bullet_order": {
+   "rockwell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "shell": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "cognizant": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  "keywords_matched": [
+   "JavaScript",
+   "API",
+   "B2B Commerce"
+  ],
+  "keywords_missing": [
+   "Salesforce Commerce Cloud",
+   "Apex",
+   "LWC/Aura"
+  ],
+  "cover_en": {
+   "subject": "Application: Salesforce B2B Commerce Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "Having led SAP Commerce Cloud initiatives at Rockwell Automation and Shell, I am excited by your focus on building robust B2B commerce experiences. My five-plus years of designing headless APIs, integrating PIM/ERP data, and delivering high-performance e-commerce platforms align directly with the challenges of your Salesforce B2B Commerce projects.",
+   "bullets": [
+    {
+     "label": "API Development",
+     "text": "Designed and exposed OCC REST Web Services for headless storefronts and third-party consumers, ensuring secure, high-throughput API access."
+    },
+    {
+     "label": "Data Integration",
+     "text": "Built PIM-to-Hybris pipelines using Profisee, Hotfolders and DataHub, synchronizing product data across global channels."
+    },
+    {
+     "label": "B2B Commerce",
+     "text": "Delivered end-to-end B2B/B2C commerce solutions on SAP Commerce Cloud, covering product catalog, pricing, and order management."
+    },
+    {
+     "label": "Agile Delivery",
+     "text": "Executed CI/CD deployment cycles on CCv2, led code reviews and provided production support within Scrum teams."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, I hold a valid German work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute.",
+   "closing": ""
+  },
+  "cover_de": {},
+  "why_company": "Your commitment to expanding Salesforce B2B Commerce solutions for enterprise clients resonates with my passion for creating scalable, API-driven commerce platforms. I am eager to bring my deep experience in SAP Commerce Cloud, headless integrations, and techno-functional consulting to help accelerate your customers’ digital transformation, improve time-to-market, and ensure seamless product data synchronization across systems.",
+  "motivation_short": "Eager to apply my SAP Commerce expertise to drive innovative B2B commerce solutions within your Salesforce ecosystem, delivering fast, reliable integrations and superior customer experiences.",
+  "linkedin_message": "Hi, I’m Kranti, a senior SAP Commerce Cloud developer with 5+ years delivering B2B e-commerce platforms at Rockwell Automation and Shell. I’m keen to discuss how my API and integration experience can add value to your Salesforce B2B Commerce team.",
+  "offer": "In the first months I will modernize your B2B commerce API layer by leveraging my experience building OCC REST services and integrating PIM/ERP data pipelines. This will accelerate product data synchronization and improve platform stability for your Salesforce Commerce Cloud initiatives.",
+  "insight": "Your posting emphasizes strong API expertise; my background designing OCC REST APIs and migration projects will directly support that need.",
+  "email_subject": "Application for Salesforce B2B Commerce Developer – Kranti Chavan",
+  "email_body": "Dear Hiring Team, I am Kranti Chavan, a senior SAP Commerce Cloud developer with over five years of B2B e-commerce experience at Rockwell Automation and Shell. Your focus on robust API development for Salesforce B2B Commerce aligns with my proven track record building OCC REST services and PIM/ERP integrations. I can quickly enhance your API layer and ensure seamless data flow. I have noted your emphasis on API excellence and am ready to contribute from day one. Please find my CV and cover letter attached."
+ },
+ "letters": {
+  "en": {
+   "subject": "Application: Salesforce B2B Commerce Developer",
+   "salutation": "Dear Hiring Team,",
+   "hook": "Having led SAP Commerce Cloud initiatives at Rockwell Automation and Shell, I am excited by your focus on building robust B2B commerce experiences.",
+   "bullets": [
+    {
+     "label": "API Development",
+     "text": "Designed and exposed OCC REST Web Services for headless storefronts and third-party consumers, ensuring secure, high-throughput API access."
+    },
+    {
+     "label": "Data Integration",
+     "text": "Built PIM-to-Hybris pipelines using Profisee, Hotfolders and DataHub, synchronizing product data across global channels."
+    },
+    {
+     "label": "B2B Commerce",
+     "text": "Delivered end-to-end B2B/B2C commerce solutions on SAP Commerce Cloud, covering product catalog, pricing, and order management."
+    },
+    {
+     "label": "Agile Delivery",
+     "text": "Executed CI/CD deployment cycles on CCv2, led code reviews and provided production support within Scrum teams."
+    }
+   ],
+   "gap": "",
+   "logistics": "Based in Karlsruhe, Germany, I hold a valid German work permit, am serving notice until 15 December 2026 and can start on 16 December 2026. I look forward to discussing how I can contribute.",
+   "closing": ""
+  }
+ },
+ "created": "2026-11-27",
+ "lang": "en"
+}
